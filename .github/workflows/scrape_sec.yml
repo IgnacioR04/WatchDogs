@@ -11,6 +11,12 @@ on:
 permissions:
   contents: write
 
+# Mismo concurrency group que los otros 2 workflows: serializa todas las
+# escrituras a data/ para evitar race conditions al pushear.
+concurrency:
+  group: watchdog-write-data
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -18,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,6 +46,12 @@ jobs:
           USER_AGENT_EMAIL: ${{ secrets.USER_AGENT_EMAIL }}
         run: python -m scrapers.sec_13f
 
+      - name: Sync with remote (rebase)
+        run: |
+          git config user.name "watchdog-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase origin main || true
+
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -45,3 +59,4 @@ jobs:
           file_pattern: "data/insider_trades.json data/institutional_holdings.json"
           commit_user_name: "watchdog-bot"
           commit_user_email: "actions@github.com"
+          push_options: "--force-with-lease"

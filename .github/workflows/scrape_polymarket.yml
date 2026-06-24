@@ -11,9 +11,10 @@ on:
 permissions:
   contents: write
 
-# Evita ejecuciones concurrentes (si una tarda mas de 15 min, la nueva espera)
+# Mismo concurrency group que los otros 2 workflows: garantiza que solo
+# un workflow puede escribir en data/ a la vez en todo el repo.
 concurrency:
-  group: scrape_polymarket
+  group: watchdog-write-data
   cancel-in-progress: false
 
 jobs:
@@ -23,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,6 +39,12 @@ jobs:
       - name: Run scraper
         run: python -m scrapers.polymarket
 
+      - name: Sync with remote (rebase)
+        run: |
+          git config user.name "watchdog-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase origin main || true
+
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -43,3 +52,4 @@ jobs:
           file_pattern: "data/polymarket_top_traders.json"
           commit_user_name: "watchdog-bot"
           commit_user_email: "actions@github.com"
+          push_options: "--force-with-lease"

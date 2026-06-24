@@ -11,6 +11,12 @@ on:
 permissions:
   contents: write
 
+# Concurrency global compartido por los 3 workflows que escriben en data/.
+# Solo uno puede correr a la vez para evitar race conditions al pushear.
+concurrency:
+  group: watchdog-write-data
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -18,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # clone completo para que pull rebase tenga ancestros
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -33,6 +41,12 @@ jobs:
           USER_AGENT_EMAIL: ${{ secrets.USER_AGENT_EMAIL }}
         run: python -m scrapers.congress
 
+      - name: Sync with remote (rebase)
+        run: |
+          git config user.name "watchdog-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase origin main || true
+
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -40,3 +54,4 @@ jobs:
           file_pattern: "data/congress_trades.json"
           commit_user_name: "watchdog-bot"
           commit_user_email: "actions@github.com"
+          push_options: "--force-with-lease"
