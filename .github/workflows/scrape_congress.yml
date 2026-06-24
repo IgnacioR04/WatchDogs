@@ -1,0 +1,42 @@
+name: scrape_congress
+
+# Scraping de trades de congresistas (House + Senate) cada 6 horas.
+# Tambien ejecutable manualmente via workflow_dispatch.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          USER_AGENT_EMAIL: ${{ secrets.USER_AGENT_EMAIL }}
+        run: python -m scrapers.congress
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: refresh congress_trades [skip ci]"
+          file_pattern: "data/congress_trades.json"
+          commit_user_name: "watchdog-bot"
+          commit_user_email: "actions@github.com"

@@ -1,0 +1,45 @@
+name: scrape_polymarket
+
+# Scraping del leaderboard y top traders de Polymarket cada 15 minutos.
+# Tambien ejecutable manualmente via workflow_dispatch.
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Evita ejecuciones concurrentes (si una tarda mas de 15 min, la nueva espera)
+concurrency:
+  group: scrape_polymarket
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python -m scrapers.polymarket
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: refresh polymarket [skip ci]"
+          file_pattern: "data/polymarket_top_traders.json"
+          commit_user_name: "watchdog-bot"
+          commit_user_email: "actions@github.com"
