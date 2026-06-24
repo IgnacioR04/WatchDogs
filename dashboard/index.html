@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WATCHDOG - Congress, Insider & Polymarket Tracker</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0f14;
+    --bg-elev: #121821;
+    --bg-elev2: #1a2230;
+    --border: #232c3a;
+    --text: #e6edf3;
+    --text-dim: #8b95a7;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #d29922;
+    --purple: #bc8cff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size:13px; }
+  a { color: var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header { padding: 20px 24px; border-bottom: 1px solid var(--border); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+  header h1 { margin:0; font-size:18px; letter-spacing:0.05em; }
+  header .meta { color: var(--text-dim); font-size:12px; }
+  .container { padding: 16px 24px 40px; max-width: 1400px; margin: 0 auto; }
+  .tabs { display:flex; gap:2px; border-bottom:1px solid var(--border); margin-bottom:16px; flex-wrap:wrap; }
+  .tab { padding:10px 16px; background:transparent; border:none; color:var(--text-dim); cursor:pointer; font-family:inherit; font-size:13px; border-bottom:2px solid transparent; }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .toolbar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
+  .toolbar input, .toolbar select { background: var(--bg-elev); color: var(--text); border:1px solid var(--border); padding:6px 10px; border-radius:4px; font-family:inherit; font-size:13px; }
+  .toolbar label { color: var(--text-dim); font-size:12px; }
+  table { width:100%; border-collapse: collapse; background: var(--bg-elev); border:1px solid var(--border); border-radius:4px; overflow:hidden; }
+  th, td { padding: 8px 10px; text-align:left; border-bottom:1px solid var(--border); white-space:nowrap; }
+  th { background: var(--bg-elev2); color: var(--text-dim); font-weight:600; cursor:pointer; user-select:none; }
+  th:hover { color: var(--text); }
+  tr:hover td { background: var(--bg-elev2); }
+  td.num { text-align:right; font-variant-numeric: tabular-nums; }
+  .tag-D { color: var(--accent); }
+  .tag-R { color: var(--red); }
+  .tag-I { color: var(--yellow); }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .pill { display:inline-block; padding:2px 6px; border-radius:3px; font-size:11px; background: var(--bg-elev2); border:1px solid var(--border); }
+  .stat-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:10px; margin-bottom:16px; }
+  .stat { background: var(--bg-elev); border:1px solid var(--border); padding:10px 12px; border-radius:4px; }
+  .stat .v { font-size:18px; font-weight:600; }
+  .stat .l { color: var(--text-dim); font-size:11px; }
+  .panel { background: var(--bg-elev); border:1px solid var(--border); border-radius:4px; padding:14px; margin-bottom:16px; }
+  .panel h3 { margin: 0 0 10px 0; font-size:14px; color: var(--text-dim); text-transform: uppercase; letter-spacing:0.05em; }
+  details { background: var(--bg-elev2); border:1px solid var(--border); border-radius:4px; padding:8px 12px; margin-top:6px; }
+  details summary { cursor:pointer; color: var(--text); }
+  details[open] summary { color: var(--accent); margin-bottom:8px; }
+  .loading, .error { padding: 40px; text-align:center; color: var(--text-dim); }
+  .error { color: var(--red); }
+  .grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+  @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } th, td { font-size:11px; padding:6px 8px; } }
+  .ranking { display:flex; flex-direction:column; gap:4px; max-height:300px; overflow-y:auto; }
+  .ranking-row { display:flex; justify-content:space-between; padding:4px 8px; background:var(--bg-elev2); border-radius:3px; font-size:12px; }
+  .ranking-row:hover { background:var(--border); }
+  .truncate { max-width: 240px; overflow:hidden; text-overflow:ellipsis; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="env,react">
+const { useState, useEffect, useMemo, useCallback } = React;
+
+// URLs de los datasets. En GitHub Pages se sirven desde /WatchDogs/data/.
+// En desarrollo local con index.html abierto al lado de data/, fetch relativo funciona.
+const DATA_BASE = (() => {
+  // Si estamos en github.io, usamos la ruta del repo. Si no, relativa.
+  if (location.hostname.endsWith('github.io')) {
+    return location.pathname.replace(/\/dashboard\/.*$/, '') + '/data/';
+  }
+  // Local: dashboard/index.html -> ../data/
+  return '../data/';
+})();
+
+const FILES = {
+  congress: 'congress_trades.json',
+  insiders: 'insider_trades.json',
+  institutional: 'institutional_holdings.json',
+  polymarket: 'polymarket_top_traders.json',
+};
+
+function fmtNum(n, dp = 0) {
+  if (n === null || n === undefined || isNaN(n)) return '-';
+  return Number(n).toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+}
+function fmtUsd(n) {
+  if (n === null || n === undefined || isNaN(n)) return '-';
+  const abs = Math.abs(n);
+  if (abs >= 1e9) return '$' + (n / 1e9).toFixed(2) + 'B';
+  if (abs >= 1e6) return '$' + (n / 1e6).toFixed(2) + 'M';
+  if (abs >= 1e3) return '$' + (n / 1e3).toFixed(1) + 'K';
+  return '$' + fmtNum(n, 0);
+}
+function partyClass(p) { return 'tag-' + (p || '').toUpperCase().slice(0, 1) || ''; }
+
+// ---------- Tabla ordenable ----------
+function SortableTable({ columns, rows, initialSort, maxRows = 500 }) {
+  const [sort, setSort] = useState(initialSort || { key: columns[0].key, dir: 'desc' });
+  const sorted = useMemo(() => {
+    const arr = [...rows];
+    arr.sort((a, b) => {
+      const va = a[sort.key];
+      const vb = b[sort.key];
+      if (va === vb) return 0;
+      if (va === undefined || va === null) return 1;
+      if (vb === undefined || vb === null) return -1;
+      if (typeof va === 'number' && typeof vb === 'number') return sort.dir === 'asc' ? va - vb : vb - va;
+      return sort.dir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+    });
+    return arr.slice(0, maxRows);
+  }, [rows, sort, maxRows]);
+  return (
+    <table>
+      <thead>
+        <tr>
+          {columns.map(c => (
+            <th key={c.key} onClick={() => setSort(s => ({ key: c.key, dir: s.key === c.key && s.dir === 'desc' ? 'asc' : 'desc' }))}>
+              {c.label}{sort.key === c.key ? (sort.dir === 'desc' ? ' v' : ' ^') : ''}
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {sorted.map((r, i) => (
+          <tr key={r.id || r._k || i}>
+            {columns.map(c => <td key={c.key} className={c.numeric ? 'num' : ''}>{c.render ? c.render(r) : r[c.key]}</td>)}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
+// ---------- Tab: Congress ----------
+function CongressTab({ data }) {
+  const [party, setParty] = useState('ALL');
+  const [ticker, setTicker] = useState('');
+  const [politician, setPolitician] = useState('');
+  const filtered = useMemo(() => data.filter(r => {
+    if (party !== 'ALL' && (r.party || '').toUpperCase() !== party) return false;
+    if (ticker && !(r.ticker || '').toLowerCase().includes(ticker.toLowerCase())) return false;
+    if (politician && !(r.politician || '').toLowerCase().includes(politician.toLowerCase())) return false;
+    return true;
+  }), [data, party, ticker, politician]);
+
+  const tickerRanking = useMemo(() => {
+    const counter = new Map();
+    for (const r of data) {
+      if (r.tx_type !== 'purchase' || !r.ticker) continue;
+      counter.set(r.ticker, (counter.get(r.ticker) || 0) + 1);
+    }
+    return [...counter.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20);
+  }, [data]);
+
+  return (
+    <>
+      <div className="stat-grid">
+        <div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">trades totales</div></div>
+        <div className="stat"><div className="v">{fmtNum(new Set(data.map(r => r.politician)).size)}</div><div className="l">politicos unicos</div></div>
+        <div className="stat"><div className="v">{fmtNum(new Set(data.filter(r => r.ticker).map(r => r.ticker)).size)}</div><div className="l">tickers operados</div></div>
+        <div className="stat"><div className="v">{fmtNum(data.filter(r => r.tx_type === 'purchase').length)}</div><div className="l">compras</div></div>
+      </div>
+      <div className="grid-2">
+        <div>
+          <div className="toolbar">
+            <label>partido <select value={party} onChange={e => setParty(e.target.value)}><option>ALL</option><option>D</option><option>R</option><option>I</option></select></label>
+            <label>ticker <input value={ticker} onChange={e => setTicker(e.target.value)} placeholder="NVDA" /></label>
+            <label>politico <input value={politician} onChange={e => setPolitician(e.target.value)} placeholder="Pelosi" /></label>
+            <span style={{ color: 'var(--text-dim)' }}>{fmtNum(filtered.length)} resultados</span>
+          </div>
+          <SortableTable
+            columns={[
+              { key: 'tx_date', label: 'Fecha' },
+              { key: 'politician', label: 'Politico', render: r => <span className="truncate" style={{ display: 'inline-block' }}>{r.politician}</span> },
+              { key: 'party', label: 'P', render: r => <span className={partyClass(r.party)}>{r.party || '-'}</span> },
+              { key: 'chamber', label: 'Camara', render: r => <span className="pill">{r.chamber}</span> },
+              { key: 'ticker', label: 'Ticker' },
+              { key: 'tx_type', label: 'Tipo', render: r => <span className={r.tx_type === 'purchase' ? 'pos' : r.tx_type === 'sale' ? 'neg' : ''}>{r.tx_type}</span> },
+              { key: 'amount_range', label: 'Monto' },
+              { key: 'source_url', label: 'Fuente', render: r => r.source_url ? <a href={r.source_url} target="_blank" rel="noopener">link</a> : '-' },
+            ]}
+            rows={filtered}
+            initialSort={{ key: 'tx_date', dir: 'desc' }}
+          />
+        </div>
+        <div>
+          <div className="panel">
+            <h3>Top 20 tickers mas comprados</h3>
+            <div className="ranking">
+              {tickerRanking.map(([t, c]) => (
+                <div className="ranking-row" key={t}><span>{t}</span><span><b>{c}</b> compras</span></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+// ---------- Tab: Insiders ----------
+function InsidersTab({ data }) {
+  const [ticker, setTicker] = useState('');
+  const [insider, setInsider] = useState('');
+  const [direction, setDirection] = useState('ALL');
+  const filtered = useMemo(() => data.filter(r => {
+    if (ticker && !(r.ticker || '').toLowerCase().includes(ticker.toLowerCase())) return false;
+    if (insider && !(r.insider_name || '').toLowerCase().includes(insider.toLowerCase())) return false;
+    if (direction !== 'ALL') {
+      const isBuy = (r.tx_type || '').startsWith('P-') || (r.tx_type || '').startsWith('M-');
+      const isSell = (r.tx_type || '').startsWith('S-') || (r.tx_type || '').startsWith('D-');
+      if (direction === 'BUY' && !isBuy) return false;
+      if (direction === 'SELL' && !isSell) return false;
+    }
+    return true;
+  }), [data, ticker, insider, direction]);
+
+  return (
+    <>
+      <div className="stat-grid">
+        <div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">trades totales</div></div>
+        <div className="stat"><div className="v">{fmtNum(new Set(data.map(r => r.insider_name)).size)}</div><div className="l">insiders unicos</div></div>
+        <div className="stat"><div className="v">{fmtNum(new Set(data.map(r => r.ticker).filter(Boolean)).size)}</div><div className="l">empresas</div></div>
+        <div className="stat"><div className="v">{fmtNum(data.filter(r => (r.tx_type || '').startsWith('P-')).length)}</div><div className="l">compras (P)</div></div>
+      </div>
+      <div className="toolbar">
+        <label>ticker <input value={ticker} onChange={e => setTicker(e.target.value)} placeholder="NVDA" /></label>
+        <label>insider <input value={insider} onChange={e => setInsider(e.target.value)} placeholder="Huang" /></label>
+        <label>direccion <select value={direction} onChange={e => setDirection(e.target.value)}><option>ALL</option><option value="BUY">BUY</option><option value="SELL">SELL</option></select></label>
+        <span style={{ color: 'var(--text-dim)' }}>{fmtNum(filtered.length)} resultados</span>
+      </div>
+      <SortableTable
+        columns={[
+          { key: 'tx_date', label: 'Fecha' },
+          { key: 'insider_name', label: 'Insider', render: r => <span className="truncate" style={{ display: 'inline-block' }}>{r.insider_name}</span> },
+          { key: 'insider_title', label: 'Cargo', render: r => <span className="truncate" style={{ display: 'inline-block' }}>{r.insider_title}</span> },
+          { key: 'company', label: 'Empresa', render: r => <span className="truncate" style={{ display: 'inline-block' }}>{r.company}</span> },
+          { key: 'ticker', label: 'Ticker' },
+          { key: 'tx_type', label: 'Tipo', render: r => <span className={(r.tx_type || '').startsWith('P-') || (r.tx_type || '').startsWith('M-') ? 'pos' : (r.tx_type || '').startsWith('S-') || (r.tx_type || '').startsWith('D-') ? 'neg' : ''}>{r.tx_type}</span> },
+          { key: 'shares', label: 'Shares', numeric: true, render: r => fmtNum(r.shares) },
+          { key: 'price_per_share', label: 'Precio', numeric: true, render: r => r.price_per_share ? '$' + fmtNum(r.price_per_share, 2) : '-' },
+          { key: 'source_url', label: 'Fuente', render: r => r.source_url ? <a href={r.source_url} target="_blank" rel="noopener">link</a> : '-' },
+        ]}
+        rows={filtered}
+        initialSort={{ key: 'tx_date', dir: 'desc' }}
+      />
+    </>
+  );
+}
+
+// ---------- Tab: Institucionales ----------
+function InstitutionalTab({ data }) {
+  const [tickerSearch, setTickerSearch] = useState('');
+  const tickerHolders = useMemo(() => {
+    if (!tickerSearch) return null;
+    const needle = tickerSearch.toLowerCase();
+    const out = [];
+    for (const m of data) {
+      for (const h of m.holdings || []) {
+        const name = (h.asset_name || '').toLowerCase();
+        const tk = (h.ticker || '').toLowerCase();
+        if (name.includes(needle) || tk.includes(needle)) {
+          out.push({ manager: m.manager, asset_name: h.asset_name, shares: h.shares, value_usd: h.value_usd });
+          break;
+        }
+      }
+    }
+    return out.sort((a, b) => b.value_usd - a.value_usd);
+  }, [data, tickerSearch]);
+
+  return (
+    <>
+      <div className="stat-grid">
+        <div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">managers</div></div>
+        <div className="stat"><div className="v">{fmtUsd(data.reduce((s, m) => s + (m.aum_usd || 0), 0))}</div><div className="l">AUM combinado</div></div>
+        <div className="stat"><div className="v">{fmtNum(data.reduce((s, m) => s + (m.holdings?.length || 0), 0))}</div><div className="l">holdings totales</div></div>
+      </div>
+      <div className="panel">
+        <h3>Buscar empresa: quien la tiene</h3>
+        <div className="toolbar"><input value={tickerSearch} onChange={e => setTickerSearch(e.target.value)} placeholder="APPLE / NVIDIA / MICROSOFT" style={{ width: 320 }} /></div>
+        {tickerHolders && tickerHolders.length > 0 && (
+          <table>
+            <thead><tr><th>Manager</th><th>Asset</th><th className="num">Shares</th><th className="num">Valor</th></tr></thead>
+            <tbody>{tickerHolders.map((h, i) => (<tr key={i}><td>{h.manager}</td><td>{h.asset_name}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td></tr>))}</tbody>
+          </table>
+        )}
+        {tickerHolders && tickerHolders.length === 0 && <p style={{ color: 'var(--text-dim)' }}>Sin resultados.</p>}
+      </div>
+      <div className="panel">
+        <h3>Top managers por AUM reportado</h3>
+        {data.map(m => (
+          <details key={m.cik}>
+            <summary><b>{m.manager}</b> - {fmtUsd(m.aum_usd)} - {m.holdings?.length || 0} holdings - report {m.report_date} - <a href={m.source_url} target="_blank" rel="noopener">SEC</a></summary>
+            <table>
+              <thead><tr><th>Asset</th><th>CUSIP</th><th className="num">Shares</th><th className="num">Valor</th></tr></thead>
+              <tbody>{(m.holdings || []).slice(0, 30).map((h, i) => (<tr key={i}><td>{h.asset_name}</td><td>{h.cusip}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td></tr>))}</tbody>
+            </table>
+            {(m.holdings || []).length > 30 && <p style={{ color: 'var(--text-dim)', marginTop: 6 }}>+{m.holdings.length - 30} mas...</p>}
+          </details>
+        ))}
+      </div>
+    </>
+  );
+}
+
+// ---------- Tab: Polymarket ----------
+function PolymarketTab({ data }) {
+  return (
+    <>
+      <div className="stat-grid">
+        <div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">traders</div></div>
+        <div className="stat"><div className="v">{fmtUsd(data.reduce((s, t) => s + (t.pnl || 0), 0))}</div><div className="l">PnL combinado</div></div>
+        <div className="stat"><div className="v">{(data.length ? data.reduce((s, t) => s + (t.win_rate_positions || 0), 0) / data.length * 100 : 0).toFixed(1)}%</div><div className="l">win rate medio</div></div>
+      </div>
+      <SortableTable
+        columns={[
+          { key: 'username', label: 'Trader', render: t => <details style={{ background: 'transparent', border: 'none', padding: 0 }}><summary>{t.username || t.wallet.slice(0, 10) + '...'}</summary><div style={{ marginTop: 6 }}>{(t.top_positions || []).map((p, i) => (<div key={i} className="ranking-row"><span className="truncate" style={{ display: 'inline-block' }}>{p.market} ({p.position})</span><span className={p.realized_pnl >= 0 ? 'pos' : 'neg'}>{fmtUsd(p.size)} {p.realized_pnl ? (p.realized_pnl >= 0 ? '+' : '') + fmtUsd(p.realized_pnl) : ''}</span></div>))}</div></details> },
+          { key: 'pnl', label: 'PnL', numeric: true, render: t => <span className={t.pnl >= 0 ? 'pos' : 'neg'}>{fmtUsd(t.pnl)}</span> },
+          { key: 'volume', label: 'Volumen', numeric: true, render: t => fmtUsd(t.volume) },
+          { key: 'win_rate_positions', label: 'Win rate', numeric: true, render: t => (t.win_rate_positions * 100).toFixed(1) + '%' },
+          { key: 'markets_traded', label: 'Mercados', numeric: true, render: t => fmtNum(t.markets_traded) },
+          { key: 'category', label: 'Cat', render: t => <span className="pill">{t.category}</span> },
+          { key: 'wallet', label: 'Wallet', render: t => <a href={`https://polymarket.com/profile/${t.wallet}`} target="_blank" rel="noopener">{t.wallet.slice(0, 10)}...</a> },
+        ]}
+        rows={data}
+        initialSort={{ key: 'pnl', dir: 'desc' }}
+      />
+    </>
+  );
+}
+
+// ---------- Tab: Cross-reference ----------
+function CrossRefTab({ congress, insiders, institutional }) {
+  const [ticker, setTicker] = useState('NVDA');
+  const t = ticker.trim().toUpperCase();
+  const congressMatches = useMemo(() => congress.filter(r => (r.ticker || '').toUpperCase() === t).slice(0, 50), [congress, t]);
+  const insiderMatches = useMemo(() => insiders.filter(r => (r.ticker || '').toUpperCase() === t).slice(0, 50), [insiders, t]);
+  const instMatches = useMemo(() => {
+    const out = [];
+    for (const m of institutional) {
+      for (const h of (m.holdings || [])) {
+        const ok = (h.ticker || '').toUpperCase() === t || (h.asset_name || '').toUpperCase().includes(t);
+        if (ok) { out.push({ manager: m.manager, ...h, report_date: m.report_date }); break; }
+      }
+    }
+    return out.sort((a, b) => b.value_usd - a.value_usd);
+  }, [institutional, t]);
+
+  return (
+    <>
+      <div className="toolbar">
+        <label>ticker <input value={ticker} onChange={e => setTicker(e.target.value)} placeholder="NVDA" style={{ width: 180 }} /></label>
+      </div>
+      <div className="grid-2">
+        <div className="panel">
+          <h3>Congreso ({congressMatches.length})</h3>
+          {congressMatches.length === 0 ? <p style={{ color: 'var(--text-dim)' }}>Sin trades.</p> : (
+            <table><thead><tr><th>Fecha</th><th>Politico</th><th>P</th><th>Tipo</th><th>Monto</th></tr></thead>
+              <tbody>{congressMatches.map(r => (<tr key={r.id}><td>{r.tx_date}</td><td className="truncate">{r.politician}</td><td><span className={partyClass(r.party)}>{r.party}</span></td><td>{r.tx_type}</td><td>{r.amount_range}</td></tr>))}</tbody>
+            </table>
+          )}
+        </div>
+        <div className="panel">
+          <h3>Insiders ({insiderMatches.length})</h3>
+          {insiderMatches.length === 0 ? <p style={{ color: 'var(--text-dim)' }}>Sin transacciones recientes.</p> : (
+            <table><thead><tr><th>Fecha</th><th>Insider</th><th>Cargo</th><th>Tipo</th><th className="num">Shares</th></tr></thead>
+              <tbody>{insiderMatches.map(r => (<tr key={r.id}><td>{r.tx_date}</td><td className="truncate">{r.insider_name}</td><td className="truncate">{r.insider_title}</td><td>{r.tx_type}</td><td className="num">{fmtNum(r.shares)}</td></tr>))}</tbody>
+            </table>
+          )}
+        </div>
+      </div>
+      <div className="panel" style={{ marginTop: 14 }}>
+        <h3>Institucionales que la tienen ({instMatches.length})</h3>
+        {instMatches.length === 0 ? <p style={{ color: 'var(--text-dim)' }}>Ningun manager 13F la reporta.</p> : (
+          <table><thead><tr><th>Manager</th><th>Asset</th><th className="num">Shares</th><th className="num">Valor</th><th>Report</th></tr></thead>
+            <tbody>{instMatches.slice(0, 50).map((h, i) => (<tr key={i}><td>{h.manager}</td><td>{h.asset_name}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td><td>{h.report_date}</td></tr>))}</tbody>
+          </table>
+        )}
+      </div>
+    </>
+  );
+}
+
+// ---------- App ----------
+function App() {
+  const [data, setData] = useState({ congress: null, insiders: null, institutional: null, polymarket: null });
+  const [error, setError] = useState(null);
+  const [tab, setTab] = useState('congress');
+  const [lastUpdated, setLastUpdated] = useState(null);
+
+  const load = useCallback(async () => {
+    setError(null);
+    try {
+      const entries = await Promise.all(Object.entries(FILES).map(async ([k, f]) => {
+        const r = await fetch(DATA_BASE + f + '?t=' + Date.now());
+        if (!r.ok) throw new Error(`${f}: HTTP ${r.status}`);
+        const lastMod = r.headers.get('last-modified');
+        const json = await r.json();
+        return [k, json, lastMod];
+      }));
+      const next = {};
+      let newest = null;
+      for (const [k, v, lm] of entries) {
+        next[k] = v;
+        if (lm && (!newest || new Date(lm) > new Date(newest))) newest = lm;
+      }
+      setData(next);
+      setLastUpdated(newest || new Date().toISOString());
+    } catch (e) { setError(e.message); }
+  }, []);
+
+  useEffect(() => { load(); }, [load]);
+
+  const allReady = data.congress && data.insiders && data.institutional && data.polymarket;
+  if (error) return (
+    <>
+      <header><h1>WATCHDOG</h1></header>
+      <div className="error">Error cargando datos: {error}<br /><br /><button onClick={load}>reintentar</button></div>
+    </>
+  );
+  if (!allReady) return (
+    <>
+      <header><h1>WATCHDOG</h1></header>
+      <div className="loading">cargando datasets...</div>
+    </>
+  );
+
+  return (
+    <>
+      <header>
+        <div>
+          <h1>WATCHDOG</h1>
+          <div className="meta">Congress, Insider & Polymarket Tracker</div>
+        </div>
+        <div className="meta">
+          {lastUpdated && <>actualizado: {new Date(lastUpdated).toLocaleString()}<br /></>}
+          <a href="#" onClick={(e) => { e.preventDefault(); load(); }}>refrescar</a>
+        </div>
+      </header>
+      <div className="container">
+        <div className="tabs">
+          <button className={`tab ${tab === 'congress' ? 'active' : ''}`} onClick={() => setTab('congress')}>Congress ({fmtNum(data.congress.length)})</button>
+          <button className={`tab ${tab === 'insiders' ? 'active' : ''}`} onClick={() => setTab('insiders')}>Insiders ({fmtNum(data.insiders.length)})</button>
+          <button className={`tab ${tab === 'institutional' ? 'active' : ''}`} onClick={() => setTab('institutional')}>Institucionales ({fmtNum(data.institutional.length)})</button>
+          <button className={`tab ${tab === 'polymarket' ? 'active' : ''}`} onClick={() => setTab('polymarket')}>Polymarket ({fmtNum(data.polymarket.length)})</button>
+          <button className={`tab ${tab === 'crossref' ? 'active' : ''}`} onClick={() => setTab('crossref')}>Cross-ref</button>
+        </div>
+        {tab === 'congress' && <CongressTab data={data.congress} />}
+        {tab === 'insiders' && <InsidersTab data={data.insiders} />}
+        {tab === 'institutional' && <InstitutionalTab data={data.institutional} />}
+        {tab === 'polymarket' && <PolymarketTab data={data.polymarket} />}
+        {tab === 'crossref' && <CrossRefTab congress={data.congress} insiders={data.insiders} institutional={data.institutional} />}
+      </div>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
