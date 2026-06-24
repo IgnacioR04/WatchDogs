@@ -51,7 +51,10 @@ Ver [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) para los schemas completos. Resumen
 ```bash
 pip install -r requirements.txt
 
-# Cada scraper se ejecuta como modulo y escribe en data/
+# Los 4 scrapers en serie
+python run_all.py
+
+# O cada uno por separado
 python -m scrapers.congress
 python -m scrapers.sec_insider
 python -m scrapers.sec_13f
@@ -59,12 +62,39 @@ python -m scrapers.polymarket
 
 # Tests
 pytest
+
+# Dashboard local
+python -m http.server 8766
+# abrir http://localhost:8766/dashboard/index.html
 ```
 
 Variable de entorno (solo necesaria para SEC):
 ```
 USER_AGENT_EMAIL=tu_email@ejemplo.com
 ```
+
+## Push inicial y activacion de GitHub Pages
+
+```bash
+cd "G:/Mi unidad/watchdog"
+git remote add origin git@github.com:IgnacioR04/WatchDogs.git
+git push -u origin main
+```
+
+Despues del push:
+
+1. **GitHub > Settings > Secrets and variables > Actions > New repository secret**
+   - Name: `USER_AGENT_EMAIL`
+   - Value: tu email (el mismo del User-Agent SEC)
+
+2. **GitHub > Settings > Pages**
+   - Source: Deploy from a branch
+   - Branch: `main` / `(root)`
+   - Guardar
+
+URL resultante: `https://IgnacioR04.github.io/WatchDogs/dashboard/index.html`
+
+3. **Ejecutar workflows manualmente la primera vez** (Actions > scrape_xxx > Run workflow) para refrescar los datos.
 
 ## Dashboard
 
