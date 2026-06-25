@@ -37,8 +37,10 @@ DATASETS: dict[str, dict[str, Any]] = {
     "institutional_changes_latest.json": {"type": "snapshot"},
     "polymarket_smart_traders.json": {"type": "snapshot"},
     "polymarket_whales.json": {"type": "snapshot"},
-    "signals_30d.json": {"type": "events", "date_keys": ["event_date", "disclosure_date"]},
+    # Derivados (ya estan acotados a 30d por construccion): no re-filtrar.
+    "signals_30d.json": {"type": "snapshot"},
     "top_movements_30d.json": {"type": "snapshot"},
+    "llm_context_30d.json": {"type": "snapshot"},
 }
 
 

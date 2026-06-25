@@ -1,0 +1,1669 @@
+{
+  "project": "WATCHDOG",
+  "generated_at": "2026-06-25T13:41:42.965770+00:00",
+  "window": {
+    "from": "2026-05-26",
+    "to": "2026-06-25",
+    "days": 30
+  },
+  "data_quality": {
+    "overall_status": "ok",
+    "notes": [
+      "Senate no disponible en vivo (portal eFD bloqueado); House si.",
+      "13F lleva retraso legal de ~45 dias; refleja el quarter de consenso.",
+      "Congressional disclosures tienen retraso legal de hasta 45 dias."
+    ],
+    "datasets": {
+      "congress": "ok",
+      "sec_insiders": "ok",
+      "sec_13d_13g": "ok",
+      "institutional_13f": "ok",
+      "polymarket": "ok"
+    }
+  },
+  "market_context": {
+    "top_themes": [
+      "stock",
+      "ai",
+      "merger",
+      "regulatory",
+      "earnings"
+    ],
+    "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
+  },
+  "top_movements": [
+    {
+      "id": "move_1",
+      "rank": 1,
+      "title": "10% owner compro KARD ($50.0M)",
+      "summary": "10% owner HRTG GPE, LLC compro KARD por $50.0M el 2026-06-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "HRTG GPE, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "KARD",
+      "direction": "buy",
+      "amount_estimated": 50000000.0,
+      "event_date": "2026-06-22",
+      "importance_score": 88.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1537455/000119312526281553/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "10% owner compro Blackstone Private Real Estate Credit & Income Fund ($20.0M)",
+      "summary": "10% owner Blackstone Private Multi-Asset Credit & Income Fund compro Blackstone Private Real Estate Credit & Income Fund por $20.0M el 2026-06-23.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Blackstone Private Multi-Asset Credit & Income Fund",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20000000.0,
+      "event_date": "2026-06-23",
+      "importance_score": 86.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1070844/000121390026071510/"
+    },
+    {
+      "id": "move_3",
+      "rank": 3,
+      "title": "10% owner vendio WBI ($52.7M)",
+      "summary": "10% owner DEVON ENERGY CORP/DE vendio WBI por $52.7M el 2026-06-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "DEVON ENERGY CORP/DE",
+      "actor_type": "ten_percent_owner",
+      "ticker": "WBI",
+      "direction": "sell",
+      "amount_estimated": 52742978.7,
+      "event_date": "2026-06-22",
+      "importance_score": 84.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526281148/"
+    },
+    {
+      "id": "move_4",
+      "rank": 4,
+      "title": "CEO compro PSEC ($2.2M)",
+      "summary": "CEO Barry John F compro PSEC por $2.2M el 2026-06-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Barry John F",
+      "actor_type": "ceo",
+      "ticker": "PSEC",
+      "direction": "buy",
+      "amount_estimated": 2246300.0,
+      "event_date": "2026-06-22",
+      "importance_score": 84.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1294357/000129435726000010/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
+      "title": "CEO vendio BKR ($10.6M)",
+      "summary": "CEO Simonelli Lorenzo vendio BKR por $10.6M el 2026-06-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Simonelli Lorenzo",
+      "actor_type": "ceo",
+      "ticker": "BKR",
+      "direction": "sell",
+      "amount_estimated": 10599844.73,
+      "event_date": "2026-06-22",
+      "importance_score": 83.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1709160/000170916026000016/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "CEO opero APLD ($14.2M)",
+      "summary": "CEO Cummins Wes opero APLD por $14.2M el 2026-06-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Cummins Wes",
+      "actor_type": "ceo",
+      "ticker": "APLD",
+      "direction": "other",
+      "amount_estimated": 14228960.0,
+      "event_date": "2026-06-22",
+      "importance_score": 82.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1391935/000162828026045215/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "10% owner compro AMS ($1.3M)",
+      "summary": "10% owner Stachowiak Raymond C compro AMS por $1.3M el 2026-06-22 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Stachowiak Raymond C",
+      "actor_type": "ten_percent_owner",
+      "ticker": "AMS",
+      "direction": "buy",
+      "amount_estimated": 1337147.04,
+      "event_date": "2026-06-22",
+      "importance_score": 81.7,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1609580/000143774926021567/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 35477573797,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
+      "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
+      "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 34526349702,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
+      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Nomura Holdings Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 19159260573,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
+      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Citadel Advisors LLC",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16040282989,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
+      "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Geode Capital Management LLC",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 13135619419,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12478004415,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12307921184,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12266872781,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12231430056,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
+      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 11607569229,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
+      "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 11567787969,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    }
+  ],
+  "top_tickers": {
+    "buy_pressure": [
+      {
+        "ticker": "ADTX",
+        "company": "Aditxt, Inc.",
+        "pressure_score": 861.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "FTH",
+        "company": "Faeth Therapeutics, Inc.",
+        "pressure_score": 806.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PEW",
+        "company": "GrabAGun Digital Holdings Inc.",
+        "pressure_score": 476.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MBRX",
+        "company": "Moleculin Biotech, Inc.",
+        "pressure_score": 429.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RLAY",
+        "company": "Relay Therapeutics, Inc.",
+        "pressure_score": 299.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TDG",
+        "company": "TransDigm Group INC",
+        "pressure_score": 297.0,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HUBB",
+        "company": "DC Hubbell Inc Common Stock",
+        "pressure_score": 296.1,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "PI",
+        "company": "IMPINJ INC",
+        "pressure_score": 290.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "KYN",
+        "company": "Kayne Anderson Energy Infrastructure Fund, Inc.",
+        "pressure_score": 286.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NUVB",
+        "company": "Nuvation Bio Inc.",
+        "pressure_score": 280.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BBIO",
+        "company": "BridgeBio Pharma, Inc.",
+        "pressure_score": 271.9,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CAPR",
+        "company": "CAPRICOR THERAPEUTICS, INC.",
+        "pressure_score": 245.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "pressure_score": 244.1,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 237.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "LPLA",
+        "company": "Common Stock",
+        "pressure_score": 230.2,
+        "sources": [
+          "congress"
+        ]
+      }
+    ],
+    "sell_pressure": [
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 5862.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 2778.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks, Inc.",
+        "pressure_score": 2012.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CNTA",
+        "company": "Centessa Pharmaceuticals plc",
+        "pressure_score": 1704.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "TTAN",
+        "company": "ServiceTitan, Inc.",
+        "pressure_score": 848.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 808.4,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VICR",
+        "company": "VICOR CORP",
+        "pressure_score": 614.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PANW",
+        "company": "Palo Alto Networks Inc",
+        "pressure_score": 446.3,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ASAN",
+        "company": "Asana, Inc.",
+        "pressure_score": 417.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MAX",
+        "company": "MediaAlpha, Inc.",
+        "pressure_score": 393.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RLAY",
+        "company": "Relay Therapeutics, Inc.",
+        "pressure_score": 384.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NVMI",
+        "company": "NOVA LTD.",
+        "pressure_score": 353.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TSCO",
+        "company": "Stock",
+        "pressure_score": 348.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "WRB",
+        "company": "Stock",
+        "pressure_score": 346.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MRDN",
+        "company": "Meridian Holdings Inc./NV",
+        "pressure_score": 337.3,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      }
+    ]
+  },
+  "insider_buying": [
+    {
+      "ticker": "KARD",
+      "company": "Kardigan, Inc.",
+      "actor": "HRTG GPE, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 50000000.0,
+      "date": "2026-06-22",
+      "score": 88.3
+    },
+    {
+      "ticker": "PSEC",
+      "company": "PROSPECT CAPITAL CORP",
+      "actor": "Barry John F",
+      "actor_type": "ceo",
+      "amount": 2246300.0,
+      "date": "2026-06-22",
+      "score": 84.1
+    },
+    {
+      "ticker": "AMS",
+      "company": "AMERICAN SHARED HOSPITAL SERVICES",
+      "actor": "Stachowiak Raymond C",
+      "actor_type": "ten_percent_owner",
+      "amount": 1337147.04,
+      "date": "2026-06-22",
+      "score": 81.7
+    },
+    {
+      "ticker": "BKR",
+      "company": "Baker Hughes Co",
+      "actor": "Simonelli Lorenzo",
+      "actor_type": "ceo",
+      "amount": 3551836.05,
+      "date": "2026-06-22",
+      "score": 81.1
+    },
+    {
+      "ticker": "TXO",
+      "company": "TXO Partners, L.P.",
+      "actor": "SIMPSON BOB R",
+      "actor_type": "ten_percent_owner",
+      "amount": 800105.97,
+      "date": "2026-06-23",
+      "score": 79.4
+    },
+    {
+      "ticker": "OXY",
+      "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "actor": "Jackson Richard A.",
+      "actor_type": "ceo",
+      "amount": 249852.6,
+      "date": "2026-06-23",
+      "score": 79.3
+    },
+    {
+      "ticker": "TXO",
+      "company": "TXO Partners, L.P.",
+      "actor": "SIMPSON BOB R",
+      "actor_type": "ten_percent_owner",
+      "amount": 460976.13,
+      "date": "2026-06-22",
+      "score": 78.2
+    },
+    {
+      "ticker": "LZB",
+      "company": "LA-Z-BOY INC",
+      "actor": "Whittington Melinda D",
+      "actor_type": "ceo",
+      "amount": 883082.85,
+      "date": "2026-06-22",
+      "score": 78.1
+    },
+    {
+      "ticker": "BCIC",
+      "company": "BCP Investment Corp",
+      "actor": "Goldthorpe Edward J.",
+      "actor_type": "ceo",
+      "amount": 98364.08,
+      "date": "2026-06-22",
+      "score": 77.3
+    },
+    {
+      "ticker": "YYGH",
+      "company": "YY Group Holding Ltd.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 176284.11,
+      "date": "2026-06-18",
+      "score": 77.3
+    },
+    {
+      "ticker": "FTH",
+      "company": "Faeth Therapeutics, Inc.",
+      "actor": "STEPHENSON BRIAN C",
+      "actor_type": "cfo",
+      "amount": 164884.32,
+      "date": "2026-06-23",
+      "score": 77.2
+    },
+    {
+      "ticker": "RLAY",
+      "company": "Relay Therapeutics, Inc.",
+      "actor": "Bergstrom Donald A",
+      "actor_type": "ceo",
+      "amount": 385038.72,
+      "date": "2026-06-22",
+      "score": 76.3
+    },
+    {
+      "ticker": "FTH",
+      "company": "Faeth Therapeutics, Inc.",
+      "actor": "Parikh Anand Kiran",
+      "actor_type": "ceo",
+      "amount": 55446.56,
+      "date": "2026-06-22",
+      "score": 76.1
+    },
+    {
+      "ticker": "ADTX",
+      "company": "Aditxt, Inc.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 95422.31,
+      "date": "2026-06-18",
+      "score": 76.0
+    },
+    {
+      "ticker": "N O G",
+      "company": "NORTHERN OIL & GAS, INC.",
+      "actor": "Akradi Bahram",
+      "actor_type": "director",
+      "amount": 499741.42,
+      "date": "2026-06-22",
+      "score": 75.8
+    }
+  ],
+  "institutional_changes": [
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "ALPHABET INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 35477573797,
+      "change_pct": 0.3168,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "MICROSOFT CORP",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -34526349702,
+      "change_pct": -0.2332,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "ALPHABET INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 27919281078,
+      "change_pct": 0.3116,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "ELI LILLY & CO",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 23585331061,
+      "change_pct": 0.4221,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Nomura Holdings Inc",
+      "asset": "ECHOSTAR CORP",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -19159260573,
+      "change_pct": -0.9962,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Citadel Advisors LLC",
+      "asset": "STATE STR SPDR S&P 500 ETF T",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 16040282989,
+      "change_pct": 10.9691,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Geode Capital Management LLC",
+      "asset": "JPMORGAN CHASE & CO",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 13135619419,
+      "change_pct": 4.9505,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "ROBINHOOD MKTS INC",
+      "ticker": "",
+      "direction": "exited",
+      "change_usd": -12478004415,
+      "change_pct": -1.0,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "NEWMONT CORP",
+      "ticker": "",
+      "direction": "new",
+      "change_usd": 12307921184,
+      "change_pct": null,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "CAPITAL ONE FINL CORP",
+      "ticker": "",
+      "direction": "new",
+      "change_usd": 12266872781,
+      "change_pct": null,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "ORACLE CORP",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -12231430056,
+      "change_pct": -0.2844,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "EXXON MOBIL CORP",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 11607569229,
+      "change_pct": 0.4703,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "NVIDIA CORPORATION",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -11567787969,
+      "change_pct": -0.0626,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "MICRON TECHNOLOGY INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 11540627745,
+      "change_pct": 0.7339,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "VANGUARD INDEX FDS",
+      "ticker": "",
+      "direction": "new",
+      "change_usd": 11426778421,
+      "change_pct": null,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "APPLE INC",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -11350575259,
+      "change_pct": -0.0691,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "AUTOMATIC DATA PROCESSING IN",
+      "ticker": "",
+      "direction": "exited",
+      "change_usd": -11057821179,
+      "change_pct": -1.0,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "Vanguard Group Inc",
+      "asset": "BLACKSTONE INC",
+      "ticker": "",
+      "direction": "exited",
+      "change_usd": -10860120741,
+      "change_pct": -1.0,
+      "quarter": "2025Q4"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "META PLATFORMS INC",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -9316318842,
+      "change_pct": -0.1554,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "TESLA INC",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -9009127766,
+      "change_pct": -0.1744,
+      "quarter": "2026Q1"
+    }
+  ],
+  "congress_activity": [
+    {
+      "politician": "Nancy Pelosi",
+      "ticker": "INTC",
+      "direction": "buy",
+      "amount": 5000000,
+      "date": "2026-05-29",
+      "score": 70.7
+    },
+    {
+      "politician": "Nancy Pelosi",
+      "ticker": "UBER",
+      "direction": "buy",
+      "amount": 1000000,
+      "date": "2026-05-29",
+      "score": 67.2
+    },
+    {
+      "politician": "Josh Gottheimer",
+      "ticker": "MSFT",
+      "direction": "sell",
+      "amount": 1000000,
+      "date": "2026-05-19",
+      "score": 67.2
+    },
+    {
+      "politician": "Josh Gottheimer",
+      "ticker": "MSFT",
+      "direction": "buy",
+      "amount": 1000000,
+      "date": "2026-05-19",
+      "score": 67.2
+    },
+    {
+      "politician": "Tim Moore",
+      "ticker": "T",
+      "direction": "buy",
+      "amount": 100000,
+      "date": "2026-06-04",
+      "score": 66.8
+    },
+    {
+      "politician": "Robert E. Latta",
+      "ticker": "FMAO",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-06-04",
+      "score": 66.5
+    },
+    {
+      "politician": "Josh Gottheimer",
+      "ticker": "MSFT",
+      "direction": "sell",
+      "amount": 500000,
+      "date": "2026-05-19",
+      "score": 65.7
+    },
+    {
+      "politician": "Josh Gottheimer",
+      "ticker": "MSFT",
+      "direction": "buy",
+      "amount": 500000,
+      "date": "2026-05-19",
+      "score": 65.7
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
+      "ticker": "TPR",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-06-16",
+      "score": 65.2
+    },
+    {
+      "politician": "Christian D. Menefee",
+      "ticker": "PINS",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-06-11",
+      "score": 65.2
+    },
+    {
+      "politician": "Chip Roy",
+      "ticker": "AESI",
+      "direction": "sell",
+      "amount": 250000,
+      "date": "2026-05-13",
+      "score": 64.2
+    },
+    {
+      "politician": "Tim Walberg",
+      "ticker": "FSSL",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-06-01",
+      "score": 63.7
+    },
+    {
+      "politician": "Christian D. Menefee",
+      "ticker": "PINS",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-05-28",
+      "score": 63.7
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
+      "ticker": "GOOGL",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-16",
+      "score": 62.6
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
+      "ticker": "AMZN",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-16",
+      "score": 62.6
+    }
+  ],
+  "large_holders": [
+    {
+      "filer": "WILDER C JOHN",
+      "company": "AleAnna",
+      "ticker": "",
+      "ownership_pct": 93.03,
+      "shares": 62268545,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-23"
+    },
+    {
+      "filer": "Mudrick Capital Management, L.P.",
+      "company": "Getaround, Inc",
+      "ticker": "",
+      "ownership_pct": 90.9,
+      "shares": 977645148,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-18"
+    },
+    {
+      "filer": "Hawkeye HoldCo LLC",
+      "company": "Hawkeye Systems, Inc.",
+      "ticker": "HWKE",
+      "ownership_pct": 90.1,
+      "shares": 242017296,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-06-16"
+    },
+    {
+      "filer": "Imperial Petroleum Inc.",
+      "company": "C3is Inc.",
+      "ticker": "CISS",
+      "ownership_pct": 82.9,
+      "shares": 7171543,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-24"
+    },
+    {
+      "filer": "Energy Impact Partners LLC",
+      "company": "ERock, Inc.",
+      "ticker": "EROC",
+      "ownership_pct": 78.1,
+      "shares": 102813846,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-06-18"
+    },
+    {
+      "filer": "FRANKLIN RESOURCES INC",
+      "company": "Franklin BSP Lending Fund",
+      "ticker": "",
+      "ownership_pct": 76.7,
+      "shares": 75000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-16"
+    },
+    {
+      "filer": "FRANKLIN RESOURCES INC",
+      "company": "Franklin BSP Lending Fund",
+      "ticker": "",
+      "ownership_pct": 74.6,
+      "shares": 75000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-18"
+    },
+    {
+      "filer": "Jakhongir Abidovich Artikkhodjaev",
+      "company": "StageWise Strategies Corp.",
+      "ticker": "STWI",
+      "ownership_pct": 74.2,
+      "shares": 3000000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-06-16"
+    },
+    {
+      "filer": "Bertelsmann SE & Co. KGaA",
+      "company": "Afya Ltd",
+      "ticker": "AFYA",
+      "ownership_pct": 72.27,
+      "shares": 61076080,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-16"
+    },
+    {
+      "filer": "Ching-Dong Wang",
+      "company": "SL Science Holding Ltd",
+      "ticker": "SLBT",
+      "ownership_pct": 59.53,
+      "shares": 333832129,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-06-18"
+    },
+    {
+      "filer": "Luo Hui",
+      "company": "KIDZ AI Inc.",
+      "ticker": "",
+      "ownership_pct": 58.4,
+      "shares": 2210884,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-22"
+    },
+    {
+      "filer": "Allen Family Digital, LLC",
+      "company": "BuzzFeed, Inc.",
+      "ticker": "",
+      "ownership_pct": 53.0,
+      "shares": 44000000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-22"
+    },
+    {
+      "filer": "BANK OF AMERICA CORP /DE/",
+      "company": "Nuveen Quality Municipal Income Fund",
+      "ticker": "NAD",
+      "ownership_pct": 52.3,
+      "shares": 7995,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-22"
+    },
+    {
+      "filer": "Miriam Adelson",
+      "company": "LAS VEGAS SANDS CORP.",
+      "ticker": "LVS",
+      "ownership_pct": 51.5,
+      "shares": 341442911,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-18"
+    },
+    {
+      "filer": "Charles W. Ergen",
+      "company": "EchoStar CORP",
+      "ticker": "SATS",
+      "ownership_pct": 51.0,
+      "shares": 148681314,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-17"
+    }
+  ],
+  "polymarket": {
+    "smart_traders": [
+      {
+        "wallet": "0xa49becb692",
+        "username": "sleepy-panda",
+        "pnl": 317089.0,
+        "win_rate": 0.815,
+        "volume": 375619.53,
+        "categories": [
+          "sports",
+          "economy",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x72d815133f",
+        "username": "Vatrer",
+        "pnl": 55007.59,
+        "win_rate": 0.7458,
+        "volume": 112313.6,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x56e2c952f9",
+        "username": "SportsPsychology101",
+        "pnl": 59000.0,
+        "win_rate": 0.7907,
+        "volume": 100000.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8cb4ca5af7",
+        "username": "",
+        "pnl": 462215.61,
+        "win_rate": 0.9091,
+        "volume": 833417.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 552407.67,
+        "win_rate": 0.4689,
+        "volume": 1557295.9,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xc8075693f4",
+        "username": "texaskid",
+        "pnl": 72508.83,
+        "win_rate": 0.5855,
+        "volume": 99085.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 39597.87,
+        "win_rate": 0.601,
+        "volume": 576722.23,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xba389f76b0",
+        "username": "joblessfinalboss",
+        "pnl": 29257.84,
+        "win_rate": 0.5944,
+        "volume": 38422.24,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc31d0a0d63",
+        "username": "FootballFan98",
+        "pnl": 93334.86,
+        "win_rate": 0.5115,
+        "volume": 72747.56,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 120572.03,
+        "win_rate": 0.49,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0xd6505aab3c",
+        "username": "BAREFLUX",
+        "pnl": 3901156.95,
+        "win_rate": 0.5,
+        "volume": 7392639.16,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 126884.48,
+        "win_rate": 0.179,
+        "volume": 13096646.23,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 229190.87,
+        "win_rate": 0.0,
+        "volume": 5258141.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 552407.67,
+        "win_rate": 0.4689,
+        "volume": 1557295.9,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x8cb4ca5af7",
+        "username": "",
+        "pnl": 462215.61,
+        "win_rate": 0.9091,
+        "volume": 833417.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 343919.14,
+        "win_rate": 0.0,
+        "volume": 2227974.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7c1ee865a7",
+        "username": "CandleHammerDrums",
+        "pnl": 212783.55,
+        "win_rate": 0.0,
+        "volume": 873938.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 473879.52,
+        "win_rate": 0.256,
+        "volume": 1595308.3,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb61b2079b9",
+        "username": "hot2trot",
+        "pnl": 320104.07,
+        "win_rate": 0.0,
+        "volume": 479773.73,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 234504.86,
+        "win_rate": 0.3906,
+        "volume": 637507.7,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Financial Lp Hrt Buys 7 , 340 , 178 Shares",
+      "url": "https://www.dailypolitical.com/2026/06/25/aditxt-nasdaqadtx-major-shareholder-financial-lp-hrt-buys-7340178-shares.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "KeyBanc Raises PT on Arista Networks ( ANET ) Stock",
+      "url": "https://www.insidermonkey.com/blog/keybanc-raises-pt-on-arista-networks-anet-stock-1788631/",
+      "ticker": "ANET",
+      "themes": [
+        "ai",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( ADTX ) Stock Sinks 20 % After - Hours : Here What Going On - Aditxt ( NASDAQ : ADTX ) ",
+      "url": "https://www.benzinga.com/markets/equities/26/06/60088950/aditxt-adtx-stock-sinks-20-after-hours-heres-whats-going-on",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "The Manufacturing - Era Toolkit Wont Work for the AI Revolution",
+      "url": "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Insider Selling : CoreWeave ( NASDAQ : CRWV ) Insider Sells $16 , 024 , 320 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/25/insider-selling-coreweave-nasdaqcrwv-insider-sells-16024320-00-in-stock.html",
+      "ticker": "CRWV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Why the AI Boom Could Trigger the Biggest Energy Trade in Decades",
+      "url": "https://oilprice.com/Energy/Energy-General/Why-the-AI-Boom-Could-Trigger-the-Biggest-Energy-Trade-in-Decades.html",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Amid Pivot to AI Infrastructure , Rumble Stock Looks Very Risky and Extremely Expensive",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amid-pivot-ai-infrastructure-rumble-161725006.html",
+      "ticker": "CRWV",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Eli Lilly Completes Acquisition of Centessa Pharmaceuticals to Advance Narcolepsy Treatments",
+      "url": "https://sleepreviewmag.com/sleep-treatments/pharmaceuticals/emerging-compounds/eli-lilly-completes-acquisition-centessa-pharmaceuticals/",
+      "ticker": "CNTA",
+      "themes": [
+        "earnings",
+        "merger"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Financial Lp Hrt Sells 5 , 120 , 480 Shares",
+      "url": "https://www.dailypolitical.com/2026/06/24/aditxt-nasdaqadtx-major-shareholder-financial-lp-hrt-sells-5120480-shares.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Buys 7 , 340 , 178 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13485031/aditxt-nasdaqadtx-major-shareholder-buys-7340178-shares-of-stock.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Groq Raises $650M After Nvidia $20B Deal to Bet Everything on AI Inference",
+      "url": "https://memeburn.com/groq-raises-650m-after-nvidias-20b-deal/",
+      "ticker": "CRWV",
+      "themes": [
+        "ai",
+        "merger"
+      ],
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Runpod hits $1bn valuation on $100M raise",
+      "url": "https://thenextweb.com/news/runpod-100m-summit-partners-1bn-valuation",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Arista Networks ( ANET ) Unveils 1 . 6 Terabit Platforms As 800 Gig Adoption Builds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-unveils-1-011146467.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Arista Networks ( NYSE : ANET ) Stock Price Down 6 . 8 % – Time to Sell ? ",
+      "url": "https://www.dailypolitical.com/2026/06/23/arista-networks-nyseanet-stock-price-down-6-8-time-to-sell.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-23"
+    },
+    {
+      "title": "Centessa Pharmaceuticals plc : Acquisition of Centessa by Lilly Approved by the High Court of Justice of England and Wales",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68832215-centessa-pharmaceuticals-plc-acquisition-of-centessa-by-lilly-approved-by-the-high-court-of-justice-of-england-and-wales-399.htm",
+      "ticker": "CNTA",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-06-23"
+    },
+    {
+      "title": "Acquisition of Centessa by Lilly Approved by the High Court of Justice of England and Wales | Company Announcement",
+      "url": "https://www.investegate.co.uk/announcement/gnw/centessa-pharmaceuticals-adr--0acx/acquisition-of-centessa-by-lilly-approved-by-/9630607",
+      "ticker": "CNTA",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-06-22"
+    },
+    {
+      "title": "Lilly 7 Acquisitions in 3 Months : Which Will Be the Biggest Game - Changer for the Pharma Giant ? ",
+      "url": "https://www.fool.com/investing/2026/06/20/lillys-7-acquisitions-in-3-months-which-will-be/?source=iedfolrf0000001",
+      "ticker": "CNTA",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-06-20"
+    },
+    {
+      "title": "Redwood Family Wealth LLC Takes Position in Arista Networks , Inc . $ANET",
+      "url": "https://www.tickerreport.com/banking-finance/13482273/redwood-family-wealth-llc-takes-position-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-06-20"
+    },
+    {
+      "title": "Kovitz Investment Group Partners LLC Trims Stock Position in Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/06/19/kovitz-investment-group-partners-llc-trims-stock-position-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-19"
+    },
+    {
+      "title": "Wolfe Research Reaffirms Bullish View on Arista Networks ( ANET ) With $175 Price Target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-reaffirms-bullish-view-212158801.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Insomnia Market Witnesses Robust Growth During the Forecast Period ( 2026 - 2036 ) with Emerging Orexin Receptor Antagonists and Melatonin Receptor Agonist",
+      "url": "http://www.prnewswire.com/news-releases/insomnia-market-witnesses-robust-growth-during-the-forecast-period-20262036-with-emerging-orexin-receptor-antagonists-and-melatonin-receptor-agonist--delveinsight-302803998.html",
+      "ticker": "CNTA",
+      "themes": [],
+      "date": "2026-06-18"
+    },
+    {
+      "title": "DelveInsight Business Research , LLP : Insomnia Market Witnesses Robust Growth During the Forecast Period ( 2026 - 2036 ) with Emerging Orexin Receptor Antagonists and Melatonin Receptor Agonist",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68807448-delveinsight-business-research-llp-insomnia-market-witnesses-robust-growth-during-the-forecast-period-2026-2036-with-emerging-orexin-receptor-anta-008.htm",
+      "ticker": "CNTA",
+      "themes": [],
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Pre - Market Movers : ADTX , BYAH , ELTX Chart The Course",
+      "url": "https://www.rttnews.com/3661257/pre-market-movers-adtx-byah-eltx-chart-the-course.aspx",
+      "ticker": "ADTX",
+      "themes": [],
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Aditxt ( ADTX ) Stock Is Falling After Hours : What Is Going On ? - Aditxt ( NASDAQ : ADTX ) ",
+      "url": "https://www.benzinga.com/markets/equities/26/06/53241370/aditxt-adtx-stock-is-falling-after-hours-what-is-going-on",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-17"
+    }
+  ],
+  "signals_count": 1821,
+  "llm_instructions": {
+    "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
+    "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
+    "must_include": [
+      "Limitaciones de los datos y su frescura (delay legal).",
+      "Riesgos de cada hipotesis.",
+      "Que esto NO es asesoramiento financiero."
+    ],
+    "must_not": [
+      "Afirmar certezas sobre el precio futuro.",
+      "Usar datos privados o no incluidos en este contexto.",
+      "Recomendar operaciones concretas como consejo cerrado."
+    ],
+    "how_to_use": "Prioriza senales con importance_score alto y cross_source (varias fuentes apuntando al mismo ticker). El insider buying (codigo P) y los 13D/13G con alto % suelen ser las senales mas informativas."
+  }
+}

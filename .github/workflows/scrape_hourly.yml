@@ -52,6 +52,18 @@ jobs:
       - name: Publish public 30d
         run: python -m pipelines.publish_public_30d
 
+      - name: Build unified signals
+        run: python -m pipelines.build_signals
+
+      - name: Fetch news context (GDELT)
+        run: python -m scrapers.news_gdelt
+
+      - name: Build top movements
+        run: python -m pipelines.build_top_movements
+
+      - name: Build LLM context
+        run: python -m pipelines.build_llm_context
+
       - name: Build health report
         run: python -m pipelines.build_health_report
 
