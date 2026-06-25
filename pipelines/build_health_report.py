@@ -161,41 +161,51 @@ def check_sec_insiders() -> dict[str, Any]:
 
 
 def check_institutional_13f() -> dict[str, Any]:
-    """Health check de 13F: detecta quarters mezclados / stale managers."""
+    """Health check de 13F usando los flags de consenso (is_stale/quarter)."""
     data = _load(PUBLIC_DIR / "institutional_holdings_latest.json")
     if data is None:
         return {"status": "error", "issues": ["file_missing"], "blocked_for_signals": True}
 
-    expected_q = expected_13f_quarter()
-    expected_end = quarter_end_date(expected_q)
+    # El scraper ya determina el quarter de consenso y marca is_stale por manager.
+    quarters = [m.get("quarter") for m in data if m.get("quarter")]
+    consensus_q = max(quarters) if quarters else "?"
+    stale_managers = [m.get("manager", "?") for m in data if m.get("is_stale")]
+
     issues: list[str] = []
-    stale_managers: list[str] = []
-
-    for m in data:
-        report_date = m.get("report_date")
-        # Un manager esta stale si su report_date es anterior al cierre del quarter esperado.
-        d = parse_date(report_date)
-        exp = parse_date(expected_end)
-        if d and exp and d < exp:
-            stale_managers.append(m.get("manager", "?"))
-
     if stale_managers:
         issues.append("stale_manager_report_date")
 
-    # Warning si mas de la mitad de managers estan stale (quarter no llego aun
-    # o CIKs obsoletos).
+    # Solo es problema si MUCHOS managers estan atras (sino, 1-2 rezagados es normal).
     status = "ok"
-    if stale_managers:
-        ratio = len(stale_managers) / len(data) if data else 0
-        status = "warning" if ratio < 0.7 else "error"
+    if data and len(stale_managers) / len(data) > 0.3:
+        status = "warning"
 
     return {
         "status": status,
         "managers": len(data),
-        "expected_quarter": expected_q,
-        "expected_report_date": expected_end,
+        "consensus_quarter": consensus_q,
         "stale_managers": stale_managers[:20],
         "stale_count": len(stale_managers),
+        "issues": issues,
+        "blocked_for_signals": False,
+    }
+
+
+def check_sec_13d_13g() -> dict[str, Any]:
+    """Health check de 13D/13G (grandes accionistas)."""
+    data = _load(PUBLIC_DIR / "sec_13d_13g_30d.json")
+    if data is None:
+        return {"status": "warning", "issues": ["file_missing"], "blocked_for_signals": False}
+    issues: list[str] = []
+    with_pct = sum(1 for r in data if r.get("ownership_pct") is not None)
+    latest = _latest_date(data, "filing_date")
+    if not data:
+        issues.append("empty_dataset")
+    return {
+        "status": "ok" if data else "warning",
+        "records_30d": len(data),
+        "with_ownership_pct": with_pct,
+        "latest_filing_date": latest,
         "issues": issues,
         "blocked_for_signals": False,
     }
@@ -243,6 +253,7 @@ def build() -> dict[str, Any]:
     datasets = {
         "congress": check_congress(),
         "sec_insiders": check_sec_insiders(),
+        "sec_13d_13g": check_sec_13d_13g(),
         "institutional_13f": check_institutional_13f(),
         "polymarket": check_polymarket(),
     }

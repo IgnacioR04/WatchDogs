@@ -18,12 +18,23 @@ from __future__ import annotations
 import sys
 import time
 
-from scrapers import congress, polymarket_leaderboard, sec_13f, sec_insider
+from scrapers import (
+    congress_house_pdf_parser,
+    polymarket_leaderboard,
+    sec_13d_13g,
+    sec_13f,
+    sec_insider,
+)
 
 # Mapa de grupo -> lista de (nombre, funcion run).
+# congress usa ahora el parser de PDFs del House (tickers reales) + Senate mirror.
 GROUPS = {
-    "congress": [("congress", congress.run)],
-    "sec": [("sec_insider", sec_insider.run), ("sec_13f", sec_13f.run)],
+    "congress": [("congress_house_pdf", congress_house_pdf_parser.run)],
+    "sec": [
+        ("sec_insider", sec_insider.run),
+        ("sec_13f", sec_13f.run),
+        ("sec_13d_13g", sec_13d_13g.run),
+    ],
     "polymarket": [("polymarket_leaderboard", polymarket_leaderboard.run)],
 }
 

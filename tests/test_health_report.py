@@ -39,6 +39,11 @@ def test_build_report_estructura_y_overall(tmp_path, monkeypatch):
         {"manager": "Test Fund", "cik": "1", "report_date": quarter_end_date(expected_13f_quarter()),
          "holdings": [], "aum_usd": 1},
     ])
+    # 13D/13G presente
+    _write(public / "sec_13d_13g_30d.json", [
+        {"filer_name": "Big Holder", "ticker": "NVDA", "ownership_pct": 7.4,
+         "filing_date": today_iso()},
+    ])
     # Polymarket sano: volume>0, win rate realista
     _write(public / "polymarket_smart_traders.json", [
         {"wallet": "0x1", "volume": 100000, "win_rate": 0.55, "closed_positions": 30},
@@ -49,7 +54,8 @@ def test_build_report_estructura_y_overall(tmp_path, monkeypatch):
 
     report = hr.build()
     assert report["overall_status"] == "ok"
-    assert set(report["datasets"]) == {"congress", "sec_insiders", "institutional_13f", "polymarket"}
+    assert set(report["datasets"]) == {"congress", "sec_insiders", "sec_13d_13g",
+                                        "institutional_13f", "polymarket"}
     for ds in report["datasets"].values():
         assert "status" in ds and "issues" in ds
 
