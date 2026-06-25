@@ -1,11 +1,9 @@
 name: scrape_polymarket
 
-# Scraping del leaderboard y top traders de Polymarket cada 15 minutos.
-# Tambien ejecutable manualmente via workflow_dispatch.
+# [v1 - EN PAUSA] Reemplazado por scrape_hourly.yml en la migracion v2.
+# Cron deshabilitado durante la migracion. Solo ejecutable manualmente.
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-06-25T08:30:11.739273+00:00",
+  "overall_status": "warning",
+  "datasets": {
+    "congress": {
+      "status": "warning",
+      "records_total": 8045,
+      "records_30d": 43,
+      "latest_tx_date": "2020-12-02",
+      "latest_disclosure_date": "2026-06-23",
+      "issues": [
+        "stale_source_latest_tx_2031d_old"
+      ],
+      "blocked_for_signals": true
+    },
+    "sec_insiders": {
+      "status": "ok",
+      "records_total": 798,
+      "records_30d": 787,
+      "latest_tx_date": "2026-06-24",
+      "insiders_unique": 331,
+      "issues": [],
+      "blocked_for_signals": false
+    },
+    "institutional_13f": {
+      "status": "warning",
+      "managers": 39,
+      "expected_quarter": "2026Q1",
+      "expected_report_date": "2026-03-31",
+      "stale_managers": [
+        "Vanguard Group Inc",
+        "BlackRock Inc.",
+        "Credit Suisse AG",
+        "Greenlight Capital Inc"
+      ],
+      "stale_count": 4,
+      "issues": [
+        "stale_manager_report_date"
+      ],
+      "blocked_for_signals": false
+    },
+    "polymarket": {
+      "status": "ok",
+      "smart_traders": 40,
+      "whales": 50,
+      "volume_zero_count": 13,
+      "avg_win_rate": 0.417,
+      "issues": [],
+      "blocked_for_signals": false
+    }
+  }
+}

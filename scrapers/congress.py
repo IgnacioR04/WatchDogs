@@ -42,7 +42,7 @@ URL_HOUSE_PTR_PDF_TEMPLATE = "https://disclosures-clerk.house.gov/public_disc/pt
 # Fallback url para senate si github raw cae
 URL_HOUSE = URL_HOUSE_ZIP_TEMPLATE.format(year=datetime.now(timezone.utc).year)
 
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "congress_trades.json"
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "public" / "congress_trades_30d.json"
 
 # Mapeo de tipos de transaccion crudos a categorias canonicas.
 TX_TYPE_MAP = {
@@ -67,18 +67,53 @@ def _norm_tx_type(raw: str | None) -> str:
     return TX_TYPE_MAP.get(key, "other")
 
 
-def _clean_ticker(raw: str | None) -> str:
-    """Limpia tickers: uppercase, sin '$', sin sufijos como '/PA', sin espacios.
+# Valores que NUNCA son tickers validos (contaminaban el ranking, ej "PDF").
+INVALID_TICKERS = {"", "--", "N/A", "NONE", "PDF", "N", "A", "THE", "INC", "LLC",
+                   "CORP", "CO", "LTD", "ETF", "FUND", "TRUST", "COM", "CLASS"}
 
-    Si el ticker viene vacio o es '--', devuelve cadena vacia (asset no es accion).
+# Patrones explicitos de ticker dentro de una descripcion de activo.
+# Solo aceptamos ticker si aparece de forma inequivoca, no por regex bruto.
+_TICKER_PATTERNS = [
+    re.compile(r"\(([A-Z]{1,5})\)"),              # "NVIDIA Corporation (NVDA)"
+    re.compile(r"\b(?:NASDAQ|NYSE|NYSEARCA|AMEX|BATS)\s*:\s*([A-Z]{1,5})\b"),  # "NASDAQ: NVDA"
+]
+
+
+def _clean_ticker(raw: str | None) -> str:
+    """Limpia un ticker explicito: uppercase, sin '$', sin basura.
+
+    Devuelve '' si el valor esta en INVALID_TICKERS o no parece un ticker.
     """
     if not raw:
         return ""
-    t = str(raw).strip().upper().lstrip("$")
-    if t in {"--", "N/A", "NONE", ""}:
+    t = str(raw).strip().upper().lstrip("$").split()[0] if str(raw).strip() else ""
+    if t in INVALID_TICKERS:
         return ""
-    # Quitamos sufijos opcionales tras una barra (ej 'BRK/B' lo dejamos, pero 'X/PA' no)
-    return t.split()[0]
+    return t
+
+
+def _extract_ticker(raw_ticker: str | None, asset_description: str | None) -> tuple[str, str, float]:
+    """Resuelve (ticker, ticker_source, ticker_confidence) sin inventar tickers.
+
+    Prioridad:
+    1. Campo ticker explicito de la fuente -> confidence 0.98.
+    2. Patron explicito en la descripcion '(NVDA)' o 'NASDAQ: NVDA' -> 0.9.
+    3. Nada (NO se hace regex bruto de mayusculas) -> '' confidence 0.
+
+    Esto elimina el bug del ticker falso 'PDF' que venia de extraer las
+    primeras letras mayusculas de descripciones sin ticker real.
+    """
+    t = _clean_ticker(raw_ticker)
+    if t:
+        return t, "source_field", 0.98
+    desc = asset_description or ""
+    for pat in _TICKER_PATTERNS:
+        m = pat.search(desc)
+        if m:
+            cand = _clean_ticker(m.group(1))
+            if cand:
+                return cand, "description_pattern", 0.9
+    return "", "none", 0.0
 
 
 def _parse_house_xml(xml_text: str, year: int) -> list[dict[str, Any]]:
@@ -175,13 +210,10 @@ def _to_record_senate(raw: dict[str, Any]) -> dict[str, Any] | None:
         or raw.get("politician")
         or raw.get("first_name", "") + " " + raw.get("last_name", "")
     ).strip()
-    ticker = _clean_ticker(raw.get("ticker"))
-    # Si no hay ticker explicito, intenta extraerlo del asset_description con regex.
-    if not ticker:
-        desc = raw.get("asset_description") or ""
-        m = re.search(r"\b([A-Z]{1,5})\b", desc)
-        if m:
-            ticker = m.group(1)
+    # Resolucion de ticker sin regex bruto (arregla el bug del ticker falso 'PDF').
+    ticker, ticker_source, ticker_confidence = _extract_ticker(
+        raw.get("ticker"), raw.get("asset_description")
+    )
     tx_date = raw.get("transaction_date") or raw.get("tx_date") or ""
     disclosure_date = raw.get("disclosure_date") or raw.get("date_received") or ""
     tx_type = _norm_tx_type(raw.get("type") or raw.get("transaction_type"))
@@ -192,6 +224,8 @@ def _to_record_senate(raw: dict[str, Any]) -> dict[str, Any] | None:
 
     rec_id = stable_id(politician, ticker, tx_date, amount, tx_type)
     return {
+        "ticker_source": ticker_source,
+        "ticker_confidence": ticker_confidence,
         "id": rec_id,
         "politician": politician,
         "chamber": "senate",

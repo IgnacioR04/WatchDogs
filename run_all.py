@@ -1,7 +1,7 @@
-"""Script de utilidad: ejecuta los 4 scrapers en serie.
+"""Script de utilidad: ejecuta todos los scrapers en serie.
 
-Util para correr todo localmente (los workflows del CI corren cada uno por
-separado por temas de cron y permisos). No es invocado por nadie automatico.
+Util para correr todo localmente. Los workflows del CI pueden orquestar cada
+scraper por separado. No es invocado por nadie automatico.
 """
 
 from __future__ import annotations
@@ -9,16 +9,16 @@ from __future__ import annotations
 import sys
 import time
 
-from scrapers import congress, polymarket, sec_13f, sec_insider
+from scrapers import congress, polymarket_leaderboard, sec_13f, sec_insider
 
 
 def main() -> int:
-    """Lanza los 4 scrapers, devuelve 0 si todos OK, 1 si alguno fallo."""
+    """Lanza los scrapers, devuelve 0 si todos OK, 1 si alguno fallo."""
     runners = [
         ("congress", congress.run),
         ("sec_insider", sec_insider.run),
         ("sec_13f", sec_13f.run),
-        ("polymarket", polymarket.run),
+        ("polymarket_leaderboard", polymarket_leaderboard.run),
     ]
     failed: list[str] = []
     for name, fn in runners:

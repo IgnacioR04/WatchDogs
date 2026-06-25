@@ -31,7 +31,7 @@ from scrapers._http import UA_SEC, get_json, make_session
 EDGAR_SEARCH = "https://efts.sec.gov/LATEST/search-index"
 EDGAR_ARCHIVES = "https://www.sec.gov/Archives/edgar/data"
 
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "insider_trades.json"
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "public" / "sec_insiders_30d.json"
 
 # Limites operativos: 30 dias de ventana y un cap razonable para no tardar horas.
 DEFAULT_DAYS = 30
@@ -195,22 +195,25 @@ def _to_records(hit: dict[str, Any], parsed: dict[str, Any]) -> list[dict[str, A
     for i, tx in enumerate(parsed.get("transactions", []) or []):
         tx_code = tx.get("tx_code") or ""
         try:
-            shares = float(tx.get("shares") or 0) or 0
+            shares = float(tx.get("shares") or 0)  # mantener float para .is_integer()
         except ValueError:
-            shares = 0
+            shares = 0.0
         try:
-            price = float(tx.get("price") or 0) or 0.0
+            price = float(tx.get("price") or 0)
         except ValueError:
             price = 0.0
+        value_usd = round(shares * price, 2)
         out.append({
             "id": f"{accession}-{i}",
             "insider_name": parsed.get("insider_name") or "",
             "insider_title": parsed.get("insider_title") or "Insider",
             "company": parsed.get("company") or "",
             "ticker": parsed.get("ticker") or "",
+            "tx_code": tx_code,
             "tx_type": TX_CODE_MAP.get(tx_code, tx_code or "Unknown"),
             "shares": int(shares) if shares.is_integer() else shares,
             "price_per_share": price,
+            "value_usd": value_usd,
             "tx_date": tx.get("tx_date") or "",
             "source_url": source_url,
         })

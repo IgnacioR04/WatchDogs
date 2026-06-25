@@ -1,100 +1,83 @@
-"""Tests del scraper de Polymarket.
+"""Tests del scraper Polymarket v2 (scrapers/polymarket_leaderboard.py).
 
-Unitarios sobre el computo de metricas. Test de integracion contra la API
-real se ejecuta solo si hay conectividad y es tolerante a esquemas que
-cambien levemente.
+Cubre: mapeo correcto de campos (vol->volume, userName->username), paginacion
+de closed positions, separacion smart/whale y los scores.
 """
 
 from __future__ import annotations
 
-import json
-from pathlib import Path
-
-import pytest
-import requests
-
-from normalize.schema import POLYMARKET_REQUIRED
-from scrapers import polymarket
+from scrapers import polymarket_leaderboard as pm
 
 
-def _network_ok() -> bool:
-    """Comprueba que polymarket es alcanzable."""
-    try:
-        requests.head("https://data-api.polymarket.com/", timeout=5)
-        return True
-    except Exception:
-        return False
+class _FakeClient:
+    """Cliente falso que devuelve paginas predefinidas para closed-positions."""
+
+    def __init__(self, pages):
+        # pages: lista de listas (cada una es una pagina/batch)
+        self._pages = pages
+        self.calls = 0
+
+    def get_json(self, url, *, params=None, timeout=30):
+        idx = (params or {}).get("offset", 0) // pm.POSITIONS_PAGE
+        self.calls += 1
+        return self._pages[idx] if idx < len(self._pages) else []
 
 
-def test_compute_metrics_calcula_winrate_correcto():
-    """5 posiciones: 3 ganadoras (pnl>0) -> win_rate = 0.6."""
+def _pos(pnl, bought, title="Will X win on 2026-06-22?"):
+    return {"realizedPnl": pnl, "totalBought": bought, "title": title, "outcome": "Yes"}
+
+
+def test_paginacion_agota_todas_las_paginas():
+    """fetch_all_closed_positions concatena hasta una pagina incompleta."""
+    full = [_pos(10, 100) for _ in range(pm.POSITIONS_PAGE)]   # pagina completa
+    partial = [_pos(-5, 50) for _ in range(10)]                # pagina incompleta -> fin
+    client = _FakeClient([full, partial])
+    positions = pm.fetch_all_closed_positions(client, "0xabc")
+    assert len(positions) == pm.POSITIONS_PAGE + 10
+    assert client.calls == 2  # para tras la pagina incompleta
+
+
+def test_build_profile_mapea_vol_y_username():
+    """vol->volume y userName->username; win_rate calculado sobre todas las pos."""
+    entry = {"proxyWallet": "0xabc", "userName": "whale_x", "vol": 2_100_000,
+             "pnl": 542_000, "verifiedBadge": True}
+    positions = [_pos(100, 5000), _pos(-50, 3000), _pos(200, 8000), _pos(-10, 1000)]
+    prof = pm.build_profile(entry, positions)
+    assert prof["volume"] == 2_100_000          # antes quedaba en 0
+    assert prof["username"] == "whale_x"
+    assert prof["closed_positions"] == 4
+    assert prof["winning_positions"] == 2
+    assert prof["win_rate"] == 0.5
+    assert prof["verified"] is True
+    assert 0 <= prof["smart_score"] <= 100
+    assert 0 <= prof["whale_score"] <= 100
+
+
+def test_winrate_no_inflado_con_perdedoras():
+    """Con mitad perdedoras, el win rate es 0.5 (no inflado)."""
+    positions = [_pos(10, 100) for _ in range(5)] + [_pos(-10, 100) for _ in range(5)]
+    prof = pm.build_profile({"proxyWallet": "0x1", "vol": 1000, "pnl": 0}, positions)
+    assert prof["win_rate"] == 0.5
+
+
+def test_clasifica_categorias():
+    """Detecta categoria dominante por palabras clave del titulo."""
     positions = [
-        {"realizedPnl": 100, "size": 50, "title": "M1", "outcome": "Yes"},
-        {"realizedPnl": -50, "size": 30, "title": "M2", "outcome": "No"},
-        {"realizedPnl": 200, "size": 100, "title": "M3", "outcome": "Yes"},
-        {"realizedPnl": -10, "size": 20, "title": "M4", "outcome": "No"},
-        {"realizedPnl": 5, "size": 10, "title": "M5", "outcome": "Yes"},
+        _pos(10, 100, "Will France win on 2026-06-22?"),
+        _pos(10, 100, "NBA: Spurs vs. Knicks"),
+        _pos(10, 100, "Will Trump win the election?"),
     ]
-    metrics = polymarket._compute_trader_metrics(positions)
-    assert metrics["win_rate"] == 0.6
-    assert metrics["n_closed"] == 5
-    # Top position por size: M3 (100)
-    assert metrics["top_positions"][0]["market"] == "M3"
-    assert metrics["top_positions"][0]["size"] == 100
+    prof = pm.build_profile({"proxyWallet": "0x1", "vol": 1, "pnl": 1}, positions)
+    assert "sports" in prof["categories"] or "politics" in prof["categories"]
 
 
-def test_compute_metrics_lista_vacia():
-    """Sin posiciones: win_rate=0, top_positions vacia."""
-    metrics = polymarket._compute_trader_metrics([])
-    assert metrics["win_rate"] == 0.0
-    assert metrics["top_positions"] == []
-    assert metrics["n_closed"] == 0
-
-
-def test_safe_float_y_safe_int_no_fallan():
-    """Helpers defensivos: None, strings, etc. devuelven default sin excepcion."""
-    assert polymarket._safe_float(None) == 0.0
-    assert polymarket._safe_float("abc") == 0.0
-    assert polymarket._safe_float("3.14") == 3.14
-    assert polymarket._safe_int("42") == 42
-    assert polymarket._safe_int(None) == 0
-
-
-def test_to_record_tiene_campos_requeridos():
-    """Un registro construido debe tener todas las claves del schema."""
-    entry = {
-        "proxyWallet": "0xabc",
-        "name": "whale_politics",
-        "category": "POLITICS",
-        "pnl": 542000,
-        "volume": 2100000,
-        "trades": 87,
-    }
-    metrics = {"win_rate": 0.91, "top_positions": [], "n_closed": 50}
-    rec = polymarket._to_record(entry, metrics)
-    assert POLYMARKET_REQUIRED.issubset(rec.keys())
-    assert rec["wallet"] == "0xabc"
-    assert rec["win_rate_positions"] == 0.91
-
-
-@pytest.mark.skipif(not _network_ok(), reason="sin conectividad")
-def test_integracion_leaderboard_devuelve_lista():
-    """La API real debe devolver una lista no vacia con campos esperables."""
-    import requests as _r
-    s = _r.Session()
-    s.headers.update({"User-Agent": "Watchdog/1.0-test"})
-    try:
-        r = s.get(polymarket.LEADERBOARD_URL,
-                  params={"limit": 5, "period": "ALL", "sortBy": "PNL"},
-                  timeout=15)
-    except Exception as e:
-        pytest.skip(f"network err: {e}")
-    if r.status_code != 200:
-        pytest.skip(f"leaderboard 200 esperado, got {r.status_code}")
-    data = r.json()
-    # Toleramos varios shapes
-    items = data if isinstance(data, list) else (
-        data.get("leaders") or data.get("data") or data.get("results") or []
-    )
-    assert isinstance(items, list)
-    # No imponemos minimo (la API podria devolver 0 si esta en mantenimiento)
+def test_smart_vs_whale_scores_distintos():
+    """Un trader pequeno-preciso tiene smart alto; uno grande tiene whale alto."""
+    # Smart: muchas posiciones ganadoras, poco volumen
+    smart_pos = [_pos(100, 500) for _ in range(40)]
+    smart = pm.build_profile({"proxyWallet": "0x1", "vol": 50_000, "pnl": 500_000}, smart_pos)
+    # Whale: pocas posiciones, volumen enorme
+    whale_pos = [_pos(0, 5_000_000) for _ in range(3)]
+    whale = pm.build_profile({"proxyWallet": "0x2", "vol": 20_000_000, "pnl": 100_000}, whale_pos)
+    assert smart["smart_score"] > whale["smart_score"]
+    assert whale["whale_score"] > smart["whale_score"]

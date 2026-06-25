@@ -29,7 +29,7 @@ from normalize.schema import (
 )
 from scrapers._http import UA_SEC, get_json, make_session
 
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "institutional_holdings.json"
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "public" / "institutional_holdings_latest.json"
 
 # Lista curada de top managers (CIK SEC oficial). Incluye los gigantes 13F mas
 # seguidos por la comunidad de retail/research. CIKs verificables en SEC EDGAR.

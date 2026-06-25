@@ -3,9 +3,8 @@ name: scrape_sec
 # Scraping de SEC Forms 4 (insiders) y 13F-HR (institucionales) cada 6 horas.
 # Tambien ejecutable manualmente via workflow_dispatch.
 
+# [v1 - EN PAUSA] Reemplazado por scrape_hourly.yml en la migracion v2.
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
