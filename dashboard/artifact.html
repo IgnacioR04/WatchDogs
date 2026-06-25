@@ -1,131 +1,327 @@
-<!--
-  Version artifact-ready del dashboard WATCHDOG para Claude.ai.
-  Diferencia con index.html: URL ABSOLUTA hardcoded a GitHub Pages.
-  Pegar el bloque <html>...</html> entero como artifact tipo "Web page".
-  Una vez activado Pages, los JSONs estaran en:
-    https://IgnacioR04.github.io/WatchDogs/data/*.json
--->
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>WATCHDOG - Live (Claude artifact)</title>
+<title>WATCHDOG — Live (Claude artifact)</title>
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
 <style>
-  :root { --bg:#0b0f14; --bg-elev:#121821; --bg-elev2:#1a2230; --border:#232c3a; --text:#e6edf3; --text-dim:#8b95a7; --accent:#58a6ff; --green:#3fb950; --red:#f85149; --yellow:#d29922; }
-  * { box-sizing: border-box; }
-  html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, Menlo, monospace; font-size:13px; }
-  a { color: var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
-  header { padding: 20px 24px; border-bottom: 1px solid var(--border); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
-  header h1 { margin:0; font-size:18px; letter-spacing:0.05em; }
-  header .meta { color: var(--text-dim); font-size:12px; }
-  .container { padding: 16px 24px 40px; max-width: 1400px; margin: 0 auto; }
-  .tabs { display:flex; gap:2px; border-bottom:1px solid var(--border); margin-bottom:16px; flex-wrap:wrap; }
-  .tab { padding:10px 16px; background:transparent; border:none; color:var(--text-dim); cursor:pointer; font-family:inherit; font-size:13px; border-bottom:2px solid transparent; }
-  .tab:hover { color: var(--text); }
-  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
-  .toolbar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
-  .toolbar input, .toolbar select { background: var(--bg-elev); color: var(--text); border:1px solid var(--border); padding:6px 10px; border-radius:4px; font-family:inherit; font-size:13px; }
-  .toolbar label { color: var(--text-dim); font-size:12px; }
-  table { width:100%; border-collapse: collapse; background: var(--bg-elev); border:1px solid var(--border); border-radius:4px; overflow:hidden; }
-  th, td { padding: 8px 10px; text-align:left; border-bottom:1px solid var(--border); white-space:nowrap; }
-  th { background: var(--bg-elev2); color: var(--text-dim); font-weight:600; cursor:pointer; user-select:none; }
-  th:hover { color: var(--text); }
-  tr:hover td { background: var(--bg-elev2); }
-  td.num { text-align:right; font-variant-numeric: tabular-nums; }
-  .tag-D { color: var(--accent); } .tag-R { color: var(--red); } .tag-I { color: var(--yellow); }
-  .pos { color: var(--green); } .neg { color: var(--red); }
-  .pill { display:inline-block; padding:2px 6px; border-radius:3px; font-size:11px; background: var(--bg-elev2); border:1px solid var(--border); }
-  .stat-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:10px; margin-bottom:16px; }
-  .stat { background: var(--bg-elev); border:1px solid var(--border); padding:10px 12px; border-radius:4px; }
-  .stat .v { font-size:18px; font-weight:600; } .stat .l { color: var(--text-dim); font-size:11px; }
-  .panel { background: var(--bg-elev); border:1px solid var(--border); border-radius:4px; padding:14px; margin-bottom:16px; }
-  .panel h3 { margin: 0 0 10px 0; font-size:14px; color: var(--text-dim); text-transform: uppercase; letter-spacing:0.05em; }
-  details { background: var(--bg-elev2); border:1px solid var(--border); border-radius:4px; padding:8px 12px; margin-top:6px; }
-  details summary { cursor:pointer; color: var(--text); }
-  details[open] summary { color: var(--accent); margin-bottom:8px; }
-  .loading, .error { padding: 40px; text-align:center; color: var(--text-dim); } .error { color: var(--red); }
-  .grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
-  @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } th, td { font-size:11px; padding:6px 8px; } }
-  .ranking { display:flex; flex-direction:column; gap:4px; max-height:300px; overflow-y:auto; }
-  .ranking-row { display:flex; justify-content:space-between; padding:4px 8px; background:var(--bg-elev2); border-radius:3px; font-size:12px; }
-  .ranking-row:hover { background:var(--border); }
-  .truncate { max-width: 240px; overflow:hidden; text-overflow:ellipsis; }
+  :root {
+    --bg:#0a0e13; --bg-elev:#11161f; --bg-elev2:#171e29; --bg-elev3:#1e2733;
+    --border:#222c3a; --border-soft:#1a232f;
+    --text:#e8eef5; --text-dim:#8b97a8; --text-faint:#5a6575;
+    --accent:#5b9dff; --green:#3fb950; --green-soft:#2ea04322; --red:#f85149; --red-soft:#f8514922;
+    --yellow:#e3b341; --purple:#bc8cff; --orange:#e0843c; --teal:#39c5cf; --pink:#f778ba;
+    --shadow:0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.18);
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; padding:0; background:var(--bg); color:var(--text);
+    font-family:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif; font-size:13px; -webkit-font-smoothing:antialiased; }
+  .mono { font-family:ui-monospace,'SF Mono','JetBrains Mono',Consolas,Menlo,monospace; font-variant-numeric:tabular-nums; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  header { padding:16px 26px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;
+    background:linear-gradient(180deg,#0d121a 0%,var(--bg) 100%); }
+  header h1 { margin:0; font-size:17px; font-weight:800; letter-spacing:0.06em; display:flex; align-items:center; gap:9px; }
+  header .sub { color:var(--text-dim); font-size:11.5px; margin-top:2px; }
+  header .meta { color:var(--text-dim); font-size:11.5px; text-align:right; line-height:1.7; }
+  .status-dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; box-shadow:0 0 6px currentColor; }
+  .ok{ background:var(--green); color:var(--green); } .warning{ background:var(--yellow); color:var(--yellow); } .error{ background:var(--red); color:var(--red); }
+  .container { padding:18px 26px 60px; max-width:1560px; margin:0 auto; }
+  .tabs { display:flex; gap:4px; margin-bottom:20px; flex-wrap:wrap; }
+  .tab { padding:7px 14px; background:var(--bg-elev); border:1px solid var(--border-soft); color:var(--text-dim); cursor:pointer;
+    font-family:inherit; font-size:12.5px; font-weight:500; border-radius:8px; white-space:nowrap; transition:all .12s; }
+  .tab:hover { color:var(--text); border-color:var(--border); }
+  .tab.active { color:#fff; background:linear-gradient(135deg,var(--accent),#4178d4); border-color:var(--accent); box-shadow:0 2px 10px rgba(91,157,255,.25); }
+  .toolbar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center; }
+  .toolbar input, .toolbar select { background:var(--bg-elev2); color:var(--text); border:1px solid var(--border); padding:7px 11px; border-radius:7px; font-family:inherit; font-size:13px; }
+  .toolbar input:focus, .toolbar select:focus { outline:none; border-color:var(--accent); }
+  .toolbar label { color:var(--text-dim); font-size:12px; display:flex; gap:6px; align-items:center; }
+  table { width:100%; border-collapse:collapse; background:var(--bg-elev); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+  th,td { padding:8px 12px; text-align:left; border-bottom:1px solid var(--border-soft); white-space:nowrap; }
+  th { background:var(--bg-elev2); color:var(--text-dim); font-weight:600; cursor:pointer; user-select:none; position:sticky; top:0; font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+  tbody tr:last-child td { border-bottom:none; }
+  tr:hover td { background:var(--bg-elev2); }
+  td.num { text-align:right; } .mono, td.num { font-variant-numeric:tabular-nums; }
+  .pos { color:var(--green); } .neg { color:var(--red); } .neu { color:var(--text-dim); }
+  .pill { display:inline-block; padding:2px 7px; border-radius:20px; font-size:10.5px; font-weight:600; background:var(--bg-elev3); border:1px solid var(--border); margin-right:3px; color:var(--text-dim); }
+  .pill.buy{ color:var(--green); border-color:#2ea04355; background:var(--green-soft); }
+  .pill.sell{ color:var(--red); border-color:#f8514955; background:var(--red-soft); }
+  .pill.cross{ color:var(--purple); border-color:#bc8cff55; background:#bc8cff18; }
+  .card { background:var(--bg-elev); border:1px solid var(--border); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow); }
+  .card h3 { margin:0 0 14px 0; font-size:12px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.07em; font-weight:700; display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .grid { display:grid; gap:14px; }
+  .g2 { grid-template-columns:1fr 1fr; } .g3 { grid-template-columns:repeat(3,1fr); } .g4 { grid-template-columns:repeat(4,1fr); }
+  .g-2-1 { grid-template-columns:2fr 1fr; }
+  @media (max-width:1000px){ .g2,.g3,.g4,.g-2-1 { grid-template-columns:1fr; } }
+  .kpi { background:linear-gradient(150deg,var(--bg-elev2),var(--bg-elev)); border:1px solid var(--border); border-radius:14px; padding:16px 18px; position:relative; overflow:hidden; box-shadow:var(--shadow); }
+  .kpi .label { color:var(--text-dim); font-size:11px; text-transform:uppercase; letter-spacing:.06em; font-weight:600; }
+  .kpi .value { font-size:30px; font-weight:800; margin-top:6px; line-height:1; letter-spacing:-.02em; }
+  .kpi .foot { color:var(--text-faint); font-size:11px; margin-top:7px; }
+  .kpi .accent-bar { position:absolute; left:0; top:0; bottom:0; width:4px; }
+  .move { display:flex; gap:12px; align-items:center; padding:11px 0; border-bottom:1px solid var(--border-soft); }
+  .move:last-child { border-bottom:none; }
+  .move .rank { color:var(--text-faint); font-weight:800; min-width:24px; font-size:14px; }
+  .move .body { flex:1; min-width:0; } .move .t { font-weight:600; font-size:13px; } .move .s { color:var(--text-dim); font-size:11px; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .crosscard { background:linear-gradient(135deg,#1c1830,#171e29); border:1px solid #bc8cff44; border-radius:11px; padding:13px 15px; }
+  .crosscard .tk { font-size:18px; font-weight:800; }
+  .crosscard .srcs { margin-top:8px; }
+  .ranking { display:flex; flex-direction:column; gap:7px; max-height:360px; overflow-y:auto; }
+  .ranking-row { display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:12.5px; }
+  .truncate { max-width:240px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .scorebadge { padding:3px 9px; border-radius:20px; font-weight:800; font-size:11px; font-variant-numeric:tabular-nums; }
+  .loading,.error { padding:70px; text-align:center; color:var(--text-dim); } .error { color:var(--red); }
+  .legend { display:flex; gap:14px; flex-wrap:wrap; font-size:11px; color:var(--text-dim); margin-top:10px; }
+  .legend span { display:flex; align-items:center; gap:5px; }
+  .dot { width:9px; height:9px; border-radius:3px; display:inline-block; }
+  details { background:var(--bg-elev2); border:1px solid var(--border-soft); border-radius:8px; padding:9px 13px; margin-top:7px; }
+  details summary { cursor:pointer; } details[open] summary { color:var(--accent); margin-bottom:9px; }
 </style>
 </head>
 <body>
 <div id="root"></div>
 <script type="text/babel" data-presets="env,react">
 const { useState, useEffect, useMemo, useCallback } = React;
+const DATA_BASE = "https://ignacior04.github.io/WatchDogs/data/public/";
+const FILES = {
+  manifest:"manifest_public.json", health:"health_report.json", latest:"latest.json",
+  signals:"signals_30d.json", movements:"top_movements_30d.json", llm:"llm_context_30d.json",
+  insiders:"sec_insiders_30d.json", holders:"sec_13d_13g_30d.json", congress:"congress_trades_30d.json",
+  holdings:"institutional_holdings_latest.json", changes:"institutional_changes_latest.json",
+  smart:"polymarket_smart_traders.json", whales:"polymarket_whales.json", news:"news_context_30d.json",
+};
+const SRC_COLOR = { corporate_insider:"var(--accent)", congress:"var(--purple)", institutional:"var(--orange)", large_holder:"var(--teal)" };
+const SRC_LABEL = { corporate_insider:"Insiders", congress:"Congreso", institutional:"Fondos 13F", large_holder:"13D/13G" };
+const fmtNum=(n,dp=0)=>(n==null||isNaN(n))?"-":Number(n).toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp});
+const fmtUsd=(n)=>{ if(n==null||isNaN(n))return "-"; const a=Math.abs(n),s=n<0?"-":""; if(a>=1e9)return s+"$"+(a/1e9).toFixed(2)+"B"; if(a>=1e6)return s+"$"+(a/1e6).toFixed(2)+"M"; if(a>=1e3)return s+"$"+(a/1e3).toFixed(1)+"K"; return s+"$"+fmtNum(a); };
+const scoreColor=(s)=>s>=80?"var(--red)":s>=65?"var(--orange)":s>=50?"var(--yellow)":"var(--text-dim)";
+const dirClass=(d)=>d==="buy"||d==="stake"?"pos":d==="sell"?"neg":"neu";
+const ScoreBadge=({s})=><span className="scorebadge mono" style={{background:scoreColor(s)+"22",color:scoreColor(s)}}>{Math.round(s)}</span>;
 
-// URL ABSOLUTA a GitHub Pages. Cambiar si renombras el repo.
-const DATA_BASE = 'https://IgnacioR04.github.io/WatchDogs/data/';
-
-const FILES = { congress: 'congress_trades.json', insiders: 'insider_trades.json', institutional: 'institutional_holdings.json', polymarket: 'polymarket_top_traders.json' };
-
-function fmtNum(n, dp = 0) { if (n == null || isNaN(n)) return '-'; return Number(n).toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp }); }
-function fmtUsd(n) { if (n == null || isNaN(n)) return '-'; const a = Math.abs(n); if (a >= 1e9) return '$' + (n/1e9).toFixed(2) + 'B'; if (a >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M'; if (a >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K'; return '$' + fmtNum(n, 0); }
-function partyClass(p) { return 'tag-' + (p||'').toUpperCase().slice(0,1) || ''; }
-
-function SortableTable({ columns, rows, initialSort, maxRows = 500 }) {
-  const [sort, setSort] = useState(initialSort || { key: columns[0].key, dir: 'desc' });
-  const sorted = useMemo(() => { const arr = [...rows]; arr.sort((a,b) => { const va=a[sort.key], vb=b[sort.key]; if (va===vb) return 0; if (va==null) return 1; if (vb==null) return -1; if (typeof va==='number' && typeof vb==='number') return sort.dir==='asc'?va-vb:vb-va; return sort.dir==='asc'?String(va).localeCompare(String(vb)):String(vb).localeCompare(String(va)); }); return arr.slice(0, maxRows); }, [rows, sort, maxRows]);
-  return (<table><thead><tr>{columns.map(c => (<th key={c.key} onClick={() => setSort(s => ({ key: c.key, dir: s.key===c.key && s.dir==='desc' ? 'asc' : 'desc' }))}>{c.label}{sort.key===c.key?(sort.dir==='desc'?' v':' ^'):''}</th>))}</tr></thead><tbody>{sorted.map((r,i) => (<tr key={r.id || i}>{columns.map(c => <td key={c.key} className={c.numeric?'num':''}>{c.render?c.render(r):r[c.key]}</td>)}</tr>))}</tbody></table>);
+function Donut({ segments, size=140, thickness=20 }) {
+  const total=segments.reduce((s,x)=>s+x.value,0)||1;
+  const r=(size-thickness)/2, cx=size/2, cy=size/2, C=2*Math.PI*r; let offset=0;
+  return (<svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--bg-elev3)" strokeWidth={thickness}/>
+    {segments.map((s,i)=>{ const len=C*(s.value/total); const el=(<circle key={i} cx={cx} cy={cy} r={r} fill="none" stroke={s.color} strokeWidth={thickness} strokeDasharray={`${len} ${C-len}`} strokeDashoffset={-offset} transform={`rotate(-90 ${cx} ${cy})`}/>); offset+=len; return el; })}
+    <text x={cx} y={cy-3} textAnchor="middle" fill="var(--text)" fontSize="22" fontWeight="800">{fmtNum(total)}</text>
+    <text x={cx} y={cy+14} textAnchor="middle" fill="var(--text-dim)" fontSize="9">señales</text></svg>);
+}
+function DivergingBars({ rows }) {
+  const max=Math.max(1,...rows.map(r=>Math.max(r.buy,r.sell)));
+  return (<div style={{display:"flex",flexDirection:"column",gap:9}}>
+    {rows.map((r,i)=>(<div key={i} style={{display:"grid",gridTemplateColumns:"54px 1fr 1fr",alignItems:"center",gap:6,fontSize:12}}>
+      <b className="mono" style={{textAlign:"right"}}>{r.ticker}</b>
+      <div style={{display:"flex",justifyContent:"flex-end"}}><div style={{width:(r.sell/max*100)+"%",height:16,background:"linear-gradient(90deg,var(--red),#f8514999)",borderRadius:"4px 0 0 4px",minWidth:r.sell>0?3:0}} title={"venta "+fmtNum(r.sell)}/></div>
+      <div><div style={{width:(r.buy/max*100)+"%",height:16,background:"linear-gradient(90deg,#3fb95099,var(--green))",borderRadius:"0 4px 4px 0",minWidth:r.buy>0?3:0}} title={"compra "+fmtNum(r.buy)}/></div></div>))}
+    <div className="legend" style={{justifyContent:"center"}}><span><i className="dot" style={{background:"var(--red)"}}></i>presión vendedora</span><span><i className="dot" style={{background:"var(--green)"}}></i>presión compradora</span></div></div>);
+}
+function HBars({ rows, color="var(--accent)", fmt=fmtNum }) {
+  const max=Math.max(1,...rows.map(r=>Math.abs(r.value)));
+  return (<div style={{display:"flex",flexDirection:"column",gap:8}}>
+    {rows.map((r,i)=>(<div key={i}><div style={{display:"flex",justifyContent:"space-between",fontSize:12,marginBottom:3}}><span className="truncate" style={{maxWidth:210}}>{r.label}</span><b className="mono">{fmt(r.value)}</b></div>
+      <div style={{height:7,background:"var(--bg-elev3)",borderRadius:4,overflow:"hidden"}}><div style={{width:(Math.abs(r.value)/max*100)+"%",height:"100%",background:typeof color==="function"?color(r):color,borderRadius:4}}/></div></div>))}</div>);
+}
+function SparkBars({ values, color="var(--accent)", height=54 }) {
+  const max=Math.max(1,...values.map(v=>v.v));
+  return (<div style={{display:"flex",alignItems:"flex-end",gap:2,height}}>{values.map((v,i)=>(<div key={i} title={`${v.k}: ${v.v}`} style={{flex:1,height:Math.max(2,v.v/max*height)+"px",background:color,opacity:.4+.6*(v.v/max),borderRadius:"2px 2px 0 0"}}/>))}</div>);
 }
 
-function CongressTab({ data }) {
-  const [party, setParty] = useState('ALL');
-  const [ticker, setTicker] = useState('');
-  const [politician, setPolitician] = useState('');
-  const filtered = useMemo(() => data.filter(r => { if (party!=='ALL' && (r.party||'').toUpperCase()!==party) return false; if (ticker && !(r.ticker||'').toLowerCase().includes(ticker.toLowerCase())) return false; if (politician && !(r.politician||'').toLowerCase().includes(politician.toLowerCase())) return false; return true; }), [data, party, ticker, politician]);
-  const tickerRanking = useMemo(() => { const c = new Map(); for (const r of data) if (r.tx_type==='purchase' && r.ticker) c.set(r.ticker, (c.get(r.ticker)||0)+1); return [...c.entries()].sort((a,b)=>b[1]-a[1]).slice(0,20); }, [data]);
-  return (<><div className="stat-grid"><div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">trades totales</div></div><div className="stat"><div className="v">{fmtNum(new Set(data.map(r=>r.politician)).size)}</div><div className="l">politicos unicos</div></div><div className="stat"><div className="v">{fmtNum(new Set(data.filter(r=>r.ticker).map(r=>r.ticker)).size)}</div><div className="l">tickers operados</div></div><div className="stat"><div className="v">{fmtNum(data.filter(r=>r.tx_type==='purchase').length)}</div><div className="l">compras</div></div></div><div className="grid-2"><div><div className="toolbar"><label>partido <select value={party} onChange={e=>setParty(e.target.value)}><option>ALL</option><option>D</option><option>R</option><option>I</option></select></label><label>ticker <input value={ticker} onChange={e=>setTicker(e.target.value)} placeholder="NVDA" /></label><label>politico <input value={politician} onChange={e=>setPolitician(e.target.value)} placeholder="Pelosi" /></label><span style={{color:'var(--text-dim)'}}>{fmtNum(filtered.length)} resultados</span></div><SortableTable columns={[{key:'tx_date',label:'Fecha'},{key:'politician',label:'Politico',render:r=><span className="truncate" style={{display:'inline-block'}}>{r.politician}</span>},{key:'party',label:'P',render:r=><span className={partyClass(r.party)}>{r.party||'-'}</span>},{key:'chamber',label:'Camara',render:r=><span className="pill">{r.chamber}</span>},{key:'ticker',label:'Ticker'},{key:'tx_type',label:'Tipo',render:r=><span className={r.tx_type==='purchase'?'pos':r.tx_type==='sale'?'neg':''}>{r.tx_type}</span>},{key:'amount_range',label:'Monto'},{key:'source_url',label:'Fuente',render:r=>r.source_url?<a href={r.source_url} target="_blank" rel="noopener">link</a>:'-'}]} rows={filtered} initialSort={{key:'tx_date',dir:'desc'}} /></div><div><div className="panel"><h3>Top 20 tickers mas comprados</h3><div className="ranking">{tickerRanking.map(([t,c]) => (<div className="ranking-row" key={t}><span>{t}</span><span><b>{c}</b> compras</span></div>))}</div></div></div></div></>);
+function Analysis({ d }) {
+  const signals=d.signals||[]; const tt=(d.llm&&d.llm.top_tickers)||{}; const moves=(d.movements&&d.movements.movements)||[];
+  const bySource=useMemo(()=>{ const m={}; signals.forEach(s=>{ m[s.source_type]=(m[s.source_type]||0)+1; }); return Object.entries(m).map(([k,v])=>({label:SRC_LABEL[k]||k,value:v,color:SRC_COLOR[k]||"var(--text-dim)",key:k})); },[signals]);
+  const diverging=useMemo(()=>{ const b={},se={},meta={}; signals.forEach(s=>{ if(!s.ticker)return; const sc=s.importance_score||0; meta[s.ticker]=meta[s.ticker]||new Set(); meta[s.ticker].add(s.source_type); if(s.direction==="buy"||s.direction==="stake")b[s.ticker]=(b[s.ticker]||0)+sc; else if(s.direction==="sell")se[s.ticker]=(se[s.ticker]||0)+sc; });
+    const all=new Set([...Object.keys(b),...Object.keys(se)]); return [...all].map(t=>({ticker:t,buy:b[t]||0,sell:se[t]||0})).sort((x,y)=>(y.buy+y.sell)-(x.buy+x.sell)).slice(0,12); },[signals]);
+  const cross=useMemo(()=>{ const m={}; signals.forEach(s=>{ if(!s.ticker)return; m[s.ticker]=m[s.ticker]||{srcs:new Set(),buy:0,sell:0,score:0}; m[s.ticker].srcs.add(s.source_type); m[s.ticker].score+=s.importance_score||0; if(s.direction==="buy"||s.direction==="stake")m[s.ticker].buy++; else if(s.direction==="sell")m[s.ticker].sell++; });
+    return Object.entries(m).filter(([,v])=>v.srcs.size>=2).map(([t,v])=>({ticker:t,srcs:[...v.srcs],score:v.score/v.srcs.size,buy:v.buy,sell:v.sell})).sort((a,b)=>b.srcs.length-a.srcs.length||b.score-a.score).slice(0,8); },[signals]);
+  const insiderFlow=useMemo(()=>{ let buy=0,sell=0; (d.insiders||[]).forEach(r=>{ const v=r.value_usd||0; if(r.tx_code==="P"||r.tx_code==="M")buy+=v; else if(r.tx_code==="S"||r.tx_code==="D")sell+=v; }); return {buy,sell}; },[d.insiders]);
+  const daily=useMemo(()=>{ const m={},keys=[]; for(let i=29;i>=0;i--){ const k=new Date(Date.now()-i*864e5).toISOString().slice(5,10); m[k]=0; keys.push(k); } signals.forEach(s=>{ const dt=s.event_date||s.disclosure_date; if(!dt)return; const k=String(dt).slice(5,10); if(k in m)m[k]++; }); return keys.map(k=>({k,v:m[k]})); },[signals]);
+  const themes=useMemo(()=>{ const m={}; (d.news||[]).forEach(a=>(a.themes||[]).forEach(t=>m[t]=(m[t]||0)+1)); return Object.entries(m).map(([label,value])=>({label,value})).sort((a,b)=>b.value-a.value).slice(0,7); },[d.news]);
+  const buyRatio=insiderFlow.buy+insiderFlow.sell>0?insiderFlow.buy/(insiderFlow.buy+insiderFlow.sell):0;
+  const topScore=Math.max(0,...signals.map(s=>s.importance_score||0));
+  return (<>
+    <div className="grid g4" style={{marginBottom:16}}>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--accent)"}}></div><div className="label">Señales 30 días</div><div className="value mono">{fmtNum(signals.length)}</div><div className="foot">{bySource.length} fuentes activas</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:buyRatio>=0.5?"var(--green)":"var(--red)"}}></div><div className="label">Flujo insider (compra/total $)</div><div className="value mono" style={{color:buyRatio>=0.5?"var(--green)":"var(--red)"}}>{(buyRatio*100).toFixed(0)}%</div><div className="foot">compra {fmtUsd(insiderFlow.buy)} · venta {fmtUsd(insiderFlow.sell)}</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--purple)"}}></div><div className="label">Señales cruzadas</div><div className="value mono" style={{color:"var(--purple)"}}>{cross.length}</div><div className="foot">tickers en 2+ fuentes</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:scoreColor(topScore)}}></div><div className="label">Score máximo</div><div className="value mono" style={{color:scoreColor(topScore)}}>{Math.round(topScore)}</div><div className="foot">de 100</div></div>
+    </div>
+    <div className="grid g-2-1" style={{marginBottom:16}}>
+      <div className="card"><h3>⚖️ Presión neta por ticker <span style={{color:"var(--text-faint)",fontWeight:400,textTransform:"none",letterSpacing:0}}>Σ score</span></h3>{diverging.length?<DivergingBars rows={diverging}/>:<p className="neu">Sin datos.</p>}</div>
+      <div className="card"><h3>📊 Señales por fuente</h3><div style={{display:"flex",justifyContent:"center"}}><Donut segments={bySource}/></div>
+        <div className="legend" style={{flexDirection:"column",gap:7,marginTop:12}}>{bySource.map(s=>(<span key={s.key}><i className="dot" style={{background:s.color}}></i>{s.label} <b className="mono" style={{marginLeft:"auto"}}>{fmtNum(s.value)}</b></span>))}</div></div>
+    </div>
+    <div className="card" style={{marginBottom:16}}><h3>🔥 Señales cruzadas — las más robustas (mismo ticker en varias fuentes)</h3>
+      {cross.length?<div className="grid g4">{cross.map(c=>(<div className="crosscard" key={c.ticker}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><span className="tk mono">{c.ticker}</span><ScoreBadge s={c.score}/></div>
+        <div className="srcs">{c.srcs.map(s=><span className="pill cross" key={s}>{SRC_LABEL[s]||s}</span>)}</div>
+        <div style={{marginTop:8,fontSize:11,color:"var(--text-dim)"}}>{c.buy>0&&<span className="pos">{c.buy} compra </span>}{c.sell>0&&<span className="neg">{c.sell} venta</span>}</div></div>))}</div>:<p className="neu">No hay tickers en múltiples fuentes ahora mismo.</p>}</div>
+    <div className="grid g2" style={{marginBottom:16}}>
+      <div className="card"><h3>🏆 Top movimientos del mes</h3>{moves.slice(0,8).map(m=>(<div className="move" key={m.rank}><span className="rank mono">{m.rank}</span>
+        <div className="body"><div className="t">{m.title} {m.cross_source_score>0&&<span className="pill cross">cross</span>}</div><div className="s">{m.summary}</div></div><ScoreBadge s={m.importance_score}/></div>))}</div>
+      <div><div className="card" style={{marginBottom:14}}><h3>📈 Actividad diaria (señales/día, 30d)</h3><SparkBars values={daily} color="var(--accent)" height={60}/><div className="legend"><span>{daily[0]&&daily[0].k}</span><span style={{marginLeft:"auto"}}>{daily.length&&daily[daily.length-1].k}</span></div></div>
+        <div className="card"><h3>💰 Flujo insider 30d</h3><HBars rows={[{label:"Compras (P/M)",value:insiderFlow.buy},{label:"Ventas (S/D)",value:insiderFlow.sell}]} color={(r)=>r.label.indexOf("Compras")===0?"var(--green)":"var(--red)"} fmt={fmtUsd}/>
+          <div style={{marginTop:10,fontSize:11,color:"var(--text-dim)"}}>Ratio venta/compra: <b className="mono">{insiderFlow.buy>0?(insiderFlow.sell/insiderFlow.buy).toFixed(2):"—"}</b></div></div></div>
+    </div>
+    <div className="grid g3">
+      <div className="card"><h3 className="pos">🟢 Mayor presión compradora</h3><HBars rows={(tt.buy_pressure||[]).slice(0,8).map(e=>({label:e.ticker+"  "+((e.sources||[]).join("+")),value:e.pressure_score}))} color="var(--green)"/></div>
+      <div className="card"><h3 className="neg">🔴 Mayor presión vendedora</h3><HBars rows={(tt.sell_pressure||[]).slice(0,8).map(e=>({label:e.ticker+"  "+((e.sources||[]).join("+")),value:e.pressure_score}))} color="var(--red)"/></div>
+      <div className="card"><h3>📰 Temas de mercado</h3>{themes.length?<HBars rows={themes} color="var(--teal)"/>:<p className="neu">Sin noticias.</p>}</div>
+    </div>
+  </>);
 }
 
-function InsidersTab({ data }) {
-  const [ticker, setTicker] = useState('');
-  const [insider, setInsider] = useState('');
-  const [direction, setDirection] = useState('ALL');
-  const filtered = useMemo(() => data.filter(r => { if (ticker && !(r.ticker||'').toLowerCase().includes(ticker.toLowerCase())) return false; if (insider && !(r.insider_name||'').toLowerCase().includes(insider.toLowerCase())) return false; if (direction!=='ALL') { const isBuy=(r.tx_type||'').startsWith('P-')||(r.tx_type||'').startsWith('M-'); const isSell=(r.tx_type||'').startsWith('S-')||(r.tx_type||'').startsWith('D-'); if (direction==='BUY' && !isBuy) return false; if (direction==='SELL' && !isSell) return false; } return true; }), [data, ticker, insider, direction]);
-  return (<><div className="stat-grid"><div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">trades totales</div></div><div className="stat"><div className="v">{fmtNum(new Set(data.map(r=>r.insider_name)).size)}</div><div className="l">insiders unicos</div></div><div className="stat"><div className="v">{fmtNum(new Set(data.map(r=>r.ticker).filter(Boolean)).size)}</div><div className="l">empresas</div></div><div className="stat"><div className="v">{fmtNum(data.filter(r=>(r.tx_type||'').startsWith('P-')).length)}</div><div className="l">compras (P)</div></div></div><div className="toolbar"><label>ticker <input value={ticker} onChange={e=>setTicker(e.target.value)} placeholder="NVDA" /></label><label>insider <input value={insider} onChange={e=>setInsider(e.target.value)} placeholder="Huang" /></label><label>direccion <select value={direction} onChange={e=>setDirection(e.target.value)}><option>ALL</option><option value="BUY">BUY</option><option value="SELL">SELL</option></select></label><span style={{color:'var(--text-dim)'}}>{fmtNum(filtered.length)} resultados</span></div><SortableTable columns={[{key:'tx_date',label:'Fecha'},{key:'insider_name',label:'Insider',render:r=><span className="truncate" style={{display:'inline-block'}}>{r.insider_name}</span>},{key:'insider_title',label:'Cargo',render:r=><span className="truncate" style={{display:'inline-block'}}>{r.insider_title}</span>},{key:'company',label:'Empresa',render:r=><span className="truncate" style={{display:'inline-block'}}>{r.company}</span>},{key:'ticker',label:'Ticker'},{key:'tx_type',label:'Tipo',render:r=><span className={(r.tx_type||'').startsWith('P-')||(r.tx_type||'').startsWith('M-')?'pos':(r.tx_type||'').startsWith('S-')||(r.tx_type||'').startsWith('D-')?'neg':''}>{r.tx_type}</span>},{key:'shares',label:'Shares',numeric:true,render:r=>fmtNum(r.shares)},{key:'price_per_share',label:'Precio',numeric:true,render:r=>r.price_per_share?'$'+fmtNum(r.price_per_share,2):'-'},{key:'source_url',label:'Fuente',render:r=>r.source_url?<a href={r.source_url} target="_blank" rel="noopener">link</a>:'-'}]} rows={filtered} initialSort={{key:'tx_date',dir:'desc'}} /></>);
+function SortableTable({ columns, rows, initialSort, maxRows=400 }) {
+  const [sort,setSort]=useState(initialSort||{key:columns[0].key,dir:"desc"});
+  const sorted=useMemo(()=>{ const a=[...rows]; a.sort((x,y)=>{ const va=x[sort.key],vb=y[sort.key]; if(va===vb)return 0; if(va==null)return 1; if(vb==null)return -1; if(typeof va==="number"&&typeof vb==="number")return sort.dir==="asc"?va-vb:vb-va; return sort.dir==="asc"?String(va).localeCompare(String(vb)):String(vb).localeCompare(String(va)); }); return a.slice(0,maxRows); },[rows,sort,maxRows]);
+  return (<div style={{overflowX:"auto"}}><table><thead><tr>{columns.map(c=>(<th key={c.key} onClick={()=>setSort(s=>({key:c.key,dir:s.key===c.key&&s.dir==="desc"?"asc":"desc"}))}>{c.label}{sort.key===c.key?(sort.dir==="desc"?" ↓":" ↑"):""}</th>))}</tr></thead>
+    <tbody>{sorted.map((r,i)=>(<tr key={r.id||i}>{columns.map(c=>(<td key={c.key} className={c.numeric?"num mono":""}>{c.render?c.render(r):r[c.key]}</td>))}</tr>))}</tbody></table>
+    {rows.length>maxRows&&<div style={{color:"var(--text-faint)",padding:"8px 2px",fontSize:11}}>mostrando {maxRows} de {fmtNum(rows.length)}</div>}</div>);
 }
-
-function InstitutionalTab({ data }) {
-  const [tickerSearch, setTickerSearch] = useState('');
-  const tickerHolders = useMemo(() => { if (!tickerSearch) return null; const n = tickerSearch.toLowerCase(); const out = []; for (const m of data) for (const h of m.holdings||[]) { if ((h.asset_name||'').toLowerCase().includes(n) || (h.ticker||'').toLowerCase().includes(n)) { out.push({ manager: m.manager, asset_name: h.asset_name, shares: h.shares, value_usd: h.value_usd }); break; } } return out.sort((a,b)=>b.value_usd-a.value_usd); }, [data, tickerSearch]);
-  return (<><div className="stat-grid"><div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">managers</div></div><div className="stat"><div className="v">{fmtUsd(data.reduce((s,m)=>s+(m.aum_usd||0),0))}</div><div className="l">AUM combinado</div></div><div className="stat"><div className="v">{fmtNum(data.reduce((s,m)=>s+(m.holdings?.length||0),0))}</div><div className="l">holdings totales</div></div></div><div className="panel"><h3>Buscar empresa: quien la tiene</h3><div className="toolbar"><input value={tickerSearch} onChange={e=>setTickerSearch(e.target.value)} placeholder="APPLE / NVIDIA" style={{width:320}} /></div>{tickerHolders && tickerHolders.length>0 && (<table><thead><tr><th>Manager</th><th>Asset</th><th className="num">Shares</th><th className="num">Valor</th></tr></thead><tbody>{tickerHolders.map((h,i)=>(<tr key={i}><td>{h.manager}</td><td>{h.asset_name}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td></tr>))}</tbody></table>)}{tickerHolders && tickerHolders.length===0 && <p style={{color:'var(--text-dim)'}}>Sin resultados.</p>}</div><div className="panel"><h3>Top managers por AUM</h3>{data.map(m => (<details key={m.cik}><summary><b>{m.manager}</b> - {fmtUsd(m.aum_usd)} - {m.holdings?.length||0} holdings - report {m.report_date} - <a href={m.source_url} target="_blank" rel="noopener">SEC</a></summary><table><thead><tr><th>Asset</th><th>CUSIP</th><th className="num">Shares</th><th className="num">Valor</th></tr></thead><tbody>{(m.holdings||[]).slice(0,30).map((h,i)=>(<tr key={i}><td>{h.asset_name}</td><td>{h.cusip}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td></tr>))}</tbody></table>{(m.holdings||[]).length>30 && <p style={{color:'var(--text-dim)',marginTop:6}}>+{m.holdings.length-30} mas...</p>}</details>))}</div></>);
+function Movements({ d }) { const moves=(d.movements&&d.movements.movements)||[];
+  return (<SortableTable rows={moves} initialSort={{key:"importance_score",dir:"desc"}} columns={[
+    {key:"rank",label:"#",numeric:true},{key:"importance_score",label:"Score",numeric:true,render:r=><ScoreBadge s={r.importance_score}/>},
+    {key:"source_type",label:"Fuente",render:r=><span className="pill" style={{color:SRC_COLOR[r.source_type]}}>{SRC_LABEL[r.source_type]||r.source_type}</span>},
+    {key:"actor_name",label:"Actor",render:r=><span className="truncate">{r.actor_name}</span>},{key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},
+    {key:"direction",label:"Dir",render:r=><span className={"pill "+(r.direction==="buy"?"buy":r.direction==="sell"?"sell":"")}>{r.direction}</span>},
+    {key:"amount_estimated",label:"Importe",numeric:true,render:r=>fmtUsd(r.amount_estimated)},{key:"event_date",label:"Fecha"},
+    {key:"source_url",label:"",render:r=>r.source_url?<a href={r.source_url} target="_blank">↗</a>:""},
+  ]}/>);
 }
-
-function PolymarketTab({ data }) {
-  return (<><div className="stat-grid"><div className="stat"><div className="v">{fmtNum(data.length)}</div><div className="l">traders</div></div><div className="stat"><div className="v">{fmtUsd(data.reduce((s,t)=>s+(t.pnl||0),0))}</div><div className="l">PnL combinado</div></div><div className="stat"><div className="v">{(data.length?data.reduce((s,t)=>s+(t.win_rate_positions||0),0)/data.length*100:0).toFixed(1)}%</div><div className="l">win rate medio</div></div></div><SortableTable columns={[{key:'username',label:'Trader',render:t=><details style={{background:'transparent',border:'none',padding:0}}><summary>{t.username||t.wallet.slice(0,10)+'...'}</summary><div style={{marginTop:6}}>{(t.top_positions||[]).map((p,i)=>(<div key={i} className="ranking-row"><span className="truncate" style={{display:'inline-block'}}>{p.market} ({p.position})</span><span className={p.realized_pnl>=0?'pos':'neg'}>{fmtUsd(p.size)} {p.realized_pnl?(p.realized_pnl>=0?'+':'')+fmtUsd(p.realized_pnl):''}</span></div>))}</div></details>},{key:'pnl',label:'PnL',numeric:true,render:t=><span className={t.pnl>=0?'pos':'neg'}>{fmtUsd(t.pnl)}</span>},{key:'volume',label:'Volumen',numeric:true,render:t=>fmtUsd(t.volume)},{key:'win_rate_positions',label:'Win rate',numeric:true,render:t=>(t.win_rate_positions*100).toFixed(1)+'%'},{key:'markets_traded',label:'Mercados',numeric:true,render:t=>fmtNum(t.markets_traded)},{key:'category',label:'Cat',render:t=><span className="pill">{t.category}</span>},{key:'wallet',label:'Wallet',render:t=><a href={`https://polymarket.com/profile/${t.wallet}`} target="_blank" rel="noopener">{t.wallet.slice(0,10)}...</a>}]} rows={data} initialSort={{key:'pnl',dir:'desc'}} /></>);
+function Signals({ d }) {
+  const [src,setSrc]=useState("ALL"),[dir,setDir]=useState("ALL"),[tk,setTk]=useState("");
+  const rows=useMemo(()=>(d.signals||[]).filter(s=>{ if(src!=="ALL"&&s.source_type!==src)return false; if(dir!=="ALL"&&s.direction!==dir)return false; if(tk&&!(s.ticker||"").toLowerCase().includes(tk.toLowerCase()))return false; return true; }),[d.signals,src,dir,tk]);
+  const srcs=[...new Set((d.signals||[]).map(s=>s.source_type))];
+  return (<><div className="toolbar">
+    <label>Fuente <select value={src} onChange={e=>setSrc(e.target.value)}><option value="ALL">todas</option>{srcs.map(s=><option key={s} value={s}>{SRC_LABEL[s]||s}</option>)}</select></label>
+    <label>Dirección <select value={dir} onChange={e=>setDir(e.target.value)}><option value="ALL">todas</option><option>buy</option><option>sell</option><option>stake</option><option>hold</option></select></label>
+    <label>Ticker <input value={tk} onChange={e=>setTk(e.target.value)} placeholder="NVDA"/></label><span className="neu">{fmtNum(rows.length)} señales</span></div>
+    <SortableTable rows={rows} initialSort={{key:"importance_score",dir:"desc"}} columns={[
+      {key:"importance_score",label:"Score",numeric:true,render:r=><ScoreBadge s={r.importance_score}/>},
+      {key:"source_type",label:"Fuente",render:r=><span className="pill" style={{color:SRC_COLOR[r.source_type]}}>{SRC_LABEL[r.source_type]||r.source_type}</span>},
+      {key:"actor_name",label:"Actor",render:r=><span className="truncate">{r.actor_name}</span>},{key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},
+      {key:"direction",label:"Dir",render:r=><span className={"pill "+(r.direction==="buy"?"buy":r.direction==="sell"?"sell":"")}>{r.direction}</span>},
+      {key:"amount_estimated",label:"Importe",numeric:true,render:r=>fmtUsd(r.amount_estimated)},{key:"event_date",label:"Fecha"},
+      {key:"cross_source_score",label:"Cross",render:r=>r.cross_source_score>0?<span className="pill cross">✓</span>:""},
+    ]}/></>);
 }
-
-function CrossRefTab({ congress, insiders, institutional }) {
-  const [ticker, setTicker] = useState('NVDA');
-  const t = ticker.trim().toUpperCase();
-  const congressMatches = useMemo(() => congress.filter(r => (r.ticker||'').toUpperCase()===t).slice(0,50), [congress, t]);
-  const insiderMatches = useMemo(() => insiders.filter(r => (r.ticker||'').toUpperCase()===t).slice(0,50), [insiders, t]);
-  const instMatches = useMemo(() => { const out = []; for (const m of institutional) for (const h of (m.holdings||[])) { if ((h.ticker||'').toUpperCase()===t || (h.asset_name||'').toUpperCase().includes(t)) { out.push({ manager: m.manager, ...h, report_date: m.report_date }); break; } } return out.sort((a,b)=>b.value_usd-a.value_usd); }, [institutional, t]);
-  return (<><div className="toolbar"><label>ticker <input value={ticker} onChange={e=>setTicker(e.target.value)} placeholder="NVDA" style={{width:180}} /></label></div><div className="grid-2"><div className="panel"><h3>Congreso ({congressMatches.length})</h3>{congressMatches.length===0?<p style={{color:'var(--text-dim)'}}>Sin trades.</p>:(<table><thead><tr><th>Fecha</th><th>Politico</th><th>P</th><th>Tipo</th><th>Monto</th></tr></thead><tbody>{congressMatches.map(r=>(<tr key={r.id}><td>{r.tx_date}</td><td className="truncate">{r.politician}</td><td><span className={partyClass(r.party)}>{r.party}</span></td><td>{r.tx_type}</td><td>{r.amount_range}</td></tr>))}</tbody></table>)}</div><div className="panel"><h3>Insiders ({insiderMatches.length})</h3>{insiderMatches.length===0?<p style={{color:'var(--text-dim)'}}>Sin transacciones recientes.</p>:(<table><thead><tr><th>Fecha</th><th>Insider</th><th>Cargo</th><th>Tipo</th><th className="num">Shares</th></tr></thead><tbody>{insiderMatches.map(r=>(<tr key={r.id}><td>{r.tx_date}</td><td className="truncate">{r.insider_name}</td><td className="truncate">{r.insider_title}</td><td>{r.tx_type}</td><td className="num">{fmtNum(r.shares)}</td></tr>))}</tbody></table>)}</div></div><div className="panel" style={{marginTop:14}}><h3>Institucionales que la tienen ({instMatches.length})</h3>{instMatches.length===0?<p style={{color:'var(--text-dim)'}}>Ningun manager 13F la reporta.</p>:(<table><thead><tr><th>Manager</th><th>Asset</th><th className="num">Shares</th><th className="num">Valor</th><th>Report</th></tr></thead><tbody>{instMatches.slice(0,50).map((h,i)=>(<tr key={i}><td>{h.manager}</td><td>{h.asset_name}</td><td className="num">{fmtNum(h.shares)}</td><td className="num">{fmtUsd(h.value_usd)}</td><td>{h.report_date}</td></tr>))}</tbody></table>)}</div></>);
+function Congress({ d }) {
+  const [tk,setTk]=useState(""),[pol,setPol]=useState("");
+  const rows=useMemo(()=>(d.congress||[]).filter(r=>{ if(tk&&!(r.ticker||"").toLowerCase().includes(tk.toLowerCase()))return false; if(pol&&!((r.politician||r.actor_name||"")).toLowerCase().includes(pol.toLowerCase()))return false; return true; }),[d.congress,tk,pol]);
+  const ranking=useMemo(()=>{ const m={}; (d.congress||[]).forEach(r=>{ if(r.direction==="buy"&&r.ticker)m[r.ticker]=(m[r.ticker]||0)+1; }); return Object.entries(m).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([label,value])=>({label,value})); },[d.congress]);
+  return (<div className="grid g-2-1"><div>
+    <div className="toolbar"><label>Ticker <input value={tk} onChange={e=>setTk(e.target.value)} placeholder="NVDA"/></label><label>Político <input value={pol} onChange={e=>setPol(e.target.value)} placeholder="Pelosi"/></label><span className="neu">{fmtNum(rows.length)}</span></div>
+    <SortableTable rows={rows} initialSort={{key:"tx_date",dir:"desc"}} columns={[
+      {key:"tx_date",label:"Fecha"},{key:"politician",label:"Político",render:r=><span className="truncate">{r.politician||r.actor_name}</span>},{key:"state",label:"Est"},
+      {key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},{key:"direction",label:"Dir",render:r=><span className={"pill "+(r.direction==="buy"?"buy":"sell")}>{r.direction}</span>},
+      {key:"amount_estimated",label:"Importe",numeric:true,render:r=>fmtUsd(r.amount_estimated||r.amount_max)},{key:"source_url",label:"",render:r=>r.source_url?<a href={r.source_url} target="_blank">↗</a>:""},
+    ]}/></div>
+    <div className="card"><h3>🛒 Más comprados (House)</h3><HBars rows={ranking} color="var(--purple)"/></div>
+  </div>);
 }
-
+function Insiders({ d }) {
+  const [tk,setTk]=useState(""),[code,setCode]=useState("ALL");
+  const rows=useMemo(()=>(d.insiders||[]).filter(r=>{ if(tk&&!(r.ticker||"").toLowerCase().includes(tk.toLowerCase()))return false; if(code!=="ALL"&&(r.tx_code||"")!==code)return false; return true; }),[d.insiders,tk,code]);
+  return (<><div className="toolbar"><label>Ticker <input value={tk} onChange={e=>setTk(e.target.value)} placeholder="NVDA"/></label>
+    <label>Código <select value={code} onChange={e=>setCode(e.target.value)}><option value="ALL">todos</option><option>P</option><option>S</option><option>M</option><option>A</option><option>F</option></select></label>
+    <span className="neu">{fmtNum(rows.length)} · P=compra S=venta</span></div>
+    <SortableTable rows={rows} initialSort={{key:"tx_date",dir:"desc"}} columns={[
+      {key:"tx_date",label:"Fecha"},{key:"insider_name",label:"Insider",render:r=><span className="truncate">{r.insider_name}</span>},{key:"insider_title",label:"Cargo",render:r=><span className="truncate" style={{maxWidth:160}}>{r.insider_title}</span>},
+      {key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},{key:"tx_code",label:"Tipo",render:r=><span className={"pill "+(r.tx_code==="P"||r.tx_code==="M"?"buy":r.tx_code==="S"||r.tx_code==="D"?"sell":"")}>{r.tx_type||r.tx_code}</span>},
+      {key:"shares",label:"Acciones",numeric:true,render:r=>fmtNum(r.shares)},{key:"value_usd",label:"Valor",numeric:true,render:r=>fmtUsd(r.value_usd)},{key:"source_url",label:"",render:r=>r.source_url?<a href={r.source_url} target="_blank">↗</a>:""},
+    ]}/></>);
+}
+function Institutions({ d }) {
+  const [q,setQ]=useState("");
+  const holders=useMemo(()=>{ if(!q)return null; const n=q.toLowerCase(),out=[]; (d.holdings||[]).forEach(m=>(m.holdings||[]).forEach(h=>{ if((h.asset_name||"").toLowerCase().includes(n)||(h.ticker||"").toLowerCase().includes(n))out.push({manager:m.manager,...h}); })); return out.sort((a,b)=>b.value_usd-a.value_usd); },[d.holdings,q]);
+  return (<><div className="card" style={{marginBottom:14}}><h3>🔎 Buscar empresa: qué fondos la tienen</h3><div className="toolbar"><input value={q} onChange={e=>setQ(e.target.value)} placeholder="APPLE / NVIDIA / MICROSOFT" style={{width:340}}/></div>
+      {holders&&holders.length>0&&<table><thead><tr><th>Fondo</th><th>Activo</th><th className="num">Acciones</th><th className="num">Valor</th></tr></thead><tbody>{holders.slice(0,40).map((h,i)=>(<tr key={i}><td>{h.manager}</td><td className="truncate">{h.asset_name}</td><td className="num mono">{fmtNum(h.shares)}</td><td className="num mono">{fmtUsd(h.value_usd)}</td></tr>))}</tbody></table>}
+      {holders&&holders.length===0&&<p className="neu">Sin resultados.</p>}</div>
+    <div className="grid g2">
+      <div className="card"><h3>🏛️ Fondos por AUM ({(d.holdings||[]).length})</h3>{(d.holdings||[]).map(m=>(<details key={m.cik}><summary><b>{m.manager}</b> · <span className="mono">{fmtUsd(m.aum_usd)}</span> · {m.quarter} {m.is_stale&&<span className="pill" style={{color:"var(--yellow)"}}>stale</span>}</summary>
+        <table><tbody>{(m.holdings||[]).slice(0,20).map((h,i)=>(<tr key={i}><td className="truncate">{h.asset_name}</td><td className="num mono">{fmtUsd(h.value_usd)}</td></tr>))}</tbody></table></details>))}</div>
+      <div className="card"><h3>🔄 Mayores cambios Q-vs-Q</h3><table><thead><tr><th>Fondo</th><th>Activo</th><th>Dir</th><th className="num">Cambio</th></tr></thead>
+        <tbody>{(d.changes||[]).slice(0,30).map((c,i)=>(<tr key={i}><td className="truncate" style={{maxWidth:110}}>{c.manager}</td><td className="truncate" style={{maxWidth:130}}>{c.asset_name}</td><td className={c.direction==="new"||c.direction==="increased"?"pos":"neg"}>{c.direction}</td><td className="num mono">{fmtUsd(c.change_value_usd)}</td></tr>))}</tbody></table></div>
+    </div></>);
+}
+function Holders({ d }) { const [tk,setTk]=useState("");
+  const rows=useMemo(()=>(d.holders||[]).filter(r=>!tk||(r.ticker||"").toLowerCase().includes(tk.toLowerCase())),[d.holders,tk]);
+  return (<><div className="toolbar"><label>Ticker <input value={tk} onChange={e=>setTk(e.target.value)} placeholder="NVGS"/></label><span className="neu">{fmtNum(rows.length)} filings · &gt;5% ownership</span></div>
+    <SortableTable rows={rows} initialSort={{key:"ownership_pct",dir:"desc"}} columns={[
+      {key:"filing_date",label:"Fecha"},{key:"filer_name",label:"Accionista",render:r=><span className="truncate">{r.filer_name}</span>},{key:"company",label:"Empresa",render:r=><span className="truncate">{r.company}</span>},
+      {key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},{key:"ownership_pct",label:"% clase",numeric:true,render:r=>r.ownership_pct!=null?<b className="pos mono">{r.ownership_pct}%</b>:"-"},
+      {key:"shares_owned",label:"Acciones",numeric:true,render:r=>fmtNum(r.shares_owned)},{key:"filing_type",label:"Tipo",render:r=><span className="pill">{r.filing_type}</span>},{key:"source_url",label:"",render:r=>r.source_url?<a href={r.source_url} target="_blank">↗</a>:""},
+    ]}/></>);
+}
+function Polymarket({ rows, scoreKey, label }) {
+  return (<SortableTable rows={rows||[]} initialSort={{key:scoreKey,dir:"desc"}} columns={[
+    {key:scoreKey,label,numeric:true,render:t=><ScoreBadge s={t[scoreKey]}/>},
+    {key:"username",label:"Trader",render:t=><details style={{background:"transparent",border:"none",padding:0}}><summary className="mono">{t.username||t.wallet}</summary><div style={{marginTop:6}}>{(t.top_positions||[]).map((p,i)=>(<div key={i} className="ranking-row"><span className="truncate">{p.market} ({p.outcome})</span><span className={p.realized_pnl>=0?"pos":"neg"}>{fmtUsd(p.size)}</span></div>))}</div></details>},
+    {key:"pnl",label:"PnL",numeric:true,render:t=><span className={t.pnl>=0?"pos":"neg"}>{fmtUsd(t.pnl)}</span>},{key:"volume",label:"Volumen",numeric:true,render:t=>fmtUsd(t.volume)},
+    {key:"win_rate",label:"Win%",numeric:true,render:t=>(t.win_rate*100).toFixed(0)+"%"},{key:"closed_positions",label:"Pos",numeric:true},
+    {key:"categories",label:"Cat",render:t=>(t.categories||[]).map(c=><span className="pill" key={c}>{c}</span>)},
+  ]}/>);
+}
+function TickerIntel({ d }) {
+  const [tk,setTk]=useState("NVDA"); const T=tk.trim().toUpperCase();
+  const ins=(d.insiders||[]).filter(r=>(r.ticker||"").toUpperCase()===T);
+  const con=(d.congress||[]).filter(r=>(r.ticker||"").toUpperCase()===T);
+  const hld=(d.holders||[]).filter(r=>(r.ticker||"").toUpperCase()===T);
+  const news=(d.news||[]).filter(r=>(r.tickers_detected||[]).map(x=>x.toUpperCase()).includes(T));
+  const funds=[]; (d.holdings||[]).forEach(m=>(m.holdings||[]).forEach(h=>{ if((h.ticker||"").toUpperCase()===T||(h.asset_name||"").toUpperCase().includes(T))funds.push({manager:m.manager,...h}); }));
+  const N=(x)=><span className="pill" style={{marginLeft:6}}>{x}</span>;
+  return (<>
+    <div className="toolbar"><label>Ticker <input value={tk} onChange={e=>setTk(e.target.value)} placeholder="NVDA" style={{width:180,fontSize:18,fontWeight:700}} className="mono"/></label></div>
+    <div className="grid g2">
+      <div className="card"><h3>👔 Insiders {N(ins.length)}</h3>{ins.length===0?<p className="neu">—</p>:<table><tbody>{ins.slice(0,15).map((r,i)=>(<tr key={i}><td>{r.tx_date}</td><td className="truncate">{r.insider_name}</td><td className={r.tx_code==="P"?"pos":"neg"}>{r.tx_type}</td><td className="num mono">{fmtUsd(r.value_usd)}</td></tr>))}</tbody></table>}</div>
+      <div className="card"><h3>🏛️ Congreso {N(con.length)}</h3>{con.length===0?<p className="neu">—</p>:<table><tbody>{con.slice(0,15).map((r,i)=>(<tr key={i}><td>{r.tx_date}</td><td className="truncate">{r.politician||r.actor_name}</td><td className={dirClass(r.direction)}>{r.direction}</td><td className="num mono">{fmtUsd(r.amount_estimated||r.amount_max)}</td></tr>))}</tbody></table>}</div>
+      <div className="card"><h3>📊 Grandes accionistas 13D/13G {N(hld.length)}</h3>{hld.length===0?<p className="neu">—</p>:<table><tbody>{hld.map((r,i)=>(<tr key={i}><td className="truncate">{r.filer_name}</td><td className="num mono pos">{r.ownership_pct}%</td><td>{r.filing_type}</td></tr>))}</tbody></table>}</div>
+      <div className="card"><h3>🏦 Fondos 13F {N(funds.length)}</h3>{funds.length===0?<p className="neu">—</p>:<table><tbody>{funds.slice(0,15).map((r,i)=>(<tr key={i}><td>{r.manager}</td><td className="num mono">{fmtUsd(r.value_usd)}</td></tr>))}</tbody></table>}</div>
+    </div>
+    <div className="card" style={{marginTop:14}}><h3>📰 Noticias {N(news.length)}</h3>{news.length===0?<p className="neu">Sin noticias recientes para {T}.</p>:news.map((a,i)=>(<div className="ranking-row" key={i} style={{padding:"6px 0",borderBottom:"1px solid var(--border-soft)"}}><a href={a.url} target="_blank" className="truncate" style={{maxWidth:620}}>{a.title}</a><span>{(a.themes||[]).map(t=><span className="pill" key={t}>{t}</span>)} {a.date}</span></div>))}</div>
+  </>);
+}
+function DataQuality({ d }) { const h=d.health||{},ds=h.datasets||{};
+  return (<><div className="card" style={{marginBottom:14}}><h3>Estado general</h3><div style={{fontSize:22,fontWeight:800}}><span className={"status-dot "+(h.overall_status||"")}></span>{h.overall_status}</div><p className="neu" style={{marginTop:6}}>Generado: {h.generated_at}</p></div>
+    <div className="card" style={{marginBottom:14}}><table><thead><tr><th>Dataset</th><th>Estado</th><th className="num">Registros</th><th>Última fecha</th><th>Issues</th></tr></thead>
+      <tbody>{Object.entries(ds).map(([k,v])=>(<tr key={k}><td><b>{k}</b></td><td><span className={"status-dot "+v.status}></span>{v.status}</td><td className="num mono">{fmtNum(v.records_30d||v.managers||v.smart_traders||v.records_total)}</td><td>{v.latest_tx_date||v.latest_filing_date||v.consensus_quarter||"-"}</td><td className="neu">{(v.issues||[]).join(", ")||"—"}</td></tr>))}</tbody></table></div>
+    <div className="card"><h3>Manifest público (API)</h3><table><thead><tr><th>Dataset</th><th>Tipo</th><th className="num">Registros</th><th>Rango</th></tr></thead>
+      <tbody>{((d.manifest&&d.manifest.datasets)||[]).map(m=>(<tr key={m.name}><td><a href={DATA_BASE+m.name+".json"} target="_blank">{m.name}</a></td><td>{m.type}</td><td className="num mono">{fmtNum(m.records)}</td><td className="neu">{m.from_date?`${m.from_date}…${m.to_date}`:"-"}</td></tr>))}</tbody></table></div></>);
+}
+const TABS=[["analysis","📊 Análisis"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
 function App() {
-  const [data, setData] = useState({ congress: null, insiders: null, institutional: null, polymarket: null });
-  const [error, setError] = useState(null);
-  const [tab, setTab] = useState('congress');
-  const [lastUpdated, setLastUpdated] = useState(null);
-  const load = useCallback(async () => { setError(null); try { const entries = await Promise.all(Object.entries(FILES).map(async ([k,f]) => { const r = await fetch(DATA_BASE + f + '?t=' + Date.now()); if (!r.ok) throw new Error(`${f}: HTTP ${r.status}`); const lm = r.headers.get('last-modified'); const json = await r.json(); return [k, json, lm]; })); const next = {}; let newest = null; for (const [k, v, lm] of entries) { next[k] = v; if (lm && (!newest || new Date(lm)>new Date(newest))) newest = lm; } setData(next); setLastUpdated(newest || new Date().toISOString()); } catch (e) { setError(e.message); } }, []);
-  useEffect(() => { load(); }, [load]);
-  const allReady = data.congress && data.insiders && data.institutional && data.polymarket;
-  if (error) return (<><header><h1>WATCHDOG</h1></header><div className="error">Error: {error}<br /><br /><button onClick={load}>reintentar</button></div></>);
-  if (!allReady) return (<><header><h1>WATCHDOG</h1></header><div className="loading">cargando datasets desde {DATA_BASE}...</div></>);
-  return (<><header><div><h1>WATCHDOG</h1><div className="meta">Congress, Insider & Polymarket Tracker - <a href={DATA_BASE} target="_blank">source</a></div></div><div className="meta">{lastUpdated && <>actualizado: {new Date(lastUpdated).toLocaleString()}<br /></>}<a href="#" onClick={(e)=>{e.preventDefault();load();}}>refrescar</a></div></header><div className="container"><div className="tabs"><button className={`tab ${tab==='congress'?'active':''}`} onClick={()=>setTab('congress')}>Congress ({fmtNum(data.congress.length)})</button><button className={`tab ${tab==='insiders'?'active':''}`} onClick={()=>setTab('insiders')}>Insiders ({fmtNum(data.insiders.length)})</button><button className={`tab ${tab==='institutional'?'active':''}`} onClick={()=>setTab('institutional')}>Institucionales ({fmtNum(data.institutional.length)})</button><button className={`tab ${tab==='polymarket'?'active':''}`} onClick={()=>setTab('polymarket')}>Polymarket ({fmtNum(data.polymarket.length)})</button><button className={`tab ${tab==='crossref'?'active':''}`} onClick={()=>setTab('crossref')}>Cross-ref</button></div>{tab==='congress' && <CongressTab data={data.congress} />}{tab==='insiders' && <InsidersTab data={data.insiders} />}{tab==='institutional' && <InstitutionalTab data={data.institutional} />}{tab==='polymarket' && <PolymarketTab data={data.polymarket} />}{tab==='crossref' && <CrossRefTab congress={data.congress} insiders={data.insiders} institutional={data.institutional} />}</div></>);
+  const [d,setD]=useState({}),[err,setErr]=useState(null),[tab,setTab]=useState("analysis"),[updated,setUpdated]=useState(null);
+  const load=useCallback(async()=>{ setErr(null); try{
+    const entries=await Promise.all(Object.entries(FILES).map(async([k,f])=>{ try{ const r=await fetch(DATA_BASE+f+"?t="+Date.now()); if(!r.ok)return [k,null]; return [k,await r.json()]; }catch{ return [k,null]; } }));
+    const next={}; entries.forEach(([k,v])=>next[k]=v); setD(next);
+    setUpdated((next.latest&&next.latest.generated_at)||(next.health&&next.health.generated_at)||new Date().toISOString());
+  }catch(e){ setErr(e.message); } },[]);
+  useEffect(()=>{ load(); },[load]);
+  const ready=d.health!==undefined;
+  if(err)return (<><header><h1>🐕 WATCHDOG</h1></header><div className="error">Error: {err}<br/><br/><button onClick={load}>reintentar</button></div></>);
+  if(!ready)return (<><header><h1>🐕 WATCHDOG</h1></header><div className="loading">cargando datos…</div></>);
+  const overall=(d.health&&d.health.overall_status)||"";
+  return (<>
+    <header><div><h1>🐕 WATCHDOG</h1><div className="sub">Smart Money Tracker · Congress · Insiders · 13F · 13D/G · Polymarket · News</div></div>
+      <div className="meta"><span className={"status-dot "+overall}></span>{overall} · {updated&&"actualizado "+new Date(updated).toLocaleString()}<br/><a href="#" onClick={e=>{e.preventDefault();load();}}>↻ refrescar</a> · <a href={DATA_BASE+"llm_context_30d.json"} target="_blank">llm_context.json ↗</a></div></header>
+    <div className="container">
+      <div className="tabs">{TABS.map(([k,l])=>(<button key={k} className={"tab "+(tab===k?"active":"")} onClick={()=>setTab(k)}>{l}</button>))}</div>
+      {tab==="analysis"&&<Analysis d={d}/>}
+      {tab==="movements"&&<Movements d={d}/>}
+      {tab==="signals"&&<Signals d={d}/>}
+      {tab==="congress"&&<Congress d={d}/>}
+      {tab==="insiders"&&<Insiders d={d}/>}
+      {tab==="institutions"&&<Institutions d={d}/>}
+      {tab==="holders"&&<Holders d={d}/>}
+      {tab==="smart"&&<Polymarket rows={d.smart} scoreKey="smart_score" label="Smart"/>}
+      {tab==="whales"&&<Polymarket rows={d.whales} scoreKey="whale_score" label="Whale"/>}
+      {tab==="ticker"&&<TickerIntel d={d}/>}
+      {tab==="quality"&&<DataQuality d={d}/>}
+    </div>
+  </>);
 }
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
 </script>
 </body>
 </html>
