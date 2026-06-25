@@ -388,11 +388,11 @@ function App() {
   }catch(e){ setErr(e.message); } },[]);
   useEffect(()=>{ load(); },[load]);
   const ready=d.health!==undefined;
-  if(err)return (<><header><h1>🐕 WATCHDOG</h1></header><div className="error">Error: {err}<br/><br/><button onClick={load}>reintentar</button></div></>);
-  if(!ready)return (<><header><h1>🐕 WATCHDOG</h1></header><div className="loading">cargando datos…</div></>);
+  if(err)return (<><header><h1><img src="logo.jpg" alt="WATCHDOG" style="height:28px;width:28px;border-radius:50%;vertical-align:middle;margin-right:2px"/> WATCHDOG</h1></header><div className="error">Error: {err}<br/><br/><button onClick={load}>reintentar</button></div></>);
+  if(!ready)return (<><header><h1><img src="logo.jpg" alt="WATCHDOG" style="height:28px;width:28px;border-radius:50%;vertical-align:middle;margin-right:2px"/> WATCHDOG</h1></header><div className="loading">cargando datos…</div></>);
   const overall=(d.health&&d.health.overall_status)||"";
   return (<>
-    <header><div><h1>🐕 WATCHDOG</h1><div className="sub">Smart Money Tracker · dónde invierte el dinero que importa</div></div>
+    <header><div><h1><img src="logo.jpg" alt="WATCHDOG" style="height:28px;width:28px;border-radius:50%;vertical-align:middle;margin-right:2px"/> WATCHDOG</h1><div className="sub">Smart Money Tracker · dónde invierte el dinero que importa</div></div>
       <div className="meta"><span className={"status-dot "+overall}></span>{overall} · {updated&&"actualizado "+new Date(updated).toLocaleString()}<br/><a href="#" onClick={e=>{e.preventDefault();load();}}>↻ refrescar</a> · <a href={DATA_BASE+"llm_context_30d.json"} target="_blank">llm_context.json ↗</a></div></header>
     <div className="container">
       <div className="tabs">{TABS.map(([k,l])=>(<button key={k} className={"tab "+(tab===k?"active":"")} onClick={()=>setTab(k)}>{l}</button>))}</div>
