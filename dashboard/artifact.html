@@ -53,20 +53,33 @@
   .card h3 { margin:0 0 14px 0; font-size:12px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.07em; font-weight:700; display:flex; align-items:center; justify-content:space-between; gap:8px; }
   .grid { display:grid; gap:14px; }
   .g2 { grid-template-columns:1fr 1fr; } .g3 { grid-template-columns:repeat(3,1fr); } .g4 { grid-template-columns:repeat(4,1fr); }
-  .g-2-1 { grid-template-columns:2fr 1fr; }
-  @media (max-width:1000px){ .g2,.g3,.g4,.g-2-1 { grid-template-columns:1fr; } }
+  .g-2-1 { grid-template-columns:2fr 1fr; } .g-1-1-1 { grid-template-columns:1fr 1fr 1fr; }
+  @media (max-width:1000px){ .g2,.g3,.g4,.g-2-1,.g-1-1-1 { grid-template-columns:1fr; } }
   .kpi { background:linear-gradient(150deg,var(--bg-elev2),var(--bg-elev)); border:1px solid var(--border); border-radius:14px; padding:16px 18px; position:relative; overflow:hidden; box-shadow:var(--shadow); }
   .kpi .label { color:var(--text-dim); font-size:11px; text-transform:uppercase; letter-spacing:.06em; font-weight:600; }
   .kpi .value { font-size:30px; font-weight:800; margin-top:6px; line-height:1; letter-spacing:-.02em; }
   .kpi .foot { color:var(--text-faint); font-size:11px; margin-top:7px; }
   .kpi .accent-bar { position:absolute; left:0; top:0; bottom:0; width:4px; }
+  /* idea cards */
+  .ideacard { background:linear-gradient(135deg,var(--bg-elev2),var(--bg-elev)); border:1px solid var(--border); border-left:3px solid var(--green); border-radius:12px; padding:14px 16px; box-shadow:var(--shadow); }
+  .ideacard.sell { border-left-color:var(--red); }
+  .ideacard .tkrow { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; }
+  .ideacard .tk { font-size:21px; font-weight:800; line-height:1; }
+  .ideacard .co { color:var(--text-faint); font-size:10.5px; margin-top:3px; max-width:160px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .signal-badge { padding:4px 11px; border-radius:20px; font-weight:800; font-size:11px; white-space:nowrap; }
+  .evline { font-size:11.5px; color:var(--text-dim); padding:3px 0; line-height:1.45; }
+  .evline b { color:var(--text); font-weight:600; }
+  .evline .ico { margin-right:4px; }
+  .ideanews { margin-top:9px; padding-top:9px; border-top:1px solid var(--border-soft); font-size:11px; }
+  .whalecard { background:var(--bg-elev2); border:1px solid var(--border); border-radius:11px; padding:13px 15px; }
+  .whalecard .wr { font-size:24px; font-weight:800; line-height:1; }
+  .bigrow { display:flex; gap:10px; align-items:center; padding:8px 0; border-bottom:1px solid var(--border-soft); font-size:12.5px; }
+  .bigrow:last-child { border-bottom:none; }
+  .bigrow .ico { font-size:15px; } .bigrow .amt { margin-left:auto; font-weight:700; }
   .move { display:flex; gap:12px; align-items:center; padding:11px 0; border-bottom:1px solid var(--border-soft); }
   .move:last-child { border-bottom:none; }
   .move .rank { color:var(--text-faint); font-weight:800; min-width:24px; font-size:14px; }
   .move .body { flex:1; min-width:0; } .move .t { font-weight:600; font-size:13px; } .move .s { color:var(--text-dim); font-size:11px; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .crosscard { background:linear-gradient(135deg,#1c1830,#171e29); border:1px solid #bc8cff44; border-radius:11px; padding:13px 15px; }
-  .crosscard .tk { font-size:18px; font-weight:800; }
-  .crosscard .srcs { margin-top:8px; }
   .ranking { display:flex; flex-direction:column; gap:7px; max-height:360px; overflow-y:auto; }
   .ranking-row { display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:12.5px; }
   .truncate { max-width:240px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
@@ -77,6 +90,8 @@
   .dot { width:9px; height:9px; border-radius:3px; display:inline-block; }
   details { background:var(--bg-elev2); border:1px solid var(--border-soft); border-radius:8px; padding:9px 13px; margin-top:7px; }
   details summary { cursor:pointer; } details[open] summary { color:var(--accent); margin-bottom:9px; }
+  .sectiontitle { font-size:15px; font-weight:800; margin:4px 0 12px; display:flex; align-items:center; gap:8px; }
+  .sectiontitle .hint { font-size:11px; font-weight:400; color:var(--text-faint); }
 </style>
 </head>
 <body>
@@ -93,29 +108,35 @@ const FILES = {
 };
 const SRC_COLOR = { corporate_insider:"var(--accent)", congress:"var(--purple)", institutional:"var(--orange)", large_holder:"var(--teal)" };
 const SRC_LABEL = { corporate_insider:"Insiders", congress:"Congreso", institutional:"Fondos 13F", large_holder:"13D/13G" };
+const SRC_ICON = { corporate_insider:"👔", congress:"🏛️", institutional:"🏦", large_holder:"📊" };
 const fmtNum=(n,dp=0)=>(n==null||isNaN(n))?"-":Number(n).toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp});
 const fmtUsd=(n)=>{ if(n==null||isNaN(n))return "-"; const a=Math.abs(n),s=n<0?"-":""; if(a>=1e9)return s+"$"+(a/1e9).toFixed(2)+"B"; if(a>=1e6)return s+"$"+(a/1e6).toFixed(2)+"M"; if(a>=1e3)return s+"$"+(a/1e3).toFixed(1)+"K"; return s+"$"+fmtNum(a); };
 const scoreColor=(s)=>s>=80?"var(--red)":s>=65?"var(--orange)":s>=50?"var(--yellow)":"var(--text-dim)";
 const dirClass=(d)=>d==="buy"||d==="stake"?"pos":d==="sell"?"neg":"neu";
 const ScoreBadge=({s})=><span className="scorebadge mono" style={{background:scoreColor(s)+"22",color:scoreColor(s)}}>{Math.round(s)}</span>;
 
-function Donut({ segments, size=140, thickness=20 }) {
+// texto de accion legible por fuente+direccion
+function actionText(s){
+  const st=s.source_type, dir=s.direction;
+  if(st==="large_holder") return s.ownership_pct!=null?`declara ${s.ownership_pct}% del capital`:"declara participación";
+  if(st==="institutional") return dir==="buy"?"aumentó posición":"redujo posición";
+  if(dir==="buy") return "compró"; if(dir==="sell") return "vendió"; if(dir==="stake") return "tomó participación"; return s.direction||"operó";
+}
+function EvLine({s}){
+  const amt = s.ownership_pct!=null && s.source_type==="large_holder" ? "" : (s.amount_estimated?fmtUsd(s.amount_estimated):"");
+  return (<div className="evline"><span className="ico">{SRC_ICON[s.source_type]||"•"}</span>
+    <b>{s.actor_name||SRC_LABEL[s.source_type]}</b> {actionText(s)} {amt&&<b className="mono">{amt}</b>} {s.event_date?<span style={{color:"var(--text-faint)"}}>· {String(s.event_date).slice(5)}</span>:""}</div>);
+}
+
+// ============ CHARTS ============
+function Donut({ segments, size=130, thickness=18 }) {
   const total=segments.reduce((s,x)=>s+x.value,0)||1;
   const r=(size-thickness)/2, cx=size/2, cy=size/2, C=2*Math.PI*r; let offset=0;
   return (<svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
     <circle cx={cx} cy={cy} r={r} fill="none" stroke="var(--bg-elev3)" strokeWidth={thickness}/>
     {segments.map((s,i)=>{ const len=C*(s.value/total); const el=(<circle key={i} cx={cx} cy={cy} r={r} fill="none" stroke={s.color} strokeWidth={thickness} strokeDasharray={`${len} ${C-len}`} strokeDashoffset={-offset} transform={`rotate(-90 ${cx} ${cy})`}/>); offset+=len; return el; })}
-    <text x={cx} y={cy-3} textAnchor="middle" fill="var(--text)" fontSize="22" fontWeight="800">{fmtNum(total)}</text>
-    <text x={cx} y={cy+14} textAnchor="middle" fill="var(--text-dim)" fontSize="9">señales</text></svg>);
-}
-function DivergingBars({ rows }) {
-  const max=Math.max(1,...rows.map(r=>Math.max(r.buy,r.sell)));
-  return (<div style={{display:"flex",flexDirection:"column",gap:9}}>
-    {rows.map((r,i)=>(<div key={i} style={{display:"grid",gridTemplateColumns:"54px 1fr 1fr",alignItems:"center",gap:6,fontSize:12}}>
-      <b className="mono" style={{textAlign:"right"}}>{r.ticker}</b>
-      <div style={{display:"flex",justifyContent:"flex-end"}}><div style={{width:(r.sell/max*100)+"%",height:16,background:"linear-gradient(90deg,var(--red),#f8514999)",borderRadius:"4px 0 0 4px",minWidth:r.sell>0?3:0}} title={"venta "+fmtNum(r.sell)}/></div>
-      <div><div style={{width:(r.buy/max*100)+"%",height:16,background:"linear-gradient(90deg,#3fb95099,var(--green))",borderRadius:"0 4px 4px 0",minWidth:r.buy>0?3:0}} title={"compra "+fmtNum(r.buy)}/></div></div>))}
-    <div className="legend" style={{justifyContent:"center"}}><span><i className="dot" style={{background:"var(--red)"}}></i>presión vendedora</span><span><i className="dot" style={{background:"var(--green)"}}></i>presión compradora</span></div></div>);
+    <text x={cx} y={cy-2} textAnchor="middle" fill="var(--text)" fontSize="20" fontWeight="800">{fmtNum(total)}</text>
+    <text x={cx} y={cy+13} textAnchor="middle" fill="var(--text-dim)" fontSize="9">señales</text></svg>);
 }
 function HBars({ rows, color="var(--accent)", fmt=fmtNum }) {
   const max=Math.max(1,...rows.map(r=>Math.abs(r.value)));
@@ -123,55 +144,119 @@ function HBars({ rows, color="var(--accent)", fmt=fmtNum }) {
     {rows.map((r,i)=>(<div key={i}><div style={{display:"flex",justifyContent:"space-between",fontSize:12,marginBottom:3}}><span className="truncate" style={{maxWidth:210}}>{r.label}</span><b className="mono">{fmt(r.value)}</b></div>
       <div style={{height:7,background:"var(--bg-elev3)",borderRadius:4,overflow:"hidden"}}><div style={{width:(Math.abs(r.value)/max*100)+"%",height:"100%",background:typeof color==="function"?color(r):color,borderRadius:4}}/></div></div>))}</div>);
 }
-function SparkBars({ values, color="var(--accent)", height=54 }) {
+function SparkBars({ values, color="var(--accent)", height=50 }) {
   const max=Math.max(1,...values.map(v=>v.v));
   return (<div style={{display:"flex",alignItems:"flex-end",gap:2,height}}>{values.map((v,i)=>(<div key={i} title={`${v.k}: ${v.v}`} style={{flex:1,height:Math.max(2,v.v/max*height)+"px",background:color,opacity:.4+.6*(v.v/max),borderRadius:"2px 2px 0 0"}}/>))}</div>);
 }
 
+// ============ ANÁLISIS / IDEAS ============
 function Analysis({ d }) {
-  const signals=d.signals||[]; const tt=(d.llm&&d.llm.top_tickers)||{}; const moves=(d.movements&&d.movements.movements)||[];
+  const signals=d.signals||[];
+  const newsByTicker=useMemo(()=>{ const m={}; (d.news||[]).forEach(a=>(a.tickers_detected||[]).forEach(t=>{ (m[t]=m[t]||[]).push(a); })); return m; },[d.news]);
+
+  // Agrega señales por ticker -> tesis de inversion. Deduplica por ACTOR
+  // (un mismo insider que compra y vende se resume a su neto) y prioriza
+  // tickers con varias fuentes/actores distintos comprando lo mismo.
+  const ideas=useMemo(()=>{
+    const m={};
+    signals.forEach(s=>{ if(!s.ticker)return;
+      const e=m[s.ticker]=m[s.ticker]||{ticker:s.ticker,company:s.asset_name||"",srcs:new Set(),actors:{}};
+      e.srcs.add(s.source_type); if(!e.company&&s.asset_name)e.company=s.asset_name;
+      const key=(s.actor_name||SRC_LABEL[s.source_type])+"|"+s.source_type;
+      const a=e.actors[key]=e.actors[key]||{name:s.actor_name||SRC_LABEL[s.source_type],src:s.source_type,amt:0,pct:null,date:""};
+      const amt=s.amount_estimated||0;
+      a.amt += (s.direction==="sell"? -amt : amt);
+      if(s.ownership_pct!=null) a.pct=s.ownership_pct;
+      if(s.event_date && s.event_date>(a.date||"")) a.date=s.event_date;
+    });
+    return Object.values(m).map(e=>{
+      const actors=Object.values(e.actors);
+      // actor "comprador" = neto positivo, o un 13D/G (declarar posicion = alcista)
+      const buyers=actors.filter(a=>a.amt>0 || (a.src==="large_holder" && (a.pct||0)>0 && a.amt>=0));
+      const sellers=actors.filter(a=>a.amt<0);
+      const netAmt=actors.reduce((s,a)=>s+a.amt,0);
+      e.actors=actors.sort((a,b)=>Math.abs(b.amt)-Math.abs(a.amt));
+      e.buyers=buyers.length; e.sellers=sellers.length; e.netAmt=netAmt; e.signal=netAmt>=0?"buy":"sell";
+      // convicción: las FUENTES distintas pesan mucho (cross-source = señal fuerte),
+      // luego nº de actores en la dirección dominante, luego el importe neto.
+      const domActors=Math.max(buyers.length,sellers.length);
+      e.conviction = e.srcs.size*1000 + domActors*40 + Math.min(Math.abs(netAmt)/1e6,39);
+      return e;
+    });
+  },[signals]);
+  // Una idea es relevante si: hay varias fuentes, o varios actores, o un importe
+  // grande, o un 13D/G (>5% del capital). Filtra el ruido de un solo churn pequeño.
+  const relevant=(e)=>e.srcs.size>=2 || e.buyers>=2 || e.sellers>=2 || Math.abs(e.netAmt)>=500000 || e.srcs.has("large_holder");
+  const buyIdeas=useMemo(()=>ideas.filter(e=>e.signal==="buy"&&e.buyers>0&&relevant(e)).sort((a,b)=>b.conviction-a.conviction).slice(0,9),[ideas]);
+  const sellIdeas=useMemo(()=>ideas.filter(e=>e.signal==="sell"&&relevant(e)).sort((a,b)=>b.conviction-a.conviction).slice(0,6),[ideas]);
+
+  // Feed de operaciones grandes nombradas (congress + insider) por importe
+  const bigTrades=useMemo(()=>{ return signals.filter(s=>(s.source_type==="congress"||s.source_type==="corporate_insider")&&s.ticker&&s.amount_estimated)
+    .sort((a,b)=>(b.amount_estimated||0)-(a.amount_estimated||0)).slice(0,14); },[signals]);
+
+  // Polymarket whales con WR + su apuesta principal
+  const whales=useMemo(()=>{ return [...(d.smart||[]),...(d.whales||[])]
+    .filter(t=>t.closed_positions>=10).sort((a,b)=>(b.smart_score||b.whale_score||0)-(a.smart_score||a.whale_score||0))
+    .filter((t,i,arr)=>arr.findIndex(x=>x.wallet===t.wallet)===i).slice(0,6); },[d.smart,d.whales]);
+
   const bySource=useMemo(()=>{ const m={}; signals.forEach(s=>{ m[s.source_type]=(m[s.source_type]||0)+1; }); return Object.entries(m).map(([k,v])=>({label:SRC_LABEL[k]||k,value:v,color:SRC_COLOR[k]||"var(--text-dim)",key:k})); },[signals]);
-  const diverging=useMemo(()=>{ const b={},se={},meta={}; signals.forEach(s=>{ if(!s.ticker)return; const sc=s.importance_score||0; meta[s.ticker]=meta[s.ticker]||new Set(); meta[s.ticker].add(s.source_type); if(s.direction==="buy"||s.direction==="stake")b[s.ticker]=(b[s.ticker]||0)+sc; else if(s.direction==="sell")se[s.ticker]=(se[s.ticker]||0)+sc; });
-    const all=new Set([...Object.keys(b),...Object.keys(se)]); return [...all].map(t=>({ticker:t,buy:b[t]||0,sell:se[t]||0})).sort((x,y)=>(y.buy+y.sell)-(x.buy+x.sell)).slice(0,12); },[signals]);
-  const cross=useMemo(()=>{ const m={}; signals.forEach(s=>{ if(!s.ticker)return; m[s.ticker]=m[s.ticker]||{srcs:new Set(),buy:0,sell:0,score:0}; m[s.ticker].srcs.add(s.source_type); m[s.ticker].score+=s.importance_score||0; if(s.direction==="buy"||s.direction==="stake")m[s.ticker].buy++; else if(s.direction==="sell")m[s.ticker].sell++; });
-    return Object.entries(m).filter(([,v])=>v.srcs.size>=2).map(([t,v])=>({ticker:t,srcs:[...v.srcs],score:v.score/v.srcs.size,buy:v.buy,sell:v.sell})).sort((a,b)=>b.srcs.length-a.srcs.length||b.score-a.score).slice(0,8); },[signals]);
-  const insiderFlow=useMemo(()=>{ let buy=0,sell=0; (d.insiders||[]).forEach(r=>{ const v=r.value_usd||0; if(r.tx_code==="P"||r.tx_code==="M")buy+=v; else if(r.tx_code==="S"||r.tx_code==="D")sell+=v; }); return {buy,sell}; },[d.insiders]);
   const daily=useMemo(()=>{ const m={},keys=[]; for(let i=29;i>=0;i--){ const k=new Date(Date.now()-i*864e5).toISOString().slice(5,10); m[k]=0; keys.push(k); } signals.forEach(s=>{ const dt=s.event_date||s.disclosure_date; if(!dt)return; const k=String(dt).slice(5,10); if(k in m)m[k]++; }); return keys.map(k=>({k,v:m[k]})); },[signals]);
-  const themes=useMemo(()=>{ const m={}; (d.news||[]).forEach(a=>(a.themes||[]).forEach(t=>m[t]=(m[t]||0)+1)); return Object.entries(m).map(([label,value])=>({label,value})).sort((a,b)=>b.value-a.value).slice(0,7); },[d.news]);
-  const buyRatio=insiderFlow.buy+insiderFlow.sell>0?insiderFlow.buy/(insiderFlow.buy+insiderFlow.sell):0;
-  const topScore=Math.max(0,...signals.map(s=>s.importance_score||0));
+
+  const ActorLine=({a})=>{ const isLH=a.src==="large_holder"&&a.pct!=null;
+    return (<div className="evline"><span className="ico">{SRC_ICON[a.src]||"•"}</span>
+      <b>{a.name}</b> {isLH?`declara ${a.pct}% del capital`:(a.amt>=0?"compró":"vendió")+" neto"} {!isLH&&<b className="mono">{fmtUsd(Math.abs(a.amt))}</b>} {a.date?<span style={{color:"var(--text-faint)"}}>· {String(a.date).slice(5)}</span>:""}</div>);
+  };
+  const IdeaCard=({e,sell})=>{ const nw=(newsByTicker[e.ticker]||[])[0];
+    const shown=e.actors.filter(a=>sell?a.amt<0:(a.amt>0||(a.src==="large_holder"&&a.pct>0))).slice(0,4);
+    return (<div className={"ideacard"+(sell?" sell":"")}>
+      <div className="tkrow"><div><div className="tk mono">{e.ticker}</div><div className="co">{e.company}</div></div>
+        <span className="signal-badge" style={{background:(sell?"var(--red)":"var(--green)")+"22",color:sell?"var(--red)":"var(--green)"}}>{sell?"VENTA":"COMPRA"} · {e.srcs.size} {e.srcs.size>1?"fuentes":"fuente"}</span></div>
+      <div style={{margin:"9px 0 4px"}}>{[...e.srcs].map(s=><span className="pill" key={s} style={{color:SRC_COLOR[s]}}>{SRC_ICON[s]} {SRC_LABEL[s]}</span>)}</div>
+      <div>{shown.map((a,i)=><ActorLine key={i} a={a}/>)}{e.actors.length>shown.length&&<div style={{fontSize:10.5,color:"var(--text-faint)",marginTop:2}}>+{e.actors.length-shown.length} actores más</div>}</div>
+      {nw&&<div className="ideanews">📰 <a href={nw.url} target="_blank">{nw.title}</a></div>}
+    </div>);
+  };
+
   return (<>
-    <div className="grid g4" style={{marginBottom:16}}>
-      <div className="kpi"><div className="accent-bar" style={{background:"var(--accent)"}}></div><div className="label">Señales 30 días</div><div className="value mono">{fmtNum(signals.length)}</div><div className="foot">{bySource.length} fuentes activas</div></div>
-      <div className="kpi"><div className="accent-bar" style={{background:buyRatio>=0.5?"var(--green)":"var(--red)"}}></div><div className="label">Flujo insider (compra/total $)</div><div className="value mono" style={{color:buyRatio>=0.5?"var(--green)":"var(--red)"}}>{(buyRatio*100).toFixed(0)}%</div><div className="foot">compra {fmtUsd(insiderFlow.buy)} · venta {fmtUsd(insiderFlow.sell)}</div></div>
-      <div className="kpi"><div className="accent-bar" style={{background:"var(--purple)"}}></div><div className="label">Señales cruzadas</div><div className="value mono" style={{color:"var(--purple)"}}>{cross.length}</div><div className="foot">tickers en 2+ fuentes</div></div>
-      <div className="kpi"><div className="accent-bar" style={{background:scoreColor(topScore)}}></div><div className="label">Score máximo</div><div className="value mono" style={{color:scoreColor(topScore)}}>{Math.round(topScore)}</div><div className="foot">de 100</div></div>
+    <div className="grid g4" style={{marginBottom:18}}>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--green)"}}></div><div className="label">Ideas de compra</div><div className="value mono" style={{color:"var(--green)"}}>{buyIdeas.length}</div><div className="foot">tickers con presión compradora</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--red)"}}></div><div className="label">Señales de venta</div><div className="value mono" style={{color:"var(--red)"}}>{sellIdeas.length}</div><div className="foot">tickers con presión vendedora</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--purple)"}}></div><div className="label">Operaciones grandes</div><div className="value mono">{fmtNum(bigTrades.length)}</div><div className="foot">trades nombrados &gt; importe</div></div>
+      <div className="kpi"><div className="accent-bar" style={{background:"var(--teal)"}}></div><div className="label">Ballenas Polymarket</div><div className="value mono" style={{color:"var(--teal)"}}>{whales.length}</div><div className="foot">con track record</div></div>
     </div>
-    <div className="grid g-2-1" style={{marginBottom:16}}>
-      <div className="card"><h3>⚖️ Presión neta por ticker <span style={{color:"var(--text-faint)",fontWeight:400,textTransform:"none",letterSpacing:0}}>Σ score</span></h3>{diverging.length?<DivergingBars rows={diverging}/>:<p className="neu">Sin datos.</p>}</div>
-      <div className="card"><h3>📊 Señales por fuente</h3><div style={{display:"flex",justifyContent:"center"}}><Donut segments={bySource}/></div>
-        <div className="legend" style={{flexDirection:"column",gap:7,marginTop:12}}>{bySource.map(s=>(<span key={s.key}><i className="dot" style={{background:s.color}}></i>{s.label} <b className="mono" style={{marginLeft:"auto"}}>{fmtNum(s.value)}</b></span>))}</div></div>
+
+    <div className="sectiontitle">💡 Ideas de inversión <span className="hint">tickers ordenados por convicción (más fuentes + mayor importe = más arriba). Cada línea es una operación real de smart money.</span></div>
+    {buyIdeas.length?<div className="grid g3" style={{marginBottom:20}}>{buyIdeas.map(e=><IdeaCard key={e.ticker} e={e}/>)}</div>:<p className="neu">Sin ideas de compra ahora mismo.</p>}
+
+    <div className="grid g-2-1" style={{marginBottom:20}}>
+      <div className="card"><h3>📋 Operaciones grandes recientes <span style={{fontWeight:400,textTransform:"none",color:"var(--text-faint)"}}>quién movió más dinero</span></h3>
+        {bigTrades.map((s,i)=>(<div className="bigrow" key={i}><span className="ico">{SRC_ICON[s.source_type]}</span>
+          <span><b>{s.actor_name}</b> {actionText(s)} <b className="mono" style={{color:dirClass(s.direction)==="pos"?"var(--green)":"var(--red)"}}>{s.ticker}</b> <span style={{color:"var(--text-faint)"}}>· {String(s.event_date||"").slice(5)}</span></span>
+          <span className="amt mono" style={{color:dirClass(s.direction)==="pos"?"var(--green)":"var(--red)"}}>{fmtUsd(s.amount_estimated)}</span></div>))}
+      </div>
+      <div className="card"><h3>🐋 Ballenas Polymarket <span style={{fontWeight:400,textTransform:"none",color:"var(--text-faint)"}}>track record</span></h3>
+        {whales.map((w,i)=>{ const bet=(w.top_positions||[])[0]; return (<div key={i} style={{padding:"9px 0",borderBottom:"1px solid var(--border-soft)"}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><span className="mono" style={{fontWeight:700}}>{w.username||w.wallet.slice(0,10)}</span>
+            <span><b className="mono pos">{(w.win_rate*100).toFixed(0)}% WR</b> · <b className="mono">{fmtUsd(w.pnl)}</b></span></div>
+          <div style={{fontSize:11,color:"var(--text-dim)",marginTop:3}}>{w.closed_positions} pos · vol {fmtUsd(w.volume)} {(w.categories||[]).map(c=><span className="pill" key={c}>{c}</span>)}</div>
+          {bet&&<div style={{fontSize:11,color:"var(--text-faint)",marginTop:3}}>🎯 {bet.market} <b>({bet.outcome})</b> {fmtUsd(bet.size)}</div>}</div>); })}
+      </div>
     </div>
-    <div className="card" style={{marginBottom:16}}><h3>🔥 Señales cruzadas — las más robustas (mismo ticker en varias fuentes)</h3>
-      {cross.length?<div className="grid g4">{cross.map(c=>(<div className="crosscard" key={c.ticker}>
-        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><span className="tk mono">{c.ticker}</span><ScoreBadge s={c.score}/></div>
-        <div className="srcs">{c.srcs.map(s=><span className="pill cross" key={s}>{SRC_LABEL[s]||s}</span>)}</div>
-        <div style={{marginTop:8,fontSize:11,color:"var(--text-dim)"}}>{c.buy>0&&<span className="pos">{c.buy} compra </span>}{c.sell>0&&<span className="neg">{c.sell} venta</span>}</div></div>))}</div>:<p className="neu">No hay tickers en múltiples fuentes ahora mismo.</p>}</div>
-    <div className="grid g2" style={{marginBottom:16}}>
-      <div className="card"><h3>🏆 Top movimientos del mes</h3>{moves.slice(0,8).map(m=>(<div className="move" key={m.rank}><span className="rank mono">{m.rank}</span>
-        <div className="body"><div className="t">{m.title} {m.cross_source_score>0&&<span className="pill cross">cross</span>}</div><div className="s">{m.summary}</div></div><ScoreBadge s={m.importance_score}/></div>))}</div>
-      <div><div className="card" style={{marginBottom:14}}><h3>📈 Actividad diaria (señales/día, 30d)</h3><SparkBars values={daily} color="var(--accent)" height={60}/><div className="legend"><span>{daily[0]&&daily[0].k}</span><span style={{marginLeft:"auto"}}>{daily.length&&daily[daily.length-1].k}</span></div></div>
-        <div className="card"><h3>💰 Flujo insider 30d</h3><HBars rows={[{label:"Compras (P/M)",value:insiderFlow.buy},{label:"Ventas (S/D)",value:insiderFlow.sell}]} color={(r)=>r.label.indexOf("Compras")===0?"var(--green)":"var(--red)"} fmt={fmtUsd}/>
-          <div style={{marginTop:10,fontSize:11,color:"var(--text-dim)"}}>Ratio venta/compra: <b className="mono">{insiderFlow.buy>0?(insiderFlow.sell/insiderFlow.buy).toFixed(2):"—"}</b></div></div></div>
-    </div>
+
+    {sellIdeas.length>0&&<><div className="sectiontitle">⚠️ Señales de venta / evitar <span className="hint">tickers donde el smart money está saliendo</span></div>
+    <div className="grid g3" style={{marginBottom:20}}>{sellIdeas.map(e=><IdeaCard key={e.ticker} e={e} sell/>)}</div></>}
+
+    <div className="sectiontitle">📊 Contexto del mercado</div>
     <div className="grid g3">
-      <div className="card"><h3 className="pos">🟢 Mayor presión compradora</h3><HBars rows={(tt.buy_pressure||[]).slice(0,8).map(e=>({label:e.ticker+"  "+((e.sources||[]).join("+")),value:e.pressure_score}))} color="var(--green)"/></div>
-      <div className="card"><h3 className="neg">🔴 Mayor presión vendedora</h3><HBars rows={(tt.sell_pressure||[]).slice(0,8).map(e=>({label:e.ticker+"  "+((e.sources||[]).join("+")),value:e.pressure_score}))} color="var(--red)"/></div>
-      <div className="card"><h3>📰 Temas de mercado</h3>{themes.length?<HBars rows={themes} color="var(--teal)"/>:<p className="neu">Sin noticias.</p>}</div>
+      <div className="card"><h3>Señales por fuente</h3><div style={{display:"flex",justifyContent:"center"}}><Donut segments={bySource}/></div>
+        <div className="legend" style={{flexDirection:"column",gap:6,marginTop:10}}>{bySource.map(s=>(<span key={s.key}><i className="dot" style={{background:s.color}}></i>{s.label} <b className="mono" style={{marginLeft:"auto"}}>{fmtNum(s.value)}</b></span>))}</div></div>
+      <div className="card"><h3>Actividad diaria (30d)</h3><SparkBars values={daily} color="var(--accent)" height={70}/><div className="legend"><span>{daily[0]&&daily[0].k}</span><span style={{marginLeft:"auto"}}>{daily.length&&daily[daily.length-1].k}</span></div></div>
+      <div className="card"><h3>Temas en noticias</h3><HBars rows={(()=>{ const m={}; (d.news||[]).forEach(a=>(a.themes||[]).forEach(t=>m[t]=(m[t]||0)+1)); return Object.entries(m).map(([label,value])=>({label,value})).sort((a,b)=>b.value-a.value).slice(0,7); })()} color="var(--teal)"/></div>
     </div>
   </>);
 }
 
+// ============ TABLA ============
 function SortableTable({ columns, rows, initialSort, maxRows=400 }) {
   const [sort,setSort]=useState(initialSort||{key:columns[0].key,dir:"desc"});
   const sorted=useMemo(()=>{ const a=[...rows]; a.sort((x,y)=>{ const va=x[sort.key],vb=y[sort.key]; if(va===vb)return 0; if(va==null)return 1; if(vb==null)return -1; if(typeof va==="number"&&typeof vb==="number")return sort.dir==="asc"?va-vb:vb-va; return sort.dir==="asc"?String(va).localeCompare(String(vb)):String(vb).localeCompare(String(va)); }); return a.slice(0,maxRows); },[rows,sort,maxRows]);
@@ -289,7 +374,7 @@ function DataQuality({ d }) { const h=d.health||{},ds=h.datasets||{};
     <div className="card"><h3>Manifest público (API)</h3><table><thead><tr><th>Dataset</th><th>Tipo</th><th className="num">Registros</th><th>Rango</th></tr></thead>
       <tbody>{((d.manifest&&d.manifest.datasets)||[]).map(m=>(<tr key={m.name}><td><a href={DATA_BASE+m.name+".json"} target="_blank">{m.name}</a></td><td>{m.type}</td><td className="num mono">{fmtNum(m.records)}</td><td className="neu">{m.from_date?`${m.from_date}…${m.to_date}`:"-"}</td></tr>))}</tbody></table></div></>);
 }
-const TABS=[["analysis","📊 Análisis"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
+const TABS=[["analysis","💡 Ideas"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
 function App() {
   const [d,setD]=useState({}),[err,setErr]=useState(null),[tab,setTab]=useState("analysis"),[updated,setUpdated]=useState(null);
   const load=useCallback(async()=>{ setErr(null); try{
@@ -303,7 +388,7 @@ function App() {
   if(!ready)return (<><header><h1>🐕 WATCHDOG</h1></header><div className="loading">cargando datos…</div></>);
   const overall=(d.health&&d.health.overall_status)||"";
   return (<>
-    <header><div><h1>🐕 WATCHDOG</h1><div className="sub">Smart Money Tracker · Congress · Insiders · 13F · 13D/G · Polymarket · News</div></div>
+    <header><div><h1>🐕 WATCHDOG</h1><div className="sub">Smart Money Tracker · dónde invierte el dinero que importa</div></div>
       <div className="meta"><span className={"status-dot "+overall}></span>{overall} · {updated&&"actualizado "+new Date(updated).toLocaleString()}<br/><a href="#" onClick={e=>{e.preventDefault();load();}}>↻ refrescar</a> · <a href={DATA_BASE+"llm_context_30d.json"} target="_blank">llm_context.json ↗</a></div></header>
     <div className="container">
       <div className="tabs">{TABS.map(([k,l])=>(<button key={k} className={"tab "+(tab===k?"active":"")} onClick={()=>setTab(k)}>{l}</button>))}</div>
