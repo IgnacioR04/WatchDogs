@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-06-25T15:59:41.460010+00:00",
+  "generated_at": "2026-06-25T17:28:40.295510+00:00",
   "window": {
     "from": "2026-05-26",
     "to": "2026-06-25",
@@ -23,12 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "ai",
+      "stock",
       "merger",
-      "regulatory",
-      "leadership",
-      "earnings"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -430,14 +429,6 @@
         ]
       },
       {
-        "ticker": "EPSN",
-        "company": "Epsilon Energy Ltd.",
-        "pressure_score": 298.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TDG",
         "company": "TransDigm Group INC",
         "pressure_score": 297.0,
@@ -488,14 +479,6 @@
         ]
       },
       {
-        "ticker": "VICR",
-        "company": "VICOR CORP",
-        "pressure_score": 271.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CAPR",
         "company": "CAPRICOR THERAPEUTICS, INC.",
         "pressure_score": 245.4,
@@ -518,6 +501,22 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "LPLA",
+        "company": "Common Stock",
+        "pressure_score": 230.2,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "HLIO",
+        "company": "HELIOS TECHNOLOGIES, INC.",
+        "pressure_score": 218.4,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -539,25 +538,9 @@
         ]
       },
       {
-        "ticker": "VICR",
-        "company": "VICOR CORP",
-        "pressure_score": 2051.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ANET",
         "company": "Arista Networks, Inc.",
         "pressure_score": 2012.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ESP",
-        "company": "ESPEY MFG & ELECTRONICS CORP",
-        "pressure_score": 1547.0,
         "sources": [
           "corporate_insider"
         ]
@@ -581,9 +564,9 @@
         ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 758.9,
+        "ticker": "VICR",
+        "company": "VICOR CORP",
+        "pressure_score": 614.6,
         "sources": [
           "corporate_insider"
         ]
@@ -645,6 +628,22 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "TXG",
+        "company": "10x Genomics, Inc.",
+        "pressure_score": 299.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VRSN",
+        "company": "VERISIGN INC/CA",
+        "pressure_score": 299.2,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -686,15 +685,6 @@
       "score": 81.1
     },
     {
-      "ticker": "TXO",
-      "company": "TXO Partners, L.P.",
-      "actor": "SIMPSON BOB R",
-      "actor_type": "ten_percent_owner",
-      "amount": 800105.97,
-      "date": "2026-06-23",
-      "score": 79.4
-    },
-    {
       "ticker": "OXY",
       "company": "OCCIDENTAL PETROLEUM CORP /DE/",
       "actor": "Jackson Richard A.",
@@ -704,15 +694,6 @@
       "score": 79.3
     },
     {
-      "ticker": "TXO",
-      "company": "TXO Partners, L.P.",
-      "actor": "SIMPSON BOB R",
-      "actor_type": "ten_percent_owner",
-      "amount": 460976.13,
-      "date": "2026-06-22",
-      "score": 78.2
-    },
-    {
       "ticker": "LZB",
       "company": "LA-Z-BOY INC",
       "actor": "Whittington Melinda D",
@@ -720,33 +701,6 @@
       "amount": 883082.85,
       "date": "2026-06-22",
       "score": 78.1
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 114886.0,
-      "date": "2026-06-24",
-      "score": 77.7
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 99324.0,
-      "date": "2026-06-22",
-      "score": 77.3
-    },
-    {
-      "ticker": "BCIC",
-      "company": "BCP Investment Corp",
-      "actor": "Goldthorpe Edward J.",
-      "actor_type": "ceo",
-      "amount": 98364.08,
-      "date": "2026-06-22",
-      "score": 77.3
     },
     {
       "ticker": "YYGH",
@@ -783,6 +737,51 @@
       "amount": 95422.31,
       "date": "2026-06-18",
       "score": 76.0
+    },
+    {
+      "ticker": "N O G",
+      "company": "NORTHERN OIL & GAS, INC.",
+      "actor": "Akradi Bahram",
+      "actor_type": "director",
+      "amount": 499741.42,
+      "date": "2026-06-22",
+      "score": 75.8
+    },
+    {
+      "ticker": "FTH",
+      "company": "Faeth Therapeutics, Inc.",
+      "actor": "STEPHENSON BRIAN C",
+      "actor_type": "cfo",
+      "amount": 77499.12,
+      "date": "2026-06-22",
+      "score": 75.5
+    },
+    {
+      "ticker": "ANET",
+      "company": "Arista Networks, Inc.",
+      "actor": "Duda Kenneth",
+      "actor_type": "ceo",
+      "amount": 264794.51,
+      "date": "2026-06-22",
+      "score": 75.5
+    },
+    {
+      "ticker": "LZB",
+      "company": "LA-Z-BOY INC",
+      "actor": "Whittington Melinda D",
+      "actor_type": "ceo",
+      "amount": 244116.6,
+      "date": "2026-06-23",
+      "score": 75.3
+    },
+    {
+      "ticker": "HLIO",
+      "company": "HELIOS TECHNOLOGIES, INC.",
+      "actor": "Arduini Matteo",
+      "actor_type": "ceo",
+      "amount": 202400.0,
+      "date": "2026-06-23",
+      "score": 74.9
     }
   ],
   "institutional_changes": [
@@ -1009,14 +1008,6 @@
       "score": 66.8
     },
     {
-      "politician": "Robert E. Latta",
-      "ticker": "FMAO",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-06-04",
-      "score": 66.5
-    },
-    {
       "politician": "Josh Gottheimer",
       "ticker": "MSFT",
       "direction": "sell",
@@ -1038,6 +1029,14 @@
       "direction": "sell",
       "amount": 50000,
       "date": "2026-06-16",
+      "score": 65.2
+    },
+    {
+      "politician": "Robert E. Latta",
+      "ticker": "FMAO",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-06-04",
       "score": 65.2
     },
     {
@@ -1231,25 +1230,13 @@
       {
         "wallet": "0xa49becb692",
         "username": "sleepy-panda",
-        "pnl": 317814.0,
+        "pnl": 321514.16,
         "win_rate": 0.813,
-        "volume": 375619.53,
+        "volume": 425619.53,
         "categories": [
           "sports",
           "politics",
           "economy"
-        ]
-      },
-      {
-        "wallet": "0xde7be6d489",
-        "username": "wan123",
-        "pnl": 96049.17,
-        "win_rate": 0.7766,
-        "volume": 14071.51,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
         ]
       },
       {
@@ -1263,23 +1250,11 @@
         ]
       },
       {
-        "wallet": "0xc84f7e76ec",
-        "username": "BrightStars",
-        "pnl": 55715.82,
-        "win_rate": 0.7459,
-        "volume": 507776.96,
-        "categories": [
-          "politics",
-          "economy",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x56e2c952f9",
         "username": "SportsPsychology101",
-        "pnl": 59000.0,
+        "pnl": 58500.0,
         "win_rate": 0.7907,
-        "volume": 100000.0,
+        "volume": 200000.0,
         "categories": [
           "sports"
         ]
@@ -1295,33 +1270,9 @@
         ]
       },
       {
-        "wallet": "0xc6587b11a2",
-        "username": "Erasmus.",
-        "pnl": 86622.03,
-        "win_rate": 0.7017,
-        "volume": 0.0,
-        "categories": [
-          "politics",
-          "economy",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc851cd9bee",
-        "username": "betwick",
-        "pnl": 174130.24,
-        "win_rate": 0.5427,
-        "volume": 6814.33,
-        "categories": [
-          "politics",
-          "economy",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 519605.51,
+        "pnl": 517209.7,
         "win_rate": 0.4689,
         "volume": 1755197.91,
         "categories": [
@@ -1332,9 +1283,52 @@
       {
         "wallet": "0xc8075693f4",
         "username": "texaskid",
-        "pnl": 76476.62,
+        "pnl": 77739.36,
         "win_rate": 0.5855,
-        "volume": 99085.49,
+        "volume": 119879.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 37698.96,
+        "win_rate": 0.618,
+        "volume": 1698545.93,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5e9458202b",
+        "username": "",
+        "pnl": 157946.3,
+        "win_rate": 0.4918,
+        "volume": 149461.46,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc31d0a0d63",
+        "username": "FootballFan98",
+        "pnl": 98889.03,
+        "win_rate": 0.5115,
+        "volume": 600925.76,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 121072.03,
+        "win_rate": 0.49,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1354,9 +1348,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 235754.07,
+        "pnl": 252789.62,
         "win_rate": 0.179,
-        "volume": 17388056.53,
+        "volume": 19162651.46,
         "categories": [
           "sports"
         ]
@@ -1364,9 +1358,9 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 198409.31,
+        "pnl": 210519.76,
         "win_rate": 0.0,
-        "volume": 6611667.04,
+        "volume": 7094723.05,
         "categories": [
           "sports",
           "crypto"
@@ -1375,7 +1369,7 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 519605.51,
+        "pnl": 517209.7,
         "win_rate": 0.4689,
         "volume": 1755197.91,
         "categories": [
@@ -1396,9 +1390,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 348403.64,
+        "pnl": 344728.49,
         "win_rate": 0.0,
-        "volume": 2463922.19,
+        "volume": 2465918.15,
         "categories": [
           "sports"
         ]
@@ -1406,9 +1400,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 255094.27,
+        "pnl": 394917.69,
         "win_rate": 0.0,
-        "volume": 3065127.56,
+        "volume": 3711579.99,
         "categories": [
           "sports"
         ]
@@ -1416,141 +1410,79 @@
       {
         "wallet": "0x4be1fa92e6",
         "username": "Eztennis",
-        "pnl": 47792.49,
+        "pnl": 65138.86,
         "win_rate": 0.3876,
-        "volume": 1238486.95,
+        "volume": 1370509.53,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 214126.78,
-        "win_rate": 0.0,
-        "volume": 873938.27,
+        "wallet": "0xc1da972849",
+        "username": "vanjie",
+        "pnl": 140979.16,
+        "win_rate": 0.375,
+        "volume": 884264.17,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x50f0a0fc73",
-        "username": "smarttguy",
-        "pnl": 255044.43,
-        "win_rate": 1.0,
-        "volume": 771491.62,
+        "wallet": "0x9703676286",
+        "username": "AnonymousUsername",
+        "pnl": 143146.48,
+        "win_rate": 0.46,
+        "volume": 1683361.34,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Cathie Wood Buys Pltr as Shares Hit 107 . 09 Low",
-      "url": "https://www.el-balad.com/17025932",
-      "ticker": "CRWV",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Nvidia Price Prediction : The Forecast Climbs Again . Here Where the AI Leader Heads Next",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-price-prediction-forecast-climbs-145149120.html",
-      "ticker": "CRWV",
+      "title": "See the Pitch Deck Sazabi Used to Raise $8 Million From YC and J2",
+      "url": "https://www.businessinsider.com/pitch-deck-sazabi-ai-observability-8-million-y-combinator-2026-6",
+      "ticker": "DDOG",
       "themes": [
         "ai"
       ],
       "date": "2026-06-25"
     },
     {
-      "title": "Leopold Aschenbrenner Situational Awareness Top AI Pick - And - Shovel Stock Pick in 2026",
-      "url": "https://finance.yahoo.com/technology/ai/articles/leopold-aschenbrenner-situational-awareness-top-150531078.html",
-      "ticker": "CRWV",
+      "title": "BridgeBio Pharma ( NASDAQ : BBIO ) Director Jennifer Cook Sells 2 , 196 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/25/bridgebio-pharma-nasdaqbbio-director-jennifer-cook-sells-2196-shares-of-stock.html",
+      "ticker": "BBIO",
       "themes": [
-        "ai",
         "stock"
       ],
       "date": "2026-06-25"
     },
     {
-      "title": "Better Cloud Infrastructure Play : Alphabet vs . CoreWeave",
-      "url": "https://www.fool.com/investing/2026/06/25/better-cloud-infrastructure-play-alphabet-vs-corew/?source=iedfolrf0000001",
-      "ticker": "CRWV",
-      "themes": [],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Quantum Hackers Are Collecting Your Data Right Now : 5 Defenses You Can Deploy Today",
-      "url": "https://www.techtimes.com/articles/319035/20260625/quantum-hackers-are-collecting-your-data-right-now-5-defenses-you-can-deploy-today.htm",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Cannes Lions : Cloudflare & beehiiv unveil AI Crawl Controls for independent publishers",
-      "url": "https://www.adgully.com/post/17372/cannes-lions-cloudflare-beehiiv-unveil-ai-crawl-controls-for-independent-publishers",
-      "ticker": "NET",
+      "title": "Sazabi Raises $8 Million Seed Round to Build the AI - Native Observability Platform for Fast - Moving Engineering Teams",
+      "url": "http://www.prnewswire.com/news-releases/sazabi-raises-8-million-seed-round-to-build-the-ai-native-observability-platform-for-fast-moving-engineering-teams-302810085.html",
+      "ticker": "DDOG",
       "themes": [
         "ai"
       ],
       "date": "2026-06-25"
     },
     {
-      "title": "Post - Quantum Cryptography Migration in the United States : Managing Risk and Advancing Cyber Readiness in Critical Infrastructure",
-      "url": "https://www.rstreet.org/research/post-quantum-cryptography-migration-in-the-united-states-managing-risk-and-advancing-cyber-readiness-in-critical-infrastructure/",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "KeyBanc Raises PT on Arista Networks ( ANET ) Stock",
-      "url": "https://www.insidermonkey.com/blog/keybanc-raises-pt-on-arista-networks-anet-stock-1788631/",
-      "ticker": "ANET",
-      "themes": [
-        "ai",
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "The Manufacturing - Era Toolkit Wont Work for the AI Revolution",
-      "url": "https://foreignpolicy.com/2026/06/25/ai-industrial-revolution-manufacturing-toolkit/",
-      "ticker": "CRWV",
+      "title": "Sazabi Raises $8 Million Seed Round to Build the AI - Native Observability Platform for Fast - Moving Engineering Teams",
+      "url": "https://www.prnewswire.com/news-releases/sazabi-raises-8-million-seed-round-to-build-the-ai-native-observability-platform-for-fast-moving-engineering-teams-302810085.html",
+      "ticker": "DDOG",
       "themes": [
         "ai"
       ],
       "date": "2026-06-25"
     },
     {
-      "title": "Matthew Prince Sells 52 , 384 Shares of Cloudflare ( NYSE : NET ) Stock",
-      "url": "https://www.dailypolitical.com/2026/06/24/matthew-prince-sells-52384-shares-of-cloudflare-nysenet-stock.html",
-      "ticker": "NET",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Cloudflare ( NYSE : NET ) CEO Sells $11 , 414 , 997 . 44 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13485079/cloudflare-nysenet-ceo-sells-11414997-44-in-stock.html",
-      "ticker": "NET",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Insider Selling : CoreWeave ( NASDAQ : CRWV ) Insider Sells $16 , 024 , 320 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/25/insider-selling-coreweave-nasdaqcrwv-insider-sells-16024320-00-in-stock.html",
-      "ticker": "CRWV",
-      "themes": [
-        "stock"
-      ],
+      "title": "Comparing BridgeBio Oncology Therapeutics ( BBOT ) & Its Peers",
+      "url": "https://www.dailypolitical.com/2026/06/24/comparing-bridgebio-oncology-therapeutics-bbot-its-peers.html",
+      "ticker": "BBIO",
+      "themes": [],
       "date": "2026-06-25"
     },
     {
@@ -1564,12 +1496,28 @@
       "date": "2026-06-25"
     },
     {
-      "title": "Q & A : Building trust for the future of AI commerce",
-      "url": "https://www.digitaljournal.com/article/qa-building-trust-for-the-future-of-ai-commerce/",
-      "ticker": "NET",
+      "title": "Jennifer Cook Sells 2 , 196 Shares of BridgeBio Pharma ( NASDAQ : BBIO ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13485034/jennifer-cook-sells-2196-shares-of-bridgebio-pharma-nasdaqbbio-stock.html",
+      "ticker": "BBIO",
       "themes": [
-        "ai"
+        "stock"
       ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "BridgeBio Pharma ( NASDAQ : BBIO ) Director Sells 2 , 808 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13485035/bridgebio-pharma-nasdaqbbio-director-sells-2808-shares.html",
+      "ticker": "BBIO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Nudge Launches Platform , Announces Seed Funding",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nudge-launches-platform-announces-seed-175055030.html",
+      "ticker": "DDOG",
+      "themes": [],
       "date": "2026-06-24"
     },
     {
@@ -1580,20 +1528,36 @@
       "date": "2026-06-24"
     },
     {
-      "title": "Arista Networks ( ANET ) Unveils 1 . 6 Terabit Platforms As 800 Gig Adoption Builds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-unveils-1-011146467.html",
-      "ticker": "ANET",
+      "title": "BridgeBio Oncology Therapeutics ( BBOT ) vs . Its Peers Head - To - Head Contrast",
+      "url": "https://www.dailypolitical.com/2026/06/24/bridgebio-oncology-therapeutics-bbot-vs-its-peers-head-to-head-contrast-2.html",
+      "ticker": "BBIO",
       "themes": [],
       "date": "2026-06-24"
     },
     {
-      "title": "Arista Networks ( NYSE : ANET ) Stock Price Down 6 . 8 % – Time to Sell ? ",
-      "url": "https://www.dailypolitical.com/2026/06/23/arista-networks-nyseanet-stock-price-down-6-8-time-to-sell.html",
-      "ticker": "ANET",
+      "title": "Analyzing BridgeBio Oncology Therapeutics ( BBOT ) and Its Rivals",
+      "url": "https://www.tickerreport.com/banking-finance/13484654/analyzing-bridgebio-oncology-therapeutics-bbot-and-its-rivals-2.html",
+      "ticker": "BBIO",
+      "themes": [],
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Nebius Group : Nebius AI Cloud 3 . 6 strengthens developer experience and governance for production operations",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68850639-nebius-group-nebius-ai-cloud-3-6-strengthens-developer-experience-and-governance-for-production-operations-023.htm",
+      "ticker": "DDOG",
       "themes": [
-        "stock"
+        "ai"
       ],
-      "date": "2026-06-23"
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Nebius AI Cloud 3 . 6 strengthens developer experience and governance for production operations",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68850655-nebius-ai-cloud-3-6-strengthens-developer-experience-and-governance-for-production-operations-004.htm",
+      "ticker": "DDOG",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-24"
     },
     {
       "title": "Centessa Pharmaceuticals plc : Acquisition of Centessa by Lilly Approved by the High Court of Justice of England and Wales",
@@ -1648,13 +1612,6 @@
       "date": "2026-06-20"
     },
     {
-      "title": "Redwood Family Wealth LLC Takes Position in Arista Networks , Inc . $ANET",
-      "url": "https://www.tickerreport.com/banking-finance/13482273/redwood-family-wealth-llc-takes-position-in-arista-networks-inc-anet.html",
-      "ticker": "ANET",
-      "themes": [],
-      "date": "2026-06-20"
-    },
-    {
       "title": "Jacobs Equity LLC Takes Position in Walmart Inc . $WMT",
       "url": "https://www.themarketsdaily.com/2026/06/19/jacobs-equity-llc-takes-position-in-walmart-inc-wmt.html",
       "ticker": "BBT",
@@ -1671,22 +1628,6 @@
       "date": "2026-06-19"
     },
     {
-      "title": "Kovitz Investment Group Partners LLC Trims Stock Position in Arista Networks , Inc . $ANET",
-      "url": "https://www.themarketsdaily.com/2026/06/19/kovitz-investment-group-partners-llc-trims-stock-position-in-arista-networks-inc-anet.html",
-      "ticker": "ANET",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-19"
-    },
-    {
-      "title": "Wolfe Research Reaffirms Bullish View on Arista Networks ( ANET ) With $175 Price Target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-reaffirms-bullish-view-212158801.html",
-      "ticker": "ANET",
-      "themes": [],
-      "date": "2026-06-18"
-    },
-    {
       "title": "Insomnia Market Witnesses Robust Growth During the Forecast Period ( 2026 - 2036 ) with Emerging Orexin Receptor Antagonists and Melatonin Receptor Agonist",
       "url": "http://www.prnewswire.com/news-releases/insomnia-market-witnesses-robust-growth-during-the-forecast-period-20262036-with-emerging-orexin-receptor-antagonists-and-melatonin-receptor-agonist--delveinsight-302803998.html",
       "ticker": "CNTA",
@@ -1701,7 +1642,7 @@
       "date": "2026-06-18"
     }
   ],
-  "signals_count": 1775,
+  "signals_count": 1728,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
