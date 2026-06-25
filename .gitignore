@@ -12,3 +12,24 @@ Thumbs.db
 .vscode/
 *.zip
 *.csv.tmp
+
+# --- Credenciales (NUNCA commitear) ---
+# Service account de Google, claves, secretos.
+*service-account*.json
+*service_account*.json
+watchdogs-*.json
+sa.json
+secrets/
+*.pem
+*.key
+
+# --- Carpeta de Drive sincronizada localmente (data lake, no va a git) ---
+# La carpeta WATCHDOG_HISTORY (creada como ESTE_ES_EL_ID) recibe el historico
+# subido por la service account; Drive Desktop lo sincroniza aqui pero no debe
+# entrar al repo.
+ESTE_ES_EL_ID/
+WATCHDOG_HISTORY/
+
+# --- Artefactos temporales de pipelines ---
+data/_tmp/
+*.jsonl.gz

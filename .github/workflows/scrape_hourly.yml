@@ -1,0 +1,71 @@
+name: scrape_hourly
+
+# Pipeline principal de WATCHDOG v2. Cada hora (minuto 17 para evitar la
+# congestion del minuto 00) ejecuta los scrapers, recorta a 30 dias, calcula
+# el health report y commitea solo data/public/.
+#
+# NOTA: el sync a Google Drive (historico profundo) esta APLAZADO. Las service
+# accounts no pueden subir a un Drive personal; se reactivara con OAuth.
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      dataset:
+        description: "Que scrapear: all | sec | congress | polymarket"
+        required: false
+        default: "all"
+
+permissions:
+  contents: write
+
+# Un solo run a la vez escribiendo en data/public/ para evitar conflictos.
+concurrency:
+  group: watchdog-write-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # historico completo para que el rebase tenga ancestros
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scrapers
+        env:
+          USER_AGENT_EMAIL: ${{ secrets.USER_AGENT_EMAIL }}
+        run: python run_all.py "${{ github.event.inputs.dataset || 'all' }}"
+
+      - name: Publish public 30d
+        run: python -m pipelines.publish_public_30d
+
+      - name: Build health report
+        run: python -m pipelines.build_health_report
+
+      - name: Sync with remote (rebase)
+        run: |
+          git config user.name "watchdog-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase origin main || true
+
+      - name: Commit & push public data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: hourly refresh [skip ci]"
+          file_pattern: "data/public/*.json"
+          commit_user_name: "watchdog-bot"
+          commit_user_email: "actions@github.com"
+          push_options: "--force-with-lease"

@@ -1,0 +1,56 @@
+{
+  "project": "WATCHDOG",
+  "generated_at": "2026-06-25T12:43:32.119016+00:00",
+  "public_window_days": 30,
+  "window": {
+    "from": "2026-05-26",
+    "to": "2026-06-25"
+  },
+  "datasets": [
+    {
+      "name": "congress_trades_30d",
+      "path": "data/public/congress_trades_30d.json",
+      "type": "events",
+      "records": 43,
+      "from_date": "2026-05-27",
+      "to_date": "2026-06-23",
+      "updated_at": "2026-06-25T12:43:31.980516+00:00"
+    },
+    {
+      "name": "sec_insiders_30d",
+      "path": "data/public/sec_insiders_30d.json",
+      "type": "events",
+      "records": 787,
+      "from_date": "2026-05-28",
+      "to_date": "2026-06-24",
+      "updated_at": "2026-06-25T12:43:32.039016+00:00"
+    },
+    {
+      "name": "institutional_holdings_latest",
+      "path": "data/public/institutional_holdings_latest.json",
+      "type": "snapshot",
+      "records": 39,
+      "from_date": null,
+      "to_date": null,
+      "updated_at": "2026-06-25T12:43:32.075016+00:00"
+    },
+    {
+      "name": "polymarket_smart_traders",
+      "path": "data/public/polymarket_smart_traders.json",
+      "type": "snapshot",
+      "records": 40,
+      "from_date": null,
+      "to_date": null,
+      "updated_at": "2026-06-25T12:43:32.088016+00:00"
+    },
+    {
+      "name": "polymarket_whales",
+      "path": "data/public/polymarket_whales.json",
+      "type": "snapshot",
+      "records": 50,
+      "from_date": null,
+      "to_date": null,
+      "updated_at": "2026-06-25T12:43:32.118516+00:00"
+    }
+  ]
+}
