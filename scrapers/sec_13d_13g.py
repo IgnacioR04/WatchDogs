@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
-from normalize.schema import write_json
+from normalize.schema import temporal_block, write_json
 from normalize.scoring import score_signal
 from scrapers._dates import days_ago_iso, to_iso, today_iso
 from scrapers._http import UA_SEC, Client
@@ -147,9 +147,13 @@ def hit_to_record(client: Client, hit: dict[str, Any]) -> dict[str, Any] | None:
         "filing_type": sub_type,
         "filing_date": src.get("file_date") or "",
         "disclosure_date": src.get("file_date") or "",
-        "event_date": to_iso(fields.get("dateOfEvent")) or src.get("file_date") or "",
         "source_url": _doc_url(issuer_cik, accession, doc),
     }
+    # Bloque temporal: event=fecha del hecho (dateOfEvent), known=filing.
+    rec.update(temporal_block(
+        to_iso(fields.get("dateOfEvent")) or src.get("file_date"),
+        src.get("file_date"),
+    ))
     score_signal(rec)
     return rec
 

@@ -22,6 +22,7 @@ from typing import Any, Iterator
 from normalize.schema import (
     INSIDER_REQUIRED,
     dedupe_by_key,
+    temporal_block,
     validate_records,
     write_json,
 )
@@ -191,6 +192,9 @@ def _to_records(hit: dict[str, Any], parsed: dict[str, Any]) -> list[dict[str, A
     else:
         source_url = "https://www.sec.gov/cgi-bin/browse-edgar"
 
+    # known_date = fecha de filing/aceptacion del Form 4 (cuando fue publico).
+    filing_date = source.get("file_date") or ""
+
     out: list[dict[str, Any]] = []
     for i, tx in enumerate(parsed.get("transactions", []) or []):
         tx_code = tx.get("tx_code") or ""
@@ -203,7 +207,8 @@ def _to_records(hit: dict[str, Any], parsed: dict[str, Any]) -> list[dict[str, A
         except ValueError:
             price = 0.0
         value_usd = round(shares * price, 2)
-        out.append({
+        tx_date = tx.get("tx_date") or ""
+        rec = {
             "id": f"{accession}-{i}",
             "insider_name": parsed.get("insider_name") or "",
             "insider_title": parsed.get("insider_title") or "Insider",
@@ -214,9 +219,13 @@ def _to_records(hit: dict[str, Any], parsed: dict[str, Any]) -> list[dict[str, A
             "shares": int(shares) if shares.is_integer() else shares,
             "price_per_share": price,
             "value_usd": value_usd,
-            "tx_date": tx.get("tx_date") or "",
+            "tx_date": tx_date,
+            "filing_date": filing_date,
             "source_url": source_url,
-        })
+        }
+        # Bloque temporal: event=transaccion, known=filing del Form 4.
+        rec.update(temporal_block(tx_date, filing_date or tx_date))
+        out.append(rec)
     return out
 
 

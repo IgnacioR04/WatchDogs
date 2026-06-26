@@ -19,10 +19,11 @@ from __future__ import annotations
 
 import math
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from normalize.schema import write_json
+from normalize.schema import temporal_block, write_json
 from scrapers._http import UA_DEFAULT, Client
 
 # Endpoints publicos de la Data API.
@@ -171,7 +172,7 @@ def build_profile(entry: dict[str, Any], positions: list[dict[str, Any]]) -> dic
             "realized_pnl": round(_safe_float(p.get("realizedPnl")), 2),
         })
 
-    return {
+    profile = {
         "wallet": wallet,
         "username": entry.get("userName") or entry.get("name") or "",
         "x_username": entry.get("xUsername") or "",
@@ -190,6 +191,11 @@ def build_profile(entry: dict[str, Any], positions: list[dict[str, Any]]) -> dic
         "top_positions": top_positions,
         "source": "polymarket_data_api",
     }
+    # Polymarket es publico al instante (on-chain): el perfil es un snapshot del
+    # momento de captura. event=known=scrape_date.
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    profile.update(temporal_block(now[:10], now[:10], scrape_date=now))
+    return profile
 
 
 def run() -> tuple[Path, Path]:

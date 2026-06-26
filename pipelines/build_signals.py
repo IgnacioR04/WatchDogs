@@ -80,8 +80,10 @@ def _from_insiders() -> list[dict[str, Any]]:
             "direction": direction,
             "amount_estimated": r.get("value_usd"),
             "tx_code": code,
-            "event_date": r.get("tx_date", ""),
-            "disclosure_date": r.get("tx_date", ""),
+            "event_date": r.get("event_date") or r.get("tx_date", ""),
+            "known_date": r.get("known_date") or r.get("filing_date") or r.get("tx_date", ""),
+            "delay_days": r.get("delay_days"),
+            "disclosure_date": r.get("filing_date") or r.get("tx_date", ""),
             "source_url": r.get("source_url", ""),
         })
     return out
@@ -105,7 +107,9 @@ def _from_congress() -> list[dict[str, Any]]:
             "asset_name": r.get("asset_name", ""),
             "direction": r.get("direction") or ("buy" if r.get("tx_type") == "purchase" else "sell"),
             "amount_estimated": r.get("amount_estimated") or r.get("amount_max"),
-            "event_date": r.get("tx_date", ""),
+            "event_date": r.get("event_date") or r.get("tx_date", ""),
+            "known_date": r.get("known_date") or r.get("disclosure_date", ""),
+            "delay_days": r.get("delay_days"),
             "disclosure_date": r.get("disclosure_date", ""),
             "source_url": r.get("source_url", ""),
         })
@@ -130,6 +134,8 @@ def _from_13d_13g() -> list[dict[str, Any]]:
             "amount_estimated": None,
             "ownership_pct": r.get("ownership_pct"),
             "event_date": r.get("event_date", ""),
+            "known_date": r.get("known_date") or r.get("filing_date", ""),
+            "delay_days": r.get("delay_days"),
             "disclosure_date": r.get("filing_date", ""),
             "source_url": r.get("source_url", ""),
         })
@@ -153,6 +159,8 @@ def _from_13f_changes() -> list[dict[str, Any]]:
             "direction": direction,
             "amount_estimated": abs(r.get("change_value_usd", 0)) or None,
             "event_date": "",
+            "known_date": "",
+            "delay_days": None,
             "disclosure_date": "",
             "change_pct": r.get("change_pct"),
             "quarter": r.get("quarter"),

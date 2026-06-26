@@ -21,6 +21,7 @@ from typing import Any
 
 import requests
 
+from normalize.schema import temporal_block
 from scrapers._http import UA_DEFAULT
 
 PUBLIC_DIR = Path(__file__).resolve().parents[1] / "data" / "public"
@@ -120,18 +121,22 @@ def fetch_news_for(session: requests.Session, ticker: str, company: str) -> list
     out = []
     for a in data.get("articles", []):
         title = a.get("title", "")
-        out.append({
+        published = _parse_seendate(a.get("seendate", ""))
+        rec = {
             "id": "news_" + str(abs(hash(a.get("url", ""))) % (10 ** 12)),
             "source": "gdelt",
             "title": title,
             "url": a.get("url", ""),
-            "published_at": _parse_seendate(a.get("seendate", "")),
+            "published_at": published,
             "language": a.get("language", ""),
             "domain": a.get("domain", ""),
             "country": a.get("sourcecountry", ""),
             "tickers_detected": [ticker],
             "themes": _detect_themes(title),
-        })
+        }
+        # Noticia: el evento ES su publicacion (publico al instante). event=known.
+        rec.update(temporal_block(published, published))
+        out.append(rec)
     return out
 
 

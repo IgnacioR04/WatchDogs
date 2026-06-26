@@ -24,6 +24,7 @@ from typing import Any
 
 import pypdf
 
+from normalize.schema import temporal_block
 from normalize.scoring import score_signal
 from scrapers._dates import delay_days, to_iso
 from scrapers._http import Client, UA_DEFAULT
@@ -131,11 +132,11 @@ def parse_filing(filing: PTRFiling, client: Client) -> list[dict[str, Any]]:
             "amount_max": row["amount_max"],
             "amount_estimated": row["amount_max"] or row["amount_min"],
             "tx_date": row["tx_date"],
-            "event_date": row["tx_date"],
             "disclosure_date": filing.filing_date,
-            "delay_days": delay_days(row["tx_date"], filing.filing_date),
             "source_url": filing.pdf_url,
         }
+        # Bloque temporal: event=transaccion, known=disclosure (PTR filing).
+        rec.update(temporal_block(row["tx_date"], filing.filing_date))
         score_signal(rec)  # anade importance_score y sub-scores
         records.append(rec)
     return records

@@ -24,6 +24,7 @@ from typing import Any
 
 from normalize.schema import (
     INSTITUTIONAL_REQUIRED,
+    temporal_block,
     validate_records,
     write_json,
 )
@@ -260,7 +261,7 @@ def _process_manager(session, manager: str, cik: str) -> dict[str, Any] | None:
     time.sleep(0.15)
     previous_holdings = _fetch_holdings(session, cik, previous) if previous else []
 
-    return {
+    rec = {
         "manager": manager,
         "cik": cik,
         "report_date": current["report_date"],
@@ -273,6 +274,9 @@ def _process_manager(session, manager: str, cik: str) -> dict[str, Any] | None:
         "_previous_report_date": previous["report_date"] if previous else None,
         "_previous_holdings": previous_holdings,
     }
+    # Bloque temporal: event=cierre del quarter (periodOfReport), known=filing.
+    rec.update(temporal_block(current["report_date"], current["filing_date"]))
+    return rec
 
 
 def _compute_changes(rec: dict[str, Any]) -> list[dict[str, Any]]:
