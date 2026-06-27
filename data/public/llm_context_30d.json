@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-06-26T22:49:49.087115+00:00",
+  "generated_at": "2026-06-27T01:37:38.869752+00:00",
   "window": {
-    "from": "2026-05-27",
-    "to": "2026-06-26",
+    "from": "2026-05-28",
+    "to": "2026-06-27",
     "days": 30
   },
   "data_quality": {
@@ -23,11 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "regulatory",
       "ai",
+      "stock",
       "leadership",
-      "earnings"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,20 +35,20 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO compro Sixth Street Lending Partners ($19.7M)",
-      "summary": "CEO Waxman Alan compro Sixth Street Lending Partners por $19.7M el 2026-06-23.",
+      "title": "CEO compro DPC ($14.4M)",
+      "summary": "CEO Quinn Michael (Mike) Joseph compro DPC por $14.4M el 2026-06-26.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Waxman Alan",
+      "actor_name": "Quinn Michael (Mike) Joseph",
       "actor_type": "ceo",
-      "ticker": "",
+      "ticker": "DPC",
       "direction": "buy",
-      "amount_estimated": 19696071.74,
-      "event_date": "2026-06-23",
-      "importance_score": 87.3,
+      "amount_estimated": 14358993.0,
+      "event_date": "2026-06-26",
+      "importance_score": 88.1,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1515132/000119312526282741/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2139513/000110465926078258/"
     },
     {
       "id": "move_2",
@@ -89,6 +89,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "CFO compro DPC ($9.1M)",
+      "summary": "CFO Egan David John compro DPC por $9.1M el 2026-06-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Egan David John",
+      "actor_type": "cfo",
+      "ticker": "DPC",
+      "direction": "buy",
+      "amount_estimated": 9086979.0,
+      "event_date": "2026-06-26",
+      "importance_score": 85.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2138812/000110465926078242/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro Apollo Origination II (UL) Capital Trust ($30.0M)",
       "summary": "10% owner Apollo Principal Holdings B GP, LLC compro Apollo Origination II (UL) Capital Trust por $30.0M el 2026-06-24.",
       "source": "sec_form_4",
@@ -105,40 +123,22 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2011937/000119312526285500/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO compro Sixth Street Lending Partners ($3.6M)",
-      "summary": "CEO Waxman Alan compro Sixth Street Lending Partners por $3.6M el 2026-06-23.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Waxman Alan",
-      "actor_type": "ceo",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 3586182.37,
-      "event_date": "2026-06-23",
-      "importance_score": 83.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1515132/000119312526282741/"
-    },
-    {
       "id": "move_6",
       "rank": 6,
-      "title": "Insider vendio DLTR ($248.3M)",
-      "summary": "Insider Mantle Ridge LP vendio DLTR por $248.3M el 2026-06-24 [senal en multiples fuentes].",
+      "title": "Director compro DPC ($29.8M)",
+      "summary": "Director Charles Dirkson R compro DPC por $29.8M el 2026-06-26.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Mantle Ridge LP",
-      "actor_type": "insider",
-      "ticker": "DLTR",
-      "direction": "sell",
-      "amount_estimated": 248271946.05,
-      "event_date": "2026-06-24",
-      "importance_score": 83.3,
-      "cross_source_score": 25.0,
+      "actor_name": "Charles Dirkson R",
+      "actor_type": "director",
+      "ticker": "DPC",
+      "direction": "buy",
+      "amount_estimated": 29813784.0,
+      "event_date": "2026-06-26",
+      "importance_score": 84.7,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1413084/000110465926077658/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1335344/000110465926078250/"
     },
     {
       "id": "move_7",
@@ -179,6 +179,42 @@
     {
       "id": "move_9",
       "rank": 9,
+      "title": "Director compro DPC ($9.5M)",
+      "summary": "Director Sanders Nick compro DPC por $9.5M el 2026-06-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Sanders Nick",
+      "actor_type": "director",
+      "ticker": "DPC",
+      "direction": "buy",
+      "amount_estimated": 9511029.0,
+      "event_date": "2026-06-26",
+      "importance_score": 82.2,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2138777/000110465926078260/"
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "Director compro DPC ($7.0M)",
+      "summary": "Director Charles Dirkson R compro DPC por $7.0M el 2026-06-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Charles Dirkson R",
+      "actor_type": "director",
+      "ticker": "DPC",
+      "direction": "buy",
+      "amount_estimated": 6999993.0,
+      "event_date": "2026-06-26",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1335344/000110465926078250/"
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -195,8 +231,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -213,8 +249,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -231,8 +267,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -249,8 +285,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -267,8 +303,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -285,8 +321,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -303,8 +339,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -321,8 +357,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -339,8 +375,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -355,42 +391,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12231430056,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
-      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 11607569229,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
@@ -398,15 +398,23 @@
       {
         "ticker": "ADTX",
         "company": "Aditxt, Inc.",
-        "pressure_score": 840.0,
+        "pressure_score": 910.5,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "WULF",
-        "company": "TERAWULF INC.",
-        "pressure_score": 469.9,
+        "ticker": "DPC",
+        "company": "DPC Holdings Ltd",
+        "pressure_score": 879.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FTH",
+        "company": "Faeth Therapeutics, Inc.",
+        "pressure_score": 579.2,
         "sources": [
           "corporate_insider"
         ]
@@ -415,14 +423,6 @@
         "ticker": "PTCT",
         "company": "PTC THERAPEUTICS, INC.",
         "pressure_score": 335.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RYTM",
-        "company": "RHYTHM PHARMACEUTICALS, INC.",
-        "pressure_score": 334.0,
         "sources": [
           "corporate_insider"
         ]
@@ -444,14 +444,6 @@
         ]
       },
       {
-        "ticker": "EPSN",
-        "company": "Epsilon Energy Ltd.",
-        "pressure_score": 295.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TDG",
         "company": "Common Stock",
         "pressure_score": 290.5,
@@ -460,19 +452,11 @@
         ]
       },
       {
-        "ticker": "GLUE",
-        "company": "Monte Rosa Therapeutics, Inc.",
-        "pressure_score": 263.0,
+        "ticker": "KMX",
+        "company": "CARMAX INC",
+        "pressure_score": 288.0,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "T",
-        "company": "AT&T Inc.",
-        "pressure_score": 244.1,
-        "sources": [
-          "congress"
         ]
       },
       {
@@ -489,6 +473,14 @@
         "pressure_score": 230.2,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "PSNL",
+        "company": "Personalis, Inc.",
+        "pressure_score": 221.1,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -514,13 +506,21 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "ELVN",
+        "company": "ENLIVEN THERAPEUTICS, INC.",
+        "pressure_score": 208.5,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "VICR",
-        "company": "VICOR CORP",
-        "pressure_score": 3057.2,
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "pressure_score": 1677.1,
         "sources": [
           "corporate_insider"
         ]
@@ -528,7 +528,7 @@
       {
         "ticker": "ESP",
         "company": "ESPEY MFG & ELECTRONICS CORP",
-        "pressure_score": 1509.5,
+        "pressure_score": 1343.8,
         "sources": [
           "corporate_insider"
         ]
@@ -536,7 +536,24 @@
       {
         "ticker": "PRA",
         "company": "PROASSURANCE CORP",
-        "pressure_score": 1040.7,
+        "pressure_score": 1111.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 980.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 839.0,
         "sources": [
           "corporate_insider"
         ]
@@ -558,14 +575,6 @@
         ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 751.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DYN",
         "company": "Dyne Therapeutics, Inc.",
         "pressure_score": 706.2,
@@ -574,9 +583,18 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 616.1,
+        "ticker": "PCVX",
+        "company": "Vaxcyte, Inc.",
+        "pressure_score": 657.5,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "IMVT",
+        "company": "Immunovant, Inc.",
+        "pressure_score": 572.4,
         "sources": [
           "corporate_insider"
         ]
@@ -598,6 +616,15 @@
         ]
       },
       {
+        "ticker": "OMDA",
+        "company": "Omada Health, Inc.",
+        "pressure_score": 494.7,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "PTCT",
         "company": "PTC THERAPEUTICS, INC.",
         "pressure_score": 481.8,
@@ -612,34 +639,64 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "VMD",
-        "company": "VIEMED HEALTHCARE, INC.",
-        "pressure_score": 393.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs, Inc.",
-        "pressure_score": 388.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "INSM",
-        "company": "INSMED Inc",
-        "pressure_score": 379.2,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Quinn Michael (Mike) Joseph",
+      "actor_type": "ceo",
+      "amount": 14358993.0,
+      "date": "2026-06-26",
+      "score": 88.1
+    },
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Egan David John",
+      "actor_type": "cfo",
+      "amount": 9086979.0,
+      "date": "2026-06-26",
+      "score": 85.9
+    },
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Charles Dirkson R",
+      "actor_type": "director",
+      "amount": 29813784.0,
+      "date": "2026-06-26",
+      "score": 84.7
+    },
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Sanders Nick",
+      "actor_type": "director",
+      "amount": 9511029.0,
+      "date": "2026-06-26",
+      "score": 82.2
+    },
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Charles Dirkson R",
+      "actor_type": "director",
+      "amount": 6999993.0,
+      "date": "2026-06-26",
+      "score": 81.6
+    },
+    {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Mays Jason",
+      "actor_type": "officer",
+      "amount": 2837109.0,
+      "date": "2026-06-26",
+      "score": 80.4
+    },
     {
       "ticker": "PAM",
       "company": "Pampa Energy Inc.",
@@ -686,12 +743,21 @@
       "score": 79.2
     },
     {
+      "ticker": "DPC",
+      "company": "DPC Holdings Ltd",
+      "actor": "Danmola Taiwo K.",
+      "actor_type": "director",
+      "amount": 1999932.0,
+      "date": "2026-06-26",
+      "score": 78.9
+    },
+    {
       "ticker": "UTHR",
       "company": "UNITED THERAPEUTICS Corp",
       "actor": "ROTHBLATT MARTINE A",
       "actor_type": "ceo",
       "amount": 1286490.0,
-      "date": "2026-06-24",
+      "date": "2026-06-25",
       "score": 78.9
     },
     {
@@ -711,69 +777,6 @@
       "amount": 16372000.0,
       "date": "2026-06-24",
       "score": 77.9
-    },
-    {
-      "ticker": "CRCL",
-      "company": "Circle Internet Group, Inc.",
-      "actor": "Chandhok Nikhil",
-      "actor_type": "officer",
-      "amount": 5161819.33,
-      "date": "2026-06-25",
-      "score": 77.7
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 114886.0,
-      "date": "2026-06-24",
-      "score": 77.7
-    },
-    {
-      "ticker": "INSM",
-      "company": "INSMED Inc",
-      "actor": "Lewis William",
-      "actor_type": "ceo",
-      "amount": 381298.28,
-      "date": "2026-06-25",
-      "score": 76.3
-    },
-    {
-      "ticker": "CTGO",
-      "company": "Contango Silver & Gold Inc.",
-      "actor": "Van Nieuwenhuyse Rick",
-      "actor_type": "ceo",
-      "amount": 62651.64,
-      "date": "2026-06-25",
-      "score": 76.3
-    },
-    {
-      "ticker": "ROIV",
-      "company": "Roivant Sciences Ltd.",
-      "actor": "Venker Eric",
-      "actor_type": "ceo",
-      "amount": 770000.0,
-      "date": "2026-06-24",
-      "score": 76.3
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 99324.0,
-      "date": "2026-06-22",
-      "score": 75.8
-    },
-    {
-      "ticker": "IE",
-      "company": "Ivanhoe Electric Inc.",
-      "actor": "FRIEDLAND ROBERT M",
-      "actor_type": "director",
-      "amount": 2282498.34,
-      "date": "2026-06-25",
-      "score": 75.1
     }
   ],
   "institutional_changes": [
@@ -1082,6 +1085,24 @@
   ],
   "large_holders": [
     {
+      "filer": "Apollo Direct Lending Fund II (Unlevered AIV), L.P.",
+      "company": "Apollo Origination II (UL) Capital Trust",
+      "ticker": "UL",
+      "ownership_pct": 100.0,
+      "shares": 28069111,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-26"
+    },
+    {
+      "filer": "Apollo Direct Lending Fund II (Levered AIV), L.P.",
+      "company": "Apollo Origination II (Levered) Capital Trust",
+      "ticker": "",
+      "ownership_pct": 100.0,
+      "shares": 32067124,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-26"
+    },
+    {
       "filer": "WILDER C JOHN",
       "company": "AleAnna",
       "ticker": "",
@@ -1109,6 +1130,15 @@
       "date": "2026-06-24"
     },
     {
+      "filer": "Scilex Holding Company",
+      "company": "Semnur Pharmaceuticals, Inc.",
+      "ticker": "",
+      "ownership_pct": 78.85,
+      "shares": 181520112,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-26"
+    },
+    {
       "filer": "Energy Impact Partners LLC",
       "company": "ERock, Inc.",
       "ticker": "EROC",
@@ -1125,6 +1155,24 @@
       "shares": 75000,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-06-18"
+    },
+    {
+      "filer": "Warner Bros. Discovery, Inc.",
+      "company": "Anghami Inc.",
+      "ticker": "",
+      "ownership_pct": 71.3,
+      "shares": 7417345,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-26"
+    },
+    {
+      "filer": "OSN Streaming Limited",
+      "company": "Anghami Inc",
+      "ticker": "",
+      "ownership_pct": 71.27,
+      "shares": 7417345,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-26"
     },
     {
       "filer": "Ching-Dong Wang",
@@ -1170,265 +1218,224 @@
       "shares": 341442911,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-06-18"
-    },
-    {
-      "filer": "Charles W. Ergen",
-      "company": "EchoStar CORP",
-      "ticker": "SATS",
-      "ownership_pct": 51.0,
-      "shares": 148681314,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-17"
-    },
-    {
-      "filer": "Inversiones ASPI S.A.",
-      "company": "CEMENTOS PACASMAYO SAA",
-      "ticker": "CPAC",
-      "ownership_pct": 50.01,
-      "shares": 211985547,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-17"
-    },
-    {
-      "filer": "BCRED X Holdings LLC",
-      "company": "Blackstone Private Real Estate Credit & Income Fund",
-      "ticker": "",
-      "ownership_pct": 49.0,
-      "shares": 18628294,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-24"
-    },
-    {
-      "filer": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
-      "company": "RUM Group Inc.",
-      "ticker": "",
-      "ownership_pct": 48.7,
-      "shares": 244741043,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-22"
-    },
-    {
-      "filer": "Charles Cohn",
-      "company": "Nerdy Inc.",
-      "ticker": "NRDY",
-      "ownership_pct": 48.7,
-      "shares": 79822406,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-17"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x076daa87c4",
-        "username": "",
-        "pnl": 1010839.19,
-        "win_rate": 0.651,
-        "volume": 2701336.9,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x10ff6cd4b1",
-        "username": "02-",
-        "pnl": 134283.07,
-        "win_rate": 0.774,
-        "volume": 769931.45,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xfc0847fe2e",
-        "username": "0xfC0847fe2Ea938D6e2624650eB29eF8d8142A137-1771999665274",
-        "pnl": 254584.88,
-        "win_rate": 0.693,
-        "volume": 482491.88,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 26494.56,
+        "win_rate": 0.758,
+        "volume": 83.17,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4064f0122a",
-        "username": "blackmamba6969",
-        "pnl": 113191.25,
-        "win_rate": 0.871,
+        "wallet": "0xc660ae7176",
+        "username": "BoggsFromShawshank",
+        "pnl": 23327.44,
+        "win_rate": 0.692,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7d787c72c8",
-        "username": "MD14",
-        "pnl": 84645.21,
-        "win_rate": 0.7,
-        "volume": 476009.31,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 70247.11,
-        "win_rate": 0.6941,
-        "volume": 5452174.75,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x26437896ed",
-        "username": "Latina",
-        "pnl": 136090.6,
-        "win_rate": 0.6458,
-        "volume": 469522.41,
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 18707.75,
+        "win_rate": 0.703,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdd882a7068",
-        "username": "MeiGuNiuBi",
-        "pnl": 95878.55,
-        "win_rate": 0.657,
-        "volume": 401303.55,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x83255595ba",
-        "username": "Mind.The.Gap",
-        "pnl": 181982.27,
-        "win_rate": 0.5643,
-        "volume": 1930380.14,
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 37610.83,
+        "win_rate": 0.652,
+        "volume": 424682.93,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "",
-        "pnl": 358029.27,
-        "win_rate": 0.5152,
-        "volume": 506645.01,
+        "wallet": "0x03e8a544e9",
+        "username": "weflyhigh",
+        "pnl": 247528.31,
+        "win_rate": 0.5267,
+        "volume": 0.0,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe3c9c84c99",
+        "username": "DimSumConnoisseur.",
+        "pnl": 135202.41,
+        "win_rate": 0.8,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc8075693f4",
+        "username": "texaskid",
+        "pnl": 97877.14,
+        "win_rate": 0.5802,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 188750.26,
+        "win_rate": 0.4646,
+        "volume": 349999.86,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x9b89ef1f34",
+        "username": "Woaifacai",
+        "pnl": 20028.68,
+        "win_rate": 0.6022,
+        "volume": 240195.83,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xcf6c549212",
+        "username": "one8tyfive",
+        "pnl": 10155.74,
+        "win_rate": 0.641,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 74723.55,
-        "win_rate": 0.216,
-        "volume": 33775184.32,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 150414.44,
+        "win_rate": 0.183,
+        "volume": 1166036.19,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 132780.22,
+        "win_rate": 0.029,
+        "volume": 1300941.87,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xd6505aab3c",
-        "username": "BAREFLUX",
-        "pnl": 2696044.77,
-        "win_rate": 0.25,
-        "volume": 9409344.3,
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 26843.91,
+        "win_rate": 0.427,
+        "volume": 963069.77,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd1c537b2a7",
-        "username": "weatherman12",
-        "pnl": 1191476.56,
-        "win_rate": 0.4444,
-        "volume": 2455775.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 70247.11,
-        "win_rate": 0.6941,
-        "volume": 5452174.75,
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 188750.26,
+        "win_rate": 0.4646,
+        "volume": 349999.86,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x67542c3219",
-        "username": "maz26",
-        "pnl": 874379.21,
-        "win_rate": 0.1842,
-        "volume": 3532771.47,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x709e8dcb13",
-        "username": "0xd4aa6f8e91cfea29b66a48ebff52814",
-        "pnl": 409717.05,
-        "win_rate": 0.4,
-        "volume": 2929426.48,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 22550.74,
+        "win_rate": 0.183,
+        "volume": 851008.37,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
         ]
       },
       {
-        "wallet": "0x72254fe1a7",
-        "username": "1two1two",
-        "pnl": 500806.63,
-        "win_rate": 0.0,
-        "volume": 1752116.44,
+        "wallet": "0xe9076a87c5",
+        "username": "suntori",
+        "pnl": 19506.54,
+        "win_rate": 0.458,
+        "volume": 554334.21,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 445875.35,
-        "win_rate": 0.3411,
-        "volume": 1894741.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x349606c1b7",
-        "username": "skk1ch",
-        "pnl": 1401890.81,
-        "win_rate": 0.3292,
-        "volume": 2387365.43,
-        "categories": [
-          "sports",
           "crypto",
+          "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 240539.72,
-        "win_rate": 0.0,
-        "volume": 4475603.79,
+        "wallet": "0x9b89ef1f34",
+        "username": "Woaifacai",
+        "pnl": 20028.68,
+        "win_rate": 0.6022,
+        "volume": 240195.83,
         "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 37610.83,
+        "win_rate": 0.652,
+        "volume": 424682.93,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xc1da972849",
+        "username": "vanjie",
+        "pnl": 131003.73,
+        "win_rate": 0.2308,
+        "volume": 53771.3,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 18385.27,
+        "win_rate": 0.144,
+        "volume": 189621.17,
+        "categories": [
+          "crypto",
           "sports"
         ]
       }
@@ -1436,56 +1443,116 @@
   },
   "news": [
     {
-      "title": "Oracle stock ends worst week since 2001 as investors dwell on finances",
-      "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html",
-      "ticker": "ORCL",
+      "title": "医疗人工智能的算力问题并非疏漏 而是下一次架构转型的开端",
+      "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-27/doc-inieuyhx7045710.shtml",
+      "ticker": "AVGO",
+      "themes": [],
+      "date": "2026-06-27"
+    },
+    {
+      "title": "刚刚美军发动空袭 ！ 霍尔木兹海峡突生变数 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202606273785245717.html",
+      "ticker": "AVGO",
+      "themes": [],
+      "date": "2026-06-27"
+    },
+    {
+      "title": "Britain top fund managers have confided in me : These are the six under - rated company shares tipped to ROCKET in value - and YOU could make a fortune , reveals JEFF PRESTRIDGE",
+      "url": "https://www.dailymail.com/money/mailplus/article-15932887/fund-managers-companies-ROCKET-value-fortune-JEFF-PRESTRIDGE.html",
+      "ticker": "AVGO",
       "themes": [
+        "ai",
         "stock"
       ],
-      "date": "2026-06-26"
+      "date": "2026-06-27"
     },
     {
-      "title": "甲骨文股价创2001年互联网泡沫破裂以来最差周度表现 市场对人工智能融资的担忧加剧",
-      "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-27/doc-inieutzh1680920.shtml",
-      "ticker": "ORCL",
-      "themes": [],
-      "date": "2026-06-26"
+      "title": "GQG : We Are Still Very Much in An AI Stock Market Bubble",
+      "url": "https://www.morningstar.com/markets/gqg-we-are-still-very-much-an-ai-stock-market-bubble",
+      "ticker": "AVGO",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-06-27"
     },
     {
-      "title": "Xprize founder Peter Diamandis says humans behave better when they are being watched",
-      "url": "https://thenextweb.com/news/diamandis-xprize-surveillance-privacy-transparency",
-      "ticker": "ORCL",
-      "themes": [],
-      "date": "2026-06-26"
+      "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ? ",
+      "url": "https://www.fool.com/investing/2026/06/26/openai-is-building-its-own-ai-chip-with-broadcom-s/?source=iedfolrf0000001",
+      "ticker": "AVGO",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-27"
     },
     {
-      "title": "甲骨文股价创2001年互联网泡沫破裂以来最差单周表现 市场对AI融资的担忧持续升温",
-      "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-27/doc-inieutyz7021227.shtml",
-      "ticker": "ORCL",
+      "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ? ",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-building-own-ai-chip-231200024.html",
+      "ticker": "AVGO",
       "themes": [
         "ai"
       ],
       "date": "2026-06-26"
     },
     {
-      "title": "Local owner sells Oro Valley shopping center",
-      "url": "https://www.insidetucsonbusiness.com/construction_real_estate/local-owner-sells-oro-valley-shopping-center/article_ffb9d6c7-887d-4690-aa81-ff3159f8178e.html",
-      "ticker": "ORCL",
+      "title": "  Who Are These Lunatics ? CoreWeave Credit Approach Gets A Pep Talk From The  Dean Of Valuation  - Core",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60137212/who-are-these-lunatics-coreweaves-credit-approach-gets-a-pep-talk-from-the-dean-of-valuation",
+      "ticker": "CRWV",
       "themes": [],
       "date": "2026-06-26"
     },
     {
-      "title": "Microsoft Worst Month Since 2000 Meets Micron Record Numbers - Microsoft ( NASDAQ : MSFT ), Micron Techno",
-      "url": "https://www.benzinga.com/markets/market-summary/26/06/60140539/microsoft-micron-ai-capex-squeeze-week-wall-street",
-      "ticker": "ORCL",
-      "themes": [],
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Vanguard Small - Cap Value vs iShares Russell 2000 Value : Which ETF Is the Better Buy Right Now ? ",
-      "url": "https://www.fool.com/coverage/etfs/2026/06/25/vanguard-small-cap-value-vs-ishares-russell-2000-value-which-etf-is-the-better-buy-right-now/?source=iedfolrf0000001",
-      "ticker": "TTMI",
+      "title": "Rapidly Rising Data Center Costs May Complicate CoreWeave Push to 8 Gigawatts of AI Power by 2030",
+      "url": "https://www.fool.com/investing/2026/06/26/rising-data-center-costs-coreweave-ai-stock/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
+        "ai"
+      ],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Solidigm VP talks PCIe 6 . 0 SSDs , next - gen floating gate NAND , liquid cooled storage and more Avi Shetty , VP of AI , Solutions & Market Enablement discusses the future of enterprise storage tech",
+      "url": "https://www.tomshardware.com/pc-components/ssds/solidigm-vp-talks-pcie-6-0-ssds-next-gen-floating-gate-nand-liquid-cooled-storage-and-more-avi-shetty-vp-of-ai-solutions-and-market-enablement-discusses-the-future-of-enterprise-storage-tech",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "NVDA Stock Alert : The Prices of Nvidia Chips Could Drop for Some Time Amid Intensifying Competition",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-alert-prices-nvidia-205048868.html",
+      "ticker": "CRWV",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Here is why CoreWeave , Inc .   ( CRWV )  is among the 10 Stocks That Could Double Over the Next 2 Years",
+      "url": "https://www.insidermonkey.com/blog/here-is-why-coreweave-inc-crwv-is-among-the-10-stocks-that-could-double-over-the-next-2-years-1786712/",
+      "ticker": "CRWV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Here is why CoreWeave , Inc .   ( CRWV )  is among the 10 Stocks That Could Double Over the Next 2 Years",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-coreweave-inc-crwv-among-013609763.html",
+      "ticker": "CRWV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/06/25/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-06-25"
@@ -1498,38 +1565,34 @@
       "date": "2026-06-25"
     },
     {
-      "title": "PTC Therapeutics ( NASDAQ : PTCT ) Insider Neil Gregory Almstead Sells 23 , 749 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/06/25/ptc-therapeutics-nasdaqptct-insider-neil-gregory-almstead-sells-23749-shares-of-stock.html",
-      "ticker": "PTCT",
+      "title": "Assured Data Protection Named Rubrik Global MSP Partner of the Year 2026",
+      "url": "http://www.prnewswire.com/news-releases/assured-data-protection-named-rubriks-global-msp-partner-of-the-year-2026-302809426.html",
+      "ticker": "RBRK",
+      "themes": [],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "AI agents are breaking things and organisations know it . They are deploying more anyway . ",
+      "url": "https://www.manilatimes.net/2026/06/25/tmt-newswire/pr-newswire/ai-agents-are-breaking-things-and-organisations-know-it-they-are-deploying-more-anyway/2372612",
+      "ticker": "RBRK",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Assured Data Protection Named Rubrik Global MSP Partner of the Year 2026",
+      "url": "https://www.prnewswire.com/news-releases/assured-data-protection-named-rubriks-global-msp-partner-of-the-year-2026-302809426.html",
+      "ticker": "RBRK",
+      "themes": [],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "10 Most Promising New Technology Stocks to Buy According to Analysts",
+      "url": "https://www.insidermonkey.com/blog/10-most-promising-new-technology-stocks-to-buy-according-to-analysts-1788442/",
+      "ticker": "RBRK",
       "themes": [
         "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Rare Neurological Disease Treatment Market to Reach USD 43 . 7 Billion by 2036 as Orphan Drug Approvals and Genetic Diagnostics Expand Specialist Care",
-      "url": "http://www.prnewswire.com/news-releases/rare-neurological-disease-treatment-market-to-reach-usd-43-7-billion-by-2036-as-orphan-drug-approvals-and-genetic-diagnostics-expand-specialist-care--future-market-insights-302810453.html",
-      "ticker": "PTCT",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Rare Neurological Disease Treatment Market to Reach USD 43 . 7 Billion by 2036 as Orphan Drug Approvals and Genetic Diagnostics Expand Specialist Care",
-      "url": "https://www.prnewswire.com/news-releases/rare-neurological-disease-treatment-market-to-reach-usd-43-7-billion-by-2036-as-orphan-drug-approvals-and-genetic-diagnostics-expand-specialist-care--future-market-insights-302810453.html",
-      "ticker": "PTCT",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Rare Neurological Disease Treatment Market to Reach USD 43 . 7 Billion by 2036 as Orphan Drug Approvals and Genetic Diagnostics Expand Specialist Care",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68859305-rare-neurological-disease-treatment-market-to-reach-usd-43-7-billion-by-2036-as-orphan-drug-approvals-and-genetic-diagnostics-expand-specialist-care-008.htm",
-      "ticker": "PTCT",
-      "themes": [
-        "regulatory"
       ],
       "date": "2026-06-25"
     },
@@ -1550,6 +1613,13 @@
       "date": "2026-06-23"
     },
     {
+      "title": "SpaceX Starfall Reaches Orbit : Disk Capsule Targets Market No Return Vehicle Has Cracked",
+      "url": "https://www.techtimes.com/articles/318933/20260623/spacex-starfall-reaches-orbit-disk-capsule-targets-market-no-return-vehicle-has-cracked.htm",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-06-23"
+    },
+    {
       "title": "Worthington Enterprises Reports Fourth Quarter and Full - Year Fiscal 2026 Results",
       "url": "https://www.manilatimes.net/2026/06/24/tmt-newswire/globenewswire/worthington-enterprises-reports-fourth-quarter-and-full-year-fiscal-2026-results/2371454",
       "ticker": "WOR",
@@ -1566,13 +1636,6 @@
       "date": "2026-06-23"
     },
     {
-      "title": "TTM Expands Defense Electronics Production With NY Facility",
-      "url": "https://www.executivebiz.com/articles/ttm-ultra-hdi-manufacturing-facility-ny-launch",
-      "ticker": "TTMI",
-      "themes": [],
-      "date": "2026-06-23"
-    },
-    {
       "title": "Worthington Enterprises Increases Quarterly Dividend by 5 %; Adds Brad Southern to Board of Directors",
       "url": "https://www.manilatimes.net/2026/06/24/tmt-newswire/globenewswire/worthington-enterprises-increases-quarterly-dividend-by-5-adds-brad-southern-to-board-of-directors/2371385",
       "ticker": "WOR",
@@ -1583,22 +1646,22 @@
       "date": "2026-06-23"
     },
     {
-      "title": "TTM opens expanded DeWitt circuit board facility",
-      "url": "https://www.fingerlakes1.com/2026/06/22/ttm-opens-expanded-dewitt-circuit-board-facility/",
-      "ticker": "TTMI",
+      "title": "OpenAI Lets Cyber Vendors Embed GPT - 5 . 5 in Defenses",
+      "url": "https://www.govinfosecurity.com/openai-lets-cyber-vendors-embed-gpt-55-in-defenses-a-32040",
+      "ticker": "RBRK",
       "themes": [
-        "leadership"
+        "ai"
       ],
       "date": "2026-06-23"
     },
     {
-      "title": "Citigroup Upgrade Caps a Run of Bullish Calls on PTC Therapeutics , a Major Armistice Capital Holding",
-      "url": "https://www.dailycal.org/affiliate_links/citigroups-upgrade-caps-a-run-of-bullish-calls-on-ptc-therapeutics-a-major-armistice-capital/article_d648042c-7300-48e2-b150-94728495f06e.html",
-      "ticker": "PTCT",
+      "title": "United Therapeutics ( NASDAQ : UTHR ) CFO James Edgemond Sells 10 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13483553/united-therapeutics-nasdaquthr-cfo-james-edgemond-sells-10000-shares-of-stock.html",
+      "ticker": "UTHR",
       "themes": [
         "stock"
       ],
-      "date": "2026-06-23"
+      "date": "2026-06-22"
     },
     {
       "title": "Praxis Gains After FDA Grants Breakthrough Therapy Designation To Elsunersen For SCN2A - DEE",
@@ -1611,46 +1674,30 @@
       "date": "2026-06-22"
     },
     {
-      "title": "ISCV vs . IWN : Which Small - Cap Value ETF Is the Better Buy ? ",
-      "url": "https://www.fool.com/coverage/etfs/2026/06/22/iscv-vs-iwn-which-small-cap-value-etf-is-the-better-buy/?source=iedfolrf0000001",
-      "ticker": "TTMI",
+      "title": "SpaceX Starfall Demo Flies Tuesday : Disk Capsule Bets on Orbital Manufacturing Scale",
+      "url": "https://www.techtimes.com/articles/318743/20260620/spacex-starfall-demo-flies-tuesday-disk-capsule-bets-orbital-manufacturing-scale.htm",
+      "ticker": "UTHR",
       "themes": [],
-      "date": "2026-06-22"
+      "date": "2026-06-20"
     },
     {
-      "title": "ISCV vs . IWN : Which Small - Cap Value ETF Is the Better Buy ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iscv-vs-iwn-small-cap-110229697.html",
-      "ticker": "TTMI",
+      "title": "Virtu Financial LLC Takes $2 . 52 Million Position in Rubrik , Inc . $RBRK",
+      "url": "https://www.tickerreport.com/banking-finance/13482140/virtu-financial-llc-takes-2-52-million-position-in-rubrik-inc-rbrk.html",
+      "ticker": "RBRK",
       "themes": [],
-      "date": "2026-06-22"
+      "date": "2026-06-20"
     },
     {
-      "title": "Hidden beneath AI chips , Chinese - made circuit boards raise national security concerns in U . S . · EMSNow",
-      "url": "https://www.emsnow.com/hidden-beneath-ai-chips-chinese-made-circuit-boards-raise-national-security-concerns-in-u-s/",
-      "ticker": "TTMI",
+      "title": "A cutting - edge electric aviation company has a surprising secret weapon : Vermont",
+      "url": "https://www.bostonglobe.com/2026/06/19/metro/beta-technologies-electric-airplane/",
+      "ticker": "UTHR",
       "themes": [
-        "ai",
-        "regulatory",
-        "leadership"
+        "regulatory"
       ],
-      "date": "2026-06-21"
-    },
-    {
-      "title": "PTC Therapeutics Announces Pricing of Convertible Notes Offering to Refinance 2026 Convertible Notes",
-      "url": "https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-pricing-of-convertible-notes-offering-to-refinance-2026-convertible-notes-302801013.html",
-      "ticker": "PTCT",
-      "themes": [],
-      "date": "2026-06-16"
-    },
-    {
-      "title": "Praxis Precision Medicines ( PRAX ) – Analyst Weekly Ratings Updates",
-      "url": "https://www.dailypolitical.com/2026/06/12/praxis-precision-medicines-prax-analysts-weekly-ratings-updates.html",
-      "ticker": "PRAX",
-      "themes": [],
-      "date": "2026-06-12"
+      "date": "2026-06-19"
     }
   ],
-  "signals_count": 1584,
+  "signals_count": 1648,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
