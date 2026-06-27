@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-06-27T11:17:32.994285+00:00",
+  "generated_at": "2026-06-27T12:33:45.696911+00:00",
   "window": {
     "from": "2026-05-28",
     "to": "2026-06-27",
@@ -23,10 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
       "stock",
-      "earnings",
+      "ai",
       "leadership",
+      "earnings",
+      "merger",
       "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -137,7 +138,9 @@
       "event_date": "2026-06-26",
       "importance_score": 82.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_324413432905"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1307649/000130764926000006/"
     },
     {
@@ -1223,21 +1226,42 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 98649.24,
-        "win_rate": 0.74,
-        "volume": 29940.41,
+        "wallet": "0x618534bef6",
+        "username": "batya1",
+        "pnl": 39168.45,
+        "win_rate": 0.8562,
+        "volume": 51299.45,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 98783.19,
+        "win_rate": 0.74,
+        "volume": 122472.41,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf3c73f43af",
+        "username": "Swooferdeluxe",
+        "pnl": 36269.97,
+        "win_rate": 0.7898,
+        "volume": 182610.86,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0x076daa87c4",
         "username": "",
-        "pnl": 348714.15,
+        "pnl": 341838.98,
         "win_rate": 0.635,
-        "volume": 1658332.95,
+        "volume": 1677460.19,
         "categories": [
           "sports",
           "crypto"
@@ -1268,7 +1292,7 @@
       {
         "wallet": "0x03e8a544e9",
         "username": "weflyhigh",
-        "pnl": 616644.75,
+        "pnl": 616324.74,
         "win_rate": 0.5261,
         "volume": 0.0,
         "categories": [
@@ -1278,9 +1302,9 @@
       {
         "wallet": "0xcf6c549212",
         "username": "one8tyfive",
-        "pnl": 69990.77,
+        "pnl": 71851.25,
         "win_rate": 0.637,
-        "volume": 196369.44,
+        "volume": 310710.63,
         "categories": [
           "sports",
           "crypto",
@@ -1307,35 +1331,15 @@
           "sports",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0xc8075693f4",
-        "username": "texaskid",
-        "pnl": 128007.96,
-        "win_rate": 0.5791,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x492442eab5",
-        "username": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
-        "pnl": 185666.26,
-        "win_rate": 0.51,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 1064529.96,
-        "win_rate": 0.191,
-        "volume": 16808021.54,
+        "pnl": 1058139.64,
+        "win_rate": 0.19,
+        "volume": 17279209.31,
         "categories": [
           "sports"
         ]
@@ -1353,7 +1357,7 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 757865.12,
+        "pnl": 752413.01,
         "win_rate": 0.189,
         "volume": 4732175.42,
         "categories": [
@@ -1376,9 +1380,19 @@
       {
         "wallet": "0xc1da972849",
         "username": "vanjie",
-        "pnl": 559203.43,
+        "pnl": 560447.2,
         "win_rate": 0.1875,
-        "volume": 792474.81,
+        "volume": 793817.62,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 541069.62,
+        "win_rate": 0.0845,
+        "volume": 1100976.96,
         "categories": [
           "sports"
         ]
@@ -1386,7 +1400,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 636290.03,
+        "pnl": 636242.2,
         "win_rate": 0.3333,
         "volume": 644705.9,
         "categories": [
@@ -1396,9 +1410,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 143730.36,
+        "pnl": 141703.49,
         "win_rate": 0.0,
-        "volume": 2061728.55,
+        "volume": 2120408.12,
         "categories": [
           "sports"
         ]
@@ -1422,87 +1436,72 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0xa40778fb8d",
-        "username": "MrBlobby",
-        "pnl": 63125.32,
-        "win_rate": 0.2143,
-        "volume": 642746.25,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
     {
-      "title": "The $7 Trillion AI Boom Is Running Out of Power",
-      "url": "https://finance.yahoo.com/energy/articles/7-trillion-ai-boom-running-000000304.html",
-      "ticker": "CRWV",
+      "title": "The Vanguard ETF Built for Investors Who Want Dividends That Actually Grow",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-etf-built-investors-want-113100072.html",
+      "ticker": "AVGO",
+      "themes": [],
+      "date": "2026-06-27"
+    },
+    {
+      "title": "Rubrik ( NYSE : RBRK ) Director Ravi Mhatre Sells 3 , 979 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13487863/rubrik-nyserbrk-director-ravi-mhatre-sells-3979-shares.html",
+      "ticker": "RBRK",
       "themes": [
-        "ai"
+        "stock"
       ],
       "date": "2026-06-27"
     },
     {
-      "title": "  Who Are These Lunatics ? CoreWeave Credit Approach Gets A Pep Talk From The  Dean Of Valuation  - Core",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60137212/who-are-these-lunatics-coreweaves-credit-approach-gets-a-pep-talk-from-the-dean-of-valuation",
-      "ticker": "CRWV",
+      "title": "Událo se v týdnu 26 / 2026",
+      "url": "https://www.abclinuxu.cz/clanky/udalo-se-v-tydnu-26-2026",
+      "ticker": "AVGO",
       "themes": [],
-      "date": "2026-06-26"
+      "date": "2026-06-27"
     },
     {
-      "title": "Rapidly Rising Data Center Costs May Complicate CoreWeave Push to 8 Gigawatts of AI Power by 2030",
-      "url": "https://www.fool.com/investing/2026/06/26/rising-data-center-costs-coreweave-ai-stock/?source=iedfolrf0000001",
-      "ticker": "CRWV",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-06-26"
+      "title": "Could Buying VTI Today Set You Up for Life ? ",
+      "url": "https://www.fool.com/investing/2026/06/27/could-buying-vti-today-set-you-up-for-life/?source=iedfolrf0000001",
+      "ticker": "AVGO",
+      "themes": [],
+      "date": "2026-06-27"
     },
     {
-      "title": "Espey Mfg . & Electronics ( NYSEAMERICAN : ESP ) Director Carl Helmetag Sells 1 , 000 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13486972/espey-mfg-electronics-nyseamericanesp-director-carl-helmetag-sells-1000-shares-of-stock.html",
-      "ticker": "ESP",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Solidigm VP talks PCIe 6 . 0 SSDs , next - gen floating gate NAND , liquid cooled storage and more Avi Shetty , VP of AI , Solutions & Market Enablement discusses the future of enterprise storage tech",
-      "url": "https://www.tomshardware.com/pc-components/ssds/solidigm-vp-talks-pcie-6-0-ssds-next-gen-floating-gate-nand-liquid-cooled-storage-and-more-avi-shetty-vp-of-ai-solutions-and-market-enablement-discusses-the-future-of-enterprise-storage-tech",
-      "ticker": "CRWV",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-06-26"
-    },
-    {
-      "title": "NVDA Stock Alert : The Prices of Nvidia Chips Could Drop for Some Time Amid Intensifying Competition",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-alert-prices-nvidia-205048868.html",
-      "ticker": "CRWV",
+      "title": "2 Artificial Intelligence ( AI ) Stocks to Buy as Demand for Custom Chips Soars",
+      "url": "https://www.fool.com/investing/2026/06/27/2-artificial-intelligence-ai-stocks-to-buy-as-dema/?source=iedfolrf0000001",
+      "ticker": "AVGO",
       "themes": [
         "ai",
         "stock"
       ],
-      "date": "2026-06-26"
+      "date": "2026-06-27"
     },
     {
-      "title": "Here is why CoreWeave , Inc .   ( CRWV )  is among the 10 Stocks That Could Double Over the Next 2 Years",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-coreweave-inc-crwv-among-013609763.html",
-      "ticker": "CRWV",
+      "title": "FTC clears Musk to acquire SpaceX alumni startup Mesh Optical Technologies",
+      "url": "https://thenextweb.com/news/ftc-clears-musk-acquire-mesh-optical-spacex-data-centers",
+      "ticker": "AVGO",
       "themes": [
-        "stock"
+        "merger"
       ],
-      "date": "2026-06-26"
+      "date": "2026-06-27"
     },
     {
-      "title": "Espey Mfg . & Electronics ( NYSEAMERICAN : ESP ) Director Paul Corr Sells 2 , 550 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/06/25/espey-mfg-electronics-nyseamericanesp-director-paul-corr-sells-2550-shares-of-stock.html",
-      "ticker": "ESP",
+      "title": "Sterling Capital Management LLC Reduces Position in Marvell Technology , Inc . $MRVL",
+      "url": "https://www.tickerreport.com/banking-finance/13487711/sterling-capital-management-llc-reduces-position-in-marvell-technology-inc-mrvl.html",
+      "ticker": "AVGO",
+      "themes": [],
+      "date": "2026-06-27"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/06/25/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares.html",
+      "ticker": "UTHR",
       "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-06-25"
@@ -1512,6 +1511,38 @@
       "url": "https://www.tickerreport.com/banking-finance/13485561/worthington-enterprises-inc-wor-to-go-ex-dividend-on-september-15th.html",
       "ticker": "WOR",
       "themes": [],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Assured Data Protection Named Rubrik Global MSP Partner of the Year 2026",
+      "url": "http://www.prnewswire.com/news-releases/assured-data-protection-named-rubriks-global-msp-partner-of-the-year-2026-302809426.html",
+      "ticker": "RBRK",
+      "themes": [],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "AI agents are breaking things and organisations know it . They are deploying more anyway . ",
+      "url": "https://www.manilatimes.net/2026/06/25/tmt-newswire/pr-newswire/ai-agents-are-breaking-things-and-organisations-know-it-they-are-deploying-more-anyway/2372612",
+      "ticker": "RBRK",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Assured Data Protection Named Rubrik Global MSP Partner of the Year 2026",
+      "url": "https://www.prnewswire.com/news-releases/assured-data-protection-named-rubriks-global-msp-partner-of-the-year-2026-302809426.html",
+      "ticker": "RBRK",
+      "themes": [],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "10 Most Promising New Technology Stocks to Buy According to Analysts",
+      "url": "https://www.insidermonkey.com/blog/10-most-promising-new-technology-stocks-to-buy-according-to-analysts-1788442/",
+      "ticker": "RBRK",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-06-25"
     },
     {
@@ -1527,6 +1558,13 @@
       "title": "Worthington Enterprises Inc . Q4 Income Climbs",
       "url": "https://www.finanzen.ch/nachrichten/aktien/worthington-enterprises-inc-q4-income-climbs-1036270116",
       "ticker": "WOR",
+      "themes": [],
+      "date": "2026-06-23"
+    },
+    {
+      "title": "SpaceX Starfall Reaches Orbit : Disk Capsule Targets Market No Return Vehicle Has Cracked",
+      "url": "https://www.techtimes.com/articles/318933/20260623/spacex-starfall-reaches-orbit-disk-capsule-targets-market-no-return-vehicle-has-cracked.htm",
+      "ticker": "UTHR",
       "themes": [],
       "date": "2026-06-23"
     },
@@ -1557,21 +1595,54 @@
       "date": "2026-06-23"
     },
     {
-      "title": "Praxis Gains After FDA Grants Breakthrough Therapy Designation To Elsunersen For SCN2A - DEE",
-      "url": "https://www.rttnews.com/3661760/praxis-gains-after-fda-grants-breakthrough-therapy-designation-to-elsunersen-for-scn2a-dee.aspx",
-      "ticker": "PRAX",
+      "title": "OpenAI Lets Cyber Vendors Embed GPT - 5 . 5 in Defenses",
+      "url": "https://www.govinfosecurity.com/openai-lets-cyber-vendors-embed-gpt-55-in-defenses-a-32040",
+      "ticker": "RBRK",
       "themes": [
-        "ai",
-        "regulatory"
+        "ai"
+      ],
+      "date": "2026-06-23"
+    },
+    {
+      "title": "United Therapeutics ( NASDAQ : UTHR ) CFO James Edgemond Sells 10 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13483553/united-therapeutics-nasdaquthr-cfo-james-edgemond-sells-10000-shares-of-stock.html",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
       ],
       "date": "2026-06-22"
     },
     {
-      "title": "Espey Mfg . & Electronics Corp . ( NYSEAMERICAN : ESP ) Sees Large Decline in Short Interest",
-      "url": "https://www.dailypolitical.com/2026/06/15/espey-mfg-electronics-corp-nyseamericanesp-sees-large-decline-in-short-interest.html",
-      "ticker": "ESP",
+      "title": "SpaceX Starfall Demo Flies Tuesday : Disk Capsule Bets on Orbital Manufacturing Scale",
+      "url": "https://www.techtimes.com/articles/318743/20260620/spacex-starfall-demo-flies-tuesday-disk-capsule-bets-orbital-manufacturing-scale.htm",
+      "ticker": "UTHR",
       "themes": [],
-      "date": "2026-06-16"
+      "date": "2026-06-20"
+    },
+    {
+      "title": "A cutting - edge electric aviation company has a surprising secret weapon : Vermont",
+      "url": "https://www.bostonglobe.com/2026/06/19/metro/beta-technologies-electric-airplane/",
+      "ticker": "UTHR",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-06-19"
+    },
+    {
+      "title": "Market - Weighted Healthcare or Active Manager Selection ? IYH vs . PINK",
+      "url": "https://www.fool.com/coverage/etfs/2026/06/18/market-weighted-healthcare-or-active-manager-selection-iyh-vs-pink/?source=iedfolrf0000001",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-06-19"
+    },
+    {
+      "title": "ProAssurance ( NYSE : PRA ) Stock Passes Above 200 - Day Moving Average – Should You Sell ? ",
+      "url": "https://www.dailypolitical.com/2026/06/17/proassurance-nysepra-stock-passes-above-200-day-moving-average-should-you-sell.html",
+      "ticker": "PRA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-18"
     }
   ],
   "signals_count": 1652,
