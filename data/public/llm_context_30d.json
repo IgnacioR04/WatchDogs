@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-06-30T13:31:46.204743+00:00",
+  "generated_at": "2026-06-30T15:59:42.680151+00:00",
   "window": {
     "from": "2026-05-31",
     "to": "2026-06-30",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
-      "leadership",
-      "earnings"
+      "ai",
+      "merger",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -544,6 +544,15 @@
         ]
       },
       {
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 637.6,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DRCT",
         "company": "Direct Digital Holdings, Inc.",
         "pressure_score": 385.2,
@@ -608,6 +617,14 @@
         ]
       },
       {
+        "ticker": "RSKD",
+        "company": "RISKIFIED LTD.",
+        "pressure_score": 266.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "MSFT",
         "company": "Stock",
         "pressure_score": 254.0,
@@ -621,22 +638,6 @@
         "pressure_score": 242.4,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FLEX",
-        "company": "Flex Ltd.",
-        "pressure_score": 236.9,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "PINS",
-        "company": "SP Pinterest, Inc. Class A Common Stock",
-        "pressure_score": 234.3,
-        "sources": [
-          "congress"
         ]
       }
     ]
@@ -1059,14 +1060,6 @@
     },
     {
       "politician": "Matthew Robert Van Epps",
-      "ticker": "GOOGL",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-16",
-      "score": 63.9
-    },
-    {
-      "politician": "Matthew Robert Van Epps",
       "ticker": "NVDA",
       "direction": "sell",
       "amount": 15000,
@@ -1079,6 +1072,14 @@
       "direction": "sell",
       "amount": 50000,
       "date": "2026-06-01",
+      "score": 63.7
+    },
+    {
+      "politician": "Christian D. Menefee",
+      "ticker": "PINS",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-05-28",
       "score": 63.7
     }
   ],
@@ -1165,15 +1166,6 @@
       "date": "2026-06-29"
     },
     {
-      "filer": "FRANKLIN RESOURCES INC",
-      "company": "Franklin BSP Lending Fund",
-      "ticker": "",
-      "ownership_pct": 74.6,
-      "shares": 75000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-18"
-    },
-    {
       "filer": "Warner Bros. Discovery, Inc.",
       "company": "Anghami Inc.",
       "ticker": "",
@@ -1217,6 +1209,15 @@
       "shares": 49880646,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-06-29"
+    },
+    {
+      "filer": "Allen Family Digital, LLC",
+      "company": "BuzzFeed, Inc.",
+      "ticker": "",
+      "ownership_pct": 53.0,
+      "shares": 44000000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-22"
     }
   ],
   "polymarket": {
@@ -1224,9 +1225,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 71971.26,
+        "pnl": 72785.51,
         "win_rate": 0.952,
-        "volume": 108662.15,
+        "volume": 270030.99,
         "categories": [
           "sports",
           "crypto",
@@ -1236,9 +1237,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 297343.13,
+        "pnl": 284806.45,
         "win_rate": 0.7222,
-        "volume": 68291.23,
+        "volume": 92839.87,
         "categories": [
           "sports"
         ]
@@ -1246,13 +1247,36 @@
       {
         "wallet": "0x13414a77a4",
         "username": "ROBBATTISTAFANDUELRETARD",
-        "pnl": 156902.37,
+        "pnl": 157029.51,
         "win_rate": 0.715,
-        "volume": 310454.02,
+        "volume": 319702.7,
         "categories": [
           "sports",
           "crypto",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 62064.77,
+        "win_rate": 0.7718,
+        "volume": 820261.81,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x6e82b93eb5",
+        "username": "DLEK",
+        "pnl": 37653.49,
+        "win_rate": 0.778,
+        "volume": 235790.07,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
         ]
       },
       {
@@ -1270,9 +1294,9 @@
       {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 40113.23,
-        "win_rate": 0.651,
-        "volume": 125359.18,
+        "pnl": 40412.61,
+        "win_rate": 0.649,
+        "volume": 151569.03,
         "categories": [
           "sports"
         ]
@@ -1281,7 +1305,7 @@
         "wallet": "0x83255595ba",
         "username": "Mind.The.Gap",
         "pnl": 90527.39,
-        "win_rate": 0.5485,
+        "win_rate": 0.549,
         "volume": 1077400.12,
         "categories": [
           "sports",
@@ -1291,7 +1315,7 @@
       {
         "wallet": "0xd81e5bc01e",
         "username": "beet420",
-        "pnl": 73999.41,
+        "pnl": 74392.68,
         "win_rate": 0.5339,
         "volume": 14205.01,
         "categories": [
@@ -1307,35 +1331,15 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0xc41d736bde",
-        "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 44867.53,
-        "win_rate": 0.5217,
-        "volume": 118007.51,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x03e8a544e9",
-        "username": "weflyhigh",
-        "pnl": 35901.36,
-        "win_rate": 0.5231,
-        "volume": 236450.62,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x37ee3bceb4",
         "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-        "pnl": 33032.35,
-        "win_rate": 0.7778,
-        "volume": 5202030.39,
+        "pnl": 33278.39,
+        "win_rate": 0.6923,
+        "volume": 5638953.43,
         "categories": [
           "sports"
         ]
@@ -1343,9 +1347,9 @@
       {
         "wallet": "0x3a6a2e7a77",
         "username": "thesingularityisnear",
-        "pnl": 189906.47,
+        "pnl": 188062.69,
         "win_rate": 0.0,
-        "volume": 6791451.47,
+        "volume": 6811656.91,
         "categories": [
           "sports"
         ]
@@ -1353,9 +1357,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 258920.59,
+        "pnl": 245875.9,
         "win_rate": 0.192,
-        "volume": 5180772.61,
+        "volume": 5382089.91,
         "categories": [
           "sports",
           "politics",
@@ -1365,9 +1369,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 168255.32,
-        "win_rate": 0.158,
-        "volume": 7853009.65,
+        "pnl": 158594.98,
+        "win_rate": 0.159,
+        "volume": 8685555.1,
         "categories": [
           "sports",
           "crypto"
@@ -1386,19 +1390,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 409422.01,
+        "pnl": 408992.34,
         "win_rate": 0.3176,
-        "volume": 1496992.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 79693.73,
-        "win_rate": 0.0,
-        "volume": 2981276.61,
+        "volume": 1530862.7,
         "categories": [
           "sports"
         ]
@@ -1406,9 +1400,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 194855.01,
+        "pnl": 196246.12,
         "win_rate": 0.0,
-        "volume": 1387963.44,
+        "volume": 1633141.87,
         "categories": [
           "sports"
         ]
@@ -1416,11 +1410,22 @@
       {
         "wallet": "0x65018f9fc4",
         "username": "cnyek",
-        "pnl": 373713.31,
+        "pnl": 373413.63,
         "win_rate": 0.3846,
-        "volume": 673919.22,
+        "volume": 700795.79,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 62064.77,
+        "win_rate": 0.7718,
+        "volume": 820261.81,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1437,124 +1442,105 @@
   },
   "news": [
     {
-      "title": "PALOMA Telah Hadir di Surabaya , Belanja Perlengkapan Rumah Kini Lebih Praktis di Experience Center",
-      "url": "https://www.tribunnews.com/lifestyle/7848540/paloma-telah-hadir-di-surabaya-belanja-perlengkapan-rumah-kini-lebih-praktis-di-experience-center",
-      "ticker": "DRCT",
-      "themes": [],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Πιερρακάκης : Το IRIS είναι το success story της ελληνικής ψηφιακής οικονομίας",
-      "url": "https://www.skai.gr/news/finance/pierrakakis-to-iris-einai-to-success-story-tis-ellinikis-psifiakis-oikonomias",
-      "ticker": "DRCT",
-      "themes": [],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Eurobank : Άμεσες ψηφιακές πληρωμές και διασυνοριακές μεταφορές χρημάτων στην Ευρώπη",
-      "url": "https://www.sofokleousin.gr/epixeiriseis/trapezes/eurobank-ameses-psifiakes-pliromes-kai-diasynoriakes-metafores-xr",
-      "ticker": "DRCT",
+      "title": "AI is starting to look a lot like the early days of cloud – and the real race is operational",
+      "url": "https://www.techradar.com/pro/ai-is-starting-to-look-a-lot-like-the-early-days-of-cloud-and-the-real-race-is-operational",
+      "ticker": "DDOG",
       "themes": [
-        "regulatory"
+        "ai"
       ],
       "date": "2026-06-30"
     },
     {
-      "title": "Πιερρακάκης : Άλμα 70 % στις συναλλαγές του IRIS το 2025 - Μέσω ΔΙΑΣ διακινήθηκαν 544 , 4 δισ . ευρώ",
-      "url": "https://www.sofokleousin.gr/oikonomia/pierrakakis-alma-70-stis-synallages-tou-iris-to-2025-meso-dias-di",
-      "ticker": "DRCT",
-      "themes": [],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Vicor Corporation $VICR Stock Position Lifted by SG Americas Securities LLC",
-      "url": "https://www.dailypolitical.com/2026/06/30/vicor-corporation-vicr-stock-position-lifted-by-sg-americas-securities-llc.html",
-      "ticker": "VICR",
+      "title": "FinancialContent - Why Datadog ( DDOG ) Stock Is Up Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-29-why-datadog-ddog-stock-is-up-today",
+      "ticker": "DDOG",
       "themes": [
-        "regulatory",
         "stock"
       ],
-      "date": "2026-06-30"
+      "date": "2026-06-29"
     },
     {
-      "title": "Eurobank : Ψηφιακές πληρωμές και διασυνοριακές μεταφορές χρημάτων στην ΕΕ μέσω IRIS",
-      "url": "https://www.news247.gr/oikonomia/eurobank-psifiakes-pliromes-kai-diasinoriakes-metafores-xrimaton-stin-ee-meso-iris/",
-      "ticker": "DRCT",
+      "title": "Cursor releases iPhone and iPad app following recent acquisition by SpaceX",
+      "url": "https://9to5mac.com/2026/06/29/cursor-releases-iphone-and-ipad-app-following-recent-acquisition-by-spacex/",
+      "ticker": "DDOG",
       "themes": [
-        "regulatory"
+        "merger"
       ],
-      "date": "2026-06-30"
+      "date": "2026-06-29"
     },
     {
-      "title": "Κυριάκος Πιερρακάκης : Το IRIS είναι το success story της ελληνικής ψηφιακής οικονομίας",
-      "url": "https://www.inewsgr.com/184/kyriakos-pierrakakis-to-IRIS-einai-to-success-story-tis-ellinikis-psifiakis-oikonomias.htm",
-      "ticker": "DRCT",
-      "themes": [],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Hedge Fund and Insider Trading News : Ray Dalio , Jeff Bezos , Ken Griffin , Warren Buffett , Millennium Management , Brevan Howard , Saba Capital , Alibaba Group Holdings Ltd ( BABA ), Vicor Corp ( VICR ), and More",
-      "url": "https://www.insidermonkey.com/blog/hedge-fund-and-insider-trading-news-ray-dalio-jeff-bezos-ken-griffin-warren-buffett-millennium-management-brevan-howard-saba-capital-alibaba-group-holdings-ltd-baba-vicor-corp-vicr-and-m-1791838/",
-      "ticker": "VICR",
+      "title": "Halvar Guide to Entrepreneurship – Thomas Dullien / Halvar Flake",
+      "url": "https://thomasdullien.github.io/guides/entrepreneurship/",
+      "ticker": "DDOG",
       "themes": [],
       "date": "2026-06-29"
     },
     {
-      "title": "Result of AGM | Company Announcement",
-      "url": "https://www.investegate.co.uk/announcement/rns/halo-minerals-plc--halo/result-of-agm/9641962",
-      "ticker": "JXN",
+      "title": "Columns by Rob Hiaasen , Capital Gazette shooting victim",
+      "url": "https://www.mcall.com/2018/06/29/columns-by-rob-hiaasen-capital-gazette-shooting-victim/",
+      "ticker": "LZB",
       "themes": [],
       "date": "2026-06-29"
     },
     {
-      "title": "Insider Selling : Vicor ( NASDAQ : VICR ) CEO Sells $6 , 528 , 800 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/28/insider-selling-vicor-nasdaqvicr-ceo-sells-6528800-00-in-stock.html",
-      "ticker": "VICR",
+      "title": "Scotiabank Raises PT on Datadog ( DDOG ) Stock",
+      "url": "https://www.insidermonkey.com/blog/scotiabank-raises-pt-on-datadog-ddog-stock-1790127/",
+      "ticker": "DDOG",
       "themes": [
-        "leadership",
+        "ai",
+        "regulatory",
         "stock"
       ],
       "date": "2026-06-28"
     },
     {
-      "title": "SAVE repayment plan ending July 1 leaves millions scrambling to pick a new option",
-      "url": "https://www.wctv.tv/2026/06/26/save-repayment-plan-ending-july-1-leaves-millions-scrambling-pick-new-option/",
-      "ticker": "JXN",
+      "title": "How to Set Up an Offshore Engineering Hub",
+      "url": "https://pctechmag.com/2026/06/guide-to-setting-up-an-offshore-engineering-hub/",
+      "ticker": "DDOG",
       "themes": [],
       "date": "2026-06-27"
     },
     {
-      "title": "10 Best Electrical Equipment Stocks to Buy According to Analysts",
-      "url": "https://www.insidermonkey.com/blog/10-best-electrical-equipment-stocks-to-buy-according-to-analysts-1789748/",
-      "ticker": "VICR",
+      "title": "Helinox Lightest - Ever Chair : Chair Zero LT Review",
+      "url": "https://gearjunkie.com/outdoor/helinox-chair-zero-lt-review",
+      "ticker": "LZB",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "La - Z - Boy ( NYSE : LZB ) SVP Michael Adam Leggett Sells 9 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/25/la-z-boy-nyselzb-svp-michael-adam-leggett-sells-9000-shares-of-stock.html",
+      "ticker": "LZB",
       "themes": [
         "stock"
       ],
-      "date": "2026-06-26"
+      "date": "2026-06-25"
     },
     {
-      "title": "TrueMark Investments LLC Takes Position in Vicor Corporation $VICR",
-      "url": "https://www.themarketsdaily.com/2026/06/25/truemark-investments-llc-takes-position-in-vicor-corporation-vicr.html",
-      "ticker": "VICR",
+      "title": "Melinda Whittington Sells 26 , 639 Shares of La - Z - Boy ( NYSE : LZB ) Stock",
+      "url": "https://www.dailypolitical.com/2026/06/24/melinda-whittington-sells-26639-shares-of-la-z-boy-nyselzb-stock.html",
+      "ticker": "LZB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Melinda Whittington Sells 7 , 364 Shares of La - Z - Boy ( NYSE : LZB ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/25/melinda-whittington-sells-7364-shares-of-la-z-boy-nyselzb-stock.html",
+      "ticker": "LZB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "9 - year - old dog dies after being shot by a gun at least 3 times on Big Island : Big Island Now",
+      "url": "https://bigislandnow.com/2026/06/23/9-year-old-dog-dies-after-being-shot-by-a-gun-at-least-3-times-on-big-island/",
+      "ticker": "LZB",
       "themes": [],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Vicor ( NASDAQ : VICR ) Director Andrew Damico Sells 754 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/25/vicor-nasdaqvicr-director-andrew-damico-sells-754-shares-of-stock.html",
-      "ticker": "VICR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Janet Jackson Net Worth 2026 : Career Earnings & Legacy",
-      "url": "https://www.gigwise.com/janet-jackson-net-worth/",
-      "ticker": "JXN",
-      "themes": [
-        "earnings"
-      ],
       "date": "2026-06-23"
     },
     {
@@ -1563,32 +1549,9 @@
       "ticker": "CCSI",
       "themes": [],
       "date": "2026-06-18"
-    },
-    {
-      "title": "How did Rick Jackson go from political unknown to governor candidate ? ",
-      "url": "https://www.yahoo.com/news/politics/articles/did-rick-jackson-political-unknown-165527771.html",
-      "ticker": "JXN",
-      "themes": [],
-      "date": "2026-06-18"
-    },
-    {
-      "title": "Rick Jackson wins GOP nomination for governor , Mike Collins advances in Senate race",
-      "url": "https://www.wgauradio.com/news/local/rick-jackson-wins-gop-nomination-governor-mike-collins-advances-senate-race/ZIIPC6LC3ZDRFJKN37TTB2MH7Y/",
-      "ticker": "JXN",
-      "themes": [],
-      "date": "2026-06-17"
-    },
-    {
-      "title": "AutoZone Authorizes Additional Stock Repurchase",
-      "url": "https://www.manilatimes.net/2026/06/17/tmt-newswire/globenewswire/autozone-authorizes-additional-stock-repurchase/2367090",
-      "ticker": "JXN",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-16"
     }
   ],
-  "signals_count": 1645,
+  "signals_count": 1605,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
