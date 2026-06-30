@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-06-30T15:59:42.680151+00:00",
+  "generated_at": "2026-06-30T18:29:50.435685+00:00",
   "window": {
     "from": "2026-05-31",
     "to": "2026-06-30",
@@ -25,8 +25,10 @@
     "top_themes": [
       "stock",
       "ai",
-      "merger",
-      "regulatory"
+      "legal",
+      "regulatory",
+      "leadership",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -419,27 +421,12 @@
         ]
       },
       {
-        "ticker": "CCSI",
-        "company": "Consensus Cloud Solutions, Inc.",
-        "pressure_score": 686.1,
+        "ticker": "AVAV",
+        "company": "AeroVironment Inc",
+        "pressure_score": 433.3,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "AXIA3",
-        "company": "AXIA Energia S.A.",
-        "pressure_score": 436.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DRCT",
-        "company": "Direct Digital Holdings, Inc.",
-        "pressure_score": 383.4,
-        "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -491,15 +478,6 @@
         ]
       },
       {
-        "ticker": "PBLS",
-        "company": "Parabilis Medicines, Inc.",
-        "pressure_score": 229.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "GDC",
         "company": "GD Culture Group Ltd",
         "pressure_score": 218.7,
@@ -515,6 +493,31 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "ACOG",
+        "company": "Alpha Cognition Inc.",
+        "pressure_score": 216.4,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "NOAH",
+        "company": "NOAH HOLDINGS LTD",
+        "pressure_score": 216.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CAES",
+        "company": "Cantor Equity Partners VII, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -528,22 +531,6 @@
         ]
       },
       {
-        "ticker": "VPLM",
-        "company": "Voip-pal.com Inc",
-        "pressure_score": 759.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VICR",
-        "company": "VICOR CORP",
-        "pressure_score": 746.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 637.6,
@@ -553,9 +540,9 @@
         ]
       },
       {
-        "ticker": "DRCT",
-        "company": "Direct Digital Holdings, Inc.",
-        "pressure_score": 385.2,
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 503.1,
         "sources": [
           "corporate_insider"
         ]
@@ -617,14 +604,6 @@
         ]
       },
       {
-        "ticker": "RSKD",
-        "company": "RISKIFIED LTD.",
-        "pressure_score": 266.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MSFT",
         "company": "Stock",
         "pressure_score": 254.0,
@@ -638,6 +617,30 @@
         "pressure_score": 242.4,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FLEX",
+        "company": "Flex Ltd.",
+        "pressure_score": 236.9,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "PINS",
+        "company": "SP Pinterest, Inc. Class A Common Stock",
+        "pressure_score": 234.3,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "CDW",
+        "company": "DC CDW Corporation",
+        "pressure_score": 232.4,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -678,15 +681,6 @@
       "amount": 1165207.8,
       "date": "2026-06-23",
       "score": 81.2
-    },
-    {
-      "ticker": "PBLS",
-      "company": "Parabilis Medicines, Inc.",
-      "actor": "Levy Guy",
-      "actor_type": "ten_percent_owner",
-      "amount": 7500000.0,
-      "date": "2026-06-11",
-      "score": 81.0
     },
     {
       "ticker": "COE",
@@ -770,13 +764,22 @@
       "score": 79.3
     },
     {
-      "ticker": "PBLS",
-      "company": "Parabilis Medicines, Inc.",
-      "actor": "Levy Guy",
-      "actor_type": "ten_percent_owner",
-      "amount": 2500000.0,
-      "date": "2026-06-11",
-      "score": 78.6
+      "ticker": "ROIV",
+      "company": "Roivant Sciences Ltd.",
+      "actor": "Sukhatme Mayukh",
+      "actor_type": "ceo",
+      "amount": 1925000.0,
+      "date": "2026-06-26",
+      "score": 78.3
+    },
+    {
+      "ticker": "ROIV",
+      "company": "Roivant Sciences Ltd.",
+      "actor": "Sukhatme Mayukh",
+      "actor_type": "ceo",
+      "amount": 1925000.0,
+      "date": "2026-06-25",
+      "score": 78.3
     }
   ],
   "institutional_changes": [
@@ -1225,9 +1228,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 72785.51,
+        "pnl": 59917.5,
         "win_rate": 0.952,
-        "volume": 270030.99,
+        "volume": 283659.38,
         "categories": [
           "sports",
           "crypto",
@@ -1237,46 +1240,34 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 284806.45,
+        "pnl": 289617.59,
         "win_rate": 0.7222,
-        "volume": 92839.87,
+        "volume": 139019.44,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 74188.85,
+        "win_rate": 0.7712,
+        "volume": 1121315.85,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x13414a77a4",
         "username": "ROBBATTISTAFANDUELRETARD",
-        "pnl": 157029.51,
+        "pnl": 157144.84,
         "win_rate": 0.715,
-        "volume": 319702.7,
+        "volume": 332425.0,
         "categories": [
           "sports",
           "crypto",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 62064.77,
-        "win_rate": 0.7718,
-        "volume": 820261.81,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x6e82b93eb5",
-        "username": "DLEK",
-        "pnl": 37653.49,
-        "win_rate": 0.778,
-        "volume": 235790.07,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
         ]
       },
       {
@@ -1294,40 +1285,52 @@
       {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 40412.61,
-        "win_rate": 0.649,
-        "volume": 151569.03,
+        "pnl": 42409.15,
+        "win_rate": 0.647,
+        "volume": 156356.09,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xcf6c549212",
+        "username": "one8tyfive",
+        "pnl": 47986.55,
+        "win_rate": 0.608,
+        "volume": 277621.39,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0x83255595ba",
         "username": "Mind.The.Gap",
-        "pnl": 90527.39,
-        "win_rate": 0.549,
-        "volume": 1077400.12,
+        "pnl": 90857.45,
+        "win_rate": 0.5513,
+        "volume": 1104227.97,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xd81e5bc01e",
-        "username": "beet420",
-        "pnl": 74392.68,
-        "win_rate": 0.5339,
-        "volume": 14205.01,
+        "wallet": "0x03e8a544e9",
+        "username": "weflyhigh",
+        "pnl": 122783.79,
+        "win_rate": 0.5231,
+        "volume": 547087.97,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe73ee729fc",
-        "username": "crossfire154",
-        "pnl": 40506.88,
-        "win_rate": 0.5326,
-        "volume": 69839.33,
+        "wallet": "0xd81e5bc01e",
+        "username": "beet420",
+        "pnl": 74391.63,
+        "win_rate": 0.5339,
+        "volume": 16855.26,
         "categories": [
           "sports"
         ]
@@ -1335,31 +1338,11 @@
     ],
     "whales": [
       {
-        "wallet": "0x37ee3bceb4",
-        "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-        "pnl": 33278.39,
-        "win_rate": 0.6923,
-        "volume": 5638953.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3a6a2e7a77",
-        "username": "thesingularityisnear",
-        "pnl": 188062.69,
-        "win_rate": 0.0,
-        "volume": 6811656.91,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 245875.9,
-        "win_rate": 0.192,
-        "volume": 5382089.91,
+        "pnl": 262834.57,
+        "win_rate": 0.196,
+        "volume": 9467234.52,
         "categories": [
           "sports",
           "politics",
@@ -1367,191 +1350,314 @@
         ]
       },
       {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 807060.55,
+        "win_rate": 0.3176,
+        "volume": 6205568.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3a6a2e7a77",
+        "username": "thesingularityisnear",
+        "pnl": 188071.14,
+        "win_rate": 0.0,
+        "volume": 6827820.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 158594.98,
-        "win_rate": 0.159,
-        "volume": 8685555.1,
+        "pnl": 136922.73,
+        "win_rate": 0.158,
+        "volume": 13405578.11,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x72254fe1a7",
-        "username": "1two1two",
-        "pnl": 609213.7,
-        "win_rate": 0.0,
-        "volume": 1263548.67,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 408992.34,
-        "win_rate": 0.3176,
-        "volume": 1530862.7,
-        "categories": [
-          "sports"
         ]
       },
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 196246.12,
+        "pnl": 502192.14,
         "win_rate": 0.0,
-        "volume": 1633141.87,
+        "volume": 4128204.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x65018f9fc4",
-        "username": "cnyek",
-        "pnl": 373413.63,
-        "win_rate": 0.3846,
-        "volume": 700795.79,
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 119714.87,
+        "win_rate": 0.247,
+        "volume": 4935363.42,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 62064.77,
-        "win_rate": 0.7718,
-        "volume": 820261.81,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 52630.49,
+        "win_rate": 0.086,
+        "volume": 5169116.87,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x5257aa8494",
-        "username": "NO-GOD-PLEASE-NO",
-        "pnl": 101523.66,
-        "win_rate": 0.2899,
-        "volume": 768849.22,
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 168237.99,
+        "win_rate": 0.4467,
+        "volume": 1150000.95,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xb61b2079b9",
+        "username": "hot2trot",
+        "pnl": 211988.39,
+        "win_rate": 0.0,
+        "volume": 1006587.03,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x709e8dcb13",
+        "username": "0xd4aa6f8e91cfea29b66a48ebff52814",
+        "pnl": 126972.56,
+        "win_rate": 0.3964,
+        "volume": 716472.88,
+        "categories": [
+          "sports",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "AI is starting to look a lot like the early days of cloud – and the real race is operational",
-      "url": "https://www.techradar.com/pro/ai-is-starting-to-look-a-lot-like-the-early-days-of-cloud-and-the-real-race-is-operational",
-      "ticker": "DDOG",
+      "title": "Equities Research Analyst Price Target Changes for June 30th ( AAL , ABVX , ACI , ALB , APA , ATI , ATLC , AVAV , AXP , BCRX ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13490473/equities-research-analysts-price-target-changes-for-june-30th-aal-abvx-aci-alb-apa-ati-atlc-avav-axp-bcrx.html",
+      "ticker": "AVAV",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Securities Class Action Lawsuit Filed Against AeroVironment , Inc . ( AVAV ) ... ",
+      "url": "https://www.pr-inside.com/securities-class-action-lawsuit-filed-against-aerovironment-inc-avav-r5196341.htm",
+      "ticker": "AVAV",
       "themes": [
-        "ai"
+        "ai",
+        "legal",
+        "regulatory"
       ],
       "date": "2026-06-30"
     },
     {
-      "title": "FinancialContent - Why Datadog ( DDOG ) Stock Is Up Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-29-why-datadog-ddog-stock-is-up-today",
-      "ticker": "DDOG",
+      "title": "Controversa în jurul Fundației Gates modelează deciziile de donații și perspectivele investiționale ale Berkshire Hathaway",
+      "url": "https://business24.ro/fundatia-gates/controversa-fundatie-influenta-decizii-donatii-investitii-1658324",
+      "ticker": "PFG",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "FinancialContent - AeroVironment ( AVAV ) Shares Skyrocket , What You Need To Know",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-30-aerovironment-avav-shares-skyrocket-what-you-need-to-know",
+      "ticker": "AVAV",
       "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Us Stocks : US stocks today : Wall Street edges higher on quarter - end optimism as Nvidia rebounds ; June still set to end lower",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-30-june-2026-wall-street-edges-higher-on-quarter-end-optimism-as-nvidia-rebounds-june-still-set-to-end-lower/articleshow/132095490.cms",
+      "ticker": "AVAV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Москва повністю залежна . На що сподівається Кремль",
+      "url": "https://gordonua.com/ukr/section-blogs/news-moskva-povnistyu-zalezhna-na-shcho-spodivayetsya-kreml-30-06-2026.html",
+      "ticker": "PFG",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Should You Chase The Breakout In AeroVironment ( AVAV ) Stock ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chase-breakout-aerovironment-avav-stock-125446928.html",
+      "ticker": "AVAV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "$AVAV Notification : AeroVironment Accused of Misrepresentations about its SCAR Contract Cancellation in Securities Fraud Class Action",
+      "url": "http://www.prnewswire.com/news-releases/avav-notification-aerovironment-accused-of-misrepresentations-about-its-scar-contract-cancellation-in-securities-fraud-class-action-302813525.html",
+      "ticker": "AVAV",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "The Worldfolio : Chang Hyun Yun - The Worldfolio News",
+      "url": "https://www.theworldfolio.com/leader/chang-hyunyun/503/",
+      "ticker": "PFG",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Продажи американского оружия для Украины через НАТО принесли США свыше $6 млрд",
+      "url": "https://profile.ru/news/abroad/prodazhi-amerikanskogo-oruzhiya-dlya-ukrainy-cherez-nato-prinesli-ssha-svyshe-6-mlrd-1876140/",
+      "ticker": "PFG",
+      "themes": [],
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Insider Selling : SOPHiA GENETICS ( NASDAQ : SOPH ) CEO Sells $290 , 400 . 20 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/29/insider-selling-sophia-genetics-nasdaqsoph-ceo-sells-290400-20-in-stock.html",
+      "ticker": "PFG",
+      "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-06-29"
     },
     {
-      "title": "Cursor releases iPhone and iPad app following recent acquisition by SpaceX",
-      "url": "https://9to5mac.com/2026/06/29/cursor-releases-iphone-and-ipad-app-following-recent-acquisition-by-spacex/",
-      "ticker": "DDOG",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Halvar Guide to Entrepreneurship – Thomas Dullien / Halvar Flake",
-      "url": "https://thomasdullien.github.io/guides/entrepreneurship/",
-      "ticker": "DDOG",
+      "title": "Ethiopia Ad Hoc Bondholder Committee : Statement on the Conclusion of Restricted Discussions with Ethiopia regarding the Defaulted 2024 Notes",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68895910-ethiopia-ad-hoc-bondholder-committee-statement-on-the-conclusion-of-restricted-discussions-with-ethiopia-regarding-the-defaulted-2024-notes-008.htm",
+      "ticker": "PFG",
       "themes": [],
       "date": "2026-06-29"
     },
     {
-      "title": "Columns by Rob Hiaasen , Capital Gazette shooting victim",
-      "url": "https://www.mcall.com/2018/06/29/columns-by-rob-hiaasen-capital-gazette-shooting-victim/",
-      "ticker": "LZB",
+      "title": "Aditxt , Inc . ( NASDAQ : ADTX ) Short Interest Up 201 . 6 % in June",
+      "url": "https://www.dailypolitical.com/2026/06/28/aditxt-inc-nasdaqadtx-short-interest-up-201-6-in-june.html",
+      "ticker": "ADTX",
       "themes": [],
-      "date": "2026-06-29"
+      "date": "2026-06-28"
     },
     {
-      "title": "Scotiabank Raises PT on Datadog ( DDOG ) Stock",
-      "url": "https://www.insidermonkey.com/blog/scotiabank-raises-pt-on-datadog-ddog-stock-1790127/",
-      "ticker": "DDOG",
+      "title": "Nike at a 12 - Year Low or Lululemon at an 8 - Year Low ? Here the Better Turnaround Stock for Deep Value Investors to Buy in July . ",
+      "url": "https://www.fool.com/investing/2026/06/28/nike-at-a-12-year-low-or-lululemon-at-an-8-year-lo/?source=iedfolrf0000001",
+      "ticker": "LULU",
       "themes": [
-        "ai",
-        "regulatory",
         "stock"
       ],
       "date": "2026-06-28"
     },
     {
-      "title": "How to Set Up an Offshore Engineering Hub",
-      "url": "https://pctechmag.com/2026/06/guide-to-setting-up-an-offshore-engineering-hub/",
-      "ticker": "DDOG",
-      "themes": [],
+      "title": "How to Hunt for Winning Stocks Where Index Trackers Cant Follow ( and 3 Charts I Like Now ) ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hunt-winning-stocks-where-index-193753041.html",
+      "ticker": "BFST",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-06-27"
     },
     {
-      "title": "Helinox Lightest - Ever Chair : Chair Zero LT Review",
-      "url": "https://gearjunkie.com/outdoor/helinox-chair-zero-lt-review",
-      "ticker": "LZB",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "La - Z - Boy ( NYSE : LZB ) SVP Michael Adam Leggett Sells 9 , 000 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/25/la-z-boy-nyselzb-svp-michael-adam-leggett-sells-9000-shares-of-stock.html",
-      "ticker": "LZB",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Melinda Whittington Sells 26 , 639 Shares of La - Z - Boy ( NYSE : LZB ) Stock",
-      "url": "https://www.dailypolitical.com/2026/06/24/melinda-whittington-sells-26639-shares-of-la-z-boy-nyselzb-stock.html",
-      "ticker": "LZB",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Melinda Whittington Sells 7 , 364 Shares of La - Z - Boy ( NYSE : LZB ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/25/melinda-whittington-sells-7364-shares-of-la-z-boy-nyselzb-stock.html",
-      "ticker": "LZB",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "9 - year - old dog dies after being shot by a gun at least 3 times on Big Island : Big Island Now",
-      "url": "https://bigislandnow.com/2026/06/23/9-year-old-dog-dies-after-being-shot-by-a-gun-at-least-3-times-on-big-island/",
-      "ticker": "LZB",
+      "title": "Frost & Sullivan Institute Honors Organizations Driving Transformative Impact Through Visionary Leadership",
+      "url": "http://www.prnewswire.com/news-releases/frost--sullivan-institute-honors-organizations-driving-transformative-impact-through-visionary-leadership-302812040.html",
+      "ticker": "LULU",
       "themes": [],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Frost & Sullivan Institute Honors Organizations Driving Transformative Impact Through Visionary Leadership",
+      "url": "https://www.prnewswire.com/news-releases/frost--sullivan-institute-honors-organizations-driving-transformative-impact-through-visionary-leadership-302812040.html",
+      "ticker": "LULU",
+      "themes": [],
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Financial Lp Hrt Buys 7 , 340 , 178 Shares",
+      "url": "https://www.dailypolitical.com/2026/06/25/aditxt-nasdaqadtx-major-shareholder-financial-lp-hrt-buys-7340178-shares.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( ADTX ) Stock Sinks 20 % After - Hours : Here What Going On - Aditxt ( NASDAQ : ADTX ) ",
+      "url": "https://www.benzinga.com/markets/equities/26/06/60088950/aditxt-adtx-stock-sinks-20-after-hours-heres-whats-going-on",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Financial Lp Hrt Sells 5 , 120 , 480 Shares",
+      "url": "https://www.dailypolitical.com/2026/06/24/aditxt-nasdaqadtx-major-shareholder-financial-lp-hrt-sells-5120480-shares.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Aditxt ( NASDAQ : ADTX ) Major Shareholder Buys 7 , 340 , 178 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13485031/aditxt-nasdaqadtx-major-shareholder-buys-7340178-shares-of-stock.html",
+      "ticker": "ADTX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
+    },
+    {
+      "title": "International Yoga Day and India Soft Power Paradox : Celebrating Heritage While Others Reap the Profits",
+      "url": "https://countercurrents.org/2026/06/international-yoga-day-and-indias-soft-power-paradox-celebrating-heritage-while-others-reap-the-profits/",
+      "ticker": "LULU",
+      "themes": [
+        "earnings"
+      ],
       "date": "2026-06-23"
     },
     {
-      "title": "What Unstructured Data is Really Costing Healthcare",
-      "url": "https://hitconsultant.net/2026/06/16/what-unstructured-data-is-really-costing-healthcare/",
-      "ticker": "CCSI",
+      "title": "  High - risk  retailers and virus concerns : How Colorado malls are rebounding from pandemic shut down – Colorado Daily",
+      "url": "https://www.coloradodaily.com/2020/06/12/coronavirus-retail-industry-malls-colorado-denver/",
+      "ticker": "LULU",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-23"
+    },
+    {
+      "title": "James Glassman Top 30 Stock Picks Mid - Year Recap",
+      "url": "https://www.kiplinger.com/investing/james-glassman-top-30-stock-picks-2026-mid-year-recap",
+      "ticker": "LULU",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-22"
+    },
+    {
+      "title": "Pre - Market Movers : ADTX , BYAH , ELTX Chart The Course",
+      "url": "https://www.rttnews.com/3661257/pre-market-movers-adtx-byah-eltx-chart-the-course.aspx",
+      "ticker": "ADTX",
       "themes": [],
       "date": "2026-06-18"
     }
   ],
-  "signals_count": 1605,
+  "signals_count": 1481,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
