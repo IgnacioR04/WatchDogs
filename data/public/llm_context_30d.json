@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-01T11:04:11.198961+00:00",
+  "generated_at": "2026-07-01T13:55:10.180729+00:00",
   "window": {
     "from": "2026-06-01",
     "to": "2026-07-01",
@@ -25,8 +25,7 @@
     "top_themes": [
       "stock",
       "ai",
-      "regulatory",
-      "leadership"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -34,6 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "CEO vendio BABA ($65.8M)",
+      "summary": "CEO EVANS J. MICHAEL vendio BABA por $65.8M el 2026-06-29.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "EVANS J. MICHAEL",
+      "actor_type": "ceo",
+      "ticker": "BABA",
+      "direction": "sell",
+      "amount_estimated": 65778800.64,
+      "event_date": "2026-06-29",
+      "importance_score": 85.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1428339/000119312526291402/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio GH ($10.7M)",
       "summary": "CEO Talasaz AmirAli vendio GH por $10.7M el 2026-06-29.",
       "source": "sec_form_4",
@@ -50,8 +67,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753159/000175315926000014/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio GH ($7.1M)",
       "summary": "CEO Talasaz AmirAli vendio GH por $7.1M el 2026-06-29.",
       "source": "sec_form_4",
@@ -68,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753159/000175315926000014/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio V ($7.1M)",
       "summary": "CEO MCINERNEY RYAN vendio V por $7.1M el 2026-06-29.",
       "source": "sec_form_4",
@@ -86,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1578261/000140316126000088/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio MU ($5.8M)",
       "summary": "CEO MEHROTRA SANJAY vendio MU por $5.8M el 2026-06-26 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -100,12 +117,16 @@
       "event_date": "2026-06-26",
       "importance_score": 81.9,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_977179537868",
+        "news_246889592230",
+        "news_844274577671"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1242654/000124265426000011/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio AXON ($5.0M)",
       "summary": "CEO SMITH PATRICK W vendio AXON por $5.0M el 2026-06-29.",
       "source": "sec_form_4",
@@ -122,8 +143,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1167028/000162828026046277/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio GH ($9.6M)",
       "summary": "CEO Talasaz AmirAli vendio GH por $9.6M el 2026-06-26.",
       "source": "sec_form_4",
@@ -140,8 +161,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753159/000175315926000014/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -158,8 +179,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -176,8 +197,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -194,8 +215,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -212,8 +233,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -230,8 +251,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -248,8 +269,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -266,8 +287,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -284,8 +305,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -302,8 +323,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -320,8 +341,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -338,8 +359,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
       "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
       "source": "sec_13f",
@@ -356,8 +377,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
       "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
       "source": "sec_13f",
@@ -372,28 +393,18 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($11.5B)",
-      "summary": "Institutional manager Vanguard Group Inc compro MICRON TECHNOLOGY INC por $11.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 11540627745,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
+      {
+        "ticker": "CUEN",
+        "company": "Cuentas Inc.",
+        "pressure_score": 4361.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "ADTX",
         "company": "Aditxt, Inc.",
@@ -452,27 +463,11 @@
         ]
       },
       {
-        "ticker": "FUSB",
-        "company": "FIRST US BANCSHARES, INC.",
-        "pressure_score": 325.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MSFT",
         "company": "Stock",
         "pressure_score": 311.3,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "CUEN",
-        "company": "Cuentas Inc.",
-        "pressure_score": 305.5,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -514,6 +509,14 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "NMM",
+        "company": "Navios Maritime Partners L.P.",
+        "pressure_score": 221.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -544,6 +547,22 @@
         ]
       },
       {
+        "ticker": "STEL",
+        "company": "Stellar Bancorp, Inc.",
+        "pressure_score": 2202.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 1234.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ROIV",
         "company": "Roivant Sciences Ltd.",
         "pressure_score": 1220.3,
@@ -569,9 +588,9 @@
         ]
       },
       {
-        "ticker": "PKOH",
-        "company": "PARK OHIO HOLDINGS CORP",
-        "pressure_score": 509.0,
+        "ticker": "NAMI",
+        "company": "Jinxin Technology Holding Co",
+        "pressure_score": 606.0,
         "sources": [
           "corporate_insider"
         ]
@@ -579,7 +598,15 @@
       {
         "ticker": "NYAX",
         "company": "Nayax Ltd.",
-        "pressure_score": 503.1,
+        "pressure_score": 567.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PKOH",
+        "company": "PARK OHIO HOLDINGS CORP",
+        "pressure_score": 509.0,
         "sources": [
           "corporate_insider"
         ]
@@ -615,30 +642,6 @@
         "sources": [
           "congress"
         ]
-      },
-      {
-        "ticker": "WRB",
-        "company": "Stock",
-        "pressure_score": 346.4,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "VCEL",
-        "company": "Vericel Corp",
-        "pressure_score": 341.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SCI",
-        "company": "Common Stock",
-        "pressure_score": 290.5,
-        "sources": [
-          "congress"
-        ]
       }
     ]
   },
@@ -660,15 +663,6 @@
       "amount": 448000.0,
       "date": "2026-06-26",
       "score": 77.9
-    },
-    {
-      "ticker": "BHRB",
-      "company": "Burke & Herbert Financial Services Corp.",
-      "actor": "MADDY H CHARLES III",
-      "actor_type": "ceo",
-      "amount": 775094.67,
-      "date": "2026-06-29",
-      "score": 77.8
     },
     {
       "ticker": "FUND",
@@ -703,15 +697,6 @@
       "actor": "GEORGE W WHITNEY",
       "actor_type": "ten_percent_owner",
       "amount": 206004.96,
-      "date": "2026-06-29",
-      "score": 76.4
-    },
-    {
-      "ticker": "BHRB",
-      "company": "Burke & Herbert Financial Services Corp.",
-      "actor": "MADDY H CHARLES III",
-      "actor_type": "ceo",
-      "amount": 407533.58,
       "date": "2026-06-29",
       "score": 76.4
     },
@@ -777,6 +762,24 @@
       "amount": 83332.06,
       "date": "2026-06-30",
       "score": 74.5
+    },
+    {
+      "ticker": "NMM",
+      "company": "Navios Maritime Partners L.P.",
+      "actor": "Frangou Angeliki",
+      "actor_type": "ten_percent_owner",
+      "amount": 83203.9,
+      "date": "2026-06-29",
+      "score": 74.5
+    },
+    {
+      "ticker": "DAO",
+      "company": "Youdao, Inc.",
+      "actor": "Li Yongwei",
+      "actor_type": "ceo",
+      "amount": 0.0,
+      "date": "2026-06-30",
+      "score": 73.3
     }
   ],
   "institutional_changes": [
@@ -1223,9 +1226,39 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x7c1ee865a7",
+        "username": "CandleHammerDrums",
+        "pnl": 442863.19,
+        "win_rate": 0.9437,
+        "volume": 522999.65,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 273188.16,
+        "win_rate": 0.9518,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8b887c9ad7",
+        "username": "lluucckkyy",
+        "pnl": 45590.86,
+        "win_rate": 0.9577,
+        "volume": 17351.45,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xa49becb692",
         "username": "sleepy-panda",
-        "pnl": 176000.54,
+        "pnl": 176001.62,
         "win_rate": 0.789,
         "volume": 520108.0,
         "categories": [
@@ -1235,15 +1268,35 @@
         ]
       },
       {
+        "wallet": "0xdd882a7068",
+        "username": "MeiGuNiuBi",
+        "pnl": 76890.57,
+        "win_rate": 0.774,
+        "volume": 373305.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6e82b93eb5",
         "username": "DLEK",
-        "pnl": 47203.7,
-        "win_rate": 0.775,
+        "pnl": 47982.51,
+        "win_rate": 0.782,
         "volume": 0.0,
         "categories": [
           "sports",
           "politics",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0xfaa2b54347",
+        "username": "easymoney9",
+        "pnl": 76506.87,
+        "win_rate": 0.7407,
+        "volume": 139550.66,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1258,78 +1311,25 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 36107.21,
-        "win_rate": 0.7673,
-        "volume": 0.0,
+        "wallet": "0x9703676286",
+        "username": "AnonymousUsername",
+        "pnl": 111430.62,
+        "win_rate": 0.698,
+        "volume": 1016070.13,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x85bbb00a84",
+        "username": "Prelode",
+        "pnl": 58608.99,
+        "win_rate": 0.7326,
+        "volume": 216747.44,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x26437896ed",
-        "username": "Latina",
-        "pnl": 95106.85,
-        "win_rate": 0.6429,
-        "volume": 252648.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdd882a7068",
-        "username": "MeiGuNiuBi",
-        "pnl": 82975.32,
-        "win_rate": 0.644,
-        "volume": 369536.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x13414a77a4",
-        "username": "ROBBATTISTAFANDUELRETARD",
-        "pnl": 29172.08,
-        "win_rate": 0.713,
-        "volume": 185359.49,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xcf609d3256",
-        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 29249.6,
-        "win_rate": 0.711,
-        "volume": 95250.41,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 51321.42,
-        "win_rate": 0.6629,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x3dd16e79f9",
-        "username": "sdgdhf",
-        "pnl": 43343.95,
-        "win_rate": 0.6667,
-        "volume": 91474.96,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1337,9 +1337,9 @@
       {
         "wallet": "0x3a6a2e7a77",
         "username": "thesingularityisnear",
-        "pnl": 48636.06,
-        "win_rate": 0.0,
-        "volume": 1991717.09,
+        "pnl": 55821.56,
+        "win_rate": 1.0,
+        "volume": 2604985.6,
         "categories": [
           "sports"
         ]
@@ -1347,9 +1347,9 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 562550.21,
+        "pnl": 563227.5,
         "win_rate": 0.4427,
-        "volume": 1517842.06,
+        "volume": 1653467.65,
         "categories": [
           "sports",
           "politics"
@@ -1358,9 +1358,9 @@
       {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 790674.41,
+        "pnl": 788412.52,
         "win_rate": 0.24,
-        "volume": 3452119.77,
+        "volume": 3797937.88,
         "categories": [
           "sports",
           "politics"
@@ -1369,9 +1369,9 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 656603.52,
-        "win_rate": 0.03,
-        "volume": 2310107.5,
+        "pnl": 656866.91,
+        "win_rate": 0.546,
+        "volume": 2393207.82,
         "categories": [
           "sports",
           "crypto"
@@ -1380,9 +1380,9 @@
       {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 265603.47,
+        "pnl": 247546.22,
         "win_rate": 0.384,
-        "volume": 1000676.8,
+        "volume": 1003193.14,
         "categories": [
           "sports",
           "crypto",
@@ -1392,9 +1392,9 @@
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 37225.36,
-        "win_rate": 0.412,
-        "volume": 5113388.33,
+        "pnl": 45689.81,
+        "win_rate": 0.423,
+        "volume": 6310175.6,
         "categories": [
           "crypto",
           "sports",
@@ -1402,10 +1402,30 @@
         ]
       },
       {
+        "wallet": "0xf5fabdcdc6",
+        "username": "palegrit",
+        "pnl": 110439.51,
+        "win_rate": 1.0,
+        "volume": 735382.72,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 31834.86,
+        "win_rate": 0.036,
+        "volume": 1992614.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 77605.05,
-        "win_rate": 0.3089,
+        "pnl": 79381.98,
+        "win_rate": 0.4892,
         "volume": 887900.98,
         "categories": [
           "sports",
@@ -1413,32 +1433,11 @@
         ]
       },
       {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 443217.99,
-        "win_rate": 0.0,
-        "volume": 522999.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x9703676286",
         "username": "AnonymousUsername",
-        "pnl": 110115.49,
-        "win_rate": 0.407,
-        "volume": 822775.05,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x709e8dcb13",
-        "username": "0xd4aa6f8e91cfea29b66a48ebff52814",
-        "pnl": 167366.42,
-        "win_rate": 0.3949,
-        "volume": 338194.96,
+        "pnl": 111430.62,
+        "win_rate": 0.698,
+        "volume": 1016070.13,
         "categories": [
           "sports",
           "politics"
@@ -1448,9 +1447,28 @@
   },
   "news": [
     {
-      "title": "Eli Lilly Upgraded , Carvana Downgraded : Updated Rankings on Top Blue - Chip Stocks",
-      "url": "https://investorplace.com/market360/2026/06/20260629-blue-chip-upgrades-downgrades/",
-      "ticker": "NTRA",
+      "title": "The AI Boom Has Sent Major Stock Indexes Soaring . But The Magnificent Tell a Different Story . ",
+      "url": "https://www.ibtimes.com/23-trillion-wiped-magnificent-seven-ai-spending-questions-pressure-tech-shares-3804742",
+      "ticker": "MU",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "AMD ( AMD ) Commits £2 Billion to the united kingdom and Helps Build Two AI Supercomputers at Cambridge",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-commits-2-billion-102239533.html",
+      "ticker": "DELL",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Apple Is Raising Prices Due to Higher Memory Costs . Is the Stock in Trouble ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-raising-prices-due-higher-172000934.html",
+      "ticker": "MU",
       "themes": [
         "ai",
         "stock"
@@ -1465,6 +1483,24 @@
       "date": "2026-06-30"
     },
     {
+      "title": "Why Micron Technology Stock Could Fall After July 10",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technologys-stock-could-152000730.html",
+      "ticker": "MU",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "The Predictable Trap In Micron AI Boom",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/06/30/the-predictable-trap-in-microns-ai-boom/",
+      "ticker": "MU",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-06-30"
+    },
+    {
       "title": "Kymera Therapeutics ( NASDAQ : KYMR ) Price Target Raised to $125 . 00 at Bank of America",
       "url": "https://www.dailypolitical.com/2026/06/30/kymera-therapeutics-nasdaqkymr-price-target-raised-to-125-00-at-bank-of-america.html",
       "ticker": "KYMR",
@@ -1475,74 +1511,67 @@
       "date": "2026-06-30"
     },
     {
-      "title": "Vicor Corporation $VICR Stock Position Lifted by SG Americas Securities LLC",
-      "url": "https://www.dailypolitical.com/2026/06/30/vicor-corporation-vicr-stock-position-lifted-by-sg-americas-securities-llc.html",
-      "ticker": "VICR",
+      "title": "Dell Technologies Strengthens India Manufacturing For AI Workloads And Data Security",
+      "url": "https://www.rediff.com/business/report/dell-servers-now-made-in-india-amid-ai-demand-surge/20260630.htm",
+      "ticker": "DELL",
       "themes": [
-        "regulatory",
-        "stock"
+        "ai",
+        "regulatory"
       ],
       "date": "2026-06-30"
     },
     {
-      "title": "NVIDIA ( NVDA ) Among The Most Promising Robotics Stocks ; Here Why",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-among-most-promising-020417236.html",
-      "ticker": "NTRA",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "NVIDIA ( NVDA ) Among The Most Promising Robotics Stocks ; Here Why",
-      "url": "https://www.insidermonkey.com/blog/nvidia-nvda-among-the-most-promising-robotics-stocks-heres-why-1790978/",
-      "ticker": "NTRA",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-30"
-    },
-    {
-      "title": "NVIDIA adds BioNeMo toolkit for life sciences AI agents",
-      "url": "https://www.engineering.com/nvidia-adds-bionemo-toolkit-for-life-sciences-ai-agents/",
-      "ticker": "NTRA",
+      "title": "West Monroe Named  Overall AI Consulting Firm of the Year  in 2026 Artificial Intelligence Breakthrough Awards Program",
+      "url": "https://www.prnewswire.com/news-releases/west-monroe-named-overall-ai-consulting-firm-of-the-year-in-2026-artificial-intelligence-breakthrough-awards-program-302814286.html",
+      "ticker": "DELL",
       "themes": [
         "ai"
       ],
-      "date": "2026-06-29"
+      "date": "2026-06-30"
     },
     {
-      "title": "Hedge Fund and Insider Trading News : Ray Dalio , Jeff Bezos , Ken Griffin , Warren Buffett , Millennium Management , Brevan Howard , Saba Capital , Alibaba Group Holdings Ltd ( BABA ), Vicor Corp ( VICR ), and More",
-      "url": "https://www.insidermonkey.com/blog/hedge-fund-and-insider-trading-news-ray-dalio-jeff-bezos-ken-griffin-warren-buffett-millennium-management-brevan-howard-saba-capital-alibaba-group-holdings-ltd-baba-vicor-corp-vicr-and-m-1791838/",
-      "ticker": "VICR",
-      "themes": [],
-      "date": "2026-06-29"
+      "title": "What Wrong With Palantir Technologies Stock ? ",
+      "url": "https://www.fool.com/investing/2026/06/30/whats-wrong-with-palantir-technologies-stock/?source=iedfolrf0000001",
+      "ticker": "MU",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
     },
     {
-      "title": "Josh Lowe grand slam leads Angels to series victory – Redlands Daily Facts",
-      "url": "https://www.redlandsdailyfacts.com/2026/06/28/josh-lowes-grand-slam-leads-angels-to-series-victory/",
-      "ticker": "NTRA",
+      "title": "3 Reasons Apple Stock Is No Longer a Buy",
+      "url": "https://www.fool.com/investing/2026/06/30/3-reasons-apple-stock-is-no-longer-a-buy/?source=iedfolrf0000001",
+      "ticker": "MU",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Majority of Dell servers now made in India amid surge in local AI demand",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/majority-of-dell-servers-now-made-in-india-amid-surge-in-local-ai-demand/articleshow/132093304.cms",
+      "ticker": "DELL",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Dell ( DELL ) Raises Money As Its AI Opportunity Gets Bigger And Bigger",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-dell-raises-money-ai-121503511.html",
+      "ticker": "DELL",
       "themes": [
         "ai"
       ],
-      "date": "2026-06-29"
+      "date": "2026-06-30"
     },
     {
-      "title": "Josh Lowe first career grand slam pushes Angels past A ",
-      "url": "http://www.californiatelegraph.com/news/279153919/josh-lowe-first-career-grand-slam-pushes-angels-past-a",
-      "ticker": "NTRA",
+      "title": "CrowdStrike , Google Cloud , Cloudflare Grab Round 1 Leads : Global Channel Cup",
+      "url": "https://www.crn.com.au/news-network/channel-news/2026/crowdstrike-google-cloud-cloudflare-grab-round-1-lead-global-channel-cup",
+      "ticker": "DELL",
       "themes": [],
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Insider Selling : Vicor ( NASDAQ : VICR ) CEO Sells $6 , 528 , 800 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/28/insider-selling-vicor-nasdaqvicr-ceo-sells-6528800-00-in-stock.html",
-      "ticker": "VICR",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-06-28"
+      "date": "2026-06-30"
     },
     {
       "title": "Why Kymera Therapeutics Stock Popped This Week",
@@ -1552,6 +1581,22 @@
         "stock"
       ],
       "date": "2026-06-28"
+    },
+    {
+      "title": "Uruguay Poll Crash Puts Orsi Truck Scandal in the Driver Seat",
+      "url": "https://latinamericanpost.com/americas/uruguay-poll-crash-puts-orsis-truck-scandal-in-the-drivers-seat/",
+      "ticker": "CUEN",
+      "themes": [],
+      "date": "2026-06-27"
+    },
+    {
+      "title": "Cuentas ( NASDAQ : CUEN ) Shares Down 3 . 8 % – Time to Sell ? ",
+      "url": "https://www.themarketsdaily.com/2026/06/27/cuentas-nasdaqcuen-shares-down-3-8-time-to-sell.html",
+      "ticker": "CUEN",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-27"
     },
     {
       "title": "Insider Selling : Kymera Therapeutics ( NASDAQ : KYMR ) Director Sells 1 , 578 , 800 Shares of Stock",
@@ -1572,15 +1617,6 @@
       "date": "2026-06-27"
     },
     {
-      "title": "10 Best Electrical Equipment Stocks to Buy According to Analysts",
-      "url": "https://www.insidermonkey.com/blog/10-best-electrical-equipment-stocks-to-buy-according-to-analysts-1789748/",
-      "ticker": "VICR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-26"
-    },
-    {
       "title": "Top Biotech Gainers : TECH Bought Out , MSLE On Watch , KYMR Hits New High , What The Buzz At SLS ? ",
       "url": "https://www.finanzen.ch/nachrichten/aktien/top-biotech-gainers-tech-bought-out-msle-on-watch-kymr-hits-new-high-whats-the-buzz-at-sls-1036277937",
       "ticker": "KYMR",
@@ -1588,22 +1624,6 @@
         "ai"
       ],
       "date": "2026-06-26"
-    },
-    {
-      "title": "TrueMark Investments LLC Takes Position in Vicor Corporation $VICR",
-      "url": "https://www.themarketsdaily.com/2026/06/25/truemark-investments-llc-takes-position-in-vicor-corporation-vicr.html",
-      "ticker": "VICR",
-      "themes": [],
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Vicor ( NASDAQ : VICR ) Director Andrew Damico Sells 754 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/06/25/vicor-nasdaqvicr-director-andrew-damico-sells-754-shares-of-stock.html",
-      "ticker": "VICR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-25"
     },
     {
       "title": "Road to 2028 : Kentucky Gov . Andy Beshear campaigns for Democrats in Iowa , Nevada , Ohio",
@@ -1624,13 +1644,11 @@
       "date": "2026-06-22"
     },
     {
-      "title": "SFAA Members Elect Board and Highlight Strategic Priorities at 118th Annual Meeting",
-      "url": "https://www.manilatimes.net/2026/06/19/tmt-newswire/globenewswire/sfaa-members-elect-board-and-highlight-strategic-priorities-at-118th-annual-meeting/2368871",
-      "ticker": "THG",
-      "themes": [
-        "leadership"
-      ],
-      "date": "2026-06-18"
+      "title": "Treasury Acknowledges  Blind Mandate  for Student Loan Debt Collections Without Verifying Salary Sources",
+      "url": "https://www.elciudadano.com/en/treasury-acknowledges-blind-mandate-for-student-loan-debt-collections-without-verifying-salary-sources/06/19/",
+      "ticker": "CUEN",
+      "themes": [],
+      "date": "2026-06-19"
     },
     {
       "title": "Artia Global Partners LP Takes $2 . 82 Million Position in Roivant Sciences Ltd . $ROIV",
@@ -1649,7 +1667,7 @@
       "date": "2026-06-17"
     }
   ],
-  "signals_count": 1607,
+  "signals_count": 1697,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
