@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-02T18:19:23.407475+00:00",
+  "generated_at": "2026-07-02T20:11:42.328068+00:00",
   "window": {
     "from": "2026-06-02",
     "to": "2026-07-02",
@@ -390,9 +390,17 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "CBKM",
+        "company": "CONSUMERS BANCORP INC /OH/",
+        "pressure_score": 1080.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FEAM",
         "company": "5E Advanced Materials, Inc.",
-        "pressure_score": 1092.8,
+        "pressure_score": 819.6,
         "sources": [
           "corporate_insider"
         ]
@@ -408,7 +416,7 @@
       {
         "ticker": "KEQU",
         "company": "KEWAUNEE SCIENTIFIC CORP /DE/",
-        "pressure_score": 423.1,
+        "pressure_score": 491.9,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -455,9 +463,9 @@
         ]
       },
       {
-        "ticker": "SPG",
-        "company": "SIMON PROPERTY GROUP INC.",
-        "pressure_score": 264.3,
+        "ticker": "CV",
+        "company": "CapsoVision, Inc",
+        "pressure_score": 257.2,
         "sources": [
           "corporate_insider"
         ]
@@ -479,10 +487,20 @@
         ]
       },
       {
-        "ticker": "WSHP",
-        "company": "WeShop Holdings Ltd",
-        "pressure_score": 211.5,
+        "ticker": "PSBD",
+        "company": "Palmer Square Capital BDC Inc.",
+        "pressure_score": 230.2,
         "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "CREX",
+        "company": "CREATIVE REALITIES, INC.",
+        "pressure_score": 227.3,
+        "sources": [
+          "corporate_insider",
           "large_holder"
         ]
       },
@@ -493,54 +511,13 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "BIIB",
-        "company": "Biogen Inc.",
-        "pressure_score": 178.4,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "AMD",
-        "company": "Advanced Micro Devices, Inc.",
-        "pressure_score": 174.3,
-        "sources": [
-          "congress"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 4309.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 3376.8,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BLD",
-        "company": "QXO Insulation, LLC",
-        "pressure_score": 1204.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "KEQU",
         "company": "KEWAUNEE SCIENTIFIC CORP /DE/",
-        "pressure_score": 359.3,
+        "pressure_score": 429.4,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -619,12 +596,11 @@
         ]
       },
       {
-        "ticker": "PLBY",
-        "company": "Playboy, Inc.",
-        "pressure_score": 217.8,
+        "ticker": "BLD",
+        "company": "QXO Insulation, LLC",
+        "pressure_score": 219.9,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -634,10 +610,61 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "FBIN",
+        "company": "Common Stock",
+        "pressure_score": 172.1,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "BETA",
+        "company": "BETA Technologies, Inc.",
+        "pressure_score": 139.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LXEO",
+        "company": "Lexeo Therapeutics, Inc.",
+        "pressure_score": 137.8,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "CREX",
+      "company": "CREATIVE REALITIES, INC.",
+      "actor": "MILLS RICHARD C",
+      "actor_type": "ceo",
+      "amount": 700000.0,
+      "date": "2026-06-30",
+      "score": 81.3
+    },
+    {
+      "ticker": "PSBD",
+      "company": "Palmer Square Capital BDC Inc.",
+      "actor": "Bicknell Martin C",
+      "actor_type": "ten_percent_owner",
+      "amount": 422000.0,
+      "date": "2026-07-02",
+      "score": 79.2
+    },
+    {
+      "ticker": "PSBD",
+      "company": "Palmer Square Capital BDC Inc.",
+      "actor": "Bicknell Martin C",
+      "actor_type": "ten_percent_owner",
+      "amount": 422800.0,
+      "date": "2026-07-01",
+      "score": 79.2
+    },
     {
       "ticker": "MMM",
       "company": "3M CO",
@@ -648,40 +675,13 @@
       "score": 78.9
     },
     {
-      "ticker": "GTLB",
-      "company": "Gitlab Inc.",
-      "actor": "Staples William",
-      "actor_type": "ceo",
-      "amount": 122959.68,
+      "ticker": "CREX",
+      "company": "CREATIVE REALITIES, INC.",
+      "actor": "Koshewa Tamra L",
+      "actor_type": "cfo",
+      "amount": 99998.5,
       "date": "2026-06-30",
-      "score": 77.8
-    },
-    {
-      "ticker": "MDV",
-      "company": "MODIV INDUSTRIAL, INC.",
-      "actor": "Halfacre Aaron Scott",
-      "actor_type": "ceo",
-      "amount": 38769.66,
-      "date": "2026-06-30",
-      "score": 75.3
-    },
-    {
-      "ticker": "MDV",
-      "company": "MODIV INDUSTRIAL, INC.",
-      "actor": "Halfacre Aaron Scott",
-      "actor_type": "ceo",
-      "amount": 23394.15,
-      "date": "2026-06-30",
-      "score": 74.2
-    },
-    {
-      "ticker": "XCH",
-      "company": "XCHG Ltd",
-      "actor": "Patel Aatish",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-07-01",
-      "score": 73.3
+      "score": 75.8
     },
     {
       "ticker": "KEQU",
@@ -691,6 +691,24 @@
       "amount": 0.0,
       "date": "2026-06-30",
       "score": 73.1
+    },
+    {
+      "ticker": "OTLC",
+      "company": "Oncotelic Therapeutics, Inc.",
+      "actor": "Trieu Vuong",
+      "actor_type": "ceo",
+      "amount": 10344.0,
+      "date": "2026-07-01",
+      "score": 72.4
+    },
+    {
+      "ticker": "CPSS",
+      "company": "CONSUMER PORTFOLIO SERVICES, INC.",
+      "actor": "Ryan Susan",
+      "actor_type": "ceo",
+      "amount": 105900.0,
+      "date": "2026-06-30",
+      "score": 72.0
     },
     {
       "ticker": "KEQU",
@@ -711,13 +729,40 @@
       "score": 71.8
     },
     {
-      "ticker": "RGNX",
-      "company": "REGENXBIO Inc.",
-      "actor": "PAKOLA STEVE",
-      "actor_type": "officer",
-      "amount": 288658.5,
+      "ticker": "CBKM",
+      "company": "CONSUMERS BANCORP INC /OH/",
+      "actor": "Lober Ralph J II",
+      "actor_type": "ceo",
+      "amount": 0.0,
+      "date": "2026-06-30",
+      "score": 71.8
+    },
+    {
+      "ticker": "RDGT",
+      "company": "Ridgetech Inc.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 47027.28,
+      "date": "2026-06-30",
+      "score": 71.7
+    },
+    {
+      "ticker": "WHLR",
+      "company": "Wheeler Real Estate Investment Trust, Inc.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 16755.72,
       "date": "2026-07-01",
-      "score": 71.4
+      "score": 71.0
+    },
+    {
+      "ticker": "WHLR",
+      "company": "Wheeler Real Estate Investment Trust, Inc.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 34495.86,
+      "date": "2026-06-30",
+      "score": 71.0
     },
     {
       "ticker": "PSNY",
@@ -727,51 +772,6 @@
       "amount": 101700.0,
       "date": "2026-06-29",
       "score": 70.9
-    },
-    {
-      "ticker": "SPG",
-      "company": "SIMON PROPERTY GROUP INC.",
-      "actor": "SELIG STEFAN M",
-      "actor_type": "director",
-      "amount": 41727.18,
-      "date": "2026-06-30",
-      "score": 70.5
-    },
-    {
-      "ticker": "SBSW",
-      "company": "Sibanye Stillwater Ltd",
-      "actor": "Menell Richard Peter",
-      "actor_type": "director",
-      "amount": 32850.0,
-      "date": "2026-06-30",
-      "score": 69.9
-    },
-    {
-      "ticker": "WRLD",
-      "company": "WORLD ACCEPTANCE CORP",
-      "actor": "Robinson Benjamin E III",
-      "actor_type": "director",
-      "amount": 382599.78,
-      "date": "2026-06-29",
-      "score": 69.8
-    },
-    {
-      "ticker": "GT",
-      "company": "GOODYEAR TIRE & RUBBER CO /OH/",
-      "actor": "Gray Nicole",
-      "actor_type": "officer",
-      "amount": 0.0,
-      "date": "2026-07-01",
-      "score": 69.1
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave, Inc.",
-      "actor": "McBee Brannin",
-      "actor_type": "officer",
-      "amount": 0.0,
-      "date": "2026-06-30",
-      "score": 69.1
     }
   ],
   "institutional_changes": [
@@ -1220,19 +1220,9 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 271306.98,
+        "pnl": 274114.47,
         "win_rate": 0.9059,
-        "volume": 1065269.06,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbc1b1e935c",
-        "username": "shijiebeifacai",
-        "pnl": 44083.23,
-        "win_rate": 0.9831,
-        "volume": 635015.75,
+        "volume": 1548018.15,
         "categories": [
           "sports"
         ]
@@ -1240,9 +1230,19 @@
       {
         "wallet": "0x7c1ee865a7",
         "username": "CandleHammerDrums",
-        "pnl": 71671.71,
+        "pnl": 72239.66,
         "win_rate": 0.9459,
-        "volume": 25000.0,
+        "volume": 142152.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbc1b1e935c",
+        "username": "shijiebeifacai",
+        "pnl": 33491.74,
+        "win_rate": 0.9831,
+        "volume": 635015.75,
         "categories": [
           "sports"
         ]
@@ -1250,9 +1250,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 40336.41,
+        "pnl": 47755.29,
         "win_rate": 0.8909,
-        "volume": 7125.52,
+        "volume": 7314.39,
         "categories": [
           "crypto"
         ]
@@ -1260,7 +1260,7 @@
       {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 34652.57,
+        "pnl": 34263.69,
         "win_rate": 0.8917,
         "volume": 114219.41,
         "categories": [
@@ -1268,30 +1268,31 @@
         ]
       },
       {
+        "wallet": "0x134a63b764",
+        "username": "Bertapotamous",
+        "pnl": 30841.35,
+        "win_rate": 0.883,
+        "volume": 694339.09,
+        "categories": [
+          "politics",
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x3d85d47d2f",
         "username": "FM2118",
-        "pnl": 66622.14,
+        "pnl": 66607.29,
         "win_rate": 0.8077,
-        "volume": 0.0,
+        "volume": 11879.99,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xcf609d3256",
-        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 28874.08,
-        "win_rate": 0.823,
-        "volume": 227885.38,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x18b84caa51",
         "username": "Bibi555",
-        "pnl": 30992.76,
+        "pnl": 30368.36,
         "win_rate": 0.7788,
         "volume": 58441.72,
         "categories": [
@@ -1302,8 +1303,8 @@
       {
         "wallet": "0xa9c4b11809",
         "username": "0xA9C4b118095A4F67BA9ba461aAdF6a9cfE5e7433-1721318888203",
-        "pnl": 34234.77,
-        "win_rate": 0.7656,
+        "pnl": 34269.25,
+        "win_rate": 0.7636,
         "volume": 98543.76,
         "categories": [
           "sports",
@@ -1311,11 +1312,11 @@
         ]
       },
       {
-        "wallet": "0xdd882a7068",
-        "username": "MeiGuNiuBi",
-        "pnl": 28985.54,
-        "win_rate": 0.775,
-        "volume": 83568.9,
+        "wallet": "0xfaa2b54347",
+        "username": "easymoney9",
+        "pnl": 40132.83,
+        "win_rate": 0.7455,
+        "volume": 41780.03,
         "categories": [
           "sports"
         ]
@@ -1325,9 +1326,9 @@
       {
         "wallet": "0x37ee3bceb4",
         "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-        "pnl": 68236.15,
+        "pnl": 78851.04,
         "win_rate": 1.0,
-        "volume": 5700605.65,
+        "volume": 6814105.24,
         "categories": [
           "sports"
         ]
@@ -1335,9 +1336,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 88470.55,
-        "win_rate": 0.551,
-        "volume": 9872573.48,
+        "pnl": 137516.54,
+        "win_rate": 0.547,
+        "volume": 12406813.87,
         "categories": [
           "sports"
         ]
@@ -1345,9 +1346,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 42617.25,
-        "win_rate": 0.4444,
-        "volume": 4044179.67,
+        "pnl": 44236.24,
+        "win_rate": 0.4472,
+        "volume": 4338677.38,
         "categories": [
           "politics",
           "sports",
@@ -1357,9 +1358,9 @@
       {
         "wallet": "0x2663daca3c",
         "username": "Q96s3kwozynxpau",
-        "pnl": 45038.74,
-        "win_rate": 0.4886,
-        "volume": 4739781.16,
+        "pnl": 50094.41,
+        "win_rate": 0.4858,
+        "volume": 5738308.55,
         "categories": [
           "politics",
           "sports",
@@ -1369,9 +1370,19 @@
       {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 143841.99,
-        "win_rate": 0.411,
-        "volume": 4064652.98,
+        "pnl": 103803.42,
+        "win_rate": 0.416,
+        "volume": 5664886.76,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbf323edbbb",
+        "username": "WhatARobbery",
+        "pnl": 320072.28,
+        "win_rate": 1.0,
+        "volume": 1490190.54,
         "categories": [
           "sports"
         ]
@@ -1379,20 +1390,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 50884.48,
-        "win_rate": 0.546,
-        "volume": 4646582.04,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 143467.32,
-        "win_rate": 0.545,
-        "volume": 2602942.0,
+        "pnl": 91824.11,
+        "win_rate": 0.543,
+        "volume": 5298024.73,
         "categories": [
           "sports",
           "crypto"
@@ -1401,29 +1401,30 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 118366.31,
-        "win_rate": 0.553,
-        "volume": 3852676.62,
+        "pnl": 200562.13,
+        "win_rate": 0.55,
+        "volume": 5277117.95,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 271306.98,
-        "win_rate": 0.9059,
-        "volume": 1065269.06,
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 139642.61,
+        "win_rate": 0.545,
+        "volume": 3335754.4,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
-        "wallet": "0xf5fabdcdc6",
-        "username": "palegrit",
-        "pnl": 157700.6,
-        "win_rate": 1.0,
-        "volume": 871733.28,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 197235.51,
+        "win_rate": 0.624,
+        "volume": 3270184.54,
         "categories": [
           "sports"
         ]
@@ -1431,7 +1432,7 @@
     ]
   },
   "news": [],
-  "signals_count": 1430,
+  "signals_count": 1361,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
