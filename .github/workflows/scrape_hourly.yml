@@ -16,6 +16,13 @@ on:
         description: "Que scrapear: all | sec | congress | polymarket"
         required: false
         default: "all"
+  # Ejecuta tambien al hacer push de codigo a main (para lanzar un run al momento).
+  # Ignora cambios que solo tocan datos: el commit horario del bot es data-only y
+  # ademas lleva [skip ci], asi que no se dispara en bucle.
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
 
 permissions:
   contents: write
@@ -102,6 +109,10 @@ jobs:
       - name: Daily context (briefing .md para el LLM)
         continue-on-error: true
         run: python -m pipelines.build_daily_context
+
+      - name: Trader prompt (prompt completo pegable al LLM)
+        continue-on-error: true
+        run: python -m pipelines.build_trader_prompt
 
       - name: Sync with remote (rebase)
         run: |
