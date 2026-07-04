@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-07-04T13:43:32+00:00",
+  "risk_state": "risk_on",
+  "recommended_risk_budget": 0.9,
+  "summary": "Mercado risk-on: tendencia bull, volatilidad normal, credito tight, curva flat. Presupuesto de riesgo recomendado 90%.",
+  "reasons": [
+    "tendencia alcista (+)",
+    "credito tenso/risk-on (+)"
+  ],
+  "states": {
+    "volatility": {
+      "state": "normal",
+      "vix": 16.15
+    },
+    "trend": {
+      "state": "bull",
+      "close": 744.78,
+      "ma50": 735.91,
+      "ma200": 688.74,
+      "pct_vs_ma200": 8.14
+    },
+    "credit": {
+      "state": "tight",
+      "hy_spread": 2.75
+    },
+    "rates": {
+      "state": "flat",
+      "curve_10y2y": 0.35
+    }
+  },
+  "context": {
+    "fed_funds": 3.63,
+    "spy": 744.78,
+    "vix": 16.15
+  }
+}
