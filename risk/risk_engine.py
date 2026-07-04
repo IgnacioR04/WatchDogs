@@ -235,6 +235,12 @@ def run(weights: dict[str, float]) -> Path:
 
 
 if __name__ == "__main__":
-    # Cartera demo core-satellite para probar el engine.
-    demo = {"SPY": 0.35, "QQQ": 0.15, "TLT": 0.15, "GLD": 0.10, "NVDA": 0.10, "AAPL": 0.15}
-    run(demo)
+    # Si existe la cartera propuesta por el allocator, evaluamos esa; si no,
+    # una demo core-satellite para probar el engine.
+    _prop = PUBLIC_DIR / "portfolio_proposal.json"
+    if _prop.exists():
+        _w = json.loads(_prop.read_text(encoding="utf-8")).get("weights", {})
+        run(_w or {"SPY": 1.0})
+    else:
+        demo = {"SPY": 0.35, "QQQ": 0.15, "TLT": 0.15, "GLD": 0.10, "NVDA": 0.10, "AAPL": 0.15}
+        run(demo)

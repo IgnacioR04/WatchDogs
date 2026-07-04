@@ -29,6 +29,13 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # Las capas v3 (precios/macro/regimen/riesgo) leen y escriben un historico
+    # de parquets/jsonl. En CI no hay Google Drive, asi que usamos un directorio
+    # EFIMERO del runner: market_prices/macro_fred lo pueblan al inicio del run y
+    # regimen/cartera/riesgo lo consumen en el mismo run. Se pierde al terminar
+    # (cada hora se redescargan 5y frescos de yfinance/FRED), pero es suficiente.
+    env:
+      WATCHDOG_HISTORY_DIR: ${{ github.workspace }}/_ci_history
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -67,6 +74,35 @@ jobs:
       - name: Build health report
         run: python -m pipelines.build_health_report
 
+      # ---- Capas v3: mercado -> regimen -> cartera -> riesgo -> briefing ----
+      # Best-effort: yfinance/FRED pueden fallar desde IPs de CI; si algo falla
+      # se conservan los artefactos v3 previos y el resto del pipeline sigue.
+      - name: Market prices (yfinance) + archivo efimero
+        continue-on-error: true
+        run: python -m scrapers.market_prices
+
+      - name: Macro (FRED)
+        continue-on-error: true
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python -m scrapers.macro_fred
+
+      - name: Market regime
+        continue-on-error: true
+        run: python -m regime.market_regime
+
+      - name: Portfolio candidate (moderado)
+        continue-on-error: true
+        run: python -m portfolio.allocator moderado
+
+      - name: Risk report
+        continue-on-error: true
+        run: python -m risk.risk_engine
+
+      - name: Daily context (briefing .md para el LLM)
+        continue-on-error: true
+        run: python -m pipelines.build_daily_context
+
       - name: Sync with remote (rebase)
         run: |
           git config user.name "watchdog-bot"
@@ -77,7 +113,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "data: hourly refresh [skip ci]"
-          file_pattern: "data/public/*.json"
+          file_pattern: "data/public/*.json data/public/*.md"
           commit_user_name: "watchdog-bot"
           commit_user_email: "actions@github.com"
           push_options: "--force-with-lease"
