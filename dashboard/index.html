@@ -109,6 +109,7 @@ const FILES = {
   insiders:"sec_insiders_30d.json", holders:"sec_13d_13g_30d.json", congress:"congress_trades_30d.json",
   holdings:"institutional_holdings_latest.json", changes:"institutional_changes_latest.json",
   smart:"polymarket_smart_traders.json", whales:"polymarket_whales.json", news:"news_context_30d.json",
+  regime:"regime.json", portfolio:"portfolio_proposal.json", risk:"risk_report.json",
 };
 const SRC_COLOR = { corporate_insider:"var(--accent)", congress:"var(--purple)", institutional:"var(--orange)", large_holder:"var(--teal)" };
 const SRC_LABEL = { corporate_insider:"Insiders", congress:"Congreso", institutional:"Fondos 13F", large_holder:"13D/13G" };
@@ -378,9 +379,82 @@ function DataQuality({ d }) { const h=d.health||{},ds=h.datasets||{};
     <div className="card"><h3>Manifest público (API)</h3><table><thead><tr><th>Dataset</th><th>Tipo</th><th className="num">Registros</th><th>Rango</th></tr></thead>
       <tbody>{((d.manifest&&d.manifest.datasets)||[]).map(m=>(<tr key={m.name}><td><a href={DATA_BASE+m.name+".json"} target="_blank">{m.name}</a></td><td>{m.type}</td><td className="num mono">{fmtNum(m.records)}</td><td className="neu">{m.from_date?`${m.from_date}…${m.to_date}`:"-"}</td></tr>))}</tbody></table></div></>);
 }
-const TABS=[["analysis","💡 Ideas"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
+// ============ COMMAND CENTER (regimen + cartera + riesgo) ============
+const pctf=(x,dp=1)=>(x==null||isNaN(x))?"-":(x*100).toFixed(dp)+"%";
+const REGIME_COLOR={risk_on:"var(--green)",neutral:"var(--yellow)",risk_off:"var(--red)"};
+const STATE_COLOR={bull:"var(--green)",bear:"var(--red)",neutral:"var(--text-dim)",calm:"var(--green)",normal:"var(--teal)",elevated:"var(--yellow)",stress:"var(--red)",tight:"var(--green)",wide:"var(--red)",inverted:"var(--red)",flat:"var(--yellow)",steep:"var(--green)"};
+function Kpi({label,value,foot,color}){ return (<div className="kpi"><div className="accent-bar" style={{background:color||"var(--accent)"}}/><div className="label">{label}</div><div className="value" style={{color:color||"var(--text)"}}>{value}</div>{foot&&<div className="foot">{foot}</div>}</div>); }
+function StatePill({label,st,extra}){ const c=STATE_COLOR[st]||"var(--text-dim)"; return (<span className="pill" style={{color:c,borderColor:c+"55",background:c+"18"}}>{label}: <b>{st||"-"}</b>{extra!=null&&<span style={{color:"var(--text-faint)"}}> {extra}</span>}</span>); }
+
+function CommandCenter({ d }){
+  const reg=d.regime, pf=d.portfolio, rk=d.risk;
+  if(!pf&&!reg) return (<div className="loading">Aún no hay cartera generada. Ejecuta la pipeline v3 (<span className="mono">run_pipeline.py</span>) o espera al refresco horario.</div>);
+  const st=(reg&&reg.states)||{};
+  const budget=reg&&reg.recommended_risk_budget;
+  const weights=(pf&&pf.weights)||{};
+  const core=new Set(Object.keys((pf&&pf.core)||{}));
+  const m=(pf&&pf.metrics)||(rk&&rk.metrics)||{};
+  const gate=(pf&&pf.risk_gate)||(rk&&rk.gate)||{};
+  const mc=(rk&&rk.monte_carlo)||null;
+  const rows=Object.entries(weights).sort((a,b)=>b[1]-a[1]).map(([t,w])=>({label:t,value:w,block:core.has(t)?"core":"satellite"}));
+  const barColor=(r)=>r.block==="core"?"var(--accent)":"var(--orange)";
+  const cash=pf?pf.cash:null;
+
+  return (<>
+    {/* --- REGIMEN --- */}
+    {reg&&(<div className="card" style={{marginBottom:14}}>
+      <h3>Régimen de mercado <a href={DATA_BASE+"daily_context.md"} target="_blank" style={{fontWeight:400,textTransform:"none",letterSpacing:0}}>briefing LLM (.md) ↗</a></h3>
+      <div style={{display:"flex",gap:16,alignItems:"center",flexWrap:"wrap"}}>
+        <span className="signal-badge" style={{background:(REGIME_COLOR[reg.risk_state]||"var(--text-dim)")+"22",color:REGIME_COLOR[reg.risk_state]||"var(--text-dim)",fontSize:15}}>{reg.risk_state||"-"}</span>
+        <div><div className="label" style={{color:"var(--text-dim)",fontSize:11}}>PRESUPUESTO DE RIESGO</div><div style={{fontSize:26,fontWeight:800}}>{pctf(budget)}<span style={{fontSize:12,fontWeight:400,color:"var(--text-faint)"}}> exposición máx.</span></div></div>
+      </div>
+      <div style={{display:"flex",gap:6,flexWrap:"wrap",marginTop:12}}>
+        <StatePill label="Tendencia" st={st.trend&&st.trend.state} extra={st.trend?`(${st.trend.pct_vs_ma200}% vs MA200)`:null}/>
+        <StatePill label="Volatilidad" st={st.volatility&&st.volatility.state} extra={st.volatility?`(VIX ${st.volatility.vix})`:null}/>
+        <StatePill label="Crédito" st={st.credit&&st.credit.state} extra={st.credit?`(HY ${st.credit.hy_spread})`:null}/>
+        <StatePill label="Tipos" st={st.rates&&st.rates.state} extra={st.rates?`(10y-2y ${st.rates.curve_10y2y})`:null}/>
+      </div>
+      {reg.reasons&&reg.reasons.length>0&&<div style={{marginTop:10,fontSize:11.5,color:"var(--text-dim)"}}>{reg.reasons.join(" · ")}</div>}
+    </div>)}
+
+    {/* --- KPIs de cartera/riesgo --- */}
+    <div className="grid g4" style={{marginBottom:14}}>
+      <Kpi label="Exposición" value={pctf(pf&&pf.total_equity)} foot={"cash "+pctf(cash)} color="var(--accent)"/>
+      <Kpi label="Risk gate" value={gate.passed?"PASS":"REJECT"} foot={(gate.n_violations||0)+" violaciones"} color={gate.passed?"var(--green)":"var(--red)"}/>
+      <Kpi label="Vol anualizada" value={pctf(m.ann_vol)} foot={"β vs SPY "+(m.beta_spy!=null?m.beta_spy:"-")} color="var(--teal)"/>
+      <Kpi label="Max drawdown" value={pctf(m.max_drawdown)} foot={"VaR95 1d "+pctf(m.var_95_1d)} color="var(--red)"/>
+    </div>
+
+    <div className="grid g-2-1">
+      {/* --- PESOS --- */}
+      <div className="card">
+        <h3>Cartera candidata <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>perfil {pf&&pf.profile} · <span style={{color:"var(--accent)"}}>■</span> core <span style={{color:"var(--orange)"}}>■</span> satellite</span></h3>
+        {rows.length?<HBars rows={rows} color={barColor} fmt={(v)=>pctf(v)}/>:<div className="neu">sin pesos</div>}
+        {gate.violations&&gate.violations.length>0&&<div style={{marginTop:12}}>{gate.violations.map((v,i)=><div key={i} className="evline" style={{color:"var(--red)"}}>⚠ {v}</div>)}</div>}
+      </div>
+
+      {/* --- RATIONALE + MONTECARLO --- */}
+      <div style={{display:"flex",flexDirection:"column",gap:14}}>
+        <div className="card">
+          <h3>Por qué estos satellite</h3>
+          <div className="ranking">{((pf&&pf.satellite_rationale)||[]).map((r,i)=>(<div key={i} className="ranking-row"><span><b>{r.ticker}</b> <span style={{color:"var(--text-faint)",fontSize:11}}>{(r.sources||[]).map(s=>SRC_LABEL[s]||s).join(", ")}</span></span><ScoreBadge s={r.score}/></div>))}
+          {(!pf||!(pf.satellite_rationale||[]).length)&&<div className="neu">sin satélites</div>}</div>
+        </div>
+        {mc&&(<div className="card">
+          <h3>Monte Carlo {mc.horizon_days||21}d ({fmtNum(mc.n_sims)} sims)</h3>
+          <div className="bigrow"><span>Retorno esperado</span><b className={"amt "+(mc.expected>=0?"pos":"neg")}>{pctf(mc.expected)}</b></div>
+          <div className="bigrow"><span>Escenario malo (p5)</span><b className="amt neg">{pctf(mc.p5)}</b></div>
+          <div className="bigrow"><span>Escenario bueno (p95)</span><b className="amt pos">{pctf(mc.p95)}</b></div>
+          <div className="bigrow"><span>Prob. de pérdida</span><b className="amt">{pctf(mc.prob_loss)}</b></div>
+        </div>)}
+      </div>
+    </div>
+  </>);
+}
+
+const TABS=[["command","🎯 Cartera"],["analysis","💡 Ideas"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
 function App() {
-  const [d,setD]=useState({}),[err,setErr]=useState(null),[tab,setTab]=useState("analysis"),[updated,setUpdated]=useState(null);
+  const [d,setD]=useState({}),[err,setErr]=useState(null),[tab,setTab]=useState("command"),[updated,setUpdated]=useState(null);
   const load=useCallback(async()=>{ setErr(null); try{
     const entries=await Promise.all(Object.entries(FILES).map(async([k,f])=>{ try{ const r=await fetch(DATA_BASE+f+"?t="+Date.now()); if(!r.ok)return [k,null]; return [k,await r.json()]; }catch{ return [k,null]; } }));
     const next={}; entries.forEach(([k,v])=>next[k]=v); setD(next);
@@ -396,6 +470,7 @@ function App() {
       <div className="meta"><span className={"status-dot "+overall}></span>{overall} · {updated&&"actualizado "+new Date(updated).toLocaleString()}<br/><a href="#" onClick={e=>{e.preventDefault();load();}}>↻ refrescar</a> · <a href={DATA_BASE+"llm_context_30d.json"} target="_blank">llm_context.json ↗</a></div></header>
     <div className="container">
       <div className="tabs">{TABS.map(([k,l])=>(<button key={k} className={"tab "+(tab===k?"active":"")} onClick={()=>setTab(k)}>{l}</button>))}</div>
+      {tab==="command"&&<CommandCenter d={d}/>}
       {tab==="analysis"&&<Analysis d={d}/>}
       {tab==="movements"&&<Movements d={d}/>}
       {tab==="signals"&&<Signals d={d}/>}
