@@ -1,0 +1,152 @@
+"""Valida la respuesta del LLM sobre la cartera (Fase H, cierre del bucle).
+
+Flujo manual: pegas `daily_context.md` en un chat con un LLM, el LLM te
+devuelve un JSON con su propuesta, lo guardas en un fichero y lo pasas por aqui.
+Este script es el "codigo decide" de "la IA propone, el codigo decide":
+
+  1. Parsea la respuesta del LLM (acepta JSON puro o texto con un bloque ```json).
+  2. Comprueba las RESTRICCIONES DURAS contra la cartera candidata y el regimen:
+     - universo cerrado (solo tickers de la cartera candidata),
+     - sin pesos negativos (ni cortos), suma <= presupuesto de riesgo,
+     - peso maximo por posicion segun el perfil.
+  3. Pasa `final_weights` por el risk engine (validate).
+  4. Si todo OK -> escribe data/public/llm_portfolio.json (cartera APROBADA).
+     Si algo falla -> la RECHAZA y explica por que (no se aprueba nada a medias).
+
+Uso:
+    python -m pipelines.validate_llm_output ruta/a/respuesta_llm.txt
+    python -m pipelines.validate_llm_output            # lee data/public/llm_response.txt
+"""
+
+from __future__ import annotations
+
+import json
+import re
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+from portfolio.constraints import get_profile
+from risk.risk_engine import RiskLimits, compute_metrics, load_returns_matrix, validate
+
+PUBLIC_DIR = Path(__file__).resolve().parents[1] / "data" / "public"
+DEFAULT_INPUT = PUBLIC_DIR / "llm_response.txt"
+OUTPUT_PATH = PUBLIC_DIR / "llm_portfolio.json"
+
+TOL = 1e-3  # tolerancia de redondeo, coherente con el risk engine
+
+
+def _load_json(name: str, default=None):
+    p = PUBLIC_DIR / name
+    if not p.exists():
+        return default
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return default
+
+
+def parse_llm_response(text: str) -> dict[str, Any]:
+    """Extrae el JSON de la respuesta del LLM (puro o dentro de un bloque ```json)."""
+    text = text.strip()
+    # Bloque markdown ```json ... ```
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
+    if m:
+        return json.loads(m.group(1))
+    # Primer objeto {...} que aparezca
+    m = re.search(r"\{.*\}", text, re.DOTALL)
+    if m:
+        return json.loads(m.group(0))
+    raise ValueError("no se encontro ningun objeto JSON en la respuesta del LLM")
+
+
+def check_hard_constraints(weights: dict[str, float], allowed: set[str],
+                           budget: float, max_position: float) -> list[str]:
+    """Comprueba las restricciones duras. Devuelve la lista de violaciones."""
+    v: list[str] = []
+    unknown = [t for t in weights if t not in allowed]
+    if unknown:
+        v.append(f"tickers fuera del universo permitido: {', '.join(sorted(unknown))}")
+    neg = [t for t, w in weights.items() if w < -TOL]
+    if neg:
+        v.append(f"pesos negativos (cortos no permitidos): {', '.join(neg)}")
+    over = [f"{t} {w:.1%}" for t, w in weights.items() if w > max_position + TOL]
+    if over:
+        v.append(f"exceden el peso maximo {max_position:.0%}: {', '.join(over)}")
+    total = sum(weights.values())
+    if total > budget + TOL:
+        v.append(f"exposicion {total:.2%} > presupuesto de riesgo {budget:.2%}")
+    if total > 1 + TOL:
+        v.append(f"apalancamiento: suma de pesos {total:.2%} > 100%")
+    return v
+
+
+def validate_response(text: str) -> dict[str, Any]:
+    """Valida la respuesta del LLM contra la cartera candidata y el regimen."""
+    prop = _load_json("portfolio_proposal.json", default={})
+    regime = _load_json("regime.json", default={})
+    if not prop:
+        raise RuntimeError("no hay portfolio_proposal.json (corre antes la pipeline v3)")
+
+    profile = get_profile(prop.get("profile", "moderado"))
+    budget = regime.get("recommended_risk_budget", 0.6)
+    allowed = set(prop.get("weights", {}).keys())
+
+    parsed = parse_llm_response(text)
+    weights = {str(k).upper(): float(v) for k, v in (parsed.get("final_weights") or {}).items()
+               if v is not None and float(v) > 0}
+
+    result: dict[str, Any] = {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "verdict_llm": parsed.get("verdict"),
+        "thesis": parsed.get("thesis"),
+        "key_risks": parsed.get("key_risks"),
+        "confidence": parsed.get("confidence"),
+        "adjustments": parsed.get("adjustments"),
+        "final_weights": weights,
+    }
+
+    if not weights:
+        result["approved"] = False
+        result["violations"] = ["la respuesta no trae 'final_weights' con pesos > 0"]
+        return result
+
+    hard = check_hard_constraints(weights, allowed, budget, profile.max_position)
+
+    # Risk gate (mismas reglas que el allocator)
+    returns = load_returns_matrix(list(weights.keys()))
+    metrics = compute_metrics(weights, returns)
+    limits = RiskLimits(max_position=profile.max_position, max_gross_exposure=1.0)
+    gate = validate(weights, limits, regime_budget=budget, metrics=metrics)
+
+    violations = hard + [f"risk gate: {x}" for x in gate.get("violations", [])]
+    result["metrics"] = metrics
+    result["risk_gate"] = gate
+    result["violations"] = violations
+    result["approved"] = len(violations) == 0
+    return result
+
+
+def run(input_path: Path | None = None) -> Path:
+    """Valida la respuesta del LLM y escribe llm_portfolio.json."""
+    src = input_path or DEFAULT_INPUT
+    if not src.exists():
+        raise SystemExit(
+            f"No existe {src}. Guarda la respuesta del LLM en ese fichero (o pasa la ruta como argumento).")
+    res = validate_response(src.read_text(encoding="utf-8"))
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    estado = "APROBADA (OK)" if res.get("approved") else "RECHAZADA"
+    print(f"[validate_llm] cartera {estado} (veredicto LLM: {res.get('verdict_llm')}) -> {OUTPUT_PATH}")
+    if res.get("approved"):
+        m = res.get("metrics", {})
+        print(f"  posiciones: {len(res['final_weights'])} · vol {m.get('ann_vol')} · maxDD {m.get('max_drawdown')}")
+    for v in res.get("violations", []):
+        print(f"  VIOLACION: {v}")
+    return OUTPUT_PATH
+
+
+if __name__ == "__main__":
+    run(Path(sys.argv[1]) if len(sys.argv) > 1 else None)
