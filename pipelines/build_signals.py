@@ -187,20 +187,84 @@ def _apply_cross_source(signals: list[dict[str, Any]]) -> None:
         score_signal(s)  # recalcula importance con el cross-source ya puesto
 
 
+# Mapeo source_type -> nombre de dataset en el health_report (para gating).
+_HEALTH_DATASET = {
+    "corporate_insider": "sec_insiders",
+    "congress": "congress",
+    "large_holder": "sec_13d_13g",
+    "institutional": "institutional_13f",
+}
+
+
+def _blocked_source_types() -> set[str]:
+    """Devuelve los source_type cuyo dataset esta en estado 'error' (no usar).
+
+    Regla v3: no construir señales con datos health_status != ok. 'warning' se
+    permite (se usa pero puede llevar risk_flags); solo 'error' se bloquea.
+    """
+    # health_report es un dict (no lista), asi que no usamos _load (coacciona a lista).
+    p = PUBLIC_DIR / "health_report.json"
+    if not p.exists():
+        return set()
+    try:
+        health = json.loads(p.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return set()
+    if not isinstance(health, dict):
+        return set()
+    datasets = health.get("datasets", {})
+    blocked = set()
+    for st, ds_name in _HEALTH_DATASET.items():
+        ds = datasets.get(ds_name, {}) if isinstance(datasets, dict) else {}
+        if isinstance(ds, dict) and ds.get("status") == "error":
+            blocked.add(st)
+    return blocked
+
+
 def build() -> list[dict[str, Any]]:
-    """Construye la lista unificada de senales con scoring y cross-source."""
+    """Construye la lista unificada de senales con scoring, cluster y risk_flags."""
+    from normalize.insider_scoring import (
+        confidence, detect_clusters, insider_signal_score, risk_flags,
+    )
+
     signals: list[dict[str, Any]] = []
     signals += _from_insiders()
     signals += _from_congress()
     signals += _from_13d_13g()
     signals += _from_13f_changes()
 
-    # Scoring inicial (cross_source aun 0) y luego cross-source + re-score.
+    # Health gating: descartar señales de fuentes en estado 'error'.
+    blocked = _blocked_source_types()
+    if blocked:
+        signals = [s for s in signals if s.get("source_type") not in blocked]
+
+    # Scoring de importancia (con cross-source).
     for s in signals:
         score_signal(s)
     _apply_cross_source(signals)
 
-    signals.sort(key=lambda s: s.get("importance_score", 0), reverse=True)
+    # Detectar cluster buying entre las señales de insiders.
+    insider_sigs = [s for s in signals if s.get("source_type") == "corporate_insider"]
+    clusters = detect_clusters(insider_sigs)
+
+    # Enriquecer cada señal: signal_score, risk_flags, confidence, cluster.
+    for s in signals:
+        if s.get("source_type") == "corporate_insider":
+            s["signal_score"] = insider_signal_score(s, clusters)
+            cl = clusters.get((s.get("ticker") or "").upper(), 0)
+            s["cluster_size"] = cl
+            if cl >= 2:
+                s.setdefault("_flags", []).append("cluster_buy")
+        else:
+            s["signal_score"] = s.get("importance_score", 0)
+        rf = risk_flags(s)
+        if s.pop("_flags", None):
+            rf = ["cluster_buy"] + rf
+        s["risk_flags"] = rf
+        s["confidence"] = confidence(s)
+
+    # Ordenar por signal_score (la conviccion de la señal) desc.
+    signals.sort(key=lambda s: s.get("signal_score", 0), reverse=True)
     return signals
 
 
