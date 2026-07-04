@@ -144,19 +144,21 @@ def validate(weights: dict[str, float], limits: RiskLimits,
     """
     violations: list[str] = []
     gross = sum(weights.values())
+    # Tolerancia para el redondeo a 4 decimales acumulado sobre decenas de pesos.
+    TOL = 1e-3
 
     # 1. No apalancar
-    if gross > limits.max_gross_exposure + 1e-6:
+    if gross > limits.max_gross_exposure + TOL:
         violations.append(f"apalancamiento: exposicion bruta {gross:.2f} > {limits.max_gross_exposure}")
 
     # 2. Peso maximo por posicion
     for tk, w in weights.items():
-        if w > limits.max_position + 1e-6:
+        if w > limits.max_position + TOL:
             violations.append(f"concentracion: {tk} {w:.1%} > max {limits.max_position:.0%}")
 
     # 3. En risk-off, exposicion <= presupuesto de riesgo del regimen
     if limits.respect_regime_budget and regime_budget is not None:
-        if gross > regime_budget + 1e-6:
+        if gross > regime_budget + TOL:
             violations.append(
                 f"regimen: exposicion {gross:.2f} > presupuesto de riesgo {regime_budget:.2f} "
                 f"(hay que subir cash)")
