@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-04T13:43:35+00:00",
+  "generated_at": "2026-07-04T14:53:40+00:00",
   "profile": "moderado",
-  "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "regime_budget": 0.8,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "GLD": 0.0932,
-    "HUBB": 0.0665,
-    "IEF": 0.0622,
-    "BBSI": 0.0553,
-    "LPLA": 0.0533,
-    "GH": 0.0341,
-    "NXDR": 0.031,
-    "SMCI": 0.0245,
-    "CRWV": 0.0199,
-    "CIFR": 0.0174,
-    "FEAM": 0.0172,
-    "STEM": 0.0154
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
+    "GLD": 0.0858,
+    "BBSI": 0.0684,
+    "IEF": 0.0572,
+    "KEQU": 0.0442,
+    "GH": 0.0409,
+    "NXDR": 0.0397,
+    "SMCI": 0.0278,
+    "CRWV": 0.0252,
+    "CIFR": 0.0221,
+    "FEAM": 0.0212,
+    "INDP": 0.0119,
+    "ADTX": 0.0066
   },
   "core": {
-    "SPY": 0.1934,
-    "QQQ": 0.1105,
-    "TLT": 0.1105,
-    "IEF": 0.0553,
-    "GLD": 0.0829
+    "SPY": 0.182,
+    "QQQ": 0.104,
+    "TLT": 0.104,
+    "IEF": 0.052,
+    "GLD": 0.078
   },
   "satellite": {
-    "BBSI": 0.0492,
-    "SMCI": 0.0218,
-    "GH": 0.0303,
-    "FEAM": 0.0153,
-    "CIFR": 0.0155,
-    "CRWV": 0.0177,
-    "STEM": 0.0137,
-    "LPLA": 0.0474,
-    "NXDR": 0.0276,
-    "HUBB": 0.0591
+    "BBSI": 0.0622,
+    "SMCI": 0.0253,
+    "GH": 0.0372,
+    "FEAM": 0.0193,
+    "CIFR": 0.0201,
+    "CRWV": 0.0229,
+    "NXDR": 0.0361,
+    "ADTX": 0.006,
+    "INDP": 0.0108,
+    "KEQU": 0.0402
   },
   "satellite_rationale": [
     {
       "ticker": "BBSI",
-      "score": 979.2,
+      "score": 844.0,
       "sources": [
         "corporate_insider"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "ticker": "SMCI",
-      "score": 837.3,
+      "score": 725.4,
       "sources": [
         "corporate_insider"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "ticker": "GH",
-      "score": 829.2,
+      "score": 715.2,
       "sources": [
         "corporate_insider"
       ],
@@ -67,7 +67,7 @@
     },
     {
       "ticker": "FEAM",
-      "score": 819.6,
+      "score": 708.0,
       "sources": [
         "corporate_insider"
       ],
@@ -75,7 +75,7 @@
     },
     {
       "ticker": "CIFR",
-      "score": 716.8,
+      "score": 629.0,
       "sources": [
         "corporate_insider"
       ],
@@ -83,57 +83,58 @@
     },
     {
       "ticker": "CRWV",
-      "score": 616.2,
+      "score": 542.8,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 9
     },
     {
-      "ticker": "STEM",
-      "score": 347.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "LPLA",
-      "score": 346.4,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 6
-    },
-    {
       "ticker": "NXDR",
-      "score": 336.5,
+      "score": 297.0,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 5
     },
     {
-      "ticker": "HUBB",
-      "score": 296.1,
+      "ticker": "ADTX",
+      "score": 280.5,
       "sources": [
-        "congress"
+        "large_holder"
       ],
-      "n_signals": 5
+      "n_signals": 4
+    },
+    {
+      "ticker": "INDP",
+      "score": 276.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "KEQU",
+      "score": 253.0,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 4
     }
   ],
   "metrics": {
-    "ann_vol": 0.1299,
-    "var_95_1d": 0.0149,
-    "cvar_95_1d": 0.0174,
-    "max_drawdown": -0.1186,
-    "beta_spy": 0.881,
-    "hhi": 0.07,
+    "ann_vol": 0.1372,
+    "var_95_1d": 0.0138,
+    "cvar_95_1d": 0.018,
+    "max_drawdown": -0.1439,
+    "beta_spy": 0.858,
+    "hhi": 0.0636,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.3,
-    "gross_exposure": 0.85,
-    "days_used": 231
+    "effective_positions": 15.7,
+    "gross_exposure": 0.7998,
+    "days_used": 269
   },
   "risk_gate": {
     "passed": true,
