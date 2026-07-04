@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-04T22:26:46+00:00 · ventana señales 2026-06-04 → 2026-07-04_
+_Generado 2026-07-04T23:30:45+00:00 · ventana señales 2026-06-04 → 2026-07-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen → cartera propuesta → señales → mercado → calidad → instrucciones. Responde segun la seccion 6.
 
@@ -87,7 +87,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.12 (0.1% / -0.38% / 0.46%)
 - GLD: 378.13 (2.03% / 2.35% / -7.29%)
 - ^VIX: 16.15 (-2.65% / -14.51% / 0.56%)
-- BTC-USD: 63150.0 (0.97% / 5.01% / -3.9%)
+- BTC-USD: 63046.0 (0.8% / 4.83% / -4.05%)
 
 **Macro (valor · cambio 1m):**
 
