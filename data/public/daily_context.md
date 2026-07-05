@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-05T15:40:19+00:00 · ventana señales 2026-06-05 -> 2026-07-05_
+_Generado 2026-07-05T16:03:52+00:00 · ventana señales 2026-06-05 -> 2026-07-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,42 +8,42 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 16.15)
 - Tendencia: `bull` (SPY 744.78 · MA50 735.91 · MA200 688.74 · dist MA200: 8.14%)
-- Credito: `tight` (HY spread 2.75)
-- Tipos: `flat` (curva 10y-2y 0.35)
-- Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Credito: `unknown` (HY spread None)
+- Tipos: `unknown` (curva 10y-2y None)
+- Motivos: tendencia alcista (+)
+- **AVISO**: sin datos de credit, rates (FRED API key no configurada). El presupuesto de riesgo puede ser impreciso.
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 744.78 | -0.13% | 1.43% | -1.0% |
-| QQQ | 12.0% | core | 712.6 | -1.73% | -0.53% | -4.14% |
-| TLT | 12.0% | core | 85.51 | -0.01% | -1.74% | 0.6% |
-| GLD | 9.3% | core | 378.13 | 2.03% | 2.35% | -7.29% |
-| BBSI | 7.2% | satellite | 37.91 | 0.48% | 11.47% | 17.26% |
-| IEF | 6.2% | core | 94.12 | 0.1% | -0.38% | 0.46% |
+| QQQ | 11.4% | core | 712.6 | -1.73% | -0.53% | -4.14% |
+| TLT | 11.4% | core | 85.51 | -0.01% | -1.74% | 0.6% |
+| GLD | 8.6% | core | 378.13 | 2.03% | 2.35% | -7.29% |
+| BBSI | 6.8% | satellite | 37.91 | 0.48% | 11.47% | 17.26% |
+| IEF | 5.7% | core | 94.12 | 0.1% | -0.38% | 0.46% |
 | KEQU | 4.4% | satellite | 36.68 | 0.3% | 4.41% | -7.28% |
-| GH | 4.4% | satellite | 167.98 | -1.63% | 17.52% | 32.24% |
+| GH | 4.1% | satellite | 167.98 | -1.63% | 17.52% | 32.24% |
 | NXDR | 4.0% | satellite | 2.29 | -1.72% | 8.02% | 13.37% |
-| SMCI | 3.2% | satellite | 27.22 | -1.56% | -14.08% | -42.6% |
-| CRWV | 2.6% | satellite | 81.75 | -4.6% | -17.23% | -26.31% |
-| CIFR | 2.3% | satellite | 20.04 | -12.26% | -21.96% | -23.63% |
-| FEAM | 2.2% | satellite | 1.37 | -4.86% | 4.58% | -21.71% |
-| INDP | 1.6% | satellite | 3.03 | 3.06% | -7.06% | 37.1% |
-| ADTX | 1.5% | satellite | 0.0 | 0.0% | 150.0% | -94.74% |
+| SMCI | 2.8% | satellite | 27.22 | -1.56% | -14.08% | -42.6% |
+| CRWV | 2.5% | satellite | 81.75 | -4.6% | -17.23% | -26.31% |
+| CIFR | 2.2% | satellite | 20.04 | -12.26% | -21.96% | -23.63% |
+| FEAM | 2.1% | satellite | 1.37 | -4.86% | 4.58% | -21.71% |
+| INDP | 1.2% | satellite | 3.03 | 3.06% | -7.06% | 37.1% |
+| ADTX | 0.7% | satellite | 0.0 | 0.0% | 150.0% | -94.74% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.2%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -18.5%
-- Beta vs SPY: 0.9 · posiciones efectivas: 14.4 · HHI: 0.0697
+- Volatilidad anualizada: 13.7%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -14.4%
+- Beta vs SPY: 0.858 · posiciones efectivas: 15.7 · HHI: 0.0636
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 94.12 (0.1% / -0.38% / 0.46%) [2026-07-02]
 - GLD: 378.13 (2.03% / 2.35% / -7.29%) [2026-07-02]
 - ^VIX: 16.15 (-2.65% / -14.51% / 0.56%) [2026-07-02]
-- BTC-USD: 62777.13 (-0.49% / 7.2% / -5.3%) [2026-07-05]
+- BTC-USD: 62691.38 (-0.63% / 7.06% / -5.43%) [2026-07-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,16 +123,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (2), legal (1)
+**Temas dominantes**: stock (3), ai (2), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
 - [SMCI] Super Micro Insists Cooperation as Taiwan Authorities Storm Offices in NVIDIA GPU Smuggling Crackdown on China Exports (2026-06-29)
 - [SMCI] SMCI offices raided in Taiwan on chip smuggling probe (2026-06-29)
 - [SMCI] What Is Going On With Super Micro Stock On Monday ? - Super Micro Computer ( NASDAQ : SMCI ) (2026-06-29)
 - [SMCI] BI Asset Management Fondsmaeglerselskab A S Buys 34 , 035 Shares of Super Micro Computer , Inc . $SMCI (2026-06-25)
+- [AIP] Arteris COO Sells 39 , 000 Shares Worth $1 . 7 Million . Should Investors Worry ? (2026-06-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -148,10 +147,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Sassy-Bucket · PnL $199,997 · win rate 91% · categorias: sports
-- comon119 · PnL $41,174 · win rate 99% · categorias: sports, crypto, politics
-- ROBBATTISTAFANDUELRETARD · PnL $124,405 · win rate 82% · categorias: sports, crypto, politics
-- NiFengFanPan · PnL $25,751 · win rate 93% · categorias: sports, politics, economy
-- onekey02 · PnL $15,027 · win rate 96% · categorias: politics, crypto, sports
+- comon119 · PnL $48,664 · win rate 99% · categorias: sports, crypto, politics
+- ROBBATTISTAFANDUELRETARD · PnL $124,572 · win rate 82% · categorias: sports, crypto, politics
+- NiFengFanPan · PnL $25,645 · win rate 93% · categorias: sports, politics, economy
+- onekey02 · PnL $15,001 · win rate 96% · categorias: politics, crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -173,7 +172,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`ADTX, BBSI, CIFR, CRWV, FEAM, GH, GLD, IEF, INDP, KEQU, NXDR, QQQ, SMCI, SPY, TLT`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Justifica cada cambio** con una razon concreta basada en los datos de este briefing (señal, regimen, riesgo, precio). Nada de datos externos.
