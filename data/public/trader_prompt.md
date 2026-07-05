@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-05T16:32:31+00:00 -->
+<!-- trader_prompt.md generado 2026-07-05T18:33:09+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-05T16:32:31+00:00 · ventana señales 2026-06-05 -> 2026-07-05_
+_Generado 2026-07-05T18:33:09+00:00 · ventana señales 2026-06-05 -> 2026-07-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -314,7 +314,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.12 (0.1% / -0.38% / 0.46%) [2026-07-02]
 - GLD: 378.13 (2.03% / 2.35% / -7.29%) [2026-07-02]
 - ^VIX: 16.15 (-2.65% / -14.51% / 0.56%) [2026-07-02]
-- BTC-USD: 62572.02 (-0.82% / 6.85% / -5.61%) [2026-07-05]
+- BTC-USD: 62629.93 (-0.73% / 6.95% / -5.52%) [2026-07-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,17 +329,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (2), legal (1)
-
-**Titulares recientes (GDELT, tickers con mas señales):**
-
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
-- [SMCI] Super Micro Insists Cooperation as Taiwan Authorities Storm Offices in NVIDIA GPU Smuggling Crackdown on China Exports (2026-06-29)
-- [SMCI] SMCI offices raided in Taiwan on chip smuggling probe (2026-06-29)
-- [SMCI] What Is Going On With Super Micro Stock On Monday ? - Super Micro Computer ( NASDAQ : SMCI ) (2026-06-29)
-- [SMCI] BI Asset Management Fondsmaeglerselskab A S Buys 34 , 035 Shares of Super Micro Computer , Inc . $SMCI (2026-06-25)
-- [GH] Insider Selling : Guardant Health ( NASDAQ : GH ) Director Sells $204 , 084 . 96 in Stock (2026-06-24)
+_(sin noticias este ciclo — GDELT no disponible)_
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -354,11 +344,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $199,997 · win rate 91% · categorias: sports
-- comon119 · PnL $52,359 · win rate 99% · categorias: sports, crypto, politics
-- ROBBATTISTAFANDUELRETARD · PnL $125,430 · win rate 82% · categorias: sports, crypto, politics
-- NiFengFanPan · PnL $25,506 · win rate 93% · categorias: sports, politics, economy
-- onekey02 · PnL $15,010 · win rate 96% · categorias: politics, crypto, sports
+- Sassy-Bucket · PnL $196,617 · win rate 91% · categorias: sports
+- comon119 · PnL $52,245 · win rate 99% · categorias: sports, crypto, politics
+- Allezpapa · PnL $24,936 · win rate 99% · categorias: sports
+- NiFengFanPan · PnL $33,624 · win rate 93% · categorias: sports, politics, economy
+- ROBBATTISTAFANDUELRETARD · PnL $125,767 · win rate 82% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
