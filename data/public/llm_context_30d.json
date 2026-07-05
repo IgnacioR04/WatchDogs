@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-04T23:29:47.971939+00:00",
+  "generated_at": "2026-07-05T00:30:00.038628+00:00",
   "window": {
-    "from": "2026-06-04",
-    "to": "2026-07-04",
+    "from": "2026-06-05",
+    "to": "2026-07-05",
     "days": 30
   },
   "data_quality": {
@@ -23,6 +23,8 @@
   },
   "market_context": {
     "top_themes": [
+      "earnings",
+      "regulatory",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -464,22 +466,6 @@
         ]
       },
       {
-        "ticker": "HUBB",
-        "company": "DC Hubbell Inc Common Stock",
-        "pressure_score": 296.1,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "TDG",
-        "company": "Common Stock",
-        "pressure_score": 290.5,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "KEQU",
         "company": "Kewaunee Scientific Corporation",
         "pressure_score": 281.2,
@@ -510,6 +496,22 @@
         "pressure_score": 273.2,
         "sources": [
           "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MCFT",
+        "company": "MasterCraft Boat Holdings, Inc.",
+        "pressure_score": 271.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CTM",
+        "company": "Castellum, Inc.",
+        "pressure_score": 257.6,
+        "sources": [
           "corporate_insider"
         ]
       }
@@ -614,27 +616,27 @@
         ]
       },
       {
-        "ticker": "TSCO",
-        "company": "Stock",
-        "pressure_score": 348.6,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "SCI",
-        "company": "Common Stock",
-        "pressure_score": 290.5,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "CRCL",
         "company": "Circle Internet Group, Inc.",
         "pressure_score": 286.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WRBY",
+        "company": "Warby Parker Inc.",
+        "pressure_score": 237.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FLEX",
+        "company": "Flex Ltd.",
+        "pressure_score": 236.9,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -976,27 +978,11 @@
       "score": 67.2
     },
     {
-      "politician": "Tim Moore",
-      "ticker": "T",
-      "direction": "buy",
-      "amount": 100000,
-      "date": "2026-06-04",
-      "score": 66.8
-    },
-    {
       "politician": "Matthew Robert Van Epps",
       "ticker": "TPR",
       "direction": "sell",
       "amount": 50000,
       "date": "2026-06-16",
-      "score": 65.2
-    },
-    {
-      "politician": "Robert E. Latta",
-      "ticker": "FMAO",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-06-04",
       "score": 65.2
     },
     {
@@ -1074,6 +1060,22 @@
     {
       "politician": "Matthew Robert Van Epps",
       "ticker": "GEV",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-16",
+      "score": 62.6
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
+      "ticker": "INTC",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-16",
+      "score": 62.6
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
+      "ticker": "META",
       "direction": "sell",
       "amount": 15000,
       "date": "2026-06-16",
@@ -1222,9 +1224,9 @@
       {
         "wallet": "0xbc1b1e935c",
         "username": "shijiebeifacai",
-        "pnl": 352596.1,
-        "win_rate": 0.9868,
-        "volume": 2173696.58,
+        "pnl": 378827.06,
+        "win_rate": 0.9872,
+        "volume": 2203737.79,
         "categories": [
           "sports"
         ]
@@ -1232,7 +1234,7 @@
       {
         "wallet": "0x7c1ee865a7",
         "username": "CandleHammerDrums",
-        "pnl": 522343.16,
+        "pnl": 539632.11,
         "win_rate": 0.954,
         "volume": 1695235.74,
         "categories": [
@@ -1240,10 +1242,20 @@
         ]
       },
       {
+        "wallet": "0xa6cd8300ff",
+        "username": "lookaon",
+        "pnl": 72075.14,
+        "win_rate": 0.9778,
+        "volume": 299913.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x72254fe1a7",
         "username": "1two1two",
-        "pnl": 2291526.28,
-        "win_rate": 0.9286,
+        "pnl": 3284294.96,
+        "win_rate": 0.9333,
         "volume": 8867625.97,
         "categories": [
           "sports"
@@ -1252,7 +1264,7 @@
       {
         "wallet": "0x545129ec77",
         "username": "balekadyr",
-        "pnl": 163621.14,
+        "pnl": 163007.5,
         "win_rate": 0.9143,
         "volume": 1038329.71,
         "categories": [
@@ -1262,7 +1274,7 @@
       {
         "wallet": "0x58f8f1138b",
         "username": "bloodmaster",
-        "pnl": 89498.16,
+        "pnl": 90582.65,
         "win_rate": 0.831,
         "volume": 679535.8,
         "categories": [
@@ -1271,9 +1283,19 @@
         ]
       },
       {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 2882383.16,
+        "win_rate": 0.596,
+        "volume": 38864007.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x65018f9fc4",
         "username": "cnyek",
-        "pnl": 128783.98,
+        "pnl": 129988.62,
         "win_rate": 0.9375,
         "volume": 415123.77,
         "categories": [
@@ -1281,41 +1303,21 @@
         ]
       },
       {
-        "wallet": "0xfaa2b54347",
-        "username": "easymoney9",
-        "pnl": 172094.33,
-        "win_rate": 0.7514,
-        "volume": 444678.58,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 2495803.59,
-        "win_rate": 0.57,
-        "volume": 38225846.94,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa6d188fb70",
-        "username": "zhuz632",
-        "pnl": 75492.01,
-        "win_rate": 0.7959,
-        "volume": 445711.54,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5b4ec9c06b",
-        "username": "ramadamaramadam",
-        "pnl": 225131.31,
+        "wallet": "0xb61b2079b9",
+        "username": "hot2trot",
+        "pnl": 402345.76,
         "win_rate": 0.8889,
-        "volume": 3422898.22,
+        "volume": 513099.34,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x35e2803bf3",
+        "username": "anchusa",
+        "pnl": 70944.91,
+        "win_rate": 0.8478,
+        "volume": 283293.93,
         "categories": [
           "sports"
         ]
@@ -1325,9 +1327,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 1113210.33,
-        "win_rate": 0.465,
-        "volume": 28680449.09,
+        "pnl": 1092845.85,
+        "win_rate": 0.485,
+        "volume": 29161154.45,
         "categories": [
           "sports",
           "politics",
@@ -1337,9 +1339,9 @@
       {
         "wallet": "0x37ee3bceb4",
         "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-        "pnl": 102630.15,
-        "win_rate": 0.8,
-        "volume": 11599314.76,
+        "pnl": 102835.14,
+        "win_rate": 0.75,
+        "volume": 12102024.98,
         "categories": [
           "sports"
         ]
@@ -1347,8 +1349,8 @@
       {
         "wallet": "0x72254fe1a7",
         "username": "1two1two",
-        "pnl": 2291526.28,
-        "win_rate": 0.9286,
+        "pnl": 3284294.96,
+        "win_rate": 0.9333,
         "volume": 8867625.97,
         "categories": [
           "sports"
@@ -1357,9 +1359,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 2495803.59,
-        "win_rate": 0.57,
-        "volume": 38225846.94,
+        "pnl": 2882383.16,
+        "win_rate": 0.596,
+        "volume": 38864007.98,
         "categories": [
           "sports"
         ]
@@ -1367,29 +1369,18 @@
       {
         "wallet": "0x25d3d4e435",
         "username": "",
-        "pnl": 514976.23,
-        "win_rate": 0.6667,
+        "pnl": 595463.89,
+        "win_rate": 0.75,
         "volume": 4795950.39,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 77812.16,
-        "win_rate": 0.447,
-        "volume": 21935724.05,
-        "categories": [
-          "crypto",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2e25b222e2",
         "username": "Sparkling8899",
-        "pnl": 964080.49,
-        "win_rate": 0.4375,
+        "pnl": 1334586.18,
+        "win_rate": 0.4706,
         "volume": 2245489.0,
         "categories": [
           "sports"
@@ -1398,9 +1389,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 99154.14,
-        "win_rate": 0.552,
-        "volume": 10404580.43,
+        "pnl": 81595.09,
+        "win_rate": 0.553,
+        "volume": 10499703.86,
         "categories": [
           "sports"
         ]
@@ -1418,61 +1409,77 @@
       {
         "wallet": "0x5b4ec9c06b",
         "username": "ramadamaramadam",
-        "pnl": 225131.31,
-        "win_rate": 0.8889,
+        "pnl": 315881.31,
+        "win_rate": 0.8929,
         "volume": 3422898.22,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x37e053beab",
+        "username": "ChinesePro",
+        "pnl": 96795.34,
+        "win_rate": 0.727,
+        "volume": 2858326.29,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "State Street SPDR Small Cap ETF Outpaces iShares on Returns",
-      "url": "https://www.fool.com/coverage/etfs/2026/06/30/state-street-spdr-small-cap-etf-outpaces-ishares-on-returns/?source=iedfolrf0000001",
-      "ticker": "GH",
+      "title": "Earnings Preview : What To Expect From BlackRock Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-blackrock-report-101159188.html",
+      "ticker": "BLK",
       "themes": [
-        "stock"
+        "earnings"
       ],
       "date": "2026-06-30"
     },
     {
-      "title": "State Street SPDR Small Cap ETF Outpaces iShares on Returns",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-small-cap-123501843.html",
-      "ticker": "GH",
+      "title": "Binance Expands Triparty Banking Network with Anchorage Digital Atlas Integration",
+      "url": "http://www.sydneysun.com/news/279157821/binance-expands-triparty-banking-network-with-anchorage-digital-atlas-integration",
+      "ticker": "BLK",
       "themes": [
-        "stock"
+        "regulatory"
       ],
       "date": "2026-06-30"
     },
     {
-      "title": "Medical Stocks To Follow Now – June 27th",
-      "url": "https://www.themarketsdaily.com/2026/06/27/medical-stocks-to-follow-now-june-27th.html",
-      "ticker": "GH",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Insider Selling : Guardant Health ( NASDAQ : GH ) Director Sells $204 , 084 . 96 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13484248/insider-selling-guardant-health-nasdaqgh-director-sells-204084-96-in-stock.html",
-      "ticker": "GH",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-06-24"
-    },
-    {
-      "title": "Preliminary Results | Company Announcement",
-      "url": "https://www.investegate.co.uk/announcement/rns/cellbxhealth-plc--clbx/preliminary-results/9628683",
-      "ticker": "GH",
+      "title": "BlackRock cools on emerging markets , sees value in euro government debt",
+      "url": "https://www.theglobeandmail.com/investing/article-blackrock-cools-on-emerging-markets-sees-value-in-euro-government-debt/",
+      "ticker": "BLK",
       "themes": [],
-      "date": "2026-06-22"
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Short Interest in iShares AAA CLO Active ETF ( NASDAQ : CLOA ) Drops By 66 . 6 % ",
+      "url": "https://www.dailypolitical.com/2026/06/30/short-interest-in-ishares-aaa-clo-active-etf-nasdaqcloa-drops-by-66-6.html",
+      "ticker": "BLK",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Here How Kids Are Used To Spread LGBT Agenda In Red States",
+      "url": "https://thefederalist.com/2026/06/30/heres-how-dark-money-uses-children-in-deep-red-states-to-spread-lgbt-agenda/",
+      "ticker": "BLK",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
+      "title": "O S & P 500 é imbatível ? ",
+      "url": "https://www.infomoney.com.br/colunistas/leonardo-vasques/o-sp-500-e-imbativel/",
+      "ticker": "BLK",
+      "themes": [],
+      "date": "2026-06-30"
     }
   ],
-  "signals_count": 1620,
+  "signals_count": 1560,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
