@@ -110,17 +110,24 @@ def build_snapshot(symbols: list[str]) -> list[dict[str, Any]]:
     snap: list[dict[str, Any]] = []
     for sym in symbols:
         safe = _safe_symbol(sym)
-        # Buscar el parquet mas reciente del simbolo.
+        # Los dos parquets mas recientes (el del año actual puede tener pocas
+        # filas en enero y romper ret_5d/ret_20d).
         files = sorted((PRICES_DIR / f"symbol={safe}" / "timeframe=1d").rglob("*.parquet"))
         if not files:
             continue
-        try:
-            df = pd.read_parquet(files[-1])
-        except Exception:
+        frames = []
+        for f in files[-2:]:
+            try:
+                df = pd.read_parquet(f)
+                if not df.empty and "Close" in df.columns:
+                    frames.append(df["Close"])
+            except Exception:
+                continue
+        if not frames:
             continue
-        if df.empty or "Close" not in df.columns:
-            continue
-        close = df["Close"].dropna()
+        close = pd.concat(frames).dropna()
+        close.index = pd.to_datetime(close.index)
+        close = close.sort_index()
         if len(close) < 2:
             continue
         last = float(close.iloc[-1])

@@ -112,15 +112,41 @@ def _gdelt_get(session: requests.Session, params: dict, retries: int = 2) -> dic
     return {}
 
 
+def _is_relevant(title: str, ticker: str, company_query: str) -> bool:
+    """True si el titular menciona realmente al ticker o a la empresa.
+
+    GDELT hace matching laxo y devuelve articulos que no tienen nada que ver
+    (ej. noticias genericas o en otros idiomas). Sin este filtro, el briefing
+    etiqueta titulares con tickers equivocados.
+    """
+    t = (title or "").lower()
+    needles = []
+    name = company_query.strip('"').strip().lower()
+    words = name.split()
+    if len(name) >= 4:
+        needles.append(name)
+        # version corta del nombre: 1a palabra si es distintiva, o las 2 primeras
+        # (evita falsos positivos con palabras genericas tipo 'super').
+        if len(words) >= 2:
+            needles.append(" ".join(words[:2]))
+        elif words and len(words[0]) >= 5:
+            needles.append(words[0])
+    if len(ticker) >= 2:
+        needles.append(ticker.lower())
+    return any(n in t for n in needles)
+
+
 def fetch_news_for(session: requests.Session, ticker: str, company: str) -> list[dict[str, Any]]:
     """Consulta GDELT para un ticker/empresa y devuelve articulos normalizados."""
     query = _clean_company_query(company, ticker)
-    params = {"query": query, "mode": "ArtList", "format": "json",
+    params = {"query": f"{query} sourcelang:eng", "mode": "ArtList", "format": "json",
               "maxrecords": str(ARTICLES_PER_TICKER), "timespan": "2w", "sort": "DateDesc"}
     data = _gdelt_get(session, params)
     out = []
     for a in data.get("articles", []):
         title = a.get("title", "")
+        if not _is_relevant(title, ticker, query):
+            continue
         published = _parse_seendate(a.get("seendate", ""))
         rec = {
             "id": "news_" + str(abs(hash(a.get("url", ""))) % (10 ** 12)),

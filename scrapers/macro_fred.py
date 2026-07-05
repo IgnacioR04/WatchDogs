@@ -119,6 +119,10 @@ def _write_jsonl_gz(records: list[dict], path: Path) -> int:
 
 def run(start: str = "2010-01-01") -> Path:
     """Descarga todas las series, archiva en Drive y publica snapshot reciente."""
+    # Fail-fast: sin API key no tiene sentido iterar las 14 series (fallarian
+    # todas una a una y encima pisariamos el snapshot bueno con []). Con el
+    # continue-on-error del workflow, esto conserva el ultimo macro_latest.json.
+    _api_key()
     session = requests.Session()
     session.headers["User-Agent"] = "Watchdog/1.0"
     snapshot: list[dict[str, Any]] = []
@@ -142,6 +146,9 @@ def run(start: str = "2010-01-01") -> Path:
             "change_1m": round(last["value"] - prev["value"], 3),
         })
         print(f"  [fred] {sid}: {len(recs):,} obs, ultimo {last['value']} ({last['event_date']})")
+    if not snapshot:
+        # No pisar un snapshot previo valido con una lista vacia (fallo de red/API).
+        raise RuntimeError("FRED no devolvio ninguna serie; se conserva el snapshot anterior")
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_SNAPSHOT.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[macro_fred] {len(snapshot)} series, {total:,} observaciones -> {OUTPUT_SNAPSHOT}")

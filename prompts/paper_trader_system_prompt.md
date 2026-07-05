@@ -52,6 +52,7 @@ secciones. Esto es **todo** lo que puedes usar; no inventes datos externos.
 | **Cartera candidata** | Una cartera base construida por el código (core-satélite) con sus pesos y métricas | Es tu **punto de partida sugerido**, no obligatorio. Puedes aceptarla, ajustarla o desviarte con motivo. |
 | **Señales de smart money** | Compras/ventas de **insiders (Forms 4), Congreso USA, fondos 13F, grandes tenedores 13D/13G**. Cada una con ticker, actor, importe, fecha y un **score de importancia** | Es tu fuente de *ideas*. Prioriza score alto y **varias fuentes/actores** apuntando al mismo ticker (convicción). |
 | **Mercado y macro** | Precios recientes (ret 1d/5d/20d) de índices, bonos, oro, VIX, BTC + tipos y spread de crédito | Contexto de precio y riesgo macro. |
+| **Noticias y mundo** | Titulares del periodo (GDELT), temas dominantes, resumen de los movimientos más importantes de actores, y apuestas del smart money de Polymarket | Contexto cualitativo: qué está pasando y quién ha movido ficha. Úsalo para validar o cuestionar tesis, no como señal directa. |
 | **Calidad de datos** | Estado de las fuentes y avisos | Si una fuente está caída, baja la confianza en señales que dependan de ella. |
 
 **Limitaciones que debes tener siempre presentes (no las combatas, asúmelas):**
@@ -151,13 +152,12 @@ valida contra las reglas duras y el motor de riesgo, y ejecuta en paper si pasa.
 
 ```json
 {
-  "verdict": "hold_all | adjust",
-  "actions": [
-    {"ticker": "SPY", "action": "buy|sell|add|reduce|hold",
+  "verdict": "accept | adjust",
+  "adjustments": [
+    {"ticker": "SPY", "action": "increase|decrease|remove|add",
      "target_weight": 0.12, "reason": "motivo concreto basado en los datos"}
   ],
   "final_weights": {"SPY": 0.12, "GLD": 0.10, "IBM": 0.05},
-  "cash_weight": 0.30,
   "thesis": "2-4 frases: la lógica global de la cartera este ciclo.",
   "key_risks": ["riesgo 1", "riesgo 2"],
   "confidence": 0.0
@@ -166,11 +166,11 @@ valida contra las reglas duras y el motor de riesgo, y ejecuta en paper si pasa.
 
 Reglas del formato:
 - **`final_weights`** es la cartera COMPLETA que propones (fracciones de 100 €).
-  Es lo único que el código ejecuta; `actions` es la explicación legible.
-- `final_weights` **no incluye el cash**; el cash va en `cash_weight`.
-  Debe cumplirse: `suma(final_weights) + cash_weight ≈ 1.0`.
-- Si no cambias nada, usa `"verdict": "hold_all"` y repite los pesos actuales.
-- Cada `action` que no sea `hold` necesita `reason`.
+  Es lo único que el código ejecuta; `adjustments` es la explicación legible.
+- `final_weights` **no incluye el cash**; el cash es lo que sobra hasta 1.0.
+  Debe cumplirse: `suma(final_weights) ≤ presupuesto de riesgo`.
+- Si no cambias nada, usa `"verdict": "accept"` y repite los pesos actuales.
+- Cada `adjustment` necesita `reason`.
 - `confidence` entre 0 y 1: cómo de seguro estás del conjunto de decisiones.
 
 ---

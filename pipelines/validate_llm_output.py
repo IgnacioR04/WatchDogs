@@ -61,6 +61,17 @@ def parse_llm_response(text: str) -> dict[str, Any]:
     raise ValueError("no se encontro ningun objeto JSON en la respuesta del LLM")
 
 
+def _signal_tickers() -> set[str]:
+    """Tickers presentes en las señales del briefing (universo ampliado).
+
+    El system prompt permite operar tickers de la cartera candidata O de las
+    señales, siempre que tengan datos de precio. Esta funcion da la segunda
+    mitad de ese universo; la disponibilidad de precio se comprueba aparte.
+    """
+    signals = _load_json("signals_30d.json", default=[]) or []
+    return {(s.get("ticker") or "").upper() for s in signals if s.get("ticker")}
+
+
 def check_hard_constraints(weights: dict[str, float], allowed: set[str],
                            budget: float, max_position: float) -> list[str]:
     """Comprueba las restricciones duras. Devuelve la lista de violaciones."""
@@ -91,7 +102,9 @@ def validate_response(text: str) -> dict[str, Any]:
 
     profile = get_profile(prop.get("profile", "moderado"))
     budget = regime.get("recommended_risk_budget", 0.6)
-    allowed = set(prop.get("weights", {}).keys())
+    # Universo permitido = cartera candidata + tickers de las señales (igual
+    # que el system prompt). La existencia de datos de precio se exige despues.
+    allowed = set(prop.get("weights", {}).keys()) | _signal_tickers()
 
     parsed = parse_llm_response(text)
     weights = {str(k).upper(): float(v) for k, v in (parsed.get("final_weights") or {}).items()
@@ -116,6 +129,11 @@ def validate_response(text: str) -> dict[str, Any]:
 
     # Risk gate (mismas reglas que el allocator)
     returns = load_returns_matrix(list(weights.keys()))
+    # Regla dura: todo ticker propuesto debe tener historico de precio (sin el
+    # no se puede medir su riesgo). Coherente con el system prompt.
+    no_price = sorted(t for t in weights if t not in returns.columns)
+    if no_price:
+        hard.append(f"sin datos de precio (imposible medir riesgo): {', '.join(no_price)}")
     metrics = compute_metrics(weights, returns)
     limits = RiskLimits(max_position=profile.max_position, max_gross_exposure=1.0)
     gate = validate(weights, limits, regime_budget=budget, metrics=metrics)
