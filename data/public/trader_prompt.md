@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-05T23:34:21+00:00 -->
+<!-- trader_prompt.md generado 2026-07-06T04:55:45+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-05T23:34:21+00:00 · ventana señales 2026-06-05 -> 2026-07-05_
+_Generado 2026-07-06T04:55:45+00:00 · ventana señales 2026-06-06 -> 2026-07-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -314,7 +314,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.12 (0.1% / -0.38% / 0.46%) [2026-07-02]
 - GLD: 378.13 (2.03% / 2.35% / -7.29%) [2026-07-02]
 - ^VIX: 16.15 (-2.65% / -14.51% / 0.56%) [2026-07-02]
-- BTC-USD: 63633.04 (0.86% / 8.67% / -4.01%) [2026-07-05]
+- BTC-USD: 63269.36 (0.29% / 8.04% / -4.56%) [2026-07-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,12 +329,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
-- [CRWV] Why CoreWeave Stock Plummeted This Week (2026-07-05)
+- [CRWV] CoreWeave ( CRWV ) Launches AI - Enabled Research Agent , ARIA (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -349,11 +348,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- beet420 · PnL $70,220 · win rate 94% · categorias: sports
-- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $117,652 · win rate 90% · categorias: sports, crypto
-- ForesightOracle · PnL $85,979 · win rate 92% · categorias: politics, economy, sports
-- 0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681 · PnL $472,996 · win rate 79% · categorias: sports
-- ethanaz · PnL $92,266 · win rate 89% · categorias: sports, crypto
+- BreakTheBank · PnL $1,078,321 · win rate 88% · categorias: sports
+- RJW1 · PnL $202,003 · win rate 99% · categorias: sports
+- Sassy-Bucket · PnL $211,738 · win rate 91% · categorias: sports
+- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $133,465 · win rate 90% · categorias: sports, crypto
+- fgdfhr666 · PnL $72,880 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
