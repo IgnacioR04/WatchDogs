@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-06T21:18:51+00:00 -->
+<!-- trader_prompt.md generado 2026-07-06T22:55:31+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-06T21:18:51+00:00 · ventana señales 2026-06-06 -> 2026-07-06_
+_Generado 2026-07-06T22:55:31+00:00 · ventana señales 2026-06-06 -> 2026-07-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -232,37 +232,37 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | QQQ | 11.4% | core | 722.82 | 1.43% | 2.31% | -2.29% |
 | TLT | 11.4% | core | 85.45 | -0.07% | -1.83% | 0.31% |
 | GLD | 8.6% | core | 382.13 | 1.06% | 2.27% | -7.09% |
-| MFG | 6.7% | satellite | 10.35 | 4.12% | 6.59% | 5.72% |
-| BBSI | 5.9% | satellite | 37.61 | -0.79% | 4.3% | 15.72% |
 | IEF | 5.7% | core | 94.18 | 0.06% | -0.57% | 0.39% |
-| GH | 3.5% | satellite | 168.82 | 0.5% | 13.13% | 26.88% |
-| NXDR | 3.4% | satellite | 2.3 | 0.44% | 3.6% | 6.98% |
-| GTM | 3.3% | satellite | 2.93 | -2.01% | 1.38% | -3.3% |
-| SMCI | 2.4% | satellite | 27.19 | -0.11% | -11.23% | -42.03% |
-| CSIQ | 2.2% | satellite | 15.15 | 4.77% | -1.56% | -22.19% |
-| ARQQ | 1.8% | satellite | 22.13 | -5.89% | -8.78% | 55.63% |
-| INDP | 1.0% | satellite | 2.85 | -5.94% | -16.42% | -40.0% |
-| ADTX | 0.6% | satellite | 0.0 | -12.0% | 120.0% | -94.29% |
+| PUBM | 4.8% | satellite | 13.52 | -0.22% | 6.88% | 13.8% |
+| VEEV | 4.7% | satellite | 192.01 | -0.38% | 12.05% | 7.51% |
+| NXDR | 4.3% | satellite | 2.3 | 0.44% | 3.6% | 6.98% |
+| INTU | 3.6% | satellite | 272.14 | -1.17% | 1.65% | -9.88% |
+| W | 3.2% | satellite | 93.18 | -1.4% | -1.37% | 28.54% |
+| JOBY | 3.1% | satellite | 8.92 | 5.06% | 1.02% | -19.93% |
+| GTM | 2.5% | satellite | 2.93 | -2.01% | 1.38% | -3.3% |
+| CIFR | 2.2% | satellite | 21.73 | 8.43% | -16.23% | -14.95% |
+| ARQQ | 1.6% | satellite | 22.13 | -5.89% | -8.78% | 55.63% |
+| ZSPC | 0.7% | satellite | 0.18 | -6.74% | 0.0% | -12.62% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.6%
-- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.7%
-- Max drawdown historico: -12.6%
-- Beta vs SPY: 0.828 · posiciones efectivas: 15.6 · HHI: 0.0642
+- Volatilidad anualizada: 16.2%
+- VaR 95% 1d: 1.6% · CVaR 95% 1d: 2.0%
+- Max drawdown historico: -7.2%
+- Beta vs SPY: 0.842 · posiciones efectivas: 16.1 · HHI: 0.0623
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **GTM** · score agregado 1018.0 · 17 señales · fuentes: corporate_insider
-- **GH** · score agregado 715.2 · 12 señales · fuentes: corporate_insider
-- **MFG** · score agregado 583.0 · 10 señales · fuentes: corporate_insider
-- **ARQQ** · score agregado 333.6 · 6 señales · fuentes: corporate_insider
+- **ARQQ** · score agregado 1360.6 · 23 señales · fuentes: corporate_insider
+- **JOBY** · score agregado 1097.6 · 18 señales · fuentes: corporate_insider
+- **GTM** · score agregado 1081.0 · 18 señales · fuentes: corporate_insider
+- **W** · score agregado 541.2 · 9 señales · fuentes: corporate_insider
+- **INTU** · score agregado 396.4 · 7 señales · fuentes: corporate_insider
+- **PUBM** · score agregado 366.6 · 6 señales · fuentes: corporate_insider
+- **CIFR** · score agregado 354.0 · 6 señales · fuentes: corporate_insider
+- **VEEV** · score agregado 303.8 · 5 señales · fuentes: corporate_insider
 - **NXDR** · score agregado 297.0 · 5 señales · fuentes: corporate_insider
-- **ADTX** · score agregado 280.5 · 4 señales · fuentes: large_holder
-- **SMCI** · score agregado 277.4 · 5 señales · fuentes: corporate_insider
-- **INDP** · score agregado 276.0 · 4 señales · fuentes: large_holder
-- **BBSI** · score agregado 248.8 · 4 señales · fuentes: corporate_insider, large_holder
-- **CSIQ** · score agregado 236.0 · 4 señales · fuentes: corporate_insider
+- **ZSPC** · score agregado 292.0 · 5 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -271,7 +271,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BBSI | 72 | large_holder | Private Capital Managemen |  | - | - |
-| APPN | 72 | large_holder | Lead Edge Capital Managem |  | - | - |
+| TOFB | 72 | large_holder | LPL Financial LLC |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | CTM | 70 | corporate_insider | Ives Glen R | 4 | $772 | cluster_buy,small_amount |
 | ARTW | 70 | large_holder | Walther Larry M |  | - | - |
@@ -283,21 +283,21 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | WOLF | 70 | large_holder | Capital Research Global I |  | - | - |
 | LFVN | 70 | large_holder | The Capital Management Co |  | - | - |
 | TSQ | 70 | large_holder | The Capital Management Co |  | - | - |
-| RAY | 70 | large_holder | HASH DIGITAL INVESTMENT L |  | - | - |
-| RYDE | 70 | large_holder | HASH DIGITAL INVESTMENT L |  | - | - |
+| EVF | 70 | large_holder | Royal Bank of Canada |  | - | - |
+| EVF | 70 | large_holder | Royal Bank of Canada |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MFG | 76 | corporate_insider | Take Hidekatsu | $336,166,416 | cluster_buy |
-| MFG | 76 | corporate_insider | Kihara Masahiro | $3,230,401,438 | cluster_buy |
-| MFG | 75 | corporate_insider | Sugawara Masayuki | $215,227,947 | cluster_buy |
-| MFG | 75 | corporate_insider | Matsuura Shuji | $122,982,192 | cluster_buy |
-| MFG | 75 | corporate_insider | Kaminoyama Nobuhiro | $282,512,034 | cluster_buy |
-| MFG | 75 | corporate_insider | Inomata Naoshi | $302,206,732 | cluster_buy |
-| MFG | 74 | corporate_insider | Yonezawa Takefumi | $72,624,878 | cluster_buy |
-| MFG | 74 | corporate_insider | Yagi Minako | $72,624,878 | cluster_buy |
+| PUBM | 72 | corporate_insider | Goel Rajeev K. | $687,257 | cluster_buy |
+| INDI | 72 | corporate_insider | McClymont Donald | $563,072 | cluster_buy |
+| ARQQ | 70 | corporate_insider | Leaver Andrew | $249,329 | cluster_buy |
+| PUBM | 70 | corporate_insider | Goel Rajeev K. | $238,990 | cluster_buy |
+| PUBM | 70 | corporate_insider | Pantelick Steven | $321,395 | cluster_buy |
+| JOBY | 69 | corporate_insider | Bevirt JoeBen | $140,829 | cluster_buy |
+| NUVL | 69 | corporate_insider | Balcom Alexandra | $1,412,519 | cluster_buy |
+| PUBM | 69 | corporate_insider | Goel Rajeev K. | $118,150 | cluster_buy |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -314,7 +314,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.18 (0.06% / -0.57% / 0.39%) [2026-07-06]
 - GLD: 382.13 (1.06% / 2.27% / -7.09%) [2026-07-06]
 - ^VIX: 15.57 (-3.59% / -15.43% / 1.1%) [2026-07-06]
-- BTC-USD: 64198.77 (1.02% / 6.99% / -2.14%) [2026-07-06]
+- BTC-USD: 64158.74 (0.96% / 6.92% / -2.2%) [2026-07-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,37 +329,37 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), legal (4), ai (3), regulatory (3)
+**Temas dominantes**: regulatory (2), legal (1), ai (1), leadership (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [GTM] 2026 - 06 - 30 | GTM Breaking News : ZoomInfo Technologies Inc . Sued for Securities Fraud after AI Integration Issues Lead to a 33 % Stock Drop - Investors Notified to Contact BFA Law | NDAQ : GTM (2026-06-30)
-- [GTM] Bronstein , Gewirtz & Grossman LLC Urges ZoomInfo Technologies Inc . Investors to Act : Class Action Filed Alleging Investor Harm (2026-06-30)
-- [GTM] GTM Stockholder Alert : Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Against ZoomInfo Technologies Inc . (2026-06-29)
-- [GTM] GTM Stockholder Alert : Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Against ZoomInfo Technologies Inc . (2026-06-29)
-- [ACVA] ACV Auctions ( ACVA ) Fell Despite Positive Structural Advantages (2026-06-29)
-- [GTM] 2026 - 06 - 26 | Investor Notice : Robbins LLP Informs Investors of the ZoomInfo Technologies Inc . Class Action Lawsuit | NDAQ : GTM (2026-06-27)
-- [GTM] ZoomInfo Technologies ( NASDAQ : GTM ) Shares Up 8 . 2 % – Time to Buy ? (2026-06-26)
-- [GH] Insider Selling : Guardant Health ( NASDAQ : GH ) Director Sells $204 , 084 . 96 in Stock (2026-06-24)
+- [AVAV] AeroVironment , Inc . ( AVAV ) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (2026-07-06)
+- [AVAV] Lost Money on AeroVironment , Inc . ( AVAV )? Join Class Action Before ... (2026-07-05)
+- [AVAV] Investors in AeroVironment , Inc . ( AVAV ): Protect Your Rights – Contact ... (2026-07-05)
+- [AVAV] 2026 - 07 - 04 | AVAV DEADLINE ALERT : ROSEN , GLOBAL INVESTOR COUNSEL , Encourages AeroVironment , Inc . Investors With Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - AVAV | NDAQ : AVAV (2026-07-05)
+- [JOBY] Price Prediction : Joby Aviation High - Risk , High - Reward Path to 30 % Upside (2026-06-30)
+- [JOBY] Joby & Toyota Launch Strategic Air Mobility Alliance (2026-06-30)
+- [JOBY] Joby Aviation ( NYSE : JOBY ) vs . easyjet ( OTCMKTS : EJTTF ) Critical Comparison (2026-06-30)
+- [PUBM] PubMatic ( NASDAQ : PUBM ) CEO Rajeev Goel Sells 43 , 077 Shares of Stock (2026-06-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- Director Take Hidekatsu vendio MFG por $336.2M el 2026-07-01.
-- Director Kihara Masahiro vendio MFG por $3.2B el 2026-07-01.
+- CEO Peter Warwick opero SCHL por $390.8M el 2026-07-01.
+- CEO Gilboa David Abraham vendio WRBY por $7.2M el 2026-07-01.
+- CEO Blumenthal Neil Harris vendio WRBY por $6.4M el 2026-07-01.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.
 - Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
-- Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,438,502 · win rate 88% · categorias: sports
-- RJW1 · PnL $141,170 · win rate 99% · categorias: sports
-- Sassy-Bucket · PnL $212,034 · win rate 91% · categorias: sports
-- fgdfhr666 · PnL $89,884 · win rate 94% · categorias: sports
-- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $133,465 · win rate 90% · categorias: sports, crypto
+- RJW1 · PnL $372,823 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $882,152 · win rate 88% · categorias: sports
+- shijiebeifacai · PnL $160,312 · win rate 98% · categorias: sports
+- Allezpapa · PnL $123,781 · win rate 99% · categorias: sports
+- CandleHammerDrums · PnL $185,287 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -367,7 +367,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 68 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 562 registros 30d · ultimo dato 2026-07-06
+- **sec_insiders**: `ok` · 673 registros 30d · ultimo dato 2026-07-06
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-06
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -380,7 +380,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADTX, ARQQ, BBSI, CSIQ, GH, GLD, GTM, IEF, INDP, MFG, NXDR, QQQ, SMCI, SPY, TLT`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`ARQQ, CIFR, GLD, GTM, IEF, INTU, JOBY, NXDR, PUBM, QQQ, SPY, TLT, VEEV, W, ZSPC`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
