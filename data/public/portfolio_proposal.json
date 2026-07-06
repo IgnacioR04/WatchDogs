@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-06T09:26:53+00:00",
+  "generated_at": "2026-07-06T13:17:22+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "BBSI": 0.0684,
+    "BBSI": 0.068,
+    "IBM": 0.0602,
     "IEF": 0.0572,
-    "KEQU": 0.0442,
-    "GH": 0.0409,
-    "NXDR": 0.0397,
-    "SMCI": 0.0278,
-    "CRWV": 0.0252,
-    "CIFR": 0.0221,
-    "FEAM": 0.0212,
-    "INDP": 0.0119,
-    "ADTX": 0.0066
+    "GH": 0.0406,
+    "NXDR": 0.0395,
+    "SMCI": 0.0277,
+    "CIFR": 0.022,
+    "FEAM": 0.0211,
+    "INDP": 0.0118,
+    "RYDE": 0.0107,
+    "ADTX": 0.0065
   },
   "core": {
     "SPY": 0.182,
@@ -29,34 +29,18 @@
     "GLD": 0.078
   },
   "satellite": {
-    "BBSI": 0.0622,
-    "SMCI": 0.0253,
-    "GH": 0.0372,
-    "FEAM": 0.0193,
-    "CIFR": 0.0201,
-    "CRWV": 0.0229,
-    "NXDR": 0.0361,
-    "ADTX": 0.006,
-    "INDP": 0.0108,
-    "KEQU": 0.0402
+    "GH": 0.0369,
+    "FEAM": 0.0192,
+    "CIFR": 0.02,
+    "SMCI": 0.0252,
+    "NXDR": 0.0359,
+    "ADTX": 0.0059,
+    "INDP": 0.0107,
+    "BBSI": 0.0618,
+    "RYDE": 0.0097,
+    "IBM": 0.0547
   },
   "satellite_rationale": [
-    {
-      "ticker": "BBSI",
-      "score": 844.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 14
-    },
-    {
-      "ticker": "SMCI",
-      "score": 725.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 12
-    },
     {
       "ticker": "GH",
       "score": 715.2,
@@ -82,12 +66,12 @@
       "n_signals": 10
     },
     {
-      "ticker": "CRWV",
-      "score": 542.8,
+      "ticker": "SMCI",
+      "score": 415.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 9
+      "n_signals": 7
     },
     {
       "ticker": "NXDR",
@@ -114,26 +98,42 @@
       "n_signals": 4
     },
     {
-      "ticker": "KEQU",
-      "score": 253.0,
+      "ticker": "BBSI",
+      "score": 236.0,
       "sources": [
-        "corporate_insider",
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "RYDE",
+      "score": 211.5,
+      "sources": [
         "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "IBM",
+      "score": 210.0,
+      "sources": [
+        "congress",
+        "corporate_insider"
       ],
       "n_signals": 4
     }
   ],
   "metrics": {
-    "ann_vol": 0.1372,
-    "var_95_1d": 0.0138,
-    "cvar_95_1d": 0.018,
-    "max_drawdown": -0.1439,
-    "beta_spy": 0.858,
-    "hhi": 0.0636,
+    "ann_vol": 0.1334,
+    "var_95_1d": 0.0134,
+    "cvar_95_1d": 0.0175,
+    "max_drawdown": -0.1271,
+    "beta_spy": 0.815,
+    "hhi": 0.0647,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 15.7,
-    "gross_exposure": 0.7998,
+    "effective_positions": 15.5,
+    "gross_exposure": 0.7999,
     "days_used": 269
   },
   "risk_gate": {
