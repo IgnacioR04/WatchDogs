@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-06T16:47:04+00:00",
+  "generated_at": "2026-07-06T19:21:57+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7997,
+  "cash": 0.2003,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "MFG": 0.0776,
+    "BBSI": 0.0699,
+    "MFG": 0.0669,
     "IEF": 0.0572,
-    "BABA": 0.0551,
-    "GH": 0.0406,
-    "NXDR": 0.0394,
-    "SMCI": 0.0277,
-    "CIFR": 0.0219,
-    "CALC": 0.0167,
-    "INDP": 0.0118,
-    "RYDE": 0.0107,
-    "ADTX": 0.0065
+    "BABA": 0.0523,
+    "SMCI": 0.0268,
+    "CSIQ": 0.0241,
+    "CRWV": 0.0207,
+    "CWBHF": 0.0167,
+    "INDP": 0.0123,
+    "RYDE": 0.0113,
+    "ADTX": 0.0069
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "MFG": 0.0705,
-    "GH": 0.0369,
-    "CIFR": 0.0199,
-    "NXDR": 0.0358,
-    "ADTX": 0.0059,
-    "SMCI": 0.0252,
-    "INDP": 0.0107,
-    "BABA": 0.0501,
-    "RYDE": 0.0097,
-    "CALC": 0.0152
+    "MFG": 0.0608,
+    "BBSI": 0.0635,
+    "CRWV": 0.0188,
+    "SMCI": 0.0244,
+    "INDP": 0.0112,
+    "CWBHF": 0.0152,
+    "CSIQ": 0.0219,
+    "BABA": 0.0475,
+    "RYDE": 0.0103,
+    "ADTX": 0.0063
   },
   "satellite_rationale": [
     {
@@ -50,50 +50,50 @@
       "n_signals": 13
     },
     {
-      "ticker": "GH",
-      "score": 715.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 12
-    },
-    {
-      "ticker": "CIFR",
-      "score": 629.0,
+      "ticker": "BBSI",
+      "score": 568.0,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 10
     },
     {
-      "ticker": "NXDR",
-      "score": 297.0,
+      "ticker": "CRWV",
+      "score": 542.8,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "ADTX",
-      "score": 280.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 4
+      "n_signals": 9
     },
     {
       "ticker": "SMCI",
-      "score": 277.4,
+      "score": 512.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
+      "n_signals": 9
     },
     {
       "ticker": "INDP",
       "score": 276.0,
       "sources": [
         "large_holder"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "CWBHF",
+      "score": 240.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "CSIQ",
+      "score": 236.0,
+      "sources": [
+        "corporate_insider"
       ],
       "n_signals": 4
     },
@@ -114,8 +114,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "CALC",
-      "score": 208.5,
+      "ticker": "ADTX",
+      "score": 210.0,
       "sources": [
         "large_holder"
       ],
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1373,
-    "var_95_1d": 0.0135,
-    "cvar_95_1d": 0.0186,
-    "max_drawdown": -0.1301,
-    "beta_spy": 0.856,
-    "hhi": 0.0653,
+    "ann_vol": 0.1483,
+    "var_95_1d": 0.0134,
+    "cvar_95_1d": 0.0209,
+    "max_drawdown": -0.1002,
+    "beta_spy": 0.683,
+    "hhi": 0.0656,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 15.3,
-    "gross_exposure": 0.7998,
-    "days_used": 269
+    "effective_positions": 15.2,
+    "gross_exposure": 0.7997,
+    "days_used": 316
   },
   "risk_gate": {
     "passed": true,

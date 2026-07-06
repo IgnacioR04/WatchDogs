@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-06T16:47:05+00:00 · ventana señales 2026-06-06 -> 2026-07-06_
+_Generado 2026-07-06T19:21:58+00:00 · ventana señales 2026-06-06 -> 2026-07-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.91)
-- Tendencia: `bull` (SPY 750.58 · MA50 736.73 · MA200 689.22 · dist MA200: 8.9%)
+- Volatilidad: `normal` (VIX 15.67)
+- Tendencia: `bull` (SPY 752.22 · MA50 736.77 · MA200 689.23 · dist MA200: 9.14%)
 - Credito: `unknown` (HY spread None)
 - Tipos: `unknown` (curva 10y-2y None)
 - Motivos: tendencia alcista (+)
@@ -22,41 +22,41 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 750.58 | 0.78% | 2.96% | -0.6% |
-| QQQ | 11.4% | core | 724.01 | 1.6% | 2.48% | -2.13% |
-| TLT | 11.4% | core | 85.3 | -0.25% | -2.0% | 0.13% |
-| GLD | 8.6% | core | 380.77 | 0.7% | 1.91% | -7.42% |
-| MFG | 7.8% | satellite | 10.3 | 3.58% | 6.03% | 5.16% |
-| IEF | 5.7% | core | 94.09 | -0.03% | -0.66% | 0.3% |
-| BABA | 5.5% | satellite | 97.48 | 1.39% | 2.82% | -21.89% |
-| GH | 4.1% | satellite | 171.69 | 2.21% | 15.06% | 29.03% |
-| NXDR | 3.9% | satellite | 2.34 | 2.18% | 5.41% | 8.84% |
-| SMCI | 2.8% | satellite | 27.27 | 0.18% | -10.97% | -41.86% |
-| CIFR | 2.2% | satellite | 22.25 | 11.03% | -14.23% | -12.92% |
-| CALC | 1.7% | satellite | 0.92 | -4.88% | 12.49% | 7.86% |
-| INDP | 1.2% | satellite | 2.72 | -10.23% | -20.23% | -42.74% |
-| RYDE | 1.1% | satellite | 0.66 | -5.47% | 8.3% | -28.08% |
-| ADTX | 0.7% | satellite | 0.0 | -18.0% | 105.0% | -94.68% |
+| SPY | 12.0% | core | 752.22 | 1.0% | 3.19% | -0.39% |
+| QQQ | 11.4% | core | 724.85 | 1.72% | 2.59% | -2.02% |
+| TLT | 11.4% | core | 85.36 | -0.17% | -1.92% | 0.21% |
+| GLD | 8.6% | core | 381.98 | 1.02% | 2.23% | -7.12% |
+| BBSI | 7.0% | satellite | 37.71 | -0.53% | 4.58% | 16.03% |
+| MFG | 6.7% | satellite | 10.34 | 3.97% | 6.44% | 5.57% |
+| IEF | 5.7% | core | 94.13 | 0.01% | -0.62% | 0.34% |
+| BABA | 5.2% | satellite | 97.65 | 1.58% | 3.0% | -21.75% |
+| SMCI | 2.7% | satellite | 26.93 | -1.07% | -12.08% | -42.58% |
+| CSIQ | 2.4% | satellite | 15.19 | 5.01% | -1.33% | -22.01% |
+| CRWV | 2.1% | satellite | 85.96 | 5.15% | -11.0% | -20.43% |
+| CWBHF | 1.7% | satellite | 0.32 | -2.14% | 2.89% | -23.26% |
+| INDP | 1.2% | satellite | 2.75 | -9.24% | -19.35% | -42.11% |
+| RYDE | 1.1% | satellite | 0.62 | -11.34% | 1.57% | -32.54% |
+| ADTX | 0.7% | satellite | 0.0 | -10.0% | 125.0% | -94.16% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.7%
-- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.9%
-- Max drawdown historico: -13.0%
-- Beta vs SPY: 0.856 · posiciones efectivas: 15.3 · HHI: 0.0653
+- Volatilidad anualizada: 14.8%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 2.1%
+- Max drawdown historico: -10.0%
+- Beta vs SPY: 0.683 · posiciones efectivas: 15.2 · HHI: 0.0656
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **MFG** · score agregado 758.0 · 13 señales · fuentes: corporate_insider
-- **GH** · score agregado 715.2 · 12 señales · fuentes: corporate_insider
-- **CIFR** · score agregado 629.0 · 10 señales · fuentes: corporate_insider
-- **NXDR** · score agregado 297.0 · 5 señales · fuentes: corporate_insider
-- **ADTX** · score agregado 280.5 · 4 señales · fuentes: large_holder
-- **SMCI** · score agregado 277.4 · 5 señales · fuentes: corporate_insider
+- **BBSI** · score agregado 568.0 · 10 señales · fuentes: corporate_insider
+- **CRWV** · score agregado 542.8 · 9 señales · fuentes: corporate_insider
+- **SMCI** · score agregado 512.4 · 9 señales · fuentes: corporate_insider
 - **INDP** · score agregado 276.0 · 4 señales · fuentes: large_holder
+- **CWBHF** · score agregado 240.0 · 4 señales · fuentes: corporate_insider
+- **CSIQ** · score agregado 236.0 · 4 señales · fuentes: corporate_insider
 - **BABA** · score agregado 228.0 · 4 señales · fuentes: corporate_insider
 - **RYDE** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **CALC** · score agregado 208.5 · 3 señales · fuentes: large_holder
+- **ADTX** · score agregado 210.0 · 3 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,34 +64,34 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| APPN | 72 | large_holder | Lead Edge Capital Managem |  | - | - |
 | SVRE | 72 | corporate_insider | VisionWave Holdings, Inc. | 0 | $1,135,938,816 | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| CTM | 70 | corporate_insider | Ives Glen R | 4 | $772 | cluster_buy,small_amount |
 | ARTW | 70 | large_holder | Walther Larry M |  | - | - |
 | ARTW | 70 | large_holder | Walther Larry M |  | - | - |
 | DYAI | 70 | large_holder | Francisco Trust under agr |  | - | - |
 | TDIC | 70 | large_holder | IMPERIAL VISION FUND SPC  |  | - | - |
+| MRTN | 70 | large_holder | Nuance Investments LLC |  | - | - |
+| HAL | 70 | large_holder | Capital Research Global I |  | - | - |
+| WOLF | 70 | large_holder | Capital Research Global I |  | - | - |
+| LFVN | 70 | large_holder | The Capital Management Co |  | - | - |
+| TSQ | 70 | large_holder | The Capital Management Co |  | - | - |
 | RAY | 70 | large_holder | HASH DIGITAL INVESTMENT L |  | - | - |
 | RYDE | 70 | large_holder | HASH DIGITAL INVESTMENT L |  | - | - |
 | RYDE | 70 | large_holder | HOYANG DEVELOPMENT LIMITE |  | - | - |
 | TATT | 70 | large_holder | I.B.I. Investments House  |  | - | - |
-| WILC | 70 | large_holder | MEITAV INVESTMENT HOUSE L |  | - | - |
-| NINE | 70 | large_holder | Algebris Investments (US) |  | - | - |
-| ALMR | 70 | large_holder | SHERPA HEALTHCARE FUND II |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| CRWV | 78 | corporate_insider | Intrator Michael N | $7,517,406 | cluster_buy |
+| CRWV | 78 | corporate_insider | Intrator Michael N | $7,495,165 | cluster_buy |
+| CRWV | 77 | corporate_insider | Intrator Michael N | $4,652,706 | cluster_buy |
+| CRWV | 76 | corporate_insider | Intrator Michael N | $4,135,335 | cluster_buy |
+| CRWV | 76 | corporate_insider | Intrator Michael N | $4,035,866 | cluster_buy |
 | MFG | 76 | corporate_insider | Take Hidekatsu | $336,166,416 | cluster_buy |
 | MFG | 76 | corporate_insider | Kihara Masahiro | $3,230,401,438 | cluster_buy |
-| MFG | 75 | corporate_insider | Akita Natsumi | $156,907,278 | cluster_buy |
-| MFG | 75 | corporate_insider | Sugawara Masayuki | $215,227,947 | cluster_buy |
-| MFG | 75 | corporate_insider | Matsuura Shuji | $122,982,192 | cluster_buy |
-| MFG | 75 | corporate_insider | Kaminoyama Nobuhiro | $282,512,034 | cluster_buy |
-| MFG | 75 | corporate_insider | Inomata Naoshi | $302,206,732 | cluster_buy |
-| MFG | 74 | corporate_insider | Yonezawa Takefumi | $72,624,878 | cluster_buy |
+| CRWV | 75 | corporate_insider | Intrator Michael N | $2,505,319 | cluster_buy |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 750.58 (0.78% / 2.96% / -0.6%) [2026-07-06]
-- QQQ: 724.01 (1.6% / 2.48% / -2.13%) [2026-07-06]
-- IWM: 300.18 (0.87% / 0.12% / 3.04%) [2026-07-06]
-- DIA: 528.35 (0.09% / 2.05% / 2.53%) [2026-07-06]
-- TLT: 85.3 (-0.25% / -2.0% / 0.13%) [2026-07-06]
-- IEF: 94.09 (-0.03% / -0.66% / 0.3%) [2026-07-06]
-- GLD: 380.77 (0.7% / 1.91% / -7.42%) [2026-07-06]
-- ^VIX: 15.91 (-1.49% / -13.58% / 3.31%) [2026-07-06]
-- BTC-USD: 63693.7 (0.23% / 6.15% / -2.91%) [2026-07-06]
+- SPY: 752.22 (1.0% / 3.19% / -0.39%) [2026-07-06]
+- QQQ: 724.85 (1.72% / 2.59% / -2.02%) [2026-07-06]
+- IWM: 299.29 (0.57% / -0.18% / 2.74%) [2026-07-06]
+- DIA: 529.24 (0.26% / 2.22% / 2.71%) [2026-07-06]
+- TLT: 85.36 (-0.17% / -1.92% / 0.21%) [2026-07-06]
+- IEF: 94.13 (0.01% / -0.62% / 0.34%) [2026-07-06]
+- GLD: 381.98 (1.02% / 2.23% / -7.12%) [2026-07-06]
+- ^VIX: 15.67 (-2.97% / -14.88% / 1.75%) [2026-07-06]
+- BTC-USD: 63803.29 (0.4% / 6.33% / -2.74%) [2026-07-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,25 +123,30 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: stock (1), ai (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [CRWV] Should You Buy the Dip in CoreWeave Stock ? (2026-07-06)
+- [CRWV] CoreWeave ( CRWV ) Launches AI - Enabled Research Agent , ARIA (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Senior Loan Trust por $24.0M el 2026-06-30.
+- CEO ARCHER TIMOTHY vendio LRCX por $11.7M el 2026-07-02 [senal en multiples fuentes].
 - Director VisionWave Holdings, Inc. compro SVRE por $1.1B el 2026-06-16.
-- CEO Gilboa David Abraham vendio WRBY por $7.2M el 2026-07-01.
-- CEO Blumenthal Neil Harris vendio WRBY por $6.4M el 2026-07-01.
+- CEO Volozh Arkadiy vendio NBIS por $11.0M el 2026-07-01.
 - Director Take Hidekatsu vendio MFG por $336.2M el 2026-07-01.
 - Director Kihara Masahiro vendio MFG por $3.2B el 2026-07-01.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,112,997 · win rate 88% · categorias: sports
-- RJW1 · PnL $182,416 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $1,120,384 · win rate 88% · categorias: sports
+- RJW1 · PnL $176,244 · win rate 99% · categorias: sports
 - Sassy-Bucket · PnL $212,034 · win rate 91% · categorias: sports
-- fgdfhr666 · PnL $74,132 · win rate 94% · categorias: sports
+- fgdfhr666 · PnL $76,458 · win rate 94% · categorias: sports
 - 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $133,465 · win rate 90% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -150,8 +155,8 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 - Estado global: `ok`
 - **congress**: `ok` · 68 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 389 registros 30d · ultimo dato 2026-07-03
-- **sec_13d_13g**: `ok` · 247 registros 30d · ultimo dato 2026-07-06
+- **sec_insiders**: `ok` · 468 registros 30d · ultimo dato 2026-07-06
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-06
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -163,7 +168,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADTX, BABA, CALC, CIFR, GH, GLD, IEF, INDP, MFG, NXDR, QQQ, RYDE, SMCI, SPY, TLT`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`ADTX, BABA, BBSI, CRWV, CSIQ, CWBHF, GLD, IEF, INDP, MFG, QQQ, RYDE, SMCI, SPY, TLT`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
