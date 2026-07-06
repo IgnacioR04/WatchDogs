@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-06T13:17:22+00:00",
+  "generated_at": "2026-07-06T16:47:04+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7999,
-  "cash": 0.2001,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "BBSI": 0.068,
-    "IBM": 0.0602,
+    "MFG": 0.0776,
     "IEF": 0.0572,
+    "BABA": 0.0551,
     "GH": 0.0406,
-    "NXDR": 0.0395,
+    "NXDR": 0.0394,
     "SMCI": 0.0277,
-    "CIFR": 0.022,
-    "FEAM": 0.0211,
+    "CIFR": 0.0219,
+    "CALC": 0.0167,
     "INDP": 0.0118,
     "RYDE": 0.0107,
     "ADTX": 0.0065
@@ -29,29 +29,29 @@
     "GLD": 0.078
   },
   "satellite": {
+    "MFG": 0.0705,
     "GH": 0.0369,
-    "FEAM": 0.0192,
-    "CIFR": 0.02,
-    "SMCI": 0.0252,
-    "NXDR": 0.0359,
+    "CIFR": 0.0199,
+    "NXDR": 0.0358,
     "ADTX": 0.0059,
+    "SMCI": 0.0252,
     "INDP": 0.0107,
-    "BBSI": 0.0618,
+    "BABA": 0.0501,
     "RYDE": 0.0097,
-    "IBM": 0.0547
+    "CALC": 0.0152
   },
   "satellite_rationale": [
     {
-      "ticker": "GH",
-      "score": 715.2,
+      "ticker": "MFG",
+      "score": 758.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 12
+      "n_signals": 13
     },
     {
-      "ticker": "FEAM",
-      "score": 708.0,
+      "ticker": "GH",
+      "score": 715.2,
       "sources": [
         "corporate_insider"
       ],
@@ -64,14 +64,6 @@
         "corporate_insider"
       ],
       "n_signals": 10
-    },
-    {
-      "ticker": "SMCI",
-      "score": 415.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 7
     },
     {
       "ticker": "NXDR",
@@ -90,6 +82,14 @@
       "n_signals": 4
     },
     {
+      "ticker": "SMCI",
+      "score": 277.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 5
+    },
+    {
       "ticker": "INDP",
       "score": 276.0,
       "sources": [
@@ -98,8 +98,8 @@
       "n_signals": 4
     },
     {
-      "ticker": "BBSI",
-      "score": 236.0,
+      "ticker": "BABA",
+      "score": 228.0,
       "sources": [
         "corporate_insider"
       ],
@@ -114,26 +114,25 @@
       "n_signals": 3
     },
     {
-      "ticker": "IBM",
-      "score": 210.0,
+      "ticker": "CALC",
+      "score": 208.5,
       "sources": [
-        "congress",
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 4
+      "n_signals": 3
     }
   ],
   "metrics": {
-    "ann_vol": 0.1334,
-    "var_95_1d": 0.0134,
-    "cvar_95_1d": 0.0175,
-    "max_drawdown": -0.1271,
-    "beta_spy": 0.815,
-    "hhi": 0.0647,
+    "ann_vol": 0.1373,
+    "var_95_1d": 0.0135,
+    "cvar_95_1d": 0.0186,
+    "max_drawdown": -0.1301,
+    "beta_spy": 0.856,
+    "hhi": 0.0653,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 15.5,
-    "gross_exposure": 0.7999,
+    "effective_positions": 15.3,
+    "gross_exposure": 0.7998,
     "days_used": 269
   },
   "risk_gate": {
