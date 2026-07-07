@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-06T22:55:30+00:00",
+  "generated_at": "2026-07-07T00:38:33+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7997,
-  "cash": 0.2003,
+  "total_equity": 0.8001,
+  "cash": 0.1999,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "PUBM": 0.0479,
-    "VEEV": 0.0469,
-    "NXDR": 0.0428,
-    "INTU": 0.0365,
-    "W": 0.032,
-    "JOBY": 0.0307,
-    "GTM": 0.0255,
-    "CIFR": 0.0222,
-    "ARQQ": 0.0162,
-    "ZSPC": 0.0072
+    "CWK": 0.0533,
+    "PUBM": 0.044,
+    "VEEV": 0.0431,
+    "TOST": 0.0403,
+    "INTU": 0.0336,
+    "JOBY": 0.0283,
+    "GTM": 0.0234,
+    "CDLX": 0.0208,
+    "ARQQ": 0.0149,
+    "ZSPC": 0.0066
   },
   "core": {
     "SPY": 0.182,
@@ -29,18 +29,26 @@
     "GLD": 0.078
   },
   "satellite": {
-    "ARQQ": 0.0147,
-    "JOBY": 0.0279,
-    "GTM": 0.0232,
-    "W": 0.0291,
-    "INTU": 0.0332,
-    "PUBM": 0.0435,
-    "CIFR": 0.0202,
-    "VEEV": 0.0426,
-    "NXDR": 0.0389,
-    "ZSPC": 0.0065
+    "INTU": 0.0305,
+    "ARQQ": 0.0135,
+    "TOST": 0.0366,
+    "JOBY": 0.0257,
+    "GTM": 0.0213,
+    "PUBM": 0.04,
+    "CWK": 0.0484,
+    "CDLX": 0.0189,
+    "VEEV": 0.0392,
+    "ZSPC": 0.006
   },
   "satellite_rationale": [
+    {
+      "ticker": "INTU",
+      "score": 1514.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 25
+    },
     {
       "ticker": "ARQQ",
       "score": 1360.6,
@@ -48,6 +56,14 @@
         "corporate_insider"
       ],
       "n_signals": 23
+    },
+    {
+      "ticker": "TOST",
+      "score": 1226.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 20
     },
     {
       "ticker": "JOBY",
@@ -66,22 +82,6 @@
       "n_signals": 18
     },
     {
-      "ticker": "W",
-      "score": 541.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 9
-    },
-    {
-      "ticker": "INTU",
-      "score": 396.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 7
-    },
-    {
       "ticker": "PUBM",
       "score": 366.6,
       "sources": [
@@ -90,8 +90,16 @@
       "n_signals": 6
     },
     {
-      "ticker": "CIFR",
-      "score": 354.0,
+      "ticker": "CWK",
+      "score": 358.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
+    },
+    {
+      "ticker": "CDLX",
+      "score": 340.4,
       "sources": [
         "corporate_insider"
       ],
@@ -100,14 +108,6 @@
     {
       "ticker": "VEEV",
       "score": 303.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "NXDR",
-      "score": 297.0,
       "sources": [
         "corporate_insider"
       ],
@@ -123,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1623,
-    "var_95_1d": 0.0155,
-    "cvar_95_1d": 0.0199,
-    "max_drawdown": -0.0722,
-    "beta_spy": 0.842,
-    "hhi": 0.0623,
+    "ann_vol": 0.1481,
+    "var_95_1d": 0.0131,
+    "cvar_95_1d": 0.018,
+    "max_drawdown": -0.0642,
+    "beta_spy": 0.727,
+    "hhi": 0.0626,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.1,
-    "gross_exposure": 0.7997,
+    "effective_positions": 16.0,
+    "gross_exposure": 0.8001,
     "days_used": 82
   },
   "risk_gate": {
