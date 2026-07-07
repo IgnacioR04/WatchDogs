@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-07T15:30:29.869768+00:00",
+  "generated_at": "2026-07-07T17:43:53.114017+00:00",
   "window": {
     "from": "2026-06-07",
     "to": "2026-07-07",
@@ -23,7 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "regulatory",
+      "legal",
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -392,14 +396,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "INTU",
-        "company": "INTUIT INC.",
-        "pressure_score": 1720.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ARQQ",
         "company": "Arqit Quantum Inc.",
         "pressure_score": 1541.4,
@@ -427,6 +423,14 @@
         "ticker": "GTM",
         "company": "ZoomInfo Technologies Inc.",
         "pressure_score": 1227.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "INTU",
+        "company": "INTUIT INC.",
+        "pressure_score": 967.4,
         "sources": [
           "corporate_insider"
         ]
@@ -496,17 +500,17 @@
         ]
       },
       {
-        "ticker": "INDP",
-        "company": "Indaptus Therapeutics, Inc.",
-        "pressure_score": 276.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "ETSY",
         "company": "ETSY INC",
         "pressure_score": 274.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "INDI",
+        "company": "indie Semiconductor, Inc.",
+        "pressure_score": 273.8,
         "sources": [
           "corporate_insider"
         ]
@@ -522,6 +526,14 @@
         ]
       },
       {
+        "ticker": "XMTR",
+        "company": "Xometry, Inc.",
+        "pressure_score": 1779.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "MU",
         "company": "Stock",
         "pressure_score": 1462.6,
@@ -531,17 +543,9 @@
         ]
       },
       {
-        "ticker": "XMTR",
-        "company": "Xometry, Inc.",
-        "pressure_score": 1382.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "IBTA",
-        "company": "Ibotta, Inc.",
-        "pressure_score": 1101.6,
+        "ticker": "AIP",
+        "company": "Arteris, Inc.",
+        "pressure_score": 1108.5,
         "sources": [
           "corporate_insider"
         ]
@@ -566,14 +570,6 @@
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 608.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 571.9,
         "sources": [
           "corporate_insider"
         ]
@@ -634,6 +630,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "ARQQ",
+        "company": "Arqit Quantum Inc.",
+        "pressure_score": 329.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -691,6 +695,15 @@
       "amount": 1002336.9,
       "date": "2026-07-01",
       "score": 72.6
+    },
+    {
+      "ticker": "INDI",
+      "company": "indie Semiconductor, Inc.",
+      "actor": "McClymont Donald",
+      "actor_type": "ceo",
+      "amount": 0.0,
+      "date": "2026-07-01",
+      "score": 71.8
     },
     {
       "ticker": "ARQQ",
@@ -759,15 +772,6 @@
       "ticker": "JOBY",
       "company": "Joby Aviation, Inc.",
       "actor": "Bevirt JoeBen",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-07-01",
-      "score": 71.8
-    },
-    {
-      "ticker": "JOBY",
-      "company": "Joby Aviation, Inc.",
-      "actor": "Papadopoulos Didier",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
@@ -1089,15 +1093,6 @@
       "date": "2026-07-01"
     },
     {
-      "filer": "Apollo Direct Lending Fund II (Unlevered AIV), L.P.",
-      "company": "Apollo Origination II (UL) Capital Trust",
-      "ticker": "UL",
-      "ownership_pct": 100.0,
-      "shares": 28069111,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-26"
-    },
-    {
       "filer": "Yue Zhu",
       "company": "Lianhe Sowell International Group Ltd",
       "ticker": "LHSW",
@@ -1105,15 +1100,6 @@
       "shares": 3489688,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-02"
-    },
-    {
-      "filer": "Applied Digital Corporation",
-      "company": "ChronoScale Corp",
-      "ticker": "CHRN",
-      "ownership_pct": 96.1,
-      "shares": 139528227,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-26"
     },
     {
       "filer": "Atlantis Holding Corp. /RMI/",
@@ -1179,15 +1165,6 @@
       "date": "2026-07-02"
     },
     {
-      "filer": "INEOS Services Limited",
-      "company": "Manchester United plc",
-      "ticker": "MANU",
-      "ownership_pct": 54.54,
-      "shares": 49880646,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-06-29"
-    },
-    {
       "filer": "Project Nickel LLC",
       "company": "MGT Capital Investments, Inc.",
       "ticker": "MGTI",
@@ -1213,6 +1190,33 @@
       "shares": 82982244,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-06-29"
+    },
+    {
+      "filer": "PACIFIC INVESTMENT MANAGEMENT CO LLC",
+      "company": "FreightCar America, Inc.",
+      "ticker": "RAIL",
+      "ownership_pct": 48.8,
+      "shares": 16815361,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-02"
+    },
+    {
+      "filer": "Endeavor Blockchain, LLC",
+      "company": "Big Digital Energy, Inc.",
+      "ticker": "BGDE",
+      "ownership_pct": 46.4,
+      "shares": 3545221,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-02"
+    },
+    {
+      "filer": "THRC Holdings, LP",
+      "company": "ProFrac Holding Corp.",
+      "ticker": "ACDC",
+      "ownership_pct": 45.3,
+      "shares": 82452422,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-06-29"
     }
   ],
   "polymarket": {
@@ -1220,9 +1224,9 @@
       {
         "wallet": "0x7c1ee865a7",
         "username": "CandleHammerDrums",
-        "pnl": 1342822.73,
+        "pnl": 1216245.2,
         "win_rate": 0.9604,
-        "volume": 560247.16,
+        "volume": 1135245.35,
         "categories": [
           "sports"
         ]
@@ -1230,7 +1234,7 @@
       {
         "wallet": "0xe9a6ed2e4d",
         "username": "Oneger",
-        "pnl": 515165.66,
+        "pnl": 506495.67,
         "win_rate": 0.9804,
         "volume": 48566.31,
         "categories": [
@@ -1238,9 +1242,19 @@
         ]
       },
       {
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 126687.27,
+        "win_rate": 0.9855,
+        "volume": 190872.39,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xb809a4b78b",
         "username": "R88N",
-        "pnl": 147789.69,
+        "pnl": 152829.69,
         "win_rate": 0.9767,
         "volume": 24999.99,
         "categories": [
@@ -1261,18 +1275,30 @@
       {
         "wallet": "0x83720820a8",
         "username": "Jsram",
-        "pnl": 397813.19,
+        "pnl": 556343.16,
         "win_rate": 0.75,
-        "volume": 0.0,
+        "volume": 874999.25,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0xa49becb692",
+        "username": "sleepy-panda",
+        "pnl": 110225.96,
+        "win_rate": 0.821,
+        "volume": 845968.13,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x6157d529ae",
         "username": "DaBossHogg",
-        "pnl": 110610.29,
+        "pnl": 104007.12,
         "win_rate": 0.8206,
         "volume": 339494.94,
         "categories": [
@@ -1281,142 +1307,11 @@
         ]
       },
       {
-        "wallet": "0x37e4728b3c",
-        "username": "SemyonMarmeladov",
-        "pnl": 39785.17,
-        "win_rate": 0.88,
-        "volume": 84999.6,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x23d81ba937",
-        "username": "flawfence",
-        "pnl": 57911.52,
-        "win_rate": 0.8095,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 843445.25,
+        "pnl": 1145420.77,
         "win_rate": 0.621,
-        "volume": 1226641.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc430e5b171",
-        "username": "Gourmet1",
-        "pnl": 107073.0,
-        "win_rate": 0.9286,
-        "volume": 200000.0,
-        "categories": [
-          "sports"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 87756.22,
-        "win_rate": 0.559,
-        "volume": 5253825.42,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x4be1fa92e6",
-        "username": "Eztennis",
-        "pnl": 553694.95,
-        "win_rate": 0.5435,
-        "volume": 4120995.4,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x2e25b222e2",
-        "username": "Sparkling8899",
-        "pnl": 69518.66,
-        "win_rate": 0.5263,
-        "volume": 924004.81,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 80360.25,
-        "win_rate": 0.474,
-        "volume": 1147336.37,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 50823.5,
-        "win_rate": 0.519,
-        "volume": 1406681.26,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 843445.25,
-        "win_rate": 0.621,
-        "volume": 1226641.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 1342822.73,
-        "win_rate": 0.9604,
-        "volume": 560247.16,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd3e744fddd",
-        "username": "looloo8855",
-        "pnl": 42645.17,
-        "win_rate": 1.0,
-        "volume": 736000.96,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc6a63ad5a7",
-        "username": "filthybetz",
-        "pnl": 164577.97,
-        "win_rate": 0.9048,
-        "volume": 268907.07,
+        "volume": 3146272.63,
         "categories": [
           "sports"
         ]
@@ -1424,9 +1319,118 @@
       {
         "wallet": "0xc41d736bde",
         "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 41044.11,
+        "pnl": 85330.42,
         "win_rate": 0.7895,
-        "volume": 336214.46,
+        "volume": 644861.78,
+        "categories": [
+          "sports"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x2e25b222e2",
+        "username": "Sparkling8899",
+        "pnl": 85388.32,
+        "win_rate": 0.5263,
+        "volume": 3438025.72,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 1139740.74,
+        "win_rate": 0.5459,
+        "volume": 6310234.43,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x095fbca2e0",
+        "username": "muchobliged",
+        "pnl": 566794.61,
+        "win_rate": 1.0,
+        "volume": 2230310.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9ee8bbc36d",
+        "username": "Qpkwks",
+        "pnl": 385998.79,
+        "win_rate": 0.7037,
+        "volume": 1304570.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 1145420.77,
+        "win_rate": 0.621,
+        "volume": 3146272.63,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 158714.95,
+        "win_rate": 0.5191,
+        "volume": 1410000.5,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x37e053beab",
+        "username": "ChinesePro",
+        "pnl": 97379.17,
+        "win_rate": 0.719,
+        "volume": 2237074.25,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 85435.13,
+        "win_rate": 0.4705,
+        "volume": 1376860.03,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xfea31bc088",
+        "username": "ndb1",
+        "pnl": 209219.8,
+        "win_rate": 0.585,
+        "volume": 1005764.69,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x7c1ee865a7",
+        "username": "CandleHammerDrums",
+        "pnl": 1216245.2,
+        "win_rate": 0.9604,
+        "volume": 1135245.35,
         "categories": [
           "sports"
         ]
@@ -1435,9 +1439,79 @@
   },
   "news": [
     {
+      "title": "Joby and Archer trade - secret battle inches along in federal court",
+      "url": "https://www.flightglobal.com/airframers/2026/07/joby-and-archers-trade-secret-battle-inches-along-in-federal-court/",
+      "ticker": "JOBY",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Joby Aviation Stock : Is It More Likely to Hit $15 or $5 This Year ? ",
+      "url": "https://www.fool.com/investing/2026/07/07/joby-aviation-stock-is-it-more-likely-to-hit-15-or/",
+      "ticker": "JOBY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "AeroVironment , Inc .: AV Awarded $30 Million Contract to Provide Puma Systems Stack for Germany LARUS Program",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68963714-aerovironment-inc-av-awarded-dollar-30-million-contract-to-provide-puma-systems-stack-for-germany-s-larus-program-004.htm",
+      "ticker": "AVAV",
+      "themes": [],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Joby Aviation Stock : Is It More Likely to Hit $15 or $5 This Year ? ",
+      "url": "https://www.fool.com/investing/2026/07/07/joby-aviation-stock-is-it-more-likely-to-hit-15-or/?source=iedfolrf0000001",
+      "ticker": "JOBY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Securities Fraud Class Action Filed Against AeroVironment , Inc . ( AVAV ) ... ",
+      "url": "https://www.pr-inside.com/securities-fraud-class-action-filed-against-aerovironment-inc-avav-r5198441.htm",
+      "ticker": "AVAV",
+      "themes": [
+        "ai",
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "AVAV Class Action Reminder - Robbins LLP Is Investigating AeroVironment , Inc . Involvement in the U . S . Space Force SCAR Program",
+      "url": "https://www.wallstreet-online.de/nachricht/21079581-avav-class-action-reminder-robbins-llp-is-investigating-aerovironment-inc-s-involvement-the-u-s-space-force-s-scar-program",
+      "ticker": "AVAV",
+      "themes": [],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Joby Aviation ( NYSE : JOBY ) Insider Sells 9 , 575 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13496698/joby-aviation-nysejoby-insider-sells-9575-shares-of-stock.html",
+      "ticker": "JOBY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
       "title": "Patrick Willcocks Sells 2 , 009 Shares of Arqit Quantum ( NASDAQ : ARQQ ) Stock",
       "url": "https://www.tickerreport.com/banking-finance/13496697/patrick-willcocks-sells-2009-shares-of-arqit-quantum-nasdaqarqq-stock.html",
       "ticker": "ARQQ",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Insider Selling : Joby Aviation ( NYSE : JOBY ) Insider Sells 7 , 832 Shares",
+      "url": "https://www.dailypolitical.com/2026/07/06/insider-selling-joby-aviation-nysejoby-insider-sells-7832-shares.html",
+      "ticker": "JOBY",
       "themes": [
         "stock"
       ],
@@ -1451,6 +1525,50 @@
         "stock"
       ],
       "date": "2026-07-07"
+    },
+    {
+      "title": "PubMatic ( NASDAQ : PUBM ) CFO Sells 12 , 548 Shares",
+      "url": "https://www.dailypolitical.com/2026/07/06/pubmatic-nasdaqpubm-cfo-sells-12548-shares.html",
+      "ticker": "PUBM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "AVAV DEADLINE NOTICE : AeroVironment , Inc . Investors Encouraged to Contact ... ",
+      "url": "https://www.pr-inside.com/avav-deadline-notice-aerovironment-inc-investors-encouraged-to-contact-r5198351.htm",
+      "ticker": "AVAV",
+      "themes": [],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "AVAV LAWSUIT ALERT : Levi & Korsinsky Notifies AeroVironment , Inc . Investors ... ",
+      "url": "https://www.pr-inside.com/avav-lawsuit-alert-levi-korsinsky-notifies-aerovironment-inc-investors-r5198345.htm",
+      "ticker": "AVAV",
+      "themes": [
+        "legal"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Insider Selling : PubMatic ( NASDAQ : PUBM ) CEO Sells $238 , 918 . 16 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/06/insider-selling-pubmatic-nasdaqpubm-ceo-sells-238918-16-in-stock.html",
+      "ticker": "PUBM",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "title": "PubMatic ( NASDAQ : PUBM ) CFO Steven Pantelick Sells 23 , 548 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/06/pubmatic-nasdaqpubm-cfo-steven-pantelick-sells-23548-shares-of-stock.html",
+      "ticker": "PUBM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-06"
     },
     {
       "title": "ACV Auctions ( ACVA ) Fell Despite Positive Structural Advantages",
@@ -1469,7 +1587,7 @@
       "date": "2026-06-24"
     }
   ],
-  "signals_count": 1782,
+  "signals_count": 1769,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

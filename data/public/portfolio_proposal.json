@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T15:31:18+00:00",
+  "generated_at": "2026-07-07T17:44:50+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
@@ -12,11 +12,11 @@
     "CWK": 0.061,
     "IEF": 0.0572,
     "PUBM": 0.0505,
-    "TOST": 0.0462,
-    "INTU": 0.0383,
-    "JOBY": 0.0317,
+    "TOST": 0.0461,
+    "INTU": 0.0382,
+    "JOBY": 0.0319,
     "GTM": 0.0268,
-    "CDLX": 0.0238,
+    "CDLX": 0.0239,
     "ARQQ": 0.0169,
     "ZSPC": 0.0076,
     "FIRY": 0.0052
@@ -29,26 +29,18 @@
     "GLD": 0.078
   },
   "satellite": {
-    "INTU": 0.0348,
     "ARQQ": 0.0154,
-    "TOST": 0.042,
-    "JOBY": 0.0288,
+    "TOST": 0.0419,
+    "JOBY": 0.029,
     "GTM": 0.0244,
+    "INTU": 0.0347,
     "PUBM": 0.0459,
     "CWK": 0.0554,
-    "CDLX": 0.0216,
+    "CDLX": 0.0217,
     "ZSPC": 0.0069,
     "FIRY": 0.0047
   },
   "satellite_rationale": [
-    {
-      "ticker": "INTU",
-      "score": 1514.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 25
-    },
     {
       "ticker": "ARQQ",
       "score": 1360.6,
@@ -80,6 +72,14 @@
         "corporate_insider"
       ],
       "n_signals": 18
+    },
+    {
+      "ticker": "INTU",
+      "score": 851.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 14
     },
     {
       "ticker": "PUBM",
@@ -123,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1476,
+    "ann_vol": 0.1471,
     "var_95_1d": 0.0137,
     "cvar_95_1d": 0.0173,
     "max_drawdown": -0.0644,
-    "beta_spy": 0.757,
+    "beta_spy": 0.756,
     "hhi": 0.0637,
     "max_position": 0.12,
     "n_positions": 15,
     "effective_positions": 15.7,
-    "gross_exposure": 0.7998,
+    "gross_exposure": 0.7999,
     "days_used": 83
   },
   "risk_gate": {
