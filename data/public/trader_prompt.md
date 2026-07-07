@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-07T08:59:24+00:00 -->
+<!-- trader_prompt.md generado 2026-07-07T12:28:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-07T08:59:24+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
+_Generado 2026-07-07T12:28:07+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -233,35 +233,35 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | TLT | 11.4% | core | 85.45 | -0.07% | -1.83% | 0.31% |
 | GLD | 8.6% | core | 382.13 | 1.06% | 2.27% | -7.09% |
 | IEF | 5.7% | core | 94.18 | 0.06% | -0.57% | 0.39% |
-| VIRT | 5.4% | satellite | 62.97 | 1.94% | 3.72% | 22.34% |
-| CWK | 5.1% | satellite | 13.79 | -1.43% | 1.03% | 3.92% |
-| VEEV | 4.1% | satellite | 192.01 | -0.38% | 12.05% | 7.51% |
-| TOST | 3.9% | satellite | 29.48 | 2.29% | 8.86% | 16.89% |
-| INTU | 3.2% | satellite | 272.14 | -1.17% | 1.65% | -9.88% |
-| W | 2.8% | satellite | 93.18 | -1.4% | -1.37% | 28.54% |
-| GTM | 2.2% | satellite | 2.93 | -2.01% | 1.38% | -3.3% |
-| CDLX | 2.0% | satellite | 4.37 | -2.24% | -7.22% | -28.36% |
-| ARQQ | 1.4% | satellite | 22.13 | -5.89% | -8.78% | 55.63% |
-| ZSPC | 0.6% | satellite | 0.18 | -6.74% | 0.0% | -12.62% |
+| CWK | 5.3% | satellite | 13.79 | -1.43% | 1.03% | 3.92% |
+| PUBM | 4.4% | satellite | 13.52 | -0.22% | 6.88% | 13.8% |
+| VEEV | 4.3% | satellite | 192.01 | -0.38% | 12.05% | 7.51% |
+| TOST | 4.0% | satellite | 29.48 | 2.29% | 8.86% | 16.89% |
+| INTU | 3.4% | satellite | 272.14 | -1.17% | 1.65% | -9.88% |
+| JOBY | 2.8% | satellite | 8.92 | 5.06% | 1.02% | -19.93% |
+| GTM | 2.3% | satellite | 2.93 | -2.01% | 1.38% | -3.3% |
+| CDLX | 2.1% | satellite | 4.37 | -2.24% | -7.22% | -28.36% |
+| ARQQ | 1.5% | satellite | 22.13 | -5.89% | -8.78% | 55.63% |
+| ZSPC | 0.7% | satellite | 0.18 | -6.74% | 0.0% | -12.62% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.0%
-- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -6.2%
-- Beta vs SPY: 0.692 · posiciones efectivas: 15.9 · HHI: 0.0629
+- Volatilidad anualizada: 14.8%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -6.4%
+- Beta vs SPY: 0.727 · posiciones efectivas: 16.0 · HHI: 0.0626
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **INTU** · score agregado 1514.2 · 25 señales · fuentes: corporate_insider
 - **ARQQ** · score agregado 1360.6 · 23 señales · fuentes: corporate_insider
 - **TOST** · score agregado 1226.4 · 20 señales · fuentes: corporate_insider
-- **GTM** · score agregado 1018.0 · 17 señales · fuentes: corporate_insider
-- **W** · score agregado 541.2 · 9 señales · fuentes: corporate_insider
+- **JOBY** · score agregado 1097.6 · 18 señales · fuentes: corporate_insider
+- **GTM** · score agregado 1081.0 · 18 señales · fuentes: corporate_insider
+- **PUBM** · score agregado 366.6 · 6 señales · fuentes: corporate_insider
 - **CWK** · score agregado 358.0 · 6 señales · fuentes: corporate_insider
 - **CDLX** · score agregado 340.4 · 6 señales · fuentes: corporate_insider
 - **VEEV** · score agregado 303.8 · 5 señales · fuentes: corporate_insider
-- **VIRT** · score agregado 299.0 · 5 señales · fuentes: corporate_insider
 - **ZSPC** · score agregado 292.0 · 5 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
@@ -275,6 +275,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | GWRE | 72 | large_holder | BAMCO INC /NY/ |  | - | - |
 | SVRE | 72 | corporate_insider | VisionWave Holdings, Inc. | 0 | $1,135,938,816 | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| HRI | 70 | large_holder | Invesco Ltd. |  | - | - |
 | ARTW | 70 | large_holder | Walther Larry M |  | - | - |
 | ARTW | 70 | large_holder | Walther Larry M |  | - | - |
 | QTTB | 70 | large_holder | The Carlyle Group Inc. |  | - | - |
@@ -284,7 +285,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | HAL | 70 | large_holder | Capital Research Global I |  | - | - |
 | WOLF | 70 | large_holder | Capital Research Global I |  | - | - |
 | LFVN | 70 | large_holder | The Capital Management Co |  | - | - |
-| TSQ | 70 | large_holder | The Capital Management Co |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -297,7 +297,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | TOST | 70 | corporate_insider | Fredette Stephen | $263,853 | cluster_buy |
 | ARQQ | 70 | corporate_insider | Leaver Andrew | $249,329 | cluster_buy |
 | PUBM | 70 | corporate_insider | Goel Rajeev K. | $238,990 | cluster_buy |
-| NUVL | 69 | corporate_insider | Balcom Alexandra | $1,412,519 | cluster_buy |
+| PUBM | 70 | corporate_insider | Pantelick Steven | $321,395 | cluster_buy |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -314,7 +314,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.18 (0.06% / -0.57% / 0.39%) [2026-07-06]
 - GLD: 382.13 (1.06% / 2.27% / -7.09%) [2026-07-06]
 - ^VIX: 15.83 (1.67% / -10.31% / -26.41%) [2026-07-07]
-- BTC-USD: 63072.2 (-1.44% / 2.58% / -2.09%) [2026-07-07]
+- BTC-USD: 63653.2 (-0.53% / 3.53% / -1.19%) [2026-07-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,24 +329,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (10), legal (7), ai (6), regulatory (5)
+**Temas dominantes**: stock (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AVAV] Securities Fraud Class Action Filed Against AeroVironment , Inc . ( AVAV ) ... (2026-07-07)
-- [AVAV] AVAV Class Action Reminder - Robbins LLP Is Investigating AeroVironment , Inc . Involvement in the U . S . Space Force SCAR Program (2026-07-07)
-- [ARQQ] Patrick Willcocks Sells 2 , 009 Shares of Arqit Quantum ( NASDAQ : ARQQ ) Stock (2026-07-07)
-- [IBTA] Ibotta ( NYSE : IBTA ) CTO Luke Roy Swanson Sells 5 , 940 Shares of Stock (2026-07-07)
-- [ARQQ] Arqit Quantum ( NASDAQ : ARQQ ) Director Garth Ritchie Sells 439 Shares of Stock (2026-07-07)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Director Sells 8 , 000 Shares of Stock (2026-07-07)
-- [ANET] Here How Arista Networks Is a Major Beneficiary of Big Tech Push to Break Nvidia Grip (2026-07-07)
-- [AVAV] AVAV DEADLINE NOTICE : AeroVironment , Inc . Investors Encouraged to Contact ... (2026-07-07)
-- [AVAV] AVAV LAWSUIT ALERT : Levi & Korsinsky Notifies AeroVironment , Inc . Investors ... (2026-07-07)
-- [AVAV] AeroVironment , Inc . ( AVAV ) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (2026-07-06)
+- [MU] 2 Cheap Stocks to Buy in July (2026-07-07)
+- [TOST] Toasted sandwiches named Britain top comfort food recipe (2026-07-07)
+- [JOBY] Joby Aviation ( NYSE : JOBY ) Insider Sells 9 , 575 Shares of Stock (2026-07-07)
+- [JOBY] Insider Selling : Joby Aviation ( NYSE : JOBY ) Insider Sells 7 , 832 Shares (2026-07-07)
+- [JOBY] Price Prediction : Joby Aviation High - Risk , High - Reward Path to 30 % Upside (2026-06-30)
+- [JOBY] Joby & Toyota Launch Strategic Air Mobility Alliance (2026-06-30)
+- [JOBY] Joby Aviation ( NYSE : JOBY ) vs . easyjet ( OTCMKTS : EJTTF ) Critical Comparison (2026-06-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Peter Warwick opero SCHL por $390.8M el 2026-07-01.
 - Director VisionWave Holdings, Inc. compro SVRE por $1.1B el 2026-06-16.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
@@ -354,14 +350,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
+- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - CandleHammerDrums · PnL $1,342,823 · win rate 96% · categorias: sports
 - Oneger · PnL $515,613 · win rate 98% · categorias: sports
-- R88N · PnL $146,950 · win rate 98% · categorias: sports
+- R88N · PnL $146,670 · win rate 98% · categorias: sports
 - 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $107,000 · win rate 90% · categorias: sports, crypto
-- Jsram · PnL $386,733 · win rate 75% · categorias: sports, politics
+- Jsram · PnL $381,259 · win rate 75% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -369,8 +366,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 68 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 724 registros 30d · ultimo dato 2026-07-06
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-06
+- **sec_insiders**: `ok` · 829 registros 30d · ultimo dato 2026-07-06
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-07
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -382,7 +379,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ARQQ, CDLX, CWK, GLD, GTM, IEF, INTU, QQQ, SPY, TLT, TOST, VEEV, VIRT, W, ZSPC`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`ARQQ, CDLX, CWK, GLD, GTM, IEF, INTU, JOBY, PUBM, QQQ, SPY, TLT, TOST, VEEV, ZSPC`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
