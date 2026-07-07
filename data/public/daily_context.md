@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-07T00:38:33+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
+_Generado 2026-07-07T05:22:25+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 94.18 (0.06% / -0.57% / 0.39%) [2026-07-06]
 - GLD: 382.13 (1.06% / 2.27% / -7.09%) [2026-07-06]
 - ^VIX: 15.57 (-3.59% / -15.43% / 1.1%) [2026-07-06]
-- BTC-USD: 64053.2 (0.8% / 6.75% / -2.36%) [2026-07-07]
+- BTC-USD: 62833.6 (-1.12% / 4.72% / -4.22%) [2026-07-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), legal (4), stock (4), regulatory (3)
+**Temas dominantes**: stock (8), legal (4), ai (3), regulatory (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [MU] Stocks ease despite upbeat Samsung forecast , yen down (2026-07-07)
+- [MU] Clean Harbors vs . Waste Management : Which Industrials Stock Is a Better Buy in 2026 ? (2026-07-07)
+- [ARQQ] Patrick Willcocks Sells 2 , 009 Shares of Arqit Quantum ( NASDAQ : ARQQ ) Stock (2026-07-07)
+- [ARQQ] Arqit Quantum ( NASDAQ : ARQQ ) Director Garth Ritchie Sells 439 Shares of Stock (2026-07-07)
 - [GTM] 2026 - 06 - 30 | GTM Breaking News : ZoomInfo Technologies Inc . Sued for Securities Fraud after AI Integration Issues Lead to a 33 % Stock Drop - Investors Notified to Contact BFA Law | NDAQ : GTM (2026-06-30)
 - [GTM] Bronstein , Gewirtz & Grossman LLC Urges ZoomInfo Technologies Inc . Investors to Act : Class Action Filed Alleging Investor Harm (2026-06-30)
-- [JOBY] Price Prediction : Joby Aviation High - Risk , High - Reward Path to 30 % Upside (2026-06-30)
-- [JOBY] Joby & Toyota Launch Strategic Air Mobility Alliance (2026-06-30)
-- [JOBY] Joby Aviation ( NYSE : JOBY ) vs . easyjet ( OTCMKTS : EJTTF ) Critical Comparison (2026-06-30)
 - [GTM] GTM Stockholder Alert : Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Against ZoomInfo Technologies Inc . (2026-06-29)
 - [GTM] GTM Stockholder Alert : Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Against ZoomInfo Technologies Inc . (2026-06-29)
-- [ACVA] ACV Auctions ( ACVA ) Fell Despite Positive Structural Advantages (2026-06-29)
 - [GTM] 2026 - 06 - 26 | Investor Notice : Robbins LLP Informs Investors of the ZoomInfo Technologies Inc . Class Action Lawsuit | NDAQ : GTM (2026-06-27)
-- [GTM] ZoomInfo Technologies ( NASDAQ : GTM ) Shares Up 8 . 2 % – Time to Buy ? (2026-06-26)
+- [ARQQ] Arqit Quantum ( NASDAQ : ARQQ ) CRO Sells $177 , 528 . 96 in Stock (2026-06-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +151,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $380,764 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $865,346 · win rate 88% · categorias: sports
-- Allezpapa · PnL $130,159 · win rate 99% · categorias: sports
-- shijiebeifacai · PnL $159,383 · win rate 96% · categorias: sports
-- CandleHammerDrums · PnL $160,097 · win rate 96% · categorias: sports
+- CandleHammerDrums · PnL $1,343,768 · win rate 96% · categorias: sports
+- Oneger · PnL $515,613 · win rate 98% · categorias: sports
+- R88N · PnL $147,790 · win rate 98% · categorias: sports
+- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $107,000 · win rate 90% · categorias: sports, crypto
+- Jsram · PnL $405,380 · win rate 75% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +163,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 68 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 807 registros 30d · ultimo dato 2026-07-06
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-06
+- **sec_insiders**: `ok` · 811 registros 30d · ultimo dato 2026-07-06
+- **sec_13d_13g**: `ok` · 248 registros 30d · ultimo dato 2026-07-06
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
