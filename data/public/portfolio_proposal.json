@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-07T22:02:23+00:00",
+  "generated_at": "2026-07-07T23:30:36+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7997,
+  "cash": 0.2003,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "IEF": 0.0572,
-    "MIAX": 0.0517,
-    "PUBM": 0.0498,
-    "ETSY": 0.0469,
-    "JOBY": 0.0314,
-    "ADPT": 0.0311,
-    "NUVL": 0.0289,
-    "GTM": 0.0266,
-    "CWBHF": 0.0197,
-    "ARQQ": 0.0167,
-    "FIRY": 0.0052
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.12,
+    "VFLEX": 0.12,
+    "IEF": 0.1043,
+    "CWK": 0.0184,
+    "TOST": 0.0164,
+    "NWL": 0.0136,
+    "SSTK": 0.0126,
+    "GTM": 0.012,
+    "ADPT": 0.011,
+    "CWBHF": 0.005,
+    "ZSPC": 0.0036,
+    "FIRY": 0.0028
   },
   "core": {
     "SPY": 0.182,
@@ -29,53 +29,45 @@
     "GLD": 0.078
   },
   "satellite": {
-    "ARQQ": 0.0152,
-    "JOBY": 0.0285,
-    "GTM": 0.0242,
-    "PUBM": 0.0453,
-    "MIAX": 0.047,
-    "FIRY": 0.0047,
-    "ADPT": 0.0283,
-    "CWBHF": 0.0179,
-    "NUVL": 0.0263,
-    "ETSY": 0.0426
+    "TOST": 0.0082,
+    "GTM": 0.006,
+    "CWK": 0.0092,
+    "ZSPC": 0.0018,
+    "FIRY": 0.0014,
+    "ADPT": 0.0055,
+    "CWBHF": 0.0025,
+    "NWL": 0.0068,
+    "SSTK": 0.0063,
+    "VFLEX": 0.2322
   },
   "satellite_rationale": [
     {
-      "ticker": "ARQQ",
-      "score": 1360.6,
+      "ticker": "TOST",
+      "score": 1226.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 23
-    },
-    {
-      "ticker": "JOBY",
-      "score": 1097.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 18
+      "n_signals": 20
     },
     {
       "ticker": "GTM",
-      "score": 709.0,
+      "score": 1018.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 12
+      "n_signals": 17
     },
     {
-      "ticker": "PUBM",
-      "score": 366.6,
+      "ticker": "CWK",
+      "score": 358.0,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 6
     },
     {
-      "ticker": "MIAX",
-      "score": 303.2,
+      "ticker": "ZSPC",
+      "score": 292.0,
       "sources": [
         "corporate_insider"
       ],
@@ -106,34 +98,42 @@
       "n_signals": 4
     },
     {
-      "ticker": "NUVL",
-      "score": 231.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "ETSY",
-      "score": 182.2,
+      "ticker": "NWL",
+      "score": 192.3,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 3
+    },
+    {
+      "ticker": "SSTK",
+      "score": 176.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "VFLEX",
+      "score": 162.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.1503,
-    "var_95_1d": 0.0136,
-    "cvar_95_1d": 0.0183,
+    "ann_vol": 0.0844,
+    "var_95_1d": 0.0081,
+    "cvar_95_1d": 0.0116,
     "max_drawdown": -0.0693,
-    "beta_spy": 0.823,
-    "hhi": 0.0628,
+    "beta_spy": 0.527,
+    "hhi": 0.0841,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 15.9,
-    "gross_exposure": 0.7998,
-    "days_used": 83
+    "effective_positions": 11.9,
+    "gross_exposure": 0.7997,
+    "days_used": 199
   },
   "risk_gate": {
     "passed": true,
