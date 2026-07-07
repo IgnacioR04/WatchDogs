@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-07T17:44:50+00:00",
+  "generated_at": "2026-07-07T20:33:56+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7999,
-  "cash": 0.2001,
+  "total_equity": 0.8001,
+  "cash": 0.1999,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "CWK": 0.061,
     "IEF": 0.0572,
-    "PUBM": 0.0505,
-    "TOST": 0.0461,
-    "INTU": 0.0382,
-    "JOBY": 0.0319,
-    "GTM": 0.0268,
-    "CDLX": 0.0239,
-    "ARQQ": 0.0169,
-    "ZSPC": 0.0076,
-    "FIRY": 0.0052
+    "TXRH": 0.049,
+    "CWK": 0.0471,
+    "MIAX": 0.0403,
+    "VEEV": 0.0381,
+    "TOST": 0.0355,
+    "INTU": 0.0295,
+    "SSTK": 0.0239,
+    "GTM": 0.0207,
+    "CDLX": 0.0184,
+    "ZSPC": 0.0058
   },
   "core": {
     "SPY": 0.182,
@@ -29,25 +29,25 @@
     "GLD": 0.078
   },
   "satellite": {
-    "ARQQ": 0.0154,
-    "TOST": 0.0419,
-    "JOBY": 0.029,
-    "GTM": 0.0244,
-    "INTU": 0.0347,
-    "PUBM": 0.0459,
-    "CWK": 0.0554,
-    "CDLX": 0.0217,
-    "ZSPC": 0.0069,
-    "FIRY": 0.0047
+    "INTU": 0.0268,
+    "TOST": 0.0323,
+    "GTM": 0.0188,
+    "MIAX": 0.0366,
+    "CWK": 0.0428,
+    "CDLX": 0.0167,
+    "VEEV": 0.0346,
+    "ZSPC": 0.0053,
+    "TXRH": 0.0445,
+    "SSTK": 0.0217
   },
   "satellite_rationale": [
     {
-      "ticker": "ARQQ",
-      "score": 1360.6,
+      "ticker": "INTU",
+      "score": 1514.2,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 23
+      "n_signals": 25
     },
     {
       "ticker": "TOST",
@@ -58,36 +58,20 @@
       "n_signals": 20
     },
     {
-      "ticker": "JOBY",
-      "score": 1097.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 18
-    },
-    {
       "ticker": "GTM",
-      "score": 1081.0,
+      "score": 1018.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 18
+      "n_signals": 17
     },
     {
-      "ticker": "INTU",
-      "score": 851.4,
+      "ticker": "MIAX",
+      "score": 538.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 14
-    },
-    {
-      "ticker": "PUBM",
-      "score": 366.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
+      "n_signals": 9
     },
     {
       "ticker": "CWK",
@@ -106,6 +90,14 @@
       "n_signals": 6
     },
     {
+      "ticker": "VEEV",
+      "score": 303.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 5
+    },
+    {
       "ticker": "ZSPC",
       "score": 292.0,
       "sources": [
@@ -114,25 +106,33 @@
       "n_signals": 5
     },
     {
-      "ticker": "FIRY",
-      "score": 288.2,
+      "ticker": "TXRH",
+      "score": 176.6,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
+      "n_signals": 3
+    },
+    {
+      "ticker": "SSTK",
+      "score": 176.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
     }
   ],
   "metrics": {
-    "ann_vol": 0.1471,
-    "var_95_1d": 0.0137,
-    "cvar_95_1d": 0.0173,
-    "max_drawdown": -0.0644,
-    "beta_spy": 0.756,
-    "hhi": 0.0637,
+    "ann_vol": 0.1209,
+    "var_95_1d": 0.0131,
+    "cvar_95_1d": 0.0141,
+    "max_drawdown": -0.0651,
+    "beta_spy": 0.608,
+    "hhi": 0.0624,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 15.7,
-    "gross_exposure": 0.7999,
+    "effective_positions": 16.0,
+    "gross_exposure": 0.8001,
     "days_used": 83
   },
   "risk_gate": {
