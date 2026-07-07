@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-07T20:33:56+00:00",
+  "generated_at": "2026-07-07T22:02:23+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8001,
-  "cash": 0.1999,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "TXRH": 0.049,
-    "CWK": 0.0471,
-    "MIAX": 0.0403,
-    "VEEV": 0.0381,
-    "TOST": 0.0355,
-    "INTU": 0.0295,
-    "SSTK": 0.0239,
-    "GTM": 0.0207,
-    "CDLX": 0.0184,
-    "ZSPC": 0.0058
+    "MIAX": 0.0517,
+    "PUBM": 0.0498,
+    "ETSY": 0.0469,
+    "JOBY": 0.0314,
+    "ADPT": 0.0311,
+    "NUVL": 0.0289,
+    "GTM": 0.0266,
+    "CWBHF": 0.0197,
+    "ARQQ": 0.0167,
+    "FIRY": 0.0052
   },
   "core": {
     "SPY": 0.182,
@@ -29,93 +29,93 @@
     "GLD": 0.078
   },
   "satellite": {
-    "INTU": 0.0268,
-    "TOST": 0.0323,
-    "GTM": 0.0188,
-    "MIAX": 0.0366,
-    "CWK": 0.0428,
-    "CDLX": 0.0167,
-    "VEEV": 0.0346,
-    "ZSPC": 0.0053,
-    "TXRH": 0.0445,
-    "SSTK": 0.0217
+    "ARQQ": 0.0152,
+    "JOBY": 0.0285,
+    "GTM": 0.0242,
+    "PUBM": 0.0453,
+    "MIAX": 0.047,
+    "FIRY": 0.0047,
+    "ADPT": 0.0283,
+    "CWBHF": 0.0179,
+    "NUVL": 0.0263,
+    "ETSY": 0.0426
   },
   "satellite_rationale": [
     {
-      "ticker": "INTU",
-      "score": 1514.2,
+      "ticker": "ARQQ",
+      "score": 1360.6,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 25
+      "n_signals": 23
     },
     {
-      "ticker": "TOST",
-      "score": 1226.4,
+      "ticker": "JOBY",
+      "score": 1097.6,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 20
+      "n_signals": 18
     },
     {
       "ticker": "GTM",
-      "score": 1018.0,
+      "score": 709.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 17
+      "n_signals": 12
+    },
+    {
+      "ticker": "PUBM",
+      "score": 366.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
     },
     {
       "ticker": "MIAX",
-      "score": 538.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 9
-    },
-    {
-      "ticker": "CWK",
-      "score": 358.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
-      "ticker": "CDLX",
-      "score": 340.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
-      "ticker": "VEEV",
-      "score": 303.8,
+      "score": 303.2,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 5
     },
     {
-      "ticker": "ZSPC",
-      "score": 292.0,
+      "ticker": "FIRY",
+      "score": 288.2,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 5
     },
     {
-      "ticker": "TXRH",
-      "score": 176.6,
+      "ticker": "ADPT",
+      "score": 273.8,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 7
     },
     {
-      "ticker": "SSTK",
-      "score": 176.0,
+      "ticker": "CWBHF",
+      "score": 240.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "NUVL",
+      "score": 231.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "ETSY",
+      "score": 182.2,
       "sources": [
         "corporate_insider"
       ],
@@ -123,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1209,
-    "var_95_1d": 0.0131,
-    "cvar_95_1d": 0.0141,
-    "max_drawdown": -0.0651,
-    "beta_spy": 0.608,
-    "hhi": 0.0624,
+    "ann_vol": 0.1503,
+    "var_95_1d": 0.0136,
+    "cvar_95_1d": 0.0183,
+    "max_drawdown": -0.0693,
+    "beta_spy": 0.823,
+    "hhi": 0.0628,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.0,
-    "gross_exposure": 0.8001,
+    "effective_positions": 15.9,
+    "gross_exposure": 0.7998,
     "days_used": 83
   },
   "risk_gate": {

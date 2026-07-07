@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-07T20:33:57+00:00 -->
+<!-- trader_prompt.md generado 2026-07-07T22:02:24+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-07T20:33:57+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
+_Generado 2026-07-07T22:02:24+00:00 · ventana señales 2026-06-07 -> 2026-07-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -233,36 +233,36 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | TLT | 11.4% | core | 84.55 | -1.05% | -2.96% | -0.23% |
 | GLD | 8.6% | core | 377.49 | -1.21% | 2.42% | -4.73% |
 | IEF | 5.7% | core | 93.7 | -0.51% | -1.11% | 0.42% |
-| TXRH | 4.9% | satellite | 187.03 | 0.55% | -3.51% | 9.72% |
-| CWK | 4.7% | satellite | 13.81 | 0.15% | 0.51% | 3.29% |
-| MIAX | 4.0% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
-| VEEV | 3.8% | satellite | 192.3 | 0.15% | 9.12% | 11.41% |
-| TOST | 3.5% | satellite | 29.61 | 0.44% | 5.15% | 20.17% |
-| INTU | 2.9% | satellite | 281.17 | 3.32% | 5.54% | -5.25% |
-| SSTK | 2.4% | satellite | 8.72 | -5.11% | -38.29% | -32.72% |
-| GTM | 2.1% | satellite | 2.99 | 2.05% | 2.4% | 0.34% |
-| CDLX | 1.8% | satellite | 4.26 | -2.52% | -12.53% | -28.76% |
-| ZSPC | 0.6% | satellite | 0.19 | 5.56% | 0.0% | -1.04% |
+| MIAX | 5.2% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
+| PUBM | 5.0% | satellite | 13.32 | -1.48% | 1.91% | 15.42% |
+| ETSY | 4.7% | satellite | 77.59 | 3.37% | -2.6% | 16.05% |
+| JOBY | 3.1% | satellite | 8.12 | -8.97% | -5.91% | -14.97% |
+| ADPT | 3.1% | satellite | 20.82 | -3.16% | -2.71% | 23.2% |
+| NUVL | 2.9% | satellite | 123.77 | 0.04% | 0.21% | 36.09% |
+| GTM | 2.7% | satellite | 2.99 | 2.05% | 2.4% | 0.34% |
+| CWBHF | 2.0% | satellite | 0.31 | -6.28% | -3.06% | -28.19% |
+| ARQQ | 1.7% | satellite | 19.84 | -10.35% | -27.35% | 63.43% |
+| FIRY | 0.5% | satellite | 9.2 | -2.85% | -10.24% | 9.13% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.1%
-- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -6.5%
-- Beta vs SPY: 0.608 · posiciones efectivas: 16.0 · HHI: 0.0624
+- Volatilidad anualizada: 15.0%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -6.9%
+- Beta vs SPY: 0.823 · posiciones efectivas: 15.9 · HHI: 0.0628
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **INTU** · score agregado 1514.2 · 25 señales · fuentes: corporate_insider
-- **TOST** · score agregado 1226.4 · 20 señales · fuentes: corporate_insider
-- **GTM** · score agregado 1018.0 · 17 señales · fuentes: corporate_insider
-- **MIAX** · score agregado 538.4 · 9 señales · fuentes: corporate_insider
-- **CWK** · score agregado 358.0 · 6 señales · fuentes: corporate_insider
-- **CDLX** · score agregado 340.4 · 6 señales · fuentes: corporate_insider
-- **VEEV** · score agregado 303.8 · 5 señales · fuentes: corporate_insider
-- **ZSPC** · score agregado 292.0 · 5 señales · fuentes: corporate_insider
-- **TXRH** · score agregado 176.6 · 3 señales · fuentes: corporate_insider
-- **SSTK** · score agregado 176.0 · 3 señales · fuentes: corporate_insider
+- **ARQQ** · score agregado 1360.6 · 23 señales · fuentes: corporate_insider
+- **JOBY** · score agregado 1097.6 · 18 señales · fuentes: corporate_insider
+- **GTM** · score agregado 709.0 · 12 señales · fuentes: corporate_insider
+- **PUBM** · score agregado 366.6 · 6 señales · fuentes: corporate_insider
+- **MIAX** · score agregado 303.2 · 5 señales · fuentes: corporate_insider
+- **FIRY** · score agregado 288.2 · 5 señales · fuentes: corporate_insider
+- **ADPT** · score agregado 273.8 · 7 señales · fuentes: corporate_insider
+- **CWBHF** · score agregado 240.0 · 4 señales · fuentes: corporate_insider
+- **NUVL** · score agregado 231.5 · 4 señales · fuentes: corporate_insider
+- **ETSY** · score agregado 182.2 · 3 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -271,33 +271,33 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | QNT | 72 | large_holder | Capital World Investors |  | - | - |
-| TOFB | 72 | large_holder | LPL Financial LLC |  | - | - |
+| GWRE | 72 | large_holder | BAMCO INC /NY/ |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| LIME | 70 | large_holder | Lunate Capital Limited |  | - | - |
-| PBH | 70 | large_holder | Ariel Investments, LLC |  | - | - |
-| HRI | 70 | large_holder | Invesco Ltd. |  | - | - |
-| SKYQ | 70 | large_holder | JPMORGAN CHASE & CO |  | - | - |
-| ARTW | 70 | large_holder | Walther Larry M |  | - | - |
-| ARTW | 70 | large_holder | Walther Larry M |  | - | - |
-| QTTB | 70 | large_holder | The Carlyle Group Inc. |  | - | - |
-| DYAI | 70 | large_holder | Francisco Trust under agr |  | - | - |
-| TDIC | 70 | large_holder | IMPERIAL VISION FUND SPC  |  | - | - |
-| MRTN | 70 | large_holder | Nuance Investments LLC |  | - | - |
-| HAL | 70 | large_holder | Capital Research Global I |  | - | - |
-| WOLF | 70 | large_holder | Capital Research Global I |  | - | - |
+| XP | 70 | large_holder | XP Control LLC |  | - | - |
+| OUT | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| TRNO | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| TDC | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| IVT | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| AIXI | 70 | large_holder | Streeterville Capital LLC |  | - | - |
+| ACA | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
+| NEOG | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
+| UFPT | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
+| ARAY | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
+| KN | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
+| FRMM | 70 | large_holder | Pemble Brian James |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| PUBM | 72 | corporate_insider | Goel Rajeev K. | $687,257 | cluster_buy |
 | MIAX | 71 | corporate_insider | Schafer Douglas M. JR | $1,978,560 | cluster_buy |
-| TOST | 71 | corporate_insider | Narang Aman | $414,416 | cluster_buy |
-| TOST | 71 | corporate_insider | Gomez Elena | $334,793 | cluster_buy |
-| TOST | 70 | corporate_insider | Fredette Stephen | $263,853 | cluster_buy |
 | MIAX | 70 | corporate_insider | Comly Barbara J. | $1,154,160 | cluster_buy |
-| MIAX | 70 | corporate_insider | Jayabalan Harish | $842,400 | cluster_buy |
+| ARQQ | 70 | corporate_insider | Leaver Andrew | $249,329 | cluster_buy |
+| PUBM | 70 | corporate_insider | Goel Rajeev K. | $238,990 | cluster_buy |
+| PUBM | 70 | corporate_insider | Pantelick Steven | $321,395 | cluster_buy |
 | MIAX | 69 | corporate_insider | Brown Shelly | $674,080 | cluster_buy |
-| MIAX | 68 | corporate_insider | Deitzel Edward | $462,440 | cluster_buy |
+| JOBY | 69 | corporate_insider | Bevirt JoeBen | $140,829 | cluster_buy |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -314,7 +314,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 93.7 (-0.51% / -1.11% / 0.42%) [2026-07-07]
 - GLD: 377.49 (-1.21% / 2.42% / -4.73%) [2026-07-07]
 - ^VIX: 16.13 (3.6% / -8.61% / -25.01%) [2026-07-07]
-- BTC-USD: 63613.22 (-0.6% / 3.46% / -1.25%) [2026-07-07]
+- BTC-USD: 63275.53 (-1.12% / 2.91% / -1.77%) [2026-07-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,12 +329,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (4), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MIAX] Miami International Holdings Reports June 2026 Trading Results (2026-07-07)
-- [IBTA] Ibotta ( NYSE : IBTA ) CTO Luke Roy Swanson Sells 5 , 940 Shares of Stock (2026-07-07)
+- [WDAY] Hormuz attacks , AI stock falls set to weigh on the ASX (2026-07-07)
+- [ARQQ] Patrick Willcocks Sells 2 , 009 Shares of Arqit Quantum ( NASDAQ : ARQQ ) Stock (2026-07-07)
+- [ARQQ] Arqit Quantum ( NASDAQ : ARQQ ) Director Garth Ritchie Sells 439 Shares of Stock (2026-07-07)
+- [ARQQ] Arqit Quantum ( NASDAQ : ARQQ ) CRO Sells $177 , 528 . 96 in Stock (2026-06-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -349,11 +351,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CandleHammerDrums · PnL $1,079,893 · win rate 96% · categorias: sports
-- Oneger · PnL $503,367 · win rate 98% · categorias: sports
-- HongYunX · PnL $83,096 · win rate 100% · categorias: sports
-- RJW1 · PnL $91,901 · win rate 99% · categorias: sports
-- R88N · PnL $148,630 · win rate 98% · categorias: sports
+- CandleHammerDrums · PnL $1,169,616 · win rate 96% · categorias: sports
+- Oneger · PnL $503,531 · win rate 98% · categorias: sports
+- R88N · PnL $149,190 · win rate 98% · categorias: sports
+- Jsram · PnL $1,755,570 · win rate 76% · categorias: sports, politics
+- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $148,552 · win rate 90% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -361,7 +363,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-07-06
+- **sec_insiders**: `ok` · 656 registros 30d · ultimo dato 2026-07-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-07
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -374,7 +376,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CDLX, CWK, GLD, GTM, IEF, INTU, MIAX, QQQ, SPY, SSTK, TLT, TOST, TXRH, VEEV, ZSPC`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`ADPT, ARQQ, CWBHF, ETSY, FIRY, GLD, GTM, IEF, JOBY, MIAX, NUVL, PUBM, QQQ, SPY, TLT`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-07T20:32:48.757733+00:00",
+  "generated_at": "2026-07-07T22:01:38.517428+00:00",
   "window": {
     "from": "2026-06-07",
     "to": "2026-07-07",
@@ -23,7 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -392,17 +393,17 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "INTU",
-        "company": "INTUIT INC.",
-        "pressure_score": 1720.0,
+        "ticker": "ARQQ",
+        "company": "Arqit Quantum Inc.",
+        "pressure_score": 1541.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "TOST",
-        "company": "Toast, Inc.",
-        "pressure_score": 1394.4,
+        "ticker": "JOBY",
+        "company": "Joby Aviation, Inc.",
+        "pressure_score": 1247.4,
         "sources": [
           "corporate_insider"
         ]
@@ -410,39 +411,31 @@
       {
         "ticker": "GTM",
         "company": "ZoomInfo Technologies Inc.",
-        "pressure_score": 1155.2,
+        "pressure_score": 803.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "MIAX",
-        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
-        "pressure_score": 681.8,
+        "ticker": "ADPT",
+        "company": "Adaptive Biotechnologies Corp",
+        "pressure_score": 533.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CDLX",
-        "company": "Cardlytics, Inc.",
-        "pressure_score": 414.0,
+        "ticker": "PUBM",
+        "company": "PubMatic, Inc.",
+        "pressure_score": 416.7,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CWK",
-        "company": "Cushman & Wakefield Ltd.",
-        "pressure_score": 406.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ZSPC",
-        "company": "zSpace, Inc.",
-        "pressure_score": 355.4,
+        "ticker": "FIRY",
+        "company": "Firy Inc.",
+        "pressure_score": 350.6,
         "sources": [
           "corporate_insider"
         ]
@@ -456,9 +449,25 @@
         ]
       },
       {
-        "ticker": "VEEV",
-        "company": "VEEVA SYSTEMS INC",
-        "pressure_score": 345.2,
+        "ticker": "MIAX",
+        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+        "pressure_score": 344.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NUVL",
+        "company": "Nuvalent, Inc.",
+        "pressure_score": 280.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CWBHF",
+        "company": "Charlotte's Web Holdings, Inc.",
+        "pressure_score": 272.2,
         "sources": [
           "corporate_insider"
         ]
@@ -489,45 +498,36 @@
         ]
       },
       {
-        "ticker": "SSTK",
-        "company": "Shutterstock, Inc.",
-        "pressure_score": 214.2,
+        "ticker": "OKLO",
+        "company": "Oklo Inc.",
+        "pressure_score": 208.8,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
-        "ticker": "INMB",
-        "company": "Inmune Bio, Inc.",
-        "pressure_score": 193.4,
+        "ticker": "ETSY",
+        "company": "ETSY INC",
+        "pressure_score": 207.0,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TCBI",
-        "company": "Common Stock",
-        "pressure_score": 190.6,
-        "sources": [
-          "congress",
           "corporate_insider"
         ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "MU",
-        "company": "Stock",
-        "pressure_score": 1462.6,
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 3620.2,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
       {
         "ticker": "XMTR",
         "company": "Xometry, Inc.",
-        "pressure_score": 1164.0,
+        "pressure_score": 1399.5,
         "sources": [
           "corporate_insider"
         ]
@@ -549,9 +549,26 @@
         ]
       },
       {
-        "ticker": "IBTA",
-        "company": "Ibotta, Inc.",
-        "pressure_score": 1101.6,
+        "ticker": "WDAY",
+        "company": "Stock",
+        "pressure_score": 886.5,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NTRA",
+        "company": "Natera, Inc.",
+        "pressure_score": 839.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PUBM",
+        "company": "PubMatic, Inc.",
+        "pressure_score": 713.0,
         "sources": [
           "corporate_insider"
         ]
@@ -565,6 +582,15 @@
         ]
       },
       {
+        "ticker": "DASH",
+        "company": "DoorDash, Inc.",
+        "pressure_score": 629.2,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 608.5,
@@ -573,42 +599,9 @@
         ]
       },
       {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 571.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "LGND",
-        "company": "Common Stock",
-        "pressure_score": 541.0,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SEZL",
-        "company": "Sezzle Inc.",
-        "pressure_score": 503.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MIAX",
-        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
-        "pressure_score": 501.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 434.1,
+        "ticker": "JOBY",
+        "company": "Joby Aviation, Inc.",
+        "pressure_score": 549.0,
         "sources": [
           "corporate_insider"
         ]
@@ -631,9 +624,17 @@
         ]
       },
       {
-        "ticker": "TOST",
-        "company": "Toast, Inc.",
-        "pressure_score": 359.3,
+        "ticker": "SNOW",
+        "company": "Snowflake Inc.",
+        "pressure_score": 363.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MIAX",
+        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+        "pressure_score": 355.8,
         "sources": [
           "corporate_insider"
         ]
@@ -651,6 +652,15 @@
       "score": 78.9
     },
     {
+      "ticker": "IMVT",
+      "company": "Immunovant, Inc.",
+      "actor": "Venker Eric",
+      "actor_type": "ceo",
+      "amount": 1333038.48,
+      "date": "2026-07-01",
+      "score": 77.5
+    },
+    {
       "ticker": "GF",
       "company": "NEW GERMANY FUND INC",
       "actor": "Saba Capital Management, L.P.",
@@ -658,6 +668,15 @@
       "amount": 430209.2,
       "date": "2026-07-02",
       "score": 76.5
+    },
+    {
+      "ticker": "QURE",
+      "company": "uniQure N.V.",
+      "actor": "Kapusta Matthew C",
+      "actor_type": "ceo",
+      "amount": 408779.98,
+      "date": "2026-07-02",
+      "score": 74.9
     },
     {
       "ticker": "GF",
@@ -678,99 +697,81 @@
       "score": 73.3
     },
     {
-      "ticker": "DLHC",
-      "company": "DLH Holdings Corp.",
-      "actor": "Mink Brook Asset Management LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 48882.28,
-      "date": "2026-07-06",
-      "score": 73.3
+      "ticker": "NUVL",
+      "company": "Nuvalent, Inc.",
+      "actor": "Noci Darlene",
+      "actor_type": "officer",
+      "amount": 1002336.9,
+      "date": "2026-07-01",
+      "score": 72.6
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Narang Aman",
+      "ticker": "ARQQ",
+      "company": "Arqit Quantum Inc.",
+      "actor": "Leaver Andrew",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Narang Aman",
+      "ticker": "PUBM",
+      "company": "PubMatic, Inc.",
+      "actor": "Goel Rajeev K.",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Narang Aman",
+      "ticker": "PUBM",
+      "company": "PubMatic, Inc.",
+      "actor": "Kumar Mukul",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Narang Aman",
+      "ticker": "JOBY",
+      "company": "Joby Aviation, Inc.",
+      "actor": "Simi Bonny W",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Fredette Stephen",
+      "ticker": "JOBY",
+      "company": "Joby Aviation, Inc.",
+      "actor": "Simi Bonny W",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Fredette Stephen",
+      "ticker": "JOBY",
+      "company": "Joby Aviation, Inc.",
+      "actor": "Simi Bonny W",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Fredette Stephen",
+      "ticker": "JOBY",
+      "company": "Joby Aviation, Inc.",
+      "actor": "Bevirt JoeBen",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
       "score": 71.8
     },
     {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Fredette Stephen",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-07-01",
-      "score": 71.8
-    },
-    {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Gomez Elena",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-07-01",
-      "score": 71.8
-    },
-    {
-      "ticker": "TOST",
-      "company": "Toast, Inc.",
-      "actor": "Gomez Elena",
+      "ticker": "JOBY",
+      "company": "Joby Aviation, Inc.",
+      "actor": "Bevirt JoeBen",
       "actor_type": "ceo",
       "amount": 0.0,
       "date": "2026-07-01",
@@ -1128,15 +1129,6 @@
       "date": "2026-07-02"
     },
     {
-      "filer": "Grande Holding Limited",
-      "company": "Grande Group Ltd/HK",
-      "ticker": "GRAN",
-      "ownership_pct": 76.33,
-      "shares": 15194000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-29"
-    },
-    {
       "filer": "Bellevue Capital Partners, LLC",
       "company": "American Strategic Investment Co.",
       "ticker": "NYC",
@@ -1164,15 +1156,6 @@
       "date": "2026-07-06"
     },
     {
-      "filer": "Elliott Investment Management L.P.",
-      "company": "Triple Flag Precious Metals Corp.",
-      "ticker": "TFPM",
-      "ownership_pct": 64.7,
-      "shares": 133241535,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-30"
-    },
-    {
       "filer": "Eric Li",
       "company": "Polestar Automotive Holding UK PLC",
       "ticker": "",
@@ -1191,15 +1174,6 @@
       "date": "2026-07-06"
     },
     {
-      "filer": "Charles W. Ergen",
-      "company": "EchoStar Corp",
-      "ticker": "SATS",
-      "ownership_pct": 51.0,
-      "shares": 148681314,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-06-30"
-    },
-    {
       "filer": "PACIFIC INVESTMENT MANAGEMENT CO LLC",
       "company": "FreightCar America, Inc.",
       "ticker": "RAIL",
@@ -1216,6 +1190,33 @@
       "shares": 3545221,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-02"
+    },
+    {
+      "filer": "HANNA DAVID G",
+      "company": "Atlanticus Holdings Corp",
+      "ticker": "",
+      "ownership_pct": 42.1,
+      "shares": 8047464,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-06"
+    },
+    {
+      "filer": "Thurman J. Rodgers",
+      "company": "SunPower Inc.",
+      "ticker": "",
+      "ownership_pct": 39.4,
+      "shares": 59160705,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-06"
+    },
+    {
+      "filer": "FROST PHILLIP MD ET AL",
+      "company": "OPKO HEALTH, INC.",
+      "ticker": "OPK",
+      "ownership_pct": 34.1,
+      "shares": 255429406,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-01"
     }
   ],
   "polymarket": {
@@ -1223,7 +1224,7 @@
       {
         "wallet": "0x7c1ee865a7",
         "username": "CandleHammerDrums",
-        "pnl": 1079892.96,
+        "pnl": 1169615.67,
         "win_rate": 0.9604,
         "volume": 1613643.83,
         "categories": [
@@ -1233,7 +1234,7 @@
       {
         "wallet": "0xe9a6ed2e4d",
         "username": "Oneger",
-        "pnl": 503366.67,
+        "pnl": 503530.6,
         "win_rate": 0.9804,
         "volume": 48566.31,
         "categories": [
@@ -1241,29 +1242,9 @@
         ]
       },
       {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 83095.72,
-        "win_rate": 1.0,
-        "volume": 315004.87,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 91901.11,
-        "win_rate": 0.9857,
-        "volume": 245506.91,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb809a4b78b",
         "username": "R88N",
-        "pnl": 148629.69,
+        "pnl": 149189.69,
         "win_rate": 0.9767,
         "volume": 24999.99,
         "categories": [
@@ -1273,7 +1254,7 @@
       {
         "wallet": "0x83720820a8",
         "username": "Jsram",
-        "pnl": 1749387.44,
+        "pnl": 1755570.02,
         "win_rate": 0.7579,
         "volume": 3224448.55,
         "categories": [
@@ -1282,21 +1263,11 @@
         ]
       },
       {
-        "wallet": "0xc289082ddb",
-        "username": "sport-intelligence",
-        "pnl": 77918.51,
-        "win_rate": 0.9559,
-        "volume": 258359.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5966db1fe5",
         "username": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
-        "pnl": 129416.99,
-        "win_rate": 0.8983,
-        "volume": 77232.21,
+        "pnl": 148551.68,
+        "win_rate": 0.8992,
+        "volume": 176779.6,
         "categories": [
           "sports",
           "crypto"
@@ -1305,9 +1276,9 @@
       {
         "wallet": "0x65018f9fc4",
         "username": "cnyek",
-        "pnl": 264541.56,
+        "pnl": 265625.06,
         "win_rate": 0.9429,
-        "volume": 1141200.09,
+        "volume": 1213033.42,
         "categories": [
           "sports"
         ]
@@ -1315,7 +1286,7 @@
       {
         "wallet": "0x134a63b764",
         "username": "Bertapotamous",
-        "pnl": 116582.61,
+        "pnl": 117945.11,
         "win_rate": 0.874,
         "volume": 161601.2,
         "categories": [
@@ -1323,15 +1294,48 @@
           "sports",
           "crypto"
         ]
+      },
+      {
+        "wallet": "0x6db983ff1c",
+        "username": "tsihkodiives",
+        "pnl": 137543.8,
+        "win_rate": 0.8576,
+        "volume": 5657111.38,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5b6e80132e",
+        "username": "anurag",
+        "pnl": 147793.58,
+        "win_rate": 0.9688,
+        "volume": 383930.2,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x095fbca2e0",
+        "username": "muchobliged",
+        "pnl": 1114396.31,
+        "win_rate": 1.0,
+        "volume": 10054524.17,
+        "categories": [
+          "sports"
+        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x095fbca2e0",
         "username": "muchobliged",
-        "pnl": 405583.25,
+        "pnl": 1114396.31,
         "win_rate": 1.0,
-        "volume": 9643908.81,
+        "volume": 10054524.17,
         "categories": [
           "sports"
         ]
@@ -1339,7 +1343,7 @@
       {
         "wallet": "0x09b428f7c2",
         "username": "DEEDDIT",
-        "pnl": 3073855.12,
+        "pnl": 3565639.18,
         "win_rate": 1.0,
         "volume": 7721724.14,
         "categories": [
@@ -1349,7 +1353,7 @@
       {
         "wallet": "0x4be1fa92e6",
         "username": "Eztennis",
-        "pnl": 273857.89,
+        "pnl": 962221.22,
         "win_rate": 0.5459,
         "volume": 6869878.78,
         "categories": [
@@ -1358,19 +1362,9 @@
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 126940.47,
-        "win_rate": 0.547,
-        "volume": 9688176.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x83720820a8",
         "username": "Jsram",
-        "pnl": 1749387.44,
+        "pnl": 1755570.02,
         "win_rate": 0.7579,
         "volume": 3224448.55,
         "categories": [
@@ -1381,9 +1375,9 @@
       {
         "wallet": "0x37e053beab",
         "username": "ChinesePro",
-        "pnl": 141511.17,
+        "pnl": 161899.15,
         "win_rate": 0.716,
-        "volume": 4652610.46,
+        "volume": 4778843.87,
         "categories": [
           "sports",
           "crypto"
@@ -1392,9 +1386,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 159796.45,
+        "pnl": 122354.71,
         "win_rate": 0.62,
-        "volume": 4025443.99,
+        "volume": 4174512.33,
         "categories": [
           "sports"
         ]
@@ -1402,9 +1396,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 196958.3,
+        "pnl": 170006.63,
         "win_rate": 0.519,
-        "volume": 3162887.6,
+        "volume": 3369351.19,
         "categories": [
           "sports"
         ]
@@ -1412,9 +1406,9 @@
       {
         "wallet": "0x6db983ff1c",
         "username": "tsihkodiives",
-        "pnl": 145306.7,
+        "pnl": 137543.8,
         "win_rate": 0.8576,
-        "volume": 5623836.95,
+        "volume": 5657111.38,
         "categories": [
           "sports",
           "politics",
@@ -1424,9 +1418,19 @@
       {
         "wallet": "0x7c1ee865a7",
         "username": "CandleHammerDrums",
-        "pnl": 1079892.96,
+        "pnl": 1169615.67,
         "win_rate": 0.9604,
         "volume": 1613643.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x620d7e06ce",
+        "username": "tankjack",
+        "pnl": 191654.63,
+        "win_rate": 0.5,
+        "volume": 1406582.03,
         "categories": [
           "sports"
         ]
@@ -1435,23 +1439,44 @@
   },
   "news": [
     {
-      "title": "Miami International Holdings Reports June 2026 Trading Results",
-      "url": "https://www.prnewswire.com/news-releases/miami-international-holdings-reports-june-2026-trading-results-302818677.html",
-      "ticker": "MIAX",
-      "themes": [],
+      "title": "Hormuz attacks , AI stock falls set to weigh on the ASX",
+      "url": "https://www.watoday.com.au/business/markets/hormuz-attacks-ai-stock-falls-set-to-weigh-on-the-asx-20260708-p60dgx.html",
+      "ticker": "WDAY",
+      "themes": [
+        "ai",
+        "stock"
+      ],
       "date": "2026-07-07"
     },
     {
-      "title": "Ibotta ( NYSE : IBTA ) CTO Luke Roy Swanson Sells 5 , 940 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13496683/ibotta-nyseibta-cto-luke-roy-swanson-sells-5940-shares-of-stock.html",
-      "ticker": "IBTA",
+      "title": "Patrick Willcocks Sells 2 , 009 Shares of Arqit Quantum ( NASDAQ : ARQQ ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13496697/patrick-willcocks-sells-2009-shares-of-arqit-quantum-nasdaqarqq-stock.html",
+      "ticker": "ARQQ",
       "themes": [
         "stock"
       ],
       "date": "2026-07-07"
+    },
+    {
+      "title": "Arqit Quantum ( NASDAQ : ARQQ ) Director Garth Ritchie Sells 439 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/07/06/arqit-quantum-nasdaqarqq-director-garth-ritchie-sells-439-shares-of-stock.html",
+      "ticker": "ARQQ",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Arqit Quantum ( NASDAQ : ARQQ ) CRO Sells $177 , 528 . 96 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/06/24/arqit-quantum-nasdaqarqq-cro-sells-177528-96-in-stock.html",
+      "ticker": "ARQQ",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-24"
     }
   ],
-  "signals_count": 1659,
+  "signals_count": 1636,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
