@@ -61,11 +61,26 @@ def load_closes(symbol: str, years: int = 2) -> pd.Series:
     return s.sort_index().dropna()
 
 
+def _fallback_macro_from_snapshot(series_id: str) -> dict[str, Any] | None:
+    """Fallback: lee de macro_latest.json cuando no hay jsonl.gz en el history."""
+    snapshot = PUBLIC_DIR / "macro_latest.json"
+    if not snapshot.exists():
+        return None
+    try:
+        data = json.loads(snapshot.read_text(encoding="utf-8"))
+        for entry in data:
+            if entry.get("series_id") == series_id:
+                return {"value": entry.get("value"), "date": entry.get("date")}
+    except (json.JSONDecodeError, OSError):
+        pass
+    return None
+
+
 def load_macro_latest(series_id: str) -> dict[str, Any] | None:
-    """Devuelve la ultima observacion de una serie macro (jsonl.gz)."""
+    """Devuelve la ultima observacion de una serie macro (jsonl.gz, fallback a snapshot)."""
     path = MACRO_DIR / f"series={series_id}" / f"{series_id}.jsonl.gz"
     if not path.exists():
-        return None
+        return _fallback_macro_from_snapshot(series_id)
     last = None
     try:
         with gzip.open(path, "rt", encoding="utf-8") as f:
@@ -77,8 +92,8 @@ def load_macro_latest(series_id: str) -> dict[str, Any] | None:
                     except json.JSONDecodeError:
                         continue
     except OSError:
-        return None
-    return last
+        return _fallback_macro_from_snapshot(series_id)
+    return last if last is not None else _fallback_macro_from_snapshot(series_id)
 
 
 # --- Reglas de estado (cada una devuelve (estado, evidencia)) --------------

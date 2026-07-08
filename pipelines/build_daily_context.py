@@ -258,10 +258,18 @@ def _sec_world(news: list[dict], movements: list[dict],
         lines.append("")
 
     # Actores que han generado cambio (resumen legible de top movements).
-    if movements:
+    # Dedup por (actor, ticker, fecha) para no repetir la misma operacion.
+    seen_moves: set[tuple] = set()
+    unique_moves: list[dict] = []
+    for m in movements:
+        key = (m.get("actor_name"), m.get("ticker"), m.get("event_date"))
+        if key not in seen_moves:
+            seen_moves.add(key)
+            unique_moves.append(m)
+    if unique_moves:
         lines.append("**Actores que han movido ficha este mes (top movimientos):**")
         lines.append("")
-        for m in movements[:8]:
+        for m in unique_moves[:8]:
             lines.append(f"- {m.get('summary', m.get('title', ''))}")
         lines.append("")
 
