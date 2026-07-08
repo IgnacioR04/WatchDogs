@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-08T14:09:45.805010+00:00",
+  "generated_at": "2026-07-08T14:28:22.986615+00:00",
   "window": {
     "from": "2026-06-08",
     "to": "2026-07-08",
@@ -22,7 +22,10 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "stock",
+      "ai"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -495,17 +498,17 @@
         ]
       },
       {
-        "ticker": "ALMR",
-        "company": "Alamar Biosciences, Inc.",
+        "ticker": "CLYM",
+        "company": "CLIMB BIO INC",
         "pressure_score": 139.5,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines, Inc.",
-        "pressure_score": 138.0,
+        "ticker": "ALMR",
+        "company": "Alamar Biosciences, Inc.",
+        "pressure_score": 139.5,
         "sources": [
           "large_holder"
         ]
@@ -513,20 +516,19 @@
     ],
     "sell_pressure": [
       {
-        "ticker": "OLPX",
-        "company": "OLAPLEX HOLDINGS, INC.",
-        "pressure_score": 1700.8,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1811.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CACC",
-        "company": "Credit Acceptance Corporation",
-        "pressure_score": 1449.3,
+        "ticker": "OLPX",
+        "company": "OLAPLEX HOLDINGS, INC.",
+        "pressure_score": 1700.8,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -571,6 +573,14 @@
         ]
       },
       {
+        "ticker": "BCYC",
+        "company": "BICYCLE THERAPEUTICS PLC",
+        "pressure_score": 685.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "MIAX",
         "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
         "pressure_score": 660.2,
@@ -598,14 +608,6 @@
         "ticker": "PBI",
         "company": "PITNEY BOWES INC /DE/",
         "pressure_score": 461.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BCYC",
-        "company": "BICYCLE THERAPEUTICS PLC",
-        "pressure_score": 426.1,
         "sources": [
           "corporate_insider"
         ]
@@ -1079,15 +1081,6 @@
   ],
   "large_holders": [
     {
-      "filer": "CIM Group Holdings, LLC",
-      "company": "CIM GROUP, INC.",
-      "ticker": "CMRF",
-      "ownership_pct": 100.0,
-      "shares": 907376073,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-01"
-    },
-    {
       "filer": "UAW Retiree Medical Benefits Trust",
       "company": "Commonwealth Credit Partners BDC I",
       "ticker": "",
@@ -1149,6 +1142,15 @@
       "shares": 44016020,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-06"
+    },
+    {
+      "filer": "Mithaq Capital SPC",
+      "company": "Childrens Place, Inc.",
+      "ticker": "PLCE",
+      "ownership_pct": 61.1,
+      "shares": 13593236,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-08"
     },
     {
       "filer": "Eric Li",
@@ -1217,16 +1219,6 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 98948.66,
-        "win_rate": 0.972,
-        "volume": 334615.21,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
         "pnl": 233288.16,
@@ -1237,11 +1229,21 @@
         ]
       },
       {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 33396.8,
+        "win_rate": 0.972,
+        "volume": 394768.89,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x870fd20e18",
         "username": "waterx-",
-        "pnl": 48822.2,
+        "pnl": 48855.59,
         "win_rate": 0.9263,
-        "volume": 72082.22,
+        "volume": 72090.1,
         "categories": [
           "crypto",
           "sports"
@@ -1259,21 +1261,11 @@
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 18550.14,
-        "win_rate": 0.9433,
-        "volume": 295076.9,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xfc25f141ed",
         "username": ".Sisyphus.",
-        "pnl": 31743.68,
+        "pnl": 31818.31,
         "win_rate": 0.905,
-        "volume": 480945.38,
+        "volume": 481980.66,
         "categories": [
           "sports",
           "crypto"
@@ -1282,7 +1274,7 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 35988.53,
+        "pnl": 36321.89,
         "win_rate": 0.888,
         "volume": 2453.0,
         "categories": [
@@ -1303,9 +1295,9 @@
       {
         "wallet": "0x695d8d90de",
         "username": "mpyh",
-        "pnl": 30610.64,
+        "pnl": 30650.76,
         "win_rate": 0.862,
-        "volume": 139487.63,
+        "volume": 139852.63,
         "categories": [
           "sports",
           "crypto",
@@ -1313,11 +1305,23 @@
         ]
       },
       {
+        "wallet": "0x9592adb703",
+        "username": "trashpilot",
+        "pnl": 19764.65,
+        "win_rate": 0.8849,
+        "volume": 13125.37,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 31538.75,
+        "pnl": 24483.34,
         "win_rate": 0.833,
-        "volume": 90010.68,
+        "volume": 91329.62,
         "categories": [
           "sports"
         ]
@@ -1327,9 +1331,9 @@
       {
         "wallet": "0x4be1fa92e6",
         "username": "Eztennis",
-        "pnl": 614695.38,
+        "pnl": 360163.47,
         "win_rate": 0.545,
-        "volume": 6640812.31,
+        "volume": 6642952.96,
         "categories": [
           "sports",
           "politics"
@@ -1338,7 +1342,7 @@
       {
         "wallet": "0xf5fabdcdc6",
         "username": "palegrit",
-        "pnl": 76106.38,
+        "pnl": 327984.51,
         "win_rate": 0.8333,
         "volume": 2798645.96,
         "categories": [
@@ -1348,19 +1352,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 496805.79,
-        "win_rate": 0.555,
-        "volume": 3574312.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 21039.24,
-        "win_rate": 0.591,
-        "volume": 2035067.95,
+        "pnl": 417099.08,
+        "win_rate": 0.563,
+        "volume": 4195067.42,
         "categories": [
           "sports"
         ]
@@ -1368,7 +1362,7 @@
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 147771.32,
+        "pnl": 147856.49,
         "win_rate": 0.538,
         "volume": 1205789.94,
         "categories": [
@@ -1378,11 +1372,32 @@
         ]
       },
       {
+        "wallet": "0x4cb5a6cf70",
+        "username": "ZizzWizz",
+        "pnl": 43601.77,
+        "win_rate": 0.9167,
+        "volume": 912250.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x08a30a0a0f",
+        "username": "0x08A30A0A0fb71ebDdc8907145791030782B88666-1782204100295",
+        "pnl": 60263.48,
+        "win_rate": 0.8108,
+        "volume": 883793.09,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 165665.13,
+        "pnl": 165689.42,
         "win_rate": 0.625,
-        "volume": 708190.33,
+        "volume": 708786.8,
         "categories": [
           "sports"
         ]
@@ -1390,9 +1405,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 41578.96,
+        "pnl": 26902.95,
         "win_rate": 0.529,
-        "volume": 1292874.85,
+        "volume": 1379652.81,
         "categories": [
           "sports"
         ]
@@ -1400,9 +1415,9 @@
       {
         "wallet": "0xfc25f141ed",
         "username": ".Sisyphus.",
-        "pnl": 31743.68,
+        "pnl": 31818.31,
         "win_rate": 0.905,
-        "volume": 480945.38,
+        "volume": 481980.66,
         "categories": [
           "sports",
           "crypto"
@@ -1411,34 +1426,85 @@
       {
         "wallet": "0xedc746d189",
         "username": "WinsOnly9",
-        "pnl": 77255.34,
+        "pnl": 94179.45,
         "win_rate": 1.0,
-        "volume": 256570.24,
+        "volume": 346529.01,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x7b02b2bac2",
-        "username": "foodenjoyer",
-        "pnl": 77212.22,
-        "win_rate": 0.5217,
-        "volume": 182305.71,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
         ]
       }
     ]
   },
   "news": [
     {
+      "title": "Stocks set to slump while oil surges after Trump says Iran ceasefire is over",
+      "url": "http://www.cbsnews.com/news/dow-futures-oil-prices-strait-of-hormuz-trump/",
+      "ticker": "WDAY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Oil prices rise , and stocks fall worldwide after Trump says ceasefire with Iran is  over  ",
+      "url": "https://toronto.citynews.ca/2026/07/08/oil-prices-jump-more-than-6-after-trump-says-ceasefire-with-iran-is-over/",
+      "ticker": "WDAY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More",
+      "url": "https://www.insidermonkey.com/blog/hedge-fund-and-insider-trading-news-ray-dalio-paul-marshall-warren-buffett-jain-global-brevan-howard-lone-pine-capital-liquidia-corp-lqda-arista-networks-inc-anet-and-more-1797469/",
+      "ticker": "ANET",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-07"
+    },
+    {
       "title": "Miami International Holdings Reports June 2026 Trading Results",
       "url": "https://www.prnewswire.com/news-releases/miami-international-holdings-reports-june-2026-trading-results-302818677.html",
       "ticker": "MIAX",
       "themes": [],
       "date": "2026-07-07"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Director Sells 8 , 000 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/07/06/insider-selling-arista-networks-nyseanet-director-sells-8000-shares-of-stock.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Here How Arista Networks Is a Major Beneficiary of Big Tech Push to Break Nvidia Grip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-major-beneficiary-big-170002174.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/makes-arista-networks-anet-one-001910213.html",
+      "ticker": "ANET",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "title": "What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks",
+      "url": "https://www.insidermonkey.com/blog/what-makes-arista-networks-anet-one-of-blackrocks-30-most-important-ai-stocks-1796194/",
+      "ticker": "ANET",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-06"
     },
     {
       "title": "Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel",
@@ -1455,7 +1521,7 @@
       "date": "2026-06-29"
     }
   ],
-  "signals_count": 1453,
+  "signals_count": 1471,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
