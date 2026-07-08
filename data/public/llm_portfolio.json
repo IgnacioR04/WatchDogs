@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-08T14:07:47+00:00",
+  "verdict_llm": "adjust",
+  "thesis": "Régimen risk_on con tendencia alcista y crédito tenso: acepto el core de la candidata (índices + duración + oro, 57.8%) como base estable. En satélites mantengo las ideas con compras de insiders coherentes — VFLEX destaca con cluster de 2 insiders y $6.5M del CEO, y COE con compras del CEO por $14M pese a la caída — pero elimino MIAX y EOSE, cuyas señales de venta de insiders del periodo contradicen su tesis de compra. Exposición final 82.8%, cash 17.2%, dentro del presupuesto del 90%.",
+  "key_risks": [
+    "QQQ muestra debilidad de corto plazo (-1.85% 1d, -2.02% 5d) dentro de un régimen alcista: si la tendencia se deteriora, el core de renta variable (24%) es el mayor contribuidor al riesgo.",
+    "TLT/IEF (21.8%) sufren si los tipos largos repuntan (10Y ya en 4.48% con curva plana).",
+    "Los satélites dependen casi exclusivamente de corporate_insider como fuente (sin convicción cruzada congress/13F), y ese dato llega con 1-2 días de retraso.",
+    "VFLEX al peso máximo (12%) descansa en las compras de solo 2 insiders de la misma empresa."
+  ],
+  "confidence": 0.65,
+  "adjustments": [
+    {
+      "ticker": "MIAX",
+      "action": "remove",
+      "target_weight": 0.0,
+      "reason": "Aunque su score agregado es el más alto (670.5), la sección 3b muestra 7 ventas de insiders distintos de MIAX (Gallagher, Schafer, Comly, Jayabalan, Brown, Deitzel) por >$8M en conjunto. Ventas de múltiples insiders tras un +18.7% en 5d contradicen la tesis de compra: la tesis se considera rota antes de abrir la posición."
+    },
+    {
+      "ticker": "EOSE",
+      "action": "remove",
+      "target_weight": 0.0,
+      "reason": "Venta de insider (Kroeker, $371K) combinada con momentum muy negativo (-22.2% 5d, -33.1% 20d) y peso marginal (0.6%). Señal mixta con precio en caída fuerte: no justifica el coste de abrir la posición en el primer ciclo."
+    }
+  ],
+  "final_weights": {
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.12,
+    "VFLEX": 0.12,
+    "IEF": 0.098,
+    "PSBD": 0.031,
+    "GF": 0.028,
+    "MOMO": 0.023,
+    "ASC": 0.017,
+    "NWL": 0.011,
+    "HPE": 0.011,
+    "COE": 0.009
+  },
+  "metrics": {
+    "ann_vol": 0.0793,
+    "var_95_1d": 0.0073,
+    "cvar_95_1d": 0.0114,
+    "max_drawdown": -0.0758,
+    "beta_spy": 0.398,
+    "hhi": 0.0845,
+    "max_position": 0.12,
+    "n_positions": 13,
+    "effective_positions": 11.8,
+    "gross_exposure": 0.828,
+    "days_used": 504
+  },
+  "risk_gate": {
+    "passed": true,
+    "violations": [],
+    "n_violations": 0
+  },
+  "violations": [],
+  "approved": true
+}

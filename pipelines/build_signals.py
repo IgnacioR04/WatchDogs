@@ -68,7 +68,10 @@ def _from_insiders() -> list[dict[str, Any]]:
     out = []
     for r in _load("sec_insiders_30d.json"):
         code = (r.get("tx_code") or "").upper()
-        direction = "buy" if code in {"P", "M"} else ("sell" if code in {"S", "D"} else "other")
+        # Solo P (compra en mercado abierto) es conviccion compradora. M (ejercicio
+        # de opciones) es compensacion, no una apuesta: contarlo como buy inflaba
+        # tickers como MIAX donde los insiders ejercian a $12 y vendian a $43.
+        direction = "buy" if code == "P" else ("sell" if code in {"S", "D"} else "other")
         out.append({
             "id": r.get("id"),
             "source": "sec_form_4",
@@ -253,7 +256,9 @@ def build() -> list[dict[str, Any]]:
             s["signal_score"] = insider_signal_score(s, clusters)
             cl = clusters.get((s.get("ticker") or "").upper(), 0)
             s["cluster_size"] = cl
-            if cl >= 2:
+            # El flag solo tiene sentido en la propia compra: ponerlo en las
+            # ventas del mismo ticker era contradictorio (venta con cluster_buy).
+            if cl >= 2 and s.get("direction") == "buy":
                 s.setdefault("_flags", []).append("cluster_buy")
         else:
             s["signal_score"] = s.get("importance_score", 0)

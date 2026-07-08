@@ -75,7 +75,10 @@ def insider_signal_score(sig: dict[str, Any], clusters: dict[str, int]) -> float
     actor_c = actor_score(sig.get("actor_type"))
     amt = sig.get("amount_estimated") or sig.get("value_usd")
     amount_c = amount_score(amt)
-    cluster_c = _cluster_component(sig.get("ticker", ""), clusters)
+    # El boost de cluster es una senal de COMPRA; no debe inflar las ventas
+    # del mismo ticker.
+    is_buy = code == "P" or sig.get("direction") == "buy"
+    cluster_c = _cluster_component(sig.get("ticker", ""), clusters) if is_buy else 0.0
     score = (code_c * W_CODE + actor_c * W_ACTOR + amount_c * W_AMOUNT + cluster_c * W_CLUSTER)
     return round(min(100.0, score), 1)
 

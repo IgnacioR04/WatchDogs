@@ -64,6 +64,84 @@ def test_confidence_baja_con_flags():
     assert high > low
 
 
+def test_option_exercise_no_es_compra():
+    """Codigo M (ejercicio de opciones) no debe clasificarse como buy ni formar cluster."""
+    recs = [
+        {"id": "m1", "insider_name": "Ann", "insider_title": "CEO", "ticker": "MIAX",
+         "tx_code": "M", "value_usd": 5e5, "tx_date": "2026-07-07"},
+        {"id": "m2", "insider_name": "Bob", "insider_title": "CFO", "ticker": "MIAX",
+         "tx_code": "M", "value_usd": 3e5, "tx_date": "2026-07-07"},
+    ]
+    import json as _json
+    from unittest.mock import patch
+    with patch.object(bs, "_load", lambda name: recs if "insiders" in name else []):
+        sigs = bs._from_insiders()
+    assert all(s["direction"] == "other" for s in sigs)
+    # y no cuentan para cluster buying
+    assert detect_clusters(sigs) == {}
+
+
+def test_cluster_no_infla_ventas():
+    """El componente cluster del score no debe aplicarse a las ventas."""
+    sell = _ins("MIAX", "Ann", code="S")
+    with_cluster = insider_signal_score(sell, {"MIAX": 7})
+    without = insider_signal_score(sell, {})
+    assert with_cluster == without
+
+
+def test_cluster_buy_flag_solo_en_compras(tmp_path, monkeypatch):
+    """El flag cluster_buy no debe aparecer en señales de venta."""
+    public = tmp_path / "public"
+    public.mkdir()
+    monkeypatch.setattr(bs, "PUBLIC_DIR", public)
+
+    def w(name, data): (public / name).write_text(json.dumps(data), encoding="utf-8")
+    w("sec_insiders_30d.json", [
+        {"id": "b1", "insider_name": "Ann", "insider_title": "CEO", "ticker": "DPC",
+         "tx_code": "P", "value_usd": 1e6, "tx_date": "2026-06-20"},
+        {"id": "b2", "insider_name": "Bob", "insider_title": "CFO", "ticker": "DPC",
+         "tx_code": "P", "value_usd": 5e5, "tx_date": "2026-06-21"},
+        {"id": "s1", "insider_name": "Cid", "insider_title": "Director", "ticker": "DPC",
+         "tx_code": "S", "value_usd": 8e5, "tx_date": "2026-06-22"}])
+    w("congress_trades_30d.json", [])
+    w("sec_13d_13g_30d.json", [])
+    w("institutional_changes_latest.json", [])
+    w("health_report.json", {"datasets": {}})
+    sigs = bs.build()
+    buys = [s for s in sigs if s["direction"] == "buy"]
+    sells = [s for s in sigs if s["direction"] == "sell"]
+    assert buys and sells
+    assert all("cluster_buy" in s["risk_flags"] for s in buys)
+    assert all("cluster_buy" not in s["risk_flags"] for s in sells)
+
+
+def test_top_movements_dedup_misma_transaccion(tmp_path, monkeypatch):
+    """La misma transaccion firmada por varios insiders sale una sola vez."""
+    import pipelines.build_top_movements as tm
+    public = tmp_path / "public"
+    public.mkdir()
+    monkeypatch.setattr(tm, "PUBLIC_DIR", public)
+
+    def w(name, data): (public / name).write_text(json.dumps(data), encoding="utf-8")
+    # 3 firmantes distintos declaran la MISMA venta en bloque ($1.0B, mismo dia)
+    same = {"ticker": "OLPX", "direction": "sell", "amount_estimated": 1028905668.26,
+            "event_date": "2026-07-07", "source_type": "corporate_insider",
+            "importance_score": 90}
+    w("signals_30d.json", [
+        {**same, "actor_name": "Advent", "actor_type": "ten_percent_owner"},
+        {**same, "actor_name": "Glynn Tricia", "actor_type": "director"},
+        {**same, "actor_name": "White Michael", "actor_type": "director"},
+        {"ticker": "COE", "direction": "buy", "amount_estimated": 9.3e6,
+         "event_date": "2026-07-02", "actor_name": "Huang Jack",
+         "actor_type": "ceo", "importance_score": 80},
+    ])
+    w("news_context_30d.json", [])
+    data = tm.build()
+    olpx = [m for m in data["movements"] if m["ticker"] == "OLPX"]
+    assert len(olpx) == 1
+    assert data["count"] == 2
+
+
 def test_build_health_gating(tmp_path, monkeypatch):
     """build() descarta señales de una fuente en estado 'error'."""
     public = tmp_path / "public"

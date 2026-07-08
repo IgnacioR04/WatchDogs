@@ -94,7 +94,22 @@ def build() -> dict[str, Any]:
 
     signals_sorted = sorted(signals, key=lambda s: s.get("importance_score", 0), reverse=True)
     movements = []
-    for rank, sig in enumerate(signals_sorted[:TOP_N], start=1):
+    # La misma transaccion puede venir en Forms 4 de varios firmantes (ej: una
+    # venta en bloque de $1.0B declarada por el fondo con codigo U y por cada
+    # director afiliado con codigo D). Mismo ticker + fecha + importe exacto
+    # al centimo = misma operacion, aunque el codigo/direccion difiera.
+    seen_tx: set[tuple] = set()
+    rank = 0
+    for sig in signals_sorted:
+        amt = sig.get("amount_estimated")
+        if amt:
+            tx_key = (sig.get("ticker"), sig.get("event_date"), amt)
+            if tx_key in seen_tx:
+                continue
+            seen_tx.add(tx_key)
+        rank += 1
+        if rank > TOP_N:
+            break
         title, summary = _title_and_summary(sig)
         movements.append({
             "id": f"move_{rank}",

@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-08T13:10:26+00:00 -->
+<!-- trader_prompt.md generado 2026-07-08T14:09:46+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -196,9 +196,26 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-**Arranque en frio**: aun no hay cartera. Tienes **100,00 € en efectivo (100%)**, sin posiciones.
+_Ultima cartera aprobada: 2026-07-08T14:07:47+00:00_
 
-Construye la cartera inicial partiendo de la cartera candidata del briefing y las señales de mayor conviccion, dentro del presupuesto de riesgo del regimen. Es valido dejar parte en efectivo si el regimen es defensivo.
+| Ticker | Peso | Valor (de 100 €) |
+|--------|-----:|-----------------:|
+| SPY | 12.0% | 12.00 € |
+| QQQ | 12.0% | 12.00 € |
+| TLT | 12.0% | 12.00 € |
+| GLD | 12.0% | 12.00 € |
+| VFLEX | 12.0% | 12.00 € |
+| IEF | 9.8% | 9.80 € |
+| PSBD | 3.1% | 3.10 € |
+| GF | 2.8% | 2.80 € |
+| MOMO | 2.3% | 2.30 € |
+| ASC | 1.7% | 1.70 € |
+| NWL | 1.1% | 1.10 € |
+| HPE | 1.1% | 1.10 € |
+| COE | 0.9% | 0.90 € |
+| **EFECTIVO** | **17.2%** | **17.20 €** |
+
+Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respetando las reglas de la seccion de arriba.
 
 ---
 
@@ -206,7 +223,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T13:10:26+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-08T14:09:46+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -228,41 +245,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 747.71 | -0.48% | 0.91% | 1.64% |
-| QQQ | 12.0% | core | 709.43 | -1.85% | -2.02% | 0.73% |
-| TLT | 12.0% | core | 84.55 | -1.05% | -2.96% | -0.23% |
-| GLD | 12.0% | core | 377.49 | -1.21% | 2.42% | -4.73% |
+| SPY | 12.0% | core | 743.92 | -0.51% | -0.38% | 0.9% |
+| QQQ | 12.0% | core | 707.82 | -0.23% | -3.88% | -1.04% |
+| TLT | 12.0% | core | 84.29 | -0.31% | -2.1% | -0.02% |
+| GLD | 12.0% | core | 373.26 | -1.12% | 1.32% | -6.04% |
 | VFLEX | 12.0% | satellite | 27.67 | 0.0% | -0.43% | 0.47% |
-| IEF | 9.8% | core | 93.7 | -0.51% | -1.11% | 0.42% |
-| PSBD | 3.1% | satellite | 10.41 | -0.95% | -0.48% | 0.19% |
-| GF | 2.8% | satellite | 11.74 | -0.34% | 2.26% | -1.1% |
-| MOMO | 2.3% | satellite | 5.89 | -1.67% | 1.2% | 4.99% |
-| ASC | 1.7% | satellite | 15.45 | 1.51% | 7.37% | -6.02% |
-| MIAX | 1.7% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
-| NWL | 1.1% | satellite | 5.54 | -0.54% | -8.58% | 48.92% |
-| HPE | 1.1% | satellite | 43.47 | 0.74% | -2.12% | -11.39% |
-| COE | 0.9% | satellite | 16.15 | 0.94% | 7.31% | -28.22% |
-| EOSE | 0.6% | satellite | 4.74 | -6.32% | -22.17% | -33.05% |
+| IEF | 10.0% | core | 93.48 | -0.24% | -0.83% | 0.29% |
+| PSBD | 3.0% | satellite | 10.39 | -0.19% | -0.29% | 1.4% |
+| GF | 2.7% | satellite | 11.48 | -2.21% | 0.17% | -2.63% |
+| OUT | 2.6% | satellite | ? | ? | ? | ? |
+| BBSI | 2.5% | satellite | 37.69 | -0.93% | 6.12% | 12.62% |
+| MLP | 1.9% | satellite | 17.04 | -0.64% | -4.16% | -1.22% |
+| COE | 0.8% | satellite | 16.5 | 2.14% | 3.42% | -23.31% |
+| INTC | 0.8% | satellite | 109.0 | -1.26% | -21.94% | -1.15% |
+| ZBAO | 0.6% | satellite | 0.45 | 3.66% | 9.73% | -33.45% |
+| ADTX | 0.1% | satellite | ? | ? | ? | ? |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.2%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -5.8%
-- Beta vs SPY: 0.629 · posiciones efectivas: 11.8 · HHI: 0.0848
+- Volatilidad anualizada: 9.9%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -5.5%
+- Beta vs SPY: 0.599 · posiciones efectivas: 11.7 · HHI: 0.0855
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **MIAX** · score agregado 670.5 · 11 señales · fuentes: corporate_insider
 - **COE** · score agregado 470.2 · 7 señales · fuentes: corporate_insider
-- **MOMO** · score agregado 330.0 · 6 señales · fuentes: corporate_insider
-- **NWL** · score agregado 256.2 · 4 señales · fuentes: corporate_insider
-- **EOSE** · score agregado 245.2 · 4 señales · fuentes: corporate_insider, large_holder
-- **HPE** · score agregado 244.7 · 5 señales · fuentes: corporate_insider
 - **PSBD** · score agregado 193.7 · 3 señales · fuentes: corporate_insider, large_holder
-- **ASC** · score agregado 177.0 · 3 señales · fuentes: corporate_insider
 - **VFLEX** · score agregado 162.4 · 2 señales · fuentes: corporate_insider
+- **ADTX** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **GF** · score agregado 119.6 · 2 señales · fuentes: corporate_insider
+- **BBSI** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ZBAO** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **MLP** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
+- **OUT** · score agregado 70.5 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -290,14 +307,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MIAX | 74 | corporate_insider | Gallagher Thomas P. | $1,758,183 | cluster_buy |
-| MIAX | 74 | corporate_insider | Gallagher Thomas P. | $1,193,198 | cluster_buy |
-| MIAX | 71 | corporate_insider | Schafer Douglas M. JR | $1,978,560 | cluster_buy |
-| MIAX | 70 | corporate_insider | Comly Barbara J. | $1,154,160 | cluster_buy |
-| MIAX | 70 | corporate_insider | Jayabalan Harish | $842,400 | cluster_buy |
-| MIAX | 69 | corporate_insider | Brown Shelly | $674,080 | cluster_buy |
-| MIAX | 68 | corporate_insider | Deitzel Edward | $462,440 | cluster_buy |
-| EOSE | 66 | corporate_insider | Kroeker Nathan | $371,166 | cluster_buy |
+| TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
+| TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
+| AESI | 64 | congress | Chip Roy | $250,000 | - |
+| GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| GE | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -306,15 +323,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 747.71 (-0.48% / 0.91% / 1.64%) [2026-07-07]
-- QQQ: 709.43 (-1.85% / -2.02% / 0.73%) [2026-07-07]
-- IWM: 296.19 (-0.91% / -0.93% / 5.41%) [2026-07-07]
-- DIA: 528.45 (-0.31% / 1.3% / 3.96%) [2026-07-07]
-- TLT: 84.55 (-1.05% / -2.96% / -0.23%) [2026-07-07]
-- IEF: 93.7 (-0.51% / -1.11% / 0.42%) [2026-07-07]
-- GLD: 377.49 (-1.21% / 2.42% / -4.73%) [2026-07-07]
-- ^VIX: 17.34 (7.5% / 5.41% / -8.35%) [2026-07-08]
-- BTC-USD: 61916.74 (-2.18% / -1.0% / -1.56%) [2026-07-08]
+- SPY: 743.92 (-0.51% / -0.38% / 0.9%) [2026-07-08]
+- QQQ: 707.82 (-0.23% / -3.88% / -1.04%) [2026-07-08]
+- IWM: 294.25 (-0.65% / -2.06% / 3.82%) [2026-07-08]
+- DIA: 523.26 (-0.98% / 0.17% / 3.1%) [2026-07-08]
+- TLT: 84.29 (-0.31% / -2.1% / -0.02%) [2026-07-08]
+- IEF: 93.48 (-0.24% / -0.83% / 0.29%) [2026-07-08]
+- GLD: 373.26 (-1.12% / 1.32% / -6.04%) [2026-07-08]
+- ^VIX: 17.24 (6.88% / 4.8% / -8.88%) [2026-07-08]
+- BTC-USD: 61889.9 (-2.22% / -1.05% / -1.6%) [2026-07-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,9 +359,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Baldwin Amanda vendio OLPX por $18.8M el 2026-07-07.
 - CEO PECK MICHAEL D compro VFLEX por $5.0M el 2026-07-02.
 - CEO Huang Jack Jiajia compro COE por $4.8M el 2026-07-01.
-- Director Glynn Tricia vendio OLPX por $1.0B el 2026-07-07.
-- Director MUSSAFER DAVID M vendio OLPX por $1.0B el 2026-07-07.
-- Director White Michael James vendio OLPX por $1.0B el 2026-07-07.
+- CEO Mainolfi Nello vendio KYMR por $6.0M el 2026-07-07.
+- CEO Wolf Kurt James vendio PBI por $4.9M el 2026-07-07.
+- Director White Emily vendio OLPX por $48.4M el 2026-07-07.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -373,7 +390,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ASC, COE, EOSE, GF, GLD, HPE, IEF, MIAX, MOMO, NWL, PSBD, QQQ, SPY, TLT, VFLEX`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`ADTX, BBSI, COE, GF, GLD, IEF, INTC, MLP, OUT, PSBD, QQQ, SPY, TLT, VFLEX, ZBAO`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
