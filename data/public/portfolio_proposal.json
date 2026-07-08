@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-08T19:24:53+00:00",
+  "generated_at": "2026-07-08T20:57:15+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "IEF": 0.12,
     "GLD": 0.12,
     "VFLEX": 0.12,
-    "IEF": 0.1,
-    "GF": 0.0349,
-    "PSBD": 0.0311,
-    "FVR": 0.0231,
-    "ROKU": 0.0145,
-    "RBLX": 0.0112,
-    "COE": 0.0094,
-    "APGE": 0.0094,
-    "INTC": 0.009,
-    "INTZ": 0.0074
+    "IDCC": 0.0216,
+    "ROKU": 0.0211,
+    "LQDA": 0.0156,
+    "NUVL": 0.0138,
+    "MERC": 0.0129,
+    "COE": 0.0126,
+    "INTC": 0.0117,
+    "APGE": 0.011,
+    "INTZ": 0.0099
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "COE": 0.0052,
-    "APGE": 0.0052,
-    "VFLEX": 0.2145,
-    "FVR": 0.0128,
-    "PSBD": 0.0172,
-    "GF": 0.0193,
-    "INTZ": 0.0041,
-    "ROKU": 0.008,
-    "RBLX": 0.0062,
-    "INTC": 0.005
+    "COE": 0.0055,
+    "APGE": 0.0048,
+    "MERC": 0.0056,
+    "VFLEX": 0.241,
+    "LQDA": 0.0068,
+    "INTZ": 0.0043,
+    "NUVL": 0.006,
+    "ROKU": 0.0092,
+    "IDCC": 0.0094,
+    "INTC": 0.0051
   },
   "satellite_rationale": [
     {
@@ -58,6 +58,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "MERC",
+      "score": 170.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "VFLEX",
       "score": 162.4,
       "sources": [
@@ -66,31 +74,23 @@
       "n_signals": 2
     },
     {
-      "ticker": "FVR",
-      "score": 141.0,
+      "ticker": "LQDA",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "PSBD",
-      "score": 121.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "GF",
-      "score": 119.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "INTZ",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "NUVL",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -106,7 +106,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "RBLX",
+      "ticker": "IDCC",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0807,
-    "var_95_1d": 0.0078,
-    "cvar_95_1d": 0.0118,
-    "max_drawdown": -0.0643,
-    "beta_spy": 0.547,
-    "hhi": 0.0854,
+    "ann_vol": 0.1133,
+    "var_95_1d": 0.0109,
+    "cvar_95_1d": 0.0148,
+    "max_drawdown": -0.0546,
+    "beta_spy": 0.681,
+    "hhi": 0.0884,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 11.7,
-    "gross_exposure": 0.85,
-    "days_used": 270
+    "effective_positions": 11.3,
+    "gross_exposure": 0.8502,
+    "days_used": 83
   },
   "risk_gate": {
     "passed": true,

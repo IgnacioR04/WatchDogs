@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-08T19:23:40.544896+00:00",
+  "generated_at": "2026-07-08T20:56:05.874764+00:00",
   "window": {
     "from": "2026-06-08",
     "to": "2026-07-08",
@@ -23,10 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "regulatory",
-      "leadership",
-      "ai"
+      "ai",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -88,24 +87,42 @@
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO vendio KYMR ($6.0M)",
-      "summary": "CEO Mainolfi Nello vendio KYMR por $6.0M el 2026-07-07.",
+      "title": "CEO vendio HOOD ($13.6M)",
+      "summary": "CEO Tenev Vladimir vendio HOOD por $13.6M el 2026-07-06.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Mainolfi Nello",
+      "actor_name": "Tenev Vladimir",
       "actor_type": "ceo",
-      "ticker": "KYMR",
+      "ticker": "HOOD",
       "direction": "sell",
-      "amount_estimated": 5950000.0,
-      "event_date": "2026-07-07",
-      "importance_score": 82.2,
+      "amount_estimated": 13576769.17,
+      "event_date": "2026-07-06",
+      "importance_score": 82.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1821189/000119312526297817/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000006/"
     },
     {
       "id": "move_5",
       "rank": 5,
+      "title": "CEO vendio MCK ($6.7M)",
+      "summary": "CEO TYLER BRIAN S. vendio MCK por $6.7M el 2026-07-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "TYLER BRIAN S.",
+      "actor_type": "ceo",
+      "ticker": "MCK",
+      "direction": "sell",
+      "amount_estimated": 6715898.28,
+      "event_date": "2026-07-07",
+      "importance_score": 82.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1382297/000092765326000187/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio PBI ($4.9M)",
       "summary": "CEO Wolf Kurt James vendio PBI por $4.9M el 2026-07-07.",
       "source": "sec_form_4",
@@ -122,8 +139,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000010/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro FTECX ($1.5M)",
       "summary": "CEO PECK MICHAEL D compro FTECX por $1.5M el 2026-07-02.",
       "source": "sec_form_4",
@@ -140,8 +157,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1732966/000173296626000012/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -158,8 +175,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -176,8 +193,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -194,8 +211,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -212,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -230,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -248,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -266,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -284,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -302,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -320,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -338,8 +355,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
       "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
       "source": "sec_13f",
@@ -356,8 +373,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
       "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
       "source": "sec_13f",
@@ -367,24 +384,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 11567787969,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($11.5B)",
-      "summary": "Institutional manager Vanguard Group Inc compro MICRON TECHNOLOGY INC por $11.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 11540627745,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -400,6 +399,30 @@
         "pressure_score": 625.5,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MERC",
+        "company": "MERCER INTERNATIONAL INC.",
+        "pressure_score": 459.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BEP",
+        "company": "Limited Partnership Units",
+        "pressure_score": 338.0,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "HUBB",
+        "company": "DC Hubbell Inc Common Stock",
+        "pressure_score": 286.1,
+        "sources": [
+          "congress"
         ]
       },
       {
@@ -490,30 +513,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "SWZ",
-        "company": "Total Return Securities Fund",
-        "pressure_score": 139.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CLYM",
-        "company": "CLIMB BIO INC",
-        "pressure_score": 139.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "WHLR",
-        "company": "Wheeler Real Estate Investment Trust, Inc.",
-        "pressure_score": 136.4,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -526,19 +525,19 @@
         ]
       },
       {
-        "ticker": "FCF",
-        "company": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-        "pressure_score": 1144.8,
+        "ticker": "SPOT",
+        "company": "Shares",
+        "pressure_score": 1719.0,
         "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
       {
-        "ticker": "WDAY",
-        "company": "Stock",
-        "pressure_score": 1089.2,
+        "ticker": "HOOD",
+        "company": "Robinhood Markets, Inc.",
+        "pressure_score": 1322.5,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -546,6 +545,14 @@
         "ticker": "SODI",
         "company": "SOLITRON DEVICES INC",
         "pressure_score": 1054.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AIP",
+        "company": "Arteris, Inc.",
+        "pressure_score": 875.1,
         "sources": [
           "corporate_insider"
         ]
@@ -559,9 +566,26 @@
         ]
       },
       {
+        "ticker": "WDAY",
+        "company": "Stock",
+        "pressure_score": 863.3,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ANET",
         "company": "Arista Networks, Inc.",
         "pressure_score": 838.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SOPH",
+        "company": "SOPHiA GENETICS SA",
+        "pressure_score": 718.9,
         "sources": [
           "corporate_insider"
         ]
@@ -575,9 +599,9 @@
         ]
       },
       {
-        "ticker": "SOPH",
-        "company": "SOPHiA GENETICS SA",
-        "pressure_score": 650.7,
+        "ticker": "MIAX",
+        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+        "pressure_score": 660.2,
         "sources": [
           "corporate_insider"
         ]
@@ -599,41 +623,17 @@
         ]
       },
       {
+        "ticker": "TWLO",
+        "company": "TWILIO INC",
+        "pressure_score": 450.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "NET",
         "company": "Cloudflare, Inc.",
         "pressure_score": 402.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ETON",
-        "company": "Eton Pharmaceuticals, Inc.",
-        "pressure_score": 372.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PTHS",
-        "company": "Pelthos Therapeutics Inc.",
-        "pressure_score": 363.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "IMNM",
-        "company": "Immunome Inc.",
-        "pressure_score": 358.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RUN",
-        "company": "Sunrun Inc.",
-        "pressure_score": 356.0,
         "sources": [
           "corporate_insider"
         ]
@@ -1110,24 +1110,6 @@
       "date": "2026-07-08"
     },
     {
-      "filer": "Project Nickel LLC",
-      "company": "MGT Capital Investments, Inc.",
-      "ticker": "MGTI",
-      "ownership_pct": 51.87,
-      "shares": 3250131126,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-06"
-    },
-    {
-      "filer": "HANNA DAVID G",
-      "company": "Atlanticus Holdings Corp",
-      "ticker": "",
-      "ownership_pct": 42.1,
-      "shares": 8047464,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-06"
-    },
-    {
       "filer": "Anette Schmid",
       "company": "SCHMID Group N.V.",
       "ticker": "",
@@ -1135,15 +1117,6 @@
       "shares": 34888004,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-08"
-    },
-    {
-      "filer": "Thurman J. Rodgers",
-      "company": "SunPower Inc.",
-      "ticker": "",
-      "ownership_pct": 39.4,
-      "shares": 59160705,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-06"
     },
     {
       "filer": "RA Capital Management, L.P.",
@@ -1173,15 +1146,6 @@
       "date": "2026-07-07"
     },
     {
-      "filer": "VisionWave Holdings, Inc.",
-      "company": "SaverOne 2014 Ltd.",
-      "ticker": "",
-      "ownership_pct": 30.3,
-      "shares": 30848644800,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-06"
-    },
-    {
       "filer": "Osprey Acquisition Sponsor III, LLC",
       "company": "Osprey Acquisition Corp. III",
       "ticker": "",
@@ -1189,15 +1153,6 @@
       "shares": 10740000,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-07"
-    },
-    {
-      "filer": "Bihua Chen",
-      "company": "BridgeBio Oncology Therapeutics, Inc.",
-      "ticker": "BBOT",
-      "ownership_pct": 22.32,
-      "shares": 17878594,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-06"
     },
     {
       "filer": "Richard Griffiths",
@@ -1216,10 +1171,65 @@
       "shares": 38429036,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-07"
+    },
+    {
+      "filer": "XP Control LLC",
+      "company": "XP Inc.",
+      "ticker": "XP",
+      "ownership_pct": 18.7,
+      "shares": 96797602,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-07"
+    },
+    {
+      "filer": "Russell C. Horowitz",
+      "company": "MARCHEX, INC.",
+      "ticker": "MCHX",
+      "ownership_pct": 18.5,
+      "shares": 8813485,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-07-07"
+    },
+    {
+      "filer": "John P Calamos, Sr.",
+      "company": "Calamos Aksia Hedged Strategies Fund",
+      "ticker": "",
+      "ownership_pct": 16.2,
+      "shares": 950844,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-07-07"
+    },
+    {
+      "filer": "Atlas Capital Resources (A9) LP",
+      "company": "Greenidge Generation Holdings Inc.",
+      "ticker": "",
+      "ownership_pct": 16.1,
+      "shares": 2913565,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-08"
+    },
+    {
+      "filer": "Allseas Group S.A.",
+      "company": "TMC the metals Co Inc.",
+      "ticker": "",
+      "ownership_pct": 15.4,
+      "shares": 66502501,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-07"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 136956.9,
+        "win_rate": 0.9729,
+        "volume": 699185.77,
+        "categories": [
+          "sports"
+        ]
+      },
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
@@ -1231,21 +1241,11 @@
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 92094.76,
-        "win_rate": 0.9727,
-        "volume": 601624.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x870fd20e18",
         "username": "waterx-",
-        "pnl": 48847.67,
+        "pnl": 48845.28,
         "win_rate": 0.9261,
-        "volume": 72568.05,
+        "volume": 72587.73,
         "categories": [
           "crypto",
           "sports"
@@ -1254,9 +1254,9 @@
       {
         "wallet": "0x9c3ce009c9",
         "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 30879.68,
+        "pnl": 30123.13,
         "win_rate": 0.932,
-        "volume": 41362.78,
+        "volume": 68452.23,
         "categories": [
           "sports",
           "crypto"
@@ -1265,30 +1265,19 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 27859.17,
-        "win_rate": 0.9304,
-        "volume": 95533.2,
+        "pnl": 24456.05,
+        "win_rate": 0.9316,
+        "volume": 103542.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x749e1b5240",
-        "username": "nbaripped",
-        "pnl": 23233.79,
-        "win_rate": 0.9434,
-        "volume": 151160.24,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xfc25f141ed",
         "username": ".Sisyphus.",
-        "pnl": 31614.7,
+        "pnl": 31607.14,
         "win_rate": 0.905,
-        "volume": 482385.97,
+        "volume": 486413.97,
         "categories": [
           "sports",
           "crypto"
@@ -1297,9 +1286,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 36421.82,
+        "pnl": 36699.73,
         "win_rate": 0.888,
-        "volume": 14053.98,
+        "volume": 21383.98,
         "categories": [
           "sports"
         ]
@@ -1316,9 +1305,21 @@
         ]
       },
       {
+        "wallet": "0x9592adb703",
+        "username": "trashpilot",
+        "pnl": 24058.25,
+        "win_rate": 0.8852,
+        "volume": 19863.26,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x695d8d90de",
         "username": "mpyh",
-        "pnl": 30621.68,
+        "pnl": 30637.96,
         "win_rate": 0.8623,
         "volume": 140472.63,
         "categories": [
@@ -1342,11 +1343,43 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 434465.71,
-        "win_rate": 0.567,
-        "volume": 7098399.19,
+        "pnl": 390874.03,
+        "win_rate": 0.569,
+        "volume": 7880139.33,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x620d7e06ce",
+        "username": "tankjack",
+        "pnl": 32826.52,
+        "win_rate": 0.5,
+        "volume": 1435134.2,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 55356.38,
+        "win_rate": 0.562,
+        "volume": 4137959.58,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 39702.77,
+        "win_rate": 0.4494,
+        "volume": 992953.22,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
         ]
       },
       {
@@ -1360,31 +1393,29 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 34763.85,
-        "win_rate": 0.56,
-        "volume": 3596326.51,
+        "wallet": "0xedc746d189",
+        "username": "WinsOnly9",
+        "pnl": 170426.33,
+        "win_rate": 0.8,
+        "volume": 1378794.77,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 23027.14,
-        "win_rate": 0.4495,
-        "volume": 775071.08,
+        "wallet": "0x37ee3bceb4",
+        "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
+        "pnl": 26924.22,
+        "win_rate": 1.0,
+        "volume": 455714.51,
         "categories": [
-          "sports",
-          "politics",
-          "economy"
+          "sports"
         ]
       },
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 147192.08,
+        "pnl": 143321.32,
         "win_rate": 0.54,
         "volume": 1205789.94,
         "categories": [
@@ -1394,41 +1425,11 @@
         ]
       },
       {
-        "wallet": "0xedc746d189",
-        "username": "WinsOnly9",
-        "pnl": 81886.04,
-        "win_rate": 0.75,
-        "volume": 1000449.63,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 31101.33,
+        "pnl": 30119.46,
         "win_rate": 0.527,
-        "volume": 1996203.03,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 165491.01,
-        "win_rate": 0.627,
-        "volume": 812511.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2cff41636f",
-        "username": "ThisAgain",
-        "pnl": 151343.26,
-        "win_rate": 1.0,
-        "volume": 284241.43,
+        "volume": 2166048.85,
         "categories": [
           "sports"
         ]
@@ -1436,15 +1437,6 @@
     ]
   },
   "news": [
-    {
-      "title": "Nutex Health ( NASDAQ : NUTX ) Stock Price Down 7 % – Time to Sell ? ",
-      "url": "https://www.themarketsdaily.com/2026/07/08/nutex-health-nasdaqnutx-stock-price-down-7-time-to-sell.html",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-08"
-    },
     {
       "title": "Grant Thornton Picks CrowdStrike ( CRWD ) to Power Its Global Cybersecurity Platform",
       "url": "https://www.insidermonkey.com/blog/grant-thornton-picks-crowdstrike-crwd-to-power-its-global-cybersecurity-platform-1797739/",
@@ -1455,14 +1447,11 @@
       "date": "2026-07-08"
     },
     {
-      "title": "Insider Selling : Bicycle Therapeutics ( NASDAQ : BCYC ) CEO Sells 5 , 905 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/07/insider-selling-bicycle-therapeutics-nasdaqbcyc-ceo-sells-5905-shares-of-stock.html",
-      "ticker": "BCYC",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-07-08"
+      "title": "Miami International Holdings Reports June 2026 Trading Results",
+      "url": "https://www.prnewswire.com/news-releases/miami-international-holdings-reports-june-2026-trading-results-302818677.html",
+      "ticker": "MIAX",
+      "themes": [],
+      "date": "2026-07-07"
     },
     {
       "title": "Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? ",
@@ -1475,35 +1464,14 @@
       "date": "2026-07-06"
     },
     {
-      "title": "Sharplink Bought 10 , 000 ETH , 2 Million SBET : What Going On ? ",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60197880/sharplink-bought-10000-eth-2-million-sbet-whats-going-on",
-      "ticker": "SBET",
-      "themes": [],
-      "date": "2026-06-30"
-    },
-    {
       "title": "Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis",
       "url": "https://finance.yahoo.com/technology/articles/hewlett-packard-hpe-pricing-power-121454062.html",
       "ticker": "HPE",
       "themes": [],
       "date": "2026-06-30"
-    },
-    {
-      "title": "Ether Treasury Sharplink Buys $62 . 4M of ETH in 3 Days",
-      "url": "https://cointelegraph.com/news/ether-treasury-sharplink-buys-624m-of-eth-in-3-days",
-      "ticker": "SBET",
-      "themes": [],
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Sharplink Gaming Inc . ( NASDAQ : SBET ) Receives Average Rating of  Moderate Buy  from Brokerages",
-      "url": "https://www.themarketsdaily.com/2026/06/28/sharplink-gaming-inc-nasdaqsbet-receives-average-rating-of-moderate-buy-from-brokerages.html",
-      "ticker": "SBET",
-      "themes": [],
-      "date": "2026-06-28"
     }
   ],
-  "signals_count": 1415,
+  "signals_count": 1567,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
