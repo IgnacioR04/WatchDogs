@@ -332,9 +332,10 @@ def _sec_instructions(prop: dict, regime: dict) -> list[str]:
         "### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)",
         "",
         f"1. **Universo permitido**: tickers de la cartera candidata "
-        f"(`{', '.join(universe)}`) o de las señales de la seccion 3, siempre "
-        "que tengan datos de precio. No inventes tickers que no aparezcan en "
-        "este briefing.",
+        f"(`{', '.join(universe)}`), de las señales de la seccion 3, o "
+        "posiciones que ya tengas abiertas (mantener siempre es legal), "
+        "siempre que tengan datos de precio. No inventes tickers que no "
+        "aparezcan en este briefing ni en tu cartera.",
         f"2. **Presupuesto de riesgo**: la suma de todos los pesos <= **{_pct(budget)}** "
         f"(el resto es cash). Estamos en regimen `{regime.get('risk_state', 'n/d')}`.",
         f"3. **Peso maximo por posicion**: <= **{_pct(profile.max_position)}**.",

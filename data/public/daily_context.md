@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T17:08:41+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-08T19:04:30+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -22,21 +22,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 744.72 | -0.4% | -0.27% | 1.0% |
-| QQQ | 12.0% | core | 709.34 | -0.01% | -3.67% | -0.83% |
-| TLT | 12.0% | core | 84.32 | -0.27% | -2.06% | 0.02% |
-| GLD | 12.0% | core | 373.29 | -1.11% | 1.33% | -6.04% |
+| SPY | 12.0% | core | 744.91 | -0.37% | -0.25% | 1.03% |
+| QQQ | 12.0% | core | 709.53 | 0.01% | -3.65% | -0.8% |
+| TLT | 12.0% | core | 84.39 | -0.19% | -1.99% | 0.1% |
+| GLD | 12.0% | core | 374.67 | -0.75% | 1.71% | -5.69% |
 | VFLEX | 12.0% | satellite | 27.67 | 0.0% | -0.43% | 0.47% |
-| IEF | 10.0% | core | 93.48 | -0.23% | -0.83% | 0.29% |
-| FVR | 3.0% | satellite | 20.73 | 0.14% | 2.47% | 10.33% |
-| GF | 2.9% | satellite | 11.5 | -2.04% | 0.35% | -2.46% |
-| CACC | 1.9% | satellite | 622.05 | -3.79% | -2.31% | 10.56% |
-| EPAM | 1.6% | satellite | 87.09 | -2.75% | 9.75% | -9.96% |
-| ROKU | 1.4% | satellite | 140.11 | -0.78% | 1.43% | 13.39% |
-| GLUE | 1.4% | satellite | 23.57 | -3.4% | -2.6% | 38.65% |
-| RBLX | 1.1% | satellite | 54.37 | -4.14% | -0.03% | 28.52% |
-| COE | 0.9% | satellite | 16.57 | 2.6% | 3.89% | -22.97% |
-| INTC | 0.8% | satellite | 107.55 | -2.57% | -22.97% | -2.47% |
+| IEF | 10.0% | core | 93.56 | -0.15% | -0.75% | 0.37% |
+| FVR | 3.0% | satellite | 20.67 | -0.14% | 2.17% | 10.01% |
+| GF | 2.9% | satellite | 11.44 | -2.56% | -0.17% | -2.97% |
+| CACC | 1.9% | satellite | 623.11 | -3.63% | -2.14% | 10.74% |
+| EPAM | 1.6% | satellite | 86.78 | -3.09% | 9.36% | -10.28% |
+| ROKU | 1.4% | satellite | 140.1 | -0.79% | 1.42% | 13.38% |
+| GLUE | 1.4% | satellite | 24.0 | -1.64% | -0.83% | 41.18% |
+| RBLX | 1.1% | satellite | 54.6 | -3.72% | 0.4% | 29.08% |
+| COE | 0.9% | satellite | 16.55 | 2.48% | 3.76% | -23.06% |
+| INTC | 0.8% | satellite | 107.54 | -2.59% | -22.99% | -2.48% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 744.72 (-0.4% / -0.27% / 1.0%) [2026-07-08]
-- QQQ: 709.34 (-0.01% / -3.67% / -0.83%) [2026-07-08]
-- IWM: 292.93 (-1.1% / -2.5% / 3.35%) [2026-07-08]
-- DIA: 522.53 (-1.12% / 0.03% / 2.96%) [2026-07-08]
-- TLT: 84.32 (-0.27% / -2.06% / 0.02%) [2026-07-08]
-- IEF: 93.48 (-0.23% / -0.83% / 0.29%) [2026-07-08]
-- GLD: 373.29 (-1.11% / 1.33% / -6.04%) [2026-07-08]
-- ^VIX: 16.94 (5.02% / 2.98% / -10.47%) [2026-07-08]
-- BTC-USD: 62052.85 (-1.97% / -0.79% / -1.34%) [2026-07-08]
+- SPY: 744.91 (-0.37% / -0.25% / 1.03%) [2026-07-08]
+- QQQ: 709.53 (0.01% / -3.65% / -0.8%) [2026-07-08]
+- IWM: 293.23 (-1.0% / -2.4% / 3.46%) [2026-07-08]
+- DIA: 522.92 (-1.05% / 0.1% / 3.03%) [2026-07-08]
+- TLT: 84.39 (-0.19% / -1.99% / 0.1%) [2026-07-08]
+- IEF: 93.56 (-0.15% / -0.75% / 0.37%) [2026-07-08]
+- GLD: 374.67 (-0.75% / 1.71% / -5.69%) [2026-07-08]
+- ^VIX: 16.85 (4.46% / 2.43% / -10.94%) [2026-07-08]
+- BTC-USD: 62123.08 (-1.86% / -0.67% / -1.23%) [2026-07-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -169,7 +169,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CACC, COE, EPAM, FVR, GF, GLD, GLUE, IEF, INTC, QQQ, RBLX, ROKU, SPY, TLT, VFLEX`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`CACC, COE, EPAM, FVR, GF, GLD, GLUE, IEF, INTC, QQQ, RBLX, ROKU, SPY, TLT, VFLEX`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

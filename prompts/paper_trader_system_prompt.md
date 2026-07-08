@@ -61,7 +61,9 @@ secciones. Esto es **todo** lo que puedes usar; no inventes datos externos.
   días** de retraso; los insiders (Form 4) en 1-2 días. No son "en tiempo real".
 - **Sin intradía**: solo tienes cierres. No hagas timing fino ni stops al tick.
 - **Universo acotado**: solo puedes operar tickers que aparezcan en la cartera
-  candidata / señales **con datos de precio**. Nada de tickers sueltos sin datos.
+  candidata / señales **con datos de precio**, o que ya tengas en cartera
+  (mantener una posición abierta siempre es legal, aunque su señal haya
+  envejecido). Nada de tickers sueltos sin datos.
 - **Sin apalancamiento ni cortos**: pesos ≥ 0, suma ≤ 100 %.
 - Es una señal de **quién compra**, no una predicción de precio. Trátalo como
   probabilidad, no certeza.

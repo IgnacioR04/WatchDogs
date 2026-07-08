@@ -30,7 +30,9 @@ def test_briefing_incluye_restricciones_duras_y_formato_json():
 
 
 def test_briefing_universo_incluye_senales():
-    """El universo permitido debe mencionar las señales (no solo la candidata),
-    coherente con el system prompt y con validate_llm_output."""
+    """El universo permitido debe mencionar las señales y las posiciones ya
+    abiertas (no solo la candidata), coherente con el system prompt y con
+    validate_llm_output."""
     md = build()
-    assert "o de las señales" in md
+    assert "de las señales" in md
+    assert "posiciones que ya tengas abiertas" in md

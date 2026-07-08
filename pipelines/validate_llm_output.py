@@ -72,6 +72,19 @@ def _signal_tickers() -> set[str]:
     return {(s.get("ticker") or "").upper() for s in signals if s.get("ticker")}
 
 
+def _held_tickers() -> set[str]:
+    """Posiciones de la ultima cartera APROBADA.
+
+    Mantener una posicion ya abierta siempre es legal, aunque su señal haya
+    salido de la ventana de 30 dias: si no, el validador forzaria una venta
+    implicita, contradiciendo el sesgo "mantener por defecto" del system prompt.
+    """
+    st = _load_json("llm_portfolio.json", default=None)
+    if st and st.get("approved") and st.get("final_weights"):
+        return {str(t).upper() for t in st["final_weights"]}
+    return set()
+
+
 def check_hard_constraints(weights: dict[str, float], allowed: set[str],
                            budget: float, max_position: float) -> list[str]:
     """Comprueba las restricciones duras. Devuelve la lista de violaciones."""
@@ -103,8 +116,9 @@ def validate_response(text: str) -> dict[str, Any]:
     profile = get_profile(prop.get("profile", "moderado"))
     budget = regime.get("recommended_risk_budget", 0.6)
     # Universo permitido = cartera candidata + tickers de las señales (igual
-    # que el system prompt). La existencia de datos de precio se exige despues.
-    allowed = set(prop.get("weights", {}).keys()) | _signal_tickers()
+    # que el system prompt) + posiciones ya abiertas (mantener siempre es
+    # legal). La existencia de datos de precio se exige despues.
+    allowed = set(prop.get("weights", {}).keys()) | _signal_tickers() | _held_tickers()
 
     parsed = parse_llm_response(text)
     weights = {str(k).upper(): float(v) for k, v in (parsed.get("final_weights") or {}).items()
@@ -147,23 +161,31 @@ def validate_response(text: str) -> dict[str, Any]:
 
 
 def run(input_path: Path | None = None) -> Path:
-    """Valida la respuesta del LLM y escribe llm_portfolio.json."""
+    """Valida la respuesta del LLM. Solo una cartera APROBADA pisa llm_portfolio.json.
+
+    Un rechazo se escribe en llm_validation_rejected.json: si machacara
+    llm_portfolio.json, el siguiente trader_prompt perderia la cartera viva
+    y volveria a arranque en frio.
+    """
     src = input_path or DEFAULT_INPUT
     if not src.exists():
         raise SystemExit(
             f"No existe {src}. Guarda la respuesta del LLM en ese fichero (o pasa la ruta como argumento).")
     res = validate_response(src.read_text(encoding="utf-8"))
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
+    out = OUTPUT_PATH if res.get("approved") else PUBLIC_DIR / "llm_validation_rejected.json"
+    out.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
 
     estado = "APROBADA (OK)" if res.get("approved") else "RECHAZADA"
-    print(f"[validate_llm] cartera {estado} (veredicto LLM: {res.get('verdict_llm')}) -> {OUTPUT_PATH}")
+    print(f"[validate_llm] cartera {estado} (veredicto LLM: {res.get('verdict_llm')}) -> {out}")
     if res.get("approved"):
         m = res.get("metrics", {})
         print(f"  posiciones: {len(res['final_weights'])} · vol {m.get('ann_vol')} · maxDD {m.get('max_drawdown')}")
+    else:
+        print("  (la ultima cartera aprobada en llm_portfolio.json queda intacta)")
     for v in res.get("violations", []):
         print(f"  VIOLACION: {v}")
-    return OUTPUT_PATH
+    return out
 
 
 if __name__ == "__main__":
