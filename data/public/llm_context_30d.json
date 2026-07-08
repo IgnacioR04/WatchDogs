@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-08T20:56:05.874764+00:00",
+  "generated_at": "2026-07-08T22:35:27.518450+00:00",
   "window": {
     "from": "2026-06-08",
     "to": "2026-07-08",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "regulatory",
+      "stock",
       "ai",
-      "stock"
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -420,9 +420,10 @@
       {
         "ticker": "HUBB",
         "company": "DC Hubbell Inc Common Stock",
-        "pressure_score": 286.1,
+        "pressure_score": 292.4,
         "sources": [
-          "congress"
+          "congress",
+          "corporate_insider"
         ]
       },
       {
@@ -431,14 +432,6 @@
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "EDBL",
-        "company": "Edible Garden AG Inc",
-        "pressure_score": 209.3,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -459,14 +452,6 @@
         ]
       },
       {
-        "ticker": "PSBD",
-        "company": "Palmer Square Capital BDC Inc.",
-        "pressure_score": 154.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "FTECX",
         "company": "First Trust Enhanced Private Credit Fund",
         "pressure_score": 154.3,
@@ -475,9 +460,9 @@
         ]
       },
       {
-        "ticker": "GF",
-        "company": "NEW GERMANY FUND INC",
-        "pressure_score": 150.8,
+        "ticker": "DLHC",
+        "company": "DLH Holdings Corp.",
+        "pressure_score": 142.1,
         "sources": [
           "corporate_insider"
         ]
@@ -507,15 +492,48 @@
         ]
       },
       {
-        "ticker": "VMAR",
-        "company": "Vision Marine Technologies Inc.",
-        "pressure_score": 139.7,
+        "ticker": "CLYM",
+        "company": "CLIMB BIO INC",
+        "pressure_score": 139.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "HDSN",
+        "company": "HUDSON TECHNOLOGIES INC /NY",
+        "pressure_score": 138.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ATEX",
+        "company": "ANTERIX INC",
+        "pressure_score": 136.5,
+        "sources": [
+          "large_holder"
         ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "DELL",
+        "company": "Common Stock",
+        "pressure_score": 4747.2,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRCL",
+        "company": "Circle Internet Group, Inc.",
+        "pressure_score": 2405.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
@@ -534,6 +552,14 @@
         ]
       },
       {
+        "ticker": "HSY",
+        "company": "HERSHEY CO",
+        "pressure_score": 1412.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HOOD",
         "company": "Robinhood Markets, Inc.",
         "pressure_score": 1322.5,
@@ -542,9 +568,9 @@
         ]
       },
       {
-        "ticker": "SODI",
-        "company": "SOLITRON DEVICES INC",
-        "pressure_score": 1054.4,
+        "ticker": "PTCT",
+        "company": "PTC THERAPEUTICS, INC.",
+        "pressure_score": 1092.6,
         "sources": [
           "corporate_insider"
         ]
@@ -575,9 +601,25 @@
         ]
       },
       {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 838.2,
+        "ticker": "RH",
+        "company": "RH",
+        "pressure_score": 853.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 758.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DYN",
+        "company": "Dyne Therapeutics, Inc.",
+        "pressure_score": 729.9,
         "sources": [
           "corporate_insider"
         ]
@@ -594,46 +636,6 @@
         "ticker": "BCYC",
         "company": "BICYCLE THERAPEUTICS PLC",
         "pressure_score": 685.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MIAX",
-        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
-        "pressure_score": 660.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 561.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PBI",
-        "company": "PITNEY BOWES INC /DE/",
-        "pressure_score": 461.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TWLO",
-        "company": "TWILIO INC",
-        "pressure_score": 450.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NET",
-        "company": "Cloudflare, Inc.",
-        "pressure_score": 402.1,
         "sources": [
           "corporate_insider"
         ]
@@ -714,15 +716,6 @@
       "score": 79.2
     },
     {
-      "ticker": "PSBD",
-      "company": "Palmer Square Capital BDC Inc.",
-      "actor": "Bicknell Martin C",
-      "actor_type": "ten_percent_owner",
-      "amount": 422400.0,
-      "date": "2026-07-06",
-      "score": 78.0
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -741,30 +734,12 @@
       "score": 77.6
     },
     {
-      "ticker": "PSBD",
-      "company": "Palmer Square Capital BDC Inc.",
-      "actor": "Bicknell Martin C",
-      "actor_type": "ten_percent_owner",
-      "amount": 224937.48,
-      "date": "2026-07-07",
-      "score": 76.6
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
       "actor_type": "ceo",
       "amount": 542997.0,
       "date": "2026-06-29",
-      "score": 76.5
-    },
-    {
-      "ticker": "GF",
-      "company": "NEW GERMANY FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 430209.2,
-      "date": "2026-07-02",
       "score": 76.5
     },
     {
@@ -775,6 +750,33 @@
       "amount": 172691.52,
       "date": "2026-07-07",
       "score": 76.0
+    },
+    {
+      "ticker": "VFLEX",
+      "company": "FIRST TRUST ALTERNATIVE OPPORTUNITIES FUND",
+      "actor": "CHAD EISENBERG",
+      "actor_type": "insider",
+      "amount": 1500001.8,
+      "date": "2026-07-02",
+      "score": 75.5
+    },
+    {
+      "ticker": "FTECX",
+      "company": "First Trust Enhanced Private Credit Fund",
+      "actor": "CHAD EISENBERG",
+      "actor_type": "insider",
+      "amount": 399989.97,
+      "date": "2026-07-02",
+      "score": 72.6
+    },
+    {
+      "ticker": "LRMR",
+      "company": "Larimar Therapeutics, Inc.",
+      "actor": "Hamilton Thomas Edward",
+      "actor_type": "director",
+      "amount": 166890.0,
+      "date": "2026-07-06",
+      "score": 72.0
     }
   ],
   "institutional_changes": [
@@ -1128,6 +1130,15 @@
       "date": "2026-07-07"
     },
     {
+      "filer": "TORO 18 HOLDINGS LLC",
+      "company": "Barnes & Noble Education, Inc.",
+      "ticker": "BNED",
+      "ownership_pct": 32.7,
+      "shares": 11208746,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-08"
+    },
+    {
       "filer": "Prescott General Partners LLC",
       "company": "World Acceptance Corporation",
       "ticker": "WRLD",
@@ -1144,6 +1155,15 @@
       "shares": 12209953,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-07"
+    },
+    {
+      "filer": "Owl Creek Asset Management, L.P.",
+      "company": "Anterix Inc.",
+      "ticker": "ATEX",
+      "ownership_pct": 27.7,
+      "shares": 5411776,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-08"
     },
     {
       "filer": "Osprey Acquisition Sponsor III, LLC",
@@ -1198,24 +1218,6 @@
       "shares": 950844,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-07"
-    },
-    {
-      "filer": "Atlas Capital Resources (A9) LP",
-      "company": "Greenidge Generation Holdings Inc.",
-      "ticker": "",
-      "ownership_pct": 16.1,
-      "shares": 2913565,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-08"
-    },
-    {
-      "filer": "Allseas Group S.A.",
-      "company": "TMC the metals Co Inc.",
-      "ticker": "",
-      "ownership_pct": 15.4,
-      "shares": 66502501,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-07"
     }
   ],
   "polymarket": {
@@ -1223,8 +1225,8 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 136956.9,
-        "win_rate": 0.9729,
+        "pnl": 138429.85,
+        "win_rate": 0.9731,
         "volume": 699185.77,
         "categories": [
           "sports"
@@ -1243,9 +1245,9 @@
       {
         "wallet": "0x870fd20e18",
         "username": "waterx-",
-        "pnl": 48845.28,
+        "pnl": 48826.02,
         "win_rate": 0.9261,
-        "volume": 72587.73,
+        "volume": 72686.64,
         "categories": [
           "crypto",
           "sports"
@@ -1254,9 +1256,20 @@
       {
         "wallet": "0x9c3ce009c9",
         "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 30123.13,
+        "pnl": 30311.27,
         "win_rate": 0.932,
-        "volume": 68452.23,
+        "volume": 71750.66,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x749e1b5240",
+        "username": "nbaripped",
+        "pnl": 23233.79,
+        "win_rate": 0.9434,
+        "volume": 151160.24,
         "categories": [
           "sports",
           "crypto"
@@ -1265,8 +1278,8 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 24456.05,
-        "win_rate": 0.9316,
+        "pnl": 24828.66,
+        "win_rate": 0.9322,
         "volume": 103542.52,
         "categories": [
           "sports"
@@ -1275,9 +1288,9 @@
       {
         "wallet": "0xfc25f141ed",
         "username": ".Sisyphus.",
-        "pnl": 31607.14,
+        "pnl": 31631.51,
         "win_rate": 0.905,
-        "volume": 486413.97,
+        "volume": 486535.77,
         "categories": [
           "sports",
           "crypto"
@@ -1286,9 +1299,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 36699.73,
+        "pnl": 36773.31,
         "win_rate": 0.888,
-        "volume": 21383.98,
+        "volume": 34254.98,
         "categories": [
           "sports"
         ]
@@ -1305,27 +1318,14 @@
         ]
       },
       {
-        "wallet": "0x9592adb703",
-        "username": "trashpilot",
-        "pnl": 24058.25,
-        "win_rate": 0.8852,
-        "volume": 19863.26,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x695d8d90de",
-        "username": "mpyh",
-        "pnl": 30637.96,
-        "win_rate": 0.8623,
-        "volume": 140472.63,
+        "wallet": "0x04677c0cd4",
+        "username": "shxbyron1",
+        "pnl": 32623.18,
+        "win_rate": 0.876,
+        "volume": 162797.0,
         "categories": [
           "sports",
-          "crypto",
-          "politics"
+          "crypto"
         ]
       }
     ],
@@ -1343,19 +1343,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 390874.03,
-        "win_rate": 0.569,
-        "volume": 7880139.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x620d7e06ce",
-        "username": "tankjack",
-        "pnl": 32826.52,
-        "win_rate": 0.5,
-        "volume": 1435134.2,
+        "pnl": 366385.28,
+        "win_rate": 0.565,
+        "volume": 8742260.39,
         "categories": [
           "sports"
         ]
@@ -1363,23 +1353,11 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 55356.38,
-        "win_rate": 0.562,
-        "volume": 4137959.58,
+        "pnl": 79119.65,
+        "win_rate": 0.557,
+        "volume": 4670251.82,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 39702.77,
-        "win_rate": 0.4494,
-        "volume": 992953.22,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
         ]
       },
       {
@@ -1395,9 +1373,9 @@
       {
         "wallet": "0xedc746d189",
         "username": "WinsOnly9",
-        "pnl": 170426.33,
+        "pnl": 56380.48,
         "win_rate": 0.8,
-        "volume": 1378794.77,
+        "volume": 1696491.6,
         "categories": [
           "sports"
         ]
@@ -1405,9 +1383,9 @@
       {
         "wallet": "0x37ee3bceb4",
         "username": "0x37ee3BCEb4fBf028fb90D1463A4a5354Da02f86F-1781205947489",
-        "pnl": 26924.22,
+        "pnl": 27744.46,
         "win_rate": 1.0,
-        "volume": 455714.51,
+        "volume": 571941.83,
         "categories": [
           "sports"
         ]
@@ -1415,7 +1393,7 @@
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 143321.32,
+        "pnl": 145652.55,
         "win_rate": 0.54,
         "volume": 1205789.94,
         "categories": [
@@ -1425,11 +1403,33 @@
         ]
       },
       {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 40508.53,
+        "win_rate": 0.4564,
+        "volume": 1051326.92,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 30119.46,
-        "win_rate": 0.527,
-        "volume": 2166048.85,
+        "pnl": 26148.02,
+        "win_rate": 0.528,
+        "volume": 2312068.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 166870.32,
+        "win_rate": 0.627,
+        "volume": 821414.19,
         "categories": [
           "sports"
         ]
@@ -1438,40 +1438,85 @@
   },
   "news": [
     {
-      "title": "Grant Thornton Picks CrowdStrike ( CRWD ) to Power Its Global Cybersecurity Platform",
-      "url": "https://www.insidermonkey.com/blog/grant-thornton-picks-crowdstrike-crwd-to-power-its-global-cybersecurity-platform-1797739/",
-      "ticker": "CRWD",
+      "title": "Palo Alto Networks ( NASDAQ : PANW ) Director Sells 700 Shares",
+      "url": "https://www.dailypolitical.com/2026/07/08/palo-alto-networks-nasdaqpanw-director-sells-700-shares.html",
+      "ticker": "SPOT",
       "themes": [
-        "regulatory"
+        "stock"
       ],
       "date": "2026-07-08"
     },
     {
-      "title": "Miami International Holdings Reports June 2026 Trading Results",
-      "url": "https://www.prnewswire.com/news-releases/miami-international-holdings-reports-june-2026-trading-results-302818677.html",
-      "ticker": "MIAX",
-      "themes": [],
-      "date": "2026-07-07"
+      "title": "Arteris ( NASDAQ : AIP ) CEO Sells 125 , 976 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13498284/arteris-nasdaqaip-ceo-sells-125976-shares-of-stock.html",
+      "ticker": "AIP",
+      "themes": [
+        "ai",
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-08"
     },
     {
-      "title": "Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-6-today-outperforming-other-155132126.html",
-      "ticker": "HPE",
+      "title": "Bayview Legacy , Llc Sells 125 , 976 Shares of Arteris ( NASDAQ : AIP ) Stock",
+      "url": "https://www.dailypolitical.com/2026/07/08/bayview-legacy-llc-sells-125976-shares-of-arteris-nasdaqaip-stock.html",
+      "ticker": "AIP",
       "themes": [
         "ai",
         "stock"
       ],
-      "date": "2026-07-06"
+      "date": "2026-07-08"
     },
     {
-      "title": "Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis",
-      "url": "https://finance.yahoo.com/technology/articles/hewlett-packard-hpe-pricing-power-121454062.html",
-      "ticker": "HPE",
-      "themes": [],
-      "date": "2026-06-30"
+      "title": "Arteris Announces Collaboration with IC - Link by imec to Accelerate Next - Gen AI and HPC Silicon",
+      "url": "https://www.design-reuse.com/news/202530783-arteris-announces-collaboration-with-ic-link-by-imec-to-accelerate-next-gen-ai-and-hpc-silicon/",
+      "ticker": "AIP",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Arteris ( NASDAQ : AIP ) Major Shareholder Bayview Legacy , Llc Sells 192 , 686 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13496691/arteris-nasdaqaip-major-shareholder-bayview-legacy-llc-sells-192686-shares.html",
+      "ticker": "AIP",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Insider Selling : Arteris ( NASDAQ : AIP ) COO Sells $217 , 129 . 22 in Stock",
+      "url": "https://www.dailypolitical.com/2026/07/06/insider-selling-arteris-nasdaqaip-coo-sells-217129-22-in-stock.html",
+      "ticker": "AIP",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "K Charles Janac Sells 192 , 686 Shares of Arteris ( NASDAQ : AIP ) Stock",
+      "url": "https://www.dailypolitical.com/2026/07/06/k-charles-janac-sells-192686-shares-of-arteris-nasdaqaip-stock.html",
+      "ticker": "AIP",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "PTC Therapeutics ( NASDAQ : PTCT ) Insider Neil Gregory Almstead Sells 23 , 749 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/06/25/ptc-therapeutics-nasdaqptct-insider-neil-gregory-almstead-sells-23749-shares-of-stock.html",
+      "ticker": "PTCT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-25"
     }
   ],
-  "signals_count": 1567,
+  "signals_count": 1700,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
