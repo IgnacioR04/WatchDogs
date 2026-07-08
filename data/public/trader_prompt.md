@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-08T04:01:24+00:00 -->
+<!-- trader_prompt.md generado 2026-07-08T06:55:49+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -206,7 +206,7 @@ Construye la cartera inicial partiendo de la cartera candidata del briefing y la
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T04:01:24+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-08T06:55:49+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -214,42 +214,40 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 16.13)
-- Tendencia: `bull` (SPY 747.71 · MA50 737.57 · MA200 689.71 · dist MA200: 8.41%)
+- Tendencia: `unknown` (SPY n/d · MA50 n/d · MA200 n/d · dist MA200: n/d%)
 - Credito: `unknown` (HY spread None)
 - Tipos: `unknown` (curva 10y-2y None)
-- Motivos: tendencia alcista (+)
 - **AVISO**: sin datos de credit, rates (FRED API key no configurada). El presupuesto de riesgo puede ser impreciso.
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 747.71 | -0.48% | 0.91% | 1.64% |
 | QQQ | 12.0% | core | 709.43 | -1.85% | -2.02% | 0.73% |
 | TLT | 12.0% | core | 84.55 | -1.05% | -2.96% | -0.23% |
 | VFLEX | 12.0% | satellite | 27.67 | 0.0% | -0.43% | 0.47% |
-| GLD | 12.0% | core | 377.49 | -1.21% | 2.42% | -4.73% |
-| IEF | 8.0% | core | 93.7 | -0.51% | -1.11% | 0.42% |
-| PSBD | 2.5% | satellite | 10.41 | -0.95% | -0.48% | 0.19% |
-| GF | 2.3% | satellite | 11.74 | -0.34% | 2.26% | -1.1% |
-| ASC | 1.4% | satellite | 15.45 | 1.51% | 7.37% | -6.02% |
-| MIAX | 1.4% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
-| YOU | 1.1% | satellite | 55.91 | -1.46% | -0.21% | 2.84% |
-| ECHO | 1.0% | satellite | 97.91 | -0.39% | -2.91% | -15.8% |
-| NWL | 0.9% | satellite | 5.54 | -0.54% | -8.58% | 48.92% |
-| HPE | 0.9% | satellite | 43.47 | 0.74% | -2.12% | -11.39% |
-| EOSE | 0.5% | satellite | 4.74 | -6.32% | -22.17% | -33.05% |
+| GLD | 10.3% | core | 377.49 | -1.21% | 2.42% | -4.73% |
+| IEF | 6.9% | core | 93.7 | -0.51% | -1.11% | 0.42% |
+| PSBD | 1.4% | satellite | 10.41 | -0.95% | -0.48% | 0.19% |
+| GF | 1.3% | satellite | 11.74 | -0.34% | 2.26% | -1.1% |
+| ASC | 0.8% | satellite | 15.45 | 1.51% | 7.37% | -6.02% |
+| MIAX | 0.8% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
+| YOU | 0.6% | satellite | 55.91 | -1.46% | -0.21% | 2.84% |
+| ECHO | 0.6% | satellite | 97.91 | -0.39% | -2.91% | -15.8% |
+| NWL | 0.5% | satellite | 5.54 | -0.54% | -8.58% | 48.92% |
+| HPE | 0.5% | satellite | 43.47 | 0.74% | -2.12% | -11.39% |
+| EOSE | 0.3% | satellite | 4.74 | -6.32% | -22.17% | -33.05% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.7%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -5.1%
-- Beta vs SPY: 0.602 · posiciones efectivas: 12.5 · HHI: 0.0802
+- Volatilidad anualizada: 6.8%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.4%
+- Beta vs SPY: None · posiciones efectivas: 16.9 · HHI: 0.0592
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -306,7 +304,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 747.71 (-0.48% / 0.91% / 1.64%) [2026-07-07]
 - QQQ: 709.43 (-1.85% / -2.02% / 0.73%) [2026-07-07]
 - IWM: 296.19 (-0.91% / -0.93% / 5.41%) [2026-07-07]
 - DIA: 528.45 (-0.31% / 1.3% / 3.96%) [2026-07-07]
@@ -314,7 +311,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 93.7 (-0.51% / -1.11% / 0.42%) [2026-07-07]
 - GLD: 377.49 (-1.21% / 2.42% / -4.73%) [2026-07-07]
 - ^VIX: 16.13 (3.6% / -8.61% / -25.01%) [2026-07-07]
-- BTC-USD: 62701.83 (-2.02% / 1.98% / -2.66%) [2026-07-08]
+- BTC-USD: 62644.8 (-1.03% / 0.16% / -0.4%) [2026-07-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -329,15 +326,19 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2)
+**Temas dominantes**: stock (5), ai (4)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] Mumbai water stock rises after heavy rainfall , reservoir levels surge but BMC retains 10 per cent water cut (2026-07-08)
+- [WDAY] Palantir Stock Is Down 27 % This Year . Time To Sell ? (2026-07-08)
+- [ANET] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
 - [MIAX] Miami International Holdings Reports June 2026 Trading Results (2026-07-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Director Sells 8 , 000 Shares of Stock (2026-07-07)
+- [ANET] Here How Arista Networks Is a Major Beneficiary of Big Tech Push to Break Nvidia Grip (2026-07-07)
 - [HPE] Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? (2026-07-06)
+- [ANET] What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks (2026-07-06)
+- [ANET] What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks (2026-07-06)
 - [HPE] Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis (2026-06-30)
-- [CACC] Credit Acceptance ( NASDAQ : CACC ) Insider Nicholas Elliott Sells 1 , 183 Shares (2026-06-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -353,10 +354,10 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Sassy-Bucket · PnL $233,288 · win rate 92% · categorias: sports
-- ic4cream · PnL $37,157 · win rate 89% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $30,921 · win rate 94% · categorias: sports, crypto
+- ic4cream · PnL $36,318 · win rate 89% · categorias: sports
 - ethanaz · PnL $29,652 · win rate 89% · categorias: sports, crypto
-- .Sisyphus. · PnL $23,061 · win rate 91% · categorias: sports, crypto
-- SDTrading · PnL $13,593 · win rate 94% · categorias: sports
+- .Sisyphus. · PnL $22,254 · win rate 91% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -377,8 +378,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ASC, ECHO, EOSE, GF, GLD, HPE, IEF, MIAX, NWL, PSBD, QQQ, SPY, TLT, VFLEX, YOU`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`ASC, ECHO, EOSE, GF, GLD, HPE, IEF, MIAX, NWL, PSBD, QQQ, TLT, VFLEX, YOU`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Justifica cada cambio** con una razon concreta basada en los datos de este briefing (señal, regimen, riesgo, precio). Nada de datos externos.
