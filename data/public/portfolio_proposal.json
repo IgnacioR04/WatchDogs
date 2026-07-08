@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-07-08T12:16:28+00:00",
+  "generated_at": "2026-07-08T13:10:26+00:00",
   "profile": "moderado",
-  "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "regime_budget": 0.9,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "GLD": 0.12,
     "VFLEX": 0.12,
-    "GLD": 0.1141,
-    "IEF": 0.0761,
-    "EVF": 0.0566,
-    "MOMO": 0.0171,
-    "ASC": 0.0124,
-    "MIAX": 0.0123,
-    "ARTW": 0.0113,
-    "NWL": 0.0085,
-    "EOSE": 0.0047,
-    "RYDE": 0.0035,
-    "EBRCZ": 0.0034
+    "IEF": 0.0979,
+    "PSBD": 0.0306,
+    "GF": 0.0283,
+    "MOMO": 0.023,
+    "ASC": 0.0166,
+    "MIAX": 0.0165,
+    "NWL": 0.0113,
+    "HPE": 0.011,
+    "COE": 0.0085,
+    "EOSE": 0.0062
   },
   "core": {
-    "SPY": 0.182,
-    "QQQ": 0.104,
-    "TLT": 0.104,
-    "IEF": 0.052,
-    "GLD": 0.078
+    "SPY": 0.1934,
+    "QQQ": 0.1105,
+    "TLT": 0.1105,
+    "IEF": 0.0553,
+    "GLD": 0.0829
   },
   "satellite": {
-    "MIAX": 0.0084,
-    "MOMO": 0.0117,
-    "NWL": 0.0058,
-    "EOSE": 0.0032,
-    "ASC": 0.0085,
-    "VFLEX": 0.1913,
-    "EBRCZ": 0.0023,
-    "ARTW": 0.0077,
-    "EVF": 0.0387,
-    "RYDE": 0.0024
+    "MIAX": 0.0093,
+    "COE": 0.0048,
+    "MOMO": 0.013,
+    "NWL": 0.0064,
+    "EOSE": 0.0035,
+    "HPE": 0.0062,
+    "PSBD": 0.0173,
+    "ASC": 0.0094,
+    "VFLEX": 0.2116,
+    "GF": 0.016
   },
   "satellite_rationale": [
     {
@@ -48,6 +48,14 @@
         "corporate_insider"
       ],
       "n_signals": 11
+    },
+    {
+      "ticker": "COE",
+      "score": 470.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 7
     },
     {
       "ticker": "MOMO",
@@ -75,6 +83,23 @@
       "n_signals": 4
     },
     {
+      "ticker": "HPE",
+      "score": 244.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 5
+    },
+    {
+      "ticker": "PSBD",
+      "score": 193.7,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "ASC",
       "score": 177.0,
       "sources": [
@@ -91,49 +116,25 @@
       "n_signals": 2
     },
     {
-      "ticker": "EBRCZ",
-      "score": 141.0,
+      "ticker": "GF",
+      "score": 119.6,
       "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "ARTW",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "EVF",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "RYDE",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0918,
-    "var_95_1d": 0.0095,
-    "cvar_95_1d": 0.0118,
-    "max_drawdown": -0.0489,
-    "beta_spy": 0.569,
-    "hhi": 0.0805,
+    "ann_vol": 0.1018,
+    "var_95_1d": 0.0109,
+    "cvar_95_1d": 0.0138,
+    "max_drawdown": -0.0576,
+    "beta_spy": 0.629,
+    "hhi": 0.0848,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 12.4,
-    "gross_exposure": 0.8,
+    "effective_positions": 11.8,
+    "gross_exposure": 0.8499,
     "days_used": 87
   },
   "risk_gate": {
