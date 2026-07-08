@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-08T14:55:30+00:00",
+  "generated_at": "2026-07-08T17:08:40+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.12,
     "VFLEX": 0.12,
-    "IEF": 0.1029,
-    "PSBD": 0.0331,
-    "GF": 0.0307,
-    "BBSI": 0.0255,
-    "ROKU": 0.0153,
-    "RBLX": 0.0112,
-    "COE": 0.0093,
-    "INTC": 0.0086,
-    "EOSE": 0.0069,
-    "ZBAO": 0.0067
+    "IEF": 0.0999,
+    "FVR": 0.0303,
+    "GF": 0.0293,
+    "CACC": 0.0191,
+    "EPAM": 0.0157,
+    "ROKU": 0.0144,
+    "GLUE": 0.0137,
+    "RBLX": 0.0107,
+    "COE": 0.0088,
+    "INTC": 0.0081
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "COE": 0.005,
-    "PSBD": 0.0178,
-    "VFLEX": 0.2185,
-    "GF": 0.0165,
-    "ROKU": 0.0082,
-    "RBLX": 0.006,
-    "BBSI": 0.0137,
-    "ZBAO": 0.0036,
-    "INTC": 0.0046,
-    "EOSE": 0.0037
+    "COE": 0.0049,
+    "VFLEX": 0.2143,
+    "GLUE": 0.0076,
+    "FVR": 0.0168,
+    "EPAM": 0.0087,
+    "GF": 0.0162,
+    "ROKU": 0.008,
+    "RBLX": 0.0059,
+    "INTC": 0.0045,
+    "CACC": 0.0106
   },
   "satellite_rationale": [
     {
@@ -50,19 +50,34 @@
       "n_signals": 7
     },
     {
-      "ticker": "PSBD",
-      "score": 193.7,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
       "ticker": "VFLEX",
       "score": 162.4,
       "sources": [
         "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "GLUE",
+      "score": 142.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "FVR",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "EPAM",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -91,22 +106,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "BBSI",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "ZBAO",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "INTC",
       "score": 70.7,
       "sources": [
@@ -115,7 +114,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "EOSE",
+      "ticker": "CACC",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -124,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1029,
-    "var_95_1d": 0.0104,
-    "cvar_95_1d": 0.0138,
-    "max_drawdown": -0.0567,
-    "beta_spy": 0.624,
-    "hhi": 0.0859,
+    "ann_vol": 0.1042,
+    "var_95_1d": 0.0115,
+    "cvar_95_1d": 0.014,
+    "max_drawdown": -0.0576,
+    "beta_spy": 0.634,
+    "hhi": 0.085,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 11.6,
-    "gross_exposure": 0.8502,
+    "effective_positions": 11.8,
+    "gross_exposure": 0.85,
     "days_used": 87
   },
   "risk_gate": {
