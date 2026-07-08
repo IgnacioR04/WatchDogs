@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-08T00:31:12.638995+00:00",
+  "generated_at": "2026-07-08T04:00:41.407379+00:00",
   "window": {
     "from": "2026-06-08",
     "to": "2026-07-08",
@@ -23,7 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -193,24 +194,6 @@
     {
       "id": "move_10",
       "rank": 10,
-      "title": "10% owner opero WRLD ($12.3M)",
-      "summary": "10% owner Prescott General Partners LLC opero WRLD por $12.3M el 2026-07-02 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Prescott General Partners LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "WRLD",
-      "direction": "other",
-      "amount_estimated": 12349892.04,
-      "event_date": "2026-07-02",
-      "importance_score": 82.1,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1538653/000110465926081271/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
       "title": "CEO vendio PBI ($4.9M)",
       "summary": "CEO Wolf Kurt James vendio PBI por $4.9M el 2026-07-07.",
       "source": "sec_form_4",
@@ -227,8 +210,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000010/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "Director vendio OLPX ($48.4M)",
       "summary": "Director White Emily vendio OLPX por $48.4M el 2026-07-07.",
       "source": "sec_form_4",
@@ -243,6 +226,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1534778/000119312526297666/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "CEO compro FTECX ($1.5M)",
+      "summary": "CEO PECK MICHAEL D compro FTECX por $1.5M el 2026-07-02.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "PECK MICHAEL D",
+      "actor_type": "ceo",
+      "ticker": "FTECX",
+      "direction": "buy",
+      "amount_estimated": 1499990.03,
+      "event_date": "2026-07-02",
+      "importance_score": 81.7,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1732966/000173296626000012/"
     },
     {
       "id": "move_13",
@@ -466,6 +467,14 @@
         ]
       },
       {
+        "ticker": "FTECX",
+        "company": "First Trust Enhanced Private Credit Fund",
+        "pressure_score": 154.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ROKU",
         "company": "ROKU, INC",
         "pressure_score": 153.8,
@@ -504,17 +513,17 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "EVF",
-        "company": "Eaton Vance Senior Income Trust",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1811.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "OLPX",
         "company": "OLAPLEX HOLDINGS, INC.",
@@ -574,14 +583,6 @@
         ]
       },
       {
-        "ticker": "SNX",
-        "company": "TD SYNNEX CORP",
-        "pressure_score": 685.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MIAX",
         "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
         "pressure_score": 660.2,
@@ -593,14 +594,6 @@
         "ticker": "SOPH",
         "company": "SOPHiA GENETICS SA",
         "pressure_score": 650.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 608.5,
         "sources": [
           "corporate_insider"
         ]
@@ -636,6 +629,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "PTHS",
+        "company": "Pelthos Therapeutics Inc.",
+        "pressure_score": 363.4,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -650,6 +651,15 @@
       "score": 84.3
     },
     {
+      "ticker": "FTECX",
+      "company": "First Trust Enhanced Private Credit Fund",
+      "actor": "PECK MICHAEL D",
+      "actor_type": "ceo",
+      "amount": 1499990.03,
+      "date": "2026-07-02",
+      "score": 81.7
+    },
+    {
       "ticker": "PSBD",
       "company": "Palmer Square Capital BDC Inc.",
       "actor": "Bicknell Martin C",
@@ -657,15 +667,6 @@
       "amount": 422400.0,
       "date": "2026-07-06",
       "score": 79.2
-    },
-    {
-      "ticker": "UTHR",
-      "company": "UNITED THERAPEUTICS Corp",
-      "actor": "ROTHBLATT MARTINE A",
-      "actor_type": "ceo",
-      "amount": 1286490.0,
-      "date": "2026-07-06",
-      "score": 78.9
     },
     {
       "ticker": "HPE",
@@ -1220,186 +1221,119 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 1251543.91,
-        "win_rate": 0.9612,
-        "volume": 1613643.83,
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 233288.16,
+        "win_rate": 0.9152,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe9a6ed2e4d",
-        "username": "Oneger",
-        "pnl": 493612.57,
-        "win_rate": 0.9804,
-        "volume": 48566.31,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 37156.89,
+        "win_rate": 0.888,
+        "volume": 2453.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 148340.68,
-        "win_rate": 1.0,
-        "volume": 315004.87,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x924379a79c",
-        "username": "Kch-Temp",
-        "pnl": 186071.55,
-        "win_rate": 0.9579,
-        "volume": 419077.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 531764.4,
-        "win_rate": 0.885,
-        "volume": 4764753.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5966db1fe5",
-        "username": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
-        "pnl": 259415.47,
-        "win_rate": 0.9,
-        "volume": 341440.1,
+        "wallet": "0xf28e42d20e",
+        "username": "ethanaz",
+        "pnl": 29651.52,
+        "win_rate": 0.8888,
+        "volume": 344.55,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xb44e88e97d",
-        "username": "sirko133",
-        "pnl": 108815.12,
-        "win_rate": 0.946,
-        "volume": 178388.26,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb809a4b78b",
-        "username": "R88N",
-        "pnl": 150869.69,
-        "win_rate": 0.9767,
-        "volume": 24999.99,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x095fbca2e0",
-        "username": "muchobliged",
-        "pnl": 3154850.29,
-        "win_rate": 1.0,
-        "volume": 10054831.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 1318448.24,
-        "win_rate": 0.7526,
-        "volume": 3436641.47,
+        "wallet": "0xfc25f141ed",
+        "username": ".Sisyphus.",
+        "pnl": 23061.04,
+        "win_rate": 0.906,
+        "volume": 94673.59,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 13592.61,
+        "win_rate": 0.9366,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9c3ce009c9",
+        "username": "0x0x23kjookhaiuohduoayh8c9",
+        "pnl": 9386.27,
+        "win_rate": 0.9357,
+        "volume": 30285.84,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xebfdb8164f",
+        "username": "robustmst",
+        "pnl": 9445.61,
+        "win_rate": 0.9388,
+        "volume": 16322.74,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 6785.71,
+        "win_rate": 0.943,
+        "volume": 51861.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x17338df306",
+        "username": "Basquetipster",
+        "pnl": 5910.83,
+        "win_rate": 0.928,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xffe91b2592",
+        "username": "456789kjl",
+        "pnl": 16290.0,
+        "win_rate": 0.844,
+        "volume": 0.0,
+        "categories": [
+          "sports"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x095fbca2e0",
-        "username": "muchobliged",
-        "pnl": 3154850.29,
-        "win_rate": 1.0,
-        "volume": 10054831.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x09b428f7c2",
-        "username": "DEEDDIT",
-        "pnl": 8066725.63,
-        "win_rate": 1.0,
-        "volume": 7721724.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 531764.4,
-        "win_rate": 0.885,
-        "volume": 4764753.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 356606.16,
-        "win_rate": 0.545,
-        "volume": 13313094.45,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 698445.09,
-        "win_rate": 0.621,
-        "volume": 6244636.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 1318448.24,
-        "win_rate": 0.7526,
-        "volume": 3436641.47,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 148184.42,
-        "win_rate": 0.519,
-        "volume": 4316177.91,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6db983ff1c",
-        "username": "tsihkodiives",
-        "pnl": 163794.18,
-        "win_rate": 0.8576,
-        "volume": 5798286.53,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 95121.93,
+        "win_rate": 0.585,
+        "volume": 743149.96,
         "categories": [
           "sports",
           "politics",
@@ -1407,71 +1341,147 @@
         ]
       },
       {
-        "wallet": "0xc430e5b171",
-        "username": "Gourmet1",
-        "pnl": 351603.53,
-        "win_rate": 0.8824,
-        "volume": 1595248.97,
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 166124.69,
+        "win_rate": 0.554,
+        "volume": 1343299.79,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 1251543.91,
-        "win_rate": 0.9612,
-        "volume": 1613643.83,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 32392.52,
+        "win_rate": 0.529,
+        "volume": 955826.37,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 123605.07,
+        "win_rate": 0.624,
+        "volume": 402601.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 7736.86,
+        "win_rate": 0.562,
+        "volume": 522801.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 8560.74,
+        "win_rate": 0.585,
+        "volume": 426565.14,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3b21433b04",
+        "username": "solar5",
+        "pnl": 11026.22,
+        "win_rate": 0.4792,
+        "volume": 245067.46,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfc25f141ed",
+        "username": ".Sisyphus.",
+        "pnl": 23061.04,
+        "win_rate": 0.906,
+        "volume": 94673.59,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x424d6d7cc4",
+        "username": "",
+        "pnl": 11509.45,
+        "win_rate": 0.7222,
+        "volume": 247561.78,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8a26963475",
+        "username": "Iconicsoundsdk",
+        "pnl": 26078.78,
+        "win_rate": 0.497,
+        "volume": 165875.16,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "2 Dirt Cheap Dividend Stocks to Buy With $1 , 000 Right Now",
-      "url": "https://www.fool.com/investing/2026/07/07/2-dirt-cheap-dividend-stocks-to-buy-with-1000-righ/?source=iedfolrf0000001",
+      "title": "Mumbai water stock rises after heavy rainfall , reservoir levels surge but BMC retains 10 per cent water cut",
+      "url": "https://www.mid-day.com/mumbai/mumbai-news/article/mumbai-water-stock-rises-after-heavy-rainfall-reservoir-levels-surge-but-bmc-retains-10-per-cent-water-cut-23638725",
       "ticker": "WDAY",
       "themes": [
+        "ai",
         "stock"
       ],
       "date": "2026-07-08"
     },
     {
-      "title": "Chlorovinyl Manufacturing Expansion Asserts Westlake Corp ( WLK ) as a Top Mid - Cap Stock to Own for Decades , According to Hedge Funds",
-      "url": "https://www.insidermonkey.com/blog/chlorovinyl-manufacturing-expansion-asserts-westlake-corp-wlk-as-a-top-mid-cap-stock-to-own-for-decades-according-to-hedge-funds-1797293/",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-08"
+      "title": "Miami International Holdings Reports June 2026 Trading Results",
+      "url": "https://www.prnewswire.com/news-releases/miami-international-holdings-reports-june-2026-trading-results-302818677.html",
+      "ticker": "MIAX",
+      "themes": [],
+      "date": "2026-07-07"
     },
     {
-      "title": "Sunrun ( NASDAQ : RUN ) CFO Sells $217 , 569 . 05 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13497435/sunrun-nasdaqrun-cfo-sells-217569-05-in-stock.html",
-      "ticker": "WDAY",
+      "title": "Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-6-today-outperforming-other-155132126.html",
+      "ticker": "HPE",
       "themes": [
+        "ai",
         "stock"
       ],
-      "date": "2026-07-08"
+      "date": "2026-07-06"
     },
     {
-      "title": "Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel",
-      "url": "http://www.prnewswire.com/news-releases/your-travel-day-super-hero-has-arrived-clear-teams-up-with-marvel-animations-x-men-97-season-2-to-help-members-win-the-day-of-travel-302813541.html",
-      "ticker": "YOU",
+      "title": "Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis",
+      "url": "https://finance.yahoo.com/technology/articles/hewlett-packard-hpe-pricing-power-121454062.html",
+      "ticker": "HPE",
       "themes": [],
       "date": "2026-06-30"
     },
     {
-      "title": "Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel",
-      "url": "https://www.prnewswire.com:443/news-releases/your-travel-day-super-hero-has-arrived-clear-teams-up-with-marvel-animations-x-men-97-season-2-to-help-members-win-the-day-of-travel-302813541.html",
-      "ticker": "YOU",
-      "themes": [],
-      "date": "2026-06-29"
+      "title": "Credit Acceptance ( NASDAQ : CACC ) Insider Nicholas Elliott Sells 1 , 183 Shares",
+      "url": "https://www.dailypolitical.com/2026/06/27/credit-acceptance-nasdaqcacc-insider-nicholas-elliott-sells-1183-shares.html",
+      "ticker": "CACC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-06-27"
     }
   ],
-  "signals_count": 1462,
+  "signals_count": 1471,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

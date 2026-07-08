@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T00:32:18+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-08T04:01:24+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,13 +25,13 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | SPY | 12.0% | core | 747.71 | -0.48% | 0.91% | 1.64% |
 | QQQ | 12.0% | core | 709.43 | -1.85% | -2.02% | 0.73% |
 | TLT | 12.0% | core | 84.55 | -1.05% | -2.96% | -0.23% |
-| VFLEX | 12.0% | satellite | 27.67 | -0.43% | -0.36% | 0.44% |
-| GLD | 11.9% | core | 377.49 | -1.21% | 2.42% | -4.73% |
+| VFLEX | 12.0% | satellite | 27.67 | 0.0% | -0.43% | 0.47% |
+| GLD | 12.0% | core | 377.49 | -1.21% | 2.42% | -4.73% |
 | IEF | 8.0% | core | 93.7 | -0.51% | -1.11% | 0.42% |
 | PSBD | 2.5% | satellite | 10.41 | -0.95% | -0.48% | 0.19% |
 | GF | 2.3% | satellite | 11.74 | -0.34% | 2.26% | -1.1% |
-| MIAX | 1.4% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
 | ASC | 1.4% | satellite | 15.45 | 1.51% | 7.37% | -6.02% |
+| MIAX | 1.4% | satellite | 43.72 | 4.44% | 18.71% | 11.5% |
 | YOU | 1.1% | satellite | 55.91 | -1.46% | -0.21% | 2.84% |
 | ECHO | 1.0% | satellite | 97.91 | -0.39% | -2.91% | -15.8% |
 | NWL | 0.9% | satellite | 5.54 | -0.54% | -8.58% | 48.92% |
@@ -43,7 +43,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - Volatilidad anualizada: 9.7%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
 - Max drawdown historico: -5.1%
-- Beta vs SPY: 0.599 · posiciones efectivas: 12.5 · HHI: 0.0802
+- Beta vs SPY: 0.602 · posiciones efectivas: 12.5 · HHI: 0.0802
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -65,7 +65,9 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | VFLEX | 85 | corporate_insider | PECK MICHAEL D | 2 | $4,999,988 | cluster_buy |
+| FTECX | 82 | corporate_insider | PECK MICHAEL D | 2 | $1,499,990 | cluster_buy |
 | VFLEX | 77 | corporate_insider | CHAD EISENBERG | 2 | $1,500,002 | cluster_buy |
+| FTECX | 74 | corporate_insider | CHAD EISENBERG | 2 | $399,990 | cluster_buy |
 | QNT | 72 | large_holder | Capital World Investors |  | - | - |
 | BBSI | 72 | large_holder | Private Capital Managemen |  | - | - |
 | PSBD | 72 | large_holder | Alaris Master Fund LP |  | - | - |
@@ -77,8 +79,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | TRNO | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | TDC | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | IVT | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| EBRCZ | 70 | large_holder | Host-Plus Pty Ltd as trus |  | - | - |
-| AIXI | 70 | large_holder | Streeterville Capital LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 93.7 (-0.51% / -1.11% / 0.42%) [2026-07-07]
 - GLD: 377.49 (-1.21% / 2.42% / -4.73%) [2026-07-07]
 - ^VIX: 16.13 (3.6% / -8.61% / -25.01%) [2026-07-07]
-- BTC-USD: 63574.18 (-0.66% / 3.4% / -1.31%) [2026-07-08]
+- BTC-USD: 62701.83 (-2.02% / 1.98% / -2.66%) [2026-07-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,15 +123,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: stock (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] 2 Dirt Cheap Dividend Stocks to Buy With $1 , 000 Right Now (2026-07-08)
-- [WDAY] Chlorovinyl Manufacturing Expansion Asserts Westlake Corp ( WLK ) as a Top Mid - Cap Stock to Own for Decades , According to Hedge Funds (2026-07-08)
-- [WDAY] Sunrun ( NASDAQ : RUN ) CFO Sells $217 , 569 . 05 in Stock (2026-07-08)
-- [YOU] Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel (2026-06-30)
-- [YOU] Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel (2026-06-29)
+- [WDAY] Mumbai water stock rises after heavy rainfall , reservoir levels surge but BMC retains 10 per cent water cut (2026-07-08)
+- [MIAX] Miami International Holdings Reports June 2026 Trading Results (2026-07-07)
+- [HPE] Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? (2026-07-06)
+- [HPE] Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis (2026-06-30)
+- [CACC] Credit Acceptance ( NASDAQ : CACC ) Insider Nicholas Elliott Sells 1 , 183 Shares (2026-06-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,11 +146,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CandleHammerDrums · PnL $1,251,544 · win rate 96% · categorias: sports
-- Oneger · PnL $493,613 · win rate 98% · categorias: sports
-- HongYunX · PnL $148,341 · win rate 100% · categorias: sports
-- Kch-Temp · PnL $186,072 · win rate 96% · categorias: sports
-- BreakTheBank · PnL $531,764 · win rate 88% · categorias: sports
+- Sassy-Bucket · PnL $233,288 · win rate 92% · categorias: sports
+- ic4cream · PnL $37,157 · win rate 89% · categorias: sports
+- ethanaz · PnL $29,652 · win rate 89% · categorias: sports, crypto
+- .Sisyphus. · PnL $23,061 · win rate 91% · categorias: sports, crypto
+- SDTrading · PnL $13,593 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -158,7 +158,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 596 registros 30d · ultimo dato 2026-07-07
+- **sec_insiders**: `ok` · 605 registros 30d · ultimo dato 2026-07-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-07
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
