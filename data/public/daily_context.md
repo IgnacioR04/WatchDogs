@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T14:29:16+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-08T14:55:31+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.33)
-- Tendencia: `bull` (SPY 743.41 · MA50 738.2 · MA200 690.15 · dist MA200: 7.72%)
-- Credito: `tight` (HY spread 2.72)
+- Volatilidad: `normal` (VIX 17.91)
+- Tendencia: `bull` (SPY 742.34 · MA50 738.18 · MA200 690.14 · dist MA200: 7.56%)
+- Credito: `tight` (HY spread 2.67)
 - Tipos: `flat` (curva 10y-2y 0.36)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,28 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 743.41 | -0.58% | -0.45% | 0.83% |
-| QQQ | 12.0% | core | 707.32 | -0.3% | -3.95% | -1.11% |
-| TLT | 12.0% | core | 84.21 | -0.41% | -2.2% | -0.12% |
-| GLD | 12.0% | core | 372.67 | -1.28% | 1.16% | -6.19% |
+| SPY | 12.0% | core | 742.34 | -0.72% | -0.59% | 0.68% |
+| QQQ | 12.0% | core | 706.49 | -0.41% | -4.06% | -1.23% |
+| TLT | 12.0% | core | 84.14 | -0.49% | -2.28% | -0.21% |
+| GLD | 12.0% | core | 371.12 | -1.69% | 0.74% | -6.58% |
 | VFLEX | 12.0% | satellite | 27.67 | 0.0% | -0.43% | 0.47% |
-| IEF | 10.0% | core | 93.44 | -0.27% | -0.86% | 0.25% |
-| PSBD | 3.2% | satellite | 10.26 | -1.49% | -1.58% | 0.09% |
-| GF | 2.9% | satellite | 11.51 | -2.0% | 0.39% | -2.42% |
-| BBSI | 2.4% | satellite | 37.67 | -1.01% | 6.04% | 12.53% |
-| MLP | 1.7% | satellite | 17.04 | -0.64% | -4.16% | -1.22% |
-| ROKU | 1.4% | satellite | 140.27 | -0.66% | 1.55% | 13.52% |
-| RBLX | 1.1% | satellite | 54.31 | -4.22% | -0.12% | 28.4% |
-| COE | 0.9% | satellite | 16.32 | 1.05% | 2.32% | -24.13% |
-| INTC | 0.8% | satellite | 108.06 | -2.11% | -22.61% | -2.0% |
-| ZBAO | 0.6% | satellite | 0.43 | -1.8% | 3.95% | -36.95% |
+| IEF | 10.3% | core | 93.41 | -0.31% | -0.9% | 0.21% |
+| PSBD | 3.3% | satellite | 10.3 | -1.06% | -1.15% | 0.53% |
+| GF | 3.1% | satellite | 11.5 | -2.04% | 0.35% | -2.46% |
+| BBSI | 2.5% | satellite | 37.4 | -1.71% | 5.29% | 11.74% |
+| ROKU | 1.5% | satellite | 140.27 | -0.67% | 1.54% | 13.51% |
+| RBLX | 1.1% | satellite | 54.42 | -4.03% | 0.08% | 28.66% |
+| COE | 0.9% | satellite | 16.45 | 1.88% | 3.16% | -23.51% |
+| INTC | 0.9% | satellite | 106.63 | -3.41% | -23.63% | -3.3% |
+| EOSE | 0.7% | satellite | 4.57 | -3.48% | -22.19% | -31.61% |
+| ZBAO | 0.7% | satellite | 0.44 | 1.13% | 7.05% | -35.07% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.9%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -5.5%
-- Beta vs SPY: 0.595 · posiciones efectivas: 11.7 · HHI: 0.0852
+- Volatilidad anualizada: 10.3%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -5.7%
+- Beta vs SPY: 0.624 · posiciones efectivas: 11.6 · HHI: 0.0859
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -55,8 +55,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **RBLX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BBSI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ZBAO** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **MLP** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
+- **EOSE** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -75,10 +75,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | BBSI | 72 | large_holder | Private Capital Managemen |  | - | - |
 | PSBD | 72 | large_holder | Alaris Master Fund LP |  | - | - |
 | ZBAO | 72 | large_holder | Ningbo Pangu Chuangfu Hef |  | - | - |
-| MLP | 72 | large_holder | TSP Capital Management Gr |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | PLCE | 70 | large_holder | Mithaq Capital SPC |  | - | - |
 | MEC | 70 | large_holder | Allspring Global Investme |  | - | - |
+| SCYX | 70 | large_holder | Federated Hermes, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 743.41 (-0.58% / -0.45% / 0.83%) [2026-07-08]
-- QQQ: 707.32 (-0.3% / -3.95% / -1.11%) [2026-07-08]
-- IWM: 293.4 (-0.94% / -2.35% / 3.52%) [2026-07-08]
-- DIA: 522.24 (-1.18% / -0.03% / 2.9%) [2026-07-08]
-- TLT: 84.21 (-0.41% / -2.2% / -0.12%) [2026-07-08]
-- IEF: 93.44 (-0.27% / -0.86% / 0.25%) [2026-07-08]
-- GLD: 372.67 (-1.28% / 1.16% / -6.19%) [2026-07-08]
-- ^VIX: 17.33 (7.44% / 5.35% / -8.4%) [2026-07-08]
-- BTC-USD: 61914.34 (-2.19% / -1.01% / -1.56%) [2026-07-08]
+- SPY: 742.34 (-0.72% / -0.59% / 0.68%) [2026-07-08]
+- QQQ: 706.49 (-0.41% / -4.06% / -1.23%) [2026-07-08]
+- IWM: 292.74 (-1.16% / -2.57% / 3.28%) [2026-07-08]
+- DIA: 521.31 (-1.35% / -0.21% / 2.72%) [2026-07-08]
+- TLT: 84.14 (-0.49% / -2.28% / -0.21%) [2026-07-08]
+- IEF: 93.41 (-0.31% / -0.9% / 0.21%) [2026-07-08]
+- GLD: 371.12 (-1.69% / 0.74% / -6.58%) [2026-07-08]
+- ^VIX: 17.91 (11.04% / 8.88% / -5.34%) [2026-07-08]
+- BTC-USD: 61955.59 (-2.12% / -0.94% / -1.5%) [2026-07-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -116,25 +116,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.48 (delta 1m: -0.01) [2026-07-06]
 - Curva 10Y-2Y: 0.36 (delta 1m: -0.06) [2026-07-07]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.72 (delta 1m: -0.04) [2026-07-06]
+- High yield spread (OAS): 2.67 (delta 1m: -0.08) [2026-07-07]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.25 (delta 1m: -0.11) [2026-07-07]
 - Dolar broad index: 120.6902 (delta 1m: 1.654) [2026-07-02]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (3)
+**Temas dominantes**: ai (4), stock (4)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] Stocks set to slump while oil surges after Trump says Iran ceasefire is over (2026-07-08)
-- [WDAY] Oil prices rise , and stocks fall worldwide after Trump says ceasefire with Iran is  over (2026-07-08)
 - [ANET] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
 - [MIAX] Miami International Holdings Reports June 2026 Trading Results (2026-07-07)
 - [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Director Sells 8 , 000 Shares of Stock (2026-07-07)
 - [ANET] Here How Arista Networks Is a Major Beneficiary of Big Tech Push to Break Nvidia Grip (2026-07-07)
+- [HPE] Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? (2026-07-06)
 - [ANET] What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks (2026-07-06)
 - [ANET] What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks (2026-07-06)
+- [HPE] Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis (2026-06-30)
 - [YOU] Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel (2026-06-30)
 - [YOU] Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel (2026-06-29)
 
@@ -163,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 605 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 608 registros 30d · ultimo dato 2026-07-08
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-08
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -176,7 +176,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BBSI, COE, GF, GLD, IEF, INTC, MLP, PSBD, QQQ, RBLX, ROKU, SPY, TLT, VFLEX, ZBAO`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
+1. **Universo permitido**: tickers de la cartera candidata (`BBSI, COE, EOSE, GF, GLD, IEF, INTC, PSBD, QQQ, RBLX, ROKU, SPY, TLT, VFLEX, ZBAO`) o de las señales de la seccion 3, siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

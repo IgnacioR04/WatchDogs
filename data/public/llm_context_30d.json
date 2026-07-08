@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-08T14:28:22.986615+00:00",
+  "generated_at": "2026-07-08T14:54:40.400867+00:00",
   "window": {
     "from": "2026-06-08",
     "to": "2026-07-08",
@@ -23,8 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai"
+      "ai",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -1343,7 +1343,7 @@
         "wallet": "0xf5fabdcdc6",
         "username": "palegrit",
         "pnl": 327984.51,
-        "win_rate": 0.8333,
+        "win_rate": 0.8421,
         "volume": 2798645.96,
         "categories": [
           "sports"
@@ -1353,8 +1353,18 @@
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
         "pnl": 417099.08,
-        "win_rate": 0.563,
+        "win_rate": 0.567,
         "volume": 4195067.42,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4cb5a6cf70",
+        "username": "ZizzWizz",
+        "pnl": 43601.77,
+        "win_rate": 0.9231,
+        "volume": 912250.68,
         "categories": [
           "sports"
         ]
@@ -1369,16 +1379,6 @@
           "sports",
           "crypto",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x4cb5a6cf70",
-        "username": "ZizzWizz",
-        "pnl": 43601.77,
-        "win_rate": 0.9167,
-        "volume": 912250.68,
-        "categories": [
-          "sports"
         ]
       },
       {
@@ -1437,24 +1437,6 @@
   },
   "news": [
     {
-      "title": "Stocks set to slump while oil surges after Trump says Iran ceasefire is over",
-      "url": "http://www.cbsnews.com/news/dow-futures-oil-prices-strait-of-hormuz-trump/",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-08"
-    },
-    {
-      "title": "Oil prices rise , and stocks fall worldwide after Trump says ceasefire with Iran is  over  ",
-      "url": "https://toronto.citynews.ca/2026/07/08/oil-prices-jump-more-than-6-after-trump-says-ceasefire-with-iran-is-over/",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-08"
-    },
-    {
       "title": "Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More",
       "url": "https://www.insidermonkey.com/blog/hedge-fund-and-insider-trading-news-ray-dalio-paul-marshall-warren-buffett-jain-global-brevan-howard-lone-pine-capital-liquidia-corp-lqda-arista-networks-inc-anet-and-more-1797469/",
       "ticker": "ANET",
@@ -1487,6 +1469,16 @@
       "date": "2026-07-07"
     },
     {
+      "title": "Dell Is Up 6 % Today : Is It Outperforming Other AI Server Stocks Like Hewlett Packard Enterprise and Super Micro ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-6-today-outperforming-other-155132126.html",
+      "ticker": "HPE",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-06"
+    },
+    {
       "title": "What Makes Arista Networks ( ANET ) One of BlackRock 30 Most Important AI Stocks",
       "url": "https://finance.yahoo.com/technology/ai/articles/makes-arista-networks-anet-one-001910213.html",
       "ticker": "ANET",
@@ -1507,6 +1499,13 @@
       "date": "2026-07-06"
     },
     {
+      "title": "Hewlett Packard ( HPE ) Pricing Power Is Driving its Bullish Thesis",
+      "url": "https://finance.yahoo.com/technology/articles/hewlett-packard-hpe-pricing-power-121454062.html",
+      "ticker": "HPE",
+      "themes": [],
+      "date": "2026-06-30"
+    },
+    {
       "title": "Your Travel Day Super Hero Has Arrived : CLEAR Teams Up with Marvel Animation  X - Men  97  Season 2 to Help Members Win the Day of Travel",
       "url": "http://www.prnewswire.com/news-releases/your-travel-day-super-hero-has-arrived-clear-teams-up-with-marvel-animations-x-men-97-season-2-to-help-members-win-the-day-of-travel-302813541.html",
       "ticker": "YOU",
@@ -1521,7 +1520,7 @@
       "date": "2026-06-29"
     }
   ],
-  "signals_count": 1471,
+  "signals_count": 1474,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
