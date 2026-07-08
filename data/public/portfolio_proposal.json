@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-07T23:30:36+00:00",
+  "generated_at": "2026-07-08T00:32:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7997,
-  "cash": 0.2003,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.12,
     "VFLEX": 0.12,
-    "IEF": 0.1043,
-    "CWK": 0.0184,
-    "TOST": 0.0164,
-    "NWL": 0.0136,
-    "SSTK": 0.0126,
-    "GTM": 0.012,
-    "ADPT": 0.011,
-    "CWBHF": 0.005,
-    "ZSPC": 0.0036,
-    "FIRY": 0.0028
+    "GLD": 0.1195,
+    "IEF": 0.0797,
+    "PSBD": 0.0251,
+    "GF": 0.0233,
+    "MIAX": 0.0138,
+    "ASC": 0.0138,
+    "YOU": 0.0113,
+    "ECHO": 0.0098,
+    "NWL": 0.0093,
+    "HPE": 0.009,
+    "EOSE": 0.0052
   },
   "core": {
     "SPY": 0.182,
@@ -29,85 +29,63 @@
     "GLD": 0.078
   },
   "satellite": {
-    "TOST": 0.0082,
-    "GTM": 0.006,
-    "CWK": 0.0092,
-    "ZSPC": 0.0018,
-    "FIRY": 0.0014,
-    "ADPT": 0.0055,
-    "CWBHF": 0.0025,
-    "NWL": 0.0068,
-    "SSTK": 0.0063,
-    "VFLEX": 0.2322
+    "MIAX": 0.009,
+    "NWL": 0.0061,
+    "EOSE": 0.0034,
+    "HPE": 0.0059,
+    "PSBD": 0.0164,
+    "ASC": 0.009,
+    "VFLEX": 0.2012,
+    "GF": 0.0152,
+    "YOU": 0.0074,
+    "ECHO": 0.0064
   },
   "satellite_rationale": [
     {
-      "ticker": "TOST",
-      "score": 1226.4,
+      "ticker": "MIAX",
+      "score": 670.5,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 20
+      "n_signals": 11
     },
     {
-      "ticker": "GTM",
-      "score": 1018.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 17
-    },
-    {
-      "ticker": "CWK",
-      "score": 358.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
-      "ticker": "ZSPC",
-      "score": 292.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "FIRY",
-      "score": 288.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "ADPT",
-      "score": 273.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 7
-    },
-    {
-      "ticker": "CWBHF",
-      "score": 240.0,
+      "ticker": "NWL",
+      "score": 256.2,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 4
     },
     {
-      "ticker": "NWL",
-      "score": 192.3,
+      "ticker": "EOSE",
+      "score": 245.2,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "HPE",
+      "score": 244.7,
       "sources": [
         "corporate_insider"
+      ],
+      "n_signals": 5
+    },
+    {
+      "ticker": "PSBD",
+      "score": 193.7,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "SSTK",
-      "score": 176.0,
+      "ticker": "ASC",
+      "score": 177.0,
       "sources": [
         "corporate_insider"
       ],
@@ -120,20 +98,44 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "GF",
+      "score": 119.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "YOU",
+      "score": 116.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "ECHO",
+      "score": 112.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0844,
-    "var_95_1d": 0.0081,
-    "cvar_95_1d": 0.0116,
-    "max_drawdown": -0.0693,
-    "beta_spy": 0.527,
-    "hhi": 0.0841,
+    "ann_vol": 0.0968,
+    "var_95_1d": 0.0101,
+    "cvar_95_1d": 0.0129,
+    "max_drawdown": -0.0505,
+    "beta_spy": 0.599,
+    "hhi": 0.0802,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 11.9,
-    "gross_exposure": 0.7997,
-    "days_used": 199
+    "effective_positions": 12.5,
+    "gross_exposure": 0.7998,
+    "days_used": 86
   },
   "risk_gate": {
     "passed": true,
