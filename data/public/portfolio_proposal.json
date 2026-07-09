@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-07-09T13:36:59+00:00",
+  "generated_at": "2026-07-09T15:55:12+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.1163,
+    "BEP": 0.1007,
     "GLD": 0.0933,
     "IEF": 0.0622,
-    "RH": 0.0506,
-    "LQDA": 0.048,
-    "WRBY": 0.0435,
-    "NUVL": 0.0424,
-    "APGE": 0.0336
+    "RSI": 0.0574,
+    "RH": 0.0407,
+    "LQDA": 0.039,
+    "WRBY": 0.0346,
+    "INTC": 0.0317,
+    "APGE": 0.0305
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "APGE": 0.0299,
-    "RH": 0.045,
-    "WRBY": 0.0387,
-    "LQDA": 0.0427,
-    "NUVL": 0.0377,
-    "BEP": 0.1034
+    "APGE": 0.0271,
+    "RH": 0.0362,
+    "RSI": 0.051,
+    "WRBY": 0.0308,
+    "LQDA": 0.0347,
+    "INTC": 0.0282,
+    "BEP": 0.0895
   },
   "satellite_rationale": [
     {
@@ -43,6 +45,14 @@
     },
     {
       "ticker": "RH",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RSI",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -66,10 +76,10 @@
       "n_signals": 1
     },
     {
-      "ticker": "NUVL",
-      "score": 71.8,
+      "ticker": "INTC",
+      "score": 70.7,
       "sources": [
-        "large_holder"
+        "congress"
       ],
       "n_signals": 1
     },
@@ -83,17 +93,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1607,
-    "var_95_1d": 0.0152,
-    "cvar_95_1d": 0.0187,
-    "max_drawdown": -0.0483,
-    "beta_spy": 0.843,
-    "hhi": 0.079,
+    "ann_vol": 0.1529,
+    "var_95_1d": 0.0141,
+    "cvar_95_1d": 0.0182,
+    "max_drawdown": -0.0484,
+    "beta_spy": 0.861,
+    "hhi": 0.0755,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.7,
-    "gross_exposure": 0.8499,
-    "days_used": 84
+    "n_positions": 12,
+    "effective_positions": 13.2,
+    "gross_exposure": 0.8501,
+    "days_used": 105
   },
   "risk_gate": {
     "passed": true,
