@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-07-09T13:14:07+00:00",
+  "generated_at": "2026-07-09T13:36:59+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "BEP": 0.1163,
     "GLD": 0.0933,
-    "FVR": 0.0723,
     "IEF": 0.0622,
-    "EPAM": 0.0397,
-    "RSI": 0.0379,
-    "ROKU": 0.0339,
-    "GLUE": 0.0334,
-    "RBLX": 0.0267,
-    "LQDA": 0.0255,
-    "WRBY": 0.0232,
-    "NUVL": 0.022,
-    "INTC": 0.0199
+    "RH": 0.0506,
+    "LQDA": 0.048,
+    "WRBY": 0.0435,
+    "NUVL": 0.0424,
+    "APGE": 0.0336
   },
   "core": {
     "SPY": 0.1934,
@@ -29,36 +25,24 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FVR": 0.0643,
-    "EPAM": 0.0353,
-    "RSI": 0.0337,
-    "WRBY": 0.0206,
-    "LQDA": 0.0227,
-    "NUVL": 0.0196,
-    "INTC": 0.0177,
-    "ROKU": 0.0301,
-    "RBLX": 0.0237,
-    "GLUE": 0.0297
+    "APGE": 0.0299,
+    "RH": 0.045,
+    "WRBY": 0.0387,
+    "LQDA": 0.0427,
+    "NUVL": 0.0377,
+    "BEP": 0.1034
   },
   "satellite_rationale": [
     {
-      "ticker": "FVR",
-      "score": 141.0,
+      "ticker": "APGE",
+      "score": 211.5,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
-      "ticker": "EPAM",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "RSI",
+      "ticker": "RH",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -90,50 +74,26 @@
       "n_signals": 1
     },
     {
-      "ticker": "INTC",
-      "score": 70.7,
+      "ticker": "BEP",
+      "score": 58.5,
       "sources": [
         "congress"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "ROKU",
-      "score": 70.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "RBLX",
-      "score": 70.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GLUE",
-      "score": 70.5,
-      "sources": [
-        "large_holder"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1378,
-    "var_95_1d": 0.0138,
-    "cvar_95_1d": 0.0184,
-    "max_drawdown": -0.0598,
-    "beta_spy": 0.789,
-    "hhi": 0.0691,
+    "ann_vol": 0.1607,
+    "var_95_1d": 0.0152,
+    "cvar_95_1d": 0.0187,
+    "max_drawdown": -0.0483,
+    "beta_spy": 0.843,
+    "hhi": 0.079,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.85,
-    "days_used": 76
+    "n_positions": 11,
+    "effective_positions": 12.7,
+    "gross_exposure": 0.8499,
+    "days_used": 84
   },
   "risk_gate": {
     "passed": true,
