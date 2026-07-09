@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-08T22:36:18+00:00 · ventana señales 2026-06-08 -> 2026-07-08_
+_Generado 2026-07-09T00:37:31+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,35 +25,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 745.4 | -0.31% | -0.18% | 1.1% |
 | QQQ | 12.0% | core | 711.44 | 0.28% | -3.39% | -0.54% |
 | TLT | 12.0% | core | 84.36 | -0.22% | -2.02% | 0.06% |
-| IEF | 12.0% | core | 93.51 | -0.2% | -0.79% | 0.32% |
-| GLD | 12.0% | core | 374.45 | -0.81% | 1.65% | -5.74% |
-| VFLEX | 12.0% | satellite | 27.64 | -0.11% | -0.54% | 0.36% |
-| BEP | 3.6% | satellite | 33.38 | 1.37% | -3.89% | -8.65% |
-| ROKU | 2.0% | satellite | 139.25 | -1.39% | 0.8% | 12.69% |
-| LQDA | 1.5% | satellite | 79.47 | -2.17% | -0.33% | 24.37% |
-| NUVL | 1.3% | satellite | 123.8 | 0.02% | 0.24% | 39.9% |
-| COE | 1.2% | satellite | 16.7 | 3.41% | 4.7% | -22.36% |
-| MERC | 1.2% | satellite | 0.65 | -4.78% | -1.89% | -19.06% |
-| APGE | 1.0% | satellite | 133.25 | -0.22% | 0.39% | 60.52% |
-| INTZ | 0.9% | satellite | 0.9 | 3.45% | -3.23% | 23.29% |
-| ZSPC | 0.3% | satellite | 0.15 | -16.61% | -27.14% | 2.11% |
+| GLD | 9.3% | core | 374.45 | -0.81% | 1.65% | -5.74% |
+| BEP | 9.1% | satellite | 33.38 | 1.37% | -3.89% | -8.65% |
+| IEF | 6.2% | core | 93.51 | -0.2% | -0.79% | 0.32% |
+| ROKU | 5.1% | satellite | 139.25 | -1.39% | 0.8% | 12.69% |
+| LQDA | 3.8% | satellite | 79.47 | -2.17% | -0.33% | 24.37% |
+| NUVL | 3.3% | satellite | 123.8 | 0.02% | 0.24% | 39.9% |
+| MERC | 3.1% | satellite | 0.65 | -4.78% | -1.89% | -19.06% |
+| COE | 3.1% | satellite | 16.7 | 3.41% | 4.7% | -22.36% |
+| PALI | 2.9% | satellite | 2.05 | -1.44% | -1.91% | 17.82% |
+| BOLD | 1.6% | satellite | 2.45 | -2.0% | -2.0% | 71.33% |
+| MOVE | 1.5% | satellite | 16.5 | -1.02% | -23.98% | -4.35% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.7%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -5.0%
-- Beta vs SPY: 0.634 · posiciones efectivas: 11.2 · HHI: 0.0889
+- Volatilidad anualizada: 14.1%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.5%
+- Beta vs SPY: 0.746 · posiciones efectivas: 13.8 · HHI: 0.0724
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **COE** · score agregado 470.2 · 7 señales · fuentes: corporate_insider
-- **APGE** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **MERC** · score agregado 170.8 · 3 señales · fuentes: corporate_insider
-- **VFLEX** · score agregado 162.4 · 2 señales · fuentes: corporate_insider
+- **BOLD** · score agregado 170.3 · 3 señales · fuentes: corporate_insider
+- **MOVE** · score agregado 140.4 · 2 señales · fuentes: large_holder
+- **PALI** · score agregado 110.0 · 2 señales · fuentes: corporate_insider
 - **LQDA** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **INTZ** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ZSPC** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ROKU** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -64,13 +62,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| VFLEX | 85 | corporate_insider | PECK MICHAEL D | 2 | $4,999,988 | cluster_buy |
-| FTECX | 82 | corporate_insider | PECK MICHAEL D | 2 | $1,499,990 | cluster_buy |
-| VFLEX | 77 | corporate_insider | CHAD EISENBERG | 2 | $1,500,002 | cluster_buy |
-| FTECX | 74 | corporate_insider | CHAD EISENBERG | 2 | $399,990 | cluster_buy |
+| RSI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | LQDA | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| INTZ | 72 | large_holder | Tego Cyber, Inc. |  | - | - |
 | OVID | 72 | large_holder | Federated Hermes, Inc. |  | - | - |
 | ZSPC | 72 | large_holder | AQR Capital Management, L |  | - | - |
 | NUVL | 72 | large_holder | FMR LLC |  | - | - |
@@ -79,6 +73,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | PLCE | 70 | large_holder | Mithaq Capital SPC |  | - | - |
 | CZWI | 70 | large_holder | Gale Hoese |  | - | - |
+| DOMO | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| BITA | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| FVR | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| VIAV | 70 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -87,11 +85,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | AESI | 64 | congress | Chip Roy | $250,000 | - |
+| META | 64 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| GE | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -108,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.51 (-0.2% / -0.79% / 0.32%) [2026-07-08]
 - GLD: 374.45 (-0.81% / 1.65% / -5.74%) [2026-07-08]
 - ^VIX: 16.9 (4.77% / 2.74% / -10.68%) [2026-07-08]
-- BTC-USD: 62208.11 (-1.72% / -0.54% / -1.09%) [2026-07-08]
+- BTC-USD: 62178.1 (-1.77% / -0.59% / -1.14%) [2026-07-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,45 +121,43 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), ai (6), leadership (1)
+**Temas dominantes**: stock (4), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SPOT] Palo Alto Networks ( NASDAQ : PANW ) Director Sells 700 Shares (2026-07-08)
-- [AIP] Arteris ( NASDAQ : AIP ) CEO Sells 125 , 976 Shares of Stock (2026-07-08)
-- [AIP] Bayview Legacy , Llc Sells 125 , 976 Shares of Arteris ( NASDAQ : AIP ) Stock (2026-07-08)
-- [AIP] Arteris Announces Collaboration with IC - Link by imec to Accelerate Next - Gen AI and HPC Silicon (2026-07-08)
-- [AIP] Arteris ( NASDAQ : AIP ) Major Shareholder Bayview Legacy , Llc Sells 192 , 686 Shares (2026-07-07)
-- [AIP] Insider Selling : Arteris ( NASDAQ : AIP ) COO Sells $217 , 129 . 22 in Stock (2026-07-07)
-- [AIP] K Charles Janac Sells 192 , 686 Shares of Arteris ( NASDAQ : AIP ) Stock (2026-07-07)
+- [RKLB] Better Space Stock to Buy Before 2026 Runs Out : SpaceX vs . Rocket Lab (2026-07-08)
+- [RKLB] Better Space Stock to Buy Before 2026 Runs Out : SpaceX vs . Rocket Lab (2026-07-08)
+- [RBRK] 2026 - 07 - 08 | Rubrik Security Cloud Launches on the AWS European Sovereign Cloud | NYSE : RBRK (2026-07-08)
+- [RBRK] Rubrik Security Cloud Launches on the AWS European Sovereign Cloud (2026-07-08)
+- [RBRK] Assenagon Asset Management S . A . Sells 389 , 820 Shares of Rubrik , Inc . $RBRK (2026-06-28)
 - [PTCT] PTC Therapeutics ( NASDAQ : PTCT ) Insider Neil Gregory Almstead Sells 23 , 749 Shares of Stock (2026-06-25)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Beck Peter vendio RKLB por $38.7M el 2026-07-07.
 - CEO Huang Jack Jiajia compro COE por $9.3M el 2026-07-02.
-- CEO PECK MICHAEL D compro VFLEX por $5.0M el 2026-07-02.
+- CEO Beck Peter vendio RKLB por $29.2M el 2026-07-08.
 - CEO Huang Jack Jiajia compro COE por $4.8M el 2026-07-01.
+- CEO Beck Peter vendio RKLB por $19.8M el 2026-07-06.
+- 10% owner Globalharvest Holdings Venture Ltd compro AVO por $8.3M el 2026-07-06.
 - CEO Tenev Vladimir vendio HOOD por $13.6M el 2026-07-06.
 - CEO TYLER BRIAN S. vendio MCK por $6.7M el 2026-07-07.
-- CEO Wolf Kurt James vendio PBI por $4.9M el 2026-07-07.
-- CEO PECK MICHAEL D compro FTECX por $1.5M el 2026-07-02.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $138,430 · win rate 97% · categorias: sports
-- Sassy-Bucket · PnL $233,299 · win rate 92% · categorias: sports
-- waterx- · PnL $48,826 · win rate 93% · categorias: crypto, sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $30,311 · win rate 93% · categorias: sports, crypto
-- nbaripped · PnL $23,234 · win rate 94% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $138,425 · win rate 97% · categorias: sports
+- Sassy-Bucket · PnL $254,761 · win rate 92% · categorias: sports
+- waterx- · PnL $48,840 · win rate 93% · categorias: crypto, sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $32,906 · win rate 93% · categorias: sports, crypto
+- Dota2winner · PnL $24,819 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 85 registros 30d · ultimo dato 2026-06-30
-- **sec_insiders**: `ok` · 799 registros 30d · ultimo dato 2026-07-08
+- **congress**: `ok` · 80 registros 30d · ultimo dato 2026-06-30
+- **sec_insiders**: `ok` · 954 registros 30d · ultimo dato 2026-07-08
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-08
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -174,7 +170,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, BEP, COE, GLD, IEF, INTZ, LQDA, MERC, NUVL, QQQ, ROKU, SPY, TLT, VFLEX, ZSPC`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOLD, COE, GLD, IEF, LQDA, MERC, MOVE, NUVL, PALI, QQQ, ROKU, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
