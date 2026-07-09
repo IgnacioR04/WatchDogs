@@ -106,6 +106,10 @@ jobs:
         continue-on-error: true
         run: python -m risk.risk_engine
 
+      - name: Paper trading metrics (equity curve del bot, mark-to-market)
+        continue-on-error: true
+        run: python -m pipelines.build_paper_metrics
+
       - name: Daily context (briefing .md para el LLM)
         continue-on-error: true
         run: python -m pipelines.build_daily_context

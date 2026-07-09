@@ -160,6 +160,32 @@ def validate_response(text: str) -> dict[str, Any]:
     return result
 
 
+def _append_to_ledger(res: dict[str, Any]) -> None:
+    """Añade la cartera aprobada al ledger historico (data/public/paper_ledger.json).
+
+    El ledger es la fuente de verdad del paper trading: cada rebalanceo aprobado
+    queda registrado con su fecha, y build_paper_metrics lo usa para valorar la
+    cartera dia a dia (equity curve, Sharpe, win rate...).
+    """
+    ledger_path = PUBLIC_DIR / "paper_ledger.json"
+    ledger = _load_json("paper_ledger.json", default=[]) or []
+    entry = {
+        "approved_at": res["generated_at"],
+        "weights": res["final_weights"],
+        "verdict_llm": res.get("verdict_llm"),
+        "thesis": res.get("thesis"),
+        "confidence": res.get("confidence"),
+        "n_adjustments": len(res.get("adjustments") or []),
+    }
+    # Idempotencia: si se re-valida la misma respuesta, no duplicar el ciclo.
+    if ledger and ledger[-1].get("weights") == entry["weights"]:
+        ledger[-1] = entry
+    else:
+        ledger.append(entry)
+    ledger_path.write_text(json.dumps(ledger, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  ledger: ciclo #{len(ledger)} registrado en {ledger_path.name}")
+
+
 def run(input_path: Path | None = None) -> Path:
     """Valida la respuesta del LLM. Solo una cartera APROBADA pisa llm_portfolio.json.
 
@@ -175,6 +201,8 @@ def run(input_path: Path | None = None) -> Path:
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     out = OUTPUT_PATH if res.get("approved") else PUBLIC_DIR / "llm_validation_rejected.json"
     out.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
+    if res.get("approved"):
+        _append_to_ledger(res)
 
     estado = "APROBADA (OK)" if res.get("approved") else "RECHAZADA"
     print(f"[validate_llm] cartera {estado} (veredicto LLM: {res.get('verdict_llm')}) -> {out}")

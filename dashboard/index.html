@@ -110,6 +110,7 @@ const FILES = {
   holdings:"institutional_holdings_latest.json", changes:"institutional_changes_latest.json",
   smart:"polymarket_smart_traders.json", whales:"polymarket_whales.json", news:"news_context_30d.json",
   regime:"regime.json", portfolio:"portfolio_proposal.json", risk:"risk_report.json",
+  paper:"paper_trading.json",
 };
 const SRC_COLOR = { corporate_insider:"var(--accent)", congress:"var(--purple)", institutional:"var(--orange)", large_holder:"var(--teal)" };
 const SRC_LABEL = { corporate_insider:"Insiders", congress:"Congreso", institutional:"Fondos 13F", large_holder:"13D/13G" };
@@ -452,7 +453,87 @@ function CommandCenter({ d }){
   </>);
 }
 
-const TABS=[["command","🎯 Cartera"],["analysis","💡 Ideas"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
+// ============ PAPER TRADING (equity curve + metricas del bot) ============
+function EquityChart({ curve }){
+  const [hover,setHover]=useState(null);
+  const pts=(curve||[]).filter(p=>p.equity!=null);
+  if(pts.length<2) return (<div className="neu" style={{padding:"28px 0",textAlign:"center"}}>Aún no hay suficientes días de mercado para dibujar la curva.<br/>Aparecerá automáticamente según pasen los cierres diarios.</div>);
+  const W=720,H=240,PL=44,PR=64,PT=12,PB=26;
+  const vals=[]; pts.forEach(p=>{ vals.push(p.equity); if(p.spy!=null)vals.push(p.spy); });
+  let lo=Math.min(...vals),hi=Math.max(...vals); const pad=Math.max((hi-lo)*0.08,0.3); lo-=pad; hi+=pad;
+  const X=i=>PL+(i/(pts.length-1))*(W-PL-PR), Y=v=>PT+(1-(v-lo)/(hi-lo))*(H-PT-PB);
+  const path=k=>pts.map((p,i)=>(p[k]==null?"":(i===0||pts[i-1][k]==null?"M":"L")+X(i).toFixed(1)+" "+Y(p[k]).toFixed(1))).join(" ");
+  const gridY=[0,1,2,3].map(g=>lo+(hi-lo)*g/3);
+  const onMove=e=>{ const r=e.currentTarget.getBoundingClientRect(); const x=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0,Math.min(pts.length-1,Math.round((x-PL)/(W-PL-PR)*(pts.length-1)))); setHover(i); };
+  const h=hover!=null?pts[hover]:null;
+  const last=pts[pts.length-1];
+  return (<div style={{position:"relative"}}>
+    <div style={{display:"flex",gap:14,fontSize:11.5,marginBottom:6,color:"var(--text-dim)"}}>
+      <span><span style={{display:"inline-block",width:14,height:2,background:"var(--accent)",verticalAlign:"middle",marginRight:5}}></span>Cartera</span>
+      <span><span style={{display:"inline-block",width:14,height:0,borderTop:"2px dashed var(--text-faint)",verticalAlign:"middle",marginRight:5}}></span>SPY (base 100)</span>
+    </div>
+    <svg viewBox={"0 0 "+W+" "+H} style={{width:"100%",height:"auto",display:"block",cursor:"crosshair"}} onMouseMove={onMove} onMouseLeave={()=>setHover(null)}>
+      {gridY.map((v,i)=>(<g key={i}><line x1={PL} x2={W-PR} y1={Y(v)} y2={Y(v)} stroke="var(--border-soft)" strokeWidth="1"/><text x={PL-6} y={Y(v)+3.5} textAnchor="end" fontSize="10" fill="var(--text-faint)">{v.toFixed(1)}</text></g>))}
+      <text x={PL} y={H-8} fontSize="10" fill="var(--text-faint)">{pts[0].date}</text>
+      <text x={W-PR} y={H-8} textAnchor="end" fontSize="10" fill="var(--text-faint)">{last.date}</text>
+      <path d={path("spy")} fill="none" stroke="var(--text-faint)" strokeWidth="2" strokeDasharray="5 4"/>
+      <path d={path("equity")} fill="none" stroke="var(--accent)" strokeWidth="2"/>
+      <text x={W-PR+6} y={Y(last.equity)+3.5} fontSize="10.5" fontWeight="700" fill="var(--accent)">{last.equity.toFixed(1)}</text>
+      {last.spy!=null&&<text x={W-PR+6} y={Y(last.spy)+(Math.abs(Y(last.spy)-Y(last.equity))<12?14:3.5)} fontSize="10.5" fill="var(--text-faint)">{last.spy.toFixed(1)}</text>}
+      {h&&(<g><line x1={X(hover)} x2={X(hover)} y1={PT} y2={H-PB} stroke="var(--text-faint)" strokeWidth="1" strokeDasharray="3 3"/>
+        <circle cx={X(hover)} cy={Y(h.equity)} r="4" fill="var(--accent)" stroke="var(--bg)" strokeWidth="2"/>
+        {h.spy!=null&&<circle cx={X(hover)} cy={Y(h.spy)} r="4" fill="var(--text-faint)" stroke="var(--bg)" strokeWidth="2"/>}</g>)}
+    </svg>
+    {h&&(<div style={{position:"absolute",top:8,left:X(hover)>W/2?PL+10:undefined,right:X(hover)>W/2?undefined:PR+10,background:"var(--card)",border:"1px solid var(--border)",borderRadius:8,padding:"6px 10px",fontSize:11.5,pointerEvents:"none"}}>
+      <b>{h.date}</b><br/>Cartera: <b className="mono">{h.equity.toFixed(2)} €</b> <span className={h.daily_ret>=0?"pos":"neg"}>({(h.daily_ret*100).toFixed(2)}% día)</span>{h.spy!=null&&<><br/>SPY: <span className="mono">{h.spy.toFixed(2)}</span></>}
+    </div>)}
+  </div>);
+}
+function PaperTrading({ d }){
+  const pt=d.paper;
+  if(!pt||!pt.n_cycles) return (<div className="loading">Aún no hay ciclos de paper trading aprobados. El primer ciclo aparecerá cuando el gestor LLM apruebe una cartera.</div>);
+  const m=pt.metrics||{}; const few=(m.n_days||0)<20;
+  const posRows=Object.entries(pt.positions||{}).map(([t,p])=>({ticker:t,...p}));
+  const totalVal=m.equity_eur!=null?m.equity_eur:pt.budget_eur;
+  const retColor=v=>v==null?"var(--text)":(v>=0?"var(--green)":"var(--red)");
+  const pctS=(v,dp=2)=>v==null?"-":((v>=0?"+":"")+(v*100).toFixed(dp)+"%");
+  return (<>
+    {few&&<div className="card" style={{marginBottom:14,borderColor:"var(--yellow)",fontSize:12,color:"var(--text-dim)"}}>⏳ Solo {m.n_days||0} día(s) de mercado desde el arranque ({pt.cycles&&pt.cycles[0]&&pt.cycles[0].approved_at&&pt.cycles[0].approved_at.slice(0,10)}). Las métricas anualizadas (Sharpe, vol) necesitan ~20 días para ser significativas.</div>}
+    <div className="grid g4" style={{marginBottom:14}}>
+      <Kpi label="Valor cartera" value={fmtNum(totalVal,2)+" €"} foot={"retorno total "+pctS(m.total_return)} color={retColor(m.total_return)}/>
+      <Kpi label="vs SPY" value={pctS(m.excess_return)} foot={"SPY "+pctS(m.spy_return)+" mismo periodo"} color={retColor(m.excess_return)}/>
+      <Kpi label="Sharpe" value={m.sharpe!=null?m.sharpe:"-"} foot={"sortino "+(m.sortino!=null?m.sortino:"-")+" · vol "+(m.ann_vol!=null?(m.ann_vol*100).toFixed(1)+"%":"-")} color="var(--teal)"/>
+      <Kpi label="Max drawdown" value={m.max_drawdown!=null?pctS(m.max_drawdown):"-"} foot={"win rate diario "+(m.win_rate_days!=null?(m.win_rate_days*100).toFixed(0)+"%":"-")} color="var(--red)"/>
+    </div>
+    <div className="card" style={{marginBottom:14}}>
+      <h3>Equity curve <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>base {fmtNum(pt.budget_eur)} € · mejor día {pctS(m.best_day)} · peor día {pctS(m.worst_day)}</span></h3>
+      <EquityChart curve={pt.equity_curve}/>
+    </div>
+    <div className="grid g-2-1">
+      <div className="card">
+        <h3>Posiciones actuales <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>P&L desde la entrada de cada posición</span></h3>
+        <SortableTable rows={posRows} initialSort={{key:"weight",dir:"desc"}} columns={[
+          {key:"ticker",label:"Ticker",render:r=><b className="mono">{r.ticker}</b>},
+          {key:"weight",label:"Peso",numeric:true,render:r=>pctf(r.weight)},
+          {key:"entry_date",label:"Entrada",render:r=>r.entry_date||<span className="neu">hoy/pdte.</span>},
+          {key:"ret_since_entry",label:"P&L",numeric:true,render:r=>r.ret_since_entry!=null?<b className={r.ret_since_entry>=0?"pos":"neg"}>{pctS(r.ret_since_entry)}</b>:"-"},
+          {key:"value_eur",label:"Valor",numeric:true,render:r=>r.value_eur!=null?<span className="mono">{fmtNum(r.value_eur,2)} €</span>:"-"},
+        ]}/>
+        <div className="neu" style={{marginTop:8,fontSize:11}}>Efectivo: <b>{pctf(1-posRows.reduce((a,r)=>a+(r.weight||0),0))}</b></div>
+      </div>
+      <div className="card">
+        <h3>Historial de ciclos <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>{pt.n_cycles} rebalanceos aprobados</span></h3>
+        {(pt.cycles||[]).slice().reverse().map(c=>(<details key={c.cycle} style={{marginBottom:6}}>
+          <summary><b>#{c.cycle}</b> · {c.approved_at&&c.approved_at.slice(0,16).replace("T"," ")} · <span className="pill">{c.verdict_llm}</span> {c.n_positions} pos · {pctf(c.invested)} invertido · conf {c.confidence!=null?(c.confidence*100).toFixed(0)+"%":"-"}</summary>
+          <div style={{marginTop:6,fontSize:12,color:"var(--text-dim)"}}>{c.thesis||"—"}</div>
+        </details>))}
+      </div>
+    </div>
+  </>);
+}
+
+const TABS=[["command","🎯 Cartera"],["paper","📈 Paper"],["analysis","💡 Ideas"],["movements","Top Movements"],["signals","Signals"],["congress","Congress"],["insiders","Insiders"],["institutions","13F"],["holders","13D/13G"],["smart","PM Smart"],["whales","PM Whales"],["ticker","Ticker Intel"],["quality","Data Quality"]];
 function App() {
   const [d,setD]=useState({}),[err,setErr]=useState(null),[tab,setTab]=useState("command"),[updated,setUpdated]=useState(null);
   const load=useCallback(async()=>{ setErr(null); try{
@@ -471,6 +552,7 @@ function App() {
     <div className="container">
       <div className="tabs">{TABS.map(([k,l])=>(<button key={k} className={"tab "+(tab===k?"active":"")} onClick={()=>setTab(k)}>{l}</button>))}</div>
       {tab==="command"&&<CommandCenter d={d}/>}
+      {tab==="paper"&&<PaperTrading d={d}/>}
       {tab==="analysis"&&<Analysis d={d}/>}
       {tab==="movements"&&<Movements d={d}/>}
       {tab==="signals"&&<Signals d={d}/>}
