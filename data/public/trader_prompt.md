@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-09T20:24:21+00:00 -->
+<!-- trader_prompt.md generado 2026-07-09T22:03:26+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T20:24:21+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-09T22:03:26+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,10 +241,10 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.86)
+- Volatilidad: `normal` (VIX 15.84)
 - Tendencia: `bull` (SPY 751.71 · MA50 739.0 · MA200 690.63 · dist MA200: 8.84%)
 - Credito: `tight` (HY spread 2.7)
-- Tipos: `flat` (curva 10y-2y 0.35)
+- Tipos: `flat` (curva 10y-2y 0.38)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
@@ -257,26 +257,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 751.71 | 0.85% | 0.8% | 2.25% |
 | QQQ | 12.0% | core | 723.28 | 1.66% | -0.26% | 2.3% |
 | TLT | 12.0% | core | 84.49 | 0.15% | -1.2% | -0.37% |
-| BEP | 12.0% | satellite | 32.98 | -1.2% | -4.04% | -9.54% |
+| BEP | 11.3% | satellite | 32.98 | -1.2% | -4.04% | -9.54% |
 | GLD | 9.3% | core | 378.18 | 1.0% | 2.05% | -3.22% |
+| AVO | 7.0% | satellite | 13.35 | -1.11% | 7.32% | 22.82% |
 | IEF | 6.2% | core | 93.71 | 0.21% | -0.34% | 0.26% |
-| RH | 5.3% | satellite | 168.33 | 3.53% | 2.61% | 12.15% |
-| WRBY | 4.5% | satellite | 29.32 | 5.96% | -0.17% | 18.13% |
-| NUVL | 4.4% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
-| INTC | 3.8% | satellite | 112.54 | 2.09% | -11.4% | 4.28% |
-| APGE | 3.5% | satellite | 133.57 | 0.24% | 0.6% | 57.14% |
+| WRBY | 4.2% | satellite | 29.32 | 5.96% | -0.17% | 18.13% |
+| NUVL | 4.1% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
+| INTC | 3.5% | satellite | 112.54 | 2.09% | -11.4% | 4.28% |
+| APGE | 3.3% | satellite | 133.57 | 0.24% | 0.6% | 57.14% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 17.0%
-- VaR 95% 1d: 1.6% · CVaR 95% 1d: 2.0%
+- Volatilidad anualizada: 15.4%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
 - Max drawdown historico: -4.7%
-- Beta vs SPY: 0.925 · posiciones efectivas: 12.6 · HHI: 0.0796
+- Beta vs SPY: 0.809 · posiciones efectivas: 12.6 · HHI: 0.0793
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **APGE** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **RH** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **AVO** · score agregado 206.1 · 3 señales · fuentes: corporate_insider, large_holder
 - **WRBY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
@@ -288,21 +288,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| EWSB | 84 | corporate_insider | Schmalz Charles D | 5 | $591,410 | cluster_buy |
 | BBASX | 81 | corporate_insider | AMG New York Holdings Cor | 2 | $1,826,012 | cluster_buy |
+| EWSB | 80 | corporate_insider | Schmalz Charles D | 5 | $85,000 | cluster_buy |
+| EWSB | 80 | corporate_insider | Mangold James E | 5 | $399,500 | cluster_buy |
+| EWSB | 80 | corporate_insider | Schneider Kory J | 5 | $328,600 | cluster_buy |
+| EWSB | 78 | corporate_insider | Schneider Kory J | 5 | $150,400 | cluster_buy |
 | BBASX | 78 | corporate_insider | BROWN BROTHERS HARRIMAN C | 2 | $456,503 | cluster_buy |
+| EWSB | 76 | corporate_insider | Vander Loop Kailee | 5 | $76,400 | cluster_buy |
+| EWSB | 76 | corporate_insider | Vander Loop Kailee | 5 | $60,400 | cluster_buy |
 | TSM | 76 | corporate_insider | Wei Che-Chia | 31 | $11,187 | cluster_buy,small_amount |
-| RH | 72 | large_holder | Gary G. Friedman |  | - | - |
+| EWSB | 73 | corporate_insider | Vander Loop Kailee | 5 | $15,000 | cluster_buy,small_amount |
 | RSI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | WRBY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | OVID | 72 | large_holder | Federated Hermes, Inc. |  | - | - |
-| NUVL | 72 | large_holder | FMR LLC |  | - | - |
-| CYTK | 72 | large_holder | FMR LLC |  | - | - |
-| TSM | 71 | corporate_insider | Huang Jen-Chau | 31 | $2,145 | cluster_buy,small_amount |
-| TSM | 71 | corporate_insider | Chin Yung-Pei | 31 | $5,287 | cluster_buy,small_amount |
-| TSM | 71 | corporate_insider | Mii Yuh-Jier | 31 | $5,210 | cluster_buy,small_amount |
-| INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| MAAS | 70 | large_holder | Golden Brighter Limited |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -326,55 +326,55 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - SPY: 751.71 (0.85% / 0.8% / 2.25%) [2026-07-09]
 - QQQ: 723.28 (1.66% / -0.26% / 2.3%) [2026-07-09]
-- IWM: 297.27 (1.29% / -0.68% / 4.55%) [2026-07-09]
+- IWM: 297.24 (1.28% / -0.69% / 4.54%) [2026-07-09]
 - DIA: 524.19 (0.27% / 0.34% / 3.18%) [2026-07-09]
 - TLT: 84.49 (0.15% / -1.2% / -0.37%) [2026-07-09]
 - IEF: 93.71 (0.21% / -0.34% / 0.26%) [2026-07-09]
 - GLD: 378.18 (1.0% / 2.05% / -3.22%) [2026-07-09]
-- ^VIX: 15.86 (-6.15% / -4.4% / -20.18%) [2026-07-09]
-- BTC-USD: 63188.17 (1.49% / 0.16% / -0.56%) [2026-07-09]
+- ^VIX: 15.84 (-6.27% / -4.52% / -20.28%) [2026-07-09]
+- BTC-USD: 63187.4 (1.49% / 0.16% / -0.56%) [2026-07-09]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.21 (delta 1m: 0.04) [2026-07-08]
 - Treasury 10Y yield: 4.56 (delta 1m: 0.01) [2026-07-08]
-- Curva 10Y-2Y: 0.35 (delta 1m: -0.03) [2026-07-08]
+- Curva 10Y-2Y: 0.38 (delta 1m: -0.03) [2026-07-09]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
 - High yield spread (OAS): 2.7 (delta 1m: -0.08) [2026-07-08]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
-- Breakeven inflacion 10Y: 2.25 (delta 1m: -0.11) [2026-07-08]
+- Breakeven inflacion 10Y: 2.23 (delta 1m: -0.12) [2026-07-09]
 - Dolar broad index: 120.6902 (delta 1m: 1.654) [2026-07-02]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), merger (1), leadership (1)
+**Temas dominantes**: stock (4), regulatory (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
-- [RKLB] Rocket Lab Shares Climb as Wall Street Weighs $8 Billion Iridium Deal , $3 . 6 Billion Bridge Loan - Rocket (2026-07-09)
 - [CRWV] Jim Cramer on CoreWeave :  I Think It One of the Stronger Players in the Neocloud Space (2026-07-09)
-- [RKLB] Why Rocket Lab Stock Is Plummeting Today (2026-07-09)
+- [AXON] Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB (2026-07-09)
+- [OMDA] Omada Health ( NASDAQ : OMDA ) CFO Sells 23 , 263 Shares of Stock (2026-07-09)
 - [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
+- [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Beck Peter vendio RKLB por $38.7M el 2026-07-07.
+- 10% owner Globalharvest Holdings Venture Ltd compro AVO por $9.2M el 2026-07-08 [senal en multiples fuentes].
 - CEO Beck Peter vendio RKLB por $29.2M el 2026-07-08.
+- 10% owner Globalharvest Holdings Venture Ltd compro AVO por $6.6M el 2026-07-07 [senal en multiples fuentes].
 - CEO Beck Peter vendio RKLB por $19.8M el 2026-07-06.
 - CEO Wohlin Hakan compro VII por $3.0M el 2026-07-06.
-- CEO FRIEDMAN GARY G vendio RH por $3.9M el 2026-07-08 [senal en multiples fuentes].
 - CEO Tenev Vladimir vendio HOOD por $13.6M el 2026-07-06.
-- CEO FRIEDMAN GARY G vendio RH por $6.6M el 2026-07-06 [senal en multiples fuentes].
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $114,844 · win rate 99% · categorias: sports, crypto, politics
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $128,678 · win rate 97% · categorias: sports
-- SemyonMarmeladov · PnL $95,874 · win rate 88% · categorias: sports, economy, politics
-- hi774c · PnL $53,295 · win rate 83% · categorias: sports
-- Gourmet1 · PnL $106,387 · win rate 89% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $147,859 · win rate 97% · categorias: sports
+- Allezpapa · PnL $102,609 · win rate 99% · categorias: sports
+- comon119 · PnL $99,209 · win rate 99% · categorias: sports, crypto, politics
+- BreakTheBank · PnL $231,242 · win rate 88% · categorias: sports
+- SemyonMarmeladov · PnL $106,391 · win rate 88% · categorias: sports, economy, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,7 +382,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 83 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 961 registros 30d · ultimo dato 2026-07-09
+- **sec_insiders**: `ok` · 941 registros 30d · ultimo dato 2026-07-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-09
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -395,7 +395,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, BEP, GLD, IEF, INTC, NUVL, QQQ, RH, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, IEF, INTC, NUVL, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
