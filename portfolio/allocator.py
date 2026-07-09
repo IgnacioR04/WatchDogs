@@ -26,10 +26,48 @@ from portfolio.optimizer import cap_weights, inverse_vol
 from risk.risk_engine import RiskLimits, compute_metrics, load_returns_matrix, validate
 
 PUBLIC_DIR = Path(__file__).resolve().parents[1] / "data" / "public"
+HISTORY_DIR = Path(os.environ.get("WATCHDOG_HISTORY_DIR", r"G:/Mi unidad/WATCHDOG_HISTORY"))
+PRICES_DIR = HISTORY_DIR / "normalized" / "prices"
 OUTPUT_PATH = PUBLIC_DIR / "portfolio_proposal.json"
 
 # Flags de señal que descalifican un ticker como satellite (baja calidad).
 _BAD_FLAGS = {"no_ticker", "low_ticker_confidence", "small_amount"}
+
+# Filtro de liquidez: en papel se ejecuta al cierre oficial, pero un ticker
+# iliquido tiene spreads reales que ese precio no refleja. Precio minimo y
+# volumen medio en dolares minimo (20 sesiones) para entrar como satellite.
+MIN_PRICE = 5.0
+MIN_DOLLAR_VOLUME = 2_000_000.0
+
+
+def liquidity_ok(ticker: str) -> bool:
+    """True si el ticker pasa el filtro de liquidez (precio y volumen en $).
+
+    Lee Close y Volume de los parquet del history. Sin datos suficientes
+    devuelve False (sin liquidez demostrable no se opera).
+    """
+    import pandas as pd
+    safe = ticker.replace("^", "IDX_").replace("-", "_").replace("/", "_").replace("=", "_")
+    base = PRICES_DIR / f"symbol={safe}" / "timeframe=1d"
+    if not base.exists():
+        return False
+    frames = []
+    for f in sorted(base.rglob("*.parquet"))[-2:]:
+        try:
+            df = pd.read_parquet(f)
+            if {"Close", "Volume"} <= set(df.columns):
+                frames.append(df[["Close", "Volume"]])
+        except Exception:
+            continue
+    if not frames:
+        return False
+    df = pd.concat(frames).dropna().sort_index().tail(20)
+    if len(df) < 5:
+        return False
+    if float(df["Close"].iloc[-1]) < MIN_PRICE:
+        return False
+    dollar_vol = (df["Close"] * df["Volume"]).mean()
+    return float(dollar_vol) >= MIN_DOLLAR_VOLUME
 
 
 def _load(name: str) -> Any:
@@ -64,7 +102,9 @@ def select_satellite(max_n: int, available: set[str]) -> list[dict[str, Any]]:
         e["score"] += s.get("signal_score") or s.get("importance_score") or 0
         e["sources"].add(s.get("source_type", ""))
         e["n"] += 1
-    ranked = sorted(agg.values(), key=lambda x: x["score"], reverse=True)[:max_n]
+    # Filtro de liquidez: fuera penny stocks y tickers sin volumen real.
+    liquid = [e for e in agg.values() if liquidity_ok(e["ticker"])]
+    ranked = sorted(liquid, key=lambda x: x["score"], reverse=True)[:max_n]
     return [{"ticker": e["ticker"], "score": round(e["score"], 1),
              "sources": sorted(e["sources"]), "n_signals": e["n"]} for e in ranked]
 

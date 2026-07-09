@@ -148,6 +148,16 @@ def validate_response(text: str) -> dict[str, Any]:
     no_price = sorted(t for t in weights if t not in returns.columns)
     if no_price:
         hard.append(f"sin datos de precio (imposible medir riesgo): {', '.join(no_price)}")
+    # Regla dura de liquidez para posiciones NUEVAS (las ya abiertas se pueden
+    # mantener): precio >= $5 y volumen medio >= $2M. En papel se ejecuta al
+    # cierre oficial; sin liquidez real ese precio es una ficcion.
+    from portfolio.allocator import liquidity_ok
+    held = _held_tickers()
+    illiquid = sorted(t for t in weights
+                      if t not in held and t in returns.columns and not liquidity_ok(t))
+    if illiquid:
+        hard.append("liquidez insuficiente para abrir posicion "
+                    f"(precio < $5 o volumen medio < $2M/dia): {', '.join(illiquid)}")
     metrics = compute_metrics(weights, returns)
     limits = RiskLimits(max_position=profile.max_position, max_gross_exposure=1.0)
     gate = validate(weights, limits, regime_budget=budget, metrics=metrics)

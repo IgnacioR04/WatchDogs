@@ -39,6 +39,8 @@ CORE_UNIVERSE = [
     "TLT", "IEF", "SHY", "HYG", "LQD", "AGG",
     # Volatilidad / refugio / commodities / dolar / cripto
     "^VIX", "GLD", "SLV", "USO", "UUP", "BTC-USD", "ETH-USD",
+    # Divisa: EURUSD para valorar la cartera paper en euros reales
+    "EURUSD=X",
 ]
 
 
@@ -60,8 +62,8 @@ def tickers_from_signals(limit: int = 80) -> list[str]:
 
 
 def _safe_symbol(symbol: str) -> str:
-    """Nombre de fichero seguro para un simbolo (quita ^, reemplaza - y /)."""
-    return symbol.replace("^", "IDX_").replace("-", "_").replace("/", "_")
+    """Nombre de fichero seguro para un simbolo (quita ^, reemplaza -, / y =)."""
+    return symbol.replace("^", "IDX_").replace("-", "_").replace("/", "_").replace("=", "_")
 
 
 def archive_symbol(symbol: str, df: pd.DataFrame) -> int:

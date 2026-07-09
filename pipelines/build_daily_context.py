@@ -340,8 +340,13 @@ def _sec_instructions(prop: dict, regime: dict) -> list[str]:
         f"(el resto es cash). Estamos en regimen `{regime.get('risk_state', 'n/d')}`.",
         f"3. **Peso maximo por posicion**: <= **{_pct(profile.max_position)}**.",
         "4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.",
-        "5. **Justifica cada cambio** con una razon concreta basada en los datos de "
-        "este briefing (señal, regimen, riesgo, precio). Nada de datos externos.",
+        "5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= "
+        "$2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; "
+        "abrir una nueva iliquida no.",
+        "6. **Justifica cada cambio** con una razon concreta basada en los datos de "
+        "este briefing (señal, regimen, riesgo, precio). Nada de datos externos. "
+        "Recuerda: cada rebalanceo paga 0.15% del importe operado (se descuenta "
+        "del P&L real).",
         "",
         "### Que quiero de ti",
         "",

@@ -82,8 +82,12 @@ justificando por qué "esta vez sí": simplemente no lo hagas.
 3. **Peso máximo por posición**: ≤ el máximo del perfil (viene indicado en el
    briefing; típico 8-15 %). Nada de concentrar todo en una idea.
 4. **Sin cortos, sin apalancamiento**: todos los pesos ≥ 0; suma ≤ 100 %.
-5. **Coste de rotación**: cada compra/venta tiene fricción implícita. No rotes
-   por rotar (ver §5).
+5. **Liquidez mínima para posiciones NUEVAS**: precio ≥ $5 y volumen medio
+   ≥ $2M/día. Mantener una posición ya abierta que se volvió ilíquida sí es
+   legal; abrir una nueva ilíquida no.
+6. **Coste de rotación REAL**: cada rebalanceo paga un 0.15 % del importe
+   operado (comisión + spread). El motor de P&L lo descuenta de verdad de tu
+   equity — cada rotación empieza en negativo. No rotes por rotar (ver §5).
 
 ---
 

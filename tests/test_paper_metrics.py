@@ -28,6 +28,8 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(pm, "PUBLIC_DIR", public)
     monkeypatch.setattr(pm, "LEDGER_PATH", public / "paper_ledger.json")
     monkeypatch.setattr(pm, "OUTPUT_PATH", public / "paper_trading.json")
+    # Costes a 0 en los tests de logica de retornos (hay tests dedicados de costes).
+    monkeypatch.setattr(pm, "COST_PER_SIDE", 0.0)
     return prices, public
 
 
@@ -86,6 +88,56 @@ def test_rebalanceo_usa_pesos_del_ultimo_ciclo(env):
     assert m["equity_eur"] == pytest.approx(120.0, abs=0.01)
     assert out["n_cycles"] == 2
     assert set(out["positions"].keys()) == {"BBB"}
+
+
+def test_costes_de_rotacion_se_descuentan(env, monkeypatch):
+    """La compra inicial y cada rebalanceo pagan COST_PER_SIDE sobre el turnover."""
+    monkeypatch.setattr(pm, "COST_PER_SIDE", 0.0015)
+    prices, public = env
+    flat = {"2026-07-06": 100, "2026-07-07": 100, "2026-07-08": 100,
+            "2026-07-09": 100, "2026-07-10": 100}
+    _write_prices(prices, "SPY", flat)
+    _write_prices(prices, "AAA", {k: 10 for k in flat})
+    ledger = [{"approved_at": "2026-07-07T15:00:00+00:00", "weights": {"AAA": 1.0}}]
+    (public / "paper_ledger.json").write_text(json.dumps(ledger), encoding="utf-8")
+
+    out = pm.build()
+    m = out["metrics"]
+    # compra inicial: turnover 1.0 -> coste 100 * 1.0 * 0.0015 = 0.15 EUR
+    assert m["costs_eur"] == pytest.approx(0.15, abs=1e-3)
+    assert m["turnover_total"] == pytest.approx(1.0, abs=1e-6)
+    # activos planos: la equity solo baja por el coste
+    assert m["equity_eur"] == pytest.approx(99.85, abs=0.01)
+    # el ciclo registra su turnover y coste
+    assert out["cycles"][0]["turnover"] == pytest.approx(1.0, abs=1e-6)
+
+
+def test_fx_convierte_activos_usd_a_eur(env):
+    """Si el dolar se fortalece (EURUSD baja), los activos USD valen mas en EUR."""
+    prices, public = env
+    flat = {"2026-07-06": 100, "2026-07-07": 100, "2026-07-08": 100,
+            "2026-07-09": 100, "2026-07-10": 100}
+    _write_prices(prices, "SPY", flat)
+    _write_prices(prices, "AAA", {k: 10 for k in flat})  # activo plano en USD
+    # EURUSD cae de 1.00 a 0.95 el dia 9 (dolar +5.26% en EUR)
+    _write_prices(prices, "EURUSD_X", {"2026-07-06": 1.0, "2026-07-07": 1.0,
+                                       "2026-07-08": 1.0, "2026-07-09": 0.95, "2026-07-10": 0.95})
+    ledger = [{"approved_at": "2026-07-07T15:00:00+00:00", "weights": {"AAA": 1.0}}]
+    (public / "paper_ledger.json").write_text(json.dumps(ledger), encoding="utf-8")
+
+    out = pm.build()
+    # activo plano en USD pero +5.26% en EUR por el movimiento de divisa
+    assert out["metrics"]["total_return"] == pytest.approx(1 / 0.95 - 1, abs=1e-3)
+
+
+def test_instrument_type():
+    """Heuristica de operabilidad UE: ETF USA, mutual fund, cripto, accion."""
+    assert pm.instrument_type("SPY") == "etf_us"
+    assert pm.instrument_type("VFLEX") == "fund_us"
+    assert pm.instrument_type("FTECX") == "fund_us"
+    assert pm.instrument_type("BTC-USD") == "crypto"
+    assert pm.instrument_type("AAPL") == "stock"
+    assert pm.instrument_type("GF") == "stock"  # 2 letras, no es fondo
 
 
 def test_benchmark_spy_captura_primer_dia(env):

@@ -507,7 +507,7 @@ function PaperTrading({ d }){
       <Kpi label="Max drawdown" value={m.max_drawdown!=null?pctS(m.max_drawdown):"-"} foot={"win rate diario "+(m.win_rate_days!=null?(m.win_rate_days*100).toFixed(0)+"%":"-")} color="var(--red)"/>
     </div>
     <div className="card" style={{marginBottom:14}}>
-      <h3>Equity curve <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>base {fmtNum(pt.budget_eur)} € · mejor día {pctS(m.best_day)} · peor día {pctS(m.worst_day)}</span></h3>
+      <h3>Equity curve <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>base {fmtNum(pt.budget_eur)} € en EUR (activos USD convertidos con EURUSD) · mejor día {pctS(m.best_day)} · peor día {pctS(m.worst_day)} · costes pagados {m.costs_eur!=null?fmtNum(m.costs_eur,2)+" € ("+fmtNum((m.turnover_total||0)*100,0)+"% turnover · 0.15%/lado)":"-"}</span></h3>
       <EquityChart curve={pt.equity_curve}/>
     </div>
     <div className="grid g-2-1">
@@ -519,13 +519,20 @@ function PaperTrading({ d }){
           {key:"entry_date",label:"Entrada",render:r=>r.entry_date||<span className="neu">hoy/pdte.</span>},
           {key:"ret_since_entry",label:"P&L",numeric:true,render:r=>r.ret_since_entry!=null?<b className={r.ret_since_entry>=0?"pos":"neg"}>{pctS(r.ret_since_entry)}</b>:"-"},
           {key:"value_eur",label:"Valor",numeric:true,render:r=>r.value_eur!=null?<span className="mono">{fmtNum(r.value_eur,2)} €</span>:"-"},
+          {key:"instrument",label:"UE retail",render:r=>{
+            const map={stock:["Acción","var(--green)","✓ operable"],crypto:["Cripto","var(--green)","✓ operable"],
+              etf_us:["ETF USA","var(--yellow)","necesita versión UCITS"],fund_us:["Fondo USA","var(--red)","no accesible retail UE"]};
+            const[label,color,note]=map[r.instrument]||["?","var(--text-dim)",""];
+            return <span className="pill" title={note} style={{color:color,borderColor:color+"55",background:color+"18"}}>{label}</span>;
+          }},
         ]}/>
+        <div className="neu" style={{marginTop:6,fontSize:10.5}}>UE retail: los ETF americanos (SPY, QQQ...) no son comprables por retail europeo sin KID (habría que usar el equivalente UCITS); los mutual funds USA tampoco. Etiqueta informativa: el paper trading los opera igual.</div>
         <div className="neu" style={{marginTop:8,fontSize:11}}>Efectivo: <b>{pctf(1-posRows.reduce((a,r)=>a+(r.weight||0),0))}</b></div>
       </div>
       <div className="card">
         <h3>Historial de ciclos <span style={{fontWeight:400,textTransform:"none",letterSpacing:0,color:"var(--text-faint)"}}>{pt.n_cycles} rebalanceos aprobados</span></h3>
         {(pt.cycles||[]).slice().reverse().map(c=>(<details key={c.cycle} style={{marginBottom:6}}>
-          <summary><b>#{c.cycle}</b> · {c.approved_at&&c.approved_at.slice(0,16).replace("T"," ")} · <span className="pill">{c.verdict_llm}</span> {c.n_positions} pos · {pctf(c.invested)} invertido · conf {c.confidence!=null?(c.confidence*100).toFixed(0)+"%":"-"}</summary>
+          <summary><b>#{c.cycle}</b> · {c.approved_at&&c.approved_at.slice(0,16).replace("T"," ")} · <span className="pill">{c.verdict_llm}</span> {c.n_positions} pos · {pctf(c.invested)} invertido · conf {c.confidence!=null?(c.confidence*100).toFixed(0)+"%":"-"}{c.turnover!=null&&<span className="neu"> · rotó {pctf(c.turnover)} (coste {(c.cost_pct*100).toFixed(3)}%)</span>}</summary>
           <div style={{marginTop:6,fontSize:12,color:"var(--text-dim)"}}>{c.thesis||"—"}</div>
         </details>))}
       </div>
