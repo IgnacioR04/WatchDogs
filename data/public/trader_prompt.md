@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-09T05:24:30+00:00 -->
+<!-- trader_prompt.md generado 2026-07-09T09:01:49+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -228,7 +228,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T05:24:30+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-09T09:01:49+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -237,7 +237,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.9)
+- Volatilidad: `normal` (VIX 16.71)
 - Tendencia: `bull` (SPY 745.4 · MA50 738.24 · MA200 690.16 · dist MA200: 8.0%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -333,8 +333,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.36 (-0.22% / -2.02% / 0.06%) [2026-07-08]
 - IEF: 93.51 (-0.2% / -0.79% / 0.32%) [2026-07-08]
 - GLD: 374.45 (-0.81% / 1.65% / -5.74%) [2026-07-08]
-- ^VIX: 16.9 (4.77% / 2.74% / -10.68%) [2026-07-08]
-- BTC-USD: 62272.0 (-1.62% / -0.44% / -0.99%) [2026-07-09]
+- ^VIX: 16.71 (-1.12% / 0.72% / -15.9%) [2026-07-09]
+- BTC-USD: 62810.46 (0.89% / -0.44% / -1.15%) [2026-07-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,15 +349,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1), leadership (1)
+**Temas dominantes**: stock (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SPOT] D - Link launches two new 5G Wi - Fi 6 mobile hotspots giving fast , reliable Internet wherever you are (2026-07-09)
-- [SPOT] Asian shares climb on chip rally , oil jumps (2026-07-09)
 - [OMDA] Omada Health ( NASDAQ : OMDA ) CFO Sells 23 , 263 Shares of Stock (2026-07-09)
 - [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
-- [PTCT] PTC Therapeutics ( NASDAQ : PTCT ) Insider Neil Gregory Almstead Sells 23 , 749 Shares of Stock (2026-06-25)
+- [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $52,889 · win rate 99% · categorias: sports, crypto, politics
-- SDTrading · PnL $35,621 · win rate 93% · categorias: sports
-- lpcapital1 · PnL $21,958 · win rate 90% · categorias: sports
+- comon119 · PnL $76,837 · win rate 99% · categorias: sports, crypto, politics
+- SDTrading · PnL $35,490 · win rate 93% · categorias: sports
+- lpcapital1 · PnL $22,168 · win rate 90% · categorias: sports
+- hi774c · PnL $26,043 · win rate 83% · categorias: sports
 - 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $89,677 · win rate 74% · categorias: sports
-- ramadamaramadam · PnL $48,114 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
