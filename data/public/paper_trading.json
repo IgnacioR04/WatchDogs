@@ -1,59 +1,81 @@
 {
-  "generated_at": "2026-07-09T12:35:08+00:00",
+  "generated_at": "2026-07-09T13:14:11+00:00",
   "budget_eur": 100.0,
   "n_cycles": 2,
+  "cost_model": {
+    "per_side": 0.0015,
+    "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
+  },
   "metrics": {
-    "n_days": 0
+    "n_days": 0,
+    "costs_eur": 0.0,
+    "turnover_total": 0.0
   },
   "equity_curve": [],
   "positions": {
     "SPY": {
-      "weight": 0.12
+      "weight": 0.12,
+      "instrument": "etf_us"
     },
     "QQQ": {
-      "weight": 0.12
+      "weight": 0.12,
+      "instrument": "etf_us"
     },
     "TLT": {
-      "weight": 0.12
+      "weight": 0.12,
+      "instrument": "etf_us"
     },
     "GLD": {
-      "weight": 0.12
+      "weight": 0.12,
+      "instrument": "etf_us"
     },
     "VFLEX": {
-      "weight": 0.12
+      "weight": 0.12,
+      "instrument": "fund_us"
     },
     "IEF": {
-      "weight": 0.098
+      "weight": 0.098,
+      "instrument": "etf_us"
     },
     "PSBD": {
-      "weight": 0.031
+      "weight": 0.031,
+      "instrument": "stock"
     },
     "GF": {
-      "weight": 0.028
+      "weight": 0.028,
+      "instrument": "stock"
     },
     "COE": {
-      "weight": 0.025
+      "weight": 0.025,
+      "instrument": "stock"
     },
     "MOMO": {
-      "weight": 0.023
+      "weight": 0.023,
+      "instrument": "stock"
     },
     "FVR": {
-      "weight": 0.02
+      "weight": 0.02,
+      "instrument": "stock"
     },
     "ASC": {
-      "weight": 0.017
+      "weight": 0.017,
+      "instrument": "stock"
     },
     "GLUE": {
-      "weight": 0.015
+      "weight": 0.015,
+      "instrument": "stock"
     },
     "EPAM": {
-      "weight": 0.015
+      "weight": 0.015,
+      "instrument": "stock"
     },
     "NWL": {
-      "weight": 0.011
+      "weight": 0.011,
+      "instrument": "stock"
     },
     "HPE": {
-      "weight": 0.011
+      "weight": 0.011,
+      "instrument": "stock"
     }
   },
   "cycles": [
@@ -62,6 +84,8 @@
       "approved_at": "2026-07-08T14:07:47+00:00",
       "n_positions": 13,
       "invested": 0.828,
+      "turnover": 0.828,
+      "cost_pct": 0.00124,
       "verdict_llm": "adjust",
       "thesis": "Régimen risk_on con tendencia alcista y crédito tenso: acepto el core de la candidata (índices + duración + oro, 57.8%) como base estable. En satélites mantengo las ideas con compras de insiders coherentes — VFLEX destaca con cluster de 2 insiders y $6.5M del CEO, y COE con compras del CEO por $14M pese a la caída — pero elimino MIAX y EOSE, cuyas señales de venta de insiders del periodo contradicen su tesis de compra. Exposición final 82.8%, cash 17.2%, dentro del presupuesto del 90%.",
       "confidence": 0.65,
@@ -72,6 +96,8 @@
       "approved_at": "2026-07-08T19:03:16+00:00",
       "n_positions": 16,
       "invested": 0.894,
+      "turnover": 0.066,
+      "cost_pct": 0.0001,
       "verdict_llm": "adjust",
       "thesis": "Regimen risk_on con presupuesto 90% y tendencia alcista intacta: se despliega parte del cash (de 17.2% a 10.6%) hacia los satelites con mayor conviccion cruzada del ciclo (COE, FVR, GLUE, EPAM), manteniendo el core intacto. Las posiciones existentes sin señal nueva (PSBD, MOMO, ASC, NWL, HPE) se mantienen: no hay señales de venta contra ellas y rotarlas sin tesis rota solo añadiria coste de friccion. Exposicion total 89.4%, dentro del presupuesto.",
       "confidence": 0.6,

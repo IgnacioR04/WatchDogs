@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T12:35:08+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-09T13:14:11+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,37 +26,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 711.44 | 0.28% | -3.39% | -0.54% |
 | TLT | 12.0% | core | 84.36 | -0.22% | -2.02% | 0.06% |
 | GLD | 9.3% | core | 374.45 | -0.81% | 1.65% | -5.74% |
-| BEP | 8.8% | satellite | 33.38 | 1.37% | -3.89% | -8.65% |
+| FVR | 7.2% | satellite | ? | ? | ? | ? |
 | IEF | 6.2% | core | 93.51 | -0.2% | -0.79% | 0.32% |
-| LQDA | 3.7% | satellite | 79.47 | -2.17% | -0.33% | 24.37% |
-| WRBY | 3.3% | satellite | 27.67 | -1.32% | -8.8% | 17.69% |
-| NUVL | 3.2% | satellite | 123.8 | 0.02% | 0.24% | 39.9% |
-| MERC | 3.0% | satellite | 0.65 | -4.41% | -1.52% | -18.75% |
-| COE | 3.0% | satellite | 16.7 | 3.41% | 4.7% | -22.36% |
-| PALI | 2.8% | satellite | 2.05 | -1.44% | -1.91% | 17.82% |
-| APGE | 2.6% | satellite | 133.25 | -0.22% | 0.39% | 60.52% |
-| BOLD | 1.6% | satellite | 2.45 | -2.0% | -2.0% | 71.33% |
-| MOVE | 1.5% | satellite | 16.5 | -1.02% | -23.98% | -4.35% |
+| EPAM | 4.0% | satellite | ? | ? | ? | ? |
+| RSI | 3.8% | satellite | ? | ? | ? | ? |
+| ROKU | 3.4% | satellite | ? | ? | ? | ? |
+| GLUE | 3.3% | satellite | ? | ? | ? | ? |
+| RBLX | 2.7% | satellite | ? | ? | ? | ? |
+| LQDA | 2.5% | satellite | 79.47 | -2.17% | -0.33% | 24.37% |
+| WRBY | 2.3% | satellite | 27.67 | -1.32% | -8.8% | 17.69% |
+| NUVL | 2.2% | satellite | 123.8 | 0.02% | 0.24% | 39.9% |
+| INTC | 2.0% | satellite | ? | ? | ? | ? |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.5%
+- Volatilidad anualizada: 13.8%
 - VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -5.5%
-- Beta vs SPY: 0.745 · posiciones efectivas: 14.1 · HHI: 0.0708
+- Max drawdown historico: -6.0%
+- Beta vs SPY: 0.789 · posiciones efectivas: 14.5 · HHI: 0.0691
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **COE** · score agregado 470.2 · 7 señales · fuentes: corporate_insider
-- **APGE** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **MERC** · score agregado 170.8 · 3 señales · fuentes: corporate_insider
-- **BOLD** · score agregado 170.3 · 3 señales · fuentes: corporate_insider
-- **MOVE** · score agregado 140.4 · 2 señales · fuentes: large_holder
-- **PALI** · score agregado 110.0 · 2 señales · fuentes: corporate_insider
+- **FVR** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **EPAM** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **RSI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **WRBY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **LQDA** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
+- **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
+- **ROKU** · score agregado 70.5 · 1 señales · fuentes: large_holder
+- **RBLX** · score agregado 70.5 · 1 señales · fuentes: large_holder
+- **GLUE** · score agregado 70.5 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -171,11 +171,12 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, BEP, BOLD, COE, GLD, IEF, LQDA, MERC, MOVE, NUVL, PALI, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`EPAM, FVR, GLD, GLUE, IEF, INTC, LQDA, NUVL, QQQ, RBLX, ROKU, RSI, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
-5. **Justifica cada cambio** con una razon concreta basada en los datos de este briefing (señal, regimen, riesgo, precio). Nada de datos externos.
+5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
+6. **Justifica cada cambio** con una razon concreta basada en los datos de este briefing (señal, regimen, riesgo, precio). Nada de datos externos. Recuerda: cada rebalanceo paga 0.15% del importe operado (se descuenta del P&L real).
 
 ### Que quiero de ti
 

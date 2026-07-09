@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-09T12:35:07+00:00",
+  "generated_at": "2026-07-09T13:14:07+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "BEP": 0.0885,
+    "GLD": 0.0933,
+    "FVR": 0.0723,
     "IEF": 0.0622,
-    "LQDA": 0.0366,
-    "WRBY": 0.0332,
-    "NUVL": 0.0323,
-    "MERC": 0.03,
-    "COE": 0.0297,
-    "PALI": 0.0282,
-    "APGE": 0.0256,
-    "BOLD": 0.0156,
-    "MOVE": 0.015
+    "EPAM": 0.0397,
+    "RSI": 0.0379,
+    "ROKU": 0.0339,
+    "GLUE": 0.0334,
+    "RBLX": 0.0267,
+    "LQDA": 0.0255,
+    "WRBY": 0.0232,
+    "NUVL": 0.022,
+    "INTC": 0.0199
   },
   "core": {
     "SPY": 0.1934,
@@ -29,65 +29,41 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "COE": 0.0264,
-    "APGE": 0.0228,
-    "MERC": 0.0267,
-    "BOLD": 0.0139,
-    "MOVE": 0.0133,
-    "PALI": 0.0251,
-    "WRBY": 0.0295,
-    "LQDA": 0.0325,
-    "NUVL": 0.0287,
-    "BEP": 0.0787
+    "FVR": 0.0643,
+    "EPAM": 0.0353,
+    "RSI": 0.0337,
+    "WRBY": 0.0206,
+    "LQDA": 0.0227,
+    "NUVL": 0.0196,
+    "INTC": 0.0177,
+    "ROKU": 0.0301,
+    "RBLX": 0.0237,
+    "GLUE": 0.0297
   },
   "satellite_rationale": [
     {
-      "ticker": "COE",
-      "score": 470.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 7
-    },
-    {
-      "ticker": "APGE",
-      "score": 211.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "MERC",
-      "score": 170.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "BOLD",
-      "score": 170.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "MOVE",
-      "score": 140.4,
+      "ticker": "FVR",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "PALI",
-      "score": 110.0,
+      "ticker": "EPAM",
+      "score": 141.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "RSI",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "WRBY",
@@ -114,26 +90,50 @@
       "n_signals": 1
     },
     {
-      "ticker": "BEP",
-      "score": 58.5,
+      "ticker": "INTC",
+      "score": 70.7,
       "sources": [
         "congress"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "ROKU",
+      "score": 70.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RBLX",
+      "score": 70.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "GLUE",
+      "score": 70.5,
+      "sources": [
+        "large_holder"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1448,
-    "var_95_1d": 0.0137,
-    "cvar_95_1d": 0.0178,
-    "max_drawdown": -0.0549,
-    "beta_spy": 0.745,
-    "hhi": 0.0708,
+    "ann_vol": 0.1378,
+    "var_95_1d": 0.0138,
+    "cvar_95_1d": 0.0184,
+    "max_drawdown": -0.0598,
+    "beta_spy": 0.789,
+    "hhi": 0.0691,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.1,
-    "gross_exposure": 0.8501,
-    "days_used": 84
+    "effective_positions": 14.5,
+    "gross_exposure": 0.85,
+    "days_used": 76
   },
   "risk_gate": {
     "passed": true,
