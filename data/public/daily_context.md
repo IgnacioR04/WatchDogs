@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T09:01:49+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-09T10:02:06+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.71)
+- Volatilidad: `normal` (VIX 16.93)
 - Tendencia: `bull` (SPY 745.4 · MA50 738.24 · MA200 690.16 · dist MA200: 8.0%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -105,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.36 (-0.22% / -2.02% / 0.06%) [2026-07-08]
 - IEF: 93.51 (-0.2% / -0.79% / 0.32%) [2026-07-08]
 - GLD: 374.45 (-0.81% / 1.65% / -5.74%) [2026-07-08]
-- ^VIX: 16.71 (-1.12% / 0.72% / -15.9%) [2026-07-09]
-- BTC-USD: 62810.46 (0.89% / -0.44% / -1.15%) [2026-07-09]
+- ^VIX: 16.93 (0.18% / 2.05% / -14.8%) [2026-07-09]
+- BTC-USD: 62854.46 (0.96% / -0.37% / -1.08%) [2026-07-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,12 +121,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (1)
+**Temas dominantes**: stock (8), leadership (4), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SPOT] Rivian Is Raising Around $1 . 5 Billion By Offering 75 Million Shares . Here Why the Stock Is Tanking . (2026-07-09)
+- [RKLB] Why Rocket Lab Stock Is Plummeting Today (2026-07-09)
+- [CRWV] Meta Vs . Coreweave : Despite 2032 Partnership ,  Meta Compute  Remains a Massive Threat to Coreweave (2026-07-09)
 - [OMDA] Omada Health ( NASDAQ : OMDA ) CFO Sells 23 , 263 Shares of Stock (2026-07-09)
 - [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
+- [RKLB] Insider Selling : Rocket Lab ( NASDAQ : RKLB ) CEO Sells $94 , 014 , 160 . 01 in Stock (2026-07-09)
+- [RKLB] Rocket Lab ( NASDAQ : RKLB ) CEO Sells 990 , 960 Shares (2026-07-09)
+- [RKLB] Rocket Lab ( NASDAQ : RKLB ) CEO Peter Beck Sells 990 , 960 Shares of Stock (2026-07-09)
 - [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -142,11 +148,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $76,837 · win rate 99% · categorias: sports, crypto, politics
+- comon119 · PnL $76,736 · win rate 99% · categorias: sports, crypto, politics
 - SDTrading · PnL $35,490 · win rate 93% · categorias: sports
 - lpcapital1 · PnL $22,168 · win rate 90% · categorias: sports
+- Bagwell306 · PnL $8,642 · win rate 93% · categorias: sports, economy
 - hi774c · PnL $26,043 · win rate 83% · categorias: sports
-- 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $89,677 · win rate 74% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
