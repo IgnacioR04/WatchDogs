@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-09T22:03:26+00:00 -->
+<!-- trader_prompt.md generado 2026-07-09T23:50:55+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T22:03:26+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-09T23:50:55+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -289,6 +289,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | EWSB | 84 | corporate_insider | Schmalz Charles D | 5 | $591,410 | cluster_buy |
+| UUUU | 81 | corporate_insider | Bhappu Ross R. | 2 | $967,920 | cluster_buy |
 | BBASX | 81 | corporate_insider | AMG New York Holdings Cor | 2 | $1,826,012 | cluster_buy |
 | EWSB | 80 | corporate_insider | Schmalz Charles D | 5 | $85,000 | cluster_buy |
 | EWSB | 80 | corporate_insider | Mangold James E | 5 | $399,500 | cluster_buy |
@@ -298,11 +299,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | EWSB | 76 | corporate_insider | Vander Loop Kailee | 5 | $76,400 | cluster_buy |
 | EWSB | 76 | corporate_insider | Vander Loop Kailee | 5 | $60,400 | cluster_buy |
 | TSM | 76 | corporate_insider | Wei Che-Chia | 31 | $11,187 | cluster_buy,small_amount |
+| WRAP | 73 | corporate_insider | Cohen Scot | 2 | $23,914 | cluster_buy,small_amount |
 | EWSB | 73 | corporate_insider | Vander Loop Kailee | 5 | $15,000 | cluster_buy,small_amount |
-| RSI | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| WRBY | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| OVID | 72 | large_holder | Federated Hermes, Inc. |  | - | - |
+| WRAP | 73 | corporate_insider | SHULMAN JOHN D | 2 | $110,000 | cluster_buy |
+| WRAP | 72 | large_holder | NORRIS ELWOOD G |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -332,7 +332,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.71 (0.21% / -0.34% / 0.26%) [2026-07-09]
 - GLD: 378.18 (1.0% / 2.05% / -3.22%) [2026-07-09]
 - ^VIX: 15.84 (-6.27% / -4.52% / -20.28%) [2026-07-09]
-- BTC-USD: 63187.4 (1.49% / 0.16% / -0.56%) [2026-07-09]
+- BTC-USD: 63198.92 (1.51% / 0.18% / -0.54%) [2026-07-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -347,15 +347,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (1), leadership (1)
+**Temas dominantes**: stock (6), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [RKLB] Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? (2026-07-09)
+- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
+- [RKLB] Rocket Lab Shares Climb as Wall Street Weighs $8 Billion Iridium Deal , $3 . 6 Billion Bridge Loan - Rocket (2026-07-09)
+- [PTCT] PTC Therapeutics ( NASDAQ : PTCT ) Hits New 12 - Month High on Analyst Upgrade (2026-07-09)
 - [CRWV] Jim Cramer on CoreWeave :  I Think It One of the Stronger Players in the Neocloud Space (2026-07-09)
-- [AXON] Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB (2026-07-09)
+- [PTCT] PTC Therapeutics , Inc . ( NASDAQ : PTCT ) Receives $91 . 36 Average PT from Analysts (2026-07-09)
 - [OMDA] Omada Health ( NASDAQ : OMDA ) CFO Sells 23 , 263 Shares of Stock (2026-07-09)
-- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
+- [IOT] Samsara ( IOT ) Unveils AI - Powered Smart Label for Real - Time Shipment Visibility (2026-07-08)
 - [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
+- [IOT] Samsara ( NYSE : IOT ) Insider Sells 3 , 653 Shares (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $147,859 · win rate 97% · categorias: sports
-- Allezpapa · PnL $102,609 · win rate 99% · categorias: sports
-- comon119 · PnL $99,209 · win rate 99% · categorias: sports, crypto, politics
-- BreakTheBank · PnL $231,242 · win rate 88% · categorias: sports
-- SemyonMarmeladov · PnL $106,391 · win rate 88% · categorias: sports, economy, politics
+- RJW1 · PnL $252,966 · win rate 99% · categorias: sports
+- Allezpapa · PnL $206,002 · win rate 99% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $150,715 · win rate 97% · categorias: sports
+- shijiebeifacai · PnL $138,874 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $196,648 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 83 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 941 registros 30d · ultimo dato 2026-07-09
+- **sec_insiders**: `ok` · 915 registros 30d · ultimo dato 2026-07-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-09
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
