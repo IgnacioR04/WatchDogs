@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-10T08:55:42+00:00 -->
+<!-- trader_prompt.md generado 2026-07-10T11:36:17+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-10T08:08:11+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
+_Generado 2026-07-10T11:36:17+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.14)
+- Volatilidad: `normal` (VIX 15.83)
 - Tendencia: `bull` (SPY 751.71 · MA50 739.0 · MA200 690.63 · dist MA200: 8.84%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.38)
@@ -263,17 +263,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AVO | 4.5% | satellite | 13.35 | -1.11% | 7.32% | 22.82% |
 | GGAL | 4.0% | satellite | 49.39 | -1.71% | 0.69% | -1.2% |
 | WRBY | 2.7% | satellite | 29.32 | 5.96% | -0.17% | 18.13% |
-| NUVL | 2.6% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
+| NUVL | 2.7% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
 | NTSK | 2.6% | satellite | 12.42 | 4.19% | 6.52% | 38.0% |
 | INTC | 2.3% | satellite | 112.54 | 2.09% | -11.4% | 4.28% |
 | APGE | 2.1% | satellite | 133.57 | 0.24% | 0.6% | 57.14% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.5%
+- Volatilidad anualizada: 14.4%
 - VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.8%
 - Max drawdown historico: -4.9%
-- Beta vs SPY: 0.821 · posiciones efectivas: 14.2 · HHI: 0.0706
+- Beta vs SPY: 0.818 · posiciones efectivas: 14.2 · HHI: 0.0706
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -336,8 +336,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.49 (0.15% / -1.2% / -0.37%) [2026-07-09]
 - IEF: 93.71 (0.21% / -0.34% / 0.26%) [2026-07-09]
 - GLD: 378.18 (1.0% / 2.05% / -3.22%) [2026-07-09]
-- ^VIX: 16.14 (1.89% / -0.06% / -27.36%) [2026-07-10]
-- BTC-USD: 63976.76 (1.24% / 0.67% / -0.41%) [2026-07-10]
+- ^VIX: 15.83 (-0.06% / -1.98% / -28.76%) [2026-07-10]
+- BTC-USD: 64366.01 (1.86% / 1.29% / 0.2%) [2026-07-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), leadership (2), ai (2), regulatory (1), merger (1)
+**Temas dominantes**: stock (5), ai (4), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Mark Zuckerberg Meta Is Entering What Could Be a $2 Trillion Cloud Market . CoreWeave Stock Fell 14 % on the News . (2026-07-10)
-- [RKLB] Rocket Lab Bull - Case Target Set at $293 by Morgan Stanley (2026-07-10)
-- [CRWV] Michael Intrator Sells 61 , 797 Shares of CoreWeave ( NASDAQ : CRWV ) Stock (2026-07-10)
-- [CRWV] CoreWeave ( NASDAQ : CRWV ) CEO Michael Intrator Sells 200 , 000 Shares of Stock (2026-07-10)
-- [UTHR] Martine Rothblatt Sells 9 , 500 Shares of United Therapeutics ( NASDAQ : UTHR ) Stock (2026-07-09)
-- [RKLB] Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? (2026-07-09)
-- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CFO Sells 46 , 002 Shares (2026-07-09)
 - [AXON] Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB (2026-07-09)
-- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
-- [IOT] Samsara ( IOT ) Unveils AI - Powered Smart Label for Real - Time Shipment Visibility (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $392,523 · win rate 92% · categorias: sports
-- NiFengFanPan · PnL $11,500 · win rate 93% · categorias: sports, politics, economy
-- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $21,486 · win rate 85% · categorias: crypto, sports
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $272,054 · win rate 67% · categorias: sports, politics, crypto
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $10,747 · win rate 88% · categorias: sports, crypto
+- Sassy-Bucket · PnL $392,524 · win rate 92% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $98,554 · win rate 96% · categorias: sports
+- Uniform123 · PnL $36,734 · win rate 93% · categorias: sports
+- waterx- · PnL $25,362 · win rate 91% · categorias: crypto, sports
+- matenghehe · PnL $19,860 · win rate 93% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -392,8 +387,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 916 registros 30d · ultimo dato 2026-07-09
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-09
+- **sec_insiders**: `ok` · 929 registros 30d · ultimo dato 2026-07-09
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-10
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
