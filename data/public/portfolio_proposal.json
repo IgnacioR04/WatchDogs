@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T13:13:25+00:00",
+  "generated_at": "2026-07-10T15:18:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,17 +8,18 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "BEP": 0.0729,
+    "GLD": 0.0933,
+    "BEP": 0.0643,
     "IEF": 0.0622,
-    "NMM": 0.0533,
-    "AVO": 0.0451,
-    "GGAL": 0.0396,
-    "WRBY": 0.0271,
-    "NUVL": 0.0267,
-    "NTSK": 0.0263,
-    "INTC": 0.0226,
-    "APGE": 0.0211
+    "NMM": 0.0471,
+    "AVO": 0.0398,
+    "ENR": 0.039,
+    "GGAL": 0.035,
+    "WRBY": 0.024,
+    "NUVL": 0.0235,
+    "NTSK": 0.0232,
+    "INTC": 0.02,
+    "APGE": 0.0187
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "GGAL": 0.0352,
-    "APGE": 0.0188,
-    "AVO": 0.0401,
-    "NMM": 0.0474,
-    "WRBY": 0.0241,
-    "NTSK": 0.0234,
-    "NUVL": 0.0237,
-    "INTC": 0.0201,
-    "BEP": 0.0648
+    "GGAL": 0.0311,
+    "APGE": 0.0166,
+    "AVO": 0.0354,
+    "NMM": 0.0419,
+    "ENR": 0.0347,
+    "WRBY": 0.0213,
+    "NTSK": 0.0206,
+    "NUVL": 0.0209,
+    "INTC": 0.0178,
+    "BEP": 0.0572
   },
   "satellite_rationale": [
     {
@@ -71,6 +73,14 @@
         "corporate_insider"
       ],
       "n_signals": 3
+    },
+    {
+      "ticker": "ENR",
+      "score": 126.1,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "WRBY",
@@ -114,15 +124,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1438,
-    "var_95_1d": 0.0123,
-    "cvar_95_1d": 0.0179,
-    "max_drawdown": -0.0486,
-    "beta_spy": 0.818,
-    "hhi": 0.0706,
+    "ann_vol": 0.1389,
+    "var_95_1d": 0.0121,
+    "cvar_95_1d": 0.0172,
+    "max_drawdown": -0.049,
+    "beta_spy": 0.798,
+    "hhi": 0.0689,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 14.2,
+    "n_positions": 15,
+    "effective_positions": 14.5,
     "gross_exposure": 0.8501,
     "days_used": 85
   },
