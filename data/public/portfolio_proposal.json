@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T22:33:55+00:00",
+  "generated_at": "2026-07-10T23:33:14+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,14 +8,17 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.0994,
-    "GLD": 0.0932,
-    "AVO": 0.0669,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "TBRG": 0.0566,
-    "LION": 0.0461,
-    "CNXC": 0.035,
-    "INTC": 0.0307
+    "FVR": 0.0618,
+    "GRMN": 0.0557,
+    "BEP": 0.0535,
+    "AVO": 0.0335,
+    "EPAM": 0.0318,
+    "TBRG": 0.0304,
+    "WBI": 0.0279,
+    "HNRG": 0.0234,
+    "INTC": 0.0166
   },
   "core": {
     "SPY": 0.1934,
@@ -25,14 +28,49 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AVO": 0.0595,
-    "TBRG": 0.0503,
-    "LION": 0.041,
-    "CNXC": 0.0311,
-    "INTC": 0.0273,
-    "BEP": 0.0884
+    "GRMN": 0.0495,
+    "WBI": 0.0248,
+    "FVR": 0.0549,
+    "EPAM": 0.0283,
+    "AVO": 0.0298,
+    "HNRG": 0.0208,
+    "TBRG": 0.027,
+    "INTC": 0.0148,
+    "BEP": 0.0476
   },
   "satellite_rationale": [
+    {
+      "ticker": "GRMN",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "WBI",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "FVR",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "EPAM",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
     {
       "ticker": "AVO",
       "score": 138.2,
@@ -43,23 +81,15 @@
       "n_signals": 2
     },
     {
+      "ticker": "HNRG",
+      "score": 109.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "TBRG",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "LION",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CNXC",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -84,17 +114,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1263,
-    "var_95_1d": 0.0117,
-    "cvar_95_1d": 0.016,
-    "max_drawdown": -0.0631,
-    "beta_spy": 0.718,
-    "hhi": 0.0776,
+    "ann_vol": 0.1142,
+    "var_95_1d": 0.0107,
+    "cvar_95_1d": 0.0144,
+    "max_drawdown": -0.0484,
+    "beta_spy": 0.671,
+    "hhi": 0.0702,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.9,
+    "n_positions": 14,
+    "effective_positions": 14.2,
     "gross_exposure": 0.8501,
-    "days_used": 112
+    "days_used": 81
   },
   "risk_gate": {
     "passed": true,

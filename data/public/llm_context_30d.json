@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-10T22:32:51.024134+00:00",
+  "generated_at": "2026-07-10T23:32:22.994669+00:00",
   "window": {
     "from": "2026-06-10",
     "to": "2026-07-10",
@@ -25,8 +25,10 @@
     "top_themes": [
       "stock",
       "ai",
-      "leadership",
-      "regulatory"
+      "merger",
+      "legal",
+      "regulatory",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -64,7 +66,11 @@
       "event_date": "2026-07-09",
       "importance_score": 86.8,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_597183356238",
+        "news_677495596345",
+        "news_452002875334"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
@@ -118,7 +124,11 @@
       "event_date": "2026-07-09",
       "importance_score": 84.8,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_597183356238",
+        "news_677495596345",
+        "news_452002875334"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
@@ -142,24 +152,6 @@
     {
       "id": "move_7",
       "rank": 7,
-      "title": "CEO vendio TBRG ($3.2M)",
-      "summary": "CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Fowler Christopher L",
-      "actor_type": "ceo",
-      "ticker": "TBRG",
-      "direction": "sell",
-      "amount_estimated": 3162757.5,
-      "event_date": "2026-07-09",
-      "importance_score": 82.1,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1454872/000145487226000008/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
       "title": "Director vendio TBRG ($29.2M)",
       "summary": "Director Upitis Andris vendio TBRG por $29.2M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -172,12 +164,16 @@
       "event_date": "2026-07-09",
       "importance_score": 81.9,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_597183356238",
+        "news_677495596345",
+        "news_452002875334"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1665051/000166505126000002/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner opero YSS ($77.8M)",
       "summary": "10% owner AEROEQUITY GP, LLC opero YSS por $77.8M el 2026-07-08.",
       "source": "sec_form_4",
@@ -194,8 +190,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1880788/000110465926082651/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner vendio PBF ($14.4M)",
       "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio PBF por $14.4M el 2026-07-09.",
       "source": "sec_form_4",
@@ -212,8 +208,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126028221/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -230,8 +226,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -248,8 +244,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -266,8 +262,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -284,8 +280,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -302,8 +298,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -320,8 +316,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -338,8 +334,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -356,8 +352,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -374,8 +370,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -385,6 +381,24 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 12266872781,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12231430056,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -403,28 +417,11 @@
         ]
       },
       {
-        "ticker": "WRAP",
-        "company": "WRAP TECHNOLOGIES, INC.",
-        "pressure_score": 300.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "HUBB",
         "company": "DC Hubbell Inc Common Stock",
         "pressure_score": 286.1,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "GLOO",
-        "company": "Gloo Holdings, Inc.",
-        "pressure_score": 239.8,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -441,6 +438,14 @@
         "pressure_score": 174.3,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "GLOO",
+        "company": "Gloo Holdings, Inc.",
+        "pressure_score": 164.0,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -462,23 +467,6 @@
         ]
       },
       {
-        "ticker": "CNXC",
-        "company": "Concentrix Corp",
-        "pressure_score": 147.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "DLHC",
-        "company": "DLH Holdings Corp.",
-        "pressure_score": 143.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "VIRC",
         "company": "VIRCO MFG CORPORATION",
         "pressure_score": 143.1,
@@ -487,19 +475,19 @@
         ]
       },
       {
-        "ticker": "MXF",
-        "company": "MEXICO FUND INC",
-        "pressure_score": 141.4,
+        "ticker": "PHUN",
+        "company": "Phunware, Inc.",
+        "pressure_score": 141.0,
         "sources": [
-          "corporate_insider"
+          "large_holder"
         ]
       },
       {
-        "ticker": "SLGL",
-        "company": "Sol-Gel Technologies Ltd.",
-        "pressure_score": 141.1,
+        "ticker": "IVFH",
+        "company": "INNOVATIVE FOOD HOLDINGS INC",
+        "pressure_score": 141.0,
         "sources": [
-          "corporate_insider"
+          "large_holder"
         ]
       },
       {
@@ -517,38 +505,45 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "FVR",
+        "company": "FrontView REIT, Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "EPAM",
+        "company": "EPAM SYSTEMS INC",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "HNRG",
+        "company": "HALLADOR ENERGY CO",
+        "pressure_score": 140.8,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
-        "pressure_score": 5302.7,
+        "pressure_score": 6718.8,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TBRG",
-        "company": "TruBridge, Inc.",
-        "pressure_score": 1978.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
         "ticker": "AXON",
         "company": "AXON ENTERPRISE, INC.",
         "pressure_score": 1870.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CASY",
-        "company": "CASEYS GENERAL STORES INC",
-        "pressure_score": 1734.3,
         "sources": [
           "corporate_insider"
         ]
@@ -562,19 +557,19 @@
         ]
       },
       {
+        "ticker": "TBRG",
+        "company": "TruBridge, Inc.",
+        "pressure_score": 1537.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 1528.9,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRDO",
-        "company": "Ordinary Shares",
-        "pressure_score": 1334.6,
-        "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -603,26 +598,9 @@
         ]
       },
       {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 782.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DASH",
         "company": "DoorDash, Inc.",
         "pressure_score": 659.0,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SMTC",
-        "company": "Stock",
-        "pressure_score": 617.4,
         "sources": [
           "congress",
           "corporate_insider"
@@ -637,9 +615,41 @@
         ]
       },
       {
-        "ticker": "SODI",
-        "company": "SOLITRON DEVICES INC",
-        "pressure_score": 538.4,
+        "ticker": "BB",
+        "company": "BLACKBERRY Ltd",
+        "pressure_score": 509.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "IMVT",
+        "company": "Immunovant, Inc.",
+        "pressure_score": 507.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AKTS",
+        "company": "Aktis Oncology, Inc.",
+        "pressure_score": 422.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "OKTA",
+        "company": "Okta, Inc.",
+        "pressure_score": 311.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI, Inc.",
+        "pressure_score": 298.4,
         "sources": [
           "corporate_insider"
         ]
@@ -693,33 +703,6 @@
       "score": 78.9
     },
     {
-      "ticker": "WRAP",
-      "company": "WRAP TECHNOLOGIES, INC.",
-      "actor": "Cohen Scot",
-      "actor_type": "ceo",
-      "amount": 230288.3,
-      "date": "2026-07-08",
-      "score": 78.9
-    },
-    {
-      "ticker": "GLOO",
-      "company": "Gloo Holdings, Inc.",
-      "actor": "GELSINGER PATRICK P",
-      "actor_type": "director",
-      "amount": 499999.5,
-      "date": "2026-07-10",
-      "score": 75.8
-    },
-    {
-      "ticker": "JSDA",
-      "company": "JONES SODA CO.",
-      "actor": "Harvey Scott F.",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-07-07",
-      "score": 75.8
-    },
-    {
       "ticker": "VIRC",
       "company": "VIRCO MFG CORPORATION",
       "actor": "VIRTUE DOUGLAS A",
@@ -729,58 +712,76 @@
       "score": 75.8
     },
     {
-      "ticker": "WRAP",
-      "company": "WRAP TECHNOLOGIES, INC.",
-      "actor": "Cohen Scot",
-      "actor_type": "ceo",
-      "amount": 23914.0,
-      "date": "2026-07-08",
-      "score": 75.5
-    },
-    {
-      "ticker": "CNXC",
-      "company": "Concentrix Corp",
-      "actor": "Caldwell Christopher A",
-      "actor_type": "ceo",
-      "amount": 21249.7,
-      "date": "2026-07-08",
-      "score": 75.2
-    },
-    {
-      "ticker": "WRAP",
-      "company": "WRAP TECHNOLOGIES, INC.",
-      "actor": "SHULMAN JOHN D",
+      "ticker": "HNRG",
+      "company": "HALLADOR ENERGY CO",
+      "actor": "Hudson Daniel Timothy",
       "actor_type": "director",
-      "amount": 110000.0,
-      "date": "2026-07-08",
-      "score": 73.8
+      "amount": 41500.0,
+      "date": "2026-07-09",
+      "score": 70.4
     },
     {
-      "ticker": "CULP",
-      "company": "CULP INC",
-      "actor": "CULP ROBERT GEORGE IV",
+      "ticker": "HNRG",
+      "company": "HALLADOR ENERGY CO",
+      "actor": "Hudson Daniel Timothy",
+      "actor_type": "director",
+      "amount": 41412.5,
+      "date": "2026-07-09",
+      "score": 70.4
+    },
+    {
+      "ticker": "RDGL",
+      "company": "VIVOS INC",
+      "actor": "Weeks Brad Allan",
       "actor_type": "ceo",
-      "amount": 9217.44,
+      "amount": 3840.0,
       "date": "2026-07-09",
-      "score": 72.2
+      "score": 70.3
     },
     {
-      "ticker": "DLHC",
-      "company": "DLH Holdings Corp.",
-      "actor": "Mink Brook Asset Management LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 25456.0,
+      "ticker": "RDGL",
+      "company": "VIVOS INC",
+      "actor": "Weeks Brad Allan",
+      "actor_type": "ceo",
+      "amount": 960.0,
       "date": "2026-07-10",
-      "score": 71.9
+      "score": 67.3
     },
     {
-      "ticker": "DLHC",
-      "company": "DLH Holdings Corp.",
-      "actor": "Mink Brook Asset Management LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 25627.5,
+      "ticker": "VIRC",
+      "company": "VIRCO MFG CORPORATION",
+      "actor": "VIRTUE DOUGLAS A",
+      "actor_type": "ceo",
+      "amount": 30.0,
       "date": "2026-07-09",
-      "score": 71.9
+      "score": 67.3
+    },
+    {
+      "ticker": "CZNC",
+      "company": "CITIZENS & NORTHERN CORP",
+      "actor": "Pellegrino Frank G",
+      "actor_type": "director",
+      "amount": 4558.95,
+      "date": "2026-07-08",
+      "score": 64.1
+    },
+    {
+      "ticker": "SER",
+      "company": "Serina Therapeutics, Inc.",
+      "actor": "Brannan Stephen K.",
+      "actor_type": "director",
+      "amount": 2030.0,
+      "date": "2026-07-07",
+      "score": 62.4
+    },
+    {
+      "ticker": "CZNC",
+      "company": "CITIZENS & NORTHERN CORP",
+      "actor": "Shattuck Katherine W",
+      "actor_type": "director",
+      "amount": 207.22,
+      "date": "2026-07-08",
+      "score": 60.9
     }
   ],
   "institutional_changes": [
@@ -1229,9 +1230,9 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 392529.89,
+        "pnl": 392513.18,
         "win_rate": 0.9198,
-        "volume": 566829.87,
+        "volume": 710237.58,
         "categories": [
           "sports"
         ]
@@ -1239,7 +1240,7 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 182207.94,
+        "pnl": 182205.26,
         "win_rate": 0.9665,
         "volume": 793020.11,
         "categories": [
@@ -1249,7 +1250,7 @@
       {
         "wallet": "0xbc1b1e935c",
         "username": "shijiebeifacai",
-        "pnl": 121106.97,
+        "pnl": 120172.18,
         "win_rate": 0.9681,
         "volume": 282354.74,
         "categories": [
@@ -1259,7 +1260,7 @@
       {
         "wallet": "0xc72d7dcdb2",
         "username": "HongYunX",
-        "pnl": 62641.31,
+        "pnl": 62643.41,
         "win_rate": 1.0,
         "volume": 214123.43,
         "categories": [
@@ -1269,9 +1270,9 @@
       {
         "wallet": "0x5b4ec9c06b",
         "username": "ramadamaramadam",
-        "pnl": 619364.67,
+        "pnl": 619389.3,
         "win_rate": 0.8889,
-        "volume": 750308.96,
+        "volume": 770012.92,
         "categories": [
           "sports"
         ]
@@ -1297,6 +1298,16 @@
         ]
       },
       {
+        "wallet": "0x65018f9fc4",
+        "username": "cnyek",
+        "pnl": 52389.49,
+        "win_rate": 0.9474,
+        "volume": 435124.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xb61b2079b9",
         "username": "hot2trot",
         "pnl": 143057.43,
@@ -1309,22 +1320,12 @@
       {
         "wallet": "0x10a6fadcba",
         "username": "rabbitfoot1",
-        "pnl": 247039.9,
-        "win_rate": 0.7244,
+        "pnl": 246798.72,
+        "win_rate": 0.7248,
         "volume": 591972.68,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x86d2d490bc",
-        "username": "umeax",
-        "pnl": 115549.45,
-        "win_rate": 0.9062,
-        "volume": 564124.37,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1332,9 +1333,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 77747.77,
+        "pnl": 76679.93,
         "win_rate": 0.706,
-        "volume": 14886375.04,
+        "volume": 15030264.87,
         "categories": [
           "sports",
           "politics",
@@ -1364,9 +1365,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 72123.04,
-        "win_rate": 0.602,
-        "volume": 9517620.13,
+        "pnl": 69029.9,
+        "win_rate": 0.598,
+        "volume": 9601094.95,
         "categories": [
           "sports"
         ]
@@ -1384,9 +1385,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 104080.8,
+        "pnl": 104099.27,
         "win_rate": 0.567,
-        "volume": 5905664.91,
+        "volume": 5943638.33,
         "categories": [
           "sports"
         ]
@@ -1394,9 +1395,9 @@
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 295516.59,
-        "win_rate": 0.452,
-        "volume": 8884855.07,
+        "pnl": 291917.98,
+        "win_rate": 0.474,
+        "volume": 9048107.43,
         "categories": [
           "crypto",
           "sports",
@@ -1406,9 +1407,9 @@
       {
         "wallet": "0x5b4ec9c06b",
         "username": "ramadamaramadam",
-        "pnl": 619364.67,
+        "pnl": 619389.3,
         "win_rate": 0.8889,
-        "volume": 750308.96,
+        "volume": 770012.92,
         "categories": [
           "sports"
         ]
@@ -1424,11 +1425,11 @@
         ]
       },
       {
-        "wallet": "0x7583d5f8a1",
-        "username": "0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
-        "pnl": 96809.69,
-        "win_rate": 0.0,
-        "volume": 1046014.04,
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 392513.18,
+        "win_rate": 0.9198,
+        "volume": 710237.58,
         "categories": [
           "sports"
         ]
@@ -1436,6 +1437,35 @@
     ]
   },
   "news": [
+    {
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "BlackBerry ( NYSE : BB ) CFO Sells 8 , 235 Shares",
+      "url": "https://www.dailypolitical.com/2026/07/10/blackberry-nysebb-cfo-sells-8235-shares.html",
+      "ticker": "BB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-10"
+    },
     {
       "title": "SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling",
       "url": "https://www.themarketsdaily.com/2026/07/10/sailpoint-nasdaqsail-shares-down-6-9-on-insider-selling.html",
@@ -1447,31 +1477,45 @@
       "date": "2026-07-10"
     },
     {
-      "title": "CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? ",
-      "url": "https://www.fool.com/coverage/filings/2026/07/10/coreweave-s-ceo-dumped-nearly-370-000-shares-for-usd30-8-million-what-does-that-mean-for-investors/?source=iedfolrf0000001",
-      "ticker": "CRWV",
+      "title": "CrowdStrike identifies five new prompt injection threats to AI",
+      "url": "https://www.csoonline.com/article/4195670/crowdstrike-identifies-five-new-prompt-injection-threats-to-ai.html",
+      "ticker": "CRWD",
       "themes": [
-        "leadership",
-        "stock"
+        "ai"
       ],
       "date": "2026-07-10"
     },
     {
-      "title": "CoreWeave CEO Sells Another $22 Million in Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-ceo-sells-another-22-164738819.html",
-      "ticker": "CRWV",
+      "title": "IKS Health Buys TruBridge",
+      "url": "https://www.themiddlemarket.com/latest-news/iks-health-buys-trubridge",
+      "ticker": "TBRG",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
+      "ticker": "TBRG",
       "themes": [
-        "leadership",
-        "stock"
+        "merger"
       ],
       "date": "2026-07-10"
     },
     {
-      "title": "Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/10/samsara-nyseiot-insider-john-bicket-sells-17975-shares-of-stock.html",
-      "ticker": "IOT",
+      "title": "IKS Health Completes Acquisition of TruBridge",
+      "url": "http://www.bignewsnetwork.com/news/279178465/iks-health-completes-acquisition-of-trubridge",
+      "ticker": "TBRG",
       "themes": [
-        "stock"
+        "merger"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Completes Acquisition of TruBridge",
+      "url": "https://aninews.in/news/business/iks-health-completes-acquisition-of-trubridge20260710110332/",
+      "ticker": "TBRG",
+      "themes": [
+        "merger"
       ],
       "date": "2026-07-10"
     },
@@ -1515,19 +1559,9 @@
         "stock"
       ],
       "date": "2026-07-09"
-    },
-    {
-      "title": "Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB",
-      "url": "https://www.themarketsdaily.com/2026/07/09/axon-enterprise-inc-axon-shares-sold-by-swedbank-ab.html",
-      "ticker": "AXON",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-07-09"
     }
   ],
-  "signals_count": 1620,
+  "signals_count": 1486,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
