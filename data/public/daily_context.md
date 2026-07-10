@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-10T15:18:09+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
+_Generado 2026-07-10T17:25:14+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.79)
-- Tendencia: `bull` (SPY 752.88 · MA50 739.86 · MA200 691.08 · dist MA200: 8.94%)
+- Volatilidad: `normal` (VIX 15.3)
+- Tendencia: `bull` (SPY 753.94 · MA50 739.89 · MA200 691.09 · dist MA200: 9.09%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.38)
 - Fed Funds: 3.63%
@@ -22,39 +22,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 752.88 | 0.16% | 1.09% | 4.05% |
-| QQQ | 12.0% | core | 723.14 | -0.02% | 1.48% | 4.36% |
-| TLT | 12.0% | core | 84.53 | 0.04% | -1.15% | -0.05% |
-| GLD | 9.3% | core | 376.34 | -0.49% | -0.47% | 0.47% |
-| BEP | 6.4% | satellite | 32.27 | -2.15% | -4.75% | -8.51% |
-| IEF | 6.2% | core | 93.74 | 0.03% | -0.41% | 0.38% |
-| NMM | 4.7% | satellite | 75.26 | 2.02% | 3.85% | 4.35% |
-| AVO | 4.0% | satellite | 13.62 | 2.02% | 9.05% | 21.17% |
-| ENR | 3.9% | satellite | 20.71 | 2.47% | -4.78% | 6.75% |
-| GGAL | 3.5% | satellite | 51.88 | 5.03% | 2.99% | 4.54% |
-| WRBY | 2.4% | satellite | 29.07 | -0.85% | -0.65% | 16.19% |
-| NUVL | 2.4% | satellite | 123.88 | 0.04% | 0.12% | 0.43% |
-| NTSK | 2.3% | satellite | 12.14 | -2.29% | 3.63% | 43.27% |
-| INTC | 2.0% | satellite | 109.18 | -2.99% | -9.28% | 2.0% |
-| APGE | 1.9% | satellite | 133.42 | -0.11% | 0.39% | 61.29% |
+| SPY | 12.0% | core | 753.94 | 0.3% | 1.23% | 4.2% |
+| QQQ | 12.0% | core | 725.29 | 0.28% | 1.78% | 4.67% |
+| TLT | 12.0% | core | 84.42 | -0.09% | -1.28% | -0.18% |
+| GLD | 9.3% | core | 376.7 | -0.39% | -0.38% | 0.57% |
+| BEP | 7.4% | satellite | 32.28 | -2.12% | -4.72% | -8.48% |
+| IEF | 6.2% | core | 93.63 | -0.09% | -0.52% | 0.27% |
+| NMM | 5.4% | satellite | 75.72 | 2.64% | 4.48% | 4.99% |
+| AVO | 4.6% | satellite | 13.52 | 1.27% | 8.25% | 20.28% |
+| ENR | 4.5% | satellite | 20.58 | 1.83% | -5.38% | 6.08% |
+| GGAL | 4.0% | satellite | 52.76 | 6.81% | 4.73% | 6.32% |
+| WRBY | 2.7% | satellite | 29.05 | -0.92% | -0.72% | 16.11% |
+| NTSK | 2.6% | satellite | 12.22 | -1.65% | 4.31% | 44.21% |
+| INTC | 2.3% | satellite | 110.25 | -2.03% | -8.39% | 3.0% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 13.9%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.7%
-- Max drawdown historico: -4.9%
-- Beta vs SPY: 0.798 · posiciones efectivas: 14.5 · HHI: 0.0689
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.1%
+- Beta vs SPY: 0.805 · posiciones efectivas: 13.9 · HHI: 0.0718
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **GGAL** · score agregado 236.8 · 4 señales · fuentes: corporate_insider
-- **APGE** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **AVO** · score agregado 206.1 · 3 señales · fuentes: corporate_insider, large_holder
 - **NMM** · score agregado 174.2 · 3 señales · fuentes: corporate_insider
 - **ENR** · score agregado 126.1 · 2 señales · fuentes: corporate_insider
 - **WRBY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NTSK** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -100,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 752.88 (0.16% / 1.09% / 4.05%) [2026-07-10]
-- QQQ: 723.14 (-0.02% / 1.48% / 4.36%) [2026-07-10]
-- IWM: 295.33 (-0.64% / -0.76% / 4.96%) [2026-07-10]
-- DIA: 525.59 (0.27% / -0.43% / 5.35%) [2026-07-10]
-- TLT: 84.53 (0.04% / -1.15% / -0.05%) [2026-07-10]
-- IEF: 93.74 (0.03% / -0.41% / 0.38%) [2026-07-10]
-- GLD: 376.34 (-0.49% / -0.47% / 0.47%) [2026-07-10]
-- ^VIX: 15.79 (-0.32% / -2.23% / -28.94%) [2026-07-10]
-- BTC-USD: 64076.11 (1.4% / 0.83% / -0.25%) [2026-07-10]
+- SPY: 753.94 (0.3% / 1.23% / 4.2%) [2026-07-10]
+- QQQ: 725.29 (0.28% / 1.78% / 4.67%) [2026-07-10]
+- IWM: 295.99 (-0.42% / -0.53% / 5.19%) [2026-07-10]
+- DIA: 525.66 (0.28% / -0.42% / 5.37%) [2026-07-10]
+- TLT: 84.42 (-0.09% / -1.28% / -0.18%) [2026-07-10]
+- IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
+- GLD: 376.7 (-0.39% / -0.38% / 0.57%) [2026-07-10]
+- ^VIX: 15.3 (-3.41% / -5.26% / -31.14%) [2026-07-10]
+- BTC-USD: 63868.5 (1.07% / 0.5% / -0.58%) [2026-07-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +119,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (4), stock (4), ai (4), legal (2), regulatory (2), leadership (1)
+**Temas dominantes**: stock (2), regulatory (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
-- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
-- [CRWV] Wolfe Research Maintains Outperform rating on CoreWeave ( CRWV ) (2026-07-10)
-- [CRWV] CRWV Vs . QQQ : Buy CoreWeave for Explosive AI Alpha or Hold QQQ for Insulated Macro Safety ? (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
-- [RKLB] Rocket Lab Bull - Case Target Set at $293 by Morgan Stanley (2026-07-10)
-- [UTHR] Martine Rothblatt Sells 9 , 500 Shares of United Therapeutics ( NASDAQ : UTHR ) Stock (2026-07-09)
-- [RKLB] Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? (2026-07-09)
-- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
+- [AXON] Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB (2026-07-09)
+- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -152,10 +140,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Sassy-Bucket · PnL $392,530 · win rate 92% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $133,027 · win rate 97% · categorias: sports
-- ExplosiveNinja · PnL $35,878 · win rate 97% · categorias: sports
-- Uniform123 · PnL $28,226 · win rate 93% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $52,965 · win rate 88% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $177,718 · win rate 97% · categorias: sports
+- ExplosiveNinja · PnL $30,651 · win rate 97% · categorias: sports
+- 0x30353403430dadnm76fes8ma3 · PnL $33,751 · win rate 90% · categorias: sports
+- matenghehe · PnL $21,451 · win rate 93% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +151,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 918 registros 30d · ultimo dato 2026-07-09
+- **sec_insiders**: `ok` · 878 registros 30d · ultimo dato 2026-07-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-10
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -176,7 +164,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, ENR, GGAL, GLD, IEF, INTC, NMM, NTSK, NUVL, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AVO, BEP, ENR, GGAL, GLD, IEF, INTC, NMM, NTSK, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
