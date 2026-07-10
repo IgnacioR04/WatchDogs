@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-10T18:59:35.801515+00:00",
+  "generated_at": "2026-07-10T20:58:33.680148+00:00",
   "window": {
     "from": "2026-06-10",
     "to": "2026-07-10",
@@ -24,11 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
-      "regulatory",
       "ai",
       "leadership",
-      "legal"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -36,386 +34,132 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio RKLB ($38.7M)",
-      "summary": "CEO Beck Peter vendio RKLB por $38.7M el 2026-07-07.",
+      "title": "10% owner compro FINS ($1600000.0B)",
+      "summary": "10% owner MetLife Investment Management, LLC compro FINS por $1600000.0B el 2026-07-08.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 38653978.56,
-      "event_date": "2026-07-07",
-      "importance_score": 86.3,
+      "actor_name": "MetLife Investment Management, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "FINS",
+      "direction": "buy",
+      "amount_estimated": 1600000000000000.0,
+      "event_date": "2026-07-08",
+      "importance_score": 88.3,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003232/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner compro AVO ($9.2M)",
-      "summary": "10% owner Globalharvest Holdings Venture Ltd compro AVO por $9.2M el 2026-07-08 [senal en multiples fuentes].",
+      "title": "10% owner opero TBRG ($55.9M)",
+      "summary": "10% owner Pinetree Capital Ltd. opero TBRG por $55.9M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Globalharvest Holdings Venture Ltd",
+      "actor_name": "Pinetree Capital Ltd.",
       "actor_type": "ten_percent_owner",
-      "ticker": "AVO",
-      "direction": "buy",
-      "amount_estimated": 9222519.24,
-      "event_date": "2026-07-08",
-      "importance_score": 85.9,
+      "ticker": "TBRG",
+      "direction": "other",
+      "amount_estimated": 55912500.0,
+      "event_date": "2026-07-09",
+      "importance_score": 86.8,
       "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2069986/000089914026000708/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO vendio RKLB ($29.2M)",
-      "summary": "CEO Beck Peter vendio RKLB por $29.2M el 2026-07-08.",
+      "title": "10% owner opero TBRG ($22.3M)",
+      "summary": "10% owner Pinetree Capital Ltd. opero TBRG por $22.3M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 29209929.36,
-      "event_date": "2026-07-08",
-      "importance_score": 85.7,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "actor_name": "Pinetree Capital Ltd.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "TBRG",
+      "direction": "other",
+      "amount_estimated": 22312500.0,
+      "event_date": "2026-07-09",
+      "importance_score": 84.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO vendio RKLB ($28.6M)",
-      "summary": "CEO Beck Peter vendio RKLB por $28.6M el 2026-07-07.",
+      "title": "CEO vendio TBRG ($3.2M)",
+      "summary": "CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
+      "actor_name": "Fowler Christopher L",
       "actor_type": "ceo",
-      "ticker": "RKLB",
+      "ticker": "TBRG",
       "direction": "sell",
-      "amount_estimated": 28598803.0,
-      "event_date": "2026-07-07",
-      "importance_score": 85.6,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "amount_estimated": 3162757.5,
+      "event_date": "2026-07-09",
+      "importance_score": 82.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1454872/000145487226000008/"
     },
     {
       "id": "move_5",
       "rank": 5,
-      "title": "CEO vendio RKLB ($22.0M)",
-      "summary": "CEO Beck Peter vendio RKLB por $22.0M el 2026-07-07.",
+      "title": "Director vendio TBRG ($29.2M)",
+      "summary": "Director Upitis Andris vendio TBRG por $29.2M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
+      "actor_name": "Upitis Andris",
+      "actor_type": "director",
+      "ticker": "TBRG",
       "direction": "sell",
-      "amount_estimated": 21998510.45,
-      "event_date": "2026-07-07",
-      "importance_score": 85.1,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "amount_estimated": 29247172.5,
+      "event_date": "2026-07-09",
+      "importance_score": 81.9,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1665051/000166505126000002/"
     },
     {
       "id": "move_6",
       "rank": 6,
-      "title": "CEO vendio RKLB ($21.7M)",
-      "summary": "CEO Beck Peter vendio RKLB por $21.7M el 2026-07-08.",
+      "title": "10% owner opero YSS ($77.8M)",
+      "summary": "10% owner AEROEQUITY GP, LLC opero YSS por $77.8M el 2026-07-08.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 21699380.24,
+      "actor_name": "AEROEQUITY GP, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "YSS",
+      "direction": "other",
+      "amount_estimated": 77838444.0,
       "event_date": "2026-07-08",
-      "importance_score": 85.0,
+      "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1880788/000110465926082651/"
     },
     {
       "id": "move_7",
       "rank": 7,
-      "title": "CEO vendio RKLB ($13.1M)",
-      "summary": "CEO Beck Peter vendio RKLB por $13.1M el 2026-07-08.",
+      "title": "10% owner vendio PBF ($14.4M)",
+      "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio PBF por $14.4M el 2026-07-09.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
+      "actor_name": "Control Empresarial de Capitales S.A. de C.V.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "PBF",
       "direction": "sell",
-      "amount_estimated": 13054288.45,
-      "event_date": "2026-07-08",
-      "importance_score": 83.9,
+      "amount_estimated": 14359140.0,
+      "event_date": "2026-07-09",
+      "importance_score": 81.6,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126028221/"
     },
     {
       "id": "move_8",
       "rank": 8,
-      "title": "10% owner compro AVO ($6.6M)",
-      "summary": "10% owner Globalharvest Holdings Venture Ltd compro AVO por $6.6M el 2026-07-07 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Globalharvest Holdings Venture Ltd",
-      "actor_type": "ten_percent_owner",
-      "ticker": "AVO",
-      "direction": "buy",
-      "amount_estimated": 6590991.0,
-      "event_date": "2026-07-07",
-      "importance_score": 83.7,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2069986/000089914026000708/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio RKLB ($12.0M)",
-      "summary": "CEO Beck Peter vendio RKLB por $12.0M el 2026-07-08.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 12022215.52,
-      "event_date": "2026-07-08",
-      "importance_score": 83.7,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
-      "title": "CEO vendio RKLB ($19.8M)",
-      "summary": "CEO Beck Peter vendio RKLB por $19.8M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 19778751.45,
-      "event_date": "2026-07-06",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
-      "title": "CEO compro VII ($3.0M)",
-      "summary": "CEO Wohlin Hakan compro VII por $3.0M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Wohlin Hakan",
-      "actor_type": "ceo",
-      "ticker": "VII",
-      "direction": "buy",
-      "amount_estimated": 3000000.0,
-      "event_date": "2026-07-06",
-      "importance_score": 83.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2094616/000209461626000002/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "CEO vendio RKLB ($18.6M)",
-      "summary": "CEO Beck Peter vendio RKLB por $18.6M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 18628396.39,
-      "event_date": "2026-07-06",
-      "importance_score": 83.2,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "CEO vendio RKLB ($16.4M)",
-      "summary": "CEO Beck Peter vendio RKLB por $16.4M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 16399489.25,
-      "event_date": "2026-07-06",
-      "importance_score": 82.9,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "CEO vendio RKLB ($7.6M)",
-      "summary": "CEO Beck Peter vendio RKLB por $7.6M el 2026-07-07.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 7625913.15,
-      "event_date": "2026-07-07",
-      "importance_score": 82.8,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
-      "title": "CEO vendio RKLB ($13.3M)",
-      "summary": "CEO Beck Peter vendio RKLB por $13.3M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 13278835.44,
-      "event_date": "2026-07-06",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "CEO vendio HOOD ($13.6M)",
-      "summary": "CEO Tenev Vladimir vendio HOOD por $13.6M el 2026-07-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Tenev Vladimir",
-      "actor_type": "ceo",
-      "ticker": "HOOD",
-      "direction": "sell",
-      "amount_estimated": 13576769.17,
-      "event_date": "2026-07-06",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000006/"
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "CEO vendio RKLB ($6.6M)",
-      "summary": "CEO Beck Peter vendio RKLB por $6.6M el 2026-07-07.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 6618607.03,
-      "event_date": "2026-07-07",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "CEO vendio RKLB ($5.8M)",
-      "summary": "CEO Beck Peter vendio RKLB por $5.8M el 2026-07-08.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Beck Peter",
-      "actor_type": "ceo",
-      "ticker": "RKLB",
-      "direction": "sell",
-      "amount_estimated": 5781118.23,
-      "event_date": "2026-07-08",
-      "importance_score": 82.2,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_660927663126",
-        "news_623653496998",
-        "news_32464290711"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1881842/000200101126000109/"
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -432,8 +176,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -448,19 +192,208 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
+      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Nomura Holdings Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 19159260573,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
+      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Citadel Advisors LLC",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16040282989,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
+      "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Geode Capital Management LLC",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 13135619419,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12478004415,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12307921184,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12266872781,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12231430056,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
+      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 11607569229,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
+      "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 11567787969,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
-      {
-        "ticker": "TSM",
-        "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-        "pressure_score": 2162.7,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "EWSB",
         "company": "EWSB Bancorp, Inc. /MD/",
@@ -500,15 +433,6 @@
         "pressure_score": 286.1,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "AVO",
-        "company": "Mission Produce, Inc.",
-        "pressure_score": 239.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -560,14 +484,6 @@
         ]
       },
       {
-        "ticker": "UUUU",
-        "company": "ENERGY FUELS INC",
-        "pressure_score": 151.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CNXC",
         "company": "Concentrix Corp",
         "pressure_score": 147.0,
@@ -575,31 +491,40 @@
           "corporate_insider",
           "large_holder"
         ]
+      },
+      {
+        "ticker": "VIRC",
+        "company": "VIRCO MFG CORPORATION",
+        "pressure_score": 143.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MXF",
+        "company": "MEXICO FUND INC",
+        "pressure_score": 141.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SLGL",
+        "company": "Sol-Gel Technologies Ltd.",
+        "pressure_score": 141.1,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "CRCL",
-        "company": "Circle Internet Group, Inc.",
-        "pressure_score": 2405.3,
+        "ticker": "TBRG",
+        "company": "TruBridge, Inc.",
+        "pressure_score": 1978.2,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BLLN",
-        "company": "BillionToOne, Inc.",
-        "pressure_score": 2012.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab Corp",
-        "pressure_score": 1964.1,
-        "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -611,9 +536,9 @@
         ]
       },
       {
-        "ticker": "TBRG",
-        "company": "TruBridge, Inc.",
-        "pressure_score": 1782.7,
+        "ticker": "CASY",
+        "company": "CASEYS GENERAL STORES INC",
+        "pressure_score": 1734.3,
         "sources": [
           "corporate_insider"
         ]
@@ -630,31 +555,6 @@
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 1528.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1527.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ADI",
-        "company": "Analog Devices, Inc.",
-        "pressure_score": 1518.9,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CASY",
-        "company": "CASEYS GENERAL STORES INC",
-        "pressure_score": 1509.3,
         "sources": [
           "corporate_insider"
         ]
@@ -693,9 +593,51 @@
         ]
       },
       {
-        "ticker": "RBRK",
-        "company": "Rubrik, Inc.",
-        "pressure_score": 1087.6,
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 782.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ATI",
+        "company": "ATI INC",
+        "pressure_score": 740.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DASH",
+        "company": "DoorDash, Inc.",
+        "pressure_score": 659.0,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SMTC",
+        "company": "Stock",
+        "pressure_score": 617.4,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SODI",
+        "company": "SOLITRON DEVICES INC",
+        "pressure_score": 538.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BB",
+        "company": "BLACKBERRY Ltd",
+        "pressure_score": 509.4,
         "sources": [
           "corporate_insider"
         ]
@@ -704,40 +646,13 @@
   },
   "insider_buying": [
     {
-      "ticker": "AVO",
-      "company": "Mission Produce, Inc.",
-      "actor": "Globalharvest Holdings Venture Ltd",
+      "ticker": "FINS",
+      "company": "Angel Oak Financial Strategies Income Term Trust",
+      "actor": "MetLife Investment Management, LLC",
       "actor_type": "ten_percent_owner",
-      "amount": 9222519.24,
+      "amount": 1600000000000000.0,
       "date": "2026-07-08",
-      "score": 85.9
-    },
-    {
-      "ticker": "AVO",
-      "company": "Mission Produce, Inc.",
-      "actor": "Globalharvest Holdings Venture Ltd",
-      "actor_type": "ten_percent_owner",
-      "amount": 6590991.0,
-      "date": "2026-07-07",
-      "score": 83.7
-    },
-    {
-      "ticker": "VII",
-      "company": "Viking Acquisition Corp. II",
-      "actor": "Wohlin Hakan",
-      "actor_type": "ceo",
-      "amount": 3000000.0,
-      "date": "2026-07-06",
-      "score": 83.2
-    },
-    {
-      "ticker": "UUUU",
-      "company": "ENERGY FUELS INC",
-      "actor": "Bhappu Ross R.",
-      "actor_type": "ceo",
-      "amount": 967920.0,
-      "date": "2026-07-07",
-      "score": 80.8
+      "score": 88.3
     },
     {
       "ticker": "BBASX",
@@ -803,15 +718,6 @@
       "score": 76.6
     },
     {
-      "ticker": "HTO",
-      "company": "H2O AMERICA",
-      "actor": "ATLAS Infrastructure Partners (UK) Ltd.",
-      "actor_type": "ten_percent_owner",
-      "amount": 172691.52,
-      "date": "2026-07-07",
-      "score": 76.0
-    },
-    {
       "ticker": "JSDA",
       "company": "JONES SODA CO.",
       "actor": "Harvey Scott F.",
@@ -837,6 +743,42 @@
       "amount": 23914.0,
       "date": "2026-07-08",
       "score": 75.5
+    },
+    {
+      "ticker": "CNXC",
+      "company": "Concentrix Corp",
+      "actor": "Caldwell Christopher A",
+      "actor_type": "ceo",
+      "amount": 21249.7,
+      "date": "2026-07-08",
+      "score": 75.2
+    },
+    {
+      "ticker": "JEM",
+      "company": "707 Cayman Holdings Ltd.",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 186684.48,
+      "date": "2026-07-07",
+      "score": 74.7
+    },
+    {
+      "ticker": "NMM",
+      "company": "Navios Maritime Partners L.P.",
+      "actor": "Frangou Angeliki",
+      "actor_type": "ten_percent_owner",
+      "amount": 84368.44,
+      "date": "2026-07-08",
+      "score": 74.5
+    },
+    {
+      "ticker": "NMM",
+      "company": "Navios Maritime Partners L.P.",
+      "actor": "Frangou Angeliki",
+      "actor_type": "ten_percent_owner",
+      "amount": 81037.84,
+      "date": "2026-07-09",
+      "score": 74.4
     }
   ],
   "institutional_changes": [
@@ -1181,6 +1123,15 @@
       "date": "2026-07-09"
     },
     {
+      "filer": "Melco International Development Limited",
+      "company": "Melco Resorts & Entertainment Limited",
+      "ticker": "MLCO",
+      "ownership_pct": 56.3,
+      "shares": 687360906,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-10"
+    },
+    {
       "filer": "Bleichroeder LP",
       "company": "First Eagle Real Estate Debt Fund",
       "ticker": "",
@@ -1269,15 +1220,6 @@
       "shares": 30844458,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-08"
-    },
-    {
-      "filer": "Peak XV Partners Seed Investment",
-      "company": "Horizon Quantum Holdings Ltd.",
-      "ticker": "",
-      "ownership_pct": 20.3,
-      "shares": 6468999,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-09"
     }
   ],
   "polymarket": {
@@ -1295,9 +1237,19 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 182923.03,
-        "win_rate": 0.9658,
-        "volume": 726817.79,
+        "pnl": 176753.37,
+        "win_rate": 0.9663,
+        "volume": 793020.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc72d7dcdb2",
+        "username": "HongYunX",
+        "pnl": 36452.28,
+        "win_rate": 1.0,
+        "volume": 214123.43,
         "categories": [
           "sports"
         ]
@@ -1305,62 +1257,50 @@
       {
         "wallet": "0x866056133a",
         "username": "0x30353403430dadnm76fes8ma3",
-        "pnl": 33751.43,
-        "win_rate": 0.9,
+        "pnl": 33777.24,
+        "win_rate": 0.9011,
         "volume": 69202.48,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x870fd20e18",
-        "username": "waterx-",
-        "pnl": 25405.26,
-        "win_rate": 0.9118,
-        "volume": 102566.76,
-        "categories": [
-          "crypto",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 121335.29,
+        "pnl": 121406.12,
         "win_rate": 0.803,
-        "volume": 308165.16,
+        "volume": 319600.32,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 25505.32,
-        "win_rate": 0.86,
-        "volume": 400096.27,
+        "wallet": "0xe221be3b45",
+        "username": "Jokerxing7",
+        "pnl": 87391.42,
+        "win_rate": 0.9655,
+        "volume": 863773.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x10a6fadcba",
+        "username": "rabbitfoot1",
+        "pnl": 164875.11,
+        "win_rate": 0.7259,
+        "volume": 432356.54,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xa01c0a5e4f",
-        "username": "0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408",
-        "pnl": 27486.2,
-        "win_rate": 0.8571,
-        "volume": 389321.66,
-        "categories": [
-          "crypto",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 340301.37,
-        "win_rate": 0.68,
-        "volume": 8069539.54,
+        "pnl": 272285.83,
+        "win_rate": 0.687,
+        "volume": 13456441.93,
         "categories": [
           "sports",
           "politics",
@@ -1368,22 +1308,21 @@
         ]
       },
       {
-        "wallet": "0x171b6918d7",
-        "username": "sdwsdas",
-        "pnl": 24490.05,
-        "win_rate": 0.9444,
-        "volume": 40128.87,
+        "wallet": "0x5b4ec9c06b",
+        "username": "ramadamaramadam",
+        "pnl": 66700.39,
+        "win_rate": 0.8824,
+        "volume": 750308.96,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0xc430e5b171",
-        "username": "Gourmet1",
-        "pnl": 33531.96,
-        "win_rate": 0.8919,
-        "volume": 307446.45,
+        "wallet": "0xb61b2079b9",
+        "username": "hot2trot",
+        "pnl": 63682.54,
+        "win_rate": 0.8966,
+        "volume": 14999.98,
         "categories": [
           "sports"
         ]
@@ -1393,9 +1332,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 340301.37,
-        "win_rate": 0.68,
-        "volume": 8069539.54,
+        "pnl": 272285.83,
+        "win_rate": 0.687,
+        "volume": 13456441.93,
         "categories": [
           "sports",
           "politics",
@@ -1403,11 +1342,31 @@
         ]
       },
       {
+        "wallet": "0x09b428f7c2",
+        "username": "DEEDDIT",
+        "pnl": 160587.37,
+        "win_rate": 1.0,
+        "volume": 6181280.91,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
-        "pnl": 583275.55,
+        "pnl": 584949.16,
         "win_rate": 0.5269,
         "volume": 3347212.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 77072.93,
+        "win_rate": 0.612,
+        "volume": 9382798.04,
         "categories": [
           "sports"
         ]
@@ -1423,72 +1382,53 @@
         ]
       },
       {
-        "wallet": "0x09b428f7c2",
-        "username": "DEEDDIT",
-        "pnl": 28437.5,
-        "win_rate": 1.0,
-        "volume": 1750000.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 185773.2,
-        "win_rate": 0.61,
-        "volume": 6652795.4,
+        "pnl": 255473.96,
+        "win_rate": 0.605,
+        "volume": 8780014.72,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 67575.74,
-        "win_rate": 0.618,
-        "volume": 4580083.64,
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 56272.99,
+        "win_rate": 0.344,
+        "volume": 3970308.45,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 41642.09,
+        "pnl": 43508.77,
         "win_rate": 0.5167,
-        "volume": 1093619.4,
+        "volume": 1639602.0,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 392529.89,
-        "win_rate": 0.9198,
-        "volume": 566829.87,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 54850.2,
-        "win_rate": 0.563,
-        "volume": 1733584.14,
+        "pnl": 42982.8,
+        "win_rate": 0.565,
+        "volume": 3816561.51,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x547f2917d5",
-        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 24941.85,
-        "win_rate": 0.7536,
-        "volume": 596609.99,
+        "wallet": "0x5b4ec9c06b",
+        "username": "ramadamaramadam",
+        "pnl": 66700.39,
+        "win_rate": 0.8824,
+        "volume": 750308.96,
         "categories": [
           "sports"
         ]
@@ -1497,55 +1437,47 @@
   },
   "news": [
     {
-      "title": "IKS Health Buys TruBridge",
-      "url": "https://www.themiddlemarket.com/latest-news/iks-health-buys-trubridge",
-      "ticker": "TBRG",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Bank of America Issues Pessimistic Forecast for United Therapeutics ( NASDAQ : UTHR ) Stock Price",
-      "url": "https://www.tickerreport.com/banking-finance/13500188/bank-of-america-issues-pessimistic-forecast-for-united-therapeutics-nasdaquthr-stock-price.html",
-      "ticker": "UTHR",
+      "title": "SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling",
+      "url": "https://www.themarketsdaily.com/2026/07/10/sailpoint-nasdaqsail-shares-down-6-9-on-insider-selling.html",
+      "ticker": "SAIL",
       "themes": [
-        "regulatory",
+        "ai",
         "stock"
       ],
       "date": "2026-07-10"
     },
     {
-      "title": "A Potential New Rival Wants to Undercut TSMC . Here What Investors Need to Know . ",
-      "url": "https://www.fool.com/investing/2026/07/10/a-potential-new-rival-wants-to-undercut-tsmc-heres-what-investors-need-to-know/",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Circle Internet Group shares rise as company receives approval to establish national trust bank",
-      "url": "https://www.proactiveinvestors.com/companies/news/1095272/circle-internet-group-shares-rise-as-company-receives-approval-to-establish-national-trust-bank-1095272.html",
-      "ticker": "CRCL",
+      "title": "CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? ",
+      "url": "https://www.fool.com/coverage/filings/2026/07/10/coreweave-s-ceo-dumped-nearly-370-000-shares-for-usd30-8-million-what-does-that-mean-for-investors/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
-        "regulatory",
+        "leadership",
         "stock"
       ],
       "date": "2026-07-10"
     },
     {
-      "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
-      "ticker": "TBRG",
+      "title": "CoreWeave CEO Sells Another $22 Million in Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-ceo-sells-another-22-164738819.html",
+      "ticker": "CRWV",
       "themes": [
-        "merger"
+        "leadership",
+        "stock"
       ],
       "date": "2026-07-10"
     },
     {
-      "title": "IKS Health Completes Acquisition of TruBridge",
-      "url": "http://www.bignewsnetwork.com/news/279178465/iks-health-completes-acquisition-of-trubridge",
-      "ticker": "TBRG",
-      "themes": [
-        "merger"
-      ],
+      "title": "TV drama filming to bring temporary parking closures to Navan",
+      "url": "https://www.meathchronicle.ie/2026/07/10/tv-drama-filming-to-bring-temporary-parking-closures-to-navan/",
+      "ticker": "NAVN",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Gardaí appeal for help in tracing whereabouts of missing Navan teen",
+      "url": "https://www.meathchronicle.ie/2026/07/10/gardai-appeal-for-help-in-tracing-whereabouts-of-missing-navan-teen/",
+      "ticker": "NAVN",
+      "themes": [],
       "date": "2026-07-10"
     },
     {
@@ -1558,43 +1490,20 @@
       "date": "2026-07-10"
     },
     {
-      "title": "IKS Health Completes Acquisition of TruBridge",
-      "url": "https://aninews.in/news/business/iks-health-completes-acquisition-of-trubridge20260710110332/",
-      "ticker": "TBRG",
+      "title": "Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13499301/insider-selling-sailpoint-nasdaqsail-ceo-sells-1438069-20-in-stock.html",
+      "ticker": "SAIL",
       "themes": [
-        "merger"
-      ],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Rocket Lab Bull - Case Target Set at $293 by Morgan Stanley",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-bull-case-target-171143678.html",
-      "ticker": "RKLB",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Martine Rothblatt Sells 9 , 500 Shares of United Therapeutics ( NASDAQ : UTHR ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13499304/martine-rothblatt-sells-9500-shares-of-united-therapeutics-nasdaquthr-stock-4.html",
-      "ticker": "UTHR",
-      "themes": [
+        "ai",
+        "leadership",
         "stock"
       ],
       "date": "2026-07-09"
     },
     {
-      "title": "Insider Selling : Analog Devices ( NASDAQ : ADI ) Director Sells 1 , 416 Shares",
-      "url": "https://www.themarketsdaily.com/2026/07/09/insider-selling-analog-devices-nasdaqadi-director-sells-1416-shares.html",
-      "ticker": "ADI",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? ",
-      "url": "https://www.fool.com/investing/2026/07/09/rocket-lab-stock-gained-118-over-the-past-year-is/?source=iedfolrf0000001",
-      "ticker": "RKLB",
+      "title": "Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13499305/insider-selling-sailpoint-nasdaqsail-cao-sells-3881-shares-of-stock.html",
+      "ticker": "SAIL",
       "themes": [
         "ai",
         "stock"
@@ -1602,10 +1511,39 @@
       "date": "2026-07-09"
     },
     {
-      "title": "Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor",
-      "url": "https://www.fool.com/investing/2026/07/09/rocket-lab-delivers-successful-mission-after-shattering-launch-record-here-s-what-it-means-for-the-spacex-competitor/",
-      "ticker": "RKLB",
+      "title": "Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/09/insider-selling-sailpoint-nasdaqsail-general-counsel-sells-291283-80-in-stock.html",
+      "ticker": "SAIL",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-09"
+    },
+    {
+      "title": "Insider Selling : SailPoint ( NASDAQ : SAIL ) CFO Sells 46 , 002 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13499303/insider-selling-sailpoint-nasdaqsail-cfo-sells-46002-shares.html",
+      "ticker": "SAIL",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-09"
+    },
+    {
+      "title": "Navan man brought young son to scene of break - in and assault",
+      "url": "https://www.meathchronicle.ie/2026/07/09/navan-man-brought-young-son-to-scene-of-break-in-and-assault/",
+      "ticker": "NAVN",
       "themes": [],
+      "date": "2026-07-09"
+    },
+    {
+      "title": "Navan fundraiser for Venezuela this weekend",
+      "url": "https://www.meathchronicle.ie/2026/07/09/navan-fundraiser-for-venezuela-this-weekend/",
+      "ticker": "NAVN",
+      "themes": [
+        "ai"
+      ],
       "date": "2026-07-09"
     },
     {
@@ -1619,26 +1557,6 @@
       "date": "2026-07-09"
     },
     {
-      "title": "Analog Devices acquires Empower Semiconductor and enters AI power market",
-      "url": "https://www.digitimes.com/news/a20260709VL208/analog-devices-market-acquisition-infrastructure-technology.html",
-      "ticker": "ADI",
-      "themes": [
-        "ai",
-        "merger"
-      ],
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/09/billiontoone-nasdaqblln-ceo-oguzhan-atay-sells-26250-shares-of-stock.html",
-      "ticker": "BLLN",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-07-09"
-    },
-    {
       "title": "Samsara ( IOT ) Unveils AI - Powered Smart Label for Real - Time Shipment Visibility",
       "url": "https://finance.yahoo.com/technology/ai/articles/samsara-iot-unveils-ai-powered-182459856.html",
       "ticker": "IOT",
@@ -1646,28 +1564,9 @@
         "ai"
       ],
       "date": "2026-07-08"
-    },
-    {
-      "title": "2026 - 07 - 06 | ROSEN , NATIONAL TRIAL COUNSEL , Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation - TBRG | NDAQ : TBRG",
-      "url": "https://stockhouse.com/news/press-releases/2026/07/06/rosen-national-trial-counsel-encourages-trubridge-inc-investors-to-inquire-about",
-      "ticker": "TBRG",
-      "themes": [
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-07-07"
-    },
-    {
-      "title": "United Therapeutics Buys Thymmune in $300m deal",
-      "url": "https://www.bioxconomy.com/partnering/united-therapeutics-buys-thymmune-in-300m-deal",
-      "ticker": "UTHR",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-06"
     }
   ],
-  "signals_count": 1766,
+  "signals_count": 1610,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
