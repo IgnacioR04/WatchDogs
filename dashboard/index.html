@@ -443,9 +443,10 @@ function CommandCenter({ d }){
         </div>
         {mc&&(<div className="card">
           <h3>Monte Carlo {mc.horizon_days||21}d ({fmtNum(mc.n_sims)} sims)</h3>
-          <div className="bigrow"><span>Retorno esperado</span><b className={"amt "+(mc.expected>=0?"pos":"neg")}>{pctf(mc.expected)}</b></div>
-          <div className="bigrow"><span>Escenario malo (p5)</span><b className="amt neg">{pctf(mc.p5)}</b></div>
-          <div className="bigrow"><span>Escenario bueno (p95)</span><b className="amt pos">{pctf(mc.p95)}</b></div>
+          {/* el risk report da *_return_pct ya en unidades de % (2.28 = +2.28%) */}
+          <div className="bigrow"><span>Retorno esperado</span><b className={"amt "+((mc.expected_return_pct||0)>=0?"pos":"neg")}>{mc.expected_return_pct!=null?(mc.expected_return_pct>=0?"+":"")+mc.expected_return_pct.toFixed(2)+"%":"-"}</b></div>
+          <div className="bigrow"><span>Escenario malo (p5)</span><b className="amt neg">{mc.p5_return_pct!=null?mc.p5_return_pct.toFixed(2)+"%":"-"}</b></div>
+          <div className="bigrow"><span>Escenario bueno (p95)</span><b className="amt pos">{mc.p95_return_pct!=null?"+"+mc.p95_return_pct.toFixed(2)+"%":"-"}</b></div>
           <div className="bigrow"><span>Prob. de pérdida</span><b className="amt">{pctf(mc.prob_loss)}</b></div>
         </div>)}
       </div>
