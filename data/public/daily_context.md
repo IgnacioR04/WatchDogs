@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-10T11:36:17+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
+_Generado 2026-07-10T13:13:26+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.83)
+- Volatilidad: `normal` (VIX 15.8)
 - Tendencia: `bull` (SPY 751.71 · MA50 739.0 · MA200 690.63 · dist MA200: 8.84%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.38)
@@ -68,6 +68,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | EWSB | 80 | corporate_insider | Schmalz Charles D | 5 | $85,000 | cluster_buy |
 | EWSB | 80 | corporate_insider | Mangold James E | 5 | $399,500 | cluster_buy |
 | EWSB | 80 | corporate_insider | Schneider Kory J | 5 | $328,600 | cluster_buy |
+| WRAP | 78 | corporate_insider | Cohen Scot | 2 | $230,288 | cluster_buy |
 | EWSB | 78 | corporate_insider | Schneider Kory J | 5 | $150,400 | cluster_buy |
 | BBASX | 78 | corporate_insider | BROWN BROTHERS HARRIMAN C | 2 | $456,503 | cluster_buy |
 | EWSB | 76 | corporate_insider | Vander Loop Kailee | 5 | $76,400 | cluster_buy |
@@ -76,7 +77,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | WRAP | 73 | corporate_insider | Cohen Scot | 2 | $23,914 | cluster_buy,small_amount |
 | EWSB | 73 | corporate_insider | Vander Loop Kailee | 5 | $15,000 | cluster_buy,small_amount |
 | WRAP | 73 | corporate_insider | SHULMAN JOHN D | 2 | $110,000 | cluster_buy |
-| WRAP | 72 | large_holder | NORRIS ELWOOD G |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -105,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.49 (0.15% / -1.2% / -0.37%) [2026-07-09]
 - IEF: 93.71 (0.21% / -0.34% / 0.26%) [2026-07-09]
 - GLD: 378.18 (1.0% / 2.05% / -3.22%) [2026-07-09]
-- ^VIX: 15.83 (-0.06% / -1.98% / -28.76%) [2026-07-10]
-- BTC-USD: 64366.01 (1.86% / 1.29% / 0.2%) [2026-07-10]
+- ^VIX: 15.8 (-0.25% / -2.17% / -28.89%) [2026-07-10]
+- BTC-USD: 64213.97 (1.62% / 1.05% / -0.04%) [2026-07-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,15 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), leadership (1), regulatory (1)
+**Temas dominantes**: stock (5), regulatory (2), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CFO Sells 46 , 002 Shares (2026-07-09)
+- [CRCL] Circle Internet wins OCC approval for national trust bank ( CRCL : NYSE ) (2026-07-10)
+- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
+- [RKLB] Rocket Lab Bull - Case Target Set at $293 by Morgan Stanley (2026-07-10)
+- [UTHR] Martine Rothblatt Sells 9 , 500 Shares of United Therapeutics ( NASDAQ : UTHR ) Stock (2026-07-09)
+- [RKLB] Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? (2026-07-09)
+- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
 - [AXON] Axon Enterprise , Inc $AXON Shares Sold by Swedbank AB (2026-07-09)
+- [IOT] Samsara ( IOT ) Unveils AI - Powered Smart Label for Real - Time Shipment Visibility (2026-07-08)
+- [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
+- [UTHR] United Therapeutics Buys Thymmune in $300m deal (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $392,524 · win rate 92% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $98,554 · win rate 96% · categorias: sports
-- Uniform123 · PnL $36,734 · win rate 93% · categorias: sports
-- waterx- · PnL $25,362 · win rate 91% · categorias: crypto, sports
-- matenghehe · PnL $19,860 · win rate 93% · categorias: sports, crypto
+- Sassy-Bucket · PnL $392,530 · win rate 92% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $62,344 · win rate 96% · categorias: sports
+- ExplosiveNinja · PnL $27,188 · win rate 97% · categorias: sports
+- Uniform123 · PnL $28,701 · win rate 93% · categorias: sports
+- matenghehe · PnL $21,596 · win rate 93% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
