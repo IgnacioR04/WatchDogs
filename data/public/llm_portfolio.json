@@ -1,38 +1,31 @@
 {
-  "generated_at": "2026-07-08T19:03:16+00:00",
+  "generated_at": "2026-07-10T08:55:16+00:00",
   "verdict_llm": "adjust",
-  "thesis": "Regimen risk_on con presupuesto 90% y tendencia alcista intacta: se despliega parte del cash (de 17.2% a 10.6%) hacia los satelites con mayor conviccion cruzada del ciclo (COE, FVR, GLUE, EPAM), manteniendo el core intacto. Las posiciones existentes sin señal nueva (PSBD, MOMO, ASC, NWL, HPE) se mantienen: no hay señales de venta contra ellas y rotarlas sin tesis rota solo añadiria coste de friccion. Exposicion total 89.4%, dentro del presupuesto.",
+  "thesis": "Régimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, crédito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satélites porque ninguno tiene señal de venta en contra este ciclo. Libero las dos posiciones más pequeñas y sin señal vigente (NWL, HPE) para incorporar AVO, la idea con convicción cruzada más fuerte del ciclo: dos tipos de fuente distintos (insider + large_holder) y compras confirmadas por noticias esta misma semana. Descarto GGAL (score mas alto, 236.8, pero una sola fuente) y APGE (211.5, solo large_holder) por menor diversidad de fuente frente a AVO, y evito RH (ya fuera de la cartera candidata este ciclo) y BEP (precio -9.54% en 20d pese al buy del Congreso).",
   "key_risks": [
-    "Los satelites heredados (PSBD, MOMO, ASC, NWL, HPE, ~9.3%) carecen de confirmacion de señal este ciclo; si en proximos ciclos siguen sin soporte, seran candidatos a recorte para financiar ideas nuevas.",
-    "GLUE y FVR se compran tras subidas fuertes a 20d; riesgo de entrar tarde en el movimiento del smart money (latencia 13D/13G).",
-    "Debilidad reciente en tech (QQQ -3.67% 5d, INTC -22.97% 5d) podria contagiar a satelites growth; el VIX +5% en el dia sugiere vigilar el sub-estado de volatilidad.",
-    "INTC se descarta pese a la señal del Congreso: fuente unica, latencia legal alta y caida severa a 5d sin confirmacion de otras fuentes."
+    "AVO ya subió +22.82% en 20d; parte del movimiento de smart money podría estar ya descontado en precio, aunque las compras del 10% owner son de los últimos 2-3 días.",
+    "GGAL tiene el score agregado mas alto (236.8) pero se descarta por depender de una sola fuente (corporate_insider); si en próximos ciclos suma una segunda fuente, sería candidato preferente.",
+    "Exposición total queda en 89.8%, muy cerca del techo del 90%: poco margen para nuevas ideas sin rotar posiciones existentes en próximos ciclos."
   ],
   "confidence": 0.6,
   "adjustments": [
     {
-      "ticker": "COE",
-      "action": "increase",
-      "target_weight": 0.025,
-      "reason": "Mayor conviccion cruzada del briefing: score agregado 470.2 con 7 señales de insiders, incluyendo compras del CEO Huang Jack Jiajia por ~$14M los dias 1-2 de julio. Peso actual (0.9%) infrarrepresenta la señal; se sube manteniendolo como satelite pequeño dado el -22.97% a 20d."
+      "ticker": "NWL",
+      "action": "remove",
+      "target_weight": 0.0,
+      "reason": "Sin señal de smart money vigente en la ventana 30d de este ciclo; posición residual de ciclos anteriores con peso marginal (1.1%). Se libera para financiar AVO, la idea de mayor convicción cruzada del briefing."
     },
     {
-      "ticker": "FVR",
-      "action": "add",
-      "target_weight": 0.02,
-      "reason": "2 señales large_holder (BlackRock), score agregado 141, con momentum positivo (+2.47% 5d, +10.33% 20d) coherente con regimen risk_on."
+      "ticker": "HPE",
+      "action": "remove",
+      "target_weight": 0.0,
+      "reason": "Igual que NWL: sin señal actual que sostenga la tesis, peso marginal (1.1%), no aporta convicción frente a la nueva idea AVO."
     },
     {
-      "ticker": "GLUE",
+      "ticker": "AVO",
       "action": "add",
-      "target_weight": 0.015,
-      "reason": "2 señales large_holder (T. Rowe Price), score agregado 142. Tamaño reducido porque el +38.65% a 20d indica que parte del movimiento ya ha ocurrido."
-    },
-    {
-      "ticker": "EPAM",
-      "action": "add",
-      "target_weight": 0.015,
-      "reason": "2 señales large_holder, score agregado 141, precio aun -9.96% a 20d: entrada no perseguida. Tamaño pequeño por volatilidad reciente."
+      "target_weight": 0.026,
+      "reason": "Score agregado 206.1 con 3 señales de DOS fuentes distintas (corporate_insider + large_holder), la convicción cruzada más solida del briefing. Confirmado por noticias: el 10% owner Globalharvest Holdings Venture Ltd compró AVO por $9.2M (2026-07-08) y $6.6M (2026-07-07), flujo de compra reciente y no solo historico. Tamaño moderado porque el precio ya acumula +22.82% en 20d."
     }
   ],
   "final_weights": {
@@ -50,20 +43,19 @@
     "ASC": 0.017,
     "GLUE": 0.015,
     "EPAM": 0.015,
-    "NWL": 0.011,
-    "HPE": 0.011
+    "AVO": 0.026
   },
   "metrics": {
-    "ann_vol": 0.0918,
-    "var_95_1d": 0.0083,
-    "cvar_95_1d": 0.0135,
-    "max_drawdown": -0.1021,
-    "beta_spy": 0.447,
-    "hhi": 0.0859,
+    "ann_vol": 0.0889,
+    "var_95_1d": 0.0086,
+    "cvar_95_1d": 0.0131,
+    "max_drawdown": -0.0958,
+    "beta_spy": 0.423,
+    "hhi": 0.0863,
     "max_position": 0.12,
-    "n_positions": 16,
+    "n_positions": 15,
     "effective_positions": 11.6,
-    "gross_exposure": 0.894,
+    "gross_exposure": 0.898,
     "days_used": 439
   },
   "risk_gate": {

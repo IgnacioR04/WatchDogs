@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-10T08:08:11+00:00 -->
+<!-- trader_prompt.md generado 2026-07-10T08:55:42+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-07-08T19:03:16+00:00_
+_Ultima cartera aprobada: 2026-07-10T08:55:16+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|
@@ -214,15 +214,14 @@ _Ultima cartera aprobada: 2026-07-08T19:03:16+00:00_
 | IEF | 9.8% | 9.80 € |
 | PSBD | 3.1% | 3.10 € |
 | GF | 2.8% | 2.80 € |
+| AVO | 2.6% | 2.60 € |
 | COE | 2.5% | 2.50 € |
 | MOMO | 2.3% | 2.30 € |
 | FVR | 2.0% | 2.00 € |
 | ASC | 1.7% | 1.70 € |
 | GLUE | 1.5% | 1.50 € |
 | EPAM | 1.5% | 1.50 € |
-| NWL | 1.1% | 1.10 € |
-| HPE | 1.1% | 1.10 € |
-| **EFECTIVO** | **10.6%** | **10.60 €** |
+| **EFECTIVO** | **10.2%** | **10.20 €** |
 
 Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respetando las reglas de la seccion de arriba.
 

@@ -45,5 +45,29 @@
     "thesis": "Regimen risk_on con presupuesto 90% y tendencia alcista intacta: se despliega parte del cash (de 17.2% a 10.6%) hacia los satelites con mayor conviccion cruzada del ciclo (COE, FVR, GLUE, EPAM), manteniendo el core intacto. Las posiciones existentes sin señal nueva (PSBD, MOMO, ASC, NWL, HPE) se mantienen: no hay señales de venta contra ellas y rotarlas sin tesis rota solo añadiria coste de friccion. Exposicion total 89.4%, dentro del presupuesto.",
     "confidence": 0.6,
     "n_adjustments": 4
+  },
+  {
+    "approved_at": "2026-07-10T08:55:16+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.12,
+      "VFLEX": 0.12,
+      "IEF": 0.098,
+      "PSBD": 0.031,
+      "GF": 0.028,
+      "COE": 0.025,
+      "MOMO": 0.023,
+      "FVR": 0.02,
+      "ASC": 0.017,
+      "GLUE": 0.015,
+      "EPAM": 0.015,
+      "AVO": 0.026
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Régimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, crédito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satélites porque ninguno tiene señal de venta en contra este ciclo. Libero las dos posiciones más pequeñas y sin señal vigente (NWL, HPE) para incorporar AVO, la idea con convicción cruzada más fuerte del ciclo: dos tipos de fuente distintos (insider + large_holder) y compras confirmadas por noticias esta misma semana. Descarto GGAL (score mas alto, 236.8, pero una sola fuente) y APGE (211.5, solo large_holder) por menor diversidad de fuente frente a AVO, y evito RH (ya fuera de la cartera candidata este ciclo) y BEP (precio -9.54% en 20d pese al buy del Congreso).",
+    "confidence": 0.6,
+    "n_adjustments": 3
   }
 ]
