@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-09T23:50:55+00:00 -->
+<!-- trader_prompt.md generado 2026-07-10T04:33:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-09T23:50:55+00:00 · ventana señales 2026-06-09 -> 2026-07-09_
+_Generado 2026-07-10T04:33:20+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,27 +257,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 751.71 | 0.85% | 0.8% | 2.25% |
 | QQQ | 12.0% | core | 723.28 | 1.66% | -0.26% | 2.3% |
 | TLT | 12.0% | core | 84.49 | 0.15% | -1.2% | -0.37% |
-| BEP | 11.3% | satellite | 32.98 | -1.2% | -4.04% | -9.54% |
 | GLD | 9.3% | core | 378.18 | 1.0% | 2.05% | -3.22% |
-| AVO | 7.0% | satellite | 13.35 | -1.11% | 7.32% | 22.82% |
+| BEP | 7.3% | satellite | 32.98 | -1.2% | -4.04% | -9.54% |
 | IEF | 6.2% | core | 93.71 | 0.21% | -0.34% | 0.26% |
-| WRBY | 4.2% | satellite | 29.32 | 5.96% | -0.17% | 18.13% |
-| NUVL | 4.1% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
-| INTC | 3.5% | satellite | 112.54 | 2.09% | -11.4% | 4.28% |
-| APGE | 3.3% | satellite | 133.57 | 0.24% | 0.6% | 57.14% |
+| NMM | 5.3% | satellite | 73.77 | -2.7% | 3.84% | 2.17% |
+| AVO | 4.5% | satellite | 13.35 | -1.11% | 7.32% | 22.82% |
+| GGAL | 4.0% | satellite | 49.39 | -1.71% | 0.69% | -1.2% |
+| WRBY | 2.7% | satellite | 29.32 | 5.96% | -0.17% | 18.13% |
+| NUVL | 2.6% | satellite | 123.83 | 0.02% | 0.19% | 0.47% |
+| NTSK | 2.6% | satellite | 12.42 | 4.19% | 6.52% | 38.0% |
+| INTC | 2.3% | satellite | 112.54 | 2.09% | -11.4% | 4.28% |
+| APGE | 2.1% | satellite | 133.57 | 0.24% | 0.6% | 57.14% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 15.4%
-- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -4.7%
-- Beta vs SPY: 0.809 · posiciones efectivas: 12.6 · HHI: 0.0793
+- Volatilidad anualizada: 14.5%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -4.9%
+- Beta vs SPY: 0.821 · posiciones efectivas: 14.2 · HHI: 0.0706
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **GGAL** · score agregado 236.8 · 4 señales · fuentes: corporate_insider
 - **APGE** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **AVO** · score agregado 206.1 · 3 señales · fuentes: corporate_insider, large_holder
+- **NMM** · score agregado 174.2 · 3 señales · fuentes: corporate_insider
 - **WRBY** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **NTSK** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -310,12 +316,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
-| AESI | 64 | congress | Chip Roy | $250,000 | - |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| GE | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -332,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.71 (0.21% / -0.34% / 0.26%) [2026-07-09]
 - GLD: 378.18 (1.0% / 2.05% / -3.22%) [2026-07-09]
 - ^VIX: 15.84 (-6.27% / -4.52% / -20.28%) [2026-07-09]
-- BTC-USD: 63198.92 (1.51% / 0.18% / -0.54%) [2026-07-09]
+- BTC-USD: 63813.48 (2.5% / 1.15% / 0.43%) [2026-07-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -347,19 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), merger (1)
+**Temas dominantes**: stock (4), leadership (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RKLB] Rocket Lab Stock Gained 118 % Over the Past Year . Is It Time to Buy ? (2026-07-09)
-- [RKLB] Rocket Lab Delivers Successful Mission After Shattering Launch Record : Here What It Means for the SpaceX Competitor (2026-07-09)
-- [RKLB] Rocket Lab Shares Climb as Wall Street Weighs $8 Billion Iridium Deal , $3 . 6 Billion Bridge Loan - Rocket (2026-07-09)
-- [PTCT] PTC Therapeutics ( NASDAQ : PTCT ) Hits New 12 - Month High on Analyst Upgrade (2026-07-09)
-- [CRWV] Jim Cramer on CoreWeave :  I Think It One of the Stronger Players in the Neocloud Space (2026-07-09)
-- [PTCT] PTC Therapeutics , Inc . ( NASDAQ : PTCT ) Receives $91 . 36 Average PT from Analysts (2026-07-09)
-- [OMDA] Omada Health ( NASDAQ : OMDA ) CFO Sells 23 , 263 Shares of Stock (2026-07-09)
+- [CRWV] Michael Intrator Sells 61 , 797 Shares of CoreWeave ( NASDAQ : CRWV ) Stock (2026-07-10)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) CEO Michael Intrator Sells 200 , 000 Shares of Stock (2026-07-10)
+- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 - [IOT] Samsara ( IOT ) Unveils AI - Powered Smart Label for Real - Time Shipment Visibility (2026-07-08)
-- [CRCL] How Circle Internet Group Stock Lost 45 % Last Month (2026-07-08)
 - [IOT] Samsara ( NYSE : IOT ) Insider Sells 3 , 653 Shares (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -375,19 +376,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $252,966 · win rate 99% · categorias: sports
-- Allezpapa · PnL $206,002 · win rate 99% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $150,715 · win rate 97% · categorias: sports
-- shijiebeifacai · PnL $138,874 · win rate 97% · categorias: sports
-- BreakTheBank · PnL $196,648 · win rate 88% · categorias: sports
+- Sassy-Bucket · PnL $37,537 · win rate 92% · categorias: sports
+- NiFengFanPan · PnL $15,972 · win rate 93% · categorias: sports, politics, economy
+- esportGG · PnL $12,834 · win rate 94% · categorias: sports
+- ic4cream · PnL $13,262 · win rate 89% · categorias: sports
+- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $22,075 · win rate 85% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 83 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 915 registros 30d · ultimo dato 2026-07-09
+- **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-07
+- **sec_insiders**: `ok` · 916 registros 30d · ultimo dato 2026-07-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-09
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -400,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, IEF, INTC, NUVL, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GGAL, GLD, IEF, INTC, NMM, NTSK, NUVL, QQQ, SPY, TLT, WRBY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
