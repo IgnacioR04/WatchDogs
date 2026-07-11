@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-11T09:16:07+00:00 -->
+<!-- trader_prompt.md generado 2026-07-11T10:51:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-11T09:16:07+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
+_Generado 2026-07-11T10:51:20+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -333,7 +333,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 64184.52 (0.09% / 0.3% / 1.5%) [2026-07-11]
+- BTC-USD: 64123.52 (-0.01% / 0.2% / 1.4%) [2026-07-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,20 +348,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (8), stock (8), leadership (3), merger (3), legal (2), regulatory (2)
+**Temas dominantes**: ai (6), stock (6), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Wolfe Research Maintains Outperform rating on CoreWeave ( CRWV ) (2026-07-11)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
-- [CRWV] CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? (2026-07-10)
 - [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
-- [TBRG] IKS Health Buys TruBridge (2026-07-10)
-- [CRWV] CoreWeave CEO Sells Another $22 Million in Stock (2026-07-10)
-- [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
+- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CFO Sells 46 , 002 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +373,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $12,577 · win rate 99% · categorias: sports
-- NiFengFanPan · PnL $23,812 · win rate 94% · categorias: sports, politics, economy
-- SDTrading · PnL $19,651 · win rate 94% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $36,219 · win rate 89% · categorias: sports
-- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $20,801 · win rate 88% · categorias: crypto, sports
+- RJW1 · PnL $19,973 · win rate 99% · categorias: sports
+- NiFengFanPan · PnL $23,981 · win rate 94% · categorias: sports, politics, economy
+- SDTrading · PnL $19,707 · win rate 94% · categorias: sports
+- 111111111115 · PnL $16,957 · win rate 98% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $36,219 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
