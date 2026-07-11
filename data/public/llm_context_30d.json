@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-11T14:11:59.444435+00:00",
+  "generated_at": "2026-07-11T15:30:45.195369+00:00",
   "window": {
     "from": "2026-06-11",
     "to": "2026-07-11",
@@ -23,9 +23,12 @@
   },
   "market_context": {
     "top_themes": [
+      "ai",
       "stock",
-      "leadership",
-      "ai"
+      "merger",
+      "legal",
+      "regulatory",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -63,7 +66,11 @@
       "event_date": "2026-07-09",
       "importance_score": 86.8,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_833290019321",
+        "news_842820762414",
+        "news_527697221826"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
@@ -117,7 +124,11 @@
       "event_date": "2026-07-09",
       "importance_score": 84.8,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_833290019321",
+        "news_842820762414",
+        "news_527697221826"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
     {
@@ -189,7 +200,11 @@
       "event_date": "2026-07-09",
       "importance_score": 82.1,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_833290019321",
+        "news_842820762414",
+        "news_527697221826"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1454872/000145487226000008/"
     },
     {
@@ -207,7 +222,11 @@
       "event_date": "2026-07-09",
       "importance_score": 81.9,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_833290019321",
+        "news_842820762414",
+        "news_527697221826"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1665051/000166505126000002/"
     },
     {
@@ -1225,11 +1244,11 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 151427.57,
-        "win_rate": 0.8776,
-        "volume": 353215.13,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 56097.16,
+        "win_rate": 0.9653,
+        "volume": 631496.29,
         "categories": [
           "sports"
         ]
@@ -1237,9 +1256,19 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 19086.86,
+        "pnl": 22688.87,
         "win_rate": 0.9859,
-        "volume": 141788.87,
+        "volume": 275416.67,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 134559.15,
+        "win_rate": 0.86,
+        "volume": 912354.97,
         "categories": [
           "sports"
         ]
@@ -1247,29 +1276,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 21430.68,
+        "pnl": 20184.49,
         "win_rate": 0.9697,
-        "volume": 122849.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 33696.87,
-        "win_rate": 0.9388,
-        "volume": 552612.7,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 18402.12,
-        "win_rate": 0.9652,
-        "volume": 496857.85,
+        "volume": 124075.92,
         "categories": [
           "sports"
         ]
@@ -1277,7 +1286,7 @@
       {
         "wallet": "0xd48a81db62",
         "username": "NiFengFanPan",
-        "pnl": 24521.44,
+        "pnl": 24378.21,
         "win_rate": 0.942,
         "volume": 0.0,
         "categories": [
@@ -1289,21 +1298,21 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 19763.88,
+        "pnl": 19716.28,
         "win_rate": 0.9362,
-        "volume": 51375.64,
+        "volume": 68613.73,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 19642.17,
-        "win_rate": 0.8966,
-        "volume": 28561.21,
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 16090.68,
+        "win_rate": 0.939,
+        "volume": 607800.04,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
@@ -1318,14 +1327,25 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 181986.35,
-        "win_rate": 0.721,
-        "volume": 3437989.73,
+        "wallet": "0xe5c215ac42",
+        "username": "dwFqcd4Z",
+        "pnl": 17707.3,
+        "win_rate": 0.8857,
+        "volume": 222296.75,
+        "categories": [
+          "politics",
+          "economy",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 16162.48,
+        "win_rate": 0.8853,
+        "volume": 311438.96,
         "categories": [
           "sports",
-          "politics",
           "crypto"
         ]
       }
@@ -1334,9 +1354,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 181986.35,
-        "win_rate": 0.721,
-        "volume": 3437989.73,
+        "pnl": 202213.34,
+        "win_rate": 0.718,
+        "volume": 4219054.56,
         "categories": [
           "sports",
           "politics",
@@ -1346,18 +1366,28 @@
       {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 85497.35,
-        "win_rate": 0.341,
-        "volume": 2992052.69,
+        "pnl": 95220.08,
+        "win_rate": 0.342,
+        "volume": 3524716.84,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 134559.15,
+        "win_rate": 0.86,
+        "volume": 912354.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 209378.98,
+        "pnl": 207543.56,
         "win_rate": 0.542,
         "volume": 578363.71,
         "categories": [
@@ -1369,19 +1399,9 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 85490.05,
-        "win_rate": 0.599,
-        "volume": 869466.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1610db79f7",
-        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 86967.2,
-        "win_rate": 0.5899,
-        "volume": 455801.88,
+        "pnl": 86609.42,
+        "win_rate": 0.602,
+        "volume": 1018162.51,
         "categories": [
           "sports"
         ]
@@ -1389,19 +1409,19 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 18402.12,
-        "win_rate": 0.9652,
-        "volume": 496857.85,
+        "pnl": 56097.16,
+        "win_rate": 0.9653,
+        "volume": 631496.29,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 151427.57,
-        "win_rate": 0.8776,
-        "volume": 353215.13,
+        "wallet": "0x1610db79f7",
+        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
+        "pnl": 86887.26,
+        "win_rate": 0.5887,
+        "volume": 455801.88,
         "categories": [
           "sports"
         ]
@@ -1409,30 +1429,29 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 19246.83,
-        "win_rate": 0.544,
-        "volume": 909614.89,
+        "pnl": 25795.76,
+        "win_rate": 0.546,
+        "volume": 1110289.66,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 30246.87,
-        "win_rate": 0.51,
-        "volume": 3490836.17,
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 22688.87,
+        "win_rate": 0.9859,
+        "volume": 275416.67,
         "categories": [
-          "crypto",
           "sports"
         ]
       },
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 33696.87,
-        "win_rate": 0.9388,
-        "volume": 552612.7,
+        "pnl": 16090.68,
+        "win_rate": 0.939,
+        "volume": 607800.04,
         "categories": [
           "sports"
         ]
@@ -1450,17 +1469,23 @@
       "date": "2026-07-11"
     },
     {
-      "title": "Dell ( DELL ) Says XPS Eyesafe Study Improved Sleep Eye Comfort And Productivity",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-dell-says-xps-eyesafe-041604537.html",
-      "ticker": "DELL",
-      "themes": [],
-      "date": "2026-07-11"
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-10"
     },
     {
-      "title": "Dell Technologies ( NYSE : DELL ) Trading Down 3 . 3 % – Here What Happened",
-      "url": "https://www.dailypolitical.com/2026/07/10/dell-technologies-nysedell-trading-down-3-3-heres-what-happened.html",
-      "ticker": "DELL",
-      "themes": [],
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
       "date": "2026-07-10"
     },
     {
@@ -1474,12 +1499,55 @@
       "date": "2026-07-10"
     },
     {
+      "title": "CrowdStrike identifies five new prompt injection threats to AI",
+      "url": "https://www.csoonline.com/article/4195670/crowdstrike-identifies-five-new-prompt-injection-threats-to-ai.html",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Buys TruBridge",
+      "url": "https://www.themiddlemarket.com/latest-news/iks-health-buys-trubridge",
+      "ticker": "TBRG",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
       "title": "CoreWeave CEO Sells Another $22 Million in Stock",
       "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-ceo-sells-another-22-164738819.html",
       "ticker": "CRWV",
       "themes": [
         "leadership",
         "stock"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target",
+      "url": "https://seekingalpha.com/news/4612957-mongodb-differentiates-from-snowflake-datadog-needham-retains-buy-rating-raises-target",
+      "ticker": "DDOG",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
+      "ticker": "TBRG",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Completes Acquisition of TruBridge",
+      "url": "http://www.bignewsnetwork.com/news/279178465/iks-health-completes-acquisition-of-trubridge",
+      "ticker": "TBRG",
+      "themes": [
+        "merger"
       ],
       "date": "2026-07-10"
     },
@@ -1493,11 +1561,13 @@
       "date": "2026-07-10"
     },
     {
-      "title": "Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) ",
-      "url": "https://www.dailypolitical.com/2026/06/29/investment-analysts-recent-ratings-updates-for-kilroy-realty-krc.html",
-      "ticker": "NYSE: KRC",
-      "themes": [],
-      "date": "2026-06-29"
+      "title": "IKS Health Completes Acquisition of TruBridge",
+      "url": "https://aninews.in/news/business/iks-health-completes-acquisition-of-trubridge20260710110332/",
+      "ticker": "TBRG",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-10"
     }
   ],
   "signals_count": 1597,
