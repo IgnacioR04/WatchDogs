@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-11T21:25:55+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
+_Generado 2026-07-11T22:26:07+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 64332.59 (0.32% / 0.53% / 1.73%) [2026-07-11]
+- BTC-USD: 64247.98 (0.19% / 0.4% / 1.6%) [2026-07-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,18 +117,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (8), stock (5), merger (1), regulatory (1), leadership (1)
+**Temas dominantes**: stock (5), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SAIL] SailPoint ( SAIL ) Completes Acquisition of Entro Security to Enhance Non - Human Identity Management (2026-07-11)
-- [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
+- [CRWV] CoreWeave Stock Sank 11 % After Mark Zuckerberg Meta Unveiled a Cloud Business Plan (2026-07-11)
+- [CRWV] Wolfe Research Maintains Outperform rating on CoreWeave ( CRWV ) (2026-07-11)
+- [CRWV] CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? (2026-07-10)
 - [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
-- [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CFO Sells 46 , 002 Shares (2026-07-09)
+- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
+- [LION] Zacks Research Upgrades Lionsgate Studios ( NYSE : LION ) to  Strong - Buy (2026-07-09)
+- [NYSE: KRC] Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) (2026-06-29)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $56,648 · win rate 97% · categorias: sports
-- RJW1 · PnL $38,937 · win rate 99% · categorias: sports
-- Allezpapa · PnL $33,756 · win rate 99% · categorias: sports
+- Allezpapa · PnL $120,140 · win rate 99% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $56,167 · win rate 97% · categorias: sports
 - ExplosiveNinja · PnL $34,283 · win rate 97% · categorias: sports
-- SemyonMarmeladov · PnL $51,506 · win rate 88% · categorias: sports, economy, politics
+- SemyonMarmeladov · PnL $60,138 · win rate 88% · categorias: sports, economy, politics
+- TAIWANNUMBERONE · PnL $34,869 · win rate 89% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
