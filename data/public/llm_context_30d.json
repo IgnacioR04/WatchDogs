@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-10T23:32:22.994669+00:00",
+  "generated_at": "2026-07-11T00:25:20.415428+00:00",
   "window": {
-    "from": "2026-06-10",
-    "to": "2026-07-10",
+    "from": "2026-06-11",
+    "to": "2026-07-11",
     "days": 30
   },
   "data_quality": {
@@ -25,10 +25,10 @@
     "top_themes": [
       "stock",
       "ai",
+      "leadership",
       "merger",
       "legal",
-      "regulatory",
-      "leadership"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -67,9 +67,9 @@
       "importance_score": 86.8,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_597183356238",
-        "news_677495596345",
-        "news_452002875334"
+        "news_785707798627",
+        "news_585945104665",
+        "news_766186842051"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
@@ -125,9 +125,9 @@
       "importance_score": 84.8,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_597183356238",
-        "news_677495596345",
-        "news_452002875334"
+        "news_785707798627",
+        "news_585945104665",
+        "news_766186842051"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314173/000092189526001794/"
     },
@@ -152,6 +152,64 @@
     {
       "id": "move_7",
       "rank": 7,
+      "title": "10% owner compro NTSK ($7.2M)",
+      "summary": "10% owner ICONIQ Strategic Partners VIII Holdings, L.P. compro NTSK por $7.2M el 2026-07-08.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "ICONIQ Strategic Partners VIII Holdings, L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "NTSK",
+      "direction": "buy",
+      "amount_estimated": 7213715.98,
+      "event_date": "2026-07-08",
+      "importance_score": 82.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1688143/000119312526301164/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "10% owner compro NTSK ($7.2M)",
+      "summary": "10% owner Griffith William J.G. compro NTSK por $7.2M el 2026-07-08.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Griffith William J.G.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "NTSK",
+      "direction": "buy",
+      "amount_estimated": 7216080.78,
+      "event_date": "2026-07-08",
+      "importance_score": 82.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1688124/000119312526301161/"
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
+      "title": "CEO vendio TBRG ($3.2M)",
+      "summary": "CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Fowler Christopher L",
+      "actor_type": "ceo",
+      "ticker": "TBRG",
+      "direction": "sell",
+      "amount_estimated": 3162757.5,
+      "event_date": "2026-07-09",
+      "importance_score": 82.1,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_785707798627",
+        "news_585945104665",
+        "news_766186842051"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1454872/000145487226000008/"
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
       "title": "Director vendio TBRG ($29.2M)",
       "summary": "Director Upitis Andris vendio TBRG por $29.2M el 2026-07-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -165,15 +223,15 @@
       "importance_score": 81.9,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_597183356238",
-        "news_677495596345",
-        "news_452002875334"
+        "news_785707798627",
+        "news_585945104665",
+        "news_766186842051"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1665051/000166505126000002/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_11",
+      "rank": 11,
       "title": "10% owner opero YSS ($77.8M)",
       "summary": "10% owner AEROEQUITY GP, LLC opero YSS por $77.8M el 2026-07-08.",
       "source": "sec_form_4",
@@ -190,8 +248,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1880788/000110465926082651/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_12",
+      "rank": 12,
       "title": "10% owner vendio PBF ($14.4M)",
       "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio PBF por $14.4M el 2026-07-09.",
       "source": "sec_form_4",
@@ -208,8 +266,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126028221/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -226,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -244,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -262,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -280,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -298,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -316,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -334,8 +392,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -350,64 +408,19 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12307921184,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12266872781,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12231430056,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
+      {
+        "ticker": "LION",
+        "company": "Lionsgate Studios Corp.",
+        "pressure_score": 594.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
       {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
@@ -422,6 +435,30 @@
         "pressure_score": 286.1,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "GLOO",
+        "company": "Gloo Holdings, Inc.",
+        "pressure_score": 239.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NTSK",
+        "company": "Netskope Inc",
+        "pressure_score": 230.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BCDA",
+        "company": "BioCardia, Inc.",
+        "pressure_score": 204.1,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -441,17 +478,18 @@
         ]
       },
       {
-        "ticker": "GLOO",
-        "company": "Gloo Holdings, Inc.",
-        "pressure_score": 164.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "AVO",
         "company": "Mission Produce, Inc.",
         "pressure_score": 155.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "WRAP",
+        "company": "WRAP TECHNOLOGIES, INC.",
+        "pressure_score": 150.7,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -467,9 +505,17 @@
         ]
       },
       {
-        "ticker": "VIRC",
-        "company": "VIRCO MFG CORPORATION",
-        "pressure_score": 143.1,
+        "ticker": "DLHC",
+        "company": "DLH Holdings Corp.",
+        "pressure_score": 143.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SLGL",
+        "company": "Sol-Gel Technologies Ltd.",
+        "pressure_score": 141.1,
         "sources": [
           "corporate_insider"
         ]
@@ -489,46 +535,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "GRMN",
-        "company": "GARMIN LTD",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "WBI",
-        "company": "WaterBridge Infrastructure LLC",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "FVR",
-        "company": "FrontView REIT, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "EPAM",
-        "company": "EPAM SYSTEMS INC",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "HNRG",
-        "company": "HALLADOR ENERGY CO",
-        "pressure_score": 140.8,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -541,11 +547,12 @@
         ]
       },
       {
-        "ticker": "AXON",
-        "company": "AXON ENTERPRISE, INC.",
-        "pressure_score": 1870.0,
+        "ticker": "TBRG",
+        "company": "TruBridge, Inc.",
+        "pressure_score": 1978.2,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -554,15 +561,6 @@
         "pressure_score": 1609.2,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TBRG",
-        "company": "TruBridge, Inc.",
-        "pressure_score": 1537.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -598,6 +596,14 @@
         ]
       },
       {
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 782.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DASH",
         "company": "DoorDash, Inc.",
         "pressure_score": 659.0,
@@ -607,9 +613,26 @@
         ]
       },
       {
+        "ticker": "SMTC",
+        "company": "Stock",
+        "pressure_score": 617.4,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HSY",
         "company": "HERSHEY CO",
         "pressure_score": 584.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SODI",
+        "company": "SOLITRON DEVICES INC",
+        "pressure_score": 538.4,
         "sources": [
           "corporate_insider"
         ]
@@ -631,25 +654,9 @@
         ]
       },
       {
-        "ticker": "AKTS",
-        "company": "Aktis Oncology, Inc.",
-        "pressure_score": 422.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "OKTA",
-        "company": "Okta, Inc.",
-        "pressure_score": 311.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 298.4,
+        "ticker": "BCAX",
+        "company": "Bicara Therapeutics Inc.",
+        "pressure_score": 500.5,
         "sources": [
           "corporate_insider"
         ]
@@ -694,6 +701,24 @@
       "score": 82.7
     },
     {
+      "ticker": "NTSK",
+      "company": "Netskope Inc",
+      "actor": "ICONIQ Strategic Partners VIII Holdings, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 7213715.98,
+      "date": "2026-07-08",
+      "score": 82.6
+    },
+    {
+      "ticker": "NTSK",
+      "company": "Netskope Inc",
+      "actor": "Griffith William J.G.",
+      "actor_type": "ten_percent_owner",
+      "amount": 7216080.78,
+      "date": "2026-07-08",
+      "score": 82.6
+    },
+    {
       "ticker": "GLOO",
       "company": "Gloo Holdings, Inc.",
       "actor": "Green Derek Todd",
@@ -703,85 +728,76 @@
       "score": 78.9
     },
     {
-      "ticker": "VIRC",
-      "company": "VIRCO MFG CORPORATION",
-      "actor": "VIRTUE DOUGLAS A",
+      "ticker": "WRAP",
+      "company": "WRAP TECHNOLOGIES, INC.",
+      "actor": "Cohen Scot",
       "actor_type": "ceo",
-      "amount": 48473.75,
+      "amount": 230288.3,
       "date": "2026-07-08",
+      "score": 78.9
+    },
+    {
+      "ticker": "GLOO",
+      "company": "Gloo Holdings, Inc.",
+      "actor": "GELSINGER PATRICK P",
+      "actor_type": "director",
+      "amount": 499999.5,
+      "date": "2026-07-10",
       "score": 75.8
     },
     {
-      "ticker": "HNRG",
-      "company": "HALLADOR ENERGY CO",
-      "actor": "Hudson Daniel Timothy",
-      "actor_type": "director",
-      "amount": 41500.0,
-      "date": "2026-07-09",
-      "score": 70.4
-    },
-    {
-      "ticker": "HNRG",
-      "company": "HALLADOR ENERGY CO",
-      "actor": "Hudson Daniel Timothy",
-      "actor_type": "director",
-      "amount": 41412.5,
-      "date": "2026-07-09",
-      "score": 70.4
-    },
-    {
-      "ticker": "RDGL",
-      "company": "VIVOS INC",
-      "actor": "Weeks Brad Allan",
-      "actor_type": "ceo",
-      "amount": 3840.0,
-      "date": "2026-07-09",
-      "score": 70.3
-    },
-    {
-      "ticker": "RDGL",
-      "company": "VIVOS INC",
-      "actor": "Weeks Brad Allan",
-      "actor_type": "ceo",
-      "amount": 960.0,
-      "date": "2026-07-10",
-      "score": 67.3
-    },
-    {
-      "ticker": "VIRC",
-      "company": "VIRCO MFG CORPORATION",
-      "actor": "VIRTUE DOUGLAS A",
-      "actor_type": "ceo",
-      "amount": 30.0,
-      "date": "2026-07-09",
-      "score": 67.3
-    },
-    {
-      "ticker": "CZNC",
-      "company": "CITIZENS & NORTHERN CORP",
-      "actor": "Pellegrino Frank G",
-      "actor_type": "director",
-      "amount": 4558.95,
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
       "date": "2026-07-08",
-      "score": 64.1
+      "score": 74.6
     },
     {
-      "ticker": "SER",
-      "company": "Serina Therapeutics, Inc.",
-      "actor": "Brannan Stephen K.",
-      "actor_type": "director",
-      "amount": 2030.0,
-      "date": "2026-07-07",
-      "score": 62.4
-    },
-    {
-      "ticker": "CZNC",
-      "company": "CITIZENS & NORTHERN CORP",
-      "actor": "Shattuck Katherine W",
-      "actor_type": "director",
-      "amount": 207.22,
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
       "date": "2026-07-08",
-      "score": 60.9
+      "score": 74.6
+    },
+    {
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-07-08",
+      "score": 74.6
+    },
+    {
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-07-08",
+      "score": 74.6
+    },
+    {
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-07-08",
+      "score": 74.6
+    },
+    {
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "actor": "RACHESKY MARK H MD",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-07-08",
+      "score": 74.6
     }
   ],
   "institutional_changes": [
@@ -1230,9 +1246,9 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 392513.18,
+        "pnl": 421390.07,
         "win_rate": 0.9198,
-        "volume": 710237.58,
+        "volume": 1161217.29,
         "categories": [
           "sports"
         ]
@@ -1240,8 +1256,8 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 182205.26,
-        "win_rate": 0.9665,
+        "pnl": 182190.47,
+        "win_rate": 0.9649,
         "volume": 793020.11,
         "categories": [
           "sports"
@@ -1250,7 +1266,7 @@
       {
         "wallet": "0xbc1b1e935c",
         "username": "shijiebeifacai",
-        "pnl": 120172.18,
+        "pnl": 122676.55,
         "win_rate": 0.9681,
         "volume": 282354.74,
         "categories": [
@@ -1270,9 +1286,9 @@
       {
         "wallet": "0x5b4ec9c06b",
         "username": "ramadamaramadam",
-        "pnl": 619389.3,
+        "pnl": 619647.18,
         "win_rate": 0.8889,
-        "volume": 770012.92,
+        "volume": 976319.19,
         "categories": [
           "sports"
         ]
@@ -1300,7 +1316,7 @@
       {
         "wallet": "0x65018f9fc4",
         "username": "cnyek",
-        "pnl": 52389.49,
+        "pnl": 54290.55,
         "win_rate": 0.9474,
         "volume": 435124.47,
         "categories": [
@@ -1320,7 +1336,7 @@
       {
         "wallet": "0x10a6fadcba",
         "username": "rabbitfoot1",
-        "pnl": 246798.72,
+        "pnl": 246799.0,
         "win_rate": 0.7248,
         "volume": 591972.68,
         "categories": [
@@ -1333,9 +1349,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 76679.93,
+        "pnl": 101891.19,
         "win_rate": 0.706,
-        "volume": 15030264.87,
+        "volume": 15116862.14,
         "categories": [
           "sports",
           "politics",
@@ -1365,9 +1381,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 69029.9,
-        "win_rate": 0.598,
-        "volume": 9601094.95,
+        "pnl": 74284.33,
+        "win_rate": 0.594,
+        "volume": 9880436.33,
         "categories": [
           "sports"
         ]
@@ -1383,21 +1399,11 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 104099.27,
-        "win_rate": 0.567,
-        "volume": 5943638.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 291917.98,
-        "win_rate": 0.474,
-        "volume": 9048107.43,
+        "pnl": 295215.21,
+        "win_rate": 0.472,
+        "volume": 9231840.58,
         "categories": [
           "crypto",
           "sports",
@@ -1405,11 +1411,31 @@
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 106025.97,
+        "win_rate": 0.567,
+        "volume": 6054443.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 421390.07,
+        "win_rate": 0.9198,
+        "volume": 1161217.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x5b4ec9c06b",
         "username": "ramadamaramadam",
-        "pnl": 619389.3,
+        "pnl": 619647.18,
         "win_rate": 0.8889,
-        "volume": 770012.92,
+        "volume": 976319.19,
         "categories": [
           "sports"
         ]
@@ -1423,20 +1449,17 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 392513.18,
-        "win_rate": 0.9198,
-        "volume": 710237.58,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Dell Technologies ( NYSE : DELL ) Trading Down 3 . 3 % – Here What Happened",
+      "url": "https://www.dailypolitical.com/2026/07/10/dell-technologies-nysedell-trading-down-3-3-heres-what-happened.html",
+      "ticker": "DELL",
+      "themes": [],
+      "date": "2026-07-10"
+    },
     {
       "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
       "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
@@ -1458,20 +1481,21 @@
       "date": "2026-07-10"
     },
     {
-      "title": "BlackBerry ( NYSE : BB ) CFO Sells 8 , 235 Shares",
-      "url": "https://www.dailypolitical.com/2026/07/10/blackberry-nysebb-cfo-sells-8235-shares.html",
-      "ticker": "BB",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-10"
-    },
-    {
       "title": "SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling",
       "url": "https://www.themarketsdaily.com/2026/07/10/sailpoint-nasdaqsail-shares-down-6-9-on-insider-selling.html",
       "ticker": "SAIL",
       "themes": [
         "ai",
+        "stock"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? ",
+      "url": "https://www.fool.com/coverage/filings/2026/07/10/coreweave-s-ceo-dumped-nearly-370-000-shares-for-usd30-8-million-what-does-that-mean-for-investors/?source=iedfolrf0000001",
+      "ticker": "CRWV",
+      "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-07-10"
@@ -1493,6 +1517,25 @@
       "date": "2026-07-10"
     },
     {
+      "title": "CoreWeave CEO Sells Another $22 Million in Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-ceo-sells-another-22-164738819.html",
+      "ticker": "CRWV",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target",
+      "url": "https://seekingalpha.com/news/4612957-mongodb-differentiates-from-snowflake-datadog-needham-retains-buy-rating-raises-target",
+      "ticker": "DDOG",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-10"
+    },
+    {
       "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
       "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
       "ticker": "TBRG",
@@ -1502,12 +1545,44 @@
       "date": "2026-07-10"
     },
     {
+      "title": "Tech Launches ( July 10 , 2026 ): ASUS Vivobook AI PCs , Dell Pro Precision workstations , and more",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/tech-launches-july-10-2026-asus-vivobook-ai-pcs-dell-pro-precision-workstations-and-more-10780677/",
+      "ticker": "DELL",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Quote of the day by Michael Dell : I can predict things , I can improve the uptime and the reliability , I can intervene and cause a better outcome before there a problem",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/quote-of-the-day-by-michael-dell-i-can-predict-things-i-can-improve-the-uptime-and-the-reliability-i-can-intervene-and-cause-a-better-outcome-before-theres-a-problem/articleshow/132309762.cms",
+      "ticker": "DELL",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
       "title": "IKS Health Completes Acquisition of TruBridge",
       "url": "http://www.bignewsnetwork.com/news/279178465/iks-health-completes-acquisition-of-trubridge",
       "ticker": "TBRG",
       "themes": [
         "merger"
       ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/10/samsara-nyseiot-insider-john-bicket-sells-17975-shares-of-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Dell Introduces New Pro Precision Portfolio In India",
+      "url": "https://www.businessworld.in/article/dell-introduces-new-pro-precision-portfolio-in-india-614091",
+      "ticker": "DELL",
+      "themes": [],
       "date": "2026-07-10"
     },
     {
@@ -1559,9 +1634,25 @@
         "stock"
       ],
       "date": "2026-07-09"
+    },
+    {
+      "title": "Zacks Research Upgrades Lionsgate Studios ( NYSE : LION ) to  Strong - Buy  ",
+      "url": "https://www.themarketsdaily.com/2026/07/09/zacks-research-upgrades-lionsgate-studios-nyselion-to-strong-buy.html",
+      "ticker": "LION",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-09"
+    },
+    {
+      "title": "Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) ",
+      "url": "https://www.dailypolitical.com/2026/06/29/investment-analysts-recent-ratings-updates-for-kilroy-realty-krc.html",
+      "ticker": "NYSE: KRC",
+      "themes": [],
+      "date": "2026-06-29"
     }
   ],
-  "signals_count": 1486,
+  "signals_count": 1592,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

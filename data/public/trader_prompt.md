@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-10T23:33:15+00:00 -->
+<!-- trader_prompt.md generado 2026-07-11T00:26:14+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-10T23:33:15+00:00 · ventana señales 2026-06-10 -> 2026-07-10_
+_Generado 2026-07-11T00:26:14+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,33 +257,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 725.51 | 0.31% | 1.81% | 4.7% |
 | TLT | 12.0% | core | 84.47 | -0.02% | -1.22% | -0.12% |
 | GLD | 9.3% | core | 377.01 | -0.31% | -0.3% | 0.65% |
+| BEP | 9.2% | satellite | 32.33 | -1.97% | -4.57% | -8.34% |
 | IEF | 6.2% | core | 93.63 | -0.09% | -0.52% | 0.27% |
-| FVR | 6.2% | satellite | 20.83 | -0.67% | -0.14% | 7.3% |
-| GRMN | 5.6% | satellite | 243.11 | -0.57% | 1.29% | 5.38% |
-| BEP | 5.3% | satellite | 32.33 | -1.97% | -4.57% | -8.34% |
-| AVO | 3.4% | satellite | 13.33 | -0.15% | 6.73% | 18.59% |
-| EPAM | 3.2% | satellite | 83.89 | -3.9% | -4.96% | -9.83% |
-| TBRG | 3.0% | satellite | 26.24 | 0.04% | 0.23% | 1.04% |
-| WBI | 2.8% | satellite | 33.71 | -2.4% | 7.73% | 11.44% |
-| HNRG | 2.3% | satellite | 16.33 | -1.27% | 0.49% | 3.29% |
-| INTC | 1.7% | satellite | 109.84 | -2.4% | -8.73% | 2.62% |
+| AVO | 5.8% | satellite | 13.33 | -0.15% | 6.73% | 18.59% |
+| TBRG | 5.2% | satellite | 26.24 | 0.04% | 0.23% | 1.04% |
+| LION | 4.5% | satellite | 13.47 | -0.15% | -8.12% | -1.61% |
+| NTSK | 3.3% | satellite | 12.32 | -0.81% | 5.21% | 45.45% |
+| INTC | 2.9% | satellite | 109.84 | -2.4% | -8.73% | 2.62% |
+| APGE | 2.6% | satellite | 133.65 | 0.06% | 0.56% | 61.57% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.4%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -4.8%
-- Beta vs SPY: 0.671 · posiciones efectivas: 14.2 · HHI: 0.0702
+- Volatilidad anualizada: 14.1%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.7%
+- Max drawdown historico: -6.0%
+- Beta vs SPY: 0.771 · posiciones efectivas: 13.3 · HHI: 0.0749
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **GRMN** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **WBI** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **FVR** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **EPAM** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **LION** · score agregado 481.3 · 8 señales · fuentes: corporate_insider, large_holder
+- **NTSK** · score agregado 167.6 · 2 señales · fuentes: corporate_insider
 - **AVO** · score agregado 138.2 · 2 señales · fuentes: corporate_insider, large_holder
-- **HNRG** · score agregado 109.2 · 2 señales · fuentes: corporate_insider
 - **TBRG** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **APGE** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -293,21 +289,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| GLOO | 84 | corporate_insider | Beck Scott Arthur | 2 | $3,500,000 | cluster_buy |
-| GLOO | 79 | corporate_insider | Green Derek Todd | 2 | $1,999,998 | cluster_buy |
+| GLOO | 88 | corporate_insider | Beck Scott Arthur | 3 | $3,500,000 | cluster_buy |
+| NTSK | 84 | corporate_insider | ICONIQ Strategic Partners | 2 | $7,213,716 | cluster_buy |
+| NTSK | 84 | corporate_insider | Griffith William J.G. | 2 | $7,216,081 | cluster_buy |
+| GLOO | 83 | corporate_insider | Green Derek Todd | 3 | $1,999,998 | cluster_buy |
+| GLOO | 80 | corporate_insider | GELSINGER PATRICK P | 3 | $500,000 | cluster_buy |
 | FINS | 74 | corporate_insider | MetLife Investment Manage | 0 | $1,600,000,000,000,000 | - |
 | TBRG | 72 | large_holder | L6 Holdings Inc. |  | - | - |
+| LION | 72 | large_holder | MHR INSTITUTIONAL PARTNER |  | - | - |
+| WRAP | 72 | large_holder | NORRIS ELWOOD G |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| APGE | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | PHUN | 70 | large_holder | Goldenwise Capital Group  |  | - | - |
 | PHUN | 70 | large_holder | Goldenwise Capital Group  |  | - | - |
 | EVGN | 70 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
-| BBIO | 70 | large_holder | VIKING GLOBAL INVESTORS L |  | - | - |
-| IVFH | 70 | large_holder | HARPER ASSET MANAGEMENT L |  | - | - |
-| IVFH | 70 | large_holder | HARPER ASSET MANAGEMENT L |  | - | - |
-| QTTB | 70 | large_holder | Boxer Capital Management, |  | - | - |
-| OPI | 70 | large_holder | Liberty Mutual Holding Co |  | - | - |
-| PMVP | 70 | large_holder | ArrowMark Colorado Holdin |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -337,7 +333,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 64150.39 (1.51% / 0.95% / -0.14%) [2026-07-10]
+- BTC-USD: 64056.91 (1.37% / 0.8% / -0.28%) [2026-07-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +348,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (6), merger (3), legal (2), regulatory (2), leadership (1)
+**Temas dominantes**: stock (9), ai (8), leadership (3), merger (3), legal (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DELL] Dell Technologies ( NYSE : DELL ) Trading Down 3 . 3 % – Here What Happened (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [BB] BlackBerry ( NYSE : BB ) CFO Sells 8 , 235 Shares (2026-07-10)
 - [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [CRWV] CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? (2026-07-10)
 - [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [CRWV] CoreWeave CEO Sells Another $22 Million in Stock (2026-07-10)
+- [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,25 +370,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Globalharvest Holdings Venture Ltd compro AVO por $7.9M el 2026-07-09 [senal en multiples fuentes].
 - CEO Beck Scott Arthur compro GLOO por $3.5M el 2026-07-10.
 - 10% owner Endeavor Blockchain, LLC compro BGDE por $16.7M el 2026-06-30 [senal en multiples fuentes].
-- Director Upitis Andris vendio TBRG por $29.2M el 2026-07-09 [senal en multiples fuentes].
-- 10% owner AEROEQUITY GP, LLC opero YSS por $77.8M el 2026-07-08.
-- 10% owner Control Empresarial de Capitales S.A. de C.V. vendio PBF por $14.4M el 2026-07-09.
+- 10% owner ICONIQ Strategic Partners VIII Holdings, L.P. compro NTSK por $7.2M el 2026-07-08.
+- 10% owner Griffith William J.G. compro NTSK por $7.2M el 2026-07-08.
+- CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $392,513 · win rate 92% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $182,205 · win rate 97% · categorias: sports
-- shijiebeifacai · PnL $120,172 · win rate 97% · categorias: sports
+- Sassy-Bucket · PnL $421,390 · win rate 92% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $182,190 · win rate 96% · categorias: sports
+- shijiebeifacai · PnL $122,677 · win rate 97% · categorias: sports
 - HongYunX · PnL $62,643 · win rate 100% · categorias: sports
-- ramadamaramadam · PnL $619,389 · win rate 89% · categorias: sports
+- ramadamaramadam · PnL $619,647 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 91 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 566 registros 30d · ultimo dato 2026-07-10
+- **congress**: `ok` · 87 registros 30d · ultimo dato 2026-07-07
+- **sec_insiders**: `ok` · 674 registros 30d · ultimo dato 2026-07-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-10
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -405,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AVO, BEP, EPAM, FVR, GLD, GRMN, HNRG, IEF, INTC, QQQ, SPY, TBRG, TLT, WBI`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, IEF, INTC, LION, NTSK, QQQ, SPY, TBRG, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
