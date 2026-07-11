@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-11T06:42:53+00:00 -->
+<!-- trader_prompt.md generado 2026-07-11T09:16:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-11T06:42:53+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
+_Generado 2026-07-11T09:16:07+00:00 · ventana señales 2026-06-11 -> 2026-07-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,21 +257,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 725.51 | 0.31% | 1.81% | 4.7% |
 | TLT | 12.0% | core | 84.47 | -0.02% | -1.22% | -0.12% |
 | GLD | 9.3% | core | 377.01 | -0.31% | -0.3% | 0.65% |
-| BEP | 9.2% | satellite | 32.33 | -1.97% | -4.57% | -8.34% |
+| BEP | 9.1% | satellite | 32.33 | -1.97% | -4.57% | -8.34% |
 | IEF | 6.2% | core | 93.63 | -0.09% | -0.52% | 0.27% |
-| AVO | 5.8% | satellite | 13.33 | -0.15% | 6.73% | 18.59% |
-| TBRG | 5.2% | satellite | 26.24 | 0.04% | 0.23% | 1.04% |
+| AVO | 5.7% | satellite | 13.33 | -0.15% | 6.73% | 18.59% |
+| TBRG | 5.3% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
 | LION | 4.5% | satellite | 13.47 | -0.15% | -8.12% | -1.61% |
 | NTSK | 3.3% | satellite | 12.32 | -0.81% | 5.21% | 45.45% |
 | INTC | 2.9% | satellite | 109.84 | -2.4% | -8.73% | 2.62% |
-| APGE | 2.6% | satellite | 133.65 | 0.06% | 0.56% | 61.57% |
+| APGE | 2.7% | satellite | 133.65 | 0.06% | 0.56% | 61.57% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.1%
+- Volatilidad anualizada: 13.9%
 - VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.7%
 - Max drawdown historico: -6.0%
-- Beta vs SPY: 0.771 · posiciones efectivas: 13.3 · HHI: 0.0749
+- Beta vs SPY: 0.774 · posiciones efectivas: 13.4 · HHI: 0.0748
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -333,7 +333,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 64169.56 (0.07% / 0.27% / 1.47%) [2026-07-11]
+- BTC-USD: 64184.52 (0.09% / 0.3% / 1.5%) [2026-07-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,20 +348,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (8), stock (5), leadership (1)
+**Temas dominantes**: ai (8), stock (8), leadership (3), merger (3), legal (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell ( DELL ) Says XPS Eyesafe Study Improved Sleep Eye Comfort And Productivity (2026-07-11)
-- [DELL] Dell Technologies ( NYSE : DELL ) Trading Down 3 . 3 % – Here What Happened (2026-07-10)
+- [CRWV] Wolfe Research Maintains Outperform rating on CoreWeave ( CRWV ) (2026-07-11)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [CRWV] CoreWeave CEO Dumped Nearly 370 , 000 Shares for $30 . 8 Million . What Does That Mean for Investors ? (2026-07-10)
 - [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
+- [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [CRWV] CoreWeave CEO Sells Another $22 Million in Stock (2026-07-10)
 - [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
-- [DELL] Tech Launches ( July 10 , 2026 ): ASUS Vivobook AI PCs , Dell Pro Precision workstations , and more (2026-07-10)
-- [DELL] Quote of the day by Michael Dell : I can predict things , I can improve the uptime and the reliability , I can intervene and cause a better outcome before there a problem (2026-07-10)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
-- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
+- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- NiFengFanPan · PnL $23,645 · win rate 94% · categorias: sports, politics, economy
-- SDTrading · PnL $22,259 · win rate 94% · categorias: sports
+- RJW1 · PnL $12,577 · win rate 99% · categorias: sports
+- NiFengFanPan · PnL $23,812 · win rate 94% · categorias: sports, politics, economy
+- SDTrading · PnL $19,651 · win rate 94% · categorias: sports
 - 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $36,219 · win rate 89% · categorias: sports
-- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $23,801 · win rate 88% · categorias: crypto, sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $9,907 · win rate 88% · categorias: sports, crypto
+- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $20,801 · win rate 88% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
