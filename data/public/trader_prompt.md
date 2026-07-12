@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-12T17:45:07+00:00 -->
+<!-- trader_prompt.md generado 2026-07-12T19:46:37+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-12T17:45:07+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
+_Generado 2026-07-12T19:46:37+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -333,7 +333,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 64122.25 (0.5% / 1.3% / 0.27%) [2026-07-12]
+- BTC-USD: 64117.9 (0.5% / 1.3% / 0.26%) [2026-07-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,20 +348,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), merger (3), legal (2), regulatory (2), ai (2)
+**Temas dominantes**: stock (8), ai (6), merger (4), regulatory (3), legal (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
 - [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
+- [SAIL] SailPoint ( SAIL ) Completes Acquisition of Entro Security to Enhance Non - Human Identity Management (2026-07-11)
 - [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
+- [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
 - [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $240,578 · win rate 99% · categorias: sports
-- Allezpapa · PnL $219,560 · win rate 99% · categorias: sports
-- comon119 · PnL $106,389 · win rate 99% · categorias: sports, crypto, politics
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $149,598 · win rate 96% · categorias: sports
-- shijiebeifacai · PnL $121,277 · win rate 97% · categorias: sports
+- RJW1 · PnL $240,467 · win rate 99% · categorias: sports
+- Allezpapa · PnL $220,824 · win rate 99% · categorias: sports
+- comon119 · PnL $117,173 · win rate 99% · categorias: sports, crypto, politics
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $149,642 · win rate 96% · categorias: sports
+- shijiebeifacai · PnL $120,479 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
