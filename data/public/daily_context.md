@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-12T11:02:57+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
+_Generado 2026-07-12T12:24:41+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 63832.47 (0.05% / 0.85% / -0.19%) [2026-07-12]
+- BTC-USD: 63999.8 (0.31% / 1.11% / 0.07%) [2026-07-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,7 +117,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), merger (3), legal (2), regulatory (2), ai (1)
+**Temas dominantes**: stock (3), merger (3), legal (2), regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -127,8 +127,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
 
@@ -145,10 +145,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $241,827 · win rate 99% · categorias: sports
-- Allezpapa · PnL $213,092 · win rate 99% · categorias: sports
-- shijiebeifacai · PnL $117,399 · win rate 97% · categorias: sports
-- comon119 · PnL $89,531 · win rate 99% · categorias: sports, crypto, politics
+- RJW1 · PnL $248,163 · win rate 99% · categorias: sports
+- Allezpapa · PnL $223,228 · win rate 99% · categorias: sports
+- comon119 · PnL $113,984 · win rate 99% · categorias: sports, crypto, politics
+- shijiebeifacai · PnL $122,642 · win rate 97% · categorias: sports
 - ramadamaramadam · PnL $835,865 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
