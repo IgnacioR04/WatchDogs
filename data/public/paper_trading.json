@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T09:34:16+00:00",
+  "generated_at": "2026-07-12T09:44:53+00:00",
   "budget_eur": 100.0,
-  "n_cycles": 3,
+  "n_cycles": 4,
   "cost_model": {
     "per_side": 0.0015,
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
@@ -66,7 +66,10 @@
     },
     "VFLEX": {
       "weight": 0.12,
-      "instrument": "fund_us"
+      "instrument": "fund_us",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 12.0
     },
     "IEF": {
       "weight": 0.098,
@@ -77,34 +80,13 @@
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
-    "GF": {
+    "LION": {
       "weight": 0.028,
-      "instrument": "stock"
-    },
-    "COE": {
-      "weight": 0.025,
-      "instrument": "stock"
-    },
-    "MOMO": {
-      "weight": 0.023,
-      "instrument": "stock"
-    },
-    "FVR": {
-      "weight": 0.02,
-      "instrument": "stock"
-    },
-    "ASC": {
-      "weight": 0.017,
-      "instrument": "stock"
-    },
-    "GLUE": {
-      "weight": 0.015,
-      "instrument": "stock"
-    },
-    "EPAM": {
-      "weight": 0.015,
       "instrument": "stock"
     },
     "AVO": {
@@ -113,6 +95,48 @@
       "entry_date": "2026-07-10",
       "ret_since_entry": -0.0015,
       "value_eur": 2.6
+    },
+    "COE": {
+      "weight": 0.025,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.5
+    },
+    "MOMO": {
+      "weight": 0.023,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.3
+    },
+    "FVR": {
+      "weight": 0.02,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.0
+    },
+    "ASC": {
+      "weight": 0.017,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 1.7
+    },
+    "GLUE": {
+      "weight": 0.015,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 1.5
+    },
+    "EPAM": {
+      "weight": 0.015,
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 1.5
     }
   },
   "cycles": [
@@ -151,6 +175,18 @@
       "thesis": "Régimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, crédito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satélites porque ninguno tiene señal de venta en contra este ciclo. Libero las dos posiciones más pequeñas y sin señal vigente (NWL, HPE) para incorporar AVO, la idea con convicción cruzada más fuerte del ciclo: dos tipos de fuente distintos (insider + large_holder) y compras confirmadas por noticias esta misma semana. Descarto GGAL (score mas alto, 236.8, pero una sola fuente) y APGE (211.5, solo large_holder) por menor diversidad de fuente frente a AVO, y evito RH (ya fuera de la cartera candidata este ciclo) y BEP (precio -9.54% en 20d pese al buy del Congreso).",
       "confidence": 0.6,
       "n_adjustments": 3
+    },
+    {
+      "cycle": 4,
+      "approved_at": "2026-07-12T09:44:46+00:00",
+      "n_positions": 15,
+      "invested": 0.898,
+      "turnover": 0.056,
+      "cost_pct": 8e-05,
+      "verdict_llm": "adjust",
+      "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo. Unico movimiento: sustituyo GF (sin senal, legado de ciclo 1) por LION, la idea con la conviccion cruzada mas alta del briefing (score 481.3, 8 senales, 2 fuentes distintas). Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
+      "confidence": 0.6,
+      "n_adjustments": 2
     }
   ]
 }

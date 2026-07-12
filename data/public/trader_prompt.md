@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-12T09:34:16+00:00 -->
+<!-- trader_prompt.md generado 2026-07-12T09:44:58+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-07-10T08:55:16+00:00_
+_Ultima cartera aprobada: 2026-07-12T09:44:46+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|
@@ -213,7 +213,7 @@ _Ultima cartera aprobada: 2026-07-10T08:55:16+00:00_
 | VFLEX | 12.0% | 12.00 € |
 | IEF | 9.8% | 9.80 € |
 | PSBD | 3.1% | 3.10 € |
-| GF | 2.8% | 2.80 € |
+| LION | 2.8% | 2.80 € |
 | AVO | 2.6% | 2.60 € |
 | COE | 2.5% | 2.50 € |
 | MOMO | 2.3% | 2.30 € |

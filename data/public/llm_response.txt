@@ -1,12 +1,10 @@
 {
   "verdict": "adjust",
   "adjustments": [
-    {"ticker": "NWL", "action": "remove", "target_weight": 0.0,
-     "reason": "Sin señal de smart money vigente en la ventana 30d de este ciclo; posición residual de ciclos anteriores con peso marginal (1.1%). Se libera para financiar AVO, la idea de mayor convicción cruzada del briefing."},
-    {"ticker": "HPE", "action": "remove", "target_weight": 0.0,
-     "reason": "Igual que NWL: sin señal actual que sostenga la tesis, peso marginal (1.1%), no aporta convicción frente a la nueva idea AVO."},
-    {"ticker": "AVO", "action": "add", "target_weight": 0.026,
-     "reason": "Score agregado 206.1 con 3 señales de DOS fuentes distintas (corporate_insider + large_holder), la convicción cruzada más solida del briefing. Confirmado por noticias: el 10% owner Globalharvest Holdings Venture Ltd compró AVO por $9.2M (2026-07-08) y $6.6M (2026-07-07), flujo de compra reciente y no solo historico. Tamaño moderado porque el precio ya acumula +22.82% en 20d."}
+    {"ticker": "GF", "action": "remove", "target_weight": 0.0,
+     "reason": "Posicion legado del ciclo 1 sin ninguna senal nueva de smart money en la ventana de 30d y ausente de la cartera candidata de este ciclo. Libero su peso (2.8%) para financiar la idea de mayor conviccion del briefing sin superar el presupuesto de riesgo del 90%."},
+    {"ticker": "LION", "action": "add", "target_weight": 0.028,
+     "reason": "Score agregado 481.3, el mas alto de todo el ciclo, con 8 senales distintas de 2 fuentes independientes (corporate_insider + large_holder, incluido MHR Institutional Partners como gran tenedor). Es la conviccion cruzada mas fuerte disponible; entra como satelite pequeno pese a la debilidad de precio reciente (-8.12% 5d, -1.61% 20d) porque el volumen y numero de insiders comprando supera el ruido de corto plazo."}
   ],
   "final_weights": {
     "SPY": 0.12,
@@ -16,20 +14,20 @@
     "VFLEX": 0.12,
     "IEF": 0.098,
     "PSBD": 0.031,
-    "GF": 0.028,
+    "LION": 0.028,
+    "AVO": 0.026,
     "COE": 0.025,
     "MOMO": 0.023,
     "FVR": 0.02,
     "ASC": 0.017,
     "GLUE": 0.015,
-    "EPAM": 0.015,
-    "AVO": 0.026
+    "EPAM": 0.015
   },
-  "thesis": "Régimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, crédito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satélites porque ninguno tiene señal de venta en contra este ciclo. Libero las dos posiciones más pequeñas y sin señal vigente (NWL, HPE) para incorporar AVO, la idea con convicción cruzada más fuerte del ciclo: dos tipos de fuente distintos (insider + large_holder) y compras confirmadas por noticias esta misma semana. Descarto GGAL (score mas alto, 236.8, pero una sola fuente) y APGE (211.5, solo large_holder) por menor diversidad de fuente frente a AVO, y evito RH (ya fuera de la cartera candidata este ciclo) y BEP (precio -9.54% en 20d pese al buy del Congreso).",
+  "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo. Unico movimiento: sustituyo GF (sin senal, legado de ciclo 1) por LION, la idea con la conviccion cruzada mas alta del briefing (score 481.3, 8 senales, 2 fuentes distintas). Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
   "key_risks": [
-    "AVO ya subió +22.82% en 20d; parte del movimiento de smart money podría estar ya descontado en precio, aunque las compras del 10% owner son de los últimos 2-3 días.",
-    "GGAL tiene el score agregado mas alto (236.8) pero se descarta por depender de una sola fuente (corporate_insider); si en próximos ciclos suma una segunda fuente, sería candidato preferente.",
-    "Exposición total queda en 89.8%, muy cerca del techo del 90%: poco margen para nuevas ideas sin rotar posiciones existentes en próximos ciclos."
+    "LION tiene momentum de precio negativo reciente (-8.12% a 5d) pese a la senal de compra insider; el precio podria seguir cayendo antes de que la tesis de conviccion se materialice.",
+    "Las senales de insiders y large holders tienen retraso de publicacion (1-2 dias Form 4, hasta 45 dias 13D/13G/13F) y no garantizan movimiento de precio a corto plazo.",
+    "VIX en minimos (15.03) y credito tenso con tendencia alcista sostenida podrian revertir rapido si aparece un catalizador macro negativo."
   ],
   "confidence": 0.6
 }
