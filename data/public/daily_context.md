@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-12T12:24:41+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
+_Generado 2026-07-12T14:11:56+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 63999.8 (0.31% / 1.11% / 0.07%) [2026-07-12]
+- BTC-USD: 63929.94 (0.2% / 1.0% / -0.03%) [2026-07-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +117,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), merger (3), legal (2), regulatory (2), ai (1)
+**Temas dominantes**: ai (7), stock (7), merger (1), regulatory (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
-- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
-- [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
-- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [SAIL] SailPoint ( SAIL ) Completes Acquisition of Entro Security to Enhance Non - Human Identity Management (2026-07-11)
+- [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
+- [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
 - [DDOG] MongoDB differentiates from Snowflake , Datadog ; Needham retains Buy rating , raises target (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
+- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CEO Sells $1 , 438 , 069 . 20 in Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) CAO Sells 3 , 881 Shares of Stock (2026-07-09)
+- [SAIL] Insider Selling : SailPoint ( NASDAQ : SAIL ) General Counsel Sells $291 , 283 . 80 in Stock (2026-07-09)
+- [LION] Zacks Research Upgrades Lionsgate Studios ( NYSE : LION ) to  Strong - Buy (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,10 +145,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $248,163 · win rate 99% · categorias: sports
-- Allezpapa · PnL $223,228 · win rate 99% · categorias: sports
-- comon119 · PnL $113,984 · win rate 99% · categorias: sports, crypto, politics
-- shijiebeifacai · PnL $122,642 · win rate 97% · categorias: sports
+- RJW1 · PnL $250,629 · win rate 99% · categorias: sports
+- Allezpapa · PnL $222,489 · win rate 99% · categorias: sports
+- comon119 · PnL $108,076 · win rate 99% · categorias: sports, crypto, politics
+- shijiebeifacai · PnL $122,272 · win rate 97% · categorias: sports
 - ramadamaramadam · PnL $835,865 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
