@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-13T07:11:56+00:00 -->
+<!-- trader_prompt.md generado 2026-07-13T07:57:05+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T04:20:34+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T07:57:05+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.03)
+- Volatilidad: `normal` (VIX 16.39)
 - Tendencia: `bull` (SPY 754.95 · MA50 739.91 · MA200 691.09 · dist MA200: 9.24%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -332,8 +332,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.47 (-0.02% / -1.22% / -0.12%) [2026-07-10]
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
-- ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 62846.5 (-1.5% / -0.71% / -1.73%) [2026-07-13]
+- ^VIX: 16.39 (9.05% / 5.27% / -15.69%) [2026-07-13]
+- BTC-USD: 63758.22 (-0.07% / 0.73% / -0.3%) [2026-07-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,14 +348,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (7), ai (5), merger (4), regulatory (3), legal (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SAIL] SailPoint ( SAIL ) Completes Acquisition of Entro Security to Enhance Non - Human Identity Management (2026-07-11)
 - [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
-- [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
+- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
 - [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
-- [NYSE: KRC] Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) (2026-06-29)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Djdjdjekekek · PnL $223,657 · win rate 81% · categorias: sports, crypto
-- Allezpapa · PnL $7,398 · win rate 99% · categorias: sports
-- 0xdd517b727B1445d9744D23BBa5856dd06E5F1041-1776442164856 · PnL $4,654 · win rate 97% · categorias: sports
-- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $15,039 · win rate 89% · categorias: sports, crypto, economy
-- qinlaoban · PnL $3,876 · win rate 91% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $230,442 · win rate 73% · categorias: sports, politics, crypto
+- 0xdd517b727B1445d9744D23BBa5856dd06E5F1041-1776442164856 · PnL $4,658 · win rate 97% · categorias: sports
+- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $14,916 · win rate 89% · categorias: sports, crypto, economy
+- omoi0i0 · PnL $45,341 · win rate 80% · categorias: sports
+- Countryside · PnL $4,880 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
