@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-13T04:20:34+00:00 -->
+<!-- trader_prompt.md generado 2026-07-13T07:11:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-07-12T09:44:46+00:00_
+_Ultima cartera aprobada: 2026-07-13T07:11:36+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|
@@ -219,7 +219,7 @@ _Ultima cartera aprobada: 2026-07-12T09:44:46+00:00_
 | MOMO | 2.3% | 2.30 € |
 | FVR | 2.0% | 2.00 € |
 | ASC | 1.7% | 1.70 € |
-| GLUE | 1.5% | 1.50 € |
+| NTSK | 1.5% | 1.50 € |
 | EPAM | 1.5% | 1.50 € |
 | **EFECTIVO** | **10.2%** | **10.20 €** |
 

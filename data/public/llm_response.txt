@@ -1,10 +1,8 @@
 {
   "verdict": "adjust",
   "adjustments": [
-    {"ticker": "GF", "action": "remove", "target_weight": 0.0,
-     "reason": "Posicion legado del ciclo 1 sin ninguna senal nueva de smart money en la ventana de 30d y ausente de la cartera candidata de este ciclo. Libero su peso (2.8%) para financiar la idea de mayor conviccion del briefing sin superar el presupuesto de riesgo del 90%."},
-    {"ticker": "LION", "action": "add", "target_weight": 0.028,
-     "reason": "Score agregado 481.3, el mas alto de todo el ciclo, con 8 senales distintas de 2 fuentes independientes (corporate_insider + large_holder, incluido MHR Institutional Partners como gran tenedor). Es la conviccion cruzada mas fuerte disponible; entra como satelite pequeno pese a la debilidad de precio reciente (-8.12% 5d, -1.61% 20d) porque el volumen y numero de insiders comprando supera el ruido de corto plazo."}
+    {"ticker": "GLUE", "action": "remove", "target_weight": 0.0, "reason": "Sin senal nueva en la ventana de 30d y sin actividad de smart money desde su entrada en el ciclo 2 (posicion legado); libero su peso para una idea con conviccion cruzada mas fuerte este ciclo."},
+    {"ticker": "NTSK", "action": "add", "target_weight": 0.015, "reason": "Cluster buy de dos insiders distintos el mismo dia (ICONIQ Strategic Partners $7.2M y Griffith William J.G. $7.2M), flag cluster_buy, score agregado 167.6 y presente en la cartera candidata como satellite. Tamano reducido (1.5% vs 3.3% de la candidata) porque el precio ya subio 45.45% en 20d, para no perseguir el momentum en exceso."}
   ],
   "final_weights": {
     "SPY": 0.12,
@@ -20,14 +18,14 @@
     "MOMO": 0.023,
     "FVR": 0.02,
     "ASC": 0.017,
-    "GLUE": 0.015,
+    "NTSK": 0.015,
     "EPAM": 0.015
   },
-  "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo. Unico movimiento: sustituyo GF (sin senal, legado de ciclo 1) por LION, la idea con la conviccion cruzada mas alta del briefing (score 481.3, 8 senales, 2 fuentes distintas). Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
+  "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, VIX bajo en 15.03, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo, incluyendo LION y AVO que siguen con conviccion cruzada activa. Unico movimiento: sustituyo GLUE (sin senal desde su entrada, legado de ciclo 2) por NTSK, con cluster buy de dos insiders distintos por $7.2M cada uno el mismo dia. Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
   "key_risks": [
-    "LION tiene momentum de precio negativo reciente (-8.12% a 5d) pese a la senal de compra insider; el precio podria seguir cayendo antes de que la tesis de conviccion se materialice.",
-    "Las senales de insiders y large holders tienen retraso de publicacion (1-2 dias Form 4, hasta 45 dias 13D/13G/13F) y no garantizan movimiento de precio a corto plazo.",
-    "VIX en minimos (15.03) y credito tenso con tendencia alcista sostenida podrian revertir rapido si aparece un catalizador macro negativo."
+    "NTSK ya subio 45.45% en 20d; entrar ahora implica riesgo de perseguir el momentum, mitigado con tamano pequeno (1.5%).",
+    "Latencia de las senales de insiders (1-2 dias) y de 13F/congreso (hasta 45 dias): parte de la informacion puede estar ya descontada en precio.",
+    "Credito tenso (HY spread 2.7) pese al regimen risk_on: sensibilidad a un shock de credito no reflejada en el VIX bajo actual."
   ],
   "confidence": 0.6
 }

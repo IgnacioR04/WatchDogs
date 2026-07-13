@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T04:20:33+00:00",
+  "generated_at": "2026-07-13T07:11:48+00:00",
   "budget_eur": 100.0,
-  "n_cycles": 4,
+  "n_cycles": 5,
   "cost_model": {
     "per_side": 0.0015,
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
@@ -66,7 +66,10 @@
     },
     "VFLEX": {
       "weight": 0.12,
-      "instrument": "fund_us"
+      "instrument": "fund_us",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 12.0
     },
     "IEF": {
       "weight": 0.098,
@@ -77,7 +80,10 @@
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
     "LION": {
       "weight": 0.028,
@@ -92,27 +98,42 @@
     },
     "COE": {
       "weight": 0.025,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.5
     },
     "MOMO": {
       "weight": 0.023,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.3
     },
     "FVR": {
       "weight": 0.02,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.0
     },
     "ASC": {
       "weight": 0.017,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 1.7
     },
-    "GLUE": {
+    "NTSK": {
       "weight": 0.015,
       "instrument": "stock"
     },
     "EPAM": {
       "weight": 0.015,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 1.5
     }
   },
   "cycles": [
@@ -161,6 +182,18 @@
       "cost_pct": 8e-05,
       "verdict_llm": "adjust",
       "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo. Unico movimiento: sustituyo GF (sin senal, legado de ciclo 1) por LION, la idea con la conviccion cruzada mas alta del briefing (score 481.3, 8 senales, 2 fuentes distintas). Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
+      "confidence": 0.6,
+      "n_adjustments": 2
+    },
+    {
+      "cycle": 5,
+      "approved_at": "2026-07-13T07:11:36+00:00",
+      "n_positions": 15,
+      "invested": 0.898,
+      "turnover": 0.03,
+      "cost_pct": 4e-05,
+      "verdict_llm": "adjust",
+      "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, VIX bajo en 15.03, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo, incluyendo LION y AVO que siguen con conviccion cruzada activa. Unico movimiento: sustituyo GLUE (sin senal desde su entrada, legado de ciclo 2) por NTSK, con cluster buy de dos insiders distintos por $7.2M cada uno el mismo dia. Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
       "confidence": 0.6,
       "n_adjustments": 2
     }
