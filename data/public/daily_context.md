@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T17:41:13+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T20:05:53+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.67)
-- Tendencia: `bull` (SPY 749.52 · MA50 740.7 · MA200 691.55 · dist MA200: 8.38%)
+- Volatilidad: `normal` (VIX 17.23)
+- Tendencia: `bull` (SPY 749.08 · MA50 740.69 · MA200 691.55 · dist MA200: 8.32%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.35)
 - Fed Funds: 3.63%
@@ -22,19 +22,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 749.52 | -0.72% | -0.23% | 1.86% |
-| QQQ | 12.0% | core | 712.25 | -1.83% | -1.46% | -0.57% |
-| TLT | 12.0% | core | 83.96 | -0.6% | -1.74% | -1.98% |
-| GLD | 9.3% | core | 366.68 | -2.74% | -4.04% | -5.08% |
-| BEP | 8.5% | satellite | 31.81 | -1.61% | -5.86% | -10.09% |
-| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.78% |
-| AVO | 5.3% | satellite | 13.35 | 0.19% | 0.49% | 19.99% |
+| SPY | 12.0% | core | 749.08 | -0.78% | -0.29% | 1.8% |
+| QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
+| TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
+| GLD | 9.3% | core | 367.2 | -2.6% | -3.91% | -4.95% |
+| BEP | 8.5% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
+| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
+| AVO | 5.3% | satellite | 13.27 | -0.45% | -0.15% | 19.23% |
 | TBRG | 4.9% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
-| LION | 4.2% | satellite | 13.3 | -1.26% | -7.57% | -4.45% |
-| NTSK | 3.1% | satellite | 12.59 | 2.15% | 2.99% | 44.49% |
-| INTC | 2.6% | satellite | 102.8 | -6.41% | -15.88% | -12.11% |
-| APGE | 2.5% | satellite | 133.73 | 0.06% | 0.17% | 49.42% |
-| IPX | 2.4% | satellite | 25.11 | 0.32% | -11.46% | -31.84% |
+| LION | 4.2% | satellite | 13.29 | -1.34% | -7.64% | -4.53% |
+| NTSK | 3.1% | satellite | 12.8 | 3.9% | 4.75% | 46.96% |
+| INTC | 2.6% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
+| APGE | 2.5% | satellite | 133.82 | 0.13% | 0.24% | 49.52% |
+| IPX | 2.4% | satellite | 24.67 | -1.44% | -13.01% | -33.03% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -96,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 749.52 (-0.72% / -0.23% / 1.86%) [2026-07-13]
-- QQQ: 712.25 (-1.83% / -1.46% / -0.57%) [2026-07-13]
-- IWM: 293.23 (-0.93% / -1.9% / 0.97%) [2026-07-13]
-- DIA: 524.29 (-0.28% / -1.09% / 3.21%) [2026-07-13]
-- TLT: 83.96 (-0.6% / -1.74% / -1.98%) [2026-07-13]
-- IEF: 93.29 (-0.36% / -0.94% / -0.78%) [2026-07-13]
-- GLD: 366.68 (-2.74% / -4.04% / -5.08%) [2026-07-13]
-- ^VIX: 16.67 (10.91% / 7.06% / -14.25%) [2026-07-13]
-- BTC-USD: 61953.52 (-2.83% / -0.49% / -1.14%) [2026-07-13]
+- SPY: 749.08 (-0.78% / -0.29% / 1.8%) [2026-07-13]
+- QQQ: 711.74 (-1.9% / -1.53% / -0.64%) [2026-07-13]
+- IWM: 293.44 (-0.86% / -1.83% / 1.28%) [2026-07-13]
+- DIA: 524.4 (-0.26% / -1.07% / 3.23%) [2026-07-13]
+- TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
+- IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
+- GLD: 367.2 (-2.6% / -3.91% / -4.95%) [2026-07-13]
+- ^VIX: 17.23 (14.64% / 10.66% / -11.37%) [2026-07-13]
+- BTC-USD: 62232.02 (-2.39% / -0.04% / -0.7%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,15 +119,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (5), merger (2), legal (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
-- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
-- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
-- [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
-- [NYSE: KRC] Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) (2026-06-29)
+- [DASH] Texas DoorDash driver gets hit by a car fleeing from police and still delivers the order (2026-07-13)
+- [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
+- [DDOG] Datadog , Inc . $DDOG Shares Sold by Y . D . More Investments Ltd (2026-07-13)
+- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 3 . 2 % – Should You Sell ? (2026-07-10)
+- [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
+- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 1 . 6 % – What Next ? (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -142,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- trashpilot · PnL $27,669 · win rate 88% · categorias: politics, sports, economy
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $20,692 · win rate 89% · categorias: sports, crypto
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $198,133 · win rate 73% · categorias: sports, politics, crypto
-- omoi0i0 · PnL $45,481 · win rate 80% · categorias: sports
-- TheReturnOfDarthMaul · PnL $382,750 · win rate 61% · categorias: crypto, sports, politics
+- trashpilot · PnL $31,645 · win rate 89% · categorias: politics, sports, economy
+- BreakTheBank · PnL $39,610 · win rate 87% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $206,707 · win rate 73% · categorias: sports, politics, crypto
+- omoi0i0 · PnL $45,639 · win rate 80% · categorias: sports
+- Jsram · PnL $34,103 · win rate 78% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -154,7 +159,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 601 registros 30d · ultimo dato 2026-07-13
+- **sec_insiders**: `ok` · 611 registros 30d · ultimo dato 2026-07-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
