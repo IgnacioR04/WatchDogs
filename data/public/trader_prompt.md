@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-13T22:27:23+00:00 -->
+<!-- trader_prompt.md generado 2026-07-13T23:29:36+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T22:27:23+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T23:29:36+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
 - ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 63980.48 (0.35% / 2.77% / 2.09%) [2026-07-13]
+- BTC-USD: 62150.47 (-2.52% / -0.17% / -0.83%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,12 +346,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), leadership (2), merger (2), legal (2), regulatory (2), earnings (1)
+**Temas dominantes**: stock (5), merger (3), leadership (2), legal (2), regulatory (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] MP Materials ( NYSE : MP ) Stock Price Down 5 . 1 % – Here Why (2026-07-13)
-- [WDAY] Redwire ( NYSE : RDW ) Stock Price Down 6 % – Here What Happened (2026-07-13)
 - [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
 - [DELL] Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600 (2026-07-13)
 - [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
@@ -360,6 +358,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] IKS Health Buys TruBridge (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -369,16 +369,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.
 - CEO Seto Wai Yue compro TDIC por $2.2M el 2026-07-07 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $3.5M el 2026-07-07.
+- CEO Ullal Jayshree vendio ANET por $21.3M el 2026-07-09.
 - CEO Huang Jack Jiajia compro COE por $3.1M el 2026-07-08.
-- CEO Huang Jack Jiajia compro COE por $2.7M el 2026-07-06.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- trashpilot · PnL $31,426 · win rate 89% · categorias: politics, sports, economy
-- BreakTheBank · PnL $39,567 · win rate 87% · categorias: sports
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $233,332 · win rate 73% · categorias: sports, politics, crypto
-- alexfire97 · PnL $40,351 · win rate 83% · categorias: sports
-- omoi0i0 · PnL $45,958 · win rate 80% · categorias: sports
+- BreakTheBank · PnL $44,028 · win rate 87% · categorias: sports
+- trashpilot · PnL $30,283 · win rate 89% · categorias: politics, sports, economy
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $245,704 · win rate 73% · categorias: sports, politics, crypto
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $21,169 · win rate 89% · categorias: sports, crypto
+- omoi0i0 · PnL $46,008 · win rate 80% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,7 +386,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 603 registros 30d · ultimo dato 2026-07-13
+- **sec_insiders**: `ok` · 600 registros 30d · ultimo dato 2026-07-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
