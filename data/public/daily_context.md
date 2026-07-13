@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T07:57:05+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T11:49:15+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.39)
+- Volatilidad: `normal` (VIX 16.28)
 - Tendencia: `bull` (SPY 754.95 · MA50 739.91 · MA200 691.09 · dist MA200: 9.24%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -70,9 +70,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | APGE | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| PHUN | 70 | large_holder | Goldenwise Capital Group  |  | - | - |
-| PHUN | 70 | large_holder | Goldenwise Capital Group  |  | - | - |
-| EVGN | 70 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
+| KWY | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
+| SKIN | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
+| RAY | 70 | large_holder | FORTUNE GENESIS HOLDINGS  |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.47 (-0.02% / -1.22% / -0.12%) [2026-07-10]
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
-- ^VIX: 16.39 (9.05% / 5.27% / -15.69%) [2026-07-13]
-- BTC-USD: 63758.22 (-0.07% / 0.73% / -0.3%) [2026-07-12]
+- ^VIX: 16.28 (8.32% / 4.56% / -16.26%) [2026-07-13]
+- BTC-USD: 63995.74 (0.37% / 2.79% / 2.12%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,39 +117,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), ai (5), merger (4), regulatory (3), legal (2), leadership (1)
+**Temas dominantes**: stock (6), merger (2), legal (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SAIL] SailPoint ( SAIL ) Completes Acquisition of Entro Security to Enhance Non - Human Identity Management (2026-07-11)
 - [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [SAIL] SailPoint ( NASDAQ : SAIL ) Shares Down 6 . 9 % on Insider Selling (2026-07-10)
+- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 3 . 2 % – Should You Sell ? (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
 - [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
+- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 1 . 6 % – What Next ? (2026-07-08)
+- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 3 . 2 % – Here Why (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner MetLife Investment Management, LLC compro FINS por $1600000.0B el 2026-07-08.
+- CFO Liu Chitung vendio UMC por $294.3M el 2026-07-13.
 - 10% owner Pinetree Capital Ltd. opero TBRG por $55.9M el 2026-07-09 [senal en multiples fuentes].
 - 10% owner Globalharvest Holdings Venture Ltd compro AVO por $7.9M el 2026-07-09 [senal en multiples fuentes].
 - CEO Beck Scott Arthur compro GLOO por $3.5M el 2026-07-10.
-- 10% owner Endeavor Blockchain, LLC compro BGDE por $16.7M el 2026-06-30 [senal en multiples fuentes].
-- 10% owner ICONIQ Strategic Partners VIII Holdings, L.P. compro NTSK por $7.2M el 2026-07-08.
-- 10% owner Griffith William J.G. compro NTSK por $7.2M el 2026-07-08.
-- CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].
+- 10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.
+- CEO Huang Jack Jiajia compro COE por $3.5M el 2026-07-07.
+- CEO Huang Jack Jiajia compro COE por $3.1M el 2026-07-08.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $230,442 · win rate 73% · categorias: sports, politics, crypto
-- 0xdd517b727B1445d9744D23BBa5856dd06E5F1041-1776442164856 · PnL $4,658 · win rate 97% · categorias: sports
-- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $14,916 · win rate 89% · categorias: sports, crypto, economy
-- omoi0i0 · PnL $45,341 · win rate 80% · categorias: sports
-- Countryside · PnL $4,880 · win rate 90% · categorias: sports
+- thoodr · PnL $7,276 · win rate 99% · categorias: politics, sports, economy
+- 0xb0E43B885657a33B347A4af1D05Bd5f3c3A7E99 · PnL $9,980 · win rate 94% · categorias: sports, politics, economy
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $225,185 · win rate 73% · categorias: sports, politics, crypto
+- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $18,805 · win rate 88% · categorias: sports, crypto, economy
+- omoi0i0 · PnL $45,504 · win rate 80% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,8 +157,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-07-10
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-10
+- **sec_insiders**: `ok` · 634 registros 30d · ultimo dato 2026-07-13
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
