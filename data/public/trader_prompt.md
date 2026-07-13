@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-13T15:30:43+00:00 -->
+<!-- trader_prompt.md generado 2026-07-13T17:41:13+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T15:30:43+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T17:41:13+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,8 +240,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.24)
-- Tendencia: `bull` (SPY 752.26 · MA50 740.76 · MA200 691.57 · dist MA200: 8.78%)
+- Volatilidad: `normal` (VIX 16.67)
+- Tendencia: `bull` (SPY 749.52 · MA50 740.7 · MA200 691.55 · dist MA200: 8.38%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.35)
 - Fed Funds: 3.63%
@@ -253,32 +253,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 752.26 | -0.36% | 0.13% | 2.23% |
-| QQQ | 12.0% | core | 717.66 | -1.08% | -0.71% | 0.19% |
-| TLT | 12.0% | core | 84.13 | -0.4% | -1.54% | -1.79% |
-| GLD | 9.3% | core | 368.65 | -2.22% | -3.53% | -4.57% |
-| GRMN | 7.4% | satellite | 244.17 | 0.44% | -0.43% | 2.8% |
-| BEP | 7.1% | satellite | 32.17 | -0.49% | -4.79% | -9.07% |
-| IEF | 6.2% | core | 93.41 | -0.23% | -0.82% | -0.66% |
-| AVO | 4.4% | satellite | 13.35 | 0.19% | 0.49% | 19.99% |
-| TBRG | 4.1% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
-| LION | 3.5% | satellite | 13.68 | 1.56% | -4.93% | -1.72% |
-| NTSK | 2.6% | satellite | 12.41 | 0.72% | 1.54% | 42.46% |
-| INTC | 2.2% | satellite | 105.14 | -4.28% | -13.96% | -10.11% |
-| APGE | 2.1% | satellite | 133.72 | 0.05% | 0.16% | 49.41% |
+| SPY | 12.0% | core | 749.52 | -0.72% | -0.23% | 1.86% |
+| QQQ | 12.0% | core | 712.25 | -1.83% | -1.46% | -0.57% |
+| TLT | 12.0% | core | 83.96 | -0.6% | -1.74% | -1.98% |
+| GLD | 9.3% | core | 366.68 | -2.74% | -4.04% | -5.08% |
+| BEP | 8.5% | satellite | 31.81 | -1.61% | -5.86% | -10.09% |
+| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.78% |
+| AVO | 5.3% | satellite | 13.35 | 0.19% | 0.49% | 19.99% |
+| TBRG | 4.9% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
+| LION | 4.2% | satellite | 13.3 | -1.26% | -7.57% | -4.45% |
+| NTSK | 3.1% | satellite | 12.59 | 2.15% | 2.99% | 44.49% |
+| INTC | 2.6% | satellite | 102.8 | -6.41% | -15.88% | -12.11% |
+| APGE | 2.5% | satellite | 133.73 | 0.06% | 0.17% | 49.42% |
+| IPX | 2.4% | satellite | 25.11 | 0.32% | -11.46% | -31.84% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.4%
-- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -5.9%
-- Beta vs SPY: 0.785 · posiciones efectivas: 13.7 · HHI: 0.0728
+- Volatilidad anualizada: 14.9%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.9%
+- Max drawdown historico: -7.4%
+- Beta vs SPY: 0.844 · posiciones efectivas: 13.8 · HHI: 0.0727
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **LION** · score agregado 481.3 · 8 señales · fuentes: corporate_insider, large_holder
+- **IPX** · score agregado 234.7 · 3 señales · fuentes: corporate_insider
 - **NTSK** · score agregado 167.6 · 2 señales · fuentes: corporate_insider
-- **GRMN** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **AVO** · score agregado 138.2 · 2 señales · fuentes: corporate_insider, large_holder
 - **TBRG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **APGE** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -295,17 +295,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NTSK | 84 | corporate_insider | ICONIQ Strategic Partners | 2 | $7,213,716 | cluster_buy |
 | NTSK | 84 | corporate_insider | Griffith William J.G. | 2 | $7,216,081 | cluster_buy |
 | GLOO | 83 | corporate_insider | Green Derek Todd | 3 | $1,999,998 | cluster_buy |
+| IPX | 80 | corporate_insider | Arima Anastasios | 2 | $497,228 | cluster_buy |
 | GLOO | 80 | corporate_insider | GELSINGER PATRICK P | 3 | $500,000 | cluster_buy |
+| IPX | 78 | corporate_insider | Hannigan Todd | 2 | $1,075,980 | cluster_buy |
+| IPX | 77 | corporate_insider | Hannigan Todd | 2 | $805,185 | cluster_buy |
 | FINS | 74 | corporate_insider | MetLife Investment Manage | 0 | $1,600,000,000,000,000 | - |
 | TBRG | 72 | large_holder | L6 Holdings Inc. |  | - | - |
 | LION | 72 | large_holder | MHR INSTITUTIONAL PARTNER |  | - | - |
 | WRAP | 72 | large_holder | NORRIS ELWOOD G |  | - | - |
+| INVE | 72 | large_holder | Grossman Bruce |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | APGE | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
-| INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| FMTOF | 70 | large_holder | Corley Thomas John |  | - | - |
-| KWY | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
-| SKIN | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 752.26 (-0.36% / 0.13% / 2.23%) [2026-07-13]
-- QQQ: 717.66 (-1.08% / -0.71% / 0.19%) [2026-07-13]
-- IWM: 294.49 (-0.51% / -1.48% / 1.65%) [2026-07-13]
-- DIA: 524.76 (-0.19% / -1.01% / 3.3%) [2026-07-13]
-- TLT: 84.13 (-0.4% / -1.54% / -1.79%) [2026-07-13]
-- IEF: 93.41 (-0.23% / -0.82% / -0.66%) [2026-07-13]
-- GLD: 368.65 (-2.22% / -3.53% / -4.57%) [2026-07-13]
-- ^VIX: 16.24 (8.05% / 4.3% / -16.46%) [2026-07-13]
-- BTC-USD: 64171.99 (0.65% / 3.07% / 2.4%) [2026-07-13]
+- SPY: 749.52 (-0.72% / -0.23% / 1.86%) [2026-07-13]
+- QQQ: 712.25 (-1.83% / -1.46% / -0.57%) [2026-07-13]
+- IWM: 293.23 (-0.93% / -1.9% / 0.97%) [2026-07-13]
+- DIA: 524.29 (-0.28% / -1.09% / 3.21%) [2026-07-13]
+- TLT: 83.96 (-0.6% / -1.74% / -1.98%) [2026-07-13]
+- IEF: 93.29 (-0.36% / -0.94% / -0.78%) [2026-07-13]
+- GLD: 366.68 (-2.74% / -4.04% / -5.08%) [2026-07-13]
+- ^VIX: 16.67 (10.91% / 7.06% / -14.25%) [2026-07-13]
+- BTC-USD: 61953.52 (-2.83% / -0.49% / -1.14%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,7 +350,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), merger (2), legal (2), regulatory (2)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -358,31 +358,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
 - [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
 - [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
-- [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
-- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] IKS Health Buys TruBridge (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
+- [NYSE: KRC] Investment Analyst Recent Ratings Updates for Kilroy Realty ( KRC ) (2026-06-29)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner MetLife Investment Management, LLC compro FINS por $1600000.0B el 2026-07-08.
+- CFO Liu Chitung vendio UMC por $294.3M el 2026-07-13.
 - 10% owner Pinetree Capital Ltd. opero TBRG por $55.9M el 2026-07-09 [senal en multiples fuentes].
 - 10% owner Globalharvest Holdings Venture Ltd compro AVO por $7.9M el 2026-07-09 [senal en multiples fuentes].
 - CEO Beck Scott Arthur compro GLOO por $3.5M el 2026-07-10.
-- 10% owner Endeavor Blockchain, LLC compro BGDE por $16.7M el 2026-06-30 [senal en multiples fuentes].
-- 10% owner ICONIQ Strategic Partners VIII Holdings, L.P. compro NTSK por $7.2M el 2026-07-08.
-- 10% owner Griffith William J.G. compro NTSK por $7.2M el 2026-07-08.
-- CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].
+- 10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.
+- CEO Seto Wai Yue compro TDIC por $2.2M el 2026-07-07 [senal en multiples fuentes].
+- CEO Huang Jack Jiajia compro COE por $3.5M el 2026-07-07.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $32,664 · win rate 89% · categorias: sports, crypto
-- trashpilot · PnL $22,585 · win rate 88% · categorias: politics, sports, economy
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $223,209 · win rate 73% · categorias: sports, politics, crypto
-- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $18,574 · win rate 89% · categorias: sports, crypto, economy
-- omoi0i0 · PnL $45,591 · win rate 80% · categorias: sports
+- trashpilot · PnL $27,669 · win rate 88% · categorias: politics, sports, economy
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $20,692 · win rate 89% · categorias: sports, crypto
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $198,133 · win rate 73% · categorias: sports, politics, crypto
+- omoi0i0 · PnL $45,481 · win rate 80% · categorias: sports
+- TheReturnOfDarthMaul · PnL $382,750 · win rate 61% · categorias: crypto, sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +385,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 594 registros 30d · ultimo dato 2026-07-10
+- **sec_insiders**: `ok` · 601 registros 30d · ultimo dato 2026-07-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -403,7 +398,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, GRMN, IEF, INTC, LION, NTSK, QQQ, SPY, TBRG, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, IEF, INTC, IPX, LION, NTSK, QQQ, SPY, TBRG, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
