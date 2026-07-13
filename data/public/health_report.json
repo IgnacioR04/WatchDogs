@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T23:24:22.760120+00:00",
-  "overall_status": "ok",
+  "generated_at": "2026-07-13T00:26:10.937512+00:00",
+  "overall_status": "warning",
   "datasets": {
     "congress": {
       "status": "ok",
@@ -42,12 +42,14 @@
       "blocked_for_signals": false
     },
     "polymarket": {
-      "status": "ok",
-      "smart_traders": 46,
+      "status": "warning",
+      "smart_traders": 41,
       "whales": 50,
-      "volume_zero_count": 13,
-      "avg_win_rate": 0.7177,
-      "issues": [],
+      "volume_zero_count": 89,
+      "avg_win_rate": 0.5023,
+      "issues": [
+        "high_volume_zero_count:89"
+      ],
       "blocked_for_signals": false
     }
   }

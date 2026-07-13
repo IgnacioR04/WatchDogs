@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-12T23:25:15+00:00 · ventana señales 2026-06-12 -> 2026-07-12_
+_Generado 2026-07-13T00:27:06+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
 - GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
 - ^VIX: 15.03 (-5.11% / -6.93% / -32.36%) [2026-07-10]
-- BTC-USD: 63812.0 (0.02% / 0.81% / -0.22%) [2026-07-12]
+- BTC-USD: 64170.0 (0.58% / 1.38% / 0.34%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +117,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), merger (3), legal (2), regulatory (2)
+**Temas dominantes**: stock (4), merger (3), legal (2), regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
-- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
-- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
-- [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
 - [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
+- [CRWV] CoreWeave Stock Sank 11 % After Mark Zuckerberg Meta Unveiled a Cloud Business Plan (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [CRWD] CrowdStrike identifies five new prompt injection threats to AI (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge (2026-07-10)
+- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,22 +145,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $240,629 · win rate 99% · categorias: sports
-- Allezpapa · PnL $226,114 · win rate 99% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $149,689 · win rate 96% · categorias: sports
-- comon119 · PnL $103,713 · win rate 99% · categorias: sports, crypto, politics
-- shijiebeifacai · PnL $121,565 · win rate 97% · categorias: sports
+- Poyo · PnL $50,767 · win rate 56% · categorias: politics, crypto, sports
+- AvrahamEisenberg - 10161 · PnL $100,287 · win rate 49% · categorias: sports, politics, crypto
+- 0xa8cf2ed8 · PnL $85,547 · win rate 49% · categorias: sports, crypto, politics
+- RWCS · PnL $102,267 · win rate 44% · categorias: sports, politics, crypto
+- 0x0f35109c · PnL $27,255 · win rate 50% · categorias: sports, politics, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
-- Estado global: `ok`
+- Estado global: `warning`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
 - **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-07-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-10
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — high_volume_zero_count:89
+- **Fuentes con problemas**: polymarket
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
