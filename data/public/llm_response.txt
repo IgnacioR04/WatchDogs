@@ -1,31 +1,33 @@
 {
   "verdict": "adjust",
   "adjustments": [
-    {"ticker": "GLUE", "action": "remove", "target_weight": 0.0, "reason": "Sin senal nueva en la ventana de 30d y sin actividad de smart money desde su entrada en el ciclo 2 (posicion legado); libero su peso para una idea con conviccion cruzada mas fuerte este ciclo."},
-    {"ticker": "NTSK", "action": "add", "target_weight": 0.015, "reason": "Cluster buy de dos insiders distintos el mismo dia (ICONIQ Strategic Partners $7.2M y Griffith William J.G. $7.2M), flag cluster_buy, score agregado 167.6 y presente en la cartera candidata como satellite. Tamano reducido (1.5% vs 3.3% de la candidata) porque el precio ya subio 45.45% en 20d, para no perseguir el momentum en exceso."}
+    {"ticker": "GLD", "action": "decrease", "target_weight": 0.093, "reason": "Precio cae -4.95% en 20d y el dolar se fortalece (DXY +1.65 delta 1m); reduzco al peso de la cartera candidata en lugar de mantener sobreponderado un activo con momentum negativo."},
+    {"ticker": "FVR", "action": "remove", "target_weight": 0.0, "reason": "Sin señal de smart money desde su entrada en el ciclo 2 (hace ya 3 ciclos); libero espacio para ideas con conviccion activa este ciclo."},
+    {"ticker": "ASC", "action": "remove", "target_weight": 0.0, "reason": "Igual que FVR: posicion legado sin señal nueva desde el ciclo 2, sin tesis que la sostenga hoy."},
+    {"ticker": "LION", "action": "increase", "target_weight": 0.042, "reason": "Mayor score agregado de todo el universo (481.3, 8 señales, 2 fuentes distintas: insider + large holder); conviccion cruzada sostenida pese a la caida reciente de precio."},
+    {"ticker": "AVO", "action": "increase", "target_weight": 0.042, "reason": "Señal multi-fuente confirmada por noticias esta semana (10% owner Globalharvest Holdings compro $7.9M); momentum 20d +19.23%, tesis intacta."},
+    {"ticker": "NTSK", "action": "increase", "target_weight": 0.031, "reason": "Cluster buy de 2 insiders distintos por ~$7.2M cada uno el mismo dia; momentum +46.96% 20d, señal reforzada respecto al ciclo anterior."}
   ],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.12,
+    "GLD": 0.093,
     "VFLEX": 0.12,
     "IEF": 0.098,
     "PSBD": 0.031,
-    "LION": 0.028,
-    "AVO": 0.026,
+    "LION": 0.042,
+    "AVO": 0.042,
     "COE": 0.025,
     "MOMO": 0.023,
-    "FVR": 0.02,
-    "ASC": 0.017,
-    "NTSK": 0.015,
+    "NTSK": 0.031,
     "EPAM": 0.015
   },
-  "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta, VIX bajo en 15.03, credito tenso). Mantengo el core (SPY/QQQ/TLT/GLD/VFLEX/IEF, ~57.8%) y casi todos los satelites porque ninguno tiene senal de venta en contra este ciclo, incluyendo LION y AVO que siguen con conviccion cruzada activa. Unico movimiento: sustituyo GLUE (sin senal desde su entrada, legado de ciclo 2) por NTSK, con cluster buy de dos insiders distintos por $7.2M cada uno el mismo dia. Exposicion total se mantiene en 89.8%, dentro del presupuesto del 90%.",
+  "thesis": "Regimen risk_on sin cambios sustanciales (VIX 17.23, tendencia alcista con SPY +8.32% sobre MA200, credito tenso). Mantengo el core (SPY/QQQ/TLT/VFLEX/IEF) y recorto GLD por deterioro de momentum coincidiendo con un dolar mas fuerte. Refuerzo las tres ideas satelite con mayor conviccion cruzada activa este ciclo (LION, AVO, NTSK) y libero FVR y ASC, posiciones legado sin señal desde hace 3 ciclos, para financiar el aumento sin superar el presupuesto de riesgo. Excluyo deliberadamente TBRG de la candidata pese a su señal: la fusion con IKS Health ya se completo y hay una investigacion de class action en curso, riesgo que el modelo cuantitativo no captura. Exposicion total ~88.0%, cash ~12.0%, ligeramente mas conservador que el ciclo anterior.",
   "key_risks": [
-    "NTSK ya subio 45.45% en 20d; entrar ahora implica riesgo de perseguir el momentum, mitigado con tamano pequeno (1.5%).",
-    "Latencia de las senales de insiders (1-2 dias) y de 13F/congreso (hasta 45 dias): parte de la informacion puede estar ya descontada en precio.",
-    "Credito tenso (HY spread 2.7) pese al regimen risk_on: sensibilidad a un shock de credito no reflejada en el VIX bajo actual."
+    "Concentracion satelite en tickers con insiders comprando pero precio aun cayendo (LION -7.64% 5d): la conviccion puede tardar en materializarse o estar equivocada.",
+    "GLD y los bonos (TLT/IEF) muestran momentum negativo simultaneo, lo cual es atipico como cobertura de un regimen risk_on.",
+    "Latencia legal de las señales: Congreso y 13F llegan hasta 45 dias tarde, no reflejan necesariamente la situacion actual de esos tickers."
   ],
   "confidence": 0.6
 }
