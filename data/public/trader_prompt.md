@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-13T21:29:39+00:00 -->
+<!-- trader_prompt.md generado 2026-07-13T22:27:23+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T21:29:39+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T22:27:23+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -287,21 +287,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| GLOO | 88 | corporate_insider | Beck Scott Arthur | 4 | $3,500,000 | cluster_buy |
-| GLOO | 86 | corporate_insider | Grace & Mercy Foundation, | 4 | $2,999,997 | cluster_buy |
-| GLOO | 83 | corporate_insider | Green Derek Todd | 4 | $1,999,998 | cluster_buy |
+| GLOO | 88 | corporate_insider | Beck Scott Arthur | 3 | $3,500,000 | cluster_buy |
+| GLOO | 86 | corporate_insider | Grace & Mercy Foundation, | 3 | $2,999,997 | cluster_buy |
+| GLOO | 83 | corporate_insider | Green Derek Todd | 3 | $1,999,998 | cluster_buy |
 | IPX | 80 | corporate_insider | Arima Anastasios | 2 | $497,228 | cluster_buy |
-| GLOO | 80 | corporate_insider | GELSINGER PATRICK P | 4 | $500,000 | cluster_buy |
 | IPX | 78 | corporate_insider | Hannigan Todd | 2 | $1,075,980 | cluster_buy |
 | IPX | 77 | corporate_insider | Hannigan Todd | 2 | $805,185 | cluster_buy |
 | ULCC | 72 | large_holder | Group Holdings - Frontier |  | - | - |
 | TBRG | 72 | large_holder | L6 Holdings Inc. |  | - | - |
 | BBIO | 72 | large_holder | VIKING GLOBAL INVESTORS L |  | - | - |
-| WRAP | 72 | large_holder | NORRIS ELWOOD G |  | - | - |
 | INVE | 72 | large_holder | Grossman Bruce |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | FMTOF | 70 | large_holder | Corley Thomas John |  | - | - |
+| KWY | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
+| SKIN | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
 - ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 61960.24 (-2.82% / -0.48% / -1.13%) [2026-07-13]
+- BTC-USD: 63980.48 (0.35% / 2.77% / 2.09%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,19 +346,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (3), merger (2), legal (2)
+**Temas dominantes**: stock (7), leadership (2), merger (2), legal (2), regulatory (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] Evotec ( NASDAQ : EVO ) Stock Price Down 16 . 1 % – Here Why (2026-07-13)
-- [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
+- [WDAY] MP Materials ( NYSE : MP ) Stock Price Down 5 . 1 % – Here Why (2026-07-13)
+- [WDAY] Redwire ( NYSE : RDW ) Stock Price Down 6 % – Here What Happened (2026-07-13)
+- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
+- [DELL] Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600 (2026-07-13)
+- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
+- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
+- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
+- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [BCAX] Bicara Therapeutics ( NASDAQ : BCAX ) COO Ryan Cohlhepp Sells 536 Shares (2026-07-10)
-- [TBRG] IKS Health Buys TruBridge (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [BCAX] Bicara Therapeutics ( NASDAQ : BCAX ) and ImageneBio ( NASDAQ : IMA ) Head - To - Head Contrast (2026-07-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -373,19 +374,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- trashpilot · PnL $31,509 · win rate 89% · categorias: politics, sports, economy
-- BreakTheBank · PnL $36,146 · win rate 87% · categorias: sports
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $253,173 · win rate 73% · categorias: sports, politics, crypto
-- omoi0i0 · PnL $45,910 · win rate 80% · categorias: sports
-- alexfire97 · PnL $20,701 · win rate 83% · categorias: sports
+- trashpilot · PnL $31,426 · win rate 89% · categorias: politics, sports, economy
+- BreakTheBank · PnL $39,567 · win rate 87% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $233,332 · win rate 73% · categorias: sports, politics, crypto
+- alexfire97 · PnL $40,351 · win rate 83% · categorias: sports
+- omoi0i0 · PnL $45,958 · win rate 80% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 537 registros 30d · ultimo dato 2026-07-13
+- **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 603 registros 30d · ultimo dato 2026-07-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
