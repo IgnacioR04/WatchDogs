@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T11:49:15+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-13T15:30:43+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.28)
-- Tendencia: `bull` (SPY 754.95 · MA50 739.91 · MA200 691.09 · dist MA200: 9.24%)
-- Credito: `tight` (HY spread 2.7)
+- Volatilidad: `normal` (VIX 16.24)
+- Tendencia: `bull` (SPY 752.26 · MA50 740.76 · MA200 691.57 · dist MA200: 8.78%)
+- Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.35)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,30 +22,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 754.95 | 0.43% | 1.37% | 4.34% |
-| QQQ | 12.0% | core | 725.51 | 0.31% | 1.81% | 4.7% |
-| TLT | 12.0% | core | 84.47 | -0.02% | -1.22% | -0.12% |
-| GLD | 9.3% | core | 377.01 | -0.31% | -0.3% | 0.65% |
-| BEP | 9.1% | satellite | 32.33 | -1.97% | -4.57% | -8.34% |
-| IEF | 6.2% | core | 93.63 | -0.09% | -0.52% | 0.27% |
-| AVO | 5.7% | satellite | 13.33 | -0.15% | 6.73% | 18.59% |
-| TBRG | 5.3% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
-| LION | 4.5% | satellite | 13.47 | -0.15% | -8.12% | -1.61% |
-| NTSK | 3.3% | satellite | 12.32 | -0.81% | 5.21% | 45.45% |
-| INTC | 2.9% | satellite | 109.84 | -2.4% | -8.73% | 2.62% |
-| APGE | 2.7% | satellite | 133.65 | 0.06% | 0.56% | 61.57% |
+| SPY | 12.0% | core | 752.26 | -0.36% | 0.13% | 2.23% |
+| QQQ | 12.0% | core | 717.66 | -1.08% | -0.71% | 0.19% |
+| TLT | 12.0% | core | 84.13 | -0.4% | -1.54% | -1.79% |
+| GLD | 9.3% | core | 368.65 | -2.22% | -3.53% | -4.57% |
+| GRMN | 7.4% | satellite | 244.17 | 0.44% | -0.43% | 2.8% |
+| BEP | 7.1% | satellite | 32.17 | -0.49% | -4.79% | -9.07% |
+| IEF | 6.2% | core | 93.41 | -0.23% | -0.82% | -0.66% |
+| AVO | 4.4% | satellite | 13.35 | 0.19% | 0.49% | 19.99% |
+| TBRG | 4.1% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
+| LION | 3.5% | satellite | 13.68 | 1.56% | -4.93% | -1.72% |
+| NTSK | 2.6% | satellite | 12.41 | 0.72% | 1.54% | 42.46% |
+| INTC | 2.2% | satellite | 105.14 | -4.28% | -13.96% | -10.11% |
+| APGE | 2.1% | satellite | 133.72 | 0.05% | 0.16% | 49.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.9%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.7%
-- Max drawdown historico: -6.0%
-- Beta vs SPY: 0.774 · posiciones efectivas: 13.4 · HHI: 0.0748
+- Volatilidad anualizada: 13.4%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.6%
+- Max drawdown historico: -5.9%
+- Beta vs SPY: 0.785 · posiciones efectivas: 13.7 · HHI: 0.0728
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **LION** · score agregado 481.3 · 8 señales · fuentes: corporate_insider, large_holder
 - **NTSK** · score agregado 167.6 · 2 señales · fuentes: corporate_insider
+- **GRMN** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **AVO** · score agregado 138.2 · 2 señales · fuentes: corporate_insider, large_holder
 - **TBRG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **APGE** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -70,9 +72,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | APGE | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| FMTOF | 70 | large_holder | Corley Thomas John |  | - | - |
 | KWY | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
 | SKIN | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
-| RAY | 70 | large_holder | FORTUNE GENESIS HOLDINGS  |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -94,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 754.95 (0.43% / 1.37% / 4.34%) [2026-07-10]
-- QQQ: 725.51 (0.31% / 1.81% / 4.7%) [2026-07-10]
-- IWM: 295.99 (-0.42% / -0.53% / 5.19%) [2026-07-10]
-- DIA: 525.78 (0.3% / -0.4% / 5.39%) [2026-07-10]
-- TLT: 84.47 (-0.02% / -1.22% / -0.12%) [2026-07-10]
-- IEF: 93.63 (-0.09% / -0.52% / 0.27%) [2026-07-10]
-- GLD: 377.01 (-0.31% / -0.3% / 0.65%) [2026-07-10]
-- ^VIX: 16.28 (8.32% / 4.56% / -16.26%) [2026-07-13]
-- BTC-USD: 63995.74 (0.37% / 2.79% / 2.12%) [2026-07-13]
+- SPY: 752.26 (-0.36% / 0.13% / 2.23%) [2026-07-13]
+- QQQ: 717.66 (-1.08% / -0.71% / 0.19%) [2026-07-13]
+- IWM: 294.49 (-0.51% / -1.48% / 1.65%) [2026-07-13]
+- DIA: 524.76 (-0.19% / -1.01% / 3.3%) [2026-07-13]
+- TLT: 84.13 (-0.4% / -1.54% / -1.79%) [2026-07-13]
+- IEF: 93.41 (-0.23% / -0.82% / -0.66%) [2026-07-13]
+- GLD: 368.65 (-2.22% / -3.53% / -4.57%) [2026-07-13]
+- ^VIX: 16.24 (8.05% / 4.3% / -16.46%) [2026-07-13]
+- BTC-USD: 64171.99 (0.65% / 3.07% / 2.4%) [2026-07-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,7 +112,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.54 (delta 1m: -0.02) [2026-07-09]
 - Curva 10Y-2Y: 0.35 (delta 1m: -0.05) [2026-07-10]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.7 (delta 1m: -0.1) [2026-07-09]
+- High yield spread (OAS): 2.69 (delta 1m: -0.09) [2026-07-10]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.24 (delta 1m: -0.09) [2026-07-10]
 - Dolar broad index: 120.6902 (delta 1m: 1.654) [2026-07-02]
@@ -121,35 +123,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
+- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
+- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
+- [DELL] 2 , 026 Shares in Dell Technologies Inc . $DELL Purchased by Roman Butler Fullerton & Co . (2026-07-11)
 - [IOT] Is Samsara ( IOT ) One of the Best Up and Coming Tech Stocks to Buy Now ? (2026-07-11)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 3 . 2 % – Should You Sell ? (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
 - [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
-- [IOT] Samsara ( NYSE : IOT ) Insider John Bicket Sells 17 , 975 Shares of Stock (2026-07-10)
-- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 1 . 6 % – What Next ? (2026-07-08)
-- [PL] Planet Labs PBC ( NYSE : PL ) Stock Price Down 3 . 2 % – Here Why (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner MetLife Investment Management, LLC compro FINS por $1600000.0B el 2026-07-08.
-- CFO Liu Chitung vendio UMC por $294.3M el 2026-07-13.
 - 10% owner Pinetree Capital Ltd. opero TBRG por $55.9M el 2026-07-09 [senal en multiples fuentes].
 - 10% owner Globalharvest Holdings Venture Ltd compro AVO por $7.9M el 2026-07-09 [senal en multiples fuentes].
 - CEO Beck Scott Arthur compro GLOO por $3.5M el 2026-07-10.
-- 10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.
-- CEO Huang Jack Jiajia compro COE por $3.5M el 2026-07-07.
-- CEO Huang Jack Jiajia compro COE por $3.1M el 2026-07-08.
+- 10% owner Endeavor Blockchain, LLC compro BGDE por $16.7M el 2026-06-30 [senal en multiples fuentes].
+- 10% owner ICONIQ Strategic Partners VIII Holdings, L.P. compro NTSK por $7.2M el 2026-07-08.
+- 10% owner Griffith William J.G. compro NTSK por $7.2M el 2026-07-08.
+- CEO Fowler Christopher L vendio TBRG por $3.2M el 2026-07-09 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- thoodr · PnL $7,276 · win rate 99% · categorias: politics, sports, economy
-- 0xb0E43B885657a33B347A4af1D05Bd5f3c3A7E99 · PnL $9,980 · win rate 94% · categorias: sports, politics, economy
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $225,185 · win rate 73% · categorias: sports, politics, crypto
-- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $18,805 · win rate 88% · categorias: sports, crypto, economy
-- omoi0i0 · PnL $45,504 · win rate 80% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $32,664 · win rate 89% · categorias: sports, crypto
+- trashpilot · PnL $22,585 · win rate 88% · categorias: politics, sports, economy
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $223,209 · win rate 73% · categorias: sports, politics, crypto
+- 0x70dc005E4aBE3a4f66d80686372535219Fe11dFd-1774415209836 · PnL $18,574 · win rate 89% · categorias: sports, crypto, economy
+- omoi0i0 · PnL $45,591 · win rate 80% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,7 +159,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-07
-- **sec_insiders**: `ok` · 634 registros 30d · ultimo dato 2026-07-13
+- **sec_insiders**: `ok` · 594 registros 30d · ultimo dato 2026-07-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -170,7 +172,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, IEF, INTC, LION, NTSK, QQQ, SPY, TBRG, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APGE, AVO, BEP, GLD, GRMN, IEF, INTC, LION, NTSK, QQQ, SPY, TBRG, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
