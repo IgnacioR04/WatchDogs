@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-14T06:41:58+00:00 -->
+<!-- trader_prompt.md generado 2026-07-14T09:32:37+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-14T06:41:58+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
+_Generado 2026-07-14T09:32:37+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.16)
+- Volatilidad: `normal` (VIX 17.26)
 - Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.36)
@@ -257,7 +257,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
 | BEP | 7.0% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
 | IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
-| TBRG | 4.4% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
+| TBRG | 4.4% | satellite | 26.24 | 0.0% | -0.04% | 0.65% |
 | ENR | 4.3% | satellite | 20.47 | 0.0% | -4.08% | 2.97% |
 | BBIO | 4.3% | satellite | 83.08 | -3.27% | 6.86% | 22.99% |
 | GGAL | 3.7% | satellite | 51.41 | -4.32% | -3.04% | -7.22% |
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 62585.19 (0.56% / -0.96% / 2.61%) [2026-07-14]
+- ^VIX: 17.26 (0.58% / 7.01% / -2.38%) [2026-07-14]
+- BTC-USD: 62564.78 (0.52% / -0.99% / 2.57%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,18 +350,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (3), merger (2), legal (2), leadership (1)
+**Temas dominantes**: stock (6), ai (1), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [WDAY] Stock Traders Buy High Volume of Call Options on TotalEnergies ( NYSE : TTE ) (2026-07-14)
+- [WDAY] South Korea KOSPI Enters Bear Market Despite Remaining 2026 Best - Performing Major Stock Index (2026-07-14)
+- [WDAY] Infosys , Coforge , TCS , Wipro , HCL , LTM , Persistent , Mphasis : Stock with highest St target (2026-07-14)
 - [DASH] Only on 13 : DoorDash driver seen on video being hit by a car speaks to ABC13 (2026-07-14)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
+- [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
+- [DDOG] Datadog , Inc . $DDOG Shares Sold by Y . D . More Investments Ltd (2026-07-13)
 - [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
-- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] IKS Health Buys TruBridge (2026-07-10)
-- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $22,331 · win rate 99% · categorias: sports, crypto, politics
-- dex57 · PnL $5,484 · win rate 99% · categorias: sports, crypto
-- NiFengFanPan · PnL $10,403 · win rate 94% · categorias: sports, politics, crypto
-- QuentinChen · PnL $6,608 · win rate 96% · categorias: sports
-- kamloic · PnL $7,752 · win rate 89% · categorias: sports
+- comon119 · PnL $16,024 · win rate 99% · categorias: sports, crypto, politics
+- RJW1 · PnL $14,361 · win rate 99% · categorias: sports
+- NiFengFanPan · PnL $10,505 · win rate 94% · categorias: sports, politics, crypto
+- QuentinChen · PnL $6,678 · win rate 96% · categorias: sports
+- JnStTrdrBnusFnd · PnL $13,481 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
