@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-13T23:29:36+00:00 · ventana señales 2026-06-13 -> 2026-07-13_
+_Generado 2026-07-14T00:25:33+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,26 +26,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
 | TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
 | GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
-| BEP | 8.7% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
+| BEP | 7.6% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
 | IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
-| TBRG | 5.5% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
-| ENR | 5.4% | satellite | 20.47 | 0.0% | -4.08% | 2.97% |
-| BBIO | 5.4% | satellite | 83.08 | -3.27% | 6.86% | 22.99% |
-| IPX | 2.9% | satellite | 24.67 | -1.44% | -13.01% | -33.03% |
-| ULCC | 2.9% | satellite | 6.57 | -5.33% | -15.88% | 8.24% |
-| INTC | 2.6% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
+| TBRG | 4.9% | satellite | 26.24 | 0.0% | 0.0% | 0.65% |
+| ENR | 4.8% | satellite | 20.47 | 0.0% | -4.08% | 2.97% |
+| BBIO | 4.7% | satellite | 83.08 | -3.27% | 6.86% | 22.99% |
+| GGAL | 4.1% | satellite | 51.41 | -4.32% | -3.04% | -7.22% |
+| IPX | 2.5% | satellite | 24.67 | -1.44% | -13.01% | -33.03% |
+| ULCC | 2.5% | satellite | 6.57 | -5.33% | -15.88% | 8.24% |
+| INTC | 2.3% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 15.1%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.912 · posiciones efectivas: 13.4 · HHI: 0.0746
+- Volatilidad anualizada: 15.0%
+- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.7%
+- Max drawdown historico: -3.4%
+- Beta vs SPY: 0.927 · posiciones efectivas: 13.9 · HHI: 0.072
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **IPX** · score agregado 234.7 · 3 señales · fuentes: corporate_insider
 - **ENR** · score agregado 124.6 · 2 señales · fuentes: corporate_insider
+- **GGAL** · score agregado 123.3 · 2 señales · fuentes: corporate_insider
 - **ULCC** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TBRG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BBIO** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -102,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
 - ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 62150.47 (-2.52% / -0.17% / -0.83%) [2026-07-13]
+- BTC-USD: 62324.56 (-2.25% / 0.11% / -0.55%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +119,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), merger (3), leadership (2), legal (2), regulatory (2), earnings (1)
+**Temas dominantes**: stock (2), merger (2), legal (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
-- [DELL] Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600 (2026-07-13)
-- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
-- [DELL] Santa Clarita Children Eligible For $250 From The Dell Family (2026-07-11)
-- [DELL] Dell Technologies ( NYSE : DELL ) Stock Price Up 4 . 2 % – Should You Buy ? (2026-07-11)
+- [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
+- [DDOG] Datadog , Inc . $DDOG Shares Sold by Y . D . More Investments Ltd (2026-07-13)
 - [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
 - [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,11 +144,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $44,028 · win rate 87% · categorias: sports
-- trashpilot · PnL $30,283 · win rate 89% · categorias: politics, sports, economy
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $245,704 · win rate 73% · categorias: sports, politics, crypto
+- Allezpapa · PnL $17,997 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $44,116 · win rate 87% · categorias: sports
+- trashpilot · PnL $31,388 · win rate 89% · categorias: politics, sports, economy
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $262,171 · win rate 73% · categorias: sports, politics, crypto
 - 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $21,169 · win rate 89% · categorias: sports, crypto
-- omoi0i0 · PnL $46,008 · win rate 80% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,7 +156,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 600 registros 30d · ultimo dato 2026-07-13
+- **sec_insiders**: `ok` · 597 registros 30d · ultimo dato 2026-07-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -170,7 +169,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BBIO, BEP, ENR, GLD, IEF, INTC, IPX, QQQ, SPY, TBRG, TLT, ULCC`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BBIO, BEP, ENR, GGAL, GLD, IEF, INTC, IPX, QQQ, SPY, TBRG, TLT, ULCC`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
