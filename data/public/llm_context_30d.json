@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-14T14:29:32.811786+00:00",
+  "generated_at": "2026-07-14T16:04:50.870871+00:00",
   "window": {
     "from": "2026-06-14",
     "to": "2026-07-14",
@@ -26,8 +26,8 @@
       "stock",
       "leadership",
       "merger",
+      "legal",
       "regulatory",
-      "ai",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -397,6 +397,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "BUKS",
+        "company": "BUTLER NATIONAL CORP",
+        "pressure_score": 488.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
@@ -510,14 +518,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "PHUN",
-        "company": "Phunware, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -597,15 +597,6 @@
         ]
       },
       {
-        "ticker": "DASH",
-        "company": "DoorDash, Inc.",
-        "pressure_score": 659.0,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BLLN",
         "company": "BillionToOne, Inc.",
         "pressure_score": 636.3,
@@ -630,17 +621,25 @@
         ]
       },
       {
-        "ticker": "IMVT",
-        "company": "Immunovant, Inc.",
-        "pressure_score": 507.2,
+        "ticker": "P",
+        "company": "Everpure, Inc.",
+        "pressure_score": 384.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "P",
-        "company": "Everpure, Inc.",
-        "pressure_score": 456.4,
+        "ticker": "TEM",
+        "company": "Tempus AI, Inc.",
+        "pressure_score": 298.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ORKA",
+        "company": "Oruka Therapeutics, Inc.",
+        "pressure_score": 293.3,
         "sources": [
           "corporate_insider"
         ]
@@ -1090,6 +1089,15 @@
   ],
   "large_holders": [
     {
+      "filer": "UAW Retiree Medical Benefits Trust",
+      "company": "NC SLF INC.",
+      "ticker": "",
+      "ownership_pct": 99.3,
+      "shares": 70836094,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-14"
+    },
+    {
       "filer": "Heng Fai Ambrose Chan",
       "company": "DSS, INC.",
       "ticker": "DSS",
@@ -1133,6 +1141,24 @@
       "shares": 687360906,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-10"
+    },
+    {
+      "filer": "FRANKLIN RESOURCES INC",
+      "company": "Franklin BSP Lending Fund",
+      "ticker": "",
+      "ownership_pct": 55.6,
+      "shares": 75000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-14"
+    },
+    {
+      "filer": "Gold Sino Assets Limited",
+      "company": "Gogoro Inc.",
+      "ticker": "",
+      "ownership_pct": 49.01,
+      "shares": 10103591,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-14"
     },
     {
       "filer": "Endeavor Blockchain, LLC",
@@ -1196,51 +1222,14 @@
       "shares": 11208746,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-08"
-    },
-    {
-      "filer": "Cerberus Capital Management II, L.P.",
-      "company": "Eos Energy Enterprises, Inc.",
-      "ticker": "",
-      "ownership_pct": 31.1,
-      "shares": 159587654,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-09"
-    },
-    {
-      "filer": "Owl Creek Asset Management, L.P.",
-      "company": "Anterix Inc.",
-      "ticker": "ATEX",
-      "ownership_pct": 27.7,
-      "shares": 5411776,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-08"
-    },
-    {
-      "filer": "Novel Inspiration International Co., Ltd.",
-      "company": "IRIDEX CORP",
-      "ticker": "IRIX",
-      "ownership_pct": 24.65,
-      "shares": 5551429,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-13"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 119702.53,
-        "win_rate": 0.9646,
-        "volume": 832290.27,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xa52b785a55",
         "username": "Hashbrown",
-        "pnl": 71965.54,
+        "pnl": 71966.19,
         "win_rate": 0.933,
         "volume": 0.0,
         "categories": [
@@ -1250,11 +1239,21 @@
         ]
       },
       {
+        "wallet": "0xe549581668",
+        "username": "Allezpapa",
+        "pnl": 19264.35,
+        "win_rate": 0.9873,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 55666.58,
+        "pnl": 44599.56,
         "win_rate": 0.9062,
-        "volume": 79611.54,
+        "volume": 99209.65,
         "categories": [
           "crypto"
         ]
@@ -1262,7 +1261,7 @@
       {
         "wallet": "0x5cd5c8d7a1",
         "username": "nonkenny90",
-        "pnl": 26916.4,
+        "pnl": 27460.16,
         "win_rate": 0.933,
         "volume": 7297.42,
         "categories": [
@@ -1272,9 +1271,19 @@
         ]
       },
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 60720.21,
+        "win_rate": 0.8727,
+        "volume": 518072.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x052f4191cd",
         "username": "chriszyy3",
-        "pnl": 21126.68,
+        "pnl": 20181.1,
         "win_rate": 0.9444,
         "volume": 0.0,
         "categories": [
@@ -1284,11 +1293,32 @@
         ]
       },
       {
+        "wallet": "0x3413c803c3",
+        "username": "Dota2winner",
+        "pnl": 20132.47,
+        "win_rate": 0.9416,
+        "volume": 63897.61,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 105293.4,
+        "win_rate": 0.8065,
+        "volume": 2270397.5,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 22868.62,
-        "win_rate": 0.9011,
-        "volume": 95879.5,
+        "pnl": 19752.97,
+        "win_rate": 0.9032,
+        "volume": 102469.27,
         "categories": [
           "sports"
         ]
@@ -1302,48 +1332,13 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x7d2299a379",
-        "username": "Qtyu",
-        "pnl": 21666.78,
-        "win_rate": 0.8924,
-        "volume": 20000.0,
-        "categories": [
-          "politics",
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 62222.02,
-        "win_rate": 0.8065,
-        "volume": 2270397.5,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x71edffd0d7",
-        "username": "pako",
-        "pnl": 26839.01,
-        "win_rate": 0.8371,
-        "volume": 615813.31,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 62222.02,
+        "pnl": 105293.4,
         "win_rate": 0.8065,
         "volume": 2270397.5,
         "categories": [
@@ -1352,35 +1347,15 @@
         ]
       },
       {
-        "wallet": "0x476e1322d1",
-        "username": "asparagus2012",
-        "pnl": 18998.23,
-        "win_rate": 0.5556,
-        "volume": 1090343.47,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 51614.75,
-        "win_rate": 0.4321,
-        "volume": 878269.18,
+        "pnl": 52783.53,
+        "win_rate": 0.431,
+        "volume": 1008305.16,
         "categories": [
           "sports",
           "politics",
           "economy"
-        ]
-      },
-      {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 119702.53,
-        "win_rate": 0.9646,
-        "volume": 832290.27,
-        "categories": [
-          "sports"
         ]
       },
       {
@@ -1396,11 +1371,21 @@
         ]
       },
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 60720.21,
+        "win_rate": 0.8727,
+        "volume": 518072.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x71edffd0d7",
         "username": "pako",
-        "pnl": 26839.01,
+        "pnl": 27162.25,
         "win_rate": 0.8371,
-        "volume": 615813.31,
+        "volume": 685035.02,
         "categories": [
           "economy",
           "crypto",
@@ -1408,23 +1393,11 @@
         ]
       },
       {
-        "wallet": "0x9bcada74fb",
-        "username": "rooivalk",
-        "pnl": 38815.04,
-        "win_rate": 0.5075,
-        "volume": 222320.64,
-        "categories": [
-          "economy",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 455050.71,
-        "win_rate": 0.487,
-        "volume": 2038645.05,
+        "pnl": 448048.92,
+        "win_rate": 0.479,
+        "volume": 2505355.76,
         "categories": [
           "crypto",
           "sports",
@@ -1432,30 +1405,69 @@
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "",
-        "pnl": 24009.0,
-        "win_rate": 0.661,
-        "volume": 621486.49,
+        "wallet": "0x9bcada74fb",
+        "username": "rooivalk",
+        "pnl": 38951.25,
+        "win_rate": 0.5075,
+        "volume": 224999.84,
+        "categories": [
+          "economy",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 22888.13,
+        "win_rate": 0.688,
+        "volume": 367447.54,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x060f34e5aa",
+        "username": "alexfire97",
+        "pnl": 21228.27,
+        "win_rate": 0.8525,
+        "volume": 523283.78,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xeb6f0a13ea",
-        "username": "8973YEDGJ",
-        "pnl": 27609.79,
-        "win_rate": 0.681,
-        "volume": 294197.66,
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 24415.55,
+        "win_rate": 0.658,
+        "volume": 637406.95,
         "categories": [
-          "sports",
-          "politics",
-          "economy"
+          "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "3 Reasons HUBG is Risky and 1 Stock to Buy Instead",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-hubg-risky-1-144711625.html",
+      "ticker": "WDAY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "⁠JP Morgan Just Upgraded The Stock It Thinks Is Most Shielded From Geopolitical Crises",
+      "url": "https://www.insidermonkey.com/blog/%E2%81%A0jp-morgan-just-upgraded-the-stock-it-thinks-is-most-shielded-from-geopolitical-crises-1800879/",
+      "ticker": "WDAY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
     {
       "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
       "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
@@ -1475,27 +1487,6 @@
       "date": "2026-07-14"
     },
     {
-      "title": "Fifth Third Bancorp Acquires 99 , 204 Shares of Dell Technologies Inc . $DELL",
-      "url": "https://www.themarketsdaily.com/2026/07/14/fifth-third-bancorp-acquires-99204-shares-of-dell-technologies-inc-dell.html",
-      "ticker": "DELL",
-      "themes": [
-        "merger",
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-07-14"
-    },
-    {
-      "title": "Dell Technologies ( NYSE : DELL ) Director Silver Lake Partners De ( Aiv Sells 34 , 869 Shares",
-      "url": "https://www.themarketsdaily.com/2026/07/13/dell-technologies-nysedell-director-silver-lake-partners-de-aiv-sells-34869-shares.html",
-      "ticker": "DELL",
-      "themes": [
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-14"
-    },
-    {
       "title": "Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock",
       "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-billiontoone-nasdaqblln-ceo-sells-1576250-00-in-stock.html",
       "ticker": "BLLN",
@@ -1503,13 +1494,6 @@
         "leadership",
         "stock"
       ],
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/missed-dell-248-run-igpt-171736396.html",
-      "ticker": "DELL",
-      "themes": [],
       "date": "2026-07-13"
     },
     {
@@ -1530,6 +1514,52 @@
       "date": "2026-07-13"
     },
     {
+      "title": "TruBridge Stockholders Approve IKS Merger at Special Meeting",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trubridge-stockholders-approve-iks-merger-150159691.html",
+      "ticker": "TBRG",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
+      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
+      "ticker": "TBRG",
+      "themes": [
+        "legal",
+        "regulatory"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Buys TruBridge",
+      "url": "https://www.themiddlemarket.com/latest-news/iks-health-buys-trubridge",
+      "ticker": "TBRG",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
+      "ticker": "TBRG",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-10"
+    },
+    {
       "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
       "url": "https://www.themarketsdaily.com/2026/07/09/billiontoone-nasdaqblln-ceo-oguzhan-atay-sells-26250-shares-of-stock.html",
       "ticker": "BLLN",
@@ -1540,7 +1570,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1542,
+  "signals_count": 1503,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
