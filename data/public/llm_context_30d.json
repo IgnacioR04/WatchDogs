@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-14T16:04:50.870871+00:00",
+  "generated_at": "2026-07-14T17:50:07.563047+00:00",
   "window": {
     "from": "2026-06-14",
     "to": "2026-07-14",
@@ -25,9 +25,8 @@
     "top_themes": [
       "stock",
       "leadership",
-      "merger",
-      "legal",
       "regulatory",
+      "merger",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -72,24 +71,6 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "10% owner vendio ULCC ($84.2M)",
-      "summary": "10% owner Group Holdings - Frontier LLC vendio ULCC por $84.2M el 2026-07-09 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Group Holdings - Frontier LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ULCC",
-      "direction": "sell",
-      "amount_estimated": 84240000.0,
-      "event_date": "2026-07-09",
-      "importance_score": 85.2,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2016572/000114036126028320/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
       "title": "10% owner vendio SN ($401.2M)",
       "summary": "10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.",
       "source": "sec_form_4",
@@ -104,6 +85,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2001826/000110465926082848/"
+    },
+    {
+      "id": "move_4",
+      "rank": 4,
+      "title": "10% owner vendio ULCC ($84.2M)",
+      "summary": "10% owner Group Holdings - Frontier LLC vendio ULCC por $84.2M el 2026-07-09.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Group Holdings - Frontier LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ULCC",
+      "direction": "sell",
+      "amount_estimated": 84240000.0,
+      "event_date": "2026-07-09",
+      "importance_score": 84.0,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2016572/000114036126028320/"
     },
     {
       "id": "move_5",
@@ -512,8 +511,8 @@
         ]
       },
       {
-        "ticker": "RAY",
-        "company": "Raytech Holding Limited",
+        "ticker": "PHUN",
+        "company": "Phunware, Inc.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -546,26 +545,9 @@
         ]
       },
       {
-        "ticker": "TBRG",
-        "company": "TruBridge, Inc.",
-        "pressure_score": 920.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 877.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 817.3,
         "sources": [
           "corporate_insider"
         ]
@@ -576,6 +558,14 @@
         "pressure_score": 789.7,
         "sources": [
           "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 747.7,
+        "sources": [
           "corporate_insider"
         ]
       },
@@ -629,19 +619,28 @@
         ]
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 298.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ORKA",
         "company": "Oruka Therapeutics, Inc.",
         "pressure_score": 293.3,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WAB",
+        "company": "Corporation Common Stock",
+        "pressure_score": 230.2,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "BBIO",
+        "company": "BridgeBio Pharma, Inc.",
+        "pressure_score": 227.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       }
     ]
@@ -1227,9 +1226,29 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xe549581668",
+        "username": "Allezpapa",
+        "pnl": 35469.76,
+        "win_rate": 0.9873,
+        "volume": 299999.36,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 161057.83,
+        "win_rate": 0.875,
+        "volume": 1090738.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xa52b785a55",
         "username": "Hashbrown",
-        "pnl": 71966.19,
+        "pnl": 64766.34,
         "win_rate": 0.933,
         "volume": 0.0,
         "categories": [
@@ -1239,29 +1258,29 @@
         ]
       },
       {
-        "wallet": "0xe549581668",
-        "username": "Allezpapa",
-        "pnl": 19264.35,
-        "win_rate": 0.9873,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 51802.88,
+        "win_rate": 0.9062,
+        "volume": 111080.4,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x3fd9a838de",
+        "username": "therighteousdog",
+        "pnl": 23906.68,
+        "win_rate": 0.9571,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 44599.56,
-        "win_rate": 0.9062,
-        "volume": 99209.65,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x5cd5c8d7a1",
         "username": "nonkenny90",
-        "pnl": 27460.16,
+        "pnl": 24785.69,
         "win_rate": 0.933,
         "volume": 7297.42,
         "categories": [
@@ -1271,64 +1290,44 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 60720.21,
-        "win_rate": 0.8727,
-        "volume": 518072.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x052f4191cd",
-        "username": "chriszyy3",
-        "pnl": 20181.1,
-        "win_rate": 0.9444,
-        "volume": 0.0,
-        "categories": [
-          "economy",
-          "crypto",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3413c803c3",
-        "username": "Dota2winner",
-        "pnl": 20132.47,
-        "win_rate": 0.9416,
-        "volume": 63897.61,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 105293.4,
-        "win_rate": 0.8065,
-        "volume": 2270397.5,
+        "pnl": 97371.72,
+        "win_rate": 0.7969,
+        "volume": 2831871.58,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 19752.97,
-        "win_rate": 0.9032,
-        "volume": 102469.27,
+        "wallet": "0x59018ff1f4",
+        "username": "kamloic",
+        "pnl": 20895.3,
+        "win_rate": 0.8966,
+        "volume": 112859.28,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x59018ff1f4",
-        "username": "kamloic",
-        "pnl": 21339.65,
-        "win_rate": 0.8966,
-        "volume": 112859.28,
+        "wallet": "0xb7b8e9681f",
+        "username": "charlatta",
+        "pnl": 20941.73,
+        "win_rate": 0.8232,
+        "volume": 9424.98,
+        "categories": [
+          "sports",
+          "economy",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xbc43c8bfbc",
+        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+        "pnl": 47637.15,
+        "win_rate": 0.7514,
+        "volume": 73646.51,
         "categories": [
           "sports"
         ]
@@ -1336,26 +1335,56 @@
     ],
     "whales": [
       {
+        "wallet": "0x09b428f7c2",
+        "username": "DEEDDIT",
+        "pnl": 42158.93,
+        "win_rate": 0.6154,
+        "volume": 4036548.87,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 105293.4,
-        "win_rate": 0.8065,
-        "volume": 2270397.5,
+        "pnl": 97371.72,
+        "win_rate": 0.7969,
+        "volume": 2831871.58,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x476e1322d1",
+        "username": "asparagus2012",
+        "pnl": 46316.6,
+        "win_rate": 0.5556,
+        "volume": 1104968.59,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 52783.53,
-        "win_rate": 0.431,
-        "volume": 1008305.16,
+        "pnl": 52680.33,
+        "win_rate": 0.4188,
+        "volume": 1030326.42,
         "categories": [
           "sports",
           "politics",
           "economy"
+        ]
+      },
+      {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 161057.83,
+        "win_rate": 0.875,
+        "volume": 1090738.19,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1371,33 +1400,33 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 60720.21,
-        "win_rate": 0.8727,
-        "volume": 518072.52,
+        "wallet": "0xc31d0a0d63",
+        "username": "FootballFan98",
+        "pnl": 23847.77,
+        "win_rate": 0.5428,
+        "volume": 402687.79,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe549581668",
+        "username": "Allezpapa",
+        "pnl": 35469.76,
+        "win_rate": 0.9873,
+        "volume": 299999.36,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x71edffd0d7",
-        "username": "pako",
-        "pnl": 27162.25,
-        "win_rate": 0.8371,
-        "volume": 685035.02,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 448048.92,
-        "win_rate": 0.479,
-        "volume": 2505355.76,
+        "pnl": 416907.8,
+        "win_rate": 0.458,
+        "volume": 3102487.07,
         "categories": [
           "crypto",
           "sports",
@@ -1407,7 +1436,7 @@
       {
         "wallet": "0x9bcada74fb",
         "username": "rooivalk",
-        "pnl": 38951.25,
+        "pnl": 32198.26,
         "win_rate": 0.5075,
         "volume": 224999.84,
         "categories": [
@@ -1415,59 +1444,10 @@
           "politics",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 22888.13,
-        "win_rate": 0.688,
-        "volume": 367447.54,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x060f34e5aa",
-        "username": "alexfire97",
-        "pnl": 21228.27,
-        "win_rate": 0.8525,
-        "volume": 523283.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x076daa87c4",
-        "username": "",
-        "pnl": 24415.55,
-        "win_rate": 0.658,
-        "volume": 637406.95,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
-    {
-      "title": "3 Reasons HUBG is Risky and 1 Stock to Buy Instead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-hubg-risky-1-144711625.html",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-14"
-    },
-    {
-      "title": "⁠JP Morgan Just Upgraded The Stock It Thinks Is Most Shielded From Geopolitical Crises",
-      "url": "https://www.insidermonkey.com/blog/%E2%81%A0jp-morgan-just-upgraded-the-stock-it-thinks-is-most-shielded-from-geopolitical-crises-1800879/",
-      "ticker": "WDAY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-14"
-    },
     {
       "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
       "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
@@ -1485,6 +1465,27 @@
         "stock"
       ],
       "date": "2026-07-14"
+    },
+    {
+      "title": "Fifth Third Bancorp Acquires 99 , 204 Shares of Dell Technologies Inc . $DELL",
+      "url": "https://www.themarketsdaily.com/2026/07/14/fifth-third-bancorp-acquires-99204-shares-of-dell-technologies-inc-dell.html",
+      "ticker": "DELL",
+      "themes": [
+        "merger",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-13"
     },
     {
       "title": "Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock",
@@ -1514,50 +1515,14 @@
       "date": "2026-07-13"
     },
     {
-      "title": "TruBridge Stockholders Approve IKS Merger at Special Meeting",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trubridge-stockholders-approve-iks-merger-150159691.html",
-      "ticker": "TBRG",
+      "title": "United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/united-therapeutics-uthr-following-fda-190830328.html",
+      "ticker": "UTHR",
       "themes": [
-        "merger",
+        "regulatory",
         "stock"
       ],
       "date": "2026-07-11"
-    },
-    {
-      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
-      "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
-      "ticker": "TBRG",
-      "themes": [
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation",
-      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-trubridge-inc-investors-to-inquire-about-securities-class-action-investigation--tbrg-302823002.html",
-      "ticker": "TBRG",
-      "themes": [
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "IKS Health Buys TruBridge",
-      "url": "https://www.themiddlemarket.com/latest-news/iks-health-buys-trubridge",
-      "ticker": "TBRG",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iks-health-completes-acquisition-of-trubridge/article71205573.ece",
-      "ticker": "TBRG",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-10"
     },
     {
       "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
@@ -1570,7 +1535,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1503,
+  "signals_count": 1508,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-14T16:05:59+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
+_Generado 2026-07-14T17:50:58+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.44)
-- Tendencia: `bull` (SPY 750.21 · MA50 741.36 · MA200 692.02 · dist MA200: 8.41%)
+- Volatilidad: `normal` (VIX 16.47)
+- Tendencia: `bull` (SPY 752.12 · MA50 741.4 · MA200 692.03 · dist MA200: 8.68%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.36)
 - Fed Funds: 3.63%
@@ -22,28 +22,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 750.21 | 0.14% | 0.33% | 1.4% |
-| QQQ | 12.0% | core | 718.22 | 0.91% | 1.24% | -0.32% |
-| TLT | 12.0% | core | 84.07 | 0.12% | -0.57% | -1.62% |
-| GLD | 9.3% | core | 372.88 | 1.57% | -1.22% | -3.53% |
-| BEP | 6.3% | satellite | 32.43 | 1.79% | -1.52% | -5.51% |
-| IEF | 6.2% | core | 93.49 | 0.21% | -0.23% | -0.41% |
-| TBRG | 4.0% | satellite | 26.24 | 0.0% | -0.04% | 0.65% |
-| ENR | 3.9% | satellite | 20.01 | -2.25% | -3.29% | -1.19% |
-| BBIO | 3.9% | satellite | 83.09 | 0.01% | 6.65% | 24.39% |
-| GGAL | 3.4% | satellite | 51.36 | -0.1% | 0.51% | -6.89% |
-| YEXT | 3.1% | satellite | 5.38 | 3.17% | 4.78% | 32.39% |
-| RH | 2.7% | satellite | 167.74 | 3.66% | 2.46% | 9.6% |
-| IPX | 2.1% | satellite | 25.46 | 3.2% | -1.51% | -29.38% |
-| ULCC | 2.1% | satellite | 6.49 | -1.29% | -11.89% | 3.76% |
-| INTC | 1.9% | satellite | 106.64 | 3.42% | -3.39% | -14.39% |
+| SPY | 12.0% | core | 752.12 | 0.39% | 0.59% | 1.66% |
+| QQQ | 12.0% | core | 721.25 | 1.34% | 1.67% | 0.1% |
+| TLT | 12.0% | core | 84.19 | 0.27% | -0.42% | -1.47% |
+| GLD | 9.3% | core | 372.68 | 1.51% | -1.27% | -3.59% |
+| BEP | 6.7% | satellite | 32.31 | 1.4% | -1.89% | -5.86% |
+| IEF | 6.2% | core | 93.56 | 0.28% | -0.15% | -0.34% |
+| TBRG | 4.3% | satellite | 26.24 | 0.0% | -0.04% | 0.65% |
+| ENR | 4.2% | satellite | 20.42 | -0.24% | -1.3% | 0.84% |
+| BBIO | 4.2% | satellite | 83.73 | 0.78% | 7.47% | 25.34% |
+| GGAL | 3.6% | satellite | 51.1 | -0.6% | 0.0% | -7.36% |
+| YEXT | 3.4% | satellite | 5.51 | 5.85% | 7.5% | 35.84% |
+| RH | 2.9% | satellite | 169.46 | 4.72% | 3.52% | 10.73% |
+| IPX | 2.2% | satellite | 25.65 | 3.97% | -0.77% | -28.85% |
+| INTC | 2.0% | satellite | 107.36 | 4.11% | -2.74% | -13.82% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.7%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -3.6%
-- Beta vs SPY: 0.915 · posiciones efectivas: 14.6 · HHI: 0.0685
+- Volatilidad anualizada: 14.2%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.9 · posiciones efectivas: 14.3 · HHI: 0.0698
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -51,7 +50,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **YEXT** · score agregado 126.7 · 2 señales · fuentes: corporate_insider, large_holder
 - **ENR** · score agregado 124.6 · 2 señales · fuentes: corporate_insider
 - **GGAL** · score agregado 123.3 · 2 señales · fuentes: corporate_insider
-- **ULCC** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TBRG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BBIO** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **RH** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -72,13 +70,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | IPX | 77 | corporate_insider | Hannigan Todd | 2 | $805,185 | cluster_buy |
 | BUKS | 72 | corporate_insider | Daly Joseph Patrick | 2 | $33,375 | cluster_buy |
 | BUKS | 72 | corporate_insider | Daly Joseph Patrick | 2 | $30,380 | cluster_buy |
-| ULCC | 72 | large_holder | Group Holdings - Frontier |  | - | - |
 | TBRG | 72 | large_holder | L6 Holdings Inc. |  | - | - |
 | BBIO | 72 | large_holder | VIKING GLOBAL INVESTORS L |  | - | - |
 | RH | 72 | large_holder | Gary G. Friedman |  | - | - |
 | INVE | 72 | large_holder | Grossman Bruce |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | BUKS | 72 | corporate_insider | Daly Joseph Patrick | 2 | $26,100 | cluster_buy |
+| BUKS | 71 | corporate_insider | Daly Joseph Patrick | 2 | $22,000 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -100,15 +98,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 750.21 (0.14% / 0.33% / 1.4%) [2026-07-14]
-- QQQ: 718.22 (0.91% / 1.24% / -0.32%) [2026-07-14]
-- IWM: 294.47 (0.34% / -0.58% / 0.76%) [2026-07-14]
-- DIA: 523.34 (-0.22% / -0.97% / 2.28%) [2026-07-14]
-- TLT: 84.07 (0.12% / -0.57% / -1.62%) [2026-07-14]
-- IEF: 93.49 (0.21% / -0.23% / -0.41%) [2026-07-14]
-- GLD: 372.88 (1.57% / -1.22% / -3.53%) [2026-07-14]
-- ^VIX: 16.44 (-4.2% / 1.92% / -7.01%) [2026-07-14]
-- BTC-USD: 64696.01 (3.95% / 2.38% / 6.07%) [2026-07-14]
+- SPY: 752.12 (0.39% / 0.59% / 1.66%) [2026-07-14]
+- QQQ: 721.25 (1.34% / 1.67% / 0.1%) [2026-07-14]
+- IWM: 294.37 (0.3% / -0.61% / 0.72%) [2026-07-14]
+- DIA: 523.78 (-0.13% / -0.88% / 2.37%) [2026-07-14]
+- TLT: 84.19 (0.27% / -0.42% / -1.47%) [2026-07-14]
+- IEF: 93.56 (0.28% / -0.15% / -0.34%) [2026-07-14]
+- GLD: 372.68 (1.51% / -1.27% / -3.59%) [2026-07-14]
+- ^VIX: 16.47 (-4.02% / 2.11% / -6.84%) [2026-07-14]
+- BTC-USD: 64476.99 (3.6% / 2.03% / 5.71%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,27 +121,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), leadership (2), merger (2), legal (2), regulatory (2), earnings (1)
+**Temas dominantes**: stock (8), leadership (3), regulatory (2), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] 3 Reasons HUBG is Risky and 1 Stock to Buy Instead (2026-07-14)
-- [WDAY] ⁠JP Morgan Just Upgraded The Stock It Thinks Is Most Shielded From Geopolitical Crises (2026-07-14)
 - [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
 - [DDOG] Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky (2026-07-14)
+- [DELL] Fifth Third Bancorp Acquires 99 , 204 Shares of Dell Technologies Inc . $DELL (2026-07-14)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
 - [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
 - [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
 - [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
-- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
+- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CFO Liu Chitung vendio UMC por $294.3M el 2026-07-13.
 - CEO Beck Scott Arthur compro GLOO por $3.5M el 2026-07-10 [senal en multiples fuentes].
-- 10% owner Group Holdings - Frontier LLC vendio ULCC por $84.2M el 2026-07-09 [senal en multiples fuentes].
 - 10% owner Wang Xuning vendio SN por $401.2M el 2026-07-10.
+- 10% owner Group Holdings - Frontier LLC vendio ULCC por $84.2M el 2026-07-09.
 - CEO Seto Wai Yue compro TDIC por $2.2M el 2026-07-07 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $3.5M el 2026-07-07.
 - CEO Ullal Jayshree vendio ANET por $21.3M el 2026-07-09.
@@ -151,11 +148,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Hashbrown · PnL $71,966 · win rate 93% · categorias: crypto, sports, politics
-- Allezpapa · PnL $19,264 · win rate 99% · categorias: sports
-- JnStTrdrBnusFnd · PnL $44,600 · win rate 91% · categorias: crypto
-- nonkenny90 · PnL $27,460 · win rate 93% · categorias: crypto, sports, politics
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $60,720 · win rate 87% · categorias: sports
+- Allezpapa · PnL $35,470 · win rate 99% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $161,058 · win rate 88% · categorias: sports
+- Hashbrown · PnL $64,766 · win rate 93% · categorias: crypto, sports, politics
+- JnStTrdrBnusFnd · PnL $51,803 · win rate 91% · categorias: crypto
+- therighteousdog · PnL $23,907 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +160,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 588 registros 30d · ultimo dato 2026-07-14
+- **sec_insiders**: `ok` · 593 registros 30d · ultimo dato 2026-07-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -176,7 +173,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BBIO, BEP, ENR, GGAL, GLD, IEF, INTC, IPX, QQQ, RH, SPY, TBRG, TLT, ULCC, YEXT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BBIO, BEP, ENR, GGAL, GLD, IEF, INTC, IPX, QQQ, RH, SPY, TBRG, TLT, YEXT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
