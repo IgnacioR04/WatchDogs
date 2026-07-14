@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-14T03:51:14+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
+_Generado 2026-07-14T06:41:58+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
 - ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 63758.22 (-0.07% / 0.73% / -0.3%) [2026-07-12]
+- BTC-USD: 62585.19 (0.56% / -0.96% / 2.61%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,20 +121,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), leadership (3), regulatory (3), merger (2), legal (2), ai (1)
+**Temas dominantes**: stock (3), regulatory (3), merger (2), legal (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DASH] Only on 13 : DoorDash driver seen on video being hit by a car speaks to ABC13 (2026-07-14)
-- [DELL] Dell Technologies ( NYSE : DELL ) Director Silver Lake Partners De ( Aiv Sells 34 , 869 Shares (2026-07-14)
-- [DASH] The Rise Of The Delivery Titan How Dash Delivery Jobs Are Reshaping The Industry (2026-07-13)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
-- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
-- [DELL] Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600 (2026-07-13)
-- [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
-- [DDOG] Datadog , Inc . $DDOG Shares Sold by Y . D . More Investments Ltd (2026-07-13)
-- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [DELL] LGT Fund Management Co Ltd . Takes $4 . 55 Million Position in Dell Technologies Inc . $DELL (2026-07-12)
+- [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
+- [TBRG] TruBridge Stockholders Approve IKS Merger at Special Meeting (2026-07-11)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] Rosen Law Firm Encourages TruBridge , Inc . Investors to Inquire About Securities Class Action Investigation (2026-07-10)
+- [TBRG] IKS Health Buys TruBridge (2026-07-10)
+- [TBRG] IKS Health Completes Acquisition of TruBridge - The HinduBusinessLine (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $13,268 · win rate 99% · categorias: sports, crypto, politics
-- QuentinChen · PnL $11,676 · win rate 96% · categorias: sports
-- dex57 · PnL $4,873 · win rate 99% · categorias: sports, crypto
-- NiFengFanPan · PnL $7,268 · win rate 94% · categorias: sports, politics, crypto
-- Hashbrown · PnL $7,201 · win rate 93% · categorias: crypto, sports, politics
+- comon119 · PnL $22,331 · win rate 99% · categorias: sports, crypto, politics
+- dex57 · PnL $5,484 · win rate 99% · categorias: sports, crypto
+- NiFengFanPan · PnL $10,403 · win rate 94% · categorias: sports, politics, crypto
+- QuentinChen · PnL $6,608 · win rate 96% · categorias: sports
+- kamloic · PnL $7,752 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
