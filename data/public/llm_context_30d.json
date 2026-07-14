@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-14T11:59:29.078368+00:00",
+  "generated_at": "2026-07-14T14:29:32.811786+00:00",
   "window": {
     "from": "2026-06-14",
     "to": "2026-07-14",
@@ -25,7 +25,10 @@
     "top_themes": [
       "stock",
       "leadership",
-      "regulatory"
+      "merger",
+      "regulatory",
+      "ai",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -213,24 +216,6 @@
     {
       "id": "move_11",
       "rank": 11,
-      "title": "Director vendio TBRG ($29.2M)",
-      "summary": "Director Upitis Andris vendio TBRG por $29.2M el 2026-07-09 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Upitis Andris",
-      "actor_type": "director",
-      "ticker": "TBRG",
-      "direction": "sell",
-      "amount_estimated": 29247172.5,
-      "event_date": "2026-07-09",
-      "importance_score": 81.9,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1665051/000166505126000002/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
       "title": "Director vendio STNG ($478.3M)",
       "summary": "Director Camerana Niccolo vendio STNG por $478.3M el 2026-07-10.",
       "source": "sec_form_4",
@@ -247,8 +232,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1995137/000199513726000013/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio ANET ($9.8M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $9.8M el 2026-07-09.",
       "source": "sec_form_4",
@@ -265,8 +250,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000160/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -283,8 +268,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -301,8 +286,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -319,8 +304,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -337,8 +322,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -355,8 +340,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -373,8 +358,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -384,6 +369,24 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 13135619419,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12478004415,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -545,7 +548,7 @@
       {
         "ticker": "TBRG",
         "company": "TruBridge, Inc.",
-        "pressure_score": 1072.6,
+        "pressure_score": 920.8,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -1132,15 +1135,6 @@
       "date": "2026-07-10"
     },
     {
-      "filer": "Gold Sino Assets Limited",
-      "company": "Gogoro Inc.",
-      "ticker": "",
-      "ownership_pct": 49.01,
-      "shares": 10103591,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-14"
-    },
-    {
       "filer": "Endeavor Blockchain, LLC",
       "company": "Big Digital Energy, Inc.",
       "ticker": "BGDE",
@@ -1220,68 +1214,111 @@
       "shares": 5411776,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-08"
+    },
+    {
+      "filer": "Novel Inspiration International Co., Ltd.",
+      "company": "IRIDEX CORP",
+      "ticker": "IRIX",
+      "ownership_pct": 24.65,
+      "shares": 5551429,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-13"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 27074.52,
-        "win_rate": 0.986,
-        "volume": 218222.04,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 119702.53,
+        "win_rate": 0.9646,
+        "volume": 832290.27,
         "categories": [
-          "sports",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa52b785a55",
+        "username": "Hashbrown",
+        "pnl": 71965.54,
+        "win_rate": 0.933,
+        "volume": 0.0,
+        "categories": [
           "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 7715.77,
-        "win_rate": 0.9861,
-        "volume": 105.79,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd48a81db62",
-        "username": "NiFengFanPan",
-        "pnl": 10083.04,
-        "win_rate": 0.941,
-        "volume": 43904.8,
-        "categories": [
           "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xafe4272b4f",
-        "username": "QuentinChen",
-        "pnl": 6750.63,
-        "win_rate": 0.9591,
-        "volume": 34423.97,
-        "categories": [
-          "sports"
+          "politics"
         ]
       },
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 13029.35,
+        "pnl": 55666.58,
         "win_rate": 0.9062,
-        "volume": 49829.95,
+        "volume": 79611.54,
         "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5cd5c8d7a1",
+        "username": "nonkenny90",
+        "pnl": 26916.4,
+        "win_rate": 0.933,
+        "volume": 7297.42,
+        "categories": [
+          "crypto",
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x052f4191cd",
+        "username": "chriszyy3",
+        "pnl": 21126.68,
+        "win_rate": 0.9444,
+        "volume": 0.0,
+        "categories": [
+          "economy",
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 22868.62,
+        "win_rate": 0.9011,
+        "volume": 95879.5,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x59018ff1f4",
+        "username": "kamloic",
+        "pnl": 21339.65,
+        "win_rate": 0.8966,
+        "volume": 112859.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7d2299a379",
+        "username": "Qtyu",
+        "pnl": 21666.78,
+        "win_rate": 0.8924,
+        "volume": 20000.0,
+        "categories": [
+          "politics",
+          "sports",
           "crypto"
         ]
       },
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 56358.96,
+        "pnl": 62222.02,
         "win_rate": 0.8065,
         "volume": 2270397.5,
         "categories": [
@@ -1290,45 +1327,14 @@
         ]
       },
       {
-        "wallet": "0x20b9e67004",
-        "username": "philleotardo",
-        "pnl": 15683.87,
-        "win_rate": 1.0,
-        "volume": 71641.01,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbc43c8bfbc",
-        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
-        "pnl": 37942.04,
-        "win_rate": 0.7514,
-        "volume": 50720.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x71edffd0d7",
         "username": "pako",
-        "pnl": 9362.55,
-        "win_rate": 0.8343,
-        "volume": 0.0,
+        "pnl": 26839.01,
+        "win_rate": 0.8371,
+        "volume": 615813.31,
         "categories": [
           "economy",
           "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xc15b833b69",
-        "username": "makinta",
-        "pnl": 6832.71,
-        "win_rate": 0.8427,
-        "volume": 57795.76,
-        "categories": [
-          "sports",
           "politics"
         ]
       }
@@ -1337,7 +1343,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 56358.96,
+        "pnl": 62222.02,
         "win_rate": 0.8065,
         "volume": 2270397.5,
         "categories": [
@@ -1346,11 +1352,21 @@
         ]
       },
       {
+        "wallet": "0x476e1322d1",
+        "username": "asparagus2012",
+        "pnl": 18998.23,
+        "win_rate": 0.5556,
+        "volume": 1090343.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 51705.14,
-        "win_rate": 0.4409,
-        "volume": 774945.41,
+        "pnl": 51614.75,
+        "win_rate": 0.4321,
+        "volume": 878269.18,
         "categories": [
           "sports",
           "politics",
@@ -1358,31 +1374,57 @@
         ]
       },
       {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 10874.46,
-        "win_rate": 0.594,
-        "volume": 391818.15,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 119702.53,
+        "win_rate": 0.9646,
+        "volume": 832290.27,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x46ee4944d7",
-        "username": "0x46ee4944d72cCeAAc9c19e08e0491cbAD461AE61-1774461767714",
-        "pnl": 9074.92,
-        "win_rate": 0.5963,
-        "volume": 250854.77,
+        "wallet": "0x1521b47bf0",
+        "username": "alliswell",
+        "pnl": 71866.1,
+        "win_rate": 0.7002,
+        "volume": 360104.28,
         "categories": [
-          "sports"
+          "politics",
+          "economy",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x71edffd0d7",
+        "username": "pako",
+        "pnl": 26839.01,
+        "win_rate": 0.8371,
+        "volume": 615813.31,
+        "categories": [
+          "economy",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x9bcada74fb",
+        "username": "rooivalk",
+        "pnl": 38815.04,
+        "win_rate": 0.5075,
+        "volume": 222320.64,
+        "categories": [
+          "economy",
+          "politics",
+          "crypto"
         ]
       },
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 328642.88,
-        "win_rate": 0.493,
-        "volume": 1458726.38,
+        "pnl": 455050.71,
+        "win_rate": 0.487,
+        "volume": 2038645.05,
         "categories": [
           "crypto",
           "sports",
@@ -1390,65 +1432,34 @@
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 27074.52,
-        "win_rate": 0.986,
-        "volume": 218222.04,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xf68a281980",
-        "username": "WHYWHYWHYWHYWHYWHY",
-        "pnl": 25796.95,
-        "win_rate": 0.541,
-        "volume": 315478.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x076daa87c4",
         "username": "",
-        "pnl": 8998.81,
-        "win_rate": 0.655,
-        "volume": 524140.2,
+        "pnl": 24009.0,
+        "win_rate": 0.661,
+        "volume": 621486.49,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x408fe71e6b",
-        "username": "Winnerdinnerchickenjr",
-        "pnl": 8328.61,
-        "win_rate": 0.8,
-        "volume": 59069.56,
+        "wallet": "0xeb6f0a13ea",
+        "username": "8973YEDGJ",
+        "pnl": 27609.79,
+        "win_rate": 0.681,
+        "volume": 294197.66,
         "categories": [
           "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xb3cfe7615d",
-        "username": "omoi0i0",
-        "pnl": 10465.21,
-        "win_rate": 0.8,
-        "volume": 196652.68,
-        "categories": [
-          "sports"
+          "politics",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Dimensional Fund Advisors Ltd . : Form 8 . 3 - DCC PLC - Ordinary Shares",
-      "url": "https://www.manilatimes.net/2026/07/14/tmt-newswire/globenewswire/dimensional-fund-advisors-ltd-form-83-dcc-plc-ordinary-shares/2383931",
-      "ticker": "CRDO",
+      "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
+      "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
+      "ticker": "BLLN",
       "themes": [
         "stock"
       ],
@@ -1464,13 +1475,41 @@
       "date": "2026-07-14"
     },
     {
-      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
-      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
-      "ticker": "UTHR",
+      "title": "Fifth Third Bancorp Acquires 99 , 204 Shares of Dell Technologies Inc . $DELL",
+      "url": "https://www.themarketsdaily.com/2026/07/14/fifth-third-bancorp-acquires-99204-shares-of-dell-technologies-inc-dell.html",
+      "ticker": "DELL",
+      "themes": [
+        "merger",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Dell Technologies ( NYSE : DELL ) Director Silver Lake Partners De ( Aiv Sells 34 , 869 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/dell-technologies-nysedell-director-silver-lake-partners-de-aiv-sells-34869-shares.html",
+      "ticker": "DELL",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-billiontoone-nasdaqblln-ceo-sells-1576250-00-in-stock.html",
+      "ticker": "BLLN",
       "themes": [
         "leadership",
         "stock"
       ],
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/missed-dell-248-run-igpt-171736396.html",
+      "ticker": "DELL",
+      "themes": [],
       "date": "2026-07-13"
     },
     {
@@ -1481,14 +1520,24 @@
       "date": "2026-07-13"
     },
     {
-      "title": "United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/united-therapeutics-uthr-following-fda-190830328.html",
-      "ticker": "UTHR",
+      "title": "A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billiontoone-insider-sold-801-shares-001636563.html",
+      "ticker": "BLLN",
       "themes": [
-        "regulatory",
+        "earnings",
         "stock"
       ],
-      "date": "2026-07-11"
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/09/billiontoone-nasdaqblln-ceo-oguzhan-atay-sells-26250-shares-of-stock.html",
+      "ticker": "BLLN",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-09"
     }
   ],
   "signals_count": 1542,

@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-14T12:01:43+00:00 -->
+<!-- trader_prompt.md generado 2026-07-14T14:31:34+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-14T12:01:43+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
+_Generado 2026-07-14T14:31:34+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,8 +238,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.39)
-- Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
+- Volatilidad: `normal` (VIX 16.64)
+- Tendencia: `bull` (SPY 750.51 · MA50 741.37 · MA200 692.03 · dist MA200: 8.45%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.36)
 - Fed Funds: 3.63%
@@ -251,20 +251,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 749.17 | -0.77% | -0.28% | 1.81% |
-| QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
-| TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
-| GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
-| BEP | 7.0% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
-| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
+| SPY | 12.0% | core | 750.51 | 0.18% | 0.37% | 1.44% |
+| QQQ | 12.0% | core | 717.0 | 0.74% | 1.07% | -0.49% |
+| TLT | 12.0% | core | 84.28 | 0.37% | -0.32% | -1.37% |
+| GLD | 9.3% | core | 374.08 | 1.89% | -0.9% | -3.22% |
+| BEP | 7.0% | satellite | 32.19 | 1.04% | -2.25% | -6.21% |
+| IEF | 6.2% | core | 93.62 | 0.36% | -0.08% | -0.26% |
 | TBRG | 4.4% | satellite | 26.24 | 0.0% | -0.04% | 0.65% |
-| ENR | 4.3% | satellite | 20.47 | 0.0% | -4.08% | 2.97% |
-| BBIO | 4.3% | satellite | 83.08 | -3.27% | 6.86% | 22.99% |
-| GGAL | 3.7% | satellite | 51.41 | -4.32% | -3.04% | -7.22% |
-| RH | 3.0% | satellite | 161.82 | -2.13% | -4.25% | 1.57% |
-| IPX | 2.3% | satellite | 24.67 | -1.44% | -13.01% | -33.03% |
-| ULCC | 2.3% | satellite | 6.57 | -5.33% | -15.88% | 8.24% |
-| INTC | 2.1% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
+| ENR | 4.3% | satellite | 20.06 | -2.03% | -3.07% | -0.96% |
+| BBIO | 4.3% | satellite | 82.6 | -0.58% | 6.02% | 23.65% |
+| GGAL | 3.7% | satellite | 52.92 | 2.94% | 3.56% | -4.06% |
+| RH | 3.0% | satellite | 165.68 | 2.39% | 1.21% | 8.26% |
+| IPX | 2.3% | satellite | 25.73 | 4.28% | -0.48% | -28.64% |
+| ULCC | 2.3% | satellite | 6.39 | -2.82% | -13.25% | 2.16% |
+| INTC | 2.1% | satellite | 104.01 | 0.86% | -5.78% | -16.5% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -304,8 +304,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | INVE | 72 | large_holder | Grossman Bruce |  | - | - |
 | CAG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| FMTOF | 70 | large_holder | Corley Thomas John |  | - | - |
-| KWY | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
+| VYNE | 70 | large_holder | Zhang Xiaofan |  | - | - |
+| NHS | 70 | large_holder | First Trust Portfolios L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,37 +327,42 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 749.17 (-0.77% / -0.28% / 1.81%) [2026-07-13]
-- QQQ: 711.74 (-1.9% / -1.53% / -0.64%) [2026-07-13]
-- IWM: 293.48 (-0.85% / -1.81% / 1.3%) [2026-07-13]
-- DIA: 524.47 (-0.25% / -1.06% / 3.25%) [2026-07-13]
-- TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
-- IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
-- GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 17.39 (1.34% / 7.81% / -1.64%) [2026-07-14]
-- BTC-USD: 62773.44 (0.86% / -0.66% / 2.92%) [2026-07-14]
+- SPY: 750.51 (0.18% / 0.37% / 1.44%) [2026-07-14]
+- QQQ: 717.0 (0.74% / 1.07% / -0.49%) [2026-07-14]
+- IWM: 294.4 (0.31% / -0.6% / 0.73%) [2026-07-14]
+- DIA: 525.27 (0.15% / -0.6% / 2.66%) [2026-07-14]
+- TLT: 84.28 (0.37% / -0.32% / -1.37%) [2026-07-14]
+- IEF: 93.62 (0.36% / -0.08% / -0.26%) [2026-07-14]
+- GLD: 374.08 (1.89% / -0.9% / -3.22%) [2026-07-14]
+- ^VIX: 16.64 (-3.03% / 3.16% / -5.88%) [2026-07-14]
+- BTC-USD: 63834.79 (2.56% / 1.02% / 4.66%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
+- Treasury 2Y yield: 4.21 (delta 1m: 0.08) [2026-07-10]
 - Treasury 10Y yield: 4.56 (delta 1m: 0.03) [2026-07-10]
 - Curva 10Y-2Y: 0.36 (delta 1m: -0.06) [2026-07-13]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.69 (delta 1m: -0.09) [2026-07-10]
+- High yield spread (OAS): 2.69 (delta 1m: -0.02) [2026-07-13]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.26 (delta 1m: -0.08) [2026-07-13]
 - Dolar broad index: 120.5046 (delta 1m: 0.543) [2026-07-10]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (1), regulatory (1)
+**Temas dominantes**: stock (7), leadership (2), merger (1), regulatory (1), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRDO] Dimensional Fund Advisors Ltd . : Form 8 . 3 - DCC PLC - Ordinary Shares (2026-07-14)
+- [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
 - [DDOG] Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky (2026-07-14)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
+- [DELL] Fifth Third Bancorp Acquires 99 , 204 Shares of Dell Technologies Inc . $DELL (2026-07-14)
+- [DELL] Dell Technologies ( NYSE : DELL ) Director Silver Lake Partners De ( Aiv Sells 34 , 869 Shares (2026-07-14)
+- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
+- [DELL] Missed DELL 248 % Run ? IGPT Quietly Turned $10K Into $16 , 600 (2026-07-13)
 - [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
-- [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
+- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
+- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +377,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $27,075 · win rate 99% · categorias: sports, crypto, politics
-- RJW1 · PnL $7,716 · win rate 99% · categorias: sports
-- NiFengFanPan · PnL $10,083 · win rate 94% · categorias: sports, politics, crypto
-- QuentinChen · PnL $6,751 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $13,029 · win rate 91% · categorias: crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $119,703 · win rate 96% · categorias: sports
+- Hashbrown · PnL $71,966 · win rate 93% · categorias: crypto, sports, politics
+- JnStTrdrBnusFnd · PnL $55,667 · win rate 91% · categorias: crypto
+- nonkenny90 · PnL $26,916 · win rate 93% · categorias: crypto, sports, politics
+- chriszyy3 · PnL $21,127 · win rate 94% · categorias: economy, crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
