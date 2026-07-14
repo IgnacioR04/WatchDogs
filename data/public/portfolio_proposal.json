@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-14T17:50:57+00:00",
+  "generated_at": "2026-07-14T20:01:26+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "BEP": 0.0673,
+    "BEP": 0.0717,
     "IEF": 0.0622,
-    "TBRG": 0.0429,
-    "ENR": 0.042,
-    "BBIO": 0.0415,
-    "GGAL": 0.0358,
-    "YEXT": 0.0335,
-    "RH": 0.0289,
-    "IPX": 0.0224,
-    "INTC": 0.0204
+    "ENR": 0.0448,
+    "BBIO": 0.0442,
+    "GGAL": 0.0381,
+    "YEXT": 0.0358,
+    "RH": 0.0308,
+    "IPX": 0.0238,
+    "ULCC": 0.0238,
+    "INTC": 0.0216
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "IPX": 0.0199,
-    "YEXT": 0.0298,
-    "ENR": 0.0373,
-    "GGAL": 0.0318,
-    "TBRG": 0.0381,
-    "BBIO": 0.0369,
-    "RH": 0.0257,
-    "INTC": 0.0181,
-    "BEP": 0.0598
+    "IPX": 0.0212,
+    "YEXT": 0.0318,
+    "ENR": 0.0398,
+    "GGAL": 0.0339,
+    "ULCC": 0.0212,
+    "BBIO": 0.0393,
+    "RH": 0.0274,
+    "INTC": 0.0192,
+    "BEP": 0.0637
   },
   "satellite_rationale": [
     {
@@ -73,7 +73,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "TBRG",
+      "ticker": "ULCC",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -114,16 +114,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1419,
-    "var_95_1d": 0.0131,
-    "cvar_95_1d": 0.0153,
-    "max_drawdown": -0.0347,
-    "beta_spy": 0.9,
-    "hhi": 0.0698,
+    "ann_vol": 0.1544,
+    "var_95_1d": 0.0156,
+    "cvar_95_1d": 0.0169,
+    "max_drawdown": -0.0389,
+    "beta_spy": 0.951,
+    "hhi": 0.0702,
     "max_position": 0.12,
     "n_positions": 14,
     "effective_positions": 14.3,
-    "gross_exposure": 0.8502,
+    "gross_exposure": 0.8501,
     "days_used": 71
   },
   "risk_gate": {
