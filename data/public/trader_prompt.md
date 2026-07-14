@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-14T09:32:37+00:00 -->
+<!-- trader_prompt.md generado 2026-07-14T12:01:43+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-14T09:32:37+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
+_Generado 2026-07-14T12:01:43+00:00 · ventana señales 2026-06-14 -> 2026-07-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.26)
+- Volatilidad: `normal` (VIX 17.39)
 - Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.36)
@@ -334,12 +334,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 17.26 (0.58% / 7.01% / -2.38%) [2026-07-14]
-- BTC-USD: 62564.78 (0.52% / -0.99% / 2.57%) [2026-07-14]
+- ^VIX: 17.39 (1.34% / 7.81% / -1.64%) [2026-07-14]
+- BTC-USD: 62773.44 (0.86% / -0.66% / 2.92%) [2026-07-14]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.21 (delta 1m: 0.08) [2026-07-10]
 - Treasury 10Y yield: 4.56 (delta 1m: 0.03) [2026-07-10]
 - Curva 10Y-2Y: 0.36 (delta 1m: -0.06) [2026-07-13]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
@@ -350,17 +349,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (1), leadership (1), regulatory (1)
+**Temas dominantes**: stock (4), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDAY] Stock Traders Buy High Volume of Call Options on TotalEnergies ( NYSE : TTE ) (2026-07-14)
-- [WDAY] South Korea KOSPI Enters Bear Market Despite Remaining 2026 Best - Performing Major Stock Index (2026-07-14)
-- [WDAY] Infosys , Coforge , TCS , Wipro , HCL , LTM , Persistent , Mphasis : Stock with highest St target (2026-07-14)
-- [DASH] Only on 13 : DoorDash driver seen on video being hit by a car speaks to ABC13 (2026-07-14)
+- [CRDO] Dimensional Fund Advisors Ltd . : Form 8 . 3 - DCC PLC - Ordinary Shares (2026-07-14)
+- [DDOG] Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky (2026-07-14)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
 - [DDOG] Y . D . More Investments Ltd Lowers Position in Datadog , Inc . $DDOG (2026-07-13)
-- [DDOG] Datadog , Inc . $DDOG Shares Sold by Y . D . More Investments Ltd (2026-07-13)
 - [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -376,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $16,024 · win rate 99% · categorias: sports, crypto, politics
-- RJW1 · PnL $14,361 · win rate 99% · categorias: sports
-- NiFengFanPan · PnL $10,505 · win rate 94% · categorias: sports, politics, crypto
-- QuentinChen · PnL $6,678 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $13,481 · win rate 91% · categorias: crypto
+- comon119 · PnL $27,075 · win rate 99% · categorias: sports, crypto, politics
+- RJW1 · PnL $7,716 · win rate 99% · categorias: sports
+- NiFengFanPan · PnL $10,083 · win rate 94% · categorias: sports, politics, crypto
+- QuentinChen · PnL $6,751 · win rate 96% · categorias: sports
+- JnStTrdrBnusFnd · PnL $13,029 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,8 +384,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 613 registros 30d · ultimo dato 2026-07-13
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-13
+- **sec_insiders**: `ok` · 627 registros 30d · ultimo dato 2026-07-13
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
