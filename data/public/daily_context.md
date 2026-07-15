@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T09:36:35+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T12:06:24+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.2)
+- Volatilidad: `normal` (VIX 16.33)
 - Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.4)
@@ -26,27 +26,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
 | TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
 | GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
-| BEP | 8.7% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
-| NMM | 6.4% | satellite | 75.41 | -0.45% | 0.75% | 2.74% |
+| BEP | 7.5% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
 | IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
-| NVRI | 5.4% | satellite | 22.92 | -1.55% | -0.78% | 8.47% |
-| ETSY | 5.1% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
-| NTSK | 3.2% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
-| INTC | 2.7% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
-| ARTV | 2.0% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
+| NMM | 5.5% | satellite | 75.41 | -0.45% | 0.75% | 2.74% |
+| NVRI | 4.7% | satellite | 22.92 | -1.55% | -0.78% | 8.47% |
+| SHOE | 4.6% | satellite | 15.38 | 0.13% | 4.27% | -10.76% |
+| ETSY | 4.4% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
+| NTSK | 2.7% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
+| INTC | 2.3% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
+| ARTV | 1.7% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.7%
-- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -5.3%
-- Beta vs SPY: 0.809 · posiciones efectivas: 13.3 · HHI: 0.0751
+- Volatilidad anualizada: 13.6%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.7%
+- Beta vs SPY: 0.809 · posiciones efectivas: 13.8 · HHI: 0.0723
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NTSK** · score agregado 321.8 · 4 señales · fuentes: corporate_insider
 - **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
 - **NVRI** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **SHOE** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **ARTV** · score agregado 116.5 · 2 señales · fuentes: corporate_insider
 - **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
@@ -101,8 +103,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 16.2 (-5.59% / 0.43% / -8.37%) [2026-07-15]
-- BTC-USD: 64744.67 (-0.33% / 0.96% / 8.41%) [2026-07-15]
+- ^VIX: 16.33 (-4.84% / 1.24% / -7.64%) [2026-07-15]
+- BTC-USD: 64600.0 (-0.55% / 0.74% / 8.17%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,35 +119,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (6), ai (2), earnings (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [LQDA] Liquidia ( NASDAQ : LQDA ) Insider Rajeev Saggar Sells 9 , 926 Shares (2026-07-15)
 - [LQDA] Archer Investment Corp Makes New Investment in Liquidia Corporation $LQDA (2026-07-15)
 - [LQDA] Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? (2026-07-14)
-- [STZ] Constellation Brands : Beer Growth and Buybacks Mask Stock Slump (2026-07-10)
-- [STZ] Jim Cramer on Constellation Brands :  I Think It a Steal Down Here (2026-07-09)
-- [LQDA] Insider Selling : Liquidia ( NASDAQ : LQDA ) Director Sells $2 , 004 , 250 . 00 in Stock (2026-07-08)
-- [LQDA] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
+- [RBRK] Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion (2026-07-14)
+- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [RBRK] Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily (2026-07-13)
+- [RBRK] Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management (2026-07-12)
+- [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
+- [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Ullal Jayshree vendio ANET por $30.1M el 2026-07-10.
-- CEO OYLER JOHN vendio ONC por $14.1M el 2026-07-14.
-- 10% owner Liberty Broadband Corp vendio CHTR por $17.7M el 2026-07-14.
+- Director Chang Hung Pen opero ASX por $123.3M el 2026-07-13.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
 - Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
+- Institutional manager Goldman Sachs Group Inc vendio META PLATFORMS INC por $7.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $36,653 · win rate 91% · categorias: crypto
-- thoodr · PnL $8,468 · win rate 99% · categorias: politics, sports, economy
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $39,996 · win rate 87% · categorias: sports
-- Cloverince · PnL $7,241 · win rate 98% · categorias: sports, politics, crypto
-- ArbTraderRookie · PnL $7,173 · win rate 98% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $58,603 · win rate 88% · categorias: sports
+- JnStTrdrBnusFnd · PnL $35,752 · win rate 91% · categorias: crypto
+- thoodr · PnL $8,502 · win rate 99% · categorias: politics, sports, economy
+- esportGG · PnL $12,014 · win rate 94% · categorias: sports
+- fgdfhr666 · PnL $12,984 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,7 +159,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 63 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 545 registros 30d · ultimo dato 2026-07-14
+- **sec_insiders**: `ok` · 545 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -166,7 +172,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, SHOE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
