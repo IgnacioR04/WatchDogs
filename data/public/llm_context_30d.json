@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-15T16:10:19.659294+00:00",
+  "generated_at": "2026-07-15T17:55:23.980839+00:00",
   "window": {
     "from": "2026-06-15",
     "to": "2026-07-15",
@@ -22,7 +22,9 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "ai"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -390,6 +392,15 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "JCTC",
+        "company": "JEWETT CAMERON TRADING CO LTD",
+        "pressure_score": 548.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "BUKS",
         "company": "BUTLER NATIONAL CORP",
         "pressure_score": 421.8,
@@ -454,6 +465,14 @@
         ]
       },
       {
+        "ticker": "RDGL",
+        "company": "VIVOS INC",
+        "pressure_score": 207.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ABT",
         "company": "Abbott Laboratories Common Stock",
         "pressure_score": 174.3,
@@ -492,33 +511,9 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "SHOE",
-        "company": "Shoe Station Group Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "RAY",
-        "company": "Raytech Holding Limited",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 1213.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "EEX",
         "company": "Emerald Holding, Inc.",
@@ -526,6 +521,14 @@
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "TSEM",
+        "company": "TOWER SEMICONDUCTOR LTD",
+        "pressure_score": 771.0,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -585,38 +588,6 @@
         ]
       },
       {
-        "ticker": "BUKS",
-        "company": "BUTLER NATIONAL CORP",
-        "pressure_score": 206.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "JOBY",
-        "company": "Joby Aviation, Inc.",
-        "pressure_score": 204.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FDMT",
-        "company": "4D Molecular Therapeutics, Inc.",
-        "pressure_score": 199.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SOPH",
-        "company": "SOPHiA GENETICS SA",
-        "pressure_score": 197.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BNED",
         "company": "Barnes & Noble Education, Inc.",
         "pressure_score": 195.9,
@@ -630,6 +601,38 @@
         "pressure_score": 191.4,
         "sources": [
           "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Stock",
+        "pressure_score": 181.8,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "UNH",
+        "company": "Common Stock",
+        "pressure_score": 172.1,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "LYV",
+        "company": "Common Stock",
+        "pressure_score": 169.9,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "ALHC",
+        "company": "Alignment Healthcare, Inc.",
+        "pressure_score": 155.3,
+        "sources": [
           "corporate_insider"
         ]
       }
@@ -754,6 +757,15 @@
       "score": 72.5
     },
     {
+      "ticker": "JCTC",
+      "company": "JEWETT CAMERON TRADING CO LTD",
+      "actor": "AJB Investment Fund II, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 13173.5,
+      "date": "2026-07-14",
+      "score": 71.7
+    },
+    {
       "ticker": "DLHC",
       "company": "DLH Holdings Corp.",
       "actor": "Mink Brook Asset Management LLC",
@@ -761,15 +773,6 @@
       "amount": 22443.09,
       "date": "2026-07-13",
       "score": 71.6
-    },
-    {
-      "ticker": "BUKS",
-      "company": "BUTLER NATIONAL CORP",
-      "actor": "Daly Joseph Patrick",
-      "actor_type": "ten_percent_owner",
-      "amount": 30380.0,
-      "date": "2026-07-10",
-      "score": 70.8
     }
   ],
   "institutional_changes": [
@@ -1216,21 +1219,31 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 145432.18,
+        "win_rate": 0.8788,
+        "volume": 1518283.79,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 77476.44,
+        "pnl": 78959.06,
         "win_rate": 0.9062,
-        "volume": 313336.37,
+        "volume": 349825.78,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 78131.82,
-        "win_rate": 0.8769,
-        "volume": 934114.31,
+        "wallet": "0xf3ce7f04dd",
+        "username": "",
+        "pnl": 16985.29,
+        "win_rate": 0.9536,
+        "volume": 72116.99,
         "categories": [
           "sports"
         ]
@@ -1238,50 +1251,9 @@
       {
         "wallet": "0x9eca63b0ed",
         "username": "epend",
-        "pnl": 40942.36,
-        "win_rate": 0.9113,
-        "volume": 97881.05,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 19444.39,
-        "win_rate": 0.9496,
-        "volume": 296409.75,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 38505.11,
-        "win_rate": 0.9,
-        "volume": 170311.51,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 15760.7,
-        "win_rate": 0.9413,
-        "volume": 184806.67,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0b6a8ebfa",
-        "username": "retordedgremlin125",
-        "pnl": 17928.41,
-        "win_rate": 0.9221,
-        "volume": 86867.93,
+        "pnl": 31306.56,
+        "win_rate": 0.9117,
+        "volume": 143627.74,
         "categories": [
           "sports"
         ]
@@ -1289,19 +1261,39 @@
       {
         "wallet": "0x060f34e5aa",
         "username": "alexfire97",
-        "pnl": 40137.02,
-        "win_rate": 0.8481,
-        "volume": 382921.52,
+        "pnl": 71454.35,
+        "win_rate": 0.8537,
+        "volume": 652431.74,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd86ec82a0d",
-        "username": "fgdfhr666",
-        "pnl": 12974.98,
-        "win_rate": 0.9176,
-        "volume": 4379.07,
+        "wallet": "0x3413c803c3",
+        "username": "Dota2winner",
+        "pnl": 17967.88,
+        "win_rate": 0.9429,
+        "volume": 116606.78,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 28858.07,
+        "win_rate": 0.901,
+        "volume": 240283.94,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0b6a8ebfa",
+        "username": "retordedgremlin125",
+        "pnl": 19177.3,
+        "win_rate": 0.9231,
+        "volume": 147926.63,
         "categories": [
           "sports"
         ]
@@ -1309,9 +1301,20 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 60615.21,
-        "win_rate": 0.7941,
+        "pnl": 60625.45,
+        "win_rate": 0.8088,
         "volume": 800852.38,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x87da2f16cf",
+        "username": "GeorgeRe",
+        "pnl": 23278.19,
+        "win_rate": 0.831,
+        "volume": 260817.02,
         "categories": [
           "sports",
           "crypto"
@@ -1320,10 +1323,20 @@
     ],
     "whales": [
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 145432.18,
+        "win_rate": 0.8788,
+        "volume": 1518283.79,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 60615.21,
-        "win_rate": 0.7941,
+        "pnl": 60625.45,
+        "win_rate": 0.8088,
         "volume": 800852.38,
         "categories": [
           "sports",
@@ -1331,21 +1344,11 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 78131.82,
-        "win_rate": 0.8769,
-        "volume": 934114.31,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 36567.94,
-        "win_rate": 0.4401,
-        "volume": 689826.52,
+        "pnl": 36111.53,
+        "win_rate": 0.437,
+        "volume": 725606.32,
         "categories": [
           "sports",
           "politics",
@@ -1353,21 +1356,31 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 77476.44,
-        "win_rate": 0.9062,
-        "volume": 313336.37,
+        "wallet": "0x060f34e5aa",
+        "username": "alexfire97",
+        "pnl": 71454.35,
+        "win_rate": 0.8537,
+        "volume": 652431.74,
         "categories": [
-          "crypto"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3af1ed6ea3",
+        "username": "needheal",
+        "pnl": 56419.77,
+        "win_rate": 0.513,
+        "volume": 438672.03,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 56571.53,
-        "win_rate": 0.504,
-        "volume": 2189963.52,
+        "pnl": 53669.47,
+        "win_rate": 0.49,
+        "volume": 2734369.17,
         "categories": [
           "crypto",
           "sports",
@@ -1375,53 +1388,42 @@
         ]
       },
       {
-        "wallet": "0x060f34e5aa",
-        "username": "alexfire97",
-        "pnl": 40137.02,
-        "win_rate": 0.8481,
-        "volume": 382921.52,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 78959.06,
+        "win_rate": 0.9062,
+        "volume": 349825.78,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 16298.96,
+        "win_rate": 0.548,
+        "volume": 738508.94,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 19444.39,
-        "win_rate": 0.9496,
-        "volume": 296409.75,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x9e3ed7b661",
         "username": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-        "pnl": 64644.32,
-        "win_rate": 0.492,
-        "volume": 1216987.47,
+        "pnl": 63907.33,
+        "win_rate": 0.484,
+        "volume": 1900397.83,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0x3af1ed6ea3",
-        "username": "needheal",
-        "pnl": 27931.89,
-        "win_rate": 0.5124,
-        "volume": 183591.68,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcf609d3256",
-        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 15645.56,
-        "win_rate": 0.831,
-        "volume": 175499.94,
+        "wallet": "0xf68a281980",
+        "username": "WHYWHYWHYWHYWHYWHY",
+        "pnl": 76116.47,
+        "win_rate": 0.542,
+        "volume": 360514.82,
         "categories": [
           "sports"
         ]
@@ -1430,21 +1432,43 @@
   },
   "news": [
     {
-      "title": "XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? ",
-      "url": "https://www.tickerreport.com/banking-finance/13502709/xoma-royalty-nasdaqxoma-sees-strong-trading-volume-still-a-buy.html",
-      "ticker": "XOMA",
-      "themes": [],
-      "date": "2026-07-13"
+      "title": "Tower Semiconductor announces $3bn manufacturing expansion in Japan",
+      "url": "https://finance.yahoo.com/technology/articles/tower-semiconductor-announces-3bn-manufacturing-112332955.html",
+      "ticker": "TSEM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-15"
     },
     {
-      "title": "XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/13/xoma-royalty-nasdaqxoma-sees-strong-trading-volume-still-a-buy.html",
-      "ticker": "XOMA",
-      "themes": [],
-      "date": "2026-07-13"
+      "title": "Katamaran Capital LLP Reduces Position in Tower Semiconductor Ltd . $TSEM",
+      "url": "https://www.themarketsdaily.com/2026/07/15/katamaran-capital-llp-reduces-position-in-tower-semiconductor-ltd-tsem.html",
+      "ticker": "TSEM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-15"
+    },
+    {
+      "title": "Japan to Provide Up to 159 Billion Yen in Subsidies to Tower Semiconductor",
+      "url": "https://newsonjapan.com/article/149983.php",
+      "ticker": "TSEM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-15"
+    },
+    {
+      "title": "Tower Semiconductor to invest $3 bn in Japan , backed by government grants , for capacity expansion",
+      "url": "https://telecom.economictimes.indiatimes.com/news/devices/tower-semiconductor-to-invest-3-bn-in-japan-backed-by-government-grants-for-capacity-expansion/132410031",
+      "ticker": "TSEM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-15"
     }
   ],
-  "signals_count": 1401,
+  "signals_count": 1378,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

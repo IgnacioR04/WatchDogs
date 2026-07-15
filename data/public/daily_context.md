@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T16:12:17+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T17:58:00+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,40 +8,42 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.12)
-- Tendencia: `bull` (SPY 751.84 · MA50 742.06 · MA200 692.53 · dist MA200: 8.56%)
-- Credito: `tight` (HY spread 2.72)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.86)
+- Tendencia: `bull` (SPY 754.36 · MA50 742.11 · MA200 692.54 · dist MA200: 8.93%)
+- Credito: `unknown` (HY spread None)
 - Tipos: `flat` (curva 10y-2y 0.4)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+)
+- **AVISO**: sin datos de credit (FRED API key no configurada). El presupuesto de riesgo puede ser impreciso.
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 751.84 | 0.0% | 0.86% | -0.14% |
-| QQQ | 12.0% | core | 712.89 | -0.94% | 0.2% | -4.08% |
-| TLT | 12.0% | core | 84.29 | 0.25% | -0.08% | -1.3% |
-| GLD | 9.3% | core | 370.8 | -0.36% | -0.97% | -6.49% |
-| BEP | 7.6% | satellite | 32.57 | 1.43% | -2.43% | -5.95% |
-| IEF | 6.2% | core | 93.78 | 0.25% | 0.29% | -0.2% |
-| NMM | 5.6% | satellite | 73.82 | -0.94% | -2.64% | -0.81% |
-| NVRI | 4.8% | satellite | 22.83 | 1.24% | 0.09% | 10.24% |
-| SHOE | 4.7% | satellite | 14.7 | 2.73% | -2.71% | -11.77% |
-| RYAM | 4.0% | satellite | 7.62 | 5.39% | 5.39% | -16.08% |
-| NTSK | 2.8% | satellite | 13.88 | -2.73% | 16.44% | 57.55% |
-| INTC | 2.4% | satellite | 100.0 | -7.21% | -9.29% | -21.79% |
-| ARTV | 1.7% | satellite | 9.4 | 0.53% | 0.97% | 2.4% |
+| SPY | 12.0% | core | 754.36 | 0.34% | 1.2% | 0.2% |
+| QQQ | 11.4% | core | 717.57 | -0.29% | 0.86% | -3.45% |
+| TLT | 11.4% | core | 84.29 | 0.26% | -0.08% | -1.3% |
+| GLD | 8.6% | core | 372.73 | 0.15% | -0.46% | -6.01% |
+| BEP | 6.2% | satellite | 32.65 | 1.68% | -2.19% | -5.72% |
+| IEF | 5.7% | core | 93.86 | 0.33% | 0.37% | -0.12% |
+| NMM | 4.5% | satellite | 74.25 | -0.36% | -2.07% | -0.23% |
+| NVRI | 3.9% | satellite | 22.64 | 0.38% | -0.77% | 9.3% |
+| SHOE | 3.8% | satellite | 14.7 | 2.73% | -2.71% | -11.77% |
+| ETSY | 3.6% | satellite | 85.65 | 3.12% | 10.95% | 18.65% |
+| RYAM | 3.2% | satellite | 7.64 | 5.67% | 5.67% | -15.86% |
+| NTSK | 2.2% | satellite | 13.52 | -5.22% | 13.46% | 53.52% |
+| INTC | 1.9% | satellite | 101.95 | -5.39% | -7.52% | -20.26% |
+| ARTV | 1.4% | satellite | 9.72 | 3.96% | 4.4% | 5.88% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.1%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.9%
-- Max drawdown historico: -5.4%
-- Beta vs SPY: 0.836 · posiciones efectivas: 13.8 · HHI: 0.0723
+- Volatilidad anualizada: 12.8%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.7%
+- Max drawdown historico: -5.2%
+- Beta vs SPY: 0.773 · posiciones efectivas: 15.8 · HHI: 0.0634
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -51,6 +53,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **NVRI** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **SHOE** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **ARTV** · score agregado 116.5 · 2 señales · fuentes: corporate_insider
+- **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -64,17 +67,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NTSK | 82 | corporate_insider | ICONIQ Strategic Partners | 2 | $2,961,151 | cluster_buy |
 | NTSK | 79 | corporate_insider | Griffith William J.G. | 2 | $804,546 | cluster_buy |
 | NTSK | 79 | corporate_insider | ICONIQ Strategic Partners | 2 | $804,546 | cluster_buy |
+| RDGL | 72 | corporate_insider | Korenko Michael K | 2 | $11,420 | cluster_buy,small_amount |
 | SERA | 72 | large_holder | Aberdeen Group plc |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
+| JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | EEX | 72 | large_holder | Onex Corporation |  | - | - |
+| TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
+| ETSY | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
+| PRQR | 70 | large_holder | STICHTING AESCAP LIFE SCI |  | - | - |
 | DOX | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| AVT | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| HOFT | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| GLOB | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| SCSC | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| DDD | 70 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -96,15 +99,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 751.84 (0.0% / 0.86% / -0.14%) [2026-07-15]
-- QQQ: 712.89 (-0.94% / 0.2% / -4.08%) [2026-07-15]
-- IWM: 295.17 (0.22% / 0.58% / 0.18%) [2026-07-15]
-- DIA: 525.54 (0.16% / 0.53% / 1.65%) [2026-07-15]
-- TLT: 84.29 (0.25% / -0.08% / -1.3%) [2026-07-15]
-- IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
-- GLD: 370.8 (-0.36% / -0.97% / -6.49%) [2026-07-15]
-- ^VIX: 16.12 (-2.3% / -4.62% / -0.49%) [2026-07-15]
-- BTC-USD: 65110.1 (0.24% / 1.53% / 9.02%) [2026-07-15]
+- SPY: 754.36 (0.34% / 1.2% / 0.2%) [2026-07-15]
+- QQQ: 717.57 (-0.29% / 0.86% / -3.45%) [2026-07-15]
+- IWM: 296.2 (0.58% / 0.93% / 0.53%) [2026-07-15]
+- DIA: 526.04 (0.26% / 0.63% / 1.74%) [2026-07-15]
+- TLT: 84.29 (0.26% / -0.08% / -1.3%) [2026-07-15]
+- IEF: 93.86 (0.33% / 0.37% / -0.12%) [2026-07-15]
+- GLD: 372.73 (0.15% / -0.46% / -6.01%) [2026-07-15]
+- ^VIX: 15.86 (-3.88% / -6.15% / -2.1%) [2026-07-15]
+- BTC-USD: 64991.25 (0.05% / 1.35% / 8.82%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -112,17 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.62 (delta 1m: 0.07) [2026-07-13]
 - Curva 10Y-2Y: 0.4 (delta 1m: 0.0) [2026-07-14]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.72 (delta 1m: 0.06) [2026-07-14]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.25 (delta 1m: -0.04) [2026-07-14]
 - Dolar broad index: 120.5046 (delta 1m: 0.543) [2026-07-10]
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: ai (4)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [TSEM] Tower Semiconductor announces $3bn manufacturing expansion in Japan (2026-07-15)
+- [TSEM] Katamaran Capital LLP Reduces Position in Tower Semiconductor Ltd . $TSEM (2026-07-15)
+- [TSEM] Japan to Provide Up to 159 Billion Yen in Subsidies to Tower Semiconductor (2026-07-15)
+- [TSEM] Tower Semiconductor to invest $3 bn in Japan , backed by government grants , for capacity expansion (2026-07-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -137,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $77,476 · win rate 91% · categorias: crypto
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $78,132 · win rate 88% · categorias: sports
-- epend · PnL $40,942 · win rate 91% · categorias: sports
-- matenghehe · PnL $19,444 · win rate 95% · categorias: sports, crypto
-- CORGI8 · PnL $38,505 · win rate 90% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $145,432 · win rate 88% · categorias: sports
+- JnStTrdrBnusFnd · PnL $78,959 · win rate 91% · categorias: crypto
+- 0xf3ce7f04 · PnL $16,985 · win rate 95% · categorias: sports
+- epend · PnL $31,307 · win rate 91% · categorias: sports
+- alexfire97 · PnL $71,454 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 63 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 486 registros 30d · ultimo dato 2026-07-15
+- **sec_insiders**: `ok` · 463 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -162,8 +168,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, RYAM, SHOE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, RYAM, SHOE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
