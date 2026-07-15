@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:51:00+00:00",
+  "generated_at": "2026-07-15T06:46:58+00:00",
   "budget_eur": 100.0,
   "n_cycles": 6,
   "cost_model": {
@@ -7,18 +7,18 @@
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
-    "n_days": 4,
-    "equity_eur": 100.58,
-    "total_return": 0.0058,
-    "win_rate_days": 0.5,
-    "best_day": 0.0081,
+    "n_days": 3,
+    "equity_eur": 99.78,
+    "total_return": -0.0022,
+    "win_rate_days": 0.3333,
+    "best_day": 0.0037,
     "worst_day": -0.004,
-    "ann_vol": 0.0823,
-    "sharpe": 5.77,
-    "sortino": 10.98,
+    "ann_vol": 0.0611,
+    "sharpe": -0.72,
+    "sortino": -1.02,
     "max_drawdown": -0.0046,
-    "spy_return": 0.0104,
-    "excess_return": -0.0045,
+    "spy_return": 0.005,
+    "excess_return": -0.0072,
     "costs_eur": 0.1708,
     "turnover_total": 1.138
   },
@@ -40,12 +40,6 @@
       "equity": 99.78,
       "spy": 100.5,
       "daily_ret": -0.00403
-    },
-    {
-      "date": "2026-07-14",
-      "equity": 100.58,
-      "spy": 101.04,
-      "daily_ret": 0.00807
     }
   ],
   "positions": {
@@ -53,29 +47,29 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0086,
-      "value_eur": 12.1
+      "ret_since_entry": 0.0051,
+      "value_eur": 12.06
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0116,
-      "value_eur": 12.14
+      "ret_since_entry": 0.0004,
+      "value_eur": 12.0
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0033,
-      "value_eur": 11.96
+      "ret_since_entry": -0.0046,
+      "value_eur": 11.94
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0061,
-      "value_eur": 9.24
+      "ret_since_entry": -0.0195,
+      "value_eur": 9.12
     },
     "VFLEX": {
       "weight": 0.12,
@@ -85,8 +79,8 @@
       "weight": 0.098,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0004,
-      "value_eur": 9.8
+      "ret_since_entry": -0.0024,
+      "value_eur": 9.78
     },
     "PSBD": {
       "weight": 0.031,

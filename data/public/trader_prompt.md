@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-15T03:51:00+00:00 -->
+<!-- trader_prompt.md generado 2026-07-15T06:46:58+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T03:51:00+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T06:46:58+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,8 +238,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.5)
-- Tendencia: `bull` (SPY 751.83 · MA50 741.39 · MA200 692.03 · dist MA200: 8.64%)
+- Volatilidad: `normal` (VIX 17.16)
+- Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.4)
 - Fed Funds: 3.63%
@@ -251,17 +251,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 751.83 | 0.36% | 0.55% | 1.62% |
-| QQQ | 12.0% | core | 719.71 | 1.12% | 1.45% | -0.12% |
-| TLT | 12.0% | core | 84.08 | 0.13% | -0.56% | -1.61% |
-| GLD | 9.3% | core | 372.15 | 1.37% | -1.41% | -3.72% |
-| BEP | 8.7% | satellite | 32.11 | 0.78% | -2.49% | -6.44% |
-| NMM | 6.4% | satellite | 74.52 | -1.18% | -0.88% | -1.02% |
-| IEF | 6.2% | core | 93.55 | 0.28% | -0.16% | -0.34% |
-| NVRI | 5.4% | satellite | 22.55 | -1.61% | 0.09% | 5.62% |
+| SPY | 12.0% | core | 749.17 | -0.77% | -0.28% | 1.81% |
+| QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
+| TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
+| GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
+| BEP | 8.7% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
+| NMM | 6.4% | satellite | 75.41 | -0.45% | 0.75% | 2.74% |
+| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
+| NVRI | 5.4% | satellite | 22.92 | -1.55% | -0.78% | 8.47% |
 | ETSY | 5.1% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
 | NTSK | 3.2% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
-| INTC | 2.7% | satellite | 107.76 | 4.5% | -2.38% | -13.49% |
+| INTC | 2.7% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
 | ARTV | 2.0% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
 
 **Metricas de riesgo de esta cartera:**
@@ -323,15 +323,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 751.83 (0.36% / 0.55% / 1.62%) [2026-07-14]
-- QQQ: 719.71 (1.12% / 1.45% / -0.12%) [2026-07-14]
-- IWM: 294.51 (0.35% / -0.57% / 0.77%) [2026-07-14]
-- DIA: 524.69 (0.04% / -0.71% / 2.55%) [2026-07-14]
-- TLT: 84.08 (0.13% / -0.56% / -1.61%) [2026-07-14]
-- IEF: 93.55 (0.28% / -0.16% / -0.34%) [2026-07-14]
-- GLD: 372.15 (1.37% / -1.41% / -3.72%) [2026-07-14]
-- ^VIX: 16.5 (-3.85% / 2.29% / -6.67%) [2026-07-14]
-- BTC-USD: 64709.12 (3.97% / 2.4% / 6.09%) [2026-07-15]
+- SPY: 749.17 (-0.77% / -0.28% / 1.81%) [2026-07-13]
+- QQQ: 711.74 (-1.9% / -1.53% / -0.64%) [2026-07-13]
+- IWM: 293.48 (-0.85% / -1.81% / 1.3%) [2026-07-13]
+- DIA: 524.47 (-0.25% / -1.06% / 3.25%) [2026-07-13]
+- TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
+- IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
+- GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
+- ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
+- BTC-USD: 65029.27 (0.11% / 1.41% / 8.89%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,17 +346,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (1)
+**Temas dominantes**: ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [LQDA] Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? (2026-07-14)
 - [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
 - [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
 - [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
 - [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
-- [LQDA] Insider Selling : Liquidia ( NASDAQ : LQDA ) Director Sells $2 , 004 , 250 . 00 in Stock (2026-07-08)
-- [LQDA] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,11 +368,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ArbTraderRookie · PnL $8,750 · win rate 98% · categorias: sports
+- ArbTraderRookie · PnL $9,116 · win rate 98% · categorias: sports
+- thoodr · PnL $6,672 · win rate 99% · categorias: politics, sports, economy
+- JnStTrdrBnusFnd · PnL $22,474 · win rate 91% · categorias: crypto
 - fgdfhr666 · PnL $13,771 · win rate 92% · categorias: sports
 - 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $24,094 · win rate 87% · categorias: sports
-- alexfire97 · PnL $32,330 · win rate 84% · categorias: sports
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $18,674 · win rate 75% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
