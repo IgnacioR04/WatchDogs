@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-15T00:22:08+00:00 -->
+<!-- trader_prompt.md generado 2026-07-15T03:51:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T00:22:08+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T03:51:00+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -254,25 +254,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 751.83 | 0.36% | 0.55% | 1.62% |
 | QQQ | 12.0% | core | 719.71 | 1.12% | 1.45% | -0.12% |
 | TLT | 12.0% | core | 84.08 | 0.13% | -0.56% | -1.61% |
-| BEP | 10.7% | satellite | 32.11 | 0.78% | -2.49% | -6.44% |
 | GLD | 9.3% | core | 372.15 | 1.37% | -1.41% | -3.72% |
-| NVRI | 6.7% | satellite | 22.55 | -1.61% | 0.09% | 5.62% |
-| ETSY | 6.3% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
+| BEP | 8.7% | satellite | 32.11 | 0.78% | -2.49% | -6.44% |
+| NMM | 6.4% | satellite | 74.52 | -1.18% | -0.88% | -1.02% |
 | IEF | 6.2% | core | 93.55 | 0.28% | -0.16% | -0.34% |
-| NTSK | 3.9% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
-| INTC | 3.3% | satellite | 107.76 | 4.5% | -2.38% | -13.49% |
-| ARTV | 2.4% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
+| NVRI | 5.4% | satellite | 22.55 | -1.61% | 0.09% | 5.62% |
+| ETSY | 5.1% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
+| NTSK | 3.2% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
+| INTC | 2.7% | satellite | 107.76 | 4.5% | -2.38% | -13.49% |
+| ARTV | 2.0% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 14.4%
-- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -5.9%
-- Beta vs SPY: 0.84 · posiciones efectivas: 12.7 · HHI: 0.079
+- Volatilidad anualizada: 13.7%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.3%
+- Beta vs SPY: 0.809 · posiciones efectivas: 13.3 · HHI: 0.0751
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NTSK** · score agregado 321.8 · 4 señales · fuentes: corporate_insider
+- **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
 - **NVRI** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **ARTV** · score agregado 116.5 · 2 señales · fuentes: corporate_insider
 - **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -289,6 +291,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NTSK | 82 | corporate_insider | ICONIQ Strategic Partners | 2 | $2,961,151 | cluster_buy |
 | NTSK | 79 | corporate_insider | Griffith William J.G. | 2 | $804,546 | cluster_buy |
 | NTSK | 79 | corporate_insider | ICONIQ Strategic Partners | 2 | $804,546 | cluster_buy |
+| JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | EEX | 72 | large_holder | Onex Corporation |  | - | - |
 | TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | ETSY | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
@@ -299,7 +302,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | RNTX | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
 | GENI | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
 | FIVN | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
-| CSR | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -329,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.55 (0.28% / -0.16% / -0.34%) [2026-07-14]
 - GLD: 372.15 (1.37% / -1.41% / -3.72%) [2026-07-14]
 - ^VIX: 16.5 (-3.85% / 2.29% / -6.67%) [2026-07-14]
-- BTC-USD: 64844.12 (4.19% / 2.61% / 6.31%) [2026-07-15]
+- BTC-USD: 64709.12 (3.97% / 2.4% / 6.09%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,36 +346,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), regulatory (2), leadership (1), earnings (1), ai (1)
+**Temas dominantes**: ai (3), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RBRK] Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion (2026-07-14)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
-- [RBRK] Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily (2026-07-13)
-- [RBRK] Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management (2026-07-12)
-- [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
-- [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
-- [UTHR] United Therapeutics ( UTHR ) Following FDA Approval Is The Stock Fully Valued (2026-07-11)
+- [LQDA] Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? (2026-07-14)
+- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
+- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
+- [LQDA] Insider Selling : Liquidia ( NASDAQ : LQDA ) Director Sells $2 , 004 , 250 . 00 in Stock (2026-07-08)
+- [LQDA] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Ullal Jayshree vendio ANET por $30.1M el 2026-07-10.
+- CEO OYLER JOHN vendio ONC por $14.1M el 2026-07-14.
 - 10% owner Liberty Broadband Corp vendio CHTR por $17.7M el 2026-07-14.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
 - Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
-- Institutional manager Goldman Sachs Group Inc vendio META PLATFORMS INC por $7.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Allezpapa · PnL $396,879 · win rate 99% · categorias: sports
-- therighteousdog · PnL $562,823 · win rate 96% · categorias: sports
-- GoldenAlpha168 · PnL $194,530 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $970,640 · win rate 86% · categorias: sports
-- Kch-Temp · PnL $178,502 · win rate 95% · categorias: sports
+- ArbTraderRookie · PnL $8,750 · win rate 98% · categorias: sports
+- fgdfhr666 · PnL $13,771 · win rate 92% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $24,094 · win rate 87% · categorias: sports
+- alexfire97 · PnL $32,330 · win rate 84% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $18,674 · win rate 75% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -381,7 +383,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 63 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 533 registros 30d · ultimo dato 2026-07-14
+- **sec_insiders**: `ok` · 545 registros 30d · ultimo dato 2026-07-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -394,7 +396,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NTSK, NVRI, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
