@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:54:15+00:00",
+  "generated_at": "2026-07-15T21:29:45+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,17 +8,16 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "ECAT": 0.0942,
-    "GLD": 0.0933,
+    "GLD": 0.0932,
+    "ECAT": 0.0919,
     "IEF": 0.0622,
-    "BEP": 0.0552,
-    "NMM": 0.0405,
-    "ENR": 0.0337,
-    "ETSY": 0.0325,
-    "RYAM": 0.0287,
-    "NTSK": 0.02,
-    "INTC": 0.0172,
-    "ARTV": 0.0126
+    "PB": 0.0605,
+    "BEP": 0.0519,
+    "HQY": 0.0382,
+    "ETSY": 0.0278,
+    "ENR": 0.0273,
+    "FIVN": 0.0202,
+    "INTC": 0.0169
   },
   "core": {
     "SPY": 0.1934,
@@ -28,25 +27,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NTSK": 0.0178,
-    "ENR": 0.03,
-    "NMM": 0.036,
-    "RYAM": 0.0255,
-    "ARTV": 0.0112,
-    "ETSY": 0.0289,
-    "INTC": 0.0153,
-    "ECAT": 0.0837,
-    "BEP": 0.0491
+    "ENR": 0.0243,
+    "HQY": 0.034,
+    "FIVN": 0.018,
+    "PB": 0.0538,
+    "ETSY": 0.0247,
+    "INTC": 0.015,
+    "ECAT": 0.0817,
+    "BEP": 0.0461
   },
   "satellite_rationale": [
-    {
-      "ticker": "NTSK",
-      "score": 321.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
     {
       "ticker": "ENR",
       "score": 307.6,
@@ -56,28 +46,28 @@
       "n_signals": 5
     },
     {
-      "ticker": "NMM",
-      "score": 174.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "RYAM",
-      "score": 141.0,
+      "ticker": "HQY",
+      "score": 73.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
-      "ticker": "ARTV",
-      "score": 116.5,
+      "ticker": "FIVN",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
+    },
+    {
+      "ticker": "PB",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "ETSY",
@@ -113,17 +103,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1283,
-    "var_95_1d": 0.013,
-    "cvar_95_1d": 0.0168,
-    "max_drawdown": -0.0545,
-    "beta_spy": 0.794,
-    "hhi": 0.0732,
+    "ann_vol": 0.1041,
+    "var_95_1d": 0.0102,
+    "cvar_95_1d": 0.0123,
+    "max_drawdown": -0.0668,
+    "beta_spy": 0.686,
+    "hhi": 0.0742,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.7,
+    "n_positions": 13,
+    "effective_positions": 13.5,
     "gross_exposure": 0.8501,
-    "days_used": 86
+    "days_used": 167
   },
   "risk_gate": {
     "passed": true,
