@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-15T06:46:58+00:00 -->
+<!-- trader_prompt.md generado 2026-07-15T09:36:35+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T06:46:58+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T09:36:35+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.16)
+- Volatilidad: `normal` (VIX 16.2)
 - Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.4)
@@ -330,8 +330,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
 - IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
 - GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 17.16 (14.17% / 10.21% / -11.73%) [2026-07-13]
-- BTC-USD: 65029.27 (0.11% / 1.41% / 8.89%) [2026-07-15]
+- ^VIX: 16.2 (-5.59% / 0.43% / -8.37%) [2026-07-15]
+- BTC-USD: 64744.67 (-0.33% / 0.96% / 8.41%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,14 +346,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
-- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
-- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
+- [LQDA] Archer Investment Corp Makes New Investment in Liquidia Corporation $LQDA (2026-07-15)
+- [LQDA] Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? (2026-07-14)
+- [STZ] Constellation Brands : Beer Growth and Buybacks Mask Stock Slump (2026-07-10)
+- [STZ] Jim Cramer on Constellation Brands :  I Think It a Steal Down Here (2026-07-09)
+- [LQDA] Insider Selling : Liquidia ( NASDAQ : LQDA ) Director Sells $2 , 004 , 250 . 00 in Stock (2026-07-08)
+- [LQDA] Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More (2026-07-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -368,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ArbTraderRookie · PnL $9,116 · win rate 98% · categorias: sports
-- thoodr · PnL $6,672 · win rate 99% · categorias: politics, sports, economy
-- JnStTrdrBnusFnd · PnL $22,474 · win rate 91% · categorias: crypto
-- fgdfhr666 · PnL $13,771 · win rate 92% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $24,094 · win rate 87% · categorias: sports
+- JnStTrdrBnusFnd · PnL $36,653 · win rate 91% · categorias: crypto
+- thoodr · PnL $8,468 · win rate 99% · categorias: politics, sports, economy
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $39,996 · win rate 87% · categorias: sports
+- Cloverince · PnL $7,241 · win rate 98% · categorias: sports, politics, crypto
+- ArbTraderRookie · PnL $7,173 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
