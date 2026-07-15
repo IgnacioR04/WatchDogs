@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T21:29:46+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T22:30:37+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,22 +26,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 717.74 | -0.27% | 0.89% | -3.42% |
 | TLT | 12.0% | core | 84.24 | 0.19% | -0.14% | -1.36% |
 | GLD | 9.3% | core | 372.35 | 0.05% | -0.56% | -6.1% |
-| ECAT | 9.2% | satellite | 15.65 | -1.51% | -0.06% | 1.49% |
+| ECAT | 8.8% | satellite | 15.65 | -1.51% | -0.06% | 1.49% |
 | IEF | 6.2% | core | 93.78 | 0.25% | 0.29% | -0.2% |
-| PB | 6.0% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
-| BEP | 5.2% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
-| HQY | 3.8% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
-| ETSY | 2.8% | satellite | 85.74 | 3.23% | 11.06% | 18.77% |
-| ENR | 2.7% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
+| PB | 5.8% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
+| BEP | 5.3% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
+| HQY | 3.7% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
+| ENR | 3.0% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
+| ETSY | 3.0% | satellite | 85.74 | 3.23% | 11.06% | 18.77% |
 | FIVN | 2.0% | satellite | 24.86 | -2.81% | 2.73% | 20.33% |
-| INTC | 1.7% | satellite | 102.99 | -4.43% | -6.58% | -19.45% |
+| INTC | 1.4% | satellite | 102.99 | -4.43% | -6.58% | -19.45% |
+| BOT | 0.5% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.4%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -6.7%
-- Beta vs SPY: 0.686 · posiciones efectivas: 13.5 · HHI: 0.0742
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -2.7%
+- Beta vs SPY: 0.633 · posiciones efectivas: 13.6 · HHI: 0.0734
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -51,6 +52,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **PB** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
+- **BOT** · score agregado 70.5 · 1 señales · fuentes: corporate_insider
 - **ECAT** · score agregado 59.3 · 1 señales · fuentes: corporate_insider
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -82,12 +84,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
+| MSFT | 64 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| GE | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -104,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
 - ^VIX: 15.67 (-5.03% / -7.28% / -3.27%) [2026-07-15]
-- BTC-USD: 64831.33 (-0.19% / 1.1% / 8.56%) [2026-07-15]
+- BTC-USD: 64851.02 (-0.16% / 1.13% / 8.59%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,20 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (14), regulatory (2), leadership (2), earnings (2), ai (1), merger (1)
+**Temas dominantes**: stock (7), ai (4), merger (3), earnings (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MA] Could This  Magnificent Seven  Stock End Up Being Nvidia Biggest Rival ? (2026-07-15)
-- [MA] Manila Bulletin - ICTSI breaks PSE ₱2 - trillion barrier (2026-07-15)
-- [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
-- [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
-- [TTAN] ServiceTitan Inc . $TTAN Shares Sold by Hsbc Holdings PLC (2026-07-14)
-- [RBRK] Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion (2026-07-14)
-- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
-- [RBRK] Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily (2026-07-13)
-- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [RBRK] Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management (2026-07-12)
+- [MA] Realtor Allison Ziefert Presents a Mid - Year Market Check : What Really Happening in the Maplewood & South Orange Real Estate Market ? (2026-07-15)
+- [MA] Shell ( NYSE : SHEL ) Stock Price Crosses Above Two Hundred Day Moving Average – Time to Sell ? (2026-07-15)
+- [MA] Thomas Tuchel and England timid retreat as Argentina show true greatness (2026-07-15)
+- [KBH] Zacks Research Issues Positive Forecast for KB Home Earnings (2026-07-15)
+- [TSEM] Tower Semiconductor announces $3bn manufacturing expansion in Japan (2026-07-15)
+- [TSEM] Katamaran Capital LLP Reduces Position in Tower Semiconductor Ltd . $TSEM (2026-07-15)
+- [TSEM] Japan to Provide Up to 159 Billion Yen in Subsidies to Tower Semiconductor (2026-07-15)
+- [DDOG] Harel Insurance Investments & Financial Services Ltd . Acquires 278 , 647 Shares of Datadog , Inc . $DDOG (2026-07-15)
+- [TSEM] Tower Semiconductor to invest $3 bn in Japan , backed by government grants , for capacity expansion (2026-07-15)
+- [DDOG] DigitalOcean vs . Datadog : What the Revenue Trends of These Tech Companies Reveal for Investors (2026-07-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,15 +145,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Mastandrea Christine J vendio WSR por $13.7M el 2026-07-14.
 - CEO McLaughlin Edward Grunde opero MA por $4.5M el 2026-07-15 [senal en multiples fuentes].
 - CEO Pomel Olivier vendio DDOG por $10.8M el 2026-07-13.
-- Director Chang Hung Pen opero ASX por $123.3M el 2026-07-13.
+- 10% owner Gebbia Joseph vendio ABNB por $31.9M el 2026-07-13.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CandleHammerDrums · PnL $358,824 · win rate 96% · categorias: sports
-- Allezpapa · PnL $193,992 · win rate 99% · categorias: sports
-- 111111111115 · PnL $120,540 · win rate 98% · categorias: sports
-- cnyek · PnL $272,041 · win rate 95% · categorias: sports
-- warluigi · PnL $154,511 · win rate 89% · categorias: sports
+- CandleHammerDrums · PnL $394,034 · win rate 96% · categorias: sports
+- Allezpapa · PnL $184,510 · win rate 99% · categorias: sports
+- 111111111115 · PnL $99,983 · win rate 98% · categorias: sports
+- cnyek · PnL $294,349 · win rate 95% · categorias: sports
+- Jokerxing7 · PnL $274,630 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,7 +161,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 572 registros 30d · ultimo dato 2026-07-15
+- **sec_insiders**: `ok` · 565 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -172,7 +174,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, ECAT, ENR, ETSY, FIVN, GLD, HQY, IEF, INTC, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, ETSY, FIVN, GLD, HQY, IEF, INTC, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
