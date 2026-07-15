@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-15T14:24:26.430014+00:00",
+  "generated_at": "2026-07-15T16:10:19.659294+00:00",
   "window": {
     "from": "2026-06-15",
     "to": "2026-07-15",
@@ -22,12 +22,7 @@
     }
   },
   "market_context": {
-    "top_themes": [
-      "stock",
-      "ai",
-      "earnings",
-      "regulatory"
-    ],
+    "top_themes": [],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -395,15 +390,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "JCTC",
-        "company": "JEWETT CAMERON TRADING CO LTD",
-        "pressure_score": 548.5,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "BUKS",
         "company": "BUTLER NATIONAL CORP",
         "pressure_score": 421.8,
@@ -514,17 +500,17 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "RAY",
+        "company": "Raytech Holding Limited",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "LQDA",
-        "company": "Liquidia Corp",
-        "pressure_score": 1276.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "SE",
         "company": "Sea Ltd",
@@ -540,14 +526,6 @@
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 683.7,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -637,6 +615,23 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "BNED",
+        "company": "Barnes & Noble Education, Inc.",
+        "pressure_score": 195.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ADI",
+        "company": "Analog Devices, Inc.",
+        "pressure_score": 191.4,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -723,6 +718,15 @@
       "score": 73.7
     },
     {
+      "ticker": "MXF",
+      "company": "MEXICO FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 103758.39,
+      "date": "2026-07-13",
+      "score": 73.4
+    },
+    {
       "ticker": "NMM",
       "company": "Navios Maritime Partners L.P.",
       "actor": "Frangou Angeliki",
@@ -730,6 +734,15 @@
       "amount": 85086.07,
       "date": "2026-07-10",
       "score": 73.0
+    },
+    {
+      "ticker": "RDGL",
+      "company": "VIVOS INC",
+      "actor": "Korenko Michael K",
+      "actor_type": "ceo",
+      "amount": 11420.0,
+      "date": "2026-07-15",
+      "score": 72.6
     },
     {
       "ticker": "BUKS",
@@ -741,15 +754,6 @@
       "score": 72.5
     },
     {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 13173.5,
-      "date": "2026-07-14",
-      "score": 71.7
-    },
-    {
       "ticker": "DLHC",
       "company": "DLH Holdings Corp.",
       "actor": "Mink Brook Asset Management LLC",
@@ -757,15 +761,6 @@
       "amount": 22443.09,
       "date": "2026-07-13",
       "score": 71.6
-    },
-    {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 12097.28,
-      "date": "2026-07-14",
-      "score": 71.5
     },
     {
       "ticker": "BUKS",
@@ -1200,6 +1195,15 @@
       "date": "2026-07-10"
     },
     {
+      "filer": "FIRMENT SHIPPING INC.",
+      "company": "GLOBUS MARITIME LTD",
+      "ticker": "GLBS",
+      "ownership_pct": 30.5,
+      "shares": 6578633,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-15"
+    },
+    {
       "filer": "Novel Inspiration International Co., Ltd.",
       "company": "IRIDEX CORP",
       "ticker": "IRIX",
@@ -1207,23 +1211,24 @@
       "shares": 5551429,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-13"
-    },
-    {
-      "filer": "Seto Wai Yue",
-      "company": "Dreamland Ltd",
-      "ticker": "TDIC",
-      "ownership_pct": 23.81,
-      "shares": 829890,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-13"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 77476.44,
+        "win_rate": 0.9062,
+        "volume": 313336.37,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 85320.79,
+        "pnl": 78131.82,
         "win_rate": 0.8769,
         "volume": 934114.31,
         "categories": [
@@ -1231,31 +1236,32 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 49304.9,
-        "win_rate": 0.9062,
-        "volume": 178190.83,
+        "wallet": "0x9eca63b0ed",
+        "username": "epend",
+        "pnl": 40942.36,
+        "win_rate": 0.9113,
+        "volume": 97881.05,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 19444.39,
+        "win_rate": 0.9496,
+        "volume": 296409.75,
+        "categories": [
+          "sports",
           "crypto"
         ]
       },
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 48011.1,
-        "win_rate": 0.9053,
-        "volume": 159539.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9eca63b0ed",
-        "username": "epend",
-        "pnl": 38863.13,
-        "win_rate": 0.9107,
-        "volume": 91458.9,
+        "pnl": 38505.11,
+        "win_rate": 0.9,
+        "volume": 170311.51,
         "categories": [
           "sports"
         ]
@@ -1263,9 +1269,9 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 15322.45,
-        "win_rate": 0.941,
-        "volume": 140590.3,
+        "pnl": 15760.7,
+        "win_rate": 0.9413,
+        "volume": 184806.67,
         "categories": [
           "sports"
         ]
@@ -1273,8 +1279,8 @@
       {
         "wallet": "0xf0b6a8ebfa",
         "username": "retordedgremlin125",
-        "pnl": 16131.25,
-        "win_rate": 0.9189,
+        "pnl": 17928.41,
+        "win_rate": 0.9221,
         "volume": 86867.93,
         "categories": [
           "sports"
@@ -1283,22 +1289,11 @@
       {
         "wallet": "0x060f34e5aa",
         "username": "alexfire97",
-        "pnl": 45737.81,
-        "win_rate": 0.8442,
-        "volume": 293420.4,
+        "pnl": 40137.02,
+        "win_rate": 0.8481,
+        "volume": 382921.52,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 93486.82,
-        "win_rate": 0.791,
-        "volume": 800852.38,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
@@ -1312,15 +1307,14 @@
         ]
       },
       {
-        "wallet": "0x86e99faea1",
-        "username": "junifund1",
-        "pnl": 17965.32,
-        "win_rate": 0.8683,
-        "volume": 47116.44,
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 60615.21,
+        "win_rate": 0.7941,
+        "volume": 800852.38,
         "categories": [
           "sports",
-          "crypto",
-          "politics"
+          "crypto"
         ]
       }
     ],
@@ -1328,8 +1322,8 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 93486.82,
-        "win_rate": 0.791,
+        "pnl": 60615.21,
+        "win_rate": 0.7941,
         "volume": 800852.38,
         "categories": [
           "sports",
@@ -1339,7 +1333,7 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 85320.79,
+        "pnl": 78131.82,
         "win_rate": 0.8769,
         "volume": 934114.31,
         "categories": [
@@ -1349,9 +1343,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 36327.89,
-        "win_rate": 0.4383,
-        "volume": 676781.36,
+        "pnl": 36567.94,
+        "win_rate": 0.4401,
+        "volume": 689826.52,
         "categories": [
           "sports",
           "politics",
@@ -1359,77 +1353,75 @@
         ]
       },
       {
-        "wallet": "0x9e3ed7b661",
-        "username": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-        "pnl": 64204.02,
-        "win_rate": 0.48,
-        "volume": 1101680.08,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 77476.44,
+        "win_rate": 0.9062,
+        "volume": 313336.37,
         "categories": [
-          "crypto",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x07046535ff",
-        "username": "HH168",
-        "pnl": 12907.86,
-        "win_rate": 0.6019,
-        "volume": 140776.44,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
+          "crypto"
         ]
       },
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 51977.7,
-        "win_rate": 0.509,
-        "volume": 1842803.24,
+        "pnl": 56571.53,
+        "win_rate": 0.504,
+        "volume": 2189963.52,
         "categories": [
           "crypto",
           "sports",
-          "politics"
+          "economy"
         ]
       },
       {
         "wallet": "0x060f34e5aa",
         "username": "alexfire97",
-        "pnl": 45737.81,
-        "win_rate": 0.8442,
-        "volume": 293420.4,
+        "pnl": 40137.02,
+        "win_rate": 0.8481,
+        "volume": 382921.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0d2d845a6f",
-        "username": "38791873984189",
-        "pnl": 13646.23,
-        "win_rate": 0.59,
-        "volume": 591082.25,
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 19444.39,
+        "win_rate": 0.9496,
+        "volume": 296409.75,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 49304.9,
-        "win_rate": 0.9062,
-        "volume": 178190.83,
+        "wallet": "0x9e3ed7b661",
+        "username": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
+        "pnl": 64644.32,
+        "win_rate": 0.492,
+        "volume": 1216987.47,
         "categories": [
-          "crypto"
+          "crypto",
+          "sports"
         ]
       },
       {
         "wallet": "0x3af1ed6ea3",
         "username": "needheal",
-        "pnl": 34276.31,
-        "win_rate": 0.5111,
-        "volume": 164820.86,
+        "pnl": 27931.89,
+        "win_rate": 0.5124,
+        "volume": 183591.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcf609d3256",
+        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
+        "pnl": 15645.56,
+        "win_rate": 0.831,
+        "volume": 175499.94,
         "categories": [
           "sports"
         ]
@@ -1438,113 +1430,21 @@
   },
   "news": [
     {
-      "title": "Liquidia ( NASDAQ : LQDA ) Insider Rajeev Saggar Sells 9 , 926 Shares",
-      "url": "https://www.dailypolitical.com/2026/07/15/liquidia-nasdaqlqda-insider-rajeev-saggar-sells-9926-shares.html",
-      "ticker": "LQDA",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Archer Investment Corp Makes New Investment in Liquidia Corporation $LQDA",
-      "url": "https://www.themarketsdaily.com/2026/07/15/archer-investment-corp-makes-new-investment-in-liquidia-corporation-lqda.html",
-      "ticker": "LQDA",
+      "title": "XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? ",
+      "url": "https://www.tickerreport.com/banking-finance/13502709/xoma-royalty-nasdaqxoma-sees-strong-trading-volume-still-a-buy.html",
+      "ticker": "XOMA",
       "themes": [],
-      "date": "2026-07-15"
+      "date": "2026-07-13"
     },
     {
-      "title": "Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/14/liquidia-nasdaqlqda-trading-up-8-should-you-buy.html",
-      "ticker": "LQDA",
+      "title": "XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? ",
+      "url": "https://www.dailypolitical.com/2026/07/13/xoma-royalty-nasdaqxoma-sees-strong-trading-volume-still-a-buy.html",
+      "ticker": "XOMA",
       "themes": [],
-      "date": "2026-07-14"
-    },
-    {
-      "title": "Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rubrik-rbrk-stock-could-pricey-043235991.html",
-      "ticker": "RBRK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-14"
-    },
-    {
-      "title": "Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory",
-      "url": "https://www.timescall.com/2026/07/12/ross-steelman-blue-championship-korn-ferry/",
-      "ticker": "KFY",
-      "themes": [
-        "ai"
-      ],
       "date": "2026-07-13"
-    },
-    {
-      "title": "Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily",
-      "url": "https://www.investors.com:443/stock-lists/ipo-analysis/rubrik-stock-rbrk/",
-      "ticker": "RBRK",
-      "themes": [
-        "earnings",
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory",
-      "url": "https://www.reporterherald.com/2026/07/12/ross-steelman-blue-championship-korn-ferry/",
-      "ticker": "KFY",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management",
-      "url": "https://www.indiablooms.com/finance/cybersecurity-giant-rubrik-bets-big-on-uk-with-500-million-investment/details",
-      "ticker": "RBRK",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-07-12"
-    },
-    {
-      "title": "Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why",
-      "url": "https://www.insidermonkey.com/blog/rubrik-rbrk-is-one-of-the-best-up-and-coming-stocks-to-invest-in-right-now-heres-why-1800251/",
-      "ticker": "RBRK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-12"
-    },
-    {
-      "title": "Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rubrik-rbrk-one-best-coming-132543301.html",
-      "ticker": "RBRK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-12"
-    },
-    {
-      "title": "Insider Selling : Liquidia ( NASDAQ : LQDA ) Director Sells $2 , 004 , 250 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/08/insider-selling-liquidia-nasdaqlqda-director-sells-2004250-00-in-stock.html",
-      "ticker": "LQDA",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-08"
-    },
-    {
-      "title": "Hedge Fund and Insider Trading News : Ray Dalio , Paul Marshall , Warren Buffett , Jain Global , Brevan Howard , Lone Pine Capital , Liquidia Corp ( LQDA ), Arista Networks Inc ( ANET ), and More",
-      "url": "https://www.insidermonkey.com/blog/hedge-fund-and-insider-trading-news-ray-dalio-paul-marshall-warren-buffett-jain-global-brevan-howard-lone-pine-capital-liquidia-corp-lqda-arista-networks-inc-anet-and-more-1797469/",
-      "ticker": "LQDA",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-07"
     }
   ],
-  "signals_count": 1457,
+  "signals_count": 1401,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
