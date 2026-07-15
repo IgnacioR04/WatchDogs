@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-15T12:06:24+00:00 -->
+<!-- trader_prompt.md generado 2026-07-15T14:25:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T12:06:24+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T14:25:27+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,9 +238,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.33)
-- Tendencia: `bull` (SPY 749.17 · MA50 740.69 · MA200 691.55 · dist MA200: 8.33%)
-- Credito: `tight` (HY spread 2.69)
+- Volatilidad: `normal` (VIX 15.99)
+- Tendencia: `bull` (SPY 753.36 · MA50 741.43 · MA200 692.04 · dist MA200: 8.86%)
+- Credito: `tight` (HY spread 2.72)
 - Tipos: `flat` (curva 10y-2y 0.4)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -251,31 +251,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 749.17 | -0.77% | -0.28% | 1.81% |
-| QQQ | 12.0% | core | 711.74 | -1.9% | -1.53% | -0.64% |
-| TLT | 12.0% | core | 83.97 | -0.59% | -1.73% | -1.98% |
-| GLD | 9.3% | core | 367.13 | -2.62% | -3.93% | -4.97% |
-| BEP | 7.5% | satellite | 31.86 | -1.45% | -5.71% | -9.95% |
-| IEF | 6.2% | core | 93.29 | -0.36% | -0.94% | -0.79% |
-| NMM | 5.5% | satellite | 75.41 | -0.45% | 0.75% | 2.74% |
-| NVRI | 4.7% | satellite | 22.92 | -1.55% | -0.78% | 8.47% |
-| SHOE | 4.6% | satellite | 15.38 | 0.13% | 4.27% | -10.76% |
-| ETSY | 4.4% | satellite | 83.06 | 3.14% | 7.05% | 19.55% |
-| NTSK | 2.7% | satellite | 14.27 | 11.48% | 18.42% | 57.85% |
-| INTC | 2.3% | satellite | 103.12 | -6.12% | -15.61% | -11.83% |
-| ARTV | 1.7% | satellite | 9.35 | 4.7% | -1.37% | 9.48% |
+| SPY | 12.0% | core | 753.36 | 0.56% | 0.76% | 1.83% |
+| QQQ | 12.0% | core | 716.57 | 0.68% | 1.01% | -0.55% |
+| TLT | 12.0% | core | 84.22 | 0.3% | -0.39% | -1.44% |
+| GLD | 9.3% | core | 372.14 | 1.36% | -1.42% | -3.73% |
+| BEP | 6.7% | satellite | 32.5 | 2.01% | -1.31% | -5.3% |
+| IEF | 6.2% | core | 93.71 | 0.44% | 0.01% | -0.18% |
+| NMM | 4.9% | satellite | 74.05 | -1.8% | -1.5% | -1.65% |
+| NVRI | 4.2% | satellite | 22.88 | -0.17% | 1.55% | 7.17% |
+| SHOE | 4.1% | satellite | 14.63 | -4.88% | -3.11% | -14.81% |
+| ETSY | 4.0% | satellite | 86.07 | 3.62% | 11.49% | 19.23% |
+| RYAM | 3.5% | satellite | 7.78 | 7.61% | 7.61% | -14.32% |
+| NTSK | 2.4% | satellite | 14.62 | 2.45% | 22.65% | 65.95% |
+| INTC | 2.1% | satellite | 103.01 | -0.11% | -6.69% | -17.31% |
+| ARTV | 1.5% | satellite | 9.43 | 0.86% | 1.29% | 2.72% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.6%
+- Volatilidad anualizada: 13.7%
 - VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -5.7%
-- Beta vs SPY: 0.809 · posiciones efectivas: 13.8 · HHI: 0.0723
+- Max drawdown historico: -5.6%
+- Beta vs SPY: 0.822 · posiciones efectivas: 14.2 · HHI: 0.0702
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NTSK** · score agregado 321.8 · 4 señales · fuentes: corporate_insider
 - **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
+- **RYAM** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **NVRI** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **SHOE** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **ARTV** · score agregado 116.5 · 2 señales · fuentes: corporate_insider
@@ -298,12 +300,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | ETSY | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
+| HOFT | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
+| GLOB | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
+| SCSC | 70 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
 | XAIR | 70 | large_holder | Lin Yi-Chien |  | - | - |
 | AIBZ | 70 | large_holder | Bakhashwain Mohammed |  | - | - |
-| VYNE | 70 | large_holder | Zhang Xiaofan |  | - | - |
-| RNTX | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
-| GENI | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
-| FIVN | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -325,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 749.17 (-0.77% / -0.28% / 1.81%) [2026-07-13]
-- QQQ: 711.74 (-1.9% / -1.53% / -0.64%) [2026-07-13]
-- IWM: 293.48 (-0.85% / -1.81% / 1.3%) [2026-07-13]
-- DIA: 524.47 (-0.25% / -1.06% / 3.25%) [2026-07-13]
-- TLT: 83.97 (-0.59% / -1.73% / -1.98%) [2026-07-13]
-- IEF: 93.29 (-0.36% / -0.94% / -0.79%) [2026-07-13]
-- GLD: 367.13 (-2.62% / -3.93% / -4.97%) [2026-07-13]
-- ^VIX: 16.33 (-4.84% / 1.24% / -7.64%) [2026-07-15]
-- BTC-USD: 64600.0 (-0.55% / 0.74% / 8.17%) [2026-07-15]
+- SPY: 753.36 (0.56% / 0.76% / 1.83%) [2026-07-15]
+- QQQ: 716.57 (0.68% / 1.01% / -0.55%) [2026-07-15]
+- IWM: 295.6 (0.72% / -0.2% / 1.14%) [2026-07-15]
+- DIA: 526.49 (0.39% / -0.37% / 2.9%) [2026-07-15]
+- TLT: 84.22 (0.3% / -0.39% / -1.44%) [2026-07-15]
+- IEF: 93.71 (0.44% / 0.01% / -0.18%) [2026-07-15]
+- GLD: 372.14 (1.36% / -1.42% / -3.73%) [2026-07-15]
+- ^VIX: 15.99 (-6.82% / -0.87% / -9.56%) [2026-07-15]
+- BTC-USD: 65158.97 (0.31% / 1.61% / 9.1%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -341,14 +343,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.62 (delta 1m: 0.07) [2026-07-13]
 - Curva 10Y-2Y: 0.4 (delta 1m: 0.0) [2026-07-14]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.69 (delta 1m: -0.02) [2026-07-13]
+- High yield spread (OAS): 2.72 (delta 1m: 0.06) [2026-07-14]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.25 (delta 1m: -0.04) [2026-07-14]
 - Dolar broad index: 120.5046 (delta 1m: 0.543) [2026-07-10]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), earnings (1), regulatory (1)
+**Temas dominantes**: stock (6), ai (4), earnings (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -356,9 +358,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [LQDA] Archer Investment Corp Makes New Investment in Liquidia Corporation $LQDA (2026-07-15)
 - [LQDA] Liquidia ( NASDAQ : LQDA ) Trading Up 8 % – Should You Buy ? (2026-07-14)
 - [RBRK] Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion (2026-07-14)
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
-- [XOMA] XOMA Royalty ( NASDAQ : XOMA ) Sees Strong Trading Volume – Still a Buy ? (2026-07-13)
+- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
 - [RBRK] Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily (2026-07-13)
+- [KFY] Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory (2026-07-13)
 - [RBRK] Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management (2026-07-12)
 - [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
 - [RBRK] Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why (2026-07-12)
@@ -376,11 +378,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $58,603 · win rate 88% · categorias: sports
-- JnStTrdrBnusFnd · PnL $35,752 · win rate 91% · categorias: crypto
-- thoodr · PnL $8,502 · win rate 99% · categorias: politics, sports, economy
-- esportGG · PnL $12,014 · win rate 94% · categorias: sports
-- fgdfhr666 · PnL $12,984 · win rate 92% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $85,321 · win rate 88% · categorias: sports
+- JnStTrdrBnusFnd · PnL $49,305 · win rate 91% · categorias: crypto
+- CORGI8 · PnL $48,011 · win rate 91% · categorias: sports
+- epend · PnL $38,863 · win rate 91% · categorias: sports
+- esportGG · PnL $15,322 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,8 +390,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 63 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 545 registros 30d · ultimo dato 2026-07-15
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-14
+- **sec_insiders**: `ok` · 542 registros 30d · ultimo dato 2026-07-15
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -401,7 +403,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, SHOE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ARTV, BEP, ETSY, GLD, IEF, INTC, NMM, NTSK, NVRI, QQQ, RYAM, SHOE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
