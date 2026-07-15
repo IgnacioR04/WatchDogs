@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T22:30:37+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-15T23:30:59+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
 - ^VIX: 15.67 (-5.03% / -7.28% / -3.27%) [2026-07-15]
-- BTC-USD: 64851.02 (-0.16% / 1.13% / 8.59%) [2026-07-15]
+- BTC-USD: 64804.27 (-0.23% / 1.06% / 8.51%) [2026-07-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,38 +121,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), ai (4), merger (3), earnings (2), leadership (1)
+**Temas dominantes**: merger (2), stock (2), earnings (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MA] Realtor Allison Ziefert Presents a Mid - Year Market Check : What Really Happening in the Maplewood & South Orange Real Estate Market ? (2026-07-15)
-- [MA] Shell ( NYSE : SHEL ) Stock Price Crosses Above Two Hundred Day Moving Average – Time to Sell ? (2026-07-15)
-- [MA] Thomas Tuchel and England timid retreat as Argentina show true greatness (2026-07-15)
-- [KBH] Zacks Research Issues Positive Forecast for KB Home Earnings (2026-07-15)
-- [TSEM] Tower Semiconductor announces $3bn manufacturing expansion in Japan (2026-07-15)
-- [TSEM] Katamaran Capital LLP Reduces Position in Tower Semiconductor Ltd . $TSEM (2026-07-15)
-- [TSEM] Japan to Provide Up to 159 Billion Yen in Subsidies to Tower Semiconductor (2026-07-15)
 - [DDOG] Harel Insurance Investments & Financial Services Ltd . Acquires 278 , 647 Shares of Datadog , Inc . $DDOG (2026-07-15)
-- [TSEM] Tower Semiconductor to invest $3 bn in Japan , backed by government grants , for capacity expansion (2026-07-15)
 - [DDOG] DigitalOcean vs . Datadog : What the Revenue Trends of These Tech Companies Reveal for Investors (2026-07-15)
+- [DDOG] Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky (2026-07-14)
+- [WSR] Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan (2026-07-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Kang Andrew Kai compro BOT por $10.0M el 2026-07-14.
+- CEO Porter James Richard opero NUVL por $25.2M el 2026-07-15.
 - CEO Zaslav David vendio WBD por $56.9M el 2026-07-13.
 - CEO Holeman David K vendio WSR por $22.1M el 2026-07-14.
 - CEO Ullal Jayshree vendio ANET por $30.1M el 2026-07-10.
 - CEO Mastandrea Christine J vendio WSR por $13.7M el 2026-07-14.
 - CEO McLaughlin Edward Grunde opero MA por $4.5M el 2026-07-15 [senal en multiples fuentes].
 - CEO Pomel Olivier vendio DDOG por $10.8M el 2026-07-13.
-- 10% owner Gebbia Joseph vendio ABNB por $31.9M el 2026-07-13.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CandleHammerDrums · PnL $394,034 · win rate 96% · categorias: sports
-- Allezpapa · PnL $184,510 · win rate 99% · categorias: sports
+- CandleHammerDrums · PnL $393,834 · win rate 96% · categorias: sports
+- Allezpapa · PnL $183,396 · win rate 99% · categorias: sports
 - 111111111115 · PnL $99,983 · win rate 98% · categorias: sports
-- cnyek · PnL $294,349 · win rate 95% · categorias: sports
+- cnyek · PnL $294,917 · win rate 95% · categorias: sports
 - Jokerxing7 · PnL $274,630 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -161,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 565 registros 30d · ultimo dato 2026-07-15
+- **sec_insiders**: `ok` · 616 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
