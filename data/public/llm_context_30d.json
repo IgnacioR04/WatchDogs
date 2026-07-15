@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-14T23:28:39.527246+00:00",
+  "generated_at": "2026-07-15T00:20:52.485805+00:00",
   "window": {
-    "from": "2026-06-14",
-    "to": "2026-07-14",
+    "from": "2026-06-15",
+    "to": "2026-07-15",
     "days": 30
   },
   "data_quality": {
@@ -24,10 +24,10 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai",
       "regulatory",
       "leadership",
-      "earnings"
+      "earnings",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -444,6 +444,14 @@
         ]
       },
       {
+        "ticker": "PHUN",
+        "company": "Phunware, Inc.",
+        "pressure_score": 210.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "ABT",
         "company": "Abbott Laboratories Common Stock",
         "pressure_score": 174.3,
@@ -500,14 +508,6 @@
         ]
       },
       {
-        "ticker": "PHUN",
-        "company": "Phunware, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "BNKK",
         "company": "BONK, INC.",
         "pressure_score": 133.8,
@@ -532,6 +532,22 @@
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "QCOM",
+        "company": "QUALCOMM INC/DE",
+        "pressure_score": 759.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LQDA",
+        "company": "Liquidia Corp",
+        "pressure_score": 700.2,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -567,9 +583,9 @@
         ]
       },
       {
-        "ticker": "BLLN",
-        "company": "BillionToOne, Inc.",
-        "pressure_score": 295.2,
+        "ticker": "TKO",
+        "company": "TKO Group Holdings, Inc.",
+        "pressure_score": 420.4,
         "sources": [
           "corporate_insider"
         ]
@@ -599,6 +615,14 @@
         ]
       },
       {
+        "ticker": "BUKS",
+        "company": "BUTLER NATIONAL CORP",
+        "pressure_score": 206.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "JOBY",
         "company": "Joby Aviation, Inc.",
         "pressure_score": 204.1,
@@ -611,31 +635,6 @@
         "company": "4D Molecular Therapeutics, Inc.",
         "pressure_score": 199.3,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SOPH",
-        "company": "SOPHiA GENETICS SA",
-        "pressure_score": 197.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BNED",
-        "company": "Barnes & Noble Education, Inc.",
-        "pressure_score": 195.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ADI",
-        "company": "Analog Devices, Inc.",
-        "pressure_score": 191.4,
-        "sources": [
-          "congress",
           "corporate_insider"
         ]
       }
@@ -733,15 +732,6 @@
       "score": 70.8
     },
     {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 76680.0,
-      "date": "2026-07-13",
-      "score": 70.5
-    },
-    {
       "ticker": "BUKS",
       "company": "BUTLER NATIONAL CORP",
       "actor": "Daly Joseph Patrick",
@@ -774,6 +764,15 @@
       "actor": "Rudy Mitchell Austin",
       "actor_type": "ten_percent_owner",
       "amount": 10890.0,
+      "date": "2026-07-13",
+      "score": 70.0
+    },
+    {
+      "ticker": "BUKS",
+      "company": "BUTLER NATIONAL CORP",
+      "actor": "Daly Joseph Patrick",
+      "actor_type": "ten_percent_owner",
+      "amount": 10925.0,
       "date": "2026-07-13",
       "score": 70.0
     }
@@ -1224,7 +1223,7 @@
       {
         "wallet": "0xe549581668",
         "username": "Allezpapa",
-        "pnl": 395818.92,
+        "pnl": 396878.73,
         "win_rate": 0.9873,
         "volume": 793890.98,
         "categories": [
@@ -1254,7 +1253,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 974826.91,
+        "pnl": 970640.45,
         "win_rate": 0.8616,
         "volume": 3460049.04,
         "categories": [
@@ -1284,7 +1283,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 873702.1,
+        "pnl": 873019.98,
         "win_rate": 0.803,
         "volume": 3104717.45,
         "categories": [
@@ -1305,7 +1304,7 @@
       {
         "wallet": "0x65018f9fc4",
         "username": "cnyek",
-        "pnl": 141763.33,
+        "pnl": 142523.75,
         "win_rate": 0.9524,
         "volume": 604891.65,
         "categories": [
@@ -1337,9 +1336,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 202238.07,
-        "win_rate": 0.746,
-        "volume": 20864990.64,
+        "pnl": 203531.16,
+        "win_rate": 0.744,
+        "volume": 20928343.39,
         "categories": [
           "sports",
           "politics",
@@ -1349,9 +1348,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 1561362.56,
+        "pnl": 1563096.03,
         "win_rate": 0.596,
-        "volume": 19736928.93,
+        "volume": 19785610.96,
         "categories": [
           "sports"
         ]
@@ -1359,7 +1358,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 974826.91,
+        "pnl": 970640.45,
         "win_rate": 0.8616,
         "volume": 3460049.04,
         "categories": [
@@ -1369,7 +1368,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 873702.1,
+        "pnl": 873019.98,
         "win_rate": 0.803,
         "volume": 3104717.45,
         "categories": [
@@ -1380,9 +1379,9 @@
       {
         "wallet": "0x476e1322d1",
         "username": "asparagus2012",
-        "pnl": 1908154.42,
+        "pnl": 1908132.47,
         "win_rate": 0.6667,
-        "volume": 1860340.68,
+        "volume": 1860583.67,
         "categories": [
           "sports"
         ]
@@ -1390,9 +1389,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 2028581.45,
+        "pnl": 2034221.34,
         "win_rate": 0.639,
-        "volume": 3669765.94,
+        "volume": 3727353.94,
         "categories": [
           "sports"
         ]
@@ -1410,9 +1409,9 @@
       {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 211590.75,
+        "pnl": 206119.63,
         "win_rate": 0.59,
-        "volume": 1303018.68,
+        "volume": 1305928.95,
         "categories": [
           "sports",
           "crypto",
@@ -1452,15 +1451,6 @@
       "date": "2026-07-13"
     },
     {
-      "title": "Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory",
-      "url": "https://www.timescall.com/2026/07/12/ross-steelman-blue-championship-korn-ferry/",
-      "ticker": "KFY",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-13"
-    },
-    {
       "title": "Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily",
       "url": "https://www.investors.com:443/stock-lists/ipo-analysis/rubrik-stock-rbrk/",
       "ticker": "RBRK",
@@ -1468,15 +1458,6 @@
         "earnings",
         "ai",
         "stock"
-      ],
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Ross Steelman claims first Korn Ferry Tour title with Blue Championship victory",
-      "url": "https://www.reporterherald.com/2026/07/12/ross-steelman-blue-championship-korn-ferry/",
-      "ticker": "KFY",
-      "themes": [
-        "ai"
       ],
       "date": "2026-07-13"
     },
@@ -1518,7 +1499,7 @@
       "date": "2026-07-11"
     }
   ],
-  "signals_count": 1414,
+  "signals_count": 1448,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
