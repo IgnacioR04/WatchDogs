@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-15T17:55:23.980839+00:00",
+  "generated_at": "2026-07-15T19:52:55.021828+00:00",
   "window": {
     "from": "2026-06-15",
     "to": "2026-07-15",
@@ -23,7 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "ai"
+      "ai",
+      "stock",
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -211,6 +214,24 @@
     {
       "id": "move_11",
       "rank": 11,
+      "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
+      "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12747592358,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -227,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -245,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -263,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -281,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
       "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
       "source": "sec_13f",
@@ -299,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
       "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
       "source": "sec_13f",
@@ -317,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($11.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro MICRON TECHNOLOGY INC por $11.5B.",
       "source": "sec_13f",
@@ -335,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro VANGUARD INDEX FDS ($11.4B)",
       "summary": "Institutional manager Vanguard Group Inc compro VANGUARD INDEX FDS por $11.4B.",
       "source": "sec_13f",
@@ -353,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio APPLE INC ($11.4B)",
       "summary": "Institutional manager State Street Corp vendio APPLE INC por $11.4B.",
       "source": "sec_13f",
@@ -364,24 +385,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 11350575259,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager vendio AUTOMATIC DATA PROCESSING IN ($11.1B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio AUTOMATIC DATA PROCESSING IN por $11.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 11057821179,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -404,6 +407,14 @@
         "ticker": "BUKS",
         "company": "BUTLER NATIONAL CORP",
         "pressure_score": 421.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ENR",
+        "company": "ENERGIZER HOLDINGS, INC.",
+        "pressure_score": 386.5,
         "sources": [
           "corporate_insider"
         ]
@@ -503,14 +514,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "AMPY",
-        "company": "Amplify Energy Corp.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -588,6 +591,30 @@
         ]
       },
       {
+        "ticker": "JOBY",
+        "company": "Joby Aviation, Inc.",
+        "pressure_score": 204.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FDMT",
+        "company": "4D Molecular Therapeutics, Inc.",
+        "pressure_score": 199.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SOPH",
+        "company": "SOPHiA GENETICS SA",
+        "pressure_score": 197.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BNED",
         "company": "Barnes & Noble Education, Inc.",
         "pressure_score": 195.9,
@@ -610,30 +637,6 @@
         "pressure_score": 181.8,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "UNH",
-        "company": "Common Stock",
-        "pressure_score": 172.1,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "LYV",
-        "company": "Common Stock",
-        "pressure_score": 169.9,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "ALHC",
-        "company": "Alignment Healthcare, Inc.",
-        "pressure_score": 155.3,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ]
@@ -674,6 +677,51 @@
       "amount": 804546.5,
       "date": "2026-07-13",
       "score": 79.4
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 408330.0,
+      "date": "2026-07-14",
+      "score": 77.9
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 402522.0,
+      "date": "2026-07-14",
+      "score": 77.9
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 401344.0,
+      "date": "2026-07-14",
+      "score": 77.9
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 403646.0,
+      "date": "2026-07-13",
+      "score": 76.4
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 404990.0,
+      "date": "2026-07-13",
+      "score": 76.4
     },
     {
       "ticker": "NMM",
@@ -721,58 +769,13 @@
       "score": 73.7
     },
     {
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 103758.39,
+      "ticker": "ECAT",
+      "company": "BlackRock ESG Capital Allocation Term Trust",
+      "actor": "Rieder Richard M",
+      "actor_type": "insider",
+      "amount": 566648.33,
       "date": "2026-07-13",
       "score": 73.4
-    },
-    {
-      "ticker": "NMM",
-      "company": "Navios Maritime Partners L.P.",
-      "actor": "Frangou Angeliki",
-      "actor_type": "ten_percent_owner",
-      "amount": 85086.07,
-      "date": "2026-07-10",
-      "score": 73.0
-    },
-    {
-      "ticker": "RDGL",
-      "company": "VIVOS INC",
-      "actor": "Korenko Michael K",
-      "actor_type": "ceo",
-      "amount": 11420.0,
-      "date": "2026-07-15",
-      "score": 72.6
-    },
-    {
-      "ticker": "BUKS",
-      "company": "BUTLER NATIONAL CORP",
-      "actor": "Daly Joseph Patrick",
-      "actor_type": "ten_percent_owner",
-      "amount": 33375.0,
-      "date": "2026-07-13",
-      "score": 72.5
-    },
-    {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 13173.5,
-      "date": "2026-07-14",
-      "score": 71.7
-    },
-    {
-      "ticker": "DLHC",
-      "company": "DLH Holdings Corp.",
-      "actor": "Mink Brook Asset Management LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 22443.09,
-      "date": "2026-07-13",
-      "score": 71.6
     }
   ],
   "institutional_changes": [
@@ -837,6 +840,15 @@
       "direction": "increased",
       "change_usd": 13135619419,
       "change_pct": 4.9505,
+      "quarter": "2026Q1"
+    },
+    {
+      "manager": "Invesco Ltd",
+      "asset": "WALMART INC WMT",
+      "ticker": "",
+      "direction": "new",
+      "change_usd": 12747592358,
+      "change_pct": null,
       "quarter": "2026Q1"
     },
     {
@@ -945,15 +957,6 @@
       "direction": "decreased",
       "change_usd": -9316318842,
       "change_pct": -0.1554,
-      "quarter": "2026Q1"
-    },
-    {
-      "manager": "State Street Corp",
-      "asset": "TESLA INC",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -9009127766,
-      "change_pct": -0.1744,
       "quarter": "2026Q1"
     }
   ],
@@ -1219,11 +1222,21 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 204568.05,
+        "win_rate": 0.9783,
+        "volume": 904332.86,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 145432.18,
-        "win_rate": 0.8788,
-        "volume": 1518283.79,
+        "pnl": 126171.34,
+        "win_rate": 0.8806,
+        "volume": 1985347.57,
         "categories": [
           "sports"
         ]
@@ -1231,9 +1244,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 78959.06,
+        "pnl": 83155.25,
         "win_rate": 0.9062,
-        "volume": 349825.78,
+        "volume": 393710.66,
         "categories": [
           "crypto"
         ]
@@ -1241,29 +1254,9 @@
       {
         "wallet": "0xf3ce7f04dd",
         "username": "",
-        "pnl": 16985.29,
-        "win_rate": 0.9536,
+        "pnl": 25742.24,
+        "win_rate": 0.9537,
         "volume": 72116.99,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9eca63b0ed",
-        "username": "epend",
-        "pnl": 31306.56,
-        "win_rate": 0.9117,
-        "volume": 143627.74,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x060f34e5aa",
-        "username": "alexfire97",
-        "pnl": 71454.35,
-        "win_rate": 0.8537,
-        "volume": 652431.74,
         "categories": [
           "sports"
         ]
@@ -1271,8 +1264,8 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 17967.88,
-        "win_rate": 0.9429,
+        "pnl": 26634.43,
+        "win_rate": 0.9437,
         "volume": 116606.78,
         "categories": [
           "sports"
@@ -1281,9 +1274,19 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 28858.07,
+        "pnl": 45410.68,
         "win_rate": 0.901,
-        "volume": 240283.94,
+        "volume": 248103.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x060f34e5aa",
+        "username": "alexfire97",
+        "pnl": 74890.78,
+        "win_rate": 0.8372,
+        "volume": 1018419.73,
         "categories": [
           "sports"
         ]
@@ -1291,30 +1294,29 @@
       {
         "wallet": "0xf0b6a8ebfa",
         "username": "retordedgremlin125",
-        "pnl": 19177.3,
-        "win_rate": 0.9231,
+        "pnl": 19481.91,
+        "win_rate": 0.9241,
         "volume": 147926.63,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 60625.45,
-        "win_rate": 0.8088,
-        "volume": 800852.38,
+        "wallet": "0x9eca63b0ed",
+        "username": "epend",
+        "pnl": 18607.65,
+        "win_rate": 0.912,
+        "volume": 152600.32,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x87da2f16cf",
         "username": "GeorgeRe",
-        "pnl": 23278.19,
-        "win_rate": 0.831,
-        "volume": 260817.02,
+        "pnl": 29281.19,
+        "win_rate": 0.832,
+        "volume": 286202.0,
         "categories": [
           "sports",
           "crypto"
@@ -1325,30 +1327,29 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 145432.18,
-        "win_rate": 0.8788,
-        "volume": 1518283.79,
+        "pnl": 126171.34,
+        "win_rate": 0.8806,
+        "volume": 1985347.57,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 60625.45,
-        "win_rate": 0.8088,
-        "volume": 800852.38,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 204568.05,
+        "win_rate": 0.9783,
+        "volume": 904332.86,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 36111.53,
-        "win_rate": 0.437,
-        "volume": 725606.32,
+        "pnl": 35745.48,
+        "win_rate": 0.4356,
+        "volume": 747163.8,
         "categories": [
           "sports",
           "politics",
@@ -1358,19 +1359,9 @@
       {
         "wallet": "0x060f34e5aa",
         "username": "alexfire97",
-        "pnl": 71454.35,
-        "win_rate": 0.8537,
-        "volume": 652431.74,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3af1ed6ea3",
-        "username": "needheal",
-        "pnl": 56419.77,
-        "win_rate": 0.513,
-        "volume": 438672.03,
+        "pnl": 74890.78,
+        "win_rate": 0.8372,
+        "volume": 1018419.73,
         "categories": [
           "sports"
         ]
@@ -1378,9 +1369,9 @@
       {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 53669.47,
-        "win_rate": 0.49,
-        "volume": 2734369.17,
+        "pnl": 53734.19,
+        "win_rate": 0.478,
+        "volume": 3705266.01,
         "categories": [
           "crypto",
           "sports",
@@ -1388,42 +1379,50 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 78959.06,
-        "win_rate": 0.9062,
-        "volume": 349825.78,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 16298.96,
-        "win_rate": 0.548,
-        "volume": 738508.94,
+        "wallet": "0x3af1ed6ea3",
+        "username": "needheal",
+        "pnl": 55656.99,
+        "win_rate": 0.5142,
+        "volume": 438672.03,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 83155.25,
+        "win_rate": 0.9062,
+        "volume": 393710.66,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x9e3ed7b661",
         "username": "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882-1783406009396",
-        "pnl": 63907.33,
+        "pnl": 65928.48,
         "win_rate": 0.484,
-        "volume": 1900397.83,
+        "volume": 2526348.51,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
+        "wallet": "0x8042d175fa",
+        "username": "Neonbruv",
+        "pnl": 30278.29,
+        "win_rate": 0.0,
+        "volume": 4137198.99,
+        "categories": []
+      },
+      {
         "wallet": "0xf68a281980",
         "username": "WHYWHYWHYWHYWHYWHY",
-        "pnl": 76116.47,
-        "win_rate": 0.542,
-        "volume": 360514.82,
+        "pnl": 94818.38,
+        "win_rate": 0.547,
+        "volume": 554327.7,
         "categories": [
           "sports"
         ]
@@ -1466,9 +1465,72 @@
         "ai"
       ],
       "date": "2026-07-15"
+    },
+    {
+      "title": "Rubrik ( RBRK ) Stock Could Be Pricey Despite $500 Million united kingdom Expansion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rubrik-rbrk-stock-could-pricey-043235991.html",
+      "ticker": "RBRK",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Rubrik Stock Flirts With Buy Point Amid Path To Profitability | Investor Business Daily",
+      "url": "https://www.investors.com:443/stock-lists/ipo-analysis/rubrik-stock-rbrk/",
+      "ticker": "RBRK",
+      "themes": [
+        "earnings",
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Cybersecurity giant Rubrik bets big on united kingdom with $500 million investment | Indiablooms - First Portal on Digital News Management",
+      "url": "https://www.indiablooms.com/finance/cybersecurity-giant-rubrik-bets-big-on-uk-with-500-million-investment/details",
+      "ticker": "RBRK",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-07-12"
+    },
+    {
+      "title": "Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why",
+      "url": "https://www.insidermonkey.com/blog/rubrik-rbrk-is-one-of-the-best-up-and-coming-stocks-to-invest-in-right-now-heres-why-1800251/",
+      "ticker": "RBRK",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-12"
+    },
+    {
+      "title": "Rubrik ( RBRK ) is One of the Best Up and Coming Stocks to Invest In Right Now , Here Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rubrik-rbrk-one-best-coming-132543301.html",
+      "ticker": "RBRK",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-12"
+    },
+    {
+      "title": "Constellation Brands : Beer Growth and Buybacks Mask Stock Slump",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-brands-beer-growth-buybacks-153500462.html",
+      "ticker": "STZ",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Jim Cramer on Constellation Brands :  I Think It a Steal Down Here  ",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-on-constellation-brands-i-think-its-a-steal-down-here-1798572/",
+      "ticker": "STZ",
+      "themes": [],
+      "date": "2026-07-09"
     }
   ],
-  "signals_count": 1378,
+  "signals_count": 1415,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
