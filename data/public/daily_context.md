@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T09:43:38+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-16T12:12:51+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.85)
+- Volatilidad: `normal` (VIX 16.22)
 - Tendencia: `bull` (SPY 754.81 · MA50 742.11 · MA200 692.54 · dist MA200: 8.99%)
 - Credito: `tight` (HY spread 2.72)
 - Tipos: `flat` (curva 10y-2y 0.42)
@@ -64,15 +64,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | FULC | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
 | LUNR | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
-| EEX | 72 | large_holder | Onex Corporation |  | - | - |
 | FIVN | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | PB | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | AOSL | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | BOT | 70 | corporate_insider | Kang Andrew Kai | 0 | $9,999,988 | - |
+| IMUX | 70 | large_holder | Aberdeen Group plc |  | - | - |
+| WEST | 70 | large_holder | The Stephens Group, LLC |  | - | - |
 | RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
-| ATPC | 70 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.24 (0.19% / -0.14% / -1.36%) [2026-07-15]
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
-- ^VIX: 15.85 (1.15% / 0.06% / -3.41%) [2026-07-16]
-- BTC-USD: 64043.11 (-1.03% / 0.38% / 6.71%) [2026-07-16]
+- ^VIX: 16.22 (3.51% / 2.4% / -1.16%) [2026-07-16]
+- BTC-USD: 64134.68 (-0.89% / 0.52% / 6.86%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +117,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), stock (3), merger (3), leadership (2), regulatory (1), earnings (1)
+**Temas dominantes**: ai (2), stock (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MA] Lee orders measures over chip - tied leveraged ETFs amid market volatility (2026-07-16)
-- [MA] OpenAI first hardware is Codex Micro , a keyboard for managing AI agents (2026-07-16)
 - [CRWV] CoreWeave Has Fallen 49 % From Its 52 - Week High . Is the Beaten - Down AI Stock a Bargain or a Value Trap ? (2026-07-16)
 - [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
 - [CRWD] UBS Raises its Price Target on CrowdStrike Holdings , Inc . ( CRWD ) (2026-07-16)
 - [CRWD] CrowdStrike Climbs 11 %, Palo Alto Rises 7 % as Cybersecurity Stocks Rally on Cooling Inflation (2026-07-16)
-- [DDOG] Datadog Recognised as a Leader in the 2026 Gartner Magic Quadrant for Observability Platforms (2026-07-16)
 - [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
 - [CRWD] CrowdStrike names AJ Shipley as Chief Product Officer (2026-07-16)
-- [DDOG] Datadog named Gartner observability leader for sixth year (2026-07-15)
+- [NUVL] GSK completes acquisition of Nuvalent , Inc | Company Announcement (2026-07-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,18 +135,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Porter James Richard opero NUVL por $25.2M el 2026-07-15.
 - CEO Zaslav David vendio WBD por $56.9M el 2026-07-13.
 - CEO Holeman David K vendio WSR por $22.1M el 2026-07-14.
-- CEO Ullal Jayshree vendio ANET por $30.1M el 2026-07-10.
 - CEO Mastandrea Christine J vendio WSR por $13.7M el 2026-07-14.
 - CEO McLaughlin Edward Grunde opero MA por $4.5M el 2026-07-15 [senal en multiples fuentes].
 - CEO Pomel Olivier vendio DDOG por $10.8M el 2026-07-13.
+- 10% owner Gebbia Joseph vendio ABNB por $31.9M el 2026-07-13.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - Kingdmandan · PnL $47,027 · win rate 97% · categorias: sports
-- thoodr · PnL $8,981 · win rate 99% · categorias: politics, sports, economy
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $17,143 · win rate 93% · categorias: sports, crypto
-- ic4cream · PnL $31,750 · win rate 88% · categorias: sports
-- beet420 · PnL $6,601 · win rate 94% · categorias: sports
+- matenghehe · PnL $30,695 · win rate 94% · categorias: sports, crypto
+- comon119 · PnL $12,936 · win rate 99% · categorias: sports, crypto, politics
+- esportGG · PnL $18,312 · win rate 94% · categorias: sports
+- batya1 · PnL $24,611 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,8 +154,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 33 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 731 registros 30d · ultimo dato 2026-07-15
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
+- **sec_insiders**: `ok` · 750 registros 30d · ultimo dato 2026-07-16
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
