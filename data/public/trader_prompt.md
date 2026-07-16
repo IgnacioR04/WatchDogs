@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-16T03:53:43+00:00 -->
+<!-- trader_prompt.md generado 2026-07-16T06:46:45+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T03:53:43+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-16T06:46:45+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
 - ^VIX: 15.67 (-5.03% / -7.28% / -3.27%) [2026-07-15]
-- BTC-USD: 64523.26 (-0.67% / 0.62% / 8.04%) [2026-07-16]
+- BTC-USD: 64645.98 (-0.1% / 1.32% / 7.71%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,15 +346,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), leadership (2), regulatory (1), earnings (1)
+**Temas dominantes**: stock (6), leadership (3), merger (2), regulatory (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
+- [NUVL] GSK completes acquisition of Nuvalent , Inc | Company Announcement (2026-07-15)
 - [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
 - [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
 - [TTAN] ServiceTitan Inc . $TTAN Shares Sold by Hsbc Holdings PLC (2026-07-14)
 - [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
+- [WSR] Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan (2026-07-13)
 - [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
 - [TTAN] ServiceTitan ( TTAN ): Best Up and Coming Tech Stocks to Buy Now (2026-07-11)
 - [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
@@ -373,10 +374,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Kingdmandan · PnL $47,027 · win rate 97% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $17,307 · win rate 93% · categorias: sports, crypto
-- ic4cream · PnL $30,658 · win rate 88% · categorias: sports
-- beet420 · PnL $6,647 · win rate 94% · categorias: sports
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $77,144 · win rate 74% · categorias: sports, politics, crypto
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $17,175 · win rate 93% · categorias: sports, crypto
+- ic4cream · PnL $31,771 · win rate 88% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $81,783 · win rate 74% · categorias: sports, politics, crypto
+- alexfire97 · PnL $7,682 · win rate 84% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
