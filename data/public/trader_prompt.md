@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-16T17:01:27+00:00 -->
+<!-- trader_prompt.md generado 2026-07-16T18:36:37+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T17:01:27+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-16T18:36:37+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,8 +238,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.35)
-- Tendencia: `bull` (SPY 752.94 · MA50 742.85 · MA200 693.03 · dist MA200: 8.65%)
+- Volatilidad: `normal` (VIX 16.39)
+- Tendencia: `bull` (SPY 750.56 · MA50 742.8 · MA200 693.01 · dist MA200: 8.3%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.42)
 - Fed Funds: 3.63%
@@ -251,20 +251,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 752.94 | -0.25% | 0.16% | 0.61% |
-| QQQ | 12.0% | core | 709.0 | -1.22% | -1.97% | -2.75% |
-| TLT | 12.0% | core | 84.07 | -0.2% | -0.5% | -2.1% |
-| GLD | 9.3% | core | 366.28 | -1.63% | -3.15% | -7.88% |
-| ECAT | 8.8% | satellite | 15.62 | -0.19% | 0.82% | 3.04% |
-| IEF | 6.2% | core | 93.65 | -0.14% | -0.06% | -0.59% |
-| PB | 5.9% | satellite | 74.61 | 2.92% | 4.35% | 4.2% |
-| BEP | 5.3% | satellite | 31.69 | -2.54% | -3.9% | -7.54% |
-| HQY | 3.7% | satellite | 98.7 | 3.82% | 4.1% | 15.22% |
-| ENR | 3.1% | satellite | 20.83 | 0.68% | 3.07% | 2.21% |
-| OSK | 3.0% | satellite | 147.38 | 1.26% | 3.23% | 6.72% |
-| FIVN | 2.0% | satellite | 25.06 | 0.8% | 0.52% | 21.15% |
-| LUNR | 1.1% | satellite | 13.68 | -7.88% | -19.05% | -41.44% |
-| BOT | 0.6% | satellite | 30.1 | -4.72% | -10.5% | -7.33% |
+| SPY | 12.0% | core | 750.56 | -0.56% | -0.15% | 0.29% |
+| QQQ | 12.0% | core | 706.35 | -1.59% | -2.34% | -3.11% |
+| TLT | 12.0% | core | 84.11 | -0.15% | -0.44% | -2.05% |
+| GLD | 9.3% | core | 364.85 | -2.01% | -3.53% | -8.24% |
+| ECAT | 8.8% | satellite | 15.59 | -0.38% | 0.62% | 2.84% |
+| IEF | 6.2% | core | 93.71 | -0.08% | -0.01% | -0.54% |
+| PB | 5.9% | satellite | 74.53 | 2.81% | 4.24% | 4.09% |
+| BEP | 5.3% | satellite | 31.66 | -2.64% | -4.0% | -7.64% |
+| HQY | 3.7% | satellite | 98.76 | 3.88% | 4.17% | 15.29% |
+| ENR | 3.1% | satellite | 20.64 | -0.24% | 2.13% | 1.28% |
+| OSK | 3.0% | satellite | 147.07 | 1.05% | 3.01% | 6.5% |
+| FIVN | 2.0% | satellite | 25.29 | 1.73% | 1.44% | 22.26% |
+| LUNR | 1.1% | satellite | 13.4 | -9.8% | -20.74% | -42.66% |
+| BOT | 0.6% | satellite | 29.77 | -5.75% | -11.46% | -8.33% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 752.94 (-0.25% / 0.16% / 0.61%) [2026-07-16]
-- QQQ: 709.0 (-1.22% / -1.97% / -2.75%) [2026-07-16]
-- IWM: 296.08 (0.11% / -0.39% / 1.37%) [2026-07-16]
-- DIA: 526.45 (0.1% / 0.43% / 1.24%) [2026-07-16]
-- TLT: 84.07 (-0.2% / -0.5% / -2.1%) [2026-07-16]
-- IEF: 93.65 (-0.14% / -0.06% / -0.59%) [2026-07-16]
-- GLD: 366.28 (-1.63% / -3.15% / -7.88%) [2026-07-16]
-- ^VIX: 16.35 (4.34% / 3.22% / -0.37%) [2026-07-16]
-- BTC-USD: 64456.4 (-0.4% / 1.03% / 7.4%) [2026-07-16]
+- SPY: 750.56 (-0.56% / -0.15% / 0.29%) [2026-07-16]
+- QQQ: 706.35 (-1.59% / -2.34% / -3.11%) [2026-07-16]
+- IWM: 295.26 (-0.17% / -0.67% / 1.09%) [2026-07-16]
+- DIA: 524.26 (-0.32% / 0.01% / 0.82%) [2026-07-16]
+- TLT: 84.11 (-0.15% / -0.44% / -2.05%) [2026-07-16]
+- IEF: 93.71 (-0.08% / -0.01% / -0.54%) [2026-07-16]
+- GLD: 364.85 (-2.01% / -3.53% / -8.24%) [2026-07-16]
+- ^VIX: 16.39 (4.59% / 3.47% / -0.12%) [2026-07-16]
+- BTC-USD: 64101.24 (-0.94% / 0.47% / 6.81%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,16 +350,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (2), leadership (2), earnings (1)
+**Temas dominantes**: stock (4), leadership (3), regulatory (2), merger (2), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [NET] My internet felt slow for years , and the fix was in my router , not my plan (2026-07-16)
+- [CRWD] Frost & Sullivan : CrowdStrike Named Company of the Year for Identity Threat Detection and Response (2026-07-16)
 - [NET] Cloudflare uses eBPF to boost edge security & routing (2026-07-16)
+- [CRWD] UBS Raises its Price Target on CrowdStrike Holdings , Inc . ( CRWD ) (2026-07-16)
+- [NUVL] GSK completes acquisition of Nuvalent , Inc | Company Announcement (2026-07-15)
 - [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
 - [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
 - [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
+- [WSR] Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan (2026-07-13)
 - [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +378,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $258,874 · win rate 96% · categorias: sports
-- Kingdmandan · PnL $48,422 · win rate 97% · categorias: sports
-- matenghehe · PnL $38,609 · win rate 95% · categorias: sports, crypto
-- comon119 · PnL $19,664 · win rate 99% · categorias: sports, crypto, politics
-- esportGG · PnL $35,488 · win rate 94% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $261,436 · win rate 96% · categorias: sports
+- Kingdmandan · PnL $48,386 · win rate 97% · categorias: sports
+- matenghehe · PnL $38,907 · win rate 95% · categorias: sports, crypto
+- esportGG · PnL $35,521 · win rate 94% · categorias: sports
+- ExplosiveNinja · PnL $21,533 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,7 +390,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 44 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 737 registros 30d · ultimo dato 2026-07-16
+- **sec_insiders**: `ok` · 735 registros 30d · ultimo dato 2026-07-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

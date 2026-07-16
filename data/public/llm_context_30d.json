@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-16T16:58:46.899527+00:00",
+  "generated_at": "2026-07-16T18:35:35.556956+00:00",
   "window": {
     "from": "2026-06-16",
     "to": "2026-07-16",
@@ -24,8 +24,10 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
       "leadership",
+      "regulatory",
+      "merger",
+      "ai",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -64,7 +66,9 @@
       "event_date": "2026-07-15",
       "importance_score": 86.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_23221396055"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1862900/000119312526305059/"
     },
     {
@@ -118,7 +122,9 @@
       "event_date": "2026-07-14",
       "importance_score": 85.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_307828000521"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1296372/000119312526304765/"
     },
     {
@@ -136,7 +142,9 @@
       "event_date": "2026-07-14",
       "importance_score": 84.0,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_307828000521"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1603592/000119312526304755/"
     },
     {
@@ -280,7 +288,9 @@
       "event_date": "2026-07-15",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_23221396055"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1862147/000119312526305094/"
     },
     {
@@ -1137,6 +1147,15 @@
       "date": "2026-07-14"
     },
     {
+      "filer": "Celadon Partners SPV 24",
+      "company": "Senti Biosciences Holdings, Inc.",
+      "ticker": "SNTI",
+      "ownership_pct": 54.6,
+      "shares": 25748890,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-16"
+    },
+    {
       "filer": "Charles W. Ergen",
       "company": "EchoStar CORP",
       "ticker": "ECHO",
@@ -1207,15 +1226,6 @@
       "shares": 829890,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-13"
-    },
-    {
-      "filer": "Northern Right Capital Management, L.P.",
-      "company": "Great Elm Group, Inc.",
-      "ticker": "",
-      "ownership_pct": 16.7,
-      "shares": 5425180,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-14"
     }
   ],
   "polymarket": {
@@ -1223,8 +1233,8 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 258873.91,
-        "win_rate": 0.9573,
+        "pnl": 261435.9,
+        "win_rate": 0.9574,
         "volume": 630940.1,
         "categories": [
           "sports"
@@ -1233,9 +1243,9 @@
       {
         "wallet": "0xb915070c80",
         "username": "Kingdmandan",
-        "pnl": 48422.44,
+        "pnl": 48385.89,
         "win_rate": 0.9684,
-        "volume": 64801.44,
+        "volume": 72176.77,
         "categories": [
           "sports"
         ]
@@ -1243,8 +1253,8 @@
       {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
-        "pnl": 38608.56,
-        "win_rate": 0.9466,
+        "pnl": 38906.76,
+        "win_rate": 0.9474,
         "volume": 442596.42,
         "categories": [
           "sports",
@@ -1252,22 +1262,10 @@
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 19663.84,
-        "win_rate": 0.986,
-        "volume": 265223.03,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 35487.55,
-        "win_rate": 0.9422,
+        "pnl": 35521.12,
+        "win_rate": 0.9424,
         "volume": 244829.98,
         "categories": [
           "sports"
@@ -1276,7 +1274,7 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 19745.69,
+        "pnl": 21533.02,
         "win_rate": 0.9706,
         "volume": 59504.39,
         "categories": [
@@ -1286,8 +1284,8 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 48611.14,
-        "win_rate": 0.8884,
+        "pnl": 48653.39,
+        "win_rate": 0.8872,
         "volume": 614808.74,
         "categories": [
           "sports",
@@ -1297,32 +1295,44 @@
       {
         "wallet": "0x618534bef6",
         "username": "batya1",
-        "pnl": 24962.23,
+        "pnl": 23942.21,
         "win_rate": 0.9174,
-        "volume": 74023.64,
+        "volume": 78298.4,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x9c3ce009c9",
-        "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 17213.35,
-        "win_rate": 0.9286,
-        "volume": 7584.29,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 32661.63,
+        "pnl": 32125.76,
         "win_rate": 0.884,
-        "volume": 87654.0,
+        "volume": 91375.0,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 265474.95,
+        "win_rate": 0.739,
+        "volume": 2717669.86,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 24991.6,
+        "win_rate": 0.8922,
+        "volume": 428032.08,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ],
@@ -1330,9 +1340,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 191440.99,
-        "win_rate": 0.737,
-        "volume": 2321347.17,
+        "pnl": 265474.95,
+        "win_rate": 0.739,
+        "volume": 2717669.86,
         "categories": [
           "sports",
           "politics",
@@ -1340,11 +1350,21 @@
         ]
       },
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 163612.22,
+        "win_rate": 0.627,
+        "volume": 4677718.32,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 22885.52,
-        "win_rate": 0.4359,
-        "volume": 2100469.12,
+        "pnl": 26811.48,
+        "win_rate": 0.4338,
+        "volume": 2150351.92,
         "categories": [
           "politics",
           "sports",
@@ -1352,11 +1372,11 @@
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 138160.76,
-        "win_rate": 0.643,
-        "volume": 3786243.1,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 91906.71,
+        "win_rate": 0.518,
+        "volume": 2424876.54,
         "categories": [
           "sports"
         ]
@@ -1364,7 +1384,7 @@
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 300454.55,
+        "pnl": 300416.35,
         "win_rate": 0.541,
         "volume": 867537.74,
         "categories": [
@@ -1374,29 +1394,41 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 45431.72,
-        "win_rate": 0.521,
-        "volume": 1750527.79,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 258873.91,
-        "win_rate": 0.9573,
+        "pnl": 261435.9,
+        "win_rate": 0.9574,
         "volume": 630940.1,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 31234.99,
+        "win_rate": 0.552,
+        "volume": 852262.4,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 24991.6,
+        "win_rate": 0.8922,
+        "volume": 428032.08,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x3af1ed6ea3",
         "username": "needheal",
-        "pnl": 134162.11,
+        "pnl": 134174.56,
         "win_rate": 0.4869,
         "volume": 506475.71,
         "categories": [
@@ -1406,38 +1438,31 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 48611.14,
-        "win_rate": 0.8884,
+        "pnl": 48653.39,
+        "win_rate": 0.8872,
         "volume": 614808.74,
         "categories": [
           "sports",
           "politics"
         ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 20109.08,
-        "win_rate": 0.551,
-        "volume": 708849.94,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7ec87edb28",
-        "username": "chovyyyyy",
-        "pnl": 21350.92,
-        "win_rate": 0.6728,
-        "volume": 426025.46,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
+    {
+      "title": "My internet felt slow for years , and the fix was in my router , not my plan",
+      "url": "https://www.makeuseof.com/fix-slow-internet-with-manual-wi-fi-channel-selection/",
+      "ticker": "NET",
+      "themes": [],
+      "date": "2026-07-16"
+    },
+    {
+      "title": "Frost & Sullivan : CrowdStrike Named Company of the Year for Identity Threat Detection and Response",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69050162-frost-sullivan-crowdstrike-named-company-of-the-year-for-identity-threat-detection-and-response-008.htm",
+      "ticker": "CRWD",
+      "themes": [],
+      "date": "2026-07-16"
+    },
     {
       "title": "Cloudflare uses eBPF to boost edge security & routing",
       "url": "https://itbrief.co.nz/story/cloudflare-uses-ebpf-to-boost-edge-security-routing",
@@ -1446,6 +1471,24 @@
         "regulatory"
       ],
       "date": "2026-07-16"
+    },
+    {
+      "title": "UBS Raises its Price Target on CrowdStrike Holdings , Inc . ( CRWD ) ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-raises-price-target-crowdstrike-185457577.html",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-16"
+    },
+    {
+      "title": "GSK completes acquisition of Nuvalent , Inc | Company Announcement",
+      "url": "https://www.investegate.co.uk/announcement/rns/gsk--gsk/gsk-completes-acquisition-of-nuvalent-inc/9670780",
+      "ticker": "NUVL",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-15"
     },
     {
       "title": "BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026",
@@ -1476,6 +1519,16 @@
       "date": "2026-07-13"
     },
     {
+      "title": "Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan",
+      "url": "https://finance.yahoo.com/real-estate/articles/whitestone-reit-shareholders-approve-areg-000155539.html",
+      "ticker": "WSR",
+      "themes": [
+        "merger",
+        "leadership"
+      ],
+      "date": "2026-07-13"
+    },
+    {
       "title": "A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/billiontoone-insider-sold-801-shares-001636563.html",
       "ticker": "BLLN",
@@ -1496,7 +1549,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1681,
+  "signals_count": 1679,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
