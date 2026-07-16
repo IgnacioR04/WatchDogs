@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-15T23:29:57.699323+00:00",
+  "generated_at": "2026-07-16T00:26:53.321173+00:00",
   "window": {
-    "from": "2026-06-15",
-    "to": "2026-07-15",
+    "from": "2026-06-16",
+    "to": "2026-07-16",
     "days": 30
   },
   "data_quality": {
@@ -23,10 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "merger",
       "stock",
+      "leadership",
       "earnings",
-      "leadership"
+      "regulatory",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -101,7 +102,7 @@
       "importance_score": 85.1,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_913281423393"
+        "news_118634551407"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1296372/000119312526304765/"
     },
@@ -139,7 +140,7 @@
       "importance_score": 84.0,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_913281423393"
+        "news_118634551407"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1603592/000119312526304755/"
     },
@@ -212,11 +213,7 @@
       "event_date": "2026-07-13",
       "importance_score": 82.0,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_115247224626",
-        "news_59612555538",
-        "news_324628373032"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1783990/000156155026000244/"
     },
     {
@@ -420,6 +417,15 @@
         ]
       },
       {
+        "ticker": "FULC",
+        "company": "Fulcrum Therapeutics, Inc.",
+        "pressure_score": 379.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
@@ -510,14 +516,6 @@
       {
         "ticker": "SHOE",
         "company": "Shoe Station Group Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "RAY",
-        "company": "Raytech Holding Limited",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -616,6 +614,14 @@
         ]
       },
       {
+        "ticker": "QLYS",
+        "company": "QUALYS, INC.",
+        "pressure_score": 569.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BBY",
         "company": "BEST BUY CO INC",
         "pressure_score": 529.1,
@@ -638,14 +644,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "MRX",
-        "company": "Marex Group Ltd",
-        "pressure_score": 423.7,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
@@ -658,6 +656,24 @@
       "amount": 9999987.55,
       "date": "2026-07-14",
       "score": 87.3
+    },
+    {
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "actor": "TANG KEVIN",
+      "actor_type": "ten_percent_owner",
+      "amount": 382262.12,
+      "date": "2026-07-15",
+      "score": 79.0
+    },
+    {
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "actor": "TANG KEVIN",
+      "actor_type": "ten_percent_owner",
+      "amount": 271908.16,
+      "date": "2026-07-14",
+      "score": 78.3
     },
     {
       "ticker": "ENR",
@@ -685,6 +701,15 @@
       "amount": 401344.0,
       "date": "2026-07-14",
       "score": 77.9
+    },
+    {
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "actor": "TANG KEVIN",
+      "actor_type": "ten_percent_owner",
+      "amount": 190997.56,
+      "date": "2026-07-14",
+      "score": 77.5
     },
     {
       "ticker": "ENR",
@@ -741,6 +766,15 @@
       "score": 73.4
     },
     {
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "actor": "TANG KEVIN",
+      "actor_type": "ten_percent_owner",
+      "amount": 45899.64,
+      "date": "2026-07-13",
+      "score": 72.9
+    },
+    {
       "ticker": "RDGL",
       "company": "VIVOS INC",
       "actor": "Korenko Michael K",
@@ -748,42 +782,6 @@
       "amount": 11420.0,
       "date": "2026-07-15",
       "score": 72.6
-    },
-    {
-      "ticker": "SLGL",
-      "company": "Sol-Gel Technologies Ltd.",
-      "actor": "Opaleye Management Inc.",
-      "actor_type": "ten_percent_owner",
-      "amount": 57262.66,
-      "date": "2026-07-13",
-      "score": 72.1
-    },
-    {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 13173.5,
-      "date": "2026-07-14",
-      "score": 71.7
-    },
-    {
-      "ticker": "DLHC",
-      "company": "DLH Holdings Corp.",
-      "actor": "Mink Brook Asset Management LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 22443.09,
-      "date": "2026-07-13",
-      "score": 71.6
-    },
-    {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 12097.28,
-      "date": "2026-07-14",
-      "score": 71.5
     }
   ],
   "institutional_changes": [
@@ -1282,9 +1280,9 @@
       {
         "wallet": "0x580d9dcca0",
         "username": "warluigi",
-        "pnl": 164635.73,
+        "pnl": 164651.23,
         "win_rate": 0.8871,
-        "volume": 305920.7,
+        "volume": 309020.7,
         "categories": [
           "sports"
         ]
@@ -1292,7 +1290,7 @@
       {
         "wallet": "0x134a63b764",
         "username": "Bertapotamous",
-        "pnl": 105190.54,
+        "pnl": 104759.58,
         "win_rate": 0.885,
         "volume": 220635.22,
         "categories": [
@@ -1315,7 +1313,7 @@
       {
         "wallet": "0xa49becb692",
         "username": "sleepy-panda",
-        "pnl": 270428.38,
+        "pnl": 270441.38,
         "win_rate": 0.813,
         "volume": 503444.02,
         "categories": [
@@ -1327,9 +1325,9 @@
       {
         "wallet": "0x85bbb00a84",
         "username": "Prelode",
-        "pnl": 146434.99,
+        "pnl": 145035.0,
         "win_rate": 0.8116,
-        "volume": 399290.71,
+        "volume": 439290.64,
         "categories": [
           "sports",
           "crypto"
@@ -1340,9 +1338,9 @@
       {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 1986105.0,
-        "win_rate": 0.359,
-        "volume": 9395331.59,
+        "pnl": 1985320.37,
+        "win_rate": 0.36,
+        "volume": 9427160.68,
         "categories": [
           "sports",
           "crypto"
@@ -1372,12 +1370,23 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 667592.33,
-        "win_rate": 0.518,
-        "volume": 1733108.88,
+        "pnl": 668140.56,
+        "win_rate": 0.519,
+        "volume": 1757852.98,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 88024.27,
+        "win_rate": 0.8116,
+        "volume": 1891879.99,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1393,9 +1402,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 335473.62,
+        "pnl": 336507.92,
         "win_rate": 0.64,
-        "volume": 2561658.8,
+        "volume": 2578328.04,
         "categories": [
           "sports"
         ]
@@ -1403,9 +1412,9 @@
       {
         "wallet": "0xc3acf5878a",
         "username": "mentionmarket",
-        "pnl": 265195.93,
+        "pnl": 265246.49,
         "win_rate": 0.7135,
-        "volume": 1327573.03,
+        "volume": 1427650.85,
         "categories": [
           "sports"
         ]
@@ -1429,47 +1438,46 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 393834.22,
-        "win_rate": 0.9643,
-        "volume": 737378.21,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Harel Insurance Investments & Financial Services Ltd . Acquires 278 , 647 Shares of Datadog , Inc . $DDOG",
-      "url": "https://www.themarketsdaily.com/2026/07/15/harel-insurance-investments-financial-services-ltd-acquires-278647-shares-of-datadog-inc-ddog.html",
-      "ticker": "DDOG",
+      "title": "BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026",
+      "url": "https://www.manilatimes.net/2026/07/15/tmt-newswire/globenewswire/billiontoone-to-report-second-quarter-2026-financial-results-on-august-5-2026/2385017",
+      "ticker": "BLLN",
       "themes": [
-        "merger",
-        "stock"
+        "regulatory"
       ],
       "date": "2026-07-15"
     },
     {
-      "title": "DigitalOcean vs . Datadog : What the Revenue Trends of These Tech Companies Reveal for Investors",
-      "url": "https://www.fool.com/coverage/charts/2026/07/14/digitalocean-vs-datadog-what-the-revenue-trends-of-these-tech-companies-reveal-for-investors/?source=iedfolrf0000001",
-      "ticker": "DDOG",
+      "title": "Zacks Research Issues Positive Forecast for KB Home Earnings",
+      "url": "https://www.dailypolitical.com/2026/07/15/zacks-research-issues-positive-forecast-for-kb-home-earnings.html",
+      "ticker": "KBH",
       "themes": [
         "earnings"
       ],
       "date": "2026-07-15"
     },
     {
-      "title": "Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky",
-      "url": "https://www.dailypolitical.com/2026/07/14/datadog-inc-ddog-shares-sold-by-teachers-retirement-system-of-the-state-of-kentucky.html",
-      "ticker": "DDOG",
+      "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
+      "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
+      "ticker": "BLLN",
       "themes": [
         "stock"
       ],
       "date": "2026-07-14"
+    },
+    {
+      "title": "Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-billiontoone-nasdaqblln-ceo-sells-1576250-00-in-stock.html",
+      "ticker": "BLLN",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-13"
     },
     {
       "title": "Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan",
@@ -1480,9 +1488,57 @@
         "leadership"
       ],
       "date": "2026-07-13"
+    },
+    {
+      "title": "A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billiontoone-insider-sold-801-shares-001636563.html",
+      "ticker": "BLLN",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-07-13"
+    },
+    {
+      "title": "KB HOME OPENS MEADOWBROOK : NEW TOWNHOMES IN CAMPBELL , CALIFORNIA",
+      "url": "https://www.prnewswire.com/news-releases/kb-home-opens-meadowbrook-new-townhomes-in-campbell-california-302823100.html",
+      "ticker": "KBH",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "KB HOME NAMED ONE OF AMERICA BEST COMPANIES BY TIME",
+      "url": "https://www.prnewswire.com/news-releases/kb-home-named-one-of-americas-best-companies-by-time-302822468.html",
+      "ticker": "KBH",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "KB HOME OPENS ENCLAVES AT TUMAMOC : HOMES PRICED FROM THE LOW $300Ks IN A CENTRAL TUCSON , ARIZONA LOCATION",
+      "url": "https://www.prnewswire.com/news-releases/kb-home-opens-enclaves-at-tumamoc-homes-priced-from-the-low-300ks-in-a-central-tucson-arizona-location-302822461.html",
+      "ticker": "KBH",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Y Intercept Hong Kong Ltd Grows Position in KB Home $KBH",
+      "url": "https://www.themarketsdaily.com/2026/07/10/y-intercept-hong-kong-ltd-grows-position-in-kb-home-kbh.html",
+      "ticker": "KBH",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/09/billiontoone-nasdaqblln-ceo-oguzhan-atay-sells-26250-shares-of-stock.html",
+      "ticker": "BLLN",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-09"
     }
   ],
-  "signals_count": 1534,
+  "signals_count": 1555,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

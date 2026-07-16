@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-15T23:30:59+00:00 · ventana señales 2026-06-15 -> 2026-07-15_
+_Generado 2026-07-16T00:27:47+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -28,30 +28,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 372.35 | 0.05% | -0.56% | -6.1% |
 | ECAT | 8.8% | satellite | 15.65 | -1.51% | -0.06% | 1.49% |
 | IEF | 6.2% | core | 93.78 | 0.25% | 0.29% | -0.2% |
-| PB | 5.8% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
+| PB | 5.9% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
 | BEP | 5.3% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
 | HQY | 3.7% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
-| ENR | 3.0% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
+| ENR | 3.1% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
 | ETSY | 3.0% | satellite | 85.74 | 3.23% | 11.06% | 18.77% |
 | FIVN | 2.0% | satellite | 24.86 | -2.81% | 2.73% | 20.33% |
-| INTC | 1.4% | satellite | 102.99 | -4.43% | -6.58% | -19.45% |
-| BOT | 0.5% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
+| LUNR | 1.1% | satellite | 14.85 | -0.4% | -12.75% | -42.35% |
+| BOT | 0.6% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.4%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -2.7%
-- Beta vs SPY: 0.633 · posiciones efectivas: 13.6 · HHI: 0.0734
+- Volatilidad anualizada: 10.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.626 · posiciones efectivas: 13.6 · HHI: 0.0737
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **ENR** · score agregado 307.6 · 5 señales · fuentes: corporate_insider
 - **HQY** · score agregado 73.0 · 1 señales · fuentes: large_holder
+- **LUNR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FIVN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PB** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BOT** · score agregado 70.5 · 1 señales · fuentes: corporate_insider
 - **ECAT** · score agregado 59.3 · 1 señales · fuentes: corporate_insider
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -65,18 +65,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HQY | 73 | large_holder | Wasatch Advisors LP |  | - | - |
 | RDGL | 72 | corporate_insider | Korenko Michael K | 2 | $11,420 | cluster_buy,small_amount |
 | SERA | 72 | large_holder | Aberdeen Group plc |  | - | - |
+| FULC | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
+| LUNR | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | EEX | 72 | large_holder | Onex Corporation |  | - | - |
 | FIVN | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | PB | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
+| AOSL | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | ETSY | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | BOT | 70 | corporate_insider | Kang Andrew Kai | 0 | $9,999,988 | - |
-| RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
-| ATPC | 70 | large_holder | JANE STREET GROUP, LLC |  | - | - |
-| NNOX | 70 | large_holder | Moalem Moshe |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
 - ^VIX: 15.67 (-5.03% / -7.28% / -3.27%) [2026-07-15]
-- BTC-USD: 64804.27 (-0.23% / 1.06% / 8.51%) [2026-07-15]
+- BTC-USD: 64532.44 (-0.65% / 0.63% / 8.06%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,14 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (2), stock (2), earnings (1), leadership (1)
+**Temas dominantes**: stock (4), leadership (3), earnings (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DDOG] Harel Insurance Investments & Financial Services Ltd . Acquires 278 , 647 Shares of Datadog , Inc . $DDOG (2026-07-15)
-- [DDOG] DigitalOcean vs . Datadog : What the Revenue Trends of These Tech Companies Reveal for Investors (2026-07-15)
-- [DDOG] Datadog , Inc . $DDOG Shares Sold by Teachers Retirement System of The State of Kentucky (2026-07-14)
+- [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
+- [KBH] Zacks Research Issues Positive Forecast for KB Home Earnings (2026-07-15)
+- [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
+- [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
 - [WSR] Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan (2026-07-13)
+- [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
+- [KBH] KB HOME OPENS MEADOWBROOK : NEW TOWNHOMES IN CAMPBELL , CALIFORNIA (2026-07-10)
+- [KBH] KB HOME NAMED ONE OF AMERICA BEST COMPANIES BY TIME (2026-07-10)
+- [KBH] KB HOME OPENS ENCLAVES AT TUMAMOC : HOMES PRICED FROM THE LOW $300Ks IN A CENTRAL TUCSON , ARIZONA LOCATION (2026-07-10)
+- [KBH] Y Intercept Hong Kong Ltd Grows Position in KB Home $KBH (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -154,8 +160,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 66 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 616 registros 30d · ultimo dato 2026-07-15
+- **congress**: `ok` · 33 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 641 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -168,7 +174,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, ETSY, FIVN, GLD, HQY, IEF, INTC, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, ETSY, FIVN, GLD, HQY, IEF, LUNR, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
