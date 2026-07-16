@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T12:12:51+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-16T14:41:53+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.22)
-- Tendencia: `bull` (SPY 754.81 · MA50 742.11 · MA200 692.54 · dist MA200: 8.99%)
-- Credito: `tight` (HY spread 2.72)
+- Volatilidad: `normal` (VIX 15.9)
+- Tendencia: `bull` (SPY 753.76 · MA50 742.87 · MA200 693.03 · dist MA200: 8.76%)
+- Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.42)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,31 +22,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 754.81 | 0.4% | 1.26% | 0.25% |
-| QQQ | 12.0% | core | 717.74 | -0.27% | 0.89% | -3.42% |
-| TLT | 12.0% | core | 84.24 | 0.19% | -0.14% | -1.36% |
-| ECAT | 10.4% | satellite | 15.65 | 0.19% | 1.66% | 3.24% |
-| GLD | 9.3% | core | 372.35 | 0.05% | -0.56% | -6.1% |
-| PB | 6.9% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
-| BEP | 6.3% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
-| IEF | 6.2% | core | 93.78 | 0.25% | 0.29% | -0.2% |
-| HQY | 4.4% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
-| ENR | 3.6% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
-| LUNR | 1.2% | satellite | 14.85 | -0.4% | -12.75% | -42.35% |
-| BOT | 0.7% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
+| SPY | 12.0% | core | 753.76 | -0.14% | 0.27% | 0.72% |
+| QQQ | 12.0% | core | 711.26 | -0.9% | -1.66% | -2.44% |
+| TLT | 12.0% | core | 83.86 | -0.45% | -0.75% | -2.34% |
+| ECAT | 9.7% | satellite | 15.62 | -0.16% | 0.85% | 3.07% |
+| GLD | 9.3% | core | 367.03 | -1.43% | -2.95% | -7.7% |
+| PB | 6.5% | satellite | 74.4 | 2.63% | 4.06% | 3.91% |
+| IEF | 6.2% | core | 93.56 | -0.23% | -0.16% | -0.69% |
+| BEP | 5.9% | satellite | 31.94 | -1.78% | -3.15% | -6.83% |
+| HQY | 4.1% | satellite | 97.64 | 2.7% | 2.98% | 13.99% |
+| ENR | 3.4% | satellite | 20.63 | -0.29% | 2.08% | 1.23% |
+| FIVN | 2.2% | satellite | 24.85 | -0.04% | -0.32% | 20.14% |
+| LUNR | 1.1% | satellite | 13.85 | -6.73% | -18.05% | -40.71% |
+| BOT | 0.6% | satellite | 31.3 | -0.92% | -6.93% | -3.63% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -2.9%
-- Beta vs SPY: 0.623 · posiciones efectivas: 12.7 · HHI: 0.0788
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.619 · posiciones efectivas: 13.1 · HHI: 0.0763
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **ENR** · score agregado 307.6 · 5 señales · fuentes: corporate_insider
 - **HQY** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **LUNR** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **FIVN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PB** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BOT** · score agregado 70.5 · 1 señales · fuentes: corporate_insider
 - **ECAT** · score agregado 59.3 · 1 señales · fuentes: corporate_insider
@@ -70,9 +72,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AOSL | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | BOT | 70 | corporate_insider | Kang Andrew Kai | 0 | $9,999,988 | - |
+| USCB | 70 | large_holder | Patriot Financial Partner |  | - | - |
 | IMUX | 70 | large_holder | Aberdeen Group plc |  | - | - |
-| WEST | 70 | large_holder | The Stephens Group, LLC |  | - | - |
-| RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
+| CNL | 70 | large_holder | Jupiter Asset Management  |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -94,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 754.81 (0.4% / 1.26% / 0.25%) [2026-07-15]
-- QQQ: 717.74 (-0.27% / 0.89% / -3.42%) [2026-07-15]
-- IWM: 295.77 (0.43% / 0.78% / 0.38%) [2026-07-15]
-- DIA: 525.95 (0.24% / 0.61% / 1.73%) [2026-07-15]
-- TLT: 84.24 (0.19% / -0.14% / -1.36%) [2026-07-15]
-- IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
-- GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
-- ^VIX: 16.22 (3.51% / 2.4% / -1.16%) [2026-07-16]
-- BTC-USD: 64134.68 (-0.89% / 0.52% / 6.86%) [2026-07-16]
+- SPY: 753.76 (-0.14% / 0.27% / 0.72%) [2026-07-16]
+- QQQ: 711.26 (-0.9% / -1.66% / -2.44%) [2026-07-16]
+- IWM: 296.75 (0.33% / -0.16% / 1.6%) [2026-07-16]
+- DIA: 526.48 (0.1% / 0.44% / 1.24%) [2026-07-16]
+- TLT: 83.86 (-0.45% / -0.75% / -2.34%) [2026-07-16]
+- IEF: 93.56 (-0.23% / -0.16% / -0.69%) [2026-07-16]
+- GLD: 367.03 (-1.43% / -2.95% / -7.7%) [2026-07-16]
+- ^VIX: 15.9 (1.47% / 0.38% / -3.11%) [2026-07-16]
+- BTC-USD: 64649.8 (-0.1% / 1.33% / 7.72%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,43 +112,46 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.58 (delta 1m: 0.13) [2026-07-14]
 - Curva 10Y-2Y: 0.42 (delta 1m: 0.03) [2026-07-15]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.72 (delta 1m: 0.06) [2026-07-14]
+- High yield spread (OAS): 2.71 (delta 1m: 0.0) [2026-07-15]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.23 (delta 1m: -0.08) [2026-07-15]
 - Dolar broad index: 120.5046 (delta 1m: 0.543) [2026-07-10]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (2), regulatory (1), merger (1)
+**Temas dominantes**: stock (6), merger (2), earnings (2), leadership (2), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWV] CoreWeave Has Fallen 49 % From Its 52 - Week High . Is the Beaten - Down AI Stock a Bargain or a Value Trap ? (2026-07-16)
 - [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
-- [CRWD] UBS Raises its Price Target on CrowdStrike Holdings , Inc . ( CRWD ) (2026-07-16)
-- [CRWD] CrowdStrike Climbs 11 %, Palo Alto Rises 7 % as Cybersecurity Stocks Rally on Cooling Inflation (2026-07-16)
+- [DDOG] Datadog Recognised as a Leader in the 2026 Gartner Magic Quadrant for Observability Platforms (2026-07-16)
 - [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
-- [CRWD] CrowdStrike names AJ Shipley as Chief Product Officer (2026-07-16)
+- [DDOG] Datadog named Gartner observability leader for sixth year (2026-07-15)
 - [NUVL] GSK completes acquisition of Nuvalent , Inc | Company Announcement (2026-07-15)
+- [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
+- [DDOG] Harel Insurance Investments & Financial Services Ltd . Acquires 278 , 647 Shares of Datadog , Inc . $DDOG (2026-07-15)
+- [DDOG] DigitalOcean vs . Datadog : What the Revenue Trends of These Tech Companies Reveal for Investors (2026-07-15)
+- [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Kang Andrew Kai compro BOT por $10.0M el 2026-07-14.
 - CEO Porter James Richard opero NUVL por $25.2M el 2026-07-15.
+- CEO Guo Li opero AIOS por $2.5B el 2026-07-14 [senal en multiples fuentes].
 - CEO Zaslav David vendio WBD por $56.9M el 2026-07-13.
 - CEO Holeman David K vendio WSR por $22.1M el 2026-07-14.
 - CEO Mastandrea Christine J vendio WSR por $13.7M el 2026-07-14.
 - CEO McLaughlin Edward Grunde opero MA por $4.5M el 2026-07-15 [senal en multiples fuentes].
 - CEO Pomel Olivier vendio DDOG por $10.8M el 2026-07-13.
-- 10% owner Gebbia Joseph vendio ABNB por $31.9M el 2026-07-13.
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $254,418 · win rate 96% · categorias: sports
 - Kingdmandan · PnL $47,027 · win rate 97% · categorias: sports
-- matenghehe · PnL $30,695 · win rate 94% · categorias: sports, crypto
-- comon119 · PnL $12,936 · win rate 99% · categorias: sports, crypto, politics
-- esportGG · PnL $18,312 · win rate 94% · categorias: sports
-- batya1 · PnL $24,611 · win rate 92% · categorias: sports
+- matenghehe · PnL $35,891 · win rate 95% · categorias: sports, crypto
+- batya1 · PnL $24,962 · win rate 92% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $16,869 · win rate 93% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -154,7 +159,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 33 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 750 registros 30d · ultimo dato 2026-07-16
+- **sec_insiders**: `ok` · 739 registros 30d · ultimo dato 2026-07-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -167,7 +172,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, GLD, HQY, IEF, LUNR, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, FIVN, GLD, HQY, IEF, LUNR, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

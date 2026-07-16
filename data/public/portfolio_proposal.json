@@ -1,22 +1,23 @@
 {
-  "generated_at": "2026-07-16T12:12:50+00:00",
+  "generated_at": "2026-07-16T14:41:52+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "ECAT": 0.1042,
+    "ECAT": 0.0973,
     "GLD": 0.0933,
-    "PB": 0.0692,
-    "BEP": 0.0628,
+    "PB": 0.0646,
     "IEF": 0.0622,
-    "HQY": 0.0438,
-    "ENR": 0.036,
-    "LUNR": 0.0123,
-    "BOT": 0.0065
+    "BEP": 0.0586,
+    "HQY": 0.0408,
+    "ENR": 0.0335,
+    "FIVN": 0.0223,
+    "LUNR": 0.0115,
+    "BOT": 0.0061
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ENR": 0.032,
-    "HQY": 0.0389,
-    "LUNR": 0.0109,
-    "PB": 0.0615,
-    "BOT": 0.0058,
-    "ECAT": 0.0926,
-    "BEP": 0.0558
+    "ENR": 0.0298,
+    "HQY": 0.0363,
+    "LUNR": 0.0102,
+    "FIVN": 0.0198,
+    "PB": 0.0574,
+    "BOT": 0.0054,
+    "ECAT": 0.0865,
+    "BEP": 0.0521
   },
   "satellite_rationale": [
     {
@@ -53,6 +55,14 @@
     },
     {
       "ticker": "LUNR",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "FIVN",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -93,16 +103,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1023,
-    "var_95_1d": 0.0089,
-    "cvar_95_1d": 0.0116,
-    "max_drawdown": -0.0285,
-    "beta_spy": 0.623,
-    "hhi": 0.0788,
+    "ann_vol": 0.1015,
+    "var_95_1d": 0.0088,
+    "cvar_95_1d": 0.0119,
+    "max_drawdown": -0.0313,
+    "beta_spy": 0.619,
+    "hhi": 0.0763,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 12.7,
-    "gross_exposure": 0.8503,
+    "n_positions": 13,
+    "effective_positions": 13.1,
+    "gross_exposure": 0.8502,
     "days_used": 41
   },
   "risk_gate": {
