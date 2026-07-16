@@ -1,38 +1,46 @@
 {
-  "generated_at": "2026-07-16T21:36:06+00:00",
+  "generated_at": "2026-07-16T22:35:39+00:00",
   "profile": "moderado",
-  "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "regime_budget": 0.7,
+  "total_equity": 0.7,
+  "cash": 0.3,
   "weights": {
-    "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.12,
-    "GLD": 0.0941,
-    "OSK": 0.0783,
-    "IEF": 0.0627,
-    "KSS": 0.0501,
-    "FIVN": 0.0463,
-    "INTC": 0.0387
+    "GLD": 0.115,
+    "BEP": 0.0856,
+    "IEF": 0.0767,
+    "OSK": 0.054,
+    "MPWR": 0.0381,
+    "KSS": 0.0346,
+    "CELC": 0.0294,
+    "INTC": 0.0266
   },
   "core": {
-    "SPY": 0.1934,
-    "QQQ": 0.1105,
-    "TLT": 0.1105,
-    "IEF": 0.0553,
-    "GLD": 0.0829
+    "QQQ": 0.14,
+    "TLT": 0.14,
+    "IEF": 0.07,
+    "GLD": 0.105
   },
   "satellite": {
-    "FIVN": 0.0408,
-    "OSK": 0.069,
-    "KSS": 0.0442,
-    "INTC": 0.0341,
-    "BEP": 0.1095
+    "CELC": 0.0268,
+    "MPWR": 0.0348,
+    "OSK": 0.0493,
+    "KSS": 0.0316,
+    "INTC": 0.0243,
+    "BEP": 0.0782
   },
   "satellite_rationale": [
     {
-      "ticker": "FIVN",
+      "ticker": "CELC",
+      "score": 142.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "MPWR",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -73,16 +81,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1507,
-    "var_95_1d": 0.0134,
-    "cvar_95_1d": 0.0176,
-    "max_drawdown": -0.0566,
-    "beta_spy": 0.855,
-    "hhi": 0.0827,
+    "ann_vol": 0.1332,
+    "var_95_1d": 0.0121,
+    "cvar_95_1d": 0.0162,
+    "max_drawdown": -0.0442,
+    "beta_spy": null,
+    "hhi": 0.0624,
     "max_position": 0.12,
     "n_positions": 10,
-    "effective_positions": 12.1,
-    "gross_exposure": 0.8502,
+    "effective_positions": 16.0,
+    "gross_exposure": 0.7,
     "days_used": 87
   },
   "risk_gate": {

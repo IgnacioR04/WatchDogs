@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-16T21:34:35.749080+00:00",
+  "generated_at": "2026-07-16T22:34:49.733289+00:00",
   "window": {
     "from": "2026-06-16",
     "to": "2026-07-16",
@@ -24,9 +24,10 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
+      "ai",
       "leadership",
-      "earnings"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -64,26 +65,29 @@
       "event_date": "2026-07-16",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_577295800423",
+        "news_183025180826"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
     },
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO vendio DDOG ($10.8M)",
-      "summary": "CEO Pomel Olivier vendio DDOG por $10.8M el 2026-07-13.",
+      "title": "Insider vendio CELC ($291.0M)",
+      "summary": "Insider BAKER BROS. ADVISORS LP vendio CELC por $291.0M el 2026-07-14 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Pomel Olivier",
-      "actor_type": "ceo",
-      "ticker": "DDOG",
+      "actor_name": "BAKER BROS. ADVISORS LP",
+      "actor_type": "insider",
+      "ticker": "CELC",
       "direction": "sell",
-      "amount_estimated": 10847055.66,
-      "event_date": "2026-07-13",
-      "importance_score": 82.0,
-      "cross_source_score": 0.0,
+      "amount_estimated": 290959780.0,
+      "event_date": "2026-07-14",
+      "importance_score": 81.8,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1783990/000156155026000244/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526306299/"
     },
     {
       "id": "move_4",
@@ -459,6 +463,15 @@
         ]
       },
       {
+        "ticker": "CELC",
+        "company": "Celcuity Inc.",
+        "pressure_score": 142.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "XAIR",
         "company": "Beyond Air, Inc.",
         "pressure_score": 141.0,
@@ -505,14 +518,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "HNRG",
-        "company": "HALLADOR ENERGY CO",
-        "pressure_score": 140.5,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -526,33 +531,9 @@
         ]
       },
       {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 3314.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 2121.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NET",
-        "company": "Cloudflare, Inc.",
-        "pressure_score": 2010.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1678.6,
         "sources": [
           "corporate_insider"
         ]
@@ -566,17 +547,17 @@
         ]
       },
       {
-        "ticker": "GTLS",
-        "company": "CHART INDUSTRIES INC",
-        "pressure_score": 1113.1,
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 1213.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 1015.4,
+        "ticker": "GTLS",
+        "company": "CHART INDUSTRIES INC",
+        "pressure_score": 1113.1,
         "sources": [
           "corporate_insider"
         ]
@@ -590,38 +571,6 @@
         ]
       },
       {
-        "ticker": "BLLN",
-        "company": "BillionToOne, Inc.",
-        "pressure_score": 892.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TSEM",
-        "company": "TOWER SEMICONDUCTOR LTD",
-        "pressure_score": 771.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MAX",
-        "company": "MediaAlpha, Inc.",
-        "pressure_score": 691.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "YOU",
-        "company": "Clear Secure, Inc.",
-        "pressure_score": 592.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "RBRK",
         "company": "Rubrik, Inc.",
         "pressure_score": 584.7,
@@ -630,9 +579,65 @@
         ]
       },
       {
-        "ticker": "QLYS",
-        "company": "QUALYS, INC.",
-        "pressure_score": 569.5,
+        "ticker": "WTI",
+        "company": "W&T OFFSHORE INC",
+        "pressure_score": 546.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FORM",
+        "company": "FORMFACTOR INC",
+        "pressure_score": 436.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CSTL",
+        "company": "CASTLE BIOSCIENCES INC",
+        "pressure_score": 434.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TTAN",
+        "company": "ServiceTitan, Inc.",
+        "pressure_score": 419.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SNX",
+        "company": "TD SYNNEX CORP",
+        "pressure_score": 409.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PACS",
+        "company": "PACS Group, Inc.",
+        "pressure_score": 368.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "XYZ",
+        "company": "Block, Inc.",
+        "pressure_score": 367.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CLOV",
+        "company": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+        "pressure_score": 358.0,
         "sources": [
           "corporate_insider"
         ]
@@ -686,15 +691,6 @@
       "score": 74.3
     },
     {
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 103758.39,
-      "date": "2026-07-13",
-      "score": 73.4
-    },
-    {
       "ticker": "FIS",
       "company": "Fidelity National Information Services, Inc.",
       "actor": "Goldstein Jeffrey A",
@@ -711,15 +707,6 @@
       "amount": 0.0,
       "date": "2026-07-14",
       "score": 71.6
-    },
-    {
-      "ticker": "HNRG",
-      "company": "HALLADOR ENERGY CO",
-      "actor": "Sugg Barbara Ann",
-      "actor_type": "director",
-      "amount": 63380.63,
-      "date": "2026-07-14",
-      "score": 71.4
     },
     {
       "ticker": "OWLS",
@@ -758,22 +745,40 @@
       "score": 69.3
     },
     {
-      "ticker": "HNRG",
-      "company": "HALLADOR ENERGY CO",
-      "actor": "Sugg Barbara Ann",
-      "actor_type": "director",
-      "amount": 22267.7,
-      "date": "2026-07-14",
-      "score": 69.1
+      "ticker": "ADIL",
+      "company": "ADIAL PHARMACEUTICALS, INC.",
+      "actor": "Coastlands Capital LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 3390.75,
+      "date": "2026-07-16",
+      "score": 67.5
     },
     {
-      "ticker": "RDGL",
-      "company": "VIVOS INC",
-      "actor": "Weeks Brad Allan",
-      "actor_type": "ceo",
-      "amount": 3840.0,
-      "date": "2026-07-09",
-      "score": 68.8
+      "ticker": "ANIX",
+      "company": "Anixa Biosciences Inc",
+      "actor": "Titterton Lewis H jr",
+      "actor_type": "director",
+      "amount": 9174.16,
+      "date": "2026-07-15",
+      "score": 67.2
+    },
+    {
+      "ticker": "KWY",
+      "company": "KINGSWAY Corp",
+      "actor": "Hansen Kent A",
+      "actor_type": "cfo",
+      "amount": 1571.36,
+      "date": "2026-07-15",
+      "score": 67.1
+    },
+    {
+      "ticker": "ADIL",
+      "company": "ADIAL PHARMACEUTICALS, INC.",
+      "actor": "Coastlands Capital LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 5300.0,
+      "date": "2026-07-14",
+      "score": 67.0
     }
   ],
   "institutional_changes": [
@@ -1222,7 +1227,7 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 261490.88,
+        "pnl": 261430.62,
         "win_rate": 0.9576,
         "volume": 630940.1,
         "categories": [
@@ -1232,7 +1237,7 @@
       {
         "wallet": "0xb915070c80",
         "username": "Kingdmandan",
-        "pnl": 48387.87,
+        "pnl": 47091.9,
         "win_rate": 0.9684,
         "volume": 72559.92,
         "categories": [
@@ -1242,8 +1247,8 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 28604.2,
-        "win_rate": 0.9706,
+        "pnl": 28617.82,
+        "win_rate": 0.971,
         "volume": 59504.39,
         "categories": [
           "sports"
@@ -1263,9 +1268,9 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 35527.65,
+        "pnl": 35530.65,
         "win_rate": 0.9424,
-        "volume": 246136.69,
+        "volume": 246737.02,
         "categories": [
           "sports"
         ]
@@ -1273,7 +1278,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 49653.39,
+        "pnl": 50653.39,
         "win_rate": 0.8872,
         "volume": 614808.74,
         "categories": [
@@ -1284,7 +1289,7 @@
       {
         "wallet": "0x618534bef6",
         "username": "batya1",
-        "pnl": 22597.21,
+        "pnl": 22097.77,
         "win_rate": 0.9146,
         "volume": 78298.4,
         "categories": [
@@ -1292,36 +1297,36 @@
         ]
       },
       {
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 30201.72,
+        "win_rate": 0.883,
+        "volume": 119107.5,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x507c0f4f0e",
+        "username": "",
+        "pnl": 35082.2,
+        "win_rate": 0.8713,
+        "volume": 473833.59,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 314466.33,
+        "pnl": 101561.21,
         "win_rate": 0.738,
-        "volume": 3701724.38,
+        "volume": 4098609.67,
         "categories": [
           "sports",
           "politics",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 28844.38,
-        "win_rate": 0.884,
-        "volume": 118161.5,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1fe319cf65",
-        "username": "Jessy571",
-        "pnl": 24504.73,
-        "win_rate": 0.9412,
-        "volume": 300978.82,
-        "categories": [
-          "crypto",
-          "sports"
         ]
       }
     ],
@@ -1329,9 +1334,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 314466.33,
+        "pnl": 101561.21,
         "win_rate": 0.738,
-        "volume": 3701724.38,
+        "volume": 4098609.67,
         "categories": [
           "sports",
           "politics",
@@ -1339,21 +1344,11 @@
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 72771.32,
-        "win_rate": 0.621,
-        "volume": 4800590.21,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 223153.21,
-        "win_rate": 0.629,
-        "volume": 6149282.22,
+        "pnl": 125995.38,
+        "win_rate": 0.637,
+        "volume": 6531380.11,
         "categories": [
           "sports"
         ]
@@ -1361,9 +1356,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 27443.81,
-        "win_rate": 0.4337,
-        "volume": 2228408.47,
+        "pnl": 43981.17,
+        "win_rate": 0.4343,
+        "volume": 2279586.71,
         "categories": [
           "politics",
           "sports",
@@ -1373,9 +1368,19 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 177096.68,
-        "win_rate": 0.529,
-        "volume": 3707432.37,
+        "pnl": 177750.15,
+        "win_rate": 0.54,
+        "volume": 3874382.79,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 56687.99,
+        "win_rate": 0.611,
+        "volume": 4869673.36,
         "categories": [
           "sports"
         ]
@@ -1383,7 +1388,7 @@
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 298421.3,
+        "pnl": 296479.72,
         "win_rate": 0.541,
         "volume": 867537.74,
         "categories": [
@@ -1395,9 +1400,9 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 33790.66,
-        "win_rate": 0.555,
-        "volume": 1178866.28,
+        "pnl": 33666.77,
+        "win_rate": 0.553,
+        "volume": 1285739.14,
         "categories": [
           "sports",
           "crypto"
@@ -1406,21 +1411,11 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 261490.88,
+        "pnl": 261430.62,
         "win_rate": 0.9576,
         "volume": 630940.1,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x0cb0384875",
-        "username": "",
-        "pnl": 19510.69,
-        "win_rate": 0.507,
-        "volume": 1967204.73,
-        "categories": [
-          "crypto"
         ]
       },
       {
@@ -1432,62 +1427,49 @@
         "categories": [
           "sports"
         ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 44742.68,
+        "win_rate": 0.545,
+        "volume": 1141394.46,
+        "categories": [
+          "sports"
+        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Russian hacker turns Gemini CLI into a hacking agent , creates small - scale botnet",
-      "url": "https://www.techradar.com/pro/security/russian-hacker-turns-gemini-cli-into-a-hacking-agent-creates-small-scale-botnet",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "My internet felt slow for years , and the fix was in my router , not my plan",
-      "url": "https://www.makeuseof.com/fix-slow-internet-with-manual-wi-fi-channel-selection/",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Frost & Sullivan : CrowdStrike Named Company of the Year for Identity Threat Detection and Response",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69050162-frost-sullivan-crowdstrike-named-company-of-the-year-for-identity-threat-detection-and-response-008.htm",
-      "ticker": "CRWD",
-      "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Cloudflare uses eBPF to boost edge security & routing",
-      "url": "https://itbrief.co.nz/story/cloudflare-uses-ebpf-to-boost-edge-security-routing",
-      "ticker": "NET",
+      "title": "Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? ",
+      "url": "https://www.fool.com/investing/2026/07/16/down-50-from-its-high-is-coreweave-a-bargain-or-a/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
-        "regulatory"
+        "ai"
       ],
       "date": "2026-07-16"
     },
     {
-      "title": "BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026",
-      "url": "https://www.manilatimes.net/2026/07/15/tmt-newswire/globenewswire/billiontoone-to-report-second-quarter-2026-financial-results-on-august-5-2026/2385017",
-      "ticker": "BLLN",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
-      "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
-      "ticker": "BLLN",
+      "title": "Here Why the CoreWeave Stock Price is Diving and Why it May Hit $50",
+      "url": "https://www.banklesstimes.com/articles/2026/07/16/heres-why-the-coreweave-stock-price-is-diving-and-why-it-may-hit-50/",
+      "ticker": "CRWV",
       "themes": [
         "stock"
       ],
-      "date": "2026-07-14"
+      "date": "2026-07-16"
     },
     {
-      "title": "Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-billiontoone-nasdaqblln-ceo-sells-1576250-00-in-stock.html",
-      "ticker": "BLLN",
+      "title": "Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries",
+      "url": "http://baystreet.ca/stockstowatch/23674/Baker-Hughes-Climbs-on-Buying-Chart-Industries",
+      "ticker": "GTLS",
+      "themes": [],
+      "date": "2026-07-16"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
+      "ticker": "UTHR",
       "themes": [
         "leadership",
         "stock"
@@ -1495,27 +1477,38 @@
       "date": "2026-07-13"
     },
     {
-      "title": "A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/billiontoone-insider-sold-801-shares-001636563.html",
-      "ticker": "BLLN",
+      "title": "Regal Rexnord Corporation to Host Second Quarter 2026 Earnings Conference Call on Wednesday , August 5 , 2026",
+      "url": "https://www.prnewswire.com/news-releases/regal-rexnord-corporation-to-host-second-quarter-2026-earnings-conference-call-on-wednesday-august-5-2026-302822396.html",
+      "ticker": "RRX",
       "themes": [
         "earnings",
-        "stock"
+        "regulatory"
       ],
-      "date": "2026-07-13"
+      "date": "2026-07-10"
     },
     {
-      "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/09/billiontoone-nasdaqblln-ceo-oguzhan-atay-sells-26250-shares-of-stock.html",
-      "ticker": "BLLN",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-07-09"
+      "title": "Chart Industries ( NYSE : GTLS ) Reaches New 52 - Week High – What Next ? ",
+      "url": "https://www.themarketsdaily.com/2026/07/07/chart-industries-nysegtls-reaches-new-52-week-high-whats-next.html",
+      "ticker": "GTLS",
+      "themes": [],
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) ",
+      "url": "https://www.themarketsdaily.com/2026/07/06/analyzing-four-corners-property-trust-nysefcpt-global-net-lease-nysegnl.html",
+      "ticker": "FCPT",
+      "themes": [],
+      "date": "2026-07-06"
+    },
+    {
+      "title": "Why Regal Rexnord Corporation ( RRX ) Motion Components Matter Inside the Automation Stack",
+      "url": "https://www.insidermonkey.com/blog/why-regal-rexnord-corporations-rrx-motion-components-matter-inside-the-automation-stack-1796031/",
+      "ticker": "RRX",
+      "themes": [],
+      "date": "2026-07-06"
     }
   ],
-  "signals_count": 1767,
+  "signals_count": 1628,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
