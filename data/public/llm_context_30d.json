@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-16T00:26:53.321173+00:00",
+  "generated_at": "2026-07-16T03:52:50.300033+00:00",
   "window": {
     "from": "2026-06-16",
     "to": "2026-07-16",
@@ -25,9 +25,8 @@
     "top_themes": [
       "stock",
       "leadership",
-      "earnings",
       "regulatory",
-      "merger"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -101,9 +100,7 @@
       "event_date": "2026-07-14",
       "importance_score": 85.1,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_118634551407"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1296372/000119312526304765/"
     },
     {
@@ -139,9 +136,7 @@
       "event_date": "2026-07-14",
       "importance_score": 84.0,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_118634551407"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1603592/000119312526304755/"
     },
     {
@@ -400,15 +395,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "JCTC",
-        "company": "JEWETT CAMERON TRADING CO LTD",
-        "pressure_score": 548.5,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "ENR",
         "company": "ENERGIZER HOLDINGS, INC.",
         "pressure_score": 386.5,
@@ -520,13 +506,37 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "RAY",
+        "company": "Raytech Holding Limited",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
       {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 3314.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "NET",
         "company": "Cloudflare, Inc.",
         "pressure_score": 2010.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1752.6,
         "sources": [
           "corporate_insider"
         ]
@@ -573,15 +583,6 @@
         ]
       },
       {
-        "ticker": "EEX",
-        "company": "Emerald Holding, Inc.",
-        "pressure_score": 780.7,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "TSEM",
         "company": "TOWER SEMICONDUCTOR LTD",
         "pressure_score": 771.0,
@@ -614,6 +615,14 @@
         ]
       },
       {
+        "ticker": "YOU",
+        "company": "Clear Secure, Inc.",
+        "pressure_score": 588.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "QLYS",
         "company": "QUALYS, INC.",
         "pressure_score": 569.5,
@@ -625,22 +634,6 @@
         "ticker": "BBY",
         "company": "BEST BUY CO INC",
         "pressure_score": 529.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ABNB",
-        "company": "Airbnb, Inc.",
-        "pressure_score": 525.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "KBH",
-        "company": "KB HOME",
-        "pressure_score": 523.3,
         "sources": [
           "corporate_insider"
         ]
@@ -1001,6 +994,14 @@
     },
     {
       "politician": "Matthew Robert Van Epps",
+      "ticker": "META",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-16",
+      "score": 63.9
+    },
+    {
+      "politician": "Matthew Robert Van Epps",
       "ticker": "MSFT",
       "direction": "sell",
       "amount": 15000,
@@ -1074,14 +1075,6 @@
     {
       "politician": "Matthew Robert Van Epps",
       "ticker": "GEV",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-16",
-      "score": 62.6
-    },
-    {
-      "politician": "Matthew Robert Van Epps",
-      "ticker": "INTC",
       "direction": "sell",
       "amount": 15000,
       "date": "2026-06-16",
@@ -1228,173 +1221,84 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x7c1ee865a7",
-        "username": "CandleHammerDrums",
-        "pnl": 393834.22,
-        "win_rate": 0.9643,
-        "volume": 737378.21,
+        "wallet": "0xb915070c80",
+        "username": "Kingdmandan",
+        "pnl": 47026.81,
+        "win_rate": 0.9684,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe549581668",
-        "username": "Allezpapa",
-        "pnl": 183396.14,
-        "win_rate": 0.9877,
-        "volume": 1011972.75,
+        "wallet": "0x9c3ce009c9",
+        "username": "0x0x23kjookhaiuohduoayh8c9",
+        "pnl": 17307.16,
+        "win_rate": 0.9281,
+        "volume": 4607.86,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 30658.31,
+        "win_rate": 0.884,
+        "volume": 2943.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 99982.72,
-        "win_rate": 0.9796,
-        "volume": 904332.86,
+        "wallet": "0xd81e5bc01e",
+        "username": "beet420",
+        "pnl": 6646.97,
+        "win_rate": 0.9443,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x65018f9fc4",
-        "username": "cnyek",
-        "pnl": 294917.06,
-        "win_rate": 0.9535,
-        "volume": 388166.11,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 77144.15,
+        "win_rate": 0.737,
+        "volume": 279320.39,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe221be3b45",
-        "username": "Jokerxing7",
-        "pnl": 274630.26,
-        "win_rate": 0.9722,
-        "volume": 778884.91,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x580d9dcca0",
-        "username": "warluigi",
-        "pnl": 164651.23,
-        "win_rate": 0.8871,
-        "volume": 309020.7,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x134a63b764",
-        "username": "Bertapotamous",
-        "pnl": 104759.58,
-        "win_rate": 0.885,
-        "volume": 220635.22,
-        "categories": [
+          "sports",
           "politics",
-          "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x5b6e80132e",
-        "username": "anurag",
-        "pnl": 164392.26,
-        "win_rate": 0.9714,
-        "volume": 219469.31,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xa49becb692",
-        "username": "sleepy-panda",
-        "pnl": 270441.38,
-        "win_rate": 0.813,
-        "volume": 503444.02,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x85bbb00a84",
-        "username": "Prelode",
-        "pnl": 145035.0,
-        "win_rate": 0.8116,
-        "volume": 439290.64,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x84cfffc3f1",
-        "username": "mooseborzoi",
-        "pnl": 1985320.37,
-        "win_rate": 0.36,
-        "volume": 9427160.68,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xcbd899a4fb",
-        "username": "harrycrisch",
-        "pnl": 338627.23,
-        "win_rate": 1.0,
-        "volume": 1454730.36,
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 7119.35,
+        "win_rate": 0.824,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x95f51617e9",
-        "username": "0x95F51617E900F7d4df2894D77A73c1b2B269779F-1767804195553",
-        "pnl": 107684.97,
-        "win_rate": 0.436,
-        "volume": 4864815.07,
+        "wallet": "0xbc43c8bfbc",
+        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+        "pnl": 10922.21,
+        "win_rate": 0.7541,
+        "volume": 0.0,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0x9f2fe025f8",
-        "username": "surfandturf",
-        "pnl": 668140.56,
-        "win_rate": 0.519,
-        "volume": 1757852.98,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 88024.27,
-        "win_rate": 0.8116,
-        "volume": 1891879.99,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x669dc922f6",
-        "username": "tttny",
-        "pnl": 224699.54,
-        "win_rate": 1.0,
-        "volume": 1041487.02,
+        "wallet": "0x04e6840687",
+        "username": "paquitomillonario",
+        "pnl": 9180.63,
+        "win_rate": 0.7436,
+        "volume": 33962.06,
         "categories": [
           "sports"
         ]
@@ -1402,46 +1306,148 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 336507.92,
+        "pnl": 40913.43,
         "win_rate": 0.64,
-        "volume": 2578328.04,
+        "volume": 72906.53,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3acf5878a",
-        "username": "mentionmarket",
-        "pnl": 265246.49,
-        "win_rate": 0.7135,
-        "volume": 1427650.85,
+        "wallet": "0x8c80d213c0",
+        "username": "SecondWindCapital",
+        "pnl": 16384.42,
+        "win_rate": 0.8235,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 77144.15,
+        "win_rate": 0.737,
+        "volume": 279320.39,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 11485.62,
+        "win_rate": 0.4321,
+        "volume": 155568.28,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 11021.82,
+        "win_rate": 0.624,
+        "volume": 132821.37,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe549581668",
-        "username": "Allezpapa",
-        "pnl": 183396.14,
-        "win_rate": 0.9877,
-        "volume": 1011972.75,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 40913.43,
+        "win_rate": 0.64,
+        "volume": 72906.53,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 227629.52,
-        "win_rate": 0.489,
-        "volume": 1558819.67,
+        "wallet": "0x5724d903d3",
+        "username": "sau18",
+        "pnl": 17566.17,
+        "win_rate": 1.0,
+        "volume": 71611.53,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x511f9c7714",
+        "username": "Bigggggggg",
+        "pnl": 15152.6,
+        "win_rate": 0.436,
+        "volume": 134065.56,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x0f35109cc3",
+        "username": "",
+        "pnl": 27254.64,
+        "win_rate": 0.5027,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xd218e47477",
+        "username": "cigarettes",
+        "pnl": 10289.42,
+        "win_rate": 0.393,
+        "volume": 94740.65,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x0eb45057ee",
+        "username": "",
+        "pnl": 15649.05,
+        "win_rate": 0.0196,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3d8a89a20a",
+        "username": "Poyo",
+        "pnl": 50763.48,
+        "win_rate": 0.5585,
+        "volume": 0.0,
+        "categories": [
+          "politics",
+          "crypto",
           "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Can CoreWeave Become a $1 Trillion Company ? ",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-become-1-trillion-company-012000412.html",
+      "ticker": "CRWV",
+      "themes": [],
+      "date": "2026-07-16"
+    },
     {
       "title": "BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026",
       "url": "https://www.manilatimes.net/2026/07/15/tmt-newswire/globenewswire/billiontoone-to-report-second-quarter-2026-financial-results-on-august-5-2026/2385017",
@@ -1452,18 +1458,18 @@
       "date": "2026-07-15"
     },
     {
-      "title": "Zacks Research Issues Positive Forecast for KB Home Earnings",
-      "url": "https://www.dailypolitical.com/2026/07/15/zacks-research-issues-positive-forecast-for-kb-home-earnings.html",
-      "ticker": "KBH",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-15"
-    },
-    {
       "title": "Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust",
       "url": "https://www.tickerreport.com/banking-finance/13503207/billiontoone-inc-blln-shares-bought-by-emerald-mutual-fund-advisers-trust.html",
       "ticker": "BLLN",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "ServiceTitan Inc . $TTAN Shares Sold by Hsbc Holdings PLC",
+      "url": "https://www.themarketsdaily.com/2026/07/14/servicetitan-inc-ttan-shares-sold-by-hsbc-holdings-plc.html",
+      "ticker": "TTAN",
       "themes": [
         "stock"
       ],
@@ -1480,16 +1486,6 @@
       "date": "2026-07-13"
     },
     {
-      "title": "Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan",
-      "url": "https://finance.yahoo.com/real-estate/articles/whitestone-reit-shareholders-approve-areg-000155539.html",
-      "ticker": "WSR",
-      "themes": [
-        "merger",
-        "leadership"
-      ],
-      "date": "2026-07-13"
-    },
-    {
       "title": "A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/billiontoone-insider-sold-801-shares-001636563.html",
       "ticker": "BLLN",
@@ -1500,32 +1496,13 @@
       "date": "2026-07-13"
     },
     {
-      "title": "KB HOME OPENS MEADOWBROOK : NEW TOWNHOMES IN CAMPBELL , CALIFORNIA",
-      "url": "https://www.prnewswire.com/news-releases/kb-home-opens-meadowbrook-new-townhomes-in-campbell-california-302823100.html",
-      "ticker": "KBH",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "KB HOME NAMED ONE OF AMERICA BEST COMPANIES BY TIME",
-      "url": "https://www.prnewswire.com/news-releases/kb-home-named-one-of-americas-best-companies-by-time-302822468.html",
-      "ticker": "KBH",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "KB HOME OPENS ENCLAVES AT TUMAMOC : HOMES PRICED FROM THE LOW $300Ks IN A CENTRAL TUCSON , ARIZONA LOCATION",
-      "url": "https://www.prnewswire.com/news-releases/kb-home-opens-enclaves-at-tumamoc-homes-priced-from-the-low-300ks-in-a-central-tucson-arizona-location-302822461.html",
-      "ticker": "KBH",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Y Intercept Hong Kong Ltd Grows Position in KB Home $KBH",
-      "url": "https://www.themarketsdaily.com/2026/07/10/y-intercept-hong-kong-ltd-grows-position-in-kb-home-kbh.html",
-      "ticker": "KBH",
-      "themes": [],
-      "date": "2026-07-10"
+      "title": "ServiceTitan ( TTAN ): Best Up and Coming Tech Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/technology/articles/servicetitan-ttan-best-coming-tech-162715715.html",
+      "ticker": "TTAN",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-11"
     },
     {
       "title": "Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock",
@@ -1538,7 +1515,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1555,
+  "signals_count": 1645,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

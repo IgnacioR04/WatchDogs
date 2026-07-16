@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-16T00:27:47+00:00 -->
+<!-- trader_prompt.md generado 2026-07-16T03:53:43+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T00:27:47+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-16T03:53:43+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -254,33 +254,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 754.81 | 0.4% | 1.26% | 0.25% |
 | QQQ | 12.0% | core | 717.74 | -0.27% | 0.89% | -3.42% |
 | TLT | 12.0% | core | 84.24 | 0.19% | -0.14% | -1.36% |
+| ECAT | 10.4% | satellite | 15.65 | 0.19% | 1.66% | 3.24% |
 | GLD | 9.3% | core | 372.35 | 0.05% | -0.56% | -6.1% |
-| ECAT | 8.8% | satellite | 15.65 | -1.51% | -0.06% | 1.49% |
+| PB | 6.9% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
+| BEP | 6.3% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
 | IEF | 6.2% | core | 93.78 | 0.25% | 0.29% | -0.2% |
-| PB | 5.9% | satellite | 72.49 | -0.01% | 2.92% | 1.87% |
-| BEP | 5.3% | satellite | 32.52 | 1.28% | -2.58% | -6.09% |
-| HQY | 3.7% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
-| ENR | 3.1% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
-| ETSY | 3.0% | satellite | 85.74 | 3.23% | 11.06% | 18.77% |
-| FIVN | 2.0% | satellite | 24.86 | -2.81% | 2.73% | 20.33% |
-| LUNR | 1.1% | satellite | 14.85 | -0.4% | -12.75% | -42.35% |
-| BOT | 0.6% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
+| HQY | 4.4% | satellite | 95.07 | 0.6% | 0.36% | 9.31% |
+| ENR | 3.6% | satellite | 20.69 | 1.37% | 3.04% | 2.78% |
+| LUNR | 1.2% | satellite | 14.85 | -0.4% | -12.75% | -42.35% |
+| BOT | 0.7% | satellite | 31.59 | -13.95% | -5.31% | -17.02% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.3%
+- Volatilidad anualizada: 10.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.626 · posiciones efectivas: 13.6 · HHI: 0.0737
+- Max drawdown historico: -2.9%
+- Beta vs SPY: 0.623 · posiciones efectivas: 12.7 · HHI: 0.0788
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **ENR** · score agregado 307.6 · 5 señales · fuentes: corporate_insider
 - **HQY** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **LUNR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **FIVN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PB** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ETSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BOT** · score agregado 70.5 · 1 señales · fuentes: corporate_insider
 - **ECAT** · score agregado 59.3 · 1 señales · fuentes: corporate_insider
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -297,15 +293,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | FULC | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
 | LUNR | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
-| JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | EEX | 72 | large_holder | Onex Corporation |  | - | - |
 | FIVN | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | TRC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | PB | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 | AOSL | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
-| ETSY | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | BOT | 70 | corporate_insider | Kang Andrew Kai | 0 | $9,999,988 | - |
+| RYAM | 70 | large_holder | Lightship Capital III LP |  | - | - |
+| ATPC | 70 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -313,12 +309,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
+| META | 64 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | MSFT | 64 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 | AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -335,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.78 (0.25% / 0.29% / -0.2%) [2026-07-15]
 - GLD: 372.35 (0.05% / -0.56% / -6.1%) [2026-07-15]
 - ^VIX: 15.67 (-5.03% / -7.28% / -3.27%) [2026-07-15]
-- BTC-USD: 64532.44 (-0.65% / 0.63% / 8.06%) [2026-07-16]
+- BTC-USD: 64523.26 (-0.67% / 0.62% / 8.04%) [2026-07-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,20 +346,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (3), earnings (2), regulatory (1), merger (1)
+**Temas dominantes**: stock (6), leadership (2), regulatory (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWV] Can CoreWeave Become a $1 Trillion Company ? (2026-07-16)
 - [BLLN] BillionToOne to Report Second Quarter 2026 Financial Results on August 5 , 2026 (2026-07-15)
-- [KBH] Zacks Research Issues Positive Forecast for KB Home Earnings (2026-07-15)
 - [BLLN] Billiontoone , Inc . $BLLN Shares Bought by Emerald Mutual Fund Advisers Trust (2026-07-14)
+- [TTAN] ServiceTitan Inc . $TTAN Shares Sold by Hsbc Holdings PLC (2026-07-14)
 - [BLLN] Insider Selling : Billiontoone ( NASDAQ : BLLN ) CEO Sells $1 , 576 , 250 . 00 in Stock (2026-07-13)
-- [WSR] Whitestone REIT Shareholders Approve AREG Merger , Reject Executive Pay Plan (2026-07-13)
 - [BLLN] A BillionToOne Insider Sold 801 Shares as Revenue Jumped 84 % (2026-07-13)
-- [KBH] KB HOME OPENS MEADOWBROOK : NEW TOWNHOMES IN CAMPBELL , CALIFORNIA (2026-07-10)
-- [KBH] KB HOME NAMED ONE OF AMERICA BEST COMPANIES BY TIME (2026-07-10)
-- [KBH] KB HOME OPENS ENCLAVES AT TUMAMOC : HOMES PRICED FROM THE LOW $300Ks IN A CENTRAL TUCSON , ARIZONA LOCATION (2026-07-10)
-- [KBH] Y Intercept Hong Kong Ltd Grows Position in KB Home $KBH (2026-07-10)
+- [TTAN] ServiceTitan ( TTAN ): Best Up and Coming Tech Stocks to Buy Now (2026-07-11)
+- [BLLN] Billiontoone ( NASDAQ : BLLN ) CEO Oguzhan Atay Sells 26 , 250 Shares of Stock (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CandleHammerDrums · PnL $393,834 · win rate 96% · categorias: sports
-- Allezpapa · PnL $183,396 · win rate 99% · categorias: sports
-- 111111111115 · PnL $99,983 · win rate 98% · categorias: sports
-- cnyek · PnL $294,917 · win rate 95% · categorias: sports
-- Jokerxing7 · PnL $274,630 · win rate 97% · categorias: sports
+- Kingdmandan · PnL $47,027 · win rate 97% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $17,307 · win rate 93% · categorias: sports, crypto
+- ic4cream · PnL $30,658 · win rate 88% · categorias: sports
+- beet420 · PnL $6,647 · win rate 94% · categorias: sports
+- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $77,144 · win rate 74% · categorias: sports, politics, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +384,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 33 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 641 registros 30d · ultimo dato 2026-07-15
+- **sec_insiders**: `ok` · 731 registros 30d · ultimo dato 2026-07-15
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -403,7 +397,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, ETSY, FIVN, GLD, HQY, IEF, LUNR, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BOT, ECAT, ENR, GLD, HQY, IEF, LUNR, PB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
