@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-17T03:54:12+00:00 -->
+<!-- trader_prompt.md generado 2026-07-17T06:43:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T03:54:12+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-17T06:43:20+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -255,17 +255,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 705.94 | -1.64% | -2.4% | -3.17% |
 | TLT | 12.0% | core | 84.21 | -0.04% | -0.33% | -1.94% |
 | BEP | 12.0% | satellite | 31.8 | -2.21% | -3.58% | -7.23% |
-| GLD | 11.4% | core | 364.96 | -1.98% | -3.5% | -8.22% |
-| MPWR | 10.2% | satellite | 1305.65 | -3.48% | -4.98% | -12.75% |
-| CELC | 7.8% | satellite | 88.29 | -3.52% | -22.22% | 1.11% |
-| IEF | 7.6% | core | 93.72 | -0.06% | 0.01% | -0.52% |
+| GLD | 11.3% | core | 364.96 | -1.98% | -3.5% | -8.22% |
+| MPWR | 10.0% | satellite | 1305.65 | -3.48% | -4.98% | -12.75% |
+| CELC | 8.2% | satellite | 88.29 | -3.52% | -22.22% | 1.11% |
+| IEF | 7.5% | core | 93.72 | -0.06% | 0.01% | -0.52% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 16.2%
+- Volatilidad anualizada: 16.1%
 - VaR 95% 1d: 1.5% · CVaR 95% 1d: 2.0%
-- Max drawdown historico: -6.6%
-- Beta vs SPY: 0.933 · posiciones efectivas: 10.8 · HHI: 0.0929
+- Max drawdown historico: -6.5%
+- Beta vs SPY: 0.935 · posiciones efectivas: 10.8 · HHI: 0.0927
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -323,7 +323,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.72 (-0.06% / 0.01% / -0.52%) [2026-07-16]
 - GLD: 364.96 (-1.98% / -3.5% / -8.22%) [2026-07-16]
 - ^VIX: 16.73 (6.76% / 5.62% / 1.95%) [2026-07-16]
-- BTC-USD: 63496.58 (-1.88% / -0.48% / 5.8%) [2026-07-17]
+- BTC-USD: 62837.73 (-1.49% / -1.44% / 4.83%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -338,18 +338,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), leadership (1), earnings (1)
+**Temas dominantes**: stock (3), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MRVL] Why Marvell Technology ( MRVL ) Stock Is Down Today (2026-07-16)
-- [MRVL] FinancialContent - Why Marvell Technology ( MRVL ) Stock Is Down Today (2026-07-16)
-- [CRS] Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS (2026-07-16)
+- [CRWV] Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? (2026-07-16)
+- [CRWV] Here Why the CoreWeave Stock Price is Diving and Why it May Hit $50 (2026-07-16)
+- [GTLS] Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries (2026-07-16)
+- [MDB] Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB (2026-07-15)
 - [BRSL] Brightstar Lottery seals multi - year extension with Washington Lottery (2026-07-14)
+- [MDB] Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB (2026-07-14)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
-- [CRS] Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS (2026-07-11)
+- [GTLS] Chart Industries ( NYSE : GTLS ) Reaches New 52 - Week High – What Next ? (2026-07-07)
 - [FCPT] Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) (2026-07-06)
-- [CRS] 5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -364,11 +365,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $262,875 · win rate 86% · categorias: sports
-- GoldenAlpha168 · PnL $8,628 · win rate 100% · categorias: sports
-- esportGG · PnL $19,097 · win rate 94% · categorias: sports
-- comon119 · PnL $8,358 · win rate 99% · categorias: sports, crypto, politics
-- 111111111115 · PnL $13,820 · win rate 95% · categorias: sports
+- BreakTheBank · PnL $263,177 · win rate 86% · categorias: sports
+- esportGG · PnL $26,956 · win rate 94% · categorias: sports
+- comon119 · PnL $10,285 · win rate 99% · categorias: sports, crypto, politics
+- onekey02 · PnL $10,301 · win rate 96% · categorias: politics, crypto, sports
+- Themsnw · PnL $49,365 · win rate 88% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
