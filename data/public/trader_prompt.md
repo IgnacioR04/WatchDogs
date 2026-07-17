@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-17T06:43:20+00:00 -->
+<!-- trader_prompt.md generado 2026-07-17T09:39:09+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T06:43:20+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-17T09:39:09+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.73)
+- Volatilidad: `normal` (VIX 18.37)
 - Tendencia: `bull` (SPY 750.72 · MA50 742.81 · MA200 693.01 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.41)
@@ -322,8 +322,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.21 (-0.04% / -0.33% / -1.94%) [2026-07-16]
 - IEF: 93.72 (-0.06% / 0.01% / -0.52%) [2026-07-16]
 - GLD: 364.96 (-1.98% / -3.5% / -8.22%) [2026-07-16]
-- ^VIX: 16.73 (6.76% / 5.62% / 1.95%) [2026-07-16]
-- BTC-USD: 62837.73 (-1.49% / -1.44% / 4.83%) [2026-07-17]
+- ^VIX: 18.37 (9.8% / 22.22% / -0.38%) [2026-07-17]
+- BTC-USD: 62892.67 (-1.41% / -1.36% / 4.93%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -338,19 +338,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1), leadership (1)
+**Temas dominantes**: stock (3), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWV] Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? (2026-07-16)
 - [CRWV] Here Why the CoreWeave Stock Price is Diving and Why it May Hit $50 (2026-07-16)
 - [GTLS] Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries (2026-07-16)
-- [MDB] Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB (2026-07-15)
+- [CRS] Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS (2026-07-16)
 - [BRSL] Brightstar Lottery seals multi - year extension with Washington Lottery (2026-07-14)
-- [MDB] Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB (2026-07-14)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
+- [CRS] Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS (2026-07-11)
 - [GTLS] Chart Industries ( NYSE : GTLS ) Reaches New 52 - Week High – What Next ? (2026-07-07)
 - [FCPT] Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) (2026-07-06)
+- [CRS] 5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -365,11 +365,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $263,177 · win rate 86% · categorias: sports
-- esportGG · PnL $26,956 · win rate 94% · categorias: sports
-- comon119 · PnL $10,285 · win rate 99% · categorias: sports, crypto, politics
-- onekey02 · PnL $10,301 · win rate 96% · categorias: politics, crypto, sports
-- Themsnw · PnL $49,365 · win rate 88% · categorias: sports, politics
+- BreakTheBank · PnL $265,426 · win rate 86% · categorias: sports
+- esportGG · PnL $24,681 · win rate 94% · categorias: sports
+- comon119 · PnL $11,279 · win rate 99% · categorias: sports, crypto, politics
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $25,413 · win rate 88% · categorias: sports
+- Themsnw · PnL $47,797 · win rate 88% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
