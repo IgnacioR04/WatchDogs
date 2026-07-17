@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-07-17T17:46:34+00:00",
+  "generated_at": "2026-07-17T19:48:33+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.12,
-    "GLD": 0.113,
-    "MPWR": 0.0997,
-    "CELC": 0.082,
-    "IEF": 0.0754
+    "BEP": 0.0964,
+    "GLD": 0.0932,
+    "ELV": 0.0892,
+    "PNTG": 0.0708,
+    "IEF": 0.0622,
+    "MPWR": 0.0429,
+    "NUVL": 0.0355
   },
   "core": {
     "SPY": 0.1934,
@@ -22,18 +24,36 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CELC": 0.0601,
-    "MPWR": 0.0731,
-    "BEP": 0.1643
+    "ELV": 0.0793,
+    "NUVL": 0.0316,
+    "PNTG": 0.0629,
+    "MPWR": 0.0381,
+    "BEP": 0.0857
   },
   "satellite_rationale": [
     {
-      "ticker": "CELC",
-      "score": 142.0,
+      "ticker": "ELV",
+      "score": 234.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "NUVL",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
+    },
+    {
+      "ticker": "PNTG",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "MPWR",
@@ -53,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1611,
-    "var_95_1d": 0.0148,
-    "cvar_95_1d": 0.0203,
-    "max_drawdown": -0.0653,
-    "beta_spy": 0.935,
-    "hhi": 0.0927,
+    "ann_vol": 0.1239,
+    "var_95_1d": 0.0121,
+    "cvar_95_1d": 0.0154,
+    "max_drawdown": -0.0421,
+    "beta_spy": 0.705,
+    "hhi": 0.0811,
     "max_position": 0.12,
-    "n_positions": 8,
-    "effective_positions": 10.8,
-    "gross_exposure": 0.8501,
+    "n_positions": 10,
+    "effective_positions": 12.3,
+    "gross_exposure": 0.8502,
     "days_used": 86
   },
   "risk_gate": {

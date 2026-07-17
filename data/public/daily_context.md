@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T17:46:35+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-17T19:48:34+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.73)
-- Tendencia: `bull` (SPY 745.55 · MA50 743.28 · MA200 693.45 · dist MA200: 7.51%)
+- Volatilidad: `normal` (VIX 18.78)
+- Tendencia: `bull` (SPY 743.78 · MA50 743.24 · MA200 693.44 · dist MA200: 7.26%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
@@ -22,25 +22,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 745.55 | -0.69% | -1.25% | 0.88% |
-| QQQ | 12.0% | core | 699.78 | -0.87% | -3.55% | -3.04% |
-| TLT | 12.0% | core | 84.53 | 0.37% | 0.07% | -1.73% |
-| BEP | 12.0% | satellite | 31.81 | 0.03% | -1.61% | -7.1% |
-| GLD | 11.3% | core | 367.92 | 0.81% | -2.41% | -5.32% |
-| MPWR | 10.0% | satellite | 1327.53 | 1.68% | -1.86% | -8.19% |
-| CELC | 8.2% | satellite | 89.6 | 1.48% | -16.72% | 1.75% |
-| IEF | 7.5% | core | 93.85 | 0.14% | 0.24% | 0.15% |
+| SPY | 12.0% | core | 743.78 | -0.92% | -1.48% | 0.64% |
+| QQQ | 12.0% | core | 696.43 | -1.35% | -4.01% | -3.5% |
+| TLT | 12.0% | core | 84.51 | 0.36% | 0.05% | -1.74% |
+| BEP | 9.6% | satellite | 31.81 | 0.03% | -1.61% | -7.1% |
+| GLD | 9.3% | core | 367.92 | 0.81% | -2.41% | -5.32% |
+| ELV | 8.9% | satellite | 371.31 | -0.41% | -10.79% | -5.1% |
+| PNTG | 7.1% | satellite | 41.79 | 0.19% | 3.19% | 20.85% |
+| IEF | 6.2% | core | 93.82 | 0.11% | 0.21% | 0.12% |
+| MPWR | 4.3% | satellite | 1317.15 | 0.88% | -2.63% | -8.91% |
+| NUVL | 3.5% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 16.1%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 2.0%
-- Max drawdown historico: -6.5%
-- Beta vs SPY: 0.935 · posiciones efectivas: 10.8 · HHI: 0.0927
+- Volatilidad anualizada: 12.4%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -4.2%
+- Beta vs SPY: 0.705 · posiciones efectivas: 12.3 · HHI: 0.0811
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **CELC** · score agregado 142.0 · 2 señales · fuentes: large_holder
+- **ELV** · score agregado 234.7 · 3 señales · fuentes: corporate_insider
+- **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **PNTG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **MPWR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -50,8 +54,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| ELV | 81 | corporate_insider | BOUDREAUX GAIL | 2 | $753,071 | cluster_buy |
+| ELV | 78 | corporate_insider | BOUDREAUX GAIL | 2 | $249,159 | cluster_buy |
+| ELV | 75 | corporate_insider | PERU RAMIRO G | 2 | $366,050 | cluster_buy |
+| YORW | 73 | corporate_insider | Hand Joseph Thomas | 6 | $3,250 | cluster_buy,small_amount |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| CELC | 72 | large_holder | Baker Bros. Advisors LP |  | - | - |
+| NUVL | 72 | large_holder | Deerfield Management Comp |  | - | - |
+| PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | MPWR | 72 | large_holder | Invesco Ltd. |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
@@ -59,12 +68,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TYG | 71 | corporate_insider | PRUDENTIAL FINANCIAL INC | 0 | $30,000,000 | - |
 | TYG | 71 | corporate_insider | PRUDENTIAL FINANCIAL INC | 0 | $30,000,000 | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| VYNE | 70 | large_holder | Zhang Xiaofan |  | - | - |
-| AEIS | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| HAS | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| HXL | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| ZUMZ | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| WASH | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| TACT | 70 | large_holder | Poplar Point Capital Mana |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -86,15 +90,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 745.55 (-0.69% / -1.25% / 0.88%) [2026-07-17]
-- QQQ: 699.78 (-0.87% / -3.55% / -3.04%) [2026-07-17]
-- IWM: 294.95 (-0.22% / -0.35% / 1.75%) [2026-07-17]
-- DIA: 522.34 (-0.47% / -0.65% / 1.45%) [2026-07-17]
-- TLT: 84.53 (0.37% / 0.07% / -1.73%) [2026-07-17]
-- IEF: 93.85 (0.14% / 0.24% / 0.15%) [2026-07-17]
+- SPY: 743.78 (-0.92% / -1.48% / 0.64%) [2026-07-17]
+- QQQ: 696.43 (-1.35% / -4.01% / -3.5%) [2026-07-17]
+- IWM: 294.01 (-0.54% / -0.67% / 1.42%) [2026-07-17]
+- DIA: 521.43 (-0.65% / -0.83% / 1.27%) [2026-07-17]
+- TLT: 84.51 (0.36% / 0.05% / -1.74%) [2026-07-17]
+- IEF: 93.82 (0.11% / 0.21% / 0.12%) [2026-07-17]
 - GLD: 367.92 (0.81% / -2.41% / -5.32%) [2026-07-17]
-- ^VIX: 17.73 (5.98% / 17.96% / -3.85%) [2026-07-17]
-- BTC-USD: 64002.56 (0.33% / 0.38% / 6.78%) [2026-07-17]
+- ^VIX: 18.78 (12.25% / 24.95% / 1.84%) [2026-07-17]
+- BTC-USD: 64107.6 (0.5% / 0.55% / 6.95%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -109,27 +113,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), ai (2), regulatory (1), leadership (1)
+**Temas dominantes**: stock (6), ai (2), regulatory (1), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRDO] Agroz Inc . Announces Publicly Traded Shares Name Change to Class A Ordinary Shares (2026-07-17)
 - [NBIS] Nebius Group ( NASDAQ : NBIS ) Stock Price Up 2 . 8 % – What Next ? (2026-07-17)
 - [NBIS] 2026 - 07 - 17 | Nebius raises $775 million in first secured debt financing to accelerate global buildout | NDAQ : NBIS (2026-07-17)
+- [CRS] Zacks Research Upgrades Carpenter Technology ( NYSE : CRS ) to  Strong - Buy (2026-07-17)
 - [MRVL] Financiere des Professionnels Fonds d investissement inc . Purchases Shares of 25 , 413 Marvell Technology , Inc . $MRVL (2026-07-17)
-- [ANET] Arista Networks ( NYSE : ANET ) CEO Sells $43 , 908 , 310 . 04 in Stock (2026-07-17)
-- [ANET] Arista Networks ( NYSE : ANET ) Shares Down 2 . 2 % – Time to Sell ? (2026-07-16)
-- [ANET] Arista Networks ( NYSE : ANET ) Trading Down 2 . 2 % – Here What Happened (2026-07-16)
+- [GTLS] Baker Hughes wraps up $13 . 6bn Chart Industries acquisition (2026-07-17)
 - [NBIS] Nebius Group ( NASDAQ : NBIS ) Trading Down 13 . 9 % – Here What Happened (2026-07-16)
-- [LW] Is Lamb Weston ( LW ) the Best High Growth Stock Insiders Are Buying ? (2026-07-16)
-- [MDB] Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB (2026-07-15)
+- [CRWV] Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? (2026-07-16)
+- [GTLS] Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries (2026-07-16)
+- [CRS] Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS (2026-07-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
-- CEO Guo Li opero AIOS por $2.5B el 2026-07-14 [senal en multiples fuentes].
 - Director SUMITOMO MITSUI FINANCIAL GROUP, INC. compro JEF por $318.7M el 2026-07-15.
 - 10% owner PRUDENTIAL FINANCIAL INC compro TYG por $30.0M el 2026-07-15.
+- 10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
@@ -137,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $292,899 · win rate 95% · categorias: sports
-- TAIWANNUMBERONE · PnL $243,893 · win rate 89% · categorias: sports, politics
-- BreakTheBank · PnL $269,299 · win rate 86% · categorias: sports
-- esportGG · PnL $58,120 · win rate 94% · categorias: sports
-- 0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335 · PnL $917,893 · win rate 96% · categorias: n/d
+- 111111111115 · PnL $362,803 · win rate 96% · categorias: sports
+- TAIWANNUMBERONE · PnL $244,150 · win rate 89% · categorias: sports, politics
+- BreakTheBank · PnL $252,601 · win rate 86% · categorias: sports
+- comon119 · PnL $27,915 · win rate 99% · categorias: sports, crypto, politics
+- ExplosiveNinja · PnL $31,990 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,7 +153,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 40 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 692 registros 30d · ultimo dato 2026-07-17
+- **sec_insiders**: `ok` · 691 registros 30d · ultimo dato 2026-07-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -162,7 +166,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, CELC, GLD, IEF, MPWR, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, ELV, GLD, IEF, MPWR, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
