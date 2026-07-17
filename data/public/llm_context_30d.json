@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T14:18:48.902298+00:00",
+  "generated_at": "2026-07-17T15:57:20.026775+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -24,8 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "leadership",
-      "earnings"
+      "ai",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -81,7 +81,10 @@
       "event_date": "2026-07-16",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_880562627425",
+        "news_86387903433"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
     },
     {
@@ -491,6 +494,14 @@
         ]
       },
       {
+        "ticker": "FULC",
+        "company": "FULCRUM THERAPEUTICS INC",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "XAIR",
         "company": "Beyond Air, Inc.",
         "pressure_score": 141.0,
@@ -505,14 +516,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "RYAM",
-        "company": "RAYONIER ADVANCED MATERIALS INC.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -522,14 +525,6 @@
         "pressure_score": 3668.5,
         "sources": [
           "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 2121.1,
-        "sources": [
           "corporate_insider"
         ]
       },
@@ -590,9 +585,9 @@
         ]
       },
       {
-        "ticker": "WTI",
-        "company": "W&T OFFSHORE INC",
-        "pressure_score": 477.7,
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 573.3,
         "sources": [
           "corporate_insider"
         ]
@@ -636,6 +631,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "XYZ",
+        "company": "Block, Inc.",
+        "pressure_score": 367.5,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -657,6 +660,15 @@
       "amount": 999999.0,
       "date": "2026-07-15",
       "score": 79.8
+    },
+    {
+      "ticker": "GRML",
+      "company": "Greenland Mines Ltd",
+      "actor": "LeBlanc Jeff",
+      "actor_type": "cfo",
+      "amount": 245280.0,
+      "date": "2026-07-16",
+      "score": 78.0
     },
     {
       "ticker": "CRDF",
@@ -713,6 +725,15 @@
       "score": 72.4
     },
     {
+      "ticker": "PFBX",
+      "company": "PEOPLES FINANCIAL CORP /MS/",
+      "actor": "Stilwell Joseph",
+      "actor_type": "ten_percent_owner",
+      "amount": 54375.0,
+      "date": "2026-07-15",
+      "score": 72.0
+    },
+    {
       "ticker": "INM",
       "company": "InMed Pharmaceuticals Inc.",
       "actor": "Vivo Opportunity, LLC",
@@ -756,24 +777,6 @@
       "amount": 3904.0,
       "date": "2026-07-15",
       "score": 67.8
-    },
-    {
-      "ticker": "INM",
-      "company": "InMed Pharmaceuticals Inc.",
-      "actor": "Vivo Opportunity, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 7567.1,
-      "date": "2026-07-14",
-      "score": 67.7
-    },
-    {
-      "ticker": "ADIL",
-      "company": "ADIAL PHARMACEUTICALS, INC.",
-      "actor": "Coastlands Capital LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 3390.75,
-      "date": "2026-07-16",
-      "score": 67.5
     }
   ],
   "institutional_changes": [
@@ -1220,25 +1223,45 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 265672.48,
-        "win_rate": 0.8603,
-        "volume": 148262.9,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 96437.63,
+        "win_rate": 0.9524,
+        "volume": 1632944.97,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 22572.77,
-        "win_rate": 0.986,
-        "volume": 52626.21,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 224340.25,
+        "win_rate": 0.8882,
+        "volume": 643973.3,
         "categories": [
           "sports",
-          "crypto",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 266829.18,
+        "win_rate": 0.8603,
+        "volume": 173998.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x940063e955",
+        "username": "Mrgivemeall",
+        "pnl": 23555.67,
+        "win_rate": 0.988,
+        "volume": 209018.29,
+        "categories": [
+          "crypto",
+          "sports"
         ]
       },
       {
@@ -1252,7 +1275,7 @@
       {
         "wallet": "0xa01c0a5e4f",
         "username": "0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408",
-        "pnl": 133786.42,
+        "pnl": 134286.42,
         "win_rate": 0.8608,
         "volume": 386179.89,
         "categories": [
@@ -1261,61 +1284,40 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 80347.67,
-        "win_rate": 0.8841,
-        "volume": 584989.19,
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 26337.61,
+        "win_rate": 0.9431,
+        "volume": 294509.19,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x940063e955",
-        "username": "Mrgivemeall",
-        "pnl": 15072.59,
-        "win_rate": 0.9873,
-        "volume": 114088.08,
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 53184.1,
+        "win_rate": 0.8938,
+        "volume": 110642.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x028602e5b0",
+        "username": "forsenxd",
+        "pnl": 59222.8,
+        "win_rate": 0.8498,
+        "volume": 130838.87,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 42050.19,
-        "win_rate": 0.8874,
-        "volume": 581764.51,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 39399.26,
-        "win_rate": 0.8899,
-        "volume": 79833.26,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe548376f23",
-        "username": "Uniform123",
-        "pnl": 20498.48,
-        "win_rate": 0.9048,
-        "volume": 78756.49,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 45386.12,
+        "pnl": 48858.21,
         "win_rate": 0.8837,
         "volume": 0.0,
         "categories": [
@@ -1328,13 +1330,33 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 122929.92,
-        "win_rate": 0.741,
-        "volume": 1293563.94,
+        "pnl": 173854.35,
+        "win_rate": 0.738,
+        "volume": 1756963.15,
         "categories": [
           "sports",
           "politics",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 240718.24,
+        "win_rate": 0.652,
+        "volume": 3674285.94,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 96437.63,
+        "win_rate": 0.9524,
+        "volume": 1632944.97,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1346,51 +1368,11 @@
         "categories": []
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 76102.09,
-        "win_rate": 0.654,
-        "volume": 2374384.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 80347.67,
-        "win_rate": 0.8841,
-        "volume": 584989.19,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9854aeab8b",
-        "username": "ygggg1",
-        "pnl": 93833.64,
-        "win_rate": 0.4779,
-        "volume": 599150.01,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 86607.01,
-        "win_rate": 0.548,
-        "volume": 1488527.95,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 19816.62,
-        "win_rate": 0.4313,
-        "volume": 408631.08,
+        "pnl": 23565.11,
+        "win_rate": 0.4356,
+        "volume": 987100.34,
         "categories": [
           "politics",
           "sports",
@@ -1398,32 +1380,53 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 42050.19,
-        "win_rate": 0.8874,
-        "volume": 581764.51,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 265672.48,
-        "win_rate": 0.8603,
-        "volume": 148262.9,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 137023.42,
+        "win_rate": 0.548,
+        "volume": 2251102.17,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 23448.49,
-        "win_rate": 0.459,
-        "volume": 238344.19,
+        "wallet": "0x9854aeab8b",
+        "username": "ygggg1",
+        "pnl": 197349.41,
+        "win_rate": 0.4793,
+        "volume": 704571.79,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 29500.67,
+        "win_rate": 0.582,
+        "volume": 2978311.82,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdbf16bcffa",
+        "username": "UnderperformingForALiving",
+        "pnl": 22025.5,
+        "win_rate": 0.3235,
+        "volume": 196231.33,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 266829.18,
+        "win_rate": 0.8603,
+        "volume": 173998.52,
         "categories": [
           "sports"
         ]
@@ -1432,37 +1435,37 @@
   },
   "news": [
     {
-      "title": "Zacks Research Upgrades Carpenter Technology ( NYSE : CRS ) to  Strong - Buy  ",
-      "url": "https://www.tickerreport.com/banking-finance/13506929/zacks-research-upgrades-carpenter-technology-nysecrs-to-strong-buy.html",
-      "ticker": "CRS",
+      "title": "Baker Hughes wraps up $13 . 6bn Chart Industries acquisition",
+      "url": "https://www.offshore-technology.com/news/baker-hughes-13-6bn-chart-industries-acquisition/",
+      "ticker": "GTLS",
       "themes": [
-        "stock"
+        "merger"
       ],
       "date": "2026-07-17"
     },
     {
-      "title": "Financiere des Professionnels Fonds d investissement inc . Purchases Shares of 25 , 413 Marvell Technology , Inc . $MRVL",
-      "url": "https://www.dailypolitical.com/2026/07/17/financiere-des-professionnels-fonds-d-investissement-inc-purchases-shares-of-25413-marvell-technology-inc-mrvl.html",
-      "ticker": "MRVL",
+      "title": "Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? ",
+      "url": "https://www.fool.com/investing/2026/07/16/down-50-from-its-high-is-coreweave-a-bargain-or-a/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
-        "stock"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Why Marvell Technology ( MRVL ) Stock Is Down Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-210522144.html",
-      "ticker": "MRVL",
-      "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-07-16"
     },
     {
-      "title": "Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS",
-      "url": "https://www.themarketsdaily.com/2026/07/16/sumitomo-mitsui-trust-group-inc-takes-1-78-million-position-in-carpenter-technology-corporation-crs.html",
-      "ticker": "CRS",
+      "title": "Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries",
+      "url": "http://baystreet.ca/stockstowatch/23674/Baker-Hughes-Climbs-on-Buying-Chart-Industries",
+      "ticker": "GTLS",
       "themes": [],
+      "date": "2026-07-16"
+    },
+    {
+      "title": "Is Lamb Weston ( LW ) the Best High Growth Stock Insiders Are Buying ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lamb-weston-lw-best-high-180842169.html",
+      "ticker": "LW",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-07-16"
     },
     {
@@ -1473,32 +1476,30 @@
       "date": "2026-07-15"
     },
     {
-      "title": "Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB",
-      "url": "https://www.themarketsdaily.com/2026/07/14/teachers-retirement-system-of-the-state-of-kentucky-reduces-stock-holdings-in-mongodb-inc-mdb.html",
-      "ticker": "MDB",
+      "title": "Is Lamb Weston ( LW ) the Best High Growth Stock Insiders Are Buying ? ",
+      "url": "https://www.insidermonkey.com/blog/is-lamb-weston-lw-the-best-high-growth-stock-insiders-are-buying-1801204/",
+      "ticker": "LW",
       "themes": [
         "stock"
       ],
       "date": "2026-07-14"
     },
     {
-      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
-      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
-      "ticker": "UTHR",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-07-13"
+      "title": "Brightstar Lottery seals multi - year extension with Washington Lottery",
+      "url": "https://www.gamingintelligence.com/sectors/lottery-sectors/233316-brightstar-lottery-seals-multi-year-extension-with-washingtons-lottery/",
+      "ticker": "BRSL",
+      "themes": [],
+      "date": "2026-07-14"
     },
     {
-      "title": "Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS",
-      "url": "https://www.themarketsdaily.com/2026/07/11/y-intercept-hong-kong-ltd-cuts-stock-position-in-carpenter-technology-corporation-crs.html",
-      "ticker": "CRS",
+      "title": "New York State Teachers Retirement System Raises Stock Holdings in Lamb Weston $LW",
+      "url": "https://www.dailypolitical.com/2026/07/08/new-york-state-teachers-retirement-system-raises-stock-holdings-in-lamb-weston-lw.html",
+      "ticker": "LW",
       "themes": [
+        "ai",
         "stock"
       ],
-      "date": "2026-07-11"
+      "date": "2026-07-08"
     },
     {
       "title": "Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) ",
@@ -1506,19 +1507,9 @@
       "ticker": "FCPT",
       "themes": [],
       "date": "2026-07-06"
-    },
-    {
-      "title": "5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR",
-      "url": "https://www.benzinga.com/opinion/26/07/60290903/5-overvalued-stocks-to-take-profits-on-now",
-      "ticker": "CRS",
-      "themes": [
-        "earnings",
-        "stock"
-      ],
-      "date": "2026-07-06"
     }
   ],
-  "signals_count": 1666,
+  "signals_count": 1644,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

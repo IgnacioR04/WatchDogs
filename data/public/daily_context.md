@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T14:20:02+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-17T15:58:45+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.25)
-- Tendencia: `bull` (SPY 746.81 · MA50 743.3 · MA200 693.46 · dist MA200: 7.69%)
+- Volatilidad: `normal` (VIX 18.06)
+- Tendencia: `bull` (SPY 746.49 · MA50 743.3 · MA200 693.46 · dist MA200: 7.65%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
@@ -22,14 +22,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 746.81 | -0.52% | -1.08% | 1.05% |
-| QQQ | 12.0% | core | 697.46 | -1.2% | -3.87% | -3.36% |
-| TLT | 12.0% | core | 84.72 | 0.61% | 0.3% | -1.5% |
-| BEP | 12.0% | satellite | 31.83 | 0.09% | -1.55% | -7.04% |
-| GLD | 11.3% | core | 366.9 | 0.53% | -2.68% | -5.58% |
-| MPWR | 10.0% | satellite | 1294.62 | -0.84% | -4.3% | -10.47% |
-| CELC | 8.2% | satellite | 88.76 | 0.53% | -17.49% | 0.81% |
-| IEF | 7.5% | core | 94.01 | 0.3% | 0.4% | 0.31% |
+| SPY | 12.0% | core | 746.49 | -0.56% | -1.12% | 1.01% |
+| QQQ | 12.0% | core | 699.09 | -0.97% | -3.64% | -3.14% |
+| TLT | 12.0% | core | 84.62 | 0.49% | 0.18% | -1.62% |
+| BEP | 12.0% | satellite | 31.88 | 0.25% | -1.39% | -6.89% |
+| GLD | 11.3% | core | 368.64 | 1.01% | -2.22% | -5.14% |
+| MPWR | 10.0% | satellite | 1309.65 | 0.31% | -3.19% | -9.43% |
+| CELC | 8.2% | satellite | 90.22 | 2.19% | -16.14% | 2.46% |
+| IEF | 7.5% | core | 93.9 | 0.2% | 0.29% | 0.21% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -52,6 +52,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | CRDF | 78 | corporate_insider | PACE GARY W | 2 | $1,000,000 | cluster_buy |
 | CRDF | 75 | corporate_insider | Mohindru Mani | 2 | $50,000 | cluster_buy |
+| QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | CELC | 72 | large_holder | Baker Bros. Advisors LP |  | - | - |
 | MPWR | 72 | large_holder | Invesco Ltd. |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
@@ -59,12 +60,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | JEF | 72 | corporate_insider | SUMITOMO MITSUI FINANCIAL | 0 | $318,717,006 | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | VYNE | 70 | large_holder | Zhang Xiaofan |  | - | - |
-| GHY | 70 | large_holder | First Trust Portfolios L. |  | - | - |
-| BGH | 70 | large_holder | First Trust Portfolios L. |  | - | - |
-| DSGR | 70 | large_holder | LKCM Private Discipline M |  | - | - |
-| DMRC | 70 | large_holder | Ocho Investments LLC |  | - | - |
-| AFB | 70 | large_holder | KARPUS MANAGEMENT, INC. |  | - | - |
-| USCB | 70 | large_holder | Patriot Financial Partner |  | - | - |
+| ZUMZ | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| WASH | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| THRY | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| SAMG | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| KROS | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -86,15 +86,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 746.81 (-0.52% / -1.08% / 1.05%) [2026-07-17]
-- QQQ: 697.46 (-1.2% / -3.87% / -3.36%) [2026-07-17]
-- IWM: 295.74 (0.05% / -0.08% / 2.02%) [2026-07-17]
-- DIA: 525.05 (0.04% / -0.14% / 1.97%) [2026-07-17]
-- TLT: 84.72 (0.61% / 0.3% / -1.5%) [2026-07-17]
-- IEF: 94.01 (0.3% / 0.4% / 0.31%) [2026-07-17]
-- GLD: 366.9 (0.53% / -2.68% / -5.58%) [2026-07-17]
-- ^VIX: 18.25 (9.09% / 21.42% / -1.03%) [2026-07-17]
-- BTC-USD: 63221.5 (-0.89% / -0.84% / 5.47%) [2026-07-17]
+- SPY: 746.49 (-0.56% / -1.12% / 1.01%) [2026-07-17]
+- QQQ: 699.09 (-0.97% / -3.64% / -3.14%) [2026-07-17]
+- IWM: 294.29 (-0.44% / -0.57% / 1.52%) [2026-07-17]
+- DIA: 524.16 (-0.13% / -0.31% / 1.8%) [2026-07-17]
+- TLT: 84.62 (0.49% / 0.18% / -1.62%) [2026-07-17]
+- IEF: 93.9 (0.2% / 0.29% / 0.21%) [2026-07-17]
+- GLD: 368.64 (1.01% / -2.22% / -5.14%) [2026-07-17]
+- ^VIX: 18.06 (7.95% / 20.16% / -2.06%) [2026-07-17]
+- BTC-USD: 63342.41 (-0.7% / -0.65% / 5.68%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -109,20 +109,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), leadership (1), earnings (1)
+**Temas dominantes**: stock (3), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRS] Zacks Research Upgrades Carpenter Technology ( NYSE : CRS ) to  Strong - Buy (2026-07-17)
-- [MRVL] Financiere des Professionnels Fonds d investissement inc . Purchases Shares of 25 , 413 Marvell Technology , Inc . $MRVL (2026-07-17)
-- [MRVL] Why Marvell Technology ( MRVL ) Stock Is Down Today (2026-07-16)
-- [CRS] Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS (2026-07-16)
+- [GTLS] Baker Hughes wraps up $13 . 6bn Chart Industries acquisition (2026-07-17)
+- [CRWV] Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? (2026-07-16)
+- [GTLS] Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries (2026-07-16)
+- [LW] Is Lamb Weston ( LW ) the Best High Growth Stock Insiders Are Buying ? (2026-07-16)
 - [MDB] Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB (2026-07-15)
-- [MDB] Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB (2026-07-14)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
-- [CRS] Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS (2026-07-11)
+- [LW] Is Lamb Weston ( LW ) the Best High Growth Stock Insiders Are Buying ? (2026-07-14)
+- [BRSL] Brightstar Lottery seals multi - year extension with Washington Lottery (2026-07-14)
+- [LW] New York State Teachers Retirement System Raises Stock Holdings in Lamb Weston $LW (2026-07-08)
 - [FCPT] Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) (2026-07-06)
-- [CRS] 5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -137,11 +136,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $265,672 · win rate 86% · categorias: sports
-- comon119 · PnL $22,573 · win rate 99% · categorias: sports, crypto, politics
+- 111111111115 · PnL $96,438 · win rate 95% · categorias: sports
+- TAIWANNUMBERONE · PnL $224,340 · win rate 89% · categorias: sports, politics
+- BreakTheBank · PnL $266,829 · win rate 86% · categorias: sports
+- Mrgivemeall · PnL $23,556 · win rate 99% · categorias: crypto, sports
 - 0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335 · PnL $917,893 · win rate 96% · categorias: n/d
-- 0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408 · PnL $133,786 · win rate 86% · categorias: crypto, sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $80,348 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,7 +148,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 40 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 735 registros 30d · ultimo dato 2026-07-16
+- **sec_insiders**: `ok` · 713 registros 30d · ultimo dato 2026-07-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
