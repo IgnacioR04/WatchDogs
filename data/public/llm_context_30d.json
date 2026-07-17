@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T22:21:32.110307+00:00",
+  "generated_at": "2026-07-17T23:23:11.490420+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -24,9 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
-      "regulatory",
-      "ai"
+      "ai",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -106,6 +105,24 @@
     {
       "id": "move_5",
       "rank": 5,
+      "title": "10% owner compro John Hancock GA Mortgage Trust ($22.0M)",
+      "summary": "10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Manulife (International) Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 21998838.3,
+      "event_date": "2026-07-15",
+      "importance_score": 85.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1765518/000176551826000004/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner vendio NUVL ($80.6M)",
       "summary": "10% owner Flynn James E vendio NUVL por $80.6M el 2026-07-15 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -122,8 +139,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1009258/000119380526000978/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
+      "title": "10% owner compro John Hancock GA Mortgage Trust ($13.0M)",
+      "summary": "10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Manufacturers Life Reinsurance Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12999313.54,
+      "event_date": "2026-07-15",
+      "importance_score": 83.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1765496/000176549626000015/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner compro John Hancock GA Mortgage Trust ($7.0M)",
       "summary": "10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.",
       "source": "sec_form_4",
@@ -140,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1837478/000183747826000015/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO opero BNY ($4.0M)",
       "summary": "CEO Vince Robin A. opero BNY por $4.0M el 2026-07-16.",
       "source": "sec_form_4",
@@ -156,46 +191,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1825740/000119312526307846/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
-      "title": "CEO vendio GTLS ($5.7M)",
-      "summary": "CEO Vinci Gerald F vendio GTLS por $5.7M el 2026-07-16.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Vinci Gerald F",
-      "actor_type": "ceo",
-      "ticker": "GTLS",
-      "direction": "sell",
-      "amount_estimated": 5675040.0,
-      "event_date": "2026-07-16",
-      "importance_score": 82.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
-      "title": "Director vendio CPRX ($131.4M)",
-      "summary": "Director MCENANY PATRICK J vendio CPRX por $131.4M el 2026-07-15.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MCENANY PATRICK J",
-      "actor_type": "director",
-      "ticker": "CPRX",
-      "direction": "sell",
-      "amount_estimated": 131404108.5,
-      "event_date": "2026-07-15",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_91466612142",
-        "news_681318279914",
-        "news_748245470729"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/929985/000116169726000179/"
     },
     {
       "id": "move_10",
@@ -399,6 +394,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 343.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
@@ -423,14 +426,6 @@
         ]
       },
       {
-        "ticker": "ELV",
-        "company": "Elevance Health, Inc.",
-        "pressure_score": 236.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ELPW",
         "company": "Elong Power Holding Limited",
         "pressure_score": 211.5,
@@ -439,11 +434,11 @@
         ]
       },
       {
-        "ticker": "GABC",
-        "company": "GERMAN AMERICAN BANCORP, INC.",
-        "pressure_score": 206.0,
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "pressure_score": 174.3,
         "sources": [
-          "corporate_insider"
+          "congress"
         ]
       },
       {
@@ -463,6 +458,14 @@
         ]
       },
       {
+        "ticker": "ELV",
+        "company": "Elevance Health, Inc.",
+        "pressure_score": 161.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "LGHL",
         "company": "Lion Group Holding Ltd",
         "pressure_score": 147.6,
@@ -473,6 +476,14 @@
       {
         "ticker": "FULC",
         "company": "FULCRUM THERAPEUTICS INC",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "USCB",
+        "company": "USCB Financial Holdings, Inc.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -501,26 +512,25 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "CELC",
-        "company": "Celcuity Inc.",
-        "pressure_score": 139.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "KROS",
-        "company": "Keros Therapeutics, Inc.",
-        "pressure_score": 139.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "TDG",
+        "company": "TransDigm Group INC",
+        "pressure_score": 2233.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WAL",
+        "company": "WESTERN ALLIANCE BANCORPORATION",
+        "pressure_score": 1553.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "MPWR",
         "company": "MONOLITHIC POWER SYSTEMS INC",
@@ -532,25 +542,25 @@
         ]
       },
       {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 1213.3,
+        "ticker": "SEZL",
+        "company": "Sezzle Inc.",
+        "pressure_score": 1034.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CPRX",
-        "company": "CATALYST PHARMACEUTICALS, INC.",
-        "pressure_score": 959.0,
+        "ticker": "NBIS",
+        "company": "Nebius Group N.V.",
+        "pressure_score": 735.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "YOU",
-        "company": "Clear Secure, Inc.",
-        "pressure_score": 585.9,
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 732.3,
         "sources": [
           "corporate_insider"
         ]
@@ -564,6 +574,14 @@
         ]
       },
       {
+        "ticker": "CORT",
+        "company": "CORCEPT THERAPEUTICS INC",
+        "pressure_score": 564.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "XOS",
         "company": "Xos, Inc.",
         "pressure_score": 558.8,
@@ -572,26 +590,27 @@
         ]
       },
       {
-        "ticker": "GTLS",
-        "company": "CHART INDUSTRIES INC",
-        "pressure_score": 450.7,
+        "ticker": "YOU",
+        "company": "Clear Secure, Inc.",
+        "pressure_score": 436.7,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "FORM",
-        "company": "FORMFACTOR INC",
-        "pressure_score": 436.1,
+        "ticker": "KTOS",
+        "company": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC.",
+        "pressure_score": 414.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CLOV",
-        "company": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
-        "pressure_score": 428.1,
+        "ticker": "BLK",
+        "company": "SP BlackRock, Inc. Common Stock",
+        "pressure_score": 359.4,
         "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
@@ -605,41 +624,17 @@
         ]
       },
       {
-        "ticker": "PUBM",
-        "company": "PubMatic, Inc.",
-        "pressure_score": 283.3,
+        "ticker": "MS",
+        "company": "MORGAN STANLEY",
+        "pressure_score": 304.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CIEN",
-        "company": "CIENA CORP",
-        "pressure_score": 281.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HOOD",
-        "company": "Robinhood Markets, Inc.",
-        "pressure_score": 281.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TTAN",
-        "company": "ServiceTitan, Inc.",
-        "pressure_score": 279.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RVI",
-        "company": "Robinhood Ventures Fund I",
-        "pressure_score": 277.7,
+        "ticker": "CDNA",
+        "company": "CareDx, Inc.",
+        "pressure_score": 294.7,
         "sources": [
           "corporate_insider"
         ]
@@ -675,15 +670,6 @@
       "score": 81.7
     },
     {
-      "ticker": "VANI",
-      "company": "Vivani Medical, Inc.",
-      "actor": "Williams Gregg",
-      "actor_type": "ten_percent_owner",
-      "amount": 999999.0,
-      "date": "2026-07-15",
-      "score": 79.8
-    },
-    {
       "ticker": "ELV",
       "company": "Elevance Health, Inc.",
       "actor": "BOUDREAUX GAIL",
@@ -700,15 +686,6 @@
       "amount": 245280.0,
       "date": "2026-07-16",
       "score": 78.0
-    },
-    {
-      "ticker": "ELV",
-      "company": "Elevance Health, Inc.",
-      "actor": "PERU RAMIRO G",
-      "actor_type": "director",
-      "amount": 366050.0,
-      "date": "2026-07-17",
-      "score": 75.2
     },
     {
       "ticker": "LGHL",
@@ -750,6 +727,24 @@
       "ticker": "GABC",
       "company": "GERMAN AMERICAN BANCORP, INC.",
       "actor": "Ryan Christina M",
+      "actor_type": "director",
+      "amount": 20000.0,
+      "date": "2026-07-16",
+      "score": 68.9
+    },
+    {
+      "ticker": "GABC",
+      "company": "GERMAN AMERICAN BANCORP, INC.",
+      "actor": "KELLY JASON M",
+      "actor_type": "director",
+      "amount": 20000.0,
+      "date": "2026-07-16",
+      "score": 68.9
+    },
+    {
+      "ticker": "GABC",
+      "company": "GERMAN AMERICAN BANCORP, INC.",
+      "actor": "Bawel Zachary W",
       "actor_type": "director",
       "amount": 20000.0,
       "date": "2026-07-16",
@@ -1007,20 +1002,20 @@
       "score": 64.2
     },
     {
+      "politician": "John McGuire",
+      "ticker": "BLK",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-07",
+      "score": 63.9
+    },
+    {
       "politician": "Gilbert Cisneros",
       "ticker": "AGX",
       "direction": "buy",
       "amount": 50000,
       "date": "2026-06-30",
       "score": 63.7
-    },
-    {
-      "politician": "John McGuire",
-      "ticker": "BLK",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-07-07",
-      "score": 62.6
     },
     {
       "politician": "Gilbert Cisneros",
@@ -1229,9 +1224,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 362342.61,
+        "pnl": 372517.85,
         "win_rate": 0.9577,
-        "volume": 2377683.66,
+        "volume": 2536969.47,
         "categories": [
           "sports"
         ]
@@ -1239,7 +1234,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 246212.42,
+        "pnl": 246068.19,
         "win_rate": 0.8898,
         "volume": 668973.3,
         "categories": [
@@ -1250,23 +1245,11 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 253051.11,
+        "pnl": 253084.91,
         "win_rate": 0.8603,
-        "volume": 365447.68,
+        "volume": 372386.7,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 29432.4,
-        "win_rate": 0.986,
-        "volume": 122382.1,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
         ]
       },
       {
@@ -1322,13 +1305,24 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 238821.2,
-        "win_rate": 0.733,
-        "volume": 4034276.12,
+        "pnl": 239571.98,
+        "win_rate": 0.731,
+        "volume": 4262134.32,
         "categories": [
           "sports",
           "crypto",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x0a6356d95e",
+        "username": "f3arless",
+        "pnl": 38573.64,
+        "win_rate": 0.8258,
+        "volume": 163605.51,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ],
@@ -1336,9 +1330,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 238821.2,
-        "win_rate": 0.733,
-        "volume": 4034276.12,
+        "pnl": 239571.98,
+        "win_rate": 0.731,
+        "volume": 4262134.32,
         "categories": [
           "sports",
           "crypto",
@@ -1348,9 +1342,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 340579.43,
-        "win_rate": 0.645,
-        "volume": 6503818.94,
+        "pnl": 334067.86,
+        "win_rate": 0.642,
+        "volume": 6648229.63,
         "categories": [
           "sports"
         ]
@@ -1358,9 +1352,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 362342.61,
+        "pnl": 372517.85,
         "win_rate": 0.9577,
-        "volume": 2377683.66,
+        "volume": 2536969.47,
         "categories": [
           "sports"
         ]
@@ -1368,9 +1362,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 157613.07,
-        "win_rate": 0.559,
-        "volume": 6148120.49,
+        "pnl": 156492.31,
+        "win_rate": 0.563,
+        "volume": 6404252.08,
         "categories": [
           "sports"
         ]
@@ -1386,9 +1380,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 123972.71,
-        "win_rate": 0.561,
-        "volume": 3926587.47,
+        "pnl": 134477.17,
+        "win_rate": 0.559,
+        "volume": 4079473.54,
         "categories": [
           "sports"
         ]
@@ -1396,9 +1390,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 41448.66,
-        "win_rate": 0.4256,
-        "volume": 1193534.34,
+        "pnl": 49187.82,
+        "win_rate": 0.4274,
+        "volume": 1272139.59,
         "categories": [
           "politics",
           "sports",
@@ -1408,9 +1402,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 253051.11,
+        "pnl": 253084.91,
         "win_rate": 0.8603,
-        "volume": 365447.68,
+        "volume": 372386.7,
         "categories": [
           "sports"
         ]
@@ -1426,13 +1420,12 @@
         ]
       },
       {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 326641.73,
-        "win_rate": 0.438,
-        "volume": 2787618.13,
+        "wallet": "0x547f2917d5",
+        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
+        "pnl": 67340.35,
+        "win_rate": 0.7816,
+        "volume": 568073.13,
         "categories": [
-          "crypto",
           "sports"
         ]
       }
@@ -1450,31 +1443,11 @@
       "date": "2026-07-17"
     },
     {
-      "title": "Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals",
-      "url": "https://leaderpost.com/press-releases/globe-newswire/angelini-pharma-completes-acquisition-of-catalyst-pharmaceuticals/",
-      "ticker": "CPRX",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals",
-      "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/globenewswire/angelini-pharma-completes-acquisition-of-catalyst-pharmaceuticals/2385638",
-      "ticker": "CPRX",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69043549-angelini-pharma-completes-acquisition-of-catalyst-pharmaceuticals-399.htm",
-      "ticker": "CPRX",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-16"
+      "title": "Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13504822/sezzle-sees-unusually-high-options-volume-nasdaqsezl.html",
+      "ticker": "SEZL",
+      "themes": [],
+      "date": "2026-07-15"
     },
     {
       "title": "Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know",
@@ -1482,6 +1455,15 @@
       "ticker": "MPWR",
       "themes": [
         "stock"
+      ],
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences",
+      "url": "https://www.manilatimes.net/2026/07/15/tmt-newswire/globenewswire/sezzle-to-announce-second-quarter-2026-results-and-participate-in-upcoming-investor-conferences/2384525",
+      "ticker": "SEZL",
+      "themes": [
+        "regulatory"
       ],
       "date": "2026-07-14"
     },
@@ -1495,26 +1477,32 @@
       "date": "2026-07-14"
     },
     {
-      "title": "The Ultimate Guide To Your Booking Summary : Maximizing Privacy , Security , And Efficiency In Digital Transactions",
-      "url": "https://www.unitaid.eu/guide-your-booking-summary-maximizing-bc4a.html",
-      "ticker": "YOU",
+      "title": "Welch & Forbes LLC Cuts Stock Holdings in Paychex , Inc . $PAYX",
+      "url": "https://www.tickerreport.com/banking-finance/13501763/welch-forbes-llc-cuts-stock-holdings-in-paychex-inc-payx.html",
+      "ticker": "PAYX",
       "themes": [
-        "regulatory"
-      ],
-      "date": "2026-07-13"
-    },
-    {
-      "title": "LGT Fund Management Co Ltd . Sells 60 , 700 Shares of CLEAR Secure , Inc . $YOU",
-      "url": "https://www.tickerreport.com/banking-finance/13502213/lgt-fund-management-co-ltd-sells-60700-shares-of-clear-secure-inc-you.html",
-      "ticker": "YOU",
-      "themes": [
-        "regulatory",
         "stock"
       ],
-      "date": "2026-07-13"
+      "date": "2026-07-12"
+    },
+    {
+      "title": "The Toughest Questions PAYX Faced On Its Latest Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/toughest-questions-payx-faced-latest-191644898.html",
+      "ticker": "PAYX",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13498896/sezzle-nasdaqsezl-cfo-lee-dickson-brading-sells-100-shares.html",
+      "ticker": "SEZL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-09"
     }
   ],
-  "signals_count": 1561,
+  "signals_count": 1596,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

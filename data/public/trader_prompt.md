@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-17T22:22:31+00:00 -->
+<!-- trader_prompt.md generado 2026-07-17T23:24:01+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T22:22:31+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-17T23:24:01+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -254,24 +254,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 743.29 | -0.99% | -1.54% | 0.57% |
 | QQQ | 12.0% | core | 695.33 | -1.5% | -4.16% | -3.66% |
 | TLT | 12.0% | core | 84.52 | 0.37% | 0.06% | -1.74% |
-| BEP | 9.7% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
+| BEP | 11.8% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
 | GLD | 9.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
-| ELV | 8.7% | satellite | 373.11 | 0.07% | -10.36% | -4.64% |
-| PNTG | 7.1% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
+| PNTG | 8.7% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
+| MPWR | 6.8% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
 | IEF | 6.2% | core | 93.84 | 0.13% | 0.22% | 0.14% |
-| MPWR | 4.3% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
-| NUVL | 3.6% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
+| NUVL | 6.1% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.5%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -4.2%
-- Beta vs SPY: 0.712 · posiciones efectivas: 12.3 · HHI: 0.081
+- Volatilidad anualizada: 11.6%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -6.2%
+- Beta vs SPY: 0.728 · posiciones efectivas: 11.7 · HHI: 0.0857
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **ELV** · score agregado 234.7 · 3 señales · fuentes: corporate_insider
 - **MPWR** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PNTG** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -283,28 +281,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| ELV | 81 | corporate_insider | BOUDREAUX GAIL | 2 | $753,071 | cluster_buy |
-| ELV | 78 | corporate_insider | BOUDREAUX GAIL | 2 | $249,159 | cluster_buy |
-| ELV | 75 | corporate_insider | PERU RAMIRO G | 2 | $366,050 | cluster_buy |
-| GABC | 73 | corporate_insider | Seger Andrew M | 3 | $20,000 | cluster_buy,small_amount |
-| GABC | 73 | corporate_insider | Ryan Christina M | 3 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Seger Andrew M | 5 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Ryan Christina M | 5 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | KELLY JASON M | 5 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Bawel Zachary W | 5 | $20,000 | cluster_buy,small_amount |
 | MPWR | 73 | large_holder | Invesco Ltd. |  | - | - |
-| GABC | 72 | corporate_insider | Stokes Ronnie R | 3 | $15,000 | cluster_buy,small_amount |
+| GABC | 72 | corporate_insider | Stokes Ronnie R | 5 | $15,000 | cluster_buy,small_amount |
 | KROS | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| MQ | 72 | large_holder | Jason Gardner |  | - | - |
 | NUVL | 72 | large_holder | Deerfield Management Comp |  | - | - |
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | JEF | 72 | corporate_insider | SUMITOMO MITSUI FINANCIAL | 0 | $318,717,006 | - |
+| INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| TACT | 70 | large_holder | Poplar Point Capital Mana |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
-| BLK | 63 | congress | John McGuire | $15,000 | small_amount |
+| BLK | 64 | congress | John McGuire | $15,000 | small_amount |
 | ABT | 61 | congress | Rick Larsen | $15,000 | small_amount |
 | SPGI | 61 | congress | Rick Larsen | $15,000 | small_amount |
 | FLL | 61 | congress | Susie Lee | $15,000 | small_amount |
@@ -327,7 +325,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 63962.59 (0.27% / 0.32% / 6.71%) [2026-07-17]
+- BTC-USD: 63889.62 (0.16% / 0.21% / 6.59%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,18 +340,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), merger (3), regulatory (2), ai (1)
+**Temas dominantes**: stock (5), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
-- [CPRX] Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals (2026-07-16)
-- [CPRX] Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals (2026-07-16)
-- [CPRX] Angelini Pharma Completes Acquisition of Catalyst Pharmaceuticals (2026-07-16)
+- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
 - [MPWR] Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
+- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
 - [MPWR] FinancialContent - Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
-- [YOU] The Ultimate Guide To Your Booking Summary : Maximizing Privacy , Security , And Efficiency In Digital Transactions (2026-07-13)
-- [YOU] LGT Fund Management Co Ltd . Sells 60 , 700 Shares of CLEAR Secure , Inc . $YOU (2026-07-13)
+- [PAYX] Welch & Forbes LLC Cuts Stock Holdings in Paychex , Inc . $PAYX (2026-07-12)
+- [PAYX] The Toughest Questions PAYX Faced On Its Latest Call (2026-07-10)
+- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -361,26 +359,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
 - Director SUMITOMO MITSUI FINANCIAL GROUP, INC. compro JEF por $318.7M el 2026-07-15.
 - 10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].
+- 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
+- 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - CEO Vince Robin A. opero BNY por $4.0M el 2026-07-16.
-- CEO Vinci Gerald F vendio GTLS por $5.7M el 2026-07-16.
-- Director MCENANY PATRICK J vendio CPRX por $131.4M el 2026-07-15.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $362,343 · win rate 96% · categorias: sports
-- TAIWANNUMBERONE · PnL $246,212 · win rate 89% · categorias: sports, politics
-- BreakTheBank · PnL $253,051 · win rate 86% · categorias: sports
-- comon119 · PnL $29,432 · win rate 99% · categorias: sports, crypto, politics
+- 111111111115 · PnL $372,518 · win rate 96% · categorias: sports
+- TAIWANNUMBERONE · PnL $246,068 · win rate 89% · categorias: sports, politics
+- BreakTheBank · PnL $253,085 · win rate 86% · categorias: sports
 - ExplosiveNinja · PnL $32,010 · win rate 97% · categorias: sports
+- 0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335 · PnL $917,893 · win rate 96% · categorias: n/d
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 40 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 630 registros 30d · ultimo dato 2026-07-17
+- **congress**: `ok` · 43 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 655 registros 30d · ultimo dato 2026-07-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -393,7 +391,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, ELV, GLD, IEF, MPWR, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, MPWR, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
