@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-07-17T00:31:41+00:00",
+  "generated_at": "2026-07-17T03:54:11+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.1186,
-    "GLD": 0.0933,
-    "OSK": 0.0748,
-    "IEF": 0.0622,
-    "MPWR": 0.0528,
-    "KSS": 0.0479,
-    "CELC": 0.0406
+    "BEP": 0.12,
+    "GLD": 0.114,
+    "MPWR": 0.1019,
+    "CELC": 0.0782,
+    "IEF": 0.076
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +22,9 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CELC": 0.0361,
-    "MPWR": 0.0469,
-    "OSK": 0.0665,
-    "KSS": 0.0426,
-    "BEP": 0.1054
+    "CELC": 0.0569,
+    "MPWR": 0.0741,
+    "BEP": 0.1665
   },
   "satellite_rationale": [
     {
@@ -48,22 +44,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "OSK",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "KSS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -73,16 +53,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1541,
-    "var_95_1d": 0.0138,
-    "cvar_95_1d": 0.0184,
-    "max_drawdown": -0.0506,
-    "beta_spy": 0.894,
-    "hhi": 0.0822,
+    "ann_vol": 0.162,
+    "var_95_1d": 0.0147,
+    "cvar_95_1d": 0.0203,
+    "max_drawdown": -0.066,
+    "beta_spy": 0.933,
+    "hhi": 0.0929,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.2,
-    "gross_exposure": 0.8502,
+    "n_positions": 8,
+    "effective_positions": 10.8,
+    "gross_exposure": 0.8501,
     "days_used": 87
   },
   "risk_gate": {

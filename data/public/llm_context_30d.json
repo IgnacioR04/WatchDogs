@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T00:30:22.395604+00:00",
+  "generated_at": "2026-07-17T03:52:47.208828+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -24,6 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
+      "leadership",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -393,6 +394,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "INM",
+        "company": "InMed Pharmaceuticals Inc.",
+        "pressure_score": 398.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
@@ -500,14 +509,6 @@
       {
         "ticker": "NVRI",
         "company": "Enviri Corp",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "AMPY",
-        "company": "Amplify Energy Corp.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -640,15 +641,6 @@
   },
   "insider_buying": [
     {
-      "ticker": "ARDC",
-      "company": "Ares Dynamic Credit Allocation Fund, Inc.",
-      "actor": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "actor_type": "ten_percent_owner",
-      "amount": 4000000.0,
-      "date": "2026-07-14",
-      "score": 81.4
-    },
-    {
       "ticker": "VANI",
       "company": "Vivani Medical, Inc.",
       "actor": "Williams Gregg",
@@ -721,6 +713,15 @@
       "score": 71.6
     },
     {
+      "ticker": "INM",
+      "company": "InMed Pharmaceuticals Inc.",
+      "actor": "Vivo Opportunity, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 21329.55,
+      "date": "2026-07-15",
+      "score": 71.5
+    },
+    {
       "ticker": "OWLS",
       "company": "OBOOK HOLDINGS INC.",
       "actor": "WANG CHUN KAI",
@@ -766,13 +767,13 @@
       "score": 67.8
     },
     {
-      "ticker": "ADIL",
-      "company": "ADIAL PHARMACEUTICALS, INC.",
-      "actor": "Coastlands Capital LP",
+      "ticker": "INM",
+      "company": "InMed Pharmaceuticals Inc.",
+      "actor": "Vivo Opportunity, LLC",
       "actor_type": "ten_percent_owner",
-      "amount": 3390.75,
-      "date": "2026-07-16",
-      "score": 67.5
+      "amount": 7567.1,
+      "date": "2026-07-14",
+      "score": 67.7
     }
   ],
   "institutional_changes": [
@@ -1219,149 +1220,151 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 261422.82,
-        "win_rate": 0.9576,
-        "volume": 630940.1,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb915070c80",
-        "username": "Kingdmandan",
-        "pnl": 45951.14,
-        "win_rate": 0.9684,
-        "volume": 72559.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 28617.82,
-        "win_rate": 0.971,
-        "volume": 59504.39,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 148027.45,
-        "win_rate": 0.8596,
-        "volume": 952766.7,
+        "pnl": 262874.93,
+        "win_rate": 0.8603,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 38910.95,
-        "win_rate": 0.9478,
-        "volume": 442596.42,
+        "wallet": "0x9ba8d25a05",
+        "username": "GoldenAlpha168",
+        "pnl": 8628.17,
+        "win_rate": 1.0,
+        "volume": 61764.72,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 32366.1,
-        "win_rate": 0.9424,
-        "volume": 261463.73,
+        "pnl": 19097.11,
+        "win_rate": 0.9425,
+        "volume": 74391.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 50653.39,
-        "win_rate": 0.8872,
-        "volume": 614808.74,
+        "wallet": "0xc3c3b3ef30",
+        "username": "comon119",
+        "pnl": 8358.35,
+        "win_rate": 0.986,
+        "volume": 163.63,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 13820.22,
+        "win_rate": 0.9483,
+        "volume": 115901.21,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x69c5c6f6a4",
+        "username": "Themsnw",
+        "pnl": 44376.22,
+        "win_rate": 0.8837,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x618534bef6",
-        "username": "batya1",
-        "pnl": 21357.7,
-        "win_rate": 0.9146,
-        "volume": 78298.4,
+        "wallet": "0x060f34e5aa",
+        "username": "alexfire97",
+        "pnl": 25943.26,
+        "win_rate": 0.8438,
+        "volume": 36825.36,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 32053.52,
-        "win_rate": 0.883,
-        "volume": 136017.5,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x507c0f4f0e",
+        "wallet": "0x1393237043",
         "username": "",
-        "pnl": 25707.62,
-        "win_rate": 0.8725,
-        "volume": 579358.36,
+        "pnl": 12567.34,
+        "win_rate": 0.9512,
+        "volume": 50533.24,
         "categories": [
-          "crypto",
-          "sports"
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x53c48faa23",
+        "username": "uma003",
+        "pnl": 22324.41,
+        "win_rate": 0.8478,
+        "volume": 5989.32,
+        "categories": [
+          "sports",
+          "economy",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xeaf34ea3f7",
+        "username": "DCAETH",
+        "pnl": 8348.04,
+        "win_rate": 0.8167,
+        "volume": 9500.0,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 22511.0,
-        "win_rate": 0.738,
-        "volume": 4606721.49,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 19703.48,
+        "win_rate": 0.565,
+        "volume": 306085.16,
         "categories": [
-          "sports",
-          "politics",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 47308.22,
-        "win_rate": 0.4318,
-        "volume": 3383709.97,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 13820.22,
+        "win_rate": 0.9483,
+        "volume": 115901.21,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 108254.18,
-        "win_rate": 0.647,
-        "volume": 7026470.57,
+        "wallet": "0xe9076a87c5",
+        "username": "suntori",
+        "pnl": 48111.01,
+        "win_rate": 0.437,
+        "volume": 405794.34,
         "categories": [
+          "crypto",
           "sports"
         ]
       },
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 43627.24,
-        "win_rate": 0.4322,
-        "volume": 2309800.91,
+        "pnl": 7220.48,
+        "win_rate": 0.4397,
+        "volume": 46540.78,
         "categories": [
           "politics",
           "sports",
@@ -1369,64 +1372,65 @@
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 148027.45,
-        "win_rate": 0.8596,
-        "volume": 952766.7,
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 19097.11,
+        "win_rate": 0.9425,
+        "volume": 74391.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 182900.72,
-        "win_rate": 0.556,
-        "volume": 4066115.19,
+        "wallet": "0x9ba8d25a05",
+        "username": "GoldenAlpha168",
+        "pnl": 8628.17,
+        "win_rate": 1.0,
+        "volume": 61764.72,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xee00ba338c",
-        "username": "S-Works",
-        "pnl": 296707.17,
-        "win_rate": 0.541,
-        "volume": 867537.74,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 22745.97,
+        "win_rate": 0.459,
+        "volume": 35477.57,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0f35109cc3",
+        "username": "",
+        "pnl": 27254.64,
+        "win_rate": 0.5027,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 67379.71,
-        "win_rate": 0.648,
-        "volume": 5257118.62,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 27357.13,
-        "win_rate": 0.555,
-        "volume": 1334993.8,
-        "categories": [
-          "sports",
+          "politics",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 261422.82,
-        "win_rate": 0.9576,
-        "volume": 630940.1,
+        "wallet": "0x511f9c7714",
+        "username": "Bigggggggg",
+        "pnl": 119160.62,
+        "win_rate": 0.427,
+        "volume": 96119.54,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 262874.93,
+        "win_rate": 0.8603,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1434,15 +1438,6 @@
     ]
   },
   "news": [
-    {
-      "title": "Republic Power Group Limited Class A Ordinary Shares ( NASDAQ : RPGL ) Short Interest Update",
-      "url": "https://www.themarketsdaily.com/2026/07/16/republic-power-group-limited-class-a-ordinary-shares-nasdaqrpgl-short-interest-update.html",
-      "ticker": "CRDO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-16"
-    },
     {
       "title": "Why Marvell Technology ( MRVL ) Stock Is Down Today",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-210522144.html",
@@ -1469,20 +1464,21 @@
       "date": "2026-07-16"
     },
     {
-      "title": "Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB",
-      "url": "https://www.themarketsdaily.com/2026/07/15/mandatum-life-insurance-co-ltd-makes-new-1-25-million-investment-in-mongodb-inc-mdb.html",
-      "ticker": "MDB",
+      "title": "Brightstar Lottery seals multi - year extension with Washington Lottery",
+      "url": "https://www.gamingintelligence.com/sectors/lottery-sectors/233316-brightstar-lottery-seals-multi-year-extension-with-washingtons-lottery/",
+      "ticker": "BRSL",
       "themes": [],
-      "date": "2026-07-15"
+      "date": "2026-07-14"
     },
     {
-      "title": "Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB",
-      "url": "https://www.themarketsdaily.com/2026/07/14/teachers-retirement-system-of-the-state-of-kentucky-reduces-stock-holdings-in-mongodb-inc-mdb.html",
-      "ticker": "MDB",
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
+      "ticker": "UTHR",
       "themes": [
+        "leadership",
         "stock"
       ],
-      "date": "2026-07-14"
+      "date": "2026-07-13"
     },
     {
       "title": "Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS",
@@ -1492,6 +1488,13 @@
         "stock"
       ],
       "date": "2026-07-11"
+    },
+    {
+      "title": "Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) ",
+      "url": "https://www.themarketsdaily.com/2026/07/06/analyzing-four-corners-property-trust-nysefcpt-global-net-lease-nysegnl.html",
+      "ticker": "FCPT",
+      "themes": [],
+      "date": "2026-07-06"
     },
     {
       "title": "5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR",
@@ -1504,7 +1507,7 @@
       "date": "2026-07-06"
     }
   ],
-  "signals_count": 1642,
+  "signals_count": 1657,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
