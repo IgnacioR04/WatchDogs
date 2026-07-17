@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-16T22:35:40+00:00 -->
+<!-- trader_prompt.md generado 2026-07-17T00:31:42+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-16T22:35:40+00:00 · ventana señales 2026-06-16 -> 2026-07-16_
+_Generado 2026-07-17T00:31:42+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -237,37 +237,37 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 16.73)
-- Tendencia: `unknown` (SPY n/d · MA50 n/d · MA200 n/d · dist MA200: n/d%)
+- Tendencia: `bull` (SPY 750.72 · MA50 742.81 · MA200 693.01 · dist MA200: 8.33%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
-- Motivos: credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
+| SPY | 12.0% | core | 750.72 | -0.54% | -0.13% | 0.31% |
 | QQQ | 12.0% | core | 705.94 | -1.64% | -2.4% | -3.17% |
 | TLT | 12.0% | core | 84.21 | -0.04% | -0.33% | -1.94% |
-| GLD | 11.5% | core | 364.96 | -1.98% | -3.5% | -8.22% |
-| BEP | 8.6% | satellite | 31.8 | -2.21% | -3.58% | -7.23% |
-| IEF | 7.7% | core | 93.72 | -0.06% | 0.01% | -0.52% |
-| OSK | 5.4% | satellite | 146.72 | 0.81% | 2.77% | 6.24% |
-| MPWR | 3.8% | satellite | 1305.65 | -3.48% | -4.98% | -12.75% |
-| KSS | 3.5% | satellite | 17.49 | 2.28% | 7.23% | 5.87% |
-| CELC | 2.9% | satellite | 88.29 | -3.52% | -22.22% | 1.11% |
-| INTC | 2.7% | satellite | 96.98 | -5.84% | -13.83% | -17.15% |
+| BEP | 11.9% | satellite | 31.8 | -2.21% | -3.58% | -7.23% |
+| GLD | 9.3% | core | 364.96 | -1.98% | -3.5% | -8.22% |
+| OSK | 7.5% | satellite | 146.72 | 0.81% | 2.77% | 6.24% |
+| IEF | 6.2% | core | 93.72 | -0.06% | 0.01% | -0.52% |
+| MPWR | 5.3% | satellite | 1305.65 | -3.48% | -4.98% | -12.75% |
+| KSS | 4.8% | satellite | 17.49 | 2.28% | 7.23% | 5.87% |
+| CELC | 4.1% | satellite | 88.29 | -3.52% | -22.22% | 1.11% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.3%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -4.4%
-- Beta vs SPY: None · posiciones efectivas: 16.0 · HHI: 0.0624
+- Volatilidad anualizada: 15.4%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.1%
+- Beta vs SPY: 0.894 · posiciones efectivas: 12.2 · HHI: 0.0822
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -275,7 +275,6 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - **MPWR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **OSK** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KSS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **INTC** · score agregado 70.7 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -304,14 +303,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| TPR | 65 | congress | Matthew Robert Van Epps | $50,000 | - |
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
-| GOOGL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| AMZN | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| AAPL | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| XOM | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
-| GE | 63 | congress | Matthew Robert Van Epps | $15,000 | small_amount |
+| CRDO | 62 | congress | Gilbert Cisneros | $15,000 | small_amount |
+| SMTC | 62 | congress | Gilbert Cisneros | $15,000 | small_amount |
+| ABT | 61 | congress | Rick Larsen | $15,000 | small_amount |
+| SPGI | 61 | congress | Rick Larsen | $15,000 | small_amount |
+| FLL | 61 | congress | Susie Lee | $15,000 | small_amount |
+| BRCM | 61 | congress | Gilbert Cisneros | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -320,6 +319,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
+- SPY: 750.72 (-0.54% / -0.13% / 0.31%) [2026-07-16]
 - QQQ: 705.94 (-1.64% / -2.4% / -3.17%) [2026-07-16]
 - IWM: 295.59 (-0.06% / -0.56% / 1.2%) [2026-07-16]
 - DIA: 524.83 (-0.21% / 0.12% / 0.92%) [2026-07-16]
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.72 (-0.06% / 0.01% / -0.52%) [2026-07-16]
 - GLD: 364.96 (-1.98% / -3.5% / -8.22%) [2026-07-16]
 - ^VIX: 16.73 (6.76% / 5.62% / 1.95%) [2026-07-16]
-- BTC-USD: 64057.69 (-1.01% / 0.4% / 6.73%) [2026-07-16]
+- BTC-USD: 63710.51 (-1.55% / -0.14% / 6.16%) [2026-07-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,18 +342,18 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1), leadership (1), earnings (1), regulatory (1)
+**Temas dominantes**: stock (6), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? (2026-07-16)
-- [CRWV] Here Why the CoreWeave Stock Price is Diving and Why it May Hit $50 (2026-07-16)
-- [GTLS] Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries (2026-07-16)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
-- [RRX] Regal Rexnord Corporation to Host Second Quarter 2026 Earnings Conference Call on Wednesday , August 5 , 2026 (2026-07-10)
-- [GTLS] Chart Industries ( NYSE : GTLS ) Reaches New 52 - Week High – What Next ? (2026-07-07)
-- [FCPT] Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) (2026-07-06)
-- [RRX] Why Regal Rexnord Corporation ( RRX ) Motion Components Matter Inside the Automation Stack (2026-07-06)
+- [CRDO] Republic Power Group Limited Class A Ordinary Shares ( NASDAQ : RPGL ) Short Interest Update (2026-07-16)
+- [MRVL] Why Marvell Technology ( MRVL ) Stock Is Down Today (2026-07-16)
+- [MRVL] FinancialContent - Why Marvell Technology ( MRVL ) Stock Is Down Today (2026-07-16)
+- [CRS] Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS (2026-07-16)
+- [MDB] Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB (2026-07-15)
+- [MDB] Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB (2026-07-14)
+- [CRS] Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS (2026-07-11)
+- [CRS] 5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR (2026-07-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -368,19 +368,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $261,431 · win rate 96% · categorias: sports
-- Kingdmandan · PnL $47,092 · win rate 97% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $261,423 · win rate 96% · categorias: sports
+- Kingdmandan · PnL $45,951 · win rate 97% · categorias: sports
 - ExplosiveNinja · PnL $28,618 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $148,027 · win rate 86% · categorias: sports
 - matenghehe · PnL $38,911 · win rate 95% · categorias: sports, crypto
-- esportGG · PnL $35,531 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 44 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-07-16
+- **congress**: `ok` · 40 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 711 registros 30d · ultimo dato 2026-07-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -393,8 +393,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, CELC, GLD, IEF, INTC, KSS, MPWR, OSK, QQQ, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, CELC, GLD, IEF, KSS, MPWR, OSK, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.

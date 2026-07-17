@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-07-16T22:35:39+00:00",
+  "generated_at": "2026-07-17T00:31:41+00:00",
   "profile": "moderado",
-  "regime_budget": 0.7,
-  "total_equity": 0.7,
-  "cash": 0.3,
+  "regime_budget": 0.9,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
+    "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.115,
-    "BEP": 0.0856,
-    "IEF": 0.0767,
-    "OSK": 0.054,
-    "MPWR": 0.0381,
-    "KSS": 0.0346,
-    "CELC": 0.0294,
-    "INTC": 0.0266
+    "BEP": 0.1186,
+    "GLD": 0.0933,
+    "OSK": 0.0748,
+    "IEF": 0.0622,
+    "MPWR": 0.0528,
+    "KSS": 0.0479,
+    "CELC": 0.0406
   },
   "core": {
-    "QQQ": 0.14,
-    "TLT": 0.14,
-    "IEF": 0.07,
-    "GLD": 0.105
+    "SPY": 0.1934,
+    "QQQ": 0.1105,
+    "TLT": 0.1105,
+    "IEF": 0.0553,
+    "GLD": 0.0829
   },
   "satellite": {
-    "CELC": 0.0268,
-    "MPWR": 0.0348,
-    "OSK": 0.0493,
-    "KSS": 0.0316,
-    "INTC": 0.0243,
-    "BEP": 0.0782
+    "CELC": 0.0361,
+    "MPWR": 0.0469,
+    "OSK": 0.0665,
+    "KSS": 0.0426,
+    "BEP": 0.1054
   },
   "satellite_rationale": [
     {
@@ -64,14 +64,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "INTC",
-      "score": 70.7,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -81,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1332,
-    "var_95_1d": 0.0121,
-    "cvar_95_1d": 0.0162,
-    "max_drawdown": -0.0442,
-    "beta_spy": null,
-    "hhi": 0.0624,
+    "ann_vol": 0.1541,
+    "var_95_1d": 0.0138,
+    "cvar_95_1d": 0.0184,
+    "max_drawdown": -0.0506,
+    "beta_spy": 0.894,
+    "hhi": 0.0822,
     "max_position": 0.12,
     "n_positions": 10,
-    "effective_positions": 16.0,
-    "gross_exposure": 0.7,
+    "effective_positions": 12.2,
+    "gross_exposure": 0.8502,
     "days_used": 87
   },
   "risk_gate": {
