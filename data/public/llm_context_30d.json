@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T19:47:27.602142+00:00",
+  "generated_at": "2026-07-17T21:24:55.605362+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -23,11 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
-      "regulatory",
-      "merger",
-      "earnings"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,6 +31,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner compro STDN ($19.1M)",
+      "summary": "10% owner Decisive Point Group, LLC compro STDN por $19.1M el 2026-07-16.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Decisive Point Group, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "STDN",
+      "direction": "buy",
+      "amount_estimated": 19132440.0,
+      "event_date": "2026-07-16",
+      "importance_score": 86.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2145172/000119312526307790/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro John Hancock GA Mortgage Trust ($36.6M)",
       "summary": "10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.",
       "source": "sec_form_4",
@@ -51,8 +65,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1833683/000183368326000016/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "Director compro JEF ($318.7M)",
       "summary": "Director SUMITOMO MITSUI FINANCIAL GROUP, INC. compro JEF por $318.7M el 2026-07-15.",
       "source": "sec_form_4",
@@ -69,8 +83,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1022837/000119312526306696/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro TYG ($30.0M)",
       "summary": "10% owner PRUDENTIAL FINANCIAL INC compro TYG por $30.0M el 2026-07-15.",
       "source": "sec_form_4",
@@ -87,8 +101,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/729057/000113777426000159/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner vendio NUVL ($1.0B)",
       "summary": "10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -105,8 +119,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1009258/000119380526000978/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro John Hancock GA Mortgage Trust ($22.0M)",
       "summary": "10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.",
       "source": "sec_form_4",
@@ -123,8 +137,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1765518/000176551826000004/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner vendio NUVL ($80.6M)",
       "summary": "10% owner Flynn James E vendio NUVL por $80.6M el 2026-07-15 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -141,8 +155,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1009258/000119380526000978/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
+      "title": "CEO opero CSQR ($75.0M)",
+      "summary": "CEO MULLEE SPENCER EDWARD opero CSQR por $75.0M el 2026-07-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MULLEE SPENCER EDWARD",
+      "actor_type": "ceo",
+      "ticker": "CSQR",
+      "direction": "other",
+      "amount_estimated": 74999967.0,
+      "event_date": "2026-07-15",
+      "importance_score": 84.2,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1810763/000095014226002121/"
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro John Hancock GA Mortgage Trust ($13.0M)",
       "summary": "10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.",
       "source": "sec_form_4",
@@ -159,8 +191,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1765496/000176549626000015/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro John Hancock GA Mortgage Trust ($7.0M)",
       "summary": "10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.",
       "source": "sec_form_4",
@@ -177,29 +209,44 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1837478/000183747826000015/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio GTLS ($5.7M)",
-      "summary": "CEO Vinci Gerald F vendio GTLS por $5.7M el 2026-07-16.",
+      "id": "move_11",
+      "rank": 11,
+      "title": "CEO opero BNY ($4.0M)",
+      "summary": "CEO Vince Robin A. opero BNY por $4.0M el 2026-07-16.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Vinci Gerald F",
+      "actor_name": "Vince Robin A.",
       "actor_type": "ceo",
-      "ticker": "GTLS",
-      "direction": "sell",
-      "amount_estimated": 5675040.0,
+      "ticker": "BNY",
+      "direction": "other",
+      "amount_estimated": 3999975.47,
       "event_date": "2026-07-16",
-      "importance_score": 82.1,
+      "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_360430976964",
-        "news_919453065020"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1825740/000119312526307846/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
+      "title": "Director vendio CPRX ($131.4M)",
+      "summary": "Director MCENANY PATRICK J vendio CPRX por $131.4M el 2026-07-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MCENANY PATRICK J",
+      "actor_type": "director",
+      "ticker": "CPRX",
+      "direction": "sell",
+      "amount_estimated": 131404108.5,
+      "event_date": "2026-07-15",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/929985/000116169726000179/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO compro ELV ($753K)",
       "summary": "CEO BOUDREAUX GAIL compro ELV por $753K el 2026-07-17.",
       "source": "sec_form_4",
@@ -216,8 +263,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1287920/000128792026000006/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -234,8 +281,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -252,8 +299,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -270,8 +317,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -288,8 +335,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -306,8 +353,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -324,8 +371,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -335,60 +382,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 13135619419,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
-      "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12747592358,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12478004415,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12307921184,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -407,11 +400,27 @@
         ]
       },
       {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 343.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "ENR",
+        "company": "ENERGIZER HOLDINGS, INC.",
+        "pressure_score": 308.8,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -479,14 +488,6 @@
         ]
       },
       {
-        "ticker": "VIRC",
-        "company": "VIRCO MFG CORPORATION",
-        "pressure_score": 144.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "VYNE",
         "company": "VYNE Therapeutics Inc.",
         "pressure_score": 141.0,
@@ -509,54 +510,29 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "XAIR",
-        "company": "Beyond Air, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "CRDO",
-        "company": "Ordinary Shares",
-        "pressure_score": 3668.5,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 1213.3,
+        "ticker": "TDG",
+        "company": "TransDigm Group INC",
+        "pressure_score": 2233.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "GTLS",
-        "company": "CHART INDUSTRIES INC",
-        "pressure_score": 1039.7,
+        "ticker": "CPRX",
+        "company": "CATALYST PHARMACEUTICALS, INC.",
+        "pressure_score": 959.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "MDB",
-        "company": "MongoDB, Inc.",
-        "pressure_score": 899.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 777.1,
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 751.6,
         "sources": [
           "corporate_insider"
         ]
@@ -570,57 +546,9 @@
         ]
       },
       {
-        "ticker": "RBRK",
-        "company": "Rubrik, Inc.",
-        "pressure_score": 584.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "JBL",
         "company": "JABIL INC",
         "pressure_score": 580.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 573.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FORM",
-        "company": "FORMFACTOR INC",
-        "pressure_score": 436.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 434.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 368.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "XYZ",
-        "company": "Block, Inc.",
-        "pressure_score": 367.5,
         "sources": [
           "corporate_insider"
         ]
@@ -634,9 +562,74 @@
         ]
       },
       {
-        "ticker": "CLOV",
-        "company": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
-        "pressure_score": 358.0,
+        "ticker": "NUVL",
+        "company": "Nuvalent, Inc.",
+        "pressure_score": 330.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "MS",
+        "company": "MORGAN STANLEY",
+        "pressure_score": 304.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CDNA",
+        "company": "CareDx, Inc.",
+        "pressure_score": 294.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HOOD",
+        "company": "Robinhood Markets, Inc.",
+        "pressure_score": 281.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PVLA",
+        "company": "PALVELLA THERAPEUTICS, INC.",
+        "pressure_score": 273.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "EQH",
+        "company": "Equitable Holdings, Inc.",
+        "pressure_score": 272.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WAB",
+        "company": "Corporation Common Stock",
+        "pressure_score": 230.2,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "GMCG",
+        "company": "GCM Grosvenor Inc.",
+        "pressure_score": 223.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BJ",
+        "company": "BJ's Wholesale Club Holdings, Inc.",
+        "pressure_score": 218.7,
         "sources": [
           "corporate_insider"
         ]
@@ -644,6 +637,15 @@
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "STDN",
+      "company": "Standard Nuclear, Inc.",
+      "actor": "Decisive Point Group, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 19132440.0,
+      "date": "2026-07-16",
+      "score": 86.3
+    },
     {
       "ticker": "JEF",
       "company": "Jefferies Financial Group Inc.",
@@ -681,15 +683,6 @@
       "score": 81.7
     },
     {
-      "ticker": "VANI",
-      "company": "Vivani Medical, Inc.",
-      "actor": "Williams Gregg",
-      "actor_type": "ten_percent_owner",
-      "amount": 999999.0,
-      "date": "2026-07-15",
-      "score": 79.8
-    },
-    {
       "ticker": "ELV",
       "company": "Elevance Health, Inc.",
       "actor": "BOUDREAUX GAIL",
@@ -697,6 +690,24 @@
       "amount": 249158.8,
       "date": "2026-07-17",
       "score": 79.3
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 417010.0,
+      "date": "2026-07-16",
+      "score": 78.0
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 417148.0,
+      "date": "2026-07-16",
+      "score": 78.0
     },
     {
       "ticker": "GRML",
@@ -708,6 +719,33 @@
       "score": 78.0
     },
     {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 410746.0,
+      "date": "2026-07-15",
+      "score": 76.4
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 412852.0,
+      "date": "2026-07-15",
+      "score": 76.4
+    },
+    {
+      "ticker": "PDI",
+      "company": "PIMCO Dynamic Income Fund",
+      "actor": "STRACKE THIBAULT CHRISTIAN",
+      "actor_type": "insider",
+      "amount": 1640000.0,
+      "date": "2026-07-15",
+      "score": 75.7
+    },
+    {
       "ticker": "ELV",
       "company": "Elevance Health, Inc.",
       "actor": "PERU RAMIRO G",
@@ -715,15 +753,6 @@
       "amount": 366050.0,
       "date": "2026-07-17",
       "score": 75.2
-    },
-    {
-      "ticker": "VIRC",
-      "company": "VIRCO MFG CORPORATION",
-      "actor": "VIRTUE DOUGLAS A",
-      "actor_type": "ceo",
-      "amount": 30837.94,
-      "date": "2026-07-15",
-      "score": 74.8
     },
     {
       "ticker": "LGHL",
@@ -742,42 +771,6 @@
       "amount": 58300.06,
       "date": "2026-07-16",
       "score": 73.7
-    },
-    {
-      "ticker": "FIS",
-      "company": "Fidelity National Information Services, Inc.",
-      "actor": "Goldstein Jeffrey A",
-      "actor_type": "director",
-      "amount": 57366.54,
-      "date": "2026-07-15",
-      "score": 72.4
-    },
-    {
-      "ticker": "PFBX",
-      "company": "PEOPLES FINANCIAL CORP /MS/",
-      "actor": "Stilwell Joseph",
-      "actor_type": "ten_percent_owner",
-      "amount": 54375.0,
-      "date": "2026-07-15",
-      "score": 72.0
-    },
-    {
-      "ticker": "OWLS",
-      "company": "OBOOK HOLDINGS INC.",
-      "actor": "WANG CHUN KAI",
-      "actor_type": "ceo",
-      "amount": 11073.32,
-      "date": "2026-07-14",
-      "score": 71.1
-    },
-    {
-      "ticker": "VIRC",
-      "company": "VIRCO MFG CORPORATION",
-      "actor": "VIRTUE DOUGLAS A",
-      "actor_type": "ceo",
-      "amount": 3600.0,
-      "date": "2026-07-16",
-      "score": 70.1
     }
   ],
   "institutional_changes": [
@@ -1029,24 +1022,8 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "ticker": "CRDO",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
       "ticker": "HQY",
       "direction": "buy",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "SMTC",
-      "direction": "sell",
       "amount": 15000,
       "date": "2026-06-30",
       "score": 62.4
@@ -1079,6 +1056,22 @@
       "politician": "Rick Larsen",
       "ticker": "ABT",
       "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-08",
+      "score": 61.1
+    },
+    {
+      "politician": "Rick Larsen",
+      "ticker": "APH",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-08",
+      "score": 61.1
+    },
+    {
+      "politician": "Rick Larsen",
+      "ticker": "MCK",
+      "direction": "buy",
       "amount": 15000,
       "date": "2026-07-08",
       "score": 61.1
@@ -1212,13 +1205,13 @@
       "date": "2026-07-15"
     },
     {
-      "filer": "Exicure HiTron Inc.",
-      "company": "EXICURE, INC.",
-      "ticker": "XCUR",
-      "ownership_pct": 34.9,
-      "shares": 2222224,
+      "filer": "FIRMENT SHIPPING INC.",
+      "company": "GLOBUS MARITIME LTD",
+      "ticker": "GLBS",
+      "ownership_pct": 30.5,
+      "shares": 6578633,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-17"
+      "date": "2026-07-15"
     }
   ],
   "polymarket": {
@@ -1226,8 +1219,8 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 362803.04,
-        "win_rate": 0.9571,
+        "pnl": 362828.17,
+        "win_rate": 0.9577,
         "volume": 2228560.49,
         "categories": [
           "sports"
@@ -1236,7 +1229,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 244149.86,
+        "pnl": 246173.42,
         "win_rate": 0.8898,
         "volume": 643973.3,
         "categories": [
@@ -1247,9 +1240,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 252601.03,
+        "pnl": 252958.47,
         "win_rate": 0.8603,
-        "volume": 322597.57,
+        "volume": 347425.63,
         "categories": [
           "sports"
         ]
@@ -1257,7 +1250,7 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 27914.59,
+        "pnl": 29336.65,
         "win_rate": 0.986,
         "volume": 117382.14,
         "categories": [
@@ -1269,19 +1262,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 31990.15,
+        "pnl": 32010.15,
         "win_rate": 0.9722,
         "volume": 61335.21,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 44559.22,
-        "win_rate": 0.9435,
-        "volume": 385160.81,
         "categories": [
           "sports"
         ]
@@ -1325,15 +1308,27 @@
           "crypto",
           "sports"
         ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 245946.87,
+        "win_rate": 0.733,
+        "volume": 3763039.25,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 283413.85,
-        "win_rate": 0.735,
-        "volume": 2598946.73,
+        "pnl": 245946.87,
+        "win_rate": 0.733,
+        "volume": 3763039.25,
         "categories": [
           "sports",
           "politics",
@@ -1343,9 +1338,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 368369.07,
-        "win_rate": 0.645,
-        "volume": 5615733.63,
+        "pnl": 359496.66,
+        "win_rate": 0.644,
+        "volume": 6227808.62,
         "categories": [
           "sports"
         ]
@@ -1353,9 +1348,19 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 362803.04,
-        "win_rate": 0.9571,
+        "pnl": 362828.17,
+        "win_rate": 0.9577,
         "volume": 2228560.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 156839.63,
+        "win_rate": 0.554,
+        "volume": 5860916.64,
         "categories": [
           "sports"
         ]
@@ -1369,21 +1374,21 @@
         "categories": []
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 155025.18,
-        "win_rate": 0.57,
-        "volume": 5378072.88,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 126047.97,
+        "win_rate": 0.559,
+        "volume": 3767033.05,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 140500.67,
-        "win_rate": 0.555,
-        "volume": 3340481.88,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 252958.47,
+        "win_rate": 0.8603,
+        "volume": 347425.63,
         "categories": [
           "sports"
         ]
@@ -1399,35 +1404,23 @@
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 252601.03,
-        "win_rate": 0.8603,
-        "volume": 322597.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xe9076a87c5",
         "username": "suntori",
-        "pnl": 330503.71,
-        "win_rate": 0.473,
-        "volume": 2670309.03,
+        "pnl": 326294.78,
+        "win_rate": 0.454,
+        "volume": 2749706.42,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0x74471a007d",
-        "username": "tetrose",
-        "pnl": 50007.61,
-        "win_rate": 0.5839,
-        "volume": 565050.71,
+        "wallet": "0x547f2917d5",
+        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
+        "pnl": 70005.13,
+        "win_rate": 0.7816,
+        "volume": 395763.24,
         "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       }
@@ -1435,125 +1428,23 @@
   },
   "news": [
     {
-      "title": "Agroz Inc . Announces Publicly Traded Shares Name Change to Class A Ordinary Shares",
-      "url": "http://www.prnewswire.com/news-releases/agroz-inc-announces-publicly-traded-shares-name-change-to-class-a-ordinary-shares-302828693.html",
-      "ticker": "CRDO",
+      "title": "Welch & Forbes LLC Cuts Stock Holdings in Paychex , Inc . $PAYX",
+      "url": "https://www.tickerreport.com/banking-finance/13501763/welch-forbes-llc-cuts-stock-holdings-in-paychex-inc-payx.html",
+      "ticker": "PAYX",
       "themes": [
         "stock"
       ],
-      "date": "2026-07-17"
+      "date": "2026-07-12"
     },
     {
-      "title": "Nebius Group ( NASDAQ : NBIS ) Stock Price Up 2 . 8 % – What Next ? ",
-      "url": "https://www.themarketsdaily.com/2026/07/17/nebius-group-nasdaqnbis-stock-price-up-2-8-whats-next.html",
-      "ticker": "NBIS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "2026 - 07 - 17 | Nebius raises $775 million in first secured debt financing to accelerate global buildout | NDAQ : NBIS",
-      "url": "https://stockhouse.com/news/press-releases/2026/07/17/nebius-raises-775-million-in-first-secured-debt-financing-to-accelerate-global",
-      "ticker": "NBIS",
-      "themes": [
-        "ai",
-        "regulatory"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Zacks Research Upgrades Carpenter Technology ( NYSE : CRS ) to  Strong - Buy  ",
-      "url": "https://www.tickerreport.com/banking-finance/13506929/zacks-research-upgrades-carpenter-technology-nysecrs-to-strong-buy.html",
-      "ticker": "CRS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Financiere des Professionnels Fonds d investissement inc . Purchases Shares of 25 , 413 Marvell Technology , Inc . $MRVL",
-      "url": "https://www.dailypolitical.com/2026/07/17/financiere-des-professionnels-fonds-d-investissement-inc-purchases-shares-of-25413-marvell-technology-inc-mrvl.html",
-      "ticker": "MRVL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Baker Hughes wraps up $13 . 6bn Chart Industries acquisition",
-      "url": "https://www.offshore-technology.com/news/baker-hughes-13-6bn-chart-industries-acquisition/",
-      "ticker": "GTLS",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Nebius Group ( NASDAQ : NBIS ) Trading Down 13 . 9 % – Here What Happened",
-      "url": "https://www.themarketsdaily.com/2026/07/16/nebius-group-nasdaqnbis-trading-down-13-9-heres-what-happened.html",
-      "ticker": "NBIS",
+      "title": "The Toughest Questions PAYX Faced On Its Latest Call",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/toughest-questions-payx-faced-latest-191644898.html",
+      "ticker": "PAYX",
       "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? ",
-      "url": "https://www.fool.com/investing/2026/07/16/down-50-from-its-high-is-coreweave-a-bargain-or-a/?source=iedfolrf0000001",
-      "ticker": "CRWV",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries",
-      "url": "http://baystreet.ca/stockstowatch/23674/Baker-Hughes-Climbs-on-Buying-Chart-Industries",
-      "ticker": "GTLS",
-      "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Sumitomo Mitsui Trust Group Inc . Takes $1 . 78 Million Position in Carpenter Technology Corporation $CRS",
-      "url": "https://www.themarketsdaily.com/2026/07/16/sumitomo-mitsui-trust-group-inc-takes-1-78-million-position-in-carpenter-technology-corporation-crs.html",
-      "ticker": "CRS",
-      "themes": [],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB",
-      "url": "https://www.themarketsdaily.com/2026/07/15/mandatum-life-insurance-co-ltd-makes-new-1-25-million-investment-in-mongodb-inc-mdb.html",
-      "ticker": "MDB",
-      "themes": [],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Brightstar Lottery seals multi - year extension with Washington Lottery",
-      "url": "https://www.gamingintelligence.com/sectors/lottery-sectors/233316-brightstar-lottery-seals-multi-year-extension-with-washingtons-lottery/",
-      "ticker": "BRSL",
-      "themes": [],
-      "date": "2026-07-14"
-    },
-    {
-      "title": "Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS",
-      "url": "https://www.themarketsdaily.com/2026/07/11/y-intercept-hong-kong-ltd-cuts-stock-position-in-carpenter-technology-corporation-crs.html",
-      "ticker": "CRS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-11"
-    },
-    {
-      "title": "5 Overvalued Stocks to Take Profits On Now - Manchester United ( NYSE : MANU ), Carpenter Technology ( NYSE : CR",
-      "url": "https://www.benzinga.com/opinion/26/07/60290903/5-overvalued-stocks-to-take-profits-on-now",
-      "ticker": "CRS",
-      "themes": [
-        "earnings",
-        "stock"
-      ],
-      "date": "2026-07-06"
+      "date": "2026-07-10"
     }
   ],
-  "signals_count": 1622,
+  "signals_count": 1528,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
