@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T09:37:41.616997+00:00",
+  "generated_at": "2026-07-17T11:57:36.102069+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -24,7 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
+      "merger",
       "ai",
+      "leadership",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -51,6 +53,24 @@
     {
       "id": "move_2",
       "rank": 2,
+      "title": "Director compro JEF ($318.7M)",
+      "summary": "Director SUMITOMO MITSUI FINANCIAL GROUP, INC. compro JEF por $318.7M el 2026-07-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+      "actor_type": "director",
+      "ticker": "JEF",
+      "direction": "buy",
+      "amount_estimated": 318717006.32,
+      "event_date": "2026-07-15",
+      "importance_score": 85.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1022837/000119312526306696/"
+    },
+    {
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio GTLS ($5.7M)",
       "summary": "CEO Vinci Gerald F vendio GTLS por $5.7M el 2026-07-16.",
       "source": "sec_form_4",
@@ -64,14 +84,14 @@
       "importance_score": 82.1,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_474260535108",
-        "news_963302592488"
+        "news_6180737185",
+        "news_881208919680"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "Insider vendio CELC ($291.0M)",
       "summary": "Insider BAKER BROS. ADVISORS LP vendio CELC por $291.0M el 2026-07-14 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -88,8 +108,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526306299/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -106,8 +126,8 @@
       "source_url": ""
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -124,8 +144,8 @@
       "source_url": ""
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -142,8 +162,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -160,8 +180,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -178,8 +198,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -196,8 +216,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -214,8 +234,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -232,8 +252,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -250,8 +270,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -268,8 +288,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -286,8 +306,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -304,8 +324,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
       "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
       "source": "sec_13f",
@@ -322,8 +342,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
       "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
       "source": "sec_13f",
@@ -340,8 +360,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($11.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro MICRON TECHNOLOGY INC por $11.5B.",
       "source": "sec_13f",
@@ -358,8 +378,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro VANGUARD INDEX FDS ($11.4B)",
       "summary": "Institutional manager Vanguard Group Inc compro VANGUARD INDEX FDS por $11.4B.",
       "source": "sec_13f",
@@ -369,24 +389,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 11426778421,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager vendio APPLE INC ($11.4B)",
-      "summary": "Institutional manager State Street Corp vendio APPLE INC por $11.4B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 11350575259,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -555,7 +557,7 @@
       {
         "ticker": "GTLS",
         "company": "CHART INDUSTRIES INC",
-        "pressure_score": 1113.1,
+        "pressure_score": 1039.7,
         "sources": [
           "corporate_insider"
         ]
@@ -644,6 +646,15 @@
   },
   "insider_buying": [
     {
+      "ticker": "JEF",
+      "company": "Jefferies Financial Group Inc.",
+      "actor": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+      "actor_type": "director",
+      "amount": 318717006.32,
+      "date": "2026-07-15",
+      "score": 85.8
+    },
+    {
       "ticker": "VANI",
       "company": "Vivani Medical, Inc.",
       "actor": "Williams Gregg",
@@ -705,15 +716,6 @@
       "amount": 57366.54,
       "date": "2026-07-15",
       "score": 72.4
-    },
-    {
-      "ticker": "AZIO",
-      "company": "AZIO AI HOLDINGS, INC.",
-      "actor": "Yang Jenny",
-      "actor_type": "officer",
-      "amount": 0.0,
-      "date": "2026-07-14",
-      "score": 71.6
     },
     {
       "ticker": "INM",
@@ -1225,19 +1227,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 265425.99,
+        "pnl": 265498.94,
         "win_rate": 0.8603,
-        "volume": 99264.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 24680.96,
-        "win_rate": 0.9427,
-        "volume": 156931.34,
+        "volume": 114567.1,
         "categories": [
           "sports"
         ]
@@ -1245,9 +1237,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 11279.04,
+        "pnl": 18571.82,
         "win_rate": 0.986,
-        "volume": 17926.26,
+        "volume": 48302.96,
         "categories": [
           "sports",
           "crypto",
@@ -1257,17 +1249,47 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 25413.17,
-        "win_rate": 0.8824,
-        "volume": 126483.4,
+        "pnl": 38243.47,
+        "win_rate": 0.8841,
+        "volume": 584989.19,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 14104.1,
+        "win_rate": 0.9429,
+        "volume": 180386.34,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x75973c667c",
+        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
+        "pnl": 481587.94,
+        "win_rate": 0.95,
+        "volume": 871578.86,
+        "categories": []
+      },
+      {
+        "wallet": "0xfaf98181c4",
+        "username": "onekey02",
+        "pnl": 10339.75,
+        "win_rate": 0.9557,
+        "volume": 18405.65,
+        "categories": [
+          "politics",
+          "crypto",
           "sports"
         ]
       },
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 47797.24,
+        "pnl": 46439.58,
         "win_rate": 0.8837,
         "volume": 0.0,
         "categories": [
@@ -1278,7 +1300,7 @@
       {
         "wallet": "0x060f34e5aa",
         "username": "alexfire97",
-        "pnl": 25943.26,
+        "pnl": 25943.27,
         "win_rate": 0.8438,
         "volume": 36825.36,
         "categories": [
@@ -1288,7 +1310,7 @@
       {
         "wallet": "0x53c48faa23",
         "username": "uma003",
-        "pnl": 19857.95,
+        "pnl": 19759.95,
         "win_rate": 0.8478,
         "volume": 5989.32,
         "categories": [
@@ -1298,11 +1320,32 @@
         ]
       },
       {
-        "wallet": "0xdd882a7068",
-        "username": "MeiGuNiuBi",
-        "pnl": 9904.51,
-        "win_rate": 0.806,
-        "volume": 57322.15,
+        "wallet": "0x9f035eb3ed",
+        "username": "NiNo713",
+        "pnl": 23574.22,
+        "win_rate": 0.7642,
+        "volume": 129462.06,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x75973c667c",
+        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
+        "pnl": 481587.94,
+        "win_rate": 0.95,
+        "volume": 871578.86,
+        "categories": []
+      },
+      {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 38243.47,
+        "win_rate": 0.8841,
+        "volume": 584989.19,
         "categories": [
           "sports"
         ]
@@ -1310,9 +1353,9 @@
       {
         "wallet": "0xfbfd14dd4b",
         "username": "XAE12Archangel",
-        "pnl": 11220.53,
+        "pnl": 11351.08,
         "win_rate": 0.782,
-        "volume": 270294.57,
+        "volume": 362428.27,
         "categories": [
           "crypto",
           "politics",
@@ -1320,21 +1363,9 @@
         ]
       },
       {
-        "wallet": "0x547f2917d5",
-        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 10008.97,
-        "win_rate": 0.7791,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      }
-    ],
-    "whales": [
-      {
         "wallet": "0xdbf16bcffa",
         "username": "UnderperformingForALiving",
-        "pnl": 12627.99,
+        "pnl": 12613.48,
         "win_rate": 0.3235,
         "volume": 196231.33,
         "categories": [
@@ -1344,45 +1375,33 @@
         ]
       },
       {
-        "wallet": "0xfbfd14dd4b",
-        "username": "XAE12Archangel",
-        "pnl": 11220.53,
-        "win_rate": 0.782,
-        "volume": 270294.57,
-        "categories": [
-          "crypto",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 16721.09,
-        "win_rate": 0.4304,
-        "volume": 314769.56,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 36884.17,
-        "win_rate": 0.556,
-        "volume": 710150.18,
+        "pnl": 52003.98,
+        "win_rate": 0.55,
+        "volume": 1152928.95,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 19261.37,
+        "win_rate": 0.4288,
+        "volume": 352671.53,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 23269.82,
+        "pnl": 23435.15,
         "win_rate": 0.459,
-        "volume": 232669.37,
+        "volume": 235680.12,
         "categories": [
           "sports"
         ]
@@ -1390,40 +1409,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 265425.99,
+        "pnl": 265498.94,
         "win_rate": 0.8603,
-        "volume": 99264.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x44c58184f8",
-        "username": "JhonAlexanderHinestroza",
-        "pnl": 19776.09,
-        "win_rate": 0.72,
-        "volume": 321914.31,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 42363.72,
-        "win_rate": 0.451,
-        "volume": 1070881.02,
-        "categories": [
-          "crypto",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 25413.17,
-        "win_rate": 0.8824,
-        "volume": 126483.4,
+        "volume": 114567.1,
         "categories": [
           "sports"
         ]
@@ -1431,18 +1419,38 @@
       {
         "wallet": "0x74471a007d",
         "username": "tetrose",
-        "pnl": 9651.87,
+        "pnl": 18349.39,
         "win_rate": 0.5829,
-        "volume": 133917.08,
+        "volume": 315424.63,
         "categories": [
           "politics",
           "economy",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe9076a87c5",
+        "username": "suntori",
+        "pnl": 49583.36,
+        "win_rate": 0.475,
+        "volume": 1207007.1,
+        "categories": [
+          "crypto",
           "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Baker Hughes wraps up $13 . 6bn Chart Industries acquisition",
+      "url": "https://www.offshore-technology.com/news/baker-hughes-13-6bn-chart-industries-acquisition/",
+      "ticker": "GTLS",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-17"
+    },
     {
       "title": "Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? ",
       "url": "https://www.fool.com/investing/2026/07/16/down-50-from-its-high-is-coreweave-a-bargain-or-a/?source=iedfolrf0000001",
@@ -1476,11 +1484,30 @@
       "date": "2026-07-16"
     },
     {
-      "title": "Brightstar Lottery seals multi - year extension with Washington Lottery",
-      "url": "https://www.gamingintelligence.com/sectors/lottery-sectors/233316-brightstar-lottery-seals-multi-year-extension-with-washingtons-lottery/",
-      "ticker": "BRSL",
+      "title": "Mandatum Life Insurance Co Ltd Makes New $1 . 25 Million Investment in MongoDB , Inc . $MDB",
+      "url": "https://www.themarketsdaily.com/2026/07/15/mandatum-life-insurance-co-ltd-makes-new-1-25-million-investment-in-mongodb-inc-mdb.html",
+      "ticker": "MDB",
       "themes": [],
+      "date": "2026-07-15"
+    },
+    {
+      "title": "Teachers Retirement System of The State of Kentucky Reduces Stock Holdings in MongoDB , Inc . $MDB",
+      "url": "https://www.themarketsdaily.com/2026/07/14/teachers-retirement-system-of-the-state-of-kentucky-reduces-stock-holdings-in-mongodb-inc-mdb.html",
+      "ticker": "MDB",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-07-14"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-13"
     },
     {
       "title": "Y Intercept Hong Kong Ltd Cuts Stock Position in Carpenter Technology Corporation $CRS",
@@ -1490,13 +1517,6 @@
         "stock"
       ],
       "date": "2026-07-11"
-    },
-    {
-      "title": "Chart Industries ( NYSE : GTLS ) Reaches New 52 - Week High – What Next ? ",
-      "url": "https://www.themarketsdaily.com/2026/07/07/chart-industries-nysegtls-reaches-new-52-week-high-whats-next.html",
-      "ticker": "GTLS",
-      "themes": [],
-      "date": "2026-07-07"
     },
     {
       "title": "Analyzing Four Corners Property Trust ( NYSE : FCPT ) & Global Net Lease ( NYSE : GNL ) ",
@@ -1516,7 +1536,7 @@
       "date": "2026-07-06"
     }
   ],
-  "signals_count": 1657,
+  "signals_count": 1660,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
