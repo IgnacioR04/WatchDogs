@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-17T11:57:36.102069+00:00",
+  "generated_at": "2026-07-17T14:18:48.902298+00:00",
   "window": {
     "from": "2026-06-17",
     "to": "2026-07-17",
@@ -24,8 +24,6 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
-      "ai",
       "leadership",
       "earnings"
     ],
@@ -83,10 +81,7 @@
       "event_date": "2026-07-16",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_6180737185",
-        "news_881208919680"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715319/000171531926000008/"
     },
     {
@@ -488,6 +483,14 @@
         ]
       },
       {
+        "ticker": "VYNE",
+        "company": "VYNE Therapeutics Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "XAIR",
         "company": "Beyond Air, Inc.",
         "pressure_score": 141.0,
@@ -506,14 +509,6 @@
       {
         "ticker": "RYAM",
         "company": "RAYONIER ADVANCED MATERIALS INC.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "NVRI",
-        "company": "Enviri Corp",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -587,9 +582,17 @@
         ]
       },
       {
+        "ticker": "JBL",
+        "company": "JABIL INC",
+        "pressure_score": 580.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "WTI",
         "company": "W&T OFFSHORE INC",
-        "pressure_score": 546.2,
+        "pressure_score": 477.7,
         "sources": [
           "corporate_insider"
         ]
@@ -630,14 +633,6 @@
         "ticker": "PACS",
         "company": "PACS Group, Inc.",
         "pressure_score": 368.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "XYZ",
-        "company": "Block, Inc.",
-        "pressure_score": 367.5,
         "sources": [
           "corporate_insider"
         ]
@@ -745,15 +740,6 @@
       "score": 70.1
     },
     {
-      "ticker": "KWY",
-      "company": "KINGSWAY Corp",
-      "actor": "Fitzgerald John Taylor Maloney",
-      "actor_type": "ceo",
-      "amount": 2498.56,
-      "date": "2026-07-15",
-      "score": 69.3
-    },
-    {
       "ticker": "BUKS",
       "company": "BUTLER NATIONAL CORP",
       "actor": "Daly Joseph Patrick",
@@ -779,6 +765,15 @@
       "amount": 7567.1,
       "date": "2026-07-14",
       "score": 67.7
+    },
+    {
+      "ticker": "ADIL",
+      "company": "ADIAL PHARMACEUTICALS, INC.",
+      "actor": "Coastlands Capital LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 3390.75,
+      "date": "2026-07-16",
+      "score": 67.5
     }
   ],
   "institutional_changes": [
@@ -1030,14 +1025,6 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "ticker": "CYTK",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
       "ticker": "HQY",
       "direction": "buy",
       "amount": 15000,
@@ -1080,6 +1067,14 @@
       "politician": "Rick Larsen",
       "ticker": "ABT",
       "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-08",
+      "score": 61.1
+    },
+    {
+      "politician": "Rick Larsen",
+      "ticker": "APH",
+      "direction": "buy",
       "amount": 15000,
       "date": "2026-07-08",
       "score": 61.1
@@ -1227,9 +1222,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 265498.94,
+        "pnl": 265672.48,
         "win_rate": 0.8603,
-        "volume": 114567.1,
+        "volume": 148262.9,
         "categories": [
           "sports"
         ]
@@ -1237,9 +1232,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 18571.82,
+        "pnl": 22572.77,
         "win_rate": 0.986,
-        "volume": 48302.96,
+        "volume": 52626.21,
         "categories": [
           "sports",
           "crypto",
@@ -1247,9 +1242,28 @@
         ]
       },
       {
+        "wallet": "0x75973c667c",
+        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
+        "pnl": 917892.99,
+        "win_rate": 0.9565,
+        "volume": 1595213.1,
+        "categories": []
+      },
+      {
+        "wallet": "0xa01c0a5e4f",
+        "username": "0xa01c0A5E4F8c1114e95c68eE97694BC95E51766C-1782858480408",
+        "pnl": 133786.42,
+        "win_rate": 0.8608,
+        "volume": 386179.89,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 38243.47,
+        "pnl": 80347.67,
         "win_rate": 0.8841,
         "volume": 584989.19,
         "categories": [
@@ -1257,93 +1271,94 @@
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 14104.1,
-        "win_rate": 0.9429,
-        "volume": 180386.34,
+        "wallet": "0x940063e955",
+        "username": "Mrgivemeall",
+        "pnl": 15072.59,
+        "win_rate": 0.9873,
+        "volume": 114088.08,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 42050.19,
+        "win_rate": 0.8874,
+        "volume": 581764.51,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 39399.26,
+        "win_rate": 0.8899,
+        "volume": 79833.26,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x75973c667c",
-        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
-        "pnl": 481587.94,
-        "win_rate": 0.95,
-        "volume": 871578.86,
-        "categories": []
-      },
-      {
-        "wallet": "0xfaf98181c4",
-        "username": "onekey02",
-        "pnl": 10339.75,
-        "win_rate": 0.9557,
-        "volume": 18405.65,
+        "wallet": "0xe548376f23",
+        "username": "Uniform123",
+        "pnl": 20498.48,
+        "win_rate": 0.9048,
+        "volume": 78756.49,
         "categories": [
-          "politics",
-          "crypto",
           "sports"
         ]
       },
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 46439.58,
+        "pnl": 45386.12,
         "win_rate": 0.8837,
         "volume": 0.0,
         "categories": [
           "sports",
           "politics"
         ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 122929.92,
+        "win_rate": 0.741,
+        "volume": 1293563.94,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
       },
       {
-        "wallet": "0x060f34e5aa",
-        "username": "alexfire97",
-        "pnl": 25943.27,
-        "win_rate": 0.8438,
-        "volume": 36825.36,
+        "wallet": "0x75973c667c",
+        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
+        "pnl": 917892.99,
+        "win_rate": 0.9565,
+        "volume": 1595213.1,
+        "categories": []
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 76102.09,
+        "win_rate": 0.654,
+        "volume": 2374384.59,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x53c48faa23",
-        "username": "uma003",
-        "pnl": 19759.95,
-        "win_rate": 0.8478,
-        "volume": 5989.32,
-        "categories": [
-          "sports",
-          "economy",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x9f035eb3ed",
-        "username": "NiNo713",
-        "pnl": 23574.22,
-        "win_rate": 0.7642,
-        "volume": 129462.06,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x75973c667c",
-        "username": "0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335",
-        "pnl": 481587.94,
-        "win_rate": 0.95,
-        "volume": 871578.86,
-        "categories": []
-      },
-      {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 38243.47,
+        "pnl": 80347.67,
         "win_rate": 0.8841,
         "volume": 584989.19,
         "categories": [
@@ -1351,35 +1366,21 @@
         ]
       },
       {
-        "wallet": "0xfbfd14dd4b",
-        "username": "XAE12Archangel",
-        "pnl": 11351.08,
-        "win_rate": 0.782,
-        "volume": 362428.27,
+        "wallet": "0x9854aeab8b",
+        "username": "ygggg1",
+        "pnl": 93833.64,
+        "win_rate": 0.4779,
+        "volume": 599150.01,
         "categories": [
-          "crypto",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xdbf16bcffa",
-        "username": "UnderperformingForALiving",
-        "pnl": 12613.48,
-        "win_rate": 0.3235,
-        "volume": 196231.33,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 52003.98,
-        "win_rate": 0.55,
-        "volume": 1152928.95,
+        "pnl": 86607.01,
+        "win_rate": 0.548,
+        "volume": 1488527.95,
         "categories": [
           "sports"
         ]
@@ -1387,55 +1388,43 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 19261.37,
-        "win_rate": 0.4288,
-        "volume": 352671.53,
+        "pnl": 19816.62,
+        "win_rate": 0.4313,
+        "volume": 408631.08,
         "categories": [
-          "sports",
           "politics",
+          "sports",
           "economy"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 23435.15,
-        "win_rate": 0.459,
-        "volume": 235680.12,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 42050.19,
+        "win_rate": 0.8874,
+        "volume": 581764.51,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 265498.94,
+        "pnl": 265672.48,
         "win_rate": 0.8603,
-        "volume": 114567.1,
+        "volume": 148262.9,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x74471a007d",
-        "username": "tetrose",
-        "pnl": 18349.39,
-        "win_rate": 0.5829,
-        "volume": 315424.63,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 23448.49,
+        "win_rate": 0.459,
+        "volume": 238344.19,
         "categories": [
-          "politics",
-          "economy",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 49583.36,
-        "win_rate": 0.475,
-        "volume": 1207007.1,
-        "categories": [
-          "crypto",
           "sports"
         ]
       }
@@ -1443,37 +1432,30 @@
   },
   "news": [
     {
-      "title": "Baker Hughes wraps up $13 . 6bn Chart Industries acquisition",
-      "url": "https://www.offshore-technology.com/news/baker-hughes-13-6bn-chart-industries-acquisition/",
-      "ticker": "GTLS",
+      "title": "Zacks Research Upgrades Carpenter Technology ( NYSE : CRS ) to  Strong - Buy  ",
+      "url": "https://www.tickerreport.com/banking-finance/13506929/zacks-research-upgrades-carpenter-technology-nysecrs-to-strong-buy.html",
+      "ticker": "CRS",
       "themes": [
-        "merger"
+        "stock"
       ],
       "date": "2026-07-17"
     },
     {
-      "title": "Down 50 % From Its High , Is CoreWeave a Bargain or a Value Trap ? ",
-      "url": "https://www.fool.com/investing/2026/07/16/down-50-from-its-high-is-coreweave-a-bargain-or-a/?source=iedfolrf0000001",
-      "ticker": "CRWV",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Here Why the CoreWeave Stock Price is Diving and Why it May Hit $50",
-      "url": "https://www.banklesstimes.com/articles/2026/07/16/heres-why-the-coreweave-stock-price-is-diving-and-why-it-may-hit-50/",
-      "ticker": "CRWV",
+      "title": "Financiere des Professionnels Fonds d investissement inc . Purchases Shares of 25 , 413 Marvell Technology , Inc . $MRVL",
+      "url": "https://www.dailypolitical.com/2026/07/17/financiere-des-professionnels-fonds-d-investissement-inc-purchases-shares-of-25413-marvell-technology-inc-mrvl.html",
+      "ticker": "MRVL",
       "themes": [
         "stock"
       ],
-      "date": "2026-07-16"
+      "date": "2026-07-17"
     },
     {
-      "title": "Baystreet . ca - Baker Hughes Climbs on Buying Chart Industries",
-      "url": "http://baystreet.ca/stockstowatch/23674/Baker-Hughes-Climbs-on-Buying-Chart-Industries",
-      "ticker": "GTLS",
-      "themes": [],
+      "title": "Why Marvell Technology ( MRVL ) Stock Is Down Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-210522144.html",
+      "ticker": "MRVL",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-07-16"
     },
     {
@@ -1536,7 +1518,7 @@
       "date": "2026-07-06"
     }
   ],
-  "signals_count": 1660,
+  "signals_count": 1666,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
