@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-17T23:24:01+00:00 -->
+<!-- trader_prompt.md generado 2026-07-18T00:28:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-17T23:24:01+00:00 · ventana señales 2026-06-17 -> 2026-07-17_
+_Generado 2026-07-18T00:28:56+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -254,19 +254,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 743.29 | -0.99% | -1.54% | 0.57% |
 | QQQ | 12.0% | core | 695.33 | -1.5% | -4.16% | -3.66% |
 | TLT | 12.0% | core | 84.52 | 0.37% | 0.06% | -1.74% |
-| BEP | 11.8% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
-| GLD | 9.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
-| PNTG | 8.7% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
-| MPWR | 6.8% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
-| IEF | 6.2% | core | 93.84 | 0.13% | 0.22% | 0.14% |
-| NUVL | 6.1% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
+| BEP | 12.0% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
+| PNTG | 10.4% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
+| GLD | 10.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
+| IEF | 6.9% | core | 93.84 | 0.13% | 0.22% | 0.14% |
+| MPWR | 5.6% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
+| NUVL | 3.8% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.6%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -6.2%
-- Beta vs SPY: 0.728 · posiciones efectivas: 11.7 · HHI: 0.0857
+- Volatilidad anualizada: 13.5%
+- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.6%
+- Max drawdown historico: -3.3%
+- Beta vs SPY: 0.739 · posiciones efectivas: 11.3 · HHI: 0.0884
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -293,9 +293,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
-| JEF | 72 | corporate_insider | SUMITOMO MITSUI FINANCIAL | 0 | $318,717,006 | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | TACT | 70 | large_holder | Poplar Point Capital Mana |  | - | - |
+| RNAZ | 70 | large_holder | DEFJ, LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -325,7 +325,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 63889.62 (0.16% / 0.21% / 6.59%) [2026-07-17]
+- BTC-USD: 63955.34 (0.26% / 0.31% / 6.7%) [2026-07-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -340,45 +340,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (1), regulatory (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [MPWR] Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
-- [MPWR] FinancialContent - Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
 - [PAYX] Welch & Forbes LLC Cuts Stock Holdings in Paychex , Inc . $PAYX (2026-07-12)
 - [PAYX] The Toughest Questions PAYX Faced On Its Latest Call (2026-07-10)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Decisive Point Group, LLC compro STDN por $19.1M el 2026-07-16.
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
-- Director SUMITOMO MITSUI FINANCIAL GROUP, INC. compro JEF por $318.7M el 2026-07-15.
 - 10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - CEO Vince Robin A. opero BNY por $4.0M el 2026-07-16.
+- CEO BOUDREAUX GAIL compro ELV por $753K el 2026-07-17.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $372,518 · win rate 96% · categorias: sports
+- 111111111115 · PnL $366,839 · win rate 96% · categorias: sports
 - TAIWANNUMBERONE · PnL $246,068 · win rate 89% · categorias: sports, politics
-- BreakTheBank · PnL $253,085 · win rate 86% · categorias: sports
+- BreakTheBank · PnL $253,086 · win rate 86% · categorias: sports
+- comon119 · PnL $35,606 · win rate 99% · categorias: sports, crypto, politics
 - ExplosiveNinja · PnL $32,010 · win rate 97% · categorias: sports
-- 0x75973C667CeC880353450BE3A6F17C5da67B4421-1784278069335 · PnL $917,893 · win rate 96% · categorias: n/d
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 43 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 655 registros 30d · ultimo dato 2026-07-17
+- **congress**: `ok` · 39 registros 30d · ultimo dato 2026-07-08
+- **sec_insiders**: `ok` · 686 registros 30d · ultimo dato 2026-07-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
