@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-18T12:21:00+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
+_Generado 2026-07-18T14:06:02+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64059.58 (0.25% / 2.92% / 7.6%) [2026-07-18]
+- BTC-USD: 64077.12 (0.28% / 2.95% / 7.63%) [2026-07-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,18 +113,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (2), regulatory (1)
+**Temas dominantes**: stock (7), ai (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] Salesforce vs . CrowdStrike : Which Technology Growth Stock Is a Better Buy in 2026 ? (2026-07-18)
 - [CRWD] CrowdStrike vs . Dell Technologies : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-17)
 - [CRWD] CrowdStrike vs . NVIDIA : Which Growth Tech Stock Is a Better Buy in 2026 , the Cybersecurity Giant or AI Leader ? (2026-07-17)
 - [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
 - [STDN] Standard Nuclear Slashes IPO Size As Nuclear Comps Collapse (2026-07-15)
+- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
 - [MPWR] Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
+- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
 - [MPWR] FinancialContent - Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,8 +141,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $68,483 · win rate 96% · categorias: sports
-- 111111111115 · PnL $47,412 · win rate 96% · categorias: sports
+- 111111111115 · PnL $82,566 · win rate 96% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $84,464 · win rate 96% · categorias: sports
 - Sassy-Bucket · PnL $57,986 · win rate 92% · categorias: sports
 - kekasaur · PnL $34,115 · win rate 92% · categorias: sports
 - SDTrading · PnL $29,766 · win rate 93% · categorias: sports
