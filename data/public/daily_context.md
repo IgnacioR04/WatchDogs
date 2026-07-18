@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-18T00:28:56+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
+_Generado 2026-07-18T03:50:19+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,22 +25,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 743.29 | -0.99% | -1.54% | 0.57% |
 | QQQ | 12.0% | core | 695.33 | -1.5% | -4.16% | -3.66% |
 | TLT | 12.0% | core | 84.52 | 0.37% | 0.06% | -1.74% |
-| BEP | 12.0% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
-| PNTG | 10.4% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
-| GLD | 10.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
-| IEF | 6.9% | core | 93.84 | 0.13% | 0.22% | 0.14% |
-| MPWR | 5.6% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
-| NUVL | 3.8% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
+| BEP | 11.4% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
+| GLD | 9.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
+| NMM | 9.1% | satellite | 71.37 | -4.11% | -5.78% | -1.41% |
+| PNTG | 6.8% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
+| IEF | 6.2% | core | 93.84 | 0.13% | 0.22% | 0.14% |
+| MPWR | 3.7% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
+| NUVL | 2.5% | satellite | 123.96 | 0.05% | 0.19% | 0.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.5%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -3.3%
-- Beta vs SPY: 0.739 · posiciones efectivas: 11.3 · HHI: 0.0884
+- Volatilidad anualizada: 11.1%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -2.6%
+- Beta vs SPY: 0.648 · posiciones efectivas: 12.0 · HHI: 0.0836
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **NMM** · score agregado 174.2 · 3 señales · fuentes: corporate_insider
 - **MPWR** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PNTG** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -91,12 +93,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - SPY: 743.29 (-0.99% / -1.54% / 0.57%) [2026-07-17]
 - QQQ: 695.33 (-1.5% / -4.16% / -3.66%) [2026-07-17]
 - IWM: 294.04 (-0.52% / -0.66% / 1.44%) [2026-07-17]
-- DIA: 520.81 (-0.77% / -0.95% / 1.15%) [2026-07-17]
+- DIA: 520.81 (-0.74% / -0.92% / 1.18%) [2026-07-17]
 - TLT: 84.52 (0.37% / 0.06% / -1.74%) [2026-07-17]
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 63955.34 (0.26% / 0.31% / 6.7%) [2026-07-18]
+- BTC-USD: 63909.31 (0.19% / 0.24% / 6.62%) [2026-07-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -111,31 +113,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (2), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PAYX] Welch & Forbes LLC Cuts Stock Holdings in Paychex , Inc . $PAYX (2026-07-12)
-- [PAYX] The Toughest Questions PAYX Faced On Its Latest Call (2026-07-10)
+- [CRWD] CrowdStrike vs . Dell Technologies : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-17)
+- [CRWD] CrowdStrike vs . NVIDIA : Which Growth Tech Stock Is a Better Buy in 2026 , the Cybersecurity Giant or AI Leader ? (2026-07-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner Decisive Point Group, LLC compro STDN por $19.1M el 2026-07-16.
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
 - 10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
-- CEO Vince Robin A. opero BNY por $4.0M el 2026-07-16.
 - CEO BOUDREAUX GAIL compro ELV por $753K el 2026-07-17.
+- 10% owner Gebbia Joseph vendio ABNB por $28.1M el 2026-07-15.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $366,839 · win rate 96% · categorias: sports
-- TAIWANNUMBERONE · PnL $246,068 · win rate 89% · categorias: sports, politics
-- BreakTheBank · PnL $253,086 · win rate 86% · categorias: sports
-- comon119 · PnL $35,606 · win rate 99% · categorias: sports, crypto, politics
-- ExplosiveNinja · PnL $32,010 · win rate 97% · categorias: sports
+- 111111111115 · PnL $156,253 · win rate 96% · categorias: sports
+- Sassy-Bucket · PnL $93,710 · win rate 92% · categorias: sports
+- Prelode · PnL $13,931 · win rate 81% · categorias: sports, crypto
+- WeBuyHighWeSelllow · PnL $10,343 · win rate 82% · categorias: sports, crypto
+- JhonAlexanderHinestroza · PnL $27,126 · win rate 72% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -143,7 +145,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 39 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 686 registros 30d · ultimo dato 2026-07-17
+- **sec_insiders**: `ok` · 720 registros 30d · ultimo dato 2026-07-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -156,7 +158,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, MPWR, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, MPWR, NMM, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
