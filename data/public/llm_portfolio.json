@@ -1,51 +1,14 @@
 {
-  "generated_at": "2026-07-13T20:41:33+00:00",
-  "verdict_llm": "adjust",
-  "thesis": "Regimen risk_on sin cambios sustanciales (VIX 17.23, tendencia alcista con SPY +8.32% sobre MA200, credito tenso). Mantengo el core (SPY/QQQ/TLT/VFLEX/IEF) y recorto GLD por deterioro de momentum coincidiendo con un dolar mas fuerte. Refuerzo las tres ideas satelite con mayor conviccion cruzada activa este ciclo (LION, AVO, NTSK) y libero FVR y ASC, posiciones legado sin señal desde hace 3 ciclos, para financiar el aumento sin superar el presupuesto de riesgo. Excluyo deliberadamente TBRG de la candidata pese a su señal: la fusion con IKS Health ya se completo y hay una investigacion de class action en curso, riesgo que el modelo cuantitativo no captura. Exposicion total ~88.0%, cash ~12.0%, ligeramente mas conservador que el ciclo anterior.",
+  "generated_at": "2026-07-18T11:35:47+00:00",
+  "verdict_llm": "accept",
+  "thesis": "Ciclo de puesta al dia tras 4 dias sin gestion (14-17 jul revisados retrospectivamente con los briefings de cada dia: regimen risk_on estable, VIX 15.8-18.4, ninguna señal de venta contra posiciones abiertas en ningun dia; la decision habria sido mantener en los cuatro). Hoy 18-jul el regimen sigue risk_on (presupuesto 90%) pero con deterioro tactico: VIX 18.77 (+24.9% en 5d), QQQ -4.16% en 5d y SPY pegado a su MA50. Ninguna idea nueva del briefing tiene conviccion cruzada suficiente para justificar rotacion: NMM es mono-fuente, y NUVL queda descartado porque un 10% owner vendio $1.0B el 15-jul pese a aparecer en la candidata. Mantengo la cartera integra con 88% invertido y 12% de cash, sin pagar friccion.",
   "key_risks": [
-    "Concentracion satelite en tickers con insiders comprando pero precio aun cayendo (LION -7.64% 5d): la conviccion puede tardar en materializarse o estar equivocada.",
-    "GLD y los bonos (TLT/IEF) muestran momentum negativo simultaneo, lo cual es atipico como cobertura de un regimen risk_on.",
-    "Latencia legal de las señales: Congreso y 13F llegan hasta 45 dias tarde, no reflejan necesariamente la situacion actual de esos tickers."
+    "VIX subiendo un 25% en la semana con QQQ debil: si la tendencia se rompe, el regimen puede pasar a neutral y exigir recorte de exposicion en el proximo ciclo.",
+    "LION, AVO y NTSK ya no tienen señales frescas en la ventana de 30d; son posiciones cuya tesis de insiders envejece (entrada hace ~1 semana).",
+    "Latencia legal de señales (Congreso/13F hasta 45 dias): parte del contexto puede estar descontado."
   ],
   "confidence": 0.6,
-  "adjustments": [
-    {
-      "ticker": "GLD",
-      "action": "decrease",
-      "target_weight": 0.093,
-      "reason": "Precio cae -4.95% en 20d y el dolar se fortalece (DXY +1.65 delta 1m); reduzco al peso de la cartera candidata en lugar de mantener sobreponderado un activo con momentum negativo."
-    },
-    {
-      "ticker": "FVR",
-      "action": "remove",
-      "target_weight": 0.0,
-      "reason": "Sin señal de smart money desde su entrada en el ciclo 2 (hace ya 3 ciclos); libero espacio para ideas con conviccion activa este ciclo."
-    },
-    {
-      "ticker": "ASC",
-      "action": "remove",
-      "target_weight": 0.0,
-      "reason": "Igual que FVR: posicion legado sin señal nueva desde el ciclo 2, sin tesis que la sostenga hoy."
-    },
-    {
-      "ticker": "LION",
-      "action": "increase",
-      "target_weight": 0.042,
-      "reason": "Mayor score agregado de todo el universo (481.3, 8 señales, 2 fuentes distintas: insider + large holder); conviccion cruzada sostenida pese a la caida reciente de precio."
-    },
-    {
-      "ticker": "AVO",
-      "action": "increase",
-      "target_weight": 0.042,
-      "reason": "Señal multi-fuente confirmada por noticias esta semana (10% owner Globalharvest Holdings compro $7.9M); momentum 20d +19.23%, tesis intacta."
-    },
-    {
-      "ticker": "NTSK",
-      "action": "increase",
-      "target_weight": 0.031,
-      "reason": "Cluster buy de 2 insiders distintos por ~$7.2M cada uno el mismo dia; momentum +46.96% 20d, señal reforzada respecto al ciclo anterior."
-    }
-  ],
+  "adjustments": [],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
