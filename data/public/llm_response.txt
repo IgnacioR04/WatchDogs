@@ -5,22 +5,22 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.093,
     "VFLEX": 0.12,
     "IEF": 0.098,
-    "PSBD": 0.031,
+    "GLD": 0.093,
     "LION": 0.042,
     "AVO": 0.042,
+    "PSBD": 0.031,
+    "NTSK": 0.031,
     "COE": 0.025,
     "MOMO": 0.023,
-    "NTSK": 0.031,
     "EPAM": 0.015
   },
-  "thesis": "Ciclo de puesta al dia tras 4 dias sin gestion (14-17 jul revisados retrospectivamente con los briefings de cada dia: regimen risk_on estable, VIX 15.8-18.4, ninguna señal de venta contra posiciones abiertas en ningun dia; la decision habria sido mantener en los cuatro). Hoy 18-jul el regimen sigue risk_on (presupuesto 90%) pero con deterioro tactico: VIX 18.77 (+24.9% en 5d), QQQ -4.16% en 5d y SPY pegado a su MA50. Ninguna idea nueva del briefing tiene conviccion cruzada suficiente para justificar rotacion: NMM es mono-fuente, y NUVL queda descartado porque un 10% owner vendio $1.0B el 15-jul pese a aparecer en la candidata. Mantengo la cartera integra con 88% invertido y 12% de cash, sin pagar friccion.",
+  "thesis": "Regimen risk_on sin cambios (presupuesto 90%, tendencia alcista intacta con SPY +7.19% sobre MA200, credito tenso). Ninguna de las posiciones actuales aparece en las señales de venta de este ciclo (TCNNF, BLK, ABT, SPGI, FLL, BRCM, CBZ, CRDO no estan en cartera), por lo que ninguna tesis se rompe. La cartera candidata reordena el bloque satelite hacia BEP/NMM/PNTG/MPWR/NUVL, pero descarto rotar: NUVL tiene una señal de venta masiva de un 10% owner ($1.0B, Flynn James E, 2026-07-15) que contradice directamente el buy signal de large_holder, y el resto de nuevas ideas no supera en conviccion cruzada a los satelites ya en cartera (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD), que siguen sin señal en contra. Exposicion se mantiene en 88.0%, cash 12.0%, dentro del presupuesto del 90%.",
   "key_risks": [
-    "VIX subiendo un 25% en la semana con QQQ debil: si la tendencia se rompe, el regimen puede pasar a neutral y exigir recorte de exposicion en el proximo ciclo.",
-    "LION, AVO y NTSK ya no tienen señales frescas en la ventana de 30d; son posiciones cuya tesis de insiders envejece (entrada hace ~1 semana).",
-    "Latencia legal de señales (Congreso/13F hasta 45 dias): parte del contexto puede estar descontado."
+    "VIX subio 12.19% en 1d y 24.88% en 5d (18.77) señalando aumento de nerviosismo pese a que el regimen sigue clasificado risk_on; vigilar si se degrada a neutral/risk_off en el proximo ciclo.",
+    "NUVL registra una venta de $1.0B de un 10% owner que contradice la señal de compra de large_holder — evitado deliberadamente como nueva posicion por esta contradiccion.",
+    "QQQ acumula -4.16% a 5d y -3.66% a 20d, la posicion con peor momentum reciente del core; se mantiene por ausencia de señal de venta explicita, pero es la mas vulnerable a un giro de regimen."
   ],
   "confidence": 0.6
 }

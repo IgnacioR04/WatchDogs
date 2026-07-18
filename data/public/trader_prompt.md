@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-18T21:22:37+00:00 -->
+<!-- trader_prompt.md generado 2026-07-18T21:46:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
