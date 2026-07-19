@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-19T12:22:09+00:00 -->
+<!-- trader_prompt.md generado 2026-07-19T14:10:08+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T12:22:09+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-19T14:10:08+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64329.5 (-0.72% / -0.96% / 6.97%) [2026-07-19]
+- BTC-USD: 64447.85 (-0.54% / -0.78% / 7.17%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,7 +346,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RDDT] How Reddit Photoshop community helps grieving parents . (2026-07-19)
 - [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
 - [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
 - [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
@@ -369,11 +368,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- 111111111115 · PnL $242,341 · win rate 95% · categorias: sports
 - Sassy-Bucket · PnL $94,948 · win rate 93% · categorias: sports
-- 111111111115 · PnL $60,985 · win rate 95% · categorias: sports
-- comon119 · PnL $33,416 · win rate 99% · categorias: sports, crypto, politics
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $37,257 · win rate 96% · categorias: sports
-- Kingdmandan · PnL $24,727 · win rate 97% · categorias: sports
+- comon119 · PnL $25,827 · win rate 99% · categorias: sports, crypto, politics
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $37,704 · win rate 96% · categorias: sports
+- esportGG · PnL $46,184 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
