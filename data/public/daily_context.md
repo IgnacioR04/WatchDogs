@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T00:25:52+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-19T04:10:18+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,20 +25,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 743.29 | -0.99% | -1.54% | 0.57% |
 | QQQ | 12.0% | core | 695.33 | -1.5% | -4.16% | -3.66% |
 | TLT | 12.0% | core | 84.52 | 0.37% | 0.06% | -1.74% |
-| BEP | 11.6% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
+| BEP | 11.5% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
 | GLD | 9.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
-| NMM | 8.7% | satellite | 71.37 | -4.11% | -5.78% | -1.41% |
+| NMM | 8.8% | satellite | 71.37 | -4.11% | -5.78% | -1.41% |
 | PNTG | 6.9% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
 | IEF | 6.2% | core | 93.84 | 0.13% | 0.22% | 0.14% |
 | MPWR | 3.7% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
-| NUVL | 2.5% | satellite | 123.96 | 0.0% | 0.15% | 0.58% |
+| NUVL | 2.6% | satellite | 123.96 | 0.0% | 0.05% | 0.49% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 11.1%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -2.6%
-- Beta vs SPY: 0.645 · posiciones efectivas: 12.0 · HHI: 0.0836
+- Beta vs SPY: 0.659 · posiciones efectivas: 12.0 · HHI: 0.0835
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64813.34 (1.43% / 4.14% / 8.87%) [2026-07-19]
+- BTC-USD: 64602.91 (1.1% / 3.8% / 8.52%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,18 +113,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (3), ai (1)
+**Temas dominantes**: stock (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RDDT] A Reddit dad refused to call in a college favor for his entitled teen son and it the life lesson he needed (2026-07-19)
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [MPWR] Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
+- [CRWD] Salesforce vs . CrowdStrike : Which Technology Growth Stock Is a Better Buy in 2026 ? (2026-07-18)
+- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
+- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 - [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
 - [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,11 +137,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,454,489 · win rate 86% · categorias: sports
-- esportGG · PnL $124,764 · win rate 94% · categorias: sports
-- ethanaz · PnL $77,094 · win rate 89% · categorias: sports, crypto
-- Jokerxing7 · PnL $63,693 · win rate 97% · categorias: sports
-- umeax · PnL $144,246 · win rate 92% · categorias: sports
+- Sassy-Bucket · PnL $148,110 · win rate 93% · categorias: sports
+- 111111111115 · PnL $45,289 · win rate 95% · categorias: sports
+- comon119 · PnL $19,503 · win rate 99% · categorias: sports, crypto, politics
+- Kingdmandan · PnL $24,442 · win rate 97% · categorias: sports
+- Bagwell306 · PnL $16,371 · win rate 94% · categorias: sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
