@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T14:10:08+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-19T15:32:46+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64447.85 (-0.54% / -0.78% / 7.17%) [2026-07-19]
+- BTC-USD: 64480.95 (-0.49% / -0.73% / 7.22%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,18 +113,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (1), regulatory (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
 - [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
 - [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
-- [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
+- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
+- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,11 +135,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $242,341 · win rate 95% · categorias: sports
+- esportGG · PnL $89,806 · win rate 94% · categorias: sports
 - Sassy-Bucket · PnL $94,948 · win rate 93% · categorias: sports
-- comon119 · PnL $25,827 · win rate 99% · categorias: sports, crypto, politics
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $37,704 · win rate 96% · categorias: sports
-- esportGG · PnL $46,184 · win rate 94% · categorias: sports
+- comon119 · PnL $24,724 · win rate 99% · categorias: sports, crypto, politics
+- Kingdmandan · PnL $23,871 · win rate 97% · categorias: sports
+- TAIWANNUMBERONE · PnL $57,912 · win rate 89% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
