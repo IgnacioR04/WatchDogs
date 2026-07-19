@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T22:24:18+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-19T23:28:59+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64749.96 (-0.07% / -0.32% / 7.67%) [2026-07-19]
+- BTC-USD: 64628.15 (-0.26% / -0.5% / 7.47%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -139,11 +139,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Allezpapa · PnL $1,101,087 · win rate 99% · categorias: sports
-- RJW1 · PnL $572,843 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $1,802,449 · win rate 85% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $156,571 · win rate 96% · categorias: sports
-- ramadamaramadam · PnL $970,457 · win rate 86% · categorias: sports
+- Allezpapa · PnL $1,226,696 · win rate 99% · categorias: sports
+- RJW1 · PnL $679,445 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $1,863,757 · win rate 85% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $157,695 · win rate 96% · categorias: sports
+- ramadamaramadam · PnL $1,158,687 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
