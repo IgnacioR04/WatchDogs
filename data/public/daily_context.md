@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-18T23:27:28+00:00 · ventana señales 2026-06-18 -> 2026-07-18_
+_Generado 2026-07-19T00:25:52+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64795.91 (1.4% / 4.11% / 8.84%) [2026-07-18]
+- BTC-USD: 64813.34 (1.43% / 4.14% / 8.87%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,19 +113,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), regulatory (2)
+**Temas dominantes**: stock (3), regulatory (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Salesforce vs . CrowdStrike : Which Technology Growth Stock Is a Better Buy in 2026 ? (2026-07-18)
-- [CRWD] CrowdStrike vs . Dell Technologies : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-17)
-- [CRWD] CrowdStrike vs . NVIDIA : Which Growth Tech Stock Is a Better Buy in 2026 , the Cybersecurity Giant or AI Leader ? (2026-07-17)
+- [RDDT] A Reddit dad refused to call in a college favor for his entitled teen son and it the life lesson he needed (2026-07-19)
 - [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
 - [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
 - [MPWR] Monolithic Power Systems and Amkor Stocks Trade Up , What You Need To Know (2026-07-14)
 - [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
 - [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -141,11 +139,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,445,188 · win rate 86% · categorias: sports
-- 111111111115 · PnL $171,631 · win rate 94% · categorias: sports
-- esportGG · PnL $105,181 · win rate 94% · categorias: sports
-- ethanaz · PnL $73,660 · win rate 89% · categorias: sports, crypto
-- Jokerxing7 · PnL $66,373 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $1,454,489 · win rate 86% · categorias: sports
+- esportGG · PnL $124,764 · win rate 94% · categorias: sports
+- ethanaz · PnL $77,094 · win rate 89% · categorias: sports, crypto
+- Jokerxing7 · PnL $63,693 · win rate 97% · categorias: sports
+- umeax · PnL $144,246 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
