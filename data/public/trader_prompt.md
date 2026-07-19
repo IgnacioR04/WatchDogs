@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-19T07:01:11+00:00 -->
+<!-- trader_prompt.md generado 2026-07-19T09:33:29+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T07:01:11+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-19T09:33:29+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64668.09 (-0.2% / -0.44% / 7.53%) [2026-07-19]
+- BTC-USD: 64561.82 (-0.36% / -0.61% / 7.36%) [2026-07-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,15 +342,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1)
+**Temas dominantes**: stock (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
-- [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -365,10 +366,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $51,376 · win rate 99% · categorias: sports, crypto, politics
+- comon119 · PnL $68,171 · win rate 99% · categorias: sports, crypto, politics
 - Sassy-Bucket · PnL $94,948 · win rate 93% · categorias: sports
-- Kingdmandan · PnL $24,442 · win rate 97% · categorias: sports
-- Bagwell306 · PnL $17,440 · win rate 94% · categorias: sports, economy
+- Kingdmandan · PnL $23,301 · win rate 97% · categorias: sports
+- Bagwell306 · PnL $17,429 · win rate 94% · categorias: sports, economy
 - 0x30353403430dadnm76fes8ma3 · PnL $23,907 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
