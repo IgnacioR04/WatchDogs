@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-19T23:28:59+00:00 -->
+<!-- trader_prompt.md generado 2026-07-20T00:29:14+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-19T23:28:59+00:00 · ventana señales 2026-06-19 -> 2026-07-19_
+_Generado 2026-07-20T00:29:14+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64628.15 (-0.26% / -0.5% / 7.47%) [2026-07-19]
+- BTC-USD: 64852.65 (0.09% / -0.16% / 7.84%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,18 +342,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1), regulatory (1)
-
-**Titulares recientes (GDELT, tickers con mas señales):**
-
-- [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
-- [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
+_(sin noticias este ciclo — GDELT no disponible)_
 
 **Actores que han movido ficha este mes (top movimientos):**
 
