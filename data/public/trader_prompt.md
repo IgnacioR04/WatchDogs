@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-20T07:46:59+00:00 -->
+<!-- trader_prompt.md generado 2026-07-20T11:30:51+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T07:46:59+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T11:30:51+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.63)
+- Volatilidad: `normal` (VIX 18.17)
 - Tendencia: `bull` (SPY 743.29 · MA50 743.23 · MA200 693.44 · dist MA200: 7.19%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -296,8 +296,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| TACT | 70 | large_holder | Poplar Point Capital Mana |  | - | - |
-| RNAZ | 70 | large_holder | DEFJ, LLC |  | - | - |
+| GCT | 70 | large_holder | Lei Wu |  | - | - |
+| CDXS | 70 | large_holder | Aberdeen Group plc |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -326,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.52 (0.37% / 0.06% / -1.74%) [2026-07-17]
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
-- ^VIX: 18.63 (-0.75% / 8.57% / 13.6%) [2026-07-20]
-- BTC-USD: 64146.99 (-0.84% / -0.87% / 9.54%) [2026-07-20]
+- ^VIX: 18.17 (-3.2% / 5.89% / 10.79%) [2026-07-20]
+- BTC-USD: 64290.05 (-0.62% / -0.65% / 9.79%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,16 +342,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (3), stock (2), leadership (1)
+**Temas dominantes**: regulatory (2), leadership (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MNKD] Is MannKind a Stock to Sell After Its CEO Let Go of 363 , 200 Shares ? (2026-07-20)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
 - [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
 - [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -361,16 +358,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - CEO BOUDREAUX GAIL compro ELV por $753K el 2026-07-17.
-- 10% owner Gebbia Joseph vendio ABNB por $28.1M el 2026-07-15.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $36,352 · win rate 95% · categorias: sports
-- Themsnw · PnL $149,153 · win rate 85% · categorias: sports, politics
-- 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $62,704 · win rate 73% · categorias: sports
-- 78979879879879 · PnL $5,613 · win rate 86% · categorias: sports, politics
-- 65765757 · PnL $5,557 · win rate 85% · categorias: sports, politics
+- Themsnw · PnL $147,317 · win rate 85% · categorias: sports, politics
+- thoodr · PnL $9,332 · win rate 99% · categorias: politics, sports, economy
+- Uniform123 · PnL $29,967 · win rate 88% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $18,872 · win rate 90% · categorias: sports, crypto
+- 65765757 · PnL $33,604 · win rate 84% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -378,8 +375,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 39 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 720 registros 30d · ultimo dato 2026-07-17
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-17
+- **sec_insiders**: `ok` · 747 registros 30d · ultimo dato 2026-07-20
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
