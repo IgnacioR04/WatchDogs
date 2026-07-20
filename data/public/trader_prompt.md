@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-20T16:20:00+00:00 -->
+<!-- trader_prompt.md generado 2026-07-20T18:36:36+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T16:20:00+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T18:36:36+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,8 +238,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.68)
-- Tendencia: `bull` (SPY 746.6 · MA50 743.53 · MA200 693.87 · dist MA200: 7.6%)
+- Volatilidad: `normal` (VIX 17.74)
+- Tendencia: `bull` (SPY 743.83 · MA50 743.47 · MA200 693.86 · dist MA200: 7.2%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.63%
@@ -251,21 +251,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 746.6 | 0.45% | -0.34% | -0.02% |
-| QQQ | 12.0% | core | 703.49 | 1.17% | -1.16% | -4.91% |
-| TLT | 12.0% | core | 83.95 | -0.68% | -0.03% | -2.87% |
-| PNTG | 12.0% | satellite | 41.45 | -1.19% | 3.99% | 23.95% |
-| BEP | 12.0% | satellite | 31.92 | 0.5% | 0.19% | -9.42% |
-| GLD | 11.1% | core | 368.23 | -0.05% | 0.3% | -4.88% |
+| SPY | 12.0% | core | 743.83 | 0.07% | -0.71% | -0.39% |
+| QQQ | 12.0% | core | 699.12 | 0.55% | -1.77% | -5.5% |
+| TLT | 12.0% | core | 83.85 | -0.8% | -0.15% | -2.99% |
+| PNTG | 12.0% | satellite | 41.54 | -0.98% | 4.22% | 24.22% |
+| BEP | 12.0% | satellite | 32.07 | 0.98% | 0.66% | -9.0% |
+| GLD | 11.1% | core | 367.45 | -0.26% | 0.09% | -5.08% |
 | IEF | 7.4% | core | 93.51 | -0.35% | 0.24% | -0.57% |
-| MPWR | 6.5% | satellite | 1353.69 | 3.18% | 4.83% | -13.3% |
+| MPWR | 6.6% | satellite | 1344.07 | 2.44% | 4.08% | -13.91% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.1%
+- Volatilidad anualizada: 12.9%
 - VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.6%
 - Max drawdown historico: -4.1%
-- Beta vs SPY: 0.78 · posiciones efectivas: 10.6 · HHI: 0.094
+- Beta vs SPY: 0.781 · posiciones efectivas: 10.6 · HHI: 0.094
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -290,9 +290,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
-| VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
+| CBNA | 70 | large_holder | Hingham Institution for S |  | - | - |
 | GCT | 70 | large_holder | Lei Wu |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
@@ -315,15 +315,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 746.6 (0.45% / -0.34% / -0.02%) [2026-07-20]
-- QQQ: 703.49 (1.17% / -1.16% / -4.91%) [2026-07-20]
-- IWM: 294.14 (0.03% / 0.22% / -0.49%) [2026-07-20]
-- DIA: 519.94 (-0.17% / -0.84% / 0.89%) [2026-07-20]
-- TLT: 83.95 (-0.68% / -0.03% / -2.87%) [2026-07-20]
+- SPY: 743.83 (0.07% / -0.71% / -0.39%) [2026-07-20]
+- QQQ: 699.12 (0.55% / -1.77% / -5.5%) [2026-07-20]
+- IWM: 293.44 (-0.2% / -0.01% / -0.73%) [2026-07-20]
+- DIA: 518.27 (-0.49% / -1.15% / 0.56%) [2026-07-20]
+- TLT: 83.85 (-0.8% / -0.15% / -2.99%) [2026-07-20]
 - IEF: 93.51 (-0.35% / 0.24% / -0.57%) [2026-07-20]
-- GLD: 368.23 (-0.05% / 0.3% / -4.88%) [2026-07-20]
-- ^VIX: 17.68 (-5.81% / 3.03% / 7.8%) [2026-07-20]
-- BTC-USD: 65407.31 (1.11% / 1.07% / 11.69%) [2026-07-20]
+- GLD: 367.45 (-0.26% / 0.09% / -5.08%) [2026-07-20]
+- ^VIX: 17.74 (-5.49% / 3.38% / 8.17%) [2026-07-20]
+- BTC-USD: 65466.67 (1.2% / 1.17% / 11.8%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -338,12 +338,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (1), regulatory (1)
+**Temas dominantes**: stock (4), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
-- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
 - [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
 - [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
 - [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
@@ -365,19 +364,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $168,211 · win rate 86% · categorias: sports, politics
-- 111111111115 · PnL $20,401 · win rate 95% · categorias: sports
-- Uniform123 · PnL $41,124 · win rate 88% · categorias: sports
-- 78979879879879 · PnL $23,610 · win rate 86% · categorias: sports, politics
-- nojnn · PnL $45,118 · win rate 80% · categorias: sports, politics, crypto
+- Themsnw · PnL $193,330 · win rate 86% · categorias: sports, politics
+- 111111111115 · PnL $20,429 · win rate 94% · categorias: sports
+- Uniform123 · PnL $41,128 · win rate 88% · categorias: sports
+- 78979879879879 · PnL $19,896 · win rate 86% · categorias: sports, politics
+- Amit11111 · PnL $17,112 · win rate 88% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 70 registros 30d · ultimo dato 2026-07-10
-- **sec_insiders**: `ok` · 723 registros 30d · ultimo dato 2026-07-20
+- **congress**: `ok` · 72 registros 30d · ultimo dato 2026-07-10
+- **sec_insiders**: `ok` · 753 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
