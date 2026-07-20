@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T22:31:40+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T23:32:25+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -56,11 +56,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
+| BOXL | 70 | large_holder | Khan MD Ehsan |  | - | - |
 | FRMI | 70 | large_holder | Caddis Holdings, LP |  | - | - |
 | CBNA | 70 | large_holder | Hingham Institution for S |  | - | - |
 | GCT | 70 | large_holder | Lei Wu |  | - | - |
 | ITG | 70 | large_holder | Ophir Asset Management Pt |  | - | - |
-| RACD | 70 | large_holder | Commodore Capital LP |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -90,7 +90,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
 - ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65185.52 (0.76% / 0.73% / 11.32%) [2026-07-20]
+- BTC-USD: 65202.44 (0.79% / 0.76% / 11.35%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -105,8 +105,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: stock (2), leadership (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [HSY] Trying to buy Bitget Wallet xStocks volume _ Start with this exchange checklist 『 Bitget Invitation Code _ FN1688 』 ode _ FN1688 』 - 链上小能手 (2026-07-20)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
@@ -123,11 +127,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $205,144 · win rate 86% · categorias: sports, politics
-- 111111111115 · PnL $22,136 · win rate 94% · categorias: sports
-- JnStTrdrBnusFnd · PnL $34,369 · win rate 91% · categorias: crypto
+- Themsnw · PnL $201,775 · win rate 86% · categorias: sports, politics
+- 111111111115 · PnL $21,931 · win rate 94% · categorias: sports
+- Mrgivemeall · PnL $12,631 · win rate 96% · categorias: crypto, sports
+- JnStTrdrBnusFnd · PnL $25,058 · win rate 91% · categorias: crypto
 - Uniform123 · PnL $41,128 · win rate 88% · categorias: sports
-- Amit11111 · PnL $17,267 · win rate 88% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -135,7 +139,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-07-10
-- **sec_insiders**: `ok` · 714 registros 30d · ultimo dato 2026-07-20
+- **sec_insiders**: `ok` · 638 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

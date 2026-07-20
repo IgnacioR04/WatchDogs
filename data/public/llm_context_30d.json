@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-20T22:30:45.370812+00:00",
+  "generated_at": "2026-07-20T23:31:09.424944+00:00",
   "window": {
     "from": "2026-06-20",
     "to": "2026-07-20",
@@ -22,7 +22,10 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "stock",
+      "leadership"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -430,6 +433,14 @@
         ]
       },
       {
+        "ticker": "RACD",
+        "company": "Research Alliance Corp IV",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "ELPW",
         "company": "Elong Power Holding Limited",
         "pressure_score": 211.5,
@@ -488,14 +499,6 @@
         ]
       },
       {
-        "ticker": "RACD",
-        "company": "Research Alliance Corp IV",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "QURE",
         "company": "uniQure N.V.",
         "pressure_score": 141.0,
@@ -516,23 +519,7 @@
       {
         "ticker": "MPLT",
         "company": "MapLight Therapeutics, Inc.",
-        "pressure_score": 3005.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TDG",
-        "company": "TransDigm Group INC",
-        "pressure_score": 2233.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RDDT",
-        "company": "Reddit, Inc.",
-        "pressure_score": 1851.8,
+        "pressure_score": 2485.8,
         "sources": [
           "corporate_insider"
         ]
@@ -563,9 +550,9 @@
         ]
       },
       {
-        "ticker": "SEZL",
-        "company": "Sezzle Inc.",
-        "pressure_score": 1034.4,
+        "ticker": "RDDT",
+        "company": "Reddit, Inc.",
+        "pressure_score": 876.5,
         "sources": [
           "corporate_insider"
         ]
@@ -587,9 +574,9 @@
         ]
       },
       {
-        "ticker": "NTRA",
-        "company": "Natera, Inc.",
-        "pressure_score": 583.0,
+        "ticker": "PSMT",
+        "company": "PRICESMART INC",
+        "pressure_score": 567.3,
         "sources": [
           "corporate_insider"
         ]
@@ -635,6 +622,22 @@
           "congress",
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "CDNA",
+        "company": "CareDx, Inc.",
+        "pressure_score": 294.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PUBM",
+        "company": "PubMatic, Inc.",
+        "pressure_score": 283.3,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -674,6 +677,15 @@
       "amount": 3211779.6,
       "date": "2026-07-09",
       "score": 80.4
+    },
+    {
+      "ticker": "ZSTK",
+      "company": "ZeroStack Corp.",
+      "actor": "Heinrich Michael",
+      "actor_type": "director",
+      "amount": 3479013.27,
+      "date": "2026-07-20",
+      "score": 80.1
     },
     {
       "ticker": "ARTV",
@@ -757,22 +769,13 @@
       "score": 70.5
     },
     {
-      "ticker": "OWLS",
-      "company": "OBOOK HOLDINGS INC.",
-      "actor": "WANG CHUN KAI",
-      "actor_type": "ceo",
-      "amount": 7046.74,
-      "date": "2026-07-17",
-      "score": 70.1
-    },
-    {
-      "ticker": "GRML",
-      "company": "Greenland Mines Ltd",
-      "actor": "McGarity Jon",
+      "ticker": "ANIX",
+      "company": "Anixa Biosciences Inc",
+      "actor": "Titterton Lewis H jr",
       "actor_type": "director",
-      "amount": 24822.0,
+      "amount": 41640.0,
       "date": "2026-07-20",
-      "score": 69.3
+      "score": 70.4
     }
   ],
   "institutional_changes": [
@@ -1040,14 +1043,6 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "MU",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 62.4
-    },
-    {
-      "politician": "Dan Newhouse",
       "ticker": "HSY",
       "direction": "sell",
       "amount": 15000,
@@ -1074,6 +1069,14 @@
       "politician": "Dan Newhouse",
       "ticker": "ACN",
       "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 61.1
+    },
+    {
+      "politician": "Dan Newhouse",
+      "ticker": "AMD",
+      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 61.1
@@ -1221,9 +1224,9 @@
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 205143.66,
+        "pnl": 201774.62,
         "win_rate": 0.86,
-        "volume": 228118.39,
+        "volume": 377846.76,
         "categories": [
           "sports",
           "politics"
@@ -1232,19 +1235,30 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 22135.81,
+        "pnl": 21931.2,
         "win_rate": 0.9444,
-        "volume": 1216438.03,
+        "volume": 1620039.2,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x940063e955",
+        "username": "Mrgivemeall",
+        "pnl": 12631.12,
+        "win_rate": 0.959,
+        "volume": 393385.28,
+        "categories": [
+          "crypto",
           "sports"
         ]
       },
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 34369.03,
+        "pnl": 25058.47,
         "win_rate": 0.9118,
-        "volume": 128626.96,
+        "volume": 229831.23,
         "categories": [
           "crypto"
         ]
@@ -1273,7 +1287,7 @@
       {
         "wallet": "0xeb490d0534",
         "username": "78979879879879",
-        "pnl": 17882.41,
+        "pnl": 16542.48,
         "win_rate": 0.8618,
         "volume": 12349.7,
         "categories": [
@@ -1284,7 +1298,7 @@
       {
         "wallet": "0x2974bd0059",
         "username": "65765757",
-        "pnl": 21103.04,
+        "pnl": 20783.01,
         "win_rate": 0.8442,
         "volume": 79189.48,
         "categories": [
@@ -1295,7 +1309,7 @@
       {
         "wallet": "0x88c4919de7",
         "username": "QuietRiskisWrong",
-        "pnl": 43010.2,
+        "pnl": 42833.78,
         "win_rate": 0.7947,
         "volume": 14964.86,
         "categories": [
@@ -1307,7 +1321,7 @@
       {
         "wallet": "0x7f9e2d1df7",
         "username": "nojnn",
-        "pnl": 41458.69,
+        "pnl": 40060.1,
         "win_rate": 0.7979,
         "volume": 25133.25,
         "categories": [
@@ -1315,47 +1329,35 @@
           "politics",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0xcf6c549212",
-        "username": "one8tyfive",
-        "pnl": 20092.55,
-        "win_rate": 0.813,
-        "volume": 227932.95,
-        "categories": [
-          "sports",
-          "politics"
-        ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 22691.25,
-        "win_rate": 0.576,
-        "volume": 2558502.11,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 22135.81,
+        "pnl": 21931.2,
         "win_rate": 0.9444,
-        "volume": 1216438.03,
+        "volume": 1620039.2,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 50640.39,
-        "win_rate": 0.486,
-        "volume": 696298.68,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 20015.92,
+        "win_rate": 0.576,
+        "volume": 2599690.2,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 46899.41,
+        "win_rate": 0.5109,
+        "volume": 597076.64,
         "categories": [
           "sports"
         ]
@@ -1363,9 +1365,19 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 22173.22,
+        "pnl": 24901.09,
         "win_rate": 0.577,
-        "volume": 1418444.66,
+        "volume": 1552055.08,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4d4f13a12d",
+        "username": "0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
+        "pnl": 29838.82,
+        "win_rate": 0.85,
+        "volume": 382214.01,
         "categories": [
           "sports"
         ]
@@ -1384,19 +1396,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 33677.99,
+        "pnl": 35776.31,
         "win_rate": 0.642,
-        "volume": 476841.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x547f2917d5",
-        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 62921.75,
-        "win_rate": 0.7364,
-        "volume": 183429.96,
+        "volume": 611686.14,
         "categories": [
           "sports"
         ]
@@ -1404,37 +1406,58 @@
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 205143.66,
+        "pnl": 201774.62,
         "win_rate": 0.86,
-        "volume": 228118.39,
+        "volume": 377846.76,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xe3611dada6",
-        "username": "trgparking",
-        "pnl": 22704.75,
-        "win_rate": 0.587,
-        "volume": 482994.05,
+        "wallet": "0x547f2917d5",
+        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
+        "pnl": 61146.62,
+        "win_rate": 0.7364,
+        "volume": 183429.96,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xeac22222ef",
-        "username": "ohehe",
-        "pnl": 35149.34,
-        "win_rate": 0.6049,
-        "volume": 347152.31,
+        "wallet": "0xc8ab97a908",
+        "username": "ArmageddonRewardsBilly",
+        "pnl": 13655.11,
+        "win_rate": 0.51,
+        "volume": 807956.33,
         "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "economy"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Trying to buy Bitget Wallet xStocks volume _ Start with this exchange checklist 『 Bitget Invitation Code _ FN1688 』 ode _ FN1688 』 - 链上小能手",
+      "url": "https://blog.udn.com:443/74f3a062/191484544",
+      "ticker": "HSY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-20"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-13"
+    },
     {
       "title": "Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? ",
       "url": "https://www.dailypolitical.com/2026/07/10/maplight-therapeutics-nasdaqmplt-sets-new-1-year-high-time-to-buy.html",
@@ -1450,7 +1473,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1686,
+  "signals_count": 1610,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
