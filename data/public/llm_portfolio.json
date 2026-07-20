@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-18T11:35:47+00:00",
+  "generated_at": "2026-07-20T18:58:22+00:00",
   "verdict_llm": "accept",
-  "thesis": "Ciclo de puesta al dia tras 4 dias sin gestion (14-17 jul revisados retrospectivamente con los briefings de cada dia: regimen risk_on estable, VIX 15.8-18.4, ninguna señal de venta contra posiciones abiertas en ningun dia; la decision habria sido mantener en los cuatro). Hoy 18-jul el regimen sigue risk_on (presupuesto 90%) pero con deterioro tactico: VIX 18.77 (+24.9% en 5d), QQQ -4.16% en 5d y SPY pegado a su MA50. Ninguna idea nueva del briefing tiene conviccion cruzada suficiente para justificar rotacion: NMM es mono-fuente, y NUVL queda descartado porque un 10% owner vendio $1.0B el 15-jul pese a aparecer en la candidata. Mantengo la cartera integra con 88% invertido y 12% de cash, sin pagar friccion.",
+  "thesis": "Ciclo 20-jul: regimen risk_on estable, con mejora tactica leve (VIX 17.74, -5.49% 1d, frente a 18.77 del ciclo previo) y tendencia bull intacta (SPY +7.2% sobre MA200, credito tenso). Ninguna senal de venta de la seccion 3b (TCNNF, BLK, ADBE, MGA, AMD, GOOGL, AMAT, CSX) afecta a mis posiciones actuales. La candidata rota satelites hacia PNTG, BEP y MPWR, pero ninguno tiene senal de venta contra mis satelites vigentes (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD), asi que rotar solo pagaria friccion sin tesis rota. Las nuevas ideas de la seccion 3a (GABC con cluster de 5 insiders pero importes pequenos, MPWR con senal mixta venta-congreso/compra-institucional) no tienen conviccion suficiente frente al coste de abrir posicion nueva con solo 2% de margen libre hasta el presupuesto del 90%. Mantengo cartera integra: 88% invertido, 12% cash.",
   "key_risks": [
-    "VIX subiendo un 25% en la semana con QQQ debil: si la tendencia se rompe, el regimen puede pasar a neutral y exigir recorte de exposicion en el proximo ciclo.",
-    "LION, AVO y NTSK ya no tienen señales frescas en la ventana de 30d; son posiciones cuya tesis de insiders envejece (entrada hace ~1 semana).",
-    "Latencia legal de señales (Congreso/13F hasta 45 dias): parte del contexto puede estar descontado."
+    "Concentracion en core de indices y duracion (SPY/QQQ/TLT/VFLEX, 48% conjunto) vulnerable a una reversion subita de la tendencia alcista",
+    "Varios satelites (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD) llevan varios ciclos sin refuerzo de senal nueva; la tesis original puede estar envejeciendo sin que aun haya senal de venta que lo confirme",
+    "MPWR muestra senal mixta (venta del Congreso 2026-07-19 vs compra de Invesco) - vigilar si reaparece con mas conviccion en proximos ciclos"
   ],
   "confidence": 0.6,
   "adjustments": [],
@@ -13,15 +13,15 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.093,
     "VFLEX": 0.12,
     "IEF": 0.098,
-    "PSBD": 0.031,
+    "GLD": 0.093,
     "LION": 0.042,
     "AVO": 0.042,
+    "PSBD": 0.031,
+    "NTSK": 0.031,
     "COE": 0.025,
     "MOMO": 0.023,
-    "NTSK": 0.031,
     "EPAM": 0.015
   },
   "metrics": {
