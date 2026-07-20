@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-07-20T13:35:46+00:00",
+  "generated_at": "2026-07-20T16:19:59+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "PNTG": 0.12,
     "BEP": 0.12,
-    "PNTG": 0.1047,
-    "GLD": 0.1032,
-    "IEF": 0.0688,
-    "MPWR": 0.0545,
-    "NUVL": 0.0387
+    "GLD": 0.1108,
+    "IEF": 0.0739,
+    "MPWR": 0.0654
   },
   "core": {
     "SPY": 0.1934,
@@ -23,23 +22,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "MPWR": 0.0438,
-    "NUVL": 0.0311,
-    "PNTG": 0.0841,
-    "BEP": 0.1384
+    "MPWR": 0.0489,
+    "PNTG": 0.094,
+    "BEP": 0.1546
   },
   "satellite_rationale": [
     {
       "ticker": "MPWR",
       "score": 73.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "NUVL",
-      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -63,16 +53,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.133,
-    "var_95_1d": 0.0147,
-    "cvar_95_1d": 0.0156,
-    "max_drawdown": -0.0332,
-    "beta_spy": 0.735,
-    "hhi": 0.0884,
+    "ann_vol": 0.1306,
+    "var_95_1d": 0.0141,
+    "cvar_95_1d": 0.0155,
+    "max_drawdown": -0.0408,
+    "beta_spy": 0.78,
+    "hhi": 0.094,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 11.3,
-    "gross_exposure": 0.8499,
+    "n_positions": 8,
+    "effective_positions": 10.6,
+    "gross_exposure": 0.8501,
     "days_used": 46
   },
   "risk_gate": {
