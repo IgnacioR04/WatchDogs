@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T21:17:39+00:00",
+  "generated_at": "2026-07-20T22:31:40+00:00",
   "budget_eur": 100.0,
   "n_cycles": 11,
   "cost_model": {
@@ -8,18 +8,18 @@
   },
   "metrics": {
     "n_days": 8,
-    "equity_eur": 99.24,
-    "total_return": -0.0076,
+    "equity_eur": 99.2,
+    "total_return": -0.008,
     "win_rate_days": 0.375,
     "best_day": 0.0036,
     "worst_day": -0.0072,
-    "ann_vol": 0.0561,
-    "sharpe": -3.13,
-    "sortino": -3.77,
-    "max_drawdown": -0.0101,
-    "spy_return": -0.0059,
-    "excess_return": -0.0016,
-    "costs_eur": 0.1976,
+    "ann_vol": 0.058,
+    "sharpe": -3.27,
+    "sortino": -3.92,
+    "max_drawdown": -0.0108,
+    "spy_return": -0.0055,
+    "excess_return": -0.0025,
+    "costs_eur": 0.1975,
     "turnover_total": 1.318
   },
   "equity_curve": [
@@ -31,45 +31,45 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100.21,
+      "equity": 100.22,
       "spy": 101.02,
-      "daily_ret": -8e-05
+      "daily_ret": -2e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.8,
+      "equity": 99.73,
       "spy": 100.5,
-      "daily_ret": -0.00383
+      "daily_ret": -0.00458
     },
     {
       "date": "2026-07-14",
-      "equity": 100.11,
+      "equity": 100.04,
       "spy": 101.04,
       "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 100.0,
+      "equity": 99.94,
       "spy": 101.08,
       "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.29,
+      "equity": 99.22,
       "spy": 100.13,
       "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.21,
+      "equity": 99.14,
       "spy": 99.36,
       "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.24,
-      "spy": 99.41,
-      "daily_ret": 0.00059
+      "equity": 99.2,
+      "spy": 99.45,
+      "daily_ret": 0.00083
     }
   ],
   "positions": {
@@ -110,31 +110,19 @@
     },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock",
-      "entry_date": "2026-07-13",
-      "ret_since_entry": -0.0134,
-      "value_eur": 4.14
+      "instrument": "stock"
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock",
-      "entry_date": "2026-07-10",
-      "ret_since_entry": -0.006,
-      "value_eur": 4.17
+      "instrument": "stock"
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 3.1
+      "instrument": "stock"
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock",
-      "entry_date": "2026-07-13",
-      "ret_since_entry": 0.039,
-      "value_eur": 3.22
+      "instrument": "stock"
     },
     "COE": {
       "weight": 0.025,
@@ -145,10 +133,7 @@
     },
     "MOMO": {
       "weight": 0.023,
-      "instrument": "stock",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 2.3
+      "instrument": "stock"
     }
   },
   "cycles": [

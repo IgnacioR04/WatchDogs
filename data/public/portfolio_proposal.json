@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-07-20T20:57:00+00:00",
+  "generated_at": "2026-07-20T22:31:39+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.7,
-  "cash": 0.3,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.12,
     "BEP": 0.12,
-    "PNTG": 0.1097,
-    "QQQ": 0.1078,
-    "TLT": 0.1078,
-    "GLD": 0.0808,
-    "IEF": 0.0539
+    "IEF": 0.0999
   },
   "core": {
     "SPY": 0.1592,
@@ -21,18 +20,9 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "PNTG": 0.0926,
-    "BEP": 0.1524
+    "BEP": 0.245
   },
   "satellite_rationale": [
-    {
-      "ticker": "PNTG",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
     {
       "ticker": "BEP",
       "score": 58.5,
@@ -43,16 +33,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0863,
-    "var_95_1d": 0.0092,
-    "cvar_95_1d": 0.0109,
-    "max_drawdown": -0.0325,
-    "beta_spy": 0.482,
-    "hhi": 0.0735,
+    "ann_vol": 0.0925,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.0125,
+    "max_drawdown": -0.0413,
+    "beta_spy": 0.576,
+    "hhi": 0.082,
     "max_position": 0.12,
-    "n_positions": 7,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.7,
+    "n_positions": 6,
+    "effective_positions": 12.2,
+    "gross_exposure": 0.6999,
     "days_used": 46
   },
   "risk_gate": {

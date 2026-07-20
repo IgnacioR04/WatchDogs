@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T20:57:01+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T22:31:40+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -12,7 +12,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 - Volatilidad: `normal` (VIX 18.65)
 - Tendencia: `neutral` (SPY 742.09 · MA50 743.44 · MA200 693.85 · dist MA200: 6.95%)
 - Credito: `tight` (HY spread 2.73)
-- Tipos: `flat` (curva 10y-2y 0.37)
+- Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
 - Motivos: credito tenso/risk-on (+)
 
@@ -23,23 +23,21 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 742.09 | -0.16% | -0.95% | -0.62% |
+| QQQ | 12.0% | core | 696.06 | 0.1% | -2.2% | -5.91% |
+| TLT | 12.0% | core | 83.89 | -0.75% | -0.1% | -2.94% |
+| GLD | 12.0% | core | 367.6 | -0.22% | 0.13% | -5.04% |
 | BEP | 12.0% | satellite | 32.05 | 0.91% | 0.6% | -9.05% |
-| PNTG | 11.0% | satellite | 41.15 | -1.91% | 3.24% | 23.06% |
-| QQQ | 10.8% | core | 696.06 | 0.1% | -2.2% | -5.91% |
-| TLT | 10.8% | core | 83.89 | -0.75% | -0.1% | -2.94% |
-| GLD | 8.1% | core | 367.6 | -0.22% | 0.13% | -5.04% |
-| IEF | 5.4% | core | 93.54 | -0.32% | 0.27% | -0.54% |
+| IEF | 10.0% | core | 93.54 | -0.32% | 0.27% | -0.54% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.6%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.2%
-- Beta vs SPY: 0.482 · posiciones efectivas: 13.6 · HHI: 0.0735
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -4.1%
+- Beta vs SPY: 0.576 · posiciones efectivas: 12.2 · HHI: 0.082
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **PNTG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -56,9 +54,9 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
-| MPWR | 72 | large_holder | Invesco Ltd. |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
+| FRMI | 70 | large_holder | Caddis Holdings, LP |  | - | - |
 | CBNA | 70 | large_holder | Hingham Institution for S |  | - | - |
 | GCT | 70 | large_holder | Lei Wu |  | - | - |
 | ITG | 70 | large_holder | Ophir Asset Management Pt |  | - | - |
@@ -92,50 +90,44 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
 - ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65311.24 (0.96% / 0.93% / 11.53%) [2026-07-20]
+- BTC-USD: 65185.52 (0.76% / 0.73% / 11.32%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.18 (delta 1m: 0.13) [2026-07-17]
 - Treasury 10Y yield: 4.55 (delta 1m: 0.12) [2026-07-17]
-- Curva 10Y-2Y: 0.37 (delta 1m: -0.01) [2026-07-17]
+- Curva 10Y-2Y: 0.39 (delta 1m: 0.1) [2026-07-20]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
 - High yield spread (OAS): 2.73 (delta 1m: 0.07) [2026-07-17]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
-- Breakeven inflacion 10Y: 2.24 (delta 1m: -0.05) [2026-07-17]
+- Breakeven inflacion 10Y: 2.25 (delta 1m: -0.01) [2026-07-20]
 - Dolar broad index: 120.5315 (delta 1m: 1.275) [2026-07-17]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), regulatory (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RDDT] Reddit Shares Rise 3 % After Key Trading Signal - Reddit ( NYSE : RDDT ) (2026-07-20)
-- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
-- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
-- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
 - 10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-07-16.
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
+- 10% owner Fairmount Funds Management LLC compro CBIO por $12.4M el 2026-07-16 [senal en multiples fuentes].
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
 - CEO Huang Jack Jiajia compro COE por $3.7M el 2026-07-13.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $198,290 · win rate 86% · categorias: sports, politics
-- 111111111115 · PnL $20,761 · win rate 94% · categorias: sports
-- Mrgivemeall · PnL $15,797 · win rate 96% · categorias: crypto, sports
-- JnStTrdrBnusFnd · PnL $28,600 · win rate 91% · categorias: crypto
+- Themsnw · PnL $205,144 · win rate 86% · categorias: sports, politics
+- 111111111115 · PnL $22,136 · win rate 94% · categorias: sports
+- JnStTrdrBnusFnd · PnL $34,369 · win rate 91% · categorias: crypto
 - Uniform123 · PnL $41,128 · win rate 88% · categorias: sports
+- Amit11111 · PnL $17,267 · win rate 88% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -143,7 +135,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-07-10
-- **sec_insiders**: `ok` · 779 registros 30d · ultimo dato 2026-07-20
+- **sec_insiders**: `ok` · 714 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -156,7 +148,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
