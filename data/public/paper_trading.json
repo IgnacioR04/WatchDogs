@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-20T20:57:01+00:00",
+  "generated_at": "2026-07-20T21:17:39+00:00",
   "budget_eur": 100.0,
-  "n_cycles": 10,
+  "n_cycles": 11,
   "cost_model": {
     "per_side": 0.0015,
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
     "n_days": 8,
-    "equity_eur": 99.22,
-    "total_return": -0.0078,
+    "equity_eur": 99.24,
+    "total_return": -0.0076,
     "win_rate_days": 0.375,
     "best_day": 0.0036,
     "worst_day": -0.0072,
-    "ann_vol": 0.0579,
-    "sharpe": -3.32,
-    "sortino": -3.99,
-    "max_drawdown": -0.0108,
-    "spy_return": -0.0056,
-    "excess_return": -0.0023,
-    "costs_eur": 0.1708,
-    "turnover_total": 1.138
+    "ann_vol": 0.0561,
+    "sharpe": -3.13,
+    "sortino": -3.77,
+    "max_drawdown": -0.0101,
+    "spy_return": -0.0059,
+    "excess_return": -0.0016,
+    "costs_eur": 0.1976,
+    "turnover_total": 1.318
   },
   "equity_curve": [
     {
@@ -31,45 +31,45 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100.22,
+      "equity": 100.21,
       "spy": 101.02,
-      "daily_ret": -2e-05
+      "daily_ret": -8e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.73,
+      "equity": 99.8,
       "spy": 100.5,
-      "daily_ret": -0.00458
+      "daily_ret": -0.00383
     },
     {
       "date": "2026-07-14",
-      "equity": 100.04,
+      "equity": 100.11,
       "spy": 101.04,
       "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 99.94,
+      "equity": 100.0,
       "spy": 101.08,
       "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.22,
+      "equity": 99.29,
       "spy": 100.13,
       "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.14,
+      "equity": 99.21,
       "spy": 99.36,
       "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.22,
-      "spy": 99.44,
-      "daily_ret": 0.00074
+      "equity": 99.24,
+      "spy": 99.41,
+      "daily_ret": 0.00059
     }
   ],
   "positions": {
@@ -94,17 +94,6 @@
       "ret_since_entry": -0.0056,
       "value_eur": 11.93
     },
-    "VFLEX": {
-      "weight": 0.12,
-      "instrument": "fund_us"
-    },
-    "IEF": {
-      "weight": 0.098,
-      "instrument": "etf_us",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0003,
-      "value_eur": 9.8
-    },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
@@ -112,21 +101,40 @@
       "ret_since_entry": -0.0183,
       "value_eur": 9.13
     },
+    "IEF": {
+      "weight": 0.053,
+      "instrument": "etf_us",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0003,
+      "value_eur": 5.3
+    },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": -0.0134,
+      "value_eur": 4.14
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-10",
+      "ret_since_entry": -0.006,
+      "value_eur": 4.17
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": 0.039,
+      "value_eur": 3.22
     },
     "COE": {
       "weight": 0.025,
@@ -137,11 +145,10 @@
     },
     "MOMO": {
       "weight": 0.023,
-      "instrument": "stock"
-    },
-    "EPAM": {
-      "weight": 0.015,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 2.3
     }
   },
   "cycles": [
@@ -264,6 +271,18 @@
       "thesis": "Ciclo 20-jul: regimen risk_on estable, con mejora tactica leve (VIX 17.74, -5.49% 1d, frente a 18.77 del ciclo previo) y tendencia bull intacta (SPY +7.2% sobre MA200, credito tenso). Ninguna senal de venta de la seccion 3b (TCNNF, BLK, ADBE, MGA, AMD, GOOGL, AMAT, CSX) afecta a mis posiciones actuales. La candidata rota satelites hacia PNTG, BEP y MPWR, pero ninguno tiene senal de venta contra mis satelites vigentes (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD), asi que rotar solo pagaria friccion sin tesis rota. Las nuevas ideas de la seccion 3a (GABC con cluster de 5 insiders pero importes pequenos, MPWR con senal mixta venta-congreso/compra-institucional) no tienen conviccion suficiente frente al coste de abrir posicion nueva con solo 2% de margen libre hasta el presupuesto del 90%. Mantengo cartera integra: 88% invertido, 12% cash.",
       "confidence": 0.6,
       "n_adjustments": 0
+    },
+    {
+      "cycle": 11,
+      "approved_at": "2026-07-20T21:17:29+00:00",
+      "n_positions": 11,
+      "invested": 0.7,
+      "turnover": 0.18,
+      "cost_pct": 0.00027,
+      "verdict_llm": "adjust",
+      "thesis": "El presupuesto de riesgo del regimen risk_on bajo a 70% este ciclo (la cartera actual estaba en 88%), asi que el primer paso es recortar exposicion hacia cash. Mantenemos el nucleo SPY/QQQ/TLT/GLD porque sigue presente en la cartera candidata de esta semana, reducimos IEF al peso que marca el propio modelo (9.8%->5.3%) y eliminamos VFLEX y EPAM, que ya no tienen respaldo de senal ni aparecen en la cartera candidata. Los demas satelites (LION, AVO, PSBD, NTSK, COE, MOMO) se mantienen porque ninguna senal de venta de este ciclo les afecta directamente, y COE tiene ademas una compra reciente de insider (CEO, 2026-07-13, $3.7M). No anadimos los nuevos satelites candidatos (BEP, PNTG) para minimizar rotacion en un ciclo que ya es de recorte forzado.",
+      "confidence": 0.65,
+      "n_adjustments": 3
     }
   ]
 }

@@ -1,26 +1,28 @@
 {
-  "verdict": "accept",
-  "adjustments": [],
+  "verdict": "adjust",
+  "adjustments": [
+    {"ticker": "VFLEX", "action": "remove", "target_weight": 0.0, "reason": "No aparece en la cartera candidata ni en las senales de smart money de este ciclo; sin tesis vigente. Se libera capital para cumplir el nuevo presupuesto de riesgo (70% vs 88% actual)."},
+    {"ticker": "IEF", "action": "decrease", "target_weight": 0.053, "reason": "La propia cartera candidata baja IEF a 5.4% este ciclo (menor necesidad de duracion); alineamos y contribuye a bajar la exposicion total al presupuesto de 70%."},
+    {"ticker": "EPAM", "action": "remove", "target_weight": 0.0, "reason": "Posicion residual (1.5%) sin senal vigente ni presencia en el briefing; se recorta para cuadrar exactamente al presupuesto de riesgo de 70% del regimen risk_on."}
+  ],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "VFLEX": 0.12,
-    "IEF": 0.098,
     "GLD": 0.093,
+    "IEF": 0.053,
     "LION": 0.042,
     "AVO": 0.042,
     "PSBD": 0.031,
     "NTSK": 0.031,
     "COE": 0.025,
-    "MOMO": 0.023,
-    "EPAM": 0.015
+    "MOMO": 0.023
   },
-  "thesis": "Ciclo 20-jul: regimen risk_on estable, con mejora tactica leve (VIX 17.74, -5.49% 1d, frente a 18.77 del ciclo previo) y tendencia bull intacta (SPY +7.2% sobre MA200, credito tenso). Ninguna senal de venta de la seccion 3b (TCNNF, BLK, ADBE, MGA, AMD, GOOGL, AMAT, CSX) afecta a mis posiciones actuales. La candidata rota satelites hacia PNTG, BEP y MPWR, pero ninguno tiene senal de venta contra mis satelites vigentes (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD), asi que rotar solo pagaria friccion sin tesis rota. Las nuevas ideas de la seccion 3a (GABC con cluster de 5 insiders pero importes pequenos, MPWR con senal mixta venta-congreso/compra-institucional) no tienen conviccion suficiente frente al coste de abrir posicion nueva con solo 2% de margen libre hasta el presupuesto del 90%. Mantengo cartera integra: 88% invertido, 12% cash.",
+  "thesis": "El presupuesto de riesgo del regimen risk_on bajo a 70% este ciclo (la cartera actual estaba en 88%), asi que el primer paso es recortar exposicion hacia cash. Mantenemos el nucleo SPY/QQQ/TLT/GLD porque sigue presente en la cartera candidata de esta semana, reducimos IEF al peso que marca el propio modelo (9.8%->5.3%) y eliminamos VFLEX y EPAM, que ya no tienen respaldo de senal ni aparecen en la cartera candidata. Los demas satelites (LION, AVO, PSBD, NTSK, COE, MOMO) se mantienen porque ninguna senal de venta de este ciclo les afecta directamente, y COE tiene ademas una compra reciente de insider (CEO, 2026-07-13, $3.7M). No anadimos los nuevos satelites candidatos (BEP, PNTG) para minimizar rotacion en un ciclo que ya es de recorte forzado.",
   "key_risks": [
-    "Concentracion en core de indices y duracion (SPY/QQQ/TLT/VFLEX, 48% conjunto) vulnerable a una reversion subita de la tendencia alcista",
-    "Varios satelites (LION, AVO, NTSK, COE, MOMO, EPAM, PSBD) llevan varios ciclos sin refuerzo de senal nueva; la tesis original puede estar envejeciendo sin que aun haya senal de venta que lo confirme",
-    "MPWR muestra senal mixta (venta del Congreso 2026-07-19 vs compra de Invesco) - vigilar si reaparece con mas conviccion en proximos ciclos"
+    "El recorte de exposicion (88%->70%) puede perder parte de la subida si el regimen risk_on se mantiene fuerte",
+    "Varios satelites (LION, AVO, PSBD, NTSK, MOMO) llevan varios ciclos sin senal fresca que reconfirme su tesis",
+    "El spread de credito esta tenso (HY OAS 2.73) pese al regimen risk_on, riesgo de deterioro rapido del regimen"
   ],
-  "confidence": 0.6
+  "confidence": 0.65
 }
