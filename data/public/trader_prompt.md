@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-20T00:29:14+00:00 -->
+<!-- trader_prompt.md generado 2026-07-20T04:21:16+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T00:29:14+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T04:21:16+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
 - ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64852.65 (0.09% / -0.16% / 7.84%) [2026-07-20]
+- BTC-USD: 64630.1 (-0.26% / -0.5% / 7.47%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,7 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: stock (7), regulatory (3), leadership (1), ai (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [MNKD] Is MannKind a Stock to Sell After Its CEO Let Go of 363 , 200 Shares ? (2026-07-20)
+- [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
+- [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
+- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
+- [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
+- [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
+- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
+- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -357,11 +370,11 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Allezpapa · PnL $1,226,696 · win rate 99% · categorias: sports
-- RJW1 · PnL $679,445 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $1,863,757 · win rate 85% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $157,695 · win rate 96% · categorias: sports
-- ramadamaramadam · PnL $1,158,687 · win rate 87% · categorias: sports
+- 111111111115 · PnL $91,000 · win rate 95% · categorias: sports
+- Themsnw · PnL $151,921 · win rate 85% · categorias: sports, politics
+- erw322 · PnL $3,627 · win rate 96% · categorias: sports, crypto
+- 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $62,807 · win rate 73% · categorias: sports
+- 78979879879879 · PnL $6,354 · win rate 86% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
