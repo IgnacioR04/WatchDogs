@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T18:58:32+00:00",
+  "generated_at": "2026-07-20T20:57:01+00:00",
   "budget_eur": 100.0,
   "n_cycles": 10,
   "cost_model": {
@@ -8,17 +8,17 @@
   },
   "metrics": {
     "n_days": 8,
-    "equity_eur": 99.35,
-    "total_return": -0.0065,
+    "equity_eur": 99.22,
+    "total_return": -0.0078,
     "win_rate_days": 0.375,
     "best_day": 0.0036,
     "worst_day": -0.0072,
-    "ann_vol": 0.0568,
-    "sharpe": -2.67,
-    "sortino": -3.26,
-    "max_drawdown": -0.0101,
-    "spy_return": -0.0043,
-    "excess_return": -0.0022,
+    "ann_vol": 0.0579,
+    "sharpe": -3.32,
+    "sortino": -3.99,
+    "max_drawdown": -0.0108,
+    "spy_return": -0.0056,
+    "excess_return": -0.0023,
     "costs_eur": 0.1708,
     "turnover_total": 1.138
   },
@@ -31,45 +31,45 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100.21,
+      "equity": 100.22,
       "spy": 101.02,
-      "daily_ret": -8e-05
+      "daily_ret": -2e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.8,
+      "equity": 99.73,
       "spy": 100.5,
-      "daily_ret": -0.00383
+      "daily_ret": -0.00458
     },
     {
       "date": "2026-07-14",
-      "equity": 100.11,
+      "equity": 100.04,
       "spy": 101.04,
       "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 100.0,
+      "equity": 99.94,
       "spy": 101.08,
       "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.29,
+      "equity": 99.22,
       "spy": 100.13,
       "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.21,
+      "equity": 99.14,
       "spy": 99.36,
       "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.35,
-      "spy": 99.57,
-      "daily_ret": 0.00134
+      "equity": 99.22,
+      "spy": 99.44,
+      "daily_ret": 0.00074
     }
   ],
   "positions": {
@@ -77,92 +77,71 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0032,
-      "value_eur": 11.96
+      "ret_since_entry": -0.0044,
+      "value_eur": 11.95
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.018,
-      "value_eur": 11.78
+      "ret_since_entry": -0.0216,
+      "value_eur": 11.74
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.006,
+      "ret_since_entry": -0.0056,
       "value_eur": 11.93
     },
     "VFLEX": {
       "weight": 0.12,
-      "instrument": "fund_us",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 12.0
+      "instrument": "fund_us"
     },
     "IEF": {
       "weight": 0.098,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0001,
+      "ret_since_entry": 0.0003,
       "value_eur": 9.8
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0182,
+      "ret_since_entry": -0.0183,
       "value_eur": 9.13
     },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock",
-      "entry_date": "2026-07-13",
-      "ret_since_entry": -0.0134,
-      "value_eur": 4.14
+      "instrument": "stock"
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock",
-      "entry_date": "2026-07-10",
-      "ret_since_entry": -0.006,
-      "value_eur": 4.17
+      "instrument": "stock"
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 3.1
+      "instrument": "stock"
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock",
-      "entry_date": "2026-07-13",
-      "ret_since_entry": 0.039,
-      "value_eur": 3.22
+      "instrument": "stock"
     },
     "COE": {
       "weight": 0.025,
       "instrument": "stock",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0087,
-      "value_eur": 2.48
+      "ret_since_entry": -0.012,
+      "value_eur": 2.47
     },
     "MOMO": {
       "weight": 0.023,
-      "instrument": "stock",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 2.3
+      "instrument": "stock"
     },
     "EPAM": {
       "weight": 0.015,
-      "instrument": "stock",
-      "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0,
-      "value_eur": 1.5
+      "instrument": "stock"
     }
   },
   "cycles": [
