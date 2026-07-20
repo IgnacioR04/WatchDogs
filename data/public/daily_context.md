@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T04:21:16+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T07:46:59+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.77)
+- Volatilidad: `normal` (VIX 18.63)
 - Tendencia: `bull` (SPY 743.29 · MA50 743.23 · MA200 693.44 · dist MA200: 7.19%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -97,8 +97,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 84.52 (0.37% / 0.06% / -1.74%) [2026-07-17]
 - IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
 - GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
-- ^VIX: 18.77 (12.19% / 24.88% / 1.79%) [2026-07-17]
-- BTC-USD: 64630.1 (-0.26% / -0.5% / 7.47%) [2026-07-20]
+- ^VIX: 18.63 (-0.75% / 8.57% / 13.6%) [2026-07-20]
+- BTC-USD: 64146.99 (-0.84% / -0.87% / 9.54%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,20 +113,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), regulatory (3), leadership (1), ai (1)
+**Temas dominantes**: regulatory (3), stock (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MNKD] Is MannKind a Stock to Sell After Its CEO Let Go of 363 , 200 Shares ? (2026-07-20)
-- [MPWR] Rep . Byron Donalds Sells Off Monolithic Power Systems , Inc . ( NASDAQ : MPWR ) Stock (2026-07-19)
-- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
-- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
-- [MPWR] Monolithic Power Systems ( NASDAQ : MPWR ) Stock Unloaded Rep . Byron Donalds (2026-07-19)
-- [MPWR] Monolithic Power Systems ( MPWR ) Stock Gets An AI Boost From IBM Spending Signals (2026-07-17)
 - [SEZL] Sezzle Sees Unusually High Options Volume ( NASDAQ : SEZL ) (2026-07-15)
 - [SEZL] Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences (2026-07-14)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
+- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
+- [SEZL] Sezzle ( NASDAQ : SEZL ) CFO Lee Dickson Brading Sells 100 Shares (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +137,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $91,000 · win rate 95% · categorias: sports
-- Themsnw · PnL $151,921 · win rate 85% · categorias: sports, politics
-- erw322 · PnL $3,627 · win rate 96% · categorias: sports, crypto
-- 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $62,807 · win rate 73% · categorias: sports
-- 78979879879879 · PnL $6,354 · win rate 86% · categorias: sports, politics
+- 111111111115 · PnL $36,352 · win rate 95% · categorias: sports
+- Themsnw · PnL $149,153 · win rate 85% · categorias: sports, politics
+- 0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436 · PnL $62,704 · win rate 73% · categorias: sports
+- 78979879879879 · PnL $5,613 · win rate 86% · categorias: sports, politics
+- 65765757 · PnL $5,557 · win rate 85% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
