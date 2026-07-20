@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T11:30:51+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-20T13:35:47+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.17)
-- Tendencia: `bull` (SPY 743.29 · MA50 743.23 · MA200 693.44 · dist MA200: 7.19%)
+- Volatilidad: `normal` (VIX 18.12)
+- Tendencia: `bull` (SPY 747.65 · MA50 743.55 · MA200 693.87 · dist MA200: 7.75%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.63%
@@ -22,27 +22,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 743.29 | -0.99% | -1.54% | 0.57% |
-| QQQ | 12.0% | core | 695.33 | -1.5% | -4.16% | -3.66% |
-| TLT | 12.0% | core | 84.52 | 0.37% | 0.06% | -1.74% |
-| BEP | 11.5% | satellite | 31.76 | -0.13% | -1.76% | -7.24% |
-| GLD | 9.3% | core | 368.41 | 0.95% | -2.28% | -5.2% |
-| NMM | 8.8% | satellite | 71.37 | -4.11% | -5.78% | -1.41% |
-| PNTG | 7.0% | satellite | 41.95 | 0.58% | 3.58% | 21.31% |
-| IEF | 6.2% | core | 93.84 | 0.13% | 0.22% | 0.14% |
-| MPWR | 3.6% | satellite | 1312.0 | 0.49% | -3.01% | -9.27% |
-| NUVL | 2.6% | satellite | 123.96 | 0.0% | 0.05% | 0.49% |
+| SPY | 12.0% | core | 747.65 | 0.59% | -0.2% | 0.12% |
+| QQQ | 12.0% | core | 704.08 | 1.26% | -1.08% | -4.83% |
+| TLT | 12.0% | core | 84.31 | -0.25% | 0.4% | -2.45% |
+| BEP | 12.0% | satellite | 32.06 | 0.96% | 0.64% | -9.01% |
+| PNTG | 10.5% | satellite | 41.98 | 0.07% | 5.32% | 25.54% |
+| GLD | 10.3% | core | 368.32 | -0.02% | 0.32% | -4.86% |
+| IEF | 6.9% | core | 93.74 | -0.11% | 0.48% | -0.33% |
+| MPWR | 5.5% | satellite | 1338.89 | 2.05% | 3.68% | -14.25% |
+| NUVL | 3.9% | satellite | 123.96 | 0.0% | 0.05% | 0.49% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.1%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -2.6%
-- Beta vs SPY: 0.66 · posiciones efectivas: 12.0 · HHI: 0.0835
+- Volatilidad anualizada: 13.3%
+- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.6%
+- Max drawdown historico: -3.3%
+- Beta vs SPY: 0.735 · posiciones efectivas: 11.3 · HHI: 0.0884
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **NMM** · score agregado 174.2 · 3 señales · fuentes: corporate_insider
 - **MPWR** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **NUVL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PNTG** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -64,11 +62,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | NUVL | 72 | large_holder | Deerfield Management Comp |  | - | - |
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
+| MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | VOYG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | GCT | 70 | large_holder | Lei Wu |  | - | - |
-| CDXS | 70 | large_holder | Aberdeen Group plc |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -76,12 +74,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | BLK | 64 | congress | John McGuire | $15,000 | small_amount |
-| ABT | 61 | congress | Rick Larsen | $15,000 | small_amount |
-| SPGI | 61 | congress | Rick Larsen | $15,000 | small_amount |
-| FLL | 61 | congress | Susie Lee | $15,000 | small_amount |
-| BRCM | 61 | congress | Gilbert Cisneros | $15,000 | small_amount |
-| CBZ | 61 | congress | Gilbert Cisneros | $15,000 | small_amount |
-| CRDO | 61 | congress | Gilbert Cisneros | $15,000 | small_amount |
+| ADBE | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| MGA | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| AMD | 61 | congress | Dan Newhouse | $15,000 | small_amount |
+| GOOGL | 61 | congress | Dan Newhouse | $15,000 | small_amount |
+| AMAT | 61 | congress | Dan Newhouse | $15,000 | small_amount |
+| CSX | 61 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -90,15 +88,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 743.29 (-0.99% / -1.54% / 0.57%) [2026-07-17]
-- QQQ: 695.33 (-1.5% / -4.16% / -3.66%) [2026-07-17]
-- IWM: 294.04 (-0.52% / -0.66% / 1.44%) [2026-07-17]
-- DIA: 520.81 (-0.74% / -0.92% / 1.18%) [2026-07-17]
-- TLT: 84.52 (0.37% / 0.06% / -1.74%) [2026-07-17]
-- IEF: 93.84 (0.13% / 0.22% / 0.14%) [2026-07-17]
-- GLD: 368.41 (0.95% / -2.28% / -5.2%) [2026-07-17]
-- ^VIX: 18.17 (-3.2% / 5.89% / 10.79%) [2026-07-20]
-- BTC-USD: 64290.05 (-0.62% / -0.65% / 9.79%) [2026-07-20]
+- SPY: 747.65 (0.59% / -0.2% / 0.12%) [2026-07-20]
+- QQQ: 704.08 (1.26% / -1.08% / -4.83%) [2026-07-20]
+- IWM: 295.25 (0.41% / 0.6% / -0.12%) [2026-07-20]
+- DIA: 522.02 (0.23% / -0.44% / 1.29%) [2026-07-20]
+- TLT: 84.31 (-0.25% / 0.4% / -2.45%) [2026-07-20]
+- IEF: 93.74 (-0.11% / 0.48% / -0.33%) [2026-07-20]
+- GLD: 368.32 (-0.02% / 0.32% / -4.86%) [2026-07-20]
+- ^VIX: 18.12 (-3.46% / 5.59% / 10.49%) [2026-07-20]
+- BTC-USD: 64637.82 (-0.08% / -0.12% / 10.38%) [2026-07-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,13 +111,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (2), leadership (1), stock (1)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MNKD] Is MannKind a Stock to Sell After Its CEO Let Go of 363 , 200 Shares ? (2026-07-20)
-- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
-- [MNKD] MannKind Corporation ( MNKD ) Up 20 % Since Afrezza FDA Approval (2026-07-09)
+- [RDDT] Reddit Still Believes in Rocket Lab Even as Shares Slide : Inside the Retail Sentiment (2026-07-20)
+- [RDDT] Can ice packs boost male fertility ? Why Bryan Johnson latest biohacking experiment has half a million Redditors following suit (2026-07-20)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
+- [CRWD] CrowdStrike vs . Snowflake : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -127,26 +126,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Flynn James E vendio NUVL por $1.0B el 2026-07-15 [senal en multiples fuentes].
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
+- CEO Huang Jack Jiajia compro COE por $3.7M el 2026-07-13.
 - 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - CEO BOUDREAUX GAIL compro ELV por $753K el 2026-07-17.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $147,317 · win rate 85% · categorias: sports, politics
-- thoodr · PnL $9,332 · win rate 99% · categorias: politics, sports, economy
-- Uniform123 · PnL $29,967 · win rate 88% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $18,872 · win rate 90% · categorias: sports, crypto
-- 65765757 · PnL $33,604 · win rate 84% · categorias: sports, politics
+- Themsnw · PnL $151,387 · win rate 85% · categorias: sports, politics
+- thoodr · PnL $11,315 · win rate 99% · categorias: politics, sports, economy
+- 0x8a3aB8120807bD64a3De48695110e390fa2ceB9a-1771005965025 · PnL $11,128 · win rate 98% · categorias: sports
+- Uniform123 · PnL $33,980 · win rate 88% · categorias: sports
+- 65765757 · PnL $39,862 · win rate 84% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 39 registros 30d · ultimo dato 2026-07-08
-- **sec_insiders**: `ok` · 747 registros 30d · ultimo dato 2026-07-20
+- **congress**: `ok` · 70 registros 30d · ultimo dato 2026-07-10
+- **sec_insiders**: `ok` · 728 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -159,7 +158,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, MPWR, NMM, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, MPWR, NUVL, PNTG, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
