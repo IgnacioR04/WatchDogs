@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-21T09:56:16.294028+00:00",
+  "generated_at": "2026-07-21T12:14:58.363795+00:00",
   "window": {
     "from": "2026-06-21",
     "to": "2026-07-21",
@@ -23,7 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -433,6 +433,14 @@
         ]
       },
       {
+        "ticker": "TSM",
+        "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+        "pressure_score": 212.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "RACD",
         "company": "Research Alliance Corp IV",
         "pressure_score": 211.5,
@@ -501,14 +509,6 @@
       {
         "ticker": "AGEN",
         "company": "Agenus Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "USCB",
-        "company": "USCB Financial Holdings, Inc.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -742,6 +742,15 @@
       "score": 73.5
     },
     {
+      "ticker": "PRQR",
+      "company": "ProQR Therapeutics N.V.",
+      "actor": "Filius Bart",
+      "actor_type": "director",
+      "amount": 257925.0,
+      "date": "2026-07-17",
+      "score": 72.9
+    },
+    {
       "ticker": "ARTV",
       "company": "Artiva Biotherapeutics, Inc.",
       "actor": "RA CAPITAL MANAGEMENT, L.P.",
@@ -767,15 +776,6 @@
       "amount": 36398.48,
       "date": "2026-07-16",
       "score": 71.2
-    },
-    {
-      "ticker": "DLPN",
-      "company": "Dolphin Entertainment, Inc.",
-      "actor": "O'Dowd William IV",
-      "actor_type": "ceo",
-      "amount": 4928.0,
-      "date": "2026-07-20",
-      "score": 70.8
     }
   ],
   "institutional_changes": [
@@ -1224,9 +1224,9 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 218536.68,
+        "pnl": 218538.05,
         "win_rate": 0.9269,
-        "volume": 1095.72,
+        "volume": 1104.81,
         "categories": [
           "sports"
         ]
@@ -1254,7 +1254,7 @@
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 99247.81,
+        "pnl": 98830.2,
         "win_rate": 0.8627,
         "volume": 42398.41,
         "categories": [
@@ -1265,7 +1265,7 @@
       {
         "wallet": "0xd6966eb1ae",
         "username": "EIf",
-        "pnl": 46949.57,
+        "pnl": 46948.92,
         "win_rate": 0.89,
         "volume": 200.0,
         "categories": [
@@ -1285,30 +1285,28 @@
       {
         "wallet": "0xfc25f141ed",
         "username": "Malfunction-",
-        "pnl": 9181.06,
-        "win_rate": 0.931,
-        "volume": 575319.54,
+        "pnl": 9543.01,
+        "win_rate": 0.93,
+        "volume": 616278.06,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x6e82b93eb5",
-        "username": "DLEK",
-        "pnl": 48879.88,
-        "win_rate": 0.792,
-        "volume": 0.0,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 10809.82,
+        "win_rate": 0.9118,
+        "volume": 2208.12,
         "categories": [
-          "sports",
-          "politics",
           "crypto"
         ]
       },
       {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 29995.29,
+        "pnl": 29864.55,
         "win_rate": 0.825,
         "volume": 52901.07,
         "categories": [
@@ -1316,13 +1314,15 @@
         ]
       },
       {
-        "wallet": "0xbddf61af53",
-        "username": "Countryside",
-        "pnl": 8560.93,
-        "win_rate": 0.9037,
+        "wallet": "0x6e82b93eb5",
+        "username": "DLEK",
+        "pnl": 47296.88,
+        "win_rate": 0.792,
         "volume": 0.0,
         "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       }
     ],
@@ -1330,9 +1330,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 19092.59,
+        "pnl": 19098.71,
         "win_rate": 0.486,
-        "volume": 948333.11,
+        "volume": 949340.73,
         "categories": [
           "sports"
         ]
@@ -1352,9 +1352,9 @@
       {
         "wallet": "0xfc25f141ed",
         "username": "Malfunction-",
-        "pnl": 9181.06,
-        "win_rate": 0.931,
-        "volume": 575319.54,
+        "pnl": 9543.01,
+        "win_rate": 0.93,
+        "volume": 616278.06,
         "categories": [
           "sports",
           "crypto"
@@ -1363,7 +1363,7 @@
       {
         "wallet": "0x547f2917d5",
         "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 43319.8,
+        "pnl": 39785.2,
         "win_rate": 0.7387,
         "volume": 312755.58,
         "categories": [
@@ -1373,9 +1373,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 17207.49,
-        "win_rate": 0.4457,
-        "volume": 275500.99,
+        "pnl": 17027.48,
+        "win_rate": 0.4452,
+        "volume": 362844.49,
         "categories": [
           "politics",
           "sports",
@@ -1383,21 +1383,11 @@
         ]
       },
       {
-        "wallet": "0xe3611dada6",
-        "username": "trgparking",
-        "pnl": 10720.39,
-        "win_rate": 0.587,
-        "volume": 382297.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 10380.91,
-        "win_rate": 0.4679,
-        "volume": 103093.37,
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 9081.47,
+        "win_rate": 0.897,
+        "volume": 286244.86,
         "categories": [
           "sports",
           "crypto"
@@ -1406,71 +1396,97 @@
       {
         "wallet": "0xe613b515bd",
         "username": "Gucky-45",
-        "pnl": 13716.65,
+        "pnl": 14080.49,
         "win_rate": 0.235,
-        "volume": 97437.17,
+        "volume": 153613.99,
         "categories": [
           "sports",
           "politics",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe3611dada6",
+        "username": "trgparking",
+        "pnl": 12722.98,
+        "win_rate": 0.586,
+        "volume": 450484.82,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe291a588ec",
+        "username": "patient12",
+        "pnl": 20611.43,
+        "win_rate": 0.6708,
+        "volume": 328862.98,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0xdf17f4a8dd",
         "username": "bahibahibahi",
-        "pnl": 9065.51,
+        "pnl": 15465.01,
         "win_rate": 0.604,
-        "volume": 87239.72,
+        "volume": 141237.58,
         "categories": [
           "politics",
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x511f9c7714",
-        "username": "Bigggggggg",
-        "pnl": 15005.02,
-        "win_rate": 0.423,
-        "volume": 223628.7,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Multibagger small - cap stock trades green despite stock market sell - off",
-      "url": "https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-ghv-infra-projects-trades-green-despite-stock-market-selloff-11784619804489.html",
-      "ticker": "UBER",
-      "themes": [
-        "stock"
-      ],
+      "title": "WCM Investment Management LLC Grows Stake in Madrigal Pharmaceuticals , Inc . $MDGL",
+      "url": "https://www.themarketsdaily.com/2026/07/21/wcm-investment-management-llc-grows-stake-in-madrigal-pharmaceuticals-inc-mdgl.html",
+      "ticker": "MDGL",
+      "themes": [],
       "date": "2026-07-21"
     },
     {
-      "title": "Wiringa Park $60 , 000 ram to boost genetics for Kamora Park , Roemahkita | Stock Journal",
-      "url": "https://www.stockjournal.com.au/story/9314630/wiringa-parks-60000-ram-to-boost-genetics-for-kamora-park-roemahkita/",
-      "ticker": "UBER",
+      "title": "Madrigal Pharmaceuticals to Release Second - Quarter 2026 Financial Results and Host Webcast on July 30 , 2026",
+      "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/globenewswire/madrigal-pharmaceuticals-to-release-second-quarter-2026-financial-results-and-host-webcast-on-july-30-2026/2385856",
+      "ticker": "MDGL",
       "themes": [
-        "stock"
+        "regulatory"
       ],
-      "date": "2026-07-21"
+      "date": "2026-07-16"
     },
     {
-      "title": "Multibagger stock , which surged 354 % in five years , jumps 9 % after strong Q1FY27 results",
-      "url": "https://www.livemint.com/market/stock-market-news/multibagger-stock-south-west-pinnacle-exploration-which-surged-354-in-five-years-jumps-9-after-strong-q1fy27-results-11784614862840.html",
-      "ticker": "UBER",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-21"
+      "title": "Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? ",
+      "url": "https://www.dailypolitical.com/2026/07/10/maplight-therapeutics-nasdaqmplt-sets-new-1-year-high-time-to-buy.html",
+      "ticker": "MPLT",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-lowers-price-target-madrigal-192025345.html",
+      "ticker": "MDGL",
+      "themes": [],
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) ",
+      "url": "https://www.dailypolitical.com/2026/07/09/research-analysts-recent-ratings-changes-for-maplight-therapeutics-mplt.html",
+      "ticker": "MPLT",
+      "themes": [],
+      "date": "2026-07-09"
+    },
+    {
+      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) ",
+      "url": "https://www.insidermonkey.com/blog/bofa-lowers-its-price-target-on-madrigal-pharmaceuticals-inc-mdgl-1798283/",
+      "ticker": "MDGL",
+      "themes": [],
+      "date": "2026-07-08"
     }
   ],
-  "signals_count": 1626,
+  "signals_count": 1620,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

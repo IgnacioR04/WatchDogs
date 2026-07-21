@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-07-21T09:57:07+00:00",
+  "generated_at": "2026-07-21T12:15:51+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6999,
-  "cash": 0.3001,
+  "total_equity": 0.7001,
+  "cash": 0.2999,
   "weights": {
-    "SPY": 0.1201,
-    "BEP": 0.1201,
-    "QQQ": 0.1058,
-    "TLT": 0.1058,
-    "UBER": 0.1035,
-    "GLD": 0.0793,
-    "IEF": 0.0529,
-    "QTTB": 0.0124
+    "SPY": 0.12,
+    "BEP": 0.12,
+    "QQQ": 0.0982,
+    "TLT": 0.0982,
+    "UBER": 0.0761,
+    "GLD": 0.0736,
+    "TSM": 0.0557,
+    "IEF": 0.0491,
+    "QTTB": 0.0092
   },
   "core": {
     "SPY": 0.1592,
@@ -22,11 +23,20 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "QTTB": 0.0107,
-    "UBER": 0.089,
-    "BEP": 0.1453
+    "TSM": 0.0516,
+    "QTTB": 0.0085,
+    "UBER": 0.0705,
+    "BEP": 0.1144
   },
   "satellite_rationale": [
+    {
+      "ticker": "TSM",
+      "score": 169.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
     {
       "ticker": "QTTB",
       "score": 70.2,
@@ -53,17 +63,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.093,
-    "var_95_1d": 0.0101,
-    "cvar_95_1d": 0.013,
-    "max_drawdown": -0.0314,
-    "beta_spy": 0.507,
-    "hhi": 0.0712,
-    "max_position": 0.1201,
-    "n_positions": 8,
-    "effective_positions": 14.0,
-    "gross_exposure": 0.6999,
-    "days_used": 46
+    "ann_vol": 0.1034,
+    "var_95_1d": 0.0116,
+    "cvar_95_1d": 0.0152,
+    "max_drawdown": -0.0339,
+    "beta_spy": 0.635,
+    "hhi": 0.0649,
+    "max_position": 0.12,
+    "n_positions": 9,
+    "effective_positions": 15.4,
+    "gross_exposure": 0.7001,
+    "days_used": 47
   },
   "risk_gate": {
     "passed": true,
