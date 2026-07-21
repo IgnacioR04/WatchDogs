@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T22:25:37+00:00",
+  "generated_at": "2026-07-21T23:28:28+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -9,15 +9,15 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0932,
+    "BEP": 0.0656,
     "IEF": 0.0622,
-    "BEP": 0.0579,
-    "AON": 0.0577,
-    "CAG": 0.047,
-    "LLY": 0.0456,
-    "UBER": 0.0433,
-    "ENR": 0.0358,
-    "TSM": 0.0345,
-    "BFLY": 0.0129
+    "CAG": 0.0528,
+    "LLY": 0.0512,
+    "UBER": 0.049,
+    "ENR": 0.0406,
+    "TSM": 0.0391,
+    "VOR": 0.0218,
+    "BFLY": 0.0146
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ENR": 0.0318,
-    "TSM": 0.0307,
-    "AON": 0.0513,
-    "BFLY": 0.0115,
-    "UBER": 0.0385,
-    "CAG": 0.0418,
-    "LLY": 0.0405,
-    "BEP": 0.0515
+    "ENR": 0.0361,
+    "TSM": 0.0348,
+    "VOR": 0.0194,
+    "BFLY": 0.013,
+    "UBER": 0.0436,
+    "CAG": 0.0469,
+    "LLY": 0.0455,
+    "BEP": 0.0583
   },
   "satellite_rationale": [
     {
@@ -54,8 +54,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "AON",
-      "score": 71.8,
+      "ticker": "VOR",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -103,17 +103,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1128,
-    "var_95_1d": 0.0123,
-    "cvar_95_1d": 0.0141,
+    "ann_vol": 0.1288,
+    "var_95_1d": 0.0138,
+    "cvar_95_1d": 0.0163,
     "max_drawdown": -0.0543,
-    "beta_spy": 0.656,
-    "hhi": 0.0712,
+    "beta_spy": 0.746,
+    "hhi": 0.0717,
     "max_position": 0.12,
     "n_positions": 13,
-    "effective_positions": 14.0,
+    "effective_positions": 13.9,
     "gross_exposure": 0.8501,
-    "days_used": 91
+    "days_used": 92
   },
   "risk_gate": {
     "passed": true,
