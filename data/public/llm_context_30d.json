@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-20T23:31:09.424944+00:00",
+  "generated_at": "2026-07-21T00:28:37.843345+00:00",
   "window": {
-    "from": "2026-06-20",
-    "to": "2026-07-20",
+    "from": "2026-06-21",
+    "to": "2026-07-21",
     "days": 30
   },
   "data_quality": {
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "leadership"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -401,14 +401,6 @@
         ]
       },
       {
-        "ticker": "GABC",
-        "company": "GERMAN AMERICAN BANCORP, INC.",
-        "pressure_score": 343.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BEP",
         "company": "Limited Partnership Units",
         "pressure_score": 338.0,
@@ -446,6 +438,14 @@
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 206.0,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -519,7 +519,7 @@
       {
         "ticker": "MPLT",
         "company": "MapLight Therapeutics, Inc.",
-        "pressure_score": 2485.8,
+        "pressure_score": 2024.2,
         "sources": [
           "corporate_insider"
         ]
@@ -546,14 +546,6 @@
         "pressure_score": 1050.2,
         "sources": [
           "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RDDT",
-        "company": "Reddit, Inc.",
-        "pressure_score": 876.5,
-        "sources": [
           "corporate_insider"
         ]
       },
@@ -635,6 +627,14 @@
         "ticker": "PUBM",
         "company": "PubMatic, Inc.",
         "pressure_score": 283.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HOOD",
+        "company": "Robinhood Markets, Inc.",
+        "pressure_score": 281.2,
         "sources": [
           "corporate_insider"
         ]
@@ -975,7 +975,7 @@
       "direction": "buy",
       "amount": 1000000,
       "date": "2026-05-29",
-      "score": 67.2
+      "score": 68.5
     },
     {
       "politician": "Kevin Hern",
@@ -1050,6 +1050,14 @@
       "score": 62.4
     },
     {
+      "politician": "Dan Newhouse",
+      "ticker": "UBER",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
       "politician": "Debbie Dingell",
       "ticker": "HONAV",
       "direction": "other",
@@ -1069,14 +1077,6 @@
       "politician": "Dan Newhouse",
       "ticker": "ACN",
       "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "AMD",
-      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 61.1
@@ -1224,7 +1224,7 @@
       {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 201774.62,
+        "pnl": 182356.27,
         "win_rate": 0.86,
         "volume": 377846.76,
         "categories": [
@@ -1233,34 +1233,24 @@
         ]
       },
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 21931.2,
-        "win_rate": 0.9444,
-        "volume": 1620039.2,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x940063e955",
         "username": "Mrgivemeall",
-        "pnl": 12631.12,
-        "win_rate": 0.959,
-        "volume": 393385.28,
+        "pnl": 20020.36,
+        "win_rate": 0.9615,
+        "volume": 472018.5,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 25058.47,
-        "win_rate": 0.9118,
-        "volume": 229831.23,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 22601.13,
+        "win_rate": 0.9444,
+        "volume": 1632070.79,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
@@ -1271,6 +1261,16 @@
         "volume": 106264.88,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 24697.67,
+        "win_rate": 0.9118,
+        "volume": 308721.25,
+        "categories": [
+          "crypto"
         ]
       },
       {
@@ -1287,7 +1287,7 @@
       {
         "wallet": "0xeb490d0534",
         "username": "78979879879879",
-        "pnl": 16542.48,
+        "pnl": 17346.5,
         "win_rate": 0.8618,
         "volume": 12349.7,
         "categories": [
@@ -1298,7 +1298,7 @@
       {
         "wallet": "0x2974bd0059",
         "username": "65765757",
-        "pnl": 20783.01,
+        "pnl": 20766.35,
         "win_rate": 0.8442,
         "volume": 79189.48,
         "categories": [
@@ -1309,7 +1309,7 @@
       {
         "wallet": "0x88c4919de7",
         "username": "QuietRiskisWrong",
-        "pnl": 42833.78,
+        "pnl": 42948.45,
         "win_rate": 0.7947,
         "volume": 14964.86,
         "categories": [
@@ -1321,7 +1321,7 @@
       {
         "wallet": "0x7f9e2d1df7",
         "username": "nojnn",
-        "pnl": 40060.1,
+        "pnl": 40921.11,
         "win_rate": 0.7979,
         "volume": 25133.25,
         "categories": [
@@ -1335,9 +1335,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 21931.2,
+        "pnl": 22601.13,
         "win_rate": 0.9444,
-        "volume": 1620039.2,
+        "volume": 1632070.79,
         "categories": [
           "sports"
         ]
@@ -1345,9 +1345,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 20015.92,
-        "win_rate": 0.576,
-        "volume": 2599690.2,
+        "pnl": 15324.29,
+        "win_rate": 0.579,
+        "volume": 2698297.8,
         "categories": [
           "sports"
         ]
@@ -1355,9 +1355,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 46899.41,
+        "pnl": 127017.67,
         "win_rate": 0.5109,
-        "volume": 597076.64,
+        "volume": 628148.58,
         "categories": [
           "sports"
         ]
@@ -1365,9 +1365,9 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 24901.09,
+        "pnl": 16693.86,
         "win_rate": 0.577,
-        "volume": 1552055.08,
+        "volume": 1674067.81,
         "categories": [
           "sports"
         ]
@@ -1375,11 +1375,22 @@
       {
         "wallet": "0x4d4f13a12d",
         "username": "0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
-        "pnl": 29838.82,
-        "win_rate": 0.85,
+        "pnl": 78328.44,
+        "win_rate": 0.8571,
         "volume": 382214.01,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 33001.09,
+        "win_rate": 0.408,
+        "volume": 596567.86,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1394,19 +1405,9 @@
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 35776.31,
-        "win_rate": 0.642,
-        "volume": 611686.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 201774.62,
+        "pnl": 182356.27,
         "win_rate": 0.86,
         "volume": 377846.76,
         "categories": [
@@ -1415,48 +1416,46 @@
         ]
       },
       {
-        "wallet": "0x547f2917d5",
-        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 61146.62,
-        "win_rate": 0.7364,
-        "volume": 183429.96,
+        "wallet": "0xf1528f12e6",
+        "username": "phonesculptor",
+        "pnl": 17110.87,
+        "win_rate": 0.593,
+        "volume": 406324.91,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc8ab97a908",
-        "username": "ArmageddonRewardsBilly",
-        "pnl": 13655.11,
-        "win_rate": 0.51,
-        "volume": 807956.33,
+        "wallet": "0x547f2917d5",
+        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
+        "pnl": 49811.83,
+        "win_rate": 0.7364,
+        "volume": 183429.96,
         "categories": [
-          "sports",
-          "politics",
-          "economy"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Trying to buy Bitget Wallet xStocks volume _ Start with this exchange checklist 『 Bitget Invitation Code _ FN1688 』 ode _ FN1688 』 - 链上小能手",
-      "url": "https://blog.udn.com:443/74f3a062/191484544",
-      "ticker": "HSY",
+      "title": "SA Junior Heifer Expo : Hanson sibling rivalry drives success | Stock Journal",
+      "url": "https://www.stockjournal.com.au/story/9313671/sa-junior-heifer-expo-hanson-siblings-rivalry-drives-success/",
+      "ticker": "UBER",
       "themes": [
         "stock"
       ],
-      "date": "2026-07-20"
+      "date": "2026-07-21"
     },
     {
-      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
-      "url": "https://www.themarketsdaily.com/2026/07/13/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares-2.html",
-      "ticker": "UTHR",
+      "title": "Amazon ( NASDAQ : AMZN ) Stock Price Shows 30 % Upside Potential Ahead Of July 30 Earnings Report",
+      "url": "https://www.foreignpolicyjournal.com/2026/07/20/amazon-nasdaq-amzn-stock-price-shows-30-upside-potential-ahead-of-july-30-earnings-report/",
+      "ticker": "UBER",
       "themes": [
-        "leadership",
+        "earnings",
         "stock"
       ],
-      "date": "2026-07-13"
+      "date": "2026-07-21"
     },
     {
       "title": "Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? ",
@@ -1473,7 +1472,7 @@
       "date": "2026-07-09"
     }
   ],
-  "signals_count": 1610,
+  "signals_count": 1644,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

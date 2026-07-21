@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-20T23:32:25+00:00 · ventana señales 2026-06-20 -> 2026-07-20_
+_Generado 2026-07-21T00:29:30+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -23,21 +23,23 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 742.09 | -0.16% | -0.95% | -0.62% |
-| QQQ | 12.0% | core | 696.06 | 0.1% | -2.2% | -5.91% |
-| TLT | 12.0% | core | 83.89 | -0.75% | -0.1% | -2.94% |
-| GLD | 12.0% | core | 367.6 | -0.22% | 0.13% | -5.04% |
 | BEP | 12.0% | satellite | 32.05 | 0.91% | 0.6% | -9.05% |
-| IEF | 10.0% | core | 93.54 | -0.32% | 0.27% | -0.54% |
+| UBER | 11.0% | satellite | 72.17 | -0.4% | -2.81% | 0.74% |
+| QQQ | 10.8% | core | 696.06 | 0.1% | -2.2% | -5.91% |
+| TLT | 10.8% | core | 83.89 | -0.75% | -0.1% | -2.94% |
+| GLD | 8.1% | core | 367.6 | -0.22% | 0.13% | -5.04% |
+| IEF | 5.4% | core | 93.54 | -0.32% | 0.27% | -0.54% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 9.2%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -4.1%
-- Beta vs SPY: 0.576 · posiciones efectivas: 12.2 · HHI: 0.082
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -3.6%
+- Beta vs SPY: 0.548 · posiciones efectivas: 13.6 · HHI: 0.0735
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **UBER** · score agregado 68.5 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -46,11 +48,9 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| GABC | 73 | corporate_insider | Seger Andrew M | 5 | $20,000 | cluster_buy,small_amount |
-| GABC | 73 | corporate_insider | Ryan Christina M | 5 | $20,000 | cluster_buy,small_amount |
-| GABC | 73 | corporate_insider | KELLY JASON M | 5 | $20,000 | cluster_buy,small_amount |
-| GABC | 73 | corporate_insider | Bawel Zachary W | 5 | $20,000 | cluster_buy,small_amount |
-| GABC | 72 | corporate_insider | Stokes Ronnie R | 5 | $15,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Seger Andrew M | 3 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Ryan Christina M | 3 | $20,000 | cluster_buy,small_amount |
+| GABC | 72 | corporate_insider | Stokes Ronnie R | 3 | $15,000 | cluster_buy,small_amount |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
@@ -61,6 +61,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | CBNA | 70 | large_holder | Hingham Institution for S |  | - | - |
 | GCT | 70 | large_holder | Lei Wu |  | - | - |
 | ITG | 70 | large_holder | Ophir Asset Management Pt |  | - | - |
+| RACD | 70 | large_holder | Commodore Capital LP |  | - | - |
+| QURE | 70 | large_holder | Aberdeen Group plc |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -90,7 +92,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
 - ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65202.44 (0.79% / 0.76% / 11.35%) [2026-07-20]
+- BTC-USD: 65326.85 (0.98% / 0.95% / 11.56%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -105,12 +107,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), leadership (1)
+**Temas dominantes**: stock (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HSY] Trying to buy Bitget Wallet xStocks volume _ Start with this exchange checklist 『 Bitget Invitation Code _ FN1688 』 ode _ FN1688 』 - 链上小能手 (2026-07-20)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-07-13)
+- [UBER] SA Junior Heifer Expo : Hanson sibling rivalry drives success | Stock Journal (2026-07-21)
+- [UBER] Amazon ( NASDAQ : AMZN ) Stock Price Shows 30 % Upside Potential Ahead Of July 30 Earnings Report (2026-07-21)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
@@ -127,11 +129,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $201,775 · win rate 86% · categorias: sports, politics
-- 111111111115 · PnL $21,931 · win rate 94% · categorias: sports
-- Mrgivemeall · PnL $12,631 · win rate 96% · categorias: crypto, sports
-- JnStTrdrBnusFnd · PnL $25,058 · win rate 91% · categorias: crypto
+- Themsnw · PnL $182,356 · win rate 86% · categorias: sports, politics
+- Mrgivemeall · PnL $20,020 · win rate 96% · categorias: crypto, sports
+- 111111111115 · PnL $22,601 · win rate 94% · categorias: sports
 - Uniform123 · PnL $41,128 · win rate 88% · categorias: sports
+- JnStTrdrBnusFnd · PnL $24,698 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -139,7 +141,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-07-10
-- **sec_insiders**: `ok` · 638 registros 30d · ultimo dato 2026-07-20
+- **sec_insiders**: `ok` · 672 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -152,7 +154,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, QQQ, SPY, TLT, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
