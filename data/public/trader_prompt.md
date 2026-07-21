@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-21T06:58:24+00:00 -->
+<!-- trader_prompt.md generado 2026-07-21T09:57:08+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T06:58:24+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-21T09:57:08+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.65)
+- Volatilidad: `normal` (VIX 17.58)
 - Tendencia: `neutral` (SPY 742.09 · MA50 743.44 · MA200 693.85 · dist MA200: 6.95%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.39)
@@ -253,17 +253,17 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | BEP | 12.0% | satellite | 32.05 | 0.91% | 0.6% | -9.05% |
 | QQQ | 10.6% | core | 696.06 | 0.1% | -2.2% | -5.91% |
 | TLT | 10.6% | core | 83.89 | -0.75% | -0.1% | -2.94% |
-| UBER | 10.4% | satellite | 72.17 | -0.4% | -2.81% | 0.74% |
+| UBER | 10.3% | satellite | 72.17 | -0.4% | -2.81% | 0.74% |
 | GLD | 7.9% | core | 367.6 | -0.22% | 0.13% | -5.04% |
 | IEF | 5.3% | core | 93.54 | -0.32% | 0.27% | -0.54% |
 | QTTB | 1.2% | satellite | 15.04 | -0.07% | -29.65% | 26.39% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.2%
+- Volatilidad anualizada: 9.3%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
 - Max drawdown historico: -3.1%
-- Beta vs SPY: 0.506 · posiciones efectivas: 14.1 · HHI: 0.0711
+- Beta vs SPY: 0.507 · posiciones efectivas: 14.0 · HHI: 0.0712
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -320,8 +320,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 83.89 (-0.75% / -0.1% / -2.94%) [2026-07-20]
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
-- ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65885.88 (1.01% / 3.29% / 9.8%) [2026-07-21]
+- ^VIX: 17.58 (-5.74% / 6.55% / 1.74%) [2026-07-21]
+- BTC-USD: 66303.46 (1.65% / 3.94% / 10.5%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -336,12 +336,13 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1), regulatory (1)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Korea ETF pioneer issues rare warning on single - stock leveraged ETFs (2026-07-21)
-- [NFBK] Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? (2026-07-17)
+- [UBER] Multibagger small - cap stock trades green despite stock market sell - off (2026-07-21)
+- [UBER] Wiringa Park $60 , 000 ram to boost genetics for Kamora Park , Roemahkita | Stock Journal (2026-07-21)
+- [UBER] Multibagger stock , which surged 354 % in five years , jumps 9 % after strong Q1FY27 results (2026-07-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -356,10 +357,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $218,407 · win rate 93% · categorias: sports
-- Kingdmandan · PnL $26,691 · win rate 97% · categorias: sports
-- QuentinChen · PnL $30,488 · win rate 96% · categorias: sports
-- Themsnw · PnL $98,278 · win rate 86% · categorias: sports, politics
+- Sassy-Bucket · PnL $218,537 · win rate 93% · categorias: sports
+- Kingdmandan · PnL $26,728 · win rate 97% · categorias: sports
+- QuentinChen · PnL $30,494 · win rate 96% · categorias: sports
+- Themsnw · PnL $99,248 · win rate 86% · categorias: sports, politics
 - EIf · PnL $46,950 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
