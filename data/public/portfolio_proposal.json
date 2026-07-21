@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-07-21T18:55:50+00:00",
+  "generated_at": "2026-07-21T20:53:47+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.12,
-    "UBER": 0.1067,
-    "GLD": 0.1034,
-    "TSM": 0.0782,
-    "IEF": 0.069,
-    "QTTB": 0.0128
+    "GLD": 0.0932,
+    "BEP": 0.0909,
+    "AON": 0.0905,
+    "UBER": 0.0679,
+    "IEF": 0.0622,
+    "TSM": 0.0542,
+    "BFLY": 0.0202,
+    "QTTB": 0.0109
   },
   "core": {
     "SPY": 0.1934,
@@ -23,10 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "TSM": 0.0627,
-    "QTTB": 0.0103,
-    "UBER": 0.0856,
-    "BEP": 0.1389
+    "TSM": 0.0482,
+    "AON": 0.0805,
+    "QTTB": 0.0097,
+    "BFLY": 0.018,
+    "UBER": 0.0604,
+    "BEP": 0.0808
   },
   "satellite_rationale": [
     {
@@ -38,7 +42,23 @@
       "n_signals": 3
     },
     {
+      "ticker": "AON",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "QTTB",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "BFLY",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -63,17 +83,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1291,
-    "var_95_1d": 0.0146,
-    "cvar_95_1d": 0.0191,
-    "max_drawdown": -0.0408,
-    "beta_spy": 0.783,
-    "hhi": 0.0907,
+    "ann_vol": 0.1223,
+    "var_95_1d": 0.0116,
+    "cvar_95_1d": 0.0148,
+    "max_drawdown": -0.038,
+    "beta_spy": 0.712,
+    "hhi": 0.0803,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 11.0,
-    "gross_exposure": 0.8501,
-    "days_used": 47
+    "n_positions": 11,
+    "effective_positions": 12.5,
+    "gross_exposure": 0.85,
+    "days_used": 91
   },
   "risk_gate": {
     "passed": true,
