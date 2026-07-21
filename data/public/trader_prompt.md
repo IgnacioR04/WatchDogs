@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-21T20:53:48+00:00 -->
+<!-- trader_prompt.md generado 2026-07-21T22:25:38+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T20:53:48+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-21T22:25:38+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -239,7 +239,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 - Volatilidad: `normal` (VIX 17.05)
 - Tendencia: `bull` (SPY 748.28 · MA50 743.81 · MA200 694.27 · dist MA200: 7.78%)
 - Credito: `tight` (HY spread 2.69)
-- Tipos: `flat` (curva 10y-2y 0.39)
+- Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
@@ -253,28 +253,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 708.97 | 1.85% | -1.49% | -3.93% |
 | TLT | 12.0% | core | 83.66 | -0.27% | -0.5% | -2.46% |
 | GLD | 9.3% | core | 374.81 | 1.96% | 0.71% | -2.54% |
-| BEP | 9.1% | satellite | 32.18 | 0.41% | 0.22% | -9.96% |
-| AON | 9.0% | satellite | 359.4 | -0.93% | 0.14% | 14.59% |
-| UBER | 6.8% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
 | IEF | 6.2% | core | 93.31 | -0.25% | -0.26% | -0.41% |
-| TSM | 5.4% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
-| BFLY | 2.0% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
-| QTTB | 1.1% | satellite | 15.41 | 2.46% | -16.52% | 21.82% |
+| BEP | 5.8% | satellite | 32.18 | 0.41% | 0.22% | -9.96% |
+| AON | 5.8% | satellite | 359.4 | -0.93% | 0.14% | 14.59% |
+| CAG | 4.7% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
+| LLY | 4.6% | satellite | 1175.41 | 2.49% | 1.98% | 6.65% |
+| UBER | 4.3% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
+| ENR | 3.6% | satellite | 20.08 | -1.33% | -1.62% | -4.79% |
+| TSM | 3.5% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
+| BFLY | 1.3% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.2%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -3.8%
-- Beta vs SPY: 0.712 · posiciones efectivas: 12.5 · HHI: 0.0803
+- Volatilidad anualizada: 11.3%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -5.4%
+- Beta vs SPY: 0.656 · posiciones efectivas: 14.0 · HHI: 0.0712
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **ENR** · score agregado 307.7 · 5 señales · fuentes: corporate_insider
 - **TSM** · score agregado 169.2 · 3 señales · fuentes: corporate_insider
 - **AON** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **QTTB** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **BFLY** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **UBER** · score agregado 68.5 · 1 señales · fuentes: congress
+- **CAG** · score agregado 64.0 · 1 señales · fuentes: corporate_insider
+- **LLY** · score agregado 63.5 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -283,21 +287,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| CHCO | 73 | corporate_insider | FISHER ROBERT D | 4 | $20,990 | cluster_buy,small_amount |
 | ANIX | 73 | corporate_insider | KUMAR AMIT | 2 | $17,300 | cluster_buy,small_amount |
+| CHCO | 72 | corporate_insider | STRONG-TREISTER DIANE W | 4 | $14,800 | cluster_buy,small_amount |
+| CHCO | 72 | corporate_insider | Hoyer James A | 4 | $12,782 | cluster_buy,small_amount |
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
-| FULC | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | AON | 72 | large_holder | JPMORGAN CHASE & CO |  | - | - |
+| CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $11,168 | cluster_buy,small_amount |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | ANIX | 71 | corporate_insider | Titterton Lewis H jr | 2 | $41,640 | cluster_buy |
-| LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
 | IPW | 70 | large_holder | Sherman Dror Moshe |  | - | - |
 | RTB | 70 | large_holder | Dorsett Jason Christopher |  | - | - |
 | MANU | 70 | large_holder | Boldhaven Management LLP |  | - | - |
+| GXO | 70 | large_holder | Spruce House Investment M |  | - | - |
 | RACD | 70 | large_holder | Trails Edge Capital Partn |  | - | - |
-| AEON | 70 | large_holder | Stonepine Capital Managem |  | - | - |
-| QMLS | 70 | large_holder | Bissell Robert Christophe |  | - | - |
-| SUPX | 70 | large_holder | Mercuria Holdings (Singap |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -308,9 +312,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
+| LLY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 | HSY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| ADBE | 61 | congress | Dan Newhouse | $15,000 | small_amount |
-| AMD | 61 | congress | Dan Newhouse | $15,000 | small_amount |
+| CAG | 62 | congress | Gilbert Cisneros | $50,000 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -327,46 +331,51 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
 - GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
 - ^VIX: 17.05 (-8.58% / 3.33% / -1.33%) [2026-07-21]
-- BTC-USD: 66391.98 (1.78% / 4.08% / 10.65%) [2026-07-21]
+- BTC-USD: 66204.13 (1.49% / 3.79% / 10.33%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.21 (delta 1m: 0.01) [2026-07-20]
 - Treasury 10Y yield: 4.6 (delta 1m: 0.11) [2026-07-20]
-- Curva 10Y-2Y: 0.39 (delta 1m: 0.1) [2026-07-20]
+- Curva 10Y-2Y: 0.37 (delta 1m: 0.1) [2026-07-21]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
 - High yield spread (OAS): 2.69 (delta 1m: 0.03) [2026-07-20]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
-- Breakeven inflacion 10Y: 2.25 (delta 1m: -0.01) [2026-07-20]
+- Breakeven inflacion 10Y: 2.26 (delta 1m: 0.01) [2026-07-21]
 - Dolar broad index: 120.5315 (delta 1m: 1.275) [2026-07-17]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1), stock (1)
+**Temas dominantes**: stock (4), merger (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [UBER] Stock Market Today , July 21 : Utz Brands Surges on $2 . 9 Billion Take - Private Deal . Here the Lesson for Investors . (2026-07-21)
+- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
+- [CAG] SteelPeak Wealth LLC Makes New Investment in Conagra Brands $CAG (2026-07-19)
+- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
 - [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
+- [NFBK] Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? (2026-07-17)
 - [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-07-16.
-- 10% owner Fairmount Funds Management LLC compro CBIO por $12.4M el 2026-07-16 [senal en multiples fuentes].
 - 10% owner ABRY Partners VII, L.P. vendio KORE por $44.9M el 2026-07-21.
 - CEO Clark Kevin Cronin vendio CCRN por $12.6M el 2026-07-21.
-- CEO Huang Jack Jiajia compro COE por $3.7M el 2026-07-13.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
+- Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
+- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
+- Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - Sassy-Bucket · PnL $218,408 · win rate 93% · categorias: sports
-- 111111111115 · PnL $141,056 · win rate 95% · categorias: sports
+- 111111111115 · PnL $139,702 · win rate 95% · categorias: sports
 - Kingdmandan · PnL $26,728 · win rate 97% · categorias: sports
 - QuentinChen · PnL $30,494 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $45,368 · win rate 91% · categorias: crypto
+- sbimbg · PnL $26,704 · win rate 94% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -374,7 +383,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 662 registros 30d · ultimo dato 2026-07-21
+- **sec_insiders**: `ok` · 647 registros 30d · ultimo dato 2026-07-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -387,7 +396,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AON, BEP, BFLY, GLD, IEF, QQQ, QTTB, SPY, TLT, TSM, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AON, BEP, BFLY, CAG, ENR, GLD, IEF, LLY, QQQ, SPY, TLT, TSM, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
