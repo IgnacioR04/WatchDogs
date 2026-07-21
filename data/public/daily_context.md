@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T16:57:00+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-21T18:55:51+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.09)
-- Tendencia: `bull` (SPY 749.0 · MA50 743.82 · MA200 694.28 · dist MA200: 7.88%)
+- Volatilidad: `normal` (VIX 17.08)
+- Tendencia: `bull` (SPY 748.28 · MA50 743.81 · MA200 694.27 · dist MA200: 7.78%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
@@ -22,15 +22,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 749.0 | 0.93% | -0.38% | 0.62% |
-| QQQ | 12.0% | core | 709.73 | 1.96% | -1.38% | -3.82% |
-| TLT | 12.0% | core | 83.67 | -0.27% | -0.49% | -2.46% |
-| BEP | 12.0% | satellite | 31.83 | -0.69% | -0.87% | -10.94% |
-| UBER | 10.7% | satellite | 71.6 | -0.79% | -0.67% | 0.24% |
-| GLD | 10.3% | core | 373.6 | 1.63% | 0.39% | -2.86% |
-| TSM | 7.8% | satellite | 422.55 | 5.03% | 0.51% | -9.65% |
-| IEF | 6.9% | core | 93.35 | -0.2% | -0.21% | -0.36% |
-| QTTB | 1.3% | satellite | 15.1 | 0.37% | -18.23% | 19.33% |
+| SPY | 12.0% | core | 748.28 | 0.83% | -0.47% | 0.52% |
+| QQQ | 12.0% | core | 709.2 | 1.89% | -1.46% | -3.9% |
+| TLT | 12.0% | core | 83.65 | -0.28% | -0.51% | -2.47% |
+| BEP | 12.0% | satellite | 32.03 | -0.06% | -0.25% | -10.38% |
+| UBER | 10.7% | satellite | 71.56 | -0.85% | -0.73% | 0.17% |
+| GLD | 10.3% | core | 374.45 | 1.86% | 0.62% | -2.64% |
+| TSM | 7.8% | satellite | 424.69 | 5.57% | 1.02% | -9.19% |
+| IEF | 6.9% | core | 93.32 | -0.24% | -0.25% | -0.4% |
+| QTTB | 1.3% | satellite | 15.06 | 0.13% | -18.42% | 19.05% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -56,7 +56,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
 | FULC | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| FULC | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | ANIX | 71 | corporate_insider | Titterton Lewis H jr | 2 | $41,640 | cluster_buy |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
@@ -64,9 +63,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | RTB | 70 | large_holder | Dorsett Jason Christopher |  | - | - |
 | MANU | 70 | large_holder | Boldhaven Management LLP |  | - | - |
 | SUPX | 70 | large_holder | Mercuria Holdings (Singap |  | - | - |
+| EVI | 70 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
+| CVU | 70 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
+| APYX | 70 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
 | BOXL | 70 | large_holder | Khan MD Ehsan |  | - | - |
-| FRMI | 70 | large_holder | Caddis Holdings, LP |  | - | - |
-| CBNA | 70 | large_holder | Hingham Institution for S |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -88,15 +88,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 749.0 (0.93% / -0.38% / 0.62%) [2026-07-21]
-- QQQ: 709.73 (1.96% / -1.38% / -3.82%) [2026-07-21]
-- IWM: 296.21 (1.34% / 0.58% / -0.66%) [2026-07-21]
-- DIA: 522.96 (0.97% / -0.3% / 1.17%) [2026-07-21]
-- TLT: 83.67 (-0.27% / -0.49% / -2.46%) [2026-07-21]
-- IEF: 93.35 (-0.2% / -0.21% / -0.36%) [2026-07-21]
-- GLD: 373.6 (1.63% / 0.39% / -2.86%) [2026-07-21]
-- ^VIX: 17.09 (-8.36% / 3.58% / -1.1%) [2026-07-21]
-- BTC-USD: 66577.95 (2.07% / 4.37% / 10.96%) [2026-07-21]
+- SPY: 748.28 (0.83% / -0.47% / 0.52%) [2026-07-21]
+- QQQ: 709.2 (1.89% / -1.46% / -3.9%) [2026-07-21]
+- IWM: 295.9 (1.23% / 0.47% / -0.76%) [2026-07-21]
+- DIA: 521.31 (0.65% / -0.62% / 0.85%) [2026-07-21]
+- TLT: 83.65 (-0.28% / -0.51% / -2.47%) [2026-07-21]
+- IEF: 93.32 (-0.24% / -0.25% / -0.4%) [2026-07-21]
+- GLD: 374.45 (1.86% / 0.62% / -2.64%) [2026-07-21]
+- ^VIX: 17.08 (-8.42% / 3.52% / -1.16%) [2026-07-21]
+- BTC-USD: 66245.22 (1.56% / 3.85% / 10.4%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -111,13 +111,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (1)
+**Temas dominantes**: stock (2), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NFBK] Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? (2026-07-17)
+- [UBER] Midwich Group ( LON : MIDW ) Stock Price Up 12 . 8 % – Here Why (2026-07-21)
+- [UBER] AI stocks gather more strength , even as Brent oil price nears $92 (2026-07-21)
+- [MDGL] WCM Investment Management LLC Grows Stake in Madrigal Pharmaceuticals , Inc . $MDGL (2026-07-21)
+- [MDGL] Madrigal Pharmaceuticals to Release Second - Quarter 2026 Financial Results and Host Webcast on July 30 , 2026 (2026-07-16)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
+- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -132,11 +137,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $218,538 · win rate 93% · categorias: sports
+- Sassy-Bucket · PnL $218,408 · win rate 93% · categorias: sports
 - Kingdmandan · PnL $26,728 · win rate 97% · categorias: sports
 - QuentinChen · PnL $30,494 · win rate 96% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $53,274 · win rate 90% · categorias: sports, crypto
-- JnStTrdrBnusFnd · PnL $42,364 · win rate 91% · categorias: crypto
+- JnStTrdrBnusFnd · PnL $44,453 · win rate 91% · categorias: crypto
+- batya1 · PnL $46,700 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -144,7 +149,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 645 registros 30d · ultimo dato 2026-07-21
+- **sec_insiders**: `ok` · 646 registros 30d · ultimo dato 2026-07-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
