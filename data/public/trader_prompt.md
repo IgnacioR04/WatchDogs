@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-21T04:02:01+00:00 -->
+<!-- trader_prompt.md generado 2026-07-21T06:58:24+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T04:02:01+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-21T06:58:24+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -321,7 +321,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
 - ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65486.17 (1.23% / 1.2% / 11.83%) [2026-07-21]
+- BTC-USD: 65885.88 (1.01% / 3.29% / 9.8%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -336,13 +336,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (1)
+**Temas dominantes**: stock (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MDGL] Madrigal Pharmaceuticals to Release Second - Quarter 2026 Financial Results and Host Webcast on July 30 , 2026 (2026-07-16)
-- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-10)
-- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-08)
+- [UBER] Korea ETF pioneer issues rare warning on single - stock leveraged ETFs (2026-07-21)
+- [NFBK] Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? (2026-07-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -357,11 +356,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $218,361 · win rate 93% · categorias: sports
-- Themsnw · PnL $107,781 · win rate 86% · categorias: sports, politics
-- Kingdmandan · PnL $17,182 · win rate 97% · categorias: sports
-- EIf · PnL $47,543 · win rate 89% · categorias: sports
-- QuentinChen · PnL $9,911 · win rate 96% · categorias: sports
+- Sassy-Bucket · PnL $218,407 · win rate 93% · categorias: sports
+- Kingdmandan · PnL $26,691 · win rate 97% · categorias: sports
+- QuentinChen · PnL $30,488 · win rate 96% · categorias: sports
+- Themsnw · PnL $98,278 · win rate 86% · categorias: sports, politics
+- EIf · PnL $46,950 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
