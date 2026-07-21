@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-21T14:40:12.560144+00:00",
+  "generated_at": "2026-07-21T16:56:00.557132+00:00",
   "window": {
     "from": "2026-06-21",
     "to": "2026-07-21",
@@ -490,6 +490,14 @@
         ]
       },
       {
+        "ticker": "ANIX",
+        "company": "Anixa Biosciences Inc",
+        "pressure_score": 143.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SLAI",
         "company": "SOLAI Ltd",
         "pressure_score": 143.7,
@@ -501,14 +509,6 @@
       {
         "ticker": "QURE",
         "company": "uniQure N.V.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "AGEN",
-        "company": "Agenus Inc.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -598,14 +598,6 @@
         ]
       },
       {
-        "ticker": "RELY",
-        "company": "Remitly Global, Inc.",
-        "pressure_score": 364.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BLK",
         "company": "SP BlackRock, Inc. Common Stock",
         "pressure_score": 359.4,
@@ -635,6 +627,14 @@
         "ticker": "HOOD",
         "company": "Robinhood Markets, Inc.",
         "pressure_score": 281.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FSLY",
+        "company": "Fastly, Inc.",
+        "pressure_score": 280.4,
         "sources": [
           "corporate_insider"
         ]
@@ -733,6 +733,15 @@
       "score": 74.3
     },
     {
+      "ticker": "ANIX",
+      "company": "Anixa Biosciences Inc",
+      "actor": "KUMAR AMIT",
+      "actor_type": "ceo",
+      "amount": 17300.0,
+      "date": "2026-07-20",
+      "score": 73.5
+    },
+    {
       "ticker": "SLAI",
       "company": "SOLAI Ltd",
       "actor": "Law Man San",
@@ -767,15 +776,6 @@
       "amount": 15886.56,
       "date": "2026-07-17",
       "score": 71.9
-    },
-    {
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 36398.48,
-      "date": "2026-07-16",
-      "score": 71.2
     }
   ],
   "institutional_changes": [
@@ -1252,9 +1252,30 @@
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 53274.39,
+        "win_rate": 0.8984,
+        "volume": 641589.71,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 42363.57,
+        "win_rate": 0.9118,
+        "volume": 77735.99,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x69c5c6f6a4",
         "username": "Themsnw",
-        "pnl": 109000.21,
+        "pnl": 76431.12,
         "win_rate": 0.8627,
         "volume": 42398.41,
         "categories": [
@@ -1265,7 +1286,7 @@
       {
         "wallet": "0xd6966eb1ae",
         "username": "EIf",
-        "pnl": 46949.7,
+        "pnl": 46950.57,
         "win_rate": 0.89,
         "volume": 200.0,
         "categories": [
@@ -1273,32 +1294,11 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 34128.45,
-        "win_rate": 0.8977,
-        "volume": 440079.7,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x3413c803c3",
-        "username": "Dota2winner",
-        "pnl": 15090.75,
-        "win_rate": 0.9408,
-        "volume": 24889.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 13368.89,
-        "win_rate": 0.9464,
-        "volume": 511997.01,
+        "wallet": "0x618534bef6",
+        "username": "batya1",
+        "pnl": 38027.74,
+        "win_rate": 0.8983,
+        "volume": 103072.94,
         "categories": [
           "sports"
         ]
@@ -1306,9 +1306,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 59470.54,
-        "win_rate": 0.925,
-        "volume": 44566.09,
+        "pnl": 72121.13,
+        "win_rate": 0.9268,
+        "volume": 86657.11,
         "categories": [
           "sports"
         ]
@@ -1316,7 +1316,7 @@
       {
         "wallet": "0xa36fcb6947",
         "username": "Shori888",
-        "pnl": 33554.98,
+        "pnl": 33588.93,
         "win_rate": 1.0,
         "volume": 67899.0,
         "categories": [
@@ -1326,62 +1326,31 @@
     ],
     "whales": [
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 13212.65,
-        "win_rate": 0.664,
-        "volume": 4941596.25,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 31531.51,
-        "win_rate": 0.429,
-        "volume": 1502091.54,
+        "pnl": 30902.14,
+        "win_rate": 0.441,
+        "volume": 1590316.88,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 17430.97,
-        "win_rate": 0.486,
-        "volume": 1149115.63,
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 53274.39,
+        "win_rate": 0.8984,
+        "volume": 641589.71,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8ec829f015",
-        "username": "A-Train",
-        "pnl": 15990.06,
-        "win_rate": 0.6061,
-        "volume": 2033317.35,
-        "categories": [
-          "politics",
           "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 13368.89,
-        "win_rate": 0.9464,
-        "volume": 511997.01,
-        "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
         "wallet": "0x547f2917d5",
         "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 22017.04,
+        "pnl": 20047.82,
         "win_rate": 0.7345,
         "volume": 421321.24,
         "categories": [
@@ -1389,34 +1358,21 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 34128.45,
-        "win_rate": 0.8977,
-        "volume": 440079.7,
+        "wallet": "0x4d4f13a12d",
+        "username": "0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
+        "pnl": 53199.43,
+        "win_rate": 0.8696,
+        "volume": 237991.61,
         "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 17026.78,
-        "win_rate": 0.4441,
-        "volume": 384635.39,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
+          "sports"
         ]
       },
       {
         "wallet": "0xe613b515bd",
         "username": "Gucky-45",
-        "pnl": 23716.86,
+        "pnl": 21714.35,
         "win_rate": 0.234,
-        "volume": 205840.38,
+        "volume": 216346.09,
         "categories": [
           "sports",
           "politics",
@@ -1424,48 +1380,83 @@
         ]
       },
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 20673.96,
-        "win_rate": 0.4747,
-        "volume": 167530.77,
+        "wallet": "0xde7be6d489",
+        "username": "wan123",
+        "pnl": 33499.76,
+        "win_rate": 0.7897,
+        "volume": 219314.05,
         "categories": [
           "sports",
+          "politics",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x0a39b3b29a",
+        "username": "plonker2026",
+        "pnl": 86070.4,
+        "win_rate": 1.0,
+        "volume": 205622.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe033e9d4a0",
+        "username": "CDAP1",
+        "pnl": 17822.26,
+        "win_rate": 0.7222,
+        "volume": 197949.99,
+        "categories": [
+          "economy",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 25181.49,
+        "win_rate": 0.8222,
+        "volume": 152268.08,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe734e7bf7c",
+        "username": "boyau",
+        "pnl": 18159.49,
+        "win_rate": 0.5333,
+        "volume": 165927.36,
+        "categories": [
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "WCM Investment Management LLC Grows Stake in Madrigal Pharmaceuticals , Inc . $MDGL",
-      "url": "https://www.themarketsdaily.com/2026/07/21/wcm-investment-management-llc-grows-stake-in-madrigal-pharmaceuticals-inc-mdgl.html",
-      "ticker": "MDGL",
-      "themes": [],
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Madrigal Pharmaceuticals to Release Second - Quarter 2026 Financial Results and Host Webcast on July 30 , 2026",
-      "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/globenewswire/madrigal-pharmaceuticals-to-release-second-quarter-2026-financial-results-and-host-webcast-on-july-30-2026/2385856",
-      "ticker": "MDGL",
+      "title": "Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? ",
+      "url": "https://www.themarketsdaily.com/2026/07/17/northfield-bancorp-nasdaqnfbk-sets-new-1-year-high-should-you-buy.html",
+      "ticker": "NFBK",
       "themes": [
         "regulatory"
       ],
-      "date": "2026-07-16"
+      "date": "2026-07-17"
     },
     {
-      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-lowers-price-target-madrigal-192025345.html",
-      "ticker": "MDGL",
+      "title": "Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? ",
+      "url": "https://www.dailypolitical.com/2026/07/10/maplight-therapeutics-nasdaqmplt-sets-new-1-year-high-time-to-buy.html",
+      "ticker": "MPLT",
       "themes": [],
       "date": "2026-07-10"
     },
     {
-      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) ",
-      "url": "https://www.insidermonkey.com/blog/bofa-lowers-its-price-target-on-madrigal-pharmaceuticals-inc-mdgl-1798283/",
-      "ticker": "MDGL",
+      "title": "Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) ",
+      "url": "https://www.dailypolitical.com/2026/07/09/research-analysts-recent-ratings-changes-for-maplight-therapeutics-mplt.html",
+      "ticker": "MPLT",
       "themes": [],
-      "date": "2026-07-08"
+      "date": "2026-07-09"
     }
   ],
   "signals_count": 1620,
