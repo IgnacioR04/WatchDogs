@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T00:29:30+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-21T04:02:01+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -24,21 +24,23 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 742.09 | -0.16% | -0.95% | -0.62% |
 | BEP | 12.0% | satellite | 32.05 | 0.91% | 0.6% | -9.05% |
-| UBER | 11.0% | satellite | 72.17 | -0.4% | -2.81% | 0.74% |
-| QQQ | 10.8% | core | 696.06 | 0.1% | -2.2% | -5.91% |
-| TLT | 10.8% | core | 83.89 | -0.75% | -0.1% | -2.94% |
-| GLD | 8.1% | core | 367.6 | -0.22% | 0.13% | -5.04% |
-| IEF | 5.4% | core | 93.54 | -0.32% | 0.27% | -0.54% |
+| QQQ | 10.6% | core | 696.06 | 0.1% | -2.2% | -5.91% |
+| TLT | 10.6% | core | 83.89 | -0.75% | -0.1% | -2.94% |
+| UBER | 10.4% | satellite | 72.17 | -0.4% | -2.81% | 0.74% |
+| GLD | 7.9% | core | 367.6 | -0.22% | 0.13% | -5.04% |
+| IEF | 5.3% | core | 93.54 | -0.32% | 0.27% | -0.54% |
+| QTTB | 1.2% | satellite | 15.04 | -0.07% | -29.65% | 26.39% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 9.2%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.6%
-- Beta vs SPY: 0.548 · posiciones efectivas: 13.6 · HHI: 0.0735
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.506 · posiciones efectivas: 14.1 · HHI: 0.0711
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **QTTB** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **UBER** · score agregado 68.5 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -48,12 +50,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| GABC | 73 | corporate_insider | Seger Andrew M | 3 | $20,000 | cluster_buy,small_amount |
-| GABC | 73 | corporate_insider | Ryan Christina M | 3 | $20,000 | cluster_buy,small_amount |
-| GABC | 72 | corporate_insider | Stokes Ronnie R | 3 | $15,000 | cluster_buy,small_amount |
+| FULC | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | PNTG | 72 | large_holder | Wasatch Advisors LP |  | - | - |
-| MGA | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
+| FULC | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
 | BOXL | 70 | large_holder | Khan MD Ehsan |  | - | - |
@@ -63,6 +63,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | ITG | 70 | large_holder | Ophir Asset Management Pt |  | - | - |
 | RACD | 70 | large_holder | Commodore Capital LP |  | - | - |
 | QURE | 70 | large_holder | Aberdeen Group plc |  | - | - |
+| CDXS | 70 | large_holder | Aberdeen Group plc |  | - | - |
+| CALC | 70 | large_holder | CVI Investments, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -71,8 +73,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | BLK | 64 | congress | John McGuire | $15,000 | small_amount |
 | ADBE | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| MGA | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 | HSY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| SN | 61 | corporate_insider | Barrocas Mark | $38,752,500 | - |
 | AMD | 61 | congress | Dan Newhouse | $15,000 | small_amount |
 | GOOGL | 61 | congress | Dan Newhouse | $15,000 | small_amount |
 | AMAT | 61 | congress | Dan Newhouse | $15,000 | small_amount |
@@ -92,7 +94,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.54 (-0.32% / 0.27% / -0.54%) [2026-07-20]
 - GLD: 367.6 (-0.22% / 0.13% / -5.04%) [2026-07-20]
 - ^VIX: 18.65 (-0.64% / 8.68% / 13.72%) [2026-07-20]
-- BTC-USD: 65326.85 (0.98% / 0.95% / 11.56%) [2026-07-21]
+- BTC-USD: 65486.17 (1.23% / 1.2% / 11.83%) [2026-07-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -107,33 +109,32 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), earnings (1)
+**Temas dominantes**: regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] SA Junior Heifer Expo : Hanson sibling rivalry drives success | Stock Journal (2026-07-21)
-- [UBER] Amazon ( NASDAQ : AMZN ) Stock Price Shows 30 % Upside Potential Ahead Of July 30 Earnings Report (2026-07-21)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [MDGL] Madrigal Pharmaceuticals to Release Second - Quarter 2026 Financial Results and Host Webcast on July 30 , 2026 (2026-07-16)
+- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-10)
+- [MDGL] BofA lowers its Price Target on Madrigal Pharmaceuticals , Inc . ( MDGL ) (2026-07-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Mortgage Trust por $36.6M el 2026-07-15.
 - 10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-07-16.
-- 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $22.0M el 2026-07-15.
 - 10% owner Fairmount Funds Management LLC compro CBIO por $12.4M el 2026-07-16 [senal en multiples fuentes].
-- 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Mortgage Trust por $13.0M el 2026-07-15.
+- CEO Barrocas Mark vendio SN por $38.8M el 2026-07-17.
 - CEO Huang Jack Jiajia compro COE por $3.7M el 2026-07-13.
-- 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $7.0M el 2026-07-15.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
+- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
+- Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Themsnw · PnL $182,356 · win rate 86% · categorias: sports, politics
-- Mrgivemeall · PnL $20,020 · win rate 96% · categorias: crypto, sports
-- 111111111115 · PnL $22,601 · win rate 94% · categorias: sports
-- Uniform123 · PnL $41,128 · win rate 88% · categorias: sports
-- JnStTrdrBnusFnd · PnL $24,698 · win rate 91% · categorias: crypto
+- Sassy-Bucket · PnL $218,361 · win rate 93% · categorias: sports
+- Themsnw · PnL $107,781 · win rate 86% · categorias: sports, politics
+- Kingdmandan · PnL $17,182 · win rate 97% · categorias: sports
+- EIf · PnL $47,543 · win rate 89% · categorias: sports
+- QuentinChen · PnL $9,911 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -141,7 +142,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 72 registros 30d · ultimo dato 2026-07-10
-- **sec_insiders**: `ok` · 672 registros 30d · ultimo dato 2026-07-20
+- **sec_insiders**: `ok` · 654 registros 30d · ultimo dato 2026-07-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -154,7 +155,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, QQQ, SPY, TLT, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, GLD, IEF, QQQ, QTTB, SPY, TLT, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

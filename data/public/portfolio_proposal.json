@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-07-21T00:29:29+00:00",
+  "generated_at": "2026-07-21T04:01:59+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.7,
-  "cash": 0.3,
+  "total_equity": 0.6998,
+  "cash": 0.3002,
   "weights": {
     "SPY": 0.12,
     "BEP": 0.12,
-    "UBER": 0.1104,
-    "QQQ": 0.1076,
-    "TLT": 0.1076,
-    "GLD": 0.0806,
-    "IEF": 0.0538
+    "QQQ": 0.1057,
+    "TLT": 0.1057,
+    "UBER": 0.1038,
+    "GLD": 0.0792,
+    "IEF": 0.0529,
+    "QTTB": 0.0125
   },
   "core": {
     "SPY": 0.1592,
@@ -21,10 +22,19 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "UBER": 0.0934,
-    "BEP": 0.1516
+    "QTTB": 0.0108,
+    "UBER": 0.0893,
+    "BEP": 0.1449
   },
   "satellite_rationale": [
+    {
+      "ticker": "QTTB",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
     {
       "ticker": "UBER",
       "score": 68.5,
@@ -43,16 +53,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0924,
-    "var_95_1d": 0.0097,
-    "cvar_95_1d": 0.0131,
-    "max_drawdown": -0.0365,
-    "beta_spy": 0.548,
-    "hhi": 0.0735,
+    "ann_vol": 0.0921,
+    "var_95_1d": 0.0099,
+    "cvar_95_1d": 0.013,
+    "max_drawdown": -0.0314,
+    "beta_spy": 0.506,
+    "hhi": 0.0711,
     "max_position": 0.12,
-    "n_positions": 7,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.7,
+    "n_positions": 8,
+    "effective_positions": 14.1,
+    "gross_exposure": 0.6998,
     "days_used": 47
   },
   "risk_gate": {
