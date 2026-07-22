@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T04:01:49+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-22T06:59:14+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
 - GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
 - ^VIX: 17.05 (-8.58% / 3.33% / -1.33%) [2026-07-21]
-- BTC-USD: 66186.46 (1.47% / 3.76% / 10.3%) [2026-07-22]
+- BTC-USD: 65882.59 (-0.94% / 3.1% / 7.15%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,11 +119,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (2), earnings (2), merger (1)
+**Temas dominantes**: stock (4), ai (2), earnings (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Seoul stocks extend gains late Wed . morning on tech buying (2026-07-22)
+- [TDG] A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors (2026-07-22)
+- [CRWD] Is CrowdStrike Holdings ( CRWD ) Cheap On Its Schwarz Digits Partnership And Pullback ? (2026-07-22)
+- [CRWD] CrowdStrike warns of malware targeting AI coding tools (2026-07-22)
 - [ANGO] AngioDynamics ( ANGO ) Q4 2026 Earnings Call Transcript (2026-07-21)
 - [ANGO] Zacks Research Downgrades AngioDynamics ( NASDAQ : ANGO ) to Strong Sell (2026-07-18)
 - [ANGO] AngioDynamics ( NASDAQ : ANGO ) Downgraded by Zacks Research to  Strong Sell (2026-07-18)
@@ -131,8 +133,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [ANGO] AngioDynamics ( NASDAQ : ANGO ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 04 EPS (2026-07-16)
 - [ANGO] Biotech Stocks At 52 - Week Highs - CPIX , MRVI , ANGO , ACHC , TDOC (2026-07-16)
 - [ANGO] AngioDynamics ( NASDAQ : ANGO ) Given New $19 . 00 Price Target at HC Wainwright (2026-07-15)
-- [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $57,088 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $53,622 · win rate 91% · categorias: sports
-- comon119 · PnL $7,098 · win rate 99% · categorias: sports, crypto, politics
-- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $7,962 · win rate 96% · categorias: sports, crypto
-- Themsnw · PnL $48,585 · win rate 83% · categorias: sports, politics
+- Sassy-Bucket · PnL $58,905 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $53,847 · win rate 92% · categorias: sports
+- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $7,958 · win rate 96% · categorias: sports, crypto
+- Themsnw · PnL $46,636 · win rate 83% · categorias: sports, politics
+- Kosherlocks · PnL $10,733 · win rate 93% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
