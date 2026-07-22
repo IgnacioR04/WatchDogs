@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-22T18:47:30.370837+00:00",
+  "generated_at": "2026-07-22T20:47:53.445152+00:00",
   "window": {
     "from": "2026-06-22",
     "to": "2026-07-22",
@@ -25,8 +25,7 @@
     "top_themes": [
       "stock",
       "ai",
-      "earnings",
-      "merger"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -100,10 +99,7 @@
       "event_date": "2026-07-21",
       "importance_score": 83.8,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_726335534823",
-        "news_785316486182"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1765081/000101297526000693/"
     },
     {
@@ -494,6 +490,14 @@
         ]
       },
       {
+        "ticker": "HDSN",
+        "company": "HUDSON TECHNOLOGIES INC /NY",
+        "pressure_score": 150.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "STWI",
         "company": "StageWise Strategies Corp.",
         "pressure_score": 146.8,
@@ -510,17 +514,17 @@
           "corporate_insider",
           "large_holder"
         ]
-      },
-      {
-        "ticker": "NVVE",
-        "company": "Nuvve Holding Corp.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 1446.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "CCRN",
         "company": "CROSS COUNTRY HEALTHCARE INC",
@@ -533,14 +537,6 @@
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
         "pressure_score": 1395.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MPLT",
-        "company": "MapLight Therapeutics, Inc.",
-        "pressure_score": 970.9,
         "sources": [
           "corporate_insider"
         ]
@@ -578,14 +574,6 @@
         ]
       },
       {
-        "ticker": "MDGL",
-        "company": "MADRIGAL PHARMACEUTICALS, INC.",
-        "pressure_score": 726.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ELVN",
         "company": "Enliven Therapeutics, Inc.",
         "pressure_score": 664.2,
@@ -594,9 +582,9 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 613.5,
+        "ticker": "MPLT",
+        "company": "MapLight Therapeutics, Inc.",
+        "pressure_score": 475.0,
         "sources": [
           "corporate_insider"
         ]
@@ -611,9 +599,9 @@
         ]
       },
       {
-        "ticker": "RVI",
-        "company": "Robinhood Ventures Fund I",
-        "pressure_score": 347.3,
+        "ticker": "PLMR",
+        "company": "Palomar Holdings, Inc.",
+        "pressure_score": 367.7,
         "sources": [
           "corporate_insider"
         ]
@@ -635,9 +623,17 @@
         ]
       },
       {
-        "ticker": "SYNA",
-        "company": "SYNAPTICS Inc",
-        "pressure_score": 329.9,
+        "ticker": "IPGP",
+        "company": "IPG PHOTONICS CORP",
+        "pressure_score": 301.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VSAT",
+        "company": "VIASAT INC",
+        "pressure_score": 275.9,
         "sources": [
           "corporate_insider"
         ]
@@ -680,6 +676,15 @@
       "amount": 400940.0,
       "date": "2026-07-20",
       "score": 77.9
+    },
+    {
+      "ticker": "HDSN",
+      "company": "HUDSON TECHNOLOGIES INC /NY",
+      "actor": "Hartree Partners, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 285742.3,
+      "date": "2026-07-21",
+      "score": 77.1
     },
     {
       "ticker": "GF",
@@ -754,6 +759,15 @@
       "score": 73.9
     },
     {
+      "ticker": "HDSN",
+      "company": "HUDSON TECHNOLOGIES INC /NY",
+      "actor": "Hartree Partners, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 106859.31,
+      "date": "2026-07-20",
+      "score": 73.5
+    },
+    {
       "ticker": "ANIX",
       "company": "Anixa Biosciences Inc",
       "actor": "KUMAR AMIT",
@@ -761,24 +775,6 @@
       "amount": 17300.0,
       "date": "2026-07-20",
       "score": 73.5
-    },
-    {
-      "ticker": "PRQR",
-      "company": "ProQR Therapeutics N.V.",
-      "actor": "Filius Bart",
-      "actor_type": "director",
-      "amount": 257925.0,
-      "date": "2026-07-17",
-      "score": 72.9
-    },
-    {
-      "ticker": "RANI",
-      "company": "Rani Therapeutics Holdings, Inc.",
-      "actor": "Imran Talat",
-      "actor_type": "ceo",
-      "amount": 25193.0,
-      "date": "2026-07-17",
-      "score": 72.9
     }
   ],
   "institutional_changes": [
@@ -1087,6 +1083,15 @@
   ],
   "large_holders": [
     {
+      "filer": "UAW Retiree Medical Benefits Trust",
+      "company": "NMF SLF I, INC.",
+      "ticker": "",
+      "ownership_pct": 94.2,
+      "shares": 90537109,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-22"
+    },
+    {
       "filer": "Jakhongir Abidovich Artikkhodjaev",
       "company": "StageWise Strategies Corp.",
       "ticker": "STWI",
@@ -1112,6 +1117,24 @@
       "shares": 75000,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-20"
+    },
+    {
+      "filer": "Penske Corporation",
+      "company": "Penske Automotive Group, Inc.",
+      "ticker": "PAG",
+      "ownership_pct": 52.2,
+      "shares": 34333500,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-22"
+    },
+    {
+      "filer": "Charles W. Ergen",
+      "company": "EchoStar CORP",
+      "ticker": "ECHO",
+      "ownership_pct": 50.9,
+      "shares": 148681347,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-22"
     },
     {
       "filer": "Reis-Faria Daniel",
@@ -1159,6 +1182,15 @@
       "date": "2026-07-21"
     },
     {
+      "filer": "Juvenescence Limited",
+      "company": "SERINA THERAPEUTICS, INC.",
+      "ticker": "SER",
+      "ownership_pct": 27.3,
+      "shares": 4400781,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-22"
+    },
+    {
       "filer": "WR Berkley & Others LLC",
       "company": "W. R. BERKLEY CORPORATION",
       "ticker": "",
@@ -1184,42 +1216,6 @@
       "shares": 2976794,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-21"
-    },
-    {
-      "filer": "Achillefs Konstantakopoulos",
-      "company": "Costamare Bulkers Holdings Limited",
-      "ticker": "CMDB",
-      "ownership_pct": 20.5,
-      "shares": 4979706,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-20"
-    },
-    {
-      "filer": "RA Capital Management, L.P.",
-      "company": "VOR BIOPHARMA INC.",
-      "ticker": "VOR",
-      "ownership_pct": 19.9,
-      "shares": 12937855,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-21"
-    },
-    {
-      "filer": "Peter M. Hecht",
-      "company": "CYCLERION THERAPEUTICS, INC.",
-      "ticker": "CYCN",
-      "ownership_pct": 19.4,
-      "shares": 910240,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-20"
-    },
-    {
-      "filer": "Research Alliance Holdings IV LLC",
-      "company": "Research Alliance Corporation IV",
-      "ticker": "RACD",
-      "ownership_pct": 17.0,
-      "shares": 1538529,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-21"
     }
   ],
   "polymarket": {
@@ -1227,9 +1223,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 83493.36,
+        "pnl": 175301.71,
         "win_rate": 0.9528,
-        "volume": 2216683.11,
+        "volume": 2834043.96,
         "categories": [
           "sports"
         ]
@@ -1237,9 +1233,9 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 78713.64,
+        "pnl": 170615.75,
         "win_rate": 0.9278,
-        "volume": 309114.92,
+        "volume": 1326088.54,
         "categories": [
           "sports"
         ]
@@ -1247,9 +1243,9 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 55401.77,
+        "pnl": 81400.85,
         "win_rate": 0.9445,
-        "volume": 215871.26,
+        "volume": 317670.5,
         "categories": [
           "sports"
         ]
@@ -1257,29 +1253,19 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 72271.83,
+        "pnl": 70802.69,
         "win_rate": 0.9167,
-        "volume": 200429.97,
+        "volume": 345931.65,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 41191.94,
-        "win_rate": 0.9118,
-        "volume": 153723.44,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 38571.43,
-        "win_rate": 0.9003,
-        "volume": 43968.53,
+        "pnl": 45428.99,
+        "win_rate": 0.9006,
+        "volume": 195910.45,
         "categories": [
           "sports",
           "crypto"
@@ -1288,9 +1274,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 30989.45,
-        "win_rate": 0.904,
-        "volume": 86952.79,
+        "pnl": 31010.99,
+        "win_rate": 0.9062,
+        "volume": 102792.05,
         "categories": [
           "sports"
         ]
@@ -1298,9 +1284,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 71634.83,
+        "pnl": 89613.36,
         "win_rate": 0.7897,
-        "volume": 524849.76,
+        "volume": 603415.0,
         "categories": [
           "sports",
           "politics",
@@ -1308,20 +1294,29 @@
         ]
       },
       {
-        "wallet": "0x69c5c6f6a4",
-        "username": "Themsnw",
-        "pnl": 41477.19,
-        "win_rate": 0.8182,
-        "volume": 87786.92,
+        "wallet": "0x20b9e67004",
+        "username": "philleotardo",
+        "pnl": 22224.99,
+        "win_rate": 1.0,
+        "volume": 0.0,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xffe91b2592",
+        "username": "456789kjl",
+        "pnl": 28001.93,
+        "win_rate": 0.8452,
+        "volume": 61088.94,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0x13414a77a4",
         "username": "ROBBATTISTAFANDUELRETARD",
-        "pnl": 26160.85,
+        "pnl": 26160.61,
         "win_rate": 0.835,
         "volume": 1098.07,
         "categories": [
@@ -1334,9 +1329,29 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 83493.36,
+        "pnl": 175301.71,
         "win_rate": 0.9528,
-        "volume": 2216683.11,
+        "volume": 2834043.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 170615.75,
+        "win_rate": 0.9278,
+        "volume": 1326088.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 69456.67,
+        "win_rate": 0.487,
+        "volume": 1417328.61,
         "categories": [
           "sports"
         ]
@@ -1346,7 +1361,7 @@
         "username": "Djdjdjekekek",
         "pnl": 100498.28,
         "win_rate": 0.4878,
-        "volume": 883174.84,
+        "volume": 904353.5,
         "categories": [
           "sports",
           "crypto"
@@ -1355,19 +1370,9 @@
       {
         "wallet": "0x547f2917d5",
         "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-        "pnl": 151147.44,
-        "win_rate": 0.6324,
-        "volume": 822585.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 254655.55,
-        "win_rate": 0.487,
-        "volume": 729324.56,
+        "pnl": 133910.81,
+        "win_rate": 0.635,
+        "volume": 900095.28,
         "categories": [
           "sports"
         ]
@@ -1375,9 +1380,9 @@
       {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 131391.75,
+        "pnl": 160444.43,
         "win_rate": 0.5259,
-        "volume": 426436.47,
+        "volume": 441755.31,
         "categories": [
           "economy",
           "crypto",
@@ -1387,9 +1392,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 71634.83,
+        "pnl": 89613.36,
         "win_rate": 0.7897,
-        "volume": 524849.76,
+        "volume": 603415.0,
         "categories": [
           "sports",
           "politics",
@@ -1397,11 +1402,11 @@
         ]
       },
       {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 78713.64,
-        "win_rate": 0.9278,
-        "volume": 309114.92,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 60762.66,
+        "win_rate": 0.537,
+        "volume": 2434601.57,
         "categories": [
           "sports"
         ]
@@ -1409,44 +1414,50 @@
       {
         "wallet": "0xe734e7bf7c",
         "username": "boyau",
-        "pnl": 51509.19,
+        "pnl": 51915.08,
         "win_rate": 0.5371,
-        "volume": 293800.98,
+        "volume": 413026.94,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "",
-        "pnl": 36084.66,
-        "win_rate": 0.653,
-        "volume": 970216.92,
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 78900.81,
+        "win_rate": 0.6,
+        "volume": 254825.19,
         "categories": [
           "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x0c787cc296",
-        "username": "bbb17367162806",
-        "pnl": 47651.84,
-        "win_rate": 0.7759,
-        "volume": 170509.41,
-        "categories": [
-          "sports",
-          "crypto"
+          "crypto",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "FinancialContent - AsiaStrategy - Ordinary Shares ( Nasdaq : SORA ) Stock Quote",
-      "url": "https://markets.financialcontent.com/stocks/quote?Symbol=537:2578434814",
-      "ticker": "UBER",
+      "title": "CRWD Short Strangle Could Net $1 , 045 in a Few Weeks",
+      "url": "https://finance.yahoo.com/markets/options/articles/crwd-short-strangle-could-net-110002744.html",
+      "ticker": "CRWD",
+      "themes": [],
+      "date": "2026-07-22"
+    },
+    {
+      "title": "United Airlines says Homesite alone refused to pay its CrowdStrike claim",
+      "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/united-airlines-says-homesite-alone-refused-to-pay-its-crowdstrike-claim-583286.aspx",
+      "ticker": "CRWD",
       "themes": [
-        "stock"
+        "ai"
+      ],
+      "date": "2026-07-22"
+    },
+    {
+      "title": "Conagra ( CAG ) Q4 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/22/conagra-cag-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CAG",
+      "themes": [
+        "earnings"
       ],
       "date": "2026-07-22"
     },
@@ -1469,29 +1480,6 @@
       "date": "2026-07-22"
     },
     {
-      "title": "CrowdStrike and Cerebras Partner to Power AI Detection and Response on the World Fastest Inference",
-      "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/crowdstrike-and-cerebras-partner-to-power-ai-detection-and-response-on-the-worlds-fastest-inference/2389483",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/4-2m-sale-46-stake-175256426.html",
-      "ticker": "TDG",
-      "themes": [],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Is CrowdStrike Holdings ( CRWD ) Cheap On Its Schwarz Digits Partnership And Pullback ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-holdings-crwd-cheap-schwarz-032107681.html",
-      "ticker": "CRWD",
-      "themes": [],
-      "date": "2026-07-22"
-    },
-    {
       "title": "AngioDynamics ( ANGO ) Q4 2026 Earnings Call Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/07/21/angiodynamics-ango-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
       "ticker": "ANGO",
@@ -1499,6 +1487,31 @@
         "earnings"
       ],
       "date": "2026-07-21"
+    },
+    {
+      "title": "Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . ",
+      "url": "https://www.fool.com/investing/2026/07/19/conagra-slashes-its-10-dividend-yield-in-half-just/?source=iedfolrf0000001",
+      "ticker": "CAG",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-19"
+    },
+    {
+      "title": "SteelPeak Wealth LLC Makes New Investment in Conagra Brands $CAG",
+      "url": "https://www.themarketsdaily.com/2026/07/19/steelpeak-wealth-llc-makes-new-investment-in-conagra-brands-cag.html",
+      "ticker": "CAG",
+      "themes": [],
+      "date": "2026-07-19"
+    },
+    {
+      "title": "Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . ",
+      "url": "https://www.fool.com/investing/2026/07/19/conagra-slashes-its-10-dividend-yield-in-half-just/",
+      "ticker": "CAG",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-19"
     },
     {
       "title": "Zacks Research Downgrades AngioDynamics ( NASDAQ : ANGO ) to Strong Sell",
@@ -1517,16 +1530,6 @@
         "stock"
       ],
       "date": "2026-07-18"
-    },
-    {
-      "title": "Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger",
-      "url": "https://www.tickerreport.com/banking-finance/13507310/cross-country-healthcare-clears-key-hurdle-as-stockholders-approve-merger.html",
-      "ticker": "CCRN",
-      "themes": [
-        "merger",
-        "stock"
-      ],
-      "date": "2026-07-17"
     },
     {
       "title": "AngioDynamics ( NASDAQ : ANGO ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 04 EPS",
@@ -1554,48 +1557,9 @@
         "ai"
       ],
       "date": "2026-07-15"
-    },
-    {
-      "title": "$HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL",
-      "url": "https://www.prnewswire.com/news-releases/hareholder-alert-the-ma-class-action-firm-encourages-hareholders-to-act-before-the-voteccrn-eqh-axta-and-cznl-302825684.html",
-      "ticker": "CCRN",
-      "themes": [],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13503788/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.dailypolitical.com/2026/07/14/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-15"
-    },
-    {
-      "title": "Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/10/maplight-therapeutics-nasdaqmplt-sets-new-1-year-high-time-to-buy.html",
-      "ticker": "MPLT",
-      "themes": [],
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) ",
-      "url": "https://www.dailypolitical.com/2026/07/09/research-analysts-recent-ratings-changes-for-maplight-therapeutics-mplt.html",
-      "ticker": "MPLT",
-      "themes": [],
-      "date": "2026-07-09"
     }
   ],
-  "signals_count": 1631,
+  "signals_count": 1591,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
