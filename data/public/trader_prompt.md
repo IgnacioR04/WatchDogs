@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-22T06:59:14+00:00 -->
+<!-- trader_prompt.md generado 2026-07-22T09:55:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T06:59:14+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-22T09:55:14+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.05)
+- Volatilidad: `normal` (VIX 17.47)
 - Tendencia: `bull` (SPY 748.28 · MA50 743.81 · MA200 694.27 · dist MA200: 7.78%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -257,18 +257,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | IEF | 6.2% | core | 93.31 | -0.25% | -0.26% | -0.41% |
 | LLY | 5.7% | satellite | 1175.41 | 2.49% | 1.98% | 6.65% |
 | ENR | 4.7% | satellite | 20.08 | -1.33% | -1.62% | -4.79% |
-| CAG | 4.6% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
+| CAG | 4.7% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
 | UBER | 4.4% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
-| TSM | 3.2% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
+| TSM | 3.1% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
 | QNT | 1.6% | satellite | 58.58 | 2.14% | -12.08% | -14.19% |
-| BFLY | 0.9% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
+| BFLY | 1.0% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 12.7%
 - VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -3.2%
-- Beta vs SPY: None · posiciones efectivas: 13.6 · HHI: 0.0735
+- Beta vs SPY: 0.634 · posiciones efectivas: 13.6 · HHI: 0.0736
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -330,8 +330,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.66 (-0.27% / -0.5% / -2.46%) [2026-07-21]
 - IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
 - GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
-- ^VIX: 17.05 (-8.58% / 3.33% / -1.33%) [2026-07-21]
-- BTC-USD: 65882.59 (-0.94% / 3.1% / 7.15%) [2026-07-22]
+- ^VIX: 17.47 (2.46% / 11.49% / -10.36%) [2026-07-22]
+- BTC-USD: 65829.11 (-1.02% / 3.02% / 7.06%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,20 +346,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (2), earnings (2), merger (1)
+**Temas dominantes**: merger (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TDG] A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors (2026-07-22)
-- [CRWD] Is CrowdStrike Holdings ( CRWD ) Cheap On Its Schwarz Digits Partnership And Pullback ? (2026-07-22)
-- [CRWD] CrowdStrike warns of malware targeting AI coding tools (2026-07-22)
-- [ANGO] AngioDynamics ( ANGO ) Q4 2026 Earnings Call Transcript (2026-07-21)
-- [ANGO] Zacks Research Downgrades AngioDynamics ( NASDAQ : ANGO ) to Strong Sell (2026-07-18)
-- [ANGO] AngioDynamics ( NASDAQ : ANGO ) Downgraded by Zacks Research to  Strong Sell (2026-07-18)
 - [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
-- [ANGO] AngioDynamics ( NASDAQ : ANGO ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 04 EPS (2026-07-16)
-- [ANGO] Biotech Stocks At 52 - Week Highs - CPIX , MRVI , ANGO , ACHC , TDOC (2026-07-16)
-- [ANGO] AngioDynamics ( NASDAQ : ANGO ) Given New $19 . 00 Price Target at HC Wainwright (2026-07-15)
+- [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
+- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
+- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +368,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $58,905 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $53,847 · win rate 92% · categorias: sports
-- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $7,958 · win rate 96% · categorias: sports, crypto
-- Themsnw · PnL $46,636 · win rate 83% · categorias: sports, politics
-- Kosherlocks · PnL $10,733 · win rate 93% · categorias: sports, crypto
+- Sassy-Bucket · PnL $57,901 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $53,818 · win rate 92% · categorias: sports
+- Themsnw · PnL $53,627 · win rate 83% · categorias: sports, politics
+- Kosherlocks · PnL $12,205 · win rate 93% · categorias: sports, crypto
+- ROBBATTISTAFANDUELRETARD · PnL $26,331 · win rate 84% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
