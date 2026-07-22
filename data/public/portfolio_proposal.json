@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-22T20:48:55+00:00",
+  "generated_at": "2026-07-22T22:32:45+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "BEP": 0.0784,
+    "LLY": 0.0651,
     "IEF": 0.0622,
-    "LLY": 0.0533,
-    "ENR": 0.0447,
-    "CAG": 0.0441,
-    "UBER": 0.0418,
-    "TSM": 0.0291,
-    "VOR": 0.0189,
-    "QNT": 0.0152,
-    "BFLY": 0.0091
+    "PAG": 0.0615,
+    "ERII": 0.0523,
+    "UBER": 0.0512,
+    "INSM": 0.039,
+    "INTC": 0.0215,
+    "QNT": 0.0186,
+    "BFLY": 0.011,
+    "AGEN": 0.0082,
+    "NVVE": 0.0061
   },
   "core": {
     "SPY": 0.1934,
@@ -28,84 +29,93 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ENR": 0.0397,
-    "TSM": 0.0259,
-    "BFLY": 0.0081,
-    "QNT": 0.0135,
-    "VOR": 0.0168,
-    "UBER": 0.0372,
-    "CAG": 0.0392,
-    "LLY": 0.0474,
-    "BEP": 0.0697
+    "PAG": 0.0547,
+    "NVVE": 0.0054,
+    "AGEN": 0.0073,
+    "BFLY": 0.0098,
+    "ERII": 0.0465,
+    "INSM": 0.0347,
+    "QNT": 0.0165,
+    "INTC": 0.0191,
+    "UBER": 0.0455,
+    "LLY": 0.0579
   },
   "satellite_rationale": [
     {
-      "ticker": "ENR",
-      "score": 307.7,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "TSM",
-      "score": 282.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "BFLY",
-      "score": 142.0,
+      "ticker": "PAG",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "QNT",
-      "score": 73.0,
+      "ticker": "NVVE",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "AGEN",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "BFLY",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "ERII",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "VOR",
-      "score": 70.2,
+      "ticker": "INSM",
+      "score": 71.8,
       "sources": [
         "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "QNT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "INTC",
+      "score": 70.7,
+      "sources": [
+        "congress"
       ],
       "n_signals": 1
     },
     {
       "ticker": "UBER",
-      "score": 68.5,
+      "score": 67.2,
       "sources": [
         "congress"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CAG",
-      "score": 64.0,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 1
     },
     {
       "ticker": "LLY",
-      "score": 63.5,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "BEP",
-      "score": 58.5,
+      "score": 62.2,
       "sources": [
         "congress"
       ],
@@ -113,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1299,
-    "var_95_1d": 0.0122,
-    "cvar_95_1d": 0.0159,
-    "max_drawdown": -0.0317,
-    "beta_spy": 0.659,
-    "hhi": 0.072,
+    "ann_vol": 0.1532,
+    "var_95_1d": 0.0123,
+    "cvar_95_1d": 0.021,
+    "max_drawdown": -0.0214,
+    "beta_spy": 0.823,
+    "hhi": 0.0717,
     "max_position": 0.12,
-    "n_positions": 14,
+    "n_positions": 15,
     "effective_positions": 13.9,
-    "gross_exposure": 0.8501,
+    "gross_exposure": 0.85,
     "days_used": 31
   },
   "risk_gate": {
