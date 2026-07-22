@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T12:20:40+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-22T14:37:38+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.69)
-- Tendencia: `bull` (SPY 748.28 · MA50 743.81 · MA200 694.27 · dist MA200: 7.78%)
+- Volatilidad: `normal` (VIX 16.96)
+- Tendencia: `bull` (SPY 747.34 · MA50 744.04 · MA200 694.69 · dist MA200: 7.58%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.63%
@@ -22,20 +22,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 748.28 | 0.83% | -0.47% | 0.52% |
-| QQQ | 12.0% | core | 708.97 | 1.85% | -1.49% | -3.93% |
-| TLT | 12.0% | core | 83.66 | -0.27% | -0.5% | -2.46% |
-| GLD | 9.3% | core | 374.81 | 1.96% | 0.71% | -2.54% |
-| BEP | 7.8% | satellite | 32.18 | 0.41% | 0.22% | -9.96% |
-| IEF | 6.2% | core | 93.31 | -0.25% | -0.26% | -0.41% |
-| LLY | 5.3% | satellite | 1175.41 | 2.49% | 1.98% | 6.65% |
-| ENR | 4.5% | satellite | 20.08 | -1.33% | -1.62% | -4.79% |
-| CAG | 4.4% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
-| UBER | 4.2% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
-| TSM | 2.9% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
-| VOR | 1.9% | satellite | 20.05 | 14.9% | 8.38% | 34.2% |
-| QNT | 1.5% | satellite | 58.58 | 2.14% | -12.08% | -14.19% |
-| BFLY | 0.9% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
+| SPY | 12.0% | core | 747.34 | -0.13% | -0.99% | 1.88% |
+| QQQ | 12.0% | core | 707.25 | -0.24% | -1.46% | -0.9% |
+| TLT | 12.0% | core | 83.53 | -0.16% | -0.84% | -2.74% |
+| GLD | 9.3% | core | 380.77 | 1.59% | 2.26% | 0.91% |
+| BEP | 7.8% | satellite | 32.4 | 0.67% | -0.38% | -8.59% |
+| IEF | 6.2% | core | 93.11 | -0.21% | -0.71% | -0.75% |
+| LLY | 5.3% | satellite | 1160.64 | -1.26% | 0.35% | 4.84% |
+| ENR | 4.5% | satellite | 20.49 | 2.04% | -0.97% | -5.09% |
+| CAG | 4.4% | satellite | 15.1 | 1.68% | 7.17% | 12.43% |
+| UBER | 4.2% | satellite | 70.35 | -1.68% | -3.19% | 0.98% |
+| TSM | 2.9% | satellite | 422.1 | -0.59% | 0.62% | -3.27% |
+| VOR | 1.9% | satellite | 19.12 | -4.64% | 5.75% | 28.75% |
+| QNT | 1.5% | satellite | 58.01 | -0.97% | -4.13% | -25.11% |
+| BFLY | 0.9% | satellite | 6.39 | -6.23% | -12.4% | -16.62% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -70,13 +70,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
 | CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $11,168 | cluster_buy,small_amount |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| PAG | 70 | large_holder | Penske Corporation |  | - | - |
 | PAG | 70 | large_holder | Mitsui & Co., Ltd. |  | - | - |
 | FLYW | 70 | large_holder | Temasek Holdings (Private |  | - | - |
+| TTE | 70 | large_holder | AMUNDI |  | - | - |
+| ERII | 70 | large_holder | AMUNDI |  | - | - |
+| CWT | 70 | large_holder | AMUNDI |  | - | - |
 | ZSTK | 70 | large_holder | Reis-Faria Daniel |  | - | - |
-| ZSTK | 70 | large_holder | Vaiman Dany |  | - | - |
-| ZSTK | 70 | large_holder | Heinrich Michael |  | - | - |
-| IPW | 70 | large_holder | Sherman Dror Moshe |  | - | - |
-| RTB | 70 | large_holder | Dorsett Jason Christopher |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -98,15 +98,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 748.28 (0.83% / -0.47% / 0.52%) [2026-07-21]
-- QQQ: 708.97 (1.85% / -1.49% / -3.93%) [2026-07-21]
-- IWM: 296.54 (1.45% / 0.69% / -0.55%) [2026-07-21]
-- DIA: 521.51 (0.69% / -0.58% / 0.89%) [2026-07-21]
-- TLT: 83.66 (-0.27% / -0.5% / -2.46%) [2026-07-21]
-- IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
-- GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
-- ^VIX: 17.69 (3.75% / 12.89% / -9.24%) [2026-07-22]
-- BTC-USD: 65813.76 (-1.04% / 3.0% / 7.04%) [2026-07-22]
+- SPY: 747.34 (-0.13% / -0.99% / 1.88%) [2026-07-22]
+- QQQ: 707.25 (-0.24% / -1.46% / -0.9%) [2026-07-22]
+- IWM: 294.89 (-0.55% / -0.3% / -0.14%) [2026-07-22]
+- DIA: 522.15 (0.12% / -0.69% / 1.1%) [2026-07-22]
+- TLT: 83.53 (-0.16% / -0.84% / -2.74%) [2026-07-22]
+- IEF: 93.11 (-0.21% / -0.71% / -0.75%) [2026-07-22]
+- GLD: 380.77 (1.59% / 2.26% / 0.91%) [2026-07-22]
+- ^VIX: 16.96 (-0.53% / 8.23% / -12.98%) [2026-07-22]
+- BTC-USD: 65810.13 (-1.05% / 2.99% / 7.03%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -114,24 +114,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.6 (delta 1m: 0.11) [2026-07-20]
 - Curva 10Y-2Y: 0.37 (delta 1m: 0.1) [2026-07-21]
 - Fed Funds Rate: 3.63 (delta 1m: -1.5) [2026-06-01]
-- High yield spread (OAS): 2.69 (delta 1m: 0.03) [2026-07-20]
+- High yield spread (OAS): 2.69 (delta 1m: 0.04) [2026-07-21]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.26 (delta 1m: 0.01) [2026-07-21]
 - Dolar broad index: 120.5315 (delta 1m: 1.275) [2026-07-17]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), merger (1), stock (1)
+**Temas dominantes**: stock (5), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike and Cerebras Partner to Power AI Detection and Response on the World Fastest Inference (2026-07-22)
 - [TDG] A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors (2026-07-22)
 - [CRWD] Is CrowdStrike Holdings ( CRWD ) Cheap On Its Schwarz Digits Partnership And Pullback ? (2026-07-22)
 - [CRWD] CrowdStrike warns of malware targeting AI coding tools (2026-07-22)
+- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
+- [CAG] SteelPeak Wealth LLC Makes New Investment in Conagra Brands $CAG (2026-07-19)
+- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
 - [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
 - [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
-- [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
-- [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
+- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $58,168 · win rate 93% · categorias: sports
-- 111111111115 · PnL $36,303 · win rate 95% · categorias: sports
-- monkeymashingkeyboard · PnL $53,880 · win rate 92% · categorias: sports
-- esportGG · PnL $23,098 · win rate 94% · categorias: sports
-- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $11,439 · win rate 96% · categorias: sports, crypto
+- 111111111115 · PnL $108,517 · win rate 95% · categorias: sports
+- esportGG · PnL $65,583 · win rate 94% · categorias: sports
+- Sassy-Bucket · PnL $59,041 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $52,388 · win rate 92% · categorias: sports
+- Themsnw · PnL $49,935 · win rate 83% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -158,7 +161,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-07-21
+- **sec_insiders**: `ok` · 676 registros 30d · ultimo dato 2026-07-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
