@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-21T23:28:29+00:00 -->
+<!-- trader_prompt.md generado 2026-07-22T00:24:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-21T23:28:29+00:00 · ventana señales 2026-06-21 -> 2026-07-21_
+_Generado 2026-07-22T00:24:27+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -274,8 +274,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - **ENR** · score agregado 307.7 · 5 señales · fuentes: corporate_insider
 - **TSM** · score agregado 169.2 · 3 señales · fuentes: corporate_insider
+- **BFLY** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **VOR** · score agregado 70.2 · 1 señales · fuentes: large_holder
-- **BFLY** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **UBER** · score agregado 68.5 · 1 señales · fuentes: congress
 - **CAG** · score agregado 64.0 · 1 señales · fuentes: corporate_insider
 - **LLY** · score agregado 63.5 · 1 señales · fuentes: congress
@@ -291,6 +291,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ANIX | 73 | corporate_insider | KUMAR AMIT | 2 | $17,300 | cluster_buy,small_amount |
 | CHCO | 72 | corporate_insider | STRONG-TREISTER DIANE W | 4 | $14,800 | cluster_buy,small_amount |
 | CHCO | 72 | corporate_insider | Hoyer James A | 4 | $12,782 | cluster_buy,small_amount |
+| BFLY | 72 | large_holder | Rothberg Jonathan M. |  | - | - |
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
 | QNT | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $11,168 | cluster_buy,small_amount |
@@ -301,7 +302,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ZSTK | 70 | large_holder | Heinrich Michael |  | - | - |
 | IPW | 70 | large_holder | Sherman Dror Moshe |  | - | - |
 | RTB | 70 | large_holder | Dorsett Jason Christopher |  | - | - |
-| MANU | 70 | large_holder | Boldhaven Management LLP |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
 - GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
 - ^VIX: 17.05 (-8.58% / 3.33% / -1.33%) [2026-07-21]
-- BTC-USD: 66322.04 (1.67% / 3.97% / 10.53%) [2026-07-21]
+- BTC-USD: 66604.52 (2.11% / 4.41% / 11.0%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,14 +346,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), regulatory (1)
+**Temas dominantes**: stock (5), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
-- [CAG] SteelPeak Wealth LLC Makes New Investment in Conagra Brands $CAG (2026-07-19)
-- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
+- [UBER] Blink Charging ( BLNK ) Stock Trades Up , Here Is Why (2026-07-21)
+- [UBER] Rocket Lab Stock Rises After the Bell : Here Why - Rocket Lab ( NASDAQ : RKLB ) (2026-07-21)
+- [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
 - [NFBK] Northfield Bancorp ( NASDAQ : NFBK ) Sets New 1 - Year High – Should You Buy ? (2026-07-17)
+- [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
+- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-15)
+- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-15)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
 - [MPLT] Research Analyst Recent Ratings Changes for Maplight Therapeutics ( MPLT ) (2026-07-09)
 
@@ -362,16 +365,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Officer Sutherland Vanessa Allen vendio PSX por $7.4B el 2026-07-21.
 - 10% owner ABRY Partners VII, L.P. vendio KORE por $44.9M el 2026-07-21.
 - CEO Clark Kevin Cronin vendio CCRN por $12.6M el 2026-07-21.
+- 10% owner ROTHBERG JONATHAN M vendio BFLY por $7.8M el 2026-07-20 [senal en multiples fuentes].
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
-- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $219,419 · win rate 93% · categorias: sports
-- 111111111115 · PnL $132,816 · win rate 95% · categorias: sports
+- Sassy-Bucket · PnL $228,511 · win rate 93% · categorias: sports
+- 111111111115 · PnL $138,748 · win rate 95% · categorias: sports
 - Kingdmandan · PnL $26,728 · win rate 97% · categorias: sports
 - QuentinChen · PnL $30,494 · win rate 96% · categorias: sports
 - sbimbg · PnL $26,704 · win rate 94% · categorias: sports, crypto
@@ -381,8 +384,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 75 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 652 registros 30d · ultimo dato 2026-07-21
+- **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
+- **sec_insiders**: `ok` · 661 registros 30d · ultimo dato 2026-07-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
