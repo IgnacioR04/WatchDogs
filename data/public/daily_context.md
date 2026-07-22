@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T17:03:00+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-22T18:48:46+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.81)
-- Tendencia: `bull` (SPY 749.84 · MA50 744.09 · MA200 694.7 · dist MA200: 7.94%)
+- Volatilidad: `normal` (VIX 17.0)
+- Tendencia: `bull` (SPY 748.36 · MA50 744.06 · MA200 694.7 · dist MA200: 7.72%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.63%
@@ -22,20 +22,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 749.84 | 0.21% | -0.66% | 2.22% |
-| QQQ | 12.0% | core | 709.07 | 0.01% | -1.21% | -0.64% |
-| TLT | 12.0% | core | 83.59 | -0.08% | -0.77% | -2.67% |
-| GLD | 9.3% | core | 380.28 | 1.46% | 2.13% | 0.78% |
-| BEP | 7.8% | satellite | 32.69 | 1.6% | 0.54% | -7.75% |
-| IEF | 6.2% | core | 93.2 | -0.12% | -0.62% | -0.65% |
-| LLY | 5.3% | satellite | 1163.29 | -1.03% | 0.58% | 5.08% |
-| ENR | 4.5% | satellite | 20.95 | 4.36% | 1.28% | -2.94% |
-| CAG | 4.4% | satellite | 14.9 | 0.3% | 5.71% | 10.91% |
-| UBER | 4.2% | satellite | 70.79 | -1.06% | -2.59% | 1.61% |
-| TSM | 2.9% | satellite | 422.37 | -0.53% | 0.69% | -3.21% |
-| VOR | 1.9% | satellite | 19.04 | -5.04% | 5.31% | 28.22% |
-| QNT | 1.5% | satellite | 55.99 | -4.43% | -7.48% | -27.72% |
-| BFLY | 0.9% | satellite | 6.41 | -5.94% | -12.12% | -16.36% |
+| SPY | 12.0% | core | 748.36 | 0.01% | -0.85% | 2.01% |
+| QQQ | 12.0% | core | 707.25 | -0.24% | -1.46% | -0.9% |
+| TLT | 12.0% | core | 83.5 | -0.19% | -0.88% | -2.77% |
+| GLD | 9.3% | core | 379.59 | 1.28% | 1.94% | 0.6% |
+| BEP | 7.8% | satellite | 32.39 | 0.65% | -0.4% | -8.61% |
+| IEF | 6.2% | core | 93.16 | -0.16% | -0.66% | -0.69% |
+| LLY | 5.3% | satellite | 1159.91 | -1.32% | 0.28% | 4.77% |
+| ENR | 4.5% | satellite | 20.72 | 3.19% | 0.14% | -4.03% |
+| CAG | 4.4% | satellite | 14.77 | -0.55% | 4.82% | 9.97% |
+| UBER | 4.2% | satellite | 70.5 | -1.47% | -2.99% | 1.19% |
+| TSM | 2.9% | satellite | 422.09 | -0.59% | 0.62% | -3.28% |
+| VOR | 1.9% | satellite | 19.1 | -4.74% | 5.64% | 28.62% |
+| QNT | 1.5% | satellite | 54.03 | -7.77% | -10.71% | -30.25% |
+| BFLY | 0.9% | satellite | 6.49 | -4.91% | -11.16% | -15.45% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -66,17 +66,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QNT | 73 | large_holder | BlackRock Portfolio Manag |  | - | - |
 | CHCO | 72 | corporate_insider | STRONG-TREISTER DIANE W | 4 | $14,800 | cluster_buy,small_amount |
 | CHCO | 72 | corporate_insider | Hoyer James A | 4 | $12,782 | cluster_buy,small_amount |
+| INSM | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
 | BFLY | 72 | large_holder | Rothberg Jonathan M. |  | - | - |
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
 | CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $11,168 | cluster_buy,small_amount |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| PAG | 70 | large_holder | Penske Corporation |  | - | - |
-| PAG | 70 | large_holder | Mitsui & Co., Ltd. |  | - | - |
 | NCO | 70 | large_holder | Space Summit Capital LLC |  | - | - |
 | NVVE | 70 | large_holder | RainForest Partners, LLC |  | - | - |
 | FLYW | 70 | large_holder | Temasek Holdings (Private |  | - | - |
 | TTE | 70 | large_holder | AMUNDI |  | - | - |
 | ERII | 70 | large_holder | AMUNDI |  | - | - |
+| CWT | 70 | large_holder | AMUNDI |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -98,15 +98,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 749.84 (0.21% / -0.66% / 2.22%) [2026-07-22]
-- QQQ: 709.07 (0.01% / -1.21% / -0.64%) [2026-07-22]
-- IWM: 294.63 (-0.65% / -0.39% / -0.23%) [2026-07-22]
-- DIA: 523.27 (0.34% / -0.48% / 1.32%) [2026-07-22]
-- TLT: 83.59 (-0.08% / -0.77% / -2.67%) [2026-07-22]
-- IEF: 93.2 (-0.12% / -0.62% / -0.65%) [2026-07-22]
-- GLD: 380.28 (1.46% / 2.13% / 0.78%) [2026-07-22]
-- ^VIX: 16.81 (-1.41% / 7.28% / -13.75%) [2026-07-22]
-- BTC-USD: 66195.02 (-0.47% / 3.59% / 7.66%) [2026-07-22]
+- SPY: 748.36 (0.01% / -0.85% / 2.01%) [2026-07-22]
+- QQQ: 707.25 (-0.24% / -1.46% / -0.9%) [2026-07-22]
+- IWM: 294.11 (-0.82% / -0.56% / -0.41%) [2026-07-22]
+- DIA: 522.08 (0.11% / -0.71% / 1.09%) [2026-07-22]
+- TLT: 83.5 (-0.19% / -0.88% / -2.77%) [2026-07-22]
+- IEF: 93.16 (-0.16% / -0.66% / -0.69%) [2026-07-22]
+- GLD: 379.59 (1.28% / 1.94% / 0.6%) [2026-07-22]
+- ^VIX: 17.0 (-0.29% / 8.49% / -12.78%) [2026-07-22]
+- BTC-USD: 65801.83 (-1.06% / 2.98% / 7.02%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,10 +121,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (4), earnings (2), merger (1)
+**Temas dominantes**: stock (7), ai (4), earnings (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [UBER] FinancialContent - AsiaStrategy - Ordinary Shares ( Nasdaq : SORA ) Stock Quote (2026-07-22)
 - [CRWD] Jim Cramer Calls AI Cyberattacks a  Watershed Moment  for CrowdStrike (2026-07-22)
 - [CRWD] Homesite seeks to dodge United Airline CrowdStrike outage claim (2026-07-22)
 - [CRWD] CrowdStrike and Cerebras Partner to Power AI Detection and Response on the World Fastest Inference (2026-07-22)
@@ -134,7 +135,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [ANGO] Zacks Research Downgrades AngioDynamics ( NASDAQ : ANGO ) to Strong Sell (2026-07-18)
 - [ANGO] AngioDynamics ( NASDAQ : ANGO ) Downgraded by Zacks Research to  Strong Sell (2026-07-18)
 - [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
-- [ANGO] AngioDynamics ( NASDAQ : ANGO ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 04 EPS (2026-07-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $65,865 · win rate 94% · categorias: sports
-- Sassy-Bucket · PnL $61,039 · win rate 93% · categorias: sports
-- 111111111115 · PnL $30,855 · win rate 95% · categorias: sports
-- monkeymashingkeyboard · PnL $52,729 · win rate 92% · categorias: sports
-- JnStTrdrBnusFnd · PnL $23,255 · win rate 91% · categorias: crypto
+- 111111111115 · PnL $83,493 · win rate 95% · categorias: sports
+- Sassy-Bucket · PnL $78,714 · win rate 93% · categorias: sports
+- esportGG · PnL $55,402 · win rate 94% · categorias: sports
+- monkeymashingkeyboard · PnL $72,272 · win rate 92% · categorias: sports
+- JnStTrdrBnusFnd · PnL $41,192 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -161,7 +161,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 660 registros 30d · ultimo dato 2026-07-21
+- **sec_insiders**: `ok` · 656 registros 30d · ultimo dato 2026-07-22
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
