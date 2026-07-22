@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T09:55:14+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-22T12:20:40+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.47)
+- Volatilidad: `normal` (VIX 17.69)
 - Tendencia: `bull` (SPY 748.28 · MA50 743.81 · MA200 694.27 · dist MA200: 7.78%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -26,29 +26,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 708.97 | 1.85% | -1.49% | -3.93% |
 | TLT | 12.0% | core | 83.66 | -0.27% | -0.5% | -2.46% |
 | GLD | 9.3% | core | 374.81 | 1.96% | 0.71% | -2.54% |
-| BEP | 8.3% | satellite | 32.18 | 0.41% | 0.22% | -9.96% |
+| BEP | 7.8% | satellite | 32.18 | 0.41% | 0.22% | -9.96% |
 | IEF | 6.2% | core | 93.31 | -0.25% | -0.26% | -0.41% |
-| LLY | 5.7% | satellite | 1175.41 | 2.49% | 1.98% | 6.65% |
-| ENR | 4.7% | satellite | 20.08 | -1.33% | -1.62% | -4.79% |
-| CAG | 4.7% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
-| UBER | 4.4% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
-| TSM | 3.1% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
-| QNT | 1.6% | satellite | 58.58 | 2.14% | -12.08% | -14.19% |
-| BFLY | 1.0% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
+| LLY | 5.3% | satellite | 1175.41 | 2.49% | 1.98% | 6.65% |
+| ENR | 4.5% | satellite | 20.08 | -1.33% | -1.62% | -4.79% |
+| CAG | 4.4% | satellite | 14.85 | 1.43% | 4.95% | 15.56% |
+| UBER | 4.2% | satellite | 71.55 | -0.86% | -0.74% | 0.17% |
+| TSM | 2.9% | satellite | 424.61 | 5.55% | 1.0% | -9.21% |
+| VOR | 1.9% | satellite | 20.05 | 14.9% | 8.38% | 34.2% |
+| QNT | 1.5% | satellite | 58.58 | 2.14% | -12.08% | -14.19% |
+| BFLY | 0.9% | satellite | 6.82 | 1.94% | -12.0% | -6.19% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.7%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
+- Volatilidad anualizada: 13.0%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.6%
 - Max drawdown historico: -3.2%
-- Beta vs SPY: 0.634 · posiciones efectivas: 13.6 · HHI: 0.0736
+- Beta vs SPY: 0.659 · posiciones efectivas: 13.9 · HHI: 0.072
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **ENR** · score agregado 307.7 · 5 señales · fuentes: corporate_insider
-- **TSM** · score agregado 169.2 · 3 señales · fuentes: corporate_insider
+- **TSM** · score agregado 282.0 · 5 señales · fuentes: corporate_insider
 - **BFLY** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **QNT** · score agregado 73.0 · 1 señales · fuentes: large_holder
+- **VOR** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **UBER** · score agregado 68.5 · 1 señales · fuentes: congress
 - **CAG** · score agregado 64.0 · 1 señales · fuentes: corporate_insider
 - **LLY** · score agregado 63.5 · 1 señales · fuentes: congress
@@ -68,13 +70,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HCAT | 72 | large_holder | Impax Asset Management Gr |  | - | - |
 | CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $11,168 | cluster_buy,small_amount |
 | INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
+| PAG | 70 | large_holder | Mitsui & Co., Ltd. |  | - | - |
+| FLYW | 70 | large_holder | Temasek Holdings (Private |  | - | - |
 | ZSTK | 70 | large_holder | Reis-Faria Daniel |  | - | - |
 | ZSTK | 70 | large_holder | Vaiman Dany |  | - | - |
 | ZSTK | 70 | large_holder | Heinrich Michael |  | - | - |
 | IPW | 70 | large_holder | Sherman Dror Moshe |  | - | - |
 | RTB | 70 | large_holder | Dorsett Jason Christopher |  | - | - |
-| MANU | 70 | large_holder | Boldhaven Management LLP |  | - | - |
-| GXO | 70 | large_holder | Spruce House Investment M |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -103,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.66 (-0.27% / -0.5% / -2.46%) [2026-07-21]
 - IEF: 93.31 (-0.25% / -0.26% / -0.41%) [2026-07-21]
 - GLD: 374.81 (1.96% / 0.71% / -2.54%) [2026-07-21]
-- ^VIX: 17.47 (2.46% / 11.49% / -10.36%) [2026-07-22]
-- BTC-USD: 65829.11 (-1.02% / 3.02% / 7.06%) [2026-07-22]
+- ^VIX: 17.69 (3.75% / 12.89% / -9.24%) [2026-07-22]
+- BTC-USD: 65813.76 (-1.04% / 3.0% / 7.04%) [2026-07-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,10 +121,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1), stock (1)
+**Temas dominantes**: ai (1), merger (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TDG] A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors (2026-07-22)
+- [CRWD] Is CrowdStrike Holdings ( CRWD ) Cheap On Its Schwarz Digits Partnership And Pullback ? (2026-07-22)
+- [CRWD] CrowdStrike warns of malware targeting AI coding tools (2026-07-22)
 - [CCRN] Cross Country Healthcare Clears Key Hurdle as Stockholders Approve Merger (2026-07-17)
 - [CCRN] $HAREHOLDER ALERT : The M & A Class Action Firm Encourages $hareholders to Act Before the Vote -- CCRN , EQH , AXTA , and CZNL (2026-07-15)
 - [MPLT] Maplight Therapeutics ( NASDAQ : MPLT ) Sets New 1 - Year High – Time to Buy ? (2026-07-10)
@@ -141,11 +146,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Sassy-Bucket · PnL $57,901 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $53,818 · win rate 92% · categorias: sports
-- Themsnw · PnL $53,627 · win rate 83% · categorias: sports, politics
-- Kosherlocks · PnL $12,205 · win rate 93% · categorias: sports, crypto
-- ROBBATTISTAFANDUELRETARD · PnL $26,331 · win rate 84% · categorias: sports, crypto
+- Sassy-Bucket · PnL $58,168 · win rate 93% · categorias: sports
+- 111111111115 · PnL $36,303 · win rate 95% · categorias: sports
+- monkeymashingkeyboard · PnL $53,880 · win rate 92% · categorias: sports
+- esportGG · PnL $23,098 · win rate 94% · categorias: sports
+- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $11,439 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,8 +158,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-07-21
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-21
+- **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-07-21
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -166,7 +171,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, ENR, GLD, IEF, LLY, QNT, QQQ, SPY, TLT, TSM, UBER`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, ENR, GLD, IEF, LLY, QNT, QQQ, SPY, TLT, TSM, UBER, VOR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

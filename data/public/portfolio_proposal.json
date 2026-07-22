@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T09:55:13+00:00",
+  "generated_at": "2026-07-22T12:20:39+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -9,15 +9,16 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "BEP": 0.0831,
+    "BEP": 0.0784,
     "IEF": 0.0622,
-    "LLY": 0.0565,
-    "ENR": 0.0474,
-    "CAG": 0.0467,
-    "UBER": 0.0443,
-    "TSM": 0.0309,
-    "QNT": 0.0161,
-    "BFLY": 0.0096
+    "LLY": 0.0533,
+    "ENR": 0.0447,
+    "CAG": 0.0441,
+    "UBER": 0.0418,
+    "TSM": 0.0291,
+    "VOR": 0.0189,
+    "QNT": 0.0152,
+    "BFLY": 0.0091
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ENR": 0.0421,
-    "TSM": 0.0275,
-    "BFLY": 0.0085,
-    "QNT": 0.0143,
-    "UBER": 0.0394,
-    "CAG": 0.0415,
-    "LLY": 0.0502,
-    "BEP": 0.0739
+    "ENR": 0.0397,
+    "TSM": 0.0259,
+    "BFLY": 0.0081,
+    "QNT": 0.0135,
+    "VOR": 0.0168,
+    "UBER": 0.0372,
+    "CAG": 0.0392,
+    "LLY": 0.0474,
+    "BEP": 0.0697
   },
   "satellite_rationale": [
     {
@@ -47,11 +49,11 @@
     },
     {
       "ticker": "TSM",
-      "score": 169.2,
+      "score": 282.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 5
     },
     {
       "ticker": "BFLY",
@@ -64,6 +66,14 @@
     {
       "ticker": "QNT",
       "score": 73.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "VOR",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -103,15 +113,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1269,
-    "var_95_1d": 0.0117,
-    "cvar_95_1d": 0.0152,
-    "max_drawdown": -0.032,
-    "beta_spy": 0.634,
-    "hhi": 0.0736,
+    "ann_vol": 0.1299,
+    "var_95_1d": 0.0122,
+    "cvar_95_1d": 0.0159,
+    "max_drawdown": -0.0317,
+    "beta_spy": 0.659,
+    "hhi": 0.072,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.6,
+    "n_positions": 14,
+    "effective_positions": 13.9,
     "gross_exposure": 0.8501,
     "days_used": 31
   },
