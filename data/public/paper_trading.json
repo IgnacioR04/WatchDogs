@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-23T18:56:17+00:00",
+  "generated_at": "2026-07-23T19:59:05+00:00",
   "budget_eur": 100.0,
-  "n_cycles": 11,
+  "n_cycles": 12,
   "cost_model": {
     "per_side": 0.0015,
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
     "n_days": 11,
-    "equity_eur": 99.14,
-    "total_return": -0.0086,
+    "equity_eur": 99.21,
+    "total_return": -0.0079,
     "win_rate_days": 0.4545,
     "best_day": 0.0047,
     "worst_day": -0.0072,
-    "ann_vol": 0.0607,
-    "sharpe": -2.48,
-    "sortino": -3.26,
-    "max_drawdown": -0.0119,
-    "spy_return": -0.0094,
-    "excess_return": 0.0008,
-    "costs_eur": 0.1976,
-    "turnover_total": 1.318
+    "ann_vol": 0.0594,
+    "sharpe": -2.26,
+    "sortino": -2.98,
+    "max_drawdown": -0.0113,
+    "spy_return": -0.0102,
+    "excess_return": 0.0022,
+    "costs_eur": 0.2045,
+    "turnover_total": 1.364
   },
   "equity_curve": [
     {
@@ -31,63 +31,63 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100.33,
+      "equity": 100.32,
       "spy": 101.02,
-      "daily_ret": -2e-05
+      "daily_ret": -8e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.84,
+      "equity": 99.91,
       "spy": 100.5,
-      "daily_ret": -0.00458
+      "daily_ret": -0.00383
     },
     {
       "date": "2026-07-14",
-      "equity": 100.15,
+      "equity": 100.22,
       "spy": 101.04,
       "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 100.04,
+      "equity": 100.11,
       "spy": 101.08,
       "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.33,
+      "equity": 99.39,
       "spy": 100.13,
       "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.25,
+      "equity": 99.32,
       "spy": 99.36,
       "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.25,
+      "equity": 99.32,
       "spy": 99.35,
       "daily_ret": 0.00027
     },
     {
       "date": "2026-07-21",
-      "equity": 99.64,
+      "equity": 99.71,
       "spy": 100.26,
       "daily_ret": 0.00398
     },
     {
       "date": "2026-07-22",
-      "equity": 99.67,
+      "equity": 99.74,
       "spy": 100.27,
       "daily_ret": 0.00023
     },
     {
       "date": "2026-07-23",
-      "equity": 99.14,
-      "spy": 99.06,
-      "daily_ret": -0.00528
+      "equity": 99.21,
+      "spy": 98.98,
+      "daily_ret": -0.00525
     }
   ],
   "positions": {
@@ -95,63 +95,78 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0117,
-      "value_eur": 11.86
+      "ret_since_entry": -0.0122,
+      "value_eur": 11.85
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.03,
-      "value_eur": 11.64
+      "ret_since_entry": -0.031,
+      "value_eur": 11.63
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0146,
-      "value_eur": 11.82
+      "ret_since_entry": -0.014,
+      "value_eur": 11.83
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0087,
-      "value_eur": 9.22
+      "ret_since_entry": -0.0078,
+      "value_eur": 9.23
     },
     "IEF": {
       "weight": 0.053,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0073,
+      "ret_since_entry": -0.0071,
       "value_eur": 5.26
     },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": -0.0134,
+      "value_eur": 4.14
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-10",
+      "ret_since_entry": -0.006,
+      "value_eur": 4.17
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": 0.039,
+      "value_eur": 3.22
     },
     "COE": {
       "weight": 0.025,
       "instrument": "stock",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0515,
+      "ret_since_entry": -0.0503,
       "value_eur": 2.37
     },
-    "MOMO": {
+    "CLBK": {
       "weight": 0.023,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-23",
+      "ret_since_entry": 0.0041,
+      "value_eur": 2.31
     }
   },
   "cycles": [
@@ -286,6 +301,18 @@
       "thesis": "El presupuesto de riesgo del regimen risk_on bajo a 70% este ciclo (la cartera actual estaba en 88%), asi que el primer paso es recortar exposicion hacia cash. Mantenemos el nucleo SPY/QQQ/TLT/GLD porque sigue presente en la cartera candidata de esta semana, reducimos IEF al peso que marca el propio modelo (9.8%->5.3%) y eliminamos VFLEX y EPAM, que ya no tienen respaldo de senal ni aparecen en la cartera candidata. Los demas satelites (LION, AVO, PSBD, NTSK, COE, MOMO) se mantienen porque ninguna senal de venta de este ciclo les afecta directamente, y COE tiene ademas una compra reciente de insider (CEO, 2026-07-13, $3.7M). No anadimos los nuevos satelites candidatos (BEP, PNTG) para minimizar rotacion en un ciclo que ya es de recorte forzado.",
       "confidence": 0.65,
       "n_adjustments": 3
+    },
+    {
+      "cycle": 12,
+      "approved_at": "2026-07-23T19:58:48+00:00",
+      "n_positions": 11,
+      "invested": 0.7,
+      "turnover": 0.046,
+      "cost_pct": 7e-05,
+      "verdict_llm": "adjust",
+      "thesis": "Mantengo la estructura core-satelite y la exposicion total (70%) practicamente intacta porque el regimen sigue risk_on con el mismo presupuesto que el ciclo anterior y ninguna posicion abierta tiene señal de venta clara. Unico movimiento: roto MOMO (sin datos ni señal este ciclo, posicion mas pequeña) hacia CLBK, que presenta la señal de convicción cruzada mas fuerte del briefing (25 insiders distintos en cluster buy, score 1950.9). El resto de satelites legacy (LION, AVO, PSBD, NTSK, COE) se mantienen por defecto al no haber evidencia de ruptura de tesis; COE ademas tiene compras recientes de su CEO reportadas en noticias (~$5.2M en tres operaciones) que refuerzan mantenerla.",
+      "confidence": 0.6,
+      "n_adjustments": 2
     }
   ]
 }

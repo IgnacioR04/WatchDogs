@@ -1,31 +1,25 @@
 {
-  "generated_at": "2026-07-20T21:17:29+00:00",
+  "generated_at": "2026-07-23T19:58:48+00:00",
   "verdict_llm": "adjust",
-  "thesis": "El presupuesto de riesgo del regimen risk_on bajo a 70% este ciclo (la cartera actual estaba en 88%), asi que el primer paso es recortar exposicion hacia cash. Mantenemos el nucleo SPY/QQQ/TLT/GLD porque sigue presente en la cartera candidata de esta semana, reducimos IEF al peso que marca el propio modelo (9.8%->5.3%) y eliminamos VFLEX y EPAM, que ya no tienen respaldo de senal ni aparecen en la cartera candidata. Los demas satelites (LION, AVO, PSBD, NTSK, COE, MOMO) se mantienen porque ninguna senal de venta de este ciclo les afecta directamente, y COE tiene ademas una compra reciente de insider (CEO, 2026-07-13, $3.7M). No anadimos los nuevos satelites candidatos (BEP, PNTG) para minimizar rotacion en un ciclo que ya es de recorte forzado.",
+  "thesis": "Mantengo la estructura core-satelite y la exposicion total (70%) practicamente intacta porque el regimen sigue risk_on con el mismo presupuesto que el ciclo anterior y ninguna posicion abierta tiene señal de venta clara. Unico movimiento: roto MOMO (sin datos ni señal este ciclo, posicion mas pequeña) hacia CLBK, que presenta la señal de convicción cruzada mas fuerte del briefing (25 insiders distintos en cluster buy, score 1950.9). El resto de satelites legacy (LION, AVO, PSBD, NTSK, COE) se mantienen por defecto al no haber evidencia de ruptura de tesis; COE ademas tiene compras recientes de su CEO reportadas en noticias (~$5.2M en tres operaciones) que refuerzan mantenerla.",
   "key_risks": [
-    "El recorte de exposicion (88%->70%) puede perder parte de la subida si el regimen risk_on se mantiene fuerte",
-    "Varios satelites (LION, AVO, PSBD, NTSK, MOMO) llevan varios ciclos sin senal fresca que reconfirme su tesis",
-    "El spread de credito esta tenso (HY OAS 2.73) pese al regimen risk_on, riesgo de deterioro rapido del regimen"
+    "Credito tenso (HY spread 2.68) conviviendo con risk_on: si el spread sigue ampliando el regimen puede virar a neutral/risk_off rapido y obligar a recortar exposicion",
+    "CLBK es una entidad bancaria regional small-cap: mayor volatilidad idiosincratica y menor liquidez que el core del indice",
+    "Los satelites legacy (LION, AVO, PSBD, NTSK) no aparecen en el briefing de este ciclo, por lo que su tesis no es verificable con los datos actuales; se mantienen por sesgo de defecto, no por confirmacion activa"
   ],
-  "confidence": 0.65,
+  "confidence": 0.6,
   "adjustments": [
     {
-      "ticker": "VFLEX",
+      "ticker": "MOMO",
       "action": "remove",
       "target_weight": 0.0,
-      "reason": "No aparece en la cartera candidata ni en las senales de smart money de este ciclo; sin tesis vigente. Se libera capital para cumplir el nuevo presupuesto de riesgo (70% vs 88% actual)."
+      "reason": "Sin ninguna señal ni dato de precio en el briefing de este ciclo; es la posición más pequeña y su tesis original no se ha renovado en 30 dias. Libera hueco para la idea de mayor convicción del ciclo."
     },
     {
-      "ticker": "IEF",
-      "action": "decrease",
-      "target_weight": 0.053,
-      "reason": "La propia cartera candidata baja IEF a 5.4% este ciclo (menor necesidad de duracion); alineamos y contribuye a bajar la exposicion total al presupuesto de 70%."
-    },
-    {
-      "ticker": "EPAM",
-      "action": "remove",
-      "target_weight": 0.0,
-      "reason": "Posicion residual (1.5%) sin senal vigente ni presencia en el briefing; se recorta para cuadrar exactamente al presupuesto de riesgo de 70% del regimen risk_on."
+      "ticker": "CLBK",
+      "action": "add",
+      "target_weight": 0.023,
+      "reason": "Señal de convicción cruzada extrema: 25 insiders distintos comprando en cluster_buy (score agregado 1950.9, ~$3M+ combinados), la mas fuerte de todo el briefing. Precio 10.84 cumple liquidez minima para posicion nueva."
     }
   ],
   "final_weights": {
@@ -39,14 +33,14 @@
     "PSBD": 0.031,
     "NTSK": 0.031,
     "COE": 0.025,
-    "MOMO": 0.023
+    "CLBK": 0.023
   },
   "metrics": {
-    "ann_vol": 0.0888,
-    "var_95_1d": 0.0089,
-    "cvar_95_1d": 0.0129,
-    "max_drawdown": -0.0729,
-    "beta_spy": 0.531,
+    "ann_vol": 0.088,
+    "var_95_1d": 0.0087,
+    "cvar_95_1d": 0.0125,
+    "max_drawdown": -0.0672,
+    "beta_spy": 0.527,
     "hhi": 0.0613,
     "max_position": 0.12,
     "n_positions": 11,
