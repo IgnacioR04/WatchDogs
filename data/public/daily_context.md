@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-23T14:49:09+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
+_Generado 2026-07-23T17:03:43+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.11)
-- Tendencia: `neutral` (SPY 738.95 · MA50 744.07 · MA200 695.07 · dist MA200: 6.31%)
+- Volatilidad: `normal` (VIX 19.32)
+- Tendencia: `neutral` (SPY 738.62 · MA50 744.07 · MA200 695.07 · dist MA200: 6.27%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.36)
 - Fed Funds: 3.63%
@@ -22,19 +22,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 738.95 | -1.13% | -1.57% | 0.78% |
-| QQQ | 9.8% | core | 692.71 | -1.79% | -1.87% | -2.52% |
-| TLT | 9.8% | core | 83.07 | -0.44% | -1.35% | -4.58% |
-| GLD | 7.3% | core | 372.49 | -1.75% | 2.06% | 1.8% |
-| BEP | 5.8% | satellite | 32.4 | 0.62% | 1.89% | -8.27% |
-| IEF | 4.9% | core | 92.82 | -0.31% | -0.97% | -1.7% |
-| CLBK | 4.8% | satellite | 10.86 | -0.69% | 4.15% | 20.42% |
-| NMM | 4.3% | satellite | 74.43 | 1.05% | 0.0% | 4.55% |
-| LLY | 4.1% | satellite | 1182.36 | 1.66% | 1.13% | 5.83% |
-| CAG | 3.2% | satellite | 14.56 | -1.79% | 0.66% | 7.02% |
-| TSM | 2.2% | satellite | 417.13 | -0.97% | 1.8% | -5.38% |
-| QNT | 1.1% | satellite | 56.6 | 3.13% | 0.13% | -20.4% |
-| BFLY | 0.7% | satellite | 6.41 | -3.1% | -8.63% | -17.57% |
+| SPY | 12.0% | core | 738.62 | -1.18% | -1.61% | 0.73% |
+| QQQ | 9.8% | core | 692.76 | -1.78% | -1.87% | -2.51% |
+| TLT | 9.8% | core | 83.12 | -0.38% | -1.29% | -4.52% |
+| GLD | 7.3% | core | 371.7 | -1.96% | 1.85% | 1.58% |
+| BEP | 5.8% | satellite | 32.91 | 2.2% | 3.49% | -6.82% |
+| IEF | 4.9% | core | 92.85 | -0.27% | -0.93% | -1.67% |
+| CLBK | 4.8% | satellite | 10.84 | -0.96% | 3.86% | 20.09% |
+| NMM | 4.3% | satellite | 75.44 | 2.42% | 1.36% | 5.98% |
+| LLY | 4.1% | satellite | 1180.99 | 1.55% | 1.01% | 5.7% |
+| CAG | 3.2% | satellite | 14.28 | -3.67% | -1.28% | 4.96% |
+| TSM | 2.2% | satellite | 417.87 | -0.79% | 1.98% | -5.21% |
+| QNT | 1.1% | satellite | 56.81 | 3.52% | 0.51% | -20.1% |
+| BFLY | 0.7% | satellite | 6.46 | -2.27% | -7.85% | -16.86% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -96,15 +96,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 738.95 (-1.13% / -1.57% / 0.78%) [2026-07-23]
-- QQQ: 692.71 (-1.79% / -1.87% / -2.52%) [2026-07-23]
-- IWM: 292.09 (-0.58% / -1.18% / -1.55%) [2026-07-23]
-- DIA: 516.77 (-0.9% / -1.51% / -0.31%) [2026-07-23]
-- TLT: 83.07 (-0.44% / -1.35% / -4.58%) [2026-07-23]
-- IEF: 92.82 (-0.31% / -0.97% / -1.7%) [2026-07-23]
-- GLD: 372.49 (-1.75% / 2.06% / 1.8%) [2026-07-23]
-- ^VIX: 19.11 (14.84% / 14.23% / 2.58%) [2026-07-23]
-- BTC-USD: 64912.56 (-1.8% / 0.18% / 3.79%) [2026-07-23]
+- SPY: 738.62 (-1.18% / -1.61% / 0.73%) [2026-07-23]
+- QQQ: 692.76 (-1.78% / -1.87% / -2.51%) [2026-07-23]
+- IWM: 291.69 (-0.71% / -1.32% / -1.69%) [2026-07-23]
+- DIA: 516.8 (-0.9% / -1.5% / -0.3%) [2026-07-23]
+- TLT: 83.12 (-0.38% / -1.29% / -4.52%) [2026-07-23]
+- IEF: 92.85 (-0.27% / -0.93% / -1.67%) [2026-07-23]
+- GLD: 371.7 (-1.96% / 1.85% / 1.58%) [2026-07-23]
+- ^VIX: 19.32 (16.11% / 15.48% / 3.7%) [2026-07-23]
+- BTC-USD: 64735.09 (-2.07% / -0.09% / 3.5%) [2026-07-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,14 +119,16 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1), earnings (1), regulatory (1)
+**Temas dominantes**: stock (3), ai (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike Just Became Wall Street Newest Stock - Split Stock , but Something More  Magnificent  May Be Next (2026-07-23)
 - [CRWV] CoreWeave ( NASDAQ : CRWV ) Upgraded by Robert W . Baird to  Strong - Buy  Rating (2026-07-23)
+- [CRWD] CRWD Short Strangle Could Net $1 , 045 in a Few Weeks (2026-07-22)
+- [CRWD] United Airlines says Homesite alone refused to pay its CrowdStrike claim (2026-07-22)
 - [CAG] Conagra ( CAG ) Q4 2026 Earnings Call Transcript (2026-07-22)
 - [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
-- [ONC] 2026 - 07 - 17 | BeOne Medicines to Announce Second Quarter 2026 Financial Results on August 5 | NDAQ : ONC (2026-07-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,10 +143,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $112,625 · win rate 94% · categorias: sports
-- ExplosiveNinja · PnL $58,264 · win rate 97% · categorias: sports
+- 111111111115 · PnL $81,837 · win rate 95% · categorias: sports
 - kekasaur · PnL $119,683 · win rate 92% · categorias: sports
-- esportGG · PnL $45,194 · win rate 95% · categorias: sports
+- ExplosiveNinja · PnL $47,603 · win rate 97% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $89,488 · win rate 88% · categorias: sports
 - venera1234 · PnL $32,261 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -153,7 +155,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 701 registros 30d · ultimo dato 2026-07-22
+- **sec_insiders**: `ok` · 688 registros 30d · ultimo dato 2026-07-22
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
