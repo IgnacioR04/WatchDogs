@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-22T23:34:24+00:00 · ventana señales 2026-06-22 -> 2026-07-22_
+_Generado 2026-07-23T04:02:25+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -27,25 +27,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 83.44 | -0.26% | -0.95% | -2.84% |
 | BEP | 9.8% | satellite | 32.2 | 0.06% | -0.98% | -9.14% |
 | GLD | 9.3% | core | 379.12 | 1.15% | 1.82% | 0.48% |
-| CAG | 7.9% | satellite | 14.83 | -0.13% | 5.25% | 10.42% |
-| LLY | 7.6% | satellite | 1163.01 | -1.05% | 0.55% | 5.05% |
+| CLBK | 8.1% | satellite | 10.94 | -1.26% | 9.4% | 21.43% |
+| NMM | 7.2% | satellite | 73.66 | -0.86% | -1.77% | 1.56% |
 | IEF | 6.2% | core | 93.1 | -0.23% | -0.73% | -0.76% |
-| ENR | 6.0% | satellite | 20.5 | 2.09% | -0.92% | -5.05% |
-| BFLY | 2.2% | satellite | 6.61 | -3.08% | -9.45% | -13.82% |
+| CAG | 5.4% | satellite | 14.83 | -0.13% | 5.25% | 10.42% |
+| QNT | 1.9% | satellite | 54.88 | -6.32% | -9.3% | -29.15% |
+| BFLY | 1.1% | satellite | 6.61 | -3.08% | -9.45% | -13.82% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.2%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -5.5%
-- Beta vs SPY: 0.635 · posiciones efectivas: 12.3 · HHI: 0.0814
+- Volatilidad anualizada: 10.7%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -2.0%
+- Beta vs SPY: None · posiciones efectivas: 12.4 · HHI: 0.0805
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **ENR** · score agregado 307.7 · 5 señales · fuentes: corporate_insider
+- **CLBK** · score agregado 1950.9 · 25 señales · fuentes: corporate_insider
+- **NMM** · score agregado 174.4 · 3 señales · fuentes: corporate_insider
 - **BFLY** · score agregado 142.0 · 2 señales · fuentes: large_holder
+- **QNT** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **CAG** · score agregado 64.0 · 1 señales · fuentes: corporate_insider
-- **LLY** · score agregado 63.5 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -54,21 +56,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| QNT | 73 | large_holder | BlackRock Portfolio Manag |  | - | - |
-| ERII | 72 | large_holder | AMUNDI |  | - | - |
-| INSM | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
-| BFLY | 72 | large_holder | Rothberg Jonathan M. |  | - | - |
-| INTC | 71 | congress | Nancy Pelosi |  | $5,000,000 | - |
-| PAG | 70 | large_holder | Penske Corporation |  | - | - |
-| PAG | 70 | large_holder | Mitsui & Co., Ltd. |  | - | - |
-| NCO | 70 | large_holder | Space Summit Capital LLC |  | - | - |
-| NVVE | 70 | large_holder | RainForest Partners, LLC |  | - | - |
-| FLYW | 70 | large_holder | Temasek Holdings (Private |  | - | - |
-| TTE | 70 | large_holder | AMUNDI |  | - | - |
-| CWT | 70 | large_holder | AMUNDI |  | - | - |
-| AMRC | 70 | large_holder | Millennium Management LLC |  | - | - |
-| SAM | 70 | large_holder | Millennium Management LLC |  | - | - |
-| CVGI | 70 | large_holder | The TCW Group, Inc., on b |  | - | - |
+| CLBK | 84 | corporate_insider | Kemly Thomas J. | 16 | $400,000 | cluster_buy |
+| CLBK | 83 | corporate_insider | Splaine Thomas Jr | 16 | $500,000 | cluster_buy |
+| CLBK | 81 | corporate_insider | Kemly Thomas J. | 16 | $130,570 | cluster_buy |
+| CLBK | 80 | corporate_insider | Schlesinger Allyson Katz | 16 | $444,000 | cluster_buy |
+| CLBK | 80 | corporate_insider | Klein Steven M | 16 | $500,000 | cluster_buy |
+| CLBK | 80 | corporate_insider | Klimowich John | 16 | $300,000 | cluster_buy |
+| CLBK | 79 | corporate_insider | Randall Elizabeth E. | 16 | $272,000 | cluster_buy |
+| CLBK | 78 | corporate_insider | Van Dyk Robert | 16 | $250,000 | cluster_buy |
+| CLBK | 78 | corporate_insider | Gibney Dennis E. | 16 | $205,000 | cluster_buy |
+| CLBK | 78 | corporate_insider | Prabhu Manesh Balachandra | 16 | $150,000 | cluster_buy |
+| CLBK | 78 | corporate_insider | Sorrentini Lucy | 16 | $200,000 | cluster_buy |
+| CLBK | 78 | corporate_insider | Lewis Oliver Edward Jr | 16 | $145,000 | cluster_buy |
+| CLBK | 77 | corporate_insider | Massood Michael Jr. | 16 | $150,000 | cluster_buy |
+| CLBK | 77 | corporate_insider | Gibney Dennis E. | 16 | $125,000 | cluster_buy |
+| CLBK | 77 | corporate_insider | Rinaldi Mayra Liseth | 16 | $90,000 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -79,9 +81,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TCNNF | 64 | congress | Greg Stanton | $250,000 | - |
 | BLK | 64 | congress | John McGuire | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| LLY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 | HSY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 | CAG | 62 | congress | Gilbert Cisneros | $50,000 | - |
+| ADBE | 61 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -98,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.1 (-0.23% / -0.73% / -0.76%) [2026-07-22]
 - GLD: 379.12 (1.15% / 1.82% / 0.48%) [2026-07-22]
 - ^VIX: 16.64 (-2.4% / 6.19% / -14.62%) [2026-07-22]
-- BTC-USD: 65940.57 (-0.85% / 3.19% / 7.25%) [2026-07-22]
+- BTC-USD: 65599.42 (-1.36% / 2.66% / 6.69%) [2026-07-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,37 +115,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), leadership (2), stock (2), regulatory (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] CRWD Short Strangle Could Net $1 , 045 in a Few Weeks (2026-07-22)
-- [CRWD] United Airlines says Homesite alone refused to pay its CrowdStrike claim (2026-07-22)
-- [CRWD] Jim Cramer Calls AI Cyberattacks a  Watershed Moment  for CrowdStrike (2026-07-22)
-- [CRWD] Homesite seeks to dodge United Airline CrowdStrike outage claim (2026-07-22)
-- [TDG] A $4 . 2M Sale , 46 % Stake Cut : What TransDigm Co - COO Joel Reiss Latest Transaction Means for Investors (2026-07-22)
-- [ONC] 2026 - 07 - 17 | BeOne Medicines to Announce Second Quarter 2026 Financial Results on August 5 | NDAQ : ONC (2026-07-17)
-- [ONC] BeOne Medicines ( NASDAQ : ONC ) CEO Sells 145 , 861 Shares of Stock (2026-07-15)
-- [ONC] BeOne Medicines ( NASDAQ : ONC ) CEO John Oyler Sells 48 , 520 Shares of Stock (2026-07-15)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Shares Up 3 . 8 % – Still a Buy ? (2026-07-22)
+- [CRWV] CoreWeave and Nebius Get Bullish Calls (2026-07-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - Officer Sutherland Vanessa Allen vendio PSX por $7.4B el 2026-07-21.
-- 10% owner ABRY Partners VII, L.P. vendio KORE por $44.9M el 2026-07-21.
 - CEO Chu Chinh opero VLOS por $14.2M el 2026-07-20.
 - CEO OYLER JOHN vendio ONC por $6.3M el 2026-07-21.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
+- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $494,161 · win rate 95% · categorias: sports
-- Sassy-Bucket · PnL $461,174 · win rate 93% · categorias: sports
-- esportGG · PnL $93,906 · win rate 94% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $59,790 · win rate 90% · categorias: sports, crypto
-- JnStTrdrBnusFnd · PnL $37,474 · win rate 91% · categorias: crypto
+- kekasaur · PnL $119,683 · win rate 92% · categorias: sports
+- PleaseWinPlease · PnL $32,102 · win rate 90% · categorias: sports
+- esportGG · PnL $12,441 · win rate 95% · categorias: sports
+- kunkun168 · PnL $20,218 · win rate 90% · categorias: sports
+- VD721lsj4938Dk388 · PnL $14,163 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -151,7 +147,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 636 registros 30d · ultimo dato 2026-07-22
+- **sec_insiders**: `ok` · 693 registros 30d · ultimo dato 2026-07-22
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -164,7 +160,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, ENR, GLD, IEF, LLY, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, CLBK, GLD, IEF, NMM, QNT, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
