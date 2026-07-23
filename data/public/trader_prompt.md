@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-23T06:55:20+00:00 -->
+<!-- trader_prompt.md generado 2026-07-23T09:53:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-23T06:55:20+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
+_Generado 2026-07-23T09:53:53+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.64)
+- Volatilidad: `normal` (VIX 17.66)
 - Tendencia: `bull` (SPY 747.41 · MA50 744.04 · MA200 694.69 · dist MA200: 7.59%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.36)
@@ -326,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.44 (-0.26% / -0.95% / -2.84%) [2026-07-22]
 - IEF: 93.1 (-0.23% / -0.73% / -0.76%) [2026-07-22]
 - GLD: 379.12 (1.15% / 1.82% / 0.48%) [2026-07-22]
-- ^VIX: 16.64 (-2.4% / 6.19% / -14.62%) [2026-07-22]
-- BTC-USD: 65784.0 (-0.48% / 1.52% / 5.18%) [2026-07-23]
+- ^VIX: 17.66 (6.13% / 5.56% / -5.21%) [2026-07-23]
+- BTC-USD: 65645.23 (-0.69% / 1.31% / 4.96%) [2026-07-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,18 +342,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWV] CoreWeave ( NASDAQ : CRWV ) Shares Up 3 . 8 % – Still a Buy ? (2026-07-22)
 - [CRWV] CoreWeave and Nebius Get Bullish Calls (2026-07-22)
-- [CRWD] CRWD Short Strangle Could Net $1 , 045 in a Few Weeks (2026-07-22)
-- [CRWD] United Airlines says Homesite alone refused to pay its CrowdStrike claim (2026-07-22)
-- [CRWD] Jim Cramer Calls AI Cyberattacks a  Watershed Moment  for CrowdStrike (2026-07-22)
-- [CRWD] Homesite seeks to dodge United Airline CrowdStrike outage claim (2026-07-22)
-- [NSA] National Storage Affiliates Trust ( NYSE : NSA ) Announces $0 . 03 Special Dividend (2026-07-19)
-- [NSA] 2026 - 07 - 10 | National Storage Affiliates Trust Announces Anticipated Closing Date of Pending Transaction ; Declares Dividend in Connection with Pending Transaction | NYSE : NSA (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,9 +364,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - kekasaur · PnL $119,683 · win rate 92% · categorias: sports
 - PleaseWinPlease · PnL $32,102 · win rate 90% · categorias: sports
-- esportGG · PnL $12,441 · win rate 95% · categorias: sports
-- kunkun168 · PnL $8,935 · win rate 90% · categorias: sports
-- VD721lsj4938Dk388 · PnL $14,177 · win rate 85% · categorias: sports
+- esportGG · PnL $12,592 · win rate 95% · categorias: sports
+- kunkun168 · PnL $9,187 · win rate 90% · categorias: sports
+- VD721lsj4938Dk388 · PnL $14,174 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
