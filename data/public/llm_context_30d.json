@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-23T12:18:40.934677+00:00",
+  "generated_at": "2026-07-23T14:48:14.893064+00:00",
   "window": {
     "from": "2026-06-23",
     "to": "2026-07-23",
@@ -23,8 +23,10 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "ai",
-      "stock"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -80,7 +82,9 @@
       "event_date": "2026-07-21",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_849761243898"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
@@ -134,7 +138,9 @@
       "event_date": "2026-07-21",
       "importance_score": 81.9,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_849761243898"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
@@ -152,7 +158,9 @@
       "event_date": "2026-07-21",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_849761243898"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
@@ -1017,6 +1025,14 @@
       "score": 63.7
     },
     {
+      "politician": "Gilbert Cisneros",
+      "ticker": "LLY",
+      "direction": "buy",
+      "amount": 100000,
+      "date": "2026-06-10",
+      "score": 63.5
+    },
+    {
       "politician": "James A. Himes",
       "ticker": "BAC",
       "direction": "sell",
@@ -1028,6 +1044,14 @@
       "politician": "Dan Newhouse",
       "ticker": "ANET",
       "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Dan Newhouse",
+      "ticker": "LLY",
+      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 62.4
@@ -1050,14 +1074,6 @@
     },
     {
       "politician": "Gilbert Cisneros",
-      "ticker": "LLY",
-      "direction": "buy",
-      "amount": 100000,
-      "date": "2026-06-10",
-      "score": 62.2
-    },
-    {
-      "politician": "Gilbert Cisneros",
       "ticker": "CAG",
       "direction": "sell",
       "amount": 50000,
@@ -1068,14 +1084,6 @@
       "politician": "Dan Newhouse",
       "ticker": "ACN",
       "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "ADBE",
-      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 61.1
@@ -1191,6 +1199,15 @@
       "date": "2026-07-20"
     },
     {
+      "filer": "Field Michael L",
+      "company": "HST Global, Inc.",
+      "ticker": "HSTC",
+      "ownership_pct": 31.0,
+      "shares": 86883146,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-07-23"
+    },
+    {
       "filer": "Heinrich Michael",
       "company": "ZeroStack Corp.",
       "ticker": "ZSTK",
@@ -1207,19 +1224,30 @@
       "shares": 4400781,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-22"
-    },
-    {
-      "filer": "Gerald J. Ford",
-      "company": "HILLTOP HOLDINGS INC.",
-      "ticker": "HTH",
-      "ownership_pct": 26.7,
-      "shares": 15651329,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-22"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 112625.0,
+        "win_rate": 0.9407,
+        "volume": 2054931.41,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 58264.31,
+        "win_rate": 0.9726,
+        "volume": 112636.03,
+        "categories": [
+          "sports"
+        ]
+      },
       {
         "wallet": "0xf5f9294051",
         "username": "kekasaur",
@@ -1233,9 +1261,19 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 26068.53,
-        "win_rate": 0.9452,
-        "volume": 110212.13,
+        "pnl": 45193.52,
+        "win_rate": 0.9454,
+        "volume": 151344.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6945839be4",
+        "username": "venera1234",
+        "pnl": 32261.17,
+        "win_rate": 0.949,
+        "volume": 136953.25,
         "categories": [
           "sports"
         ]
@@ -1251,33 +1289,36 @@
         ]
       },
       {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 14177.79,
-        "win_rate": 0.8516,
-        "volume": 2522.42,
+        "wallet": "0xde7be6d489",
+        "username": "wan123",
+        "pnl": 47724.36,
+        "win_rate": 0.7897,
+        "volume": 106801.04,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdd5ef115f8",
-        "username": "Forecastication2",
-        "pnl": 12360.86,
-        "win_rate": 0.831,
-        "volume": 80158.51,
-        "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       },
       {
         "wallet": "0xef5367542f",
         "username": "ThePraetorian",
-        "pnl": 30934.92,
-        "win_rate": 0.931,
-        "volume": 155381.28,
+        "pnl": 28945.36,
+        "win_rate": 0.9429,
+        "volume": 250513.13,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x0a6356d95e",
+        "username": "f3arless",
+        "pnl": 18182.86,
+        "win_rate": 0.831,
+        "volume": 127433.47,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1289,46 +1330,35 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 30000.0,
-        "win_rate": 0.716,
-        "volume": 65217.39,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 50808.49,
-        "win_rate": 0.661,
-        "volume": 124965.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x565ca59275",
-        "username": "IamFKINGbankrupt",
-        "pnl": 20520.11,
-        "win_rate": 0.7183,
-        "volume": 157730.67,
-        "categories": [
-          "crypto",
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 112625.0,
+        "win_rate": 0.9407,
+        "volume": 2054931.41,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 26355.09,
+        "win_rate": 0.656,
+        "volume": 3629702.12,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 64515.21,
+        "pnl": 56393.96,
         "win_rate": 0.549,
-        "volume": 425839.75,
+        "volume": 464721.78,
         "categories": [
           "sports",
           "politics",
@@ -1338,9 +1368,31 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 405591.25,
+        "pnl": 406292.8,
         "win_rate": 0.478,
-        "volume": 577341.2,
+        "volume": 577692.85,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 33954.54,
+        "win_rate": 0.4406,
+        "volume": 625325.17,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 46181.66,
+        "win_rate": 0.533,
+        "volume": 1825723.93,
         "categories": [
           "sports"
         ]
@@ -1356,76 +1408,32 @@
         ]
       },
       {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 46082.37,
-        "win_rate": 0.533,
-        "volume": 1789130.71,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 21522.46,
-        "win_rate": 0.4378,
-        "volume": 365364.92,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xee00ba338c",
-        "username": "S-Works",
-        "pnl": 56369.91,
-        "win_rate": 0.532,
-        "volume": 265814.0,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x84cfffc3f1",
         "username": "mooseborzoi",
-        "pnl": 111772.42,
+        "pnl": 109531.68,
         "win_rate": 0.461,
-        "volume": 429621.92,
+        "volume": 509057.24,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0xe734e7bf7c",
-        "username": "boyau",
-        "pnl": 45622.1,
-        "win_rate": 0.5387,
-        "volume": 200704.18,
-        "categories": [
-          "sports"
         ]
       },
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 24756.9,
-        "win_rate": 0.563,
-        "volume": 595866.14,
+        "pnl": 57731.25,
+        "win_rate": 0.562,
+        "volume": 717792.34,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3ed109b65",
-        "username": "",
-        "pnl": 77937.46,
-        "win_rate": 0.5285,
-        "volume": 272851.9,
+        "wallet": "0xe734e7bf7c",
+        "username": "boyau",
+        "pnl": 59552.11,
+        "win_rate": 0.5387,
+        "volume": 211803.59,
         "categories": [
           "sports"
         ]
@@ -1434,71 +1442,44 @@
   },
   "news": [
     {
-      "title": "CoreWeave ( NASDAQ : CRWV ) Shares Up 3 . 8 % – Still a Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/22/coreweave-nasdaqcrwv-shares-up-3-8-still-a-buy.html",
+      "title": "CoreWeave ( NASDAQ : CRWV ) Upgraded by Robert W . Baird to  Strong - Buy  Rating",
+      "url": "https://www.themarketsdaily.com/2026/07/23/coreweave-nasdaqcrwv-upgraded-by-robert-w-baird-to-strong-buy-rating.html",
       "ticker": "CRWV",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Conagra ( CAG ) Q4 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/22/conagra-cag-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CAG",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-07-22"
+    },
+    {
+      "title": "Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . ",
+      "url": "https://www.fool.com/investing/2026/07/19/conagra-slashes-its-10-dividend-yield-in-half-just/?source=iedfolrf0000001",
+      "ticker": "CAG",
       "themes": [
         "stock"
       ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "CoreWeave and Nebius Get Bullish Calls",
-      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-nebius-bullish-calls-210505107.html",
-      "ticker": "CRWV",
-      "themes": [],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "CRWD Short Strangle Could Net $1 , 045 in a Few Weeks",
-      "url": "https://finance.yahoo.com/markets/options/articles/crwd-short-strangle-could-net-110002744.html",
-      "ticker": "CRWD",
-      "themes": [],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "United Airlines says Homesite alone refused to pay its CrowdStrike claim",
-      "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/united-airlines-says-homesite-alone-refused-to-pay-its-crowdstrike-claim-583286.aspx",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Jim Cramer Calls AI Cyberattacks a  Watershed Moment  for CrowdStrike",
-      "url": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-calls-ai-cyberattacks-152538325.html",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Homesite seeks to dodge United Airline CrowdStrike outage claim",
-      "url": "https://www.businessinsurance.com/homesite-seeks-to-dodge-united-airlines-crowdstrike-outage-claim/",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "National Storage Affiliates Trust ( NYSE : NSA ) Announces $0 . 03 Special Dividend",
-      "url": "https://www.dailypolitical.com/2026/07/19/national-storage-affiliates-trust-nysensa-announces-0-03-special-dividend.html",
-      "ticker": "NSA",
-      "themes": [],
       "date": "2026-07-19"
     },
     {
-      "title": "2026 - 07 - 10 | National Storage Affiliates Trust Announces Anticipated Closing Date of Pending Transaction ; Declares Dividend in Connection with Pending Transaction | NYSE : NSA",
-      "url": "https://stockhouse.com/news/press-releases/2026/07/10/national-storage-affiliates-trust-announces-anticipated-closing-date-of-pending",
-      "ticker": "NSA",
-      "themes": [],
-      "date": "2026-07-10"
+      "title": "2026 - 07 - 17 | BeOne Medicines to Announce Second Quarter 2026 Financial Results on August 5 | NDAQ : ONC",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/17/beone-medicines-to-announce-second-quarter-2026-financial-results-on-august-5",
+      "ticker": "ONC",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-07-17"
     }
   ],
-  "signals_count": 1671,
+  "signals_count": 1674,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

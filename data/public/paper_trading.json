@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T12:20:02+00:00",
+  "generated_at": "2026-07-23T14:49:09+00:00",
   "budget_eur": 100.0,
   "n_cycles": 11,
   "cost_model": {
@@ -7,18 +7,18 @@
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
-    "n_days": 10,
-    "equity_eur": 99.67,
-    "total_return": -0.0033,
-    "win_rate_days": 0.5,
+    "n_days": 11,
+    "equity_eur": 99.32,
+    "total_return": -0.0068,
+    "win_rate_days": 0.4545,
     "best_day": 0.0047,
     "worst_day": -0.0072,
-    "ann_vol": 0.0584,
-    "sharpe": -0.56,
-    "sortino": -0.68,
+    "ann_vol": 0.0578,
+    "sharpe": -1.91,
+    "sortino": -2.54,
     "max_drawdown": -0.0108,
-    "spy_return": 0.0027,
-    "excess_return": -0.006,
+    "spy_return": -0.0058,
+    "excess_return": -0.001,
     "costs_eur": 0.1976,
     "turnover_total": 1.318
   },
@@ -82,6 +82,12 @@
       "equity": 99.67,
       "spy": 100.27,
       "daily_ret": 0.00023
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 99.32,
+      "spy": 99.42,
+      "daily_ret": -0.00352
     }
   ],
   "positions": {
@@ -89,36 +95,36 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0027,
-      "value_eur": 12.03
+      "ret_since_entry": -0.0087,
+      "value_eur": 11.9
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0086,
-      "value_eur": 11.9
+      "ret_since_entry": -0.0263,
+      "value_eur": 11.68
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0109,
-      "value_eur": 11.87
+      "ret_since_entry": -0.0153,
+      "value_eur": 11.82
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0125,
-      "value_eur": 9.42
+      "ret_since_entry": -0.0052,
+      "value_eur": 9.25
     },
     "IEF": {
       "weight": 0.053,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0044,
-      "value_eur": 5.28
+      "ret_since_entry": -0.0074,
+      "value_eur": 5.26
     },
     "LION": {
       "weight": 0.042,
@@ -140,8 +146,8 @@
       "weight": 0.025,
       "instrument": "stock",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0659,
-      "value_eur": 2.34
+      "ret_since_entry": -0.0356,
+      "value_eur": 2.41
     },
     "MOMO": {
       "weight": 0.023,
