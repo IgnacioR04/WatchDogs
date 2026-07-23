@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-23T18:55:24.656345+00:00",
+  "generated_at": "2026-07-23T20:36:40.492320+00:00",
   "window": {
     "from": "2026-06-23",
     "to": "2026-07-23",
@@ -64,7 +64,7 @@
       "importance_score": 82.4,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_472746422449"
+        "news_283862695579"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
@@ -120,7 +120,7 @@
       "importance_score": 81.9,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_472746422449"
+        "news_283862695579"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
@@ -140,7 +140,7 @@
       "importance_score": 81.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_472746422449"
+        "news_283862695579"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
@@ -424,6 +424,14 @@
         ]
       },
       {
+        "ticker": "ENR",
+        "company": "ENERGIZER HOLDINGS, INC.",
+        "pressure_score": 462.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 406.0,
@@ -472,6 +480,14 @@
         ]
       },
       {
+        "ticker": "BYRN",
+        "company": "Byrna Technologies Inc.",
+        "pressure_score": 219.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ZSTK",
         "company": "ZeroStack Corp.",
         "pressure_score": 211.5,
@@ -502,22 +518,6 @@
         "sources": [
           "congress"
         ]
-      },
-      {
-        "ticker": "HDSN",
-        "company": "HUDSON TECHNOLOGIES INC /NY",
-        "pressure_score": 150.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MXF",
-        "company": "MEXICO FUND INC",
-        "pressure_score": 142.5,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -525,14 +525,6 @@
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 3235.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 2130.3,
         "sources": [
           "corporate_insider"
         ]
@@ -596,10 +588,19 @@
         ]
       },
       {
-        "ticker": "ELVN",
-        "company": "Enliven Therapeutics, Inc.",
-        "pressure_score": 664.2,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 734.5,
         "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRDO",
+        "company": "Ordinary Shares",
+        "pressure_score": 633.8,
+        "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
@@ -684,15 +685,6 @@
       "score": 80.6
     },
     {
-      "ticker": "CAG",
-      "company": "CONAGRA BRANDS INC.",
-      "actor": "Brase John P",
-      "actor_type": "ceo",
-      "amount": 510632.5,
-      "date": "2026-07-17",
-      "score": 80.6
-    },
-    {
       "ticker": "PBLS",
       "company": "Parabilis Medicines, Inc.",
       "actor": "RA CAPITAL MANAGEMENT, L.P.",
@@ -765,22 +757,31 @@
       "score": 78.1
     },
     {
-      "ticker": "HDSN",
-      "company": "HUDSON TECHNOLOGIES INC /NY",
-      "actor": "Hartree Partners, LP",
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
       "actor_type": "ten_percent_owner",
-      "amount": 285742.3,
-      "date": "2026-07-21",
-      "score": 77.1
+      "amount": 419116.0,
+      "date": "2026-07-22",
+      "score": 78.0
     },
     {
-      "ticker": "CLBK",
-      "company": "Columbia Financial, Inc./MD/",
-      "actor": "Kemly Thomas J.",
-      "actor_type": "ceo",
-      "amount": 130570.0,
-      "date": "2026-07-20",
-      "score": 76.4
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 412428.0,
+      "date": "2026-07-22",
+      "score": 77.9
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 413418.0,
+      "date": "2026-07-22",
+      "score": 77.9
     }
   ],
   "institutional_changes": [
@@ -1063,28 +1064,28 @@
       "score": 62.4
     },
     {
+      "politician": "Gilbert Cisneros",
+      "ticker": "CRDO",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-30",
+      "score": 62.4
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "ticker": "CYTK",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-06-30",
+      "score": 62.4
+    },
+    {
       "politician": "Debbie Dingell",
       "ticker": "HONAV",
       "direction": "other",
       "amount": 100000,
       "date": "2026-06-29",
       "score": 62.2
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "CAG",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-06-16",
-      "score": 62.0
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "ACN",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
     }
   ],
   "large_holders": [
@@ -1239,9 +1240,19 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 34909.44,
+        "pnl": 34285.63,
         "win_rate": 0.9733,
         "volume": 118521.88,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 34364.92,
+        "win_rate": 0.9474,
+        "volume": 86804.11,
         "categories": [
           "sports"
         ]
@@ -1257,21 +1268,21 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 78932.94,
-        "win_rate": 0.8846,
-        "volume": 1292609.98,
+        "wallet": "0x0f1cb0af3f",
+        "username": "PleaseWinPlease",
+        "pnl": 31552.42,
+        "win_rate": 0.9032,
+        "volume": 21999.89,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0f1cb0af3f",
-        "username": "PleaseWinPlease",
-        "pnl": 32102.42,
-        "win_rate": 0.9032,
-        "volume": 0.0,
+        "wallet": "0x618534bef6",
+        "username": "batya1",
+        "pnl": 29556.08,
+        "win_rate": 0.903,
+        "volume": 106712.57,
         "categories": [
           "sports"
         ]
@@ -1279,19 +1290,9 @@
       {
         "wallet": "0xef5367542f",
         "username": "ThePraetorian",
-        "pnl": 29385.39,
-        "win_rate": 0.9487,
-        "volume": 374268.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 26002.88,
-        "win_rate": 0.8521,
-        "volume": 37164.57,
+        "pnl": 48223.95,
+        "win_rate": 0.9048,
+        "volume": 498788.28,
         "categories": [
           "sports"
         ]
@@ -1299,9 +1300,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 32336.79,
+        "pnl": 31319.37,
         "win_rate": 0.7897,
-        "volume": 216408.44,
+        "volume": 260247.77,
         "categories": [
           "sports",
           "politics",
@@ -1311,20 +1312,20 @@
       {
         "wallet": "0xdd256e5df4",
         "username": "0xdD256e5dF4D54e86EC5ea64EcaB70e4d839aA624-1777406498558",
-        "pnl": 60996.15,
-        "win_rate": 0.7382,
-        "volume": 389611.08,
+        "pnl": 61055.09,
+        "win_rate": 0.7388,
+        "volume": 389724.41,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 192374.99,
-        "win_rate": 0.658,
-        "volume": 6993475.42,
+        "wallet": "0x30c7ac0158",
+        "username": "skyman44",
+        "pnl": 107247.88,
+        "win_rate": 0.6814,
+        "volume": 182973.51,
         "categories": [
           "sports"
         ]
@@ -1334,9 +1335,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 192374.99,
-        "win_rate": 0.658,
-        "volume": 6993475.42,
+        "pnl": 136919.11,
+        "win_rate": 0.643,
+        "volume": 8486006.02,
         "categories": [
           "sports"
         ]
@@ -1344,9 +1345,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 77495.06,
-        "win_rate": 0.55,
-        "volume": 932746.29,
+        "pnl": 111640.39,
+        "win_rate": 0.549,
+        "volume": 1169391.74,
         "categories": [
           "sports",
           "politics",
@@ -1354,21 +1355,11 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 78932.94,
-        "win_rate": 0.8846,
-        "volume": 1292609.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 402156.32,
+        "pnl": 395927.43,
         "win_rate": 0.478,
-        "volume": 715042.74,
+        "volume": 722666.61,
         "categories": [
           "sports"
         ]
@@ -1376,9 +1367,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 56550.51,
-        "win_rate": 0.4377,
-        "volume": 809163.79,
+        "pnl": 57485.74,
+        "win_rate": 0.4424,
+        "volume": 868367.99,
         "categories": [
           "politics",
           "sports",
@@ -1386,24 +1377,34 @@
         ]
       },
       {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 26965.59,
-        "win_rate": 0.531,
-        "volume": 2571001.77,
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 91796.91,
+        "win_rate": 0.468,
+        "volume": 1224951.87,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x4d4f13a12d",
+        "username": "0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
+        "pnl": 29563.72,
+        "win_rate": 0.9,
+        "volume": 425041.68,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x84cfffc3f1",
-        "username": "mooseborzoi",
-        "pnl": 197775.32,
-        "win_rate": 0.449,
-        "volume": 1041894.4,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 71069.65,
+        "win_rate": 0.562,
+        "volume": 1495583.22,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
         ]
       },
       {
@@ -1417,25 +1418,27 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 51771.41,
-        "win_rate": 0.562,
-        "volume": 1297767.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 58038.68,
-        "win_rate": 0.5128,
-        "volume": 270976.49,
+        "pnl": 59399.87,
+        "win_rate": 0.5172,
+        "volume": 303805.4,
         "categories": [
           "economy",
           "crypto",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x7bc14171cc",
+        "username": "coali10",
+        "pnl": 38403.4,
+        "win_rate": 0.6771,
+        "volume": 299662.26,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
         ]
       }
     ]
@@ -1484,7 +1487,7 @@
       "date": "2026-07-10"
     }
   ],
-  "signals_count": 1670,
+  "signals_count": 1663,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
