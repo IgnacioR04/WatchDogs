@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T20:37:30+00:00",
+  "generated_at": "2026-07-23T22:31:33+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
   "total_equity": 0.6999,
@@ -8,16 +8,17 @@
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
-    "ECAT": 0.0733,
     "GLD": 0.0731,
-    "BEP": 0.0498,
+    "ECAT": 0.0622,
     "IEF": 0.0488,
-    "CLBK": 0.0411,
-    "NMM": 0.0368,
-    "ENR": 0.0279,
-    "TSM": 0.0189,
-    "QNT": 0.0094,
-    "BFLY": 0.0056
+    "BEP": 0.0411,
+    "CLBK": 0.0368,
+    "LLY": 0.031,
+    "NMM": 0.0304,
+    "ENR": 0.025,
+    "TSM": 0.0169,
+    "MSTR": 0.0109,
+    "QNT": 0.0085
   },
   "core": {
     "SPY": 0.1592,
@@ -27,14 +28,15 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "CLBK": 0.0383,
-    "TSM": 0.0176,
-    "ENR": 0.026,
-    "NMM": 0.0343,
-    "BFLY": 0.0052,
-    "QNT": 0.0088,
-    "ECAT": 0.0683,
-    "BEP": 0.0464
+    "CLBK": 0.0343,
+    "ENR": 0.0233,
+    "TSM": 0.0158,
+    "NMM": 0.0283,
+    "LLY": 0.0289,
+    "QNT": 0.0079,
+    "ECAT": 0.058,
+    "MSTR": 0.0102,
+    "BEP": 0.0383
   },
   "satellite_rationale": [
     {
@@ -46,20 +48,20 @@
       "n_signals": 25
     },
     {
-      "ticker": "TSM",
-      "score": 434.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
       "ticker": "ENR",
       "score": 369.3,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 6
+    },
+    {
+      "ticker": "TSM",
+      "score": 225.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
     },
     {
       "ticker": "NMM",
@@ -70,9 +72,10 @@
       "n_signals": 3
     },
     {
-      "ticker": "BFLY",
-      "score": 142.0,
+      "ticker": "LLY",
+      "score": 135.3,
       "sources": [
+        "congress",
         "large_holder"
       ],
       "n_signals": 2
@@ -94,6 +97,14 @@
       "n_signals": 1
     },
     {
+      "ticker": "MSTR",
+      "score": 62.0,
+      "sources": [
+        "congress"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -103,17 +114,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1013,
-    "var_95_1d": 0.0105,
-    "cvar_95_1d": 0.013,
-    "max_drawdown": -0.0192,
+    "ann_vol": 0.095,
+    "var_95_1d": 0.0099,
+    "cvar_95_1d": 0.0128,
+    "max_drawdown": -0.0213,
     "beta_spy": null,
-    "hhi": 0.0533,
+    "hhi": 0.0511,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 18.8,
+    "n_positions": 14,
+    "effective_positions": 19.6,
     "gross_exposure": 0.6999,
-    "days_used": 29
+    "days_used": 30
   },
   "risk_gate": {
     "passed": true,
