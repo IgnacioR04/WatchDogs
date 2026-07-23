@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-23T17:03:43+00:00 -->
+<!-- trader_prompt.md generado 2026-07-23T18:56:18+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-23T17:03:43+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
+_Generado 2026-07-23T18:56:17+00:00 · ventana señales 2026-06-23 -> 2026-07-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,8 +236,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.32)
-- Tendencia: `neutral` (SPY 738.62 · MA50 744.07 · MA200 695.07 · dist MA200: 6.27%)
+- Volatilidad: `normal` (VIX 19.59)
+- Tendencia: `neutral` (SPY 736.7 · MA50 744.03 · MA200 695.06 · dist MA200: 5.99%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.36)
 - Fed Funds: 3.63%
@@ -249,26 +249,27 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 738.62 | -1.18% | -1.61% | 0.73% |
-| QQQ | 9.8% | core | 692.76 | -1.78% | -1.87% | -2.51% |
+| SPY | 12.0% | core | 736.7 | -1.43% | -1.87% | 0.47% |
+| QQQ | 9.8% | core | 690.09 | -2.16% | -2.25% | -2.89% |
 | TLT | 9.8% | core | 83.12 | -0.38% | -1.29% | -4.52% |
-| GLD | 7.3% | core | 371.7 | -1.96% | 1.85% | 1.58% |
-| BEP | 5.8% | satellite | 32.91 | 2.2% | 3.49% | -6.82% |
-| IEF | 4.9% | core | 92.85 | -0.27% | -0.93% | -1.67% |
-| CLBK | 4.8% | satellite | 10.84 | -0.96% | 3.86% | 20.09% |
-| NMM | 4.3% | satellite | 75.44 | 2.42% | 1.36% | 5.98% |
-| LLY | 4.1% | satellite | 1180.99 | 1.55% | 1.01% | 5.7% |
-| CAG | 3.2% | satellite | 14.28 | -3.67% | -1.28% | 4.96% |
-| TSM | 2.2% | satellite | 417.87 | -0.79% | 1.98% | -5.21% |
-| QNT | 1.1% | satellite | 56.81 | 3.52% | 0.51% | -20.1% |
-| BFLY | 0.7% | satellite | 6.46 | -2.27% | -7.85% | -16.86% |
+| GLD | 7.3% | core | 371.21 | -2.09% | 1.71% | 1.45% |
+| ECAT | 6.5% | satellite | 15.1 | -1.95% | -3.08% | -0.19% |
+| IEF | 4.9% | core | 92.82 | -0.3% | -0.95% | -1.69% |
+| BEP | 4.4% | satellite | 32.92 | 2.24% | 3.52% | -6.8% |
+| CLBK | 3.6% | satellite | 10.84 | -0.96% | 3.86% | 20.09% |
+| NMM | 3.2% | satellite | 76.02 | 3.2% | 2.14% | 6.78% |
+| LLY | 3.1% | satellite | 1180.63 | 1.52% | 0.98% | 5.67% |
+| CAG | 2.5% | satellite | 14.22 | -4.15% | -1.76% | 4.45% |
+| TSM | 1.7% | satellite | 414.35 | -1.63% | 1.13% | -6.01% |
+| QNT | 0.8% | satellite | 55.4 | 0.95% | -1.98% | -22.08% |
+| BFLY | 0.5% | satellite | 6.51 | -1.51% | -7.13% | -16.22% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 9.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: None · posiciones efectivas: 19.2 · HHI: 0.0522
+- Max drawdown historico: -1.6%
+- Beta vs SPY: None · posiciones efectivas: 19.4 · HHI: 0.0516
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -278,6 +279,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - **BFLY** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **LLY** · score agregado 135.3 · 2 señales · fuentes: congress, large_holder
 - **QNT** · score agregado 73.0 · 1 señales · fuentes: large_holder
+- **ECAT** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CAG** · score agregado 64.0 · 1 señales · fuentes: corporate_insider
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -323,15 +325,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 738.62 (-1.18% / -1.61% / 0.73%) [2026-07-23]
-- QQQ: 692.76 (-1.78% / -1.87% / -2.51%) [2026-07-23]
-- IWM: 291.69 (-0.71% / -1.32% / -1.69%) [2026-07-23]
-- DIA: 516.8 (-0.9% / -1.5% / -0.3%) [2026-07-23]
+- SPY: 736.7 (-1.43% / -1.87% / 0.47%) [2026-07-23]
+- QQQ: 690.09 (-2.16% / -2.25% / -2.89%) [2026-07-23]
+- IWM: 291.13 (-0.91% / -1.51% / -1.87%) [2026-07-23]
+- DIA: 515.79 (-1.09% / -1.69% / -0.5%) [2026-07-23]
 - TLT: 83.12 (-0.38% / -1.29% / -4.52%) [2026-07-23]
-- IEF: 92.85 (-0.27% / -0.93% / -1.67%) [2026-07-23]
-- GLD: 371.7 (-1.96% / 1.85% / 1.58%) [2026-07-23]
-- ^VIX: 19.32 (16.11% / 15.48% / 3.7%) [2026-07-23]
-- BTC-USD: 64735.09 (-2.07% / -0.09% / 3.5%) [2026-07-23]
+- IEF: 92.82 (-0.3% / -0.95% / -1.69%) [2026-07-23]
+- GLD: 371.21 (-2.09% / 1.71% / 1.45%) [2026-07-23]
+- ^VIX: 19.59 (17.73% / 17.1% / 5.15%) [2026-07-23]
+- BTC-USD: 64830.17 (-1.92% / 0.05% / 3.65%) [2026-07-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,20 +348,18 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), earnings (1)
+**Temas dominantes**: stock (2), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] CrowdStrike Just Became Wall Street Newest Stock - Split Stock , but Something More  Magnificent  May Be Next (2026-07-23)
+- [CRWV] High - Flying Tech Stocks NASDAQ : IONQ , NASDAQ : RKLB and NASDAQ : CRWV Down 60 % From Highs (2026-07-23)
 - [CRWV] CoreWeave ( NASDAQ : CRWV ) Upgraded by Robert W . Baird to  Strong - Buy  Rating (2026-07-23)
-- [CRWD] CRWD Short Strangle Could Net $1 , 045 in a Few Weeks (2026-07-22)
-- [CRWD] United Airlines says Homesite alone refused to pay its CrowdStrike claim (2026-07-22)
-- [CAG] Conagra ( CAG ) Q4 2026 Earnings Call Transcript (2026-07-22)
-- [CAG] Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . (2026-07-19)
+- [NSA] National Storage Affiliates Trust ( NYSE : NSA ) Announces $0 . 03 Special Dividend (2026-07-19)
+- [ONC] 2026 - 07 - 17 | BeOne Medicines to Announce Second Quarter 2026 Financial Results on August 5 | NDAQ : ONC (2026-07-17)
+- [NSA] 2026 - 07 - 10 | National Storage Affiliates Trust Announces Anticipated Closing Date of Pending Transaction ; Declares Dividend in Connection with Pending Transaction | NYSE : NSA (2026-07-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- Officer Sutherland Vanessa Allen vendio PSX por $7.4B el 2026-07-21.
 - CEO Chu Chinh opero VLOS por $14.2M el 2026-07-20.
 - CEO OYLER JOHN vendio ONC por $6.3M el 2026-07-21.
 - CEO Huang Jack Jiajia compro COE por $1.9M el 2026-07-20.
@@ -367,14 +367,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $1.4M el 2026-07-17.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
+- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $81,837 · win rate 95% · categorias: sports
 - kekasaur · PnL $119,683 · win rate 92% · categorias: sports
-- ExplosiveNinja · PnL $47,603 · win rate 97% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $89,488 · win rate 88% · categorias: sports
+- ExplosiveNinja · PnL $34,909 · win rate 97% · categorias: sports
 - venera1234 · PnL $32,261 · win rate 95% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $78,933 · win rate 88% · categorias: sports
+- PleaseWinPlease · PnL $32,102 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,7 +383,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 74 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 688 registros 30d · ultimo dato 2026-07-22
+- **sec_insiders**: `ok` · 697 registros 30d · ultimo dato 2026-07-22
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -395,7 +396,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, CLBK, GLD, IEF, LLY, NMM, QNT, QQQ, SPY, TLT, TSM`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BFLY, CAG, CLBK, ECAT, GLD, IEF, LLY, NMM, QNT, QQQ, SPY, TLT, TSM`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

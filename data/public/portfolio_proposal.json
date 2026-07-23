@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-07-23T17:03:41+00:00",
+  "generated_at": "2026-07-23T18:56:16+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.7,
+  "cash": 0.3,
   "weights": {
-    "SPY": 0.1201,
+    "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "BEP": 0.0582,
+    "ECAT": 0.0647,
     "IEF": 0.0488,
-    "CLBK": 0.048,
-    "NMM": 0.0431,
-    "LLY": 0.0411,
-    "CAG": 0.0325,
-    "TSM": 0.0222,
-    "QNT": 0.011,
-    "BFLY": 0.0065
+    "BEP": 0.044,
+    "CLBK": 0.0362,
+    "NMM": 0.0325,
+    "LLY": 0.031,
+    "CAG": 0.0245,
+    "TSM": 0.0167,
+    "QNT": 0.0084,
+    "BFLY": 0.0049
   },
   "core": {
     "SPY": 0.1592,
@@ -27,14 +28,15 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "CLBK": 0.0448,
-    "TSM": 0.0207,
-    "NMM": 0.0402,
-    "BFLY": 0.0061,
-    "LLY": 0.0383,
-    "QNT": 0.0103,
-    "CAG": 0.0303,
-    "BEP": 0.0543
+    "CLBK": 0.0338,
+    "TSM": 0.0156,
+    "NMM": 0.0303,
+    "BFLY": 0.0046,
+    "LLY": 0.0289,
+    "QNT": 0.0078,
+    "ECAT": 0.0603,
+    "CAG": 0.0228,
+    "BEP": 0.041
   },
   "satellite_rationale": [
     {
@@ -87,6 +89,14 @@
       "n_signals": 1
     },
     {
+      "ticker": "ECAT",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "CAG",
       "score": 64.0,
       "sources": [
@@ -104,16 +114,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0925,
-    "var_95_1d": 0.0092,
-    "cvar_95_1d": 0.0119,
-    "max_drawdown": -0.0175,
+    "ann_vol": 0.0917,
+    "var_95_1d": 0.009,
+    "cvar_95_1d": 0.0122,
+    "max_drawdown": -0.0163,
     "beta_spy": null,
-    "hhi": 0.0522,
-    "max_position": 0.1201,
-    "n_positions": 13,
-    "effective_positions": 19.2,
-    "gross_exposure": 0.6998,
+    "hhi": 0.0516,
+    "max_position": 0.12,
+    "n_positions": 14,
+    "effective_positions": 19.4,
+    "gross_exposure": 0.7,
     "days_used": 29
   },
   "risk_gate": {

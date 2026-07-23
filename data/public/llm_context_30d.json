@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-23T17:02:43.467711+00:00",
+  "generated_at": "2026-07-23T18:55:24.656345+00:00",
   "window": {
     "from": "2026-06-23",
     "to": "2026-07-23",
@@ -25,7 +25,7 @@
     "top_themes": [
       "stock",
       "ai",
-      "earnings"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -33,24 +33,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "Officer vendio PSX ($7.4B)",
-      "summary": "Officer Sutherland Vanessa Allen vendio PSX por $7.4B el 2026-07-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Sutherland Vanessa Allen",
-      "actor_type": "officer",
-      "ticker": "PSX",
-      "direction": "sell",
-      "amount_estimated": 7435228086.0,
-      "event_date": "2026-07-21",
-      "importance_score": 84.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1772603/000153470126000026/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "CEO opero VLOS ($14.2M)",
       "summary": "CEO Chu Chinh opero VLOS por $14.2M el 2026-07-20.",
       "source": "sec_form_4",
@@ -67,8 +49,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1306507/000121390026080486/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio ONC ($6.3M)",
       "summary": "CEO OYLER JOHN vendio ONC por $6.3M el 2026-07-21.",
       "source": "sec_form_4",
@@ -81,12 +63,14 @@
       "event_date": "2026-07-21",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_472746422449"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO compro COE ($1.9M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.9M el 2026-07-20.",
       "source": "sec_form_4",
@@ -103,8 +87,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO compro COE ($1.9M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.9M el 2026-07-16.",
       "source": "sec_form_4",
@@ -121,8 +105,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio ONC ($5.0M)",
       "summary": "CEO OYLER JOHN vendio ONC por $5.0M el 2026-07-21.",
       "source": "sec_form_4",
@@ -135,12 +119,14 @@
       "event_date": "2026-07-21",
       "importance_score": 81.9,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_472746422449"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio ONC ($4.9M)",
       "summary": "CEO OYLER JOHN vendio ONC por $4.9M el 2026-07-21.",
       "source": "sec_form_4",
@@ -153,12 +139,14 @@
       "event_date": "2026-07-21",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_472746422449"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1042047/000104204726000017/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro COE ($1.4M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.4M el 2026-07-17.",
       "source": "sec_form_4",
@@ -175,8 +163,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -193,8 +181,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -211,8 +199,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -229,8 +217,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -247,8 +235,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -265,8 +253,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -283,8 +271,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -301,8 +289,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -319,8 +307,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -337,8 +325,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -355,8 +343,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -373,8 +361,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -384,6 +372,24 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 12231430056,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
+      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 11607569229,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -506,12 +512,11 @@
         ]
       },
       {
-        "ticker": "BFLY",
-        "company": "Butterfly Network, Inc.",
-        "pressure_score": 142.0,
+        "ticker": "MXF",
+        "company": "MEXICO FUND INC",
+        "pressure_score": 142.5,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       }
     ],
@@ -769,13 +774,13 @@
       "score": 77.1
     },
     {
-      "ticker": "GF",
-      "company": "NEW GERMANY FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 258790.21,
+      "ticker": "CLBK",
+      "company": "Columbia Financial, Inc./MD/",
+      "actor": "Kemly Thomas J.",
+      "actor_type": "ceo",
+      "amount": 130570.0,
       "date": "2026-07-20",
-      "score": 76.9
+      "score": 76.4
     }
   ],
   "institutional_changes": [
@@ -1222,16 +1227,6 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 81836.68,
-        "win_rate": 0.9489,
-        "volume": 2992477.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xf5f9294051",
         "username": "kekasaur",
         "pnl": 119682.81,
@@ -1244,19 +1239,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 47602.63,
+        "pnl": 34909.44,
         "win_rate": 0.9733,
-        "volume": 116485.88,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 89488.46,
-        "win_rate": 0.8831,
-        "volume": 388170.64,
+        "volume": 118521.88,
         "categories": [
           "sports"
         ]
@@ -1272,11 +1257,11 @@
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 24039.05,
-        "win_rate": 0.9455,
-        "volume": 236574.74,
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 78932.94,
+        "win_rate": 0.8846,
+        "volume": 1292609.98,
         "categories": [
           "sports"
         ]
@@ -1294,9 +1279,19 @@
       {
         "wallet": "0xef5367542f",
         "username": "ThePraetorian",
-        "pnl": 37325.7,
-        "win_rate": 0.9459,
-        "volume": 355919.45,
+        "pnl": 29385.39,
+        "win_rate": 0.9487,
+        "volume": 374268.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x162ca4c524",
+        "username": "VD721lsj4938Dk388",
+        "pnl": 26002.88,
+        "win_rate": 0.8521,
+        "volume": 37164.57,
         "categories": [
           "sports"
         ]
@@ -1304,9 +1299,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 36737.08,
+        "pnl": 32336.79,
         "win_rate": 0.7897,
-        "volume": 209447.14,
+        "volume": 216408.44,
         "categories": [
           "sports",
           "politics",
@@ -1314,11 +1309,22 @@
         ]
       },
       {
-        "wallet": "0x880b1fc5d3",
-        "username": "cruzNBA",
-        "pnl": 36200.22,
-        "win_rate": 0.7279,
-        "volume": 113508.97,
+        "wallet": "0xdd256e5df4",
+        "username": "0xdD256e5dF4D54e86EC5ea64EcaB70e4d839aA624-1777406498558",
+        "pnl": 60996.15,
+        "win_rate": 0.7382,
+        "volume": 389611.08,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 192374.99,
+        "win_rate": 0.658,
+        "volume": 6993475.42,
         "categories": [
           "sports"
         ]
@@ -1326,21 +1332,11 @@
     ],
     "whales": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 81836.68,
-        "win_rate": 0.9489,
-        "volume": 2992477.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 48687.13,
-        "win_rate": 0.654,
-        "volume": 5149898.92,
+        "pnl": 192374.99,
+        "win_rate": 0.658,
+        "volume": 6993475.42,
         "categories": [
           "sports"
         ]
@@ -1348,9 +1344,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 58097.02,
+        "pnl": 77495.06,
         "win_rate": 0.55,
-        "volume": 595407.61,
+        "volume": 932746.29,
         "categories": [
           "sports",
           "politics",
@@ -1358,11 +1354,21 @@
         ]
       },
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 78932.94,
+        "win_rate": 0.8846,
+        "volume": 1292609.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 406108.78,
+        "pnl": 402156.32,
         "win_rate": 0.478,
-        "volume": 657010.82,
+        "volume": 715042.74,
         "categories": [
           "sports"
         ]
@@ -1370,9 +1376,9 @@
       {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 45582.45,
-        "win_rate": 0.4388,
-        "volume": 737605.38,
+        "pnl": 56550.51,
+        "win_rate": 0.4377,
+        "volume": 809163.79,
         "categories": [
           "politics",
           "sports",
@@ -1382,11 +1388,22 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 49115.38,
-        "win_rate": 0.534,
-        "volume": 2011447.19,
+        "pnl": 26965.59,
+        "win_rate": 0.531,
+        "volume": 2571001.77,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 197775.32,
+        "win_rate": 0.449,
+        "volume": 1041894.4,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1400,9 +1417,19 @@
         ]
       },
       {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 51771.41,
+        "win_rate": 0.562,
+        "volume": 1297767.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 61900.15,
+        "pnl": 58038.68,
         "win_rate": 0.5128,
         "volume": 270976.49,
         "categories": [
@@ -1410,35 +1437,14 @@
           "crypto",
           "politics"
         ]
-      },
-      {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 89488.46,
-        "win_rate": 0.8831,
-        "volume": 388170.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x84cfffc3f1",
-        "username": "mooseborzoi",
-        "pnl": 109786.53,
-        "win_rate": 0.437,
-        "volume": 645739.51,
-        "categories": [
-          "sports",
-          "politics"
-        ]
       }
     ]
   },
   "news": [
     {
-      "title": "CrowdStrike Just Became Wall Street Newest Stock - Split Stock , but Something More  Magnificent  May Be Next",
-      "url": "https://www.fool.com/investing/2026/07/23/crwd-wall-st-stock-split-stock-magnificent-next/",
-      "ticker": "CRWD",
+      "title": "High - Flying Tech Stocks NASDAQ : IONQ , NASDAQ : RKLB and NASDAQ : CRWV Down 60 % From Highs",
+      "url": "https://www.foreignpolicyjournal.com/2026/07/23/high-flying-tech-stocks-nasdaq-ionqnasdaq-rklb-and-nasdaq-crwv-down-60-from-highs/",
+      "ticker": "CRWV",
       "themes": [
         "stock"
       ],
@@ -1455,41 +1461,30 @@
       "date": "2026-07-23"
     },
     {
-      "title": "CRWD Short Strangle Could Net $1 , 045 in a Few Weeks",
-      "url": "https://finance.yahoo.com/markets/options/articles/crwd-short-strangle-could-net-110002744.html",
-      "ticker": "CRWD",
+      "title": "National Storage Affiliates Trust ( NYSE : NSA ) Announces $0 . 03 Special Dividend",
+      "url": "https://www.dailypolitical.com/2026/07/19/national-storage-affiliates-trust-nysensa-announces-0-03-special-dividend.html",
+      "ticker": "NSA",
       "themes": [],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "United Airlines says Homesite alone refused to pay its CrowdStrike claim",
-      "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/united-airlines-says-homesite-alone-refused-to-pay-its-crowdstrike-claim-583286.aspx",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Conagra ( CAG ) Q4 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/22/conagra-cag-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CAG",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Conagra Brands Slashes Its 10 % Dividend Yield in Half Just 1 Month After Getting Kicked Out of the S & P 500 . Here Why the Stock Isnt Tanking . ",
-      "url": "https://www.fool.com/investing/2026/07/19/conagra-slashes-its-10-dividend-yield-in-half-just/?source=iedfolrf0000001",
-      "ticker": "CAG",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-07-19"
+    },
+    {
+      "title": "2026 - 07 - 17 | BeOne Medicines to Announce Second Quarter 2026 Financial Results on August 5 | NDAQ : ONC",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/17/beone-medicines-to-announce-second-quarter-2026-financial-results-on-august-5",
+      "ticker": "ONC",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-07-17"
+    },
+    {
+      "title": "2026 - 07 - 10 | National Storage Affiliates Trust Announces Anticipated Closing Date of Pending Transaction ; Declares Dividend in Connection with Pending Transaction | NYSE : NSA",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/10/national-storage-affiliates-trust-announces-anticipated-closing-date-of-pending",
+      "ticker": "NSA",
+      "themes": [],
+      "date": "2026-07-10"
     }
   ],
-  "signals_count": 1661,
+  "signals_count": 1670,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
