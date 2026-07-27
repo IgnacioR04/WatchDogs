@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T21:02:58+00:00",
+  "generated_at": "2026-07-27T22:34:09+00:00",
   "budget_eur": 100.0,
   "n_cycles": 12,
   "cost_model": {
@@ -7,18 +7,18 @@
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
-    "n_days": 12,
-    "equity_eur": 99.1,
-    "total_return": -0.009,
-    "win_rate_days": 0.5,
+    "n_days": 13,
+    "equity_eur": 99.36,
+    "total_return": -0.0064,
+    "win_rate_days": 0.5385,
     "best_day": 0.004,
     "worst_day": -0.0072,
-    "ann_vol": 0.0597,
-    "sharpe": -2.42,
-    "sortino": -2.9,
+    "ann_vol": 0.0591,
+    "sharpe": -1.4,
+    "sortino": -1.66,
     "max_drawdown": -0.0132,
-    "spy_return": -0.0077,
-    "excess_return": -0.0013,
+    "spy_return": -0.0058,
+    "excess_return": -0.0006,
     "costs_eur": 0.2044,
     "turnover_total": 1.364
   },
@@ -90,10 +90,16 @@
       "daily_ret": -0.00652
     },
     {
+      "date": "2026-07-24",
+      "equity": 99.05,
+      "spy": 99.37,
+      "daily_ret": 0.00149
+    },
+    {
       "date": "2026-07-27",
-      "equity": 99.1,
-      "spy": 99.23,
-      "daily_ret": 0.00202
+      "equity": 99.36,
+      "spy": 99.42,
+      "daily_ret": 0.00314
     }
   ],
   "positions": {

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-27T21:02:57+00:00",
+  "generated_at": "2026-07-27T22:34:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
-    "SPY": 0.1201,
+    "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
-    "FSBC": 0.0743,
+    "FSBC": 0.0807,
     "GLD": 0.0731,
-    "BEP": 0.0678,
+    "BEP": 0.0589,
     "IEF": 0.0488,
-    "FIS": 0.046,
-    "BSY": 0.04,
-    "EROK": 0.0345
+    "FIS": 0.0465,
+    "BSY": 0.0403,
+    "ENR": 0.0364
   },
   "core": {
     "SPY": 0.1592,
@@ -24,11 +24,11 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "FSBC": 0.0693,
-    "BSY": 0.0373,
-    "EROK": 0.0322,
-    "FIS": 0.0429,
-    "BEP": 0.0632
+    "FSBC": 0.0752,
+    "ENR": 0.0339,
+    "BSY": 0.0376,
+    "FIS": 0.0434,
+    "BEP": 0.0549
   },
   "satellite_rationale": [
     {
@@ -40,15 +40,15 @@
       "n_signals": 7
     },
     {
-      "ticker": "BSY",
-      "score": 71.8,
+      "ticker": "ENR",
+      "score": 369.3,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 1
+      "n_signals": 6
     },
     {
-      "ticker": "EROK",
+      "ticker": "BSY",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -73,17 +73,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0826,
-    "var_95_1d": 0.0083,
-    "cvar_95_1d": 0.0113,
-    "max_drawdown": -0.0292,
-    "beta_spy": 0.485,
-    "hhi": 0.0562,
-    "max_position": 0.1201,
+    "ann_vol": 0.0873,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0109,
+    "max_drawdown": -0.0384,
+    "beta_spy": 0.502,
+    "hhi": 0.0563,
+    "max_position": 0.12,
     "n_positions": 10,
     "effective_positions": 17.8,
-    "gross_exposure": 0.6998,
-    "days_used": 43
+    "gross_exposure": 0.6999,
+    "days_used": 91
   },
   "risk_gate": {
     "passed": true,
