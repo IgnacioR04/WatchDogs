@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-27T19:03:03.384746+00:00",
+  "generated_at": "2026-07-27T21:01:10.129300+00:00",
   "window": {
     "from": "2026-06-27",
     "to": "2026-07-27",
@@ -23,8 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
+      "merger",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -105,6 +104,28 @@
     {
       "id": "move_5",
       "rank": 5,
+      "title": "CEO vendio TMHC ($19.4M)",
+      "summary": "CEO Palmer Sheryl vendio TMHC por $19.4M el 2026-07-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Palmer Sheryl",
+      "actor_type": "ceo",
+      "ticker": "TMHC",
+      "direction": "sell",
+      "amount_estimated": 19425940.0,
+      "event_date": "2026-07-24",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_721524874030",
+        "news_988599714782",
+        "news_293572945633"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1570190/000119312526318101/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO opero EROK ($11.1M)",
       "summary": "CEO Pipkin Gregory Phillip Jr. opero EROK por $11.1M el 2026-07-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -121,8 +142,30 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133981/000119312526316432/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO vendio TMHC ($13.1M)",
+      "summary": "CEO Palmer Sheryl vendio TMHC por $13.1M el 2026-07-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Palmer Sheryl",
+      "actor_type": "ceo",
+      "ticker": "TMHC",
+      "direction": "sell",
+      "amount_estimated": 13108072.5,
+      "event_date": "2026-07-24",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_721524874030",
+        "news_988599714782",
+        "news_293572945633"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1570190/000119312526318101/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO compro COE ($2.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.0M el 2026-07-22.",
       "source": "sec_form_4",
@@ -137,42 +180,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000003/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO compro COE ($1.9M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $1.9M el 2026-07-20.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 1876500.0,
-      "event_date": "2026-07-20",
-      "importance_score": 82.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
-      "title": "CEO compro COE ($1.9M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $1.9M el 2026-07-16.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 1856544.0,
-      "event_date": "2026-07-16",
-      "importance_score": 82.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
     },
     {
       "id": "move_9",
@@ -195,42 +202,6 @@
     {
       "id": "move_10",
       "rank": 10,
-      "title": "CEO compro COE ($1.4M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $1.4M el 2026-07-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 1382097.6,
-      "event_date": "2026-07-17",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000001/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
-      "title": "Insider opero DNP ($1105335.0B)",
-      "summary": "Insider Corebridge Financial, Inc. opero DNP por $1105335.0B el 2026-07-22.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Corebridge Financial, Inc.",
-      "actor_type": "insider",
-      "ticker": "DNP",
-      "direction": "other",
-      "amount_estimated": 1105335004950000.0,
-      "event_date": "2026-07-22",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1889539/000110465926086489/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -247,8 +218,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -265,8 +236,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -283,8 +254,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -301,8 +272,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -319,8 +290,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -337,8 +308,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -355,8 +326,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -373,8 +344,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -389,22 +360,58 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12307921184,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12266872781,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "COE",
-        "company": "51Talk Online Education Group",
-        "pressure_score": 900.1,
+        "ticker": "FSBC",
+        "company": "FIVE STAR BANCORP",
+        "pressure_score": 519.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "FSBC",
-        "company": "FIVE STAR BANCORP",
-        "pressure_score": 519.0,
+        "ticker": "COE",
+        "company": "51Talk Online Education Group",
+        "pressure_score": 494.1,
         "sources": [
           "corporate_insider"
         ]
@@ -452,31 +459,6 @@
         ]
       },
       {
-        "ticker": "NCO",
-        "company": "Southern Cross Acquisition I Corp.",
-        "pressure_score": 218.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "ZSTK",
-        "company": "ZeroStack Corp.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "SDEV",
-        "company": "Stablecoin Development Corp",
-        "pressure_score": 201.8,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "ZEOX",
         "company": "Zeo Scientifix, Inc.",
         "pressure_score": 198.1,
@@ -516,62 +498,72 @@
         "sources": [
           "congress"
         ]
-      }
-    ],
-    "sell_pressure": [
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1286.8,
-        "sources": [
-          "corporate_insider"
-        ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 1254.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1014.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "LQDA",
-        "company": "Liquidia Corp",
-        "pressure_score": 370.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CNXN",
-        "company": "PC CONNECTION INC",
-        "pressure_score": 355.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BFLY",
-        "company": "Butterfly Network, Inc.",
-        "pressure_score": 287.9,
+        "ticker": "NCO",
+        "company": "Southern Cross Acquisition I Corp.",
+        "pressure_score": 146.4,
         "sources": [
           "corporate_insider",
           "large_holder"
         ]
       },
       {
-        "ticker": "TRV",
-        "company": "TRAVELERS COMPANIES, INC.",
-        "pressure_score": 283.4,
+        "ticker": "GLSI",
+        "company": "Greenwich LifeSciences, Inc.",
+        "pressure_score": 145.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ANIX",
+        "company": "Anixa Biosciences Inc",
+        "pressure_score": 143.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      }
+    ],
+    "sell_pressure": [
+      {
+        "ticker": "TMHC",
+        "company": "Taylor Morrison Home Corp",
+        "pressure_score": 811.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WAB",
+        "company": "Corporation Common Stock",
+        "pressure_score": 667.7,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HSY",
+        "company": "Stock",
+        "pressure_score": 642.9,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 527.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "IVT",
+        "company": "InvenTrust Properties Corp.",
+        "pressure_score": 300.6,
         "sources": [
           "corporate_insider"
         ]
@@ -579,33 +571,31 @@
       {
         "ticker": "RVI",
         "company": "Robinhood Ventures Fund I",
-        "pressure_score": 282.1,
+        "pressure_score": 276.9,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "IRD",
+        "company": "Opus Genetics, Inc.",
+        "pressure_score": 268.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
         "ticker": "RNGR",
         "company": "Ranger Energy Services, Inc.",
-        "pressure_score": 271.3,
+        "pressure_score": 266.4,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
         "ticker": "UNH",
         "company": "Common Stock",
         "pressure_score": 233.2,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "WAB",
-        "company": "Corporation Common Stock",
-        "pressure_score": 230.2,
         "sources": [
           "congress"
         ]
@@ -620,12 +610,11 @@
       },
       {
         "ticker": "INSM",
-        "company": "INSMED INCORPORATED",
-        "pressure_score": 219.8,
+        "company": "Stock",
+        "pressure_score": 216.1,
         "sources": [
           "congress",
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -640,6 +629,22 @@
         "ticker": "XYZ",
         "company": "Block, Inc.",
         "pressure_score": 213.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ALLE",
+        "company": "Allegion plc",
+        "pressure_score": 212.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "IMVT",
+        "company": "Immunovant, Inc.",
+        "pressure_score": 210.7,
         "sources": [
           "corporate_insider"
         ]
@@ -675,33 +680,6 @@
       "score": 82.3
     },
     {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 1876500.0,
-      "date": "2026-07-20",
-      "score": 82.2
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 1856544.0,
-      "date": "2026-07-16",
-      "score": 82.2
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 1382097.6,
-      "date": "2026-07-17",
-      "score": 81.6
-    },
-    {
       "ticker": "FSBC",
       "company": "FIVE STAR BANCORP",
       "actor": "Allbaugh Larry Eugene",
@@ -716,15 +694,6 @@
       "actor": "Huang Jack Jiajia",
       "actor_type": "ceo",
       "amount": 956043.0,
-      "date": "2026-07-22",
-      "score": 80.8
-    },
-    {
-      "ticker": "CLIR",
-      "company": "ClearSign Technologies Corp",
-      "actor": "PASQUESI JOHN M",
-      "actor_type": "ten_percent_owner",
-      "amount": 1770000.0,
       "date": "2026-07-22",
       "score": 80.8
     },
@@ -747,15 +716,6 @@
       "score": 80.7
     },
     {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 3080724.0,
-      "date": "2026-07-14",
-      "score": 80.3
-    },
-    {
       "ticker": "ACOG",
       "company": "Alpha Cognition Inc.",
       "actor": "Opaleye Management Inc.",
@@ -765,13 +725,13 @@
       "score": 79.8
     },
     {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 2294692.2,
-      "date": "2026-07-15",
-      "score": 79.7
+      "ticker": "CLIR",
+      "company": "ClearSign Technologies Corp",
+      "actor": "PASQUESI JOHN M",
+      "actor_type": "ten_percent_owner",
+      "amount": 1770000.0,
+      "date": "2026-07-22",
+      "score": 79.6
     },
     {
       "ticker": "ACOG",
@@ -781,6 +741,51 @@
       "amount": 388587.91,
       "date": "2026-07-23",
       "score": 79.0
+    },
+    {
+      "ticker": "FSBC",
+      "company": "FIVE STAR BANCORP",
+      "actor": "Perry-Smith Robert Truxtun",
+      "actor_type": "director",
+      "amount": 1379972.0,
+      "date": "2026-07-22",
+      "score": 76.5
+    },
+    {
+      "ticker": "VMI",
+      "company": "VALMONT INDUSTRIES INC",
+      "actor": "Schwietz John L",
+      "actor_type": "cfo",
+      "amount": 101118.16,
+      "date": "2026-07-23",
+      "score": 76.1
+    },
+    {
+      "ticker": "BMR",
+      "company": "Beamr Imaging Ltd.",
+      "actor": "Carmel Sharon",
+      "actor_type": "ceo",
+      "amount": 106205.25,
+      "date": "2026-07-22",
+      "score": 76.0
+    },
+    {
+      "ticker": "GDTC",
+      "company": "CytoMed Therapeutics Ltd",
+      "actor": "Choo Chee Kong",
+      "actor_type": "ten_percent_owner",
+      "amount": 150000.0,
+      "date": "2026-07-20",
+      "score": 75.5
+    },
+    {
+      "ticker": "GDTC",
+      "company": "CytoMed Therapeutics Ltd",
+      "actor": "Choo Chee Kong",
+      "actor_type": "ten_percent_owner",
+      "amount": 150000.0,
+      "date": "2026-07-20",
+      "score": 75.5
     }
   ],
   "institutional_changes": [
@@ -1007,14 +1012,6 @@
       "score": 63.7
     },
     {
-      "politician": "Gilbert Cisneros",
-      "ticker": "LLY",
-      "direction": "buy",
-      "amount": 100000,
-      "date": "2026-06-10",
-      "score": 63.5
-    },
-    {
       "politician": "James A. Himes",
       "ticker": "BAC",
       "direction": "sell",
@@ -1032,7 +1029,15 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "LLY",
+      "ticker": "ADBE",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Dan Newhouse",
+      "ticker": "CSX",
       "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
@@ -1047,6 +1052,30 @@
       "score": 62.4
     },
     {
+      "politician": "Dan Newhouse",
+      "ticker": "HSY",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "ticker": "CRDO",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-06-30",
+      "score": 62.4
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "ticker": "CYTK",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-06-30",
+      "score": 62.4
+    },
+    {
       "politician": "Gilbert Cisneros",
       "ticker": "SMTC",
       "direction": "sell",
@@ -1055,57 +1084,15 @@
       "score": 62.4
     },
     {
-      "politician": "Debbie Dingell",
-      "ticker": "HONAV",
-      "direction": "other",
-      "amount": 100000,
-      "date": "2026-06-29",
-      "score": 62.2
-    },
-    {
       "politician": "Gilbert Cisneros",
-      "ticker": "CAG",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-06-16",
-      "score": 62.0
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "ACN",
+      "ticker": "TCBI",
       "direction": "buy",
       "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "ADBE",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
+      "date": "2026-06-30",
+      "score": 62.4
     }
   ],
   "large_holders": [
-    {
-      "filer": "UAW Retiree Medical Benefits Trust",
-      "company": "KAYNE DL 2021, INC.",
-      "ticker": "",
-      "ownership_pct": 99.1,
-      "shares": 67001,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-23"
-    },
-    {
-      "filer": "UAW Retiree Medical Benefits Trust",
-      "company": "Commonwealth Credit Partners BDC I, Inc.",
-      "ticker": "",
-      "ownership_pct": 99.0,
-      "shares": 632140,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-23"
-    },
     {
       "filer": "Paolo Tiramani",
       "company": "BOXABL INC.",
@@ -1114,15 +1101,6 @@
       "shares": 172470048,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-24"
-    },
-    {
-      "filer": "UAW Retiree Medical Benefits Trust",
-      "company": "NMF SLF I, INC.",
-      "ticker": "",
-      "ownership_pct": 94.2,
-      "shares": 90537109,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-22"
     },
     {
       "filer": "Galiano Paolo Tiramani",
@@ -1134,22 +1112,13 @@
       "date": "2026-07-24"
     },
     {
-      "filer": "Jakhongir Abidovich Artikkhodjaev",
-      "company": "StageWise Strategies Corp.",
-      "ticker": "STWI",
-      "ownership_pct": 79.3,
-      "shares": 4000000,
+      "filer": "DEFJ, LLC",
+      "company": "Transcode Therapeutics, Inc.",
+      "ticker": "RNAZ",
+      "ownership_pct": 83.9,
+      "shares": 14134481,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-21"
-    },
-    {
-      "filer": "More Healthy Holdings Limited",
-      "company": "Zhongchao Inc.",
-      "ticker": "ZCMD",
-      "ownership_pct": 70.0,
-      "shares": 2700739,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-22"
+      "date": "2026-07-27"
     },
     {
       "filer": "AMG New York Holdings Corp.",
@@ -1179,15 +1148,6 @@
       "date": "2026-07-24"
     },
     {
-      "filer": "Penske Corporation",
-      "company": "Penske Automotive Group, Inc.",
-      "ticker": "PAG",
-      "ownership_pct": 52.2,
-      "shares": 34333500,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-22"
-    },
-    {
       "filer": "Kira S. Sheinerman",
       "company": "Niki BioSolutions, Inc.",
       "ticker": "",
@@ -1195,15 +1155,6 @@
       "shares": 1515293,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-24"
-    },
-    {
-      "filer": "Charles W. Ergen",
-      "company": "EchoStar CORP",
-      "ticker": "ECHO",
-      "ownership_pct": 50.9,
-      "shares": 148681347,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-22"
     },
     {
       "filer": "R01 Fund LP",
@@ -1222,18 +1173,72 @@
       "shares": 18628294,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-24"
+    },
+    {
+      "filer": "Framework Ventures IV L.P.",
+      "company": "Stablecoin Development Corp",
+      "ticker": "SDEV",
+      "ownership_pct": 46.6,
+      "shares": 47723141,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
+    },
+    {
+      "filer": "Abu Dhabi Investment Authority",
+      "company": "Jefferies Credit Partners BDC Inc.",
+      "ticker": "",
+      "ownership_pct": 45.5,
+      "shares": 26794407,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-27"
+    },
+    {
+      "filer": "Glory Achievement Fund Limited",
+      "company": "Niu Technologies",
+      "ticker": "NIU",
+      "ownership_pct": 41.9,
+      "shares": 65693947,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
+    },
+    {
+      "filer": "Canada Pension Plan Investment Board",
+      "company": "ReNew Energy Global plc",
+      "ticker": "",
+      "ownership_pct": 34.4,
+      "shares": 88846844,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-27"
+    },
+    {
+      "filer": "Franklin Resources, Inc.",
+      "company": "CLARION PARTNERS REAL ESTATE INCOME FUND INC.",
+      "ticker": "",
+      "ownership_pct": 27.5,
+      "shares": 30673835,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
+    },
+    {
+      "filer": "Apeiron Investment Group Ltd.",
+      "company": "Enhanced Group Inc.",
+      "ticker": "ENHA",
+      "ownership_pct": 26.6,
+      "shares": 35945876,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x946769f131",
-        "username": "cereals155970",
-        "pnl": 13087.06,
-        "win_rate": 1.0,
-        "volume": 22042.68,
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 39853.94,
+        "win_rate": 0.9286,
+        "volume": 290578.45,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
@@ -1247,14 +1252,13 @@
         ]
       },
       {
-        "wallet": "0x82398835fe",
-        "username": "Kosherlocks",
-        "pnl": 15819.65,
-        "win_rate": 0.9381,
-        "volume": 0.0,
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 16531.17,
+        "win_rate": 0.9386,
+        "volume": 74406.58,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
@@ -1268,22 +1272,11 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 17927.85,
-        "win_rate": 0.9075,
-        "volume": 335347.09,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 96092.29,
+        "pnl": 88547.79,
         "win_rate": 0.7907,
-        "volume": 498269.53,
+        "volume": 568470.84,
         "categories": [
           "sports",
           "politics",
@@ -1291,21 +1284,21 @@
         ]
       },
       {
-        "wallet": "0x69c5c6f6a4",
-        "username": "Themsnw",
-        "pnl": 26430.77,
-        "win_rate": 0.8393,
-        "volume": 0.0,
+        "wallet": "0xbf00e864ca",
+        "username": "luminaarx",
+        "pnl": 17686.29,
+        "win_rate": 0.8933,
+        "volume": 138489.04,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 12779.8,
-        "win_rate": 0.8787,
-        "volume": 50511.35,
+        "wallet": "0x69c5c6f6a4",
+        "username": "Themsnw",
+        "pnl": 28905.03,
+        "win_rate": 0.8393,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1324,11 +1317,23 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 136646.25,
+        "pnl": 161260.46,
         "win_rate": 0.673,
-        "volume": 117066.32,
+        "volume": 210337.77,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x85d53efdd0",
+        "username": "retroactivesource",
+        "pnl": 18065.28,
+        "win_rate": 0.8043,
+        "volume": 215710.46,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
         ]
       }
     ],
@@ -1336,9 +1341,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 70001.13,
-        "win_rate": 0.637,
-        "volume": 3539916.39,
+        "pnl": 72383.21,
+        "win_rate": 0.635,
+        "volume": 3962607.92,
         "categories": [
           "sports"
         ]
@@ -1346,9 +1351,9 @@
       {
         "wallet": "0x8201c74931",
         "username": "ColeDollarScholar",
-        "pnl": 15883.99,
+        "pnl": 15965.43,
         "win_rate": 0.5366,
-        "volume": 1345400.92,
+        "volume": 1366842.01,
         "categories": [
           "sports",
           "crypto"
@@ -1357,22 +1362,10 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 49858.6,
-        "win_rate": 0.591,
-        "volume": 2215310.66,
+        "pnl": 82269.0,
+        "win_rate": 0.587,
+        "volume": 2429976.12,
         "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xb687f00464",
-        "username": "alwayslatetotheparty",
-        "pnl": 15388.39,
-        "win_rate": 0.4351,
-        "volume": 591295.17,
-        "categories": [
-          "politics",
           "sports",
           "economy"
         ]
@@ -1380,9 +1373,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 96092.29,
+        "pnl": 88547.79,
         "win_rate": 0.7907,
-        "volume": 498269.53,
+        "volume": 568470.84,
         "categories": [
           "sports",
           "politics",
@@ -1390,30 +1383,53 @@
         ]
       },
       {
+        "wallet": "0xb687f00464",
+        "username": "alwayslatetotheparty",
+        "pnl": 36386.03,
+        "win_rate": 0.4342,
+        "volume": 613957.57,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 24344.84,
-        "win_rate": 0.564,
-        "volume": 964296.36,
+        "pnl": 27322.62,
+        "win_rate": 0.562,
+        "volume": 1187219.88,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 17927.85,
-        "win_rate": 0.9075,
-        "volume": 335347.09,
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 64811.55,
+        "win_rate": 0.4829,
+        "volume": 319302.75,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xd218e47477",
+        "username": "cigarettes",
+        "pnl": 29873.02,
+        "win_rate": 0.538,
+        "volume": 840004.52,
         "categories": [
           "sports",
-          "crypto"
+          "economy",
+          "politics"
         ]
       },
       {
         "wallet": "0xe033e9d4a0",
         "username": "CDAP1",
-        "pnl": 18554.69,
+        "pnl": 17243.36,
         "win_rate": 0.7222,
         "volume": 249811.13,
         "categories": [
@@ -1422,133 +1438,56 @@
         ]
       },
       {
-        "wallet": "0xe291a588ec",
-        "username": "patient12",
-        "pnl": 28812.83,
-        "win_rate": 0.6685,
-        "volume": 492190.44,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 68709.64,
+        "win_rate": 0.59,
+        "volume": 1094057.84,
         "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xb55fa1296e",
-        "username": "0xb55fa1296E6ec55D0cE53d93B9237389f11764d4-1777575277609",
-        "pnl": 15733.68,
-        "win_rate": 0.501,
-        "volume": 1303076.29,
-        "categories": [
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey",
-      "url": "https://www.dailypolitical.com/2026/07/27/ardelyx-nasdaqardx-vs-united-therapeutics-nasdaquthr-financial-survey.html",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-07-27"
-    },
-    {
-      "title": "Brokerages Set InterDigital , Inc . ( NASDAQ : IDCC ) Target Price at $416 . 67",
-      "url": "https://www.tickerreport.com/banking-finance/13515880/brokerages-set-interdigital-inc-nasdaqidcc-target-price-at-416-67-2.html",
-      "ticker": "IDCC",
-      "themes": [],
-      "date": "2026-07-26"
-    },
-    {
-      "title": "NewEdge Wealth LLC Purchases 5 , 599 Shares of InterDigital , Inc . $IDCC",
-      "url": "https://www.dailypolitical.com/2026/07/25/newedge-wealth-llc-purchases-5599-shares-of-interdigital-inc-idcc.html",
-      "ticker": "IDCC",
+      "title": "Taylor Morrison Home Shareholders Approve Berkshire Hathaway Merger",
+      "url": "https://www.tickerreport.com/banking-finance/13514700/taylor-morrison-home-shareholders-approve-berkshire-hathaway-merger.html",
+      "ticker": "TMHC",
       "themes": [
-        "stock"
+        "merger"
       ],
       "date": "2026-07-25"
     },
     {
-      "title": "2026 - 07 - 23 | InterDigital awarded another injunction against Disney by Pan - European Court | NDAQ : IDCC",
-      "url": "https://stockhouse.com/news/press-releases/2026/07/23/interdigital-awarded-another-injunction-against-disney-by-pan-european-court",
-      "ticker": "IDCC",
+      "title": "2026 - 07 - 24 | Berkshire Hathaway Completes Acquisition of Taylor Morrison | TSX : BRK",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/24/berkshire-hathaway-completes-acquisition-of-taylor-morrison",
+      "ticker": "TMHC",
       "themes": [
-        "ai"
+        "merger"
       ],
-      "date": "2026-07-23"
+      "date": "2026-07-24"
     },
     {
-      "title": "InterDigital awarded another injunction against Disney by Pan - European Court",
-      "url": "https://www.manilatimes.net/2026/07/23/tmt-newswire/globenewswire/interdigital-awarded-another-injunction-against-disney-by-pan-european-court/2390003",
-      "ticker": "IDCC",
+      "title": "Berkshire Hathaway Completes Acquisition of Taylor Morrison",
+      "url": "https://www.prnewswire.com/news-releases/berkshire-hathaway-completes-acquisition-of-taylor-morrison-302834141.html",
+      "ticker": "TMHC",
       "themes": [
-        "ai"
+        "merger"
       ],
-      "date": "2026-07-23"
+      "date": "2026-07-24"
     },
     {
-      "title": "New film  Built on Innovation  Centers InterDigital Role in the Future of Connectivity – IT Business Net",
-      "url": "https://itbusinessnet.com/2026/07/new-film-built-on-innovation-centers-interdigitals-role-in-the-future-of-connectivity/",
-      "ticker": "IDCC",
-      "themes": [],
-      "date": "2026-07-23"
-    },
-    {
-      "title": "AngioDynamics ( ANGO ) Q4 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/21/angiodynamics-ango-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "ANGO",
+      "title": "Taylor Morrison Home ( TMHC ) Expected to Announce Quarterly Earnings on Wednesday",
+      "url": "https://www.tickerreport.com/banking-finance/13509875/taylor-morrison-home-tmhc-expected-to-announce-quarterly-earnings-on-wednesday.html",
+      "ticker": "TMHC",
       "themes": [
         "earnings"
       ],
       "date": "2026-07-21"
-    },
-    {
-      "title": "Zacks Research Downgrades AngioDynamics ( NASDAQ : ANGO ) to Strong Sell",
-      "url": "https://www.tickerreport.com/banking-finance/13508103/zacks-research-downgrades-angiodynamics-nasdaqango-to-strong-sell.html",
-      "ticker": "ANGO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-18"
-    },
-    {
-      "title": "AngioDynamics ( NASDAQ : ANGO ) Downgraded by Zacks Research to  Strong Sell  ",
-      "url": "https://www.tickerreport.com/banking-finance/13508054/angiodynamics-nasdaqango-downgraded-by-zacks-research-to-strong-sell.html",
-      "ticker": "ANGO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-18"
-    },
-    {
-      "title": "AngioDynamics ( NASDAQ : ANGO ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 04 EPS",
-      "url": "https://www.dailypolitical.com/2026/07/16/angiodynamics-nasdaqango-issues-quarterly-earnings-results-beats-expectations-by-0-04-eps.html",
-      "ticker": "ANGO",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Biotech Stocks At 52 - Week Highs - CPIX , MRVI , ANGO , ACHC , TDOC",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69044154-biotech-stocks-at-52-week-highs-cpix-mrvi-ango-achc-tdoc-020.htm",
-      "ticker": "ANGO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "AngioDynamics ( NASDAQ : ANGO ) Given New $19 . 00 Price Target at HC Wainwright",
-      "url": "https://www.tickerreport.com/banking-finance/13504851/angiodynamics-nasdaqango-given-new-19-00-price-target-at-hc-wainwright.html",
-      "ticker": "ANGO",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-15"
     }
   ],
-  "signals_count": 1436,
+  "signals_count": 1407,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
