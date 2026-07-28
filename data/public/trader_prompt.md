@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-27T22:34:09+00:00 -->
+<!-- trader_prompt.md generado 2026-07-28T00:28:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-27T22:34:09+00:00 · ventana señales 2026-06-27 -> 2026-07-27_
+_Generado 2026-07-28T00:28:00+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -303,12 +303,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | XOM | 65 | congress | James A. Himes | $50,000 | - |
 | HD | 65 | congress | James A. Himes | $50,000 | - |
+| NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
+| ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | ADBE | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 | CSX | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| HSY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| CRDO | 62 | congress | Gilbert Cisneros | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -325,7 +325,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.28 (0.27% / -0.28% / -1.52%) [2026-07-27]
 - GLD: 374.63 (0.73% / 1.91% / 0.27%) [2026-07-27]
 - ^VIX: 18.67 (0.48% / 0.11% / 1.41%) [2026-07-27]
-- BTC-USD: 64533.71 (-1.23% / -2.37% / 1.95%) [2026-07-27]
+- BTC-USD: 63547.76 (-2.74% / -3.86% / 0.4%) [2026-07-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -340,18 +340,16 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (3), stock (3), earnings (2), ai (2)
+**Temas dominantes**: merger (3), stock (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [HSY] U . S . stocks end mixed on Monday , Nasdaq slides 44 points (2026-07-28)
+- [HSY] U . S . stocks end mixed on Monday , Nasdaq slides 44 points (2026-07-28)
 - [TMHC] Taylor Morrison Home Shareholders Approve Berkshire Hathaway Merger (2026-07-25)
-- [DDOG] CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? (2026-07-25)
 - [TMHC] 2026 - 07 - 24 | Berkshire Hathaway Completes Acquisition of Taylor Morrison | TSX : BRK (2026-07-24)
 - [TMHC] Berkshire Hathaway Completes Acquisition of Taylor Morrison (2026-07-24)
-- [SYM] Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now (2026-07-23)
 - [TMHC] Taylor Morrison Home ( TMHC ) Expected to Announce Quarterly Earnings on Wednesday (2026-07-21)
-- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-16)
-- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -366,19 +364,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $41,755 · win rate 93% · categorias: sports
-- ToeTickler98 · PnL $34,012 · win rate 91% · categorias: sports
-- laozishudaosan · PnL $16,853 · win rate 94% · categorias: sports
+- SDTrading · PnL $46,734 · win rate 93% · categorias: sports
+- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $21,853 · win rate 96% · categorias: sports, crypto
+- laozishudaosan · PnL $28,414 · win rate 94% · categorias: sports
+- ToeTickler98 · PnL $34,013 · win rate 91% · categorias: sports
 - Uniform123 · PnL $42,737 · win rate 87% · categorias: sports
-- wan123 · PnL $93,686 · win rate 79% · categorias: sports, politics, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 68 registros 30d · ultimo dato 2026-07-20
-- **sec_insiders**: `ok` · 488 registros 30d · ultimo dato 2026-07-27
+- **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-24
+- **sec_insiders**: `ok` · 486 registros 30d · ultimo dato 2026-07-27
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-27
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

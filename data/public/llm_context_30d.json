@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-27T22:33:19.120015+00:00",
+  "generated_at": "2026-07-28T00:27:06.517604+00:00",
   "window": {
-    "from": "2026-06-27",
-    "to": "2026-07-27",
+    "from": "2026-06-28",
+    "to": "2026-07-28",
     "days": 30
   },
   "data_quality": {
@@ -25,8 +25,7 @@
     "top_themes": [
       "merger",
       "stock",
-      "earnings",
-      "ai"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -101,9 +100,9 @@
       "importance_score": 83.3,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_350428287912",
-        "news_252650384791",
-        "news_267826127233"
+        "news_40566564226",
+        "news_560159835218",
+        "news_616669835985"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1570190/000119312526318101/"
     },
@@ -123,9 +122,9 @@
       "importance_score": 82.4,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_350428287912",
-        "news_252650384791",
-        "news_267826127233"
+        "news_40566564226",
+        "news_560159835218",
+        "news_616669835985"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1570190/000119312526318101/"
     },
@@ -435,20 +434,20 @@
         ]
       },
       {
+        "ticker": "SPCX",
+        "company": "SP Space Exploration Technologies Corp.",
+        "pressure_score": 413.5,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "GDTC",
         "company": "CytoMed Therapeutics Ltd",
         "pressure_score": 366.2,
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "SPCX",
-        "company": "SP Space Exploration Technologies Corp.",
-        "pressure_score": 357.6,
-        "sources": [
-          "congress"
         ]
       },
       {
@@ -486,7 +485,7 @@
       },
       {
         "ticker": "NVDA",
-        "company": "SP NVIDIA Corporation",
+        "company": "NVIDIA Corporation",
         "pressure_score": 174.3,
         "sources": [
           "congress"
@@ -509,20 +508,19 @@
         ]
       },
       {
-        "ticker": "NCO",
-        "company": "Southern Cross Acquisition I Corp.",
-        "pressure_score": 146.4,
+        "ticker": "AMAT",
+        "company": "Stock",
+        "pressure_score": 167.7,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "congress"
         ]
       },
       {
-        "ticker": "GLSI",
-        "company": "Greenwich LifeSciences, Inc.",
-        "pressure_score": 145.0,
+        "ticker": "META",
+        "company": "Common Stock",
+        "pressure_score": 163.2,
         "sources": [
-          "corporate_insider"
+          "congress"
         ]
       }
     ],
@@ -586,6 +584,14 @@
         ]
       },
       {
+        "ticker": "SPGI",
+        "company": "S&P Global Inc. Common Stock",
+        "pressure_score": 286.9,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "RVI",
         "company": "Robinhood Ventures Fund I",
         "pressure_score": 276.9,
@@ -623,15 +629,6 @@
         "pressure_score": 221.6,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "INSM",
-        "company": "Stock",
-        "pressure_score": 216.1,
-        "sources": [
-          "congress",
-          "corporate_insider"
         ]
       },
       {
@@ -717,15 +714,6 @@
       "score": 80.7
     },
     {
-      "ticker": "CLIR",
-      "company": "ClearSign Technologies Corp",
-      "actor": "PASQUESI JOHN M",
-      "actor_type": "ten_percent_owner",
-      "amount": 1770000.0,
-      "date": "2026-07-22",
-      "score": 79.6
-    },
-    {
       "ticker": "ACOG",
       "company": "Alpha Cognition Inc.",
       "actor": "Opaleye Management Inc.",
@@ -785,6 +773,15 @@
       "actor": "Aqua Capital, Ltd.",
       "actor_type": "ten_percent_owner",
       "amount": 401680.0,
+      "date": "2026-07-23",
+      "score": 76.4
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENERGIZER HOLDINGS, INC.",
+      "actor": "Aqua Capital, Ltd.",
+      "actor_type": "ten_percent_owner",
+      "amount": 407350.0,
       "date": "2026-07-23",
       "score": 76.4
     }
@@ -1005,12 +1002,28 @@
       "score": 64.2
     },
     {
+      "politician": "Sam T. Liccardo",
+      "ticker": "NVDA",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-21",
+      "score": 63.7
+    },
+    {
       "politician": "Gilbert Cisneros",
       "ticker": "AGX",
       "direction": "buy",
       "amount": 50000,
       "date": "2026-06-30",
       "score": 63.7
+    },
+    {
+      "politician": "Pete Sessions",
+      "ticker": "ARCC",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-24",
+      "score": 62.6
     },
     {
       "politician": "James A. Himes",
@@ -1054,6 +1067,14 @@
     },
     {
       "politician": "Dan Newhouse",
+      "ticker": "MU",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Dan Newhouse",
       "ticker": "HSY",
       "direction": "sell",
       "amount": 15000,
@@ -1064,30 +1085,6 @@
       "politician": "Gilbert Cisneros",
       "ticker": "CRDO",
       "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "CYTK",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "SMTC",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-30",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "TCBI",
-      "direction": "buy",
       "amount": 15000,
       "date": "2026-06-30",
       "score": 62.4
@@ -1212,15 +1209,6 @@
       "date": "2026-07-27"
     },
     {
-      "filer": "Franklin Resources, Inc.",
-      "company": "CLARION PARTNERS REAL ESTATE INCOME FUND INC.",
-      "ticker": "",
-      "ownership_pct": 27.5,
-      "shares": 30673835,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
       "filer": "Apeiron Investment Group Ltd.",
       "company": "Enhanced Group Inc.",
       "ticker": "ENHA",
@@ -1228,6 +1216,15 @@
       "shares": 35945876,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-24"
+    },
+    {
+      "filer": "J.B.D Innovation Ltd.",
+      "company": "Wearable Devices Ltd.",
+      "ticker": "",
+      "ownership_pct": 24.82,
+      "shares": 543361,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-07-27"
     }
   ],
   "polymarket": {
@@ -1235,9 +1232,30 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 41755.17,
+        "pnl": 46734.12,
         "win_rate": 0.9288,
-        "volume": 290578.45,
+        "volume": 378177.23,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbca0b22982",
+        "username": "0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614",
+        "pnl": 21853.2,
+        "win_rate": 0.9635,
+        "volume": 205177.29,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 28414.31,
+        "win_rate": 0.9397,
+        "volume": 128870.58,
         "categories": [
           "sports"
         ]
@@ -1245,19 +1263,9 @@
       {
         "wallet": "0x866056133a",
         "username": "ToeTickler98",
-        "pnl": 34011.52,
+        "pnl": 34013.02,
         "win_rate": 0.9091,
         "volume": 11.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa08455c829",
-        "username": "laozishudaosan",
-        "pnl": 16853.23,
-        "win_rate": 0.9386,
-        "volume": 125870.58,
         "categories": [
           "sports"
         ]
@@ -1275,23 +1283,13 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 93686.02,
+        "pnl": 120402.89,
         "win_rate": 0.7907,
-        "volume": 568470.84,
+        "volume": 595763.48,
         "categories": [
           "sports",
           "politics",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0xbf00e864ca",
-        "username": "luminaarx",
-        "pnl": 17686.29,
-        "win_rate": 0.8933,
-        "volume": 138489.04,
-        "categories": [
-          "sports"
         ]
       },
       {
@@ -1300,6 +1298,16 @@
         "pnl": 31379.29,
         "win_rate": 0.8393,
         "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb7aba0e44e",
+        "username": "marketmesh",
+        "pnl": 29841.2,
+        "win_rate": 1.0,
+        "volume": 54590.95,
         "categories": [
           "sports"
         ]
@@ -1316,24 +1324,14 @@
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 166413.79,
-        "win_rate": 0.673,
-        "volume": 322704.2,
+        "wallet": "0x3a8aa345d5",
+        "username": "TheReturnOfDarthMaul",
+        "pnl": 258731.51,
+        "win_rate": 0.612,
+        "volume": 297394.72,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x85d53efdd0",
-        "username": "retroactivesource",
-        "pnl": 18059.84,
-        "win_rate": 0.8043,
-        "volume": 215710.46,
-        "categories": [
-          "sports",
           "crypto",
+          "sports",
           "politics"
         ]
       }
@@ -1342,9 +1340,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 53452.19,
-        "win_rate": 0.637,
-        "volume": 4286171.04,
+        "pnl": 143749.63,
+        "win_rate": 0.621,
+        "volume": 5159196.52,
         "categories": [
           "sports"
         ]
@@ -1352,19 +1350,43 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 82087.93,
-        "win_rate": 0.585,
-        "volume": 2578213.44,
+        "pnl": 83649.8,
+        "win_rate": 0.584,
+        "volume": 3094314.69,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xd5b510cca6",
+        "username": "ofgoodfgdohojdf",
+        "pnl": 20716.8,
+        "win_rate": 0.2588,
+        "volume": 580179.48,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0xb687f00464",
         "username": "alwayslatetotheparty",
-        "pnl": 36161.56,
-        "win_rate": 0.4355,
-        "volume": 666515.48,
+        "pnl": 46645.38,
+        "win_rate": 0.4382,
+        "volume": 696811.92,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xa022ba0a68",
+        "username": "yungstalin",
+        "pnl": 26991.37,
+        "win_rate": 0.6398,
+        "volume": 559069.87,
         "categories": [
           "politics",
           "sports",
@@ -1374,9 +1396,9 @@
       {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 93686.02,
+        "pnl": 120402.89,
         "win_rate": 0.7907,
-        "volume": 568470.84,
+        "volume": 595763.48,
         "categories": [
           "sports",
           "politics",
@@ -1386,9 +1408,29 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 65017.33,
+        "pnl": 65976.43,
         "win_rate": 0.4829,
-        "volume": 410713.27,
+        "volume": 464496.15,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 70417.76,
+        "win_rate": 0.501,
+        "volume": 432040.5,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 93783.44,
+        "win_rate": 0.673,
+        "volume": 814043.35,
         "categories": [
           "sports"
         ]
@@ -1396,54 +1438,12 @@
       {
         "wallet": "0xd218e47477",
         "username": "cigarettes",
-        "pnl": 40138.04,
-        "win_rate": 0.515,
-        "volume": 933950.06,
+        "pnl": 30116.0,
+        "win_rate": 0.529,
+        "volume": 990439.0,
         "categories": [
           "sports",
           "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xa71093cafc",
-        "username": "Talvez10",
-        "pnl": 58872.27,
-        "win_rate": 0.501,
-        "volume": 320498.83,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 67043.0,
-        "win_rate": 0.594,
-        "volume": 1204854.46,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe033e9d4a0",
-        "username": "CDAP1",
-        "pnl": 19349.1,
-        "win_rate": 0.7222,
-        "volume": 249811.13,
-        "categories": [
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xe291a588ec",
-        "username": "patient12",
-        "pnl": 28812.83,
-        "win_rate": 0.6685,
-        "volume": 492190.44,
-        "categories": [
-          "sports",
           "politics"
         ]
       }
@@ -1451,20 +1451,29 @@
   },
   "news": [
     {
+      "title": "U . S . stocks end mixed on Monday , Nasdaq slides 44 points",
+      "url": "http://www.clevelandstar.com/news/279212532/u-s-stocks-end-mixed-on-monday-nasdaq-slides-44-points",
+      "ticker": "HSY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
+      "title": "U . S . stocks end mixed on Monday , Nasdaq slides 44 points",
+      "url": "http://www.floridastatesman.com/news/279212532/u-s-stocks-end-mixed-on-monday-nasdaq-slides-44-points",
+      "ticker": "HSY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
       "title": "Taylor Morrison Home Shareholders Approve Berkshire Hathaway Merger",
       "url": "https://www.tickerreport.com/banking-finance/13514700/taylor-morrison-home-shareholders-approve-berkshire-hathaway-merger.html",
       "ticker": "TMHC",
       "themes": [
         "merger"
-      ],
-      "date": "2026-07-25"
-    },
-    {
-      "title": "CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? ",
-      "url": "https://www.fool.com/coverage/charts/2026/07/24/coreweave-vs-datadog-what-do-the-revenue-trends-of-these-high-growth-tech-companies-tell-investors/?source=iedfolrf0000001",
-      "ticker": "DDOG",
-      "themes": [
-        "earnings"
       ],
       "date": "2026-07-25"
     },
@@ -1487,15 +1496,6 @@
       "date": "2026-07-24"
     },
     {
-      "title": "Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now",
-      "url": "https://www.fool.com/investing/2026/07/23/why-symbotic-stock-dropped-24-in-the-first-half-of/?source=iedfolrf0000001",
-      "ticker": "SYM",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-23"
-    },
-    {
       "title": "Taylor Morrison Home ( TMHC ) Expected to Announce Quarterly Earnings on Wednesday",
       "url": "https://www.tickerreport.com/banking-finance/13509875/taylor-morrison-home-tmhc-expected-to-announce-quarterly-earnings-on-wednesday.html",
       "ticker": "TMHC",
@@ -1503,29 +1503,9 @@
         "earnings"
       ],
       "date": "2026-07-21"
-    },
-    {
-      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-sym-one-best-low-193028883.html",
-      "ticker": "SYM",
-      "themes": [
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
-      "url": "https://www.insidermonkey.com/blog/is-symbotic-sym-one-of-the-best-low-priced-ai-stocks-to-buy-right-now-1801403/",
-      "ticker": "SYM",
-      "themes": [
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-14"
     }
   ],
-  "signals_count": 1454,
+  "signals_count": 1471,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
