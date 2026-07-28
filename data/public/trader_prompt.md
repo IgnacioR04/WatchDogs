@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-28T22:32:47+00:00 -->
+<!-- trader_prompt.md generado 2026-07-28T23:35:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-28T22:32:47+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
+_Generado 2026-07-28T23:35:53+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -283,21 +283,21 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
-| SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
 | PENG | 72 | large_holder | SK Telecom Co., Ltd. |  | - | - |
 | JKHY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | GDDY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FCCO | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FMC | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| ENVX | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | KRNY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | HTFL | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FUNC | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| SCTX | 71 | corporate_insider | Lucas Svetlana | 2 | $45,000 | cluster_buy |
 | CNXU | 70 | large_holder | Wright Michael G. |  | - | - |
 | ESTA | 70 | large_holder | BlackRock, Inc. |  | - | - |
 | HTO | 70 | large_holder | BlackRock, Inc. |  | - | - |
 | EL | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| JOUT | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| ISBA | 70 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.56 (0.3% / 0.27% / -1.25%) [2026-07-28]
 - GLD: 369.37 (-1.4% / -1.45% / 0.21%) [2026-07-28]
 - ^VIX: 18.21 (-2.46% / 6.8% / 3.17%) [2026-07-28]
-- BTC-USD: 63838.5 (0.18% / -1.85% / 2.54%) [2026-07-28]
+- BTC-USD: 63723.34 (-0.0% / -2.03% / 2.35%) [2026-07-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,13 +342,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1)
+**Temas dominantes**: leadership (3), stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SYM] Symbotic ( NASDAQ : SYM ) Insider Sells 2 , 244 Shares (2026-07-28)
-- [SYM] Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now (2026-07-23)
-- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-16)
+- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
+- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $5 , 038 , 990 . 00 in Stock (2026-07-28)
+- [EFX] Big business borrows up as SMEs pull back , Equifax data shows (2026-07-28)
+- [UTHR] Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey (2026-07-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -358,16 +360,16 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - CEO Griffith Susan Patricia vendio PGR por $7.9M el 2026-07-27 [senal en multiples fuentes].
 - CEO Pacitti David vendio AVNS por $11.1M el 2026-07-27.
 - 10% owner Market Technology Acquisition Sponsor LLC compro MTAK por $4.5M el 2026-07-27.
+- 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $8.2M el 2026-07-24.
 - CEO Huang Jack Jiajia compro COE por $2.0M el 2026-07-22.
-- CFO ZHANG PINGTING compro STFS por $2.6M el 2026-07-22.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $132,035 · win rate 91% · categorias: sports
-- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $181,886 · win rate 88% · categorias: sports, crypto
-- comon119 · PnL $19,581 · win rate 98% · categorias: sports, crypto, politics
-- MoistLotion · PnL $18,014 · win rate 98% · categorias: crypto, sports, economy
-- esportGG · PnL $22,320 · win rate 95% · categorias: sports
+- monkeymashingkeyboard · PnL $133,167 · win rate 91% · categorias: sports
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $181,904 · win rate 88% · categorias: sports, crypto
+- comon119 · PnL $19,595 · win rate 98% · categorias: sports, crypto, politics
+- MoistLotion · PnL $18,052 · win rate 98% · categorias: crypto, sports, economy
+- WTSA · PnL $114,762 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -375,7 +377,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 492 registros 30d · ultimo dato 2026-07-28
+- **sec_insiders**: `ok` · 504 registros 30d · ultimo dato 2026-07-28
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
