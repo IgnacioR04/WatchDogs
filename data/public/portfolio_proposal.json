@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-28T17:06:29+00:00",
+  "generated_at": "2026-07-28T19:05:17+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
     "IEF": 0.0488,
-    "KRNY": 0.0461,
-    "NMM": 0.0406,
-    "BSY": 0.0354,
-    "FIS": 0.0351,
-    "ENR": 0.0301,
-    "RYZ": 0.0234,
-    "ACHV": 0.0182,
-    "BTDR": 0.0136,
-    "SPCX": 0.0112,
-    "PENG": 0.009
+    "KRNY": 0.0482,
+    "NMM": 0.0424,
+    "BSY": 0.037,
+    "ENR": 0.0314,
+    "ACHC": 0.0251,
+    "RYZ": 0.0245,
+    "ACHV": 0.019,
+    "BTDR": 0.0143,
+    "SPCX": 0.0116,
+    "PENG": 0.0093
   },
   "core": {
     "SPY": 0.1592,
@@ -29,16 +29,16 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "ENR": 0.0281,
-    "SPCX": 0.0104,
-    "NMM": 0.0379,
-    "ACHV": 0.017,
-    "BTDR": 0.0127,
-    "KRNY": 0.043,
-    "PENG": 0.0084,
-    "RYZ": 0.0218,
-    "BSY": 0.033,
-    "FIS": 0.0327
+    "ENR": 0.0293,
+    "SPCX": 0.0108,
+    "NMM": 0.0395,
+    "ACHV": 0.0177,
+    "BTDR": 0.0133,
+    "KRNY": 0.0449,
+    "PENG": 0.0087,
+    "RYZ": 0.0228,
+    "BSY": 0.0345,
+    "ACHC": 0.0234
   },
   "satellite_rationale": [
     {
@@ -114,7 +114,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "FIS",
+      "ticker": "ACHC",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -123,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0795,
-    "var_95_1d": 0.0076,
-    "cvar_95_1d": 0.0094,
-    "max_drawdown": -0.0164,
+    "ann_vol": 0.0869,
+    "var_95_1d": 0.0082,
+    "cvar_95_1d": 0.0102,
+    "max_drawdown": -0.0162,
     "beta_spy": null,
-    "hhi": 0.0496,
+    "hhi": 0.0497,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 20.2,
-    "gross_exposure": 0.6998,
+    "effective_positions": 20.1,
+    "gross_exposure": 0.6999,
     "days_used": 23
   },
   "risk_gate": {
