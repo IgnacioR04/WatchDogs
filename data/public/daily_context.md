@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-28T03:52:46+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
+_Generado 2026-07-28T06:57:12+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,13 +26,13 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | QQQ | 9.8% | core | 682.12 | -0.31% | -2.0% | -3.45% |
 | TLT | 9.8% | core | 83.75 | 0.6% | -0.17% | -3.78% |
 | GLD | 7.3% | core | 374.63 | 0.73% | 1.91% | 0.27% |
-| FSBC | 6.9% | satellite | 47.21 | -0.3% | -3.28% | -1.01% |
-| BEP | 5.1% | satellite | 32.13 | -2.84% | 1.16% | -8.8% |
-| IEF | 4.9% | core | 93.28 | 0.46% | -0.6% | -1.27% |
-| FIS | 4.0% | satellite | 43.16 | 7.79% | 2.98% | 14.0% |
-| NMM | 3.7% | satellite | 77.71 | 1.16% | 8.88% | 11.44% |
-| BSY | 3.5% | satellite | 33.71 | 11.92% | 4.24% | 17.42% |
-| ENR | 3.1% | satellite | 21.04 | 1.89% | 4.0% | -5.86% |
+| FSBC | 6.9% | satellite | 47.21 | 0.85% | -3.73% | -2.54% |
+| BEP | 5.1% | satellite | 32.13 | -2.99% | 0.25% | -8.9% |
+| IEF | 4.9% | core | 93.28 | 0.27% | -0.28% | -1.52% |
+| FIS | 4.0% | satellite | 43.16 | 3.97% | 2.11% | 11.9% |
+| NMM | 3.7% | satellite | 77.71 | -1.76% | 7.2% | 12.67% |
+| BSY | 3.5% | satellite | 33.71 | 7.36% | 4.2% | 12.37% |
+| ENR | 3.1% | satellite | 21.04 | 0.38% | 3.39% | -7.07% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -97,10 +97,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IWM: 292.91 (0.6% / 0.21% / -2.31%) [2026-07-27]
 - DIA: 521.26 (0.48% / 0.64% / 0.71%) [2026-07-27]
 - TLT: 83.75 (0.6% / -0.17% / -3.78%) [2026-07-27]
-- IEF: 93.28 (0.46% / -0.6% / -1.27%) [2026-07-27]
+- IEF: 93.28 (0.27% / -0.28% / -1.52%) [2026-07-27]
 - GLD: 374.63 (0.73% / 1.91% / 0.27%) [2026-07-27]
-- ^VIX: 18.67 (-0.16% / -0.53% / -1.16%) [2026-07-27]
-- BTC-USD: 63238.49 (-3.22% / -4.33% / -0.09%) [2026-07-28]
+- ^VIX: 18.67 (0.48% / 0.11% / 1.41%) [2026-07-27]
+- BTC-USD: 63570.95 (-0.24% / -2.27% / 2.11%) [2026-07-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,15 +115,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (3), earnings (2)
+**Temas dominantes**: stock (3), ai (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMHC] Taylor Morrison Home Shareholders Approve Berkshire Hathaway Merger (2026-07-25)
 - [DDOG] CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? (2026-07-25)
-- [TMHC] 2026 - 07 - 24 | Berkshire Hathaway Completes Acquisition of Taylor Morrison | TSX : BRK (2026-07-24)
-- [TMHC] Berkshire Hathaway Completes Acquisition of Taylor Morrison (2026-07-24)
-- [TMHC] Taylor Morrison Home ( TMHC ) Expected to Announce Quarterly Earnings on Wednesday (2026-07-21)
+- [SYM] Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now (2026-07-23)
+- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-16)
+- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,11 +137,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $117,375 · win rate 90% · categorias: sports
+- monkeymashingkeyboard · PnL $125,831 · win rate 91% · categorias: sports
 - 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $112,386 · win rate 89% · categorias: sports
-- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $73,241 · win rate 88% · categorias: sports, crypto
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,713 · win rate 98% · categorias: sports, crypto
-- comon119 · PnL $7,263 · win rate 98% · categorias: sports, crypto, politics
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $122,359 · win rate 88% · categorias: sports, crypto
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $13,033 · win rate 98% · categorias: sports, crypto
+- comon119 · PnL $10,515 · win rate 98% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
