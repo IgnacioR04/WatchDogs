@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-28T14:57:24+00:00",
+  "generated_at": "2026-07-28T17:06:29+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
   "total_equity": 0.6998,
   "cash": 0.3002,
   "weights": {
-    "SPY": 0.1201,
+    "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "BEP": 0.0639,
     "IEF": 0.0488,
-    "NMM": 0.0433,
-    "BSY": 0.0379,
-    "FIS": 0.0374,
-    "ENR": 0.0321,
-    "BTDR": 0.0146,
-    "GLSI": 0.012,
-    "SPCX": 0.0119,
-    "PENG": 0.0095
+    "KRNY": 0.0461,
+    "NMM": 0.0406,
+    "BSY": 0.0354,
+    "FIS": 0.0351,
+    "ENR": 0.0301,
+    "RYZ": 0.0234,
+    "ACHV": 0.0182,
+    "BTDR": 0.0136,
+    "SPCX": 0.0112,
+    "PENG": 0.009
   },
   "core": {
     "SPY": 0.1592,
@@ -28,15 +29,16 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "ENR": 0.0299,
-    "SPCX": 0.0111,
-    "NMM": 0.0404,
-    "BTDR": 0.0136,
-    "PENG": 0.0089,
-    "BSY": 0.0353,
-    "FIS": 0.0349,
-    "BEP": 0.0596,
-    "GLSI": 0.0112
+    "ENR": 0.0281,
+    "SPCX": 0.0104,
+    "NMM": 0.0379,
+    "ACHV": 0.017,
+    "BTDR": 0.0127,
+    "KRNY": 0.043,
+    "PENG": 0.0084,
+    "RYZ": 0.0218,
+    "BSY": 0.033,
+    "FIS": 0.0327
   },
   "satellite_rationale": [
     {
@@ -64,6 +66,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "ACHV",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "BTDR",
       "score": 141.0,
       "sources": [
@@ -72,7 +82,23 @@
       "n_signals": 2
     },
     {
+      "ticker": "KRNY",
+      "score": 110.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "PENG",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RYZ",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -94,34 +120,18 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "BEP",
-      "score": 58.5,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GLSI",
-      "score": 58.1,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0869,
-    "var_95_1d": 0.0093,
-    "cvar_95_1d": 0.0096,
-    "max_drawdown": -0.0304,
+    "ann_vol": 0.0795,
+    "var_95_1d": 0.0076,
+    "cvar_95_1d": 0.0094,
+    "max_drawdown": -0.0164,
     "beta_spy": null,
-    "hhi": 0.0516,
-    "max_position": 0.1201,
-    "n_positions": 14,
-    "effective_positions": 19.4,
+    "hhi": 0.0496,
+    "max_position": 0.12,
+    "n_positions": 15,
+    "effective_positions": 20.2,
     "gross_exposure": 0.6998,
     "days_used": 23
   },
