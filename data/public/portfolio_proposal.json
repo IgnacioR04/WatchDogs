@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:05:17+00:00",
+  "generated_at": "2026-07-28T20:51:12+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
   "total_equity": 0.6999,
@@ -8,18 +8,15 @@
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
+    "BEP": 0.0782,
     "GLD": 0.0731,
+    "KRNY": 0.0603,
+    "NMM": 0.0531,
     "IEF": 0.0488,
-    "KRNY": 0.0482,
-    "NMM": 0.0424,
-    "BSY": 0.037,
-    "ENR": 0.0314,
-    "ACHC": 0.0251,
-    "RYZ": 0.0245,
-    "ACHV": 0.019,
-    "BTDR": 0.0143,
-    "SPCX": 0.0116,
-    "PENG": 0.0093
+    "ACHV": 0.0238,
+    "MSTR": 0.0182,
+    "GLSI": 0.0147,
+    "SPCX": 0.0145
   },
   "core": {
     "SPY": 0.1592,
@@ -29,26 +26,15 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "ENR": 0.0293,
-    "SPCX": 0.0108,
-    "NMM": 0.0395,
-    "ACHV": 0.0177,
-    "BTDR": 0.0133,
-    "KRNY": 0.0449,
-    "PENG": 0.0087,
-    "RYZ": 0.0228,
-    "BSY": 0.0345,
-    "ACHC": 0.0234
+    "SPCX": 0.0135,
+    "NMM": 0.0495,
+    "ACHV": 0.0222,
+    "KRNY": 0.0562,
+    "MSTR": 0.017,
+    "BEP": 0.0729,
+    "GLSI": 0.0137
   },
   "satellite_rationale": [
-    {
-      "ticker": "ENR",
-      "score": 369.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
     {
       "ticker": "SPCX",
       "score": 241.4,
@@ -74,14 +60,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "BTDR",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "KRNY",
       "score": 110.6,
       "sources": [
@@ -90,48 +68,40 @@
       "n_signals": 2
     },
     {
-      "ticker": "PENG",
-      "score": 71.8,
+      "ticker": "MSTR",
+      "score": 62.0,
       "sources": [
-        "large_holder"
+        "congress"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "RYZ",
-      "score": 71.8,
+      "ticker": "BEP",
+      "score": 58.5,
       "sources": [
-        "large_holder"
+        "congress"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "BSY",
-      "score": 71.8,
+      "ticker": "GLSI",
+      "score": 58.1,
       "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "ACHC",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0869,
-    "var_95_1d": 0.0082,
-    "cvar_95_1d": 0.0102,
-    "max_drawdown": -0.0162,
+    "ann_vol": 0.0886,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.0098,
+    "max_drawdown": -0.0285,
     "beta_spy": null,
-    "hhi": 0.0497,
+    "hhi": 0.0551,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 20.1,
+    "n_positions": 12,
+    "effective_positions": 18.2,
     "gross_exposure": 0.6999,
     "days_used": 23
   },
