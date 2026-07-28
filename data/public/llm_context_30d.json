@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-28T10:04:50.997212+00:00",
+  "generated_at": "2026-07-28T12:28:19.200168+00:00",
   "window": {
     "from": "2026-06-28",
     "to": "2026-07-28",
@@ -23,8 +23,6 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -533,6 +531,14 @@
         ]
       },
       {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 934.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "TMHC",
         "company": "Taylor Morrison Home Corp",
         "pressure_score": 811.4,
@@ -620,14 +626,6 @@
         "pressure_score": 221.6,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "GREE",
-        "company": "Vulcan Infrastructure & Power Inc.",
-        "pressure_score": 214.9,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -1182,15 +1180,6 @@
       "date": "2026-07-27"
     },
     {
-      "filer": "Glory Achievement Fund Limited",
-      "company": "Niu Technologies",
-      "ticker": "NIU",
-      "ownership_pct": 41.9,
-      "shares": 65693947,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
       "filer": "Canada Pension Plan Investment Board",
       "company": "ReNew Energy Global plc",
       "ticker": "",
@@ -1216,14 +1205,34 @@
       "shares": 543361,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-27"
+    },
+    {
+      "filer": "Choo Chee Kong",
+      "company": "CytoMed Therapeutics Ltd",
+      "ticker": "GDTC",
+      "ownership_pct": 24.3,
+      "shares": 2899746,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x7d6d24d5d9",
+        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
+        "pnl": 203175.66,
+        "win_rate": 0.8913,
+        "volume": 1137475.21,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 125830.64,
+        "pnl": 125825.29,
         "win_rate": 0.907,
         "volume": 39138.62,
         "categories": [
@@ -1231,31 +1240,43 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 112719.07,
-        "win_rate": 0.8889,
-        "volume": 179036.54,
+        "wallet": "0x27c5c1eee4",
+        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
+        "pnl": 119351.9,
+        "win_rate": 0.8774,
+        "volume": 392102.24,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x27c5c1eee4",
-        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 122359.38,
-        "win_rate": 0.8774,
-        "volume": 327164.33,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 60965.41,
+        "win_rate": 0.9029,
+        "volume": 173987.81,
         "categories": [
           "sports",
-          "crypto"
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xa16a1302ca",
+        "username": "MoistLotion",
+        "pnl": 16718.19,
+        "win_rate": 0.983,
+        "volume": 748840.64,
+        "categories": [
+          "crypto",
+          "sports",
+          "economy"
         ]
       },
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 11489.25,
+        "pnl": 12628.0,
         "win_rate": 0.984,
         "volume": 76481.71,
         "categories": [
@@ -1267,22 +1288,33 @@
       {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 11684.77,
+        "pnl": 10222.98,
         "win_rate": 0.977,
-        "volume": 57230.35,
+        "volume": 61687.1,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xbddf61af53",
-        "username": "Countryside",
-        "pnl": 10476.33,
-        "win_rate": 0.9037,
-        "volume": 0.0,
+        "wallet": "0x62369b3567",
+        "username": "Chensang7",
+        "pnl": 10071.71,
+        "win_rate": 0.9412,
+        "volume": 32417.06,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 12038.45,
+        "win_rate": 0.9083,
+        "volume": 185933.37,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1294,57 +1326,90 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x924379a79c",
-        "username": "Kch-Temp",
-        "pnl": 13094.98,
-        "win_rate": 0.875,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 9302.98,
-        "win_rate": 0.89,
-        "volume": 3113.67,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xef2684030d",
-        "username": "LOBODAFL",
-        "pnl": 11020.31,
-        "win_rate": 0.796,
-        "volume": 10665.83,
-        "categories": [
-          "sports",
-          "politics"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 112719.07,
-        "win_rate": 0.8889,
-        "volume": 179036.54,
+        "pnl": 203175.66,
+        "win_rate": 0.8913,
+        "volume": 1137475.21,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0xbd825f0cbc",
+        "username": "0xBd825f0cbc395cFdb09744C0517528CCC79565e3-1785223700274",
+        "pnl": 11463.58,
+        "win_rate": 1.0,
+        "volume": 258086.31,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x187a72bac3",
         "username": "THEBIGBETS",
-        "pnl": 46606.07,
+        "pnl": 31305.12,
         "win_rate": 0.7059,
-        "volume": 165400.96,
+        "volume": 226978.15,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa16a1302ca",
+        "username": "MoistLotion",
+        "pnl": 16718.19,
+        "win_rate": 0.983,
+        "volume": 748840.64,
+        "categories": [
+          "crypto",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 12038.45,
+        "win_rate": 0.9083,
+        "volume": 185933.37,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf40d629171",
+        "username": "0xF40d629171E59C70B47Fd7714F43638eB065343D-1785224929068",
+        "pnl": 100022.36,
+        "win_rate": 1.0,
+        "volume": 206887.97,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x27c5c1eee4",
+        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
+        "pnl": 119351.9,
+        "win_rate": 0.8774,
+        "volume": 392102.24,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1b20a00709",
+        "username": "0x1b20a00709DfE648AFd26b326394b5e031f83ab0-1785189457930",
+        "pnl": 102904.57,
+        "win_rate": 0.8,
+        "volume": 139883.86,
         "categories": [
           "sports"
         ]
@@ -1360,76 +1425,14 @@
         ]
       },
       {
-        "wallet": "0x27c5c1eee4",
-        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 122359.38,
-        "win_rate": 0.8774,
-        "volume": 327164.33,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 60965.41,
+        "win_rate": 0.9029,
+        "volume": 173987.81,
         "categories": [
           "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xbd825f0cbc",
-        "username": "0xBd825f0cbc395cFdb09744C0517528CCC79565e3-1785223700274",
-        "pnl": 41328.26,
-        "win_rate": 1.0,
-        "volume": 82848.1,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xd1ed12197b",
-        "username": "curie",
-        "pnl": 22386.3,
-        "win_rate": 0.691,
-        "volume": 427025.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 47837.83,
-        "win_rate": 0.676,
-        "volume": 125025.54,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 11489.25,
-        "win_rate": 0.984,
-        "volume": 76481.71,
-        "categories": [
-          "sports",
-          "crypto",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x0feb1bf966",
-        "username": "YungFelon",
-        "pnl": 16368.29,
-        "win_rate": 0.9333,
-        "volume": 131371.06,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xbca08c1bc2",
-        "username": "1winstreak1",
-        "pnl": 37959.47,
-        "win_rate": 0.577,
-        "volume": 218953.3,
-        "categories": [
-          "sports"
         ]
       }
     ]
@@ -1443,38 +1446,9 @@
         "earnings"
       ],
       "date": "2026-07-25"
-    },
-    {
-      "title": "Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now",
-      "url": "https://www.fool.com/investing/2026/07/23/why-symbotic-stock-dropped-24-in-the-first-half-of/?source=iedfolrf0000001",
-      "ticker": "SYM",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-sym-one-best-low-193028883.html",
-      "ticker": "SYM",
-      "themes": [
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
-      "url": "https://www.insidermonkey.com/blog/is-symbotic-sym-one-of-the-best-low-priced-ai-stocks-to-buy-right-now-1801403/",
-      "ticker": "SYM",
-      "themes": [
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-14"
     }
   ],
-  "signals_count": 1481,
+  "signals_count": 1471,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

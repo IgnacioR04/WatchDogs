@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-28T10:05:51+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
+_Generado 2026-07-28T12:29:06+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.86)
+- Volatilidad: `normal` (VIX 18.83)
 - Tendencia: `neutral` (SPY 739.09 · MA50 744.08 · MA200 695.81 · dist MA200: 6.22%)
 - Credito: `tight` (HY spread 2.79)
 - Tipos: `flat` (curva 10y-2y 0.34)
@@ -26,20 +26,21 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | QQQ | 9.8% | core | 682.12 | -0.31% | -2.0% | -3.45% |
 | TLT | 9.8% | core | 83.75 | 0.6% | -0.17% | -3.78% |
 | GLD | 7.3% | core | 374.63 | 0.73% | 1.91% | 0.27% |
-| FSBC | 6.9% | satellite | 47.21 | -0.3% | -3.28% | -1.01% |
-| BEP | 5.1% | satellite | 32.13 | -2.84% | 1.16% | -8.8% |
+| FSBC | 6.6% | satellite | 47.21 | -0.3% | -3.28% | -1.01% |
 | IEF | 4.9% | core | 93.28 | 0.46% | -0.6% | -1.27% |
-| FIS | 4.0% | satellite | 43.16 | 7.79% | 2.98% | 14.0% |
-| NMM | 3.7% | satellite | 77.71 | 1.16% | 8.88% | 11.44% |
-| BSY | 3.5% | satellite | 33.71 | 11.92% | 4.24% | 17.42% |
-| ENR | 3.1% | satellite | 21.04 | 1.89% | 4.0% | -5.86% |
+| BEP | 4.8% | satellite | 32.13 | -2.84% | 1.16% | -8.8% |
+| FIS | 3.8% | satellite | 43.16 | 7.79% | 2.98% | 14.0% |
+| NMM | 3.5% | satellite | 77.71 | 1.16% | 8.88% | 11.44% |
+| BSY | 3.3% | satellite | 33.71 | 11.92% | 4.24% | 17.42% |
+| ENR | 3.0% | satellite | 21.04 | 1.89% | 4.0% | -5.86% |
+| GLSI | 1.4% | satellite | 13.44 | 1.9% | -17.65% | -26.68% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.7%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.8%
-- Beta vs SPY: 0.512 · posiciones efectivas: 18.6 · HHI: 0.0537
+- Volatilidad anualizada: 9.1%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.9%
+- Beta vs SPY: 0.549 · posiciones efectivas: 19.0 · HHI: 0.0526
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -49,6 +50,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - **BSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FIS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
+- **GLSI** · score agregado 58.1 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -66,11 +68,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | NMM | 74 | corporate_insider | Frangou Angeliki | 0 | $846,122,589 | - |
 | SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
 | SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
+| PENG | 72 | large_holder | SK Telecom Co., Ltd. |  | - | - |
 | CRAI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | BSY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ADBE | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ACHC | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| CRDO | 72 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -99,8 +101,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 83.75 (0.6% / -0.17% / -3.78%) [2026-07-27]
 - IEF: 93.28 (0.46% / -0.6% / -1.27%) [2026-07-27]
 - GLD: 374.63 (0.73% / 1.91% / 0.27%) [2026-07-27]
-- ^VIX: 18.86 (1.02% / 1.13% / 2.44%) [2026-07-28]
-- BTC-USD: 63301.12 (-0.67% / -2.68% / 1.68%) [2026-07-28]
+- ^VIX: 18.83 (0.86% / 0.97% / 2.28%) [2026-07-28]
+- BTC-USD: 63415.57 (-0.49% / -2.5% / 1.86%) [2026-07-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,14 +117,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), earnings (1)
+**Temas dominantes**: earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DDOG] CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? (2026-07-25)
-- [SYM] Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now (2026-07-23)
-- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-16)
-- [SYM] Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? (2026-07-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -137,11 +136,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $125,831 · win rate 91% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $112,719 · win rate 89% · categorias: sports, crypto
-- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $122,359 · win rate 88% · categorias: sports, crypto
-- comon119 · PnL $11,489 · win rate 98% · categorias: sports, crypto, politics
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $11,685 · win rate 98% · categorias: sports, crypto
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $203,176 · win rate 89% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $125,825 · win rate 91% · categorias: sports
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $119,352 · win rate 88% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $60,965 · win rate 90% · categorias: sports, politics
+- MoistLotion · PnL $16,718 · win rate 98% · categorias: crypto, sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,8 +148,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 496 registros 30d · ultimo dato 2026-07-27
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-27
+- **sec_insiders**: `ok` · 486 registros 30d · ultimo dato 2026-07-27
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -162,7 +161,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BSY, ENR, FIS, FSBC, GLD, IEF, NMM, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BSY, ENR, FIS, FSBC, GLD, GLSI, IEF, NMM, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

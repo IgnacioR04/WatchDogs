@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-07-28T10:05:50+00:00",
+  "generated_at": "2026-07-28T12:29:05+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.7,
+  "cash": 0.3,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "FSBC": 0.0693,
-    "BEP": 0.0506,
+    "FSBC": 0.0655,
     "IEF": 0.0488,
-    "FIS": 0.04,
-    "NMM": 0.0369,
-    "BSY": 0.0346,
-    "ENR": 0.0313
+    "BEP": 0.0478,
+    "FIS": 0.0379,
+    "NMM": 0.035,
+    "BSY": 0.0328,
+    "ENR": 0.0296,
+    "GLSI": 0.0143
   },
   "core": {
     "SPY": 0.1592,
@@ -25,12 +26,13 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "FSBC": 0.0646,
-    "ENR": 0.0292,
-    "NMM": 0.0344,
-    "BSY": 0.0323,
-    "FIS": 0.0373,
-    "BEP": 0.0472
+    "FSBC": 0.0611,
+    "ENR": 0.0276,
+    "NMM": 0.0326,
+    "BSY": 0.0306,
+    "FIS": 0.0353,
+    "BEP": 0.0446,
+    "GLSI": 0.0133
   },
   "satellite_rationale": [
     {
@@ -80,19 +82,27 @@
         "congress"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "GLSI",
+      "score": 58.1,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0867,
-    "var_95_1d": 0.0089,
-    "cvar_95_1d": 0.011,
-    "max_drawdown": -0.0379,
-    "beta_spy": 0.512,
-    "hhi": 0.0537,
+    "ann_vol": 0.0914,
+    "var_95_1d": 0.0096,
+    "cvar_95_1d": 0.0113,
+    "max_drawdown": -0.0391,
+    "beta_spy": 0.549,
+    "hhi": 0.0526,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 18.6,
-    "gross_exposure": 0.6998,
+    "n_positions": 12,
+    "effective_positions": 19.0,
+    "gross_exposure": 0.7,
     "days_used": 91
   },
   "risk_gate": {
