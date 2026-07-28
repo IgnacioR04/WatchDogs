@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-28T00:28:00+00:00 -->
+<!-- trader_prompt.md generado 2026-07-28T03:52:46+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-28T00:28:00+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
+_Generado 2026-07-28T03:52:46+00:00 · ventana señales 2026-06-28 -> 2026-07-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -252,25 +252,27 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | SPY | 12.0% | core | 739.09 | 0.02% | -0.4% | 1.39% |
 | QQQ | 9.8% | core | 682.12 | -0.31% | -2.0% | -3.45% |
 | TLT | 9.8% | core | 83.75 | 0.6% | -0.17% | -3.78% |
-| FSBC | 8.1% | satellite | 47.21 | 0.85% | -3.73% | -2.54% |
 | GLD | 7.3% | core | 374.63 | 0.73% | 1.91% | 0.27% |
-| BEP | 5.9% | satellite | 32.13 | -2.99% | 0.25% | -8.9% |
-| IEF | 4.9% | core | 93.28 | 0.27% | -0.28% | -1.52% |
-| FIS | 4.7% | satellite | 43.16 | 3.97% | 2.11% | 11.9% |
-| BSY | 4.0% | satellite | 33.71 | 7.36% | 4.2% | 12.37% |
-| ENR | 3.6% | satellite | 21.04 | 0.38% | 3.39% | -7.07% |
+| FSBC | 6.9% | satellite | 47.21 | -0.3% | -3.28% | -1.01% |
+| BEP | 5.1% | satellite | 32.13 | -2.84% | 1.16% | -8.8% |
+| IEF | 4.9% | core | 93.28 | 0.46% | -0.6% | -1.27% |
+| FIS | 4.0% | satellite | 43.16 | 7.79% | 2.98% | 14.0% |
+| NMM | 3.7% | satellite | 77.71 | 1.16% | 8.88% | 11.44% |
+| BSY | 3.5% | satellite | 33.71 | 11.92% | 4.24% | 17.42% |
+| ENR | 3.1% | satellite | 21.04 | 1.89% | 4.0% | -5.86% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 8.7%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
 - Max drawdown historico: -3.8%
-- Beta vs SPY: 0.502 · posiciones efectivas: 17.8 · HHI: 0.0563
+- Beta vs SPY: 0.512 · posiciones efectivas: 18.6 · HHI: 0.0537
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FSBC** · score agregado 557.7 · 7 señales · fuentes: corporate_insider
 - **ENR** · score agregado 369.3 · 6 señales · fuentes: corporate_insider
+- **NMM** · score agregado 189.8 · 3 señales · fuentes: corporate_insider
 - **BSY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FIS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -288,14 +290,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | FSBC | 78 | corporate_insider | Ramos Kevin Francis | 6 | $250,008 | cluster_buy |
 | FSBC | 76 | corporate_insider | Riggs Judson Teichert | 6 | $100,012 | cluster_buy |
 | FSBC | 75 | corporate_insider | Lucas Donna | 6 | $49,984 | cluster_buy |
+| NMM | 74 | corporate_insider | Frangou Angeliki | 0 | $846,122,589 | - |
+| SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
+| SCTX | 72 | corporate_insider | Parrot David | 2 | $19,995 | cluster_buy,small_amount |
 | CRAI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | BSY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ADBE | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ACHC | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | CRDO | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| NCO | 72 | large_holder | Feis Equities LLC |  | - | - |
-| FIS | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
-| EVGN | 70 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -322,10 +324,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IWM: 292.91 (0.6% / 0.21% / -2.31%) [2026-07-27]
 - DIA: 521.26 (0.48% / 0.64% / 0.71%) [2026-07-27]
 - TLT: 83.75 (0.6% / -0.17% / -3.78%) [2026-07-27]
-- IEF: 93.28 (0.27% / -0.28% / -1.52%) [2026-07-27]
+- IEF: 93.28 (0.46% / -0.6% / -1.27%) [2026-07-27]
 - GLD: 374.63 (0.73% / 1.91% / 0.27%) [2026-07-27]
-- ^VIX: 18.67 (0.48% / 0.11% / 1.41%) [2026-07-27]
-- BTC-USD: 63547.76 (-2.74% / -3.86% / 0.4%) [2026-07-28]
+- ^VIX: 18.67 (-0.16% / -0.53% / -1.16%) [2026-07-27]
+- BTC-USD: 63238.49 (-3.22% / -4.33% / -0.09%) [2026-07-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -340,19 +342,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (3), stock (2), earnings (1)
+**Temas dominantes**: merger (3), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HSY] U . S . stocks end mixed on Monday , Nasdaq slides 44 points (2026-07-28)
-- [HSY] U . S . stocks end mixed on Monday , Nasdaq slides 44 points (2026-07-28)
 - [TMHC] Taylor Morrison Home Shareholders Approve Berkshire Hathaway Merger (2026-07-25)
+- [DDOG] CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? (2026-07-25)
 - [TMHC] 2026 - 07 - 24 | Berkshire Hathaway Completes Acquisition of Taylor Morrison | TSX : BRK (2026-07-24)
 - [TMHC] Berkshire Hathaway Completes Acquisition of Taylor Morrison (2026-07-24)
 - [TMHC] Taylor Morrison Home ( TMHC ) Expected to Announce Quarterly Earnings on Wednesday (2026-07-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Frangou Angeliki compro NMM por $846.1M el 2026-07-23.
 - CEO Huang Jack Jiajia compro COE por $8.3M el 2026-07-21.
 - 10% owner Abu Dhabi Investment Authority compro Jefferies Credit Partners BDC Inc. por $25.0M el 2026-07-23.
 - CEO Huang Jack Jiajia compro COE por $4.8M el 2026-07-23.
@@ -360,15 +362,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $2.0M el 2026-07-22.
 - 10% owner ASSURED GUARANTY LTD compro Sound Point Direct Lending BDC por $5.2M el 2026-07-22.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $46,734 · win rate 93% · categorias: sports
-- 0xbCA0B22982273B3c6590c363E78cf61f357dd7a0-1768319742614 · PnL $21,853 · win rate 96% · categorias: sports, crypto
-- laozishudaosan · PnL $28,414 · win rate 94% · categorias: sports
-- ToeTickler98 · PnL $34,013 · win rate 91% · categorias: sports
-- Uniform123 · PnL $42,737 · win rate 87% · categorias: sports
+- monkeymashingkeyboard · PnL $117,375 · win rate 90% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $112,386 · win rate 89% · categorias: sports
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $73,241 · win rate 88% · categorias: sports, crypto
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,713 · win rate 98% · categorias: sports, crypto
+- comon119 · PnL $7,263 · win rate 98% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -376,7 +377,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 71 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 486 registros 30d · ultimo dato 2026-07-27
+- **sec_insiders**: `ok` · 496 registros 30d · ultimo dato 2026-07-27
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-27
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -389,7 +390,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, BSY, ENR, FIS, FSBC, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, BSY, ENR, FIS, FSBC, GLD, IEF, NMM, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

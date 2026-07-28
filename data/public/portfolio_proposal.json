@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-07-28T00:27:59+00:00",
+  "generated_at": "2026-07-28T03:52:45+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6999,
-  "cash": 0.3001,
+  "total_equity": 0.6998,
+  "cash": 0.3002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
-    "FSBC": 0.0807,
     "GLD": 0.0731,
-    "BEP": 0.0589,
+    "FSBC": 0.0693,
+    "BEP": 0.0506,
     "IEF": 0.0488,
-    "FIS": 0.0465,
-    "BSY": 0.0403,
-    "ENR": 0.0364
+    "FIS": 0.04,
+    "NMM": 0.0369,
+    "BSY": 0.0346,
+    "ENR": 0.0313
   },
   "core": {
     "SPY": 0.1592,
@@ -24,11 +25,12 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "FSBC": 0.0752,
-    "ENR": 0.0339,
-    "BSY": 0.0376,
-    "FIS": 0.0434,
-    "BEP": 0.0549
+    "FSBC": 0.0646,
+    "ENR": 0.0292,
+    "NMM": 0.0344,
+    "BSY": 0.0323,
+    "FIS": 0.0373,
+    "BEP": 0.0472
   },
   "satellite_rationale": [
     {
@@ -46,6 +48,14 @@
         "corporate_insider"
       ],
       "n_signals": 6
+    },
+    {
+      "ticker": "NMM",
+      "score": 189.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
     },
     {
       "ticker": "BSY",
@@ -73,16 +83,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0873,
-    "var_95_1d": 0.0094,
-    "cvar_95_1d": 0.0109,
-    "max_drawdown": -0.0384,
-    "beta_spy": 0.502,
-    "hhi": 0.0563,
+    "ann_vol": 0.0867,
+    "var_95_1d": 0.0089,
+    "cvar_95_1d": 0.011,
+    "max_drawdown": -0.0379,
+    "beta_spy": 0.512,
+    "hhi": 0.0537,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 17.8,
-    "gross_exposure": 0.6999,
+    "n_positions": 11,
+    "effective_positions": 18.6,
+    "gross_exposure": 0.6998,
     "days_used": 91
   },
   "risk_gate": {
