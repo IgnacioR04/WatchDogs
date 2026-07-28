@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-28T12:28:19.200168+00:00",
+  "generated_at": "2026-07-28T14:56:29.268126+00:00",
   "window": {
     "from": "2026-06-28",
     "to": "2026-07-28",
@@ -23,7 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -157,20 +158,20 @@
     {
       "id": "move_8",
       "rank": 8,
-      "title": "10% owner compro Sound Point Direct Lending BDC ($5.2M)",
-      "summary": "10% owner ASSURED GUARANTY LTD compro Sound Point Direct Lending BDC por $5.2M el 2026-07-22.",
+      "title": "CEO opero PGR ($12.5M)",
+      "summary": "CEO Griffith Susan Patricia opero PGR por $12.5M el 2026-07-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "ASSURED GUARANTY LTD",
-      "actor_type": "ten_percent_owner",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 5199999.99,
-      "event_date": "2026-07-22",
-      "importance_score": 81.9,
-      "cross_source_score": 0.0,
+      "actor_name": "Griffith Susan Patricia",
+      "actor_type": "ceo",
+      "ticker": "PGR",
+      "direction": "other",
+      "amount_estimated": 12484936.1,
+      "event_date": "2026-07-24",
+      "importance_score": 81.6,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/913357/000162828026049638/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1198113/000008066126000286/"
     },
     {
       "id": "move_9",
@@ -400,14 +401,6 @@
         ]
       },
       {
-        "ticker": "FSBC",
-        "company": "FIVE STAR BANCORP",
-        "pressure_score": 519.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 494.1,
@@ -451,6 +444,14 @@
         "ticker": "NMM",
         "company": "Navios Maritime Partners L.P.",
         "pressure_score": 235.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ANIX",
+        "company": "Anixa Biosciences Inc",
+        "pressure_score": 217.1,
         "sources": [
           "corporate_insider"
         ]
@@ -523,6 +524,14 @@
         ]
       },
       {
+        "ticker": "SMFG",
+        "company": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+        "pressure_score": 1182.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 1027.9,
@@ -589,25 +598,9 @@
         ]
       },
       {
-        "ticker": "RVI",
-        "company": "Robinhood Ventures Fund I",
-        "pressure_score": 276.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "IRD",
         "company": "Opus Genetics, Inc.",
         "pressure_score": 268.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RNGR",
-        "company": "Ranger Energy Services, Inc.",
-        "pressure_score": 266.4,
         "sources": [
           "corporate_insider"
         ]
@@ -629,9 +622,17 @@
         ]
       },
       {
-        "ticker": "XYZ",
-        "company": "Block, Inc.",
-        "pressure_score": 213.6,
+        "ticker": "ALLE",
+        "company": "Allegion plc",
+        "pressure_score": 212.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WFRD",
+        "company": "Weatherford International plc",
+        "pressure_score": 211.7,
         "sources": [
           "corporate_insider"
         ]
@@ -676,15 +677,6 @@
       "score": 82.3
     },
     {
-      "ticker": "FSBC",
-      "company": "FIVE STAR BANCORP",
-      "actor": "Allbaugh Larry Eugene",
-      "actor_type": "ten_percent_owner",
-      "amount": 3999996.0,
-      "date": "2026-07-22",
-      "score": 81.4
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -710,15 +702,6 @@
       "amount": 932400.0,
       "date": "2026-07-23",
       "score": 80.7
-    },
-    {
-      "ticker": "FSBC",
-      "company": "FIVE STAR BANCORP",
-      "actor": "Perry-Smith Robert Truxtun",
-      "actor_type": "director",
-      "amount": 1379972.0,
-      "date": "2026-07-22",
-      "score": 76.5
     },
     {
       "ticker": "ENR",
@@ -773,6 +756,24 @@
       "amount": 405884.0,
       "date": "2026-07-23",
       "score": 76.4
+    },
+    {
+      "ticker": "VMI",
+      "company": "VALMONT INDUSTRIES INC",
+      "actor": "Schwietz John L",
+      "actor_type": "cfo",
+      "amount": 101118.16,
+      "date": "2026-07-23",
+      "score": 76.1
+    },
+    {
+      "ticker": "NCO",
+      "company": "Southern Cross Acquisition I Corp.",
+      "actor": "Southern Cross Acquisition I Sponsor Corp.",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-07-22",
+      "score": 74.6
     }
   ],
   "institutional_changes": [
@@ -1108,24 +1109,6 @@
       "date": "2026-07-27"
     },
     {
-      "filer": "AMG New York Holdings Corp.",
-      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 59.7,
-      "shares": 1459902,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
-      "filer": "Newlinks Technology Limited",
-      "company": "NaaS Technology Inc.",
-      "ticker": "NAAS",
-      "ownership_pct": 55.9,
-      "shares": 32098694296,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
       "filer": "Dzieszuta Katarzyna",
       "company": "Nex Neo Tech Inc.",
       "ticker": "",
@@ -1135,29 +1118,11 @@
       "date": "2026-07-24"
     },
     {
-      "filer": "Kira S. Sheinerman",
-      "company": "Niki BioSolutions, Inc.",
-      "ticker": "",
-      "ownership_pct": 51.56,
-      "shares": 1515293,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-24"
-    },
-    {
       "filer": "R01 Fund LP",
       "company": "Stablecoin Development Corp",
       "ticker": "SDEV",
       "ownership_pct": 48.4,
       "shares": 49508502,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
-      "filer": "BCRED X Holdings LLC",
-      "company": "Blackstone Private Real Estate Credit & Income Fund",
-      "ticker": "",
-      "ownership_pct": 48.0,
-      "shares": 18628294,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-24"
     },
@@ -1189,15 +1154,6 @@
       "date": "2026-07-27"
     },
     {
-      "filer": "Apeiron Investment Group Ltd.",
-      "company": "Enhanced Group Inc.",
-      "ticker": "ENHA",
-      "ownership_pct": 26.6,
-      "shares": 35945876,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-24"
-    },
-    {
       "filer": "J.B.D Innovation Ltd.",
       "company": "Wearable Devices Ltd.",
       "ticker": "",
@@ -1214,27 +1170,61 @@
       "shares": 2899746,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-24"
+    },
+    {
+      "filer": "Grey Wendy",
+      "company": "Zeo Scientifix, Inc.",
+      "ticker": "ZEOX",
+      "ownership_pct": 23.88,
+      "shares": 2117500,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
+    },
+    {
+      "filer": "IAN T BOTHWELL",
+      "company": "Zeo Scientifix, Inc.",
+      "ticker": "ZEOX",
+      "ownership_pct": 20.6,
+      "shares": 1820094,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-24"
+    },
+    {
+      "filer": "Sinha Sumant",
+      "company": "ReNew Energy Global plc",
+      "ticker": "",
+      "ownership_pct": 19.53,
+      "shares": 59679498,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-27"
+    },
+    {
+      "filer": "Haggai Alon",
+      "company": "SMX (Security Matters) Public Limited Company",
+      "ticker": "",
+      "ownership_pct": 18.5,
+      "shares": 201485,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-27"
+    },
+    {
+      "filer": "L.I.A. Pure Capital Ltd.",
+      "company": "Evogene Ltd.",
+      "ticker": "EVGN",
+      "ownership_pct": 17.41,
+      "shares": 2308100,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-27"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 203175.66,
-        "win_rate": 0.8913,
-        "volume": 1137475.21,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 125825.29,
+        "pnl": 125961.6,
         "win_rate": 0.907,
-        "volume": 39138.62,
+        "volume": 71307.85,
         "categories": [
           "sports"
         ]
@@ -1242,8 +1232,8 @@
       {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 119351.9,
-        "win_rate": 0.8774,
+        "pnl": 143249.84,
+        "win_rate": 0.8785,
         "volume": 392102.24,
         "categories": [
           "sports",
@@ -1251,22 +1241,11 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 60965.41,
-        "win_rate": 0.9029,
-        "volume": 173987.81,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xa16a1302ca",
         "username": "MoistLotion",
-        "pnl": 16718.19,
+        "pnl": 17156.46,
         "win_rate": 0.983,
-        "volume": 748840.64,
+        "volume": 896694.95,
         "categories": [
           "crypto",
           "sports",
@@ -1276,7 +1255,7 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 12628.0,
+        "pnl": 13695.82,
         "win_rate": 0.984,
         "volume": 76481.71,
         "categories": [
@@ -1286,35 +1265,36 @@
         ]
       },
       {
-        "wallet": "0x6982049c65",
-        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 10222.98,
-        "win_rate": 0.977,
-        "volume": 61687.1,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 37753.45,
+        "win_rate": 0.9032,
+        "volume": 182477.93,
         "categories": [
           "sports",
-          "crypto"
+          "politics"
         ]
       },
       {
-        "wallet": "0x62369b3567",
-        "username": "Chensang7",
-        "pnl": 10071.71,
-        "win_rate": 0.9412,
-        "volume": 32417.06,
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 19148.08,
+        "win_rate": 0.9473,
+        "volume": 161970.95,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 12038.45,
-        "win_rate": 0.9083,
-        "volume": 185933.37,
+        "wallet": "0x85a85805bc",
+        "username": "LJa7io23MCv954j",
+        "pnl": 20793.91,
+        "win_rate": 0.8667,
+        "volume": 1912.99,
         "categories": [
+          "politics",
           "sports",
-          "crypto"
+          "economy"
         ]
       },
       {
@@ -1326,46 +1306,36 @@
         "categories": [
           "sports"
         ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 203175.66,
-        "win_rate": 0.8913,
-        "volume": 1137475.21,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
       },
       {
-        "wallet": "0xbd825f0cbc",
-        "username": "0xBd825f0cbc395cFdb09744C0517528CCC79565e3-1785223700274",
-        "pnl": 11463.58,
-        "win_rate": 1.0,
-        "volume": 258086.31,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x187a72bac3",
-        "username": "THEBIGBETS",
-        "pnl": 31305.12,
-        "win_rate": 0.7059,
-        "volume": 226978.15,
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 13094.98,
+        "win_rate": 0.875,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xef2684030d",
+        "username": "LOBODAFL",
+        "pnl": 26681.94,
+        "win_rate": 0.796,
+        "volume": 56598.71,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      }
+    ],
+    "whales": [
+      {
         "wallet": "0xa16a1302ca",
         "username": "MoistLotion",
-        "pnl": 16718.19,
+        "pnl": 17156.46,
         "win_rate": 0.983,
-        "volume": 748840.64,
+        "volume": 896694.95,
         "categories": [
           "crypto",
           "sports",
@@ -1373,20 +1343,39 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 12038.45,
-        "win_rate": 0.9083,
-        "volume": 185933.37,
+        "wallet": "0x187a72bac3",
+        "username": "THEBIGBETS",
+        "pnl": 22376.43,
+        "win_rate": 0.7059,
+        "volume": 226978.15,
         "categories": [
-          "sports",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 18221.56,
+        "win_rate": 0.653,
+        "volume": 527353.2,
+        "categories": [
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x52911b9d1d",
+        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
+        "pnl": 25579.12,
+        "win_rate": 1.0,
+        "volume": 142078.06,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0xf40d629171",
         "username": "0xF40d629171E59C70B47Fd7714F43638eB065343D-1785224929068",
-        "pnl": 100022.36,
+        "pnl": 99972.86,
         "win_rate": 1.0,
         "volume": 206887.97,
         "categories": [
@@ -1396,8 +1385,8 @@
       {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 119351.9,
-        "win_rate": 0.8774,
+        "pnl": 143249.84,
+        "win_rate": 0.8785,
         "volume": 392102.24,
         "categories": [
           "sports",
@@ -1427,28 +1416,65 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 60965.41,
-        "win_rate": 0.9029,
-        "volume": 173987.81,
+        "pnl": 37753.45,
+        "win_rate": 0.9032,
+        "volume": 182477.93,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 19148.08,
+        "win_rate": 0.9473,
+        "volume": 161970.95,
+        "categories": [
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "CoreWeave vs . Datadog : What Do the Revenue Trends of These High - Growth Tech Companies Tell Investors ? ",
-      "url": "https://www.fool.com/coverage/charts/2026/07/24/coreweave-vs-datadog-what-do-the-revenue-trends-of-these-high-growth-tech-companies-tell-investors/?source=iedfolrf0000001",
-      "ticker": "DDOG",
+      "title": "Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey",
+      "url": "https://www.dailypolitical.com/2026/07/27/ardelyx-nasdaqardx-vs-united-therapeutics-nasdaquthr-financial-survey.html",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-07-27"
+    },
+    {
+      "title": "Why Symbotic Stock Dropped 24 % in the First Half of 2026 And Is a Screaming Buy Now",
+      "url": "https://www.fool.com/investing/2026/07/23/why-symbotic-stock-dropped-24-in-the-first-half-of/?source=iedfolrf0000001",
+      "ticker": "SYM",
       "themes": [
-        "earnings"
+        "stock"
       ],
-      "date": "2026-07-25"
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-sym-one-best-low-193028883.html",
+      "ticker": "SYM",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-16"
+    },
+    {
+      "title": "Is Symbotic ( SYM ) One Of The Best Low - Priced AI Stocks To Buy Right Now ? ",
+      "url": "https://www.insidermonkey.com/blog/is-symbotic-sym-one-of-the-best-low-priced-ai-stocks-to-buy-right-now-1801403/",
+      "ticker": "SYM",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-14"
     }
   ],
-  "signals_count": 1471,
+  "signals_count": 1503,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
