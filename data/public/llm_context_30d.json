@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-29T10:04:37.224893+00:00",
+  "generated_at": "2026-07-29T12:35:47.916052+00:00",
   "window": {
     "from": "2026-06-29",
     "to": "2026-07-29",
@@ -23,6 +23,8 @@
   },
   "market_context": {
     "top_themes": [
+      "leadership",
+      "stock",
       "regulatory",
       "ai"
     ],
@@ -212,24 +214,6 @@
     {
       "id": "move_11",
       "rank": 11,
-      "title": "CEO vendio CFG ($9.3M)",
-      "summary": "CEO VAN SAUN BRUCE vendio CFG por $9.3M el 2026-07-24.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "VAN SAUN BRUCE",
-      "actor_type": "ceo",
-      "ticker": "CFG",
-      "direction": "sell",
-      "amount_estimated": 9323623.83,
-      "event_date": "2026-07-24",
-      "importance_score": 81.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1199914/000075994426000143/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -246,8 +230,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -264,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -282,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -300,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -318,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -336,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -354,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -372,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -383,6 +367,24 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 12478004415,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12307921184,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -406,6 +408,14 @@
         "pressure_score": 413.5,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "MWC",
+        "company": "Micware Co., Ltd.",
+        "pressure_score": 352.5,
+        "sources": [
+          "large_holder"
         ]
       },
       {
@@ -434,19 +444,19 @@
         ]
       },
       {
-        "ticker": "MWC",
-        "company": "Micware Co., Ltd.",
+        "ticker": "RNAZ",
+        "company": "TransCode Therapeutics, Inc.",
         "pressure_score": 282.0,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "RNAZ",
-        "company": "TransCode Therapeutics, Inc.",
-        "pressure_score": 282.0,
+        "ticker": "NNOX",
+        "company": "Nano-X Imaging Ltd.",
+        "pressure_score": 280.1,
         "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -502,14 +512,6 @@
         "ticker": "AMAT",
         "company": "Stock",
         "pressure_score": 167.7,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "META",
-        "company": "Common Stock",
-        "pressure_score": 163.2,
         "sources": [
           "congress"
         ]
@@ -759,15 +761,6 @@
       "score": 75.9
     },
     {
-      "ticker": "CVBF",
-      "company": "CVB FINANCIAL CORP",
-      "actor": "O Brien Raymond V III",
-      "actor_type": "director",
-      "amount": 455300.0,
-      "date": "2026-07-28",
-      "score": 75.6
-    },
-    {
       "ticker": "SCTX",
       "company": "Scribe Therapeutics, Inc.",
       "actor": "Aghazadeh Behzad",
@@ -775,6 +768,15 @@
       "amount": 144266.25,
       "date": "2026-07-28",
       "score": 75.6
+    },
+    {
+      "ticker": "NNOX",
+      "company": "Nano-X Imaging Ltd.",
+      "actor": "Meltzer Erez",
+      "actor_type": "ceo",
+      "amount": 33480.0,
+      "date": "2026-07-27",
+      "score": 75.0
     }
   ],
   "institutional_changes": [
@@ -1221,21 +1223,11 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 41673.26,
-        "win_rate": 0.948,
-        "volume": 136933.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xa16a1302ca",
         "username": "MoistLotion",
-        "pnl": 23235.81,
+        "pnl": 23374.97,
         "win_rate": 0.983,
-        "volume": 56895.74,
+        "volume": 339586.9,
         "categories": [
           "crypto",
           "sports",
@@ -1245,9 +1237,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 41875.34,
+        "pnl": 41656.08,
         "win_rate": 0.92,
-        "volume": 66326.38,
+        "volume": 67068.2,
         "categories": [
           "sports"
         ]
@@ -1255,28 +1247,18 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 37230.19,
-        "win_rate": 0.9053,
-        "volume": 303751.09,
+        "pnl": 42756.8,
+        "win_rate": 0.9083,
+        "volume": 442125.1,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 167400.72,
-        "win_rate": 0.8261,
-        "volume": 403568.18,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 26911.46,
+        "pnl": 39086.11,
         "win_rate": 0.9118,
         "volume": 15.0,
         "categories": [
@@ -1284,11 +1266,43 @@
         ]
       },
       {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 167501.52,
+        "win_rate": 0.8298,
+        "volume": 403568.18,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe548376f23",
+        "username": "Uniform123",
+        "pnl": 46659.35,
+        "win_rate": 0.8718,
+        "volume": 137334.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x86279a7e9e",
+        "username": "bqbq",
+        "pnl": 26875.14,
+        "win_rate": 0.8901,
+        "volume": 117573.69,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xcdc1609564",
         "username": "Duzi888888",
-        "pnl": 14156.59,
+        "pnl": 16263.14,
         "win_rate": 1.0,
-        "volume": 67138.42,
+        "volume": 71247.02,
         "categories": [
           "sports"
         ]
@@ -1296,30 +1310,20 @@
       {
         "wallet": "0x0353aaf82a",
         "username": "AGUGava",
-        "pnl": 14216.92,
-        "win_rate": 0.9065,
-        "volume": 61004.66,
+        "pnl": 17356.47,
+        "win_rate": 0.907,
+        "volume": 73221.42,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 18155.39,
-        "win_rate": 0.889,
-        "volume": 58220.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x52911b9d1d",
-        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
-        "pnl": 44635.11,
-        "win_rate": 1.0,
-        "volume": 0.0,
+        "wallet": "0xbf00e864ca",
+        "username": "luminaarx",
+        "pnl": 17277.93,
+        "win_rate": 0.8987,
+        "volume": 135426.66,
         "categories": [
           "sports"
         ]
@@ -1329,31 +1333,19 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 13630.46,
-        "win_rate": 0.536,
-        "volume": 2418542.87,
+        "pnl": 27641.78,
+        "win_rate": 0.537,
+        "volume": 2849047.98,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7bc14171cc",
-        "username": "coali10",
-        "pnl": 12622.53,
-        "win_rate": 0.6786,
-        "volume": 807978.6,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 135825.14,
+        "pnl": 135946.6,
         "win_rate": 0.515,
-        "volume": 625973.77,
+        "volume": 667194.56,
         "categories": [
           "sports"
         ]
@@ -1361,9 +1353,19 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 167400.72,
-        "win_rate": 0.8261,
+        "pnl": 167501.52,
+        "win_rate": 0.8298,
         "volume": 403568.18,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x52ecea7b31",
+        "username": "fkgggg2mouzfuria",
+        "pnl": 36449.49,
+        "win_rate": 0.679,
+        "volume": 547822.42,
         "categories": [
           "sports"
         ]
@@ -1371,12 +1373,35 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 37230.19,
-        "win_rate": 0.9053,
-        "volume": 303751.09,
+        "pnl": 42756.8,
+        "win_rate": 0.9083,
+        "volume": 442125.1,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 133564.26,
+        "win_rate": 0.6034,
+        "volume": 170564.24,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xe9076a87c5",
+        "username": "suntori",
+        "pnl": 79891.74,
+        "win_rate": 0.469,
+        "volume": 1858807.46,
+        "categories": [
+          "crypto",
+          "sports"
         ]
       },
       {
@@ -1392,44 +1417,22 @@
         ]
       },
       {
-        "wallet": "0x9ee49c02ae",
-        "username": "cosmicxbt",
-        "pnl": 17650.6,
-        "win_rate": 0.6667,
-        "volume": 100000.0,
+        "wallet": "0x917182c1eb",
+        "username": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
+        "pnl": 66381.51,
+        "win_rate": 0.8125,
+        "volume": 253689.42,
         "categories": [
           "sports",
-          "economy"
+          "crypto"
         ]
       },
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 36614.83,
+        "pnl": 36628.1,
         "win_rate": 0.564,
-        "volume": 558973.62,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x26b46988d0",
-        "username": "kkookkoo",
-        "pnl": 14748.73,
-        "win_rate": 0.6136,
-        "volume": 241172.79,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 13508.09,
-        "win_rate": 0.8436,
-        "volume": 83198.72,
+        "volume": 669524.23,
         "categories": [
           "sports"
         ]
@@ -1445,6 +1448,43 @@
         "ai"
       ],
       "date": "2026-07-29"
+    },
+    {
+      "title": "United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/united-therapeutics-ceo-sells-5-212701291.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
+      "title": "United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? ",
+      "url": "https://www.fool.com/coverage/filings/2026/07/28/united-therapeutics-ceo-sells-usd5-million-of-shares-what-does-this-mean-for-investors/?source=iedfolrf0000001",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $5 , 038 , 990 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/28/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-5038990-00-in-stock.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey",
+      "url": "https://www.dailypolitical.com/2026/07/27/ardelyx-nasdaqardx-vs-united-therapeutics-nasdaquthr-financial-survey.html",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-07-27"
     },
     {
       "title": "Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET",
@@ -1474,7 +1514,7 @@
       "date": "2026-07-17"
     }
   ],
-  "signals_count": 1548,
+  "signals_count": 1546,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

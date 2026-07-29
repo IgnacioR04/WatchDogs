@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-29T10:05:31+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
+_Generado 2026-07-29T12:36:45+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.15)
+- Volatilidad: `normal` (VIX 18.79)
 - Tendencia: `neutral` (SPY 740.86 · MA50 743.98 · MA200 696.17 · dist MA200: 6.42%)
 - Credito: `tight` (HY spread 2.81)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -56,6 +56,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| NNOX | 78 | corporate_insider | Meltzer Erez | 3 | $33,480 | cluster_buy |
+| NNOX | 74 | corporate_insider | Kainan Noga | 3 | $29,700 | cluster_buy |
+| NNOX | 73 | corporate_insider | Suesskind Dan S | 3 | $23,500 | cluster_buy,small_amount |
+| NNOX | 73 | corporate_insider | Suesskind Dan S | 3 | $23,000 | cluster_buy,small_amount |
 | JKHY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | GDDY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FCCO | 72 | large_holder | BlackRock, Inc. |  | - | - |
@@ -65,12 +69,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | HTFL | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FUNC | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | SCTX | 71 | corporate_insider | Aghazadeh Behzad | 0 | $34,999,995 | - |
-| PENG | 70 | large_holder | SK Telecom Co., Ltd. |  | - | - |
-| CNXU | 70 | large_holder | Wright Michael G. |  | - | - |
-| ESTA | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| HTO | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| EL | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| JOUT | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| MWC | 70 | large_holder | Honda Motor Co., Ltd. |  | - | - |
+| HUIZ | 70 | large_holder | Cunjun Ma |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -99,8 +99,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 84.24 (0.59% / 0.69% / -3.31%) [2026-07-28]
 - IEF: 93.56 (0.3% / 0.27% / -1.25%) [2026-07-28]
 - GLD: 369.37 (-1.4% / -1.45% / 0.21%) [2026-07-28]
-- ^VIX: 18.15 (-0.33% / 9.07% / 10.33%) [2026-07-29]
-- BTC-USD: 64576.57 (1.1% / 0.75% / 2.19%) [2026-07-29]
+- ^VIX: 18.79 (3.19% / 12.92% / 14.22%) [2026-07-29]
+- BTC-USD: 64295.34 (0.66% / 0.31% / 1.74%) [2026-07-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,11 +115,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (3), ai (1)
+**Temas dominantes**: leadership (3), stock (3), regulatory (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWD] CrowdStrike ( CRWD ) Rides the AI Threat Wave , But Can It Lead the Pack ? (2026-07-29)
+- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
+- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $5 , 038 , 990 . 00 in Stock (2026-07-28)
+- [UTHR] Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey (2026-07-27)
 - [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
 - [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
 - [CXDO] 2026 - 07 - 17 | Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET | NDAQ : CXDO (2026-07-17)
@@ -133,15 +137,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - 10% owner Market Technology Acquisition Sponsor LLC compro MTAK por $4.5M el 2026-07-27.
 - 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $8.2M el 2026-07-24.
 - CFO ZHANG PINGTING compro STFS por $2.6M el 2026-07-22.
-- CEO VAN SAUN BRUCE vendio CFG por $9.3M el 2026-07-24.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $41,673 · win rate 95% · categorias: sports
-- MoistLotion · PnL $23,236 · win rate 98% · categorias: crypto, sports, economy
-- monkeymashingkeyboard · PnL $41,875 · win rate 92% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $37,230 · win rate 91% · categorias: sports, crypto
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $167,401 · win rate 83% · categorias: sports
+- MoistLotion · PnL $23,375 · win rate 98% · categorias: crypto, sports, economy
+- monkeymashingkeyboard · PnL $41,656 · win rate 92% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $42,757 · win rate 91% · categorias: sports, crypto
+- JnStTrdrBnusFnd · PnL $39,086 · win rate 91% · categorias: crypto
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $167,502 · win rate 83% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,8 +153,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 65 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 563 registros 30d · ultimo dato 2026-07-28
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-28
+- **sec_insiders**: `ok` · 561 registros 30d · ultimo dato 2026-07-29
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
