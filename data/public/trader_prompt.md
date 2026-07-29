@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-29T16:11:01+00:00 -->
+<!-- trader_prompt.md generado 2026-07-29T17:57:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-29T15:36:33+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
+_Generado 2026-07-29T17:57:20+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,8 +236,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.85)
-- Tendencia: `neutral` (SPY 734.61 · MA50 743.92 · MA200 696.52 · dist MA200: 5.47%)
+- Volatilidad: `normal` (VIX 19.54)
+- Tendencia: `neutral` (SPY 735.86 · MA50 743.95 · MA200 696.52 · dist MA200: 5.65%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.35)
 - Fed Funds: 3.63%
@@ -249,17 +249,17 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 734.61 | -0.84% | -1.71% | -1.63% |
-| QQQ | 9.8% | core | 667.07 | -1.25% | -5.43% | -9.41% |
-| TLT | 9.8% | core | 83.93 | -0.37% | 0.58% | -2.53% |
-| BEP | 9.5% | satellite | 31.48 | -1.59% | -2.24% | -9.36% |
-| KRNY | 7.3% | satellite | 9.65 | -0.05% | 1.74% | 1.96% |
-| GLD | 7.3% | core | 367.98 | -0.38% | -2.94% | -0.11% |
-| IEF | 4.9% | core | 93.3 | -0.28% | 0.21% | -1.02% |
-| GSHD | 2.9% | satellite | 69.01 | 0.28% | 34.26% | 42.29% |
-| HTFL | 2.5% | satellite | 25.1 | -1.91% | 3.59% | -14.45% |
-| MSTR | 2.2% | satellite | 95.51 | -0.67% | -4.5% | 9.87% |
-| SPCX | 1.8% | satellite | 112.3 | -3.53% | -2.57% | -34.27% |
+| SPY | 12.0% | core | 735.86 | -0.67% | -1.55% | -1.46% |
+| QQQ | 9.8% | core | 670.19 | -0.78% | -4.98% | -8.99% |
+| TLT | 9.8% | core | 83.91 | -0.39% | 0.56% | -2.55% |
+| BEP | 9.5% | satellite | 31.72 | -0.84% | -1.49% | -8.67% |
+| KRNY | 7.3% | satellite | 9.55 | -1.04% | 0.74% | 0.95% |
+| GLD | 7.3% | core | 370.91 | 0.42% | -2.17% | 0.69% |
+| IEF | 4.9% | core | 93.32 | -0.25% | 0.24% | -0.99% |
+| GSHD | 2.9% | satellite | 70.17 | 1.97% | 36.53% | 44.69% |
+| HTFL | 2.5% | satellite | 25.22 | -1.45% | 4.09% | -14.04% |
+| MSTR | 2.2% | satellite | 97.24 | 1.12% | -2.77% | 11.86% |
+| SPCX | 1.8% | satellite | 116.45 | 0.03% | 1.03% | -31.84% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -289,12 +289,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | NNOX | 73 | corporate_insider | Suesskind Dan S | 3 | $23,000 | cluster_buy,small_amount |
 | JKHY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | GDDY | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| FCCO | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FMC | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ENVX | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | KRNY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | HTFL | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | FUNC | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| CEPV | 70 | large_holder | RP Investment Advisors LP |  | - | - |
 | PRQR | 70 | large_holder | Aberdeen Group plc |  | - | - |
 | MWC | 70 | large_holder | Honda Motor Co., Ltd. |  | - | - |
 | HUIZ | 70 | large_holder | Cunjun Ma |  | - | - |
@@ -319,15 +319,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 734.61 (-0.84% / -1.71% / -1.63%) [2026-07-29]
-- QQQ: 667.07 (-1.25% / -5.43% / -9.41%) [2026-07-29]
-- IWM: 289.48 (-1.33% / -1.47% / -3.65%) [2026-07-29]
-- DIA: 518.58 (-1.58% / -0.55% / -0.7%) [2026-07-29]
-- TLT: 83.93 (-0.37% / 0.58% / -2.53%) [2026-07-29]
-- IEF: 93.3 (-0.28% / 0.21% / -1.02%) [2026-07-29]
-- GLD: 367.98 (-0.38% / -2.94% / -0.11%) [2026-07-29]
-- ^VIX: 19.85 (9.01% / 19.29% / 20.67%) [2026-07-29]
-- BTC-USD: 64029.25 (0.25% / -0.11% / 1.32%) [2026-07-29]
+- SPY: 735.86 (-0.67% / -1.55% / -1.46%) [2026-07-29]
+- QQQ: 670.19 (-0.78% / -4.98% / -8.99%) [2026-07-29]
+- IWM: 290.19 (-1.08% / -1.23% / -3.41%) [2026-07-29]
+- DIA: 519.06 (-1.49% / -0.46% / -0.61%) [2026-07-29]
+- TLT: 83.91 (-0.39% / 0.56% / -2.55%) [2026-07-29]
+- IEF: 93.32 (-0.25% / 0.24% / -0.99%) [2026-07-29]
+- GLD: 370.91 (0.42% / -2.17% / 0.69%) [2026-07-29]
+- ^VIX: 19.54 (7.3% / 17.43% / 18.78%) [2026-07-29]
+- BTC-USD: 64115.41 (0.38% / 0.03% / 1.46%) [2026-07-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,37 +342,37 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (3), stock (3), regulatory (3), ai (1)
+**Temas dominantes**: leadership (4), stock (4), regulatory (1), earnings (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [MU] For India to become truly wealthy , people in Tier - 3 to Tier - 6 towns must get benefits of multi - sectoral growth : NCDEX CEO (2026-07-29)
+- [MU] Most undervalued U . S . consumer discretionary stocks during Q2 earnings season ( XLY : NYSEARCA ) (2026-07-29)
 - [CRWD] CrowdStrike ( CRWD ) Rides the AI Threat Wave , But Can It Lead the Pack ? (2026-07-29)
 - [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
 - [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $5 , 038 , 990 . 00 in Stock (2026-07-28)
 - [UTHR] Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey (2026-07-27)
-- [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
-- [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
-- [CXDO] 2026 - 07 - 17 | Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET | NDAQ : CXDO (2026-07-17)
+- [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner MSD CAPITAL, L.P. compro 5C Lending Partners Corp. por $31.0M el 2026-07-24.
-- 10% owner SRB CORP vendio SAFT por $79.8M el 2026-07-27.
 - CEO Pacitti David vendio AVNS por $11.1M el 2026-07-27.
 - 10% owner Market Technology Acquisition Sponsor LLC compro MTAK por $4.5M el 2026-07-27.
 - 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $8.2M el 2026-07-24.
 - CFO ZHANG PINGTING compro STFS por $2.6M el 2026-07-22.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
+- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- MoistLotion · PnL $23,441 · win rate 98% · categorias: crypto, sports, economy
-- esportGG · PnL $31,510 · win rate 95% · categorias: sports
-- monkeymashingkeyboard · PnL $41,775 · win rate 92% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $34,873 · win rate 91% · categorias: sports, crypto
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $163,758 · win rate 83% · categorias: sports
+- MoistLotion · PnL $23,496 · win rate 98% · categorias: crypto, sports, economy
+- esportGG · PnL $26,360 · win rate 95% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $221,163 · win rate 83% · categorias: sports
+- monkeymashingkeyboard · PnL $38,912 · win rate 92% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $36,406 · win rate 91% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -380,7 +380,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 65 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 568 registros 30d · ultimo dato 2026-07-29
+- **sec_insiders**: `ok` · 584 registros 30d · ultimo dato 2026-07-29
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
