@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-29T07:04:22+00:00 -->
+<!-- trader_prompt.md generado 2026-07-29T10:05:31+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-29T07:04:22+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
+_Generado 2026-07-29T10:05:31+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.21)
+- Volatilidad: `normal` (VIX 18.15)
 - Tendencia: `neutral` (SPY 740.86 · MA50 743.98 · MA200 696.17 · dist MA200: 6.42%)
 - Credito: `tight` (HY spread 2.81)
 - Tipos: `flat` (curva 10y-2y 0.35)
@@ -251,7 +251,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 740.86 | 0.24% | -0.99% | -0.02% |
 | QQQ | 9.8% | core | 675.49 | -0.97% | -4.72% | -6.71% |
-| TLT | 9.8% | core | 83.75 | 0.6% | -0.17% | -3.78% |
+| TLT | 9.8% | core | 84.24 | 0.59% | 0.69% | -3.31% |
 | BEP | 9.5% | satellite | 31.99 | -0.44% | -0.59% | -8.34% |
 | KRNY | 7.3% | satellite | 9.65 | 2.12% | 1.05% | 4.1% |
 | GLD | 7.3% | core | 369.37 | -1.4% | -1.45% | 0.21% |
@@ -323,11 +323,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - QQQ: 675.49 (-0.97% / -4.72% / -6.71%) [2026-07-28]
 - IWM: 293.37 (0.16% / -1.07% / -1.87%) [2026-07-28]
 - DIA: 526.89 (1.08% / 1.03% / 1.03%) [2026-07-28]
-- TLT: 83.75 (0.6% / -0.17% / -3.78%) [2026-07-27]
+- TLT: 84.24 (0.59% / 0.69% / -3.31%) [2026-07-28]
 - IEF: 93.56 (0.3% / 0.27% / -1.25%) [2026-07-28]
 - GLD: 369.37 (-1.4% / -1.45% / 0.21%) [2026-07-28]
-- ^VIX: 18.21 (-2.46% / 6.8% / 3.17%) [2026-07-28]
-- BTC-USD: 64328.98 (0.72% / 0.36% / 1.8%) [2026-07-29]
+- ^VIX: 18.15 (-0.33% / 9.07% / 10.33%) [2026-07-29]
+- BTC-USD: 64576.57 (1.1% / 0.75% / 2.19%) [2026-07-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,7 +342,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: regulatory (3), ai (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [CRWD] CrowdStrike ( CRWD ) Rides the AI Threat Wave , But Can It Lead the Pack ? (2026-07-29)
+- [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
+- [CXDO] Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET (2026-07-17)
+- [CXDO] 2026 - 07 - 17 | Crexendo , Inc . to Issue Second Quarter 2026 Financial Results on August 4 , 2026 , at 4 : 30 PM ET | NDAQ : CXDO (2026-07-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -357,11 +364,11 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- MoistLotion · PnL $23,235 · win rate 98% · categorias: crypto, sports, economy
-- esportGG · PnL $28,202 · win rate 95% · categorias: sports
-- monkeymashingkeyboard · PnL $42,047 · win rate 92% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $46,658 · win rate 91% · categorias: sports, crypto
-- Duzi888888 · PnL $14,157 · win rate 100% · categorias: sports
+- esportGG · PnL $41,673 · win rate 95% · categorias: sports
+- MoistLotion · PnL $23,236 · win rate 98% · categorias: crypto, sports, economy
+- monkeymashingkeyboard · PnL $41,875 · win rate 92% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $37,230 · win rate 91% · categorias: sports, crypto
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $167,401 · win rate 83% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
