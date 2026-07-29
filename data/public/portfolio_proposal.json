@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T21:29:39+00:00",
+  "generated_at": "2026-07-29T22:31:42+00:00",
   "profile": "moderado",
   "regime_budget": 0.55,
   "total_equity": 0.5501,
@@ -9,16 +9,15 @@
     "QQQ": 0.0724,
     "TLT": 0.0724,
     "GLD": 0.0542,
-    "POR": 0.0407,
+    "POR": 0.0468,
+    "BEP": 0.0398,
     "IEF": 0.0362,
-    "BEP": 0.0346,
-    "EQBK": 0.0287,
-    "KRNY": 0.0252,
-    "LHX": 0.0226,
-    "VSXY": 0.0158,
-    "KTOS": 0.0126,
-    "ODD": 0.0076,
-    "SPCX": 0.0071
+    "EQBK": 0.033,
+    "LHX": 0.0259,
+    "VSXY": 0.0181,
+    "KTOS": 0.0145,
+    "ODD": 0.0087,
+    "SPCX": 0.0081
   },
   "core": {
     "SPY": 0.1251,
@@ -28,15 +27,14 @@
     "GLD": 0.0536
   },
   "satellite": {
-    "SPCX": 0.007,
-    "KRNY": 0.0249,
-    "VSXY": 0.0156,
-    "LHX": 0.0223,
-    "KTOS": 0.0125,
-    "ODD": 0.0075,
-    "POR": 0.0402,
-    "BEP": 0.0342,
-    "EQBK": 0.0284
+    "SPCX": 0.008,
+    "VSXY": 0.0179,
+    "LHX": 0.0256,
+    "KTOS": 0.0143,
+    "ODD": 0.0086,
+    "POR": 0.0462,
+    "BEP": 0.0393,
+    "EQBK": 0.0326
   },
   "satellite_rationale": [
     {
@@ -46,14 +44,6 @@
         "congress"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "KRNY",
-      "score": 110.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "VSXY",
@@ -113,15 +103,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0547,
+    "ann_vol": 0.055,
     "var_95_1d": 0.0057,
-    "cvar_95_1d": 0.0061,
-    "max_drawdown": -0.0166,
+    "cvar_95_1d": 0.006,
+    "max_drawdown": -0.0175,
     "beta_spy": null,
-    "hhi": 0.0345,
+    "hhi": 0.0353,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 29.0,
+    "n_positions": 13,
+    "effective_positions": 28.3,
     "gross_exposure": 0.5501,
     "days_used": 25
   },
