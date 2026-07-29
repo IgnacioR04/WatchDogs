@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-29T03:58:25+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
+_Generado 2026-07-29T07:04:22+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -24,12 +24,12 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 740.86 | 0.24% | -0.99% | -0.02% |
 | QQQ | 9.8% | core | 675.49 | -0.97% | -4.72% | -6.71% |
-| TLT | 9.8% | core | 84.24 | 0.59% | 0.69% | -3.31% |
-| BEP | 9.5% | satellite | 31.99 | -0.44% | -0.19% | -9.3% |
-| KRNY | 7.3% | satellite | 9.65 | 2.12% | 1.79% | 3.76% |
+| TLT | 9.8% | core | 83.75 | 0.6% | -0.17% | -3.78% |
+| BEP | 9.5% | satellite | 31.99 | -0.44% | -0.59% | -8.34% |
+| KRNY | 7.3% | satellite | 9.65 | 2.12% | 1.05% | 4.1% |
 | GLD | 7.3% | core | 369.37 | -1.4% | -1.45% | 0.21% |
-| IEF | 4.9% | core | 93.56 | 0.3% | 0.02% | -1.22% |
-| GSHD | 2.9% | satellite | 68.82 | 11.0% | 20.25% | 46.83% |
+| IEF | 4.9% | core | 93.56 | 0.3% | 0.27% | -1.25% |
+| GSHD | 2.9% | satellite | 68.82 | 11.0% | 28.04% | 43.43% |
 | HTFL | 2.5% | satellite | 25.59 | 0.87% | 0.59% | -26.57% |
 | MSTR | 2.2% | satellite | 96.16 | -2.52% | -5.68% | 3.75% |
 | SPCX | 1.8% | satellite | 116.41 | 2.56% | -5.77% | -29.1% |
@@ -96,11 +96,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - QQQ: 675.49 (-0.97% / -4.72% / -6.71%) [2026-07-28]
 - IWM: 293.37 (0.16% / -1.07% / -1.87%) [2026-07-28]
 - DIA: 526.89 (1.08% / 1.03% / 1.03%) [2026-07-28]
-- TLT: 84.24 (0.59% / 0.69% / -3.31%) [2026-07-28]
-- IEF: 93.56 (0.3% / 0.02% / -1.22%) [2026-07-28]
+- TLT: 83.75 (0.6% / -0.17% / -3.78%) [2026-07-27]
+- IEF: 93.56 (0.3% / 0.27% / -1.25%) [2026-07-28]
 - GLD: 369.37 (-1.4% / -1.45% / 0.21%) [2026-07-28]
-- ^VIX: 18.21 (-2.46% / -2.36% / -1.09%) [2026-07-28]
-- BTC-USD: 63641.91 (-0.13% / -2.16% / 2.22%) [2026-07-29]
+- ^VIX: 18.21 (-2.46% / 6.8% / 3.17%) [2026-07-28]
+- BTC-USD: 64328.98 (0.72% / 0.36% / 1.8%) [2026-07-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,17 +115,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), leadership (3), ai (1)
-
-**Titulares recientes (GDELT, tickers con mas señales):**
-
-- [GOOGL] Win Streak May Continue For Hong Kong Stock Market (2026-07-29)
-- [GOOGL] Singapore Stock Market May Move Back To The Upside On Wednesday (2026-07-29)
-- [GOOGL] Bargain Hunting May Lift Taiwan Stock Market (2026-07-29)
-- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
-- [UTHR] United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? (2026-07-28)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $5 , 038 , 990 . 00 in Stock (2026-07-28)
-- [UTHR] Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey (2026-07-27)
+_(sin noticias este ciclo — GDELT no disponible)_
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -140,11 +130,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- MoistLotion · PnL $23,226 · win rate 98% · categorias: crypto, sports, economy
+- MoistLotion · PnL $23,235 · win rate 98% · categorias: crypto, sports, economy
+- esportGG · PnL $28,202 · win rate 95% · categorias: sports
+- monkeymashingkeyboard · PnL $42,047 · win rate 92% · categorias: sports
 - 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $46,658 · win rate 91% · categorias: sports, crypto
-- xuejiao · PnL $8,526 · win rate 98% · categorias: sports, crypto
-- 0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628 · PnL $44,559 · win rate 100% · categorias: sports
-- AGUGava · PnL $9,807 · win rate 91% · categorias: sports, crypto
+- Duzi888888 · PnL $14,157 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
