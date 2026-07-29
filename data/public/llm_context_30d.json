@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-28T23:34:59.112979+00:00",
+  "generated_at": "2026-07-29T03:57:33.996416+00:00",
   "window": {
-    "from": "2026-06-28",
-    "to": "2026-07-28",
+    "from": "2026-06-29",
+    "to": "2026-07-29",
     "days": 30
   },
   "data_quality": {
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "leadership",
-      "stock"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,6 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner compro SCTX ($35.0M)",
+      "summary": "10% owner Aghazadeh Behzad compro SCTX por $35.0M el 2026-07-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Aghazadeh Behzad",
+      "actor_type": "ten_percent_owner",
+      "ticker": "SCTX",
+      "direction": "buy",
+      "amount_estimated": 34999995.0,
+      "event_date": "2026-07-24",
+      "importance_score": 86.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633313/000090266426003270/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro 5C Lending Partners Corp. ($31.0M)",
       "summary": "10% owner MSD CAPITAL, L.P. compro 5C Lending Partners Corp. por $31.0M el 2026-07-24.",
       "source": "sec_form_4",
@@ -48,58 +67,40 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/908724/000119312526321223/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
-      "title": "CEO compro COE ($8.3M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $8.3M el 2026-07-21.",
+      "id": "move_3",
+      "rank": 3,
+      "title": "10% owner vendio SAFT ($79.8M)",
+      "summary": "10% owner SRB CORP vendio SAFT por $79.8M el 2026-07-27.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 8287729.2,
-      "event_date": "2026-07-21",
+      "actor_name": "SRB CORP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "SAFT",
+      "direction": "sell",
+      "amount_estimated": 79780875.29,
+      "event_date": "2026-07-27",
       "importance_score": 85.4,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000003/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
-      "title": "CEO compro COE ($4.8M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $4.8M el 2026-07-23.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 4774809.6,
-      "event_date": "2026-07-23",
-      "importance_score": 84.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000003/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1496228/000090445426000425/"
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO vendio PGR ($7.9M)",
-      "summary": "CEO Griffith Susan Patricia vendio PGR por $7.9M el 2026-07-27 [senal en multiples fuentes].",
+      "title": "10% owner vendio SAFT ($48.1M)",
+      "summary": "10% owner SRB CORP vendio SAFT por $48.1M el 2026-07-27.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Griffith Susan Patricia",
-      "actor_type": "ceo",
-      "ticker": "PGR",
+      "actor_name": "SRB CORP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "SAFT",
       "direction": "sell",
-      "amount_estimated": 7942165.98,
+      "amount_estimated": 48056349.14,
       "event_date": "2026-07-27",
-      "importance_score": 84.1,
-      "cross_source_score": 25.0,
+      "importance_score": 84.3,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1198113/000008066126000302/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1496228/000090445426000425/"
     },
     {
       "id": "move_5",
@@ -176,24 +177,6 @@
     {
       "id": "move_9",
       "rank": 9,
-      "title": "CEO compro COE ($2.0M)",
-      "summary": "CEO Huang Jack Jiajia compro COE por $2.0M el 2026-07-22.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "ticker": "COE",
-      "direction": "buy",
-      "amount_estimated": 1978004.4,
-      "event_date": "2026-07-22",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000003/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
       "title": "10% owner compro 5C Lending Partners Corp. ($5.5M)",
       "summary": "10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $5.5M el 2026-07-24.",
       "source": "sec_form_4",
@@ -210,8 +193,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/316369/000119312526321639/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "CFO compro STFS ($2.6M)",
       "summary": "CFO ZHANG PINGTING compro STFS por $2.6M el 2026-07-22.",
       "source": "sec_form_4",
@@ -228,8 +211,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2118826/000121390026082081/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio CFG ($9.3M)",
       "summary": "CEO VAN SAUN BRUCE vendio CFG por $9.3M el 2026-07-24.",
       "source": "sec_form_4",
@@ -246,26 +229,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1199914/000075994426000143/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
-      "title": "CEO opero PGR ($12.5M)",
-      "summary": "CEO Griffith Susan Patricia opero PGR por $12.5M el 2026-07-24 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Griffith Susan Patricia",
-      "actor_type": "ceo",
-      "ticker": "PGR",
-      "direction": "other",
-      "amount_estimated": 12484936.1,
-      "event_date": "2026-07-24",
-      "importance_score": 81.6,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1198113/000008066126000286/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -282,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -300,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -318,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -336,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -354,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -372,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -388,6 +353,42 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
+      "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12747592358,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
+      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 12478004415,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
@@ -396,14 +397,6 @@
         "ticker": "GSHD",
         "company": "Goosehead Insurance, Inc.",
         "pressure_score": 551.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "COE",
-        "company": "51Talk Online Education Group",
-        "pressure_score": 494.1,
         "sources": [
           "corporate_insider"
         ]
@@ -442,9 +435,34 @@
         ]
       },
       {
+        "ticker": "MWC",
+        "company": "Micware Co., Ltd.",
+        "pressure_score": 282.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "RNAZ",
+        "company": "TransCode Therapeutics, Inc.",
+        "pressure_score": 282.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "BYRN",
         "company": "Byrna Technologies Inc.",
-        "pressure_score": 201.6,
+        "pressure_score": 275.6,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SCTX",
+        "company": "Scribe Therapeutics, Inc.",
+        "pressure_score": 240.3,
         "sources": [
           "corporate_insider"
         ]
@@ -496,29 +514,30 @@
         "sources": [
           "congress"
         ]
+      }
+    ],
+    "sell_pressure": [
+      {
+        "ticker": "MU",
+        "company": "Stock",
+        "pressure_score": 3262.9,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
       },
       {
-        "ticker": "SCTX",
-        "company": "Scribe Therapeutics, Inc.",
-        "pressure_score": 142.2,
+        "ticker": "SMFG",
+        "company": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+        "pressure_score": 1182.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "YIBO",
-        "company": "Planet Image International Ltd",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      }
-    ],
-    "sell_pressure": [
-      {
-        "ticker": "SMFG",
-        "company": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
-        "pressure_score": 1182.8,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 960.3,
         "sources": [
           "corporate_insider"
         ]
@@ -556,15 +575,6 @@
         ]
       },
       {
-        "ticker": "GE",
-        "company": "SP GE Aerospace Common Stock",
-        "pressure_score": 516.5,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "RTX",
         "company": "RTX Corp",
         "pressure_score": 446.6,
@@ -589,19 +599,19 @@
         ]
       },
       {
-        "ticker": "WSBC",
-        "company": "WESBANCO INC",
-        "pressure_score": 338.8,
+        "ticker": "GE",
+        "company": "SP GE Aerospace Common Stock",
+        "pressure_score": 366.3,
         "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
       {
-        "ticker": "PGR",
-        "company": "Progressive Corporation",
-        "pressure_score": 319.5,
+        "ticker": "ZS",
+        "company": "Zscaler, Inc.",
+        "pressure_score": 339.3,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -628,35 +638,18 @@
         "sources": [
           "congress"
         ]
-      },
-      {
-        "ticker": "WAB",
-        "company": "Corporation Common Stock",
-        "pressure_score": 230.2,
-        "sources": [
-          "congress"
-        ]
       }
     ]
   },
   "insider_buying": [
     {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 8287729.2,
-      "date": "2026-07-21",
-      "score": 85.4
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 4774809.6,
-      "date": "2026-07-23",
-      "score": 84.2
+      "ticker": "SCTX",
+      "company": "Scribe Therapeutics, Inc.",
+      "actor": "Aghazadeh Behzad",
+      "actor_type": "ten_percent_owner",
+      "amount": 34999995.0,
+      "date": "2026-07-24",
+      "score": 86.1
     },
     {
       "ticker": "MTAK",
@@ -666,15 +659,6 @@
       "amount": 4525000.0,
       "date": "2026-07-27",
       "score": 83.1
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 1978004.4,
-      "date": "2026-07-22",
-      "score": 82.3
     },
     {
       "ticker": "STFS",
@@ -695,33 +679,6 @@
       "score": 81.4
     },
     {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 956043.0,
-      "date": "2026-07-22",
-      "score": 80.8
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 936000.0,
-      "date": "2026-07-23",
-      "score": 80.7
-    },
-    {
-      "ticker": "COE",
-      "company": "51Talk Online Education Group",
-      "actor": "Huang Jack Jiajia",
-      "actor_type": "ceo",
-      "amount": 932400.0,
-      "date": "2026-07-23",
-      "score": 80.7
-    },
-    {
       "ticker": "GSHD",
       "company": "Goosehead Insurance, Inc.",
       "actor": "Durable Capital Partners LP",
@@ -737,6 +694,15 @@
       "actor_type": "ten_percent_owner",
       "amount": 1790250.0,
       "date": "2026-07-24",
+      "score": 79.6
+    },
+    {
+      "ticker": "ACI",
+      "company": "Albertsons Companies, Inc.",
+      "actor": "Moriarty Thomas M",
+      "actor_type": "officer",
+      "amount": 1962284.5,
+      "date": "2026-07-27",
       "score": 79.6
     },
     {
@@ -758,6 +724,15 @@
       "score": 78.9
     },
     {
+      "ticker": "SCTX",
+      "company": "Scribe Therapeutics, Inc.",
+      "actor": "Aghazadeh Behzad",
+      "actor_type": "ten_percent_owner",
+      "amount": 1115500.0,
+      "date": "2026-07-24",
+      "score": 78.6
+    },
+    {
       "ticker": "GSHD",
       "company": "Goosehead Insurance, Inc.",
       "actor": "Durable Capital Partners LP",
@@ -774,6 +749,33 @@
       "amount": 412776.81,
       "date": "2026-07-24",
       "score": 76.4
+    },
+    {
+      "ticker": "GSHD",
+      "company": "Goosehead Insurance, Inc.",
+      "actor": "Durable Capital Partners LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 163831.03,
+      "date": "2026-07-27",
+      "score": 75.9
+    },
+    {
+      "ticker": "CVBF",
+      "company": "CVB FINANCIAL CORP",
+      "actor": "O Brien Raymond V III",
+      "actor_type": "director",
+      "amount": 455300.0,
+      "date": "2026-07-28",
+      "score": 75.6
+    },
+    {
+      "ticker": "SCTX",
+      "company": "Scribe Therapeutics, Inc.",
+      "actor": "Aghazadeh Behzad",
+      "actor_type": "ten_percent_owner",
+      "amount": 144266.25,
+      "date": "2026-07-28",
+      "score": 75.6
     }
   ],
   "institutional_changes": [
@@ -1033,6 +1035,14 @@
     },
     {
       "politician": "Dan Newhouse",
+      "ticker": "GOOGL",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Dan Newhouse",
       "ticker": "FMC",
       "direction": "sell",
       "amount": 15000,
@@ -1041,8 +1051,16 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "TMO",
+      "ticker": "INTU",
       "direction": "sell",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
+      "politician": "Dan Newhouse",
+      "ticker": "MU",
+      "direction": "buy",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 62.4
@@ -1062,22 +1080,6 @@
       "amount": 100000,
       "date": "2026-06-10",
       "score": 62.2
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "CAG",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-06-16",
-      "score": 62.0
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "MSTR",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-06-05",
-      "score": 62.0
     }
   ],
   "large_holders": [
@@ -1136,6 +1138,15 @@
       "date": "2026-07-27"
     },
     {
+      "filer": "Westin Investment Co. Ltd.",
+      "company": "Westin Acquisition Corp",
+      "ticker": "",
+      "ownership_pct": 27.9,
+      "shares": 2247500,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-28"
+    },
+    {
       "filer": "J.B.D Innovation Ltd.",
       "company": "Wearable Devices Ltd.",
       "ticker": "",
@@ -1151,6 +1162,15 @@
       "ownership_pct": 24.1,
       "shares": 3800197,
       "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-28"
+    },
+    {
+      "filer": "CS RE Holdings, LLC",
+      "company": "Core University Living Real Estate Income Trust",
+      "ticker": "",
+      "ownership_pct": 23.51,
+      "shares": 3090859,
+      "filing_type": "SCHEDULE 13D",
       "date": "2026-07-28"
     },
     {
@@ -1197,34 +1217,92 @@
       "shares": 6670283,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-28"
-    },
-    {
-      "filer": "Sobelman David",
-      "company": "GENERATION INCOME PROPERTIES, INC.",
-      "ticker": "",
-      "ownership_pct": 15.56,
-      "shares": 185562,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-28"
-    },
-    {
-      "filer": "Lynrock Lake LP",
-      "company": "RADCOM LTD",
-      "ticker": "RDCM",
-      "ownership_pct": 14.6,
-      "shares": 2439026,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-27"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 133167.12,
-        "win_rate": 0.908,
-        "volume": 370048.88,
+        "wallet": "0xa16a1302ca",
+        "username": "MoistLotion",
+        "pnl": 23226.35,
+        "win_rate": 0.983,
+        "volume": 51300.96,
+        "categories": [
+          "crypto",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 46658.37,
+        "win_rate": 0.9101,
+        "volume": 160553.73,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xeee15bab16",
+        "username": "xuejiao",
+        "pnl": 8526.01,
+        "win_rate": 0.985,
+        "volume": 1503.67,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x52911b9d1d",
+        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
+        "pnl": 44558.53,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0353aaf82a",
+        "username": "AGUGava",
+        "pnl": 9806.94,
+        "win_rate": 0.9061,
+        "volume": 29504.76,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x8bfee7aeca",
+        "username": "tennischamp",
+        "pnl": 9213.47,
+        "win_rate": 0.9061,
+        "volume": 61628.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9a40780a93",
+        "username": "LUCKYME001",
+        "pnl": 10438.47,
+        "win_rate": 0.8959,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 71218.55,
+        "win_rate": 0.75,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1232,22 +1310,98 @@
       {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 181903.76,
+        "pnl": 5790.63,
         "win_rate": 0.8807,
-        "volume": 423687.06,
+        "volume": 0.0,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 19594.57,
-        "win_rate": 0.985,
-        "volume": 301278.82,
+        "wallet": "0xe337f5a28e",
+        "username": "0xE337F5A28E9C530a676C959A1888Ba5368664ad6-1779639269540",
+        "pnl": 5575.98,
+        "win_rate": 0.869,
+        "volume": 6668.63,
         "categories": [
           "sports",
+          "crypto"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 46658.37,
+        "win_rate": 0.9101,
+        "volume": 160553.73,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 7403.05,
+        "win_rate": 0.536,
+        "volume": 368481.23,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8bfee7aeca",
+        "username": "tennischamp",
+        "pnl": 9213.47,
+        "win_rate": 0.9061,
+        "volume": 61628.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x30e443872d",
+        "username": "truthteller",
+        "pnl": 4567.29,
+        "win_rate": 0.632,
+        "volume": 60024.3,
+        "categories": [
+          "politics",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 7789.2,
+        "win_rate": 0.529,
+        "volume": 85553.06,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x26437896ed",
+        "username": "Latina",
+        "pnl": 25560.0,
+        "win_rate": 0.6881,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7b02b2bac2",
+        "username": "foodenjoyer",
+        "pnl": 5445.29,
+        "win_rate": 0.5217,
+        "volume": 0.0,
+        "categories": [
+          "economy",
           "crypto",
           "politics"
         ]
@@ -1255,9 +1409,9 @@
       {
         "wallet": "0xa16a1302ca",
         "username": "MoistLotion",
-        "pnl": 18052.37,
-        "win_rate": 0.979,
-        "volume": 1214132.62,
+        "pnl": 23226.35,
+        "win_rate": 0.983,
+        "volume": 51300.96,
         "categories": [
           "crypto",
           "sports",
@@ -1265,100 +1419,11 @@
         ]
       },
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 114761.99,
-        "win_rate": 1.0,
-        "volume": 1101956.12,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 23166.4,
-        "win_rate": 0.9039,
-        "volume": 231573.17,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 18215.17,
-        "win_rate": 0.9099,
-        "volume": 884589.09,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x85a85805bc",
-        "username": "LJa7io23MCv954j",
-        "pnl": 17659.15,
-        "win_rate": 0.8667,
-        "volume": 10156.03,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "neurodivergentBet",
-        "pnl": 27755.38,
-        "win_rate": 0.8264,
-        "volume": 2099.45,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xef2684030d",
-        "username": "LOBODAFL",
-        "pnl": 36000.55,
-        "win_rate": 0.796,
-        "volume": 93085.74,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 183180.91,
-        "win_rate": 0.524,
-        "volume": 4925195.96,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 35033.22,
-        "win_rate": 0.661,
-        "volume": 8541328.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xc6587b11a2",
         "username": "Erasmus.",
-        "pnl": 33152.06,
+        "pnl": 6212.95,
         "win_rate": 0.7042,
-        "volume": 1025474.78,
+        "volume": 0.0,
         "categories": [
           "politics",
           "economy",
@@ -1366,84 +1431,47 @@
         ]
       },
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 114761.99,
-        "win_rate": 1.0,
-        "volume": 1101956.12,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 138610.75,
-        "win_rate": 0.4882,
-        "volume": 775692.87,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 18215.17,
-        "win_rate": 0.9099,
-        "volume": 884589.09,
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 8159.14,
+        "win_rate": 0.5301,
+        "volume": 0.0,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7bc14171cc",
-        "username": "coali10",
-        "pnl": 22812.09,
-        "win_rate": 0.6881,
-        "volume": 408150.28,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x1b20a00709",
-        "username": "0x1b20a00709DfE648AFd26b326394b5e031f83ab0-1785189457930",
-        "pnl": 100678.16,
-        "win_rate": 0.6667,
-        "volume": 392052.85,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xa16a1302ca",
-        "username": "MoistLotion",
-        "pnl": 18052.37,
-        "win_rate": 0.979,
-        "volume": 1214132.62,
-        "categories": [
-          "crypto",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 83417.1,
-        "win_rate": 0.677,
-        "volume": 674113.21,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Win Streak May Continue For Hong Kong Stock Market",
+      "url": "https://www.rttnews.com/story.aspx?Id=3671609",
+      "ticker": "GOOGL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Singapore Stock Market May Move Back To The Upside On Wednesday",
+      "url": "https://www.rttnews.com/story.aspx?Id=3671601",
+      "ticker": "GOOGL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Bargain Hunting May Lift Taiwan Stock Market",
+      "url": "https://www.rttnews.com/story.aspx?Id=3671603",
+      "ticker": "GOOGL",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-29"
+    },
     {
       "title": "United Therapeutics CEO Sells $5 Million of Shares . What Does This Mean for Investors ? ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/united-therapeutics-ceo-sells-5-212701291.html",
@@ -1475,13 +1503,6 @@
       "date": "2026-07-28"
     },
     {
-      "title": "Big business borrows up as SMEs pull back , Equifax data shows",
-      "url": "https://www.brokernews.com.au/news/breaking-news/big-business-borrows-up-as-smes-pull-back-equifax-data-shows-289725.aspx",
-      "ticker": "EFX",
-      "themes": [],
-      "date": "2026-07-28"
-    },
-    {
       "title": "Ardelyx ( NASDAQ : ARDX ) vs . United Therapeutics ( NASDAQ : UTHR ) Financial Survey",
       "url": "https://www.dailypolitical.com/2026/07/27/ardelyx-nasdaqardx-vs-united-therapeutics-nasdaquthr-financial-survey.html",
       "ticker": "UTHR",
@@ -1489,7 +1510,7 @@
       "date": "2026-07-27"
     }
   ],
-  "signals_count": 1489,
+  "signals_count": 1548,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
