@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-29T22:31:42+00:00 -->
+<!-- trader_prompt.md generado 2026-07-29T23:29:11+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-29T22:31:42+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
+_Generado 2026-07-29T23:29:10+00:00 · ventana señales 2026-06-29 -> 2026-07-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -253,31 +253,35 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 | QQQ | 7.2% | core | 661.73 | -2.04% | -6.18% | -10.14% |
 | TLT | 7.2% | core | 82.85 | -1.65% | -0.71% | -3.78% |
 | GLD | 5.4% | core | 371.08 | 0.46% | -2.12% | 0.73% |
-| POR | 4.7% | satellite | 50.3 | -1.66% | -4.95% | -2.95% |
-| BEP | 4.0% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
+| POR | 4.3% | satellite | 50.3 | -1.66% | -4.95% | -2.95% |
+| BEP | 3.7% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
 | IEF | 3.6% | core | 93.17 | -0.42% | 0.08% | -1.16% |
-| EQBK | 3.3% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
-| LHX | 2.6% | satellite | 297.53 | -2.51% | 4.34% | 2.39% |
-| VSXY | 1.8% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
-| KTOS | 1.5% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
-| ODD | 0.9% | satellite | 14.97 | -11.89% | -8.61% | -1.06% |
+| EQBK | 3.1% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
+| LHX | 2.4% | satellite | 297.53 | -2.51% | 4.34% | 2.39% |
+| VSXY | 1.7% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
+| KTOS | 1.4% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
+| GSHD | 1.2% | satellite | 70.72 | 2.76% | 37.59% | 45.81% |
+| MSTR | 0.9% | satellite | 93.33 | -2.94% | -6.68% | 7.36% |
 | SPCX | 0.8% | satellite | 112.55 | -3.32% | -2.35% | -34.13% |
+| NXTC | 0.1% | satellite | 5.02 | -7.38% | 14.09% | 213.75% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 5.5%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: None · posiciones efectivas: 28.3 · HHI: 0.0353
+- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.6%
+- Max drawdown historico: -1.5%
+- Beta vs SPY: None · posiciones efectivas: 28.9 · HHI: 0.0346
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **GSHD** · score agregado 443.4 · 7 señales · fuentes: corporate_insider
 - **SPCX** · score agregado 241.4 · 4 señales · fuentes: congress
+- **NXTC** · score agregado 112.5 · 2 señales · fuentes: corporate_insider
 - **VSXY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **LHX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KTOS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ODD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **POR** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **MSTR** · score agregado 62.0 · 1 señales · fuentes: congress
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 - **EQBK** · score agregado 55.0 · 1 señales · fuentes: corporate_insider
 
@@ -287,21 +291,21 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| NNOX | 78 | corporate_insider | Meltzer Erez | 3 | $33,480 | cluster_buy |
+| NNOX | 74 | corporate_insider | Kainan Noga | 3 | $29,700 | cluster_buy |
+| NNOX | 73 | corporate_insider | Suesskind Dan S | 3 | $23,500 | cluster_buy,small_amount |
+| NNOX | 73 | corporate_insider | Suesskind Dan S | 3 | $23,000 | cluster_buy,small_amount |
 | VSXY | 72 | large_holder | BBFIT INVESTMENTS PTE LTD |  | - | - |
 | PPIH | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | NPKI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | LHX | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| MUX | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| LMND | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | KTOS | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | EDIT | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| ODD | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | NNOX | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | MGA | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | POR | 72 | large_holder | Clearbridge Investments,  |  | - | - |
 | SYBX | 70 | large_holder | Funicular Funds, LP |  | - | - |
-| NBR | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| ROST | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| RSG | 70 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -331,7 +335,7 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 - IEF: 93.17 (-0.42% / 0.08% / -1.16%) [2026-07-29]
 - GLD: 371.08 (0.46% / -2.12% / 0.73%) [2026-07-29]
 - ^VIX: 20.66 (13.45% / 24.16% / 25.59%) [2026-07-29]
-- BTC-USD: 63951.73 (0.13% / -0.23% / 1.2%) [2026-07-29]
+- BTC-USD: 63935.86 (0.1% / -0.25% / 1.18%) [2026-07-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,30 +350,29 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), merger (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AVNS] AIP completes take - private buyout of medical tech firm Avanos Medical (2026-07-29)
+- [DRI] Sei Investments Co . Has $101 . 34 Million Holdings in Darden Restaurants , Inc . $DRI (2026-07-24)
+- [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner BBRC INTERNATIONAL PTE LTD vendio VSXY por $64.0M el 2026-07-28 [senal en multiples fuentes].
-- 10% owner Gebbia Joseph vendio ABNB por $175.2M el 2026-07-28.
-- 10% owner ADVENT INTERNATIONAL, L.P. vendio LUNR por $147.6M el 2026-07-28.
+- 10% owner MSD CAPITAL, L.P. compro 5C Lending Partners Corp. por $31.0M el 2026-07-24.
 - CEO Pacitti David vendio AVNS por $11.1M el 2026-07-27.
 - CEO Barra Mary T vendio GM por $9.8M el 2026-07-28.
+- 10% owner AH Bio Fund II, L.P. compro SCTX por $5.0M el 2026-07-27 [senal en multiples fuentes].
+- 10% owner Market Technology Acquisition Sponsor LLC compro MTAK por $4.5M el 2026-07-27.
+- 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $8.2M el 2026-07-24.
 - CEO Reuss Mark L vendio GM por $6.4M el 2026-07-28.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- tipISappreciated · PnL $59,257 · win rate 95% · categorias: sports, economy, politics
-- esportGG · PnL $57,992 · win rate 95% · categorias: sports
-- monkeymashingkeyboard · PnL $73,647 · win rate 92% · categorias: sports
-- Hashbrown · PnL $59,994 · win rate 93% · categorias: crypto, sports, politics
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $45,762 · win rate 91% · categorias: sports, crypto
+- tipISappreciated · PnL $59,265 · win rate 95% · categorias: sports, economy, politics
+- esportGG · PnL $58,233 · win rate 95% · categorias: sports
+- Hashbrown · PnL $59,996 · win rate 93% · categorias: crypto, sports, politics
+- monkeymashingkeyboard · PnL $63,969 · win rate 92% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $54,678 · win rate 91% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -377,7 +380,7 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 65 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 636 registros 30d · ultimo dato 2026-07-29
+- **sec_insiders**: `ok` · 658 registros 30d · ultimo dato 2026-07-29
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -390,7 +393,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, EQBK, GLD, IEF, KTOS, LHX, ODD, POR, QQQ, SPCX, SPY, TLT, VSXY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, EQBK, GLD, GSHD, IEF, KTOS, LHX, MSTR, NXTC, POR, QQQ, SPCX, SPY, TLT, VSXY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **55.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

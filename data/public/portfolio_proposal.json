@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-07-29T22:31:42+00:00",
+  "generated_at": "2026-07-29T23:29:09+00:00",
   "profile": "moderado",
   "regime_budget": 0.55,
-  "total_equity": 0.5501,
-  "cash": 0.4499,
+  "total_equity": 0.55,
+  "cash": 0.45,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0724,
     "TLT": 0.0724,
     "GLD": 0.0542,
-    "POR": 0.0468,
-    "BEP": 0.0398,
+    "POR": 0.0433,
+    "BEP": 0.0368,
     "IEF": 0.0362,
-    "EQBK": 0.033,
-    "LHX": 0.0259,
-    "VSXY": 0.0181,
-    "KTOS": 0.0145,
-    "ODD": 0.0087,
-    "SPCX": 0.0081
+    "EQBK": 0.0306,
+    "LHX": 0.0241,
+    "VSXY": 0.0168,
+    "KTOS": 0.0135,
+    "GSHD": 0.0116,
+    "MSTR": 0.0093,
+    "SPCX": 0.0076,
+    "NXTC": 0.0012
   },
   "core": {
     "SPY": 0.1251,
@@ -27,16 +29,26 @@
     "GLD": 0.0536
   },
   "satellite": {
-    "SPCX": 0.008,
-    "VSXY": 0.0179,
-    "LHX": 0.0256,
-    "KTOS": 0.0143,
-    "ODD": 0.0086,
-    "POR": 0.0462,
-    "BEP": 0.0393,
-    "EQBK": 0.0326
+    "GSHD": 0.0115,
+    "SPCX": 0.0075,
+    "NXTC": 0.0012,
+    "VSXY": 0.0166,
+    "LHX": 0.0238,
+    "KTOS": 0.0133,
+    "POR": 0.0428,
+    "MSTR": 0.0092,
+    "BEP": 0.0364,
+    "EQBK": 0.0302
   },
   "satellite_rationale": [
+    {
+      "ticker": "GSHD",
+      "score": 443.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 7
+    },
     {
       "ticker": "SPCX",
       "score": 241.4,
@@ -44,6 +56,14 @@
         "congress"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "NXTC",
+      "score": 112.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "VSXY",
@@ -70,7 +90,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "ODD",
+      "ticker": "POR",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -78,10 +98,10 @@
       "n_signals": 1
     },
     {
-      "ticker": "POR",
-      "score": 71.8,
+      "ticker": "MSTR",
+      "score": 62.0,
       "sources": [
-        "large_holder"
+        "congress"
       ],
       "n_signals": 1
     },
@@ -103,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.055,
-    "var_95_1d": 0.0057,
-    "cvar_95_1d": 0.006,
-    "max_drawdown": -0.0175,
+    "ann_vol": 0.0547,
+    "var_95_1d": 0.0055,
+    "cvar_95_1d": 0.0062,
+    "max_drawdown": -0.0145,
     "beta_spy": null,
-    "hhi": 0.0353,
+    "hhi": 0.0346,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 28.3,
-    "gross_exposure": 0.5501,
+    "n_positions": 15,
+    "effective_positions": 28.9,
+    "gross_exposure": 0.55,
     "days_used": 25
   },
   "risk_gate": {
