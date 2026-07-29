@@ -269,7 +269,7 @@
     "n_adjustments": 2
   },
   {
-    "approved_at": "2026-07-29T16:10:51+00:00",
+    "approved_at": "2026-07-29T21:36:58+00:00",
     "weights": {
       "SPY": 0.12,
       "QQQ": 0.12,
@@ -280,12 +280,12 @@
       "AVO": 0.042,
       "PSBD": 0.031,
       "NTSK": 0.031,
-      "CLBK": 0.023,
-      "GSHD": 0.025
+      "GSHD": 0.025,
+      "CLBK": 0.023
     },
-    "verdict_llm": "adjust",
-    "thesis": "Regimen risk_on sin cambios (presupuesto 70% identico al ciclo previo) y ninguna senal de venta de la seccion 3b afecta a mis posiciones actuales (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, FMC no estan en cartera), asi que mantengo el nucleo SPY/QQQ/TLT/GLD/IEF integro. Unico movimiento: sustituyo COE (satelite legacy sin senal ni precio en varios ciclos) por GSHD, con la conviccion de insiders mas fuerte del briefing (7 senales, score 443.4), a igualdad de tamano para no aumentar friccion. El resto de satelites legacy (LION, AVO, PSBD, NTSK, CLBK) se mantienen por defecto al no haber evidencia de tesis rota, aunque su falta persistente de datos de precio es una limitacion real de seguimiento.",
+    "verdict_llm": "accept",
+    "thesis": "El regimen risk_on mantiene el mismo presupuesto que el ciclo anterior (70%), por lo que no hay recorte forzado de exposicion. Ninguna senal de venta de la seccion 3b (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, INTU) afecta a mis posiciones actuales. GSHD, incorporada esta misma manana por conviccion de insiders (7 senales, score 443.4), ya confirma la tesis con +2.54% desde la entrada. Las nuevas ideas del briefing (POR, BEP, KRNY, LHX, SPCX) tienen conviccion moderada o son mas volatiles (SPCX -34.12% en 20d), y no compensan el coste de friccion de abrir posicion nueva sin que ninguna posicion actual tenga senal de venta en contra. Mantengo la cartera integra: 70% invertido, 30% cash.",
     "confidence": 0.55,
-    "n_adjustments": 2
+    "n_adjustments": 0
   }
 ]

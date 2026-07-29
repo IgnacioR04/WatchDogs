@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T20:02:02+00:00",
+  "generated_at": "2026-07-29T21:37:08+00:00",
   "budget_eur": 100.0,
   "n_cycles": 13,
   "cost_model": {
@@ -8,110 +8,110 @@
   },
   "metrics": {
     "n_days": 15,
-    "equity_eur": 98.23,
-    "total_return": -0.0177,
-    "win_rate_days": 0.4,
-    "best_day": 0.005,
-    "worst_day": -0.0092,
-    "ann_vol": 0.0665,
-    "sharpe": -3.94,
-    "sortino": -4.65,
-    "max_drawdown": -0.02,
-    "spy_return": -0.0255,
-    "excess_return": 0.0078,
-    "costs_eur": 0.2119,
+    "equity_eur": 98.22,
+    "total_return": -0.0178,
+    "win_rate_days": 0.4667,
+    "best_day": 0.0047,
+    "worst_day": -0.0099,
+    "ann_vol": 0.065,
+    "sharpe": -4.06,
+    "sortino": -4.47,
+    "max_drawdown": -0.0211,
+    "spy_return": -0.027,
+    "excess_return": 0.0091,
+    "costs_eur": 0.212,
     "turnover_total": 1.414
   },
   "equity_curve": [
     {
       "date": "2026-07-09",
-      "equity": 100.23,
+      "equity": 100.34,
       "spy": 100.69,
-      "daily_ret": 0.00367
+      "daily_ret": 0.00471
     },
     {
       "date": "2026-07-10",
-      "equity": 100.21,
+      "equity": 100.32,
       "spy": 101.02,
-      "daily_ret": -0.00017
+      "daily_ret": -8e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.65,
+      "equity": 99.91,
       "spy": 100.5,
-      "daily_ret": -0.00532
+      "daily_ret": -0.00383
     },
     {
       "date": "2026-07-14",
-      "equity": 100.09,
+      "equity": 100.22,
       "spy": 101.04,
-      "daily_ret": 0.00445
+      "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 99.96,
+      "equity": 100.11,
       "spy": 101.08,
-      "daily_ret": -0.00128
+      "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.29,
+      "equity": 99.39,
       "spy": 100.13,
-      "daily_ret": -0.00675
+      "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.26,
+      "equity": 99.32,
       "spy": 99.36,
-      "daily_ret": -0.00032
+      "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.17,
+      "equity": 99.32,
       "spy": 99.35,
-      "daily_ret": -0.00059
+      "daily_ret": 0.00027
     },
     {
       "date": "2026-07-21",
-      "equity": 99.67,
+      "equity": 99.71,
       "spy": 100.26,
-      "daily_ret": 0.00502
+      "daily_ret": 0.00398
     },
     {
       "date": "2026-07-22",
-      "equity": 99.72,
+      "equity": 99.74,
       "spy": 100.27,
-      "daily_ret": 0.00052
+      "daily_ret": 0.00023
     },
     {
       "date": "2026-07-23",
-      "equity": 99.06,
+      "equity": 99.13,
       "spy": 98.96,
-      "daily_ret": -0.0065
+      "daily_ret": -0.00603
     },
     {
       "date": "2026-07-24",
-      "equity": 99.13,
+      "equity": 99.19,
       "spy": 99.37,
       "daily_ret": 0.00065
     },
     {
       "date": "2026-07-27",
-      "equity": 99.17,
+      "equity": 99.23,
       "spy": 99.23,
       "daily_ret": 0.00039
     },
     {
       "date": "2026-07-28",
-      "equity": 99.15,
+      "equity": 99.21,
       "spy": 99.69,
       "daily_ret": -0.00019
     },
     {
       "date": "2026-07-29",
-      "equity": 98.23,
-      "spy": 97.45,
-      "daily_ret": -0.00919
+      "equity": 98.22,
+      "spy": 97.3,
+      "daily_ret": -0.00994
     }
   ],
   "positions": {
@@ -133,49 +133,64 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0177,
+      "ret_since_entry": -0.0179,
       "value_eur": 11.79
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0089,
+      "ret_since_entry": -0.009,
       "value_eur": 9.22
     },
     "IEF": {
       "weight": 0.053,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0037,
+      "ret_since_entry": -0.0036,
       "value_eur": 5.28
     },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": -0.0134,
+      "value_eur": 4.14
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-10",
+      "ret_since_entry": -0.006,
+      "value_eur": 4.17
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock"
-    },
-    "CLBK": {
-      "weight": 0.023,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": 0.039,
+      "value_eur": 3.22
     },
     "GSHD": {
       "weight": 0.025,
       "instrument": "stock",
       "entry_date": "2026-07-29",
-      "ret_since_entry": 0.0254,
-      "value_eur": 2.56
+      "ret_since_entry": 0.0276,
+      "value_eur": 2.57
+    },
+    "CLBK": {
+      "weight": 0.023,
+      "instrument": "stock",
+      "entry_date": "2026-07-23",
+      "ret_since_entry": 0.0041,
+      "value_eur": 2.31
     }
   },
   "cycles": [
@@ -325,15 +340,15 @@
     },
     {
       "cycle": 13,
-      "approved_at": "2026-07-29T16:10:51+00:00",
+      "approved_at": "2026-07-29T21:36:58+00:00",
       "n_positions": 11,
       "invested": 0.7,
       "turnover": 0.05,
       "cost_pct": 8e-05,
-      "verdict_llm": "adjust",
-      "thesis": "Regimen risk_on sin cambios (presupuesto 70% identico al ciclo previo) y ninguna senal de venta de la seccion 3b afecta a mis posiciones actuales (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, FMC no estan en cartera), asi que mantengo el nucleo SPY/QQQ/TLT/GLD/IEF integro. Unico movimiento: sustituyo COE (satelite legacy sin senal ni precio en varios ciclos) por GSHD, con la conviccion de insiders mas fuerte del briefing (7 senales, score 443.4), a igualdad de tamano para no aumentar friccion. El resto de satelites legacy (LION, AVO, PSBD, NTSK, CLBK) se mantienen por defecto al no haber evidencia de tesis rota, aunque su falta persistente de datos de precio es una limitacion real de seguimiento.",
+      "verdict_llm": "accept",
+      "thesis": "El regimen risk_on mantiene el mismo presupuesto que el ciclo anterior (70%), por lo que no hay recorte forzado de exposicion. Ninguna senal de venta de la seccion 3b (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, INTU) afecta a mis posiciones actuales. GSHD, incorporada esta misma manana por conviccion de insiders (7 senales, score 443.4), ya confirma la tesis con +2.54% desde la entrada. Las nuevas ideas del briefing (POR, BEP, KRNY, LHX, SPCX) tienen conviccion moderada o son mas volatiles (SPCX -34.12% en 20d), y no compensan el coste de friccion de abrir posicion nueva sin que ninguna posicion actual tenga senal de venta en contra. Mantengo la cartera integra: 70% invertido, 30% cash.",
       "confidence": 0.55,
-      "n_adjustments": 2
+      "n_adjustments": 0
     }
   ]
 }
