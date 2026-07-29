@@ -1,29 +1,15 @@
 {
   "verdict": "adjust",
   "adjustments": [
-    {"ticker": "MOMO", "action": "remove", "target_weight": 0.0,
-     "reason": "Sin ninguna señal ni dato de precio en el briefing de este ciclo; es la posición más pequeña y su tesis original no se ha renovado en 30 dias. Libera hueco para la idea de mayor convicción del ciclo."},
-    {"ticker": "CLBK", "action": "add", "target_weight": 0.023,
-     "reason": "Señal de convicción cruzada extrema: 25 insiders distintos comprando en cluster_buy (score agregado 1950.9, ~$3M+ combinados), la mas fuerte de todo el briefing. Precio 10.84 cumple liquidez minima para posicion nueva."}
+    {"ticker": "COE", "action": "remove", "target_weight": 0.0, "reason": "Sin senal en la seccion 3 de este ciclo ni en los anteriores, y sin dato de precio en market_prices_latest desde hace varios ciclos: no se puede verificar tesis ni P&L real. Libero su peso (2.5%) para la idea de mayor conviccion del briefing."},
+    {"ticker": "GSHD", "action": "add", "target_weight": 0.025, "reason": "Score agregado 443.4 con 7 senales distintas de insiders (corporate_insider), la conviccion mas alta de todo el briefing de esta semana. Entra al mismo tamano que COE (2.5%), sin aumentar exposicion total ni turnover neto mas alla del swap."}
   ],
-  "final_weights": {
-    "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "GLD": 0.093,
-    "IEF": 0.053,
-    "LION": 0.042,
-    "AVO": 0.042,
-    "PSBD": 0.031,
-    "NTSK": 0.031,
-    "COE": 0.025,
-    "CLBK": 0.023
-  },
-  "thesis": "Mantengo la estructura core-satelite y la exposicion total (70%) practicamente intacta porque el regimen sigue risk_on con el mismo presupuesto que el ciclo anterior y ninguna posicion abierta tiene señal de venta clara. Unico movimiento: roto MOMO (sin datos ni señal este ciclo, posicion mas pequeña) hacia CLBK, que presenta la señal de convicción cruzada mas fuerte del briefing (25 insiders distintos en cluster buy, score 1950.9). El resto de satelites legacy (LION, AVO, PSBD, NTSK, COE) se mantienen por defecto al no haber evidencia de ruptura de tesis; COE ademas tiene compras recientes de su CEO reportadas en noticias (~$5.2M en tres operaciones) que refuerzan mantenerla.",
+  "final_weights": {"SPY": 0.12, "QQQ": 0.12, "TLT": 0.12, "GLD": 0.093, "IEF": 0.053, "LION": 0.042, "AVO": 0.042, "PSBD": 0.031, "NTSK": 0.031, "CLBK": 0.023, "GSHD": 0.025},
+  "thesis": "Regimen risk_on sin cambios (presupuesto 70% identico al ciclo previo) y ninguna senal de venta de la seccion 3b afecta a mis posiciones actuales (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, FMC no estan en cartera), asi que mantengo el nucleo SPY/QQQ/TLT/GLD/IEF integro. Unico movimiento: sustituyo COE (satelite legacy sin senal ni precio en varios ciclos) por GSHD, con la conviccion de insiders mas fuerte del briefing (7 senales, score 443.4), a igualdad de tamano para no aumentar friccion. El resto de satelites legacy (LION, AVO, PSBD, NTSK, CLBK) se mantienen por defecto al no haber evidencia de tesis rota, aunque su falta persistente de datos de precio es una limitacion real de seguimiento.",
   "key_risks": [
-    "Credito tenso (HY spread 2.68) conviviendo con risk_on: si el spread sigue ampliando el regimen puede virar a neutral/risk_off rapido y obligar a recortar exposicion",
-    "CLBK es una entidad bancaria regional small-cap: mayor volatilidad idiosincratica y menor liquidez que el core del indice",
-    "Los satelites legacy (LION, AVO, PSBD, NTSK) no aparecen en el briefing de este ciclo, por lo que su tesis no es verificable con los datos actuales; se mantienen por sesgo de defecto, no por confirmacion activa"
+    "GSHD ya subio +34.3% en 5d y +42.3% en 20d antes de esta entrada: riesgo de perseguir un rally que ya reflejo la compra de insiders.",
+    "19.4% de la cartera (LION, AVO, PSBD, NTSK, CLBK) sin datos de precio actuales en el feed, lo que impide evaluar tesis o P&L real de esos satelites.",
+    "VIX subio 19.3% en 5 dias y credito sigue tenso (HY spread 2.84) pese a regimen risk_on: posible fragilidad bajo la superficie del rally."
   ],
-  "confidence": 0.6
+  "confidence": 0.55
 }

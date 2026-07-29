@@ -1,117 +1,111 @@
 {
-  "generated_at": "2026-07-29T15:36:33+00:00",
+  "generated_at": "2026-07-29T16:11:01+00:00",
   "budget_eur": 100.0,
-  "n_cycles": 12,
+  "n_cycles": 13,
   "cost_model": {
     "per_side": 0.0015,
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
-    "n_days": 15,
-    "equity_eur": 98.75,
-    "total_return": -0.0125,
-    "win_rate_days": 0.4,
-    "best_day": 0.005,
-    "worst_day": -0.0067,
-    "ann_vol": 0.058,
-    "sharpe": -3.03,
-    "sortino": -3.91,
-    "max_drawdown": -0.0148,
-    "spy_return": -0.0127,
-    "excess_return": 0.0001,
-    "costs_eur": 0.2045,
-    "turnover_total": 1.364
+    "n_days": 14,
+    "equity_eur": 98.89,
+    "total_return": -0.0111,
+    "win_rate_days": 0.5,
+    "best_day": 0.0047,
+    "worst_day": -0.0072,
+    "ann_vol": 0.0552,
+    "sharpe": -2.93,
+    "sortino": -3.76,
+    "max_drawdown": -0.0145,
+    "spy_return": -0.0152,
+    "excess_return": 0.004,
+    "costs_eur": 0.212,
+    "turnover_total": 1.414
   },
   "equity_curve": [
     {
       "date": "2026-07-09",
-      "equity": 100.23,
+      "equity": 100.34,
       "spy": 100.69,
-      "daily_ret": 0.00367
+      "daily_ret": 0.00471
     },
     {
       "date": "2026-07-10",
-      "equity": 100.21,
+      "equity": 100.32,
       "spy": 101.02,
-      "daily_ret": -0.00017
+      "daily_ret": -8e-05
     },
     {
       "date": "2026-07-13",
-      "equity": 99.65,
+      "equity": 99.91,
       "spy": 100.5,
-      "daily_ret": -0.00532
+      "daily_ret": -0.00383
     },
     {
       "date": "2026-07-14",
-      "equity": 100.09,
+      "equity": 100.22,
       "spy": 101.04,
-      "daily_ret": 0.00445
+      "daily_ret": 0.00314
     },
     {
       "date": "2026-07-15",
-      "equity": 99.96,
+      "equity": 100.11,
       "spy": 101.08,
-      "daily_ret": -0.00128
+      "daily_ret": -0.00109
     },
     {
       "date": "2026-07-16",
-      "equity": 99.29,
+      "equity": 99.39,
       "spy": 100.13,
-      "daily_ret": -0.00675
+      "daily_ret": -0.00716
     },
     {
       "date": "2026-07-17",
-      "equity": 99.26,
+      "equity": 99.32,
       "spy": 99.36,
-      "daily_ret": -0.00032
+      "daily_ret": -0.00077
     },
     {
       "date": "2026-07-20",
-      "equity": 99.17,
+      "equity": 99.32,
       "spy": 99.35,
-      "daily_ret": -0.00059
+      "daily_ret": 0.00027
     },
     {
       "date": "2026-07-21",
-      "equity": 99.67,
+      "equity": 99.71,
       "spy": 100.26,
-      "daily_ret": 0.00502
+      "daily_ret": 0.00398
     },
     {
       "date": "2026-07-22",
-      "equity": 99.72,
+      "equity": 99.74,
       "spy": 100.27,
-      "daily_ret": 0.00052
+      "daily_ret": 0.00023
     },
     {
       "date": "2026-07-23",
-      "equity": 99.06,
+      "equity": 99.13,
       "spy": 98.96,
-      "daily_ret": -0.0065
+      "daily_ret": -0.00603
     },
     {
       "date": "2026-07-24",
-      "equity": 99.13,
+      "equity": 99.17,
       "spy": 99.37,
-      "daily_ret": 0.00065
+      "daily_ret": 0.00038
     },
     {
       "date": "2026-07-27",
-      "equity": 99.17,
+      "equity": 99.22,
       "spy": 99.23,
-      "daily_ret": 0.00039
-    },
-    {
-      "date": "2026-07-28",
-      "equity": 99.15,
-      "spy": 99.69,
-      "daily_ret": -0.00019
+      "daily_ret": 0.0005
     },
     {
       "date": "2026-07-29",
-      "equity": 98.75,
-      "spy": 98.73,
-      "daily_ret": -0.00406
+      "equity": 98.89,
+      "spy": 98.48,
+      "daily_ret": -0.00324
     }
   ],
   "positions": {
@@ -119,60 +113,78 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0145,
-      "value_eur": 11.83
+      "ret_since_entry": -0.017,
+      "value_eur": 11.8
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0624,
-      "value_eur": 11.25
+      "ret_since_entry": -0.066,
+      "value_eur": 11.21
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0052,
-      "value_eur": 11.94
+      "ret_since_entry": -0.0063,
+      "value_eur": 11.92
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0173,
+      "ret_since_entry": -0.0171,
       "value_eur": 9.14
     },
     "IEF": {
       "weight": 0.053,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0022,
+      "ret_since_entry": -0.0028,
       "value_eur": 5.29
     },
     "LION": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": -0.0134,
+      "value_eur": 4.14
     },
     "AVO": {
       "weight": 0.042,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-10",
+      "ret_since_entry": -0.006,
+      "value_eur": 4.17
     },
     "PSBD": {
       "weight": 0.031,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-09",
+      "ret_since_entry": 0.0,
+      "value_eur": 3.1
     },
     "NTSK": {
       "weight": 0.031,
-      "instrument": "stock"
-    },
-    "COE": {
-      "weight": 0.025,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-13",
+      "ret_since_entry": 0.039,
+      "value_eur": 3.22
     },
     "CLBK": {
       "weight": 0.023,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-23",
+      "ret_since_entry": 0.0041,
+      "value_eur": 2.31
+    },
+    "GSHD": {
+      "weight": 0.025,
+      "instrument": "stock",
+      "entry_date": "2026-07-29",
+      "ret_since_entry": 0.1224,
+      "value_eur": 2.81
     }
   },
   "cycles": [
@@ -318,6 +330,18 @@
       "verdict_llm": "adjust",
       "thesis": "Mantengo la estructura core-satelite y la exposicion total (70%) practicamente intacta porque el regimen sigue risk_on con el mismo presupuesto que el ciclo anterior y ninguna posicion abierta tiene señal de venta clara. Unico movimiento: roto MOMO (sin datos ni señal este ciclo, posicion mas pequeña) hacia CLBK, que presenta la señal de convicción cruzada mas fuerte del briefing (25 insiders distintos en cluster buy, score 1950.9). El resto de satelites legacy (LION, AVO, PSBD, NTSK, COE) se mantienen por defecto al no haber evidencia de ruptura de tesis; COE ademas tiene compras recientes de su CEO reportadas en noticias (~$5.2M en tres operaciones) que refuerzan mantenerla.",
       "confidence": 0.6,
+      "n_adjustments": 2
+    },
+    {
+      "cycle": 13,
+      "approved_at": "2026-07-29T16:10:51+00:00",
+      "n_positions": 11,
+      "invested": 0.7,
+      "turnover": 0.05,
+      "cost_pct": 8e-05,
+      "verdict_llm": "adjust",
+      "thesis": "Regimen risk_on sin cambios (presupuesto 70% identico al ciclo previo) y ninguna senal de venta de la seccion 3b afecta a mis posiciones actuales (XOM, HD, NVDA, ARCC, BAC, BLK, GOOGL, FMC no estan en cartera), asi que mantengo el nucleo SPY/QQQ/TLT/GLD/IEF integro. Unico movimiento: sustituyo COE (satelite legacy sin senal ni precio en varios ciclos) por GSHD, con la conviccion de insiders mas fuerte del briefing (7 senales, score 443.4), a igualdad de tamano para no aumentar friccion. El resto de satelites legacy (LION, AVO, PSBD, NTSK, CLBK) se mantienen por defecto al no haber evidencia de tesis rota, aunque su falta persistente de datos de precio es una limitacion real de seguimiento.",
+      "confidence": 0.55,
       "n_adjustments": 2
     }
   ]
