@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-30T09:59:00+00:00 -->
+<!-- trader_prompt.md generado 2026-07-30T12:21:50+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-30T09:59:00+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
+_Generado 2026-07-30T12:21:50+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.53)
+- Volatilidad: `normal` (VIX 19.03)
 - Tendencia: `neutral` (SPY 729.46 · MA50 743.82 · MA200 696.49 · dist MA200: 4.73%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -328,8 +328,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 82.85 (-1.65% / -0.71% / -3.78%) [2026-07-29]
 - IEF: 93.17 (-0.42% / 0.08% / -1.16%) [2026-07-29]
 - GLD: 371.08 (0.46% / -2.12% / 0.73%) [2026-07-29]
-- ^VIX: 19.53 (-5.47% / 4.44% / 17.72%) [2026-07-30]
-- BTC-USD: 64491.43 (0.91% / 0.28% / 0.57%) [2026-07-30]
+- ^VIX: 19.03 (-7.89% / 1.76% / 14.71%) [2026-07-30]
+- BTC-USD: 64796.55 (1.39% / 0.75% / 1.04%) [2026-07-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +344,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), leadership (2), ai (1)
+**Temas dominantes**: stock (6), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [HSY] Stock Market Today July 30 : Sensex , Nifty close in the green ; auto stocks drive markets higher (2026-07-30)
 - [NTRA] Natera , Inc . ( NASDAQ : NTRA ) Receives $267 . 83 Consensus Price Target from Brokerages (2026-07-30)
 - [NTRA] Michael Burkes Brophy Sells 1 , 863 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
 - [NTRA] John Fesko Sells 782 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
 - [NTRA] Natera ( NASDAQ : NTRA ) Insider Solomon Moshkevich Sells 1 , 010 Shares of Stock (2026-07-30)
 - [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) CEO Sells 3 , 580 Shares (2026-07-30)
-- [CRWV] Insider Selling : CoreWeave ( NASDAQ : CRWV ) Insider Sells 144 , 000 Shares (2026-07-30)
 - [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) Insider Sells 1 , 204 Shares (2026-07-30)
-- [CRWV] CoreWeave CEO Sold Company Stock Worth Nearly $25 Million Amid Share Price Declines . Here a Closer Look at the Transaction . (2026-07-30)
-- [CRWV] Nebius ( NASDAQ : NBIS ) And CoreWeave ( NASDAQ : CRWV ) Stock Plunge As Credit - Swap Costs Threaten AI Infrastructure Financing (2026-07-29)
-- [CRWV] CoreWeave Stock Hits New 52 - Week Low : What Driving the Neocloud Selloff ? - CoreWeave ( NASDAQ : CRWV ) (2026-07-29)
+- [DRI] Sei Investments Co . Has $101 . 34 Million Holdings in Darden Restaurants , Inc . $DRI (2026-07-24)
+- [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +371,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $117,789 · win rate 88% · categorias: sports, crypto
-- esportGG · PnL $36,625 · win rate 95% · categorias: sports
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $117,731 · win rate 88% · categorias: sports, crypto
+- 111111111115 · PnL $37,711 · win rate 94% · categorias: sports
 - SDTrading · PnL $43,264 · win rate 92% · categorias: sports
-- matenghehe · PnL $12,576 · win rate 96% · categorias: sports, crypto
-- JnStTrdrBnusFnd · PnL $21,500 · win rate 91% · categorias: crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $22,065 · win rate 96% · categorias: sports
+- JnStTrdrBnusFnd · PnL $43,944 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -384,8 +383,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 735 registros 30d · ultimo dato 2026-07-29
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
+- **sec_insiders**: `ok` · 725 registros 30d · ultimo dato 2026-07-29
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-30
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
