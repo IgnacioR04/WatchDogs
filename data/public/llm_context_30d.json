@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-30T20:54:37.652314+00:00",
+  "generated_at": "2026-07-30T22:34:51.927843+00:00",
   "window": {
     "from": "2026-06-30",
     "to": "2026-07-30",
@@ -23,10 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "regulatory",
       "stock",
-      "earnings",
-      "merger"
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -88,6 +86,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "10% owner opero LPRO ($23.8M)",
+      "summary": "10% owner Greenberg Blair J. opero LPRO por $23.8M el 2026-07-28 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Greenberg Blair J.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "LPRO",
+      "direction": "other",
+      "amount_estimated": 23828382.9,
+      "event_date": "2026-07-28",
+      "importance_score": 83.5,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1814788/000119312526326395/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO compro COE ($3.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.",
       "source": "sec_form_4",
@@ -104,126 +120,44 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000004/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO vendio GM ($9.8M)",
-      "summary": "CEO Barra Mary T vendio GM por $9.8M el 2026-07-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Barra Mary T",
-      "actor_type": "ceo",
-      "ticker": "GM",
-      "direction": "sell",
-      "amount_estimated": 9795565.16,
-      "event_date": "2026-07-28",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_811372353476"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
-    },
-    {
       "id": "move_6",
       "rank": 6,
-      "title": "10% owner compro SCTX ($5.0M)",
-      "summary": "10% owner AH Bio Fund II, L.P. compro SCTX por $5.0M el 2026-07-27 [senal en multiples fuentes].",
+      "title": "10% owner vendio FEIM ($31.9M)",
+      "summary": "10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "AH Bio Fund II, L.P.",
+      "actor_name": "Edenbrook Capital, LLC",
       "actor_type": "ten_percent_owner",
-      "ticker": "SCTX",
-      "direction": "buy",
-      "amount_estimated": 4999995.0,
-      "event_date": "2026-07-27",
+      "ticker": "FEIM",
+      "direction": "sell",
+      "amount_estimated": 31875010.0,
+      "event_date": "2026-07-28",
       "importance_score": 83.1,
       "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1160077/000123191926000813/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1665975/000091957426004692/"
     },
     {
       "id": "move_7",
       "rank": 7,
-      "title": "CEO vendio GM ($8.3M)",
-      "summary": "CEO Barra Mary T vendio GM por $8.3M el 2026-07-28.",
+      "title": "CEO vendio AMP ($8.8M)",
+      "summary": "CEO CRACCHIOLO JAMES M vendio AMP por $8.8M el 2026-07-28.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Barra Mary T",
+      "actor_name": "CRACCHIOLO JAMES M",
       "actor_type": "ceo",
-      "ticker": "GM",
+      "ticker": "AMP",
       "direction": "sell",
-      "amount_estimated": 8300770.34,
+      "amount_estimated": 8789895.87,
       "event_date": "2026-07-28",
-      "importance_score": 82.9,
+      "importance_score": 81.6,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_811372353476"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1196484/000119648426000014/"
     },
     {
       "id": "move_8",
       "rank": 8,
-      "title": "CEO vendio GM ($6.4M)",
-      "summary": "CEO Reuss Mark L vendio GM por $6.4M el 2026-07-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Reuss Mark L",
-      "actor_type": "ceo",
-      "ticker": "GM",
-      "direction": "sell",
-      "amount_estimated": 6394977.63,
-      "event_date": "2026-07-28",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_811372353476"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1492362/000149236226000012/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio GM ($6.3M)",
-      "summary": "CEO Barra Mary T vendio GM por $6.3M el 2026-07-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Barra Mary T",
-      "actor_type": "ceo",
-      "ticker": "GM",
-      "direction": "sell",
-      "amount_estimated": 6287194.32,
-      "event_date": "2026-07-28",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_811372353476"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
-      "title": "CEO vendio GM ($4.4M)",
-      "summary": "CEO Barra Mary T vendio GM por $4.4M el 2026-07-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Barra Mary T",
-      "actor_type": "ceo",
-      "ticker": "GM",
-      "direction": "sell",
-      "amount_estimated": 4397800.42,
-      "event_date": "2026-07-28",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_811372353476"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
       "title": "CEO vendio NMRK ($4.5M)",
       "summary": "CEO Gosin Barry M vendio NMRK por $4.5M el 2026-07-29.",
       "source": "sec_form_4",
@@ -240,8 +174,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1388845/000143774926025049/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
+      "title": "CEO opero AMP ($8.8M)",
+      "summary": "CEO CRACCHIOLO JAMES M opero AMP por $8.8M el 2026-07-28.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "CRACCHIOLO JAMES M",
+      "actor_type": "ceo",
+      "ticker": "AMP",
+      "direction": "other",
+      "amount_estimated": 8755482.12,
+      "event_date": "2026-07-28",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1196484/000119648426000014/"
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -258,8 +210,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -276,8 +228,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -294,8 +246,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -312,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -330,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -348,8 +300,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -366,8 +318,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -384,8 +336,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -395,6 +347,42 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 12478004415,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12307921184,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
+      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 12266872781,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -449,14 +437,6 @@
         "ticker": "UROY",
         "company": "Uranium Royalty Corp.",
         "pressure_score": 219.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GLSI",
-        "company": "Greenwich LifeSciences, Inc.",
-        "pressure_score": 217.0,
         "sources": [
           "corporate_insider"
         ]
@@ -525,31 +505,22 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "ACI",
+        "company": "Albertsons Companies, Inc.",
+        "pressure_score": 155.2,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
       {
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
-        "pressure_score": 2367.8,
+        "pressure_score": 3268.2,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "WDC",
-        "company": "WESTERN DIGITAL CORP",
-        "pressure_score": 2124.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRDO",
-        "company": "Ordinary Shares",
-        "pressure_score": 1451.5,
-        "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -570,25 +541,9 @@
         ]
       },
       {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 842.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GM",
-        "company": "General Motors Co",
-        "pressure_score": 726.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRTO",
-        "company": "Criteo S.A.",
-        "pressure_score": 692.6,
+        "ticker": "AMP",
+        "company": "AMERIPRISE FINANCIAL INC",
+        "pressure_score": 659.8,
         "sources": [
           "corporate_insider"
         ]
@@ -597,6 +552,22 @@
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 617.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DRI",
+        "company": "DARDEN RESTAURANTS INC",
+        "pressure_score": 608.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GSHD",
+        "company": "Goosehead Insurance, Inc.",
+        "pressure_score": 517.1,
         "sources": [
           "corporate_insider"
         ]
@@ -611,9 +582,17 @@
         ]
       },
       {
-        "ticker": "SCHW",
-        "company": "SCHWAB CHARLES CORP",
-        "pressure_score": 452.7,
+        "ticker": "GL",
+        "company": "GLOBE LIFE INC.",
+        "pressure_score": 457.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NPWR",
+        "company": "NET Power Inc.",
+        "pressure_score": 422.8,
         "sources": [
           "corporate_insider"
         ]
@@ -643,11 +622,19 @@
         ]
       },
       {
-        "ticker": "AMP",
-        "company": "AMERIPRISE FINANCIAL INC",
-        "pressure_score": 349.5,
+        "ticker": "EQBK",
+        "company": "EQUITY BANCSHARES INC",
+        "pressure_score": 292.3,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SPGI",
+        "company": "S&P Global Inc. Common Stock",
+        "pressure_score": 286.9,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -679,15 +666,6 @@
       "amount": 3022408.8,
       "date": "2026-07-24",
       "score": 83.3
-    },
-    {
-      "ticker": "SCTX",
-      "company": "Scribe Therapeutics, Inc.",
-      "actor": "AH Bio Fund II, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 4999995.0,
-      "date": "2026-07-27",
-      "score": 83.1
     },
     {
       "ticker": "COSM",
@@ -726,15 +704,6 @@
       "score": 75.6
     },
     {
-      "ticker": "ASPS",
-      "company": "ALTISOURCE PORTFOLIO SOLUTIONS S.A.",
-      "actor": "Shepro William B",
-      "actor_type": "ceo",
-      "amount": 20720.0,
-      "date": "2026-07-28",
-      "score": 73.9
-    },
-    {
       "ticker": "UROY",
       "company": "Uranium Royalty Corp.",
       "actor": "MELBYE SCOTT",
@@ -744,13 +713,13 @@
       "score": 73.7
     },
     {
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 56228.48,
+      "ticker": "LBRT",
+      "company": "Liberty Energy Inc.",
+      "actor": "Murti Arjun N",
+      "actor_type": "director",
+      "amount": 250008.51,
       "date": "2026-07-28",
-      "score": 73.6
+      "score": 72.8
     },
     {
       "ticker": "UROY",
@@ -775,18 +744,36 @@
       "company": "Greenwich LifeSciences, Inc.",
       "actor": "Patel Snehal",
       "actor_type": "ceo",
-      "amount": 20430.0,
-      "date": "2026-07-27",
+      "amount": 20385.0,
+      "date": "2026-07-28",
       "score": 72.4
+    },
+    {
+      "ticker": "NXTC",
+      "company": "NextCure, Inc.",
+      "actor": "ADAR1 Capital Management, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 31677.44,
+      "date": "2026-07-28",
+      "score": 72.4
+    },
+    {
+      "ticker": "OTLK",
+      "company": "Outlook Therapeutics, Inc.",
+      "actor": "Sukhtian Faisal Ghiath",
+      "actor_type": "director",
+      "amount": 99996.18,
+      "date": "2026-07-29",
+      "score": 72.3
     },
     {
       "ticker": "GLSI",
       "company": "Greenwich LifeSciences, Inc.",
       "actor": "Patel Snehal",
       "actor_type": "ceo",
-      "amount": 20385.0,
-      "date": "2026-07-28",
-      "score": 72.4
+      "amount": 9170.0,
+      "date": "2026-07-29",
+      "score": 72.2
     }
   ],
   "institutional_changes": [
@@ -1046,26 +1033,18 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "HON",
-      "direction": "buy",
+      "ticker": "GOOGL",
+      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 62.4
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "MS",
+      "ticker": "HON",
       "direction": "buy",
       "amount": 15000,
       "date": "2026-07-10",
-      "score": 62.4
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "CRDO",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-06-30",
       "score": 62.4
     },
     {
@@ -1090,6 +1069,14 @@
       "direction": "other",
       "amount": 100000,
       "date": "2026-06-29",
+      "score": 62.2
+    },
+    {
+      "politician": "Gilbert Cisneros",
+      "ticker": "LLY",
+      "direction": "buy",
+      "amount": 100000,
+      "date": "2026-06-10",
       "score": 62.2
     }
   ],
@@ -1203,6 +1190,15 @@
       "date": "2026-07-30"
     },
     {
+      "filer": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+      "company": "Gold Royalty Corp.",
+      "ticker": "",
+      "ownership_pct": 14.4,
+      "shares": 33300000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-07-30"
+    },
+    {
       "filer": "SoftVest Advisors, LLC",
       "company": "PERMIAN BASIN ROYALTY TRUST",
       "ticker": "PBT",
@@ -1219,15 +1215,6 @@
       "shares": 2497148,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-07-29"
-    },
-    {
-      "filer": "Lim Tze Chong, Patrick",
-      "company": "JBDI Holdings Ltd",
-      "ticker": "JBDI",
-      "ownership_pct": 12.6,
-      "shares": 2497148,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-29"
     }
   ],
   "polymarket": {
@@ -1235,9 +1222,19 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 97069.69,
-        "win_rate": 0.9606,
-        "volume": 264572.57,
+        "pnl": 77998.71,
+        "win_rate": 0.959,
+        "volume": 295596.42,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 103112.13,
+        "win_rate": 0.922,
+        "volume": 235436.5,
         "categories": [
           "sports"
         ]
@@ -1245,9 +1242,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 77716.78,
-        "win_rate": 0.9385,
-        "volume": 1348162.96,
+        "pnl": 72536.62,
+        "win_rate": 0.9389,
+        "volume": 1403408.64,
         "categories": [
           "sports"
         ]
@@ -1255,9 +1252,9 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 121150.61,
+        "pnl": 138056.51,
         "win_rate": 0.8958,
-        "volume": 385406.96,
+        "volume": 530857.85,
         "categories": [
           "sports",
           "crypto"
@@ -1266,7 +1263,7 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 50839.11,
+        "pnl": 41003.4,
         "win_rate": 0.9118,
         "volume": 67341.48,
         "categories": [
@@ -1274,11 +1271,11 @@
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 35207.67,
-        "win_rate": 0.9218,
-        "volume": 137230.75,
+        "wallet": "0x52911b9d1d",
+        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
+        "pnl": 137448.5,
+        "win_rate": 0.9688,
+        "volume": 432992.76,
         "categories": [
           "sports"
         ]
@@ -1286,7 +1283,7 @@
       {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 62468.35,
+        "pnl": 62443.35,
         "win_rate": 0.8761,
         "volume": 431668.44,
         "categories": [
@@ -1297,42 +1294,33 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 36273.0,
-        "win_rate": 0.889,
-        "volume": 39456.0,
+        "pnl": 37986.99,
+        "win_rate": 0.89,
+        "volume": 43913.05,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 22554.13,
-        "win_rate": 0.9128,
-        "volume": 218613.41,
+        "wallet": "0x13414a77a4",
+        "username": "ROBBATTISTAFANDUELRETARD",
+        "pnl": 46085.21,
+        "win_rate": 0.835,
+        "volume": 266310.54,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x52911b9d1d",
-        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
-        "pnl": 95870.02,
-        "win_rate": 0.9677,
-        "volume": 252713.08,
+        "wallet": "0xc430e5b171",
+        "username": "Gourmet1",
+        "pnl": 40874.44,
+        "win_rate": 0.8364,
+        "volume": 80580.56,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 20736.59,
-        "win_rate": 0.9138,
-        "volume": 74117.77,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ],
@@ -1340,9 +1328,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 241524.36,
+        "pnl": 186226.71,
         "win_rate": 0.498,
-        "volume": 5085047.0,
+        "volume": 6030665.67,
         "categories": [
           "sports",
           "politics",
@@ -1350,11 +1338,44 @@
         ]
       },
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 143059.31,
+        "win_rate": 0.595,
+        "volume": 11938540.21,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 186745.04,
+        "win_rate": 0.6145,
+        "volume": 3263034.23,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 153889.54,
+        "win_rate": 0.5426,
+        "volume": 1266952.04,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 77716.78,
-        "win_rate": 0.9385,
-        "volume": 1348162.96,
+        "pnl": 72536.62,
+        "win_rate": 0.9389,
+        "volume": 1403408.64,
         "categories": [
           "sports"
         ]
@@ -1362,19 +1383,19 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 103827.53,
-        "win_rate": 0.556,
-        "volume": 4077153.31,
+        "pnl": 125731.28,
+        "win_rate": 0.568,
+        "volume": 4902791.62,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 34749.87,
-        "win_rate": 0.536,
-        "volume": 3209172.62,
+        "wallet": "0xc3acf5878a",
+        "username": "mentionmarket",
+        "pnl": 139900.91,
+        "win_rate": 0.6811,
+        "volume": 739455.5,
         "categories": [
           "sports"
         ]
@@ -1382,9 +1403,9 @@
       {
         "wallet": "0x1b20a00709",
         "username": "0x1b20a00709DfE648AFd26b326394b5e031f83ab0-1785189457930",
-        "pnl": 39726.96,
+        "pnl": 37986.85,
         "win_rate": 0.3929,
-        "volume": 508926.14,
+        "volume": 961673.3,
         "categories": [
           "sports",
           "crypto"
@@ -1393,20 +1414,9 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 121150.61,
+        "pnl": 138056.51,
         "win_rate": 0.8958,
-        "volume": 385406.96,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 47067.36,
-        "win_rate": 0.7004,
-        "volume": 422778.14,
+        "volume": 530857.85,
         "categories": [
           "sports",
           "crypto"
@@ -1415,29 +1425,9 @@
       {
         "wallet": "0x52911b9d1d",
         "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
-        "pnl": 95870.02,
-        "win_rate": 0.9677,
-        "volume": 252713.08,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 35203.46,
-        "win_rate": 0.664,
-        "volume": 532846.9,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 97069.69,
-        "win_rate": 0.9606,
-        "volume": 264572.57,
+        "pnl": 137448.5,
+        "win_rate": 0.9688,
+        "volume": 432992.76,
         "categories": [
           "sports"
         ]
@@ -1446,53 +1436,67 @@
   },
   "news": [
     {
-      "title": "General Motors future models 2026 - 2036 , Part 2",
-      "url": "https://www.just-auto.com/analysis/general-motors-future-models-2026-2036-part-2/",
-      "ticker": "GM",
+      "title": "Natera , Inc . ( NASDAQ : NTRA ) Receives $267 . 83 Consensus Price Target from Brokerages",
+      "url": "https://www.dailypolitical.com/2026/07/29/natera-inc-nasdaqntra-receives-267-83-consensus-price-target-from-brokerages.html",
+      "ticker": "NTRA",
       "themes": [],
       "date": "2026-07-30"
     },
     {
-      "title": "Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/28/jason-estes-sells-3225-shares-of-bank7-nasdaqbsvn-stock.html",
-      "ticker": "BSVN",
+      "title": "Michael Burkes Brophy Sells 1 , 863 Shares of Natera ( NASDAQ : NTRA ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/30/michael-burkes-brophy-sells-1863-shares-of-natera-nasdaqntra-stock.html",
+      "ticker": "NTRA",
       "themes": [
-        "regulatory",
         "stock"
       ],
-      "date": "2026-07-28"
+      "date": "2026-07-30"
     },
     {
-      "title": "Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-bsvn-q2-2026-earnings-141336470.html",
-      "ticker": "BSVN",
+      "title": "John Fesko Sells 782 Shares of Natera ( NASDAQ : NTRA ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/30/john-fesko-sells-782-shares-of-natera-nasdaqntra-stock.html",
+      "ticker": "NTRA",
       "themes": [
-        "earnings",
-        "regulatory"
+        "stock"
       ],
-      "date": "2026-07-23"
+      "date": "2026-07-30"
     },
     {
-      "title": "Bank7 ( NASDAQ : BSVN ) Hits New 1 - Year High – Here Why",
-      "url": "https://www.tickerreport.com/banking-finance/13506968/bank7-nasdaqbsvn-hits-new-1-year-high-heres-why.html",
-      "ticker": "BSVN",
+      "title": "Natera ( NASDAQ : NTRA ) Insider Solomon Moshkevich Sells 1 , 010 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13521408/natera-nasdaqntra-insider-solomon-moshkevich-sells-1010-shares-of-stock.html",
+      "ticker": "NTRA",
       "themes": [
-        "regulatory"
+        "stock"
       ],
-      "date": "2026-07-17"
+      "date": "2026-07-30"
     },
     {
-      "title": "Bank7 targets Sept . 3 close for contested NM rival buyout",
-      "url": "https://www.americanbanker.com/news/bank7-targets-sept-3-close-for-contested-n-m-rival-buyout",
-      "ticker": "BSVN",
+      "title": "Insider Selling : Natera ( NASDAQ : NTRA ) CEO Sells 3 , 580 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13521409/insider-selling-natera-nasdaqntra-ceo-sells-3580-shares.html",
+      "ticker": "NTRA",
       "themes": [
-        "merger",
-        "regulatory"
+        "leadership",
+        "stock"
       ],
-      "date": "2026-07-16"
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Insider Selling : Natera ( NASDAQ : NTRA ) Insider Sells 1 , 204 Shares",
+      "url": "https://www.dailypolitical.com/2026/07/29/insider-selling-natera-nasdaqntra-insider-sells-1204-shares.html",
+      "ticker": "NTRA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Kennametal Unveils Next Level Shop Experience for IMTS 2026",
+      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/20/1860143/kennametal-unveils-next-level-shop-experience-for-imts-2026/",
+      "ticker": "KMT",
+      "themes": [],
+      "date": "2026-07-20"
     }
   ],
-  "signals_count": 1651,
+  "signals_count": 1603,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

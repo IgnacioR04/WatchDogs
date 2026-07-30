@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-30T20:56:44+00:00",
+  "generated_at": "2026-07-30T22:35:50+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.7001,
-  "cash": 0.2999,
+  "total_equity": 0.6998,
+  "cash": 0.3002,
   "weights": {
-    "SPY": 0.12,
+    "SPY": 0.1201,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "BEP": 0.0527,
-    "BFST": 0.0504,
+    "BEP": 0.0607,
     "IEF": 0.0488,
-    "EQBK": 0.0471,
-    "ZTS": 0.0417,
-    "TSM": 0.0211,
-    "REAL": 0.0205,
-    "PRGS": 0.016,
-    "SPCX": 0.0116,
-    "NXTC": 0.0019
+    "ZTS": 0.0482,
+    "LHX": 0.0408,
+    "TSM": 0.0243,
+    "REAL": 0.0236,
+    "SOLS": 0.0188,
+    "PRGS": 0.0183,
+    "SPCX": 0.0133,
+    "FEIM": 0.0123,
+    "NXTC": 0.0023
   },
   "core": {
     "SPY": 0.1592,
@@ -28,15 +29,16 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "SPCX": 0.0108,
-    "NXTC": 0.0018,
-    "ZTS": 0.0389,
-    "REAL": 0.0191,
-    "PRGS": 0.0149,
-    "BEP": 0.0491,
-    "TSM": 0.0197,
-    "EQBK": 0.0439,
-    "BFST": 0.047
+    "SPCX": 0.0124,
+    "NXTC": 0.0021,
+    "SOLS": 0.0175,
+    "ZTS": 0.0449,
+    "REAL": 0.022,
+    "PRGS": 0.0171,
+    "LHX": 0.038,
+    "FEIM": 0.0115,
+    "BEP": 0.0566,
+    "TSM": 0.0227
   },
   "satellite_rationale": [
     {
@@ -54,6 +56,14 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "SOLS",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "ZTS",
@@ -80,6 +90,22 @@
       "n_signals": 1
     },
     {
+      "ticker": "LHX",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "FEIM",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -94,35 +120,19 @@
         "corporate_insider"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "EQBK",
-      "score": 55.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "BFST",
-      "score": 54.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0784,
-    "var_95_1d": 0.0073,
-    "cvar_95_1d": 0.0084,
-    "max_drawdown": -0.0175,
-    "beta_spy": 0.48,
-    "hhi": 0.0517,
-    "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 19.3,
-    "gross_exposure": 0.7001,
+    "ann_vol": 0.0897,
+    "var_95_1d": 0.009,
+    "cvar_95_1d": 0.0108,
+    "max_drawdown": -0.0364,
+    "beta_spy": 0.531,
+    "hhi": 0.051,
+    "max_position": 0.1201,
+    "n_positions": 15,
+    "effective_positions": 19.6,
+    "gross_exposure": 0.6998,
     "days_used": 31
   },
   "risk_gate": {
