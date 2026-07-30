@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:32:33+00:00",
+  "generated_at": "2026-07-30T03:48:29+00:00",
   "profile": "moderado",
   "regime_budget": 0.55,
   "total_equity": 0.5499,
@@ -8,16 +8,15 @@
     "SPY": 0.12,
     "QQQ": 0.0724,
     "TLT": 0.0724,
+    "BEP": 0.0611,
+    "EQBK": 0.0545,
     "GLD": 0.0542,
-    "POR": 0.0536,
-    "BEP": 0.0443,
-    "EQBK": 0.0396,
     "IEF": 0.0362,
-    "VSXY": 0.0192,
-    "KTOS": 0.0164,
-    "ODD": 0.0104,
-    "SPCX": 0.0096,
-    "NXTC": 0.0016
+    "VSXY": 0.0265,
+    "KTOS": 0.0226,
+    "ODD": 0.0144,
+    "SPCX": 0.0134,
+    "NXTC": 0.0022
   },
   "core": {
     "SPY": 0.1251,
@@ -27,14 +26,13 @@
     "GLD": 0.0536
   },
   "satellite": {
-    "SPCX": 0.0095,
-    "NXTC": 0.0016,
-    "VSXY": 0.019,
-    "KTOS": 0.0162,
-    "ODD": 0.0103,
-    "POR": 0.053,
-    "BEP": 0.0438,
-    "EQBK": 0.0391
+    "SPCX": 0.0132,
+    "NXTC": 0.0022,
+    "VSXY": 0.0262,
+    "KTOS": 0.0223,
+    "ODD": 0.0142,
+    "BEP": 0.0604,
+    "EQBK": 0.0539
   },
   "satellite_rationale": [
     {
@@ -78,14 +76,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "POR",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -103,15 +93,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0587,
-    "var_95_1d": 0.0054,
-    "cvar_95_1d": 0.0062,
-    "max_drawdown": -0.0111,
+    "ann_vol": 0.0684,
+    "var_95_1d": 0.0059,
+    "cvar_95_1d": 0.0069,
+    "max_drawdown": -0.0137,
     "beta_spy": null,
-    "hhi": 0.0364,
+    "hhi": 0.0374,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 27.5,
+    "n_positions": 12,
+    "effective_positions": 26.7,
     "gross_exposure": 0.5499,
     "days_used": 30
   },

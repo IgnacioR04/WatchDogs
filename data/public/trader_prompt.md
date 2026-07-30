@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-30T00:32:34+00:00 -->
+<!-- trader_prompt.md generado 2026-07-30T03:48:30+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-30T00:32:34+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
+_Generado 2026-07-30T03:48:30+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -252,23 +252,22 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 | SPY | 12.0% | core | 729.46 | -1.54% | -2.4% | -2.32% |
 | QQQ | 7.2% | core | 661.73 | -2.04% | -6.18% | -10.14% |
 | TLT | 7.2% | core | 82.85 | -1.65% | -0.71% | -3.78% |
+| BEP | 6.1% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
+| EQBK | 5.5% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
 | GLD | 5.4% | core | 371.08 | 0.46% | -2.12% | 0.73% |
-| POR | 5.4% | satellite | 50.3 | -1.66% | -4.95% | -2.95% |
-| BEP | 4.4% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
-| EQBK | 4.0% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
 | IEF | 3.6% | core | 93.17 | -0.42% | 0.08% | -1.16% |
-| VSXY | 1.9% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
-| KTOS | 1.6% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
-| ODD | 1.0% | satellite | 14.97 | -11.89% | -8.61% | -1.06% |
-| SPCX | 1.0% | satellite | 112.55 | -3.32% | -2.35% | -34.13% |
+| VSXY | 2.6% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
+| KTOS | 2.3% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
+| ODD | 1.4% | satellite | 14.97 | -11.89% | -8.61% | -1.06% |
+| SPCX | 1.3% | satellite | 112.55 | -3.32% | -2.35% | -34.13% |
 | NXTC | 0.2% | satellite | 5.02 | -7.38% | 14.09% | 213.75% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 5.9%
-- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -1.1%
-- Beta vs SPY: None · posiciones efectivas: 27.5 · HHI: 0.0364
+- Volatilidad anualizada: 6.8%
+- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.7%
+- Max drawdown historico: -1.4%
+- Beta vs SPY: None · posiciones efectivas: 26.7 · HHI: 0.0374
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -277,7 +276,6 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 - **VSXY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KTOS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ODD** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **POR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 - **EQBK** · score agregado 55.0 · 1 señales · fuentes: corporate_insider
 
@@ -331,7 +329,7 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 - IEF: 93.17 (-0.42% / 0.08% / -1.16%) [2026-07-29]
 - GLD: 371.08 (0.46% / -2.12% / 0.73%) [2026-07-29]
 - ^VIX: 20.66 (13.45% / 24.16% / 25.59%) [2026-07-29]
-- BTC-USD: 63878.64 (0.01% / -0.34% / 1.08%) [2026-07-30]
+- BTC-USD: 64110.94 (0.38% / 0.02% / 1.45%) [2026-07-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,7 +344,15 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: stock (3), merger (2), leadership (1), ai (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [GM] Ford deal sets stage for tougher talks with GM , Stellantis : Experts (2026-07-30)
+- [GM] Ford deal sets stage for tougher talks with GM , Stellantis : Experts (2026-07-30)
+- [CRWV] CoreWeave CEO Sold Company Stock Worth Nearly $25 Million Amid Share Price Declines . Here a Closer Look at the Transaction . (2026-07-30)
+- [CRWV] Nebius ( NASDAQ : NBIS ) And CoreWeave ( NASDAQ : CRWV ) Stock Plunge As Credit - Swap Costs Threaten AI Infrastructure Financing (2026-07-29)
+- [CRWV] CoreWeave Stock Hits New 52 - Week Low : What Driving the Neocloud Selloff ? - CoreWeave ( NASDAQ : CRWV ) (2026-07-29)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -361,11 +367,11 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $58,497 · win rate 95% · categorias: sports
-- tipISappreciated · PnL $59,265 · win rate 94% · categorias: sports, economy, politics
-- Hashbrown · PnL $59,996 · win rate 93% · categorias: crypto, sports, politics
-- monkeymashingkeyboard · PnL $62,577 · win rate 92% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $62,160 · win rate 91% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $18,601 · win rate 93% · categorias: sports
+- JnStTrdrBnusFnd · PnL $20,666 · win rate 91% · categorias: crypto
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $36,572 · win rate 87% · categorias: sports, crypto
+- 0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628 · PnL $63,059 · win rate 100% · categorias: sports
+- ic4cream · PnL $18,749 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -373,7 +379,7 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 - Estado global: `ok`
 - **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 699 registros 30d · ultimo dato 2026-07-29
+- **sec_insiders**: `ok` · 641 registros 30d · ultimo dato 2026-07-29
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -386,7 +392,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, EQBK, GLD, IEF, KTOS, NXTC, ODD, POR, QQQ, SPCX, SPY, TLT, VSXY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, EQBK, GLD, IEF, KTOS, NXTC, ODD, QQQ, SPCX, SPY, TLT, VSXY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **55.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-30T00:31:40.476342+00:00",
+  "generated_at": "2026-07-30T03:47:42.143119+00:00",
   "window": {
     "from": "2026-06-30",
     "to": "2026-07-30",
@@ -22,7 +22,12 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "stock",
+      "merger",
+      "leadership",
+      "ai"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -131,7 +136,10 @@
       "event_date": "2026-07-28",
       "importance_score": 83.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_281011842090",
+        "news_762172717711"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
@@ -185,7 +193,10 @@
       "event_date": "2026-07-28",
       "importance_score": 82.9,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_281011842090",
+        "news_762172717711"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
@@ -221,7 +232,10 @@
       "event_date": "2026-07-28",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_281011842090",
+        "news_762172717711"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492362/000149236226000012/"
     },
     {
@@ -239,7 +253,10 @@
       "event_date": "2026-07-28",
       "importance_score": 82.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_281011842090",
+        "news_762172717711"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
@@ -275,7 +292,10 @@
       "event_date": "2026-07-28",
       "importance_score": 81.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_281011842090",
+        "news_762172717711"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
@@ -516,6 +536,14 @@
     ],
     "sell_pressure": [
       {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 2367.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "WDC",
         "company": "WESTERN DIGITAL CORP",
         "pressure_score": 2124.2,
@@ -542,9 +570,9 @@
         ]
       },
       {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 960.3,
+        "ticker": "NTRA",
+        "company": "Natera, Inc.",
+        "pressure_score": 1162.2,
         "sources": [
           "corporate_insider"
         ]
@@ -600,6 +628,14 @@
         ]
       },
       {
+        "ticker": "SCHW",
+        "company": "SCHWAB CHARLES CORP",
+        "pressure_score": 452.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HOOD",
         "company": "Robinhood Markets, Inc.",
         "pressure_score": 416.8,
@@ -619,23 +655,6 @@
         "ticker": "VRSN",
         "company": "VERISIGN INC/CA",
         "pressure_score": 369.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GE",
-        "company": "SP GE Aerospace Common Stock",
-        "pressure_score": 366.3,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "AMP",
-        "company": "AMERIPRISE FINANCIAL INC",
-        "pressure_score": 349.5,
         "sources": [
           "corporate_insider"
         ]
@@ -696,15 +715,6 @@
       "amount": 56228.48,
       "date": "2026-07-28",
       "score": 73.6
-    },
-    {
-      "ticker": "MPLT",
-      "company": "MapLight Therapeutics, Inc.",
-      "actor": "Cox Troy",
-      "actor_type": "director",
-      "amount": 148702.4,
-      "date": "2026-07-28",
-      "score": 73.2
     },
     {
       "ticker": "GLSI",
@@ -777,6 +787,15 @@
       "amount": 47415.0,
       "date": "2026-07-28",
       "score": 70.7
+    },
+    {
+      "ticker": "BCDA",
+      "company": "BioCardia, Inc.",
+      "actor": "Altman Peter",
+      "actor_type": "ceo",
+      "amount": 3900.0,
+      "date": "2026-07-29",
+      "score": 70.3
     }
   ],
   "institutional_changes": [
@@ -1202,6 +1221,15 @@
       "date": "2026-07-28"
     },
     {
+      "filer": "Southern Cross Acquisition I Sponsor Corp.",
+      "company": "Southern Cross Acquisition I Corp.",
+      "ticker": "",
+      "ownership_pct": 21.1,
+      "shares": 3100300,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-07-29"
+    },
+    {
       "filer": "J.B.D Innovation Ltd.",
       "company": "Wearable Devices Ltd.",
       "ticker": "",
@@ -1209,168 +1237,136 @@
       "shares": 381361,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-29"
-    },
-    {
-      "filer": "Research Alliance Holdings III LLC",
-      "company": "Research Alliance Corporation III",
-      "ticker": "RACC",
-      "ownership_pct": 16.9,
-      "shares": 1520269,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-28"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 58496.87,
-        "win_rate": 0.9485,
-        "volume": 558208.32,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbc97fda9fe",
-        "username": "tipISappreciated",
-        "pnl": 59265.17,
-        "win_rate": 0.9417,
-        "volume": 2231556.21,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xa52b785a55",
-        "username": "Hashbrown",
-        "pnl": 59996.36,
-        "win_rate": 0.932,
-        "volume": 0.0,
-        "categories": [
-          "crypto",
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 62577.43,
-        "win_rate": 0.9223,
-        "volume": 204979.77,
+        "pnl": 18600.66,
+        "win_rate": 0.9259,
+        "volume": 12369.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 62159.54,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 20666.42,
         "win_rate": 0.9118,
-        "volume": 1205624.93,
+        "volume": 0.0,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x27c5c1eee4",
+        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
+        "pnl": 36572.43,
+        "win_rate": 0.8727,
+        "volume": 71294.28,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x52911b9d1d",
+        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
+        "pnl": 63058.77,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 42148.22,
-        "win_rate": 0.889,
-        "volume": 204292.0,
+        "pnl": 18749.25,
+        "win_rate": 0.89,
+        "volume": 2429.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe548376f23",
-        "username": "Uniform123",
-        "pnl": 46764.19,
-        "win_rate": 0.877,
-        "volume": 137334.27,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 97710.46,
+        "win_rate": 0.6998,
+        "volume": 265291.18,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
-        "wallet": "0x4755188644",
-        "username": "schizohedgehog",
-        "pnl": 60112.15,
-        "win_rate": 0.8864,
-        "volume": 90079.12,
+        "wallet": "0x8c80d213c0",
+        "username": "SecondWindCapital",
+        "pnl": 24576.62,
+        "win_rate": 0.8235,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x32be1c7200",
+        "username": "C9usa",
+        "pnl": 7584.27,
+        "win_rate": 0.7673,
+        "volume": 72784.18,
         "categories": [
           "crypto",
-          "politics",
-          "economy"
+          "sports"
         ]
       },
       {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 212527.47,
-        "win_rate": 0.742,
-        "volume": 1646805.8,
+        "wallet": "0xc8075693f4",
+        "username": "texaskid",
+        "pnl": 38653.83,
+        "win_rate": 0.6551,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0feb1bf966",
-        "username": "CentralCasting",
-        "pnl": 344976.81,
-        "win_rate": 0.9091,
-        "volume": 1712583.32,
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 62918.4,
+        "win_rate": 0.6098,
+        "volume": 718515.03,
         "categories": [
+          "sports",
           "crypto",
-          "economy"
+          "politics"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 127516.87,
-        "win_rate": 0.458,
-        "volume": 2872299.81,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbc97fda9fe",
-        "username": "tipISappreciated",
-        "pnl": 59265.17,
-        "win_rate": 0.9417,
-        "volume": 2231556.21,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 81809.04,
+        "win_rate": 0.493,
+        "volume": 684315.32,
         "categories": [
           "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x0feb1bf966",
-        "username": "CentralCasting",
-        "pnl": 344976.81,
-        "win_rate": 0.9091,
-        "volume": 1712583.32,
-        "categories": [
-          "crypto",
+          "politics",
           "economy"
         ]
       },
       {
         "wallet": "0x4be1fa92e6",
         "username": "Eztennis",
-        "pnl": 331109.89,
-        "win_rate": 0.6116,
-        "volume": 954433.15,
+        "pnl": 62918.4,
+        "win_rate": 0.6098,
+        "volume": 718515.03,
         "categories": [
           "sports",
           "crypto",
@@ -1378,74 +1374,146 @@
         ]
       },
       {
-        "wallet": "0x9ee49c02ae",
-        "username": "cosmicxbt",
-        "pnl": 96520.68,
-        "win_rate": 0.6667,
-        "volume": 1059421.0,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 48647.07,
-        "win_rate": 0.564,
-        "volume": 3692439.67,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 59130.27,
-        "win_rate": 0.492,
-        "volume": 897496.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 62159.54,
-        "win_rate": 0.9118,
-        "volume": 1205624.93,
+        "wallet": "0x1b20a00709",
+        "username": "0x1b20a00709DfE648AFd26b326394b5e031f83ab0-1785189457930",
+        "pnl": 23931.49,
+        "win_rate": 0.381,
+        "volume": 415924.29,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe9076a87c5",
-        "username": "suntori",
-        "pnl": 180345.07,
-        "win_rate": 0.429,
-        "volume": 4000222.19,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 97710.46,
+        "win_rate": 0.6998,
+        "volume": 265291.18,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
+          "crypto"
         ]
       },
       {
-        "wallet": "0xd73d208bb2",
-        "username": "xeroror",
-        "pnl": 49712.3,
-        "win_rate": 1.0,
-        "volume": 243269.18,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 14317.06,
+        "win_rate": 0.671,
+        "volume": 283851.86,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x93fb8127a1",
+        "username": "LlamaLoco0000",
+        "pnl": 10715.63,
+        "win_rate": 0.4542,
+        "volume": 123718.33,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 10688.44,
+        "win_rate": 0.564,
+        "volume": 203067.89,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0f35109cc3",
+        "username": "",
+        "pnl": 27254.64,
+        "win_rate": 0.5027,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xd218e47477",
+        "username": "cigarettes",
+        "pnl": 13114.58,
+        "win_rate": 0.501,
+        "volume": 96028.52,
+        "categories": [
+          "sports",
           "economy",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x27c5c1eee4",
+        "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
+        "pnl": 36572.43,
+        "win_rate": 0.8727,
+        "volume": 71294.28,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
-  "news": [],
-  "signals_count": 1684,
+  "news": [
+    {
+      "title": "Ford deal sets stage for tougher talks with GM , Stellantis : Experts",
+      "url": "https://www.stratfordbeaconherald.com:443/news/ford-deal-sets-stage-for-tougher-talks-with-gm-stellantis-experts/wcm/ae2ec0d6-ab60-4370-b3a7-fe4647c66cb6",
+      "ticker": "GM",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Ford deal sets stage for tougher talks with GM , Stellantis : Experts",
+      "url": "https://www.brantfordexpositor.ca:443/news/ford-deal-sets-stage-for-tougher-talks-with-gm-stellantis-experts/wcm/ae2ec0d6-ab60-4370-b3a7-fe4647c66cb6",
+      "ticker": "GM",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "CoreWeave CEO Sold Company Stock Worth Nearly $25 Million Amid Share Price Declines . Here a Closer Look at the Transaction . ",
+      "url": "https://www.fool.com/coverage/filings/2026/07/29/coreweave-s-ceo-sold-company-stock-worth-nearly-usd25-million-amid-share-price-declines-here-s-a-closer-look-at-the-transaction/?source=iedfolrf0000001",
+      "ticker": "CRWV",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Nebius ( NASDAQ : NBIS ) And CoreWeave ( NASDAQ : CRWV ) Stock Plunge As Credit - Swap Costs Threaten AI Infrastructure Financing",
+      "url": "https://www.foreignpolicyjournal.com/2026/07/29/nebius-nasdaq-nbis-and-coreweave-nasdaq-crwv-stock-plunge-as-credit-swap-costs-threaten-ai-infrastructure-financing/",
+      "ticker": "CRWV",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-29"
+    },
+    {
+      "title": "CoreWeave Stock Hits New 52 - Week Low : What Driving the Neocloud Selloff ? - CoreWeave ( NASDAQ : CRWV ) ",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60772397/coreweave-stock-hits-new-52-week-low-whats-driving-the-neocloud-selloff",
+      "ticker": "CRWV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-29"
+    }
+  ],
+  "signals_count": 1626,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
