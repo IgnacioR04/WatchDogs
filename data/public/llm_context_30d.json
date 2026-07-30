@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-30T12:20:50.671508+00:00",
+  "generated_at": "2026-07-30T14:48:08.807073+00:00",
   "window": {
     "from": "2026-06-30",
     "to": "2026-07-30",
@@ -24,6 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
+      "merger",
+      "ai",
       "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -86,6 +88,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "CEO compro COE ($7.7M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $7.7M el 2026-07-27.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 7658900.4,
+      "event_date": "2026-07-27",
+      "importance_score": 85.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000004/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner vendio ABNB ($45.9M)",
       "summary": "10% owner Gebbia Joseph vendio ABNB por $45.9M el 2026-07-28.",
       "source": "sec_form_4",
@@ -102,8 +122,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1834171/000119312526324172/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner vendio ABNB ($32.7M)",
       "summary": "10% owner Gebbia Joseph vendio ABNB por $32.7M el 2026-07-28.",
       "source": "sec_form_4",
@@ -120,8 +140,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1834171/000119312526324172/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO compro COE ($3.0M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 3022408.8,
+      "event_date": "2026-07-24",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000004/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio GM ($9.8M)",
       "summary": "CEO Barra Mary T vendio GM por $9.8M el 2026-07-28.",
       "source": "sec_form_4",
@@ -134,12 +172,16 @@
       "event_date": "2026-07-28",
       "importance_score": 83.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_486088323407",
+        "news_136134726365",
+        "news_892341360893"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro SCTX ($5.0M)",
       "summary": "10% owner AH Bio Fund II, L.P. compro SCTX por $5.0M el 2026-07-27 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -156,8 +198,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1160077/000123191926000813/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Director compro SCTX ($15.0M)",
       "summary": "Director GORDON CARL L compro SCTX por $15.0M el 2026-07-27 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -174,8 +216,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1282930/000094787126000734/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio GM ($8.3M)",
       "summary": "CEO Barra Mary T vendio GM por $8.3M el 2026-07-28.",
       "source": "sec_form_4",
@@ -188,12 +230,16 @@
       "event_date": "2026-07-28",
       "importance_score": 82.9,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_486088323407",
+        "news_136134726365",
+        "news_892341360893"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "10% owner vendio ABNB ($23.6M)",
       "summary": "10% owner Gebbia Joseph vendio ABNB por $23.6M el 2026-07-28.",
       "source": "sec_form_4",
@@ -210,8 +256,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1834171/000119312526324172/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO vendio GM ($6.4M)",
       "summary": "CEO Reuss Mark L vendio GM por $6.4M el 2026-07-28.",
       "source": "sec_form_4",
@@ -224,12 +270,16 @@
       "event_date": "2026-07-28",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_486088323407",
+        "news_136134726365",
+        "news_892341360893"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492362/000149236226000012/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "CEO vendio GM ($6.3M)",
       "summary": "CEO Barra Mary T vendio GM por $6.3M el 2026-07-28.",
       "source": "sec_form_4",
@@ -242,12 +292,16 @@
       "event_date": "2026-07-28",
       "importance_score": 82.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_486088323407",
+        "news_136134726365",
+        "news_892341360893"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "CEO vendio VKTX ($4.9M)",
       "summary": "CEO Lian Brian vendio VKTX por $4.9M el 2026-07-29.",
       "source": "sec_form_4",
@@ -264,8 +318,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1614578/000119312526324448/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "CEO vendio GM ($4.4M)",
       "summary": "CEO Barra Mary T vendio GM por $4.4M el 2026-07-28.",
       "source": "sec_form_4",
@@ -278,12 +332,16 @@
       "event_date": "2026-07-28",
       "importance_score": 81.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_486088323407",
+        "news_136134726365",
+        "news_892341360893"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1492154/000149215426000016/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -300,8 +358,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -318,8 +376,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -336,8 +394,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -347,42 +405,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 23585331061,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
-      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Nomura Holdings Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 19159260573,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
-      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Citadel Advisors LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16040282989,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -443,6 +465,22 @@
         ]
       },
       {
+        "ticker": "GLSI",
+        "company": "Greenwich LifeSciences, Inc.",
+        "pressure_score": 217.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TSM",
+        "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+        "pressure_score": 198.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "EWSB",
         "company": "EWSB Bancorp, Inc. /MD/",
         "pressure_score": 198.0,
@@ -492,28 +530,11 @@
         ]
       },
       {
-        "ticker": "AMAT",
-        "company": "Stock",
-        "pressure_score": 167.7,
+        "ticker": "COE",
+        "company": "51Talk Online Education Group",
+        "pressure_score": 168.6,
         "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "META",
-        "company": "Common Stock",
-        "pressure_score": 166.8,
-        "sources": [
-          "congress",
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SYBX",
-        "company": "SYNLOGIC, INC.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
         ]
       }
     ],
@@ -561,6 +582,14 @@
         ]
       },
       {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 948.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CSTL",
         "company": "CASTLE BIOSCIENCES INC",
         "pressure_score": 842.1,
@@ -593,6 +622,14 @@
         ]
       },
       {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 617.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HON",
         "company": "SP Honeywell International Inc.",
         "pressure_score": 461.7,
@@ -619,25 +656,9 @@
         ]
       },
       {
-        "ticker": "HOOD",
-        "company": "Robinhood Markets, Inc.",
-        "pressure_score": 416.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MAX",
         "company": "MediaAlpha, Inc.",
         "pressure_score": 406.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VRSN",
-        "company": "VERISIGN INC/CA",
-        "pressure_score": 369.0,
         "sources": [
           "corporate_insider"
         ]
@@ -645,6 +666,24 @@
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 7658900.4,
+      "date": "2026-07-27",
+      "score": 85.3
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 3022408.8,
+      "date": "2026-07-24",
+      "score": 83.3
+    },
     {
       "ticker": "SCTX",
       "company": "Scribe Therapeutics, Inc.",
@@ -682,6 +721,24 @@
       "score": 77.8
     },
     {
+      "ticker": "ACI",
+      "company": "Albertsons Companies, Inc.",
+      "actor": "MORRIS SUSAN",
+      "actor_type": "ceo",
+      "amount": 232273.04,
+      "date": "2026-07-28",
+      "score": 77.7
+    },
+    {
+      "ticker": "ACI",
+      "company": "Albertsons Companies, Inc.",
+      "actor": "MORRIS SUSAN",
+      "actor_type": "ceo",
+      "amount": 217664.76,
+      "date": "2026-07-28",
+      "score": 77.5
+    },
+    {
       "ticker": "ASPS",
       "company": "ALTISOURCE PORTFOLIO SOLUTIONS S.A.",
       "actor": "Shepro William B",
@@ -709,6 +766,15 @@
       "score": 72.4
     },
     {
+      "ticker": "GLSI",
+      "company": "Greenwich LifeSciences, Inc.",
+      "actor": "Patel Snehal",
+      "actor_type": "ceo",
+      "amount": 20385.0,
+      "date": "2026-07-28",
+      "score": 72.4
+    },
+    {
       "ticker": "NXTC",
       "company": "NextCure, Inc.",
       "actor": "ADAR1 Capital Management, LLC",
@@ -727,58 +793,13 @@
       "score": 72.3
     },
     {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 38985.32,
-      "date": "2026-07-27",
-      "score": 71.3
-    },
-    {
-      "ticker": "NNOX",
-      "company": "Nano-X Imaging Ltd.",
-      "actor": "Kainan Noga",
-      "actor_type": "director",
-      "amount": 29700.0,
-      "date": "2026-07-28",
-      "score": 71.0
-    },
-    {
-      "ticker": "EQBK",
-      "company": "EQUITY BANCSHARES INC",
-      "actor": "Schlehuber Lisa Ann",
-      "actor_type": "director",
-      "amount": 50429.42,
-      "date": "2026-07-28",
-      "score": 70.9
-    },
-    {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 85135.5,
-      "date": "2026-07-29",
-      "score": 70.8
-    },
-    {
-      "ticker": "BFST",
-      "company": "Business First Bancshares, Inc.",
-      "actor": "Day Rick D.",
-      "actor_type": "director",
-      "amount": 47415.0,
-      "date": "2026-07-28",
-      "score": 70.7
-    },
-    {
-      "ticker": "BCDA",
-      "company": "BioCardia, Inc.",
-      "actor": "Altman Peter",
+      "ticker": "GLSI",
+      "company": "Greenwich LifeSciences, Inc.",
+      "actor": "Patel Snehal",
       "actor_type": "ceo",
-      "amount": 3900.0,
+      "amount": 9170.0,
       "date": "2026-07-29",
-      "score": 70.3
+      "score": 72.2
     }
   ],
   "institutional_changes": [
@@ -1225,9 +1246,19 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 76088.25,
+        "win_rate": 0.9118,
+        "volume": 16328.17,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 117731.19,
+        "pnl": 103065.89,
         "win_rate": 0.8761,
         "volume": 381680.32,
         "categories": [
@@ -1236,19 +1267,9 @@
         ]
       },
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 37710.7,
-        "win_rate": 0.9371,
-        "volume": 1233089.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 43263.58,
+        "pnl": 43275.2,
         "win_rate": 0.9214,
         "volume": 0.0,
         "categories": [
@@ -1256,41 +1277,31 @@
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 22065.28,
-        "win_rate": 0.9585,
-        "volume": 53017.76,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 31269.55,
+        "win_rate": 0.9371,
+        "volume": 1347091.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 43944.16,
-        "win_rate": 0.9118,
-        "volume": 16328.17,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 21139.51,
+        "win_rate": 0.9586,
+        "volume": 121133.42,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 19587.6,
+        "pnl": 19749.05,
         "win_rate": 0.9123,
-        "volume": 20536.5,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x52911b9d1d",
-        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
-        "pnl": 63058.77,
-        "win_rate": 1.0,
-        "volume": 0.0,
+        "volume": 42117.52,
         "categories": [
           "sports"
         ]
@@ -1298,9 +1309,30 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 25993.87,
+        "pnl": 25926.94,
         "win_rate": 0.889,
-        "volume": 2740.0,
+        "volume": 13877.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x13414a77a4",
+        "username": "ROBBATTISTAFANDUELRETARD",
+        "pnl": 44482.31,
+        "win_rate": 0.835,
+        "volume": 266310.54,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x52911b9d1d",
+        "username": "0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628",
+        "pnl": 36784.82,
+        "win_rate": 0.9667,
+        "volume": 77772.91,
         "categories": [
           "sports"
         ]
@@ -1308,20 +1340,9 @@
       {
         "wallet": "0xc430e5b171",
         "username": "Gourmet1",
-        "pnl": 23329.34,
+        "pnl": 23327.8,
         "win_rate": 0.8333,
         "volume": 48588.58,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 97384.31,
-        "win_rate": 0.7004,
-        "volume": 372778.14,
         "categories": [
           "sports",
           "crypto"
@@ -1332,9 +1353,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 155615.55,
-        "win_rate": 0.498,
-        "volume": 2190643.29,
+        "pnl": 169077.51,
+        "win_rate": 0.495,
+        "volume": 3380422.23,
         "categories": [
           "sports",
           "politics",
@@ -1342,13 +1363,13 @@
         ]
       },
       {
-        "wallet": "0x7b02b2bac2",
-        "username": "foodenjoyer",
-        "pnl": 36277.15,
-        "win_rate": 0.521,
-        "volume": 1124185.74,
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 186146.65,
+        "win_rate": 0.6113,
+        "volume": 1839030.5,
         "categories": [
-          "economy",
+          "sports",
           "crypto",
           "politics"
         ]
@@ -1356,9 +1377,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 37710.7,
+        "pnl": 31269.55,
         "win_rate": 0.9371,
-        "volume": 1233089.59,
+        "volume": 1347091.52,
         "categories": [
           "sports"
         ]
@@ -1366,9 +1387,9 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 79234.82,
-        "win_rate": 0.5351,
-        "volume": 394175.7,
+        "pnl": 82528.5,
+        "win_rate": 0.5376,
+        "volume": 479715.79,
         "categories": [
           "sports",
           "crypto"
@@ -1377,9 +1398,19 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 27523.15,
+        "pnl": 27413.51,
         "win_rate": 0.563,
-        "volume": 1235263.18,
+        "volume": 1276233.04,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 80801.92,
+        "win_rate": 0.554,
+        "volume": 1432318.69,
         "categories": [
           "sports"
         ]
@@ -1398,7 +1429,7 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 97384.31,
+        "pnl": 87139.19,
         "win_rate": 0.7004,
         "volume": 372778.14,
         "categories": [
@@ -1409,29 +1440,17 @@
       {
         "wallet": "0x9c56304c88",
         "username": "GAMBLINGISCANCER69",
-        "pnl": 79190.07,
+        "pnl": 102361.51,
         "win_rate": 1.0,
-        "volume": 245206.5,
+        "volume": 266731.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9d84ce0306",
-        "username": "ImJustKen",
-        "pnl": 17642.58,
-        "win_rate": 0.585,
-        "volume": 265849.77,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x27c5c1eee4",
         "username": "0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028",
-        "pnl": 117731.19,
+        "pnl": 103065.89,
         "win_rate": 0.8761,
         "volume": 381680.32,
         "categories": [
@@ -1443,11 +1462,48 @@
   },
   "news": [
     {
-      "title": "Stock Market Today July 30 : Sensex , Nifty close in the green ; auto stocks drive markets higher",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-30th-july-2026/article71281731.ece",
+      "title": "Why Is Microsoft Stock Soaring Thursday ? - Microsoft ( NASDAQ : MSFT ) ",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60798154/azure-ignites-microsoft-stock-ai-fueled-earnings-beat-sparks-9-rally",
       "ticker": "HSY",
       "themes": [
         "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Microsoft Stock Surges Nearly 10 % in Thursday Premarket as Dan Ives Hails Azure Growth the  Best Baromete",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60797877/microsoft-stock-surges-nearly-10-in-thursday-premarket-as-dan-ives-hails-azure-growth-the-best-barometer-for-enterprise-ai-after-q4-earnings",
+      "ticker": "HSY",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Ford deal sets stage for tougher talks with GM , Stellantis : Experts",
+      "url": "https://www.stthomastimesjournal.com:443/news/ford-deal-sets-stage-for-tougher-talks-with-gm-stellantis-experts/wcm/1417629d-ccfe-4cff-9f89-065a4b45920c",
+      "ticker": "GM",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Ford deal sets stage for tougher talks with GM , Stellantis : Experts",
+      "url": "https://www.simcoereformer.ca:443/news/ford-deal-sets-stage-for-tougher-talks-with-gm-stellantis-experts/wcm/1417629d-ccfe-4cff-9f89-065a4b45920c",
+      "ticker": "GM",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Ford deal sets stage for tougher talks with GM , Stellantis : Experts",
+      "url": "https://www.theobserver.ca/news/ford-deal-sets-stage-for-tougher-talks-with-gm-stellantis-experts/wcm/1417629d-ccfe-4cff-9f89-065a4b45920c",
+      "ticker": "GM",
+      "themes": [
+        "merger"
       ],
       "date": "2026-07-30"
     },
@@ -1510,16 +1566,9 @@
       "ticker": "DRI",
       "themes": [],
       "date": "2026-07-24"
-    },
-    {
-      "title": "Kennametal Unveils Next Level Shop Experience for IMTS 2026",
-      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/20/1860143/kennametal-unveils-next-level-shop-experience-for-imts-2026/",
-      "ticker": "KMT",
-      "themes": [],
-      "date": "2026-07-20"
     }
   ],
-  "signals_count": 1710,
+  "signals_count": 1729,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
