@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-07-30T17:08:14+00:00",
+  "generated_at": "2026-07-30T19:06:27+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "BEP": 0.0697,
-    "EQBK": 0.0624,
-    "ZTS": 0.0552,
+    "BEP": 0.0705,
+    "EQBK": 0.0631,
+    "ZTS": 0.0558,
     "IEF": 0.0488,
-    "VSXY": 0.0305,
-    "REAL": 0.0271,
-    "SPCX": 0.0152,
-    "NXTC": 0.0026
+    "VSXY": 0.0307,
+    "REAL": 0.0273,
+    "SPCX": 0.0154
   },
   "core": {
     "SPY": 0.1592,
@@ -26,13 +25,12 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "SPCX": 0.0142,
-    "NXTC": 0.0024,
-    "ZTS": 0.0515,
-    "REAL": 0.0253,
-    "VSXY": 0.0284,
-    "BEP": 0.065,
-    "EQBK": 0.0582
+    "SPCX": 0.0144,
+    "ZTS": 0.052,
+    "REAL": 0.0255,
+    "VSXY": 0.0286,
+    "BEP": 0.0657,
+    "EQBK": 0.0588
   },
   "satellite_rationale": [
     {
@@ -42,14 +40,6 @@
         "congress"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "NXTC",
-      "score": 112.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "ZTS",
@@ -93,16 +83,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0818,
-    "var_95_1d": 0.0076,
+    "ann_vol": 0.0781,
+    "var_95_1d": 0.0077,
     "cvar_95_1d": 0.0082,
-    "max_drawdown": -0.0242,
-    "beta_spy": 0.476,
-    "hhi": 0.0549,
+    "max_drawdown": -0.0276,
+    "beta_spy": 0.466,
+    "hhi": 0.0552,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 18.2,
-    "gross_exposure": 0.6998,
+    "n_positions": 11,
+    "effective_positions": 18.1,
+    "gross_exposure": 0.6999,
     "days_used": 31
   },
   "risk_gate": {
