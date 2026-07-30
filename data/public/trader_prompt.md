@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-30T03:48:30+00:00 -->
+<!-- trader_prompt.md generado 2026-07-30T06:57:32+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-30T03:48:30+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
+_Generado 2026-07-30T06:57:32+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 - IEF: 93.17 (-0.42% / 0.08% / -1.16%) [2026-07-29]
 - GLD: 371.08 (0.46% / -2.12% / 0.73%) [2026-07-29]
 - ^VIX: 20.66 (13.45% / 24.16% / 25.59%) [2026-07-29]
-- BTC-USD: 64110.94 (0.38% / 0.02% / 1.45%) [2026-07-30]
+- BTC-USD: 63891.88 (-0.03% / -0.65% / -0.37%) [2026-07-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,15 +344,13 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), merger (2), leadership (1), ai (1)
+**Temas dominantes**: merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [GM] Ford deal sets stage for tougher talks with GM , Stellantis : Experts (2026-07-30)
-- [GM] Ford deal sets stage for tougher talks with GM , Stellantis : Experts (2026-07-30)
-- [CRWV] CoreWeave CEO Sold Company Stock Worth Nearly $25 Million Amid Share Price Declines . Here a Closer Look at the Transaction . (2026-07-30)
-- [CRWV] Nebius ( NASDAQ : NBIS ) And CoreWeave ( NASDAQ : CRWV ) Stock Plunge As Credit - Swap Costs Threaten AI Infrastructure Financing (2026-07-29)
-- [CRWV] CoreWeave Stock Hits New 52 - Week Low : What Driving the Neocloud Selloff ? - CoreWeave ( NASDAQ : CRWV ) (2026-07-29)
+- [DRI] Sei Investments Co . Has $101 . 34 Million Holdings in Darden Restaurants , Inc . $DRI (2026-07-24)
+- [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -367,11 +365,11 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $18,601 · win rate 93% · categorias: sports
-- JnStTrdrBnusFnd · PnL $20,666 · win rate 91% · categorias: crypto
-- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $36,572 · win rate 87% · categorias: sports, crypto
+- 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $117,789 · win rate 88% · categorias: sports, crypto
+- SDTrading · PnL $43,264 · win rate 92% · categorias: sports
+- monkeymashingkeyboard · PnL $19,569 · win rate 91% · categorias: sports
 - 0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628 · PnL $63,059 · win rate 100% · categorias: sports
-- ic4cream · PnL $18,749 · win rate 89% · categorias: sports
+- ic4cream · PnL $25,970 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -379,7 +377,7 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 641 registros 30d · ultimo dato 2026-07-29
+- **sec_insiders**: `ok` · 735 registros 30d · ultimo dato 2026-07-29
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
