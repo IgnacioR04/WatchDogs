@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-30T06:57:32+00:00 -->
+<!-- trader_prompt.md generado 2026-07-30T09:59:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-30T06:57:32+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
+_Generado 2026-07-30T09:59:00+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -235,39 +235,39 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 55.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `elevated` (VIX 20.66)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 19.53)
 - Tendencia: `neutral` (SPY 729.46 · MA50 743.82 · MA200 696.49 · dist MA200: 4.73%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
-- Motivos: VIX elevado (-); credito tenso/risk-on (+)
+- Motivos: credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 729.46 | -1.54% | -2.4% | -2.32% |
-| QQQ | 7.2% | core | 661.73 | -2.04% | -6.18% | -10.14% |
-| TLT | 7.2% | core | 82.85 | -1.65% | -0.71% | -3.78% |
-| BEP | 6.1% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
-| EQBK | 5.5% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
-| GLD | 5.4% | core | 371.08 | 0.46% | -2.12% | 0.73% |
-| IEF | 3.6% | core | 93.17 | -0.42% | 0.08% | -1.16% |
-| VSXY | 2.6% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
-| KTOS | 2.3% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
-| ODD | 1.4% | satellite | 14.97 | -11.89% | -8.61% | -1.06% |
-| SPCX | 1.3% | satellite | 112.55 | -3.32% | -2.35% | -34.13% |
-| NXTC | 0.2% | satellite | 5.02 | -7.38% | 14.09% | 213.75% |
+| QQQ | 9.8% | core | 661.73 | -2.04% | -6.18% | -10.14% |
+| TLT | 9.8% | core | 82.85 | -1.65% | -0.71% | -3.78% |
+| BEP | 8.3% | satellite | 31.65 | -1.06% | -1.71% | -8.87% |
+| EQBK | 7.5% | satellite | 50.72 | -0.51% | 1.52% | 3.53% |
+| GLD | 7.3% | core | 371.08 | 0.46% | -2.12% | 0.73% |
+| IEF | 4.9% | core | 93.17 | -0.42% | 0.08% | -1.16% |
+| VSXY | 3.6% | satellite | 89.13 | -0.2% | 2.05% | 6.77% |
+| KTOS | 2.8% | satellite | 43.88 | -9.79% | -8.37% | -11.99% |
+| SPCX | 1.8% | satellite | 112.55 | -3.32% | -2.35% | -34.13% |
+| ODD | 1.8% | satellite | 14.97 | -11.89% | -8.61% | -1.06% |
+| NXTC | 0.3% | satellite | 5.02 | -7.38% | 14.09% | 213.75% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 6.8%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.7%
-- Max drawdown historico: -1.4%
-- Beta vs SPY: None · posiciones efectivas: 26.7 · HHI: 0.0374
+- Volatilidad anualizada: 9.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -2.4%
+- Beta vs SPY: 0.518 · posiciones efectivas: 17.7 · HHI: 0.0566
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -328,8 +328,8 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 - TLT: 82.85 (-1.65% / -0.71% / -3.78%) [2026-07-29]
 - IEF: 93.17 (-0.42% / 0.08% / -1.16%) [2026-07-29]
 - GLD: 371.08 (0.46% / -2.12% / 0.73%) [2026-07-29]
-- ^VIX: 20.66 (13.45% / 24.16% / 25.59%) [2026-07-29]
-- BTC-USD: 63891.88 (-0.03% / -0.65% / -0.37%) [2026-07-30]
+- ^VIX: 19.53 (-5.47% / 4.44% / 17.72%) [2026-07-30]
+- BTC-USD: 64491.43 (0.91% / 0.28% / 0.57%) [2026-07-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,13 +344,20 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1)
+**Temas dominantes**: stock (9), leadership (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [GM] Ford deal sets stage for tougher talks with GM , Stellantis : Experts (2026-07-30)
-- [DRI] Sei Investments Co . Has $101 . 34 Million Holdings in Darden Restaurants , Inc . $DRI (2026-07-24)
-- [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
+- [NTRA] Natera , Inc . ( NASDAQ : NTRA ) Receives $267 . 83 Consensus Price Target from Brokerages (2026-07-30)
+- [NTRA] Michael Burkes Brophy Sells 1 , 863 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
+- [NTRA] John Fesko Sells 782 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
+- [NTRA] Natera ( NASDAQ : NTRA ) Insider Solomon Moshkevich Sells 1 , 010 Shares of Stock (2026-07-30)
+- [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) CEO Sells 3 , 580 Shares (2026-07-30)
+- [CRWV] Insider Selling : CoreWeave ( NASDAQ : CRWV ) Insider Sells 144 , 000 Shares (2026-07-30)
+- [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) Insider Sells 1 , 204 Shares (2026-07-30)
+- [CRWV] CoreWeave CEO Sold Company Stock Worth Nearly $25 Million Amid Share Price Declines . Here a Closer Look at the Transaction . (2026-07-30)
+- [CRWV] Nebius ( NASDAQ : NBIS ) And CoreWeave ( NASDAQ : CRWV ) Stock Plunge As Credit - Swap Costs Threaten AI Infrastructure Financing (2026-07-29)
+- [CRWV] CoreWeave Stock Hits New 52 - Week Low : What Driving the Neocloud Selloff ? - CoreWeave ( NASDAQ : CRWV ) (2026-07-29)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -366,10 +373,10 @@ Perfil **moderado** · exposicion total **55.0%** · cash **45.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0x27c5C1EEE404a07F39FE70078AFf815E5a656D61-1763107503028 · PnL $117,789 · win rate 88% · categorias: sports, crypto
+- esportGG · PnL $36,625 · win rate 95% · categorias: sports
 - SDTrading · PnL $43,264 · win rate 92% · categorias: sports
-- monkeymashingkeyboard · PnL $19,569 · win rate 91% · categorias: sports
-- 0x5453da42Cd33b0ED6B796d03d2395f278C779F9F-1773916108628 · PnL $63,059 · win rate 100% · categorias: sports
-- ic4cream · PnL $25,970 · win rate 89% · categorias: sports
+- matenghehe · PnL $12,576 · win rate 96% · categorias: sports, crypto
+- JnStTrdrBnusFnd · PnL $21,500 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,7 +398,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`BEP, EQBK, GLD, IEF, KTOS, NXTC, ODD, QQQ, SPCX, SPY, TLT, VSXY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **55.0%** (el resto es cash). Estamos en regimen `neutral`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
