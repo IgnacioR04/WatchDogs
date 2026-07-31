@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-31T14:55:09.940293+00:00",
+  "generated_at": "2026-07-31T17:12:26.680696+00:00",
   "window": {
     "from": "2026-07-01",
     "to": "2026-07-31",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
       "earnings",
-      "merger"
+      "merger",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -106,24 +106,6 @@
     {
       "id": "move_5",
       "rank": 5,
-      "title": "10% owner opero LPRO ($23.8M)",
-      "summary": "10% owner Greenberg Blair J. opero LPRO por $23.8M el 2026-07-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Greenberg Blair J.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LPRO",
-      "direction": "other",
-      "amount_estimated": 23828382.9,
-      "event_date": "2026-07-28",
-      "importance_score": 83.5,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1814788/000119312526326395/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
       "title": "CEO compro COE ($3.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.",
       "source": "sec_form_4",
@@ -140,26 +122,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000004/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
-      "title": "10% owner vendio FEIM ($31.9M)",
-      "summary": "10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28 [senal en multiples fuentes].",
+      "id": "move_6",
+      "rank": 6,
+      "title": "10% owner opero LPRO ($23.8M)",
+      "summary": "10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Edenbrook Capital, LLC",
+      "actor_name": "Bregal Sagemount I, L.P.",
       "actor_type": "ten_percent_owner",
-      "ticker": "FEIM",
-      "direction": "sell",
-      "amount_estimated": 31875010.0,
+      "ticker": "LPRO",
+      "direction": "other",
+      "amount_estimated": 23828382.9,
       "event_date": "2026-07-28",
-      "importance_score": 83.1,
-      "cross_source_score": 25.0,
+      "importance_score": 82.2,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1665975/000091957426004692/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1814533/000119312526327577/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO opero MLI ($13.7M)",
       "summary": "CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.",
       "source": "sec_form_4",
@@ -174,6 +156,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000003/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "10% owner vendio FEIM ($31.9M)",
+      "summary": "10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Edenbrook Capital, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "FEIM",
+      "direction": "sell",
+      "amount_estimated": 31875010.0,
+      "event_date": "2026-07-28",
+      "importance_score": 81.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1665975/000091957426004692/"
     },
     {
       "id": "move_9",
@@ -427,21 +427,20 @@
         ]
       },
       {
+        "ticker": "JCTC",
+        "company": "JEWETT CAMERON TRADING CO LTD",
+        "pressure_score": 262.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "TSM",
         "company": "Manufacturing Company Ltd.",
         "pressure_score": 261.5,
         "sources": [
           "congress",
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ZTS",
-        "company": "ZOETIS INC",
-        "pressure_score": 245.4,
-        "sources": [
-          "congress",
-          "large_holder"
         ]
       },
       {
@@ -461,15 +460,6 @@
         ]
       },
       {
-        "ticker": "ESAB",
-        "company": "Esab Corp",
-        "pressure_score": 190.6,
-        "sources": [
-          "congress",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
         "pressure_score": 174.3,
@@ -481,6 +471,14 @@
         "ticker": "ABT",
         "company": "Abbott Laboratories Common Stock",
         "pressure_score": 174.3,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "ZTS",
+        "company": "Zoetis Inc. Class A Common Stock",
+        "pressure_score": 169.9,
         "sources": [
           "congress"
         ]
@@ -520,6 +518,14 @@
     ],
     "sell_pressure": [
       {
+        "ticker": "SKYT",
+        "company": "SkyWater Technology, LLC",
+        "pressure_score": 2381.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "APPF",
         "company": "APPFOLIO INC",
         "pressure_score": 2046.2,
@@ -533,15 +539,6 @@
         "pressure_score": 1317.3,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SKYT",
-        "company": "SkyWater Technology, LLC",
-        "pressure_score": 1143.6,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -594,17 +591,8 @@
       },
       {
         "ticker": "GSHD",
-        "company": "Goosehead Insurance Inc",
-        "pressure_score": 526.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "GL",
-        "company": "GLOBE LIFE INC.",
-        "pressure_score": 457.5,
+        "company": "Goosehead Insurance, Inc.",
+        "pressure_score": 517.1,
         "sources": [
           "corporate_insider"
         ]
@@ -637,6 +625,14 @@
         "ticker": "AMP",
         "company": "AMERIPRISE FINANCIAL INC",
         "pressure_score": 310.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SKYW",
+        "company": "SKYWEST INC",
+        "pressure_score": 304.6,
         "sources": [
           "corporate_insider"
         ]
@@ -726,6 +722,15 @@
       "score": 77.5
     },
     {
+      "ticker": "COSM",
+      "company": "Cosmos Health Inc.",
+      "actor": "Siokas Grigorios",
+      "actor_type": "ceo",
+      "amount": 69999.98,
+      "date": "2026-07-30",
+      "score": 76.6
+    },
+    {
       "ticker": "PKBK",
       "company": "PARKE BANCORP, INC.",
       "actor": "PANTILIONE VITO S",
@@ -733,6 +738,15 @@
       "amount": 43784.0,
       "date": "2026-07-29",
       "score": 75.6
+    },
+    {
+      "ticker": "BBASX",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "actor": "BROWN BROTHERS HARRIMAN CREDIT PARTNERS, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 224340.94,
+      "date": "2026-07-29",
+      "score": 75.1
     },
     {
       "ticker": "NMM",
@@ -760,24 +774,6 @@
       "amount": 18309.33,
       "date": "2026-07-30",
       "score": 73.7
-    },
-    {
-      "ticker": "NMM",
-      "company": "Navios Maritime Partners L.P.",
-      "actor": "Frangou Angeliki",
-      "actor_type": "ten_percent_owner",
-      "amount": 84245.8,
-      "date": "2026-07-28",
-      "score": 73.0
-    },
-    {
-      "ticker": "LBRT",
-      "company": "Liberty Energy Inc.",
-      "actor": "Murti Arjun N",
-      "actor_type": "director",
-      "amount": 250008.51,
-      "date": "2026-07-28",
-      "score": 72.8
     }
   ],
   "institutional_changes": [
@@ -980,6 +976,14 @@
       "score": 65.2
     },
     {
+      "politician": "Gilbert Cisneros",
+      "ticker": "AGX",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-06-30",
+      "score": 65.0
+    },
+    {
       "politician": "Kevin Hern",
       "ticker": "XOM",
       "direction": "other",
@@ -1001,14 +1005,6 @@
       "direction": "sell",
       "amount": 50000,
       "date": "2026-07-21",
-      "score": 63.7
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "AGX",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-06-30",
       "score": 63.7
     },
     {
@@ -1061,6 +1057,14 @@
     },
     {
       "politician": "Gilbert Cisneros",
+      "ticker": "HQY",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-06-30",
+      "score": 62.4
+    },
+    {
+      "politician": "Gilbert Cisneros",
       "ticker": "SMTC",
       "direction": "sell",
       "amount": 15000,
@@ -1074,124 +1078,17 @@
       "amount": 100000,
       "date": "2026-06-29",
       "score": 62.2
-    },
-    {
-      "politician": "Gilbert Cisneros",
-      "ticker": "LLY",
-      "direction": "buy",
-      "amount": 100000,
-      "date": "2026-06-10",
-      "score": 62.2
     }
   ],
   "large_holders": [
     {
-      "filer": "Martin Ryan Todd",
-      "company": "KUSTOM ENTERTAINMENT, INC.",
-      "ticker": "KUST",
-      "ownership_pct": 100.0,
-      "shares": 280000,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Imperial Petroleum Inc.",
-      "company": "C3is Inc.",
-      "ticker": "CISS",
-      "ownership_pct": 68.8,
-      "shares": 28846153,
+      "filer": "TB Alternative Assets Ltd.",
+      "company": "Cloopen Group Holding Limited",
+      "ticker": "RAASY",
+      "ownership_pct": 12.89,
+      "shares": 38474611,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Abu Dhabi Investment Authority",
-      "company": "Overland Advantage",
-      "ticker": "",
-      "ownership_pct": 55.9,
-      "shares": 17750646,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Stachowiak Raymond C",
-      "company": "AMERICAN SHARED HOSPITAL SERVICES",
-      "ticker": "AMS",
-      "ownership_pct": 35.3,
-      "shares": 2440205,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Junli Yang",
-      "company": "TOP Financial Group Ltd",
-      "ticker": "TOP",
-      "ownership_pct": 17.1,
-      "shares": 104067616,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
-      "company": "Gold Royalty Corp.",
-      "ticker": "",
-      "ownership_pct": 14.4,
-      "shares": 33300000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Avoro Capital Advisors LLC",
-      "company": "Scribe Therapeutics, Inc.",
-      "ticker": "SCTX",
-      "ownership_pct": 13.78,
-      "shares": 2598973,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Edenbrook Capital, LLC",
-      "company": "Frequency Electronics, Inc.",
-      "ticker": "FEIM",
-      "ownership_pct": 11.15,
-      "shares": 1221636,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Vista VCSL Feeder Fund, L.P.",
-      "company": "Vista Credit Strategic Lending Corp.",
-      "ticker": "",
-      "ownership_pct": 10.93,
-      "shares": 5601139,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Saba Capital Management, L.P.",
-      "company": "MORGAN STANLEY INDIA INVESTMENT FUND, INC.",
-      "ticker": "IIF",
-      "ownership_pct": 9.04,
-      "shares": 853694,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "Astaris Capital Management LLP",
-      "company": "KNOT Offshore Partners LP",
-      "ticker": "KNOP",
-      "ownership_pct": 8.1,
-      "shares": 2741926,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
-    },
-    {
-      "filer": "ELI LILLY & Co",
-      "company": "Scribe Therapeutics, Inc.",
-      "ticker": "SCTX",
-      "ownership_pct": 7.3,
-      "shares": 1388161,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-07-30"
+      "date": "2026-07-31"
     },
     {
       "filer": "Novo Holdings A/S",
@@ -1201,15 +1098,6 @@
       "shares": 2086622,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-31"
-    },
-    {
-      "filer": "JSS LTF Holdings Ltd",
-      "company": "Life Time Group Holdings, Inc.",
-      "ticker": "LTH",
-      "ownership_pct": 1.5,
-      "shares": 3378564,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-30"
     }
   ],
   "polymarket": {
@@ -1217,41 +1105,40 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 102652.44,
-        "win_rate": 0.9049,
-        "volume": 341013.31,
+        "pnl": 120430.53,
+        "win_rate": 0.9055,
+        "volume": 351013.26,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 24621.87,
-        "win_rate": 0.9486,
-        "volume": 631547.54,
+        "wallet": "0xf3ce7f04dd",
+        "username": "",
+        "pnl": 21045.2,
+        "win_rate": 0.9554,
+        "volume": 90614.96,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 56416.45,
-        "win_rate": 0.8922,
-        "volume": 1546376.12,
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 22095.42,
+        "win_rate": 0.9487,
+        "volume": 835145.76,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 69044.93,
+        "pnl": 69070.42,
         "win_rate": 0.8554,
-        "volume": 191204.22,
+        "volume": 196114.55,
         "categories": [
           "sports"
         ]
@@ -1259,7 +1146,7 @@
       {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 76794.44,
+        "pnl": 77000.64,
         "win_rate": 0.826,
         "volume": 209454.54,
         "categories": [
@@ -1268,22 +1155,21 @@
         ]
       },
       {
-        "wallet": "0x57b4520916",
-        "username": "Skyfker",
-        "pnl": 17490.06,
-        "win_rate": 0.9103,
-        "volume": 78184.42,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 44985.44,
+        "win_rate": 0.9688,
+        "volume": 141087.36,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 48866.06,
-        "win_rate": 0.9677,
-        "volume": 124134.95,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 50960.95,
+        "win_rate": 0.797,
+        "volume": 301052.51,
         "categories": [
           "sports"
         ]
@@ -1291,33 +1177,33 @@
       {
         "wallet": "0x65c18d740c",
         "username": "neurodivergentBet",
-        "pnl": 29391.12,
-        "win_rate": 0.8344,
-        "volume": 53564.55,
+        "pnl": 26125.36,
+        "win_rate": 0.8354,
+        "volume": 96006.58,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xef2684030d",
-        "username": "LOBODAFL",
-        "pnl": 43824.0,
-        "win_rate": 0.8,
-        "volume": 211269.94,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x85d53efdd0",
         "username": "retroactivesource",
-        "pnl": 39997.7,
-        "win_rate": 0.8033,
+        "pnl": 40049.66,
+        "win_rate": 0.8054,
         "volume": 271428.75,
         "categories": [
           "sports",
           "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xef2684030d",
+        "username": "LOBODAFL",
+        "pnl": 39770.29,
+        "win_rate": 0.801,
+        "volume": 226269.86,
+        "categories": [
+          "sports",
           "politics"
         ]
       }
@@ -1326,9 +1212,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 56100.15,
-        "win_rate": 0.503,
-        "volume": 1147078.13,
+        "pnl": 86275.46,
+        "win_rate": 0.497,
+        "volume": 1388604.9,
         "categories": [
           "sports",
           "politics",
@@ -1336,63 +1222,11 @@
         ]
       },
       {
-        "wallet": "0x7d6d24d5d9",
-        "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 56416.45,
-        "win_rate": 0.8922,
-        "volume": 1546376.12,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 67936.33,
-        "win_rate": 0.581,
-        "volume": 2360868.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 69044.93,
-        "win_rate": 0.8554,
-        "volume": 191204.22,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 46613.83,
-        "win_rate": 0.5245,
-        "volume": 304302.61,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 102021.08,
-        "win_rate": 0.539,
-        "volume": 1482480.81,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 35232.78,
-        "win_rate": 0.556,
-        "volume": 970590.88,
+        "pnl": 86813.12,
+        "win_rate": 0.574,
+        "volume": 2757960.4,
         "categories": [
           "sports"
         ]
@@ -1400,55 +1234,96 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 24621.87,
-        "win_rate": 0.9486,
-        "volume": 631547.54,
+        "pnl": 22095.42,
+        "win_rate": 0.9487,
+        "volume": 835145.76,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe291a588ec",
-        "username": "patient12",
-        "pnl": 18974.45,
-        "win_rate": 0.6517,
-        "volume": 412036.99,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 69070.42,
+        "win_rate": 0.8554,
+        "volume": 196114.55,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 43174.71,
+        "win_rate": 0.558,
+        "volume": 1066865.16,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 101706.02,
+        "win_rate": 0.544,
+        "volume": 1577164.1,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 38723.78,
+        "pnl": 76673.74,
         "win_rate": 0.7022,
         "volume": 358621.39,
         "categories": [
           "sports",
           "crypto"
         ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 38765.49,
+        "win_rate": 0.561,
+        "volume": 707780.34,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 56060.79,
+        "win_rate": 0.636,
+        "volume": 613478.86,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 120430.53,
+        "win_rate": 0.9055,
+        "volume": 351013.26,
+        "categories": [
+          "sports",
+          "politics"
+        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13523328/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock-2.html",
-      "ticker": "APPF",
+      "title": "Is CoreWeave Stock a Buy After a Company Insider Shed 6 , 455 Shares ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-buy-company-insider-141108380.html",
+      "ticker": "CRWV",
       "themes": [
         "stock"
       ],
       "date": "2026-07-31"
-    },
-    {
-      "title": "Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock",
-      "url": "https://www.dailypolitical.com/2026/07/30/houte-hans-van-sells-2845-shares-of-nurix-therapeutics-nasdaqnrix-stock.html",
-      "ticker": "NRIX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
     },
     {
       "title": "CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . ",
@@ -1470,39 +1345,10 @@
       "date": "2026-07-29"
     },
     {
-      "title": "AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? ",
-      "url": "https://www.themarketsdaily.com/2026/07/28/appfolio-nasdaqappf-stock-price-up-7-5-should-you-buy.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-28"
-    },
-    {
-      "title": "Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/28/jason-estes-sells-3225-shares-of-bank7-nasdaqbsvn-stock.html",
-      "ticker": "BSVN",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-07-28"
-    },
-    {
       "title": "Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes",
       "url": "https://www.themarketsdaily.com/2026/07/23/goosehead-insurance-gshd-research-analysts-recent-ratings-changes.html",
       "ticker": "GSHD",
       "themes": [],
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-bsvn-q2-2026-earnings-141336470.html",
-      "ticker": "BSVN",
-      "themes": [
-        "earnings",
-        "regulatory"
-      ],
       "date": "2026-07-23"
     },
     {
@@ -1524,7 +1370,7 @@
       "date": "2026-07-23"
     }
   ],
-  "signals_count": 1621,
+  "signals_count": 1612,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

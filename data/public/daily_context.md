@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-31T14:56:09+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
+_Generado 2026-07-31T17:13:20+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,55 +8,49 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.53)
-- Tendencia: `neutral` (SPY 741.92 · MA50 744.12 · MA200 697.38 · dist MA200: 6.39%)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 16.85)
+- Tendencia: `bull` (SPY 745.22 · MA50 744.19 · MA200 697.4 · dist MA200: 6.86%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
-- Motivos: credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 741.92 | 0.03% | 0.4% | -0.38% |
-| QQQ | 9.8% | core | 685.13 | 0.23% | 0.13% | -3.85% |
-| TLT | 9.8% | core | 82.19 | -0.73% | -1.27% | -3.88% |
-| GLD | 7.3% | core | 371.23 | -1.57% | -0.18% | -1.82% |
-| IEF | 4.9% | core | 92.85 | -0.39% | -0.2% | -1.35% |
-| ZTS | 4.3% | satellite | 76.33 | 0.4% | 1.31% | 2.76% |
-| CARE | 4.2% | satellite | 34.21 | 0.22% | 0.57% | 3.24% |
-| NMM | 3.7% | satellite | 82.36 | 3.9% | 4.12% | 13.65% |
-| SKYT | 3.4% | satellite | 32.46 | 6.15% | 5.66% | -6.78% |
-| SNOW | 3.0% | satellite | 295.98 | -0.71% | 10.42% | 13.77% |
-| NRIX | 2.1% | satellite | 23.64 | 0.25% | 1.11% | -1.38% |
-| SOLS | 1.7% | satellite | 59.59 | 3.83% | -1.57% | -25.69% |
-| GSHD | 1.5% | satellite | 62.33 | -2.4% | 6.09% | 18.3% |
-| SPCX | 1.2% | satellite | 109.06 | -2.8% | -5.22% | -32.68% |
-| FEIM | 1.1% | satellite | 59.08 | -1.35% | -18.47% | -8.53% |
+| SPY | 12.0% | core | 745.22 | 0.48% | 0.85% | 0.06% |
+| QQQ | 12.0% | core | 688.1 | 0.67% | 0.57% | -3.44% |
+| TLT | 12.0% | core | 81.99 | -0.98% | -1.51% | -4.12% |
+| GLD | 9.3% | core | 370.82 | -1.68% | -0.29% | -1.93% |
+| BEP | 8.4% | satellite | 32.77 | 0.34% | -1.06% | -3.28% |
+| IEF | 6.2% | core | 92.78 | -0.47% | -0.27% | -1.43% |
+| NMM | 6.1% | satellite | 80.19 | 1.17% | 1.38% | 10.66% |
+| MIDD | 5.7% | satellite | 133.87 | 0.41% | -0.01% | -4.98% |
+| CPRI | 4.6% | satellite | 15.98 | 0.6% | 3.53% | -15.69% |
+| NRIX | 3.4% | satellite | 23.13 | -1.91% | -1.07% | -3.5% |
+| TSM | 3.4% | satellite | 407.57 | 1.06% | 1.03% | -6.13% |
+| SPCX | 2.0% | satellite | 109.09 | -2.77% | -5.2% | -32.66% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.8%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: 0.466 · posiciones efectivas: 20.2 · HHI: 0.0495
+- Volatilidad anualizada: 12.0%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -4.8%
+- Beta vs SPY: 0.762 · posiciones efectivas: 13.4 · HHI: 0.0745
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **SPCX** · score agregado 241.4 · 4 señales · fuentes: congress
 - **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
+- **CPRI** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **MIDD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NRIX** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **CARE** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SKYT** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SOLS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SNOW** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ZTS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **FEIM** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
+- **TSM** · score agregado 56.3 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -65,20 +59,20 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | [NONE] | 84 | corporate_insider | VEP Group, LLC | 2 | $6,229,807 | cluster_buy |
+| TTD | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| SMTC | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| ICHR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| AGX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| JKHY | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| CAG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| ASH | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| HQY | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| CPRI | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| MIDD | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
 | NRIX | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| CAG | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| ESAB | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| GSHD | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| ICHR | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| BKD | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| CARE | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| SKYT | 72 | large_holder | Loren A. Unterseher |  | - | - |
-| SOLS | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| VSNT | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| STRL | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| SNOW | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| SMTC | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| ZTS | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| MPLT | 70 | large_holder | Novo Holdings A/S |  | - | - |
+| RAASY | 70 | large_holder | TB Alternative Assets Ltd |  | - | - |
+| PLAB | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -100,15 +94,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 741.92 (0.03% / 0.4% / -0.38%) [2026-07-31]
-- QQQ: 685.13 (0.23% / 0.13% / -3.85%) [2026-07-31]
-- IWM: 290.16 (-0.83% / -0.35% / -2.49%) [2026-07-31]
-- DIA: 521.89 (0.07% / 0.6% / -1.11%) [2026-07-31]
-- TLT: 82.19 (-0.73% / -1.27% / -3.88%) [2026-07-31]
-- IEF: 92.85 (-0.39% / -0.2% / -1.35%) [2026-07-31]
-- GLD: 371.23 (-1.57% / -0.18% / -1.82%) [2026-07-31]
-- ^VIX: 17.53 (2.57% / -5.65% / 8.54%) [2026-07-31]
-- BTC-USD: 62546.07 (-3.37% / -4.28% / -1.97%) [2026-07-31]
+- SPY: 745.22 (0.48% / 0.85% / 0.06%) [2026-07-31]
+- QQQ: 688.1 (0.67% / 0.57% / -3.44%) [2026-07-31]
+- IWM: 291.23 (-0.46% / 0.02% / -2.13%) [2026-07-31]
+- DIA: 523.95 (0.47% / 1.0% / -0.72%) [2026-07-31]
+- TLT: 81.99 (-0.98% / -1.51% / -4.12%) [2026-07-31]
+- IEF: 92.78 (-0.47% / -0.27% / -1.43%) [2026-07-31]
+- GLD: 370.82 (-1.68% / -0.29% / -1.93%) [2026-07-31]
+- ^VIX: 16.85 (-1.4% / -9.31% / 4.33%) [2026-07-31]
+- BTC-USD: 62809.19 (-2.96% / -3.87% / -1.56%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,18 +117,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), regulatory (3), earnings (3), merger (1)
+**Temas dominantes**: stock (2), earnings (2), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
-- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
+- [CRWV] Is CoreWeave Stock a Buy After a Company Insider Shed 6 , 455 Shares ? (2026-07-31)
 - [CRWD] CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . (2026-07-30)
 - [SKYT] IonQ ( NYSE : IONQ ) Clears Final Regulatory Hurdle To Close SkyWater Technology ( NASDAQ : SKYT ) Acquisition (2026-07-29)
-- [APPF] AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? (2026-07-28)
-- [BSVN] Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock (2026-07-28)
 - [GSHD] Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes (2026-07-23)
-- [BSVN] Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript (2026-07-23)
 - [GSHD] Goosehead Insurance ( NASDAQ : GSHD ) Issues Earnings Results , Beats Estimates By $0 . 17 EPS (2026-07-23)
 - [GSHD] Goosehead Insurance ( NASDAQ : GSHD ) Posts Earnings Results , Beats Expectations By $0 . 17 EPS (2026-07-23)
 
@@ -144,18 +134,18 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $7.7M el 2026-07-27.
 - 10% owner Abu Dhabi Investment Authority compro Overland Advantage por $22.9M el 2026-07-28.
 - 10% owner VEP Group, LLC compro [NONE] por $6.2M el 2026-07-29.
-- 10% owner Greenberg Blair J. opero LPRO por $23.8M el 2026-07-28 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.
-- 10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28 [senal en multiples fuentes].
+- 10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.
 - CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.
+- 10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $102,652 · win rate 90% · categorias: sports, politics
-- esportGG · PnL $24,622 · win rate 95% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $56,416 · win rate 89% · categorias: sports, crypto
-- BreakTheBank · PnL $69,045 · win rate 86% · categorias: sports
-- MeiGuNiuBi · PnL $76,794 · win rate 83% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $120,431 · win rate 91% · categorias: sports, politics
+- 0xf3ce7f04 · PnL $21,045 · win rate 96% · categorias: sports
+- esportGG · PnL $22,095 · win rate 95% · categorias: sports
+- BreakTheBank · PnL $69,070 · win rate 86% · categorias: sports
+- MeiGuNiuBi · PnL $77,001 · win rate 83% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +153,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 636 registros 30d · ultimo dato 2026-07-31
+- **sec_insiders**: `ok` · 627 registros 30d · ultimo dato 2026-07-31
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-31
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -176,8 +166,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CARE, FEIM, GLD, GSHD, IEF, NMM, NRIX, QQQ, SKYT, SNOW, SOLS, SPCX, SPY, TLT, ZTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, CPRI, GLD, IEF, MIDD, NMM, NRIX, QQQ, SPCX, SPY, TLT, TSM`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
