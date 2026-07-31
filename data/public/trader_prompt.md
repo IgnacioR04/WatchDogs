@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-31T17:13:20+00:00 -->
+<!-- trader_prompt.md generado 2026-07-31T19:02:25+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-31T17:13:20+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
+_Generado 2026-07-31T19:02:25+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,8 +236,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.85)
-- Tendencia: `bull` (SPY 745.22 · MA50 744.19 · MA200 697.4 · dist MA200: 6.86%)
+- Volatilidad: `normal` (VIX 16.45)
+- Tendencia: `bull` (SPY 746.4 · MA50 744.21 · MA200 697.41 · dist MA200: 7.03%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
@@ -249,18 +249,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 745.22 | 0.48% | 0.85% | 0.06% |
-| QQQ | 12.0% | core | 688.1 | 0.67% | 0.57% | -3.44% |
-| TLT | 12.0% | core | 81.99 | -0.98% | -1.51% | -4.12% |
-| GLD | 9.3% | core | 370.82 | -1.68% | -0.29% | -1.93% |
-| BEP | 8.4% | satellite | 32.77 | 0.34% | -1.06% | -3.28% |
-| IEF | 6.2% | core | 92.78 | -0.47% | -0.27% | -1.43% |
-| NMM | 6.1% | satellite | 80.19 | 1.17% | 1.38% | 10.66% |
-| MIDD | 5.7% | satellite | 133.87 | 0.41% | -0.01% | -4.98% |
-| CPRI | 4.6% | satellite | 15.98 | 0.6% | 3.53% | -15.69% |
-| NRIX | 3.4% | satellite | 23.13 | -1.91% | -1.07% | -3.5% |
-| TSM | 3.4% | satellite | 407.57 | 1.06% | 1.03% | -6.13% |
-| SPCX | 2.0% | satellite | 109.09 | -2.77% | -5.2% | -32.66% |
+| SPY | 12.0% | core | 746.4 | 0.64% | 1.01% | 0.22% |
+| QQQ | 12.0% | core | 689.05 | 0.8% | 0.7% | -3.3% |
+| TLT | 12.0% | core | 81.97 | -1.0% | -1.53% | -4.13% |
+| GLD | 9.3% | core | 371.68 | -1.45% | -0.06% | -1.71% |
+| BEP | 8.4% | satellite | 32.81 | 0.46% | -0.94% | -3.16% |
+| IEF | 6.2% | core | 92.75 | -0.5% | -0.31% | -1.46% |
+| NMM | 6.1% | satellite | 81.48 | 2.79% | 3.01% | 12.43% |
+| MIDD | 5.7% | satellite | 133.91 | 0.44% | 0.02% | -4.95% |
+| CPRI | 4.6% | satellite | 16.05 | 1.01% | 3.95% | -15.35% |
+| NRIX | 3.4% | satellite | 23.29 | -1.23% | -0.38% | -2.84% |
+| TSM | 3.4% | satellite | 405.92 | 0.65% | 0.62% | -6.5% |
+| SPCX | 2.0% | satellite | 108.0 | -3.75% | -6.15% | -33.34% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -286,6 +286,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | [NONE] | 84 | corporate_insider | VEP Group, LLC | 2 | $6,229,807 | cluster_buy |
+| BBASX | 79 | corporate_insider | AMG New York Holdings Cor | 2 | $897,184 | cluster_buy |
+| BBASX | 76 | corporate_insider | BROWN BROTHERS HARRIMAN C | 2 | $224,341 | cluster_buy |
 | TTD | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | SMTC | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | ICHR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
@@ -298,8 +300,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | MIDD | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
 | NRIX | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
 | MPLT | 70 | large_holder | Novo Holdings A/S |  | - | - |
-| RAASY | 70 | large_holder | TB Alternative Assets Ltd |  | - | - |
-| PLAB | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -321,15 +321,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 745.22 (0.48% / 0.85% / 0.06%) [2026-07-31]
-- QQQ: 688.1 (0.67% / 0.57% / -3.44%) [2026-07-31]
-- IWM: 291.23 (-0.46% / 0.02% / -2.13%) [2026-07-31]
-- DIA: 523.95 (0.47% / 1.0% / -0.72%) [2026-07-31]
-- TLT: 81.99 (-0.98% / -1.51% / -4.12%) [2026-07-31]
-- IEF: 92.78 (-0.47% / -0.27% / -1.43%) [2026-07-31]
-- GLD: 370.82 (-1.68% / -0.29% / -1.93%) [2026-07-31]
-- ^VIX: 16.85 (-1.4% / -9.31% / 4.33%) [2026-07-31]
-- BTC-USD: 62809.19 (-2.96% / -3.87% / -1.56%) [2026-07-31]
+- SPY: 746.4 (0.64% / 1.01% / 0.22%) [2026-07-31]
+- QQQ: 689.05 (0.8% / 0.7% / -3.3%) [2026-07-31]
+- IWM: 291.76 (-0.28% / 0.2% / -1.96%) [2026-07-31]
+- DIA: 524.66 (0.6% / 1.14% / -0.58%) [2026-07-31]
+- TLT: 81.97 (-1.0% / -1.53% / -4.13%) [2026-07-31]
+- IEF: 92.75 (-0.5% / -0.31% / -1.46%) [2026-07-31]
+- GLD: 371.68 (-1.45% / -0.06% / -1.71%) [2026-07-31]
+- ^VIX: 16.45 (-3.74% / -11.46% / 1.86%) [2026-07-31]
+- BTC-USD: 63087.1 (-2.53% / -3.45% / -1.12%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,16 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), earnings (2), merger (1), regulatory (1)
+**Temas dominantes**: stock (8), ai (6), earnings (5), regulatory (3), leadership (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Is CoreWeave Stock a Buy After a Company Insider Shed 6 , 455 Shares ? (2026-07-31)
-- [CRWD] CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . (2026-07-30)
+- [TEM] Tempus AI Stock Slides Friday : What Driving the Post - Earnings Reset ? Tempus AI Stock Slides Friday : Wha (2026-07-31)
+- [TEM] Is Tempus AI Stock a Buy After Its CEO Sold 250 , 000 Shares ? (2026-07-31)
+- [TEM] Needham & Company LLC Reaffirms Buy Rating for Tempus AI ( NASDAQ : TEM ) (2026-07-31)
+- [TEM] Tempus AI ( NASDAQ : TEM ) CEO Sells 250 , 000 Shares of Stock (2026-07-31)
+- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
+- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
+- [TEM] Why Nancy Pelosi - Owned Tempus AI Stock Is Down After Q2 Earnings - Tempus AI ( NASDAQ : TEM ) (2026-07-30)
+- [TEM] Median Technologies and Olea Medical , a Canon Medical Systems Company , Partner to Advance Commercial Deployment of AI - Powered eyonis LCS for Lung Cancer Screening (2026-07-30)
 - [SKYT] IonQ ( NYSE : IONQ ) Clears Final Regulatory Hurdle To Close SkyWater Technology ( NASDAQ : SKYT ) Acquisition (2026-07-29)
-- [GSHD] Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes (2026-07-23)
-- [GSHD] Goosehead Insurance ( NASDAQ : GSHD ) Issues Earnings Results , Beats Estimates By $0 . 17 EPS (2026-07-23)
-- [GSHD] Goosehead Insurance ( NASDAQ : GSHD ) Posts Earnings Results , Beats Expectations By $0 . 17 EPS (2026-07-23)
+- [APPF] AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? (2026-07-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -364,15 +368,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.
 - 10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.
 - CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.
-- 10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28.
+- CEO CRACCHIOLO JAMES M vendio AMP por $8.8M el 2026-07-28.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $120,431 · win rate 91% · categorias: sports, politics
-- 0xf3ce7f04 · PnL $21,045 · win rate 96% · categorias: sports
-- esportGG · PnL $22,095 · win rate 95% · categorias: sports
-- BreakTheBank · PnL $69,070 · win rate 86% · categorias: sports
-- MeiGuNiuBi · PnL $77,001 · win rate 83% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $120,421 · win rate 91% · categorias: sports, politics
+- esportGG · PnL $42,841 · win rate 95% · categorias: sports
+- 0xf3ce7f04 · PnL $28,078 · win rate 96% · categorias: sports
+- lllllllIlll · PnL $23,223 · win rate 93% · categorias: sports
+- BreakTheBank · PnL $69,110 · win rate 86% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -380,7 +384,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 627 registros 30d · ultimo dato 2026-07-31
+- **sec_insiders**: `ok` · 605 registros 30d · ultimo dato 2026-07-31
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-31
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
