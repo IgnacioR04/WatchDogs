@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-31T12:33:34+00:00",
+  "generated_at": "2026-07-31T14:56:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.1201,
-    "QQQ": 0.0976,
-    "TLT": 0.0976,
+    "QQQ": 0.0977,
+    "TLT": 0.0977,
     "GLD": 0.0731,
-    "BEP": 0.0563,
     "IEF": 0.0488,
-    "ZTS": 0.0474,
-    "NMM": 0.0406,
-    "SNOW": 0.0327,
-    "TSM": 0.0228,
-    "SOLS": 0.0188,
-    "PRGS": 0.0181,
-    "SPCX": 0.0135,
-    "FEIM": 0.0124
+    "ZTS": 0.0431,
+    "CARE": 0.042,
+    "NMM": 0.037,
+    "SKYT": 0.0344,
+    "SNOW": 0.0297,
+    "NRIX": 0.0208,
+    "SOLS": 0.0171,
+    "GSHD": 0.0148,
+    "SPCX": 0.0122,
+    "FEIM": 0.0114
   },
   "core": {
     "SPY": 0.1592,
@@ -28,15 +29,16 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "SPCX": 0.0126,
-    "NMM": 0.0379,
-    "SOLS": 0.0175,
-    "SNOW": 0.0305,
-    "ZTS": 0.0442,
-    "PRGS": 0.0169,
-    "FEIM": 0.0116,
-    "BEP": 0.0525,
-    "TSM": 0.0213
+    "SPCX": 0.0114,
+    "NMM": 0.0345,
+    "NRIX": 0.0194,
+    "GSHD": 0.0138,
+    "CARE": 0.0392,
+    "SKYT": 0.0321,
+    "SOLS": 0.0159,
+    "SNOW": 0.0277,
+    "ZTS": 0.0402,
+    "FEIM": 0.0106
   },
   "satellite_rationale": [
     {
@@ -54,6 +56,38 @@
         "corporate_insider"
       ],
       "n_signals": 3
+    },
+    {
+      "ticker": "NRIX",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "GSHD",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "CARE",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "SKYT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "SOLS",
@@ -80,49 +114,25 @@
       "n_signals": 1
     },
     {
-      "ticker": "PRGS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "FEIM",
       "score": 70.2,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "BEP",
-      "score": 58.5,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "TSM",
-      "score": 56.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0869,
-    "var_95_1d": 0.0078,
-    "cvar_95_1d": 0.0086,
-    "max_drawdown": -0.0339,
-    "beta_spy": 0.533,
-    "hhi": 0.0509,
+    "ann_vol": 0.0775,
+    "var_95_1d": 0.0074,
+    "cvar_95_1d": 0.0077,
+    "max_drawdown": -0.0181,
+    "beta_spy": 0.466,
+    "hhi": 0.0495,
     "max_position": 0.1201,
-    "n_positions": 14,
-    "effective_positions": 19.7,
-    "gross_exposure": 0.6998,
+    "n_positions": 15,
+    "effective_positions": 20.2,
+    "gross_exposure": 0.6999,
     "days_used": 32
   },
   "risk_gate": {
