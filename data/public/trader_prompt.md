@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-31T07:31:30+00:00 -->
+<!-- trader_prompt.md generado 2026-07-31T10:15:46+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-31T07:31:30+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
+_Generado 2026-07-31T10:15:46+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.84)
+- Volatilidad: `normal` (VIX 16.86)
 - Tendencia: `neutral` (SPY 741.69 · MA50 743.92 · MA200 696.96 · dist MA200: 6.42%)
 - Credito: `tight` (HY spread 2.87)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 82.8 (-0.06% / -0.44% / -3.18%) [2026-07-30]
 - IEF: 93.21 (0.04% / 0.39% / -0.87%) [2026-07-30]
 - GLD: 377.16 (1.64% / 1.52% / 1.77%) [2026-07-30]
-- ^VIX: 16.84 (-1.46% / -9.36% / 4.27%) [2026-07-31]
-- BTC-USD: 63916.1 (-1.25% / -2.18% / 0.18%) [2026-07-31]
+- ^VIX: 16.86 (-1.35% / -9.26% / 4.4%) [2026-07-31]
+- BTC-USD: 63668.52 (-1.63% / -2.56% / -0.21%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,14 +350,20 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (3), stock (2), earnings (1)
+**Temas dominantes**: stock (6), ai (4), earnings (4), regulatory (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . (2026-07-30)
+- [GFS] GlobalFoundries Inc . $GFS Shares Sold by Hsbc Holdings PLC (2026-07-31)
+- [CRWV] Nebius Drops 10 %, CoreWeave Sinks 9 % as Rising Credit - Swap Costs Hit the AI Cloud Trade (2026-07-31)
+- [TEM] Tempus AI ( NASDAQ : TEM ) CEO Sells 250 , 000 Shares of Stock (2026-07-31)
+- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
+- [TEM] Why Nancy Pelosi - Owned Tempus AI Stock Is Down After Q2 Earnings - Tempus AI ( NASDAQ : TEM ) (2026-07-30)
+- [GFS] GlobalFoundries set to receive $300M from US Department of Commerce (2026-07-30)
+- [TEM] Median Technologies and Olea Medical , a Canon Medical Systems Company , Partner to Advance Commercial Deployment of AI - Powered eyonis LCS for Lung Cancer Screening (2026-07-30)
+- [APPF] AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? (2026-07-28)
 - [BSVN] Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock (2026-07-28)
-- [BSVN] Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript (2026-07-23)
-- [BSVN] Bank7 ( NASDAQ : BSVN ) Hits New 1 - Year High – Here Why (2026-07-17)
+- [GSHD] Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes (2026-07-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +378,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $51,563 · win rate 94% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $70,496 · win rate 90% · categorias: sports, crypto
-- BreakTheBank · PnL $69,053 · win rate 86% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $7,335 · win rate 98% · categorias: sports, crypto
-- neurodivergentBet · PnL $27,972 · win rate 83% · categorias: sports
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $68,845 · win rate 89% · categorias: sports, crypto
+- BreakTheBank · PnL $69,045 · win rate 86% · categorias: sports
+- TAIWANNUMBERONE · PnL $20,358 · win rate 91% · categorias: sports, politics
+- neurodivergentBet · PnL $28,232 · win rate 83% · categorias: sports
+- MeiGuNiuBi · PnL $24,309 · win rate 83% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
