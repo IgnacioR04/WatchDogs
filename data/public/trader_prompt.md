@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-31T10:15:46+00:00 -->
+<!-- trader_prompt.md generado 2026-07-31T12:33:35+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-31T10:15:46+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
+_Generado 2026-07-31T12:33:35+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.86)
+- Volatilidad: `normal` (VIX 17.13)
 - Tendencia: `neutral` (SPY 741.69 · MA50 743.92 · MA200 696.96 · dist MA200: 6.42%)
 - Credito: `tight` (HY spread 2.87)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -256,27 +256,25 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | BEP | 5.6% | satellite | 32.66 | 3.19% | -1.24% | -4.98% |
 | IEF | 4.9% | core | 93.21 | 0.04% | 0.39% | -0.87% |
 | ZTS | 4.7% | satellite | 76.03 | -2.44% | 1.96% | 5.67% |
-| NMM | 4.0% | satellite | 79.27 | 1.62% | 3.19% | 11.59% |
-| SNOW | 3.2% | satellite | 298.1 | 5.37% | 12.44% | 14.13% |
+| NMM | 4.1% | satellite | 79.27 | 1.62% | 3.19% | 11.59% |
+| SNOW | 3.3% | satellite | 298.1 | 5.37% | 12.44% | 14.13% |
 | TSM | 2.3% | satellite | 403.31 | 7.64% | -2.95% | -9.21% |
 | SOLS | 1.9% | satellite | 57.39 | 3.11% | -5.73% | -30.81% |
 | PRGS | 1.8% | satellite | 40.34 | -5.55% | 9.26% | 3.01% |
-| SPCX | 1.3% | satellite | 112.2 | -0.31% | -5.11% | -28.78% |
+| SPCX | 1.4% | satellite | 112.2 | -0.31% | -5.11% | -28.78% |
 | FEIM | 1.2% | satellite | 59.89 | 3.81% | -18.23% | -8.97% |
-| NXTC | 0.2% | satellite | 5.03 | 0.2% | 20.33% | 157.95% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
+- Volatilidad anualizada: 8.7%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.9%
-- Beta vs SPY: 0.54 · posiciones efectivas: 19.7 · HHI: 0.0507
+- Max drawdown historico: -3.4%
+- Beta vs SPY: 0.533 · posiciones efectivas: 19.7 · HHI: 0.0509
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **SPCX** · score agregado 241.4 · 4 señales · fuentes: congress
 - **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
-- **NXTC** · score agregado 112.5 · 2 señales · fuentes: corporate_insider
 - **SOLS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **SNOW** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ZTS** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -302,10 +300,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | VOYG | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | VLTO | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | REAL | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| TE | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | PRGS | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | PEBK | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | OVLY | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| NPKI | 72 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -334,8 +332,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 82.8 (-0.06% / -0.44% / -3.18%) [2026-07-30]
 - IEF: 93.21 (0.04% / 0.39% / -0.87%) [2026-07-30]
 - GLD: 377.16 (1.64% / 1.52% / 1.77%) [2026-07-30]
-- ^VIX: 16.86 (-1.35% / -9.26% / 4.4%) [2026-07-31]
-- BTC-USD: 63668.52 (-1.63% / -2.56% / -0.21%) [2026-07-31]
+- ^VIX: 17.13 (0.23% / -7.8% / 6.07%) [2026-07-31]
+- BTC-USD: 63613.63 (-1.72% / -2.64% / -0.3%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,7 +348,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (4), earnings (4), regulatory (3), leadership (1)
+**Temas dominantes**: stock (6), ai (4), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -358,12 +356,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - [CRWV] Nebius Drops 10 %, CoreWeave Sinks 9 % as Rising Credit - Swap Costs Hit the AI Cloud Trade (2026-07-31)
 - [TEM] Tempus AI ( NASDAQ : TEM ) CEO Sells 250 , 000 Shares of Stock (2026-07-31)
 - [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
+- [CRWD] CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . (2026-07-30)
 - [TEM] Why Nancy Pelosi - Owned Tempus AI Stock Is Down After Q2 Earnings - Tempus AI ( NASDAQ : TEM ) (2026-07-30)
 - [GFS] GlobalFoundries set to receive $300M from US Department of Commerce (2026-07-30)
 - [TEM] Median Technologies and Olea Medical , a Canon Medical Systems Company , Partner to Advance Commercial Deployment of AI - Powered eyonis LCS for Lung Cancer Screening (2026-07-30)
 - [APPF] AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? (2026-07-28)
-- [BSVN] Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock (2026-07-28)
-- [GSHD] Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes (2026-07-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +375,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $68,845 · win rate 89% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $99,909 · win rate 91% · categorias: sports, politics
+- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $77,711 · win rate 89% · categorias: sports, crypto
 - BreakTheBank · PnL $69,045 · win rate 86% · categorias: sports
-- TAIWANNUMBERONE · PnL $20,358 · win rate 91% · categorias: sports, politics
-- neurodivergentBet · PnL $28,232 · win rate 83% · categorias: sports
-- MeiGuNiuBi · PnL $24,309 · win rate 83% · categorias: sports, politics
+- Skyfker · PnL $16,152 · win rate 91% · categorias: sports, crypto
+- MeiGuNiuBi · PnL $48,281 · win rate 83% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,8 +387,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 46 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 612 registros 30d · ultimo dato 2026-07-30
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-30
+- **sec_insiders**: `ok` · 617 registros 30d · ultimo dato 2026-07-31
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-31
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -403,7 +400,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, FEIM, GLD, IEF, NMM, NXTC, PRGS, QQQ, SNOW, SOLS, SPCX, SPY, TLT, TSM, ZTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, FEIM, GLD, IEF, NMM, PRGS, QQQ, SNOW, SOLS, SPCX, SPY, TLT, TSM, ZTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
