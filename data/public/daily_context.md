@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-30T22:35:51+00:00 · ventana señales 2026-06-30 -> 2026-07-30_
+_Generado 2026-07-31T00:29:35+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,34 +26,34 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | QQQ | 9.8% | core | 683.55 | 3.3% | -1.22% | -5.74% |
 | TLT | 9.8% | core | 82.8 | -0.06% | -0.44% | -3.18% |
 | GLD | 7.3% | core | 377.16 | 1.64% | 1.52% | 1.77% |
-| BEP | 6.1% | satellite | 32.66 | 3.19% | -1.24% | -4.98% |
+| BEP | 6.2% | satellite | 32.66 | 3.19% | -1.24% | -4.98% |
+| ZTS | 4.9% | satellite | 76.03 | -2.44% | 1.96% | 5.67% |
 | IEF | 4.9% | core | 93.21 | 0.04% | 0.39% | -0.87% |
-| ZTS | 4.8% | satellite | 76.03 | -2.44% | 1.96% | 5.67% |
-| LHX | 4.1% | satellite | 271.9 | -8.61% | -9.27% | -6.96% |
-| TSM | 2.4% | satellite | 403.31 | 7.64% | -2.95% | -9.21% |
+| SNOW | 3.5% | satellite | 298.1 | 5.37% | 12.44% | 14.13% |
+| TSM | 2.5% | satellite | 403.31 | 7.64% | -2.95% | -9.21% |
 | REAL | 2.4% | satellite | 11.91 | 1.88% | 4.75% | -2.38% |
 | SOLS | 1.9% | satellite | 57.39 | 3.11% | -5.73% | -30.81% |
-| PRGS | 1.8% | satellite | 40.34 | -5.55% | 9.26% | 3.01% |
-| SPCX | 1.3% | satellite | 112.2 | -0.31% | -5.11% | -28.78% |
-| FEIM | 1.2% | satellite | 59.89 | 3.81% | -18.23% | -8.97% |
+| PRGS | 1.9% | satellite | 40.34 | -5.55% | 9.26% | 3.01% |
+| SPCX | 1.4% | satellite | 112.2 | -0.31% | -5.11% | -28.78% |
+| FEIM | 1.3% | satellite | 59.89 | 3.81% | -18.23% | -8.97% |
 | NXTC | 0.2% | satellite | 5.03 | 0.2% | 20.33% | 157.95% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.0%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.6%
-- Beta vs SPY: 0.531 · posiciones efectivas: 19.6 · HHI: 0.051
+- Volatilidad anualizada: 9.6%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.0%
+- Beta vs SPY: 0.563 · posiciones efectivas: 19.6 · HHI: 0.051
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **SPCX** · score agregado 241.4 · 4 señales · fuentes: congress
 - **NXTC** · score agregado 112.5 · 2 señales · fuentes: corporate_insider
 - **SOLS** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **SNOW** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ZTS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **REAL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PRGS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **LHX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FEIM** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 - **TSM** · score agregado 56.3 · 1 señales · fuentes: corporate_insider
@@ -68,6 +68,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | SOLS | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | VSNT | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | STRL | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| SNOW | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | SMTC | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ZTS | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | WDAY | 72 | large_holder | BlackRock, Inc. |  | - | - |
@@ -76,9 +77,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | REAL | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | PRGS | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | PEBK | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| OVLY | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | NPKI | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| LHX | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| REKR | 70 | large_holder | Maybank Securities Pte. L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 93.21 (0.04% / 0.39% / -0.87%) [2026-07-30]
 - GLD: 377.16 (1.64% / 1.52% / 1.77%) [2026-07-30]
 - ^VIX: 17.09 (-17.28% / -8.61% / 3.01%) [2026-07-30]
-- BTC-USD: 64885.93 (1.53% / 0.89% / 1.18%) [2026-07-30]
+- BTC-USD: 64703.88 (1.25% / 0.61% / 0.9%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,24 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), leadership (1)
+**Temas dominantes**: stock (6), regulatory (3), leadership (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NTRA] Natera , Inc . ( NASDAQ : NTRA ) Receives $267 . 83 Consensus Price Target from Brokerages (2026-07-30)
-- [NTRA] Michael Burkes Brophy Sells 1 , 863 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
-- [NTRA] John Fesko Sells 782 Shares of Natera ( NASDAQ : NTRA ) Stock (2026-07-30)
-- [NTRA] Natera ( NASDAQ : NTRA ) Insider Solomon Moshkevich Sells 1 , 010 Shares of Stock (2026-07-30)
-- [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) CEO Sells 3 , 580 Shares (2026-07-30)
-- [NTRA] Insider Selling : Natera ( NASDAQ : NTRA ) Insider Sells 1 , 204 Shares (2026-07-30)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) CEO Sells 200 , 000 Shares of Stock (2026-07-30)
+- [CRWV] Insider Selling : CoreWeave ( NASDAQ : CRWV ) CEO Sells $13 , 324 , 000 . 00 in Stock (2026-07-30)
+- [CRWV] Astera Labs vs . CoreWeave : Which Technology Stock Is a Better Buy in 2026 ? (2026-07-30)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Shares Up 21 . 9 % – Time to Buy ? (2026-07-30)
+- [GFS] GlobalFoundries set to receive $300M from US Department of Commerce (2026-07-30)
+- [APPF] AppFolio ( NASDAQ : APPF ) Stock Price Up 7 . 5 % – Should You Buy ? (2026-07-28)
+- [BSVN] Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock (2026-07-28)
+- [BSVN] Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript (2026-07-23)
 - [KMT] Kennametal Unveils Next Level Shop Experience for IMTS 2026 (2026-07-20)
+- [BSVN] Bank7 ( NASDAQ : BSVN ) Hits New 1 - Year High – Here Why (2026-07-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Catalyst4, Inc. compro MLPT por $13.0M el 2026-07-30.
 - CEO Huang Jack Jiajia compro COE por $7.7M el 2026-07-27.
 - 10% owner Abu Dhabi Investment Authority compro Overland Advantage por $22.9M el 2026-07-28.
 - 10% owner VEP Group, LLC compro [NONE] por $6.2M el 2026-07-29.
@@ -144,26 +148,26 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.
 - 10% owner Edenbrook Capital, LLC vendio FEIM por $31.9M el 2026-07-28 [senal en multiples fuentes].
 - CEO CRACCHIOLO JAMES M vendio AMP por $8.8M el 2026-07-28.
-- CEO Gosin Barry M vendio NMRK por $4.5M el 2026-07-29.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $77,999 · win rate 96% · categorias: sports
-- SDTrading · PnL $103,112 · win rate 92% · categorias: sports
-- 111111111115 · PnL $72,537 · win rate 94% · categorias: sports
-- 0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622 · PnL $138,057 · win rate 90% · categorias: sports, crypto
-- JnStTrdrBnusFnd · PnL $41,003 · win rate 91% · categorias: crypto
+- Kendallwe4 · PnL $4 · win rate 100% · categorias: sports, politics, economy
+- purplerain288 · PnL $4 · win rate 100% · categorias: sports, politics, crypto
+- maxybuzz · PnL $4 · win rate 99% · categorias: politics, sports, crypto
+- Cadenh6 · PnL $4 · win rate 99% · categorias: politics, sports, crypto
+- stempede · PnL $4 · win rate 96% · categorias: crypto, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
-- Estado global: `ok`
-- **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
+- Estado global: `warning`
+- **congress**: `ok` · 46 registros 30d · ultimo dato 2026-07-24
 - **sec_insiders**: `ok` · 618 registros 30d · ultimo dato 2026-07-30
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-30
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — high_volume_zero_count:78, inflated_avg_win_rate:0.824
+- **Fuentes con problemas**: polymarket
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -173,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, FEIM, GLD, IEF, LHX, NXTC, PRGS, QQQ, REAL, SOLS, SPCX, SPY, TLT, TSM, ZTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, FEIM, GLD, IEF, NXTC, PRGS, QQQ, REAL, SNOW, SOLS, SPCX, SPY, TLT, TSM, ZTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
