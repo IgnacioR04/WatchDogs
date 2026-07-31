@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-07-31T22:33:10+00:00",
+  "generated_at": "2026-07-31T23:35:56+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "BEP": 0.12,
-    "GLD": 0.0939,
-    "MIDD": 0.0663,
-    "IEF": 0.0626,
-    "CPRI": 0.0578,
-    "NRIX": 0.0393,
-    "PRIM": 0.0273,
-    "SPCX": 0.023
+    "GLD": 0.1022,
+    "CPRI": 0.0783,
+    "IEF": 0.0682,
+    "NRIX": 0.0533,
+    "PRIM": 0.037,
+    "SPCX": 0.0311
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "SPCX": 0.0203,
-    "PRIM": 0.0241,
-    "CPRI": 0.051,
-    "MIDD": 0.0585,
-    "NRIX": 0.0347,
-    "BEP": 0.109
+    "SPCX": 0.0252,
+    "PRIM": 0.03,
+    "CPRI": 0.0635,
+    "NRIX": 0.0432,
+    "BEP": 0.1356
   },
   "satellite_rationale": [
     {
@@ -58,14 +56,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "MIDD",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "NRIX",
       "score": 71.8,
       "sources": [
@@ -83,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1312,
-    "var_95_1d": 0.0124,
-    "cvar_95_1d": 0.014,
-    "max_drawdown": -0.0413,
+    "ann_vol": 0.1345,
+    "var_95_1d": 0.0136,
+    "cvar_95_1d": 0.0152,
+    "max_drawdown": -0.0459,
     "beta_spy": null,
-    "hhi": 0.0809,
+    "hhi": 0.084,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.4,
-    "gross_exposure": 0.8502,
+    "n_positions": 10,
+    "effective_positions": 11.9,
+    "gross_exposure": 0.8501,
     "days_used": 23
   },
   "risk_gate": {

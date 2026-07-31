@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-31T22:32:06.954989+00:00",
+  "generated_at": "2026-07-31T23:34:43.324894+00:00",
   "window": {
     "from": "2026-07-01",
     "to": "2026-07-31",
@@ -23,10 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
-      "stock",
+      "regulatory",
       "ai",
-      "regulatory"
+      "stock",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -106,6 +106,42 @@
     {
       "id": "move_5",
       "rank": 5,
+      "title": "10% owner vendio NP ($62.0M)",
+      "summary": "10% owner FTV VII, L.P. vendio NP por $62.0M el 2026-07-29.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "FTV VII, L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "NP",
+      "direction": "sell",
+      "amount_estimated": 62049644.8,
+      "event_date": "2026-07-29",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1894163/000119312526329068/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "10% owner vendio NP ($54.2M)",
+      "summary": "10% owner BSIV Hold 101, LP vendio NP por $54.2M el 2026-07-29.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "BSIV Hold 101, LP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "NP",
+      "direction": "sell",
+      "amount_estimated": 54220355.2,
+      "event_date": "2026-07-29",
+      "importance_score": 83.0,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1814482/000119312526329069/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner opero LPRO ($23.8M)",
       "summary": "10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.",
       "source": "sec_form_4",
@@ -122,8 +158,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1814533/000119312526327577/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO opero MLI ($13.7M)",
       "summary": "CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.",
       "source": "sec_form_4",
@@ -140,8 +176,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000003/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -158,8 +194,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -176,8 +212,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -194,8 +230,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -212,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -230,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -248,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -266,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -284,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -302,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -320,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -338,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
       "source": "sec_13f",
@@ -354,46 +390,18 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
-      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 11607569229,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager vendio NVIDIA CORPORATION ($11.6B)",
-      "summary": "Institutional manager State Street Corp vendio NVIDIA CORPORATION por $11.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 11567787969,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
+      {
+        "ticker": "DLHC",
+        "company": "DLH Holdings Corp.",
+        "pressure_score": 799.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "SPCX",
         "company": "SP Space Exploration Technologies Corp.",
@@ -505,14 +513,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "ARTV",
-        "company": "Artiva Biotherapeutics, Inc.",
-        "pressure_score": 151.7,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -581,6 +581,14 @@
         ]
       },
       {
+        "ticker": "GRMN",
+        "company": "GARMIN LTD",
+        "pressure_score": 355.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ACN",
         "company": "SP Accenture plc Class A Ordinary Shares",
         "pressure_score": 351.6,
@@ -622,19 +630,11 @@
         ]
       },
       {
-        "ticker": "LOCO",
-        "company": "El Pollo Loco Holdings, Inc.",
-        "pressure_score": 264.4,
+        "ticker": "CATY",
+        "company": "CATHAY GENERAL BANCORP",
+        "pressure_score": 283.5,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UNH",
-        "company": "Common Stock",
-        "pressure_score": 233.2,
-        "sources": [
-          "congress"
         ]
       }
     ]
@@ -704,6 +704,15 @@
       "score": 77.8
     },
     {
+      "ticker": "XAIR",
+      "company": "Beyond Air, Inc.",
+      "actor": "Goodman Robert Scott",
+      "actor_type": "ceo",
+      "amount": 199998.72,
+      "date": "2026-07-29",
+      "score": 77.4
+    },
+    {
       "ticker": "IONS",
       "company": "IONIS PHARMACEUTICALS INC",
       "actor": "Hayden Michael R",
@@ -765,15 +774,6 @@
       "amount": 208031.76,
       "date": "2026-07-29",
       "score": 74.9
-    },
-    {
-      "ticker": "HCWB",
-      "company": "HCW Biologics Inc.",
-      "actor": "Wong Hing C",
-      "actor_type": "ceo",
-      "amount": 59997.85,
-      "date": "2026-07-29",
-      "score": 74.7
     }
   ],
   "institutional_changes": [
@@ -1222,9 +1222,9 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 72867.36,
+        "pnl": 73319.79,
         "win_rate": 0.9479,
-        "volume": 1110162.26,
+        "volume": 1159168.28,
         "categories": [
           "sports"
         ]
@@ -1232,8 +1232,8 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 120205.17,
-        "win_rate": 0.9058,
+        "pnl": 120205.08,
+        "win_rate": 0.906,
         "volume": 351033.36,
         "categories": [
           "sports",
@@ -1241,11 +1241,21 @@
         ]
       },
       {
+        "wallet": "0xf3ce7f04dd",
+        "username": "",
+        "pnl": 27909.99,
+        "win_rate": 0.9555,
+        "volume": 119886.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 103121.62,
+        "pnl": 102861.33,
         "win_rate": 0.856,
-        "volume": 277356.32,
+        "volume": 327572.1,
         "categories": [
           "sports"
         ]
@@ -1253,9 +1263,9 @@
       {
         "wallet": "0x04785a97c6",
         "username": "disput00r",
-        "pnl": 28023.36,
+        "pnl": 27318.28,
         "win_rate": 0.9286,
-        "volume": 109215.95,
+        "volume": 111360.77,
         "categories": [
           "sports",
           "politics"
@@ -1264,9 +1274,9 @@
       {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 81804.35,
+        "pnl": 79570.61,
         "win_rate": 0.826,
-        "volume": 226454.54,
+        "volume": 241554.52,
         "categories": [
           "sports",
           "politics"
@@ -1275,8 +1285,8 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 73884.59,
-        "win_rate": 0.801,
+        "pnl": 72603.27,
+        "win_rate": 0.82,
         "volume": 737510.88,
         "categories": [
           "sports",
@@ -1284,9 +1294,20 @@
         ]
       },
       {
+        "wallet": "0x0a6356d95e",
+        "username": "f3arless",
+        "pnl": 32967.43,
+        "win_rate": 0.8371,
+        "volume": 120038.01,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 53978.78,
+        "pnl": 50439.19,
         "win_rate": 0.806,
         "volume": 926876.43,
         "categories": [
@@ -1295,33 +1316,10 @@
         ]
       },
       {
-        "wallet": "0x0a6356d95e",
-        "username": "f3arless",
-        "pnl": 30162.97,
-        "win_rate": 0.8369,
-        "volume": 114915.68,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x85d53efdd0",
-        "username": "retroactivesource",
-        "pnl": 40046.03,
-        "win_rate": 0.8054,
-        "volume": 271428.75,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x3954e1c6b7",
         "username": "Spicer",
-        "pnl": 94628.34,
-        "win_rate": 0.9565,
+        "pnl": 94666.32,
+        "win_rate": 0.9583,
         "volume": 626937.63,
         "categories": [
           "sports"
@@ -1332,9 +1330,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 80804.83,
-        "win_rate": 0.499,
-        "volume": 3286151.87,
+        "pnl": 107660.92,
+        "win_rate": 0.496,
+        "volume": 3357758.27,
         "categories": [
           "sports",
           "politics",
@@ -1344,8 +1342,8 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 152059.76,
-        "win_rate": 0.5291,
+        "pnl": 180232.85,
+        "win_rate": 0.5362,
         "volume": 2619888.68,
         "categories": [
           "sports",
@@ -1355,9 +1353,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 167830.07,
-        "win_rate": 0.568,
-        "volume": 4625267.17,
+        "pnl": 188303.73,
+        "win_rate": 0.555,
+        "volume": 4842882.99,
         "categories": [
           "sports",
           "economy"
@@ -1366,30 +1364,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 98793.86,
-        "win_rate": 0.561,
-        "volume": 1792527.76,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 148998.38,
-        "win_rate": 0.536,
-        "volume": 2804273.77,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 72867.36,
-        "win_rate": 0.9479,
-        "volume": 1110162.26,
+        "pnl": 95725.97,
+        "win_rate": 0.562,
+        "volume": 1996419.26,
         "categories": [
           "sports"
         ]
@@ -1397,9 +1374,40 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 103121.62,
+        "pnl": 102861.33,
         "win_rate": 0.856,
-        "volume": 277356.32,
+        "volume": 327572.1,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 73319.79,
+        "win_rate": 0.9479,
+        "volume": 1159168.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 164492.16,
+        "win_rate": 0.557,
+        "volume": 2956451.0,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 57707.79,
+        "win_rate": 0.557,
+        "volume": 1238960.9,
         "categories": [
           "sports"
         ]
@@ -1407,29 +1415,19 @@
       {
         "wallet": "0xc1c7bb8761",
         "username": "five5120",
-        "pnl": 28743.29,
-        "win_rate": 0.7831,
+        "pnl": 28758.14,
+        "win_rate": 0.7857,
         "volume": 679977.13,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 36868.59,
-        "win_rate": 0.56,
-        "volume": 1182452.5,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf377b9fb12",
-        "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 53978.78,
-        "win_rate": 0.806,
-        "volume": 926876.43,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 54660.03,
+        "win_rate": 0.7028,
+        "volume": 610732.58,
         "categories": [
           "sports",
           "crypto"
@@ -1439,90 +1437,14 @@
   },
   "news": [
     {
-      "title": "Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4622973-tilray-brands-climbs-8-extending-prior-days-gains",
-      "ticker": "TLRY",
+      "title": "Leidos , CoreWeave Team Up on Secure AI for National Security",
+      "url": "https://www.executivebiz.com/articles/leidos-coreweave-partner-ai-defense-intelligence-cloud",
+      "ticker": "CRWV",
       "themes": [
-        "ai"
+        "ai",
+        "regulatory"
       ],
       "date": "2026-07-31"
-    },
-    {
-      "title": "UAE - backed GlobalFoundries wins $300 million US award to develop faster chips",
-      "url": "https://www.thenationalnews.com/future/technology/2026/07/31/uae-backed-globalfoundries-wins-300-million-us-award-to-develop-faster-chips/",
-      "ticker": "GFS",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-31"
-    },
-    {
-      "title": "Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/30/tilray-brands-nasdaqtlry-stock-price-up-5-3-should-you-buy.html",
-      "ticker": "TLRY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? ",
-      "url": "https://www.tickerreport.com/banking-finance/13523164/tilray-brands-nasdaqtlry-trading-up-5-3-should-you-buy.html",
-      "ticker": "TLRY",
-      "themes": [],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Tilray Brands Q4 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tilray-brands-q4-earnings-call-230415572.html",
-      "ticker": "TLRY",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-29-why-is-huron-hurn-stock-soaring-today",
-      "ticker": "HURN",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance",
-      "url": "https://www.dailypolitical.com/2026/07/29/huron-consulting-group-nasdaqhurn-issues-fy-2026-earnings-guidance.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS",
-      "url": "https://www.tickerreport.com/banking-finance/13519579/huron-consulting-group-nasdaqhurn-announces-earnings-results-beats-expectations-by-0-29-eps.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-28"
-    },
-    {
-      "title": "Tilray Brands Delivers Record Fiscal 2026 Revenue and Adjusted EBITDA ; Demonstrating the Strength of its Diversified Global Platform Across Cannabis , Beverage , Hospitality and Wellness",
-      "url": "https://thestarphoenix.com/press-releases/globe-newswire/tilray-brands-delivers-record-fiscal-2026-revenue-and-adjusted-ebitda-demonstrating-the-strength-of-its-diversified-global-platform-across-cannabis-beverage-hospitality-and-wellness/",
-      "ticker": "TLRY",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-28"
-    },
-    {
-      "title": "FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-huron-nasdaqhurn-reports-strong-q2-cy2026-full-year-outlook-exceeds-expectations",
-      "ticker": "HURN",
-      "themes": [],
-      "date": "2026-07-28"
     },
     {
       "title": "Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock",
@@ -1535,22 +1457,6 @@
       "date": "2026-07-28"
     },
     {
-      "title": "Huron Earnings : What To Look For From HURN",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/huron-earnings-look-hurn-080502578.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-27"
-    },
-    {
-      "title": "Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes",
-      "url": "https://www.themarketsdaily.com/2026/07/23/goosehead-insurance-gshd-research-analysts-recent-ratings-changes.html",
-      "ticker": "GSHD",
-      "themes": [],
-      "date": "2026-07-23"
-    },
-    {
       "title": "Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-bsvn-q2-2026-earnings-141336470.html",
       "ticker": "BSVN",
@@ -1559,27 +1465,9 @@
         "regulatory"
       ],
       "date": "2026-07-23"
-    },
-    {
-      "title": "Goosehead Insurance ( NASDAQ : GSHD ) Issues Earnings Results , Beats Estimates By $0 . 17 EPS",
-      "url": "https://www.dailypolitical.com/2026/07/22/goosehead-insurance-nasdaqgshd-issues-earnings-results-beats-estimates-by-0-17-eps.html",
-      "ticker": "GSHD",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Goosehead Insurance ( NASDAQ : GSHD ) Posts Earnings Results , Beats Expectations By $0 . 17 EPS",
-      "url": "https://www.tickerreport.com/banking-finance/13511904/goosehead-insurance-nasdaqgshd-posts-earnings-results-beats-expectations-by-0-17-eps.html",
-      "ticker": "GSHD",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-23"
     }
   ],
-  "signals_count": 1584,
+  "signals_count": 1600,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

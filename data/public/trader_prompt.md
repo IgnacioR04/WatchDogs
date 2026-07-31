@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-07-31T22:33:11+00:00 -->
+<!-- trader_prompt.md generado 2026-07-31T23:35:57+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-07-31T22:33:11+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
+_Generado 2026-07-31T23:35:57+00:00 · ventana señales 2026-07-01 -> 2026-07-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -253,27 +253,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 687.99 | 0.65% | 0.55% | -3.45% |
 | TLT | 12.0% | core | 82.25 | -0.66% | -1.2% | -3.81% |
 | BEP | 12.0% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
-| GLD | 9.4% | core | 371.54 | -1.49% | -0.1% | -1.74% |
-| MIDD | 6.6% | satellite | 133.58 | 0.2% | -0.22% | -5.19% |
-| IEF | 6.3% | core | 92.95 | -0.28% | -0.09% | -1.24% |
-| CPRI | 5.8% | satellite | 15.93 | 0.25% | 3.17% | -15.98% |
-| NRIX | 3.9% | satellite | 23.21 | -1.57% | -0.73% | -3.17% |
-| PRIM | 2.7% | satellite | 84.41 | -1.45% | -2.43% | -4.3% |
-| SPCX | 2.3% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
+| GLD | 10.2% | core | 371.54 | -1.49% | -0.1% | -1.74% |
+| CPRI | 7.8% | satellite | 15.93 | 0.25% | 3.17% | -15.98% |
+| IEF | 6.8% | core | 92.95 | -0.28% | -0.09% | -1.24% |
+| NRIX | 5.3% | satellite | 23.21 | -1.57% | -0.73% | -3.17% |
+| PRIM | 3.7% | satellite | 84.41 | -1.45% | -2.43% | -4.3% |
+| SPCX | 3.1% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.1%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -4.1%
-- Beta vs SPY: None · posiciones efectivas: 12.4 · HHI: 0.0809
+- Volatilidad anualizada: 13.5%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -4.6%
+- Beta vs SPY: None · posiciones efectivas: 11.9 · HHI: 0.084
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **SPCX** · score agregado 241.4 · 4 señales · fuentes: congress
 - **PRIM** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CPRI** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **MIDD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NRIX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
@@ -285,9 +283,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | HCWB | 79 | corporate_insider | Wong Hing C | 3 | $59,998 | cluster_buy |
 | BBASX | 79 | corporate_insider | AMG New York Holdings Cor | 2 | $897,184 | cluster_buy |
+| XAIR | 78 | corporate_insider | Goodman Robert Scott | 2 | $199,999 | cluster_buy |
 | BBASX | 76 | corporate_insider | BROWN BROTHERS HARRIMAN C | 2 | $224,341 | cluster_buy |
 | HCWB | 74 | corporate_insider | Flowers Lee | 3 | $19,998 | cluster_buy,small_amount |
 | HCWB | 73 | corporate_insider | GARRETT SCOTT T | 3 | $19,998 | cluster_buy,small_amount |
+| XAIR | 72 | corporate_insider | MOORHEAD DANIEL J | 2 | $24,998 | cluster_buy,small_amount |
 | PRIM | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | TTD | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | SNX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
@@ -296,8 +296,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AGX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | JKHY | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | CAG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| HQY | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| CPRI | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,7 +325,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 62934.79 (-2.77% / -3.68% / -1.36%) [2026-07-31]
+- BTC-USD: 62922.46 (-2.79% / -3.7% / -1.38%) [2026-07-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,20 +340,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (8), stock (3), ai (2), regulatory (2)
+**Temas dominantes**: regulatory (3), ai (1), stock (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
-- [GFS] UAE - backed GlobalFoundries wins $300 million US award to develop faster chips (2026-07-31)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands Q4 Earnings Call Highlights (2026-07-30)
-- [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
-- [TLRY] Tilray Brands Delivers Record Fiscal 2026 Revenue and Adjusted EBITDA ; Demonstrating the Strength of its Diversified Global Platform Across Cannabis , Beverage , Hospitality and Wellness (2026-07-28)
-- [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
+- [CRWV] Leidos , CoreWeave Team Up on Secure AI for National Security (2026-07-31)
+- [BSVN] Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock (2026-07-28)
+- [BSVN] Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript (2026-07-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -363,26 +354,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Catalyst4, Inc. compro MLPT por $13.0M el 2026-07-30.
 - CEO Huang Jack Jiajia compro COE por $7.7M el 2026-07-27.
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.
+- 10% owner FTV VII, L.P. vendio NP por $62.0M el 2026-07-29.
+- 10% owner BSIV Hold 101, LP vendio NP por $54.2M el 2026-07-29.
 - 10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.
 - CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $72,867 · win rate 95% · categorias: sports
+- esportGG · PnL $73,320 · win rate 95% · categorias: sports
 - TAIWANNUMBERONE · PnL $120,205 · win rate 91% · categorias: sports, politics
-- BreakTheBank · PnL $103,122 · win rate 86% · categorias: sports
-- disput00r · PnL $28,023 · win rate 93% · categorias: sports, politics
-- MeiGuNiuBi · PnL $81,804 · win rate 83% · categorias: sports, politics
+- 0xf3ce7f04 · PnL $27,910 · win rate 96% · categorias: sports
+- BreakTheBank · PnL $102,861 · win rate 86% · categorias: sports
+- disput00r · PnL $27,318 · win rate 93% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `ok`
-- **congress**: `ok` · 46 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 601 registros 30d · ultimo dato 2026-07-31
+- **congress**: `ok` · 47 registros 30d · ultimo dato 2026-07-24
+- **sec_insiders**: `ok` · 615 registros 30d · ultimo dato 2026-07-31
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-31
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -395,7 +386,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, CPRI, GLD, IEF, MIDD, NRIX, PRIM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, CPRI, GLD, IEF, NRIX, PRIM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
