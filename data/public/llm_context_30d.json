@@ -1,13 +1,13 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-07-31T04:10:23.839324+00:00",
+  "generated_at": "2026-07-31T07:30:41.749497+00:00",
   "window": {
     "from": "2026-07-01",
     "to": "2026-07-31",
     "days": 30
   },
   "data_quality": {
-    "overall_status": "warning",
+    "overall_status": "ok",
     "notes": [
       "Senate no disponible en vivo (portal eFD bloqueado); House si.",
       "13F lleva retraso legal de ~45 dias; refleja el quarter de consenso.",
@@ -18,15 +18,14 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "earnings",
+      "regulatory",
       "stock",
-      "leadership"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -1223,7 +1222,7 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 51578.82,
+        "pnl": 51563.41,
         "win_rate": 0.9392,
         "volume": 4148.19,
         "categories": [
@@ -1233,8 +1232,8 @@
       {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 23437.51,
-        "win_rate": 0.899,
+        "pnl": 70495.78,
+        "win_rate": 0.9,
         "volume": 675470.0,
         "categories": [
           "sports",
@@ -1244,31 +1243,43 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 39275.62,
-        "win_rate": 0.8548,
+        "pnl": 69052.8,
+        "win_rate": 0.8554,
         "volume": 190597.22,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x6982049c65",
+        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
+        "pnl": 7335.35,
+        "win_rate": 0.978,
+        "volume": 32190.04,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x65c18d740c",
         "username": "neurodivergentBet",
-        "pnl": 27879.59,
-        "win_rate": 0.8323,
-        "volume": 50000.0,
+        "pnl": 27971.93,
+        "win_rate": 0.8333,
+        "volume": 50106.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 8052.35,
-        "win_rate": 0.9103,
-        "volume": 4841.45,
+        "wallet": "0x2ce8505aa6",
+        "username": "0x2cE8505aA641791EB8460f6ac6bf5C0511E34527-1746735481513",
+        "pnl": 24650.54,
+        "win_rate": 0.8201,
+        "volume": 0.0,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1284,7 +1295,7 @@
       {
         "wallet": "0xf8371076fb",
         "username": "mlin1010",
-        "pnl": 7978.31,
+        "pnl": 7995.81,
         "win_rate": 0.8537,
         "volume": 25203.22,
         "categories": [
@@ -1294,9 +1305,9 @@
       {
         "wallet": "0xddc38b8242",
         "username": "Iostfd",
-        "pnl": 8545.84,
-        "win_rate": 0.833,
-        "volume": 14702.38,
+        "pnl": 8583.51,
+        "win_rate": 0.834,
+        "volume": 15658.38,
         "categories": [
           "sports",
           "crypto",
@@ -1304,34 +1315,35 @@
         ]
       },
       {
-        "wallet": "0xc84f7e76ec",
-        "username": "BrightStars",
-        "pnl": 9339.57,
-        "win_rate": 0.7962,
-        "volume": 0.0,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 37273.46,
+        "win_rate": 0.7022,
+        "volume": 208621.49,
         "categories": [
-          "politics",
           "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x38337de21f",
-        "username": "SineNooneEI",
-        "pnl": 10412.22,
-        "win_rate": 0.7668,
-        "volume": 0.0,
-        "categories": [
-          "sports"
+          "crypto"
         ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 31647.72,
+        "win_rate": 0.498,
+        "volume": 538980.14,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x7d6d24d5d9",
         "username": "0xe11Ff8cd2718F51a4d9403D166c20eaAAbE253F4-1777047101622",
-        "pnl": 23437.51,
-        "win_rate": 0.899,
+        "pnl": 70495.78,
+        "win_rate": 0.9,
         "volume": 675470.0,
         "categories": [
           "sports",
@@ -1339,22 +1351,10 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 40246.69,
-        "win_rate": 0.496,
-        "volume": 422720.57,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 39275.62,
-        "win_rate": 0.8548,
+        "pnl": 69052.8,
+        "win_rate": 0.8554,
         "volume": 190597.22,
         "categories": [
           "sports"
@@ -1363,8 +1363,8 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 19287.05,
-        "win_rate": 0.5222,
+        "pnl": 46613.83,
+        "win_rate": 0.5245,
         "volume": 304302.61,
         "categories": [
           "sports",
@@ -1372,11 +1372,21 @@
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 33452.27,
+        "win_rate": 0.596,
+        "volume": 1054081.3,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 39599.23,
-        "win_rate": 0.558,
-        "volume": 656630.29,
+        "pnl": 35646.77,
+        "win_rate": 0.555,
+        "volume": 803733.88,
         "categories": [
           "sports"
         ]
@@ -1384,19 +1394,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 62643.37,
-        "win_rate": 0.542,
-        "volume": 1042385.49,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 24804.09,
-        "win_rate": 0.595,
-        "volume": 777683.25,
+        "pnl": 95300.54,
+        "win_rate": 0.539,
+        "volume": 1205424.09,
         "categories": [
           "sports"
         ]
@@ -1412,92 +1412,66 @@
         ]
       },
       {
-        "wallet": "0xc3acf5878a",
-        "username": "mentionmarket",
-        "pnl": 157806.01,
-        "win_rate": 0.6791,
-        "volume": 24520.48,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 37273.46,
+        "win_rate": 0.7022,
+        "volume": 208621.49,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
-        "wallet": "0xa0f21e6d35",
-        "username": "",
-        "pnl": 17270.74,
-        "win_rate": 0.421,
-        "volume": 81051.96,
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 12975.16,
+        "win_rate": 0.565,
+        "volume": 292914.37,
         "categories": [
-          "sports",
-          "economy",
-          "politics"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Tempus AI ( NASDAQ : TEM ) CEO Sells 250 , 000 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13523367/tempus-ai-nasdaqtem-ceo-sells-250000-shares-of-stock.html",
-      "ticker": "TEM",
+      "title": "CrowdStrike Stock Just Scored a New  Buy  Rating . Here Why . ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-just-scored-buy-145643168.html",
+      "ticker": "CRWD",
       "themes": [
-        "ai",
-        "leadership",
         "stock"
       ],
-      "date": "2026-07-31"
+      "date": "2026-07-30"
     },
     {
-      "title": "Why Nancy Pelosi - Owned Tempus AI Stock Is Down After Q2 Earnings - Tempus AI ( NASDAQ : TEM ) ",
-      "url": "https://www.benzinga.com/markets/earnings/26/07/60824818/why-nancy-pelosi-owned-tempus-ai-stock-is-down-after-q2-earnings",
-      "ticker": "TEM",
+      "title": "Jason Estes Sells 3 , 225 Shares of Bank7 ( NASDAQ : BSVN ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/28/jason-estes-sells-3225-shares-of-bank7-nasdaqbsvn-stock.html",
+      "ticker": "BSVN",
+      "themes": [
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Bank7 ( BSVN ) Q2 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-bsvn-q2-2026-earnings-141336470.html",
+      "ticker": "BSVN",
       "themes": [
         "earnings",
-        "ai",
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "GlobalFoundries set to receive $300M from US Department of Commerce",
-      "url": "https://www.troyrecord.com/2026/07/30/globalfoundries-set-to-receive-300m-from-us-department-of-commerce/",
-      "ticker": "GFS",
-      "themes": [],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Median Technologies and Olea Medical , a Canon Medical Systems Company , Partner to Advance Commercial Deployment of AI - Powered eyonis LCS for Lung Cancer Screening",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69173590-median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-canc-004.htm",
-      "ticker": "TEM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Goosehead Insurance ( GSHD ) – Research Analyst Recent Ratings Changes",
-      "url": "https://www.themarketsdaily.com/2026/07/23/goosehead-insurance-gshd-research-analysts-recent-ratings-changes.html",
-      "ticker": "GSHD",
-      "themes": [],
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Goosehead Insurance ( NASDAQ : GSHD ) Issues Earnings Results , Beats Estimates By $0 . 17 EPS",
-      "url": "https://www.dailypolitical.com/2026/07/22/goosehead-insurance-nasdaqgshd-issues-earnings-results-beats-estimates-by-0-17-eps.html",
-      "ticker": "GSHD",
-      "themes": [
-        "earnings"
+        "regulatory"
       ],
       "date": "2026-07-23"
     },
     {
-      "title": "Goosehead Insurance ( NASDAQ : GSHD ) Posts Earnings Results , Beats Expectations By $0 . 17 EPS",
-      "url": "https://www.tickerreport.com/banking-finance/13511904/goosehead-insurance-nasdaqgshd-posts-earnings-results-beats-expectations-by-0-17-eps.html",
-      "ticker": "GSHD",
+      "title": "Bank7 ( NASDAQ : BSVN ) Hits New 1 - Year High – Here Why",
+      "url": "https://www.tickerreport.com/banking-finance/13506968/bank7-nasdaqbsvn-hits-new-1-year-high-heres-why.html",
+      "ticker": "BSVN",
       "themes": [
-        "earnings"
+        "regulatory"
       ],
-      "date": "2026-07-23"
+      "date": "2026-07-17"
     }
   ],
   "signals_count": 1595,
