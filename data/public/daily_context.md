@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-01T17:28:07+00:00 · ventana señales 2026-07-02 -> 2026-08-01_
+_Generado 2026-08-01T18:28:19+00:00 · ventana señales 2026-07-02 -> 2026-08-01_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 62762.0 (-0.08% / -1.51% / -1.56%) [2026-08-01]
+- BTC-USD: 62518.55 (-0.47% / -1.89% / -1.94%) [2026-08-01]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (5), stock (2), ai (1)
+**Temas dominantes**: stock (3), earnings (3), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands Q4 Earnings Call Highlights (2026-07-30)
-- [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
+- [SKYT] IonQ Acquires SkyWater Technology (2026-07-31)
+- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
 - [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
 - [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
 - [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
-- [TLRY] Tilray Brands Delivers Record Fiscal 2026 Revenue and Adjusted EBITDA ; Demonstrating the Strength of its Diversified Global Platform Across Cannabis , Beverage , Hospitality and Wellness (2026-07-28)
 - [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
+- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
+- [HURN] Huron Earnings : What To Look For From HURN (2026-07-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $83,007 · win rate 92% · categorias: crypto
-- matenghehe · PnL $37,010 · win rate 96% · categorias: sports, crypto
-- esportGG · PnL $35,945 · win rate 95% · categorias: sports
-- lllllllIlll · PnL $35,231 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $29,237 · win rate 92% · categorias: sports
+- matenghehe · PnL $45,177 · win rate 96% · categorias: sports, crypto
+- JnStTrdrBnusFnd · PnL $68,222 · win rate 92% · categorias: crypto
+- esportGG · PnL $33,298 · win rate 95% · categorias: sports
+- lllllllIlll · PnL $36,236 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $29,298 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
