@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-01T21:25:29.108753+00:00",
+  "generated_at": "2026-08-01T22:27:13.901260+00:00",
   "window": {
     "from": "2026-07-02",
     "to": "2026-08-01",
@@ -23,8 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "regulatory",
-      "stock"
+      "stock",
+      "ai",
+      "merger",
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -98,7 +101,9 @@
       "event_date": "2026-07-31",
       "importance_score": 83.9,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_160653313425"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1677909/000110465926089348/"
     },
     {
@@ -1218,6 +1223,16 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 67865.52,
+        "win_rate": 0.9494,
+        "volume": 1034932.36,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
         "pnl": 49807.1,
@@ -1229,29 +1244,9 @@
         ]
       },
       {
-        "wallet": "0x45720deb10",
-        "username": "papuas",
-        "pnl": 28603.45,
-        "win_rate": 0.9718,
-        "volume": 226983.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 37741.23,
-        "win_rate": 0.9492,
-        "volume": 1004287.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 29001.46,
+        "pnl": 29044.84,
         "win_rate": 0.959,
         "volume": 658957.88,
         "categories": [
@@ -1259,21 +1254,21 @@
         ]
       },
       {
-        "wallet": "0xf3ce7f04dd",
-        "username": "",
-        "pnl": 28056.32,
-        "win_rate": 0.9562,
-        "volume": 158567.27,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 44796.65,
+        "win_rate": 0.9286,
+        "volume": 167588.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 35391.42,
-        "win_rate": 0.9259,
-        "volume": 167588.81,
+        "wallet": "0xf3ce7f04dd",
+        "username": "",
+        "pnl": 26264.23,
+        "win_rate": 0.9563,
+        "volume": 163327.27,
         "categories": [
           "sports"
         ]
@@ -1281,19 +1276,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 31168.75,
-        "win_rate": 0.92,
-        "volume": 138063.13,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 26684.03,
-        "win_rate": 0.9237,
-        "volume": 163491.0,
+        "pnl": 27606.74,
+        "win_rate": 0.9206,
+        "volume": 155739.97,
         "categories": [
           "sports"
         ]
@@ -1301,7 +1286,7 @@
       {
         "wallet": "0x3954e1c6b7",
         "username": "Spicer",
-        "pnl": 92787.85,
+        "pnl": 92784.23,
         "win_rate": 0.9667,
         "volume": 673337.83,
         "categories": [
@@ -1311,9 +1296,31 @@
       {
         "wallet": "0xc4ac7dee4d",
         "username": "entropytime",
-        "pnl": 36091.13,
+        "pnl": 35303.56,
         "win_rate": 0.84,
-        "volume": 131464.87,
+        "volume": 151218.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ffb4354cb",
+        "username": "AgricultureSecretary",
+        "pnl": 33475.24,
+        "win_rate": 0.843,
+        "volume": 106268.65,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x12afddef5b",
+        "username": "isp",
+        "pnl": 26394.84,
+        "win_rate": 0.8571,
+        "volume": 40258.2,
         "categories": [
           "sports"
         ]
@@ -1321,23 +1328,11 @@
     ],
     "whales": [
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 42764.45,
-        "win_rate": 0.513,
-        "volume": 3672427.85,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 95473.4,
-        "win_rate": 0.571,
-        "volume": 5248266.17,
+        "pnl": 95156.31,
+        "win_rate": 0.579,
+        "volume": 5535666.07,
         "categories": [
           "sports"
         ]
@@ -1345,7 +1340,7 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 143167.17,
+        "pnl": 143197.17,
         "win_rate": 0.5291,
         "volume": 899896.57,
         "categories": [
@@ -1357,7 +1352,7 @@
       {
         "wallet": "0xa71093cafc",
         "username": "Talvez10",
-        "pnl": 136328.63,
+        "pnl": 139717.91,
         "win_rate": 0.523,
         "volume": 1673287.09,
         "categories": [
@@ -1367,9 +1362,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 52128.56,
+        "pnl": 65373.23,
         "win_rate": 0.556,
-        "volume": 2778335.33,
+        "volume": 2995307.4,
         "categories": [
           "sports"
         ]
@@ -1377,9 +1372,9 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 37741.23,
-        "win_rate": 0.9492,
-        "volume": 1004287.59,
+        "pnl": 67865.52,
+        "win_rate": 0.9494,
+        "volume": 1034932.36,
         "categories": [
           "sports"
         ]
@@ -1387,9 +1382,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 112329.54,
-        "win_rate": 0.626,
-        "volume": 3632220.68,
+        "pnl": 111266.87,
+        "win_rate": 0.652,
+        "volume": 3765998.67,
         "categories": [
           "sports"
         ]
@@ -1397,7 +1392,7 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 29001.46,
+        "pnl": 29044.84,
         "win_rate": 0.959,
         "volume": 658957.88,
         "categories": [
@@ -1417,9 +1412,19 @@
       {
         "wallet": "0x3954e1c6b7",
         "username": "Spicer",
-        "pnl": 92787.85,
+        "pnl": 92784.23,
         "win_rate": 0.9667,
         "volume": 673337.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc8075693f4",
+        "username": "texaskid",
+        "pnl": 85586.17,
+        "win_rate": 0.6579,
+        "volume": 286968.99,
         "categories": [
           "sports"
         ]
@@ -1427,6 +1432,56 @@
     ]
   },
   "news": [
+    {
+      "title": "NYSE Content Update : Reformation Scores Winning Session in NYSE Debut",
+      "url": "https://www.newswire.ca/news-releases/nyse-content-update-reformation-scores-winning-session-in-nyse-debut-845777626.html",
+      "ticker": "REF",
+      "themes": [],
+      "date": "2026-08-01"
+    },
+    {
+      "title": "Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) ",
+      "url": "https://seekingalpha.com/news/4622973-tilray-brands-climbs-8-extending-prior-days-gains",
+      "ticker": "TLRY",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-07-31"
+    },
+    {
+      "title": "IonQ Acquires SkyWater Technology",
+      "url": "https://www.executivebiz.com/articles/ionq-skywater-technology-acquisition",
+      "ticker": "SKYT",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-07-31"
+    },
+    {
+      "title": "Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? ",
+      "url": "https://www.dailypolitical.com/2026/07/30/tilray-brands-nasdaqtlry-stock-price-up-5-3-should-you-buy.html",
+      "ticker": "TLRY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? ",
+      "url": "https://www.tickerreport.com/banking-finance/13523164/tilray-brands-nasdaqtlry-trading-up-5-3-should-you-buy.html",
+      "ticker": "TLRY",
+      "themes": [],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Tilray Brands Q4 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tilray-brands-q4-earnings-call-230415572.html",
+      "ticker": "TLRY",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-07-30"
+    },
     {
       "title": "Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . ",
       "url": "https://www.fool.com/investing/2026/07/30/uranium-energy-is-down-sharply-in-2026-heres-what/",
