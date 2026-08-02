@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-02T11:50:18+00:00 -->
+<!-- trader_prompt.md generado 2026-08-02T14:13:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-02T11:50:18+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
+_Generado 2026-08-02T14:13:27+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63048.0 (0.45% / -1.29% / 1.3%) [2026-08-02]
+- BTC-USD: 63013.92 (0.4% / -1.34% / 1.24%) [2026-08-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,20 +342,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (4), stock (3), ai (1)
+**Temas dominantes**: regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [REF] NYSE Content Update : Reformation Scores Winning Session in NYSE Debut (2026-08-01)
-- [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
-- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands Q4 Earnings Call Highlights (2026-07-30)
-- [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
-- [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
+- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +361,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- PleaseWinPlease · PnL $70,617 · win rate 91% · categorias: sports
-- ToeTickler98 · PnL $56,670 · win rate 91% · categorias: sports
-- SDTrading · PnL $19,744 · win rate 92% · categorias: sports
-- JnStTrdrBnusFnd · PnL $20,135 · win rate 92% · categorias: crypto
-- BrightStars · PnL $80,046 · win rate 80% · categorias: politics, sports, economy
+- 111111111115 · PnL $69,453 · win rate 94% · categorias: sports
+- Dota2winner · PnL $42,752 · win rate 95% · categorias: sports
+- PleaseWinPlease · PnL $70,657 · win rate 91% · categorias: sports
+- ToeTickler98 · PnL $56,695 · win rate 91% · categorias: sports
+- esportGG · PnL $24,960 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
