@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-02T21:25:27+00:00 -->
+<!-- trader_prompt.md generado 2026-08-02T22:25:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-02T21:25:27+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
+_Generado 2026-08-02T22:25:56+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63457.01 (1.11% / -0.65% / 1.96%) [2026-08-02]
+- BTC-USD: 63599.94 (1.33% / -0.42% / 2.19%) [2026-08-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,17 +342,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (2)
+**Temas dominantes**: merger (1), regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
+- [SKYT] IonQ Acquires SkyWater Technology (2026-07-31)
 - [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
-- [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
-- [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
-- [HURN] Huron Earnings : What To Look For From HURN (2026-07-27)
+- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -367,11 +363,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $113,384 · win rate 94% · categorias: sports
-- Dota2winner · PnL $68,397 · win rate 95% · categorias: sports
-- SDTrading · PnL $51,303 · win rate 92% · categorias: sports
-- PleaseWinPlease · PnL $64,172 · win rate 91% · categorias: sports
-- ToeTickler98 · PnL $56,572 · win rate 91% · categorias: sports
+- 111111111115 · PnL $113,503 · win rate 94% · categorias: sports
+- Dota2winner · PnL $68,370 · win rate 95% · categorias: sports
+- SDTrading · PnL $60,137 · win rate 92% · categorias: sports
+- ToeTickler98 · PnL $64,417 · win rate 91% · categorias: sports
+- PleaseWinPlease · PnL $60,644 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
