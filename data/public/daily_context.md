@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-02T17:30:57+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
+_Generado 2026-08-02T18:29:58+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63215.64 (0.72% / -1.03% / 1.57%) [2026-08-02]
+- BTC-USD: 63227.61 (0.74% / -1.01% / 1.59%) [2026-08-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,12 +115,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (4), ai (1), merger (1), regulatory (1)
+**Temas dominantes**: earnings (4), stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
-- [SKYT] IonQ Acquires SkyWater Technology (2026-07-31)
 - [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
 - [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
 - [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
@@ -129,6 +128,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
 - [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
 - [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
+- [HURN] Huron Earnings : What To Look For From HURN (2026-07-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $98,264 · win rate 94% · categorias: sports
-- Dota2winner · PnL $41,749 · win rate 95% · categorias: sports
-- PleaseWinPlease · PnL $70,778 · win rate 91% · categorias: sports
+- 111111111115 · PnL $79,311 · win rate 94% · categorias: sports
+- Dota2winner · PnL $56,783 · win rate 95% · categorias: sports
+- PleaseWinPlease · PnL $71,045 · win rate 91% · categorias: sports
 - ToeTickler98 · PnL $56,695 · win rate 91% · categorias: sports
-- elizabeth.ethcome · PnL $32,162 · win rate 90% · categorias: sports, crypto, politics
+- JnStTrdrBnusFnd · PnL $24,562 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
