@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-02T14:13:27+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
+_Generado 2026-08-02T15:38:41+00:00 · ventana señales 2026-07-03 -> 2026-08-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63013.92 (0.4% / -1.34% / 1.24%) [2026-08-02]
+- BTC-USD: 63075.85 (0.5% / -1.25% / 1.34%) [2026-08-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,11 +115,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (1), stock (1)
+**Temas dominantes**: merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
+- [SKYT] IonQ Acquires SkyWater Technology (2026-07-31)
+- [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -134,11 +135,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $69,453 · win rate 94% · categorias: sports
-- Dota2winner · PnL $42,752 · win rate 95% · categorias: sports
-- PleaseWinPlease · PnL $70,657 · win rate 91% · categorias: sports
+- 111111111115 · PnL $120,512 · win rate 94% · categorias: sports
+- PleaseWinPlease · PnL $70,726 · win rate 91% · categorias: sports
 - ToeTickler98 · PnL $56,695 · win rate 91% · categorias: sports
-- esportGG · PnL $24,960 · win rate 95% · categorias: sports
+- Dota2winner · PnL $33,276 · win rate 95% · categorias: sports
+- JnStTrdrBnusFnd · PnL $34,531 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
