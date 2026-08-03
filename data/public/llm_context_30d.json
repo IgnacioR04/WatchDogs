@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-03T08:03:11.319903+00:00",
+  "generated_at": "2026-08-03T11:59:58.547497+00:00",
   "window": {
     "from": "2026-07-04",
     "to": "2026-08-03",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
-      "stock",
-      "ai"
+      "merger",
+      "regulatory",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -87,6 +87,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "10% owner vendio MS ($88.4M)",
+      "summary": "10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $88.4M el 2026-07-30 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "MS",
+      "direction": "sell",
+      "amount_estimated": 88383622.07,
+      "event_date": "2026-07-30",
+      "importance_score": 85.3,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526329456/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner vendio REF ($41.7M)",
       "summary": "10% owner Refo SCSp vendio REF por $41.7M el 2026-07-31.",
       "source": "sec_form_4",
@@ -103,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1677909/000110465926089348/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO compro COE ($3.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.",
       "source": "sec_form_4",
@@ -121,8 +139,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000004/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner vendio NP ($62.0M)",
       "summary": "10% owner FTV VII, L.P. vendio NP por $62.0M el 2026-07-29.",
       "source": "sec_form_4",
@@ -139,8 +157,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1894163/000119312526329068/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner vendio NP ($54.2M)",
       "summary": "10% owner BSIV Hold 101, LP vendio NP por $54.2M el 2026-07-29.",
       "source": "sec_form_4",
@@ -157,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1814482/000119312526329069/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner opero LPRO ($23.8M)",
       "summary": "10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.",
       "source": "sec_form_4",
@@ -175,8 +193,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1814533/000119312526327577/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO opero MLI ($13.7M)",
       "summary": "CEO Christopher Gregory L. opero MLI por $13.7M el 2026-07-30.",
       "source": "sec_form_4",
@@ -193,8 +211,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000003/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -211,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -229,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -247,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -265,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -283,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -301,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -319,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -337,8 +355,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -355,8 +373,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -366,24 +384,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 12307921184,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12266872781,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -532,6 +532,14 @@
         ]
       },
       {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 794.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "IQV",
         "company": "IQVIA HOLDINGS INC.",
         "pressure_score": 583.6,
@@ -627,14 +635,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "UNH",
-        "company": "Common Stock",
-        "pressure_score": 233.2,
-        "sources": [
-          "congress"
-        ]
       }
     ]
   },
@@ -682,6 +682,24 @@
       "actor_type": "ten_percent_owner",
       "amount": 1515510.86,
       "date": "2026-07-28",
+      "score": 79.3
+    },
+    {
+      "ticker": "FTAI",
+      "company": "FTAI Aviation Ltd.",
+      "actor": "Moreno David",
+      "actor_type": "ceo",
+      "amount": 498143.25,
+      "date": "2026-07-31",
+      "score": 79.3
+    },
+    {
+      "ticker": "VFC",
+      "company": "V F CORP",
+      "actor": "Darrell Bracken",
+      "actor_type": "ceo",
+      "amount": 492752.12,
+      "date": "2026-07-31",
       "score": 79.3
     },
     {
@@ -755,24 +773,6 @@
       "amount": 312102.96,
       "date": "2026-07-29",
       "score": 75.8
-    },
-    {
-      "ticker": "BBASX",
-      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
-      "actor": "BROWN BROTHERS HARRIMAN CREDIT PARTNERS, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 224340.94,
-      "date": "2026-07-29",
-      "score": 75.1
-    },
-    {
-      "ticker": "ARTV",
-      "company": "Artiva Biotherapeutics, Inc.",
-      "actor": "RA CAPITAL MANAGEMENT, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 208031.76,
-      "date": "2026-07-29",
-      "score": 74.9
     }
   ],
   "institutional_changes": [
@@ -1063,23 +1063,32 @@
       "score": 62.4
     },
     {
+      "politician": "Dan Newhouse",
+      "ticker": "MS",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 62.4
+    },
+    {
       "politician": "Debbie Dingell",
       "ticker": "HONAV",
       "direction": "other",
       "amount": 100000,
       "date": "2026-06-29",
       "score": 62.2
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "AMD",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 61.1
     }
   ],
   "large_holders": [
+    {
+      "filer": "O.Y. Nofar Energy Ltd.",
+      "company": "Ellomay Capital Ltd.",
+      "ticker": "ELLO",
+      "ownership_pct": 75.0,
+      "shares": 10340946,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-03"
+    },
     {
       "filer": "AMG New York Holdings Corp.",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
@@ -1097,6 +1106,15 @@
       "shares": 148681347,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-31"
+    },
+    {
+      "filer": "FRANKLIN RESOURCES INC",
+      "company": "Franklin BSP Lending Fund",
+      "ticker": "",
+      "ownership_pct": 46.6,
+      "shares": 75000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-03"
     },
     {
       "filer": "Peter R. Kellogg",
@@ -1196,28 +1214,20 @@
       "shares": 1130055,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-31"
-    },
-    {
-      "filer": "BW Group Ltd",
-      "company": "Navigator Holdings Ltd.",
-      "ticker": "NVGS",
-      "ownership_pct": 7.7,
-      "shares": 4759078,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-31"
-    },
-    {
-      "filer": "Bexil Securities LLC",
-      "company": "Bexil Investment Trust",
-      "ticker": "BXSY",
-      "ownership_pct": 6.8,
-      "shares": 879274,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-31"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 55503.03,
+        "win_rate": 0.9555,
+        "volume": 286054.09,
+        "categories": [
+          "sports"
+        ]
+      },
       {
         "wallet": "0xccf128f31a",
         "username": "reakt2026",
@@ -1230,21 +1240,32 @@
         ]
       },
       {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 7025.9,
-        "win_rate": 1.0,
-        "volume": 17306.15,
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 14532.31,
+        "win_rate": 0.9624,
+        "volume": 190119.78,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 17981.37,
+        "win_rate": 0.9085,
+        "volume": 33166.64,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3b62c64eba",
-        "username": "rollobravado",
-        "pnl": 7144.49,
-        "win_rate": 0.9905,
-        "volume": 25000.0,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 16169.12,
+        "win_rate": 0.9084,
+        "volume": 248858.23,
         "categories": [
           "sports",
           "politics"
@@ -1253,22 +1274,24 @@
       {
         "wallet": "0x9c3ce009c9",
         "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 10247.81,
-        "win_rate": 0.9375,
-        "volume": 604.44,
+        "pnl": 10398.92,
+        "win_rate": 0.9377,
+        "volume": 8874.51,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 6040.08,
-        "win_rate": 0.9554,
-        "volume": 53484.31,
+        "wallet": "0x86279a7e9e",
+        "username": "elizabeth.ethcome",
+        "pnl": 17227.35,
+        "win_rate": 0.8987,
+        "volume": 63534.16,
         "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "politics"
         ]
       },
       {
@@ -1292,34 +1315,14 @@
         ]
       },
       {
-        "wallet": "0x1aa20e9c2b",
-        "username": "qinlaoban",
-        "pnl": 8731.91,
-        "win_rate": 0.9136,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 16287.79,
+        "pnl": 22628.38,
         "win_rate": 0.854,
-        "volume": 78281.66,
+        "volume": 94321.13,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0xdbdd451502",
-        "username": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
-        "pnl": 12578.52,
-        "win_rate": 0.79,
-        "volume": 32900.63,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1327,106 +1330,104 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 52637.15,
+        "pnl": 52637.28,
         "win_rate": 0.468,
-        "volume": 235433.04,
+        "volume": 235458.24,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe734e7bf7c",
-        "username": "boyau",
-        "pnl": 7451.62,
-        "win_rate": 0.4928,
-        "volume": 165047.71,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 20377.22,
-        "win_rate": 0.579,
-        "volume": 425419.3,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 9530.23,
-        "win_rate": 0.643,
-        "volume": 225379.47,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 13682.87,
-        "win_rate": 0.551,
-        "volume": 291205.8,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 21338.67,
-        "win_rate": 0.614,
-        "volume": 397513.37,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbaa2bcb543",
-        "username": "denizz",
-        "pnl": 7285.87,
-        "win_rate": 0.651,
-        "volume": 68673.01,
-        "categories": [
-          "politics",
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x44c58184f8",
-        "username": "JhonAlexanderHinestroza",
-        "pnl": 9054.46,
-        "win_rate": 0.709,
-        "volume": 96506.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb1ca909e84",
-        "username": "R79dgahr",
-        "pnl": 5916.32,
-        "win_rate": 0.5662,
-        "volume": 74417.63,
-        "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       },
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 6040.08,
-        "win_rate": 0.9554,
-        "volume": 53484.31,
+        "pnl": 55503.03,
+        "win_rate": 0.9555,
+        "volume": 286054.09,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xd5b510cca6",
+        "username": "ofgoodfgdohojdfitsjustmoney",
+        "pnl": 16329.87,
+        "win_rate": 0.2991,
+        "volume": 125106.27,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 13711.72,
+        "win_rate": 0.643,
+        "volume": 383756.15,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 12725.29,
+        "win_rate": 0.579,
+        "volume": 616428.37,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 16169.12,
+        "win_rate": 0.9084,
+        "volume": 248858.23,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x7986576408",
+        "username": "0x7986576408b65a9805AC85553Be33Ad0B044BAa5-1781719173927",
+        "pnl": 43878.79,
+        "win_rate": 0.6054,
+        "volume": 363396.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 14532.31,
+        "win_rate": 0.9624,
+        "volume": 190119.78,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe291a588ec",
+        "username": "patient12",
+        "pnl": 24541.77,
+        "win_rate": 0.662,
+        "volume": 129898.98,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 13662.83,
+        "win_rate": 0.551,
+        "volume": 292031.99,
         "categories": [
           "sports"
         ]
@@ -1435,93 +1436,33 @@
   },
   "news": [
     {
-      "title": "Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4622973-tilray-brands-climbs-8-extending-prior-days-gains",
-      "ticker": "TLRY",
+      "title": "IonQ Acquires SkyWater Technology",
+      "url": "https://www.executivebiz.com/articles/ionq-skywater-technology-acquisition",
+      "ticker": "SKYT",
       "themes": [
-        "ai"
+        "merger"
       ],
       "date": "2026-07-31"
     },
     {
-      "title": "Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock",
-      "url": "https://www.dailypolitical.com/2026/07/30/houte-hans-van-sells-2845-shares-of-nurix-therapeutics-nasdaqnrix-stock.html",
-      "ticker": "NRIX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? ",
-      "url": "https://www.dailypolitical.com/2026/07/30/tilray-brands-nasdaqtlry-stock-price-up-5-3-should-you-buy.html",
-      "ticker": "TLRY",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? ",
-      "url": "https://www.tickerreport.com/banking-finance/13523164/tilray-brands-nasdaqtlry-trading-up-5-3-should-you-buy.html",
-      "ticker": "TLRY",
+      "title": "Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . ",
+      "url": "https://www.fool.com/investing/2026/07/30/uranium-energy-is-down-sharply-in-2026-heres-what/",
+      "ticker": "UEC",
       "themes": [],
       "date": "2026-07-30"
     },
     {
-      "title": "Tilray Brands Q4 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tilray-brands-q4-earnings-call-230415572.html",
-      "ticker": "TLRY",
+      "title": "Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) ",
+      "url": "https://www.themarketsdaily.com/2026/07/28/research-analysts-recent-ratings-changes-for-shore-bancshares-shbi.html",
+      "ticker": "SHBI",
       "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-29-why-is-huron-hurn-stock-soaring-today",
-      "ticker": "HURN",
-      "themes": [
+        "regulatory",
         "stock"
       ],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance",
-      "url": "https://www.dailypolitical.com/2026/07/29/huron-consulting-group-nasdaqhurn-issues-fy-2026-earnings-guidance.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS",
-      "url": "https://www.tickerreport.com/banking-finance/13519579/huron-consulting-group-nasdaqhurn-announces-earnings-results-beats-expectations-by-0-29-eps.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
       "date": "2026-07-28"
-    },
-    {
-      "title": "FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-28-huron-nasdaqhurn-reports-strong-q2-cy2026-full-year-outlook-exceeds-expectations",
-      "ticker": "HURN",
-      "themes": [],
-      "date": "2026-07-28"
-    },
-    {
-      "title": "Huron Earnings : What To Look For From HURN",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/huron-earnings-look-hurn-080502578.html",
-      "ticker": "HURN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-27"
     }
   ],
-  "signals_count": 1522,
+  "signals_count": 1515,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

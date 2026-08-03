@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-08-03T08:04:05+00:00",
+  "generated_at": "2026-08-03T12:03:13+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "BEP": 0.1075,
-    "GLD": 0.0932,
-    "MIDD": 0.0727,
-    "IEF": 0.0622,
-    "CPRI": 0.0585,
-    "NRIX": 0.0434,
-    "PRIM": 0.0268,
-    "SPCX": 0.0259
+    "BEP": 0.12,
+    "GLD": 0.0941,
+    "MIDD": 0.0843,
+    "CPRI": 0.0678,
+    "IEF": 0.0628,
+    "PRIM": 0.0311,
+    "SPCX": 0.03
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "SPCX": 0.023,
-    "PRIM": 0.0238,
-    "CPRI": 0.052,
-    "MIDD": 0.0646,
-    "NRIX": 0.0386,
-    "BEP": 0.0956
+    "SPCX": 0.0264,
+    "PRIM": 0.0274,
+    "CPRI": 0.0597,
+    "MIDD": 0.0742,
+    "BEP": 0.1098
   },
   "satellite_rationale": [
     {
@@ -66,14 +64,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "NRIX",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -83,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.129,
-    "var_95_1d": 0.013,
-    "cvar_95_1d": 0.0145,
-    "max_drawdown": -0.0581,
-    "beta_spy": 0.779,
-    "hhi": 0.0793,
+    "ann_vol": 0.131,
+    "var_95_1d": 0.0131,
+    "cvar_95_1d": 0.0154,
+    "max_drawdown": -0.0762,
+    "beta_spy": 0.804,
+    "hhi": 0.084,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.6,
-    "gross_exposure": 0.8502,
+    "n_positions": 10,
+    "effective_positions": 11.9,
+    "gross_exposure": 0.8501,
     "days_used": 33
   },
   "risk_gate": {

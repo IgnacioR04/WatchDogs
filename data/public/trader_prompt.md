@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-03T08:04:07+00:00 -->
+<!-- trader_prompt.md generado 2026-08-03T12:03:14+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-03T08:04:06+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
+_Generado 2026-08-03T12:03:14+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.09)
+- Volatilidad: `normal` (VIX 15.95)
 - Tendencia: `bull` (SPY 747.03 · MA50 744.22 · MA200 697.41 · dist MA200: 7.12%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -252,21 +252,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 747.03 | 0.72% | 1.1% | 0.3% |
 | QQQ | 12.0% | core | 687.99 | 0.65% | 0.55% | -3.45% |
 | TLT | 12.0% | core | 82.25 | -0.66% | -1.2% | -3.81% |
-| BEP | 10.8% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
-| GLD | 9.3% | core | 371.54 | -1.49% | -0.1% | -1.74% |
-| MIDD | 7.3% | satellite | 133.58 | 0.2% | -0.22% | -5.19% |
-| IEF | 6.2% | core | 92.95 | -0.28% | -0.09% | -1.24% |
-| CPRI | 5.9% | satellite | 15.93 | 0.25% | 3.17% | -15.98% |
-| NRIX | 4.3% | satellite | 23.21 | -1.57% | -0.73% | -3.17% |
-| PRIM | 2.7% | satellite | 84.41 | -1.45% | -2.43% | -4.3% |
-| SPCX | 2.6% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
+| BEP | 12.0% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
+| GLD | 9.4% | core | 371.54 | -1.49% | -0.1% | -1.74% |
+| MIDD | 8.4% | satellite | 133.58 | 0.2% | -0.22% | -5.19% |
+| CPRI | 6.8% | satellite | 15.93 | 0.25% | 3.17% | -15.98% |
+| IEF | 6.3% | core | 92.95 | -0.28% | -0.09% | -1.24% |
+| PRIM | 3.1% | satellite | 84.41 | -1.45% | -2.43% | -4.3% |
+| SPCX | 3.0% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.9%
+- Volatilidad anualizada: 13.1%
 - VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -5.8%
-- Beta vs SPY: 0.779 · posiciones efectivas: 12.6 · HHI: 0.0793
+- Max drawdown historico: -7.6%
+- Beta vs SPY: 0.804 · posiciones efectivas: 11.9 · HHI: 0.084
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -274,7 +273,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **PRIM** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CPRI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **MIDD** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **NRIX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
@@ -296,8 +294,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CPRI | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | LKFN | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
 | MIDD | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| NRIX | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| LEVI | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
+| MPLT | 70 | large_holder | Novo Holdings A/S |  | - | - |
+| UUU | 70 | large_holder | Hyperscale Data, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -326,8 +324,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.25 (-0.66% / -1.2% / -3.81%) [2026-07-31]
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
-- ^VIX: 16.09 (0.63% / -13.82% / 3.34%) [2026-08-03]
-- BTC-USD: 62499.37 (-0.42% / -2.15% / 0.42%) [2026-08-03]
+- ^VIX: 15.95 (-0.25% / -14.57% / 2.44%) [2026-08-03]
+- BTC-USD: 62474.7 (-1.59% / -2.24% / -3.82%) [2026-08-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,39 +340,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (4), stock (3), ai (1)
+**Temas dominantes**: merger (1), regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
-- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
-- [TLRY] Tilray Brands Q4 Earnings Call Highlights (2026-07-30)
-- [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
-- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
-- [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
-- [HURN] Huron Earnings : What To Look For From HURN (2026-07-27)
+- [SKYT] IonQ Acquires SkyWater Technology (2026-07-31)
+- [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
+- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner TPG GP A, LLC compro TPG Twin Brook Capital Income Fund por $50.0M el 2026-07-29.
 - 10% owner Catalyst4, Inc. compro MLPT por $13.0M el 2026-07-30.
 - CEO Huang Jack Jiajia compro COE por $7.7M el 2026-07-27.
+- 10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $88.4M el 2026-07-30 [senal en multiples fuentes].
 - 10% owner Refo SCSp vendio REF por $41.7M el 2026-07-31.
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-07-24.
 - 10% owner FTV VII, L.P. vendio NP por $62.0M el 2026-07-29.
 - 10% owner BSIV Hold 101, LP vendio NP por $54.2M el 2026-07-29.
-- 10% owner Bregal Sagemount I, L.P. opero LPRO por $23.8M el 2026-07-28.
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $55,503 · win rate 96% · categorias: sports
 - reakt2026 · PnL $8,748 · win rate 100% · categorias: sports, crypto
-- HongYunX · PnL $7,026 · win rate 100% · categorias: sports
-- rollobravado · PnL $7,144 · win rate 99% · categorias: sports, politics
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $10,248 · win rate 94% · categorias: sports, crypto
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $6,040 · win rate 96% · categorias: sports
+- matenghehe · PnL $14,532 · win rate 96% · categorias: sports, crypto
+- CORGI8 · PnL $17,981 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $16,169 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,8 +373,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 45 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 599 registros 30d · ultimo dato 2026-07-31
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-07-31
+- **sec_insiders**: `ok` · 592 registros 30d · ultimo dato 2026-08-01
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-03
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -395,7 +386,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, CPRI, GLD, IEF, MIDD, NRIX, PRIM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, CPRI, GLD, IEF, MIDD, PRIM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
