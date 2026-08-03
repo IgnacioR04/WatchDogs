@@ -1,23 +1,21 @@
 {
-  "generated_at": "2026-08-03T17:39:09+00:00",
+  "generated_at": "2026-08-03T20:13:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "BEP": 0.1144,
     "GLD": 0.0933,
-    "BEP": 0.0802,
+    "NTST": 0.0848,
     "IEF": 0.0622,
-    "NTST": 0.0595,
-    "NRIM": 0.057,
-    "MIDD": 0.043,
-    "TRIP": 0.0333,
-    "PWP": 0.029,
-    "PRIM": 0.0177,
-    "SPCX": 0.0148
+    "TRIP": 0.0475,
+    "PWP": 0.0414,
+    "PRIM": 0.0253,
+    "SPCX": 0.0213
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NTST": 0.0529,
-    "PWP": 0.0258,
-    "TRIP": 0.0296,
-    "SPCX": 0.0132,
-    "PRIM": 0.0157,
-    "NRIM": 0.0507,
-    "MIDD": 0.0382,
-    "BEP": 0.0713
+    "NTST": 0.0754,
+    "PWP": 0.0368,
+    "TRIP": 0.0422,
+    "SPCX": 0.0189,
+    "PRIM": 0.0225,
+    "BEP": 0.1017
   },
   "satellite_rationale": [
     {
@@ -78,22 +74,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "NRIM",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "MIDD",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "BEP",
       "score": 58.5,
       "sources": [
@@ -103,16 +83,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1033,
-    "var_95_1d": 0.0103,
-    "cvar_95_1d": 0.011,
-    "max_drawdown": -0.0205,
+    "ann_vol": 0.1057,
+    "var_95_1d": 0.0115,
+    "cvar_95_1d": 0.0117,
+    "max_drawdown": -0.0239,
     "beta_spy": null,
-    "hhi": 0.0733,
+    "hhi": 0.0811,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.85,
+    "n_positions": 11,
+    "effective_positions": 12.3,
+    "gross_exposure": 0.8502,
     "days_used": 23
   },
   "risk_gate": {
