@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-03T04:12:29+00:00 -->
+<!-- trader_prompt.md generado 2026-08-03T08:04:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-03T04:12:29+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
+_Generado 2026-08-03T08:04:06+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.99)
+- Volatilidad: `normal` (VIX 16.09)
 - Tendencia: `bull` (SPY 747.03 · MA50 744.22 · MA200 697.41 · dist MA200: 7.12%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -326,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.25 (-0.66% / -1.2% / -3.81%) [2026-07-31]
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
-- ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 62766.23 (0.0% / -1.73% / 0.85%) [2026-08-03]
+- ^VIX: 16.09 (0.63% / -13.82% / 3.34%) [2026-08-03]
+- BTC-USD: 62499.37 (-0.42% / -2.15% / 0.42%) [2026-08-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,12 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), regulatory (1)
+**Temas dominantes**: earnings (4), stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TLRY] Tilray Brands climbs 8 %, extending prior day gains ( TLRY : NASDAQ ) (2026-07-31)
 - [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
-- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
+- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Stock Price Up 5 . 3 % – Should You Buy ? (2026-07-30)
+- [TLRY] Tilray Brands ( NASDAQ : TLRY ) Trading Up 5 . 3 % – Should You Buy ? (2026-07-30)
+- [TLRY] Tilray Brands Q4 Earnings Call Highlights (2026-07-30)
+- [HURN] FinancialContent - Why Is Huron ( HURN ) Stock Soaring Today (2026-07-29)
+- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Issues FY 2026 Earnings Guidance (2026-07-29)
+- [HURN] Huron Consulting Group ( NASDAQ : HURN ) Announces Earnings Results , Beats Expectations By $0 . 29 EPS (2026-07-28)
+- [HURN] FinancialContent - Huron ( NASDAQ : HURN ) Reports Strong Q2 CY2026 , Full - Year Outlook Exceeds Expectations (2026-07-28)
+- [HURN] Huron Earnings : What To Look For From HURN (2026-07-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -362,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- reakt2026 · PnL $7,906 · win rate 100% · categorias: sports, crypto
-- HongYunX · PnL $7,004 · win rate 100% · categorias: sports
-- rollobravado · PnL $7,107 · win rate 99% · categorias: sports, politics
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $10,284 · win rate 94% · categorias: sports, crypto
-- comon119 · PnL $5,010 · win rate 98% · categorias: sports, crypto, politics
+- reakt2026 · PnL $8,748 · win rate 100% · categorias: sports, crypto
+- HongYunX · PnL $7,026 · win rate 100% · categorias: sports
+- rollobravado · PnL $7,144 · win rate 99% · categorias: sports, politics
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $10,248 · win rate 94% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $6,040 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
