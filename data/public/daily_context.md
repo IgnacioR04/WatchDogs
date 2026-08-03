@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-03T00:31:20+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
+_Generado 2026-08-03T04:12:29+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
 - ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63174.24 (0.65% / -1.09% / 1.5%) [2026-08-03]
+- BTC-USD: 62766.23 (0.0% / -1.73% / 0.85%) [2026-08-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,9 +115,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: stock (2), regulatory (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UEC] Uranium Energy Is Down Sharply in 2026 . Here What the Next 10 Years Could Realistically Look Like . (2026-07-30)
+- [NRIX] Houte Hans Van Sells 2 , 845 Shares of Nurix Therapeutics ( NASDAQ : NRIX ) Stock (2026-07-30)
+- [SHBI] Research Analyst Recent Ratings Changes for Shore Bancshares ( SHBI ) (2026-07-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -132,11 +135,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Dota2winner · PnL $68,227 · win rate 95% · categorias: sports
-- ToeTickler98 · PnL $70,902 · win rate 91% · categorias: sports
-- SDTrading · PnL $56,930 · win rate 93% · categorias: sports
-- 111111111115 · PnL $35,668 · win rate 94% · categorias: sports
-- PleaseWinPlease · PnL $56,161 · win rate 91% · categorias: sports
+- reakt2026 · PnL $7,906 · win rate 100% · categorias: sports, crypto
+- HongYunX · PnL $7,004 · win rate 100% · categorias: sports
+- rollobravado · PnL $7,107 · win rate 99% · categorias: sports, politics
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $10,284 · win rate 94% · categorias: sports, crypto
+- comon119 · PnL $5,010 · win rate 98% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
