@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-04T20:12:44.038298+00:00",
+  "generated_at": "2026-08-04T21:53:26.498187+00:00",
   "window": {
     "from": "2026-07-05",
     "to": "2026-08-04",
@@ -23,10 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
       "stock",
-      "regulatory",
-      "ai"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -34,78 +32,136 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner opero GALT ($95.5M)",
-      "summary": "10% owner Uihlein Richard E opero GALT por $95.5M el 2026-07-31 [senal en multiples fuentes].",
+      "title": "Director compro APCX ($58.0M)",
+      "summary": "Director LORD ALBERT L compro APCX por $58.0M el 2026-08-03.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Uihlein Richard E",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GALT",
-      "direction": "other",
-      "amount_estimated": 95475705.0,
-      "event_date": "2026-07-31",
-      "importance_score": 85.5,
-      "cross_source_score": 25.0,
+      "actor_name": "LORD ALBERT L",
+      "actor_type": "director",
+      "ticker": "APCX",
+      "direction": "buy",
+      "amount_estimated": 58000000.0,
+      "event_date": "2026-08-03",
+      "importance_score": 86.2,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1694903/000113341626000065/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065138/000168316826005941/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner vendio JMKE ($96.4M)",
-      "summary": "10% owner Abu Dhabi Investment Authority vendio JMKE por $96.4M el 2026-07-31.",
+      "title": "CEO vendio SCI ($20.1M)",
+      "summary": "CEO RYAN THOMAS L vendio SCI por $20.1M el 2026-07-31 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Abu Dhabi Investment Authority",
-      "actor_type": "ten_percent_owner",
-      "ticker": "JMKE",
+      "actor_name": "RYAN THOMAS L",
+      "actor_type": "ceo",
+      "ticker": "SCI",
       "direction": "sell",
-      "amount_estimated": 96381748.4,
+      "amount_estimated": 20096054.92,
       "event_date": "2026-07-31",
-      "importance_score": 84.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1362558/000110465926089978/"
+      "importance_score": 85.9,
+      "cross_source_score": 50.0,
+      "related_news": [
+        "news_799788737629"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1243194/000162828026052534/"
     },
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO opero PBI ($8.8M)",
-      "summary": "CEO Wolf Kurt James opero PBI por $8.8M el 2026-08-03.",
+      "title": "CEO vendio FTNT ($11.1M)",
+      "summary": "CEO Xie Ken vendio FTNT por $11.1M el 2026-08-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Wolf Kurt James",
+      "actor_name": "Xie Ken",
       "actor_type": "ceo",
-      "ticker": "PBI",
-      "direction": "other",
-      "amount_estimated": 8765000.0,
+      "ticker": "FTNT",
+      "direction": "sell",
+      "amount_estimated": 11084853.42,
       "event_date": "2026-08-03",
-      "importance_score": 84.1,
-      "cross_source_score": 0.0,
+      "importance_score": 84.8,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000012/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475587/000147558726000014/"
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO opero PBI ($8.4M)",
-      "summary": "CEO Wolf Kurt James opero PBI por $8.4M el 2026-08-03.",
+      "title": "Director compro APCX ($57.9M)",
+      "summary": "Director LORD ALBERT L compro APCX por $57.9M el 2026-07-31.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Wolf Kurt James",
-      "actor_type": "ceo",
-      "ticker": "PBI",
-      "direction": "other",
-      "amount_estimated": 8387666.75,
-      "event_date": "2026-08-03",
-      "importance_score": 84.0,
+      "actor_name": "LORD ALBERT L",
+      "actor_type": "director",
+      "ticker": "APCX",
+      "direction": "buy",
+      "amount_estimated": 57900000.0,
+      "event_date": "2026-07-31",
+      "importance_score": 84.7,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000012/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065138/000168316826005941/"
     },
     {
       "id": "move_5",
       "rank": 5,
+      "title": "CEO vendio LTH ($19.5M)",
+      "summary": "CEO Akradi Bahram vendio LTH por $19.5M el 2026-07-31 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Akradi Bahram",
+      "actor_type": "ceo",
+      "ticker": "LTH",
+      "direction": "sell",
+      "amount_estimated": 19506571.2,
+      "event_date": "2026-07-31",
+      "importance_score": 84.6,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1295679/000129567926000019/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "CEO opero SCI ($10.1M)",
+      "summary": "CEO RYAN THOMAS L opero SCI por $10.1M el 2026-07-31 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "RYAN THOMAS L",
+      "actor_type": "ceo",
+      "ticker": "SCI",
+      "direction": "other",
+      "amount_estimated": 10056118.59,
+      "event_date": "2026-07-31",
+      "importance_score": 84.4,
+      "cross_source_score": 50.0,
+      "related_news": [
+        "news_799788737629"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1243194/000162828026052534/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO vendio FTNT ($7.9M)",
+      "summary": "CEO Xie Ken vendio FTNT por $7.9M el 2026-08-03 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Xie Ken",
+      "actor_type": "ceo",
+      "ticker": "FTNT",
+      "direction": "sell",
+      "amount_estimated": 7858337.13,
+      "event_date": "2026-08-03",
+      "importance_score": 84.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475587/000147558726000014/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "CFO vendio SCI ($4.7M)",
       "summary": "CFO TANZBERGER ERIC D vendio SCI por $4.7M el 2026-08-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -118,30 +174,68 @@
       "event_date": "2026-08-03",
       "importance_score": 83.0,
       "cross_source_score": 50.0,
-      "related_news": [],
+      "related_news": [
+        "news_799788737629"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1243196/000162828026052457/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio PBI ($6.8M)",
-      "summary": "CEO Wolf Kurt James vendio PBI por $6.8M el 2026-08-03.",
+      "id": "move_9",
+      "rank": 9,
+      "title": "CEO opero FTNT ($3.5M)",
+      "summary": "CEO Xie Ken opero FTNT por $3.5M el 2026-08-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Wolf Kurt James",
+      "actor_name": "Xie Ken",
       "actor_type": "ceo",
-      "ticker": "PBI",
-      "direction": "sell",
-      "amount_estimated": 6808783.56,
+      "ticker": "FTNT",
+      "direction": "other",
+      "amount_estimated": 3549500.0,
       "event_date": "2026-08-03",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
+      "importance_score": 82.4,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000011/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475587/000147558726000014/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_10",
+      "rank": 10,
+      "title": "CEO vendio FTNT ($3.2M)",
+      "summary": "CEO Xie Ken vendio FTNT por $3.2M el 2026-08-03 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Xie Ken",
+      "actor_type": "ceo",
+      "ticker": "FTNT",
+      "direction": "sell",
+      "amount_estimated": 3159689.48,
+      "event_date": "2026-08-03",
+      "importance_score": 82.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475587/000147558726000014/"
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "CEO vendio FTNT ($2.9M)",
+      "summary": "CEO Xie Ken vendio FTNT por $2.9M el 2026-08-03 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Xie Ken",
+      "actor_type": "ceo",
+      "ticker": "FTNT",
+      "direction": "sell",
+      "amount_estimated": 2947973.08,
+      "event_date": "2026-08-03",
+      "importance_score": 81.9,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475587/000147558726000014/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
       "title": "CFO opero SCI ($2.7M)",
       "summary": "CFO TANZBERGER ERIC D opero SCI por $2.7M el 2026-08-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -154,12 +248,14 @@
       "event_date": "2026-08-03",
       "importance_score": 81.8,
       "cross_source_score": 50.0,
-      "related_news": [],
+      "related_news": [
+        "news_799788737629"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1243196/000162828026052457/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -176,8 +272,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -194,8 +290,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -212,8 +308,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -230,8 +326,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -248,8 +344,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -266,8 +362,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -284,8 +380,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -300,120 +396,23 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12478004415,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12307921184,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
-      "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 12266872781,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12231430056,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro EXXON MOBIL CORP ($11.6B)",
-      "summary": "Institutional manager State Street Corp compro EXXON MOBIL CORP por $11.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 11607569229,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "NXTC",
-        "company": "NextCure, Inc.",
-        "pressure_score": 663.3,
+        "ticker": "LTH",
+        "company": "Common Stock",
+        "pressure_score": 554.8,
         "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
       {
-        "ticker": "LTH",
-        "company": "Common Stock",
-        "pressure_score": 543.1,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "EWAV",
-        "company": "East West Ave Acquisition Corp.",
-        "pressure_score": 449.5,
+        "ticker": "MKZR",
+        "company": "MacKenzie Realty Capital, Inc.",
+        "pressure_score": 503.9,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -460,6 +459,14 @@
         ]
       },
       {
+        "ticker": "ORN",
+        "company": "Orion Group Holdings Inc",
+        "pressure_score": 283.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "NTST",
         "company": "NETSTREIT Corp.",
         "pressure_score": 282.0,
@@ -468,36 +475,11 @@
         ]
       },
       {
-        "ticker": "MKZR",
-        "company": "MacKenzie Realty Capital, Inc.",
-        "pressure_score": 276.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "JUSH",
-        "company": "Jushi Holdings Inc.",
-        "pressure_score": 274.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NMZ",
-        "company": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-        "pressure_score": 259.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ENTG",
         "company": "DC Entegris, Inc.",
-        "pressure_score": 238.3,
+        "pressure_score": 233.2,
         "sources": [
-          "congress",
-          "corporate_insider"
+          "congress"
         ]
       },
       {
@@ -515,13 +497,80 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "TRIP",
+        "company": "TripAdvisor Inc",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SVRN",
+        "company": "OceanPal Inc.",
+        "pressure_score": 207.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 182.9,
+        "sources": [
+          "congress"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1096.5,
+        "ticker": "CRDO",
+        "company": "Credo Technology Group Holding Ltd",
+        "pressure_score": 1912.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FTNT",
+        "company": "SP Fortinet, Inc.",
+        "pressure_score": 898.0,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CVNA",
+        "company": "CARVANA CO.",
+        "pressure_score": 890.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "INCY",
+        "company": "INCYTE CORP",
+        "pressure_score": 838.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "SERVICE CORP INTERNATIONAL",
+        "pressure_score": 693.2,
+        "sources": [
+          "congress",
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "CSTL",
+        "company": "CASTLE BIOSCIENCES INC",
+        "pressure_score": 680.4,
         "sources": [
           "corporate_insider"
         ]
@@ -535,27 +584,17 @@
         ]
       },
       {
-        "ticker": "PBI",
-        "company": "PITNEY BOWES INC /DE/",
-        "pressure_score": 609.8,
+        "ticker": "CRCL",
+        "company": "Circle Internet Group, Inc.",
+        "pressure_score": 426.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "SCI",
-        "company": "SERVICE CORP INTERNATIONAL",
-        "pressure_score": 527.1,
-        "sources": [
-          "congress",
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 424.9,
+        "ticker": "QLYS",
+        "company": "QUALYS, INC.",
+        "pressure_score": 416.5,
         "sources": [
           "corporate_insider"
         ]
@@ -569,9 +608,18 @@
         ]
       },
       {
+        "ticker": "LTH",
+        "company": "Common Stock",
+        "pressure_score": 398.9,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FFIV",
         "company": "F5, INC.",
-        "pressure_score": 412.0,
+        "pressure_score": 358.3,
         "sources": [
           "corporate_insider"
         ]
@@ -593,109 +641,70 @@
         ]
       },
       {
-        "ticker": "NRIM",
-        "company": "NORTHRIM BANCORP INC",
-        "pressure_score": 330.6,
+        "ticker": "LPLA",
+        "company": "LPL Financial Holdings Inc.",
+        "pressure_score": 327.1,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SPGI",
-        "company": "S&P Global Inc. Common Stock",
-        "pressure_score": 286.9,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "LYV",
-        "company": "Common Stock",
-        "pressure_score": 286.1,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "EDU",
-        "company": "New Oriental Education & Technology Group Inc.",
-        "pressure_score": 258.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NMZ",
-        "company": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-        "pressure_score": 242.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "STE",
-        "company": "DC STERIS plc",
-        "pressure_score": 241.4,
-        "sources": [
-          "congress"
+          "corporate_insider",
+          "large_holder"
         ]
       }
     ]
   },
   "insider_buying": [
     {
-      "ticker": "FTAI",
-      "company": "FTAI Aviation Ltd.",
-      "actor": "Moreno David",
-      "actor_type": "ceo",
-      "amount": 498143.25,
-      "date": "2026-07-31",
-      "score": 79.3
-    },
-    {
-      "ticker": "EWAV",
-      "company": "East West Ave Acquisition Corp.",
-      "actor": "Huang Maoli",
-      "actor_type": "ceo",
-      "amount": 0.0,
+      "ticker": "APCX",
+      "company": "AppTech Payments Corp.",
+      "actor": "LORD ALBERT L",
+      "actor_type": "director",
+      "amount": 58000000.0,
       "date": "2026-08-03",
-      "score": 78.6
+      "score": 86.2
     },
     {
-      "ticker": "EWAV",
-      "company": "East West Ave Acquisition Corp.",
-      "actor": "Kerkaert Thomas John",
-      "actor_type": "cfo",
-      "amount": 0.0,
-      "date": "2026-08-03",
-      "score": 77.3
-    },
-    {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 490000.0,
-      "date": "2026-07-30",
-      "score": 76.8
-    },
-    {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 385793.46,
-      "date": "2026-07-30",
-      "score": 76.3
-    },
-    {
-      "ticker": "ACI",
-      "company": "Albertsons Companies, Inc.",
-      "actor": "MCCOLLAM SHARON",
-      "actor_type": "ceo",
-      "amount": 103320.0,
+      "ticker": "APCX",
+      "company": "AppTech Payments Corp.",
+      "actor": "LORD ALBERT L",
+      "actor_type": "director",
+      "amount": 57900000.0,
       "date": "2026-07-31",
-      "score": 75.9
+      "score": 84.7
+    },
+    {
+      "ticker": "ACOG",
+      "company": "Alpha Cognition Inc.",
+      "actor": "Opaleye Management Inc.",
+      "actor_type": "ten_percent_owner",
+      "amount": 400000.0,
+      "date": "2026-08-03",
+      "score": 77.9
+    },
+    {
+      "ticker": "ASPS",
+      "company": "ALTISOURCE PORTFOLIO SOLUTIONS S.A.",
+      "actor": "Benefit Street Partners LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 282972.02,
+      "date": "2026-08-03",
+      "score": 77.1
+    },
+    {
+      "ticker": "MKZR",
+      "company": "MacKenzie Realty Capital, Inc.",
+      "actor": "DIXON ROBERT E",
+      "actor_type": "ceo",
+      "amount": 36000.0,
+      "date": "2026-08-03",
+      "score": 76.4
+    },
+    {
+      "ticker": "MKZR",
+      "company": "MacKenzie Realty Capital, Inc.",
+      "actor": "DIXON ROBERT E",
+      "actor_type": "ceo",
+      "amount": 51606.0,
+      "date": "2026-07-31",
+      "score": 75.7
     },
     {
       "ticker": "CMCO",
@@ -707,76 +716,76 @@
       "score": 75.4
     },
     {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 248615.0,
-      "date": "2026-07-30",
-      "score": 75.3
-    },
-    {
-      "ticker": "EWAV",
-      "company": "East West Ave Acquisition Corp.",
-      "actor": "East West Avenue LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 0.0,
-      "date": "2026-07-31",
-      "score": 74.6
-    },
-    {
-      "ticker": "CLB",
-      "company": "Core Laboratories Inc. /DE/",
-      "actor": "Bruno Lawrence",
-      "actor_type": "ceo",
-      "amount": 53900.0,
+      "ticker": "BG",
+      "company": "Bunge Global SA",
+      "actor": "Mahoney Christopher",
+      "actor_type": "director",
+      "amount": 527650.0,
       "date": "2026-07-31",
       "score": 74.5
     },
     {
-      "ticker": "TLRY",
-      "company": "Tilray Brands, Inc.",
-      "actor": "Merton Carl A",
-      "actor_type": "cfo",
-      "amount": 46200.0,
-      "date": "2026-08-04",
-      "score": 74.4
-    },
-    {
-      "ticker": "DCX",
-      "company": "Digital Currency X Technology Inc.",
-      "actor": "Chen Melissa N",
-      "actor_type": "ceo",
-      "amount": 51250.0,
-      "date": "2026-07-30",
-      "score": 74.4
-    },
-    {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 124540.0,
-      "date": "2026-07-31",
-      "score": 73.8
-    },
-    {
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 120337.5,
-      "date": "2026-07-30",
-      "score": 73.8
-    },
-    {
-      "ticker": "TSM",
-      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "actor": "Tien Bor-Zen",
-      "actor_type": "officer",
-      "amount": 73060.0,
+      "ticker": "TSCO",
+      "company": "TRACTOR SUPPLY CO /DE/",
+      "actor": "Hawaux Andre J",
+      "actor_type": "director",
+      "amount": 100264.5,
       "date": "2026-08-03",
-      "score": 73.7
+      "score": 73.6
+    },
+    {
+      "ticker": "BG",
+      "company": "Bunge Global SA",
+      "actor": "Mahoney Christopher",
+      "actor_type": "director",
+      "amount": 161400.0,
+      "date": "2026-08-04",
+      "score": 73.4
+    },
+    {
+      "ticker": "ORN",
+      "company": "Orion Group Holdings Inc",
+      "actor": "Vasquez Alison Gaut",
+      "actor_type": "cfo",
+      "amount": 49998.75,
+      "date": "2026-07-31",
+      "score": 73.1
+    },
+    {
+      "ticker": "ORN",
+      "company": "Orion Group Holdings Inc",
+      "actor": "LEDFORD ROBERT",
+      "actor_type": "director",
+      "amount": 192430.0,
+      "date": "2026-07-31",
+      "score": 72.3
+    },
+    {
+      "ticker": "ARLP",
+      "company": "ALLIANCE RESOURCE PARTNERS LP",
+      "actor": "McDaniel Ronna R.",
+      "actor_type": "director",
+      "amount": 78345.0,
+      "date": "2026-07-31",
+      "score": 71.6
+    },
+    {
+      "ticker": "MKZR",
+      "company": "MacKenzie Realty Capital, Inc.",
+      "actor": "PATTERSON CHARLES E. II",
+      "actor_type": "director",
+      "amount": 36000.0,
+      "date": "2026-08-03",
+      "score": 71.4
+    },
+    {
+      "ticker": "MKZR",
+      "company": "MacKenzie Realty Capital, Inc.",
+      "actor": "PATTERSON CHARLES E. II",
+      "actor_type": "director",
+      "amount": 51606.0,
+      "date": "2026-07-31",
+      "score": 70.7
     }
   ],
   "institutional_changes": [
@@ -979,6 +988,22 @@
       "score": 65.2
     },
     {
+      "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-07-31",
+      "score": 65.0
+    },
+    {
+      "politician": "April McClain Delaney",
+      "ticker": "TSCO",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-27",
+      "score": 65.0
+    },
+    {
       "politician": "Kevin Hern",
       "ticker": "XOM",
       "direction": "other",
@@ -1028,26 +1053,10 @@
     },
     {
       "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-07-31",
-      "score": 63.7
-    },
-    {
-      "politician": "April McClain Delaney",
       "ticker": "SGI",
       "direction": "buy",
       "amount": 50000,
       "date": "2026-07-30",
-      "score": 63.7
-    },
-    {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-27",
       "score": 63.7
     },
     {
@@ -1225,7 +1234,7 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 69720.84,
+        "pnl": 69733.55,
         "win_rate": 0.9529,
         "volume": 309999.55,
         "categories": [
@@ -1235,7 +1244,7 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 42615.48,
+        "pnl": 42617.15,
         "win_rate": 0.9515,
         "volume": 594479.22,
         "categories": [
@@ -1245,9 +1254,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 25208.47,
+        "pnl": 25389.02,
         "win_rate": 0.984,
-        "volume": 251846.87,
+        "volume": 330034.53,
         "categories": [
           "sports",
           "crypto",
@@ -1268,7 +1277,7 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 29582.87,
+        "pnl": 29601.05,
         "win_rate": 0.9566,
         "volume": 813893.25,
         "categories": [
@@ -1278,9 +1287,9 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 24211.6,
+        "pnl": 24210.17,
         "win_rate": 0.9124,
-        "volume": 301914.57,
+        "volume": 302078.71,
         "categories": [
           "sports",
           "crypto"
@@ -1289,9 +1298,9 @@
       {
         "wallet": "0xc84f7e76ec",
         "username": "BrightStars",
-        "pnl": 102016.49,
+        "pnl": 78460.85,
         "win_rate": 0.791,
-        "volume": 153563.67,
+        "volume": 159045.85,
         "categories": [
           "politics",
           "sports",
@@ -1301,28 +1310,18 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 163548.49,
+        "pnl": 152408.2,
         "win_rate": 0.714,
-        "volume": 731773.08,
+        "volume": 751841.15,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xcf6c549212",
-        "username": "one8tyfive",
-        "pnl": 26475.5,
-        "win_rate": 0.829,
-        "volume": 126870.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x88c4919de7",
         "username": "QuietRiskisWrong",
-        "pnl": 39345.33,
+        "pnl": 39177.44,
         "win_rate": 0.8,
         "volume": 42898.36,
         "categories": [
@@ -1330,15 +1329,27 @@
           "politics",
           "economy"
         ]
+      },
+      {
+        "wallet": "0x7f9e2d1df7",
+        "username": "nojnn",
+        "pnl": 26481.44,
+        "win_rate": 0.8161,
+        "volume": 1636.39,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 81247.93,
-        "win_rate": 0.537,
-        "volume": 3813927.0,
+        "pnl": 82133.7,
+        "win_rate": 0.544,
+        "volume": 4580576.7,
         "categories": [
           "sports"
         ]
@@ -1346,8 +1357,8 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 115924.09,
-        "win_rate": 0.5228,
+        "pnl": 127057.84,
+        "win_rate": 0.5248,
         "volume": 683784.67,
         "categories": [
           "sports",
@@ -1357,7 +1368,7 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 29582.87,
+        "pnl": 29601.05,
         "win_rate": 0.9566,
         "volume": 813893.25,
         "categories": [
@@ -1365,32 +1376,32 @@
         ]
       },
       {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 75303.21,
+        "win_rate": 0.561,
+        "volume": 1568437.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 163548.49,
+        "pnl": 152408.2,
         "win_rate": 0.714,
-        "volume": 731773.08,
+        "volume": 751841.15,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 47231.36,
-        "win_rate": 0.562,
-        "volume": 1318764.47,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 28799.3,
-        "win_rate": 0.564,
-        "volume": 1518253.22,
+        "pnl": 29065.14,
+        "win_rate": 0.567,
+        "volume": 1541358.96,
         "categories": [
           "sports"
         ]
@@ -1398,7 +1409,7 @@
       {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 42615.48,
+        "pnl": 42617.15,
         "win_rate": 0.9515,
         "volume": 594479.22,
         "categories": [
@@ -1406,13 +1417,25 @@
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 27733.92,
-        "win_rate": 0.536,
-        "volume": 1374665.73,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 113314.89,
+        "win_rate": 0.707,
+        "volume": 1403341.98,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xbaa2bcb543",
+        "username": "denizz",
+        "pnl": 81402.8,
+        "win_rate": 0.65,
+        "volume": 313310.74,
+        "categories": [
+          "politics",
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1425,103 +1448,58 @@
           "sports",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0x8b4bca1d79",
-        "username": "0x8B4bcA1D794779E66e023D44391B2A86C5ab541B-1769764313952",
-        "pnl": 18456.17,
-        "win_rate": 0.8245,
-        "volume": 311400.18,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Strata Critical Medical ( NASDAQ : SRTA ) Issues Earnings Results",
-      "url": "https://www.themarketsdaily.com/2026/08/04/strata-critical-medical-nasdaqsrta-issues-earnings-results.html",
-      "ticker": "SRTA",
-      "themes": [
-        "earnings"
-      ],
+      "title": "Why HBO Max $949 Million Dystopian Sci - Fi Has Become A Global Streaming Hit",
+      "url": "https://screenrant.com/hbo-max-the-maze-runner-streaming-charts-rise-august-2026/",
+      "ticker": "SCI",
+      "themes": [],
       "date": "2026-08-04"
     },
     {
-      "title": "Strata Critical Medical ( NASDAQ : SRTA ) Posts Earnings Results",
-      "url": "https://www.dailypolitical.com/2026/08/04/strata-critical-medical-nasdaqsrta-posts-earnings-results.html",
-      "ticker": "SRTA",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "131 Poisoned AI Packages Hit Microsoft ( MSFT ) npm . CrowdStrike ( CRWD ) Couldnt Ask for a Better Sales Pitch",
-      "url": "https://finance.yahoo.com/technology/ai/articles/131-poisoned-ai-packages-hit-123042550.html",
-      "ticker": "CRWD",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Insider Buying : NextCure ( NASDAQ : NXTC ) Major Shareholder Purchases 36 , 303 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13528518/insider-buying-nextcure-nasdaqnxtc-major-shareholder-purchases-36303-shares.html",
-      "ticker": "NXTC",
+      "title": "Jim Cramer Stock Picks : Summit Therapeutics Is A  Great Spec  - Carvana ( NYSE : CVNA ) ",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/60903683/jim-cramer-calls-summit-therapeutics-a-great-spec-recommends-buying-this-consumer-cyclical-stock",
+      "ticker": "CVNA",
       "themes": [
         "stock"
       ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Circle Internet Group ( NYSE : CRCL ) Cut to  Strong Sell  at Wall Street Zen",
+      "url": "https://www.dailypolitical.com/2026/08/03/circle-internet-group-nysecrcl-cut-to-strong-sell-at-wall-street-zen.html",
+      "ticker": "CRCL",
+      "themes": [],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Circle Heads Into Q2 Earnings Amid Rising Short Interest Can CRCL Prove the Bears Wrong and Deliver Another Surprise Beat ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/circle-heads-q2-earnings-amid-043108868.html",
+      "ticker": "CRCL",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Circle ( CRCL ) slides after Morgan Stanley slashes price target to $38 from $106",
+      "url": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
+      "ticker": "CRCL",
+      "themes": [],
       "date": "2026-08-03"
     },
     {
-      "title": "Recent Investment Analyst Ratings Changes for MillerKnoll ( MLKN ) ",
-      "url": "https://www.themarketsdaily.com/2026/07/30/recent-investment-analysts-ratings-changes-for-millerknoll-mlkn.html",
-      "ticker": "MLKN",
+      "title": "BNP Paribas Exane Cuts Carvana ( NYSE : CVNA ) Price Target to $69 . 00",
+      "url": "https://www.themarketsdaily.com/2026/08/02/bnp-paribas-exane-cuts-carvana-nysecvna-price-target-to-69-00.html",
+      "ticker": "CVNA",
       "themes": [],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Insider Buying : NextCure ( NASDAQ : NXTC ) Major Shareholder Purchases 3 , 410 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/07/29/insider-buying-nextcure-nasdaqnxtc-major-shareholder-purchases-3410-shares-of-stock.html",
-      "ticker": "NXTC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "MillerKnoll ( NASDAQ : MLKN ) Cut to Hold at Wall Street Zen",
-      "url": "https://www.dailypolitical.com/2026/07/28/millerknoll-nasdaqmlkn-cut-to-hold-at-wall-street-zen.html",
-      "ticker": "MLKN",
-      "themes": [],
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call",
-      "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/strata-critical-medical-schedules-second-quarter-2026-earnings-conference-call/2388901",
-      "ticker": "SRTA",
-      "themes": [
-        "earnings",
-        "regulatory"
-      ],
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call",
-      "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/strata-critical-medical-schedules-second-quarter-2026-earnings-conference-call/2388862",
-      "ticker": "SRTA",
-      "themes": [
-        "earnings",
-        "regulatory"
-      ],
-      "date": "2026-07-21"
+      "date": "2026-08-02"
     }
   ],
-  "signals_count": 1511,
+  "signals_count": 1581,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
