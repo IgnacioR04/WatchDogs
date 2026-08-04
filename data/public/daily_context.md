@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-04T03:54:28+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
+_Generado 2026-08-04T06:56:29+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.86)
-- Tendencia: `bull` (SPY 757.67 · MA50 744.59 · MA200 697.91 · dist MA200: 8.56%)
+- Volatilidad: `normal` (VIX 15.99)
+- Tendencia: `bull` (SPY 747.03 · MA50 744.22 · MA200 697.41 · dist MA200: 7.12%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
@@ -22,28 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 757.67 | 1.42% | 2.51% | 0.85% |
-| QQQ | 12.0% | core | 700.07 | 1.76% | 2.63% | -3.15% |
-| TLT | 12.0% | core | 82.19 | -0.07% | -1.86% | -3.82% |
-| GLD | 9.3% | core | 371.71 | 0.05% | -0.78% | -2.73% |
-| IEF | 6.2% | core | 92.82 | -0.14% | -0.49% | -1.44% |
-| BEP | 5.5% | satellite | 33.68 | 2.5% | 4.82% | -0.33% |
-| NTST | 5.2% | satellite | 21.39 | -0.28% | -2.15% | -0.37% |
-| EIG | 4.9% | satellite | 50.65 | 0.2% | 1.99% | -0.8% |
-| DAR | 4.1% | satellite | 59.76 | -1.45% | -1.27% | 3.23% |
-| FFIV | 3.7% | satellite | 406.35 | 0.94% | -0.39% | -3.03% |
-| TRIP | 2.7% | satellite | 14.5 | 2.33% | 1.54% | 4.47% |
-| SNEX | 2.1% | satellite | 76.19 | -0.5% | 2.36% | -6.54% |
-| VG | 1.9% | satellite | 13.08 | -2.24% | 2.03% | 20.55% |
-| PWP | 1.7% | satellite | 17.17 | -2.72% | 6.18% | -0.29% |
-| SPCX | 1.7% | satellite | 114.53 | 5.68% | 0.91% | -28.61% |
+| SPY | 12.0% | core | 747.03 | 0.72% | 1.1% | 0.3% |
+| QQQ | 12.0% | core | 687.99 | 0.65% | 0.55% | -3.45% |
+| TLT | 12.0% | core | 82.25 | -0.66% | -1.2% | -3.81% |
+| GLD | 9.3% | core | 371.54 | -1.49% | -0.1% | -1.74% |
+| IEF | 6.2% | core | 92.95 | -0.28% | -0.09% | -1.24% |
+| BEP | 5.7% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
+| NTST | 5.1% | satellite | 21.45 | -0.65% | -3.38% | -0.97% |
+| EIG | 4.9% | satellite | 50.55 | -2.02% | 1.53% | -2.66% |
+| DAR | 4.1% | satellite | 60.64 | -0.59% | -2.98% | 7.27% |
+| FFIV | 3.7% | satellite | 402.57 | 3.55% | 2.64% | -1.36% |
+| TRIP | 2.7% | satellite | 14.17 | -0.14% | 3.43% | -0.84% |
+| SNEX | 2.1% | satellite | 76.57 | -1.35% | 3.11% | -4.72% |
+| VG | 1.9% | satellite | 13.38 | 1.06% | -6.5% | 20.22% |
+| PWP | 1.7% | satellite | 17.65 | 18.38% | 12.64% | 7.16% |
+| SPCX | 1.7% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.9%
+- Volatilidad anualizada: 7.8%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -3.1%
-- Beta vs SPY: 0.48 · posiciones efectivas: 14.5 · HHI: 0.069
+- Beta vs SPY: 0.49 · posiciones efectivas: 14.5 · HHI: 0.0691
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 757.67 (1.42% / 2.51% / 0.85%) [2026-08-03]
-- QQQ: 700.07 (1.76% / 2.63% / -3.15%) [2026-08-03]
-- IWM: 296.22 (1.72% / 1.13% / -0.9%) [2026-08-03]
-- DIA: 531.22 (1.32% / 1.91% / 0.24%) [2026-08-03]
-- TLT: 82.19 (-0.07% / -1.86% / -3.82%) [2026-08-03]
-- IEF: 92.82 (-0.14% / -0.49% / -1.44%) [2026-08-03]
-- GLD: 371.71 (0.05% / -0.78% / -2.73%) [2026-08-03]
-- ^VIX: 15.86 (-0.81% / -15.05% / 1.86%) [2026-08-03]
-- BTC-USD: 63744.45 (0.41% / -0.26% / -1.87%) [2026-08-04]
+- SPY: 747.03 (0.72% / 1.1% / 0.3%) [2026-07-31]
+- QQQ: 687.99 (0.65% / 0.55% / -3.45%) [2026-07-31]
+- IWM: 291.2 (-0.48% / 0.01% / -2.14%) [2026-07-31]
+- DIA: 524.32 (0.54% / 1.07% / -0.65%) [2026-07-31]
+- TLT: 82.25 (-0.66% / -1.2% / -3.81%) [2026-07-31]
+- IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
+- GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
+- ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
+- BTC-USD: 63603.45 (0.19% / -0.48% / -2.08%) [2026-08-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,12 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), earnings (1)
+**Temas dominantes**: stock (8), earnings (4), regulatory (3), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CORT] Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch (2026-07-31)
-- [CORT] Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results (2026-07-30)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares (2026-08-04)
+- [KMTS] Insider Selling : Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Sells $56 , 548 . 80 in Stock (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) CFO Vaseem Mahboob Sells 5 , 391 Shares (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford , Jr . Sells 13 , 015 Shares of Stock (2026-08-04)
+- [KMTS] Vaseem Mahboob Sells 5 , 391 Shares of Kestra Medical Technologies ( NASDAQ : KMTS ) Stock (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Timothy Moran Sells 2 , 380 Shares (2026-08-04)
+- [CLS] Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? (2026-08-03)
+- [KMI] Kinder Morgan , Inc . ( KMI ) to Issue Quarterly Dividend of $0 . 30 on August 17th (2026-08-01)
+- [KMI] Montchanin Asset Management LLC Takes $7 . 04 Million Position in Kinder Morgan , Inc . $KMI (2026-08-01)
+- [KMI] Kinder Morgan , Inc . ( NYSE : KMI ) Receives Average Rating of  Hold  from Analysts (2026-08-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $21,789 · win rate 95% · categorias: sports
-- Kosherlocks · PnL $16,200 · win rate 95% · categorias: sports, crypto
-- monkeymashingkeyboard · PnL $8,878 · win rate 92% · categorias: sports
-- UpTheBlues · PnL $35,425 · win rate 82% · categorias: sports
-- AV23IUa · PnL $153,993 · win rate 71% · categorias: sports, crypto
+- esportGG · PnL $21,804 · win rate 95% · categorias: sports
+- Kosherlocks · PnL $16,454 · win rate 95% · categorias: sports, crypto
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $9,458 · win rate 94% · categorias: sports, crypto
+- ic4cream · PnL $13,112 · win rate 89% · categorias: sports
+- luminaarx · PnL $10,267 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
