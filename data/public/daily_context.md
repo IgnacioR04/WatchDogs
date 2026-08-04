@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-04T06:56:29+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
+_Generado 2026-08-04T10:13:26+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.99)
+- Volatilidad: `normal` (VIX 15.71)
 - Tendencia: `bull` (SPY 747.03 · MA50 744.22 · MA200 697.41 · dist MA200: 7.12%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -24,9 +24,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 747.03 | 0.72% | 1.1% | 0.3% |
 | QQQ | 12.0% | core | 687.99 | 0.65% | 0.55% | -3.45% |
-| TLT | 12.0% | core | 82.25 | -0.66% | -1.2% | -3.81% |
+| TLT | 12.0% | core | 81.92 | -0.66% | -1.2% | -3.81% |
 | GLD | 9.3% | core | 371.54 | -1.49% | -0.1% | -1.74% |
-| IEF | 6.2% | core | 92.95 | -0.28% | -0.09% | -1.24% |
+| IEF | 6.2% | core | 92.63 | -0.28% | -0.09% | -1.24% |
 | BEP | 5.7% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
 | NTST | 5.1% | satellite | 21.45 | -0.65% | -3.38% | -0.97% |
 | EIG | 4.9% | satellite | 50.55 | -2.02% | 1.53% | -2.66% |
@@ -104,11 +104,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - QQQ: 687.99 (0.65% / 0.55% / -3.45%) [2026-07-31]
 - IWM: 291.2 (-0.48% / 0.01% / -2.14%) [2026-07-31]
 - DIA: 524.32 (0.54% / 1.07% / -0.65%) [2026-07-31]
-- TLT: 82.25 (-0.66% / -1.2% / -3.81%) [2026-07-31]
-- IEF: 92.95 (-0.28% / -0.09% / -1.24%) [2026-07-31]
+- TLT: 81.92 (-0.66% / -1.2% / -3.81%) [2026-07-31]
+- IEF: 92.63 (-0.28% / -0.09% / -1.24%) [2026-07-31]
 - GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
-- ^VIX: 15.99 (-6.44% / -13.94% / -0.99%) [2026-07-31]
-- BTC-USD: 63603.45 (0.19% / -0.48% / -2.08%) [2026-08-04]
+- ^VIX: 15.71 (-1.75% / -15.85% / 0.9%) [2026-08-04]
+- BTC-USD: 63459.69 (-0.04% / -0.7% / -2.3%) [2026-08-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (4), regulatory (3), ai (1), leadership (1)
+**Temas dominantes**: earnings (3), regulatory (2), ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares (2026-08-04)
-- [KMTS] Insider Selling : Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Sells $56 , 548 . 80 in Stock (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) CFO Vaseem Mahboob Sells 5 , 391 Shares (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford , Jr . Sells 13 , 015 Shares of Stock (2026-08-04)
-- [KMTS] Vaseem Mahboob Sells 5 , 391 Shares of Kestra Medical Technologies ( NASDAQ : KMTS ) Stock (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Timothy Moran Sells 2 , 380 Shares (2026-08-04)
 - [CLS] Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? (2026-08-03)
-- [KMI] Kinder Morgan , Inc . ( KMI ) to Issue Quarterly Dividend of $0 . 30 on August 17th (2026-08-01)
-- [KMI] Montchanin Asset Management LLC Takes $7 . 04 Million Position in Kinder Morgan , Inc . $KMI (2026-08-01)
-- [KMI] Kinder Morgan , Inc . ( NYSE : KMI ) Receives Average Rating of  Hold  from Analysts (2026-08-01)
+- [CORT] Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch (2026-07-31)
+- [CLS] Celestica ( NYSE : CLS ) Stock Price Up 7 . 8 % Following Analyst Upgrade (2026-07-30)
+- [CORT] Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results (2026-07-30)
+- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
+- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $21,804 · win rate 95% · categorias: sports
-- Kosherlocks · PnL $16,454 · win rate 95% · categorias: sports, crypto
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $9,458 · win rate 94% · categorias: sports, crypto
-- ic4cream · PnL $13,112 · win rate 89% · categorias: sports
-- luminaarx · PnL $10,267 · win rate 91% · categorias: sports
+- esportGG · PnL $39,560 · win rate 95% · categorias: sports
+- Kosherlocks · PnL $16,448 · win rate 95% · categorias: sports, crypto
+- matenghehe · PnL $10,824 · win rate 96% · categorias: sports, crypto
+- ic4cream · PnL $12,973 · win rate 89% · categorias: sports
+- AV23IUa · PnL $167,879 · win rate 71% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
