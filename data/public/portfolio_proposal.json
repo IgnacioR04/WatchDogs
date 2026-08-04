@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-04T12:35:29+00:00",
+  "generated_at": "2026-08-04T15:52:40+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
+    "NTST": 0.0702,
     "IEF": 0.0622,
-    "BEP": 0.0548,
-    "NTST": 0.0517,
-    "EIG": 0.0493,
-    "DAR": 0.0409,
-    "FFIV": 0.0369,
-    "TRIP": 0.0269,
-    "SNEX": 0.0211,
-    "VG": 0.0188,
-    "PWP": 0.0174,
-    "SPCX": 0.0166
+    "FFIV": 0.0499,
+    "ETOR": 0.0444,
+    "TRIP": 0.0367,
+    "FBIN": 0.0297,
+    "SNEX": 0.0288,
+    "VG": 0.0256,
+    "PWP": 0.0238,
+    "SPCX": 0.0223,
+    "NXTC": 0.0031
   },
   "core": {
     "SPY": 0.1934,
@@ -29,18 +29,26 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NTST": 0.046,
-    "VG": 0.0167,
-    "PWP": 0.0155,
-    "TRIP": 0.0239,
-    "SPCX": 0.0148,
-    "DAR": 0.0364,
-    "SNEX": 0.0188,
-    "EIG": 0.0438,
-    "FFIV": 0.0328,
-    "BEP": 0.0487
+    "NXTC": 0.0028,
+    "NTST": 0.0624,
+    "VG": 0.0228,
+    "PWP": 0.0212,
+    "TRIP": 0.0326,
+    "SPCX": 0.0198,
+    "ETOR": 0.0395,
+    "SNEX": 0.0256,
+    "FFIV": 0.0444,
+    "FBIN": 0.0264
   },
   "satellite_rationale": [
+    {
+      "ticker": "NXTC",
+      "score": 475.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 8
+    },
     {
       "ticker": "NTST",
       "score": 282.0,
@@ -82,16 +90,7 @@
       "n_signals": 3
     },
     {
-      "ticker": "DAR",
-      "score": 179.6,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "SNEX",
+      "ticker": "ETOR",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -99,7 +98,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "EIG",
+      "ticker": "SNEX",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -115,26 +114,26 @@
       "n_signals": 1
     },
     {
-      "ticker": "BEP",
-      "score": 58.5,
+      "ticker": "FBIN",
+      "score": 70.2,
       "sources": [
-        "congress"
+        "large_holder"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0791,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0102,
-    "max_drawdown": -0.031,
-    "beta_spy": 0.484,
-    "hhi": 0.069,
+    "ann_vol": 0.1052,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0134,
+    "max_drawdown": -0.0308,
+    "beta_spy": 0.634,
+    "hhi": 0.07,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.8499,
-    "days_used": 33
+    "effective_positions": 14.3,
+    "gross_exposure": 0.85,
+    "days_used": 34
   },
   "risk_gate": {
     "passed": true,

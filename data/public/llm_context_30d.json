@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-04T12:34:29.021209+00:00",
+  "generated_at": "2026-08-04T15:51:45.819676+00:00",
   "window": {
     "from": "2026-07-05",
     "to": "2026-08-04",
@@ -26,7 +26,7 @@
       "stock",
       "earnings",
       "regulatory",
-      "leadership"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -34,6 +34,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner opero GALT ($95.5M)",
+      "summary": "10% owner Uihlein Richard E opero GALT por $95.5M el 2026-07-31 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Uihlein Richard E",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GALT",
+      "direction": "other",
+      "amount_estimated": 95475705.0,
+      "event_date": "2026-07-31",
+      "importance_score": 85.5,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1694903/000113341626000065/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner vendio JMKE ($96.4M)",
       "summary": "10% owner Abu Dhabi Investment Authority vendio JMKE por $96.4M el 2026-07-31.",
       "source": "sec_form_4",
@@ -50,8 +68,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1362558/000110465926089978/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO opero PBI ($8.8M)",
       "summary": "CEO Wolf Kurt James opero PBI por $8.8M el 2026-08-03.",
       "source": "sec_form_4",
@@ -68,8 +86,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000012/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO opero PBI ($8.4M)",
       "summary": "CEO Wolf Kurt James opero PBI por $8.4M el 2026-08-03.",
       "source": "sec_form_4",
@@ -86,8 +104,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000012/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio PBI ($6.8M)",
       "summary": "CEO Wolf Kurt James vendio PBI por $6.8M el 2026-08-03.",
       "source": "sec_form_4",
@@ -104,8 +122,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693906/000169390626000011/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO compro HUN ($981K)",
       "summary": "CEO Huntsman Peter R compro HUN por $981K el 2026-08-03.",
       "source": "sec_form_4",
@@ -120,24 +138,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1314653/000121465926009468/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio RUSHA ($5.8M)",
-      "summary": "CEO RUSH WILLIAM M RUSTY vendio RUSHA por $5.8M el 2026-08-03.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "RUSH WILLIAM M RUSTY",
-      "actor_type": "ceo",
-      "ticker": "RUSHA",
-      "direction": "sell",
-      "amount_estimated": 5801180.06,
-      "event_date": "2026-08-03",
-      "importance_score": 82.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1211953/000143774926025492/"
     },
     {
       "id": "move_7",
@@ -476,15 +476,6 @@
         ]
       },
       {
-        "ticker": "DAR",
-        "company": "Darling Ingredients Inc",
-        "pressure_score": 210.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
         "pressure_score": 174.3,
@@ -513,6 +504,15 @@
         "company": "C3is Inc.",
         "pressure_score": 141.0,
         "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "BXSY",
+        "company": "Bexil Investment Trust",
+        "pressure_score": 140.7,
+        "sources": [
+          "corporate_insider",
           "large_holder"
         ]
       }
@@ -554,14 +554,6 @@
         "ticker": "PBI",
         "company": "PITNEY BOWES INC /DE/",
         "pressure_score": 609.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RUSHA",
-        "company": "RUSH ENTERPRISES INC \\TX\\",
-        "pressure_score": 445.3,
         "sources": [
           "corporate_insider"
         ]
@@ -632,11 +624,19 @@
         ]
       },
       {
-        "ticker": "CAKE",
-        "company": "CHEESECAKE FACTORY INC",
-        "pressure_score": 264.9,
+        "ticker": "EDU",
+        "company": "New Oriental Education & Technology Group Inc.",
+        "pressure_score": 258.5,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UNH",
+        "company": "Common Stock",
+        "pressure_score": 233.2,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -715,6 +715,15 @@
       "score": 75.9
     },
     {
+      "ticker": "CMCO",
+      "company": "COLUMBUS MCKINNON CORP",
+      "actor": "Linker John R",
+      "actor_type": "cfo",
+      "amount": 147525.0,
+      "date": "2026-07-31",
+      "score": 75.4
+    },
+    {
       "ticker": "NXTC",
       "company": "NextCure, Inc.",
       "actor": "ADAR1 Capital Management, LLC",
@@ -731,6 +740,15 @@
       "amount": 0.0,
       "date": "2026-07-31",
       "score": 74.6
+    },
+    {
+      "ticker": "CLB",
+      "company": "Core Laboratories Inc. /DE/",
+      "actor": "Bruno Lawrence",
+      "actor_type": "ceo",
+      "amount": 53900.0,
+      "date": "2026-07-31",
+      "score": 74.5
     },
     {
       "ticker": "DCX",
@@ -758,24 +776,6 @@
       "amount": 120337.5,
       "date": "2026-07-30",
       "score": 73.8
-    },
-    {
-      "ticker": "TSM",
-      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "actor": "Tien Bor-Zen",
-      "actor_type": "officer",
-      "amount": 73060.0,
-      "date": "2026-08-03",
-      "score": 73.7
-    },
-    {
-      "ticker": "EWAV",
-      "company": "East West Ave Acquisition Corp.",
-      "actor": "Verjee Irfan",
-      "actor_type": "director",
-      "amount": 0.0,
-      "date": "2026-08-03",
-      "score": 73.6
     }
   ],
   "institutional_changes": [
@@ -1035,14 +1035,6 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "ACN",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 62.4
-    },
-    {
-      "politician": "Dan Newhouse",
       "ticker": "LLY",
       "direction": "sell",
       "amount": 15000,
@@ -1066,16 +1058,24 @@
       "score": 62.2
     },
     {
-      "politician": "Dan Newhouse",
-      "ticker": "ADBE",
+      "politician": "Virginia Foxx",
+      "ticker": "ARLP",
       "direction": "sell",
+      "amount": 50000,
+      "date": "2026-06-18",
+      "score": 62.0
+    },
+    {
+      "politician": "Dan Newhouse",
+      "ticker": "ACN",
+      "direction": "buy",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 61.1
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "AMD",
+      "ticker": "ADBE",
       "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
@@ -1127,6 +1127,15 @@
       "shares": 148681347,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-31"
+    },
+    {
+      "filer": "Richard E. Uihlein",
+      "company": "GALECTIN THERAPEUTICS INC",
+      "ticker": "GALT",
+      "ownership_pct": 49.3,
+      "shares": 54673646,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-04"
     },
     {
       "filer": "Catalyst4, Inc.",
@@ -1208,15 +1217,6 @@
       "shares": 11844145,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-07-31"
-    },
-    {
-      "filer": "Hyperscale Data, Inc.",
-      "company": "UNIVERSAL SAFETY PRODUCTS, INC.",
-      "ticker": "UUU",
-      "ownership_pct": 34.5,
-      "shares": 1045252,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-07-31"
     }
   ],
   "polymarket": {
@@ -1224,19 +1224,9 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 32572.32,
-        "win_rate": 0.9516,
-        "volume": 74999.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 28738.78,
-        "win_rate": 0.9508,
-        "volume": 227032.07,
+        "pnl": 62918.75,
+        "win_rate": 0.9524,
+        "volume": 184999.73,
         "categories": [
           "sports"
         ]
@@ -1244,9 +1234,30 @@
       {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
-        "pnl": 22395.21,
-        "win_rate": 0.9636,
-        "volume": 359880.32,
+        "pnl": 27432.04,
+        "win_rate": 0.9642,
+        "volume": 427114.54,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 26771.11,
+        "win_rate": 0.9511,
+        "volume": 445345.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x57b4520916",
+        "username": "Skyfker",
+        "pnl": 26447.42,
+        "win_rate": 0.9167,
+        "volume": 243080.41,
         "categories": [
           "sports",
           "crypto"
@@ -1255,7 +1266,7 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 16444.02,
+        "pnl": 16457.32,
         "win_rate": 0.9455,
         "volume": 44444.44,
         "categories": [
@@ -1264,54 +1275,11 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 26374.0,
-        "win_rate": 0.9082,
-        "volume": 197700.37,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xfaf98181c4",
-        "username": "onekey02",
-        "pnl": 10564.72,
-        "win_rate": 0.9598,
-        "volume": 25000.0,
-        "categories": [
-          "politics",
-          "crypto",
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1d169955b7",
-        "username": "HONGKONGPEACH",
-        "pnl": 14708.75,
-        "win_rate": 0.8844,
-        "volume": 33217.76,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 12941.82,
-        "win_rate": 0.893,
-        "volume": 7362.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xc84f7e76ec",
         "username": "BrightStars",
-        "pnl": 54551.75,
+        "pnl": 102201.49,
         "win_rate": 0.791,
-        "volume": 122046.99,
+        "volume": 146147.69,
         "categories": [
           "politics",
           "sports",
@@ -1319,24 +1287,11 @@
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 168541.59,
-        "win_rate": 0.7118,
-        "volume": 716309.67,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 75188.61,
-        "win_rate": 0.551,
-        "volume": 1568414.3,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 55641.48,
+        "win_rate": 0.784,
+        "volume": 412592.86,
         "categories": [
           "sports"
         ]
@@ -1344,20 +1299,65 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 168541.59,
+        "pnl": 142311.06,
         "win_rate": 0.7118,
-        "volume": 716309.67,
+        "volume": 717576.11,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0xc1c7bb8761",
+        "username": "five5120",
+        "pnl": 17854.88,
+        "win_rate": 0.8268,
+        "volume": 152788.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x88c4919de7",
+        "username": "QuietRiskisWrong",
+        "pnl": 20551.81,
+        "win_rate": 0.8,
+        "volume": 42898.36,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 41478.99,
+        "win_rate": 0.547,
+        "volume": 2242920.06,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 91783.29,
+        "pnl": 80465.51,
         "win_rate": 0.5188,
-        "volume": 395523.43,
+        "volume": 410803.57,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 142311.06,
+        "win_rate": 0.7118,
+        "volume": 717576.11,
         "categories": [
           "sports",
           "crypto"
@@ -1366,9 +1366,19 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 28492.22,
-        "win_rate": 0.553,
-        "volume": 639417.08,
+        "pnl": 25467.28,
+        "win_rate": 0.557,
+        "volume": 877825.74,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 23055.76,
+        "win_rate": 0.562,
+        "volume": 1076363.12,
         "categories": [
           "sports"
         ]
@@ -1376,69 +1386,88 @@
       {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
-        "pnl": 22395.21,
-        "win_rate": 0.9636,
-        "volume": 359880.32,
+        "pnl": 27432.04,
+        "win_rate": 0.9642,
+        "volume": 427114.54,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 117231.22,
-        "win_rate": 0.659,
-        "volume": 505565.09,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe291a588ec",
-        "username": "patient12",
-        "pnl": 37457.44,
-        "win_rate": 0.6651,
-        "volume": 195353.24,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xf070207d31",
         "username": "esportGG",
-        "pnl": 28738.78,
-        "win_rate": 0.9508,
-        "volume": 227032.07,
+        "pnl": 26771.11,
+        "win_rate": 0.9511,
+        "volume": 445345.05,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 26374.0,
-        "win_rate": 0.9082,
-        "volume": 197700.37,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 118039.01,
+        "win_rate": 0.659,
+        "volume": 526786.01,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbaa2bcb543",
+        "username": "denizz",
+        "pnl": 66909.02,
+        "win_rate": 0.651,
+        "volume": 225736.79,
+        "categories": [
+          "politics",
           "sports",
-          "politics"
+          "crypto"
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 19656.17,
-        "win_rate": 0.56,
-        "volume": 570891.48,
+        "wallet": "0x162f6fff88",
+        "username": "Valen9",
+        "pnl": 18790.62,
+        "win_rate": 0.629,
+        "volume": 283900.82,
         "categories": [
-          "sports"
+          "politics",
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Strata Critical Medical ( NASDAQ : SRTA ) Issues Earnings Results",
+      "url": "https://www.themarketsdaily.com/2026/08/04/strata-critical-medical-nasdaqsrta-issues-earnings-results.html",
+      "ticker": "SRTA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Strata Critical Medical ( NASDAQ : SRTA ) Posts Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/08/04/strata-critical-medical-nasdaqsrta-posts-earnings-results.html",
+      "ticker": "SRTA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "IZEA Announces Q2 2026 Earnings Results Conference Call",
+      "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/izea-announces-q2-2026-earnings-results-conference-call/2397913",
+      "ticker": "IZEA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
     {
       "title": "Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares",
       "url": "https://www.dailypolitical.com/2026/08/03/kestra-medical-technologies-nasdaqkmts-insider-alfred-ford-jr-sells-8681-shares.html",
@@ -1501,36 +1530,11 @@
       "date": "2026-08-03"
     },
     {
-      "title": "Kinder Morgan , Inc . ( KMI ) to Issue Quarterly Dividend of $0 . 30 on August 17th",
-      "url": "https://www.themarketsdaily.com/2026/08/01/kinder-morgan-inc-kmi-to-issue-quarterly-dividend-of-0-30-on-august-17th.html",
-      "ticker": "KMI",
+      "title": "Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/top-biotech-gainers-gctk-on-the-move-bhc-cort-boost-fy26-outlook-neog-on-watch-1036389258",
+      "ticker": "CORT",
       "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-01"
-    },
-    {
-      "title": "Montchanin Asset Management LLC Takes $7 . 04 Million Position in Kinder Morgan , Inc . $KMI",
-      "url": "https://www.tickerreport.com/banking-finance/13526044/montchanin-asset-management-llc-takes-7-04-million-position-in-kinder-morgan-inc-kmi.html",
-      "ticker": "KMI",
-      "themes": [],
-      "date": "2026-08-01"
-    },
-    {
-      "title": "Kinder Morgan , Inc . ( NYSE : KMI ) Receives Average Rating of  Hold  from Analysts",
-      "url": "https://www.themarketsdaily.com/2026/08/01/kinder-morgan-inc-nysekmi-receives-average-rating-of-hold-from-analysts.html",
-      "ticker": "KMI",
-      "themes": [],
-      "date": "2026-08-01"
-    },
-    {
-      "title": "Kinder Morgan Executive Dumps 5 , 695 Shares for $184k , According to Recent SEC Filing",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kinder-morgan-executive-dumps-5-131503689.html",
-      "ticker": "KMI",
-      "themes": [
-        "regulatory",
-        "leadership",
-        "stock"
+        "ai"
       ],
       "date": "2026-07-31"
     },
@@ -1540,6 +1544,15 @@
       "ticker": "CLS",
       "themes": [
         "stock"
+      ],
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/07/29/corcept-therapeutics-nasdaqcort-issues-earnings-results.html",
+      "ticker": "CORT",
+      "themes": [
+        "earnings"
       ],
       "date": "2026-07-30"
     },
@@ -1564,7 +1577,7 @@
       "date": "2026-07-21"
     }
   ],
-  "signals_count": 1532,
+  "signals_count": 1518,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
