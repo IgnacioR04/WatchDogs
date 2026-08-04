@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-04T10:13:26+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
+_Generado 2026-08-04T12:35:31+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.71)
-- Tendencia: `bull` (SPY 747.03 · MA50 744.22 · MA200 697.41 · dist MA200: 7.12%)
+- Volatilidad: `normal` (VIX 15.66)
+- Tendencia: `bull` (SPY 757.67 · MA50 744.59 · MA200 697.91 · dist MA200: 8.56%)
 - Credito: `tight` (HY spread 2.84)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
@@ -22,28 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 747.03 | 0.72% | 1.1% | 0.3% |
-| QQQ | 12.0% | core | 687.99 | 0.65% | 0.55% | -3.45% |
-| TLT | 12.0% | core | 81.92 | -0.66% | -1.2% | -3.81% |
-| GLD | 9.3% | core | 371.54 | -1.49% | -0.1% | -1.74% |
-| IEF | 6.2% | core | 92.63 | -0.28% | -0.09% | -1.24% |
-| BEP | 5.7% | satellite | 32.86 | 0.61% | -0.79% | -3.01% |
-| NTST | 5.1% | satellite | 21.45 | -0.65% | -3.38% | -0.97% |
-| EIG | 4.9% | satellite | 50.55 | -2.02% | 1.53% | -2.66% |
-| DAR | 4.1% | satellite | 60.64 | -0.59% | -2.98% | 7.27% |
-| FFIV | 3.7% | satellite | 402.57 | 3.55% | 2.64% | -1.36% |
-| TRIP | 2.7% | satellite | 14.17 | -0.14% | 3.43% | -0.84% |
-| SNEX | 2.1% | satellite | 76.57 | -1.35% | 3.11% | -4.72% |
-| VG | 1.9% | satellite | 13.38 | 1.06% | -6.5% | 20.22% |
-| PWP | 1.7% | satellite | 17.65 | 18.38% | 12.64% | 7.16% |
-| SPCX | 1.7% | satellite | 108.37 | -3.41% | -5.82% | -33.1% |
+| SPY | 12.0% | core | 757.67 | 1.42% | 2.51% | 0.85% |
+| QQQ | 12.0% | core | 700.07 | 1.76% | 2.63% | -3.15% |
+| TLT | 12.0% | core | 82.19 | 0.33% | -1.47% | -3.43% |
+| GLD | 9.3% | core | 371.71 | 0.05% | -0.78% | -2.73% |
+| IEF | 6.2% | core | 92.82 | 0.2% | -0.15% | -1.11% |
+| BEP | 5.5% | satellite | 33.68 | 2.5% | 4.82% | -0.33% |
+| NTST | 5.2% | satellite | 21.39 | -0.28% | -2.15% | -0.37% |
+| EIG | 4.9% | satellite | 50.65 | 0.2% | 1.99% | -0.8% |
+| DAR | 4.1% | satellite | 59.76 | -1.45% | -1.27% | 3.23% |
+| FFIV | 3.7% | satellite | 406.35 | 0.94% | -0.39% | -3.03% |
+| TRIP | 2.7% | satellite | 14.5 | 2.33% | 1.54% | 4.47% |
+| SNEX | 2.1% | satellite | 76.19 | -0.5% | 2.36% | -6.54% |
+| VG | 1.9% | satellite | 13.08 | -2.24% | 2.03% | 20.55% |
+| PWP | 1.7% | satellite | 17.17 | -2.72% | 6.18% | -0.29% |
+| SPCX | 1.7% | satellite | 114.53 | 5.68% | 0.91% | -28.61% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.8%
+- Volatilidad anualizada: 7.9%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -3.1%
-- Beta vs SPY: 0.49 · posiciones efectivas: 14.5 · HHI: 0.0691
+- Beta vs SPY: 0.484 · posiciones efectivas: 14.5 · HHI: 0.069
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -78,7 +78,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AGNT | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | FFIV | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | DAR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| RNAZ | 70 | large_holder | DEFJ, LLC |  | - | - |
+| STIM | 70 | large_holder | Chernett Jorey |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -91,7 +91,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | LLY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| ADBE | 61 | congress | Dan Newhouse | $15,000 | small_amount |
+| JMKE | 61 | corporate_insider | Abu Dhabi Investment Auth | $96,381,748 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 747.03 (0.72% / 1.1% / 0.3%) [2026-07-31]
-- QQQ: 687.99 (0.65% / 0.55% / -3.45%) [2026-07-31]
-- IWM: 291.2 (-0.48% / 0.01% / -2.14%) [2026-07-31]
-- DIA: 524.32 (0.54% / 1.07% / -0.65%) [2026-07-31]
-- TLT: 81.92 (-0.66% / -1.2% / -3.81%) [2026-07-31]
-- IEF: 92.63 (-0.28% / -0.09% / -1.24%) [2026-07-31]
-- GLD: 371.54 (-1.49% / -0.1% / -1.74%) [2026-07-31]
-- ^VIX: 15.71 (-1.75% / -15.85% / 0.9%) [2026-08-04]
-- BTC-USD: 63459.69 (-0.04% / -0.7% / -2.3%) [2026-08-04]
+- SPY: 757.67 (1.42% / 2.51% / 0.85%) [2026-08-03]
+- QQQ: 700.07 (1.76% / 2.63% / -3.15%) [2026-08-03]
+- IWM: 296.22 (1.72% / 1.13% / -0.9%) [2026-08-03]
+- DIA: 531.22 (1.32% / 1.91% / 0.24%) [2026-08-03]
+- TLT: 82.19 (0.33% / -1.47% / -3.43%) [2026-08-03]
+- IEF: 92.82 (0.2% / -0.15% / -1.11%) [2026-08-03]
+- GLD: 371.71 (0.05% / -0.78% / -2.73%) [2026-08-03]
+- ^VIX: 15.66 (-1.26% / -14.0% / -2.91%) [2026-08-04]
+- BTC-USD: 63797.64 (0.5% / -0.17% / -1.78%) [2026-08-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), regulatory (2), ai (1), stock (1)
+**Temas dominantes**: stock (8), earnings (3), regulatory (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares (2026-08-04)
+- [KMTS] Insider Selling : Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Sells $56 , 548 . 80 in Stock (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) CFO Vaseem Mahboob Sells 5 , 391 Shares (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford , Jr . Sells 13 , 015 Shares of Stock (2026-08-04)
+- [KMTS] Vaseem Mahboob Sells 5 , 391 Shares of Kestra Medical Technologies ( NASDAQ : KMTS ) Stock (2026-08-04)
+- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Timothy Moran Sells 2 , 380 Shares (2026-08-04)
 - [CLS] Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? (2026-08-03)
-- [CORT] Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch (2026-07-31)
-- [CLS] Celestica ( NYSE : CLS ) Stock Price Up 7 . 8 % Following Analyst Upgrade (2026-07-30)
-- [CORT] Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results (2026-07-30)
-- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
-- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
+- [KMI] Kinder Morgan , Inc . ( KMI ) to Issue Quarterly Dividend of $0 . 30 on August 17th (2026-08-01)
+- [KMI] Montchanin Asset Management LLC Takes $7 . 04 Million Position in Kinder Morgan , Inc . $KMI (2026-08-01)
+- [KMI] Kinder Morgan , Inc . ( NYSE : KMI ) Receives Average Rating of  Hold  from Analysts (2026-08-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Abu Dhabi Investment Authority vendio JMKE por $96.4M el 2026-07-31.
 - CEO Wolf Kurt James opero PBI por $8.8M el 2026-08-03.
 - CEO Huntsman Peter R compro HUN por $981K el 2026-08-03.
 - CEO RUSH WILLIAM M RUSTY vendio RUSHA por $5.8M el 2026-08-03.
@@ -143,15 +148,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 - Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
-- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- esportGG · PnL $39,560 · win rate 95% · categorias: sports
-- Kosherlocks · PnL $16,448 · win rate 95% · categorias: sports, crypto
-- matenghehe · PnL $10,824 · win rate 96% · categorias: sports, crypto
-- ic4cream · PnL $12,973 · win rate 89% · categorias: sports
-- AV23IUa · PnL $167,879 · win rate 71% · categorias: sports, crypto
+- Dota2winner · PnL $32,572 · win rate 95% · categorias: sports
+- esportGG · PnL $28,739 · win rate 95% · categorias: sports
+- matenghehe · PnL $22,395 · win rate 96% · categorias: sports, crypto
+- Kosherlocks · PnL $16,444 · win rate 95% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $26,374 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,8 +163,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 45 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 612 registros 30d · ultimo dato 2026-08-03
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-03
+- **sec_insiders**: `ok` · 609 registros 30d · ultimo dato 2026-08-03
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-04
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
