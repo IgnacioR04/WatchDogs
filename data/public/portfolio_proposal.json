@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-04T18:19:12+00:00",
+  "generated_at": "2026-08-04T20:13:37+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "NTST": 0.0639,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "EIG": 0.0614,
-    "ETOR": 0.0406,
-    "HAYW": 0.0404,
-    "TRIP": 0.0336,
-    "SNEX": 0.0265,
-    "VG": 0.0236,
-    "PWP": 0.0219,
-    "SPCX": 0.0198,
-    "NXTC": 0.0029
+    "FWONK": 0.0586,
+    "NTST": 0.0574,
+    "SCI": 0.0567,
+    "LTH": 0.0469,
+    "TRIP": 0.0301,
+    "CHRW": 0.0243,
+    "VG": 0.021,
+    "PWP": 0.0196,
+    "SPCX": 0.0174,
+    "NXTC": 0.0026
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NXTC": 0.0026,
-    "NTST": 0.0568,
-    "VG": 0.021,
-    "PWP": 0.0195,
-    "TRIP": 0.0299,
-    "SPCX": 0.0176,
-    "ETOR": 0.0361,
-    "HAYW": 0.0359,
-    "SNEX": 0.0236,
-    "EIG": 0.0546
+    "NXTC": 0.0023,
+    "NTST": 0.051,
+    "FWONK": 0.0521,
+    "VG": 0.0187,
+    "PWP": 0.0174,
+    "TRIP": 0.0268,
+    "SPCX": 0.0155,
+    "CHRW": 0.0216,
+    "LTH": 0.0417,
+    "SCI": 0.0504
   },
   "satellite_rationale": [
     {
@@ -54,6 +54,14 @@
       "score": 282.0,
       "sources": [
         "large_holder"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "FWONK",
+      "score": 248.8,
+      "sources": [
+        "congress"
       ],
       "n_signals": 4
     },
@@ -90,32 +98,24 @@
       "n_signals": 3
     },
     {
-      "ticker": "ETOR",
-      "score": 71.8,
+      "ticker": "CHRW",
+      "score": 127.4,
       "sources": [
-        "large_holder"
+        "congress"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "HAYW",
-      "score": 71.8,
+      "ticker": "LTH",
+      "score": 124.4,
       "sources": [
-        "large_holder"
+        "congress"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "SNEX",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "EIG",
-      "score": 71.8,
+      "ticker": "SCI",
+      "score": 73.0,
       "sources": [
         "large_holder"
       ],
@@ -123,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0939,
-    "var_95_1d": 0.0085,
-    "cvar_95_1d": 0.0105,
-    "max_drawdown": -0.0302,
-    "beta_spy": 0.489,
-    "hhi": 0.0702,
+    "ann_vol": 0.0775,
+    "var_95_1d": 0.0061,
+    "cvar_95_1d": 0.0086,
+    "max_drawdown": -0.0146,
+    "beta_spy": 0.362,
+    "hhi": 0.0705,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.3,
-    "gross_exposure": 0.85,
+    "effective_positions": 14.2,
+    "gross_exposure": 0.8501,
     "days_used": 34
   },
   "risk_gate": {
