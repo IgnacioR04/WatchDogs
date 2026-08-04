@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-03T23:38:07+00:00 -->
+<!-- trader_prompt.md generado 2026-08-04T03:54:28+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-03T23:38:07+00:00 · ventana señales 2026-07-04 -> 2026-08-03_
+_Generado 2026-08-04T03:54:28+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -254,22 +254,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 82.19 | -0.07% | -1.86% | -3.82% |
 | GLD | 9.3% | core | 371.71 | 0.05% | -0.78% | -2.73% |
 | IEF | 6.2% | core | 92.82 | -0.14% | -0.49% | -1.44% |
-| BEP | 5.8% | satellite | 33.68 | 2.5% | 4.82% | -0.33% |
-| NTST | 5.5% | satellite | 21.39 | -0.28% | -2.15% | -0.37% |
-| EIG | 5.3% | satellite | 50.65 | 0.2% | 1.99% | -0.8% |
-| DAR | 4.4% | satellite | 59.76 | -1.45% | -1.27% | 3.23% |
-| FFIV | 4.0% | satellite | 406.35 | 0.94% | -0.39% | -3.03% |
-| TRIP | 2.9% | satellite | 14.5 | 2.33% | 1.54% | 4.47% |
-| VG | 2.0% | satellite | 13.08 | -2.24% | 2.03% | 20.55% |
-| PWP | 1.9% | satellite | 17.17 | -2.72% | 6.18% | -0.29% |
-| SPCX | 1.8% | satellite | 114.53 | 5.68% | 0.91% | -28.61% |
+| BEP | 5.5% | satellite | 33.68 | 2.5% | 4.82% | -0.33% |
+| NTST | 5.2% | satellite | 21.39 | -0.28% | -2.15% | -0.37% |
+| EIG | 4.9% | satellite | 50.65 | 0.2% | 1.99% | -0.8% |
+| DAR | 4.1% | satellite | 59.76 | -1.45% | -1.27% | 3.23% |
+| FFIV | 3.7% | satellite | 406.35 | 0.94% | -0.39% | -3.03% |
+| TRIP | 2.7% | satellite | 14.5 | 2.33% | 1.54% | 4.47% |
+| SNEX | 2.1% | satellite | 76.19 | -0.5% | 2.36% | -6.54% |
+| VG | 1.9% | satellite | 13.08 | -2.24% | 2.03% | 20.55% |
+| PWP | 1.7% | satellite | 17.17 | -2.72% | 6.18% | -0.29% |
+| SPCX | 1.7% | satellite | 114.53 | 5.68% | 0.91% | -28.61% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.7%
+- Volatilidad anualizada: 7.9%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.9%
-- Beta vs SPY: 0.466 · posiciones efectivas: 14.2 · HHI: 0.0704
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.48 · posiciones efectivas: 14.5 · HHI: 0.069
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -279,6 +280,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **TRIP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **DAR** · score agregado 179.6 · 3 señales · fuentes: corporate_insider, large_holder
+- **SNEX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **EIG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FFIV** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BEP** · score agregado 58.5 · 1 señales · fuentes: congress
@@ -289,21 +291,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| EWAV | 80 | corporate_insider | Huang Maoli | 5 | - | cluster_buy |
+| EWAV | 80 | corporate_insider | Kerkaert Thomas John | 5 | - | cluster_buy |
+| EWAV | 78 | corporate_insider | East West Avenue LLC | 5 | - | cluster_buy |
+| EWAV | 76 | corporate_insider | Verjee Irfan | 5 | - | cluster_buy |
+| EWAV | 76 | corporate_insider | Parikh Samir | 5 | - | cluster_buy |
+| EWAV | 72 | large_holder | Space Summit Capital LLC |  | - | - |
 | MORN | 72 | large_holder | Daniel Mansueto |  | - | - |
 | BBIO | 72 | large_holder | Farallon Capital Manageme |  | - | - |
-| STX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| SNEX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | ICHR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | EIG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | AGNT | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | FFIV | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | DAR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| HOG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | RNAZ | 70 | large_holder | DEFJ, LLC |  | - | - |
-| GCO | 70 | large_holder | Radoff Bradley Louis |  | - | - |
-| BAP | 70 | large_holder | BlackRock, Inc. |  | - | - |
-| EWAV | 70 | large_holder | Space Summit Capital LLC |  | - | - |
-| MWC | 70 | large_holder | O-WELL Corp |  | - | - |
-| CISS | 70 | large_holder | CVI Investments, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -312,11 +314,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | XOM | 65 | congress | James A. Himes | $50,000 | - |
 | HD | 65 | congress | James A. Himes | $50,000 | - |
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
-| APH | 63 | corporate_insider | NORWITT RICHARD ADAM | $80,787,400 | - |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
 | BLK | 63 | congress | John McGuire | $15,000 | small_amount |
 | LLY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| ADBE | 61 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -333,7 +335,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.14% / -0.49% / -1.44%) [2026-08-03]
 - GLD: 371.71 (0.05% / -0.78% / -2.73%) [2026-08-03]
 - ^VIX: 15.86 (-0.81% / -15.05% / 1.86%) [2026-08-03]
-- BTC-USD: 63466.44 (-0.02% / -0.69% / -2.29%) [2026-08-03]
+- BTC-USD: 63744.45 (0.41% / -0.26% / -1.87%) [2026-08-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,33 +350,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (2), regulatory (2), stock (1)
+**Temas dominantes**: ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CLS] Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? (2026-08-03)
-- [CLS] Celestica ( NYSE : CLS ) Stock Price Up 7 . 8 % Following Analyst Upgrade (2026-07-30)
-- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
-- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
+- [CORT] Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch (2026-07-31)
+- [CORT] Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO NORWITT RICHARD ADAM vendio APH por $80.8M el 2026-07-31 [senal en multiples fuentes].
-- 10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $88.4M el 2026-07-30 [senal en multiples fuentes].
 - CEO Wolf Kurt James opero PBI por $8.8M el 2026-08-03.
 - CEO Huntsman Peter R compro HUN por $981K el 2026-08-03.
 - CEO RUSH WILLIAM M RUSTY vendio RUSHA por $5.8M el 2026-08-03.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
+- Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.
+- Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $461,472 · win rate 84% · categorias: sports
-- CORGI8 · PnL $127,751 · win rate 91% · categorias: sports
-- matenghehe · PnL $26,394 · win rate 96% · categorias: sports, crypto
-- SemyonMarmeladov · PnL $57,296 · win rate 88% · categorias: sports, economy, politics
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $29,339 · win rate 91% · categorias: sports, crypto
+- esportGG · PnL $21,789 · win rate 95% · categorias: sports
+- Kosherlocks · PnL $16,200 · win rate 95% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $8,878 · win rate 92% · categorias: sports
+- UpTheBlues · PnL $35,425 · win rate 82% · categorias: sports
+- AV23IUa · PnL $153,993 · win rate 71% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,7 +395,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BEP, DAR, EIG, FFIV, GLD, IEF, NTST, PWP, QQQ, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEP, DAR, EIG, FFIV, GLD, IEF, NTST, PWP, QQQ, SNEX, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
