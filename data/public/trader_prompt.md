@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-04T15:52:41+00:00 -->
+<!-- trader_prompt.md generado 2026-08-04T18:19:13+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-04T15:52:41+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
+_Generado 2026-08-04T18:19:13+00:00 · ventana señales 2026-07-05 -> 2026-08-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,8 +236,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.19)
-- Tendencia: `bull` (SPY 768.76 · MA50 745.15 · MA200 698.46 · dist MA200: 10.07%)
+- Volatilidad: `normal` (VIX 16.56)
+- Tendencia: `bull` (SPY 772.07 · MA50 745.21 · MA200 698.47 · dist MA200: 10.54%)
 - Credito: `tight` (HY spread 2.85)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.63%
@@ -249,28 +249,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 768.76 | 1.46% | 3.77% | 2.82% |
-| QQQ | 12.0% | core | 719.2 | 2.73% | 6.47% | 1.38% |
-| TLT | 12.0% | core | 82.76 | 0.7% | -1.36% | -1.72% |
-| GLD | 9.3% | core | 374.7 | 0.8% | 1.44% | -0.74% |
-| NTST | 7.0% | satellite | 21.2 | -0.86% | -3.35% | -3.44% |
-| IEF | 6.2% | core | 93.22 | 0.43% | -0.02% | -0.17% |
-| FFIV | 5.0% | satellite | 414.14 | 1.92% | 2.65% | -0.71% |
-| ETOR | 4.4% | satellite | 36.75 | 0.91% | -3.24% | -9.28% |
-| TRIP | 3.7% | satellite | 14.43 | -0.52% | -3.38% | 5.14% |
-| FBIN | 3.0% | satellite | 53.71 | 2.95% | 5.13% | 5.21% |
-| SNEX | 2.9% | satellite | 76.08 | -0.14% | 2.42% | -6.07% |
-| VG | 2.6% | satellite | 12.85 | -1.72% | 5.63% | 10.91% |
-| PWP | 2.4% | satellite | 17.31 | 0.82% | 7.32% | 6.13% |
-| SPCX | 2.2% | satellite | 119.7 | 4.51% | 2.83% | -19.92% |
-| NXTC | 0.3% | satellite | 5.66 | 28.64% | 4.43% | 217.98% |
+| SPY | 12.0% | core | 772.07 | 1.9% | 4.21% | 3.26% |
+| QQQ | 12.0% | core | 723.38 | 3.33% | 7.09% | 1.97% |
+| TLT | 12.0% | core | 82.71 | 0.63% | -1.42% | -1.79% |
+| GLD | 9.3% | core | 374.93 | 0.87% | 1.51% | -0.68% |
+| NTST | 6.4% | satellite | 21.07 | -1.5% | -3.97% | -4.05% |
+| IEF | 6.2% | core | 93.21 | 0.41% | -0.04% | -0.19% |
+| EIG | 6.1% | satellite | 50.14 | -1.01% | 0.34% | -2.87% |
+| ETOR | 4.1% | satellite | 37.1 | 1.88% | -2.3% | -8.41% |
+| HAYW | 4.0% | satellite | 16.03 | 3.55% | 6.09% | -2.49% |
+| TRIP | 3.4% | satellite | 14.29 | -1.45% | -4.29% | 4.15% |
+| SNEX | 2.6% | satellite | 75.35 | -1.1% | 1.44% | -6.97% |
+| VG | 2.4% | satellite | 12.89 | -1.49% | 5.88% | 11.17% |
+| PWP | 2.2% | satellite | 17.5 | 1.92% | 8.49% | 7.3% |
+| SPCX | 2.0% | satellite | 123.96 | 8.23% | 6.49% | -17.07% |
+| NXTC | 0.3% | satellite | 5.66 | 28.67% | 4.45% | 218.06% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.5%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.634 · posiciones efectivas: 14.3 · HHI: 0.07
+- Volatilidad anualizada: 9.4%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.0%
+- Beta vs SPY: 0.489 · posiciones efectivas: 14.3 · HHI: 0.0702
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -281,9 +281,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **TRIP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **ETOR** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **HAYW** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **SNEX** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **FFIV** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **FBIN** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **EIG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -296,16 +296,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | EWAV | 78 | corporate_insider | East West Avenue LLC | 5 | - | cluster_buy |
 | EWAV | 76 | corporate_insider | Verjee Irfan | 5 | - | cluster_buy |
 | EWAV | 76 | corporate_insider | Parikh Samir | 5 | - | cluster_buy |
+| TLRY | 74 | corporate_insider | Merton Carl A | 2 | $46,200 | cluster_buy |
+| KFRC | 72 | large_holder | Copeland Capital Manageme |  | - | - |
 | ETOR | 72 | large_holder | China Vered Financial Hol |  | - | - |
+| HAYW | 72 | large_holder | FIDUCIARY MANAGEMENT INC  |  | - | - |
 | EWAV | 72 | large_holder | Space Summit Capital LLC |  | - | - |
+| MORN | 72 | large_holder | Daniel Mansueto |  | - | - |
+| BBIO | 72 | large_holder | Farallon Capital Manageme |  | - | - |
 | SNEX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | ICHR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | EIG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| AGNT | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| FFIV | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| STIM | 70 | large_holder | Chernett Jorey |  | - | - |
-| GOTU | 70 | large_holder | Chen Xiangdong |  | - | - |
-| HLLY | 70 | large_holder | Boston Partners |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 768.76 (1.46% / 3.77% / 2.82%) [2026-08-04]
-- QQQ: 719.2 (2.73% / 6.47% / 1.38%) [2026-08-04]
-- IWM: 300.78 (1.54% / 2.53% / 1.55%) [2026-08-04]
-- DIA: 540.22 (1.7% / 2.53% / 2.26%) [2026-08-04]
-- TLT: 82.76 (0.7% / -1.36% / -1.72%) [2026-08-04]
-- IEF: 93.22 (0.43% / -0.02% / -0.17%) [2026-08-04]
-- GLD: 374.7 (0.8% / 1.44% / -0.74%) [2026-08-04]
-- ^VIX: 16.19 (2.08% / -11.09% / 0.37%) [2026-08-04]
-- BTC-USD: 64122.89 (1.04% / -0.93% / -0.91%) [2026-08-04]
+- SPY: 772.07 (1.9% / 4.21% / 3.26%) [2026-08-04]
+- QQQ: 723.38 (3.33% / 7.09% / 1.97%) [2026-08-04]
+- IWM: 301.85 (1.9% / 2.89% / 1.91%) [2026-08-04]
+- DIA: 541.22 (1.88% / 2.72% / 2.45%) [2026-08-04]
+- TLT: 82.71 (0.63% / -1.42% / -1.79%) [2026-08-04]
+- IEF: 93.21 (0.41% / -0.04% / -0.19%) [2026-08-04]
+- GLD: 374.93 (0.87% / 1.51% / -0.68%) [2026-08-04]
+- ^VIX: 16.56 (4.41% / -9.06% / 2.67%) [2026-08-04]
+- BTC-USD: 64199.1 (1.16% / -0.81% / -0.79%) [2026-08-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,27 +350,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (6), regulatory (2), ai (1)
+**Temas dominantes**: earnings (5), regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [SRTA] Strata Critical Medical ( NASDAQ : SRTA ) Issues Earnings Results (2026-08-04)
 - [SRTA] Strata Critical Medical ( NASDAQ : SRTA ) Posts Earnings Results (2026-08-04)
+- [CRWD] 131 Poisoned AI Packages Hit Microsoft ( MSFT ) npm . CrowdStrike ( CRWD ) Couldnt Ask for a Better Sales Pitch (2026-08-04)
 - [IZEA] IZEA Announces Q2 2026 Earnings Results Conference Call (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares (2026-08-04)
-- [KMTS] Insider Selling : Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Sells $56 , 548 . 80 in Stock (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) CFO Vaseem Mahboob Sells 5 , 391 Shares (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford , Jr . Sells 13 , 015 Shares of Stock (2026-08-04)
-- [KMTS] Vaseem Mahboob Sells 5 , 391 Shares of Kestra Medical Technologies ( NASDAQ : KMTS ) Stock (2026-08-04)
-- [KMTS] Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Timothy Moran Sells 2 , 380 Shares (2026-08-04)
-- [CLS] Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? (2026-08-03)
+- [MLKN] Recent Investment Analyst Ratings Changes for MillerKnoll ( MLKN ) (2026-07-30)
+- [MLKN] MillerKnoll ( NASDAQ : MLKN ) Cut to Hold at Wall Street Zen (2026-07-29)
+- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
+- [SRTA] Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call (2026-07-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Uihlein Richard E opero GALT por $95.5M el 2026-07-31 [senal en multiples fuentes].
 - 10% owner Abu Dhabi Investment Authority vendio JMKE por $96.4M el 2026-07-31.
 - CEO Wolf Kurt James opero PBI por $8.8M el 2026-08-03.
-- CEO Huntsman Peter R compro HUN por $981K el 2026-08-03.
+- CEO RUSH WILLIAM M RUSTY vendio RUSHA por $5.8M el 2026-08-03.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 - Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
@@ -378,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Dota2winner · PnL $62,919 · win rate 95% · categorias: sports
-- matenghehe · PnL $27,432 · win rate 96% · categorias: sports, crypto
-- esportGG · PnL $26,771 · win rate 95% · categorias: sports
-- Skyfker · PnL $26,447 · win rate 92% · categorias: sports, crypto
-- Kosherlocks · PnL $16,457 · win rate 95% · categorias: sports, crypto
+- Dota2winner · PnL $69,741 · win rate 95% · categorias: sports
+- esportGG · PnL $42,720 · win rate 95% · categorias: sports
+- comon119 · PnL $22,252 · win rate 98% · categorias: sports, crypto, politics
+- matenghehe · PnL $27,466 · win rate 96% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $29,493 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +388,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 45 registros 30d · ultimo dato 2026-07-24
-- **sec_insiders**: `ok` · 595 registros 30d · ultimo dato 2026-08-03
+- **sec_insiders**: `ok` · 574 registros 30d · ultimo dato 2026-08-04
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-04
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -403,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ETOR, FBIN, FFIV, GLD, IEF, NTST, NXTC, PWP, QQQ, SNEX, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`EIG, ETOR, GLD, HAYW, IEF, NTST, NXTC, PWP, QQQ, SNEX, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

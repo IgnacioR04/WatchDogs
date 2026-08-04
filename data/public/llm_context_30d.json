@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-04T15:51:45.819676+00:00",
+  "generated_at": "2026-08-04T18:18:11.772540+00:00",
   "window": {
     "from": "2026-07-05",
     "to": "2026-08-04",
@@ -23,7 +23,6 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "earnings",
       "regulatory",
       "ai"
@@ -124,20 +123,20 @@
     {
       "id": "move_6",
       "rank": 6,
-      "title": "CEO compro HUN ($981K)",
-      "summary": "CEO Huntsman Peter R compro HUN por $981K el 2026-08-03.",
+      "title": "CEO vendio RUSHA ($5.8M)",
+      "summary": "CEO RUSH WILLIAM M RUSTY vendio RUSHA por $5.8M el 2026-08-03.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Huntsman Peter R",
+      "actor_name": "RUSH WILLIAM M RUSTY",
       "actor_type": "ceo",
-      "ticker": "HUN",
-      "direction": "buy",
-      "amount_estimated": 981000.0,
+      "ticker": "RUSHA",
+      "direction": "sell",
+      "amount_estimated": 5801180.06,
       "event_date": "2026-08-03",
-      "importance_score": 82.3,
+      "importance_score": 82.2,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1314653/000121465926009468/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1211953/000143774926025492/"
     },
     {
       "id": "move_7",
@@ -500,32 +499,23 @@
         ]
       },
       {
+        "ticker": "TLRY",
+        "company": "Tilray Brands, Inc.",
+        "pressure_score": 142.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CISS",
         "company": "C3is Inc.",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "BXSY",
-        "company": "Bexil Investment Trust",
-        "pressure_score": 140.7,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "CLS",
-        "company": "CELESTICA INC",
-        "pressure_score": 1412.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
@@ -535,17 +525,9 @@
         ]
       },
       {
-        "ticker": "KMTS",
-        "company": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-        "pressure_score": 1041.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CORT",
-        "company": "CORCEPT THERAPEUTICS INC",
-        "pressure_score": 959.7,
+        "ticker": "NOC",
+        "company": "NORTHROP GRUMMAN CORP /DE/",
+        "pressure_score": 610.4,
         "sources": [
           "corporate_insider"
         ]
@@ -554,6 +536,14 @@
         "ticker": "PBI",
         "company": "PITNEY BOWES INC /DE/",
         "pressure_score": 609.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RUSHA",
+        "company": "RUSH ENTERPRISES INC \\TX\\",
+        "pressure_score": 445.3,
         "sources": [
           "corporate_insider"
         ]
@@ -584,14 +574,6 @@
         ]
       },
       {
-        "ticker": "PCAR",
-        "company": "PACCAR INC",
-        "pressure_score": 302.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SPGI",
         "company": "S&P Global Inc. Common Stock",
         "pressure_score": 286.9,
@@ -603,22 +585,6 @@
         "ticker": "TRDA",
         "company": "Entrada Therapeutics, Inc.",
         "pressure_score": 277.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "EXP",
-        "company": "EAGLE MATERIALS INC",
-        "pressure_score": 275.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RCKY",
-        "company": "ROCKY BRANDS, INC.",
-        "pressure_score": 269.8,
         "sources": [
           "corporate_insider"
         ]
@@ -638,19 +604,42 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "WAB",
+        "company": "Corporation Common Stock",
+        "pressure_score": 230.2,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SNOW",
+        "company": "Snowflake Inc.",
+        "pressure_score": 223.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NOK",
+        "company": "American Depositary Shares",
+        "pressure_score": 221.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "ALKS",
+        "company": "Alkermes plc.",
+        "pressure_score": 216.5,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "HUN",
-      "company": "Huntsman CORP",
-      "actor": "Huntsman Peter R",
-      "actor_type": "ceo",
-      "amount": 981000.0,
-      "date": "2026-08-03",
-      "score": 82.3
-    },
     {
       "ticker": "FTAI",
       "company": "FTAI Aviation Ltd.",
@@ -668,15 +657,6 @@
       "amount": 0.0,
       "date": "2026-08-03",
       "score": 78.6
-    },
-    {
-      "ticker": "HNVR",
-      "company": "Hanover Bancorp, Inc. /MD",
-      "actor": "O'Connor Kevin M",
-      "actor_type": "ceo",
-      "amount": 268800.0,
-      "date": "2026-07-30",
-      "score": 78.0
     },
     {
       "ticker": "EWAV",
@@ -751,6 +731,15 @@
       "score": 74.5
     },
     {
+      "ticker": "TLRY",
+      "company": "Tilray Brands, Inc.",
+      "actor": "Merton Carl A",
+      "actor_type": "cfo",
+      "amount": 46200.0,
+      "date": "2026-08-04",
+      "score": 74.4
+    },
+    {
       "ticker": "DCX",
       "company": "Digital Currency X Technology Inc.",
       "actor": "Chen Melissa N",
@@ -776,6 +765,15 @@
       "amount": 120337.5,
       "date": "2026-07-30",
       "score": 73.8
+    },
+    {
+      "ticker": "TSM",
+      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "actor": "Tien Bor-Zen",
+      "actor_type": "officer",
+      "amount": 73060.0,
+      "date": "2026-08-03",
+      "score": 73.7
     }
   ],
   "institutional_changes": [
@@ -1026,11 +1024,11 @@
       "score": 62.6
     },
     {
-      "politician": "Robert E. Latta",
-      "ticker": "FMAO",
+      "politician": "Dan Newhouse",
+      "ticker": "ACN",
       "direction": "buy",
       "amount": 15000,
-      "date": "2026-07-20",
+      "date": "2026-07-10",
       "score": 62.4
     },
     {
@@ -1066,11 +1064,11 @@
       "score": 62.0
     },
     {
-      "politician": "Dan Newhouse",
-      "ticker": "ACN",
+      "politician": "Robert E. Latta",
+      "ticker": "FMAO",
       "direction": "buy",
       "amount": 15000,
-      "date": "2026-07-10",
+      "date": "2026-07-20",
       "score": 61.1
     },
     {
@@ -1224,18 +1222,40 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 62918.75,
-        "win_rate": 0.9524,
-        "volume": 184999.73,
+        "pnl": 69740.84,
+        "win_rate": 0.9526,
+        "volume": 309999.55,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 42720.32,
+        "win_rate": 0.9513,
+        "volume": 594479.22,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc3c3b3ef30",
+        "username": "comon119",
+        "pnl": 22252.19,
+        "win_rate": 0.984,
+        "volume": 183589.53,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
-        "pnl": 27432.04,
-        "win_rate": 0.9642,
+        "pnl": 27465.87,
+        "win_rate": 0.9645,
         "volume": 427114.54,
         "categories": [
           "sports",
@@ -1243,11 +1263,11 @@
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 26771.11,
-        "win_rate": 0.9511,
-        "volume": 445345.05,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 29492.69,
+        "win_rate": 0.9564,
+        "volume": 813893.25,
         "categories": [
           "sports"
         ]
@@ -1255,20 +1275,9 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 26447.42,
-        "win_rate": 0.9167,
-        "volume": 243080.41,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x82398835fe",
-        "username": "Kosherlocks",
-        "pnl": 16457.32,
-        "win_rate": 0.9455,
-        "volume": 44444.44,
+        "pnl": 24212.65,
+        "win_rate": 0.9182,
+        "volume": 301914.57,
         "categories": [
           "sports",
           "crypto"
@@ -1277,9 +1286,9 @@
       {
         "wallet": "0xc84f7e76ec",
         "username": "BrightStars",
-        "pnl": 102201.49,
+        "pnl": 98547.65,
         "win_rate": 0.791,
-        "volume": 146147.69,
+        "volume": 149157.86,
         "categories": [
           "politics",
           "sports",
@@ -1287,32 +1296,22 @@
         ]
       },
       {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 55641.48,
-        "win_rate": 0.784,
-        "volume": 412592.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 142311.06,
-        "win_rate": 0.7118,
-        "volume": 717576.11,
+        "pnl": 160940.16,
+        "win_rate": 0.7129,
+        "volume": 730115.46,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xc1c7bb8761",
-        "username": "five5120",
-        "pnl": 17854.88,
-        "win_rate": 0.8268,
-        "volume": 152788.05,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 56100.27,
+        "win_rate": 0.778,
+        "volume": 855956.02,
         "categories": [
           "sports"
         ]
@@ -1320,7 +1319,7 @@
       {
         "wallet": "0x88c4919de7",
         "username": "QuietRiskisWrong",
-        "pnl": 20551.81,
+        "pnl": 30502.86,
         "win_rate": 0.8,
         "volume": 42898.36,
         "categories": [
@@ -1334,9 +1333,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 41478.99,
-        "win_rate": 0.547,
-        "volume": 2242920.06,
+        "pnl": 71697.12,
+        "win_rate": 0.539,
+        "volume": 3215540.48,
         "categories": [
           "sports"
         ]
@@ -1344,20 +1343,30 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 80465.51,
-        "win_rate": 0.5188,
-        "volume": 410803.57,
+        "pnl": 112425.16,
+        "win_rate": 0.5208,
+        "volume": 606134.99,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 29492.69,
+        "win_rate": 0.9564,
+        "volume": 813893.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 142311.06,
-        "win_rate": 0.7118,
-        "volume": 717576.11,
+        "pnl": 160940.16,
+        "win_rate": 0.7129,
+        "volume": 730115.46,
         "categories": [
           "sports",
           "crypto"
@@ -1366,9 +1375,9 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 25467.28,
-        "win_rate": 0.557,
-        "volume": 877825.74,
+        "pnl": 32575.27,
+        "win_rate": 0.561,
+        "volume": 1152237.93,
         "categories": [
           "sports"
         ]
@@ -1376,9 +1385,31 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 23055.76,
-        "win_rate": 0.562,
-        "volume": 1076363.12,
+        "pnl": 27816.71,
+        "win_rate": 0.565,
+        "volume": 1371603.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xca97f54649",
+        "username": "LarryDaddy",
+        "pnl": 17294.57,
+        "win_rate": 0.6795,
+        "volume": 849976.5,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "esportGG",
+        "pnl": 42720.32,
+        "win_rate": 0.9513,
+        "volume": 594479.22,
         "categories": [
           "sports"
         ]
@@ -1386,8 +1417,8 @@
       {
         "wallet": "0xba3802d41a",
         "username": "matenghehe",
-        "pnl": 27432.04,
-        "win_rate": 0.9642,
+        "pnl": 27465.87,
+        "win_rate": 0.9645,
         "volume": 427114.54,
         "categories": [
           "sports",
@@ -1395,47 +1426,13 @@
         ]
       },
       {
-        "wallet": "0xf070207d31",
-        "username": "esportGG",
-        "pnl": 26771.11,
-        "win_rate": 0.9511,
-        "volume": 445345.05,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 118039.01,
+        "pnl": 123271.08,
         "win_rate": 0.659,
-        "volume": 526786.01,
+        "volume": 545949.4,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xbaa2bcb543",
-        "username": "denizz",
-        "pnl": 66909.02,
-        "win_rate": 0.651,
-        "volume": 225736.79,
-        "categories": [
-          "politics",
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x162f6fff88",
-        "username": "Valen9",
-        "pnl": 18790.62,
-        "win_rate": 0.629,
-        "volume": 283900.82,
-        "categories": [
-          "politics",
-          "sports",
-          "crypto"
         ]
       }
     ]
@@ -1460,6 +1457,15 @@
       "date": "2026-08-04"
     },
     {
+      "title": "131 Poisoned AI Packages Hit Microsoft ( MSFT ) npm . CrowdStrike ( CRWD ) Couldnt Ask for a Better Sales Pitch",
+      "url": "https://finance.yahoo.com/technology/ai/articles/131-poisoned-ai-packages-hit-123042550.html",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-04"
+    },
+    {
       "title": "IZEA Announces Q2 2026 Earnings Results Conference Call",
       "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/izea-announces-q2-2026-earnings-results-conference-call/2397913",
       "ticker": "IZEA",
@@ -1469,92 +1475,18 @@
       "date": "2026-08-04"
     },
     {
-      "title": "Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford Jr Sells 8 , 681 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/03/kestra-medical-technologies-nasdaqkmts-insider-alfred-ford-jr-sells-8681-shares.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Insider Selling : Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Sells $56 , 548 . 80 in Stock",
-      "url": "https://www.dailypolitical.com/2026/08/03/insider-selling-kestra-medical-technologies-nasdaqkmts-insider-sells-56548-80-in-stock.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Kestra Medical Technologies ( NASDAQ : KMTS ) CFO Vaseem Mahboob Sells 5 , 391 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/03/kestra-medical-technologies-nasdaqkmts-cfo-vaseem-mahboob-sells-5391-shares.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Alfred Ford , Jr . Sells 13 , 015 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13528549/kestra-medical-technologies-nasdaqkmts-insider-alfred-ford-jr-sells-13015-shares-of-stock.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Vaseem Mahboob Sells 5 , 391 Shares of Kestra Medical Technologies ( NASDAQ : KMTS ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13528545/vaseem-mahboob-sells-5391-shares-of-kestra-medical-technologies-nasdaqkmts-stock.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Kestra Medical Technologies ( NASDAQ : KMTS ) Insider Timothy Moran Sells 2 , 380 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13528548/kestra-medical-technologies-nasdaqkmts-insider-timothy-moran-sells-2380-shares.html",
-      "ticker": "KMTS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Celestica ( NYSE : CLS ) Trading Up 3 . 4 % – What Next ? ",
-      "url": "https://www.themarketsdaily.com/2026/08/03/celestica-nysecls-trading-up-3-4-whats-next.html",
-      "ticker": "CLS",
+      "title": "Recent Investment Analyst Ratings Changes for MillerKnoll ( MLKN ) ",
+      "url": "https://www.themarketsdaily.com/2026/07/30/recent-investment-analysts-ratings-changes-for-millerknoll-mlkn.html",
+      "ticker": "MLKN",
       "themes": [],
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Top Biotech Gainers : GCTK On The Move , BHC , CORT Boost FY  26 Outlook , NEOG On Watch",
-      "url": "https://www.finanzen.ch/nachrichten/aktien/top-biotech-gainers-gctk-on-the-move-bhc-cort-boost-fy26-outlook-neog-on-watch-1036389258",
-      "ticker": "CORT",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-07-31"
-    },
-    {
-      "title": "Celestica ( NYSE : CLS ) Stock Price Up 7 . 8 % Following Analyst Upgrade",
-      "url": "https://www.themarketsdaily.com/2026/07/30/celestica-nysecls-stock-price-up-7-8-following-analyst-upgrade.html",
-      "ticker": "CLS",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-07-30"
     },
     {
-      "title": "Corcept Therapeutics ( NASDAQ : CORT ) Issues Earnings Results",
-      "url": "https://www.dailypolitical.com/2026/07/29/corcept-therapeutics-nasdaqcort-issues-earnings-results.html",
-      "ticker": "CORT",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-30"
+      "title": "MillerKnoll ( NASDAQ : MLKN ) Cut to Hold at Wall Street Zen",
+      "url": "https://www.dailypolitical.com/2026/07/28/millerknoll-nasdaqmlkn-cut-to-hold-at-wall-street-zen.html",
+      "ticker": "MLKN",
+      "themes": [],
+      "date": "2026-07-29"
     },
     {
       "title": "Strata Critical Medical Schedules Second Quarter 2026 Earnings Conference Call",
@@ -1577,7 +1509,7 @@
       "date": "2026-07-21"
     }
   ],
-  "signals_count": 1518,
+  "signals_count": 1497,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
