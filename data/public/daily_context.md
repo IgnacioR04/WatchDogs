@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-05T15:04:40+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
+_Generado 2026-08-05T17:11:38+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.28)
-- Tendencia: `bull` (SPY 773.51 · MA50 745.79 · MA200 699.06 · dist MA200: 10.65%)
-- Credito: `tight` (HY spread 2.78)
+- Volatilidad: `normal` (VIX 15.99)
+- Tendencia: `bull` (SPY 771.22 · MA50 745.75 · MA200 699.05 · dist MA200: 10.32%)
+- Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.43)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,35 +22,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 773.51 | 0.28% | 6.04% | 3.77% |
-| QQQ | 12.0% | core | 722.8 | -0.15% | 9.23% | 1.6% |
-| TLT | 12.0% | core | 83.04 | 0.27% | 0.64% | -1.16% |
-| GLD | 9.3% | core | 390.55 | 4.38% | 5.25% | 4.3% |
-| FWONK | 6.5% | satellite | 95.54 | -0.92% | -6.23% | -0.98% |
-| NTST | 6.3% | satellite | 21.07 | -0.05% | -3.88% | -3.7% |
-| IEF | 6.2% | core | 93.28 | 0.03% | 0.46% | 0.09% |
-| LTH | 5.2% | satellite | 44.77 | 0.1% | -2.03% | 7.89% |
-| TRIP | 3.3% | satellite | 14.05 | -1.99% | -3.67% | 6.32% |
-| CHRW | 2.7% | satellite | 154.7 | -0.03% | -10.96% | -18.56% |
-| WHD | 2.5% | satellite | 65.88 | -1.98% | 25.92% | 22.61% |
-| VG | 2.3% | satellite | 12.38 | -3.62% | -5.17% | -0.04% |
-| PWP | 2.2% | satellite | 17.5 | 2.67% | 17.88% | 17.17% |
-| SPCX | 1.9% | satellite | 115.24 | -8.05% | 2.39% | -22.29% |
-| MPLT | 0.7% | satellite | 12.99 | 0.39% | -13.52% | -66.29% |
+| SPY | 12.0% | core | 771.22 | -0.01% | 5.72% | 3.46% |
+| QQQ | 12.0% | core | 720.74 | -0.43% | 8.92% | 1.31% |
+| TLT | 12.0% | core | 82.93 | 0.13% | 0.49% | -1.31% |
+| GLD | 9.3% | core | 389.13 | 4.0% | 4.86% | 3.92% |
+| FWONK | 6.5% | satellite | 95.16 | -1.32% | -6.61% | -1.38% |
+| NTST | 6.3% | satellite | 21.08 | 0.0% | -3.83% | -3.66% |
+| IEF | 6.2% | core | 93.21 | -0.04% | 0.39% | 0.03% |
+| LTH | 5.3% | satellite | 45.03 | 0.67% | -1.47% | 8.51% |
+| TRIP | 3.4% | satellite | 13.94 | -2.76% | -4.42% | 5.49% |
+| CHRW | 2.8% | satellite | 154.01 | -0.48% | -11.36% | -18.92% |
+| WHD | 2.5% | satellite | 66.16 | -1.56% | 26.45% | 23.13% |
+| PWP | 2.2% | satellite | 17.31 | 1.5% | 16.53% | 15.83% |
+| VG | 2.2% | satellite | 12.47 | -2.88% | -4.44% | 0.73% |
+| SPCX | 1.6% | satellite | 112.65 | -10.12% | 0.09% | -24.04% |
+| MPLT | 0.7% | satellite | 13.23 | 2.2% | -11.95% | -65.68% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 7.8%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -1.9%
-- Beta vs SPY: 0.398 · posiciones efectivas: 14.2 · HHI: 0.0704
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
+- Max drawdown historico: -1.8%
+- Beta vs SPY: 0.401 · posiciones efectivas: 14.2 · HHI: 0.0706
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **NTST** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **VG** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **PWP** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **NTST** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **TRIP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **MPLT** · score agregado 142.0 · 2 señales · fuentes: large_holder
@@ -64,8 +64,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| ORN | 74 | corporate_insider | Vasquez Alison Gaut | 2 | $49,999 | cluster_buy |
-| ORN | 74 | corporate_insider | LEDFORD ROBERT | 2 | $192,430 | cluster_buy |
 | FUNC | 73 | corporate_insider | Rush Jason Barry | 4 | $2,919 | cluster_buy,small_amount |
 | WHD | 72 | large_holder | Boston Partners |  | - | - |
 | ETOR | 72 | large_holder | China Vered Financial Hol |  | - | - |
@@ -78,6 +76,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ETD | 70 | large_holder | DGB Investment, Inc. |  | - | - |
 | GLRE | 70 | large_holder | EINHORN DAVID |  | - | - |
 | FRNM | 70 | large_holder | BIT Capital GmbH |  | - | - |
+| IHS | 70 | large_holder | UBS Group AG |  | - | - |
+| NTST | 70 | large_holder | PRINCIPAL REAL ESTATE INV |  | - | - |
 | BLTH | 70 | large_holder | Traverse Opportunity Fund |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 773.51 (0.28% / 6.04% / 3.77%) [2026-08-05]
-- QQQ: 722.8 (-0.15% / 9.23% / 1.6%) [2026-08-05]
-- IWM: 301.47 (-0.08% / 4.47% / 2.72%) [2026-08-05]
-- DIA: 546.43 (1.11% / 6.02% / 4.56%) [2026-08-05]
-- TLT: 83.04 (0.27% / 0.64% / -1.16%) [2026-08-05]
-- IEF: 93.28 (0.03% / 0.46% / 0.09%) [2026-08-05]
-- GLD: 390.55 (4.38% / 5.25% / 4.3%) [2026-08-05]
-- ^VIX: 16.28 (-1.33% / -21.2% / -3.67%) [2026-08-05]
-- BTC-USD: 64513.6 (0.71% / 2.71% / 1.14%) [2026-08-05]
+- SPY: 771.22 (-0.01% / 5.72% / 3.46%) [2026-08-05]
+- QQQ: 720.74 (-0.43% / 8.92% / 1.31%) [2026-08-05]
+- IWM: 300.73 (-0.32% / 4.21% / 2.47%) [2026-08-05]
+- DIA: 544.66 (0.78% / 5.68% / 4.22%) [2026-08-05]
+- TLT: 82.93 (0.13% / 0.49% / -1.31%) [2026-08-05]
+- IEF: 93.21 (-0.04% / 0.39% / 0.03%) [2026-08-05]
+- GLD: 389.13 (4.0% / 4.86% / 3.92%) [2026-08-05]
+- ^VIX: 15.99 (-3.09% / -22.6% / -5.38%) [2026-08-05]
+- BTC-USD: 64538.65 (0.75% / 2.75% / 1.17%) [2026-08-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -116,27 +116,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.7 (delta 1m: 0.21) [2026-08-03]
 - Curva 10Y-2Y: 0.43 (delta 1m: 0.08) [2026-08-04]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.78 (delta 1m: 0.04) [2026-08-03]
+- High yield spread (OAS): 2.73 (delta 1m: 0.01) [2026-08-04]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-06-01]
 - Breakeven inflacion 10Y: 2.23 (delta 1m: -0.01) [2026-08-04]
 - Dolar broad index: 119.7034 (delta 1m: -1.442) [2026-07-31]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), ai (1), merger (1), earnings (1)
+**Temas dominantes**: stock (6)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SYY] Sysco Stops Buying Mexican Iceberg Lettuce Amid Cyclospora Outbreak (2026-08-05)
-- [SYY] Sysco Forecasts Strong Annual Results On Resilient Demand (2026-08-05)
-- [SYY] Sysco stops buying Mexican lettuce amid Cyclospora outbreak (2026-08-05)
-- [CRWD] CrowdStrike Warns AI Adoption Is Creating  Underdefended  Attack Surfaces (2026-08-05)
-- [CRDO] GK Wealth Management LLC Acquires New Stake in Credo Technology Group Holding Ltd . $CRDO (2026-08-05)
-- [SYY] Sysco Reports Q4 And FY26 Revenue Growth (2026-08-05)
+- [CRCL] Circle Q2 Results Beat Estimates : So Why Is CRCL Stock Selling Off ? - Circle Internet Group ( NYSE : CRCL ) (2026-08-05)
+- [CRCL] Circle Internet Group Posts Mixed Financial Results (2026-08-05)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) CAO Tamara Schulz Sells 1 , 194 Shares of Stock (2026-08-05)
 - [CVNA] Michael Maroone Purchases 25 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
 - [CVNA] Stephen Palmer Sells 5 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Patrick Sean Neville Sells 50 , 000 Shares (2026-08-04)
+- [CVNA] Jim Cramer Stock Picks : Summit Therapeutics Is A  Great Spec  - Carvana ( NYSE : CVNA ) (2026-08-04)
+- [SLQT] SelectQuote ( NYSE : SLQT ) Trading 1 . 1 % Higher – Still a Buy ? (2026-08-04)
+- [CVNA] BNP Paribas Exane Cuts Carvana ( NYSE : CVNA ) Price Target to $69 . 00 (2026-08-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,15 +146,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $3.3M el 2026-07-30.
 - CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.
 - CEO Bender Scott vendio WHD por $6.4M el 2026-08-03 [senal en multiples fuentes].
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- CEO Davis Paul T vendio PBF por $5.0M el 2026-08-04.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $94,096 · win rate 93% · categorias: sports
-- CORGI8 · PnL $55,527 · win rate 91% · categorias: sports
-- matenghehe · PnL $25,656 · win rate 97% · categorias: sports, crypto
-- esportGG · PnL $27,669 · win rate 95% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $17,985 · win rate 98% · categorias: sports, crypto
+- SDTrading · PnL $93,739 · win rate 93% · categorias: sports
+- matenghehe · PnL $40,600 · win rate 97% · categorias: sports, crypto
+- elizabeth.ethcome · PnL $61,662 · win rate 90% · categorias: sports, crypto, politics
+- TAIWANNUMBERONE · PnL $49,324 · win rate 91% · categorias: sports, politics
+- CORGI8 · PnL $32,836 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +162,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 103 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 625 registros 30d · ultimo dato 2026-08-04
+- **sec_insiders**: `ok` · 564 registros 30d · ultimo dato 2026-08-04
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
