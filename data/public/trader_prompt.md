@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-05T06:58:28+00:00 -->
+<!-- trader_prompt.md generado 2026-08-05T10:06:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-05T06:58:28+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
+_Generado 2026-08-05T10:06:06+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.5)
+- Volatilidad: `normal` (VIX 16.31)
 - Tendencia: `bull` (SPY 771.33 · MA50 745.2 · MA200 698.47 · dist MA200: 10.43%)
 - Credito: `tight` (HY spread 2.78)
 - Tipos: `flat` (curva 10y-2y 0.43)
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.82 (0.77% / -1.29% / -1.65%) [2026-08-04]
 - IEF: 93.25 (0.46% / 0.01% / -0.14%) [2026-08-04]
 - GLD: 374.16 (0.66% / 1.3% / -0.88%) [2026-08-04]
-- ^VIX: 16.5 (4.04% / -9.39% / 2.29%) [2026-08-04]
-- BTC-USD: 64199.68 (1.16% / -0.81% / -0.79%) [2026-08-05]
+- ^VIX: 16.31 (-1.15% / -21.06% / -3.49%) [2026-08-05]
+- BTC-USD: 64115.67 (0.09% / 2.07% / 0.51%) [2026-08-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,20 +350,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (2), ai (1), regulatory (1), earnings (1)
+**Temas dominantes**: stock (6), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] This Cybersecurity Growth Stock Is Up 40 % in 2026 , But It Still a Bargain Compared to CrowdStrike and Palo Alto Networks (2026-08-05)
+- [CRWD] CrowdStrike Warns AI Adoption Is Creating  Underdefended  Attack Surfaces (2026-08-05)
+- [CRDO] GK Wealth Management LLC Acquires New Stake in Credo Technology Group Holding Ltd . $CRDO (2026-08-05)
 - [CVNA] Michael Maroone Purchases 25 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
 - [CVNA] Stephen Palmer Sells 5 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
-- [SYY] Exclusive - Sysco has stopped buying iceberg lettuce from Taylor Farms and Mexico amid US cyclosporiasis outbreak , CEO says (2026-08-04)
-- [SYY] Exclusive - Sysco has stopped buying iceberg lettuce from Taylor Farms and Mexico amid US cyclosporiasis outbreak , CEO says (2026-08-04)
+- [CRDO] Credo Technology Group ( NASDAQ : CRDO ) Stock Price Up 9 % – Still a Buy ? (2026-08-04)
+- [CRDO] Credo Technology Group ( NASDAQ : CRDO ) Stock Price Up 9 % – Here Why (2026-08-04)
+- [MDT] US jury says Medtronic owes $88 million in first case to go to trial over Covidien hernia mesh | WABX 107 . 5 (2026-08-04)
 - [SCI] Why HBO Max $949 Million Dystopian Sci - Fi Has Become A Global Streaming Hit (2026-08-04)
-- [SYY] Sysco ( NYSE : SYY ) Releases Q1 2027 Earnings Guidance (2026-08-04)
-- [SYY] ROUNDUP : Sysco Sees Growth In FY27 (2026-08-04)
 - [CVNA] Jim Cramer Stock Picks : Summit Therapeutics Is A  Great Spec  - Carvana ( NYSE : CVNA ) (2026-08-04)
-- [SYY] FinancialContent - Sysco ( NYSE : SYY ) Beats Q2 CY2026 Sales Expectations (2026-08-04)
+- [MDT] Medtronic : What Everyone Should Know About Brain Health and Stroke (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +378,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $88,335 · win rate 93% · categorias: sports
+- SDTrading · PnL $93,541 · win rate 93% · categorias: sports
+- Dota2winner · PnL $26,040 · win rate 95% · categorias: sports
 - 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $16,048 · win rate 98% · categorias: sports, crypto
 - esportGG · PnL $14,042 · win rate 95% · categorias: sports
-- quavoo · PnL $40,450 · win rate 86% · categorias: sports, economy, crypto
-- tennischamp · PnL $17,033 · win rate 90% · categorias: sports
+- quavoo · PnL $40,027 · win rate 86% · categorias: sports, economy, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
