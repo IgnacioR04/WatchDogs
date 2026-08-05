@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-05T19:08:42+00:00",
+  "generated_at": "2026-08-05T20:57:05+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
   "cash": 0.1499,
   "weights": {
-    "SPY": 0.1199,
-    "QQQ": 0.1199,
-    "TLT": 0.1199,
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
     "GLD": 0.0932,
-    "FWONK": 0.0656,
-    "NTST": 0.0631,
     "IEF": 0.0622,
-    "LTH": 0.053,
-    "TRIP": 0.0336,
-    "CHRW": 0.0276,
-    "WHD": 0.0251,
-    "PWP": 0.0222,
-    "VG": 0.0219,
-    "SPCX": 0.0156,
-    "MPLT": 0.0073
+    "FWONK": 0.0585,
+    "NTST": 0.0561,
+    "LTH": 0.047,
+    "BSX": 0.0436,
+    "TRIP": 0.0299,
+    "CHRW": 0.0244,
+    "WHD": 0.0222,
+    "PWP": 0.0197,
+    "VG": 0.0195,
+    "SPCX": 0.0138
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NTST": 0.0561,
-    "FWONK": 0.0583,
-    "VG": 0.0195,
-    "PWP": 0.0197,
-    "TRIP": 0.0299,
-    "SPCX": 0.0139,
-    "MPLT": 0.0065,
-    "CHRW": 0.0245,
-    "LTH": 0.0471,
-    "WHD": 0.0223
+    "NTST": 0.0499,
+    "FWONK": 0.052,
+    "VG": 0.0173,
+    "PWP": 0.0175,
+    "TRIP": 0.0266,
+    "SPCX": 0.0123,
+    "BSX": 0.0388,
+    "CHRW": 0.0217,
+    "LTH": 0.0418,
+    "WHD": 0.0197
   },
   "satellite_rationale": [
     {
@@ -90,10 +90,10 @@
       "n_signals": 3
     },
     {
-      "ticker": "MPLT",
-      "score": 142.0,
+      "ticker": "BSX",
+      "score": 157.3,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 2
     },
@@ -107,7 +107,7 @@
     },
     {
       "ticker": "LTH",
-      "score": 127.0,
+      "score": 124.4,
       "sources": [
         "congress"
       ],
@@ -123,15 +123,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0781,
-    "var_95_1d": 0.0067,
-    "cvar_95_1d": 0.0083,
-    "max_drawdown": -0.0184,
-    "beta_spy": 0.399,
-    "hhi": 0.0706,
-    "max_position": 0.1199,
+    "ann_vol": 0.0772,
+    "var_95_1d": 0.0062,
+    "cvar_95_1d": 0.0091,
+    "max_drawdown": -0.0161,
+    "beta_spy": 0.41,
+    "hhi": 0.0694,
+    "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.2,
+    "effective_positions": 14.4,
     "gross_exposure": 0.8501,
     "days_used": 36
   },

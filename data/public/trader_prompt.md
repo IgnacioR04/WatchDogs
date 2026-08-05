@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-05T19:08:43+00:00 -->
+<!-- trader_prompt.md generado 2026-08-05T20:57:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-05T19:08:43+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
+_Generado 2026-08-05T20:57:06+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,8 +236,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.56)
-- Tendencia: `bull` (SPY 771.85 · MA50 745.76 · MA200 699.05 · dist MA200: 10.41%)
+- Volatilidad: `normal` (VIX 15.81)
+- Tendencia: `bull` (SPY 769.79 · MA50 745.72 · MA200 699.04 · dist MA200: 10.12%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.43)
 - Fed Funds: 3.63%
@@ -249,28 +249,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.85 | 0.07% | 5.81% | 3.55% |
-| QQQ | 12.0% | core | 721.24 | -0.36% | 8.99% | 1.38% |
-| TLT | 12.0% | core | 82.97 | 0.19% | 0.55% | -1.25% |
-| GLD | 9.3% | core | 390.87 | 4.47% | 5.33% | 4.39% |
-| FWONK | 6.6% | satellite | 95.57 | -0.89% | -6.2% | -0.95% |
-| NTST | 6.3% | satellite | 20.98 | -0.47% | -4.29% | -4.11% |
-| IEF | 6.2% | core | 93.29 | 0.04% | 0.47% | 0.11% |
-| LTH | 5.3% | satellite | 45.05 | 0.72% | -1.42% | 8.55% |
-| TRIP | 3.4% | satellite | 13.94 | -2.76% | -4.42% | 5.49% |
-| CHRW | 2.8% | satellite | 153.79 | -0.62% | -11.48% | -19.03% |
-| WHD | 2.5% | satellite | 66.24 | -1.44% | 26.61% | 23.28% |
-| PWP | 2.2% | satellite | 17.47 | 2.46% | 17.64% | 16.93% |
-| VG | 2.2% | satellite | 12.44 | -3.08% | -4.64% | 0.53% |
-| SPCX | 1.6% | satellite | 109.09 | -12.96% | -3.07% | -26.44% |
-| MPLT | 0.7% | satellite | 12.98 | 0.31% | -13.58% | -66.31% |
+| SPY | 12.0% | core | 769.79 | -0.2% | 5.53% | 3.27% |
+| QQQ | 12.0% | core | 717.3 | -0.9% | 8.4% | 0.82% |
+| TLT | 12.0% | core | 83.0 | 0.22% | 0.58% | -1.22% |
+| GLD | 9.3% | core | 389.64 | 4.14% | 5.0% | 4.06% |
+| IEF | 6.2% | core | 93.31 | 0.06% | 0.49% | 0.13% |
+| FWONK | 5.9% | satellite | 96.05 | -0.39% | -5.73% | -0.46% |
+| NTST | 5.6% | satellite | 21.15 | 0.33% | -3.51% | -3.34% |
+| LTH | 4.7% | satellite | 45.31 | 1.3% | -0.85% | 9.18% |
+| BSX | 4.4% | satellite | 47.74 | -2.75% | 3.69% | 6.54% |
+| TRIP | 3.0% | satellite | 13.99 | -2.37% | -4.05% | 5.9% |
+| CHRW | 2.4% | satellite | 153.6 | -0.74% | -11.6% | -19.14% |
+| WHD | 2.2% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
+| PWP | 2.0% | satellite | 17.32 | 1.58% | 16.63% | 15.93% |
+| VG | 1.9% | satellite | 12.43 | -3.19% | -4.75% | 0.4% |
+| SPCX | 1.4% | satellite | 108.27 | -13.61% | -3.8% | -26.99% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.8%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: 0.399 · posiciones efectivas: 14.2 · HHI: 0.0706
+- Volatilidad anualizada: 7.7%
+- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -1.6%
+- Beta vs SPY: 0.41 · posiciones efectivas: 14.4 · HHI: 0.0694
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -280,9 +280,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **PWP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **TRIP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
-- **MPLT** · score agregado 142.0 · 2 señales · fuentes: large_holder
+- **BSX** · score agregado 157.3 · 2 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
-- **LTH** · score agregado 127.0 · 2 señales · fuentes: congress
+- **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **WHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
@@ -291,21 +291,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| ORN | 74 | corporate_insider | Vasquez Alison Gaut | 2 | $49,999 | cluster_buy |
-| ORN | 74 | corporate_insider | LEDFORD ROBERT | 2 | $192,430 | cluster_buy |
+| BSX | 86 | corporate_insider | Mahoney Michael F | 2 | $9,001,408 | cluster_buy |
+| MBRX | 80 | corporate_insider | KLEMP WALTER V | 3 | - | cluster_buy |
+| MBRX | 80 | corporate_insider | Foster Jonathan P. | 3 | - | cluster_buy |
+| PFE | 78 | corporate_insider | BLAYLOCK RONALD E | 2 | $998,821 | cluster_buy |
+| PFE | 77 | corporate_insider | Buckley Mortimer J | 2 | $960,369 | cluster_buy |
+| MBRX | 77 | corporate_insider | PICKER DONALD H | 3 | - | cluster_buy |
 | FUNC | 73 | corporate_insider | Rush Jason Barry | 4 | $2,919 | cluster_buy,small_amount |
 | WHD | 72 | large_holder | Boston Partners |  | - | - |
-| ETOR | 72 | large_holder | China Vered Financial Hol |  | - | - |
-| HAYW | 72 | large_holder | FIDUCIARY MANAGEMENT INC  |  | - | - |
-| EWAV | 72 | large_holder | Space Summit Capital LLC |  | - | - |
-| ALLE | 72 | large_holder | Boston Partners |  | - | - |
+| ZBRA | 72 | large_holder | Boston Partners |  | - | - |
+| RNAZ | 72 | large_holder | DEFJ, LLC |  | - | - |
 | SCI | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
-| MPLT | 72 | large_holder | Novo Holdings A/S |  | - | - |
+| AAMI | 72 | large_holder | Jennison Associates LLC |  | - | - |
+| BSX | 71 | corporate_insider | Habiger David C | 2 | $50,084 | cluster_buy |
 | ETD | 70 | large_holder | DGB Investment, Inc. |  | - | - |
-| GLRE | 70 | large_holder | EINHORN DAVID |  | - | - |
-| FRNM | 70 | large_holder | BIT Capital GmbH |  | - | - |
-| IHS | 70 | large_holder | UBS Group AG |  | - | - |
-| NTST | 70 | large_holder | PRINCIPAL REAL ESTATE INV |  | - | - |
+| EA | 70 | large_holder | PUBLIC INVESTMENT FUND |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,20 +327,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.85 (0.07% / 5.81% / 3.55%) [2026-08-05]
-- QQQ: 721.24 (-0.36% / 8.99% / 1.38%) [2026-08-05]
-- IWM: 300.65 (-0.35% / 4.19% / 2.44%) [2026-08-05]
-- DIA: 544.35 (0.73% / 5.61% / 4.16%) [2026-08-05]
-- TLT: 82.97 (0.19% / 0.55% / -1.25%) [2026-08-05]
-- IEF: 93.29 (0.04% / 0.47% / 0.11%) [2026-08-05]
-- GLD: 390.87 (4.47% / 5.33% / 4.39%) [2026-08-05]
-- ^VIX: 15.56 (-5.7% / -24.69% / -7.93%) [2026-08-05]
-- BTC-USD: 64827.71 (1.2% / 3.21% / 1.63%) [2026-08-05]
+- SPY: 769.79 (-0.2% / 5.53% / 3.27%) [2026-08-05]
+- QQQ: 717.3 (-0.9% / 8.4% / 0.82%) [2026-08-05]
+- IWM: 299.77 (-0.64% / 3.88% / 2.14%) [2026-08-05]
+- DIA: 542.81 (0.44% / 5.32% / 3.86%) [2026-08-05]
+- TLT: 83.0 (0.22% / 0.58% / -1.22%) [2026-08-05]
+- IEF: 93.31 (0.06% / 0.49% / 0.13%) [2026-08-05]
+- GLD: 389.64 (4.14% / 5.0% / 4.06%) [2026-08-05]
+- ^VIX: 15.81 (-4.18% / -23.48% / -6.45%) [2026-08-05]
+- BTC-USD: 64811.5 (1.18% / 3.18% / 1.6%) [2026-08-05]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.25 (delta 1m: 0.11) [2026-08-03]
-- Treasury 10Y yield: 4.7 (delta 1m: 0.21) [2026-08-03]
+- Treasury 2Y yield: 4.2 (delta 1m: 0.07) [2026-08-04]
+- Treasury 10Y yield: 4.63 (delta 1m: 0.15) [2026-08-04]
 - Curva 10Y-2Y: 0.43 (delta 1m: 0.08) [2026-08-04]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.73 (delta 1m: 0.01) [2026-08-04]
@@ -350,36 +350,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: ai (2), regulatory (2), leadership (2), stock (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRCL] Circle Q2 Results Beat Estimates : So Why Is CRCL Stock Selling Off ? - Circle Internet Group ( NYSE : CRCL ) (2026-08-05)
-- [CRCL] Circle Internet Group Posts Mixed Financial Results (2026-08-05)
-- [SYY] Sysco Stops Buying Mexican Iceberg Lettuce Amid Cyclospora Outbreak (2026-08-05)
-- [MDT] Jury rules Medtronic owes $88 million in first case about hernia treatment products (2026-08-05)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) CAO Tamara Schulz Sells 1 , 194 Shares of Stock (2026-08-05)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Patrick Sean Neville Sells 50 , 000 Shares (2026-08-04)
-- [MDT] US jury says Medtronic owes $88 million in first case to go to trial over Covidien hernia mesh | WABX 107 . 5 (2026-08-04)
+- [MA] IDBank Introduces the New Mastercard World Card with Exclusive Travel Benefits and a Special Launch Campaign (2026-08-05)
+- [MA] Jamie Dimon leads new industry push to manage AI risks across banking (2026-08-05)
+- [COIN] The Bitcoin Comeback May Already Be Underway 2 ETFs for Exposure (2026-08-05)
+- [COIN] Cathie Wood ARK Invest Scoops Up $9 . 4M in Coinbase and Circle Shares (2026-08-04)
+- [COIN] Coinbase CEO Brian Armstrong Continues to Advocate for the Clarity Act . Here the Most Likely Scenario For the Crypto Market . (2026-08-04)
+- [SPOT] SpaceX Could Swing $204 Billion After Earnings - Pfizer ( NYSE : PFE ), Spotify Technology ( NYSE : SPOT ), Advan (2026-08-03)
+- [COIN] Brian Armstrong Isnt Losing Sleep Over Crypto Act Not Passing Before August Recess : Here Why the Coinbase CEO Isnt Worried (2026-08-03)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CFO Lampo Craig A vendio APH por $32.3M el 2026-08-04 [senal en multiples fuentes].
+- CEO Mahoney Michael F compro BSX por $9.0M el 2026-08-03.
 - 10% owner Harrison Street Real Assets Fund LLC compro NFRX por $10.0M el 2026-08-04.
 - CEO FLORANCE ANDREW C compro CSGP por $2.5M el 2026-08-04.
-- CEO Les Jason opero RIOT por $58.4M el 2026-07-31.
 - CEO Huang Jack Jiajia compro COE por $3.3M el 2026-07-30.
+- Director BEZOS JEFFREY P vendio AMZN por $346.5M el 2026-08-03 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.
 - CEO Bender Scott vendio WHD por $6.4M el 2026-08-03 [senal en multiples fuentes].
-- CEO Davis Paul T vendio PBF por $5.0M el 2026-08-04.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $93,902 · win rate 93% · categorias: sports
+- SDTrading · PnL $92,642 · win rate 93% · categorias: sports
+- CORGI8 · PnL $100,280 · win rate 92% · categorias: sports
 - matenghehe · PnL $40,634 · win rate 97% · categorias: sports, crypto
 - elizabeth.ethcome · PnL $61,684 · win rate 90% · categorias: sports, crypto, politics
-- CORGI8 · PnL $49,306 · win rate 91% · categorias: sports
-- TAIWANNUMBERONE · PnL $49,831 · win rate 91% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $46,228 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 103 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 589 registros 30d · ultimo dato 2026-08-05
+- **sec_insiders**: `ok` · 567 registros 30d · ultimo dato 2026-08-05
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -400,7 +400,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, MPLT, NTST, PWP, QQQ, SPCX, SPY, TLT, TRIP, VG, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BSX, CHRW, FWONK, GLD, IEF, LTH, NTST, PWP, QQQ, SPCX, SPY, TLT, TRIP, VG, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
