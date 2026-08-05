@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-05T10:06:06+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
+_Generado 2026-08-05T12:32:33+00:00 · ventana señales 2026-07-06 -> 2026-08-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.31)
+- Volatilidad: `normal` (VIX 16.78)
 - Tendencia: `bull` (SPY 771.33 · MA50 745.2 · MA200 698.47 · dist MA200: 10.43%)
 - Credito: `tight` (HY spread 2.78)
 - Tipos: `flat` (curva 10y-2y 0.43)
@@ -26,29 +26,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 723.85 | 3.4% | 7.16% | 2.03% |
 | TLT | 12.0% | core | 82.82 | 0.77% | -1.29% | -1.65% |
 | GLD | 9.3% | core | 374.16 | 0.66% | 1.3% | -0.88% |
-| FWONK | 6.5% | satellite | 96.43 | -1.34% | -4.71% | -2.43% |
-| NTST | 6.4% | satellite | 21.08 | -1.45% | -3.92% | -4.01% |
 | IEF | 6.2% | core | 93.25 | 0.46% | 0.01% | -0.14% |
-| LTH | 5.2% | satellite | 44.73 | 1.27% | -1.97% | 6.63% |
-| TRIP | 3.4% | satellite | 14.33 | -1.17% | -4.02% | 4.45% |
-| CHRW | 2.7% | satellite | 154.75 | 5.27% | -8.62% | -18.96% |
-| VG | 2.4% | satellite | 12.84 | -1.83% | 5.51% | 10.79% |
-| PWP | 2.2% | satellite | 17.05 | -0.7% | 5.7% | 4.54% |
-| ORN | 2.0% | satellite | 10.18 | 1.9% | -14.95% | -28.56% |
-| SPCX | 1.9% | satellite | 125.33 | 9.43% | 7.66% | -16.15% |
-| MPLT | 0.7% | satellite | 12.94 | 3.11% | 5.12% | -65.08% |
+| FWONK | 5.8% | satellite | 96.43 | -1.34% | -4.71% | -2.43% |
+| NTST | 5.7% | satellite | 21.08 | -1.45% | -3.92% | -4.01% |
+| SCI | 5.6% | satellite | 85.6 | -0.38% | 0.73% | 9.23% |
+| LTH | 4.6% | satellite | 44.73 | 1.27% | -1.97% | 6.63% |
+| TRIP | 3.0% | satellite | 14.33 | -1.17% | -4.02% | 4.45% |
+| CHRW | 2.4% | satellite | 154.75 | 5.27% | -8.62% | -18.96% |
+| VG | 2.1% | satellite | 12.84 | -1.83% | 5.51% | 10.79% |
+| PWP | 1.9% | satellite | 17.05 | -0.7% | 5.7% | 4.54% |
+| SPCX | 1.7% | satellite | 125.33 | 9.43% | 7.66% | -16.15% |
+| MPLT | 0.6% | satellite | 12.94 | 3.11% | 5.12% | -65.08% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.4%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.7%
-- Beta vs SPY: 0.421 · posiciones efectivas: 14.2 · HHI: 0.0706
+- Volatilidad anualizada: 7.5%
+- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.8%
+- Max drawdown historico: -1.4%
+- Beta vs SPY: 0.34 · posiciones efectivas: 14.2 · HHI: 0.0702
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **ORN** · score agregado 231.5 · 3 señales · fuentes: corporate_insider
 - **VG** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **PWP** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **NTST** · score agregado 211.5 · 3 señales · fuentes: large_holder
@@ -57,6 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **MPLT** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 127.0 · 2 señales · fuentes: congress
+- **SCI** · score agregado 73.0 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,21 +64,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| MKZR | 79 | corporate_insider | DIXON ROBERT E | 3 | $51,606 | cluster_buy |
-| MKZR | 78 | corporate_insider | DIXON ROBERT E | 3 | $36,000 | cluster_buy |
-| ORN | 78 | corporate_insider | Vasquez Alison Gaut | 3 | $49,999 | cluster_buy |
-| ORN | 78 | corporate_insider | LEDFORD ROBERT | 3 | $192,430 | cluster_buy |
-| ORN | 76 | corporate_insider | Earle Edward Chipman | 3 | $49,050 | cluster_buy |
-| MKZR | 75 | corporate_insider | PATTERSON CHARLES E. II | 3 | $51,606 | cluster_buy |
-| MKZR | 74 | corporate_insider | PATTERSON CHARLES E. II | 3 | $36,000 | cluster_buy |
-| MKZR | 74 | corporate_insider | FULLER GLEN W | 3 | $51,606 | cluster_buy |
-| MKZR | 73 | corporate_insider | FULLER GLEN W | 3 | $36,000 | cluster_buy |
+| ORN | 74 | corporate_insider | Vasquez Alison Gaut | 2 | $49,999 | cluster_buy |
+| ORN | 74 | corporate_insider | LEDFORD ROBERT | 2 | $192,430 | cluster_buy |
 | SCI | 73 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
 | LPLA | 72 | large_holder | Boston Partners |  | - | - |
 | ETOR | 72 | large_holder | China Vered Financial Hol |  | - | - |
 | HAYW | 72 | large_holder | FIDUCIARY MANAGEMENT INC  |  | - | - |
 | EWAV | 72 | large_holder | Space Summit Capital LLC |  | - | - |
 | ALLE | 72 | large_holder | Boston Partners |  | - | - |
+| MPLT | 72 | large_holder | Novo Holdings A/S |  | - | - |
+| SNEX | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| FRNM | 70 | large_holder | BIT Capital GmbH |  | - | - |
+| SPTX | 70 | large_holder | Zohar Daphne |  | - | - |
+| SPTX | 70 | large_holder | PAUL STEVEN M |  | - | - |
+| FORTY | 70 | large_holder | MENORA MIVTACHIM HOLDINGS |  | - | - |
+| ELLO | 70 | large_holder | Menora Mivtachim Holdings |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.82 (0.77% / -1.29% / -1.65%) [2026-08-04]
 - IEF: 93.25 (0.46% / 0.01% / -0.14%) [2026-08-04]
 - GLD: 374.16 (0.66% / 1.3% / -0.88%) [2026-08-04]
-- ^VIX: 16.31 (-1.15% / -21.06% / -3.49%) [2026-08-05]
-- BTC-USD: 64115.67 (0.09% / 2.07% / 0.51%) [2026-08-05]
+- ^VIX: 16.78 (1.7% / -18.78% / -0.71%) [2026-08-05]
+- BTC-USD: 64371.2 (0.49% / 2.48% / 0.91%) [2026-08-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), merger (1)
+**Temas dominantes**: stock (6), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWD] CrowdStrike Warns AI Adoption Is Creating  Underdefended  Attack Surfaces (2026-08-05)
-- [CRDO] GK Wealth Management LLC Acquires New Stake in Credo Technology Group Holding Ltd . $CRDO (2026-08-05)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) CAO Tamara Schulz Sells 1 , 194 Shares of Stock (2026-08-05)
 - [CVNA] Michael Maroone Purchases 25 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
 - [CVNA] Stephen Palmer Sells 5 , 000 Shares of Carvana ( NYSE : CVNA ) Stock (2026-08-04)
-- [CRDO] Credo Technology Group ( NASDAQ : CRDO ) Stock Price Up 9 % – Still a Buy ? (2026-08-04)
-- [CRDO] Credo Technology Group ( NASDAQ : CRDO ) Stock Price Up 9 % – Here Why (2026-08-04)
-- [MDT] US jury says Medtronic owes $88 million in first case to go to trial over Covidien hernia mesh | WABX 107 . 5 (2026-08-04)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Patrick Sean Neville Sells 50 , 000 Shares (2026-08-04)
+- [CRCL] Insider Selling : Circle Internet Group ( NYSE : CRCL ) Director Sells 50 , 000 Shares of Stock (2026-08-04)
 - [SCI] Why HBO Max $949 Million Dystopian Sci - Fi Has Become A Global Streaming Hit (2026-08-04)
 - [CVNA] Jim Cramer Stock Picks : Summit Therapeutics Is A  Great Spec  - Carvana ( NYSE : CVNA ) (2026-08-04)
-- [MDT] Medtronic : What Everyone Should Know About Brain Health and Stroke (2026-08-04)
+- [CVNA] BNP Paribas Exane Cuts Carvana ( NYSE : CVNA ) Price Target to $69 . 00 (2026-08-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,18 +143,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO RYAN THOMAS L vendio SCI por $20.1M el 2026-07-31 [senal en multiples fuentes].
 - Director LORD ALBERT L compro APCX por $57.9M el 2026-07-31.
 - CEO Les Jason opero RIOT por $58.4M el 2026-07-31.
+- CEO Huang Jack Jiajia compro COE por $3.3M el 2026-07-30.
 - CFO TANZBERGER ERIC D vendio SCI por $4.7M el 2026-08-03 [senal en multiples fuentes].
+- CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
-- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $93,541 · win rate 93% · categorias: sports
-- Dota2winner · PnL $26,040 · win rate 95% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $16,048 · win rate 98% · categorias: sports, crypto
-- esportGG · PnL $14,042 · win rate 95% · categorias: sports
-- quavoo · PnL $40,027 · win rate 86% · categorias: sports, economy, crypto
+- SDTrading · PnL $93,519 · win rate 93% · categorias: sports
+- Dota2winner · PnL $38,859 · win rate 95% · categorias: sports
+- CORGI8 · PnL $54,475 · win rate 91% · categorias: sports
+- matenghehe · PnL $21,772 · win rate 96% · categorias: sports, crypto
+- elizabeth.ethcome · PnL $51,190 · win rate 90% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +162,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 103 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 663 registros 30d · ultimo dato 2026-08-04
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-04
+- **sec_insiders**: `ok` · 660 registros 30d · ultimo dato 2026-08-04
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -176,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, MPLT, NTST, ORN, PWP, QQQ, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, MPLT, NTST, PWP, QQQ, SCI, SPCX, SPY, TLT, TRIP, VG`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
