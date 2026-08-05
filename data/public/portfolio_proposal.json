@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-05T20:57:05+00:00",
+  "generated_at": "2026-08-05T22:39:57+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "FWONK": 0.0585,
-    "NTST": 0.0561,
-    "LTH": 0.047,
-    "BSX": 0.0436,
-    "TRIP": 0.0299,
-    "CHRW": 0.0244,
-    "WHD": 0.0222,
-    "PWP": 0.0197,
-    "VG": 0.0195,
-    "SPCX": 0.0138
+    "FWONK": 0.0601,
+    "NTST": 0.0577,
+    "LTH": 0.0483,
+    "BSX": 0.0449,
+    "MORN": 0.0274,
+    "CHRW": 0.0251,
+    "PWP": 0.0202,
+    "VG": 0.0199,
+    "GBFH": 0.0169,
+    "SPCX": 0.0142
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "NTST": 0.0499,
-    "FWONK": 0.052,
-    "VG": 0.0173,
-    "PWP": 0.0175,
-    "TRIP": 0.0266,
-    "SPCX": 0.0123,
-    "BSX": 0.0388,
-    "CHRW": 0.0217,
-    "LTH": 0.0418,
-    "WHD": 0.0197
+    "NTST": 0.0513,
+    "FWONK": 0.0534,
+    "GBFH": 0.015,
+    "VG": 0.0177,
+    "PWP": 0.018,
+    "SPCX": 0.0126,
+    "BSX": 0.0399,
+    "MORN": 0.0244,
+    "CHRW": 0.0223,
+    "LTH": 0.0429
   },
   "satellite_rationale": [
     {
@@ -58,6 +58,14 @@
       "n_signals": 4
     },
     {
+      "ticker": "GBFH",
+      "score": 236.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "VG",
       "score": 211.5,
       "sources": [
@@ -67,14 +75,6 @@
     },
     {
       "ticker": "PWP",
-      "score": 211.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "TRIP",
       "score": 211.5,
       "sources": [
         "large_holder"
@@ -98,6 +98,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "MORN",
+      "score": 143.6,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "CHRW",
       "score": 127.4,
       "sources": [
@@ -112,27 +120,19 @@
         "congress"
       ],
       "n_signals": 2
-    },
-    {
-      "ticker": "WHD",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0772,
-    "var_95_1d": 0.0062,
-    "cvar_95_1d": 0.0091,
-    "max_drawdown": -0.0161,
-    "beta_spy": 0.41,
-    "hhi": 0.0694,
+    "ann_vol": 0.0745,
+    "var_95_1d": 0.0056,
+    "cvar_95_1d": 0.0092,
+    "max_drawdown": -0.0175,
+    "beta_spy": 0.325,
+    "hhi": 0.0697,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.4,
-    "gross_exposure": 0.8501,
+    "effective_positions": 14.3,
+    "gross_exposure": 0.8502,
     "days_used": 36
   },
   "risk_gate": {
