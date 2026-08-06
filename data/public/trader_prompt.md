@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-06T07:04:44+00:00 -->
+<!-- trader_prompt.md generado 2026-08-06T10:14:54+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-06T07:04:44+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
+_Generado 2026-08-06T10:14:54+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.81)
+- Volatilidad: `normal` (VIX 15.9)
 - Tendencia: `bull` (SPY 769.79 · MA50 745.72 · MA200 699.04 · dist MA200: 10.12%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.0 (0.22% / 0.58% / -1.22%) [2026-08-05]
 - IEF: 93.31 (0.06% / 0.49% / 0.13%) [2026-08-05]
 - GLD: 389.64 (4.14% / 5.0% / 4.06%) [2026-08-05]
-- ^VIX: 15.81 (-4.18% / -23.48% / -6.45%) [2026-08-05]
-- BTC-USD: 64759.15 (0.25% / 3.18% / 1.35%) [2026-08-06]
+- ^VIX: 15.9 (0.57% / -6.96% / 0.38%) [2026-08-06]
+- BTC-USD: 64532.19 (-0.1% / 2.82% / 0.99%) [2026-08-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,16 +350,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2), earnings (1)
+**Temas dominantes**: ai (2), stock (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [BLLN] BillionToOne Stock ( BLLN ) Falls After Hours : Here What Driving the Move - BillionToOne ( NASDAQ : BLLN ) (2026-08-06)
 - [CRWV] AI cloud firm CoreWeave enters Indonesia with three data centres (2026-08-06)
-- [MORN] CWST Stock Price Quote | Morningstar (2026-08-06)
-- [DASH] DoorDash ( NASDAQ : DASH ) Posts Earnings Results , Misses Estimates By $0 . 01 EPS (2026-08-06)
-- [DASH] PYMNTS | DoorDash Says Agentic Traffic Is Low , but AI Gains Are Not (2026-08-06)
-- [DASH] What Are Wall Street Analyst Target Price for DoorDash Stock ? (2026-08-05)
+- [BLLN] Billiontoone Q2 Earnings Call Highlights (2026-08-05)
 - [CRWV] Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick (2026-08-05)
+- [BLLN] Does BillionToOne  ( BLLN ) Have Another Major Growth Engine Beyond Prenatal Testing ? (2026-08-04)
+- [IBTA] Morning Market Movers : AMRC , INHD , AHCO , IBTA See Big Swings (2026-08-04)
+- [BLLN] Critical Analysis : Billiontoone ( NASDAQ : BLLN ) and Lumexa Imaging ( NASDAQ : LMRI ) (2026-07-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- JnStTrdrBnusFnd · PnL $48,959 · win rate 92% · categorias: crypto
 - Shori888 · PnL $9,966 · win rate 100% · categorias: sports
-- comon119 · PnL $12,101 · win rate 98% · categorias: sports, crypto, politics
-- BreakTheBank · PnL $86,632 · win rate 85% · categorias: sports
-- monkeymashingkeyboard · PnL $29,303 · win rate 91% · categorias: sports
-- tennischamp · PnL $18,514 · win rate 89% · categorias: sports
+- BreakTheBank · PnL $86,700 · win rate 85% · categorias: sports
+- comon119 · PnL $10,877 · win rate 98% · categorias: sports, crypto, politics
+- monkeymashingkeyboard · PnL $29,270 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
