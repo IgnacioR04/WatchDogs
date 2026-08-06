@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-06T10:14:01.738859+00:00",
+  "generated_at": "2026-08-06T12:34:12.742313+00:00",
   "window": {
     "from": "2026-07-07",
     "to": "2026-08-06",
@@ -24,8 +24,8 @@
   "market_context": {
     "top_themes": [
       "ai",
-      "stock",
-      "earnings"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -123,6 +123,24 @@
     {
       "id": "move_6",
       "rank": 6,
+      "title": "CEO compro TM ($1.6M)",
+      "summary": "CEO Kon Kenta compro TM por $1.6M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Kon Kenta",
+      "actor_type": "ceo",
+      "ticker": "TM",
+      "direction": "buy",
+      "amount_estimated": 1564850.0,
+      "event_date": "2026-08-05",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2119478/000094787126000750/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro COE ($1.8M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.",
       "source": "sec_form_4",
@@ -139,8 +157,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000005/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio WHD ($6.4M)",
       "summary": "CEO Bender Scott vendio WHD por $6.4M el 2026-08-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -157,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1701688/000162828026052993/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro TSCO ($417K)",
       "summary": "CEO Lawton III Harry A compro TSCO por $417K el 2026-08-04 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -175,8 +193,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1647222/000164722226000012/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -193,8 +211,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager vendio MICROSOFT CORP ($34.5B)",
       "summary": "Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.",
       "source": "sec_13f",
@@ -211,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -229,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -247,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -265,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -283,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro JPMORGAN CHASE & CO ($13.1B)",
       "summary": "Institutional manager Geode Capital Management LLC compro JPMORGAN CHASE & CO por $13.1B.",
       "source": "sec_13f",
@@ -301,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro WALMART INC WMT ($12.7B)",
       "summary": "Institutional manager Invesco Ltd compro WALMART INC WMT por $12.7B.",
       "source": "sec_13f",
@@ -319,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
       "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
       "source": "sec_13f",
@@ -337,8 +355,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro NEWMONT CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro NEWMONT CORP por $12.3B.",
       "source": "sec_13f",
@@ -355,8 +373,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro CAPITAL ONE FINL CORP ($12.3B)",
       "summary": "Institutional manager Vanguard Group Inc compro CAPITAL ONE FINL CORP por $12.3B.",
       "source": "sec_13f",
@@ -366,24 +384,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 12266872781,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager vendio ORACLE CORP ($12.2B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ORACLE CORP por $12.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12231430056,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -573,15 +573,6 @@
         ]
       },
       {
-        "ticker": "MORN",
-        "company": "Morningstar, Inc.",
-        "pressure_score": 934.3,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "DASH",
         "company": "DoorDash, Inc.",
         "pressure_score": 911.0,
@@ -639,6 +630,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "APG",
+        "company": "APi Group Corp",
+        "pressure_score": 503.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -671,6 +670,15 @@
       "score": 83.5
     },
     {
+      "ticker": "TM",
+      "company": "TOYOTA MOTOR CORP/",
+      "actor": "Kon Kenta",
+      "actor_type": "ceo",
+      "amount": 1564850.0,
+      "date": "2026-08-05",
+      "score": 83.3
+    },
+    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -698,6 +706,15 @@
       "score": 80.1
     },
     {
+      "ticker": "BBBY",
+      "company": "BED BATH & BEYOND, INC.",
+      "actor": "LEMONIS MARCUS",
+      "actor_type": "ceo",
+      "amount": 202593.94,
+      "date": "2026-08-05",
+      "score": 78.9
+    },
+    {
       "ticker": "TSCO",
       "company": "TRACTOR SUPPLY CO /DE/",
       "actor": "Lawton III Harry A",
@@ -705,15 +722,6 @@
       "amount": 84694.5,
       "date": "2026-08-04",
       "score": 78.2
-    },
-    {
-      "ticker": "HLI",
-      "company": "HOULIHAN LOKEY, INC.",
-      "actor": "ALLEY J LINDSEY",
-      "actor_type": "cfo",
-      "amount": 500570.4,
-      "date": "2026-08-03",
-      "score": 78.1
     },
     {
       "ticker": "MBRX",
@@ -768,15 +776,6 @@
       "amount": 54420.0,
       "date": "2026-08-05",
       "score": 71.8
-    },
-    {
-      "ticker": "MBRX",
-      "company": "Moleculin Biotech, Inc.",
-      "actor": "PICKER DONALD H",
-      "actor_type": "officer",
-      "amount": 0.0,
-      "date": "2026-08-03",
-      "score": 71.6
     }
   ],
   "institutional_changes": [
@@ -1223,41 +1222,42 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 94749.94,
+        "win_rate": 0.9119,
+        "volume": 403673.66,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 48958.62,
+        "pnl": 59285.51,
         "win_rate": 0.9178,
-        "volume": 29636.27,
+        "volume": 50069.55,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0xa36fcb6947",
-        "username": "Shori888",
-        "pnl": 9966.1,
-        "win_rate": 1.0,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 86700.07,
+        "pnl": 86748.86,
         "win_rate": 0.8492,
-        "volume": 160118.79,
+        "volume": 160226.84,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 10876.55,
-        "win_rate": 0.984,
-        "volume": 10999.99,
+        "wallet": "0x86279a7e9e",
+        "username": "elizabeth.ethcome",
+        "pnl": 36108.29,
+        "win_rate": 0.9033,
+        "volume": 121221.77,
         "categories": [
           "sports",
           "crypto",
@@ -1267,40 +1267,30 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 29269.6,
+        "pnl": 29293.71,
         "win_rate": 0.9139,
-        "volume": 24084.12,
+        "volume": 26006.6,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 25738.18,
-        "win_rate": 0.9111,
-        "volume": 271074.87,
+        "wallet": "0xdd882a7068",
+        "username": "MeiGuNiuBi",
+        "pnl": 39093.02,
+        "win_rate": 0.864,
+        "volume": 130945.86,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x696de7b6e4",
-        "username": "xm39",
-        "pnl": 10627.09,
-        "win_rate": 0.9385,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 43137.41,
-        "win_rate": 0.8393,
-        "volume": 41500.07,
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 141343.81,
+        "win_rate": 1.0,
+        "volume": 59674.13,
         "categories": [
           "sports"
         ]
@@ -1316,11 +1306,21 @@
         ]
       },
       {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 29576.18,
+        "win_rate": 0.8393,
+        "volume": 41500.07,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 26322.49,
-        "win_rate": 0.863,
-        "volume": 167687.05,
+        "pnl": 19746.04,
+        "win_rate": 0.864,
+        "volume": 239833.68,
         "categories": [
           "sports",
           "economy",
@@ -1332,9 +1332,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 95042.36,
+        "pnl": 95538.36,
         "win_rate": 0.49,
-        "volume": 862730.99,
+        "volume": 963164.77,
         "categories": [
           "sports"
         ]
@@ -1342,9 +1342,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 67578.25,
-        "win_rate": 0.544,
-        "volume": 1622220.19,
+        "pnl": 59014.18,
+        "win_rate": 0.542,
+        "volume": 1696686.85,
         "categories": [
           "sports"
         ]
@@ -1352,9 +1352,9 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 42566.63,
-        "win_rate": 0.554,
-        "volume": 1287900.75,
+        "pnl": 42590.86,
+        "win_rate": 0.551,
+        "volume": 1300536.61,
         "categories": [
           "sports"
         ]
@@ -1362,9 +1362,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 86700.07,
+        "pnl": 86748.86,
         "win_rate": 0.8492,
-        "volume": 160118.79,
+        "volume": 160226.84,
         "categories": [
           "sports"
         ]
@@ -1372,9 +1372,9 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 76810.53,
+        "pnl": 71743.27,
         "win_rate": 0.7234,
-        "volume": 221195.19,
+        "volume": 380745.06,
         "categories": [
           "sports",
           "crypto"
@@ -1383,22 +1383,24 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 25738.18,
-        "win_rate": 0.9111,
-        "volume": 271074.87,
+        "pnl": 94749.94,
+        "win_rate": 0.9119,
+        "volume": 403673.66,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 21708.2,
-        "win_rate": 0.524,
-        "volume": 762741.24,
+        "wallet": "0x0224bb9eb0",
+        "username": "zb8",
+        "pnl": 17848.15,
+        "win_rate": 0.519,
+        "volume": 335979.02,
         "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       },
       {
@@ -1412,34 +1414,37 @@
         ]
       },
       {
-        "wallet": "0xa71093cafc",
-        "username": "Talvez10",
-        "pnl": 12404.18,
-        "win_rate": 0.53,
-        "volume": 118399.48,
+        "wallet": "0xe291a588ec",
+        "username": "patient12",
+        "pnl": 29258.48,
+        "win_rate": 0.6784,
+        "volume": 186075.47,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
-        "wallet": "0xa9b9e87721",
-        "username": "kldjsh",
-        "pnl": 10196.3,
-        "win_rate": 0.5,
-        "volume": 91612.82,
+        "wallet": "0xf9d6bdeab2",
+        "username": "MysteryPlayerAF",
+        "pnl": 19343.78,
+        "win_rate": 0.6809,
+        "volume": 321718.26,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "BillionToOne Stock ( BLLN ) Falls After Hours : Here What Driving the Move - BillionToOne ( NASDAQ : BLLN ) ",
-      "url": "https://www.benzinga.com/markets/equities/26/08/60981612/billiontoone-after-hours",
-      "ticker": "BLLN",
+      "title": "Cloudflare poised for second quarter revenue acceleration , says Jefferies",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-poised-second-quarter-revenue-190200236.html",
+      "ticker": "NET",
       "themes": [
-        "stock"
+        "earnings",
+        "regulatory"
       ],
       "date": "2026-08-06"
     },
@@ -1453,29 +1458,31 @@
       "date": "2026-08-06"
     },
     {
-      "title": "Billiontoone Q2 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/08/05/billiontoone-q2-earnings-call-highlights.html",
-      "ticker": "BLLN",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick",
-      "url": "https://www.foreignpolicyjournal.com/2026/08/05/piper-sandler-initiates-coverage-of-coreweave-nasdaq-crwv-and-nebius-nasdaq-nbis-calls-crwv-top-ai-cloud-pick/",
-      "ticker": "CRWV",
+      "title": "Cloudflare Gives Companies Full Visibility to Audit & Analyse AI Use",
+      "url": "https://itwire.com/business-it-news/security/cloudflare-gives-companies-full-visibility-to-audit-and-analyse-ai-use",
+      "ticker": "NET",
       "themes": [
         "ai"
       ],
-      "date": "2026-08-05"
+      "date": "2026-08-06"
     },
     {
-      "title": "Does BillionToOne  ( BLLN ) Have Another Major Growth Engine Beyond Prenatal Testing ? ",
-      "url": "https://www.insidermonkey.com/blog/does-billiontoone-blln-have-another-major-growth-engine-beyond-prenatal-testing-1807025/",
-      "ticker": "BLLN",
-      "themes": [],
-      "date": "2026-08-04"
+      "title": "DoorDash ( NASDAQ : DASH ) Posts Earnings Results , Misses Estimates By $0 . 01 EPS",
+      "url": "https://www.themarketsdaily.com/2026/08/06/doordash-nasdaqdash-posts-earnings-results-misses-estimates-by-0-01-eps.html",
+      "ticker": "DASH",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "PYMNTS | DoorDash Says Agentic Traffic Is Low , but AI Gains Are Not",
+      "url": "https://www.pymnts.com/news/delivery/2026/doordash-says-agentic-traffic-is-low-but-ai-gains-are-not/",
+      "ticker": "DASH",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-06"
     },
     {
       "title": "Morning Market Movers : AMRC , INHD , AHCO , IBTA See Big Swings",
@@ -1483,16 +1490,9 @@
       "ticker": "IBTA",
       "themes": [],
       "date": "2026-08-04"
-    },
-    {
-      "title": "Critical Analysis : Billiontoone ( NASDAQ : BLLN ) and Lumexa Imaging ( NASDAQ : LMRI ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13514292/critical-analysis-billiontoone-nasdaqblln-and-lumexa-imaging-nasdaqlmri.html",
-      "ticker": "BLLN",
-      "themes": [],
-      "date": "2026-07-24"
     }
   ],
-  "signals_count": 1798,
+  "signals_count": 1775,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

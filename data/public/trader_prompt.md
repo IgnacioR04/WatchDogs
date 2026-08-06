@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-06T10:14:54+00:00 -->
+<!-- trader_prompt.md generado 2026-08-06T12:35:05+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-06T10:14:54+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
+_Generado 2026-08-06T12:35:05+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.9)
+- Volatilidad: `normal` (VIX 16.03)
 - Tendencia: `bull` (SPY 769.79 · MA50 745.72 · MA200 699.04 · dist MA200: 10.12%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -256,28 +256,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | IEF | 6.2% | core | 93.31 | 0.06% | 0.49% | 0.13% |
 | FWONK | 5.1% | satellite | 96.05 | -0.39% | -5.73% | -0.46% |
 | NTST | 4.9% | satellite | 21.15 | 0.33% | -3.51% | -3.34% |
-| SCI | 4.6% | satellite | 85.34 | -0.3% | -0.4% | 11.18% |
+| SCI | 4.7% | satellite | 85.34 | -0.3% | -0.4% | 11.18% |
 | LTH | 4.1% | satellite | 45.31 | 1.3% | -0.85% | 9.18% |
-| TSCO | 3.8% | satellite | 33.41 | 0.88% | 7.77% | 12.95% |
-| LW | 3.6% | satellite | 53.3 | 0.23% | -1.26% | 15.57% |
-| MORN | 2.3% | satellite | 199.33 | -0.46% | 0.34% | 21.15% |
+| TSCO | 3.9% | satellite | 33.41 | 0.88% | 7.77% | 12.95% |
+| LW | 3.7% | satellite | 53.3 | 0.23% | -1.26% | 15.57% |
 | CHRW | 2.1% | satellite | 153.6 | -0.74% | -11.6% | -19.14% |
-| WHD | 1.9% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
+| WHD | 2.0% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
+| VG | 1.7% | satellite | 12.43 | -3.19% | -4.75% | 0.4% |
 | SPCX | 1.2% | satellite | 108.27 | -13.61% | -3.8% | -26.99% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.5%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: 0.373 · posiciones efectivas: 14.6 · HHI: 0.0686
+- Volatilidad anualizada: 6.9%
+- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.8%
+- Max drawdown historico: -1.6%
+- Beta vs SPY: 0.358 · posiciones efectivas: 14.5 · HHI: 0.0689
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NTST** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
+- **VG** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
-- **MORN** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **TSCO** · score agregado 123.7 · 2 señales · fuentes: corporate_insider
@@ -298,14 +298,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CAMP | 75 | corporate_insider | Gold Kelly | 4 | $10,809 | cluster_buy,small_amount |
 | CAMP | 74 | corporate_insider | Young Richard A | 4 | $27,024 | cluster_buy |
 | CAMP | 72 | corporate_insider | Maricich Yuri | 4 | $10,809 | cluster_buy,small_amount |
-| MORN | 72 | large_holder | Joseph D. Mansueto |  | - | - |
 | LW | 72 | large_holder | JPMORGAN CHASE & CO |  | - | - |
 | WHD | 72 | large_holder | Boston Partners |  | - | - |
 | ZBRA | 72 | large_holder | Boston Partners |  | - | - |
-| MORN | 72 | large_holder | Daniel Mansueto |  | - | - |
 | SCI | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
-| ETD | 70 | large_holder | DGB Investment, Inc. |  | - | - |
-| EA | 70 | large_holder | PUBLIC INVESTMENT FUND |  | - | - |
+| SOGP | 70 | large_holder | OP Investment Management  |  | - | - |
+| TNDM | 70 | large_holder | Voya Financial, Inc. |  | - | - |
+| LUNR | 70 | large_holder | Voya Financial, Inc. |  | - | - |
+| ARRY | 70 | large_holder | Voya Financial, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.0 (0.22% / 0.58% / -1.22%) [2026-08-05]
 - IEF: 93.31 (0.06% / 0.49% / 0.13%) [2026-08-05]
 - GLD: 389.64 (4.14% / 5.0% / 4.06%) [2026-08-05]
-- ^VIX: 15.9 (0.57% / -6.96% / 0.38%) [2026-08-06]
-- BTC-USD: 64532.19 (-0.1% / 2.82% / 0.99%) [2026-08-06]
+- ^VIX: 16.03 (1.39% / -6.2% / 1.2%) [2026-08-06]
+- BTC-USD: 64441.84 (-0.24% / 2.67% / 0.85%) [2026-08-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,17 +350,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1), earnings (1)
+**Temas dominantes**: ai (3), earnings (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [BLLN] BillionToOne Stock ( BLLN ) Falls After Hours : Here What Driving the Move - BillionToOne ( NASDAQ : BLLN ) (2026-08-06)
+- [NET] Cloudflare poised for second quarter revenue acceleration , says Jefferies (2026-08-06)
 - [CRWV] AI cloud firm CoreWeave enters Indonesia with three data centres (2026-08-06)
-- [BLLN] Billiontoone Q2 Earnings Call Highlights (2026-08-05)
-- [CRWV] Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick (2026-08-05)
-- [BLLN] Does BillionToOne  ( BLLN ) Have Another Major Growth Engine Beyond Prenatal Testing ? (2026-08-04)
+- [NET] Cloudflare Gives Companies Full Visibility to Audit & Analyse AI Use (2026-08-06)
+- [DASH] DoorDash ( NASDAQ : DASH ) Posts Earnings Results , Misses Estimates By $0 . 01 EPS (2026-08-06)
+- [DASH] PYMNTS | DoorDash Says Agentic Traffic Is Low , but AI Gains Are Not (2026-08-06)
 - [IBTA] Morning Market Movers : AMRC , INHD , AHCO , IBTA See Big Swings (2026-08-04)
-- [BLLN] Critical Analysis : Billiontoone ( NASDAQ : BLLN ) and Lumexa Imaging ( NASDAQ : LMRI ) (2026-07-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -368,18 +367,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Bastian Edward H vendio DAL por $19.2M el 2026-08-04.
 - CEO FLORANCE ANDREW C compro CSGP por $2.5M el 2026-08-04.
 - CEO Huang Jack Jiajia compro COE por $3.3M el 2026-07-30.
+- CEO Kon Kenta compro TM por $1.6M el 2026-08-05.
 - CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.
 - CEO Bender Scott vendio WHD por $6.4M el 2026-08-03 [senal en multiples fuentes].
 - CEO Lawton III Harry A compro TSCO por $417K el 2026-08-04 [senal en multiples fuentes].
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $48,959 · win rate 92% · categorias: crypto
-- Shori888 · PnL $9,966 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $86,700 · win rate 85% · categorias: sports
-- comon119 · PnL $10,877 · win rate 98% · categorias: sports, crypto, politics
-- monkeymashingkeyboard · PnL $29,270 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $94,750 · win rate 91% · categorias: sports, politics
+- JnStTrdrBnusFnd · PnL $59,286 · win rate 92% · categorias: crypto
+- BreakTheBank · PnL $86,749 · win rate 85% · categorias: sports
+- elizabeth.ethcome · PnL $36,108 · win rate 90% · categorias: sports, crypto, politics
+- monkeymashingkeyboard · PnL $29,294 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,8 +386,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 101 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 853 registros 30d · ultimo dato 2026-08-05
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
+- **sec_insiders**: `ok` · 830 registros 30d · ultimo dato 2026-08-05
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-06
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 
@@ -400,7 +399,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, LW, MORN, NTST, QQQ, SCI, SPCX, SPY, TLT, TSCO, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, LW, NTST, QQQ, SCI, SPCX, SPY, TLT, TSCO, VG, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
