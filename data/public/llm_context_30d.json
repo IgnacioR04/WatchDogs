@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-05T22:39:03.251463+00:00",
+  "generated_at": "2026-08-06T00:26:35.385268+00:00",
   "window": {
-    "from": "2026-07-06",
-    "to": "2026-08-05",
+    "from": "2026-07-07",
+    "to": "2026-08-06",
     "days": 30
   },
   "data_quality": {
@@ -24,6 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
+      "ai",
       "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -418,22 +419,6 @@
         ]
       },
       {
-        "ticker": "HUBB",
-        "company": "DC Hubbell Inc Common Stock",
-        "pressure_score": 346.8,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "BEP",
-        "company": "Limited Partnership Units",
-        "pressure_score": 338.0,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "CHRW",
         "company": "Common Stock",
         "pressure_score": 304.7,
@@ -461,22 +446,6 @@
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 245.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ENTG",
-        "company": "DC Entegris, Inc.",
-        "pressure_score": 233.2,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "GBFH",
-        "company": "GBank Financial Holdings Inc.",
-        "pressure_score": 225.3,
         "sources": [
           "corporate_insider"
         ]
@@ -512,6 +481,38 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "PWP",
+        "company": "Perella Weinberg Partners",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "TRIP",
+        "company": "TripAdvisor Inc",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "ELLO",
+        "company": "Ellomay Capital Ltd.",
+        "pressure_score": 210.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SVRN",
+        "company": "OceanPal Inc.",
+        "pressure_score": 207.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -519,6 +520,14 @@
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 6757.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 6509.8,
         "sources": [
           "corporate_insider"
         ]
@@ -575,6 +584,14 @@
         ]
       },
       {
+        "ticker": "RBRK",
+        "company": "Rubrik, Inc.",
+        "pressure_score": 763.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "TTAN",
         "company": "ServiceTitan, Inc.",
         "pressure_score": 756.3,
@@ -589,6 +606,14 @@
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "ROKU",
+        "company": "ROKU, INC",
+        "pressure_score": 506.1,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -611,30 +636,6 @@
         "ticker": "MAX",
         "company": "MediaAlpha, Inc.",
         "pressure_score": 471.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ABNB",
-        "company": "Airbnb, Inc.",
-        "pressure_score": 426.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RVI",
-        "company": "Robinhood Ventures Fund I",
-        "pressure_score": 425.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 424.7,
         "sources": [
           "corporate_insider"
         ]
@@ -697,15 +698,6 @@
       "score": 81.7
     },
     {
-      "ticker": "XIIIU",
-      "company": "Churchill Capital Corp XIII",
-      "actor": "Klein Michael Stuart",
-      "actor_type": "ten_percent_owner",
-      "amount": 3500000.0,
-      "date": "2026-08-03",
-      "score": 81.1
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -713,24 +705,6 @@
       "amount": 2869262.4,
       "date": "2026-07-28",
       "score": 80.1
-    },
-    {
-      "ticker": "TLSA",
-      "company": "Tiziana Life Sciences Ltd",
-      "actor": "Elrifi Ivor",
-      "actor_type": "ceo",
-      "amount": 667000.0,
-      "date": "2026-08-03",
-      "score": 80.0
-    },
-    {
-      "ticker": "GBFH",
-      "company": "GBank Financial Holdings Inc.",
-      "actor": "NIGRO EDWARD MICHAEL",
-      "actor_type": "ceo",
-      "amount": 197852.44,
-      "date": "2026-08-04",
-      "score": 78.8
     },
     {
       "ticker": "TSCO",
@@ -776,6 +750,33 @@
       "amount": 0.0,
       "date": "2026-08-03",
       "score": 75.8
+    },
+    {
+      "ticker": "CCNE",
+      "company": "CNB FINANCIAL CORP/PA",
+      "actor": "Peduzzi Michael D",
+      "actor_type": "ceo",
+      "amount": 38908.32,
+      "date": "2026-08-05",
+      "score": 75.3
+    },
+    {
+      "ticker": "MBRX",
+      "company": "Moleculin Biotech, Inc.",
+      "actor": "Foster Jonathan P.",
+      "actor_type": "cfo",
+      "amount": 0.0,
+      "date": "2026-08-03",
+      "score": 74.6
+    },
+    {
+      "ticker": "COCP",
+      "company": "Cocrystal Pharma, Inc.",
+      "actor": "FROST PHILLIP MD ET AL",
+      "actor_type": "ten_percent_owner",
+      "amount": 70590.0,
+      "date": "2026-08-03",
+      "score": 72.6
     }
   ],
   "institutional_changes": [
@@ -1224,8 +1225,8 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 149475.85,
-        "win_rate": 0.9167,
+        "pnl": 149536.45,
+        "win_rate": 0.9176,
         "volume": 470642.11,
         "categories": [
           "sports"
@@ -1234,9 +1235,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 91582.45,
+        "pnl": 74790.73,
         "win_rate": 0.9273,
-        "volume": 170837.77,
+        "volume": 259156.47,
         "categories": [
           "sports"
         ]
@@ -1255,7 +1256,7 @@
       {
         "wallet": "0xe55aab114e",
         "username": "steevenseakael",
-        "pnl": 28661.94,
+        "pnl": 31047.86,
         "win_rate": 0.9804,
         "volume": 132557.1,
         "categories": [
@@ -1277,22 +1278,12 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 40877.59,
+        "pnl": 41015.88,
         "win_rate": 0.9109,
-        "volume": 288339.15,
+        "volume": 294937.47,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 31079.64,
-        "win_rate": 0.9178,
-        "volume": 147.23,
-        "categories": [
-          "crypto"
         ]
       },
       {
@@ -1306,21 +1297,33 @@
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 495450.73,
-        "win_rate": 0.653,
-        "volume": 1541748.63,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 27023.3,
+        "win_rate": 0.8889,
+        "volume": 126911.34,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 27017.43,
-        "win_rate": 0.8864,
-        "volume": 126911.34,
+        "wallet": "0x23d81ba937",
+        "username": "flawfence",
+        "pnl": 52416.87,
+        "win_rate": 0.7926,
+        "volume": 158071.11,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 418905.51,
+        "win_rate": 0.653,
+        "volume": 2359454.3,
         "categories": [
           "sports"
         ]
@@ -1330,9 +1333,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 125286.93,
-        "win_rate": 0.656,
-        "volume": 8610022.82,
+        "pnl": 124227.56,
+        "win_rate": 0.66,
+        "volume": 8743718.9,
         "categories": [
           "sports",
           "politics",
@@ -1342,8 +1345,8 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 181318.62,
-        "win_rate": 0.5267,
+        "pnl": 182151.2,
+        "win_rate": 0.5287,
         "volume": 5283604.56,
         "categories": [
           "sports",
@@ -1351,11 +1354,21 @@
         ]
       },
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 64654.24,
+        "win_rate": 0.601,
+        "volume": 10960304.79,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 205948.76,
-        "win_rate": 0.545,
-        "volume": 4629658.54,
+        "pnl": 225150.23,
+        "win_rate": 0.544,
+        "volume": 5360975.86,
         "categories": [
           "sports"
         ]
@@ -1363,9 +1376,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 161589.8,
-        "win_rate": 0.553,
-        "volume": 3336089.81,
+        "pnl": 163548.89,
+        "win_rate": 0.554,
+        "volume": 4130114.98,
         "categories": [
           "sports"
         ]
@@ -1373,9 +1386,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 495450.73,
+        "pnl": 418905.51,
         "win_rate": 0.653,
-        "volume": 1541748.63,
+        "volume": 2359454.3,
         "categories": [
           "sports"
         ]
@@ -1395,9 +1408,9 @@
       {
         "wallet": "0xca97f54649",
         "username": "LarryDaddy",
-        "pnl": 48193.05,
-        "win_rate": 0.6615,
-        "volume": 982570.74,
+        "pnl": 42444.27,
+        "win_rate": 0.6564,
+        "volume": 1065651.4,
         "categories": [
           "sports",
           "crypto",
@@ -1405,46 +1418,29 @@
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 103873.5,
-        "win_rate": 0.51,
-        "volume": 1854561.4,
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 61343.05,
+        "win_rate": 0.532,
+        "volume": 547613.08,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 40633.83,
-        "win_rate": 0.9659,
-        "volume": 471817.1,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 45110.79,
+        "win_rate": 0.7199,
+        "volume": 674288.41,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0xa71093cafc",
-        "username": "Talvez10",
-        "pnl": 61534.81,
-        "win_rate": 0.532,
-        "volume": 323282.97,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Dasher Diary DoorDash Pause Button Missing Amarillo",
-      "url": "https://kissfm969.com/ixp/179/p/dasher-diary-missing-door-dash-pause-button/",
-      "ticker": "DASH",
-      "themes": [],
-      "date": "2026-08-05"
-    },
     {
       "title": "Frederick Wilson Sells 35 , 068 Shares of Coinbase Global ( NASDAQ : COIN ) Stock",
       "url": "https://www.tickerreport.com/banking-finance/13531298/frederick-wilson-sells-35068-shares-of-coinbase-global-nasdaqcoin-stock.html",
@@ -1464,10 +1460,12 @@
       "date": "2026-08-05"
     },
     {
-      "title": "DoorDash earns FAA Part 135 certification to launch drone delivery",
-      "url": "https://www.foxnews.com/tech/doordash-gets-faa-approval-delivery-drones",
-      "ticker": "DASH",
-      "themes": [],
+      "title": "Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/05/piper-sandler-initiates-coverage-of-coreweave-nasdaq-crwv-and-nebius-nasdaq-nbis-calls-crwv-top-ai-cloud-pick/",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
       "date": "2026-08-05"
     },
     {
@@ -1496,7 +1494,7 @@
       "date": "2026-08-04"
     }
   ],
-  "signals_count": 1666,
+  "signals_count": 1756,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
