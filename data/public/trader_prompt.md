@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-06T03:54:42+00:00 -->
+<!-- trader_prompt.md generado 2026-08-06T07:04:44+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-06T03:54:42+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
+_Generado 2026-08-06T07:04:44+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -260,7 +260,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | LTH | 4.1% | satellite | 45.31 | 1.3% | -0.85% | 9.18% |
 | TSCO | 3.8% | satellite | 33.41 | 0.88% | 7.77% | 12.95% |
 | LW | 3.6% | satellite | 53.3 | 0.23% | -1.26% | 15.57% |
-| MORN | 2.3% | satellite | 199.32 | -0.46% | 0.33% | 21.15% |
+| MORN | 2.3% | satellite | 199.33 | -0.46% | 0.34% | 21.15% |
 | CHRW | 2.1% | satellite | 153.6 | -0.74% | -11.6% | -19.14% |
 | WHD | 1.9% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
 | SPCX | 1.2% | satellite | 108.27 | -13.61% | -3.8% | -26.99% |
@@ -335,7 +335,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.31 (0.06% / 0.49% / 0.13%) [2026-08-05]
 - GLD: 389.64 (4.14% / 5.0% / 4.06%) [2026-08-05]
 - ^VIX: 15.81 (-4.18% / -23.48% / -6.45%) [2026-08-05]
-- BTC-USD: 64456.52 (0.63% / 2.62% / 1.05%) [2026-08-06]
+- BTC-USD: 64759.15 (0.25% / 3.18% / 1.35%) [2026-08-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,13 +350,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1), ai (1)
+**Temas dominantes**: ai (3), stock (2), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RBRK] John Wendell Thompson Sells 2 , 500 Shares of Rubrik ( NYSE : RBRK ) Stock (2026-08-04)
-- [RBRK] Rubrik launches Agent Identity for AI agent controls (2026-08-04)
-- [RBRK] SummitTX Capital L . P . Invests $441 , 000 in Rubrik , Inc . $RBRK (2026-08-01)
+- [CRWV] AI cloud firm CoreWeave enters Indonesia with three data centres (2026-08-06)
+- [MORN] CWST Stock Price Quote | Morningstar (2026-08-06)
+- [DASH] DoorDash ( NASDAQ : DASH ) Posts Earnings Results , Misses Estimates By $0 . 01 EPS (2026-08-06)
+- [DASH] PYMNTS | DoorDash Says Agentic Traffic Is Low , but AI Gains Are Not (2026-08-06)
+- [DASH] What Are Wall Street Analyst Target Price for DoorDash Stock ? (2026-08-05)
+- [CRWV] Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,11 +374,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Shori888 · PnL $9,943 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $79,921 · win rate 85% · categorias: sports
-- comon119 · PnL $10,002 · win rate 98% · categorias: sports, crypto, politics
-- monkeymashingkeyboard · PnL $17,942 · win rate 91% · categorias: sports
-- quavoo · PnL $28,461 · win rate 86% · categorias: sports, economy, crypto
+- Shori888 · PnL $9,966 · win rate 100% · categorias: sports
+- comon119 · PnL $12,101 · win rate 98% · categorias: sports, crypto, politics
+- BreakTheBank · PnL $86,632 · win rate 85% · categorias: sports
+- monkeymashingkeyboard · PnL $29,303 · win rate 91% · categorias: sports
+- tennischamp · PnL $18,514 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -383,7 +386,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 101 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 809 registros 30d · ultimo dato 2026-08-05
+- **sec_insiders**: `ok` · 853 registros 30d · ultimo dato 2026-08-05
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
