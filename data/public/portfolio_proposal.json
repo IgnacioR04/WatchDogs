@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-08-06T15:43:07+00:00",
+  "generated_at": "2026-08-06T23:09:16+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
     "IEF": 0.0622,
-    "FWONK": 0.0575,
-    "LTH": 0.0454,
-    "TSCO": 0.0444,
-    "STOK": 0.0336,
-    "PCVX": 0.0319,
-    "SMG": 0.0297,
-    "GPCR": 0.0297,
-    "CHRW": 0.0247,
-    "TTAN": 0.0235,
-    "SPCX": 0.0141
+    "FWONK": 0.0606,
+    "SCI": 0.0503,
+    "LTH": 0.046,
+    "CHRW": 0.0429,
+    "SNX": 0.0376,
+    "GTES": 0.0354,
+    "BAH": 0.0307,
+    "IPGP": 0.0196,
+    "SPCX": 0.0115
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0511,
-    "SPCX": 0.0125,
-    "CHRW": 0.022,
-    "LTH": 0.0404,
-    "TSCO": 0.0395,
-    "PCVX": 0.0284,
-    "SMG": 0.0264,
-    "TTAN": 0.0209,
-    "GPCR": 0.0264,
-    "STOK": 0.0299
+    "FWONK": 0.0539,
+    "GTES": 0.0315,
+    "SPCX": 0.0102,
+    "CHRW": 0.0381,
+    "LTH": 0.0409,
+    "IPGP": 0.0174,
+    "BAH": 0.0273,
+    "SNX": 0.0334,
+    "SCI": 0.0447
   },
   "satellite_rationale": [
     {
@@ -48,6 +46,14 @@
         "congress"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "GTES",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
     },
     {
       "ticker": "SPCX",
@@ -74,15 +80,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "TSCO",
-      "score": 123.7,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "PCVX",
+      "ticker": "IPGP",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -90,7 +88,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "SMG",
+      "ticker": "BAH",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -98,7 +96,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "TTAN",
+      "ticker": "SNX",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -106,15 +104,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "GPCR",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "STOK",
+      "ticker": "SCI",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -123,17 +113,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0986,
-    "var_95_1d": 0.007,
-    "cvar_95_1d": 0.0085,
-    "max_drawdown": -0.0269,
-    "beta_spy": 0.499,
-    "hhi": 0.0684,
+    "ann_vol": 0.0952,
+    "var_95_1d": 0.0093,
+    "cvar_95_1d": 0.01,
+    "max_drawdown": -0.0197,
+    "beta_spy": null,
+    "hhi": 0.0701,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.85,
-    "days_used": 37
+    "n_positions": 14,
+    "effective_positions": 14.3,
+    "gross_exposure": 0.8501,
+    "days_used": 26
   },
   "risk_gate": {
     "passed": true,
