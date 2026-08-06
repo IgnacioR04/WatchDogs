@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-06T00:27:28+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
+_Generado 2026-08-06T03:54:42+00:00 · ventana señales 2026-07-07 -> 2026-08-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -27,36 +27,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 83.0 | 0.22% | 0.58% | -1.22% |
 | GLD | 9.3% | core | 389.64 | 4.14% | 5.0% | 4.06% |
 | IEF | 6.2% | core | 93.31 | 0.06% | 0.49% | 0.13% |
-| FWONK | 5.2% | satellite | 96.05 | -0.39% | -5.73% | -0.46% |
-| NTST | 5.0% | satellite | 21.15 | 0.33% | -3.51% | -3.34% |
-| LTH | 4.2% | satellite | 45.31 | 1.3% | -0.85% | 9.18% |
-| TSCO | 3.9% | satellite | 33.41 | 0.88% | 7.77% | 12.95% |
-| BSX | 3.9% | satellite | 47.74 | -2.75% | 3.69% | 6.54% |
-| LW | 3.7% | satellite | 53.3 | 0.23% | -1.26% | 15.57% |
-| MORN | 2.4% | satellite | 199.32 | -0.46% | 0.33% | 21.15% |
-| CHRW | 2.2% | satellite | 153.6 | -0.74% | -11.6% | -19.14% |
-| WHD | 2.0% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
+| FWONK | 5.1% | satellite | 96.05 | -0.39% | -5.73% | -0.46% |
+| NTST | 4.9% | satellite | 21.15 | 0.33% | -3.51% | -3.34% |
+| SCI | 4.6% | satellite | 85.34 | -0.3% | -0.4% | 11.18% |
+| LTH | 4.1% | satellite | 45.31 | 1.3% | -0.85% | 9.18% |
+| TSCO | 3.8% | satellite | 33.41 | 0.88% | 7.77% | 12.95% |
+| LW | 3.6% | satellite | 53.3 | 0.23% | -1.26% | 15.57% |
+| MORN | 2.3% | satellite | 199.32 | -0.46% | 0.33% | 21.15% |
+| CHRW | 2.1% | satellite | 153.6 | -0.74% | -11.6% | -19.14% |
+| WHD | 1.9% | satellite | 65.91 | -1.93% | 25.97% | 22.67% |
 | SPCX | 1.2% | satellite | 108.27 | -13.61% | -3.8% | -26.99% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.9%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -1.9%
-- Beta vs SPY: 0.401 · posiciones efectivas: 14.6 · HHI: 0.0686
+- Volatilidad anualizada: 7.5%
+- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -1.8%
+- Beta vs SPY: 0.373 · posiciones efectivas: 14.6 · HHI: 0.0686
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NTST** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
-- **BSX** · score agregado 157.3 · 2 señales · fuentes: corporate_insider
 - **MORN** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **TSCO** · score agregado 123.7 · 2 señales · fuentes: corporate_insider
 - **LW** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **WHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **SCI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,11 +64,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| BSX | 86 | corporate_insider | Mahoney Michael F | 2 | $9,001,408 | cluster_buy |
 | MBRX | 80 | corporate_insider | KLEMP WALTER V | 3 | - | cluster_buy |
 | MBRX | 80 | corporate_insider | Foster Jonathan P. | 3 | - | cluster_buy |
-| PFE | 78 | corporate_insider | BLAYLOCK RONALD E | 2 | $998,821 | cluster_buy |
-| PFE | 77 | corporate_insider | Buckley Mortimer J | 2 | $960,369 | cluster_buy |
 | MBRX | 77 | corporate_insider | PICKER DONALD H | 3 | - | cluster_buy |
 | CAMP | 76 | corporate_insider | Mandel-Brehm Josh | 4 | $10,809 | cluster_buy,small_amount |
 | CAMP | 75 | corporate_insider | Gold Kelly | 4 | $10,809 | cluster_buy,small_amount |
@@ -79,6 +76,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | WHD | 72 | large_holder | Boston Partners |  | - | - |
 | ZBRA | 72 | large_holder | Boston Partners |  | - | - |
 | MORN | 72 | large_holder | Daniel Mansueto |  | - | - |
+| SCI | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
+| ETD | 70 | large_holder | DGB Investment, Inc. |  | - | - |
+| EA | 70 | large_holder | PUBLIC INVESTMENT FUND |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.31 (0.06% / 0.49% / 0.13%) [2026-08-05]
 - GLD: 389.64 (4.14% / 5.0% / 4.06%) [2026-08-05]
 - ^VIX: 15.81 (-4.18% / -23.48% / -6.45%) [2026-08-05]
-- BTC-USD: 64632.85 (0.9% / 2.9% / 1.32%) [2026-08-06]
+- BTC-USD: 64456.52 (0.63% / 2.62% / 1.05%) [2026-08-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1), leadership (1)
+**Temas dominantes**: stock (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [COIN] Frederick Wilson Sells 35 , 068 Shares of Coinbase Global ( NASDAQ : COIN ) Stock (2026-08-05)
-- [COIN] Insider Selling : Coinbase Global ( NASDAQ : COIN ) Director Sells $5 , 061 , 013 . 76 in Stock (2026-08-05)
-- [CRWV] Piper Sandler Initiates Coverage Of CoreWeave ( NASDAQ : CRWV ) And Nebius ( NASDAQ : NBIS ) Calls CRWV Top AI Cloud Pick (2026-08-05)
-- [COIN] The Bitcoin Comeback May Already Be Underway 2 ETFs for Exposure (2026-08-05)
-- [COIN] Cathie Wood ARK Invest Scoops Up $9 . 4M in Coinbase and Circle Shares (2026-08-04)
-- [COIN] Coinbase CEO Brian Armstrong Continues to Advocate for the Clarity Act . Here the Most Likely Scenario For the Crypto Market . (2026-08-04)
+- [RBRK] John Wendell Thompson Sells 2 , 500 Shares of Rubrik ( NYSE : RBRK ) Stock (2026-08-04)
+- [RBRK] Rubrik launches Agent Identity for AI agent controls (2026-08-04)
+- [RBRK] SummitTX Capital L . P . Invests $441 , 000 in Rubrik , Inc . $RBRK (2026-08-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Mahoney Michael F compro BSX por $9.0M el 2026-08-03.
 - 10% owner Harrison Street Real Assets Fund LLC compro NFRX por $10.0M el 2026-08-04.
 - CEO Bastian Edward H vendio DAL por $19.2M el 2026-08-04.
 - CEO FLORANCE ANDREW C compro CSGP por $2.5M el 2026-08-04.
@@ -144,14 +140,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $1.8M el 2026-07-29.
 - CEO Bender Scott vendio WHD por $6.4M el 2026-08-03 [senal en multiples fuentes].
 - CEO Lawton III Harry A compro TSCO por $417K el 2026-08-04 [senal en multiples fuentes].
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CORGI8 · PnL $149,536 · win rate 92% · categorias: sports
-- SDTrading · PnL $74,791 · win rate 93% · categorias: sports
-- matenghehe · PnL $40,634 · win rate 97% · categorias: sports, crypto
-- steevenseakael · PnL $31,048 · win rate 98% · categorias: sports
-- elizabeth.ethcome · PnL $61,684 · win rate 90% · categorias: sports, crypto, politics
+- Shori888 · PnL $9,943 · win rate 100% · categorias: sports
+- BreakTheBank · PnL $79,921 · win rate 85% · categorias: sports
+- comon119 · PnL $10,002 · win rate 98% · categorias: sports, crypto, politics
+- monkeymashingkeyboard · PnL $17,942 · win rate 91% · categorias: sports
+- quavoo · PnL $28,461 · win rate 86% · categorias: sports, economy, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,7 +156,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `ok`
 - **congress**: `ok` · 101 registros 30d · ultimo dato 2026-07-31
-- **sec_insiders**: `ok` · 811 registros 30d · ultimo dato 2026-08-05
+- **sec_insiders**: `ok` · 809 registros 30d · ultimo dato 2026-08-05
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -172,7 +169,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BSX, CHRW, FWONK, GLD, IEF, LTH, LW, MORN, NTST, QQQ, SPCX, SPY, TLT, TSCO, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, IEF, LTH, LW, MORN, NTST, QQQ, SCI, SPCX, SPY, TLT, TSCO, WHD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
