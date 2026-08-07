@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T03:36:17.311726+00:00",
+  "generated_at": "2026-08-07T06:06:29.264940+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -18,11 +18,12 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "warning",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
+      "ai",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -169,7 +170,10 @@
       "event_date": "2026-08-05",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_382146104922",
+        "news_540113686019"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1195655/000119312526338763/"
     },
     {
@@ -1219,30 +1223,30 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 37006.82,
+        "win_rate": 0.9062,
+        "volume": 16617.57,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 9704.51,
+        "pnl": 9702.4,
         "win_rate": 0.98,
-        "volume": 37990.97,
+        "volume": 38361.97,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 20650.41,
-        "win_rate": 0.9091,
-        "volume": 6617.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 23981.39,
+        "pnl": 24340.33,
         "win_rate": 0.8933,
         "volume": 214648.74,
         "categories": [
@@ -1250,31 +1254,11 @@
         ]
       },
       {
-        "wallet": "0x696de7b6e4",
-        "username": "xm39",
-        "pnl": 10761.56,
-        "win_rate": 0.9385,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 11015.33,
-        "win_rate": 0.9286,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 37455.08,
-        "win_rate": 0.831,
-        "volume": 107886.93,
+        "pnl": 26295.69,
+        "win_rate": 0.821,
+        "volume": 180689.93,
         "categories": [
           "sports",
           "politics",
@@ -1282,21 +1266,11 @@
         ]
       },
       {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 12273.99,
-        "win_rate": 0.8458,
-        "volume": 51578.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 204392.7,
-        "win_rate": 0.661,
-        "volume": 1167974.98,
+        "pnl": 258603.69,
+        "win_rate": 0.66,
+        "volume": 1218284.76,
         "categories": [
           "sports",
           "crypto",
@@ -1304,9 +1278,19 @@
         ]
       },
       {
+        "wallet": "0xd38ad20037",
+        "username": "johnny234",
+        "pnl": 12304.87,
+        "win_rate": 0.8465,
+        "volume": 62328.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 10725.0,
+        "pnl": 10750.0,
         "win_rate": 0.8421,
         "volume": 0.0,
         "categories": [
@@ -1314,15 +1298,33 @@
         ]
       },
       {
-        "wallet": "0xc84f7e76ec",
-        "username": "BrightStars",
-        "pnl": 18372.94,
-        "win_rate": 0.7881,
-        "volume": 7776.98,
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 6074.13,
+        "win_rate": 0.834,
+        "volume": 4880.68,
         "categories": [
-          "politics",
-          "sports",
-          "economy"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcf6c549212",
+        "username": "one8tyfive",
+        "pnl": 6179.54,
+        "win_rate": 0.829,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x38337de21f",
+        "username": "SineNooneEI",
+        "pnl": 14055.03,
+        "win_rate": 0.7739,
+        "volume": 0.0,
+        "categories": [
+          "sports"
         ]
       }
     ],
@@ -1330,9 +1332,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 204392.7,
-        "win_rate": 0.661,
-        "volume": 1167974.98,
+        "pnl": 258603.69,
+        "win_rate": 0.66,
+        "volume": 1218284.76,
         "categories": [
           "sports",
           "crypto",
@@ -1340,10 +1342,20 @@
         ]
       },
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 73594.45,
+        "win_rate": 0.604,
+        "volume": 1310949.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 112366.12,
-        "win_rate": 0.497,
+        "pnl": 153254.22,
+        "win_rate": 0.499,
         "volume": 424889.04,
         "categories": [
           "sports"
@@ -1352,8 +1364,8 @@
       {
         "wallet": "0xc3acf5878a",
         "username": "mentionmarket",
-        "pnl": 44400.0,
-        "win_rate": 0.6825,
+        "pnl": 45000.0,
+        "win_rate": 0.6842,
         "volume": 300000.0,
         "categories": [
           "sports"
@@ -1362,9 +1374,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 58235.86,
-        "win_rate": 0.547,
-        "volume": 833367.31,
+        "pnl": 94940.72,
+        "win_rate": 0.543,
+        "volume": 971200.4,
         "categories": [
           "sports"
         ]
@@ -1372,19 +1384,9 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 43352.4,
-        "win_rate": 0.547,
-        "volume": 551999.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7542fa229f",
-        "username": "ryanmclean1",
-        "pnl": 15075.01,
-        "win_rate": 0.7,
-        "volume": 164999.95,
+        "pnl": 71115.41,
+        "win_rate": 0.549,
+        "volume": 663547.41,
         "categories": [
           "sports"
         ]
@@ -1392,7 +1394,7 @@
       {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 23981.39,
+        "pnl": 24340.33,
         "win_rate": 0.8933,
         "volume": 214648.74,
         "categories": [
@@ -1402,9 +1404,9 @@
       {
         "wallet": "0xca97f54649",
         "username": "LarryDaddy",
-        "pnl": 18454.49,
-        "win_rate": 0.6403,
-        "volume": 216924.36,
+        "pnl": 18352.56,
+        "win_rate": 0.638,
+        "volume": 221171.42,
         "categories": [
           "sports",
           "crypto",
@@ -1414,19 +1416,19 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 15297.21,
-        "win_rate": 0.545,
-        "volume": 391377.5,
+        "pnl": 12876.3,
+        "win_rate": 0.543,
+        "volume": 506520.42,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 12273.99,
-        "win_rate": 0.8458,
-        "volume": 51578.24,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 13468.49,
+        "win_rate": 0.52,
+        "volume": 449257.38,
         "categories": [
           "sports"
         ]
@@ -1435,12 +1437,35 @@
   },
   "news": [
     {
+      "title": "CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks",
+      "url": "https://www.crn.com.au/news-network/cybersecurity/2026/crowdstrike-2026-threat-hunting-report-tracks-rise-in-ai-driven-cyberattacks",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-07"
+    },
+    {
       "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
       "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
       "ticker": "MIAX",
       "themes": [
         "stock"
       ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Celestica Announces Pricing of Equity Offering",
+      "url": "https://thestarphoenix.com/press-releases/business-wire/celestica-announces-pricing-of-equity-offering/",
+      "ticker": "CLS",
+      "themes": [],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Celestica Announces Pricing of Equity Offering",
+      "url": "https://montrealgazette.com/press-releases/business-wire/celestica-announces-pricing-of-equity-offering/",
+      "ticker": "CLS",
+      "themes": [],
       "date": "2026-08-06"
     }
   ],
