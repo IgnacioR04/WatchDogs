@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-08-07T00:31:06+00:00",
+  "generated_at": "2026-08-07T03:37:07+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.0731,
+    "FWONK": 0.0838,
+    "SCI": 0.0695,
+    "LTH": 0.0637,
     "IEF": 0.0622,
-    "SCI": 0.0606,
-    "LTH": 0.0556,
-    "CHRW": 0.0517,
-    "GTES": 0.0427,
-    "BAH": 0.037,
-    "SPCX": 0.0138
+    "CHRW": 0.0593,
+    "BAH": 0.0424,
+    "SPCX": 0.0159
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.065,
-    "GTES": 0.038,
-    "SPCX": 0.0123,
-    "CHRW": 0.046,
-    "LTH": 0.0494,
-    "BAH": 0.0329,
-    "SCI": 0.0539
+    "FWONK": 0.0745,
+    "SPCX": 0.0141,
+    "CHRW": 0.0527,
+    "LTH": 0.0566,
+    "BAH": 0.0377,
+    "SCI": 0.0618
   },
   "satellite_rationale": [
     {
@@ -42,14 +40,6 @@
         "congress"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "GTES",
-      "score": 211.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
     },
     {
       "ticker": "SPCX",
@@ -93,16 +83,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0897,
-    "var_95_1d": 0.0088,
-    "cvar_95_1d": 0.0103,
-    "max_drawdown": -0.0191,
+    "ann_vol": 0.0865,
+    "var_95_1d": 0.0075,
+    "cvar_95_1d": 0.0095,
+    "max_drawdown": -0.0195,
     "beta_spy": null,
-    "hhi": 0.0739,
+    "hhi": 0.0773,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.5,
-    "gross_exposure": 0.85,
+    "n_positions": 11,
+    "effective_positions": 12.9,
+    "gross_exposure": 0.8501,
     "days_used": 26
   },
   "risk_gate": {

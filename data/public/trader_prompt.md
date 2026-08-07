@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-07T00:31:07+00:00 -->
+<!-- trader_prompt.md generado 2026-08-07T03:37:08+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T00:31:07+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T03:37:08+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -253,26 +253,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 714.65 | -0.37% | 4.55% | -1.19% |
 | TLT | 12.0% | core | 82.52 | -0.58% | 0.06% | -1.94% |
 | GLD | 9.3% | core | 389.67 | 0.01% | 3.32% | 3.04% |
-| FWONK | 7.3% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
+| FWONK | 8.4% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
+| SCI | 7.0% | satellite | 84.96 | -0.45% | -0.39% | 10.87% |
+| LTH | 6.4% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
 | IEF | 6.2% | core | 92.95 | -0.39% | 0.06% | -0.47% |
-| SCI | 6.1% | satellite | 84.96 | -0.45% | -0.39% | 10.87% |
-| LTH | 5.6% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
-| CHRW | 5.2% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
-| GTES | 4.3% | satellite | 28.59 | -2.42% | 10.9% | 9.83% |
-| BAH | 3.7% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
-| SPCX | 1.4% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
+| CHRW | 5.9% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
+| BAH | 4.2% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
+| SPCX | 1.6% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.0%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
+- Volatilidad anualizada: 8.6%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
 - Max drawdown historico: -1.9%
-- Beta vs SPY: None · posiciones efectivas: 13.5 · HHI: 0.0739
+- Beta vs SPY: None · posiciones efectivas: 12.9 · HHI: 0.0773
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **GTES** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
@@ -329,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
 - ^VIX: 15.15 (-4.17% / -11.35% / -4.36%) [2026-08-06]
-- BTC-USD: 64225.0 (-0.58% / 2.33% / 0.51%) [2026-08-07]
+- BTC-USD: 64286.2 (-0.48% / 2.43% / 0.61%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +342,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), leadership (1), earnings (1), ai (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [IOT] Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock (2026-08-06)
-- [IOT] Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-06)
-- [IOT] Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock (2026-08-06)
-- [IOT] Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares (2026-08-06)
 - [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
-- [ADP] Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue (2026-08-06)
-- [CSTL] Castle Biosciences ( NASDAQ : CSTL ) Insider Sells 1 , 730 Shares (2026-08-04)
-- [CSTL] Tobin Juvenal Sells 1 , 730 Shares of Castle Biosciences ( NASDAQ : CSTL ) Stock (2026-08-04)
-- [FCF] FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook (2026-08-04)
-- [ADP] ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -366,17 +355,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Regnery David S vendio TT por $20.8M el 2026-08-05.
 - 10% owner Frazier Life Sciences XI, L.P. compro ATTO por $10.0M el 2026-08-06.
 - CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].
+- CEO MIONIS ROBERT vendio CLS por $5.0M el 2026-08-05.
 - CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager State Street Corp vendio MICROSOFT CORP por $34.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- AvrahamEisenberg - 10161 · PnL $100,287 · win rate 49% · categorias: sports, politics, crypto
-- 0xa8cf2ed8 · PnL $85,547 · win rate 49% · categorias: sports, crypto, politics
-- RWCS · PnL $102,267 · win rate 44% · categorias: sports, politics, crypto
-- m3t64 - 815 · PnL $1,147 · win rate 72% · categorias: crypto, sports, politics
-- 0x0f35109c · PnL $27,255 · win rate 50% · categorias: sports, politics, crypto
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $9,705 · win rate 98% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $20,650 · win rate 91% · categorias: sports
+- tennischamp · PnL $23,981 · win rate 89% · categorias: sports
+- xm39 · PnL $10,762 · win rate 94% · categorias: sports
+- SDTrading · PnL $11,015 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -384,11 +373,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 95 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 600 registros 30d · ultimo dato 2026-08-06
+- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-08-06
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-06
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — high_volume_zero_count:89
-- **Fuentes con problemas**: congress, institutional_13f, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress, institutional_13f
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -398,7 +387,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BAH, CHRW, FWONK, GLD, GTES, IEF, LTH, QQQ, SCI, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BAH, CHRW, FWONK, GLD, IEF, LTH, QQQ, SCI, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
