@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T19:33:40+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T20:18:32+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.91)
-- Tendencia: `bull` (SPY 772.8 · MA50 746.6 · MA200 700.13 · dist MA200: 10.38%)
+- Volatilidad: `calm` (VIX 14.87)
+- Tendencia: `bull` (SPY 773.22 · MA50 746.61 · MA200 700.13 · dist MA200: 10.44%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.44)
 - Fed Funds: 3.63%
@@ -22,28 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 772.8 | 0.55% | 3.45% | 2.36% |
-| QQQ | 12.0% | core | 721.96 | 1.02% | 4.94% | -0.49% |
-| TLT | 12.0% | core | 82.75 | 0.27% | 1.01% | -1.65% |
-| GLD | 9.3% | core | 398.67 | 2.31% | 7.3% | 5.74% |
-| IEF | 6.2% | core | 93.19 | 0.26% | 0.61% | -0.12% |
-| FCF | 6.0% | satellite | 21.53 | 0.37% | 0.0% | 6.11% |
-| FWONK | 4.9% | satellite | 103.05 | 3.37% | 5.01% | 7.2% |
-| UNH | 4.7% | satellite | 409.06 | 1.26% | -1.29% | -3.66% |
-| LTH | 3.6% | satellite | 43.83 | 0.8% | -2.82% | 4.63% |
-| HON | 3.5% | satellite | 245.93 | 2.16% | 1.18% | 8.62% |
-| CHRW | 3.4% | satellite | 150.45 | 2.58% | 1.84% | -22.25% |
-| MLM | 3.2% | satellite | 547.89 | 1.79% | 4.33% | -5.16% |
-| AVR | 2.2% | satellite | 8.85 | 5.92% | 12.95% | -9.37% |
-| MRAM | 1.0% | satellite | 16.64 | 6.33% | 14.52% | -9.66% |
-| SPCX | 1.0% | satellite | 131.59 | 14.51% | 21.43% | -9.44% |
+| SPY | 12.0% | core | 773.22 | 0.61% | 3.51% | 2.42% |
+| QQQ | 12.0% | core | 723.03 | 1.17% | 5.09% | -0.34% |
+| TLT | 12.0% | core | 82.76 | 0.29% | 1.03% | -1.63% |
+| GLD | 9.3% | core | 398.47 | 2.26% | 7.25% | 5.69% |
+| FCF | 6.7% | satellite | 21.51 | 0.28% | -0.09% | 6.01% |
+| IEF | 6.2% | core | 93.17 | 0.24% | 0.58% | -0.15% |
+| FWONK | 5.5% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
+| LTH | 4.1% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
+| HON | 4.0% | satellite | 246.21 | 2.27% | 1.3% | 8.74% |
+| CHRW | 3.8% | satellite | 149.35 | 1.83% | 1.09% | -22.82% |
+| MLM | 3.6% | satellite | 548.57 | 1.91% | 4.46% | -5.05% |
+| AVR | 2.5% | satellite | 8.91 | 6.58% | 13.65% | -8.8% |
+| MRAM | 1.2% | satellite | 16.64 | 6.33% | 14.52% | -9.66% |
+| SPCX | 1.1% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
+| CDNA | 1.1% | satellite | 46.69 | 4.2% | 6.82% | 63.77% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.8%
+- Volatilidad anualizada: 10.7%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -1.5%
-- Beta vs SPY: None · posiciones efectivas: 14.4 · HHI: 0.0693
+- Max drawdown historico: -1.8%
+- Beta vs SPY: None · posiciones efectivas: 14.2 · HHI: 0.0702
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -53,10 +53,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **AVR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **UNH** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **HON** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FCF** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **MRAM** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **CDNA** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -66,7 +66,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
 | AOS | 72 | large_holder | FMR LLC |  | - | - |
-| UNH | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | RXRX | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | MLM | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | LYV | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
@@ -77,8 +76,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CSCO | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | CDNA | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | AX | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| ADP | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | KTF | 70 | large_holder | Sit Investment Associates |  | - | - |
+| MIST | 70 | large_holder | Pavaki Capital Management |  | - | - |
+| COAG | 70 | large_holder | Invus Public Equities, L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -91,7 +91,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
 | FMC | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| UNH | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| CLH | 61 | congress | April McClain Delaney | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -100,20 +100,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 772.8 (0.55% / 3.45% / 2.36%) [2026-08-07]
-- QQQ: 721.96 (1.02% / 4.94% / -0.49%) [2026-08-07]
-- IWM: 301.71 (1.16% / 3.61% / 1.93%) [2026-08-07]
-- DIA: 539.96 (0.33% / 2.98% / 2.73%) [2026-08-07]
-- TLT: 82.75 (0.27% / 1.01% / -1.65%) [2026-08-07]
-- IEF: 93.19 (0.26% / 0.61% / -0.12%) [2026-08-07]
-- GLD: 398.67 (2.31% / 7.3% / 5.74%) [2026-08-07]
-- ^VIX: 14.91 (-1.58% / -6.75% / -0.8%) [2026-08-07]
-- BTC-USD: 64926.07 (1.03% / 2.27% / 0.2%) [2026-08-07]
+- SPY: 773.22 (0.61% / 3.51% / 2.42%) [2026-08-07]
+- QQQ: 723.03 (1.17% / 5.09% / -0.34%) [2026-08-07]
+- IWM: 301.56 (1.11% / 3.56% / 1.88%) [2026-08-07]
+- DIA: 539.7 (0.28% / 2.93% / 2.68%) [2026-08-07]
+- TLT: 82.76 (0.29% / 1.03% / -1.63%) [2026-08-07]
+- IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
+- GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
+- ^VIX: 14.87 (-1.85% / -7.0% / -1.06%) [2026-08-07]
+- BTC-USD: 64928.32 (1.04% / 2.28% / 0.2%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.18 (delta 1m: -0.01) [2026-08-05]
-- Treasury 10Y yield: 4.63 (delta 1m: 0.08) [2026-08-05]
+- Treasury 2Y yield: 4.25 (delta 1m: 0.04) [2026-08-06]
+- Treasury 10Y yield: 4.69 (delta 1m: 0.13) [2026-08-06]
 - Curva 10Y-2Y: 0.44 (delta 1m: 0.09) [2026-08-06]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.71 (delta 1m: 0.01) [2026-08-06]
@@ -123,25 +123,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), earnings (1), ai (1)
+**Temas dominantes**: stock (8), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MIAX] Keefe , Bruyette & Woods Forecasts Strong Price Appreciation for Miami International ( NYSE : MIAX ) Stock (2026-08-07)
+- [IOT] Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock (2026-08-06)
+- [IOT] Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-06)
+- [IOT] Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock (2026-08-06)
+- [IOT] Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares (2026-08-06)
 - [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
-- [ADP] Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue (2026-08-06)
-- [ADP] ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook (2026-08-04)
+- [CSTL] Castle Biosciences ( NASDAQ : CSTL ) Insider Sells 1 , 730 Shares (2026-08-04)
+- [CSTL] Tobin Juvenal Sells 1 , 730 Shares of Castle Biosciences ( NASDAQ : CSTL ) Stock (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Wallace Noel R. vendio CL por $14.9M el 2026-08-05 [senal en multiples fuentes].
+- 10% owner MA Eagle II Holdings Fund compro SCISX por $10.0M el 2026-08-06.
 - CEO Regnery David S vendio TT por $20.8M el 2026-08-05.
-- 10% owner Frazier Life Sciences XI, L.P. compro ATTO por $10.0M el 2026-08-06.
-- CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].
+- 10% owner Sanofi compro ATTO por $5.1M el 2026-08-06.
 - CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.
 - CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -157,8 +161,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 105 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 596 registros 30d · ultimo dato 2026-08-07
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
+- **sec_insiders**: `ok` · 593 registros 30d · ultimo dato 2026-08-07
+- **sec_13d_13g**: `ok` · 233 registros 30d · ultimo dato 2026-08-07
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
@@ -171,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AVR, CHRW, FCF, FWONK, GLD, HON, IEF, LTH, MLM, MRAM, QQQ, SPCX, SPY, TLT, UNH`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AVR, CDNA, CHRW, FCF, FWONK, GLD, HON, IEF, LTH, MLM, MRAM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

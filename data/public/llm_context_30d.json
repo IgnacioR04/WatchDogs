@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T19:32:43.271670+00:00",
+  "generated_at": "2026-08-07T20:17:09.188172+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -24,8 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
-      "ai"
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -33,20 +32,20 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio CL ($14.9M)",
-      "summary": "CEO Wallace Noel R. vendio CL por $14.9M el 2026-08-05 [senal en multiples fuentes].",
+      "title": "10% owner compro SCISX ($10.0M)",
+      "summary": "10% owner MA Eagle II Holdings Fund compro SCISX por $10.0M el 2026-08-06.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Wallace Noel R.",
-      "actor_type": "ceo",
-      "ticker": "CL",
-      "direction": "sell",
-      "amount_estimated": 14897904.45,
-      "event_date": "2026-08-05",
-      "importance_score": 85.5,
-      "cross_source_score": 25.0,
+      "actor_name": "MA Eagle II Holdings Fund",
+      "actor_type": "ten_percent_owner",
+      "ticker": "SCISX",
+      "direction": "buy",
+      "amount_estimated": 10000000.01,
+      "event_date": "2026-08-06",
+      "importance_score": 84.9,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2049114/000094562126000995/"
     },
     {
       "id": "move_2",
@@ -69,78 +68,24 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO opero CL ($11.6M)",
-      "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-05 [senal en multiples fuentes].",
+      "title": "10% owner compro ATTO ($5.1M)",
+      "summary": "10% owner Sanofi compro ATTO por $5.1M el 2026-08-06.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Wallace Noel R.",
-      "actor_type": "ceo",
-      "ticker": "CL",
-      "direction": "other",
-      "amount_estimated": 11640208.09,
-      "event_date": "2026-08-05",
-      "importance_score": 84.9,
-      "cross_source_score": 25.0,
+      "actor_name": "Sanofi",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ATTO",
+      "direction": "buy",
+      "amount_estimated": 5100000.0,
+      "event_date": "2026-08-06",
+      "importance_score": 83.4,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312526340173/"
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "10% owner compro ATTO ($10.0M)",
-      "summary": "10% owner Frazier Life Sciences XI, L.P. compro ATTO por $10.0M el 2026-08-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Frazier Life Sciences XI, L.P.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ATTO",
-      "direction": "buy",
-      "amount_estimated": 9999995.0,
-      "event_date": "2026-08-06",
-      "importance_score": 84.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1911580/000123191926000838/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO vendio CL ($14.8M)",
-      "summary": "CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Wallace Noel R.",
-      "actor_type": "ceo",
-      "ticker": "CL",
-      "direction": "sell",
-      "amount_estimated": 14800712.18,
-      "event_date": "2026-08-04",
-      "importance_score": 84.0,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO opero CL ($11.6M)",
-      "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-04 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Wallace Noel R.",
-      "actor_type": "ceo",
-      "ticker": "CL",
-      "direction": "other",
-      "amount_estimated": 11640208.09,
-      "event_date": "2026-08-04",
-      "importance_score": 83.4,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
       "title": "CEO vendio LRCX ($9.0M)",
       "summary": "CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -157,8 +102,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1343600/000134360026000011/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_5",
+      "rank": 5,
       "title": "CFO vendio NET ($16.2M)",
       "summary": "CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.",
       "source": "sec_form_4",
@@ -175,8 +120,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1473289/000147328926000021/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -193,8 +138,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -211,8 +156,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -229,8 +174,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -247,8 +192,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -265,8 +210,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -283,8 +228,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -301,8 +246,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -319,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -337,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -355,8 +300,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -373,8 +318,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro BROADCOM INC ($15.1B)",
       "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
       "source": "sec_13f",
@@ -384,6 +329,60 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 15145083757,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
+      "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 14828033296,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 14184846003,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro LAM RESEARCH CORP ($13.7B)",
+      "summary": "Institutional manager State Street Corp compro LAM RESEARCH CORP por $13.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 13665595558,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -600,14 +599,6 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 579.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MIAX",
         "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
         "pressure_score": 503.3,
@@ -638,18 +629,35 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "CPAY",
+        "company": "DC Corpay, Inc. Common Stock",
+        "pressure_score": 357.6,
+        "sources": [
+          "congress"
+        ]
       }
     ]
   },
   "insider_buying": [
     {
+      "ticker": "SCISX",
+      "company": "MA Specialty Credit Income Fund",
+      "actor": "MA Eagle II Holdings Fund",
+      "actor_type": "ten_percent_owner",
+      "amount": 10000000.01,
+      "date": "2026-08-06",
+      "score": 84.9
+    },
+    {
       "ticker": "ATTO",
       "company": "Attovia Therapeutics, Inc.",
-      "actor": "Frazier Life Sciences XI, L.P.",
+      "actor": "Sanofi",
       "actor_type": "ten_percent_owner",
-      "amount": 9999995.0,
+      "amount": 5100000.0,
       "date": "2026-08-06",
-      "score": 84.8
+      "score": 83.4
     },
     {
       "ticker": "LUMN",
@@ -659,6 +667,15 @@
       "amount": 612680.0,
       "date": "2026-08-06",
       "score": 81.3
+    },
+    {
+      "ticker": "DMC",
+      "company": "DEL MONTE CORP",
+      "actor": "Abbas Mohammed",
+      "actor_type": "ceo",
+      "amount": 358705.2,
+      "date": "2026-08-04",
+      "score": 78.6
     },
     {
       "ticker": "DGICA",
@@ -697,6 +714,15 @@
       "score": 74.9
     },
     {
+      "ticker": "ADTN",
+      "company": "ADTRAN Holdings, Inc.",
+      "actor": "Santo Timothy P",
+      "actor_type": "cfo",
+      "amount": 50000.4,
+      "date": "2026-08-06",
+      "score": 74.6
+    },
+    {
       "ticker": "LODE",
       "company": "Comstock Inc.",
       "actor": "DEGASPERIS CORRADO",
@@ -733,6 +759,15 @@
       "score": 71.7
     },
     {
+      "ticker": "AWRE",
+      "company": "AWARE INC /MA/",
+      "actor": "Amlani Ajay K",
+      "actor_type": "ceo",
+      "amount": 12437.2,
+      "date": "2026-08-05",
+      "score": 71.3
+    },
+    {
       "ticker": "BXSY",
       "company": "BEXIL INVESTMENT TRUST",
       "actor": "WINMILL & CO. INC",
@@ -740,42 +775,6 @@
       "amount": 89000.0,
       "date": "2026-08-05",
       "score": 70.8
-    },
-    {
-      "ticker": "GF",
-      "company": "NEW GERMANY FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 21390.4,
-      "date": "2026-08-04",
-      "score": 70.0
-    },
-    {
-      "ticker": "COCP",
-      "company": "Cocrystal Pharma, Inc.",
-      "actor": "FROST PHILLIP MD ET AL",
-      "actor_type": "ten_percent_owner",
-      "amount": 9816.0,
-      "date": "2026-08-05",
-      "score": 69.8
-    },
-    {
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "actor": "AJB Investment Fund II, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 8255.7,
-      "date": "2026-08-05",
-      "score": 69.4
-    },
-    {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 40517.4,
-      "date": "2026-08-06",
-      "score": 69.1
     }
   ],
   "institutional_changes": [
@@ -1153,7 +1152,7 @@
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
         "pnl": 81068.72,
-        "win_rate": 0.9133,
+        "win_rate": 0.9134,
         "volume": 264552.15,
         "categories": [
           "sports",
@@ -1174,7 +1173,7 @@
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
         "pnl": 21091.76,
-        "win_rate": 0.9355,
+        "win_rate": 0.936,
         "volume": 70598.28,
         "categories": [
           "sports"
@@ -1270,7 +1269,7 @@
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
         "pnl": 92684.88,
-        "win_rate": 0.612,
+        "win_rate": 0.613,
         "volume": 4321501.64,
         "categories": [
           "sports"
@@ -1280,7 +1279,7 @@
         "wallet": "0x2005d16a84",
         "username": "RN1",
         "pnl": 48815.44,
-        "win_rate": 0.57,
+        "win_rate": 0.571,
         "volume": 3011654.08,
         "categories": [
           "sports",
@@ -1301,7 +1300,7 @@
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
         "pnl": 122300.98,
-        "win_rate": 0.548,
+        "win_rate": 0.545,
         "volume": 1729964.6,
         "categories": [
           "sports"
@@ -1352,7 +1351,7 @@
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
         "pnl": 37190.86,
-        "win_rate": 0.7284,
+        "win_rate": 0.7294,
         "volume": 351756.17,
         "categories": [
           "sports",
@@ -1372,6 +1371,43 @@
       "date": "2026-08-07"
     },
     {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-4583700-36-in-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/sanjit-biswas-sells-57090-shares-of-samsara-nyseiot-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-87079-shares-of-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/06/samsara-nyseiot-ceo-sells-119477-shares.html",
+      "ticker": "IOT",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
       "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
       "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
       "ticker": "MIAX",
@@ -1381,25 +1417,25 @@
       "date": "2026-08-06"
     },
     {
-      "title": "Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue",
-      "url": "https://www.fool.com/coverage/charts/2026/08/06/microsoft-vs-automatic-data-processing-scale-vs-seasonality-in-revenue/?source=iedfolrf0000001",
-      "ticker": "ADP",
+      "title": "Castle Biosciences ( NASDAQ : CSTL ) Insider Sells 1 , 730 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/04/castle-biosciences-nasdaqcstl-insider-sells-1730-shares.html",
+      "ticker": "CSTL",
       "themes": [
-        "earnings"
+        "stock"
       ],
-      "date": "2026-08-06"
+      "date": "2026-08-04"
     },
     {
-      "title": "ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/adp-q2-deep-dive-ai-042922021.html",
-      "ticker": "ADP",
+      "title": "Tobin Juvenal Sells 1 , 730 Shares of Castle Biosciences ( NASDAQ : CSTL ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13529856/tobin-juvenal-sells-1730-shares-of-castle-biosciences-nasdaqcstl-stock.html",
+      "ticker": "CSTL",
       "themes": [
-        "ai"
+        "stock"
       ],
       "date": "2026-08-04"
     }
   ],
-  "signals_count": 1621,
+  "signals_count": 1601,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
