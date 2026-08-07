@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-07T22:13:54+00:00",
+  "generated_at": "2026-08-07T23:09:51+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "L": 0.0711,
     "IEF": 0.0622,
-    "UNH": 0.0454,
-    "LYV": 0.0452,
-    "FWONK": 0.0442,
-    "LTH": 0.0364,
-    "MLM": 0.0317,
-    "MDLN": 0.0204,
-    "CHRW": 0.0201,
-    "SPCX": 0.0106,
-    "GTE": 0.0094
+    "UNH": 0.0467,
+    "LYV": 0.0465,
+    "FWONK": 0.0453,
+    "LTH": 0.0375,
+    "HON": 0.0357,
+    "ACAD": 0.0334,
+    "MLM": 0.0326,
+    "ADBE": 0.0255,
+    "CHRW": 0.0207,
+    "SPCX": 0.0108
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0393,
-    "SPCX": 0.0094,
-    "L": 0.0632,
-    "MLM": 0.0282,
-    "CHRW": 0.0179,
-    "LTH": 0.0324,
-    "LYV": 0.0402,
-    "MDLN": 0.0181,
-    "UNH": 0.0404,
-    "GTE": 0.0084
+    "FWONK": 0.0403,
+    "SPCX": 0.0096,
+    "MLM": 0.029,
+    "CHRW": 0.0184,
+    "LTH": 0.0333,
+    "LYV": 0.0413,
+    "UNH": 0.0415,
+    "HON": 0.0317,
+    "ADBE": 0.0227,
+    "ACAD": 0.0297
   },
   "satellite_rationale": [
     {
@@ -56,14 +56,6 @@
         "congress"
       ],
       "n_signals": 3
-    },
-    {
-      "ticker": "L",
-      "score": 142.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "MLM",
@@ -99,14 +91,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "MDLN",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "UNH",
       "score": 71.8,
       "sources": [
@@ -115,8 +99,24 @@
       "n_signals": 1
     },
     {
-      "ticker": "GTE",
-      "score": 70.2,
+      "ticker": "HON",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "ADBE",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "ACAD",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -124,16 +124,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0832,
-    "var_95_1d": 0.0066,
-    "cvar_95_1d": 0.008,
-    "max_drawdown": -0.0253,
-    "beta_spy": 0.419,
-    "hhi": 0.0702,
+    "ann_vol": 0.0942,
+    "var_95_1d": 0.007,
+    "cvar_95_1d": 0.0085,
+    "max_drawdown": -0.0205,
+    "beta_spy": 0.448,
+    "hhi": 0.0682,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.2,
-    "gross_exposure": 0.85,
+    "effective_positions": 14.7,
+    "gross_exposure": 0.8502,
     "days_used": 38
   },
   "risk_gate": {

@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T22:13:55+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T23:09:52+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,37 +26,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 723.03 | 1.17% | 5.09% | -0.34% |
 | TLT | 12.0% | core | 82.76 | 0.29% | 1.03% | -1.63% |
 | GLD | 9.3% | core | 398.47 | 2.26% | 7.25% | 5.69% |
-| L | 7.1% | satellite | 115.53 | -0.39% | -0.41% | 0.47% |
 | IEF | 6.2% | core | 93.17 | 0.24% | 0.58% | -0.15% |
-| UNH | 4.5% | satellite | 407.08 | 0.77% | -1.77% | -4.13% |
-| LYV | 4.5% | satellite | 180.66 | -0.61% | 3.75% | 0.48% |
-| FWONK | 4.4% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
-| LTH | 3.6% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
-| MLM | 3.2% | satellite | 548.57 | 1.91% | 4.46% | -5.05% |
-| MDLN | 2.0% | satellite | 35.23 | 2.09% | -10.31% | -14.16% |
-| CHRW | 2.0% | satellite | 149.35 | 1.83% | 1.09% | -22.82% |
+| UNH | 4.7% | satellite | 407.08 | 0.77% | -1.77% | -4.13% |
+| LYV | 4.7% | satellite | 180.66 | -0.61% | 3.75% | 0.48% |
+| FWONK | 4.5% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
+| LTH | 3.8% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
+| HON | 3.6% | satellite | 246.21 | 2.27% | 1.3% | 8.74% |
+| ACAD | 3.3% | satellite | 29.21 | 2.67% | 12.91% | 11.4% |
+| MLM | 3.3% | satellite | 548.57 | 1.91% | 4.46% | -5.05% |
+| ADBE | 2.5% | satellite | 265.21 | 1.91% | 5.91% | 18.59% |
+| CHRW | 2.1% | satellite | 149.35 | 1.83% | 1.09% | -22.82% |
 | SPCX | 1.1% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
-| GTE | 0.9% | satellite | 8.96 | -5.39% | 19.63% | 43.36% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.3%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.419 · posiciones efectivas: 14.2 · HHI: 0.0702
+- Volatilidad anualizada: 9.4%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -2.1%
+- Beta vs SPY: 0.448 · posiciones efectivas: 14.7 · HHI: 0.0682
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
-- **L** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **MLM** · score agregado 133.8 · 2 señales · fuentes: congress, large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **LYV** · score agregado 73.0 · 1 señales · fuentes: large_holder
-- **MDLN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **UNH** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GTE** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **HON** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ADBE** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ACAD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -77,8 +77,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | OKYO | 74 | corporate_insider | Mantelli Flavio | 6 | $28,000 | cluster_buy |
 | BRVE | 74 | corporate_insider | Anderson Michele A. | 7 | $19,998 | cluster_buy,small_amount |
 | LYV | 73 | large_holder | STATE STREET CORPORATION |  | - | - |
-| BBBY | 72 | corporate_insider | TABACCO JOSEPH J JR | 2 | $91,400 | cluster_buy |
-| L | 72 | large_holder | Andrew H. Tisch |  | - | - |
+| AOS | 72 | large_holder | FMR LLC |  | - | - |
+| UNH | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -88,10 +88,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | HD | 65 | congress | James A. Himes | $50,000 | - |
 | TSCO | 65 | congress | April McClain Delaney | $50,000 | - |
 | NVDA | 65 | congress | Sam T. Liccardo | $50,000 | - |
+| ANET | 63 | corporate_insider | Ullal Jayshree | $74,391,542 | - |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| NVDA | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| TMO | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| ADBE | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64891.9 (0.98% / 2.22% / 0.15%) [2026-08-07]
+- BTC-USD: 64853.78 (0.92% / 2.16% / 0.09%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,39 +123,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (4), ai (2)
+**Temas dominantes**: stock (5), earnings (4), regulatory (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] Zimbabwe Stock Markets Becomes Africa Best - Performing Market as Investor Confidence Rebounds - The Zimbabwe Mail Zimbabwe Stock Markets Becomes Africa Best - Performing Market as Investor Confidence Rebounds | Zimbabwe News (2026-08-07)
-- [TMO] US stocks jump as employers unexpectedly cut 23 , 000 jobs , raising hopes that rate hikes can wait (2026-08-07)
-- [TMO] Elena Gomez Sells 16 , 176 Shares of Toast ( NYSE : TOST ) Stock (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-05)
-- [UTHR] FinancialContent - Earnings To Watch : United Therapeutics ( UTHR ) Reports Q2 Results Tomorrow (2026-08-04)
-- [UTHR] Martine Rothblatt Sells 9 , 500 Shares of United Therapeutics ( NASDAQ : UTHR ) Stock (2026-08-03)
-- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
-- [ETD] Ethan Allen Interiors Q4 Earnings Call Highlights (2026-07-30)
+- [TMO] Nationwide Boiler Program Puts Package Boilers in Stock for Faster Delivery (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
+- [ANET] Charles Giancarlo Sells 8 , 000 Shares of Arista Networks ( NYSE : ANET ) Stock (2026-08-05)
+- [GFF] Griffon Corporation ( NYSE : GFF ) Plans $0 . 22 Quarterly Dividend (2026-08-05)
+- [GFF] Griffon ( NYSE : GFF ) Releases Earnings Results , Beats Estimates By $0 . 17 EPS (2026-08-05)
+- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
+- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
 - [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
+- [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Lazar David E. opero QUCY por $6.3B el 2026-08-05 [senal en multiples fuentes].
 - 10% owner Forbion Growth Opportunities Fund III Cooperatief U.A. compro BRVE por $34.6M el 2026-08-07.
-- 10% owner MA Eagle II Holdings Fund compro SCISX por $10.0M el 2026-08-06.
-- 10% owner GIC Private Ltd vendio MDLN por $60.7M el 2026-08-05 [senal en multiples fuentes].
+- CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].
 - CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.
+- CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07.
 - 10% owner Sanofi compro ATTO por $5.1M el 2026-08-06.
+- 10% owner GIC Private Ltd vendio MDLN por $60.7M el 2026-08-05.
 - CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.
-- CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.
-- CEO SRINIVASAN RAMESH vendio AGYS por $7.1M el 2026-08-06.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $81,922 · win rate 91% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $79,389 · win rate 91% · categorias: sports, politics
+- BrotherObama · PnL $50,836 · win rate 90% · categorias: sports
 - tennischamp · PnL $50,184 · win rate 89% · categorias: sports
-- JnStTrdrBnusFnd · PnL $34,329 · win rate 92% · categorias: crypto
-- monkeymashingkeyboard · PnL $36,312 · win rate 91% · categorias: sports
-- lllllllIlll · PnL $21,122 · win rate 94% · categorias: sports
+- JnStTrdrBnusFnd · PnL $32,597 · win rate 92% · categorias: crypto
+- monkeymashingkeyboard · PnL $36,841 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 105 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 685 registros 30d · ultimo dato 2026-08-07
+- **sec_insiders**: `ok` · 752 registros 30d · ultimo dato 2026-08-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -177,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, FWONK, GLD, GTE, IEF, L, LTH, LYV, MDLN, MLM, QQQ, SPCX, SPY, TLT, UNH`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ACAD, ADBE, CHRW, FWONK, GLD, HON, IEF, LTH, LYV, MLM, QQQ, SPCX, SPY, TLT, UNH`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
