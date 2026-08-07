@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-07T13:57:05+00:00 -->
+<!-- trader_prompt.md generado 2026-08-07T15:25:49+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T13:57:05+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T15:25:49+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -235,13 +235,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.15)
-- Tendencia: `bull` (SPY 771.4 · MA50 746.58 · MA200 700.12 · dist MA200: 10.18%)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `calm` (VIX 14.95)
+- Tendencia: `bull` (SPY 773.55 · MA50 746.62 · MA200 700.13 · dist MA200: 10.49%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -249,41 +249,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.4 | 0.37% | 3.26% | 2.18% |
-| QQQ | 12.0% | core | 720.13 | 0.77% | 4.67% | -0.74% |
-| TLT | 12.0% | core | 82.8 | 0.34% | 1.07% | -1.58% |
-| GLD | 9.3% | core | 399.21 | 2.45% | 7.45% | 5.89% |
-| FCF | 6.7% | satellite | 21.42 | -0.14% | -0.51% | 5.57% |
-| IEF | 6.2% | core | 93.28 | 0.35% | 0.69% | -0.04% |
-| FWONK | 5.4% | satellite | 101.76 | 2.08% | 3.7% | 5.86% |
-| ADP | 4.2% | satellite | 271.15 | -0.86% | 1.76% | 12.08% |
-| LTH | 4.0% | satellite | 43.46 | -0.06% | -3.65% | 3.74% |
-| CHRW | 3.8% | satellite | 146.13 | -0.36% | -1.08% | -24.48% |
-| ADBE | 3.6% | satellite | 263.35 | 1.2% | 5.17% | 17.76% |
-| AVR | 2.4% | satellite | 8.63 | 3.23% | 10.08% | -11.67% |
-| MRAM | 1.1% | satellite | 16.19 | 3.48% | 11.46% | -12.08% |
-| SPCX | 1.1% | satellite | 119.47 | 3.96% | 10.24% | -17.78% |
-| CDNA | 1.1% | satellite | 45.88 | 2.38% | 4.95% | 60.91% |
+| SPY | 12.0% | core | 773.55 | 0.65% | 3.55% | 2.46% |
+| QQQ | 12.0% | core | 722.12 | 1.05% | 4.96% | -0.47% |
+| TLT | 12.0% | core | 82.57 | 0.07% | 0.8% | -1.85% |
+| GLD | 9.3% | core | 399.71 | 2.58% | 7.58% | 6.02% |
+| IEF | 6.2% | core | 93.11 | 0.18% | 0.52% | -0.21% |
+| FCF | 5.6% | satellite | 21.45 | 0.0% | -0.37% | 5.72% |
+| FWONK | 4.5% | satellite | 102.28 | 2.6% | 4.23% | 6.4% |
+| UNH | 4.4% | satellite | 409.93 | 1.48% | -1.08% | -3.46% |
+| LTH | 3.4% | satellite | 43.71 | 0.53% | -3.08% | 4.34% |
+| HON | 3.3% | satellite | 245.64 | 2.04% | 1.07% | 8.49% |
+| CHRW | 3.2% | satellite | 148.32 | 1.14% | 0.4% | -23.35% |
+| MHO | 3.1% | satellite | 149.53 | 1.84% | 2.33% | 1.5% |
+| MLM | 3.0% | satellite | 549.94 | 2.17% | 4.72% | -4.81% |
+| AVR | 2.0% | satellite | 8.72 | 4.31% | 11.22% | -10.75% |
+| SPCX | 0.9% | satellite | 126.61 | 10.17% | 16.83% | -12.86% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.3%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -1.3%
-- Beta vs SPY: None · posiciones efectivas: 14.2 · HHI: 0.0702
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.8%
+- Max drawdown historico: -1.5%
+- Beta vs SPY: None · posiciones efectivas: 14.6 · HHI: 0.0685
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
+- **MLM** · score agregado 133.8 · 2 señales · fuentes: congress, large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **AVR** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **UNH** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **MHO** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **HON** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **FCF** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **MRAM** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **CDNA** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ADP** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **ADBE** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -294,18 +294,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SAGT | 78 | corporate_insider | Ng Chen Lok | 2 | $231,000 | cluster_buy |
 | REBN | 76 | corporate_insider | Lim Jung Jae | 0 | $23,649,660,000 | - |
 | AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
+| AOS | 72 | large_holder | FMR LLC |  | - | - |
+| CAKE | 72 | large_holder | FMR LLC |  | - | - |
+| UNH | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| TRMB | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| RXRX | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| MLM | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| MHO | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| LYV | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
+| HON | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | FMC | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | FCF | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
 | MRAM | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| CSCO | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| CDNA | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| ADP | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| ALLE | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| ADBE | 72 | large_holder | STATE STREET CORPORATION |  | - | - |
-| SAGT | 72 | large_holder | Ng Chen Lok |  | - | - |
-| MFP | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| WAB | 72 | large_holder | FMR LLC |  | - | - |
-| SGI | 72 | large_holder | FMR LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -317,8 +317,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| WAB | 62 | congress | April McClain Delaney | $15,000 | small_amount |
 | ADBE | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| GOOGL | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.4 (0.37% / 3.26% / 2.18%) [2026-08-07]
-- QQQ: 720.13 (0.77% / 4.67% / -0.74%) [2026-08-07]
-- IWM: 300.71 (0.82% / 3.27% / 1.59%) [2026-08-07]
-- DIA: 539.17 (0.18% / 2.83% / 2.58%) [2026-08-07]
-- TLT: 82.8 (0.34% / 1.07% / -1.58%) [2026-08-07]
-- IEF: 93.28 (0.35% / 0.69% / -0.04%) [2026-08-07]
-- GLD: 399.21 (2.45% / 7.45% / 5.89%) [2026-08-07]
-- ^VIX: 15.15 (0.0% / -5.25% / 0.8%) [2026-08-07]
-- BTC-USD: 65030.4 (1.2% / 2.44% / 0.36%) [2026-08-07]
+- SPY: 773.55 (0.65% / 3.55% / 2.46%) [2026-08-07]
+- QQQ: 722.12 (1.05% / 4.96% / -0.47%) [2026-08-07]
+- IWM: 301.07 (0.95% / 3.39% / 1.72%) [2026-08-07]
+- DIA: 539.58 (0.26% / 2.91% / 2.65%) [2026-08-07]
+- TLT: 82.57 (0.07% / 0.8% / -1.85%) [2026-08-07]
+- IEF: 93.11 (0.18% / 0.52% / -0.21%) [2026-08-07]
+- GLD: 399.71 (2.58% / 7.58% / 6.02%) [2026-08-07]
+- ^VIX: 14.95 (-1.32% / -6.5% / -0.53%) [2026-08-07]
+- BTC-USD: 64977.59 (1.11% / 2.36% / 0.28%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,18 +350,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (2), stock (2), ai (1)
+**Temas dominantes**: stock (3), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [MIAX] Keefe , Bruyette & Woods Forecasts Strong Price Appreciation for Miami International ( NYSE : MIAX ) Stock (2026-08-07)
 - [CRWV] Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . (2026-08-07)
-- [CRWD] CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks (2026-08-07)
 - [CRWV] CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due (2026-08-07)
 - [CRWV] Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
-- [FCF] FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook (2026-08-04)
-- [FCF] Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price (2026-08-01)
+- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,15 +369,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].
 - CEO MIONIS ROBERT vendio CLS por $5.0M el 2026-08-05.
 - CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $95,253 · win rate 91% · categorias: sports, politics
-- matenghehe · PnL $39,138 · win rate 97% · categorias: sports, crypto
-- monkeymashingkeyboard · PnL $37,237 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $95,296 · win rate 91% · categorias: sports, politics
+- monkeymashingkeyboard · PnL $37,241 · win rate 91% · categorias: sports
+- BrotherObama · PnL $38,734 · win rate 90% · categorias: sports
+- quavoo · PnL $127,749 · win rate 81% · categorias: sports, politics, economy
 - tennischamp · PnL $24,340 · win rate 89% · categorias: sports
-- BrotherObama · PnL $28,308 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,7 +385,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 95 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-08-06
+- **sec_insiders**: `ok` · 670 registros 30d · ultimo dato 2026-08-06
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -402,8 +399,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADBE, ADP, AVR, CDNA, CHRW, FCF, FWONK, GLD, IEF, LTH, MRAM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`AVR, CHRW, FCF, FWONK, GLD, HON, IEF, LTH, MHO, MLM, QQQ, SPCX, SPY, TLT, UNH`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
