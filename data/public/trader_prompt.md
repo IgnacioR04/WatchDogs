@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-07T07:59:32+00:00 -->
+<!-- trader_prompt.md generado 2026-08-07T09:30:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T07:59:32+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T09:30:53+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.29)
+- Volatilidad: `normal` (VIX 15.25)
 - Tendencia: `bull` (SPY 768.56 · MA50 746.12 · MA200 699.59 · dist MA200: 9.86%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -253,20 +253,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 714.65 | -0.37% | 4.55% | -1.19% |
 | TLT | 12.0% | core | 82.52 | -0.58% | 0.06% | -1.94% |
 | GLD | 9.3% | core | 389.67 | 0.01% | 3.32% | 3.04% |
-| FWONK | 8.4% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
-| SCI | 7.0% | satellite | 84.96 | -0.45% | -0.39% | 10.87% |
-| LTH | 6.4% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
+| FWONK | 8.2% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
+| SCI | 7.4% | satellite | 84.96 | -0.45% | -0.39% | 10.87% |
 | IEF | 6.2% | core | 92.95 | -0.39% | 0.06% | -0.47% |
-| CHRW | 5.9% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
-| BAH | 4.2% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
-| SPCX | 1.6% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
+| LTH | 6.1% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
+| CHRW | 5.7% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
+| BAH | 4.4% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
+| SPCX | 1.7% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 8.6%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -1.9%
-- Beta vs SPY: None · posiciones efectivas: 12.9 · HHI: 0.0773
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.0%
+- Beta vs SPY: None · posiciones efectivas: 13.0 · HHI: 0.0771
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -326,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.52 (-0.58% / 0.06% / -1.94%) [2026-08-06]
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
-- ^VIX: 15.29 (0.92% / -4.38% / 1.73%) [2026-08-07]
-- BTC-USD: 64265.28 (0.0% / 1.23% / -0.82%) [2026-08-07]
+- ^VIX: 15.25 (0.66% / -4.63% / 1.46%) [2026-08-07]
+- BTC-USD: 64789.56 (0.82% / 2.06% / -0.01%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,14 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (2), ai (1), stock (1)
+**Temas dominantes**: stock (5), ai (2), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . (2026-08-07)
 - [CRWD] CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks (2026-08-07)
-- [CRWV] CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due (2026-08-07)
-- [CRWV] Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide (2026-08-06)
+- [IOT] Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock (2026-08-06)
+- [IOT] Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-06)
+- [IOT] Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock (2026-08-06)
+- [IOT] Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares (2026-08-06)
+- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
+- [ADP] Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue (2026-08-06)
+- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
+- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
+- [ADP] ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -364,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $37,138 · win rate 91% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $8,717 · win rate 98% · categorias: sports, crypto
+- matenghehe · PnL $16,395 · win rate 97% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $37,039 · win rate 91% · categorias: sports
 - tennischamp · PnL $24,340 · win rate 89% · categorias: sports
-- xm39 · PnL $10,974 · win rate 94% · categorias: sports
-- johnny234 · PnL $17,146 · win rate 85% · categorias: sports
+- TAIWANNUMBERONE · PnL $12,311 · win rate 91% · categorias: sports, politics
+- KiAr · PnL $12,412 · win rate 88% · categorias: crypto, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
