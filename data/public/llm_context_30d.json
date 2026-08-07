@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T12:15:25.979609+00:00",
+  "generated_at": "2026-08-07T13:56:15.793518+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -24,8 +24,8 @@
   "market_context": {
     "top_themes": [
       "earnings",
-      "ai",
-      "stock"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -171,7 +171,10 @@
       "event_date": "2026-08-05",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_767763695788",
+        "news_519710458357"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1195655/000119312526338763/"
     },
     {
@@ -443,14 +446,6 @@
         ]
       },
       {
-        "ticker": "GTES",
-        "company": "GATES INDUSTRIAL CORP LTD",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "BWXT",
         "company": "Stock",
         "pressure_score": 182.9,
@@ -513,6 +508,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "BDX",
+        "company": "BECTON DICKINSON & CO",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -527,10 +530,9 @@
       {
         "ticker": "AFBI",
         "company": "Affinity Bancshares, Inc.",
-        "pressure_score": 2082.4,
+        "pressure_score": 2044.6,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -559,10 +561,11 @@
       },
       {
         "ticker": "FCF",
-        "company": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-        "pressure_score": 775.1,
+        "company": "FIRST COMMONWEALTH FINANCIAL CORP",
+        "pressure_score": 789.8,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -1083,6 +1086,15 @@
   ],
   "large_holders": [
     {
+      "filer": "Heng Fai Ambrose Chan",
+      "company": "HWH INTERNATIONAL INC.",
+      "ticker": "HWH",
+      "ownership_pct": 84.7,
+      "shares": 6584319,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
       "filer": "First Finance Ltd.",
       "company": "CLEARONE INC",
       "ticker": "CLRO",
@@ -1108,6 +1120,15 @@
       "shares": 8752600,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-06"
+    },
+    {
+      "filer": "Luo Hui",
+      "company": "KIDZ AI Inc.",
+      "ticker": "",
+      "ownership_pct": 39.1,
+      "shares": 8283314,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
     },
     {
       "filer": "Canada Pension Plan Investment Board",
@@ -1198,56 +1219,38 @@
       "shares": 1481039,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-06"
-    },
-    {
-      "filer": "Conboy Stephen",
-      "company": "CitroTech Inc.",
-      "ticker": "CITR",
-      "ownership_pct": 9.14,
-      "shares": 2061669,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Mills Enrico Kevin",
-      "company": "SOCKET MOBILE, INC.",
-      "ticker": "SCKT",
-      "ownership_pct": 8.6,
-      "shares": 742493,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 28611.91,
-        "win_rate": 0.9674,
-        "volume": 666599.96,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 48186.68,
-        "win_rate": 0.9134,
-        "volume": 208512.8,
+        "pnl": 95253.17,
+        "win_rate": 0.9142,
+        "volume": 216683.83,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 39138.19,
+        "win_rate": 0.9675,
+        "volume": 865694.61,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 36738.97,
+        "pnl": 37236.66,
         "win_rate": 0.9062,
-        "volume": 23047.01,
+        "volume": 30071.19,
         "categories": [
           "sports"
         ]
@@ -1263,11 +1266,33 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 28308.26,
+        "win_rate": 0.8958,
+        "volume": 83806.42,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdc41c39b95",
+        "username": "quavoo",
+        "pnl": 75755.29,
+        "win_rate": 0.814,
+        "volume": 480524.33,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x068162f52e",
         "username": "KiAr",
-        "pnl": 14118.82,
-        "win_rate": 0.8782,
-        "volume": 29396.13,
+        "pnl": 16077.6,
+        "win_rate": 0.8785,
+        "volume": 66365.83,
         "categories": [
           "crypto",
           "politics",
@@ -1275,15 +1300,15 @@
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "quavoo",
-        "pnl": 26513.69,
-        "win_rate": 0.813,
-        "volume": 415976.33,
+        "wallet": "0x85d53efdd0",
+        "username": "retroactivesource",
+        "pnl": 32623.65,
+        "win_rate": 0.8104,
+        "volume": 267344.12,
         "categories": [
           "sports",
-          "politics",
-          "economy"
+          "crypto",
+          "politics"
         ]
       },
       {
@@ -1297,37 +1322,13 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 237949.61,
-        "win_rate": 0.661,
-        "volume": 1452207.88,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x38337de21f",
         "username": "SineNooneEI",
-        "pnl": 37821.06,
-        "win_rate": 0.7739,
-        "volume": 111507.28,
+        "pnl": 36041.43,
+        "win_rate": 0.7746,
+        "volume": 176507.23,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x85d53efdd0",
-        "username": "retroactivesource",
-        "pnl": 21338.29,
-        "win_rate": 0.8102,
-        "volume": 131074.79,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
         ]
       }
     ],
@@ -1335,9 +1336,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 237949.61,
-        "win_rate": 0.661,
-        "volume": 1452207.88,
+        "pnl": 176581.86,
+        "win_rate": 0.66,
+        "volume": 1864738.16,
         "categories": [
           "sports",
           "crypto",
@@ -1347,9 +1348,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 89501.41,
-        "win_rate": 0.603,
-        "volume": 1590227.38,
+        "pnl": 104538.76,
+        "win_rate": 0.6,
+        "volume": 2114949.77,
         "categories": [
           "sports"
         ]
@@ -1357,9 +1358,40 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 153651.48,
+        "pnl": 152688.95,
         "win_rate": 0.499,
-        "volume": 504579.61,
+        "volume": 583414.74,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xba3802d41a",
+        "username": "matenghehe",
+        "pnl": 39138.19,
+        "win_rate": 0.9675,
+        "volume": 865694.61,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 47240.39,
+        "win_rate": 0.569,
+        "volume": 1560381.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 103568.41,
+        "win_rate": 0.544,
+        "volume": 1134214.04,
         "categories": [
           "sports"
         ]
@@ -1375,42 +1407,21 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 93977.68,
-        "win_rate": 0.543,
-        "volume": 1028173.22,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xba3802d41a",
-        "username": "matenghehe",
-        "pnl": 28611.91,
-        "win_rate": 0.9674,
-        "volume": 666599.96,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 21338.04,
-        "win_rate": 0.566,
-        "volume": 1151720.47,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x52ecea7b31",
         "username": "fkigedgjdgwbg",
-        "pnl": 17572.31,
-        "win_rate": 0.675,
-        "volume": 436584.48,
+        "pnl": 20820.63,
+        "win_rate": 0.674,
+        "volume": 504537.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 45241.13,
+        "win_rate": 0.505,
+        "volume": 346119.96,
         "categories": [
           "sports"
         ]
@@ -1418,19 +1429,9 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 71078.99,
+        "pnl": 71077.55,
         "win_rate": 0.549,
         "volume": 663547.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc1c7bb8761",
-        "username": "five5120",
-        "pnl": 13219.86,
-        "win_rate": 0.8417,
-        "volume": 229205.25,
         "categories": [
           "sports"
         ]
@@ -1472,9 +1473,39 @@
       "ticker": "CRWV",
       "themes": [],
       "date": "2026-08-06"
+    },
+    {
+      "title": "Celestica Announces Pricing of Equity Offering",
+      "url": "https://thestarphoenix.com/press-releases/business-wire/celestica-announces-pricing-of-equity-offering/",
+      "ticker": "CLS",
+      "themes": [],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Celestica Announces Pricing of Equity Offering",
+      "url": "https://montrealgazette.com/press-releases/business-wire/celestica-announces-pricing-of-equity-offering/",
+      "ticker": "CLS",
+      "themes": [],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fcf-q2-deep-dive-loan-112522269.html",
+      "ticker": "FCF",
+      "themes": [],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price",
+      "url": "https://www.themarketsdaily.com/2026/08/01/keefe-bruyette-woods-issues-positive-forecast-for-first-commonwealth-financial-nysefcf-stock-price.html",
+      "ticker": "FCF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-01"
     }
   ],
-  "signals_count": 1688,
+  "signals_count": 1692,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
