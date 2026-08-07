@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-07T09:30:53+00:00 -->
+<!-- trader_prompt.md generado 2026-08-07T10:29:41+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T09:30:53+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T10:29:41+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -236,7 +236,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.25)
+- Volatilidad: `normal` (VIX 15.28)
 - Tendencia: `bull` (SPY 768.56 · MA50 746.12 · MA200 699.59 · dist MA200: 9.86%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -326,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.52 (-0.58% / 0.06% / -1.94%) [2026-08-06]
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
-- ^VIX: 15.25 (0.66% / -4.63% / 1.46%) [2026-08-07]
-- BTC-USD: 64789.56 (0.82% / 2.06% / -0.01%) [2026-08-07]
+- ^VIX: 15.28 (0.86% / -4.44% / 1.66%) [2026-08-07]
+- BTC-USD: 64828.85 (0.88% / 2.12% / 0.05%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (4), ai (2), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -351,10 +351,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [IOT] Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-06)
 - [IOT] Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock (2026-08-06)
 - [IOT] Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares (2026-08-06)
-- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
 - [ADP] Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
 - [ADP] ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -370,11 +367,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- matenghehe · PnL $16,395 · win rate 97% · categorias: sports, crypto
-- monkeymashingkeyboard · PnL $37,039 · win rate 91% · categorias: sports
+- matenghehe · PnL $41,000 · win rate 97% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $48,290 · win rate 91% · categorias: sports, politics
+- monkeymashingkeyboard · PnL $36,839 · win rate 91% · categorias: sports
 - tennischamp · PnL $24,340 · win rate 89% · categorias: sports
-- TAIWANNUMBERONE · PnL $12,311 · win rate 91% · categorias: sports, politics
-- KiAr · PnL $12,412 · win rate 88% · categorias: crypto, politics, economy
+- KiAr · PnL $14,119 · win rate 88% · categorias: crypto, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,7 +379,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 95 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-08-06
+- **sec_insiders**: `ok` · 674 registros 30d · ultimo dato 2026-08-06
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-06
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
