@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T17:24:11.603497+00:00",
+  "generated_at": "2026-08-07T18:20:42.549658+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -23,7 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "earnings",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -31,24 +33,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO compro REBN ($23.6B)",
-      "summary": "CEO Lim Jung Jae compro REBN por $23.6B el 2026-07-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lim Jung Jae",
-      "actor_type": "ceo",
-      "ticker": "REBN",
-      "direction": "buy",
-      "amount_estimated": 23649660000.0,
-      "event_date": "2026-07-14",
-      "importance_score": 87.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2122599/000121390026086304/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "CEO vendio CL ($14.9M)",
       "summary": "CEO Wallace Noel R. vendio CL por $14.9M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -65,8 +49,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio TT ($20.8M)",
       "summary": "CEO Regnery David S vendio TT por $20.8M el 2026-08-05.",
       "source": "sec_form_4",
@@ -83,8 +67,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715932/000162828026054280/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO opero CL ($11.6M)",
       "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -101,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro ATTO ($10.0M)",
       "summary": "10% owner Frazier Life Sciences XI, L.P. compro ATTO por $10.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -119,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1911580/000123191926000838/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio CL ($14.8M)",
       "summary": "CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -137,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO opero CL ($11.6M)",
       "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-04 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -153,6 +137,24 @@
       "cross_source_score": 25.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO vendio LRCX ($9.0M)",
+      "summary": "CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "ARCHER TIMOTHY",
+      "actor_type": "ceo",
+      "ticker": "LRCX",
+      "direction": "sell",
+      "amount_estimated": 9000000.0,
+      "event_date": "2026-08-06",
+      "importance_score": 83.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1343600/000134360026000011/"
     },
     {
       "id": "move_8",
@@ -441,15 +443,6 @@
         ]
       },
       {
-        "ticker": "SAGT",
-        "company": "SAGTEC GLOBAL Ltd",
-        "pressure_score": 222.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "HON",
         "company": "HONEYWELL INTERNATIONAL INC",
         "pressure_score": 186.8,
@@ -499,19 +492,27 @@
         ]
       },
       {
-        "ticker": "TLSA",
-        "company": "Tiziana Life Sciences Ltd",
-        "pressure_score": 154.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BV",
         "company": "BrightView Holdings, Inc.",
         "pressure_score": 148.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GEHC",
+        "company": "GE HEALTHCARE TECHNOLOGIES INC.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "LESL",
+        "company": "Leslie's Inc",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
         ]
       }
     ],
@@ -642,15 +643,6 @@
   },
   "insider_buying": [
     {
-      "ticker": "REBN",
-      "company": "Reborn Coffee, Inc.",
-      "actor": "Lim Jung Jae",
-      "actor_type": "ceo",
-      "amount": 23649660000.0,
-      "date": "2026-07-14",
-      "score": 87.8
-    },
-    {
       "ticker": "ATTO",
       "company": "Attovia Therapeutics, Inc.",
       "actor": "Frazier Life Sciences XI, L.P.",
@@ -667,24 +659,6 @@
       "amount": 612680.0,
       "date": "2026-08-06",
       "score": 81.3
-    },
-    {
-      "ticker": "TLSA",
-      "company": "Tiziana Life Sciences Ltd",
-      "actor": "Elrifi Ivor",
-      "actor_type": "ceo",
-      "amount": 237616.0,
-      "date": "2026-08-05",
-      "score": 79.2
-    },
-    {
-      "ticker": "SAGT",
-      "company": "SAGTEC GLOBAL Ltd",
-      "actor": "Ng Chen Lok",
-      "actor_type": "ceo",
-      "amount": 231000.0,
-      "date": "2026-07-31",
-      "score": 78.9
     },
     {
       "ticker": "DMC",
@@ -712,15 +686,6 @@
       "amount": 450000.0,
       "date": "2026-08-06",
       "score": 75.6
-    },
-    {
-      "ticker": "TLSA",
-      "company": "Tiziana Life Sciences Ltd",
-      "actor": "Elrifi Ivor",
-      "actor_type": "ceo",
-      "amount": 81292.79,
-      "date": "2026-08-04",
-      "score": 75.4
     },
     {
       "ticker": "MXF",
@@ -768,13 +733,49 @@
       "score": 71.7
     },
     {
-      "ticker": "SAGT",
-      "company": "SAGTEC GLOBAL Ltd",
-      "actor": "LOONG XIN YEE",
-      "actor_type": "officer",
-      "amount": 48125.0,
-      "date": "2026-07-31",
-      "score": 71.3
+      "ticker": "BXSY",
+      "company": "BEXIL INVESTMENT TRUST",
+      "actor": "WINMILL & CO. INC",
+      "actor_type": "insider",
+      "amount": 89000.0,
+      "date": "2026-08-05",
+      "score": 70.8
+    },
+    {
+      "ticker": "GF",
+      "company": "NEW GERMANY FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 21390.4,
+      "date": "2026-08-04",
+      "score": 70.0
+    },
+    {
+      "ticker": "COCP",
+      "company": "Cocrystal Pharma, Inc.",
+      "actor": "FROST PHILLIP MD ET AL",
+      "actor_type": "ten_percent_owner",
+      "amount": 9816.0,
+      "date": "2026-08-05",
+      "score": 69.8
+    },
+    {
+      "ticker": "JCTC",
+      "company": "JEWETT CAMERON TRADING CO LTD",
+      "actor": "AJB Investment Fund II, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 8255.7,
+      "date": "2026-08-05",
+      "score": 69.4
+    },
+    {
+      "ticker": "BXSY",
+      "company": "BEXIL INVESTMENT TRUST",
+      "actor": "WINMILL & CO. INC",
+      "actor_type": "insider",
+      "amount": 40517.4,
+      "date": "2026-08-06",
+      "score": 69.1
     }
   ],
   "institutional_changes": [
@@ -1083,6 +1084,15 @@
   ],
   "large_holders": [
     {
+      "filer": "Harrison Street Private Wealth LLC",
+      "company": "2023 ETF Series Trust",
+      "ticker": "",
+      "ownership_pct": 97.2,
+      "shares": 4203172,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
       "filer": "Heng Fai Ambrose Chan",
       "company": "HWH INTERNATIONAL INC.",
       "ticker": "HWH",
@@ -1124,6 +1134,15 @@
       "ticker": "",
       "ownership_pct": 39.1,
       "shares": 8283314,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "FRANKLIN RESOURCES INC",
+      "company": "Franklin BSP Lending Fund",
+      "ticker": "",
+      "ownership_pct": 38.7,
+      "shares": 75000,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-07"
     },
@@ -1191,31 +1210,13 @@
       "date": "2026-08-06"
     },
     {
-      "filer": "Orilla Asset Management, S.L.",
-      "company": "Wallbox N.V.",
+      "filer": "Black Global 5 LLC",
+      "company": "Hepion Pharmaceuticals, Inc.",
       "ticker": "",
-      "ownership_pct": 10.7,
-      "shares": 2539771,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Stilwell Activist Fund, L.P.",
-      "company": "CSB Financial Inc.",
-      "ticker": "CSBA",
-      "ownership_pct": 9.9,
-      "shares": 139000,
+      "ownership_pct": 11.1,
+      "shares": 10000000,
       "filing_type": "SCHEDULE 13D",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Bloom Retirement Holdings Inc.",
-      "company": "Finance of America Companies Inc.",
-      "ticker": "FOA",
-      "ownership_pct": 9.49,
-      "shares": 1481039,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
+      "date": "2026-08-07"
     }
   ],
   "polymarket": {
@@ -1277,7 +1278,7 @@
         "wallet": "0x38337de21f",
         "username": "SineNooneEI",
         "pnl": 65625.33,
-        "win_rate": 0.7763,
+        "win_rate": 0.7753,
         "volume": 176507.23,
         "categories": [
           "sports"
@@ -1374,7 +1375,7 @@
         "wallet": "0x2005d16a84",
         "username": "RN1",
         "pnl": 40876.56,
-        "win_rate": 0.571,
+        "win_rate": 0.572,
         "volume": 2528659.65,
         "categories": [
           "sports"
@@ -1384,7 +1385,7 @@
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
         "pnl": 109676.68,
-        "win_rate": 0.542,
+        "win_rate": 0.545,
         "volume": 1474971.97,
         "categories": [
           "sports"
@@ -1435,19 +1436,64 @@
   },
   "news": [
     {
-      "title": "Keefe , Bruyette & Woods Forecasts Strong Price Appreciation for Miami International ( NYSE : MIAX ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/keefe-bruyette-woods-forecasts-strong-price-appreciation-for-miami-international-nysemiax-stock.html",
-      "ticker": "MIAX",
+      "title": "Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . ",
+      "url": "https://www.fool.com/investing/2026/08/07/should-you-buy-coreweave-before-or-after-earnings/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due",
+      "url": "https://www.investors.com:443/research/earnings-preview/coreweave-stock-nebius-highlight-data-center-earnings-tech-stars-lumentum-amat-earnings/",
+      "ticker": "CRWV",
+      "themes": [
+        "earnings",
         "stock"
       ],
       "date": "2026-08-07"
     },
     {
-      "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
-      "ticker": "MIAX",
+      "title": "Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/06/piper-sandler-sees-64-upside-for-coreweave-nasdaq-crwv-despite-33-three-month-slide/",
+      "ticker": "CRWV",
+      "themes": [],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-4583700-36-in-stock.html",
+      "ticker": "IOT",
       "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/sanjit-biswas-sells-57090-shares-of-samsara-nyseiot-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-87079-shares-of-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/06/samsara-nyseiot-ceo-sells-119477-shares.html",
+      "ticker": "IOT",
+      "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-08-06"
@@ -1469,7 +1515,7 @@
       "date": "2026-08-01"
     }
   ],
-  "signals_count": 1631,
+  "signals_count": 1635,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

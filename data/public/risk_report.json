@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T17:24:59+00:00",
+  "generated_at": "2026-08-07T18:21:30+00:00",
   "portfolio": {
     "SPY": 0.12,
     "QQQ": 0.12,
@@ -18,11 +18,11 @@
     "SPCX": 0.01
   },
   "metrics": {
-    "ann_vol": 0.0968,
+    "ann_vol": 0.0964,
     "var_95_1d": 0.0081,
     "cvar_95_1d": 0.0086,
     "max_drawdown": -0.0308,
-    "beta_spy": 0.52,
+    "beta_spy": 0.518,
     "hhi": 0.0693,
     "max_position": 0.12,
     "n_positions": 15,
@@ -37,7 +37,7 @@
     "max_gross_exposure": 1.0,
     "respect_regime_budget": true
   },
-  "regime_budget": 0.9,
+  "regime_budget": 0.95,
   "gate": {
     "passed": true,
     "violations": [],
@@ -47,14 +47,14 @@
     "horizon_days": 21,
     "n_sims": 5000,
     "method": "historical_bootstrap",
-    "expected_return_pct": 0.86,
-    "median_return_pct": 0.79,
-    "p5_return_pct": -3.54,
-    "p25_return_pct": -1.07,
-    "p75_return_pct": 2.71,
-    "p95_return_pct": 5.51,
-    "prob_loss": 0.378,
-    "var_95_horizon": 0.0354,
-    "cvar_95_horizon": 0.0455
+    "expected_return_pct": 0.83,
+    "median_return_pct": 0.75,
+    "p5_return_pct": -3.56,
+    "p25_return_pct": -1.1,
+    "p75_return_pct": 2.69,
+    "p95_return_pct": 5.45,
+    "prob_loss": 0.382,
+    "var_95_horizon": 0.0356,
+    "cvar_95_horizon": 0.0456
   }
 }
