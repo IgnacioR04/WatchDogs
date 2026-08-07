@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T10:29:41+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T11:28:08+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.28)
+- Volatilidad: `normal` (VIX 15.21)
 - Tendencia: `bull` (SPY 768.56 · MA50 746.12 · MA200 699.59 · dist MA200: 9.86%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -25,21 +25,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 768.56 | -0.16% | 3.62% | 2.24% |
 | QQQ | 12.0% | core | 714.65 | -0.37% | 4.55% | -1.19% |
 | TLT | 12.0% | core | 82.52 | -0.58% | 0.06% | -1.94% |
+| FWONK | 10.5% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
 | GLD | 9.3% | core | 389.67 | 0.01% | 3.32% | 3.04% |
-| FWONK | 8.2% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
-| SCI | 7.4% | satellite | 84.96 | -0.45% | -0.39% | 10.87% |
+| LTH | 7.8% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
+| CHRW | 7.3% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
 | IEF | 6.2% | core | 92.95 | -0.39% | 0.06% | -0.47% |
-| LTH | 6.1% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
-| CHRW | 5.7% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
-| BAH | 4.4% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
-| SPCX | 1.7% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
+| BAH | 5.7% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
+| SPCX | 2.1% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.6%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.0%
-- Beta vs SPY: None · posiciones efectivas: 13.0 · HHI: 0.0771
+- Volatilidad anualizada: 9.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.2%
+- Beta vs SPY: None · posiciones efectivas: 12.2 · HHI: 0.0819
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -48,7 +47,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **BAH** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SCI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -68,9 +66,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | WAB | 72 | large_holder | FMR LLC |  | - | - |
 | SGI | 72 | large_holder | FMR LLC |  | - | - |
 | AOS | 72 | large_holder | FMR LLC |  | - | - |
-| SCI | 72 | large_holder | FMR LLC |  | - | - |
 | SAGT | 72 | corporate_insider | LOONG XIN YEE | 2 | $48,125 | cluster_buy |
-| SCKT | 70 | large_holder | Mills Enrico Kevin |  | - | - |
+| CTRE | 70 | large_holder | Cohen & Steers, Inc. |  | - | - |
+| PACS | 70 | large_holder | Cohen & Steers, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -82,8 +80,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| SCI | 62 | congress | April McClain Delaney | $15,000 | small_amount |
-| SCI | 62 | congress | April McClain Delaney | $15,000 | small_amount |
+| WAB | 62 | congress | April McClain Delaney | $15,000 | small_amount |
+| GOOGL | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -99,8 +97,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.52 (-0.58% / 0.06% / -1.94%) [2026-08-06]
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
-- ^VIX: 15.28 (0.86% / -4.44% / 1.66%) [2026-08-07]
-- BTC-USD: 64828.85 (0.88% / 2.12% / 0.05%) [2026-08-07]
+- ^VIX: 15.21 (0.4% / -4.88% / 1.2%) [2026-08-07]
+- BTC-USD: 65069.87 (1.26% / 2.5% / 0.42%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,17 +113,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks (2026-08-07)
-- [IOT] Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock (2026-08-06)
-- [IOT] Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-06)
-- [IOT] Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock (2026-08-06)
-- [IOT] Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares (2026-08-06)
-- [ADP] Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue (2026-08-06)
-- [ADP] ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook (2026-08-04)
+- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -140,9 +132,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- matenghehe · PnL $41,000 · win rate 97% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $48,290 · win rate 91% · categorias: sports, politics
-- monkeymashingkeyboard · PnL $36,839 · win rate 91% · categorias: sports
+- matenghehe · PnL $28,612 · win rate 97% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $48,187 · win rate 91% · categorias: sports, politics
+- monkeymashingkeyboard · PnL $36,739 · win rate 91% · categorias: sports
 - tennischamp · PnL $24,340 · win rate 89% · categorias: sports
 - KiAr · PnL $14,119 · win rate 88% · categorias: crypto, politics, economy
 
@@ -152,8 +144,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 95 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 674 registros 30d · ultimo dato 2026-08-06
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-06
+- **sec_insiders**: `ok` · 673 registros 30d · ultimo dato 2026-08-06
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
@@ -166,7 +158,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BAH, CHRW, FWONK, GLD, IEF, LTH, QQQ, SCI, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BAH, CHRW, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
