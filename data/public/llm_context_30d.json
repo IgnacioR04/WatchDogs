@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T15:24:50.193366+00:00",
+  "generated_at": "2026-08-07T16:24:29.362763+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -24,7 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings"
+      "earnings",
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -68,24 +70,6 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO vendio TT ($20.8M)",
-      "summary": "CEO Regnery David S vendio TT por $20.8M el 2026-08-05.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Regnery David S",
-      "actor_type": "ceo",
-      "ticker": "TT",
-      "direction": "sell",
-      "amount_estimated": 20794550.0,
-      "event_date": "2026-08-05",
-      "importance_score": 84.9,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1715932/000162828026054280/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
       "title": "CEO opero CL ($11.6M)",
       "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -102,8 +86,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro ATTO ($10.0M)",
       "summary": "10% owner Frazier Life Sciences XI, L.P. compro ATTO por $10.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -120,8 +104,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1911580/000123191926000838/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio CL ($14.8M)",
       "summary": "CEO Wallace Noel R. vendio CL por $14.8M el 2026-08-04 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -138,8 +122,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO opero CL ($11.6M)",
       "summary": "CEO Wallace Noel R. opero CL por $11.6M el 2026-08-04 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -156,26 +140,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464265/000122520826007020/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
-      "title": "CEO vendio CLS ($5.0M)",
-      "summary": "CEO MIONIS ROBERT vendio CLS por $5.0M el 2026-08-05.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MIONIS ROBERT",
-      "actor_type": "ceo",
-      "ticker": "CLS",
-      "direction": "sell",
-      "amount_estimated": 4956070.58,
-      "event_date": "2026-08-05",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1195655/000119312526338763/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_7",
+      "rank": 7,
       "title": "CFO vendio NET ($16.2M)",
       "summary": "CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.",
       "source": "sec_form_4",
@@ -192,8 +158,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1473289/000147328926000021/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -210,8 +176,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -228,8 +194,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -246,8 +212,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -264,8 +230,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -282,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -300,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -318,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -336,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -354,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -372,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -383,6 +349,42 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 16040282989,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
+      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 15145083757,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
+      "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 14828033296,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -518,25 +520,9 @@
     ],
     "sell_pressure": [
       {
-        "ticker": "CLS",
-        "company": "CELESTICA INC",
-        "pressure_score": 4015.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "AFBI",
         "company": "Affinity Bancshares, Inc.",
         "pressure_score": 2044.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1838.0,
         "sources": [
           "corporate_insider"
         ]
@@ -553,6 +539,14 @@
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 1360.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1235.5,
         "sources": [
           "corporate_insider"
         ]
@@ -587,14 +581,6 @@
         "ticker": "FIG",
         "company": "Figma, Inc.",
         "pressure_score": 633.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 603.7,
         "sources": [
           "corporate_insider"
         ]
@@ -637,6 +623,22 @@
         "pressure_score": 436.1,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ZM",
+        "company": "Zoom Communications, Inc.",
+        "pressure_score": 382.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CPAY",
+        "company": "DC Corpay, Inc. Common Stock",
+        "pressure_score": 357.6,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -1224,9 +1226,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 95296.21,
-        "win_rate": 0.9144,
-        "volume": 218359.16,
+        "pnl": 85411.85,
+        "win_rate": 0.9147,
+        "volume": 264043.71,
         "categories": [
           "sports",
           "politics"
@@ -1235,19 +1237,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 37240.69,
+        "pnl": 36963.86,
         "win_rate": 0.9062,
-        "volume": 48686.76,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 38734.19,
-        "win_rate": 0.9,
-        "volume": 116734.41,
+        "volume": 83623.47,
         "categories": [
           "sports"
         ]
@@ -1255,9 +1247,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 127748.92,
-        "win_rate": 0.813,
-        "volume": 540639.9,
+        "pnl": 137782.64,
+        "win_rate": 0.811,
+        "volume": 605675.9,
         "categories": [
           "sports",
           "politics",
@@ -1265,11 +1257,21 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 33140.57,
+        "win_rate": 0.9,
+        "volume": 167927.36,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 24340.33,
+        "pnl": 24562.5,
         "win_rate": 0.8933,
-        "volume": 214648.74,
+        "volume": 259083.88,
         "categories": [
           "sports"
         ]
@@ -1277,9 +1279,9 @@
       {
         "wallet": "0x068162f52e",
         "username": "KiAr",
-        "pnl": 18658.6,
-        "win_rate": 0.8786,
-        "volume": 78752.18,
+        "pnl": 22445.88,
+        "win_rate": 0.8791,
+        "volume": 95252.23,
         "categories": [
           "crypto",
           "politics",
@@ -1289,7 +1291,7 @@
       {
         "wallet": "0x38337de21f",
         "username": "SineNooneEI",
-        "pnl": 57257.43,
+        "pnl": 60748.88,
         "win_rate": 0.7748,
         "volume": 176507.23,
         "categories": [
@@ -1309,9 +1311,9 @@
       {
         "wallet": "0x85d53efdd0",
         "username": "retroactivesource",
-        "pnl": 22936.2,
-        "win_rate": 0.8108,
-        "volume": 267344.12,
+        "pnl": 13636.77,
+        "win_rate": 0.811,
+        "volume": 277781.44,
         "categories": [
           "sports",
           "crypto",
@@ -1319,25 +1321,35 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 161870.41,
-        "win_rate": 0.661,
-        "volume": 2444502.07,
+        "wallet": "0x6d3c5bd139",
+        "username": "VeryLucky888",
+        "pnl": 14100.56,
+        "win_rate": 0.768,
+        "volume": 420718.02,
         "categories": [
           "sports",
-          "crypto",
           "economy"
         ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 141200.48,
+        "win_rate": 0.4928,
+        "volume": 4264965.59,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 161870.41,
+        "pnl": 67153.93,
         "win_rate": 0.661,
-        "volume": 2444502.07,
+        "volume": 2822589.55,
         "categories": [
           "sports",
           "crypto",
@@ -1347,9 +1359,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 118769.18,
-        "win_rate": 0.607,
-        "volume": 2294713.09,
+        "pnl": 49245.57,
+        "win_rate": 0.613,
+        "volume": 3075614.18,
         "categories": [
           "sports"
         ]
@@ -1357,9 +1369,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 151060.34,
+        "pnl": 151101.57,
         "win_rate": 0.499,
-        "volume": 693384.42,
+        "volume": 696261.73,
         "categories": [
           "sports"
         ]
@@ -1367,9 +1379,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 40239.45,
-        "win_rate": 0.567,
-        "volume": 1764673.45,
+        "pnl": 35530.94,
+        "win_rate": 0.57,
+        "volume": 2286568.62,
         "categories": [
           "sports"
         ]
@@ -1377,9 +1389,19 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 107286.16,
+        "pnl": 107009.7,
         "win_rate": 0.544,
-        "volume": 1190169.26,
+        "volume": 1331679.46,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x52ecea7b31",
+        "username": "fkigedgjdgwbg",
+        "pnl": 24860.2,
+        "win_rate": 0.674,
+        "volume": 699727.01,
         "categories": [
           "sports"
         ]
@@ -1395,43 +1417,24 @@
         ]
       },
       {
-        "wallet": "0x52ecea7b31",
-        "username": "fkigedgjdgwbg",
-        "pnl": 28371.58,
-        "win_rate": 0.674,
-        "volume": 520609.16,
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 14055.39,
+        "win_rate": 0.637,
+        "volume": 700891.45,
         "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "Lakersfan111",
-        "pnl": 39270.18,
-        "win_rate": 0.505,
-        "volume": 416609.47,
+        "wallet": "0x18bb751dce",
+        "username": "0x18bb751dCEC69d2f15A683a640E61e22d0D9E5cD-1772528138528",
+        "pnl": 17417.22,
+        "win_rate": 0.6947,
+        "volume": 514217.66,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 71074.61,
-        "win_rate": 0.549,
-        "volume": 663547.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8bfee7aeca",
-        "username": "tennischamp",
-        "pnl": 24340.33,
-        "win_rate": 0.8933,
-        "volume": 214648.74,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ]
@@ -1456,6 +1459,15 @@
       "date": "2026-08-07"
     },
     {
+      "title": "CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks",
+      "url": "https://www.crn.com.au/news-network/cybersecurity/2026/crowdstrike-2026-threat-hunting-report-tracks-rise-in-ai-driven-cyberattacks",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-07"
+    },
+    {
       "title": "CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due",
       "url": "https://www.investors.com:443/research/earnings-preview/coreweave-stock-nebius-highlight-data-center-earnings-tech-stars-lumentum-amat-earnings/",
       "ticker": "CRWV",
@@ -1473,6 +1485,43 @@
       "date": "2026-08-06"
     },
     {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-4583700-36-in-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/sanjit-biswas-sells-57090-shares-of-samsara-nyseiot-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-87079-shares-of-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/06/samsara-nyseiot-ceo-sells-119477-shares.html",
+      "ticker": "IOT",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
       "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
       "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
       "ticker": "MIAX",
@@ -1480,9 +1529,43 @@
         "stock"
       ],
       "date": "2026-08-06"
+    },
+    {
+      "title": "Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue",
+      "url": "https://www.fool.com/coverage/charts/2026/08/06/microsoft-vs-automatic-data-processing-scale-vs-seasonality-in-revenue/?source=iedfolrf0000001",
+      "ticker": "ADP",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fcf-q2-deep-dive-loan-112522269.html",
+      "ticker": "FCF",
+      "themes": [],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/adp-q2-deep-dive-ai-042922021.html",
+      "ticker": "ADP",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price",
+      "url": "https://www.themarketsdaily.com/2026/08/01/keefe-bruyette-woods-issues-positive-forecast-for-first-commonwealth-financial-nysefcf-stock-price.html",
+      "ticker": "FCF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-01"
     }
   ],
-  "signals_count": 1685,
+  "signals_count": 1604,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
