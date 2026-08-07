@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T06:07:19+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T07:59:32+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.15)
+- Volatilidad: `normal` (VIX 15.29)
 - Tendencia: `bull` (SPY 768.56 · MA50 746.12 · MA200 699.59 · dist MA200: 9.86%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -99,8 +99,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.52 (-0.58% / 0.06% / -1.94%) [2026-08-06]
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
-- ^VIX: 15.15 (-4.17% / -11.35% / -4.36%) [2026-08-06]
-- BTC-USD: 64299.87 (-0.46% / 2.45% / 0.63%) [2026-08-07]
+- ^VIX: 15.29 (0.92% / -4.38% / 1.73%) [2026-08-07]
+- BTC-USD: 64265.28 (0.0% / 1.23% / -0.82%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,14 +115,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), stock (1)
+**Temas dominantes**: earnings (2), ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWV] Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . (2026-08-07)
 - [CRWD] CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks (2026-08-07)
-- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
-- [CLS] Celestica Announces Pricing of Equity Offering (2026-08-06)
+- [CRWV] CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due (2026-08-07)
+- [CRWV] Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -137,11 +137,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $37,007 · win rate 91% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $9,702 · win rate 98% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $37,138 · win rate 91% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $8,717 · win rate 98% · categorias: sports, crypto
 - tennischamp · PnL $24,340 · win rate 89% · categorias: sports
-- quavoo · PnL $26,296 · win rate 82% · categorias: sports, politics, economy
-- 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 · PnL $258,604 · win rate 66% · categorias: sports, crypto, economy
+- xm39 · PnL $10,974 · win rate 94% · categorias: sports
+- johnny234 · PnL $17,146 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
