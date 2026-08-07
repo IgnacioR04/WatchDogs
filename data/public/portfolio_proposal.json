@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-07T20:18:31+00:00",
+  "generated_at": "2026-08-07T21:15:36+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FCF": 0.067,
+    "L": 0.0713,
     "IEF": 0.0622,
-    "FWONK": 0.0547,
-    "LTH": 0.0407,
-    "HON": 0.0395,
-    "CHRW": 0.0382,
-    "MLM": 0.0363,
-    "AVR": 0.0245,
-    "MRAM": 0.0116,
-    "SPCX": 0.0112,
-    "CDNA": 0.0108
+    "UNH": 0.0457,
+    "LYV": 0.0453,
+    "FWONK": 0.0443,
+    "LTH": 0.0366,
+    "MLM": 0.0318,
+    "MDLN": 0.0205,
+    "CHRW": 0.0201,
+    "SPCX": 0.0106,
+    "WOLF": 0.0084
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0486,
-    "SPCX": 0.01,
-    "MLM": 0.0323,
-    "CHRW": 0.034,
-    "LTH": 0.0362,
-    "AVR": 0.0218,
-    "HON": 0.0351,
-    "FCF": 0.0596,
-    "MRAM": 0.0103,
-    "CDNA": 0.0096
+    "FWONK": 0.0394,
+    "WOLF": 0.0075,
+    "SPCX": 0.0094,
+    "L": 0.0634,
+    "MLM": 0.0283,
+    "CHRW": 0.0179,
+    "LTH": 0.0325,
+    "UNH": 0.0406,
+    "LYV": 0.0403,
+    "MDLN": 0.0182
   },
   "satellite_rationale": [
     {
@@ -50,12 +50,28 @@
       "n_signals": 4
     },
     {
+      "ticker": "WOLF",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "SPCX",
       "score": 180.7,
       "sources": [
         "congress"
       ],
       "n_signals": 3
+    },
+    {
+      "ticker": "L",
+      "score": 142.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "MLM",
@@ -83,39 +99,23 @@
       "n_signals": 2
     },
     {
-      "ticker": "AVR",
-      "score": 71.8,
+      "ticker": "UNH",
+      "score": 73.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "HON",
-      "score": 71.8,
+      "ticker": "LYV",
+      "score": 73.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "FCF",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "MRAM",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CDNA",
+      "ticker": "MDLN",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -124,17 +124,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1068,
-    "var_95_1d": 0.0082,
-    "cvar_95_1d": 0.0093,
-    "max_drawdown": -0.0178,
-    "beta_spy": null,
-    "hhi": 0.0702,
+    "ann_vol": 0.0928,
+    "var_95_1d": 0.0076,
+    "cvar_95_1d": 0.0085,
+    "max_drawdown": -0.0314,
+    "beta_spy": 0.489,
+    "hhi": 0.0703,
     "max_position": 0.12,
     "n_positions": 15,
     "effective_positions": 14.2,
-    "gross_exposure": 0.85,
-    "days_used": 27
+    "gross_exposure": 0.8501,
+    "days_used": 38
   },
   "risk_gate": {
     "passed": true,

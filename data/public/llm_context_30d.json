@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T20:17:09.188172+00:00",
+  "generated_at": "2026-08-07T21:14:45.523172+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -23,8 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "leadership"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -50,20 +49,20 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio TT ($20.8M)",
-      "summary": "CEO Regnery David S vendio TT por $20.8M el 2026-08-05.",
+      "title": "10% owner vendio MDLN ($60.7M)",
+      "summary": "10% owner GIC Private Ltd vendio MDLN por $60.7M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Regnery David S",
-      "actor_type": "ceo",
-      "ticker": "TT",
+      "actor_name": "GIC Private Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "MDLN",
       "direction": "sell",
-      "amount_estimated": 20794550.0,
+      "amount_estimated": 60668762.22,
       "event_date": "2026-08-05",
-      "importance_score": 84.9,
-      "cross_source_score": 0.0,
+      "importance_score": 84.5,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1715932/000162828026054280/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/936828/000119312526340273/"
     },
     {
       "id": "move_3",
@@ -86,6 +85,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "CEO compro BRVE ($1.5M)",
+      "summary": "CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Murdoch Travis",
+      "actor_type": "ceo",
+      "ticker": "BRVE",
+      "direction": "buy",
+      "amount_estimated": 1499994.0,
+      "event_date": "2026-08-07",
+      "importance_score": 83.2,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1845681/000147083126000798/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio LRCX ($9.0M)",
       "summary": "CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -102,26 +119,188 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1343600/000134360026000011/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CFO vendio NET ($16.2M)",
-      "summary": "CFO SEIFERT THOMAS J vendio NET por $16.2M el 2026-08-04.",
+      "id": "move_6",
+      "rank": 6,
+      "title": "CEO opero KLAC ($16.9M)",
+      "summary": "CEO WALLACE RICHARD P opero KLAC por $16.9M el 2026-08-06.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "SEIFERT THOMAS J",
-      "actor_type": "cfo",
-      "ticker": "NET",
+      "actor_name": "WALLACE RICHARD P",
+      "actor_type": "ceo",
+      "ticker": "KLAC",
+      "direction": "other",
+      "amount_estimated": 16866420.09,
+      "event_date": "2026-08-06",
+      "importance_score": 82.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1196898/000119312526340226/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO vendio YOU ($13.1M)",
+      "summary": "CEO Seidman Becker Caryn vendio YOU por $13.1M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Seidman Becker Caryn",
+      "actor_type": "ceo",
+      "ticker": "YOU",
       "direction": "sell",
-      "amount_estimated": 16173445.71,
-      "event_date": "2026-08-04",
+      "amount_estimated": 13149301.44,
+      "event_date": "2026-08-05",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1466453/000146645326000030/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "CEO vendio RPM ($12.4M)",
+      "summary": "CEO SULLIVAN FRANK C vendio RPM por $12.4M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SULLIVAN FRANK C",
+      "actor_type": "ceo",
+      "ticker": "RPM",
+      "direction": "sell",
+      "amount_estimated": 12434064.88,
+      "event_date": "2026-08-05",
+      "importance_score": 82.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1224025/000119312526340385/"
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
+      "title": "CEO opero RPM ($12.4M)",
+      "summary": "CEO SULLIVAN FRANK C opero RPM por $12.4M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SULLIVAN FRANK C",
+      "actor_type": "ceo",
+      "ticker": "RPM",
+      "direction": "other",
+      "amount_estimated": 12434000.0,
+      "event_date": "2026-08-05",
+      "importance_score": 82.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1224025/000119312526340385/"
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "CEO vendio MRNA ($11.0M)",
+      "summary": "CEO Bancel Stephane vendio MRNA por $11.0M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Bancel Stephane",
+      "actor_type": "ceo",
+      "ticker": "MRNA",
+      "direction": "sell",
+      "amount_estimated": 10996316.76,
+      "event_date": "2026-08-05",
+      "importance_score": 82.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "10% owner vendio MDLN ($9.6M)",
+      "summary": "10% owner GIC Private Ltd vendio MDLN por $9.6M el 2026-08-06 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "GIC Private Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "MDLN",
+      "direction": "sell",
+      "amount_estimated": 9609548.02,
+      "event_date": "2026-08-06",
+      "importance_score": 82.0,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/936828/000119312526340273/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "CEO opero MRNA ($9.6M)",
+      "summary": "CEO Bancel Stephane opero MRNA por $9.6M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Bancel Stephane",
+      "actor_type": "ceo",
+      "ticker": "MRNA",
+      "direction": "other",
+      "amount_estimated": 9560560.9,
+      "event_date": "2026-08-05",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "CEO opero MRNA ($4.8M)",
+      "summary": "CEO Bancel Stephane opero MRNA por $4.8M el 2026-08-06.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Bancel Stephane",
+      "actor_type": "ceo",
+      "ticker": "MRNA",
+      "direction": "other",
+      "amount_estimated": 4834781.35,
+      "event_date": "2026-08-06",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "CEO vendio DDOG ($8.8M)",
+      "summary": "CEO Pomel Olivier vendio DDOG por $8.8M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Pomel Olivier",
+      "actor_type": "ceo",
+      "ticker": "DDOG",
+      "direction": "sell",
+      "amount_estimated": 8775102.08,
+      "event_date": "2026-08-05",
       "importance_score": 81.6,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1473289/000147328926000021/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783990/000156155026000258/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_15",
+      "rank": 15,
+      "title": "CEO vendio LKNCY ($9.0M)",
+      "summary": "CEO Guo Jinyi vendio LKNCY por $9.0M el 2026-08-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Guo Jinyi",
+      "actor_type": "ceo",
+      "ticker": "LKNCY",
+      "direction": "sell",
+      "amount_estimated": 9018055.0,
+      "event_date": "2026-08-05",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1975310/000110465926092739/"
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -138,8 +317,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -156,8 +335,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -174,8 +353,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -192,8 +371,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -203,186 +382,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 27919281078,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
-      "title": "Institutional manager compro APPLE INC ($25.1B)",
-      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 25125770065,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 23585331061,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "Institutional manager compro INTEL CORP ($20.8B)",
-      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 20820733596,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 20340227051,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
-      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
-      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Nomura Holdings Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 19159260573,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
-      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Citadel Advisors LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16040282989,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
-      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 15145083757,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
-      "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14828033296,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14184846003,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro LAM RESEARCH CORP ($13.7B)",
-      "summary": "Institutional manager State Street Corp compro LAM RESEARCH CORP por $13.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 13665595558,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -401,6 +400,22 @@
         ]
       },
       {
+        "ticker": "BRVE",
+        "company": "Braveheart Bio, Inc.",
+        "pressure_score": 459.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "OKYO",
+        "company": "OKYO Pharma Ltd",
+        "pressure_score": 457.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FWONK",
         "company": "Liberty Formula One Common Stock",
         "pressure_score": 368.0,
@@ -414,14 +429,6 @@
         "pressure_score": 304.7,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "JCTC",
-        "company": "JEWETT CAMERON TRADING CO LTD",
-        "pressure_score": 264.2,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -450,6 +457,14 @@
         ]
       },
       {
+        "ticker": "WOLF",
+        "company": "WOLFSPEED, INC.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "HON",
         "company": "HONEYWELL INTERNATIONAL INC",
         "pressure_score": 186.8,
@@ -469,9 +484,10 @@
       {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
-        "pressure_score": 174.3,
+        "pressure_score": 178.2,
         "sources": [
-          "congress"
+          "congress",
+          "corporate_insider"
         ]
       },
       {
@@ -497,64 +513,31 @@
         "sources": [
           "congress"
         ]
-      },
-      {
-        "ticker": "MNST",
-        "company": "Common Stock",
-        "pressure_score": 163.2,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "BV",
-        "company": "BrightView Holdings, Inc.",
-        "pressure_score": 148.2,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "AFBI",
-        "company": "Affinity Bancshares, Inc.",
-        "pressure_score": 2044.6,
+        "ticker": "YOU",
+        "company": "Clear Secure, Inc.",
+        "pressure_score": 1474.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "IOT",
-        "company": "Samsara Inc.",
-        "pressure_score": 1699.2,
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 1344.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 1360.9,
+        "ticker": "EBAY",
+        "company": "EBAY INC",
+        "pressure_score": 884.7,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1235.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FCF",
-        "company": "FIRST COMMONWEALTH FINANCIAL CORP",
-        "pressure_score": 789.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -566,11 +549,10 @@
         ]
       },
       {
-        "ticker": "FFIV",
-        "company": "JT F5, Inc.",
-        "pressure_score": 728.0,
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 712.3,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -583,17 +565,25 @@
         ]
       },
       {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 603.7,
+        "ticker": "GTE",
+        "company": "GRAN TIERRA ENERGY INC.",
+        "pressure_score": 607.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "RDDT",
-        "company": "Reddit, Inc.",
-        "pressure_score": 584.0,
+        "ticker": "MRK",
+        "company": "Merck & Co., Inc.",
+        "pressure_score": 512.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TOST",
+        "company": "Toast, Inc.",
+        "pressure_score": 502.3,
         "sources": [
           "corporate_insider"
         ]
@@ -601,31 +591,7 @@
       {
         "ticker": "MIAX",
         "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
-        "pressure_score": 503.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NCNO",
-        "company": "nCino, Inc.",
-        "pressure_score": 488.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NET",
-        "company": "Cloudflare, Inc.",
-        "pressure_score": 436.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ZM",
-        "company": "Zoom Communications, Inc.",
-        "pressure_score": 382.5,
+        "pressure_score": 435.8,
         "sources": [
           "corporate_insider"
         ]
@@ -636,6 +602,38 @@
         "pressure_score": 357.6,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "KLTR",
+        "company": "KALTURA INC",
+        "pressure_score": 339.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna, Inc.",
+        "pressure_score": 323.3,
+        "sources": [
+          "corporate_insider"
         ]
       }
     ]
@@ -660,22 +658,40 @@
       "score": 83.4
     },
     {
-      "ticker": "LUMN",
-      "company": "Lumen Technologies, Inc.",
-      "actor": "Johnson Kathleen E",
+      "ticker": "BRVE",
+      "company": "Braveheart Bio, Inc.",
+      "actor": "Murdoch Travis",
       "actor_type": "ceo",
-      "amount": 612680.0,
-      "date": "2026-08-06",
-      "score": 81.3
+      "amount": 1499994.0,
+      "date": "2026-08-07",
+      "score": 83.2
     },
     {
-      "ticker": "DMC",
-      "company": "DEL MONTE CORP",
-      "actor": "Abbas Mohammed",
-      "actor_type": "ceo",
-      "amount": 358705.2,
-      "date": "2026-08-04",
-      "score": 78.6
+      "ticker": "BRVE",
+      "company": "Braveheart Bio, Inc.",
+      "actor": "Rickey James Paul",
+      "actor_type": "cfo",
+      "amount": 499986.0,
+      "date": "2026-08-07",
+      "score": 79.6
+    },
+    {
+      "ticker": "AAT",
+      "company": "American Assets Trust, Inc.",
+      "actor": "RADY ERNEST S",
+      "actor_type": "ten_percent_owner",
+      "amount": 747651.66,
+      "date": "2026-08-07",
+      "score": 79.2
+    },
+    {
+      "ticker": "BRVE",
+      "company": "Braveheart Bio, Inc.",
+      "actor": "Viehbacher Christopher",
+      "actor_type": "director",
+      "amount": 1499994.0,
+      "date": "2026-08-07",
+      "score": 78.2
     },
     {
       "ticker": "DGICA",
@@ -687,6 +703,24 @@
       "score": 77.6
     },
     {
+      "ticker": "ABTC",
+      "company": "American Bitcoin Corp.",
+      "actor": "Mateen Justin",
+      "actor_type": "director",
+      "amount": 1005052.64,
+      "date": "2026-08-06",
+      "score": 77.4
+    },
+    {
+      "ticker": "BRVE",
+      "company": "Braveheart Bio, Inc.",
+      "actor": "Lubner David Charles",
+      "actor_type": "director",
+      "amount": 999990.0,
+      "date": "2026-08-07",
+      "score": 77.3
+    },
+    {
       "ticker": "JSDA",
       "company": "JONES SODA CO.",
       "actor": "Meadows Brian",
@@ -696,22 +730,13 @@
       "score": 76.1
     },
     {
-      "ticker": "BV",
-      "company": "BrightView Holdings, Inc.",
-      "actor": "Cornog William L",
+      "ticker": "ABTC",
+      "company": "American Bitcoin Corp.",
+      "actor": "Mateen Justin",
       "actor_type": "director",
-      "amount": 450000.0,
-      "date": "2026-08-06",
-      "score": 75.6
-    },
-    {
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 207742.78,
-      "date": "2026-08-04",
-      "score": 74.9
+      "amount": 924554.85,
+      "date": "2026-08-05",
+      "score": 75.7
     },
     {
       "ticker": "ADTN",
@@ -723,58 +748,31 @@
       "score": 74.6
     },
     {
-      "ticker": "LODE",
-      "company": "Comstock Inc.",
-      "actor": "DEGASPERIS CORRADO",
-      "actor_type": "ceo",
-      "amount": 22051.6,
-      "date": "2026-08-06",
-      "score": 74.1
-    },
-    {
-      "ticker": "BV",
-      "company": "BrightView Holdings, Inc.",
-      "actor": "Cornog William L",
+      "ticker": "GBFH",
+      "company": "GBank Financial Holdings Inc.",
+      "actor": "Griege Charles William Jr.",
       "actor_type": "director",
-      "amount": 112400.0,
-      "date": "2026-08-06",
-      "score": 72.6
+      "amount": 525675.0,
+      "date": "2026-08-05",
+      "score": 74.5
     },
     {
-      "ticker": "RBKB",
-      "company": "Rhinebeck Bancorp, Inc.",
-      "actor": "Vitale Michael",
-      "actor_type": "officer",
-      "amount": 59699.9,
-      "date": "2026-08-06",
-      "score": 72.0
+      "ticker": "AAT",
+      "company": "American Assets Trust, Inc.",
+      "actor": "RADY ERNEST S",
+      "actor_type": "ten_percent_owner",
+      "amount": 69120.0,
+      "date": "2026-08-05",
+      "score": 72.5
     },
     {
-      "ticker": "BHRB",
-      "company": "Burke & Herbert Financial Services Corp.",
-      "actor": "McLaughlin Shawn Patrick",
+      "ticker": "BBBY",
+      "company": "BED BATH & BEYOND, INC.",
+      "actor": "TABACCO JOSEPH J JR",
       "actor_type": "director",
-      "amount": 73250.0,
+      "amount": 91400.0,
       "date": "2026-08-06",
-      "score": 71.7
-    },
-    {
-      "ticker": "AWRE",
-      "company": "AWARE INC /MA/",
-      "actor": "Amlani Ajay K",
-      "actor_type": "ceo",
-      "amount": 12437.2,
-      "date": "2026-08-05",
-      "score": 71.3
-    },
-    {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 89000.0,
-      "date": "2026-08-05",
-      "score": 70.8
+      "score": 72.2
     }
   ],
   "institutional_changes": [
@@ -977,6 +975,22 @@
       "score": 65.2
     },
     {
+      "politician": "April McClain Delaney",
+      "ticker": "TSCO",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-27",
+      "score": 65.0
+    },
+    {
+      "politician": "Sam T. Liccardo",
+      "ticker": "NVDA",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-21",
+      "score": 65.0
+    },
+    {
       "politician": "Kevin Hern",
       "ticker": "XOM",
       "direction": "other",
@@ -1041,20 +1055,12 @@
       "score": 63.7
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
+      "politician": "Dan Newhouse",
+      "ticker": "UNH",
       "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-27",
-      "score": 63.7
-    },
-    {
-      "politician": "Sam T. Liccardo",
-      "ticker": "NVDA",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-21",
-      "score": 63.7
+      "amount": 15000,
+      "date": "2026-07-10",
+      "score": 63.6
     },
     {
       "politician": "Pete Sessions",
@@ -1071,14 +1077,6 @@
       "amount": 15000,
       "date": "2026-07-20",
       "score": 62.6
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "ACN",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 62.4
     }
   ],
   "large_holders": [
@@ -1101,6 +1099,24 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 47.27,
+      "shares": 1382303,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Walmart Inc.",
+      "company": "Symbotic Inc.",
+      "ticker": "SYM",
+      "ownership_pct": 39.9,
+      "shares": 76350823,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
       "filer": "Luo Hui",
       "company": "KIDZ AI Inc.",
       "ticker": "",
@@ -1119,12 +1135,66 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "Nippon Life Insurance Company",
+      "company": "Corebridge Financial, Inc.",
+      "ticker": "",
+      "ownership_pct": 27.4,
+      "shares": 121989527,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Churchill Sponsor XIII LLC",
+      "company": "Churchill Capital Corp XIII",
+      "ticker": "",
+      "ownership_pct": 25.47,
+      "shares": 14150000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Gilead Sciences, Inc.",
+      "company": "Arcus Biosciences, Inc.",
+      "ticker": "RCUS",
+      "ownership_pct": 24.7,
+      "shares": 31424760,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
       "filer": "Sit Investment Associates, Inc.",
       "company": "DWS Municipal Income Trust",
       "ticker": "KTF",
       "ownership_pct": 24.1,
       "shares": 9432271,
       "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Rithm Capital Corp.",
+      "company": "Rithm Property Trust Inc.",
+      "ticker": "",
+      "ownership_pct": 17.1,
+      "shares": 1447680,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "L.I.A. Pure Capital Ltd.",
+      "company": "Evogene Ltd.",
+      "ticker": "EVGN",
+      "ownership_pct": 15.98,
+      "shares": 2524400,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Martin Reasoner",
+      "company": "ACRES Commercial Realty Corp.",
+      "ticker": "",
+      "ownership_pct": 11.41,
+      "shares": 1535506,
+      "filing_type": "SCHEDULE 13D",
       "date": "2026-08-07"
     },
     {
@@ -1137,11 +1207,11 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "Stifano Mario",
-      "company": "AIRWA INC.",
-      "ticker": "YYAI",
-      "ownership_pct": 9.5,
-      "shares": 100000,
+      "filer": "Mark Fogel",
+      "company": "ACRES Commercial Realty Corp.",
+      "ticker": "",
+      "ownership_pct": 10.76,
+      "shares": 1447218,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-08-07"
     }
@@ -1151,7 +1221,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 81068.72,
+        "pnl": 81552.09,
         "win_rate": 0.9134,
         "volume": 264552.15,
         "categories": [
@@ -1160,62 +1230,9 @@
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 36804.6,
-        "win_rate": 0.9062,
-        "volume": 153368.7,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 21091.76,
-        "win_rate": 0.936,
-        "volume": 70598.28,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdc41c39b95",
-        "username": "quavoo",
-        "pnl": 134506.47,
-        "win_rate": 0.812,
-        "volume": 797430.89,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 34106.91,
-        "win_rate": 0.902,
-        "volume": 203226.97,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 27172.58,
-        "win_rate": 0.9143,
-        "volume": 639537.44,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 26303.76,
+        "pnl": 32257.0,
         "win_rate": 0.9178,
         "volume": 936.15,
         "categories": [
@@ -1223,10 +1240,52 @@
         ]
       },
       {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 36688.94,
+        "win_rate": 0.9062,
+        "volume": 153371.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdc41c39b95",
+        "username": "quavoo",
+        "pnl": 138704.54,
+        "win_rate": 0.814,
+        "volume": 798222.89,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 21091.76,
+        "win_rate": 0.9365,
+        "volume": 70598.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 27046.99,
+        "win_rate": 0.902,
+        "volume": 203226.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 24570.69,
-        "win_rate": 0.8933,
+        "pnl": 24522.87,
+        "win_rate": 0.8937,
         "volume": 260720.64,
         "categories": [
           "sports"
@@ -1243,9 +1302,20 @@
         ]
       },
       {
+        "wallet": "0xf377b9fb12",
+        "username": "danielwolfmorales3pddb6dl6",
+        "pnl": 21793.16,
+        "win_rate": 0.8272,
+        "volume": 130487.58,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x38337de21f",
         "username": "SineNooneEI",
-        "pnl": 48890.57,
+        "pnl": 43475.57,
         "win_rate": 0.7753,
         "volume": 207335.58,
         "categories": [
@@ -1257,7 +1327,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 123157.91,
+        "pnl": 99488.37,
         "win_rate": 0.4928,
         "volume": 4264965.59,
         "categories": [
@@ -1268,9 +1338,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 92684.88,
+        "pnl": 113213.97,
         "win_rate": 0.613,
-        "volume": 4321501.64,
+        "volume": 4340598.25,
         "categories": [
           "sports"
         ]
@@ -1278,9 +1348,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 48815.44,
-        "win_rate": 0.571,
-        "volume": 3011654.08,
+        "pnl": 41587.06,
+        "win_rate": 0.575,
+        "volume": 3032060.88,
         "categories": [
           "sports",
           "economy"
@@ -1289,9 +1359,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 152186.22,
+        "pnl": 152262.72,
         "win_rate": 0.499,
-        "volume": 787254.12,
+        "volume": 787304.89,
         "categories": [
           "sports"
         ]
@@ -1299,30 +1369,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 122300.98,
+        "pnl": 133079.05,
         "win_rate": 0.545,
-        "volume": 1729964.6,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 27172.58,
-        "win_rate": 0.9143,
-        "volume": 639537.44,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x52ecea7b31",
-        "username": "fkigedgjdgwbg",
-        "pnl": 18835.63,
-        "win_rate": 0.675,
-        "volume": 757556.5,
+        "volume": 1733882.73,
         "categories": [
           "sports"
         ]
@@ -1338,24 +1387,47 @@
         ]
       },
       {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 19601.14,
-        "win_rate": 0.637,
-        "volume": 761990.5,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 37190.86,
+        "pnl": 38641.95,
         "win_rate": 0.7294,
         "volume": 351756.17,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x18bb751dce",
+        "username": "0x18bb751dCEC69d2f15A683a640E61e22d0D9E5cD-1772528138528",
+        "pnl": 36829.55,
+        "win_rate": 0.697,
+        "volume": 554686.38,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x9d84ce0306",
+        "username": "ImJustKen",
+        "pnl": 22376.82,
+        "win_rate": 0.592,
+        "volume": 380347.12,
+        "categories": [
+          "politics",
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 65564.86,
+        "win_rate": 0.551,
+        "volume": 743483.13,
+        "categories": [
+          "sports"
         ]
       }
     ]
@@ -1371,43 +1443,6 @@
       "date": "2026-08-07"
     },
     {
-      "title": "Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-4583700-36-in-stock.html",
-      "ticker": "IOT",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/sanjit-biswas-sells-57090-shares-of-samsara-nyseiot-stock.html",
-      "ticker": "IOT",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-87079-shares-of-stock.html",
-      "ticker": "IOT",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/06/samsara-nyseiot-ceo-sells-119477-shares.html",
-      "ticker": "IOT",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
       "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
       "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
       "ticker": "MIAX",
@@ -1417,25 +1452,25 @@
       "date": "2026-08-06"
     },
     {
-      "title": "Castle Biosciences ( NASDAQ : CSTL ) Insider Sells 1 , 730 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/04/castle-biosciences-nasdaqcstl-insider-sells-1730-shares.html",
-      "ticker": "CSTL",
+      "title": "Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13521385/insider-selling-acres-commercial-realty-nyseacr-major-shareholder-sells-1389-shares-of-stock.html",
+      "ticker": "ACR",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-04"
+      "date": "2026-07-30"
     },
     {
-      "title": "Tobin Juvenal Sells 1 , 730 Shares of Castle Biosciences ( NASDAQ : CSTL ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13529856/tobin-juvenal-sells-1730-shares-of-castle-biosciences-nasdaqcstl-stock.html",
-      "ticker": "CSTL",
+      "title": "ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/07/30/acres-commercial-realty-nyseacr-major-shareholder-sells-2212-shares-of-stock.html",
+      "ticker": "ACR",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-04"
+      "date": "2026-07-30"
     }
   ],
-  "signals_count": 1601,
+  "signals_count": 1617,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
