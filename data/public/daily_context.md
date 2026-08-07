@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-07T11:28:08+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
+_Generado 2026-08-07T12:16:23+00:00 · ventana señales 2026-07-08 -> 2026-08-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.21)
+- Volatilidad: `normal` (VIX 15.18)
 - Tendencia: `bull` (SPY 768.56 · MA50 746.12 · MA200 699.59 · dist MA200: 9.86%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -25,20 +25,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 768.56 | -0.16% | 3.62% | 2.24% |
 | QQQ | 12.0% | core | 714.65 | -0.37% | 4.55% | -1.19% |
 | TLT | 12.0% | core | 82.52 | -0.58% | 0.06% | -1.94% |
-| FWONK | 10.5% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
 | GLD | 9.3% | core | 389.67 | 0.01% | 3.32% | 3.04% |
-| LTH | 7.8% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
-| CHRW | 7.3% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
+| FWONK | 9.2% | satellite | 99.69 | 3.79% | -0.31% | 3.94% |
+| LTH | 6.8% | satellite | 43.48 | -4.04% | -1.63% | 4.34% |
+| CHRW | 6.4% | satellite | 146.66 | -4.52% | -0.18% | -23.92% |
 | IEF | 6.2% | core | 92.95 | -0.39% | 0.06% | -0.47% |
-| BAH | 5.7% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
-| SPCX | 2.1% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
+| BAH | 5.0% | satellite | 73.93 | 2.81% | 8.23% | 17.05% |
+| AVR | 4.1% | satellite | 8.36 | 3.85% | 1.46% | -11.91% |
+| SPCX | 1.9% | satellite | 114.92 | 6.14% | 2.42% | -24.47% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.3%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.2%
-- Beta vs SPY: None · posiciones efectivas: 12.2 · HHI: 0.0819
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -1.7%
+- Beta vs SPY: None · posiciones efectivas: 12.9 · HHI: 0.0776
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -46,6 +47,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **AVR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BAH** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
@@ -56,6 +58,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | SAGT | 78 | corporate_insider | Ng Chen Lok | 2 | $231,000 | cluster_buy |
 | REBN | 76 | corporate_insider | Lim Jung Jae | 0 | $23,649,660,000 | - |
+| AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
 | SAGT | 72 | large_holder | Ng Chen Lok |  | - | - |
 | MFP | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | ESQ | 72 | large_holder | Mawer Investment Manageme |  | - | - |
@@ -68,7 +71,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AOS | 72 | large_holder | FMR LLC |  | - | - |
 | SAGT | 72 | corporate_insider | LOONG XIN YEE | 2 | $48,125 | cluster_buy |
 | CTRE | 70 | large_holder | Cohen & Steers, Inc. |  | - | - |
-| PACS | 70 | large_holder | Cohen & Steers, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -97,8 +99,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.52 (-0.58% / 0.06% / -1.94%) [2026-08-06]
 - IEF: 92.95 (-0.39% / 0.06% / -0.47%) [2026-08-06]
 - GLD: 389.67 (0.01% / 3.32% / 3.04%) [2026-08-06]
-- ^VIX: 15.21 (0.4% / -4.88% / 1.2%) [2026-08-07]
-- BTC-USD: 65069.87 (1.26% / 2.5% / 0.42%) [2026-08-07]
+- ^VIX: 15.18 (0.2% / -5.07% / 1.0%) [2026-08-07]
+- BTC-USD: 65176.24 (1.42% / 2.67% / 0.59%) [2026-08-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,11 +115,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: earnings (2), ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MIAX] Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock (2026-08-06)
+- [CRWV] Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . (2026-08-07)
+- [CRWD] CrowdStrike 2026 Threat Hunting Report tracks rise in AI - driven cyberattacks (2026-08-07)
+- [CRWV] CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due (2026-08-07)
+- [CRWV] Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -158,7 +163,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BAH, CHRW, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AVR, BAH, CHRW, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
