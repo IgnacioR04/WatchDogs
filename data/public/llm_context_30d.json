@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T18:20:42.549658+00:00",
+  "generated_at": "2026-08-07T19:32:43.271670+00:00",
   "window": {
     "from": "2026-07-08",
     "to": "2026-08-07",
@@ -25,7 +25,7 @@
     "top_themes": [
       "stock",
       "earnings",
-      "leadership"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -443,6 +443,14 @@
         ]
       },
       {
+        "ticker": "MSFT",
+        "company": "Stock",
+        "pressure_score": 228.0,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "HON",
         "company": "HONEYWELL INTERNATIONAL INC",
         "pressure_score": 186.8,
@@ -476,6 +484,14 @@
         ]
       },
       {
+        "ticker": "KR",
+        "company": "Kroger Company",
+        "pressure_score": 167.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "META",
         "company": "Common Stock",
         "pressure_score": 163.2,
@@ -497,22 +513,6 @@
         "pressure_score": 148.2,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GEHC",
-        "company": "GE HEALTHCARE TECHNOLOGIES INC.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "LESL",
-        "company": "Leslie's Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
         ]
       }
     ],
@@ -661,15 +661,6 @@
       "score": 81.3
     },
     {
-      "ticker": "DMC",
-      "company": "DEL MONTE CORP",
-      "actor": "Abbas Mohammed",
-      "actor_type": "ceo",
-      "amount": 358705.2,
-      "date": "2026-08-04",
-      "score": 78.6
-    },
-    {
       "ticker": "DGICA",
       "company": "DONEGAL GROUP INC",
       "actor": "DONEGAL MUTUAL INSURANCE CO",
@@ -677,6 +668,15 @@
       "amount": 354060.0,
       "date": "2026-08-06",
       "score": 77.6
+    },
+    {
+      "ticker": "JSDA",
+      "company": "JONES SODA CO.",
+      "actor": "Meadows Brian",
+      "actor_type": "cfo",
+      "amount": 0.0,
+      "date": "2026-08-06",
+      "score": 76.1
     },
     {
       "ticker": "BV",
@@ -1102,33 +1102,6 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "First Finance Ltd.",
-      "company": "CLEARONE INC",
-      "ticker": "CLRO",
-      "ownership_pct": 61.3,
-      "shares": 1641162,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Resolute ManCo Holdings LLC",
-      "company": "Resolute Holdings Management, Inc.",
-      "ticker": "RHLD",
-      "ownership_pct": 52.5,
-      "shares": 4107534,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Ng Chen Lok",
-      "company": "SAGTEC GLOBAL LIMITED",
-      "ticker": "SAGT",
-      "ownership_pct": 41.78,
-      "shares": 8752600,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
       "filer": "Luo Hui",
       "company": "KIDZ AI Inc.",
       "ticker": "",
@@ -1147,67 +1120,13 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "Canada Pension Plan Investment Board",
-      "company": "ReNew Energy Global plc",
-      "ticker": "",
-      "ownership_pct": 34.4,
-      "shares": 88846844,
+      "filer": "Sit Investment Associates, Inc.",
+      "company": "DWS Municipal Income Trust",
+      "ticker": "KTF",
+      "ownership_pct": 24.1,
+      "shares": 9432271,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Cerberus Capital Management II, L.P.",
-      "company": "Eos Energy Enterprises, Inc.",
-      "ticker": "EOSE",
-      "ownership_pct": 32.6,
-      "shares": 175829986,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Cambridge Equities, LP",
-      "company": "ImmunityBio, Inc.",
-      "ticker": "IBRX",
-      "ownership_pct": 24.7,
-      "shares": 261705814,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Sumant Sinha",
-      "company": "ReNew Energy Global plc",
-      "ticker": "",
-      "ownership_pct": 19.76,
-      "shares": 60540417,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Board of Directors of MetLife, Inc., as an entity",
-      "company": "MetLife, Inc.",
-      "ticker": "",
-      "ownership_pct": 16.1,
-      "shares": 102098469,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Access Industries Management, LLC",
-      "company": "DigitalOcean Holdings, Inc.",
-      "ticker": "DOCN",
-      "ownership_pct": 15.86,
-      "shares": 18653451,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
-      "filer": "Maran Capital Management, LLC",
-      "company": "Pure Cycle Corp",
-      "ticker": "PCYO",
-      "ownership_pct": 14.7,
-      "shares": 3549000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
+      "date": "2026-08-07"
     },
     {
       "filer": "Black Global 5 LLC",
@@ -1217,6 +1136,15 @@
       "shares": 10000000,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-08-07"
+    },
+    {
+      "filer": "Stifano Mario",
+      "company": "AIRWA INC.",
+      "ticker": "YYAI",
+      "ownership_pct": 9.5,
+      "shares": 100000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-07"
     }
   ],
   "polymarket": {
@@ -1224,30 +1152,30 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 92067.62,
+        "pnl": 81068.72,
         "win_rate": 0.9133,
-        "volume": 264288.15,
+        "volume": 264552.15,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 43454.96,
-        "win_rate": 0.902,
-        "volume": 167927.36,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 36804.6,
+        "win_rate": 0.9062,
+        "volume": 153368.7,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 37027.9,
-        "win_rate": 0.9062,
-        "volume": 96436.1,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 21091.76,
+        "win_rate": 0.9355,
+        "volume": 70598.28,
         "categories": [
           "sports"
         ]
@@ -1255,9 +1183,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 136400.71,
+        "pnl": 134506.47,
         "win_rate": 0.812,
-        "volume": 670449.9,
+        "volume": 797430.89,
         "categories": [
           "sports",
           "politics",
@@ -1265,11 +1193,52 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 34106.91,
+        "win_rate": 0.902,
+        "volume": 203226.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 27172.58,
+        "win_rate": 0.9143,
+        "volume": 639537.44,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 26303.76,
+        "win_rate": 0.9178,
+        "volume": 936.15,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
-        "pnl": 24563.0,
+        "pnl": 24570.69,
         "win_rate": 0.8933,
-        "volume": 259183.03,
+        "volume": 260720.64,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 22432.57,
+        "win_rate": 0.875,
+        "volume": 41733.31,
         "categories": [
           "sports"
         ]
@@ -1277,51 +1246,9 @@
       {
         "wallet": "0x38337de21f",
         "username": "SineNooneEI",
-        "pnl": 65625.33,
+        "pnl": 48890.57,
         "win_rate": 0.7753,
-        "volume": 176507.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 14451.03,
-        "win_rate": 0.8472,
-        "volume": 92565.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 15548.84,
-        "win_rate": 0.8405,
-        "volume": 64908.6,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x85d53efdd0",
-        "username": "retroactivesource",
-        "pnl": 13776.06,
-        "win_rate": 0.811,
-        "volume": 277781.44,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xc3acf5878a",
-        "username": "mentionmarket",
-        "pnl": 45000.0,
-        "win_rate": 0.6842,
-        "volume": 300000.0,
+        "volume": 207335.58,
         "categories": [
           "sports"
         ]
@@ -1331,7 +1258,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 141191.86,
+        "pnl": 123157.91,
         "win_rate": 0.4928,
         "volume": 4264965.59,
         "categories": [
@@ -1340,33 +1267,11 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 45195.68,
-        "win_rate": 0.659,
-        "volume": 2897815.6,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 95473.84,
-        "win_rate": 0.615,
-        "volume": 3473621.16,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 151942.86,
-        "win_rate": 0.499,
-        "volume": 757758.55,
+        "pnl": 92684.88,
+        "win_rate": 0.612,
+        "volume": 4321501.64,
         "categories": [
           "sports"
         ]
@@ -1374,9 +1279,20 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 40876.56,
-        "win_rate": 0.572,
-        "volume": 2528659.65,
+        "pnl": 48815.44,
+        "win_rate": 0.57,
+        "volume": 3011654.08,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 152186.22,
+        "win_rate": 0.499,
+        "volume": 787254.12,
         "categories": [
           "sports"
         ]
@@ -1384,19 +1300,30 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 109676.68,
-        "win_rate": 0.545,
-        "volume": 1474971.97,
+        "pnl": 122300.98,
+        "win_rate": 0.548,
+        "volume": 1729964.6,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 27172.58,
+        "win_rate": 0.9143,
+        "volume": 639537.44,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x52ecea7b31",
         "username": "fkigedgjdgwbg",
-        "pnl": 20413.66,
+        "pnl": 18835.63,
         "win_rate": 0.675,
-        "volume": 708678.04,
+        "volume": 757556.5,
         "categories": [
           "sports"
         ]
@@ -1414,19 +1341,19 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 16865.71,
+        "pnl": 19601.14,
         "win_rate": 0.637,
-        "volume": 718866.61,
+        "volume": 761990.5,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x18bb751dce",
-        "username": "0x18bb751dCEC69d2f15A683a640E61e22d0D9E5cD-1772528138528",
-        "pnl": 36805.66,
-        "win_rate": 0.6962,
-        "volume": 554681.38,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 37190.86,
+        "win_rate": 0.7284,
+        "volume": 351756.17,
         "categories": [
           "sports",
           "crypto"
@@ -1436,86 +1363,43 @@
   },
   "news": [
     {
-      "title": "Should You Buy CoreWeave Before or After Earnings ? The Best Move Might Be Neither . ",
-      "url": "https://www.fool.com/investing/2026/08/07/should-you-buy-coreweave-before-or-after-earnings/?source=iedfolrf0000001",
-      "ticker": "CRWV",
+      "title": "Keefe , Bruyette & Woods Forecasts Strong Price Appreciation for Miami International ( NYSE : MIAX ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/keefe-bruyette-woods-forecasts-strong-price-appreciation-for-miami-international-nysemiax-stock.html",
+      "ticker": "MIAX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Judson Gray Teekell Sells 3 , 000 Shares of Miami International ( NYSE : MIAX ) Stock",
+      "url": "https://www.dailypolitical.com/2026/08/06/judson-gray-teekell-sells-3000-shares-of-miami-international-nysemiax-stock.html",
+      "ticker": "MIAX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Microsoft vs . Automatic Data Processing : Scale vs . Seasonality in Revenue",
+      "url": "https://www.fool.com/coverage/charts/2026/08/06/microsoft-vs-automatic-data-processing-scale-vs-seasonality-in-revenue/?source=iedfolrf0000001",
+      "ticker": "ADP",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "CoreWeave Stock , Nebius Highlight Data Center Earnings ; Lumentum , AMAT Also Due",
-      "url": "https://www.investors.com:443/research/earnings-preview/coreweave-stock-nebius-highlight-data-center-earnings-tech-stars-lumentum-amat-earnings/",
-      "ticker": "CRWV",
-      "themes": [
-        "earnings",
-        "stock"
-      ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Piper Sandler Sees 64 % Upside For CoreWeave ( NASDAQ : CRWV ) Despite 33 % Three - Month Slide",
-      "url": "https://www.foreignpolicyjournal.com/2026/08/06/piper-sandler-sees-64-upside-for-coreweave-nasdaq-crwv-despite-33-three-month-slide/",
-      "ticker": "CRWV",
-      "themes": [],
       "date": "2026-08-06"
     },
     {
-      "title": "Samsara ( NYSE : IOT ) Insider Sells $4 , 583 , 700 . 36 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-4583700-36-in-stock.html",
-      "ticker": "IOT",
+      "title": "ADP Q2 Deep Dive : AI Integration , International Wins , and Productivity Gains Shape Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/adp-q2-deep-dive-ai-042922021.html",
+      "ticker": "ADP",
       "themes": [
-        "stock"
+        "ai"
       ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Sanjit Biswas Sells 57 , 090 Shares of Samsara ( NYSE : IOT ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/sanjit-biswas-sells-57090-shares-of-samsara-nyseiot-stock.html",
-      "ticker": "IOT",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Samsara ( NYSE : IOT ) Insider Sells 87 , 079 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/06/samsara-nyseiot-insider-sells-87079-shares-of-stock.html",
-      "ticker": "IOT",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Samsara ( NYSE : IOT ) CEO Sells 119 , 477 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/06/samsara-nyseiot-ceo-sells-119477-shares.html",
-      "ticker": "IOT",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fcf-q2-deep-dive-loan-112522269.html",
-      "ticker": "FCF",
-      "themes": [],
       "date": "2026-08-04"
-    },
-    {
-      "title": "Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price",
-      "url": "https://www.themarketsdaily.com/2026/08/01/keefe-bruyette-woods-issues-positive-forecast-for-first-commonwealth-financial-nysefcf-stock-price.html",
-      "ticker": "FCF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-01"
     }
   ],
-  "signals_count": 1635,
+  "signals_count": 1621,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
