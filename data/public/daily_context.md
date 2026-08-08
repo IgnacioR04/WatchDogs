@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T08:18:28+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T09:15:42+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64925.36 (0.07% / 2.31% / 0.36%) [2026-08-08]
+- BTC-USD: 64971.52 (0.14% / 2.38% / 0.43%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (4), leadership (2), regulatory (2), ai (1)
+**Temas dominantes**: stock (7), earnings (3), leadership (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SVV] Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock (2026-08-08)
-- [SVV] Savers Value Village ( NYSE : SVV ) CEO Sells 7 , 941 Shares (2026-08-08)
-- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
-- [SVV] Savers Value Village launches AI pricing tool ThriftIQ (2026-08-07)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [SVV] Savers Value Village ( NYSE : SVV ) Announces Quarterly Earnings Results (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
-- [SVV] Savers Value Village ( NYSE : SVV ) General Counsel Sells $104 , 800 . 00 in Stock (2026-08-04)
-- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
+- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
+- [GFF] Griffon Corporation ( NYSE : GFF ) Plans $0 . 22 Quarterly Dividend (2026-08-05)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
+- [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,9 +144,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - SDTrading · PnL $45,778 · win rate 93% · categorias: sports
-- quavoo · PnL $174,187 · win rate 82% · categorias: sports, politics, economy
-- TAIWANNUMBERONE · PnL $38,817 · win rate 91% · categorias: sports, politics
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $13,203 · win rate 98% · categorias: sports, crypto
+- quavoo · PnL $175,651 · win rate 82% · categorias: sports, politics, economy
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,027 · win rate 98% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $32,366 · win rate 91% · categorias: sports, politics
 - 0x0x23kjookhaiuohduoayh8c9 · PnL $18,569 · win rate 95% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
