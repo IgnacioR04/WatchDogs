@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-08T16:04:10+00:00 -->
+<!-- trader_prompt.md generado 2026-08-08T17:07:30+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T16:04:10+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T17:07:30+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65048.15 (0.26% / 2.5% / 0.55%) [2026-08-08]
+- BTC-USD: 65029.69 (0.23% / 2.47% / 0.52%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,20 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), leadership (3), earnings (3), ai (1), regulatory (1)
+**Temas dominantes**: stock (10), leadership (4), earnings (4), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
 - [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
 - [SVV] Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock (2026-08-08)
 - [SVV] Savers Value Village ( NYSE : SVV ) CEO Sells 7 , 941 Shares (2026-08-08)
 - [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
 - [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
 - [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
 - [SVV] Savers Value Village launches AI pricing tool ThriftIQ (2026-08-07)
 - [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
-- [SVV] Savers Value Village ( NYSE : SVV ) Announces Quarterly Earnings Results (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $68,162 · win rate 91% · categorias: sports, politics
-- SDTrading · PnL $45,080 · win rate 93% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $18,611 · win rate 98% · categorias: sports, crypto
-- quavoo · PnL $170,622 · win rate 83% · categorias: sports, politics, economy
-- Spicer · PnL $59,249 · win rate 98% · categorias: sports
+- TAIWANNUMBERONE · PnL $67,895 · win rate 91% · categorias: sports, politics
+- SDTrading · PnL $44,119 · win rate 93% · categorias: sports
+- Spicer · PnL $67,095 · win rate 98% · categorias: sports
+- quavoo · PnL $173,448 · win rate 83% · categorias: sports, politics, economy
+- 0b1 · PnL $31,306 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
