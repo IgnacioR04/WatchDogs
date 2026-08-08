@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T09:15:42+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T10:11:41+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64971.52 (0.14% / 2.38% / 0.43%) [2026-08-08]
+- BTC-USD: 64967.67 (0.13% / 2.37% / 0.43%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,7 +115,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (3), leadership (2), regulatory (1), merger (1)
+**Temas dominantes**: stock (5), earnings (3), leadership (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -144,10 +144,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - SDTrading · PnL $45,778 · win rate 93% · categorias: sports
-- quavoo · PnL $175,651 · win rate 82% · categorias: sports, politics, economy
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,027 · win rate 98% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $32,366 · win rate 91% · categorias: sports, politics
+- quavoo · PnL $175,657 · win rate 82% · categorias: sports, politics, economy
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $12,518 · win rate 98% · categorias: sports, crypto
 - 0x0x23kjookhaiuohduoayh8c9 · PnL $18,569 · win rate 95% · categorias: sports, crypto
+- 0b1 · PnL $28,462 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
