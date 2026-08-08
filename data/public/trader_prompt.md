@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-08T11:08:54+00:00 -->
+<!-- trader_prompt.md generado 2026-08-08T11:58:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T11:08:54+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T11:58:07+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64964.56 (0.13% / 2.37% / 0.42%) [2026-08-08]
+- BTC-USD: 64926.75 (0.07% / 2.31% / 0.36%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,20 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), leadership (2), earnings (2), ai (1), regulatory (1), merger (1)
+**Temas dominantes**: stock (10), earnings (6), leadership (4), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [TMO] Is Micron Stock Too Cheap to Ignore ? | The Motley Fool (2026-08-08)
+- [TMO] $10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . (2026-08-08)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
 - [SVV] Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock (2026-08-08)
 - [SVV] Savers Value Village ( NYSE : SVV ) CEO Sells 7 , 941 Shares (2026-08-08)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
 - [SVV] Savers Value Village launches AI pricing tool ThriftIQ (2026-08-07)
-- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
 - [SVV] Savers Value Village ( NYSE : SVV ) Announces Quarterly Earnings Results (2026-08-07)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
+- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $45,802 · win rate 93% · categorias: sports
-- quavoo · PnL $175,592 · win rate 82% · categorias: sports, politics, economy
-- TAIWANNUMBERONE · PnL $33,381 · win rate 91% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $67,181 · win rate 91% · categorias: sports, politics
+- SDTrading · PnL $45,767 · win rate 93% · categorias: sports
+- quavoo · PnL $175,240 · win rate 82% · categorias: sports, politics, economy
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $15,010 · win rate 98% · categorias: sports, crypto
 - 0x0x23kjookhaiuohduoayh8c9 · PnL $18,569 · win rate 95% · categorias: sports, crypto
-- 0b1 · PnL $28,462 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
