@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-08T22:02:00.501891+00:00",
+  "generated_at": "2026-08-08T23:01:27.379806+00:00",
   "window": {
     "from": "2026-07-09",
     "to": "2026-08-08",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
       "leadership",
-      "earnings"
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -100,7 +100,11 @@
       "event_date": "2026-08-05",
       "importance_score": 87.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -136,7 +140,11 @@
       "event_date": "2026-08-05",
       "importance_score": 85.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -172,7 +180,11 @@
       "event_date": "2026-08-05",
       "importance_score": 84.1,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -208,7 +220,11 @@
       "event_date": "2026-08-05",
       "importance_score": 83.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -280,7 +296,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -298,10 +318,7 @@
       "event_date": "2026-08-05",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_365247514833",
-        "news_937283989249"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1466453/000146645326000030/"
     },
     {
@@ -319,7 +336,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -373,7 +394,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_621262856093",
+        "news_231688337255",
+        "news_13827626053"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -1226,9 +1251,19 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 105783.13,
+        "win_rate": 0.9306,
+        "volume": 353104.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x0afa7be11f",
         "username": "123412341234",
-        "pnl": 29155.9,
+        "pnl": 29306.67,
         "win_rate": 0.984,
         "volume": 186101.54,
         "categories": [
@@ -1239,30 +1274,20 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 68012.98,
+        "pnl": 68046.15,
         "win_rate": 0.9116,
-        "volume": 293934.44,
+        "volume": 294553.9,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 47933.94,
-        "win_rate": 0.9303,
-        "volume": 353104.51,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 172252.35,
+        "pnl": 161613.71,
         "win_rate": 0.832,
-        "volume": 204029.9,
+        "volume": 269845.08,
         "categories": [
           "sports",
           "politics",
@@ -1270,22 +1295,22 @@
         ]
       },
       {
-        "wallet": "0x9bb1bc70c9",
-        "username": "0b1",
-        "pnl": 27411.59,
-        "win_rate": 0.9592,
-        "volume": 458767.72,
+        "wallet": "0x9c3ce009c9",
+        "username": "0x0x23kjookhaiuohduoayh8c9",
+        "pnl": 27388.91,
+        "win_rate": 0.9484,
+        "volume": 31281.09,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x9c3ce009c9",
-        "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 23459.03,
-        "win_rate": 0.9482,
-        "volume": 31218.47,
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 43744.35,
+        "win_rate": 0.9145,
+        "volume": 713815.76,
         "categories": [
           "sports",
           "crypto"
@@ -1304,9 +1329,9 @@
       {
         "wallet": "0x4a1a27c4af",
         "username": "",
-        "pnl": 70405.34,
-        "win_rate": 0.8631,
-        "volume": 857796.36,
+        "pnl": 72020.36,
+        "win_rate": 0.8647,
+        "volume": 876473.91,
         "categories": [
           "sports",
           "politics",
@@ -1317,31 +1342,30 @@
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
         "pnl": 36031.25,
-        "win_rate": 0.8966,
+        "win_rate": 0.8983,
         "volume": 197669.11,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 27697.08,
-        "win_rate": 0.9145,
-        "volume": 634730.38,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 34551.51,
+        "win_rate": 0.8498,
+        "volume": 45451.1,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 38254.75,
-        "win_rate": 0.654,
-        "volume": 6928110.77,
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 222712.41,
+        "win_rate": 0.4694,
+        "volume": 1294169.82,
         "categories": [
           "sports"
         ]
@@ -1349,7 +1373,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 83258.44,
+        "pnl": 81520.11,
         "win_rate": 0.4878,
         "volume": 1129616.95,
         "categories": [
@@ -1358,11 +1382,21 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 61217.81,
-        "win_rate": 0.536,
-        "volume": 3265917.31,
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 237900.95,
+        "win_rate": 0.4716,
+        "volume": 1056403.88,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 25779.72,
+        "win_rate": 0.586,
+        "volume": 4951872.91,
         "categories": [
           "sports"
         ]
@@ -1370,7 +1404,7 @@
       {
         "wallet": "0x67273092ba",
         "username": "oneAce",
-        "pnl": 204487.02,
+        "pnl": 204523.91,
         "win_rate": 0.2885,
         "volume": 1117625.07,
         "categories": [
@@ -1381,9 +1415,9 @@
       {
         "wallet": "0x0c0e270cf8",
         "username": "The Spirit of Ukraine>UMA",
-        "pnl": 29406.66,
+        "pnl": 29360.31,
         "win_rate": 0.66,
-        "volume": 653861.32,
+        "volume": 654150.54,
         "categories": [
           "politics",
           "crypto",
@@ -1391,87 +1425,52 @@
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 43744.35,
+        "win_rate": 0.9145,
+        "volume": 713815.76,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 88500.28,
-        "win_rate": 0.513,
-        "volume": 841262.78,
+        "pnl": 89731.64,
+        "win_rate": 0.514,
+        "volume": 850980.85,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 27697.08,
-        "win_rate": 0.9145,
-        "volume": 634730.38,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x9bb1bc70c9",
-        "username": "0b1",
-        "pnl": 27411.59,
-        "win_rate": 0.9592,
-        "volume": 458767.72,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 143001.16,
-        "win_rate": 0.662,
-        "volume": 817390.57,
+        "pnl": 101596.87,
+        "win_rate": 0.661,
+        "volume": 836023.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4be1fa92e6",
-        "username": "Eztennis",
-        "pnl": 42966.03,
-        "win_rate": 0.622,
-        "volume": 211305.76,
+        "wallet": "0x4a1a27c4af",
+        "username": "",
+        "pnl": 72020.36,
+        "win_rate": 0.8647,
+        "volume": 876473.91,
         "categories": [
           "sports",
-          "crypto",
-          "politics"
+          "politics",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Four Savers Value Village Insiders Sold This Week . Here What to Make of It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/four-savers-value-village-insiders-184642972.html",
-      "ticker": "SVV",
-      "themes": [],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "Savers Value Village CFO Cashed In Options Struck at $7 . 11 . Here What to Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/savers-value-villages-cfo-cashed-180637324.html",
-      "ticker": "SVV",
-      "themes": [],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/savers-value-villages-u-sales-174639083.html",
-      "ticker": "SVV",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-08"
-    },
     {
       "title": "Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares",
       "url": "https://www.themarketsdaily.com/2026/08/08/circle-internet-group-nysecrcl-director-danita-ostling-sells-20000-shares.html",
@@ -1482,13 +1481,58 @@
       "date": "2026-08-08"
     },
     {
-      "title": "Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/08/savers-value-village-nysesvv-cfo-sells-613318-86-in-stock.html",
-      "ticker": "SVV",
+      "title": "Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler",
+      "url": "https://www.dailypolitical.com/2026/08/08/arista-networks-anet-overweight-rating-reiterated-at-piper-sandler.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13534536/insider-selling-arista-networks-nyseanet-major-shareholder-sells-300000-shares-of-stock.html",
+      "ticker": "ANET",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-08"
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13534532/griffon-nysegff-ceo-ronald-kramer-sells-100000-shares.html",
+      "ticker": "GFF",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
+      "ticker": "ANET",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Ethan Allen CEO Defends Leadership After Activist Challenge",
+      "url": "https://www.livemint.com/companies/ethan-allen-ceo-defends-leadership-after-activist-challenge-11786129304607.html",
+      "ticker": "ETD",
+      "themes": [
+        "leadership"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-07"
     },
     {
       "title": "Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock",
@@ -1500,40 +1544,36 @@
       "date": "2026-08-07"
     },
     {
-      "title": "FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-clear-secure-nyseyou-reports-strong-q2-cy2026-stock-soars",
-      "ticker": "YOU",
+      "title": "Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results",
+      "url": "https://www.tickerreport.com/banking-finance/13531539/griffon-nysegff-issues-quarterly-earnings-results.html",
+      "ticker": "GFF",
       "themes": [
-        "regulatory",
-        "stock"
+        "earnings"
       ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron",
+      "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/ethan-allen-confirms-receipt-of-director-nominations-from-doug-bergeron/2399487",
+      "ticker": "ETD",
+      "themes": [],
       "date": "2026-08-05"
     },
     {
-      "title": "FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-clear-secure-you-reports-earnings-tomorrow-what-to-expect",
-      "ticker": "YOU",
+      "title": "Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/07/31/ethan-allen-interiors-nyseetd-announces-quarterly-earnings-results.html",
+      "ticker": "ETD",
       "themes": [
-        "earnings",
-        "regulatory"
+        "earnings"
       ],
-      "date": "2026-08-04"
+      "date": "2026-07-31"
     },
     {
-      "title": "Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13521385/insider-selling-acres-commercial-realty-nyseacr-major-shareholder-sells-1389-shares-of-stock.html",
-      "ticker": "ACR",
+      "title": "Ethan Allen Interiors Q4 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/07/30/ethan-allen-interiors-q4-earnings-call-highlights.html",
+      "ticker": "ETD",
       "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/30/acres-commercial-realty-nyseacr-major-shareholder-sells-2212-shares-of-stock.html",
-      "ticker": "ACR",
-      "themes": [
-        "stock"
+        "earnings"
       ],
       "date": "2026-07-30"
     }

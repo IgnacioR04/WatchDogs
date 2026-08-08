@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-08T22:02:56+00:00 -->
+<!-- trader_prompt.md generado 2026-08-08T23:02:19+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -227,7 +227,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T22:02:56+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T23:02:19+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -327,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64960.91 (0.12% / 2.36% / 0.42%) [2026-08-08]
+- BTC-USD: 64890.0 (0.02% / 2.25% / 0.31%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -342,20 +342,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), regulatory (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (5), leadership (3), earnings (3), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SVV] Four Savers Value Village Insiders Sold This Week . Here What to Make of It (2026-08-08)
-- [SVV] Savers Value Village CFO Cashed In Options Struck at $7 . 11 . Here What to Know (2026-08-08)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [SVV] Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock (2026-08-08)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
-- [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
-- [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
+- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 123412341234 · PnL $29,156 · win rate 98% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $68,013 · win rate 91% · categorias: sports, politics
-- SDTrading · PnL $47,934 · win rate 93% · categorias: sports
-- quavoo · PnL $172,252 · win rate 83% · categorias: sports, politics, economy
-- 0b1 · PnL $27,412 · win rate 96% · categorias: sports, crypto
+- SDTrading · PnL $105,783 · win rate 93% · categorias: sports
+- 123412341234 · PnL $29,307 · win rate 98% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $68,046 · win rate 91% · categorias: sports, politics
+- quavoo · PnL $161,614 · win rate 83% · categorias: sports, politics, economy
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $27,389 · win rate 95% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
