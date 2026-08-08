@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-07T23:09:01.637079+00:00",
+  "generated_at": "2026-08-08T00:04:27.443212+00:00",
   "window": {
-    "from": "2026-07-08",
-    "to": "2026-08-07",
+    "from": "2026-07-09",
+    "to": "2026-08-08",
     "days": 30
   },
   "data_quality": {
@@ -24,8 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
-      "regulatory"
+      "leadership",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -99,10 +99,7 @@
       "event_date": "2026-08-05",
       "importance_score": 87.5,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -138,15 +135,48 @@
       "event_date": "2026-08-05",
       "importance_score": 85.5,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
       "id": "move_7",
       "rank": 7,
+      "title": "CEO vendio DNTH ($11.2M)",
+      "summary": "CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Garcia Marino",
+      "actor_type": "ceo",
+      "ticker": "DNTH",
+      "direction": "sell",
+      "amount_estimated": 11237664.36,
+      "event_date": "2026-08-07",
+      "importance_score": 84.9,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1669866/000166986626000010/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "10% owner vendio MDLN ($60.7M)",
+      "summary": "10% owner GIC Private Ltd vendio MDLN por $60.7M el 2026-08-05 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "GIC Private Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "MDLN",
+      "direction": "sell",
+      "amount_estimated": 60668762.22,
+      "event_date": "2026-08-05",
+      "importance_score": 84.5,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/936828/000119312526340273/"
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO vendio ANET ($16.1M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $16.1M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -159,15 +189,12 @@
       "event_date": "2026-08-05",
       "importance_score": 84.1,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO opero XPO ($33.9M)",
       "summary": "CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.",
       "source": "sec_form_4",
@@ -184,26 +211,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1534839/000153483926000003/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio DNTH ($11.2M)",
-      "summary": "CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Garcia Marino",
-      "actor_type": "ceo",
-      "ticker": "DNTH",
-      "direction": "sell",
-      "amount_estimated": 11237664.36,
-      "event_date": "2026-08-07",
-      "importance_score": 83.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1669866/000166986626000010/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "10% owner compro ATTO ($5.1M)",
       "summary": "10% owner Sanofi compro ATTO por $5.1M el 2026-08-06.",
       "source": "sec_form_4",
@@ -220,24 +229,6 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312526340173/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "10% owner vendio MDLN ($60.7M)",
-      "summary": "10% owner GIC Private Ltd vendio MDLN por $60.7M el 2026-08-05.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "GIC Private Ltd",
-      "actor_type": "ten_percent_owner",
-      "ticker": "MDLN",
-      "direction": "sell",
-      "amount_estimated": 60668762.22,
-      "event_date": "2026-08-05",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/936828/000119312526340273/"
-    },
-    {
       "id": "move_12",
       "rank": 12,
       "title": "CEO vendio ANET ($10.9M)",
@@ -252,10 +243,7 @@
       "event_date": "2026-08-05",
       "importance_score": 83.3,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -327,10 +315,7 @@
       "event_date": "2026-08-05",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -366,10 +351,7 @@
       "event_date": "2026-08-05",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_143140063807",
-        "news_911720124483"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1466453/000146645326000030/"
     },
     {
@@ -387,10 +369,7 @@
       "event_date": "2026-08-05",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_547762071358",
-        "news_749074409870"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -480,20 +459,19 @@
         ]
       },
       {
+        "ticker": "WOLF",
+        "company": "WOLFSPEED, INC.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "APCX",
         "company": "AppTech Payments Corp.",
         "pressure_score": 199.1,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HON",
-        "company": "HONEYWELL INTERNATIONAL INC",
-        "pressure_score": 186.8,
-        "sources": [
-          "congress",
-          "large_holder"
         ]
       },
       {
@@ -582,14 +560,6 @@
         ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 742.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 712.3,
@@ -599,10 +569,11 @@
       },
       {
         "ticker": "DNTH",
-        "company": "Dianthus Therapeutics, Inc. /DE/",
-        "pressure_score": 546.9,
+        "company": "DIANTHUS THERAPEUTICS INC",
+        "pressure_score": 555.7,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -630,6 +601,22 @@
         ]
       },
       {
+        "ticker": "MORN",
+        "company": "Morningstar, Inc.",
+        "pressure_score": 435.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "S",
+        "company": "SentinelOne, Inc.",
+        "pressure_score": 369.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 357.6,
@@ -651,14 +638,6 @@
         "pressure_score": 352.4,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "KLTR",
-        "company": "KALTURA INC",
-        "pressure_score": 339.1,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ]
@@ -699,6 +678,15 @@
       "amount": 1499994.0,
       "date": "2026-08-07",
       "score": 83.2
+    },
+    {
+      "ticker": "CCB",
+      "company": "COASTAL FINANCIAL CORP",
+      "actor": "Sprink Eric M",
+      "actor_type": "ceo",
+      "amount": 444500.0,
+      "date": "2026-08-06",
+      "score": 80.6
     },
     {
       "ticker": "BRVE",
@@ -789,15 +777,6 @@
       "amount": 525675.0,
       "date": "2026-08-05",
       "score": 74.5
-    },
-    {
-      "ticker": "AAT",
-      "company": "American Assets Trust, Inc.",
-      "actor": "RADY ERNEST S",
-      "actor_type": "ten_percent_owner",
-      "amount": 69120.0,
-      "date": "2026-08-05",
-      "score": 72.5
     }
   ],
   "institutional_changes": [
@@ -1133,15 +1112,6 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "First Finance Ltd.",
-      "company": "CLEARONE INC",
-      "ticker": "CLRO",
-      "ownership_pct": 61.3,
-      "shares": 1641162,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1149,15 +1119,6 @@
       "shares": 1382303,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-07"
-    },
-    {
-      "filer": "Ng Chen Lok",
-      "company": "SAGTEC GLOBAL LIMITED",
-      "ticker": "SAGT",
-      "ownership_pct": 41.78,
-      "shares": 8752600,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
     },
     {
       "filer": "Walmart Inc.",
@@ -1187,13 +1148,13 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "Canada Pension Plan Investment Board",
-      "company": "ReNew Energy Global plc",
-      "ticker": "",
-      "ownership_pct": 34.4,
-      "shares": 88846844,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
+      "filer": "OPKO HEALTH, INC.",
+      "company": "Cocrystal Pharma, Inc.",
+      "ticker": "COCP",
+      "ownership_pct": 29.6,
+      "shares": 5692916,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-07"
     },
     {
       "filer": "Nippon Life Insurance Company",
@@ -1223,20 +1184,38 @@
       "date": "2026-08-07"
     },
     {
-      "filer": "Cambridge Equities, LP",
-      "company": "ImmunityBio, Inc.",
-      "ticker": "IBRX",
-      "ownership_pct": 24.7,
-      "shares": 261705814,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-06"
-    },
-    {
       "filer": "Sit Investment Associates, Inc.",
       "company": "DWS Municipal Income Trust",
       "ticker": "KTF",
       "ownership_pct": 24.1,
       "shares": 9432271,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Rithm Capital Corp.",
+      "company": "Rithm Property Trust Inc.",
+      "ticker": "",
+      "ownership_pct": 17.1,
+      "shares": 1447680,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "L.I.A. Pure Capital Ltd.",
+      "company": "Evogene Ltd.",
+      "ticker": "EVGN",
+      "ownership_pct": 15.98,
+      "shares": 2524400,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "GEN IV INVESTMENT OPPORTUNITIES, LLC",
+      "company": "Battalion Oil Corporation",
+      "ticker": "BATL",
+      "ownership_pct": 14.14,
+      "shares": 3494258,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-07"
     }
@@ -1246,9 +1225,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 79389.25,
+        "pnl": 79665.77,
         "win_rate": 0.9134,
-        "volume": 267196.83,
+        "volume": 287631.83,
         "categories": [
           "sports",
           "politics"
@@ -1258,7 +1237,7 @@
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
         "pnl": 50835.97,
-        "win_rate": 0.902,
+        "win_rate": 0.9038,
         "volume": 203226.97,
         "categories": [
           "sports"
@@ -1275,21 +1254,11 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 32596.99,
-        "win_rate": 0.9178,
-        "volume": 936.15,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 36841.25,
+        "pnl": 37436.88,
         "win_rate": 0.9062,
-        "volume": 258798.51,
+        "volume": 346052.33,
         "categories": [
           "sports"
         ]
@@ -1297,13 +1266,23 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 138709.98,
-        "win_rate": 0.816,
-        "volume": 996995.89,
+        "pnl": 140184.25,
+        "win_rate": 0.815,
+        "volume": 1119530.89,
         "categories": [
           "sports",
           "politics",
           "economy"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 29165.69,
+        "win_rate": 0.9178,
+        "volume": 936.15,
+        "categories": [
+          "crypto"
         ]
       },
       {
@@ -1312,6 +1291,16 @@
         "pnl": 21121.96,
         "win_rate": 0.9365,
         "volume": 70598.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5dd9da6e5e",
+        "username": "",
+        "pnl": 56167.97,
+        "win_rate": 0.9706,
+        "volume": 114695.51,
         "categories": [
           "sports"
         ]
@@ -1329,19 +1318,9 @@
       {
         "wallet": "0xd38ad20037",
         "username": "johnny234",
-        "pnl": 22072.54,
+        "pnl": 22005.89,
         "win_rate": 0.8486,
-        "volume": 135061.2,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x38337de21f",
-        "username": "SineNooneEI",
-        "pnl": 53583.32,
-        "win_rate": 0.7753,
-        "volume": 222335.58,
+        "volume": 148394.54,
         "categories": [
           "sports"
         ]
@@ -1351,9 +1330,9 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 96553.78,
+        "pnl": 96492.53,
         "win_rate": 0.4859,
-        "volume": 4270800.84,
+        "volume": 4270814.82,
         "categories": [
           "sports",
           "crypto"
@@ -1362,9 +1341,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 145143.37,
-        "win_rate": 0.62,
-        "volume": 5541592.6,
+        "pnl": 207765.01,
+        "win_rate": 0.621,
+        "volume": 5754003.9,
         "categories": [
           "sports"
         ]
@@ -1372,9 +1351,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 150576.87,
+        "pnl": 153544.69,
         "win_rate": 0.499,
-        "volume": 1189646.27,
+        "volume": 1324861.1,
         "categories": [
           "sports"
         ]
@@ -1382,9 +1361,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 60518.67,
-        "win_rate": 0.572,
-        "volume": 3734941.5,
+        "pnl": 55772.94,
+        "win_rate": 0.574,
+        "volume": 3834804.52,
         "categories": [
           "sports",
           "economy"
@@ -1393,9 +1372,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 127330.26,
+        "pnl": 121735.64,
         "win_rate": 0.544,
-        "volume": 2152658.05,
+        "volume": 2361824.67,
         "categories": [
           "sports"
         ]
@@ -1411,6 +1390,17 @@
         ]
       },
       {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 63137.88,
+        "win_rate": 0.7304,
+        "volume": 657388.36,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xc3acf5878a",
         "username": "mentionmarket",
         "pnl": 45000.0,
@@ -1421,34 +1411,21 @@
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 45697.84,
-        "win_rate": 0.7304,
-        "volume": 617064.04,
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 20216.87,
+        "win_rate": 0.502,
+        "volume": 669664.05,
         "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x9d84ce0306",
-        "username": "ImJustKen",
-        "pnl": 21039.69,
-        "win_rate": 0.591,
-        "volume": 488801.37,
-        "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       },
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 71328.24,
+        "pnl": 71271.02,
         "win_rate": 0.4674,
-        "volume": 231045.12,
+        "volume": 266011.91,
         "categories": [
           "sports"
         ]
@@ -1457,8 +1434,8 @@
   },
   "news": [
     {
-      "title": "Nationwide Boiler Program Puts Package Boilers in Stock for Faster Delivery",
-      "url": "https://www.contractormag.com:443/hydronics/news/55396716/nationwide-boiler-program-puts-package-boilers-in-stock-for-faster-delivery",
+      "title": "Magnite ( NASDAQ : MGNI ) Director Douglas Knopper Sells 37 , 337 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/magnite-nasdaqmgni-director-douglas-knopper-sells-37337-shares-of-stock.html",
       "ticker": "TMO",
       "themes": [
         "stock"
@@ -1466,90 +1443,69 @@
       "date": "2026-08-07"
     },
     {
-      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
-      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
-      "ticker": "ANET",
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
+      "ticker": "TMO",
       "themes": [
-        "regulatory"
+        "leadership",
+        "stock"
       ],
       "date": "2026-08-07"
     },
     {
-      "title": "Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results",
-      "url": "https://www.tickerreport.com/banking-finance/13531539/griffon-nysegff-issues-quarterly-earnings-results.html",
-      "ticker": "GFF",
+      "title": "Mark Schneyer Sells 14 , 292 Shares of ACADIA Pharmaceuticals ( NASDAQ : ACAD ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/mark-schneyer-sells-14292-shares-of-acadia-pharmaceuticals-nasdaqacad-stock.html",
+      "ticker": "TMO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Ethan Allen CEO Defends Leadership After Activist Challenge",
+      "url": "https://www.livemint.com/companies/ethan-allen-ceo-defends-leadership-after-activist-challenge-11786129304607.html",
+      "ticker": "ETD",
+      "themes": [
+        "leadership"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/circle-internet-group-nysecrcl-insider-sells-109886-32-in-stock.html",
+      "ticker": "CRCL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron",
+      "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/ethan-allen-confirms-receipt-of-director-nominations-from-doug-bergeron/2399487",
+      "ticker": "ETD",
+      "themes": [],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/07/31/ethan-allen-interiors-nyseetd-announces-quarterly-earnings-results.html",
+      "ticker": "ETD",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-06"
+      "date": "2026-07-31"
     },
     {
-      "title": "Charles Giancarlo Sells 8 , 000 Shares of Arista Networks ( NYSE : ANET ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/05/charles-giancarlo-sells-8000-shares-of-arista-networks-nyseanet-stock.html",
-      "ticker": "ANET",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Griffon Corporation ( NYSE : GFF ) Plans $0 . 22 Quarterly Dividend",
-      "url": "https://www.tickerreport.com/banking-finance/13531377/griffon-corporation-nysegff-plans-0-22-quarterly-dividend.html",
-      "ticker": "GFF",
+      "title": "Ethan Allen Interiors Q4 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/07/30/ethan-allen-interiors-q4-earnings-call-highlights.html",
+      "ticker": "ETD",
       "themes": [
         "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Griffon ( NYSE : GFF ) Releases Earnings Results , Beats Estimates By $0 . 17 EPS",
-      "url": "https://www.tickerreport.com/banking-finance/13531263/griffon-nysegff-releases-earnings-results-beats-estimates-by-0-17-eps.html",
-      "ticker": "GFF",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-clear-secure-nyseyou-reports-strong-q2-cy2026-stock-soars",
-      "ticker": "YOU",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-clear-secure-you-reports-earnings-tomorrow-what-to-expect",
-      "ticker": "YOU",
-      "themes": [
-        "earnings",
-        "regulatory"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13521385/insider-selling-acres-commercial-realty-nyseacr-major-shareholder-sells-1389-shares-of-stock.html",
-      "ticker": "ACR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-30"
-    },
-    {
-      "title": "ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/07/30/acres-commercial-realty-nyseacr-major-shareholder-sells-2212-shares-of-stock.html",
-      "ticker": "ACR",
-      "themes": [
-        "stock"
       ],
       "date": "2026-07-30"
     }
   ],
-  "signals_count": 1777,
+  "signals_count": 1784,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
