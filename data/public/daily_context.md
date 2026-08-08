@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T02:39:59+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-08T04:45:50+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -30,7 +30,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NMM | 7.4% | satellite | 79.35 | 0.4% | -1.75% | 4.75% |
 | LTH | 7.3% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
 | IEF | 6.2% | core | 93.17 | 0.24% | 0.58% | -0.15% |
-| CHRW | 4.0% | satellite | 149.35 | 1.83% | 1.09% | -22.82% |
+| CHRW | 4.0% | satellite | 149.35 | 1.83% | 1.1% | -22.82% |
 | DNTH | 4.0% | satellite | 108.92 | -0.91% | 1.87% | 11.6% |
 | SPCX | 2.1% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64886.38 (0.97% / 2.21% / 0.14%) [2026-08-08]
+- BTC-USD: 64995.6 (1.14% / 2.38% / 0.31%) [2026-08-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,18 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (2), leadership (1), ai (1)
+**Temas dominantes**: stock (7), leadership (3), earnings (3), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TMO] Big tech stocks storm back as AI fears fade and euphoria resumes (2026-08-08)
+- [SVV] Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock (2026-08-08)
+- [SVV] Savers Value Village ( NYSE : SVV ) CEO Sells 7 , 941 Shares (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
 - [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
 - [SVV] Savers Value Village launches AI pricing tool ThriftIQ (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 - [SVV] Savers Value Village ( NYSE : SVV ) Announces Quarterly Earnings Results (2026-08-07)
 - [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
-- [GFF] Griffon Corporation ( NYSE : GFF ) Plans $0 . 22 Quarterly Dividend (2026-08-05)
-- [SVV] Savers Value Village ( NYSE : SVV ) General Counsel Sells $104 , 800 . 00 in Stock (2026-08-04)
-- [SVV] Savers Value Village , Inc . ( NYSE : SVV ) Given Consensus Rating of  Moderate Buy  by Brokerages (2026-07-31)
-- [SVV] Financial Survey : Savers Value Village ( NYSE : SVV ) versus Superior Group of Companies ( NASDAQ : SGC ) (2026-07-26)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- quavoo · PnL $176,496 · win rate 82% · categorias: sports, politics, economy
-- TAIWANNUMBERONE · PnL $38,705 · win rate 91% · categorias: sports, politics
-- SDTrading · PnL $31,088 · win rate 93% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $14,867 · win rate 95% · categorias: sports, crypto
-- 0b1 · PnL $23,024 · win rate 95% · categorias: sports, crypto
+- SDTrading · PnL $43,889 · win rate 93% · categorias: sports
+- comon119 · PnL $15,566 · win rate 99% · categorias: sports, crypto, politics
+- quavoo · PnL $157,611 · win rate 83% · categorias: sports, politics, economy
+- TAIWANNUMBERONE · PnL $38,708 · win rate 91% · categorias: sports, politics
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $21,523 · win rate 95% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 

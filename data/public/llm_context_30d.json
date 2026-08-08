@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-08T02:38:56.764177+00:00",
+  "generated_at": "2026-08-08T04:44:38.101920+00:00",
   "window": {
     "from": "2026-07-09",
     "to": "2026-08-08",
@@ -23,10 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
       "stock",
       "leadership",
-      "ai"
+      "earnings",
+      "ai",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -100,7 +101,11 @@
       "event_date": "2026-08-05",
       "importance_score": 87.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -136,7 +141,11 @@
       "event_date": "2026-08-05",
       "importance_score": 85.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -172,7 +181,11 @@
       "event_date": "2026-08-05",
       "importance_score": 84.1,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -208,7 +221,11 @@
       "event_date": "2026-08-05",
       "importance_score": 83.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -280,7 +297,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -316,7 +337,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -370,7 +395,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_146616347278",
+        "news_674636034024",
+        "news_195352565088"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -1223,10 +1252,32 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 43888.54,
+        "win_rate": 0.9301,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc3c3b3ef30",
+        "username": "comon119",
+        "pnl": 15565.92,
+        "win_rate": 0.988,
+        "volume": 29537.5,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 176495.77,
-        "win_rate": 0.817,
+        "pnl": 157611.15,
+        "win_rate": 0.826,
         "volume": 3508.0,
         "categories": [
           "sports",
@@ -1237,29 +1288,19 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 38704.72,
-        "win_rate": 0.9134,
-        "volume": 18626.16,
+        "pnl": 38707.68,
+        "win_rate": 0.9138,
+        "volume": 18631.26,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 31088.41,
-        "win_rate": 0.9289,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x9c3ce009c9",
         "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 14867.35,
-        "win_rate": 0.9472,
+        "pnl": 21522.63,
+        "win_rate": 0.9481,
         "volume": 2777.93,
         "categories": [
           "sports",
@@ -1269,9 +1310,30 @@
       {
         "wallet": "0x9bb1bc70c9",
         "username": "0b1",
-        "pnl": 23023.79,
-        "win_rate": 0.9524,
+        "pnl": 28462.13,
+        "win_rate": 0.9556,
         "volume": 178434.57,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x161a7f666c",
+        "username": "torta.tech",
+        "pnl": 10566.71,
+        "win_rate": 0.955,
+        "volume": 101491.1,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x41d28673f6",
+        "username": "Shimi1234",
+        "pnl": 10263.74,
+        "win_rate": 0.9554,
+        "volume": 14835.84,
         "categories": [
           "sports",
           "crypto"
@@ -1280,7 +1342,7 @@
       {
         "wallet": "0xe6bff49939",
         "username": "CHACHA125655",
-        "pnl": 13712.03,
+        "pnl": 14331.09,
         "win_rate": 0.9196,
         "volume": 0.0,
         "categories": [
@@ -1290,39 +1352,9 @@
       {
         "wallet": "0xdd5ef115f8",
         "username": "Forecastication2",
-        "pnl": 12364.37,
+        "pnl": 13154.39,
         "win_rate": 0.916,
-        "volume": 4572.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8bfee7aeca",
-        "username": "tennischamp",
-        "pnl": 11834.16,
-        "win_rate": 0.894,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd65c32794",
-        "username": "NiNo999",
-        "pnl": 7039.56,
-        "win_rate": 0.8976,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 10773.37,
-        "win_rate": 0.8507,
-        "volume": 74406.92,
+        "volume": 5617.0,
         "categories": [
           "sports"
         ]
@@ -1330,9 +1362,31 @@
     ],
     "whales": [
       {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 101822.13,
+        "win_rate": 0.542,
+        "volume": 1429783.18,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 23433.55,
+        "win_rate": 0.657,
+        "volume": 371477.67,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 12584.79,
+        "pnl": 9007.01,
         "win_rate": 0.4877,
         "volume": 178522.69,
         "categories": [
@@ -1341,10 +1395,34 @@
         ]
       },
       {
+        "wallet": "0xabb89972b2",
+        "username": "Feromont",
+        "pnl": 12913.07,
+        "win_rate": 0.427,
+        "volume": 356546.83,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x2b59202747",
+        "username": "aHjCz",
+        "pnl": 10681.3,
+        "win_rate": 0.356,
+        "volume": 1110464.37,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x9bb1bc70c9",
         "username": "0b1",
-        "pnl": 23023.79,
-        "win_rate": 0.9524,
+        "pnl": 28462.13,
+        "win_rate": 0.9556,
         "volume": 178434.57,
         "categories": [
           "sports",
@@ -1354,29 +1432,9 @@
       {
         "wallet": "0xc8075693f4",
         "username": "texaskid",
-        "pnl": 99234.1,
-        "win_rate": 0.6672,
-        "volume": 124464.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 10773.37,
-        "win_rate": 0.8507,
-        "volume": 74406.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 8978.4,
-        "win_rate": 0.545,
-        "volume": 335712.75,
+        "pnl": 55049.91,
+        "win_rate": 0.6683,
+        "volume": 124545.35,
         "categories": [
           "sports"
         ]
@@ -1384,63 +1442,89 @@
       {
         "wallet": "0xcc32068e0d",
         "username": "0xcC32068E0D0b19790e3376Bc1751552ADccA92d2-1780947291040",
-        "pnl": 10987.44,
-        "win_rate": 0.6595,
-        "volume": 122339.05,
+        "pnl": 12217.55,
+        "win_rate": 0.6613,
+        "volume": 207173.81,
         "categories": [
           "sports",
           "economy"
         ]
       },
       {
+        "wallet": "0xd38ad20037",
+        "username": "johnny234",
+        "pnl": 11046.99,
+        "win_rate": 0.8475,
+        "volume": 97939.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xbca08c1bc2",
         "username": "1winstreak1",
-        "pnl": 7391.39,
-        "win_rate": 0.601,
-        "volume": 204923.41,
+        "pnl": 19864.31,
+        "win_rate": 0.594,
+        "volume": 408352.49,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 20784.83,
-        "win_rate": 0.7391,
-        "volume": 67980.58,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 76839.19,
-        "win_rate": 0.659,
-        "volume": 104960.81,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0f35109cc3",
-        "username": "",
-        "pnl": 27254.64,
-        "win_rate": 0.5027,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
+      "title": "Big tech stocks storm back as AI fears fade and euphoria resumes",
+      "url": "https://www.moneycontrol.com/news/business/big-tech-stocks-storm-back-as-ai-fears-fade-and-euphoria-resumes-13998467.html",
+      "ticker": "TMO",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Savers Value Village ( NYSE : SVV ) CFO Sells $613 , 318 . 86 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/08/savers-value-village-nysesvv-cfo-sells-613318-86-in-stock.html",
+      "ticker": "SVV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Savers Value Village ( NYSE : SVV ) CEO Sells 7 , 941 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/08/savers-value-village-nysesvv-ceo-sells-7941-shares.html",
+      "ticker": "SVV",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13534536/insider-selling-arista-networks-nyseanet-major-shareholder-sells-300000-shares-of-stock.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
       "title": "Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares",
       "url": "https://www.tickerreport.com/banking-finance/13534532/griffon-nysegff-ceo-ronald-kramer-sells-100000-shares.html",
       "ticker": "GFF",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
+      "ticker": "ANET",
       "themes": [
         "leadership",
         "stock"
@@ -1453,6 +1537,15 @@
       "ticker": "SVV",
       "themes": [
         "ai"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "regulatory"
       ],
       "date": "2026-08-07"
     },
@@ -1498,13 +1591,6 @@
       "ticker": "SVV",
       "themes": [],
       "date": "2026-07-31"
-    },
-    {
-      "title": "Financial Survey : Savers Value Village ( NYSE : SVV ) versus Superior Group of Companies ( NASDAQ : SGC ) ",
-      "url": "https://www.themarketsdaily.com/2026/07/26/financial-survey-savers-value-village-nysesvv-versus-superior-group-of-companies-nasdaqsgc.html",
-      "ticker": "SVV",
-      "themes": [],
-      "date": "2026-07-26"
     }
   ],
   "signals_count": 1785,
