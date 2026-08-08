@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-08-08T14:13:47+00:00",
+  "generated_at": "2026-08-08T15:07:47+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "FWONK": 0.0878,
-    "NMM": 0.0737,
-    "LTH": 0.0726,
+    "GLD": 0.0933,
+    "FWONK": 0.0837,
+    "NMM": 0.0702,
+    "LTH": 0.0691,
     "IEF": 0.0622,
-    "CHRW": 0.04,
-    "DNTH": 0.0396,
-    "SPCX": 0.021
+    "CHRW": 0.0381,
+    "DNTH": 0.0377,
+    "SPCX": 0.02,
+    "WOLF": 0.0159
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0781,
-    "SPCX": 0.0187,
-    "NMM": 0.0655,
-    "DNTH": 0.0352,
-    "CHRW": 0.0356,
-    "LTH": 0.0645
+    "FWONK": 0.0744,
+    "WOLF": 0.0141,
+    "SPCX": 0.0178,
+    "NMM": 0.0624,
+    "DNTH": 0.0335,
+    "CHRW": 0.0339,
+    "LTH": 0.0614
   },
   "satellite_rationale": [
     {
@@ -40,6 +42,14 @@
         "congress"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "WOLF",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
     },
     {
       "ticker": "SPCX",
@@ -83,16 +93,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0841,
-    "var_95_1d": 0.0055,
+    "ann_vol": 0.0972,
+    "var_95_1d": 0.0065,
     "cvar_95_1d": 0.0075,
-    "max_drawdown": -0.0127,
-    "beta_spy": 0.458,
-    "hhi": 0.0778,
+    "max_drawdown": -0.0227,
+    "beta_spy": 0.552,
+    "hhi": 0.076,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.9,
-    "gross_exposure": 0.8501,
+    "n_positions": 12,
+    "effective_positions": 13.2,
+    "gross_exposure": 0.8502,
     "days_used": 38
   },
   "risk_gate": {

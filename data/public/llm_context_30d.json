@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-08T14:12:47.977981+00:00",
+  "generated_at": "2026-08-08T15:06:58.645613+00:00",
   "window": {
     "from": "2026-07-09",
     "to": "2026-08-08",
@@ -24,11 +24,10 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
       "leadership",
-      "regulatory",
+      "earnings",
       "ai",
-      "merger"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -36,42 +35,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO opero QUCY ($6.3B)",
-      "summary": "CEO Lazar David E. opero QUCY por $6.3B el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lazar David E.",
-      "actor_type": "ceo",
-      "ticker": "QUCY",
-      "direction": "other",
-      "amount_estimated": 6312937500.0,
-      "event_date": "2026-08-05",
-      "importance_score": 89.1,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1932843/000182912626008488/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
-      "title": "CEO opero QUCY ($81.0M)",
-      "summary": "CEO Lazar David E. opero QUCY por $81.0M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lazar David E.",
-      "actor_type": "ceo",
-      "ticker": "QUCY",
-      "direction": "other",
-      "amount_estimated": 81000000.0,
-      "event_date": "2026-08-05",
-      "importance_score": 88.6,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1932843/000182912626008488/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "10% owner compro BRVE ($34.6M)",
       "summary": "10% owner Forbion Growth Opportunities Fund III Cooperatief U.A. compro BRVE por $34.6M el 2026-08-07.",
       "source": "sec_form_4",
@@ -88,8 +51,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2050893/000119312526340528/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio ANET ($74.4M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -102,12 +65,16 @@
       "event_date": "2026-08-05",
       "importance_score": 87.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner compro BRVE ($30.2M)",
       "summary": "10% owner Forbion Growth Opportunities Fund III Cooperatief U.A. compro BRVE por $30.2M el 2026-08-07.",
       "source": "sec_form_4",
@@ -124,8 +91,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2050893/000119312526340528/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio ANET ($30.1M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $30.1M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -138,12 +105,16 @@
       "event_date": "2026-08-05",
       "importance_score": 85.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio DNTH ($11.2M)",
       "summary": "CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -156,16 +127,12 @@
       "event_date": "2026-08-07",
       "importance_score": 84.9,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_903059085482",
-        "news_671284604542",
-        "news_237541377625"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1669866/000166986626000010/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio ANET ($16.1M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $16.1M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -178,12 +145,16 @@
       "event_date": "2026-08-05",
       "importance_score": 84.1,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO opero XPO ($33.9M)",
       "summary": "CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.",
       "source": "sec_form_4",
@@ -200,8 +171,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1534839/000153483926000003/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio ANET ($10.9M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $10.9M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -214,12 +185,16 @@
       "event_date": "2026-08-05",
       "importance_score": 83.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro BRVE ($1.5M)",
       "summary": "CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.",
       "source": "sec_form_4",
@@ -236,8 +211,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1845681/000147083126000798/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO vendio LRCX ($9.0M)",
       "summary": "CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -254,8 +229,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1343600/000134360026000011/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio AGYS ($7.1M)",
       "summary": "CEO SRINIVASAN RAMESH vendio AGYS por $7.1M el 2026-08-06.",
       "source": "sec_form_4",
@@ -272,8 +247,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1277036/000119312526340549/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio ANET ($7.4M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $7.4M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -286,12 +261,16 @@
       "event_date": "2026-08-05",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO vendio YOU ($13.1M)",
       "summary": "CEO Seidman Becker Caryn vendio YOU por $13.1M el 2026-08-05.",
       "source": "sec_form_4",
@@ -304,15 +283,12 @@
       "event_date": "2026-08-05",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_334702766675",
-        "news_249018556341"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1466453/000146645326000030/"
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "CEO vendio ANET ($6.9M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $6.9M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -325,12 +301,16 @@
       "event_date": "2026-08-05",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "CEO vendio RPM ($12.4M)",
       "summary": "CEO SULLIVAN FRANK C vendio RPM por $12.4M el 2026-08-05.",
       "source": "sec_form_4",
@@ -347,8 +327,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1224025/000119312526340385/"
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "CEO opero RPM ($12.4M)",
       "summary": "CEO SULLIVAN FRANK C opero RPM por $12.4M el 2026-08-05.",
       "source": "sec_form_4",
@@ -365,8 +345,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1224025/000119312526340385/"
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "CEO vendio ANET ($6.5M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $6.5M el 2026-08-05 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -379,12 +359,16 @@
       "event_date": "2026-08-05",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "CEO vendio MRNA ($11.0M)",
       "summary": "CEO Bancel Stephane vendio MRNA por $11.0M el 2026-08-05.",
       "source": "sec_form_4",
@@ -399,6 +383,46 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "CEO opero TMO ($3.1M)",
+      "summary": "CEO CASPER MARC N opero TMO por $3.1M el 2026-08-06 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "CASPER MARC N",
+      "actor_type": "ceo",
+      "ticker": "TMO",
+      "direction": "other",
+      "amount_estimated": 3096300.0,
+      "event_date": "2026-08-06",
+      "importance_score": 82.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1216055/000121605526000007/"
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "CEO vendio ANET ($5.9M)",
+      "summary": "CEO Ullal Jayshree vendio ANET por $5.9M el 2026-08-05 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ullal Jayshree",
+      "actor_type": "ceo",
+      "ticker": "ANET",
+      "direction": "sell",
+      "amount_estimated": 5891287.46,
+      "event_date": "2026-08-05",
+      "importance_score": 82.0,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_353271348506",
+        "news_360603826201",
+        "news_71722420461"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     }
   ],
   "top_tickers": {
@@ -476,14 +500,6 @@
         ]
       },
       {
-        "ticker": "APCX",
-        "company": "AppTech Payments Corp.",
-        "pressure_score": 199.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BWXT",
         "company": "Stock",
         "pressure_score": 182.9,
@@ -520,6 +536,14 @@
         "ticker": "KR",
         "company": "Kroger Company",
         "pressure_score": 167.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "META",
+        "company": "Common Stock",
+        "pressure_score": 163.2,
         "sources": [
           "congress"
         ]
@@ -577,14 +601,6 @@
         ]
       },
       {
-        "ticker": "NTRA",
-        "company": "Natera, Inc.",
-        "pressure_score": 763.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 712.3,
@@ -634,17 +650,25 @@
         ]
       },
       {
-        "ticker": "S",
-        "company": "SentinelOne, Inc.",
-        "pressure_score": 369.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 357.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
         "sources": [
           "congress"
         ]
@@ -1234,20 +1258,31 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 68116.79,
-        "win_rate": 0.9114,
-        "volume": 269967.51,
+        "pnl": 68161.41,
+        "win_rate": 0.9116,
+        "volume": 270047.51,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0x6982049c65",
+        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
+        "pnl": 22284.19,
+        "win_rate": 0.98,
+        "volume": 180964.95,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 45801.71,
+        "pnl": 45742.57,
         "win_rate": 0.9303,
-        "volume": 0.0,
+        "volume": 7987.86,
         "categories": [
           "sports"
         ]
@@ -1255,9 +1290,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 175960.59,
-        "win_rate": 0.825,
-        "volume": 97645.72,
+        "pnl": 174290.71,
+        "win_rate": 0.826,
+        "volume": 154414.23,
         "categories": [
           "sports",
           "politics",
@@ -1267,7 +1302,7 @@
       {
         "wallet": "0x9bb1bc70c9",
         "username": "0b1",
-        "pnl": 30934.29,
+        "pnl": 31274.28,
         "win_rate": 0.9556,
         "volume": 241509.74,
         "categories": [
@@ -1276,31 +1311,31 @@
         ]
       },
       {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 21440.8,
+        "win_rate": 0.9385,
+        "volume": 182845.88,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x9c3ce009c9",
         "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 18569.12,
+        "pnl": 18570.12,
         "win_rate": 0.9481,
-        "volume": 2777.93,
+        "volume": 2979.61,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 17233.35,
-        "win_rate": 0.9375,
-        "volume": 167258.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x3954e1c6b7",
         "username": "Spicer",
-        "pnl": 52947.97,
-        "win_rate": 0.9722,
+        "pnl": 59433.52,
+        "win_rate": 0.973,
         "volume": 353019.92,
         "categories": [
           "sports"
@@ -1309,30 +1344,20 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 22997.29,
+        "pnl": 20139.82,
         "win_rate": 0.9136,
-        "volume": 182277.15,
+        "volume": 211439.24,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xdd5ef115f8",
-        "username": "Forecastication2",
-        "pnl": 16239.71,
-        "win_rate": 0.916,
-        "volume": 32648.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 19003.77,
+        "pnl": 23767.44,
         "win_rate": 0.8929,
-        "volume": 144097.02,
+        "volume": 161498.88,
         "categories": [
           "sports"
         ]
@@ -1340,33 +1365,22 @@
     ],
     "whales": [
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 33471.71,
-        "win_rate": 0.652,
-        "volume": 3509898.28,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 92720.72,
-        "win_rate": 0.659,
-        "volume": 995629.96,
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 84339.82,
+        "win_rate": 0.4878,
+        "volume": 1120815.31,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
+          "crypto"
         ]
       },
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 111571.15,
-        "win_rate": 0.537,
-        "volume": 1769754.7,
+        "pnl": 104664.67,
+        "win_rate": 0.538,
+        "volume": 1899758.09,
         "categories": [
           "sports"
         ]
@@ -1374,9 +1388,9 @@
       {
         "wallet": "0x0c0e270cf8",
         "username": "The Spirit of Ukraine>UMA",
-        "pnl": 16470.75,
+        "pnl": 17301.51,
         "win_rate": 0.66,
-        "volume": 628315.1,
+        "volume": 628553.01,
         "categories": [
           "politics",
           "crypto",
@@ -1384,21 +1398,21 @@
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "Lakersfan111",
-        "pnl": 79814.85,
-        "win_rate": 0.499,
-        "volume": 602182.38,
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 19843.63,
+        "win_rate": 0.552,
+        "volume": 1866010.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 17110.24,
-        "win_rate": 0.54,
-        "volume": 1602802.69,
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 79830.68,
+        "win_rate": 0.501,
+        "volume": 611996.32,
         "categories": [
           "sports"
         ]
@@ -1406,7 +1420,7 @@
       {
         "wallet": "0x1610db79f7",
         "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 51483.97,
+        "pnl": 51484.13,
         "win_rate": 0.651,
         "volume": 311388.56,
         "categories": [
@@ -1416,7 +1430,7 @@
       {
         "wallet": "0x9bb1bc70c9",
         "username": "0b1",
-        "pnl": 30934.29,
+        "pnl": 31274.28,
         "win_rate": 0.9556,
         "volume": 241509.74,
         "categories": [
@@ -1427,11 +1441,22 @@
       {
         "wallet": "0x3954e1c6b7",
         "username": "Spicer",
-        "pnl": 52947.97,
-        "win_rate": 0.9722,
+        "pnl": 59433.52,
+        "win_rate": 0.973,
         "volume": 353019.92,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 20139.82,
+        "win_rate": 0.9136,
+        "volume": 211439.24,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1448,22 +1473,19 @@
   },
   "news": [
     {
-      "title": "Truist Financial Issues Positive Forecast for Eli Lilly and Company ( NYSE : LLY ) Stock Price",
-      "url": "https://www.themarketsdaily.com/2026/08/08/truist-financial-issues-positive-forecast-for-eli-lilly-and-company-nyselly-stock-price.html",
-      "ticker": "TMO",
+      "title": "Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/08/circle-internet-group-nysecrcl-director-danita-ostling-sells-20000-shares.html",
+      "ticker": "CRCL",
       "themes": [
         "stock"
       ],
       "date": "2026-08-08"
     },
     {
-      "title": "Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/08/dianthus-therapeutics-nasdaqdnth-ceo-marino-garcia-sells-166000-shares.html",
-      "ticker": "DNTH",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
+      "title": "Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler",
+      "url": "https://www.dailypolitical.com/2026/08/08/arista-networks-anet-overweight-rating-reiterated-at-piper-sandler.html",
+      "ticker": "ANET",
+      "themes": [],
       "date": "2026-08-08"
     },
     {
@@ -1486,11 +1508,31 @@
       "date": "2026-08-08"
     },
     {
-      "title": "Ethan Allen CEO Defends Leadership After Activist Challenge",
-      "url": "https://www.livemint.com/companies/ethan-allen-ceo-defends-leadership-after-activist-challenge-11786129304607.html",
-      "ticker": "ETD",
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13534536/insider-selling-arista-networks-nyseanet-major-shareholder-sells-300000-shares-of-stock.html",
+      "ticker": "ANET",
       "themes": [
-        "leadership"
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13534532/griffon-nysegff-ceo-ronald-kramer-sells-100000-shares.html",
+      "ticker": "GFF",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
+      "ticker": "ANET",
+      "themes": [
+        "leadership",
+        "stock"
       ],
       "date": "2026-08-07"
     },
@@ -1504,6 +1546,24 @@
       "date": "2026-08-07"
     },
     {
+      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/circle-internet-group-nysecrcl-insider-sells-109886-32-in-stock.html",
+      "ticker": "CRCL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
       "title": "Savers Value Village ( NYSE : SVV ) Announces Quarterly Earnings Results",
       "url": "https://www.themarketsdaily.com/2026/08/07/savers-value-village-nysesvv-announces-quarterly-earnings-results.html",
       "ticker": "SVV",
@@ -1513,26 +1573,18 @@
       "date": "2026-08-07"
     },
     {
-      "title": "Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron",
-      "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/ethan-allen-confirms-receipt-of-director-nominations-from-doug-bergeron/2399487",
-      "ticker": "ETD",
-      "themes": [],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-clear-secure-nyseyou-reports-strong-q2-cy2026-stock-soars",
-      "ticker": "YOU",
+      "title": "Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results",
+      "url": "https://www.tickerreport.com/banking-finance/13531539/griffon-nysegff-issues-quarterly-earnings-results.html",
+      "ticker": "GFF",
       "themes": [
-        "regulatory",
-        "stock"
+        "earnings"
       ],
-      "date": "2026-08-05"
+      "date": "2026-08-06"
     },
     {
-      "title": "Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS",
-      "url": "https://www.dailypolitical.com/2026/08/04/dianthus-therapeutics-nasdaqdnth-releases-earnings-results-misses-estimates-by-0-05-eps.html",
-      "ticker": "DNTH",
+      "title": "Griffon Corporation ( NYSE : GFF ) Plans $0 . 22 Quarterly Dividend",
+      "url": "https://www.tickerreport.com/banking-finance/13531377/griffon-corporation-nysegff-plans-0-22-quarterly-dividend.html",
+      "ticker": "GFF",
       "themes": [
         "earnings"
       ],
@@ -1546,58 +1598,6 @@
         "stock"
       ],
       "date": "2026-08-04"
-    },
-    {
-      "title": "FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-clear-secure-you-reports-earnings-tomorrow-what-to-expect",
-      "ticker": "YOU",
-      "themes": [
-        "earnings",
-        "regulatory"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) ",
-      "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/dianthus-therapeutics-announces-inducement-grants-under-nasdaq-listing-rule-5635c4/2397532",
-      "ticker": "DNTH",
-      "themes": [],
-      "date": "2026-08-03"
-    },
-    {
-      "title": "DV Trading LLC Acquires Shares of 26 , 551 Dianthus Therapeutics , Inc . $DNTH",
-      "url": "https://www.themarketsdaily.com/2026/08/02/dv-trading-llc-acquires-shares-of-26551-dianthus-therapeutics-inc-dnth.html",
-      "ticker": "DNTH",
-      "themes": [
-        "merger",
-        "stock"
-      ],
-      "date": "2026-08-02"
-    },
-    {
-      "title": "Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results",
-      "url": "https://www.dailypolitical.com/2026/07/31/ethan-allen-interiors-nyseetd-announces-quarterly-earnings-results.html",
-      "ticker": "ETD",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-31"
-    },
-    {
-      "title": "Savers Value Village , Inc . ( NYSE : SVV ) Given Consensus Rating of  Moderate Buy  by Brokerages",
-      "url": "https://www.dailypolitical.com/2026/07/31/savers-value-village-inc-nysesvv-given-consensus-rating-of-moderate-buy-by-brokerages.html",
-      "ticker": "SVV",
-      "themes": [],
-      "date": "2026-07-31"
-    },
-    {
-      "title": "Ethan Allen Interiors Q4 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/07/30/ethan-allen-interiors-q4-earnings-call-highlights.html",
-      "ticker": "ETD",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-07-30"
     },
     {
       "title": "Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock",
@@ -1618,7 +1618,7 @@
       "date": "2026-07-30"
     }
   ],
-  "signals_count": 1785,
+  "signals_count": 1732,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
