@@ -2,7 +2,7 @@
 
 Status: **Proposed** for P1.1 review in issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6).
 
-Evidence base: `main` merge `4bdb8ee` on 2026-08-09, plus the P0 [current-state](CURRENT_STATE.md), [public-contract](PUBLIC_CONTRACT.md), [test-baseline](TEST_BASELINE.md), and [risk-register](RISK_REGISTER.md) inventories. This document defines the target boundaries; it does not claim that the database or V4 runtime exists yet.
+Evidence base: `main` commit `c90b4d2` (`c90b4d2ff9ac8e89606391835b60f6e71785ae0e`) on 2026-08-09, plus the P0 [current-state](CURRENT_STATE.md), [public-contract](PUBLIC_CONTRACT.md), [test-baseline](TEST_BASELINE.md), and [risk-register](RISK_REGISTER.md) inventories. That mainline includes the exact P0-document restoration in issue [#33](https://github.com/IgnacioR04/WatchDogs/issues/33)/PR [#35](https://github.com/IgnacioR04/WatchDogs/pull/35), the hourly-writer safety correction in issue [#34](https://github.com/IgnacioR04/WatchDogs/issues/34)/PR [#36](https://github.com/IgnacioR04/WatchDogs/pull/36), and the successful post-hardening [manual smoke run](https://github.com/IgnacioR04/WatchDogs/actions/runs/31317548954). This document defines the target boundaries; it does not claim that the database or V4 runtime exists yet.
 
 ## Scope and goals
 
