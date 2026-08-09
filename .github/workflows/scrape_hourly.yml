@@ -44,9 +44,21 @@ jobs:
     env:
       WATCHDOG_HISTORY_DIR: ${{ github.workspace }}/_ci_history
     steps:
+      - name: Require main branch
+        shell: bash
+        env:
+          WATCHDOG_GITHUB_REF: ${{ github.ref }}
+        run: |
+          set -euo pipefail
+          if [[ "$WATCHDOG_GITHUB_REF" != "refs/heads/main" ]]; then
+            echo "::error::Refusing to publish from $WATCHDOG_GITHUB_REF; expected refs/heads/main."
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0  # historico completo para que el rebase tenga ancestros
 
       - name: Setup Python
