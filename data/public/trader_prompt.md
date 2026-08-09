@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-09T21:41:48+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T22:03:14+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T21:08:32+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T22:03:14+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65083.67 (0.28% / 1.6% / -0.22%) [2026-08-09]
+- BTC-USD: 65206.52 (0.47% / 1.8% / -0.04%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), earnings (5), leadership (4), regulatory (2), ai (1)
+**Temas dominantes**: stock (15), leadership (4), earnings (3), ai (1), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
+- [TMO] Best Home Improvement Stocks To Consider – August 9th (2026-08-09)
+- [TMO] Promising Large Cap Stocks To Watch Today – August 9th (2026-08-09)
+- [TMO] Why MercadoLibre Stock Jumped 11 % in July (2026-08-09)
+- [TMO] Stocks on edge as GDP slows (2026-08-09)
 - [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
 - [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
 - [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
 - [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -373,10 +373,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $134,050 · win rate 98% · categorias: sports
-- SDTrading · PnL $120,271 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $124,290 · win rate 91% · categorias: sports
-- TAIWANNUMBERONE · PnL $87,777 · win rate 91% · categorias: sports, politics
-- ExplosiveNinja · PnL $22,067 · win rate 97% · categorias: sports
+- SDTrading · PnL $136,147 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $124,618 · win rate 91% · categorias: sports
+- Shori888 · PnL $28,887 · win rate 100% · categorias: sports
+- TAIWANNUMBERONE · PnL $89,787 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
