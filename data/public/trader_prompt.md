@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-09T12:02:43+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T12:56:10+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T12:02:43+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T12:56:10+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64881.26 (-0.04% / 1.29% / -0.53%) [2026-08-09]
+- BTC-USD: 64896.94 (-0.01% / 1.31% / -0.51%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,18 +344,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (2), leadership (2), ai (1), merger (1)
+**Temas dominantes**: stock (5), regulatory (2), earnings (2), leadership (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
-- [SVV] Four Savers Value Village Insiders Sold This Week . Here What to Make of It (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
+- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
 - [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
 - [DNTH] DV Trading LLC Acquires Shares of 26 , 551 Dianthus Therapeutics , Inc . $DNTH (2026-08-02)
 
@@ -372,10 +371,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $133,252 · win rate 93% · categorias: sports
-- WTSA · PnL $134,466 · win rate 98% · categorias: sports
+- SDTrading · PnL $133,088 · win rate 93% · categorias: sports
+- WTSA · PnL $134,393 · win rate 98% · categorias: sports
 - monkeymashingkeyboard · PnL $106,611 · win rate 91% · categorias: sports
-- MeiGuNiuBi · PnL $17,847 · win rate 90% · categorias: sports
+- MeiGuNiuBi · PnL $15,664 · win rate 90% · categorias: sports
 - five5120 · PnL $19,889 · win rate 86% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
