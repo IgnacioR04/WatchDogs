@@ -66,7 +66,7 @@ Each step failure is logged and the pipeline continues using existing artifacts.
 
 A global `watchdog-write-data` concurrency group serializes writers. `WATCHDOG_HISTORY_DIR` points to an ephemeral `_ci_history` directory, so deep history created during an Actions run is lost at runner teardown. `llm_response.txt` is versioned but is outside the workflow's commit pattern.
 
-The workflow has 16 data/intelligence build invocations rather than the 13 steps in `run_pipeline.py`: it additionally runs paper metrics and trader-prompt generation and invokes risk through the module CLI.
+The workflow has 15 Python data/intelligence invocations: the 13 logical steps represented by `run_pipeline.py` plus paper metrics and trader-prompt generation. Its module-CLI risk invocation is the workflow equivalent of the local risk runner, not a sixteenth logical step.
 
 ## Repository components
 
@@ -78,7 +78,7 @@ The workflow has 16 data/intelligence build invocations rather than the 13 steps
 | `portfolio/` | constraint profiles, allocation and optimization |
 | `risk/` | historical risk engine and Monte Carlo |
 | `regime/` | price/macro market-state classification |
-| `dashboard/` and root `index.html` | static browser UI that fetches published artifacts directly |
+| `dashboard/` and root `index.html` | `index.html` only redirects; `dashboard/index.html` fetches core and V3 decision artifacts, while `dashboard/artifact.html` fetches the core pre-V3 set |
 | `tests/` | 26 test modules, 135 collected cases: 134 deterministic and one `live` |
 | `data/public/` | 25 generated/versioned public artifacts |
 | `data/*.json` | four legacy public snapshot contracts |
@@ -88,6 +88,12 @@ The workflow has 16 data/intelligence build invocations rather than the 13 steps
 There are 25 files under `data/public/`: 22 JSON files, two Markdown files and one text file. Four additional legacy JSON snapshots remain under `data/`. Exact shape and consumer details are in [PUBLIC_CONTRACT.md](PUBLIC_CONTRACT.md).
 
 The publisher treats event datasets as a rolling 30-day window and snapshot/derived datasets as complete snapshots for that artifact. The static contract does not include deep historical partitions.
+
+### Non-atomic publication and observed cross-run state
+
+The hourly order is `publish -> signals -> news -> movements -> llm_context -> health`. Therefore publication runs before the current signals, news, LLM context and health outputs exist. The publisher stamps configured datasets at publisher time even when it read a prior-run file, builds `latest.json` from the pre-existing health report, and the LLM context step also reads health before the current health step runs.
+
+This is observable in the versioned snapshot at `287e4d8` (not a stable record-count guarantee): `manifest_public.json` at `2026-08-09T11:52:31Z` reports 15 news records while the later `news_context_30d.json` contains 12; `llm_context_30d.json` and `health_report.json` were generated around `12:01:41Z`. Consequently manifest `updated_at`/counts, `latest.overall_status` and LLM `data_quality` do not prove that all artifacts came from one logical run or the current health pass.
 
 ## External sources and dependencies
 
@@ -113,7 +119,7 @@ Coverage-affecting limits are not consistently represented as `partial` metadata
 | Form 4 | 30-day window; at most 400 filings per run |
 | 13D/13G live | at most 250 documents; EFTS pagination stops around offset 1000 |
 | 13D/13G backfill | at most 800 documents per quarter and the quarter is checkpointed as complete |
-| 13F | hardcoded curated manager map; current and previous filing only; top 100 holdings per filing; at most 50 managers emitted; 500 changes emitted |
+| 13F | hardcoded curated manager map; current and previous filing only; top 100 holdings per filing; `aum_usd` sums only that top-100 slice; `new`/`exited` may mean crossing the cutoff; at most 50 managers and 500 changes emitted |
 | House PTR | 45 recent days and at most 200 filings; no-text/scanned PDFs counted in logs but not persisted |
 | Senate | official live source blocked; mirror provides historical context and has known stale/coverage limits |
 | Polymarket | requests top 100 leaderboard entries; scans at most 1,000 closed positions per trader; keeps top five positions |
@@ -122,6 +128,8 @@ Coverage-affecting limits are not consistently represented as `partial` metadata
 | Derived views | top movements 40; multiple LLM/dashboard lists are intentionally top-N presentation summaries |
 
 Presentation caps are reasonable for static exports, but they cannot be treated as complete canonical history in V4.
+
+Temporal/provenance helpers exist and have unit coverage, but they are not enforced end to end across derived outputs. In the `287e4d8` snapshot, all 1,783 signal rows omit `scrape_date`; all 500 institutional-change rows omit event/known/scrape dates and `source_url`. These as-of counts demonstrate a contract gap, not immutable dataset sizes.
 
 ## Historical data
 

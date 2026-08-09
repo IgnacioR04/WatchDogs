@@ -10,7 +10,13 @@ Baseline: `main` at `287e4d8`, 2026-08-09. GitHub Pages serves repository files 
 - Other stages write additional artifacts not enumerated by the publisher manifest.
 - The hourly bot commits only `data/public/*.json` and `data/public/*.md`; `llm_response.txt` is not in that pattern.
 - JSON arrays have no response envelope or pagination. Dates are strings, usually ISO-like, and schema enforcement is producer/test-specific rather than a single formal JSON Schema catalog.
-- The root dashboard and both `dashboard/*.html` variants fetch static artifacts directly.
+- Root `index.html` only redirects to `dashboard/index.html`. `dashboard/index.html` fetches core plus V3 regime/portfolio/risk/paper artifacts; `dashboard/artifact.html` fetches the core set and does not consume those V3 decision artifacts.
+
+## Publication ordering and snapshot coherence
+
+The hourly workflow order is `publish -> signals -> news -> movements -> llm_context -> health`. The publisher therefore inventories files from the prior state before several current-run producers execute. It stamps configured datasets with publisher time, builds `latest.json` from the health file that already exists, and LLM context reads health before the current health step.
+
+Observed at baseline commit `287e4d8` (counts and timestamps are snapshot evidence, not stable contract values): the manifest generated around `2026-08-09T11:52:31Z` reports 15 news records, while the committed news file contains 12; LLM context and health were regenerated around `12:01:41Z`. Thus manifest counts/`updated_at`, `latest.overall_status`, and LLM `data_quality` can describe different runs. Current outputs are not an atomic snapshot and cannot by themselves prove freshness or common lineage.
 
 ## `data/public/` inventory
 
@@ -21,8 +27,8 @@ The “shape” column records current top-level keys (and representative array 
 | `congress_trades_30d.json` | array (257); item includes `id`, `politician`, `actor_name/type`, `chamber`, `ticker`, `asset_name`, `tx_type`, amounts, event/known/scrape/disclosure dates, scores, source/provenance | House/Senate scraper + publisher; dashboard, signals, health |
 | `sec_insiders_30d.json` | array (776); item includes `id`, insider/company/ticker, transaction code/type, shares/price/value, transaction/filing/event/known/scrape dates, `source_url` | Form 4 scraper + publisher; dashboard, signals, health |
 | `sec_13d_13g_30d.json` | array (250); item includes filer/issuer CIK/name, filing type, ownership/shares, ticker/company, dates, scores, `source_url` | 13D/13G scraper + publisher; dashboard, signals, health, LLM context |
-| `institutional_holdings_latest.json` | array (37); manager, CIK, report/filing/quarter dates, AUM, nested `holdings`, temporal/stale flags, source | 13F scraper + publisher; dashboard, health |
-| `institutional_changes_latest.json` | array (500); manager, ticker/asset/CUSIP, previous/current/delta values, percent, direction, quarter | 13F scraper + publisher; dashboard, signals, LLM context |
+| `institutional_holdings_latest.json` | array (37); manager, CIK, report/filing/quarter dates, `aum_usd`, nested `holdings`, temporal/stale flags, source. `aum_usd` is the sum of the exported top-100 holdings, not full manager AUM or full 13F value | 13F scraper + publisher; dashboards, health |
+| `institutional_changes_latest.json` | array (500); manager, ticker/asset/CUSIP, previous/current/delta values, percent, direction, quarter. Both quarters are top-100 slices, so `new`/`exited` may reflect crossing the cutoff rather than opening/liquidating a holding | 13F scraper + publisher; dashboards, signals, LLM context |
 | `polymarket_smart_traders.json` | array (46); wallet/profile, PnL/volume, closed/win/loss counts, scores, categories and nested top positions, temporal/source fields | Polymarket scraper + publisher; dashboard, health, LLM/daily context |
 | `polymarket_whales.json` | array (50); same profile family as smart traders | Polymarket scraper + publisher; dashboard, health, LLM context |
 | `news_context_30d.json` | array (12); id, title/url/domain, publish/event/known/scrape dates, tickers, themes, language/country/source | GDELT + publisher; dashboard, movements, LLM/daily context |
@@ -40,7 +46,7 @@ The “shape” column records current top-level keys (and representative array 
 | `llm_portfolio.json` | object: approval/verdict/confidence/thesis, final weights, adjustments, risks, metrics, gate and violations | LLM-output validator; trader-prompt builder |
 | `paper_ledger.json` | array (14); approval time, verdict/confidence/thesis, weights and adjustment count | LLM-output validator; paper metrics |
 | `paper_trading.json` | object: budget/cost model, cycles/count, positions, equity curve, metrics and generation time | paper metrics; dashboard |
-| `daily_context.md` | Markdown briefing assembled from signals, health, market, macro, regime, portfolio, risk, paper and news artifacts | daily-context builder; dashboard/manual LLM, trader-prompt and validator |
+| `daily_context.md` | Markdown briefing assembled from regime, portfolio, signals, market, macro, health, news, movements and Polymarket smart-trader artifacts; it does not load risk or paper artifacts | daily-context builder; dashboard/manual LLM, trader-prompt and validator |
 | `trader_prompt.md` | Markdown prompt containing current context, prior approved allocation and trading instructions | trader-prompt builder; manual LLM consumer |
 | `llm_response.txt` | free-form external LLM response input | consumed and validated by `pipelines.validate_llm_output`; not generated by hourly workflow |
 
@@ -61,7 +67,9 @@ Legacy URLs are public and may have unknown external consumers even when no curr
 
 | Consumer | Contracts relied on |
 |---|---|
-| Root/dashboard HTML | core event datasets, institutional/Polymarket, signals, movements, LLM context, health/manifest/latest, regime/portfolio/risk, paper trading and daily context |
+| Root `index.html` | Redirect only; fetches no data contract |
+| `dashboard/index.html` | Core events, institutional/Polymarket, signals, movements, LLM context, health/manifest/latest plus regime, portfolio, risk and paper trading |
+| `dashboard/artifact.html` | Core events, institutional/Polymarket, signals, movements, LLM context and health/manifest/latest; no V3 regime/portfolio/risk/paper artifacts |
 | Signal/intelligence pipeline | Congress, insiders, 13D/13G, 13F changes, news and existing signals |
 | LLM/manual workflow | `llm_context_30d.json`, `daily_context.md`, `trader_prompt.md`, `llm_response.txt`, portfolio and ledger artifacts |
 | Market/portfolio/risk | signals -> market universe; history + regime -> portfolio; portfolio + history -> risk |
@@ -74,3 +82,4 @@ Legacy URLs are public and may have unknown external consumers even when no curr
 3. Mark preview/partial/top-N semantics instead of presenting bounded exports as complete history.
 4. Do not redirect consumers to API endpoints until the database/API path is proven and rollback is available.
 5. Do not conflate prediction markets *about* a person, campaign finance *related to* a person, and holdings/trades *by* a person.
+6. Export a logical snapshot atomically with input/run lineage; manifest/latest/LLM freshness must not be inferred solely from file timestamps.
