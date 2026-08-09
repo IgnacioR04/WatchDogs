@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-09T16:02:52+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T16:20:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T16:02:52+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T16:20:19+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65186.99 (0.43% / 1.77% / -0.07%) [2026-08-09]
+- BTC-USD: 65178.11 (0.42% / 1.75% / -0.08%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,19 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (2), leadership (1)
+**Temas dominantes**: stock (7), earnings (4), leadership (4), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
-- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
-- [ETD] Ethan Allen Interiors Q4 Earnings Call Highlights (2026-07-30)
-- [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
-- [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
+- [TMO] Promising Grocery Stocks To Follow Now – August 6th (2026-08-09)
+- [TMO] Top Travel Stocks To Watch Now – August 6th (2026-08-09)
+- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
+- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
+- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
