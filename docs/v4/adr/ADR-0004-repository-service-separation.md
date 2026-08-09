@@ -10,9 +10,9 @@ Today source modules commonly fetch, normalize, deduplicate, and write files in 
 
 ## Decision
 
-Define domain-facing repository and unit-of-work interfaces, implemented by SQLAlchemy persistence adapters. Repositories encapsulate durable access for aggregates such as Person, Alias, ExternalIdentity, Organization, Security, SourceDocument, Event, Coverage, and IngestionRun. They own persistence operations and query composition, but not provider HTTP, presentation, or cross-aggregate policy.
+Define domain-facing repository and unit-of-work interfaces, implemented by SQLAlchemy persistence adapters. Repositories encapsulate durable access for aggregates such as Person, Alias, ExternalIdentity, Organization, Security, SourceDocument, factual EventRevision, CanonicalAssociationRevision, CanonicalRedirectRevision, Coverage, and PublicationUnit. They own persistence operations and query composition, but not provider HTTP, presentation, or cross-aggregate policy.
 
-Application services orchestrate use cases, identity decisions, validation, transaction boundaries, coverage transitions, and calls to one or more repositories. A service opens the unit of work and decides commit/rollback behavior; repositories never commit autonomously. Read/query services return DTOs/read models rather than ORM instances.
+Application services orchestrate use cases, identity decisions, validation, transaction boundaries, coverage transitions, and calls to one or more repositories. Factual ingestion and canonical resolution are separate services: ingestion never writes an authoritative canonical target into an event revision, while resolution never mutates factual content. A service opens the unit of work and decides commit/rollback behavior; repositories never commit autonomously. Read/query services return DTOs/read models rather than ORM instances.
 
 Routes, exporters, and source adapters depend on service/query interfaces. Domain and service code do not depend on concrete SQLAlchemy classes.
 
@@ -29,7 +29,7 @@ Routes, exporters, and source adapters depend on service/query interfaces. Domai
 - Unit tests can use fakes at service boundaries, while PostgreSQL integration tests verify actual constraints and SQL behavior.
 - Transaction and retry policy become visible and reviewable.
 - ORM lazy-loading cannot be relied on outside a unit of work.
-- Repository APIs should express domain intent (`ingest_source_revision`, candidate search, effective-revision timeline query) rather than leak arbitrary session access or imply an in-place fact update.
+- Repository APIs should express domain intent (`ingest_source_revision`, `append_association_decision`, candidate search, effective fact/association/redirect timeline query) rather than leak arbitrary session access or imply an in-place update.
 
 ## Compatibility
 
@@ -47,4 +47,6 @@ A future persistence replacement implements the same ports. Rollback does not pe
 - Routes and parsers contain no direct session/table access.
 - Service tests cover transaction commit, rollback, partial failure, and retry policy.
 - PostgreSQL repository tests cover uniqueness, concurrency, and idempotent ingestion: identical natural-key/content is a no-op and changed content appends one immutable revision.
+- Resolution repository tests prove stable association/redirect keys, identical-decision no-op, stale-parent conflict, manual-over-automatic precedence, append-only compensation, and publication through the common serialized clock.
+- Person-filter query tests compose factual revisions with effective association and redirect histories; no route/exporter treats an embedded event target as authoritative.
 - Tests confirm ORM objects do not escape after session closure.

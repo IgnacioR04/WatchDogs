@@ -24,7 +24,7 @@ P1.1 does not introduce a database, dependencies, API, worker, migration, export
 |---|---|---|
 | Source adapters | Provider-specific discovery, HTTP fetch, rate etiquette, and raw response metadata | Canonical identity decisions, API responses, or direct static publication |
 | Parsers/normalizers | Reproducible conversion of a source artifact into typed DTOs and parse diagnostics | Database transactions, UI logic, or unsupported inference |
-| Entity resolution | Candidate generation, evidence scoring, ambiguity, and audited manual decisions | Provider fetching, persistence details, or fuzzy auto-merge |
+| Entity resolution | Candidate generation, evidence scoring, append-only canonical association/redirect decisions, ambiguity, and audited manual decisions | Provider fetching, factual event mutation, or fuzzy auto-merge |
 | Ingestion services | Run lifecycle, transaction policy, idempotent persistence, coverage updates, and retries | Serving user reads or shaping dashboard JSON |
 | Domain | Entity meaning, temporal and provenance invariants, and repository ports | FastAPI, SQLAlchemy mappings, HTTP clients, or file paths |
 | Persistence adapters | SQLAlchemy 2 mappings, repository implementations, SQL constraints, and units of work | Source fetching or presentation policy |
@@ -51,7 +51,7 @@ The practical import rules are:
 1. domain types and repository interfaces import no FastAPI, SQLAlchemy, scraper, dashboard, or exporter modules;
 2. application services depend on domain types and repository/unit-of-work ports;
 3. SQLAlchemy models and repository implementations satisfy persistence ports and do not escape into API schemas or parser DTOs;
-4. source adapters emit typed normalized DTOs; an ingestion service resolves identity and persists them;
+4. source adapters emit typed normalized DTOs; ingestion persists factual revisions/source claims, while a separate resolution service appends canonical association/redirect decisions;
 5. routes call query/application services, never ORM sessions or current JSON files directly;
 6. the exporter calls a stable query/export interface, not tables or source adapters directly;
 7. legacy code remains outside these new boundaries until a separately reviewed migration moves it.
@@ -73,9 +73,10 @@ This path remains operational until explicit later gates prove its replacement. 
 
 ```text
 scheduled/manual trigger -> source adapter -> source document metadata
-                         -> parser/DTO -> identity resolution
-                         -> ingestion service/repositories -> PostgreSQL
-                         -> coverage + ingestion-run result
+                         -> parser/DTO -> factual event revisions
+                         -> resolution candidates/association revisions
+                         -> publication unit/repositories -> PostgreSQL
+                         -> coverage + run result
 ```
 
 ### Target read and export paths
@@ -108,19 +109,28 @@ During dual-run, a discrepancy is recorded and investigated; neither side silent
 
 - A canonical `Person` has an immutable UUID. Names, aliases, provider identifiers, wallet addresses, tickers, and source strings are attributes or external identities, not primary identity.
 - Organizations and securities have their own canonical UUIDs. A ticker is nullable and mutable; it is not a security identity.
-- A source record can remain persisted with unresolved or ambiguous person linkage. Lack of a safe match must not cause source-data loss.
+- Event revisions preserve source-native names, identifiers, claimed roles, and subject strings as factual evidence. They contain no authoritative canonical `person_id`, `organization_id`, or `security_id` relationship.
+- Versioned canonical associations are the single authority connecting a logical fact or event revision to a canonical entity in a typed role. A source record can remain persisted with an `unresolved` or `ambiguous` association. Lack of a safe match must not cause source-data loss.
 - A prediction market *about* a person is distinct from a wallet/trader controlled by that person. Campaign-finance activity related to a candidate is distinct from personal holdings or trading.
-- Canonical merges are explicit, auditable operations. Candidate similarity alone never performs a merge.
+- Canonical merges are explicit, versioned redirect decisions. They resolve the target of an effective association but never create a relationship or rewrite the event/association history. Candidate similarity alone never performs a merge.
 
 See [ADR-0003](adr/ADR-0003-uuid-canonical-person-identity.md) and [ADR-0010](adr/ADR-0010-entity-resolution-no-auto-merge.md).
 
 ## Event and specialized-record model
 
-An event identity represents one logical provider fact, anchored by its stable source-natural key. Its canonical history is append-only: each `event_revision` is an immutable, time-addressable envelope carrying shared links, temporal fields, source identity, confidence, content fingerprint, ingestion run, and an optional pointer to the revision it supersedes. A typed revision table carries the fields that make that version meaningful: trade code and quantities, holding snapshot values, filing ownership percentages, campaign-finance roles, news attributes, or market subject/trader relationships.
+An event identity represents one logical provider fact, anchored by its stable source-natural key. Its canonical history is append-only: each `event_revision` is an immutable, time-addressable envelope carrying temporal fields, source-native claims, source identity, confidence, factual content fingerprint, ingestion run, and an optional pointer to the revision it supersedes. A typed revision table carries the fields that make that version meaningful: trade code and quantities, holding snapshot values, filing ownership percentages, campaign-finance roles, news attributes, or market subject/trader relationships.
 
 The intended relation is one event revision to exactly the applicable specialized revision, enforced by foreign keys and type constraints. A correction never updates the prior envelope or specialization in place. Source documents, people, aliases, roles, organizations, securities, coverage, and ingestion runs are separate first-class records rather than event subtypes. JSONB is reserved for provider extensions or not-yet-promoted fields, not for avoiding relational design.
 
-Unresolved identity links may be nullable when source evidence is insufficient; provenance and a stable source-natural key remain mandatory. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md).
+The factual fingerprint includes the provider claims but excludes canonical association targets/status. Resolving `unresolved -> Person A`, overriding `Person A -> Person B`, or merging canonical identities does not create an event revision. Those transitions occur only in the separate association/redirect histories defined by [ADR-0010](adr/ADR-0010-entity-resolution-no-auto-merge.md). Provenance and a stable source-natural key remain mandatory. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md).
+
+### Canonical association authority
+
+A stable association identity is keyed by subject scope (`logical_fact` or `event_revision`, fixed by the connector contract), subject ID, semantic role, source-claim key, and expected canonical entity type. The connector registry permits exactly one subject scope for each provider fact type/source-claim key; defining both scopes for the same claim is invalid. The target UUID is deliberately absent from that key so a remap remains another revision of the same relationship. Each immutable association revision records nullable target, `unresolved`/`ambiguous`/`linked`/`rejected` status, evidence and decision authority, fingerprint, predecessor, `revision_known_at`, `observed_at`, publication unit, and publication epoch. Decision time is never backdated to older evidence, and successor decision time/epoch must advance. Identical decision content is a no-op; different content appends under a per-association lock and stale-parent conflicts fail rather than silently last-write-win.
+
+Event source claims are evidence only. The effective association revision is the canonical relationship authority. An eligible canonical redirect is then applied to its target as a separate identity-evolution step; a redirect cannot create a role/relationship. Active authenticated manual overrides outrank deterministic automated links, verified provider-ID rules outrank name/fuzzy candidates, and automated processing cannot supersede an active manual decision. Merge, split, reversal, and override are append-only published decisions. See [ADR-0010](adr/ADR-0010-entity-resolution-no-auto-merge.md).
+
+For a selected factual revision, a revision-scoped association applies only when its `subject_id` is that exact revision; a logical-fact-scoped association applies across eligible revisions of that fact. Person/entity queries select the factual revision, then the effective association, then the effective redirect under the same public-time and publication-watermark boundary. After filtering, they emit each selected fact/revision once and aggregate every matching role/claim as lineage, so multiple claims resolving to one person cannot double-attribute the event.
 
 ## Temporal invariants
 
@@ -135,7 +145,7 @@ The existing temporal vocabulary remains authoritative:
 | `fetched_at` | Timezone-aware UTC timestamp for a particular source fetch |
 | `revision_known_at` | Earliest defensible instant when the exact original or corrected canonical version was knowable; a provider correction uses its public correction time, while a parser/system correction without one uses first observation |
 | `observed_at` | When WATCHDOG first acquired or produced the exact canonical revision |
-| `publication_epoch` | Monotonic system-visibility boundary assigned only when an ingestion run is atomically published |
+| `publication_epoch` | Monotonic system-visibility boundary assigned only when an ingestion or authenticated resolution-decision publication unit is atomically published |
 
 Required invariants:
 
@@ -145,9 +155,10 @@ Required invariants:
 4. `scrape_date` and `fetched_at` never substitute for an unknown event or public-known date.
 5. `known_date = event_date` is allowed only when the provider semantics support immediate public knowledge, not as a generic missing-data fallback.
 6. If required event dates cannot be supported, the source document and parse diagnostics remain persisted without inventing an event.
-7. Event envelopes, specialized values, identity links, and any field used by ordering or filtering are immutable per revision. A correction appends a revision with `supersedes_revision_id`, its own `revision_known_at`, `observed_at`, source document, parser, and ingestion run; no prior canonical version is overwritten.
+7. Event envelopes, specialized values, and source-native claims are immutable per event revision. A factual correction appends a revision with `supersedes_revision_id`, its own `revision_known_at`, `observed_at`, source document, parser, and ingestion run; no prior canonical version is overwritten.
 8. Current reads select the latest eligible revision at the latest published epoch. Reproducible system-time reads additionally pin a publication watermark; public-time `as_of` alone may gain a legitimately late-discovered historical fact, while the same query plus its original watermark remains byte-for-byte membership-stable.
 9. If an original version was knowable at T1 and a correction becomes knowable at T2, `as_of=T1` continues to select the original after T2; `as_of>=T2` selects the correction. Both versions remain traceable to their exact source observation, parser, and run.
+10. Canonical association and redirect fields are immutable in their own revision histories. Current/`as_of`/watermarked reads select association and redirect revisions with the same time and publication constraints as facts; no resolution decision changes a prior result retroactively.
 
 These rules preserve the anti-lookahead intent already implemented in `normalize/schema.py` while moving enforcement toward typed models, service validation, database constraints where practical, and data-quality tests.
 
@@ -155,7 +166,7 @@ These rules preserve the anti-lookahead intent already implemented in `normalize
 
 Every externally derived canonical revision identifies its provider/source and stable source record key. When a retrievable document or API payload exists, the revision links to immutable fetch/document metadata including URL when available, fetch time, content hash when possible, parser version, parse status, and error/OCR state. Provider limitations may prevent raw-content retention, but never justify omitting the fetch metadata and limitation reason.
 
-Uniqueness is based on provider-natural identifiers and stable relationships, with database constraints as the final guard. UUIDs, scrape timestamps, mutable display names, and list position are not deduplication keys. Repeating the same natural key and canonical content fingerprint is a fact-level no-op; a new immutable fetch observation/run association may still be recorded. The same key with different canonical content appends an audited revision and supersession edge. It never mutates the prior revision. Ingestion reports inserted identities, inserted revisions, unchanged facts, conflicts, and failures. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md) and [ADR-0009](adr/ADR-0009-provenance-source-documents.md).
+Uniqueness is based on provider-natural identifiers and stable relationship keys, with database constraints as the final guard. UUIDs, scrape timestamps, mutable display names, canonical target IDs, and list position are not event deduplication keys. Repeating the same natural key and factual content fingerprint is an event-level no-op; different factual content appends an event revision. Association and redirect histories have independent stable keys/fingerprints: identical decisions are no-ops and different decisions append. No operation mutates prior content. Runs report inserted identities/revisions/decisions, unchanged facts, conflicts, and failures. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md), [ADR-0009](adr/ADR-0009-provenance-source-documents.md), and [ADR-0010](adr/ADR-0010-entity-resolution-no-auto-merge.md).
 
 ## Failure and coverage semantics
 
@@ -177,9 +188,9 @@ Ingestion runs separately record lifecycle and counts. A document-level parse fa
 
 ## Query and pagination semantics
 
-Large chronological collections use opaque cursor/keyset pagination, not offset pagination. The stable order is `known_date DESC, event_date DESC, id DESC`. Before publication, an ingestion run and all its immutable revisions remain `staging` and invisible. Promotion runs in one PostgreSQL transaction that locks a singleton publication-clock row, increments its stored epoch, assigns that `publication_epoch` to the run, marks it `published`, and commits before releasing the lock. Epoch allocation is not a free-running sequence: lock ownership through commit makes epoch order equal visibility/commit order, and rollback leaves the run invisible.
+Large chronological collections use opaque cursor/keyset pagination, not offset pagination. The stable order is `known_date DESC, event_date DESC, id DESC`. A publication unit is either an ingestion run or an authenticated resolution-decision run. Before publication, all of its event, association, redirect, coverage, and response-visible provenance revisions remain `staging` and invisible. Promotion runs in one PostgreSQL transaction that locks a singleton publication-clock row, increments its stored epoch, assigns that `publication_epoch` to the unit, marks it `published`, and commits before releasing the lock. Epoch allocation is not a free-running sequence: lock ownership through commit makes epoch order equal visibility/commit order, and rollback leaves the unit invisible.
 
-Page 1 captures the maximum committed publication epoch as its watermark. Every page reads only published runs with `publication_epoch <= watermark`, selects the newest eligible revision per logical fact within that boundary and the requested `as_of`, reapplies immutable normalized filters, and then applies the keyset predicate. The cursor integrity-protects its schema version, endpoint/order, watermark, `as_of`, filter fingerprint, expiry, and last sort tuple. A transaction opened before page 1 but promoted later, a correction, or a late backfill receives a later epoch and cannot enter that traversal. Invalid, mismatched, expired, or no-longer-supported cursors fail explicitly; they never recapture a newer watermark. See [ADR-0007](adr/ADR-0007-cursor-pagination.md).
+Page 1 captures the maximum committed publication epoch as its watermark. Every page reads only published units with `publication_epoch <= watermark`; selects the newest eligible fact revision; selects the effective association revision; resolves its target through the effective redirect chain using the same watermark and `as_of`; then applies person/entity filters and the keyset predicate. Person membership is never read from an event column. The cursor integrity-protects its schema version, endpoint/order, watermark, `as_of`, filter fingerprint (including requested canonical entity/role), expiry, and last sort tuple. A transaction opened before page 1 but promoted later, a factual correction, remap, merge/split/reversal, or late backfill receives a later epoch and cannot enter or leave that traversal. Invalid, mismatched, expired, or no-longer-supported cursors fail explicitly; they never recapture a newer watermark. See [ADR-0007](adr/ADR-0007-cursor-pagination.md).
 
 ## Compatibility and rollback boundary
 

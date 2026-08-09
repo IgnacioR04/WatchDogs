@@ -12,7 +12,7 @@ The V4 API requires canonical, historical, relational queries with auditable pro
 
 ## Decision
 
-PostgreSQL will be the canonical store for V4 people, identities, organizations, securities, source documents, events, specialized facts, coverage, and ingestion runs. Once the relevant persistence and API gates pass, every `/v1` query reads canonical state through repositories backed by PostgreSQL; it does not read `data/public/*.json`.
+PostgreSQL will be the canonical store for V4 people, identities, organizations, securities, source documents, factual event/specialized revisions, canonical association/redirect histories, coverage, and publication units. Once the relevant persistence and API gates pass, every `/v1` query reads canonical state through repositories backed by PostgreSQL; it does not read `data/public/*.json`.
 
 During additive migration, the current JSON pipeline remains authoritative for its existing consumers. New ingestion is verified in PostgreSQL without silently changing legacy output. After reconciliation and compatibility approval, static artifacts are generated as projections from PostgreSQL. A dual-run discrepancy is recorded and investigated rather than resolved by an implicit last writer.
 
