@@ -1,13 +1,13 @@
 # WATCHDOG V4 status
 
-Last verified: 2026-08-09 against `main` merge `91bda83` (`91bda83814fbf012c6f0df339e00ec6333ddc980`).
+Last verified: 2026-08-09 against P0-complete `main` merge `4bdb8ee` (`4bdb8ee74e1cb92e89474f2c4aebc58e0e8961ff`).
 
 ## Executive status
 
 | Field | State |
 |---|---|
-| Current phase | P0 — Repository forensics, baseline and safety — **COMPLETE** |
-| Phase gate | **PASS**; required reviews, merge and post-merge smoke test completed |
+| Current phase | P1.1 — Architecture Decision Records — **IN PROGRESS** ([#6](https://github.com/IgnacioR04/WatchDogs/issues/6)) |
+| Phase gate | P0 **PASS**; P1 is not yet eligible for evaluation |
 | Migration progress | **0%** — no PostgreSQL, entity-resolution, repository or API migration has started |
 | Production behavior | Unchanged; the current static pipeline remains authoritative |
 | Known regressions | None introduced by V4 work |
@@ -21,6 +21,7 @@ Last verified: 2026-08-09 against `main` merge `91bda83` (`91bda83814fbf012c6f0d
 |---|---|---|
 | Issue [#1](https://github.com/IgnacioR04/WatchDogs/issues/1), isolate live/mutating pytest coverage | Closed | PR [#3](https://github.com/IgnacioR04/WatchDogs/pull/3) merged as `287e4d8`; implementation commit `bde4303` |
 | Issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2), P0 repository baseline | Closed | PR [#30](https://github.com/IgnacioR04/WatchDogs/pull/30) merged as `91bda83`; final release and post-merge evidence [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967) |
+| Issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6), P1.1 Architecture Decision Records | In progress | Architecture overview and ten ADRs proposed on `v4/p1-architecture-adrs`; independent approval still required |
 
 ## Open roadmap issues
 
@@ -71,8 +72,8 @@ Snapshot of open issues on 2026-08-09. Dependencies are gate-level summaries of 
 
 ## Next gates
 
-1. Begin P1.1 with issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6), Architecture Decision Records.
-2. Do not begin P1.2 or mark any later gate complete until the P1.1 ADRs are approved.
+1. Complete independent architecture and QA/documentation review of P1.1 issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6).
+2. Do not begin P1.2 or mark any later gate complete until the ten P1.1 ADRs are accepted and merged.
 
 ## Approval limitation
 
