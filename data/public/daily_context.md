@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T09:17:57+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T10:14:58+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64775.96 (-0.2% / 1.12% / -0.7%) [2026-08-09]
+- BTC-USD: 64900.17 (-0.01% / 1.32% / -0.51%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (6), leadership (4), regulatory (2), ai (1), merger (1)
+**Temas dominantes**: stock (2), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] FinancialContent - SunocoCorp LLC Common Units , representing limited liability company interests ( NYSE : SUNC ) Stock Quote (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
-- [SVV] Four Savers Value Village Insiders Sold This Week . Here What to Make of It (2026-08-08)
-- [SVV] Savers Value Village CFO Cashed In Options Struck at $7 . 11 . Here What to Know (2026-08-08)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
-- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
-- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
