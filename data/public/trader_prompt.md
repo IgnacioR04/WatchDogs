@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-09T15:08:20+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T15:37:51+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T15:08:20+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T15:37:51+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65192.59 (0.44% / 1.77% / -0.06%) [2026-08-09]
+- BTC-USD: 65184.99 (0.43% / 1.76% / -0.07%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), earnings (3), leadership (2), regulatory (2), ai (1), merger (1)
+**Temas dominantes**: stock (9), leadership (3), earnings (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] Dear Bullish Stock Fans , Mark Your Calendars for August 13 (2026-08-09)
-- [TMO] Dear Nebius Stock Fans , Mark Your Calendars for August 12 (2026-08-09)
-- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
+- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
-- [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
