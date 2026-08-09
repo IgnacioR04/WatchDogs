@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T22:03:14+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T23:04:36+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65206.52 (0.47% / 1.8% / -0.04%) [2026-08-09]
+- BTC-USD: 65022.33 (0.18% / 1.51% / -0.32%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (15), leadership (4), earnings (3), ai (1), regulatory (1), merger (1)
+**Temas dominantes**: earnings (5), stock (5), leadership (3), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] Best Home Improvement Stocks To Consider – August 9th (2026-08-09)
-- [TMO] Promising Large Cap Stocks To Watch Today – August 9th (2026-08-09)
-- [TMO] Why MercadoLibre Stock Jumped 11 % in July (2026-08-09)
-- [TMO] Stocks on edge as GDP slows (2026-08-09)
-- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
+- [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
 - [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,10 +144,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $134,050 · win rate 98% · categorias: sports
-- SDTrading · PnL $136,147 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $124,618 · win rate 91% · categorias: sports
-- Shori888 · PnL $28,887 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $89,787 · win rate 91% · categorias: sports, politics
+- SDTrading · PnL $129,451 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $122,567 · win rate 91% · categorias: sports
+- Shori888 · PnL $31,178 · win rate 100% · categorias: sports
+- TAIWANNUMBERONE · PnL $89,789 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
