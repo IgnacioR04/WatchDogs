@@ -1,13 +1,13 @@
 # WATCHDOG V4 status
 
-Last verified: 2026-08-09 against `main` commit `287e4d8`.
+Last verified: 2026-08-09 against `main` merge `91bda83` (`91bda83814fbf012c6f0df339e00ec6333ddc980`).
 
 ## Executive status
 
 | Field | State |
 |---|---|
-| Current phase | P0 — Repository forensics, baseline and safety |
-| Phase gate | **IN PROGRESS**; documentation PR, independent reviews, merge and post-merge smoke test remain |
+| Current phase | P0 — Repository forensics, baseline and safety — **COMPLETE** |
+| Phase gate | **PASS**; required reviews, merge and post-merge smoke test completed |
 | Migration progress | **0%** — no PostgreSQL, entity-resolution, repository or API migration has started |
 | Production behavior | Unchanged; the current static pipeline remains authoritative |
 | Known regressions | None introduced by V4 work |
@@ -20,7 +20,7 @@ Last verified: 2026-08-09 against `main` commit `287e4d8`.
 | Item | Status | Evidence |
 |---|---|---|
 | Issue [#1](https://github.com/IgnacioR04/WatchDogs/issues/1), isolate live/mutating pytest coverage | Closed | PR [#3](https://github.com/IgnacioR04/WatchDogs/pull/3) merged as `287e4d8`; implementation commit `bde4303` |
-| Issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2), P0 repository baseline | In progress | Branch `v4/p0-repo-audit`; this documentation set |
+| Issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2), P0 repository baseline | Closed | PR [#30](https://github.com/IgnacioR04/WatchDogs/pull/30) merged as `91bda83`; final release and post-merge evidence [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967) |
 
 ## Open roadmap issues
 
@@ -63,19 +63,16 @@ Snapshot of open issues on 2026-08-09. Dependencies are gate-level summaries of 
 - [x] Configuration, secrets, personal-path and historical-storage assumptions recorded.
 - [x] Migration risk register R1–R14 recorded.
 - [x] No production code or generated data changed by the documentation work package.
-- [ ] Documentation/code review completed independently.
-- [ ] QA and data-quality review completed independently.
-- [ ] Configuration-only security review completed independently.
-- [ ] PR merged by the release/orchestrator role.
-- [ ] Post-merge smoke test on `main` completed and issue #2 closed.
+- [x] Documentation/code review completed independently: final [APPROVE](https://github.com/IgnacioR04/WatchDogs/pull/30#pullrequestreview-4891444140).
+- [x] QA and data-quality review completed independently: Data Quality [APPROVE](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231673121) and QA [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231682598).
+- [x] Configuration-only security review completed independently: [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231706193).
+- [x] PR [#30](https://github.com/IgnacioR04/WatchDogs/pull/30) merged by the release/orchestrator role as `91bda83`: release [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967).
+- [x] Post-merge smoke test on `main` completed and issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2) closed: release and smoke [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967).
 
 ## Next gates
 
-1. Review the P0 documentation PR against issue #2 and [MASTER_PLAN.md](MASTER_PLAN.md).
-2. Run independent QA: Markdown/path checks, `git diff --check`, default pytest, and generated-data cleanliness.
-3. Complete data-quality review of contract classification, source limits and historical gaps.
-4. Complete security review of configuration findings only; this package changes no attack surface.
-5. Merge only after the required evidence is attached, smoke-test `main`, close #2, then begin P1 ADR/database planning.
+1. Begin P1.1 with issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6), Architecture Decision Records.
+2. Do not begin P1.2 or mark any later gate complete until the P1.1 ADRs are approved.
 
 ## Approval limitation
 
