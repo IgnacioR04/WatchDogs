@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T18:05:14+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T19:18:51+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65155.07 (0.39% / 1.72% / -0.11%) [2026-08-09]
+- BTC-USD: 65156.37 (0.39% / 1.72% / -0.11%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (3), leadership (3), ai (1), regulatory (1)
+**Temas dominantes**: earnings (3), leadership (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] European Stock ETFs Post First Positive Month Since the Iran War Started (2026-08-09)
-- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
-- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
 - [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
-- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 - [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
+- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
+- [ETD] Ethan Allen Interiors Q4 Earnings Call Highlights (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +139,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $133,066 · win rate 93% · categorias: sports
 - WTSA · PnL $134,050 · win rate 98% · categorias: sports
-- monkeymashingkeyboard · PnL $105,520 · win rate 91% · categorias: sports
-- TAIWANNUMBERONE · PnL $93,664 · win rate 91% · categorias: sports, politics
-- ExplosiveNinja · PnL $22,082 · win rate 97% · categorias: sports
+- SDTrading · PnL $117,197 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $106,796 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $89,750 · win rate 91% · categorias: sports, politics
+- ExplosiveNinja · PnL $22,067 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
