@@ -1,9 +1,6 @@
 {
-  "verdict": "adjust",
-  "adjustments": [
-    {"ticker": "NMM", "action": "add", "target_weight": 0.04, "reason": "Insider Frangou Angeliki (Director, 10%-owner) compro NMM 3 dias seguidos consecutivos (5,6,7 ago, ~83k$/dia), momentum positivo +4.75% 20d. Senal recurrente de un insider con informacion privilegiada, aunque de un solo actor."},
-    {"ticker": "FWONK", "action": "add", "target_weight": 0.04, "reason": "Score agregado mas alto de los satelites candidatos (248.8), congresista April McClain Delaney compro 6 veces en julio, momentum +6.99% 20d. Senal de un solo actor pero repetida y consistente en el tiempo."}
-  ],
+  "verdict": "accept",
+  "adjustments": [],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
@@ -12,18 +9,18 @@
     "IEF": 0.053,
     "LION": 0.042,
     "AVO": 0.042,
+    "NMM": 0.04,
+    "FWONK": 0.04,
     "PSBD": 0.031,
     "NTSK": 0.031,
     "GSHD": 0.025,
-    "CLBK": 0.023,
-    "NMM": 0.04,
-    "FWONK": 0.04
+    "CLBK": 0.023
   },
-  "thesis": "El regimen mejoro a risk_on mas benigno esta semana (presupuesto de riesgo subio de 70% a 95%: VIX calmado en 14.9, SPY +10.45% sobre MA200, credito tenso). Mantengo integro el core y los satelites existentes (LION, AVO, PSBD, NTSK, GSHD, CLBK) porque ninguna senal de venta de la seccion 3b les afecta y no hay tesis rota. Aprovecho parte del presupuesto liberado anadiendo dos ideas moderadas: NMM (insider 10%-owner comprando 3 dias seguidos con momentum positivo) y FWONK (congresista comprando repetidamente en julio, mayor score agregado de la candidata). Excluyo deliberadamente DNTH pese a estar en la cartera candidata: su CEO ejercio opciones y vendio $17.9M el mismo dia (2026-08-07) que un large holder (T. Rowe Price) compraba, senal contradictoria de mayor peso que no compensa el riesgo. Tambien excluyo SPCX (volatilidad extrema, +15.83% en un solo dia, ya excluida en ciclos previos por -34% en 20d) y CHRW/LTH (mismo actor unico que FWONK, ya representado, y CHRW ademas con momentum muy negativo -22.82% 20d). Exposicion final 78%, cash 22%, por debajo del presupuesto del 95% por prudencia dado que las nuevas senales son de un solo actor cada una.",
+  "thesis": "Regimen risk_on estable (VIX 14.9, SPY +10.45% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene la tesis rota: no hay senales de venta en la seccion 3b que afecten a LION, AVO, PSBD, NTSK, GSHD, CLBK, NMM o FWONK, asi que se mantienen integras sin rotacion. Se evaluo anadir BRVE (senal de mayor conviccion cruzada del briefing: 7 insiders distintos, incluido un 10% owner comprando 34.6M y 30.2M USD) pero el risk gate la rechazo por falta de datos de precio suficientes (solo 2 dias de cotizacion, IPO reciente, sin historico para medir liquidez/volatilidad de forma fiable), asi que se descarta esta vez y se mantiene la cartera del ciclo anterior intacta. Se sigue excluyendo DNTH (venta contradictoria del CEO el mismo periodo que compra T. Rowe Price), SPCX (volatilidad extrema, +15.83% en 1 dia) y CHRW/LTH (mismo actor unico que FWONK, CHRW con -22.82% en 20d).",
   "key_risks": [
-    "Las senales de Congreso tienen hasta 45 dias de retraso legal y no reflejan informacion actual del mercado",
-    "NMM y FWONK son senales de un unico actor cada una (menor conviccion cruzada que un cluster de varios insiders)",
-    "Cartera con sesgo alcista claro (bull trend + risk_on): una reversion brusca del regimen obligaria a recortar exposicion rapidamente"
+    "BRVE queda fuera del universo operable hasta que acumule suficiente historico de precio/volumen; revisar en proximos ciclos si sigue mostrando conviccion cruzada",
+    "Congreso y 13F llegan con hasta 45 dias de retraso, y la fuente congress tiene tickers invalidos marcados (warning)",
+    "Concentracion en varios satelites de baja liquidez (LION, AVO, PSBD, NTSK, GSHD, CLBK) cuyas senales originales ya han envejecido sin nueva confirmacion"
   ],
-  "confidence": 0.6
+  "confidence": 0.65
 }
