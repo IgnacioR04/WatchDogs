@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-08T23:59:10+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T02:47:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-08T23:59:10+00:00 · ventana señales 2026-07-09 -> 2026-08-08_
+_Generado 2026-08-09T02:47:20+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64901.64 (0.03% / 2.27% / 0.33%) [2026-08-08]
+- BTC-USD: 64746.17 (-0.21% / 2.03% / 0.09%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,18 +344,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (3), regulatory (2), leadership (1)
+**Temas dominantes**: stock (5), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
-- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
-- [ETD] Ethan Allen Interiors Q4 Earnings Call Highlights (2026-07-30)
+- [GFF] Griffon ( NYSE : GFF ) Issues Quarterly Earnings Results (2026-08-06)
 - [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
 - [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
 
@@ -372,18 +368,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $142,861 · win rate 93% · categorias: sports
-- 123412341234 · PnL $29,307 · win rate 98% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $68,056 · win rate 91% · categorias: sports, politics
-- quavoo · PnL $171,342 · win rate 83% · categorias: sports, politics, economy
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $26,382 · win rate 95% · categorias: sports, crypto
+- SDTrading · PnL $129,501 · win rate 93% · categorias: sports
+- WTSA · PnL $76,606 · win rate 98% · categorias: sports
+- monkeymashingkeyboard · PnL $51,521 · win rate 91% · categorias: sports
+- sleepy-panda · PnL $21,015 · win rate 80% · categorias: sports, economy, politics
+- BreakTheBank · PnL $9,528 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 105 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
+- **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
 - **sec_insiders**: `ok` · 776 registros 30d · ultimo dato 2026-08-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
