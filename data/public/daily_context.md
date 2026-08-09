@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T04:52:47+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T06:15:28+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64736.45 (-0.22% / 2.01% / 0.07%) [2026-08-09]
+- BTC-USD: 64763.12 (-0.18% / 2.05% / 0.11%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), regulatory (2), earnings (2), leadership (1), merger (1)
+**Temas dominantes**: stock (3), earnings (2), leadership (2), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
+- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
+- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
+- [SVV] Four Savers Value Village Insiders Sold This Week . Here What to Make of It (2026-08-08)
+- [SVV] Savers Value Village CFO Cashed In Options Struck at $7 . 11 . Here What to Know (2026-08-08)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [YOU] FinancialContent - CLEAR Secure ( NYSE : YOU ) Reports Strong Q2 CY2026 , Stock Soars (2026-08-05)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
-- [YOU] FinancialContent - CLEAR Secure ( YOU ) Reports Earnings Tomorrow : What To Expect (2026-08-04)
 - [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
 - [DNTH] DV Trading LLC Acquires Shares of 26 , 551 Dianthus Therapeutics , Inc . $DNTH (2026-08-02)
-- [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
-- [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,10 +142,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - SDTrading · PnL $131,935 · win rate 93% · categorias: sports
-- WTSA · PnL $134,198 · win rate 98% · categorias: sports
+- WTSA · PnL $134,411 · win rate 98% · categorias: sports
 - monkeymashingkeyboard · PnL $106,611 · win rate 91% · categorias: sports
-- Shori888 · PnL $8,480 · win rate 100% · categorias: sports
-- rollobravado · PnL $8,599 · win rate 99% · categorias: sports, politics
+- JnStTrdrBnusFnd · PnL $12,553 · win rate 92% · categorias: crypto
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $16,826 · win rate 85% · categorias: sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
