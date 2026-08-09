@@ -10,7 +10,7 @@ The product must return only supported public records and explain coverage. Toda
 
 ## Decision
 
-Every externally derived canonical fact must carry:
+Every externally derived canonical fact revision must carry:
 
 - provider/data-source identity;
 - a stable provider/source record identifier or documented deterministic substitute;
@@ -24,7 +24,9 @@ Every externally derived canonical fact must carry:
 
 Document/fetch metadata is persisted before or independently of parsed canonical facts so `parse_error`, `requires_ocr`, `no_transactions`, and unsupported formats remain observable. Documents are immutable fetch observations; a refetch creates a new version/observation or preserves version history rather than overwriting evidence silently.
 
-Derived products keep lineage to their canonical input IDs/export run. They must not replace primary-source attribution with the derived artifact's URL.
+Canonical facts are immutable revisions, not mutable “latest” rows. Every revision links the exact source observation, parser/normalizer version, ingestion run, content fingerprint, `revision_known_at`, and `observed_at` that support it. A new source observation with the same natural key and identical canonical fingerprint produces no new fact revision, although the re-observation association remains auditable. Different canonical content appends a revision with a supersession pointer; the previous envelope, specialized values, and lineage remain unchanged.
+
+When a provider publishes a correction, its supported publication time becomes `revision_known_at`. When a parser/system correction changes canonical interpretation without a distinct provider correction time, first observation of that interpretation is the conservative revision-known time. This prevents a T2 interpretation from appearing in a T1 public-time query. Derived products keep lineage to the selected canonical revision IDs, publication watermark, and export run. They must not replace primary-source attribution with the derived artifact's URL.
 
 ## Alternatives considered
 
@@ -38,6 +40,7 @@ Derived products keep lineage to their canonical input IDs/export run. They must
 
 - Storage and retention needs increase; policies must distinguish metadata, hashes, and raw content.
 - Parser upgrades can be evaluated against immutable source observations.
+- Canonical corrections and parser reinterpretations increase storage, but no later correction can replace the revision eligible at an earlier revision-known time; pinning the publication watermark additionally reproduces the complete system-visible result in the presence of late backfill.
 - API clients can inspect provenance without accepting unsupported narrative claims.
 - Parse/fetch failures contribute to partial/source-error coverage instead of disappearing.
 - Sensitive or restricted raw content requires explicit access/retention controls even when its public metadata is retained.
@@ -48,14 +51,16 @@ Existing `source_url` fields remain in static projections. Missing provenance in
 
 ## Migration and rollback
 
-Connector migration begins by writing document/fetch metadata, then parsed facts. Historical import maps existing source URLs/IDs/hashes where actually available and marks unknown components explicitly. Bad records are quarantined with source lineage.
+Connector migration begins by writing document/fetch metadata, then logical fact identities and immutable parsed revisions. Historical import maps existing source URLs/IDs/hashes and distinguishable versions where actually available, marks unknown components explicitly, and never fabricates correction times. Bad records are quarantined with source lineage.
 
-Rolling back a parser or connector does not delete source documents or errors. Reprocessing uses the retained artifact/metadata and a pinned parser version. Raw-content deletion, if required by policy, keeps a tombstone/hash and reason where legally/contractually allowed.
+Rolling back a parser or connector does not delete source documents, errors, canonical revisions, or supersession history. Reprocessing uses the retained artifact/metadata and a pinned parser version; a changed interpretation appends another revision rather than restoring values in place. Raw-content deletion, if required by policy, keeps a tombstone/hash and reason where legally/contractually allowed.
 
 ## Verification
 
 - Constraints require source and source-record identity for external facts and prevent duplicate document versions/natural keys.
 - Fixture tests assert URL/fetch/parser/hash/status fields according to source capability.
+- The same source key/content repeated is a canonical no-op, while different content appends exactly one revision linked to its predecessor and exact source/parser/run.
+- T1 original/T2 correction tests prove pre-T2 as-of reads retain the original, post-T2/current reads select the correction, and both revision lineages remain independently traceable.
 - Failure tests persist malformed/scanned documents and set parse/error/OCR state without emitting invented events.
 - API/exports expose supported provenance and never label source errors as `no_records`.
 - Reprocessing tests show parser versions and prior observations remain auditable.

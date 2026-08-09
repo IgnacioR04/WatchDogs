@@ -40,7 +40,7 @@ Legacy JSON may continue displaying source-provided actor names without claiming
 
 ## Migration and rollback
 
-Historical import loads raw identities first, applies verified external matches, creates candidates, and leaves the remainder unresolved. No bulk fuzzy merge is allowed. Merge/split tooling updates references transactionally while preserving supersession and decision history.
+Historical import loads raw identities first, applies verified external matches, creates candidates, and leaves the remainder unresolved. No bulk fuzzy merge is allowed. Merge/split tooling appends audited association/redirect revisions transactionally while preserving supersession and decision history; it does not overwrite the entity links stored on prior event revisions.
 
 An incorrect link or manual merge can be reversed using the audit record: restore distinct canonical IDs/source links, rebuild affected read/export projections, and flag downstream derived artifacts for recomputation. Evidence and original values are never deleted during reversal.
 

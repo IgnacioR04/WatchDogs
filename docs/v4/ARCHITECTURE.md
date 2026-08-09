@@ -116,9 +116,9 @@ See [ADR-0003](adr/ADR-0003-uuid-canonical-person-identity.md) and [ADR-0010](ad
 
 ## Event and specialized-record model
 
-`events` is the common, time-addressable envelope for facts such as a transaction, filing, disclosure, news mention, or prediction-market observation. It carries shared links, temporal fields, source identity, confidence, and lifecycle timestamps. A typed table carries the fields that make the fact meaningful: trade code and quantities, holding snapshot values, filing ownership percentages, campaign-finance roles, news attributes, or market subject/trader relationships.
+An event identity represents one logical provider fact, anchored by its stable source-natural key. Its canonical history is append-only: each `event_revision` is an immutable, time-addressable envelope carrying shared links, temporal fields, source identity, confidence, content fingerprint, ingestion run, and an optional pointer to the revision it supersedes. A typed revision table carries the fields that make that version meaningful: trade code and quantities, holding snapshot values, filing ownership percentages, campaign-finance roles, news attributes, or market subject/trader relationships.
 
-The intended relation is one event to zero or one row of the relevant specialization, enforced by foreign keys and type constraints. Source documents, people, aliases, roles, organizations, securities, coverage, and ingestion runs are separate first-class records rather than event subtypes. JSONB is reserved for provider extensions or not-yet-promoted fields, not for avoiding relational design.
+The intended relation is one event revision to exactly the applicable specialized revision, enforced by foreign keys and type constraints. A correction never updates the prior envelope or specialization in place. Source documents, people, aliases, roles, organizations, securities, coverage, and ingestion runs are separate first-class records rather than event subtypes. JSONB is reserved for provider extensions or not-yet-promoted fields, not for avoiding relational design.
 
 Unresolved identity links may be nullable when source evidence is insufficient; provenance and a stable source-natural key remain mandatory. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md).
 
@@ -133,24 +133,29 @@ The existing temporal vocabulary remains authoritative:
 | `scrape_date` | When WATCHDOG acquired the source record |
 | `delay_days` | Calendar-day difference between `known_date` and `event_date` |
 | `fetched_at` | Timezone-aware UTC timestamp for a particular source fetch |
+| `revision_known_at` | Earliest defensible instant when the exact original or corrected canonical version was knowable; a provider correction uses its public correction time, while a parser/system correction without one uses first observation |
+| `observed_at` | When WATCHDOG first acquired or produced the exact canonical revision |
+| `publication_epoch` | Monotonic system-visibility boundary assigned only when an ingestion run is atomically published |
 
 Required invariants:
 
 1. `known_date >= event_date`; violations are rejected or quarantined, never silently used in analysis.
 2. `delay_days` is derived from the two dates and cannot disagree with them.
-3. An as-of query or model may consume a record only when `known_date <= as_of`.
+3. An as-of query or model may consume a revision only when both `known_date <= as_of` and `revision_known_at <= as_of`; it selects the newest eligible immutable revision of each logical fact, never a later correction with an older fact date.
 4. `scrape_date` and `fetched_at` never substitute for an unknown event or public-known date.
 5. `known_date = event_date` is allowed only when the provider semantics support immediate public knowledge, not as a generic missing-data fallback.
 6. If required event dates cannot be supported, the source document and parse diagnostics remain persisted without inventing an event.
-7. Corrections retain source-document lineage and ingestion timestamps; mutable arrival time is never part of a deduplication key.
+7. Event envelopes, specialized values, identity links, and any field used by ordering or filtering are immutable per revision. A correction appends a revision with `supersedes_revision_id`, its own `revision_known_at`, `observed_at`, source document, parser, and ingestion run; no prior canonical version is overwritten.
+8. Current reads select the latest eligible revision at the latest published epoch. Reproducible system-time reads additionally pin a publication watermark; public-time `as_of` alone may gain a legitimately late-discovered historical fact, while the same query plus its original watermark remains byte-for-byte membership-stable.
+9. If an original version was knowable at T1 and a correction becomes knowable at T2, `as_of=T1` continues to select the original after T2; `as_of>=T2` selects the correction. Both versions remain traceable to their exact source observation, parser, and run.
 
 These rules preserve the anti-lookahead intent already implemented in `normalize/schema.py` while moving enforcement toward typed models, service validation, database constraints where practical, and data-quality tests.
 
 ## Provenance and idempotency
 
-Every externally derived canonical record identifies its provider/source and stable source record key. When a retrievable document or API payload exists, the record links to immutable fetch/document metadata including URL when available, fetch time, content hash when possible, parser version, parse status, and error/OCR state. Provider limitations may prevent raw-content retention, but never justify omitting the fetch metadata and limitation reason.
+Every externally derived canonical revision identifies its provider/source and stable source record key. When a retrievable document or API payload exists, the revision links to immutable fetch/document metadata including URL when available, fetch time, content hash when possible, parser version, parse status, and error/OCR state. Provider limitations may prevent raw-content retention, but never justify omitting the fetch metadata and limitation reason.
 
-Uniqueness is based on provider-natural identifiers and stable relationships, with database constraints as the final guard. UUIDs, scrape timestamps, mutable display names, and list position are not deduplication keys. Repeated ingestion must update or no-op deterministically and report inserted, updated, duplicate, and failed counts. See [ADR-0009](adr/ADR-0009-provenance-source-documents.md).
+Uniqueness is based on provider-natural identifiers and stable relationships, with database constraints as the final guard. UUIDs, scrape timestamps, mutable display names, and list position are not deduplication keys. Repeating the same natural key and canonical content fingerprint is a fact-level no-op; a new immutable fetch observation/run association may still be recorded. The same key with different canonical content appends an audited revision and supersession edge. It never mutates the prior revision. Ingestion reports inserted identities, inserted revisions, unchanged facts, conflicts, and failures. See [ADR-0008](adr/ADR-0008-event-specialized-table-design.md) and [ADR-0009](adr/ADR-0009-provenance-source-documents.md).
 
 ## Failure and coverage semantics
 
@@ -172,7 +177,9 @@ Ingestion runs separately record lifecycle and counts. A document-level parse fa
 
 ## Query and pagination semantics
 
-Large chronological collections use opaque cursor/keyset pagination, not offset pagination. The stable order is `known_date DESC, event_date DESC, id DESC`, and the cursor carries a version, snapshot boundary, filter fingerprint, and last sort tuple. Later pages reuse the normalized filters and exclude records created after the first-page snapshot. Invalid, mismatched, or stale cursor versions return a client error instead of silently changing meaning. See [ADR-0007](adr/ADR-0007-cursor-pagination.md).
+Large chronological collections use opaque cursor/keyset pagination, not offset pagination. The stable order is `known_date DESC, event_date DESC, id DESC`. Before publication, an ingestion run and all its immutable revisions remain `staging` and invisible. Promotion runs in one PostgreSQL transaction that locks a singleton publication-clock row, increments its stored epoch, assigns that `publication_epoch` to the run, marks it `published`, and commits before releasing the lock. Epoch allocation is not a free-running sequence: lock ownership through commit makes epoch order equal visibility/commit order, and rollback leaves the run invisible.
+
+Page 1 captures the maximum committed publication epoch as its watermark. Every page reads only published runs with `publication_epoch <= watermark`, selects the newest eligible revision per logical fact within that boundary and the requested `as_of`, reapplies immutable normalized filters, and then applies the keyset predicate. The cursor integrity-protects its schema version, endpoint/order, watermark, `as_of`, filter fingerprint, expiry, and last sort tuple. A transaction opened before page 1 but promoted later, a correction, or a late backfill receives a later epoch and cannot enter that traversal. Invalid, mismatched, expired, or no-longer-supported cursors fail explicitly; they never recapture a newer watermark. See [ADR-0007](adr/ADR-0007-cursor-pagination.md).
 
 ## Compatibility and rollback boundary
 

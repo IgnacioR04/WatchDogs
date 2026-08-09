@@ -29,7 +29,7 @@ Routes, exporters, and source adapters depend on service/query interfaces. Domai
 - Unit tests can use fakes at service boundaries, while PostgreSQL integration tests verify actual constraints and SQL behavior.
 - Transaction and retry policy become visible and reviewable.
 - ORM lazy-loading cannot be relied on outside a unit of work.
-- Repository APIs should express domain intent (`upsert_source_record`, candidate search, timeline query) rather than leak arbitrary session access.
+- Repository APIs should express domain intent (`ingest_source_revision`, candidate search, effective-revision timeline query) rather than leak arbitrary session access or imply an in-place fact update.
 
 ## Compatibility
 
@@ -46,5 +46,5 @@ A future persistence replacement implements the same ports. Rollback does not pe
 - Architecture/import tests or review show domain modules do not import FastAPI, SQLAlchemy, scraper, dashboard, or exporter modules.
 - Routes and parsers contain no direct session/table access.
 - Service tests cover transaction commit, rollback, partial failure, and retry policy.
-- PostgreSQL repository tests cover uniqueness, concurrency, and idempotent upserts.
+- PostgreSQL repository tests cover uniqueness, concurrency, and idempotent ingestion: identical natural-key/content is a no-op and changed content appends one immutable revision.
 - Tests confirm ORM objects do not escape after session closure.
