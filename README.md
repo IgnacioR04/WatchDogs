@@ -359,8 +359,11 @@ python -m scrapers.sec_insider
 python -m scrapers.sec_13f
 python -m scrapers.polymarket
 
-# Tests
+# Tests deterministas (excluyen integraciones live)
 pytest
+
+# Integraciones live, solo bajo demanda
+pytest -m live
 
 # Dashboard local
 python -m http.server 8766

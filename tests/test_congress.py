@@ -1,7 +1,7 @@
 """Tests del scraper de Congress (House + Senate).
 
-Hace una corrida real contra los datasets publicos. Marca como xfail si la
-red esta caida o el host devuelve 5xx (no es bug nuestro).
+Los tests unitarios son deterministas. La corrida contra los datasets
+publicos esta marcada como ``live`` y solo se ejecuta con ``pytest -m live``.
 """
 
 from __future__ import annotations
@@ -25,11 +25,18 @@ def _network_ok() -> bool:
         return False
 
 
-@pytest.mark.skipif(not _network_ok(), reason="sin conectividad")
-def test_run_genera_json_con_minimos():
-    """Run completo: descarga + normaliza + escribe JSON con >100 registros."""
+@pytest.mark.live
+def test_run_genera_json_con_minimos(tmp_path, monkeypatch):
+    """Run live: descarga + normaliza en un output temporal aislado."""
+    if not _network_ok():
+        pytest.skip("sin conectividad")
+
+    isolated_output = tmp_path / "congress_trades_30d.json"
+    monkeypatch.setattr(congress, "OUTPUT_PATH", isolated_output)
+
     out_path = congress.run()
-    assert Path(out_path).exists()
+    assert Path(out_path) == isolated_output
+    assert isolated_output.exists()
     data = json.loads(Path(out_path).read_text(encoding="utf-8"))
     assert isinstance(data, list)
     assert len(data) > 100, f"esperaba >100 trades, hay {len(data)}"
