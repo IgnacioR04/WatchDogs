@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-09T15:37:51+00:00 -->
+<!-- trader_prompt.md generado 2026-08-09T16:02:52+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-09T15:37:51+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
+_Generado 2026-08-09T16:02:52+00:00 · ventana señales 2026-07-10 -> 2026-08-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65184.99 (0.43% / 1.76% / -0.07%) [2026-08-09]
+- BTC-USD: 65186.99 (0.43% / 1.77% / -0.07%) [2026-08-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +344,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), leadership (3), earnings (2), regulatory (1), merger (1)
+**Temas dominantes**: stock (4), earnings (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
-- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
+- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
+- [ETD] Ethan Allen Interiors Q4 Earnings Call Highlights (2026-07-30)
+- [ACR] Insider Selling : ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 1 , 389 Shares of Stock (2026-07-30)
+- [ACR] ACRES Commercial Realty ( NYSE : ACR ) Major Shareholder Sells 2 , 212 Shares of Stock (2026-07-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +371,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $133,095 · win rate 93% · categorias: sports
+- SDTrading · PnL $131,911 · win rate 93% · categorias: sports
 - WTSA · PnL $134,393 · win rate 98% · categorias: sports
-- monkeymashingkeyboard · PnL $106,639 · win rate 91% · categorias: sports
-- TAIWANNUMBERONE · PnL $93,723 · win rate 91% · categorias: sports, politics
-- ExplosiveNinja · PnL $22,039 · win rate 97% · categorias: sports
+- monkeymashingkeyboard · PnL $106,512 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $93,757 · win rate 91% · categorias: sports, politics
+- ExplosiveNinja · PnL $22,082 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
