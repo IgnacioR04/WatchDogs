@@ -118,17 +118,26 @@ jobs:
         continue-on-error: true
         run: python -m pipelines.build_trader_prompt
 
-      - name: Sync with remote (rebase)
+      - name: Commit, rebase and push public data safely
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "watchdog-bot"
           git config user.email "actions@github.com"
-          git pull --rebase origin main || true
+          git add -A -- 'data/public/*.json' 'data/public/*.md'
 
-      - name: Commit & push public data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "data: hourly refresh [skip ci]"
-          file_pattern: "data/public/*.json data/public/*.md"
-          commit_user_name: "watchdog-bot"
-          commit_user_email: "actions@github.com"
-          push_options: "--force-with-lease"
+          if git diff --cached --quiet; then
+            echo "No public data changes to publish."
+            exit 0
+          fi
+
+          # Commit before synchronizing so rebase has a clean worktree. If main
+          # advanced incompatibly, rebase fails and no remote ref is modified.
+          git commit -m "data: hourly refresh [skip ci]"
+          git fetch origin main
+          git rebase origin/main
+
+          # A normal push is fast-forward-only. If main advanced after fetch,
+          # GitHub rejects it and preserves the newer remote history.
+          git push origin HEAD:main
