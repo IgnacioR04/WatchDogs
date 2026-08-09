@@ -1,18 +1,18 @@
 # WATCHDOG V4 status
 
-Last verified: 2026-08-09 against `main` merge `91bda83` (`91bda83814fbf012c6f0df339e00ec6333ddc980`).
+Last verified: 2026-08-09 against `main` commit `c90b4d2` (`c90b4d2ff9ac8e89606391835b60f6e71785ae0e`), after P0 incident recovery, workflow hardening and a successful manual hourly smoke run.
 
 ## Executive status
 
 | Field | State |
 |---|---|
-| Current phase | P0 — Repository forensics, baseline and safety — **COMPLETE** |
-| Phase gate | **PASS**; required reviews, merge and post-merge smoke test completed |
+| Current phase | P1.1 — Architecture Decision Records — **IN PROGRESS** ([#6](https://github.com/IgnacioR04/WatchDogs/issues/6)) |
+| Phase gate | P0 **PASS**; P1 is not yet eligible for evaluation |
 | Migration progress | **0%** — no PostgreSQL, entity-resolution, repository or API migration has started |
-| Production behavior | Unchanged; the current static pipeline remains authoritative |
+| Production behavior | Current static pipeline remains authoritative; hardened hourly writer is active and its manual smoke run succeeded |
 | Known regressions | None introduced by V4 work |
-| Blocking defects | None known after the live-test isolation merge |
-| Default test baseline | `134 passed, 1 deselected` |
+| Blocking defects | None known after P0 document recovery and hourly-writer hardening |
+| Default test baseline | `137 passed, 1 deselected` |
 | Explicit live coverage | 1 Congress test, excluded unless `-m live` is requested |
 
 ## Work packages
@@ -21,6 +21,9 @@ Last verified: 2026-08-09 against `main` merge `91bda83` (`91bda83814fbf012c6f0d
 |---|---|---|
 | Issue [#1](https://github.com/IgnacioR04/WatchDogs/issues/1), isolate live/mutating pytest coverage | Closed | PR [#3](https://github.com/IgnacioR04/WatchDogs/pull/3) merged as `287e4d8`; implementation commit `bde4303` |
 | Issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2), P0 repository baseline | Closed | PR [#30](https://github.com/IgnacioR04/WatchDogs/pull/30) merged as `91bda83`; final release and post-merge evidence [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967) |
+| Issue [#33](https://github.com/IgnacioR04/WatchDogs/issues/33), restore the P0 baseline after hourly history rewrite | Closed | PR [#35](https://github.com/IgnacioR04/WatchDogs/pull/35) merged as `3cf491c`; the six accepted P0 documents were restored without replacing the newer data snapshot |
+| Issue [#34](https://github.com/IgnacioR04/WatchDogs/issues/34), make the hourly writer fail closed | Closed | PR [#36](https://github.com/IgnacioR04/WatchDogs/pull/36) merged as `0a8b894`; active/manual post-hardening [smoke run 31317548954](https://github.com/IgnacioR04/WatchDogs/actions/runs/31317548954) succeeded with a normal fast-forward data push |
+| Issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6), P1.1 Architecture Decision Records | In progress | Architecture overview and ten ADRs proposed on `v4/p1-architecture-adrs`; independent approval still required |
 
 ## Open roadmap issues
 
@@ -68,11 +71,13 @@ Snapshot of open issues on 2026-08-09. Dependencies are gate-level summaries of 
 - [x] Configuration-only security review completed independently: [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231706193).
 - [x] PR [#30](https://github.com/IgnacioR04/WatchDogs/pull/30) merged by the release/orchestrator role as `91bda83`: release [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967).
 - [x] Post-merge smoke test on `main` completed and issue [#2](https://github.com/IgnacioR04/WatchDogs/issues/2) closed: release and smoke [PASS](https://github.com/IgnacioR04/WatchDogs/pull/30#issuecomment-5231721967).
+- [x] Hourly history-rewrite incident [#33](https://github.com/IgnacioR04/WatchDogs/issues/33) recovered through reviewed PR [#35](https://github.com/IgnacioR04/WatchDogs/pull/35), merged as `3cf491c`, while retaining the newer generated-data snapshot.
+- [x] Hourly writer hardened through issue [#34](https://github.com/IgnacioR04/WatchDogs/issues/34) and reviewed PR [#36](https://github.com/IgnacioR04/WatchDogs/pull/36), merged as `0a8b894`; [manual run 31317548954](https://github.com/IgnacioR04/WatchDogs/actions/runs/31317548954) passed after activation.
 
 ## Next gates
 
-1. Begin P1.1 with issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6), Architecture Decision Records.
-2. Do not begin P1.2 or mark any later gate complete until the P1.1 ADRs are approved.
+1. Complete independent architecture and QA/documentation review of P1.1 issue [#6](https://github.com/IgnacioR04/WatchDogs/issues/6).
+2. Do not begin P1.2 or mark any later gate complete until the ten P1.1 ADRs are accepted and merged.
 
 ## Approval limitation
 
