@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T17:26:25+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T18:19:30+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.27)
-- Tendencia: `bull` (SPY 773.14 · MA50 747.02 · MA200 700.67 · dist MA200: 10.34%)
+- Volatilidad: `normal` (VIX 15.33)
+- Tendencia: `bull` (SPY 772.71 · MA50 747.01 · MA200 700.66 · dist MA200: 10.28%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,26 +22,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 773.14 | -0.02% | 2.04% | 3.2% |
-| QQQ | 12.0% | core | 722.22 | -0.11% | 3.16% | 1.47% |
-| TLT | 12.0% | core | 82.12 | -0.77% | -0.09% | -1.81% |
-| GLD | 9.3% | core | 399.9 | 0.36% | 7.58% | 8.93% |
-| FWONK | 6.6% | satellite | 102.06 | -0.77% | 4.42% | 2.43% |
-| VEON | 6.5% | satellite | 57.06 | -0.07% | 7.42% | 9.63% |
-| IEF | 6.2% | core | 92.79 | -0.4% | -0.03% | -0.19% |
-| BWFG | 5.4% | satellite | 66.25 | -0.96% | -1.87% | 13.31% |
-| CHRW | 5.2% | satellite | 149.82 | 0.31% | 1.92% | -23.76% |
-| LTH | 4.8% | satellite | 42.75 | -2.42% | -3.21% | 3.09% |
-| DNTH | 2.5% | satellite | 108.7 | -0.2% | 2.53% | 10.2% |
-| SPCX | 1.4% | satellite | 132.83 | -0.21% | 15.98% | -4.54% |
-| WOLF | 1.2% | satellite | 30.08 | -8.49% | 23.53% | -10.61% |
+| SPY | 12.0% | core | 772.71 | -0.07% | 1.98% | 3.14% |
+| QQQ | 12.0% | core | 721.15 | -0.26% | 3.01% | 1.32% |
+| TLT | 12.0% | core | 82.15 | -0.74% | -0.05% | -1.77% |
+| GLD | 9.3% | core | 400.36 | 0.48% | 7.71% | 9.05% |
+| IEF | 6.2% | core | 92.81 | -0.39% | -0.02% | -0.18% |
+| FWONK | 6.0% | satellite | 102.24 | -0.59% | 4.6% | 2.61% |
+| VEON | 5.9% | satellite | 56.89 | -0.37% | 7.1% | 9.3% |
+| BWFG | 4.9% | satellite | 66.2 | -1.05% | -1.95% | 13.22% |
+| CHRW | 4.7% | satellite | 149.6 | 0.17% | 1.77% | -23.87% |
+| LTH | 4.3% | satellite | 42.76 | -2.4% | -3.19% | 3.11% |
+| PINS | 2.9% | satellite | 24.12 | 1.88% | -0.14% | 6.75% |
+| DNTH | 2.3% | satellite | 108.66 | -0.24% | 2.49% | 10.16% |
+| SPCX | 1.2% | satellite | 131.96 | -0.86% | 15.22% | -5.16% |
+| WOLF | 1.1% | satellite | 29.72 | -9.58% | 22.05% | -11.68% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.0%
+- Volatilidad anualizada: 9.3%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.7%
-- Max drawdown historico: -1.3%
-- Beta vs SPY: None · posiciones efectivas: 13.7 · HHI: 0.0731
+- Max drawdown historico: -1.4%
+- Beta vs SPY: None · posiciones efectivas: 14.1 · HHI: 0.0711
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -53,6 +54,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **DNTH** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **PINS** · score agregado 73.0 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,6 +66,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | BRVE | 83 | corporate_insider | Rickey James Paul | 6 | $499,986 | cluster_buy |
 | BRVE | 82 | corporate_insider | Viehbacher Christopher | 6 | $1,499,994 | cluster_buy |
 | BRVE | 82 | corporate_insider | Lubner David Charles | 6 | $999,990 | cluster_buy |
+| CCB | 80 | corporate_insider | Sprink Eric M | 2 | $444,500 | cluster_buy |
 | OKYO | 77 | corporate_insider | Dempsey Robert John | 6 | $23,085 | cluster_buy,small_amount |
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $35,000 | cluster_buy |
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $32,625 | cluster_buy |
@@ -71,23 +74,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TSM | 76 | corporate_insider | Wei Che-Chia | 30 | $11,143 | cluster_buy,small_amount |
 | OKYO | 74 | corporate_insider | Mantelli Flavio | 6 | $28,000 | cluster_buy |
 | BRVE | 74 | corporate_insider | Anderson Michele A. | 6 | $19,998 | cluster_buy,small_amount |
+| PINS | 73 | large_holder | Ameriprise Financial, Inc |  | - | - |
 | VEON | 72 | large_holder | Giovanni Agnelli B.V. |  | - | - |
 | DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
-| DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
-| AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| PINS | 68 | congress | Christian D. Menefee | $50,000 | - |
 | XOM | 65 | congress | James A. Himes | $50,000 | - |
 | HD | 65 | congress | James A. Himes | $50,000 | - |
 | TSCO | 65 | congress | April McClain Delaney | $50,000 | - |
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
-| ANET | 63 | corporate_insider | Ullal Jayshree | $74,391,542 | - |
+| CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| UNH | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -96,15 +98,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 773.14 (-0.02% / 2.04% / 3.2%) [2026-08-10]
-- QQQ: 722.22 (-0.11% / 3.16% / 1.47%) [2026-08-10]
-- IWM: 299.58 (-0.65% / 1.14% / 2.08%) [2026-08-10]
-- DIA: 538.51 (-0.21% / 1.37% / 2.71%) [2026-08-10]
-- TLT: 82.12 (-0.77% / -0.09% / -1.81%) [2026-08-10]
-- IEF: 92.79 (-0.4% / -0.03% / -0.19%) [2026-08-10]
-- GLD: 399.9 (0.36% / 7.58% / 8.93%) [2026-08-10]
-- ^VIX: 15.27 (2.48% / -3.72% / -11.01%) [2026-08-10]
-- BTC-USD: 63899.16 (-1.46% / -1.08% / -3.92%) [2026-08-10]
+- SPY: 772.71 (-0.07% / 1.98% / 3.14%) [2026-08-10]
+- QQQ: 721.15 (-0.26% / 3.01% / 1.32%) [2026-08-10]
+- IWM: 299.64 (-0.64% / 1.15% / 2.1%) [2026-08-10]
+- DIA: 538.19 (-0.26% / 1.31% / 2.65%) [2026-08-10]
+- TLT: 82.15 (-0.74% / -0.05% / -1.77%) [2026-08-10]
+- IEF: 92.81 (-0.39% / -0.02% / -0.18%) [2026-08-10]
+- GLD: 400.36 (0.48% / 7.71% / 9.05%) [2026-08-10]
+- ^VIX: 15.33 (2.89% / -3.34% / -10.66%) [2026-08-10]
+- BTC-USD: 63878.21 (-1.49% / -1.11% / -3.95%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,30 +121,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (4), ai (2), leadership (2), merger (1)
+**Temas dominantes**: earnings (4), stock (4), leadership (2), regulatory (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TSM] TSMC Stock Holds Flat Despite 44 . 7 % July Sales Surge (2026-08-10)
-- [TSM] Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45 % (2026-08-10)
-- [TSM] Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45 % (2026-08-10)
+- [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
 - [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
-- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
 - [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
 - [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
-- [DNTH] DV Trading LLC Acquires Shares of 26 , 551 Dianthus Therapeutics , Inc . $DNTH (2026-08-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Lazar David E. opero QUCY por $6.3B el 2026-08-05 [senal en multiples fuentes].
-- CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].
 - CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.
 - CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.
 - CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.
+- CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.
 - CEO Huang Jack Jiajia compro COE por $2.4M el 2026-08-04.
 
 **Polymarket — smart money (traders con mejor track record):**
@@ -158,8 +160,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 712 registros 30d · ultimo dato 2026-08-08
+- **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 613 registros 30d · ultimo dato 2026-08-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -173,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, DNTH, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT, VEON, WOLF`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, DNTH, FWONK, GLD, IEF, LTH, PINS, QQQ, SPCX, SPY, TLT, VEON, WOLF`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
