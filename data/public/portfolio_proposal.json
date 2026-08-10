@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:27:16+00:00",
+  "generated_at": "2026-08-10T17:26:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8502,
@@ -9,14 +9,15 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.082,
-    "BWFG": 0.0667,
-    "CHRW": 0.0637,
+    "FWONK": 0.0655,
+    "VEON": 0.0648,
     "IEF": 0.0622,
-    "LTH": 0.0595,
-    "DNTH": 0.031,
-    "SPCX": 0.0168,
-    "WOLF": 0.015
+    "BWFG": 0.0541,
+    "CHRW": 0.0519,
+    "LTH": 0.0476,
+    "DNTH": 0.0252,
+    "SPCX": 0.0136,
+    "WOLF": 0.012
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BWFG": 0.0593,
-    "FWONK": 0.0729,
-    "WOLF": 0.0133,
-    "SPCX": 0.0149,
-    "DNTH": 0.0276,
-    "CHRW": 0.0566,
-    "LTH": 0.0529
+    "BWFG": 0.0481,
+    "FWONK": 0.0582,
+    "VEON": 0.0576,
+    "WOLF": 0.0107,
+    "SPCX": 0.0121,
+    "DNTH": 0.0224,
+    "CHRW": 0.0461,
+    "LTH": 0.0423
   },
   "satellite_rationale": [
     {
@@ -48,6 +50,15 @@
       "score": 248.8,
       "sources": [
         "congress"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "VEON",
+      "score": 247.0,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
       ],
       "n_signals": 4
     },
@@ -93,15 +104,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0956,
-    "var_95_1d": 0.0064,
-    "cvar_95_1d": 0.0076,
-    "max_drawdown": -0.0131,
+    "ann_vol": 0.0905,
+    "var_95_1d": 0.0067,
+    "cvar_95_1d": 0.0072,
+    "max_drawdown": -0.0127,
     "beta_spy": null,
-    "hhi": 0.076,
+    "hhi": 0.0731,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.2,
+    "n_positions": 13,
+    "effective_positions": 13.7,
     "gross_exposure": 0.8502,
     "days_used": 24
   },
