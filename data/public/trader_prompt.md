@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-10T10:51:38+00:00 -->
+<!-- trader_prompt.md generado 2026-08-10T12:17:35+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T10:51:38+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T12:17:35+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -238,7 +238,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.45)
+- Volatilidad: `normal` (VIX 15.46)
 - Tendencia: `bull` (SPY 773.26 · MA50 746.61 · MA200 700.13 · dist MA200: 10.45%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -254,27 +254,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 773.26 | 0.61% | 3.51% | 2.43% |
 | QQQ | 12.0% | core | 723.03 | 1.17% | 5.09% | -0.34% |
 | TLT | 12.0% | core | 82.76 | 0.29% | 1.03% | -1.63% |
+| FWONK | 10.7% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
 | GLD | 9.3% | core | 398.47 | 2.26% | 7.25% | 5.69% |
-| FWONK | 8.8% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
-| NMM | 7.4% | satellite | 79.35 | 0.4% | -1.75% | 4.75% |
-| LTH | 7.3% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
+| CHRW | 8.3% | satellite | 149.35 | 1.83% | 1.1% | -22.82% |
+| LTH | 8.1% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
 | IEF | 6.2% | core | 93.17 | 0.24% | 0.58% | -0.15% |
-| CHRW | 4.0% | satellite | 149.35 | 1.83% | 1.1% | -22.82% |
-| DNTH | 4.0% | satellite | 108.92 | -0.91% | 1.87% | 11.6% |
-| SPCX | 2.1% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
+| DNTH | 4.1% | satellite | 108.92 | -0.91% | 1.87% | 11.6% |
+| SPCX | 2.2% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.4%
-- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.8%
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
 - Max drawdown historico: -1.3%
-- Beta vs SPY: 0.458 · posiciones efectivas: 12.9 · HHI: 0.0778
+- Beta vs SPY: None · posiciones efectivas: 12.1 · HHI: 0.083
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
-- **NMM** · score agregado 174.3 · 3 señales · fuentes: corporate_insider
 - **DNTH** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
@@ -285,21 +283,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| BRVE | 91 | corporate_insider | Forbion Growth Opportunit | 7 | $34,560,000 | cluster_buy |
-| BRVE | 91 | corporate_insider | Forbion Growth Opportunit | 7 | $30,240,000 | cluster_buy |
-| BRVE | 86 | corporate_insider | Murdoch Travis | 7 | $1,499,994 | cluster_buy |
-| BRVE | 83 | corporate_insider | Rickey James Paul | 7 | $499,986 | cluster_buy |
-| BRVE | 82 | corporate_insider | Viehbacher Christopher | 7 | $1,499,994 | cluster_buy |
-| BRVE | 82 | corporate_insider | Lubner David Charles | 7 | $999,990 | cluster_buy |
+| BRVE | 86 | corporate_insider | Murdoch Travis | 6 | $1,499,994 | cluster_buy |
+| BRVE | 83 | corporate_insider | Rickey James Paul | 6 | $499,986 | cluster_buy |
+| BRVE | 82 | corporate_insider | Viehbacher Christopher | 6 | $1,499,994 | cluster_buy |
+| BRVE | 82 | corporate_insider | Lubner David Charles | 6 | $999,990 | cluster_buy |
 | CCB | 80 | corporate_insider | Sprink Eric M | 2 | $444,500 | cluster_buy |
 | OKYO | 77 | corporate_insider | Dempsey Robert John | 6 | $23,085 | cluster_buy,small_amount |
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $35,000 | cluster_buy |
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $32,625 | cluster_buy |
-| BRVE | 76 | corporate_insider | Malek David I | 7 | $74,988 | cluster_buy |
+| BRVE | 76 | corporate_insider | Malek David I | 6 | $74,988 | cluster_buy |
 | OKYO | 74 | corporate_insider | Mantelli Flavio | 6 | $28,000 | cluster_buy |
-| BRVE | 74 | corporate_insider | Anderson Michele A. | 7 | $19,998 | cluster_buy,small_amount |
+| BRVE | 74 | corporate_insider | Anderson Michele A. | 6 | $19,998 | cluster_buy,small_amount |
 | DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
+| AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
+| PINS | 72 | large_holder | Ameriprise Financial, Inc |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -308,11 +306,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | XOM | 65 | congress | James A. Himes | $50,000 | - |
 | HD | 65 | congress | James A. Himes | $50,000 | - |
 | TSCO | 65 | congress | April McClain Delaney | $50,000 | - |
-| NVDA | 65 | congress | Sam T. Liccardo | $50,000 | - |
+| NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | ANET | 63 | corporate_insider | Ullal Jayshree | $74,391,542 | - |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| NVDA | 62 | congress | Dan Newhouse | $15,000 | small_amount |
+| TMO | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -328,8 +326,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.76 (0.29% / 1.03% / -1.63%) [2026-08-07]
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
-- ^VIX: 15.45 (3.69% / -2.59% / -9.97%) [2026-08-10]
-- BTC-USD: 64971.99 (0.2% / 0.58% / -2.31%) [2026-08-10]
+- ^VIX: 15.46 (3.76% / -2.52% / -9.91%) [2026-08-10]
+- BTC-USD: 65059.04 (0.33% / 0.71% / -2.17%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,39 +342,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), earnings (2), leadership (2), ai (1), merger (1)
+**Temas dominantes**: earnings (3), stock (2), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SVV] Savers Value Village ( NYSE : SVV ) Insider Sells $164 , 700 . 00 in Stock (2026-08-10)
-- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
-- [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
-- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
-- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
-- [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
+- [TMO] FinancialContent - Adamas Trust , Inc . - 7 . 000 % Series G Cumulative Redeemable Preferred Stock ( Nasdaq : ADAMZ ) Stock Quote (2026-08-10)
+- [TSM] Sony , TSMC to spend US$6 . 3 billion on Japan image sensor venture , Nikkei says (2026-08-10)
+- [TSM] TSMC July revenue jumps 44 . 7 % to record US$14 . 5B , 2026 growth forecast tops 40 % (2026-08-10)
+- [TSM] TSMC July Revenue Up 44 . 7 % to USD 16 . 03 Billion (2026-08-10)
+- [TSM] Taiwan Semiconductor Manufacturing ( NYSE : TSM ) Rating Lowered to Buy at Wall Street Zen (2026-08-10)
+- [TSM] Sony , TSMC to invest US$6 . 4bil in joint chip plant in Japan (2026-08-10)
+- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Lazar David E. opero QUCY por $6.3B el 2026-08-05 [senal en multiples fuentes].
-- 10% owner Forbion Growth Opportunities Fund III Cooperatief U.A. compro BRVE por $34.6M el 2026-08-07.
 - CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].
 - CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.
 - CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.
 - CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.
+- CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- quavoo · PnL $257,795 · win rate 84% · categorias: sports, politics, economy
-- TAIWANNUMBERONE · PnL $66,822 · win rate 91% · categorias: sports, politics
+- quavoo · PnL $258,069 · win rate 84% · categorias: sports, politics, economy
+- TAIWANNUMBERONE · PnL $42,926 · win rate 91% · categorias: sports, politics
+- JnStTrdrBnusFnd · PnL $29,843 · win rate 92% · categorias: crypto
 - VD721lsj4938Dk388 · PnL $29,511 · win rate 91% · categorias: sports
-- 0x5dd9da6e · PnL $14,989 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $19,189 · win rate 92% · categorias: crypto
+- 0x5dd9da6e · PnL $15,115 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -384,7 +380,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 777 registros 30d · ultimo dato 2026-08-07
+- **sec_insiders**: `ok` · 751 registros 30d · ultimo dato 2026-08-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -398,7 +394,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, DNTH, FWONK, GLD, IEF, LTH, NMM, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, DNTH, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
