@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-10T02:49:30+00:00 -->
+<!-- trader_prompt.md generado 2026-08-10T05:09:09+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -229,7 +229,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T02:49:30+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T05:09:09+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 65099.07 (0.3% / 1.63% / -0.2%) [2026-08-10]
+- BTC-USD: 64990.26 (0.13% / 1.46% / -0.37%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,20 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (2), regulatory (2), leadership (2)
+**Temas dominantes**: stock (5), earnings (5), leadership (3), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TMO] Promising Casino Stocks To Follow Today – August 8th (2026-08-10)
+- [TMO] Indian Stock Market Opens Slightly Higher Amid Global Uncertainty (2026-08-10)
 - [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
+- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
 - [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
-- [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
+- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
 - [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
-- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
-- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
-- [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $121,962 · win rate 98% · categorias: sports
-- Shori888 · PnL $6,747 · win rate 100% · categorias: sports
-- VD721lsj4938Dk388 · PnL $25,106 · win rate 91% · categorias: sports
-- comon119 · PnL $6,415 · win rate 99% · categorias: sports, crypto, politics
-- quavoo · PnL $32,187 · win rate 83% · categorias: sports, politics, economy
+- quavoo · PnL $181,245 · win rate 84% · categorias: sports, politics, economy
+- VD721lsj4938Dk388 · PnL $29,478 · win rate 91% · categorias: sports
+- Shori888 · PnL $6,855 · win rate 100% · categorias: sports
+- Forecastication2 · PnL $20,849 · win rate 91% · categorias: sports
+- JnStTrdrBnusFnd · PnL $6,836 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
