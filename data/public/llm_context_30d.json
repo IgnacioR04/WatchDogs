@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-10T20:19:09.428524+00:00",
+  "generated_at": "2026-08-10T21:15:29.079345+00:00",
   "window": {
     "from": "2026-07-11",
     "to": "2026-08-10",
@@ -23,11 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
       "earnings",
-      "leadership",
-      "regulatory"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,104 +32,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO opero QUCY ($6.3B)",
-      "summary": "CEO Lazar David E. opero QUCY por $6.3B el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lazar David E.",
-      "actor_type": "ceo",
-      "ticker": "QUCY",
-      "direction": "other",
-      "amount_estimated": 6312937500.0,
-      "event_date": "2026-08-05",
-      "importance_score": 89.1,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1932843/000182912626008488/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
-      "title": "CEO opero QUCY ($81.0M)",
-      "summary": "CEO Lazar David E. opero QUCY por $81.0M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lazar David E.",
-      "actor_type": "ceo",
-      "ticker": "QUCY",
-      "direction": "other",
-      "amount_estimated": 81000000.0,
-      "event_date": "2026-08-05",
-      "importance_score": 88.6,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1932843/000182912626008488/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
-      "title": "CEO vendio ANET ($74.4M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 74391541.85,
-      "event_date": "2026-08-05",
-      "importance_score": 87.5,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
-      "title": "CEO vendio ANET ($30.1M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $30.1M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 30131151.76,
-      "event_date": "2026-08-05",
-      "importance_score": 85.5,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO vendio DNTH ($11.2M)",
-      "summary": "CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Garcia Marino",
-      "actor_type": "ceo",
-      "ticker": "DNTH",
-      "direction": "sell",
-      "amount_estimated": 11237664.36,
-      "event_date": "2026-08-07",
-      "importance_score": 84.9,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1669866/000166986626000010/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
       "title": "CEO compro COE ($6.2M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.",
       "source": "sec_form_4",
@@ -149,30 +48,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO vendio ANET ($16.1M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $16.1M el 2026-08-05 [senal en multiples fuentes].",
+      "id": "move_2",
+      "rank": 2,
+      "title": "10% owner vendio TISI ($57.0M)",
+      "summary": "10% owner Corre Partners Management, LLC vendio TISI por $57.0M el 2026-08-06 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
+      "actor_name": "Corre Partners Management, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "TISI",
       "direction": "sell",
-      "amount_estimated": 16072215.63,
-      "event_date": "2026-08-05",
-      "importance_score": 84.1,
+      "amount_estimated": 56953573.0,
+      "event_date": "2026-08-06",
+      "importance_score": 84.4,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601971/000089914026000795/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO compro COE ($3.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.",
       "source": "sec_form_4",
@@ -189,30 +84,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio ANET ($10.9M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $10.9M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 10853095.53,
-      "event_date": "2026-08-05",
-      "importance_score": 83.3,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO compro COE ($2.4M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.4M el 2026-08-04.",
       "source": "sec_form_4",
@@ -229,208 +102,292 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "CEO vendio ANET ($7.4M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $7.4M el 2026-08-05 [senal en multiples fuentes].",
+      "id": "move_5",
+      "rank": 5,
+      "title": "10% owner compro ATTO ($6.5M)",
+      "summary": "10% owner venBio Global Strategic Fund IV, L.P. compro ATTO por $6.5M el 2026-08-06.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 7441919.19,
-      "event_date": "2026-08-05",
-      "importance_score": 82.5,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
+      "actor_name": "venBio Global Strategic Fund IV, L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ATTO",
+      "direction": "buy",
+      "amount_estimated": 6499984.0,
+      "event_date": "2026-08-06",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1862109/000090514826003548/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
+      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 40145783473,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 35477573797,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
+      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "Institutional manager compro APPLE INC ($25.1B)",
+      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_12",
       "rank": 12,
-      "title": "CEO vendio ANET ($6.9M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $6.9M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 6907248.84,
-      "event_date": "2026-08-05",
-      "importance_score": 82.3,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_13",
       "rank": 13,
-      "title": "CEO vendio ANET ($6.5M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $6.5M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 6510150.13,
-      "event_date": "2026-08-05",
-      "importance_score": 82.2,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_14",
       "rank": 14,
-      "title": "CEO vendio MRNA ($11.0M)",
-      "summary": "CEO Bancel Stephane vendio MRNA por $11.0M el 2026-08-05.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Bancel Stephane",
-      "actor_type": "ceo",
-      "ticker": "MRNA",
-      "direction": "sell",
-      "amount_estimated": 10996316.76,
-      "event_date": "2026-08-05",
-      "importance_score": 82.1,
+      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+      "source_url": ""
     },
     {
       "id": "move_15",
       "rank": 15,
-      "title": "CEO vendio ANET ($5.9M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $5.9M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
+      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
+      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Nomura Holdings Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
       "direction": "sell",
-      "amount_estimated": 5891287.46,
-      "event_date": "2026-08-05",
-      "importance_score": 82.0,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
+      "amount_estimated": 19159260573,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_16",
       "rank": 16,
-      "title": "CEO vendio ANET ($5.4M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $5.4M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 5418643.74,
-      "event_date": "2026-08-05",
-      "importance_score": 81.8,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
+      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
+      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Citadel Advisors LLC",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16040282989,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_17",
       "rank": 17,
-      "title": "CEO vendio ANET ($5.5M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $5.5M el 2026-08-05 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 5494382.57,
-      "event_date": "2026-08-05",
-      "importance_score": 81.8,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_989345144423",
-        "news_602083947022",
-        "news_496764845945"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
+      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
+      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 15145083757,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     },
     {
       "id": "move_18",
       "rank": 18,
-      "title": "CEO opero MRNA ($9.6M)",
-      "summary": "CEO Bancel Stephane opero MRNA por $9.6M el 2026-08-05.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Bancel Stephane",
-      "actor_type": "ceo",
-      "ticker": "MRNA",
-      "direction": "other",
-      "amount_estimated": 9560560.9,
-      "event_date": "2026-08-05",
-      "importance_score": 81.8,
+      "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
+      "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 14828033296,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+      "source_url": ""
     },
     {
       "id": "move_19",
       "rank": 19,
-      "title": "CEO opero MRNA ($4.8M)",
-      "summary": "CEO Bancel Stephane opero MRNA por $4.8M el 2026-08-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Bancel Stephane",
-      "actor_type": "ceo",
-      "ticker": "MRNA",
-      "direction": "other",
-      "amount_estimated": 4834781.35,
-      "event_date": "2026-08-06",
-      "importance_score": 81.8,
+      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 14184846003,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1443340/000168285226000153/"
+      "source_url": ""
     },
     {
       "id": "move_20",
       "rank": 20,
-      "title": "CEO vendio DNTH ($2.6M)",
-      "summary": "CEO Garcia Marino vendio DNTH por $2.6M el 2026-08-07 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Garcia Marino",
-      "actor_type": "ceo",
-      "ticker": "DNTH",
-      "direction": "sell",
-      "amount_estimated": 2583151.35,
-      "event_date": "2026-08-07",
-      "importance_score": 81.7,
-      "cross_source_score": 25.0,
+      "title": "Institutional manager compro LAM RESEARCH CORP ($13.7B)",
+      "summary": "Institutional manager State Street Corp compro LAM RESEARCH CORP por $13.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 13665595558,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1669866/000166986626000010/"
+      "source_url": ""
     }
   ],
   "top_tickers": {
@@ -494,6 +451,14 @@
         ]
       },
       {
+        "ticker": "FBIN",
+        "company": "Fortune Brands Innovations, Inc.",
+        "pressure_score": 239.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SPCX",
         "company": "SP Space Exploration Technologies Corp.",
         "pressure_score": 236.6,
@@ -507,6 +472,23 @@
         "pressure_score": 228.0,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "TISI",
+        "company": "TEAM INC",
+        "pressure_score": 215.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "OBX",
+        "company": "Obsidian Therapeutics, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
         ]
       },
       {
@@ -526,68 +508,28 @@
         ]
       },
       {
-        "ticker": "APCX",
-        "company": "AppTech Payments Corp.",
-        "pressure_score": 199.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TOFB",
         "company": "TOFUTTI BRANDS INC",
         "pressure_score": 194.0,
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "BWXT",
-        "company": "Stock",
-        "pressure_score": 182.9,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MLM",
-        "company": "Common Stock",
-        "pressure_score": 176.9,
-        "sources": [
-          "congress"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 7020.1,
+        "ticker": "TMO",
+        "company": "Stock",
+        "pressure_score": 2025.8,
         "sources": [
           "congress",
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CRCL",
-        "company": "Circle Internet Group, Inc.",
-        "pressure_score": 1814.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GFF",
-        "company": "GRIFFON CORP",
-        "pressure_score": 1425.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SVV",
-        "company": "Savers Value Village, Inc.",
-        "pressure_score": 1225.9,
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 1103.5,
         "sources": [
           "corporate_insider"
         ]
@@ -601,9 +543,9 @@
         ]
       },
       {
-        "ticker": "NTRA",
-        "company": "Natera, Inc.",
-        "pressure_score": 763.6,
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 902.4,
         "sources": [
           "corporate_insider"
         ]
@@ -617,42 +559,42 @@
         ]
       },
       {
-        "ticker": "YOU",
-        "company": "Clear Secure, Inc.",
-        "pressure_score": 724.9,
+        "ticker": "CRL",
+        "company": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+        "pressure_score": 691.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DNTH",
-        "company": "DIANTHUS THERAPEUTICS INC",
-        "pressure_score": 555.7,
+        "ticker": "HSY",
+        "company": "Stock",
+        "pressure_score": 642.6,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "congress",
+          "corporate_insider"
         ]
       },
       {
-        "ticker": "ZM",
-        "company": "Zoom Communications, Inc.",
-        "pressure_score": 513.4,
+        "ticker": "CALY",
+        "company": "Callaway Golf Co",
+        "pressure_score": 631.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "TOST",
-        "company": "Toast, Inc.",
-        "pressure_score": 502.3,
+        "ticker": "ALAB",
+        "company": "Astera Labs, Inc.",
+        "pressure_score": 615.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "MGNI",
-        "company": "MAGNITE, INC.",
-        "pressure_score": 416.2,
+        "ticker": "IRM",
+        "company": "IRON MOUNTAIN INC",
+        "pressure_score": 447.4,
         "sources": [
           "corporate_insider"
         ]
@@ -677,6 +619,22 @@
         "ticker": "SCI",
         "company": "Common Stock",
         "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MEI",
+        "company": "METHODE ELECTRONICS INC",
+        "pressure_score": 348.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SPGI",
+        "company": "S&P Global Inc. Common Stock",
+        "pressure_score": 286.9,
         "sources": [
           "congress"
         ]
@@ -712,6 +670,33 @@
       "score": 82.8
     },
     {
+      "ticker": "ATTO",
+      "company": "Attovia Therapeutics, Inc.",
+      "actor": "venBio Global Strategic Fund IV, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 6499984.0,
+      "date": "2026-08-06",
+      "score": 82.4
+    },
+    {
+      "ticker": "FBIN",
+      "company": "Fortune Brands Innovations, Inc.",
+      "actor": "Singh Jesse G",
+      "actor_type": "ceo",
+      "amount": 996261.22,
+      "date": "2026-08-07",
+      "score": 80.8
+    },
+    {
+      "ticker": "FBIN",
+      "company": "Fortune Brands Innovations, Inc.",
+      "actor": "Singh Jesse G",
+      "actor_type": "ceo",
+      "amount": 743253.57,
+      "date": "2026-08-06",
+      "score": 80.2
+    },
+    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -728,6 +713,15 @@
       "amount": 498315.0,
       "date": "2026-08-07",
       "score": 79.3
+    },
+    {
+      "ticker": "FBIN",
+      "company": "Fortune Brands Innovations, Inc.",
+      "actor": "Singh Jesse G",
+      "actor_type": "ceo",
+      "amount": 275827.16,
+      "date": "2026-08-06",
+      "score": 78.1
     },
     {
       "ticker": "SON",
@@ -748,6 +742,24 @@
       "score": 76.5
     },
     {
+      "ticker": "CLVT",
+      "company": "CLARIVATE PLC",
+      "actor": "Cornick Kenneth L.",
+      "actor_type": "director",
+      "amount": 1209000.0,
+      "date": "2026-08-06",
+      "score": 76.3
+    },
+    {
+      "ticker": "PSN",
+      "company": "PARSONS CORP",
+      "actor": "Ball George L.",
+      "actor_type": "director",
+      "amount": 959400.0,
+      "date": "2026-08-07",
+      "score": 75.8
+    },
+    {
       "ticker": "PRTA",
       "company": "PROTHENA CORP PUBLIC LTD CO",
       "actor": "SCULLY WILLIAM P",
@@ -757,67 +769,13 @@
       "score": 75.7
     },
     {
-      "ticker": "VEON",
-      "company": "VEON Ltd.",
-      "actor": "Fabela Augie K II",
-      "actor_type": "director",
-      "amount": 280113.0,
-      "date": "2026-08-07",
-      "score": 74.3
-    },
-    {
-      "ticker": "BWFG",
-      "company": "Bankwell Financial Group, Inc.",
-      "actor": "SEIDMAN LAWRENCE B",
-      "actor_type": "director",
-      "amount": 262083.08,
-      "date": "2026-08-07",
-      "score": 72.9
-    },
-    {
-      "ticker": "MATW",
-      "company": "MATTHEWS INTERNATIONAL CORP",
-      "actor": "SCHAWK DAVID A",
-      "actor_type": "director",
-      "amount": 118000.0,
-      "date": "2026-08-10",
-      "score": 72.7
-    },
-    {
-      "ticker": "TSM",
-      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "actor": "Wei Che-Chia",
+      "ticker": "CLNE",
+      "company": "Clean Energy Fuels Corp.",
+      "actor": "Corbus Barclay",
       "actor_type": "ceo",
-      "amount": 11143.12,
-      "date": "2026-08-07",
-      "score": 72.3
-    },
-    {
-      "ticker": "OBK",
-      "company": "Origin Bancorp, Inc.",
-      "actor": "Jones Cecil W.",
-      "actor_type": "director",
-      "amount": 199282.0,
-      "date": "2026-08-07",
-      "score": 72.3
-    },
-    {
-      "ticker": "RRBI",
-      "company": "RED RIVER BANCSHARES INC",
-      "actor": "Price Teddy Ray",
-      "actor_type": "director",
-      "amount": 93896.6,
+      "amount": 40500.0,
       "date": "2026-08-10",
-      "score": 72.2
-    },
-    {
-      "ticker": "BWFG",
-      "company": "Bankwell Financial Group, Inc.",
-      "actor": "SEIDMAN LAWRENCE B",
-      "actor_type": "director",
-      "amount": 174611.02,
-      "date": "2026-08-07",
-      "score": 72.1
+      "score": 75.4
     }
   ],
   "institutional_changes": [
@@ -1117,8 +1075,8 @@
     },
     {
       "politician": "Dan Newhouse",
-      "ticker": "ANET",
-      "direction": "buy",
+      "ticker": "LLY",
+      "direction": "sell",
       "amount": 15000,
       "date": "2026-07-10",
       "score": 62.4
@@ -1162,6 +1120,15 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "CK Amarillo LP",
+      "company": "Hertz Global Holdings, Inc.",
+      "ticker": "",
+      "ownership_pct": 50.9,
+      "shares": 181455469,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-10"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1198,6 +1165,15 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "InspectionTech Holdings LP",
+      "company": "TEAM INC",
+      "ticker": "TISI",
+      "ownership_pct": 35.1,
+      "shares": 1604326,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-10"
+    },
+    {
       "filer": "OPKO HEALTH, INC.",
       "company": "Cocrystal Pharma, Inc.",
       "ticker": "COCP",
@@ -1225,38 +1201,20 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "Pale Fire Capital SICAV a.s.",
+      "company": "Groupon, Inc.",
+      "ticker": "GRPN",
+      "ownership_pct": 25.0,
+      "shares": 10180970,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-10"
+    },
+    {
       "filer": "Gilead Sciences, Inc.",
       "company": "Arcus Biosciences, Inc.",
       "ticker": "RCUS",
       "ownership_pct": 24.7,
       "shares": 31424760,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
-      "filer": "Sit Investment Associates, Inc.",
-      "company": "DWS Municipal Income Trust",
-      "ticker": "KTF",
-      "ownership_pct": 24.1,
-      "shares": 9432271,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
-      "filer": "Rithm Capital Corp.",
-      "company": "Rithm Property Trust Inc.",
-      "ticker": "",
-      "ownership_pct": 17.1,
-      "shares": 1447680,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
-      "filer": "L.I.A. Pure Capital Ltd.",
-      "company": "Evogene Ltd.",
-      "ticker": "EVGN",
-      "ownership_pct": 15.98,
-      "shares": 2524400,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-07"
     }
@@ -1276,13 +1234,23 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 209036.09,
-        "win_rate": 0.839,
-        "volume": 640351.96,
+        "pnl": 208416.93,
+        "win_rate": 0.842,
+        "volume": 652267.83,
         "categories": [
           "sports",
           "politics",
           "economy"
+        ]
+      },
+      {
+        "wallet": "0x162ca4c524",
+        "username": "VD721lsj4938Dk388",
+        "pnl": 34678.99,
+        "win_rate": 0.914,
+        "volume": 28617.23,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1296,21 +1264,21 @@
         ]
       },
       {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 30650.29,
-        "win_rate": 0.9137,
-        "volume": 28617.23,
+        "wallet": "0x282f817479",
+        "username": "lzh1",
+        "pnl": 28086.83,
+        "win_rate": 0.9167,
+        "volume": 92557.24,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x282f817479",
-        "username": "lzh1",
-        "pnl": 28733.68,
-        "win_rate": 0.9167,
-        "volume": 92557.24,
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 67487.71,
+        "win_rate": 1.0,
+        "volume": 289668.04,
         "categories": [
           "sports"
         ]
@@ -1341,7 +1309,7 @@
         "wallet": "0xcf609d3256",
         "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
         "pnl": 22598.07,
-        "win_rate": 0.846,
+        "win_rate": 0.847,
         "volume": 160180.92,
         "categories": [
           "sports"
@@ -1350,24 +1318,12 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 21029.85,
+        "pnl": 20515.57,
         "win_rate": 0.8342,
-        "volume": 118392.53,
+        "volume": 137821.1,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x71edffd0d7",
-        "username": "pako",
-        "pnl": 19295.58,
-        "win_rate": 0.8234,
-        "volume": 6290.75,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
         ]
       }
     ],
@@ -1386,9 +1342,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 44766.1,
+        "pnl": 50345.98,
         "win_rate": 0.646,
-        "volume": 6153124.45,
+        "volume": 6209125.9,
         "categories": [
           "sports",
           "crypto",
@@ -1396,21 +1352,11 @@
         ]
       },
       {
-        "wallet": "0xd6d9ed4117",
-        "username": "acc1211",
-        "pnl": 21763.08,
-        "win_rate": 1.0,
-        "volume": 589924.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 124219.99,
-        "win_rate": 0.5484,
-        "volume": 307328.94,
+        "pnl": 60312.92,
+        "win_rate": 0.4789,
+        "volume": 308687.56,
         "categories": [
           "sports"
         ]
@@ -1418,20 +1364,50 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 64848.85,
-        "win_rate": 0.544,
-        "volume": 407706.06,
+        "pnl": 64943.34,
+        "win_rate": 0.543,
+        "volume": 419316.57,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 67487.71,
+        "win_rate": 1.0,
+        "volume": 289668.04,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 27568.13,
+        "pnl": 28180.73,
         "win_rate": 0.538,
-        "volume": 579794.71,
+        "volume": 590435.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa4b7b1814b",
+        "username": "midwicket72",
+        "pnl": 59348.2,
+        "win_rate": 0.5079,
+        "volume": 313607.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 53006.39,
+        "win_rate": 0.192,
+        "volume": 1358927.84,
         "categories": [
           "sports"
         ]
@@ -1439,9 +1415,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 209036.09,
-        "win_rate": 0.839,
-        "volume": 640351.96,
+        "pnl": 208416.93,
+        "win_rate": 0.842,
+        "volume": 652267.83,
         "categories": [
           "sports",
           "politics",
@@ -1451,184 +1427,131 @@
       {
         "wallet": "0x0cb0384875",
         "username": "",
-        "pnl": 18721.28,
-        "win_rate": 0.51,
-        "volume": 942103.23,
+        "pnl": 18149.87,
+        "win_rate": 0.507,
+        "volume": 1018387.58,
         "categories": [
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 61820.74,
-        "win_rate": 0.26,
-        "volume": 1218825.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x31864feb9d",
-        "username": "johnbaster",
-        "pnl": 22835.75,
-        "win_rate": 0.536,
-        "volume": 386736.08,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "TSMC , Sony to invest in sensor plant",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862263",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC Can Sidestep $1 Billion Apple Chip Glut by Rerouting Production Lines to AI , Taiwan Analyst Argues",
-      "url": "https://wccftech.com/tsmc-can-sidestep-apple-chip-glut-by-rerouting-production-lines-to-ai-taiwan-analyst-argues/",
-      "ticker": "TSM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Sony Pledges $6 . 3 Billion to Build Sensors with TSMC in First Foundry Shift",
-      "url": "https://www.techtimes.com/articles/323752/20260810/sony-pledges-63-billion-build-sensors-tsmc-first-foundry-shift.htm",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC Stock Holds Flat Despite 44 . 7 % July Sales Surge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-holds-flat-despite-155910769.html",
-      "ticker": "TSM",
+      "title": "FinancialContent - Plug Power ( NASDAQ : PLUG ) Q2 CY2026 Sales Top Estimates , Stock Soars",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-plug-powers-nasdaqplug-q2-cy2026-sales-top-estimates-stock-soars",
+      "ticker": "TMO",
       "themes": [
         "stock"
       ],
       "date": "2026-08-10"
     },
     {
-      "title": "Head to Head Review : boohoo group ( OTCMKTS : BHHOF ) and Savers Value Village ( NYSE : SVV ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13537645/head-to-head-review-boohoo-group-otcmktsbhhof-and-savers-value-village-nysesvv.html",
-      "ticker": "SVV",
+      "title": "Datadog coverage update : BofA stays bullish on weakness",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
+      "ticker": "DDOG",
       "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Savers Value Village ( NYSE : SVV ) Insider Sells $164 , 700 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/10/savers-value-village-nysesvv-insider-sells-164700-00-in-stock.html",
-      "ticker": "SVV",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/09/mark-walsh-sells-7941-shares-of-savers-value-village-nysesvv-stock.html",
-      "ticker": "SVV",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-08-09"
     },
     {
-      "title": "Griffon Q3 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/griffon-q3-earnings-call-highlights-090343779.html",
-      "ticker": "GFF",
+      "title": "United Therapeutics Q2 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/08/08/united-therapeutics-q2-earnings-call-highlights.html",
+      "ticker": "UTHR",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL",
-      "url": "https://www.themarketsdaily.com/2026/08/09/quantinno-capital-management-lp-increases-holdings-in-circle-internet-group-inc-crcl.html",
-      "ticker": "CRCL",
-      "themes": [],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/savers-value-village-svv-19-020923988.html",
-      "ticker": "SVV",
-      "themes": [
-        "earnings",
-        "ai"
-      ],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/08/circle-internet-group-nysecrcl-director-danita-ostling-sells-20000-shares.html",
-      "ticker": "CRCL",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-08-08"
     },
     {
-      "title": "Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler",
-      "url": "https://www.dailypolitical.com/2026/08/08/arista-networks-anet-overweight-rating-reiterated-at-piper-sandler.html",
-      "ticker": "ANET",
+      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
+      "ticker": "WEYS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "This building materials stock has a favorable setup , charts show",
+      "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+      "ticker": "OC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "United Therapeutics Q2 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/08/05/united-therapeutics-q2-earnings-call-highlights.html",
+      "ticker": "UTHR",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco Group Q2 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
+      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fcf-q2-deep-dive-loan-112522269.html",
+      "ticker": "FCF",
       "themes": [],
-      "date": "2026-08-08"
+      "date": "2026-08-04"
     },
     {
-      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13534536/insider-selling-arista-networks-nyseanet-major-shareholder-sells-300000-shares-of-stock.html",
-      "ticker": "ANET",
+      "title": "FinancialContent - Earnings To Watch : United Therapeutics ( UTHR ) Reports Q2 Results Tomorrow",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-earnings-to-watch-united-therapeutics-uthr-reports-q2-results-tomorrow",
+      "ticker": "UTHR",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price",
+      "url": "https://www.themarketsdaily.com/2026/08/01/keefe-bruyette-woods-issues-positive-forecast-for-first-commonwealth-financial-nysefcf-stock-price.html",
+      "ticker": "FCF",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13534532/griffon-nysegff-ceo-ronald-kramer-sells-100000-shares.html",
-      "ticker": "GFF",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
-      "ticker": "ANET",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
-      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
-      "ticker": "ANET",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/circle-internet-group-nysecrcl-insider-sells-109886-32-in-stock.html",
-      "ticker": "CRCL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-07"
+      "date": "2026-08-01"
     }
   ],
-  "signals_count": 1714,
+  "signals_count": 1596,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
