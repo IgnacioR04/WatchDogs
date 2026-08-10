@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-10T21:16:49+00:00 -->
+<!-- trader_prompt.md generado 2026-08-10T22:13:24+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -230,7 +230,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T21:16:49+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T22:13:24+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -259,34 +259,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | IEF | 6.2% | core | 92.76 | -0.44% | -0.06% | -0.23% |
 | FWONK | 5.3% | satellite | 102.73 | -0.12% | 5.11% | 3.1% |
 | VEON | 5.0% | satellite | 55.9 | -2.1% | 5.23% | 7.4% |
-| BWFG | 4.4% | satellite | 66.83 | -0.1% | -1.02% | 14.3% |
-| CHRW | 4.1% | satellite | 148.29 | -0.71% | 0.88% | -24.53% |
+| CHRW | 4.2% | satellite | 148.29 | -0.71% | 0.88% | -24.53% |
 | LTH | 3.7% | satellite | 42.46 | -3.08% | -3.87% | 2.39% |
 | AOS | 3.7% | satellite | 62.41 | -2.45% | 2.77% | 5.47% |
 | LEG | 3.4% | satellite | 9.46 | -1.66% | -5.49% | -11.59% |
+| INVX | 3.4% | satellite | 29.17 | 3.81% | 3.07% | 14.39% |
+| GTE | 1.8% | satellite | 8.95 | -0.11% | 28.41% | 33.98% |
 | FBIN | 1.7% | satellite | 47.99 | -5.49% | -8.01% | -4.55% |
 | SPCX | 1.1% | satellite | 138.74 | 4.23% | 21.14% | -0.29% |
-| WOLF | 1.0% | satellite | 29.3 | -10.86% | 20.33% | -12.93% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.4%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
+- Volatilidad anualizada: 8.6%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
 - Max drawdown historico: -2.0%
-- Beta vs SPY: None · posiciones efectivas: 14.5 · HHI: 0.0692
+- Beta vs SPY: None · posiciones efectivas: 14.5 · HHI: 0.0687
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **BWFG** · score agregado 337.3 · 6 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **VEON** · score agregado 247.0 · 4 señales · fuentes: corporate_insider, large_holder
-- **WOLF** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **FBIN** · score agregado 193.1 · 3 señales · fuentes: corporate_insider
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **LEG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **AOS** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **INVX** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **GTE** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -298,6 +298,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ELAN | 75 | corporate_insider | VanHimbergen Robert M | 2 | $96,926 | cluster_buy |
 | ELAN | 74 | corporate_insider | Herendeen Paul | 2 | $236,850 | cluster_buy |
 | CZWI | 73 | corporate_insider | Bianchi Stephen M | 2 | $20,500 | cluster_buy,small_amount |
+| MRP | 72 | corporate_insider | Gorson Matthew B. | 2 | $86,400 | cluster_buy |
 | SCKT | 72 | large_holder | Mills Enrico Kevin |  | - | - |
 | VEON | 72 | large_holder | Giovanni Agnelli B.V. |  | - | - |
 | MATW | 72 | large_holder | Oaktree Capital Managemen |  | - | - |
@@ -308,20 +309,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | WAY | 72 | large_holder | FMR LLC |  | - | - |
 | BYRN | 72 | large_holder | FMR LLC |  | - | - |
 | TSM | 71 | corporate_insider | Huang Jen-Chau | 30 | $2,126 | cluster_buy,small_amount |
-| RDGL | 71 | corporate_insider | Korenko Michael K | 2 | $7,965 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| PINS | 66 | congress | Christian D. Menefee | $50,000 | - |
 | XOM | 65 | congress | James A. Himes | $50,000 | - |
 | HD | 65 | congress | James A. Himes | $50,000 | - |
-| TSCO | 65 | congress | April McClain Delaney | $50,000 | - |
+| TSCO | 64 | congress | April McClain Delaney | $50,000 | - |
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
+| CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | BAC | 63 | congress | James A. Himes | $15,000 | small_amount |
-| LLY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
-| HSY | 62 | congress | Dan Newhouse | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
 - ^VIX: 15.46 (3.76% / -2.52% / -9.91%) [2026-08-10]
-- BTC-USD: 64058.33 (-1.21% / -0.83% / -3.68%) [2026-08-10]
+- BTC-USD: 63962.05 (-1.36% / -0.98% / -3.82%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,23 +353,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (7), stock (4)
+**Temas dominantes**: stock (11), earnings (4), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] FinancialContent - Plug Power ( NASDAQ : PLUG ) Q2 CY2026 Sales Top Estimates , Stock Soars (2026-08-10)
-- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
-- [WEYS] Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock (2026-08-07)
-- [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-05)
-- [WEYS] Weyco Group Q2 Earnings Call Highlights (2026-08-05)
-- [WEYS] Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results (2026-08-05)
-- [WEYS] Weyco : Q2 Earnings Snapshot (2026-08-04)
-- [WEYS] Weyco : Q2 Earnings Snapshot (2026-08-04)
+- [TMO] Insider Selling : Iron Mountain ( NYSE : IRM ) CEO Sells $4 , 681 , 131 . 58 in Stock (2026-08-10)
+- [TMO] Clarivate ( NYSE : CLVT ) Director Kenneth Cornick Buys 250 , 000 Shares of Stock (2026-08-10)
+- [TMO] Thermo Fisher Scientific ( NYSE : TMO ) CAO Joseph Holmes Sells 420 Shares (2026-08-10)
+- [TMO] Black Stone Minerals ( NYSE : BSM ) Director James Whitehead Sells 2 , 127 , 105 Shares of Stock (2026-08-10)
+- [TMO] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
+- [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
+- [TSM] TSMC , Sony to invest in sensor plant (2026-08-10)
+- [TSM] TSMC Can Sidestep $1 Billion Apple Chip Glut by Rerouting Production Lines to AI , Taiwan Analyst Argues (2026-08-10)
+- [TSM] Sony Pledges $6 . 3 Billion to Build Sensors with TSMC in First Foundry Shift (2026-08-10)
+- [TSM] TSMC Stock Holds Flat Despite 44 . 7 % July Sales Surge (2026-08-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner INNOVEX CO-INVEST FUND, L.P. vendio INVX por $106.4M el 2026-08-10 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.
 - 10% owner Corre Partners Management, LLC vendio TISI por $57.0M el 2026-08-06 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.
@@ -377,24 +378,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner venBio Global Strategic Fund IV, L.P. compro ATTO por $6.5M el 2026-08-06.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Shori888 · PnL $24,326 · win rate 100% · categorias: sports
-- quavoo · PnL $208,417 · win rate 84% · categorias: sports, politics, economy
-- VD721lsj4938Dk388 · PnL $34,679 · win rate 91% · categorias: sports
-- BrotherObama · PnL $60,591 · win rate 87% · categorias: sports
-- lzh1 · PnL $28,087 · win rate 92% · categorias: sports
+- Shori888 · PnL $24,343 · win rate 100% · categorias: sports
+- quavoo · PnL $204,194 · win rate 84% · categorias: sports, politics, economy
+- VD721lsj4938Dk388 · PnL $35,075 · win rate 91% · categorias: sports
+- lzh1 · PnL $31,273 · win rate 92% · categorias: sports
+- BrotherObama · PnL $60,455 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 589 registros 30d · ultimo dato 2026-08-10
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
+- **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 567 registros 30d · ultimo dato 2026-08-10
+- **sec_13d_13g**: `ok` · 249 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
@@ -407,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AOS, BWFG, CHRW, FBIN, FWONK, GLD, IEF, LEG, LTH, QQQ, SPCX, SPY, TLT, VEON, WOLF`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AOS, CHRW, FBIN, FWONK, GLD, GTE, IEF, INVX, LEG, LTH, QQQ, SPCX, SPY, TLT, VEON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

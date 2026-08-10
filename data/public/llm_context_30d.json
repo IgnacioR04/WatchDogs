@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-10T21:15:29.079345+00:00",
+  "generated_at": "2026-08-10T22:12:36.171938+00:00",
   "window": {
     "from": "2026-07-11",
     "to": "2026-08-10",
@@ -23,8 +23,10 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "earnings",
-      "stock"
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,6 +34,28 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner vendio INVX ($106.4M)",
+      "summary": "10% owner INNOVEX CO-INVEST FUND, L.P. vendio INVX por $106.4M el 2026-08-10 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "INNOVEX CO-INVEST FUND, L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "INVX",
+      "direction": "sell",
+      "amount_estimated": 106422256.71,
+      "event_date": "2026-08-10",
+      "importance_score": 87.1,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_354271357226",
+        "news_972056594152",
+        "news_587515045865"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1777512/000101143826000483/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO compro COE ($6.2M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.",
       "source": "sec_form_4",
@@ -48,8 +72,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner vendio TISI ($57.0M)",
       "summary": "10% owner Corre Partners Management, LLC vendio TISI por $57.0M el 2026-08-06 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -66,8 +90,30 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1601971/000089914026000795/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
+      "title": "10% owner vendio INVX ($24.8M)",
+      "summary": "10% owner INNOVEX CO-INVEST FUND, L.P. vendio INVX por $24.8M el 2026-08-10 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "INNOVEX CO-INVEST FUND, L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "INVX",
+      "direction": "sell",
+      "amount_estimated": 24848734.68,
+      "event_date": "2026-08-10",
+      "importance_score": 84.1,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_354271357226",
+        "news_972056594152",
+        "news_587515045865"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1777512/000101143826000483/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO compro COE ($3.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.",
       "source": "sec_form_4",
@@ -84,8 +130,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO compro COE ($2.4M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.4M el 2026-08-04.",
       "source": "sec_form_4",
@@ -102,8 +148,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro ATTO ($6.5M)",
       "summary": "10% owner venBio Global Strategic Fund IV, L.P. compro ATTO por $6.5M el 2026-08-06.",
       "source": "sec_form_4",
@@ -120,8 +166,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1862109/000090514826003548/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -138,8 +184,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -156,8 +202,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -174,8 +220,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -192,8 +238,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -210,8 +256,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -228,8 +274,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -246,8 +292,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -264,8 +310,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -282,8 +328,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -300,8 +346,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -318,8 +364,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro BROADCOM INC ($15.1B)",
       "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
       "source": "sec_13f",
@@ -336,8 +382,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
       "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
       "source": "sec_13f",
@@ -347,42 +393,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 14828033296,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14184846003,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro LAM RESEARCH CORP ($13.7B)",
-      "summary": "Institutional manager State Street Corp compro LAM RESEARCH CORP por $13.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 13665595558,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -407,14 +417,6 @@
         "pressure_score": 543.1,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "BWFG",
-        "company": "Bankwell Financial Group, Inc.",
-        "pressure_score": 423.3,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -451,6 +453,30 @@
         ]
       },
       {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "pressure_score": 281.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Stock",
+        "pressure_score": 279.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "META",
+        "company": "Common Stock",
+        "pressure_score": 266.0,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "FBIN",
         "company": "Fortune Brands Innovations, Inc.",
         "pressure_score": 239.1,
@@ -467,14 +493,6 @@
         ]
       },
       {
-        "ticker": "MSFT",
-        "company": "Stock",
-        "pressure_score": 228.0,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "TISI",
         "company": "TEAM INC",
         "pressure_score": 215.0,
@@ -486,14 +504,6 @@
       {
         "ticker": "OBX",
         "company": "Obsidian Therapeutics, Inc.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "WOLF",
-        "company": "WOLFSPEED, INC.",
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
@@ -518,9 +528,17 @@
     ],
     "sell_pressure": [
       {
+        "ticker": "APPF",
+        "company": "APPFOLIO INC",
+        "pressure_score": 2868.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "TMO",
         "company": "Stock",
-        "pressure_score": 2025.8,
+        "pressure_score": 2078.4,
         "sources": [
           "congress",
           "corporate_insider"
@@ -543,11 +561,12 @@
         ]
       },
       {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 902.4,
+        "ticker": "INVX",
+        "company": "Innovex International, Inc.",
+        "pressure_score": 949.2,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -592,11 +611,12 @@
         ]
       },
       {
-        "ticker": "IRM",
-        "company": "IRON MOUNTAIN INC",
-        "pressure_score": 447.4,
+        "ticker": "GTE",
+        "company": "Gran Tierra Energy Inc.",
+        "pressure_score": 611.2,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -629,14 +649,6 @@
         "pressure_score": 348.3,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SPGI",
-        "company": "S&P Global Inc. Common Stock",
-        "pressure_score": 286.9,
-        "sources": [
-          "congress"
         ]
       }
     ]
@@ -706,13 +718,13 @@
       "score": 79.5
     },
     {
-      "ticker": "PRCT",
-      "company": "PROCEPT BioRobotics Corp",
-      "actor": "Wood Larry L",
-      "actor_type": "ceo",
-      "amount": 498315.0,
+      "ticker": "LINE",
+      "company": "Lineage, Inc.",
+      "actor": "LeMasters Robb A.",
+      "actor_type": "cfo",
+      "amount": 826638.0,
       "date": "2026-08-07",
-      "score": 79.3
+      "score": 79.2
     },
     {
       "ticker": "FBIN",
@@ -962,6 +974,14 @@
   ],
   "congress_activity": [
     {
+      "politician": "Christian D. Menefee",
+      "ticker": "PINS",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-08-07",
+      "score": 66.5
+    },
+    {
       "politician": "James A. Himes",
       "ticker": "XOM",
       "direction": "sell",
@@ -976,14 +996,6 @@
       "amount": 50000,
       "date": "2026-07-20",
       "score": 65.2
-    },
-    {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-27",
-      "score": 65.0
     },
     {
       "politician": "Kevin Hern",
@@ -1050,6 +1062,14 @@
       "score": 63.7
     },
     {
+      "politician": "April McClain Delaney",
+      "ticker": "TSCO",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-27",
+      "score": 63.7
+    },
+    {
       "politician": "Sam T. Liccardo",
       "ticker": "NVDA",
       "direction": "sell",
@@ -1058,28 +1078,20 @@
       "score": 63.7
     },
     {
+      "politician": "Michael Rulli",
+      "ticker": "CCI",
+      "direction": "sell",
+      "amount": 15000,
+      "date": "2026-08-06",
+      "score": 62.6
+    },
+    {
       "politician": "Pete Sessions",
       "ticker": "ARCC",
       "direction": "sell",
       "amount": 15000,
       "date": "2026-07-24",
       "score": 62.6
-    },
-    {
-      "politician": "James A. Himes",
-      "ticker": "BAC",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-07-20",
-      "score": 62.6
-    },
-    {
-      "politician": "Dan Newhouse",
-      "ticker": "LLY",
-      "direction": "sell",
-      "amount": 15000,
-      "date": "2026-07-10",
-      "score": 62.4
     }
   ],
   "large_holders": [
@@ -1111,6 +1123,15 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "Mat Ishbia",
+      "company": "UWM Holdings Corporation",
+      "ticker": "UWMC",
+      "ownership_pct": 79.4,
+      "shares": 1297097115,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-10"
+    },
+    {
       "filer": "Mudrick Capital Management, L.P.",
       "company": "Vertical Aerospace Ltd.",
       "ticker": "",
@@ -1125,6 +1146,15 @@
       "ticker": "",
       "ownership_pct": 50.9,
       "shares": 181455469,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-10"
+    },
+    {
+      "filer": "GREP GP III, LLC",
+      "company": "Granite Ridge Resources, Inc.",
+      "ticker": "GRNT",
+      "ownership_pct": 49.9,
+      "shares": 65869219,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-10"
     },
@@ -1199,24 +1229,6 @@
       "shares": 14150000,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-08-07"
-    },
-    {
-      "filer": "Pale Fire Capital SICAV a.s.",
-      "company": "Groupon, Inc.",
-      "ticker": "GRPN",
-      "ownership_pct": 25.0,
-      "shares": 10180970,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-10"
-    },
-    {
-      "filer": "Gilead Sciences, Inc.",
-      "company": "Arcus Biosciences, Inc.",
-      "ticker": "RCUS",
-      "ownership_pct": 24.7,
-      "shares": 31424760,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
     }
   ],
   "polymarket": {
@@ -1224,7 +1236,7 @@
       {
         "wallet": "0xa36fcb6947",
         "username": "Shori888",
-        "pnl": 24326.34,
+        "pnl": 24343.2,
         "win_rate": 1.0,
         "volume": 33724.7,
         "categories": [
@@ -1234,9 +1246,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 208416.93,
+        "pnl": 204193.51,
         "win_rate": 0.842,
-        "volume": 652267.83,
+        "volume": 675063.83,
         "categories": [
           "sports",
           "politics",
@@ -1246,19 +1258,9 @@
       {
         "wallet": "0x162ca4c524",
         "username": "VD721lsj4938Dk388",
-        "pnl": 34678.99,
+        "pnl": 35074.81,
         "win_rate": 0.914,
-        "volume": 28617.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 60591.25,
-        "win_rate": 0.8696,
-        "volume": 154203.86,
+        "volume": 29435.26,
         "categories": [
           "sports"
         ]
@@ -1266,7 +1268,7 @@
       {
         "wallet": "0x282f817479",
         "username": "lzh1",
-        "pnl": 28086.83,
+        "pnl": 31273.27,
         "win_rate": 0.9167,
         "volume": 92557.24,
         "categories": [
@@ -1274,11 +1276,11 @@
         ]
       },
       {
-        "wallet": "0x7ad71d79a3",
-        "username": "theowalcott",
-        "pnl": 67487.71,
-        "win_rate": 1.0,
-        "volume": 289668.04,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 60454.91,
+        "win_rate": 0.8696,
+        "volume": 181476.59,
         "categories": [
           "sports"
         ]
@@ -1309,7 +1311,7 @@
         "wallet": "0xcf609d3256",
         "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
         "pnl": 22598.07,
-        "win_rate": 0.847,
+        "win_rate": 0.846,
         "volume": 160180.92,
         "categories": [
           "sports"
@@ -1318,12 +1320,24 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 20515.57,
-        "win_rate": 0.8342,
-        "volume": 137821.1,
+        "pnl": 24227.91,
+        "win_rate": 0.8291,
+        "volume": 146821.1,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x40604cb1f9",
+        "username": "C03B",
+        "pnl": 18200.08,
+        "win_rate": 0.828,
+        "volume": 49432.79,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
         ]
       }
     ],
@@ -1342,9 +1356,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 50345.98,
+        "pnl": 47528.08,
         "win_rate": 0.646,
-        "volume": 6209125.9,
+        "volume": 6209219.16,
         "categories": [
           "sports",
           "crypto",
@@ -1352,11 +1366,11 @@
         ]
       },
       {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 60312.92,
-        "win_rate": 0.4789,
-        "volume": 308687.56,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 28946.87,
+        "win_rate": 0.593,
+        "volume": 1539158.05,
         "categories": [
           "sports"
         ]
@@ -1364,30 +1378,20 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 64943.34,
-        "win_rate": 0.543,
-        "volume": 419316.57,
+        "pnl": 65112.2,
+        "win_rate": 0.544,
+        "volume": 447477.38,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x7ad71d79a3",
-        "username": "theowalcott",
-        "pnl": 67487.71,
-        "win_rate": 1.0,
-        "volume": 289668.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 28180.73,
-        "win_rate": 0.538,
-        "volume": 590435.37,
+        "pnl": 27521.57,
+        "win_rate": 0.537,
+        "volume": 610334.92,
         "categories": [
           "sports"
         ]
@@ -1395,9 +1399,9 @@
       {
         "wallet": "0xa4b7b1814b",
         "username": "midwicket72",
-        "pnl": 59348.2,
+        "pnl": 98568.42,
         "win_rate": 0.5079,
-        "volume": 313607.8,
+        "volume": 316291.64,
         "categories": [
           "sports"
         ]
@@ -1405,19 +1409,29 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 53006.39,
-        "win_rate": 0.192,
-        "volume": 1358927.84,
+        "pnl": 40293.15,
+        "win_rate": 0.254,
+        "volume": 1462952.75,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x0cb0384875",
+        "username": "",
+        "pnl": 21339.33,
+        "win_rate": 0.508,
+        "volume": 1067311.07,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 208416.93,
+        "pnl": 204193.51,
         "win_rate": 0.842,
-        "volume": 652267.83,
+        "volume": 675063.83,
         "categories": [
           "sports",
           "politics",
@@ -1425,21 +1439,32 @@
         ]
       },
       {
-        "wallet": "0x0cb0384875",
-        "username": "",
-        "pnl": 18149.87,
-        "win_rate": 0.507,
-        "volume": 1018387.58,
+        "wallet": "0x547f2917d5",
+        "username": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
+        "pnl": 18794.69,
+        "win_rate": 0.6612,
+        "volume": 149358.37,
         "categories": [
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "FinancialContent - Plug Power ( NASDAQ : PLUG ) Q2 CY2026 Sales Top Estimates , Stock Soars",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-plug-powers-nasdaqplug-q2-cy2026-sales-top-estimates-stock-soars",
+      "title": "Insider Selling : Iron Mountain ( NYSE : IRM ) CEO Sells $4 , 681 , 131 . 58 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537847/insider-selling-iron-mountain-nyseirm-ceo-sells-4681131-58-in-stock.html",
+      "ticker": "TMO",
+      "themes": [
+        "ai",
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Clarivate ( NYSE : CLVT ) Director Kenneth Cornick Buys 250 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537842/clarivate-nyseclvt-director-kenneth-cornick-buys-250000-shares-of-stock.html",
       "ticker": "TMO",
       "themes": [
         "stock"
@@ -1447,11 +1472,72 @@
       "date": "2026-08-10"
     },
     {
-      "title": "Datadog coverage update : BofA stays bullish on weakness",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
-      "ticker": "DDOG",
+      "title": "Thermo Fisher Scientific ( NYSE : TMO ) CAO Joseph Holmes Sells 420 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/10/thermo-fisher-scientific-nysetmo-cao-joseph-holmes-sells-420-shares.html",
+      "ticker": "TMO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Black Stone Minerals ( NYSE : BSM ) Director James Whitehead Sells 2 , 127 , 105 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/08/10/black-stone-minerals-nysebsm-director-james-whitehead-sells-2127105-shares-of-stock.html",
+      "ticker": "TMO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
+      "url": "https://www.dailypolitical.com/2026/08/10/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
+      "ticker": "TMO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537841/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
+      "ticker": "CRL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "TSMC , Sony to invest in sensor plant",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862263",
+      "ticker": "TSM",
       "themes": [],
-      "date": "2026-08-09"
+      "date": "2026-08-10"
+    },
+    {
+      "title": "TSMC Can Sidestep $1 Billion Apple Chip Glut by Rerouting Production Lines to AI , Taiwan Analyst Argues",
+      "url": "https://wccftech.com/tsmc-can-sidestep-apple-chip-glut-by-rerouting-production-lines-to-ai-taiwan-analyst-argues/",
+      "ticker": "TSM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Sony Pledges $6 . 3 Billion to Build Sensors with TSMC in First Foundry Shift",
+      "url": "https://www.techtimes.com/articles/323752/20260810/sony-pledges-63-billion-build-sensors-tsmc-first-foundry-shift.htm",
+      "ticker": "TSM",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "TSMC Stock Holds Flat Despite 44 . 7 % July Sales Surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-holds-flat-despite-155910769.html",
+      "ticker": "TSM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
     },
     {
       "title": "United Therapeutics Q2 Earnings Call Highlights",
@@ -1463,18 +1549,34 @@
       "date": "2026-08-08"
     },
     {
-      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
-      "ticker": "WEYS",
+      "title": "Glenmede Trust Co . NA Purchases New Shares in Innovex International , Inc . $INVX",
+      "url": "https://www.tickerreport.com/banking-finance/13535349/glenmede-trust-co-na-purchases-new-shares-in-innovex-international-inc-invx.html",
+      "ticker": "INVX",
       "themes": [
         "stock"
       ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Charles River Laboratories Blows Out Of A Buy Zone After One Metric Hits A Four - Year High",
+      "url": "https://www.investors.com/news/technology/charles-river-laboratories-stock-charles-river-laboratories-earnings-q2-2026/",
+      "ticker": "CRL",
+      "themes": [],
       "date": "2026-08-07"
     },
     {
       "title": "This building materials stock has a favorable setup , charts show",
       "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
       "ticker": "OC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Biotech Stocks At 52 - Week Highs - BVS , TVTX , ODTX , CRL Climb With Q2 Results , ACRS",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69234836-biotech-stocks-at-52-week-highs-bvs-tvtx-odtx-crl-climb-with-q2-results-acrs-020.htm",
+      "ticker": "CRL",
       "themes": [
         "stock"
       ],
@@ -1488,42 +1590,6 @@
         "earnings"
       ],
       "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco Group Q2 Earnings Call Highlights",
-      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
-      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
     },
     {
       "title": "FCF Q2 Deep Dive : Loan Growth Momentum and Deposit Competition Shape Outlook",
@@ -1542,6 +1608,22 @@
       "date": "2026-08-04"
     },
     {
+      "title": "Innovex International ( NYSE : INVX ) Releases Earnings Results",
+      "url": "https://www.themarketsdaily.com/2026/08/03/innovex-international-nyseinvx-releases-earnings-results.html",
+      "ticker": "INVX",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Innovex International , Inc . ( NYSE : INVX ) Given Consensus Rating of  Moderate Buy  by Analysts",
+      "url": "https://www.tickerreport.com/banking-finance/13527916/innovex-international-inc-nyseinvx-given-consensus-rating-of-moderate-buy-by-analysts.html",
+      "ticker": "INVX",
+      "themes": [],
+      "date": "2026-08-03"
+    },
+    {
       "title": "Keefe , Bruyette & Woods Issues Positive Forecast for First Commonwealth Financial ( NYSE : FCF ) Stock Price",
       "url": "https://www.themarketsdaily.com/2026/08/01/keefe-bruyette-woods-issues-positive-forecast-for-first-commonwealth-financial-nysefcf-stock-price.html",
       "ticker": "FCF",
@@ -1551,7 +1633,7 @@
       "date": "2026-08-01"
     }
   ],
-  "signals_count": 1596,
+  "signals_count": 1612,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
