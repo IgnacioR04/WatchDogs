@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:13:24+00:00",
+  "generated_at": "2026-08-10T23:13:19+00:00",
   "budget_eur": 100.0,
   "n_cycles": 15,
   "cost_model": {
@@ -8,17 +8,17 @@
   },
   "metrics": {
     "n_days": 23,
-    "equity_eur": 100.18,
-    "total_return": 0.0018,
+    "equity_eur": 100.11,
+    "total_return": 0.0011,
     "win_rate_days": 0.5217,
     "best_day": 0.0097,
     "worst_day": -0.0072,
-    "ann_vol": 0.0668,
-    "sharpe": 0.7,
-    "sortino": 1.12,
+    "ann_vol": 0.067,
+    "sharpe": 0.59,
+    "sortino": 0.96,
     "max_drawdown": -0.0174,
-    "spy_return": 0.0243,
-    "excess_return": -0.0225,
+    "spy_return": 0.0234,
+    "excess_return": -0.0222,
     "costs_eur": 0.2299,
     "turnover_total": 1.534
   },
@@ -157,9 +157,9 @@
     },
     {
       "date": "2026-08-10",
-      "equity": 100.18,
-      "spy": 102.43,
-      "daily_ret": -0.00174
+      "equity": 100.11,
+      "spy": 102.34,
+      "daily_ret": -0.00239
     }
   ],
   "positions": {
@@ -219,7 +219,10 @@
     },
     "BWFG": {
       "weight": 0.04,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-08-10",
+      "ret_since_entry": -0.001,
+      "value_eur": 4.0
     },
     "PSBD": {
       "weight": 0.031,

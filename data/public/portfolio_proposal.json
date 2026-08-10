@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-10T22:13:23+00:00",
+  "generated_at": "2026-08-10T23:13:17+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
+    "GLD": 0.0932,
     "IEF": 0.0622,
-    "FWONK": 0.0535,
-    "VEON": 0.0502,
-    "CHRW": 0.0415,
-    "LTH": 0.0373,
-    "AOS": 0.0373,
-    "LEG": 0.0343,
-    "INVX": 0.0339,
-    "GTE": 0.0183,
-    "FBIN": 0.0173,
-    "SPCX": 0.0108
+    "FWONK": 0.0556,
+    "BWFG": 0.0458,
+    "CHRW": 0.0431,
+    "LTH": 0.0388,
+    "INVX": 0.0352,
+    "MLM": 0.0352,
+    "BWXT": 0.0326,
+    "GTE": 0.0191,
+    "FBIN": 0.0181,
+    "SPCX": 0.0112
   },
   "core": {
     "SPY": 0.1934,
@@ -29,32 +29,31 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0476,
-    "VEON": 0.0446,
-    "FBIN": 0.0154,
-    "SPCX": 0.0096,
-    "CHRW": 0.0369,
-    "LTH": 0.0332,
-    "LEG": 0.0305,
-    "AOS": 0.0332,
-    "INVX": 0.0301,
-    "GTE": 0.0163
+    "BWFG": 0.0407,
+    "FWONK": 0.0494,
+    "FBIN": 0.0161,
+    "SPCX": 0.01,
+    "CHRW": 0.0383,
+    "LTH": 0.0345,
+    "INVX": 0.0313,
+    "GTE": 0.017,
+    "BWXT": 0.029,
+    "MLM": 0.0313
   },
   "satellite_rationale": [
+    {
+      "ticker": "BWFG",
+      "score": 337.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
+    },
     {
       "ticker": "FWONK",
       "score": 248.8,
       "sources": [
         "congress"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "VEON",
-      "score": 247.0,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
       ],
       "n_signals": 4
     },
@@ -91,22 +90,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "LEG",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "AOS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "INVX",
       "score": 70.2,
       "sources": [
@@ -121,19 +104,35 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "BWXT",
+      "score": 60.7,
+      "sources": [
+        "congress"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "MLM",
+      "score": 60.7,
+      "sources": [
+        "congress"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0862,
-    "var_95_1d": 0.0077,
-    "cvar_95_1d": 0.009,
-    "max_drawdown": -0.0201,
+    "ann_vol": 0.0796,
+    "var_95_1d": 0.0082,
+    "cvar_95_1d": 0.0085,
+    "max_drawdown": -0.0142,
     "beta_spy": null,
     "hhi": 0.0687,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.8499,
+    "effective_positions": 14.6,
+    "gross_exposure": 0.8501,
     "days_used": 24
   },
   "risk_gate": {
