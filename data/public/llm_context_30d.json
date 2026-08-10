@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-10T12:16:48.687903+00:00",
+  "generated_at": "2026-08-10T13:58:22.269735+00:00",
   "window": {
     "from": "2026-07-11",
     "to": "2026-08-10",
@@ -23,10 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
       "stock",
+      "earnings",
+      "leadership",
       "ai",
-      "leadership"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -82,7 +83,11 @@
       "event_date": "2026-08-05",
       "importance_score": 87.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -100,7 +105,11 @@
       "event_date": "2026-08-05",
       "importance_score": 85.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -154,7 +163,11 @@
       "event_date": "2026-08-05",
       "importance_score": 84.1,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -208,7 +221,11 @@
       "event_date": "2026-08-05",
       "importance_score": 83.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -280,7 +297,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -316,7 +337,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     },
     {
@@ -334,7 +359,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000183/"
     },
     {
@@ -370,9 +399,7 @@
       "event_date": "2026-08-06",
       "importance_score": 82.1,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_334460863278"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1216055/000121605526000007/"
     },
     {
@@ -390,7 +417,11 @@
       "event_date": "2026-08-05",
       "importance_score": 82.0,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_946437139220",
+        "news_980571425097",
+        "news_190264096450"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000185/"
     }
   ],
@@ -399,7 +430,7 @@
       {
         "ticker": "TSM",
         "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-        "pressure_score": 1372.2,
+        "pressure_score": 2099.5,
         "sources": [
           "congress",
           "corporate_insider"
@@ -425,6 +456,14 @@
         "ticker": "OKYO",
         "company": "OKYO Pharma Ltd",
         "pressure_score": 457.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BWFG",
+        "company": "Bankwell Financial Group, Inc.",
+        "pressure_score": 423.3,
         "sources": [
           "corporate_insider"
         ]
@@ -505,14 +544,6 @@
         "ticker": "MLM",
         "company": "Common Stock",
         "pressure_score": 176.9,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "NVDA",
-        "company": "NVIDIA Corporation",
-        "pressure_score": 174.3,
         "sources": [
           "congress"
         ]
@@ -763,6 +794,15 @@
       "score": 75.3
     },
     {
+      "ticker": "BWFG",
+      "company": "Bankwell Financial Group, Inc.",
+      "actor": "SEIDMAN LAWRENCE B",
+      "actor_type": "director",
+      "amount": 262083.08,
+      "date": "2026-08-07",
+      "score": 72.9
+    },
+    {
       "ticker": "AAT",
       "company": "American Assets Trust, Inc.",
       "actor": "RADY ERNEST S",
@@ -770,15 +810,6 @@
       "amount": 69120.0,
       "date": "2026-08-05",
       "score": 72.5
-    },
-    {
-      "ticker": "BRVE",
-      "company": "Braveheart Bio, Inc.",
-      "actor": "Malek David I",
-      "actor_type": "director",
-      "amount": 74988.0,
-      "date": "2026-08-07",
-      "score": 71.7
     }
   ],
   "institutional_changes": [
@@ -1227,9 +1258,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 258069.17,
+        "pnl": 263062.22,
         "win_rate": 0.838,
-        "volume": 413218.81,
+        "volume": 429417.81,
         "categories": [
           "sports",
           "politics",
@@ -1237,52 +1268,11 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 42926.42,
-        "win_rate": 0.9119,
-        "volume": 264958.86,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 29843.0,
-        "win_rate": 0.92,
-        "volume": 1530.48,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 29510.89,
-        "win_rate": 0.9134,
-        "volume": 15860.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5dd9da6e5e",
         "username": "",
-        "pnl": 15114.58,
-        "win_rate": 0.9571,
-        "volume": 50855.21,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdd5ef115f8",
-        "username": "Forecastication2",
-        "pnl": 20936.65,
-        "win_rate": 0.913,
-        "volume": 57774.02,
+        "pnl": 20315.79,
+        "win_rate": 0.9577,
+        "volume": 93278.96,
         "categories": [
           "sports"
         ]
@@ -1290,19 +1280,49 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 40362.84,
+        "pnl": 65107.33,
         "win_rate": 0.8636,
-        "volume": 101594.79,
+        "volume": 120059.57,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x162ca4c524",
+        "username": "VD721lsj4938Dk388",
+        "pnl": 29520.13,
+        "win_rate": 0.9134,
+        "volume": 17550.33,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 26806.51,
+        "win_rate": 0.92,
+        "volume": 1530.48,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x282f817479",
         "username": "lzh1",
-        "pnl": 18554.1,
+        "pnl": 26780.55,
+        "win_rate": 0.9143,
+        "volume": 59047.25,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdd5ef115f8",
+        "username": "Forecastication2",
+        "pnl": 20914.65,
         "win_rate": 0.913,
-        "volume": 46047.27,
+        "volume": 59515.98,
         "categories": [
           "sports"
         ]
@@ -1310,45 +1330,63 @@
       {
         "wallet": "0xb496b94174",
         "username": "0xB496b941749aD050b54d780e26265b1e32591f45-1785361608057",
-        "pnl": 17079.29,
-        "win_rate": 0.9,
+        "pnl": 17084.29,
+        "win_rate": 0.9012,
         "volume": 30027.96,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 451661.13,
-        "win_rate": 0.65,
-        "volume": 2917668.29,
+        "wallet": "0xf377b9fb12",
+        "username": "danielwolfmorales3pddb6dl6",
+        "pnl": 21047.02,
+        "win_rate": 0.8342,
+        "volume": 101379.93,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 24364.47,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 451661.13,
-        "win_rate": 0.65,
-        "volume": 2917668.29,
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 114237.93,
+        "win_rate": 0.4821,
+        "volume": 4867423.72,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
+          "crypto"
         ]
       },
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 21368.27,
+        "pnl": 21497.41,
         "win_rate": 0.551,
-        "volume": 926864.91,
+        "volume": 936151.63,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1610db79f7",
+        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
+        "pnl": 35898.76,
+        "win_rate": 0.655,
+        "volume": 203076.58,
         "categories": [
           "sports"
         ]
@@ -1356,9 +1394,9 @@
       {
         "wallet": "0xd6d9ed4117",
         "username": "acc1211",
-        "pnl": 14644.06,
+        "pnl": 13933.38,
         "win_rate": 1.0,
-        "volume": 259761.27,
+        "volume": 271642.14,
         "categories": [
           "sports"
         ]
@@ -1366,8 +1404,8 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 63736.03,
-        "win_rate": 0.557,
+        "pnl": 72775.57,
+        "win_rate": 0.543,
         "volume": 239502.67,
         "categories": [
           "sports",
@@ -1375,14 +1413,13 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 42926.42,
-        "win_rate": 0.9119,
-        "volume": 264958.86,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 22554.56,
+        "win_rate": 0.538,
+        "volume": 365041.37,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
         ]
       },
       {
@@ -1396,123 +1433,150 @@
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "quavoo",
-        "pnl": 258069.17,
-        "win_rate": 0.838,
-        "volume": 413218.81,
+        "wallet": "0xd9670ea743",
+        "username": "LOL-eric",
+        "pnl": 34953.97,
+        "win_rate": 0.7071,
+        "volume": 208911.62,
         "categories": [
           "sports",
-          "politics",
           "economy"
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 34297.02,
-        "win_rate": 0.537,
-        "volume": 260883.5,
+        "wallet": "0x31864feb9d",
+        "username": "johnbaster",
+        "pnl": 18115.02,
+        "win_rate": 0.535,
+        "volume": 308907.5,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1610db79f7",
-        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 41684.15,
-        "win_rate": 0.655,
-        "volume": 111509.08,
+        "wallet": "0xdc41c39b95",
+        "username": "quavoo",
+        "pnl": 263062.22,
+        "win_rate": 0.838,
+        "volume": 429417.81,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 13899.86,
-        "win_rate": 0.261,
-        "volume": 644742.69,
-        "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "FinancialContent - Adamas Trust , Inc . - 7 . 000 % Series G Cumulative Redeemable Preferred Stock ( Nasdaq : ADAMZ ) Stock Quote",
-      "url": "https://markets.financialcontent.com/stocks/quote?Symbol=537:2578437406",
-      "ticker": "TMO",
+      "title": "Savers Value Village ( NYSE : SVV ) Insider Sells $164 , 700 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/10/savers-value-village-nysesvv-insider-sells-164700-00-in-stock.html",
+      "ticker": "SVV",
       "themes": [
         "stock"
       ],
       "date": "2026-08-10"
     },
     {
-      "title": "Sony , TSMC to spend US$6 . 3 billion on Japan image sensor venture , Nikkei says",
-      "url": "https://www.digitimes.com/news/a20260810VL211/sony-tsmc-sensor-nikkei-production.html",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC July revenue jumps 44 . 7 % to record US$14 . 5B , 2026 growth forecast tops 40 % ",
-      "url": "https://www.digitimes.com/news/a20260810VL209/tsmc-revenue-growth-2026-forecast.html",
-      "ticker": "TSM",
+      "title": "Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock",
+      "url": "https://www.dailypolitical.com/2026/08/09/mark-walsh-sells-7941-shares-of-savers-value-village-nysesvv-stock.html",
+      "ticker": "SVV",
       "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC July Revenue Up 44 . 7 % to USD 16 . 03 Billion",
-      "url": "https://www.newkerala.com/news/a/tsmc-july-revenue-rises-usd-1603-billion-up-569.htm",
-      "ticker": "TSM",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Taiwan Semiconductor Manufacturing ( NYSE : TSM ) Rating Lowered to Buy at Wall Street Zen",
-      "url": "https://www.dailypolitical.com/2026/08/09/taiwan-semiconductor-manufacturing-nysetsm-rating-lowered-to-buy-at-wall-street-zen.html",
-      "ticker": "TSM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Sony , TSMC to invest US$6 . 4bil in joint chip plant in Japan",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/08/10/sony-tsmc-to-invest-us-6-4bil-in-joint-chip-plant-in-japan",
-      "ticker": "TSM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Griffon Q3 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/griffon-q3-earnings-call-highlights-090343779.html",
-      "ticker": "GFF",
-      "themes": [
-        "earnings"
+        "stock"
       ],
       "date": "2026-08-09"
     },
     {
-      "title": "Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13534532/griffon-nysegff-ceo-ronald-kramer-sells-100000-shares.html",
-      "ticker": "GFF",
+      "title": "Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/savers-value-village-svv-19-020923988.html",
+      "ticker": "SVV",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-08-09"
+    },
+    {
+      "title": "Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock",
+      "url": "https://www.fool.com/coverage/filings/2026/08/08/savers-value-village-s-u-s-sales-rose-6-6-its-ceo-just-sold-usd2-4-million-in-stock/?source=iedfolrf0000001",
+      "ticker": "SVV",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler",
+      "url": "https://www.dailypolitical.com/2026/08/08/arista-networks-anet-overweight-rating-reiterated-at-piper-sandler.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13534536/insider-selling-arista-networks-nyseanet-major-shareholder-sells-300000-shares-of-stock.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-arista-networks-nyseanet-ceo-sells-154341575-38-in-stock.html",
+      "ticker": "ANET",
       "themes": [
         "leadership",
         "stock"
       ],
       "date": "2026-08-07"
+    },
+    {
+      "title": "Ethan Allen CEO Defends Leadership After Activist Challenge",
+      "url": "https://www.livemint.com/companies/ethan-allen-ceo-defends-leadership-after-activist-challenge-11786129304607.html",
+      "ticker": "ETD",
+      "themes": [
+        "leadership"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/08/07/czech-national-bank-has-49-93-million-holdings-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron",
+      "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/ethan-allen-confirms-receipt-of-director-nominations-from-doug-bergeron/2399487",
+      "ticker": "ETD",
+      "themes": [],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results",
+      "url": "https://www.dailypolitical.com/2026/07/31/ethan-allen-interiors-nyseetd-announces-quarterly-earnings-results.html",
+      "ticker": "ETD",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-07-31"
+    },
+    {
+      "title": "Ethan Allen Interiors Q4 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/07/30/ethan-allen-interiors-q4-earnings-call-highlights.html",
+      "ticker": "ETD",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-07-30"
     }
   ],
-  "signals_count": 1758,
+  "signals_count": 1767,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

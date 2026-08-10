@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T12:17:35+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T13:59:29+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.46)
-- Tendencia: `bull` (SPY 773.26 · MA50 746.61 · MA200 700.13 · dist MA200: 10.45%)
+- Volatilidad: `normal` (VIX 15.26)
+- Tendencia: `bull` (SPY 773.41 · MA50 747.03 · MA200 700.67 · dist MA200: 10.38%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,26 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 773.26 | 0.61% | 3.51% | 2.43% |
-| QQQ | 12.0% | core | 723.03 | 1.17% | 5.09% | -0.34% |
-| TLT | 12.0% | core | 82.76 | 0.29% | 1.03% | -1.63% |
-| FWONK | 10.7% | satellite | 102.85 | 3.17% | 4.81% | 6.99% |
-| GLD | 9.3% | core | 398.47 | 2.26% | 7.25% | 5.69% |
-| CHRW | 8.3% | satellite | 149.35 | 1.83% | 1.1% | -22.82% |
-| LTH | 8.1% | satellite | 43.81 | 0.76% | -2.86% | 4.58% |
-| IEF | 6.2% | core | 93.17 | 0.24% | 0.58% | -0.15% |
-| DNTH | 4.1% | satellite | 108.92 | -0.91% | 1.87% | 11.6% |
-| SPCX | 2.2% | satellite | 133.11 | 15.83% | 22.83% | -8.39% |
+| SPY | 12.0% | core | 773.41 | 0.02% | 2.08% | 3.24% |
+| QQQ | 12.0% | core | 722.35 | -0.09% | 3.18% | 1.49% |
+| TLT | 12.0% | core | 82.26 | -0.6% | 0.09% | -1.64% |
+| GLD | 9.3% | core | 396.2 | -0.57% | 6.59% | 7.92% |
+| FWONK | 8.5% | satellite | 102.47 | -0.37% | 4.84% | 2.84% |
+| BWFG | 7.0% | satellite | 67.21 | 0.46% | -0.46% | 14.95% |
+| CHRW | 6.6% | satellite | 150.42 | 0.72% | 2.33% | -23.45% |
+| LTH | 6.5% | satellite | 43.03 | -1.79% | -2.59% | 3.75% |
+| IEF | 6.2% | core | 92.88 | -0.32% | 0.06% | -0.1% |
+| DNTH | 3.2% | satellite | 108.37 | -0.5% | 2.22% | 9.86% |
+| SPCX | 1.7% | satellite | 132.52 | -0.44% | 15.71% | -4.75% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.2%
+- Volatilidad anualizada: 8.6%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -1.3%
-- Beta vs SPY: None · posiciones efectivas: 12.1 · HHI: 0.083
+- Max drawdown historico: -1.1%
+- Beta vs SPY: None · posiciones efectivas: 12.9 · HHI: 0.0777
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **BWFG** · score agregado 337.3 · 6 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
 - **DNTH** · score agregado 143.6 · 2 señales · fuentes: large_holder
@@ -63,12 +65,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $35,000 | cluster_buy |
 | OKYO | 76 | corporate_insider | CERRONE GABRIELE M | 6 | $32,625 | cluster_buy |
 | BRVE | 76 | corporate_insider | Malek David I | 6 | $74,988 | cluster_buy |
+| TSM | 76 | corporate_insider | Wei Che-Chia | 30 | $11,143 | cluster_buy,small_amount |
 | OKYO | 74 | corporate_insider | Mantelli Flavio | 6 | $28,000 | cluster_buy |
 | BRVE | 74 | corporate_insider | Anderson Michele A. | 6 | $19,998 | cluster_buy,small_amount |
 | DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | DNTH | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | AVR | 72 | large_holder | L1 Capital Pty Ltd |  | - | - |
-| PINS | 72 | large_holder | Ameriprise Financial, Inc |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -90,15 +92,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 773.26 (0.61% / 3.51% / 2.43%) [2026-08-07]
-- QQQ: 723.03 (1.17% / 5.09% / -0.34%) [2026-08-07]
-- IWM: 301.56 (1.11% / 3.56% / 1.88%) [2026-08-07]
-- DIA: 539.62 (0.27% / 2.92% / 2.66%) [2026-08-07]
-- TLT: 82.76 (0.29% / 1.03% / -1.63%) [2026-08-07]
-- IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
-- GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
-- ^VIX: 15.46 (3.76% / -2.52% / -9.91%) [2026-08-10]
-- BTC-USD: 65059.04 (0.33% / 0.71% / -2.17%) [2026-08-10]
+- SPY: 773.41 (0.02% / 2.08% / 3.24%) [2026-08-10]
+- QQQ: 722.35 (-0.09% / 3.18% / 1.49%) [2026-08-10]
+- IWM: 300.82 (-0.25% / 1.55% / 2.5%) [2026-08-10]
+- DIA: 538.89 (-0.14% / 1.44% / 2.78%) [2026-08-10]
+- TLT: 82.26 (-0.6% / 0.09% / -1.64%) [2026-08-10]
+- IEF: 92.88 (-0.32% / 0.06% / -0.1%) [2026-08-10]
+- GLD: 396.2 (-0.57% / 6.59% / 7.92%) [2026-08-10]
+- ^VIX: 15.26 (2.42% / -3.78% / -11.07%) [2026-08-10]
+- BTC-USD: 64502.12 (-0.53% / -0.15% / -3.01%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,18 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (2), ai (2), leadership (1)
+**Temas dominantes**: stock (5), earnings (3), leadership (3), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] FinancialContent - Adamas Trust , Inc . - 7 . 000 % Series G Cumulative Redeemable Preferred Stock ( Nasdaq : ADAMZ ) Stock Quote (2026-08-10)
-- [TSM] Sony , TSMC to spend US$6 . 3 billion on Japan image sensor venture , Nikkei says (2026-08-10)
-- [TSM] TSMC July revenue jumps 44 . 7 % to record US$14 . 5B , 2026 growth forecast tops 40 % (2026-08-10)
-- [TSM] TSMC July Revenue Up 44 . 7 % to USD 16 . 03 Billion (2026-08-10)
-- [TSM] Taiwan Semiconductor Manufacturing ( NYSE : TSM ) Rating Lowered to Buy at Wall Street Zen (2026-08-10)
-- [TSM] Sony , TSMC to invest US$6 . 4bil in joint chip plant in Japan (2026-08-10)
-- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [SVV] Savers Value Village ( NYSE : SVV ) Insider Sells $164 , 700 . 00 in Stock (2026-08-10)
+- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
+- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
+- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
+- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- quavoo · PnL $258,069 · win rate 84% · categorias: sports, politics, economy
-- TAIWANNUMBERONE · PnL $42,926 · win rate 91% · categorias: sports, politics
-- JnStTrdrBnusFnd · PnL $29,843 · win rate 92% · categorias: crypto
-- VD721lsj4938Dk388 · PnL $29,511 · win rate 91% · categorias: sports
-- 0x5dd9da6e · PnL $15,115 · win rate 96% · categorias: sports
+- quavoo · PnL $263,062 · win rate 84% · categorias: sports, politics, economy
+- 0x5dd9da6e · PnL $20,316 · win rate 96% · categorias: sports
+- BrotherObama · PnL $65,107 · win rate 86% · categorias: sports
+- VD721lsj4938Dk388 · PnL $29,520 · win rate 91% · categorias: sports
+- JnStTrdrBnusFnd · PnL $26,807 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -151,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 751 registros 30d · ultimo dato 2026-08-07
+- **sec_insiders**: `ok` · 760 registros 30d · ultimo dato 2026-08-08
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -165,7 +169,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, DNTH, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, DNTH, FWONK, GLD, IEF, LTH, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
