@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T09:08:52+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T10:51:38+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.47)
+- Volatilidad: `normal` (VIX 15.45)
 - Tendencia: `bull` (SPY 773.26 · MA50 746.61 · MA200 700.13 · dist MA200: 10.45%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -99,8 +99,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.76 (0.29% / 1.03% / -1.63%) [2026-08-07]
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
-- ^VIX: 15.47 (3.83% / -2.46% / -9.85%) [2026-08-10]
-- BTC-USD: 65143.75 (0.46% / 0.85% / -2.05%) [2026-08-10]
+- ^VIX: 15.45 (3.69% / -2.59% / -9.97%) [2026-08-10]
+- BTC-USD: 64971.99 (0.2% / 0.58% / -2.31%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,16 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), earnings (2), regulatory (1), leadership (1)
+**Temas dominantes**: stock (9), earnings (2), leadership (2), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
-- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
+- [SVV] Savers Value Village ( NYSE : SVV ) Insider Sells $164 , 700 . 00 in Stock (2026-08-10)
+- [SVV] Mark Walsh Sells 7 , 941 Shares of Savers Value Village ( NYSE : SVV ) Stock (2026-08-09)
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
+- [SVV] Savers Value Village ( SVV ) Is Up 19 . 1 % After ThriftIQ AI Rollout Boosts Q2 Results and Guidance (2026-08-09)
+- [SVV] Savers Value Village U . S . Sales Rose 6 . 6 %. Its CEO Just Sold $2 . 4 Million in Stock (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
+- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
+- [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -132,18 +136,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner Forbion Growth Opportunities Fund III Cooperatief U.A. compro BRVE por $34.6M el 2026-08-07.
 - CEO Ullal Jayshree vendio ANET por $74.4M el 2026-08-05 [senal en multiples fuentes].
 - CEO Garcia Marino vendio DNTH por $11.2M el 2026-08-07 [senal en multiples fuentes].
+- CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.
 - CEO Harik Mario A opero XPO por $33.9M el 2026-08-07.
+- CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.
 - CEO Murdoch Travis compro BRVE por $1.5M el 2026-08-07.
-- CEO ARCHER TIMOTHY vendio LRCX por $9.0M el 2026-08-06.
-- CEO SRINIVASAN RAMESH vendio AGYS por $7.1M el 2026-08-06.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- quavoo · PnL $242,322 · win rate 84% · categorias: sports, politics, economy
-- VD721lsj4938Dk388 · PnL $29,512 · win rate 91% · categorias: sports
-- Forecastication2 · PnL $20,975 · win rate 91% · categorias: sports
-- JnStTrdrBnusFnd · PnL $16,190 · win rate 92% · categorias: crypto
-- 0x5dd9da6e · PnL $9,390 · win rate 96% · categorias: sports
+- quavoo · PnL $257,795 · win rate 84% · categorias: sports, politics, economy
+- TAIWANNUMBERONE · PnL $66,822 · win rate 91% · categorias: sports, politics
+- VD721lsj4938Dk388 · PnL $29,511 · win rate 91% · categorias: sports
+- 0x5dd9da6e · PnL $14,989 · win rate 96% · categorias: sports
+- JnStTrdrBnusFnd · PnL $19,189 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -151,8 +155,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 73 registros 30d · ultimo dato 2026-07-31 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 776 registros 30d · ultimo dato 2026-08-07
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-07
+- **sec_insiders**: `ok` · 777 registros 30d · ultimo dato 2026-08-07
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
