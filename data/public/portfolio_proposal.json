@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-08-10T19:34:29+00:00",
+  "generated_at": "2026-08-10T20:19:57+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
     "IEF": 0.0622,
-    "FWONK": 0.0584,
-    "VEON": 0.0574,
-    "BWFG": 0.0484,
-    "CHRW": 0.0459,
-    "LTH": 0.0422,
-    "LEG": 0.0372,
-    "DNTH": 0.0225,
-    "SPCX": 0.012,
-    "WOLF": 0.0107
+    "FWONK": 0.0514,
+    "VEON": 0.0481,
+    "RRBI": 0.0452,
+    "BWFG": 0.0423,
+    "CHRW": 0.0398,
+    "LTH": 0.0359,
+    "LEG": 0.0328,
+    "DNTH": 0.0195,
+    "SPCX": 0.0103,
+    "WOLF": 0.0092
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BWFG": 0.043,
-    "FWONK": 0.0519,
-    "VEON": 0.051,
-    "WOLF": 0.0095,
-    "SPCX": 0.0107,
-    "DNTH": 0.02,
-    "CHRW": 0.0408,
-    "LTH": 0.0375,
-    "LEG": 0.0331
+    "BWFG": 0.0376,
+    "FWONK": 0.0457,
+    "VEON": 0.0428,
+    "WOLF": 0.0082,
+    "SPCX": 0.0092,
+    "DNTH": 0.0173,
+    "CHRW": 0.0354,
+    "LTH": 0.0319,
+    "LEG": 0.0292,
+    "RRBI": 0.0402
   },
   "satellite_rationale": [
     {
@@ -111,19 +113,27 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "RRBI",
+      "score": 56.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0922,
-    "var_95_1d": 0.0067,
-    "cvar_95_1d": 0.0079,
-    "max_drawdown": -0.0126,
+    "ann_vol": 0.0853,
+    "var_95_1d": 0.0068,
+    "cvar_95_1d": 0.0077,
+    "max_drawdown": -0.0119,
     "beta_spy": null,
-    "hhi": 0.0709,
+    "hhi": 0.0691,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 14.1,
-    "gross_exposure": 0.8502,
+    "n_positions": 15,
+    "effective_positions": 14.5,
+    "gross_exposure": 0.85,
     "days_used": 24
   },
   "risk_gate": {
