@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-10T00:03:35+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
+_Generado 2026-08-10T02:49:30+00:00 · ventana señales 2026-07-11 -> 2026-08-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.17 (0.24% / 0.58% / -0.15%) [2026-08-07]
 - GLD: 398.47 (2.26% / 7.25% / 5.69%) [2026-08-07]
 - ^VIX: 14.9 (-1.65% / -6.82% / -0.86%) [2026-08-07]
-- BTC-USD: 64816.1 (-0.14% / 1.19% / -0.63%) [2026-08-10]
+- BTC-USD: 65099.07 (0.3% / 1.63% / -0.2%) [2026-08-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,20 +115,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (3), leadership (2), merger (1)
+**Temas dominantes**: stock (5), earnings (2), regulatory (2), leadership (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [YOU] CLEAR Secure Q2 Earnings Call Highlights (2026-08-09)
+- [GFF] Griffon Q3 Earnings Call Highlights (2026-08-09)
 - [CRCL] Quantinno Capital Management LP Increases Holdings in Circle Internet Group , Inc . $CRCL (2026-08-09)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Director Danita Ostling Sells 20 , 000 Shares (2026-08-08)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) CEO Marino Garcia Sells 166 , 000 Shares (2026-08-08)
-- [ETD] Ethan Allen CEO Defends Leadership After Activist Challenge (2026-08-07)
+- [ANET] Arista Network ( ANET )  Overweight  Rating Reiterated at Piper Sandler (2026-08-08)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) Major Shareholder Sells 300 , 000 Shares of Stock (2026-08-07)
+- [GFF] Griffon ( NYSE : GFF ) CEO Ronald Kramer Sells 100 , 000 Shares (2026-08-07)
+- [ANET] Insider Selling : Arista Networks ( NYSE : ANET ) CEO Sells $154 , 341 , 575 . 38 in Stock (2026-08-07)
+- [ANET] Czech National Bank Has $49 . 93 Million Holdings in Arista Networks , Inc . $ANET (2026-08-07)
 - [CRCL] Circle Internet Group ( NYSE : CRCL ) Insider Sells $109 , 886 . 32 in Stock (2026-08-07)
-- [ETD] Ethan Allen Confirms Receipt of Director Nominations from Doug Bergeron (2026-08-05)
-- [DNTH] Dianthus Therapeutics ( NASDAQ : DNTH ) Releases Earnings Results , Misses Estimates By $0 . 05 EPS (2026-08-05)
-- [DNTH] Dianthus Therapeutics Announces Inducement Grants Under NASDAQ Listing Rule 5635 ( C )( 4 ) (2026-08-03)
-- [DNTH] DV Trading LLC Acquires Shares of 26 , 551 Dianthus Therapeutics , Inc . $DNTH (2026-08-02)
-- [ETD] Ethan Allen Interiors ( NYSE : ETD ) Announces Quarterly Earnings Results (2026-07-31)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $134,233 · win rate 98% · categorias: sports
-- SDTrading · PnL $129,272 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $135,718 · win rate 91% · categorias: sports
-- Shori888 · PnL $31,178 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $89,781 · win rate 91% · categorias: sports, politics
+- WTSA · PnL $121,962 · win rate 98% · categorias: sports
+- Shori888 · PnL $6,747 · win rate 100% · categorias: sports
+- VD721lsj4938Dk388 · PnL $25,106 · win rate 91% · categorias: sports
+- comon119 · PnL $6,415 · win rate 99% · categorias: sports, crypto, politics
+- quavoo · PnL $32,187 · win rate 83% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
