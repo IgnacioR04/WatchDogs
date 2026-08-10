@@ -309,5 +309,28 @@
     "thesis": "Regimen risk_on estable (VIX 14.9, SPY +10.45% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene la tesis rota: no hay senales de venta en la seccion 3b que afecten a LION, AVO, PSBD, NTSK, GSHD, CLBK, NMM o FWONK, asi que se mantienen integras sin rotacion. Se evaluo anadir BRVE (senal de mayor conviccion cruzada del briefing: 7 insiders distintos, incluido un 10% owner comprando 34.6M y 30.2M USD) pero el risk gate la rechazo por falta de datos de precio suficientes (solo 2 dias de cotizacion, IPO reciente, sin historico para medir liquidez/volatilidad de forma fiable), asi que se descarta esta vez y se mantiene la cartera del ciclo anterior intacta. Se sigue excluyendo DNTH (venta contradictoria del CEO el mismo periodo que compra T. Rowe Price), SPCX (volatilidad extrema, +15.83% en 1 dia) y CHRW/LTH (mismo actor unico que FWONK, CHRW con -22.82% en 20d).",
     "confidence": 0.65,
     "n_adjustments": 0
+  },
+  {
+    "approved_at": "2026-08-10T20:59:33+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.093,
+      "IEF": 0.053,
+      "LION": 0.042,
+      "AVO": 0.042,
+      "NMM": 0.04,
+      "FWONK": 0.04,
+      "BWFG": 0.04,
+      "PSBD": 0.031,
+      "NTSK": 0.031,
+      "GSHD": 0.025,
+      "CLBK": 0.023
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Regimen risk_on estable (VIX 15.46, SPY +10.33% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene senal de venta en contra (XOM, HD, TSCO, NVDA, ANET, ARCC, BAC, UNH no estan en cartera), asi que LION, AVO, NMM, FWONK, PSBD, NTSK, GSHD y CLBK se mantienen integros. Unico movimiento: uso una porcion del cash ocioso (22% frente al 90% de presupuesto) para abrir BWFG, la idea de mayor conviccion de este ciclo por cluster de insiders. Se descartan VEON/DNTH/CHRW/LTH/LEG/SPCX/WOLF por menor conviccion cruzada, volatilidad extrema o mismo actor unico que posiciones ya en cartera.",
+    "confidence": 0.6,
+    "n_adjustments": 1
   }
 ]

@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-09T21:41:35+00:00",
-  "verdict_llm": "accept",
-  "thesis": "Regimen risk_on estable (VIX 14.9, SPY +10.45% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene la tesis rota: no hay senales de venta en la seccion 3b que afecten a LION, AVO, PSBD, NTSK, GSHD, CLBK, NMM o FWONK, asi que se mantienen integras sin rotacion. Se evaluo anadir BRVE (senal de mayor conviccion cruzada del briefing: 7 insiders distintos, incluido un 10% owner comprando 34.6M y 30.2M USD) pero el risk gate la rechazo por falta de datos de precio suficientes (solo 2 dias de cotizacion, IPO reciente, sin historico para medir liquidez/volatilidad de forma fiable), asi que se descarta esta vez y se mantiene la cartera del ciclo anterior intacta. Se sigue excluyendo DNTH (venta contradictoria del CEO el mismo periodo que compra T. Rowe Price), SPCX (volatilidad extrema, +15.83% en 1 dia) y CHRW/LTH (mismo actor unico que FWONK, CHRW con -22.82% en 20d).",
+  "generated_at": "2026-08-10T20:59:33+00:00",
+  "verdict_llm": "adjust",
+  "thesis": "Regimen risk_on estable (VIX 15.46, SPY +10.33% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene senal de venta en contra (XOM, HD, TSCO, NVDA, ANET, ARCC, BAC, UNH no estan en cartera), asi que LION, AVO, NMM, FWONK, PSBD, NTSK, GSHD y CLBK se mantienen integros. Unico movimiento: uso una porcion del cash ocioso (22% frente al 90% de presupuesto) para abrir BWFG, la idea de mayor conviccion de este ciclo por cluster de insiders. Se descartan VEON/DNTH/CHRW/LTH/LEG/SPCX/WOLF por menor conviccion cruzada, volatilidad extrema o mismo actor unico que posiciones ya en cartera.",
   "key_risks": [
-    "BRVE queda fuera del universo operable hasta que acumule suficiente historico de precio/volumen; revisar en proximos ciclos si sigue mostrando conviccion cruzada",
-    "Congreso y 13F llegan con hasta 45 dias de retraso, y la fuente congress tiene tickers invalidos marcados (warning)",
-    "Concentracion en varios satelites de baja liquidez (LION, AVO, PSBD, NTSK, GSHD, CLBK) cuyas senales originales ya han envejecido sin nueva confirmacion"
+    "BWFG tiene una sola fuente de señal (insider), sin confirmacion de large_holder o congreso todavia",
+    "Congreso e institutional_13F en warning por retraso legal de datos, reduce confianza en señales de esas fuentes",
+    "Concentracion en renta variable US (SPY+QQQ+satelites) ante posible reversion de tendencia bull"
   ],
-  "confidence": 0.65,
-  "adjustments": [],
+  "confidence": 0.6,
+  "adjustments": [
+    {
+      "ticker": "BWFG",
+      "action": "add",
+      "target_weight": 0.04,
+      "reason": "Score agregado mas alto del briefing (337.3) con cluster buy de 6 senales de insiders corporativos; precio estable (-0.1% 1d, +14.3% 20d). Se financia con cash ocioso (22% vs 90% de presupuesto), sin tocar posiciones existentes ni pagar friccion sobre ellas."
+    }
+  ],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
@@ -19,22 +26,23 @@
     "AVO": 0.042,
     "NMM": 0.04,
     "FWONK": 0.04,
+    "BWFG": 0.04,
     "PSBD": 0.031,
     "NTSK": 0.031,
     "GSHD": 0.025,
     "CLBK": 0.023
   },
   "metrics": {
-    "ann_vol": 0.0909,
+    "ann_vol": 0.0945,
     "var_95_1d": 0.0091,
-    "cvar_95_1d": 0.0123,
-    "max_drawdown": -0.068,
-    "beta_spy": 0.53,
-    "hhi": 0.0645,
+    "cvar_95_1d": 0.0124,
+    "max_drawdown": -0.0673,
+    "beta_spy": 0.548,
+    "hhi": 0.0661,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 15.5,
-    "gross_exposure": 0.78,
+    "n_positions": 14,
+    "effective_positions": 15.1,
+    "gross_exposure": 0.82,
     "days_used": 200
   },
   "risk_gate": {
