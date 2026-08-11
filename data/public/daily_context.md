@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T09:30:14+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T10:29:18+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.52)
+- Volatilidad: `normal` (VIX 15.53)
 - Tendencia: `bull` (SPY 773.03 · MA50 747.02 · MA200 700.67 · dist MA200: 10.33%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -70,7 +70,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | MKZR | 78 | corporate_insider | DIXON ROBERT E | 3 | $37,440 | cluster_buy |
 | MKZR | 76 | corporate_insider | DIXON ROBERT E | 3 | $15,900 | cluster_buy,small_amount |
 | BLSM | 76 | corporate_insider | Schmid John P. | 4 | $96,000 | cluster_buy |
-| TSM | 76 | corporate_insider | Wei Che-Chia | 9 | $11,143 | cluster_buy,small_amount |
 | ELAN | 75 | corporate_insider | VanHimbergen Robert M | 2 | $96,926 | cluster_buy |
 | BLSM | 75 | corporate_insider | Keyes Jason A | 4 | $11,200 | cluster_buy,small_amount |
 | MKZR | 74 | corporate_insider | PATTERSON CHARLES E. II | 3 | $37,440 | cluster_buy |
@@ -79,6 +78,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | MKZR | 73 | corporate_insider | FULLER GLEN W | 3 | $37,440 | cluster_buy |
 | AHCO | 73 | corporate_insider | SAMET KENNETH A | 2 | $149,930 | cluster_buy |
 | BLSM | 73 | corporate_insider | Liptak Vincent Paul | 4 | $35,200 | cluster_buy |
+| CZWI | 73 | corporate_insider | Bianchi Stephen M | 2 | $20,500 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.06 (-0.85% / -0.16% / -1.88%) [2026-08-10]
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
-- ^VIX: 15.52 (0.39% / -5.94% / -5.94%) [2026-08-11]
-- BTC-USD: 64119.83 (0.33% / -0.22% / -3.0%) [2026-08-11]
+- ^VIX: 15.53 (0.45% / -5.88% / -5.88%) [2026-08-11]
+- BTC-USD: 64223.84 (0.49% / -0.06% / -2.84%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,11 +123,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (10), earnings (3), ai (1)
+**Temas dominantes**: stock (9), earnings (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] Intel targets $15 billion stock sale after rally (2026-08-11)
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
 - [CHYM] Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-11)
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
@@ -137,6 +136,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
 - [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
 - [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
+- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -163,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 717 registros 30d · ultimo dato 2026-08-10
+- **sec_insiders**: `ok` · 724 registros 30d · ultimo dato 2026-08-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
