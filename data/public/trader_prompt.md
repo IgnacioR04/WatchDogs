@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-11T02:45:17+00:00 -->
+<!-- trader_prompt.md generado 2026-08-11T04:57:30+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -230,7 +230,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T02:45:17+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T04:57:30+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
 - ^VIX: 15.46 (3.76% / -2.52% / -9.91%) [2026-08-10]
-- BTC-USD: 63975.45 (-1.34% / -0.96% / -3.8%) [2026-08-11]
+- BTC-USD: 63976.26 (-1.34% / -0.96% / -3.8%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,12 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: earnings (3), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
-- [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
+- [TMO] Top Growth Stocks To Follow Now – August 9th (2026-08-11)
+- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
+- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-05)
+- [UTHR] FinancialContent - Earnings To Watch : United Therapeutics ( UTHR ) Reports Q2 Results Tomorrow (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -373,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $59,326 · win rate 93% · categorias: sports
-- comon119 · PnL $5,396 · win rate 99% · categorias: sports, crypto, politics
-- BreakTheBank · PnL $43,608 · win rate 85% · categorias: sports
-- Shimi1234 · PnL $7,547 · win rate 96% · categorias: sports, crypto
-- steevenseakael · PnL $4,750 · win rate 98% · categorias: sports
+- SDTrading · PnL $81,814 · win rate 93% · categorias: sports
+- comon119 · PnL $6,887 · win rate 99% · categorias: sports, crypto, politics
+- ic4cream · PnL $20,700 · win rate 90% · categorias: sports
+- Shimi1234 · PnL $6,340 · win rate 96% · categorias: sports, crypto
+- QuentinChen · PnL $5,883 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
