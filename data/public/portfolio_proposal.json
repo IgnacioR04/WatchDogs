@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-11T17:29:14+00:00",
+  "generated_at": "2026-08-11T18:22:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "RRBI": 0.0505,
-    "BWFG": 0.0503,
-    "KRNY": 0.0496,
-    "FWONK": 0.0459,
-    "LTH": 0.03,
-    "PRMB": 0.028,
-    "CHRW": 0.026,
-    "FBIN": 0.0233,
-    "CHYM": 0.0183,
-    "GLXY": 0.0129
+    "BWFG": 0.0535,
+    "FWONK": 0.0488,
+    "GLRE": 0.0458,
+    "FSUN": 0.039,
+    "LTH": 0.0321,
+    "PRMB": 0.0298,
+    "CHRW": 0.0277,
+    "FBIN": 0.0247,
+    "CHYM": 0.0195,
+    "GLXY": 0.0137
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BWFG": 0.0447,
-    "FWONK": 0.0408,
-    "FBIN": 0.0207,
-    "CHRW": 0.0231,
-    "LTH": 0.0267,
-    "CHYM": 0.0163,
-    "PRMB": 0.0249,
-    "GLXY": 0.0115,
-    "RRBI": 0.0449,
-    "KRNY": 0.0441
+    "BWFG": 0.0476,
+    "FSUN": 0.0347,
+    "FWONK": 0.0434,
+    "FBIN": 0.022,
+    "CHRW": 0.0246,
+    "LTH": 0.0285,
+    "GLRE": 0.0407,
+    "CHYM": 0.0173,
+    "PRMB": 0.0265,
+    "GLXY": 0.0122
   },
   "satellite_rationale": [
     {
@@ -48,6 +48,14 @@
         "corporate_insider"
       ],
       "n_signals": 6
+    },
+    {
+      "ticker": "FSUN",
+      "score": 282.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 4
     },
     {
       "ticker": "FWONK",
@@ -82,6 +90,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "GLRE",
+      "score": 112.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "CHYM",
       "score": 71.8,
       "sources": [
@@ -104,35 +120,19 @@
         "corporate_insider"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "RRBI",
-      "score": 56.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "KRNY",
-      "score": 54.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1134,
-    "var_95_1d": 0.0112,
-    "cvar_95_1d": 0.0134,
-    "max_drawdown": -0.0713,
-    "beta_spy": 0.672,
-    "hhi": 0.0688,
+    "ann_vol": 0.1143,
+    "var_95_1d": 0.0113,
+    "cvar_95_1d": 0.0136,
+    "max_drawdown": -0.0647,
+    "beta_spy": 0.666,
+    "hhi": 0.0685,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.8502,
+    "effective_positions": 14.6,
+    "gross_exposure": 0.8501,
     "days_used": 133
   },
   "risk_gate": {

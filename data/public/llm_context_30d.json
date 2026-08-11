@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T17:28:18.101066+00:00",
+  "generated_at": "2026-08-11T18:21:31.144679+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -24,6 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
+      "merger",
       "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -81,9 +82,9 @@
       "importance_score": 83.3,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_41611651111",
-        "news_109730019233",
-        "news_439419443717"
+        "news_909333825631",
+        "news_363124533374",
+        "news_868272642881"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1583977/000123191926000852/"
     },
@@ -120,7 +121,11 @@
       "event_date": "2026-08-10",
       "importance_score": 82.9,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_913454321430",
+        "news_916476510753",
+        "news_115983553744"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
     },
     {
@@ -174,7 +179,11 @@
       "event_date": "2026-08-06",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_913454321430",
+        "news_916476510753",
+        "news_115983553744"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526342957/"
     },
     {
@@ -405,6 +414,15 @@
         ]
       },
       {
+        "ticker": "MKZR",
+        "company": "MacKenzie Realty Capital, Inc.",
+        "pressure_score": 498.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "BYAH",
         "company": "Park Ha Biological Technology Co., Ltd.",
         "pressure_score": 493.5,
@@ -416,14 +434,6 @@
         "ticker": "BWFG",
         "company": "Bankwell Financial Group, Inc.",
         "pressure_score": 423.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MKZR",
-        "company": "MacKenzie Realty Capital, Inc.",
-        "pressure_score": 418.8,
         "sources": [
           "corporate_insider"
         ]
@@ -461,6 +471,14 @@
         ]
       },
       {
+        "ticker": "FSUN",
+        "company": "FIRSTSUN CAPITAL BANCORP",
+        "pressure_score": 282.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
         "pressure_score": 281.6,
@@ -493,27 +511,19 @@
         ]
       },
       {
-        "ticker": "AMAT",
-        "company": "Stock",
-        "pressure_score": 225.8,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MNST",
-        "company": "Common Stock",
-        "pressure_score": 221.3,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "TISI",
         "company": "TEAM INC",
         "pressure_score": 215.0,
         "sources": [
           "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "OBX",
+        "company": "Obsidian Therapeutics, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
           "large_holder"
         ]
       }
@@ -548,10 +558,9 @@
       },
       {
         "ticker": "CRWD",
-        "company": "Common Stock",
-        "pressure_score": 972.2,
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 955.9,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -1227,9 +1236,20 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x6982049c65",
+        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
+        "pnl": 35236.79,
+        "win_rate": 0.977,
+        "volume": 226679.21,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 186829.0,
+        "pnl": 188873.5,
         "win_rate": 0.8548,
         "volume": 1245848.36,
         "categories": [
@@ -1239,20 +1259,9 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 41632.53,
+        "pnl": 41639.78,
         "win_rate": 0.9512,
         "volume": 21739.13,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x6982049c65",
-        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 25593.82,
-        "win_rate": 0.977,
-        "volume": 226679.21,
         "categories": [
           "sports",
           "crypto"
@@ -1271,7 +1280,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 31851.66,
+        "pnl": 31115.38,
         "win_rate": 0.933,
         "volume": 104807.51,
         "categories": [
@@ -1281,9 +1290,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 30817.8,
+        "pnl": 31625.5,
         "win_rate": 0.897,
-        "volume": 85002.26,
+        "volume": 85955.96,
         "categories": [
           "sports"
         ]
@@ -1291,7 +1300,7 @@
       {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 47443.87,
+        "pnl": 47471.61,
         "win_rate": 0.8519,
         "volume": 212570.73,
         "categories": [
@@ -1303,7 +1312,7 @@
       {
         "wallet": "0xc1c7bb8761",
         "username": "five5120",
-        "pnl": 28207.27,
+        "pnl": 28225.62,
         "win_rate": 0.8693,
         "volume": 224897.52,
         "categories": [
@@ -1323,7 +1332,7 @@
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 18661.29,
+        "pnl": 18108.28,
         "win_rate": 0.8246,
         "volume": 66475.54,
         "categories": [
@@ -1335,9 +1344,19 @@
     ],
     "whales": [
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 159791.28,
+        "win_rate": 0.623,
+        "volume": 4679960.1,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 186829.0,
+        "pnl": 188873.5,
         "win_rate": 0.8548,
         "volume": 1245848.36,
         "categories": [
@@ -1345,21 +1364,11 @@
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 119380.33,
-        "win_rate": 0.617,
-        "volume": 3778096.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 37430.66,
-        "win_rate": 0.533,
-        "volume": 2154748.84,
+        "pnl": 25129.69,
+        "win_rate": 0.537,
+        "volume": 2429610.34,
         "categories": [
           "sports"
         ]
@@ -1370,6 +1379,17 @@
         "pnl": 55911.21,
         "win_rate": 0.4871,
         "volume": 577842.52,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 56786.86,
+        "win_rate": 0.735,
+        "volume": 993871.45,
         "categories": [
           "sports",
           "crypto"
@@ -1389,9 +1409,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 26184.94,
+        "pnl": 26188.65,
         "win_rate": 0.4739,
-        "volume": 160786.17,
+        "volume": 161528.32,
         "categories": [
           "sports"
         ]
@@ -1399,9 +1419,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 20223.74,
+        "pnl": 20864.13,
         "win_rate": 0.665,
-        "volume": 399620.7,
+        "volume": 408647.28,
         "categories": [
           "sports"
         ]
@@ -1409,7 +1429,7 @@
       {
         "wallet": "0xc1c7bb8761",
         "username": "five5120",
-        "pnl": 28207.27,
+        "pnl": 28225.62,
         "win_rate": 0.8693,
         "volume": 224897.52,
         "categories": [
@@ -1417,32 +1437,61 @@
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 18725.96,
-        "win_rate": 0.527,
-        "volume": 780129.21,
+        "wallet": "0xdc41c39b95",
+        "username": "quavoo",
+        "pnl": 17824.22,
+        "win_rate": 0.763,
+        "volume": 529837.14,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcf609d3256",
-        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 20143.9,
-        "win_rate": 0.844,
-        "volume": 229422.72,
-        "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "FinancialContent - Why Purple ( PRPL ) Stock Is Trading Lower Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-11-why-purple-prpl-stock-is-trading-lower-today",
+      "title": "Sensex , Nifty Close Nearly 0 . 5 % Lower as Realty , FMCG Stocks Weigh",
+      "url": "https://indianewengland.com/sensex-nifty-close-nearly-0-5-lower-as-realty-fmcg-stocks-weigh/",
       "ticker": "TMO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Analyst predicts 55 % rally for surging stock on $9B Anthropic deal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-predicts-55-rally-surging-170143405.html",
+      "ticker": "TMO",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
+      "ticker": "CHYM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537946/christopher-britt-sells-200000-shares-of-chime-financial-nasdaqchym-stock.html",
+      "ticker": "CHYM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/11/insider-selling-chime-financial-nasdaqchym-major-shareholder-sells-1796196-shares.html",
+      "ticker": "CHYM",
       "themes": [
         "stock"
       ],
@@ -1467,6 +1516,13 @@
       "date": "2026-08-11"
     },
     {
+      "title": "Financial Survey : Chime Financial ( CHYM ) & The Competition",
+      "url": "https://www.dailypolitical.com/2026/08/10/financial-survey-chime-financial-chym-the-competition.html",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
       "title": "BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P",
       "url": "https://247wallst.com/cards/blossomhill-therapeutics-inc-blsm-ipofiling-01kzeynfvm4nbsws3mhcq1jj9j",
       "ticker": "BLSM",
@@ -1476,7 +1532,7 @@
       "date": "2026-08-07"
     }
   ],
-  "signals_count": 1729,
+  "signals_count": 1720,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
