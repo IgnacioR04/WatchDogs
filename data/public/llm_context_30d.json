@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T21:22:51.247485+00:00",
+  "generated_at": "2026-08-11T22:20:40.626450+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "earnings",
-      "regulatory"
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,42 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner compro West Bay BDC LLC ($27.0M)",
-      "summary": "10% owner Qatar Investment Authority compro West Bay BDC LLC por $27.0M el 2026-08-06.",
+      "title": "10% owner compro BRVE ($19.8M)",
+      "summary": "10% owner AH Bio Fund IV, L.P. compro BRVE por $19.8M el 2026-08-07.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Qatar Investment Authority",
+      "actor_name": "AH Bio Fund IV, L.P.",
       "actor_type": "ten_percent_owner",
-      "ticker": "",
+      "ticker": "BRVE",
       "direction": "buy",
-      "amount_estimated": 26999999.99,
-      "event_date": "2026-08-06",
-      "importance_score": 85.5,
+      "amount_estimated": 19800000.0,
+      "event_date": "2026-08-07",
+      "importance_score": 84.8,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1441449/000114036126032258/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1160077/000123191926000859/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio EHC ($21.5M)",
-      "summary": "CEO Tarr Mark J vendio EHC por $21.5M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Tarr Mark J",
-      "actor_type": "ceo",
-      "ticker": "EHC",
-      "direction": "sell",
-      "amount_estimated": 21525046.74,
-      "event_date": "2026-08-10",
-      "importance_score": 85.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1304057/000078516126000191/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO compro APTV ($2.5M)",
       "summary": "CEO CLARK KEVIN P compro APTV por $2.5M el 2026-08-10.",
       "source": "sec_form_4",
@@ -84,8 +67,62 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1248750/000119312526344586/"
     },
     {
+      "id": "move_3",
+      "rank": 3,
+      "title": "CEO vendio GBDC ($21.9M)",
+      "summary": "CEO Golub David vendio GBDC por $21.9M el 2026-08-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Golub David",
+      "actor_type": "ceo",
+      "ticker": "GBDC",
+      "direction": "sell",
+      "amount_estimated": 21893614.22,
+      "event_date": "2026-08-07",
+      "importance_score": 83.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1298389/000147676526000068/"
+    },
+    {
       "id": "move_4",
       "rank": 4,
+      "title": "CEO compro DINO ($1.3M)",
+      "summary": "CEO MYERS FRANKLIN compro DINO por $1.3M el 2026-08-11.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MYERS FRANKLIN",
+      "actor_type": "ceo",
+      "ticker": "DINO",
+      "direction": "buy",
+      "amount_estimated": 1279500.0,
+      "event_date": "2026-08-11",
+      "importance_score": 82.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1207002/000119312526345143/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
+      "title": "10% owner compro QVCG ($3.9M)",
+      "summary": "10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $3.9M el 2026-08-10.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "GOLDENTREE ASSET MANAGEMENT LP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "QVCG",
+      "direction": "buy",
+      "amount_estimated": 3937500.0,
+      "event_date": "2026-08-10",
+      "importance_score": 82.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1278951/000149315226037181/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio QNST ($15.4M)",
       "summary": "CEO Valenti Douglas vendio QNST por $15.4M el 2026-08-07.",
       "source": "sec_form_4",
@@ -98,30 +135,16 @@
       "event_date": "2026-08-07",
       "importance_score": 82.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_494569276881",
+        "news_491506667291",
+        "news_226748149091"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478988/000147898826000010/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO compro LITB ($1.1M)",
-      "summary": "CEO He Jian compro LITB por $1.1M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "He Jian",
-      "actor_type": "ceo",
-      "ticker": "LITB",
-      "direction": "buy",
-      "amount_estimated": 1092143.76,
-      "event_date": "2026-08-10",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2124627/000110465926094063/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio BPOP ($6.1M)",
       "summary": "CEO FERRER JAVIER D. vendio BPOP por $6.1M el 2026-08-10.",
       "source": "sec_form_4",
@@ -136,24 +159,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1621853/000119312526343400/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "10% owner compro Privacore VPC Asset Backed Credit Fund ($5.0M)",
-      "summary": "10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $5.0M el 2026-08-07.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BANKERS LIFE & CASUALTY CO",
-      "actor_type": "ten_percent_owner",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 5000000.0,
-      "event_date": "2026-08-07",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/903939/000090393926000026/"
     },
     {
       "id": "move_8",
@@ -409,19 +414,19 @@
         ]
       },
       {
+        "ticker": "QVCG",
+        "company": "QVC Group, Inc.",
+        "pressure_score": 381.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FWONK",
         "company": "Liberty Formula One Common Stock",
         "pressure_score": 368.0,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "LILA",
-        "company": "Liberty Latin America Ltd.",
-        "pressure_score": 311.4,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -490,39 +495,32 @@
         ]
       },
       {
-        "ticker": "AMAT",
-        "company": "Stock",
-        "pressure_score": 225.8,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MNST",
-        "company": "Common Stock",
-        "pressure_score": 221.3,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
         "ticker": "AIIR",
         "company": "AIR Global PLC",
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "DLHC",
+        "company": "DLH Holdings Corp.",
+        "pressure_score": 208.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 182.9,
+        "sources": [
+          "congress"
+        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "STX",
-        "company": "Seagate Technology Holdings plc",
-        "pressure_score": 4692.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "AXON",
         "company": "AXON ENTERPRISE, INC.",
@@ -532,17 +530,25 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1056.2,
+        "ticker": "P",
+        "company": "Everpure, Inc.",
+        "pressure_score": 1559.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "TTWO",
-        "company": "TAKE TWO INTERACTIVE SOFTWARE INC",
-        "pressure_score": 845.1,
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 1122.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DNTH",
+        "company": "Dianthus Therapeutics, Inc. /DE/",
+        "pressure_score": 956.8,
         "sources": [
           "corporate_insider"
         ]
@@ -561,23 +567,6 @@
         "pressure_score": 746.3,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MOGA/MOGB",
-        "company": "MOOG INC.",
-        "pressure_score": 683.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GTE",
-        "company": "Gran Tierra Energy Inc.",
-        "pressure_score": 582.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -635,10 +624,35 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "BRVE",
+      "company": "Braveheart Bio, Inc.",
+      "actor": "AH Bio Fund IV, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 19800000.0,
+      "date": "2026-08-07",
+      "score": 84.8
+    },
     {
       "ticker": "APTV",
       "company": "Aptiv PLC",
@@ -649,13 +663,31 @@
       "score": 84.3
     },
     {
-      "ticker": "LITB",
-      "company": "LightInTheBox Holding Co., Ltd.",
-      "actor": "He Jian",
+      "ticker": "DINO",
+      "company": "HF Sinclair Corp",
+      "actor": "MYERS FRANKLIN",
       "actor_type": "ceo",
-      "amount": 1092143.76,
+      "amount": 1279500.0,
+      "date": "2026-08-11",
+      "score": 82.9
+    },
+    {
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 3937500.0,
       "date": "2026-08-10",
-      "score": 82.5
+      "score": 82.8
+    },
+    {
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 3787500.0,
+      "date": "2026-08-07",
+      "score": 81.2
     },
     {
       "ticker": "HOG",
@@ -667,13 +699,13 @@
       "score": 80.7
     },
     {
-      "ticker": "LILA",
-      "company": "Liberty Latin America Ltd.",
-      "actor": "MALONE JOHN C",
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
       "actor_type": "ten_percent_owner",
-      "amount": 829620.08,
-      "date": "2026-08-10",
-      "score": 79.4
+      "amount": 2250000.0,
+      "date": "2026-08-07",
+      "score": 80.1
     },
     {
       "ticker": "STRZ",
@@ -694,15 +726,6 @@
       "score": 79.3
     },
     {
-      "ticker": "LILA",
-      "company": "Liberty Latin America Ltd.",
-      "actor": "MALONE JOHN C",
-      "actor_type": "ten_percent_owner",
-      "amount": 1499914.37,
-      "date": "2026-08-07",
-      "score": 79.2
-    },
-    {
       "ticker": "CIA",
       "company": "CITIZENS, INC.",
       "actor": "Stenberg Jon",
@@ -712,13 +735,13 @@
       "score": 78.9
     },
     {
-      "ticker": "LILA",
-      "company": "Liberty Latin America Ltd.",
-      "actor": "MALONE JOHN C",
-      "actor_type": "ten_percent_owner",
-      "amount": 321334.72,
-      "date": "2026-08-10",
-      "score": 77.4
+      "ticker": "SMRT",
+      "company": "SmartRent, Inc.",
+      "actor": "Martell Frank",
+      "actor_type": "ceo",
+      "amount": 142260.0,
+      "date": "2026-08-11",
+      "score": 78.1
     },
     {
       "ticker": "SUNS",
@@ -730,31 +753,22 @@
       "score": 76.3
     },
     {
-      "ticker": "FISV",
-      "company": "FISERV INC",
-      "actor": "FRITZ LANCE M",
+      "ticker": "PLNT",
+      "company": "Planet Fitness, Inc.",
+      "actor": "Spinelli Stephen JR",
       "actor_type": "director",
-      "amount": 519500.0,
-      "date": "2026-08-07",
-      "score": 75.7
-    },
-    {
-      "ticker": "LILA",
-      "company": "Liberty Latin America Ltd.",
-      "actor": "MALONE JOHN C",
-      "actor_type": "ten_percent_owner",
-      "amount": 253902.58,
-      "date": "2026-08-07",
-      "score": 75.4
-    },
-    {
-      "ticker": "SRI",
-      "company": "STONERIDGE INC",
-      "actor": "Noblet Natalia",
-      "actor_type": "ceo",
-      "amount": 36550.0,
+      "amount": 492800.0,
       "date": "2026-08-10",
-      "score": 75.2
+      "score": 75.8
+    },
+    {
+      "ticker": "LAW",
+      "company": "CS Disco, Inc.",
+      "actor": "Friedrichsen Eric",
+      "actor_type": "ceo",
+      "amount": 31950.0,
+      "date": "2026-08-10",
+      "score": 74.9
     },
     {
       "ticker": "SUNS",
@@ -764,15 +778,6 @@
       "amount": 178632.57,
       "date": "2026-08-07",
       "score": 74.6
-    },
-    {
-      "ticker": "NVR",
-      "company": "NVR INC",
-      "actor": "Oliver George",
-      "actor_type": "director",
-      "amount": 405185.13,
-      "date": "2026-08-07",
-      "score": 73.9
     }
   ],
   "institutional_changes": [
@@ -1117,15 +1122,6 @@
       "date": "2026-08-10"
     },
     {
-      "filer": "Mudrick Capital Management, L.P.",
-      "company": "Vertical Aerospace Ltd.",
-      "ticker": "",
-      "ownership_pct": 55.0,
-      "shares": 105401051,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
       "filer": "CK Amarillo LP",
       "company": "Hertz Global Holdings, Inc.",
       "ticker": "",
@@ -1144,15 +1140,6 @@
       "date": "2026-08-10"
     },
     {
-      "filer": "BROWN BROTHERS HARRIMAN & CO",
-      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 47.27,
-      "shares": 1382303,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
       "filer": "Knutsson Limited",
       "company": "Super Group (SGHC) Limited",
       "ticker": "SGHC",
@@ -1169,24 +1156,6 @@
       "shares": 10268948,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-11"
-    },
-    {
-      "filer": "Walmart Inc.",
-      "company": "Symbotic Inc.",
-      "ticker": "SYM",
-      "ownership_pct": 39.9,
-      "shares": 76350823,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
-    },
-    {
-      "filer": "Luo Hui",
-      "company": "KIDZ AI Inc.",
-      "ticker": "",
-      "ownership_pct": 39.1,
-      "shares": 8283314,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-07"
     },
     {
       "filer": "InspectionTech Holdings LP",
@@ -1214,6 +1183,42 @@
       "shares": 34000521,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-11"
+    },
+    {
+      "filer": "Nippon Life Insurance Company",
+      "company": "Corebridge Financial, Inc.",
+      "ticker": "",
+      "ownership_pct": 27.4,
+      "shares": 121989527,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-07"
+    },
+    {
+      "filer": "Heng Fai Ambrose Chan",
+      "company": "HWH INTERNATIONAL INC.",
+      "ticker": "HWH",
+      "ownership_pct": 27.1,
+      "shares": 8064319,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-11"
+    },
+    {
+      "filer": "ORCP III DE TopCo GP, LLC",
+      "company": "Primo Brands Corp",
+      "ticker": "PRMB",
+      "ownership_pct": 26.5,
+      "shares": 95800466,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-10"
+    },
+    {
+      "filer": "Churchill Sponsor XIII LLC",
+      "company": "Churchill Capital Corp XIII",
+      "ticker": "",
+      "ownership_pct": 25.47,
+      "shares": 14150000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-07"
     }
   ],
   "polymarket": {
@@ -1222,7 +1227,7 @@
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
         "pnl": 35236.79,
-        "win_rate": 0.9733,
+        "win_rate": 0.977,
         "volume": 226679.21,
         "categories": [
           "sports",
@@ -1232,9 +1237,9 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 188873.5,
+        "pnl": 188955.9,
         "win_rate": 0.8548,
-        "volume": 1245848.36,
+        "volume": 1261778.0,
         "categories": [
           "sports"
         ]
@@ -1242,9 +1247,9 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 41791.4,
+        "pnl": 41848.8,
         "win_rate": 0.9512,
-        "volume": 26497.58,
+        "volume": 40593.65,
         "categories": [
           "sports",
           "crypto"
@@ -1253,9 +1258,9 @@
       {
         "wallet": "0xe55aab114e",
         "username": "steevenseakael",
-        "pnl": 19798.96,
+        "pnl": 19799.58,
         "win_rate": 0.9844,
-        "volume": 16380.99,
+        "volume": 16505.99,
         "categories": [
           "sports"
         ]
@@ -1263,9 +1268,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 31195.84,
+        "pnl": 31303.74,
         "win_rate": 0.933,
-        "volume": 108071.18,
+        "volume": 458683.85,
         "categories": [
           "sports"
         ]
@@ -1273,9 +1278,19 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 31084.31,
+        "pnl": 31314.51,
         "win_rate": 0.896,
         "volume": 91733.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xd6966eb1ae",
+        "username": "Painfulvoid",
+        "pnl": 34320.98,
+        "win_rate": 0.886,
+        "volume": 21407.85,
         "categories": [
           "sports"
         ]
@@ -1303,23 +1318,15 @@
         ]
       },
       {
-        "wallet": "0xcf609d3256",
-        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 20143.9,
-        "win_rate": 0.844,
-        "volume": 229422.72,
+        "wallet": "0xf559276513",
+        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
+        "pnl": 40316.17,
+        "win_rate": 0.8102,
+        "volume": 179083.18,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfd144099a9",
-        "username": "Divinev",
-        "pnl": 25027.29,
-        "win_rate": 0.793,
-        "volume": 67294.58,
-        "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       }
     ],
@@ -1327,9 +1334,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 126382.36,
-        "win_rate": 0.601,
-        "volume": 5466506.73,
+        "pnl": 109627.63,
+        "win_rate": 0.599,
+        "volume": 5628201.4,
         "categories": [
           "sports"
         ]
@@ -1337,9 +1344,9 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 188873.5,
+        "pnl": 188955.9,
         "win_rate": 0.8548,
-        "volume": 1245848.36,
+        "volume": 1261778.0,
         "categories": [
           "sports"
         ]
@@ -1347,9 +1354,29 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 29287.25,
-        "win_rate": 0.537,
-        "volume": 2649836.32,
+        "pnl": 26874.02,
+        "win_rate": 0.538,
+        "volume": 2900027.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 84126.62,
+        "win_rate": 0.4744,
+        "volume": 1040870.6,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2f44fa076c",
+        "username": "TennisLove",
+        "pnl": 112694.27,
+        "win_rate": 1.0,
+        "volume": 532697.42,
         "categories": [
           "sports"
         ]
@@ -1366,63 +1393,42 @@
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 47098.2,
-        "win_rate": 0.7354,
-        "volume": 993871.45,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 46703.69,
+        "pnl": 46704.76,
         "win_rate": 0.4717,
-        "volume": 466193.58,
+        "volume": 466411.58,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 19128.81,
-        "win_rate": 0.51,
-        "volume": 2056294.23,
-        "categories": [
-          "sports"
         ]
       },
       {
         "wallet": "0xa71093cafc",
         "username": "Talvez10",
-        "pnl": 61516.7,
+        "pnl": 60352.79,
         "win_rate": 0.527,
-        "volume": 399591.94,
+        "volume": 525679.64,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0cb0384875",
-        "username": "",
-        "pnl": 18102.44,
-        "win_rate": 0.51,
-        "volume": 1194428.71,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 26279.48,
+        "win_rate": 0.513,
+        "volume": 2192544.81,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 25960.59,
+        "pnl": 27058.17,
         "win_rate": 0.4739,
-        "volume": 161550.06,
+        "volume": 289148.31,
         "categories": [
           "sports"
         ]
@@ -1430,6 +1436,63 @@
     ]
   },
   "news": [
+    {
+      "title": "Cloudflare Prices $2 . 175 Bln , Zero - Coupon Senior Notes",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69274117-cloudflare-prices-dollar-2-175-bln-zero-coupon-senior-notes-020.htm",
+      "ticker": "NET",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "iRhythm to Acquire VitalConnect for $287 . 5M to Build Broad Cardiac Intelligence Platform",
+      "url": "https://hitconsultant.net/2026/08/10/irhythm-to-acquire-vitalconnect-287m-cardiac-monitoring-multi-vitals/",
+      "ticker": "IRTC",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "FinancialContent - Why iRhythm ( IRTC ) Shares Are Trading Lower Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-why-irhythm-irtc-shares-are-trading-lower-today",
+      "ticker": "IRTC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Truist Financial Issues Positive Forecast for iRhythm Technologies ( NASDAQ : IRTC ) Stock Price",
+      "url": "https://www.themarketsdaily.com/2026/08/10/truist-financial-issues-positive-forecast-for-irhythm-technologies-nasdaqirtc-stock-price.html",
+      "ticker": "IRTC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "iRhythm Technologies ( NASDAQ : IRTC ) Rating Lowered to Hold at Wall Street Zen",
+      "url": "https://www.dailypolitical.com/2026/08/10/irhythm-technologies-nasdaqirtc-rating-lowered-to-hold-at-wall-street-zen.html",
+      "ticker": "IRTC",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "iRhythm Technologies Q2 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/08/09/irhythm-technologies-q2-earnings-call-highlights.html",
+      "ticker": "IRTC",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-09"
+    },
+    {
+      "title": "Kuehn Law Encourages Investors of iRhythm Technologies , Inc . to Contact Law Firm",
+      "url": "https://www.prnewswire.com/news-releases/kuehn-law-encourages-investors-of-irhythm-technologies-inc-to-contact-law-firm-302846581.html",
+      "ticker": "IRTC",
+      "themes": [],
+      "date": "2026-08-08"
+    },
     {
       "title": "Materion Q2 Earnings Call Highlights",
       "url": "https://finance.yahoo.com/markets/stocks/articles/materion-q2-earnings-call-highlights-190349490.html",
@@ -1440,32 +1503,61 @@
       "date": "2026-08-08"
     },
     {
-      "title": "Seagate Technology Holdings PLC $STX Holdings Lowered by Beacon Bank & Trust",
-      "url": "https://www.themarketsdaily.com/2026/08/08/seagate-technology-holdings-plc-stx-holdings-lowered-by-beacon-bank-trust.html",
-      "ticker": "STX",
+      "title": "Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quinstreet-qnst-fully-valued-strong-041930397.html",
+      "ticker": "QNST",
       "themes": [
-        "regulatory"
+        "earnings"
       ],
       "date": "2026-08-08"
     },
     {
-      "title": "Jim Cramer Didnt Think Seagate Technology Holdings plc ( NASDAQ : STX ) Earnings Were Bad",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-didnt-think-seagate-technology-holdings-plc-nasdaqstxs-earnings-were-bad-1807723/",
-      "ticker": "STX",
+      "title": "Why QuinStreet Stock Crushed it on Friday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-quinstreet-stock-crushed-friday-234358933.html",
+      "ticker": "QNST",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "FinancialContent - Why Is QuinStreet ( QNST ) Stock Soaring Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-7-why-is-quinstreet-qnst-stock-soaring-today",
+      "ticker": "QNST",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "QuinStreet : Fiscal Q4 Earnings Snapshot",
+      "url": "https://santamariatimes.com/ap/business/quinstreet-fiscal-q4-earnings-snapshot/article_895f5476-f888-5a22-8e83-7d1def835b2c.html",
+      "ticker": "QNST",
       "themes": [
         "earnings"
       ],
       "date": "2026-08-07"
     },
     {
-      "title": "Seagate Technology ( NASDAQ : STX ) & Lenovo Group ( OTCMKTS : LNVGY ) Head to Head Survey",
-      "url": "https://www.tickerreport.com/banking-finance/13534091/seagate-technology-nasdaqstx-lenovo-group-otcmktslnvgy-head-to-head-survey.html",
-      "ticker": "STX",
-      "themes": [],
-      "date": "2026-08-07"
+      "title": "FinancialContent - QuinStreet ( NASDAQ : QNST ) Reports Bullish Q2 CY2026 , Stock Jumps 28 % ",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-6-quinstreet-nasdaqqnst-reports-bullish-q2-cy2026-stock-jumps-28",
+      "ticker": "QNST",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "FinancialContent - What To Expect From QuinStreet ( QNST ) Q2 Earnings",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-what-to-expect-from-quinstreets-qnst-q2-earnings",
+      "ticker": "QNST",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
     }
   ],
-  "signals_count": 1790,
+  "signals_count": 1693,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

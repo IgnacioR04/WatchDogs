@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:23:42+00:00",
+  "generated_at": "2026-08-11T22:22:00+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -9,17 +9,15 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "KRNY": 0.0633,
+    "KRNY": 0.0711,
+    "FWONK": 0.0693,
     "IEF": 0.0622,
-    "FWONK": 0.0618,
-    "LTH": 0.0481,
-    "FSUN": 0.0353,
-    "CHRW": 0.0281,
-    "SNEX": 0.0244,
-    "LILA": 0.0233,
-    "CC": 0.0224,
-    "SPCX": 0.0147,
-    "GTE": 0.0132
+    "LTH": 0.054,
+    "FSUN": 0.0396,
+    "CHRW": 0.0316,
+    "SNEX": 0.0274,
+    "CC": 0.0251,
+    "SPCX": 0.0165
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CC": 0.0199,
-    "FSUN": 0.0314,
-    "LILA": 0.0207,
-    "FWONK": 0.0549,
-    "SPCX": 0.0131,
-    "CHRW": 0.025,
-    "LTH": 0.0428,
-    "GTE": 0.0117,
-    "SNEX": 0.0217,
-    "KRNY": 0.0563
+    "CC": 0.0223,
+    "FSUN": 0.0352,
+    "FWONK": 0.0616,
+    "SPCX": 0.0147,
+    "CHRW": 0.0281,
+    "LTH": 0.048,
+    "SNEX": 0.0244,
+    "KRNY": 0.0632
   },
   "satellite_rationale": [
     {
@@ -54,14 +50,6 @@
       "score": 282.0,
       "sources": [
         "large_holder"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "LILA",
-      "score": 249.0,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 4
     },
@@ -99,14 +87,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "GTE",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "SNEX",
       "score": 57.5,
       "sources": [
@@ -124,15 +104,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0837,
-    "var_95_1d": 0.0066,
-    "cvar_95_1d": 0.0085,
-    "max_drawdown": -0.0238,
-    "beta_spy": 0.463,
-    "hhi": 0.07,
+    "ann_vol": 0.0968,
+    "var_95_1d": 0.0079,
+    "cvar_95_1d": 0.0094,
+    "max_drawdown": -0.0274,
+    "beta_spy": 0.539,
+    "hhi": 0.0728,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.3,
+    "n_positions": 13,
+    "effective_positions": 13.7,
     "gross_exposure": 0.8501,
     "days_used": 40
   },
