@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T07:57:07+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T09:30:14+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.4)
+- Volatilidad: `normal` (VIX 15.52)
 - Tendencia: `bull` (SPY 773.03 · MA50 747.02 · MA200 700.67 · dist MA200: 10.33%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.06 (-0.85% / -0.16% / -1.88%) [2026-08-10]
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
-- ^VIX: 15.4 (-0.39% / -6.67% / -6.67%) [2026-08-11]
-- BTC-USD: 63984.91 (0.12% / -0.43% / -3.2%) [2026-08-11]
+- ^VIX: 15.52 (0.39% / -5.94% / -5.94%) [2026-08-11]
+- BTC-USD: 64119.83 (0.33% / -0.22% / -3.0%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (3)
+**Temas dominantes**: stock (10), earnings (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] 2026 Eyre Peninsula Field Days : visitors flock to day one at Cleve | Stock Journal (2026-08-11)
+- [TMO] Intel targets $15 billion stock sale after rally (2026-08-11)
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
 - [CHYM] Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-11)
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
+- [BLSM] Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock (2026-08-11)
+- [BLSM] BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares (2026-08-11)
 - [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
 - [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
 - [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
-- [CRL] Charles River Laboratories Blows Out Of A Buy Zone After One Metric Hits A Four - Year High (2026-08-07)
-- [CRL] Biotech Stocks At 52 - Week Highs - BVS , TVTX , ODTX , CRL Climb With Q2 Results , ACRS (2026-08-06)
+- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kosherlocks · PnL $41,621 · win rate 95% · categorias: sports, crypto
+- Kosherlocks · PnL $41,623 · win rate 95% · categorias: sports, crypto
 - steevenseakael · PnL $19,550 · win rate 98% · categorias: sports
 - SDTrading · PnL $31,103 · win rate 93% · categorias: sports
-- ic4cream · PnL $30,779 · win rate 90% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $18,329 · win rate 82% · categorias: sports, crypto, politics
+- ic4cream · PnL $30,801 · win rate 90% · categorias: sports
+- C03B · PnL $19,766 · win rate 82% · categorias: sports, crypto, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
