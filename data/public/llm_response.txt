@@ -1,7 +1,8 @@
 {
   "verdict": "adjust",
   "adjustments": [
-    {"ticker": "BWFG", "action": "add", "target_weight": 0.04, "reason": "Score agregado mas alto del briefing (337.3) con cluster buy de 6 senales de insiders corporativos; precio estable (-0.1% 1d, +14.3% 20d). Se financia con cash ocioso (22% vs 90% de presupuesto), sin tocar posiciones existentes ni pagar friccion sobre ellas."}
+    {"ticker": "FSUN", "action": "add", "target_weight": 0.03,
+     "reason": "Score agregado 282.0 con 4 senales de large_holder (fuente ok, sin warning), momentum positivo (ret 5d +2.2%, ret 20d +15.0%), y ningun sell signal en contra. Diversifica satelites mas alla de BWFG/FWONK ya en cartera. Financiado con cash disponible, dentro del presupuesto de riesgo (85% <= 90%)."}
   ],
   "final_weights": {
     "SPY": 0.12,
@@ -17,13 +18,15 @@
     "PSBD": 0.031,
     "NTSK": 0.031,
     "GSHD": 0.025,
-    "CLBK": 0.023
+    "CLBK": 0.023,
+    "FSUN": 0.03
   },
-  "thesis": "Regimen risk_on estable (VIX 15.46, SPY +10.33% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene senal de venta en contra (XOM, HD, TSCO, NVDA, ANET, ARCC, BAC, UNH no estan en cartera), asi que LION, AVO, NMM, FWONK, PSBD, NTSK, GSHD y CLBK se mantienen integros. Unico movimiento: uso una porcion del cash ocioso (22% frente al 90% de presupuesto) para abrir BWFG, la idea de mayor conviccion de este ciclo por cluster de insiders. Se descartan VEON/DNTH/CHRW/LTH/LEG/SPCX/WOLF por menor conviccion cruzada, volatilidad extrema o mismo actor unico que posiciones ya en cartera.",
+  "thesis": "Mantenemos el grueso de la cartera sin cambios: regimen risk_on con presupuesto 90% y ninguna posicion actual tiene su tesis rota (ningun sell signal de la seccion 3b afecta a tickers en cartera). Unico movimiento: anadimos FSUN (3%) financiado con cash disponible, por su score agregado alto (282, 4 senales de large_holder) y momentum positivo, usando parte del hueco de riesgo aun sin invertir. Evitamos deliberadamente CHYM y PRMB de la cartera candidata pese a su score, porque las noticias de este ciclo muestran ventas masivas y muy recientes de insiders (CEO y accionista mayoritario de CHYM vendiendo millones de dolares; 10% owner de PRMB vendiendo $497.4M) que contradicen la tesis alcista. Tambien evitamos CHRW y GLXY por su fuerte momentum negativo (-27% y -16% a 20 dias) pese a estar en la lista candidata.",
   "key_risks": [
-    "BWFG tiene una sola fuente de señal (insider), sin confirmacion de large_holder o congreso todavia",
-    "Congreso e institutional_13F en warning por retraso legal de datos, reduce confianza en señales de esas fuentes",
-    "Concentracion en renta variable US (SPY+QQQ+satelites) ante posible reversion de tendencia bull"
+    "Fuentes congress e institutional_13f en warning este ciclo, con retraso legal de hasta 45 dias; senales de esas fuentes (FWONK, LTH, CHRW) pueden estar desactualizadas",
+    "FSUN es una posicion pequena/mid-cap con menor liquidez relativa que el core, mayor volatilidad idiosincratica",
+    "Varias posiciones legado (LION, AVO, NMM, PSBD, NTSK, GSHD, CLBK) no aparecen en el briefing de este ciclo (sin senales frescas ni precio actualizado en la cartera candidata), se mantienen por defecto pero sin nueva confirmacion de tesis",
+    "Cartera va por detras de SPY en el periodo (excess return negativo); mayor tentacion de perseguir momentum, pero mantenemos disciplina conservadora para no incurrir en mas costes de rotacion"
   ],
   "confidence": 0.6
 }

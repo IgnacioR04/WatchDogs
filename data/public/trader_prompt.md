@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-11T19:37:33+00:00 -->
+<!-- trader_prompt.md generado 2026-08-11T20:39:46+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-08-10T20:59:33+00:00_
+_Ultima cartera aprobada: 2026-08-11T20:39:36+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|
@@ -218,9 +218,10 @@ _Ultima cartera aprobada: 2026-08-10T20:59:33+00:00_
 | BWFG | 4.0% | 4.00 € |
 | PSBD | 3.1% | 3.10 € |
 | NTSK | 3.1% | 3.10 € |
+| FSUN | 3.0% | 3.00 € |
 | GSHD | 2.5% | 2.50 € |
 | CLBK | 2.3% | 2.30 € |
-| **EFECTIVO** | **18.0%** | **18.00 €** |
+| **EFECTIVO** | **15.0%** | **15.00 €** |
 
 Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respetando las reglas de la seccion de arriba.
 

@@ -332,5 +332,29 @@
     "thesis": "Regimen risk_on estable (VIX 15.46, SPY +10.33% sobre MA200, credito tenso) sin cambios que obliguen a recortar exposicion. Ninguna posicion actual tiene senal de venta en contra (XOM, HD, TSCO, NVDA, ANET, ARCC, BAC, UNH no estan en cartera), asi que LION, AVO, NMM, FWONK, PSBD, NTSK, GSHD y CLBK se mantienen integros. Unico movimiento: uso una porcion del cash ocioso (22% frente al 90% de presupuesto) para abrir BWFG, la idea de mayor conviccion de este ciclo por cluster de insiders. Se descartan VEON/DNTH/CHRW/LTH/LEG/SPCX/WOLF por menor conviccion cruzada, volatilidad extrema o mismo actor unico que posiciones ya en cartera.",
     "confidence": 0.6,
     "n_adjustments": 1
+  },
+  {
+    "approved_at": "2026-08-11T20:39:36+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.093,
+      "IEF": 0.053,
+      "LION": 0.042,
+      "AVO": 0.042,
+      "NMM": 0.04,
+      "FWONK": 0.04,
+      "BWFG": 0.04,
+      "PSBD": 0.031,
+      "NTSK": 0.031,
+      "GSHD": 0.025,
+      "CLBK": 0.023,
+      "FSUN": 0.03
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Mantenemos el grueso de la cartera sin cambios: regimen risk_on con presupuesto 90% y ninguna posicion actual tiene su tesis rota (ningun sell signal de la seccion 3b afecta a tickers en cartera). Unico movimiento: anadimos FSUN (3%) financiado con cash disponible, por su score agregado alto (282, 4 senales de large_holder) y momentum positivo, usando parte del hueco de riesgo aun sin invertir. Evitamos deliberadamente CHYM y PRMB de la cartera candidata pese a su score, porque las noticias de este ciclo muestran ventas masivas y muy recientes de insiders (CEO y accionista mayoritario de CHYM vendiendo millones de dolares; 10% owner de PRMB vendiendo $497.4M) que contradicen la tesis alcista. Tambien evitamos CHRW y GLXY por su fuerte momentum negativo (-27% y -16% a 20 dias) pese a estar en la lista candidata.",
+    "confidence": 0.6,
+    "n_adjustments": 1
   }
 ]
