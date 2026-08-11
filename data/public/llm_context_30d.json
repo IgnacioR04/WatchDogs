@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T13:56:55.698467+00:00",
+  "generated_at": "2026-08-11T15:33:17.795443+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -117,9 +117,9 @@
       "importance_score": 82.9,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_374532468220",
-        "news_127434202921",
-        "news_773901351630"
+        "news_729971664814",
+        "news_107104618211",
+        "news_689255789923"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
     },
@@ -175,9 +175,9 @@
       "importance_score": 82.3,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_374532468220",
-        "news_127434202921",
-        "news_773901351630"
+        "news_729971664814",
+        "news_107104618211",
+        "news_689255789923"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526342957/"
     },
@@ -401,15 +401,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "NATR",
-        "company": "NATURES SUNSHINE PRODUCTS INC",
-        "pressure_score": 1050.3,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "LTH",
         "company": "Common Stock",
         "pressure_score": 543.1,
@@ -521,6 +512,14 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "RRBI",
+        "company": "RED RIVER BANCSHARES INC",
+        "pressure_score": 203.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -548,14 +547,6 @@
         "pressure_score": 1233.4,
         "sources": [
           "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1103.5,
-        "sources": [
           "corporate_insider"
         ]
       },
@@ -646,6 +637,14 @@
         "pressure_score": 352.4,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "TRDA",
+        "company": "Entrada Therapeutics, Inc.",
+        "pressure_score": 349.0,
+        "sources": [
+          "corporate_insider"
         ]
       }
     ]
@@ -751,30 +750,12 @@
       "score": 79.2
     },
     {
-      "ticker": "NATR",
-      "company": "NATURES SUNSHINE PRODUCTS INC",
-      "actor": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 267462.4,
-      "date": "2026-08-10",
-      "score": 78.2
-    },
-    {
       "ticker": "FBIN",
       "company": "Fortune Brands Innovations, Inc.",
       "actor": "Singh Jesse G",
       "actor_type": "ceo",
       "amount": 275827.16,
       "date": "2026-08-06",
-      "score": 78.1
-    },
-    {
-      "ticker": "NATR",
-      "company": "NATURES SUNSHINE PRODUCTS INC",
-      "actor": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 500400.0,
-      "date": "2026-08-07",
       "score": 78.1
     },
     {
@@ -785,6 +766,24 @@
       "amount": 256976.0,
       "date": "2026-08-07",
       "score": 77.9
+    },
+    {
+      "ticker": "SON",
+      "company": "SONOCO PRODUCTS CO",
+      "actor": "Coker R. Howard",
+      "actor_type": "ceo",
+      "amount": 249446.02,
+      "date": "2026-08-07",
+      "score": 77.8
+    },
+    {
+      "ticker": "CLVT",
+      "company": "CLARIVATE PLC",
+      "actor": "Cornick Kenneth L.",
+      "actor_type": "director",
+      "amount": 1209000.0,
+      "date": "2026-08-06",
+      "score": 76.3
     }
   ],
   "institutional_changes": [
@@ -1233,7 +1232,7 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 41622.43,
+        "pnl": 41626.04,
         "win_rate": 0.9512,
         "volume": 21739.13,
         "categories": [
@@ -1244,9 +1243,9 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 162136.44,
+        "pnl": 182614.84,
         "win_rate": 0.8525,
-        "volume": 1162399.64,
+        "volume": 1245848.36,
         "categories": [
           "sports"
         ]
@@ -1254,7 +1253,7 @@
       {
         "wallet": "0xe55aab114e",
         "username": "steevenseakael",
-        "pnl": 19575.75,
+        "pnl": 19947.76,
         "win_rate": 0.9844,
         "volume": 16380.99,
         "categories": [
@@ -1262,42 +1261,54 @@
         ]
       },
       {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 31538.46,
+        "win_rate": 0.933,
+        "volume": 68701.3,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 18197.08,
+        "pnl": 14879.42,
         "win_rate": 0.977,
-        "volume": 168777.05,
+        "volume": 226679.21,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 29291.24,
-        "win_rate": 0.933,
-        "volume": 0.0,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 30530.66,
+        "win_rate": 0.897,
+        "volume": 84208.04,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 30655.99,
-        "win_rate": 0.897,
-        "volume": 56863.0,
+        "wallet": "0x16602a38e8",
+        "username": "BBQChickenisthebesttt",
+        "pnl": 47436.2,
+        "win_rate": 0.8481,
+        "volume": 212570.73,
         "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "economy"
         ]
       },
       {
         "wallet": "0xc1c7bb8761",
         "username": "five5120",
-        "pnl": 20459.24,
+        "pnl": 28196.31,
         "win_rate": 0.8678,
-        "volume": 189477.5,
+        "volume": 224897.52,
         "categories": [
           "sports"
         ]
@@ -1313,27 +1324,14 @@
         ]
       },
       {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 18269.86,
-        "win_rate": 0.8442,
-        "volume": 205570.73,
+        "wallet": "0xf377b9fb12",
+        "username": "danielwolfmorales3pddb6dl6",
+        "pnl": 18157.67,
+        "win_rate": 0.8301,
+        "volume": 188070.91,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xb4f978be63",
-        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 18051.58,
-        "win_rate": 0.8246,
-        "volume": 66475.54,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
+          "crypto"
         ]
       }
     ],
@@ -1341,9 +1339,9 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 162136.44,
+        "pnl": 182614.84,
         "win_rate": 0.8525,
-        "volume": 1162399.64,
+        "volume": 1245848.36,
         "categories": [
           "sports"
         ]
@@ -1351,9 +1349,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 188336.96,
-        "win_rate": 0.639,
-        "volume": 3214616.12,
+        "pnl": 141652.07,
+        "win_rate": 0.641,
+        "volume": 3518869.61,
         "categories": [
           "sports"
         ]
@@ -1361,9 +1359,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 39155.97,
-        "win_rate": 0.534,
-        "volume": 2011417.66,
+        "pnl": 37782.52,
+        "win_rate": 0.533,
+        "volume": 2086680.93,
         "categories": [
           "sports"
         ]
@@ -1371,7 +1369,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 55913.78,
+        "pnl": 55911.21,
         "win_rate": 0.4871,
         "volume": 577842.52,
         "categories": [
@@ -1382,7 +1380,7 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 47707.73,
+        "pnl": 46829.2,
         "win_rate": 0.4717,
         "volume": 466193.58,
         "categories": [
@@ -1393,30 +1391,20 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 27334.39,
-        "win_rate": 0.7428,
-        "volume": 814115.0,
+        "pnl": 17345.93,
+        "win_rate": 0.7432,
+        "volume": 868605.62,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 15985.97,
-        "win_rate": 0.568,
-        "volume": 1351196.73,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 24819.87,
-        "win_rate": 0.473,
-        "volume": 206301.37,
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 25918.21,
+        "win_rate": 0.4739,
+        "volume": 153093.58,
         "categories": [
           "sports"
         ]
@@ -1424,19 +1412,29 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 21252.74,
+        "pnl": 20095.96,
         "win_rate": 0.665,
-        "volume": 391395.98,
+        "volume": 397420.64,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 25831.05,
-        "win_rate": 0.4739,
-        "volume": 135642.48,
+        "wallet": "0xc1c7bb8761",
+        "username": "five5120",
+        "pnl": 28196.31,
+        "win_rate": 0.8678,
+        "volume": 224897.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcf609d3256",
+        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
+        "pnl": 20151.4,
+        "win_rate": 0.844,
+        "volume": 229422.72,
         "categories": [
           "sports"
         ]
@@ -1444,25 +1442,6 @@
     ]
   },
   "news": [
-    {
-      "title": "Former Deloitte IT manager stole 423 laptops , sold them while on leave to cover stock trading losses",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/nearly-423-laptops-stolen-from-deloitte-former-it-manager-sold-computers-to-fund-stock-trading-losses/articleshow/133153986.cms",
-      "ticker": "TMO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-11"
-    },
-    {
-      "title": "First Advantage Announces Pricing of Secondary Offering of Common Stock",
-      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/first-advantage-announces-pricing-of-secondary-offering-of-common-stock/2402993",
-      "ticker": "TMO",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-08-11"
-    },
     {
       "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
       "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
@@ -1498,23 +1477,52 @@
       "date": "2026-08-10"
     },
     {
-      "title": "Datadog coverage update : BofA stays bullish on weakness",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
-      "ticker": "DDOG",
-      "themes": [],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "This building materials stock has a favorable setup , charts show",
-      "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
-      "ticker": "OC",
+      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
+      "ticker": "WEYS",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-06"
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Weyco Group Q2 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
+      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1756,
+  "signals_count": 1728,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
