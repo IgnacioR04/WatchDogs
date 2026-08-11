@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-11T18:22:50+00:00 -->
+<!-- trader_prompt.md generado 2026-08-11T19:37:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -230,7 +230,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T18:22:50+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T19:37:33+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -239,8 +239,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.29)
-- Tendencia: `bull` (SPY 770.41 · MA50 747.34 · MA200 701.21 · dist MA200: 9.87%)
+- Volatilidad: `normal` (VIX 15.25)
+- Tendencia: `bull` (SPY 770.84 · MA50 747.35 · MA200 701.21 · dist MA200: 9.93%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
@@ -252,41 +252,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 770.41 | -0.34% | -0.12% | 2.47% |
-| QQQ | 12.0% | core | 717.0 | -0.54% | -0.95% | -0.37% |
-| TLT | 12.0% | core | 82.24 | 0.22% | -0.7% | -1.79% |
-| GLD | 9.3% | core | 400.21 | -0.58% | 6.96% | 7.54% |
-| IEF | 6.2% | core | 92.92 | 0.17% | -0.36% | -0.34% |
-| BWFG | 5.3% | satellite | 67.87 | 1.56% | 1.0% | 16.72% |
-| FWONK | 4.9% | satellite | 102.75 | 0.02% | 6.56% | 1.87% |
-| GLRE | 4.6% | satellite | 15.53 | 1.17% | -5.07% | -6.61% |
-| FSUN | 3.9% | satellite | 40.51 | 2.12% | 1.99% | 14.76% |
-| LTH | 3.2% | satellite | 43.84 | 3.25% | -1.99% | 5.46% |
-| PRMB | 3.0% | satellite | 23.48 | -0.13% | 0.82% | -2.85% |
-| CHRW | 2.8% | satellite | 145.0 | -2.22% | -6.3% | -27.36% |
-| FBIN | 2.5% | satellite | 49.94 | 4.06% | -5.29% | -1.34% |
-| CHYM | 1.9% | satellite | 31.76 | 2.97% | 27.31% | 48.02% |
-| GLXY | 1.4% | satellite | 20.47 | 4.87% | -7.54% | -15.48% |
+| SPY | 12.0% | core | 770.84 | -0.28% | -0.06% | 2.53% |
+| QQQ | 12.0% | core | 718.54 | -0.32% | -0.73% | -0.16% |
+| TLT | 12.0% | core | 82.14 | 0.09% | -0.83% | -1.92% |
+| GLD | 9.3% | core | 400.73 | -0.45% | 7.1% | 7.68% |
+| IEF | 6.2% | core | 92.89 | 0.13% | -0.39% | -0.37% |
+| RRBI | 5.0% | satellite | 101.94 | 1.25% | 0.01% | 5.97% |
+| BWFG | 4.9% | satellite | 67.88 | 1.57% | 1.01% | 16.74% |
+| FWONK | 4.5% | satellite | 102.9 | 0.17% | 6.71% | 2.01% |
+| GLRE | 4.2% | satellite | 15.43 | 0.52% | -5.68% | -7.22% |
+| FSUN | 3.6% | satellite | 40.6 | 2.33% | 2.2% | 15.0% |
+| LTH | 2.9% | satellite | 43.92 | 3.43% | -1.82% | 5.64% |
+| PRMB | 2.7% | satellite | 23.45 | -0.26% | 0.69% | -2.98% |
+| CHRW | 2.5% | satellite | 145.55 | -1.85% | -5.95% | -27.08% |
+| CHYM | 1.8% | satellite | 31.65 | 2.59% | 26.85% | 47.48% |
+| GLXY | 1.3% | satellite | 20.23 | 3.61% | -8.65% | -16.49% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.4%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -6.5%
-- Beta vs SPY: 0.666 · posiciones efectivas: 14.6 · HHI: 0.0685
+- Volatilidad anualizada: 10.8%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -5.6%
+- Beta vs SPY: 0.619 · posiciones efectivas: 14.6 · HHI: 0.0685
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **BWFG** · score agregado 337.3 · 6 señales · fuentes: corporate_insider
 - **FSUN** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **FBIN** · score agregado 193.1 · 3 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **GLRE** · score agregado 112.7 · 2 señales · fuentes: corporate_insider
 - **CHYM** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PRMB** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **GLXY** · score agregado 56.5 · 1 señales · fuentes: corporate_insider
+- **RRBI** · score agregado 56.4 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -330,15 +330,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 770.41 (-0.34% / -0.12% / 2.47%) [2026-08-11]
-- QQQ: 717.0 (-0.54% / -0.95% / -0.37%) [2026-08-11]
-- IWM: 301.37 (0.46% / -0.11% / 2.33%) [2026-08-11]
-- DIA: 537.88 (-0.21% / -0.47% / 2.54%) [2026-08-11]
-- TLT: 82.24 (0.22% / -0.7% / -1.79%) [2026-08-11]
-- IEF: 92.92 (0.17% / -0.36% / -0.34%) [2026-08-11]
-- GLD: 400.21 (-0.58% / 6.96% / 7.54%) [2026-08-11]
-- ^VIX: 15.29 (-1.1% / -7.33% / -7.33%) [2026-08-11]
-- BTC-USD: 63504.02 (-0.64% / -1.18% / -3.93%) [2026-08-11]
+- SPY: 770.84 (-0.28% / -0.06% / 2.53%) [2026-08-11]
+- QQQ: 718.54 (-0.32% / -0.73% / -0.16%) [2026-08-11]
+- IWM: 301.07 (0.36% / -0.21% / 2.23%) [2026-08-11]
+- DIA: 537.64 (-0.25% / -0.52% / 2.5%) [2026-08-11]
+- TLT: 82.14 (0.09% / -0.83% / -1.92%) [2026-08-11]
+- IEF: 92.89 (0.13% / -0.39% / -0.37%) [2026-08-11]
+- GLD: 400.73 (-0.45% / 7.1% / 7.68%) [2026-08-11]
+- ^VIX: 15.25 (-1.36% / -7.58% / -7.58%) [2026-08-11]
+- BTC-USD: 63294.56 (-0.96% / -1.51% / -4.25%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,19 +353,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), merger (1), ai (1)
+**Temas dominantes**: stock (6), earnings (4), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TMO] Sensex , Nifty Close Nearly 0 . 5 % Lower as Realty , FMCG Stocks Weigh (2026-08-11)
-- [TMO] Analyst predicts 55 % rally for surging stock on $9B Anthropic deal (2026-08-11)
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
 - [CHYM] Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-11)
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
 - [BLSM] Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock (2026-08-11)
 - [BLSM] BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares (2026-08-11)
 - [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
+- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
 - [BLSM] BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P (2026-08-07)
+- [WEYS] Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock (2026-08-07)
+- [WEYS] Weyco Group Q2 Earnings Call Highlights (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,9 +383,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $35,237 · win rate 98% · categorias: sports, crypto
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $188,874 · win rate 85% · categorias: sports
-- Kosherlocks · PnL $41,640 · win rate 95% · categorias: sports, crypto
-- steevenseakael · PnL $19,948 · win rate 98% · categorias: sports
-- SDTrading · PnL $31,115 · win rate 93% · categorias: sports
+- Kosherlocks · PnL $41,634 · win rate 95% · categorias: sports, crypto
+- steevenseakael · PnL $20,022 · win rate 98% · categorias: sports
+- SDTrading · PnL $31,034 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -392,7 +393,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-08-11
+- **sec_insiders**: `ok` · 665 registros 30d · ultimo dato 2026-08-11
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-11
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -406,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, CHYM, FBIN, FSUN, FWONK, GLD, GLRE, GLXY, IEF, LTH, PRMB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, CHYM, FSUN, FWONK, GLD, GLRE, GLXY, IEF, LTH, PRMB, QQQ, RRBI, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

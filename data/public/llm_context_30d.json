@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T18:21:31.144679+00:00",
+  "generated_at": "2026-08-11T19:36:36.556643+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
+      "earnings",
       "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -82,9 +82,9 @@
       "importance_score": 83.3,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_909333825631",
-        "news_363124533374",
-        "news_868272642881"
+        "news_857346784460",
+        "news_324073532018",
+        "news_864511221046"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1583977/000123191926000852/"
     },
@@ -122,9 +122,9 @@
       "importance_score": 82.9,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_913454321430",
-        "news_916476510753",
-        "news_115983553744"
+        "news_186333236039",
+        "news_186571225042",
+        "news_492509626971"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
     },
@@ -180,9 +180,9 @@
       "importance_score": 82.3,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_913454321430",
-        "news_916476510753",
-        "news_115983553744"
+        "news_186333236039",
+        "news_186571225042",
+        "news_492509626971"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526342957/"
     },
@@ -503,14 +503,6 @@
         ]
       },
       {
-        "ticker": "FBIN",
-        "company": "Fortune Brands Innovations, Inc.",
-        "pressure_score": 239.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TISI",
         "company": "TEAM INC",
         "pressure_score": 215.0,
@@ -525,6 +517,14 @@
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "RRBI",
+        "company": "RED RIVER BANCSHARES INC",
+        "pressure_score": 203.9,
+        "sources": [
+          "corporate_insider"
         ]
       }
     ],
@@ -702,24 +702,6 @@
       "score": 81.9
     },
     {
-      "ticker": "FBIN",
-      "company": "Fortune Brands Innovations, Inc.",
-      "actor": "Singh Jesse G",
-      "actor_type": "ceo",
-      "amount": 996261.22,
-      "date": "2026-08-07",
-      "score": 80.8
-    },
-    {
-      "ticker": "FBIN",
-      "company": "Fortune Brands Innovations, Inc.",
-      "actor": "Singh Jesse G",
-      "actor_type": "ceo",
-      "amount": 743253.57,
-      "date": "2026-08-06",
-      "score": 80.2
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -765,15 +747,6 @@
       "score": 79.2
     },
     {
-      "ticker": "FBIN",
-      "company": "Fortune Brands Innovations, Inc.",
-      "actor": "Singh Jesse G",
-      "actor_type": "ceo",
-      "amount": 275827.16,
-      "date": "2026-08-06",
-      "score": 78.1
-    },
-    {
       "ticker": "GPOR",
       "company": "GULFPORT ENERGY CORP",
       "actor": "DELL'OSSO DOMENIC J JR",
@@ -790,6 +763,33 @@
       "amount": 249446.02,
       "date": "2026-08-07",
       "score": 77.8
+    },
+    {
+      "ticker": "MKZR",
+      "company": "MacKenzie Realty Capital, Inc.",
+      "actor": "DIXON ROBERT E",
+      "actor_type": "ceo",
+      "amount": 37440.0,
+      "date": "2026-08-10",
+      "score": 76.5
+    },
+    {
+      "ticker": "CLVT",
+      "company": "CLARIVATE PLC",
+      "actor": "Cornick Kenneth L.",
+      "actor_type": "director",
+      "amount": 1209000.0,
+      "date": "2026-08-06",
+      "score": 76.3
+    },
+    {
+      "ticker": "BWMX",
+      "company": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "actor": "Campos Luis",
+      "actor_type": "ten_percent_owner",
+      "amount": 371093.0,
+      "date": "2026-08-04",
+      "score": 76.2
     }
   ],
   "institutional_changes": [
@@ -1259,7 +1259,7 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 41639.78,
+        "pnl": 41633.84,
         "win_rate": 0.9512,
         "volume": 21739.13,
         "categories": [
@@ -1270,7 +1270,7 @@
       {
         "wallet": "0xe55aab114e",
         "username": "steevenseakael",
-        "pnl": 19947.76,
+        "pnl": 20022.16,
         "win_rate": 0.9844,
         "volume": 16380.99,
         "categories": [
@@ -1280,7 +1280,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 31115.38,
+        "pnl": 31034.04,
         "win_rate": 0.933,
         "volume": 104807.51,
         "categories": [
@@ -1290,8 +1290,8 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 31625.5,
-        "win_rate": 0.897,
+        "pnl": 31470.28,
+        "win_rate": 0.896,
         "volume": 85955.96,
         "categories": [
           "sports"
@@ -1332,7 +1332,7 @@
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 18108.28,
+        "pnl": 17555.28,
         "win_rate": 0.8246,
         "volume": 66475.54,
         "categories": [
@@ -1346,9 +1346,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 159791.28,
-        "win_rate": 0.623,
-        "volume": 4679960.1,
+        "pnl": 149188.72,
+        "win_rate": 0.615,
+        "volume": 5132752.3,
         "categories": [
           "sports"
         ]
@@ -1366,9 +1366,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 25129.69,
-        "win_rate": 0.537,
-        "volume": 2429610.34,
+        "pnl": 26031.84,
+        "win_rate": 0.536,
+        "volume": 2538517.77,
         "categories": [
           "sports"
         ]
@@ -1387,8 +1387,8 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 56786.86,
-        "win_rate": 0.735,
+        "pnl": 61251.54,
+        "win_rate": 0.7354,
         "volume": 993871.45,
         "categories": [
           "sports",
@@ -1398,7 +1398,7 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 46829.2,
+        "pnl": 46703.69,
         "win_rate": 0.4717,
         "volume": 466193.58,
         "categories": [
@@ -1409,9 +1409,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 26188.65,
+        "pnl": 26188.71,
         "win_rate": 0.4739,
-        "volume": 161528.32,
+        "volume": 161550.06,
         "categories": [
           "sports"
         ]
@@ -1419,9 +1419,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 20864.13,
+        "pnl": 21082.42,
         "win_rate": 0.665,
-        "volume": 408647.28,
+        "volume": 421614.57,
         "categories": [
           "sports"
         ]
@@ -1437,39 +1437,18 @@
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "quavoo",
-        "pnl": 17824.22,
-        "win_rate": 0.763,
-        "volume": 529837.14,
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 59966.2,
+        "win_rate": 0.527,
+        "volume": 148367.58,
         "categories": [
-          "sports",
-          "politics",
-          "economy"
+          "sports"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Sensex , Nifty Close Nearly 0 . 5 % Lower as Realty , FMCG Stocks Weigh",
-      "url": "https://indianewengland.com/sensex-nifty-close-nearly-0-5-lower-as-realty-fmcg-stocks-weigh/",
-      "ticker": "TMO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Analyst predicts 55 % rally for surging stock on $9B Anthropic deal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-predicts-55-rally-surging-170143405.html",
-      "ticker": "TMO",
-      "themes": [
-        "merger",
-        "stock"
-      ],
-      "date": "2026-08-11"
-    },
     {
       "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
       "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
@@ -1523,6 +1502,13 @@
       "date": "2026-08-10"
     },
     {
+      "title": "Datadog coverage update : BofA stays bullish on weakness",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
+      "ticker": "DDOG",
+      "themes": [],
+      "date": "2026-08-09"
+    },
+    {
       "title": "BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P",
       "url": "https://247wallst.com/cards/blossomhill-therapeutics-inc-blsm-ipofiling-01kzeynfvm4nbsws3mhcq1jj9j",
       "ticker": "BLSM",
@@ -1530,9 +1516,54 @@
         "ai"
       ],
       "date": "2026-08-07"
+    },
+    {
+      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
+      "ticker": "WEYS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Weyco Group Q2 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
+      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Weyco : Q2 Earnings Snapshot",
+      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
+      "ticker": "WEYS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1720,
+  "signals_count": 1706,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
