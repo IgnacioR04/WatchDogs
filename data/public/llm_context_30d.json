@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-10T23:12:26.599068+00:00",
+  "generated_at": "2026-08-11T00:07:50.277400+00:00",
   "window": {
-    "from": "2026-07-11",
-    "to": "2026-08-10",
+    "from": "2026-07-12",
+    "to": "2026-08-11",
     "days": 30
   },
   "data_quality": {
@@ -23,9 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "earnings",
-      "ai"
+      "ai",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -99,7 +98,9 @@
       "event_date": "2026-08-10",
       "importance_score": 83.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_50273503817"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1583977/000123191926000852/"
     },
     {
@@ -123,6 +124,27 @@
     {
       "id": "move_6",
       "rank": 6,
+      "title": "CEO vendio CHYM ($4.5M)",
+      "summary": "CEO Britt Christopher R vendio CHYM por $4.5M el 2026-08-10 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Britt Christopher R",
+      "actor_type": "ceo",
+      "ticker": "CHYM",
+      "direction": "sell",
+      "amount_estimated": 4523490.0,
+      "event_date": "2026-08-10",
+      "importance_score": 82.9,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_321357976380",
+        "news_935094941003"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro COE ($2.4M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.4M el 2026-08-04.",
       "source": "sec_form_4",
@@ -139,8 +161,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000006/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner vendio ANET ($26.2M)",
       "summary": "10% owner BECHTOLSHEIM ANDREAS vendio ANET por $26.2M el 2026-08-06 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -157,8 +179,29 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000188/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
+      "title": "10% owner vendio CHYM ($21.7M)",
+      "summary": "10% owner DST Global Advisors Ltd vendio CHYM por $21.7M el 2026-08-06 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "DST Global Advisors Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CHYM",
+      "direction": "sell",
+      "amount_estimated": 21661937.45,
+      "event_date": "2026-08-06",
+      "importance_score": 82.3,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_321357976380",
+        "news_935094941003"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1550172/000119312526342949/"
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner vendio ANET ($19.2M)",
       "summary": "10% owner BECHTOLSHEIM ANDREAS vendio ANET por $19.2M el 2026-08-06 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -175,8 +218,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000188/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -193,8 +236,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -211,8 +254,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -229,8 +272,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -247,8 +290,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -265,8 +308,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -283,8 +326,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -301,8 +344,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -319,8 +362,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -337,8 +380,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -348,42 +391,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 19159260573,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
-      "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Citadel Advisors LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16040282989,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
-      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 15145083757,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -400,6 +407,15 @@
         "sources": [
           "congress",
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NATR",
+        "company": "NATURES SUNSHINE PRODUCTS INC",
+        "pressure_score": 1050.3,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -432,6 +448,14 @@
         "pressure_score": 368.0,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "BLSM",
+        "company": "BlossomHill Therapeutics, Inc.",
+        "pressure_score": 363.3,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -498,33 +522,9 @@
           "corporate_insider",
           "large_holder"
         ]
-      },
-      {
-        "ticker": "OBX",
-        "company": "Obsidian Therapeutics, Inc.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "RRBI",
-        "company": "RED RIVER BANCSHARES INC",
-        "pressure_score": 203.9,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "APPF",
-        "company": "APPFOLIO INC",
-        "pressure_score": 2868.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "TMO",
         "company": "Stock",
@@ -532,6 +532,15 @@
         "sources": [
           "congress",
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CHYM",
+        "company": "CHIME FINANCIAL, INC.",
+        "pressure_score": 2010.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -619,6 +628,14 @@
         ]
       },
       {
+        "ticker": "YSS",
+        "company": "York Space Systems Inc.",
+        "pressure_score": 451.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "IRM",
         "company": "IRON MOUNTAIN INC",
         "pressure_score": 447.4,
@@ -630,14 +647,6 @@
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 357.6,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MKL",
-        "company": "DC Markel Group Inc. Common Stock",
-        "pressure_score": 355.4,
         "sources": [
           "congress"
         ]
@@ -736,12 +745,30 @@
       "score": 79.2
     },
     {
+      "ticker": "NATR",
+      "company": "NATURES SUNSHINE PRODUCTS INC",
+      "actor": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 267462.4,
+      "date": "2026-08-10",
+      "score": 78.2
+    },
+    {
       "ticker": "FBIN",
       "company": "Fortune Brands Innovations, Inc.",
       "actor": "Singh Jesse G",
       "actor_type": "ceo",
       "amount": 275827.16,
       "date": "2026-08-06",
+      "score": 78.1
+    },
+    {
+      "ticker": "NATR",
+      "company": "NATURES SUNSHINE PRODUCTS INC",
+      "actor": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 500400.0,
+      "date": "2026-08-07",
       "score": 78.1
     },
     {
@@ -761,24 +788,6 @@
       "amount": 249446.02,
       "date": "2026-08-07",
       "score": 77.8
-    },
-    {
-      "ticker": "CLVT",
-      "company": "CLARIVATE PLC",
-      "actor": "Cornick Kenneth L.",
-      "actor_type": "director",
-      "amount": 1209000.0,
-      "date": "2026-08-06",
-      "score": 76.3
-    },
-    {
-      "ticker": "BWMX",
-      "company": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
-      "actor": "Campos Luis",
-      "actor_type": "ten_percent_owner",
-      "amount": 371093.0,
-      "date": "2026-08-04",
-      "score": 76.2
     }
   ],
   "institutional_changes": [
@@ -1237,9 +1246,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 203144.27,
+        "pnl": 205882.28,
         "win_rate": 0.842,
-        "volume": 690831.54,
+        "volume": 715282.99,
         "categories": [
           "sports",
           "politics",
@@ -1247,21 +1256,21 @@
         ]
       },
       {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 34966.37,
-        "win_rate": 0.9142,
-        "volume": 29435.26,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 84833.3,
+        "win_rate": 0.8696,
+        "volume": 190571.33,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 66983.3,
-        "win_rate": 0.8696,
-        "volume": 181476.59,
+        "wallet": "0x162ca4c524",
+        "username": "VD721lsj4938Dk388",
+        "pnl": 33953.2,
+        "win_rate": 0.9144,
+        "volume": 29435.26,
         "categories": [
           "sports"
         ]
@@ -1272,16 +1281,6 @@
         "pnl": 31991.49,
         "win_rate": 0.9167,
         "volume": 92557.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdd5ef115f8",
-        "username": "Forecastication2",
-        "pnl": 17117.34,
-        "win_rate": 0.913,
-        "volume": 71055.32,
         "categories": [
           "sports"
         ]
@@ -1321,12 +1320,22 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 19505.6,
+        "pnl": 19327.22,
         "win_rate": 0.8308,
         "volume": 170712.88,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x80bac5c17a",
+        "username": "Wealthfreedom001",
+        "pnl": 32024.51,
+        "win_rate": 0.785,
+        "volume": 112070.57,
+        "categories": [
+          "sports"
         ]
       }
     ],
@@ -1334,9 +1343,9 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 114237.93,
+        "pnl": 114151.76,
         "win_rate": 0.4837,
-        "volume": 4867423.72,
+        "volume": 4944096.73,
         "categories": [
           "sports",
           "crypto"
@@ -1345,9 +1354,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 42222.62,
-        "win_rate": 0.646,
-        "volume": 6423439.02,
+        "pnl": 41465.85,
+        "win_rate": 0.647,
+        "volume": 6453462.73,
         "categories": [
           "sports",
           "crypto",
@@ -1355,21 +1364,11 @@
         ]
       },
       {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 16662.7,
-        "win_rate": 0.4789,
-        "volume": 621137.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 55970.07,
+        "pnl": 53455.88,
         "win_rate": 0.588,
-        "volume": 1585722.18,
+        "volume": 1624792.01,
         "categories": [
           "sports"
         ]
@@ -1377,9 +1376,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 77285.03,
+        "pnl": 61840.9,
         "win_rate": 0.544,
-        "volume": 447527.2,
+        "volume": 455343.24,
         "categories": [
           "sports",
           "politics"
@@ -1388,9 +1387,19 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 31507.22,
-        "win_rate": 0.537,
-        "volume": 618861.31,
+        "pnl": 31465.02,
+        "win_rate": 0.536,
+        "volume": 696806.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 46210.39,
+        "win_rate": 0.401,
+        "volume": 1540783.93,
         "categories": [
           "sports"
         ]
@@ -1399,18 +1408,8 @@
         "wallet": "0xa4b7b1814b",
         "username": "midwicket72",
         "pnl": 98568.42,
-        "win_rate": 0.5079,
+        "win_rate": 0.5078,
         "volume": 316291.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 42307.26,
-        "win_rate": 0.333,
-        "volume": 1491304.29,
         "categories": [
           "sports"
         ]
@@ -1418,19 +1417,30 @@
       {
         "wallet": "0x0cb0384875",
         "username": "",
-        "pnl": 22936.76,
-        "win_rate": 0.507,
-        "volume": 1104395.66,
+        "pnl": 23274.4,
+        "win_rate": 0.505,
+        "volume": 1144492.56,
         "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x0d2d845a6f",
+        "username": "38791873984189",
+        "pnl": 18810.6,
+        "win_rate": 0.651,
+        "volume": 1064905.71,
+        "categories": [
+          "sports",
           "crypto"
         ]
       },
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 203144.27,
+        "pnl": 205882.28,
         "win_rate": 0.842,
-        "volume": 690831.54,
+        "volume": 715282.99,
         "categories": [
           "sports",
           "politics",
@@ -1441,132 +1451,41 @@
   },
   "news": [
     {
-      "title": "Sony , TSMC to invest $6 . 3B in Japan for next - gen image sensors",
-      "url": "https://www.thenews.com.pk/latest/1411795-sony-tsmc-to-invest-63b-in-japan-for-next-gen-image-sensors",
-      "ticker": "TSM",
+      "title": "Financial Survey : Chime Financial ( CHYM ) & The Competition",
+      "url": "https://www.dailypolitical.com/2026/08/10/financial-survey-chime-financial-chym-the-competition.html",
+      "ticker": "CHYM",
       "themes": [],
       "date": "2026-08-10"
     },
     {
-      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/10/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
-      "ticker": "CRL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13537841/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
-      "ticker": "CRL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC , Sony to invest in sensor plant",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862263",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC Can Sidestep $1 Billion Apple Chip Glut by Rerouting Production Lines to AI , Taiwan Analyst Argues",
-      "url": "https://wccftech.com/tsmc-can-sidestep-apple-chip-glut-by-rerouting-production-lines-to-ai-taiwan-analyst-argues/",
-      "ticker": "TSM",
+      "title": "BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P",
+      "url": "https://247wallst.com/cards/blossomhill-therapeutics-inc-blsm-ipofiling-01kzeynfvm4nbsws3mhcq1jj9j",
+      "ticker": "BLSM",
       "themes": [
         "ai"
       ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Sony Pledges $6 . 3 Billion to Build Sensors with TSMC in First Foundry Shift",
-      "url": "https://www.techtimes.com/articles/323752/20260810/sony-pledges-63-billion-build-sensors-tsmc-first-foundry-shift.htm",
-      "ticker": "TSM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "TSMC Stock Holds Flat Despite 44 . 7 % July Sales Surge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-holds-flat-despite-155910769.html",
-      "ticker": "TSM",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Datadog coverage update : BofA stays bullish on weakness",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
-      "ticker": "DDOG",
-      "themes": [],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
-      "ticker": "WEYS",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-08-07"
     },
     {
-      "title": "Charles River Laboratories Blows Out Of A Buy Zone After One Metric Hits A Four - Year High",
-      "url": "https://www.investors.com/news/technology/charles-river-laboratories-stock-charles-river-laboratories-earnings-q2-2026/",
-      "ticker": "CRL",
-      "themes": [],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Biotech Stocks At 52 - Week Highs - BVS , TVTX , ODTX , CRL Climb With Q2 Results , ACRS",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69234836-biotech-stocks-at-52-week-highs-bvs-tvtx-odtx-crl-climb-with-q2-results-acrs-020.htm",
-      "ticker": "CRL",
+      "title": "This building materials stock has a favorable setup , charts show",
+      "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+      "ticker": "OC",
       "themes": [
         "stock"
       ],
       "date": "2026-08-06"
     },
     {
-      "title": "Weyco Group Q2 Earnings Call Highlights",
-      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
-      "ticker": "WEYS",
+      "title": "Chime Financial ( NASDAQ : CHYM ) Price Target Raised to $33 . 00 at Morgan Stanley",
+      "url": "https://www.dailypolitical.com/2026/08/06/chime-financial-nasdaqchym-price-target-raised-to-33-00-at-morgan-stanley.html",
+      "ticker": "CHYM",
       "themes": [
-        "earnings"
+        "ai"
       ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
-      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
+      "date": "2026-08-06"
     }
   ],
-  "signals_count": 1685,
+  "signals_count": 1717,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
