@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T15:34:21+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T16:31:20+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.31)
-- Tendencia: `bull` (SPY 772.43 · MA50 747.38 · MA200 701.22 · dist MA200: 10.16%)
+- Volatilidad: `normal` (VIX 15.36)
+- Tendencia: `bull` (SPY 771.69 · MA50 747.36 · MA200 701.21 · dist MA200: 10.05%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
@@ -22,21 +22,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 772.43 | -0.08% | 0.14% | 2.74% |
-| QQQ | 12.0% | core | 720.09 | -0.11% | -0.52% | 0.06% |
-| TLT | 12.0% | core | 82.26 | 0.24% | -0.68% | -1.77% |
-| GLD | 9.3% | core | 402.3 | -0.06% | 7.52% | 8.1% |
-| IEF | 6.2% | core | 92.91 | 0.16% | -0.36% | -0.34% |
-| RRBI | 5.1% | satellite | 101.24 | 0.56% | -0.67% | 5.24% |
-| BWFG | 5.0% | satellite | 67.54 | 1.06% | 0.51% | 16.16% |
-| KRNY | 5.0% | satellite | 9.57 | 1.22% | -1.69% | 2.08% |
-| FWONK | 4.6% | satellite | 102.22 | -0.5% | 6.0% | 1.34% |
-| LTH | 3.0% | satellite | 43.24 | 1.84% | -3.33% | 4.02% |
-| PRMB | 2.8% | satellite | 23.32 | -0.81% | 0.13% | -3.52% |
-| CHRW | 2.6% | satellite | 143.82 | -3.02% | -7.07% | -27.95% |
-| FBIN | 2.3% | satellite | 49.51 | 3.17% | -6.11% | -2.19% |
-| CHYM | 1.8% | satellite | 32.4 | 5.02% | 29.86% | 50.98% |
-| GLXY | 1.3% | satellite | 20.31 | 4.05% | -8.27% | -16.14% |
+| SPY | 12.0% | core | 771.69 | -0.17% | 0.05% | 2.64% |
+| QQQ | 12.0% | core | 718.49 | -0.33% | -0.74% | -0.17% |
+| TLT | 12.0% | core | 82.25 | 0.24% | -0.68% | -1.78% |
+| GLD | 9.3% | core | 401.95 | -0.15% | 7.43% | 8.01% |
+| IEF | 6.2% | core | 92.93 | 0.18% | -0.35% | -0.33% |
+| RRBI | 5.1% | satellite | 101.61 | 0.92% | -0.31% | 5.62% |
+| BWFG | 5.0% | satellite | 67.65 | 1.23% | 0.68% | 16.35% |
+| KRNY | 5.0% | satellite | 9.56 | 1.06% | -1.85% | 1.92% |
+| FWONK | 4.6% | satellite | 102.6 | -0.13% | 6.4% | 1.72% |
+| LTH | 3.0% | satellite | 43.35 | 2.1% | -3.09% | 4.28% |
+| PRMB | 2.8% | satellite | 23.55 | 0.17% | 1.12% | -2.57% |
+| CHRW | 2.6% | satellite | 144.69 | -2.43% | -6.5% | -27.51% |
+| FBIN | 2.3% | satellite | 49.99 | 4.17% | -5.2% | -1.24% |
+| CHYM | 1.8% | satellite | 31.99 | 3.7% | 28.22% | 49.07% |
+| GLXY | 1.3% | satellite | 20.29 | 3.94% | -8.36% | -16.23% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 772.43 (-0.08% / 0.14% / 2.74%) [2026-08-11]
-- QQQ: 720.09 (-0.11% / -0.52% / 0.06%) [2026-08-11]
-- IWM: 300.95 (0.32% / -0.25% / 2.18%) [2026-08-11]
-- DIA: 538.94 (-0.01% / -0.28% / 2.75%) [2026-08-11]
-- TLT: 82.26 (0.24% / -0.68% / -1.77%) [2026-08-11]
-- IEF: 92.91 (0.16% / -0.36% / -0.34%) [2026-08-11]
-- GLD: 402.3 (-0.06% / 7.52% / 8.1%) [2026-08-11]
-- ^VIX: 15.31 (-0.97% / -7.21% / -7.21%) [2026-08-11]
-- BTC-USD: 63743.49 (-0.26% / -0.81% / -3.57%) [2026-08-11]
+- SPY: 771.69 (-0.17% / 0.05% / 2.64%) [2026-08-11]
+- QQQ: 718.49 (-0.33% / -0.74% / -0.17%) [2026-08-11]
+- IWM: 301.26 (0.43% / -0.15% / 2.29%) [2026-08-11]
+- DIA: 538.41 (-0.11% / -0.37% / 2.64%) [2026-08-11]
+- TLT: 82.25 (0.24% / -0.68% / -1.78%) [2026-08-11]
+- IEF: 92.93 (0.18% / -0.35% / -0.33%) [2026-08-11]
+- GLD: 401.95 (-0.15% / 7.43% / 8.01%) [2026-08-11]
+- ^VIX: 15.36 (-0.65% / -6.91% / -6.91%) [2026-08-11]
+- BTC-USD: 63535.78 (-0.59% / -1.13% / -3.88%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,7 +123,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (4)
+**Temas dominantes**: stock (5), earnings (4)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -132,6 +132,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
 - [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
 - [WEYS] Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock (2026-08-07)
+- [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
 - [WEYS] Weyco Group Q2 Earnings Call Highlights (2026-08-05)
 - [WEYS] Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results (2026-08-05)
 - [WEYS] Weyco : Q2 Earnings Snapshot (2026-08-04)
@@ -150,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kosherlocks · PnL $41,626 · win rate 95% · categorias: sports, crypto
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $182,615 · win rate 85% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $186,829 · win rate 85% · categorias: sports
+- Kosherlocks · PnL $41,633 · win rate 95% · categorias: sports, crypto
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $25,594 · win rate 98% · categorias: sports, crypto
 - steevenseakael · PnL $19,948 · win rate 98% · categorias: sports
-- SDTrading · PnL $31,538 · win rate 93% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,879 · win rate 98% · categorias: sports, crypto
+- SDTrading · PnL $31,852 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -162,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 687 registros 30d · ultimo dato 2026-08-10
+- **sec_insiders**: `ok` · 680 registros 30d · ultimo dato 2026-08-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-11
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
