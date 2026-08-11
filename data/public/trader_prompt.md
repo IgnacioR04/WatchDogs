@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-11T00:08:41+00:00 -->
+<!-- trader_prompt.md generado 2026-08-11T02:45:17+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -230,7 +230,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T00:08:41+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T02:45:17+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,36 +257,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 82.06 | -0.85% | -0.16% | -1.88% |
 | GLD | 9.3% | core | 402.54 | 1.02% | 8.29% | 9.65% |
 | IEF | 6.2% | core | 92.76 | -0.44% | -0.06% | -0.23% |
-| FWONK | 6.2% | satellite | 102.73 | -0.12% | 5.11% | 3.1% |
-| BWFG | 6.1% | satellite | 66.83 | -0.1% | -1.02% | 14.3% |
-| LTH | 4.9% | satellite | 42.46 | -3.08% | -3.87% | 2.39% |
-| INVX | 3.1% | satellite | 29.17 | 3.81% | 3.07% | 14.39% |
-| CHRW | 2.8% | satellite | 148.29 | -0.71% | 0.88% | -24.53% |
-| NATR | 2.8% | satellite | 15.77 | -3.72% | -25.4% | -26.92% |
+| BWFG | 5.7% | satellite | 66.83 | 0.19% | -0.73% | 14.64% |
+| FWONK | 5.2% | satellite | 102.73 | -0.12% | 5.11% | 3.1% |
+| NATR | 3.4% | satellite | 15.77 | -3.72% | -25.4% | -26.92% |
+| LTH | 3.4% | satellite | 42.46 | -3.08% | -3.87% | 2.39% |
+| PRMB | 3.2% | satellite | 23.51 | -0.25% | 5.28% | -1.18% |
+| CHRW | 3.0% | satellite | 148.29 | -0.71% | 0.88% | -24.53% |
+| PINS | 2.7% | satellite | 24.37 | 2.91% | 0.87% | 7.83% |
 | FBIN | 2.7% | satellite | 47.99 | -5.49% | -8.01% | -4.55% |
-| CHYM | 2.2% | satellite | 30.85 | 6.01% | 27.16% | 47.26% |
-| SPCX | 1.5% | satellite | 138.74 | 4.23% | 21.14% | -0.29% |
-| GTE | 1.3% | satellite | 8.95 | -0.11% | 28.41% | 33.98% |
+| CHYM | 2.1% | satellite | 30.85 | 6.01% | 27.16% | 47.26% |
+| AHCO | 2.1% | satellite | 5.22 | -8.26% | -51.8% | -49.27% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.7%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -1.5%
-- Beta vs SPY: 0.499 · posiciones efectivas: 14.3 · HHI: 0.0698
+- Volatilidad anualizada: 11.2%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -7.1%
+- Beta vs SPY: 0.642 · posiciones efectivas: 14.6 · HHI: 0.0683
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **NATR** · score agregado 726.2 · 12 señales · fuentes: corporate_insider, large_holder
 - **BWFG** · score agregado 337.3 · 6 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
+- **AHCO** · score agregado 219.2 · 3 señales · fuentes: corporate_insider
 - **FBIN** · score agregado 193.1 · 3 señales · fuentes: corporate_insider
-- **SPCX** · score agregado 180.7 · 3 señales · fuentes: congress
+- **PINS** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **CHYM** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **INVX** · score agregado 70.2 · 1 señales · fuentes: large_holder
-- **GTE** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **PRMB** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -295,20 +295,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BLSM | 87 | corporate_insider | Chen Bihua | 4 | $5,000,000 | cluster_buy |
+| LTGO | 82 | corporate_insider | Tananbaum James B. | 2 | $2,520,000 | cluster_buy |
+| LTGO | 82 | corporate_insider | Foresite Capital Manageme | 2 | $2,520,000 | cluster_buy |
 | MKZR | 78 | corporate_insider | DIXON ROBERT E | 3 | $37,440 | cluster_buy |
 | MKZR | 76 | corporate_insider | DIXON ROBERT E | 3 | $15,900 | cluster_buy,small_amount |
 | BLSM | 76 | corporate_insider | Schmid John P. | 4 | $96,000 | cluster_buy |
-| TSM | 76 | corporate_insider | Wei Che-Chia | 30 | $11,143 | cluster_buy,small_amount |
+| TSM | 76 | corporate_insider | Wei Che-Chia | 9 | $11,143 | cluster_buy,small_amount |
 | ELAN | 75 | corporate_insider | VanHimbergen Robert M | 2 | $96,926 | cluster_buy |
 | BLSM | 75 | corporate_insider | Keyes Jason A | 4 | $11,200 | cluster_buy,small_amount |
 | MKZR | 74 | corporate_insider | PATTERSON CHARLES E. II | 3 | $37,440 | cluster_buy |
 | ELAN | 74 | corporate_insider | Herendeen Paul | 2 | $236,850 | cluster_buy |
 | BLSM | 74 | corporate_insider | Liptak Vincent Paul | 4 | $39,500 | cluster_buy |
 | MKZR | 73 | corporate_insider | FULLER GLEN W | 3 | $37,440 | cluster_buy |
+| AHCO | 73 | corporate_insider | SAMET KENNETH A | 2 | $149,930 | cluster_buy |
 | BLSM | 73 | corporate_insider | Liptak Vincent Paul | 4 | $35,200 | cluster_buy |
-| CZWI | 73 | corporate_insider | Bianchi Stephen M | 2 | $20,500 | cluster_buy,small_amount |
-| MKZR | 72 | corporate_insider | PATTERSON CHARLES E. II | 3 | $15,900 | cluster_buy,small_amount |
-| MRP | 72 | corporate_insider | Gorson Matthew B. | 2 | $86,400 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
 - ^VIX: 15.46 (3.76% / -2.52% / -9.91%) [2026-08-10]
-- BTC-USD: 63840.8 (-1.55% / -1.17% / -4.01%) [2026-08-11]
+- BTC-USD: 63975.45 (-1.34% / -0.96% / -3.8%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,18 +353,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
-- [BLSM] BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P (2026-08-07)
+- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
 - [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) Price Target Raised to $33 . 00 at Morgan Stanley (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner INNOVEX CO-INVEST FUND, L.P. vendio INVX por $106.4M el 2026-08-10 [senal en multiples fuentes].
+- 10% owner ORCP III DE TopCo GP, LLC vendio PRMB por $497.4M el 2026-08-07 [senal en multiples fuentes].
 - CEO Huang Jack Jiajia compro COE por $6.2M el 2026-08-03.
 - 10% owner Chen Bihua compro BLSM por $5.0M el 2026-08-10.
 - CEO Huang Jack Jiajia compro COE por $3.0M el 2026-08-05.
@@ -375,11 +373,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Shori888 · PnL $24,343 · win rate 100% · categorias: sports
-- quavoo · PnL $205,882 · win rate 84% · categorias: sports, politics, economy
-- BrotherObama · PnL $84,833 · win rate 87% · categorias: sports
-- VD721lsj4938Dk388 · PnL $33,953 · win rate 91% · categorias: sports
-- lzh1 · PnL $31,991 · win rate 92% · categorias: sports
+- SDTrading · PnL $59,326 · win rate 93% · categorias: sports
+- comon119 · PnL $5,396 · win rate 99% · categorias: sports, crypto, politics
+- BreakTheBank · PnL $43,608 · win rate 85% · categorias: sports
+- Shimi1234 · PnL $7,547 · win rate 96% · categorias: sports, crypto
+- steevenseakael · PnL $4,750 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +385,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 671 registros 30d · ultimo dato 2026-08-10
+- **sec_insiders**: `ok` · 717 registros 30d · ultimo dato 2026-08-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -401,7 +399,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CHRW, CHYM, FBIN, FWONK, GLD, GTE, IEF, INVX, LTH, NATR, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AHCO, BWFG, CHRW, CHYM, FBIN, FWONK, GLD, IEF, LTH, NATR, PINS, PRMB, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
