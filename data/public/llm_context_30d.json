@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T11:22:17.542915+00:00",
+  "generated_at": "2026-08-11T12:13:37.421054+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -23,9 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "earnings",
-      "ai"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -81,11 +79,7 @@
       "event_date": "2026-08-10",
       "importance_score": 83.3,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_407245917647",
-        "news_458201988328",
-        "news_657600157864"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1583977/000123191926000852/"
     },
     {
@@ -121,7 +115,11 @@
       "event_date": "2026-08-10",
       "importance_score": 82.9,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_24197316200",
+        "news_332514532317",
+        "news_908398424759"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
     },
     {
@@ -175,7 +173,11 @@
       "event_date": "2026-08-06",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_24197316200",
+        "news_332514532317",
+        "news_908398424759"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526342957/"
     },
     {
@@ -597,14 +599,6 @@
         ]
       },
       {
-        "ticker": "CALY",
-        "company": "Callaway Golf Co",
-        "pressure_score": 631.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ALAB",
         "company": "Astera Labs, Inc.",
         "pressure_score": 615.3,
@@ -641,6 +635,14 @@
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 357.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
         "sources": [
           "congress"
         ]
@@ -1162,6 +1164,15 @@
       "date": "2026-08-07"
     },
     {
+      "filer": "JACK HARRY KAYE",
+      "company": "DAVION HEALTHCARE PLC",
+      "ticker": "DAVI",
+      "ownership_pct": 41.08,
+      "shares": 10268948,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-11"
+    },
+    {
       "filer": "Walmart Inc.",
       "company": "Symbotic Inc.",
       "ticker": "SYM",
@@ -1214,15 +1225,6 @@
       "shares": 121989527,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-07"
-    },
-    {
-      "filer": "ORCP III DE TopCo GP, LLC",
-      "company": "Primo Brands Corp",
-      "ticker": "PRMB",
-      "ownership_pct": 26.5,
-      "shares": 95800466,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-10"
     }
   ],
   "polymarket": {
@@ -1230,7 +1232,7 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 41622.52,
+        "pnl": 41623.72,
         "win_rate": 0.9512,
         "volume": 21739.13,
         "categories": [
@@ -1241,9 +1243,9 @@
       {
         "wallet": "0xe55aab114e",
         "username": "steevenseakael",
-        "pnl": 19550.0,
+        "pnl": 19575.75,
         "win_rate": 0.9844,
-        "volume": 0.0,
+        "volume": 1500.56,
         "categories": [
           "sports"
         ]
@@ -1251,7 +1253,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 30982.62,
+        "pnl": 29251.24,
         "win_rate": 0.933,
         "volume": 0.0,
         "categories": [
@@ -1261,19 +1263,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 30801.36,
+        "pnl": 30948.81,
         "win_rate": 0.897,
-        "volume": 56370.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x696de7b6e4",
-        "username": "xm39",
-        "pnl": 11938.02,
-        "win_rate": 0.9385,
-        "volume": 103424.57,
+        "volume": 56863.0,
         "categories": [
           "sports"
         ]
@@ -1281,23 +1273,21 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 23574.86,
-        "win_rate": 0.8475,
-        "volume": 38780.8,
+        "pnl": 34429.21,
+        "win_rate": 0.8644,
+        "volume": 469907.17,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x40604cb1f9",
-        "username": "C03B",
-        "pnl": 20939.78,
-        "win_rate": 0.825,
-        "volume": 4060.58,
+        "wallet": "0xcf609d3256",
+        "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
+        "pnl": 17997.18,
+        "win_rate": 0.844,
+        "volume": 146259.11,
         "categories": [
-          "sports",
-          "crypto",
-          "economy"
+          "sports"
         ]
       },
       {
@@ -1313,11 +1303,11 @@
         ]
       },
       {
-        "wallet": "0xa06ac74809",
-        "username": "itskkoma",
-        "pnl": 14470.49,
-        "win_rate": 0.8387,
-        "volume": 27827.86,
+        "wallet": "0xf377b9fb12",
+        "username": "danielwolfmorales3pddb6dl6",
+        "pnl": 15275.44,
+        "win_rate": 0.8293,
+        "volume": 178461.15,
         "categories": [
           "sports",
           "crypto"
@@ -1326,9 +1316,19 @@
       {
         "wallet": "0xfd144099a9",
         "username": "Divinev",
-        "pnl": 23470.46,
+        "pnl": 24891.25,
         "win_rate": 0.793,
-        "volume": 63184.29,
+        "volume": 64919.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 214039.32,
+        "win_rate": 0.642,
+        "volume": 2430906.16,
         "categories": [
           "sports"
         ]
@@ -1336,11 +1336,21 @@
     ],
     "whales": [
       {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 214039.32,
+        "win_rate": 0.642,
+        "volume": 2430906.16,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 39295.64,
+        "pnl": 40236.03,
         "win_rate": 0.534,
-        "volume": 1920289.07,
+        "volume": 1933998.96,
         "categories": [
           "sports"
         ]
@@ -1348,22 +1358,24 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 52843.87,
-        "win_rate": 0.4838,
-        "volume": 539657.55,
+        "pnl": 52181.32,
+        "win_rate": 0.4871,
+        "volume": 547746.49,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 206151.02,
-        "win_rate": 0.644,
-        "volume": 2008316.39,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 18658.57,
+        "win_rate": 0.661,
+        "volume": 857074.54,
         "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "economy"
         ]
       },
       {
@@ -1378,21 +1390,19 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 25029.09,
-        "win_rate": 0.66,
-        "volume": 683360.14,
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 34429.21,
+        "win_rate": 0.8644,
+        "volume": 469907.17,
         "categories": [
-          "sports",
-          "crypto",
-          "economy"
+          "sports"
         ]
       },
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 26372.78,
+        "pnl": 27474.56,
         "win_rate": 0.7428,
         "volume": 649498.14,
         "categories": [
@@ -1401,11 +1411,21 @@
         ]
       },
       {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 25074.18,
+        "win_rate": 0.4861,
+        "volume": 206301.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 19970.62,
+        "pnl": 21217.6,
         "win_rate": 0.665,
-        "volume": 378467.19,
+        "volume": 383607.72,
         "categories": [
           "sports"
         ]
@@ -1413,98 +1433,58 @@
       {
         "wallet": "0xe734e7bf7c",
         "username": "boyau",
-        "pnl": 36577.32,
-        "win_rate": 0.4792,
-        "volume": 135552.01,
+        "pnl": 22540.72,
+        "win_rate": 0.4806,
+        "volume": 138654.02,
         "categories": [
           "sports",
           "crypto",
           "economy"
-        ]
-      },
-      {
-        "wallet": "0x62addedbe3",
-        "username": "oo1100",
-        "pnl": 53079.37,
-        "win_rate": 0.8333,
-        "volume": 191999.72,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa71093cafc",
-        "username": "Talvez10",
-        "pnl": 63022.51,
-        "win_rate": 0.528,
-        "volume": 115828.88,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13537924/insider-buying-blossomhill-therapeutics-nasdaqblsm-general-counsel-purchases-39500-00-in-stock.html",
-      "ticker": "BLSM",
+      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
+      "ticker": "CHYM",
       "themes": [
         "stock"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/10/blossomhill-therapeutics-nasdaqblsm-general-counsel-vincent-paul-liptak-buys-2500-shares.html",
-      "ticker": "BLSM",
+      "title": "Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537946/christopher-britt-sells-200000-shares-of-chime-financial-nasdaqchym-stock.html",
+      "ticker": "CHYM",
       "themes": [
         "stock"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/10/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
-      "ticker": "CRL",
+      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/11/insider-selling-chime-financial-nasdaqchym-major-shareholder-sells-1796196-shares.html",
+      "ticker": "CHYM",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-10"
+      "date": "2026-08-11"
     },
     {
-      "title": "Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13537841/victoria-creamer-sells-4179-shares-of-charles-river-laboratories-international-nysecrl-stock.html",
-      "ticker": "CRL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "United Therapeutics Q2 Earnings Call Highlights",
-      "url": "https://www.dailypolitical.com/2026/08/08/united-therapeutics-q2-earnings-call-highlights.html",
-      "ticker": "UTHR",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P",
-      "url": "https://247wallst.com/cards/blossomhill-therapeutics-inc-blsm-ipofiling-01kzeynfvm4nbsws3mhcq1jj9j",
-      "ticker": "BLSM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Charles River Laboratories Blows Out Of A Buy Zone After One Metric Hits A Four - Year High",
-      "url": "https://www.investors.com/news/technology/charles-river-laboratories-stock-charles-river-laboratories-earnings-q2-2026/",
-      "ticker": "CRL",
+      "title": "Financial Survey : Chime Financial ( CHYM ) & The Competition",
+      "url": "https://www.dailypolitical.com/2026/08/10/financial-survey-chime-financial-chym-the-competition.html",
+      "ticker": "CHYM",
       "themes": [],
-      "date": "2026-08-07"
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Datadog coverage update : BofA stays bullish on weakness",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-coverage-bofa-stays-bullish-164700611.html",
+      "ticker": "DDOG",
+      "themes": [],
+      "date": "2026-08-09"
     },
     {
       "title": "This building materials stock has a favorable setup , charts show",
@@ -1514,36 +1494,9 @@
         "stock"
       ],
       "date": "2026-08-06"
-    },
-    {
-      "title": "Biotech Stocks At 52 - Week Highs - BVS , TVTX , ODTX , CRL Climb With Q2 Results , ACRS",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69234836-biotech-stocks-at-52-week-highs-bvs-tvtx-odtx-crl-climb-with-q2-results-acrs-020.htm",
-      "ticker": "CRL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "United Therapeutics Q2 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/08/05/united-therapeutics-q2-earnings-call-highlights.html",
-      "ticker": "UTHR",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "FinancialContent - Earnings To Watch : United Therapeutics ( UTHR ) Reports Q2 Results Tomorrow",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-earnings-to-watch-united-therapeutics-uthr-reports-q2-results-tomorrow",
-      "ticker": "UTHR",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1779,
+  "signals_count": 1773,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

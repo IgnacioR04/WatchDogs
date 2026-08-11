@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T11:23:22+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T12:14:30+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.43)
+- Volatilidad: `normal` (VIX 15.45)
 - Tendencia: `bull` (SPY 773.03 · MA50 747.02 · MA200 700.67 · dist MA200: 10.33%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.06 (-0.85% / -0.16% / -1.88%) [2026-08-10]
 - IEF: 92.76 (-0.44% / -0.06% / -0.23%) [2026-08-10]
 - GLD: 402.54 (1.02% / 8.29% / 9.65%) [2026-08-10]
-- ^VIX: 15.43 (-0.19% / -6.48% / -6.48%) [2026-08-11]
-- BTC-USD: 64289.94 (0.59% / 0.04% / -2.74%) [2026-08-11]
+- ^VIX: 15.45 (-0.06% / -6.36% / -6.36%) [2026-08-11]
+- BTC-USD: 64419.47 (0.8% / 0.24% / -2.54%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (3), ai (1)
+**Temas dominantes**: stock (4)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [BLSM] Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock (2026-08-11)
-- [BLSM] BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares (2026-08-11)
-- [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
-- [CRL] Victoria Creamer Sells 4 , 179 Shares of Charles River Laboratories International ( NYSE : CRL ) Stock (2026-08-10)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
-- [BLSM] BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P (2026-08-07)
-- [CRL] Charles River Laboratories Blows Out Of A Buy Zone After One Metric Hits A Four - Year High (2026-08-07)
+- [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
+- [CHYM] Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-11)
+- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
+- [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
+- [DDOG] Datadog coverage update : BofA stays bullish on weakness (2026-08-09)
 - [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
-- [CRL] Biotech Stocks At 52 - Week Highs - BVS , TVTX , ODTX , CRL Climb With Q2 Results , ACRS (2026-08-06)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kosherlocks · PnL $41,623 · win rate 95% · categorias: sports, crypto
-- steevenseakael · PnL $19,550 · win rate 98% · categorias: sports
-- SDTrading · PnL $30,983 · win rate 93% · categorias: sports
-- ic4cream · PnL $30,801 · win rate 90% · categorias: sports
-- xm39 · PnL $11,938 · win rate 94% · categorias: sports
+- Kosherlocks · PnL $41,624 · win rate 95% · categorias: sports, crypto
+- steevenseakael · PnL $19,576 · win rate 98% · categorias: sports
+- SDTrading · PnL $29,251 · win rate 93% · categorias: sports
+- ic4cream · PnL $30,949 · win rate 90% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $34,429 · win rate 86% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +159,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 738 registros 30d · ultimo dato 2026-08-10
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-10
+- **sec_insiders**: `ok` · 732 registros 30d · ultimo dato 2026-08-10
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-11
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
