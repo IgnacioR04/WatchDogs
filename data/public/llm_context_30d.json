@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-11T16:29:10.369711+00:00",
+  "generated_at": "2026-08-11T17:28:18.101066+00:00",
   "window": {
     "from": "2026-07-12",
     "to": "2026-08-11",
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -80,7 +80,11 @@
       "event_date": "2026-08-10",
       "importance_score": 83.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_41611651111",
+        "news_109730019233",
+        "news_439419443717"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1583977/000123191926000852/"
     },
     {
@@ -116,11 +120,7 @@
       "event_date": "2026-08-10",
       "importance_score": 82.9,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_450261268223",
-        "news_379931175519",
-        "news_118824697489"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2061801/000206180126000011/"
     },
     {
@@ -174,11 +174,7 @@
       "event_date": "2026-08-06",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_450261268223",
-        "news_379931175519",
-        "news_118824697489"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526342957/"
     },
     {
@@ -238,6 +234,24 @@
     {
       "id": "move_12",
       "rank": 12,
+      "title": "10% owner compro Privacore VPC Asset Backed Credit Fund ($5.0M)",
+      "summary": "10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $5.0M el 2026-08-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "BANKERS LIFE & CASUALTY CO",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 5000000.0,
+      "event_date": "2026-08-07",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/903939/000090393926000026/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -254,8 +268,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -272,8 +286,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -290,8 +304,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -308,8 +322,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -326,8 +340,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -344,8 +358,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -362,8 +376,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -373,24 +387,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 20820733596,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 20340227051,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -497,28 +493,28 @@
         ]
       },
       {
+        "ticker": "AMAT",
+        "company": "Stock",
+        "pressure_score": 225.8,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MNST",
+        "company": "Common Stock",
+        "pressure_score": 221.3,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
         "ticker": "TISI",
         "company": "TEAM INC",
         "pressure_score": 215.0,
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "OBX",
-        "company": "Obsidian Therapeutics, Inc.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "RRBI",
-        "company": "RED RIVER BANCSHARES INC",
-        "pressure_score": 203.9,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -552,9 +548,10 @@
       },
       {
         "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 955.9,
+        "company": "Common Stock",
+        "pressure_score": 972.2,
         "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
@@ -732,6 +729,15 @@
       "score": 79.3
     },
     {
+      "ticker": "BCML",
+      "company": "BayCom Corp",
+      "actor": "Baron Christopher F",
+      "actor_type": "ceo",
+      "amount": 250717.5,
+      "date": "2026-08-10",
+      "score": 79.3
+    },
+    {
       "ticker": "NSLR",
       "company": "Neostellar Capital Corp.",
       "actor": "Klein Mark D",
@@ -775,15 +781,6 @@
       "amount": 249446.02,
       "date": "2026-08-07",
       "score": 77.8
-    },
-    {
-      "ticker": "CLVT",
-      "company": "CLARIVATE PLC",
-      "actor": "Cornick Kenneth L.",
-      "actor_type": "director",
-      "amount": 1209000.0,
-      "date": "2026-08-06",
-      "score": 76.3
     }
   ],
   "institutional_changes": [
@@ -1233,7 +1230,7 @@
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
         "pnl": 186829.0,
-        "win_rate": 0.8525,
+        "win_rate": 0.8548,
         "volume": 1245848.36,
         "categories": [
           "sports"
@@ -1341,7 +1338,7 @@
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
         "pnl": 186829.0,
-        "win_rate": 0.8525,
+        "win_rate": 0.8548,
         "volume": 1245848.36,
         "categories": [
           "sports"
@@ -1351,7 +1348,7 @@
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
         "pnl": 119380.33,
-        "win_rate": 0.638,
+        "win_rate": 0.617,
         "volume": 3778096.29,
         "categories": [
           "sports"
@@ -1361,7 +1358,7 @@
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
         "pnl": 37430.66,
-        "win_rate": 0.534,
+        "win_rate": 0.533,
         "volume": 2154748.84,
         "categories": [
           "sports"
@@ -1423,7 +1420,7 @@
         "wallet": "0x204f72f353",
         "username": "swisstony",
         "pnl": 18725.96,
-        "win_rate": 0.52,
+        "win_rate": 0.527,
         "volume": 780129.21,
         "categories": [
           "sports"
@@ -1443,95 +1440,43 @@
   },
   "news": [
     {
-      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
-      "ticker": "CHYM",
+      "title": "FinancialContent - Why Purple ( PRPL ) Stock Is Trading Lower Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-11-why-purple-prpl-stock-is-trading-lower-today",
+      "ticker": "TMO",
       "themes": [
         "stock"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13537946/christopher-britt-sells-200000-shares-of-chime-financial-nasdaqchym-stock.html",
-      "ticker": "CHYM",
+      "title": "Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13537924/insider-buying-blossomhill-therapeutics-nasdaqblsm-general-counsel-purchases-39500-00-in-stock.html",
+      "ticker": "BLSM",
       "themes": [
         "stock"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/11/insider-selling-chime-financial-nasdaqchym-major-shareholder-sells-1796196-shares.html",
-      "ticker": "CHYM",
+      "title": "BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/10/blossomhill-therapeutics-nasdaqblsm-general-counsel-vincent-paul-liptak-buys-2500-shares.html",
+      "ticker": "BLSM",
       "themes": [
         "stock"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "Financial Survey : Chime Financial ( CHYM ) & The Competition",
-      "url": "https://www.dailypolitical.com/2026/08/10/financial-survey-chime-financial-chym-the-competition.html",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/07/insider-selling-weyco-group-nasdaqweys-vp-sells-109554-93-in-stock.html",
-      "ticker": "WEYS",
+      "title": "BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P",
+      "url": "https://247wallst.com/cards/blossomhill-therapeutics-inc-blsm-ipofiling-01kzeynfvm4nbsws3mhcq1jj9j",
+      "ticker": "BLSM",
       "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-08-07"
-    },
-    {
-      "title": "This building materials stock has a favorable setup , charts show",
-      "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
-      "ticker": "OC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Weyco Group Q2 Earnings Call Highlights",
-      "url": "https://www.dailypolitical.com/2026/08/05/weyco-group-q2-earnings-call-highlights.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results",
-      "url": "https://www.tickerreport.com/banking-finance/13529950/weyco-group-nasdaqweys-posts-earnings-results.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.wdtimes.com/news/state/weyco-q2-earnings-snapshot/article_07e3609d-2874-5d5b-9ede-3730c234dd4a.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Weyco : Q2 Earnings Snapshot",
-      "url": "http://www.gazettextra.com/news/state/weyco-q2-earnings-snapshot/article_7ee413d9-c0b5-5462-a117-3adbe5f47cfc.html",
-      "ticker": "WEYS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1721,
+  "signals_count": 1729,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-11T16:31:20+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
+_Generado 2026-08-11T17:29:15+00:00 · ventana señales 2026-07-12 -> 2026-08-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.36)
-- Tendencia: `bull` (SPY 771.69 · MA50 747.36 · MA200 701.21 · dist MA200: 10.05%)
+- Volatilidad: `normal` (VIX 15.46)
+- Tendencia: `bull` (SPY 770.81 · MA50 747.35 · MA200 701.21 · dist MA200: 9.93%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
@@ -22,28 +22,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.69 | -0.17% | 0.05% | 2.64% |
-| QQQ | 12.0% | core | 718.49 | -0.33% | -0.74% | -0.17% |
-| TLT | 12.0% | core | 82.25 | 0.24% | -0.68% | -1.78% |
-| GLD | 9.3% | core | 401.95 | -0.15% | 7.43% | 8.01% |
-| IEF | 6.2% | core | 92.93 | 0.18% | -0.35% | -0.33% |
-| RRBI | 5.1% | satellite | 101.61 | 0.92% | -0.31% | 5.62% |
-| BWFG | 5.0% | satellite | 67.65 | 1.23% | 0.68% | 16.35% |
-| KRNY | 5.0% | satellite | 9.56 | 1.06% | -1.85% | 1.92% |
-| FWONK | 4.6% | satellite | 102.6 | -0.13% | 6.4% | 1.72% |
-| LTH | 3.0% | satellite | 43.35 | 2.1% | -3.09% | 4.28% |
-| PRMB | 2.8% | satellite | 23.55 | 0.17% | 1.12% | -2.57% |
-| CHRW | 2.6% | satellite | 144.69 | -2.43% | -6.5% | -27.51% |
-| FBIN | 2.3% | satellite | 49.99 | 4.17% | -5.2% | -1.24% |
-| CHYM | 1.8% | satellite | 31.99 | 3.7% | 28.22% | 49.07% |
-| GLXY | 1.3% | satellite | 20.29 | 3.94% | -8.36% | -16.23% |
+| SPY | 12.0% | core | 770.81 | -0.29% | -0.07% | 2.52% |
+| QQQ | 12.0% | core | 717.66 | -0.45% | -0.86% | -0.28% |
+| TLT | 12.0% | core | 82.25 | 0.23% | -0.69% | -1.79% |
+| GLD | 9.3% | core | 401.68 | -0.21% | 7.36% | 7.93% |
+| IEF | 6.2% | core | 92.91 | 0.16% | -0.36% | -0.34% |
+| RRBI | 5.1% | satellite | 101.48 | 0.79% | -0.44% | 5.49% |
+| BWFG | 5.0% | satellite | 67.58 | 1.12% | 0.57% | 16.23% |
+| KRNY | 5.0% | satellite | 9.57 | 1.16% | -1.75% | 2.03% |
+| FWONK | 4.6% | satellite | 102.56 | -0.17% | 6.36% | 1.68% |
+| LTH | 3.0% | satellite | 43.96 | 3.52% | -1.73% | 5.74% |
+| PRMB | 2.8% | satellite | 23.44 | -0.3% | 0.64% | -3.02% |
+| CHRW | 2.6% | satellite | 145.17 | -2.1% | -6.19% | -27.27% |
+| FBIN | 2.3% | satellite | 49.81 | 3.79% | -5.54% | -1.6% |
+| CHYM | 1.8% | satellite | 31.87 | 3.31% | 27.74% | 48.51% |
+| GLXY | 1.3% | satellite | 20.39 | 4.43% | -7.93% | -15.83% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 11.3%
 - VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
 - Max drawdown historico: -7.1%
-- Beta vs SPY: 0.673 · posiciones efectivas: 14.5 · HHI: 0.0688
+- Beta vs SPY: 0.672 · posiciones efectivas: 14.5 · HHI: 0.0688
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.69 (-0.17% / 0.05% / 2.64%) [2026-08-11]
-- QQQ: 718.49 (-0.33% / -0.74% / -0.17%) [2026-08-11]
-- IWM: 301.26 (0.43% / -0.15% / 2.29%) [2026-08-11]
-- DIA: 538.41 (-0.11% / -0.37% / 2.64%) [2026-08-11]
-- TLT: 82.25 (0.24% / -0.68% / -1.78%) [2026-08-11]
-- IEF: 92.93 (0.18% / -0.35% / -0.33%) [2026-08-11]
-- GLD: 401.95 (-0.15% / 7.43% / 8.01%) [2026-08-11]
-- ^VIX: 15.36 (-0.65% / -6.91% / -6.91%) [2026-08-11]
-- BTC-USD: 63535.78 (-0.59% / -1.13% / -3.88%) [2026-08-11]
+- SPY: 770.81 (-0.29% / -0.07% / 2.52%) [2026-08-11]
+- QQQ: 717.66 (-0.45% / -0.86% / -0.28%) [2026-08-11]
+- IWM: 301.2 (0.41% / -0.17% / 2.27%) [2026-08-11]
+- DIA: 538.08 (-0.17% / -0.43% / 2.58%) [2026-08-11]
+- TLT: 82.25 (0.23% / -0.69% / -1.79%) [2026-08-11]
+- IEF: 92.91 (0.16% / -0.36% / -0.34%) [2026-08-11]
+- GLD: 401.68 (-0.21% / 7.36% / 7.93%) [2026-08-11]
+- ^VIX: 15.46 (0.0% / -6.3% / -6.3%) [2026-08-11]
+- BTC-USD: 63470.86 (-0.69% / -1.23% / -3.98%) [2026-08-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (4)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
-- [CHYM] Christopher Britt Sells 200 , 000 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-11)
-- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells 1 , 796 , 196 Shares (2026-08-11)
-- [CHYM] Financial Survey : Chime Financial ( CHYM ) & The Competition (2026-08-10)
-- [WEYS] Insider Selling : Weyco Group ( NASDAQ : WEYS ) VP Sells $109 , 554 . 93 in Stock (2026-08-07)
-- [OC] This building materials stock has a favorable setup , charts show (2026-08-06)
-- [WEYS] Weyco Group Q2 Earnings Call Highlights (2026-08-05)
-- [WEYS] Weyco Group ( NASDAQ : WEYS ) Posts Earnings Results (2026-08-05)
-- [WEYS] Weyco : Q2 Earnings Snapshot (2026-08-04)
-- [WEYS] Weyco : Q2 Earnings Snapshot (2026-08-04)
+- [TMO] FinancialContent - Why Purple ( PRPL ) Stock Is Trading Lower Today (2026-08-11)
+- [BLSM] Insider Buying : BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Purchases $39 , 500 . 00 in Stock (2026-08-11)
+- [BLSM] BlossomHill Therapeutics ( NASDAQ : BLSM ) General Counsel Vincent Paul Liptak Buys 2 , 500 Shares (2026-08-11)
+- [BLSM] BlossomHill Therapeutics priced its IPO at $16 a share , raising $150 million with J . P (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -162,9 +156,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 79 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 680 registros 30d · ultimo dato 2026-08-10
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-11
+- **congress**: `warning` · 102 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 675 registros 30d · ultimo dato 2026-08-11
+- **sec_13d_13g**: `ok` · 239 registros 30d · ultimo dato 2026-08-11
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
