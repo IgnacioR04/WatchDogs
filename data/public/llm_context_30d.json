@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T22:18:38.800733+00:00",
+  "generated_at": "2026-08-12T23:15:09.741065+00:00",
   "window": {
     "from": "2026-07-13",
     "to": "2026-08-12",
@@ -26,6 +26,7 @@
       "stock",
       "ai",
       "earnings",
+      "merger",
       "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -34,42 +35,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner compro RSG ($45.8M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $45.8M el 2026-08-11.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 45826524.38,
-      "event_date": "2026-08-11",
-      "importance_score": 88.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926094887/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
-      "title": "10% owner compro RSG ($35.7M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $35.7M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 35722466.89,
-      "event_date": "2026-08-10",
-      "importance_score": 86.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926094887/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO vendio KLAC ($17.4M)",
       "summary": "CEO WALLACE RICHARD P vendio KLAC por $17.4M el 2026-08-11 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -86,26 +51,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1196898/000119312526346811/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
-      "title": "10% owner compro RSG ($18.9M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $18.9M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 18891914.49,
-      "event_date": "2026-08-10",
-      "importance_score": 84.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926094887/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner vendio LFST ($144.9M)",
       "summary": "10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.",
       "source": "sec_form_4",
@@ -122,8 +69,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1099776/000199937126017719/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner vendio CRBG ($491.1M)",
       "summary": "10% owner Argon Holdco LLC vendio CRBG por $491.1M el 2026-08-10.",
       "source": "sec_form_4",
@@ -140,8 +87,48 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1070844/000119312526347014/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_4",
+      "rank": 4,
+      "title": "Director vendio LTH ($220.9M)",
+      "summary": "Director Galashan John Kristofer vendio LTH por $220.9M el 2026-08-10 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Galashan John Kristofer",
+      "actor_type": "director",
+      "ticker": "LTH",
+      "direction": "sell",
+      "amount_estimated": 220940312.84,
+      "event_date": "2026-08-10",
+      "importance_score": 84.3,
+      "cross_source_score": 50.0,
+      "related_news": [
+        "news_890104038065"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590836/000119312526347333/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
+      "title": "Director vendio LTH ($216.9M)",
+      "summary": "Director Green LTF Holdings II LP vendio LTH por $216.9M el 2026-08-10 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Green LTF Holdings II LP",
+      "actor_type": "director",
+      "ticker": "LTH",
+      "direction": "sell",
+      "amount_estimated": 216911413.16,
+      "event_date": "2026-08-10",
+      "importance_score": 84.3,
+      "cross_source_score": 50.0,
+      "related_news": [
+        "news_890104038065"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1175523/000119312526347303/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio MLI ($13.7M)",
       "summary": "CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -158,8 +145,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000005/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro COE ($3.9M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.",
       "source": "sec_form_4",
@@ -176,8 +163,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio KLAC ($6.6M)",
       "summary": "CEO Khan Ahmad A. vendio KLAC por $6.6M el 2026-08-11 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -194,8 +181,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1642452/000119312526346812/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro PFE ($1.0M)",
       "summary": "CEO BOURLA ALBERT compro PFE por $1.0M el 2026-08-12 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -212,8 +199,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1595703/000122520826007083/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO vendio MEDP ($10.7M)",
       "summary": "CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -230,26 +217,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000006/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
-      "title": "10% owner compro RSG ($4.5M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $4.5M el 2026-08-11.",
+      "id": "move_11",
+      "rank": 11,
+      "title": "10% owner compro PNAQ ($10.0M)",
+      "summary": "10% owner RECHTSCHAFFEN ANDREW compro PNAQ por $10.0M el 2026-08-10.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
+      "actor_name": "RECHTSCHAFFEN ANDREW",
       "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
+      "ticker": "PNAQ",
       "direction": "buy",
-      "amount_estimated": 4537507.4,
-      "event_date": "2026-08-11",
-      "importance_score": 83.1,
+      "amount_estimated": 10000000.0,
+      "event_date": "2026-08-10",
+      "importance_score": 83.3,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926094887/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1429442/000121390026088542/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio TSEM ($8.8M)",
       "summary": "CEO Ellwanger Russell Craig vendio TSEM por $8.8M el 2026-08-11.",
       "source": "sec_form_4",
@@ -263,13 +250,13 @@
       "importance_score": 83.1,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_898923137228"
+        "news_449035827074"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO vendio TWST ($14.2M)",
       "summary": "CEO Leproust Emily M. vendio TWST por $14.2M el 2026-08-10.",
       "source": "sec_form_4",
@@ -284,6 +271,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753655/000121465926009994/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "10% owner compro GLIBK ($6.5M)",
+      "summary": "10% owner MALONE JOHN C compro GLIBK por $6.5M el 2026-08-10.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MALONE JOHN C",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GLIBK",
+      "direction": "buy",
+      "amount_estimated": 6512826.34,
+      "event_date": "2026-08-10",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/937797/000122520826007097/"
     },
     {
       "id": "move_15",
@@ -373,7 +378,7 @@
       "importance_score": 82.1,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_898923137228"
+        "news_449035827074"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
@@ -399,19 +404,13 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "RSG",
-        "company": "REPUBLIC SERVICES, INC.",
-        "pressure_score": 580.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "LTH",
-        "company": "Common Stock",
-        "pressure_score": 543.1,
+        "company": "Life Time Group Holdings, Inc.",
+        "pressure_score": 637.1,
         "sources": [
-          "congress"
+          "congress",
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -428,6 +427,14 @@
         "pressure_score": 368.0,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "GLIBK",
+        "company": "Liberty Capital Corp/NV",
+        "pressure_score": 325.5,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -472,6 +479,14 @@
         ]
       },
       {
+        "ticker": "PNAQ",
+        "company": "Pinnacle Acquisition Corp",
+        "pressure_score": 234.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AMAT",
         "company": "Stock",
         "pressure_score": 225.8,
@@ -496,32 +511,32 @@
         ]
       },
       {
+        "ticker": "VIA",
+        "company": "Via Transportation, Inc.",
+        "pressure_score": 220.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "APTV",
         "company": "Aptiv PLC",
         "pressure_score": 219.5,
         "sources": [
           "corporate_insider"
         ]
-      },
+      }
+    ],
+    "sell_pressure": [
       {
-        "ticker": "XPO",
-        "company": "XPO, Inc.",
-        "pressure_score": 215.4,
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 2809.2,
         "sources": [
           "corporate_insider",
           "large_holder"
         ]
       },
-      {
-        "ticker": "AMH",
-        "company": "American Homes 4 Rent",
-        "pressure_score": 205.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      }
-    ],
-    "sell_pressure": [
       {
         "ticker": "ICLR",
         "company": "ICON PLC",
@@ -542,22 +557,6 @@
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 1737.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1198.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MDV",
-        "company": "MODIV INDUSTRIAL, INC.",
-        "pressure_score": 689.5,
         "sources": [
           "corporate_insider"
         ]
@@ -587,6 +586,14 @@
         ]
       },
       {
+        "ticker": "MORN",
+        "company": "Morningstar, Inc.",
+        "pressure_score": 431.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "MASS",
         "company": "908 Devices Inc.",
         "pressure_score": 423.6,
@@ -600,6 +607,16 @@
         "pressure_score": 403.3,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LTH",
+        "company": "Life Time Group Holdings, Inc.",
+        "pressure_score": 402.3,
+        "sources": [
+          "congress",
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -634,45 +651,10 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "CPAY",
-        "company": "DC Corpay, Inc. Common Stock",
-        "pressure_score": 357.6,
-        "sources": [
-          "congress"
-        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 45826524.38,
-      "date": "2026-08-11",
-      "score": 88.2
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 35722466.89,
-      "date": "2026-08-10",
-      "score": 86.1
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 18891914.49,
-      "date": "2026-08-10",
-      "score": 84.7
-    },
     {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
@@ -692,13 +674,22 @@
       "score": 83.6
     },
     {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "actor": "RECHTSCHAFFEN ANDREW",
       "actor_type": "ten_percent_owner",
-      "amount": 4537507.4,
-      "date": "2026-08-11",
-      "score": 83.1
+      "amount": 10000000.0,
+      "date": "2026-08-10",
+      "score": 83.3
+    },
+    {
+      "ticker": "GLIBK",
+      "company": "Liberty Capital Corp/NV",
+      "actor": "MALONE JOHN C",
+      "actor_type": "ten_percent_owner",
+      "amount": 6512826.34,
+      "date": "2026-08-10",
+      "score": 82.4
     },
     {
       "ticker": "PRMB",
@@ -737,6 +728,42 @@
       "score": 81.6
     },
     {
+      "ticker": "GLIBK",
+      "company": "Liberty Capital Corp/NV",
+      "actor": "MALONE JOHN C",
+      "actor_type": "ten_percent_owner",
+      "amount": 3603577.89,
+      "date": "2026-08-10",
+      "score": 81.1
+    },
+    {
+      "ticker": "GLIBK",
+      "company": "Liberty Capital Corp/NV",
+      "actor": "MALONE JOHN C",
+      "actor_type": "ten_percent_owner",
+      "amount": 1705623.5,
+      "date": "2026-08-12",
+      "score": 81.0
+    },
+    {
+      "ticker": "GLIBK",
+      "company": "Liberty Capital Corp/NV",
+      "actor": "MALONE JOHN C",
+      "actor_type": "ten_percent_owner",
+      "amount": 1735452.48,
+      "date": "2026-08-11",
+      "score": 81.0
+    },
+    {
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "actor": "RECHTSCHAFFEN ANDREW",
+      "actor_type": "ten_percent_owner",
+      "amount": 2250000.0,
+      "date": "2026-08-10",
+      "score": 80.1
+    },
+    {
       "ticker": "AAT",
       "company": "American Assets Trust, Inc.",
       "actor": "RADY ERNEST S",
@@ -744,24 +771,6 @@
       "amount": 2093305.35,
       "date": "2026-08-10",
       "score": 80.0
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 866395.41,
-      "date": "2026-08-11",
-      "score": 79.5
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 1614002.5,
-      "date": "2026-08-10",
-      "score": 79.4
     },
     {
       "ticker": "FUN",
@@ -773,13 +782,13 @@
       "score": 79.3
     },
     {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 686951.36,
-      "date": "2026-08-11",
-      "score": 79.0
+      "ticker": "ACDC",
+      "company": "ProFrac Holding Corp.",
+      "actor": "Wilks Matthew",
+      "actor_type": "ceo",
+      "amount": 279484.82,
+      "date": "2026-08-10",
+      "score": 78.1
     }
   ],
   "institutional_changes": [
@@ -974,6 +983,14 @@
       "score": 66.5
     },
     {
+      "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-07-31",
+      "score": 66.2
+    },
+    {
       "politician": "James A. Himes",
       "ticker": "XOM",
       "direction": "sell",
@@ -1055,14 +1072,6 @@
     },
     {
       "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-07-31",
-      "score": 63.7
-    },
-    {
-      "politician": "April McClain Delaney",
       "ticker": "SGI",
       "direction": "buy",
       "amount": 50000,
@@ -1070,20 +1079,20 @@
       "score": 63.7
     },
     {
-      "politician": "Michael Rulli",
-      "ticker": "CCI",
-      "direction": "sell",
+      "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
       "amount": 15000,
-      "date": "2026-08-06",
-      "score": 62.6
+      "date": "2026-07-28",
+      "score": 63.6
     },
     {
-      "politician": "Pete Sessions",
-      "ticker": "ARCC",
-      "direction": "sell",
+      "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
       "amount": 15000,
-      "date": "2026-07-24",
-      "score": 62.6
+      "date": "2026-07-29",
+      "score": 63.6
     }
   ],
   "large_holders": [
@@ -1124,11 +1133,47 @@
       "date": "2026-08-12"
     },
     {
+      "filer": "3G Restaurant Brands Holdings General Partner Ltd.",
+      "company": "Restaurant Brands International Inc.",
+      "ticker": "QSR",
+      "ownership_pct": 21.3,
+      "shares": 94373170,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "AECOM",
       "company": "Shimmick Corp",
       "ticker": "SHIM",
       "ownership_pct": 18.7,
       "shares": 7745000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "Tushar Patel",
+      "company": "Amneal Pharmaceuticals, Inc.",
+      "ticker": "AMRX",
+      "ownership_pct": 17.6,
+      "shares": 61341678,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "Hudson Vegas Investment SPV, LLC",
+      "company": "P3 Health Partners Inc.",
+      "ticker": "",
+      "ownership_pct": 17.5,
+      "shares": 829651,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "HHCF Series 21 Sub, LLC",
+      "company": "Katapult Holdings, Inc.",
+      "ticker": "KPLT",
+      "ownership_pct": 12.98,
+      "shares": 645247,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-12"
     },
@@ -1151,11 +1196,38 @@
       "date": "2026-08-12"
     },
     {
-      "filer": "FRANKLIN RESOURCES INC",
-      "company": "Franklin BSP Lending Fund",
+      "filer": "Bain Capital Prairie, LLC",
+      "company": "Lincoln National Corporation",
       "ticker": "",
-      "ownership_pct": 4.8,
-      "shares": 75000,
+      "ownership_pct": 9.8,
+      "shares": 18759497,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "Chintu Patel",
+      "company": "Amneal Pharmaceuticals, Inc.",
+      "ticker": "AMRX",
+      "ownership_pct": 9.4,
+      "shares": 32576528,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "Chirag Patel",
+      "company": "Amneal Pharmaceuticals, Inc.",
+      "ticker": "AMRX",
+      "ownership_pct": 8.4,
+      "shares": 29097645,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "H/2 Special Opportunities IV L.P.",
+      "company": "DIVERSIFIED HEALTHCARE TRUST",
+      "ticker": "",
+      "ownership_pct": 4.98,
+      "shares": 12067366,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-12"
     }
@@ -1165,9 +1237,9 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 234181.4,
+        "pnl": 235831.73,
         "win_rate": 0.9808,
-        "volume": 262528.51,
+        "volume": 438870.0,
         "categories": [
           "sports"
         ]
@@ -1185,7 +1257,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 87272.75,
+        "pnl": 67167.07,
         "win_rate": 0.9326,
         "volume": 84823.9,
         "categories": [
@@ -1195,9 +1267,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 65669.12,
-        "win_rate": 0.9151,
-        "volume": 503562.95,
+        "pnl": 68743.45,
+        "win_rate": 0.9154,
+        "volume": 503569.78,
         "categories": [
           "sports",
           "politics"
@@ -1206,8 +1278,8 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 50524.6,
-        "win_rate": 0.9271,
+        "pnl": 50894.59,
+        "win_rate": 0.9275,
         "volume": 180572.97,
         "categories": [
           "sports"
@@ -1216,7 +1288,7 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 39843.07,
+        "pnl": 39756.99,
         "win_rate": 0.92,
         "volume": 17992.01,
         "categories": [
@@ -1226,9 +1298,9 @@
       {
         "wallet": "0x7ad71d79a3",
         "username": "theowalcott",
-        "pnl": 67853.42,
+        "pnl": 68130.94,
         "win_rate": 1.0,
-        "volume": 21173.99,
+        "volume": 110408.88,
         "categories": [
           "sports"
         ]
@@ -1236,8 +1308,8 @@
       {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 79742.45,
-        "win_rate": 0.8506,
+        "pnl": 79787.52,
+        "win_rate": 0.8475,
         "volume": 229547.08,
         "categories": [
           "sports"
@@ -1256,9 +1328,9 @@
       {
         "wallet": "0x7011871509",
         "username": "Electricy",
-        "pnl": 44243.71,
+        "pnl": 46958.52,
         "win_rate": 0.856,
-        "volume": 46142.58,
+        "volume": 112514.88,
         "categories": [
           "sports",
           "crypto",
@@ -1270,9 +1342,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 455188.03,
-        "win_rate": 0.656,
-        "volume": 7113164.65,
+        "pnl": 454770.7,
+        "win_rate": 0.654,
+        "volume": 7199727.4,
         "categories": [
           "sports",
           "crypto"
@@ -1281,9 +1353,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 253628.56,
-        "win_rate": 0.574,
-        "volume": 8977073.38,
+        "pnl": 269031.67,
+        "win_rate": 0.583,
+        "volume": 9113851.42,
         "categories": [
           "sports"
         ]
@@ -1291,9 +1363,29 @@
       {
         "wallet": "0x4b341d4612",
         "username": "musholius722",
-        "pnl": 217143.82,
+        "pnl": 217134.27,
         "win_rate": 0.5,
-        "volume": 1116417.8,
+        "volume": 1116547.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 340208.52,
+        "win_rate": 0.4937,
+        "volume": 1463328.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0954184654",
+        "username": "0x0954184654A6A3720f5DDE4103A42aF4Dd0e1e1B-1785596053509",
+        "pnl": 43734.6,
+        "win_rate": 1.0,
+        "volume": 819932.86,
         "categories": [
           "sports"
         ]
@@ -1301,30 +1393,20 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 50175.99,
+        "pnl": 50321.33,
         "win_rate": 0.519,
-        "volume": 1675869.76,
+        "volume": 1676033.25,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 339076.62,
-        "win_rate": 0.4937,
-        "volume": 993418.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 88614.72,
+        "pnl": 86037.57,
         "win_rate": 0.7374,
-        "volume": 999937.92,
+        "volume": 1307809.36,
         "categories": [
           "sports",
           "crypto"
@@ -1333,9 +1415,19 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 220498.25,
-        "win_rate": 0.665,
-        "volume": 1180104.51,
+        "pnl": 218971.18,
+        "win_rate": 0.664,
+        "volume": 1208023.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x04d5524a0a",
+        "username": "WTSA",
+        "pnl": 235831.73,
+        "win_rate": 0.9808,
+        "volume": 438870.0,
         "categories": [
           "sports"
         ]
@@ -1343,61 +1435,51 @@
       {
         "wallet": "0xf23c5bc7b5",
         "username": "ActionReaction",
-        "pnl": 108918.24,
-        "win_rate": 0.8333,
+        "pnl": 108919.73,
+        "win_rate": 0.8571,
         "volume": 377509.73,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xee00ba338c",
-        "username": "S-Works",
-        "pnl": 98545.84,
-        "win_rate": 0.506,
-        "volume": 379193.36,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7bc14171cc",
-        "username": "coali10",
-        "pnl": 48732.76,
-        "win_rate": 0.6029,
-        "volume": 299804.96,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Figma ( NYSE : FIG ) Major Shareholder Sells 12 , 475 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13540683/figma-nysefig-major-shareholder-sells-12475-shares-of-stock.html",
-      "ticker": "FIG",
+      "title": "CoreWeave Deal Challenges Nvidia AI Chip Obsolescence Fears",
+      "url": "https://www.businessinsider.com/coreweave-deal-challenges-nvidia-ai-chip-obsolescence-fears-2026-8",
+      "ticker": "CRWV",
       "themes": [
+        "ai",
+        "merger"
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "title": "S & P 500 , Nasdaq rise as CoreWeave earnings boost AI stocks | Honolulu Star - Advertiser",
+      "url": "https://www.staradvertiser.com/2026/08/12/breaking-news/sp-500-nasdaq-rise-as-coreweave-earnings-boost-ai-stocks/",
+      "ticker": "CRWV",
+      "themes": [
+        "earnings",
+        "ai",
         "stock"
       ],
       "date": "2026-08-12"
     },
     {
-      "title": "SMCI and CoreWeave Lead a Lopsided Session With 20 %- Plus Gains",
-      "url": "https://247wallst.com/cards/two-names-closed-up-more-than-19-super-micro-computer-at-smci-session-movers-01kzvsmhs3qy76ggm6sk2jthd7",
-      "ticker": "SMCI",
+      "title": "CoreWeave ( NASDAQ : CRWV ) Shares Up 19 . 3 % Following Better - Than - Expected Earnings",
+      "url": "https://www.themarketsdaily.com/2026/08/12/coreweave-nasdaqcrwv-shares-up-19-3-following-better-than-expected-earnings.html",
+      "ticker": "CRWV",
       "themes": [
-        "ai"
+        "earnings",
+        "stock"
       ],
       "date": "2026-08-12"
     },
     {
-      "title": "Is Wall Street Bullish or Bearish on Datadog Stock ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-datadog-122206564.html",
-      "ticker": "DDOG",
+      "title": "Ariana Grande shares big life update that counters fan health concerns",
+      "url": "https://www.thenews.com.pk/latest/1412083-ariana-grande-shares-big-life-update-that-counters-fans-health-concerns",
+      "ticker": "LTH",
       "themes": [
         "stock"
       ],
@@ -1413,61 +1495,9 @@
         "stock"
       ],
       "date": "2026-08-12"
-    },
-    {
-      "title": "Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry",
-      "url": "https://www.investors.com/news/technology/liquidia-stock-liquidia-earnings-q2-2026/",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-12"
-    },
-    {
-      "title": "Analyzing monday . com ( NASDAQ : MNDY ) and Figma ( NYSE : FIG ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13539216/analyzing-monday-com-nasdaqmndy-and-figma-nysefig.html",
-      "ticker": "FIG",
-      "themes": [],
-      "date": "2026-08-12"
-    },
-    {
-      "title": "How Figma Stock Jumped 37 . 4 % Last Month",
-      "url": "https://www.fool.com/investing/2026/08/10/how-figma-stock-jumped-374-last-month/?source=iedfolrf0000001",
-      "ticker": "FIG",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "United Therapeutics Q2 Earnings Call Highlights",
-      "url": "https://www.dailypolitical.com/2026/08/08/united-therapeutics-q2-earnings-call-highlights.html",
-      "ticker": "UTHR",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "United Therapeutics Q2 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/08/05/united-therapeutics-q2-earnings-call-highlights.html",
-      "ticker": "UTHR",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13523328/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock-2.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-31"
     }
   ],
-  "signals_count": 1784,
+  "signals_count": 1825,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

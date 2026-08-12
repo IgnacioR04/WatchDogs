@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-12T22:19:46+00:00",
+  "generated_at": "2026-08-12T23:16:00+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "RSG": 0.0596,
-    "AVBC": 0.045,
-    "FWONK": 0.0449,
-    "MMI": 0.0368,
-    "CARR": 0.0316,
-    "LTH": 0.0292,
-    "MTDR": 0.0273,
-    "CHRW": 0.026,
-    "XPO": 0.0259,
-    "RAPP": 0.0084
+    "AVBC": 0.0552,
+    "FWONK": 0.055,
+    "AMRX": 0.0418,
+    "LTH": 0.0361,
+    "GLIBK": 0.0348,
+    "MTDR": 0.0341,
+    "CHRW": 0.0319,
+    "DUOL": 0.0213,
+    "CRWV": 0.0139,
+    "RAPP": 0.0103
   },
   "core": {
     "SPY": 0.1934,
@@ -29,25 +29,25 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.053,
-    "FWONK": 0.0399,
-    "MTDR": 0.0243,
-    "XPO": 0.023,
-    "AVBC": 0.04,
-    "CHRW": 0.0231,
-    "LTH": 0.026,
-    "RAPP": 0.0075,
-    "CARR": 0.0281,
-    "MMI": 0.0327
+    "GLIBK": 0.0309,
+    "FWONK": 0.0489,
+    "MTDR": 0.0303,
+    "AMRX": 0.0372,
+    "LTH": 0.0321,
+    "AVBC": 0.0491,
+    "DUOL": 0.0189,
+    "CHRW": 0.0284,
+    "CRWV": 0.0124,
+    "RAPP": 0.0092
   },
   "satellite_rationale": [
     {
-      "ticker": "RSG",
-      "score": 470.2,
+      "ticker": "GLIBK",
+      "score": 263.3,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 7
+      "n_signals": 4
     },
     {
       "ticker": "FWONK",
@@ -66,9 +66,18 @@
       "n_signals": 3
     },
     {
-      "ticker": "XPO",
-      "score": 215.4,
+      "ticker": "AMRX",
+      "score": 210.6,
       "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "LTH",
+      "score": 200.9,
+      "sources": [
+        "congress",
         "large_holder"
       ],
       "n_signals": 3
@@ -82,6 +91,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "DUOL",
+      "score": 143.6,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "CHRW",
       "score": 127.4,
       "sources": [
@@ -90,12 +107,12 @@
       "n_signals": 2
     },
     {
-      "ticker": "LTH",
-      "score": 124.4,
+      "ticker": "CRWV",
+      "score": 71.8,
       "sources": [
-        "congress"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "RAPP",
@@ -104,36 +121,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "CARR",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "MMI",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0865,
-    "var_95_1d": 0.0086,
-    "cvar_95_1d": 0.0112,
-    "max_drawdown": -0.0543,
-    "beta_spy": 0.533,
-    "hhi": 0.0687,
+    "ann_vol": 0.0906,
+    "var_95_1d": 0.0092,
+    "cvar_95_1d": 0.0115,
+    "max_drawdown": -0.0565,
+    "beta_spy": 0.571,
+    "hhi": 0.069,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.8501,
-    "days_used": 255
+    "effective_positions": 14.5,
+    "gross_exposure": 0.8499,
+    "days_used": 254
   },
   "risk_gate": {
     "passed": true,

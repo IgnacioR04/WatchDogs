@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-12T22:19:47+00:00 -->
+<!-- trader_prompt.md generado 2026-08-12T23:16:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-12T22:19:47+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
+_Generado 2026-08-12T23:16:02+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,37 +257,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 723.7 | 0.73% | 0.89% | 0.83% |
 | TLT | 12.0% | core | 82.11 | -0.1% | -1.07% | -2.14% |
 | GLD | 9.3% | core | 404.92 | 0.99% | 3.92% | 8.75% |
-| IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.53% |
-| RSG | 6.0% | satellite | 214.26 | -0.38% | 3.5% | -1.42% |
-| AVBC | 4.5% | satellite | 22.14 | 3.99% | 4.29% | 8.64% |
-| FWONK | 4.5% | satellite | 103.61 | 0.86% | 7.45% | 2.72% |
-| MMI | 3.7% | satellite | 31.14 | 1.53% | 0.71% | 4.25% |
-| CARR | 3.2% | satellite | 63.08 | -0.57% | -3.97% | -9.25% |
-| LTH | 2.9% | satellite | 43.82 | 0.02% | -3.29% | 4.33% |
-| MTDR | 2.7% | satellite | 52.51 | 0.54% | 8.43% | 0.83% |
-| CHRW | 2.6% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
-| XPO | 2.6% | satellite | 208.94 | 2.72% | 4.38% | 2.01% |
-| RAPP | 0.8% | satellite | 47.73 | 1.6% | 13.1% | 15.12% |
+| IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.29% |
+| AVBC | 5.5% | satellite | 22.14 | 3.22% | 1.84% | 8.16% |
+| FWONK | 5.5% | satellite | 103.61 | 1.2% | 7.87% | 7.78% |
+| AMRX | 4.2% | satellite | 17.66 | 3.27% | -4.33% | 2.79% |
+| LTH | 3.6% | satellite | 43.82 | 0.02% | -3.29% | 4.61% |
+| GLIBK | 3.5% | satellite | 25.71 | 3.13% | 9.45% | 14.57% |
+| MTDR | 3.4% | satellite | 52.51 | -0.21% | 12.51% | -0.37% |
+| CHRW | 3.2% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
+| DUOL | 2.1% | satellite | 134.63 | -0.6% | -0.51% | 4.89% |
+| CRWV | 1.4% | satellite | 107.73 | 19.28% | 19.85% | 39.69% |
+| RAPP | 1.0% | satellite | 47.73 | -2.23% | 12.46% | 14.32% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.6%
+- Volatilidad anualizada: 9.1%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -5.4%
-- Beta vs SPY: 0.533 · posiciones efectivas: 14.6 · HHI: 0.0687
+- Max drawdown historico: -5.7%
+- Beta vs SPY: 0.571 · posiciones efectivas: 14.5 · HHI: 0.069
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **RSG** · score agregado 470.2 · 7 señales · fuentes: corporate_insider
+- **GLIBK** · score agregado 263.3 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **MTDR** · score agregado 223.1 · 3 señales · fuentes: corporate_insider
-- **XPO** · score agregado 215.4 · 3 señales · fuentes: large_holder
+- **AMRX** · score agregado 210.6 · 3 señales · fuentes: large_holder
+- **LTH** · score agregado 200.9 · 3 señales · fuentes: congress, large_holder
 - **AVBC** · score agregado 144.8 · 2 señales · fuentes: corporate_insider
+- **DUOL** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
-- **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **CRWV** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **RAPP** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **CARR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **MMI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -295,21 +295,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| XRN | 79 | corporate_insider | Decker Mark Okey Jr | 2 | $287,040 | cluster_buy |
+| PNAQ | 84 | corporate_insider | RECHTSCHAFFEN ANDREW | 2 | $10,000,000 | cluster_buy |
+| PNAQ | 81 | corporate_insider | RECHTSCHAFFEN ANDREW | 2 | $2,250,000 | cluster_buy |
 | MTDR | 78 | corporate_insider | Foran Joseph Wm | 2 | $159,755 | cluster_buy |
-| XRN | 78 | corporate_insider | Fitzgerald Charles | 2 | $991,944 | cluster_buy |
+| VIA | 77 | corporate_insider | Dinur Arnon | 2 | $890,000 | cluster_buy |
+| VIA | 74 | corporate_insider | Peres Nechemia Jacob | 2 | $249,370 | cluster_buy |
 | MTDR | 74 | corporate_insider | Foran Joseph Wm | 2 | $36,641 | cluster_buy |
+| VIA | 73 | corporate_insider | Dinur Arnon | 2 | $108,984 | cluster_buy |
 | AVBC | 72 | corporate_insider | Grimaldo Joseph F | 2 | $99,786 | cluster_buy |
+| PNAQ | 72 | corporate_insider | Martin Karen Lynne | 2 | $100,000 | cluster_buy |
 | AVBC | 72 | corporate_insider | Saul Kennedy O | 2 | $92,619 | cluster_buy |
-| RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $45,826,524 | - |
+| DUOL | 72 | large_holder | Von Ahn Luis |  | - | - |
+| CRWV | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | TBBB | 72 | large_holder | Capital International Inv |  | - | - |
 | TSCO | 72 | large_holder | Capital International Inv |  | - | - |
 | RAPP | 72 | large_holder | Capital International Inv |  | - | - |
-| ICHR | 72 | large_holder | Capital International Inv |  | - | - |
-| XPO | 72 | large_holder | Capital World Investors |  | - | - |
-| TBBB | 72 | large_holder | Capital Research Global I |  | - | - |
-| XPO | 72 | large_holder | Capital Research Global I |  | - | - |
-| TSCO | 72 | large_holder | Capital Research Global I |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -336,10 +336,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 302.71 (0.57% / 0.98% / 2.35%) [2026-08-12]
 - DIA: 537.15 (-0.02% / -1.04% / 2.16%) [2026-08-12]
 - TLT: 82.11 (-0.1% / -1.07% / -2.14%) [2026-08-12]
-- IEF: 92.96 (0.1% / -0.38% / -0.53%) [2026-08-12]
+- IEF: 92.96 (0.1% / -0.38% / -0.29%) [2026-08-12]
 - GLD: 404.92 (0.99% / 3.92% / 8.75%) [2026-08-12]
 - ^VIX: 14.55 (-4.78% / -7.97% / -7.15%) [2026-08-12]
-- BTC-USD: 63452.1 (-0.16% / -2.2% / -2.45%) [2026-08-12]
+- BTC-USD: 63349.19 (-0.32% / -2.36% / -2.61%) [2026-08-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,47 +354,42 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), earnings (2), leadership (1)
+**Temas dominantes**: stock (4), ai (3), earnings (2), merger (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [FIG] Figma ( NYSE : FIG ) Major Shareholder Sells 12 , 475 Shares of Stock (2026-08-12)
-- [SMCI] SMCI and CoreWeave Lead a Lopsided Session With 20 %- Plus Gains (2026-08-12)
-- [DDOG] Is Wall Street Bullish or Bearish on Datadog Stock ? (2026-08-12)
+- [CRWV] CoreWeave Deal Challenges Nvidia AI Chip Obsolescence Fears (2026-08-12)
+- [CRWV] S & P 500 , Nasdaq rise as CoreWeave earnings boost AI stocks | Honolulu Star - Advertiser (2026-08-12)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Shares Up 19 . 3 % Following Better - Than - Expected Earnings (2026-08-12)
+- [LTH] Ariana Grande shares big life update that counters fan health concerns (2026-08-12)
 - [TSEM] Tower Semiconductor ( NASDAQ : TSEM ) CEO Sells $25 , 883 , 484 . 84 in Stock (2026-08-12)
-- [UTHR] Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry (2026-08-12)
-- [FIG] Analyzing monday . com ( NASDAQ : MNDY ) and Figma ( NYSE : FIG ) (2026-08-12)
-- [FIG] How Figma Stock Jumped 37 . 4 % Last Month (2026-08-10)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-05)
-- [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $45.8M el 2026-08-11.
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $35.7M el 2026-08-10.
 - CEO WALLACE RICHARD P vendio KLAC por $17.4M el 2026-08-11 [senal en multiples fuentes].
 - 10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.
 - 10% owner Argon Holdco LLC vendio CRBG por $491.1M el 2026-08-10.
+- Director Galashan John Kristofer vendio LTH por $220.9M el 2026-08-10 [senal en multiples fuentes].
+- Director Green LTF Holdings II LP vendio LTH por $216.9M el 2026-08-10 [senal en multiples fuentes].
 - CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.
 - CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.
 - CEO Khan Ahmad A. vendio KLAC por $6.6M el 2026-08-11 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $234,181 · win rate 98% · categorias: sports
+- WTSA · PnL $235,832 · win rate 98% · categorias: sports
 - HongYunX · PnL $143,459 · win rate 100% · categorias: sports
-- SDTrading · PnL $87,273 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $65,669 · win rate 92% · categorias: sports, politics
-- CORGI8 · PnL $50,525 · win rate 93% · categorias: sports
+- SDTrading · PnL $67,167 · win rate 93% · categorias: sports
+- TAIWANNUMBERONE · PnL $68,743 · win rate 92% · categorias: sports, politics
+- CORGI8 · PnL $50,895 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 102 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 719 registros 30d · ultimo dato 2026-08-12
+- **congress**: `warning` · 105 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 757 registros 30d · ultimo dato 2026-08-12
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-12
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -408,7 +403,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AVBC, CARR, CHRW, FWONK, GLD, IEF, LTH, MMI, MTDR, QQQ, RAPP, RSG, SPY, TLT, XPO`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRX, AVBC, CHRW, CRWV, DUOL, FWONK, GLD, GLIBK, IEF, LTH, MTDR, QQQ, RAPP, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
