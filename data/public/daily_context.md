@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-12T05:19:49+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
+_Generado 2026-08-12T06:57:11+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -28,21 +28,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 400.96 | -0.39% | 7.16% | 7.74% |
 | FWONK | 6.5% | satellite | 102.38 | -0.34% | 6.17% | 1.5% |
 | IEF | 6.2% | core | 92.87 | 0.12% | -0.41% | -0.39% |
-| LTH | 5.1% | satellite | 43.81 | 3.18% | -2.06% | 5.39% |
-| KMPR | 3.8% | satellite | 26.18 | -0.8% | -10.98% | -8.59% |
-| RELY | 3.6% | satellite | 23.61 | 2.03% | -4.14% | 0.38% |
-| FSUN | 3.6% | satellite | 40.61 | 2.37% | 2.24% | 15.04% |
-| CHRW | 2.8% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
-| LB | 2.7% | satellite | 83.91 | 2.69% | 13.88% | 6.57% |
-| TWST | 2.1% | satellite | 123.12 | -1.41% | 23.8% | 33.06% |
+| LTH | 5.2% | satellite | 43.81 | 3.18% | -2.06% | 5.14% |
+| KMPR | 3.7% | satellite | 26.18 | -0.8% | -10.98% | -9.91% |
+| RELY | 3.7% | satellite | 23.61 | 2.03% | -4.14% | -0.3% |
+| FSUN | 3.5% | satellite | 40.61 | 2.37% | 2.24% | 7.07% |
+| CHRW | 2.8% | satellite | 145.1 | -2.15% | -6.24% | -24.73% |
+| LB | 2.6% | satellite | 83.91 | 2.69% | 13.88% | 6.57% |
+| TWST | 2.1% | satellite | 123.12 | -1.41% | 23.8% | 31.44% |
 | AMRC | 1.8% | satellite | 25.89 | 2.41% | -7.34% | 3.56% |
 | SPCX | 1.5% | satellite | 133.29 | -3.93% | 6.35% | -2.05% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.7%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.2%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.3%
 - Beta vs SPY: 0.588 · posiciones efectivas: 14.5 · HHI: 0.0691
 
 **Por que estos satellite (señales WATCHDOG):**
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.87 (0.12% / -0.41% / -0.39%) [2026-08-11]
 - GLD: 400.96 (-0.39% / 7.16% / 7.74%) [2026-08-11]
 - ^VIX: 15.28 (-1.16% / -7.39% / -7.39%) [2026-08-11]
-- BTC-USD: 63768.27 (-0.22% / -0.77% / -3.53%) [2026-08-12]
+- BTC-USD: 63577.48 (-0.52% / -1.07% / -3.82%) [2026-08-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,11 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1)
+**Temas dominantes**: ai (2), regulatory (2), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MTRN] Materion Q2 Earnings Call Highlights (2026-08-08)
+- [ABNB] Airbnb ( ABNB ) Breakout Quarter Reopens Its Growth Story (2026-08-12)
+- [P] Second hyperscaler plumps for Everpure flash technology (2026-08-11)
+- [P] Everpure Stock Rockets Higher On AI Cloud  Mic Drop  News | Investor Business Daily (2026-08-11)
+- [P] The Biggest Premarket Movers : Plug Power and Everpure Are Up Big Tuesday (2026-08-11)
+- [P] Everpure ( NYSE : P ) Cut to  Buy  at Wall Street Zen (2026-08-11)
+- [P] Everpure Lands New Design Win with Second Top - Five Hyperscaler (2026-08-11)
+- [AXON] Tracing Jim Cramer Evolving View on Axon Enterprise ( AXON ) (2026-08-10)
+- [AXON] Hennion & Walsh Asset Management Inc . Trims Position in Axon Enterprise , Inc $AXON (2026-08-10)
+- [AXON] $10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -142,11 +150,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $212,993 · win rate 98% · categorias: sports
-- SDTrading · PnL $82,436 · win rate 93% · categorias: sports
-- MarquisDeMott · PnL $26,718 · win rate 98% · categorias: sports, politics, crypto
-- HongYunX · PnL $16,214 · win rate 100% · categorias: sports
-- comon119 · PnL $13,013 · win rate 98% · categorias: sports, crypto, politics
+- WTSA · PnL $233,557 · win rate 98% · categorias: sports
+- SDTrading · PnL $93,791 · win rate 93% · categorias: sports
+- HongYunX · PnL $16,216 · win rate 100% · categorias: sports
+- comon119 · PnL $13,030 · win rate 98% · categorias: sports, crypto, politics
+- CORGI8 · PnL $24,321 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
