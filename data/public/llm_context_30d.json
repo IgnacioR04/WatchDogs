@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T14:01:37.666700+00:00",
+  "generated_at": "2026-08-12T15:31:33.952659+00:00",
   "window": {
     "from": "2026-07-13",
     "to": "2026-08-12",
@@ -119,9 +119,9 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_546451404317",
-        "news_152815084887",
-        "news_409083196564"
+        "news_313767405269",
+        "news_467934737381",
+        "news_919614720275"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478988/000147898826000010/"
     },
@@ -407,14 +407,6 @@
         ]
       },
       {
-        "ticker": "BYAH",
-        "company": "Park Ha Biological Technology Co., Ltd.",
-        "pressure_score": 493.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "QVCG",
         "company": "QVC Group, Inc.",
         "pressure_score": 381.6,
@@ -449,14 +441,6 @@
       {
         "ticker": "FSUN",
         "company": "FIRSTSUN CAPITAL BANCORP",
-        "pressure_score": 282.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "OBX",
-        "company": "OBSIDIAN THERAPEUTICS, INC.",
         "pressure_score": 282.0,
         "sources": [
           "large_holder"
@@ -515,6 +499,22 @@
         "ticker": "MNST",
         "company": "Common Stock",
         "pressure_score": 221.3,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "AIIR",
+        "company": "AIR Global PLC",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 182.9,
         "sources": [
           "congress"
         ]
@@ -964,6 +964,14 @@
   ],
   "congress_activity": [
     {
+      "politician": "April McClain Delaney",
+      "ticker": "TSCO",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-27",
+      "score": 66.2
+    },
+    {
       "politician": "Christian D. Menefee",
       "ticker": "PINS",
       "direction": "sell",
@@ -986,14 +994,6 @@
       "amount": 50000,
       "date": "2026-07-20",
       "score": 65.2
-    },
-    {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-27",
-      "score": 65.0
     },
     {
       "politician": "Kevin Hern",
@@ -1234,31 +1234,21 @@
         ]
       },
       {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 85573.75,
-        "win_rate": 0.9703,
-        "volume": 293623.73,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 95105.83,
+        "pnl": 94999.22,
         "win_rate": 0.9326,
-        "volume": 1496.06,
+        "volume": 16299.3,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 42287.8,
-        "win_rate": 0.9263,
-        "volume": 75032.61,
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 44389.23,
+        "win_rate": 0.9706,
+        "volume": 405970.31,
         "categories": [
           "sports"
         ]
@@ -1266,20 +1256,30 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 40954.47,
-        "win_rate": 0.9142,
-        "volume": 393044.48,
+        "pnl": 79096.06,
+        "win_rate": 0.9147,
+        "volume": 425382.41,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 41414.83,
+        "win_rate": 0.9267,
+        "volume": 104127.34,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 35111.51,
+        "pnl": 39207.03,
         "win_rate": 0.92,
-        "volume": 16767.89,
+        "volume": 17538.23,
         "categories": [
           "crypto"
         ]
@@ -1305,21 +1305,23 @@
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 20180.75,
-        "win_rate": 0.895,
-        "volume": 3084.86,
+        "wallet": "0x16602a38e8",
+        "username": "BBQChickenisthebesttt",
+        "pnl": 31136.59,
+        "win_rate": 0.8588,
+        "volume": 326145.22,
         "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "economy"
         ]
       },
       {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 40106.48,
+        "pnl": 40132.34,
         "win_rate": 0.829,
-        "volume": 60992.18,
+        "volume": 63797.16,
         "categories": [
           "sports"
         ]
@@ -1329,9 +1331,30 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 35078.93,
-        "win_rate": 0.582,
-        "volume": 4665484.62,
+        "pnl": 32244.63,
+        "win_rate": 0.584,
+        "volume": 5565038.35,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 53617.2,
+        "win_rate": 0.7369,
+        "volume": 851133.59,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1610db79f7",
+        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
+        "pnl": 53031.4,
+        "win_rate": 0.6602,
+        "volume": 521156.11,
         "categories": [
           "sports"
         ]
@@ -1339,19 +1362,19 @@
       {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 137399.04,
+        "pnl": 137426.16,
         "win_rate": 0.4872,
-        "volume": 429449.72,
+        "volume": 434827.83,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1610db79f7",
-        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 36885.11,
-        "win_rate": 0.6569,
-        "volume": 470519.29,
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 44389.23,
+        "win_rate": 0.9706,
+        "volume": 405970.31,
         "categories": [
           "sports"
         ]
@@ -1359,7 +1382,7 @@
       {
         "wallet": "0x7bc14171cc",
         "username": "coali10",
-        "pnl": 49589.45,
+        "pnl": 46986.64,
         "win_rate": 0.6031,
         "volume": 283940.53,
         "categories": [
@@ -1371,19 +1394,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 68811.23,
+        "pnl": 69040.33,
         "win_rate": 0.663,
-        "volume": 629134.22,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 85573.75,
-        "win_rate": 0.9703,
-        "volume": 293623.73,
+        "volume": 629165.2,
         "categories": [
           "sports"
         ]
@@ -1401,9 +1414,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 40954.47,
-        "win_rate": 0.9142,
-        "volume": 393044.48,
+        "pnl": 79096.06,
+        "win_rate": 0.9147,
+        "volume": 425382.41,
         "categories": [
           "sports",
           "politics"
@@ -1417,17 +1430,6 @@
         "volume": 180705.61,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x6e2c0e9474",
-        "username": "ASPEN88888",
-        "pnl": 22596.41,
-        "win_rate": 0.443,
-        "volume": 656193.07,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       }
     ]
@@ -1553,7 +1555,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1713,
+  "signals_count": 1720,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
