@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:25:08+00:00",
+  "generated_at": "2026-08-12T19:33:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.8501,
@@ -9,15 +9,15 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.0858,
-    "LTH": 0.0682,
+    "AVBC": 0.0667,
+    "FWONK": 0.0636,
     "IEF": 0.0622,
-    "FSUN": 0.0474,
-    "CHRW": 0.0372,
-    "SNEX": 0.0332,
-    "AMRC": 0.0238,
-    "SPCX": 0.0198,
-    "CRWV": 0.0192
+    "FSUN": 0.0511,
+    "LTH": 0.0424,
+    "CHRW": 0.0363,
+    "SNEX": 0.0337,
+    "AMRC": 0.0227,
+    "CRWV": 0.0181
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRC": 0.0212,
-    "FSUN": 0.0421,
-    "FWONK": 0.0763,
-    "SPCX": 0.0176,
-    "CHRW": 0.0331,
-    "LTH": 0.0606,
-    "CRWV": 0.0171,
-    "SNEX": 0.0295
+    "AMRC": 0.0202,
+    "FSUN": 0.0454,
+    "FWONK": 0.0565,
+    "AVBC": 0.0593,
+    "CHRW": 0.0323,
+    "LTH": 0.0377,
+    "CRWV": 0.0161,
+    "SNEX": 0.03
   },
   "satellite_rationale": [
     {
@@ -62,13 +62,12 @@
       "n_signals": 4
     },
     {
-      "ticker": "SPCX",
-      "score": 194.2,
+      "ticker": "AVBC",
+      "score": 144.8,
       "sources": [
-        "congress",
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 2
     },
     {
       "ticker": "CHRW",
@@ -104,17 +103,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1202,
-    "var_95_1d": 0.0084,
-    "cvar_95_1d": 0.0092,
-    "max_drawdown": -0.042,
-    "beta_spy": 0.685,
-    "hhi": 0.0738,
+    "ann_vol": 0.1224,
+    "var_95_1d": 0.0118,
+    "cvar_95_1d": 0.013,
+    "max_drawdown": -0.0646,
+    "beta_spy": 0.739,
+    "hhi": 0.072,
     "max_position": 0.12,
     "n_positions": 13,
-    "effective_positions": 13.5,
+    "effective_positions": 13.9,
     "gross_exposure": 0.8501,
-    "days_used": 35
+    "days_used": 129
   },
   "risk_gate": {
     "passed": true,

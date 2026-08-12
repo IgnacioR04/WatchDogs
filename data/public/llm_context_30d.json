@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T18:24:12.679241+00:00",
+  "generated_at": "2026-08-12T19:32:18.636829+00:00",
   "window": {
     "from": "2026-07-13",
     "to": "2026-08-12",
@@ -23,8 +23,11 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "earnings",
-      "stock"
+      "ai",
+      "leadership",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -80,7 +83,10 @@
       "event_date": "2026-08-11",
       "importance_score": 83.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_36422433337",
+        "news_436662990967"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
@@ -117,9 +123,9 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_185729139601",
-        "news_546046312468",
-        "news_524910135700"
+        "news_707265379140",
+        "news_642582572231",
+        "news_865822900774"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478988/000147898826000010/"
     },
@@ -174,7 +180,10 @@
       "event_date": "2026-08-11",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_36422433337",
+        "news_436662990967"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
@@ -413,6 +422,14 @@
         ]
       },
       {
+        "ticker": "AVBC",
+        "company": "Avidia Bancorp, Inc.",
+        "pressure_score": 471.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "QVCG",
         "company": "QVC Group, Inc.",
         "pressure_score": 381.6,
@@ -477,15 +494,6 @@
         ]
       },
       {
-        "ticker": "SPCX",
-        "company": "Space Exploration Technologies Corp.",
-        "pressure_score": 251.3,
-        "sources": [
-          "congress",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 248.3,
@@ -510,11 +518,11 @@
         ]
       },
       {
-        "ticker": "AIIR",
-        "company": "AIR Global PLC",
-        "pressure_score": 211.5,
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 182.9,
         "sources": [
-          "large_holder"
+          "congress"
         ]
       }
     ],
@@ -576,6 +584,14 @@
         ]
       },
       {
+        "ticker": "WSBC",
+        "company": "WESBANCO INC",
+        "pressure_score": 598.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "GFF",
         "company": "GRIFFON CORP",
         "pressure_score": 516.4,
@@ -627,14 +643,6 @@
         "ticker": "IRTC",
         "company": "iRhythm Holdings, Inc.",
         "pressure_score": 373.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FROG",
-        "company": "JFrog Ltd",
-        "pressure_score": 360.0,
         "sources": [
           "corporate_insider"
         ]
@@ -1165,6 +1173,15 @@
       "date": "2026-08-11"
     },
     {
+      "filer": "Yinan Ren",
+      "company": "YY Group Holding Limited",
+      "ticker": "YYGH",
+      "ownership_pct": 29.5,
+      "shares": 3787379,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "Heng Fai Ambrose Chan",
       "company": "HWH INTERNATIONAL INC.",
       "ticker": "HWH",
@@ -1172,6 +1189,15 @@
       "shares": 8064319,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-11"
+    },
+    {
+      "filer": "Franklin Resources, Inc.",
+      "company": "CLARION PARTNERS REAL ESTATE INCOME FUND INC.",
+      "ticker": "",
+      "ownership_pct": 26.4,
+      "shares": 30660888,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
     },
     {
       "filer": "Abu Dhabi Investment Authority",
@@ -1199,24 +1225,6 @@
       "shares": 52958777,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-11"
-    },
-    {
-      "filer": "Sumant Sinha",
-      "company": "ReNew Energy Global plc",
-      "ticker": "",
-      "ownership_pct": 19.75,
-      "shares": 60540417,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-11"
-    },
-    {
-      "filer": "State Farm Mutual Automobile Insurance Company",
-      "company": "ADT, INC.",
-      "ticker": "ADT",
-      "ownership_pct": 19.72,
-      "shares": 133333333,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-11"
     }
   ],
   "polymarket": {
@@ -1234,9 +1242,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 94899.57,
+        "pnl": 91931.76,
         "win_rate": 0.9326,
-        "volume": 84317.71,
+        "volume": 84823.9,
         "categories": [
           "sports"
         ]
@@ -1244,9 +1252,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 59928.83,
+        "pnl": 63499.74,
         "win_rate": 0.9148,
-        "volume": 466615.19,
+        "volume": 467020.9,
         "categories": [
           "sports",
           "politics"
@@ -1255,9 +1263,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 45323.56,
+        "pnl": 45153.11,
         "win_rate": 0.9271,
-        "volume": 143574.0,
+        "volume": 180572.97,
         "categories": [
           "sports"
         ]
@@ -1265,7 +1273,7 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 38846.53,
+        "pnl": 39151.94,
         "win_rate": 0.92,
         "volume": 17885.89,
         "categories": [
@@ -1283,6 +1291,16 @@
         ]
       },
       {
+        "wallet": "0x65c18d740c",
+        "username": "casualbet2020",
+        "pnl": 74138.92,
+        "win_rate": 0.8497,
+        "volume": 221976.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
         "pnl": 58981.98,
@@ -1295,9 +1313,9 @@
       {
         "wallet": "0x7011871509",
         "username": "Electricy",
-        "pnl": 39446.24,
+        "pnl": 39415.54,
         "win_rate": 0.8629,
-        "volume": 40894.05,
+        "volume": 44014.58,
         "categories": [
           "sports",
           "crypto",
@@ -1307,7 +1325,7 @@
       {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 36822.33,
+        "pnl": 36847.33,
         "win_rate": 0.8605,
         "volume": 326145.22,
         "categories": [
@@ -1315,25 +1333,15 @@
           "crypto",
           "economy"
         ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 41400.98,
-        "win_rate": 0.8488,
-        "volume": 221976.11,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 209303.13,
+        "pnl": 442163.56,
         "win_rate": 0.655,
-        "volume": 6414828.6,
+        "volume": 6564147.89,
         "categories": [
           "sports",
           "crypto"
@@ -1342,29 +1350,30 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 96400.29,
-        "win_rate": 0.577,
-        "volume": 7360332.04,
+        "pnl": 173159.25,
+        "win_rate": 0.572,
+        "volume": 7863517.86,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 44738.9,
+        "win_rate": 0.519,
+        "volume": 1675568.52,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0x1610db79f7",
         "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 89206.85,
-        "win_rate": 0.6301,
-        "volume": 730088.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 146701.38,
-        "win_rate": 0.4872,
-        "volume": 639016.93,
+        "pnl": 67534.38,
+        "win_rate": 0.6318,
+        "volume": 1035524.98,
         "categories": [
           "sports"
         ]
@@ -1372,9 +1381,30 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 71016.25,
+        "pnl": 65834.27,
         "win_rate": 0.7378,
-        "volume": 938394.32,
+        "volume": 999937.92,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 157389.8,
+        "win_rate": 0.4872,
+        "volume": 639016.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6e2c0e9474",
+        "username": "ASPEN88888",
+        "pnl": 30472.8,
+        "win_rate": 0.439,
+        "volume": 1687745.05,
         "categories": [
           "sports",
           "crypto"
@@ -1383,60 +1413,123 @@
       {
         "wallet": "0xf23c5bc7b5",
         "username": "ActionReaction",
-        "pnl": 107636.26,
+        "pnl": 107537.65,
         "win_rate": 1.0,
-        "volume": 374402.71,
+        "volume": 377509.73,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x6e2c0e9474",
-        "username": "ASPEN88888",
-        "pnl": 27707.24,
-        "win_rate": 0.437,
-        "volume": 1541924.56,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 81493.58,
+        "pnl": 69357.68,
         "win_rate": 0.663,
-        "volume": 943553.05,
+        "volume": 1054875.6,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7bc14171cc",
-        "username": "coali10",
-        "pnl": 49664.34,
-        "win_rate": 0.6061,
-        "volume": 299804.96,
+        "wallet": "0xee00ba338c",
+        "username": "S-Works",
+        "pnl": 91921.67,
+        "win_rate": 0.506,
+        "volume": 379193.36,
         "categories": [
           "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 59928.83,
-        "win_rate": 0.9148,
-        "volume": 466615.19,
-        "categories": [
-          "sports",
-          "politics"
+          "crypto"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Tower Semiconductor ( NASDAQ : TSEM ) CEO Sells $25 , 883 , 484 . 84 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13540513/tower-semiconductor-nasdaqtsem-ceo-sells-25883484-84-in-stock.html",
+      "ticker": "TSEM",
+      "themes": [
+        "ai",
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-12"
+    },
+    {
+      "title": "Second hyperscaler plumps for Everpure flash technology",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/second-hyperscaler-plumps-for-everpures-flash-technology/5285903",
+      "ticker": "P",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Everpure Stock Rockets Higher On AI Cloud  Mic Drop  News | Investor Business Daily",
+      "url": "https://www.investors.com/news/technology/everpure-stock-p-news-hyperscaler-win/",
+      "ticker": "P",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "The Biggest Premarket Movers : Plug Power and Everpure Are Up Big Tuesday",
+      "url": "https://247wallst.com/investing/2026/08/11/the-biggest-premarket-movers-plug-power-and-everpure-are-up-big-tuesday/",
+      "ticker": "P",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Everpure ( NYSE : P ) Cut to  Buy  at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/11/everpure-nysep-cut-to-buy-at-wall-street-zen.html",
+      "ticker": "P",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Tracing Jim Cramer Evolving View on Axon Enterprise ( AXON ) ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tracing-jim-cramer-evolving-view-173154124.html",
+      "ticker": "AXON",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Hennion & Walsh Asset Management Inc . Trims Position in Axon Enterprise , Inc $AXON",
+      "url": "https://www.themarketsdaily.com/2026/08/10/hennion-walsh-asset-management-inc-trims-position-in-axon-enterprise-inc-axon.html",
+      "ticker": "AXON",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Materion Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-q2-earnings-call-highlights-190349490.html",
+      "ticker": "MTRN",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "$10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . ",
+      "url": "https://www.fool.com/investing/2026/08/08/10000-in-axon-stock-a-decade-ago-would-be-worth-ab/?source=iedfolrf0000001",
+      "ticker": "AXON",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Tower Semiconductor ( TSEM ) Is Up 14 . 9 % After Record Q3 Revenue Guidance And Profitability Gains",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tower-semiconductor-tsem-14-9-051253323.html",
+      "ticker": "TSEM",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-08-08"
+    },
     {
       "title": "Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/quinstreet-qnst-fully-valued-strong-041930397.html",
@@ -1492,7 +1585,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1786,
+  "signals_count": 1793,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
