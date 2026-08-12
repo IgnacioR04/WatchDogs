@@ -1,24 +1,23 @@
 {
-  "generated_at": "2026-08-12T17:27:59+00:00",
+  "generated_at": "2026-08-12T18:25:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.0686,
-    "KRNY": 0.0678,
+    "FWONK": 0.0858,
+    "LTH": 0.0682,
     "IEF": 0.0622,
-    "LTH": 0.055,
-    "FSUN": 0.0381,
-    "CHRW": 0.0299,
-    "SNEX": 0.0264,
-    "AMRC": 0.0189,
-    "SPCX": 0.0156,
-    "CRWV": 0.0142
+    "FSUN": 0.0474,
+    "CHRW": 0.0372,
+    "SNEX": 0.0332,
+    "AMRC": 0.0238,
+    "SPCX": 0.0198,
+    "CRWV": 0.0192
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRC": 0.0168,
-    "FSUN": 0.0339,
-    "FWONK": 0.061,
-    "SPCX": 0.0139,
-    "CHRW": 0.0266,
-    "LTH": 0.0489,
-    "CRWV": 0.0126,
-    "SNEX": 0.0235,
-    "KRNY": 0.0603
+    "AMRC": 0.0212,
+    "FSUN": 0.0421,
+    "FWONK": 0.0763,
+    "SPCX": 0.0176,
+    "CHRW": 0.0331,
+    "LTH": 0.0606,
+    "CRWV": 0.0171,
+    "SNEX": 0.0295
   },
   "satellite_rationale": [
     {
@@ -103,28 +101,20 @@
         "corporate_insider"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "KRNY",
-      "score": 54.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1133,
-    "var_95_1d": 0.0089,
-    "cvar_95_1d": 0.0093,
-    "max_drawdown": -0.0366,
-    "beta_spy": 0.652,
-    "hhi": 0.0719,
+    "ann_vol": 0.1202,
+    "var_95_1d": 0.0084,
+    "cvar_95_1d": 0.0092,
+    "max_drawdown": -0.042,
+    "beta_spy": 0.685,
+    "hhi": 0.0738,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.9,
-    "gross_exposure": 0.85,
-    "days_used": 36
+    "n_positions": 13,
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8501,
+    "days_used": 35
   },
   "risk_gate": {
     "passed": true,
