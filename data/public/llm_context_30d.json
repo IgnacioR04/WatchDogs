@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T12:13:37.279450+00:00",
+  "generated_at": "2026-08-12T14:01:37.666700+00:00",
   "window": {
     "from": "2026-07-13",
     "to": "2026-08-12",
@@ -26,8 +26,7 @@
       "stock",
       "earnings",
       "regulatory",
-      "ai",
-      "merger"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -120,9 +119,9 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_124088650679",
-        "news_252530104074",
-        "news_842422996437"
+        "news_546451404317",
+        "news_152815084887",
+        "news_409083196564"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478988/000147898826000010/"
     },
@@ -603,14 +602,6 @@
         ]
       },
       {
-        "ticker": "AXIA3",
-        "company": "AXIA Energia S.A.",
-        "pressure_score": 395.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "IRTC",
         "company": "iRhythm Holdings, Inc.",
         "pressure_score": 373.6,
@@ -638,6 +629,14 @@
         "ticker": "MKL",
         "company": "DC Markel Group Inc. Common Stock",
         "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
         "sources": [
           "congress"
         ]
@@ -937,12 +936,21 @@
     },
     {
       "manager": "Geode Capital Management LLC",
+      "asset": "ELI LILLY & CO",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -13206289732,
+      "change_pct": -0.8137,
+      "quarter": "2026Q2"
+    },
+    {
+      "manager": "Geode Capital Management LLC",
       "asset": "JPMORGAN CHASE & CO",
       "ticker": "",
-      "direction": "increased",
-      "change_usd": 13135619419,
-      "change_pct": 4.9505,
-      "quarter": "2026Q1"
+      "direction": "decreased",
+      "change_usd": -12915101952,
+      "change_pct": -0.818,
+      "quarter": "2026Q2"
     },
     {
       "manager": "Invesco Ltd",
@@ -952,15 +960,6 @@
       "change_usd": 12747592358,
       "change_pct": null,
       "quarter": "2026Q1"
-    },
-    {
-      "manager": "Vanguard Group Inc",
-      "asset": "ROBINHOOD MKTS INC",
-      "ticker": "",
-      "direction": "exited",
-      "change_usd": -12478004415,
-      "change_pct": -1.0,
-      "quarter": "2025Q4"
     }
   ],
   "congress_activity": [
@@ -1150,6 +1149,15 @@
       "date": "2026-08-11"
     },
     {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 48.32,
+      "shares": 1441490,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "Knutsson Limited",
       "company": "Super Group (SGHC) Limited",
       "ticker": "SGHC",
@@ -1211,15 +1219,6 @@
       "shares": 95800466,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-10"
-    },
-    {
-      "filer": "Pale Fire Capital SICAV a.s.",
-      "company": "Groupon, Inc.",
-      "ticker": "GRPN",
-      "ownership_pct": 25.0,
-      "shares": 10180970,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-10"
     }
   ],
   "polymarket": {
@@ -1237,9 +1236,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 63660.62,
-        "win_rate": 0.97,
-        "volume": 209746.78,
+        "pnl": 85573.75,
+        "win_rate": 0.9703,
+        "volume": 293623.73,
         "categories": [
           "sports"
         ]
@@ -1247,19 +1246,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 95113.32,
+        "pnl": 95105.83,
         "win_rate": 0.9326,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 16230.98,
-        "win_rate": 1.0,
-        "volume": 0.0,
+        "volume": 1496.06,
         "categories": [
           "sports"
         ]
@@ -1267,11 +1256,32 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 29864.63,
+        "pnl": 42287.8,
         "win_rate": 0.9263,
-        "volume": 47411.13,
+        "volume": 75032.61,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 40954.47,
+        "win_rate": 0.9142,
+        "volume": 393044.48,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 35111.51,
+        "win_rate": 0.92,
+        "volume": 16767.89,
+        "categories": [
+          "crypto"
         ]
       },
       {
@@ -1287,7 +1297,7 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 58943.17,
+        "pnl": 58981.98,
         "win_rate": 0.8594,
         "volume": 188978.99,
         "categories": [
@@ -1295,33 +1305,21 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 15519.44,
-        "win_rate": 0.92,
-        "volume": 10391.98,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 36364.95,
-        "win_rate": 0.8554,
-        "volume": 120069.29,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 20177.32,
+        "pnl": 20180.75,
         "win_rate": 0.895,
-        "volume": 2764.86,
+        "volume": 3084.86,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 40106.48,
+        "win_rate": 0.829,
+        "volume": 60992.18,
         "categories": [
           "sports"
         ]
@@ -1329,31 +1327,39 @@
     ],
     "whales": [
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 186307.98,
-        "win_rate": 0.4842,
-        "volume": 728854.77,
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 35078.93,
+        "win_rate": 0.582,
+        "volume": 4665484.62,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 40651.59,
-        "win_rate": 0.7356,
-        "volume": 710550.53,
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 137399.04,
+        "win_rate": 0.4872,
+        "volume": 429449.72,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1610db79f7",
+        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
+        "pnl": 36885.11,
+        "win_rate": 0.6569,
+        "volume": 470519.29,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0x7bc14171cc",
         "username": "coali10",
-        "pnl": 37416.27,
+        "pnl": 49589.45,
         "win_rate": 0.6031,
         "volume": 283940.53,
         "categories": [
@@ -1373,13 +1379,34 @@
         ]
       },
       {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 85573.75,
+        "win_rate": 0.9703,
+        "volume": 293623.73,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 58943.17,
+        "pnl": 58981.98,
         "win_rate": 0.8594,
         "volume": 188978.99,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 40954.47,
+        "win_rate": 0.9142,
+        "volume": 393044.48,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1393,43 +1420,14 @@
         ]
       },
       {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 139583.21,
-        "win_rate": 0.4872,
-        "volume": 164562.89,
+        "wallet": "0x6e2c0e9474",
+        "username": "ASPEN88888",
+        "pnl": 22596.41,
+        "win_rate": 0.443,
+        "volume": 656193.07,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 63660.62,
-        "win_rate": 0.97,
-        "volume": 209746.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc8075693f4",
-        "username": "texaskid",
-        "pnl": 124083.5,
-        "win_rate": 0.675,
-        "volume": 117439.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbca08c1bc2",
-        "username": "1winstreak1",
-        "pnl": 66201.31,
-        "win_rate": 0.559,
-        "volume": 444816.11,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ]
@@ -1469,54 +1467,18 @@
       "date": "2026-08-11"
     },
     {
-      "title": "iRhythm to Acquire VitalConnect for $287 . 5M to Build Broad Cardiac Intelligence Platform",
-      "url": "https://hitconsultant.net/2026/08/10/irhythm-to-acquire-vitalconnect-287m-cardiac-monitoring-multi-vitals/",
-      "ticker": "IRTC",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "FinancialContent - Why iRhythm ( IRTC ) Shares Are Trading Lower Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-why-irhythm-irtc-shares-are-trading-lower-today",
-      "ticker": "IRTC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Truist Financial Issues Positive Forecast for iRhythm Technologies ( NASDAQ : IRTC ) Stock Price",
-      "url": "https://www.themarketsdaily.com/2026/08/10/truist-financial-issues-positive-forecast-for-irhythm-technologies-nasdaqirtc-stock-price.html",
-      "ticker": "IRTC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "iRhythm Technologies ( NASDAQ : IRTC ) Rating Lowered to Hold at Wall Street Zen",
-      "url": "https://www.dailypolitical.com/2026/08/10/irhythm-technologies-nasdaqirtc-rating-lowered-to-hold-at-wall-street-zen.html",
-      "ticker": "IRTC",
+      "title": "Tracing Jim Cramer Evolving View on Axon Enterprise ( AXON ) ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tracing-jim-cramer-evolving-view-173154124.html",
+      "ticker": "AXON",
       "themes": [],
       "date": "2026-08-10"
     },
     {
-      "title": "iRhythm Technologies Q2 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/08/09/irhythm-technologies-q2-earnings-call-highlights.html",
-      "ticker": "IRTC",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Kuehn Law Encourages Investors of iRhythm Technologies , Inc . to Contact Law Firm",
-      "url": "https://www.prnewswire.com/news-releases/kuehn-law-encourages-investors-of-irhythm-technologies-inc-to-contact-law-firm-302846581.html",
-      "ticker": "IRTC",
+      "title": "Hennion & Walsh Asset Management Inc . Trims Position in Axon Enterprise , Inc $AXON",
+      "url": "https://www.themarketsdaily.com/2026/08/10/hennion-walsh-asset-management-inc-trims-position-in-axon-enterprise-inc-axon.html",
+      "ticker": "AXON",
       "themes": [],
-      "date": "2026-08-08"
+      "date": "2026-08-10"
     },
     {
       "title": "Materion Q2 Earnings Call Highlights",
@@ -1524,6 +1486,15 @@
       "ticker": "MTRN",
       "themes": [
         "earnings"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "$10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . ",
+      "url": "https://www.fool.com/investing/2026/08/08/10000-in-axon-stock-a-decade-ago-would-be-worth-ab/?source=iedfolrf0000001",
+      "ticker": "AXON",
+      "themes": [
+        "stock"
       ],
       "date": "2026-08-08"
     },
@@ -1582,7 +1553,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1700,
+  "signals_count": 1713,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

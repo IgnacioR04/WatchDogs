@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-12T12:14:27+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
+_Generado 2026-08-12T14:03:54+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,13 +8,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.38)
-- Tendencia: `bull` (SPY 770.56 · MA50 747.34 · MA200 701.21 · dist MA200: 9.89%)
-- Credito: `tight` (HY spread 2.7)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `calm` (VIX 14.9)
+- Tendencia: `bull` (SPY 772.74 · MA50 747.66 · MA200 701.74 · dist MA200: 10.12%)
+- Credito: `tight` (HY spread 2.72)
 - Tipos: `flat` (curva 10y-2y 0.48)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -22,28 +22,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 770.56 | -0.32% | -0.1% | 2.49% |
-| QQQ | 12.0% | core | 718.45 | -0.34% | -0.75% | -0.17% |
-| TLT | 12.0% | core | 82.19 | 0.16% | -0.76% | -1.85% |
-| GLD | 9.3% | core | 400.96 | -0.39% | 7.16% | 7.74% |
-| IEF | 6.2% | core | 92.87 | 0.12% | -0.41% | -0.39% |
-| FWONK | 6.0% | satellite | 102.38 | -0.34% | 6.17% | 1.5% |
-| KRNY | 5.9% | satellite | 9.53 | 0.74% | -2.16% | 1.6% |
-| LTH | 4.8% | satellite | 43.81 | 3.18% | -2.06% | 5.39% |
-| RELY | 3.4% | satellite | 23.61 | 2.03% | -4.14% | 0.38% |
-| FSUN | 3.3% | satellite | 40.61 | 2.37% | 2.24% | 15.04% |
-| CHRW | 2.6% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
-| SNEX | 2.3% | satellite | 65.97 | 1.93% | -12.31% | -12.61% |
-| TWST | 2.0% | satellite | 123.12 | -1.41% | 23.8% | 33.06% |
-| AMRC | 1.7% | satellite | 25.89 | 2.41% | -7.34% | 3.56% |
-| SPCX | 1.4% | satellite | 133.29 | -3.93% | 6.35% | -2.05% |
+| SPY | 12.0% | core | 772.74 | 0.28% | 0.38% | 2.38% |
+| QQQ | 12.0% | core | 725.05 | 0.92% | 1.08% | 1.02% |
+| TLT | 12.0% | core | 82.37 | 0.22% | -0.76% | -1.83% |
+| GLD | 9.3% | core | 405.98 | 1.25% | 4.19% | 9.03% |
+| KRNY | 6.4% | satellite | 9.47 | -0.68% | -2.22% | -0.05% |
+| FWONK | 6.3% | satellite | 102.93 | 0.19% | 6.74% | 2.04% |
+| IEF | 6.2% | core | 93.1 | 0.25% | -0.23% | -0.38% |
+| LTH | 5.1% | satellite | 43.88 | 3.34% | -1.9% | 5.56% |
+| FSUN | 3.6% | satellite | 40.29 | 1.56% | 1.44% | 14.14% |
+| RELY | 3.5% | satellite | 23.47 | 1.43% | -4.71% | -0.21% |
+| CHRW | 2.9% | satellite | 147.54 | 1.69% | -3.94% | -25.29% |
+| SNEX | 2.5% | satellite | 68.04 | 3.14% | -10.5% | -11.57% |
+| AMRC | 1.8% | satellite | 27.57 | 6.47% | 7.42% | 11.69% |
+| SPCX | 1.5% | satellite | 137.66 | -0.78% | 9.84% | 1.16% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.3%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.634 · posiciones efectivas: 14.4 · HHI: 0.0696
+- Volatilidad anualizada: 10.5%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.601 · posiciones efectivas: 14.1 · HHI: 0.0709
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -53,7 +52,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **SPCX** · score agregado 194.2 · 3 señales · fuentes: congress, large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
-- **TWST** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **RELY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **SNEX** · score agregado 57.5 · 1 señales · fuentes: corporate_insider
 - **KRNY** · score agregado 54.8 · 1 señales · fuentes: corporate_insider
@@ -71,14 +69,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AMRC | 74 | corporate_insider | Sakellaris George P | 2 | $25,900 | cluster_buy |
 | AMRC | 74 | corporate_insider | Sakellaris George P | 2 | $25,270 | cluster_buy |
 | KMPR | 73 | corporate_insider | Camden Bradley T | 2 | $26,340 | cluster_buy |
-| TWST | 72 | large_holder | WILLIAM BLAIR INVESTMENT  |  | - | - |
+| CHKP | 72 | large_holder | Gil Shwed |  | - | - |
+| FFIV | 72 | large_holder | Hotchkis and Wiley Capita |  | - | - |
 | FNRN | 72 | large_holder | M3 Funds, LLC |  | - | - |
 | SPCX | 72 | large_holder | Antonio J. Gracias |  | - | - |
 | RELY | 72 | large_holder | MIH Fintech Investments B |  | - | - |
 | HOG | 72 | large_holder | DONALD SMITH & CO., INC. |  | - | - |
 | DLHC | 72 | large_holder | Mink Brook Partners LP |  | - | - |
-| DAVI | 70 | large_holder | JACK HARRY KAYE |  | - | - |
-| MKZR | 70 | large_holder | DIXON ROBERT E |  | - | - |
+| BYRN | 70 | large_holder | Bryan S. Ganz |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -100,15 +98,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 770.56 (-0.32% / -0.1% / 2.49%) [2026-08-11]
-- QQQ: 718.45 (-0.34% / -0.75% / -0.17%) [2026-08-11]
-- IWM: 300.99 (0.34% / -0.24% / 2.2%) [2026-08-11]
-- DIA: 537.28 (-0.32% / -0.58% / 2.43%) [2026-08-11]
-- TLT: 82.19 (0.16% / -0.76% / -1.85%) [2026-08-11]
-- IEF: 92.87 (0.12% / -0.41% / -0.39%) [2026-08-11]
-- GLD: 400.96 (-0.39% / 7.16% / 7.74%) [2026-08-11]
-- ^VIX: 15.38 (0.65% / -2.72% / -1.85%) [2026-08-12]
-- BTC-USD: 64230.71 (1.07% / -1.0% / -1.25%) [2026-08-12]
+- SPY: 772.74 (0.28% / 0.38% / 2.38%) [2026-08-12]
+- QQQ: 725.05 (0.92% / 1.08% / 1.02%) [2026-08-12]
+- IWM: 301.93 (0.31% / 0.72% / 2.08%) [2026-08-12]
+- DIA: 537.57 (0.05% / -0.97% / 2.24%) [2026-08-12]
+- TLT: 82.37 (0.22% / -0.76% / -1.83%) [2026-08-12]
+- IEF: 93.1 (0.25% / -0.23% / -0.38%) [2026-08-12]
+- GLD: 405.98 (1.25% / 4.19% / 9.03%) [2026-08-12]
+- ^VIX: 14.9 (-2.49% / -5.76% / -4.91%) [2026-08-12]
+- BTC-USD: 63690.53 (0.22% / -1.83% / -2.08%) [2026-08-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -116,14 +114,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.72 (delta 1m: 0.16) [2026-08-10]
 - Curva 10Y-2Y: 0.48 (delta 1m: 0.12) [2026-08-11]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.7 (delta 1m: 0.01) [2026-08-10]
+- High yield spread (OAS): 2.72 (delta 1m: 0.03) [2026-08-11]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
 - Breakeven inflacion 10Y: 2.27 (delta 1m: 0.01) [2026-08-11]
 - Dolar broad index: 119.0649 (delta 1m: -1.688) [2026-08-07]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (5), regulatory (1), ai (1), merger (1)
+**Temas dominantes**: stock (5), earnings (4), regulatory (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -131,12 +129,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [P] Everpure Stock Rockets Higher On AI Cloud  Mic Drop  News | Investor Business Daily (2026-08-11)
 - [P] The Biggest Premarket Movers : Plug Power and Everpure Are Up Big Tuesday (2026-08-11)
 - [P] Everpure ( NYSE : P ) Cut to  Buy  at Wall Street Zen (2026-08-11)
-- [IRTC] iRhythm to Acquire VitalConnect for $287 . 5M to Build Broad Cardiac Intelligence Platform (2026-08-10)
-- [IRTC] FinancialContent - Why iRhythm ( IRTC ) Shares Are Trading Lower Today (2026-08-10)
-- [IRTC] Truist Financial Issues Positive Forecast for iRhythm Technologies ( NASDAQ : IRTC ) Stock Price (2026-08-10)
-- [IRTC] iRhythm Technologies ( NASDAQ : IRTC ) Rating Lowered to Hold at Wall Street Zen (2026-08-10)
-- [IRTC] iRhythm Technologies Q2 Earnings Call Highlights (2026-08-09)
-- [IRTC] Kuehn Law Encourages Investors of iRhythm Technologies , Inc . to Contact Law Firm (2026-08-08)
+- [AXON] Tracing Jim Cramer Evolving View on Axon Enterprise ( AXON ) (2026-08-10)
+- [AXON] Hennion & Walsh Asset Management Inc . Trims Position in Axon Enterprise , Inc $AXON (2026-08-10)
+- [MTRN] Materion Q2 Earnings Call Highlights (2026-08-08)
+- [AXON] $10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . (2026-08-08)
+- [QNST] Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? (2026-08-08)
+- [QNST] Why QuinStreet Stock Crushed it on Friday (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -152,10 +150,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $233,699 · win rate 98% · categorias: sports
-- ExplosiveNinja · PnL $63,661 · win rate 97% · categorias: sports
-- SDTrading · PnL $95,113 · win rate 93% · categorias: sports
-- HongYunX · PnL $16,231 · win rate 100% · categorias: sports
-- CORGI8 · PnL $29,865 · win rate 93% · categorias: sports
+- ExplosiveNinja · PnL $85,574 · win rate 97% · categorias: sports
+- SDTrading · PnL $95,106 · win rate 93% · categorias: sports
+- CORGI8 · PnL $42,288 · win rate 93% · categorias: sports
+- TAIWANNUMBERONE · PnL $40,954 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +161,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 102 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 656 registros 30d · ultimo dato 2026-08-11
-- **sec_13d_13g**: `ok` · 229 registros 30d · ultimo dato 2026-08-12
+- **sec_insiders**: `ok` · 648 registros 30d · ultimo dato 2026-08-12
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-12
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
@@ -177,8 +175,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRC, CHRW, FSUN, FWONK, GLD, IEF, KRNY, LTH, QQQ, RELY, SNEX, SPCX, SPY, TLT, TWST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRC, CHRW, FSUN, FWONK, GLD, IEF, KRNY, LTH, QQQ, RELY, SNEX, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
