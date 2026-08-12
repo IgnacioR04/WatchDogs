@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-12T08:54:32+00:00 -->
+<!-- trader_prompt.md generado 2026-08-12T10:36:37+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-12T08:54:32+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
+_Generado 2026-08-12T10:36:37+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.31)
+- Volatilidad: `normal` (VIX 15.39)
 - Tendencia: `bull` (SPY 770.56 · MA50 747.34 · MA200 701.21 · dist MA200: 9.89%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.48)
@@ -257,24 +257,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 718.45 | -0.34% | -0.75% | -0.17% |
 | TLT | 12.0% | core | 82.19 | 0.16% | -0.76% | -1.85% |
 | GLD | 9.3% | core | 400.96 | -0.39% | 7.16% | 7.74% |
-| FWONK | 6.5% | satellite | 102.38 | -0.34% | 6.17% | 1.5% |
+| FWONK | 6.3% | satellite | 102.73 | -0.12% | 5.11% | 3.1% |
 | IEF | 6.2% | core | 92.87 | 0.12% | -0.41% | -0.39% |
-| LTH | 5.2% | satellite | 43.81 | 3.18% | -2.06% | 5.39% |
-| KMPR | 3.8% | satellite | 26.18 | -0.8% | -10.98% | -8.59% |
-| RELY | 3.6% | satellite | 23.61 | 2.03% | -4.14% | 0.38% |
-| FSUN | 3.6% | satellite | 40.61 | 2.37% | 2.24% | 15.04% |
-| CHRW | 2.8% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
-| LB | 2.7% | satellite | 83.91 | 2.69% | 13.88% | 6.57% |
-| TWST | 2.1% | satellite | 123.12 | -1.41% | 23.8% | 33.06% |
-| AMRC | 1.8% | satellite | 25.89 | 2.41% | -7.34% | 0.94% |
-| SPCX | 1.5% | satellite | 133.29 | -3.93% | 6.35% | -2.05% |
+| LTH | 5.2% | satellite | 42.46 | -3.08% | -3.87% | 2.39% |
+| KMPR | 3.7% | satellite | 26.18 | -0.8% | -10.98% | -8.59% |
+| FSUN | 3.6% | satellite | 39.67 | -0.03% | 1.07% | 11.81% |
+| RELY | 3.5% | satellite | 23.14 | -5.24% | -3.5% | -2.28% |
+| CHRW | 2.9% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
+| LB | 2.7% | satellite | 81.71 | 8.37% | 8.86% | 4.05% |
+| TWST | 2.1% | satellite | 124.88 | 7.96% | 23.57% | 38.22% |
+| AMRC | 1.8% | satellite | 25.89 | 2.41% | -7.34% | 3.56% |
+| SPCX | 1.5% | satellite | 138.74 | 4.23% | 21.14% | -0.29% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.7%
+- Volatilidad anualizada: 10.5%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.585 · posiciones efectivas: 14.5 · HHI: 0.0691
+- Max drawdown historico: -3.0%
+- Beta vs SPY: 0.578 · posiciones efectivas: 14.5 · HHI: 0.069
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -309,7 +309,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | RELY | 72 | large_holder | MIH Fintech Investments B |  | - | - |
 | HOG | 72 | large_holder | DONALD SMITH & CO., INC. |  | - | - |
 | DLHC | 72 | large_holder | Mink Brook Partners LP |  | - | - |
-| DAVI | 70 | large_holder | JACK HARRY KAYE |  | - | - |
+| CHA | 70 | large_holder | Fosun International Limit |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -338,8 +338,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.19 (0.16% / -0.76% / -1.85%) [2026-08-11]
 - IEF: 92.87 (0.12% / -0.41% / -0.39%) [2026-08-11]
 - GLD: 400.96 (-0.39% / 7.16% / 7.74%) [2026-08-11]
-- ^VIX: 15.31 (0.2% / -3.16% / 1.86%) [2026-08-12]
-- BTC-USD: 63729.24 (0.28% / -1.77% / -2.02%) [2026-08-12]
+- ^VIX: 15.39 (0.72% / -2.66% / -1.79%) [2026-08-12]
+- BTC-USD: 64078.49 (0.83% / -1.24% / -1.49%) [2026-08-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,14 +354,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1), stock (1)
+**Temas dominantes**: earnings (3), stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AXON] Tracing Jim Cramer Evolving View on Axon Enterprise ( AXON ) (2026-08-10)
-- [AXON] Hennion & Walsh Asset Management Inc . Trims Position in Axon Enterprise , Inc $AXON (2026-08-10)
-- [MTRN] Materion Q2 Earnings Call Highlights (2026-08-08)
-- [AXON] $10 , 000 in Axon Stock a Decade Ago Would Be Worth About $329 , 000 Today . The Stock Is Down Over the Past Year . (2026-08-08)
+- [QNST] Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? (2026-08-08)
+- [QNST] Why QuinStreet Stock Crushed it on Friday (2026-08-08)
+- [QNST] FinancialContent - Why Is QuinStreet ( QNST ) Stock Soaring Today (2026-08-07)
+- [QNST] QuinStreet : Fiscal Q4 Earnings Snapshot (2026-08-07)
+- [QNST] FinancialContent - QuinStreet ( NASDAQ : QNST ) Reports Bullish Q2 CY2026 , Stock Jumps 28 % (2026-08-06)
+- [QNST] FinancialContent - What To Expect From QuinStreet ( QNST ) Q2 Earnings (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,17 +372,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Golub David vendio GBDC por $21.9M el 2026-08-07.
 - 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $3.9M el 2026-08-10.
 - CEO Valenti Douglas vendio QNST por $15.4M el 2026-08-07.
-- CEO Chesky Brian vendio ABNB por $13.4M el 2026-08-07.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $233,646 · win rate 98% · categorias: sports
+- WTSA · PnL $233,699 · win rate 98% · categorias: sports
 - SDTrading · PnL $93,791 · win rate 93% · categorias: sports
+- ExplosiveNinja · PnL $51,906 · win rate 97% · categorias: sports
 - HongYunX · PnL $16,231 · win rate 100% · categorias: sports
-- comon119 · PnL $13,077 · win rate 98% · categorias: sports, crypto, politics
-- CORGI8 · PnL $24,126 · win rate 93% · categorias: sports
+- CORGI8 · PnL $29,865 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,8 +390,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 102 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 691 registros 30d · ultimo dato 2026-08-11
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-11
+- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-08-11
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-12
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
