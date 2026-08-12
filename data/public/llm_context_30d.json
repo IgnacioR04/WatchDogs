@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T10:35:47.772151+00:00",
+  "generated_at": "2026-08-12T12:13:37.279450+00:00",
   "window": {
     "from": "2026-07-13",
     "to": "2026-08-12",
@@ -23,8 +23,11 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
       "earnings",
-      "stock"
+      "regulatory",
+      "ai",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,24 +35,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner vendio LB ($93.8M)",
-      "summary": "10% owner LandBridge Holdings LLC vendio LB por $93.8M el 2026-08-07 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "LandBridge Holdings LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LB",
-      "direction": "sell",
-      "amount_estimated": 93812500.0,
-      "event_date": "2026-08-07",
-      "importance_score": 85.5,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1298438/000119312526345454/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "10% owner compro BRVE ($19.8M)",
       "summary": "10% owner AH Bio Fund IV, L.P. compro BRVE por $19.8M el 2026-08-07.",
       "source": "sec_form_4",
@@ -64,6 +49,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1160077/000123191926000859/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "CEO compro COE ($3.9M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 3943605.6,
+      "event_date": "2026-08-10",
+      "importance_score": 83.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
       "id": "move_3",
@@ -117,15 +120,51 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_665841035983",
-        "news_364730182946",
-        "news_183982749100"
+        "news_124088650679",
+        "news_252530104074",
+        "news_842422996437"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478988/000147898826000010/"
     },
     {
       "id": "move_6",
       "rank": 6,
+      "title": "CEO compro COE ($2.0M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $2.0M el 2026-08-06.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 2027764.8,
+      "event_date": "2026-08-06",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO compro COE ($1.8M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $1.8M el 2026-08-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 1754407.2,
+      "event_date": "2026-08-07",
+      "importance_score": 82.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -142,8 +181,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -160,8 +199,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -178,8 +217,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -196,8 +235,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -214,8 +253,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -232,8 +271,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -250,8 +289,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -268,8 +307,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -286,8 +325,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
       "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
       "source": "sec_13f",
@@ -304,8 +343,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro STATE STR SPDR S&P 500 ETF T ($16.0B)",
       "summary": "Institutional manager Citadel Advisors LLC compro STATE STR SPDR S&P 500 ETF T por $16.0B.",
       "source": "sec_13f",
@@ -322,8 +361,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro BROADCOM INC ($15.1B)",
       "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
       "source": "sec_13f",
@@ -340,8 +379,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
       "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
       "source": "sec_13f",
@@ -351,42 +390,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 14828033296,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14184846003,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro LAM RESEARCH CORP ($13.7B)",
-      "summary": "Institutional manager State Street Corp compro LAM RESEARCH CORP por $13.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 13665595558,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -445,14 +448,6 @@
         ]
       },
       {
-        "ticker": "KMPR",
-        "company": "KEMPER Corp",
-        "pressure_score": 288.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "FSUN",
         "company": "FIRSTSUN CAPITAL BANCORP",
         "pressure_score": 282.0,
@@ -502,6 +497,14 @@
         ]
       },
       {
+        "ticker": "COE",
+        "company": "51Talk Online Education Group",
+        "pressure_score": 248.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AMAT",
         "company": "Stock",
         "pressure_score": 225.8,
@@ -539,14 +542,6 @@
         "ticker": "NET",
         "company": "Cloudflare, Inc.",
         "pressure_score": 1122.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ABNB",
-        "company": "Airbnb, Inc.",
-        "pressure_score": 1017.4,
         "sources": [
           "corporate_insider"
         ]
@@ -638,6 +633,14 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
       }
     ]
   },
@@ -652,6 +655,15 @@
       "score": 84.8
     },
     {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 3943605.6,
+      "date": "2026-08-10",
+      "score": 83.8
+    },
+    {
       "ticker": "QVCG",
       "company": "QVC Group, Inc.",
       "actor": "GOLDENTREE ASSET MANAGEMENT LP",
@@ -659,6 +671,24 @@
       "amount": 3937500.0,
       "date": "2026-08-10",
       "score": 82.8
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 2027764.8,
+      "date": "2026-08-06",
+      "score": 82.4
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 1754407.2,
+      "date": "2026-08-07",
+      "score": 82.1
     },
     {
       "ticker": "QVCG",
@@ -715,6 +745,15 @@
       "score": 78.9
     },
     {
+      "ticker": "XRN",
+      "company": "Chiron Real Estate Inc.",
+      "actor": "Decker Mark Okey Jr",
+      "actor_type": "ceo",
+      "amount": 287040.0,
+      "date": "2026-08-10",
+      "score": 78.1
+    },
+    {
       "ticker": "AMRC",
       "company": "Ameresco, Inc.",
       "actor": "Cox Brian C",
@@ -724,6 +763,15 @@
       "score": 77.3
     },
     {
+      "ticker": "MTDR",
+      "company": "Matador Resources Co",
+      "actor": "Foran Joseph Wm",
+      "actor_type": "ceo",
+      "amount": 159755.2,
+      "date": "2026-08-10",
+      "score": 76.9
+    },
+    {
       "ticker": "AMRC",
       "company": "Ameresco, Inc.",
       "actor": "Sakellaris George P",
@@ -731,51 +779,6 @@
       "amount": 129750.0,
       "date": "2026-08-07",
       "score": 76.4
-    },
-    {
-      "ticker": "SUNS",
-      "company": "Sunrise Realty Trust, Inc.",
-      "actor": "TANNENBAUM LEONARD M",
-      "actor_type": "ten_percent_owner",
-      "amount": 194750.0,
-      "date": "2026-08-10",
-      "score": 76.3
-    },
-    {
-      "ticker": "PLNT",
-      "company": "Planet Fitness, Inc.",
-      "actor": "Spinelli Stephen JR",
-      "actor_type": "director",
-      "amount": 492800.0,
-      "date": "2026-08-10",
-      "score": 75.8
-    },
-    {
-      "ticker": "AXIA3",
-      "company": "AXIA Energia S.A.",
-      "actor": "Batista de Lima Filho Pedro",
-      "actor_type": "director",
-      "amount": 873300.0,
-      "date": "2026-08-07",
-      "score": 75.6
-    },
-    {
-      "ticker": "HPP",
-      "company": "Hudson Pacific Properties, Inc.",
-      "actor": "BORTZ JON E",
-      "actor_type": "director",
-      "amount": 335000.0,
-      "date": "2026-08-11",
-      "score": 75.0
-    },
-    {
-      "ticker": "LAW",
-      "company": "CS Disco, Inc.",
-      "actor": "Friedrichsen Eric",
-      "actor_type": "ceo",
-      "amount": 31950.0,
-      "date": "2026-08-10",
-      "score": 74.9
     }
   ],
   "institutional_changes": [
@@ -1225,18 +1228,8 @@
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
         "pnl": 233699.16,
-        "win_rate": 0.9783,
+        "win_rate": 0.9808,
         "volume": 180705.61,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 93790.64,
-        "win_rate": 0.9326,
-        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1244,9 +1237,19 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 51905.53,
-        "win_rate": 0.9694,
-        "volume": 183870.79,
+        "pnl": 63660.62,
+        "win_rate": 0.97,
+        "volume": 209746.78,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 95113.32,
+        "win_rate": 0.9326,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1265,7 +1268,7 @@
         "wallet": "0x79ae097215",
         "username": "CORGI8",
         "pnl": 29864.63,
-        "win_rate": 0.9259,
+        "win_rate": 0.9263,
         "volume": 47411.13,
         "categories": [
           "sports"
@@ -1282,41 +1285,43 @@
         ]
       },
       {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 58943.17,
+        "win_rate": 0.8594,
+        "volume": 188978.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 15519.44,
+        "win_rate": 0.92,
+        "volume": 10391.98,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x16602a38e8",
+        "username": "BBQChickenisthebesttt",
+        "pnl": 36364.95,
+        "win_rate": 0.8554,
+        "volume": 120069.29,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 20243.87,
+        "pnl": 20177.32,
         "win_rate": 0.895,
-        "volume": 2581.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x21f333307a",
-        "username": "hi774c",
-        "pnl": 40017.95,
-        "win_rate": 0.829,
-        "volume": 58306.51,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xbc43c8bfbc",
-        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
-        "pnl": 79550.76,
-        "win_rate": 0.7638,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 39261.63,
-        "win_rate": 0.7526,
-        "volume": 0.0,
+        "volume": 2764.86,
         "categories": [
           "sports"
         ]
@@ -1326,7 +1331,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 208388.98,
+        "pnl": 186307.98,
         "win_rate": 0.4842,
         "volume": 728854.77,
         "categories": [
@@ -1337,7 +1342,7 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 38908.59,
+        "pnl": 40651.59,
         "win_rate": 0.7356,
         "volume": 710550.53,
         "categories": [
@@ -1348,7 +1353,7 @@
       {
         "wallet": "0x7bc14171cc",
         "username": "coali10",
-        "pnl": 36684.07,
+        "pnl": 37416.27,
         "win_rate": 0.6031,
         "volume": 283940.53,
         "categories": [
@@ -1360,9 +1365,19 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 69627.84,
+        "pnl": 68811.23,
         "win_rate": 0.663,
         "volume": 629134.22,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 58943.17,
+        "win_rate": 0.8594,
+        "volume": 188978.99,
         "categories": [
           "sports"
         ]
@@ -1371,8 +1386,18 @@
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
         "pnl": 233699.16,
-        "win_rate": 0.9783,
+        "win_rate": 0.9808,
         "volume": 180705.61,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 139583.21,
+        "win_rate": 0.4872,
+        "volume": 164562.89,
         "categories": [
           "sports"
         ]
@@ -1380,9 +1405,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 51905.53,
-        "win_rate": 0.9694,
-        "volume": 183870.79,
+        "pnl": 63660.62,
+        "win_rate": 0.97,
+        "volume": 209746.78,
         "categories": [
           "sports"
         ]
@@ -1390,7 +1415,7 @@
       {
         "wallet": "0xc8075693f4",
         "username": "texaskid",
-        "pnl": 124229.67,
+        "pnl": 124083.5,
         "win_rate": 0.675,
         "volume": 117439.98,
         "categories": [
@@ -1400,29 +1425,9 @@
       {
         "wallet": "0xbca08c1bc2",
         "username": "1winstreak1",
-        "pnl": 65833.86,
+        "pnl": 66201.31,
         "win_rate": 0.559,
         "volume": 444816.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 139152.18,
-        "win_rate": 0.4872,
-        "volume": 78356.99,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 17372.32,
-        "win_rate": 0.555,
-        "volume": 216262.7,
         "categories": [
           "sports"
         ]
@@ -1430,6 +1435,98 @@
     ]
   },
   "news": [
+    {
+      "title": "Second hyperscaler plumps for Everpure flash technology",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/second-hyperscaler-plumps-for-everpures-flash-technology/5285903",
+      "ticker": "P",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Everpure Stock Rockets Higher On AI Cloud  Mic Drop  News | Investor Business Daily",
+      "url": "https://www.investors.com/news/technology/everpure-stock-p-news-hyperscaler-win/",
+      "ticker": "P",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "The Biggest Premarket Movers : Plug Power and Everpure Are Up Big Tuesday",
+      "url": "https://247wallst.com/investing/2026/08/11/the-biggest-premarket-movers-plug-power-and-everpure-are-up-big-tuesday/",
+      "ticker": "P",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Everpure ( NYSE : P ) Cut to  Buy  at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/11/everpure-nysep-cut-to-buy-at-wall-street-zen.html",
+      "ticker": "P",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "iRhythm to Acquire VitalConnect for $287 . 5M to Build Broad Cardiac Intelligence Platform",
+      "url": "https://hitconsultant.net/2026/08/10/irhythm-to-acquire-vitalconnect-287m-cardiac-monitoring-multi-vitals/",
+      "ticker": "IRTC",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "FinancialContent - Why iRhythm ( IRTC ) Shares Are Trading Lower Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-why-irhythm-irtc-shares-are-trading-lower-today",
+      "ticker": "IRTC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Truist Financial Issues Positive Forecast for iRhythm Technologies ( NASDAQ : IRTC ) Stock Price",
+      "url": "https://www.themarketsdaily.com/2026/08/10/truist-financial-issues-positive-forecast-for-irhythm-technologies-nasdaqirtc-stock-price.html",
+      "ticker": "IRTC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "iRhythm Technologies ( NASDAQ : IRTC ) Rating Lowered to Hold at Wall Street Zen",
+      "url": "https://www.dailypolitical.com/2026/08/10/irhythm-technologies-nasdaqirtc-rating-lowered-to-hold-at-wall-street-zen.html",
+      "ticker": "IRTC",
+      "themes": [],
+      "date": "2026-08-10"
+    },
+    {
+      "title": "iRhythm Technologies Q2 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/08/09/irhythm-technologies-q2-earnings-call-highlights.html",
+      "ticker": "IRTC",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-09"
+    },
+    {
+      "title": "Kuehn Law Encourages Investors of iRhythm Technologies , Inc . to Contact Law Firm",
+      "url": "https://www.prnewswire.com/news-releases/kuehn-law-encourages-investors-of-irhythm-technologies-inc-to-contact-law-firm-302846581.html",
+      "ticker": "IRTC",
+      "themes": [],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Materion Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-q2-earnings-call-highlights-190349490.html",
+      "ticker": "MTRN",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-08"
+    },
     {
       "title": "Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/quinstreet-qnst-fully-valued-strong-041930397.html",
@@ -1485,7 +1582,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1742,
+  "signals_count": 1700,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

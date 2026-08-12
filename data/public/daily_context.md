@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-12T10:36:37+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
+_Generado 2026-08-12T12:14:27+00:00 · ventana señales 2026-07-13 -> 2026-08-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.39)
+- Volatilidad: `normal` (VIX 15.38)
 - Tendencia: `bull` (SPY 770.56 · MA50 747.34 · MA200 701.21 · dist MA200: 9.89%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.48)
@@ -26,28 +26,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 718.45 | -0.34% | -0.75% | -0.17% |
 | TLT | 12.0% | core | 82.19 | 0.16% | -0.76% | -1.85% |
 | GLD | 9.3% | core | 400.96 | -0.39% | 7.16% | 7.74% |
-| FWONK | 6.3% | satellite | 102.73 | -0.12% | 5.11% | 3.1% |
 | IEF | 6.2% | core | 92.87 | 0.12% | -0.41% | -0.39% |
-| LTH | 5.2% | satellite | 42.46 | -3.08% | -3.87% | 2.39% |
-| KMPR | 3.7% | satellite | 26.18 | -0.8% | -10.98% | -8.59% |
-| FSUN | 3.6% | satellite | 39.67 | -0.03% | 1.07% | 11.81% |
-| RELY | 3.5% | satellite | 23.14 | -5.24% | -3.5% | -2.28% |
-| CHRW | 2.9% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
-| LB | 2.7% | satellite | 81.71 | 8.37% | 8.86% | 4.05% |
-| TWST | 2.1% | satellite | 124.88 | 7.96% | 23.57% | 38.22% |
-| AMRC | 1.8% | satellite | 25.89 | 2.41% | -7.34% | 3.56% |
-| SPCX | 1.5% | satellite | 138.74 | 4.23% | 21.14% | -0.29% |
+| FWONK | 6.0% | satellite | 102.38 | -0.34% | 6.17% | 1.5% |
+| KRNY | 5.9% | satellite | 9.53 | 0.74% | -2.16% | 1.6% |
+| LTH | 4.8% | satellite | 43.81 | 3.18% | -2.06% | 5.39% |
+| RELY | 3.4% | satellite | 23.61 | 2.03% | -4.14% | 0.38% |
+| FSUN | 3.3% | satellite | 40.61 | 2.37% | 2.24% | 15.04% |
+| CHRW | 2.6% | satellite | 145.1 | -2.15% | -6.24% | -27.31% |
+| SNEX | 2.3% | satellite | 65.97 | 1.93% | -12.31% | -12.61% |
+| TWST | 2.0% | satellite | 123.12 | -1.41% | 23.8% | 33.06% |
+| AMRC | 1.7% | satellite | 25.89 | 2.41% | -7.34% | 3.56% |
+| SPCX | 1.4% | satellite | 133.29 | -3.93% | 6.35% | -2.05% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.5%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.0%
-- Beta vs SPY: 0.578 · posiciones efectivas: 14.5 · HHI: 0.069
+- Volatilidad anualizada: 11.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.634 · posiciones efectivas: 14.4 · HHI: 0.0696
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **KMPR** · score agregado 304.5 · 4 señales · fuentes: corporate_insider
 - **AMRC** · score agregado 301.7 · 4 señales · fuentes: corporate_insider
 - **FSUN** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
@@ -56,7 +55,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **TWST** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **RELY** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **LB** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **SNEX** · score agregado 57.5 · 1 señales · fuentes: corporate_insider
+- **KRNY** · score agregado 54.8 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -64,21 +64,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| XRN | 79 | corporate_insider | Decker Mark Okey Jr | 2 | $287,040 | cluster_buy |
+| XRN | 78 | corporate_insider | Fitzgerald Charles | 2 | $991,944 | cluster_buy |
 | AMRC | 78 | corporate_insider | Cox Brian C | 2 | $995,279 | cluster_buy |
-| KMPR | 77 | corporate_insider | Gorevic Jason N | 4 | $129,550 | cluster_buy |
 | AMRC | 77 | corporate_insider | Sakellaris George P | 2 | $129,750 | cluster_buy |
-| KMPR | 77 | corporate_insider | Camden Bradley T | 4 | $26,340 | cluster_buy |
-| KMPR | 77 | corporate_insider | LADERMAN GERALD | 4 | $105,960 | cluster_buy |
-| KMPR | 74 | corporate_insider | Evans Carl Thomas Jr. | 4 | $26,530 | cluster_buy |
 | AMRC | 74 | corporate_insider | Sakellaris George P | 2 | $25,900 | cluster_buy |
 | AMRC | 74 | corporate_insider | Sakellaris George P | 2 | $25,270 | cluster_buy |
+| KMPR | 73 | corporate_insider | Camden Bradley T | 2 | $26,340 | cluster_buy |
 | TWST | 72 | large_holder | WILLIAM BLAIR INVESTMENT  |  | - | - |
 | FNRN | 72 | large_holder | M3 Funds, LLC |  | - | - |
 | SPCX | 72 | large_holder | Antonio J. Gracias |  | - | - |
 | RELY | 72 | large_holder | MIH Fintech Investments B |  | - | - |
 | HOG | 72 | large_holder | DONALD SMITH & CO., INC. |  | - | - |
 | DLHC | 72 | large_holder | Mink Brook Partners LP |  | - | - |
-| CHA | 70 | large_holder | Fosun International Limit |  | - | - |
+| DAVI | 70 | large_holder | JACK HARRY KAYE |  | - | - |
+| MKZR | 70 | large_holder | DIXON ROBERT E |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.19 (0.16% / -0.76% / -1.85%) [2026-08-11]
 - IEF: 92.87 (0.12% / -0.41% / -0.39%) [2026-08-11]
 - GLD: 400.96 (-0.39% / 7.16% / 7.74%) [2026-08-11]
-- ^VIX: 15.39 (0.72% / -2.66% / -1.79%) [2026-08-12]
-- BTC-USD: 64078.49 (0.83% / -1.24% / -1.49%) [2026-08-12]
+- ^VIX: 15.38 (0.65% / -2.72% / -1.85%) [2026-08-12]
+- BTC-USD: 64230.71 (1.07% / -1.0% / -1.25%) [2026-08-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,33 +123,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (3)
+**Temas dominantes**: stock (6), earnings (5), regulatory (1), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [QNST] Is QuinStreet ( QNST ) Fully Valued On Strong Earnings And 2027 Guidance ? (2026-08-08)
-- [QNST] Why QuinStreet Stock Crushed it on Friday (2026-08-08)
-- [QNST] FinancialContent - Why Is QuinStreet ( QNST ) Stock Soaring Today (2026-08-07)
-- [QNST] QuinStreet : Fiscal Q4 Earnings Snapshot (2026-08-07)
-- [QNST] FinancialContent - QuinStreet ( NASDAQ : QNST ) Reports Bullish Q2 CY2026 , Stock Jumps 28 % (2026-08-06)
-- [QNST] FinancialContent - What To Expect From QuinStreet ( QNST ) Q2 Earnings (2026-08-05)
+- [P] Second hyperscaler plumps for Everpure flash technology (2026-08-11)
+- [P] Everpure Stock Rockets Higher On AI Cloud  Mic Drop  News | Investor Business Daily (2026-08-11)
+- [P] The Biggest Premarket Movers : Plug Power and Everpure Are Up Big Tuesday (2026-08-11)
+- [P] Everpure ( NYSE : P ) Cut to  Buy  at Wall Street Zen (2026-08-11)
+- [IRTC] iRhythm to Acquire VitalConnect for $287 . 5M to Build Broad Cardiac Intelligence Platform (2026-08-10)
+- [IRTC] FinancialContent - Why iRhythm ( IRTC ) Shares Are Trading Lower Today (2026-08-10)
+- [IRTC] Truist Financial Issues Positive Forecast for iRhythm Technologies ( NASDAQ : IRTC ) Stock Price (2026-08-10)
+- [IRTC] iRhythm Technologies ( NASDAQ : IRTC ) Rating Lowered to Hold at Wall Street Zen (2026-08-10)
+- [IRTC] iRhythm Technologies Q2 Earnings Call Highlights (2026-08-09)
+- [IRTC] Kuehn Law Encourages Investors of iRhythm Technologies , Inc . to Contact Law Firm (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner LandBridge Holdings LLC vendio LB por $93.8M el 2026-08-07 [senal en multiples fuentes].
 - 10% owner AH Bio Fund IV, L.P. compro BRVE por $19.8M el 2026-08-07.
+- CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.
 - CEO Golub David vendio GBDC por $21.9M el 2026-08-07.
 - 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $3.9M el 2026-08-10.
 - CEO Valenti Douglas vendio QNST por $15.4M el 2026-08-07.
+- CEO Huang Jack Jiajia compro COE por $2.0M el 2026-08-06.
+- CEO Huang Jack Jiajia compro COE por $1.8M el 2026-08-07.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $233,699 · win rate 98% · categorias: sports
-- SDTrading · PnL $93,791 · win rate 93% · categorias: sports
-- ExplosiveNinja · PnL $51,906 · win rate 97% · categorias: sports
+- ExplosiveNinja · PnL $63,661 · win rate 97% · categorias: sports
+- SDTrading · PnL $95,113 · win rate 93% · categorias: sports
 - HongYunX · PnL $16,231 · win rate 100% · categorias: sports
 - CORGI8 · PnL $29,865 · win rate 93% · categorias: sports
 
@@ -159,8 +163,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 102 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-08-11
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-12
+- **sec_insiders**: `ok` · 656 registros 30d · ultimo dato 2026-08-11
+- **sec_13d_13g**: `ok` · 229 registros 30d · ultimo dato 2026-08-12
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
@@ -173,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRC, CHRW, FSUN, FWONK, GLD, IEF, KMPR, LB, LTH, QQQ, RELY, SPCX, SPY, TLT, TWST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRC, CHRW, FSUN, FWONK, GLD, IEF, KRNY, LTH, QQQ, RELY, SNEX, SPCX, SPY, TLT, TWST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
