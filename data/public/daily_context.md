@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T08:59:34+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T10:36:30+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.69)
+- Volatilidad: `calm` (VIX 14.6)
 - Tendencia: `bull` (SPY 772.49 · MA50 747.66 · MA200 701.74 · dist MA200: 10.08%)
 - Credito: `tight` (HY spread 2.72)
 - Tipos: `flat` (curva 10y-2y 0.48)
@@ -27,23 +27,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 82.11 | -0.1% | -1.07% | -2.14% |
 | GLD | 9.3% | core | 404.92 | 0.99% | 3.92% | 8.75% |
 | IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.53% |
-| AVBC | 5.2% | satellite | 22.14 | 3.99% | 4.29% | 8.64% |
-| FWONK | 4.9% | satellite | 103.61 | 0.86% | 7.45% | 2.72% |
+| FWONK | 5.1% | satellite | 103.61 | 1.2% | 7.87% | 3.61% |
+| AVBC | 5.1% | satellite | 22.14 | 3.22% | 1.84% | 9.23% |
 | AMRX | 3.9% | satellite | 17.66 | 3.27% | -4.33% | 2.67% |
-| CARR | 3.3% | satellite | 63.08 | -0.57% | -3.97% | -9.25% |
+| CARR | 3.6% | satellite | 63.08 | -0.85% | -3.59% | -7.9% |
 | LTH | 3.3% | satellite | 43.82 | 0.02% | -3.29% | 4.33% |
-| MTDR | 3.2% | satellite | 52.51 | 0.54% | 8.43% | 0.83% |
-| GLIBK | 3.1% | satellite | 25.71 | 1.7% | 7.44% | 19.36% |
-| CHRW | 2.8% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
-| DUOL | 2.3% | satellite | 134.63 | -1.87% | -2.26% | 4.89% |
-| CRWV | 1.4% | satellite | 107.73 | 19.28% | 19.85% | 39.69% |
+| GLIBK | 3.2% | satellite | 25.71 | 3.13% | 9.45% | 14.57% |
+| MTDR | 3.1% | satellite | 52.51 | -0.21% | 12.51% | 0.52% |
+| CHRW | 2.9% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
+| DUOL | 2.0% | satellite | 134.63 | -0.6% | -0.51% | 4.89% |
+| CRWV | 1.3% | satellite | 107.73 | 19.28% | 19.85% | 39.69% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.0%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -5.9%
-- Beta vs SPY: 0.609 · posiciones efectivas: 14.7 · HHI: 0.0681
+- Volatilidad anualizada: 9.0%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -6.0%
+- Beta vs SPY: 0.588 · posiciones efectivas: 14.6 · HHI: 0.0683
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.11 (-0.1% / -1.07% / -2.14%) [2026-08-12]
 - IEF: 92.96 (0.1% / -0.38% / -0.53%) [2026-08-12]
 - GLD: 404.92 (0.99% / 3.92% / 8.75%) [2026-08-12]
-- ^VIX: 14.69 (0.96% / -3.04% / -12.19%) [2026-08-13]
-- BTC-USD: 63695.37 (0.46% / -1.86% / -0.63%) [2026-08-13]
+- ^VIX: 14.6 (0.34% / -3.63% / -14.92%) [2026-08-13]
+- BTC-USD: 63547.28 (0.23% / -2.09% / -0.86%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,39 +123,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (14), earnings (7), ai (5), leadership (2)
+**Temas dominantes**: stock (15), earnings (4), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DDOG] Datadog Sees AI , Platform Expansion Fueling Accelerating Growth (2026-08-13)
 - [DDOG] FinancialContent - The Top 5 Analyst Questions From Datadog Q2 Earnings Call (2026-08-13)
-- [CRWV] CoreWeave boosts 2026 spending plan , beats quarterly estimates on AI demand surge (2026-08-13)
 - [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares (2026-08-13)
 - [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 6 , 774 Shares (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 165 , 393 Shares of Stock (2026-08-13)
 - [TAK] Elaine Mary Shannon Sells 3 , 978 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
-- [AEVA] Aeva Technologies ( NASDAQ : AEVA ) CTO Sells $2 , 401 , 000 . 00 in Stock (2026-08-13)
-- [CGNX] Cognex ( CGNX ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [APPF] AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares (2026-08-13)
+- [APPF] Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Hudson Steven Kenneth compro PNAQ por $12.5M el 2026-08-10.
+- CEO Li Xiaodong vendio SE por $48.9M el 2026-08-11.
 - 10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.
 - CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.
 - CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.
 - CEO BOURLA ALBERT compro PFE por $1.0M el 2026-08-12 [senal en multiples fuentes].
 - CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.
 - 10% owner RECHTSCHAFFEN ANDREW compro PNAQ por $10.0M el 2026-08-10.
-- CEO Ellwanger Russell Craig vendio TSEM por $8.8M el 2026-08-11.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $131,651 · win rate 96% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $414,061 · win rate 96% · categorias: sports
 - GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
 - theowalcott · PnL $164,957 · win rate 100% · categorias: sports
-- steevenseakael · PnL $17,935 · win rate 98% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $14,511 · win rate 98% · categorias: sports, crypto
+- steevenseakael · PnL $18,198 · win rate 99% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $15,061 · win rate 98% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +163,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 784 registros 30d · ultimo dato 2026-08-12
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-12
+- **sec_insiders**: `ok` · 829 registros 30d · ultimo dato 2026-08-12
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress, institutional_13f
