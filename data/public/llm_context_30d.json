@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-12T23:15:09.741065+00:00",
+  "generated_at": "2026-08-13T00:15:34.578840+00:00",
   "window": {
-    "from": "2026-07-13",
-    "to": "2026-08-12",
+    "from": "2026-07-14",
+    "to": "2026-08-13",
     "days": 30
   },
   "data_quality": {
@@ -23,11 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
-      "earnings",
-      "merger",
-      "leadership"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,20 +31,20 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio KLAC ($17.4M)",
-      "summary": "CEO WALLACE RICHARD P vendio KLAC por $17.4M el 2026-08-11 [senal en multiples fuentes].",
+      "title": "CEO compro PNAQ ($12.5M)",
+      "summary": "CEO Hudson Steven Kenneth compro PNAQ por $12.5M el 2026-08-10.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "WALLACE RICHARD P",
+      "actor_name": "Hudson Steven Kenneth",
       "actor_type": "ceo",
-      "ticker": "KLAC",
-      "direction": "sell",
-      "amount_estimated": 17421653.6,
-      "event_date": "2026-08-11",
-      "importance_score": 85.8,
-      "cross_source_score": 25.0,
+      "ticker": "PNAQ",
+      "direction": "buy",
+      "amount_estimated": 12500000.0,
+      "event_date": "2026-08-10",
+      "importance_score": 86.3,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1196898/000119312526346811/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2147714/000121390026088545/"
     },
     {
       "id": "move_2",
@@ -102,7 +98,7 @@
       "importance_score": 84.3,
       "cross_source_score": 50.0,
       "related_news": [
-        "news_890104038065"
+        "news_252938437724"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1590836/000119312526347333/"
     },
@@ -122,7 +118,7 @@
       "importance_score": 84.3,
       "cross_source_score": 50.0,
       "related_news": [
-        "news_890104038065"
+        "news_252938437724"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1175523/000119312526347303/"
     },
@@ -165,24 +161,6 @@
     {
       "id": "move_8",
       "rank": 8,
-      "title": "CEO vendio KLAC ($6.6M)",
-      "summary": "CEO Khan Ahmad A. vendio KLAC por $6.6M el 2026-08-11 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Khan Ahmad A.",
-      "actor_type": "ceo",
-      "ticker": "KLAC",
-      "direction": "sell",
-      "amount_estimated": 6601161.0,
-      "event_date": "2026-08-11",
-      "importance_score": 83.7,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1642452/000119312526346812/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
       "title": "CEO compro PFE ($1.0M)",
       "summary": "CEO BOURLA ALBERT compro PFE por $1.0M el 2026-08-12 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -199,8 +177,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1595703/000122520826007083/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO vendio MEDP ($10.7M)",
       "summary": "CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -217,8 +195,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000006/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro PNAQ ($10.0M)",
       "summary": "10% owner RECHTSCHAFFEN ANDREW compro PNAQ por $10.0M el 2026-08-10.",
       "source": "sec_form_4",
@@ -235,8 +213,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1429442/000121390026088542/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio TSEM ($8.8M)",
       "summary": "CEO Ellwanger Russell Craig vendio TSEM por $8.8M el 2026-08-11.",
       "source": "sec_form_4",
@@ -249,10 +227,26 @@
       "event_date": "2026-08-11",
       "importance_score": 83.1,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_449035827074"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "CEO compro PNAQ ($2.2M)",
+      "summary": "CEO Hudson Steven Kenneth compro PNAQ por $2.2M el 2026-08-10.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Hudson Steven Kenneth",
+      "actor_type": "ceo",
+      "ticker": "PNAQ",
+      "direction": "buy",
+      "amount_estimated": 2250000.0,
+      "event_date": "2026-08-10",
+      "importance_score": 82.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2147714/000121390026088545/"
     },
     {
       "id": "move_13",
@@ -377,9 +371,7 @@
       "event_date": "2026-08-11",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_449035827074"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
@@ -411,6 +403,14 @@
           "congress",
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "PNAQ",
+        "company": "Pinnacle Acquisition Corp",
+        "pressure_score": 627.6,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -479,11 +479,12 @@
         ]
       },
       {
-        "ticker": "PNAQ",
-        "company": "Pinnacle Acquisition Corp",
-        "pressure_score": 234.2,
+        "ticker": "ACDC",
+        "company": "ProFrac Holding Corp.",
+        "pressure_score": 228.5,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -511,32 +512,15 @@
         ]
       },
       {
-        "ticker": "VIA",
-        "company": "Via Transportation, Inc.",
-        "pressure_score": 220.9,
+        "ticker": "XPO",
+        "company": "XPO, Inc.",
+        "pressure_score": 211.5,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "APTV",
-        "company": "Aptiv PLC",
-        "pressure_score": 219.5,
-        "sources": [
-          "corporate_insider"
+          "large_holder"
         ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 2809.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
       {
         "ticker": "ICLR",
         "company": "ICON PLC",
@@ -565,22 +549,6 @@
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 589.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DNOW",
-        "company": "DNOW Inc.",
-        "pressure_score": 507.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ACU",
-        "company": "ACME UNITED CORP",
-        "pressure_score": 478.5,
         "sources": [
           "corporate_insider"
         ]
@@ -651,10 +619,43 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "CPAY",
+        "company": "DC Corpay, Inc. Common Stock",
+        "pressure_score": 357.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "MKL",
+        "company": "DC Markel Group Inc. Common Stock",
+        "pressure_score": 355.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "actor": "Hudson Steven Kenneth",
+      "actor_type": "ceo",
+      "amount": 12500000.0,
+      "date": "2026-08-10",
+      "score": 86.3
+    },
     {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
@@ -681,6 +682,15 @@
       "amount": 10000000.0,
       "date": "2026-08-10",
       "score": 83.3
+    },
+    {
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "actor": "Hudson Steven Kenneth",
+      "actor_type": "ceo",
+      "amount": 2250000.0,
+      "date": "2026-08-10",
+      "score": 82.6
     },
     {
       "ticker": "GLIBK",
@@ -757,38 +767,20 @@
     {
       "ticker": "PNAQ",
       "company": "Pinnacle Acquisition Corp",
-      "actor": "RECHTSCHAFFEN ANDREW",
+      "actor": "PAC Sponsor, LLC",
       "actor_type": "ten_percent_owner",
       "amount": 2250000.0,
       "date": "2026-08-10",
       "score": 80.1
     },
     {
-      "ticker": "AAT",
-      "company": "American Assets Trust, Inc.",
-      "actor": "RADY ERNEST S",
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "actor": "RECHTSCHAFFEN ANDREW",
       "actor_type": "ten_percent_owner",
-      "amount": 2093305.35,
+      "amount": 2250000.0,
       "date": "2026-08-10",
-      "score": 80.0
-    },
-    {
-      "ticker": "FUN",
-      "company": "Six Flags Entertainment Corporation/NEW",
-      "actor": "Reilly John T",
-      "actor_type": "ceo",
-      "amount": 248265.4,
-      "date": "2026-08-12",
-      "score": 79.3
-    },
-    {
-      "ticker": "ACDC",
-      "company": "ProFrac Holding Corp.",
-      "actor": "Wilks Matthew",
-      "actor_type": "ceo",
-      "amount": 279484.82,
-      "date": "2026-08-10",
-      "score": 78.1
+      "score": 80.1
     }
   ],
   "institutional_changes": [
@@ -1106,6 +1098,15 @@
       "date": "2026-08-12"
     },
     {
+      "filer": "THRC Holdings, LP",
+      "company": "ProFrac Holding Corp.",
+      "ticker": "ACDC",
+      "ownership_pct": 45.0,
+      "shares": 83209008,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "Yinan Ren",
       "company": "YY Group Holding Limited",
       "ticker": "YYGH",
@@ -1187,6 +1188,15 @@
       "date": "2026-08-12"
     },
     {
+      "filer": "DC VGA LLC",
+      "company": "Turtle Beach Corporation",
+      "ticker": "TBCH",
+      "ownership_pct": 9.9,
+      "shares": 1775441,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "Lawrence E. Kurzius",
       "company": "McCORMICK & COMPANY, INCORPORATED",
       "ticker": "",
@@ -1212,24 +1222,6 @@
       "shares": 32576528,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-12"
-    },
-    {
-      "filer": "Chirag Patel",
-      "company": "Amneal Pharmaceuticals, Inc.",
-      "ticker": "AMRX",
-      "ownership_pct": 8.4,
-      "shares": 29097645,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "H/2 Special Opportunities IV L.P.",
-      "company": "DIVERSIFIED HEALTHCARE TRUST",
-      "ticker": "",
-      "ownership_pct": 4.98,
-      "shares": 12067366,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
     }
   ],
   "polymarket": {
@@ -1237,7 +1229,7 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 235831.73,
+        "pnl": 227167.8,
         "win_rate": 0.9808,
         "volume": 438870.0,
         "categories": [
@@ -1257,7 +1249,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 67167.07,
+        "pnl": 65065.05,
         "win_rate": 0.9326,
         "volume": 84823.9,
         "categories": [
@@ -1267,9 +1259,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 68743.45,
+        "pnl": 70943.32,
         "win_rate": 0.9154,
-        "volume": 503569.78,
+        "volume": 751428.48,
         "categories": [
           "sports",
           "politics"
@@ -1278,7 +1270,7 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 50894.59,
+        "pnl": 50902.48,
         "win_rate": 0.9275,
         "volume": 180572.97,
         "categories": [
@@ -1288,9 +1280,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 39756.99,
+        "pnl": 39687.5,
         "win_rate": 0.92,
-        "volume": 17992.01,
+        "volume": 19562.81,
         "categories": [
           "crypto"
         ]
@@ -1298,9 +1290,9 @@
       {
         "wallet": "0x7ad71d79a3",
         "username": "theowalcott",
-        "pnl": 68130.94,
+        "pnl": 85712.35,
         "win_rate": 1.0,
-        "volume": 110408.88,
+        "volume": 439920.92,
         "categories": [
           "sports"
         ]
@@ -1308,9 +1300,9 @@
       {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 79787.52,
-        "win_rate": 0.8475,
-        "volume": 229547.08,
+        "pnl": 79780.14,
+        "win_rate": 0.8483,
+        "volume": 229552.94,
         "categories": [
           "sports"
         ]
@@ -1328,9 +1320,9 @@
       {
         "wallet": "0x7011871509",
         "username": "Electricy",
-        "pnl": 46958.52,
+        "pnl": 49586.66,
         "win_rate": 0.856,
-        "volume": 112514.88,
+        "volume": 113418.9,
         "categories": [
           "sports",
           "crypto",
@@ -1342,9 +1334,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 454770.7,
-        "win_rate": 0.654,
-        "volume": 7199727.4,
+        "pnl": 429473.05,
+        "win_rate": 0.652,
+        "volume": 7371201.24,
         "categories": [
           "sports",
           "crypto"
@@ -1353,9 +1345,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 269031.67,
-        "win_rate": 0.583,
-        "volume": 9113851.42,
+        "pnl": 268800.24,
+        "win_rate": 0.586,
+        "volume": 9669564.48,
         "categories": [
           "sports"
         ]
@@ -1373,19 +1365,9 @@
       {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 340208.52,
+        "pnl": 346066.08,
         "win_rate": 0.4937,
-        "volume": 1463328.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0954184654",
-        "username": "0x0954184654A6A3720f5DDE4103A42aF4Dd0e1e1B-1785596053509",
-        "pnl": 43734.6,
-        "win_rate": 1.0,
-        "volume": 819932.86,
+        "volume": 1558554.45,
         "categories": [
           "sports"
         ]
@@ -1393,9 +1375,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 50321.33,
+        "pnl": 50320.98,
         "win_rate": 0.519,
-        "volume": 1676033.25,
+        "volume": 1676063.25,
         "categories": [
           "sports",
           "politics"
@@ -1404,9 +1386,9 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 86037.57,
+        "pnl": 119363.76,
         "win_rate": 0.7374,
-        "volume": 1307809.36,
+        "volume": 1308017.76,
         "categories": [
           "sports",
           "crypto"
@@ -1415,9 +1397,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 218971.18,
-        "win_rate": 0.664,
-        "volume": 1208023.54,
+        "pnl": 216399.08,
+        "win_rate": 0.665,
+        "volume": 1382680.74,
         "categories": [
           "sports"
         ]
@@ -1425,7 +1407,7 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 235831.73,
+        "pnl": 227167.8,
         "win_rate": 0.9808,
         "volume": 438870.0,
         "categories": [
@@ -1433,45 +1415,34 @@
         ]
       },
       {
-        "wallet": "0xf23c5bc7b5",
-        "username": "ActionReaction",
-        "pnl": 108919.73,
-        "win_rate": 0.8571,
-        "volume": 377509.73,
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 85712.35,
+        "win_rate": 1.0,
+        "volume": 439920.92,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 70943.32,
+        "win_rate": 0.9154,
+        "volume": 751428.48,
+        "categories": [
+          "sports",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "CoreWeave Deal Challenges Nvidia AI Chip Obsolescence Fears",
-      "url": "https://www.businessinsider.com/coreweave-deal-challenges-nvidia-ai-chip-obsolescence-fears-2026-8",
-      "ticker": "CRWV",
+      "title": "Is Wall Street Bullish or Bearish on Datadog Stock ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-datadog-122206564.html",
+      "ticker": "DDOG",
       "themes": [
-        "ai",
-        "merger"
-      ],
-      "date": "2026-08-12"
-    },
-    {
-      "title": "S & P 500 , Nasdaq rise as CoreWeave earnings boost AI stocks | Honolulu Star - Advertiser",
-      "url": "https://www.staradvertiser.com/2026/08/12/breaking-news/sp-500-nasdaq-rise-as-coreweave-earnings-boost-ai-stocks/",
-      "ticker": "CRWV",
-      "themes": [
-        "earnings",
-        "ai",
-        "stock"
-      ],
-      "date": "2026-08-12"
-    },
-    {
-      "title": "CoreWeave ( NASDAQ : CRWV ) Shares Up 19 . 3 % Following Better - Than - Expected Earnings",
-      "url": "https://www.themarketsdaily.com/2026/08/12/coreweave-nasdaqcrwv-shares-up-19-3-following-better-than-expected-earnings.html",
-      "ticker": "CRWV",
-      "themes": [
-        "earnings",
         "stock"
       ],
       "date": "2026-08-12"
@@ -1484,20 +1455,9 @@
         "stock"
       ],
       "date": "2026-08-12"
-    },
-    {
-      "title": "Tower Semiconductor ( NASDAQ : TSEM ) CEO Sells $25 , 883 , 484 . 84 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13540513/tower-semiconductor-nasdaqtsem-ceo-sells-25883484-84-in-stock.html",
-      "ticker": "TSEM",
-      "themes": [
-        "ai",
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-12"
     }
   ],
-  "signals_count": 1825,
+  "signals_count": 1727,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

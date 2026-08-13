@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-12T23:16:00+00:00",
+  "generated_at": "2026-08-13T00:16:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
+    "GLD": 0.0932,
     "IEF": 0.0622,
-    "AVBC": 0.0552,
-    "FWONK": 0.055,
-    "AMRX": 0.0418,
-    "LTH": 0.0361,
-    "GLIBK": 0.0348,
-    "MTDR": 0.0341,
-    "CHRW": 0.0319,
-    "DUOL": 0.0213,
-    "CRWV": 0.0139,
-    "RAPP": 0.0103
+    "AVBC": 0.0519,
+    "FWONK": 0.0479,
+    "AMRX": 0.038,
+    "CARR": 0.0325,
+    "LTH": 0.0324,
+    "MTDR": 0.0322,
+    "GLIBK": 0.0306,
+    "CHRW": 0.0271,
+    "RAPP": 0.0251,
+    "ACDC": 0.0171
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "GLIBK": 0.0309,
-    "FWONK": 0.0489,
-    "MTDR": 0.0303,
-    "AMRX": 0.0372,
-    "LTH": 0.0321,
-    "AVBC": 0.0491,
-    "DUOL": 0.0189,
-    "CHRW": 0.0284,
-    "CRWV": 0.0124,
-    "RAPP": 0.0092
+    "GLIBK": 0.0272,
+    "FWONK": 0.0426,
+    "MTDR": 0.0286,
+    "AMRX": 0.0338,
+    "LTH": 0.0288,
+    "ACDC": 0.0152,
+    "AVBC": 0.0461,
+    "CHRW": 0.0241,
+    "RAPP": 0.0223,
+    "CARR": 0.0289
   },
   "satellite_rationale": [
     {
@@ -83,18 +83,19 @@
       "n_signals": 3
     },
     {
+      "ticker": "ACDC",
+      "score": 193.8,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "AVBC",
       "score": 144.8,
       "sources": [
         "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "DUOL",
-      "score": 143.6,
-      "sources": [
-        "large_holder"
       ],
       "n_signals": 2
     },
@@ -107,7 +108,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "CRWV",
+      "ticker": "RAPP",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -115,7 +116,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "RAPP",
+      "ticker": "CARR",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -124,17 +125,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0906,
-    "var_95_1d": 0.0092,
-    "cvar_95_1d": 0.0115,
-    "max_drawdown": -0.0565,
-    "beta_spy": 0.571,
-    "hhi": 0.069,
+    "ann_vol": 0.0975,
+    "var_95_1d": 0.0108,
+    "cvar_95_1d": 0.0127,
+    "max_drawdown": -0.0511,
+    "beta_spy": 0.578,
+    "hhi": 0.0679,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.8499,
-    "days_used": 254
+    "effective_positions": 14.7,
+    "gross_exposure": 0.8502,
+    "days_used": 124
   },
   "risk_gate": {
     "passed": true,
