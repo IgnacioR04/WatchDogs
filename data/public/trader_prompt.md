@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-13T03:02:24+00:00 -->
+<!-- trader_prompt.md generado 2026-08-13T05:17:41+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T03:02:23+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T05:17:41+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,16 +257,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 723.7 | 0.73% | 0.89% | 0.83% |
 | TLT | 12.0% | core | 82.11 | -0.1% | -1.07% | -2.14% |
 | GLD | 9.3% | core | 404.92 | 0.99% | 3.92% | 8.75% |
-| IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.53% |
-| AVBC | 5.2% | satellite | 22.14 | 3.99% | 4.29% | 8.64% |
-| FWONK | 4.9% | satellite | 103.61 | 0.86% | 7.45% | 2.72% |
-| AMRX | 3.9% | satellite | 17.66 | 3.27% | -4.33% | 2.67% |
-| CARR | 3.3% | satellite | 63.08 | -0.57% | -3.97% | -9.25% |
-| LTH | 3.3% | satellite | 43.82 | 0.02% | -3.29% | 4.33% |
-| MTDR | 3.2% | satellite | 52.51 | 0.54% | 8.43% | 0.83% |
-| GLIBK | 3.1% | satellite | 25.71 | 1.7% | 7.44% | 19.36% |
-| CHRW | 2.8% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
-| DUOL | 2.3% | satellite | 134.63 | -1.87% | -2.26% | 4.89% |
+| IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.29% |
+| AVBC | 5.3% | satellite | 22.14 | 3.22% | 1.84% | 8.16% |
+| FWONK | 4.9% | satellite | 103.61 | 1.2% | 7.87% | 7.78% |
+| AMRX | 3.9% | satellite | 17.66 | 3.27% | -4.33% | 2.79% |
+| CARR | 3.3% | satellite | 63.08 | -0.85% | -3.59% | -9.25% |
+| LTH | 3.3% | satellite | 43.82 | 0.02% | -3.29% | 4.61% |
+| MTDR | 3.3% | satellite | 52.51 | -0.21% | 12.51% | -0.37% |
+| GLIBK | 3.1% | satellite | 25.71 | 3.13% | 9.45% | 14.57% |
+| CHRW | 2.8% | satellite | 146.7 | 1.1% | -4.49% | -24.19% |
+| DUOL | 2.3% | satellite | 134.63 | -0.6% | -0.51% | 4.89% |
 | CRWV | 1.4% | satellite | 107.73 | 19.28% | 19.85% | 39.69% |
 
 **Metricas de riesgo de esta cartera:**
@@ -274,7 +274,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Volatilidad anualizada: 10.0%
 - VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.2%
 - Max drawdown historico: -5.9%
-- Beta vs SPY: 0.609 · posiciones efectivas: 14.7 · HHI: 0.0681
+- Beta vs SPY: 0.608 · posiciones efectivas: 14.7 · HHI: 0.0681
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -336,10 +336,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 302.71 (0.57% / 0.98% / 2.35%) [2026-08-12]
 - DIA: 537.15 (-0.02% / -1.04% / 2.16%) [2026-08-12]
 - TLT: 82.11 (-0.1% / -1.07% / -2.14%) [2026-08-12]
-- IEF: 92.96 (0.1% / -0.38% / -0.53%) [2026-08-12]
+- IEF: 92.96 (0.1% / -0.38% / -0.29%) [2026-08-12]
 - GLD: 404.92 (0.99% / 3.92% / 8.75%) [2026-08-12]
-- ^VIX: 14.55 (-4.78% / -7.97% / -7.15%) [2026-08-12]
-- BTC-USD: 63486.01 (-0.1% / -2.15% / -2.4%) [2026-08-13]
+- ^VIX: 14.55 (-4.78% / -7.97% / -3.19%) [2026-08-12]
+- BTC-USD: 63872.27 (0.5% / -1.55% / -1.8%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (7), stock (6), regulatory (3), ai (1), leadership (1)
+**Temas dominantes**: stock (12), ai (5), leadership (2), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AEVA] Aeva Technologies ( NASDAQ : AEVA ) CTO Sells $2 , 401 , 000 . 00 in Stock (2026-08-13)
-- [AEVA] Aeva ( AEVA ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [DDOG] Is Wall Street Bullish or Bearish on Datadog Stock ? (2026-08-12)
-- [TSEM] Tower Semiconductor ( NASDAQ : TSEM ) CEO Sells $25 , 883 , 484 . 84 in Stock (2026-08-12)
-- [AEVA] Aeva Technologies ( NASDAQ : AEVA ) Shares Gap Up After Analyst Upgrade (2026-08-08)
-- [AEVA] Equities Research Analyst Price Target Changes for August 6th ( ABCL , ADV , AESI , AEVA , AMD , AMPL , APD , APLD , APP , ARDT ) (2026-08-06)
-- [AEVA] Why Did Aeva Stock Soar After Earnings ? (2026-08-06)
-- [AEVA] Why Did Aeva Stock Soar After Earnings ? (2026-08-06)
-- [TAK] U . S . FDA Approves Takeda ORZEYFUL™ ( oveporexton ), the First and Only Medicine to Treat the Underlying Cause of Narcolepsy Type 1 (2026-08-05)
-- [TAK] U . S . FDA Approves Takeda ORZEYFUL™ ( oveporexton ), the First and Only Medicine to Treat the Underlying Cause of Narcolepsy Type 1 (2026-08-05)
+- [CRWV] AI cloud provider CoreWeave reports $104bn backlog and raises capex target (2026-08-13)
+- [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock (2026-08-13)
+- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares (2026-08-13)
+- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 165 , 393 Shares of Stock (2026-08-13)
+- [TAK] Elaine Mary Shannon Sells 3 , 978 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
+- [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 47 , 586 Shares (2026-08-13)
+- [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
+- [APPF] AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares (2026-08-13)
+- [APPF] Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-08-13)
+- [CGNX] Cognex ( CGNX ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,11 +382,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- GoldenAlpha168 · PnL $19,594 · win rate 100% · categorias: sports
-- steevenseakael · PnL $12,661 · win rate 98% · categorias: sports
-- dex57 · PnL $9,250 · win rate 99% · categorias: sports
-- 0xd485Cb3aFE838F3DdfdAC69fc14d3b7109E6E57 · PnL $12,575 · win rate 97% · categorias: sports
-- rollobravado · PnL $5,495 · win rate 99% · categorias: sports, politics
+- GoldenAlpha168 · PnL $60,659 · win rate 100% · categorias: sports
+- theowalcott · PnL $164,957 · win rate 100% · categorias: sports
+- steevenseakael · PnL $14,317 · win rate 98% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $15,833 · win rate 98% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $18,347 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
