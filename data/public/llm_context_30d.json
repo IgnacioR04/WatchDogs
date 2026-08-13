@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-13T00:15:34.578840+00:00",
+  "generated_at": "2026-08-13T03:01:22.890150+00:00",
   "window": {
     "from": "2026-07-14",
     "to": "2026-08-13",
@@ -23,7 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "earnings",
+      "stock",
+      "regulatory",
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -67,64 +71,6 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "10% owner vendio CRBG ($491.1M)",
-      "summary": "10% owner Argon Holdco LLC vendio CRBG por $491.1M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Argon Holdco LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CRBG",
-      "direction": "sell",
-      "amount_estimated": 491115000.0,
-      "event_date": "2026-08-10",
-      "importance_score": 84.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1070844/000119312526347014/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
-      "title": "Director vendio LTH ($220.9M)",
-      "summary": "Director Galashan John Kristofer vendio LTH por $220.9M el 2026-08-10 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Galashan John Kristofer",
-      "actor_type": "director",
-      "ticker": "LTH",
-      "direction": "sell",
-      "amount_estimated": 220940312.84,
-      "event_date": "2026-08-10",
-      "importance_score": 84.3,
-      "cross_source_score": 50.0,
-      "related_news": [
-        "news_252938437724"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1590836/000119312526347333/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "Director vendio LTH ($216.9M)",
-      "summary": "Director Green LTF Holdings II LP vendio LTH por $216.9M el 2026-08-10 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Green LTF Holdings II LP",
-      "actor_type": "director",
-      "ticker": "LTH",
-      "direction": "sell",
-      "amount_estimated": 216911413.16,
-      "event_date": "2026-08-10",
-      "importance_score": 84.3,
-      "cross_source_score": 50.0,
-      "related_news": [
-        "news_252938437724"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1175523/000119312526347303/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
       "title": "CEO vendio MLI ($13.7M)",
       "summary": "CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -141,8 +87,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000005/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO compro COE ($3.9M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.",
       "source": "sec_form_4",
@@ -159,8 +105,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO compro PFE ($1.0M)",
       "summary": "CEO BOURLA ALBERT compro PFE por $1.0M el 2026-08-12 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -177,8 +123,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1595703/000122520826007083/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio MEDP ($10.7M)",
       "summary": "CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -195,8 +141,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000006/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro PNAQ ($10.0M)",
       "summary": "10% owner RECHTSCHAFFEN ANDREW compro PNAQ por $10.0M el 2026-08-10.",
       "source": "sec_form_4",
@@ -213,8 +159,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1429442/000121390026088542/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio TSEM ($8.8M)",
       "summary": "CEO Ellwanger Russell Craig vendio TSEM por $8.8M el 2026-08-11.",
       "source": "sec_form_4",
@@ -227,12 +173,14 @@
       "event_date": "2026-08-11",
       "importance_score": 83.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_400932148262"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro PNAQ ($2.2M)",
       "summary": "CEO Hudson Steven Kenneth compro PNAQ por $2.2M el 2026-08-10.",
       "source": "sec_form_4",
@@ -249,8 +197,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2147714/000121390026088545/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO vendio TWST ($14.2M)",
       "summary": "CEO Leproust Emily M. vendio TWST por $14.2M el 2026-08-10.",
       "source": "sec_form_4",
@@ -267,8 +215,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753655/000121465926009994/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_11",
+      "rank": 11,
       "title": "10% owner compro GLIBK ($6.5M)",
       "summary": "10% owner MALONE JOHN C compro GLIBK por $6.5M el 2026-08-10.",
       "source": "sec_form_4",
@@ -285,8 +233,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/937797/000122520826007097/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO compro PRMB ($2.0M)",
       "summary": "CEO FOSS ERIC J compro PRMB por $2.0M el 2026-08-10.",
       "source": "sec_form_4",
@@ -303,8 +251,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1197007/000149315226037375/"
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO compro COE ($2.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -321,8 +269,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_14",
+      "rank": 14,
       "title": "CEO vendio PSX ($6.5M)",
       "summary": "CEO Mandell Brian vendio PSX por $6.5M el 2026-08-11.",
       "source": "sec_form_4",
@@ -339,8 +287,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1641265/000164126526000010/"
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_15",
+      "rank": 15,
       "title": "CEO compro COE ($1.8M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.8M el 2026-08-07.",
       "source": "sec_form_4",
@@ -357,8 +305,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_16",
+      "rank": 16,
       "title": "CEO vendio TSEM ($5.7M)",
       "summary": "CEO Ellwanger Russell Craig vendio TSEM por $5.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -371,12 +319,14 @@
       "event_date": "2026-08-11",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_400932148262"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_17",
+      "rank": 17,
       "title": "CEO vendio MLI ($4.9M)",
       "summary": "CEO Christopher Gregory L. vendio MLI por $4.9M el 2026-08-11.",
       "source": "sec_form_4",
@@ -391,20 +341,64 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000005/"
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "10% owner compro AAT ($2.3M)",
+      "summary": "10% owner RADY ERNEST S compro AAT por $2.3M el 2026-08-11.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "RADY ERNEST S",
+      "actor_type": "ten_percent_owner",
+      "ticker": "AAT",
+      "direction": "buy",
+      "amount_estimated": 2252000.0,
+      "event_date": "2026-08-11",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1221359/000122135926000037/"
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
+      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 40145783473,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 35477573797,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
-      {
-        "ticker": "LTH",
-        "company": "Life Time Group Holdings, Inc.",
-        "pressure_score": 637.1,
-        "sources": [
-          "congress",
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
       {
         "ticker": "PNAQ",
         "company": "Pinnacle Acquisition Corp",
@@ -414,9 +408,26 @@
         ]
       },
       {
+        "ticker": "LTH",
+        "company": "Life Time Group Holdings, Inc.",
+        "pressure_score": 625.0,
+        "sources": [
+          "congress",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "AVBC",
         "company": "Avidia Bancorp, Inc.",
         "pressure_score": 471.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HEPA",
+        "company": "Hepion Pharmaceuticals, Inc.",
+        "pressure_score": 411.9,
         "sources": [
           "corporate_insider"
         ]
@@ -504,23 +515,24 @@
         ]
       },
       {
-        "ticker": "MNST",
-        "company": "Common Stock",
-        "pressure_score": 221.3,
+        "ticker": "NMM",
+        "company": "Navios Maritime Partners L.P.",
+        "pressure_score": 221.8,
         "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "XPO",
-        "company": "XPO, Inc.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 2809.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
       {
         "ticker": "ICLR",
         "company": "ICON PLC",
@@ -546,9 +558,42 @@
         ]
       },
       {
+        "ticker": "CRWD",
+        "company": "Common Stock",
+        "pressure_score": 1263.8,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TAK",
+        "company": "TAKEDA PHARMACEUTICAL CO LTD",
+        "pressure_score": 1143.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AEVA",
+        "company": "Aeva Technologies, Inc.",
+        "pressure_score": 812.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 589.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WDC",
+        "company": "WESTERN DIGITAL CORP",
+        "pressure_score": 549.1,
         "sources": [
           "corporate_insider"
         ]
@@ -578,30 +623,11 @@
         ]
       },
       {
-        "ticker": "LTH",
-        "company": "Life Time Group Holdings, Inc.",
-        "pressure_score": 402.3,
-        "sources": [
-          "congress",
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "MAX",
         "company": "MediaAlpha, Inc.",
         "pressure_score": 402.3,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RAPP",
-        "company": "Rapport Therapeutics, Inc.",
-        "pressure_score": 385.4,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -613,35 +639,11 @@
         ]
       },
       {
-        "ticker": "VECO",
-        "company": "VEECO INSTRUMENTS INC",
-        "pressure_score": 359.7,
+        "ticker": "GCT",
+        "company": "GigaCloud Technology Inc",
+        "pressure_score": 365.1,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CPAY",
-        "company": "DC Corpay, Inc. Common Stock",
-        "pressure_score": 357.6,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MKL",
-        "company": "DC Markel Group Inc. Common Stock",
-        "pressure_score": 355.4,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "SCI",
-        "company": "Common Stock",
-        "pressure_score": 352.4,
-        "sources": [
-          "congress"
         ]
       }
     ]
@@ -975,14 +977,6 @@
       "score": 66.5
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-07-31",
-      "score": 66.2
-    },
-    {
       "politician": "James A. Himes",
       "ticker": "XOM",
       "direction": "sell",
@@ -997,6 +991,14 @@
       "amount": 50000,
       "date": "2026-07-20",
       "score": 65.2
+    },
+    {
+      "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-07-31",
+      "score": 65.0
     },
     {
       "politician": "April McClain Delaney",
@@ -1071,20 +1073,20 @@
       "score": 63.7
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
+      "politician": "Michael Rulli",
+      "ticker": "CCI",
+      "direction": "sell",
       "amount": 15000,
-      "date": "2026-07-28",
-      "score": 63.6
+      "date": "2026-08-06",
+      "score": 62.6
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
+      "politician": "Pete Sessions",
+      "ticker": "ARCC",
+      "direction": "sell",
       "amount": 15000,
-      "date": "2026-07-29",
-      "score": 63.6
+      "date": "2026-07-24",
+      "score": 62.6
     }
   ],
   "large_holders": [
@@ -1179,6 +1181,33 @@
       "date": "2026-08-12"
     },
     {
+      "filer": "Jeffrey Harmon",
+      "company": "Angel Studios, Inc.",
+      "ticker": "ANGX",
+      "ownership_pct": 11.9,
+      "shares": 17532335,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "Neal Harmon",
+      "company": "Angel Studios, Inc.",
+      "ticker": "ANGX",
+      "ownership_pct": 11.8,
+      "shares": 17344753,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
+      "filer": "TORO 18 HOLDINGS LLC",
+      "company": "UNIVERSAL ELECTRONICS INC",
+      "ticker": "UEIC",
+      "ownership_pct": 10.4,
+      "shares": 1344647,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-12"
+    },
+    {
       "filer": "Bryan S. Ganz",
       "company": "Byrna Technologies Inc.",
       "ticker": "BYRN",
@@ -1195,138 +1224,113 @@
       "shares": 1775441,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-12"
-    },
-    {
-      "filer": "Lawrence E. Kurzius",
-      "company": "McCORMICK & COMPANY, INCORPORATED",
-      "ticker": "",
-      "ownership_pct": 9.9,
-      "shares": 1590319,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "Bain Capital Prairie, LLC",
-      "company": "Lincoln National Corporation",
-      "ticker": "",
-      "ownership_pct": 9.8,
-      "shares": 18759497,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "Chintu Patel",
-      "company": "Amneal Pharmaceuticals, Inc.",
-      "ticker": "AMRX",
-      "ownership_pct": 9.4,
-      "shares": 32576528,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 227167.8,
-        "win_rate": 0.9808,
-        "volume": 438870.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 143459.43,
+        "wallet": "0x9ba8d25a05",
+        "username": "GoldenAlpha168",
+        "pnl": 19594.4,
         "win_rate": 1.0,
-        "volume": 300380.94,
+        "volume": 50062.4,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 65065.05,
-        "win_rate": 0.9326,
-        "volume": 84823.9,
+        "wallet": "0xe55aab114e",
+        "username": "steevenseakael",
+        "pnl": 12661.27,
+        "win_rate": 0.9844,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 70943.32,
-        "win_rate": 0.9154,
-        "volume": 751428.48,
+        "wallet": "0x55055c82f4",
+        "username": "dex57",
+        "pnl": 9249.68,
+        "win_rate": 0.994,
+        "volume": 8304.81,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xd8b4d1e58d",
+        "username": "0xd485Cb3aFE838F3DdfdAC69fc14d3b7109E6E57",
+        "pnl": 12574.64,
+        "win_rate": 0.9683,
+        "volume": 77830.36,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3b62c64eba",
+        "username": "rollobravado",
+        "pnl": 5495.0,
+        "win_rate": 0.9921,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 50902.48,
-        "win_rate": 0.9275,
-        "volume": 180572.97,
+        "wallet": "0x9c76cdb43f",
+        "username": "Bagwell306",
+        "pnl": 6671.57,
+        "win_rate": 0.934,
+        "volume": 11100.86,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 39687.5,
-        "win_rate": 0.92,
-        "volume": 19562.81,
+        "wallet": "0x9f15613ebf",
+        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+        "pnl": 7376.08,
+        "win_rate": 0.9,
+        "volume": 35123.84,
         "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xe8c4d68aff",
+        "username": "JAMJAMJAM4",
+        "pnl": 6196.28,
+        "win_rate": 0.905,
+        "volume": 10.53,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xc3acf5878a",
+        "username": "mentionmarket",
+        "pnl": 173850.0,
+        "win_rate": 0.6823,
+        "volume": 300000.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe337f5a28e",
+        "username": "0xE337F5A28E9C530a676C959A1888Ba5368664ad6-1779639269540",
+        "pnl": 10988.25,
+        "win_rate": 0.857,
+        "volume": 204613.63,
+        "categories": [
+          "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7ad71d79a3",
-        "username": "theowalcott",
-        "pnl": 85712.35,
-        "win_rate": 1.0,
-        "volume": 439920.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 79780.14,
-        "win_rate": 0.8483,
-        "volume": 229552.94,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 58981.98,
-        "win_rate": 0.8594,
-        "volume": 188978.99,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7011871509",
-        "username": "Electricy",
-        "pnl": 49586.66,
-        "win_rate": 0.856,
-        "volume": 113418.9,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
         ]
       }
     ],
@@ -1334,9 +1338,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 429473.05,
-        "win_rate": 0.652,
-        "volume": 7371201.24,
+        "pnl": 147665.15,
+        "win_rate": 0.649,
+        "volume": 876446.53,
         "categories": [
           "sports",
           "crypto"
@@ -1345,19 +1349,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 268800.24,
-        "win_rate": 0.586,
-        "volume": 9669564.48,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4b341d4612",
-        "username": "musholius722",
-        "pnl": 217134.27,
-        "win_rate": 0.5,
-        "volume": 1116547.8,
+        "pnl": 44567.0,
+        "win_rate": 0.608,
+        "volume": 1709139.8,
         "categories": [
           "sports"
         ]
@@ -1365,79 +1359,106 @@
       {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 346066.08,
-        "win_rate": 0.4937,
-        "volume": 1558554.45,
+        "pnl": 93146.86,
+        "win_rate": 0.4828,
+        "volume": 539786.2,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "Lakersfan111",
-        "pnl": 50320.98,
-        "win_rate": 0.519,
-        "volume": 1676063.25,
+        "wallet": "0xc3acf5878a",
+        "username": "mentionmarket",
+        "pnl": 173850.0,
+        "win_rate": 0.6823,
+        "volume": 300000.0,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 6394.94,
+        "win_rate": 0.545,
+        "volume": 1088226.14,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 119363.76,
-        "win_rate": 0.7374,
-        "volume": 1308017.76,
+        "pnl": 49720.6,
+        "win_rate": 0.7391,
+        "volume": 389538.76,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 15898.85,
+        "win_rate": 0.554,
+        "volume": 610315.59,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 112326.92,
+        "win_rate": 0.4761,
+        "volume": 153885.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 216399.08,
-        "win_rate": 0.665,
-        "volume": 1382680.74,
+        "pnl": 127601.85,
+        "win_rate": 0.667,
+        "volume": 380687.28,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 227167.8,
-        "win_rate": 0.9808,
-        "volume": 438870.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7ad71d79a3",
-        "username": "theowalcott",
-        "pnl": 85712.35,
-        "win_rate": 1.0,
-        "volume": 439920.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 70943.32,
-        "win_rate": 0.9154,
-        "volume": 751428.48,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 22606.51,
+        "win_rate": 0.53,
+        "volume": 514902.57,
         "categories": [
           "sports",
-          "politics"
+          "economy"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Aeva Technologies ( NASDAQ : AEVA ) CTO Sells $2 , 401 , 000 . 00 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/12/aeva-technologies-nasdaqaeva-cto-sells-2401000-00-in-stock.html",
+      "ticker": "AEVA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Aeva ( AEVA ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/aeva-aeva-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "AEVA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
+    },
     {
       "title": "Is Wall Street Bullish or Bearish on Datadog Stock ? ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-datadog-122206564.html",
@@ -1448,16 +1469,93 @@
       "date": "2026-08-12"
     },
     {
-      "title": "Ariana Grande shares big life update that counters fan health concerns",
-      "url": "https://www.thenews.com.pk/latest/1412083-ariana-grande-shares-big-life-update-that-counters-fans-health-concerns",
-      "ticker": "LTH",
+      "title": "Tower Semiconductor ( NASDAQ : TSEM ) CEO Sells $25 , 883 , 484 . 84 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13540513/tower-semiconductor-nasdaqtsem-ceo-sells-25883484-84-in-stock.html",
+      "ticker": "TSEM",
       "themes": [
+        "ai",
+        "leadership",
         "stock"
       ],
       "date": "2026-08-12"
+    },
+    {
+      "title": "Aeva Technologies ( NASDAQ : AEVA ) Shares Gap Up After Analyst Upgrade",
+      "url": "https://www.themarketsdaily.com/2026/08/08/aeva-technologies-nasdaqaeva-shares-gap-up-after-analyst-upgrade.html",
+      "ticker": "AEVA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Equities Research Analyst Price Target Changes for August 6th ( ABCL , ADV , AESI , AEVA , AMD , AMPL , APD , APLD , APP , ARDT ) ",
+      "url": "https://www.dailypolitical.com/2026/08/06/equities-research-analysts-price-target-changes-for-august-6th-abcl-adv-aesi-aeva-amd-ampl-apd-apld-app-ardt.html",
+      "ticker": "AEVA",
+      "themes": [],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Why Did Aeva Stock Soar After Earnings ? ",
+      "url": "https://www.fool.com/investing/2026/08/06/why-did-aeva-stock-soar-after-earnings/?source=iedfolrf0000001",
+      "ticker": "AEVA",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Why Did Aeva Stock Soar After Earnings ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-aeva-stock-soar-160504114.html",
+      "ticker": "AEVA",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-06"
+    },
+    {
+      "title": "U . S . FDA Approves Takeda ORZEYFUL™ ( oveporexton ), the First and Only Medicine to Treat the Underlying Cause of Narcolepsy Type 1",
+      "url": "https://leaderpost.com/press-releases/business-wire/u-s-fda-approves-takedas-orzeyful-oveporexton-the-first-and-only-medicine-to-treat-the-underlying-cause-of-narcolepsy-type-1/",
+      "ticker": "TAK",
+      "themes": [
+        "earnings",
+        "regulatory"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "U . S . FDA Approves Takeda ORZEYFUL™ ( oveporexton ), the First and Only Medicine to Treat the Underlying Cause of Narcolepsy Type 1",
+      "url": "https://thestarphoenix.com/press-releases/business-wire/u-s-fda-approves-takedas-orzeyful-oveporexton-the-first-and-only-medicine-to-treat-the-underlying-cause-of-narcolepsy-type-1/",
+      "ticker": "TAK",
+      "themes": [
+        "earnings",
+        "regulatory"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "U . S . FDA Approves Takeda ORZEYFUL™ ( oveporexton ), the First and Only Medicine to Treat the Underlying Cause of Narcolepsy Type 1",
+      "url": "https://montrealgazette.com/press-releases/business-wire/u-s-fda-approves-takedas-orzeyful-oveporexton-the-first-and-only-medicine-to-treat-the-underlying-cause-of-narcolepsy-type-1/",
+      "ticker": "TAK",
+      "themes": [
+        "earnings",
+        "regulatory"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Takeda Pharmaceutical ( NYSE : TAK ) Updates FY 2026 Earnings Guidance",
+      "url": "https://www.dailypolitical.com/2026/07/30/takeda-pharmaceutical-nysetak-updates-fy-2026-earnings-guidance.html",
+      "ticker": "TAK",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-07-30"
     }
   ],
-  "signals_count": 1727,
+  "signals_count": 1851,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
