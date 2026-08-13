@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-13T10:36:30+00:00 -->
+<!-- trader_prompt.md generado 2026-08-13T12:15:23+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T10:36:30+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T12:15:23+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.6)
+- Volatilidad: `calm` (VIX 14.56)
 - Tendencia: `bull` (SPY 772.49 · MA50 747.66 · MA200 701.74 · dist MA200: 10.08%)
 - Credito: `tight` (HY spread 2.72)
 - Tipos: `flat` (curva 10y-2y 0.48)
@@ -258,23 +258,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 82.11 | -0.1% | -1.07% | -2.14% |
 | GLD | 9.3% | core | 404.92 | 0.99% | 3.92% | 8.75% |
 | IEF | 6.2% | core | 92.96 | 0.1% | -0.38% | -0.53% |
-| FWONK | 5.1% | satellite | 103.61 | 1.2% | 7.87% | 3.61% |
-| AVBC | 5.1% | satellite | 22.14 | 3.22% | 1.84% | 9.23% |
-| AMRX | 3.9% | satellite | 17.66 | 3.27% | -4.33% | 2.67% |
-| CARR | 3.6% | satellite | 63.08 | -0.85% | -3.59% | -7.9% |
-| LTH | 3.3% | satellite | 43.82 | 0.02% | -3.29% | 4.33% |
-| GLIBK | 3.2% | satellite | 25.71 | 3.13% | 9.45% | 14.57% |
-| MTDR | 3.1% | satellite | 52.51 | -0.21% | 12.51% | 0.52% |
-| CHRW | 2.9% | satellite | 146.7 | 1.1% | -4.49% | -25.72% |
-| DUOL | 2.0% | satellite | 134.63 | -0.6% | -0.51% | 4.89% |
+| FWONK | 5.2% | satellite | 103.61 | 1.2% | 7.87% | 3.61% |
+| AVBC | 5.2% | satellite | 22.14 | 3.22% | 1.84% | 9.23% |
+| AMRX | 3.9% | satellite | 17.66 | 3.27% | -4.33% | 2.79% |
+| CARR | 3.6% | satellite | 63.08 | -0.85% | -3.59% | -9.25% |
+| LTH | 3.4% | satellite | 43.82 | 0.02% | -3.29% | 4.61% |
+| GLIBK | 3.2% | satellite | 25.71 | 3.13% | 9.45% | 17.24% |
+| MTDR | 3.2% | satellite | 52.51 | -0.21% | 12.51% | -0.37% |
+| CHRW | 3.0% | satellite | 146.7 | 1.1% | -4.49% | -24.19% |
+| ACDC | 1.4% | satellite | 5.14 | -2.47% | 14.1% | 2.8% |
 | CRWV | 1.3% | satellite | 107.73 | 19.28% | 19.85% | 39.69% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 9.0%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -6.0%
-- Beta vs SPY: 0.588 · posiciones efectivas: 14.6 · HHI: 0.0683
+- Max drawdown historico: -5.4%
+- Beta vs SPY: 0.583 · posiciones efectivas: 14.6 · HHI: 0.0685
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -283,8 +283,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **MTDR** · score agregado 223.1 · 3 señales · fuentes: corporate_insider
 - **AMRX** · score agregado 210.6 · 3 señales · fuentes: large_holder
 - **LTH** · score agregado 197.2 · 3 señales · fuentes: congress, large_holder
+- **ACDC** · score agregado 193.8 · 3 señales · fuentes: corporate_insider, large_holder
 - **AVBC** · score agregado 144.8 · 2 señales · fuentes: corporate_insider
-- **DUOL** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **CRWV** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CARR** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -338,8 +338,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.11 (-0.1% / -1.07% / -2.14%) [2026-08-12]
 - IEF: 92.96 (0.1% / -0.38% / -0.53%) [2026-08-12]
 - GLD: 404.92 (0.99% / 3.92% / 8.75%) [2026-08-12]
-- ^VIX: 14.6 (0.34% / -3.63% / -14.92%) [2026-08-13]
-- BTC-USD: 63547.28 (0.23% / -2.09% / -0.86%) [2026-08-13]
+- ^VIX: 14.56 (0.07% / -3.89% / -15.15%) [2026-08-13]
+- BTC-USD: 63487.93 (0.13% / -2.18% / -0.95%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,39 +354,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (15), earnings (4), ai (2), leadership (1)
-
-**Titulares recientes (GDELT, tickers con mas señales):**
-
-- [DDOG] Datadog Sees AI , Platform Expansion Fueling Accelerating Growth (2026-08-13)
-- [DDOG] FinancialContent - The Top 5 Analyst Questions From Datadog Q2 Earnings Call (2026-08-13)
-- [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock (2026-08-13)
-- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares (2026-08-13)
-- [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
-- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 6 , 774 Shares (2026-08-13)
-- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 165 , 393 Shares of Stock (2026-08-13)
-- [TAK] Elaine Mary Shannon Sells 3 , 978 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
-- [APPF] AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares (2026-08-13)
-- [APPF] Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-08-13)
+_(sin noticias este ciclo — GDELT no disponible)_
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Huang Jack Jiajia compro COE por $6.8M el 2026-08-12.
 - CEO Hudson Steven Kenneth compro PNAQ por $12.5M el 2026-08-10.
 - CEO Li Xiaodong vendio SE por $48.9M el 2026-08-11.
+- CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.
 - 10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.
 - CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.
 - CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.
 - CEO BOURLA ALBERT compro PFE por $1.0M el 2026-08-12 [senal en multiples fuentes].
-- CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.
-- 10% owner RECHTSCHAFFEN ANDREW compro PNAQ por $10.0M el 2026-08-10.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $414,061 · win rate 96% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $346,956 · win rate 96% · categorias: sports
 - GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
 - theowalcott · PnL $164,957 · win rate 100% · categorias: sports
-- steevenseakael · PnL $18,198 · win rate 99% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $15,061 · win rate 98% · categorias: sports, crypto
+- CORGI8 · PnL $55,038 · win rate 92% · categorias: sports
+- steevenseakael · PnL $15,679 · win rate 99% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -394,7 +381,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 829 registros 30d · ultimo dato 2026-08-12
+- **sec_insiders**: `ok` · 814 registros 30d · ultimo dato 2026-08-12
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -408,7 +395,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRX, AVBC, CARR, CHRW, CRWV, DUOL, FWONK, GLD, GLIBK, IEF, LTH, MTDR, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ACDC, AMRX, AVBC, CARR, CHRW, CRWV, FWONK, GLD, GLIBK, IEF, LTH, MTDR, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
