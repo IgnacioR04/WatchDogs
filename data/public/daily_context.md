@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T21:20:34+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T22:17:48+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,24 +26,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 732.07 | 1.16% | 2.44% | 3.7% |
 | TLT | 12.0% | core | 82.59 | 0.58% | 0.08% | -1.53% |
 | GLD | 9.3% | core | 398.96 | -1.47% | 2.38% | 9.32% |
-| ECAT | 8.6% | satellite | 15.83 | 0.06% | 2.13% | 1.15% |
+| ECAT | 8.5% | satellite | 15.83 | 0.06% | 2.0% | 1.6% |
 | IEF | 6.2% | core | 93.3 | 0.37% | 0.38% | -0.11% |
-| LTH | 4.3% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
-| FWONK | 4.2% | satellite | 103.69 | 0.08% | 7.95% | 3.69% |
-| VRSN | 3.7% | satellite | 287.15 | 1.49% | -1.84% | 4.33% |
-| AMRZ | 2.7% | satellite | 46.75 | 0.82% | -11.59% | -7.88% |
+| FWONK | 4.3% | satellite | 103.69 | 0.08% | 4.01% | 3.96% |
+| LTH | 4.0% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
+| VRSN | 3.9% | satellite | 287.15 | 1.49% | -1.84% | 4.33% |
 | G | 2.7% | satellite | 34.37 | 1.24% | -4.95% | 10.09% |
-| TTAN | 2.1% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
+| AMRZ | 2.6% | satellite | 46.75 | 0.82% | -8.73% | -8.66% |
+| TTAN | 2.5% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
 | MBGL | 1.9% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
-| CHRW | 1.9% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
-| EMBC | 1.3% | satellite | 5.11 | 7.58% | 43.14% | 58.7% |
+| CHRW | 1.8% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
+| EMBC | 1.2% | satellite | 5.11 | 7.58% | 46.0% | 59.19% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.2%
+- Volatilidad anualizada: 7.4%
 - VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.7%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: 0.404 · posiciones efectivas: 14.1 · HHI: 0.0709
+- Max drawdown historico: -1.6%
+- Beta vs SPY: None · posiciones efectivas: 14.1 · HHI: 0.0709
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -77,7 +77,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | XRN | 76 | corporate_insider | Fitzgerald Charles | 2 | $500,920 | cluster_buy |
 | EMBC | 76 | corporate_insider | Mann Jeffrey Z | 4 | $99,800 | cluster_buy |
 | SUNS | 75 | corporate_insider | TANNENBAUM LEONARD M | 2 | $152,000 | cluster_buy |
-| CIA | 75 | corporate_insider | Stenberg Jon | 2 | $43,795 | cluster_buy |
+| CC | 75 | corporate_insider | Dignam Denise | 2 | $50,501 | cluster_buy |
 | AMRZ | 73 | corporate_insider | Gross Mario | 5 | $17,068 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.3 (0.37% / 0.38% / -0.11%) [2026-08-13]
 - GLD: 398.96 (-1.47% / 2.38% / 9.32%) [2026-08-13]
 - ^VIX: 14.63 (0.55% / -3.43% / -12.55%) [2026-08-13]
-- BTC-USD: 63382.31 (-0.03% / -2.35% / -1.12%) [2026-08-13]
+- BTC-USD: 63559.97 (0.25% / -2.07% / -0.84%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (5), earnings (2)
+**Temas dominantes**: stock (6), regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [SMCI] CoreWeave , Super Micro surge on signs of sustained AI buildout (2026-08-13)
-- [SMCI] Super Micro Climbs 7 % on Record Backlog , Dell and Hewlett Packard Enterprise Gain 3 % (2026-08-13)
-- [AIT] Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % (2026-08-13)
-- [AIT] Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) (2026-08-13)
+- [STBA] Recent Investment Analyst Ratings Changes for S & T Bancorp ( STBA ) (2026-08-13)
 - [APPF] Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-08-13)
 - [APPF] AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares (2026-08-13)
 - [APPF] AppFolio ( NASDAQ : APPF ) Major Shareholder Sells 7 , 200 Shares of Stock (2026-08-13)
-- [AIT] Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday (2026-08-11)
-- [AIT] Research Analysts Set Expectations for AIT Q4 Earnings (2026-08-07)
+- [AUR] Aurora Innovation , Inc . $AUR Stock Position Lifted by Quantinno Capital Management LP (2026-08-10)
+- [AUR] Autonomous & Self - Driving Vehicle News : WeRide , Aurora , Tier IV , Torc , Wayve , Uber , Moove , Pony . ai , Tesla & Waymo (2026-08-10)
+- [AUR] Aurora Innovation partners with Arrow McLaren IndyCar Team in first major marketing push (2026-08-07)
+- [STBA] S & T Bancorp ( NASDAQ : STBA ) Reaches New 1 - Year High Following Analyst Upgrade (2026-07-31)
 - [APPF] Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-07-31)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -144,17 +143,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $6.8M el 2026-08-12.
 - CEO Li Xiaodong vendio SE por $48.9M el 2026-08-11.
 - CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.
-- 10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.
 - 10% owner SUMMIT PARTNERS L P vendio KVYO por $88.5M el 2026-08-11.
-- CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.
-- CEO Ellwanger Russell Craig vendio TSEM por $8.8M el 2026-08-11.
+- CEO Shafer Michael D vendio TMO por $8.6M el 2026-08-11 [senal en multiples fuentes].
+- CFO Higgins Bren D. vendio KLAC por $6.6M el 2026-08-12 [senal en multiples fuentes].
+- CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $203,259 · win rate 96% · categorias: sports
 - GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
-- theowalcott · PnL $164,957 · win rate 100% · categorias: sports
-- CORGI8 · PnL $52,586 · win rate 92% · categorias: sports
+- theowalcott · PnL $164,683 · win rate 100% · categorias: sports
+- CORGI8 · PnL $52,196 · win rate 92% · categorias: sports
 - Skritopoolniy · PnL $44,331 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -163,7 +162,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 105 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 740 registros 30d · ultimo dato 2026-08-13
+- **sec_insiders**: `ok` · 743 registros 30d · ultimo dato 2026-08-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
