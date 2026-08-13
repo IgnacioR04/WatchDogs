@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-13T19:35:09.433599+00:00",
+  "generated_at": "2026-08-13T21:19:39.806585+00:00",
   "window": {
     "from": "2026-07-14",
     "to": "2026-08-13",
@@ -23,7 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "ai"
+      "stock",
+      "ai",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -31,6 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner vendio OPLN ($274.9M)",
+      "summary": "10% owner Ignition Acquisition Holdings LP vendio OPLN por $274.9M el 2026-08-13 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ignition Acquisition Holdings LP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "OPLN",
+      "direction": "sell",
+      "amount_estimated": 274880000.0,
+      "event_date": "2026-08-13",
+      "importance_score": 87.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1816556/000119312526349541/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO compro COE ($6.8M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $6.8M el 2026-08-12.",
       "source": "sec_form_4",
@@ -47,8 +67,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000008/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio SE ($48.9M)",
       "summary": "CEO Li Xiaodong vendio SE por $48.9M el 2026-08-11.",
       "source": "sec_form_4",
@@ -65,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1721503/000119312526347736/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio SE ($33.5M)",
       "summary": "CEO Li Xiaodong vendio SE por $33.5M el 2026-08-11.",
       "source": "sec_form_4",
@@ -83,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1721503/000119312526347736/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO compro COE ($5.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.",
       "source": "sec_form_4",
@@ -101,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000008/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner vendio LFST ($144.9M)",
       "summary": "10% owner TPG GP A, LLC vendio LFST por $144.9M el 2026-08-10.",
       "source": "sec_form_4",
@@ -119,26 +139,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1099776/000199937126017719/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio MLI ($13.7M)",
-      "summary": "CEO Christopher Gregory L. vendio MLI por $13.7M el 2026-08-11.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Christopher Gregory L.",
-      "actor_type": "ceo",
-      "ticker": "MLI",
-      "direction": "sell",
-      "amount_estimated": 13688400.0,
-      "event_date": "2026-08-11",
-      "importance_score": 84.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000005/"
-    },
-    {
       "id": "move_7",
       "rank": 7,
+      "title": "10% owner vendio KVYO ($88.5M)",
+      "summary": "10% owner SUMMIT PARTNERS L P vendio KVYO por $88.5M el 2026-08-11.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SUMMIT PARTNERS L P",
+      "actor_type": "ten_percent_owner",
+      "ticker": "KVYO",
+      "direction": "sell",
+      "amount_estimated": 88550000.0,
+      "event_date": "2026-08-11",
+      "importance_score": 84.1,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830588/000119312526349311/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO compro COE ($3.9M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $3.9M el 2026-08-10.",
       "source": "sec_form_4",
@@ -155,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO vendio SE ($22.0M)",
       "summary": "CEO Li Xiaodong vendio SE por $22.0M el 2026-08-11.",
       "source": "sec_form_4",
@@ -171,24 +191,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1721503/000119312526347736/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio MEDP ($10.7M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $10.7M el 2026-08-11.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
-      "actor_type": "ceo",
-      "ticker": "MEDP",
-      "direction": "sell",
-      "amount_estimated": 10655987.1,
-      "event_date": "2026-08-11",
-      "importance_score": 83.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000006/"
     },
     {
       "id": "move_10",
@@ -211,6 +213,24 @@
     {
       "id": "move_11",
       "rank": 11,
+      "title": "CEO vendio TMO ($8.6M)",
+      "summary": "CEO Shafer Michael D vendio TMO por $8.6M el 2026-08-11 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Shafer Michael D",
+      "actor_type": "ceo",
+      "ticker": "TMO",
+      "direction": "sell",
+      "amount_estimated": 8580000.0,
+      "event_date": "2026-08-11",
+      "importance_score": 82.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020619/000009774526000149/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio SE ($13.5M)",
       "summary": "CEO Li Xiaodong vendio SE por $13.5M el 2026-08-11.",
       "source": "sec_form_4",
@@ -227,26 +247,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1721503/000119312526347736/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
-      "title": "CEO compro PRMB ($2.0M)",
-      "summary": "CEO FOSS ERIC J compro PRMB por $2.0M el 2026-08-10.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "FOSS ERIC J",
-      "actor_type": "ceo",
-      "ticker": "PRMB",
-      "direction": "buy",
-      "amount_estimated": 1996543.13,
-      "event_date": "2026-08-10",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1197007/000149315226037375/"
-    },
-    {
       "id": "move_13",
       "rank": 13,
+      "title": "CFO vendio KLAC ($6.6M)",
+      "summary": "CFO Higgins Bren D. vendio KLAC por $6.6M el 2026-08-12 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Higgins Bren D.",
+      "actor_type": "cfo",
+      "ticker": "KLAC",
+      "direction": "sell",
+      "amount_estimated": 6610905.0,
+      "event_date": "2026-08-12",
+      "importance_score": 82.5,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1582049/000119312526349139/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
       "title": "CEO compro COE ($2.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $2.0M el 2026-08-06.",
       "source": "sec_form_4",
@@ -261,24 +281,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "CEO vendio PSX ($6.5M)",
-      "summary": "CEO Mandell Brian vendio PSX por $6.5M el 2026-08-11.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Mandell Brian",
-      "actor_type": "ceo",
-      "ticker": "PSX",
-      "direction": "sell",
-      "amount_estimated": 6450000.0,
-      "event_date": "2026-08-11",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1641265/000164126526000010/"
     },
     {
       "id": "move_15",
@@ -301,6 +303,24 @@
     {
       "id": "move_16",
       "rank": 16,
+      "title": "CEO vendio TMO ($6.7M)",
+      "summary": "CEO Shafer Michael D vendio TMO por $6.7M el 2026-08-11 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Shafer Michael D",
+      "actor_type": "ceo",
+      "ticker": "TMO",
+      "direction": "sell",
+      "amount_estimated": 6720000.0,
+      "event_date": "2026-08-11",
+      "importance_score": 82.2,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020619/000009774526000149/"
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
       "title": "CEO compro COE ($1.8M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $1.8M el 2026-08-07.",
       "source": "sec_form_4",
@@ -317,8 +337,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000007/"
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "CEO vendio TSEM ($5.7M)",
       "summary": "CEO Ellwanger Russell Craig vendio TSEM por $5.7M el 2026-08-11.",
       "source": "sec_form_4",
@@ -335,58 +355,40 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2129121/000197640826000719/"
     },
     {
-      "id": "move_18",
-      "rank": 18,
-      "title": "CEO vendio MLI ($4.9M)",
-      "summary": "CEO Christopher Gregory L. vendio MLI por $4.9M el 2026-08-11.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Christopher Gregory L.",
-      "actor_type": "ceo",
-      "ticker": "MLI",
-      "direction": "sell",
-      "amount_estimated": 4859960.0,
-      "event_date": "2026-08-11",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1341985/000134198526000005/"
-    },
-    {
       "id": "move_19",
       "rank": 19,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
-      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 40145783473,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
+      "title": "CEO opero TMO ($6.0M)",
+      "summary": "CEO Shafer Michael D opero TMO por $6.0M el 2026-08-11 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Shafer Michael D",
+      "actor_type": "ceo",
+      "ticker": "TMO",
+      "direction": "other",
+      "amount_estimated": 5981976.0,
+      "event_date": "2026-08-11",
+      "importance_score": 82.0,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": ""
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2020619/000009774526000149/"
     },
     {
       "id": "move_20",
       "rank": 20,
-      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 35477573797,
-      "event_date": "",
-      "importance_score": 81.5,
+      "title": "CEO vendio PBF ($4.5M)",
+      "summary": "CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Davis Paul T",
+      "actor_type": "ceo",
+      "ticker": "PBF",
+      "direction": "sell",
+      "amount_estimated": 4456005.98,
+      "event_date": "2026-08-12",
+      "importance_score": 81.6,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": ""
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1576968/000119312526349491/"
     }
   ],
   "top_tickers": {
@@ -408,25 +410,9 @@
         ]
       },
       {
-        "ticker": "AVBC",
-        "company": "Avidia Bancorp, Inc.",
-        "pressure_score": 471.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 419.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HEPA",
-        "company": "Hepion Pharmaceuticals, Inc.",
-        "pressure_score": 411.9,
         "sources": [
           "corporate_insider"
         ]
@@ -488,9 +474,9 @@
         ]
       },
       {
-        "ticker": "MTDR",
-        "company": "Matador Resources Co",
-        "pressure_score": 221.9,
+        "ticker": "MBGL",
+        "company": "Mobility Global Inc.",
+        "pressure_score": 222.8,
         "sources": [
           "corporate_insider"
         ]
@@ -504,10 +490,28 @@
         ]
       },
       {
-        "ticker": "VIA",
-        "company": "Via Transportation, Inc.",
-        "pressure_score": 220.9,
+        "ticker": "EVGN",
+        "company": "Evogene Ltd.",
+        "pressure_score": 214.8,
         "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "AMH",
+        "company": "American Homes 4 Rent",
+        "pressure_score": 205.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 186.8,
+        "sources": [
+          "congress",
           "corporate_insider"
         ]
       }
@@ -522,33 +526,9 @@
         ]
       },
       {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 2757.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ICLR",
-        "company": "ICON PLC",
-        "pressure_score": 2116.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TSEM",
         "company": "TOWER SEMICONDUCTOR LTD",
         "pressure_score": 2097.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 1737.3,
         "sources": [
           "corporate_insider"
         ]
@@ -563,25 +543,52 @@
         ]
       },
       {
-        "ticker": "TAK",
-        "company": "TAKEDA PHARMACEUTICAL CO LTD",
-        "pressure_score": 1143.5,
+        "ticker": "P",
+        "company": "Everpure, Inc.",
+        "pressure_score": 1155.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "P",
-        "company": "Everpure, Inc.",
-        "pressure_score": 589.4,
+        "ticker": "TTAN",
+        "company": "ServiceTitan Inc",
+        "pressure_score": 998.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "DCOM",
+        "company": "Dime Commercial Bancshares, Inc. /NY/",
+        "pressure_score": 799.0,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VRSN",
+        "company": "VERISIGN INC/CA",
+        "pressure_score": 502.9,
+        "sources": [
+          "congress",
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
         "ticker": "CAMT",
         "company": "CAMTEK LTD",
         "pressure_score": 498.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PBF",
+        "company": "PBF Energy Inc.",
+        "pressure_score": 471.0,
         "sources": [
           "corporate_insider"
         ]
@@ -611,14 +618,6 @@
         ]
       },
       {
-        "ticker": "TWLO",
-        "company": "TWILIO INC",
-        "pressure_score": 403.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MAX",
         "company": "MediaAlpha, Inc.",
         "pressure_score": 402.3,
@@ -627,9 +626,17 @@
         ]
       },
       {
-        "ticker": "CGNX",
-        "company": "COGNEX CORP",
-        "pressure_score": 377.8,
+        "ticker": "AUR",
+        "company": "Aurora Innovation, Inc.",
+        "pressure_score": 401.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BKNG",
+        "company": "Booking Holdings Inc.",
+        "pressure_score": 380.8,
         "sources": [
           "corporate_insider"
         ]
@@ -665,15 +672,6 @@
       "score": 83.8
     },
     {
-      "ticker": "PRMB",
-      "company": "Primo Brands Corp",
-      "actor": "FOSS ERIC J",
-      "actor_type": "ceo",
-      "amount": 1996543.13,
-      "date": "2026-08-10",
-      "score": 82.4
-    },
-    {
       "ticker": "COE",
       "company": "51Talk Online Education Group",
       "actor": "Huang Jack Jiajia",
@@ -692,30 +690,12 @@
       "score": 82.1
     },
     {
-      "ticker": "FUN",
-      "company": "Six Flags Entertainment Corporation/NEW",
-      "actor": "Reilly John T",
-      "actor_type": "ceo",
-      "amount": 248265.4,
-      "date": "2026-08-12",
-      "score": 79.3
-    },
-    {
       "ticker": "EMBC",
       "company": "Embecta Corp.",
       "actor": "Kurdikar Devdatt",
       "actor_type": "ceo",
       "amount": 140937.0,
       "date": "2026-08-12",
-      "score": 78.1
-    },
-    {
-      "ticker": "ACDC",
-      "company": "ProFrac Holding Corp.",
-      "actor": "Wilks Matthew",
-      "actor_type": "ceo",
-      "amount": 279484.82,
-      "date": "2026-08-10",
       "score": 78.1
     },
     {
@@ -728,13 +708,22 @@
       "score": 77.9
     },
     {
-      "ticker": "ACDC",
-      "company": "ProFrac Holding Corp.",
-      "actor": "Wilks Matthew",
+      "ticker": "RM",
+      "company": "Regional Management Corp.",
+      "actor": "Lamba Lakhbir S.",
       "actor_type": "ceo",
-      "amount": 122366.33,
+      "amount": 111160.0,
+      "date": "2026-08-12",
+      "score": 77.6
+    },
+    {
+      "ticker": "RM",
+      "company": "Regional Management Corp.",
+      "actor": "Lamba Lakhbir S.",
+      "actor_type": "ceo",
+      "amount": 205335.0,
       "date": "2026-08-11",
-      "score": 77.8
+      "score": 77.4
     },
     {
       "ticker": "AMRZ",
@@ -746,13 +735,22 @@
       "score": 76.9
     },
     {
-      "ticker": "MTDR",
-      "company": "Matador Resources Co",
-      "actor": "Foran Joseph Wm",
+      "ticker": "KMPR",
+      "company": "KEMPER Corp",
+      "actor": "McAnena Stephen J",
       "actor_type": "ceo",
-      "amount": 159755.2,
-      "date": "2026-08-10",
+      "amount": 79500.0,
+      "date": "2026-08-13",
       "score": 76.9
+    },
+    {
+      "ticker": "BW",
+      "company": "Babcock & Wilcox Enterprises, Inc.",
+      "actor": "Young Kenneth M",
+      "actor_type": "ceo",
+      "amount": 67550.0,
+      "date": "2026-08-12",
+      "score": 76.5
     },
     {
       "ticker": "EMBC",
@@ -764,13 +762,22 @@
       "score": 76.0
     },
     {
-      "ticker": "VIA",
-      "company": "Via Transportation, Inc.",
-      "actor": "Dinur Arnon",
+      "ticker": "TNC",
+      "company": "TENNANT CO",
+      "actor": "Mulligan Donal L",
       "actor_type": "director",
-      "amount": 890000.0,
-      "date": "2026-08-10",
-      "score": 75.6
+      "amount": 538720.0,
+      "date": "2026-08-12",
+      "score": 76.0
+    },
+    {
+      "ticker": "MBGL",
+      "company": "Mobility Global Inc.",
+      "actor": "PEEK MARK S",
+      "actor_type": "director",
+      "amount": 487495.0,
+      "date": "2026-08-12",
+      "score": 75.8
     }
   ],
   "institutional_changes": [
@@ -981,14 +988,6 @@
       "score": 65.2
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
-      "direction": "sell",
-      "amount": 50000,
-      "date": "2026-07-27",
-      "score": 65.0
-    },
-    {
       "politician": "Kevin Hern",
       "ticker": "XOM",
       "direction": "other",
@@ -1053,6 +1052,14 @@
       "score": 63.7
     },
     {
+      "politician": "April McClain Delaney",
+      "ticker": "TSCO",
+      "direction": "sell",
+      "amount": 50000,
+      "date": "2026-07-27",
+      "score": 63.7
+    },
+    {
       "politician": "Sam T. Liccardo",
       "ticker": "NVDA",
       "direction": "sell",
@@ -1106,6 +1113,15 @@
       "date": "2026-08-13"
     },
     {
+      "filer": "Jorge Mas",
+      "company": "MasTec, Inc.",
+      "ticker": "MTZ",
+      "ownership_pct": 14.8,
+      "shares": 11872111,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
       "filer": "Saba Capital Management, L.P.",
       "company": "BlackRock ESG Capital Allocation Term Trust",
       "ticker": "ECAT",
@@ -1124,12 +1140,75 @@
       "date": "2026-08-13"
     },
     {
+      "filer": "Calvin Steven Mitchell",
+      "company": "Marpai, Inc.",
+      "ticker": "MRAI",
+      "ownership_pct": 9.3,
+      "shares": 1950000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-13"
+    },
+    {
       "filer": "RECANATI LEON",
       "company": "Evogene Ltd.",
       "ticker": "EVGN",
       "ownership_pct": 8.6,
       "shares": 1354836,
       "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "Jonathan Segal",
+      "company": "ONE Group Hospitality, Inc.",
+      "ticker": "STKS",
+      "ownership_pct": 8.0,
+      "shares": 2544259,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "Jose Ramon Mas",
+      "company": "MasTec, Inc.",
+      "ticker": "MTZ",
+      "ownership_pct": 7.7,
+      "shares": 6185090,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "Calvin Steven Mitchell",
+      "company": "Marpai, Inc.",
+      "ticker": "MRAI",
+      "ownership_pct": 6.9,
+      "shares": 2050000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "Ignition Acquisition Holdings LP",
+      "company": "OPENLANE, Inc. (f/k/a KAR Auction Services, Inc.)",
+      "ticker": "OPLN",
+      "ownership_pct": 6.9,
+      "shares": 8424728,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "STROME MARK E",
+      "company": "HeartBeam, Inc.",
+      "ticker": "",
+      "ownership_pct": 6.8,
+      "shares": 3764200,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-13"
+    },
+    {
+      "filer": "Cormorant Global Healthcare Master Fund, LP",
+      "company": "BlossomHill Therapeutics, Inc.",
+      "ticker": "BLSM",
+      "ownership_pct": 3.13,
+      "shares": 959090,
+      "filing_type": "SCHEDULE 13D",
       "date": "2026-08-13"
     }
   ],
@@ -1168,9 +1247,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 52568.26,
+        "pnl": 52585.78,
         "win_rate": 0.9246,
-        "volume": 395457.38,
+        "volume": 398960.19,
         "categories": [
           "sports"
         ]
@@ -1186,9 +1265,19 @@
         ]
       },
       {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 54863.44,
+        "win_rate": 0.8615,
+        "volume": 151498.35,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xa08455c829",
         "username": "laozishudaosan",
-        "pnl": 27541.19,
+        "pnl": 27155.2,
         "win_rate": 0.8708,
         "volume": 32273.61,
         "categories": [
@@ -1198,7 +1287,7 @@
       {
         "wallet": "0x4755188644",
         "username": "schizohedgehog",
-        "pnl": 25974.08,
+        "pnl": 27818.14,
         "win_rate": 0.8889,
         "volume": 2871.52,
         "categories": [
@@ -1210,7 +1299,7 @@
       {
         "wallet": "0xc6e9560680",
         "username": "luck00004",
-        "pnl": 72696.81,
+        "pnl": 71700.38,
         "win_rate": 0.963,
         "volume": 0.0,
         "categories": [
@@ -1220,22 +1309,12 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 510603.66,
-        "win_rate": 0.649,
-        "volume": 5067991.87,
+        "pnl": 514150.42,
+        "win_rate": 0.648,
+        "volume": 5228037.64,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0xc3acf5878a",
-        "username": "mentionmarket",
-        "pnl": 174000.0,
-        "win_rate": 0.6823,
-        "volume": 300000.0,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1243,9 +1322,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 510603.66,
-        "win_rate": 0.649,
-        "volume": 5067991.87,
+        "pnl": 514150.42,
+        "win_rate": 0.648,
+        "volume": 5228037.64,
         "categories": [
           "sports",
           "crypto"
@@ -1264,7 +1343,7 @@
       {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 195301.11,
+        "pnl": 166910.45,
         "win_rate": 0.5053,
         "volume": 2063113.02,
         "categories": [
@@ -1274,9 +1353,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 132874.85,
+        "pnl": 149480.69,
         "win_rate": 0.542,
-        "volume": 1434091.75,
+        "volume": 1664450.06,
         "categories": [
           "sports"
         ]
@@ -1284,9 +1363,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 35348.78,
-        "win_rate": 0.541,
-        "volume": 2518285.62,
+        "pnl": 45463.32,
+        "win_rate": 0.543,
+        "volume": 2721280.89,
         "categories": [
           "sports"
         ]
@@ -1294,8 +1373,8 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 165808.23,
-        "win_rate": 0.526,
+        "pnl": 165808.16,
+        "win_rate": 0.53,
         "volume": 771429.12,
         "categories": [
           "sports",
@@ -1305,7 +1384,7 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 67178.45,
+        "pnl": 77178.44,
         "win_rate": 0.4795,
         "volume": 353144.97,
         "categories": [
@@ -1326,9 +1405,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 154649.12,
+        "pnl": 169673.01,
         "win_rate": 0.664,
-        "volume": 988442.01,
+        "volume": 1062396.05,
         "categories": [
           "sports"
         ]
@@ -1336,28 +1415,111 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 38548.73,
-        "win_rate": 0.519,
-        "volume": 1976780.18,
+        "pnl": 38902.27,
+        "win_rate": 0.555,
+        "volume": 2281446.19,
         "categories": [
-          "sports",
-          "economy"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Datadog Sees AI , Platform Expansion Fueling Accelerating Growth",
-      "url": "https://finance.yahoo.com/technology/ai/articles/datadog-sees-ai-platform-expansion-090216438.html",
-      "ticker": "DDOG",
+      "title": "CoreWeave , Super Micro surge on signs of sustained AI buildout",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-super-micro-climb-signs-095801780.html",
+      "ticker": "SMCI",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Super Micro Climbs 7 % on Record Backlog , Dell and Hewlett Packard Enterprise Gain 3 % ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-climbs-7-record-170947641.html",
+      "ticker": "SMCI",
       "themes": [
         "ai"
       ],
       "date": "2026-08-13"
+    },
+    {
+      "title": "Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % ",
+      "url": "https://www.rttnews.com/3680063/applied-industrial-sees-growth-in-fy27-stock-up-4-2-update.aspx",
+      "ticker": "AIT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/13/reviewing-npk-international-nysenpki-and-applied-industrial-technologies-nyseait.html",
+      "ticker": "AIT",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13540841/don-rigler-sells-150-shares-of-appfolio-nasdaqappf-stock.html",
+      "ticker": "APPF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/12/appfolio-nasdaqappf-insider-sells-150-shares.html",
+      "ticker": "APPF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "AppFolio ( NASDAQ : APPF ) Major Shareholder Sells 7 , 200 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/12/appfolio-nasdaqappf-major-shareholder-sells-7200-shares-of-stock.html",
+      "ticker": "APPF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday",
+      "url": "https://www.tickerreport.com/banking-finance/13538108/applied-industrial-technologies-ait-projected-to-announce-quarterly-earnings-on-thursday.html",
+      "ticker": "AIT",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Research Analysts Set Expectations for AIT Q4 Earnings",
+      "url": "https://www.dailypolitical.com/2026/08/07/research-analysts-set-expectations-for-ait-q4-earnings.html",
+      "ticker": "AIT",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13523328/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock-2.html",
+      "ticker": "APPF",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-07-31"
     }
   ],
-  "signals_count": 1864,
+  "signals_count": 1809,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
