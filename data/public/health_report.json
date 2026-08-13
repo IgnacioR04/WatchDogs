@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:24:21.438048+00:00",
+  "generated_at": "2026-08-13T19:35:09.521716+00:00",
   "overall_status": "warning",
   "datasets": {
     "congress": {
@@ -15,17 +15,17 @@
     },
     "sec_insiders": {
       "status": "ok",
-      "records_total": 801,
-      "records_30d": 801,
+      "records_total": 795,
+      "records_30d": 795,
       "latest_tx_date": "2026-08-13",
-      "insiders_unique": 327,
+      "insiders_unique": 329,
       "issues": [],
       "blocked_for_signals": false
     },
     "sec_13d_13g": {
       "status": "ok",
       "records_30d": 250,
-      "with_ownership_pct": 13,
+      "with_ownership_pct": 6,
       "latest_filing_date": "2026-08-13",
       "issues": [],
       "blocked_for_signals": false
@@ -36,7 +36,6 @@
       "consensus_quarter": "2026Q2",
       "stale_managers": [
         "Vanguard Group Inc",
-        "Morgan Stanley",
         "Bank of America Corp",
         "Invesco Ltd",
         "Goldman Sachs Group Inc",
@@ -54,9 +53,10 @@
         "Nomura Holdings Inc",
         "Renaissance Technologies LLC",
         "Tiger Global Management LLC",
-        "Bridgewater Associates LP"
+        "Bridgewater Associates LP",
+        "Pershing Square Capital Management LP"
       ],
-      "stale_count": 28,
+      "stale_count": 27,
       "issues": [
         "stale_manager_report_date"
       ],
@@ -64,10 +64,10 @@
     },
     "polymarket": {
       "status": "ok",
-      "smart_traders": 49,
+      "smart_traders": 47,
       "whales": 50,
-      "volume_zero_count": 15,
-      "avg_win_rate": 0.5657,
+      "volume_zero_count": 18,
+      "avg_win_rate": 0.5772,
       "issues": [],
       "blocked_for_signals": false
     }

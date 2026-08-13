@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-13T18:25:11+00:00",
+  "generated_at": "2026-08-13T19:36:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "ECAT": 0.0812,
+    "GLD": 0.0932,
+    "ECAT": 0.0764,
     "IEF": 0.0622,
-    "FWONK": 0.0462,
-    "AVBC": 0.046,
-    "AMRZ": 0.0305,
-    "LTH": 0.03,
-    "MTDR": 0.0281,
-    "CHRW": 0.0265,
-    "BCAX": 0.0188,
-    "EMBC": 0.0144,
-    "ACDC": 0.0127
+    "FWONK": 0.0441,
+    "AVBC": 0.0441,
+    "LQDT": 0.0304,
+    "AMRZ": 0.0296,
+    "LTH": 0.0296,
+    "MTDR": 0.0268,
+    "CHRW": 0.0244,
+    "VIA": 0.0157,
+    "EMBC": 0.0137
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0271,
-    "EMBC": 0.0128,
-    "FWONK": 0.0411,
-    "MTDR": 0.025,
-    "LTH": 0.0267,
-    "ACDC": 0.0113,
-    "AVBC": 0.0409,
-    "CHRW": 0.0236,
-    "ECAT": 0.0722,
-    "BCAX": 0.0167
+    "AMRZ": 0.0263,
+    "EMBC": 0.0122,
+    "FWONK": 0.0392,
+    "VIA": 0.014,
+    "MTDR": 0.0238,
+    "AVBC": 0.0392,
+    "LQDT": 0.027,
+    "CHRW": 0.0217,
+    "LTH": 0.0263,
+    "ECAT": 0.0679
   },
   "satellite_rationale": [
     {
@@ -66,28 +66,18 @@
       "n_signals": 4
     },
     {
-      "ticker": "MTDR",
-      "score": 223.1,
+      "ticker": "VIA",
+      "score": 224.4,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "LTH",
-      "score": 197.2,
+      "ticker": "MTDR",
+      "score": 223.1,
       "sources": [
-        "congress",
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "ACDC",
-      "score": 193.8,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 3
     },
@@ -100,8 +90,24 @@
       "n_signals": 2
     },
     {
+      "ticker": "LQDT",
+      "score": 143.6,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "CHRW",
       "score": 127.4,
+      "sources": [
+        "congress"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "LTH",
+      "score": 124.4,
       "sources": [
         "congress"
       ],
@@ -114,28 +120,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "BCAX",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.088,
-    "var_95_1d": 0.0086,
-    "cvar_95_1d": 0.0118,
-    "max_drawdown": -0.0526,
-    "beta_spy": 0.584,
-    "hhi": 0.0707,
+    "ann_vol": 0.092,
+    "var_95_1d": 0.01,
+    "cvar_95_1d": 0.0122,
+    "max_drawdown": -0.062,
+    "beta_spy": 0.591,
+    "hhi": 0.0699,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.2,
-    "gross_exposure": 0.8499,
-    "days_used": 255
+    "effective_positions": 14.3,
+    "gross_exposure": 0.8502,
+    "days_used": 226
   },
   "risk_gate": {
     "passed": true,

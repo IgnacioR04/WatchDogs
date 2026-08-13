@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-13T18:24:21.336842+00:00",
+  "generated_at": "2026-08-13T19:35:09.433599+00:00",
   "window": {
     "from": "2026-07-14",
     "to": "2026-08-13",
@@ -23,9 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
-      "leadership"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -395,11 +393,10 @@
     "buy_pressure": [
       {
         "ticker": "LTH",
-        "company": "Life Time Group Holdings, Inc.",
-        "pressure_score": 625.0,
+        "company": "Common Stock",
+        "pressure_score": 543.1,
         "sources": [
-          "congress",
-          "large_holder"
+          "congress"
         ]
       },
       {
@@ -461,10 +458,9 @@
       {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
-        "pressure_score": 287.9,
+        "pressure_score": 281.6,
         "sources": [
-          "congress",
-          "corporate_insider"
+          "congress"
         ]
       },
       {
@@ -481,15 +477,6 @@
         "pressure_score": 266.0,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "ACDC",
-        "company": "ProFrac Holding Corp.",
-        "pressure_score": 228.5,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -514,6 +501,14 @@
         "pressure_score": 221.3,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "VIA",
+        "company": "Via Transportation, Inc.",
+        "pressure_score": 220.9,
+        "sources": [
+          "corporate_insider"
         ]
       }
     ],
@@ -600,14 +595,6 @@
         ]
       },
       {
-        "ticker": "MORN",
-        "company": "Morningstar, Inc.",
-        "pressure_score": 431.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MASS",
         "company": "908 Devices Inc.",
         "pressure_score": 423.6,
@@ -635,6 +622,14 @@
         "ticker": "MAX",
         "company": "MediaAlpha, Inc.",
         "pressure_score": 402.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CGNX",
+        "company": "COGNEX CORP",
+        "pressure_score": 377.8,
         "sources": [
           "corporate_insider"
         ]
@@ -697,15 +692,6 @@
       "score": 82.1
     },
     {
-      "ticker": "ACDC",
-      "company": "ProFrac Holding Corp.",
-      "actor": "Wilks Matthew",
-      "actor_type": "ceo",
-      "amount": 279484.82,
-      "date": "2026-08-10",
-      "score": 79.3
-    },
-    {
       "ticker": "FUN",
       "company": "Six Flags Entertainment Corporation/NEW",
       "actor": "Reilly John T",
@@ -713,15 +699,6 @@
       "amount": 248265.4,
       "date": "2026-08-12",
       "score": 79.3
-    },
-    {
-      "ticker": "ACDC",
-      "company": "ProFrac Holding Corp.",
-      "actor": "Wilks Matthew",
-      "actor_type": "ceo",
-      "amount": 122366.33,
-      "date": "2026-08-11",
-      "score": 79.0
     },
     {
       "ticker": "EMBC",
@@ -733,6 +710,15 @@
       "score": 78.1
     },
     {
+      "ticker": "ACDC",
+      "company": "ProFrac Holding Corp.",
+      "actor": "Wilks Matthew",
+      "actor_type": "ceo",
+      "amount": 279484.82,
+      "date": "2026-08-10",
+      "score": 78.1
+    },
+    {
       "ticker": "BTDR",
       "company": "Bitdeer Technologies Group",
       "actor": "Potter Michael G",
@@ -740,6 +726,15 @@
       "amount": 226000.0,
       "date": "2026-08-12",
       "score": 77.9
+    },
+    {
+      "ticker": "ACDC",
+      "company": "ProFrac Holding Corp.",
+      "actor": "Wilks Matthew",
+      "actor_type": "ceo",
+      "amount": 122366.33,
+      "date": "2026-08-11",
+      "score": 77.8
     },
     {
       "ticker": "AMRZ",
@@ -760,15 +755,6 @@
       "score": 76.9
     },
     {
-      "ticker": "UA",
-      "company": "Under Armour, Inc.",
-      "actor": "Taleghani Reza",
-      "actor_type": "cfo",
-      "amount": 100180.85,
-      "date": "2026-08-11",
-      "score": 76.1
-    },
-    {
       "ticker": "EMBC",
       "company": "Embecta Corp.",
       "actor": "Elguicze Jacob",
@@ -776,6 +762,15 @@
       "amount": 93360.0,
       "date": "2026-08-12",
       "score": 76.0
+    },
+    {
+      "ticker": "VIA",
+      "company": "Via Transportation, Inc.",
+      "actor": "Dinur Arnon",
+      "actor_type": "director",
+      "amount": 890000.0,
+      "date": "2026-08-10",
+      "score": 75.6
     }
   ],
   "institutional_changes": [
@@ -987,18 +982,10 @@
     },
     {
       "politician": "April McClain Delaney",
-      "ticker": "LTH",
-      "direction": "buy",
-      "amount": 50000,
-      "date": "2026-07-31",
-      "score": 65.0
-    },
-    {
-      "politician": "Sam T. Liccardo",
-      "ticker": "NVDA",
+      "ticker": "TSCO",
       "direction": "sell",
       "amount": 50000,
-      "date": "2026-07-21",
+      "date": "2026-07-27",
       "score": 65.0
     },
     {
@@ -1051,6 +1038,14 @@
     },
     {
       "politician": "April McClain Delaney",
+      "ticker": "LTH",
+      "direction": "buy",
+      "amount": 50000,
+      "date": "2026-07-31",
+      "score": 63.7
+    },
+    {
+      "politician": "April McClain Delaney",
       "ticker": "SGI",
       "direction": "buy",
       "amount": 50000,
@@ -1058,11 +1053,11 @@
       "score": 63.7
     },
     {
-      "politician": "April McClain Delaney",
-      "ticker": "TSCO",
+      "politician": "Sam T. Liccardo",
+      "ticker": "NVDA",
       "direction": "sell",
       "amount": 50000,
-      "date": "2026-07-27",
+      "date": "2026-07-21",
       "score": 63.7
     },
     {
@@ -1102,22 +1097,13 @@
       "date": "2026-08-13"
     },
     {
-      "filer": "THRC Holdings, LP",
-      "company": "ProFrac Holding Corp.",
-      "ticker": "ACDC",
-      "ownership_pct": 45.0,
-      "shares": 83209008,
+      "filer": "L.I.A. Pure Capital Ltd.",
+      "company": "Evogene Ltd.",
+      "ticker": "EVGN",
+      "ownership_pct": 19.35,
+      "shares": 3057488,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "Amanat Sponsor Holdings LLC",
-      "company": "Amanat Acquisition Corp",
-      "ticker": "AMAN",
-      "ownership_pct": 22.5,
-      "shares": 2175000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
+      "date": "2026-08-13"
     },
     {
       "filer": "Saba Capital Management, L.P.",
@@ -1138,33 +1124,6 @@
       "date": "2026-08-13"
     },
     {
-      "filer": "Bryan S. Ganz",
-      "company": "Byrna Technologies Inc.",
-      "ticker": "BYRN",
-      "ownership_pct": 9.9,
-      "shares": 2296635,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "DC VGA LLC",
-      "company": "Turtle Beach Corporation",
-      "ticker": "TBCH",
-      "ownership_pct": 9.9,
-      "shares": 1775441,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "Bain Capital Prairie, LLC",
-      "company": "Lincoln National Corporation",
-      "ticker": "",
-      "ownership_pct": 9.8,
-      "shares": 18759497,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
       "filer": "RECANATI LEON",
       "company": "Evogene Ltd.",
       "ticker": "EVGN",
@@ -1172,24 +1131,6 @@
       "shares": 1354836,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-13"
-    },
-    {
-      "filer": "H/2 Special Opportunities IV L.P.",
-      "company": "DIVERSIFIED HEALTHCARE TRUST",
-      "ticker": "",
-      "ownership_pct": 4.98,
-      "shares": 12067366,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
-    },
-    {
-      "filer": "Green LTF Holdings II LP",
-      "company": "Life Time Group Holdings, Inc.",
-      "ticker": "LTH",
-      "ownership_pct": 2.6,
-      "shares": 5908604,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-12"
     }
   ],
   "polymarket": {
@@ -1225,21 +1166,11 @@
         ]
       },
       {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 31363.87,
-        "win_rate": 0.9727,
-        "volume": 291240.28,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 41344.56,
+        "pnl": 52568.26,
         "win_rate": 0.9246,
-        "volume": 339482.45,
+        "volume": 395457.38,
         "categories": [
           "sports"
         ]
@@ -1257,7 +1188,7 @@
       {
         "wallet": "0xa08455c829",
         "username": "laozishudaosan",
-        "pnl": 21105.31,
+        "pnl": 27541.19,
         "win_rate": 0.8708,
         "volume": 32273.61,
         "categories": [
@@ -1265,9 +1196,21 @@
         ]
       },
       {
+        "wallet": "0x4755188644",
+        "username": "schizohedgehog",
+        "pnl": 25974.08,
+        "win_rate": 0.8889,
+        "volume": 2871.52,
+        "categories": [
+          "crypto",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0xc6e9560680",
         "username": "luck00004",
-        "pnl": 68971.14,
+        "pnl": 72696.81,
         "win_rate": 0.963,
         "volume": 0.0,
         "categories": [
@@ -1277,9 +1220,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 475431.63,
-        "win_rate": 0.646,
-        "volume": 5067068.73,
+        "pnl": 510603.66,
+        "win_rate": 0.649,
+        "volume": 5067991.87,
         "categories": [
           "sports",
           "crypto"
@@ -1300,9 +1243,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 475431.63,
-        "win_rate": 0.646,
-        "volume": 5067068.73,
+        "pnl": 510603.66,
+        "win_rate": 0.649,
+        "volume": 5067991.87,
         "categories": [
           "sports",
           "crypto"
@@ -1321,7 +1264,7 @@
       {
         "wallet": "0x5dab5ed969",
         "username": "Weaseloftheweek",
-        "pnl": 227722.37,
+        "pnl": 195301.11,
         "win_rate": 0.5053,
         "volume": 2063113.02,
         "categories": [
@@ -1331,9 +1274,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 54551.46,
+        "pnl": 132874.85,
         "win_rate": 0.542,
-        "volume": 1379420.28,
+        "volume": 1434091.75,
         "categories": [
           "sports"
         ]
@@ -1341,9 +1284,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 24611.22,
-        "win_rate": 0.539,
-        "volume": 2425412.13,
+        "pnl": 35348.78,
+        "win_rate": 0.541,
+        "volume": 2518285.62,
         "categories": [
           "sports"
         ]
@@ -1351,12 +1294,23 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 185301.41,
+        "pnl": 165808.23,
         "win_rate": 0.526,
         "volume": 771429.12,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 67178.45,
+        "win_rate": 0.4795,
+        "volume": 353144.97,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1372,138 +1326,38 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 143511.87,
+        "pnl": 154649.12,
         "win_rate": 0.664,
-        "volume": 840585.88,
+        "volume": 988442.01,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 31363.87,
-        "win_rate": 0.9727,
-        "volume": 291240.28,
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 38548.73,
+        "win_rate": 0.519,
+        "volume": 1976780.18,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 19264.79,
-        "win_rate": 0.671,
-        "volume": 726920.56,
-        "categories": [
-          "crypto"
+          "sports",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Super Micro Climbs 7 % on Record Backlog , Dell and Hewlett Packard Enterprise Gain 3 % ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-climbs-7-record-170947641.html",
-      "ticker": "SMCI",
+      "title": "Datadog Sees AI , Platform Expansion Fueling Accelerating Growth",
+      "url": "https://finance.yahoo.com/technology/ai/articles/datadog-sees-ai-platform-expansion-090216438.html",
+      "ticker": "DDOG",
       "themes": [
         "ai"
       ],
       "date": "2026-08-13"
-    },
-    {
-      "title": "Takeda Pharmaceutical ( NYSE : TAK ) Insider Giles Richard Platford Sells 31 , 083 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/13/takeda-pharmaceutical-nysetak-insider-giles-richard-platford-sells-31083-shares.html",
-      "ticker": "TAK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock",
-      "url": "https://www.dailypolitical.com/2026/08/12/insider-selling-takeda-pharmaceutical-nysetak-ceo-sells-1523439-00-in-stock.html",
-      "ticker": "TAK",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/12/takeda-pharmaceutical-nysetak-insider-sells-22957-shares.html",
-      "ticker": "TAK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/13/gabriele-ricci-sells-25088-shares-of-takeda-pharmaceutical-nysetak-stock.html",
-      "ticker": "TAK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 6 , 774 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/13/takeda-pharmaceutical-nysetak-insider-sells-6774-shares.html",
-      "ticker": "TAK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 165 , 393 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/13/takeda-pharmaceutical-nysetak-insider-sells-165393-shares-of-stock.html",
-      "ticker": "TAK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13540841/don-rigler-sells-150-shares-of-appfolio-nasdaqappf-stock.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/12/appfolio-nasdaqappf-insider-sells-150-shares.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "AppFolio ( NASDAQ : APPF ) Major Shareholder Sells 7 , 200 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/12/appfolio-nasdaqappf-major-shareholder-sells-7200-shares-of-stock.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Maurice Duca Sells 7 , 200 Shares of AppFolio ( NASDAQ : APPF ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13523328/maurice-duca-sells-7200-shares-of-appfolio-nasdaqappf-stock-2.html",
-      "ticker": "APPF",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-07-31"
     }
   ],
-  "signals_count": 1870,
+  "signals_count": 1864,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
