@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T05:17:41+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T07:02:25+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.96 (0.1% / -0.38% / -0.29%) [2026-08-12]
 - GLD: 404.92 (0.99% / 3.92% / 8.75%) [2026-08-12]
 - ^VIX: 14.55 (-4.78% / -7.97% / -3.19%) [2026-08-12]
-- BTC-USD: 63872.27 (0.5% / -1.55% / -1.8%) [2026-08-13]
+- BTC-USD: 63864.01 (0.49% / -1.57% / -1.82%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (12), ai (5), leadership (2), earnings (2)
+**Temas dominantes**: stock (10), earnings (4), ai (4), leadership (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] AI cloud provider CoreWeave reports $104bn backlog and raises capex target (2026-08-13)
+- [CRWD] FinancialContent - BioStem Technologies , Inc . - Common Stock ( Nasdaq : BSEM ) Stock Quote (2026-08-13)
+- [CRWV] CoreWeave Has $104 Billion of Contracted Revenue and a $59 Billion Market Value (2026-08-13)
+- [SMCI] Super Micro Guided Fiscal 2027 Revenue $16 Billion Above Wall Street and Missed the Quarter Anyway (2026-08-13)
 - [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares (2026-08-13)
+- [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
+- [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 6 , 774 Shares (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 165 , 393 Shares of Stock (2026-08-13)
 - [TAK] Elaine Mary Shannon Sells 3 , 978 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
-- [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 47 , 586 Shares (2026-08-13)
-- [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
-- [APPF] AppFolio ( NASDAQ : APPF ) Insider Sells 150 Shares (2026-08-13)
-- [APPF] Don Rigler Sells 150 Shares of AppFolio ( NASDAQ : APPF ) Stock (2026-08-13)
 - [CGNX] Cognex ( CGNX ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -151,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- GoldenAlpha168 · PnL $60,659 · win rate 100% · categorias: sports
+- GoldenAlpha168 · PnL $60,728 · win rate 100% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $42,035 · win rate 96% · categorias: sports
 - theowalcott · PnL $164,957 · win rate 100% · categorias: sports
-- steevenseakael · PnL $14,317 · win rate 98% · categorias: sports
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $15,833 · win rate 98% · categorias: sports, crypto
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $18,347 · win rate 96% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $16,500 · win rate 98% · categorias: sports, crypto
+- steevenseakael · PnL $12,775 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
