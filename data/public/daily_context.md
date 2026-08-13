@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T17:26:28+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-13T18:25:13+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -10,7 +10,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `calm` (VIX 14.7)
-- Tendencia: `bull` (SPY 777.27 · MA50 748.05 · MA200 702.27 · dist MA200: 10.68%)
+- Tendencia: `bull` (SPY 776.77 · MA50 748.04 · MA200 702.26 · dist MA200: 10.61%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.48)
 - Fed Funds: 3.63%
@@ -22,41 +22,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 777.27 | 0.62% | 1.13% | 3.54% |
-| QQQ | 12.0% | core | 733.17 | 1.31% | 2.59% | 3.86% |
-| TLT | 12.0% | core | 82.56 | 0.55% | 0.05% | -1.56% |
-| GLD | 9.3% | core | 400.55 | -1.08% | 2.79% | 9.75% |
-| IEF | 6.2% | core | 93.29 | 0.36% | 0.37% | -0.11% |
-| FWONK | 5.4% | satellite | 103.74 | 0.12% | 4.06% | 4.01% |
-| AVBC | 5.4% | satellite | 22.18 | 0.18% | 2.02% | 6.94% |
-| AMRX | 4.0% | satellite | 17.82 | 0.88% | -1.41% | -1.25% |
-| AMRZ | 3.6% | satellite | 46.7 | 0.71% | -8.82% | -4.89% |
-| LTH | 3.6% | satellite | 44.29 | 1.07% | 1.86% | 3.38% |
-| MTDR | 3.3% | satellite | 51.62 | -1.69% | 6.91% | -0.87% |
-| CHRW | 3.0% | satellite | 150.35 | 2.49% | 2.52% | -26.93% |
-| VIA | 1.9% | satellite | 25.32 | 1.08% | 17.44% | 35.62% |
-| EMBC | 1.7% | satellite | 5.09 | 7.26% | 45.57% | 52.09% |
-| ACDC | 1.6% | satellite | 5.42 | 5.45% | 21.39% | 12.92% |
+| SPY | 12.0% | core | 776.77 | 0.55% | 1.07% | 3.47% |
+| QQQ | 12.0% | core | 731.9 | 1.13% | 2.41% | 3.68% |
+| TLT | 12.0% | core | 82.58 | 0.58% | 0.08% | -1.53% |
+| GLD | 9.3% | core | 399.55 | -1.33% | 2.54% | 9.48% |
+| ECAT | 8.1% | satellite | 15.83 | 0.06% | 2.0% | 1.15% |
+| IEF | 6.2% | core | 93.32 | 0.38% | 0.39% | -0.09% |
+| FWONK | 4.6% | satellite | 103.75 | 0.13% | 4.07% | 4.02% |
+| AVBC | 4.6% | satellite | 22.16 | 0.09% | 1.93% | 9.0% |
+| AMRZ | 3.0% | satellite | 46.6 | 0.5% | -9.02% | -8.95% |
+| LTH | 3.0% | satellite | 44.38 | 1.28% | 2.07% | 3.59% |
+| MTDR | 2.8% | satellite | 51.35 | -2.21% | 6.34% | -2.51% |
+| CHRW | 2.6% | satellite | 150.26 | 2.43% | 2.45% | -26.97% |
+| BCAX | 1.9% | satellite | 23.99 | -2.6% | -12.8% | -13.08% |
+| EMBC | 1.4% | satellite | 5.09 | 7.26% | 45.57% | 52.09% |
+| ACDC | 1.3% | satellite | 5.39 | 4.96% | 20.83% | 3.75% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.2%
+- Volatilidad anualizada: 8.8%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -5.7%
-- Beta vs SPY: 0.564 · posiciones efectivas: 14.6 · HHI: 0.0687
+- Max drawdown historico: -5.3%
+- Beta vs SPY: 0.584 · posiciones efectivas: 14.2 · HHI: 0.0707
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **AMRZ** · score agregado 473.7 · 6 señales · fuentes: corporate_insider
 - **EMBC** · score agregado 314.3 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **VIA** · score agregado 224.4 · 3 señales · fuentes: corporate_insider
 - **MTDR** · score agregado 223.1 · 3 señales · fuentes: corporate_insider
-- **AMRX** · score agregado 210.6 · 3 señales · fuentes: large_holder
 - **LTH** · score agregado 197.2 · 3 señales · fuentes: congress, large_holder
 - **ACDC** · score agregado 193.8 · 3 señales · fuentes: corporate_insider, large_holder
 - **AVBC** · score agregado 144.8 · 2 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
+- **ECAT** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **BCAX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 777.27 (0.62% / 1.13% / 3.54%) [2026-08-13]
-- QQQ: 733.17 (1.31% / 2.59% / 3.86%) [2026-08-13]
-- IWM: 303.32 (0.2% / 1.7% / 2.61%) [2026-08-13]
-- DIA: 537.1 (-0.01% / -0.2% / 2.37%) [2026-08-13]
-- TLT: 82.56 (0.55% / 0.05% / -1.56%) [2026-08-13]
-- IEF: 93.29 (0.36% / 0.37% / -0.11%) [2026-08-13]
-- GLD: 400.55 (-1.08% / 2.79% / 9.75%) [2026-08-13]
+- SPY: 776.77 (0.55% / 1.07% / 3.47%) [2026-08-13]
+- QQQ: 731.9 (1.13% / 2.41% / 3.68%) [2026-08-13]
+- IWM: 303.2 (0.16% / 1.66% / 2.57%) [2026-08-13]
+- DIA: 537.04 (-0.02% / -0.21% / 2.36%) [2026-08-13]
+- TLT: 82.58 (0.58% / 0.08% / -1.53%) [2026-08-13]
+- IEF: 93.32 (0.38% / 0.39% / -0.09%) [2026-08-13]
+- GLD: 399.55 (-1.33% / 2.54% / 9.48%) [2026-08-13]
 - ^VIX: 14.7 (1.03% / -2.97% / -12.13%) [2026-08-13]
-- BTC-USD: 63166.6 (-0.37% / -2.68% / -1.45%) [2026-08-13]
+- BTC-USD: 63106.78 (-0.47% / -2.77% / -1.55%) [2026-08-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -127,8 +127,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SMCI] Super Micro Climbs 7 % on Record Backlog , Dell and Hewlett Packard Enterprise Gain 3 % (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Giles Richard Platford Sells 31 , 083 Shares (2026-08-13)
-- [DDOG] Datadog Sees AI , Platform Expansion Fueling Accelerating Growth (2026-08-13)
 - [TAK] Insider Selling : Takeda Pharmaceutical ( NYSE : TAK ) CEO Sells $1 , 523 , 439 . 00 in Stock (2026-08-13)
 - [TAK] Takeda Pharmaceutical ( NYSE : TAK ) Insider Sells 22 , 957 Shares (2026-08-13)
 - [TAK] Gabriele Ricci Sells 25 , 088 Shares of Takeda Pharmaceutical ( NYSE : TAK ) Stock (2026-08-13)
@@ -154,16 +154,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $203,259 · win rate 96% · categorias: sports
 - GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
 - theowalcott · PnL $164,957 · win rate 100% · categorias: sports
-- ExplosiveNinja · PnL $23,207 · win rate 97% · categorias: sports
-- CORGI8 · PnL $37,962 · win rate 92% · categorias: sports
+- ExplosiveNinja · PnL $31,364 · win rate 97% · categorias: sports
+- CORGI8 · PnL $41,345 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 802 registros 30d · ultimo dato 2026-08-13
+- **congress**: `warning` · 105 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 801 registros 30d · ultimo dato 2026-08-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -177,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ACDC, AMRX, AMRZ, AVBC, CHRW, EMBC, FWONK, GLD, IEF, LTH, MTDR, QQQ, SPY, TLT, VIA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ACDC, AMRZ, AVBC, BCAX, CHRW, ECAT, EMBC, FWONK, GLD, IEF, LTH, MTDR, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
