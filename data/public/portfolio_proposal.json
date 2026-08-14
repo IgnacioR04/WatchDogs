@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:35:55+00:00",
+  "generated_at": "2026-08-14T11:26:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.8502,
@@ -9,15 +9,17 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "ECAT": 0.0898,
+    "ECAT": 0.0722,
     "IEF": 0.0622,
-    "FWONK": 0.0502,
-    "XRN": 0.0458,
-    "LTH": 0.0334,
-    "AMRZ": 0.0331,
-    "BWXT": 0.0299,
-    "CHRW": 0.0287,
-    "TTAN": 0.0238
+    "UTHR": 0.049,
+    "XRN": 0.0439,
+    "LTH": 0.0361,
+    "FWONK": 0.0357,
+    "ARQT": 0.0246,
+    "AMRZ": 0.0232,
+    "TTAN": 0.0179,
+    "MBGL": 0.0161,
+    "CHRW": 0.016
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0294,
-    "FWONK": 0.0446,
-    "XRN": 0.0407,
-    "CHRW": 0.0255,
-    "LTH": 0.0297,
-    "ECAT": 0.0798,
-    "TTAN": 0.0212,
-    "BWXT": 0.0266
+    "AMRZ": 0.0206,
+    "FWONK": 0.0317,
+    "XRN": 0.039,
+    "MBGL": 0.0143,
+    "CHRW": 0.0142,
+    "LTH": 0.0321,
+    "ARQT": 0.0219,
+    "UTHR": 0.0436,
+    "ECAT": 0.0642,
+    "TTAN": 0.0159
   },
   "satellite_rationale": [
     {
@@ -62,6 +66,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "MBGL",
+      "score": 176.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "CHRW",
       "score": 127.4,
       "sources": [
@@ -78,6 +90,22 @@
       "n_signals": 2
     },
     {
+      "ticker": "ARQT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "UTHR",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "ECAT",
       "score": 71.8,
       "sources": [
@@ -92,28 +120,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "BWXT",
-      "score": 62.0,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1145,
-    "var_95_1d": 0.012,
-    "cvar_95_1d": 0.0143,
-    "max_drawdown": -0.0729,
-    "beta_spy": 0.689,
-    "hhi": 0.073,
+    "ann_vol": 0.0716,
+    "var_95_1d": 0.0068,
+    "cvar_95_1d": 0.0076,
+    "max_drawdown": -0.0204,
+    "beta_spy": 0.424,
+    "hhi": 0.0699,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.7,
+    "n_positions": 15,
+    "effective_positions": 14.3,
     "gross_exposure": 0.8502,
-    "days_used": 131
+    "days_used": 31
   },
   "risk_gate": {
     "passed": true,

@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T10:34:51.843595+00:00",
+  "generated_at": "2026-08-14T11:25:29.157059+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -24,8 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
       "ai",
+      "earnings",
       "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -245,7 +245,7 @@
       "importance_score": 81.7,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_410155155153"
+        "news_194924980430"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
@@ -555,9 +555,10 @@
       {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1053.5,
+        "pressure_score": 1070.9,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -603,14 +604,6 @@
         ]
       },
       {
-        "ticker": "AEHR",
-        "company": "AEHR TEST SYSTEMS",
-        "pressure_score": 453.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SFST",
         "company": "SOUTHERN FIRST BANCSHARES INC",
         "pressure_score": 439.0,
@@ -638,6 +631,14 @@
         "ticker": "IBTA",
         "company": "Ibotta, Inc.",
         "pressure_score": 416.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation, Inc.",
+        "pressure_score": 401.7,
         "sources": [
           "corporate_insider"
         ]
@@ -1213,13 +1214,13 @@
       "date": "2026-08-13"
     },
     {
-      "filer": "Calvin Steven Mitchell",
-      "company": "Marpai, Inc.",
-      "ticker": "MRAI",
-      "ownership_pct": 6.9,
-      "shares": 2050000,
+      "filer": "Anthony Brian Goodman",
+      "company": "Meridian Holdings Inc./NV",
+      "ticker": "MRDN",
+      "ownership_pct": 7.45,
+      "shares": 943734,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     }
   ],
   "polymarket": {
@@ -1237,9 +1238,9 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 80683.57,
-        "win_rate": 0.9592,
-        "volume": 3236843.1,
+        "pnl": 131241.87,
+        "win_rate": 0.9593,
+        "volume": 3781308.9,
         "categories": [
           "sports"
         ]
@@ -1247,9 +1248,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 110799.46,
+        "pnl": 131120.75,
         "win_rate": 0.9254,
-        "volume": 1687557.98,
+        "volume": 1831013.64,
         "categories": [
           "sports"
         ]
@@ -1257,9 +1258,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 88683.27,
+        "pnl": 88683.63,
         "win_rate": 0.905,
-        "volume": 128118.05,
+        "volume": 128189.27,
         "categories": [
           "sports"
         ]
@@ -1276,21 +1277,11 @@
         ]
       },
       {
-        "wallet": "0x05a7aac83a",
-        "username": "Roulette1",
-        "pnl": 15002.7,
-        "win_rate": 0.953,
-        "volume": 110283.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 17117.44,
+        "pnl": 28301.71,
         "win_rate": 0.8955,
-        "volume": 102616.21,
+        "volume": 129823.82,
         "categories": [
           "sports",
           "crypto"
@@ -1299,9 +1290,19 @@
       {
         "wallet": "0x4aec700218",
         "username": "gxxyy",
-        "pnl": 33270.62,
-        "win_rate": 0.8458,
-        "volume": 403259.11,
+        "pnl": 41631.64,
+        "win_rate": 0.8462,
+        "volume": 464157.17,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x282f817479",
+        "username": "lzh1",
+        "pnl": 16696.8,
+        "win_rate": 0.8812,
+        "volume": 63185.73,
         "categories": [
           "sports"
         ]
@@ -1309,22 +1310,21 @@
       {
         "wallet": "0xcf6c549212",
         "username": "one8tyfive",
-        "pnl": 27006.9,
+        "pnl": 27124.73,
         "win_rate": 0.821,
-        "volume": 0.0,
+        "volume": 1434.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 233233.77,
-        "win_rate": 0.65,
-        "volume": 561948.78,
+        "wallet": "0xd6d9ed4117",
+        "username": "acc1211",
+        "pnl": 14234.02,
+        "win_rate": 1.0,
+        "volume": 214952.16,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       }
     ],
@@ -1332,9 +1332,9 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 80683.57,
-        "win_rate": 0.9592,
-        "volume": 3236843.1,
+        "pnl": 131241.87,
+        "win_rate": 0.9593,
+        "volume": 3781308.9,
         "categories": [
           "sports"
         ]
@@ -1342,9 +1342,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 110799.46,
+        "pnl": 131120.75,
         "win_rate": 0.9254,
-        "volume": 1687557.98,
+        "volume": 1831013.64,
         "categories": [
           "sports"
         ]
@@ -1352,9 +1352,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 148674.21,
+        "pnl": 148836.88,
         "win_rate": 0.554,
-        "volume": 841506.67,
+        "volume": 874334.98,
         "categories": [
           "sports"
         ]
@@ -1362,9 +1362,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 233233.77,
+        "pnl": 240243.48,
         "win_rate": 0.65,
-        "volume": 561948.78,
+        "volume": 632277.08,
         "categories": [
           "sports",
           "crypto"
@@ -1393,9 +1393,9 @@
       {
         "wallet": "0x55eca3687e",
         "username": "afkpnlucl",
-        "pnl": 57934.92,
+        "pnl": 57932.15,
         "win_rate": 0.1864,
-        "volume": 438672.26,
+        "volume": 440913.32,
         "categories": [
           "sports",
           "politics",
@@ -1405,19 +1405,9 @@
       {
         "wallet": "0x4aec700218",
         "username": "gxxyy",
-        "pnl": 33270.62,
-        "win_rate": 0.8458,
-        "volume": 403259.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa1035e02c5",
-        "username": "sofa88888",
-        "pnl": 23483.45,
-        "win_rate": 0.9167,
-        "volume": 366102.42,
+        "pnl": 41631.64,
+        "win_rate": 0.8462,
+        "volume": 464157.17,
         "categories": [
           "sports"
         ]
@@ -1425,9 +1415,19 @@
       {
         "wallet": "0xa7e2bdc8cc",
         "username": "NemecGhudini",
-        "pnl": 35030.84,
-        "win_rate": 0.5556,
-        "volume": 281970.99,
+        "pnl": 47386.54,
+        "win_rate": 0.5576,
+        "volume": 362093.69,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa1035e02c5",
+        "username": "sofa88888",
+        "pnl": 21269.27,
+        "win_rate": 0.7857,
+        "volume": 381102.31,
         "categories": [
           "sports"
         ]
@@ -1435,6 +1435,15 @@
     ]
   },
   "news": [
+    {
+      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
+      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
+      "ticker": "RGA",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-14"
+    },
     {
       "title": "Dan Ives Says CoreWeave , Cisco Earnings  Pieces of the Puzzle  for AI Trade :  Get the Popcorn Out  ",
       "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-coreweave-cisco-165357370.html",
@@ -1446,20 +1455,13 @@
       "date": "2026-08-14"
     },
     {
-      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chime-chym-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CHYM",
+      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "RGA",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
       "title": "Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry",
@@ -1471,13 +1473,6 @@
       "date": "2026-08-12"
     },
     {
-      "title": "Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-know-chime-financials-latest-223645494.html",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-08-11"
-    },
-    {
       "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
       "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
       "ticker": "TTAN",
@@ -1487,13 +1482,13 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
-      "ticker": "CHYM",
+      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/08/attovia-therapeutics-nasdaqatto-major-shareholder-redmile-group-llc-purchases-400000-shares.html",
+      "ticker": "ATTO",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-11"
+      "date": "2026-08-08"
     },
     {
       "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
@@ -1503,9 +1498,23 @@
         "stock"
       ],
       "date": "2026-08-08"
+    },
+    {
+      "title": "Attovia Therapeutics Announces Pricing of Upsized Initial Public Offering",
+      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/attovia-therapeutics-announces-pricing-of-upsized-initial-public-offering/2398569",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Attovia Therapeutics Targets $731 . 5M Valuation in Upsized IPO",
+      "url": "https://www.themiddlemarket.com/latest-news/attovia-therapeutics-targets-731-5m-valuation-in-upsized-ipo",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1791,
+  "signals_count": 1788,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
