@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T13:57:42.583213+00:00",
+  "generated_at": "2026-08-14T15:23:31.726782+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -26,7 +26,7 @@
       "stock",
       "ai",
       "earnings",
-      "leadership"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -34,24 +34,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner vendio OPLN ($274.9M)",
-      "summary": "10% owner Ignition Acquisition Holdings LP vendio OPLN por $274.9M el 2026-08-13 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ignition Acquisition Holdings LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "OPLN",
-      "direction": "sell",
-      "amount_estimated": 274880000.0,
-      "event_date": "2026-08-13",
-      "importance_score": 87.1,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1816556/000119312526349541/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "CEO compro COE ($6.8M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $6.8M el 2026-08-12.",
       "source": "sec_form_4",
@@ -66,6 +48,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000008/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "10% owner vendio OPLN ($274.9M)",
+      "summary": "10% owner Ignition Acquisition Holdings LP vendio OPLN por $274.9M el 2026-08-13.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ignition Acquisition Holdings LP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "OPLN",
+      "direction": "sell",
+      "amount_estimated": 274880000.0,
+      "event_date": "2026-08-13",
+      "importance_score": 85.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1816556/000119312526349541/"
     },
     {
       "id": "move_3",
@@ -226,7 +226,10 @@
       "event_date": "2026-08-11",
       "importance_score": 81.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_212794964049",
+        "news_14167285143"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
     {
@@ -500,20 +503,19 @@
         ]
       },
       {
-        "ticker": "EVGN",
-        "company": "Evogene Ltd.",
-        "pressure_score": 214.8,
+        "ticker": "AMH",
+        "company": "American Homes 4 Rent",
+        "pressure_score": 205.3,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
-        "ticker": "JATT",
-        "company": "JATT II Acquisition Corp.",
-        "pressure_score": 211.5,
+        "ticker": "BWXT",
+        "company": "Stock",
+        "pressure_score": 182.9,
         "sources": [
-          "large_holder"
+          "congress"
         ]
       }
     ],
@@ -551,15 +553,6 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1070.9,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "TTAN",
         "company": "ServiceTitan, Inc.",
         "pressure_score": 982.5,
@@ -589,14 +582,6 @@
         "pressure_score": 494.1,
         "sources": [
           "congress",
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PBF",
-        "company": "PBF Energy Inc.",
-        "pressure_score": 471.0,
-        "sources": [
           "corporate_insider"
         ]
       },
@@ -633,9 +618,25 @@
         ]
       },
       {
+        "ticker": "AXIA3",
+        "company": "AXIA Energia S.A.",
+        "pressure_score": 391.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "BKNG",
         "company": "Booking Holdings Inc.",
         "pressure_score": 380.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GH",
+        "company": "Guardant Health, Inc.",
+        "pressure_score": 368.8,
         "sources": [
           "corporate_insider"
         ]
@@ -669,15 +670,6 @@
       "amount": 6036750.0,
       "date": "2026-08-13",
       "score": 81.3
-    },
-    {
-      "ticker": "TXO",
-      "company": "TXO Partners, L.P.",
-      "actor": "SIMPSON BOB R",
-      "actor_type": "ten_percent_owner",
-      "amount": 1789787.5,
-      "date": "2026-08-13",
-      "score": 81.1
     },
     {
       "ticker": "ATTO",
@@ -714,15 +706,6 @@
       "amount": 226000.0,
       "date": "2026-08-12",
       "score": 77.9
-    },
-    {
-      "ticker": "TXO",
-      "company": "TXO Partners, L.P.",
-      "actor": "SIMPSON BOB R",
-      "actor_type": "ten_percent_owner",
-      "amount": 360757.5,
-      "date": "2026-08-12",
-      "score": 77.6
     },
     {
       "ticker": "RM",
@@ -777,6 +760,24 @@
       "amount": 538720.0,
       "date": "2026-08-12",
       "score": 76.0
+    },
+    {
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Currie Jeffrey",
+      "actor_type": "director",
+      "amount": 501637.5,
+      "date": "2026-08-13",
+      "score": 75.9
+    },
+    {
+      "ticker": "MBGL",
+      "company": "Mobility Global Inc.",
+      "actor": "PEEK MARK S",
+      "actor_type": "director",
+      "amount": 487495.0,
+      "date": "2026-08-12",
+      "score": 75.8
     }
   ],
   "institutional_changes": [
@@ -968,7 +969,7 @@
       "direction": "sell",
       "amount": 50000,
       "date": "2026-08-07",
-      "score": 65.2
+      "score": 66.5
     },
     {
       "politician": "James A. Himes",
@@ -1085,143 +1086,64 @@
   ],
   "large_holders": [
     {
-      "filer": "Ardagh Holdings S.A.",
-      "company": "Ardagh Metal Packaging S.A.",
-      "ticker": "",
-      "ownership_pct": 76.02,
-      "shares": 454375314,
+      "filer": "Mithaq Capital SPC",
+      "company": "Childrens Place, Inc.",
+      "ticker": "PLCE",
+      "ownership_pct": 61.1,
+      "shares": 13593236,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
-      "filer": "Huang Ximing",
-      "company": "SHARING ECONOMY INTERNATIONAL INC.",
-      "ticker": "SEII",
-      "ownership_pct": 65.6,
-      "shares": 4103939642,
+      "filer": "Anthony Brian Goodman",
+      "company": "Meridian Holdings Inc./NV",
+      "ticker": "MRDN",
+      "ownership_pct": 7.45,
+      "shares": 943734,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
-      "filer": "BOSTON OMAHA Corp",
-      "company": "Sky Harbour Group Corp",
-      "ticker": "",
-      "ownership_pct": 40.5,
-      "shares": 18699773,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Maurice J Duca",
-      "company": "APPFOLIO, INC.",
-      "ticker": "APPF",
-      "ownership_pct": 21.2,
-      "shares": 6410682,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "L.I.A. Pure Capital Ltd.",
-      "company": "Evogene Ltd.",
-      "ticker": "EVGN",
-      "ownership_pct": 19.35,
-      "shares": 3057488,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Jorge Mas",
-      "company": "MasTec, Inc.",
-      "ticker": "MTZ",
-      "ownership_pct": 14.8,
-      "shares": 11872111,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Saba Capital Management, L.P.",
-      "company": "BlackRock ESG Capital Allocation Term Trust",
-      "ticker": "ECAT",
-      "ownership_pct": 14.75,
-      "shares": 14675673,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Equinox Partners Investment Management LLC",
-      "company": "Gran Tierra Energy Inc.",
-      "ticker": "GTE",
-      "ownership_pct": 11.7,
-      "shares": 4149531,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "SPENCE LIMITED, LP",
-      "company": "EWSB Bancorp, Inc.",
-      "ticker": "EWSB",
-      "ownership_pct": 9.93,
-      "shares": 100710,
+      "filer": "CAS Investment Partners, LLC",
+      "company": "Hilton Grand Vacations Inc.",
+      "ticker": "HGV",
+      "ownership_pct": 6.5,
+      "shares": 5070709,
       "filing_type": "SCHEDULE 13D",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
-      "filer": "Calvin Steven Mitchell",
-      "company": "Marpai, Inc.",
-      "ticker": "MRAI",
-      "ownership_pct": 9.3,
-      "shares": 1950000,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "RECANATI LEON",
-      "company": "Evogene Ltd.",
-      "ticker": "EVGN",
-      "ownership_pct": 8.6,
-      "shares": 1354836,
+      "filer": "Farallon Capital Management, L.L.C.",
+      "company": "EXELIXIS, INC.",
+      "ticker": "EXEL",
+      "ownership_pct": 5.6,
+      "shares": 13989010,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Jonathan Segal",
-      "company": "ONE Group Hospitality, Inc.",
-      "ticker": "STKS",
-      "ownership_pct": 8.0,
-      "shares": 2544259,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Richard Griffiths",
-      "company": "Silence Therapeutics Plc",
-      "ticker": "",
-      "ownership_pct": 7.97,
-      "shares": 14391498,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Jose Ramon Mas",
-      "company": "MasTec, Inc.",
-      "ticker": "MTZ",
-      "ownership_pct": 7.7,
-      "shares": 6185090,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
-    },
-    {
-      "filer": "Calvin Steven Mitchell",
-      "company": "Marpai, Inc.",
-      "ticker": "MRAI",
-      "ownership_pct": 6.9,
-      "shares": 2050000,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 330774.02,
+        "win_rate": 0.9596,
+        "volume": 3953936.35,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 387338.01,
+        "win_rate": 0.9272,
+        "volume": 2924286.54,
+        "categories": [
+          "sports"
+        ]
+      },
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
@@ -1233,31 +1155,11 @@
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 175760.38,
-        "win_rate": 0.9596,
-        "volume": 3953936.35,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 237361.44,
-        "win_rate": 0.9268,
-        "volume": 2675392.96,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 60744.89,
-        "win_rate": 0.9727,
-        "volume": 263711.07,
+        "pnl": 52828.55,
+        "win_rate": 0.973,
+        "volume": 275053.72,
         "categories": [
           "sports"
         ]
@@ -1265,9 +1167,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 74745.41,
-        "win_rate": 0.9242,
-        "volume": 688400.49,
+        "pnl": 103385.79,
+        "win_rate": 0.9259,
+        "volume": 692597.45,
         "categories": [
           "sports"
         ]
@@ -1275,9 +1177,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 89213.53,
+        "pnl": 89052.5,
         "win_rate": 0.905,
-        "volume": 150876.87,
+        "volume": 164653.23,
         "categories": [
           "sports"
         ]
@@ -1285,20 +1187,9 @@
       {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 25913.91,
+        "pnl": 24726.06,
         "win_rate": 0.975,
-        "volume": 151857.8,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 33637.33,
-        "win_rate": 0.8957,
-        "volume": 243994.31,
+        "volume": 160803.32,
         "categories": [
           "sports",
           "crypto"
@@ -1307,9 +1198,20 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 22211.9,
-        "win_rate": 0.9062,
-        "volume": 228666.42,
+        "pnl": 20273.0,
+        "win_rate": 0.9065,
+        "volume": 247757.22,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 20691.62,
+        "win_rate": 0.8957,
+        "volume": 313072.62,
         "categories": [
           "sports",
           "crypto"
@@ -1318,9 +1220,9 @@
       {
         "wallet": "0x282f817479",
         "username": "lzh1",
-        "pnl": 30251.66,
+        "pnl": 22735.63,
         "win_rate": 0.8824,
-        "volume": 89989.65,
+        "volume": 96989.65,
         "categories": [
           "sports"
         ]
@@ -1328,9 +1230,19 @@
     ],
     "whales": [
       {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 387338.01,
+        "win_rate": 0.9272,
+        "volume": 2924286.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 175760.38,
+        "pnl": 330774.02,
         "win_rate": 0.9596,
         "volume": 3953936.35,
         "categories": [
@@ -1338,21 +1250,11 @@
         ]
       },
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 237361.44,
-        "win_rate": 0.9268,
-        "volume": 2675392.96,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 144504.16,
+        "pnl": 143933.17,
         "win_rate": 0.554,
-        "volume": 1229875.03,
+        "volume": 1248946.23,
         "categories": [
           "sports"
         ]
@@ -1360,9 +1262,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 287855.57,
-        "win_rate": 0.65,
-        "volume": 1047087.73,
+        "pnl": 275361.92,
+        "win_rate": 0.649,
+        "volume": 1351652.12,
         "categories": [
           "sports",
           "crypto"
@@ -1371,19 +1273,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 74745.41,
-        "win_rate": 0.9242,
-        "volume": 688400.49,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa7e2bdc8cc",
-        "username": "NemecGhudini",
-        "pnl": 50827.76,
-        "win_rate": 0.5629,
-        "volume": 553843.96,
+        "pnl": 103385.79,
+        "win_rate": 0.9259,
+        "volume": 692597.45,
         "categories": [
           "sports"
         ]
@@ -1409,9 +1301,20 @@
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 20691.62,
+        "win_rate": 0.8957,
+        "volume": 313072.62,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x04b1e3aff4",
         "username": "254321758",
-        "pnl": 24504.64,
+        "pnl": 24510.1,
         "win_rate": 0.651,
         "volume": 509313.98,
         "categories": [
@@ -1422,9 +1325,9 @@
       {
         "wallet": "0x4aec700218",
         "username": "gxxyy",
-        "pnl": 45079.25,
-        "win_rate": 0.8469,
-        "volume": 511413.73,
+        "pnl": 36827.27,
+        "win_rate": 0.8452,
+        "volume": 525413.69,
         "categories": [
           "sports"
         ]
@@ -1433,11 +1336,37 @@
   },
   "news": [
     {
-      "title": "United Therapeutics ( NASDAQ : UTHR ) CEO Martine Rothblatt Sells 9 , 500 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/14/united-therapeutics-nasdaquthr-ceo-martine-rothblatt-sells-9500-shares-of-stock.html",
-      "ticker": "UTHR",
+      "title": "104 Billion Reasons to Buy CoreWeave Stock",
+      "url": "https://www.fool.com/investing/2026/08/14/104-billion-reasons-to-buy-coreweave-stock/",
+      "ticker": "CRWV",
       "themes": [
-        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "CoreWeave Signals Sunny Skies for AI Infrastructure",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-signals-sunny-skies-ai-040100271.html",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Director Colin Walsh Sells 105 , 807 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/14/attovia-therapeutics-nasdaqatto-director-colin-walsh-sells-105807-shares.html",
+      "ticker": "ATTO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/14/servicetitan-nasdaqttan-president-vahe-kuzoyan-sells-114732-shares.html",
+      "ticker": "TTAN",
+      "themes": [
         "stock"
       ],
       "date": "2026-08-14"
@@ -1461,15 +1390,6 @@
       "date": "2026-08-14"
     },
     {
-      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
-      "url": "https://www.el-balad.com/17041443",
-      "ticker": "P",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
       "title": "Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % ",
       "url": "https://www.rttnews.com/3680063/applied-industrial-sees-growth-in-fy27-stock-up-4-2-update.aspx",
       "ticker": "AIT",
@@ -1488,13 +1408,13 @@
       "date": "2026-08-13"
     },
     {
-      "title": "Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry",
-      "url": "https://www.investors.com/news/technology/liquidia-stock-liquidia-earnings-q2-2026/",
-      "ticker": "UTHR",
+      "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
+      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
+      "ticker": "TTAN",
       "themes": [
-        "stock"
+        "regulatory"
       ],
-      "date": "2026-08-12"
+      "date": "2026-08-11"
     },
     {
       "title": "Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday",
@@ -1507,6 +1427,24 @@
       "date": "2026-08-11"
     },
     {
+      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/08/attovia-therapeutics-nasdaqatto-major-shareholder-redmile-group-llc-purchases-400000-shares.html",
+      "ticker": "ATTO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
+      "url": "https://www.dailypolitical.com/2026/08/08/california-state-teachers-retirement-system-grows-stock-holdings-in-servicetitan-inc-ttan.html",
+      "ticker": "TTAN",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-08"
+    },
+    {
       "title": "Research Analysts Set Expectations for AIT Q4 Earnings",
       "url": "https://www.dailypolitical.com/2026/08/07/research-analysts-set-expectations-for-ait-q4-earnings.html",
       "ticker": "AIT",
@@ -1515,9 +1453,23 @@
         "ai"
       ],
       "date": "2026-08-07"
+    },
+    {
+      "title": "Attovia Therapeutics Announces Pricing of Upsized Initial Public Offering",
+      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/attovia-therapeutics-announces-pricing-of-upsized-initial-public-offering/2398569",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Attovia Therapeutics Targets $731 . 5M Valuation in Upsized IPO",
+      "url": "https://www.themiddlemarket.com/latest-news/attovia-therapeutics-targets-731-5m-valuation-in-upsized-ipo",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1782,
+  "signals_count": 1747,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
