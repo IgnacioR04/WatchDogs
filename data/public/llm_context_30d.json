@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T12:12:40.858347+00:00",
+  "generated_at": "2026-08-14T13:57:42.583213+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "leadership",
+      "ai",
       "earnings",
-      "regulatory"
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -444,14 +444,6 @@
         ]
       },
       {
-        "ticker": "XRN",
-        "company": "Chiron Real Estate Inc.",
-        "pressure_score": 300.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NVDA",
         "company": "NVIDIA Corporation",
         "pressure_score": 281.6,
@@ -515,6 +507,14 @@
           "corporate_insider",
           "large_holder"
         ]
+      },
+      {
+        "ticker": "JATT",
+        "company": "JATT II Acquisition Corp.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -561,11 +561,10 @@
       },
       {
         "ticker": "TTAN",
-        "company": "ServiceTitan Inc",
-        "pressure_score": 998.8,
+        "company": "ServiceTitan, Inc.",
+        "pressure_score": 982.5,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -602,14 +601,6 @@
         ]
       },
       {
-        "ticker": "SFST",
-        "company": "SOUTHERN FIRST BANCSHARES INC",
-        "pressure_score": 439.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "TG",
         "company": "TREDEGAR CORP",
         "pressure_score": 423.3,
@@ -640,6 +631,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "BKNG",
+        "company": "Booking Holdings Inc.",
+        "pressure_score": 380.8,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -661,6 +660,15 @@
       "amount": 4997020.2,
       "date": "2026-08-11",
       "score": 84.3
+    },
+    {
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Troim Tor Olav",
+      "actor_type": "director",
+      "amount": 6036750.0,
+      "date": "2026-08-13",
+      "score": 81.3
     },
     {
       "ticker": "TXO",
@@ -706,15 +714,6 @@
       "amount": 226000.0,
       "date": "2026-08-12",
       "score": 77.9
-    },
-    {
-      "ticker": "XRN",
-      "company": "Chiron Real Estate Inc.",
-      "actor": "Decker Mark Okey Jr",
-      "actor_type": "ceo",
-      "amount": 246950.0,
-      "date": "2026-08-11",
-      "score": 77.8
     },
     {
       "ticker": "TXO",
@@ -1212,13 +1211,13 @@
       "date": "2026-08-13"
     },
     {
-      "filer": "Anthony Brian Goodman",
-      "company": "Meridian Holdings Inc./NV",
-      "ticker": "MRDN",
-      "ownership_pct": 7.45,
-      "shares": 943734,
+      "filer": "Calvin Steven Mitchell",
+      "company": "Marpai, Inc.",
+      "ticker": "MRAI",
+      "ownership_pct": 6.9,
+      "shares": 2050000,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-14"
+      "date": "2026-08-13"
     }
   ],
   "polymarket": {
@@ -1226,7 +1225,7 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 129401.09,
+        "pnl": 129765.53,
         "win_rate": 0.9808,
         "volume": 271266.62,
         "categories": [
@@ -1236,9 +1235,9 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 131241.87,
-        "win_rate": 0.9593,
-        "volume": 3781308.9,
+        "pnl": 175760.38,
+        "win_rate": 0.9596,
+        "volume": 3953936.35,
         "categories": [
           "sports"
         ]
@@ -1246,9 +1245,29 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 131120.75,
-        "win_rate": 0.9254,
-        "volume": 1831013.64,
+        "pnl": 237361.44,
+        "win_rate": 0.9268,
+        "volume": 2675392.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 60744.89,
+        "win_rate": 0.9727,
+        "volume": 263711.07,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 74745.41,
+        "win_rate": 0.9242,
+        "volume": 688400.49,
         "categories": [
           "sports"
         ]
@@ -1256,9 +1275,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 88683.63,
+        "pnl": 89213.53,
         "win_rate": 0.905,
-        "volume": 128189.27,
+        "volume": 150876.87,
         "categories": [
           "sports"
         ]
@@ -1266,9 +1285,9 @@
       {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 21069.49,
+        "pnl": 25913.91,
         "win_rate": 0.975,
-        "volume": 127358.34,
+        "volume": 151857.8,
         "categories": [
           "sports",
           "crypto"
@@ -1277,50 +1296,31 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 28301.71,
-        "win_rate": 0.8955,
-        "volume": 129823.82,
+        "pnl": 33637.33,
+        "win_rate": 0.8957,
+        "volume": 243994.31,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x4aec700218",
-        "username": "gxxyy",
-        "pnl": 41631.64,
-        "win_rate": 0.8465,
-        "volume": 464157.17,
+        "wallet": "0x57b4520916",
+        "username": "Skyfker",
+        "pnl": 22211.9,
+        "win_rate": 0.9062,
+        "volume": 228666.42,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
         "wallet": "0x282f817479",
         "username": "lzh1",
-        "pnl": 16696.8,
-        "win_rate": 0.8812,
-        "volume": 63185.73,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcf6c549212",
-        "username": "one8tyfive",
-        "pnl": 27124.73,
-        "win_rate": 0.821,
-        "volume": 1434.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd6d9ed4117",
-        "username": "acc1211",
-        "pnl": 14234.02,
-        "win_rate": 1.0,
-        "volume": 214952.16,
+        "pnl": 30251.66,
+        "win_rate": 0.8824,
+        "volume": 89989.65,
         "categories": [
           "sports"
         ]
@@ -1330,9 +1330,9 @@
       {
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 131241.87,
-        "win_rate": 0.9593,
-        "volume": 3781308.9,
+        "pnl": 175760.38,
+        "win_rate": 0.9596,
+        "volume": 3953936.35,
         "categories": [
           "sports"
         ]
@@ -1340,9 +1340,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 131120.75,
-        "win_rate": 0.9254,
-        "volume": 1831013.64,
+        "pnl": 237361.44,
+        "win_rate": 0.9268,
+        "volume": 2675392.96,
         "categories": [
           "sports"
         ]
@@ -1350,9 +1350,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 148836.88,
+        "pnl": 144504.16,
         "win_rate": 0.554,
-        "volume": 874334.98,
+        "volume": 1229875.03,
         "categories": [
           "sports"
         ]
@@ -1360,18 +1360,38 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 240243.48,
-        "win_rate": 0.651,
-        "volume": 632277.08,
+        "pnl": 287855.57,
+        "win_rate": 0.65,
+        "volume": 1047087.73,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 74745.41,
+        "win_rate": 0.9242,
+        "volume": 688400.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa7e2bdc8cc",
+        "username": "NemecGhudini",
+        "pnl": 50827.76,
+        "win_rate": 0.5629,
+        "volume": 553843.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 129401.09,
+        "pnl": 129765.53,
         "win_rate": 0.9808,
         "volume": 271266.62,
         "categories": [
@@ -1389,43 +1409,22 @@
         ]
       },
       {
-        "wallet": "0x55eca3687e",
-        "username": "afkpnlucl",
-        "pnl": 57932.15,
-        "win_rate": 0.1864,
-        "volume": 440913.32,
+        "wallet": "0x04b1e3aff4",
+        "username": "254321758",
+        "pnl": 24504.64,
+        "win_rate": 0.651,
+        "volume": 509313.98,
         "categories": [
           "sports",
-          "politics",
-          "crypto"
+          "politics"
         ]
       },
       {
         "wallet": "0x4aec700218",
         "username": "gxxyy",
-        "pnl": 41631.64,
-        "win_rate": 0.8465,
-        "volume": 464157.17,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa7e2bdc8cc",
-        "username": "NemecGhudini",
-        "pnl": 47386.54,
-        "win_rate": 0.5602,
-        "volume": 362093.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa1035e02c5",
-        "username": "sofa88888",
-        "pnl": 21269.27,
-        "win_rate": 0.7857,
-        "volume": 381102.31,
+        "pnl": 45079.25,
+        "win_rate": 0.8469,
+        "volume": 511413.73,
         "categories": [
           "sports"
         ]
@@ -1444,27 +1443,47 @@
       "date": "2026-08-14"
     },
     {
-      "title": "ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/14/servicetitan-nasdaqttan-president-vahe-kuzoyan-sells-114732-shares.html",
-      "ticker": "TTAN",
+      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
+      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
+      "ticker": "RGA",
       "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-08-14"
     },
     {
-      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
-      "ticker": "CHYM",
-      "themes": [],
+      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "RGA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
+      "url": "https://www.el-balad.com/17041443",
+      "ticker": "P",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-08-13"
     },
     {
-      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chime-chym-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CHYM",
+      "title": "Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % ",
+      "url": "https://www.rttnews.com/3680063/applied-industrial-sees-growth-in-fy27-stock-up-4-2-update.aspx",
+      "ticker": "AIT",
       "themes": [
-        "earnings"
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/13/reviewing-npk-international-nysenpki-and-applied-industrial-technologies-nyseait.html",
+      "ticker": "AIT",
+      "themes": [
+        "ai"
       ],
       "date": "2026-08-13"
     },
@@ -1478,41 +1497,27 @@
       "date": "2026-08-12"
     },
     {
-      "title": "Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-know-chime-financials-latest-223645494.html",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-08-11"
-    },
-    {
-      "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
-      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
-      "ticker": "TTAN",
+      "title": "Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday",
+      "url": "https://www.tickerreport.com/banking-finance/13538108/applied-industrial-technologies-ait-projected-to-announce-quarterly-earnings-on-thursday.html",
+      "ticker": "AIT",
       "themes": [
-        "regulatory"
+        "earnings",
+        "ai"
       ],
       "date": "2026-08-11"
     },
     {
-      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
-      "ticker": "CHYM",
+      "title": "Research Analysts Set Expectations for AIT Q4 Earnings",
+      "url": "https://www.dailypolitical.com/2026/08/07/research-analysts-set-expectations-for-ait-q4-earnings.html",
+      "ticker": "AIT",
       "themes": [
-        "stock"
+        "earnings",
+        "ai"
       ],
-      "date": "2026-08-11"
-    },
-    {
-      "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
-      "url": "https://www.dailypolitical.com/2026/08/08/california-state-teachers-retirement-system-grows-stock-holdings-in-servicetitan-inc-ttan.html",
-      "ticker": "TTAN",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-08"
+      "date": "2026-08-07"
     }
   ],
-  "signals_count": 1796,
+  "signals_count": 1782,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
