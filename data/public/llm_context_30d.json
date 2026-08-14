@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T06:57:06.832605+00:00",
+  "generated_at": "2026-08-14T08:52:52.436417+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "ai",
       "earnings",
+      "stock",
       "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -244,7 +244,11 @@
       "event_date": "2026-08-11",
       "importance_score": 81.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_457540845678",
+        "news_787748815518",
+        "news_823105125633"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
     {
@@ -509,11 +513,10 @@
         ]
       },
       {
-        "ticker": "BWXT",
-        "company": "Stock",
-        "pressure_score": 186.8,
+        "ticker": "AMH",
+        "company": "American Homes 4 Rent",
+        "pressure_score": 205.3,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       }
@@ -754,6 +757,15 @@
       "score": 76.5
     },
     {
+      "ticker": "TNC",
+      "company": "TENNANT CO",
+      "actor": "Mulligan Donal L",
+      "actor_type": "director",
+      "amount": 538720.0,
+      "date": "2026-08-12",
+      "score": 76.0
+    },
+    {
       "ticker": "XRN",
       "company": "Chiron Real Estate Inc.",
       "actor": "Roseth Aaron Robert",
@@ -770,15 +782,6 @@
       "amount": 487495.0,
       "date": "2026-08-12",
       "score": 75.8
-    },
-    {
-      "ticker": "ALT",
-      "company": "Altimmune, Inc.",
-      "actor": "Durso Jerome Benedict",
-      "actor_type": "ceo",
-      "amount": 44250.0,
-      "date": "2026-08-13",
-      "score": 75.6
     }
   ],
   "institutional_changes": [
@@ -1227,7 +1230,7 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 129361.26,
+        "pnl": 129401.09,
         "win_rate": 0.9808,
         "volume": 271266.62,
         "categories": [
@@ -1235,11 +1238,21 @@
         ]
       },
       {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 147130.19,
+        "win_rate": 0.9589,
+        "volume": 2523389.12,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 88968.66,
+        "pnl": 89020.05,
         "win_rate": 0.905,
-        "volume": 108509.29,
+        "volume": 115481.63,
         "categories": [
           "sports"
         ]
@@ -1247,20 +1260,20 @@
       {
         "wallet": "0x6982049c65",
         "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 22662.87,
+        "pnl": 22064.25,
         "win_rate": 0.975,
-        "volume": 119737.22,
+        "volume": 127358.34,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xb915070c80",
-        "username": "Kingdmandan",
-        "pnl": 11115.85,
-        "win_rate": 0.9703,
-        "volume": 0.0,
+        "wallet": "0x3413c803c3",
+        "username": "Dota2winner",
+        "pnl": 19817.4,
+        "win_rate": 0.9631,
+        "volume": 475946.21,
         "categories": [
           "sports"
         ]
@@ -1277,16 +1290,6 @@
         ]
       },
       {
-        "wallet": "0x4aec700218",
-        "username": "gxxyy",
-        "pnl": 20494.06,
-        "win_rate": 0.8429,
-        "volume": 222766.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xcf6c549212",
         "username": "one8tyfive",
         "pnl": 27006.9,
@@ -1297,30 +1300,30 @@
         ]
       },
       {
+        "wallet": "0x4aec700218",
+        "username": "gxxyy",
+        "pnl": 15583.16,
+        "win_rate": 0.8472,
+        "volume": 303633.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 207222.54,
-        "win_rate": 0.648,
-        "volume": 398794.76,
+        "pnl": 210513.3,
+        "win_rate": 0.649,
+        "volume": 408664.05,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xc6e9560680",
-        "username": "luck00004",
-        "pnl": 19129.99,
-        "win_rate": 0.963,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x8c0b024c17",
         "username": "IMAREALPERSON",
-        "pnl": 36879.41,
+        "pnl": 36884.15,
         "win_rate": 0.734,
         "volume": 134666.43,
         "categories": [
@@ -1331,9 +1334,19 @@
     ],
     "whales": [
       {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 147130.19,
+        "win_rate": 0.9589,
+        "volume": 2523389.12,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 148893.85,
+        "pnl": 148972.92,
         "win_rate": 0.554,
         "volume": 767864.66,
         "categories": [
@@ -1343,9 +1356,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 207222.54,
-        "win_rate": 0.648,
-        "volume": 398794.76,
+        "pnl": 210513.3,
+        "win_rate": 0.649,
+        "volume": 408664.05,
         "categories": [
           "sports",
           "crypto"
@@ -1354,7 +1367,7 @@
       {
         "wallet": "0x04d5524a0a",
         "username": "WTSA",
-        "pnl": 129361.26,
+        "pnl": 129401.09,
         "win_rate": 0.9808,
         "volume": 271266.62,
         "categories": [
@@ -1372,9 +1385,31 @@
         ]
       },
       {
+        "wallet": "0x3413c803c3",
+        "username": "Dota2winner",
+        "pnl": 19817.4,
+        "win_rate": 0.9631,
+        "volume": 475946.21,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x55eca3687e",
+        "username": "afkpnlucl",
+        "pnl": 57837.89,
+        "win_rate": 0.1864,
+        "volume": 361786.99,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 59659.34,
+        "pnl": 59439.57,
         "win_rate": 0.663,
         "volume": 351784.0,
         "categories": [
@@ -1382,59 +1417,83 @@
         ]
       },
       {
+        "wallet": "0xa1035e02c5",
+        "username": "sofa88888",
+        "pnl": 14930.12,
+        "win_rate": 0.8889,
+        "volume": 297567.82,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x4aec700218",
         "username": "gxxyy",
-        "pnl": 20494.06,
-        "win_rate": 0.8429,
-        "volume": 222766.65,
+        "pnl": 15583.16,
+        "win_rate": 0.8472,
+        "volume": 303633.47,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x5e6e2c3f06",
-        "username": "basementdweller3000",
-        "pnl": 20498.62,
-        "win_rate": 0.464,
-        "volume": 157505.35,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 29961.63,
-        "win_rate": 0.533,
-        "volume": 432066.02,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8c0b024c17",
-        "username": "IMAREALPERSON",
-        "pnl": 36879.41,
-        "win_rate": 0.734,
-        "volume": 134666.43,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x1fee90f352",
-        "username": "lomneivan",
-        "pnl": 29020.18,
-        "win_rate": 0.7442,
-        "volume": 97750.06,
-        "categories": [
-          "politics"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
+      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
+      "ticker": "RGA",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Dan Ives Says CoreWeave , Cisco Earnings  Pieces of the Puzzle  for AI Trade :  Get the Popcorn Out  ",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-coreweave-cisco-165357370.html",
+      "ticker": "CRWV",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "CoreWeave ( NASDAQ : CRWV ), Nebius ( NASDAQ : NBIS ) And Supermicro ( NASDAQ : SMCI ) Post Blowout Quarters As AI Infrastructure Boom Accelerates",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/13/coreweave-nasdaq-crwv-nebius-nasdaq-nbis-and-supermicro-nasdaq-smci-post-blowout-quarters-as-ai-infrastructure-boom-accelerates/",
+      "ticker": "CRWV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Needham keeps CoreWeave at Hold despite Q2 beat and higher estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/needham-keeps-coreweave-hold-despite-142751806.html",
+      "ticker": "CRWV",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "RGA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
+      "url": "https://www.el-balad.com/17041443",
+      "ticker": "P",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-13"
+    },
     {
       "title": "Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % ",
       "url": "https://www.rttnews.com/3680063/applied-industrial-sees-growth-in-fy27-stock-up-4-2-update.aspx",
@@ -1515,7 +1574,7 @@
       "date": "2026-08-04"
     }
   ],
-  "signals_count": 1710,
+  "signals_count": 1795,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
