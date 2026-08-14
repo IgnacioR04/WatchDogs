@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-13T23:16:08+00:00 · ventana señales 2026-07-14 -> 2026-08-13_
+_Generado 2026-08-14T00:16:07+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,37 +26,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 732.07 | 1.16% | 2.44% | 3.7% |
 | TLT | 12.0% | core | 82.59 | 0.58% | 0.08% | -1.53% |
 | GLD | 9.3% | core | 398.96 | -1.47% | 2.38% | 9.32% |
-| ECAT | 8.9% | satellite | 15.83 | 0.06% | 2.0% | 1.15% |
+| ECAT | 8.8% | satellite | 15.83 | 0.06% | 2.13% | 1.15% |
 | IEF | 6.2% | core | 93.3 | 0.37% | 0.38% | -0.11% |
-| LTH | 4.5% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
-| FWONK | 4.4% | satellite | 103.69 | 0.08% | 4.01% | 4.06% |
-| AMRZ | 2.9% | satellite | 46.75 | 0.82% | -8.73% | -8.66% |
-| LILA | 2.9% | satellite | 8.55 | -1.16% | -1.72% | 14.15% |
-| TTAN | 2.8% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
-| MBGL | 2.1% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
-| CHRW | 2.0% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
-| DFH | 1.7% | satellite | 14.84 | 3.13% | 5.85% | -10.17% |
-| EMBC | 1.4% | satellite | 5.11 | 7.58% | 46.0% | 52.54% |
+| LTH | 4.4% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
+| FWONK | 4.4% | satellite | 103.69 | 0.08% | 7.95% | 3.69% |
+| AMRZ | 2.8% | satellite | 46.75 | 0.82% | -11.59% | -7.88% |
+| G | 2.8% | satellite | 34.37 | 1.24% | -4.95% | 10.09% |
+| LILA | 2.7% | satellite | 8.55 | -1.16% | -1.72% | 14.15% |
+| TTAN | 2.2% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
+| MBGL | 2.0% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
+| CHRW | 1.9% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
+| EMBC | 1.3% | satellite | 5.11 | 7.58% | 43.14% | 58.7% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.3%
-- Beta vs SPY: None · posiciones efectivas: 14.0 · HHI: 0.0713
+- Volatilidad anualizada: 7.5%
+- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.7%
+- Max drawdown historico: -1.8%
+- Beta vs SPY: 0.42 · posiciones efectivas: 14.0 · HHI: 0.0712
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **AMRZ** · score agregado 473.7 · 6 señales · fuentes: corporate_insider
 - **EMBC** · score agregado 314.3 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **DFH** · score agregado 247.6 · 4 señales · fuentes: corporate_insider, large_holder
 - **LILA** · score agregado 227.6 · 3 señales · fuentes: corporate_insider
 - **MBGL** · score agregado 176.8 · 3 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **ECAT** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TTAN** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **G** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.3 (0.37% / 0.38% / -0.11%) [2026-08-13]
 - GLD: 398.96 (-1.47% / 2.38% / 9.32%) [2026-08-13]
 - ^VIX: 14.63 (0.55% / -3.43% / -12.55%) [2026-08-13]
-- BTC-USD: 63419.71 (0.03% / -2.29% / -1.06%) [2026-08-13]
+- BTC-USD: 63441.32 (0.06% / -2.25% / -1.03%) [2026-08-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,16 +123,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (3), stock (3), earnings (1)
+**Temas dominantes**: ai (3), earnings (3), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [STBA] Recent Investment Analyst Ratings Changes for S & T Bancorp ( STBA ) (2026-08-13)
-- [UTHR] Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry (2026-08-12)
-- [TTAN] ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026 (2026-08-11)
-- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
-- [TTAN] California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN (2026-08-08)
-- [STBA] S & T Bancorp ( NASDAQ : STBA ) Reaches New 1 - Year High Following Analyst Upgrade (2026-07-31)
+- [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
+- [AIT] Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % (2026-08-13)
+- [AIT] Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) (2026-08-13)
+- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [CHYM] Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter (2026-08-11)
+- [AIT] Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday (2026-08-11)
+- [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
+- [AIT] Research Analysts Set Expectations for AIT Q4 Earnings (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,8 +151,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $203,259 · win rate 96% · categorias: sports
 - GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
-- theowalcott · PnL $166,006 · win rate 100% · categorias: sports
-- CORGI8 · PnL $51,490 · win rate 92% · categorias: sports
+- theowalcott · PnL $126,564 · win rate 100% · categorias: sports
+- CORGI8 · PnL $48,248 · win rate 92% · categorias: sports
 - Skritopoolniy · PnL $44,331 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -158,8 +160,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 105 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 675 registros 30d · ultimo dato 2026-08-13
+- **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 726 registros 30d · ultimo dato 2026-08-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -173,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, CHRW, DFH, ECAT, EMBC, FWONK, GLD, IEF, LILA, LTH, MBGL, QQQ, SPY, TLT, TTAN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, CHRW, ECAT, EMBC, FWONK, G, GLD, IEF, LILA, LTH, MBGL, QQQ, SPY, TLT, TTAN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
