@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-14T05:18:53+00:00",
+  "generated_at": "2026-08-14T06:57:56+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "ECAT": 0.0791,
+    "ECAT": 0.0845,
     "IEF": 0.0622,
-    "FWONK": 0.0438,
-    "XRN": 0.0399,
-    "LTH": 0.0292,
-    "AMRZ": 0.0287,
-    "G": 0.0286,
-    "BWXT": 0.0261,
-    "CHRW": 0.025,
-    "TTAN": 0.0208,
-    "GTE": 0.0135
+    "XRN": 0.0485,
+    "FWONK": 0.043,
+    "LTH": 0.0403,
+    "AMRZ": 0.0268,
+    "TTAN": 0.0228,
+    "MBGL": 0.0186,
+    "CODI": 0.0183,
+    "CHRW": 0.0182,
+    "MKTX": 0.0135
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0255,
-    "FWONK": 0.0389,
-    "XRN": 0.0355,
-    "CHRW": 0.0222,
-    "LTH": 0.026,
-    "ECAT": 0.0703,
-    "TTAN": 0.0185,
-    "G": 0.0254,
-    "GTE": 0.012,
-    "BWXT": 0.0232
+    "AMRZ": 0.0238,
+    "FWONK": 0.0382,
+    "XRN": 0.0431,
+    "CODI": 0.0163,
+    "MBGL": 0.0165,
+    "CHRW": 0.0162,
+    "LTH": 0.0358,
+    "ECAT": 0.0751,
+    "TTAN": 0.0203,
+    "MKTX": 0.012
   },
   "satellite_rationale": [
     {
@@ -60,6 +60,22 @@
     {
       "ticker": "XRN",
       "score": 242.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "CODI",
+      "score": 217.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "MBGL",
+      "score": 176.8,
       "sources": [
         "corporate_insider"
       ],
@@ -98,42 +114,26 @@
       "n_signals": 1
     },
     {
-      "ticker": "G",
+      "ticker": "MKTX",
       "score": 71.8,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "GTE",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "BWXT",
-      "score": 62.0,
-      "sources": [
-        "congress"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1084,
-    "var_95_1d": 0.011,
-    "cvar_95_1d": 0.0145,
-    "max_drawdown": -0.0666,
-    "beta_spy": 0.639,
-    "hhi": 0.07,
+    "ann_vol": 0.0777,
+    "var_95_1d": 0.006,
+    "cvar_95_1d": 0.008,
+    "max_drawdown": -0.0216,
+    "beta_spy": null,
+    "hhi": 0.0712,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.3,
-    "gross_exposure": 0.8502,
-    "days_used": 131
+    "effective_positions": 14.1,
+    "gross_exposure": 0.85,
+    "days_used": 29
   },
   "risk_gate": {
     "passed": true,
