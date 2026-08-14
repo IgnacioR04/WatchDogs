@@ -1,22 +1,25 @@
 {
-  "generated_at": "2026-08-14T15:24:21+00:00",
+  "generated_at": "2026-08-14T16:21:41+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "LTH": 0.071,
-    "FWONK": 0.0702,
+    "AMH": 0.0714,
     "IEF": 0.0622,
-    "ARQT": 0.0485,
-    "AMRZ": 0.0454,
-    "CODI": 0.0362,
-    "MBGL": 0.0317,
-    "CHRW": 0.0314
+    "FWONK": 0.0529,
+    "LTH": 0.0352,
+    "AMRZ": 0.0349,
+    "KN": 0.0334,
+    "CHRW": 0.0301,
+    "CODI": 0.0242,
+    "CC": 0.0209,
+    "ABCL": 0.018,
+    "RCAT": 0.0135
   },
   "core": {
     "SPY": 0.1934,
@@ -26,22 +29,25 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0404,
-    "FWONK": 0.0624,
-    "CODI": 0.0322,
-    "MBGL": 0.0282,
-    "CHRW": 0.0279,
-    "LTH": 0.0631,
-    "ARQT": 0.0431
+    "AMRZ": 0.031,
+    "FWONK": 0.047,
+    "CODI": 0.0215,
+    "ABCL": 0.016,
+    "CC": 0.0186,
+    "CHRW": 0.0268,
+    "LTH": 0.0313,
+    "AMH": 0.0635,
+    "KN": 0.0297,
+    "RCAT": 0.012
   },
   "satellite_rationale": [
     {
       "ticker": "AMRZ",
-      "score": 473.7,
+      "score": 313.1,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 6
+      "n_signals": 4
     },
     {
       "ticker": "FWONK",
@@ -60,12 +66,20 @@
       "n_signals": 3
     },
     {
-      "ticker": "MBGL",
-      "score": 176.8,
+      "ticker": "ABCL",
+      "score": 154.3,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 2
+    },
+    {
+      "ticker": "CC",
+      "score": 143.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "CHRW",
@@ -84,7 +98,23 @@
       "n_signals": 2
     },
     {
-      "ticker": "ARQT",
+      "ticker": "AMH",
+      "score": 109.1,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "KN",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RCAT",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -93,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0839,
-    "var_95_1d": 0.008,
-    "cvar_95_1d": 0.0091,
-    "max_drawdown": -0.0187,
-    "beta_spy": 0.442,
-    "hhi": 0.0735,
+    "ann_vol": 0.1252,
+    "var_95_1d": 0.0119,
+    "cvar_95_1d": 0.0157,
+    "max_drawdown": -0.0657,
+    "beta_spy": 0.735,
+    "hhi": 0.0697,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.8499,
-    "days_used": 31
+    "n_positions": 15,
+    "effective_positions": 14.4,
+    "gross_exposure": 0.85,
+    "days_used": 131
   },
   "risk_gate": {
     "passed": true,
