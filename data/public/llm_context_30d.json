@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T11:25:29.157059+00:00",
+  "generated_at": "2026-08-14T12:12:40.858347+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai",
+      "leadership",
       "earnings",
       "regulatory"
     ],
@@ -214,24 +214,6 @@
     {
       "id": "move_11",
       "rank": 11,
-      "title": "CEO vendio AEHR ($5.0M)",
-      "summary": "CEO Erickson Gayn vendio AEHR por $5.0M el 2026-08-12.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Erickson Gayn",
-      "actor_type": "ceo",
-      "ticker": "AEHR",
-      "direction": "sell",
-      "amount_estimated": 5028967.89,
-      "event_date": "2026-08-12",
-      "importance_score": 81.9,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1364097/000104047026000251/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
       "title": "CEO vendio CRWV ($9.3M)",
       "summary": "CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.",
       "source": "sec_form_4",
@@ -244,14 +226,12 @@
       "event_date": "2026-08-11",
       "importance_score": 81.7,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_194924980430"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio PBF ($4.5M)",
       "summary": "CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.",
       "source": "sec_form_4",
@@ -268,8 +248,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1576968/000119312526349491/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -286,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -304,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -322,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -340,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -358,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -376,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -392,10 +372,36 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
+      {
+        "ticker": "CUEN",
+        "company": "Cuentas Inc.",
+        "pressure_score": 583.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "LTH",
         "company": "Common Stock",
@@ -508,14 +514,6 @@
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "AMH",
-        "company": "American Homes 4 Rent",
-        "pressure_score": 205.3,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -683,6 +681,24 @@
       "score": 80.5
     },
     {
+      "ticker": "MTDR",
+      "company": "Matador Resources Co",
+      "actor": "Foran Joseph Wm",
+      "actor_type": "ceo",
+      "amount": 521600.0,
+      "date": "2026-08-12",
+      "score": 79.4
+    },
+    {
+      "ticker": "MTDR",
+      "company": "Matador Resources Co",
+      "actor": "Foran Joseph Wm",
+      "actor_type": "ceo",
+      "amount": 257200.0,
+      "date": "2026-08-13",
+      "score": 79.4
+    },
+    {
       "ticker": "BTDR",
       "company": "Bitdeer Technologies Group",
       "actor": "Potter Michael G",
@@ -762,24 +778,6 @@
       "amount": 538720.0,
       "date": "2026-08-12",
       "score": 76.0
-    },
-    {
-      "ticker": "XRN",
-      "company": "Chiron Real Estate Inc.",
-      "actor": "Roseth Aaron Robert",
-      "actor_type": "director",
-      "amount": 495855.0,
-      "date": "2026-08-12",
-      "score": 75.8
-    },
-    {
-      "ticker": "MBGL",
-      "company": "Mobility Global Inc.",
-      "actor": "PEEK MARK S",
-      "actor_type": "director",
-      "amount": 487495.0,
-      "date": "2026-08-12",
-      "score": 75.8
     }
   ],
   "institutional_changes": [
@@ -1291,7 +1289,7 @@
         "wallet": "0x4aec700218",
         "username": "gxxyy",
         "pnl": 41631.64,
-        "win_rate": 0.8462,
+        "win_rate": 0.8465,
         "volume": 464157.17,
         "categories": [
           "sports"
@@ -1363,7 +1361,7 @@
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
         "pnl": 240243.48,
-        "win_rate": 0.65,
+        "win_rate": 0.651,
         "volume": 632277.08,
         "categories": [
           "sports",
@@ -1406,7 +1404,7 @@
         "wallet": "0x4aec700218",
         "username": "gxxyy",
         "pnl": 41631.64,
-        "win_rate": 0.8462,
+        "win_rate": 0.8465,
         "volume": 464157.17,
         "categories": [
           "sports"
@@ -1416,7 +1414,7 @@
         "wallet": "0xa7e2bdc8cc",
         "username": "NemecGhudini",
         "pnl": 47386.54,
-        "win_rate": 0.5576,
+        "win_rate": 0.5602,
         "volume": 362093.69,
         "categories": [
           "sports"
@@ -1436,32 +1434,39 @@
   },
   "news": [
     {
-      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
-      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
-      "ticker": "RGA",
+      "title": "United Therapeutics ( NASDAQ : UTHR ) CEO Martine Rothblatt Sells 9 , 500 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/14/united-therapeutics-nasdaquthr-ceo-martine-rothblatt-sells-9500-shares-of-stock.html",
+      "ticker": "UTHR",
       "themes": [
-        "ai"
+        "leadership",
+        "stock"
       ],
       "date": "2026-08-14"
     },
     {
-      "title": "Dan Ives Says CoreWeave , Cisco Earnings  Pieces of the Puzzle  for AI Trade :  Get the Popcorn Out  ",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-coreweave-cisco-165357370.html",
-      "ticker": "CRWV",
+      "title": "ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/14/servicetitan-nasdaqttan-president-vahe-kuzoyan-sells-114732-shares.html",
+      "ticker": "TTAN",
       "themes": [
-        "earnings",
-        "ai"
+        "stock"
       ],
       "date": "2026-08-14"
     },
     {
-      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "RGA",
+      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
+      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chime-chym-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CHYM",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-14"
+      "date": "2026-08-13"
     },
     {
       "title": "Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry",
@@ -1473,6 +1478,13 @@
       "date": "2026-08-12"
     },
     {
+      "title": "Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-know-chime-financials-latest-223645494.html",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-08-11"
+    },
+    {
       "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
       "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
       "ticker": "TTAN",
@@ -1482,13 +1494,13 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/08/attovia-therapeutics-nasdaqatto-major-shareholder-redmile-group-llc-purchases-400000-shares.html",
-      "ticker": "ATTO",
+      "title": "Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/11/chime-financial-nasdaqchym-cao-amine-asmerom-sells-10000-shares-of-stock.html",
+      "ticker": "CHYM",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-08"
+      "date": "2026-08-11"
     },
     {
       "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
@@ -1498,23 +1510,9 @@
         "stock"
       ],
       "date": "2026-08-08"
-    },
-    {
-      "title": "Attovia Therapeutics Announces Pricing of Upsized Initial Public Offering",
-      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/attovia-therapeutics-announces-pricing-of-upsized-initial-public-offering/2398569",
-      "ticker": "ATTO",
-      "themes": [],
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Attovia Therapeutics Targets $731 . 5M Valuation in Upsized IPO",
-      "url": "https://www.themiddlemarket.com/latest-news/attovia-therapeutics-targets-731-5m-valuation-in-upsized-ipo",
-      "ticker": "ATTO",
-      "themes": [],
-      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1788,
+  "signals_count": 1796,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

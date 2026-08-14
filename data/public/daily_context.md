@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-14T11:26:19+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
+_Generado 2026-08-14T12:13:32+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.5)
+- Volatilidad: `calm` (VIX 14.51)
 - Tendencia: `bull` (SPY 777.88 · MA50 748.06 · MA200 702.27 · dist MA200: 10.77%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.48)
@@ -26,24 +26,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 732.07 | 1.16% | 2.44% | 3.7% |
 | TLT | 12.0% | core | 82.59 | 0.58% | 0.08% | -1.53% |
 | GLD | 9.3% | core | 398.96 | -1.47% | 2.38% | 9.32% |
-| ECAT | 7.2% | satellite | 15.83 | 0.06% | 2.13% | 1.15% |
+| ECAT | 7.6% | satellite | 15.83 | 0.06% | 2.0% | 1.6% |
 | IEF | 6.2% | core | 93.3 | 0.37% | 0.38% | -0.11% |
-| UTHR | 4.9% | satellite | 501.27 | -2.04% | -5.94% | -5.25% |
-| XRN | 4.4% | satellite | 36.58 | 0.85% | 4.34% | 0.12% |
+| UTHR | 5.0% | satellite | 501.27 | -2.04% | -5.94% | -5.25% |
+| XRN | 4.3% | satellite | 36.58 | 0.85% | 3.16% | -3.51% |
 | LTH | 3.6% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
-| FWONK | 3.6% | satellite | 103.69 | 0.08% | 7.95% | 3.69% |
-| ARQT | 2.5% | satellite | 25.83 | -1.71% | -2.27% | -6.89% |
-| AMRZ | 2.3% | satellite | 46.75 | 0.82% | -11.59% | -7.88% |
-| TTAN | 1.8% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
-| MBGL | 1.6% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
+| FWONK | 3.5% | satellite | 103.69 | 0.08% | 4.01% | 4.06% |
+| ARQT | 2.7% | satellite | 25.83 | -1.71% | -2.27% | -6.89% |
+| AMRZ | 2.4% | satellite | 46.75 | 0.82% | -8.73% | -4.79% |
+| MBGL | 1.7% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
 | CHRW | 1.6% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
+| SEPN | 1.1% | satellite | 45.14 | -6.33% | 14.19% | 43.03% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.2%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.8%
-- Max drawdown historico: -2.0%
-- Beta vs SPY: 0.424 · posiciones efectivas: 14.3 · HHI: 0.0699
+- Volatilidad anualizada: 7.4%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -2.7%
+- Beta vs SPY: None · posiciones efectivas: 14.2 · HHI: 0.0703
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -55,8 +55,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **ARQT** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **UTHR** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **SEPN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ECAT** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **TTAN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.59 (0.58% / 0.08% / -1.53%) [2026-08-13]
 - IEF: 93.3 (0.37% / 0.38% / -0.11%) [2026-08-13]
 - GLD: 398.96 (-1.47% / 2.38% / 9.32%) [2026-08-13]
-- ^VIX: 14.5 (-0.89% / -2.68% / -22.75%) [2026-08-14]
-- BTC-USD: 62802.9 (-0.95% / -3.15% / -2.35%) [2026-08-14]
+- ^VIX: 14.51 (-0.82% / -2.62% / -12.06%) [2026-08-14]
+- BTC-USD: 62693.41 (-1.12% / -3.32% / -2.52%) [2026-08-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), earnings (2), regulatory (1)
+**Temas dominantes**: stock (5), leadership (1), earnings (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RGA] Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00 (2026-08-14)
-- [CRWV] Dan Ives Says CoreWeave , Cisco Earnings  Pieces of the Puzzle  for AI Trade :  Get the Popcorn Out (2026-08-14)
-- [RGA] RGA ( RGA ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) CEO Martine Rothblatt Sells 9 , 500 Shares of Stock (2026-08-14)
+- [TTAN] ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares (2026-08-14)
+- [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
+- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
 - [UTHR] Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry (2026-08-12)
+- [CHYM] Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter (2026-08-11)
 - [TTAN] ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026 (2026-08-11)
-- [ATTO] Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares (2026-08-08)
+- [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
 - [TTAN] California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN (2026-08-08)
-- [ATTO] Attovia Therapeutics Announces Pricing of Upsized Initial Public Offering (2026-08-05)
-- [ATTO] Attovia Therapeutics Targets $731 . 5M Valuation in Upsized IPO (2026-08-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,8 +145,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.
 - 10% owner SUMMIT PARTNERS L P vendio KVYO por $88.5M el 2026-08-11.
 - CFO Higgins Bren D. vendio KLAC por $6.6M el 2026-08-12 [senal en multiples fuentes].
-- CEO Erickson Gayn vendio AEHR por $5.0M el 2026-08-12.
 - CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.
+- CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -162,7 +162,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 748 registros 30d · ultimo dato 2026-08-13
+- **sec_insiders**: `ok` · 756 registros 30d · ultimo dato 2026-08-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -176,7 +176,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, ARQT, CHRW, ECAT, FWONK, GLD, IEF, LTH, MBGL, QQQ, SPY, TLT, TTAN, UTHR, XRN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, ARQT, CHRW, ECAT, FWONK, GLD, IEF, LTH, MBGL, QQQ, SEPN, SPY, TLT, UTHR, XRN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
