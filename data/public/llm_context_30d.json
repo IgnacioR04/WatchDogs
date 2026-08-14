@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T19:28:21.806106+00:00",
+  "generated_at": "2026-08-14T20:11:29.629618+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -23,10 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "earnings",
-      "ai",
-      "regulatory"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -52,24 +51,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner vendio OPLN ($274.9M)",
-      "summary": "10% owner Ignition Acquisition Holdings LP vendio OPLN por $274.9M el 2026-08-13.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ignition Acquisition Holdings LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "OPLN",
-      "direction": "sell",
-      "amount_estimated": 274880000.0,
-      "event_date": "2026-08-13",
-      "importance_score": 85.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1816556/000119312526349541/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO compro COE ($5.0M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.",
       "source": "sec_form_4",
@@ -86,8 +67,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000008/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio KNX ($9.3M)",
       "summary": "CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.",
       "source": "sec_form_4",
@@ -104,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1871703/000187170326000002/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro EMPD ($2.2M)",
       "summary": "10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -122,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1469336/000168316826006443/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "Director compro BORR ($6.0M)",
       "summary": "Director Troim Tor Olav compro BORR por $6.0M el 2026-08-13 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -140,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1709630/000162828026056941/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio CRWV ($9.3M)",
       "summary": "CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.",
       "source": "sec_form_4",
@@ -158,26 +139,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
-      "title": "CEO vendio PBF ($4.5M)",
-      "summary": "CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Davis Paul T",
-      "actor_type": "ceo",
-      "ticker": "PBF",
-      "direction": "sell",
-      "amount_estimated": 4456005.98,
-      "event_date": "2026-08-12",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1576968/000119312526349491/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -194,8 +157,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -212,8 +175,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -230,8 +193,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -248,8 +211,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -266,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -284,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -302,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -320,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -338,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -356,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -374,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -385,6 +348,42 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
+      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 17242553494,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro INTEL CORP ($16.2B)",
+      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16233929222,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -560,6 +559,14 @@
         ]
       },
       {
+        "ticker": "TMRC",
+        "company": "DyTb, LLC",
+        "pressure_score": 538.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CAMT",
         "company": "CAMTEK LTD",
         "pressure_score": 498.7,
@@ -577,14 +584,6 @@
         ]
       },
       {
-        "ticker": "TMRC",
-        "company": "DyTb, LLC",
-        "pressure_score": 471.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BAER",
         "company": "Bridger Aerospace Group Holdings, Inc.",
         "pressure_score": 420.8,
@@ -596,14 +595,6 @@
         "ticker": "IBTA",
         "company": "Ibotta, Inc.",
         "pressure_score": 416.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation, Inc.",
-        "pressure_score": 401.7,
         "sources": [
           "corporate_insider"
         ]
@@ -638,6 +629,14 @@
         "pressure_score": 364.3,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CPAY",
+        "company": "DC Corpay, Inc. Common Stock",
+        "pressure_score": 357.6,
+        "sources": [
+          "congress"
         ]
       }
     ]
@@ -1112,6 +1111,15 @@
       "date": "2026-08-14"
     },
     {
+      "filer": "Audax Institutional Feeder, LP",
+      "company": "Audax Private Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 29.4,
+      "shares": 7241215,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-14"
+    },
+    {
       "filer": "Meteora Capital, LLC",
       "company": "Investcorp Europe Acquisition Corp I",
       "ticker": "",
@@ -1233,7 +1241,7 @@
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
         "pnl": 60443.62,
-        "win_rate": 0.8945,
+        "win_rate": 0.8926,
         "volume": 603617.93,
         "categories": [
           "sports",
@@ -1327,7 +1335,7 @@
         "wallet": "0x6e2c0e9474",
         "username": "ASPEN88888",
         "pnl": 38014.04,
-        "win_rate": 0.419,
+        "win_rate": 0.421,
         "volume": 1742349.34,
         "categories": [
           "sports"
@@ -1337,7 +1345,7 @@
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
         "pnl": 60443.62,
-        "win_rate": 0.8945,
+        "win_rate": 0.8926,
         "volume": 603617.93,
         "categories": [
           "sports",
@@ -1348,7 +1356,7 @@
         "wallet": "0x204f72f353",
         "username": "swisstony",
         "pnl": 28076.46,
-        "win_rate": 0.537,
+        "win_rate": 0.521,
         "volume": 2444687.01,
         "categories": [
           "sports"
@@ -1386,31 +1394,20 @@
       "date": "2026-08-14"
     },
     {
-      "title": "ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/14/servicetitan-nasdaqttan-president-vahe-kuzoyan-sells-114732-shares.html",
-      "ticker": "TTAN",
+      "title": "Diversified Marine Completes M / V Edwin Rider for Vulcan Materials",
+      "url": "https://maritime-executive.com/corporate/diversified-marine-completes-m-v-edwin-rider-for-vulcan-materials",
+      "ticker": "VMC",
+      "themes": [],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
+      "url": "https://www.el-balad.com/17041443",
+      "ticker": "P",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
-      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
-      "ticker": "RGA",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "RGA",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-14"
+      "date": "2026-08-13"
     },
     {
       "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
@@ -1454,15 +1451,6 @@
       "date": "2026-08-11"
     },
     {
-      "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
-      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
-      "ticker": "TTAN",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-11"
-    },
-    {
       "title": "Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday",
       "url": "https://www.tickerreport.com/banking-finance/13538108/applied-industrial-technologies-ait-projected-to-announce-quarterly-earnings-on-thursday.html",
       "ticker": "AIT",
@@ -1473,22 +1461,18 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Aurora Innovation , Inc . $AUR Stock Position Lifted by Quantinno Capital Management LP",
-      "url": "https://www.themarketsdaily.com/2026/08/10/aurora-innovation-inc-aur-stock-position-lifted-by-quantinno-capital-management-lp.html",
-      "ticker": "AUR",
-      "themes": [
-        "stock"
-      ],
+      "title": "Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) ",
+      "url": "https://www.dailypolitical.com/2026/08/10/head-to-head-analysis-titan-america-nysettam-vulcan-materials-nysevmc.html",
+      "ticker": "VMC",
+      "themes": [],
       "date": "2026-08-10"
     },
     {
-      "title": "Autonomous & Self - Driving Vehicle News : WeRide , Aurora , Tier IV , Torc , Wayve , Uber , Moove , Pony . ai , Tesla & Waymo",
-      "url": "https://www.autoconnectedcar.com/2026/08/autonomous-self-driving-vehicle-news-weride-aurora-tier-iv-torc-wayve-uber-moove-pony-ai-tesla-waymo/",
-      "ticker": "AUR",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-10"
+      "title": "Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-vmc-vs-mlm-184919581.html",
+      "ticker": "VMC",
+      "themes": [],
+      "date": "2026-08-09"
     },
     {
       "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares",
@@ -1498,22 +1482,6 @@
         "stock"
       ],
       "date": "2026-08-08"
-    },
-    {
-      "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
-      "url": "https://www.dailypolitical.com/2026/08/08/california-state-teachers-retirement-system-grows-stock-holdings-in-servicetitan-inc-ttan.html",
-      "ticker": "TTAN",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "Aurora Innovation partners with Arrow McLaren IndyCar Team in first major marketing push",
-      "url": "https://www.wpxi.com/news/local/aurora-innovation-partners-with-arrow-mclaren-indycar-team-first-major-marketing-push/G6DNSWUKDRAKXNXQUXUVETGLEQ/",
-      "ticker": "AUR",
-      "themes": [],
-      "date": "2026-08-07"
     },
     {
       "title": "Research Analysts Set Expectations for AIT Q4 Earnings",
@@ -1538,9 +1506,18 @@
       "ticker": "ATTO",
       "themes": [],
       "date": "2026-08-04"
+    },
+    {
+      "title": "Vulcan Materials Q2 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/08/04/vulcan-materials-q2-earnings-call-highlights.html",
+      "ticker": "VMC",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1727,
+  "signals_count": 1713,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

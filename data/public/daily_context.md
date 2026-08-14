@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-14T19:29:28+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
+_Generado 2026-08-14T20:12:23+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.4)
-- Tendencia: `bull` (SPY 776.23 · MA50 748.54 · MA200 702.75 · dist MA200: 10.46%)
+- Volatilidad: `calm` (VIX 14.3)
+- Tendencia: `bull` (SPY 776.32 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.48)
 - Fed Funds: 3.63%
@@ -22,17 +22,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 776.23 | -0.21% | 0.38% | 4.43% |
-| QQQ | 12.0% | core | 729.83 | -0.31% | 0.94% | 4.96% |
-| TLT | 12.0% | core | 82.03 | -0.68% | -0.89% | -2.56% |
-| GLD | 9.3% | core | 401.48 | 0.63% | 0.75% | 8.98% |
-| FWONK | 9.0% | satellite | 103.67 | -0.02% | 0.8% | 2.78% |
-| IEF | 6.2% | core | 93.04 | -0.27% | -0.13% | -0.38% |
-| AMRZ | 5.9% | satellite | 46.65 | -0.2% | 0.03% | -6.26% |
-| CHRW | 5.8% | satellite | 148.45 | -0.6% | -0.6% | -25.63% |
-| LTH | 5.7% | satellite | 45.06 | 1.69% | 2.85% | 8.4% |
-| CODI | 4.0% | satellite | 12.7 | 3.42% | 15.45% | 30.26% |
-| ABCL | 3.0% | satellite | 11.42 | 4.1% | 64.79% | 76.64% |
+| SPY | 12.0% | core | 776.32 | -0.2% | 0.4% | 4.44% |
+| QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
+| TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
+| GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
+| FWONK | 9.0% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| AMRZ | 5.9% | satellite | 46.69 | -0.12% | -8.83% | -8.76% |
+| CHRW | 5.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| LTH | 5.7% | satellite | 45.24 | 2.11% | 3.28% | 7.34% |
+| CODI | 4.0% | satellite | 12.69 | 3.34% | 15.36% | 22.85% |
+| ABCL | 3.0% | satellite | 11.38 | 3.74% | 64.21% | 76.02% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -92,15 +92,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 776.23 (-0.21% / 0.38% / 4.43%) [2026-08-14]
-- QQQ: 729.83 (-0.31% / 0.94% / 4.96%) [2026-08-14]
-- IWM: 304.73 (0.41% / 1.05% / 3.64%) [2026-08-14]
-- DIA: 537.16 (-0.14% / -0.45% / 3.14%) [2026-08-14]
-- TLT: 82.03 (-0.68% / -0.89% / -2.56%) [2026-08-14]
-- IEF: 93.04 (-0.27% / -0.13% / -0.38%) [2026-08-14]
-- GLD: 401.48 (0.63% / 0.75% / 8.98%) [2026-08-14]
-- ^VIX: 14.4 (-1.57% / -3.36% / -12.73%) [2026-08-14]
-- BTC-USD: 62853.67 (-0.87% / -3.07% / -2.27%) [2026-08-14]
+- SPY: 776.32 (-0.2% / 0.4% / 4.44%) [2026-08-14]
+- QQQ: 731.07 (-0.14% / 1.11% / 5.14%) [2026-08-14]
+- IWM: 305.06 (0.51% / 1.16% / 3.75%) [2026-08-14]
+- DIA: 536.81 (-0.2% / -0.52% / 3.07%) [2026-08-14]
+- TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
+- GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
+- ^VIX: 14.3 (-2.26% / -4.03% / -23.81%) [2026-08-14]
+- BTC-USD: 62929.06 (-0.75% / -2.95% / -2.15%) [2026-08-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,31 +115,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (5), ai (5), regulatory (1)
+**Temas dominantes**: earnings (5), stock (4), ai (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-14)
 - [ATTO] Attovia Therapeutics ( NASDAQ : ATTO ) Director Colin Walsh Sells 105 , 807 Shares (2026-08-14)
-- [TTAN] ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares (2026-08-14)
-- [RGA] Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00 (2026-08-14)
-- [RGA] RGA ( RGA ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
 - [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
 - [AIT] Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % (2026-08-13)
 - [AIT] Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) (2026-08-13)
 - [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
 - [CHYM] Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter (2026-08-11)
+- [AIT] Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Huang Jack Jiajia compro COE por $6.8M el 2026-08-12.
-- 10% owner Ignition Acquisition Holdings LP vendio OPLN por $274.9M el 2026-08-13.
 - CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.
 - CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
 - 10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].
 - Director Troim Tor Olav compro BORR por $6.0M el 2026-08-13 [senal en multiples fuentes].
 - CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.
-- CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -155,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 680 registros 30d · ultimo dato 2026-08-14
+- **sec_insiders**: `ok` · 666 registros 30d · ultimo dato 2026-08-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
