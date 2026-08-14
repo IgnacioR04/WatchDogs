@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-08-14T20:12:22+00:00",
+  "generated_at": "2026-08-14T21:01:54+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "FWONK": 0.0901,
+    "GLD": 0.0932,
+    "RSG": 0.0656,
+    "FWONK": 0.0647,
     "IEF": 0.0622,
-    "AMRZ": 0.0588,
-    "CHRW": 0.058,
-    "LTH": 0.0574,
-    "CODI": 0.0402,
-    "ABCL": 0.03
+    "CHRW": 0.0532,
+    "LTH": 0.0447,
+    "AMRZ": 0.0377,
+    "WGO": 0.0313,
+    "NP": 0.0265,
+    "AEHR": 0.0111
   },
   "core": {
     "SPY": 0.1934,
@@ -25,21 +27,31 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0523,
-    "FWONK": 0.0801,
-    "CODI": 0.0357,
-    "ABCL": 0.0267,
-    "CHRW": 0.0516,
-    "LTH": 0.051
+    "RSG": 0.0583,
+    "AMRZ": 0.0335,
+    "FWONK": 0.0575,
+    "NP": 0.0236,
+    "CHRW": 0.0473,
+    "LTH": 0.0397,
+    "WGO": 0.0278,
+    "AEHR": 0.0099
   },
   "satellite_rationale": [
     {
-      "ticker": "AMRZ",
-      "score": 473.7,
+      "ticker": "RSG",
+      "score": 472.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 6
+      "n_signals": 7
+    },
+    {
+      "ticker": "AMRZ",
+      "score": 394.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 5
     },
     {
       "ticker": "FWONK",
@@ -50,18 +62,10 @@
       "n_signals": 4
     },
     {
-      "ticker": "CODI",
-      "score": 217.0,
+      "ticker": "NP",
+      "score": 143.6,
       "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "ABCL",
-      "score": 154.3,
-      "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -80,20 +84,36 @@
         "congress"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "WGO",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "AEHR",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1352,
-    "var_95_1d": 0.0129,
-    "cvar_95_1d": 0.0162,
-    "max_drawdown": -0.075,
-    "beta_spy": 0.769,
-    "hhi": 0.0765,
+    "ann_vol": 0.0997,
+    "var_95_1d": 0.0088,
+    "cvar_95_1d": 0.0107,
+    "max_drawdown": -0.023,
+    "beta_spy": 0.568,
+    "hhi": 0.0723,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 13.1,
-    "gross_exposure": 0.85,
-    "days_used": 115
+    "n_positions": 13,
+    "effective_positions": 13.8,
+    "gross_exposure": 0.8502,
+    "days_used": 37
   },
   "risk_gate": {
     "passed": true,
