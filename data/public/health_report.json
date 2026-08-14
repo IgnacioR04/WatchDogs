@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:59:49.648812+00:00",
+  "generated_at": "2026-08-14T21:56:19.410268+00:00",
   "overall_status": "warning",
   "datasets": {
     "congress": {
@@ -15,8 +15,8 @@
     },
     "sec_insiders": {
       "status": "ok",
-      "records_total": 561,
-      "records_30d": 561,
+      "records_total": 568,
+      "records_30d": 568,
       "latest_tx_date": "2026-08-14",
       "insiders_unique": 310,
       "issues": [],
@@ -25,7 +25,7 @@
     "sec_13d_13g": {
       "status": "ok",
       "records_30d": 250,
-      "with_ownership_pct": 15,
+      "with_ownership_pct": 25,
       "latest_filing_date": "2026-08-14",
       "issues": [],
       "blocked_for_signals": false
@@ -36,11 +36,9 @@
       "consensus_quarter": "2026Q2",
       "stale_managers": [
         "Vanguard Group Inc",
-        "Goldman Sachs Group Inc",
-        "Pershing Square Capital Management LP",
-        "Third Point LLC"
+        "Pershing Square Capital Management LP"
       ],
-      "stale_count": 4,
+      "stale_count": 2,
       "issues": [
         "stale_manager_report_date"
       ],
@@ -48,10 +46,10 @@
     },
     "polymarket": {
       "status": "ok",
-      "smart_traders": 46,
+      "smart_traders": 47,
       "whales": 50,
-      "volume_zero_count": 2,
-      "avg_win_rate": 0.6667,
+      "volume_zero_count": 14,
+      "avg_win_rate": 0.6423,
       "issues": [],
       "blocked_for_signals": false
     }
