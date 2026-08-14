@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-14T17:24:52+00:00 -->
+<!-- trader_prompt.md generado 2026-08-14T18:23:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-14T17:24:52+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
+_Generado 2026-08-14T18:23:06+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,8 +240,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.46)
-- Tendencia: `bull` (SPY 775.97 · MA50 748.54 · MA200 702.75 · dist MA200: 10.42%)
+- Volatilidad: `calm` (VIX 14.31)
+- Tendencia: `bull` (SPY 776.28 · MA50 748.54 · MA200 702.75 · dist MA200: 10.46%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.48)
 - Fed Funds: 3.63%
@@ -253,26 +253,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 775.97 | -0.25% | 0.35% | 4.4% |
-| QQQ | 12.0% | core | 729.15 | -0.4% | 0.85% | 4.86% |
-| TLT | 12.0% | core | 81.89 | -0.85% | -1.05% | -2.72% |
-| GLD | 9.3% | core | 401.92 | 0.74% | 0.87% | 9.1% |
-| FWONK | 7.4% | satellite | 104.73 | 1.0% | 1.83% | 3.83% |
-| IEF | 6.2% | core | 93.02 | -0.3% | -0.16% | -0.41% |
-| CHRW | 5.7% | satellite | 148.68 | -0.45% | -0.45% | -28.69% |
-| LTH | 5.4% | satellite | 44.7 | 0.88% | 2.03% | 7.53% |
-| AMRZ | 4.4% | satellite | 46.54 | -0.44% | -0.2% | -6.42% |
-| CODI | 3.8% | satellite | 12.82 | 4.38% | 16.52% | 31.46% |
-| KN | 3.5% | satellite | 38.4 | 1.59% | -1.74% | 4.4% |
-| ABCL | 1.8% | satellite | 11.38 | 3.74% | 64.21% | 76.02% |
-| RCAT | 1.4% | satellite | 10.98 | 7.33% | 19.22% | 43.72% |
+| SPY | 12.0% | core | 776.28 | -0.21% | 0.39% | 4.44% |
+| QQQ | 12.0% | core | 729.71 | -0.32% | 0.92% | 4.94% |
+| TLT | 12.0% | core | 81.93 | -0.81% | -1.01% | -2.68% |
+| GLD | 9.3% | core | 401.71 | 0.69% | 0.81% | 9.04% |
+| FWONK | 7.3% | satellite | 104.65 | 0.93% | 1.75% | 3.75% |
+| IEF | 6.2% | core | 93.01 | -0.31% | -0.17% | -0.41% |
+| AMRZ | 4.8% | satellite | 46.64 | -0.24% | 0.0% | -6.29% |
+| CHRW | 4.7% | satellite | 148.92 | -0.29% | -0.29% | -28.58% |
+| LTH | 4.7% | satellite | 45.03 | 1.61% | 2.77% | 8.31% |
+| KN | 4.6% | satellite | 38.47 | 1.77% | -1.56% | 9.2% |
+| CODI | 3.2% | satellite | 12.67 | 3.18% | 15.18% | 29.95% |
+| ABCL | 2.4% | satellite | 11.39 | 3.78% | 64.29% | 76.1% |
+| RCAT | 1.8% | satellite | 10.82 | 5.77% | 17.48% | 41.62% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.6%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -3.3%
-- Beta vs SPY: 0.775 · posiciones efectivas: 13.8 · HHI: 0.0725
+- Volatilidad anualizada: 14.3%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.7%
+- Max drawdown historico: -7.1%
+- Beta vs SPY: 0.851 · posiciones efectivas: 13.9 · HHI: 0.0718
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 775.97 (-0.25% / 0.35% / 4.4%) [2026-08-14]
-- QQQ: 729.15 (-0.4% / 0.85% / 4.86%) [2026-08-14]
-- IWM: 304.7 (0.4% / 1.04% / 3.63%) [2026-08-14]
-- DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
-- TLT: 81.89 (-0.85% / -1.05% / -2.72%) [2026-08-14]
-- IEF: 93.02 (-0.3% / -0.16% / -0.41%) [2026-08-14]
-- GLD: 401.92 (0.74% / 0.87% / 9.1%) [2026-08-14]
-- ^VIX: 14.46 (-1.16% / -2.95% / -22.96%) [2026-08-14]
-- BTC-USD: 63172.35 (-0.36% / -2.58% / -1.77%) [2026-08-14]
+- SPY: 776.28 (-0.21% / 0.39% / 4.44%) [2026-08-14]
+- QQQ: 729.71 (-0.32% / 0.92% / 4.94%) [2026-08-14]
+- IWM: 304.46 (0.32% / 0.96% / 3.55%) [2026-08-14]
+- DIA: 537.15 (-0.14% / -0.46% / 3.14%) [2026-08-14]
+- TLT: 81.93 (-0.81% / -1.01% / -2.68%) [2026-08-14]
+- IEF: 93.01 (-0.31% / -0.17% / -0.41%) [2026-08-14]
+- GLD: 401.71 (0.69% / 0.81% / 9.04%) [2026-08-14]
+- ^VIX: 14.31 (-2.19% / -3.96% / -13.27%) [2026-08-14]
+- BTC-USD: 62968.22 (-0.68% / -2.89% / -2.09%) [2026-08-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,20 +350,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (4), ai (4), regulatory (1)
+**Temas dominantes**: earnings (5), ai (4), stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] 104 Billion Reasons to Buy CoreWeave Stock (2026-08-14)
 - [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-14)
-- [TTAN] ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares (2026-08-14)
-- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
+- [ATTO] Attovia Therapeutics ( NASDAQ : ATTO ) Director Colin Walsh Sells 105 , 807 Shares (2026-08-14)
+- [RGA] Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00 (2026-08-14)
+- [RGA] RGA ( RGA ) Q2 2026 Earnings Call Transcript (2026-08-14)
 - [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
 - [AIT] Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % (2026-08-13)
 - [AIT] Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) (2026-08-13)
 - [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
 - [CHYM] Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter (2026-08-11)
-- [TTAN] ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026 (2026-08-11)
+- [AIT] Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,17 +372,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Huang Jack Jiajia compro COE por $5.0M el 2026-08-11.
 - 10% owner SUMMIT PARTNERS L P vendio KVYO por $88.5M el 2026-08-11.
 - CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
+- 10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.
 - CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $330,954 · win rate 96% · categorias: sports
-- 111111111115 · PnL $471,024 · win rate 93% · categorias: sports
+- 111111111115 · PnL $493,715 · win rate 93% · categorias: sports
 - WTSA · PnL $129,766 · win rate 98% · categorias: sports
 - CORGI8 · PnL $97,162 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $88,861 · win rate 90% · categorias: sports
+- ExplosiveNinja · PnL $46,683 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +390,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 673 registros 30d · ultimo dato 2026-08-14
+- **sec_insiders**: `ok` · 672 registros 30d · ultimo dato 2026-08-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

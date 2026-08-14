@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-14T17:23:51.174006+00:00",
+  "generated_at": "2026-08-14T18:22:02.899557+00:00",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14",
@@ -23,10 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "earnings",
       "ai",
-      "regulatory"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -124,6 +123,24 @@
     {
       "id": "move_6",
       "rank": 6,
+      "title": "10% owner compro EMPD ($2.2M)",
+      "summary": "10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Empery Asset Management, LP",
+      "actor_type": "ten_percent_owner",
+      "ticker": "EMPD",
+      "direction": "buy",
+      "amount_estimated": 2238375.0,
+      "event_date": "2026-08-13",
+      "importance_score": 82.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1469336/000168316826006443/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio CRWV ($9.3M)",
       "summary": "CEO Intrator Michael N vendio CRWV por $9.3M el 2026-08-11.",
       "source": "sec_form_4",
@@ -136,14 +153,12 @@
       "event_date": "2026-08-11",
       "importance_score": 81.7,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_977500710414"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000376/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio PBF ($4.5M)",
       "summary": "CEO Davis Paul T vendio PBF por $4.5M el 2026-08-12.",
       "source": "sec_form_4",
@@ -160,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1576968/000119312526349491/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -178,8 +193,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -196,8 +211,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -214,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -232,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -250,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -268,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -286,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -304,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -315,24 +330,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 20340227051,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager vendio ECHOSTAR CORP ($19.2B)",
-      "summary": "Institutional manager Nomura Holdings Inc vendio ECHOSTAR CORP por $19.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Nomura Holdings Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 19159260573,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -470,6 +467,15 @@
         ]
       },
       {
+        "ticker": "EMPD",
+        "company": "Empery Digital Inc.",
+        "pressure_score": 233.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "AMAT",
         "company": "Stock",
         "pressure_score": 225.8,
@@ -491,14 +497,6 @@
         "pressure_score": 215.8,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ENHA",
-        "company": "A Paradise Acquisition Corp.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
         ]
       },
       {
@@ -662,6 +660,15 @@
       "score": 84.3
     },
     {
+      "ticker": "EMPD",
+      "company": "Empery Digital Inc.",
+      "actor": "Empery Asset Management, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 2238375.0,
+      "date": "2026-08-13",
+      "score": 82.8
+    },
+    {
       "ticker": "BORR",
       "company": "Borr Drilling Ltd",
       "actor": "Troim Tor Olav",
@@ -669,6 +676,15 @@
       "amount": 6036750.0,
       "date": "2026-08-13",
       "score": 81.3
+    },
+    {
+      "ticker": "EMPD",
+      "company": "Empery Digital Inc.",
+      "actor": "Empery Asset Management, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 1833715.0,
+      "date": "2026-08-12",
+      "score": 80.9
     },
     {
       "ticker": "ATTO",
@@ -707,6 +723,15 @@
       "score": 79.1
     },
     {
+      "ticker": "BTDR",
+      "company": "Bitdeer Technologies Group",
+      "actor": "Potter Michael G",
+      "actor_type": "cfo",
+      "amount": 226000.0,
+      "date": "2026-08-12",
+      "score": 79.1
+    },
+    {
       "ticker": "ABCL",
       "company": "AbCellera Biologics Inc.",
       "actor": "Booth Andrew",
@@ -714,15 +739,6 @@
       "amount": 383904.0,
       "date": "2026-08-14",
       "score": 79.0
-    },
-    {
-      "ticker": "BTDR",
-      "company": "Bitdeer Technologies Group",
-      "actor": "Potter Michael G",
-      "actor_type": "cfo",
-      "amount": 226000.0,
-      "date": "2026-08-12",
-      "score": 77.9
     },
     {
       "ticker": "RM",
@@ -759,24 +775,6 @@
       "amount": 79500.0,
       "date": "2026-08-13",
       "score": 76.9
-    },
-    {
-      "ticker": "BW",
-      "company": "Babcock & Wilcox Enterprises, Inc.",
-      "actor": "Young Kenneth M",
-      "actor_type": "ceo",
-      "amount": 67550.0,
-      "date": "2026-08-12",
-      "score": 76.5
-    },
-    {
-      "ticker": "TNC",
-      "company": "TENNANT CO",
-      "actor": "Mulligan Donal L",
-      "actor_type": "director",
-      "amount": 538720.0,
-      "date": "2026-08-12",
-      "score": 76.0
     }
   ],
   "institutional_changes": [
@@ -860,15 +858,6 @@
       "change_usd": 20340227051,
       "change_pct": 0.3126,
       "quarter": "2026Q2"
-    },
-    {
-      "manager": "Nomura Holdings Inc",
-      "asset": "ECHOSTAR CORP",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -19159260573,
-      "change_pct": -0.9962,
-      "quarter": "2026Q1"
     },
     {
       "manager": "JPMorgan Chase & Co",
@@ -958,6 +947,15 @@
       "direction": "decreased",
       "change_usd": -13206289732,
       "change_pct": -0.8137,
+      "quarter": "2026Q2"
+    },
+    {
+      "manager": "Geode Capital Management LLC",
+      "asset": "JPMORGAN CHASE & CO",
+      "ticker": "",
+      "direction": "decreased",
+      "change_usd": -12915101952,
+      "change_pct": -0.818,
       "quarter": "2026Q2"
     }
   ],
@@ -1103,6 +1101,15 @@
       "date": "2026-08-14"
     },
     {
+      "filer": "Meteora Capital, LLC",
+      "company": "Investcorp Europe Acquisition Corp I",
+      "ticker": "",
+      "ownership_pct": 18.7784,
+      "shares": 2000000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-14"
+    },
+    {
       "filer": "Empery Asset Management, LP",
       "company": "Empery Digital Inc.",
       "ticker": "EMPD",
@@ -1154,7 +1161,7 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 471023.95,
+        "pnl": 493714.76,
         "win_rate": 0.9286,
         "volume": 3025157.61,
         "categories": [
@@ -1182,11 +1189,31 @@
         ]
       },
       {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 46683.46,
+        "win_rate": 0.973,
+        "volume": 420990.22,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 174236.85,
+        "win_rate": 0.8615,
+        "volume": 708469.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 88860.78,
+        "pnl": 88749.32,
         "win_rate": 0.905,
-        "volume": 190649.86,
+        "volume": 219301.12,
         "categories": [
           "sports"
         ]
@@ -1205,9 +1232,9 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 47516.2,
-        "win_rate": 0.8941,
-        "volume": 542779.3,
+        "pnl": 56301.68,
+        "win_rate": 0.8943,
+        "volume": 571101.11,
         "categories": [
           "sports",
           "crypto"
@@ -1216,29 +1243,9 @@
       {
         "wallet": "0x282f817479",
         "username": "lzh1",
-        "pnl": 22542.17,
+        "pnl": 27197.26,
         "win_rate": 0.8868,
-        "volume": 108989.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4aec700218",
-        "username": "gxxyy",
-        "pnl": 36819.59,
-        "win_rate": 0.8452,
-        "volume": 525413.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcf6c549212",
-        "username": "one8tyfive",
-        "pnl": 28177.72,
-        "win_rate": 0.821,
-        "volume": 48688.16,
+        "volume": 115118.24,
         "categories": [
           "sports"
         ]
@@ -1248,7 +1255,7 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "111111111115",
-        "pnl": 471023.95,
+        "pnl": 493714.76,
         "win_rate": 0.9286,
         "volume": 3025157.61,
         "categories": [
@@ -1266,32 +1273,42 @@
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 138187.85,
-        "win_rate": 0.554,
-        "volume": 1432526.75,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 198884.85,
-        "win_rate": 0.651,
-        "volume": 1566895.33,
+        "pnl": 159507.59,
+        "win_rate": 0.65,
+        "volume": 2131162.46,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 138359.53,
+        "win_rate": 0.554,
+        "volume": 1550763.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1610db79f7",
         "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 62025.7,
-        "win_rate": 0.6304,
-        "volume": 1108240.98,
+        "pnl": 61221.22,
+        "win_rate": 0.632,
+        "volume": 1110321.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 174236.85,
+        "win_rate": 0.8615,
+        "volume": 708469.96,
         "categories": [
           "sports"
         ]
@@ -1299,9 +1316,9 @@
       {
         "wallet": "0x6e2c0e9474",
         "username": "ASPEN88888",
-        "pnl": 28036.91,
-        "win_rate": 0.418,
-        "volume": 1509516.39,
+        "pnl": 34047.58,
+        "win_rate": 0.419,
+        "volume": 1671045.12,
         "categories": [
           "sports"
         ]
@@ -1309,9 +1326,9 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 47516.2,
-        "win_rate": 0.8941,
-        "volume": 542779.3,
+        "pnl": 56301.68,
+        "win_rate": 0.8943,
+        "volume": 571101.11,
         "categories": [
           "sports",
           "crypto"
@@ -1328,21 +1345,11 @@
         ]
       },
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 129765.53,
-        "win_rate": 0.9808,
-        "volume": 271266.62,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 40646.43,
-        "win_rate": 0.535,
-        "volume": 1497160.9,
+        "pnl": 45672.53,
+        "win_rate": 0.541,
+        "volume": 1903906.67,
         "categories": [
           "sports"
         ]
@@ -1350,15 +1357,6 @@
     ]
   },
   "news": [
-    {
-      "title": "104 Billion Reasons to Buy CoreWeave Stock",
-      "url": "https://www.fool.com/investing/2026/08/14/104-billion-reasons-to-buy-coreweave-stock/?source=iedfolrf0000001",
-      "ticker": "CRWV",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-14"
-    },
     {
       "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
       "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-q2-2026-earnings-000149694.html",
@@ -1369,22 +1367,31 @@
       "date": "2026-08-14"
     },
     {
-      "title": "ServiceTitan ( NASDAQ : TTAN ) President Vahe Kuzoyan Sells 114 , 732 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/14/servicetitan-nasdaqttan-president-vahe-kuzoyan-sells-114732-shares.html",
-      "ticker": "TTAN",
+      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Director Colin Walsh Sells 105 , 807 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/14/attovia-therapeutics-nasdaqatto-director-colin-walsh-sells-105807-shares.html",
+      "ticker": "ATTO",
       "themes": [
         "stock"
       ],
       "date": "2026-08-14"
     },
     {
-      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
-      "url": "https://www.el-balad.com/17041443",
-      "ticker": "P",
+      "title": "Reinsurance Group of America ( NYSE : RGA ) Price Target Raised to $293 . 00",
+      "url": "https://www.tickerreport.com/banking-finance/13542417/reinsurance-group-of-america-nyserga-price-target-raised-to-293-00.html",
+      "ticker": "RGA",
       "themes": [
-        "stock"
+        "ai"
       ],
-      "date": "2026-08-13"
+      "date": "2026-08-14"
+    },
+    {
+      "title": "RGA ( RGA ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/rga-rga-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "RGA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
     },
     {
       "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
@@ -1428,15 +1435,6 @@
       "date": "2026-08-11"
     },
     {
-      "title": "ServiceTitan to Announce Fiscal Second Quarter 2027 Financial Results on September 8 , 2026",
-      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/servicetitan-to-announce-fiscal-second-quarter-2027-financial-results-on-september-8-2026/2403110",
-      "ticker": "TTAN",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-11"
-    },
-    {
       "title": "Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday",
       "url": "https://www.tickerreport.com/banking-finance/13538108/applied-industrial-technologies-ait-projected-to-announce-quarterly-earnings-on-thursday.html",
       "ticker": "AIT",
@@ -1447,38 +1445,13 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Aurora Innovation , Inc . $AUR Stock Position Lifted by Quantinno Capital Management LP",
-      "url": "https://www.themarketsdaily.com/2026/08/10/aurora-innovation-inc-aur-stock-position-lifted-by-quantinno-capital-management-lp.html",
-      "ticker": "AUR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Autonomous & Self - Driving Vehicle News : WeRide , Aurora , Tier IV , Torc , Wayve , Uber , Moove , Pony . ai , Tesla & Waymo",
-      "url": "https://www.autoconnectedcar.com/2026/08/autonomous-self-driving-vehicle-news-weride-aurora-tier-iv-torc-wayve-uber-moove-pony-ai-tesla-waymo/",
-      "ticker": "AUR",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "California State Teachers Retirement System Grows Stock Holdings in ServiceTitan Inc . $TTAN",
-      "url": "https://www.dailypolitical.com/2026/08/08/california-state-teachers-retirement-system-grows-stock-holdings-in-servicetitan-inc-ttan.html",
-      "ticker": "TTAN",
+      "title": "Attovia Therapeutics ( NASDAQ : ATTO ) Major Shareholder Redmile Group , Llc Purchases 400 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/08/08/attovia-therapeutics-nasdaqatto-major-shareholder-redmile-group-llc-purchases-400000-shares.html",
+      "ticker": "ATTO",
       "themes": [
         "stock"
       ],
       "date": "2026-08-08"
-    },
-    {
-      "title": "Aurora Innovation partners with Arrow McLaren IndyCar Team in first major marketing push",
-      "url": "https://www.wpxi.com/news/local/aurora-innovation-partners-with-arrow-mclaren-indycar-team-first-major-marketing-push/G6DNSWUKDRAKXNXQUXUVETGLEQ/",
-      "ticker": "AUR",
-      "themes": [],
-      "date": "2026-08-07"
     },
     {
       "title": "Research Analysts Set Expectations for AIT Q4 Earnings",
@@ -1489,9 +1462,23 @@
         "ai"
       ],
       "date": "2026-08-07"
+    },
+    {
+      "title": "Attovia Therapeutics Announces Pricing of Upsized Initial Public Offering",
+      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/attovia-therapeutics-announces-pricing-of-upsized-initial-public-offering/2398569",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Attovia Therapeutics Targets $731 . 5M Valuation in Upsized IPO",
+      "url": "https://www.themiddlemarket.com/latest-news/attovia-therapeutics-targets-731-5m-valuation-in-upsized-ipo",
+      "ticker": "ATTO",
+      "themes": [],
+      "date": "2026-08-04"
     }
   ],
-  "signals_count": 1720,
+  "signals_count": 1719,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
