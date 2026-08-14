@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-14T00:16:07+00:00 -->
+<!-- trader_prompt.md generado 2026-08-14T03:01:55+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-14T00:16:07+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
+_Generado 2026-08-14T03:01:55+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,37 +257,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 732.07 | 1.16% | 2.44% | 3.7% |
 | TLT | 12.0% | core | 82.59 | 0.58% | 0.08% | -1.53% |
 | GLD | 9.3% | core | 398.96 | -1.47% | 2.38% | 9.32% |
-| ECAT | 8.8% | satellite | 15.83 | 0.06% | 2.13% | 1.15% |
+| ECAT | 8.3% | satellite | 15.83 | 0.06% | 2.0% | 1.6% |
 | IEF | 6.2% | core | 93.3 | 0.37% | 0.38% | -0.11% |
-| LTH | 4.4% | satellite | 44.31 | 1.12% | 1.91% | 3.43% |
-| FWONK | 4.4% | satellite | 103.69 | 0.08% | 7.95% | 3.69% |
-| AMRZ | 2.8% | satellite | 46.75 | 0.82% | -11.59% | -7.88% |
-| G | 2.8% | satellite | 34.37 | 1.24% | -4.95% | 10.09% |
-| LILA | 2.7% | satellite | 8.55 | -1.16% | -1.72% | 14.15% |
-| TTAN | 2.2% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
-| MBGL | 2.0% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
-| CHRW | 1.9% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
-| EMBC | 1.3% | satellite | 5.11 | 7.58% | 43.14% | 58.7% |
+| XRN | 4.8% | satellite | 36.58 | 0.85% | 3.16% | -3.51% |
+| FWONK | 4.2% | satellite | 103.69 | 0.08% | 4.01% | 3.96% |
+| LTH | 4.0% | satellite | 44.31 | 1.12% | 1.91% | 6.85% |
+| G | 2.6% | satellite | 34.37 | 1.24% | -4.95% | 10.09% |
+| AMRZ | 2.5% | satellite | 46.75 | 0.82% | -8.73% | -8.66% |
+| TTAN | 2.4% | satellite | 93.7 | 1.85% | 9.48% | 24.11% |
+| MBGL | 1.8% | satellite | 19.83 | 1.07% | -4.34% | -4.02% |
+| CHRW | 1.8% | satellite | 149.35 | 1.81% | 1.83% | -27.41% |
+| GTE | 0.9% | satellite | 9.5 | 1.6% | 0.32% | 50.32% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.5%
+- Volatilidad anualizada: 7.0%
 - VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.7%
-- Max drawdown historico: -1.8%
-- Beta vs SPY: 0.42 · posiciones efectivas: 14.0 · HHI: 0.0712
+- Max drawdown historico: -1.7%
+- Beta vs SPY: None · posiciones efectivas: 14.1 · HHI: 0.071
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **AMRZ** · score agregado 473.7 · 6 señales · fuentes: corporate_insider
-- **EMBC** · score agregado 314.3 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **LILA** · score agregado 227.6 · 3 señales · fuentes: corporate_insider
+- **XRN** · score agregado 242.5 · 3 señales · fuentes: corporate_insider
 - **MBGL** · score agregado 176.8 · 3 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **ECAT** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TTAN** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **G** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **GTE** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -295,21 +295,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| EMBC | 81 | corporate_insider | Kurdikar Devdatt | 4 | $140,937 | cluster_buy |
+| XRN | 82 | corporate_insider | Decker Mark Okey Jr | 3 | $246,950 | cluster_buy |
 | AMRZ | 80 | corporate_insider | Oran Baris | 5 | $141,390 | cluster_buy |
 | AMRZ | 80 | corporate_insider | Oran Baris | 5 | $142,140 | cluster_buy |
+| XRN | 80 | corporate_insider | Roseth Aaron Robert | 3 | $495,855 | cluster_buy |
+| XRN | 80 | corporate_insider | Fitzgerald Charles | 3 | $500,920 | cluster_buy |
 | AMRZ | 80 | corporate_insider | Hill Jaime | 5 | $70,680 | cluster_buy |
-| EMBC | 79 | corporate_insider | Elguicze Jacob | 4 | $93,360 | cluster_buy |
 | AMRZ | 79 | corporate_insider | Clark Stephen S | 5 | $248,851 | cluster_buy |
-| EMBC | 78 | corporate_insider | HOMBACH ROBERT J. | 4 | $223,848 | cluster_buy |
 | AMRZ | 78 | corporate_insider | Gross Mario | 5 | $149,184 | cluster_buy |
-| LILA | 76 | corporate_insider | MALONE JOHN C | 2 | $239,859 | cluster_buy |
+| XRN | 77 | corporate_insider | Decker Mark Okey Jr | 3 | $19,800 | cluster_buy,small_amount |
 | AMRZ | 76 | corporate_insider | Brouwer Roald | 5 | $69,540 | cluster_buy |
 | TNC | 76 | corporate_insider | Mulligan Donal L | 2 | $538,720 | cluster_buy |
-| XRN | 76 | corporate_insider | Fitzgerald Charles | 2 | $500,920 | cluster_buy |
-| LILA | 76 | corporate_insider | MALONE JOHN C | 2 | $191,054 | cluster_buy |
-| EMBC | 76 | corporate_insider | Mann Jeffrey Z | 4 | $99,800 | cluster_buy |
 | SUNS | 75 | corporate_insider | TANNENBAUM LEONARD M | 2 | $152,000 | cluster_buy |
+| CC | 75 | corporate_insider | Dignam Denise | 2 | $50,501 | cluster_buy |
+| CODI | 74 | corporate_insider | Sawtelle Zachary T. | 2 | $299,658 | cluster_buy |
+| AMRZ | 73 | corporate_insider | Gross Mario | 5 | $17,068 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.3 (0.37% / 0.38% / -0.11%) [2026-08-13]
 - GLD: 398.96 (-1.47% / 2.38% / 9.32%) [2026-08-13]
 - ^VIX: 14.63 (0.55% / -3.43% / -12.55%) [2026-08-13]
-- BTC-USD: 63441.32 (0.06% / -2.25% / -1.03%) [2026-08-14]
+- BTC-USD: 63400.0 (-0.0% / -2.32% / -1.09%) [2026-08-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,18 +354,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), earnings (3), stock (2)
+**Temas dominantes**: earnings (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
-- [AIT] Applied Industrial Sees Growth In FY27 ; Stock Up 4 . 2 % (2026-08-13)
-- [AIT] Reviewing NPK International ( NYSE : NPKI ) and Applied Industrial Technologies ( NYSE : AIT ) (2026-08-13)
-- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [CHYM] Here What to Know About Chime Financial Latest Insider Filings After a Strong Quarter (2026-08-11)
-- [AIT] Applied Industrial Technologies ( AIT ) Projected to Announce Quarterly Earnings on Thursday (2026-08-11)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) CAO Amine Asmerom Sells 10 , 000 Shares of Stock (2026-08-11)
-- [AIT] Research Analysts Set Expectations for AIT Q4 Earnings (2026-08-07)
+- [RGA] RGA ( RGA ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [UTHR] Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry (2026-08-12)
+- [UTHR] United Therapeutics Q2 Earnings Call Highlights (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $203,259 · win rate 96% · categorias: sports
-- GoldenAlpha168 · PnL $60,761 · win rate 100% · categorias: sports
-- theowalcott · PnL $126,564 · win rate 100% · categorias: sports
-- CORGI8 · PnL $48,248 · win rate 92% · categorias: sports
-- Skritopoolniy · PnL $44,331 · win rate 91% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $21,876 · win rate 98% · categorias: sports, crypto
+- gregbeast · PnL $6,983 · win rate 94% · categorias: sports, crypto
+- quavoo · PnL $96,338 · win rate 74% · categorias: sports, politics, economy
+- one8tyfive · PnL $26,964 · win rate 82% · categorias: sports
+- hggh25345 · PnL $7,531 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -392,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 726 registros 30d · ultimo dato 2026-08-13
+- **sec_insiders**: `ok` · 755 registros 30d · ultimo dato 2026-08-13
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-13
 - **institutional_13f**: `warning` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -406,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, CHRW, ECAT, EMBC, FWONK, G, GLD, IEF, LILA, LTH, MBGL, QQQ, SPY, TLT, TTAN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, CHRW, ECAT, FWONK, G, GLD, GTE, IEF, LTH, MBGL, QQQ, SPY, TLT, TTAN, XRN`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
