@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-15T13:59:57+00:00 -->
+<!-- trader_prompt.md generado 2026-08-15T14:55:43+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T13:59:57+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T14:55:43+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -260,11 +260,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CURB | 7.3% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
 | FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
-| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
 | LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
 | NP | 2.6% | satellite | 31.71 | -1.12% | -0.97% | 2.19% |
-| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
+| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
 | MANE | 1.8% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62982.02 (0.01% / -1.45% / -3.61%) [2026-08-15]
+- BTC-USD: 62981.17 (0.01% / -1.45% / -3.61%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), ai (2), earnings (2), merger (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
-- [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
-- [MORN] CVG Stock Price Quote | Morningstar (2026-08-15)
-- [MORN] GO . U Stock Price Quote | Morningstar (2026-08-15)
-- [W] Wayfair ( NYSE : W ) Director Sells $7 , 131 , 840 . 00 in Stock (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [ONDS] After Ondas Reports Mixed Earnings , Here What Barchart Data Says Comes Next for ONDS Stock (2026-08-14)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
+- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
+- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
+- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +371,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $500,705 · win rate 93% · categorias: sports
-- Dota2winner · PnL $69,188 · win rate 97% · categorias: sports
-- ExplosiveNinja · PnL $21,168 · win rate 97% · categorias: sports
-- monkeymashingkeyboard · PnL $52,868 · win rate 91% · categorias: sports
-- SDTrading · PnL $33,383 · win rate 93% · categorias: sports
+- 111111111115 · PnL $285,104 · win rate 93% · categorias: sports
+- Dota2winner · PnL $105,956 · win rate 97% · categorias: sports
+- steevenseakael · PnL $18,581 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $52,870 · win rate 91% · categorias: sports
+- SDTrading · PnL $35,376 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
