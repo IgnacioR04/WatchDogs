@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T19:05:48+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T19:46:59+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,16 +26,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
-| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| NP | 2.6% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
-| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
+| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.09% | -0.26% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| NP | 2.6% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
+| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.8% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
+| MANE | 1.8% | satellite | 112.71 | 1.54% | -1.47% | 2.31% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -103,10 +103,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62995.23 (0.03% / -1.43% / -3.59%) [2026-08-15]
+- ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
+- BTC-USD: 63035.64 (0.1% / -1.37% / -3.53%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,12 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1), stock (1)
+**Temas dominantes**: stock (3), ai (2), earnings (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Rocket One Inc . Common Stock ( NASDAQ : RKTO ) Issues Earnings Results (2026-08-15)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
+- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
+- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
+- [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
+- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
+- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
+- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $301,416 · win rate 93% · categorias: sports
-- Dota2winner · PnL $147,261 · win rate 96% · categorias: sports
+- 111111111115 · PnL $299,808 · win rate 93% · categorias: sports
+- Dota2winner · PnL $147,145 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $66,867 · win rate 91% · categorias: sports
 - Barbozaaa321 · PnL $24,625 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $48,168 · win rate 91% · categorias: sports
-- SDTrading · PnL $32,028 · win rate 93% · categorias: sports
+- SDTrading · PnL $30,803 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
