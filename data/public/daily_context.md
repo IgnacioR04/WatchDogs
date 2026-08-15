@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-14T23:53:18+00:00 · ventana señales 2026-07-15 -> 2026-08-14_
+_Generado 2026-08-15T02:05:09+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,31 +26,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 8.2% | satellite | 30.24 | 0.63% | 2.09% | -0.26% |
-| FWONK | 7.1% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
-| CHRW | 5.8% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
-| LTH | 4.9% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| NP | 2.9% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
-| SEPN | 2.5% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
-| CRWV | 2.0% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| NP | 2.6% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
+| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
+| CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
+| MANE | 1.8% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.8%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.54 · posiciones efectivas: 13.3 · HHI: 0.0752
+- Volatilidad anualizada: 11.0%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -1.6%
+- Beta vs SPY: 0.633 · posiciones efectivas: 14.0 · HHI: 0.0715
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **CRWV** · score agregado 215.4 · 3 señales · fuentes: large_holder
+- **PAL** · score agregado 153.4 · 2 señales · fuentes: corporate_insider
 - **NP** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **SEPN** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CURB** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **MANE** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -60,19 +64,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BORR | 81 | corporate_insider | Troim Tor Olav | 2 | $6,036,750 | cluster_buy |
 | ABCL | 78 | corporate_insider | Booth Andrew | 2 | $383,904 | cluster_buy |
+| PAL | 78 | corporate_insider | Lal Rohit | 3 | $217,200 | cluster_buy |
 | ANGX | 77 | corporate_insider | Sarowitz Steven I | 2 | $912,317 | cluster_buy |
 | ANGX | 77 | corporate_insider | Harmon Neal | 2 | $125,007 | cluster_buy |
+| PAL | 76 | corporate_insider | Wright Bradley J. | 3 | $22,200 | cluster_buy,small_amount |
 | CODI | 76 | corporate_insider | ENTERLINE LARRY L | 2 | $833,395 | cluster_buy |
 | BORR | 76 | corporate_insider | Currie Jeffrey | 2 | $501,638 | cluster_buy |
 | ABCL | 76 | corporate_insider | Hayden Michael R | 2 | $481,033 | cluster_buy |
 | ANGX | 76 | corporate_insider | Sarowitz Steven I | 2 | $443,277 | cluster_buy |
+| PAL | 75 | corporate_insider | Lal Rohit | 3 | $55,300 | cluster_buy |
+| PAL | 74 | corporate_insider | Rice Amy F. | 3 | $5,522 | cluster_buy,small_amount |
 | CODI | 72 | corporate_insider | SHAFFER TERI | 2 | $145,555 | cluster_buy |
 | BGLC | 72 | large_holder | Tan Lee Su-Leng |  | - | - |
 | TBCV | 72 | large_holder | TBCP V, LLC |  | - | - |
-| LESL | 72 | large_holder | Lee William Baxter |  | - | - |
-| CRWV | 72 | large_holder | Brannin McBee |  | - | - |
-| CRWV | 72 | large_holder | Brian Venturo |  | - | - |
-| CRWV | 72 | large_holder | Michael N Intrator |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -101,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
-- BTC-USD: 62960.46 (-0.7% / -2.91% / -2.1%) [2026-08-14]
+- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
+- BTC-USD: 62980.04 (-0.67% / -2.88% / -2.07%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,47 +121,47 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), merger (3), stock (3), earnings (2)
+**Temas dominantes**: stock (6), ai (4), merger (3), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [W] Wayfair ( NYSE : W ) Director Sells $7 , 131 , 840 . 00 in Stock (2026-08-15)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
+- [MORN] iShares Morningstar Value ETF ( NYSEARCA : ILCV ) Short Interest Update (2026-08-14)
 - [W] Wayfair has been on a tear of late . Bernstein doesnt see momentum slowing (2026-08-14)
 - [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
 - [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
 - [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 - [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
-- [SUPN] Are BOW , ATKR , SUPN Obtaining Fair Deals for their Shareholders ? (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Price Target Raised to $160 . 00 (2026-08-05)
-- [VMC] Vulcan Materials Q2 Earnings Call Highlights (2026-08-04)
+- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12 [senal en multiples fuentes].
+- CEO Zaslav David vendio WBD por $19.0M el 2026-08-13.
 - 10% owner SLTA V (GP), L.L.C. vendio FA por $275.2M el 2026-08-12.
 - 10% owner Audax Private Credit Business, LP compro Audax Private Credit Fund, LLC por $14.1M el 2026-08-12.
 - CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
 - 10% owner RA CAPITAL MANAGEMENT, L.P. vendio SEPN por $31.7M el 2026-08-12 [senal en multiples fuentes].
 - 10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Polen Thomas E Jr vendio BDX por $7.2M el 2026-08-13.
-- Director Troim Tor Olav compro BORR por $6.0M el 2026-08-13 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $522,749 · win rate 93% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $330,954 · win rate 96% · categorias: sports
-- WTSA · PnL $129,766 · win rate 98% · categorias: sports
-- ExplosiveNinja · PnL $90,755 · win rate 97% · categorias: sports
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $304,127 · win rate 86% · categorias: sports
+- SDTrading · PnL $25,367 · win rate 93% · categorias: sports
+- steevenseakael · PnL $6,289 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $12,544 · win rate 91% · categorias: sports
+- Painfulvoid · PnL $7,927 · win rate 89% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $5,339 · win rate 90% · categorias: sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 101 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 590 registros 30d · ultimo dato 2026-08-14
+- **congress**: `warning` · 98 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 608 registros 30d · ultimo dato 2026-08-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -171,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, CRWV, CURB, FWONK, GLD, IEF, LTH, NP, QQQ, SEPN, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, CRWV, CURB, FWONK, GLD, IEF, LTH, MANE, NP, PAL, QQQ, SEPN, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
