@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-15T17:51:46+00:00 -->
+<!-- trader_prompt.md generado 2026-08-15T19:05:48+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T17:51:46+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T19:05:48+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62996.65 (0.03% / -1.43% / -3.59%) [2026-08-15]
+- BTC-USD: 62995.23 (0.03% / -1.43% / -3.59%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), earnings (2), ai (1), merger (1)
+**Temas dominantes**: earnings (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] Rocket One Inc . Common Stock ( NASDAQ : RKTO ) Issues Earnings Results (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
-- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
-- [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
-- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $304,198 · win rate 93% · categorias: sports
-- Dota2winner · PnL $147,242 · win rate 96% · categorias: sports
-- Barbozaaa321 · PnL $24,617 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $51,803 · win rate 91% · categorias: sports
-- SDTrading · PnL $35,226 · win rate 93% · categorias: sports
+- 111111111115 · PnL $301,416 · win rate 93% · categorias: sports
+- Dota2winner · PnL $147,261 · win rate 96% · categorias: sports
+- Barbozaaa321 · PnL $24,625 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $48,168 · win rate 91% · categorias: sports
+- SDTrading · PnL $32,028 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
