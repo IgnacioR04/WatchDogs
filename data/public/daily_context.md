@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T09:56:11+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T10:55:38+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62979.86 (0.01% / -1.46% / -3.61%) [2026-08-15]
+- BTC-USD: 62960.72 (-0.02% / -1.49% / -3.64%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,17 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1), earnings (1)
+**Temas dominantes**: stock (6), earnings (3), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] Analysts Set SharonAI Holdings , Inc . Class A Common Stock ( NASDAQ : SHAZ ) Price Target at $107 . 67 (2026-08-15)
+- [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
 - [MORN] CVG Stock Price Quote | Morningstar (2026-08-15)
 - [MORN] GO . U Stock Price Quote | Morningstar (2026-08-15)
-- [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
 - [ONDS] After Ondas Reports Mixed Earnings , Here What Barchart Data Says Comes Next for ONDS Stock (2026-08-14)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
 - [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
-- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
-- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
+- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
+- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $461,784 · win rate 93% · categorias: sports
-- Dota2winner · PnL $63,505 · win rate 97% · categorias: sports
-- monkeymashingkeyboard · PnL $52,823 · win rate 91% · categorias: sports
-- SDTrading · PnL $33,631 · win rate 93% · categorias: sports
-- CORGI8 · PnL $24,699 · win rate 92% · categorias: sports
+- 111111111115 · PnL $316,946 · win rate 93% · categorias: sports
+- Dota2winner · PnL $44,188 · win rate 97% · categorias: sports
+- monkeymashingkeyboard · PnL $52,828 · win rate 91% · categorias: sports
+- SDTrading · PnL $33,795 · win rate 93% · categorias: sports
+- onekey02 · PnL $12,788 · win rate 95% · categorias: politics, crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
