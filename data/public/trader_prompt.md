@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-15T07:14:07+00:00 -->
+<!-- trader_prompt.md generado 2026-08-15T08:00:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T07:14:07+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T08:00:01+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63010.25 (0.06% / -1.41% / -3.57%) [2026-08-15]
+- BTC-USD: 63005.66 (0.05% / -1.42% / -3.57%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (3), ai (1), merger (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [W] Wayfair ( NYSE : W ) Director Sells $7 , 131 , 840 . 00 in Stock (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [ONDS] After Ondas Reports Mixed Earnings , Here What Barchart Data Says Comes Next for ONDS Stock (2026-08-14)
 - [MORN] iShares Morningstar Value ETF ( NYSEARCA : ILCV ) Short Interest Update (2026-08-14)
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
 - [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
-- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
 - [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
+- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +374,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Dota2winner · PnL $43,468 · win rate 96% · categorias: sports
-- CORGI8 · PnL $46,772 · win rate 92% · categorias: sports
-- monkeymashingkeyboard · PnL $52,820 · win rate 91% · categorias: sports
-- SDTrading · PnL $33,727 · win rate 93% · categorias: sports
-- 111111111115 · PnL $11,936 · win rate 93% · categorias: sports
+- Dota2winner · PnL $49,312 · win rate 96% · categorias: sports
+- 111111111115 · PnL $53,358 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $52,822 · win rate 91% · categorias: sports
+- SDTrading · PnL $33,726 · win rate 93% · categorias: sports
+- CORGI8 · PnL $36,303 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
