@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T16:54:57+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T17:51:46+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,16 +26,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
+| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
 | CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| NP | 2.6% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
-| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
+| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| NP | 2.6% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
+| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.8% | satellite | 112.71 | 1.54% | -1.47% | 2.31% |
+| MANE | 1.8% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63022.51 (0.07% / -1.39% / -3.55%) [2026-08-15]
+- BTC-USD: 62996.65 (0.03% / -1.43% / -3.59%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,20 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (2), earnings (2), merger (1)
+**Temas dominantes**: stock (3), earnings (2), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Power Solutions International , Inc . Common Stock ( PSIX ) Stock News & Articles (2026-08-15)
-- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
-- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
 - [MORN] NUAI Stock Price Quote | Morningstar (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
 - [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
+- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
+- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $294,070 · win rate 93% · categorias: sports
-- Dota2winner · PnL $147,229 · win rate 96% · categorias: sports
-- Barbozaaa321 · PnL $24,619 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $52,501 · win rate 91% · categorias: sports
-- SDTrading · PnL $35,788 · win rate 93% · categorias: sports
+- 111111111115 · PnL $304,198 · win rate 93% · categorias: sports
+- Dota2winner · PnL $147,242 · win rate 96% · categorias: sports
+- Barbozaaa321 · PnL $24,617 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $51,803 · win rate 91% · categorias: sports
+- SDTrading · PnL $35,226 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
