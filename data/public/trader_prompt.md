@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-15T22:53:13+00:00 -->
+<!-- trader_prompt.md generado 2026-08-15T23:49:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T22:53:13+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-15T23:49:06+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63065.78 (0.14% / -1.32% / -3.48%) [2026-08-15]
+- BTC-USD: 63032.06 (0.09% / -1.37% / -3.53%) [2026-08-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (3), ai (1), merger (1)
+**Temas dominantes**: stock (3), ai (1), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] RTB Digital , Inc . Common Stock ( NASDAQ : RTB ) Issues Quarterly Earnings Results (2026-08-15)
-- [CRWD] Rocket One Inc . Common Stock ( NASDAQ : RKTO ) Issues Earnings Results (2026-08-15)
+- [MORN] Short Interest in iShares Morningstar U . S . Equity ETF ( NYSEARCA : ILCB ) Declines By 58 . 4 % (2026-08-15)
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
+- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
 - [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
 - [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
 - [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
 - [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 - [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
+- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +380,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $300,280 · win rate 93% · categorias: sports
-- Dota2winner · PnL $147,137 · win rate 96% · categorias: sports
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $289,331 · win rate 87% · categorias: sports
-- SDTrading · PnL $62,165 · win rate 93% · categorias: sports
-- Barbozaaa321 · PnL $24,625 · win rate 96% · categorias: sports
+- 111111111115 · PnL $300,771 · win rate 93% · categorias: sports
+- Dota2winner · PnL $147,138 · win rate 96% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $351,932 · win rate 87% · categorias: sports
+- monkeymashingkeyboard · PnL $65,807 · win rate 91% · categorias: sports
+- BreakTheBank · PnL $153,591 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
