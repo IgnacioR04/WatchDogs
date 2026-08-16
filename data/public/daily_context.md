@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-16T02:15:18+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
+_Generado 2026-08-16T03:30:34+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62950.65 (-0.04% / -1.5% / -3.66%) [2026-08-16]
+- BTC-USD: 63050.45 (0.12% / -1.35% / -3.5%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,15 +121,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
-- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
+- [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
+- [ANET] Arista Networks vs . International Business Machines : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
+- [ANET] Arista Networks vs . International Business Machines : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,11 +142,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $127,090 · win rate 85% · categorias: sports
-- WhattDoyoumean · PnL $28,952 · win rate 92% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,485 · win rate 95% · categorias: sports, crypto
-- Kosherlocks · PnL $10,049 · win rate 95% · categorias: sports, crypto
-- 0xf3a1493c · PnL $6,061 · win rate 98% · categorias: sports
+- WTSA · PnL $25,759 · win rate 98% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $21,574 · win rate 96% · categorias: sports
+- Kingdmandan · PnL $17,132 · win rate 97% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $21,944 · win rate 95% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $37,556 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
