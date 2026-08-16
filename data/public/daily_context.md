@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-16T03:30:34+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
+_Generado 2026-08-16T04:16:04+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,16 +26,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
+| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
 | CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
 | LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| NP | 2.5% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 2.19% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.7% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63050.45 (0.12% / -1.35% / -3.5%) [2026-08-16]
+- BTC-USD: 63063.08 (0.14% / -1.33% / -3.49%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,10 +121,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: stock (5), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [MORN] Short Interest in iShares Morningstar U . S . Equity ETF ( NYSEARCA : ILCB ) Declines By 58 . 4 % (2026-08-15)
+- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
+- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
 - [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
 - [ANET] Arista Networks vs . International Business Machines : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
 - [ANET] Arista Networks vs . International Business Machines : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
