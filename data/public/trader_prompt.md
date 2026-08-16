@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-16T22:51:28+00:00 -->
+<!-- trader_prompt.md generado 2026-08-16T23:48:41+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-16T22:51:28+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
+_Generado 2026-08-16T23:48:41+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -260,13 +260,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -0.26% |
 | FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
-| CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
 | LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
 | NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
 | SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 2.31% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
-- BTC-USD: 62729.01 (-0.47% / -1.29% / -1.56%) [2026-08-16]
+- BTC-USD: 62830.3 (-0.31% / -1.14% / -1.4%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,17 +352,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1), merger (1), earnings (1)
+**Temas dominantes**: stock (7), ai (2), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MORN] The Vanguard S & P 500 ETF ( VOO ) Beat the Vanguard Morningstar Total Stock Market ETF ( VTI ) for 4 Straight Years . Here Why That About to Change . (2026-08-16)
+- [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-16)
+- [ANET] Arista Networks , Inc . $ANET Shares Purchased by VCI Wealth Management LLC (2026-08-16)
 - [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
+- [ANET] GraniteShares Advisors LLC Invests $1 . 24 Million in Arista Networks , Inc . $ANET (2026-08-16)
+- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -377,11 +380,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $223,247 · win rate 98% · categorias: sports
-- Dota2winner · PnL $104,263 · win rate 96% · categorias: sports
-- SDTrading · PnL $103,585 · win rate 93% · categorias: sports
-- kekasaur · PnL $78,368 · win rate 93% · categorias: sports
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $68,265 · win rate 90% · categorias: sports, crypto
+- Dota2winner · PnL $104,270 · win rate 96% · categorias: sports
+- WTSA · PnL $53,837 · win rate 98% · categorias: sports
+- SDTrading · PnL $95,714 · win rate 93% · categorias: sports
+- kekasaur · PnL $93,704 · win rate 93% · categorias: sports
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $68,247 · win rate 90% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
