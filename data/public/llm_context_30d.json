@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-16T20:51:42.191971+00:00",
+  "generated_at": "2026-08-16T21:49:15.252827+00:00",
   "window": {
     "from": "2026-07-17",
     "to": "2026-08-16",
@@ -24,7 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai"
+      "ai",
+      "merger",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -1223,9 +1225,19 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x04d5524a0a",
+        "username": "WTSA",
+        "pnl": 171303.84,
+        "win_rate": 0.9836,
+        "volume": 645022.96,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 104265.4,
+        "pnl": 104262.95,
         "win_rate": 0.9588,
         "volume": 294331.63,
         "categories": [
@@ -1233,72 +1245,21 @@
         ]
       },
       {
-        "wallet": "0x04d5524a0a",
-        "username": "WTSA",
-        "pnl": 63513.68,
-        "win_rate": 0.9836,
-        "volume": 416402.03,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6982049c65",
-        "username": "0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945",
-        "pnl": 31530.07,
-        "win_rate": 0.975,
-        "volume": 124606.52,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xf5f9294051",
-        "username": "kekasaur",
-        "pnl": 61251.78,
-        "win_rate": 0.9306,
-        "volume": 134130.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 48090.27,
-        "win_rate": 0.9332,
+        "pnl": 92336.78,
+        "win_rate": 0.9343,
         "volume": 383759.14,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 56057.0,
-        "win_rate": 0.9072,
-        "volume": 48906.83,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 92385.68,
-        "win_rate": 0.8634,
-        "volume": 252336.45,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4d3079bd4c",
-        "username": "gransaaa",
-        "pnl": 62648.2,
-        "win_rate": 0.8706,
-        "volume": 302858.01,
+        "wallet": "0xf5f9294051",
+        "username": "kekasaur",
+        "pnl": 61677.36,
+        "win_rate": 0.9263,
+        "volume": 202896.47,
         "categories": [
           "sports"
         ]
@@ -1306,22 +1267,63 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 42133.86,
-        "win_rate": 0.897,
-        "volume": 978466.92,
+        "pnl": 72068.61,
+        "win_rate": 0.8972,
+        "volume": 1104181.28,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x65c18d740c",
+        "username": "casualbet2020",
+        "pnl": 92399.7,
+        "win_rate": 0.8634,
+        "volume": 253128.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 46348.02,
+        "win_rate": 0.9072,
+        "volume": 51706.04,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4d3079bd4c",
+        "username": "gransaaa",
+        "pnl": 62629.52,
+        "win_rate": 0.8706,
+        "volume": 302858.01,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xd6966eb1ae",
         "username": "Painfulvoid",
-        "pnl": 39968.02,
+        "pnl": 40148.02,
         "win_rate": 0.888,
         "volume": 65863.0,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 64519.52,
+        "win_rate": 0.805,
+        "volume": 2498553.2,
+        "categories": [
+          "sports",
+          "economy"
         ]
       }
     ],
@@ -1329,7 +1331,7 @@
       {
         "wallet": "0x9319a045cd",
         "username": "sainttroplay",
-        "pnl": 2594931.43,
+        "pnl": 2595908.6,
         "win_rate": 1.0,
         "volume": 7753149.52,
         "categories": [
@@ -1339,9 +1341,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 87791.76,
-        "win_rate": 0.655,
-        "volume": 11365439.95,
+        "pnl": 51604.54,
+        "win_rate": 0.656,
+        "volume": 12001590.08,
         "categories": [
           "sports"
         ]
@@ -1349,9 +1351,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 273302.22,
-        "win_rate": 0.572,
-        "volume": 3044480.05,
+        "pnl": 250438.51,
+        "win_rate": 0.574,
+        "volume": 3103370.87,
         "categories": [
           "sports"
         ]
@@ -1359,12 +1361,34 @@
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 344741.38,
-        "win_rate": 0.4912,
-        "volume": 1309734.67,
+        "pnl": 266896.98,
+        "win_rate": 0.492,
+        "volume": 1491981.17,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x4be1fa92e6",
+        "username": "Eztennis",
+        "pnl": 61989.04,
+        "win_rate": 0.624,
+        "volume": 1152762.99,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 152486.11,
+        "win_rate": 0.538,
+        "volume": 6567979.92,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1378,21 +1402,10 @@
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 98196.45,
-        "win_rate": 0.525,
-        "volume": 6160813.16,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x1610db79f7",
         "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
-        "pnl": 45141.74,
-        "win_rate": 0.5575,
+        "pnl": 45167.78,
+        "win_rate": 0.5606,
         "volume": 1375586.9,
         "categories": [
           "sports"
@@ -1401,9 +1414,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 114277.01,
+        "pnl": 173441.13,
         "win_rate": 0.558,
-        "volume": 2680240.72,
+        "volume": 3145595.07,
         "categories": [
           "sports"
         ]
@@ -1417,30 +1430,10 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 42133.86,
-        "win_rate": 0.897,
-        "volume": 978466.92,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
       }
     ]
   },
   "news": [
-    {
-      "title": "ChronoScale Corporation Common Stock ( NASDAQ : CHRN ) Short Interest Update",
-      "url": "https://www.themarketsdaily.com/2026/08/16/chronoscale-corporation-common-stock-nasdaqchrn-short-interest-update.html",
-      "ticker": "CRWD",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-16"
-    },
     {
       "title": "Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock",
       "url": "https://www.themarketsdaily.com/2026/08/16/alan-russell-sells-5901-shares-of-edgewise-therapeutics-nasdaqewtx-stock.html",
@@ -1460,25 +1453,66 @@
       "date": "2026-08-15"
     },
     {
-      "title": "Diversified Marine Completes M / V Edwin Rider for Vulcan Materials",
-      "url": "https://maritime-executive.com/corporate/diversified-marine-completes-m-v-edwin-rider-for-vulcan-materials",
-      "ticker": "VMC",
+      "title": "Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/15/reviewing-northgate-otcmktsngtef-park-ohio-nasdaqpkoh.html",
+      "ticker": "PKOH",
       "themes": [],
-      "date": "2026-08-14"
+      "date": "2026-08-15"
     },
     {
-      "title": "Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) ",
-      "url": "https://www.dailypolitical.com/2026/08/10/head-to-head-analysis-titan-america-nysettam-vulcan-materials-nysevmc.html",
-      "ticker": "VMC",
-      "themes": [],
-      "date": "2026-08-10"
+      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/14/rhythm-pharmaceuticals-nasdaqrytm-evp-jennifer-kayden-lee-sells-75834-shares.html",
+      "ticker": "RYTM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-15"
     },
     {
-      "title": "Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-vmc-vs-mlm-184919581.html",
-      "ticker": "VMC",
+      "title": "Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company",
+      "url": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/park-aerospace-corp-announces-the-election-of-constantine-gus-petropoulos-as-senior-vice-president-and-chief-financial-officer-of-the-company/2405041",
+      "ticker": "PKE",
+      "themes": [],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity",
+      "url": "https://www.rttnews.com/3679026/rhythm-pharmaceuticals-expands-imcivree-authorization-in-uk-for-acquired-hypothalamic-obesity.aspx",
+      "ticker": "RYTM",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP",
+      "url": "https://www.themarketsdaily.com/2026/08/09/park-aerospace-corp-pke-stake-cut-by-dimensional-fund-advisors-lp.html",
+      "ticker": "PKE",
       "themes": [],
       "date": "2026-08-09"
+    },
+    {
+      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . ",
+      "url": "https://www.themarketsdaily.com/2026/08/07/rhythm-pharmaceuticals-nasdaqrytm-given-new-146-00-price-target-at-jpmorgan-chase-co.html",
+      "ticker": "RYTM",
+      "themes": [],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-park-aerospace-corp-pke-131241404.html",
+      "ticker": "PKE",
+      "themes": [],
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results",
+      "url": "https://www.themarketsdaily.com/2026/08/05/rhythm-pharmaceuticals-nasdaqrytm-posts-earnings-results.html",
+      "ticker": "RYTM",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-05"
     }
   ],
   "signals_count": 1618,
