@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-16T11:50:50+00:00 -->
+<!-- trader_prompt.md generado 2026-08-16T13:15:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-16T11:50:50+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
+_Generado 2026-08-16T13:15:53+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -259,10 +259,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
 | CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
 | FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
-| CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 2.19% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
 | SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
@@ -334,10 +334,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 62908.97 (-0.18% / -1.01% / -1.28%) [2026-08-16]
+- BTC-USD: 62999.13 (-0.04% / -0.87% / -1.14%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,11 +352,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: stock (2), earnings (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
-- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
+- [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
+- [MORN] Short Interest in iShares Morningstar U . S . Equity ETF ( NYSEARCA : ILCB ) Declines By 58 . 4 % (2026-08-15)
+- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
+- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,10 +374,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Dota2winner · PnL $86,200 · win rate 96% · categorias: sports
-- 111111111115 · PnL $72,230 · win rate 93% · categorias: sports
+- Dota2winner · PnL $104,237 · win rate 96% · categorias: sports
 - WTSA · PnL $25,837 · win rate 98% · categorias: sports
-- 0xf3ce7f04 · PnL $26,717 · win rate 96% · categorias: sports
+- 0xf3ce7f04 · PnL $30,186 · win rate 96% · categorias: sports
+- Barbozaaa321 · PnL $25,163 · win rate 96% · categorias: sports
 - monkeymashingkeyboard · PnL $56,906 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
