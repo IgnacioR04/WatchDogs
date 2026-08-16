@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-16T09:01:42+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
+_Generado 2026-08-16T09:57:09+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,16 +26,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -0.26% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
 | CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
+| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -105,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
-- BTC-USD: 63001.9 (-0.04% / -0.87% / -1.13%) [2026-08-16]
+- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
+- BTC-USD: 62935.18 (-0.14% / -0.97% / -1.24%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,15 +121,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1)
+**Temas dominantes**: earnings (2), ai (1), stock (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
-- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
-- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
-- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
+- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,11 +146,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Dota2winner · PnL $65,430 · win rate 96% · categorias: sports
+- Dota2winner · PnL $80,056 · win rate 96% · categorias: sports
+- 111111111115 · PnL $83,939 · win rate 93% · categorias: sports
 - WTSA · PnL $25,837 · win rate 98% · categorias: sports
+- 0xf3ce7f04 · PnL $25,234 · win rate 96% · categorias: sports
 - monkeymashingkeyboard · PnL $56,906 · win rate 91% · categorias: sports
-- 0xf3ce7f04 · PnL $19,460 · win rate 96% · categorias: sports
-- Kingdmandan · PnL $17,132 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
