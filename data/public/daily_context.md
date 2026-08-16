@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-15T23:49:06+00:00 · ventana señales 2026-07-16 -> 2026-08-15_
+_Generado 2026-08-16T02:15:18+00:00 · ventana señales 2026-07-17 -> 2026-08-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,23 +26,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.3% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
 | FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
-| CHRW | 4.8% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| NP | 2.6% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
 | SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.8% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.0%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Volatilidad anualizada: 10.4%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
 - Max drawdown historico: -1.6%
-- Beta vs SPY: 0.633 · posiciones efectivas: 14.0 · HHI: 0.0715
+- Beta vs SPY: 0.579 · posiciones efectivas: 14.0 · HHI: 0.0716
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63032.06 (0.09% / -1.37% / -3.53%) [2026-08-15]
+- BTC-USD: 62950.65 (-0.04% / -1.5% / -3.66%) [2026-08-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,24 +121,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1), merger (1), earnings (1)
+**Temas dominantes**: earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MORN] Short Interest in iShares Morningstar U . S . Equity ETF ( NYSEARCA : ILCB ) Declines By 58 . 4 % (2026-08-15)
-- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
-- [MORN] FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
+- [ONDS] Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS (2026-08-15)
+- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
 - [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 - [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
-- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12 [senal en multiples fuentes].
+- CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12.
 - CEO Zaslav David vendio WBD por $19.0M el 2026-08-13.
 - 10% owner SLTA V (GP), L.L.C. vendio FA por $275.2M el 2026-08-12.
 - CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
@@ -149,18 +144,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 111111111115 · PnL $300,771 · win rate 93% · categorias: sports
-- Dota2winner · PnL $147,138 · win rate 96% · categorias: sports
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $351,932 · win rate 87% · categorias: sports
-- monkeymashingkeyboard · PnL $65,807 · win rate 91% · categorias: sports
-- BreakTheBank · PnL $153,591 · win rate 85% · categorias: sports
+- BreakTheBank · PnL $127,090 · win rate 85% · categorias: sports
+- WhattDoyoumean · PnL $28,952 · win rate 92% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,485 · win rate 95% · categorias: sports, crypto
+- Kosherlocks · PnL $10,049 · win rate 95% · categorias: sports, crypto
+- 0xf3a1493c · PnL $6,061 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 98 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
+- **congress**: `warning` · 88 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
 - **sec_insiders**: `ok` · 615 registros 30d · ultimo dato 2026-08-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date

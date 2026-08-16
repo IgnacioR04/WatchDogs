@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-15T23:48:03.404405+00:00",
+  "generated_at": "2026-08-16T02:14:24.735261+00:00",
   "window": {
-    "from": "2026-07-16",
-    "to": "2026-08-15",
+    "from": "2026-07-17",
+    "to": "2026-08-16",
     "days": 30
   },
   "data_quality": {
@@ -23,9 +23,6 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
-      "merger",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -35,7 +32,7 @@
       "id": "move_1",
       "rank": 1,
       "title": "CEO vendio ANET ($47.2M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12 [senal en multiples fuentes].",
+      "summary": "CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
       "actor_name": "Ullal Jayshree",
@@ -44,32 +41,14 @@
       "direction": "sell",
       "amount_estimated": 47186644.84,
       "event_date": "2026-08-12",
-      "importance_score": 86.5,
-      "cross_source_score": 25.0,
+      "importance_score": 85.2,
+      "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio ANET ($24.5M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $24.5M el 2026-08-12 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 24508182.73,
-      "event_date": "2026-08-12",
-      "importance_score": 85.0,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO vendio WBD ($19.0M)",
       "summary": "CEO Zaslav David vendio WBD por $19.0M el 2026-08-13.",
       "source": "sec_form_4",
@@ -86,8 +65,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000131828526000017/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner vendio FA ($275.2M)",
       "summary": "10% owner SLTA V (GP), L.L.C. vendio FA por $275.2M el 2026-08-12.",
       "source": "sec_form_4",
@@ -102,6 +81,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1737652/000119312526352400/"
+    },
+    {
+      "id": "move_4",
+      "rank": 4,
+      "title": "CEO vendio ANET ($24.5M)",
+      "summary": "CEO Ullal Jayshree vendio ANET por $24.5M el 2026-08-12.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ullal Jayshree",
+      "actor_type": "ceo",
+      "ticker": "ANET",
+      "direction": "sell",
+      "amount_estimated": 24508182.73,
+      "event_date": "2026-08-12",
+      "importance_score": 83.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
     },
     {
       "id": "move_5",
@@ -142,42 +139,6 @@
     {
       "id": "move_7",
       "rank": 7,
-      "title": "CEO vendio ANET ($9.8M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $9.8M el 2026-08-12 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 9755107.9,
-      "event_date": "2026-08-12",
-      "importance_score": 83.0,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
-      "title": "CEO vendio ANET ($9.3M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $9.3M el 2026-08-12 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 9313908.91,
-      "event_date": "2026-08-12",
-      "importance_score": 82.9,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
       "title": "10% owner compro EMPD ($2.2M)",
       "summary": "10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -194,8 +155,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1469336/000168316826006443/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio BDX ($7.2M)",
       "summary": "CEO Polen Thomas E Jr vendio BDX por $7.2M el 2026-08-13.",
       "source": "sec_form_4",
@@ -212,8 +173,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1621793/000162828026057166/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO opero BDX ($7.2M)",
       "summary": "CEO Polen Thomas E Jr opero BDX por $7.2M el 2026-08-13.",
       "source": "sec_form_4",
@@ -230,8 +191,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1621793/000162828026057166/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_10",
+      "rank": 10,
       "title": "Director compro BORR ($6.0M)",
       "summary": "Director Troim Tor Olav compro BORR por $6.0M el 2026-08-13 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -248,8 +209,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1709630/000162828026056941/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO opero WBD ($6.9M)",
       "summary": "CEO Zaslav David opero WBD por $6.9M el 2026-08-13.",
       "source": "sec_form_4",
@@ -266,8 +227,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000131828526000017/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio WBD ($5.5M)",
       "summary": "CEO Zaslav David vendio WBD por $5.5M el 2026-08-14.",
       "source": "sec_form_4",
@@ -282,6 +243,42 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000131828526000017/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "CEO vendio ANET ($9.8M)",
+      "summary": "CEO Ullal Jayshree vendio ANET por $9.8M el 2026-08-12.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ullal Jayshree",
+      "actor_type": "ceo",
+      "ticker": "ANET",
+      "direction": "sell",
+      "amount_estimated": 9755107.9,
+      "event_date": "2026-08-12",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "CEO vendio ANET ($9.3M)",
+      "summary": "CEO Ullal Jayshree vendio ANET por $9.3M el 2026-08-12.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ullal Jayshree",
+      "actor_type": "ceo",
+      "ticker": "ANET",
+      "direction": "sell",
+      "amount_estimated": 9313908.91,
+      "event_date": "2026-08-12",
+      "importance_score": 81.7,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
     },
     {
       "id": "move_15",
@@ -304,24 +301,6 @@
     {
       "id": "move_16",
       "rank": 16,
-      "title": "CEO vendio ANET ($5.1M)",
-      "summary": "CEO Ullal Jayshree vendio ANET por $5.1M el 2026-08-12 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ullal Jayshree",
-      "actor_type": "ceo",
-      "ticker": "ANET",
-      "direction": "sell",
-      "amount_estimated": 5066729.66,
-      "event_date": "2026-08-12",
-      "importance_score": 81.6,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000190/"
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -338,8 +317,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -356,8 +335,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -374,8 +353,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -385,6 +364,24 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 30389405507,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
+      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 28704244679,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -522,10 +519,9 @@
     "sell_pressure": [
       {
         "ticker": "ANET",
-        "company": "SP Arista Networks, Inc. Common Stock",
-        "pressure_score": 1917.5,
+        "company": "Arista Networks, Inc.",
+        "pressure_score": 1886.7,
         "sources": [
-          "congress",
           "corporate_insider"
         ]
       },
@@ -1226,21 +1222,63 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 300771.17,
-        "win_rate": 0.9292,
-        "volume": 4022704.96,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 127090.16,
+        "win_rate": 0.8507,
+        "volume": 322136.82,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3413c803c3",
-        "username": "Dota2winner",
-        "pnl": 147138.0,
-        "win_rate": 0.9619,
-        "volume": 670018.07,
+        "wallet": "0x866056133a",
+        "username": "WhattDoyoumean",
+        "pnl": 28952.08,
+        "win_rate": 0.9197,
+        "volume": 5000.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9c3ce009c9",
+        "username": "0x0x23kjookhaiuohduoayh8c9",
+        "pnl": 15484.92,
+        "win_rate": 0.9516,
+        "volume": 10204.07,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x82398835fe",
+        "username": "Kosherlocks",
+        "pnl": 10048.7,
+        "win_rate": 0.9538,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf3a1493cf8",
+        "username": "",
+        "pnl": 6061.1,
+        "win_rate": 0.98,
+        "volume": 6249.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xda3407bec4",
+        "username": "JohnnyWins",
+        "pnl": 5496.07,
+        "win_rate": 0.9787,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1248,80 +1286,40 @@
       {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 351932.3,
-        "win_rate": 0.8676,
-        "volume": 631344.92,
+        "pnl": 26125.0,
+        "win_rate": 0.8696,
+        "volume": 0.0,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x6d3c5bd139",
+        "username": "VeryLucky888",
+        "pnl": 14415.09,
+        "win_rate": 0.901,
+        "volume": 31071.52,
+        "categories": [
+          "sports",
+          "economy"
         ]
       },
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 65807.15,
-        "win_rate": 0.9079,
-        "volume": 264129.97,
+        "pnl": 10750.25,
+        "win_rate": 0.9087,
+        "volume": 11347.84,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 153590.55,
-        "win_rate": 0.8496,
-        "volume": 402618.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 33581.03,
-        "win_rate": 0.932,
-        "volume": 195424.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd06c49e1c8",
-        "username": "Skritopoolniy",
-        "pnl": 42130.87,
-        "win_rate": 0.9055,
-        "volume": 215036.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 28977.01,
-        "win_rate": 0.9151,
-        "volume": 642028.25,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xe548376f23",
-        "username": "Uniform123",
-        "pnl": 26859.56,
-        "win_rate": 0.8812,
-        "volume": 112940.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x38337de21f",
-        "username": "SineNooneEI",
-        "pnl": 88582.39,
-        "win_rate": 0.789,
-        "volume": 584402.69,
+        "wallet": "0xd6966eb1ae",
+        "username": "Painfulvoid",
+        "pnl": 12376.75,
+        "win_rate": 0.887,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1329,103 +1327,104 @@
     ],
     "whales": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "111111111115",
-        "pnl": 300771.17,
-        "win_rate": 0.9292,
-        "volume": 4022704.96,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 127090.16,
+        "win_rate": 0.8507,
+        "volume": 322136.82,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 282358.14,
-        "win_rate": 0.4777,
-        "volume": 1322866.94,
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 38605.32,
+        "win_rate": 0.668,
+        "volume": 895649.26,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 95153.14,
-        "win_rate": 0.61,
-        "volume": 5675432.42,
-        "categories": [
-          "sports",
-          "economy"
         ]
       },
       {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
-        "pnl": 438082.32,
-        "win_rate": 0.4871,
-        "volume": 885526.84,
+        "pnl": 159891.05,
+        "win_rate": 0.4887,
+        "volume": 181888.51,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 351932.3,
-        "win_rate": 0.8676,
-        "volume": 631344.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 153590.55,
-        "win_rate": 0.8496,
-        "volume": 402618.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3eb095d871",
-        "username": "predictionlegend",
-        "pnl": 198500.74,
+        "wallet": "0x4907a9ede1",
+        "username": "Kmafi8",
+        "pnl": 6351.6,
         "win_rate": 1.0,
-        "volume": 546096.12,
+        "volume": 133280.08,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6e2c0e9474",
-        "username": "ASPEN88888",
-        "pnl": 25046.68,
-        "win_rate": 0.408,
-        "volume": 1634189.36,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 17568.97,
+        "win_rate": 0.557,
+        "volume": 289826.78,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 79477.94,
-        "win_rate": 0.66,
-        "volume": 1350623.33,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 35336.02,
+        "win_rate": 0.643,
+        "volume": 126643.41,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 8218.35,
+        "win_rate": 0.596,
+        "volume": 252440.22,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 4048.19,
+        "win_rate": 0.562,
+        "volume": 275490.96,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xbb5fbe8106",
-        "username": "highnetworth",
-        "pnl": 111578.44,
-        "win_rate": 0.9048,
-        "volume": 310695.28,
+        "wallet": "0xc2e7800b5a",
+        "username": "beachboy4",
+        "pnl": 165278.43,
+        "win_rate": 0.5381,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbca08c1bc2",
+        "username": "1winstreak1",
+        "pnl": 4640.74,
+        "win_rate": 0.571,
+        "volume": 88198.73,
         "categories": [
           "sports"
         ]
@@ -1434,39 +1433,19 @@
   },
   "news": [
     {
-      "title": "Short Interest in iShares Morningstar U . S . Equity ETF ( NYSEARCA : ILCB ) Declines By 58 . 4 % ",
-      "url": "https://www.themarketsdaily.com/2026/08/15/short-interest-in-ishares-morningstar-u-s-equity-etf-nysearcailcb-declines-by-58-4.html",
-      "ticker": "MORN",
+      "title": "Ondas ( NASDAQ : ONDS ) Releases Quarterly Earnings Results , Misses Estimates By $0 . 10 EPS",
+      "url": "https://www.dailypolitical.com/2026/08/15/ondas-nasdaqonds-releases-quarterly-earnings-results-misses-estimates-by-0-10-eps.html",
+      "ticker": "ONDS",
       "themes": [
-        "stock"
+        "earnings"
       ],
       "date": "2026-08-15"
     },
     {
-      "title": "Wayfair ( W ) Physical Retail Emerging as Growth Engine",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-w-physical-retail-emerging-124336839.html",
-      "ticker": "W",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "FlexShares Morningstar US Market Factor Tilt Index Fund ( BATS : TILT ) Hits New 52 - Week High – Still a Buy ? ",
-      "url": "https://www.themarketsdaily.com/2026/08/15/flexshares-morningstar-us-market-factor-tilt-index-fund-batstilt-hits-new-52-week-high-still-a-buy.html",
-      "ticker": "MORN",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/14/rhythm-pharmaceuticals-nasdaqrytm-evp-jennifer-kayden-lee-sells-75834-shares.html",
-      "ticker": "RYTM",
-      "themes": [
-        "stock"
-      ],
+      "title": "Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/15/reviewing-northgate-otcmktsngtef-park-ohio-nasdaqpkoh.html",
+      "ticker": "PKOH",
+      "themes": [],
       "date": "2026-08-15"
     },
     {
@@ -1475,22 +1454,6 @@
       "ticker": "VMC",
       "themes": [],
       "date": "2026-08-14"
-    },
-    {
-      "title": "Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company",
-      "url": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/park-aerospace-corp-announces-the-election-of-constantine-gus-petropoulos-as-senior-vice-president-and-chief-financial-officer-of-the-company/2405041",
-      "ticker": "PKE",
-      "themes": [],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity",
-      "url": "https://www.rttnews.com/3679026/rhythm-pharmaceuticals-expands-imcivree-authorization-in-uk-for-acquired-hypothalamic-obesity.aspx",
-      "ticker": "RYTM",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-08-11"
     },
     {
       "title": "Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) ",
@@ -1505,39 +1468,9 @@
       "ticker": "VMC",
       "themes": [],
       "date": "2026-08-09"
-    },
-    {
-      "title": "Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP",
-      "url": "https://www.themarketsdaily.com/2026/08/09/park-aerospace-corp-pke-stake-cut-by-dimensional-fund-advisors-lp.html",
-      "ticker": "PKE",
-      "themes": [],
-      "date": "2026-08-09"
-    },
-    {
-      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . ",
-      "url": "https://www.themarketsdaily.com/2026/08/07/rhythm-pharmaceuticals-nasdaqrytm-given-new-146-00-price-target-at-jpmorgan-chase-co.html",
-      "ticker": "RYTM",
-      "themes": [],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-park-aerospace-corp-pke-131241404.html",
-      "ticker": "PKE",
-      "themes": [],
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results",
-      "url": "https://www.themarketsdaily.com/2026/08/05/rhythm-pharmaceuticals-nasdaqrytm-posts-earnings-results.html",
-      "ticker": "RYTM",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
     }
   ],
-  "signals_count": 1649,
+  "signals_count": 1618,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
