@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-16T08:01:07+00:00",
+  "generated_at": "2026-08-16T09:01:40+00:00",
   "risk_state": "risk_on",
-  "recommended_risk_budget": 0.85,
-  "summary": "Mercado risk-on: tendencia bull, volatilidad calm, credito unknown, curva steep. Presupuesto de riesgo recomendado 85%.",
+  "recommended_risk_budget": 0.95,
+  "summary": "Mercado risk-on: tendencia bull, volatilidad calm, credito tight, curva steep. Presupuesto de riesgo recomendado 95%.",
   "reasons": [
     "tendencia alcista (+)",
-    "VIX calmado (+)"
+    "VIX calmado (+)",
+    "credito tenso/risk-on (+)"
   ],
   "states": {
     "volatility": {
@@ -20,8 +21,8 @@
       "pct_vs_ma200": 10.47
     },
     "credit": {
-      "state": "unknown",
-      "hy_spread": null
+      "state": "tight",
+      "hy_spread": 2.71
     },
     "rates": {
       "state": "steep",
