@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T06:08:00+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T07:33:21+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T06:08:00+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T07:33:21+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.25)
+- Volatilidad: `calm` (VIX 14.99)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
@@ -336,8 +336,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63465.76 (0.7% / -0.14% / -0.41%) [2026-08-17]
+- ^VIX: 14.99 (5.19% / -3.04% / -19.62%) [2026-08-17]
+- BTC-USD: 63510.01 (1.1% / 0.17% / -0.57%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,10 +352,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1), merger (1), earnings (1)
+**Temas dominantes**: ai (1), stock (1), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
@@ -375,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $253,334 · win rate 98% · categorias: sports
+- WTSA · PnL $285,786 · win rate 98% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
-- kekasaur · PnL $55,032 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $23,172 · win rate 91% · categorias: sports, politics
-- WhattDoyoumean · PnL $16,293 · win rate 92% · categorias: sports
+- kekasaur · PnL $55,106 · win rate 93% · categorias: sports
+- TAIWANNUMBERONE · PnL $23,174 · win rate 91% · categorias: sports, politics
+- JnStTrdrBnusFnd · PnL $20,594 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
