@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T15:02:27+00:00",
+  "generated_at": "2026-08-17T15:52:26+00:00",
   "profile": "moderado",
-  "regime_budget": 0.95,
+  "regime_budget": 0.9,
   "total_equity": 0.8503,
   "cash": 0.1497,
   "weights": {
@@ -9,14 +9,15 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.0872,
-    "CHRW": 0.0717,
+    "FWONK": 0.0753,
     "IEF": 0.0622,
-    "LTH": 0.0602,
-    "NP": 0.0357,
-    "SEPN": 0.0309,
-    "CRWV": 0.025,
-    "MANE": 0.0241
+    "CHRW": 0.0619,
+    "LTH": 0.052,
+    "BWXT": 0.0456,
+    "NP": 0.0308,
+    "SEPN": 0.0268,
+    "CRWV": 0.0216,
+    "MANE": 0.0208
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0775,
-    "CRWV": 0.0222,
-    "NP": 0.0317,
-    "CHRW": 0.0637,
-    "LTH": 0.0535,
-    "SEPN": 0.0275,
-    "MANE": 0.0214
+    "FWONK": 0.0669,
+    "CRWV": 0.0192,
+    "NP": 0.0274,
+    "CHRW": 0.055,
+    "LTH": 0.0462,
+    "SEPN": 0.0238,
+    "MANE": 0.0185,
+    "BWXT": 0.0405
   },
   "satellite_rationale": [
     {
@@ -90,18 +92,26 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "BWXT",
+      "score": 60.7,
+      "sources": [
+        "congress"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1123,
-    "var_95_1d": 0.0081,
-    "cvar_95_1d": 0.0112,
-    "max_drawdown": -0.0271,
-    "beta_spy": 0.622,
-    "hhi": 0.0756,
+    "ann_vol": 0.116,
+    "var_95_1d": 0.0096,
+    "cvar_95_1d": 0.0124,
+    "max_drawdown": -0.0295,
+    "beta_spy": 0.648,
+    "hhi": 0.0726,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.2,
+    "n_positions": 13,
+    "effective_positions": 13.8,
     "gross_exposure": 0.8503,
     "days_used": 37
   },
