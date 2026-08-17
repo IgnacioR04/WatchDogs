@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T14:09:22+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T15:02:28+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T14:09:22+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T15:02:28+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -239,13 +239,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.0)
-- Tendencia: `bull` (SPY 775.29 · MA50 748.95 · MA200 703.22 · dist MA200: 10.25%)
-- Credito: `tight` (HY spread 2.71)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `calm` (VIX 14.98)
+- Tendencia: `bull` (SPY 775.2 · MA50 748.95 · MA200 703.22 · dist MA200: 10.23%)
+- Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.51)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -253,32 +253,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 775.29 | -0.14% | 0.29% | 4.47% |
-| QQQ | 12.0% | core | 731.94 | 0.12% | 1.54% | 5.15% |
-| TLT | 12.0% | core | 81.79 | -0.31% | -0.34% | -2.12% |
-| GLD | 9.3% | core | 404.16 | 0.67% | 0.4% | 9.94% |
-| FWONK | 8.0% | satellite | 103.42 | -0.46% | 0.55% | 1.19% |
-| CHRW | 6.5% | satellite | 149.04 | 0.32% | 0.51% | -27.58% |
-| IEF | 6.2% | core | 92.99 | -0.05% | 0.25% | -0.25% |
-| LTH | 5.5% | satellite | 45.04 | -0.48% | 6.09% | 5.96% |
-| NP | 3.3% | satellite | 31.79 | 0.25% | -0.72% | 2.45% |
-| PAL | 2.9% | satellite | 5.9 | 7.27% | -18.51% | -16.19% |
-| SEPN | 2.8% | satellite | 44.81 | 0.71% | 15.35% | 39.13% |
-| CRWV | 2.3% | satellite | 104.14 | -1.06% | 18.09% | 42.54% |
-| MANE | 2.2% | satellite | 109.3 | -3.03% | -4.45% | -1.81% |
+| SPY | 12.0% | core | 775.2 | -0.15% | 0.28% | 4.46% |
+| QQQ | 12.0% | core | 733.51 | 0.33% | 1.75% | 5.38% |
+| TLT | 12.0% | core | 81.77 | -0.33% | -0.35% | -2.13% |
+| GLD | 9.3% | core | 405.15 | 0.92% | 0.65% | 10.22% |
+| FWONK | 8.7% | satellite | 102.29 | -1.55% | -0.54% | 0.09% |
+| CHRW | 7.2% | satellite | 147.67 | -0.61% | -0.42% | -28.25% |
+| IEF | 6.2% | core | 93.02 | -0.02% | 0.28% | -0.22% |
+| LTH | 6.0% | satellite | 45.56 | 0.67% | 7.31% | 7.19% |
+| NP | 3.6% | satellite | 31.26 | -1.42% | 0.29% | -1.04% |
+| SEPN | 3.1% | satellite | 45.34 | 1.89% | 16.77% | 35.75% |
+| CRWV | 2.5% | satellite | 103.86 | -1.33% | 17.77% | 42.16% |
+| MANE | 2.4% | satellite | 108.82 | -3.46% | -4.87% | -2.25% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.4%
+- Volatilidad anualizada: 11.2%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -1.7%
-- Beta vs SPY: 0.637 · posiciones efectivas: 13.7 · HHI: 0.0731
+- Max drawdown historico: -2.7%
+- Beta vs SPY: 0.622 · posiciones efectivas: 13.2 · HHI: 0.0756
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **CRWV** · score agregado 215.4 · 3 señales · fuentes: large_holder
-- **PAL** · score agregado 153.4 · 2 señales · fuentes: corporate_insider
 - **NP** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
@@ -296,16 +294,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | FOCL | 80 | corporate_insider | Rhodes Ryan | 4 | $99,750 | cluster_buy |
 | BORR | 79 | corporate_insider | Troim Tor Olav | 2 | $2,193,400 | cluster_buy |
 | ONON | 79 | corporate_insider | Bernhard Olivier | 2 | $1,993,790 | cluster_buy |
+| REZI | 79 | corporate_insider | SURRAN THOMAS A | 2 | $306,900 | cluster_buy |
 | FOCL | 78 | corporate_insider | WILLSEY LANCE | 4 | $237,500 | cluster_buy |
 | ABCL | 78 | corporate_insider | Booth Andrew | 2 | $383,904 | cluster_buy |
-| PAL | 78 | corporate_insider | Lal Rohit | 3 | $217,200 | cluster_buy |
 | ANGX | 77 | corporate_insider | Sarowitz Steven I | 2 | $912,317 | cluster_buy |
 | ANGX | 77 | corporate_insider | Harmon Neal | 2 | $125,007 | cluster_buy |
 | EDAP | 76 | corporate_insider | Mobeck Kenneth S. | 4 | $23,750 | cluster_buy,small_amount |
-| PAL | 76 | corporate_insider | Wright Bradley J. | 3 | $22,200 | cluster_buy,small_amount |
 | BORR | 76 | corporate_insider | Currie Jeffrey | 2 | $501,638 | cluster_buy |
 | ACON | 76 | corporate_insider | Ness Brent | 4 | $12,091 | cluster_buy,small_amount |
 | ABCL | 76 | corporate_insider | Hayden Michael R | 2 | $481,033 | cluster_buy |
+| ANGX | 76 | corporate_insider | Sarowitz Steven I | 2 | $443,277 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -327,15 +325,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 775.29 (-0.14% / 0.29% / 4.47%) [2026-08-17]
-- QQQ: 731.94 (0.12% / 1.54% / 5.15%) [2026-08-17]
-- IWM: 303.93 (-0.38% / 1.32% / 3.98%) [2026-08-17]
-- DIA: 535.95 (-0.16% / -0.56% / 3.48%) [2026-08-17]
-- TLT: 81.79 (-0.31% / -0.34% / -2.12%) [2026-08-17]
-- IEF: 92.99 (-0.05% / 0.25% / -0.25%) [2026-08-17]
-- GLD: 404.16 (0.67% / 0.4% / 9.94%) [2026-08-17]
-- ^VIX: 15.0 (5.26% / -2.98% / -19.57%) [2026-08-17]
-- BTC-USD: 63536.1 (1.14% / 0.21% / -0.52%) [2026-08-17]
+- SPY: 775.2 (-0.15% / 0.28% / 4.46%) [2026-08-17]
+- QQQ: 733.51 (0.33% / 1.75% / 5.38%) [2026-08-17]
+- IWM: 303.94 (-0.38% / 1.32% / 3.98%) [2026-08-17]
+- DIA: 534.51 (-0.43% / -0.83% / 3.2%) [2026-08-17]
+- TLT: 81.77 (-0.33% / -0.35% / -2.13%) [2026-08-17]
+- IEF: 93.02 (-0.02% / 0.28% / -0.22%) [2026-08-17]
+- GLD: 405.15 (0.92% / 0.65% / 10.22%) [2026-08-17]
+- ^VIX: 14.98 (5.12% / -3.1% / -19.68%) [2026-08-17]
+- BTC-USD: 63810.25 (1.58% / 0.64% / -0.1%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -343,24 +341,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.63 (delta 1m: 0.08) [2026-08-13]
 - Curva 10Y-2Y: 0.51 (delta 1m: 0.1) [2026-08-14]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.71 (delta 1m: 0.0) [2026-08-13]
+- High yield spread (OAS): 2.67 (delta 1m: -0.04) [2026-08-14]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
 - Breakeven inflacion 10Y: 2.27 (delta 1m: 0.05) [2026-08-14]
 - Dolar broad index: 119.0649 (delta 1m: -1.688) [2026-08-07]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (5), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Wrap Technologies Announces Pricing of $12 . 0 Million Registered Direct Offering of Common Stock (2026-08-17)
+- [MORN] GenAI Disruption Fears Pullback in Morningstar ( MORN ) Despite Solid Financial Fundamentals (2026-08-17)
+- [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-16)
+- [ANET] Arista Networks , Inc . $ANET Shares Purchased by VCI Wealth Management LLC (2026-08-16)
 - [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
+- [ANET] GraniteShares Advisors LLC Invests $1 . 24 Million in Arista Networks , Inc . $ANET (2026-08-16)
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
+- [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
 - [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
 - [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
-- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,8 +379,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - WTSA · PnL $288,471 · win rate 99% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- delacsynzy · PnL $13,439 · win rate 99% · categorias: sports
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $69,761 · win rate 87% · categorias: sports
+- delacsynzy · PnL $14,182 · win rate 99% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $77,460 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +388,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 88 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 645 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 644 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -401,8 +402,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CHRW, CRWV, FWONK, GLD, IEF, LTH, MANE, NP, PAL, QQQ, SEPN, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`CHRW, CRWV, FWONK, GLD, IEF, LTH, MANE, NP, QQQ, SEPN, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
