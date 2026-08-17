@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T10:11:38+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T11:05:43+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T10:11:38+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T11:05:43+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.97)
+- Volatilidad: `calm` (VIX 14.93)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
@@ -257,16 +257,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
+| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
 | CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
 | LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
-| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 28.84% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
+| PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -294,20 +294,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BORR | 81 | corporate_insider | Troim Tor Olav | 2 | $6,036,750 | cluster_buy |
+| FOCL | 80 | corporate_insider | Rhodes Ryan | 4 | $99,750 | cluster_buy |
+| FOCL | 78 | corporate_insider | WILLSEY LANCE | 4 | $237,500 | cluster_buy |
 | ABCL | 78 | corporate_insider | Booth Andrew | 2 | $383,904 | cluster_buy |
 | PAL | 78 | corporate_insider | Lal Rohit | 3 | $217,200 | cluster_buy |
 | ANGX | 77 | corporate_insider | Sarowitz Steven I | 2 | $912,317 | cluster_buy |
 | ANGX | 77 | corporate_insider | Harmon Neal | 2 | $125,007 | cluster_buy |
+| EDAP | 76 | corporate_insider | Mobeck Kenneth S. | 4 | $23,750 | cluster_buy,small_amount |
 | PAL | 76 | corporate_insider | Wright Bradley J. | 3 | $22,200 | cluster_buy,small_amount |
-| CODI | 76 | corporate_insider | ENTERLINE LARRY L | 2 | $833,395 | cluster_buy |
 | BORR | 76 | corporate_insider | Currie Jeffrey | 2 | $501,638 | cluster_buy |
 | ABCL | 76 | corporate_insider | Hayden Michael R | 2 | $481,033 | cluster_buy |
 | ANGX | 76 | corporate_insider | Sarowitz Steven I | 2 | $443,277 | cluster_buy |
 | PAL | 75 | corporate_insider | Lal Rohit | 3 | $55,300 | cluster_buy |
-| PAL | 74 | corporate_insider | Rice Amy F. | 3 | $5,522 | cluster_buy,small_amount |
-| CODI | 72 | corporate_insider | SHAFFER TERI | 2 | $145,555 | cluster_buy |
-| BGLC | 72 | large_holder | Tan Lee Su-Leng |  | - | - |
-| TBCV | 72 | large_holder | TBCP V, LLC |  | - | - |
+| EDAP | 75 | corporate_insider | Horn David R. | 4 | $47,500 | cluster_buy |
+| FOCL | 75 | corporate_insider | Schulz Fran | 4 | $47,500 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -336,8 +336,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.97 (5.05% / -3.17% / -19.73%) [2026-08-17]
-- BTC-USD: 63223.49 (0.64% / -0.28% / -1.01%) [2026-08-17]
+- ^VIX: 14.93 (4.77% / -3.43% / -19.95%) [2026-08-17]
+- BTC-USD: 63585.0 (1.22% / 0.29% / -0.45%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,7 +352,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), merger (1), earnings (1)
+**Temas dominantes**: stock (5)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -360,12 +360,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [ANET] Arista Networks , Inc . $ANET Shares Purchased by VCI Wealth Management LLC (2026-08-16)
 - [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
 - [ANET] GraniteShares Advisors LLC Invests $1 . 24 Million in Arista Networks , Inc . $ANET (2026-08-16)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $285,920 · win rate 98% · categorias: sports
+- WTSA · PnL $288,107 · win rate 98% · categorias: sports
+- 111111111115 · PnL $120,507 · win rate 93% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $23,753 · win rate 91% · categorias: sports, politics
-- JnStTrdrBnusFnd · PnL $17,153 · win rate 92% · categorias: crypto
+- xm39 · PnL $13,205 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -392,8 +387,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 88 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 615 registros 30d · ultimo dato 2026-08-14
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-14
+- **sec_insiders**: `ok` · 642 registros 30d · ultimo dato 2026-08-14
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
