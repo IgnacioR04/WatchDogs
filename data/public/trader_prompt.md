@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T08:17:15+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T09:16:50+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T08:17:15+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T09:16:50+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.93)
+- Volatilidad: `calm` (VIX 14.96)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
@@ -336,8 +336,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.93 (4.77% / -3.43% / -19.95%) [2026-08-17]
-- BTC-USD: 63356.46 (0.86% / -0.07% / -0.81%) [2026-08-17]
+- ^VIX: 14.96 (4.98% / -3.23% / -19.79%) [2026-08-17]
+- BTC-USD: 63349.51 (0.85% / -0.08% / -0.82%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -358,7 +358,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
-- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
 - [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
 - [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
@@ -376,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $285,786 · win rate 98% · categorias: sports
+- WTSA · PnL $285,920 · win rate 98% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $23,174 · win rate 91% · categorias: sports, politics
-- JnStTrdrBnusFnd · PnL $20,594 · win rate 92% · categorias: crypto
+- TAIWANNUMBERONE · PnL $23,180 · win rate 91% · categorias: sports, politics
+- JnStTrdrBnusFnd · PnL $18,655 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
