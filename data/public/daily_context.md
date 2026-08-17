@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T11:05:43+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T11:53:01+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.93)
+- Volatilidad: `calm` (VIX 14.91)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
@@ -26,16 +26,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.2% | -2.42% |
-| FWONK | 6.2% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| CURB | 7.2% | satellite | 30.24 | 0.63% | 2.09% | -4.42% |
+| FWONK | 6.2% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
 | CHRW | 5.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| NP | 2.5% | satellite | 31.71 | -1.12% | -3.41% | 1.6% |
+| LTH | 4.3% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| NP | 2.5% | satellite | 31.71 | -1.12% | -0.97% | 2.19% |
 | PAL | 2.3% | satellite | 5.5 | 0.36% | -25.07% | -22.64% |
-| SEPN | 2.2% | satellite | 44.5 | -1.42% | 12.57% | 41.0% |
+| SEPN | 2.2% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
 | CRWV | 1.8% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 1.7% | satellite | 112.71 | 1.54% | 3.74% | 6.5% |
+| MANE | 1.7% | satellite | 112.71 | 1.54% | -1.47% | 1.25% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -64,6 +64,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BORR | 81 | corporate_insider | Troim Tor Olav | 2 | $6,036,750 | cluster_buy |
 | FOCL | 80 | corporate_insider | Rhodes Ryan | 4 | $99,750 | cluster_buy |
+| BORR | 79 | corporate_insider | Troim Tor Olav | 2 | $2,193,400 | cluster_buy |
 | FOCL | 78 | corporate_insider | WILLSEY LANCE | 4 | $237,500 | cluster_buy |
 | ABCL | 78 | corporate_insider | Booth Andrew | 2 | $383,904 | cluster_buy |
 | PAL | 78 | corporate_insider | Lal Rohit | 3 | $217,200 | cluster_buy |
@@ -76,7 +77,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ANGX | 76 | corporate_insider | Sarowitz Steven I | 2 | $443,277 | cluster_buy |
 | PAL | 75 | corporate_insider | Lal Rohit | 3 | $55,300 | cluster_buy |
 | EDAP | 75 | corporate_insider | Horn David R. | 4 | $47,500 | cluster_buy |
-| FOCL | 75 | corporate_insider | Schulz Fran | 4 | $47,500 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -103,10 +103,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.93 (4.77% / -3.43% / -19.95%) [2026-08-17]
-- BTC-USD: 63585.0 (1.22% / 0.29% / -0.45%) [2026-08-17]
+- ^VIX: 14.91 (4.63% / -3.56% / -20.05%) [2026-08-17]
+- BTC-USD: 63588.05 (1.22% / 0.29% / -0.44%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,34 +121,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5)
+**Temas dominantes**: stock (4), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-16)
 - [ANET] Arista Networks , Inc . $ANET Shares Purchased by VCI Wealth Management LLC (2026-08-16)
-- [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
 - [ANET] GraniteShares Advisors LLC Invests $1 . 24 Million in Arista Networks , Inc . $ANET (2026-08-16)
+- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [ANET] Arista Networks vs . Intel : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-15)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
+- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Ullal Jayshree vendio ANET por $47.2M el 2026-08-12.
 - CEO Zaslav David vendio WBD por $19.0M el 2026-08-13.
-- 10% owner SLTA V (GP), L.L.C. vendio FA por $275.2M el 2026-08-12.
 - CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
 - 10% owner RA CAPITAL MANAGEMENT, L.P. vendio SEPN por $31.7M el 2026-08-12 [senal en multiples fuentes].
 - 10% owner Empery Asset Management, LP compro EMPD por $2.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Polen Thomas E Jr vendio BDX por $7.2M el 2026-08-13.
 - Director Troim Tor Olav compro BORR por $6.0M el 2026-08-13 [senal en multiples fuentes].
+- CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $288,107 · win rate 98% · categorias: sports
-- 111111111115 · PnL $120,507 · win rate 93% · categorias: sports
+- WTSA · PnL $288,107 · win rate 99% · categorias: sports
+- 111111111115 · PnL $158,174 · win rate 93% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- xm39 · PnL $13,205 · win rate 94% · categorias: sports
+- TAIWANNUMBERONE · PnL $23,856 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -156,7 +160,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 88 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 642 registros 30d · ultimo dato 2026-08-14
+- **sec_insiders**: `ok` · 637 registros 30d · ultimo dato 2026-08-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
