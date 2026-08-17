@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T13:26:00+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T14:09:22+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T13:26:00+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T14:09:22+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,8 +240,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.04)
-- Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
+- Volatilidad: `normal` (VIX 15.0)
+- Tendencia: `bull` (SPY 775.29 · MA50 748.95 · MA200 703.22 · dist MA200: 10.25%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
 - Fed Funds: 3.63%
@@ -253,19 +253,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 776.34 | -0.2% | 0.4% | 4.45% |
-| QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
-| TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
-| GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| FWONK | 8.0% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
-| CHRW | 6.5% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
-| LTH | 5.5% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| NP | 3.3% | satellite | 31.71 | -1.12% | -0.97% | 3.05% |
-| PAL | 2.9% | satellite | 5.5 | 0.36% | -25.07% | -21.99% |
-| SEPN | 2.8% | satellite | 44.5 | -1.42% | 14.6% | 33.23% |
-| CRWV | 2.3% | satellite | 105.26 | -0.97% | 16.09% | 43.78% |
-| MANE | 2.2% | satellite | 112.71 | 1.54% | -1.47% | 2.31% |
+| SPY | 12.0% | core | 775.29 | -0.14% | 0.29% | 4.47% |
+| QQQ | 12.0% | core | 731.94 | 0.12% | 1.54% | 5.15% |
+| TLT | 12.0% | core | 81.79 | -0.31% | -0.34% | -2.12% |
+| GLD | 9.3% | core | 404.16 | 0.67% | 0.4% | 9.94% |
+| FWONK | 8.0% | satellite | 103.42 | -0.46% | 0.55% | 1.19% |
+| CHRW | 6.5% | satellite | 149.04 | 0.32% | 0.51% | -27.58% |
+| IEF | 6.2% | core | 92.99 | -0.05% | 0.25% | -0.25% |
+| LTH | 5.5% | satellite | 45.04 | -0.48% | 6.09% | 5.96% |
+| NP | 3.3% | satellite | 31.79 | 0.25% | -0.72% | 2.45% |
+| PAL | 2.9% | satellite | 5.9 | 7.27% | -18.51% | -16.19% |
+| SEPN | 2.8% | satellite | 44.81 | 0.71% | 15.35% | 39.13% |
+| CRWV | 2.3% | satellite | 104.14 | -1.06% | 18.09% | 42.54% |
+| MANE | 2.2% | satellite | 109.3 | -3.03% | -4.45% | -1.81% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -327,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 776.34 (-0.2% / 0.4% / 4.45%) [2026-08-14]
-- QQQ: 731.07 (-0.14% / 1.11% / 5.14%) [2026-08-14]
-- IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
-- DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
-- TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
-- GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 15.04 (5.54% / -2.72% / -4.02%) [2026-08-17]
-- BTC-USD: 63359.76 (0.86% / -0.07% / -0.8%) [2026-08-17]
+- SPY: 775.29 (-0.14% / 0.29% / 4.47%) [2026-08-17]
+- QQQ: 731.94 (0.12% / 1.54% / 5.15%) [2026-08-17]
+- IWM: 303.93 (-0.38% / 1.32% / 3.98%) [2026-08-17]
+- DIA: 535.95 (-0.16% / -0.56% / 3.48%) [2026-08-17]
+- TLT: 81.79 (-0.31% / -0.34% / -2.12%) [2026-08-17]
+- IEF: 92.99 (-0.05% / 0.25% / -0.25%) [2026-08-17]
+- GLD: 404.16 (0.67% / 0.4% / 9.94%) [2026-08-17]
+- ^VIX: 15.0 (5.26% / -2.98% / -19.57%) [2026-08-17]
+- BTC-USD: 63536.1 (1.14% / 0.21% / -0.52%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,11 +350,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] Wrap Technologies Announces Pricing of $12 . 0 Million Registered Direct Offering of Common Stock (2026-08-17)
+- [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
+- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
+- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
+- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,8 +376,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $288,471 · win rate 99% · categorias: sports
-- kekasaur · PnL $55,106 · win rate 99% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
+- kekasaur · PnL $55,106 · win rate 93% · categorias: sports
 - delacsynzy · PnL $13,439 · win rate 99% · categorias: sports
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $69,761 · win rate 87% · categorias: sports
 
@@ -381,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 88 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 669 registros 30d · ultimo dato 2026-08-14
+- **sec_insiders**: `ok` · 645 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
