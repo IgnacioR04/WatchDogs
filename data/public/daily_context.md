@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T07:33:21+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T08:17:15+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.99)
+- Volatilidad: `calm` (VIX 14.93)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `steep` (curva 10y-2y 0.51)
@@ -105,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.99 (5.19% / -3.04% / -19.62%) [2026-08-17]
-- BTC-USD: 63510.01 (1.1% / 0.17% / -0.57%) [2026-08-17]
+- ^VIX: 14.93 (4.77% / -3.43% / -19.95%) [2026-08-17]
+- BTC-USD: 63356.46 (0.86% / -0.07% / -0.81%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,16 +121,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), stock (1), merger (1), earnings (1)
+**Temas dominantes**: stock (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
 - [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
 - [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
+- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
+- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
+- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
