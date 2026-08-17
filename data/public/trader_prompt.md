@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T20:59:19+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T21:55:05+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T20:59:19+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T21:55:05+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 - Volatilidad: `normal` (VIX 15.19)
 - Tendencia: `bull` (SPY 772.67 · MA50 748.9 · MA200 703.21 · dist MA200: 9.88%)
 - Credito: `tight` (HY spread 2.67)
-- Tipos: `steep` (curva 10y-2y 0.51)
+- Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
@@ -256,38 +256,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 772.67 | -0.47% | -0.05% | 4.12% |
 | QQQ | 12.0% | core | 729.87 | -0.16% | 1.25% | 4.86% |
 | TLT | 12.0% | core | 81.35 | -0.84% | -0.87% | -2.64% |
-| TALK | 12.0% | satellite | 5.25 | 0.0% | 0.57% | 0.77% |
-| GLD | 10.9% | core | 405.49 | 1.0% | 0.73% | 10.31% |
-| IEF | 7.3% | core | 92.84 | -0.21% | 0.09% | -0.41% |
-| FWONK | 3.5% | satellite | 101.98 | -1.85% | -0.73% | 2.8% |
-| CHRW | 2.9% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
-| LTH | 2.4% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
-| RVTY | 2.1% | satellite | 116.17 | -0.57% | 0.13% | 9.14% |
-| CE | 2.0% | satellite | 44.99 | -1.47% | 1.19% | 1.03% |
-| SVV | 1.9% | satellite | 10.56 | -0.94% | -14.08% | 8.2% |
-| PCTY | 1.8% | satellite | 145.47 | -1.9% | -0.12% | 14.28% |
-| MLAB | 1.2% | satellite | 107.64 | 1.51% | 5.92% | 11.35% |
-| CRWV | 1.0% | satellite | 106.0 | 0.7% | 20.2% | 45.09% |
+| GLD | 9.3% | core | 405.49 | 1.0% | 0.73% | 10.31% |
+| IEF | 6.2% | core | 92.84 | -0.21% | 0.09% | -0.41% |
+| FWONK | 6.2% | satellite | 101.98 | -1.85% | -0.85% | -0.22% |
+| LTH | 5.0% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
+| MLM | 4.4% | satellite | 538.66 | -1.69% | -1.98% | -2.7% |
+| BWXT | 3.8% | satellite | 171.54 | -0.97% | 1.58% | 1.17% |
+| CE | 3.7% | satellite | 44.99 | -1.47% | 1.19% | 1.03% |
+| PCTY | 3.3% | satellite | 145.47 | -1.9% | -3.29% | 15.45% |
+| CHRW | 2.8% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
+| CDNL | 1.6% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
+| SPCX | 1.4% | satellite | 146.23 | 4.45% | 5.4% | 22.01% |
+| CRWV | 1.3% | satellite | 106.0 | 0.7% | 20.2% | 45.09% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.7%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -2.8%
-- Beta vs SPY: 0.599 · posiciones efectivas: 12.6 · HHI: 0.0792
+- Volatilidad anualizada: 10.2%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.4%
+- Beta vs SPY: 0.582 · posiciones efectivas: 14.4 · HHI: 0.0693
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **CDNL** · score agregado 742.4 · 9 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **CRWV** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **MLAB** · score agregado 153.5 · 2 señales · fuentes: corporate_insider
-- **TALK** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **SPCX** · score agregado 120.0 · 2 señales · fuentes: congress
 - **CE** · score agregado 115.8 · 2 señales · fuentes: corporate_insider
-- **SVV** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **RVTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **BWXT** · score agregado 60.7 · 1 señales · fuentes: congress
+- **MLM** · score agregado 60.7 · 1 señales · fuentes: congress
 
 ## 3. Señales de smart money (30d)
 
@@ -295,21 +295,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| CDNL | 87 | corporate_insider | Spivey Jeremy Simmons | 4 | $1,756,566 | cluster_buy |
+| CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 4 | $536,103 | cluster_buy |
+| CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 4 | $452,348 | cluster_buy |
+| CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 4 | $456,411 | cluster_buy |
 | ONON | 83 | corporate_insider | Coppetti Caspar Felix | 2 | $1,993,790 | cluster_buy |
-| MLAB | 81 | corporate_insider | Kadia Siddhartha | 2 | $800,090 | cluster_buy |
+| CDNL | 82 | corporate_insider | Wood Anthony Leon Jr. | 4 | $1,332,184 | cluster_buy |
+| ANGX | 81 | corporate_insider | Harmon Jeffrey | 3 | $729,596 | cluster_buy |
+| ANGX | 81 | corporate_insider | Harmon Neal | 3 | $125,005 | cluster_buy |
+| CDNL | 81 | corporate_insider | Wood Anthony Leon Jr. | 4 | $690,895 | cluster_buy |
+| CDNL | 81 | corporate_insider | Wood Benjamin | 4 | $534,451 | cluster_buy |
 | FOCL | 80 | corporate_insider | Rhodes Ryan | 4 | $99,750 | cluster_buy |
+| CDNL | 80 | corporate_insider | Wood Benjamin | 4 | $480,143 | cluster_buy |
+| CDNL | 80 | corporate_insider | Zelman Ivy | 4 | $500,948 | cluster_buy |
 | ONON | 79 | corporate_insider | Bernhard Olivier | 2 | $1,993,790 | cluster_buy |
-| REZI | 79 | corporate_insider | SURRAN THOMAS A | 2 | $306,900 | cluster_buy |
-| FOCL | 78 | corporate_insider | WILLSEY LANCE | 4 | $237,500 | cluster_buy |
-| ANGX | 77 | corporate_insider | Sarowitz Steven I | 2 | $912,317 | cluster_buy |
-| ANGX | 77 | corporate_insider | Harmon Neal | 2 | $125,007 | cluster_buy |
-| EDAP | 76 | corporate_insider | Mobeck Kenneth S. | 4 | $23,750 | cluster_buy,small_amount |
-| ACON | 76 | corporate_insider | Ness Brent | 4 | $12,091 | cluster_buy,small_amount |
-| ANGX | 76 | corporate_insider | Sarowitz Steven I | 2 | $443,277 | cluster_buy |
-| HGBL | 76 | corporate_insider | Dove Nicholas Kirk | 2 | $65,940 | cluster_buy |
-| REZI | 76 | corporate_insider | Foster Joshua Peter | 2 | $315,224 | cluster_buy |
-| ACCS | 75 | corporate_insider | BALBIRNIE BRIAN R | 2 | $49,500 | cluster_buy |
-| ACON | 75 | corporate_insider | Bond Ryan | 4 | $50,059 | cluster_buy |
+| ANGX | 79 | corporate_insider | Harmon Jeffrey | 3 | $219,115 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -339,52 +339,51 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.84 (-0.21% / 0.09% / -0.41%) [2026-08-17]
 - GLD: 405.49 (1.0% / 0.73% / 10.31%) [2026-08-17]
 - ^VIX: 15.19 (6.6% / -1.75% / -18.55%) [2026-08-17]
-- BTC-USD: 64340.1 (2.42% / 1.48% / 0.73%) [2026-08-17]
+- BTC-USD: 64340.16 (2.42% / 1.48% / 0.73%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.17 (delta 1m: 0.01) [2026-08-14]
 - Treasury 10Y yield: 4.68 (delta 1m: 0.11) [2026-08-14]
-- Curva 10Y-2Y: 0.51 (delta 1m: 0.1) [2026-08-14]
+- Curva 10Y-2Y: 0.53 (delta 1m: 0.16) [2026-08-17]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.67 (delta 1m: -0.04) [2026-08-14]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
-- Breakeven inflacion 10Y: 2.27 (delta 1m: 0.05) [2026-08-14]
-- Dolar broad index: 119.0649 (delta 1m: -1.688) [2026-08-07]
+- Breakeven inflacion 10Y: 2.28 (delta 1m: 0.04) [2026-08-17]
+- Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (4), ai (2), stock (1), regulatory (1)
+**Temas dominantes**: merger (2), stock (2), legal (1), ai (1), earnings (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [QTRX] Quanterix ( QTRX ) Q2 2026 Earnings Call Transcript (2026-08-17)
-- [QTRX] Quanterix ( QTRX ) Q2 2026 Earnings Call Transcript (2026-08-17)
-- [EWTX] Alan Russell Sells 5 , 901 Shares of Edgewise Therapeutics ( NASDAQ : EWTX ) Stock (2026-08-16)
-- [SMWB] Baystreet . ca - Similarweb Gains on Q2 Figures (2026-08-15)
-- [QTRX] TD Cowen Cuts Quanterix ( NASDAQ : QTRX ) Price Target to $3 . 00 (2026-08-14)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [FROG] JFrog Says AI Coding Boom Is Driving Demand for Binary Security and Cloud Platform (2026-08-12)
+- [ACN] Origin hack investigation points to offshore Accenture employee (2026-08-17)
+- [ACN] Accenture Song finds Kiwi brands still failing promises (2026-08-17)
+- [AVB] 20 , 900 Shares in AvalonBay Communities , Inc . $AVB Acquired by SCS Capital Management LLC (2026-08-17)
+- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
+- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
+- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
+- [WBS] Santander receives Fed approval for acquisition of Webster Financial Corporation (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner ARES MANAGEMENT LLC vendio SVV por $235.8M el 2026-08-13 [senal en multiples fuentes].
-- Director Chu James Michael vendio BIRK por $1.1B el 2026-08-17.
-- CEO Dove Reid vendio KNX por $9.3M el 2026-08-13.
-- 10% owner GIC Private Ltd vendio MDLN por $53.7M el 2026-08-13.
 - CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.
+- CEO Spivey Jeremy Simmons compro CDNL por $1.8M el 2026-08-14.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
+- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - WTSA · PnL $287,356 · win rate 99% · categorias: sports
-- Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- JnStTrdrBnusFnd · PnL $53,970 · win rate 92% · categorias: crypto
+- JnStTrdrBnusFnd · PnL $57,124 · win rate 92% · categorias: crypto
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $78,266 · win rate 87% · categorias: sports
+- Trump2028 · PnL $41,052 · win rate 84% · categorias: crypto, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -392,7 +391,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 616 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 477 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -406,7 +405,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CE, CHRW, CRWV, FWONK, GLD, IEF, LTH, MLAB, PCTY, QQQ, RVTY, SPY, SVV, TALK, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BWXT, CDNL, CE, CHRW, CRWV, FWONK, GLD, IEF, LTH, MLM, PCTY, QQQ, SPCX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
