@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-17T05:14:56+00:00 -->
+<!-- trader_prompt.md generado 2026-08-17T06:08:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T05:14:56+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-17T06:08:00+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 63482.1 (0.73% / -0.11% / -0.38%) [2026-08-17]
+- BTC-USD: 63465.76 (0.7% / -0.14% / -0.41%) [2026-08-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,20 +352,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), stock (1), merger (1), earnings (1)
+**Temas dominantes**: stock (1), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [W] Wayfair ( W ) Physical Retail Emerging as Growth Engine (2026-08-15)
+- [PKOH] Reviewing Northgate ( OTCMKTS : NGTEF ) & Park - Ohio ( NASDAQ : PKOH ) (2026-08-15)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) EVP Jennifer Kayden Lee Sells 75 , 834 Shares (2026-08-15)
-- [VMC] Diversified Marine Completes M / V Edwin Rider for Vulcan Materials (2026-08-14)
-- [PKE] Park Aerospace Corp . Announces the Election of Constantine ( Gus ) Petropoulos as Senior Vice President and Chief Financial Officer of the Company (2026-08-13)
 - [RYTM] Rhythm Pharmaceuticals Expands IMCIVREE Authorization In united kingdom For Acquired Hypothalamic Obesity (2026-08-11)
-- [VMC] Head to Head Analysis : Titan America ( NYSE : TTAM ) & Vulcan Materials ( NYSE : VMC ) (2026-08-10)
-- [VMC] Vulcan Materials ( VMC ) vs . MLM and EXP : Can Its Aggregates Shift Keep Lifting Margins ? (2026-08-09)
-- [PKE] Park Aerospace Corp . $PKE Stake Cut by Dimensional Fund Advisors LP (2026-08-09)
 - [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Given New $146 . 00 Price Target at JPMorgan Chase & Co . (2026-08-07)
-- [PKE] What Makes Park Aerospace Corp . ( PKE ) a Bullish Bet ? (2026-08-07)
+- [RYTM] Rhythm Pharmaceuticals ( NASDAQ : RYTM ) Posts Earnings Results (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- WTSA · PnL $253,334 · win rate 98% · categorias: sports
 - Shori888 · PnL $22,332 · win rate 100% · categorias: sports
 - kekasaur · PnL $55,032 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $23,144 · win rate 91% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $23,172 · win rate 91% · categorias: sports, politics
 - WhattDoyoumean · PnL $16,293 · win rate 92% · categorias: sports
-- JnStTrdrBnusFnd · PnL $8,998 · win rate 92% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
