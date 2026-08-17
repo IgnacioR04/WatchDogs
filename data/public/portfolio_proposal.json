@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-08-17T20:02:06+00:00",
+  "generated_at": "2026-08-17T20:59:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "FWONK": 0.0755,
-    "IEF": 0.0622,
-    "CHRW": 0.0621,
-    "LTH": 0.0522,
-    "BWXT": 0.0457,
-    "NP": 0.0309,
-    "MLAB": 0.0258,
-    "CRWV": 0.0216,
-    "MANE": 0.0208
+    "TALK": 0.12,
+    "GLD": 0.1092,
+    "IEF": 0.0728,
+    "FWONK": 0.0348,
+    "CHRW": 0.0286,
+    "LTH": 0.0241,
+    "RVTY": 0.0215,
+    "CE": 0.0203,
+    "SVV": 0.0191,
+    "PCTY": 0.0179,
+    "MLAB": 0.0119,
+    "CRWV": 0.01
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0671,
-    "CRWV": 0.0192,
-    "MLAB": 0.0229,
-    "NP": 0.0275,
-    "CHRW": 0.0552,
-    "LTH": 0.0464,
-    "MANE": 0.0185,
-    "BWXT": 0.0406
+    "FWONK": 0.0264,
+    "CRWV": 0.0076,
+    "MLAB": 0.009,
+    "TALK": 0.1546,
+    "CHRW": 0.0217,
+    "LTH": 0.0183,
+    "CE": 0.0154,
+    "SVV": 0.0145,
+    "PCTY": 0.0136,
+    "RVTY": 0.0163
   },
   "satellite_rationale": [
     {
@@ -47,7 +51,7 @@
     },
     {
       "ticker": "CRWV",
-      "score": 215.4,
+      "score": 211.5,
       "sources": [
         "large_holder"
       ],
@@ -62,7 +66,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "NP",
+      "ticker": "TALK",
       "score": 143.6,
       "sources": [
         "large_holder"
@@ -86,33 +90,49 @@
       "n_signals": 2
     },
     {
-      "ticker": "MANE",
-      "score": 70.2,
+      "ticker": "CE",
+      "score": 115.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "SVV",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "BWXT",
-      "score": 60.7,
+      "ticker": "PCTY",
+      "score": 71.8,
       "sources": [
-        "congress"
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RVTY",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1158,
+    "ann_vol": 0.0966,
     "var_95_1d": 0.0097,
-    "cvar_95_1d": 0.0129,
-    "max_drawdown": -0.0285,
-    "beta_spy": 0.666,
-    "hhi": 0.0727,
+    "cvar_95_1d": 0.0134,
+    "max_drawdown": -0.0276,
+    "beta_spy": 0.599,
+    "hhi": 0.0792,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.8,
-    "gross_exposure": 0.8501,
+    "n_positions": 15,
+    "effective_positions": 12.6,
+    "gross_exposure": 0.8502,
     "days_used": 37
   },
   "risk_gate": {
