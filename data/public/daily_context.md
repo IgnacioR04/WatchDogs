@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T14:12:50+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T15:10:17+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.78)
-- Tendencia: `bull` (SPY 768.02 · MA50 748.8 · MA200 703.19 · dist MA200: 9.22%)
-- Credito: `tight` (HY spread 2.67)
+- Volatilidad: `normal` (VIX 15.74)
+- Tendencia: `bull` (SPY 767.94 · MA50 748.8 · MA200 703.19 · dist MA200: 9.21%)
+- Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,33 +22,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 768.02 | -1.07% | -0.65% | 3.49% |
-| QQQ | 12.0% | core | 717.66 | -1.83% | -0.45% | 3.1% |
-| TLT | 12.0% | core | 81.46 | -0.7% | -0.73% | -2.5% |
-| GLD | 9.3% | core | 402.96 | 0.37% | 0.1% | 9.62% |
-| IEF | 6.2% | core | 92.92 | -0.13% | 0.17% | -0.33% |
-| FWONK | 6.0% | satellite | 102.83 | -1.03% | 0.1% | 2.83% |
-| LTH | 4.6% | satellite | 45.47 | 0.46% | 7.09% | 6.96% |
-| BEKE | 4.6% | satellite | 16.97 | -0.24% | -3.85% | -2.81% |
-| DKL | 3.8% | satellite | 53.4 | -1.14% | -9.96% | -3.79% |
-| PCTY | 3.3% | satellite | 148.84 | 0.38% | 2.19% | 20.96% |
-| PTC | 3.1% | satellite | 148.66 | -0.73% | -1.56% | 20.27% |
-| CHRW | 3.1% | satellite | 144.46 | -2.76% | -2.58% | -29.8% |
-| GSHD | 2.1% | satellite | 67.34 | 1.58% | 4.32% | 17.67% |
-| ANGX | 1.9% | satellite | 5.26 | 20.37% | 24.64% | 27.98% |
-| BFLY | 1.0% | satellite | 9.12 | 3.22% | -5.93% | 36.4% |
+| SPY | 12.0% | core | 767.94 | -1.08% | -0.66% | 3.48% |
+| QQQ | 12.0% | core | 716.48 | -2.0% | -0.61% | 2.93% |
+| TLT | 12.0% | core | 81.54 | -0.62% | -0.64% | -2.42% |
+| GLD | 9.3% | core | 400.63 | -0.21% | -0.47% | 8.99% |
+| IEF | 6.2% | core | 92.94 | -0.1% | 0.2% | -0.29% |
+| RPRX | 5.5% | satellite | 60.09 | 2.54% | 4.07% | 5.3% |
+| FWONK | 5.4% | satellite | 102.39 | -1.45% | -0.45% | 0.19% |
+| BEKE | 4.1% | satellite | 16.93 | -0.44% | -0.62% | -2.67% |
+| LTH | 4.0% | satellite | 45.38 | 0.27% | 6.88% | 6.75% |
+| DKL | 3.4% | satellite | 53.5 | -0.94% | -5.73% | -0.64% |
+| PCTY | 2.9% | satellite | 149.26 | 0.66% | -0.77% | 18.46% |
+| PTC | 2.8% | satellite | 149.01 | -0.49% | -1.33% | 19.37% |
+| CHRW | 2.7% | satellite | 147.21 | -0.92% | -0.73% | -28.47% |
+| GSHD | 1.8% | satellite | 67.36 | 1.61% | 3.31% | 24.1% |
+| BFLY | 0.9% | satellite | 8.86 | 0.28% | -8.61% | 32.51% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.6%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.515 · posiciones efectivas: 14.5 · HHI: 0.0689
+- Volatilidad anualizada: 8.1%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.5%
+- Beta vs SPY: 0.416 · posiciones efectivas: 14.5 · HHI: 0.0689
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **DKL** · score agregado 396.4 · 5 señales · fuentes: corporate_insider
-- **ANGX** · score agregado 319.7 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **BFLY** · score agregado 201.9 · 3 señales · fuentes: corporate_insider, large_holder
 - **BEKE** · score agregado 140.4 · 2 señales · fuentes: large_holder
@@ -57,6 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 768.02 (-1.07% / -0.65% / 3.49%) [2026-08-18]
-- QQQ: 717.66 (-1.83% / -0.45% / 3.1%) [2026-08-18]
-- IWM: 301.88 (-1.05% / 0.63% / 3.27%) [2026-08-18]
-- DIA: 533.41 (-0.63% / -1.04% / 2.99%) [2026-08-18]
-- TLT: 81.46 (-0.7% / -0.73% / -2.5%) [2026-08-18]
-- IEF: 92.92 (-0.13% / 0.17% / -0.33%) [2026-08-18]
-- GLD: 402.96 (0.37% / 0.1% / 9.62%) [2026-08-18]
-- ^VIX: 15.78 (10.74% / 2.07% / -15.39%) [2026-08-18]
-- BTC-USD: 64200.01 (-0.47% / 1.26% / 0.46%) [2026-08-18]
+- SPY: 767.94 (-1.08% / -0.66% / 3.48%) [2026-08-18]
+- QQQ: 716.48 (-2.0% / -0.61% / 2.93%) [2026-08-18]
+- IWM: 301.01 (-1.34% / 0.34% / 2.98%) [2026-08-18]
+- DIA: 533.63 (-0.59% / -0.99% / 3.03%) [2026-08-18]
+- TLT: 81.54 (-0.62% / -0.64% / -2.42%) [2026-08-18]
+- IEF: 92.94 (-0.1% / 0.2% / -0.29%) [2026-08-18]
+- GLD: 400.63 (-0.21% / -0.47% / 8.99%) [2026-08-18]
+- ^VIX: 15.74 (10.46% / 1.81% / -15.6%) [2026-08-18]
+- BTC-USD: 64655.78 (0.23% / 1.98% / 1.17%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -116,24 +116,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.68 (delta 1m: 0.11) [2026-08-14]
 - Curva 10Y-2Y: 0.53 (delta 1m: 0.16) [2026-08-17]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.67 (delta 1m: -0.04) [2026-08-14]
+- High yield spread (OAS): 2.7 (delta 1m: -0.03) [2026-08-17]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
 - Breakeven inflacion 10Y: 2.28 (delta 1m: 0.04) [2026-08-17]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (2), merger (1), regulatory (1)
+**Temas dominantes**: stock (4), earnings (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
-- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
+- [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
+- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
+- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
+- [SMWB] Baystreet . ca - Similarweb Gains on Q2 Figures (2026-08-15)
 - [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
 - [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
-- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
-- [WBS] Santander receives Fed approval for acquisition of Webster Financial Corporation (2026-08-05)
+- [GDRX] Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,10 +151,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
-- SDTrading · PnL $51,278 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $39,199 · win rate 91% · categorias: sports
-- kingflop · PnL $29,086 · win rate 92% · categorias: sports
-- jarosbill · PnL $28,482 · win rate 87% · categorias: sports
+- SDTrading · PnL $51,274 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $39,200 · win rate 91% · categorias: sports
+- kingflop · PnL $29,237 · win rate 92% · categorias: sports
+- 0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847 · PnL $41,061 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -160,7 +162,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 652 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 657 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -174,7 +176,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ANGX, BEKE, BFLY, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEKE, BFLY, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
