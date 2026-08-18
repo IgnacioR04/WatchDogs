@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-17T23:53:14+00:00 · ventana señales 2026-07-18 -> 2026-08-17_
+_Generado 2026-08-18T02:08:48+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,28 +26,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 729.87 | -0.16% | 1.25% | 4.86% |
 | TLT | 12.0% | core | 81.35 | -0.84% | -0.87% | -2.64% |
 | GLD | 9.3% | core | 405.49 | 1.0% | 0.73% | 10.31% |
-| FWONK | 8.0% | satellite | 101.98 | -1.85% | -0.73% | 2.8% |
 | IEF | 6.2% | core | 92.84 | -0.21% | 0.09% | -0.41% |
-| PTC | 5.7% | satellite | 145.98 | -2.52% | -3.34% | 16.94% |
-| LTH | 5.3% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
-| CHRW | 4.6% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
-| PCTY | 4.6% | satellite | 145.47 | -1.9% | -0.12% | 14.28% |
-| GSHD | 3.0% | satellite | 64.4 | -2.85% | -0.23% | 12.53% |
-| CDNL | 2.4% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
+| FWONK | 5.8% | satellite | 101.98 | -1.85% | -0.85% | -0.22% |
+| DKL | 4.7% | satellite | 53.77 | -0.44% | -5.25% | -0.14% |
+| PTC | 4.2% | satellite | 145.98 | -2.52% | -3.34% | 16.94% |
+| LTH | 3.9% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
+| CHRW | 3.4% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
+| PCTY | 3.4% | satellite | 145.47 | -1.9% | -3.29% | 15.45% |
+| CBLL | 3.0% | satellite | 24.4 | 4.59% | 29.72% | 30.34% |
+| GSHD | 2.2% | satellite | 64.4 | -2.85% | -1.23% | 18.64% |
+| CDNL | 1.7% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
+| BFLY | 1.2% | satellite | 9.02 | 2.04% | -7.01% | 34.83% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.0%
+- Volatilidad anualizada: 10.1%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -7.8%
-- Beta vs SPY: 0.54 · posiciones efectivas: 13.6 · HHI: 0.0738
+- Max drawdown historico: -6.8%
+- Beta vs SPY: 0.568 · posiciones efectivas: 14.6 · HHI: 0.0687
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **CDNL** · score agregado 984.0 · 12 señales · fuentes: corporate_insider
+- **DKL** · score agregado 396.4 · 5 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
+- **BFLY** · score agregado 201.9 · 3 señales · fuentes: corporate_insider, large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **CBLL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -72,7 +78,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CDNL | 82 | corporate_insider | Rowe Michael Bruce Jr. | 6 | $255,710 | cluster_buy |
 | ANGX | 81 | corporate_insider | Harmon Jeffrey | 3 | $729,596 | cluster_buy |
 | ANGX | 81 | corporate_insider | Harmon Neal | 3 | $125,005 | cluster_buy |
-| CDNL | 81 | corporate_insider | Wood Anthony Leon Jr. | 6 | $690,895 | cluster_buy |
+| DKL | 81 | corporate_insider | Soreq Avigal | 5 | $125,000 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -102,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.84 (-0.21% / 0.09% / -0.41%) [2026-08-17]
 - GLD: 405.49 (1.0% / 0.73% / 10.31%) [2026-08-17]
 - ^VIX: 15.19 (6.6% / -1.75% / -18.55%) [2026-08-17]
-- BTC-USD: 64458.3 (2.61% / 1.67% / 0.92%) [2026-08-17]
+- BTC-USD: 64189.53 (2.18% / 1.24% / 0.5%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), stock (4), legal (2), earnings (2), merger (1), regulatory (1)
+**Temas dominantes**: stock (6), earnings (5), merger (3), ai (3), regulatory (3), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [EAT] Investment Analyst Recent Ratings Changes for Brinker International ( EAT ) (2026-08-17)
-- [ACN] Origin hack investigation points to offshore Accenture employee (2026-08-17)
-- [ACN] Accenture Song finds Kiwi brands still failing promises (2026-08-17)
-- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
-- [EAT] Brinker International ( NYSE : EAT ) Price Target Raised to $275 . 00 (2026-08-16)
-- [EAT] Brinker International ( NYSE : EAT ) Price Target Raised to $260 . 00 (2026-08-16)
-- [EAT] How value , viral marketing , and better operations helped Chili turn the tables on fast food ( EAT : NYSE ) (2026-08-15)
+- [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
+- [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
 - [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
 - [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
+- [SMWB] Baystreet . ca - Similarweb Gains on Q2 Figures (2026-08-15)
 - [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
+- [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
+- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
+- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,17 +145,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.
 - CEO Spivey Jeremy Simmons compro CDNL por $1.8M el 2026-08-14.
-- CEO Lucey Matthew C. vendio PBF por $10.5M el 2026-08-14.
 - CEO Hochman Kevin vendio EAT por $9.7M el 2026-08-13.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $287,356 · win rate 99% · categorias: sports
-- kekasaur · PnL $55,106 · win rate 93% · categorias: sports
-- JnStTrdrBnusFnd · PnL $52,998 · win rate 92% · categorias: crypto
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $78,266 · win rate 87% · categorias: sports
-- Trump2028 · PnL $46,054 · win rate 84% · categorias: crypto, politics, economy
+- SDTrading · PnL $44,691 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $24,382 · win rate 91% · categorias: sports
+- Forecastication2 · PnL $8,728 · win rate 90% · categorias: sports
+- JnStTrdrBnusFnd · PnL $6,073 · win rate 92% · categorias: crypto
+- jarosbill · PnL $13,199 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 696 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 659 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -171,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CDNL, CHRW, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CBLL, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
