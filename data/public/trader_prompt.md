@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-18T02:08:48+00:00 -->
+<!-- trader_prompt.md generado 2026-08-18T03:26:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T02:08:48+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T03:26:02+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,23 +258,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.35 | -0.84% | -0.87% | -2.64% |
 | GLD | 9.3% | core | 405.49 | 1.0% | 0.73% | 10.31% |
 | IEF | 6.2% | core | 92.84 | -0.21% | 0.09% | -0.41% |
-| FWONK | 5.8% | satellite | 101.98 | -1.85% | -0.85% | -0.22% |
-| DKL | 4.7% | satellite | 53.77 | -0.44% | -5.25% | -0.14% |
-| PTC | 4.2% | satellite | 145.98 | -2.52% | -3.34% | 16.94% |
-| LTH | 3.9% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
-| CHRW | 3.4% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
-| PCTY | 3.4% | satellite | 145.47 | -1.9% | -3.29% | 15.45% |
-| CBLL | 3.0% | satellite | 24.4 | 4.59% | 29.72% | 30.34% |
-| GSHD | 2.2% | satellite | 64.4 | -2.85% | -1.23% | 18.64% |
-| CDNL | 1.7% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
-| BFLY | 1.2% | satellite | 9.02 | 2.04% | -7.01% | 34.83% |
+| RPRX | 5.9% | satellite | 59.45 | 1.45% | 2.97% | 4.18% |
+| FWONK | 5.7% | satellite | 101.98 | -1.85% | -0.85% | -0.22% |
+| LTH | 4.4% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
+| DKL | 3.8% | satellite | 53.77 | -0.44% | -5.25% | -0.14% |
+| PTC | 3.2% | satellite | 145.98 | -2.52% | -3.34% | 16.94% |
+| PCTY | 3.1% | satellite | 145.47 | -1.9% | -3.29% | 15.45% |
+| CHRW | 2.9% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
+| GSHD | 1.9% | satellite | 64.4 | -2.85% | -1.23% | 18.64% |
+| CDNL | 1.6% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
+| BFLY | 1.0% | satellite | 9.02 | 2.04% | -7.01% | 34.83% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.1%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -6.8%
-- Beta vs SPY: 0.568 · posiciones efectivas: 14.6 · HHI: 0.0687
+- Volatilidad anualizada: 8.5%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -2.0%
+- Beta vs SPY: 0.447 · posiciones efectivas: 14.4 · HHI: 0.0694
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -284,10 +284,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **BFLY** · score agregado 201.9 · 3 señales · fuentes: corporate_insider, large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
-- **CBLL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.84 (-0.21% / 0.09% / -0.41%) [2026-08-17]
 - GLD: 405.49 (1.0% / 0.73% / 10.31%) [2026-08-17]
 - ^VIX: 15.19 (6.6% / -1.75% / -18.55%) [2026-08-17]
-- BTC-USD: 64189.53 (2.18% / 1.24% / 0.5%) [2026-08-18]
+- BTC-USD: 64071.08 (1.99% / 1.05% / 0.31%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (5), merger (3), ai (3), regulatory (3), legal (1)
+**Temas dominantes**: stock (5), earnings (5), merger (3), regulatory (3), ai (2), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
 - [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
-- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
 - [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
 - [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
-- [SMWB] Baystreet . ca - Similarweb Gains on Q2 Figures (2026-08-15)
 - [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
 - [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
 - [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
 - [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
+- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,17 +376,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.
 - CEO Spivey Jeremy Simmons compro CDNL por $1.8M el 2026-08-14.
-- CEO Hochman Kevin vendio EAT por $9.7M el 2026-08-13.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $44,691 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $24,382 · win rate 91% · categorias: sports
-- Forecastication2 · PnL $8,728 · win rate 90% · categorias: sports
-- JnStTrdrBnusFnd · PnL $6,073 · win rate 92% · categorias: crypto
-- jarosbill · PnL $13,199 · win rate 87% · categorias: sports
+- SDTrading · PnL $50,821 · win rate 93% · categorias: sports
+- kingflop · PnL $23,996 · win rate 92% · categorias: sports
+- monkeymashingkeyboard · PnL $25,110 · win rate 90% · categorias: sports
+- jarosbill · PnL $15,387 · win rate 87% · categorias: sports
+- Stavenson · PnL $11,073 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -394,7 +394,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 659 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 667 registros 30d · ultimo dato 2026-08-17
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -408,7 +408,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CBLL, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
