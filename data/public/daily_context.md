@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T10:04:21+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T11:03:43+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.02)
+- Volatilidad: `normal` (VIX 15.83)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.53)
@@ -26,24 +26,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
-| RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 4.49% |
-| FWONK | 5.6% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
-| LTH | 4.5% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| DKL | 3.9% | satellite | 54.01 | 3.27% | -4.83% | 0.3% |
-| PTC | 3.4% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
-| PCTY | 3.1% | satellite | 148.28 | -2.9% | -1.42% | 20.43% |
-| CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
-| GSHD | 2.0% | satellite | 66.29 | -1.65% | 1.67% | 28.34% |
-| CDNL | 1.3% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
+| FWONK | 6.1% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
+| BEKE | 4.7% | satellite | 17.01 | 0.29% | 0.53% | -2.58% |
+| LTH | 4.6% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| DKL | 3.8% | satellite | 54.01 | 3.27% | -8.3% | -1.91% |
+| PCTY | 3.3% | satellite | 148.28 | -2.9% | -2.12% | 16.88% |
+| PTC | 3.2% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
+| CHRW | 3.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| GSHD | 2.0% | satellite | 66.29 | -1.65% | -0.56% | 20.16% |
+| CDNL | 1.7% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
 | BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.6%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.1%
-- Beta vs SPY: 0.454 · posiciones efectivas: 14.4 · HHI: 0.0695
+- Volatilidad anualizada: 9.0%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -2.3%
+- Beta vs SPY: 0.468 · posiciones efectivas: 14.5 · HHI: 0.0691
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -51,12 +51,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **DKL** · score agregado 396.4 · 5 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **BFLY** · score agregado 201.9 · 3 señales · fuentes: corporate_insider, large_holder
+- **BEKE** · score agregado 140.4 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,21 +64,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| APLM | 88 | corporate_insider | Chen Hung-Wen | 3 | $4,000,005 | cluster_buy |
-| APLM | 87 | corporate_insider | Chen Hung-Wen | 3 | $2,000,004 | cluster_buy |
 | CDNL | 87 | corporate_insider | Spivey Jeremy Simmons | 6 | $1,756,566 | cluster_buy |
-| APLM | 86 | corporate_insider | Chen Hung-Wen | 3 | $1,549,995 | cluster_buy |
 | CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 6 | $536,103 | cluster_buy |
 | CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 6 | $452,348 | cluster_buy |
 | CDNL | 84 | corporate_insider | Spivey Jeremy Simmons | 6 | $456,411 | cluster_buy |
 | ONON | 83 | corporate_insider | Coppetti Caspar Felix | 2 | $1,993,790 | cluster_buy |
-| APLM | 82 | corporate_insider | LIN PETER KUAN-HOW | 3 | $400,005 | cluster_buy |
 | CDNL | 82 | corporate_insider | Wood Anthony Leon Jr. | 6 | $1,332,184 | cluster_buy |
 | CDNL | 82 | corporate_insider | Lee Richard Melvin Jr. | 6 | $987,930 | cluster_buy |
 | CDNL | 82 | corporate_insider | Rowe Michael Bruce Jr. | 6 | $255,710 | cluster_buy |
 | ANGX | 81 | corporate_insider | Harmon Jeffrey | 3 | $729,596 | cluster_buy |
 | ANGX | 81 | corporate_insider | Harmon Neal | 3 | $125,005 | cluster_buy |
 | DKL | 81 | corporate_insider | Soreq Avigal | 5 | $125,000 | cluster_buy |
+| CDNL | 81 | corporate_insider | Wood Anthony Leon Jr. | 6 | $690,895 | cluster_buy |
+| CDNL | 81 | corporate_insider | Wood Benjamin | 6 | $534,451 | cluster_buy |
+| FOCL | 80 | corporate_insider | Rhodes Ryan | 4 | $99,750 | cluster_buy |
+| CDNL | 80 | corporate_insider | Wood Benjamin | 6 | $480,143 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -105,10 +105,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 16.02 (12.42% / 3.62% / 2.23%) [2026-08-18]
-- BTC-USD: 64124.83 (-0.59% / 1.14% / 0.34%) [2026-08-18]
+- ^VIX: 15.83 (11.09% / 2.39% / -15.12%) [2026-08-18]
+- BTC-USD: 64194.44 (-0.48% / 1.25% / 0.45%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,39 +123,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), earnings (5), merger (3), regulatory (2), legal (1), ai (1)
+**Temas dominantes**: stock (5), merger (3), regulatory (3), earnings (3), leadership (1), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
-- [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
+- [ACN] Commerzbank Aktiengesellschaft FI Acquires Shares of 89 , 866 Accenture PLC $ACN (2026-08-18)
+- [ACN] Accenture CEO Julie Sweet has a vacation request for employees : Asks them to focus on work as company pushes for stronger Q4 results (2026-08-18)
+- [ACN] Origin Energy hack traced to Accenture Manila call centre (2026-08-18)
 - [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
 - [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
-- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
-- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
-- [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
-- [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
+- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
+- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
+- [CDNL] Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales (2026-08-13)
+- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Gosin Barry M vendio NMRK por $54.0M el 2026-08-17.
-- CEO Chen Hung-Wen compro APLM por $4.0M el 2026-08-14.
 - CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.
 - CEO Spivey Jeremy Simmons compro CDNL por $1.8M el 2026-08-14.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
 - SDTrading · PnL $51,569 · win rate 93% · categorias: sports
 - monkeymashingkeyboard · PnL $39,069 · win rate 91% · categorias: sports
+- 111111111115 · PnL $28,077 · win rate 93% · categorias: sports
 - kingflop · PnL $28,954 · win rate 92% · categorias: sports
-- jarosbill · PnL $28,482 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +163,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 667 registros 30d · ultimo dato 2026-08-17
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-17
+- **sec_insiders**: `ok` · 664 registros 30d · ultimo dato 2026-08-17
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -177,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEKE, BFLY, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

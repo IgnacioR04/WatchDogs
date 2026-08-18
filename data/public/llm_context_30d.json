@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-18T10:03:22.653908+00:00",
+  "generated_at": "2026-08-18T11:02:53.369248+00:00",
   "window": {
     "from": "2026-07-19",
     "to": "2026-08-18",
@@ -24,11 +24,11 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
       "merger",
       "regulatory",
-      "legal",
-      "ai"
+      "earnings",
+      "leadership",
+      "legal"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -54,24 +54,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO compro APLM ($4.0M)",
-      "summary": "CEO Chen Hung-Wen compro APLM por $4.0M el 2026-08-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "ticker": "APLM",
-      "direction": "buy",
-      "amount_estimated": 4000005.0,
-      "event_date": "2026-08-14",
-      "importance_score": 83.9,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2023674/000119312526354457/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO compro TDIC ($1.2M)",
       "summary": "CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -88,26 +70,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2125603/000149315226038578/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
-      "title": "CEO compro APLM ($2.0M)",
-      "summary": "CEO Chen Hung-Wen compro APLM por $2.0M el 2026-08-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "ticker": "APLM",
-      "direction": "buy",
-      "amount_estimated": 2000004.0,
-      "event_date": "2026-08-14",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2023674/000119312526354457/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO compro ONON ($2.0M)",
       "summary": "CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.",
       "source": "sec_form_4",
@@ -124,8 +88,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1859912/000185991226000006/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO compro CDNL ($1.8M)",
       "summary": "CEO Spivey Jeremy Simmons compro CDNL por $1.8M el 2026-08-14.",
       "source": "sec_form_4",
@@ -139,33 +103,15 @@
       "importance_score": 82.1,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_29191866415",
-        "news_815461069573",
-        "news_684366925422"
+        "news_510725799270",
+        "news_489710122867",
+        "news_324425868239"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2092830/000121390026090854/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO compro APLM ($1.5M)",
-      "summary": "CEO Chen Hung-Wen compro APLM por $1.5M el 2026-08-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "ticker": "APLM",
-      "direction": "buy",
-      "amount_estimated": 1549995.0,
-      "event_date": "2026-08-14",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2023674/000119312526354457/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -182,8 +128,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -200,8 +146,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -218,8 +164,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -236,8 +182,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -254,8 +200,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -272,8 +218,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -290,8 +236,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -308,8 +254,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -326,8 +272,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -344,8 +290,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -362,8 +308,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -380,8 +326,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -391,6 +337,60 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 17242553494,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro INTEL CORP ($16.2B)",
+      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16233929222,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
+      "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "JPMorgan Chase & Co",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16112059718,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
+      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 15145083757,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -417,14 +417,6 @@
         ]
       },
       {
-        "ticker": "APLM",
-        "company": "Apollomics Inc.",
-        "pressure_score": 398.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DKL",
         "company": "Delek Logistics Partners, LP",
         "pressure_score": 370.9,
@@ -438,6 +430,14 @@
         "pressure_score": 368.0,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "CNXU",
+        "company": "Conexeu Sciences Inc.",
+        "pressure_score": 341.2,
+        "sources": [
+          "large_holder"
         ]
       },
       {
@@ -460,14 +460,6 @@
         "ticker": "FOCL",
         "company": "EDAP TMS SA",
         "pressure_score": 284.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MOBI",
-        "company": "Mobia Medical, Inc.",
-        "pressure_score": 281.3,
         "sources": [
           "corporate_insider"
         ]
@@ -520,6 +512,15 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "BFLY",
+        "company": "Butterfly Network, Inc.",
+        "pressure_score": 217.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -567,14 +568,6 @@
         "ticker": "Z AND ZG",
         "company": "ZILLOW GROUP, INC.",
         "pressure_score": 627.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TNYA",
-        "company": "Tenaya Therapeutics, Inc.",
-        "pressure_score": 503.7,
         "sources": [
           "corporate_insider"
         ]
@@ -642,19 +635,19 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "PCTY",
+        "company": "PAYLOCITY HOLDING CORP",
+        "pressure_score": 356.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "APLM",
-      "company": "Apollomics Inc.",
-      "actor": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "amount": 4000005.0,
-      "date": "2026-08-14",
-      "score": 83.9
-    },
     {
       "ticker": "TDIC",
       "company": "Dreamland Ltd",
@@ -663,15 +656,6 @@
       "amount": 1200000.0,
       "date": "2026-08-13",
       "score": 82.5
-    },
-    {
-      "ticker": "APLM",
-      "company": "Apollomics Inc.",
-      "actor": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "amount": 2000004.0,
-      "date": "2026-08-14",
-      "score": 82.4
     },
     {
       "ticker": "ONON",
@@ -690,15 +674,6 @@
       "amount": 1756566.18,
       "date": "2026-08-14",
       "score": 82.1
-    },
-    {
-      "ticker": "APLM",
-      "company": "Apollomics Inc.",
-      "actor": "Chen Hung-Wen",
-      "actor_type": "ceo",
-      "amount": 1549995.0,
-      "date": "2026-08-14",
-      "score": 81.8
     },
     {
       "ticker": "CDNL",
@@ -737,15 +712,6 @@
       "score": 78.8
     },
     {
-      "ticker": "APLM",
-      "company": "Apollomics Inc.",
-      "actor": "LIN PETER KUAN-HOW",
-      "actor_type": "cfo",
-      "amount": 400005.0,
-      "date": "2026-08-14",
-      "score": 77.6
-    },
-    {
       "ticker": "ONON",
       "company": "On Holding AG",
       "actor": "Bernhard Olivier",
@@ -780,6 +746,42 @@
       "amount": 255710.0,
       "date": "2026-08-14",
       "score": 76.6
+    },
+    {
+      "ticker": "CDNL",
+      "company": "Cardinal Infrastructure Group Inc.",
+      "actor": "Wood Anthony Leon Jr.",
+      "actor_type": "director",
+      "amount": 1332184.04,
+      "date": "2026-08-14",
+      "score": 76.5
+    },
+    {
+      "ticker": "ANGX",
+      "company": "Angel Studios, Inc.",
+      "actor": "Harmon Neal",
+      "actor_type": "ceo",
+      "amount": 125004.85,
+      "date": "2026-08-14",
+      "score": 76.3
+    },
+    {
+      "ticker": "DKL",
+      "company": "Delek Logistics Partners, LP",
+      "actor": "Soreq Avigal",
+      "actor_type": "ceo",
+      "amount": 125000.0,
+      "date": "2026-08-13",
+      "score": 76.3
+    },
+    {
+      "ticker": "SUNS",
+      "company": "Sunrise Realty Trust, Inc.",
+      "actor": "TANNENBAUM LEONARD M",
+      "actor_type": "ten_percent_owner",
+      "amount": 375000.0,
+      "date": "2026-08-13",
+      "score": 76.2
     }
   ],
   "institutional_changes": [
@@ -1256,6 +1258,16 @@
         ]
       },
       {
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 28077.07,
+        "win_rate": 0.9264,
+        "volume": 106181.01,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe954ddb021",
         "username": "kingflop",
         "pnl": 28954.05,
@@ -1286,20 +1298,9 @@
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 8790.01,
-        "win_rate": 0.908,
-        "volume": 6947.33,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x86e99faea1",
         "username": "JUSTINHERBERTMVP",
-        "pnl": 16000.46,
+        "pnl": 15963.45,
         "win_rate": 0.8669,
         "volume": 78287.12,
         "categories": [
@@ -1311,7 +1312,7 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 21432.54,
+        "pnl": 22301.18,
         "win_rate": 0.8433,
         "volume": 235703.47,
         "categories": [
@@ -1334,9 +1335,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 84225.82,
-        "win_rate": 0.633,
-        "volume": 1866224.4,
+        "pnl": 87516.51,
+        "win_rate": 0.631,
+        "volume": 1984898.27,
         "categories": [
           "sports"
         ]
@@ -1344,9 +1345,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 185789.7,
+        "pnl": 197638.36,
         "win_rate": 0.648,
-        "volume": 811038.07,
+        "volume": 880305.61,
         "categories": [
           "sports",
           "crypto"
@@ -1365,9 +1366,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 98975.79,
-        "win_rate": 0.554,
-        "volume": 1139141.64,
+        "pnl": 101202.2,
+        "win_rate": 0.552,
+        "volume": 1186560.84,
         "categories": [
           "sports"
         ]
@@ -1375,7 +1376,7 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 13793.09,
+        "pnl": 13793.27,
         "win_rate": 0.575,
         "volume": 693782.68,
         "categories": [
@@ -1393,11 +1394,11 @@
         ]
       },
       {
-        "wallet": "0x792f8e8bae",
-        "username": "owenliang666",
-        "pnl": 9189.56,
-        "win_rate": 0.3889,
-        "volume": 85683.45,
+        "wallet": "0xcd30f4698c",
+        "username": "111111111115",
+        "pnl": 28077.07,
+        "win_rate": 0.9264,
+        "volume": 106181.01,
         "categories": [
           "sports"
         ]
@@ -1405,7 +1406,7 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 21432.54,
+        "pnl": 22301.18,
         "win_rate": 0.8433,
         "volume": 235703.47,
         "categories": [
@@ -1416,9 +1417,9 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 33907.4,
+        "pnl": 33911.03,
         "win_rate": 0.541,
-        "volume": 405651.73,
+        "volume": 408529.15,
         "categories": [
           "sports"
         ]
@@ -1426,7 +1427,7 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 100231.29,
+        "pnl": 100231.31,
         "win_rate": 0.663,
         "volume": 229853.2,
         "categories": [
@@ -1437,21 +1438,30 @@
   },
   "news": [
     {
-      "title": "JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-co-founder-sells-45-060826981.html",
-      "ticker": "FROG",
+      "title": "Commerzbank Aktiengesellschaft FI Acquires Shares of 89 , 866 Accenture PLC $ACN",
+      "url": "https://www.dailypolitical.com/2026/08/18/commerzbank-aktiengesellschaft-fi-acquires-shares-of-89866-accenture-plc-acn.html",
+      "ticker": "ACN",
       "themes": [
+        "merger",
+        "regulatory",
         "stock"
       ],
       "date": "2026-08-18"
     },
     {
-      "title": "GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen",
-      "url": "https://www.themarketsdaily.com/2026/08/18/goodrx-nasdaqgdrx-upgraded-at-wall-street-zen.html",
-      "ticker": "GDRX",
+      "title": "Accenture CEO Julie Sweet has a vacation request for employees : Asks them to focus on work as company pushes for stronger Q4 results",
+      "url": "https://www.moneycontrol.com/technology/accenture-ceo-julie-sweet-has-a-vacation-request-for-employees-asks-them-to-focus-on-work-as-company-pushes-for-stronger-q4-results-article-14008513.html",
+      "ticker": "ACN",
       "themes": [
-        "stock"
+        "leadership"
       ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Origin Energy hack traced to Accenture Manila call centre",
+      "url": "https://www.abc.net.au/news/2026-08-18/origin-energy-hack-traced-to-accenture-manila-office/107049188",
+      "ticker": "ACN",
+      "themes": [],
       "date": "2026-08-18"
     },
     {
@@ -1474,58 +1484,13 @@
       "date": "2026-08-17"
     },
     {
-      "title": "Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13545867/comparing-evolent-health-nyseevh-goodrx-nasdaqgdrx.html",
-      "ticker": "GDRX",
-      "themes": [],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "S Inc . Takes Position in Everpure , Inc . $P",
-      "url": "https://www.themarketsdaily.com/2026/08/16/sco-inc-takes-position-in-everpure-inc-p.html",
-      "ticker": "P",
-      "themes": [],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) ",
-      "url": "https://www.dailypolitical.com/2026/08/16/critical-survey-certara-nasdaqcert-vs-goodrx-nasdaqgdrx.html",
-      "ticker": "GDRX",
-      "themes": [],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . ",
-      "url": "https://www.themarketsdaily.com/2026/08/15/axon-enterprise-inc-axon-shares-acquired-by-oppenheimer-asset-management-inc.html",
-      "ticker": "AXON",
-      "themes": [
-        "merger",
-        "stock"
-      ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON",
-      "url": "https://www.tickerreport.com/banking-finance/13544668/principal-financial-group-inc-buys-82765-shares-of-axon-enterprise-inc-axon.html",
-      "ticker": "AXON",
+      "title": "Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/17/datadog-nasdaqddog-director-matthew-jacobson-sells-39912-shares.html",
+      "ticker": "DDOG",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON",
-      "url": "https://www.tickerreport.com/banking-finance/13543951/fortis-group-advisors-llc-invests-1-75-million-in-axon-enterprise-inc-axon.html",
-      "ticker": "AXON",
-      "themes": [],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON",
-      "url": "https://www.themarketsdaily.com/2026/08/15/d-a-davidson-co-boosts-stake-in-axon-enterprise-inc-axon.html",
-      "ticker": "AXON",
-      "themes": [],
-      "date": "2026-08-15"
+      "date": "2026-08-17"
     },
     {
       "title": "HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge",
@@ -1548,33 +1513,6 @@
       "date": "2026-08-14"
     },
     {
-      "title": "JFrog ( FROG ) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-q2-2026-earnings-222818728.html",
-      "ticker": "FROG",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "JFrog ( FROG ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/jfrog-frog-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "FROG",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
-      "url": "https://www.el-balad.com/17041443",
-      "ticker": "P",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-13"
-    },
-    {
       "title": "Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-raises-2026-revenue-125307262.html",
       "ticker": "CDNL",
@@ -1583,15 +1521,6 @@
         "ai"
       ],
       "date": "2026-08-13"
-    },
-    {
-      "title": "Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price",
-      "url": "https://www.tickerreport.com/banking-finance/13538958/citigroup-issues-positive-forecast-for-goodrx-nasdaqgdrx-stock-price.html",
-      "ticker": "GDRX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-11"
     },
     {
       "title": "Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th",
@@ -1620,7 +1549,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1693,
+  "signals_count": 1690,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
