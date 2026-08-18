@@ -1,25 +1,22 @@
 {
-  "generated_at": "2026-08-18T20:56:40+00:00",
+  "generated_at": "2026-08-18T21:55:01+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8503,
+  "cash": 0.1497,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "FWONK": 0.0638,
+    "GLD": 0.0932,
+    "FWONK": 0.0782,
+    "MSGS": 0.0757,
     "IEF": 0.0622,
-    "LTH": 0.0502,
-    "BEKE": 0.0476,
-    "PRTA": 0.0372,
-    "CE": 0.0371,
-    "WRLD": 0.0307,
-    "CHRW": 0.0289,
-    "AMBQ": 0.0178,
-    "CBRS": 0.0114,
-    "BFLY": 0.01
+    "LTH": 0.0592,
+    "PCTY": 0.0421,
+    "CHRW": 0.0393,
+    "AMBQ": 0.0224,
+    "CRWV": 0.018
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0567,
-    "BFLY": 0.0089,
-    "BEKE": 0.0423,
-    "CHRW": 0.0257,
-    "LTH": 0.0446,
-    "CE": 0.033,
-    "PRTA": 0.0331,
-    "AMBQ": 0.0158,
-    "CBRS": 0.0101,
-    "WRLD": 0.0273
+    "FWONK": 0.0695,
+    "MSGS": 0.0673,
+    "CRWV": 0.016,
+    "CHRW": 0.0349,
+    "LTH": 0.0526,
+    "AMBQ": 0.0199,
+    "PCTY": 0.0374
   },
   "satellite_rationale": [
     {
@@ -50,21 +44,20 @@
       "n_signals": 4
     },
     {
-      "ticker": "BFLY",
-      "score": 201.9,
+      "ticker": "MSGS",
+      "score": 211.5,
       "sources": [
-        "corporate_insider",
         "large_holder"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "BEKE",
-      "score": 140.4,
+      "ticker": "CRWV",
+      "score": 211.5,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
       "ticker": "CHRW",
@@ -83,22 +76,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "CE",
-      "score": 115.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "PRTA",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "AMBQ",
       "score": 71.8,
       "sources": [
@@ -107,16 +84,8 @@
       "n_signals": 1
     },
     {
-      "ticker": "CBRS",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "WRLD",
-      "score": 70.2,
+      "ticker": "PCTY",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -124,17 +93,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1089,
-    "var_95_1d": 0.008,
-    "cvar_95_1d": 0.0087,
-    "max_drawdown": -0.0272,
-    "beta_spy": 0.63,
-    "hhi": 0.0697,
+    "ann_vol": 0.1061,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0125,
+    "max_drawdown": -0.0279,
+    "beta_spy": 0.617,
+    "hhi": 0.0752,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.3,
-    "gross_exposure": 0.8502,
-    "days_used": 46
+    "n_positions": 12,
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8503,
+    "days_used": 56
   },
   "risk_gate": {
     "passed": true,

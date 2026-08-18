@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-18T20:55:31.996684+00:00",
+  "generated_at": "2026-08-18T21:54:05.705835+00:00",
   "window": {
     "from": "2026-07-19",
     "to": "2026-08-18",
@@ -25,8 +25,9 @@
     "top_themes": [
       "earnings",
       "ai",
-      "regulatory",
-      "merger"
+      "legal",
+      "leadership",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -52,42 +53,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio EAT ($9.7M)",
-      "summary": "CEO Hochman Kevin vendio EAT por $9.7M el 2026-08-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Hochman Kevin",
-      "actor_type": "ceo",
-      "ticker": "EAT",
-      "direction": "sell",
-      "amount_estimated": 9726000.0,
-      "event_date": "2026-08-17",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1933011/000119312526355531/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
-      "title": "CEO compro ONON ($2.0M)",
-      "summary": "CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Coppetti Caspar Felix",
-      "actor_type": "ceo",
-      "ticker": "ONON",
-      "direction": "buy",
-      "amount_estimated": 1993790.5,
-      "event_date": "2026-08-14",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1859912/000185991226000006/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
       "title": "CEO vendio MXL ($6.3M)",
       "summary": "CEO SEENDRIPU KISHORE vendio MXL por $6.3M el 2026-08-17.",
       "source": "sec_form_4",
@@ -104,8 +69,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478340/000147834026000008/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio MXL ($6.2M)",
       "summary": "CEO SEENDRIPU KISHORE vendio MXL por $6.2M el 2026-08-17.",
       "source": "sec_form_4",
@@ -122,8 +87,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478340/000147834026000008/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio MXL ($5.9M)",
       "summary": "CEO SEENDRIPU KISHORE vendio MXL por $5.9M el 2026-08-17.",
       "source": "sec_form_4",
@@ -140,8 +105,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478340/000147834026000008/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio MXL ($5.9M)",
       "summary": "CEO SEENDRIPU KISHORE vendio MXL por $5.9M el 2026-08-17.",
       "source": "sec_form_4",
@@ -156,6 +121,42 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1478340/000147834026000008/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "CEO vendio EQT ($9.6M)",
+      "summary": "CEO Rice Toby Z. vendio EQT por $9.6M el 2026-08-14.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Rice Toby Z.",
+      "actor_type": "ceo",
+      "ticker": "EQT",
+      "direction": "sell",
+      "amount_estimated": 9648299.84,
+      "event_date": "2026-08-14",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1597385/000159738526000015/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO opero CAH ($24.3M)",
+      "summary": "CEO Hollar Jason M. opero CAH por $24.3M el 2026-08-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Hollar Jason M.",
+      "actor_type": "ceo",
+      "ticker": "CAH",
+      "direction": "other",
+      "amount_estimated": 24328101.33,
+      "event_date": "2026-08-15",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1687858/000168785826000002/"
     },
     {
       "id": "move_8",
@@ -403,6 +404,14 @@
         ]
       },
       {
+        "ticker": "VRCA",
+        "company": "Verrica Pharmaceuticals Inc.",
+        "pressure_score": 427.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FWONK",
         "company": "Liberty Formula One Common Stock",
         "pressure_score": 368.0,
@@ -424,14 +433,6 @@
         "pressure_score": 304.7,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "ANGX",
-        "company": "Angel Studios, Inc.",
-        "pressure_score": 298.3,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -467,36 +468,11 @@
         ]
       },
       {
-        "ticker": "NTHI",
-        "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-        "pressure_score": 224.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "MNST",
         "company": "Common Stock",
         "pressure_score": 221.3,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "FOCL",
-        "company": "EDAP TMS SA",
-        "pressure_score": 217.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BFLY",
-        "company": "Butterfly Network, Inc.",
-        "pressure_score": 217.5,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -508,15 +484,64 @@
         ]
       },
       {
-        "ticker": "CE",
-        "company": "Celanese Corp",
-        "pressure_score": 213.9,
+        "ticker": "MSGS",
+        "company": "Madison Square Garden Sports Corp.",
+        "pressure_score": 211.5,
         "sources": [
-          "corporate_insider"
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "CRWV",
+        "company": "COREWEAVE, INC.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "ADBT",
+        "company": "Advasa Holdings, Inc.",
+        "pressure_score": 208.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SNSC",
+        "company": "SunScout Holding Ltd",
+        "pressure_score": 207.0,
+        "sources": [
+          "large_holder"
         ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "WAL",
+        "company": "WESTERN ALLIANCE BANCORPORATION",
+        "pressure_score": 1553.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RDDT",
+        "company": "Reddit, Inc.",
+        "pressure_score": 1452.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TDG",
+        "company": "Common Stock",
+        "pressure_score": 1357.7,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "MXL",
         "company": "MAXLINEAR, INC",
@@ -526,49 +551,9 @@
         ]
       },
       {
-        "ticker": "TEAM",
-        "company": "Atlassian Corp",
-        "pressure_score": 842.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FFIN",
-        "company": "FIRST FINANCIAL BANKSHARES INC",
-        "pressure_score": 615.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 534.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SNX",
-        "company": "TD SYNNEX CORP",
-        "pressure_score": 474.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SMWB",
-        "company": "SIMILARWEB LTD.",
-        "pressure_score": 459.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CAMT",
-        "company": "CAMTEK LTD",
-        "pressure_score": 430.0,
+        "ticker": "NBIS",
+        "company": "Nebius Group N.V.",
+        "pressure_score": 802.5,
         "sources": [
           "corporate_insider"
         ]
@@ -576,15 +561,57 @@
       {
         "ticker": "NWS",
         "company": "NEWS CORP",
-        "pressure_score": 420.8,
+        "pressure_score": 800.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BWA",
-        "company": "BORGWARNER INC",
-        "pressure_score": 370.2,
+        "ticker": "PCTY",
+        "company": "PAYLOCITY HOLDING CORP",
+        "pressure_score": 775.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "MDB",
+        "company": "MongoDB, Inc.",
+        "pressure_score": 638.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CSTL",
+        "company": "CASTLE BIOSCIENCES INC",
+        "pressure_score": 517.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AMBQ",
+        "company": "AMBIQ MICRO INC",
+        "pressure_score": 427.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "EQH",
+        "company": "Equitable Holdings, Inc.",
+        "pressure_score": 412.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LSCC",
+        "company": "LATTICE SEMICONDUCTOR CORP",
+        "pressure_score": 358.0,
         "sources": [
           "corporate_insider"
         ]
@@ -606,36 +633,10 @@
         ]
       },
       {
-        "ticker": "CORT",
-        "company": "CORCEPT THERAPEUTICS INC",
-        "pressure_score": 351.9,
+        "ticker": "XMTR",
+        "company": "Xometry, Inc.",
+        "pressure_score": 347.2,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "WRLD",
-        "company": "World Acceptance Corporation",
-        "pressure_score": 315.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "AIRO",
-        "company": "AIRO Group Holdings, Inc.",
-        "pressure_score": 279.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CLH",
-        "company": "DC Clean Harbors, Inc. Common Stock",
-        "pressure_score": 261.8,
-        "sources": [
-          "congress",
           "corporate_insider"
         ]
       }
@@ -643,85 +644,13 @@
   },
   "insider_buying": [
     {
-      "ticker": "ONON",
-      "company": "On Holding AG",
-      "actor": "Coppetti Caspar Felix",
+      "ticker": "VRCA",
+      "company": "Verrica Pharmaceuticals Inc.",
+      "actor": "Rieger Jayson",
       "actor_type": "ceo",
-      "amount": 1993790.5,
+      "amount": 101200.0,
       "date": "2026-08-14",
-      "score": 82.3
-    },
-    {
-      "ticker": "ENHA",
-      "company": "Enhanced Group Inc.",
-      "actor": "Apeiron Investment Group Ltd.",
-      "actor_type": "ten_percent_owner",
-      "amount": 330420.0,
-      "date": "2026-08-17",
-      "score": 77.4
-    },
-    {
-      "ticker": "ONON",
-      "company": "On Holding AG",
-      "actor": "Bernhard Olivier",
-      "actor_type": "director",
-      "amount": 1993790.5,
-      "date": "2026-08-14",
-      "score": 77.3
-    },
-    {
-      "ticker": "BFLY",
-      "company": "Butterfly Network, Inc.",
-      "actor": "Phanstiel S. Louise",
-      "actor_type": "director",
-      "amount": 999509.76,
-      "date": "2026-08-14",
-      "score": 77.1
-    },
-    {
-      "ticker": "NTHI",
-      "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "actor": "CHEN THOMAS C",
-      "actor_type": "ceo",
-      "amount": 130002.24,
-      "date": "2026-08-14",
-      "score": 76.4
-    },
-    {
-      "ticker": "ANGX",
-      "company": "Angel Studios, Inc.",
-      "actor": "Harmon Neal",
-      "actor_type": "ceo",
-      "amount": 125004.85,
-      "date": "2026-08-14",
-      "score": 76.3
-    },
-    {
-      "ticker": "ANGX",
-      "company": "Angel Studios, Inc.",
-      "actor": "Harmon Jeffrey",
-      "actor_type": "officer",
-      "amount": 729596.36,
-      "date": "2026-08-13",
       "score": 75.9
-    },
-    {
-      "ticker": "FOCL",
-      "company": "EDAP TMS SA",
-      "actor": "Rhodes Ryan",
-      "actor_type": "ceo",
-      "amount": 99750.0,
-      "date": "2026-08-14",
-      "score": 75.8
-    },
-    {
-      "ticker": "NTHI",
-      "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "actor": "Heshmatpour Amir F",
-      "actor_type": "ceo",
-      "amount": 49860.0,
-      "date": "2026-08-18",
-      "score": 75.8
     },
     {
       "ticker": "REZI",
@@ -733,12 +662,21 @@
       "score": 74.9
     },
     {
-      "ticker": "CMCL",
-      "company": "Caledonia Mining Corp Plc",
-      "actor": "Ndlovu July",
+      "ticker": "VRCA",
+      "company": "Verrica Pharmaceuticals Inc.",
+      "actor": "Rieger Jayson",
+      "actor_type": "ceo",
+      "amount": 24550.0,
+      "date": "2026-08-17",
+      "score": 74.3
+    },
+    {
+      "ticker": "FTI",
+      "company": "TechnipFMC plc",
+      "actor": "Mullins Eric D.",
       "actor_type": "director",
-      "amount": 492842.0,
-      "date": "2026-08-13",
+      "amount": 499970.75,
+      "date": "2026-08-14",
       "score": 74.3
     },
     {
@@ -751,24 +689,6 @@
       "score": 74.2
     },
     {
-      "ticker": "DKL",
-      "company": "Delek Logistics Partners, LP",
-      "actor": "Wright Robert G.",
-      "actor_type": "cfo",
-      "amount": 75000.0,
-      "date": "2026-08-13",
-      "score": 74.0
-    },
-    {
-      "ticker": "CE",
-      "company": "Celanese Corp",
-      "actor": "Kyrish Chuck",
-      "actor_type": "cfo",
-      "amount": 63741.86,
-      "date": "2026-08-14",
-      "score": 73.6
-    },
-    {
       "ticker": "AMRZ",
       "company": "Amrize Ltd",
       "actor": "Poletti Samuel Jonas",
@@ -776,6 +696,87 @@
       "amount": 117769.2,
       "date": "2026-08-17",
       "score": 73.5
+    },
+    {
+      "ticker": "VRCA",
+      "company": "Verrica Pharmaceuticals Inc.",
+      "actor": "Kirby John J.",
+      "actor_type": "cfo",
+      "amount": 24650.0,
+      "date": "2026-08-18",
+      "score": 73.1
+    },
+    {
+      "ticker": "ABCL",
+      "company": "AbCellera Biologics Inc.",
+      "actor": "Montalbano John S.",
+      "actor_type": "director",
+      "amount": 110300.0,
+      "date": "2026-08-18",
+      "score": 72.6
+    },
+    {
+      "ticker": "NRGV",
+      "company": "Energy Vault Holdings, Inc.",
+      "actor": "Hixon Dylan",
+      "actor_type": "director",
+      "amount": 106536.42,
+      "date": "2026-08-17",
+      "score": 72.5
+    },
+    {
+      "ticker": "ASST",
+      "company": "Strive, Inc.",
+      "actor": "Rochard Pierre",
+      "actor_type": "director",
+      "amount": 199386.0,
+      "date": "2026-08-14",
+      "score": 72.3
+    },
+    {
+      "ticker": "NVRI",
+      "company": "Enviri Corp",
+      "actor": "HAZNEDAR CAROLANN I",
+      "actor_type": "director",
+      "amount": 99747.38,
+      "date": "2026-08-17",
+      "score": 72.3
+    },
+    {
+      "ticker": "ACON",
+      "company": "Aclarion, Inc.",
+      "actor": "Gould Gregory A",
+      "actor_type": "cfo",
+      "amount": 24500.0,
+      "date": "2026-08-14",
+      "score": 71.5
+    },
+    {
+      "ticker": "SNBH",
+      "company": "SENTIENT BRANDS HOLDINGS INC.",
+      "actor": "Knazev Sergei",
+      "actor_type": "ceo",
+      "amount": 6562.5,
+      "date": "2026-08-17",
+      "score": 71.4
+    },
+    {
+      "ticker": "ELAN",
+      "company": "Elanco Animal Health Inc",
+      "actor": "O'Neill Shiv",
+      "actor_type": "insider",
+      "amount": 94272.84,
+      "date": "2026-08-18",
+      "score": 71.0
+    },
+    {
+      "ticker": "BXSY",
+      "company": "BEXIL INVESTMENT TRUST",
+      "actor": "WINMILL & CO. INC",
+      "actor_type": "insider",
+      "amount": 94016.0,
+      "date": "2026-08-17",
+      "score": 71.0
     }
   ],
   "institutional_changes": [
@@ -1074,11 +1075,11 @@
       "score": 62.6
     },
     {
-      "politician": "Kevin Hern",
-      "ticker": "CMCSA",
-      "direction": "sell",
+      "politician": "April McClain Delaney",
+      "ticker": "TDG",
+      "direction": "buy",
       "amount": 15000,
-      "date": "2026-08-05",
+      "date": "2026-07-28",
       "score": 62.4
     }
   ],
@@ -1118,6 +1119,15 @@
       "shares": 13593236,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-14"
+    },
+    {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 51.69,
+      "shares": 1649839,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-18"
     },
     {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
@@ -1208,15 +1218,6 @@
       "shares": 7241215,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-14"
-    },
-    {
-      "filer": "Prescott General Partners LLC",
-      "company": "World Acceptance Corporation",
-      "ticker": "WRLD",
-      "ownership_pct": 28.5,
-      "shares": 1330943,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-18"
     }
   ],
   "polymarket": {
@@ -1234,7 +1235,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 52361.56,
+        "pnl": 52460.57,
         "win_rate": 0.9333,
         "volume": 73946.04,
         "categories": [
@@ -1242,21 +1243,23 @@
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 39353.92,
-        "win_rate": 0.9057,
-        "volume": 52658.63,
+        "wallet": "0xc3c3b3ef30",
+        "username": "comon119",
+        "pnl": 20657.12,
+        "win_rate": 0.973,
+        "volume": 236116.59,
         "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "politics"
         ]
       },
       {
-        "wallet": "0xe954ddb021",
-        "username": "kingflop",
-        "pnl": 27222.09,
-        "win_rate": 0.9204,
-        "volume": 114667.45,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 39608.59,
+        "win_rate": 0.9057,
+        "volume": 56733.42,
         "categories": [
           "sports"
         ]
@@ -1264,7 +1267,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 28802.41,
+        "pnl": 28812.83,
         "win_rate": 0.9153,
         "volume": 143218.59,
         "categories": [
@@ -1273,11 +1276,11 @@
         ]
       },
       {
-        "wallet": "0x65018f9fc4",
-        "username": "cnyek",
-        "pnl": 17172.75,
-        "win_rate": 0.9574,
-        "volume": 107796.0,
+        "wallet": "0xe954ddb021",
+        "username": "kingflop",
+        "pnl": 26815.05,
+        "win_rate": 0.9204,
+        "volume": 114667.45,
         "categories": [
           "sports"
         ]
@@ -1327,9 +1330,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 57743.13,
-        "win_rate": 0.6,
-        "volume": 5229520.53,
+        "pnl": 47012.48,
+        "win_rate": 0.599,
+        "volume": 5541446.29,
         "categories": [
           "sports"
         ]
@@ -1337,9 +1340,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 205225.77,
+        "pnl": 204785.95,
         "win_rate": 0.649,
-        "volume": 1278235.62,
+        "volume": 1304994.34,
         "categories": [
           "sports",
           "crypto"
@@ -1348,9 +1351,19 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 140363.53,
-        "win_rate": 0.551,
-        "volume": 2049383.09,
+        "pnl": 142715.22,
+        "win_rate": 0.549,
+        "volume": 2144700.04,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 106975.54,
+        "win_rate": 0.574,
+        "volume": 2807237.05,
         "categories": [
           "sports"
         ]
@@ -1368,9 +1381,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 82857.8,
-        "win_rate": 0.72,
-        "volume": 1256866.82,
+        "pnl": 65223.25,
+        "win_rate": 0.722,
+        "volume": 1285314.55,
         "categories": [
           "sports",
           "economy",
@@ -1378,21 +1391,11 @@
         ]
       },
       {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 52727.25,
-        "win_rate": 0.543,
-        "volume": 1112418.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 17167.62,
-        "win_rate": 0.575,
-        "volume": 777294.5,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 65643.92,
+        "win_rate": 0.663,
+        "volume": 1792030.12,
         "categories": [
           "sports"
         ]
@@ -1400,21 +1403,23 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 71565.39,
+        "pnl": 71356.02,
         "win_rate": 0.534,
-        "volume": 221327.51,
+        "volume": 258538.79,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x65018f9fc4",
-        "username": "cnyek",
-        "pnl": 17172.75,
-        "win_rate": 0.9574,
-        "volume": 107796.0,
+        "wallet": "0xd5ccdf772f",
+        "username": "tsybka",
+        "pnl": 16919.48,
+        "win_rate": 0.8392,
+        "volume": 262400.27,
         "categories": [
+          "politics",
+          "crypto",
           "sports"
         ]
       },
@@ -1432,11 +1437,13 @@
   },
   "news": [
     {
-      "title": "Williams confirm Alex Albon will remain with the team in 2027",
-      "url": "https://www.formula1.com/en/latest/article/williams-confirm-albon-will-remain-with-the-team-in-2027.3ZwdrAmEY4MGL5Ce1eXHIQ",
-      "ticker": "TEAM",
+      "title": "Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI",
+      "url": "https://www.cnbc.com/2026/08/18/hims-hers-ceo-andrew-dudum-ftc-lawsuit-glp-1s-ai.html",
+      "ticker": "HIMS",
       "themes": [
-        "ai"
+        "ai",
+        "legal",
+        "leadership"
       ],
       "date": "2026-08-18"
     },
@@ -1448,13 +1455,13 @@
       "date": "2026-08-18"
     },
     {
-      "title": "Baystreet . ca - Similarweb Gains on Q2 Figures",
-      "url": "http://baystreet.ca/articles/stockstowatch/123036/Similarweb-Gains-on-Q2-Figures",
-      "ticker": "SMWB",
+      "title": "Hims & Hers Health ( NYSE : HIMS ) Raised to  Hold  at Wall Street Zen",
+      "url": "https://www.tickerreport.com/banking-finance/13546308/hims-hers-health-nysehims-raised-to-hold-at-wall-street-zen.html",
+      "ticker": "HIMS",
       "themes": [
         "ai"
       ],
-      "date": "2026-08-15"
+      "date": "2026-08-17"
     },
     {
       "title": "Tandem Diabetes ( TNDM ) Q2 2026 Earnings Call Transcript",
@@ -1466,22 +1473,13 @@
       "date": "2026-08-14"
     },
     {
-      "title": "Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th",
-      "url": "https://www.dailypolitical.com/2026/08/08/webster-financial-corporation-wbs-to-distribute-quarterly-dividend-of-0-40-on-august-20th.html",
-      "ticker": "WBS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-08"
-    },
-    {
-      "title": "First Financial Bank announces Abilene leadership changes",
-      "url": "https://ktxs.com/news/local/first-financial-bank-announces-abilene-leadership-changes",
-      "ticker": "FFIN",
+      "title": "Western Alliance Bancorporation ( NYSE : WAL ) Coverage Initiated at Wells Fargo & Company",
+      "url": "https://www.dailypolitical.com/2026/08/10/western-alliance-bancorporation-nysewal-coverage-initiated-at-wells-fargo-company.html",
+      "ticker": "WAL",
       "themes": [
         "regulatory"
       ],
-      "date": "2026-08-07"
+      "date": "2026-08-10"
     },
     {
       "title": "FinancialContent - Tandem Diabetes ( NASDAQ : TNDM ) Q2 CY2026 Earnings Results : Revenue In Line With Expectations",
@@ -1500,16 +1498,6 @@
       "date": "2026-08-06"
     },
     {
-      "title": "Santander receives Fed approval for acquisition of Webster Financial Corporation",
-      "url": "https://thecorner.eu/companies/santander-receives-fed-approval-for-acquisition-of-webster-financial-corporation/127215/",
-      "ticker": "WBS",
-      "themes": [
-        "merger",
-        "regulatory"
-      ],
-      "date": "2026-08-05"
-    },
-    {
       "title": "FinancialContent - Tandem Diabetes Earnings : What To Look For From TNDM",
       "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-tandem-diabetes-earnings-what-to-look-for-from-tndm",
       "ticker": "TNDM",
@@ -1519,7 +1507,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1700,
+  "signals_count": 1860,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
