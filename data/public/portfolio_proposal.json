@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-18T19:56:08+00:00",
+  "generated_at": "2026-08-18T20:56:40+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
+    "FWONK": 0.0638,
     "IEF": 0.0622,
-    "FWONK": 0.0547,
-    "RPRX": 0.054,
-    "LTH": 0.0393,
-    "BEKE": 0.0391,
-    "CE": 0.0335,
-    "DKL": 0.0331,
-    "CART": 0.0279,
-    "CHRW": 0.0261,
-    "GSHD": 0.0181,
-    "BFLY": 0.0087
+    "LTH": 0.0502,
+    "BEKE": 0.0476,
+    "PRTA": 0.0372,
+    "CE": 0.0371,
+    "WRLD": 0.0307,
+    "CHRW": 0.0289,
+    "AMBQ": 0.0178,
+    "CBRS": 0.0114,
+    "BFLY": 0.01
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0486,
-    "DKL": 0.0294,
-    "BFLY": 0.0077,
-    "BEKE": 0.0348,
-    "CHRW": 0.0232,
-    "LTH": 0.0349,
-    "CE": 0.0298,
-    "GSHD": 0.0161,
-    "RPRX": 0.048,
-    "CART": 0.0248
+    "FWONK": 0.0567,
+    "BFLY": 0.0089,
+    "BEKE": 0.0423,
+    "CHRW": 0.0257,
+    "LTH": 0.0446,
+    "CE": 0.033,
+    "PRTA": 0.0331,
+    "AMBQ": 0.0158,
+    "CBRS": 0.0101,
+    "WRLD": 0.0273
   },
   "satellite_rationale": [
     {
@@ -48,14 +48,6 @@
         "congress"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "DKL",
-      "score": 238.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
     },
     {
       "ticker": "BFLY",
@@ -99,7 +91,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "GSHD",
+      "ticker": "PRTA",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -107,7 +99,15 @@
       "n_signals": 1
     },
     {
-      "ticker": "RPRX",
+      "ticker": "AMBQ",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "CBRS",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -115,7 +115,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "CART",
+      "ticker": "WRLD",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -124,17 +124,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0905,
-    "var_95_1d": 0.0086,
-    "cvar_95_1d": 0.0117,
-    "max_drawdown": -0.0242,
-    "beta_spy": 0.499,
-    "hhi": 0.0688,
+    "ann_vol": 0.1089,
+    "var_95_1d": 0.008,
+    "cvar_95_1d": 0.0087,
+    "max_drawdown": -0.0272,
+    "beta_spy": 0.63,
+    "hhi": 0.0697,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.85,
-    "days_used": 54
+    "effective_positions": 14.3,
+    "gross_exposure": 0.8502,
+    "days_used": 46
   },
   "risk_gate": {
     "passed": true,
