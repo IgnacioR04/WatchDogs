@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T06:02:59+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T07:21:06+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -27,23 +27,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
 | IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
-| RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 4.49% |
-| FWONK | 5.6% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| RPRX | 6.0% | satellite | 58.6 | 0.47% | 3.64% | 4.49% |
+| FWONK | 5.7% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
 | LTH | 4.5% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
 | DKL | 3.8% | satellite | 54.01 | 3.27% | -4.83% | -2.35% |
-| PTC | 3.4% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
-| PCTY | 3.2% | satellite | 148.28 | -2.9% | -1.42% | 17.68% |
-| CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| PCTY | 3.1% | satellite | 148.28 | -2.9% | -1.42% | 20.43% |
+| PTC | 3.1% | satellite | 149.75 | -2.69% | 1.38% | 22.23% |
+| CHRW | 3.0% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
 | GSHD | 2.0% | satellite | 66.29 | -1.65% | 1.67% | 28.34% |
 | CDNL | 1.3% | satellite | 39.42 | 13.73% | -38.41% | -43.46% |
 | BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.5%
+- Volatilidad anualizada: 8.7%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
 - Max drawdown historico: -2.1%
-- Beta vs SPY: 0.444 · posiciones efectivas: 14.4 · HHI: 0.0695
+- Beta vs SPY: 0.459 · posiciones efectivas: 14.4 · HHI: 0.0695
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
 - ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
-- BTC-USD: 64137.64 (2.1% / 1.16% / 0.42%) [2026-08-18]
+- BTC-USD: 64283.32 (-0.35% / 1.39% / 0.59%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,15 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (8), earnings (4), merger (2), legal (1), regulatory (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
+- [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
+- [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
+- [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
 - [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
 - [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
-- [GDRX] Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price (2026-08-11)
+- [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
+- [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
+- [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
+- [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,10 +151,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $51,337 · win rate 93% · categorias: sports
-- kingflop · PnL $28,981 · win rate 93% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $131,059 · win rate 88% · categorias: sports
+- SDTrading · PnL $51,338 · win rate 93% · categorias: sports
 - monkeymashingkeyboard · PnL $38,977 · win rate 91% · categorias: sports
-- 0xf3a1493c · PnL $8,048 · win rate 98% · categorias: sports
+- kingflop · PnL $28,836 · win rate 93% · categorias: sports
 - jarosbill · PnL $28,482 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.

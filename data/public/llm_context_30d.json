@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-18T06:00:51.817818+00:00",
+  "generated_at": "2026-08-18T07:19:56.613900+00:00",
   "window": {
     "from": "2026-07-19",
     "to": "2026-08-18",
@@ -23,7 +23,12 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "earnings",
+      "merger",
+      "legal",
+      "regulatory",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -133,7 +138,11 @@
       "event_date": "2026-08-14",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_565787978447",
+        "news_786719372289",
+        "news_104964262496"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2092830/000121390026090854/"
     },
     {
@@ -1217,21 +1226,21 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 51336.98,
-        "win_rate": 0.9333,
-        "volume": 0.0,
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 131059.14,
+        "win_rate": 0.875,
+        "volume": 431147.99,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe954ddb021",
-        "username": "kingflop",
-        "pnl": 28981.0,
-        "win_rate": 0.9259,
-        "volume": 15925.51,
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 51338.24,
+        "win_rate": 0.9333,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1247,11 +1256,11 @@
         ]
       },
       {
-        "wallet": "0xf3a1493cf8",
-        "username": "",
-        "pnl": 8047.97,
-        "win_rate": 0.9815,
-        "volume": 14479.16,
+        "wallet": "0xe954ddb021",
+        "username": "kingflop",
+        "pnl": 28836.25,
+        "win_rate": 0.9259,
+        "volume": 15925.51,
         "categories": [
           "sports"
         ]
@@ -1269,28 +1278,17 @@
       {
         "wallet": "0x59018ff1f4",
         "username": "kamloic",
-        "pnl": 25307.52,
+        "pnl": 25284.22,
         "win_rate": 0.8671,
-        "volume": 71607.57,
+        "volume": 118200.63,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 9505.33,
-        "win_rate": 0.908,
-        "volume": 893.1,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
         "wallet": "0x86e99faea1",
         "username": "JUSTINHERBERTMVP",
-        "pnl": 16240.38,
+        "pnl": 16237.65,
         "win_rate": 0.8669,
         "volume": 67672.09,
         "categories": [
@@ -1302,9 +1300,9 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 18864.86,
+        "pnl": 19538.49,
         "win_rate": 0.8433,
-        "volume": 186602.28,
+        "volume": 207855.72,
         "categories": [
           "sports",
           "crypto"
@@ -1319,14 +1317,26 @@
         "categories": [
           "sports"
         ]
+      },
+      {
+        "wallet": "0xf559276513",
+        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
+        "pnl": 18439.05,
+        "win_rate": 0.8168,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
       }
     ],
     "whales": [
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 90101.73,
-        "win_rate": 0.633,
+        "pnl": 86716.14,
+        "win_rate": 0.635,
         "volume": 1756187.85,
         "categories": [
           "sports"
@@ -1335,20 +1345,30 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 230755.12,
+        "pnl": 186618.71,
         "win_rate": 0.648,
-        "volume": 792971.41,
+        "volume": 797157.04,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0xe30e745955",
+        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
+        "pnl": 131059.14,
+        "win_rate": 0.875,
+        "volume": 431147.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 99590.6,
+        "pnl": 98403.98,
         "win_rate": 0.552,
-        "volume": 1070845.4,
+        "volume": 1075529.54,
         "categories": [
           "sports"
         ]
@@ -1356,9 +1376,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 48347.77,
-        "win_rate": 0.566,
-        "volume": 1143533.9,
+        "pnl": 11757.19,
+        "win_rate": 0.564,
+        "volume": 1210651.85,
         "categories": [
           "sports"
         ]
@@ -1366,7 +1386,7 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 14573.13,
+        "pnl": 13836.48,
         "win_rate": 0.577,
         "volume": 693782.68,
         "categories": [
@@ -1374,11 +1394,11 @@
         ]
       },
       {
-        "wallet": "0x792f8e8bae",
-        "username": "owenliang666",
-        "pnl": 9794.95,
-        "win_rate": 0.3889,
-        "volume": 85683.45,
+        "wallet": "0x085fd7e488",
+        "username": "Penisya",
+        "pnl": 46340.87,
+        "win_rate": 0.5,
+        "volume": 181143.9,
         "categories": [
           "sports"
         ]
@@ -1386,19 +1406,9 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 9694.15,
+        "pnl": 34021.62,
         "win_rate": 0.542,
-        "volume": 395904.58,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 99783.51,
-        "win_rate": 0.663,
-        "volume": 229820.89,
+        "volume": 398595.53,
         "categories": [
           "sports"
         ]
@@ -1406,20 +1416,20 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 18864.86,
+        "pnl": 19538.49,
         "win_rate": 0.8433,
-        "volume": 186602.28,
+        "volume": 207855.72,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x085fd7e488",
-        "username": "0x085fd7E4886Bd3c491d979Ea5c8052b0d3D34d1C-1774607247186",
-        "pnl": 46386.15,
-        "win_rate": 0.5,
-        "volume": 90571.95,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 99783.52,
+        "win_rate": 0.663,
+        "volume": 229820.89,
         "categories": [
           "sports"
         ]
@@ -1428,16 +1438,46 @@
   },
   "news": [
     {
+      "title": "JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-co-founder-sells-45-060826981.html",
+      "ticker": "FROG",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/18/goodrx-nasdaqgdrx-upgraded-at-wall-street-zen.html",
+      "ticker": "GDRX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/17/insider-buying-cardinal-infrastructure-group-nasdaqcdnl-director-purchases-1251880-00-in-stock.html",
+      "ticker": "CDNL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-17"
+    },
+    {
+      "title": "Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/08/17/cardinal-infrastructure-group-nasdaqcdnl-coo-acquires-25700-shares-of-stock.html",
+      "ticker": "CDNL",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-08-17"
+    },
+    {
       "title": "Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) ",
       "url": "https://www.tickerreport.com/banking-finance/13545867/comparing-evolent-health-nyseevh-goodrx-nasdaqgdrx.html",
       "ticker": "GDRX",
-      "themes": [],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "S Inc . Takes Position in Everpure , Inc . $P",
-      "url": "https://www.themarketsdaily.com/2026/08/16/sco-inc-takes-position-in-everpure-inc-p.html",
-      "ticker": "P",
       "themes": [],
       "date": "2026-08-16"
     },
@@ -1449,11 +1489,83 @@
       "date": "2026-08-16"
     },
     {
-      "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
-      "url": "https://www.el-balad.com/17041443",
-      "ticker": "P",
+      "title": "Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . ",
+      "url": "https://www.themarketsdaily.com/2026/08/15/axon-enterprise-inc-axon-shares-acquired-by-oppenheimer-asset-management-inc.html",
+      "ticker": "AXON",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON",
+      "url": "https://www.tickerreport.com/banking-finance/13544668/principal-financial-group-inc-buys-82765-shares-of-axon-enterprise-inc-axon.html",
+      "ticker": "AXON",
       "themes": [
         "stock"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON",
+      "url": "https://www.tickerreport.com/banking-finance/13543951/fortis-group-advisors-llc-invests-1-75-million-in-axon-enterprise-inc-axon.html",
+      "ticker": "AXON",
+      "themes": [],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON",
+      "url": "https://www.themarketsdaily.com/2026/08/15/d-a-davidson-co-boosts-stake-in-axon-enterprise-inc-axon.html",
+      "ticker": "AXON",
+      "themes": [],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge",
+      "url": "http://www.prnewswire.com/news-releases/hagens-berman-national-securities-law-firm-announces-investigation-into-cardinal-infrastructure-group-inc-nasdaq-cdnl-following-post-offering-stock-plunge-302852088.html",
+      "ticker": "CDNL",
+      "themes": [
+        "legal",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Cardinal Infrastructure Group Q2 Earnings Call Highlights",
+      "url": "https://www.themarketsdaily.com/2026/08/14/cardinal-infrastructure-group-q2-earnings-call-highlights.html",
+      "ticker": "CDNL",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "JFrog ( FROG ) Q2 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-q2-2026-earnings-222818728.html",
+      "ticker": "FROG",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "JFrog ( FROG ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/jfrog-frog-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "FROG",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-raises-2026-revenue-125307262.html",
+      "ticker": "CDNL",
+      "themes": [
+        "earnings",
+        "ai"
       ],
       "date": "2026-08-13"
     },
@@ -1465,6 +1577,13 @@
         "stock"
       ],
       "date": "2026-08-11"
+    },
+    {
+      "title": "Reviewing Comfort Systems united states ( NYSE : FIX ) and Cardinal Infrastructure Group ( NASDAQ : CDNL ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/07/reviewing-comfort-systems-usa-nysefix-and-cardinal-infrastructure-group-nasdaqcdnl.html",
+      "ticker": "CDNL",
+      "themes": [],
+      "date": "2026-08-07"
     }
   ],
   "signals_count": 1693,
