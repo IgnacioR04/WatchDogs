@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-18T11:03:43+00:00 -->
+<!-- trader_prompt.md generado 2026-08-18T11:57:01+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T11:03:43+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T11:57:01+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.83)
+- Volatilidad: `normal` (VIX 15.74)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.53)
@@ -257,24 +257,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
-| FWONK | 6.1% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
-| BEKE | 4.7% | satellite | 17.01 | 0.29% | 0.53% | -2.58% |
-| LTH | 4.6% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| DKL | 3.8% | satellite | 54.01 | 3.27% | -8.3% | -1.91% |
-| PCTY | 3.3% | satellite | 148.28 | -2.9% | -2.12% | 16.88% |
-| PTC | 3.2% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
-| CHRW | 3.1% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| GSHD | 2.0% | satellite | 66.29 | -1.65% | -0.56% | 20.16% |
-| CDNL | 1.7% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
-| BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
+| FWONK | 6.1% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| LTH | 4.7% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| BEKE | 4.7% | satellite | 17.01 | 0.29% | -0.18% | -0.12% |
+| DKL | 3.9% | satellite | 54.01 | 3.27% | -4.83% | -2.35% |
+| PCTY | 3.3% | satellite | 148.28 | -2.9% | -1.42% | 20.43% |
+| PTC | 3.2% | satellite | 149.75 | -2.69% | 1.38% | 22.23% |
+| CHRW | 3.1% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| GSHD | 2.2% | satellite | 66.29 | -1.65% | 1.67% | 28.34% |
+| CDNL | 1.3% | satellite | 39.42 | 13.73% | -38.41% | -43.46% |
+| BFLY | 1.1% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.0%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Volatilidad anualizada: 9.5%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
 - Max drawdown historico: -2.3%
-- Beta vs SPY: 0.468 · posiciones efectivas: 14.5 · HHI: 0.0691
+- Beta vs SPY: 0.498 · posiciones efectivas: 14.5 · HHI: 0.0692
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -336,10 +336,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 15.83 (11.09% / 2.39% / -15.12%) [2026-08-18]
-- BTC-USD: 64194.44 (-0.48% / 1.25% / 0.45%) [2026-08-18]
+- ^VIX: 15.74 (10.46% / 1.81% / 0.45%) [2026-08-18]
+- BTC-USD: 64284.73 (-0.34% / 1.39% / 0.59%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), merger (3), regulatory (3), earnings (3), leadership (1), legal (1)
+**Temas dominantes**: stock (6), merger (3), earnings (3), regulatory (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [ACN] Commerzbank Aktiengesellschaft FI Acquires Shares of 89 , 866 Accenture PLC $ACN (2026-08-18)
+- [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
+- [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
 - [ACN] Accenture CEO Julie Sweet has a vacation request for employees : Asks them to focus on work as company pushes for stronger Q4 results (2026-08-18)
 - [ACN] Origin Energy hack traced to Accenture Manila call centre (2026-08-18)
-- [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
-- [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
-- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
-- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
-- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
-- [CDNL] Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales (2026-08-13)
-- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
+- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
+- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
+- [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
+- [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
+- [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -385,8 +385,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
 - SDTrading · PnL $51,569 · win rate 93% · categorias: sports
 - monkeymashingkeyboard · PnL $39,069 · win rate 91% · categorias: sports
-- 111111111115 · PnL $28,077 · win rate 93% · categorias: sports
 - kingflop · PnL $28,954 · win rate 92% · categorias: sports
+- jarosbill · PnL $28,482 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
