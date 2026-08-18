@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-18T03:26:02+00:00 -->
+<!-- trader_prompt.md generado 2026-08-18T04:11:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T03:26:02+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T04:11:53+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,7 +241,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.19)
-- Tendencia: `bull` (SPY 772.67 · MA50 748.9 · MA200 703.21 · dist MA200: 9.88%)
+- Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
@@ -253,28 +253,28 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 772.67 | -0.47% | -0.05% | 4.12% |
-| QQQ | 12.0% | core | 729.87 | -0.16% | 1.25% | 4.86% |
-| TLT | 12.0% | core | 81.35 | -0.84% | -0.87% | -2.64% |
-| GLD | 9.3% | core | 405.49 | 1.0% | 0.73% | 10.31% |
-| IEF | 6.2% | core | 92.84 | -0.21% | 0.09% | -0.41% |
-| RPRX | 5.9% | satellite | 59.45 | 1.45% | 2.97% | 4.18% |
-| FWONK | 5.7% | satellite | 101.98 | -1.85% | -0.85% | -0.22% |
-| LTH | 4.4% | satellite | 45.34 | 0.18% | 6.78% | 6.66% |
-| DKL | 3.8% | satellite | 53.77 | -0.44% | -5.25% | -0.14% |
-| PTC | 3.2% | satellite | 145.98 | -2.52% | -3.34% | 16.94% |
-| PCTY | 3.1% | satellite | 145.47 | -1.9% | -3.29% | 15.45% |
-| CHRW | 2.9% | satellite | 144.78 | -2.55% | -2.37% | -29.65% |
-| GSHD | 1.9% | satellite | 64.4 | -2.85% | -1.23% | 18.64% |
-| CDNL | 1.6% | satellite | 39.23 | -0.48% | -34.62% | -43.35% |
-| BFLY | 1.0% | satellite | 9.02 | 2.04% | -7.01% | 34.83% |
+| SPY | 12.0% | core | 776.34 | -0.2% | 0.4% | 4.45% |
+| QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
+| TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
+| GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
+| RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 1.13% |
+| FWONK | 5.8% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
+| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| DKL | 3.8% | satellite | 54.01 | 3.27% | -4.83% | 0.3% |
+| PTC | 3.3% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
+| PCTY | 3.2% | satellite | 148.28 | -2.9% | -1.42% | 17.68% |
+| CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
+| GSHD | 1.9% | satellite | 66.29 | -1.65% | 1.67% | 22.13% |
+| CDNL | 1.2% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
+| BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.5%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.0%
-- Beta vs SPY: 0.447 · posiciones efectivas: 14.4 · HHI: 0.0694
+- Volatilidad anualizada: 8.6%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -2.1%
+- Beta vs SPY: 0.453 · posiciones efectivas: 14.4 · HHI: 0.0696
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -331,15 +331,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 772.67 (-0.47% / -0.05% / 4.12%) [2026-08-17]
-- QQQ: 729.87 (-0.16% / 1.25% / 4.86%) [2026-08-17]
-- IWM: 304.06 (-0.34% / 1.36% / 4.02%) [2026-08-17]
-- DIA: 534.19 (-0.49% / -0.89% / 3.14%) [2026-08-17]
-- TLT: 81.35 (-0.84% / -0.87% / -2.64%) [2026-08-17]
-- IEF: 92.84 (-0.21% / 0.09% / -0.41%) [2026-08-17]
-- GLD: 405.49 (1.0% / 0.73% / 10.31%) [2026-08-17]
-- ^VIX: 15.19 (6.6% / -1.75% / -18.55%) [2026-08-17]
-- BTC-USD: 64071.08 (1.99% / 1.05% / 0.31%) [2026-08-18]
+- SPY: 776.34 (-0.2% / 0.4% / 4.45%) [2026-08-14]
+- QQQ: 731.07 (-0.14% / 1.11% / 5.14%) [2026-08-14]
+- IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
+- DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
+- TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
+- GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
+- ^VIX: 15.19 (6.6% / -1.75% / -3.06%) [2026-08-17]
+- BTC-USD: 64067.41 (1.99% / 1.05% / 0.31%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (5), merger (3), regulatory (3), ai (2), legal (1)
+**Temas dominantes**: stock (8), earnings (5), merger (3), regulatory (3), ai (2), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
 - [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
+- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
+- [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
+- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
 - [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
 - [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
 - [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
-- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
-- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
