@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-18T21:54:05.705835+00:00",
+  "generated_at": "2026-08-18T22:59:21.442901+00:00",
   "window": {
     "from": "2026-07-19",
     "to": "2026-08-18",
@@ -23,11 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
       "ai",
       "legal",
-      "leadership",
-      "regulatory"
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -500,17 +498,17 @@
         ]
       },
       {
-        "ticker": "ADBT",
-        "company": "Advasa Holdings, Inc.",
-        "pressure_score": 208.5,
+        "ticker": "LTGO",
+        "company": "Latigo Biotherapeutics, Inc.",
+        "pressure_score": 210.0,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "SNSC",
-        "company": "SunScout Holding Ltd",
-        "pressure_score": 207.0,
+        "ticker": "ADBT",
+        "company": "Advasa Holdings, Inc.",
+        "pressure_score": 208.5,
         "sources": [
           "large_holder"
         ]
@@ -553,7 +551,7 @@
       {
         "ticker": "NBIS",
         "company": "Nebius Group N.V.",
-        "pressure_score": 802.5,
+        "pressure_score": 1242.4,
         "sources": [
           "corporate_insider"
         ]
@@ -573,6 +571,14 @@
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "LIFE",
+        "company": "Ethos Technologies Inc.",
+        "pressure_score": 730.2,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -609,11 +615,12 @@
         ]
       },
       {
-        "ticker": "LSCC",
-        "company": "LATTICE SEMICONDUCTOR CORP",
-        "pressure_score": 358.0,
+        "ticker": "CBRS",
+        "company": "Cerebras Systems, Inc.",
+        "pressure_score": 370.4,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -631,18 +638,19 @@
         "sources": [
           "congress"
         ]
-      },
-      {
-        "ticker": "XMTR",
-        "company": "Xometry, Inc.",
-        "pressure_score": 347.2,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc.",
+      "actor": "Sousa Mauad Bruno",
+      "actor_type": "director",
+      "amount": 868230.0,
+      "date": "2026-08-17",
+      "score": 77.0
+    },
     {
       "ticker": "VRCA",
       "company": "Verrica Pharmaceuticals Inc.",
@@ -767,15 +775,6 @@
       "actor_type": "insider",
       "amount": 94272.84,
       "date": "2026-08-18",
-      "score": 71.0
-    },
-    {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 94016.0,
-      "date": "2026-08-17",
       "score": 71.0
     }
   ],
@@ -1121,6 +1120,15 @@
       "date": "2026-08-14"
     },
     {
+      "filer": "TPG GP A, LLC",
+      "company": "TPG Inc.",
+      "ticker": "",
+      "ownership_pct": 55.8,
+      "shares": 210848910,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-18"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1209,15 +1217,6 @@
       "shares": 16270715,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-08-14"
-    },
-    {
-      "filer": "Audax Institutional Feeder, LP",
-      "company": "Audax Private Credit Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 29.4,
-      "shares": 7241215,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-14"
     }
   ],
   "polymarket": {
@@ -1235,7 +1234,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 52460.57,
+        "pnl": 51934.82,
         "win_rate": 0.9333,
         "volume": 73946.04,
         "categories": [
@@ -1245,9 +1244,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 20657.12,
+        "pnl": 24297.53,
         "win_rate": 0.973,
-        "volume": 236116.59,
+        "volume": 245139.17,
         "categories": [
           "sports",
           "crypto",
@@ -1255,11 +1254,21 @@
         ]
       },
       {
+        "wallet": "0xe954ddb021",
+        "username": "kingflop",
+        "pnl": 41268.97,
+        "win_rate": 0.9211,
+        "volume": 114667.45,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 39608.59,
+        "pnl": 39715.29,
         "win_rate": 0.9057,
-        "volume": 56733.42,
+        "volume": 65762.82,
         "categories": [
           "sports"
         ]
@@ -1267,7 +1276,7 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 28812.83,
+        "pnl": 29081.62,
         "win_rate": 0.9153,
         "volume": 143218.59,
         "categories": [
@@ -1276,11 +1285,11 @@
         ]
       },
       {
-        "wallet": "0xe954ddb021",
-        "username": "kingflop",
-        "pnl": 26815.05,
-        "win_rate": 0.9204,
-        "volume": 114667.45,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 24261.21,
+        "win_rate": 0.897,
+        "volume": 184608.98,
         "categories": [
           "sports"
         ]
@@ -1288,7 +1297,7 @@
       {
         "wallet": "0xcf609d3256",
         "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 40583.0,
+        "pnl": 40658.0,
         "win_rate": 0.853,
         "volume": 213669.94,
         "categories": [
@@ -1306,23 +1315,14 @@
         ]
       },
       {
-        "wallet": "0x59018ff1f4",
-        "username": "kamloic",
-        "pnl": 25284.22,
-        "win_rate": 0.8671,
-        "volume": 118200.63,
+        "wallet": "0xf377b9fb12",
+        "username": "danielwolfmorales3pddb6dl6",
+        "pnl": 35097.12,
+        "win_rate": 0.8459,
+        "volume": 295293.97,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf5fe759cec",
-        "username": "Stavenson",
-        "pnl": 19385.62,
-        "win_rate": 0.87,
-        "volume": 75726.99,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ],
@@ -1330,9 +1330,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 47012.48,
-        "win_rate": 0.599,
-        "volume": 5541446.29,
+        "pnl": 28814.71,
+        "win_rate": 0.596,
+        "volume": 6050288.61,
         "categories": [
           "sports"
         ]
@@ -1340,9 +1340,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 204785.95,
+        "pnl": 249664.89,
         "win_rate": 0.649,
-        "volume": 1304994.34,
+        "volume": 1456849.69,
         "categories": [
           "sports",
           "crypto"
@@ -1351,9 +1351,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 142715.22,
-        "win_rate": 0.549,
-        "volume": 2144700.04,
+        "pnl": 147872.07,
+        "win_rate": 0.547,
+        "volume": 2362397.97,
         "categories": [
           "sports"
         ]
@@ -1361,9 +1361,9 @@
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 106975.54,
-        "win_rate": 0.574,
-        "volume": 2807237.05,
+        "pnl": 122326.86,
+        "win_rate": 0.569,
+        "volume": 2858114.12,
         "categories": [
           "sports"
         ]
@@ -1381,9 +1381,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 65223.25,
-        "win_rate": 0.722,
-        "volume": 1285314.55,
+        "pnl": 65657.26,
+        "win_rate": 0.723,
+        "volume": 1382422.47,
         "categories": [
           "sports",
           "economy",
@@ -1393,9 +1393,9 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 65643.92,
-        "win_rate": 0.663,
-        "volume": 1792030.12,
+        "pnl": 109948.49,
+        "win_rate": 0.665,
+        "volume": 1873361.1,
         "categories": [
           "sports"
         ]
@@ -1403,24 +1403,12 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 71356.02,
+        "pnl": 70721.97,
         "win_rate": 0.534,
-        "volume": 258538.79,
+        "volume": 280241.14,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0xd5ccdf772f",
-        "username": "tsybka",
-        "pnl": 16919.48,
-        "win_rate": 0.8392,
-        "volume": 262400.27,
-        "categories": [
-          "politics",
-          "crypto",
-          "sports"
         ]
       },
       {
@@ -1429,6 +1417,16 @@
         "pnl": 46340.87,
         "win_rate": 0.5,
         "volume": 181143.9,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 100356.12,
+        "win_rate": 0.663,
+        "volume": 330792.95,
         "categories": [
           "sports"
         ]
@@ -1448,13 +1446,6 @@
       "date": "2026-08-18"
     },
     {
-      "title": "Tandem Diabetes Care Maps Growth Plan With Pharmacy Shift and Tubeless Mobi",
-      "url": "https://finance.yahoo.com/healthcare/articles/tandem-diabetes-care-maps-growth-060200451.html",
-      "ticker": "TNDM",
-      "themes": [],
-      "date": "2026-08-18"
-    },
-    {
       "title": "Hims & Hers Health ( NYSE : HIMS ) Raised to  Hold  at Wall Street Zen",
       "url": "https://www.tickerreport.com/banking-finance/13546308/hims-hers-health-nysehims-raised-to-hold-at-wall-street-zen.html",
       "ticker": "HIMS",
@@ -1462,52 +1453,9 @@
         "ai"
       ],
       "date": "2026-08-17"
-    },
-    {
-      "title": "Tandem Diabetes ( TNDM ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/tandem-diabetes-tndm-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "TNDM",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Western Alliance Bancorporation ( NYSE : WAL ) Coverage Initiated at Wells Fargo & Company",
-      "url": "https://www.dailypolitical.com/2026/08/10/western-alliance-bancorporation-nysewal-coverage-initiated-at-wells-fargo-company.html",
-      "ticker": "WAL",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "FinancialContent - Tandem Diabetes ( NASDAQ : TNDM ) Q2 CY2026 Earnings Results : Revenue In Line With Expectations",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-6-tandem-diabetess-nasdaqtndm-q2-cy2026-earnings-results-revenue-in-line-with-expectations",
-      "ticker": "TNDM",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Brokerages Set Tandem Diabetes Care , Inc . ( NASDAQ : TNDM ) Target Price at $28 . 73",
-      "url": "https://www.themarketsdaily.com/2026/08/06/brokerages-set-tandem-diabetes-care-inc-nasdaqtndm-target-price-at-28-73.html",
-      "ticker": "TNDM",
-      "themes": [],
-      "date": "2026-08-06"
-    },
-    {
-      "title": "FinancialContent - Tandem Diabetes Earnings : What To Look For From TNDM",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-tandem-diabetes-earnings-what-to-look-for-from-tndm",
-      "ticker": "TNDM",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-05"
     }
   ],
-  "signals_count": 1860,
+  "signals_count": 1891,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
