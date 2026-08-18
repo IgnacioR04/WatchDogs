@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T07:21:06+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T08:12:14+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,13 +8,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.25)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.93)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
 - IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
-- BTC-USD: 64283.32 (-0.35% / 1.39% / 0.59%) [2026-08-18]
+- ^VIX: 15.93 (11.79% / 3.04% / 1.66%) [2026-08-18]
+- BTC-USD: 64050.28 (-0.71% / 1.02% / 0.22%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (4), merger (2), legal (1), regulatory (1), ai (1)
+**Temas dominantes**: stock (4), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
 - [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
-- [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
-- [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
 - [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
-- [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
-- [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
-- [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
+- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [GDRX] Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,8 +149,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $131,059 · win rate 88% · categorias: sports
-- SDTrading · PnL $51,338 · win rate 93% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
+- SDTrading · PnL $51,325 · win rate 93% · categorias: sports
 - monkeymashingkeyboard · PnL $38,977 · win rate 91% · categorias: sports
 - kingflop · PnL $28,836 · win rate 93% · categorias: sports
 - jarosbill · PnL $28,482 · win rate 87% · categorias: sports
@@ -178,7 +176,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
