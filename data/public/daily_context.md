@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T04:11:53+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T05:09:23+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,13 +8,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.19)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `calm` (VIX 14.25)
 - Tendencia: `bull` (SPY 776.34 · MA50 748.54 · MA200 702.75 · dist MA200: 10.47%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -26,24 +26,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
 | RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 1.13% |
-| FWONK | 5.8% | satellite | 103.9 | 0.2% | 1.02% | 1.66% |
-| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
-| DKL | 3.8% | satellite | 54.01 | 3.27% | -4.83% | 0.3% |
-| PTC | 3.3% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
-| PCTY | 3.2% | satellite | 148.28 | -2.9% | -1.42% | 17.68% |
+| FWONK | 5.7% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
+| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
+| DKL | 3.8% | satellite | 54.01 | 3.27% | -8.3% | -1.91% |
+| PTC | 3.2% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
+| PCTY | 3.1% | satellite | 148.28 | -2.9% | -2.12% | 16.88% |
 | CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| GSHD | 1.9% | satellite | 66.29 | -1.65% | 1.67% | 22.13% |
-| CDNL | 1.2% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
+| GSHD | 1.9% | satellite | 66.29 | -1.65% | -0.56% | 20.16% |
+| CDNL | 1.6% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
 | BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.6%
+- Volatilidad anualizada: 8.5%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.1%
-- Beta vs SPY: 0.453 · posiciones efectivas: 14.4 · HHI: 0.0696
+- Max drawdown historico: -2.0%
+- Beta vs SPY: 0.444 · posiciones efectivas: 14.4 · HHI: 0.0694
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -105,10 +105,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 15.19 (6.6% / -1.75% / -3.06%) [2026-08-17]
-- BTC-USD: 64067.41 (1.99% / 1.05% / 0.31%) [2026-08-18]
+- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
+- BTC-USD: 64182.78 (2.17% / 1.23% / 0.49%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (5), merger (3), regulatory (3), ai (2), legal (1)
+**Temas dominantes**: stock (5), earnings (2), merger (1), legal (1), regulatory (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
 - [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
 - [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
-- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
-- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [AXON] Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . (2026-08-15)
-- [AXON] Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON (2026-08-15)
-- [AXON] Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON (2026-08-15)
-- [AXON] D . A . Davidson & CO . Boosts Stake in Axon Enterprise , Inc $AXON (2026-08-15)
+- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
+- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
+- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
+- [CDNL] Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales (2026-08-13)
+- [CDNL] Reviewing Comfort Systems united states ( NYSE : FIX ) and Cardinal Infrastructure Group ( NASDAQ : CDNL ) (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +150,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $50,821 · win rate 93% · categorias: sports
-- kingflop · PnL $23,996 · win rate 92% · categorias: sports
-- monkeymashingkeyboard · PnL $25,110 · win rate 90% · categorias: sports
-- jarosbill · PnL $15,387 · win rate 87% · categorias: sports
-- Stavenson · PnL $11,073 · win rate 87% · categorias: sports
+- SDTrading · PnL $51,366 · win rate 93% · categorias: sports
+- kingflop · PnL $23,486 · win rate 92% · categorias: sports
+- monkeymashingkeyboard · PnL $25,730 · win rate 91% · categorias: sports
+- jarosbill · PnL $28,482 · win rate 87% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $10,930 · win rate 91% · categorias: sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -178,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`BFLY, CDNL, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, PTC, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
