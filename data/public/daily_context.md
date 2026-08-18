@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T23:01:36+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T23:51:31+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,29 +25,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 767.45 | -0.68% | -0.4% | 2.56% |
 | QQQ | 12.0% | core | 717.51 | -1.69% | -0.13% | 1.2% |
 | TLT | 12.0% | core | 81.66 | 0.38% | -0.64% | -2.0% |
-| FWONK | 10.2% | satellite | 102.02 | 0.04% | -0.69% | 2.84% |
+| FWONK | 11.4% | satellite | 102.02 | 0.04% | -0.35% | 4.19% |
 | GLD | 9.3% | core | 398.55 | -1.71% | -0.6% | 6.33% |
-| LTH | 7.8% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
+| LTH | 8.5% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
 | IEF | 6.2% | core | 92.93 | 0.1% | 0.06% | -0.07% |
-| PCTY | 5.5% | satellite | 147.32 | 1.27% | 1.15% | 15.74% |
-| CHRW | 5.1% | satellite | 144.67 | -0.08% | -0.3% | -30.92% |
-| AMBQ | 2.9% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
-| CBRS | 1.9% | satellite | 220.01 | -12.69% | -6.28% | 5.48% |
+| CHRW | 5.7% | satellite | 144.67 | -0.08% | -0.3% | -30.92% |
+| AMBQ | 3.2% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
+| CRWV | 2.6% | satellite | 93.17 | -12.1% | 3.16% | 17.08% |
+| CBRS | 2.1% | satellite | 220.01 | -12.69% | -6.28% | 5.48% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.8%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.608 · posiciones efectivas: 12.6 · HHI: 0.0792
+- Volatilidad anualizada: 13.1%
+- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -4.5%
+- Beta vs SPY: 0.753 · posiciones efectivas: 12.3 · HHI: 0.0813
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
+- **CRWV** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **AMBQ** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
@@ -65,12 +65,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GABC | 73 | corporate_insider | Bawel Zachary W | 4 | $20,000 | cluster_buy,small_amount |
 | EVLV | 72 | corporate_insider | Kuhl Henrik | 2 | $85,950 | cluster_buy |
 | VRCA | 72 | corporate_insider | Rosenberg Noah L. | 4 | $20,622 | cluster_buy,small_amount |
+| MLPT | 72 | corporate_insider | Catalyst4, Inc. | 0 | $50,072,000 | - |
 | ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | AMBQ | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | QDEL | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
-| PCTY | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | EVLV | 71 | corporate_insider | Glat Neil | 2 | $48,790 | cluster_buy |
-| SNBH | 71 | corporate_insider | Knazev Sergei | 2 | $6,562 | cluster_buy,small_amount |
+| VRCA | 70 | corporate_insider | Rosenberg Noah L. | 4 | $9,988 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.93 (0.1% / 0.06% / -0.07%) [2026-08-18]
 - GLD: 398.55 (-1.71% / -0.6% / 6.33%) [2026-08-18]
 - ^VIX: 15.84 (4.28% / 3.66% / -7.1%) [2026-08-18]
-- BTC-USD: 64594.96 (0.14% / 1.88% / 1.07%) [2026-08-18]
+- BTC-USD: 64721.11 (0.33% / 2.08% / 1.27%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,17 +115,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), legal (1), leadership (1)
+**Temas dominantes**: ai (2), legal (1), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [HIMS] Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI (2026-08-18)
 - [HIMS] Hims & Hers Health ( NYSE : HIMS ) Raised to  Hold  at Wall Street Zen (2026-08-17)
+- [GROV] Grove ( GROV ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [PCTY] Cyber Apps World ( OTCMKTS : CYAP ) & Paylocity ( NASDAQ : PCTY ) Head to Head Analysis (2026-08-11)
+- [PCTY] Recent Analyst Ratings Changes for Paylocity ( PCTY ) (2026-08-07)
+- [GROV] Critical Survey : Innovative Food ( OTCMKTS : IVFH ) versus Grove Collaborative ( NYSE : GROV ) (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Catalyst4, Inc. compro MLPT por $50.1M el 2026-08-14.
 - CEO Jonsson Patrik vendio LLY por $7.6M el 2026-08-17 [senal en multiples fuentes].
-- CEO SEENDRIPU KISHORE vendio MXL por $6.3M el 2026-08-17.
 - CEO Rice Toby Z. vendio EQT por $9.6M el 2026-08-14.
 - CEO Hollar Jason M. opero CAH por $24.3M el 2026-08-15.
 - CEO Bevirt JoeBen vendio JOBY por $4.7M el 2026-08-17.
@@ -136,10 +140,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
-- SDTrading · PnL $51,935 · win rate 93% · categorias: sports
-- comon119 · PnL $24,298 · win rate 97% · categorias: sports, crypto, politics
-- kingflop · PnL $41,269 · win rate 92% · categorias: sports
-- monkeymashingkeyboard · PnL $39,715 · win rate 91% · categorias: sports
+- SDTrading · PnL $48,328 · win rate 93% · categorias: sports
+- comon119 · PnL $20,889 · win rate 97% · categorias: sports, crypto, politics
+- monkeymashingkeyboard · PnL $41,319 · win rate 91% · categorias: sports
+- kingflop · PnL $32,720 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -147,7 +151,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 114 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 865 registros 30d · ultimo dato 2026-08-18
+- **sec_insiders**: `ok` · 874 registros 30d · ultimo dato 2026-08-18
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -161,7 +165,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMBQ, CBRS, CHRW, FWONK, GLD, IEF, LTH, PCTY, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMBQ, CBRS, CHRW, CRWV, FWONK, GLD, IEF, LTH, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
