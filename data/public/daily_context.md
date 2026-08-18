@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T05:09:23+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T06:02:59+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,24 +26,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 731.07 | -0.14% | 1.11% | 5.14% |
 | TLT | 12.0% | core | 82.04 | -0.67% | -0.87% | -2.54% |
 | GLD | 9.3% | core | 401.48 | 0.63% | 0.76% | 8.98% |
-| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.51% |
-| RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 1.13% |
-| FWONK | 5.7% | satellite | 103.9 | 0.2% | 4.22% | 4.17% |
-| LTH | 4.4% | satellite | 45.26 | 2.14% | 3.31% | 7.38% |
-| DKL | 3.8% | satellite | 54.01 | 3.27% | -8.3% | -1.91% |
-| PTC | 3.2% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
-| PCTY | 3.1% | satellite | 148.28 | -2.9% | -2.12% | 16.88% |
-| CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -28.74% |
-| GSHD | 1.9% | satellite | 66.29 | -1.65% | -0.56% | 20.16% |
-| CDNL | 1.6% | satellite | 39.42 | 13.73% | -38.41% | -44.66% |
+| IEF | 6.2% | core | 93.04 | -0.28% | -0.14% | -0.38% |
+| RPRX | 5.9% | satellite | 58.6 | 0.47% | 3.64% | 4.49% |
+| FWONK | 5.6% | satellite | 103.9 | 0.2% | 1.02% | 3.0% |
+| LTH | 4.5% | satellite | 45.26 | 2.14% | 3.31% | 8.88% |
+| DKL | 3.8% | satellite | 54.01 | 3.27% | -4.83% | -2.35% |
+| PTC | 3.4% | satellite | 149.75 | -2.69% | 1.38% | 20.41% |
+| PCTY | 3.2% | satellite | 148.28 | -2.9% | -1.42% | 17.68% |
+| CHRW | 2.9% | satellite | 148.57 | -0.52% | -0.52% | -25.57% |
+| GSHD | 2.0% | satellite | 66.29 | -1.65% | 1.67% | 28.34% |
+| CDNL | 1.3% | satellite | 39.42 | 13.73% | -38.41% | -43.46% |
 | BFLY | 1.0% | satellite | 8.84 | -0.23% | 0.11% | 33.53% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 8.5%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.0%
-- Beta vs SPY: 0.444 · posiciones efectivas: 14.4 · HHI: 0.0694
+- Max drawdown historico: -2.1%
+- Beta vs SPY: 0.444 · posiciones efectivas: 14.4 · HHI: 0.0695
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -105,10 +105,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 305.09 (0.52% / 1.17% / 3.76%) [2026-08-14]
 - DIA: 536.8 (-0.21% / -0.52% / 3.07%) [2026-08-14]
 - TLT: 82.04 (-0.67% / -0.87% / -2.54%) [2026-08-14]
-- IEF: 93.04 (-0.28% / -0.14% / -0.51%) [2026-08-14]
+- IEF: 93.04 (-0.28% / -0.14% / -0.38%) [2026-08-14]
 - GLD: 401.48 (0.63% / 0.76% / 8.98%) [2026-08-14]
-- ^VIX: 14.25 (-2.6% / -4.36% / -24.08%) [2026-08-14]
-- BTC-USD: 64182.78 (2.17% / 1.23% / 0.49%) [2026-08-18]
+- ^VIX: 14.25 (-2.6% / -4.36% / -13.64%) [2026-08-14]
+- BTC-USD: 64137.64 (2.1% / 1.16% / 0.42%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (2), merger (1), legal (1), regulatory (1), ai (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CDNL] Insider Buying : Cardinal Infrastructure Group ( NASDAQ : CDNL ) Director Purchases $1 , 251 , 880 . 00 in Stock (2026-08-17)
-- [CDNL] Cardinal Infrastructure Group ( NASDAQ : CDNL ) COO Acquires 25 , 700 Shares of Stock (2026-08-17)
-- [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
+- [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
-- [CDNL] HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Cardinal Infrastructure Group Inc . ( NASDAQ : CDNL ) Following Post - Offering Stock Plunge (2026-08-14)
-- [CDNL] Cardinal Infrastructure Group Q2 Earnings Call Highlights (2026-08-14)
+- [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
-- [CDNL] Cardinal Infrastructure raises 2026 revenue guidance after record Q2 sales (2026-08-13)
-- [CDNL] Reviewing Comfort Systems united states ( NYSE : FIX ) and Cardinal Infrastructure Group ( NASDAQ : CDNL ) (2026-08-07)
+- [GDRX] Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -150,11 +146,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $51,366 · win rate 93% · categorias: sports
-- kingflop · PnL $23,486 · win rate 92% · categorias: sports
-- monkeymashingkeyboard · PnL $25,730 · win rate 91% · categorias: sports
+- SDTrading · PnL $51,337 · win rate 93% · categorias: sports
+- kingflop · PnL $28,981 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $38,977 · win rate 91% · categorias: sports
+- 0xf3a1493c · PnL $8,048 · win rate 98% · categorias: sports
 - jarosbill · PnL $28,482 · win rate 87% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $10,930 · win rate 91% · categorias: sports, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
