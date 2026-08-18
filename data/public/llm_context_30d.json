@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-18T19:13:18.249019+00:00",
+  "generated_at": "2026-08-18T19:55:08.083280+00:00",
   "window": {
     "from": "2026-07-19",
     "to": "2026-08-18",
@@ -24,8 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
+      "ai",
       "earnings",
+      "merger",
       "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -443,14 +444,6 @@
         ]
       },
       {
-        "ticker": "DKL",
-        "company": "Delek Logistics Partners, LP",
-        "pressure_score": 297.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NRGV",
         "company": "Energy Vault Holdings, Inc.",
         "pressure_score": 285.5,
@@ -483,6 +476,14 @@
         ]
       },
       {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 271.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SNBH",
         "company": "SENTIENT BRANDS HOLDINGS INC.",
         "pressure_score": 261.4,
@@ -499,12 +500,11 @@
         ]
       },
       {
-        "ticker": "BORR",
-        "company": "Borr Drilling Ltd",
-        "pressure_score": 222.4,
+        "ticker": "DKL",
+        "company": "Delek Logistics Partners, LP",
+        "pressure_score": 223.4,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -545,22 +545,6 @@
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 717.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DDOG",
-        "company": "Datadog, Inc.",
-        "pressure_score": 690.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DYN",
-        "company": "Dyne Therapeutics, Inc.",
-        "pressure_score": 652.2,
         "sources": [
           "corporate_insider"
         ]
@@ -614,14 +598,6 @@
         ]
       },
       {
-        "ticker": "CUE",
-        "company": "Cue Biopharma, Inc.",
-        "pressure_score": 385.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "AIO",
         "company": "Virtus Artificial Intelligence & Technology Opportunities Fund",
         "pressure_score": 382.6,
@@ -630,9 +606,33 @@
         ]
       },
       {
-        "ticker": "QLYS",
-        "company": "QUALYS, INC.",
-        "pressure_score": 358.1,
+        "ticker": "BWA",
+        "company": "BORGWARNER INC",
+        "pressure_score": 370.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CPAY",
+        "company": "DC Corpay, Inc. Common Stock",
+        "pressure_score": 357.6,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "RYTM",
+        "company": "RHYTHM PHARMACEUTICALS, INC.",
+        "pressure_score": 347.9,
         "sources": [
           "corporate_insider"
         ]
@@ -648,15 +648,6 @@
       "amount": 1993790.5,
       "date": "2026-08-14",
       "score": 82.3
-    },
-    {
-      "ticker": "BORR",
-      "company": "Borr Drilling Ltd",
-      "actor": "Troim Tor Olav",
-      "actor_type": "director",
-      "amount": 2193400.0,
-      "date": "2026-08-14",
-      "score": 78.8
     },
     {
       "ticker": "ENHA",
@@ -758,15 +749,6 @@
       "score": 74.9
     },
     {
-      "ticker": "DKL",
-      "company": "Delek Logistics Partners, LP",
-      "actor": "Spiegel Reuven",
-      "actor_type": "ceo",
-      "amount": 50000.0,
-      "date": "2026-08-13",
-      "score": 74.3
-    },
-    {
       "ticker": "ACCS",
       "company": "ACCESS Newswire Inc.",
       "actor": "BALBIRNIE BRIAN R",
@@ -774,6 +756,24 @@
       "amount": 49500.0,
       "date": "2026-08-14",
       "score": 74.3
+    },
+    {
+      "ticker": "CMCL",
+      "company": "Caledonia Mining Corp Plc",
+      "actor": "Ndlovu July",
+      "actor_type": "director",
+      "amount": 492842.0,
+      "date": "2026-08-13",
+      "score": 74.3
+    },
+    {
+      "ticker": "SRI",
+      "company": "STONERIDGE INC",
+      "actor": "Humphrey Scott Randall",
+      "actor_type": "cfo",
+      "amount": 42060.0,
+      "date": "2026-08-18",
+      "score": 74.2
     }
   ],
   "institutional_changes": [
@@ -1232,7 +1232,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 52218.14,
+        "pnl": 52310.16,
         "win_rate": 0.9333,
         "volume": 73946.04,
         "categories": [
@@ -1240,21 +1240,21 @@
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 39260.14,
-        "win_rate": 0.9057,
-        "volume": 33475.49,
+        "wallet": "0xe954ddb021",
+        "username": "kingflop",
+        "pnl": 31446.6,
+        "win_rate": 0.9204,
+        "volume": 93284.91,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe954ddb021",
-        "username": "kingflop",
-        "pnl": 31389.32,
-        "win_rate": 0.9204,
-        "volume": 81135.81,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 39262.84,
+        "win_rate": 0.9057,
+        "volume": 34016.93,
         "categories": [
           "sports"
         ]
@@ -1273,7 +1273,7 @@
       {
         "wallet": "0xcf609d3256",
         "username": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
-        "pnl": 40658.0,
+        "pnl": 40583.0,
         "win_rate": 0.853,
         "volume": 213669.94,
         "categories": [
@@ -1303,7 +1303,7 @@
       {
         "wallet": "0xf5fe759cec",
         "username": "Stavenson",
-        "pnl": 19212.16,
+        "pnl": 19559.08,
         "win_rate": 0.8699,
         "volume": 75726.99,
         "categories": [
@@ -1313,7 +1313,7 @@
       {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 25289.87,
+        "pnl": 26112.12,
         "win_rate": 0.8454,
         "volume": 295293.97,
         "categories": [
@@ -1326,9 +1326,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 92816.13,
-        "win_rate": 0.614,
-        "volume": 4243997.81,
+        "pnl": 75878.44,
+        "win_rate": 0.606,
+        "volume": 4617609.84,
         "categories": [
           "sports"
         ]
@@ -1336,9 +1336,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 213585.54,
+        "pnl": 212497.19,
         "win_rate": 0.649,
-        "volume": 1177899.32,
+        "volume": 1246530.29,
         "categories": [
           "sports",
           "crypto"
@@ -1347,9 +1347,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 136583.96,
+        "pnl": 137978.2,
         "win_rate": 0.551,
-        "volume": 1894542.71,
+        "volume": 1954130.66,
         "categories": [
           "sports"
         ]
@@ -1367,9 +1367,9 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 93093.14,
-        "win_rate": 0.722,
-        "volume": 1074014.32,
+        "pnl": 91092.03,
+        "win_rate": 0.721,
+        "volume": 1200613.84,
         "categories": [
           "sports",
           "economy",
@@ -1379,21 +1379,34 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 51053.64,
-        "win_rate": 0.54,
-        "volume": 808059.67,
+        "pnl": 57867.59,
+        "win_rate": 0.539,
+        "volume": 881219.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 13919.4,
-        "win_rate": 0.574,
-        "volume": 703871.28,
+        "wallet": "0xd5ccdf772f",
+        "username": "tsybka",
+        "pnl": 16756.22,
+        "win_rate": 0.8392,
+        "volume": 262400.27,
         "categories": [
+          "politics",
+          "crypto",
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 71443.0,
+        "win_rate": 0.534,
+        "volume": 217567.77,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1407,20 +1420,9 @@
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "Lakersfan111",
-        "pnl": 71490.21,
-        "win_rate": 0.534,
-        "volume": 207072.73,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xf377b9fb12",
         "username": "danielwolfmorales3pddb6dl6",
-        "pnl": 25289.87,
+        "pnl": 26112.12,
         "win_rate": 0.8454,
         "volume": 295293.97,
         "categories": [
@@ -1432,6 +1434,31 @@
   },
   "news": [
     {
+      "title": "GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/18/goodrx-nasdaqgdrx-upgraded-at-wall-street-zen.html",
+      "ticker": "GDRX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13545867/comparing-evolent-health-nyseevh-goodrx-nasdaqgdrx.html",
+      "ticker": "GDRX",
+      "themes": [],
+      "date": "2026-08-16"
+    },
+    {
+      "title": "United Super Pty Ltd in its capacity as Trustee for the Construction & Building Unions Superannuation Fund Cuts Stock Holdings in Nebius Group N . V . $NBIS",
+      "url": "https://www.tickerreport.com/banking-finance/13545873/united-super-pty-ltd-in-its-capacity-as-trustee-for-the-construction-building-unions-superannuation-fund-cuts-stock-holdings-in-nebius-group-n-v-nbis.html",
+      "ticker": "NBIS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-16"
+    },
+    {
       "title": "S Inc . Takes Position in Everpure , Inc . $P",
       "url": "https://www.themarketsdaily.com/2026/08/16/sco-inc-takes-position-in-everpure-inc-p.html",
       "ticker": "P",
@@ -1439,30 +1466,36 @@
       "date": "2026-08-16"
     },
     {
-      "title": "Axon Enterprise , Inc $AXON Shares Acquired by Oppenheimer Asset Management Inc . ",
-      "url": "https://www.themarketsdaily.com/2026/08/15/axon-enterprise-inc-axon-shares-acquired-by-oppenheimer-asset-management-inc.html",
-      "ticker": "AXON",
-      "themes": [
-        "merger",
-        "stock"
-      ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Principal Financial Group Inc . Buys 82 , 765 Shares of Axon Enterprise , Inc $AXON",
-      "url": "https://www.tickerreport.com/banking-finance/13544668/principal-financial-group-inc-buys-82765-shares-of-axon-enterprise-inc-axon.html",
-      "ticker": "AXON",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Fortis Group Advisors LLC Invests $1 . 75 Million in Axon Enterprise , Inc $AXON",
-      "url": "https://www.tickerreport.com/banking-finance/13543951/fortis-group-advisors-llc-invests-1-75-million-in-axon-enterprise-inc-axon.html",
-      "ticker": "AXON",
+      "title": "Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) ",
+      "url": "https://www.dailypolitical.com/2026/08/16/critical-survey-certara-nasdaqcert-vs-goodrx-nasdaqgdrx.html",
+      "ticker": "GDRX",
       "themes": [],
+      "date": "2026-08-16"
+    },
+    {
+      "title": "Oppenheimer Asset Management Inc . Sells 13 , 887 Shares of Nebius Group N . V . $NBIS",
+      "url": "https://www.dailypolitical.com/2026/08/15/oppenheimer-asset-management-inc-sells-13887-shares-of-nebius-group-n-v-nbis.html",
+      "ticker": "NBIS",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-08-15"
+    },
+    {
+      "title": "Baystreet . ca - Similarweb Gains on Q2 Figures",
+      "url": "http://baystreet.ca/articles/stockstowatch/123036/Similarweb-Gains-on-Q2-Figures",
+      "ticker": "SMWB",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Analyzing Nebius Group ( NASDAQ : NBIS ) and Accenture ( NYSE : ACN ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13543176/analyzing-nebius-group-nasdaqnbis-and-accenture-nyseacn.html",
+      "ticker": "NBIS",
+      "themes": [],
+      "date": "2026-08-14"
     },
     {
       "title": "Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday",
@@ -1472,6 +1505,15 @@
         "stock"
       ],
       "date": "2026-08-13"
+    },
+    {
+      "title": "Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price",
+      "url": "https://www.tickerreport.com/banking-finance/13538958/citigroup-issues-positive-forecast-for-goodrx-nasdaqgdrx-stock-price.html",
+      "ticker": "GDRX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-11"
     },
     {
       "title": "Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th",
@@ -1493,7 +1535,7 @@
       "date": "2026-08-05"
     }
   ],
-  "signals_count": 1689,
+  "signals_count": 1657,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
