@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-18T17:03:14+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
+_Generado 2026-08-18T17:59:27+00:00 · ventana señales 2026-07-19 -> 2026-08-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.69)
-- Tendencia: `bull` (SPY 768.55 · MA50 749.55 · MA200 703.64 · dist MA200: 9.23%)
+- Volatilidad: `normal` (VIX 15.71)
+- Tendencia: `bull` (SPY 767.79 · MA50 749.54 · MA200 703.64 · dist MA200: 9.12%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.53)
 - Fed Funds: 3.63%
@@ -22,32 +22,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 768.55 | -0.53% | -0.26% | 2.71% |
-| QQQ | 12.0% | core | 719.03 | -1.48% | 0.08% | 1.42% |
-| TLT | 12.0% | core | 81.63 | 0.34% | -0.68% | -2.03% |
-| GLD | 9.3% | core | 400.3 | -1.28% | -0.16% | 6.8% |
-| IEF | 6.2% | core | 92.94 | 0.11% | 0.08% | -0.05% |
-| FWONK | 6.0% | satellite | 102.29 | 0.3% | -0.09% | 4.47% |
-| BEKE | 4.5% | satellite | 16.94 | 0.56% | -0.09% | 2.26% |
-| LTH | 4.5% | satellite | 45.32 | -0.04% | 3.45% | 5.79% |
-| CE | 3.8% | satellite | 44.71 | -0.63% | -0.3% | -3.61% |
-| DKL | 3.8% | satellite | 53.51 | -0.48% | -8.56% | -1.27% |
-| PCTY | 3.2% | satellite | 149.05 | 2.46% | 2.76% | 20.32% |
-| CHRW | 3.0% | satellite | 145.77 | 0.68% | 0.46% | -30.39% |
-| GSHD | 2.0% | satellite | 66.35 | 3.03% | 1.59% | 23.44% |
-| ANGX | 1.8% | satellite | 5.03 | 6.79% | 31.33% | 16.44% |
-| BFLY | 1.0% | satellite | 8.85 | -1.83% | -5.5% | 29.84% |
+| SPY | 12.0% | core | 767.79 | -0.63% | -0.36% | 2.61% |
+| QQQ | 12.0% | core | 717.29 | -1.72% | -0.16% | 1.17% |
+| TLT | 12.0% | core | 81.68 | 0.41% | -0.62% | -1.97% |
+| GLD | 9.3% | core | 399.55 | -1.46% | -0.35% | 6.6% |
+| IEF | 6.2% | core | 92.96 | 0.13% | 0.1% | -0.03% |
+| RPRX | 5.4% | satellite | 59.84 | 0.66% | 3.96% | 2.84% |
+| FWONK | 5.2% | satellite | 102.38 | 0.39% | -0.35% | 3.2% |
+| BEKE | 4.1% | satellite | 16.93 | 0.5% | -4.05% | -0.21% |
+| LTH | 4.0% | satellite | 45.34 | 0.0% | 3.49% | 7.24% |
+| DKL | 3.3% | satellite | 53.7 | -0.13% | -9.44% | -0.94% |
+| CE | 3.2% | satellite | 44.58 | -0.91% | -0.58% | -3.88% |
+| PCTY | 2.9% | satellite | 149.15 | 2.53% | 2.4% | 17.17% |
+| CHRW | 2.7% | satellite | 145.5 | 0.5% | 0.28% | -30.52% |
+| GSHD | 1.8% | satellite | 65.98 | 2.45% | 2.22% | 15.29% |
+| BFLY | 0.9% | satellite | 8.77 | -2.77% | -6.4% | 28.59% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.5%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.3%
+- Volatilidad anualizada: 8.3%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.1%
 - Max drawdown historico: -2.6%
-- Beta vs SPY: 0.534 · posiciones efectivas: 14.5 · HHI: 0.0689
+- Beta vs SPY: 0.448 · posiciones efectivas: 14.5 · HHI: 0.0688
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **ANGX** · score agregado 319.7 · 4 señales · fuentes: corporate_insider
 - **DKL** · score agregado 317.5 · 4 señales · fuentes: corporate_insider
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **BFLY** · score agregado 201.9 · 3 señales · fuentes: corporate_insider, large_holder
@@ -57,6 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **CE** · score agregado 115.8 · 2 señales · fuentes: corporate_insider
 - **GSHD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PCTY** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 768.55 (-0.53% / -0.26% / 2.71%) [2026-08-18]
-- QQQ: 719.03 (-1.48% / 0.08% / 1.42%) [2026-08-18]
-- IWM: 300.98 (-1.01% / -0.0% / 1.5%) [2026-08-18]
-- DIA: 533.19 (-0.19% / -0.76% / 2.24%) [2026-08-18]
-- TLT: 81.63 (0.34% / -0.68% / -2.03%) [2026-08-18]
-- IEF: 92.94 (0.11% / 0.08% / -0.05%) [2026-08-18]
-- GLD: 400.3 (-1.28% / -0.16% / 6.8%) [2026-08-18]
-- ^VIX: 15.69 (3.29% / 2.68% / -7.98%) [2026-08-18]
-- BTC-USD: 64753.79 (0.38% / 2.13% / 1.32%) [2026-08-18]
+- SPY: 767.79 (-0.63% / -0.36% / 2.61%) [2026-08-18]
+- QQQ: 717.29 (-1.72% / -0.16% / 1.17%) [2026-08-18]
+- IWM: 300.43 (-1.19% / -0.19% / 1.31%) [2026-08-18]
+- DIA: 532.99 (-0.22% / -0.8% / 2.2%) [2026-08-18]
+- TLT: 81.68 (0.41% / -0.62% / -1.97%) [2026-08-18]
+- IEF: 92.96 (0.13% / 0.1% / -0.03%) [2026-08-18]
+- GLD: 399.55 (-1.46% / -0.35% / 6.6%) [2026-08-18]
+- ^VIX: 15.71 (3.42% / 2.81% / -7.86%) [2026-08-18]
+- BTC-USD: 64637.83 (0.2% / 1.95% / 1.14%) [2026-08-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,24 +123,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (3), merger (2), regulatory (2), leadership (1)
+**Temas dominantes**: stock (4), earnings (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ACN] Commerzbank Aktiengesellschaft FI Acquires Shares of 89 , 866 Accenture PLC $ACN (2026-08-18)
-- [FROG] JFrog Co - Founder Sells 45 , 000 Shares Worth $4 . 1 Million . Here What That Means for Investors . (2026-08-18)
 - [GDRX] GoodRx ( NASDAQ : GDRX ) Upgraded at Wall Street Zen (2026-08-18)
-- [ACN] Accenture CEO Julie Sweet has a vacation request for employees : Asks them to focus on work as company pushes for stronger Q4 results (2026-08-18)
 - [DDOG] Datadog ( NASDAQ : DDOG ) Director Matthew Jacobson Sells 39 , 912 Shares (2026-08-17)
 - [GDRX] Comparing Evolent Health ( NYSE : EVH ) & GoodRx ( NASDAQ : GDRX ) (2026-08-16)
 - [P] S Inc . Takes Position in Everpure , Inc . $P (2026-08-16)
 - [GDRX] Critical Survey : Certara ( NASDAQ : CERT ) vs . GoodRx ( NASDAQ : GDRX ) (2026-08-16)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
-- [FROG] JFrog ( FROG ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [P] Everpure Climbs 9 . 7 % on Susquehanna Upgrade Yesterday (2026-08-13)
+- [GDRX] Citigroup Issues Positive Forecast for GoodRx ( NASDAQ : GDRX ) Stock Price (2026-08-11)
+- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
+- [WBS] Santander receives Fed approval for acquisition of Webster Financial Corporation (2026-08-05)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Gosin Barry M vendio NMRK por $54.0M el 2026-08-17.
 - CEO Seto Wai Yue compro TDIC por $1.2M el 2026-08-13 [senal en multiples fuentes].
 - CEO Coppetti Caspar Felix compro ONON por $2.0M el 2026-08-14.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
@@ -148,14 +146,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $130,589 · win rate 88% · categorias: sports
-- SDTrading · PnL $52,218 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $39,209 · win rate 91% · categorias: sports
-- kingflop · PnL $30,829 · win rate 92% · categorias: sports
-- 0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847 · PnL $41,089 · win rate 85% · categorias: sports
+- SDTrading · PnL $52,216 · win rate 93% · categorias: sports
+- kingflop · PnL $32,173 · win rate 92% · categorias: sports
+- monkeymashingkeyboard · PnL $39,240 · win rate 91% · categorias: sports
+- TAIWANNUMBERONE · PnL $22,030 · win rate 91% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -177,7 +176,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ANGX, BEKE, BFLY, CE, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BEKE, BFLY, CE, CHRW, DKL, FWONK, GLD, GSHD, IEF, LTH, PCTY, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
