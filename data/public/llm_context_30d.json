@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-19T15:12:43.118493+00:00",
+  "generated_at": "2026-08-19T16:03:22.252016+00:00",
   "window": {
     "from": "2026-07-20",
     "to": "2026-08-19",
@@ -22,7 +22,9 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "ai"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -494,17 +496,17 @@
         ]
       },
       {
-        "ticker": "ADBT",
-        "company": "Advasa Holdings, Inc.",
-        "pressure_score": 208.5,
+        "ticker": "ADMQ",
+        "company": "ADM ENDEAVORS, INC.",
+        "pressure_score": 208.6,
         "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
-        "ticker": "KPLT",
-        "company": "Katapult Holdings, Inc.",
-        "pressure_score": 207.0,
+        "ticker": "ADBT",
+        "company": "Advasa Holdings, Inc.",
+        "pressure_score": 208.5,
         "sources": [
           "large_holder"
         ]
@@ -563,28 +565,11 @@
         ]
       },
       {
-        "ticker": "NWS",
-        "company": "NEWS CORP",
-        "pressure_score": 493.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DK",
         "company": "Delek US Holdings, Inc.",
         "pressure_score": 456.5,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "AMBQ",
-        "company": "AMBIQ MICRO INC",
-        "pressure_score": 427.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -620,6 +605,14 @@
         ]
       },
       {
+        "ticker": "NWS",
+        "company": "NEWS CORP",
+        "pressure_score": 294.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ACHR",
         "company": "Archer Aviation Inc.",
         "pressure_score": 287.5,
@@ -631,6 +624,14 @@
         "ticker": "SIBN",
         "company": "SI-BONE, Inc.",
         "pressure_score": 274.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "STOK",
+        "company": "Stoke Therapeutics, Inc.",
+        "pressure_score": 260.8,
         "sources": [
           "corporate_insider"
         ]
@@ -729,15 +730,6 @@
       "score": 74.3
     },
     {
-      "ticker": "FTI",
-      "company": "TechnipFMC plc",
-      "actor": "Mullins Eric D.",
-      "actor_type": "director",
-      "amount": 499970.75,
-      "date": "2026-08-14",
-      "score": 74.3
-    },
-    {
       "ticker": "SRI",
       "company": "STONERIDGE INC",
       "actor": "Humphrey Scott Randall",
@@ -772,6 +764,15 @@
       "amount": 110300.0,
       "date": "2026-08-18",
       "score": 72.6
+    },
+    {
+      "ticker": "NRGV",
+      "company": "Energy Vault Holdings, Inc.",
+      "actor": "Hixon Dylan",
+      "actor_type": "director",
+      "amount": 106536.42,
+      "date": "2026-08-17",
+      "score": 72.5
     }
   ],
   "institutional_changes": [
@@ -1070,11 +1071,11 @@
       "score": 62.0
     },
     {
-      "politician": "Ed Case",
-      "ticker": "AAPL",
-      "direction": "buy",
+      "politician": "Kevin Hern",
+      "ticker": "OGN",
+      "direction": "sell",
       "amount": 15000,
-      "date": "2026-08-13",
+      "date": "2026-08-05",
       "score": 61.1
     }
   ],
@@ -1218,31 +1219,21 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xafe4272b4f",
-        "username": "QuentinChen",
-        "pnl": 12460.4,
-        "win_rate": 0.9559,
-        "volume": 21176.47,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 34811.53,
+        "win_rate": 0.9231,
+        "volume": 10893.68,
         "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 28042.56,
+        "pnl": 28622.51,
         "win_rate": 0.896,
-        "volume": 18430.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x161a7f666c",
-        "username": "torta.tech",
-        "pnl": 13986.24,
-        "win_rate": 0.943,
-        "volume": 75264.91,
+        "volume": 24369.98,
         "categories": [
           "sports"
         ]
@@ -1250,9 +1241,9 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 19829.96,
-        "win_rate": 0.9038,
-        "volume": 106412.16,
+        "pnl": 19924.61,
+        "win_rate": 0.9041,
+        "volume": 115155.06,
         "categories": [
           "sports",
           "crypto"
@@ -1271,9 +1262,9 @@
       {
         "wallet": "0x1ab3580b6d",
         "username": "Satisfied",
-        "pnl": 40060.96,
+        "pnl": 40154.12,
         "win_rate": 1.0,
-        "volume": 0.0,
+        "volume": 18634.51,
         "categories": [
           "sports"
         ]
@@ -1281,8 +1272,8 @@
       {
         "wallet": "0x165ed327dd",
         "username": "controls",
-        "pnl": 16136.47,
-        "win_rate": 0.8031,
+        "pnl": 16073.49,
+        "win_rate": 0.8034,
         "volume": 0.0,
         "categories": [
           "politics",
@@ -1293,8 +1284,8 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 45971.29,
-        "win_rate": 0.724,
+        "pnl": 45778.97,
+        "win_rate": 0.727,
         "volume": 159646.51,
         "categories": [
           "sports"
@@ -1303,20 +1294,30 @@
       {
         "wallet": "0x9703676286",
         "username": "AnonymousUsername",
-        "pnl": 20184.83,
-        "win_rate": 0.766,
-        "volume": 45086.92,
+        "pnl": 19997.85,
+        "win_rate": 0.765,
+        "volume": 65247.05,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
+        "wallet": "0xab444cf901",
+        "username": "solo88888",
+        "pnl": 19258.43,
+        "win_rate": 0.7673,
+        "volume": 97307.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x032eb1bc89",
         "username": "purplegatto",
-        "pnl": 19005.01,
+        "pnl": 17749.04,
         "win_rate": 0.77,
-        "volume": 84026.09,
+        "volume": 93311.13,
         "categories": [
           "sports",
           "politics"
@@ -1327,9 +1328,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 116349.36,
-        "win_rate": 0.623,
-        "volume": 3071003.32,
+        "pnl": 104787.48,
+        "win_rate": 0.621,
+        "volume": 3898913.64,
         "categories": [
           "sports"
         ]
@@ -1337,9 +1338,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 124010.01,
-        "win_rate": 0.534,
-        "volume": 599048.5,
+        "pnl": 129270.9,
+        "win_rate": 0.535,
+        "volume": 698332.08,
         "categories": [
           "sports",
           "politics"
@@ -1348,9 +1349,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 128680.09,
-        "win_rate": 0.542,
-        "volume": 1255053.82,
+        "pnl": 128178.24,
+        "win_rate": 0.544,
+        "volume": 1313761.73,
         "categories": [
           "sports"
         ]
@@ -1358,20 +1359,40 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 57335.73,
-        "win_rate": 0.651,
-        "volume": 482957.69,
+        "pnl": 60770.49,
+        "win_rate": 0.652,
+        "volume": 545084.21,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 25408.02,
+        "win_rate": 0.548,
+        "volume": 1330849.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc69bd5567b",
+        "username": "vtcchampion52",
+        "pnl": 30267.2,
+        "win_rate": 0.512,
+        "volume": 566126.66,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x011f2d377e",
         "username": "11122",
-        "pnl": 77919.06,
+        "pnl": 77108.19,
         "win_rate": 0.394,
-        "volume": 291572.2,
+        "volume": 302989.4,
         "categories": [
           "sports",
           "politics",
@@ -1379,11 +1400,11 @@
         ]
       },
       {
-        "wallet": "0xc69bd5567b",
-        "username": "vtcchampion52",
-        "pnl": 36960.87,
-        "win_rate": 0.51,
-        "volume": 388631.17,
+        "wallet": "0x1610db79f7",
+        "username": "0x1610DB79f753a80207E1d66716be9E91E627AE49-1778875286261",
+        "pnl": 24241.21,
+        "win_rate": 0.5597,
+        "volume": 148666.34,
         "categories": [
           "sports"
         ]
@@ -1391,19 +1412,9 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 32705.39,
+        "pnl": 20480.24,
         "win_rate": 0.663,
-        "volume": 563321.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3af1ed6ea3",
-        "username": "0x5fb6168aE589674AC569d52F934B37c14f34911",
-        "pnl": 29386.28,
-        "win_rate": 0.501,
-        "volume": 146595.06,
+        "volume": 660288.43,
         "categories": [
           "sports"
         ]
@@ -1411,27 +1422,57 @@
       {
         "wallet": "0x6f3e7f25ba",
         "username": "fRibrenlc",
-        "pnl": 36811.33,
+        "pnl": 35928.73,
         "win_rate": 0.506,
-        "volume": 171826.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf23c5bc7b5",
-        "username": "ChonkyChocolateCake",
-        "pnl": 34923.59,
-        "win_rate": 0.595,
-        "volume": 146015.74,
+        "volume": 239008.91,
         "categories": [
           "sports"
         ]
       }
     ]
   },
-  "news": [],
-  "signals_count": 1854,
+  "news": [
+    {
+      "title": "Uber ( UBER ) Bets On Drones As Its Delivery Engine Accelerates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-bets-drones-delivery-121042551.html",
+      "ticker": "UBER",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Uber adds Zipline drones to its Eats delivery network",
+      "url": "http://www.businessghana.com/site/news/Technology/354368/Uber-adds-Zipline-drones-to-its-Eats-delivery-network",
+      "ticker": "UBER",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Zipline and Uber Eats aiming to reach one million drone deliveries per day by the end of 2029",
+      "url": "https://www.freshplaza.com/north-america/article/9864134/zipline-and-uber-eats-aiming-to-reach-one-million-drone-deliveries-per-day-by-the-end-of-2029/",
+      "ticker": "UBER",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership",
+      "url": "https://www.zerohedge.com/political/uber-eyes-1-million-daily-drone-deliveries-zipline-partnership",
+      "ticker": "UBER",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Uber and Zipline partner on drone delivery",
+      "url": "https://www.just-auto.com/news/uber-and-zipline-partner-on-drone-delivery/",
+      "ticker": "UBER",
+      "themes": [],
+      "date": "2026-08-18"
+    }
+  ],
+  "signals_count": 1816,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
