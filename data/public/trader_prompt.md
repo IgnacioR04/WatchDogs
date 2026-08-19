@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-19T03:26:33+00:00 -->
+<!-- trader_prompt.md generado 2026-08-19T04:15:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T03:26:33+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T04:15:27+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,7 +241,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.84)
-- Tendencia: `bull` (SPY 767.45 · MA50 749.53 · MA200 703.64 · dist MA200: 9.07%)
+- Tendencia: `bull` (SPY 772.67 · MA50 748.9 · MA200 703.21 · dist MA200: 9.88%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.52)
 - Fed Funds: 3.63%
@@ -253,23 +253,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 767.45 | -0.68% | -0.4% | 2.56% |
-| QQQ | 12.0% | core | 717.51 | -1.69% | -0.13% | 1.2% |
+| SPY | 12.0% | core | 772.67 | -0.47% | -0.05% | 4.12% |
+| QQQ | 12.0% | core | 729.87 | -0.16% | 1.25% | 4.86% |
 | TLT | 12.0% | core | 81.66 | 0.38% | -0.64% | -2.0% |
-| FWONK | 11.8% | satellite | 102.02 | 0.04% | -0.35% | 4.19% |
-| GLD | 9.3% | core | 398.55 | -1.71% | -0.6% | 6.33% |
-| LTH | 8.7% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
-| IEF | 6.2% | core | 92.93 | 0.1% | 0.06% | -0.07% |
-| CHRW | 5.8% | satellite | 144.67 | -0.08% | -0.3% | -29.69% |
-| MANE | 3.8% | satellite | 111.31 | 2.86% | 2.17% | 1.66% |
-| AMBQ | 3.3% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
+| FWONK | 11.4% | satellite | 101.98 | -1.85% | -0.73% | 1.98% |
+| GLD | 9.3% | core | 405.49 | 1.0% | 0.73% | 10.31% |
+| LTH | 8.9% | satellite | 45.34 | 0.18% | 6.78% | 7.95% |
+| IEF | 6.2% | core | 92.84 | -0.21% | 0.09% | -0.73% |
+| CHRW | 5.9% | satellite | 144.78 | -2.55% | -2.37% | -26.69% |
+| MANE | 3.8% | satellite | 108.22 | -3.98% | -2.28% | -12.51% |
+| AMBQ | 3.4% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.1%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.7%
-- Beta vs SPY: 0.63 · posiciones efectivas: 12.0 · HHI: 0.0832
+- Volatilidad anualizada: 12.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -4.0%
+- Beta vs SPY: 0.638 · posiciones efectivas: 12.1 · HHI: 0.0828
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -321,15 +321,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 767.45 (-0.68% / -0.4% / 2.56%) [2026-08-18]
-- QQQ: 717.51 (-1.69% / -0.13% / 1.2%) [2026-08-18]
-- IWM: 300.23 (-1.26% / -0.25% / 1.24%) [2026-08-18]
+- SPY: 772.67 (-0.47% / -0.05% / 4.12%) [2026-08-17]
+- QQQ: 729.87 (-0.16% / 1.25% / 4.86%) [2026-08-17]
+- IWM: 304.06 (-0.34% / 1.36% / 4.02%) [2026-08-17]
 - DIA: 532.91 (-0.24% / -0.81% / 2.19%) [2026-08-18]
 - TLT: 81.66 (0.38% / -0.64% / -2.0%) [2026-08-18]
-- IEF: 92.93 (0.1% / 0.06% / -0.07%) [2026-08-18]
-- GLD: 398.55 (-1.71% / -0.6% / 6.33%) [2026-08-18]
+- IEF: 92.84 (-0.21% / 0.09% / -0.73%) [2026-08-17]
+- GLD: 405.49 (1.0% / 0.73% / 10.31%) [2026-08-17]
 - ^VIX: 15.84 (4.28% / 3.66% / -7.1%) [2026-08-18]
-- BTC-USD: 64306.62 (-0.31% / 1.43% / 0.62%) [2026-08-19]
+- BTC-USD: 64258.2 (-0.38% / 1.35% / 0.55%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,15 +344,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: legal (2), ai (1), leadership (1)
+**Temas dominantes**: ai (4), legal (3), leadership (1), stock (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RDDT] 7 Active Subreddits Every Toronto Resident Should Follow for Local Insights (2026-08-19)
+- [RDDT] Reddit tests AI - powered conversations (2026-08-19)
 - [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
 - [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
 - [HIMS] Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? (2026-08-18)
+- [UBER] Zipline and Uber Eats aiming to reach one million drone deliveries per day by the end of 2029 (2026-08-18)
 - [HIMS] Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI (2026-08-18)
+- [UBER] Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership (2026-08-18)
+- [UBER] Uber and Zipline partner on drone delivery (2026-08-18)
+- [UBER] NY Judge Delivers Blow to Uber Injury Lawsuit (2026-08-18)
+- [UBER] Uber Technologies ( NYSE : UBER ) Shares Down 1 . 5 % – Here Why (2026-08-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
