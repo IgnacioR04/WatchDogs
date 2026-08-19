@@ -1,22 +1,23 @@
 {
-  "generated_at": "2026-08-19T14:14:24+00:00",
+  "generated_at": "2026-08-19T15:13:28+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "DGICA": 0.0821,
-    "FWONK": 0.0758,
+    "DGICA": 0.0783,
+    "FWONK": 0.0718,
     "IEF": 0.0622,
-    "LTH": 0.058,
-    "CHRW": 0.0387,
-    "NVRI": 0.0328,
-    "MANE": 0.0253,
-    "AMBQ": 0.0217
+    "LTH": 0.0551,
+    "CHRW": 0.0368,
+    "NVRI": 0.0314,
+    "MANE": 0.0241,
+    "AMBQ": 0.0207,
+    "CRWV": 0.0165
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0674,
-    "NVRI": 0.0292,
-    "CHRW": 0.0344,
-    "LTH": 0.0516,
-    "DGICA": 0.073,
-    "AMBQ": 0.0193,
-    "MANE": 0.0225
+    "FWONK": 0.0638,
+    "CRWV": 0.0147,
+    "NVRI": 0.0279,
+    "CHRW": 0.0327,
+    "LTH": 0.049,
+    "DGICA": 0.0696,
+    "AMBQ": 0.0184,
+    "MANE": 0.0214
   },
   "satellite_rationale": [
     {
@@ -42,6 +44,14 @@
         "congress"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "CRWV",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
     },
     {
       "ticker": "NVRI",
@@ -93,16 +103,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0999,
-    "var_95_1d": 0.0074,
-    "cvar_95_1d": 0.0111,
-    "max_drawdown": -0.0248,
-    "beta_spy": 0.535,
-    "hhi": 0.0753,
+    "ann_vol": 0.1058,
+    "var_95_1d": 0.008,
+    "cvar_95_1d": 0.0119,
+    "max_drawdown": -0.0299,
+    "beta_spy": 0.601,
+    "hhi": 0.0737,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.3,
-    "gross_exposure": 0.8499,
+    "n_positions": 13,
+    "effective_positions": 13.6,
+    "gross_exposure": 0.8502,
     "days_used": 59
   },
   "risk_gate": {
