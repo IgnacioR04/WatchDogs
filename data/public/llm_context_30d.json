@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-19T19:09:25.277777+00:00",
+  "generated_at": "2026-08-19T19:54:14.001568+00:00",
   "window": {
     "from": "2026-07-20",
     "to": "2026-08-19",
@@ -25,8 +25,6 @@
     "top_themes": [
       "earnings",
       "ai",
-      "leadership",
-      "legal",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -518,14 +516,6 @@
     ],
     "sell_pressure": [
       {
-        "ticker": "RDDT",
-        "company": "Reddit, Inc.",
-        "pressure_score": 1452.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SE",
         "company": "Sea Ltd",
         "pressure_score": 1374.7,
@@ -539,6 +529,14 @@
         "pressure_score": 1121.4,
         "sources": [
           "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RDDT",
+        "company": "Reddit, Inc.",
+        "pressure_score": 732.4,
+        "sources": [
           "corporate_insider"
         ]
       },
@@ -608,6 +606,14 @@
         ]
       },
       {
+        "ticker": "NYSE: VTEX",
+        "company": "VTEX",
+        "pressure_score": 296.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ACHR",
         "company": "Archer Aviation Inc.",
         "pressure_score": 287.5,
@@ -627,14 +633,6 @@
         "ticker": "STOK",
         "company": "Stoke Therapeutics, Inc.",
         "pressure_score": 260.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "COF",
-        "company": "CAPITAL ONE FINANCIAL CORP",
-        "pressure_score": 255.0,
         "sources": [
           "corporate_insider"
         ]
@@ -659,6 +657,15 @@
       "amount": 1050000.0,
       "date": "2026-08-18",
       "score": 81.2
+    },
+    {
+      "ticker": "UTGN",
+      "company": "UTG INC",
+      "actor": "CORRELL JESSE T",
+      "actor_type": "ceo",
+      "amount": 283672.0,
+      "date": "2026-08-18",
+      "score": 79.6
     },
     {
       "ticker": "BKKT",
@@ -767,15 +774,6 @@
       "amount": 24300.0,
       "date": "2026-08-18",
       "score": 73.0
-    },
-    {
-      "ticker": "ABCL",
-      "company": "AbCellera Biologics Inc.",
-      "actor": "Montalbano John S.",
-      "actor_type": "director",
-      "amount": 110300.0,
-      "date": "2026-08-18",
-      "score": 72.6
     }
   ],
   "institutional_changes": [
@@ -1224,9 +1222,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 115364.05,
+        "pnl": 201914.42,
         "win_rate": 0.9231,
-        "volume": 30484.54,
+        "volume": 55526.42,
         "categories": [
           "crypto"
         ]
@@ -1234,9 +1232,19 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 29930.47,
-        "win_rate": 0.9677,
-        "volume": 114497.98,
+        "pnl": 32027.03,
+        "win_rate": 0.9683,
+        "volume": 114926.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 46937.04,
+        "win_rate": 0.9335,
+        "volume": 287708.67,
         "categories": [
           "sports"
         ]
@@ -1244,7 +1252,7 @@
       {
         "wallet": "0xede186f37e",
         "username": "KongX",
-        "pnl": 23794.56,
+        "pnl": 24408.32,
         "win_rate": 0.9401,
         "volume": 40629.81,
         "categories": [
@@ -1256,22 +1264,11 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 29670.05,
+        "pnl": 29415.15,
         "win_rate": 0.896,
         "volume": 35890.5,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x57b4520916",
-        "username": "Skyfker",
-        "pnl": 23875.79,
-        "win_rate": 0.9024,
-        "volume": 115155.06,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
@@ -1285,9 +1282,19 @@
         ]
       },
       {
+        "wallet": "0x927cf2bb94",
+        "username": "jarosbill",
+        "pnl": 27347.22,
+        "win_rate": 0.8741,
+        "volume": 124227.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6db983ff1c",
         "username": "tsihkodiives",
-        "pnl": 33591.7,
+        "pnl": 37661.84,
         "win_rate": 0.8425,
         "volume": 31991.83,
         "categories": [
@@ -1299,9 +1306,9 @@
       {
         "wallet": "0xcc500cbcc8",
         "username": "justdance",
-        "pnl": 26104.09,
-        "win_rate": 0.822,
-        "volume": 234086.09,
+        "pnl": 30900.13,
+        "win_rate": 0.821,
+        "volume": 302115.41,
         "categories": [
           "crypto"
         ]
@@ -1315,25 +1322,15 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 233042.82,
-        "win_rate": 0.632,
-        "volume": 5687194.15,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 233042.82,
-        "win_rate": 0.632,
-        "volume": 5687194.15,
+        "pnl": 224347.86,
+        "win_rate": 0.623,
+        "volume": 6392348.69,
         "categories": [
           "sports"
         ]
@@ -1341,9 +1338,9 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 50411.04,
-        "win_rate": 0.672,
-        "volume": 2497580.93,
+        "pnl": 51974.07,
+        "win_rate": 0.673,
+        "volume": 2528273.68,
         "categories": [
           "crypto"
         ]
@@ -1351,40 +1348,19 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 152190.98,
-        "win_rate": 0.543,
+        "pnl": 135420.7,
+        "win_rate": 0.544,
         "volume": 1841290.33,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "Lakersfan111",
-        "pnl": 29819.81,
-        "win_rate": 0.537,
-        "volume": 815192.1,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 49040.39,
-        "win_rate": 0.549,
-        "volume": 1776469.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6f3e7f25ba",
-        "username": "fRibrenlc",
-        "pnl": 43165.44,
-        "win_rate": 0.507,
-        "volume": 367338.38,
+        "pnl": 60172.59,
+        "win_rate": 0.546,
+        "volume": 2001653.62,
         "categories": [
           "sports"
         ]
@@ -1392,9 +1368,29 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 37500.86,
-        "win_rate": 0.666,
-        "volume": 1003576.63,
+        "pnl": 39881.6,
+        "win_rate": 0.671,
+        "volume": 1175249.07,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6f3e7f25ba",
+        "username": "fRibrenlc",
+        "pnl": 38331.69,
+        "win_rate": 0.504,
+        "volume": 395450.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 27657.49,
+        "win_rate": 0.574,
+        "volume": 580923.4,
         "categories": [
           "sports"
         ]
@@ -1402,9 +1398,9 @@
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 89408.34,
+        "pnl": 90085.4,
         "win_rate": 0.467,
-        "volume": 306686.81,
+        "volume": 323656.57,
         "categories": [
           "crypto"
         ]
@@ -1412,9 +1408,9 @@
       {
         "wallet": "0x011f2d377e",
         "username": "11122",
-        "pnl": 76754.08,
+        "pnl": 76990.1,
         "win_rate": 0.393,
-        "volume": 318411.3,
+        "volume": 319790.55,
         "categories": [
           "sports",
           "politics",
@@ -1422,11 +1418,11 @@
         ]
       },
       {
-        "wallet": "0x3af1ed6ea3",
-        "username": "0x5fb6168aE589674AC569d52F934B37c14f34911",
-        "pnl": 48138.77,
-        "win_rate": 0.503,
-        "volume": 173064.84,
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 46937.04,
+        "win_rate": 0.9335,
+        "volume": 287708.67,
         "categories": [
           "sports"
         ]
@@ -1435,46 +1431,41 @@
   },
   "news": [
     {
-      "title": "Hims & Hers CEO on How Firms With Large Datasets Can Cut AI Costs",
-      "url": "https://www.businessinsider.com/hims-hers-ceo-andrew-dudum-datasets-ai-costs-open-weight-2026-8",
-      "ticker": "HIMS",
-      "themes": [
-        "ai",
-        "leadership"
-      ],
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
-      "url": "http://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
-      "ticker": "HIMS",
+      "title": "Uber Technologies , Inc .: Uber Launches Autonomous Rides in Europe",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69356321-uber-technologies-inc-uber-launches-autonomous-rides-in-europe-004.htm",
+      "ticker": "UBER",
       "themes": [],
       "date": "2026-08-19"
     },
     {
-      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
-      "url": "https://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
-      "ticker": "HIMS",
+      "title": "Uber ( UBER ) Bets On Drones As Its Delivery Engine Accelerates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-bets-drones-delivery-121042551.html",
+      "ticker": "UBER",
       "themes": [],
       "date": "2026-08-19"
     },
     {
-      "title": "Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? ",
-      "url": "https://finance.yahoo.com/healthcare/articles/why-hims-hers-health-hims-231618995.html",
-      "ticker": "HIMS",
+      "title": "Uber adds Zipline drones to its Eats delivery network",
+      "url": "http://www.businessghana.com/site/news/Technology/354368/Uber-adds-Zipline-drones-to-its-Eats-delivery-network",
+      "ticker": "UBER",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Zipline and Uber Eats aiming to reach one million drone deliveries per day by the end of 2029",
+      "url": "https://www.freshplaza.com/north-america/article/9864134/zipline-and-uber-eats-aiming-to-reach-one-million-drone-deliveries-per-day-by-the-end-of-2029/",
+      "ticker": "UBER",
       "themes": [
-        "legal"
+        "ai"
       ],
       "date": "2026-08-18"
     },
     {
-      "title": "Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI",
-      "url": "https://www.cnbc.com/2026/08/18/hims-hers-ceo-andrew-dudum-ftc-lawsuit-glp-1s-ai.html",
-      "ticker": "HIMS",
+      "title": "Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership",
+      "url": "https://www.zerohedge.com/political/uber-eyes-1-million-daily-drone-deliveries-zipline-partnership",
+      "ticker": "UBER",
       "themes": [
-        "ai",
-        "legal",
-        "leadership"
+        "ai"
       ],
       "date": "2026-08-18"
     },
@@ -1514,7 +1505,7 @@
       "date": "2026-08-07"
     }
   ],
-  "signals_count": 1795,
+  "signals_count": 1786,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
