@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T16:04:14+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T17:02:33+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -10,7 +10,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.19)
-- Tendencia: `bull` (SPY 771.12 · MA50 750.21 · MA200 704.12 · dist MA200: 9.52%)
+- Tendencia: `bull` (SPY 769.85 · MA50 750.18 · MA200 704.12 · dist MA200: 9.34%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `steep` (curva 10y-2y 0.52)
 - Fed Funds: 3.63%
@@ -22,26 +22,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.12 | 0.48% | -0.18% | 3.17% |
-| QQQ | 12.0% | core | 718.91 | 0.2% | -0.66% | 1.92% |
+| SPY | 12.0% | core | 769.85 | 0.31% | -0.34% | 3.0% |
+| QQQ | 12.0% | core | 717.02 | -0.07% | -0.92% | 1.65% |
 | TLT | 12.0% | core | 82.82 | 1.41% | 0.86% | -0.35% |
-| GLD | 9.3% | core | 412.42 | 3.48% | 1.85% | 8.78% |
-| DGICA | 7.8% | satellite | 18.51 | -0.54% | -0.75% | 2.88% |
-| FWONK | 7.1% | satellite | 104.39 | 2.33% | 0.76% | 6.62% |
-| IEF | 6.2% | core | 93.27 | 0.37% | 0.33% | 0.53% |
-| LTH | 5.5% | satellite | 44.87 | -1.18% | 2.38% | 6.67% |
-| CHRW | 3.7% | satellite | 145.29 | 0.43% | -0.96% | -29.93% |
-| NVRI | 3.1% | satellite | 20.64 | 4.98% | -0.43% | -10.14% |
-| MANE | 2.4% | satellite | 112.61 | 1.17% | 3.27% | 2.85% |
-| AMBQ | 2.1% | satellite | 61.35 | -2.64% | -6.47% | -20.9% |
-| CRWV | 1.7% | satellite | 94.0 | 0.89% | -12.75% | 13.74% |
+| GLD | 9.3% | core | 412.56 | 3.52% | 1.89% | 8.82% |
+| DGICA | 8.0% | satellite | 18.59 | -0.11% | -0.32% | 0.34% |
+| FWONK | 7.0% | satellite | 104.23 | 2.17% | 0.6% | 1.99% |
+| IEF | 6.2% | core | 93.22 | 0.31% | 0.28% | 0.25% |
+| LTH | 5.5% | satellite | 44.88 | -1.15% | 2.42% | 6.48% |
+| CHRW | 3.7% | satellite | 144.86 | 0.13% | -1.25% | -30.52% |
+| NVRI | 3.1% | satellite | 20.6 | 4.78% | -0.63% | -10.08% |
+| MANE | 2.4% | satellite | 112.78 | 1.32% | 3.42% | 1.31% |
+| AMBQ | 2.1% | satellite | 60.88 | -3.39% | -7.19% | -15.95% |
+| CRWV | 1.7% | satellite | 93.07 | -0.11% | -13.61% | 12.62% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.6%
+- Volatilidad anualizada: 10.7%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.0%
-- Beta vs SPY: 0.6 · posiciones efectivas: 13.6 · HHI: 0.0737
+- Max drawdown historico: -3.7%
+- Beta vs SPY: 0.608 · posiciones efectivas: 13.6 · HHI: 0.0738
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -96,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.12 (0.48% / -0.18% / 3.17%) [2026-08-19]
-- QQQ: 718.91 (0.2% / -0.66% / 1.92%) [2026-08-19]
-- IWM: 302.56 (0.78% / -0.05% / 2.99%) [2026-08-19]
-- DIA: 534.77 (0.35% / -0.44% / 2.55%) [2026-08-19]
+- SPY: 769.85 (0.31% / -0.34% / 3.0%) [2026-08-19]
+- QQQ: 717.02 (-0.07% / -0.92% / 1.65%) [2026-08-19]
+- IWM: 302.22 (0.66% / -0.16% / 2.87%) [2026-08-19]
+- DIA: 533.99 (0.2% / -0.59% / 2.4%) [2026-08-19]
 - TLT: 82.82 (1.41% / 0.86% / -0.35%) [2026-08-19]
-- IEF: 93.27 (0.37% / 0.33% / 0.53%) [2026-08-19]
-- GLD: 412.42 (3.48% / 1.85% / 8.78%) [2026-08-19]
+- IEF: 93.22 (0.31% / 0.28% / 0.25%) [2026-08-19]
+- GLD: 412.56 (3.52% / 1.89% / 8.82%) [2026-08-19]
 - ^VIX: 15.19 (-4.1% / 4.4% / -8.71%) [2026-08-19]
-- BTC-USD: 68685.03 (6.19% / 9.07% / 6.12%) [2026-08-19]
+- BTC-USD: 68372.12 (5.71% / 8.57% / 5.63%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,15 +119,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2)
+**Temas dominantes**: earnings (3), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Uber ( UBER ) Bets On Drones As Its Delivery Engine Accelerates (2026-08-19)
-- [UBER] Uber adds Zipline drones to its Eats delivery network (2026-08-19)
-- [UBER] Zipline and Uber Eats aiming to reach one million drone deliveries per day by the end of 2029 (2026-08-18)
-- [UBER] Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership (2026-08-18)
-- [UBER] Uber and Zipline partner on drone delivery (2026-08-18)
+- [GROV] Grove ( GROV ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [PTON] Peloton Interactive Q4 Earnings Call Highlights (2026-08-09)
+- [PTON] PTON Stock Alert : What to Know as Peloton Reports First - Ever Annual Profit (2026-08-08)
+- [GROV] Critical Survey : Innovative Food ( OTCMKTS : IVFH ) versus Grove Collaborative ( NYSE : GROV ) (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -142,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $34,812 · win rate 92% · categorias: crypto
-- ic4cream · PnL $28,623 · win rate 90% · categorias: sports
-- Skyfker · PnL $19,925 · win rate 90% · categorias: sports, crypto
-- jarosbill · PnL $22,706 · win rate 87% · categorias: sports
-- Satisfied · PnL $40,154 · win rate 100% · categorias: sports
+- JnStTrdrBnusFnd · PnL $78,183 · win rate 92% · categorias: crypto
+- KongX · PnL $24,777 · win rate 94% · categorias: sports, crypto, economy
+- ic4cream · PnL $28,637 · win rate 90% · categorias: sports
+- Skyfker · PnL $23,865 · win rate 90% · categorias: sports, crypto
+- Uniform123 · PnL $27,968 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -154,7 +153,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 793 registros 30d · ultimo dato 2026-08-19
+- **sec_insiders**: `ok` · 792 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-19
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
