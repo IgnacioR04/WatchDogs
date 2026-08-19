@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-19T11:54:33.927689+00:00",
+  "generated_at": "2026-08-19T13:25:54.851725+00:00",
   "window": {
     "from": "2026-07-20",
     "to": "2026-08-19",
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
-      "regulatory"
+      "ai",
+      "leadership",
+      "legal"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -465,6 +466,14 @@
         ]
       },
       {
+        "ticker": "NVRI",
+        "company": "Enviri Corp",
+        "pressure_score": 220.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "META",
         "company": "Common Stock",
         "pressure_score": 214.6,
@@ -499,14 +508,6 @@
       {
         "ticker": "KPLT",
         "company": "Katapult Holdings, Inc.",
-        "pressure_score": 207.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "SNSC",
-        "company": "SunScout Holding Ltd",
         "pressure_score": 207.0,
         "sources": [
           "large_holder"
@@ -582,14 +583,6 @@
         ]
       },
       {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 517.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NWS",
         "company": "NEWS CORP",
         "pressure_score": 493.7,
@@ -615,14 +608,6 @@
         ]
       },
       {
-        "ticker": "EQH",
-        "company": "Equitable Holdings, Inc.",
-        "pressure_score": 412.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 357.6,
@@ -634,6 +619,22 @@
         "ticker": "YUMC",
         "company": "Yum China Holdings, Inc.",
         "pressure_score": 354.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "XMTR",
+        "company": "Xometry, Inc.",
+        "pressure_score": 347.2,
         "sources": [
           "corporate_insider"
         ]
@@ -649,6 +650,15 @@
       "amount": 50072000.0,
       "date": "2026-08-14",
       "score": 86.8
+    },
+    {
+      "ticker": "CCHH",
+      "company": "CCH Holdings Ltd",
+      "actor": "Goh Kok E",
+      "actor_type": "ceo",
+      "amount": 1440720.0,
+      "date": "2026-07-24",
+      "score": 78.6
     },
     {
       "ticker": "AUGO",
@@ -667,6 +677,15 @@
       "amount": 101200.0,
       "date": "2026-08-14",
       "score": 75.9
+    },
+    {
+      "ticker": "NVRI",
+      "company": "Enviri Corp",
+      "actor": "Minan Peter Francis",
+      "actor_type": "ceo",
+      "amount": 49828.77,
+      "date": "2026-08-18",
+      "score": 75.8
     },
     {
       "ticker": "REZI",
@@ -741,6 +760,15 @@
       "score": 72.3
     },
     {
+      "ticker": "NVRI",
+      "company": "Enviri Corp",
+      "actor": "Minan Peter Francis",
+      "actor_type": "ceo",
+      "amount": 9886.5,
+      "date": "2026-08-18",
+      "score": 72.3
+    },
+    {
       "ticker": "ACON",
       "company": "Aclarion, Inc.",
       "actor": "Gould Gregory A",
@@ -748,33 +776,6 @@
       "amount": 24500.0,
       "date": "2026-08-14",
       "score": 71.5
-    },
-    {
-      "ticker": "ELAN",
-      "company": "Elanco Animal Health Inc",
-      "actor": "O'Neill Shiv",
-      "actor_type": "insider",
-      "amount": 94272.84,
-      "date": "2026-08-18",
-      "score": 71.0
-    },
-    {
-      "ticker": "BXSY",
-      "company": "BEXIL INVESTMENT TRUST",
-      "actor": "WINMILL & CO. INC",
-      "actor_type": "insider",
-      "amount": 94016.0,
-      "date": "2026-08-17",
-      "score": 71.0
-    },
-    {
-      "ticker": "EVLV",
-      "company": "Evolv Technologies Holdings, Inc.",
-      "actor": "Kuhl Henrik",
-      "actor_type": "director",
-      "amount": 85950.0,
-      "date": "2026-08-14",
-      "score": 70.5
     }
   ],
   "institutional_changes": [
@@ -1221,11 +1222,11 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xafe4272b4f",
-        "username": "QuentinChen",
-        "pnl": 12446.74,
-        "win_rate": 0.9559,
-        "volume": 18443.7,
+        "wallet": "0xcd30f4698c",
+        "username": "BOOMBOYS.Kiritych",
+        "pnl": 22036.3,
+        "win_rate": 0.924,
+        "volume": 1011075.27,
         "categories": [
           "sports"
         ]
@@ -1243,22 +1244,11 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 27881.51,
+        "pnl": 27884.19,
         "win_rate": 0.896,
         "volume": 18425.98,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 14670.35,
-        "win_rate": 0.9154,
-        "volume": 166817.41,
-        "categories": [
-          "sports",
-          "politics"
         ]
       },
       {
@@ -1274,9 +1264,9 @@
       {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 25187.02,
-        "win_rate": 0.8396,
-        "volume": 105472.72,
+        "pnl": 23810.7,
+        "win_rate": 0.8273,
+        "volume": 381530.13,
         "categories": [
           "sports",
           "crypto",
@@ -1294,11 +1284,23 @@
         ]
       },
       {
+        "wallet": "0x165ed327dd",
+        "username": "controls",
+        "pnl": 15667.69,
+        "win_rate": 0.8029,
+        "volume": 0.0,
+        "categories": [
+          "politics",
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x032eb1bc89",
         "username": "purplegatto",
-        "pnl": 25109.02,
+        "pnl": 24203.18,
         "win_rate": 0.77,
-        "volume": 57821.07,
+        "volume": 64037.52,
         "categories": [
           "sports",
           "politics"
@@ -1307,8 +1309,8 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "quavoo",
-        "pnl": 49943.47,
-        "win_rate": 0.721,
+        "pnl": 44893.26,
+        "win_rate": 0.722,
         "volume": 159646.51,
         "categories": [
           "sports"
@@ -1317,9 +1319,9 @@
       {
         "wallet": "0x9703676286",
         "username": "AnonymousUsername",
-        "pnl": 19821.38,
-        "win_rate": 0.767,
-        "volume": 26311.65,
+        "pnl": 19230.17,
+        "win_rate": 0.766,
+        "volume": 31521.36,
         "categories": [
           "sports",
           "politics"
@@ -1328,11 +1330,21 @@
     ],
     "whales": [
       {
+        "wallet": "0xcd30f4698c",
+        "username": "BOOMBOYS.Kiritych",
+        "pnl": 22036.3,
+        "win_rate": 0.924,
+        "volume": 1011075.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 172562.5,
-        "win_rate": 0.618,
-        "volume": 2079143.57,
+        "pnl": 94903.81,
+        "win_rate": 0.611,
+        "volume": 2512370.9,
         "categories": [
           "sports"
         ]
@@ -1340,7 +1352,7 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 128996.6,
+        "pnl": 128341.92,
         "win_rate": 0.541,
         "volume": 1255053.82,
         "categories": [
@@ -1348,11 +1360,22 @@
         ]
       },
       {
+        "wallet": "0x6ac5bb06a9",
+        "username": "Lakersfan111",
+        "pnl": 91622.04,
+        "win_rate": 0.536,
+        "volume": 472875.7,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 17508.13,
-        "win_rate": 0.558,
-        "volume": 836543.67,
+        "pnl": 19726.91,
+        "win_rate": 0.555,
+        "volume": 908384.11,
         "categories": [
           "sports"
         ]
@@ -1360,53 +1383,20 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 59341.42,
-        "win_rate": 0.65,
-        "volume": 260055.23,
+        "pnl": 67207.87,
+        "win_rate": 0.651,
+        "volume": 285949.44,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x011f2d377e",
-        "username": "11122",
-        "pnl": 77225.1,
-        "win_rate": 0.394,
-        "volume": 280002.04,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 14670.35,
-        "win_rate": 0.9154,
-        "volume": 166817.41,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 24724.0,
-        "win_rate": 0.663,
-        "volume": 400850.08,
-        "categories": [
-          "sports"
         ]
       },
       {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 25187.02,
-        "win_rate": 0.8396,
-        "volume": 105472.72,
+        "pnl": 23810.7,
+        "win_rate": 0.8273,
+        "volume": 381530.13,
         "categories": [
           "sports",
           "crypto",
@@ -1414,21 +1404,33 @@
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "quavoo",
-        "pnl": 49943.47,
-        "win_rate": 0.721,
-        "volume": 159646.51,
+        "wallet": "0x011f2d377e",
+        "username": "11122",
+        "pnl": 76829.47,
+        "win_rate": 0.394,
+        "volume": 289012.77,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xc69bd5567b",
+        "username": "vtcchampion52",
+        "pnl": 37316.11,
+        "win_rate": 0.509,
+        "volume": 341061.36,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x397062018d",
-        "username": "11vsldfdsgfkjgos",
-        "pnl": 26218.13,
-        "win_rate": 1.0,
-        "volume": 51602.49,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 28658.3,
+        "win_rate": 0.663,
+        "volume": 446504.79,
         "categories": [
           "sports"
         ]
@@ -1437,32 +1439,51 @@
   },
   "news": [
     {
-      "title": "Grove ( GROV ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/grove-grov-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "GROV",
+      "title": "Hims & Hers CEO on How Firms With Large Datasets Can Cut AI Costs",
+      "url": "https://www.businessinsider.com/hims-hers-ceo-andrew-dudum-datasets-ai-costs-open-weight-2026-8",
+      "ticker": "HIMS",
       "themes": [
-        "earnings"
+        "ai",
+        "leadership"
       ],
-      "date": "2026-08-14"
+      "date": "2026-08-19"
     },
     {
-      "title": "Western Alliance Bancorporation ( NYSE : WAL ) Coverage Initiated at Wells Fargo & Company",
-      "url": "https://www.dailypolitical.com/2026/08/10/western-alliance-bancorporation-nysewal-coverage-initiated-at-wells-fargo-company.html",
-      "ticker": "WAL",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Critical Survey : Innovative Food ( OTCMKTS : IVFH ) versus Grove Collaborative ( NYSE : GROV ) ",
-      "url": "https://www.themarketsdaily.com/2026/08/07/critical-survey-innovative-food-otcmktsivfh-versus-grove-collaborative-nysegrov.html",
-      "ticker": "GROV",
+      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
+      "url": "http://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
+      "ticker": "HIMS",
       "themes": [],
-      "date": "2026-08-07"
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
+      "url": "https://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
+      "ticker": "HIMS",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? ",
+      "url": "https://finance.yahoo.com/healthcare/articles/why-hims-hers-health-hims-231618995.html",
+      "ticker": "HIMS",
+      "themes": [
+        "legal"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI",
+      "url": "https://www.cnbc.com/2026/08/18/hims-hers-ceo-andrew-dudum-ftc-lawsuit-glp-1s-ai.html",
+      "ticker": "HIMS",
+      "themes": [
+        "ai",
+        "legal",
+        "leadership"
+      ],
+      "date": "2026-08-18"
     }
   ],
-  "signals_count": 1904,
+  "signals_count": 1890,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
