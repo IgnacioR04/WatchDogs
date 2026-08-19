@@ -356,5 +356,30 @@
     "thesis": "Mantenemos el grueso de la cartera sin cambios: regimen risk_on con presupuesto 90% y ninguna posicion actual tiene su tesis rota (ningun sell signal de la seccion 3b afecta a tickers en cartera). Unico movimiento: anadimos FSUN (3%) financiado con cash disponible, por su score agregado alto (282, 4 senales de large_holder) y momentum positivo, usando parte del hueco de riesgo aun sin invertir. Evitamos deliberadamente CHYM y PRMB de la cartera candidata pese a su score, porque las noticias de este ciclo muestran ventas masivas y muy recientes de insiders (CEO y accionista mayoritario de CHYM vendiendo millones de dolares; 10% owner de PRMB vendiendo $497.4M) que contradicen la tesis alcista. Tambien evitamos CHRW y GLXY por su fuerte momentum negativo (-27% y -16% a 20 dias) pese a estar en la lista candidata.",
     "confidence": 0.6,
     "n_adjustments": 1
+  },
+  {
+    "approved_at": "2026-08-19T22:39:39+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.093,
+      "IEF": 0.053,
+      "LION": 0.042,
+      "AVO": 0.042,
+      "NMM": 0.04,
+      "FWONK": 0.04,
+      "BWFG": 0.04,
+      "PSBD": 0.031,
+      "NTSK": 0.031,
+      "FSUN": 0.03,
+      "GSHD": 0.025,
+      "CLBK": 0.023,
+      "CRWV": 0.012
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Se mantiene intacto el nucleo core-satelite: SPY, QQQ, TLT, GLD e IEF no cambian porque ninguna senal de venta les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, FWONK) se mantienen porque su tesis no se ha roto -no aparecen en las senales de venta de este ciclo- aunque sus senales originales hayan envejecido, lo cual el marco declara legal explicitamente. Se anade una posicion pequena en CRWV (1.2%) financiada con cash ocioso, aprovechando la senal de convicicion cruzada mas fuerte del ciclo tras FWONK, sin rotar el resto de la cartera para minimizar coste de transaccion.",
+    "confidence": 0.62,
+    "n_adjustments": 1
   }
 ]

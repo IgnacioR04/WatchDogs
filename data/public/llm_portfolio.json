@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-08-11T20:39:36+00:00",
+  "generated_at": "2026-08-19T22:39:39+00:00",
   "verdict_llm": "adjust",
-  "thesis": "Mantenemos el grueso de la cartera sin cambios: regimen risk_on con presupuesto 90% y ninguna posicion actual tiene su tesis rota (ningun sell signal de la seccion 3b afecta a tickers en cartera). Unico movimiento: anadimos FSUN (3%) financiado con cash disponible, por su score agregado alto (282, 4 senales de large_holder) y momentum positivo, usando parte del hueco de riesgo aun sin invertir. Evitamos deliberadamente CHYM y PRMB de la cartera candidata pese a su score, porque las noticias de este ciclo muestran ventas masivas y muy recientes de insiders (CEO y accionista mayoritario de CHYM vendiendo millones de dolares; 10% owner de PRMB vendiendo $497.4M) que contradicen la tesis alcista. Tambien evitamos CHRW y GLXY por su fuerte momentum negativo (-27% y -16% a 20 dias) pese a estar en la lista candidata.",
+  "thesis": "Se mantiene intacto el nucleo core-satelite: SPY, QQQ, TLT, GLD e IEF no cambian porque ninguna senal de venta les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, FWONK) se mantienen porque su tesis no se ha roto -no aparecen en las senales de venta de este ciclo- aunque sus senales originales hayan envejecido, lo cual el marco declara legal explicitamente. Se anade una posicion pequena en CRWV (1.2%) financiada con cash ocioso, aprovechando la senal de convicicion cruzada mas fuerte del ciclo tras FWONK, sin rotar el resto de la cartera para minimizar coste de transaccion.",
   "key_risks": [
-    "Fuentes congress e institutional_13f en warning este ciclo, con retraso legal de hasta 45 dias; senales de esas fuentes (FWONK, LTH, CHRW) pueden estar desactualizadas",
-    "FSUN es una posicion pequena/mid-cap con menor liquidez relativa que el core, mayor volatilidad idiosincratica",
-    "Varias posiciones legado (LION, AVO, NMM, PSBD, NTSK, GSHD, CLBK) no aparecen en el briefing de este ciclo (sin senales frescas ni precio actualizado en la cartera candidata), se mantienen por defecto pero sin nueva confirmacion de tesis",
-    "Cartera va por detras de SPY en el periodo (excess return negativo); mayor tentacion de perseguir momentum, pero mantenemos disciplina conservadora para no incurrir en mas costes de rotacion"
+    "CRWV es muy volatil (-15.65% en 5d) por ruido en el sector neocloud (Nebius/CoreWeave whipsaw), la nueva posicion podria sufrir swings de corto plazo.",
+    "Varias posiciones satelite pequenas (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK) llevan semanas sin datos de precio frescos ni senales nuevas en el briefing, reduciendo la visibilidad sobre si su tesis original sigue vigente.",
+    "Calidad de datos en warning: tickers invalidos en la fuente congress y stale_manager_report_date en 13F, lo que puede sesgar a la baja la fiabilidad de algunos scores de conviccion."
   ],
-  "confidence": 0.6,
+  "confidence": 0.62,
   "adjustments": [
     {
-      "ticker": "FSUN",
+      "ticker": "CRWV",
       "action": "add",
-      "target_weight": 0.03,
-      "reason": "Score agregado 282.0 con 4 senales de large_holder (fuente ok, sin warning), momentum positivo (ret 5d +2.2%, ret 20d +15.0%), y ningun sell signal en contra. Diversifica satelites mas alla de BWFG/FWONK ya en cartera. Financiado con cash disponible, dentro del presupuesto de riesgo (85% <= 90%)."
+      "target_weight": 0.012,
+      "reason": "Score agregado 215.4 con 3 senales large_holder de insiders distintos de CoreWeave (Brannin McBee, Brian Venturo, Michael N Intrator) comprando: es la convicicion cruzada mas fuerte del ciclo tras FWONK. Precio $90.87 y liquidez de large-cap tech cumplen la regla de entrada para posiciones nuevas. Tamano pequeno (1.2%) dado el ruido reciente del sector neocloud (-15.65% ret 5d, titulares de whipsaw en Nasdaq), financiado con cash ocioso sin tocar el resto de la cartera."
     }
   ],
   "final_weights": {
@@ -30,21 +29,22 @@
     "BWFG": 0.04,
     "PSBD": 0.031,
     "NTSK": 0.031,
+    "FSUN": 0.03,
     "GSHD": 0.025,
     "CLBK": 0.023,
-    "FSUN": 0.03
+    "CRWV": 0.012
   },
   "metrics": {
-    "ann_vol": 0.0984,
-    "var_95_1d": 0.01,
-    "cvar_95_1d": 0.0126,
-    "max_drawdown": -0.0683,
-    "beta_spy": 0.569,
-    "hhi": 0.067,
+    "ann_vol": 0.1019,
+    "var_95_1d": 0.0106,
+    "cvar_95_1d": 0.013,
+    "max_drawdown": -0.0713,
+    "beta_spy": 0.606,
+    "hhi": 0.0671,
     "max_position": 0.12,
-    "n_positions": 15,
+    "n_positions": 16,
     "effective_positions": 14.9,
-    "gross_exposure": 0.85,
+    "gross_exposure": 0.862,
     "days_used": 200
   },
   "risk_gate": {
