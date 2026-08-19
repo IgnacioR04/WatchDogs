@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-19T11:03:39+00:00 -->
+<!-- trader_prompt.md generado 2026-08-19T11:55:44+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T11:03:39+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T11:55:44+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.81)
+- Volatilidad: `normal` (VIX 15.75)
 - Tendencia: `bull` (SPY 767.45 · MA50 749.53 · MA200 703.64 · dist MA200: 9.07%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.52)
@@ -256,20 +256,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 767.45 | -0.68% | -0.4% | 2.56% |
 | QQQ | 12.0% | core | 717.51 | -1.69% | -0.13% | 1.2% |
 | TLT | 12.0% | core | 81.66 | 0.38% | -0.64% | -2.0% |
-| FWONK | 11.6% | satellite | 102.02 | 0.04% | -0.69% | 2.84% |
+| FWONK | 11.4% | satellite | 102.02 | 0.04% | -0.35% | 2.29% |
 | GLD | 9.3% | core | 398.55 | -1.71% | -0.6% | 6.33% |
-| LTH | 8.8% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
-| IEF | 6.2% | core | 92.93 | 0.1% | 0.06% | -0.07% |
-| CHRW | 5.9% | satellite | 144.67 | -0.08% | -0.3% | -30.92% |
-| MANE | 3.9% | satellite | 111.31 | 2.86% | 0.51% | 4.97% |
-| AMBQ | 3.3% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
+| LTH | 8.9% | satellite | 45.4 | 0.13% | 3.63% | 5.98% |
+| IEF | 6.2% | core | 92.93 | 0.1% | 0.06% | -0.31% |
+| CHRW | 5.9% | satellite | 144.67 | -0.08% | -0.3% | -29.69% |
+| MANE | 3.8% | satellite | 111.31 | 2.86% | 2.17% | 5.18% |
+| AMBQ | 3.4% | satellite | 63.01 | -7.15% | -3.49% | -15.38% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.0%
+- Volatilidad anualizada: 12.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.4%
-- Beta vs SPY: 0.628 · posiciones efectivas: 12.0 · HHI: 0.083
+- Max drawdown historico: -3.8%
+- Beta vs SPY: 0.634 · posiciones efectivas: 12.1 · HHI: 0.0829
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -326,10 +326,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 300.23 (-1.26% / -0.25% / 1.24%) [2026-08-18]
 - DIA: 532.91 (-0.24% / -0.81% / 2.19%) [2026-08-18]
 - TLT: 81.66 (0.38% / -0.64% / -2.0%) [2026-08-18]
-- IEF: 92.93 (0.1% / 0.06% / -0.07%) [2026-08-18]
+- IEF: 92.93 (0.1% / 0.06% / -0.31%) [2026-08-18]
 - GLD: 398.55 (-1.71% / -0.6% / 6.33%) [2026-08-18]
-- ^VIX: 15.81 (-0.19% / 8.66% / -4.99%) [2026-08-19]
-- BTC-USD: 64409.48 (-0.42% / 2.28% / -0.49%) [2026-08-19]
+- ^VIX: 15.75 (-0.57% / 8.25% / -16.09%) [2026-08-19]
+- BTC-USD: 64461.11 (-0.34% / 2.36% / -0.41%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -368,7 +368,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - QuentinChen · PnL $12,447 · win rate 96% · categorias: sports
 - torta.tech · PnL $13,986 · win rate 94% · categorias: sports
 - ic4cream · PnL $27,882 · win rate 90% · categorias: sports
-- TAIWANNUMBERONE · PnL $13,751 · win rate 92% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $14,670 · win rate 92% · categorias: sports, politics
 - jarosbill · PnL $22,706 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -377,7 +377,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 878 registros 30d · ultimo dato 2026-08-18
+- **sec_insiders**: `ok` · 881 registros 30d · ultimo dato 2026-08-18
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
