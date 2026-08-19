@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-19T02:09:51+00:00 -->
+<!-- trader_prompt.md generado 2026-08-19T03:26:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T02:09:51+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T03:26:33+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,18 +258,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.66 | 0.38% | -0.64% | -2.0% |
 | FWONK | 11.8% | satellite | 102.02 | 0.04% | -0.35% | 4.19% |
 | GLD | 9.3% | core | 398.55 | -1.71% | -0.6% | 6.33% |
-| LTH | 8.8% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
+| LTH | 8.7% | satellite | 45.4 | 0.13% | 3.63% | 7.38% |
 | IEF | 6.2% | core | 92.93 | 0.1% | 0.06% | -0.07% |
-| CHRW | 5.9% | satellite | 144.67 | -0.08% | -0.3% | -30.92% |
-| MANE | 3.8% | satellite | 111.31 | 2.86% | 2.17% | 5.18% |
+| CHRW | 5.8% | satellite | 144.67 | -0.08% | -0.3% | -29.69% |
+| MANE | 3.8% | satellite | 111.31 | 2.86% | 2.17% | 1.66% |
 | AMBQ | 3.3% | satellite | 63.01 | -7.15% | -3.49% | -19.36% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 12.1%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.6%
-- Beta vs SPY: 0.626 · posiciones efectivas: 12.0 · HHI: 0.0832
+- Max drawdown historico: -3.7%
+- Beta vs SPY: 0.63 · posiciones efectivas: 12.0 · HHI: 0.0832
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.93 (0.1% / 0.06% / -0.07%) [2026-08-18]
 - GLD: 398.55 (-1.71% / -0.6% / 6.33%) [2026-08-18]
 - ^VIX: 15.84 (4.28% / 3.66% / -7.1%) [2026-08-18]
-- BTC-USD: 64312.75 (-0.3% / 1.44% / 0.63%) [2026-08-19]
+- BTC-USD: 64306.62 (-0.31% / 1.43% / 0.62%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,32 +344,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1), regulatory (1)
+**Temas dominantes**: legal (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [GROV] Grove ( GROV ) Q2 2026 Earnings Call Transcript (2026-08-14)
-- [WAL] Western Alliance Bancorporation ( NYSE : WAL ) Coverage Initiated at Wells Fargo & Company (2026-08-10)
-- [GROV] Critical Survey : Innovative Food ( OTCMKTS : IVFH ) versus Grove Collaborative ( NYSE : GROV ) (2026-08-07)
+- [RDDT] 7 Active Subreddits Every Toronto Resident Should Follow for Local Insights (2026-08-19)
+- [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
+- [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
+- [HIMS] Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? (2026-08-18)
+- [HIMS] Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI (2026-08-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Catalyst4, Inc. compro MLPT por $50.1M el 2026-08-14.
 - CEO Jonsson Patrik vendio LLY por $7.6M el 2026-08-17 [senal en multiples fuentes].
 - CEO Waldman Reid Alexander vendio MANE por $3.0M el 2026-08-17 [senal en multiples fuentes].
-- CEO Rice Toby Z. vendio EQT por $9.6M el 2026-08-14.
 - CEO Hollar Jason M. opero CAH por $24.3M el 2026-08-15.
 - CEO Bevirt JoeBen vendio JOBY por $4.7M el 2026-08-17.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ic4cream · PnL $13,260 · win rate 90% · categorias: sports
-- torta.tech · PnL $5,525 · win rate 94% · categorias: sports
-- jerall · PnL $4,333 · win rate 93% · categorias: sports
-- kamloic · PnL $8,886 · win rate 87% · categorias: sports
-- ferrariChampions2026 · PnL $88,057 · win rate 59% · categorias: sports
+- torta.tech · PnL $14,911 · win rate 94% · categorias: sports
+- QuentinChen · PnL $11,620 · win rate 96% · categorias: sports
+- ic4cream · PnL $27,225 · win rate 90% · categorias: sports
+- CHACHA125655 · PnL $8,278 · win rate 91% · categorias: sports
+- jarosbill · PnL $9,872 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -377,7 +379,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 872 registros 30d · ultimo dato 2026-08-18
+- **sec_insiders**: `ok` · 873 registros 30d · ultimo dato 2026-08-18
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
