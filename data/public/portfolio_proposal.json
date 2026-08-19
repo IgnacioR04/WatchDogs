@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-08-19T13:27:27+00:00",
+  "generated_at": "2026-08-19T14:14:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "FWONK": 0.1003,
     "GLD": 0.0933,
-    "LTH": 0.0768,
+    "DGICA": 0.0821,
+    "FWONK": 0.0758,
     "IEF": 0.0622,
-    "CHRW": 0.0511,
-    "NVRI": 0.0441,
-    "MANE": 0.0334,
-    "AMBQ": 0.0288
+    "LTH": 0.058,
+    "CHRW": 0.0387,
+    "NVRI": 0.0328,
+    "MANE": 0.0253,
+    "AMBQ": 0.0217
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0892,
-    "NVRI": 0.0392,
-    "CHRW": 0.0454,
-    "LTH": 0.0683,
-    "AMBQ": 0.0256,
-    "MANE": 0.0297
+    "FWONK": 0.0674,
+    "NVRI": 0.0292,
+    "CHRW": 0.0344,
+    "LTH": 0.0516,
+    "DGICA": 0.073,
+    "AMBQ": 0.0193,
+    "MANE": 0.0225
   },
   "satellite_rationale": [
     {
@@ -66,6 +68,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "DGICA",
+      "score": 119.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "AMBQ",
       "score": 71.8,
       "sources": [
@@ -83,17 +93,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1209,
-    "var_95_1d": 0.0097,
-    "cvar_95_1d": 0.0134,
-    "max_drawdown": -0.0316,
-    "beta_spy": 0.631,
-    "hhi": 0.0782,
+    "ann_vol": 0.0999,
+    "var_95_1d": 0.0074,
+    "cvar_95_1d": 0.0111,
+    "max_drawdown": -0.0248,
+    "beta_spy": 0.535,
+    "hhi": 0.0753,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.8,
-    "gross_exposure": 0.85,
-    "days_used": 58
+    "n_positions": 12,
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8499,
+    "days_used": 59
   },
   "risk_gate": {
     "passed": true,
