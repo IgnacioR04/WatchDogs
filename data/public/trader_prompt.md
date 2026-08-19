@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-19T10:07:54+00:00 -->
+<!-- trader_prompt.md generado 2026-08-19T11:03:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -231,7 +231,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T10:07:54+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T11:03:39+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -240,7 +240,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.86)
+- Volatilidad: `normal` (VIX 15.81)
 - Tendencia: `bull` (SPY 767.45 · MA50 749.53 · MA200 703.64 · dist MA200: 9.07%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.52)
@@ -328,8 +328,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.66 (0.38% / -0.64% / -2.0%) [2026-08-18]
 - IEF: 92.93 (0.1% / 0.06% / -0.07%) [2026-08-18]
 - GLD: 398.55 (-1.71% / -0.6% / 6.33%) [2026-08-18]
-- ^VIX: 15.86 (0.13% / 9.0% / -4.69%) [2026-08-19]
-- BTC-USD: 64342.78 (-0.52% / 2.17% / -0.59%) [2026-08-19]
+- ^VIX: 15.81 (-0.19% / 8.66% / -4.99%) [2026-08-19]
+- BTC-USD: 64409.48 (-0.42% / 2.28% / -0.49%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,16 +344,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), legal (1), regulatory (1)
+**Temas dominantes**: earnings (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Uber adds Zipline drones to its Eats delivery network (2026-08-19)
-- [UBER] Zipline and Uber Eats aiming to reach one million drone deliveries per day by the end of 2029 (2026-08-18)
-- [UBER] Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership (2026-08-18)
-- [UBER] Uber and Zipline partner on drone delivery (2026-08-18)
-- [UBER] NY Judge Delivers Blow to Uber Injury Lawsuit (2026-08-18)
+- [GROV] Grove ( GROV ) Q2 2026 Earnings Call Transcript (2026-08-14)
 - [WAL] Western Alliance Bancorporation ( NYSE : WAL ) Coverage Initiated at Wells Fargo & Company (2026-08-10)
+- [GROV] Critical Survey : Innovative Food ( OTCMKTS : IVFH ) versus Grove Collaborative ( NYSE : GROV ) (2026-08-07)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,8 +367,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - QuentinChen · PnL $12,447 · win rate 96% · categorias: sports
 - torta.tech · PnL $13,986 · win rate 94% · categorias: sports
-- ic4cream · PnL $27,962 · win rate 90% · categorias: sports
-- TAIWANNUMBERONE · PnL $19,709 · win rate 92% · categorias: sports, politics
+- ic4cream · PnL $27,882 · win rate 90% · categorias: sports
+- TAIWANNUMBERONE · PnL $13,751 · win rate 92% · categorias: sports, politics
 - jarosbill · PnL $22,706 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -380,7 +377,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 873 registros 30d · ultimo dato 2026-08-18
+- **sec_insiders**: `ok` · 878 registros 30d · ultimo dato 2026-08-18
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
