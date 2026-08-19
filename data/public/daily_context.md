@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T21:02:34+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T21:55:25+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -12,7 +12,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 - Volatilidad: `calm` (VIX 14.89)
 - Tendencia: `bull` (SPY 769.06 · MA50 750.17 · MA200 704.11 · dist MA200: 9.22%)
 - Credito: `tight` (HY spread 2.75)
-- Tipos: `steep` (curva 10y-2y 0.52)
+- Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
@@ -26,33 +26,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
 | TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
 | GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
-| BBT | 5.4% | satellite | 31.94 | -1.72% | 0.69% | 4.92% |
-| AAT | 5.1% | satellite | 22.8 | 0.88% | 1.06% | -10.62% |
-| DGICA | 5.1% | satellite | 18.51 | -0.54% | -0.75% | -0.09% |
-| RPRX | 4.6% | satellite | 61.73 | 3.42% | 4.66% | 8.17% |
-| FWONK | 4.4% | satellite | 104.84 | 2.76% | 1.19% | 2.58% |
-| LTH | 3.5% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
-| CHRW | 2.4% | satellite | 144.52 | -0.1% | -1.49% | -30.69% |
-| NVRI | 2.0% | satellite | 20.52 | 4.37% | -1.01% | -10.43% |
-| CRWV | 1.1% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
+| BBT | 6.5% | satellite | 31.94 | -1.72% | 0.69% | 6.9% |
+| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.65% |
+| AAT | 5.9% | satellite | 22.8 | 0.88% | 1.06% | -6.06% |
+| RPRX | 5.3% | satellite | 61.73 | 3.42% | 4.66% | 5.55% |
+| FWONK | 5.2% | satellite | 104.84 | 2.76% | 1.19% | 7.07% |
+| LTH | 4.0% | satellite | 44.65 | -1.65% | 1.89% | 6.16% |
+| CHRW | 2.7% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
+| COCO | 2.6% | satellite | 67.57 | 6.34% | 1.69% | -10.96% |
+| CRWV | 1.2% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 8.7%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.9%
-- Beta vs SPY: 0.494 · posiciones efectivas: 14.2 · HHI: 0.0702
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.3%
+- Beta vs SPY: 0.506 · posiciones efectivas: 13.9 · HHI: 0.0721
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **CRWV** · score agregado 211.5 · 3 señales · fuentes: large_holder
+- **CRWV** · score agregado 215.4 · 3 señales · fuentes: large_holder
 - **AAT** · score agregado 182.2 · 3 señales · fuentes: corporate_insider
-- **NVRI** · score agregado 147.5 · 2 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
-- **DGICA** · score agregado 119.6 · 2 señales · fuentes: corporate_insider
+- **COCO** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BBT** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -63,20 +61,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | CCHH | 82 | corporate_insider | Goh Kok E | 2 | $1,440,720 | cluster_buy |
-| UTGN | 79 | corporate_insider | CORRELL JESSE T | 2 | $283,672 | cluster_buy |
-| UTGN | 77 | corporate_insider | FIRST SOUTHERN FUNDING LL | 2 | $283,672 | cluster_buy |
-| VRCA | 76 | corporate_insider | Rieger Jayson | 2 | $101,200 | cluster_buy |
-| NVRI | 75 | corporate_insider | Minan Peter Francis | 2 | $49,829 | cluster_buy |
-| VRCA | 74 | corporate_insider | Rieger Jayson | 2 | $24,550 | cluster_buy,small_amount |
+| REFI | 80 | corporate_insider | Cappell Anthony | 2 | $468,225 | cluster_buy |
+| REFI | 74 | corporate_insider | Mazarakis John | 2 | $256,325 | cluster_buy |
 | CCHH | 73 | corporate_insider | Ng Yah Ling | 2 | $129,716 | cluster_buy |
-| NVRI | 72 | corporate_insider | HAZNEDAR CAROLANN I | 2 | $99,747 | cluster_buy |
+| GABC | 73 | corporate_insider | Ryan Christina M | 3 | $20,000 | cluster_buy,small_amount |
+| GABC | 73 | corporate_insider | Bawel Zachary W | 3 | $20,000 | cluster_buy,small_amount |
+| ACON | 72 | corporate_insider | Gould Gregory A | 2 | $24,500 | cluster_buy,small_amount |
 | ATXG | 72 | large_holder | Seah Chia Yee |  | - | - |
+| COCO | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
+| CRWV | 72 | large_holder | Brannin McBee |  | - | - |
+| CRWV | 72 | large_holder | Brian Venturo |  | - | - |
+| CRWV | 72 | large_holder | Michael N Intrator |  | - | - |
 | BBT | 72 | large_holder | Fuller & Thaler Asset Man |  | - | - |
-| NVRI | 72 | corporate_insider | Minan Peter Francis | 2 | $9,886 | cluster_buy,small_amount |
-| VRCA | 70 | corporate_insider | Zawitz David | 2 | $29,880 | cluster_buy |
 | FBIN | 70 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
-| PRTA | 70 | large_holder | Fennell Todd W. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -87,9 +85,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
+| WAB | 62 | congress | April McClain Delaney | $15,000 | small_amount |
+| WAB | 62 | congress | April McClain Delaney | $50,000 | - |
 | AUR | 61 | corporate_insider | Uber Technologies, Inc | $471,600,000 | - |
-| OGN | 61 | congress | Kevin Hern | $15,000 | small_amount |
-| VSNT | 61 | congress | Kevin Hern | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -103,54 +101,52 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
 - DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
+- IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 14.89 (-6.0% / 2.34% / -20.67%) [2026-08-19]
-- BTC-USD: 69036.83 (6.73% / 9.62% / 6.66%) [2026-08-19]
+- ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
+- BTC-USD: 69730.58 (7.81% / 10.73% / 7.73%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.19 (delta 1m: -0.02) [2026-08-18]
 - Treasury 10Y yield: 4.71 (delta 1m: 0.11) [2026-08-18]
-- Curva 10Y-2Y: 0.52 (delta 1m: 0.13) [2026-08-18]
+- Curva 10Y-2Y: 0.46 (delta 1m: 0.09) [2026-08-19]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.75 (delta 1m: 0.06) [2026-08-18]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
-- Breakeven inflacion 10Y: 2.3 (delta 1m: 0.05) [2026-08-18]
+- Breakeven inflacion 10Y: 2.3 (delta 1m: 0.04) [2026-08-19]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (1)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ACHR] Archer Aviation ( NYSE : ACHR ) Insider Eric Lentell Sells 52 , 762 Shares (2026-08-19)
-- [ACHR] Insider Selling : Archer Aviation ( NYSE : ACHR ) CFO Sells 10 , 015 Shares (2026-08-19)
-- [ACHR] Insider Selling : Archer Aviation ( NYSE : ACHR ) CAO Sells $88 , 970 . 80 in Stock (2026-08-19)
-- [ACHR] Archer Aviation ( NYSE : ACHR ) Shares Down 1 . 5 % – What Next ? (2026-08-18)
-- [ACHR] Archer Aviation ( ACHR ) Q2 2026 Earnings Call Transcript (2026-08-18)
-- [TNET] Curreen Capital : TriNet ( TNET ) is a  Crazy - Cheap  Turnaround (2026-08-11)
-- [TNET] TriNet Group ( NYSE : TNET ) Director Wayne Lowell Sells 5 , 773 Shares of Stock (2026-08-06)
+- [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
+- [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
+- [CRWV] CoreWeave opens first Asia - Pacific cloud footprint with three Indonesia data centers totaling 360 MW (2026-08-19)
+- [NET] Bots Now Make Up More Than Half of Internet Traffic . Here How It Affecting Businesses . (2026-08-19)
+- [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Uber Technologies, Inc vendio AUR por $471.6M el 2026-08-17.
+- CEO Jonsson Patrik vendio LLY por $7.6M el 2026-08-17 [senal en multiples fuentes].
+- CEO Hollar Jason M. opero CAH por $24.3M el 2026-08-15.
+- CEO Bevirt JoeBen vendio JOBY por $4.7M el 2026-08-17.
 - CEO Collins Michael W vendio NTB por $4.4M el 2026-08-18.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $232,126 · win rate 92% · categorias: crypto
-- ExplosiveNinja · PnL $31,208 · win rate 97% · categorias: sports
-- KongX · PnL $24,632 · win rate 94% · categorias: sports, crypto, economy
-- BreakTheBank · PnL $77,764 · win rate 84% · categorias: sports
-- ic4cream · PnL $29,225 · win rate 90% · categorias: sports
+- JnStTrdrBnusFnd · PnL $242,384 · win rate 91% · categorias: crypto
+- ExplosiveNinja · PnL $27,616 · win rate 97% · categorias: sports
+- KongX · PnL $27,349 · win rate 94% · categorias: sports, crypto, economy
+- CORGI8 · PnL $36,423 · win rate 92% · categorias: sports
+- ic4cream · PnL $30,251 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -158,7 +154,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 106 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 674 registros 30d · ultimo dato 2026-08-19
+- **sec_insiders**: `ok` · 770 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-19
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -172,7 +168,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AAT, BBT, CHRW, CRWV, DGICA, FWONK, GLD, IEF, LTH, NVRI, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AAT, BBT, CHRW, COCO, CRWV, FWONK, GLD, IEF, LTH, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
