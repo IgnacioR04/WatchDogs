@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-19T17:56:49.823964+00:00",
+  "generated_at": "2026-08-19T19:09:25.277777+00:00",
   "window": {
     "from": "2026-07-20",
     "to": "2026-08-19",
@@ -24,6 +24,9 @@
   "market_context": {
     "top_themes": [
       "earnings",
+      "ai",
+      "leadership",
+      "legal",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -425,6 +428,14 @@
         ]
       },
       {
+        "ticker": "EMYB",
+        "company": "Embassy Bancorp, Inc.",
+        "pressure_score": 290.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "MSFT",
         "company": "Stock",
         "pressure_score": 279.4,
@@ -503,14 +514,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "ADBT",
-        "company": "Advasa Holdings, Inc.",
-        "pressure_score": 208.5,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -531,15 +534,6 @@
         ]
       },
       {
-        "ticker": "TDG",
-        "company": "Common Stock",
-        "pressure_score": 1357.7,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CRWD",
         "company": "Common Stock",
         "pressure_score": 1121.4,
@@ -552,14 +546,6 @@
         "ticker": "LIFE",
         "company": "Ethos Technologies Inc.",
         "pressure_score": 730.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DK",
-        "company": "Delek US Holdings, Inc.",
-        "pressure_score": 456.5,
         "sources": [
           "corporate_insider"
         ]
@@ -636,6 +622,22 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "STOK",
+        "company": "Stoke Therapeutics, Inc.",
+        "pressure_score": 260.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "COF",
+        "company": "CAPITAL ONE FINANCIAL CORP",
+        "pressure_score": 255.0,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -657,6 +659,15 @@
       "amount": 1050000.0,
       "date": "2026-08-18",
       "score": 81.2
+    },
+    {
+      "ticker": "BKKT",
+      "company": "Bakkt, Inc.",
+      "actor": "ALFRED MICHAEL",
+      "actor_type": "director",
+      "amount": 2111557.04,
+      "date": "2026-08-18",
+      "score": 79.0
     },
     {
       "ticker": "CCHH",
@@ -765,15 +776,6 @@
       "amount": 110300.0,
       "date": "2026-08-18",
       "score": 72.6
-    },
-    {
-      "ticker": "NRGV",
-      "company": "Energy Vault Holdings, Inc.",
-      "actor": "Hixon Dylan",
-      "actor_type": "director",
-      "amount": 106536.42,
-      "date": "2026-08-17",
-      "score": 72.5
     }
   ],
   "institutional_changes": [
@@ -1057,14 +1059,6 @@
     },
     {
       "politician": "April McClain Delaney",
-      "ticker": "TDG",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-07-28",
-      "score": 62.4
-    },
-    {
-      "politician": "April McClain Delaney",
       "ticker": "WAB",
       "direction": "sell",
       "amount": 15000,
@@ -1078,6 +1072,14 @@
       "amount": 50000,
       "date": "2026-07-23",
       "score": 62.0
+    },
+    {
+      "politician": "Ed Case",
+      "ticker": "AAPL",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-08-13",
+      "score": 61.1
     }
   ],
   "large_holders": [
@@ -1145,6 +1147,15 @@
       "date": "2026-08-18"
     },
     {
+      "filer": "FMR LLC",
+      "company": "Fidelity Multi-Strategy Credit Fund",
+      "ticker": "",
+      "ownership_pct": 52.2,
+      "shares": 3082424,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-19"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1206,15 +1217,6 @@
       "shares": 9899224,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-14"
-    },
-    {
-      "filer": "SIT INVESTMENT ASSOCIATES INC",
-      "company": "ABERDEEN GOVERNMENT MARKETS INCOME FUND",
-      "ticker": "MGF",
-      "ownership_pct": 34.8,
-      "shares": 11342025,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-14"
     }
   ],
   "polymarket": {
@@ -1222,7 +1224,7 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 114140.37,
+        "pnl": 115364.05,
         "win_rate": 0.9231,
         "volume": 30484.54,
         "categories": [
@@ -1232,9 +1234,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 21958.55,
+        "pnl": 29930.47,
         "win_rate": 0.9677,
-        "volume": 104165.07,
+        "volume": 114497.98,
         "categories": [
           "sports"
         ]
@@ -1242,9 +1244,9 @@
       {
         "wallet": "0xede186f37e",
         "username": "KongX",
-        "pnl": 25303.9,
+        "pnl": 23794.56,
         "win_rate": 0.9401,
-        "volume": 39118.5,
+        "volume": 40629.81,
         "categories": [
           "sports",
           "crypto",
@@ -1254,9 +1256,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 28953.65,
+        "pnl": 29670.05,
         "win_rate": 0.896,
-        "volume": 33914.5,
+        "volume": 35890.5,
         "categories": [
           "sports"
         ]
@@ -1264,8 +1266,8 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 23870.28,
-        "win_rate": 0.9044,
+        "pnl": 23875.79,
+        "win_rate": 0.9024,
         "volume": 115155.06,
         "categories": [
           "sports",
@@ -1275,8 +1277,8 @@
       {
         "wallet": "0xe548376f23",
         "username": "Uniform123",
-        "pnl": 27977.92,
-        "win_rate": 0.8817,
+        "pnl": 27996.42,
+        "win_rate": 0.883,
         "volume": 71650.16,
         "categories": [
           "sports"
@@ -1285,7 +1287,7 @@
       {
         "wallet": "0x6db983ff1c",
         "username": "tsihkodiives",
-        "pnl": 39395.04,
+        "pnl": 33591.7,
         "win_rate": 0.8425,
         "volume": 31991.83,
         "categories": [
@@ -1295,21 +1297,11 @@
         ]
       },
       {
-        "wallet": "0x927cf2bb94",
-        "username": "jarosbill",
-        "pnl": 22705.6,
-        "win_rate": 0.8741,
-        "volume": 79052.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xcc500cbcc8",
         "username": "justdance",
-        "pnl": 24910.65,
-        "win_rate": 0.823,
-        "volume": 214451.94,
+        "pnl": 26104.09,
+        "win_rate": 0.822,
+        "volume": 234086.09,
         "categories": [
           "crypto"
         ]
@@ -1317,9 +1309,19 @@
       {
         "wallet": "0xf1771327cc",
         "username": "dauntlesswitness",
-        "pnl": 44739.51,
+        "pnl": 55476.97,
         "win_rate": 1.0,
-        "volume": 94188.24,
+        "volume": 188376.48,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 233042.82,
+        "win_rate": 0.632,
+        "volume": 5687194.15,
         "categories": [
           "sports"
         ]
@@ -1329,9 +1331,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 165343.23,
+        "pnl": 233042.82,
         "win_rate": 0.632,
-        "volume": 4941247.29,
+        "volume": 5687194.15,
         "categories": [
           "sports"
         ]
@@ -1339,9 +1341,9 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 49007.35,
-        "win_rate": 0.668,
-        "volume": 2359018.01,
+        "pnl": 50411.04,
+        "win_rate": 0.672,
+        "volume": 2497580.93,
         "categories": [
           "crypto"
         ]
@@ -1349,9 +1351,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 127773.7,
+        "pnl": 152190.98,
         "win_rate": 0.543,
-        "volume": 1623989.97,
+        "volume": 1841290.33,
         "categories": [
           "sports"
         ]
@@ -1359,9 +1361,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 31548.17,
-        "win_rate": 0.536,
-        "volume": 754012.1,
+        "pnl": 29819.81,
+        "win_rate": 0.537,
+        "volume": 815192.1,
         "categories": [
           "sports",
           "politics"
@@ -1370,9 +1372,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 38894.82,
-        "win_rate": 0.547,
-        "volume": 1590853.69,
+        "pnl": 49040.39,
+        "win_rate": 0.549,
+        "volume": 1776469.33,
         "categories": [
           "sports"
         ]
@@ -1380,41 +1382,19 @@
       {
         "wallet": "0x6f3e7f25ba",
         "username": "fRibrenlc",
-        "pnl": 50292.9,
-        "win_rate": 0.508,
-        "volume": 299693.75,
+        "pnl": 43165.44,
+        "win_rate": 0.507,
+        "volume": 367338.38,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x011f2d377e",
-        "username": "11122",
-        "pnl": 76861.15,
-        "win_rate": 0.394,
-        "volume": 318284.85,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
         ]
       },
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 24014.35,
-        "win_rate": 0.662,
-        "volume": 816208.47,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 23119.23,
-        "win_rate": 0.572,
-        "volume": 424783.02,
+        "pnl": 37500.86,
+        "win_rate": 0.666,
+        "volume": 1003576.63,
         "categories": [
           "sports"
         ]
@@ -1422,16 +1402,82 @@
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 95042.61,
-        "win_rate": 0.466,
-        "volume": 229485.61,
+        "pnl": 89408.34,
+        "win_rate": 0.467,
+        "volume": 306686.81,
         "categories": [
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x011f2d377e",
+        "username": "11122",
+        "pnl": 76754.08,
+        "win_rate": 0.393,
+        "volume": 318411.3,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x3af1ed6ea3",
+        "username": "0x5fb6168aE589674AC569d52F934B37c14f34911",
+        "pnl": 48138.77,
+        "win_rate": 0.503,
+        "volume": 173064.84,
+        "categories": [
+          "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Hims & Hers CEO on How Firms With Large Datasets Can Cut AI Costs",
+      "url": "https://www.businessinsider.com/hims-hers-ceo-andrew-dudum-datasets-ai-costs-open-weight-2026-8",
+      "ticker": "HIMS",
+      "themes": [
+        "ai",
+        "leadership"
+      ],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
+      "url": "http://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
+      "ticker": "HIMS",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm",
+      "url": "https://www.prnewswire.com/news-releases/kessler-topaz-meltzer--check-llp-encourages-hims--hers-health-inc-nyse-hims-investors-to-contact-the-firm-302854598.html",
+      "ticker": "HIMS",
+      "themes": [],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? ",
+      "url": "https://finance.yahoo.com/healthcare/articles/why-hims-hers-health-hims-231618995.html",
+      "ticker": "HIMS",
+      "themes": [
+        "legal"
+      ],
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI",
+      "url": "https://www.cnbc.com/2026/08/18/hims-hers-ceo-andrew-dudum-ftc-lawsuit-glp-1s-ai.html",
+      "ticker": "HIMS",
+      "themes": [
+        "ai",
+        "legal",
+        "leadership"
+      ],
+      "date": "2026-08-18"
+    },
     {
       "title": "Grove ( GROV ) Q2 2026 Earnings Call Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/grove-grov-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
@@ -1468,7 +1514,7 @@
       "date": "2026-08-07"
     }
   ],
-  "signals_count": 1807,
+  "signals_count": 1795,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

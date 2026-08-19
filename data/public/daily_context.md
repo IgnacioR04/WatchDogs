@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T17:58:13+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-19T19:10:15+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.26)
-- Tendencia: `bull` (SPY 769.59 · MA50 750.18 · MA200 704.11 · dist MA200: 9.3%)
+- Volatilidad: `normal` (VIX 15.05)
+- Tendencia: `bull` (SPY 769.82 · MA50 750.18 · MA200 704.12 · dist MA200: 9.33%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `steep` (curva 10y-2y 0.52)
 - Fed Funds: 3.63%
@@ -22,25 +22,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 769.59 | 0.28% | -0.38% | 2.97% |
-| QQQ | 12.0% | core | 716.79 | -0.1% | -0.95% | 1.62% |
-| TLT | 12.0% | core | 82.71 | 1.29% | 0.74% | -0.47% |
-| GLD | 9.3% | core | 411.45 | 3.24% | 1.61% | 8.53% |
-| DGICA | 8.6% | satellite | 18.63 | 0.11% | -0.11% | 0.55% |
-| FWONK | 7.5% | satellite | 104.46 | 2.39% | 0.82% | 2.21% |
-| IEF | 6.2% | core | 93.17 | 0.26% | 0.23% | 0.19% |
-| LTH | 5.9% | satellite | 44.87 | -1.17% | 2.4% | 6.45% |
-| CHRW | 4.0% | satellite | 145.12 | 0.31% | -1.08% | -30.4% |
-| NVRI | 3.3% | satellite | 20.57 | 4.63% | -0.77% | -10.21% |
-| AMBQ | 2.2% | satellite | 59.84 | -5.03% | -8.77% | -17.38% |
-| CRWV | 1.8% | satellite | 92.29 | -0.94% | -14.33% | 11.68% |
+| SPY | 12.0% | core | 769.82 | 0.31% | -0.35% | 3.0% |
+| QQQ | 12.0% | core | 716.74 | -0.11% | -0.96% | 1.61% |
+| TLT | 12.0% | core | 82.89 | 1.51% | 0.95% | -0.26% |
+| GLD | 9.3% | core | 413.2 | 3.68% | 2.04% | 8.99% |
+| DGICA | 8.5% | satellite | 18.61 | 0.0% | -0.21% | 3.43% |
+| FWONK | 7.7% | satellite | 104.51 | 2.44% | 0.87% | 6.73% |
+| IEF | 6.2% | core | 93.28 | 0.38% | 0.35% | 0.54% |
+| LTH | 5.9% | satellite | 44.74 | -1.46% | 2.09% | 6.36% |
+| CHRW | 4.0% | satellite | 144.33 | -0.24% | -1.62% | -30.39% |
+| NVRI | 3.4% | satellite | 20.48 | 4.17% | -1.21% | -10.84% |
+| AMBQ | 2.2% | satellite | 59.48 | -5.6% | -9.32% | -23.3% |
+| CRWV | 1.8% | satellite | 90.82 | -2.52% | -15.7% | 9.9% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.5%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.599 · posiciones efectivas: 13.2 · HHI: 0.076
+- Volatilidad anualizada: 10.2%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -2.8%
+- Beta vs SPY: 0.586 · posiciones efectivas: 13.2 · HHI: 0.0759
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -94,15 +94,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 769.59 (0.28% / -0.38% / 2.97%) [2026-08-19]
-- QQQ: 716.79 (-0.1% / -0.95% / 1.62%) [2026-08-19]
-- IWM: 301.85 (0.54% / -0.28% / 2.74%) [2026-08-19]
-- DIA: 534.11 (0.23% / -0.57% / 2.42%) [2026-08-19]
-- TLT: 82.71 (1.29% / 0.74% / -0.47%) [2026-08-19]
-- IEF: 93.17 (0.26% / 0.23% / 0.19%) [2026-08-19]
-- GLD: 411.45 (3.24% / 1.61% / 8.53%) [2026-08-19]
-- ^VIX: 15.26 (-3.66% / 4.88% / -18.7%) [2026-08-19]
-- BTC-USD: 68215.24 (5.46% / 8.32% / 5.39%) [2026-08-19]
+- SPY: 769.82 (0.31% / -0.35% / 3.0%) [2026-08-19]
+- QQQ: 716.74 (-0.11% / -0.96% / 1.61%) [2026-08-19]
+- IWM: 301.49 (0.42% / -0.4% / 2.62%) [2026-08-19]
+- DIA: 534.12 (0.23% / -0.56% / 2.43%) [2026-08-19]
+- TLT: 82.89 (1.51% / 0.95% / -0.26%) [2026-08-19]
+- IEF: 93.28 (0.38% / 0.35% / 0.54%) [2026-08-19]
+- GLD: 413.2 (3.68% / 2.04% / 8.99%) [2026-08-19]
+- ^VIX: 15.05 (-4.99% / 3.44% / -9.56%) [2026-08-19]
+- BTC-USD: 68403.33 (5.76% / 8.62% / 5.68%) [2026-08-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,10 +117,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (1)
+**Temas dominantes**: earnings (3), ai (2), leadership (2), legal (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [HIMS] Hims & Hers CEO on How Firms With Large Datasets Can Cut AI Costs (2026-08-19)
+- [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
+- [HIMS] Kessler Topaz Meltzer & Check , LLP Encourages Hims & Hers Health , Inc . ( NYSE : HIMS ) Investors to Contact the Firm (2026-08-19)
+- [HIMS] Why Is Hims & Hers Health ( HIMS ) Facing A New Privacy Lawsuit ? (2026-08-18)
+- [HIMS] Hims & Hers CEO Andrew Dudum talks FTC lawsuit , GLP - 1s , AI (2026-08-18)
 - [GROV] Grove ( GROV ) Q2 2026 Earnings Call Transcript (2026-08-14)
 - [PTON] Peloton Interactive Q4 Earnings Call Highlights (2026-08-09)
 - [PTON] PTON Stock Alert : What to Know as Peloton Reports First - Ever Annual Profit (2026-08-08)
@@ -139,19 +144,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $114,140 · win rate 92% · categorias: crypto
-- ExplosiveNinja · PnL $21,959 · win rate 97% · categorias: sports
-- KongX · PnL $25,304 · win rate 94% · categorias: sports, crypto, economy
-- ic4cream · PnL $28,954 · win rate 90% · categorias: sports
-- Skyfker · PnL $23,870 · win rate 90% · categorias: sports, crypto
+- JnStTrdrBnusFnd · PnL $115,364 · win rate 92% · categorias: crypto
+- ExplosiveNinja · PnL $29,930 · win rate 97% · categorias: sports
+- KongX · PnL $23,795 · win rate 94% · categorias: sports, crypto, economy
+- ic4cream · PnL $29,670 · win rate 90% · categorias: sports
+- Skyfker · PnL $23,876 · win rate 90% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-07 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 784 registros 30d · ultimo dato 2026-08-19
+- **congress**: `warning` · 106 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 762 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-19
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
