@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-20T11:56:37.371295+00:00",
+  "generated_at": "2026-08-20T13:25:45.943934+00:00",
   "window": {
     "from": "2026-07-21",
     "to": "2026-08-20",
@@ -23,9 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "earnings",
       "stock",
-      "regulatory"
+      "earnings",
+      "regulatory",
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -402,6 +404,15 @@
         ]
       },
       {
+        "ticker": "ATXG",
+        "company": "Addentax Group Corp.",
+        "pressure_score": 512.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "ENHA",
         "company": "Enhanced Group Inc.",
         "pressure_score": 375.1,
@@ -459,6 +470,15 @@
         ]
       },
       {
+        "ticker": "TSM",
+        "company": "Manufacturing Company Ltd.",
+        "pressure_score": 275.2,
+        "sources": [
+          "congress",
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AMAT",
         "company": "Stock",
         "pressure_score": 225.8,
@@ -497,22 +517,6 @@
         "pressure_score": 214.6,
         "sources": [
           "congress"
-        ]
-      },
-      {
-        "ticker": "LTGO",
-        "company": "Latigo Biotherapeutics, Inc.",
-        "pressure_score": 210.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "ADMQ",
-        "company": "ADM ENDEAVORS, INC.",
-        "pressure_score": 208.6,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -742,6 +746,15 @@
       "score": 75.5
     },
     {
+      "ticker": "TSM",
+      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "actor": "Yuan Lipen",
+      "actor_type": "officer",
+      "amount": 73770.0,
+      "date": "2026-08-19",
+      "score": 73.7
+    },
+    {
       "ticker": "SGRY",
       "company": "Surgery Partners, Inc.",
       "actor": "DeLuca Teresa",
@@ -767,15 +780,6 @@
       "amount": 24300.0,
       "date": "2026-08-18",
       "score": 73.0
-    },
-    {
-      "ticker": "EMYB",
-      "company": "Embassy Bancorp, Inc.",
-      "actor": "Lobach David M Jr",
-      "actor_type": "ceo",
-      "amount": 11195.0,
-      "date": "2026-08-18",
-      "score": 72.6
     }
   ],
   "institutional_changes": [
@@ -1222,6 +1226,16 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 87777.22,
+        "win_rate": 0.9685,
+        "volume": 229916.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf5f9294051",
         "username": "kekasaur",
         "pnl": 130207.75,
@@ -1232,65 +1246,54 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStTrdrBnusFnd",
-        "pnl": 72574.06,
-        "win_rate": 0.9125,
-        "volume": 97004.73,
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 119574.94,
+        "win_rate": 0.919,
+        "volume": 728612.62,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xc1de5ffb02",
         "username": "Barbozaaa321",
-        "pnl": 23243.63,
+        "pnl": 26483.64,
         "win_rate": 0.9636,
-        "volume": 118230.15,
+        "volume": 133230.15,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 48526.98,
-        "win_rate": 0.9,
-        "volume": 9726.21,
+        "wallet": "0x1465b79bff",
+        "username": "JnStTrdrBnusFnd",
+        "pnl": 43671.95,
+        "win_rate": 0.9136,
+        "volume": 190311.29,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 36333.45,
-        "win_rate": 0.9184,
-        "volume": 567103.94,
-        "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 49887.91,
+        "pnl": 66676.68,
         "win_rate": 0.882,
-        "volume": 209981.29,
+        "volume": 237990.43,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 20056.88,
-        "win_rate": 0.9171,
-        "volume": 300916.62,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 48533.42,
+        "win_rate": 0.9,
+        "volume": 11620.21,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
         ]
       },
       {
@@ -1304,22 +1307,21 @@
         ]
       },
       {
-        "wallet": "0x57b4520916",
-        "username": "Skyfker",
-        "pnl": 21846.87,
-        "win_rate": 0.9016,
-        "volume": 218020.14,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x0cbee43106",
         "username": "kluckkluck",
         "pnl": 195844.31,
         "win_rate": 1.0,
         "volume": 731698.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x282f817479",
+        "username": "lzh1",
+        "pnl": 41749.72,
+        "win_rate": 0.8402,
+        "volume": 107970.92,
         "categories": [
           "sports"
         ]
@@ -1327,11 +1329,32 @@
     ],
     "whales": [
       {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 305355.32,
+        "win_rate": 0.4938,
+        "volume": 3446296.74,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
-        "pnl": 405728.79,
+        "pnl": 405604.37,
         "win_rate": 0.5446,
         "volume": 1505318.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 31077.73,
+        "win_rate": 0.653,
+        "volume": 2906403.63,
         "categories": [
           "sports"
         ]
@@ -1347,21 +1370,11 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 84600.0,
-        "win_rate": 0.654,
-        "volume": 916544.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 22588.86,
-        "win_rate": 0.538,
-        "volume": 567106.89,
+        "pnl": 24009.05,
+        "win_rate": 0.541,
+        "volume": 915456.6,
         "categories": [
           "sports",
           "politics"
@@ -1370,9 +1383,9 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 36333.45,
-        "win_rate": 0.9184,
-        "volume": 567103.94,
+        "pnl": 119574.94,
+        "win_rate": 0.919,
+        "volume": 728612.62,
         "categories": [
           "sports"
         ]
@@ -1380,9 +1393,9 @@
       {
         "wallet": "0x8c0b024c17",
         "username": "IMAREALPERSON",
-        "pnl": 67012.25,
-        "win_rate": 0.748,
-        "volume": 521457.12,
+        "pnl": 79282.71,
+        "win_rate": 0.749,
+        "volume": 620906.59,
         "categories": [
           "sports",
           "politics"
@@ -1391,9 +1404,9 @@
       {
         "wallet": "0xc69bd5567b",
         "username": "vtcchampion52",
-        "pnl": 23069.03,
-        "win_rate": 0.527,
-        "volume": 764353.33,
+        "pnl": 24308.6,
+        "win_rate": 0.523,
+        "volume": 847143.51,
         "categories": [
           "sports"
         ]
@@ -1411,26 +1424,25 @@
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 64558.78,
+        "pnl": 69218.62,
         "win_rate": 0.477,
-        "volume": 363989.81,
+        "volume": 417575.15,
         "categories": [
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0xf5f9294051",
-        "username": "kekasaur",
-        "pnl": 130207.75,
-        "win_rate": 0.9333,
-        "volume": 247912.36,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/20/contrasting-microchip-technology-nasdaqmchp-lasertec-otcmktslsrcy.html",
+      "ticker": "MCHP",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-20"
+    },
     {
       "title": "Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities",
       "url": "https://www.dailypolitical.com/2026/08/19/astera-labs-nasdaqalab-upgraded-at-northland-securities.html",
@@ -1442,13 +1454,40 @@
       "date": "2026-08-20"
     },
     {
-      "title": "Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/healthcare/articles/cardinal-health-cah-q4-2026-144333987.html",
-      "ticker": "CAH",
+      "title": "AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors",
+      "url": "https://www.fool.com/coverage/charts/2026/08/20/applovin-vs-coreweave-what-recent-revenue-trends-tell-investors/?source=iedfolrf0000001",
+      "ticker": "CRWV",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-19"
+      "date": "2026-08-20"
+    },
+    {
+      "title": "AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-vs-coreweave-recent-revenue-044326721.html",
+      "ticker": "CRWV",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares",
+      "url": "https://www.dailypolitical.com/2026/08/19/neumora-therapeutics-nasdaqnmra-insider-daljit-singh-aurora-sells-34987-shares.html",
+      "ticker": "NMRA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13550411/daljit-singh-aurora-sells-34987-shares-of-neumora-therapeutics-nasdaqnmra-stock.html",
+      "ticker": "NMRA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-20"
     },
     {
       "title": "Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) ",
@@ -1460,22 +1499,14 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-health-cah-big-earnings-165020198.html",
-      "ticker": "CAH",
+      "title": "Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion",
+      "url": "https://www.themarketsdaily.com/2026/08/19/microchip-technology-shareholders-approve-board-12m-share-equity-plan-expansion.html",
+      "ticker": "MCHP",
       "themes": [
-        "earnings"
+        "ai",
+        "leadership"
       ],
       "date": "2026-08-19"
-    },
-    {
-      "title": "Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/18/cardinal-health-cah-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CAH",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-18"
     },
     {
       "title": "Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) ",
@@ -1487,35 +1518,43 @@
       "date": "2026-08-17"
     },
     {
-      "title": "Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA",
-      "url": "https://www.themarketsdaily.com/2026/08/17/handelsbanken-fonder-ab-purchases-5000-shares-of-synaptics-incorporated-syna.html",
-      "ticker": "SYNA",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-08-17"
-    },
-    {
-      "title": "Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS",
-      "url": "https://www.dailypolitical.com/2026/08/08/synaptics-nasdaqsyna-posts-quarterly-earnings-results-beats-estimates-by-0-02-eps.html",
-      "ticker": "SYNA",
+      "title": "Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS",
+      "url": "https://www.tickerreport.com/banking-finance/13543775/neumora-therapeutics-nasdaqnmra-announces-quarterly-earnings-results-beats-expectations-by-0-01-eps.html",
+      "ticker": "NMRA",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-08"
+      "date": "2026-08-15"
     },
     {
-      "title": "Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results",
-      "url": "https://www.themarketsdaily.com/2026/08/08/synaptics-nasdaqsyna-releases-quarterly-earnings-results.html",
-      "ticker": "SYNA",
+      "title": "Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS",
+      "url": "https://www.dailypolitical.com/2026/08/14/neumora-therapeutics-nasdaqnmra-announces-earnings-results-beats-estimates-by-0-01-eps.html",
+      "ticker": "NMRA",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-08"
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update",
+      "url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/globenewswire/neumora-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update/2405663",
+      "ticker": "NMRA",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Neumora Therapeutics , Inc .: Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69315143-neumora-therapeutics-inc-neumora-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update-399.htm",
+      "ticker": "NMRA",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-14"
     }
   ],
-  "signals_count": 1872,
+  "signals_count": 1875,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
