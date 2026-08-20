@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-20T13:26:53+00:00 -->
+<!-- trader_prompt.md generado 2026-08-20T14:16:29+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T13:26:53+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T14:16:29+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,8 +241,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.79)
-- Tendencia: `bull` (SPY 769.06 · MA50 750.17 · MA200 704.11 · dist MA200: 9.22%)
+- Volatilidad: `normal` (VIX 15.83)
+- Tendencia: `bull` (SPY 766.03 · MA50 750.78 · MA200 704.56 · dist MA200: 8.72%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -254,26 +254,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 769.06 | 0.21% | -0.44% | 2.9% |
-| QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
-| TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
-| GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| FWONK | 8.4% | satellite | 104.84 | 2.76% | 1.19% | 2.58% |
-| LTH | 6.7% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
-| TSM | 4.6% | satellite | 412.09 | -0.32% | -3.98% | -2.17% |
-| CHRW | 4.5% | satellite | 144.52 | -0.1% | -1.49% | -30.69% |
-| COCO | 4.4% | satellite | 67.57 | 6.34% | 1.69% | -7.67% |
-| CRWV | 2.0% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
-| CBRS | 1.7% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
-| MPLT | 1.2% | satellite | 12.15 | 2.79% | 6.77% | -66.24% |
+| SPY | 12.0% | core | 766.03 | -0.39% | -1.52% | 3.77% |
+| QQQ | 12.0% | core | 712.56 | -0.49% | -2.67% | 2.98% |
+| TLT | 12.0% | core | 82.43 | -0.71% | -0.19% | -0.49% |
+| GLD | 9.3% | core | 411.35 | -0.6% | 3.11% | 10.72% |
+| FWONK | 8.6% | satellite | 104.58 | -0.24% | 0.86% | 7.86% |
+| LTH | 6.7% | satellite | 44.62 | -0.07% | 0.7% | 6.42% |
+| IEF | 6.2% | core | 93.04 | -0.37% | -0.28% | 0.54% |
+| TSM | 4.5% | satellite | 414.43 | 0.57% | -3.73% | -0.28% |
+| CHRW | 4.5% | satellite | 143.7 | -0.57% | -3.78% | -30.08% |
+| COCO | 4.4% | satellite | 65.92 | -2.45% | 1.08% | -11.46% |
+| CRWV | 2.0% | satellite | 91.87 | 1.1% | -13.56% | 13.28% |
+| CBRS | 1.6% | satellite | 205.6 | -4.68% | -11.0% | -6.55% |
+| MPLT | 1.2% | satellite | 11.66 | -4.03% | 0.69% | -66.98% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 12.2%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -4.9%
-- Beta vs SPY: 0.712 · posiciones efectivas: 13.5 · HHI: 0.0741
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -3.6%
+- Beta vs SPY: 0.707 · posiciones efectivas: 13.4 · HHI: 0.0744
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -328,15 +328,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 769.06 (0.21% / -0.44% / 2.9%) [2026-08-19]
-- QQQ: 716.08 (-0.2% / -1.05% / 1.52%) [2026-08-19]
-- IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
-- DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
-- TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
-- GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 15.79 (6.04% / 7.93% / -15.34%) [2026-08-20]
-- BTC-USD: 71894.05 (3.79% / 14.07% / 14.46%) [2026-08-20]
+- SPY: 766.03 (-0.39% / -1.52% / 3.77%) [2026-08-20]
+- QQQ: 712.56 (-0.49% / -2.67% / 2.98%) [2026-08-20]
+- IWM: 298.49 (-1.07% / -1.65% / 2.19%) [2026-08-20]
+- DIA: 529.91 (-0.82% / -1.49% / 2.64%) [2026-08-20]
+- TLT: 82.43 (-0.71% / -0.19% / -0.49%) [2026-08-20]
+- IEF: 93.04 (-0.37% / -0.28% / 0.54%) [2026-08-20]
+- GLD: 411.35 (-0.6% / 3.11% / 10.72%) [2026-08-20]
+- ^VIX: 15.83 (6.31% / 8.2% / -15.35%) [2026-08-20]
+- BTC-USD: 71667.12 (3.47% / 13.71% / 14.09%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,20 +351,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), earnings (4), regulatory (3), ai (2), leadership (1)
+**Temas dominantes**: earnings (9), stock (3), regulatory (3), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MCHP] Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) (2026-08-20)
-- [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
 - [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
 - [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
 - [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares (2026-08-20)
 - [NMRA] Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock (2026-08-20)
-- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
 - [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
-- [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
-- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
+- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-18)
+- [SYNA] Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA (2026-08-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -391,7 +391,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 842 registros 30d · ultimo dato 2026-08-19
+- **sec_insiders**: `ok` · 844 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
