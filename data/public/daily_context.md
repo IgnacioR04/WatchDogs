@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T04:15:40+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T05:11:07+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,22 +26,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
 | TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
 | GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| RPRX | 7.7% | satellite | 61.73 | 3.42% | 4.66% | 8.17% |
-| FWONK | 7.5% | satellite | 104.84 | 2.76% | 1.19% | 2.58% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
-| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
-| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.69% |
-| COCO | 4.0% | satellite | 67.57 | 6.34% | 1.69% | -7.67% |
+| RPRX | 7.8% | satellite | 61.73 | 3.42% | 4.66% | 5.55% |
+| FWONK | 7.6% | satellite | 104.84 | 2.76% | 1.19% | 7.07% |
+| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.65% |
+| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 6.16% |
+| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
+| COCO | 3.9% | satellite | 67.57 | 6.34% | 1.69% | -10.96% |
 | CRWV | 1.8% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
-| CBRS | 1.5% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
-| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -66.24% |
+| CBRS | 1.4% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
+| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -67.55% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.1%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.548 · posiciones efectivas: 13.4 · HHI: 0.0747
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.7%
+- Beta vs SPY: 0.547 · posiciones efectivas: 13.4 · HHI: 0.0748
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -101,10 +101,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
 - DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
+- IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 14.89 (-6.0% / 2.34% / -20.67%) [2026-08-19]
-- BTC-USD: 69313.75 (7.16% / 10.06% / 7.09%) [2026-08-20]
+- ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
+- BTC-USD: 69468.28 (7.4% / 10.31% / 7.33%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,13 +119,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] CoreWeave Drops 12 %, but Truist Still Sees 66 % Upside (2026-08-19)
-- [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
-- [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [NET] Bots Now Make Up More Than Half of Internet Traffic . Here How It Affecting Businesses . (2026-08-19)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
 - [ALAB] 8 , 193 Shares in Astera Labs , Inc . $ALAB Bought by Oppenheimer Asset Management Inc . (2026-08-16)
 
@@ -142,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- kekasaur · PnL $63,475 · win rate 93% · categorias: sports
-- ic4cream · PnL $46,212 · win rate 90% · categorias: sports
-- JnStTrdrBnusFnd · PnL $28,658 · win rate 91% · categorias: crypto
-- QuentinChen · PnL $14,001 · win rate 96% · categorias: sports
-- comon119 · PnL $10,530 · win rate 97% · categorias: sports, crypto
+- kekasaur · PnL $130,071 · win rate 93% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $58,817 · win rate 92% · categorias: sports
+- ic4cream · PnL $48,194 · win rate 90% · categorias: sports
+- JnStTrdrBnusFnd · PnL $30,018 · win rate 91% · categorias: crypto
+- QuentinChen · PnL $14,010 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
