@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T21:02:54+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T21:59:22+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -12,7 +12,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 - Volatilidad: `normal` (VIX 16.01)
 - Tendencia: `bull` (SPY 762.6 · MA50 750.72 · MA200 704.54 · dist MA200: 8.24%)
 - Credito: `tight` (HY spread 2.73)
-- Tipos: `flat` (curva 10y-2y 0.46)
+- Tipos: `steep` (curva 10y-2y 0.5)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
@@ -49,7 +49,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - **RSG** · score agregado 849.6 · 13 señales · fuentes: corporate_insider, large_holder
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
-- **CRWV** · score agregado 215.4 · 3 señales · fuentes: large_holder
+- **CRWV** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **TSM** · score agregado 167.1 · 3 señales · fuentes: corporate_insider
 - **ADVB** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **MPLT** · score agregado 142.0 · 2 señales · fuentes: large_holder
@@ -73,12 +73,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | MPLT | 72 | large_holder | Nan Fung Group Holdings L |  | - | - |
 | BY | 72 | large_holder | MBG INVESTORS I, LP |  | - | - |
 | HRI | 72 | large_holder | Coliseum Capital Manageme |  | - | - |
-| CRWV | 72 | large_holder | Brannin McBee |  | - | - |
-| CRWV | 72 | large_holder | Brian Venturo |  | - | - |
-| CRWV | 72 | large_holder | Michael N Intrator |  | - | - |
 | RSG | 71 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $36,353,820 | - |
 | ATXG | 70 | large_holder | OR SHAN SHAN |  | - | - |
 | ATXG | 70 | large_holder | HONG ZHIWANG |  | - | - |
+| ESTC | 70 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
+| TG | 70 | large_holder | John D. Gottwald |  | - | - |
+| PHGE | 70 | large_holder | Cystic Fibrosis Foundatio |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -89,9 +89,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
-| OGN | 61 | congress | Kevin Hern | $15,000 | small_amount |
-| VSNT | 61 | congress | Kevin Hern | $15,000 | small_amount |
-| CMCSA | 61 | congress | Kevin Hern | $15,000 | small_amount |
+| CPAY | 62 | congress | April McClain Delaney | $15,000 | small_amount |
+| CPAY | 62 | congress | April McClain Delaney | $15,000 | small_amount |
+| CPAY | 62 | congress | April McClain Delaney | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -108,32 +108,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
 - ^VIX: 16.01 (7.52% / 9.43% / -14.16%) [2026-08-20]
-- BTC-USD: 72621.76 (4.84% / 15.23% / 15.61%) [2026-08-20]
+- BTC-USD: 72719.53 (4.99% / 15.38% / 15.77%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.19 (delta 1m: -0.07) [2026-08-19]
 - Treasury 10Y yield: 4.65 (delta 1m: 0.02) [2026-08-19]
-- Curva 10Y-2Y: 0.46 (delta 1m: 0.09) [2026-08-19]
+- Curva 10Y-2Y: 0.5 (delta 1m: 0.14) [2026-08-20]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.73 (delta 1m: 0.04) [2026-08-19]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
-- Breakeven inflacion 10Y: 2.3 (delta 1m: 0.04) [2026-08-19]
+- Breakeven inflacion 10Y: 2.34 (delta 1m: 0.06) [2026-08-20]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3)
+**Temas dominantes**: ai (2), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [NET] These 4 commands I run in PowerShell solve the Windows network problems I run into most (2026-08-20)
 - [NET] Pi - hole can enforce bedtime internet shutoffs here how I set it up for my family (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
+- [MCHP] Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
+- [RSG] Republic Services Workers Fired After Mineola Trash Incident (2026-08-20)
 - [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
-- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
-- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
-- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
-- [CTKB] Cytek ( CTKB ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,16 +144,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $36.4M el 2026-08-18 [senal en multiples fuentes].
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $15.3M el 2026-08-19 [senal en multiples fuentes].
 - 10% owner Asmar Christian vendio VAC por $83.6M el 2026-08-19 [senal en multiples fuentes].
-- CEO Dines Daniel vendio PATH por $22.5M el 2026-08-19.
 - 10% owner Pau Hung To opero ADVB por $48.0B el 2026-07-27 [senal en multiples fuentes].
+- CEO GELFOND RICHARD L vendio IMAX por $10.9M el 2026-08-19.
 - 10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].
-- CEO ROBINS CHAD M vendio ADPT por $6.8M el 2026-08-18.
+- Director WARREN KELCY L compro ET por $13.8M el 2026-08-19.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ExplosiveNinja · PnL $131,480 · win rate 97% · categorias: sports
+- ExplosiveNinja · PnL $131,515 · win rate 97% · categorias: sports
 - kekasaur · PnL $130,208 · win rate 93% · categorias: sports
-- JnStTrdrBnusFnd · PnL $147,171 · win rate 90% · categorias: crypto
+- JnStTrdrBnusFnd · PnL $172,878 · win rate 90% · categorias: crypto
 - Barbozaaa321 · PnL $44,636 · win rate 96% · categorias: sports
 - Dota2winner · PnL $43,582 · win rate 96% · categorias: sports
 
@@ -160,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 856 registros 30d · ultimo dato 2026-08-20
+- **sec_insiders**: `ok` · 815 registros 30d · ultimo dato 2026-08-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
