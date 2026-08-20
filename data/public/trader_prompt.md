@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-20T06:04:48+00:00 -->
+<!-- trader_prompt.md generado 2026-08-20T07:23:22+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T06:04:48+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T07:23:21+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -336,7 +336,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
 - ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
-- BTC-USD: 69339.48 (7.2% / 10.11% / 7.13%) [2026-08-20]
+- BTC-USD: 69642.16 (0.54% / 10.5% / 10.87%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,17 +351,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (2), ai (1), leadership (1), regulatory (1)
+**Temas dominantes**: stock (4), regulatory (3), earnings (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares (2026-08-20)
+- [NMRA] Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock (2026-08-20)
 - [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
-- [SYNA] Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA (2026-08-17)
-- [ALAB] 8 , 193 Shares in Astera Labs , Inc . $ALAB Bought by Oppenheimer Asset Management Inc . (2026-08-16)
-- [SYNA] Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS (2026-08-08)
-- [SYNA] Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results (2026-08-08)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
+- [NMRA] Neumora Therapeutics , Inc .: Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +378,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- kekasaur · PnL $130,171 · win rate 93% · categorias: sports
-- CORGI8 · PnL $40,387 · win rate 92% · categorias: sports
+- kekasaur · PnL $130,208 · win rate 93% · categorias: sports
+- CORGI8 · PnL $44,935 · win rate 92% · categorias: sports
 - ic4cream · PnL $48,637 · win rate 90% · categorias: sports
 - QuentinChen · PnL $14,004 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $26,803 · win rate 91% · categorias: crypto
+- JnStTrdrBnusFnd · PnL $23,514 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
