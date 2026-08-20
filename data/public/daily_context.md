@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-19T23:51:46+00:00 · ventana señales 2026-07-20 -> 2026-08-19_
+_Generado 2026-08-20T02:06:11+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,33 +26,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
 | TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
 | GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| BBT | 6.3% | satellite | 31.94 | -1.72% | 0.69% | 6.9% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.65% |
-| AAT | 5.7% | satellite | 22.8 | 0.88% | 1.06% | -6.06% |
-| RPRX | 5.2% | satellite | 61.73 | 3.42% | 4.66% | 5.55% |
-| FWONK | 5.1% | satellite | 104.84 | 2.76% | 1.19% | 7.07% |
-| LTH | 4.0% | satellite | 44.65 | -1.65% | 1.89% | 6.16% |
-| CHRW | 2.6% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
-| COCO | 2.6% | satellite | 67.57 | 6.34% | 1.69% | -10.96% |
-| CRWV | 1.2% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
-| MPLT | 0.7% | satellite | 12.15 | 2.79% | 6.77% | -67.55% |
+| RPRX | 7.7% | satellite | 61.73 | 3.42% | 4.66% | 8.17% |
+| FWONK | 7.5% | satellite | 104.84 | 2.76% | 1.19% | 2.58% |
+| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
+| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
+| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.69% |
+| COCO | 4.0% | satellite | 67.57 | 6.34% | 1.69% | -7.67% |
+| CRWV | 1.8% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
+| CBRS | 1.5% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
+| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -66.24% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.8%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.504 · posiciones efectivas: 14.0 · HHI: 0.0715
+- Volatilidad anualizada: 10.1%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.548 · posiciones efectivas: 13.4 · HHI: 0.0747
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **CRWV** · score agregado 215.4 · 3 señales · fuentes: large_holder
-- **AAT** · score agregado 182.2 · 3 señales · fuentes: corporate_insider
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **COCO** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **BBT** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **MPLT** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **RPRX** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -62,11 +60,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| CCHH | 82 | corporate_insider | Goh Kok E | 2 | $1,440,720 | cluster_buy |
-| REFI | 80 | corporate_insider | Cappell Anthony | 2 | $468,225 | cluster_buy |
-| REFI | 74 | corporate_insider | Mazarakis John | 2 | $256,325 | cluster_buy |
-| CCHH | 73 | corporate_insider | Ng Yah Ling | 2 | $129,716 | cluster_buy |
-| ZNTL | 72 | large_holder | Walters William T |  | - | - |
+| LBGJ | 78 | corporate_insider | Huang Feng | 2 | $248,700 | cluster_buy |
 | ATXG | 72 | large_holder | Seah Chia Yee |  | - | - |
 | COCO | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
@@ -74,15 +68,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CRWV | 72 | large_holder | Brian Venturo |  | - | - |
 | CRWV | 72 | large_holder | Michael N Intrator |  | - | - |
 | BBT | 72 | large_holder | Fuller & Thaler Asset Man |  | - | - |
+| BRLT | 71 | corporate_insider | Gerstein Beth Tamara | 2 | $8,496 | cluster_buy,small_amount |
+| LBGJ | 71 | corporate_insider | Li Funa | 2 | $51,299 | cluster_buy |
 | ZBIO | 70 | large_holder | Enavate Sciences GP, LLC |  | - | - |
 | FBIN | 70 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
+| OPI | 70 | large_holder | REDWOOD CAPITAL MANAGEMEN |  | - | - |
 | PRTA | 70 | large_holder | Fennell Todd W. |  | - | - |
+| SBFG | 70 | large_holder | Strategic Value Investors |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| PINS | 65 | congress | Christian D. Menefee | $50,000 | - |
+| PINS | 66 | congress | Christian D. Menefee | $50,000 | - |
 | TSCO | 64 | congress | April McClain Delaney | $50,000 | - |
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
@@ -103,10 +101,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
 - DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
+- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
-- BTC-USD: 69199.96 (6.99% / 9.88% / 6.91%) [2026-08-19]
+- ^VIX: 14.89 (-6.0% / 2.34% / -20.67%) [2026-08-19]
+- BTC-USD: 69735.54 (7.82% / 10.73% / 7.74%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,45 +119,47 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (1)
+**Temas dominantes**: stock (6), earnings (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TDG] QNB Corp . Announces Pricing of Common Stock Offering (2026-08-20)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
 - [CRWV] CoreWeave Drops 12 %, but Truist Still Sees 66 % Upside (2026-08-19)
 - [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
 - [CRWV] Nebius Dives 14 % and CoreWeave Falls 4 % Before Rebounding . Neocloud Stocks Face Volatility as the Nasdaq Whipsaws . (2026-08-19)
 - [NET] Bots Now Make Up More Than Half of Internet Traffic . Here How It Affecting Businesses . (2026-08-19)
-- [SYF] Synchrony Financial Partners With OpenAI To Enable In - Chat Shopping (2026-08-18)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
-- [SYF] Synchrony Financial ( SYF ) Stock News & Articles (2026-08-16)
 - [ALAB] 8 , 193 Shares in Astera Labs , Inc . $ALAB Bought by Oppenheimer Asset Management Inc . (2026-08-16)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS (2026-08-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner WALTERS GROUP compro ZNTL por $15.2M el 2026-08-14 [senal en multiples fuentes].
+- CEO Dines Daniel vendio PATH por $22.5M el 2026-08-19.
 - 10% owner Uber Technologies, Inc vendio AUR por $471.6M el 2026-08-17.
+- CEO ROBINS CHAD M vendio ADPT por $6.8M el 2026-08-18.
 - CEO Collins Michael W vendio NTB por $4.4M el 2026-08-18.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStTrdrBnusFnd · PnL $286,620 · win rate 91% · categorias: crypto
-- ExplosiveNinja · PnL $33,986 · win rate 97% · categorias: sports
-- kekasaur · PnL $46,507 · win rate 93% · categorias: sports
-- KongX · PnL $30,766 · win rate 94% · categorias: sports, crypto, economy
-- theowalcott · PnL $36,369 · win rate 100% · categorias: sports
+- theowalcott · PnL $140,003 · win rate 100% · categorias: sports
+- JnStTrdrBnusFnd · PnL $29,049 · win rate 91% · categorias: crypto
+- monkeymashingkeyboard · PnL $31,816 · win rate 90% · categorias: sports
+- kekasaur · PnL $14,017 · win rate 93% · categorias: sports
+- comon119 · PnL $3,913 · win rate 97% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 106 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 791 registros 30d · ultimo dato 2026-08-19
+- **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 838 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-19
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -173,7 +173,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AAT, BBT, CHRW, COCO, CRWV, FWONK, GLD, IEF, LTH, MPLT, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CBRS, CHRW, COCO, CRWV, FWONK, GLD, IEF, LTH, MPLT, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
