@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-08-20T21:59:21+00:00",
+  "generated_at": "2026-08-20T22:59:55+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "RSG": 0.0712,
+    "GLD": 0.0932,
+    "RSG": 0.0739,
     "IEF": 0.0622,
-    "FWONK": 0.0593,
-    "LTH": 0.0471,
-    "BBIO": 0.0357,
-    "TSM": 0.0325,
-    "CHRW": 0.0316,
-    "HRI": 0.0267,
-    "CRWV": 0.0144,
-    "MPLT": 0.0088,
-    "ADVB": 0.0073
+    "FWONK": 0.0615,
+    "LTH": 0.0487,
+    "BBIO": 0.0369,
+    "TSM": 0.0336,
+    "CHRW": 0.0327,
+    "HRI": 0.0279,
+    "SUJA": 0.0119,
+    "ADVB": 0.0075
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.0633,
-    "FWONK": 0.0527,
-    "CRWV": 0.0128,
-    "TSM": 0.0289,
-    "ADVB": 0.0065,
-    "MPLT": 0.0078,
-    "CHRW": 0.0281,
-    "LTH": 0.0419,
-    "HRI": 0.0237,
-    "BBIO": 0.0317
+    "RSG": 0.0657,
+    "SUJA": 0.0106,
+    "FWONK": 0.0547,
+    "TSM": 0.0299,
+    "ADVB": 0.0067,
+    "CHRW": 0.0291,
+    "LTH": 0.0433,
+    "HRI": 0.0248,
+    "BBIO": 0.0328
   },
   "satellite_rationale": [
     {
@@ -51,20 +49,21 @@
       "n_signals": 13
     },
     {
+      "ticker": "SUJA",
+      "score": 262.6,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 4
+    },
+    {
       "ticker": "FWONK",
       "score": 248.8,
       "sources": [
         "congress"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "CRWV",
-      "score": 211.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
     },
     {
       "ticker": "TSM",
@@ -77,14 +76,6 @@
     {
       "ticker": "ADVB",
       "score": 143.6,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MPLT",
-      "score": 142.0,
       "sources": [
         "large_holder"
       ],
@@ -124,17 +115,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1003,
-    "var_95_1d": 0.0081,
-    "cvar_95_1d": 0.0129,
-    "max_drawdown": -0.0318,
-    "beta_spy": 0.603,
-    "hhi": 0.071,
+    "ann_vol": 0.0952,
+    "var_95_1d": 0.008,
+    "cvar_95_1d": 0.0121,
+    "max_drawdown": -0.0225,
+    "beta_spy": 0.557,
+    "hhi": 0.0719,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.1,
-    "gross_exposure": 0.8501,
-    "days_used": 58
+    "n_positions": 14,
+    "effective_positions": 13.9,
+    "gross_exposure": 0.85,
+    "days_used": 57
   },
   "risk_gate": {
     "passed": true,

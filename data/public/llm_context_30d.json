@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-20T21:58:25.965294+00:00",
+  "generated_at": "2026-08-20T22:58:43.778814+00:00",
   "window": {
     "from": "2026-07-21",
     "to": "2026-08-20",
@@ -23,9 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "leadership",
-      "earnings"
+      "earnings",
+      "merger",
+      "regulatory",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -63,11 +64,7 @@
       "event_date": "2026-08-18",
       "importance_score": 87.4,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_669266156291",
-        "news_828360466468",
-        "news_632420466428"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926099249/"
     },
     {
@@ -85,11 +82,7 @@
       "event_date": "2026-08-19",
       "importance_score": 87.0,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_669266156291",
-        "news_828360466468",
-        "news_632420466428"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926099249/"
     },
     {
@@ -125,11 +118,7 @@
       "event_date": "2026-08-19",
       "importance_score": 86.6,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_669266156291",
-        "news_828360466468",
-        "news_632420466428"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926099249/"
     },
     {
@@ -147,16 +136,34 @@
       "event_date": "2026-08-19",
       "importance_score": 85.8,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_669266156291",
-        "news_828360466468",
-        "news_632420466428"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926099249/"
     },
     {
       "id": "move_7",
       "rank": 7,
+      "title": "10% owner vendio CHYM ($62.3M)",
+      "summary": "10% owner DST Global Advisors Ltd vendio CHYM por $62.3M el 2026-08-19.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "DST Global Advisors Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CHYM",
+      "direction": "sell",
+      "amount_estimated": 62298548.46,
+      "event_date": "2026-08-19",
+      "importance_score": 84.8,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_859609031989",
+        "news_411200654293",
+        "news_303469254292"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner opero ADVB ($48.0B)",
       "summary": "10% owner Pau Hung To opero ADVB por $48.0B el 2026-07-27 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -173,8 +180,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2044946/000107997326001162/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner opero ADVB ($36.6B)",
       "summary": "10% owner Pau Hung To opero ADVB por $36.6B el 2026-07-27 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -191,8 +198,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2044946/000107997326001162/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro RSG ($5.9M)",
       "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $5.9M el 2026-08-18 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -205,16 +212,12 @@
       "event_date": "2026-08-18",
       "importance_score": 83.5,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_669266156291",
-        "news_828360466468",
-        "news_632420466428"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926099249/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio IMAX ($10.9M)",
       "summary": "CEO GELFOND RICHARD L vendio IMAX por $10.9M el 2026-08-19.",
       "source": "sec_form_4",
@@ -231,8 +234,30 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/944011/000121465926010664/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
+      "title": "10% owner vendio CHYM ($32.0M)",
+      "summary": "10% owner DST Global Advisors Ltd vendio CHYM por $32.0M el 2026-08-19.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "DST Global Advisors Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CHYM",
+      "direction": "sell",
+      "amount_estimated": 32006499.71,
+      "event_date": "2026-08-19",
+      "importance_score": 83.4,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_859609031989",
+        "news_411200654293",
+        "news_303469254292"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
       "title": "CEO opero IMAX ($6.6M)",
       "summary": "CEO GELFOND RICHARD L opero IMAX por $6.6M el 2026-08-19.",
       "source": "sec_form_4",
@@ -249,8 +274,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/944011/000121465926010664/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "10% owner compro ENHA ($2.7M)",
       "summary": "10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -267,8 +292,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1845711/000119312526357979/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Director compro ET ($13.8M)",
       "summary": "Director WARREN KELCY L compro ET por $13.8M el 2026-08-19.",
       "source": "sec_form_4",
@@ -285,8 +310,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1276191/000119312526359388/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "CEO vendio MIAX ($6.2M)",
       "summary": "CEO Gallagher Thomas P. vendio MIAX por $6.2M el 2026-08-19.",
       "source": "sec_form_4",
@@ -303,8 +328,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2080477/000208047726000016/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "10% owner compro PAM ($3.0M)",
       "summary": "10% owner Mindlin Marcos Marcelo compro PAM por $3.0M el 2026-08-19.",
       "source": "sec_form_4",
@@ -321,8 +346,30 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2022936/000202293626000012/"
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
+      "title": "10% owner vendio CHYM ($18.9M)",
+      "summary": "10% owner DST Global Advisors Ltd vendio CHYM por $18.9M el 2026-08-19.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "DST Global Advisors Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CHYM",
+      "direction": "sell",
+      "amount_estimated": 18856154.74,
+      "event_date": "2026-08-19",
+      "importance_score": 82.2,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_859609031989",
+        "news_411200654293",
+        "news_303469254292"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
       "title": "CEO vendio IMAX ($5.3M)",
       "summary": "CEO GELFOND RICHARD L vendio IMAX por $5.3M el 2026-08-20.",
       "source": "sec_form_4",
@@ -339,76 +386,22 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/944011/000121465926010664/"
     },
     {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
-      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 40145783473,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 35477573797,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
-      "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 31430193423,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
       "id": "move_20",
       "rank": 20,
-      "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
-      "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 30389405507,
-      "event_date": "",
-      "importance_score": 81.5,
+      "title": "CEO compro IAUX ($1.6M)",
+      "summary": "CEO Young Richard Scott compro IAUX por $1.6M el 2026-08-18.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Young Richard Scott",
+      "actor_type": "ceo",
+      "ticker": "IAUX",
+      "direction": "buy",
+      "amount_estimated": 1620000.0,
+      "event_date": "2026-08-18",
+      "importance_score": 81.9,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": ""
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2049504/000091228226001136/"
     }
   ],
   "top_tickers": {
@@ -456,10 +449,27 @@
         ]
       },
       {
+        "ticker": "NAKA",
+        "company": "Nakamoto Inc.",
+        "pressure_score": 346.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CNXU",
         "company": "Conexeu Sciences Inc.",
         "pressure_score": 341.2,
         "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SUJA",
+        "company": "Suja Life, Inc.",
+        "pressure_score": 313.9,
+        "sources": [
+          "corporate_insider",
           "large_holder"
         ]
       },
@@ -469,6 +479,15 @@
         "pressure_score": 304.7,
         "sources": [
           "congress"
+        ]
+      },
+      {
+        "ticker": "CLPR",
+        "company": "Clipper Realty Inc.",
+        "pressure_score": 290.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -505,43 +524,27 @@
         ]
       },
       {
-        "ticker": "AMAT",
-        "company": "Stock",
-        "pressure_score": 225.8,
+        "ticker": "NRDE",
+        "company": "Stark Novus Financial Inc.",
+        "pressure_score": 255.0,
         "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "MNST",
-        "company": "Common Stock",
-        "pressure_score": 221.3,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "META",
-        "company": "Common Stock",
-        "pressure_score": 214.6,
-        "sources": [
-          "congress"
-        ]
-      },
-      {
-        "ticker": "CRWV",
-        "company": "COREWEAVE, INC.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs, Inc.",
-        "pressure_score": 3956.3,
+        "ticker": "CHYM",
+        "company": "Chime Financial, Inc.",
+        "pressure_score": 3224.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "APPF",
+        "company": "APPFOLIO INC",
+        "pressure_score": 3031.2,
         "sources": [
           "corporate_insider"
         ]
@@ -550,6 +553,14 @@
         "ticker": "CAH",
         "company": "CARDINAL HEALTH INC",
         "pressure_score": 2357.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LBRDK",
+        "company": "Liberty Broadband Corp",
+        "pressure_score": 2199.0,
         "sources": [
           "corporate_insider"
         ]
@@ -564,18 +575,28 @@
         ]
       },
       {
-        "ticker": "NET",
-        "company": "Cloudflare, Inc.",
-        "pressure_score": 1371.2,
+        "ticker": "AEIS",
+        "company": "ADVANCED ENERGY INDUSTRIES INC",
+        "pressure_score": 1254.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "AEIS",
-        "company": "ADVANCED ENERGY INDUSTRIES INC",
-        "pressure_score": 1254.4,
+        "ticker": "SKYE",
+        "company": "SKYE BIOSCIENCE, INC.",
+        "pressure_score": 1162.8,
         "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "META",
+        "company": "Common Stock",
+        "pressure_score": 1158.4,
+        "sources": [
+          "congress",
           "corporate_insider"
         ]
       },
@@ -613,6 +634,14 @@
         ]
       },
       {
+        "ticker": "MA",
+        "company": "Mastercard Inc",
+        "pressure_score": 790.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CPAY",
         "company": "DC Corpay, Inc. Common Stock",
         "pressure_score": 786.3,
@@ -625,39 +654,6 @@
         "ticker": "FSLY",
         "company": "Fastly, Inc.",
         "pressure_score": 730.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TWST",
-        "company": "Twist Bioscience Corp",
-        "pressure_score": 537.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BBIO",
-        "company": "BridgeBio Pharma, Inc.",
-        "pressure_score": 528.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "FLYW",
-        "company": "Flywire Corp",
-        "pressure_score": 501.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GRMN",
-        "company": "GARMIN LTD",
-        "pressure_score": 476.9,
         "sources": [
           "corporate_insider"
         ]
@@ -738,6 +734,33 @@
       "score": 82.2
     },
     {
+      "ticker": "IAUX",
+      "company": "i-80 Gold Corp.",
+      "actor": "Young Richard Scott",
+      "actor_type": "ceo",
+      "amount": 1620000.0,
+      "date": "2026-08-18",
+      "score": 81.9
+    },
+    {
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1444359.0,
+      "date": "2026-08-20",
+      "score": 81.9
+    },
+    {
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1345923.0,
+      "date": "2026-08-19",
+      "score": 81.7
+    },
+    {
       "ticker": "RSG",
       "company": "REPUBLIC SERVICES, INC.",
       "actor": "CASCADE INVESTMENT, L.L.C.",
@@ -765,40 +788,13 @@
       "score": 80.2
     },
     {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
       "actor_type": "ten_percent_owner",
-      "amount": 622508.96,
-      "date": "2026-08-19",
-      "score": 80.1
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 477397.06,
-      "date": "2026-08-19",
-      "score": 79.5
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 448000.12,
-      "date": "2026-08-19",
-      "score": 79.4
-    },
-    {
-      "ticker": "PAM",
-      "company": "Pampa Energy Inc.",
-      "actor": "Mindlin Marcos Marcelo",
-      "actor_type": "ten_percent_owner",
-      "amount": 1327797.75,
+      "amount": 1273989.0,
       "date": "2026-08-18",
-      "score": 79.0
+      "score": 80.1
     }
   ],
   "institutional_changes": [
@@ -1073,6 +1069,14 @@
       "score": 62.6
     },
     {
+      "politician": "Ed Case",
+      "ticker": "AAPL",
+      "direction": "buy",
+      "amount": 15000,
+      "date": "2026-08-13",
+      "score": 62.4
+    },
+    {
       "politician": "April McClain Delaney",
       "ticker": "CPAY",
       "direction": "sell",
@@ -1095,14 +1099,6 @@
       "amount": 15000,
       "date": "2026-07-31",
       "score": 62.4
-    },
-    {
-      "politician": "Ed Case",
-      "ticker": "AAPL",
-      "direction": "buy",
-      "amount": 15000,
-      "date": "2026-08-13",
-      "score": 61.1
     }
   ],
   "large_holders": [
@@ -1267,9 +1263,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 172878.35,
+        "pnl": 173884.56,
         "win_rate": 0.9036,
-        "volume": 386583.42,
+        "volume": 403463.06,
         "categories": [
           "crypto"
         ]
@@ -1287,7 +1283,7 @@
       {
         "wallet": "0x3413c803c3",
         "username": "Dota2winner",
-        "pnl": 43581.79,
+        "pnl": 43840.78,
         "win_rate": 0.9597,
         "volume": 193606.1,
         "categories": [
@@ -1297,9 +1293,9 @@
       {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 125290.76,
+        "pnl": 125532.28,
         "win_rate": 0.8705,
-        "volume": 346482.72,
+        "volume": 357329.09,
         "categories": [
           "sports"
         ]
@@ -1307,7 +1303,7 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 52901.37,
+        "pnl": 52541.29,
         "win_rate": 0.9203,
         "volume": 1051335.17,
         "categories": [
@@ -1317,9 +1313,9 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 55063.15,
+        "pnl": 55524.43,
         "win_rate": 0.9,
-        "volume": 38897.53,
+        "volume": 50757.24,
         "categories": [
           "sports"
         ]
@@ -1338,7 +1334,7 @@
       {
         "wallet": "0xc41d736bde",
         "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 144155.98,
+        "pnl": 153766.38,
         "win_rate": 0.8154,
         "volume": 384415.94,
         "categories": [
@@ -1350,9 +1346,9 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 1971704.55,
-        "win_rate": 0.4969,
-        "volume": 10711245.81,
+        "pnl": 2797166.02,
+        "win_rate": 0.4631,
+        "volume": 12727941.49,
         "categories": [
           "sports",
           "crypto"
@@ -1361,7 +1357,7 @@
       {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
-        "pnl": 405604.19,
+        "pnl": 405604.28,
         "win_rate": 0.5446,
         "volume": 1505318.97,
         "categories": [
@@ -1371,7 +1367,7 @@
       {
         "wallet": "0x983eedfbd7",
         "username": "3edmond.dantes",
-        "pnl": 286069.42,
+        "pnl": 304388.4,
         "win_rate": 1.0,
         "volume": 781128.35,
         "categories": [
@@ -1381,9 +1377,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 147158.25,
-        "win_rate": 0.4835,
-        "volume": 691488.9,
+        "pnl": 54973.79,
+        "win_rate": 0.4825,
+        "volume": 875697.9,
         "categories": [
           "sports"
         ]
@@ -1401,7 +1397,7 @@
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 52901.37,
+        "pnl": 52541.29,
         "win_rate": 0.9203,
         "volume": 1051335.17,
         "categories": [
@@ -1411,7 +1407,7 @@
       {
         "wallet": "0xc41d736bde",
         "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 144155.98,
+        "pnl": 153766.38,
         "win_rate": 0.8154,
         "volume": 384415.94,
         "categories": [
@@ -1421,7 +1417,7 @@
       {
         "wallet": "0x8c0b024c17",
         "username": "IMAREALPERSON",
-        "pnl": 93386.38,
+        "pnl": 93579.83,
         "win_rate": 0.751,
         "volume": 841290.55,
         "categories": [
@@ -1432,9 +1428,9 @@
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 90139.78,
+        "pnl": 88912.96,
         "win_rate": 0.48,
-        "volume": 565685.38,
+        "volume": 602011.55,
         "categories": [
           "crypto"
         ]
@@ -1453,105 +1449,69 @@
   },
   "news": [
     {
-      "title": "These 4 commands I run in PowerShell solve the Windows network problems I run into most",
-      "url": "https://www.howtogeek.com/these-4-commands-i-run-in-powershell-solve-the-windows-network-problems-i-run-into-most/",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Pi - hole can enforce bedtime internet shutoffs here how I set it up for my family",
-      "url": "https://www.howtogeek.com/pi-hole-bedtime-internet-shutoff/",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://kbat.com/ixp/156/p/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) ",
-      "url": "https://www.themarketsdaily.com/2026/08/20/contrasting-microchip-technology-nasdaqmchp-lasertec-otcmktslsrcy.html",
-      "ticker": "MCHP",
+      "title": "Charter acquires Cox Communications and Liberty Broadband",
+      "url": "https://finance.yahoo.com/media-advertising/articles/charter-acquires-cox-communications-liberty-214854511.html",
+      "ticker": "LBRDK",
       "themes": [
-        "ai"
+        "merger",
+        "regulatory"
       ],
       "date": "2026-08-20"
     },
     {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://classicrock961.com/ixp/156/p/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://b93.net/ixp/156/p/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://mix931fm.com/ixp/156/p/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://knue.com/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Republic Services Workers Fired After Mineola Trash Incident",
-      "url": "https://lonestar995fm.com/ixp/156/p/mineola-trash-workers-fired-after-resident-complaint/",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13550360/analyzing-cytek-biosciences-nasdaqctkb-and-quantum-si-nasdaqqsi.html",
-      "ticker": "CTKB",
-      "themes": [],
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review",
-      "url": "https://www.dailypolitical.com/2026/08/19/cytek-biosciences-nasdaqctkb-versus-quantum-si-nasdaqqsi-critical-review.html",
-      "ticker": "CTKB",
-      "themes": [],
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion",
-      "url": "https://www.themarketsdaily.com/2026/08/19/microchip-technology-shareholders-approve-board-12m-share-equity-plan-expansion.html",
-      "ticker": "MCHP",
+      "title": "Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/healthcare/articles/cardinal-health-cah-q4-2026-144333987.html",
+      "ticker": "CAH",
       "themes": [
-        "ai",
-        "leadership"
+        "earnings"
       ],
       "date": "2026-08-19"
     },
     {
-      "title": "Cytek ( CTKB ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/cytek-ctkb-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CTKB",
+      "title": "Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-health-cah-big-earnings-165020198.html",
+      "ticker": "CAH",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Global Advisors Ltd Dst Sells 2 , 022 Shares of Chime Financial ( NASDAQ : CHYM ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/15/global-advisors-ltd-dst-sells-2022-shares-of-chime-financial-nasdaqchym-stock.html",
+      "ticker": "CHYM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-q2-2026-earnings-000149694.html",
+      "ticker": "CHYM",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
+      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chime-chym-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CHYM",
       "themes": [
         "earnings"
       ],
       "date": "2026-08-13"
     }
   ],
-  "signals_count": 1848,
+  "signals_count": 1916,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
