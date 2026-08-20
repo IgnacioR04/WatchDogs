@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T05:11:07+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T06:04:48+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
 - ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
-- BTC-USD: 69468.28 (7.4% / 10.31% / 7.33%) [2026-08-20]
+- BTC-USD: 69339.48 (7.2% / 10.11% / 7.13%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,14 +119,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: stock (4), earnings (2), ai (1), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
-- [NET] Bots Now Make Up More Than Half of Internet Traffic . Here How It Affecting Businesses . (2026-08-19)
+- [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
+- [SYNA] Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA (2026-08-17)
 - [ALAB] 8 , 193 Shares in Astera Labs , Inc . $ALAB Bought by Oppenheimer Asset Management Inc . (2026-08-16)
+- [SYNA] Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS (2026-08-08)
+- [SYNA] Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +144,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- kekasaur · PnL $130,071 · win rate 93% · categorias: sports
-- BOOMBOYS.Kiritych · PnL $58,817 · win rate 92% · categorias: sports
-- ic4cream · PnL $48,194 · win rate 90% · categorias: sports
-- JnStTrdrBnusFnd · PnL $30,018 · win rate 91% · categorias: crypto
-- QuentinChen · PnL $14,010 · win rate 96% · categorias: sports
+- kekasaur · PnL $130,171 · win rate 93% · categorias: sports
+- CORGI8 · PnL $40,387 · win rate 92% · categorias: sports
+- ic4cream · PnL $48,637 · win rate 90% · categorias: sports
+- QuentinChen · PnL $14,004 · win rate 96% · categorias: sports
+- JnStTrdrBnusFnd · PnL $26,803 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
