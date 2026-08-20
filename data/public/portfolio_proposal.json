@@ -1,24 +1,23 @@
 {
-  "generated_at": "2026-08-20T16:05:01+00:00",
+  "generated_at": "2026-08-20T17:07:47+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "RPRX": 0.0686,
-    "FWONK": 0.0667,
+    "GLD": 0.0933,
+    "RPRX": 0.0767,
+    "FWONK": 0.0741,
     "IEF": 0.0622,
-    "LTH": 0.0529,
-    "TSM": 0.0364,
-    "CHRW": 0.0354,
-    "COCO": 0.0354,
-    "CRWV": 0.0161,
-    "CBRS": 0.0133,
-    "MPLT": 0.0099
+    "LTH": 0.0593,
+    "TSM": 0.0408,
+    "CHRW": 0.0397,
+    "CRWV": 0.0181,
+    "CBRS": 0.0148,
+    "MPLT": 0.011
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +27,14 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0593,
-    "CRWV": 0.0143,
-    "TSM": 0.0324,
-    "CHRW": 0.0315,
-    "LTH": 0.047,
-    "COCO": 0.0315,
-    "CBRS": 0.0118,
-    "MPLT": 0.0088,
-    "RPRX": 0.061
+    "FWONK": 0.0659,
+    "CRWV": 0.0161,
+    "TSM": 0.0363,
+    "CHRW": 0.0353,
+    "LTH": 0.0527,
+    "CBRS": 0.0132,
+    "MPLT": 0.0098,
+    "RPRX": 0.0682
   },
   "satellite_rationale": [
     {
@@ -80,14 +78,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "COCO",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "CBRS",
       "score": 70.2,
       "sources": [
@@ -113,17 +103,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1083,
-    "var_95_1d": 0.0093,
-    "cvar_95_1d": 0.0123,
-    "max_drawdown": -0.0411,
-    "beta_spy": 0.634,
-    "hhi": 0.0721,
+    "ann_vol": 0.1115,
+    "var_95_1d": 0.009,
+    "cvar_95_1d": 0.0127,
+    "max_drawdown": -0.042,
+    "beta_spy": 0.658,
+    "hhi": 0.0746,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.9,
-    "gross_exposure": 0.8501,
-    "days_used": 57
+    "n_positions": 13,
+    "effective_positions": 13.4,
+    "gross_exposure": 0.85,
+    "days_used": 58
   },
   "risk_gate": {
     "passed": true,
