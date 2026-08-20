@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-20T09:13:46+00:00 -->
+<!-- trader_prompt.md generado 2026-08-20T10:08:28+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T09:13:46+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T10:08:28+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,7 +241,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.22)
+- Volatilidad: `normal` (VIX 15.23)
 - Tendencia: `bull` (SPY 769.06 · MA50 750.17 · MA200 704.11 · dist MA200: 9.22%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -335,8 +335,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
 - IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 15.22 (2.22% / 4.03% / -18.61%) [2026-08-20]
-- BTC-USD: 71830.21 (3.7% / 13.97% / 14.35%) [2026-08-20]
+- ^VIX: 15.23 (2.28% / 4.1% / -18.56%) [2026-08-20]
+- BTC-USD: 71823.65 (3.69% / 13.96% / 14.34%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,15 +351,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (2), earnings (2)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
-- [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
-- [SYNA] Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA (2026-08-17)
-- [SYNA] Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS (2026-08-08)
-- [SYNA] Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results (2026-08-08)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -375,10 +371,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $130,208 · win rate 93% · categorias: sports
-- Barbozaaa321 · PnL $19,994 · win rate 96% · categorias: sports
-- ic4cream · PnL $48,542 · win rate 90% · categorias: sports
-- CORGI8 · PnL $27,200 · win rate 92% · categorias: sports
-- QuentinChen · PnL $14,004 · win rate 96% · categorias: sports
+- Barbozaaa321 · PnL $30,015 · win rate 96% · categorias: sports
+- CORGI8 · PnL $55,952 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $45,430 · win rate 92% · categorias: sports
+- JnStTrdrBnusFnd · PnL $52,850 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
