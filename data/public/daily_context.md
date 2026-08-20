@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T07:23:21+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T08:10:29+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,13 +8,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.89)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.06)
 - Tendencia: `bull` (SPY 769.06 · MA50 750.17 · MA200 704.11 · dist MA200: 9.22%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -26,22 +26,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
 | TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
 | GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| RPRX | 7.8% | satellite | 61.73 | 3.42% | 4.66% | 5.55% |
-| FWONK | 7.6% | satellite | 104.84 | 2.76% | 1.19% | 7.07% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.65% |
-| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 6.16% |
-| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
-| COCO | 3.9% | satellite | 67.57 | 6.34% | 1.69% | -10.96% |
+| RPRX | 7.7% | satellite | 61.73 | 3.42% | 4.66% | 8.17% |
+| FWONK | 7.5% | satellite | 104.84 | 2.76% | 1.19% | 2.58% |
+| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
+| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
+| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.69% |
+| COCO | 4.0% | satellite | 67.57 | 6.34% | 1.69% | -7.67% |
 | CRWV | 1.8% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
-| CBRS | 1.4% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
-| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -67.55% |
+| CBRS | 1.5% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
+| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -66.24% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.1%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.7%
-- Beta vs SPY: 0.547 · posiciones efectivas: 13.4 · HHI: 0.0748
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.548 · posiciones efectivas: 13.4 · HHI: 0.0747
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -101,10 +101,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
 - DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
+- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 14.89 (-6.0% / 2.34% / -10.52%) [2026-08-19]
-- BTC-USD: 69642.16 (0.54% / 10.5% / 10.87%) [2026-08-20]
+- ^VIX: 15.06 (1.14% / 2.94% / -19.25%) [2026-08-20]
+- BTC-USD: 70689.68 (2.06% / 12.16% / 12.54%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,19 +119,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (3), earnings (2), ai (1), leadership (1)
+**Temas dominantes**: stock (5), earnings (4), regulatory (3), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
+- [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
+- [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
 - [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares (2026-08-20)
 - [NMRA] Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock (2026-08-20)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [CRWV] CoreWeave Drops 12 %, but Truist Still Sees 66 % Upside (2026-08-19)
 - [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
 - [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
-- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS (2026-08-15)
-- [NMRA] Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
-- [NMRA] Neumora Therapeutics , Inc .: Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,10 +148,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $130,208 · win rate 93% · categorias: sports
-- CORGI8 · PnL $44,935 · win rate 92% · categorias: sports
-- ic4cream · PnL $48,637 · win rate 90% · categorias: sports
+- CORGI8 · PnL $60,783 · win rate 92% · categorias: sports
+- ic4cream · PnL $48,604 · win rate 90% · categorias: sports
+- JnStTrdrBnusFnd · PnL $29,678 · win rate 91% · categorias: crypto
 - QuentinChen · PnL $14,004 · win rate 96% · categorias: sports
-- JnStTrdrBnusFnd · PnL $23,514 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -173,7 +174,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`CBRS, CHRW, COCO, CRWV, FWONK, GLD, IEF, LTH, MPLT, QQQ, RPRX, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
