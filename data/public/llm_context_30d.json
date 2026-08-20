@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-20T17:06:47.912801+00:00",
+  "generated_at": "2026-08-20T17:58:28.773329+00:00",
   "window": {
     "from": "2026-07-21",
     "to": "2026-08-20",
@@ -23,9 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "earnings",
-      "regulatory"
+      "stock",
+      "regulatory",
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -87,6 +89,42 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "10% owner opero ADVB ($48.0B)",
+      "summary": "10% owner Pau Hung To opero ADVB por $48.0B el 2026-07-27 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Pau Hung To",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ADVB",
+      "direction": "other",
+      "amount_estimated": 48000000000.0,
+      "event_date": "2026-07-27",
+      "importance_score": 83.6,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2044946/000107997326001162/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
+      "title": "10% owner opero ADVB ($36.6B)",
+      "summary": "10% owner Pau Hung To opero ADVB por $36.6B el 2026-07-27 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Pau Hung To",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ADVB",
+      "direction": "other",
+      "amount_estimated": 36588000000.0,
+      "event_date": "2026-07-27",
+      "importance_score": 83.6,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2044946/000107997326001162/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro ENHA ($2.7M)",
       "summary": "10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -103,8 +141,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1845711/000119312526357979/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio ADPT ($6.8M)",
       "summary": "CEO ROBINS CHAD M vendio ADPT por $6.8M el 2026-08-18.",
       "source": "sec_form_4",
@@ -121,8 +159,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1780649/000178064926000014/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio NTB ($4.4M)",
       "summary": "CEO Collins Michael W vendio NTB por $4.4M el 2026-08-18.",
       "source": "sec_form_4",
@@ -139,8 +177,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1975405/000165324226000090/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -157,8 +195,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -175,8 +213,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -193,8 +231,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -211,8 +249,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -229,8 +267,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -247,8 +285,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -265,8 +303,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -283,8 +321,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -301,8 +339,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -319,8 +357,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -337,8 +375,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -348,42 +386,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 20340227051,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
-      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 17242553494,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro INTEL CORP ($16.2B)",
-      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16233929222,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -404,9 +406,8 @@
       {
         "ticker": "ATXG",
         "company": "Addentax Group Corp.",
-        "pressure_score": 512.0,
+        "pressure_score": 423.0,
         "sources": [
-          "corporate_insider",
           "large_holder"
         ]
       },
@@ -654,15 +655,6 @@
       "score": 83.2
     },
     {
-      "ticker": "ATXG",
-      "company": "ADDENTAX GROUP CORP.",
-      "actor": "HONG ZHIWANG",
-      "actor_type": "ten_percent_owner",
-      "amount": 1050000.0,
-      "date": "2026-08-18",
-      "score": 81.2
-    },
-    {
       "ticker": "BKKT",
       "company": "Bakkt, Inc.",
       "actor": "ALFRED MICHAEL",
@@ -778,6 +770,15 @@
       "amount": 44686.68,
       "date": "2026-08-19",
       "score": 73.1
+    },
+    {
+      "ticker": "GAIN",
+      "company": "GLADSTONE INVESTMENT CORPORATION\\DE",
+      "actor": "Ritchie Taylor",
+      "actor_type": "cfo",
+      "amount": 24300.0,
+      "date": "2026-08-18",
+      "score": 73.0
     }
   ],
   "institutional_changes": [
@@ -1226,8 +1227,8 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 101749.68,
-        "win_rate": 0.9688,
+        "pnl": 118549.66,
+        "win_rate": 0.969,
         "volume": 229916.38,
         "categories": [
           "sports"
@@ -1244,40 +1245,50 @@
         ]
       },
       {
-        "wallet": "0x79ae097215",
-        "username": "CORGI8",
-        "pnl": 77052.55,
-        "win_rate": 0.9197,
-        "volume": 866468.3,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc1de5ffb02",
-        "username": "Barbozaaa321",
-        "pnl": 35928.64,
-        "win_rate": 0.9639,
-        "volume": 148230.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x1465b79bff",
         "username": "JnStTrdrBnusFnd",
-        "pnl": 60359.31,
-        "win_rate": 0.9024,
-        "volume": 244656.28,
+        "pnl": 134963.34,
+        "win_rate": 0.9036,
+        "volume": 303458.19,
         "categories": [
           "crypto"
         ]
       },
       {
+        "wallet": "0xc1de5ffb02",
+        "username": "Barbozaaa321",
+        "pnl": 35253.64,
+        "win_rate": 0.9639,
+        "volume": 163230.15,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 50656.53,
+        "win_rate": 0.9197,
+        "volume": 920027.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 48691.33,
+        "win_rate": 0.9,
+        "volume": 22419.86,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 61565.43,
-        "win_rate": 0.883,
+        "pnl": 61992.37,
+        "win_rate": 0.884,
         "volume": 348810.71,
         "categories": [
           "sports",
@@ -1285,21 +1296,11 @@
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 48485.91,
-        "win_rate": 0.9,
-        "volume": 21825.55,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 45516.04,
-        "win_rate": 0.867,
-        "volume": 180392.11,
+        "pnl": 72193.14,
+        "win_rate": 0.8682,
+        "volume": 196439.09,
         "categories": [
           "sports"
         ]
@@ -1329,7 +1330,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 383818.26,
+        "pnl": 331100.59,
         "win_rate": 0.4938,
         "volume": 4328815.94,
         "categories": [
@@ -1350,9 +1351,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 113740.73,
-        "win_rate": 0.652,
-        "volume": 4291961.97,
+        "pnl": 119229.05,
+        "win_rate": 0.654,
+        "volume": 4363749.03,
         "categories": [
           "sports"
         ]
@@ -1360,9 +1361,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 85994.3,
-        "win_rate": 0.546,
-        "volume": 1537499.48,
+        "pnl": 161848.78,
+        "win_rate": 0.548,
+        "volume": 1678736.66,
         "categories": [
           "sports",
           "politics"
@@ -1381,40 +1382,21 @@
       {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 114570.12,
-        "win_rate": 0.517,
+        "pnl": 125805.29,
+        "win_rate": 0.518,
         "volume": 738421.3,
         "categories": [
           "sports",
+          "politics",
           "crypto"
         ]
       },
       {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 77052.55,
+        "pnl": 50656.53,
         "win_rate": 0.9197,
-        "volume": 866468.3,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc69bd5567b",
-        "username": "vtcchampion52",
-        "pnl": 39941.64,
-        "win_rate": 0.525,
-        "volume": 1098834.51,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6f3e7f25ba",
-        "username": "fRibrenlc",
-        "pnl": 31304.2,
-        "win_rate": 0.508,
-        "volume": 665201.33,
+        "volume": 920027.97,
         "categories": [
           "sports"
         ]
@@ -1422,24 +1404,37 @@
       {
         "wallet": "0x8c0b024c17",
         "username": "IMAREALPERSON",
-        "pnl": 81115.98,
+        "pnl": 81188.59,
         "win_rate": 0.751,
-        "volume": 709413.19,
+        "volume": 797956.13,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0xc69bd5567b",
+        "username": "vtcchampion52",
+        "pnl": 40850.38,
+        "win_rate": 0.528,
+        "volume": 1138142.45,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf705fa0452",
+        "username": "",
+        "pnl": 91282.1,
+        "win_rate": 0.479,
+        "volume": 496680.89,
+        "categories": [
+          "crypto"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Pi - hole can enforce bedtime internet shutoffs here how I set it up for my family",
-      "url": "https://www.howtogeek.com/pi-hole-bedtime-internet-shutoff/",
-      "ticker": "NET",
-      "themes": [],
-      "date": "2026-08-20"
-    },
     {
       "title": "CoreWeave ( NASDAQ : CRWV ) Shares Down 12 . 1 % – What Next ? ",
       "url": "https://www.themarketsdaily.com/2026/08/20/coreweave-nasdaqcrwv-shares-down-12-1-whats-next.html",
@@ -1450,12 +1445,11 @@
       "date": "2026-08-20"
     },
     {
-      "title": "Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities",
-      "url": "https://www.dailypolitical.com/2026/08/19/astera-labs-nasdaqalab-upgraded-at-northland-securities.html",
-      "ticker": "ALAB",
+      "title": "Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/20/contrasting-microchip-technology-nasdaqmchp-lasertec-otcmktslsrcy.html",
+      "ticker": "MCHP",
       "themes": [
-        "regulatory",
-        "stock"
+        "ai"
       ],
       "date": "2026-08-20"
     },
@@ -1496,19 +1490,21 @@
       "date": "2026-08-20"
     },
     {
-      "title": "Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) ",
-      "url": "https://www.themarketsdaily.com/2026/08/19/stock-traders-purchase-high-volume-of-call-options-on-cerebras-systems-nasdaqcbrs.html",
-      "ticker": "CBRS",
+      "title": "Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion",
+      "url": "https://www.themarketsdaily.com/2026/08/19/microchip-technology-shareholders-approve-board-12m-share-equity-plan-expansion.html",
+      "ticker": "MCHP",
       "themes": [
-        "stock"
+        "ai",
+        "leadership"
       ],
       "date": "2026-08-19"
     },
     {
-      "title": "Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) ",
-      "url": "https://www.themarketsdaily.com/2026/08/17/equities-research-analysts-upgrades-for-august-17th-alab-bsin-clbk-crk-ewav-gpcr-hsic-ip-karo-mbly.html",
-      "ticker": "ALAB",
+      "title": "Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA",
+      "url": "https://www.themarketsdaily.com/2026/08/17/handelsbanken-fonder-ab-purchases-5000-shares-of-synaptics-incorporated-syna.html",
+      "ticker": "SYNA",
       "themes": [
+        "regulatory",
         "stock"
       ],
       "date": "2026-08-17"
@@ -1548,9 +1544,27 @@
         "regulatory"
       ],
       "date": "2026-08-14"
+    },
+    {
+      "title": "Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS",
+      "url": "https://www.dailypolitical.com/2026/08/08/synaptics-nasdaqsyna-posts-quarterly-earnings-results-beats-estimates-by-0-02-eps.html",
+      "ticker": "SYNA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results",
+      "url": "https://www.themarketsdaily.com/2026/08/08/synaptics-nasdaqsyna-releases-quarterly-earnings-results.html",
+      "ticker": "SYNA",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-08"
     }
   ],
-  "signals_count": 1857,
+  "signals_count": 1861,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
