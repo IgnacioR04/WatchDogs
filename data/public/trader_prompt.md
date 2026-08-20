@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-20T11:03:09+00:00 -->
+<!-- trader_prompt.md generado 2026-08-20T11:57:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T11:03:09+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T11:57:27+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,7 +241,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.15)
+- Volatilidad: `normal` (VIX 15.35)
 - Tendencia: `bull` (SPY 769.06 · MA50 750.17 · MA200 704.11 · dist MA200: 9.22%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -258,21 +258,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 716.08 | -0.2% | -1.05% | 1.52% |
 | TLT | 12.0% | core | 83.02 | 1.67% | 1.11% | -0.1% |
 | GLD | 9.3% | core | 413.84 | 3.84% | 2.2% | 9.16% |
-| FWONK | 7.8% | satellite | 104.84 | 2.76% | 1.19% | 8.13% |
-| RPRX | 7.6% | satellite | 61.73 | 3.42% | 4.66% | 8.17% |
-| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.42% |
-| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 5.93% |
-| CHRW | 3.9% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
-| COCO | 3.9% | satellite | 67.57 | 6.34% | 1.69% | -7.67% |
+| RPRX | 7.8% | satellite | 61.73 | 3.42% | 4.66% | 5.55% |
+| FWONK | 7.6% | satellite | 104.84 | 2.76% | 1.19% | 7.07% |
+| IEF | 6.2% | core | 93.38 | 0.48% | 0.45% | 0.65% |
+| LTH | 5.9% | satellite | 44.65 | -1.65% | 1.89% | 6.16% |
+| CHRW | 4.0% | satellite | 144.52 | -0.1% | -1.49% | -30.3% |
+| COCO | 3.9% | satellite | 67.57 | 6.34% | 1.69% | -10.96% |
 | CRWV | 1.8% | satellite | 90.87 | -2.47% | -15.65% | 9.96% |
-| CBRS | 1.5% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
-| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -66.24% |
+| CBRS | 1.4% | satellite | 215.69 | -1.96% | -17.69% | 2.81% |
+| MPLT | 1.1% | satellite | 12.15 | 2.79% | 6.77% | -67.55% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.0%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.3%
+- Volatilidad anualizada: 10.1%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -2.7%
 - Beta vs SPY: 0.547 · posiciones efectivas: 13.4 · HHI: 0.0748
 
 **Por que estos satellite (señales WATCHDOG):**
@@ -333,10 +333,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 301.72 (0.5% / -0.33% / 2.7%) [2026-08-19]
 - DIA: 534.27 (0.26% / -0.54% / 2.45%) [2026-08-19]
 - TLT: 83.02 (1.67% / 1.11% / -0.1%) [2026-08-19]
-- IEF: 93.38 (0.48% / 0.45% / 0.42%) [2026-08-19]
+- IEF: 93.38 (0.48% / 0.45% / 0.65%) [2026-08-19]
 - GLD: 413.84 (3.84% / 2.2% / 9.16%) [2026-08-19]
-- ^VIX: 15.15 (1.75% / 3.55% / -18.98%) [2026-08-20]
-- BTC-USD: 71945.52 (3.87% / 14.16% / 14.54%) [2026-08-20]
+- ^VIX: 15.35 (3.09% / 4.92% / -17.91%) [2026-08-20]
+- BTC-USD: 71826.75 (3.7% / 13.97% / 14.35%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,34 +351,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), earnings (2), regulatory (1), ai (1), leadership (1)
+**Temas dominantes**: earnings (5), stock (4), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
-- [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
-- [CRWV] AppLovin vs . CoreWeave : What Recent Revenue Trends Tell Investors (2026-08-20)
-- [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-18)
 - [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
+- [SYNA] Handelsbanken Fonder AB Purchases 5 , 000 Shares of Synaptics Incorporated $SYNA (2026-08-17)
+- [SYNA] Synaptics ( NASDAQ : SYNA ) Posts Quarterly Earnings Results , Beats Estimates By $0 . 02 EPS (2026-08-08)
+- [SYNA] Synaptics ( NASDAQ : SYNA ) Releases Quarterly Earnings Results (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO WIRTH JAMES F opero IHT por $5487.8B el 2026-08-18.
 - CEO Dines Daniel vendio PATH por $22.5M el 2026-08-19.
 - 10% owner Uber Technologies, Inc vendio AUR por $471.6M el 2026-08-17.
+- 10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].
 - CEO ROBINS CHAD M vendio ADPT por $6.8M el 2026-08-18.
 - CEO Collins Michael W vendio NTB por $4.4M el 2026-08-18.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $130,208 · win rate 93% · categorias: sports
-- JnStTrdrBnusFnd · PnL $66,775 · win rate 91% · categorias: crypto
-- Barbozaaa321 · PnL $24,486 · win rate 96% · categorias: sports
-- ic4cream · PnL $48,536 · win rate 90% · categorias: sports
-- CORGI8 · PnL $30,472 · win rate 92% · categorias: sports
+- JnStTrdrBnusFnd · PnL $72,574 · win rate 91% · categorias: crypto
+- Barbozaaa321 · PnL $23,244 · win rate 96% · categorias: sports
+- ic4cream · PnL $48,527 · win rate 90% · categorias: sports
+- CORGI8 · PnL $36,333 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,7 +390,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 846 registros 30d · ultimo dato 2026-08-19
+- **sec_insiders**: `ok` · 839 registros 30d · ultimo dato 2026-08-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
