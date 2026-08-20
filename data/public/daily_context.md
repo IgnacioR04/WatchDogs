@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-20T19:14:58+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
+_Generado 2026-08-20T20:03:31+00:00 · ventana señales 2026-07-21 -> 2026-08-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.08)
-- Tendencia: `bull` (SPY 763.55 · MA50 750.73 · MA200 704.55 · dist MA200: 8.37%)
+- Volatilidad: `normal` (VIX 16.06)
+- Tendencia: `bull` (SPY 762.78 · MA50 750.72 · MA200 704.54 · dist MA200: 8.27%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,26 +22,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 763.55 | -0.72% | -1.84% | 3.44% |
-| QQQ | 12.0% | core | 710.47 | -0.78% | -2.95% | 2.68% |
-| TLT | 12.0% | core | 82.53 | -0.6% | -0.08% | -0.38% |
-| FWONK | 9.6% | satellite | 104.03 | -0.78% | 0.32% | 7.29% |
-| GLD | 9.3% | core | 415.21 | 0.33% | 4.07% | 11.76% |
-| LTH | 7.5% | satellite | 44.78 | 0.3% | 1.07% | 6.81% |
-| IEF | 6.2% | core | 93.06 | -0.34% | -0.26% | 0.57% |
-| TSM | 5.0% | satellite | 415.23 | 0.76% | -3.54% | -0.08% |
-| CHRW | 5.0% | satellite | 144.07 | -0.31% | -3.54% | -29.9% |
-| CRWV | 2.2% | satellite | 89.32 | -1.71% | -15.97% | 10.13% |
-| CBRS | 1.8% | satellite | 205.9 | -4.54% | -10.87% | -6.41% |
-| MPLT | 1.4% | satellite | 11.08 | -8.81% | -4.32% | -68.62% |
-| ADVB | 0.9% | satellite | 8.59 | 2.87% | 0.12% | -48.81% |
+| SPY | 12.0% | core | 762.78 | -0.82% | -1.94% | 3.33% |
+| QQQ | 12.0% | core | 710.93 | -0.72% | -2.89% | 2.74% |
+| TLT | 12.0% | core | 82.34 | -0.82% | -0.3% | -0.6% |
+| FWONK | 9.6% | satellite | 104.16 | -0.65% | 0.45% | 7.43% |
+| GLD | 9.3% | core | 415.27 | 0.35% | 4.09% | 11.78% |
+| LTH | 7.5% | satellite | 44.73 | 0.18% | 0.95% | 6.68% |
+| IEF | 6.2% | core | 93.0 | -0.41% | -0.32% | 0.51% |
+| TSM | 5.0% | satellite | 416.08 | 0.97% | -3.35% | 0.12% |
+| CHRW | 5.0% | satellite | 143.83 | -0.48% | -3.7% | -30.01% |
+| CRWV | 2.2% | satellite | 89.76 | -1.22% | -15.55% | 10.68% |
+| CBRS | 1.8% | satellite | 209.85 | -2.71% | -9.16% | -4.61% |
+| MPLT | 1.4% | satellite | 11.23 | -7.57% | -3.02% | -68.2% |
+| ADVB | 0.9% | satellite | 8.19 | -1.92% | -4.55% | -51.19% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 12.4%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -2.9%
-- Beta vs SPY: 0.713 · posiciones efectivas: 13.0 · HHI: 0.0767
+- Beta vs SPY: 0.712 · posiciones efectivas: 13.0 · HHI: 0.0767
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -60,7 +60,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| LBGJ | 78 | corporate_insider | Huang Feng | 2 | $248,700 | cluster_buy |
+| VAC | 72 | large_holder | Impactive Capital LP |  | - | - |
+| GPRO | 72 | large_holder | Fischbach Mark Edward |  | - | - |
 | ADVB | 72 | large_holder | Pau Hung To |  | - | - |
 | ADVB | 72 | large_holder | Pau Hung To |  | - | - |
 | ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
@@ -71,7 +72,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | BBT | 72 | large_holder | Fuller & Thaler Asset Man |  | - | - |
 | PHIO | 72 | corporate_insider | Bitterman Robert J | 2 | $10,600 | cluster_buy,small_amount |
 | BRLT | 71 | corporate_insider | Gerstein Beth Tamara | 2 | $8,496 | cluster_buy,small_amount |
-| LBGJ | 71 | corporate_insider | Li Funa | 2 | $51,299 | cluster_buy |
 | ATXG | 70 | large_holder | OR SHAN SHAN |  | - | - |
 | ATXG | 70 | large_holder | HONG ZHIWANG |  | - | - |
 | ESTC | 70 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
@@ -96,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 763.55 (-0.72% / -1.84% / 3.44%) [2026-08-20]
-- QQQ: 710.47 (-0.78% / -2.95% / 2.68%) [2026-08-20]
-- IWM: 297.67 (-1.34% / -1.92% / 1.91%) [2026-08-20]
-- DIA: 527.94 (-1.18% / -1.85% / 2.26%) [2026-08-20]
-- TLT: 82.53 (-0.6% / -0.08% / -0.38%) [2026-08-20]
-- IEF: 93.06 (-0.34% / -0.26% / 0.57%) [2026-08-20]
-- GLD: 415.21 (0.33% / 4.07% / 11.76%) [2026-08-20]
-- ^VIX: 16.08 (7.99% / 9.91% / -14.01%) [2026-08-20]
-- BTC-USD: 72480.0 (4.64% / 15.0% / 15.39%) [2026-08-20]
+- SPY: 762.78 (-0.82% / -1.94% / 3.33%) [2026-08-20]
+- QQQ: 710.93 (-0.72% / -2.89% / 2.74%) [2026-08-20]
+- IWM: 297.7 (-1.33% / -1.91% / 1.92%) [2026-08-20]
+- DIA: 527.59 (-1.25% / -1.92% / 2.19%) [2026-08-20]
+- TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
+- IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
+- GLD: 415.27 (0.35% / 4.09% / 11.78%) [2026-08-20]
+- ^VIX: 16.06 (7.86% / 9.77% / -14.12%) [2026-08-20]
+- BTC-USD: 72669.37 (4.91% / 15.3% / 15.69%) [2026-08-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,37 +119,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), earnings (2), regulatory (1), leadership (1)
+**Temas dominantes**: earnings (5), stock (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NET] Pi - hole can enforce bedtime internet shutoffs here how I set it up for my family (2026-08-20)
-- [MCHP] Contrasting Microchip Technology ( NASDAQ : MCHP ) & Lasertec ( OTCMKTS : LSRCY ) (2026-08-20)
-- [ALAB] Astera Labs ( NASDAQ : ALAB ) Upgraded at Northland Securities (2026-08-20)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares (2026-08-20)
+- [NMRA] Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock (2026-08-20)
 - [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
-- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
 - [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
-- [MCHP] Microchip Technology Shareholders Approve Board , 12M - Share Equity Plan Expansion (2026-08-19)
-- [ALAB] Equities Research Analyst Upgrades for August 17th ( ALAB , BSIN , CLBK , CRK , EWAV , GPCR , HSIC , IP , KARO , MBLY ) (2026-08-17)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
+- [NMRA] Neumora Therapeutics , Inc .: Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
+- [AEIS] Advanced Energy Industries , Inc . ( NASDAQ : AEIS ) Plans Quarterly Dividend of $0 . 10 (2026-08-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO WIRTH JAMES F opero IHT por $5487.8B el 2026-08-18.
+- 10% owner Asmar Christian vendio VAC por $83.6M el 2026-08-19 [senal en multiples fuentes].
 - CEO Dines Daniel vendio PATH por $22.5M el 2026-08-19.
 - 10% owner Uber Technologies, Inc vendio AUR por $471.6M el 2026-08-17.
 - 10% owner Pau Hung To opero ADVB por $48.0B el 2026-07-27 [senal en multiples fuentes].
 - 10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].
 - CEO ROBINS CHAD M vendio ADPT por $6.8M el 2026-08-18.
 - CEO Collins Michael W vendio NTB por $4.4M el 2026-08-18.
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ExplosiveNinja · PnL $102,465 · win rate 97% · categorias: sports
+- ExplosiveNinja · PnL $131,480 · win rate 97% · categorias: sports
 - kekasaur · PnL $130,208 · win rate 93% · categorias: sports
-- CORGI8 · PnL $116,131 · win rate 92% · categorias: sports
-- JnStTrdrBnusFnd · PnL $133,987 · win rate 90% · categorias: crypto
+- JnStTrdrBnusFnd · PnL $152,681 · win rate 90% · categorias: crypto
 - Barbozaaa321 · PnL $44,629 · win rate 96% · categorias: sports
+- Dota2winner · PnL $43,562 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,7 +158,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 103 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 838 registros 30d · ultimo dato 2026-08-20
+- **sec_insiders**: `ok` · 859 registros 30d · ultimo dato 2026-08-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
