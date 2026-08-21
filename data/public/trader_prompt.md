@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-21T02:15:33+00:00 -->
+<!-- trader_prompt.md generado 2026-08-21T03:32:26+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T02:15:33+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T03:32:26+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -340,7 +340,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
 - ^VIX: 16.01 (7.52% / 9.43% / -14.16%) [2026-08-20]
-- BTC-USD: 74770.0 (7.95% / 18.64% / 19.03%) [2026-08-21]
+- BTC-USD: 74593.8 (7.69% / 18.36% / 18.75%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,18 +355,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (5), stock (4)
+**Temas dominantes**: stock (5), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
+- [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
+- [CRWD] Aveanna Announces Pricing of Secondary Offering of Common Stock (2026-08-21)
 - [IOT] Insider Selling : Samsara ( NYSE : IOT ) Insider Sells 34 , 557 Shares of Stock (2026-08-21)
-- [CRWD] Senseonics Holdings , Inc . Common Stock ( NASDAQ : SENS ) Director Douglas Roeder Purchases 13 , 953 Shares (2026-08-21)
 - [IOT] John Bicket Sells 34 , 557 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-20)
 - [IOT] Samsara Asset Tag and Asset Tag XS provide GPS asset tracking for fleets (2026-08-20)
-- [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
-- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
-- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
-- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
 - [IOT] Samsara Launches Fuel Command Center to Help Fleets Control Costs Amid Price Volatility (2026-08-19)
 - [IOT] Plato Investment Management Ltd Invests $637 , 000 in Samsara Inc . $IOT (2026-08-19)
 
@@ -383,11 +381,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kingdmandan · PnL $14,719 · win rate 97% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $7,690 · win rate 95% · categorias: sports, crypto
-- JnStTrdrBnusFnd · PnL $9,978 · win rate 90% · categorias: crypto
-- monkeymashingkeyboard · PnL $9,847 · win rate 91% · categorias: sports
-- justdance · PnL $11,798 · win rate 82% · categorias: crypto
+- HongYunX · PnL $42,373 · win rate 100% · categorias: sports
+- Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
+- JnStTrdrBnusFnd · PnL $50,957 · win rate 90% · categorias: crypto
+- monkeymashingkeyboard · PnL $35,354 · win rate 91% · categorias: sports
+- xiaoshen13898 · PnL $9,677 · win rate 98% · categorias: sports, crypto, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,7 +393,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 100 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 1022 registros 30d · ultimo dato 2026-08-20
+- **sec_insiders**: `ok` · 1023 registros 30d · ultimo dato 2026-08-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
