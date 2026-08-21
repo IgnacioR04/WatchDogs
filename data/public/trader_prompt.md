@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-21T05:10:49+00:00 -->
+<!-- trader_prompt.md generado 2026-08-21T06:04:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T05:10:49+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T06:04:15+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -340,7 +340,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
 - ^VIX: 16.01 (7.52% / 9.43% / -14.39%) [2026-08-20]
-- BTC-USD: 75116.82 (8.45% / 19.19% / 19.59%) [2026-08-21]
+- BTC-USD: 75335.04 (8.76% / 19.53% / 19.93%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,20 +355,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (3)
+**Temas dominantes**: stock (8), earnings (5), regulatory (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock (2026-08-21)
+- [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
 - [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
-- [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock (2026-08-21)
+- [CRWD] Aveanna Announces Pricing of Secondary Offering of Common Stock (2026-08-21)
 - [IOT] Insider Selling : Samsara ( NYSE : IOT ) Insider Sells 34 , 557 Shares of Stock (2026-08-21)
 - [IOT] John Bicket Sells 34 , 557 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-20)
-- [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
 - [IOT] Samsara Asset Tag and Asset Tag XS provide GPS asset tracking for fleets (2026-08-20)
-- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
+- [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -383,11 +383,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- HongYunX · PnL $42,373 · win rate 100% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $36,296 · win rate 96% · categorias: sports
+- HongYunX · PnL $42,410 · win rate 100% · categorias: sports
 - Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $58,352 · win rate 90% · categorias: crypto
-- SemyonMarmeladov · PnL $72,850 · win rate 88% · categorias: sports, economy, politics
+- JnStrtPrdctnMrkts · PnL $55,611 · win rate 90% · categorias: crypto
+- monkeymashingkeyboard · PnL $38,087 · win rate 91% · categorias: sports
+- SDTrading · PnL $12,360 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 

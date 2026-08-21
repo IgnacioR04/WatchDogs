@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-21T05:09:46.880499+00:00",
+  "generated_at": "2026-08-21T06:02:38.753973+00:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-08-21",
@@ -24,7 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings"
+      "earnings",
+      "regulatory",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -134,7 +136,11 @@
       "event_date": "2026-08-19",
       "importance_score": 84.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_395850543069",
+        "news_552270139391",
+        "news_66271184080"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
     },
     {
@@ -188,7 +194,11 @@
       "event_date": "2026-08-19",
       "importance_score": 83.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_395850543069",
+        "news_552270139391",
+        "news_66271184080"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
     },
     {
@@ -314,7 +324,11 @@
       "event_date": "2026-08-19",
       "importance_score": 82.2,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_395850543069",
+        "news_552270139391",
+        "news_66271184080"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1550169/000119312526359469/"
     },
     {
@@ -1228,19 +1242,9 @@
       {
         "wallet": "0xc72d7dcdb2",
         "username": "HongYunX",
-        "pnl": 42373.31,
+        "pnl": 42410.19,
         "win_rate": 1.0,
         "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 36295.57,
-        "win_rate": 0.9612,
-        "volume": 133742.37,
         "categories": [
           "sports"
         ]
@@ -1258,7 +1262,7 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 58352.39,
+        "pnl": 55610.91,
         "win_rate": 0.9036,
         "volume": 662.05,
         "categories": [
@@ -1266,53 +1270,21 @@
         ]
       },
       {
-        "wallet": "0x37e4728b3c",
-        "username": "SemyonMarmeladov",
-        "pnl": 72849.99,
-        "win_rate": 0.876,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 38056.04,
+        "pnl": 38087.19,
         "win_rate": 0.9073,
-        "volume": 3367.66,
+        "volume": 7225.83,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc1de5ffb02",
-        "username": "Barbozaaa321",
-        "pnl": 13025.02,
-        "win_rate": 0.9645,
-        "volume": 39999.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3413c803c3",
-        "username": "Dota2winner",
-        "pnl": 13296.63,
-        "win_rate": 0.9598,
-        "volume": 22628.71,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 24094.13,
-        "win_rate": 0.8711,
-        "volume": 31752.86,
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 12360.37,
+        "win_rate": 0.9339,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1320,11 +1292,55 @@
       {
         "wallet": "0xcc500cbcc8",
         "username": "justdance",
-        "pnl": 32655.94,
-        "win_rate": 0.817,
-        "volume": 16879.81,
+        "pnl": 37287.02,
+        "win_rate": 0.815,
+        "volume": 33228.26,
         "categories": [
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x143732d8a0",
+        "username": "frozenriver",
+        "pnl": 48039.07,
+        "win_rate": 0.786,
+        "volume": 12062.12,
+        "categories": [
+          "crypto",
+          "politics",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6db983ff1c",
+        "username": "tsihkodiives",
+        "pnl": 13542.68,
+        "win_rate": 0.8431,
+        "volume": 37252.3,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 145795.85,
+        "win_rate": 0.67,
+        "volume": 332967.84,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1e386b0e0f",
+        "username": "beeemw",
+        "pnl": 13844.79,
+        "win_rate": 0.8207,
+        "volume": 39009.6,
+        "categories": [
+          "sports"
         ]
       }
     ],
@@ -1332,30 +1348,19 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 206542.04,
-        "win_rate": 0.602,
-        "volume": 685005.04,
+        "pnl": 220025.08,
+        "win_rate": 0.604,
+        "volume": 797204.54,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 108676.18,
-        "win_rate": 0.653,
-        "volume": 453569.21,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x6ac5bb06a9",
         "username": "Lakersfan111",
-        "pnl": 148325.31,
-        "win_rate": 0.554,
-        "volume": 440104.04,
+        "pnl": 12098.66,
+        "win_rate": 0.555,
+        "volume": 465232.78,
         "categories": [
           "sports",
           "politics"
@@ -1364,7 +1369,7 @@
       {
         "wallet": "0xc35049bc7b",
         "username": "ScroooogeMcDuck",
-        "pnl": 125428.66,
+        "pnl": 38428.66,
         "win_rate": 0.613,
         "volume": 360714.51,
         "categories": [
@@ -1375,53 +1380,63 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 126773.82,
+        "pnl": 145795.85,
         "win_rate": 0.67,
-        "volume": 300801.61,
+        "volume": 332967.84,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 36295.57,
-        "win_rate": 0.9612,
-        "volume": 133742.37,
+        "wallet": "0x1d2efa1844",
+        "username": "huli3882",
+        "pnl": 11268.48,
+        "win_rate": 0.5652,
+        "volume": 188445.98,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6f3e7f25ba",
-        "username": "fRibrenlc",
-        "pnl": 14043.39,
-        "win_rate": 0.507,
-        "volume": 142577.46,
+        "wallet": "0x44c1dfe432",
+        "username": "aenews2",
+        "pnl": 10460.44,
+        "win_rate": 0.684,
+        "volume": 70378.34,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4337235663",
-        "username": "Anjun",
-        "pnl": 20100.02,
-        "win_rate": 0.697,
-        "volume": 120350.67,
-        "categories": [
-          "sports",
           "politics",
+          "sports",
           "economy"
         ]
       },
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 56268.6,
-        "win_rate": 0.482,
-        "volume": 77564.31,
+        "pnl": 62610.89,
+        "win_rate": 0.48,
+        "volume": 85048.39,
         "categories": [
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdc8359fc0c",
+        "username": "TIwinner",
+        "pnl": 11108.77,
+        "win_rate": 0.6875,
+        "volume": 100048.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8f052cac06",
+        "username": "cdgsv",
+        "pnl": 13782.3,
+        "win_rate": 0.875,
+        "volume": 67689.49,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1447,6 +1462,25 @@
       "date": "2026-08-21"
     },
     {
+      "title": "Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13552021/snowflake-nysesnow-director-frank-slootman-sells-48990-shares-of-stock.html",
+      "ticker": "SNOW",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Charter completes acquisition of Liberty Broadband",
+      "url": "https://www.wfsb.com/2026/08/21/charter-completes-acquisition-liberty-broadband/",
+      "ticker": "LBRDK",
+      "themes": [
+        "merger",
+        "regulatory"
+      ],
+      "date": "2026-08-21"
+    },
+    {
       "title": "Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares",
       "url": "https://www.dailypolitical.com/2026/08/20/atlassian-nasdaqteam-cro-sells-1851-shares.html",
       "ticker": "TEAM",
@@ -1456,28 +1490,20 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13552005/performance-food-group-nysepfgc-insider-sells-87688-32-in-stock.html",
-      "ticker": "PFGC",
+      "title": "Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/08/20/snowflake-nysesnow-director-sells-48990-shares-of-stock.html",
+      "ticker": "SNOW",
       "themes": [
         "stock"
       ],
       "date": "2026-08-21"
     },
     {
-      "title": "Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13552001/performance-food-group-nysepfgc-insider-erika-davis-sells-1529-shares.html",
-      "ticker": "PFGC",
+      "title": "Aveanna Announces Pricing of Secondary Offering of Common Stock",
+      "url": "https://www.manilatimes.net/2026/08/21/tmt-newswire/globenewswire/aveanna-announces-pricing-of-secondary-offering-of-common-stock/2409710",
+      "ticker": "CRWD",
       "themes": [
-        "stock"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/08/20/insider-selling-performance-food-group-nysepfgc-insider-sells-1529-shares-of-stock.html",
-      "ticker": "PFGC",
-      "themes": [
+        "regulatory",
         "stock"
       ],
       "date": "2026-08-21"
@@ -1501,20 +1527,18 @@
       "date": "2026-08-20"
     },
     {
-      "title": "Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-pfgc-q4-132955722.html",
-      "ticker": "PFGC",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-20"
-    },
-    {
       "title": "Samsara Asset Tag and Asset Tag XS provide GPS asset tracking for fleets",
       "url": "https://www.fleetowner.com:443/product-spotlight/product/55399218/samsara-asset-tag-and-asset-tag-xs-provide-gps-asset-tracking-for-fleets",
       "ticker": "IOT",
       "themes": [],
       "date": "2026-08-20"
+    },
+    {
+      "title": "Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13550360/analyzing-cytek-biosciences-nasdaqctkb-and-quantum-si-nasdaqqsi.html",
+      "ticker": "CTKB",
+      "themes": [],
+      "date": "2026-08-19"
     },
     {
       "title": "Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript",
@@ -1526,12 +1550,10 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) ",
-      "url": "https://www.themarketsdaily.com/2026/08/19/stock-traders-purchase-high-volume-of-call-options-on-cerebras-systems-nasdaqcbrs.html",
-      "ticker": "CBRS",
-      "themes": [
-        "stock"
-      ],
+      "title": "Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review",
+      "url": "https://www.dailypolitical.com/2026/08/19/cytek-biosciences-nasdaqctkb-versus-quantum-si-nasdaqqsi-critical-review.html",
+      "ticker": "CTKB",
+      "themes": [],
       "date": "2026-08-19"
     },
     {
@@ -1556,6 +1578,49 @@
       "ticker": "IOT",
       "themes": [],
       "date": "2026-08-19"
+    },
+    {
+      "title": "Global Advisors Ltd Dst Sells 2 , 022 Shares of Chime Financial ( NASDAQ : CHYM ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/15/global-advisors-ltd-dst-sells-2022-shares-of-chime-financial-nasdaqchym-stock.html",
+      "ticker": "CHYM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-q2-2026-earnings-000149694.html",
+      "ticker": "CHYM",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
+      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chime-chym-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CHYM",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Cytek ( CTKB ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/cytek-ctkb-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "CTKB",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
     }
   ],
   "signals_count": 2056,
