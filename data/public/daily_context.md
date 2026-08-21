@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T11:03:01+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T11:56:48+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.7)
+- Volatilidad: `normal` (VIX 15.46)
 - Tendencia: `bull` (SPY 762.6 · MA50 750.72 · MA200 704.54 · dist MA200: 8.24%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `steep` (curva 10y-2y 0.5)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
-- ^VIX: 15.7 (-1.94% / 10.18% / -15.5%) [2026-08-21]
-- BTC-USD: 77738.45 (6.44% / 23.75% / 23.86%) [2026-08-21]
+- ^VIX: 15.46 (-3.44% / 8.49% / -16.79%) [2026-08-21]
+- BTC-USD: 76901.04 (5.3% / 22.42% / 22.53%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (4), merger (1), regulatory (1)
+**Temas dominantes**: stock (8), earnings (6), ai (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SNOW] Snowflake , Westpac , NSW Health showcase how trusted data is turning AI into business outcomes (2026-08-21)
 - [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock (2026-08-21)
 - [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
 - [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock (2026-08-21)
 - [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
 - [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
 - [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
 - [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
-- [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
-- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
-- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,10 +151,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $654,153 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $643,819 · win rate 92% · categorias: sports
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $144,164 · win rate 91% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $75,500 · win rate 90% · categorias: crypto
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $147,896 · win rate 91% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $61,418 · win rate 90% · categorias: crypto
 - Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -163,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 100 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 986 registros 30d · ultimo dato 2026-08-20
+- **sec_insiders**: `ok` · 1004 registros 30d · ultimo dato 2026-08-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
