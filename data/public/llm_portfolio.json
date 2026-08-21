@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-19T22:39:39+00:00",
+  "generated_at": "2026-08-21T20:38:24+00:00",
   "verdict_llm": "adjust",
-  "thesis": "Se mantiene intacto el nucleo core-satelite: SPY, QQQ, TLT, GLD e IEF no cambian porque ninguna senal de venta les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, FWONK) se mantienen porque su tesis no se ha roto -no aparecen en las senales de venta de este ciclo- aunque sus senales originales hayan envejecido, lo cual el marco declara legal explicitamente. Se anade una posicion pequena en CRWV (1.2%) financiada con cash ocioso, aprovechando la senal de convicicion cruzada mas fuerte del ciclo tras FWONK, sin rotar el resto de la cartera para minimizar coste de transaccion.",
+  "thesis": "Se mantiene intacto el nucleo core-satelite (SPY, QQQ, TLT, GLD, IEF): ninguna senal de venta de este ciclo les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, CRWV) tampoco aparecen en las senales de venta, asi que se mantienen segun la regla de mantener por defecto. Se anade HRI (3.0%) porque esta en la cartera candidata del codigo y tiene respaldo de una senal large_holder, financiado con cash ocioso. INV e IDAI mostraban clusters de insiders muy fuertes (4 y 6 senales respectivamente) pero ambos cotizan por debajo de $5, quedando excluidos de nuevas posiciones por la regla de liquidez.",
   "key_risks": [
-    "CRWV es muy volatil (-15.65% en 5d) por ruido en el sector neocloud (Nebius/CoreWeave whipsaw), la nueva posicion podria sufrir swings de corto plazo.",
-    "Varias posiciones satelite pequenas (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK) llevan semanas sin datos de precio frescos ni senales nuevas en el briefing, reduciendo la visibilidad sobre si su tesis original sigue vigente.",
-    "Calidad de datos en warning: tickers invalidos en la fuente congress y stale_manager_report_date en 13F, lo que puede sesgar a la baja la fiabilidad de algunos scores de conviccion."
+    "Las senales del Congreso (FWONK, CHRW, LTH) llegan con hasta 45 dias de retraso; pueden no reflejar la posicion actual de esos legisladores.",
+    "GLD ya acumula +14% en 20 dias; una correccion del oro afectaria al bloque core sin cobertura.",
+    "HRI es una posicion nueva basada en una unica senal large_holder; sin corroboracion de mas actores la conviccion es moderada."
   ],
-  "confidence": 0.62,
+  "confidence": 0.6,
   "adjustments": [
     {
-      "ticker": "CRWV",
+      "ticker": "HRI",
       "action": "add",
-      "target_weight": 0.012,
-      "reason": "Score agregado 215.4 con 3 senales large_holder de insiders distintos de CoreWeave (Brannin McBee, Brian Venturo, Michael N Intrator) comprando: es la convicicion cruzada mas fuerte del ciclo tras FWONK. Precio $90.87 y liquidez de large-cap tech cumplen la regla de entrada para posiciones nuevas. Tamano pequeno (1.2%) dado el ruido reciente del sector neocloud (-15.65% ret 5d, titulares de whipsaw en Nasdaq), financiado con cash ocioso sin tocar el resto de la cartera."
+      "target_weight": 0.03,
+      "reason": "Aparece en la cartera candidata del codigo (3.4%) y tiene senal large_holder (Coliseum Capital Management, score 72) sin senales de venta en contra. Financiado con cash ocioso (13.8% disponible), sin tocar el resto de posiciones para minimizar coste de rotacion."
     }
   ],
   "final_weights": {
@@ -32,19 +32,20 @@
     "FSUN": 0.03,
     "GSHD": 0.025,
     "CLBK": 0.023,
-    "CRWV": 0.012
+    "CRWV": 0.012,
+    "HRI": 0.03
   },
   "metrics": {
-    "ann_vol": 0.1019,
-    "var_95_1d": 0.0106,
-    "cvar_95_1d": 0.013,
-    "max_drawdown": -0.0713,
-    "beta_spy": 0.606,
-    "hhi": 0.0671,
+    "ann_vol": 0.1097,
+    "var_95_1d": 0.011,
+    "cvar_95_1d": 0.0138,
+    "max_drawdown": -0.0826,
+    "beta_spy": 0.659,
+    "hhi": 0.068,
     "max_position": 0.12,
-    "n_positions": 16,
-    "effective_positions": 14.9,
-    "gross_exposure": 0.862,
+    "n_positions": 17,
+    "effective_positions": 14.7,
+    "gross_exposure": 0.892,
     "days_used": 200
   },
   "risk_gate": {

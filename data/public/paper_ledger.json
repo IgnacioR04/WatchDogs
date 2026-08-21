@@ -381,5 +381,31 @@
     "thesis": "Se mantiene intacto el nucleo core-satelite: SPY, QQQ, TLT, GLD e IEF no cambian porque ninguna senal de venta les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, FWONK) se mantienen porque su tesis no se ha roto -no aparecen en las senales de venta de este ciclo- aunque sus senales originales hayan envejecido, lo cual el marco declara legal explicitamente. Se anade una posicion pequena en CRWV (1.2%) financiada con cash ocioso, aprovechando la senal de convicicion cruzada mas fuerte del ciclo tras FWONK, sin rotar el resto de la cartera para minimizar coste de transaccion.",
     "confidence": 0.62,
     "n_adjustments": 1
+  },
+  {
+    "approved_at": "2026-08-21T20:38:24+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.093,
+      "IEF": 0.053,
+      "LION": 0.042,
+      "AVO": 0.042,
+      "NMM": 0.04,
+      "FWONK": 0.04,
+      "BWFG": 0.04,
+      "PSBD": 0.031,
+      "NTSK": 0.031,
+      "FSUN": 0.03,
+      "GSHD": 0.025,
+      "CLBK": 0.023,
+      "CRWV": 0.012,
+      "HRI": 0.03
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Se mantiene intacto el nucleo core-satelite (SPY, QQQ, TLT, GLD, IEF): ninguna senal de venta de este ciclo les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, CRWV) tampoco aparecen en las senales de venta, asi que se mantienen segun la regla de mantener por defecto. Se anade HRI (3.0%) porque esta en la cartera candidata del codigo y tiene respaldo de una senal large_holder, financiado con cash ocioso. INV e IDAI mostraban clusters de insiders muy fuertes (4 y 6 senales respectivamente) pero ambos cotizan por debajo de $5, quedando excluidos de nuevas posiciones por la regla de liquidez.",
+    "confidence": 0.6,
+    "n_adjustments": 1
   }
 ]
