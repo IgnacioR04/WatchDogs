@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:55:54+00:00",
+  "generated_at": "2026-08-21T20:59:46+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -9,15 +9,14 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "FWONK": 0.0672,
+    "FWONK": 0.0708,
     "IEF": 0.0622,
-    "CHRW": 0.0551,
-    "LTH": 0.0528,
-    "MED": 0.0496,
-    "BBIO": 0.0368,
-    "HRI": 0.0337,
-    "AMR": 0.0262,
-    "CBRS": 0.0132
+    "CHRW": 0.058,
+    "LTH": 0.0556,
+    "MED": 0.0523,
+    "CART": 0.0479,
+    "CHTR": 0.0362,
+    "CBRS": 0.0138
   },
   "core": {
     "SPY": 0.1934,
@@ -27,24 +26,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMR": 0.0233,
-    "FWONK": 0.0597,
-    "CHRW": 0.049,
-    "LTH": 0.0469,
-    "MED": 0.0441,
-    "HRI": 0.03,
-    "CBRS": 0.0117,
-    "BBIO": 0.0327
+    "FWONK": 0.0629,
+    "MED": 0.0465,
+    "CHTR": 0.0322,
+    "CHRW": 0.0516,
+    "LTH": 0.0494,
+    "CBRS": 0.0123,
+    "CART": 0.0426
   },
   "satellite_rationale": [
-    {
-      "ticker": "AMR",
-      "score": 353.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
     {
       "ticker": "FWONK",
       "score": 248.8,
@@ -52,6 +42,23 @@
         "congress"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "MED",
+      "score": 190.8,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "CHTR",
+      "score": 143.6,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "CHRW",
@@ -70,22 +77,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "MED",
-      "score": 119.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "HRI",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "CBRS",
       "score": 70.2,
       "sources": [
@@ -94,7 +85,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "BBIO",
+      "ticker": "CART",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -103,15 +94,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1088,
-    "var_95_1d": 0.0107,
-    "cvar_95_1d": 0.0141,
-    "max_drawdown": -0.0249,
-    "beta_spy": 0.688,
-    "hhi": 0.0719,
+    "ann_vol": 0.0981,
+    "var_95_1d": 0.0099,
+    "cvar_95_1d": 0.0111,
+    "max_drawdown": -0.0242,
+    "beta_spy": 0.631,
+    "hhi": 0.0738,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.9,
+    "n_positions": 12,
+    "effective_positions": 13.6,
     "gross_exposure": 0.8501,
     "days_used": 56
   },
