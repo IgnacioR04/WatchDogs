@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T20:59:47+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T21:55:11+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,21 +26,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 713.44 | 0.35% | -2.41% | 4.27% |
 | TLT | 12.0% | core | 82.05 | -0.35% | 0.01% | -1.04% |
 | GLD | 9.3% | core | 423.36 | 1.95% | 5.45% | 13.84% |
-| FWONK | 7.1% | satellite | 104.94 | 0.75% | 1.0% | 8.13% |
+| FWONK | 6.5% | satellite | 104.94 | 0.75% | 1.0% | 8.13% |
 | IEF | 6.2% | core | 92.82 | -0.19% | -0.24% | 0.12% |
-| CHRW | 5.8% | satellite | 141.63 | -1.53% | -4.67% | -24.06% |
-| LTH | 5.6% | satellite | 45.11 | 0.87% | -0.33% | 6.57% |
-| MED | 5.2% | satellite | 11.95 | 2.84% | 4.46% | 23.45% |
-| CART | 4.8% | satellite | 49.83 | -2.43% | 1.94% | 18.05% |
-| CHTR | 3.6% | satellite | 150.17 | 1.63% | -2.66% | 21.78% |
-| CBRS | 1.4% | satellite | 196.13 | -6.54% | -10.43% | -1.5% |
+| CHRW | 5.3% | satellite | 141.63 | -1.53% | -4.67% | -24.06% |
+| LTH | 5.1% | satellite | 45.11 | 0.87% | -0.33% | 6.57% |
+| MED | 4.8% | satellite | 11.95 | 2.84% | 4.46% | 23.45% |
+| CART | 4.4% | satellite | 49.83 | -2.43% | 1.94% | 18.05% |
+| CHTR | 3.3% | satellite | 150.17 | 1.63% | -2.66% | 21.78% |
+| ELF | 2.9% | satellite | 101.94 | 3.53% | 11.48% | 31.77% |
+| CBRS | 1.3% | satellite | 196.13 | -6.54% | -10.43% | -1.5% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.8%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.631 · posiciones efectivas: 13.6 · HHI: 0.0738
+- Volatilidad anualizada: 10.0%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -2.5%
+- Beta vs SPY: 0.642 · posiciones efectivas: 14.0 · HHI: 0.0716
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -49,6 +50,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **CHTR** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
+- **ELF** · score agregado 73.0 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CART** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -62,17 +64,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | INV | 79 | corporate_insider | Otworth Michael | 4 | $349,295 | cluster_buy |
 | INV | 79 | corporate_insider | Donnally James O | 4 | $337,500 | cluster_buy |
 | IDAI | 78 | corporate_insider | Genner Gareth Neville | 3 | $28,558 | cluster_buy |
-| IDAI | 76 | corporate_insider | Genner Gareth Neville | 3 | $9,840 | cluster_buy,small_amount |
 | INV | 75 | corporate_insider | Brown Bruce | 4 | $45,399 | cluster_buy |
-| IDAI | 74 | corporate_insider | Genner Gareth Neville | 3 | $5,040 | cluster_buy,small_amount |
-| IDAI | 72 | corporate_insider | Genner Gareth Neville | 3 | $2,472 | cluster_buy,small_amount |
+| NBBK | 75 | corporate_insider | CAMPANELLI JOSEPH P | 2 | $43,500 | cluster_buy |
+| ELF | 73 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | LFT | 72 | corporate_insider | Flynn James Peter | 2 | $12,558 | cluster_buy,small_amount |
 | MED | 72 | large_holder | Steamboat Capital Partner |  | - | - |
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
 | CHTR | 72 | large_holder | Advance/Newhouse Partners |  | - | - |
 | CHTR | 72 | large_holder | Ronald A. Duncan |  | - | - |
 | PRTA | 72 | large_holder | Fennell Todd W. |  | - | - |
-| ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
+| ACHV | 72 | large_holder | Logos Global Management L |  | - | - |
+| IDAI | 71 | corporate_insider | Genner Gareth Neville | 3 | $1,545 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -102,47 +104,47 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77493.28 (6.11% / 23.36% / 23.47%) [2026-08-21]
+- BTC-USD: 78453.32 (7.42% / 24.89% / 25.0%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.19 (delta 1m: -0.12) [2026-08-20]
 - Treasury 10Y yield: 4.69 (delta 1m: 0.02) [2026-08-20]
-- Curva 10Y-2Y: 0.5 (delta 1m: 0.14) [2026-08-20]
+- Curva 10Y-2Y: 0.5 (delta 1m: 0.16) [2026-08-21]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.75 (delta 1m: 0.07) [2026-08-20]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
-- Breakeven inflacion 10Y: 2.34 (delta 1m: 0.06) [2026-08-20]
+- Breakeven inflacion 10Y: 2.34 (delta 1m: 0.06) [2026-08-21]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), regulatory (1), merger (1), earnings (1)
+**Temas dominantes**: earnings (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
-- [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
-- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
+- [LYTS] Oppenheimer Lowers LSI Industries ( NASDAQ : LYTS ) Price Target to $29 . 00 (2026-08-21)
+- [LYTS] LSI Industries Q4 Earnings Call Highlights (2026-08-20)
+- [LYTS] LSI Industries ( LYTS ) Expected to Post Quarterly Earnings on Thursday (2026-08-19)
+- [LYTS] LSI Industries ( LYTS ) to Post Earnings on Thursday (2026-08-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Troendle August J. vendio MEDP por $16.8M el 2026-08-20.
+- CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20 [senal en multiples fuentes].
 - CEO Van de Put Dirk vendio MDLZ por $8.6M el 2026-08-19 [senal en multiples fuentes].
 - CEO King Alan vendio CPAY por $4.1M el 2026-08-20 [senal en multiples fuentes].
-- CEO Gallagher Thomas P. vendio MIAX por $6.2M el 2026-08-19.
-- 10% owner Mindlin Marcos Marcelo compro PAM por $3.0M el 2026-08-19.
 - CEO Troendle August J. vendio MEDP por $9.5M el 2026-08-19.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $1,524,219 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $1,524,578 · win rate 92% · categorias: sports
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $166,595 · win rate 90% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $94,994 · win rate 90% · categorias: crypto
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $166,374 · win rate 90% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $101,580 · win rate 90% · categorias: crypto
 - CORGI8 · PnL $69,940 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -151,8 +153,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 100 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 681 registros 30d · ultimo dato 2026-08-21
-- **sec_13d_13g**: `ok` · 249 registros 30d · ultimo dato 2026-08-21
+- **sec_insiders**: `ok` · 646 registros 30d · ultimo dato 2026-08-21
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -165,7 +167,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CART, CBRS, CHRW, CHTR, FWONK, GLD, IEF, LTH, MED, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CART, CBRS, CHRW, CHTR, ELF, FWONK, GLD, IEF, LTH, MED, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

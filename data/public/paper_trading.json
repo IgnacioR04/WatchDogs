@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:59:47+00:00",
+  "generated_at": "2026-08-21T21:55:11+00:00",
   "budget_eur": 100.0,
   "n_cycles": 18,
   "cost_model": {
@@ -8,17 +8,17 @@
   },
   "metrics": {
     "n_days": 32,
-    "equity_eur": 99.85,
-    "total_return": -0.0015,
+    "equity_eur": 99.96,
+    "total_return": -0.0004,
     "win_rate_days": 0.4688,
-    "best_day": 0.0097,
-    "worst_day": -0.0074,
-    "ann_vol": 0.0676,
-    "sharpe": 0.14,
-    "sortino": 0.23,
-    "max_drawdown": -0.0176,
-    "spy_return": 0.0029,
-    "excess_return": -0.0044,
+    "best_day": 0.0108,
+    "worst_day": -0.0068,
+    "ann_vol": 0.0701,
+    "sharpe": 0.26,
+    "sortino": 0.45,
+    "max_drawdown": -0.0197,
+    "spy_return": 0.0031,
+    "excess_return": -0.0035,
     "costs_eur": 0.2407,
     "turnover_total": 1.606
   },
@@ -109,111 +109,111 @@
     },
     {
       "date": "2026-07-29",
-      "equity": 98.47,
+      "equity": 98.53,
       "spy": 98.01,
-      "daily_ret": -0.00681
+      "daily_ret": -0.00616
     },
     {
       "date": "2026-07-30",
-      "equity": 98.84,
+      "equity": 98.65,
       "spy": 98.95,
-      "daily_ret": 0.00383
+      "daily_ret": 0.00125
     },
     {
       "date": "2026-07-31",
-      "equity": 98.53,
+      "equity": 98.26,
       "spy": 99.18,
-      "daily_ret": -0.00316
+      "daily_ret": -0.004
     },
     {
       "date": "2026-08-03",
-      "equity": 98.87,
+      "equity": 98.74,
       "spy": 100.41,
-      "daily_ret": 0.00346
+      "daily_ret": 0.00488
     },
     {
       "date": "2026-08-04",
-      "equity": 99.83,
+      "equity": 99.81,
       "spy": 102.55,
-      "daily_ret": 0.00966
+      "daily_ret": 0.01085
     },
     {
       "date": "2026-08-05",
-      "equity": 100.0,
+      "equity": 99.92,
       "spy": 102.12,
-      "daily_ret": 0.00171
+      "daily_ret": 0.00107
     },
     {
       "date": "2026-08-06",
-      "equity": 99.74,
+      "equity": 99.64,
       "spy": 101.74,
-      "daily_ret": -0.00261
+      "daily_ret": -0.00278
     },
     {
       "date": "2026-08-07",
-      "equity": 100.35,
+      "equity": 100.2,
       "spy": 102.65,
-      "daily_ret": 0.00616
+      "daily_ret": 0.00568
     },
     {
       "date": "2026-08-10",
-      "equity": 100.11,
+      "equity": 99.93,
       "spy": 102.34,
-      "daily_ret": -0.00223
+      "daily_ret": -0.00255
     },
     {
       "date": "2026-08-11",
-      "equity": 100.05,
+      "equity": 99.9,
       "spy": 102.1,
-      "daily_ret": -0.00056
+      "daily_ret": -0.00025
     },
     {
       "date": "2026-08-12",
-      "equity": 100.31,
+      "equity": 100.18,
       "spy": 102.38,
-      "daily_ret": 0.00264
+      "daily_ret": 0.00274
     },
     {
       "date": "2026-08-13",
-      "equity": 100.56,
+      "equity": 100.49,
       "spy": 103.21,
-      "daily_ret": 0.00243
+      "daily_ret": 0.00317
     },
     {
       "date": "2026-08-14",
-      "equity": 100.46,
+      "equity": 100.36,
       "spy": 102.96,
-      "daily_ret": -0.00093
+      "daily_ret": -0.00135
     },
     {
       "date": "2026-08-17",
-      "equity": 100.11,
+      "equity": 99.92,
       "spy": 102.13,
-      "daily_ret": -0.00351
+      "daily_ret": -0.00431
     },
     {
       "date": "2026-08-18",
-      "equity": 99.68,
+      "equity": 99.51,
       "spy": 101.37,
-      "daily_ret": -0.00432
+      "daily_ret": -0.0042
     },
     {
       "date": "2026-08-19",
-      "equity": 100.38,
+      "equity": 100.35,
       "spy": 101.61,
-      "daily_ret": 0.0071
+      "daily_ret": 0.0085
     },
     {
       "date": "2026-08-20",
-      "equity": 99.64,
+      "equity": 99.67,
       "spy": 99.94,
-      "daily_ret": -0.0074
+      "daily_ret": -0.00676
     },
     {
       "date": "2026-08-21",
-      "equity": 99.85,
-      "spy": 100.29,
-      "daily_ret": 0.00217
+      "equity": 99.96,
+      "spy": 100.31,
+      "daily_ret": 0.00293
     }
   ],
   "positions": {
@@ -289,7 +289,10 @@
     },
     "GSHD": {
       "weight": 0.025,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-07-29",
+      "ret_since_entry": 0.0538,
+      "value_eur": 2.63
     },
     "CLBK": {
       "weight": 0.023,
