@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T08:13:58+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T09:13:04+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.85)
+- Volatilidad: `normal` (VIX 15.73)
 - Tendencia: `bull` (SPY 762.6 · MA50 750.72 · MA200 704.54 · dist MA200: 8.24%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `steep` (curva 10y-2y 0.5)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
-- ^VIX: 15.85 (-1.0% / 11.23% / -14.69%) [2026-08-21]
-- BTC-USD: 76892.59 (5.29% / 22.4% / 22.51%) [2026-08-21]
+- ^VIX: 15.73 (-1.75% / 10.39% / -15.34%) [2026-08-21]
+- BTC-USD: 77952.0 (6.74% / 24.09% / 24.2%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,15 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3)
+**Temas dominantes**: stock (6), earnings (4), ai (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SNOW] Snowflake , Westpac , NSW Health showcase how trusted data is turning AI into business outcomes (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock (2026-08-21)
+- [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
+- [SNOW] Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock (2026-08-21)
+- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
+- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
+- [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
+- [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
 - [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
 - [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
-- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
-- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
-- [CTKB] Cytek ( CTKB ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,10 +152,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $148,604 · win rate 91% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $71,247 · win rate 90% · categorias: crypto
-- Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
-- Dota2winner · PnL $17,063 · win rate 96% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $147,106 · win rate 91% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $68,166 · win rate 92% · categorias: sports
+- Dota2winner · PnL $29,572 · win rate 96% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $63,655 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
