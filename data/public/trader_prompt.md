@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-21T07:24:09+00:00 -->
+<!-- trader_prompt.md generado 2026-08-21T08:13:58+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T07:24:09+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T08:13:58+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,7 +241,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.01)
+- Volatilidad: `normal` (VIX 15.85)
 - Tendencia: `bull` (SPY 762.6 · MA50 750.72 · MA200 704.54 · dist MA200: 8.24%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `steep` (curva 10y-2y 0.5)
@@ -339,8 +339,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
-- ^VIX: 16.01 (7.52% / 9.43% / -14.39%) [2026-08-20]
-- BTC-USD: 76280.03 (4.45% / 21.43% / 21.54%) [2026-08-21]
+- ^VIX: 15.85 (-1.0% / 11.23% / -14.69%) [2026-08-21]
+- BTC-USD: 76892.59 (5.29% / 22.4% / 22.51%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,20 +355,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (6)
+**Temas dominantes**: earnings (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
-- [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
-- [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
-- [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
 - [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
 - [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
 - [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
 - [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
+- [CTKB] Cytek ( CTKB ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -387,7 +382,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $148,604 · win rate 91% · categorias: sports
 - JnStrtPrdctnMrkts · PnL $71,247 · win rate 90% · categorias: crypto
 - Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
-- monkeymashingkeyboard · PnL $38,088 · win rate 91% · categorias: sports
+- Dota2winner · PnL $17,063 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
