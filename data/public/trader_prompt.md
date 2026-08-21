@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-21T03:32:26+00:00 -->
+<!-- trader_prompt.md generado 2026-08-21T04:20:59+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -232,7 +232,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T03:32:26+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T04:20:59+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,24 +258,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 710.93 | -0.72% | -2.89% | 2.74% |
 | TLT | 12.0% | core | 82.34 | -0.82% | -0.3% | -0.6% |
 | GLD | 9.3% | core | 415.26 | 0.34% | 4.09% | 11.77% |
-| RSG | 7.2% | satellite | 219.5 | -0.7% | 1.99% | -0.47% |
+| RSG | 7.1% | satellite | 219.5 | -0.7% | 1.99% | 0.96% |
 | IEF | 6.2% | core | 93.0 | -0.41% | -0.32% | 0.51% |
-| FWONK | 6.0% | satellite | 104.16 | -0.65% | 0.45% | 5.0% |
-| LTH | 4.8% | satellite | 44.72 | 0.16% | 0.93% | 5.2% |
-| CHRW | 3.2% | satellite | 143.83 | -0.48% | -3.7% | -30.11% |
-| VRDN | 3.1% | satellite | 24.5 | -1.21% | 11.41% | 32.0% |
-| HRI | 2.7% | satellite | 161.66 | -3.83% | -4.18% | 7.03% |
-| AMR | 2.5% | satellite | 194.3 | -0.06% | 24.87% | 35.16% |
-| CRWV | 1.5% | satellite | 89.76 | -1.22% | -15.55% | 10.68% |
-| CBRS | 1.2% | satellite | 209.85 | -2.71% | -9.16% | -4.61% |
+| FWONK | 6.2% | satellite | 104.16 | -0.65% | 0.45% | 7.43% |
+| LTH | 4.8% | satellite | 44.72 | 0.16% | 0.93% | 6.65% |
+| CHRW | 3.2% | satellite | 143.83 | -0.48% | -3.7% | -30.01% |
+| VRDN | 3.1% | satellite | 24.5 | -1.21% | 11.41% | 27.8% |
+| HRI | 2.8% | satellite | 161.66 | -3.83% | -4.18% | -0.97% |
+| AMR | 2.5% | satellite | 194.3 | -0.06% | 24.87% | 32.84% |
+| CRWV | 1.4% | satellite | 89.76 | -1.22% | -15.55% | 10.68% |
 | SUJA | 1.2% | satellite | 7.5 | 1.49% | 18.48% | -23.94% |
+| CBRS | 1.2% | satellite | 209.85 | -2.71% | -9.16% | -4.61% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 10.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.59 · posiciones efectivas: 14.1 · HHI: 0.0708
+- Max drawdown historico: -2.6%
+- Beta vs SPY: 0.585 · posiciones efectivas: 14.1 · HHI: 0.0708
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -339,8 +339,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
-- ^VIX: 16.01 (7.52% / 9.43% / -14.16%) [2026-08-20]
-- BTC-USD: 74593.8 (7.69% / 18.36% / 18.75%) [2026-08-21]
+- ^VIX: 16.01 (7.52% / 9.43% / -14.39%) [2026-08-20]
+- BTC-USD: 74832.13 (8.04% / 18.74% / 19.13%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,18 +355,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), regulatory (1)
+**Temas dominantes**: earnings (3), stock (2), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
-- [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
-- [CRWD] Aveanna Announces Pricing of Secondary Offering of Common Stock (2026-08-21)
-- [IOT] Insider Selling : Samsara ( NYSE : IOT ) Insider Sells 34 , 557 Shares of Stock (2026-08-21)
-- [IOT] John Bicket Sells 34 , 557 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-20)
-- [IOT] Samsara Asset Tag and Asset Tag XS provide GPS asset tracking for fleets (2026-08-20)
-- [IOT] Samsara Launches Fuel Command Center to Help Fleets Control Costs Amid Price Volatility (2026-08-19)
-- [IOT] Plato Investment Management Ltd Invests $637 , 000 in Samsara Inc . $IOT (2026-08-19)
+- [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
+- [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
+- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
+- [CBRS] Stock Traders Purchase High Volume of Call Options on Cerebras Systems ( NASDAQ : CBRS ) (2026-08-19)
+- [CHYM] Global Advisors Ltd Dst Sells 2 , 022 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-15)
+- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-14)
+- [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
+- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-13)
+- [CTKB] Cytek ( CTKB ) Q2 2026 Earnings Call Transcript (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
