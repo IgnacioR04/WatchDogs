@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-21T21:55:11+00:00 -->
+<!-- trader_prompt.md generado 2026-08-21T22:57:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T21:55:11+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T22:57:56+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -279,8 +279,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Por que estos satellite (señales WATCHDOG):**
 
 - **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
+- **CHTR** · score agregado 213.8 · 3 señales · fuentes: large_holder
 - **MED** · score agregado 190.8 · 3 señales · fuentes: corporate_insider, large_holder
-- **CHTR** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
 - **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
 - **ELF** · score agregado 73.0 · 1 señales · fuentes: large_holder
@@ -305,21 +305,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
 | CHTR | 72 | large_holder | Advance/Newhouse Partners |  | - | - |
 | CHTR | 72 | large_holder | Ronald A. Duncan |  | - | - |
-| PRTA | 72 | large_holder | Fennell Todd W. |  | - | - |
 | ACHV | 72 | large_holder | Logos Global Management L |  | - | - |
 | IDAI | 71 | corporate_insider | Genner Gareth Neville | 3 | $1,545 | cluster_buy,small_amount |
+| IDAI | 71 | corporate_insider | Francis Andrew Scott | 3 | $4,960 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| T | 65 | congress | Tim Moore | $100,000 | - |
 | PINS | 65 | congress | Christian D. Menefee | $50,000 | - |
 | TSCO | 64 | congress | April McClain Delaney | $50,000 | - |
 | NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
 | CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
 | ARCC | 63 | congress | Pete Sessions | $15,000 | small_amount |
 | MDLZ | 62 | congress | Kevin Hern | $15,000 | small_amount |
-| CPAY | 62 | congress | April McClain Delaney | $15,000 | small_amount |
 | CPAY | 62 | congress | April McClain Delaney | $15,000 | small_amount |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
@@ -337,7 +337,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 78453.32 (7.42% / 24.89% / 25.0%) [2026-08-21]
+- BTC-USD: 78518.06 (7.51% / 24.99% / 25.1%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -352,32 +352,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3)
+**Temas dominantes**: regulatory (1), leadership (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [LYTS] Oppenheimer Lowers LSI Industries ( NASDAQ : LYTS ) Price Target to $29 . 00 (2026-08-21)
-- [LYTS] LSI Industries Q4 Earnings Call Highlights (2026-08-20)
-- [LYTS] LSI Industries ( LYTS ) Expected to Post Quarterly Earnings on Thursday (2026-08-19)
-- [LYTS] LSI Industries ( LYTS ) to Post Earnings on Thursday (2026-08-18)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
+- [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Troendle August J. vendio MEDP por $16.8M el 2026-08-20.
 - CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20 [senal en multiples fuentes].
 - CEO Van de Put Dirk vendio MDLZ por $8.6M el 2026-08-19 [senal en multiples fuentes].
 - CEO King Alan vendio CPAY por $4.1M el 2026-08-20 [senal en multiples fuentes].
-- CEO Troendle August J. vendio MEDP por $9.5M el 2026-08-19.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
+- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $1,524,578 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $1,524,406 · win rate 92% · categorias: sports
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $166,374 · win rate 90% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $101,580 · win rate 90% · categorias: crypto
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $166,338 · win rate 90% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $116,159 · win rate 91% · categorias: crypto
 - CORGI8 · PnL $69,940 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -385,8 +383,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 ## 6. Calidad de los datos
 
 - Estado global: `warning`
-- **congress**: `warning` · 100 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 646 registros 30d · ultimo dato 2026-08-21
+- **congress**: `warning` · 106 registros 30d · ultimo dato 2026-08-14 — invalid_tickers_present:A
+- **sec_insiders**: `ok` · 629 registros 30d · ultimo dato 2026-08-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
