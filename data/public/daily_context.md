@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T06:04:15+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T07:24:09+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -28,20 +28,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 415.26 | 0.34% | 4.09% | 11.77% |
 | RSG | 7.1% | satellite | 219.5 | -0.7% | 1.99% | 0.96% |
 | IEF | 6.2% | core | 93.0 | -0.41% | -0.32% | 0.51% |
-| FWONK | 6.2% | satellite | 104.16 | -0.65% | 0.45% | 7.43% |
+| FWONK | 6.2% | satellite | 104.16 | -0.65% | 0.45% | 7.96% |
 | LTH | 4.8% | satellite | 44.72 | 0.16% | 0.93% | 6.65% |
 | CHRW | 3.2% | satellite | 143.83 | -0.48% | -3.7% | -30.01% |
-| VRDN | 3.1% | satellite | 24.5 | -1.21% | 11.41% | 27.8% |
+| VRDN | 3.1% | satellite | 24.5 | -1.21% | 11.41% | 27.21% |
 | HRI | 2.8% | satellite | 161.66 | -3.83% | -4.18% | -0.97% |
-| AMR | 2.5% | satellite | 194.3 | -0.06% | 24.87% | 32.84% |
+| AMR | 2.5% | satellite | 194.3 | -0.06% | 24.87% | 35.67% |
 | CRWV | 1.4% | satellite | 89.76 | -1.22% | -15.55% | 10.68% |
 | SUJA | 1.2% | satellite | 7.5 | 1.49% | 18.48% | -23.94% |
 | CBRS | 1.2% | satellite | 209.85 | -2.71% | -9.16% | -4.61% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.2%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
+- Volatilidad anualizada: 10.1%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
 - Max drawdown historico: -2.6%
 - Beta vs SPY: 0.585 · posiciones efectivas: 14.1 · HHI: 0.0708
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
 - GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
 - ^VIX: 16.01 (7.52% / 9.43% / -14.39%) [2026-08-20]
-- BTC-USD: 75335.04 (8.76% / 19.53% / 19.93%) [2026-08-21]
+- BTC-USD: 76280.03 (4.45% / 21.43% / 21.54%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), earnings (5), regulatory (2), merger (1)
+**Temas dominantes**: stock (6), earnings (6)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
-- [SNOW] Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock (2026-08-21)
-- [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
 - [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
-- [SNOW] Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock (2026-08-21)
-- [CRWD] Aveanna Announces Pricing of Secondary Offering of Common Stock (2026-08-21)
-- [IOT] Insider Selling : Samsara ( NYSE : IOT ) Insider Sells 34 , 557 Shares of Stock (2026-08-21)
-- [IOT] John Bicket Sells 34 , 557 Shares of Samsara ( NYSE : IOT ) Stock (2026-08-20)
-- [IOT] Samsara Asset Tag and Asset Tag XS provide GPS asset tracking for fleets (2026-08-20)
+- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
+- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
+- [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
+- [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
 - [CTKB] Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript (2026-08-19)
+- [CTKB] Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review (2026-08-19)
+- [CAH] Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -152,10 +152,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $148,604 · win rate 91% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $71,247 · win rate 90% · categorias: crypto
 - Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $55,611 · win rate 90% · categorias: crypto
-- monkeymashingkeyboard · PnL $38,087 · win rate 91% · categorias: sports
-- SDTrading · PnL $12,360 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $38,088 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
