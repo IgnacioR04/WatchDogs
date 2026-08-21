@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-21T22:56:57.790239+00:00",
+  "generated_at": "2026-08-21T23:53:20.013024+00:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-08-21",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "regulatory",
-      "leadership",
-      "stock"
+      "ai",
+      "stock",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -520,7 +520,7 @@
       {
         "ticker": "WBS",
         "company": "WEBSTER FINANCIAL CORP",
-        "pressure_score": 2285.1,
+        "pressure_score": 2216.8,
         "sources": [
           "corporate_insider"
         ]
@@ -542,22 +542,6 @@
         ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 1349.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1258.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 971.8,
@@ -571,6 +555,14 @@
         "pressure_score": 821.5,
         "sources": [
           "congress",
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 645.0,
+        "sources": [
           "corporate_insider"
         ]
       },
@@ -615,14 +607,6 @@
         ]
       },
       {
-        "ticker": "THG",
-        "company": "HANOVER INSURANCE GROUP, INC.",
-        "pressure_score": 371.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ITW",
         "company": "Stock",
         "pressure_score": 358.4,
@@ -638,6 +622,22 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "SCI",
+        "company": "Common Stock",
+        "pressure_score": 352.4,
+        "sources": [
+          "congress"
+        ]
+      },
+      {
+        "ticker": "PTCT",
+        "company": "PTC THERAPEUTICS, INC.",
+        "pressure_score": 349.2,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
@@ -650,6 +650,15 @@
       "amount": 1001510.0,
       "date": "2026-08-20",
       "score": 83.6
+    },
+    {
+      "ticker": "GWRS",
+      "company": "Global Water Resources, Inc.",
+      "actor": "Levine Jonathan L",
+      "actor_type": "director",
+      "amount": 5766819.3,
+      "date": "2026-08-20",
+      "score": 81.2
     },
     {
       "ticker": "AAT",
@@ -668,6 +677,15 @@
       "amount": 129497.04,
       "date": "2026-08-21",
       "score": 77.9
+    },
+    {
+      "ticker": "GWRS",
+      "company": "Global Water Resources, Inc.",
+      "actor": "Cohn Andrew M.",
+      "actor_type": "director",
+      "amount": 1233185.55,
+      "date": "2026-08-20",
+      "score": 77.8
     },
     {
       "ticker": "COE",
@@ -724,15 +742,6 @@
       "score": 76.7
     },
     {
-      "ticker": "DXST",
-      "company": "Decent Holding Inc.",
-      "actor": "Sun Dingxin",
-      "actor_type": "ten_percent_owner",
-      "amount": 800000.0,
-      "date": "2026-08-06",
-      "score": 76.1
-    },
-    {
       "ticker": "RAIN",
       "company": "Rain Enhancement Technologies Holdco, Inc.",
       "actor": "Seidl Randy",
@@ -740,15 +749,6 @@
       "amount": 104225.0,
       "date": "2026-08-19",
       "score": 75.9
-    },
-    {
-      "ticker": "NBBK",
-      "company": "NB Bancorp, Inc.",
-      "actor": "CAMPANELLI JOSEPH P",
-      "actor_type": "ceo",
-      "amount": 43500.0,
-      "date": "2026-08-20",
-      "score": 75.5
     },
     {
       "ticker": "DGXX",
@@ -1244,9 +1244,9 @@
       {
         "wallet": "0x9f15613ebf",
         "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 166338.02,
-        "win_rate": 0.905,
-        "volume": 979469.97,
+        "pnl": 166423.54,
+        "win_rate": 0.904,
+        "volume": 980806.27,
         "categories": [
           "sports"
         ]
@@ -1254,9 +1254,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 116159.49,
+        "pnl": 128866.03,
         "win_rate": 0.9059,
-        "volume": 177057.75,
+        "volume": 183626.32,
         "categories": [
           "crypto"
         ]
@@ -1274,7 +1274,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 216452.05,
+        "pnl": 218561.98,
         "win_rate": 0.8356,
         "volume": 1080033.19,
         "categories": [
@@ -1282,31 +1282,21 @@
         ]
       },
       {
+        "wallet": "0x65018f9fc4",
+        "username": "cnyek",
+        "pnl": 34434.43,
+        "win_rate": 0.9592,
+        "volume": 104206.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 74754.93,
+        "pnl": 76830.5,
         "win_rate": 0.8771,
-        "volume": 311681.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1e52bbdf38",
-        "username": "dsasdaas",
-        "pnl": 100190.63,
-        "win_rate": 0.8519,
-        "volume": 531641.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 42034.92,
-        "win_rate": 0.9077,
-        "volume": 158112.28,
+        "volume": 315432.07,
         "categories": [
           "sports"
         ]
@@ -1314,12 +1304,22 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 44110.13,
+        "pnl": 45097.94,
         "win_rate": 0.9015,
         "volume": 621941.92,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 41749.77,
+        "win_rate": 0.9077,
+        "volume": 198157.56,
+        "categories": [
+          "sports"
         ]
       }
     ],
@@ -1327,9 +1327,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 754131.51,
+        "pnl": 484230.15,
         "win_rate": 0.655,
-        "volume": 11154626.39,
+        "volume": 12272623.99,
         "categories": [
           "sports",
           "politics"
@@ -1348,9 +1348,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 75338.72,
-        "win_rate": 0.614,
-        "volume": 10024159.49,
+        "pnl": 86500.94,
+        "win_rate": 0.624,
+        "volume": 10439876.0,
         "categories": [
           "sports"
         ]
@@ -1368,9 +1368,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 97094.16,
-        "win_rate": 0.503,
-        "volume": 2103016.93,
+        "pnl": 145123.52,
+        "win_rate": 0.505,
+        "volume": 2493863.47,
         "categories": [
           "sports"
         ]
@@ -1378,7 +1378,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 216452.05,
+        "pnl": 218561.98,
         "win_rate": 0.8356,
         "volume": 1080033.19,
         "categories": [
@@ -1386,23 +1386,11 @@
         ]
       },
       {
-        "wallet": "0xee00ba338c",
-        "username": "S-Works",
-        "pnl": 114032.29,
-        "win_rate": 0.515,
-        "volume": 902962.39,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 43402.24,
-        "win_rate": 0.593,
-        "volume": 3674145.52,
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 73922.01,
+        "win_rate": 0.4835,
+        "volume": 703977.98,
         "categories": [
           "sports"
         ]
@@ -1419,39 +1407,83 @@
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 75426.88,
-        "win_rate": 0.4835,
-        "volume": 573175.33,
+        "wallet": "0x3a8aa345d5",
+        "username": "TheReturnOfDarthMaul",
+        "pnl": 43723.88,
+        "win_rate": 0.719,
+        "volume": 1380999.25,
         "categories": [
-          "sports"
+          "crypto",
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 45097.94,
+        "win_rate": 0.9015,
+        "volume": 621941.92,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz",
-      "url": "https://www.executivebiz.com/articles/vertosoft-datadog-strategic-partnership-monitoring-platform",
-      "ticker": "DDOG",
+      "title": "More than a third of the internet is now being written with AI",
+      "url": "https://www.the-independent.com/tech/ai-webpages-internet-dead-internet-theory-b3037019.html",
+      "ticker": "NET",
       "themes": [
-        "regulatory",
-        "leadership"
+        "ai"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Intapp launches Celeste AI for compliance and timekeeping",
+      "url": "https://cfotech.news/story/intapp-launches-celeste-ai-for-compliance-and-timekeeping",
+      "ticker": "INTA",
+      "themes": [
+        "ai"
       ],
       "date": "2026-08-20"
     },
     {
-      "title": "Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/18/brandt-walter-kucharski-sells-77436-shares-of-ethos-technologies-inc-class-a-common-stock-nasdaqlife-stock.html",
-      "ticker": "LIFE",
+      "title": "Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen",
+      "url": "https://www.dailypolitical.com/2026/08/17/intapp-nasdaqinta-upgraded-at-wall-street-zen.html",
+      "ticker": "INTA",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-19"
+      "date": "2026-08-18"
+    },
+    {
+      "title": "Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages",
+      "url": "https://www.themarketsdaily.com/2026/08/13/intapp-inc-nasdaqinta-receives-37-86-average-price-target-from-brokerages.html",
+      "ticker": "INTA",
+      "themes": [],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Longeveron Q2 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/08/12/longeveron-q2-earnings-call-highlights.html",
+      "ticker": "LGVN",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Longeveron Named a Finalist Team and Will Receive a $1 , 000 , 000 Milestone 2 Award for the XPRIZE Healthspan Global Competition",
+      "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/longeveron-named-a-finalist-team-and-will-receive-a-1000000-milestone-2-award-for-the-xprize-healthspan-global-competition/2403123",
+      "ticker": "LGVN",
+      "themes": [],
+      "date": "2026-08-11"
     }
   ],
-  "signals_count": 1668,
+  "signals_count": 1636,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
