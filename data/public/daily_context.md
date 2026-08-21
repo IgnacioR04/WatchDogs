@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-21T13:26:37+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
+_Generado 2026-08-21T14:17:20+00:00 · ventana señales 2026-07-22 -> 2026-08-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.48)
-- Tendencia: `bull` (SPY 762.6 · MA50 750.72 · MA200 704.54 · dist MA200: 8.24%)
-- Credito: `tight` (HY spread 2.73)
+- Volatilidad: `normal` (VIX 15.45)
+- Tendencia: `bull` (SPY 764.73 · MA50 751.54 · MA200 704.98 · dist MA200: 8.48%)
+- Credito: `tight` (HY spread 2.75)
 - Tipos: `steep` (curva 10y-2y 0.5)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,26 +22,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 762.6 | -0.84% | -1.96% | 3.31% |
-| QQQ | 12.0% | core | 710.93 | -0.72% | -2.89% | 2.74% |
-| TLT | 12.0% | core | 82.34 | -0.82% | -0.3% | -0.6% |
-| GLD | 9.3% | core | 415.26 | 0.34% | 4.09% | 11.77% |
-| FWONK | 7.1% | satellite | 104.16 | -0.65% | 0.45% | 7.96% |
-| CHRW | 6.3% | satellite | 143.83 | -0.48% | -3.7% | -30.01% |
-| IEF | 6.2% | core | 93.0 | -0.41% | -0.32% | 0.51% |
-| LTH | 5.5% | satellite | 44.72 | 0.16% | 0.93% | 6.65% |
-| BBIO | 3.8% | satellite | 82.94 | -1.2% | 2.13% | 0.01% |
-| VRDN | 3.5% | satellite | 24.5 | -1.21% | 11.41% | 27.21% |
-| HRI | 3.4% | satellite | 161.66 | -3.83% | -4.18% | -0.97% |
-| AMR | 2.6% | satellite | 194.3 | -0.06% | 24.87% | 35.67% |
-| CBRS | 1.3% | satellite | 209.85 | -2.71% | -9.16% | -4.61% |
+| SPY | 12.0% | core | 764.73 | 0.28% | -1.5% | 3.49% |
+| QQQ | 12.0% | core | 709.96 | -0.14% | -2.89% | 3.76% |
+| TLT | 12.0% | core | 82.16 | -0.21% | 0.15% | -0.91% |
+| GLD | 9.3% | core | 420.87 | 1.35% | 4.83% | 13.17% |
+| FWONK | 7.0% | satellite | 104.66 | 0.48% | 0.73% | 7.84% |
+| IEF | 6.2% | core | 92.92 | -0.09% | -0.13% | 0.22% |
+| CHRW | 6.1% | satellite | 143.29 | -0.38% | -3.55% | -23.17% |
+| LTH | 5.4% | satellite | 45.01 | 0.65% | -0.55% | 6.33% |
+| BBIO | 3.9% | satellite | 82.91 | -0.04% | 3.82% | -1.32% |
+| HRI | 3.5% | satellite | 160.77 | -0.55% | -7.34% | -1.12% |
+| VRDN | 3.5% | satellite | 24.59 | 0.37% | 11.37% | 27.61% |
+| AMR | 2.6% | satellite | 203.41 | 4.69% | 22.5% | 42.3% |
+| CBRS | 1.4% | satellite | 201.76 | -3.86% | -7.86% | 1.33% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.9%
+- Volatilidad anualizada: 10.8%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -2.4%
-- Beta vs SPY: 0.656 · posiciones efectivas: 13.8 · HHI: 0.0725
+- Beta vs SPY: 0.658 · posiciones efectivas: 13.8 · HHI: 0.0722
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -60,9 +60,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| INV | 80 | corporate_insider | Haskell Gregory W | 4 | $75,600 | cluster_buy |
+| INV | 79 | corporate_insider | Otworth Michael | 4 | $349,295 | cluster_buy |
+| INV | 79 | corporate_insider | Donnally James O | 4 | $337,500 | cluster_buy |
+| INV | 75 | corporate_insider | Brown Bruce | 4 | $45,399 | cluster_buy |
 | ELF | 73 | large_holder | Fenelon Opportunity Fund  |  | - | - |
-| LFT | 72 | corporate_insider | Flynn James Peter | 2 | $14,602 | cluster_buy,small_amount |
-| LFT | 72 | corporate_insider | Flynn James Peter | 2 | $12,132 | cluster_buy,small_amount |
 | VRDN | 72 | large_holder | Point72 Asset Management, |  | - | - |
 | BY | 72 | large_holder | MBG INVESTORS I, LP |  | - | - |
 | HRI | 72 | large_holder | Coliseum Capital Manageme |  | - | - |
@@ -73,8 +75,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CHTR | 70 | large_holder | Advance/Newhouse Partners |  | - | - |
 | VAC | 70 | large_holder | Impactive Capital LP |  | - | - |
 | PHGE | 70 | large_holder | Cystic Fibrosis Foundatio |  | - | - |
-| LONA | 70 | large_holder | ACORN BIOVENTURES, L.P. |  | - | - |
-| GPRO | 70 | large_holder | Fischbach Mark Edward |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -96,15 +96,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 762.6 (-0.84% / -1.96% / 3.31%) [2026-08-20]
-- QQQ: 710.93 (-0.72% / -2.89% / 2.74%) [2026-08-20]
-- IWM: 297.67 (-1.34% / -1.92% / 1.91%) [2026-08-20]
-- DIA: 527.51 (-1.27% / -1.93% / 2.18%) [2026-08-20]
-- TLT: 82.34 (-0.82% / -0.3% / -0.6%) [2026-08-20]
-- IEF: 93.0 (-0.41% / -0.32% / 0.51%) [2026-08-20]
-- GLD: 415.26 (0.34% / 4.09% / 11.77%) [2026-08-20]
-- ^VIX: 15.48 (-3.31% / 8.63% / -16.68%) [2026-08-21]
-- BTC-USD: 76982.34 (5.41% / 22.55% / 22.65%) [2026-08-21]
+- SPY: 764.73 (0.28% / -1.5% / 3.49%) [2026-08-21]
+- QQQ: 709.96 (-0.14% / -2.89% / 3.76%) [2026-08-21]
+- IWM: 298.58 (0.3% / -2.14% / 2.54%) [2026-08-21]
+- DIA: 530.68 (0.6% / -1.14% / 2.3%) [2026-08-21]
+- TLT: 82.16 (-0.21% / 0.15% / -0.91%) [2026-08-21]
+- IEF: 92.92 (-0.09% / -0.13% / 0.22%) [2026-08-21]
+- GLD: 420.87 (1.35% / 4.83% / 13.17%) [2026-08-21]
+- ^VIX: 15.45 (-3.5% / 8.42% / -16.85%) [2026-08-21]
+- BTC-USD: 76797.27 (5.15% / 22.25% / 22.36%) [2026-08-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -112,46 +112,40 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.65 (delta 1m: 0.02) [2026-08-19]
 - Curva 10Y-2Y: 0.5 (delta 1m: 0.14) [2026-08-20]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.73 (delta 1m: 0.04) [2026-08-19]
+- High yield spread (OAS): 2.75 (delta 1m: 0.07) [2026-08-20]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
 - Breakeven inflacion 10Y: 2.34 (delta 1m: 0.06) [2026-08-20]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), earnings (5), ai (1)
+**Temas dominantes**: stock (2), ai (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Chasity Grosh Sells 838 Shares of Stock (2026-08-21)
 - [SNOW] Snowflake , Westpac , NSW Health showcase how trusted data is turning AI into business outcomes (2026-08-21)
-- [TEAM] Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock (2026-08-21)
 - [SNOW] Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock (2026-08-21)
-- [TEAM] Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares (2026-08-21)
+- [LBRDK] Charter completes acquisition of Liberty Broadband (2026-08-21)
 - [SNOW] Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Erika Davis Sells 1 , 529 Shares (2026-08-21)
-- [PFGC] Performance Food Group ( NYSE : PFGC ) Insider Sells $87 , 688 . 32 in Stock (2026-08-21)
-- [PFGC] Insider Selling : Performance Food Group ( NYSE : PFGC ) Insider Sells 1 , 529 Shares of Stock (2026-08-21)
-- [PFGC] Performance Food Group ( PFGC ) Q4 2026 Earnings Call Transcript (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO WIRTH JAMES F opero IHT por $5487.8B el 2026-08-18.
 - 10% owner DST Global Advisors Ltd vendio CHYM por $62.3M el 2026-08-19.
 - CEO GELFOND RICHARD L vendio IMAX por $10.9M el 2026-08-19.
-- 10% owner Apeiron Investment Group Ltd. compro ENHA por $2.7M el 2026-08-19 [senal en multiples fuentes].
 - Director WARREN KELCY L compro ET por $13.8M el 2026-08-19.
 - CEO Gallagher Thomas P. vendio MIAX por $6.2M el 2026-08-19.
 - 10% owner Mindlin Marcos Marcelo compro PAM por $3.0M el 2026-08-19.
 - CEO GELFOND RICHARD L vendio IMAX por $5.3M el 2026-08-20.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $837,652 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $826,876 · win rate 92% · categorias: sports
 - HongYunX · PnL $42,410 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $126,393 · win rate 91% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $141,769 · win rate 91% · categorias: sports
 - Kingdmandan · PnL $21,749 · win rate 97% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $47,023 · win rate 90% · categorias: crypto
+- JnStrtPrdctnMrkts · PnL $39,053 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,7 +153,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `warning`
 - **congress**: `warning` · 100 registros 30d · ultimo dato 2026-08-13 — invalid_tickers_present:A
-- **sec_insiders**: `ok` · 1004 registros 30d · ultimo dato 2026-08-20
+- **sec_insiders**: `ok` · 990 registros 30d · ultimo dato 2026-08-20
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
