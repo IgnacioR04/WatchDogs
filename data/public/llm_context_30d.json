@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-21T18:02:36.669399+00:00",
+  "generated_at": "2026-08-21T19:10:41.107569+00:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-08-21",
@@ -24,8 +24,10 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
-      "leadership"
+      "regulatory",
+      "merger",
+      "ai",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -394,6 +396,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "IDAI",
+        "company": "T Stamp Inc",
+        "pressure_score": 547.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "LTH",
         "company": "Common Stock",
         "pressure_score": 543.1,
@@ -402,27 +412,11 @@
         ]
       },
       {
-        "ticker": "AMR",
-        "company": "Alpha Metallurgical Resources, Inc.",
-        "pressure_score": 448.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ATXG",
         "company": "Addentax Group Corp.",
         "pressure_score": 423.0,
         "sources": [
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "IDAI",
-        "company": "T Stamp Inc",
-        "pressure_score": 417.3,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -455,15 +449,6 @@
         "pressure_score": 297.4,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CLPR",
-        "company": "Clipper Realty Inc.",
-        "pressure_score": 290.9,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -513,6 +498,22 @@
         "sources": [
           "congress"
         ]
+      },
+      {
+        "ticker": "NTHI",
+        "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+        "pressure_score": 217.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "REFI",
+        "company": "Chicago Atlantic Real Estate Finance, Inc.",
+        "pressure_score": 216.0,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -541,23 +542,6 @@
         ]
       },
       {
-        "ticker": "CAH",
-        "company": "CARDINAL HEALTH INC",
-        "pressure_score": 1560.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "Common Stock",
-        "pressure_score": 1554.4,
-        "sources": [
-          "congress",
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SYK",
         "company": "Stryker Corporation Common Stock",
         "pressure_score": 1540.5,
@@ -570,14 +554,6 @@
         "ticker": "SNOW",
         "company": "Snowflake Inc.",
         "pressure_score": 1486.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWV",
-        "company": "CoreWeave, Inc.",
-        "pressure_score": 1375.7,
         "sources": [
           "corporate_insider"
         ]
@@ -609,7 +585,7 @@
       {
         "ticker": "TEM",
         "company": "Tempus AI, Inc.",
-        "pressure_score": 952.3,
+        "pressure_score": 882.3,
         "sources": [
           "corporate_insider"
         ]
@@ -623,9 +599,9 @@
         ]
       },
       {
-        "ticker": "FSLY",
-        "company": "Fastly, Inc.",
-        "pressure_score": 730.1,
+        "ticker": "CAH",
+        "company": "CARDINAL HEALTH INC",
+        "pressure_score": 644.5,
         "sources": [
           "corporate_insider"
         ]
@@ -634,6 +610,31 @@
         "ticker": "SKYE",
         "company": "SKYE BIOSCIENCE, INC.",
         "pressure_score": 581.4,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "FSLY",
+        "company": "Fastly, Inc.",
+        "pressure_score": 576.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TWST",
+        "company": "Twist Bioscience Corp",
+        "pressure_score": 537.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BBIO",
+        "company": "BridgeBio Pharma, Inc.",
+        "pressure_score": 528.1,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -652,6 +653,15 @@
       "score": 82.2
     },
     {
+      "ticker": "PRTA",
+      "company": "PROTHENA CORP PUBLIC LTD CO",
+      "actor": "SCULLY WILLIAM P",
+      "actor_type": "ten_percent_owner",
+      "amount": 439430.0,
+      "date": "2026-08-20",
+      "score": 79.3
+    },
+    {
       "ticker": "PAM",
       "company": "Pampa Energy Inc.",
       "actor": "Mindlin Marcos Marcelo",
@@ -659,24 +669,6 @@
       "amount": 1327797.75,
       "date": "2026-08-18",
       "score": 79.0
-    },
-    {
-      "ticker": "AMR",
-      "company": "Alpha Metallurgical Resources, Inc.",
-      "actor": "Courtis Kenneth S.",
-      "actor_type": "director",
-      "amount": 1157431.68,
-      "date": "2026-08-20",
-      "score": 77.7
-    },
-    {
-      "ticker": "AMR",
-      "company": "Alpha Metallurgical Resources, Inc.",
-      "actor": "Courtis Kenneth S.",
-      "actor_type": "director",
-      "amount": 1042996.24,
-      "date": "2026-08-20",
-      "score": 77.4
     },
     {
       "ticker": "RAIN",
@@ -697,15 +689,6 @@
       "score": 77.2
     },
     {
-      "ticker": "CLPR",
-      "company": "Clipper Realty Inc.",
-      "actor": "Levinson Sam",
-      "actor_type": "ten_percent_owner",
-      "amount": 273865.98,
-      "date": "2026-08-18",
-      "score": 76.8
-    },
-    {
       "ticker": "GRX",
       "company": "Gabelli Healthcare & WellnessRx Trust",
       "actor": "Saba Capital Management, L.P.",
@@ -722,15 +705,6 @@
       "amount": 75600.0,
       "date": "2026-08-20",
       "score": 76.7
-    },
-    {
-      "ticker": "DGXX",
-      "company": "Digi Power X Inc.",
-      "actor": "Amar Michel",
-      "actor_type": "ceo",
-      "amount": 72000.0,
-      "date": "2026-08-19",
-      "score": 76.6
     },
     {
       "ticker": "DGICA",
@@ -776,6 +750,33 @@
       "amount": 38600.0,
       "date": "2026-08-20",
       "score": 75.3
+    },
+    {
+      "ticker": "INV",
+      "company": "Innventure, Inc.",
+      "actor": "Otworth Michael",
+      "actor_type": "director",
+      "amount": 349295.1,
+      "date": "2026-08-20",
+      "score": 75.1
+    },
+    {
+      "ticker": "NTHI",
+      "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "actor": "CHEN THOMAS C",
+      "actor_type": "ceo",
+      "amount": 69997.66,
+      "date": "2026-08-18",
+      "score": 75.1
+    },
+    {
+      "ticker": "INV",
+      "company": "Innventure, Inc.",
+      "actor": "Donnally James O",
+      "actor_type": "director",
+      "amount": 337500.0,
+      "date": "2026-08-20",
+      "score": 75.0
     }
   ],
   "institutional_changes": [
@@ -1224,9 +1225,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "BOOMBOYS.Kiritych",
-        "pnl": 1297819.48,
-        "win_rate": 0.9197,
-        "volume": 7140696.43,
+        "pnl": 1198569.9,
+        "win_rate": 0.92,
+        "volume": 7781754.63,
         "categories": [
           "sports"
         ]
@@ -1244,9 +1245,9 @@
       {
         "wallet": "0x9f15613ebf",
         "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 98446.96,
-        "win_rate": 0.904,
-        "volume": 974883.52,
+        "pnl": 102587.46,
+        "win_rate": 0.903,
+        "volume": 979048.03,
         "categories": [
           "sports"
         ]
@@ -1254,9 +1255,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 97045.1,
+        "pnl": 97893.4,
         "win_rate": 0.9048,
-        "volume": 131709.96,
+        "volume": 134664.1,
         "categories": [
           "crypto"
         ]
@@ -1274,9 +1275,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 38374.1,
+        "pnl": 36917.17,
         "win_rate": 0.9073,
-        "volume": 83951.61,
+        "volume": 84692.83,
         "categories": [
           "sports"
         ]
@@ -1284,9 +1285,19 @@
       {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 47090.33,
-        "win_rate": 0.8761,
-        "volume": 285186.76,
+        "pnl": 49312.0,
+        "win_rate": 0.8766,
+        "volume": 285560.2,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1e52bbdf38",
+        "username": "dsasdaas",
+        "pnl": 67012.1,
+        "win_rate": 0.8571,
+        "volume": 333667.84,
         "categories": [
           "sports"
         ]
@@ -1296,29 +1307,17 @@
         "username": "shanze8",
         "pnl": 28849.32,
         "win_rate": 0.8934,
-        "volume": 70486.79,
+        "volume": 70491.84,
         "categories": []
       },
       {
         "wallet": "0xcc500cbcc8",
         "username": "justdance",
-        "pnl": 71518.27,
+        "pnl": 70873.27,
         "win_rate": 0.817,
-        "volume": 417529.76,
+        "volume": 422096.61,
         "categories": [
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x143732d8a0",
-        "username": "frozenriver",
-        "pnl": 105562.16,
-        "win_rate": 0.786,
-        "volume": 28605.64,
-        "categories": [
-          "crypto",
-          "politics",
-          "sports"
         ]
       }
     ],
@@ -1326,7 +1325,7 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 425960.56,
+        "pnl": 367638.13,
         "win_rate": 0.4709,
         "volume": 10543099.14,
         "categories": [
@@ -1337,9 +1336,9 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "BOOMBOYS.Kiritych",
-        "pnl": 1297819.48,
-        "win_rate": 0.9197,
-        "volume": 7140696.43,
+        "pnl": 1198569.9,
+        "win_rate": 0.92,
+        "volume": 7781754.63,
         "categories": [
           "sports"
         ]
@@ -1347,9 +1346,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 191220.92,
+        "pnl": 216308.73,
         "win_rate": 0.652,
-        "volume": 8236026.45,
+        "volume": 8419669.23,
         "categories": [
           "sports",
           "politics"
@@ -1358,9 +1357,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 80282.34,
-        "win_rate": 0.629,
-        "volume": 6517635.72,
+        "pnl": 98810.47,
+        "win_rate": 0.624,
+        "volume": 7262978.5,
         "categories": [
           "sports"
         ]
@@ -1368,7 +1367,7 @@
       {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 26265.8,
+        "pnl": 27651.02,
         "win_rate": 0.4758,
         "volume": 1326382.71,
         "categories": [
@@ -1380,9 +1379,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 223899.39,
+        "pnl": 223384.84,
         "win_rate": 0.503,
-        "volume": 1194666.95,
+        "volume": 1231051.44,
         "categories": [
           "sports"
         ]
@@ -1390,8 +1389,8 @@
       {
         "wallet": "0x8c0b024c17",
         "username": "IMAREALPERSON",
-        "pnl": 35952.69,
-        "win_rate": 0.748,
+        "pnl": 42348.23,
+        "win_rate": 0.749,
         "volume": 850121.81,
         "categories": [
           "sports",
@@ -1401,7 +1400,7 @@
       {
         "wallet": "0x67ac9e1ad7",
         "username": "fkcvffcjt",
-        "pnl": 38077.51,
+        "pnl": 38081.97,
         "win_rate": 0.602,
         "volume": 871495.66,
         "categories": [
@@ -1413,9 +1412,9 @@
       {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 152721.39,
+        "pnl": 156673.45,
         "win_rate": 0.48,
-        "volume": 587857.49,
+        "volume": 599787.36,
         "categories": [
           "crypto"
         ]
@@ -1423,9 +1422,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 70293.18,
+        "pnl": 70297.31,
         "win_rate": 0.4835,
-        "volume": 242960.25,
+        "volume": 243810.99,
         "categories": [
           "sports"
         ]
@@ -1434,76 +1433,79 @@
   },
   "news": [
     {
-      "title": "Cardinal Health ( NYSE : CAH ) CEO Jason Hollar Sells 80 , 000 Shares",
-      "url": "https://www.themarketsdaily.com/2026/08/21/cardinal-health-nysecah-ceo-jason-hollar-sells-80000-shares.html",
-      "ticker": "CAH",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Insider Selling : Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13552023/insider-selling-atlassian-nasdaqteam-cro-sells-1851-shares-of-stock.html",
-      "ticker": "TEAM",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Atlassian ( NASDAQ : TEAM ) CRO Sells 1 , 851 Shares",
-      "url": "https://www.dailypolitical.com/2026/08/20/atlassian-nasdaqteam-cro-sells-1851-shares.html",
-      "ticker": "TEAM",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Analyzing Cytek Biosciences ( NASDAQ : CTKB ) and Quantum - Si ( NASDAQ : QSI ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13550360/analyzing-cytek-biosciences-nasdaqctkb-and-quantum-si-nasdaqqsi.html",
-      "ticker": "CTKB",
+      "title": "What three female figures in the Bayeux tapestry reveal about medieval women",
+      "url": "https://theconversation.com/what-three-female-figures-in-the-bayeux-tapestry-reveal-about-medieval-women-289344",
+      "ticker": "TPR",
       "themes": [],
-      "date": "2026-08-19"
+      "date": "2026-08-21"
     },
     {
-      "title": "Cytek Biosciences ( NASDAQ : CTKB ) versus Quantum - Si ( NASDAQ : QSI ) Critical Review",
-      "url": "https://www.dailypolitical.com/2026/08/19/cytek-biosciences-nasdaqctkb-versus-quantum-si-nasdaqqsi-critical-review.html",
-      "ticker": "CTKB",
-      "themes": [],
-      "date": "2026-08-19"
+      "title": "Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS",
+      "url": "https://www.themarketsdaily.com/2026/08/21/deutsche-bank-ag-buys-shares-of-759307-webster-financial-corporation-wbs.html",
+      "ticker": "WBS",
+      "themes": [
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-08-21"
     },
     {
-      "title": "Cardinal Health ( CAH ) Q4 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/healthcare/articles/cardinal-health-cah-q4-2026-144333987.html",
-      "ticker": "CAH",
+      "title": "Snowflake , Westpac , NSW Health showcase how trusted data is turning AI into business outcomes",
+      "url": "https://www.arnnet.com.au/article/4211745/snowflake-westpac-nsw-health-showcase-how-trusted-data-is-turning-ai-into-business-outcomes.html",
+      "ticker": "SNOW",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Snowflake ( NYSE : SNOW ) Director Frank Slootman Sells 48 , 990 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13552021/snowflake-nysesnow-director-frank-slootman-sells-48990-shares-of-stock.html",
+      "ticker": "SNOW",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Charter completes acquisition of Liberty Broadband",
+      "url": "https://www.wfsb.com/2026/08/21/charter-completes-acquisition-liberty-broadband/",
+      "ticker": "LBRDK",
+      "themes": [
+        "merger",
+        "regulatory"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Snowflake ( NYSE : SNOW ) Director Sells 48 , 990 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/08/20/snowflake-nysesnow-director-sells-48990-shares-of-stock.html",
+      "ticker": "SNOW",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Santander completes acquisition of Webster Financial Corp . ",
+      "url": "https://www.readingeagle.com/2026/08/20/santander-completes-acquisition-of-webster-financial-corp/",
+      "ticker": "WBS",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th",
+      "url": "https://www.dailypolitical.com/2026/08/08/webster-financial-corporation-wbs-to-distribute-quarterly-dividend-of-0-40-on-august-20th.html",
+      "ticker": "WBS",
       "themes": [
         "earnings"
       ],
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Cardinal Health ( CAH ) Big Earnings Beat Hides a More Complicated Story",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-health-cah-big-earnings-165020198.html",
-      "ticker": "CAH",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Cytek ( CTKB ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/cytek-ctkb-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "CTKB",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-13"
+      "date": "2026-08-08"
     }
   ],
-  "signals_count": 1765,
+  "signals_count": 1660,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
