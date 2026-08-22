@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T15:50:41+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T16:57:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T15:50:41+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T16:57:26+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 76990.6 (-1.72% / 19.35% / 21.28%) [2026-08-22]
+- BTC-USD: 77313.63 (-1.3% / 19.85% / 21.79%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), ai (2), regulatory (1), leadership (1)
+**Temas dominantes**: regulatory (1), stock (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brannin Mcbee Sells 3 , 610 Shares (2026-08-22)
-- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brian Venturo Sells 5 , 899 Shares of Stock (2026-08-22)
-- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
-- [CRWV] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
-- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
-- [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
-- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
-- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
-- [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
+- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
+- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,11 +374,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $752,218 · win rate 92% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $172,477 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $99,611 · win rate 91% · categorias: sports
-- Kosherlocks · PnL $32,408 · win rate 96% · categorias: sports, crypto
-- BreakTheBank · PnL $164,389 · win rate 84% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $801,736 · win rate 92% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $174,554 · win rate 96% · categorias: sports
+- R88N · PnL $48,279 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $99,721 · win rate 91% · categorias: sports
+- BreakTheBank · PnL $219,698 · win rate 84% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
