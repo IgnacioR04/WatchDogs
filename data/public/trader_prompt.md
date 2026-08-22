@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T19:49:11+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T20:52:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T19:49:11+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T20:52:39+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77435.96 (-1.15% / 20.04% / 21.98%) [2026-08-22]
+- BTC-USD: 77323.33 (-1.29% / 19.87% / 21.8%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), regulatory (2), ai (2), merger (1)
+**Temas dominantes**: stock (13), regulatory (3), ai (3), merger (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brannin Mcbee Sells 3 , 610 Shares (2026-08-22)
 - [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brian Venturo Sells 5 , 899 Shares of Stock (2026-08-22)
+- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
 - [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
-- [LITE] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
+- [CRWV] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
+- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
 - [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
-- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
-- [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
-- [INTA] Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages (2026-08-13)
+- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,11 +382,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $979,452 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $978,799 · win rate 92% · categorias: sports
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $174,559 · win rate 96% · categorias: sports
-- R88N · PnL $50,174 · win rate 99% · categorias: sports
-- monkeymashingkeyboard · PnL $108,260 · win rate 91% · categorias: sports
-- gransaaa · PnL $135,238 · win rate 87% · categorias: sports
+- R88N · PnL $53,813 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $97,611 · win rate 91% · categorias: sports
+- gransaaa · PnL $147,104 · win rate 87% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
