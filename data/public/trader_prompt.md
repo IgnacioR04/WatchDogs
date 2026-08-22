@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T07:16:11+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T08:01:38+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T07:16:11+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T08:01:38+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77358.83 (-1.25% / 19.92% / 21.86%) [2026-08-22]
+- BTC-USD: 77258.43 (-1.37% / 19.77% / 21.7%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), regulatory (1), merger (1), ai (1), earnings (1)
+**Temas dominantes**: stock (3), ai (2), regulatory (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
 - [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
+- [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
 - [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
 - [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
 - [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
 - [INTA] Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages (2026-08-13)
-- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,11 +379,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $160,386 · win rate 96% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $131,314 · win rate 96% · categorias: sports
 - monkeymashingkeyboard · PnL $99,124 · win rate 91% · categorias: sports
-- Kosherlocks · PnL $32,403 · win rate 96% · categorias: sports, crypto
-- BOOMBOYS.Kiritych · PnL $37,417 · win rate 92% · categorias: sports
-- Skyfker · PnL $36,734 · win rate 90% · categorias: sports, crypto
+- Kosherlocks · PnL $32,383 · win rate 96% · categorias: sports, crypto
+- Skyfker · PnL $26,174 · win rate 90% · categorias: sports, crypto
+- quavoo · PnL $170,697 · win rate 77% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
