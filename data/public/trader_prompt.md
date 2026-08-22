@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T03:23:36+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T04:15:44+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T03:23:36+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T04:15:44+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 78590.01 (7.61% / 25.11% / 25.22%) [2026-08-22]
+- BTC-USD: 78389.59 (7.33% / 24.79% / 24.9%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,20 +354,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (2), regulatory (1), leadership (1), earnings (1)
+**Temas dominantes**: regulatory (2), stock (1), merger (1), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
-- [NET] More than a third of the internet is now being written with AI (2026-08-21)
-- [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
-- [LITE] Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2 % – Here What Happened (2026-08-20)
+- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
+- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
 - [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
-- [LITE] Oriental Harbor Investment Master Fund Takes $22 . 41 Million Position in Lumentum Holdings Inc . $LITE (2026-08-20)
-- [LITE] Lumentum ( LITE ) Q4 2026 Earnings Call Transcript (2026-08-20)
-- [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
-- [ILMN] Integrated Diagnostics ( OTCMKTS : IDGXF ) and Illumina ( NASDAQ : ILMN ) Head - To - Head Comparison (2026-08-19)
+- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
