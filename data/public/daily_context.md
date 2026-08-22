@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T05:08:06+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T05:57:42+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 78497.19 (7.48% / 24.96% / 25.07%) [2026-08-22]
+- BTC-USD: 77370.29 (5.94% / 23.16% / 23.27%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,14 +121,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (1), leadership (1), ai (1), stock (1)
+**Temas dominantes**: ai (2), stock (2), regulatory (1), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
+- [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
+- [LITE] Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2 % – Here What Happened (2026-08-20)
 - [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
-- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
-- [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
-- [INTA] Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages (2026-08-13)
+- [LITE] Oriental Harbor Investment Master Fund Takes $22 . 41 Million Position in Lumentum Holdings Inc . $LITE (2026-08-20)
+- [LITE] Lumentum ( LITE ) Q4 2026 Earnings Call Transcript (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +145,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $46,616 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $60,690 · win rate 91% · categorias: sports
-- Kosherlocks · PnL $24,953 · win rate 96% · categorias: sports, crypto
-- ic4cream · PnL $18,738 · win rate 90% · categorias: sports
-- NiNo999 · PnL $12,463 · win rate 90% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $94,592 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $99,124 · win rate 91% · categorias: sports
+- Skyfker · PnL $27,654 · win rate 90% · categorias: sports, crypto
+- ic4cream · PnL $19,920 · win rate 90% · categorias: sports
+- quavoo · PnL $121,868 · win rate 77% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
