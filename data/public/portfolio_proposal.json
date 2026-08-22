@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-08-21T23:54:25+00:00",
+  "generated_at": "2026-08-22T02:08:00+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
     "IEF": 0.0622,
-    "FWONK": 0.053,
-    "CHRW": 0.0435,
-    "LTH": 0.0417,
-    "MED": 0.0391,
-    "GRNT": 0.0362,
-    "CART": 0.0359,
-    "CHTR": 0.0271,
-    "ELF": 0.0243,
-    "ALK": 0.0233,
-    "CBRS": 0.0103
+    "FWONK": 0.057,
+    "CHRW": 0.0468,
+    "LTH": 0.0448,
+    "MED": 0.0421,
+    "GRNT": 0.039,
+    "CART": 0.0386,
+    "CHTR": 0.0291,
+    "ELF": 0.0261,
+    "CBRS": 0.0111
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "FWONK": 0.0471,
-    "CHTR": 0.0241,
-    "MED": 0.0348,
-    "CHRW": 0.0387,
-    "LTH": 0.0371,
-    "ELF": 0.0216,
-    "GRNT": 0.0322,
-    "CBRS": 0.0092,
-    "CART": 0.0319,
-    "ALK": 0.0207
+    "FWONK": 0.0507,
+    "CHTR": 0.0259,
+    "MED": 0.0374,
+    "CHRW": 0.0416,
+    "LTH": 0.0398,
+    "ELF": 0.0232,
+    "GRNT": 0.0347,
+    "CBRS": 0.0099,
+    "CART": 0.0343
   },
   "satellite_rationale": [
     {
@@ -113,27 +111,19 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "ALK",
-      "score": 65.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0947,
-    "var_95_1d": 0.0086,
-    "cvar_95_1d": 0.0118,
-    "max_drawdown": -0.025,
-    "beta_spy": 0.619,
-    "hhi": 0.0683,
+    "ann_vol": 0.0898,
+    "var_95_1d": 0.0079,
+    "cvar_95_1d": 0.0116,
+    "max_drawdown": -0.0239,
+    "beta_spy": 0.577,
+    "hhi": 0.0697,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.8499,
+    "n_positions": 14,
+    "effective_positions": 14.4,
+    "gross_exposure": 0.8501,
     "days_used": 56
   },
   "risk_gate": {

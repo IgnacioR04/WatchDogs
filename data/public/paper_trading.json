@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:54:26+00:00",
+  "generated_at": "2026-08-22T02:08:02+00:00",
   "budget_eur": 100.0,
   "n_cycles": 18,
   "cost_model": {
@@ -8,17 +8,17 @@
   },
   "metrics": {
     "n_days": 32,
-    "equity_eur": 99.96,
-    "total_return": -0.0004,
+    "equity_eur": 99.88,
+    "total_return": -0.0012,
     "win_rate_days": 0.4688,
     "best_day": 0.0108,
-    "worst_day": -0.0068,
-    "ann_vol": 0.0701,
-    "sharpe": 0.26,
-    "sortino": 0.45,
+    "worst_day": -0.007,
+    "ann_vol": 0.0699,
+    "sharpe": 0.17,
+    "sortino": 0.29,
     "max_drawdown": -0.0197,
     "spy_return": 0.0031,
-    "excess_return": -0.0035,
+    "excess_return": -0.0043,
     "costs_eur": 0.2407,
     "turnover_total": 1.606
   },
@@ -199,21 +199,21 @@
     },
     {
       "date": "2026-08-19",
-      "equity": 100.35,
+      "equity": 100.32,
       "spy": 101.61,
-      "daily_ret": 0.0085
+      "daily_ret": 0.00821
     },
     {
       "date": "2026-08-20",
-      "equity": 99.67,
+      "equity": 99.62,
       "spy": 99.94,
-      "daily_ret": -0.00676
+      "daily_ret": -0.00701
     },
     {
       "date": "2026-08-21",
-      "equity": 99.96,
+      "equity": 99.88,
       "spy": 100.31,
-      "daily_ret": 0.00293
+      "daily_ret": 0.00267
     }
   ],
   "positions": {
@@ -300,7 +300,10 @@
     },
     "CRWV": {
       "weight": 0.012,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-08-19",
+      "ret_since_entry": -0.0571,
+      "value_eur": 1.13
     },
     "HRI": {
       "weight": 0.03,
