@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T16:57:26+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T17:50:28+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77313.63 (-1.3% / 19.85% / 21.79%) [2026-08-22]
+- BTC-USD: 77273.71 (-1.36% / 19.79% / 21.73%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,12 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (1), stock (1), merger (1)
+**Temas dominantes**: stock (10), regulatory (2), ai (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
+- [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brannin Mcbee Sells 3 , 610 Shares (2026-08-22)
+- [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brian Venturo Sells 5 , 899 Shares of Stock (2026-08-22)
+- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
+- [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
+- [CRWV] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
+- [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
+- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
+- [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $801,736 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $879,447 · win rate 92% · categorias: sports
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $174,554 · win rate 96% · categorias: sports
-- R88N · PnL $48,279 · win rate 99% · categorias: sports
-- monkeymashingkeyboard · PnL $99,721 · win rate 91% · categorias: sports
-- BreakTheBank · PnL $219,698 · win rate 84% · categorias: sports
+- R88N · PnL $48,440 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $99,903 · win rate 91% · categorias: sports
+- Kosherlocks · PnL $32,398 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
