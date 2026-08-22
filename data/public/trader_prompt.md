@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T10:58:26+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T11:49:48+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T10:58:26+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T11:49:47+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 76900.65 (-1.83% / 19.21% / 21.14%) [2026-08-22]
+- BTC-USD: 77122.84 (-1.55% / 19.56% / 21.49%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,7 +354,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: stock (3), regulatory (2), merger (1), leadership (1), earnings (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
+- [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
+- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
+- [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
+- [ILMN] Integrated Diagnostics ( OTCMKTS : IDGXF ) and Illumina ( NASDAQ : ILMN ) Head - To - Head Comparison (2026-08-19)
+- [WBS] Webster Financial Corporation ( WBS ) to Distribute Quarterly Dividend of $0 . 40 on August 20th (2026-08-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -369,11 +379,11 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $168,391 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $99,126 · win rate 91% · categorias: sports
-- Kosherlocks · PnL $32,426 · win rate 96% · categorias: sports, crypto
-- BOOMBOYS.Kiritych · PnL $26,776 · win rate 92% · categorias: sports
-- quavoo · PnL $169,190 · win rate 77% · categorias: sports, politics, economy
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $180,107 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $99,129 · win rate 91% · categorias: sports
+- Kosherlocks · PnL $32,430 · win rate 96% · categorias: sports, crypto
+- BrotherObama · PnL $111,662 · win rate 82% · categorias: sports
+- quavoo · PnL $178,500 · win rate 78% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
