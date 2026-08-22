@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-22T02:08:02+00:00 -->
+<!-- trader_prompt.md generado 2026-08-22T03:23:36+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-22T02:08:02+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
+_Generado 2026-08-22T03:23:36+00:00 · ventana señales 2026-07-23 -> 2026-08-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77968.84 (6.76% / 24.12% / 24.23%) [2026-08-22]
+- BTC-USD: 78590.01 (7.61% / 25.11% / 25.22%) [2026-08-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,13 +354,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1), earnings (1)
+**Temas dominantes**: stock (5), ai (2), regulatory (1), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
 - [CRWV] Hudson River Trading Expands Partnership With CoreWeave For Advanced AI Infrastructure (2026-08-21)
+- [NET] More than a third of the internet is now being written with AI (2026-08-21)
 - [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
 - [LITE] Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2 % – Here What Happened (2026-08-20)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
 - [LITE] Oriental Harbor Investment Master Fund Takes $22 . 41 Million Position in Lumentum Holdings Inc . $LITE (2026-08-20)
 - [LITE] Lumentum ( LITE ) Q4 2026 Earnings Call Transcript (2026-08-20)
 - [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
@@ -379,11 +382,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $16,584 · win rate 93% · categorias: sports
-- ic4cream · PnL $10,544 · win rate 90% · categorias: sports
-- hcs0x · PnL $10,457 · win rate 86% · categorias: sports
-- quavoo · PnL $33,628 · win rate 78% · categorias: sports, politics, economy
-- AV23IUa · PnL $38,504 · win rate 75% · categorias: sports, crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $20,333 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $28,876 · win rate 91% · categorias: sports
+- dontworrybaseball · PnL $7,024 · win rate 100% · categorias: sports
+- Kosherlocks · PnL $10,783 · win rate 96% · categorias: sports, crypto
+- ic4cream · PnL $20,902 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
