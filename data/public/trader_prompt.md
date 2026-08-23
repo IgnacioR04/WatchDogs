@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-23T04:19:19+00:00 -->
+<!-- trader_prompt.md generado 2026-08-23T05:09:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-23T04:19:19+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
+_Generado 2026-08-23T05:09:53+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 76920.13 (-1.81% / 19.24% / 21.17%) [2026-08-23]
+- BTC-USD: 76251.01 (-2.66% / 18.21% / 20.11%) [2026-08-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,7 +354,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (2), ai (2), leadership (1)
+**Temas dominantes**: stock (4), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -363,7 +363,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
 - [LITE] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
 - [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
-- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
 - [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
 - [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
 - [INTA] Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages (2026-08-13)
@@ -382,7 +381,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $395,617 · win rate 93% · categorias: sports
-- BOOMBOYS.Kiritych · PnL $350,130 · win rate 92% · categorias: sports
+- BOOMBOYS.Kiritych · PnL $350,130 · win rate 93% · categorias: sports
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $83,108 · win rate 96% · categorias: sports
 - JnStrtPrdctnMrkts · PnL $58,280 · win rate 91% · categorias: crypto
 - VD721lsj4938Dk388 · PnL $16,010 · win rate 92% · categorias: sports
