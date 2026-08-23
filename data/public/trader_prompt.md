@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-23T06:02:36+00:00 -->
+<!-- trader_prompt.md generado 2026-08-23T07:18:01+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-23T06:02:36+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
+_Generado 2026-08-23T07:18:01+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -339,7 +339,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 76025.65 (-2.95% / 17.86% / 19.76%) [2026-08-23]
+- BTC-USD: 76321.5 (-0.99% / 18.0% / 20.27%) [2026-08-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,12 +354,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (1), leadership (1)
+**Temas dominantes**: stock (2), regulatory (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
-- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
 - [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
 - [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
 - [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
@@ -378,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BOOMBOYS.Kiritych · PnL $501,123 · win rate 93% · categorias: sports
-- kekasaur · PnL $395,676 · win rate 94% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $103,324 · win rate 96% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $55,653 · win rate 90% · categorias: crypto
-- TAIWANNUMBERONE · PnL $16,189 · win rate 92% · categorias: sports, politics
+- BOOMBOYS.Kiritych · PnL $470,374 · win rate 93% · categorias: sports
+- kekasaur · PnL $395,772 · win rate 94% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $81,099 · win rate 96% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $50,841 · win rate 90% · categorias: crypto
+- 0xf3ce7f04 · PnL $17,724 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
