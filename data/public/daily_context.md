@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-23T13:19:41+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
+_Generado 2026-08-23T14:00:49+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -106,7 +106,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77454.32 (0.48% / 19.75% / 22.05%) [2026-08-23]
+- BTC-USD: 77463.06 (0.49% / 19.76% / 22.06%) [2026-08-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,16 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (2), merger (1), leadership (1)
+**Temas dominantes**: stock (12), leadership (2), regulatory (2), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWV] Two Seas Capital LP Makes New Investment in CoreWeave Inc . $CRWV (2026-08-23)
+- [ILMN] Evolve Private Wealth LLC Takes $1 . 86 Million Position in Illumina , Inc . $ILMN (2026-08-23)
+- [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
+- [CRWV] CoreWeave CEO Michael Intrator Sold Over 13 , 000 Shares for $1 . 2 Million . What Does This Mean for Investors ? (2026-08-22)
+- [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brannin Mcbee Sells 3 , 610 Shares (2026-08-22)
+- [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brian Venturo Sells 5 , 899 Shares of Stock (2026-08-22)
 - [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
-- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
-- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
-- [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
+- [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,10 +150,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $395,772 · win rate 94% · categorias: sports
-- SPCEXBUYER · PnL $439,610 · win rate 93% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $90,360 · win rate 96% · categorias: sports
-- 0xf3ce7f04 · PnL $39,346 · win rate 96% · categorias: sports
-- Barbozaaa321 · PnL $31,575 · win rate 97% · categorias: sports
+- SPCEXBUYER · PnL $391,733 · win rate 93% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $83,101 · win rate 96% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $114,846 · win rate 90% · categorias: crypto
+- 0xf3ce7f04 · PnL $40,039 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
