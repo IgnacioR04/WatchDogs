@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-23T13:59:20.181339+00:00",
-  "overall_status": "warning",
+  "generated_at": "2026-08-23T14:54:35.387346+00:00",
+  "overall_status": "error",
   "datasets": {
     "congress": {
-      "status": "warning",
-      "records_total": 287,
-      "records_30d": 80,
-      "latest_tx_date": "2026-08-14",
-      "latest_disclosure_date": "2026-08-20",
+      "status": "error",
+      "records_total": 0,
+      "records_30d": 0,
+      "latest_tx_date": null,
+      "latest_disclosure_date": null,
       "issues": [
-        "invalid_tickers_present:A"
+        "no_valid_tx_dates"
       ],
-      "blocked_for_signals": false
+      "blocked_for_signals": true
     },
     "sec_insiders": {
       "status": "ok",
@@ -46,10 +46,10 @@
     },
     "polymarket": {
       "status": "ok",
-      "smart_traders": 48,
+      "smart_traders": 42,
       "whales": 50,
-      "volume_zero_count": 11,
-      "avg_win_rate": 0.6826,
+      "volume_zero_count": 6,
+      "avg_win_rate": 0.6815,
       "issues": [],
       "blocked_for_signals": false
     }

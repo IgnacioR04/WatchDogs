@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-23T14:00:49+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
+_Generado 2026-08-23T14:55:43+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,32 +26,26 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 713.44 | 0.35% | -2.41% | 4.27% |
 | TLT | 12.0% | core | 82.05 | -0.35% | 0.01% | -1.04% |
 | GLD | 9.3% | core | 423.36 | 1.95% | 5.45% | 13.84% |
+| MED | 7.6% | satellite | 11.95 | 2.84% | 4.46% | 23.45% |
+| GRNT | 7.0% | satellite | 5.11 | -1.35% | 0.0% | 5.36% |
+| CART | 6.9% | satellite | 49.83 | -2.43% | 1.94% | 18.05% |
 | IEF | 6.2% | core | 92.82 | -0.19% | -0.24% | 0.12% |
-| FWONK | 5.7% | satellite | 104.94 | 0.75% | 1.0% | 8.13% |
-| CHRW | 4.7% | satellite | 141.63 | -1.53% | -4.67% | -24.06% |
-| LTH | 4.5% | satellite | 45.11 | 0.87% | -0.33% | 6.57% |
-| MED | 4.2% | satellite | 11.95 | 2.84% | 4.46% | 23.45% |
-| GRNT | 3.9% | satellite | 5.11 | -1.35% | 0.0% | 5.36% |
-| CART | 3.9% | satellite | 49.83 | -2.43% | 1.94% | 18.05% |
-| CHTR | 2.9% | satellite | 150.17 | 1.63% | -2.66% | 21.78% |
-| ELF | 2.6% | satellite | 101.94 | 3.53% | 11.48% | 31.77% |
-| CBRS | 1.1% | satellite | 196.13 | -6.54% | -10.43% | -1.5% |
+| CHTR | 5.2% | satellite | 150.17 | 1.63% | -2.66% | 21.78% |
+| ELF | 4.7% | satellite | 101.94 | 3.53% | 11.48% | 31.77% |
+| CBRS | 2.0% | satellite | 196.13 | -6.54% | -10.43% | -1.5% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.0%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.577 · posiciones efectivas: 14.4 · HHI: 0.0697
+- Volatilidad anualizada: 9.9%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.556 · posiciones efectivas: 13.1 · HHI: 0.0766
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **FWONK** · score agregado 248.8 · 4 señales · fuentes: congress
 - **CHTR** · score agregado 213.8 · 3 señales · fuentes: large_holder
 - **MED** · score agregado 190.8 · 3 señales · fuentes: corporate_insider, large_holder
-- **CHRW** · score agregado 127.4 · 2 señales · fuentes: congress
-- **LTH** · score agregado 124.4 · 2 señales · fuentes: congress
-- **ELF** · score agregado 73.0 · 1 señales · fuentes: large_holder
+- **ELF** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **GRNT** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CART** · score agregado 70.2 · 1 señales · fuentes: large_holder
@@ -69,12 +63,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GWRS | 78 | corporate_insider | Cohn Andrew M. | 2 | $1,233,186 | cluster_buy |
 | IDAI | 78 | corporate_insider | Genner Gareth Neville | 3 | $28,558 | cluster_buy |
 | INV | 75 | corporate_insider | Brown Bruce | 4 | $45,399 | cluster_buy |
-| ELF | 73 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | MED | 72 | large_holder | Steamboat Capital Partner |  | - | - |
 | CHTR | 72 | large_holder | Advance/Newhouse Partners |  | - | - |
 | CHTR | 72 | large_holder | Ronald A. Duncan |  | - | - |
 | GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
+| ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 | IDAI | 71 | corporate_insider | Genner Gareth Neville | 3 | $1,545 | cluster_buy,small_amount |
 | IDAI | 71 | corporate_insider | Francis Andrew Scott | 3 | $4,960 | cluster_buy,small_amount |
 
@@ -82,14 +76,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| T | 65 | congress | Tim Moore | $100,000 | - |
-| PINS | 65 | congress | Christian D. Menefee | $50,000 | - |
-| TSCO | 64 | congress | April McClain Delaney | $50,000 | - |
-| NVDA | 64 | congress | Sam T. Liccardo | $50,000 | - |
-| CCI | 63 | congress | Michael Rulli | $15,000 | small_amount |
-| MDLZ | 62 | congress | Kevin Hern | $15,000 | small_amount |
-| OGN | 61 | congress | Kevin Hern | $15,000 | small_amount |
-| VSNT | 61 | congress | Kevin Hern | $15,000 | small_amount |
+| MDLZ | 58 | corporate_insider | Van de Put Dirk | $8,559,806 | - |
+| CBRS | 57 | corporate_insider | Lie Sean | $27,432,882 | - |
+| HCC | 57 | corporate_insider | SCHELLER WALTER J | $5,250,000 | - |
+| CBRS | 57 | corporate_insider | Lie Sean | $24,899,013 | - |
+| CBRS | 57 | corporate_insider | Lie Sean | $24,128,863 | - |
+| ILMN | 57 | corporate_insider | Meister Keith A. | $29,245,694 | - |
+| CBRS | 57 | corporate_insider | Lie Sean | $22,534,734 | - |
+| DDOG | 56 | corporate_insider | Pomel Olivier | $4,491,084 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -106,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77463.06 (0.49% / 19.76% / 22.06%) [2026-08-23]
+- BTC-USD: 77279.15 (0.25% / 19.48% / 21.77%) [2026-08-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,46 +115,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (12), leadership (2), regulatory (2), ai (2)
+**Temas dominantes**: stock (2), regulatory (1), merger (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Two Seas Capital LP Makes New Investment in CoreWeave Inc . $CRWV (2026-08-23)
-- [ILMN] Evolve Private Wealth LLC Takes $1 . 86 Million Position in Illumina , Inc . $ILMN (2026-08-23)
-- [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
-- [CRWV] CoreWeave CEO Michael Intrator Sold Over 13 , 000 Shares for $1 . 2 Million . What Does This Mean for Investors ? (2026-08-22)
-- [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
-- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brannin Mcbee Sells 3 , 610 Shares (2026-08-22)
-- [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
-- [CRWV] CoreWeave ( NASDAQ : CRWV ) Insider Brian Venturo Sells 5 , 899 Shares of Stock (2026-08-22)
-- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
-- [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
+- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
+- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
+- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
+- [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
+- [INTA] Intapp , Inc . ( NASDAQ : INTA ) Receives $37 . 86 Average Price Target from Brokerages (2026-08-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20 [senal en multiples fuentes].
-- CEO Van de Put Dirk vendio MDLZ por $8.6M el 2026-08-19 [senal en multiples fuentes].
 - Officer Lie Sean vendio CBRS por $27.4M el 2026-08-20 [senal en multiples fuentes].
+- CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - kekasaur · PnL $395,772 · win rate 94% · categorias: sports
-- SPCEXBUYER · PnL $391,733 · win rate 93% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $83,101 · win rate 96% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $114,846 · win rate 90% · categorias: crypto
-- 0xf3ce7f04 · PnL $40,039 · win rate 96% · categorias: sports
+- SPCEXBUYER · PnL $429,077 · win rate 92% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $180,003 · win rate 90% · categorias: crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $59,092 · win rate 96% · categorias: sports
+- 0xf3ce7f04 · PnL $45,947 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
 ## 6. Calidad de los datos
 
-- Estado global: `warning`
-- **congress**: `warning` · 80 registros 30d · ultimo dato 2026-08-14 — invalid_tickers_present:A
+- Estado global: `error`
+- **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
 - **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-08-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
@@ -175,7 +164,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CART, CBRS, CHRW, CHTR, ELF, FWONK, GLD, GRNT, IEF, LTH, MED, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CART, CBRS, CHTR, ELF, GLD, GRNT, IEF, MED, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
