@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-23T19:01:25+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
+_Generado 2026-08-23T19:48:38+00:00 · ventana señales 2026-07-24 -> 2026-08-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -100,7 +100,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
 - ^VIX: 15.13 (-5.5% / 6.18% / -18.57%) [2026-08-21]
-- BTC-USD: 77347.37 (0.34% / 19.58% / 21.88%) [2026-08-23]
+- BTC-USD: 77385.57 (0.39% / 19.64% / 21.94%) [2026-08-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,7 +115,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), leadership (2), regulatory (1), ai (1)
+**Temas dominantes**: stock (7), leadership (1), regulatory (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -123,12 +123,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [ILMN] Evolve Private Wealth LLC Takes $1 . 86 Million Position in Illumina , Inc . $ILMN (2026-08-23)
 - [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
 - [CRWV] CoreWeave CEO Michael Intrator Sold Over 13 , 000 Shares for $1 . 2 Million . What Does This Mean for Investors ? (2026-08-22)
+- [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
+- [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
+- [LITE] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
 - [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
-- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
-- [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
-- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
-- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
-- [ILMN] Plato Investment Management Ltd Buys Shares of 5 , 423 Illumina , Inc . $ILMN (2026-08-19)
+- [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,9 +143,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- kekasaur · PnL $395,772 · win rate 94% · categorias: sports
-- RJW1 · PnL $105,882 · win rate 99% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $209,064 · win rate 90% · categorias: crypto
+- kekasaur · PnL $397,826 · win rate 94% · categorias: sports
+- RJW1 · PnL $105,895 · win rate 99% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $217,888 · win rate 90% · categorias: crypto
 - 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $59,092 · win rate 96% · categorias: sports
 - 0xf3ce7f04 · PnL $45,947 · win rate 96% · categorias: sports
 
