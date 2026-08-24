@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-08-24T15:17:55+00:00",
+  "generated_at": "2026-08-24T16:15:34+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "CART": 0.0933,
-    "BABA": 0.081,
-    "CHTR": 0.0704,
-    "ELF": 0.063,
+    "GRNT": 0.0693,
+    "CART": 0.0685,
     "IEF": 0.0622,
-    "CBRS": 0.027
+    "BABA": 0.0595,
+    "CHTR": 0.0517,
+    "ELF": 0.0463,
+    "CBRS": 0.0198,
+    "AIAI": 0.0195
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0626,
-    "BABA": 0.072,
-    "ELF": 0.056,
-    "CBRS": 0.024,
-    "CART": 0.0829
+    "CHTR": 0.046,
+    "BABA": 0.0529,
+    "AIAI": 0.0173,
+    "ELF": 0.0412,
+    "GRNT": 0.0616,
+    "CBRS": 0.0176,
+    "CART": 0.0609
   },
   "satellite_rationale": [
     {
@@ -48,8 +52,24 @@
       "n_signals": 2
     },
     {
+      "ticker": "AIAI",
+      "score": 146.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "ELF",
       "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "GRNT",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -73,16 +93,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1239,
-    "var_95_1d": 0.0148,
-    "cvar_95_1d": 0.0179,
-    "max_drawdown": -0.0339,
-    "beta_spy": 0.712,
-    "hhi": 0.0807,
+    "ann_vol": 0.1043,
+    "var_95_1d": 0.011,
+    "cvar_95_1d": 0.016,
+    "max_drawdown": -0.0344,
+    "beta_spy": 0.578,
+    "hhi": 0.0744,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.4,
-    "gross_exposure": 0.8502,
+    "n_positions": 12,
+    "effective_positions": 13.4,
+    "gross_exposure": 0.8501,
     "days_used": 56
   },
   "risk_gate": {
