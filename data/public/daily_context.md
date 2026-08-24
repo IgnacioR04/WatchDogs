@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-24T10:20:58+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
+_Generado 2026-08-24T11:10:11+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.88)
+- Volatilidad: `normal` (VIX 15.95)
 - Tendencia: `bull` (SPY 765.72 · MA50 751.56 · MA200 704.98 · dist MA200: 8.62%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `steep` (curva 10y-2y 0.5)
@@ -99,8 +99,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.05 (-0.35% / 0.01% / -1.04%) [2026-08-21]
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
-- ^VIX: 15.88 (4.96% / 4.54% / -14.94%) [2026-08-24]
-- BTC-USD: 77912.14 (0.2% / 12.48% / 21.63%) [2026-08-24]
+- ^VIX: 15.95 (5.42% / 5.0% / -14.57%) [2026-08-24]
+- BTC-USD: 77616.57 (-0.18% / 12.06% / 21.17%) [2026-08-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,23 +115,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), regulatory (3), leadership (2), ai (1), merger (1)
+**Temas dominantes**: stock (9), ai (2), regulatory (2), leadership (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [LITE] Cibc World Market Inc . Makes New Investment in Lumentum Holdings Inc . $LITE (2026-08-24)
+- [NET] The internet has an AI problem as machines write more of the web (2026-08-24)
 - [CRWV] Two Seas Capital LP Makes New Investment in CoreWeave Inc . $CRWV (2026-08-23)
 - [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
 - [CRWV] CoreWeave CEO Michael Intrator Sold Over 13 , 000 Shares for $1 . 2 Million . What Does This Mean for Investors ? (2026-08-22)
 - [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
 - [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
 - [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
 - [LITE] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
-- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
-- [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Wu Yongming compro BABA por $5.0M el 2026-08-24.
 - Officer Lie Sean vendio CBRS por $27.4M el 2026-08-20 [senal en multiples fuentes].
 - CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
@@ -139,7 +140,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -155,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 675 registros 30d · ultimo dato 2026-08-21
+- **sec_insiders**: `ok` · 681 registros 30d · ultimo dato 2026-08-24
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-24
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
