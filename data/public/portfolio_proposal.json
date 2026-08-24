@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-08-24T22:59:27+00:00",
+  "generated_at": "2026-08-24T23:51:29+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CHTR": 0.0936,
-    "GLD": 0.0933,
-    "AMR": 0.0769,
-    "KURA": 0.0718,
-    "IEF": 0.0622,
-    "CLBT": 0.062,
-    "AIAI": 0.0304
+    "CHTR": 0.12,
+    "AMR": 0.1138,
+    "CLBT": 0.0997,
+    "GLD": 0.0939,
+    "IEF": 0.0627
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +22,9 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0832,
-    "AMR": 0.0684,
-    "AIAI": 0.027,
-    "CLBT": 0.0551,
-    "KURA": 0.0638
+    "CHTR": 0.1091,
+    "AMR": 0.1004,
+    "CLBT": 0.088
   },
   "satellite_rationale": [
     {
@@ -48,42 +44,26 @@
       "n_signals": 3
     },
     {
-      "ticker": "AIAI",
-      "score": 114.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "CLBT",
       "score": 71.8,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "KURA",
-      "score": 66.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1487,
-    "var_95_1d": 0.0145,
-    "cvar_95_1d": 0.0177,
-    "max_drawdown": -0.0846,
-    "beta_spy": 0.691,
-    "hhi": 0.0804,
+    "ann_vol": 0.1379,
+    "var_95_1d": 0.0131,
+    "cvar_95_1d": 0.0185,
+    "max_drawdown": -0.11,
+    "beta_spy": 0.539,
+    "hhi": 0.0932,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.4,
-    "gross_exposure": 0.8502,
-    "days_used": 68
+    "n_positions": 8,
+    "effective_positions": 10.7,
+    "gross_exposure": 0.8501,
+    "days_used": 202
   },
   "risk_gate": {
     "passed": true,
