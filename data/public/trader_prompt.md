@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-24T07:36:23+00:00 -->
+<!-- trader_prompt.md generado 2026-08-24T09:21:18+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-24T07:36:23+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
+_Generado 2026-08-24T09:21:18+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,7 +242,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.91)
+- Volatilidad: `normal` (VIX 15.87)
 - Tendencia: `bull` (SPY 765.72 · MA50 751.56 · MA200 704.98 · dist MA200: 8.62%)
 - Credito: `tight` (HY spread 2.75)
 - Tipos: `steep` (curva 10y-2y 0.5)
@@ -332,8 +332,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.05 (-0.35% / 0.01% / -1.04%) [2026-08-21]
 - IEF: 92.82 (-0.19% / -0.24% / 0.12%) [2026-08-21]
 - GLD: 423.36 (1.95% / 5.45% / 13.84%) [2026-08-21]
-- ^VIX: 15.91 (5.16% / 4.74% / -14.78%) [2026-08-24]
-- BTC-USD: 77457.27 (-0.38% / 11.83% / 20.92%) [2026-08-24]
+- ^VIX: 15.87 (4.89% / 4.48% / -15.0%) [2026-08-24]
+- BTC-USD: 77299.98 (-0.59% / 11.6% / 20.68%) [2026-08-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,20 +348,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), leadership (2), regulatory (2), merger (1), ai (1)
+**Temas dominantes**: stock (6), regulatory (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Two Seas Capital LP Makes New Investment in CoreWeave Inc . $CRWV (2026-08-23)
 - [ILMN] Evolve Private Wealth LLC Takes $1 . 86 Million Position in Illumina , Inc . $ILMN (2026-08-23)
-- [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
-- [CRWV] CoreWeave CEO Michael Intrator Sold Over 13 , 000 Shares for $1 . 2 Million . What Does This Mean for Investors ? (2026-08-22)
-- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
+- [LITE] Lumentum ( NASDAQ : LITE ) Shares Up 6 . 2 % on Analyst Upgrade (2026-08-22)
+- [LITE] Rakuten Securities Inc . Buys New Holdings in Lumentum Holdings Inc . $LITE (2026-08-22)
+- [LITE] 2 , 563 Shares in Lumentum Holdings Inc . $LITE Purchased by Vise Technologies Inc . (2026-08-22)
+- [LITE] Baystreet . ca - Why Coherent , CoreWeave , and Lumentum Fell By 10 % or More (2026-08-22)
 - [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
-- [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
+- [LITE] Lumentum Is Winning AI Stock Next Big Infrastructure Bottleneck (2026-08-22)
 - [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
 - [ILMN] Christensen Jakob Wedel Sells 1 , 033 Shares of Illumina ( NASDAQ : ILMN ) Stock (2026-08-20)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $46,574 · win rate 92% · categorias: sports
 - rollobravado · PnL $13,472 · win rate 99% · categorias: sports, politics
 - WhattDoyoumean · PnL $16,007 · win rate 93% · categorias: sports
 - Donghui · PnL $12,036 · win rate 93% · categorias: sports
 - torta.tech · PnL $7,356 · win rate 94% · categorias: sports
+- JUSTINHERBERTMVP · PnL $21,600 · win rate 87% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
