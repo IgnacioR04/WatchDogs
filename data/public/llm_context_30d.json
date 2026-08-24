@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-24T19:13:21.886161+00:00",
+  "generated_at": "2026-08-24T20:02:09.696947+00:00",
   "window": {
     "from": "2026-07-25",
     "to": "2026-08-24",
@@ -24,10 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai",
-      "earnings",
-      "regulatory",
-      "merger"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -83,10 +80,7 @@
       "event_date": "2026-08-20",
       "importance_score": 82.5,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_967061585607",
-        "news_609880726240"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2132472/000162828026058506/"
     },
     {
@@ -122,10 +116,7 @@
       "event_date": "2026-08-20",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_967061585607",
-        "news_609880726240"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2132472/000162828026058506/"
     },
     {
@@ -143,10 +134,7 @@
       "event_date": "2026-08-20",
       "importance_score": 82.3,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_967061585607",
-        "news_609880726240"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2132472/000162828026058506/"
     },
     {
@@ -164,10 +152,7 @@
       "event_date": "2026-08-20",
       "importance_score": 82.1,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_967061585607",
-        "news_609880726240"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2132472/000162828026058506/"
     },
     {
@@ -185,10 +170,7 @@
       "event_date": "2026-08-20",
       "importance_score": 81.8,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_967061585607",
-        "news_609880726240"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2132472/000162828026058506/"
     },
     {
@@ -444,14 +426,6 @@
         ]
       },
       {
-        "ticker": "AIAI",
-        "company": "AIAI Holdings Corp",
-        "pressure_score": 270.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CHTR",
         "company": "CHARTER COMMUNICATIONS, INC. /MO/",
         "pressure_score": 213.8,
@@ -533,6 +507,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "GWRS",
+        "company": "Global Water Resources, Inc.",
+        "pressure_score": 159.0,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -555,7 +537,7 @@
       {
         "ticker": "WBS",
         "company": "WEBSTER FINANCIAL CORP",
-        "pressure_score": 1875.3,
+        "pressure_score": 1807.0,
         "sources": [
           "corporate_insider"
         ]
@@ -586,6 +568,14 @@
         ]
       },
       {
+        "ticker": "ITRI",
+        "company": "ITRON, INC.",
+        "pressure_score": 660.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
         "pressure_score": 585.2,
@@ -602,9 +592,9 @@
         ]
       },
       {
-        "ticker": "ITRI",
-        "company": "ITRON, INC.",
-        "pressure_score": 454.3,
+        "ticker": "PG",
+        "company": "PROCTER & GAMBLE Co",
+        "pressure_score": 432.9,
         "sources": [
           "corporate_insider"
         ]
@@ -613,6 +603,14 @@
         "ticker": "BRZE",
         "company": "Braze, Inc.",
         "pressure_score": 399.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AXIA3",
+        "company": "AXIA Energia S.A.",
+        "pressure_score": 397.5,
         "sources": [
           "corporate_insider"
         ]
@@ -634,26 +632,9 @@
         ]
       },
       {
-        "ticker": "DGNX",
-        "company": "Diginex Ltd",
-        "pressure_score": 305.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "UPST",
         "company": "Upstart Holdings, Inc.",
         "pressure_score": 283.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SOPH",
-        "company": "SOPHiA GENETICS SA",
-        "pressure_score": 268.6,
         "sources": [
           "corporate_insider"
         ]
@@ -734,15 +715,6 @@
       "score": 77.2
     },
     {
-      "ticker": "NAKA",
-      "company": "Nakamoto Inc.",
-      "actor": "Bailey David F",
-      "actor_type": "ceo",
-      "amount": 179579.94,
-      "date": "2026-08-19",
-      "score": 77.1
-    },
-    {
       "ticker": "PODD",
       "company": "INSULET CORP",
       "actor": "McEvoy Ashley",
@@ -779,22 +751,31 @@
       "score": 75.0
     },
     {
-      "ticker": "QVCG",
-      "company": "QVC Group, Inc.",
-      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 212598.05,
-      "date": "2026-08-19",
-      "score": 75.0
+      "ticker": "IDAI",
+      "company": "T Stamp Inc",
+      "actor": "Genner Gareth Neville",
+      "actor_type": "ceo",
+      "amount": 28557.76,
+      "date": "2026-08-20",
+      "score": 74.6
     },
     {
-      "ticker": "NAKA",
-      "company": "Nakamoto Inc.",
-      "actor": "Bailey David F",
-      "actor_type": "ceo",
-      "amount": 30409.91,
+      "ticker": "AFCG",
+      "company": "Advanced Flower Capital Inc.",
+      "actor": "TANNENBAUM LEONARD M",
+      "actor_type": "ten_percent_owner",
+      "amount": 65800.0,
       "date": "2026-08-20",
-      "score": 74.8
+      "score": 73.9
+    },
+    {
+      "ticker": "LFT",
+      "company": "Lument Finance Trust, Inc.",
+      "actor": "Flynn James Peter",
+      "actor_type": "ceo",
+      "amount": 12558.0,
+      "date": "2026-08-20",
+      "score": 72.8
     }
   ],
   "institutional_changes": [
@@ -1122,8 +1103,8 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "SPCEXBUYER",
-        "pnl": 209604.01,
-        "win_rate": 0.9267,
+        "pnl": 160333.4,
+        "win_rate": 0.9273,
         "volume": 1314274.02,
         "categories": [
           "sports"
@@ -1132,20 +1113,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 55107.01,
-        "win_rate": 0.9219,
+        "pnl": 96971.36,
+        "win_rate": 0.9222,
         "volume": 262241.4,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x3b62c64eba",
-        "username": "rollobravado",
-        "pnl": 16182.89,
-        "win_rate": 0.9933,
-        "volume": 50000.0,
         "categories": [
           "sports",
           "politics"
@@ -1154,39 +1124,9 @@
       {
         "wallet": "0x58776759ee",
         "username": "Donghui",
-        "pnl": 22893.65,
-        "win_rate": 0.9267,
+        "pnl": 42093.65,
+        "win_rate": 0.9219,
         "volume": 208490.13,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6b97ebe911",
-        "username": "vibing123",
-        "pnl": 30144.44,
-        "win_rate": 0.901,
-        "volume": 133060.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x866056133a",
-        "username": "WhattDoyoumean",
-        "pnl": 16006.96,
-        "win_rate": 0.9252,
-        "volume": 25012.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 33767.9,
-        "win_rate": 0.8424,
-        "volume": 1384656.57,
         "categories": [
           "sports"
         ]
@@ -1194,9 +1134,19 @@
       {
         "wallet": "0x4d3079bd4c",
         "username": "gransaaa",
-        "pnl": 20221.36,
-        "win_rate": 0.8764,
+        "pnl": 42341.46,
+        "win_rate": 0.8778,
         "volume": 954734.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6b97ebe911",
+        "username": "vibing123",
+        "pnl": 19847.51,
+        "win_rate": 0.901,
+        "volume": 137276.45,
         "categories": [
           "sports"
         ]
@@ -1204,7 +1154,7 @@
       {
         "wallet": "0x86e99faea1",
         "username": "JUSTINHERBERTMVP",
-        "pnl": 17668.13,
+        "pnl": 18348.63,
         "win_rate": 0.8662,
         "volume": 12599.99,
         "categories": [
@@ -1214,13 +1164,46 @@
         ]
       },
       {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 23189.93,
+        "win_rate": 0.8424,
+        "volume": 1747848.02,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
         "pnl": 30224.74,
-        "win_rate": 0.8058,
+        "win_rate": 0.8155,
         "volume": 154427.04,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 56997.37,
+        "win_rate": 0.7537,
+        "volume": 118408.93,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x8718865882",
+        "username": "hurrican",
+        "pnl": 19710.31,
+        "win_rate": 0.816,
+        "volume": 110639.94,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
         ]
       }
     ],
@@ -1239,19 +1222,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 33767.9,
+        "pnl": 23189.93,
         "win_rate": 0.8424,
-        "volume": 1384656.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd30f4698c",
-        "username": "SPCEXBUYER",
-        "pnl": 209604.01,
-        "win_rate": 0.9267,
-        "volume": 1314274.02,
+        "volume": 1747848.02,
         "categories": [
           "sports"
         ]
@@ -1259,9 +1232,19 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 122452.85,
-        "win_rate": 0.57,
-        "volume": 3453726.5,
+        "pnl": 80574.77,
+        "win_rate": 0.581,
+        "volume": 4088448.21,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "SPCEXBUYER",
+        "pnl": 160333.4,
+        "win_rate": 0.9273,
+        "volume": 1314274.02,
         "categories": [
           "sports"
         ]
@@ -1269,8 +1252,8 @@
       {
         "wallet": "0x4d3079bd4c",
         "username": "gransaaa",
-        "pnl": 20221.36,
-        "win_rate": 0.8764,
+        "pnl": 42341.46,
+        "win_rate": 0.8778,
         "volume": 954734.27,
         "categories": [
           "sports"
@@ -1279,7 +1262,7 @@
       {
         "wallet": "0x34dd4a4b70",
         "username": "vito3corleone",
-        "pnl": 70545.43,
+        "pnl": 94887.46,
         "win_rate": 1.0,
         "volume": 233764.99,
         "categories": [
@@ -1289,9 +1272,19 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 39656.95,
-        "win_rate": 0.592,
-        "volume": 1838887.1,
+        "pnl": 44857.57,
+        "win_rate": 0.591,
+        "volume": 2300033.74,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 60422.05,
+        "win_rate": 0.534,
+        "volume": 2556736.44,
         "categories": [
           "sports"
         ]
@@ -1299,29 +1292,19 @@
       {
         "wallet": "0xb27bc932bf",
         "username": "",
-        "pnl": 17486.0,
-        "win_rate": 0.488,
-        "volume": 2817075.26,
+        "pnl": 18065.21,
+        "win_rate": 0.489,
+        "volume": 2954160.5,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x204f72f353",
-        "username": "swisstony",
-        "pnl": 19595.78,
-        "win_rate": 0.522,
-        "volume": 1913459.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 23587.09,
-        "win_rate": 0.548,
-        "volume": 966796.82,
+        "pnl": 20240.8,
+        "win_rate": 0.549,
+        "volume": 1160135.14,
         "categories": [
           "sports"
         ]
@@ -1330,67 +1313,22 @@
   },
   "news": [
     {
-      "title": "Nebius Group ( NBIS ) Just Posted 514 % Revenue Growth . Can CoreWeave ( CRWV ) Numbers Compete ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-nbis-just-posted-174505539.html",
-      "ticker": "CRWV",
+      "title": "Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/22/ethos-technologies-inc-class-a-common-stock-nasdaqlife-major-shareholder-us-ttgp-ltd-sc-sells-107795-shares-of-stock.html",
+      "ticker": "LIFE",
       "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-24"
-    },
-    {
-      "title": "CoreWeave shares are set to nearly double even as chip costs rise , Truist says",
-      "url": "https://www.cnbc.com/2026/08/24/coreweave-shares-are-set-to-nearly-double-even-as-chip-costs-rise-truist-says.html",
-      "ticker": "CRWV",
-      "themes": [
-        "ai",
         "stock"
       ],
-      "date": "2026-08-24"
-    },
-    {
-      "title": "The internet has an AI problem as machines write more of the web",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/the-internet-has-an-ai-problem-as-machines-write-more-of-the-web/articleshow/133457082.cms",
-      "ticker": "NET",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-24"
-    },
-    {
-      "title": "Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC",
-      "url": "https://www.dailypolitical.com/2026/08/21/cerebras-systems-cbrs-buy-rating-reiterated-at-needham-company-llc.html",
-      "ticker": "CBRS",
-      "themes": [],
       "date": "2026-08-22"
     },
     {
-      "title": "Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/21/cerebras-systems-nasdaqcbrs-coo-dhiraj-mallick-sells-38889-shares-of-stock.html",
-      "ticker": "CBRS",
+      "title": "Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/21/lingke-wang-sells-118333-shares-of-ethos-technologies-inc-class-a-common-stock-nasdaqlife-stock.html",
+      "ticker": "LIFE",
       "themes": [
         "stock"
       ],
       "date": "2026-08-21"
-    },
-    {
-      "title": "Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS",
-      "url": "https://www.themarketsdaily.com/2026/08/21/deutsche-bank-ag-buys-shares-of-759307-webster-financial-corporation-wbs.html",
-      "ticker": "WBS",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Santander completes acquisition of Webster Financial Corp . ",
-      "url": "https://www.readingeagle.com/2026/08/20/santander-completes-acquisition-of-webster-financial-corp/",
-      "ticker": "WBS",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-08-20"
     },
     {
       "title": "Intapp launches Celeste AI for compliance and timekeeping",
@@ -1400,6 +1338,15 @@
         "ai"
       ],
       "date": "2026-08-20"
+    },
+    {
+      "title": "Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/18/brandt-walter-kucharski-sells-77436-shares-of-ethos-technologies-inc-class-a-common-stock-nasdaqlife-stock.html",
+      "ticker": "LIFE",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-19"
     },
     {
       "title": "Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen",
@@ -1418,7 +1365,7 @@
       "date": "2026-08-13"
     }
   ],
-  "signals_count": 1354,
+  "signals_count": 1363,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:14:34+00:00",
+  "generated_at": "2026-08-24T20:03:10+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -9,14 +9,13 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "GRNT": 0.0693,
-    "CART": 0.0685,
+    "GRNT": 0.0736,
+    "CART": 0.0728,
+    "BABA": 0.0631,
     "IEF": 0.0622,
-    "BABA": 0.0595,
-    "CHTR": 0.0517,
-    "ELF": 0.0463,
-    "CBRS": 0.0198,
-    "AIAI": 0.0195
+    "CHTR": 0.0549,
+    "ELF": 0.0492,
+    "CBRS": 0.021
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.046,
-    "BABA": 0.0529,
-    "AIAI": 0.0173,
-    "ELF": 0.0412,
-    "GRNT": 0.0616,
-    "CBRS": 0.0176,
-    "CART": 0.0609
+    "CHTR": 0.0488,
+    "BABA": 0.0561,
+    "ELF": 0.0437,
+    "GRNT": 0.0654,
+    "CBRS": 0.0187,
+    "CART": 0.0647
   },
   "satellite_rationale": [
     {
@@ -46,14 +44,6 @@
     {
       "ticker": "BABA",
       "score": 167.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "AIAI",
-      "score": 146.0,
       "sources": [
         "corporate_insider"
       ],
@@ -93,15 +83,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1043,
-    "var_95_1d": 0.011,
-    "cvar_95_1d": 0.016,
-    "max_drawdown": -0.0344,
-    "beta_spy": 0.578,
-    "hhi": 0.0744,
+    "ann_vol": 0.104,
+    "var_95_1d": 0.0111,
+    "cvar_95_1d": 0.0162,
+    "max_drawdown": -0.0335,
+    "beta_spy": 0.574,
+    "hhi": 0.0763,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.4,
+    "n_positions": 11,
+    "effective_positions": 13.1,
     "gross_exposure": 0.8501,
     "days_used": 56
   },
