@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-08-24T13:26:40+00:00",
+  "generated_at": "2026-08-24T14:18:39+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "MED": 0.0641,
+    "MED": 0.0757,
+    "GRNT": 0.0702,
+    "CART": 0.0694,
     "IEF": 0.0622,
-    "GRNT": 0.0594,
-    "CART": 0.0588,
-    "BABA": 0.0511,
-    "CHTR": 0.0444,
-    "ELF": 0.0397,
-    "CBRS": 0.017
+    "CHTR": 0.0524,
+    "ELF": 0.0469,
+    "CBRS": 0.02
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0395,
-    "MED": 0.057,
-    "BABA": 0.0454,
-    "ELF": 0.0353,
-    "GRNT": 0.0528,
-    "CBRS": 0.0151,
-    "CART": 0.0523
+    "CHTR": 0.0466,
+    "MED": 0.0673,
+    "ELF": 0.0417,
+    "GRNT": 0.0624,
+    "CBRS": 0.0178,
+    "CART": 0.0617
   },
   "satellite_rationale": [
     {
@@ -51,14 +49,6 @@
         "large_holder"
       ],
       "n_signals": 3
-    },
-    {
-      "ticker": "BABA",
-      "score": 167.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "ELF",
@@ -94,16 +84,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0992,
-    "var_95_1d": 0.0108,
-    "cvar_95_1d": 0.015,
-    "max_drawdown": -0.0417,
-    "beta_spy": 0.583,
-    "hhi": 0.0733,
+    "ann_vol": 0.099,
+    "var_95_1d": 0.0085,
+    "cvar_95_1d": 0.0145,
+    "max_drawdown": -0.0315,
+    "beta_spy": 0.556,
+    "hhi": 0.0766,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.85,
+    "n_positions": 11,
+    "effective_positions": 13.1,
+    "gross_exposure": 0.8501,
     "days_used": 56
   },
   "risk_gate": {
