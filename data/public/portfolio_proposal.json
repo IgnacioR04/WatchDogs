@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-08-24T17:13:09+00:00",
+  "generated_at": "2026-08-24T18:04:44+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "BHRB": 0.0817,
-    "IEF": 0.0622,
-    "GRNT": 0.0463,
-    "CART": 0.0459,
-    "GO": 0.0418,
-    "BABA": 0.0398,
-    "CHTR": 0.0346,
-    "ELF": 0.031,
-    "CBRS": 0.0133
+    "TALK": 0.12,
+    "GLD": 0.1149,
+    "IEF": 0.0767,
+    "BHRB": 0.0438,
+    "CART": 0.0244,
+    "GO": 0.022,
+    "BABA": 0.0209,
+    "CHTR": 0.0184,
+    "ELF": 0.0168,
+    "MPLT": 0.0129,
+    "ZBIO": 0.0122,
+    "AIAI": 0.0071
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0308,
-    "BABA": 0.0354,
-    "GO": 0.0372,
-    "BHRB": 0.0726,
-    "ELF": 0.0276,
-    "GRNT": 0.0412,
-    "CBRS": 0.0118,
-    "CART": 0.0408
+    "CHTR": 0.0133,
+    "BABA": 0.0151,
+    "AIAI": 0.0051,
+    "TALK": 0.1687,
+    "MPLT": 0.0093,
+    "ZBIO": 0.0088,
+    "GO": 0.0159,
+    "BHRB": 0.0316,
+    "ELF": 0.0121,
+    "CART": 0.0176
   },
   "satellite_rationale": [
     {
@@ -50,6 +54,38 @@
       "score": 167.6,
       "sources": [
         "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "AIAI",
+      "score": 146.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "TALK",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "MPLT",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "ZBIO",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -79,22 +115,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "GRNT",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CBRS",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "CART",
       "score": 70.2,
       "sources": [
@@ -104,17 +124,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0921,
-    "var_95_1d": 0.0117,
-    "cvar_95_1d": 0.0145,
-    "max_drawdown": -0.0235,
-    "beta_spy": 0.543,
-    "hhi": 0.0724,
+    "ann_vol": 0.0839,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.0121,
+    "max_drawdown": -0.0218,
+    "beta_spy": 0.568,
+    "hhi": 0.0811,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.8,
-    "gross_exposure": 0.8499,
-    "days_used": 56
+    "n_positions": 15,
+    "effective_positions": 12.3,
+    "gross_exposure": 0.8501,
+    "days_used": 54
   },
   "risk_gate": {
     "passed": true,

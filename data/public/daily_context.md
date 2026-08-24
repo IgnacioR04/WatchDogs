@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-24T17:13:10+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
+_Generado 2026-08-24T18:04:45+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.66)
-- Tendencia: `bull` (SPY 764.68 · MA50 752.13 · MA200 705.46 · dist MA200: 8.39%)
+- Volatilidad: `normal` (VIX 15.8)
+- Tendencia: `bull` (SPY 763.53 · MA50 752.11 · MA200 705.45 · dist MA200: 8.23%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.5)
 - Fed Funds: 3.63%
@@ -22,36 +22,40 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 764.68 | -0.14% | -1.03% | 3.46% |
-| QQQ | 12.0% | core | 708.84 | -0.64% | -2.88% | 3.92% |
-| TLT | 12.0% | core | 82.81 | 0.93% | 1.79% | -0.72% |
-| GLD | 9.3% | core | 426.78 | 0.81% | 5.25% | 13.92% |
-| BHRB | 8.2% | satellite | 72.94 | 1.94% | 0.84% | 1.37% |
-| IEF | 6.2% | core | 93.08 | 0.28% | 0.26% | 0.13% |
-| GRNT | 4.6% | satellite | 5.03 | -1.57% | -4.37% | 10.07% |
-| CART | 4.6% | satellite | 51.67 | 3.68% | 5.74% | 17.26% |
-| GO | 4.2% | satellite | 11.79 | 1.64% | 2.61% | 25.16% |
-| BABA | 4.0% | satellite | 119.69 | 0.29% | -4.03% | 4.08% |
-| CHTR | 3.5% | satellite | 151.29 | 0.75% | 4.99% | 14.95% |
-| ELF | 3.1% | satellite | 105.29 | 3.29% | 12.42% | 25.33% |
-| CBRS | 1.3% | satellite | 187.76 | -4.27% | -25.48% | -0.45% |
+| SPY | 12.0% | core | 763.53 | -0.29% | -1.18% | 3.31% |
+| QQQ | 12.0% | core | 707.53 | -0.83% | -3.06% | 3.72% |
+| TLT | 12.0% | core | 82.62 | 0.69% | 1.56% | -0.95% |
+| TALK | 12.0% | satellite | 5.25 | 0.0% | 0.19% | 0.19% |
+| GLD | 11.5% | core | 425.51 | 0.51% | 4.94% | 13.58% |
+| IEF | 7.7% | core | 93.04 | 0.23% | 0.21% | 0.08% |
+| BHRB | 4.4% | satellite | 72.74 | 1.66% | 0.57% | 1.09% |
+| CART | 2.4% | satellite | 51.62 | 3.58% | 5.64% | 17.15% |
+| GO | 2.2% | satellite | 11.9 | 2.54% | 3.52% | 26.27% |
+| BABA | 2.1% | satellite | 118.71 | -0.53% | -4.81% | 3.23% |
+| CHTR | 1.8% | satellite | 150.98 | 0.54% | 4.77% | 14.72% |
+| ELF | 1.7% | satellite | 105.11 | 3.11% | 12.23% | 25.12% |
+| MPLT | 1.3% | satellite | 11.16 | -0.4% | -0.71% | 12.72% |
+| ZBIO | 1.2% | satellite | 31.61 | -2.11% | 3.64% | -3.69% |
+| AIAI | 0.7% | satellite | 5.42 | -18.13% | 8.18% | -2.52% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.2%
-- VaR 95% 1d: 1.2% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.543 · posiciones efectivas: 13.8 · HHI: 0.0724
+- Volatilidad anualizada: 8.4%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -2.2%
+- Beta vs SPY: 0.568 · posiciones efectivas: 12.3 · HHI: 0.0811
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **CHTR** · score agregado 213.8 · 3 señales · fuentes: large_holder
 - **BABA** · score agregado 167.6 · 2 señales · fuentes: corporate_insider
+- **AIAI** · score agregado 146.0 · 2 señales · fuentes: corporate_insider
+- **TALK** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **MPLT** · score agregado 139.5 · 2 señales · fuentes: large_holder
+- **ZBIO** · score agregado 139.5 · 2 señales · fuentes: large_holder
 - **GO** · score agregado 127.0 · 2 señales · fuentes: corporate_insider, large_holder
 - **BHRB** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **ELF** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GRNT** · score agregado 70.2 · 1 señales · fuentes: large_holder
-- **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CART** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
@@ -62,32 +66,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | BABA | 85 | corporate_insider | Wu Yongming | 2 | $4,984,000 | cluster_buy |
 | BABA | 83 | corporate_insider | Tsai Joseph C | 2 | $10,288,800 | cluster_buy |
-| GWRS | 81 | corporate_insider | Levine Jonathan L | 2 | $5,766,819 | cluster_buy |
-| INV | 80 | corporate_insider | Haskell Gregory W | 4 | $75,600 | cluster_buy |
-| INV | 79 | corporate_insider | Otworth Michael | 4 | $349,295 | cluster_buy |
-| INV | 79 | corporate_insider | Donnally James O | 4 | $337,500 | cluster_buy |
-| GWRS | 78 | corporate_insider | Cohn Andrew M. | 2 | $1,233,186 | cluster_buy |
 | IDAI | 78 | corporate_insider | Genner Gareth Neville | 3 | $28,558 | cluster_buy |
-| INV | 75 | corporate_insider | Brown Bruce | 4 | $45,399 | cluster_buy |
+| SCTH | 76 | corporate_insider | SITRA J SCOTT | 0 | $100,000,000 | - |
+| IDAI | 73 | corporate_insider | Genner Gareth Neville | 3 | $3,210 | cluster_buy,small_amount |
+| AIAI | 73 | corporate_insider | Carlton Charles Craig | 2 | $49,518 | cluster_buy |
+| AIAI | 73 | corporate_insider | Carlton Charles Craig | 2 | $49,910 | cluster_buy |
 | BHRB | 72 | large_holder | LEHMAN KENNETH R |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | CHTR | 72 | large_holder | Advance/Newhouse Partners |  | - | - |
 | QXL | 72 | large_holder | Nissim Daniel |  | - | - |
 | CHTR | 72 | large_holder | Ronald A. Duncan |  | - | - |
 | QXL | 72 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
+| GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
+| ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MDLZ | 58 | corporate_insider | Van de Put Dirk | $8,559,806 | - |
-| CBRS | 57 | corporate_insider | Lie Sean | $27,432,882 | - |
 | HCC | 57 | corporate_insider | SCHELLER WALTER J | $5,250,000 | - |
-| CBRS | 57 | corporate_insider | Lie Sean | $24,899,013 | - |
-| CBRS | 57 | corporate_insider | Lie Sean | $24,128,863 | - |
-| CBRS | 57 | corporate_insider | Lie Sean | $22,534,734 | - |
-| DDOG | 56 | corporate_insider | Pomel Olivier | $4,491,084 | - |
-| CBRS | 56 | corporate_insider | Lie Sean | $19,223,823 | - |
+| TXRH | 56 | corporate_insider | Morgan Gerald L. | $3,032,550 | - |
+| NET | 56 | corporate_insider | Zatlyn Michelle | $3,131,503 | - |
+| LIFE | 55 | corporate_insider | Wang Lingke | $2,681,202 | - |
+| NET | 55 | corporate_insider | Zatlyn Michelle | $2,478,197 | - |
+| NET | 55 | corporate_insider | Zatlyn Michelle | $2,455,901 | - |
+| NET | 55 | corporate_insider | Zatlyn Michelle | $2,414,429 | - |
+| NET | 55 | corporate_insider | Zatlyn Michelle | $2,241,899 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -96,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 764.68 (-0.14% / -1.03% / 3.46%) [2026-08-24]
-- QQQ: 708.84 (-0.64% / -2.88% / 3.92%) [2026-08-24]
-- IWM: 298.49 (-0.49% / -1.83% / 1.91%) [2026-08-24]
-- DIA: 533.59 (0.26% / -0.03% / 2.45%) [2026-08-24]
-- TLT: 82.81 (0.93% / 1.79% / -0.72%) [2026-08-24]
-- IEF: 93.08 (0.28% / 0.26% / 0.13%) [2026-08-24]
-- GLD: 426.78 (0.81% / 5.25% / 13.92%) [2026-08-24]
-- ^VIX: 15.66 (3.5% / 3.09% / -16.12%) [2026-08-24]
-- BTC-USD: 79181.87 (1.83% / 14.32% / 23.61%) [2026-08-24]
+- SPY: 763.53 (-0.29% / -1.18% / 3.31%) [2026-08-24]
+- QQQ: 707.53 (-0.83% / -3.06% / 3.72%) [2026-08-24]
+- IWM: 297.63 (-0.78% / -2.11% / 1.61%) [2026-08-24]
+- DIA: 532.96 (0.14% / -0.15% / 2.33%) [2026-08-24]
+- TLT: 82.62 (0.69% / 1.56% / -0.95%) [2026-08-24]
+- IEF: 93.04 (0.23% / 0.21% / 0.08%) [2026-08-24]
+- GLD: 425.51 (0.51% / 4.94% / 13.58%) [2026-08-24]
+- ^VIX: 15.8 (4.43% / 4.02% / -15.37%) [2026-08-24]
+- BTC-USD: 78885.64 (1.45% / 13.89% / 23.15%) [2026-08-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,21 +123,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1)
+**Temas dominantes**: stock (7), regulatory (3), earnings (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NET] The internet has an AI problem as machines write more of the web (2026-08-24)
 - [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
-- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
 - [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
+- [INTA] Intapp launches Celeste AI for compliance and timekeeping (2026-08-20)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Insider Daljit Singh Aurora Sells 34 , 987 Shares (2026-08-20)
+- [NMRA] Daljit Singh Aurora Sells 34 , 987 Shares of Neumora Therapeutics ( NASDAQ : NMRA ) Stock (2026-08-20)
 - [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
+- [INTA] Intapp ( NASDAQ : INTA ) Upgraded at Wall Street Zen (2026-08-18)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Quarterly Earnings Results , Beats Expectations By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics ( NASDAQ : NMRA ) Announces Earnings Results , Beats Estimates By $0 . 01 EPS (2026-08-15)
+- [NMRA] Neumora Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO SITRA J SCOTT compro SCTH por $100.0M el 2026-08-21.
 - CEO Wu Yongming compro BABA por $5.0M el 2026-08-24.
-- Officer Lie Sean vendio CBRS por $27.4M el 2026-08-20 [senal en multiples fuentes].
 - Director Tsai Joseph C compro BABA por $10.3M el 2026-08-24.
 - CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
@@ -143,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $138,749 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $54,752 · win rate 92% · categorias: sports, politics
-- rollobravado · PnL $13,472 · win rate 99% · categorias: sports, politics
-- Donghui · PnL $17,298 · win rate 93% · categorias: sports
-- WhattDoyoumean · PnL $16,007 · win rate 93% · categorias: sports
+- SPCEXBUYER · PnL $186,362 · win rate 93% · categorias: sports
+- TAIWANNUMBERONE · PnL $74,046 · win rate 92% · categorias: sports, politics
+- rollobravado · PnL $14,022 · win rate 99% · categorias: sports, politics
+- Donghui · PnL $29,394 · win rate 93% · categorias: sports
+- vibing123 · PnL $23,369 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 552 registros 30d · ultimo dato 2026-08-24
+- **sec_insiders**: `ok` · 427 registros 30d · ultimo dato 2026-08-24
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-24
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -169,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BABA, BHRB, CART, CBRS, CHTR, ELF, GLD, GO, GRNT, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AIAI, BABA, BHRB, CART, CHTR, ELF, GLD, GO, IEF, MPLT, QQQ, SPY, TALK, TLT, ZBIO`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
