@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-24T14:18:40+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
+_Generado 2026-08-24T15:17:56+00:00 · ventana señales 2026-07-25 -> 2026-08-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.84)
-- Tendencia: `bull` (SPY 762.82 · MA50 752.1 · MA200 705.45 · dist MA200: 8.13%)
-- Credito: `tight` (HY spread 2.75)
+- Volatilidad: `normal` (VIX 15.81)
+- Tendencia: `bull` (SPY 762.73 · MA50 752.1 · MA200 705.45 · dist MA200: 8.12%)
+- Credito: `tight` (HY spread 2.7)
 - Tipos: `steep` (curva 10y-2y 0.5)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); credito tenso/risk-on (+)
@@ -22,31 +22,29 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 762.82 | -0.38% | -1.27% | 3.21% |
-| QQQ | 12.0% | core | 703.51 | -1.39% | -3.61% | 3.14% |
-| TLT | 12.0% | core | 82.53 | 0.59% | 1.45% | -1.06% |
-| GLD | 9.3% | core | 427.13 | 0.89% | 5.34% | 14.01% |
-| MED | 7.6% | satellite | 12.22 | 2.26% | 6.82% | 23.31% |
-| GRNT | 7.0% | satellite | 5.07 | -0.68% | -3.52% | 11.05% |
-| CART | 6.9% | satellite | 50.93 | 2.21% | 4.24% | 15.59% |
-| IEF | 6.2% | core | 93.02 | 0.22% | 0.19% | 0.06% |
-| CHTR | 5.2% | satellite | 149.15 | -0.68% | 3.5% | 13.33% |
-| ELF | 4.7% | satellite | 103.96 | 1.98% | 11.0% | 23.75% |
-| CBRS | 2.0% | satellite | 187.29 | -4.5% | -25.67% | -0.7% |
+| SPY | 12.0% | core | 762.73 | -0.39% | -1.29% | 3.2% |
+| QQQ | 12.0% | core | 705.17 | -1.16% | -3.38% | 3.38% |
+| TLT | 12.0% | core | 82.62 | 0.69% | 1.56% | -0.95% |
+| GLD | 9.3% | core | 428.43 | 1.2% | 5.66% | 14.36% |
+| CART | 9.3% | satellite | 51.24 | 2.83% | 4.87% | 16.3% |
+| BABA | 8.1% | satellite | 118.93 | -0.34% | -4.63% | 3.42% |
+| CHTR | 7.0% | satellite | 150.9 | 0.48% | 4.72% | 14.65% |
+| ELF | 6.3% | satellite | 104.3 | 2.32% | 11.36% | 24.15% |
+| IEF | 6.2% | core | 93.04 | 0.24% | 0.22% | 0.09% |
+| CBRS | 2.7% | satellite | 186.69 | -4.81% | -25.91% | -1.02% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.9%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.5%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.556 · posiciones efectivas: 13.1 · HHI: 0.0766
+- Volatilidad anualizada: 12.4%
+- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -3.4%
+- Beta vs SPY: 0.712 · posiciones efectivas: 12.4 · HHI: 0.0807
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **CHTR** · score agregado 213.8 · 3 señales · fuentes: large_holder
-- **MED** · score agregado 190.8 · 3 señales · fuentes: corporate_insider, large_holder
+- **BABA** · score agregado 167.6 · 2 señales · fuentes: corporate_insider
 - **ELF** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GRNT** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **CART** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -56,6 +54,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| BABA | 85 | corporate_insider | Wu Yongming | 2 | $4,984,000 | cluster_buy |
+| BABA | 83 | corporate_insider | Tsai Joseph C | 2 | $10,288,800 | cluster_buy |
 | GWRS | 81 | corporate_insider | Levine Jonathan L | 2 | $5,766,819 | cluster_buy |
 | INV | 80 | corporate_insider | Haskell Gregory W | 4 | $75,600 | cluster_buy |
 | INV | 79 | corporate_insider | Otworth Michael | 4 | $349,295 | cluster_buy |
@@ -63,14 +63,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GWRS | 78 | corporate_insider | Cohn Andrew M. | 2 | $1,233,186 | cluster_buy |
 | IDAI | 78 | corporate_insider | Genner Gareth Neville | 3 | $28,558 | cluster_buy |
 | INV | 75 | corporate_insider | Brown Bruce | 4 | $45,399 | cluster_buy |
+| IDAI | 73 | corporate_insider | Genner Gareth Neville | 3 | $3,210 | cluster_buy,small_amount |
 | BHRB | 72 | large_holder | LEHMAN KENNETH R |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
-| MED | 72 | large_holder | Steamboat Capital Partner |  | - | - |
 | CHTR | 72 | large_holder | Advance/Newhouse Partners |  | - | - |
+| QXL | 72 | large_holder | Nissim Daniel |  | - | - |
 | CHTR | 72 | large_holder | Ronald A. Duncan |  | - | - |
-| GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
-| ELF | 72 | large_holder | Fenelon Opportunity Fund  |  | - | - |
-| IDAI | 71 | corporate_insider | Genner Gareth Neville | 3 | $1,545 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -92,15 +90,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 762.82 (-0.38% / -1.27% / 3.21%) [2026-08-24]
-- QQQ: 703.51 (-1.39% / -3.61% / 3.14%) [2026-08-24]
-- IWM: 298.48 (-0.49% / -1.84% / 1.9%) [2026-08-24]
-- DIA: 533.63 (0.26% / -0.02% / 2.46%) [2026-08-24]
-- TLT: 82.53 (0.59% / 1.45% / -1.06%) [2026-08-24]
-- IEF: 93.02 (0.22% / 0.19% / 0.06%) [2026-08-24]
-- GLD: 427.13 (0.89% / 5.34% / 14.01%) [2026-08-24]
-- ^VIX: 15.84 (4.69% / 4.28% / -15.16%) [2026-08-24]
-- BTC-USD: 79303.76 (1.99% / 14.49% / 23.8%) [2026-08-24]
+- SPY: 762.73 (-0.39% / -1.29% / 3.2%) [2026-08-24]
+- QQQ: 705.17 (-1.16% / -3.38% / 3.38%) [2026-08-24]
+- IWM: 298.28 (-0.56% / -1.9% / 1.83%) [2026-08-24]
+- DIA: 532.9 (0.13% / -0.16% / 2.32%) [2026-08-24]
+- TLT: 82.62 (0.69% / 1.56% / -0.95%) [2026-08-24]
+- IEF: 93.04 (0.24% / 0.22% / 0.09%) [2026-08-24]
+- GLD: 428.43 (1.2% / 5.66% / 14.36%) [2026-08-24]
+- ^VIX: 15.81 (4.49% / 4.08% / -15.32%) [2026-08-24]
+- BTC-USD: 79543.72 (2.3% / 14.84% / 24.18%) [2026-08-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -108,14 +106,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.69 (delta 1m: 0.02) [2026-08-20]
 - Curva 10Y-2Y: 0.5 (delta 1m: 0.16) [2026-08-21]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
-- High yield spread (OAS): 2.75 (delta 1m: 0.07) [2026-08-20]
+- High yield spread (OAS): 2.7 (delta 1m: -0.07) [2026-08-21]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
 - Breakeven inflacion 10Y: 2.34 (delta 1m: 0.06) [2026-08-21]
 - Dolar broad index: 118.9028 (delta 1m: -1.428) [2026-08-14]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), ai (2), regulatory (2), leadership (2), merger (1)
+**Temas dominantes**: stock (6), leadership (2), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -124,30 +122,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 - [CRWV] BCA Research Sees a Dangerous Risk in CoreWeave ( CRWV ) and Nebius ( NBIS ) (2026-08-23)
 - [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Major Shareholder Us ( Ttgp ) Ltd . Sc Sells 107 , 795 Shares of Stock (2026-08-22)
-- [CBRS] Cerebras System ( CBRS ) Buy Rating Reiterated at Needham & Company LLC (2026-08-22)
 - [LIFE] Lingke Wang Sells 118 , 333 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-21)
-- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) COO Dhiraj Mallick Sells 38 , 889 Shares of Stock (2026-08-21)
-- [WBS] Deutsche Bank AG Buys Shares of 759 , 307 Webster Financial Corporation $WBS (2026-08-21)
-- [WBS] Santander completes acquisition of Webster Financial Corp . (2026-08-20)
+- [DDOG] Vertosoft to Bring Datadog Cloud Monitoring Platform to Public Sector – ExecutiveBiz (2026-08-20)
+- [LIFE] Brandt Walter Kucharski Sells 77 , 436 Shares of Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) Stock (2026-08-19)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) CEO Martine Rothblatt Sells 9 , 500 Shares of Stock (2026-08-14)
+- [UTHR] Liquidia Stock : Top 1 % Biotech Beats Sales Views Amid Ongoing United Therapeutics Rivalry (2026-08-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Wu Yongming compro BABA por $5.0M el 2026-08-24.
 - Officer Lie Sean vendio CBRS por $27.4M el 2026-08-20 [senal en multiples fuentes].
+- Director Tsai Joseph C compro BABA por $10.3M el 2026-08-24.
 - CEO MINICUCCI BENITO compro ALK por $1.0M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - rollobravado · PnL $13,472 · win rate 99% · categorias: sports, politics
-- SPCEXBUYER · PnL $32,442 · win rate 93% · categorias: sports
-- TAIWANNUMBERONE · PnL $33,226 · win rate 92% · categorias: sports, politics
+- SPCEXBUYER · PnL $32,490 · win rate 93% · categorias: sports
+- TAIWANNUMBERONE · PnL $33,458 · win rate 92% · categorias: sports, politics
 - WhattDoyoumean · PnL $16,007 · win rate 93% · categorias: sports
-- vibing123 · PnL $13,481 · win rate 90% · categorias: sports
+- vibing123 · PnL $13,797 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +153,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 627 registros 30d · ultimo dato 2026-08-21
+- **sec_insiders**: `ok` · 648 registros 30d · ultimo dato 2026-08-24
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-24
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -169,7 +167,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CART, CBRS, CHTR, ELF, GLD, GRNT, IEF, MED, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BABA, CART, CBRS, CHTR, ELF, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

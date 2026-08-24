@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-08-24T14:18:39+00:00",
+  "generated_at": "2026-08-24T15:17:55+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "MED": 0.0757,
-    "GRNT": 0.0702,
-    "CART": 0.0694,
+    "CART": 0.0933,
+    "BABA": 0.081,
+    "CHTR": 0.0704,
+    "ELF": 0.063,
     "IEF": 0.0622,
-    "CHTR": 0.0524,
-    "ELF": 0.0469,
-    "CBRS": 0.02
+    "CBRS": 0.027
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0466,
-    "MED": 0.0673,
-    "ELF": 0.0417,
-    "GRNT": 0.0624,
-    "CBRS": 0.0178,
-    "CART": 0.0617
+    "CHTR": 0.0626,
+    "BABA": 0.072,
+    "ELF": 0.056,
+    "CBRS": 0.024,
+    "CART": 0.0829
   },
   "satellite_rationale": [
     {
@@ -42,25 +40,16 @@
       "n_signals": 3
     },
     {
-      "ticker": "MED",
-      "score": 190.8,
+      "ticker": "BABA",
+      "score": 167.6,
       "sources": [
-        "corporate_insider",
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 2
     },
     {
       "ticker": "ELF",
       "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GRNT",
-      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -84,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.099,
-    "var_95_1d": 0.0085,
-    "cvar_95_1d": 0.0145,
-    "max_drawdown": -0.0315,
-    "beta_spy": 0.556,
-    "hhi": 0.0766,
+    "ann_vol": 0.1239,
+    "var_95_1d": 0.0148,
+    "cvar_95_1d": 0.0179,
+    "max_drawdown": -0.0339,
+    "beta_spy": 0.712,
+    "hhi": 0.0807,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 13.1,
-    "gross_exposure": 0.8501,
+    "n_positions": 10,
+    "effective_positions": 12.4,
+    "gross_exposure": 0.8502,
     "days_used": 56
   },
   "risk_gate": {
