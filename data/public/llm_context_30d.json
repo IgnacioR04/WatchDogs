@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T13:28:45.032822+00:00",
+  "generated_at": "2026-08-25T14:19:26.207931+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -24,8 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
-      "ai"
+      "ai",
+      "leadership",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -459,14 +460,6 @@
         ]
       },
       {
-        "ticker": "SRTS",
-        "company": "Sensus Healthcare, Inc.",
-        "pressure_score": 212.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "QXL",
         "company": "QUANTUM X LABS INC.",
         "pressure_score": 212.4,
@@ -489,6 +482,14 @@
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "SRTS",
+        "company": "Sensus Healthcare, Inc.",
+        "pressure_score": 210.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -543,17 +544,17 @@
         ]
       },
       {
-        "ticker": "REAL",
-        "company": "TheRealReal, Inc.",
-        "pressure_score": 1092.0,
+        "ticker": "ANET",
+        "company": "Arista Networks, Inc.",
+        "pressure_score": 904.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 904.6,
+        "ticker": "REAL",
+        "company": "TheRealReal, Inc.",
+        "pressure_score": 893.3,
         "sources": [
           "corporate_insider"
         ]
@@ -631,11 +632,12 @@
         ]
       },
       {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 310.1,
+        "ticker": "PMA",
+        "company": "Ming Shing Group Holdings Ltd",
+        "pressure_score": 337.1,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       }
     ]
@@ -696,6 +698,15 @@
       "score": 77.8
     },
     {
+      "ticker": "EPSN",
+      "company": "Epsilon Energy Ltd.",
+      "actor": "Stabell Jason",
+      "actor_type": "ceo",
+      "amount": 120469.54,
+      "date": "2026-08-24",
+      "score": 77.8
+    },
+    {
       "ticker": "AMR",
       "company": "Alpha Metallurgical Resources, Inc.",
       "actor": "Courtis Kenneth S.",
@@ -732,6 +743,15 @@
       "score": 77.1
     },
     {
+      "ticker": "GRML",
+      "company": "Greenland Mines Ltd",
+      "actor": "LeBlanc Jeff",
+      "actor_type": "cfo",
+      "amount": 136080.0,
+      "date": "2026-08-25",
+      "score": 76.8
+    },
+    {
       "ticker": "PRE",
       "company": "Prenetics Global Ltd",
       "actor": "Yeung Danny Sheng Wu",
@@ -750,31 +770,13 @@
       "score": 76.4
     },
     {
-      "ticker": "ABCL",
-      "company": "AbCellera Biologics Inc.",
-      "actor": "Hayden Michael R",
-      "actor_type": "director",
-      "amount": 570442.32,
+      "ticker": "DGICA",
+      "company": "DONEGAL GROUP INC",
+      "actor": "DONEGAL MUTUAL INSURANCE CO",
+      "actor_type": "ten_percent_owner",
+      "amount": 190647.0,
       "date": "2026-08-24",
-      "score": 76.1
-    },
-    {
-      "ticker": "AMR",
-      "company": "Alpha Metallurgical Resources, Inc.",
-      "actor": "Courtis Kenneth S.",
-      "actor_type": "director",
-      "amount": 677466.23,
-      "date": "2026-08-21",
-      "score": 75.0
-    },
-    {
-      "ticker": "SRTS",
-      "company": "Sensus Healthcare, Inc.",
-      "actor": "Sardano Joseph C",
-      "actor_type": "ceo",
-      "amount": 60486.0,
-      "date": "2026-08-20",
-      "score": 74.8
+      "score": 76.3
     }
   ],
   "institutional_changes": [
@@ -1102,9 +1104,9 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 291700.72,
+        "pnl": 285853.51,
         "win_rate": 0.7555,
-        "volume": 315495.18,
+        "volume": 398129.79,
         "categories": [
           "sports",
           "crypto"
@@ -1113,19 +1115,9 @@
       {
         "wallet": "0x31706006a0",
         "username": "thatguythatguy",
-        "pnl": 28400.85,
+        "pnl": 27780.48,
         "win_rate": 0.9459,
-        "volume": 80265.13,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 12467.33,
-        "win_rate": 0.8863,
-        "volume": 2027.77,
+        "volume": 80302.03,
         "categories": [
           "sports"
         ]
@@ -1133,9 +1125,29 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 37772.87,
-        "win_rate": 0.8113,
+        "pnl": 37780.51,
+        "win_rate": 0.8131,
         "volume": 92477.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x65c18d740c",
+        "username": "casualbet2020",
+        "pnl": 12476.6,
+        "win_rate": 0.8863,
+        "volume": 2632.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8bfee7aeca",
+        "username": "tennischamp",
+        "pnl": 10591.76,
+        "win_rate": 0.8822,
+        "volume": 92604.71,
         "categories": [
           "sports"
         ]
@@ -1151,6 +1163,28 @@
         ]
       },
       {
+        "wallet": "0x86e99faea1",
+        "username": "JUSTINHERBERTMVP",
+        "pnl": 10205.98,
+        "win_rate": 0.8663,
+        "volume": 13214.0,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xc6e9560680",
+        "username": "luck00004",
+        "pnl": 23612.8,
+        "win_rate": 0.9394,
+        "volume": 101178.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x682005011d",
         "username": "winwin518168",
         "pnl": 80789.71,
@@ -1161,46 +1195,15 @@
         ]
       },
       {
-        "wallet": "0xc6e9560680",
-        "username": "luck00004",
-        "pnl": 22199.41,
-        "win_rate": 0.9394,
-        "volume": 101108.93,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 11797.8,
-        "win_rate": 0.8435,
+        "pnl": 11807.94,
+        "win_rate": 0.8446,
         "volume": 20290.55,
         "categories": [
           "sports",
           "crypto",
           "economy"
-        ]
-      },
-      {
-        "wallet": "0x1e7792acc7",
-        "username": "THEdirkdiggler",
-        "pnl": 13320.0,
-        "win_rate": 0.8132,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 144468.88,
-        "win_rate": 0.645,
-        "volume": 1875187.44,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1208,9 +1211,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 144468.88,
-        "win_rate": 0.645,
-        "volume": 1875187.44,
+        "pnl": 143943.56,
+        "win_rate": 0.651,
+        "volume": 1991754.43,
         "categories": [
           "sports"
         ]
@@ -1227,6 +1230,37 @@
         ]
       },
       {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 285853.51,
+        "win_rate": 0.7555,
+        "volume": 398129.79,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 73381.56,
+        "win_rate": 0.4913,
+        "volume": 230416.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 11784.71,
+        "win_rate": 0.537,
+        "volume": 802459.03,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x4bff30af91",
         "username": "Sassy-Bucket",
         "pnl": 50767.72,
@@ -1238,32 +1272,31 @@
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 72970.95,
-        "win_rate": 0.4913,
-        "volume": 201353.21,
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 12967.86,
+        "win_rate": 0.571,
+        "volume": 393851.13,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xc4c8983df5",
+        "username": "CARBEACH",
+        "pnl": 9361.27,
+        "win_rate": 0.75,
+        "volume": 121080.89,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 291700.72,
-        "win_rate": 0.7555,
-        "volume": 315495.18,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 18721.88,
+        "pnl": 22218.35,
         "win_rate": 0.59,
-        "volume": 268466.09,
+        "volume": 289611.41,
         "categories": [
           "sports"
         ]
@@ -1271,42 +1304,11 @@
       {
         "wallet": "0xc6e9560680",
         "username": "luck00004",
-        "pnl": 22199.41,
+        "pnl": 23612.8,
         "win_rate": 0.9394,
-        "volume": 101108.93,
+        "volume": 101178.93,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 22916.88,
-        "win_rate": 0.658,
-        "volume": 287415.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 37772.87,
-        "win_rate": 0.8113,
-        "volume": 92477.8,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xabb89972b2",
-        "username": "Feromont",
-        "pnl": 16769.16,
-        "win_rate": 0.447,
-        "volume": 94983.49,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       }
     ]
@@ -1329,10 +1331,71 @@
       "date": "2026-08-25"
     },
     {
+      "title": "Teenage Roblox entrepreneur raises $1m to fight online predators",
+      "url": "https://www.nbr.co.nz/tech/teenage-roblox-entrepreneur-raises-1m-to-fight-online-predators/",
+      "ticker": "RBLX",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death",
+      "url": "https://www.fox19.com/2026/08/24/mother-says-teen-unknowingly-waived-right-sue-roblox-discord-tiktok-before-death/",
+      "ticker": "RBLX",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? ",
+      "url": "https://www.insidermonkey.com/blog/cisco-systems-csco-arista-networks-anet-cisco-just-beat-every-estimate-why-did-the-stock-still-drop-8-1810952/",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET",
+      "url": "https://www.themarketsdaily.com/2026/08/23/greenland-capital-management-lp-purchases-shares-of-4085-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-23"
+    },
+    {
+      "title": "Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-08-22-coinbase-ceo-bitcoin-price-400k-by-2030.html",
+      "ticker": "COIN",
+      "themes": [
+        "leadership"
+      ],
+      "date": "2026-08-23"
+    },
+    {
       "title": "Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) ",
       "url": "https://www.tickerreport.com/banking-finance/13554596/head-to-head-contrast-park-ohio-nasdaqpkoh-gold-com-nysegold.html",
       "ticker": "PKOH",
       "themes": [],
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET",
+      "url": "https://www.tickerreport.com/banking-finance/13554231/korea-investment-corp-reduces-position-in-arista-networks-inc-anet.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-salesforce-technology-001239811.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-08-22"
     },
     {
@@ -1346,14 +1409,35 @@
       "date": "2026-08-21"
     },
     {
+      "title": "Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In",
+      "url": "https://www.insidermonkey.com/blog/tom-lee-recommends-arista-networks-anet-and-jpmorgan-jpm-analysts-weigh-in-1821375/",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-08-20"
+    },
+    {
       "title": "GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH",
       "url": "https://www.themarketsdaily.com/2026/08/20/gsa-capital-partners-llp-takes-770000-position-in-park-ohio-holdings-corp-pkoh.html",
       "ticker": "PKOH",
       "themes": [],
       "date": "2026-08-20"
+    },
+    {
+      "title": "Cango ( NYSE : CANG ) & Blend Labs ( NYSE : BLND ) Critical Analysis",
+      "url": "https://www.tickerreport.com/banking-finance/13543441/cango-nysecang-blend-labs-nyseblnd-critical-analysis.html",
+      "ticker": "BLND",
+      "themes": [],
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Blend Labs ( NYSE : BLND ) vs . Cango ( NYSE : CANG ) Critical Review",
+      "url": "https://www.dailypolitical.com/2026/08/14/blend-labs-nyseblnd-vs-cango-nysecang-critical-review.html",
+      "ticker": "BLND",
+      "themes": [],
+      "date": "2026-08-14"
     }
   ],
-  "signals_count": 1401,
+  "signals_count": 1407,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
