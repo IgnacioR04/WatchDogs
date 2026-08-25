@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T02:08:52+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T03:29:28+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T02:08:52+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T03:29:28+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
 - ^VIX: 15.85 (4.76% / 4.34% / -15.1%) [2026-08-24]
-- BTC-USD: 79780.58 (2.6% / 15.18% / 24.55%) [2026-08-25]
+- BTC-USD: 80633.88 (3.7% / 16.41% / 25.88%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,17 +346,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), ai (2), leadership (1)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [COIN] Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com (2026-08-23)
-- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
-- [AXON] Sycale Advisors NY LLC Takes Position in Axon Enterprise , Inc $AXON (2026-08-21)
-- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
-- [BL] Weekly Research Analyst Ratings Changes for BlackLine ( BL ) (2026-08-14)
-- [BL] BlackLine ( BL ) Q2 2026 Earnings Call Transcript (2026-08-12)
-- [BL] FinancialContent - 5 Must - Read Analyst Questions From BlackLine Q2 Earnings Call (2026-08-11)
+- [XYZ] The Block 2026 Episode 13 recap : Last week winners kicked to the kerb by judges (2026-08-25)
+- [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
+- [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
+- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
+- [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
+- [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
+- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
+- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TheyAreTakingTheHobitsToIsengard · PnL $5,260 · win rate 98% · categorias: sports
-- AV23IUa · PnL $85,422 · win rate 75% · categorias: sports, crypto
-- tennischamp · PnL $10,592 · win rate 88% · categorias: sports
-- Mrrocki · PnL $3,220 · win rate 96% · categorias: sports
-- facai86868 · PnL $5,396 · win rate 92% · categorias: sports
+- AV23IUa · PnL $331,701 · win rate 76% · categorias: sports, crypto
+- QuentinChen · PnL $9,191 · win rate 96% · categorias: sports
+- laozishudaosan · PnL $21,703 · win rate 87% · categorias: sports
+- KongX · PnL $6,654 · win rate 94% · categorias: sports, crypto, economy
+- facai86868 · PnL $7,914 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
