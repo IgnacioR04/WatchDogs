@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T05:09:37+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T06:07:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T05:09:37+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T06:07:00+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
 - ^VIX: 15.85 (4.76% / 4.34% / -15.1%) [2026-08-24]
-- BTC-USD: 80532.82 (3.57% / 16.27% / 25.72%) [2026-08-25]
+- BTC-USD: 80691.52 (3.78% / 16.49% / 25.97%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,18 +346,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), stock (1), ai (1)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
-- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
-- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
-- [AXON] Sycale Advisors NY LLC Takes Position in Axon Enterprise , Inc $AXON (2026-08-21)
-- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
-- [BL] Weekly Research Analyst Ratings Changes for BlackLine ( BL ) (2026-08-14)
-- [BL] BlackLine ( BL ) Q2 2026 Earnings Call Transcript (2026-08-12)
-- [BL] FinancialContent - 5 Must - Read Analyst Questions From BlackLine Q2 Earnings Call (2026-08-11)
+- [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
+- [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
+- [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
+- [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
+- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
+- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- AV23IUa · PnL $319,501 · win rate 76% · categorias: sports, crypto
-- 0xf3a1493c · PnL $8,784 · win rate 98% · categorias: sports
-- SDTrading · PnL $7,547 · win rate 94% · categorias: sports
-- casualbet2020 · PnL $12,453 · win rate 89% · categorias: sports
-- facai86868 · PnL $6,899 · win rate 92% · categorias: sports
+- AV23IUa · PnL $354,201 · win rate 76% · categorias: sports, crypto
+- 0xf3a1493c · PnL $9,725 · win rate 98% · categorias: sports
+- facai86868 · PnL $9,070 · win rate 92% · categorias: sports
+- thatguythatguy · PnL $29,784 · win rate 94% · categorias: sports
+- casualbet2020 · PnL $12,465 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
