@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T15:23:29.443146+00:00",
+  "generated_at": "2026-08-25T16:16:12.469063+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -25,8 +25,7 @@
     "top_themes": [
       "stock",
       "regulatory",
-      "leadership",
-      "earnings"
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -600,14 +599,6 @@
         ]
       },
       {
-        "ticker": "SPIR",
-        "company": "Spire Global, Inc.",
-        "pressure_score": 412.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "LUCY",
         "company": "Innovative Eyewear Inc",
         "pressure_score": 376.7,
@@ -616,11 +607,20 @@
         ]
       },
       {
-        "ticker": "PMA",
-        "company": "Ming Shing Group Holdings Ltd",
-        "pressure_score": 330.9,
+        "ticker": "SPIR",
+        "company": "Spire Global, Inc.",
+        "pressure_score": 343.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PMA",
+        "company": "Ming Shing Group Holdings Ltd",
+        "pressure_score": 337.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -999,6 +999,15 @@
       "date": "2026-08-18"
     },
     {
+      "filer": "Lam Chi Ming",
+      "company": "Ming Shing Group Holdings Ltd",
+      "ticker": "PMA",
+      "ownership_pct": 62.4,
+      "shares": 8094865,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-25"
+    },
+    {
       "filer": "TPG GP A, LLC",
       "company": "TPG Inc.",
       "ticker": "",
@@ -1087,15 +1096,6 @@
       "shares": 1453029,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-17"
-    },
-    {
-      "filer": "Yinan Ren",
-      "company": "YY Group Holding Limited",
-      "ticker": "YYGH",
-      "ownership_pct": 48.33,
-      "shares": 3787379,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-18"
     }
   ],
   "polymarket": {
@@ -1103,9 +1103,20 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 285853.51,
+        "pnl": 283767.17,
         "win_rate": 0.7555,
-        "volume": 398129.79,
+        "volume": 457161.15,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 13958.59,
+        "win_rate": 0.9053,
+        "volume": 26541.98,
         "categories": [
           "sports",
           "crypto"
@@ -1114,9 +1125,9 @@
       {
         "wallet": "0x31706006a0",
         "username": "thatguythatguy",
-        "pnl": 27780.48,
+        "pnl": 29201.58,
         "win_rate": 0.9459,
-        "volume": 80302.03,
+        "volume": 90772.97,
         "categories": [
           "sports"
         ]
@@ -1124,9 +1135,9 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 37780.51,
+        "pnl": 37840.51,
         "win_rate": 0.8131,
-        "volume": 92477.8,
+        "volume": 104477.8,
         "categories": [
           "sports"
         ]
@@ -1134,7 +1145,7 @@
       {
         "wallet": "0x65c18d740c",
         "username": "casualbet2020",
-        "pnl": 12476.6,
+        "pnl": 12476.53,
         "win_rate": 0.8863,
         "volume": 2632.77,
         "categories": [
@@ -1164,7 +1175,7 @@
       {
         "wallet": "0x86e99faea1",
         "username": "JUSTINHERBERTMVP",
-        "pnl": 10205.98,
+        "pnl": 9652.06,
         "win_rate": 0.8663,
         "volume": 13214.0,
         "categories": [
@@ -1192,27 +1203,15 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 11807.94,
-        "win_rate": 0.8446,
-        "volume": 20290.55,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 143943.56,
-        "win_rate": 0.659,
-        "volume": 1991754.43,
+        "pnl": 144224.18,
+        "win_rate": 0.661,
+        "volume": 2227279.08,
         "categories": [
           "sports"
         ]
@@ -1231,9 +1230,9 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 285853.51,
+        "pnl": 283767.17,
         "win_rate": 0.7555,
-        "volume": 398129.79,
+        "volume": 457161.15,
         "categories": [
           "sports",
           "crypto"
@@ -1242,9 +1241,9 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 73381.56,
+        "pnl": 73395.09,
         "win_rate": 0.4913,
-        "volume": 230416.54,
+        "volume": 233190.34,
         "categories": [
           "sports"
         ]
@@ -1252,7 +1251,7 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 11784.71,
+        "pnl": 11778.46,
         "win_rate": 0.537,
         "volume": 802459.03,
         "categories": [
@@ -1271,31 +1270,11 @@
         ]
       },
       {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 12967.86,
-        "win_rate": 0.572,
-        "volume": 393851.13,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xc4c8983df5",
-        "username": "CARBEACH",
-        "pnl": 9361.27,
-        "win_rate": 0.75,
-        "volume": 121080.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 22218.35,
+        "pnl": 29666.68,
         "win_rate": 0.59,
-        "volume": 289611.41,
+        "volume": 315831.03,
         "categories": [
           "sports"
         ]
@@ -1309,13 +1288,33 @@
         "categories": [
           "sports"
         ]
+      },
+      {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 37840.51,
+        "win_rate": 0.8131,
+        "volume": 104477.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 22447.69,
+        "win_rate": 0.665,
+        "volume": 312118.25,
+        "categories": [
+          "sports"
+        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Meta Platforms Petition Court To Block Kids Recommendation Restrictions",
-      "url": "https://tvnewscheck.com/regulation/article/meta-platforms-petition-court-to-block-kids-recommendation-restrictions/",
+      "title": "Progressive rabbis push Congress to block offensive arms sales to Israel",
+      "url": "https://www.jpost.com/diaspora/article-906552",
       "ticker": "XYZ",
       "themes": [],
       "date": "2026-08-25"
@@ -1355,15 +1354,6 @@
       "date": "2026-08-23"
     },
     {
-      "title": "Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-08-22-coinbase-ceo-bitcoin-price-400k-by-2030.html",
-      "ticker": "COIN",
-      "themes": [
-        "leadership"
-      ],
-      "date": "2026-08-23"
-    },
-    {
       "title": "Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) ",
       "url": "https://www.tickerreport.com/banking-finance/13554596/head-to-head-contrast-park-ohio-nasdaqpkoh-gold-com-nysegold.html",
       "ticker": "PKOH",
@@ -1385,6 +1375,15 @@
         "stock"
       ],
       "date": "2026-08-22"
+    },
+    {
+      "title": "Leggett & Platt shareholders approve merger with Somnigroup",
+      "url": "https://www.joplinglobe.com/news/leggett-platt-shareholders-approve-merger-with-somnigroup/article_a871aa57-aa01-43a1-837a-b4ebc5053bc1.html",
+      "ticker": "LEG",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-21"
     },
     {
       "title": "Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened",
@@ -1431,25 +1430,9 @@
       "ticker": "BLND",
       "themes": [],
       "date": "2026-08-14"
-    },
-    {
-      "title": "Weekly Research Analyst Ratings Changes for BlackLine ( BL ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13543181/weekly-research-analysts-ratings-changes-for-blackline-bl.html",
-      "ticker": "BL",
-      "themes": [],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "BlackLine ( BL ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/blackline-bl-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "BL",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-12"
     }
   ],
-  "signals_count": 1401,
+  "signals_count": 1407,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

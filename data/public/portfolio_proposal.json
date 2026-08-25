@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:24:35+00:00",
+  "generated_at": "2026-08-25T16:17:34+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,13 +8,14 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "CHTR": 0.0886,
-    "AMR": 0.0729,
-    "IEF": 0.0622,
-    "GSHD": 0.0614,
-    "CLBT": 0.0587,
-    "PRE": 0.053
+    "DGICA": 0.12,
+    "GLD": 0.0945,
+    "IEF": 0.0631,
+    "CHTR": 0.0563,
+    "AMR": 0.0463,
+    "GSHD": 0.039,
+    "CLBT": 0.0373,
+    "PRE": 0.0336
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0788,
-    "PRE": 0.0471,
-    "AMR": 0.0648,
-    "CLBT": 0.0522,
-    "GSHD": 0.0546
+    "CHTR": 0.0494,
+    "PRE": 0.0295,
+    "AMR": 0.0406,
+    "DGICA": 0.1111,
+    "CLBT": 0.0327,
+    "GSHD": 0.0342
   },
   "satellite_rationale": [
     {
@@ -56,6 +58,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "DGICA",
+      "score": 119.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "CLBT",
       "score": 71.8,
       "sources": [
@@ -73,15 +83,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1359,
-    "var_95_1d": 0.0146,
-    "cvar_95_1d": 0.017,
-    "max_drawdown": -0.0448,
-    "beta_spy": 0.629,
-    "hhi": 0.079,
+    "ann_vol": 0.1044,
+    "var_95_1d": 0.0106,
+    "cvar_95_1d": 0.0133,
+    "max_drawdown": -0.0317,
+    "beta_spy": 0.499,
+    "hhi": 0.0799,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.7,
+    "n_positions": 11,
+    "effective_positions": 12.5,
     "gross_exposure": 0.8501,
     "days_used": 68
   },
