@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T11:58:49+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T13:29:50+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T11:58:49+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T13:29:50+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,7 +242,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.76)
+- Volatilidad: `normal` (VIX 15.79)
 - Tendencia: `bull` (SPY 763.47 · MA50 752.11 · MA200 705.45 · dist MA200: 8.22%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -301,9 +301,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
 | CLBT | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | TENX | 72 | large_holder | Millennium Management LLC |  | - | - |
+| XXII | 70 | large_holder | Iroquois Capital Manageme |  | - | - |
 | CVRX | 70 | large_holder | Chernett Jorey |  | - | - |
 | SOGP | 70 | large_holder | THIRUMALA SRINIDHI |  | - | - |
-| DTIL | 70 | large_holder | Weinstein Benjamin |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -332,8 +332,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.56 (0.62% / 1.49% / -1.02%) [2026-08-24]
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
-- ^VIX: 15.76 (-0.57% / -0.51% / -13.45%) [2026-08-25]
-- BTC-USD: 79161.22 (0.25% / 8.39% / 22.55%) [2026-08-25]
+- ^VIX: 15.79 (-0.38% / -0.32% / -13.29%) [2026-08-25]
+- BTC-USD: 78628.98 (-0.42% / 7.66% / 21.72%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -348,20 +348,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (5), stock (3), earnings (1)
+**Temas dominantes**: stock (1), earnings (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [PLTR] Fitz - Gerald Group Keith Fitz - Gerald Breaks Down Long - Term Prospects For NVDA , PLTR and TSLA (2026-08-25)
-- [WDC] Western Digital Sits 46 % Below Its High and Has Still More Than Doubled This Year (2026-08-25)
 - [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
-- [RBLX] Teenage Roblox entrepreneur raises $1m to fight online predators (2026-08-25)
-- [RBLX] Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death (2026-08-25)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
-- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
-- [BL] Weekly Research Analyst Ratings Changes for BlackLine ( BL ) (2026-08-14)
-- [BL] BlackLine ( BL ) Q2 2026 Earnings Call Transcript (2026-08-12)
+- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
+- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
+- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -377,10 +372,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - AV23IUa · PnL $291,701 · win rate 76% · categorias: sports, crypto
-- thatguythatguy · PnL $29,909 · win rate 95% · categorias: sports
-- facai86868 · PnL $9,070 · win rate 92% · categorias: sports
+- thatguythatguy · PnL $28,401 · win rate 95% · categorias: sports
 - casualbet2020 · PnL $12,467 · win rate 89% · categorias: sports
-- BrotherObama · PnL $32,357 · win rate 81% · categorias: sports
+- BrotherObama · PnL $37,773 · win rate 81% · categorias: sports
+- laozishudaosan · PnL $13,015 · win rate 86% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,7 +383,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 662 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 651 registros 30d · ultimo dato 2026-08-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
