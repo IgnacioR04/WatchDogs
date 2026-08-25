@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T16:17:35+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T17:12:49+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.5)
-- Tendencia: `bull` (SPY 765.53 · MA50 752.62 · MA200 705.92 · dist MA200: 8.44%)
+- Volatilidad: `normal` (VIX 15.48)
+- Tendencia: `bull` (SPY 765.01 · MA50 752.61 · MA200 705.92 · dist MA200: 8.37%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,17 +22,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 765.53 | 0.27% | -0.25% | 3.33% |
-| QQQ | 12.0% | core | 710.96 | 0.66% | -0.91% | 5.25% |
-| TLT | 12.0% | core | 83.32 | 0.92% | 2.03% | -0.69% |
-| DGICA | 12.0% | satellite | 18.87 | -0.58% | 1.4% | -0.75% |
-| GLD | 9.4% | core | 426.08 | -0.14% | 6.91% | 15.35% |
-| IEF | 6.3% | core | 93.39 | 0.41% | 0.5% | 0.17% |
-| CHTR | 5.6% | satellite | 154.71 | 2.93% | 4.29% | 10.53% |
-| AMR | 4.6% | satellite | 207.8 | -1.02% | 22.64% | 43.24% |
-| GSHD | 3.9% | satellite | 71.88 | -1.53% | 10.96% | 4.45% |
-| CLBT | 3.7% | satellite | 11.3 | -1.65% | 2.73% | -23.91% |
-| PRE | 3.4% | satellite | 22.98 | 5.29% | 18.43% | 25.82% |
+| SPY | 12.0% | core | 765.01 | 0.2% | -0.32% | 3.26% |
+| QQQ | 12.0% | core | 709.52 | 0.45% | -1.11% | 5.04% |
+| TLT | 12.0% | core | 83.32 | 0.91% | 2.03% | -0.7% |
+| DGICA | 12.0% | satellite | 18.9 | -0.42% | 1.56% | -0.59% |
+| GLD | 9.4% | core | 425.17 | -0.36% | 6.68% | 15.11% |
+| IEF | 6.3% | core | 93.4 | 0.42% | 0.51% | 0.18% |
+| CHTR | 5.6% | satellite | 155.25 | 3.29% | 4.65% | 10.92% |
+| AMR | 4.6% | satellite | 206.06 | -1.84% | 21.61% | 42.04% |
+| GSHD | 3.9% | satellite | 72.07 | -1.27% | 11.25% | 4.72% |
+| CLBT | 3.7% | satellite | 11.31 | -1.52% | 2.86% | -23.8% |
+| PRE | 3.4% | satellite | 22.63 | 3.71% | 16.65% | 23.93% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -92,15 +92,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 765.53 (0.27% / -0.25% / 3.33%) [2026-08-25]
-- QQQ: 710.96 (0.66% / -0.91% / 5.25%) [2026-08-25]
-- IWM: 298.62 (0.22% / -0.53% / 1.79%) [2026-08-25]
-- DIA: 534.32 (0.13% / 0.35% / 1.49%) [2026-08-25]
-- TLT: 83.32 (0.92% / 2.03% / -0.69%) [2026-08-25]
-- IEF: 93.39 (0.41% / 0.5% / 0.17%) [2026-08-25]
-- GLD: 426.08 (-0.14% / 6.91% / 15.35%) [2026-08-25]
-- ^VIX: 15.5 (-2.21% / -2.15% / -14.88%) [2026-08-25]
-- BTC-USD: 79172.58 (0.26% / 8.41% / 22.56%) [2026-08-25]
+- SPY: 765.01 (0.2% / -0.32% / 3.26%) [2026-08-25]
+- QQQ: 709.52 (0.45% / -1.11% / 5.04%) [2026-08-25]
+- IWM: 298.58 (0.2% / -0.55% / 1.78%) [2026-08-25]
+- DIA: 534.35 (0.13% / 0.35% / 1.5%) [2026-08-25]
+- TLT: 83.32 (0.91% / 2.03% / -0.7%) [2026-08-25]
+- IEF: 93.4 (0.42% / 0.51% / 0.18%) [2026-08-25]
+- GLD: 425.17 (-0.36% / 6.68% / 15.11%) [2026-08-25]
+- ^VIX: 15.48 (-2.33% / -2.27% / -14.99%) [2026-08-25]
+- BTC-USD: 78905.42 (-0.07% / 8.04% / 22.15%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -115,11 +115,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), regulatory (2), merger (1)
+**Temas dominantes**: stock (4), regulatory (2), earnings (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [XYZ] Progressive rabbis push Congress to block offensive arms sales to Israel (2026-08-25)
 - [PLTR] Fitz - Gerald Group Keith Fitz - Gerald Breaks Down Long - Term Prospects For NVDA , PLTR and TSLA (2026-08-25)
 - [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
 - [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
@@ -127,8 +126,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
 - [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
 - [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
-- [LEG] Leggett & Platt shareholders approve merger with Somnigroup (2026-08-21)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
+- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
+- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -143,11 +143,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- AV23IUa · PnL $283,767 · win rate 76% · categorias: sports, crypto
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $13,959 · win rate 91% · categorias: sports, crypto
-- thatguythatguy · PnL $29,202 · win rate 95% · categorias: sports
-- BrotherObama · PnL $37,841 · win rate 81% · categorias: sports
-- casualbet2020 · PnL $12,477 · win rate 89% · categorias: sports
+- AV23IUa · PnL $283,982 · win rate 76% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $37,202 · win rate 89% · categorias: crypto
+- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $13,945 · win rate 91% · categorias: sports, crypto
+- thatguythatguy · PnL $27,661 · win rate 95% · categorias: sports
+- BrotherObama · PnL $40,121 · win rate 81% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 657 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 651 registros 30d · ultimo dato 2026-08-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
