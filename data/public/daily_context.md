@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T07:24:56+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T08:15:55+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.85)
+- Volatilidad: `normal` (VIX 15.8)
 - Tendencia: `bull` (SPY 763.47 · MA50 752.11 · MA200 705.45 · dist MA200: 8.22%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -97,8 +97,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.56 (0.62% / 1.49% / -1.02%) [2026-08-24]
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
-- ^VIX: 15.85 (4.76% / 4.34% / -15.1%) [2026-08-24]
-- BTC-USD: 80625.43 (2.1% / 10.4% / 24.81%) [2026-08-25]
+- ^VIX: 15.8 (-0.32% / -0.25% / -13.23%) [2026-08-25]
+- BTC-USD: 79907.45 (1.19% / 9.41% / 23.7%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,17 +113,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), stock (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (3), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WDC] Western Digital Sits 46 % Below Its High and Has Still More Than Doubled This Year (2026-08-25)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
+- [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
+- [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
 - [COIN] Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com (2026-08-23)
-- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
-- [AXON] Sycale Advisors NY LLC Takes Position in Axon Enterprise , Inc $AXON (2026-08-21)
-- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
+- [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
+- [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
+- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
+- [BL] Weekly Research Analyst Ratings Changes for BlackLine ( BL ) (2026-08-14)
+- [BL] BlackLine ( BL ) Q2 2026 Earnings Call Transcript (2026-08-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
