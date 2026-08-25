@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T10:09:28+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T11:07:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T10:09:28+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T11:07:15+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,7 +242,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.84)
+- Volatilidad: `normal` (VIX 15.83)
 - Tendencia: `bull` (SPY 763.47 · MA50 752.11 · MA200 705.45 · dist MA200: 8.22%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -330,8 +330,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.56 (0.62% / 1.49% / -1.02%) [2026-08-24]
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
-- ^VIX: 15.84 (-0.06% / 0.0% / -13.01%) [2026-08-25]
-- BTC-USD: 79192.85 (0.29% / 8.43% / 22.59%) [2026-08-25]
+- ^VIX: 15.83 (-0.13% / -0.06% / -13.07%) [2026-08-25]
+- BTC-USD: 79354.42 (0.49% / 8.66% / 22.84%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,36 +346,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), leadership (1)
+**Temas dominantes**: stock (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RBLX] Teenage Roblox entrepreneur raises $1m to fight online predators (2026-08-25)
-- [RBLX] Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death (2026-08-25)
-- [RBLX] The  Black Mirror  of Roblox Games Disappears After Hitting No . 1 (2026-08-24)
-- [COIN] Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com (2026-08-23)
+- [PLTR] Fitz - Gerald Group Keith Fitz - Gerald Breaks Down Long - Term Prospects For NVDA , PLTR and TSLA (2026-08-25)
+- [WDC] Western Digital Sits 46 % Below Its High and Has Still More Than Doubled This Year (2026-08-25)
+- [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
+- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
+- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
 - [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
 - [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
-- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO SITRA J SCOTT compro SCTH por $100.0M el 2026-08-21.
 - CEO WIRTH JAMES F vendio IHT por $1.8B el 2026-08-21.
+- 10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.
 - 10% owner BDT CAPITAL PARTNERS, LLC vendio ALH por $589.6M el 2026-08-20.
+- Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.
 - CFO Visoso Luis Felipe opero SNDK por $41.1M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - AV23IUa · PnL $291,701 · win rate 76% · categorias: sports, crypto
-- thatguythatguy · PnL $29,834 · win rate 95% · categorias: sports
+- SDTrading · PnL $7,927 · win rate 94% · categorias: sports
+- thatguythatguy · PnL $29,841 · win rate 95% · categorias: sports
 - facai86868 · PnL $9,070 · win rate 92% · categorias: sports
 - casualbet2020 · PnL $12,467 · win rate 89% · categorias: sports
-- tennischamp · PnL $10,592 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -383,8 +383,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 638 registros 30d · ultimo dato 2026-08-24
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-24
+- **sec_insiders**: `ok` · 652 registros 30d · ultimo dato 2026-08-25
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
