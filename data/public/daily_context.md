@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T20:05:41+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T21:03:23+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -10,7 +10,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.45)
-- Tendencia: `bull` (SPY 765.85 · MA50 752.63 · MA200 705.92 · dist MA200: 8.49%)
+- Tendencia: `bull` (SPY 765.91 · MA50 752.63 · MA200 705.92 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,33 +22,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 765.85 | 0.31% | -0.21% | 3.37% |
+| SPY | 12.0% | core | 765.91 | 0.32% | -0.2% | 3.38% |
 | QQQ | 12.0% | core | 710.72 | 0.62% | -0.95% | 5.22% |
 | TLT | 12.0% | core | 83.47 | 1.1% | 2.22% | -0.51% |
-| DGICA | 11.8% | satellite | 19.13 | 0.79% | 2.79% | 0.62% |
-| GLD | 9.3% | core | 428.1 | 0.33% | 7.41% | 15.9% |
-| IEF | 6.2% | core | 93.51 | 0.54% | 0.62% | 0.29% |
-| CHTR | 5.2% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
-| AMR | 4.8% | satellite | 216.12 | 2.95% | 27.55% | 48.98% |
-| GSHD | 4.3% | satellite | 72.33 | -0.92% | 11.65% | 5.1% |
-| CLBT | 4.2% | satellite | 11.29 | -1.74% | 2.64% | -23.97% |
-| PRE | 3.3% | satellite | 23.25 | 6.55% | 19.85% | 27.33% |
+| DGICA | 12.0% | satellite | 19.13 | 0.79% | 2.79% | 0.62% |
+| GNK | 11.5% | satellite | 27.32 | 1.41% | 4.88% | 10.97% |
+| GLD | 10.7% | core | 428.07 | 0.32% | 7.41% | 15.89% |
+| CHTR | 7.7% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
+| IEF | 7.1% | core | 93.51 | 0.54% | 0.62% | 0.29% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.3%
+- Volatilidad anualizada: 10.5%
 - VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -6.5%
-- Beta vs SPY: 0.478 · posiciones efectivas: 12.6 · HHI: 0.0793
+- Max drawdown historico: -5.8%
+- Beta vs SPY: 0.515 · posiciones efectivas: 10.7 · HHI: 0.0932
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **AMR** · score agregado 312.3 · 4 señales · fuentes: corporate_insider
 - **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
-- **PRE** · score agregado 184.6 · 3 señales · fuentes: corporate_insider
 - **DGICA** · score agregado 119.8 · 2 señales · fuentes: corporate_insider
-- **CLBT** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GSHD** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **GNK** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -56,34 +50,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| AMR | 81 | corporate_insider | Gorzynski Michael | 2 | $2,089,169 | cluster_buy |
-| AMR | 79 | corporate_insider | Courtis Kenneth S. | 2 | $2,097,179 | cluster_buy |
 | TISI | 77 | corporate_insider | Roeder Clinton William | 2 | $183,200 | cluster_buy |
-| AMR | 77 | corporate_insider | Courtis Kenneth S. | 2 | $677,466 | cluster_buy |
-| AMR | 75 | corporate_insider | Courtis Kenneth S. | 2 | $382,985 | cluster_buy |
 | TISI | 72 | corporate_insider | Roeder Clinton William | 2 | $22,840 | cluster_buy,small_amount |
-| GEVO | 72 | corporate_insider | Barber James J | 2 | $77,000 | cluster_buy |
+| LFT | 72 | corporate_insider | Flynn James Peter | 2 | $13,642 | cluster_buy,small_amount |
 | USIO | 72 | large_holder | TALL PINES CAPITAL, LLC |  | - | - |
+| PCQ | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
+| PNI | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
+| JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
+| CDTG | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
 | GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
 | CLBT | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | TENX | 72 | large_holder | Millennium Management LLC |  | - | - |
+| LFT | 71 | corporate_insider | BRIGGS JAMES A | 2 | $13,798 | cluster_buy,small_amount |
 | HKHC | 71 | corporate_insider | Rosenthal Brent D | 2 | $54,000 | cluster_buy |
 | TISI | 71 | corporate_insider | Horton Anthony R | 2 | $45,800 | cluster_buy |
-| TISI | 71 | corporate_insider | Horton Anthony R | 2 | $46,300 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| ALH | 61 | corporate_insider | BDT CAPITAL PARTNERS, LLC | $589,606,506 | - |
-| PLTR | 58 | corporate_insider | Karp Alexander C. | $53,597,839 | - |
-| DASH | 56 | corporate_insider | Adarkar Prabir | $3,778,407 | - |
-| GH | 56 | corporate_insider | Talasaz AmirAli | $3,533,452 | - |
+| MEDP | 58 | corporate_insider | Troendle August J. | $8,739,178 | - |
+| GNK | 56 | corporate_insider | DIANA SHIPPING INC. | $10,027,500 | - |
+| GNK | 56 | corporate_insider | DIANA SHIPPING INC. | $9,971,250 | - |
+| COR | 56 | corporate_insider | Campbell Elizabeth S | $3,662,663 | - |
 | PACS | 56 | corporate_insider | Murray Jason Hulse | $3,389,088 | - |
-| DASH | 55 | corporate_insider | Inukonda Ravi | $4,303,271 | - |
 | CRCL | 55 | corporate_insider | Fox-Geen Jeremy | $4,050,000 | - |
-| DASH | 55 | corporate_insider | Tang Stanley | $16,294,516 | - |
+| AMZN | 55 | corporate_insider | Zapolsky David | $2,404,951 | - |
+| UTHR | 55 | corporate_insider | ROTHBLATT MARTINE A | $1,840,743 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -92,20 +86,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 765.85 (0.31% / -0.21% / 3.37%) [2026-08-25]
+- SPY: 765.91 (0.32% / -0.2% / 3.38%) [2026-08-25]
 - QQQ: 710.72 (0.62% / -0.95% / 5.22%) [2026-08-25]
-- IWM: 299.28 (0.44% / -0.32% / 2.01%) [2026-08-25]
-- DIA: 535.27 (0.3% / 0.53% / 1.67%) [2026-08-25]
+- IWM: 299.23 (0.42% / -0.33% / 2.0%) [2026-08-25]
+- DIA: 535.24 (0.3% / 0.52% / 1.67%) [2026-08-25]
 - TLT: 83.47 (1.1% / 2.22% / -0.51%) [2026-08-25]
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
-- GLD: 428.1 (0.33% / 7.41% / 15.9%) [2026-08-25]
+- GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
 - ^VIX: 15.45 (-2.52% / -2.46% / -15.16%) [2026-08-25]
-- BTC-USD: 78733.47 (-0.29% / 7.81% / 21.88%) [2026-08-25]
+- BTC-USD: 78133.21 (-1.05% / 6.98% / 20.95%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.24 (delta 1m: -0.13) [2026-08-21]
-- Treasury 10Y yield: 4.74 (delta 1m: 0.03) [2026-08-21]
+- Treasury 2Y yield: 4.24 (delta 1m: -0.09) [2026-08-24]
+- Treasury 10Y yield: 4.7 (delta 1m: 0.01) [2026-08-24]
 - Curva 10Y-2Y: 0.46 (delta 1m: 0.1) [2026-08-24]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.69 (delta 1m: -0.1) [2026-08-24]
@@ -115,36 +109,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), merger (1)
+**Temas dominantes**: stock (2), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
-- [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
-- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
-- [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
-- [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
-- [LEG] Leggett & Platt shareholders approve merger with Somnigroup (2026-08-21)
-- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
+- [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
+- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
+- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
+- [LQDT] Liquidity Services to Present and Host 1x1 Investor Meetings at the 17th Annual Midwest IDEAS Investor Conference on August 26th in Chicago , IL (2026-08-21)
+- [LQDT] Liquidity Services ( NASDAQ : LQDT ) Upgraded at Wall Street Zen (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.
-- 10% owner BDT CAPITAL PARTNERS, LLC vendio ALH por $589.6M el 2026-08-20.
 - Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.
+- 10% owner DIANA SHIPPING INC. vendio GNK por $10.0M el 2026-08-24 [senal en multiples fuentes].
+- CEO Gamble Sean vendio CNK por $5.3M el 2026-08-24.
+- CEO Troendle August J. vendio MEDP por $8.7M el 2026-08-21.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $30,801 · win rate 97% · categorias: sports, crypto
+- comon119 · PnL $27,272 · win rate 97% · categorias: sports, crypto
 - cruzzzz · PnL $24,940 · win rate 95% · categorias: sports, politics
-- AV23IUa · PnL $286,370 · win rate 76% · categorias: sports, crypto
-- JnStrtPrdctnMrkts · PnL $19,664 · win rate 89% · categorias: crypto
-- thatguythatguy · PnL $24,097 · win rate 95% · categorias: sports
+- AV23IUa · PnL $291,935 · win rate 76% · categorias: sports, crypto
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $23,331 · win rate 88% · categorias: sports
+- 0x0CdFf1E562Faf5EcE704Ef15f6A9fc4232E7eC9E-1780718136344 · PnL $29,592 · win rate 83% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -152,7 +144,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 670 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 691 registros 30d · ultimo dato 2026-08-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -166,7 +158,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMR, CHTR, CLBT, DGICA, GLD, GSHD, IEF, PRE, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CHTR, DGICA, GLD, GNK, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
