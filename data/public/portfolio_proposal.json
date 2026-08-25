@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:17:20+00:00",
+  "generated_at": "2026-08-25T20:05:40+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.85,
@@ -25,14 +25,22 @@
     "GLD": 0.0829
   },
   "satellite": {
+    "AMR": 0.0424,
     "CHTR": 0.046,
     "PRE": 0.029,
-    "AMR": 0.0424,
     "DGICA": 0.1052,
     "CLBT": 0.037,
     "GSHD": 0.0379
   },
   "satellite_rationale": [
+    {
+      "ticker": "AMR",
+      "score": 312.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
     {
       "ticker": "CHTR",
       "score": 210.0,
@@ -44,14 +52,6 @@
     {
       "ticker": "PRE",
       "score": 184.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "AMR",
-      "score": 183.2,
       "sources": [
         "corporate_insider"
       ],

@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T19:16:27.684748+00:00",
+  "generated_at": "2026-08-25T20:04:27.394024+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -24,10 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
-      "earnings",
-      "merger",
-      "ai"
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -421,6 +418,14 @@
         ]
       },
       {
+        "ticker": "AMR",
+        "company": "Alpha Metallurgical Resources, Inc.",
+        "pressure_score": 306.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "TISI",
         "company": "TEAM INC",
         "pressure_score": 287.2,
@@ -432,14 +437,6 @@
         "ticker": "PRE",
         "company": "Prenetics Global Ltd",
         "pressure_score": 233.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "AMR",
-        "company": "Alpha Metallurgical Resources, Inc.",
-        "pressure_score": 226.3,
         "sources": [
           "corporate_insider"
         ]
@@ -653,6 +650,15 @@
       "score": 82.4
     },
     {
+      "ticker": "PAM",
+      "company": "Pampa Energy Inc.",
+      "actor": "Mindlin Marcos Marcelo",
+      "actor_type": "ten_percent_owner",
+      "amount": 2278800.0,
+      "date": "2026-08-21",
+      "score": 80.1
+    },
+    {
       "ticker": "TENX",
       "company": "TENAX THERAPEUTICS, INC.",
       "actor": "ADAR1 Capital Management, LLC",
@@ -660,6 +666,15 @@
       "amount": 1266253.84,
       "date": "2026-08-21",
       "score": 80.1
+    },
+    {
+      "ticker": "AMR",
+      "company": "Alpha Metallurgical Resources, Inc.",
+      "actor": "Gorzynski Michael",
+      "actor_type": "ten_percent_owner",
+      "amount": 2089169.0,
+      "date": "2026-08-21",
+      "score": 79.9
     },
     {
       "ticker": "PRE",
@@ -759,24 +774,6 @@
       "amount": 190647.0,
       "date": "2026-08-24",
       "score": 76.3
-    },
-    {
-      "ticker": "ABCL",
-      "company": "AbCellera Biologics Inc.",
-      "actor": "Hayden Michael R",
-      "actor_type": "director",
-      "amount": 570442.32,
-      "date": "2026-08-24",
-      "score": 76.1
-    },
-    {
-      "ticker": "TISI",
-      "company": "TEAM INC",
-      "actor": "Roeder Clinton William",
-      "actor_type": "cfo",
-      "amount": 183200.0,
-      "date": "2026-08-21",
-      "score": 75.9
     }
   ],
   "institutional_changes": [
@@ -1009,6 +1006,15 @@
       "date": "2026-08-25"
     },
     {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 56.94,
+      "shares": 2038790,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-25"
+    },
+    {
       "filer": "TPG GP A, LLC",
       "company": "TPG Inc.",
       "ticker": "",
@@ -1088,46 +1094,38 @@
       "shares": 27536011,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-18"
-    },
-    {
-      "filer": "Hung-Wen Chen",
-      "company": "Apollomics Inc.",
-      "ticker": "",
-      "ownership_pct": 49.76,
-      "shares": 1453029,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-17"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xc3c3b3ef30",
+        "username": "comon119",
+        "pnl": 30800.68,
+        "win_rate": 0.97,
+        "volume": 251599.28,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xa486f1e84d",
         "username": "cruzzzz",
-        "pnl": 24903.92,
-        "win_rate": 0.952,
-        "volume": 111562.43,
+        "pnl": 24939.79,
+        "win_rate": 0.953,
+        "volume": 113026.43,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x0afa7be11f",
-        "username": "123412341234",
-        "pnl": 13705.3,
-        "win_rate": 0.986,
-        "volume": 68397.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 277361.82,
+        "pnl": 286370.46,
         "win_rate": 0.7555,
-        "volume": 684649.85,
+        "volume": 732973.93,
         "categories": [
           "sports",
           "crypto"
@@ -1136,9 +1134,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 22441.25,
+        "pnl": 19663.86,
         "win_rate": 0.8876,
-        "volume": 516918.12,
+        "volume": 518259.64,
         "categories": [
           "crypto"
         ]
@@ -1146,19 +1144,9 @@
       {
         "wallet": "0x31706006a0",
         "username": "thatguythatguy",
-        "pnl": 29506.07,
+        "pnl": 24096.74,
         "win_rate": 0.9459,
-        "volume": 119219.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 36126.9,
-        "win_rate": 0.8056,
-        "volume": 120984.05,
+        "volume": 150620.07,
         "categories": [
           "sports"
         ]
@@ -1166,8 +1154,8 @@
       {
         "wallet": "0x0cdff1e562",
         "username": "0x0CdFf1E562Faf5EcE704Ef15f6A9fc4232E7eC9E-1780718136344",
-        "pnl": 22787.72,
-        "win_rate": 0.8291,
+        "pnl": 26632.42,
+        "win_rate": 0.8319,
         "volume": 105280.25,
         "categories": [
           "sports",
@@ -1175,11 +1163,33 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 35725.84,
+        "win_rate": 0.8056,
+        "volume": 120984.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf559276513",
+        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
+        "pnl": 19898.45,
+        "win_rate": 0.8225,
+        "volume": 90908.72,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xc6e9560680",
         "username": "luck00004",
-        "pnl": 23329.51,
+        "pnl": 26148.6,
         "win_rate": 0.9394,
-        "volume": 101310.93,
+        "volume": 101410.93,
         "categories": [
           "sports"
         ]
@@ -1193,25 +1203,15 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0xc8075693f4",
-        "username": "texaskid",
-        "pnl": 63188.09,
-        "win_rate": 0.6843,
-        "volume": 115090.94,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 100867.19,
-        "win_rate": 0.639,
-        "volume": 4093589.44,
+        "pnl": 123655.69,
+        "win_rate": 0.64,
+        "volume": 4528575.37,
         "categories": [
           "sports"
         ]
@@ -1228,42 +1228,42 @@
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 41887.56,
+        "win_rate": 0.552,
+        "volume": 2934098.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 277361.82,
+        "pnl": 286370.46,
         "win_rate": 0.7555,
-        "volume": 684649.85,
+        "volume": 732973.93,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x14c7111afa",
-        "username": "kilian7kilian",
-        "pnl": 34335.03,
+        "wallet": "0xde3131239a",
+        "username": "crisp1973",
+        "pnl": 17561.94,
         "win_rate": 1.0,
-        "volume": 297787.89,
+        "volume": 585416.23,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 22441.25,
-        "win_rate": 0.8876,
-        "volume": 516918.12,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xdf17f4a8dd",
         "username": "iguana7",
-        "pnl": 19163.14,
-        "win_rate": 0.617,
-        "volume": 438633.05,
+        "pnl": 21505.2,
+        "win_rate": 0.616,
+        "volume": 438641.2,
         "categories": [
           "politics",
           "sports",
@@ -1273,42 +1273,41 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 73807.25,
+        "pnl": 73979.51,
         "win_rate": 0.4913,
-        "volume": 315305.61,
+        "volume": 350327.3,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 19663.86,
+        "win_rate": 0.8876,
+        "volume": 518259.64,
+        "categories": [
+          "crypto"
         ]
       },
       {
         "wallet": "0x204f72f353",
         "username": "swisstony",
-        "pnl": 15387.81,
-        "win_rate": 0.5,
-        "volume": 1575827.16,
+        "pnl": 19017.56,
+        "win_rate": 0.499,
+        "volume": 1927916.09,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 50767.72,
-        "win_rate": 0.5145,
-        "volume": 197476.61,
+        "wallet": "0x2e25b222e2",
+        "username": "Sparkling8899",
+        "pnl": 17595.96,
+        "win_rate": 0.5345,
+        "volume": 128966.6,
         "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 14582.77,
-        "win_rate": 0.573,
-        "volume": 501410.18,
-        "categories": [
-          "crypto"
+          "sports"
         ]
       }
     ]
@@ -1331,6 +1330,13 @@
         "stock"
       ],
       "date": "2026-08-23"
+    },
+    {
+      "title": "Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13554596/head-to-head-contrast-park-ohio-nasdaqpkoh-gold-com-nysegold.html",
+      "ticker": "PKOH",
+      "themes": [],
+      "date": "2026-08-22"
     },
     {
       "title": "Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET",
@@ -1358,72 +1364,14 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened",
-      "url": "https://www.tickerreport.com/banking-finance/13553253/farmers-merchants-bank-of-long-beach-otcmktsfmbl-reaches-new-1-year-high-heres-what-happened.html",
-      "ticker": "FMCB",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends",
-      "url": "https://www.fool.com/coverage/charts/2026/08/21/axon-enterprise-vs-celsius-comparing-steady-incremental-gains-and-historical-volatility-in-quarterly-revenue-trends/?source=iedfolrf0000001",
-      "ticker": "AXON",
-      "themes": [
-        "earnings",
-        "ai"
-      ],
-      "date": "2026-08-21"
-    },
-    {
       "title": "Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In",
       "url": "https://www.insidermonkey.com/blog/tom-lee-recommends-arista-networks-anet-and-jpmorgan-jpm-analysts-weigh-in-1821375/",
       "ticker": "ANET",
       "themes": [],
       "date": "2026-08-20"
-    },
-    {
-      "title": "Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July",
-      "url": "https://www.tickerreport.com/banking-finance/13546205/farmers-merchants-bancorp-otcmktsfmcb-short-interest-down-50-0-in-july.html",
-      "ticker": "FMCB",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "Cango ( NYSE : CANG ) & Blend Labs ( NYSE : BLND ) Critical Analysis",
-      "url": "https://www.tickerreport.com/banking-finance/13543441/cango-nysecang-blend-labs-nyseblnd-critical-analysis.html",
-      "ticker": "BLND",
-      "themes": [],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Blend Labs ( NYSE : BLND ) vs . Cango ( NYSE : CANG ) Critical Review",
-      "url": "https://www.dailypolitical.com/2026/08/14/blend-labs-nyseblnd-vs-cango-nysecang-critical-review.html",
-      "ticker": "BLND",
-      "themes": [],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Weekly Research Analyst Ratings Changes for BlackLine ( BL ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13543181/weekly-research-analysts-ratings-changes-for-blackline-bl.html",
-      "ticker": "BL",
-      "themes": [],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "BlackLine ( BL ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/blackline-bl-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "BL",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-08-12"
     }
   ],
-  "signals_count": 1406,
+  "signals_count": 1420,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
