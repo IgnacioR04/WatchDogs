@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T03:29:28+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T04:15:40+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T03:29:28+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T04:15:40+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
 - ^VIX: 15.85 (4.76% / 4.34% / -15.1%) [2026-08-24]
-- BTC-USD: 80633.88 (3.7% / 16.41% / 25.88%) [2026-08-25]
+- BTC-USD: 80467.67 (3.49% / 16.17% / 25.62%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,18 +346,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: ai (7), stock (3), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [XYZ] The Block 2026 Episode 13 recap : Last week winners kicked to the kerb by judges (2026-08-25)
-- [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
-- [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
+- [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
+- [RBLX] Teenage Roblox entrepreneur raises $1m to fight online predators (2026-08-25)
+- [RBLX] Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death (2026-08-25)
+- [RBLX] The  Black Mirror  of Roblox Games Disappears After Hitting No . 1 (2026-08-24)
+- [RBLX] Roblox makes enforceable promise to address remaining online safety concerns (2026-08-24)
+- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
+- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
 - [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
-- [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
-- [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
-- [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
-- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
+- [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
+- [AXON] Sycale Advisors NY LLC Takes Position in Axon Enterprise , Inc $AXON (2026-08-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
