@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T22:02:30+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T23:02:25+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T22:02:30+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T23:02:25+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,26 +258,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 765.91 | 0.32% | -0.2% | 3.38% |
 | QQQ | 12.0% | core | 710.72 | 0.62% | -0.95% | 5.22% |
 | TLT | 12.0% | core | 83.47 | 1.1% | 2.22% | -0.51% |
-| DGICA | 12.0% | satellite | 19.13 | 0.79% | 2.79% | 0.62% |
-| CON | 10.6% | satellite | 34.78 | -0.6% | -0.59% | 6.59% |
-| GLD | 9.5% | core | 428.07 | 0.32% | 7.41% | 15.89% |
-| IEF | 6.3% | core | 93.51 | 0.54% | 0.62% | 0.29% |
-| AMR | 5.3% | satellite | 215.63 | 2.72% | 27.26% | 48.64% |
-| CHTR | 5.2% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
+| CHTR | 12.0% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
+| AMR | 12.0% | satellite | 215.63 | 2.72% | 27.26% | 48.64% |
+| GLD | 10.9% | core | 428.07 | 0.32% | 7.41% | 15.89% |
+| IEF | 7.3% | core | 93.51 | 0.54% | 0.62% | 0.29% |
+| CBRS | 6.9% | satellite | 183.91 | -0.82% | -16.41% | -4.57% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.4%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -5.4%
-- Beta vs SPY: 0.458 · posiciones efectivas: 11.4 · HHI: 0.0875
+- Volatilidad anualizada: 17.0%
+- VaR 95% 1d: 1.7% · CVaR 95% 1d: 2.1%
+- Max drawdown historico: -9.1%
+- Beta vs SPY: 0.823 · posiciones efectivas: 10.7 · HHI: 0.0938
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **AMR** · score agregado 233.4 · 3 señales · fuentes: corporate_insider
 - **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
-- **DGICA** · score agregado 119.8 · 2 señales · fuentes: corporate_insider
-- **CON** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **AMR** · score agregado 120.3 · 2 señales · fuentes: corporate_insider
+- **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -285,34 +283,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| AMR | 81 | corporate_insider | Gorzynski Michael | 2 | $2,089,169 | cluster_buy |
+| ODYS | 82 | corporate_insider | Arkin Moshe | 2 | $3,600,000 | cluster_buy |
 | TISI | 77 | corporate_insider | Roeder Clinton William | 2 | $183,200 | cluster_buy |
-| AMR | 76 | corporate_insider | Courtis Kenneth S. | 2 | $630,065 | cluster_buy |
-| AMR | 76 | corporate_insider | Courtis Kenneth S. | 2 | $452,599 | cluster_buy |
+| SCTH | 76 | corporate_insider | SITRA J SCOTT | 0 | $100,000,000 | - |
+| SRTS | 75 | corporate_insider | Sardano Joseph C | 2 | $60,486 | cluster_buy |
+| SRTS | 73 | corporate_insider | Sachetta Eric | 2 | $112,904 | cluster_buy |
+| ODYS | 72 | corporate_insider | Vurembrand Zeev | 2 | $100,000 | cluster_buy |
 | TISI | 72 | corporate_insider | Roeder Clinton William | 2 | $22,840 | cluster_buy,small_amount |
 | LFT | 72 | corporate_insider | Flynn James Peter | 2 | $13,642 | cluster_buy,small_amount |
-| USIO | 72 | large_holder | TALL PINES CAPITAL, LLC |  | - | - |
 | PCQ | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
 | PNI | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | CDTG | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
-| CLBT | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
-| LFT | 71 | corporate_insider | BRIGGS JAMES A | 2 | $13,798 | cluster_buy,small_amount |
-| HKHC | 71 | corporate_insider | Rosenthal Brent D | 2 | $54,000 | cluster_buy |
+| QXL | 72 | large_holder | Nissim Daniel |  | - | - |
+| QXL | 72 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MEDP | 58 | corporate_insider | Troendle August J. | $8,739,178 | - |
-| EOG | 57 | corporate_insider | Yacob Ezra Y | $5,466,670 | - |
-| GNK | 56 | corporate_insider | DIANA SHIPPING INC. | $10,027,500 | - |
-| GNK | 56 | corporate_insider | DIANA SHIPPING INC. | $9,971,250 | - |
+| CBRS | 59 | corporate_insider | Feldman Andrew D. | $13,203,021 | - |
+| CBRS | 58 | corporate_insider | Feldman Andrew D. | $8,545,099 | - |
+| CBRS | 57 | corporate_insider | Feldman Andrew D. | $6,719,365 | - |
+| V | 57 | corporate_insider | Taneja Rajat | $6,650,860 | - |
+| CBRS | 57 | corporate_insider | Feldman Andrew D. | $6,512,988 | - |
+| CBRS | 56 | corporate_insider | Feldman Andrew D. | $4,207,067 | - |
 | COR | 56 | corporate_insider | Campbell Elizabeth S | $3,662,663 | - |
-| FRPT | 56 | corporate_insider | Cyr William B. | $3,070,652 | - |
-| FRPT | 56 | corporate_insider | Cyr William B. | $3,025,494 | - |
-| TWO | 56 | corporate_insider | GREENBERG WILLIAM ROSS | $14,567,196 | - |
+| AUGO | 56 | corporate_insider | Sousa Mauad Bruno | $19,617,868 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -329,7 +327,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
 - ^VIX: 15.45 (-2.52% / -2.46% / -15.16%) [2026-08-25]
-- BTC-USD: 78654.08 (-0.39% / 7.7% / 21.76%) [2026-08-25]
+- BTC-USD: 78942.54 (-0.03% / 8.09% / 22.21%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,24 +342,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (2), stock (1)
+**Temas dominantes**: ai (3), stock (3), earnings (2), regulatory (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
+- [RBLX] Man Teases Most Infuriating Game Ever , Roblox Vultures Immediately Steal His Idea (2026-08-25)
+- [TPR] Toll House Hotel Los Gatos Joins Tapestry Collection by Hilton (2026-08-25)
+- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
+- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
+- [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
+- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
+- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
 - [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO SITRA J SCOTT compro SCTH por $100.0M el 2026-08-21.
 - 10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.
-- CEO GREENBERG WILLIAM ROSS vendio TWO por $14.6M el 2026-08-25.
-- Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.
-- CEO Yacob Ezra Y vendio EOG por $5.5M el 2026-08-24.
+- CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].
 - CEO Gamble Sean vendio CNK por $5.3M el 2026-08-24.
-- CEO Troendle August J. vendio MEDP por $8.7M el 2026-08-21.
+- CFO Visoso Luis Felipe opero SNDK por $41.1M el 2026-08-20.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -377,8 +381,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 819 registros 30d · ultimo dato 2026-08-25
-- **sec_13d_13g**: `ok` · 240 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 695 registros 30d · ultimo dato 2026-08-25
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -391,7 +395,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMR, CHTR, CON, DGICA, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMR, CBRS, CHTR, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

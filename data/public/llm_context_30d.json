@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T22:00:46.261470+00:00",
+  "generated_at": "2026-08-25T23:01:09.222469+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -23,8 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "regulatory",
-      "stock"
+      "ai",
+      "stock",
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,6 +34,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "CEO compro SCTH ($100.0M)",
+      "summary": "CEO SITRA J SCOTT compro SCTH por $100.0M el 2026-08-21.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SITRA J SCOTT",
+      "actor_type": "ceo",
+      "ticker": "SCTH",
+      "direction": "buy",
+      "amount_estimated": 100000000.0,
+      "event_date": "2026-08-21",
+      "importance_score": 90.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1335253/000133525326000006/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro EBR Systems, Inc. ($20.8M)",
       "summary": "10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.",
       "source": "sec_form_4",
@@ -48,62 +68,96 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2041658/000123191926001062/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
-      "title": "CEO vendio TWO ($14.6M)",
-      "summary": "CEO GREENBERG WILLIAM ROSS vendio TWO por $14.6M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "GREENBERG WILLIAM ROSS",
-      "actor_type": "ceo",
-      "ticker": "TWO",
-      "direction": "sell",
-      "amount_estimated": 14567196.0,
-      "event_date": "2026-08-25",
-      "importance_score": 84.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1792521/000110465926100896/"
-    },
-    {
       "id": "move_3",
       "rank": 3,
-      "title": "Director compro BABA ($10.4M)",
-      "summary": "Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.",
+      "title": "CEO vendio CBRS ($13.2M)",
+      "summary": "CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Tsai Joseph C",
-      "actor_type": "director",
-      "ticker": "BABA",
-      "direction": "buy",
-      "amount_estimated": 10418400.0,
-      "event_date": "2026-08-25",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1633999/000119312526364044/"
+      "actor_name": "Feldman Andrew D.",
+      "actor_type": "ceo",
+      "ticker": "CBRS",
+      "direction": "sell",
+      "amount_estimated": 13203021.21,
+      "event_date": "2026-08-21",
+      "importance_score": 83.7,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_643344728085",
+        "news_702201262098",
+        "news_697184520335"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO vendio EOG ($5.5M)",
-      "summary": "CEO Yacob Ezra Y vendio EOG por $5.5M el 2026-08-24.",
+      "title": "CEO vendio CBRS ($8.5M)",
+      "summary": "CEO Feldman Andrew D. vendio CBRS por $8.5M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Yacob Ezra Y",
+      "actor_name": "Feldman Andrew D.",
       "actor_type": "ceo",
-      "ticker": "EOG",
+      "ticker": "CBRS",
       "direction": "sell",
-      "amount_estimated": 5466670.37,
-      "event_date": "2026-08-24",
-      "importance_score": 82.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1724997/000082118926000169/"
+      "amount_estimated": 8545098.6,
+      "event_date": "2026-08-21",
+      "importance_score": 82.8,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_643344728085",
+        "news_702201262098",
+        "news_697184520335"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
       "id": "move_5",
       "rank": 5,
+      "title": "CEO vendio CBRS ($6.7M)",
+      "summary": "CEO Feldman Andrew D. vendio CBRS por $6.7M el 2026-08-21 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Feldman Andrew D.",
+      "actor_type": "ceo",
+      "ticker": "CBRS",
+      "direction": "sell",
+      "amount_estimated": 6719364.75,
+      "event_date": "2026-08-21",
+      "importance_score": 82.2,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_643344728085",
+        "news_702201262098",
+        "news_697184520335"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
+      "title": "CEO vendio CBRS ($6.5M)",
+      "summary": "CEO Feldman Andrew D. vendio CBRS por $6.5M el 2026-08-21 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Feldman Andrew D.",
+      "actor_type": "ceo",
+      "ticker": "CBRS",
+      "direction": "sell",
+      "amount_estimated": 6512987.52,
+      "event_date": "2026-08-21",
+      "importance_score": 82.2,
+      "cross_source_score": 25.0,
+      "related_news": [
+        "news_643344728085",
+        "news_702201262098",
+        "news_697184520335"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio CNK ($5.3M)",
       "summary": "CEO Gamble Sean vendio CNK por $5.3M el 2026-08-24.",
       "source": "sec_form_4",
@@ -120,26 +174,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1616557/000119312526365189/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio MEDP ($8.7M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $8.7M el 2026-08-21.",
+      "id": "move_8",
+      "rank": 8,
+      "title": "CFO opero SNDK ($41.1M)",
+      "summary": "CFO Visoso Luis Felipe opero SNDK por $41.1M el 2026-08-20.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
-      "actor_type": "ceo",
-      "ticker": "MEDP",
-      "direction": "sell",
-      "amount_estimated": 8739177.75,
-      "event_date": "2026-08-21",
-      "importance_score": 81.6,
+      "actor_name": "Visoso Luis Felipe",
+      "actor_type": "cfo",
+      "ticker": "SNDK",
+      "direction": "other",
+      "amount_estimated": 41063906.1,
+      "event_date": "2026-08-20",
+      "importance_score": 81.7,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000089225126000152/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1816289/000136324926000065/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -156,8 +210,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -174,8 +228,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -192,8 +246,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -210,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -228,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -246,8 +300,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -264,8 +318,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -282,8 +336,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -300,8 +354,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -318,8 +372,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -336,8 +390,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -352,54 +406,10 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
-      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 17242553494,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro INTEL CORP ($16.2B)",
-      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16233929222,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
-      {
-        "ticker": "AIJTY",
-        "company": "Jianpu Technology Inc.",
-        "pressure_score": 441.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "ATXG",
         "company": "Addentax Group Corp.",
@@ -426,9 +436,17 @@
         ]
       },
       {
-        "ticker": "AMR",
-        "company": "Alpha Metallurgical Resources, Inc.",
-        "pressure_score": 231.8,
+        "ticker": "MSGM",
+        "company": "Motorsport Games Inc.",
+        "pressure_score": 278.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AIAI",
+        "company": "AIAI Holdings Corp",
+        "pressure_score": 217.0,
         "sources": [
           "corporate_insider"
         ]
@@ -439,6 +457,15 @@
         "pressure_score": 214.8,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "QXL",
+        "company": "QUANTUM X LABS INC.",
+        "pressure_score": 212.4,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -498,17 +525,9 @@
         ]
       },
       {
-        "ticker": "SLMT",
-        "company": "Brera Holdings PLC",
-        "pressure_score": 177.6,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "DGICA",
-        "company": "DONEGAL GROUP INC",
-        "pressure_score": 151.0,
+        "ticker": "RCG",
+        "company": "RENN Fund, Inc.",
+        "pressure_score": 201.3,
         "sources": [
           "corporate_insider"
         ]
@@ -532,65 +551,18 @@
         ]
       },
       {
-        "ticker": "TWO",
-        "company": "TWO HARBORS INVESTMENT CORP.",
-        "pressure_score": 1262.5,
+        "ticker": "CBRS",
+        "company": "Cerebras Systems, Inc.",
+        "pressure_score": 1021.1,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
-        "ticker": "PLBY",
-        "company": "Playboy, Inc.",
-        "pressure_score": 1156.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 940.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 818.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PHI",
-        "company": "PLDT Inc.",
-        "pressure_score": 719.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FRPT",
-        "company": "Freshpet, Inc.",
-        "pressure_score": 662.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GNK",
-        "company": "GENCO SHIPPING & TRADING LTD",
-        "pressure_score": 622.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ITRI",
-        "company": "ITRON, INC.",
-        "pressure_score": 537.1,
+        "ticker": "RBLX",
+        "company": "Roblox Corp",
+        "pressure_score": 917.6,
         "sources": [
           "corporate_insider"
         ]
@@ -604,17 +576,25 @@
         ]
       },
       {
-        "ticker": "TRGP",
-        "company": "Targa Resources Corp.",
-        "pressure_score": 401.8,
+        "ticker": "REAL",
+        "company": "TheRealReal, Inc.",
+        "pressure_score": 463.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 387.6,
+        "ticker": "MORN",
+        "company": "Morningstar, Inc.",
+        "pressure_score": 430.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TRGP",
+        "company": "Targa Resources Corp.",
+        "pressure_score": 401.8,
         "sources": [
           "corporate_insider"
         ]
@@ -628,25 +608,74 @@
         ]
       },
       {
-        "ticker": "CON",
-        "company": "Concentra Group Holdings Parent, Inc.",
-        "pressure_score": 375.6,
+        "ticker": "PFGC",
+        "company": "Performance Food Group Co",
+        "pressure_score": 345.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PMA",
+        "company": "Ming Shing Group Holdings Ltd",
+        "pressure_score": 337.1,
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "PPHC",
+        "company": "Public Policy Holding Company, Inc.",
+        "pressure_score": 327.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AMPX",
+        "company": "Amprius Technologies, Inc.",
+        "pressure_score": 287.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VMC",
+        "company": "Vulcan Materials CO",
+        "pressure_score": 284.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo Inc.",
+        "pressure_score": 271.7,
+        "sources": [
+          "corporate_insider"
         ]
       }
     ]
   },
   "insider_buying": [
     {
-      "ticker": "BABA",
-      "company": "Alibaba Group Holding Ltd",
-      "actor": "Tsai Joseph C",
-      "actor_type": "director",
-      "amount": 10418400.0,
-      "date": "2026-08-25",
-      "score": 82.4
+      "ticker": "SCTH",
+      "company": "Securetech Innovations, Inc.",
+      "actor": "SITRA J SCOTT",
+      "actor_type": "ceo",
+      "amount": 100000000.0,
+      "date": "2026-08-21",
+      "score": 90.8
+    },
+    {
+      "ticker": "ODYS",
+      "company": "Odysight.ai Inc.",
+      "actor": "Arkin Moshe",
+      "actor_type": "ten_percent_owner",
+      "amount": 3600000.0,
+      "date": "2026-08-20",
+      "score": 81.1
     },
     {
       "ticker": "PAM",
@@ -658,22 +687,13 @@
       "score": 80.1
     },
     {
-      "ticker": "AMR",
-      "company": "Alpha Metallurgical Resources, Inc.",
-      "actor": "Gorzynski Michael",
-      "actor_type": "ten_percent_owner",
-      "amount": 2089169.0,
-      "date": "2026-08-21",
-      "score": 79.9
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
+      "ticker": "VST",
+      "company": "Vistra Corp.",
+      "actor": "BURKE JAMES A",
       "actor_type": "ceo",
-      "amount": 120469.54,
+      "amount": 270000.0,
       "date": "2026-08-24",
-      "score": 77.8
+      "score": 79.5
     },
     {
       "ticker": "BORR",
@@ -703,15 +723,6 @@
       "score": 76.3
     },
     {
-      "ticker": "DGICA",
-      "company": "DONEGAL GROUP INC",
-      "actor": "DONEGAL MUTUAL INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 190647.0,
-      "date": "2026-08-24",
-      "score": 76.3
-    },
-    {
       "ticker": "TISI",
       "company": "TEAM INC",
       "actor": "Roeder Clinton William",
@@ -719,6 +730,15 @@
       "amount": 183200.0,
       "date": "2026-08-21",
       "score": 75.9
+    },
+    {
+      "ticker": "ASYS",
+      "company": "AMTECH SYSTEMS INC",
+      "actor": "Shechter Guy",
+      "actor_type": "ceo",
+      "amount": 49455.75,
+      "date": "2026-08-24",
+      "score": 75.8
     },
     {
       "ticker": "AMR",
@@ -730,31 +750,31 @@
       "score": 75.6
     },
     {
-      "ticker": "NGL",
-      "company": "NGL Energy Partners LP",
-      "actor": "RAYMOND JOHN T",
+      "ticker": "SRTS",
+      "company": "Sensus Healthcare, Inc.",
+      "actor": "Sardano Joseph C",
+      "actor_type": "ceo",
+      "amount": 60486.0,
+      "date": "2026-08-20",
+      "score": 74.8
+    },
+    {
+      "ticker": "HRI",
+      "company": "HERC HOLDINGS INC",
+      "actor": "Olsson Erik",
       "actor_type": "director",
-      "amount": 413704.35,
+      "amount": 502855.0,
+      "date": "2026-08-21",
+      "score": 74.4
+    },
+    {
+      "ticker": "PFBX",
+      "company": "PEOPLES FINANCIAL CORP /MS/",
+      "actor": "SWETMAN CHEVIS",
+      "actor_type": "ceo",
+      "amount": 23250.0,
       "date": "2026-08-24",
-      "score": 75.4
-    },
-    {
-      "ticker": "DGICA",
-      "company": "DONEGAL GROUP INC",
-      "actor": "DONEGAL MUTUAL INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 186757.0,
-      "date": "2026-08-21",
-      "score": 74.7
-    },
-    {
-      "ticker": "AMT",
-      "company": "AMERICAN TOWER CORP /MA/",
-      "actor": "Kalathur Rajesh",
-      "actor_type": "director",
-      "amount": 500733.0,
-      "date": "2026-08-21",
-      "score": 74.3
+      "score": 74.2
     },
     {
       "ticker": "AIAI",
@@ -766,13 +786,13 @@
       "score": 73.4
     },
     {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 27244.0,
-      "date": "2026-08-21",
-      "score": 73.0
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 40971.93,
+      "date": "2026-08-24",
+      "score": 72.9
     }
   ],
   "institutional_changes": [
@@ -969,6 +989,15 @@
       "date": "2026-08-18"
     },
     {
+      "filer": "Motive GM Holdings II LLC",
+      "company": "Workhorse Group Inc.",
+      "ticker": "WKHS",
+      "ownership_pct": 65.4,
+      "shares": 8129800,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-25"
+    },
+    {
       "filer": "Paine Schwartz Food Chain Fund V GP, Ltd.",
       "company": "Suja Life, Inc.",
       "ticker": "SUJA",
@@ -1083,15 +1112,6 @@
       "ownership_pct": 48.33,
       "shares": 3787379,
       "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-18"
-    },
-    {
-      "filer": "Kosugi Asamitsu",
-      "company": "Advasa Holdings, Inc.",
-      "ticker": "ADBT",
-      "ownership_pct": 47.76,
-      "shares": 232638232,
-      "filing_type": "SCHEDULE 13D",
       "date": "2026-08-18"
     }
   ],
@@ -1209,7 +1229,7 @@
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
         "pnl": 115988.31,
-        "win_rate": 0.627,
+        "win_rate": 0.636,
         "volume": 6174168.02,
         "categories": [
           "sports"
@@ -1240,7 +1260,7 @@
         "wallet": "0x2005d16a84",
         "username": "RN1",
         "pnl": 60811.8,
-        "win_rate": 0.553,
+        "win_rate": 0.563,
         "volume": 4166257.16,
         "categories": [
           "sports"
@@ -1281,7 +1301,7 @@
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
         "pnl": 78400.98,
-        "win_rate": 0.567,
+        "win_rate": 0.57,
         "volume": 1614384.41,
         "categories": [
           "sports"
@@ -1312,13 +1332,66 @@
   },
   "news": [
     {
-      "title": "Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? ",
-      "url": "https://www.themarketsdaily.com/2026/08/25/tenable-nasdaqtenb-stock-price-down-3-9-time-to-sell.html",
-      "ticker": "TENB",
+      "title": "Man Teases Most Infuriating Game Ever , Roblox Vultures Immediately Steal His Idea",
+      "url": "https://gizmodo.com/man-teases-most-infuriating-game-ever-roblox-vultures-immediately-steal-his-idea-2000802874",
+      "ticker": "RBLX",
+      "themes": [],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Toll House Hotel Los Gatos Joins Tapestry Collection by Hilton",
+      "url": "http://www.prnewswire.com/news-releases/toll-house-hotel-los-gatos-joins-tapestry-collection-by-hilton-302859633.html",
+      "ticker": "TPR",
+      "themes": [],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? ",
+      "url": "https://www.fool.com/investing/2026/08/25/billionaire-stanley-druckenmiller-continues-to-loa/?source=iedfolrf0000001",
+      "ticker": "RVMD",
       "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? ",
+      "url": "https://www.fool.com/investing/2026/08/25/billionaire-stanley-druckenmiller-continues-to-loa/",
+      "ticker": "RVMD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-launches-record-setting-ai-193002886.html",
+      "ticker": "CBRS",
+      "themes": [
+        "ai",
         "stock"
       ],
       "date": "2026-08-25"
+    },
+    {
+      "title": "Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? ",
+      "url": "https://www.insidermonkey.com/blog/cerebras-systems-cbrs-revenue-surges-why-did-cbrs-stock-crash-and-what-about-amd-1810953/",
+      "ticker": "CBRS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-systems-cbrs-revenue-surges-185707172.html",
+      "ticker": "CBRS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-24"
     },
     {
       "title": "Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened",
@@ -1339,7 +1412,7 @@
       "date": "2026-08-16"
     }
   ],
-  "signals_count": 1559,
+  "signals_count": 1445,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

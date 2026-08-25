@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:02:29+00:00",
+  "generated_at": "2026-08-25T23:02:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8502,
@@ -8,12 +8,11 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "DGICA": 0.12,
-    "CON": 0.1058,
-    "GLD": 0.0951,
-    "IEF": 0.0635,
-    "AMR": 0.0534,
-    "CHTR": 0.0524
+    "CHTR": 0.12,
+    "AMR": 0.12,
+    "GLD": 0.1088,
+    "IEF": 0.0726,
+    "CBRS": 0.0688
   },
   "core": {
     "SPY": 0.1934,
@@ -23,20 +22,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMR": 0.0465,
-    "CHTR": 0.0457,
-    "DGICA": 0.1132,
-    "CON": 0.0922
+    "CHTR": 0.1345,
+    "AMR": 0.1106,
+    "CBRS": 0.0524
   },
   "satellite_rationale": [
-    {
-      "ticker": "AMR",
-      "score": 233.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
     {
       "ticker": "CHTR",
       "score": 210.0,
@@ -46,15 +36,15 @@
       "n_signals": 3
     },
     {
-      "ticker": "DGICA",
-      "score": 119.8,
+      "ticker": "AMR",
+      "score": 120.3,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "CON",
+      "ticker": "CBRS",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -63,17 +53,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0942,
-    "var_95_1d": 0.0098,
-    "cvar_95_1d": 0.0119,
-    "max_drawdown": -0.0543,
-    "beta_spy": 0.458,
-    "hhi": 0.0875,
+    "ann_vol": 0.1695,
+    "var_95_1d": 0.0167,
+    "cvar_95_1d": 0.0213,
+    "max_drawdown": -0.0913,
+    "beta_spy": 0.823,
+    "hhi": 0.0938,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 11.4,
+    "n_positions": 8,
+    "effective_positions": 10.7,
     "gross_exposure": 0.8502,
-    "days_used": 142
+    "days_used": 69
   },
   "risk_gate": {
     "passed": true,
