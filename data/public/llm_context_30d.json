@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T11:06:04.696015+00:00",
+  "generated_at": "2026-08-25T11:57:57.515541+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
+      "ai",
       "stock",
-      "ai"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -450,6 +451,14 @@
         ]
       },
       {
+        "ticker": "AIAI",
+        "company": "AIAI Holdings Corp",
+        "pressure_score": 217.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SRTS",
         "company": "Sensus Healthcare, Inc.",
         "pressure_score": 212.6,
@@ -502,14 +511,6 @@
       {
         "ticker": "KPLT",
         "company": "Katapult Holdings, Inc.",
-        "pressure_score": 207.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "SNSC",
-        "company": "SunScout Holding Ltd",
         "pressure_score": 207.0,
         "sources": [
           "large_holder"
@@ -574,6 +575,14 @@
         ]
       },
       {
+        "ticker": "PHI",
+        "company": "PLDT Inc.",
+        "pressure_score": 719.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "XYZ",
         "company": "Block, Inc.",
         "pressure_score": 705.8,
@@ -625,14 +634,6 @@
         "ticker": "PACS",
         "company": "PACS Group, Inc.",
         "pressure_score": 310.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CHRD",
-        "company": "Chord Energy Corp",
-        "pressure_score": 299.3,
         "sources": [
           "corporate_insider"
         ]
@@ -731,6 +732,15 @@
       "score": 77.4
     },
     {
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Troim Tor Olav",
+      "actor_type": "director",
+      "amount": 874620.0,
+      "date": "2026-08-25",
+      "score": 77.1
+    },
+    {
       "ticker": "PRE",
       "company": "Prenetics Global Ltd",
       "actor": "Yeung Danny Sheng Wu",
@@ -765,15 +775,6 @@
       "amount": 677466.23,
       "date": "2026-08-21",
       "score": 75.0
-    },
-    {
-      "ticker": "SRTS",
-      "company": "Sensus Healthcare, Inc.",
-      "actor": "Sardano Joseph C",
-      "actor_type": "ceo",
-      "amount": 60486.0,
-      "date": "2026-08-20",
-      "score": 74.8
     }
   ],
   "institutional_changes": [
@@ -1110,21 +1111,11 @@
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 7926.93,
-        "win_rate": 0.9352,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x31706006a0",
         "username": "thatguythatguy",
-        "pnl": 29841.14,
+        "pnl": 29909.1,
         "win_rate": 0.9459,
-        "volume": 59892.6,
+        "volume": 65781.41,
         "categories": [
           "sports"
         ]
@@ -1150,6 +1141,16 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 32356.9,
+        "win_rate": 0.8113,
+        "volume": 92477.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x8bfee7aeca",
         "username": "tennischamp",
         "pnl": 10591.76,
@@ -1170,19 +1171,9 @@
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 27947.18,
-        "win_rate": 0.8113,
-        "volume": 88311.14,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x86e99faea1",
         "username": "JUSTINHERBERTMVP",
-        "pnl": 9659.26,
+        "pnl": 8700.7,
         "win_rate": 0.8663,
         "volume": 13214.0,
         "categories": [
@@ -1197,6 +1188,16 @@
         "pnl": 80789.71,
         "win_rate": 0.9524,
         "volume": 2925.41,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc6e9560680",
+        "username": "luck00004",
+        "pnl": 20270.99,
+        "win_rate": 0.9394,
+        "volume": 101108.93,
         "categories": [
           "sports"
         ]
@@ -1217,9 +1218,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 96381.92,
-        "win_rate": 0.64,
-        "volume": 1441057.66,
+        "pnl": 111183.64,
+        "win_rate": 0.642,
+        "volume": 1542683.23,
         "categories": [
           "sports"
         ]
@@ -1227,7 +1228,7 @@
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 12448.01,
+        "pnl": 12535.16,
         "win_rate": 0.537,
         "volume": 802459.03,
         "categories": [
@@ -1267,31 +1268,31 @@
         ]
       },
       {
-        "wallet": "0xc4c8983df5",
-        "username": "CARBEACH",
-        "pnl": 9252.62,
-        "win_rate": 0.75,
-        "volume": 110245.18,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xf705fa0452",
         "username": "",
-        "pnl": 9690.52,
-        "win_rate": 0.484,
-        "volume": 203063.56,
+        "pnl": 10274.65,
+        "win_rate": 0.483,
+        "volume": 206550.82,
         "categories": [
           "crypto"
         ]
       },
       {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 17916.97,
+        "win_rate": 0.589,
+        "volume": 243379.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x23d81ba937",
         "username": "flawfence",
-        "pnl": 9129.17,
+        "pnl": 10071.66,
         "win_rate": 0.6961,
-        "volume": 110959.38,
+        "volume": 111007.89,
         "categories": [
           "politics",
           "sports",
@@ -1299,11 +1300,11 @@
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 17955.38,
-        "win_rate": 0.589,
-        "volume": 241895.97,
+        "wallet": "0xc6e9560680",
+        "username": "luck00004",
+        "pnl": 20270.99,
+        "win_rate": 0.9394,
+        "volume": 101108.93,
         "categories": [
           "sports"
         ]
@@ -1335,6 +1336,24 @@
       "date": "2026-08-25"
     },
     {
+      "title": "Teenage Roblox entrepreneur raises $1m to fight online predators",
+      "url": "https://www.nbr.co.nz/tech/teenage-roblox-entrepreneur-raises-1m-to-fight-online-predators/",
+      "ticker": "RBLX",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death",
+      "url": "https://www.fox19.com/2026/08/24/mother-says-teen-unknowingly-waived-right-sue-roblox-discord-tiktok-before-death/",
+      "ticker": "RBLX",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-25"
+    },
+    {
       "title": "Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/memory-stocks-slide-report-apple-152936889.html",
       "ticker": "WDC",
@@ -1355,21 +1374,32 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13554596/head-to-head-contrast-park-ohio-nasdaqpkoh-gold-com-nysegold.html",
-      "ticker": "PKOH",
-      "themes": [],
-      "date": "2026-08-22"
+      "title": "Are These Saint Laurent Shoes from The RealReal Fake ? ",
+      "url": "https://www.themarysue.com/los-angeles-saint-laurent-therealreal/",
+      "ticker": "REAL",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-17"
     },
     {
-      "title": "GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH",
-      "url": "https://www.themarketsdaily.com/2026/08/20/gsa-capital-partners-llp-takes-770000-position-in-park-ohio-holdings-corp-pkoh.html",
-      "ticker": "PKOH",
+      "title": "Weekly Research Analyst Ratings Changes for BlackLine ( BL ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13543181/weekly-research-analysts-ratings-changes-for-blackline-bl.html",
+      "ticker": "BL",
       "themes": [],
-      "date": "2026-08-20"
+      "date": "2026-08-14"
+    },
+    {
+      "title": "BlackLine ( BL ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/blackline-bl-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "BL",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-12"
     }
   ],
-  "signals_count": 1402,
+  "signals_count": 1412,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

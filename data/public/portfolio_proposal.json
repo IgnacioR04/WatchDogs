@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-08-25T11:07:14+00:00",
+  "generated_at": "2026-08-25T11:58:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "CHTR": 0.08,
-    "AMR": 0.0736,
-    "GSHD": 0.0658,
-    "CLBT": 0.0646,
+    "GLD": 0.0932,
+    "CHTR": 0.0817,
+    "AMR": 0.0672,
     "IEF": 0.0622,
-    "PRE": 0.0506
+    "GSHD": 0.0566,
+    "CLBT": 0.0541,
+    "PRE": 0.0488,
+    "AIAI": 0.0264
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0711,
-    "PRE": 0.045,
-    "AMR": 0.0654,
-    "CLBT": 0.0574,
-    "GSHD": 0.0585
+    "CHTR": 0.0726,
+    "PRE": 0.0434,
+    "AMR": 0.0597,
+    "AIAI": 0.0235,
+    "CLBT": 0.0481,
+    "GSHD": 0.0503
   },
   "satellite_rationale": [
     {
@@ -56,6 +58,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "AIAI",
+      "score": 171.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "CLBT",
       "score": 71.8,
       "sources": [
@@ -73,17 +83,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1279,
-    "var_95_1d": 0.0146,
-    "cvar_95_1d": 0.0169,
-    "max_drawdown": -0.0758,
-    "beta_spy": 0.544,
-    "hhi": 0.0787,
+    "ann_vol": 0.1373,
+    "var_95_1d": 0.0148,
+    "cvar_95_1d": 0.0167,
+    "max_drawdown": -0.0538,
+    "beta_spy": 0.648,
+    "hhi": 0.0762,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.7,
-    "gross_exposure": 0.8501,
-    "days_used": 202
+    "n_positions": 11,
+    "effective_positions": 13.1,
+    "gross_exposure": 0.8502,
+    "days_used": 68
   },
   "risk_gate": {
     "passed": true,
