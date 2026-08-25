@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T17:11:42.949567+00:00",
+  "generated_at": "2026-08-25T18:01:02.206233+00:00",
   "window": {
     "from": "2026-07-26",
     "to": "2026-08-25",
@@ -26,6 +26,7 @@
       "stock",
       "regulatory",
       "earnings",
+      "merger",
       "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -452,23 +453,6 @@
         ]
       },
       {
-        "ticker": "AIAI",
-        "company": "AIAI Holdings Corp",
-        "pressure_score": 217.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "QXL",
-        "company": "QUANTUM X LABS INC.",
-        "pressure_score": 212.4,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "XXII",
         "company": "22nd Century Group",
         "pressure_score": 211.5,
@@ -513,6 +497,22 @@
         "ticker": "ADBT",
         "company": "Advasa Holdings, Inc.",
         "pressure_score": 208.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "KPLT",
+        "company": "Katapult Holdings, Inc.",
+        "pressure_score": 207.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "SNSC",
+        "company": "SunScout Holding Ltd",
+        "pressure_score": 207.0,
         "sources": [
           "large_holder"
         ]
@@ -608,14 +608,6 @@
         ]
       },
       {
-        "ticker": "SPIR",
-        "company": "Spire Global, Inc.",
-        "pressure_score": 343.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "PMA",
         "company": "Ming Shing Group Holdings Ltd",
         "pressure_score": 337.1,
@@ -636,6 +628,14 @@
         "ticker": "CHRD",
         "company": "Chord Energy Corp",
         "pressure_score": 299.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HNGE",
+        "company": "Hinge Health, Inc.",
+        "pressure_score": 298.3,
         "sources": [
           "corporate_insider"
         ]
@@ -1102,11 +1102,32 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x0afa7be11f",
+        "username": "123412341234",
+        "pnl": 13759.81,
+        "win_rate": 0.986,
+        "volume": 65687.91,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa486f1e84d",
+        "username": "cruzzzz",
+        "pnl": 16237.89,
+        "win_rate": 0.952,
+        "volume": 88054.79,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 283981.96,
+        "pnl": 281231.17,
         "win_rate": 0.7555,
-        "volume": 573947.59,
+        "volume": 646996.37,
         "categories": [
           "sports",
           "crypto"
@@ -1115,9 +1136,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 37202.18,
+        "pnl": 26310.34,
         "win_rate": 0.8876,
-        "volume": 435542.52,
+        "volume": 512615.67,
         "categories": [
           "crypto"
         ]
@@ -1125,9 +1146,9 @@
       {
         "wallet": "0x5f659bccbc",
         "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 13945.32,
-        "win_rate": 0.9053,
-        "volume": 53083.96,
+        "pnl": 13293.23,
+        "win_rate": 0.9036,
+        "volume": 94981.21,
         "categories": [
           "sports",
           "crypto"
@@ -1136,9 +1157,9 @@
       {
         "wallet": "0x31706006a0",
         "username": "thatguythatguy",
-        "pnl": 27661.19,
+        "pnl": 28027.87,
         "win_rate": 0.9459,
-        "volume": 90997.46,
+        "volume": 112825.37,
         "categories": [
           "sports"
         ]
@@ -1146,7 +1167,7 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 40120.51,
+        "pnl": 38320.51,
         "win_rate": 0.8131,
         "volume": 104477.8,
         "categories": [
@@ -1174,35 +1195,14 @@
         ]
       },
       {
-        "wallet": "0xc6e9560680",
-        "username": "luck00004",
-        "pnl": 25605.43,
-        "win_rate": 0.9394,
-        "volume": 101178.93,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x682005011d",
-        "username": "winwin518168",
-        "pnl": 80789.71,
-        "win_rate": 0.9524,
-        "volume": 2925.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 11808.83,
-        "win_rate": 0.8446,
-        "volume": 20468.9,
+        "wallet": "0x0cdff1e562",
+        "username": "0x0CdFf1E562Faf5EcE704Ef15f6A9fc4232E7eC9E-1780718136344",
+        "pnl": 20267.1,
+        "win_rate": 0.8276,
+        "volume": 66142.96,
         "categories": [
           "sports",
-          "crypto",
-          "economy"
+          "crypto"
         ]
       }
     ],
@@ -1210,9 +1210,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 153285.73,
-        "win_rate": 0.648,
-        "volume": 2633383.45,
+        "pnl": 131561.57,
+        "win_rate": 0.644,
+        "volume": 3416886.97,
         "categories": [
           "sports"
         ]
@@ -1220,31 +1220,52 @@
       {
         "wallet": "0x6d20c35f65",
         "username": "Djdjdjekekek",
-        "pnl": 49888.04,
-        "win_rate": 0.4811,
-        "volume": 403901.64,
+        "pnl": 52029.34,
+        "win_rate": 0.4824,
+        "volume": 471230.91,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 14634.57,
+        "win_rate": 0.674,
+        "volume": 598143.29,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 283981.96,
+        "pnl": 281231.17,
         "win_rate": 0.7555,
-        "volume": 573947.59,
+        "volume": 646996.37,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x14c7111afa",
+        "username": "kilian7kilian",
+        "pnl": 34335.03,
+        "win_rate": 1.0,
+        "volume": 297787.89,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 37202.18,
+        "pnl": 26310.34,
         "win_rate": 0.8876,
-        "volume": 435542.52,
+        "volume": 512615.67,
         "categories": [
           "crypto"
         ]
@@ -1252,21 +1273,23 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 73458.24,
+        "pnl": 73677.66,
         "win_rate": 0.4913,
-        "volume": 245732.8,
+        "volume": 296113.62,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 12132.08,
-        "win_rate": 0.537,
-        "volume": 807123.72,
+        "wallet": "0xdf17f4a8dd",
+        "username": "iguana7",
+        "pnl": 18109.85,
+        "win_rate": 0.617,
+        "volume": 400554.98,
         "categories": [
-          "sports"
+          "politics",
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1281,32 +1304,11 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 12235.84,
-        "win_rate": 0.674,
-        "volume": 261135.17,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x0cb0384875",
-        "username": "",
-        "pnl": 10754.01,
-        "win_rate": 0.515,
-        "volume": 860127.69,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 32610.01,
-        "win_rate": 0.59,
-        "volume": 347809.88,
+        "pnl": 27757.46,
+        "win_rate": 0.591,
+        "volume": 419992.27,
         "categories": [
           "sports"
         ]
@@ -1319,15 +1321,6 @@
       "url": "https://www.foreignpolicyjournal.com/2026/08/25/fitz-gerald-groups-keith-fitz-gerald-breaks-down-long-term-prospects-for-nvda-pltr-and-tsla/",
       "ticker": "PLTR",
       "themes": [],
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13557136/insider-selling-palantir-technologies-nasdaqpltr-insider-sells-86057506-92-in-stock.html",
-      "ticker": "PLTR",
-      "themes": [
-        "stock"
-      ],
       "date": "2026-08-25"
     },
     {
@@ -1372,6 +1365,15 @@
       "date": "2026-08-22"
     },
     {
+      "title": "Leggett & Platt shareholders approve merger with Somnigroup",
+      "url": "https://www.joplinglobe.com/news/leggett-platt-shareholders-approve-merger-with-somnigroup/article_a871aa57-aa01-43a1-837a-b4ebc5053bc1.html",
+      "ticker": "LEG",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-08-21"
+    },
+    {
       "title": "Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened",
       "url": "https://www.tickerreport.com/banking-finance/13553253/farmers-merchants-bank-of-long-beach-otcmktsfmbl-reaches-new-1-year-high-heres-what-happened.html",
       "ticker": "FMCB",
@@ -1394,13 +1396,6 @@
       "title": "Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In",
       "url": "https://www.insidermonkey.com/blog/tom-lee-recommends-arista-networks-anet-and-jpmorgan-jpm-analysts-weigh-in-1821375/",
       "ticker": "ANET",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
-      "title": "GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH",
-      "url": "https://www.themarketsdaily.com/2026/08/20/gsa-capital-partners-llp-takes-770000-position-in-park-ohio-holdings-corp-pkoh.html",
-      "ticker": "PKOH",
       "themes": [],
       "date": "2026-08-20"
     },
@@ -1430,7 +1425,7 @@
       "date": "2026-08-12"
     }
   ],
-  "signals_count": 1401,
+  "signals_count": 1385,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
