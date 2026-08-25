@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:51:29+00:00",
+  "generated_at": "2026-08-25T02:08:51+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,11 +8,13 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CHTR": 0.12,
-    "AMR": 0.1138,
-    "CLBT": 0.0997,
-    "GLD": 0.0939,
-    "IEF": 0.0627
+    "GLD": 0.0933,
+    "CHTR": 0.08,
+    "AMR": 0.0736,
+    "GSHD": 0.0658,
+    "CLBT": 0.0646,
+    "IEF": 0.0622,
+    "PRE": 0.0506
   },
   "core": {
     "SPY": 0.1934,
@@ -22,9 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.1091,
-    "AMR": 0.1004,
-    "CLBT": 0.088
+    "CHTR": 0.0711,
+    "PRE": 0.045,
+    "AMR": 0.0654,
+    "CLBT": 0.0574,
+    "GSHD": 0.0585
   },
   "satellite_rationale": [
     {
@@ -32,6 +36,14 @@
       "score": 210.0,
       "sources": [
         "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "PRE",
+      "score": 184.6,
+      "sources": [
+        "corporate_insider"
       ],
       "n_signals": 3
     },
@@ -50,18 +62,26 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "GSHD",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1379,
-    "var_95_1d": 0.0131,
-    "cvar_95_1d": 0.0185,
-    "max_drawdown": -0.11,
-    "beta_spy": 0.539,
-    "hhi": 0.0932,
+    "ann_vol": 0.1279,
+    "var_95_1d": 0.0146,
+    "cvar_95_1d": 0.0169,
+    "max_drawdown": -0.0758,
+    "beta_spy": 0.544,
+    "hhi": 0.0787,
     "max_position": 0.12,
-    "n_positions": 8,
-    "effective_positions": 10.7,
+    "n_positions": 10,
+    "effective_positions": 12.7,
     "gross_exposure": 0.8501,
     "days_used": 202
   },
