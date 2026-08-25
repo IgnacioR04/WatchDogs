@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T04:15:40+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T05:09:37+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T04:15:40+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T05:09:37+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
 - ^VIX: 15.85 (4.76% / 4.34% / -15.1%) [2026-08-24]
-- BTC-USD: 80467.67 (3.49% / 16.17% / 25.62%) [2026-08-25]
+- BTC-USD: 80532.82 (3.57% / 16.27% / 25.72%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,20 +346,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (7), stock (3), earnings (1)
+**Temas dominantes**: earnings (3), stock (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
-- [RBLX] Teenage Roblox entrepreneur raises $1m to fight online predators (2026-08-25)
-- [RBLX] Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death (2026-08-25)
-- [RBLX] The  Black Mirror  of Roblox Games Disappears After Hitting No . 1 (2026-08-24)
-- [RBLX] Roblox makes enforceable promise to address remaining online safety concerns (2026-08-24)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
-- [WDC] Memory Stocks Slide on Report Apple May Source Chinese Chips : SanDisk Down 9 %, Micron and Western Digital Down 7 % (2026-08-24)
 - [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
 - [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
 - [AXON] Sycale Advisors NY LLC Takes Position in Axon Enterprise , Inc $AXON (2026-08-21)
+- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
+- [BL] Weekly Research Analyst Ratings Changes for BlackLine ( BL ) (2026-08-14)
+- [BL] BlackLine ( BL ) Q2 2026 Earnings Call Transcript (2026-08-12)
+- [BL] FinancialContent - 5 Must - Read Analyst Questions From BlackLine Q2 Earnings Call (2026-08-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- AV23IUa · PnL $331,701 · win rate 76% · categorias: sports, crypto
-- QuentinChen · PnL $9,191 · win rate 96% · categorias: sports
-- laozishudaosan · PnL $21,703 · win rate 87% · categorias: sports
-- KongX · PnL $6,654 · win rate 94% · categorias: sports, crypto, economy
-- facai86868 · PnL $7,914 · win rate 92% · categorias: sports
+- AV23IUa · PnL $319,501 · win rate 76% · categorias: sports, crypto
+- 0xf3a1493c · PnL $8,784 · win rate 98% · categorias: sports
+- SDTrading · PnL $7,547 · win rate 94% · categorias: sports
+- casualbet2020 · PnL $12,453 · win rate 89% · categorias: sports
+- facai86868 · PnL $6,899 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
