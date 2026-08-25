@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T18:02:29+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T19:17:21+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.56)
-- Tendencia: `bull` (SPY 764.95 · MA50 752.61 · MA200 705.92 · dist MA200: 8.36%)
+- Volatilidad: `normal` (VIX 15.44)
+- Tendencia: `bull` (SPY 765.11 · MA50 752.62 · MA200 705.92 · dist MA200: 8.39%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.63%
@@ -22,17 +22,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 764.95 | 0.19% | -0.33% | 3.25% |
-| QQQ | 12.0% | core | 709.33 | 0.43% | -1.14% | 5.01% |
-| TLT | 12.0% | core | 83.29 | 0.88% | 2.0% | -0.73% |
-| DGICA | 11.8% | satellite | 18.96 | -0.11% | 1.88% | -0.28% |
-| GLD | 9.3% | core | 426.13 | -0.13% | 6.92% | 15.37% |
-| IEF | 6.2% | core | 93.41 | 0.43% | 0.52% | 0.18% |
-| CHTR | 5.2% | satellite | 154.93 | 3.08% | 4.43% | 10.68% |
-| AMR | 4.8% | satellite | 206.63 | -1.57% | 21.95% | 42.44% |
-| GSHD | 4.3% | satellite | 72.18 | -1.12% | 11.42% | 4.88% |
+| SPY | 12.0% | core | 765.11 | 0.21% | -0.3% | 3.27% |
+| QQQ | 12.0% | core | 709.67 | 0.47% | -1.09% | 5.06% |
+| TLT | 12.0% | core | 83.38 | 0.99% | 2.11% | -0.62% |
+| DGICA | 11.8% | satellite | 19.06 | 0.42% | 2.42% | 0.25% |
+| GLD | 9.3% | core | 427.8 | 0.26% | 7.34% | 15.82% |
+| IEF | 6.2% | core | 93.45 | 0.47% | 0.56% | 0.23% |
+| CHTR | 5.2% | satellite | 155.5 | 3.46% | 4.82% | 11.1% |
+| AMR | 4.8% | satellite | 209.23 | -0.33% | 23.48% | 44.23% |
+| GSHD | 4.3% | satellite | 72.19 | -1.11% | 11.44% | 4.9% |
 | CLBT | 4.2% | satellite | 11.28 | -1.83% | 2.55% | -24.04% |
-| PRE | 3.3% | satellite | 22.78 | 4.4% | 17.42% | 24.75% |
+| PRE | 3.3% | satellite | 22.97 | 5.27% | 18.4% | 25.79% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -56,10 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| ODYS | 86 | corporate_insider | Arkin Moshe | 3 | $3,600,000 | cluster_buy |
-| ODYS | 77 | corporate_insider | Goldwasser Benad | 3 | $150,000 | cluster_buy |
 | TISI | 77 | corporate_insider | Roeder Clinton William | 2 | $183,200 | cluster_buy |
-| ODYS | 76 | corporate_insider | Vurembrand Zeev | 3 | $100,000 | cluster_buy |
 | TISI | 72 | corporate_insider | Roeder Clinton William | 2 | $22,840 | cluster_buy,small_amount |
 | GEVO | 72 | corporate_insider | Barber James J | 2 | $77,000 | cluster_buy |
 | GO | 72 | large_holder | Pertento Partners LLP |  | - | - |
@@ -71,12 +68,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CINT | 70 | large_holder | Swedbank Robur Fonder AB |  | - | - |
 | USIO | 70 | large_holder | TALL PINES CAPITAL, LLC |  | - | - |
 | NIXX | 70 | large_holder | NexGenAI Holding Group, I |  | - | - |
+| XXII | 70 | large_holder | Iroquois Capital Manageme |  | - | - |
+| SBDS | 70 | large_holder | Vanguard Charitable Endow |  | - | - |
+| SBDS | 70 | large_holder | Vanguard Charitable Endow |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| IHT | 63 | corporate_insider | WIRTH JAMES F | $1,820,621,160 | - |
 | ALH | 61 | corporate_insider | BDT CAPITAL PARTNERS, LLC | $589,606,506 | - |
 | PLTR | 58 | corporate_insider | Karp Alexander C. | $53,597,839 | - |
 | DASH | 56 | corporate_insider | Adarkar Prabir | $3,778,407 | - |
@@ -84,6 +83,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | PACS | 56 | corporate_insider | Murray Jason Hulse | $3,389,088 | - |
 | DASH | 55 | corporate_insider | Inukonda Ravi | $4,303,271 | - |
 | CRCL | 55 | corporate_insider | Fox-Geen Jeremy | $4,050,000 | - |
+| DASH | 55 | corporate_insider | Tang Stanley | $16,294,516 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -92,15 +92,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 764.95 (0.19% / -0.33% / 3.25%) [2026-08-25]
-- QQQ: 709.33 (0.43% / -1.14% / 5.01%) [2026-08-25]
-- IWM: 298.8 (0.28% / -0.48% / 1.85%) [2026-08-25]
-- DIA: 534.62 (0.18% / 0.4% / 1.55%) [2026-08-25]
-- TLT: 83.29 (0.88% / 2.0% / -0.73%) [2026-08-25]
-- IEF: 93.41 (0.43% / 0.52% / 0.18%) [2026-08-25]
-- GLD: 426.13 (-0.13% / 6.92% / 15.37%) [2026-08-25]
-- ^VIX: 15.56 (-1.83% / -1.77% / -14.55%) [2026-08-25]
-- BTC-USD: 79251.71 (0.36% / 8.52% / 22.69%) [2026-08-25]
+- SPY: 765.11 (0.21% / -0.3% / 3.27%) [2026-08-25]
+- QQQ: 709.67 (0.47% / -1.09% / 5.06%) [2026-08-25]
+- IWM: 298.64 (0.23% / -0.53% / 1.8%) [2026-08-25]
+- DIA: 534.92 (0.24% / 0.46% / 1.61%) [2026-08-25]
+- TLT: 83.38 (0.99% / 2.11% / -0.62%) [2026-08-25]
+- IEF: 93.45 (0.47% / 0.56% / 0.23%) [2026-08-25]
+- GLD: 427.8 (0.26% / 7.34% / 15.82%) [2026-08-25]
+- ^VIX: 15.44 (-2.59% / -2.53% / -15.21%) [2026-08-25]
+- BTC-USD: 79161.9 (0.25% / 8.39% / 22.55%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,20 +119,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PLTR] Fitz - Gerald Group Keith Fitz - Gerald Breaks Down Long - Term Prospects For NVDA , PLTR and TSLA (2026-08-25)
 - [ANET] Cisco Systems ( CSCO ) & Arista Networks ( ANET ): Cisco Just Beat Every Estimate . Why Did the Stock Still Drop 8 %? (2026-08-24)
 - [ANET] Greenland Capital Management LP Purchases Shares of 4 , 085 Arista Networks , Inc . $ANET (2026-08-23)
-- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
 - [ANET] Korea Investment CORP Reduces Position in Arista Networks , Inc . $ANET (2026-08-22)
 - [ANET] Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ? (2026-08-22)
 - [LEG] Leggett & Platt shareholders approve merger with Somnigroup (2026-08-21)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
 - [AXON] Axon Enterprise vs . Celsius : Comparing Steady Incremental Gains and Historical Volatility in Quarterly Revenue Trends (2026-08-21)
 - [ANET] Tom Lee Recommends Arista Networks ( ANET ) and JPMorgan ( JPM ), Analysts Weigh In (2026-08-20)
+- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
+- [BLND] Cango ( NYSE : CANG ) & Blend Labs ( NYSE : BLND ) Critical Analysis (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO WIRTH JAMES F vendio IHT por $1.8B el 2026-08-21.
 - 10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.
 - 10% owner BDT CAPITAL PARTNERS, LLC vendio ALH por $589.6M el 2026-08-20.
 - Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.
@@ -140,14 +139,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
+- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 123412341234 · PnL $13,760 · win rate 99% · categorias: sports
-- cruzzzz · PnL $16,238 · win rate 95% · categorias: sports, politics
-- AV23IUa · PnL $281,231 · win rate 76% · categorias: sports, crypto
-- JnStrtPrdctnMrkts · PnL $26,310 · win rate 89% · categorias: crypto
-- 0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400 · PnL $13,293 · win rate 90% · categorias: sports, crypto
+- cruzzzz · PnL $24,904 · win rate 95% · categorias: sports, politics
+- 123412341234 · PnL $13,705 · win rate 99% · categorias: sports
+- AV23IUa · PnL $277,362 · win rate 76% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $22,441 · win rate 89% · categorias: crypto
+- thatguythatguy · PnL $29,506 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 635 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 656 registros 30d · ultimo dato 2026-08-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
