@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-25T09:18:48+00:00 -->
+<!-- trader_prompt.md generado 2026-08-25T10:09:28+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-25T09:18:48+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
+_Generado 2026-08-25T10:09:28+00:00 · ventana señales 2026-07-26 -> 2026-08-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,7 +242,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.79)
+- Volatilidad: `normal` (VIX 15.84)
 - Tendencia: `bull` (SPY 763.47 · MA50 752.11 · MA200 705.45 · dist MA200: 8.22%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -330,8 +330,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.56 (0.62% / 1.49% / -1.02%) [2026-08-24]
 - IEF: 93.01 (0.2% / 0.18% / 0.05%) [2026-08-24]
 - GLD: 426.69 (0.79% / 5.23% / 13.9%) [2026-08-24]
-- ^VIX: 15.79 (-0.38% / -0.32% / -13.29%) [2026-08-25]
-- BTC-USD: 79858.51 (1.13% / 9.35% / 23.62%) [2026-08-25]
+- ^VIX: 15.84 (-0.06% / 0.0% / -13.01%) [2026-08-25]
+- BTC-USD: 79192.85 (0.29% / 8.43% / 22.59%) [2026-08-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,11 +346,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: ai (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PLTR] Insider Selling : Palantir Technologies ( NASDAQ : PLTR ) Insider Sells $86 , 057 , 506 . 92 in Stock (2026-08-25)
+- [RBLX] Teenage Roblox entrepreneur raises $1m to fight online predators (2026-08-25)
+- [RBLX] Mother says teen unknowingly waived right to sue Roblox , Discord , TikTok before death (2026-08-25)
+- [RBLX] The  Black Mirror  of Roblox Games Disappears After Hitting No . 1 (2026-08-24)
+- [COIN] Coinbase CEO : Bitcoin  Very Likely  to Reach $400 , 000 by 2030 – NaturalNews . com (2026-08-23)
+- [PKOH] Head to Head Contrast : Park - Ohio ( NASDAQ : PKOH ) & Gold . com ( NYSE : GOLD ) (2026-08-22)
+- [PKOH] GSA Capital Partners LLP Takes $770 , 000 Position in Park - Ohio Holdings Corp . $PKOH (2026-08-20)
+- [REAL] Are These Saint Laurent Shoes from The RealReal Fake ? (2026-08-17)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -366,10 +372,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - AV23IUa · PnL $291,701 · win rate 76% · categorias: sports, crypto
-- QuentinChen · PnL $7,849 · win rate 96% · categorias: sports
-- SDTrading · PnL $7,772 · win rate 94% · categorias: sports
-- thatguythatguy · PnL $29,824 · win rate 95% · categorias: sports
+- thatguythatguy · PnL $29,834 · win rate 95% · categorias: sports
 - facai86868 · PnL $9,070 · win rate 92% · categorias: sports
+- casualbet2020 · PnL $12,467 · win rate 89% · categorias: sports
+- tennischamp · PnL $10,592 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
