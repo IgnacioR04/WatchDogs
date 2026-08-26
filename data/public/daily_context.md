@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T11:11:02+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T12:04:01+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.68)
+- Volatilidad: `normal` (VIX 15.69)
 - Tendencia: `bull` (SPY 765.91 · MA50 752.63 · MA200 705.92 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -26,19 +26,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 710.72 | 0.62% | -0.95% | 5.22% |
 | TLT | 12.0% | core | 83.47 | 1.1% | 2.22% | -0.51% |
 | CHTR | 12.0% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
-| GLD | 9.5% | core | 428.07 | 0.32% | 7.41% | 15.89% |
-| TTMI | 7.5% | satellite | 112.3 | 4.84% | -10.67% | 3.32% |
-| IEF | 6.3% | core | 93.51 | 0.54% | 0.62% | 0.29% |
-| CBRS | 5.0% | satellite | 183.92 | -0.81% | -16.4% | -4.57% |
-| SUJA | 5.0% | satellite | 9.33 | 3.09% | 39.05% | -11.06% |
-| XPON | 3.7% | satellite | 5.27 | -15.0% | 26.99% | 46.8% |
+| GLD | 10.5% | core | 428.07 | 0.32% | 7.41% | 15.89% |
+| CBRS | 7.1% | satellite | 183.92 | -0.81% | -16.4% | -4.57% |
+| SUJA | 7.1% | satellite | 9.33 | 3.09% | 39.05% | -11.06% |
+| IEF | 7.0% | core | 93.51 | 0.54% | 0.62% | 0.29% |
+| XPON | 5.2% | satellite | 5.27 | -15.0% | 26.99% | 46.8% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 19.2%
-- VaR 95% 1d: 1.7% · CVaR 95% 1d: 2.1%
+- Volatilidad anualizada: 21.1%
+- VaR 95% 1d: 1.9% · CVaR 95% 1d: 2.5%
 - Max drawdown historico: -11.2%
-- Beta vs SPY: 0.965 · posiciones efectivas: 12.1 · HHI: 0.0826
+- Beta vs SPY: 0.818 · posiciones efectivas: 11.6 · HHI: 0.0865
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -46,7 +45,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **XPON** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
-- **TTMI** · score agregado 65.7 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -64,11 +62,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CDTG | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | NNDM | 72 | large_holder | TANG CAPITAL MANAGEMENT,  |  | - | - |
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
-| CLBT | 72 | large_holder | Voss Value Master Fund, L |  | - | - |
 | LFT | 71 | corporate_insider | BRIGGS JAMES A | 2 | $13,798 | cluster_buy,small_amount |
 | HKHC | 71 | corporate_insider | Rosenthal Brent D | 2 | $54,000 | cluster_buy |
 | TISI | 71 | corporate_insider | Horton Anthony R | 2 | $45,800 | cluster_buy |
 | TISI | 71 | corporate_insider | Horton Anthony R | 2 | $46,300 | cluster_buy |
+| LFT | 71 | corporate_insider | Flynn James Peter | 2 | $6,825 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -97,8 +95,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.47 (1.1% / 2.22% / -0.51%) [2026-08-25]
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
-- ^VIX: 15.68 (1.49% / 5.31% / -24.1%) [2026-08-26]
-- BTC-USD: 78683.12 (0.15% / 0.44% / 22.44%) [2026-08-26]
+- ^VIX: 15.69 (1.55% / 5.37% / -24.06%) [2026-08-26]
+- BTC-USD: 78525.04 (-0.05% / 0.24% / 22.19%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,20 +111,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), regulatory (3), leadership (1), earnings (1), legal (1)
+**Temas dominantes**: stock (3), ai (3), regulatory (2), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [RVMD] Quantbot Technologies LP Takes Position in Revolution Medicines , Inc . $RVMD (2026-08-26)
-- [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
-- [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
 - [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
 - [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
-- [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
+- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +137,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $121,644 · win rate 93% · categorias: sports
 - BreakTheBank · PnL $102,749 · win rate 85% · categorias: sports
-- comon119 · PnL $14,807 · win rate 97% · categorias: sports, crypto
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,452 · win rate 95% · categorias: sports, crypto
-- AlamdeeTrader · PnL $9,905 · win rate 95% · categorias: crypto, politics, sports
+- comon119 · PnL $13,582 · win rate 97% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $25,490 · win rate 92% · categorias: sports, politics
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,302 · win rate 95% · categorias: sports, crypto
+- Skyfker · PnL $16,641 · win rate 91% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,8 +149,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 795 registros 30d · ultimo dato 2026-08-25
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-25
+- **sec_insiders**: `ok` · 800 registros 30d · ultimo dato 2026-08-25
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -167,7 +163,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CBRS, CHTR, GLD, IEF, QQQ, SPY, SUJA, TLT, TTMI, XPON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`CBRS, CHTR, GLD, IEF, QQQ, SPY, SUJA, TLT, XPON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
