@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-26T08:20:06+00:00 -->
+<!-- trader_prompt.md generado 2026-08-26T09:21:31+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T08:20:06+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T09:21:31+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,7 +242,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.68)
+- Volatilidad: `normal` (VIX 15.7)
 - Tendencia: `bull` (SPY 765.91 · MA50 752.63 · MA200 705.92 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -328,8 +328,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.47 (1.1% / 2.22% / -0.51%) [2026-08-25]
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
-- ^VIX: 15.68 (1.49% / 5.31% / -24.1%) [2026-08-26]
-- BTC-USD: 78995.59 (0.55% / 0.84% / 22.93%) [2026-08-26]
+- ^VIX: 15.7 (1.62% / 5.44% / -24.01%) [2026-08-26]
+- BTC-USD: 78475.74 (-0.11% / 0.18% / 22.12%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,19 +344,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (3), regulatory (3), leadership (1), legal (1)
+**Temas dominantes**: stock (3), regulatory (2), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
-- [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
-- [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
-- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
-- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
+- [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
+- [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
+- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
-- [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
 - [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
-- [ARDX] ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,11 +367,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $102,664 · win rate 84% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $13,081 · win rate 95% · categorias: sports, crypto
+- comon119 · PnL $15,227 · win rate 97% · categorias: sports, crypto
+- BreakTheBank · PnL $102,632 · win rate 84% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,332 · win rate 95% · categorias: sports, crypto
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $23,868 · win rate 88% · categorias: sports
-- Donghui · PnL $11,470 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $11,025 · win rate 91% · categorias: sports
+- Donghui · PnL $8,679 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
