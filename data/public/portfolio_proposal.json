@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-26T13:38:25+00:00",
+  "generated_at": "2026-08-26T14:23:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
-    "SPY": 0.1199,
-    "QQQ": 0.1199,
-    "TLT": 0.1199,
-    "VTMX": 0.1199,
-    "GLD": 0.1097,
-    "CHTR": 0.0827,
-    "IEF": 0.0733,
-    "TTMI": 0.0485,
-    "CBRS": 0.0325,
-    "XPON": 0.0236
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "CHTR": 0.1173,
+    "GLD": 0.0933,
+    "PRE": 0.069,
+    "TTMI": 0.0688,
+    "IEF": 0.0622,
+    "CBRS": 0.046,
+    "XPON": 0.0334
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0624,
-    "VTMX": 0.1564,
-    "XPON": 0.0178,
-    "CBRS": 0.0245,
-    "TTMI": 0.0366
+    "CHTR": 0.1043,
+    "PRE": 0.0613,
+    "XPON": 0.0297,
+    "CBRS": 0.0409,
+    "TTMI": 0.0612
   },
   "satellite_rationale": [
     {
@@ -40,12 +40,12 @@
       "n_signals": 3
     },
     {
-      "ticker": "VTMX",
-      "score": 71.8,
+      "ticker": "PRE",
+      "score": 122.2,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
       "ticker": "XPON",
@@ -73,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.14,
-    "var_95_1d": 0.0125,
-    "cvar_95_1d": 0.0168,
-    "max_drawdown": -0.0743,
-    "beta_spy": 0.813,
-    "hhi": 0.0857,
-    "max_position": 0.1199,
+    "ann_vol": 0.1975,
+    "var_95_1d": 0.0175,
+    "cvar_95_1d": 0.0233,
+    "max_drawdown": -0.0956,
+    "beta_spy": 1.076,
+    "hhi": 0.0823,
+    "max_position": 0.12,
     "n_positions": 10,
-    "effective_positions": 11.7,
-    "gross_exposure": 0.8499,
+    "effective_positions": 12.2,
+    "gross_exposure": 0.85,
     "days_used": 70
   },
   "risk_gate": {
