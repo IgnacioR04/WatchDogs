@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-26T17:16:35.071366+00:00",
+  "generated_at": "2026-08-26T19:39:30.547268+00:00",
   "window": {
     "from": "2026-07-27",
     "to": "2026-08-26",
@@ -24,10 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
-      "leadership",
-      "ai",
-      "legal"
+      "earnings",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,46 +33,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO opero CPAY ($67.8M)",
-      "summary": "CEO Clarke Ronald opero CPAY por $67.8M el 2026-08-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "other",
-      "amount_estimated": 67833000.0,
-      "event_date": "2026-08-21",
-      "importance_score": 86.0,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
-      "title": "CEO vendio CPAY ($21.6M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $21.6M el 2026-08-24.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 21552682.77,
-      "event_date": "2026-08-24",
-      "importance_score": 85.0,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "10% owner compro EBR Systems, Inc. ($20.8M)",
       "summary": "10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.",
       "source": "sec_form_4",
@@ -91,48 +49,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2041658/000123191926001062/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
-      "title": "CEO vendio CPAY ($20.8M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $20.8M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 20837192.84,
-      "event_date": "2026-08-25",
-      "importance_score": 84.9,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "CEO opero CPAY ($121.0M)",
-      "summary": "CEO Clarke Ronald opero CPAY por $121.0M el 2026-08-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "other",
-      "amount_estimated": 120985636.59,
-      "event_date": "2026-08-21",
-      "importance_score": 84.8,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio CBRS ($13.2M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -145,32 +63,15 @@
       "event_date": "2026-08-21",
       "importance_score": 83.7,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_675049683546",
+        "news_408640403902"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO vendio CPAY ($10.2M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $10.2M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 10199189.82,
-      "event_date": "2026-08-25",
-      "importance_score": 83.4,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio CBRS ($8.5M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $8.5M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -183,30 +84,15 @@
       "event_date": "2026-08-21",
       "importance_score": 82.8,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_675049683546",
+        "news_408640403902"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO compro TTMI ($1.1M)",
-      "summary": "CEO Roks Edwin compro TTMI por $1.1M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Roks Edwin",
-      "actor_type": "ceo",
-      "ticker": "TTMI",
-      "direction": "buy",
-      "amount_estimated": 1117700.0,
-      "event_date": "2026-08-25",
-      "importance_score": 82.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1705520/000119312526365628/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio LASR ($6.8M)",
       "summary": "CEO Keeney Scott H vendio LASR por $6.8M el 2026-08-24.",
       "source": "sec_form_4",
@@ -223,48 +109,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1738235/000162828026058970/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "CEO vendio CPAY ($6.9M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $6.9M el 2026-08-24.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 6877611.53,
-      "event_date": "2026-08-24",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "CEO vendio CPAY ($6.4M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $6.4M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 6409015.94,
-      "event_date": "2026-08-25",
-      "importance_score": 82.4,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio CBRS ($6.7M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $6.7M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -277,12 +123,15 @@
       "event_date": "2026-08-21",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_675049683546",
+        "news_408640403902"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio CBRS ($6.5M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $6.5M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -295,32 +144,15 @@
       "event_date": "2026-08-21",
       "importance_score": 82.2,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_675049683546",
+        "news_408640403902"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
-      "title": "CEO vendio CPAY ($5.0M)",
-      "summary": "CEO Clarke Ronald vendio CPAY por $5.0M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Clarke Ronald",
-      "actor_type": "ceo",
-      "ticker": "CPAY",
-      "direction": "sell",
-      "amount_estimated": 4971485.57,
-      "event_date": "2026-08-25",
-      "importance_score": 81.8,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_477825984425"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -337,8 +169,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -355,8 +187,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -373,8 +205,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -391,8 +223,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -402,6 +234,168 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager vendio APPLE INC ($26.6B)",
+      "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 26582780886,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "Institutional manager compro APPLE INC ($25.1B)",
+      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
+      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 17242553494,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro INTEL CORP ($16.2B)",
+      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16233929222,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -552,36 +546,20 @@
         ]
       },
       {
-        "ticker": "AMZN",
-        "company": "AMAZON COM INC",
-        "pressure_score": 1518.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ARDX",
-        "company": "ARDELYX, INC.",
-        "pressure_score": 1345.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CPAY",
-        "company": "CORPAY, INC.",
-        "pressure_score": 1203.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CBRS",
         "company": "Cerebras Systems, Inc.",
         "pressure_score": 1021.1,
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "AMZN",
+        "company": "AMAZON COM INC",
+        "pressure_score": 985.8,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -601,9 +579,9 @@
         ]
       },
       {
-        "ticker": "CBLL",
-        "company": "Ceribell, Inc.",
-        "pressure_score": 402.5,
+        "ticker": "ARDX",
+        "company": "ARDELYX, INC.",
+        "pressure_score": 407.3,
         "sources": [
           "corporate_insider"
         ]
@@ -617,28 +595,19 @@
         ]
       },
       {
+        "ticker": "FDSB",
+        "company": "Fifth District Bancorp, Inc.",
+        "pressure_score": 360.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DE",
         "company": "DEERE & CO",
         "pressure_score": 354.8,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PFGC",
-        "company": "Performance Food Group Co",
-        "pressure_score": 345.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PMA",
-        "company": "Ming Shing Group Holdings Ltd",
-        "pressure_score": 337.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -656,28 +625,34 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "VMC",
+        "company": "Vulcan Materials CO",
+        "pressure_score": 284.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AIO",
+        "company": "Virtus Artificial Intelligence & Technology Opportunities Fund",
+        "pressure_score": 250.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FSLY",
+        "company": "Fastly, Inc.",
+        "pressure_score": 217.3,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "TTMI",
-      "company": "TTM TECHNOLOGIES INC",
-      "actor": "Roks Edwin",
-      "actor_type": "ceo",
-      "amount": 1117700.0,
-      "date": "2026-08-25",
-      "score": 82.6
-    },
-    {
-      "ticker": "PAM",
-      "company": "Pampa Energy Inc.",
-      "actor": "Mindlin Marcos Marcelo",
-      "actor_type": "ten_percent_owner",
-      "amount": 2278800.0,
-      "date": "2026-08-21",
-      "score": 80.1
-    },
     {
       "ticker": "CVM",
       "company": "CEL SCI CORP",
@@ -704,15 +679,6 @@
       "amount": 874620.0,
       "date": "2026-08-25",
       "score": 77.1
-    },
-    {
-      "ticker": "GRML",
-      "company": "Greenland Mines Ltd",
-      "actor": "LeBlanc Jeff",
-      "actor_type": "cfo",
-      "amount": 136080.0,
-      "date": "2026-08-25",
-      "score": 76.8
     },
     {
       "ticker": "PRE",
@@ -787,6 +753,15 @@
       "score": 74.0
     },
     {
+      "ticker": "FGL",
+      "company": "Founder Group Ltd",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 52212.38,
+      "date": "2026-08-25",
+      "score": 73.4
+    },
+    {
       "ticker": "AIAI",
       "company": "AIAI Holdings Corp",
       "actor": "Carlton Charles Craig",
@@ -794,6 +769,24 @@
       "amount": 50242.5,
       "date": "2026-08-24",
       "score": 73.4
+    },
+    {
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 40971.93,
+      "date": "2026-08-24",
+      "score": 72.9
+    },
+    {
+      "ticker": "JCTC",
+      "company": "JEWETT CAMERON TRADING CO LTD",
+      "actor": "AJB Investment Fund II, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 14500.0,
+      "date": "2026-08-25",
+      "score": 71.9
     }
   ],
   "institutional_changes": [
@@ -990,6 +983,15 @@
       "date": "2026-08-18"
     },
     {
+      "filer": "REPOSITORY SERVICES LLC",
+      "company": "PUBLIC COMPANY MANAGEMENT CORPORATION",
+      "ticker": "PCMC",
+      "ownership_pct": 70.3,
+      "shares": 23946307,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-08-26"
+    },
+    {
       "filer": "Paine Schwartz Food Chain Fund V GP, Ltd.",
       "company": "Suja Life, Inc.",
       "ticker": "SUJA",
@@ -1042,15 +1044,6 @@
       "shares": 2038790,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-25"
-    },
-    {
-      "filer": "TPG GP A, LLC",
-      "company": "TPG Inc.",
-      "ticker": "",
-      "ownership_pct": 55.8,
-      "shares": 210848910,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-18"
     },
     {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
@@ -1121,9 +1114,29 @@
       {
         "wallet": "0xcd30f4698c",
         "username": "SPCEXBUYER",
-        "pnl": 158712.38,
-        "win_rate": 0.9266,
-        "volume": 1005588.64,
+        "pnl": 175376.92,
+        "win_rate": 0.9239,
+        "volume": 1218628.18,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 68930.07,
+        "win_rate": 0.9716,
+        "volume": 402991.88,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x58776759ee",
+        "username": "Donghui",
+        "pnl": 44173.55,
+        "win_rate": 0.9227,
+        "volume": 659897.95,
         "categories": [
           "sports"
         ]
@@ -1131,9 +1144,9 @@
       {
         "wallet": "0xc3c3b3ef30",
         "username": "comon119",
-        "pnl": 17046.94,
+        "pnl": 21860.42,
         "win_rate": 0.97,
-        "volume": 219535.1,
+        "volume": 414428.88,
         "categories": [
           "sports",
           "crypto"
@@ -1142,9 +1155,29 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 99912.51,
+        "pnl": 78248.53,
         "win_rate": 0.8503,
-        "volume": 5546.34,
+        "volume": 1895292.71,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 23427.86,
+        "win_rate": 0.9097,
+        "volume": 212577.73,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 18421.37,
+        "win_rate": 0.9188,
+        "volume": 114756.82,
         "categories": [
           "sports"
         ]
@@ -1152,7 +1185,7 @@
       {
         "wallet": "0x57b4520916",
         "username": "Skyfker",
-        "pnl": 22061.37,
+        "pnl": 22059.87,
         "win_rate": 0.9045,
         "volume": 84726.71,
         "categories": [
@@ -1179,59 +1212,36 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 261302.53,
-        "win_rate": 0.696,
-        "volume": 467564.29,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x96f795d082",
-        "username": "ZaGambla",
-        "pnl": 27181.85,
-        "win_rate": 0.832,
-        "volume": 43321.98,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x8b4bca1d79",
-        "username": "0x8B4bcA1D794779E66e023D44391B2A86C5ab541B-1769764313952",
-        "pnl": 29456.1,
-        "win_rate": 0.8248,
-        "volume": 231509.89,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x21f333307a",
-        "username": "hi774c",
-        "pnl": 19142.1,
-        "win_rate": 0.845,
-        "volume": 45249.3,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x6d20c35f65",
+        "username": "Djdjdjekekek",
+        "pnl": 233331.46,
+        "win_rate": 0.4876,
+        "volume": 2871335.74,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 78248.53,
+        "win_rate": 0.8503,
+        "volume": 1895292.71,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xcd30f4698c",
         "username": "SPCEXBUYER",
-        "pnl": 158712.38,
-        "win_rate": 0.9266,
-        "volume": 1005588.64,
+        "pnl": 175376.92,
+        "win_rate": 0.9239,
+        "volume": 1218628.18,
         "categories": [
           "sports"
         ]
@@ -1239,19 +1249,19 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 65508.31,
-        "win_rate": 0.568,
-        "volume": 2451304.63,
+        "pnl": 128467.13,
+        "win_rate": 0.571,
+        "volume": 3454302.46,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 183777.77,
-        "win_rate": 0.488,
-        "volume": 561259.22,
+        "wallet": "0x58776759ee",
+        "username": "Donghui",
+        "pnl": 44173.55,
+        "win_rate": 0.9227,
+        "volume": 659897.95,
         "categories": [
           "sports"
         ]
@@ -1259,73 +1269,49 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 25275.77,
-        "win_rate": 0.559,
-        "volume": 1370705.57,
+        "pnl": 64641.92,
+        "win_rate": 0.557,
+        "volume": 1978254.5,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x58b3380f71",
-        "username": "timetowander",
-        "pnl": 16997.56,
-        "win_rate": 0.5733,
-        "volume": 511013.71,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 180698.69,
+        "win_rate": 0.488,
+        "volume": 637357.97,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
+          "sports"
         ]
       },
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 73064.66,
-        "win_rate": 0.571,
-        "volume": 927980.79,
+        "pnl": 58966.99,
+        "win_rate": 0.565,
+        "volume": 1477793.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 261302.53,
-        "win_rate": 0.696,
-        "volume": 467564.29,
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 68930.07,
+        "win_rate": 0.9716,
+        "volume": 402991.88,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x8b4bca1d79",
-        "username": "0x8B4bcA1D794779E66e023D44391B2A86C5ab541B-1769764313952",
-        "pnl": 29456.1,
-        "win_rate": 0.8248,
-        "volume": 231509.89,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xb6ce76828a",
-        "username": "black-rabbit",
-        "pnl": 24528.06,
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 72432.27,
         "win_rate": 0.519,
-        "volume": 471853.32,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0a39b3b29a",
-        "username": "plonker2026",
-        "pnl": 83968.26,
-        "win_rate": 0.6557,
-        "volume": 153192.24,
+        "volume": 1523784.24,
         "categories": [
           "sports"
         ]
@@ -1334,49 +1320,10 @@
   },
   "news": [
     {
-      "title": "Micron Technology Has Fantastic News for Memory Stock Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-fantastic-news-memory-153900045.html",
-      "ticker": "MU",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Micron Technology Has Fantastic News for Memory Stock Investors",
-      "url": "https://www.aol.com/articles/micron-technology-fantastic-news-memory-153900000.html",
-      "ticker": "MU",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13558554/ardelyx-nasdaqardx-insider-mike-kelliher-sells-7758-shares-of-stock.html",
-      "ticker": "ARDX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/26/eric-duane-foster-sells-8562-shares-of-ardelyx-nasdaqardx-stock.html",
-      "ticker": "ARDX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13558530/corpay-nysecpay-ceo-ronald-clarke-sells-119486-shares-of-stock.html",
-      "ticker": "CPAY",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
+      "title": "The Bayeux tapestry lesser - known tale of bromance : William and Harold were friends before they were enemies",
+      "url": "https://theconversation.com/the-bayeux-tapestrys-lesser-known-tale-of-bromance-william-and-harold-were-friends-before-they-were-enemies-289745",
+      "ticker": "TPR",
+      "themes": [],
       "date": "2026-08-26"
     },
     {
@@ -1389,43 +1336,61 @@
       "date": "2026-08-25"
     },
     {
-      "title": "Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened",
-      "url": "https://www.tickerreport.com/banking-finance/13553253/farmers-merchants-bank-of-long-beach-otcmktsfmbl-reaches-new-1-year-high-heres-what-happened.html",
-      "ticker": "FMCB",
+      "title": "As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-launches-record-setting-ai-193002886.html",
+      "ticker": "CBRS",
       "themes": [
-        "regulatory"
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? ",
+      "url": "https://www.insidermonkey.com/blog/cerebras-systems-cbrs-revenue-surges-why-did-cbrs-stock-crash-and-what-about-amd-1810953/",
+      "ticker": "CBRS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Liquidity Services to Present and Host 1x1 Investor Meetings at the 17th Annual Midwest IDEAS Investor Conference on August 26th in Chicago , IL",
+      "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/liquidity-services-to-present-and-host-1x1-investor-meetings-at-the-17th-annual-midwest-ideas-investor-conference-on-august-26th-in-chicago-il/2410168",
+      "ticker": "LQDT",
+      "themes": [],
+      "date": "2026-08-21"
+    },
+    {
+      "title": "Kimball Electronics ( KE ) Q4 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kimball-electronics-ke-q4-2026-235805309.html",
+      "ticker": "KE",
+      "themes": [
+        "earnings"
       ],
       "date": "2026-08-21"
     },
     {
-      "title": "Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00",
-      "url": "https://www.dailypolitical.com/2026/08/19/piper-sandler-cuts-ardelyx-nasdaqardx-price-target-to-15-00.html",
-      "ticker": "ARDX",
-      "themes": [],
-      "date": "2026-08-20"
+      "title": "Liquidity Services ( NASDAQ : LQDT ) Upgraded at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/19/liquidity-services-nasdaqlqdt-upgraded-at-wall-street-zen.html",
+      "ticker": "LQDT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-19"
     },
     {
-      "title": "Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July",
-      "url": "https://www.tickerreport.com/banking-finance/13546205/farmers-merchants-bancorp-otcmktsfmcb-short-interest-down-50-0-in-july.html",
-      "ticker": "FMCB",
+      "title": "Kimball Electronics ( NASDAQ : KE ) Stock Price Down 10 . 2 % – What Next ? ",
+      "url": "https://www.themarketsdaily.com/2026/08/18/kimball-electronics-nasdaqke-stock-price-down-10-2-whats-next.html",
+      "ticker": "KE",
       "themes": [
-        "regulatory"
+        "stock"
       ],
-      "date": "2026-08-16"
-    },
-    {
-      "title": "ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx",
-      "url": "https://www.prnewswire.com/news-releases/ardx-shareholder-investigation-suewallst-notifies-investors-of-potential-securities-claims-involving-ardelyx-302851485.html",
-      "ticker": "ARDX",
-      "themes": [
-        "ai",
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-08-14"
+      "date": "2026-08-18"
     }
   ],
-  "signals_count": 1531,
+  "signals_count": 1395,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

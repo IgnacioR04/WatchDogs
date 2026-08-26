@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-26T17:18:55+00:00 -->
+<!-- trader_prompt.md generado 2026-08-26T19:42:09+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T17:18:55+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T19:42:09+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,8 +242,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.6)
-- Tendencia: `bull` (SPY 765.35 · MA50 752.88 · MA200 706.42 · dist MA200: 8.34%)
+- Volatilidad: `normal` (VIX 15.31)
+- Tendencia: `bull` (SPY 766.68 · MA50 752.91 · MA200 706.43 · dist MA200: 8.53%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
@@ -255,31 +255,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 765.35 | -0.07% | -0.48% | 4.92% |
-| QQQ | 12.0% | core | 710.29 | -0.06% | -0.81% | 7.34% |
-| TLT | 12.0% | core | 83.21 | -0.31% | 0.23% | 0.84% |
-| BWFG | 12.0% | satellite | 66.49 | 1.12% | 1.29% | -2.02% |
-| GLD | 9.3% | core | 421.4 | -1.56% | 1.83% | 13.56% |
-| MED | 9.0% | satellite | 12.3 | 1.15% | 6.22% | 27.59% |
-| IEF | 6.2% | core | 93.26 | -0.26% | -0.12% | 0.45% |
-| CHTR | 6.1% | satellite | 153.79 | -0.87% | 0.86% | 5.91% |
-| XPON | 4.0% | satellite | 8.1 | 53.61% | 115.87% | 135.32% |
-| CBRS | 2.4% | satellite | 180.46 | -1.88% | -16.34% | 6.53% |
+| SPY | 12.0% | core | 766.68 | 0.1% | -0.31% | 5.1% |
+| QQQ | 12.0% | core | 712.04 | 0.19% | -0.56% | 7.6% |
+| TLT | 12.0% | core | 83.22 | -0.29% | 0.25% | 0.86% |
+| GLD | 9.3% | core | 421.63 | -1.5% | 1.88% | 13.62% |
+| BWFG | 9.3% | satellite | 65.9 | 0.23% | 0.4% | -2.88% |
+| MED | 7.0% | satellite | 12.3 | 1.15% | 6.22% | 27.59% |
+| IEF | 6.2% | core | 93.29 | -0.24% | -0.1% | 0.47% |
+| CHTR | 4.8% | satellite | 154.84 | -0.19% | 1.55% | 6.64% |
+| MAIR | 4.0% | satellite | 28.34 | 1.25% | 1.0% | -10.43% |
+| AMR | 3.9% | satellite | 216.72 | 0.51% | 11.47% | 55.73% |
+| PRE | 2.6% | satellite | 25.47 | 9.53% | 35.74% | 41.32% |
+| CBRS | 1.9% | satellite | 182.98 | -0.51% | -15.17% | 8.02% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.2%
-- VaR 95% 1d: 1.6% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -5.4%
-- Beta vs SPY: 0.631 · posiciones efectivas: 11.9 · HHI: 0.0841
+- Volatilidad anualizada: 12.8%
+- VaR 95% 1d: 1.4% · CVaR 95% 1d: 1.8%
+- Max drawdown historico: -5.5%
+- Beta vs SPY: 0.756 · posiciones efectivas: 13.2 · HHI: 0.0758
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **MED** · score agregado 126.8 · 2 señales · fuentes: corporate_insider, large_holder
+- **PRE** · score agregado 122.2 · 2 señales · fuentes: corporate_insider
+- **AMR** · score agregado 120.3 · 2 señales · fuentes: corporate_insider
 - **BWFG** · score agregado 110.3 · 2 señales · fuentes: corporate_insider
-- **XPON** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CBRS** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **MAIR** · score agregado 60.2 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -288,12 +292,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | TISI | 77 | corporate_insider | Roeder Clinton William | 2 | $183,200 | cluster_buy |
-| AMRZ | 74 | corporate_insider | Singleton Denise R | 2 | $154,402 | cluster_buy |
 | TISI | 72 | corporate_insider | Roeder Clinton William | 2 | $22,840 | cluster_buy,small_amount |
-| AMRZ | 72 | corporate_insider | Forrest Nollaig | 2 | $66,225 | cluster_buy |
 | LFT | 72 | corporate_insider | Flynn James Peter | 2 | $13,642 | cluster_buy,small_amount |
 | VTMX | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| XPON | 72 | large_holder | Five Narrow Lane LP |  | - | - |
+| CHY | 72 | large_holder | THRIVENT FINANCIAL FOR LU |  | - | - |
+| CCD | 72 | large_holder | THRIVENT FINANCIAL FOR LU |  | - | - |
+| CHI | 72 | large_holder | THRIVENT FINANCIAL FOR LU |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | MED | 72 | large_holder | Steamboat Capital Partner |  | - | - |
 | CDTG | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
@@ -307,14 +311,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| CPAY | 60 | corporate_insider | Clarke Ronald | $21,552,683 | - |
-| CPAY | 60 | corporate_insider | Clarke Ronald | $20,837,193 | - |
 | CBRS | 59 | corporate_insider | Feldman Andrew D. | $13,203,021 | - |
-| CPAY | 58 | corporate_insider | Clarke Ronald | $10,199,190 | - |
 | CBRS | 58 | corporate_insider | Feldman Andrew D. | $8,545,099 | - |
 | LASR | 57 | corporate_insider | Keeney Scott H | $6,825,002 | - |
-| CPAY | 57 | corporate_insider | Clarke Ronald | $6,877,612 | - |
 | CBRS | 57 | corporate_insider | Feldman Andrew D. | $6,719,365 | - |
+| CBRS | 57 | corporate_insider | Feldman Andrew D. | $6,512,988 | - |
+| HCC | 57 | corporate_insider | SCHELLER WALTER J | $5,500,000 | - |
+| LASR | 57 | corporate_insider | Keeney Scott H | $5,302,960 | - |
+| MU | 57 | corporate_insider | MEHROTRA SANJAY | $5,082,623 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -323,15 +327,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 765.35 (-0.07% / -0.48% / 4.92%) [2026-08-26]
-- QQQ: 710.29 (-0.06% / -0.81% / 7.34%) [2026-08-26]
-- IWM: 298.63 (-0.2% / -1.02% / 3.49%) [2026-08-26]
-- DIA: 534.05 (-0.22% / 0.04% / 3.7%) [2026-08-26]
-- TLT: 83.21 (-0.31% / 0.23% / 0.84%) [2026-08-26]
-- IEF: 93.26 (-0.26% / -0.12% / 0.45%) [2026-08-26]
-- GLD: 421.4 (-1.56% / 1.83% / 13.56%) [2026-08-26]
-- ^VIX: 15.6 (0.97% / 4.77% / -24.49%) [2026-08-26]
-- BTC-USD: 78229.07 (-0.43% / -0.14% / 21.73%) [2026-08-26]
+- SPY: 766.68 (0.1% / -0.31% / 5.1%) [2026-08-26]
+- QQQ: 712.04 (0.19% / -0.56% / 7.6%) [2026-08-26]
+- IWM: 299.01 (-0.07% / -0.9% / 3.62%) [2026-08-26]
+- DIA: 534.54 (-0.13% / 0.13% / 3.8%) [2026-08-26]
+- TLT: 83.22 (-0.29% / 0.25% / 0.86%) [2026-08-26]
+- IEF: 93.29 (-0.24% / -0.1% / 0.47%) [2026-08-26]
+- GLD: 421.63 (-1.5% / 1.88% / 13.62%) [2026-08-26]
+- ^VIX: 15.31 (-0.91% / 2.82% / -25.9%) [2026-08-26]
+- BTC-USD: 78412.81 (-0.19% / 0.1% / 22.02%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,39 +350,37 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), regulatory (3), leadership (1), ai (1), legal (1)
+**Temas dominantes**: stock (5), earnings (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MU] Micron Technology Has Fantastic News for Memory Stock Investors (2026-08-26)
-- [MU] Micron Technology Has Fantastic News for Memory Stock Investors (2026-08-26)
-- [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
-- [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
-- [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
+- [TPR] The Bayeux tapestry lesser - known tale of bromance : William and Harold were friends before they were enemies (2026-08-26)
 - [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
-- [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
-- [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
-- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
-- [ARDX] ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx (2026-08-14)
+- [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
+- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
+- [LQDT] Liquidity Services to Present and Host 1x1 Investor Meetings at the 17th Annual Midwest IDEAS Investor Conference on August 26th in Chicago , IL (2026-08-21)
+- [KE] Kimball Electronics ( KE ) Q4 2026 Earnings Call Transcript (2026-08-21)
+- [LQDT] Liquidity Services ( NASDAQ : LQDT ) Upgraded at Wall Street Zen (2026-08-19)
+- [KE] Kimball Electronics ( NASDAQ : KE ) Stock Price Down 10 . 2 % – What Next ? (2026-08-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Clarke Ronald opero CPAY por $67.8M el 2026-08-21.
-- CEO Clarke Ronald vendio CPAY por $21.6M el 2026-08-24.
 - 10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.
-- CEO Clarke Ronald vendio CPAY por $20.8M el 2026-08-25.
 - CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].
-- CEO Roks Edwin compro TTMI por $1.1M el 2026-08-25.
 - CEO Keeney Scott H vendio LASR por $6.8M el 2026-08-24.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
+- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $158,712 · win rate 93% · categorias: sports
-- comon119 · PnL $17,047 · win rate 97% · categorias: sports, crypto
-- BreakTheBank · PnL $99,913 · win rate 85% · categorias: sports
-- Skyfker · PnL $22,061 · win rate 90% · categorias: sports, crypto
-- zofgkt1111 · PnL $17,947 · win rate 100% · categorias: sports
+- SPCEXBUYER · PnL $175,377 · win rate 92% · categorias: sports
+- ExplosiveNinja · PnL $68,930 · win rate 97% · categorias: sports
+- Donghui · PnL $44,174 · win rate 92% · categorias: sports
+- comon119 · PnL $21,860 · win rate 97% · categorias: sports, crypto
+- BreakTheBank · PnL $78,249 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,7 +388,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 781 registros 30d · ultimo dato 2026-08-26
+- **sec_insiders**: `ok` · 645 registros 30d · ultimo dato 2026-08-26
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -400,7 +402,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CBRS, CHTR, GLD, IEF, MED, QQQ, SPY, TLT, XPON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMR, BWFG, CBRS, CHTR, GLD, IEF, MAIR, MED, PRE, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
