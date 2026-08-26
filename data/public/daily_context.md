@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T03:39:32+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T04:26:39+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -27,7 +27,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 83.47 | 1.1% | 2.22% | -0.51% |
 | CHTR | 12.0% | satellite | 155.14 | 3.22% | 4.58% | 10.84% |
 | GLD | 10.5% | core | 428.07 | 0.32% | 7.41% | 15.89% |
-| CBRS | 7.1% | satellite | 183.91 | -0.82% | -16.41% | -4.57% |
+| CBRS | 7.1% | satellite | 183.92 | -0.81% | -16.4% | -4.57% |
 | SUJA | 7.1% | satellite | 9.33 | 3.09% | 39.05% | -11.06% |
 | IEF | 7.0% | core | 93.51 | 0.54% | 0.62% | 0.29% |
 | XPON | 5.2% | satellite | 5.27 | -15.0% | 26.99% | 46.8% |
@@ -96,7 +96,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
 - ^VIX: 15.45 (-2.52% / -2.46% / -15.16%) [2026-08-25]
-- BTC-USD: 79024.85 (0.08% / 8.2% / 22.33%) [2026-08-26]
+- BTC-USD: 79083.0 (0.15% / 8.28% / 22.42%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -111,14 +111,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2), earnings (1)
+**Temas dominantes**: stock (6), ai (4), leadership (1), earnings (1), legal (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
+- [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
+- [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
+- [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
 - [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
+- [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
+- [ARDX] ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -133,11 +139,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $103,614 · win rate 84% · categorias: sports
-- Kosherlocks · PnL $13,273 · win rate 95% · categorias: sports, crypto
-- NiNo999 · PnL $24,526 · win rate 90% · categorias: sports
-- Donghui · PnL $15,396 · win rate 93% · categorias: sports
+- BreakTheBank · PnL $102,695 · win rate 84% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $13,157 · win rate 95% · categorias: sports, crypto
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $23,868 · win rate 88% · categorias: sports
+- Donghui · PnL $9,998 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $9,352 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
