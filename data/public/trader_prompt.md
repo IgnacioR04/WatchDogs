@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-26T16:13:08+00:00 -->
+<!-- trader_prompt.md generado 2026-08-26T17:18:55+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T16:13:08+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T17:18:55+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,8 +242,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.52)
-- Tendencia: `bull` (SPY 765.15 · MA50 752.88 · MA200 706.42 · dist MA200: 8.31%)
+- Volatilidad: `normal` (VIX 15.6)
+- Tendencia: `bull` (SPY 765.35 · MA50 752.88 · MA200 706.42 · dist MA200: 8.34%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
@@ -255,16 +255,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 765.15 | -0.1% | -0.51% | 4.89% |
-| QQQ | 12.0% | core | 709.11 | -0.23% | -0.97% | 7.16% |
-| TLT | 12.0% | core | 83.11 | -0.44% | 0.1% | 0.71% |
-| BWFG | 12.0% | satellite | 66.26 | 0.78% | 0.94% | -2.35% |
-| GLD | 9.3% | core | 421.75 | -1.48% | 1.91% | 13.65% |
+| SPY | 12.0% | core | 765.35 | -0.07% | -0.48% | 4.92% |
+| QQQ | 12.0% | core | 710.29 | -0.06% | -0.81% | 7.34% |
+| TLT | 12.0% | core | 83.21 | -0.31% | 0.23% | 0.84% |
+| BWFG | 12.0% | satellite | 66.49 | 1.12% | 1.29% | -2.02% |
+| GLD | 9.3% | core | 421.4 | -1.56% | 1.83% | 13.56% |
 | MED | 9.0% | satellite | 12.3 | 1.15% | 6.22% | 27.59% |
-| IEF | 6.2% | core | 93.25 | -0.27% | -0.13% | 0.43% |
-| CHTR | 6.1% | satellite | 153.04 | -1.35% | 0.37% | 5.4% |
-| XPON | 4.0% | satellite | 8.91 | 69.05% | 137.58% | 158.99% |
-| CBRS | 2.4% | satellite | 180.07 | -2.09% | -16.51% | 6.3% |
+| IEF | 6.2% | core | 93.26 | -0.26% | -0.12% | 0.45% |
+| CHTR | 6.1% | satellite | 153.79 | -0.87% | 0.86% | 5.91% |
+| XPON | 4.0% | satellite | 8.1 | 53.61% | 115.87% | 135.32% |
+| CBRS | 2.4% | satellite | 180.46 | -1.88% | -16.34% | 6.53% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -293,8 +293,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AMRZ | 72 | corporate_insider | Forrest Nollaig | 2 | $66,225 | cluster_buy |
 | LFT | 72 | corporate_insider | Flynn James Peter | 2 | $13,642 | cluster_buy,small_amount |
 | VTMX | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| PCQ | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
-| PNI | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
 | XPON | 72 | large_holder | Five Narrow Lane LP |  | - | - |
 | JCTC | 72 | large_holder | AJB Investment Fund II, L |  | - | - |
 | MED | 72 | large_holder | Steamboat Capital Partner |  | - | - |
@@ -302,6 +300,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | LFT | 71 | corporate_insider | BRIGGS JAMES A | 2 | $13,798 | cluster_buy,small_amount |
 | HKHC | 71 | corporate_insider | Rosenthal Brent D | 2 | $54,000 | cluster_buy |
 | TISI | 71 | corporate_insider | Horton Anthony R | 2 | $45,800 | cluster_buy |
+| TISI | 71 | corporate_insider | Horton Anthony R | 2 | $46,300 | cluster_buy |
+| LFT | 71 | corporate_insider | Flynn James Peter | 2 | $6,825 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -323,15 +323,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 765.15 (-0.1% / -0.51% / 4.89%) [2026-08-26]
-- QQQ: 709.11 (-0.23% / -0.97% / 7.16%) [2026-08-26]
-- IWM: 298.43 (-0.27% / -1.09% / 3.42%) [2026-08-26]
+- SPY: 765.35 (-0.07% / -0.48% / 4.92%) [2026-08-26]
+- QQQ: 710.29 (-0.06% / -0.81% / 7.34%) [2026-08-26]
+- IWM: 298.63 (-0.2% / -1.02% / 3.49%) [2026-08-26]
 - DIA: 534.05 (-0.22% / 0.04% / 3.7%) [2026-08-26]
-- TLT: 83.11 (-0.44% / 0.1% / 0.71%) [2026-08-26]
-- IEF: 93.25 (-0.27% / -0.13% / 0.43%) [2026-08-26]
-- GLD: 421.75 (-1.48% / 1.91% / 13.65%) [2026-08-26]
-- ^VIX: 15.52 (0.45% / 4.23% / -24.88%) [2026-08-26]
-- BTC-USD: 78082.12 (-0.61% / -0.32% / 21.51%) [2026-08-26]
+- TLT: 83.21 (-0.31% / 0.23% / 0.84%) [2026-08-26]
+- IEF: 93.26 (-0.26% / -0.12% / 0.45%) [2026-08-26]
+- GLD: 421.4 (-1.56% / 1.83% / 13.56%) [2026-08-26]
+- ^VIX: 15.6 (0.97% / 4.77% / -24.49%) [2026-08-26]
+- BTC-USD: 78229.07 (-0.43% / -0.14% / 21.73%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,20 +346,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), regulatory (3), earnings (1), legal (1)
+**Temas dominantes**: stock (6), regulatory (3), leadership (1), ai (1), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [RVMD] Quantbot Technologies LP Takes Position in Revolution Medicines , Inc . $RVMD (2026-08-26)
+- [MU] Micron Technology Has Fantastic News for Memory Stock Investors (2026-08-26)
+- [MU] Micron Technology Has Fantastic News for Memory Stock Investors (2026-08-26)
 - [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
 - [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
+- [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
 - [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
-- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
-- [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
-- [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
-- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
 - [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
 - [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
+- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
+- [ARDX] ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,14 +370,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].
 - CEO Roks Edwin compro TTMI por $1.1M el 2026-08-25.
 - CEO Keeney Scott H vendio LASR por $6.8M el 2026-08-24.
-- CEO Gamble Sean vendio CNK por $5.3M el 2026-08-24.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $145,791 · win rate 93% · categorias: sports
-- BreakTheBank · PnL $102,238 · win rate 85% · categorias: sports
-- comon119 · PnL $16,178 · win rate 97% · categorias: sports, crypto
-- Skyfker · PnL $23,860 · win rate 90% · categorias: sports, crypto
+- SPCEXBUYER · PnL $158,712 · win rate 93% · categorias: sports
+- comon119 · PnL $17,047 · win rate 97% · categorias: sports, crypto
+- BreakTheBank · PnL $99,913 · win rate 85% · categorias: sports
+- Skyfker · PnL $22,061 · win rate 90% · categorias: sports, crypto
 - zofgkt1111 · PnL $17,947 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -386,7 +386,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 783 registros 30d · ultimo dato 2026-08-26
+- **sec_insiders**: `ok` · 781 registros 30d · ultimo dato 2026-08-26
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
