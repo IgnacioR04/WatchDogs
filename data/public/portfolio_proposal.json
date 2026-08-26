@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-26T14:23:24+00:00",
+  "generated_at": "2026-08-26T16:13:07+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CHTR": 0.1173,
+    "BWFG": 0.1196,
     "GLD": 0.0933,
-    "PRE": 0.069,
-    "TTMI": 0.0688,
+    "MED": 0.0898,
     "IEF": 0.0622,
-    "CBRS": 0.046,
-    "XPON": 0.0334
+    "CHTR": 0.061,
+    "XPON": 0.0405,
+    "CBRS": 0.0238
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.1043,
-    "PRE": 0.0613,
-    "XPON": 0.0297,
-    "CBRS": 0.0409,
-    "TTMI": 0.0612
+    "CHTR": 0.0542,
+    "MED": 0.0798,
+    "BWFG": 0.1063,
+    "XPON": 0.036,
+    "CBRS": 0.0212
   },
   "satellite_rationale": [
     {
@@ -40,8 +40,17 @@
       "n_signals": 3
     },
     {
-      "ticker": "PRE",
-      "score": 122.2,
+      "ticker": "MED",
+      "score": 126.8,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "BWFG",
+      "score": 110.3,
       "sources": [
         "corporate_insider"
       ],
@@ -62,28 +71,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "TTMI",
-      "score": 65.7,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1975,
-    "var_95_1d": 0.0175,
-    "cvar_95_1d": 0.0233,
-    "max_drawdown": -0.0956,
-    "beta_spy": 1.076,
-    "hhi": 0.0823,
+    "ann_vol": 0.1224,
+    "var_95_1d": 0.0156,
+    "cvar_95_1d": 0.0163,
+    "max_drawdown": -0.054,
+    "beta_spy": 0.631,
+    "hhi": 0.0841,
     "max_position": 0.12,
     "n_positions": 10,
-    "effective_positions": 12.2,
-    "gross_exposure": 0.85,
-    "days_used": 70
+    "effective_positions": 11.9,
+    "gross_exposure": 0.8502,
+    "days_used": 43
   },
   "risk_gate": {
     "passed": true,
