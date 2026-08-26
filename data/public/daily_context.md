@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T07:27:46+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T08:20:06+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.45)
+- Volatilidad: `normal` (VIX 15.68)
 - Tendencia: `bull` (SPY 765.91 · MA50 752.63 · MA200 705.92 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -95,8 +95,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.47 (1.1% / 2.22% / -0.51%) [2026-08-25]
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
-- ^VIX: 15.45 (-2.52% / -2.46% / -15.16%) [2026-08-25]
-- BTC-USD: 79017.75 (0.07% / 8.19% / 22.32%) [2026-08-26]
+- ^VIX: 15.68 (1.49% / 5.31% / -24.1%) [2026-08-26]
+- BTC-USD: 78995.59 (0.55% / 0.84% / 22.93%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -111,19 +111,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), leadership (1), earnings (1), legal (1), regulatory (1)
+**Temas dominantes**: stock (3), ai (3), regulatory (3), leadership (1), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AMZN] Reviewing Americanas ( OTCMKTS : BZWHF ) & Amazon . com ( NASDAQ : AMZN ) (2026-08-26)
 - [ARDX] Ardelyx ( NASDAQ : ARDX ) Insider Mike Kelliher Sells 7 , 758 Shares of Stock (2026-08-26)
 - [ARDX] Eric Duane Foster Sells 8 , 562 Shares of Ardelyx ( NASDAQ : ARDX ) Stock (2026-08-26)
 - [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
-- [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
-- [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
+- [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
 - [ARDX] Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00 (2026-08-20)
+- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
 - [ARDX] ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx (2026-08-14)
 
 **Actores que han movido ficha este mes (top movimientos):**
