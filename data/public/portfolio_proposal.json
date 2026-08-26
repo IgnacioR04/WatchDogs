@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:52:18+00:00",
+  "generated_at": "2026-08-26T02:16:34+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.85,
@@ -9,10 +9,11 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "CHTR": 0.12,
-    "GLD": 0.1143,
-    "CBRS": 0.0899,
-    "SUJA": 0.0895,
-    "IEF": 0.0763
+    "GLD": 0.1052,
+    "CBRS": 0.0712,
+    "SUJA": 0.0709,
+    "IEF": 0.0702,
+    "XPON": 0.0525
   },
   "core": {
     "SPY": 0.1934,
@@ -22,9 +23,10 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "SUJA": 0.0649,
-    "CHTR": 0.1673,
-    "CBRS": 0.0652
+    "SUJA": 0.0559,
+    "CHTR": 0.1441,
+    "XPON": 0.0414,
+    "CBRS": 0.0561
   },
   "satellite_rationale": [
     {
@@ -45,6 +47,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "XPON",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "CBRS",
       "score": 70.2,
       "sources": [
@@ -54,15 +64,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.2084,
-    "var_95_1d": 0.0221,
-    "cvar_95_1d": 0.0284,
-    "max_drawdown": -0.1013,
-    "beta_spy": 0.857,
-    "hhi": 0.0926,
+    "ann_vol": 0.2128,
+    "var_95_1d": 0.019,
+    "cvar_95_1d": 0.0244,
+    "max_drawdown": -0.1117,
+    "beta_spy": 0.818,
+    "hhi": 0.0864,
     "max_position": 0.12,
-    "n_positions": 8,
-    "effective_positions": 10.8,
+    "n_positions": 9,
+    "effective_positions": 11.6,
     "gross_exposure": 0.85,
     "days_used": 69
   },

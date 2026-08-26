@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-25T23:51:25.023213+00:00",
+  "generated_at": "2026-08-26T02:15:39.882074+00:00",
   "window": {
-    "from": "2026-07-26",
-    "to": "2026-08-25",
+    "from": "2026-07-27",
+    "to": "2026-08-26",
     "days": 30
   },
   "data_quality": {
@@ -23,10 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "regulatory",
       "stock",
-      "legal",
+      "ai",
+      "leadership",
+      "regulatory",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -35,6 +35,46 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "CEO opero CPAY ($67.8M)",
+      "summary": "CEO Clarke Ronald opero CPAY por $67.8M el 2026-08-21.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "other",
+      "amount_estimated": 67833000.0,
+      "event_date": "2026-08-21",
+      "importance_score": 86.0,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "CEO vendio CPAY ($21.6M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $21.6M el 2026-08-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 21552682.77,
+      "event_date": "2026-08-24",
+      "importance_score": 85.0,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner compro EBR Systems, Inc. ($20.8M)",
       "summary": "10% owner Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust compro EBR Systems, Inc. por $20.8M el 2026-08-21.",
       "source": "sec_form_4",
@@ -51,8 +91,48 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2041658/000123191926001062/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_4",
+      "rank": 4,
+      "title": "CEO vendio CPAY ($20.8M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $20.8M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 20837192.84,
+      "event_date": "2026-08-25",
+      "importance_score": 84.9,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
+      "title": "CEO opero CPAY ($121.0M)",
+      "summary": "CEO Clarke Ronald opero CPAY por $121.0M el 2026-08-21.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "other",
+      "amount_estimated": 120985636.59,
+      "event_date": "2026-08-21",
+      "importance_score": 84.8,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio TWO ($14.6M)",
       "summary": "CEO GREENBERG WILLIAM ROSS vendio TWO por $14.6M el 2026-08-25.",
       "source": "sec_form_4",
@@ -69,8 +149,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1792521/000110465926100896/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio CBRS ($13.2M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $13.2M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -84,14 +164,34 @@
       "importance_score": 83.7,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_866816264330",
-        "news_741391485295"
+        "news_733832396400",
+        "news_344290461359"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_8",
+      "rank": 8,
+      "title": "CEO vendio CPAY ($10.2M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $10.2M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 10199189.82,
+      "event_date": "2026-08-25",
+      "importance_score": 83.4,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro SUJA ($2.2M)",
       "summary": "10% owner PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD. compro SUJA por $2.2M el 2026-08-25 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -108,8 +208,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1818714/000114036126034358/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_10",
+      "rank": 10,
       "title": "CEO vendio CBRS ($8.5M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $8.5M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -123,14 +223,14 @@
       "importance_score": 82.8,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_866816264330",
-        "news_741391485295"
+        "news_733832396400",
+        "news_344290461359"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_11",
+      "rank": 11,
       "title": "10% owner compro SUJA ($2.1M)",
       "summary": "10% owner PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD. compro SUJA por $2.1M el 2026-08-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -147,8 +247,64 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1818714/000114036126034358/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_12",
+      "rank": 12,
+      "title": "CEO compro TTMI ($1.1M)",
+      "summary": "CEO Roks Edwin compro TTMI por $1.1M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Roks Edwin",
+      "actor_type": "ceo",
+      "ticker": "TTMI",
+      "direction": "buy",
+      "amount_estimated": 1117700.0,
+      "event_date": "2026-08-25",
+      "importance_score": 82.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1705520/000119312526365628/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "CEO vendio LASR ($6.8M)",
+      "summary": "CEO Keeney Scott H vendio LASR por $6.8M el 2026-08-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Keeney Scott H",
+      "actor_type": "ceo",
+      "ticker": "LASR",
+      "direction": "sell",
+      "amount_estimated": 6825002.24,
+      "event_date": "2026-08-24",
+      "importance_score": 82.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1738235/000162828026058970/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "CEO vendio CPAY ($6.9M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $6.9M el 2026-08-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 6877611.53,
+      "event_date": "2026-08-24",
+      "importance_score": 82.5,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
       "title": "Director compro BABA ($10.4M)",
       "summary": "Director Tsai Joseph C compro BABA por $10.4M el 2026-08-25.",
       "source": "sec_form_4",
@@ -165,8 +321,28 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1633999/000119312526364044/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_16",
+      "rank": 16,
+      "title": "CEO vendio CPAY ($6.4M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $6.4M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 6409015.94,
+      "event_date": "2026-08-25",
+      "importance_score": 82.4,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
       "title": "CEO vendio CBRS ($6.7M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $6.7M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -180,14 +356,14 @@
       "importance_score": 82.2,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_866816264330",
-        "news_741391485295"
+        "news_733832396400",
+        "news_344290461359"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_18",
+      "rank": 18,
       "title": "CEO vendio CBRS ($6.5M)",
       "summary": "CEO Feldman Andrew D. vendio CBRS por $6.5M el 2026-08-21 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -201,14 +377,14 @@
       "importance_score": 82.2,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_866816264330",
-        "news_741391485295"
+        "news_733832396400",
+        "news_344290461359"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2039573/000162828026058961/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_19",
+      "rank": 19,
       "title": "CEO vendio CNK ($5.3M)",
       "summary": "CEO Gamble Sean vendio CNK por $5.3M el 2026-08-24.",
       "source": "sec_form_4",
@@ -225,196 +401,28 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1616557/000119312526365189/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
-      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 40145783473,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 35477573797,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
-      "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 31430193423,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
-      "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 30389405507,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
-      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
-      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 28704244679,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
-      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 27986738310,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 27919281078,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager vendio APPLE INC ($26.6B)",
-      "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 26582780886,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro APPLE INC ($25.1B)",
-      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 25125770065,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
       "id": "move_20",
       "rank": 20,
-      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 23585331061,
-      "event_date": "",
-      "importance_score": 81.5,
+      "title": "CEO vendio CPAY ($5.0M)",
+      "summary": "CEO Clarke Ronald vendio CPAY por $5.0M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Clarke Ronald",
+      "actor_type": "ceo",
+      "ticker": "CPAY",
+      "direction": "sell",
+      "amount_estimated": 4971485.57,
+      "event_date": "2026-08-25",
+      "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
+      "related_news": [
+        "news_263829330323"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526365658/"
     }
   ],
   "top_tickers": {
     "buy_pressure": [
-      {
-        "ticker": "AIJTY",
-        "company": "Jianpu Technology Inc.",
-        "pressure_score": 441.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "SUJA",
         "company": "Suja Life, Inc.",
@@ -490,14 +498,6 @@
         ]
       },
       {
-        "ticker": "ADBT",
-        "company": "Advasa Holdings, Inc.",
-        "pressure_score": 208.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "KPLT",
         "company": "Katapult Holdings, Inc.",
         "pressure_score": 207.0,
@@ -527,6 +527,23 @@
         "pressure_score": 151.9,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NGL",
+        "company": "NGL Energy Partners LP",
+        "pressure_score": 142.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TG",
+        "company": "TREDEGAR CORPORATION",
+        "pressure_score": 142.0,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       }
     ],
@@ -564,9 +581,9 @@
         ]
       },
       {
-        "ticker": "TWO",
-        "company": "TWO HARBORS INVESTMENT CORP.",
-        "pressure_score": 1262.5,
+        "ticker": "CPAY",
+        "company": "CORPAY, INC.",
+        "pressure_score": 1203.9,
         "sources": [
           "corporate_insider"
         ]
@@ -592,6 +609,22 @@
         "ticker": "PHI",
         "company": "PLDT Inc.",
         "pressure_score": 719.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TWO",
+        "company": "TWO HARBORS INVESTMENT CORP.",
+        "pressure_score": 609.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LASR",
+        "company": "NLIGHT, INC.",
+        "pressure_score": 537.7,
         "sources": [
           "corporate_insider"
         ]
@@ -635,23 +668,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "PFGC",
-        "company": "Performance Food Group Co",
-        "pressure_score": 345.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PMA",
-        "company": "Ming Shing Group Holdings Ltd",
-        "pressure_score": 337.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
       }
     ]
   },
@@ -673,6 +689,15 @@
       "amount": 2065236.16,
       "date": "2026-08-24",
       "score": 82.7
+    },
+    {
+      "ticker": "TTMI",
+      "company": "TTM TECHNOLOGIES INC",
+      "actor": "Roks Edwin",
+      "actor_type": "ceo",
+      "amount": 1117700.0,
+      "date": "2026-08-25",
+      "score": 82.6
     },
     {
       "ticker": "BABA",
@@ -700,15 +725,6 @@
       "amount": 2278800.0,
       "date": "2026-08-21",
       "score": 80.1
-    },
-    {
-      "ticker": "EPSN",
-      "company": "Epsilon Energy Ltd.",
-      "actor": "Stabell Jason",
-      "actor_type": "ceo",
-      "amount": 120469.54,
-      "date": "2026-08-24",
-      "score": 77.8
     },
     {
       "ticker": "BORR",
@@ -1022,6 +1038,15 @@
       "date": "2026-08-25"
     },
     {
+      "filer": "Bit Digital, Inc.",
+      "company": "WhiteFiber, Inc.",
+      "ticker": "WYFI",
+      "ownership_pct": 59.9,
+      "shares": 27043750,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-25"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1101,121 +1126,109 @@
       "shares": 301991,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-08-19"
-    },
-    {
-      "filer": "Catalyst4, Inc.",
-      "company": "MapLight Therapeutics, Inc.",
-      "ticker": "MPLT",
-      "ownership_pct": 49.9,
-      "shares": 27536011,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-18"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 41607.9,
+        "win_rate": 0.9149,
+        "volume": 10897.16,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x408fe71e6b",
+        "username": "Winnerdinnerchickenjr",
+        "pnl": 145215.99,
+        "win_rate": 0.7826,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xe30e745955",
         "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 154804.24,
-        "win_rate": 0.88,
-        "volume": 317186.06,
+        "pnl": 23867.66,
+        "win_rate": 0.8816,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 30604.67,
-        "win_rate": 0.97,
-        "volume": 297606.66,
+        "wallet": "0x9c3ce009c9",
+        "username": "0x0x23kjookhaiuohduoayh8c9",
+        "pnl": 7898.45,
+        "win_rate": 0.9519,
+        "volume": 0.0,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xa486f1e84d",
-        "username": "cruzzzz",
-        "pnl": 24939.79,
-        "win_rate": 0.953,
-        "volume": 113026.43,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 360760.49,
-        "win_rate": 0.7562,
-        "volume": 1021474.6,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xc41d736bde",
-        "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 89345.08,
-        "win_rate": 0.8195,
-        "volume": 255206.04,
+        "wallet": "0x9e161cf455",
+        "username": "0x9e161cf45572279B5DAD0e03B3EECE250C84A795-1768761521118",
+        "pnl": 7995.75,
+        "win_rate": 0.9016,
+        "volume": 80255.7,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 25331.92,
-        "win_rate": 0.8477,
-        "volume": 55282.22,
+        "wallet": "0x31706006a0",
+        "username": "thatguythatguy",
+        "pnl": 13241.54,
+        "win_rate": 0.9474,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2dc13c6bda",
+        "username": "xifutloong3",
+        "pnl": 46656.0,
+        "win_rate": 0.7673,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb8ef617fd5",
+        "username": "no1dodgersfan",
+        "pnl": 25804.82,
+        "win_rate": 0.783,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "crypto",
           "economy"
         ]
       },
       {
-        "wallet": "0x0cdff1e562",
-        "username": "0x0CdFf1E562Faf5EcE704Ef15f6A9fc4232E7eC9E-1780718136344",
-        "pnl": 25662.42,
-        "win_rate": 0.8333,
-        "volume": 175530.01,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 35723.59,
-        "win_rate": 0.8056,
-        "volume": 120984.05,
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 7309.57,
+        "win_rate": 0.865,
+        "volume": 1444.99,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc6e9560680",
-        "username": "luck00004",
-        "pnl": 32226.49,
-        "win_rate": 0.9394,
-        "volume": 101410.93,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x682005011d",
-        "username": "winwin518168",
-        "pnl": 80789.71,
-        "win_rate": 0.9524,
-        "volume": 2925.41,
+        "wallet": "0xd607fe9ad4",
+        "username": "Tantula",
+        "pnl": 11193.14,
+        "win_rate": 0.8298,
+        "volume": 43481.81,
         "categories": [
           "sports"
         ]
@@ -1223,104 +1236,107 @@
     ],
     "whales": [
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 115988.31,
-        "win_rate": 0.636,
-        "volume": 6174168.02,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x14c7111afa",
-        "username": "kilian7kilian",
-        "pnl": 191792.78,
-        "win_rate": 1.0,
-        "volume": 996322.38,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 63883.5,
-        "win_rate": 0.485,
-        "volume": 735258.35,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 60811.8,
-        "win_rate": 0.56,
-        "volume": 4166257.16,
+        "pnl": 19169.41,
+        "win_rate": 0.555,
+        "volume": 474002.38,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 360760.49,
-        "win_rate": 0.7562,
-        "volume": 1021474.6,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 31398.13,
+        "win_rate": 0.678,
+        "volume": 64813.06,
         "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x204f72f353",
+        "username": "swisstony",
+        "pnl": 22879.36,
+        "win_rate": 0.519,
+        "volume": 198989.3,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 52705.2,
+        "win_rate": 0.689,
+        "volume": 92577.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0f35109cc3",
+        "username": "",
+        "pnl": 27254.64,
+        "win_rate": 0.4868,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 22048.05,
+        "win_rate": 0.673,
+        "volume": 112839.4,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 10610.82,
+        "win_rate": 0.6,
+        "volume": 78394.57,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9e161cf455",
+        "username": "0x9e161cf45572279B5DAD0e03B3EECE250C84A795-1768761521118",
+        "pnl": 7995.75,
+        "win_rate": 0.9016,
+        "volume": 80255.7,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xecaa8806a9",
+        "username": "Melody626",
+        "pnl": 13606.91,
+        "win_rate": 0.658,
+        "volume": 33203.5,
+        "categories": [
+          "politics",
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 74151.38,
-        "win_rate": 0.4913,
-        "volume": 452646.26,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 154804.24,
-        "win_rate": 0.88,
-        "volume": 317186.06,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 78400.98,
-        "win_rate": 0.573,
-        "volume": 1614384.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 50767.72,
-        "win_rate": 0.5145,
-        "volume": 243020.5,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xc41d736bde",
-        "username": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
-        "pnl": 89345.08,
-        "win_rate": 0.8195,
-        "volume": 255206.04,
+        "wallet": "0xd607fe9ad4",
+        "username": "Tantula",
+        "pnl": 11193.14,
+        "win_rate": 0.8298,
+        "volume": 43481.81,
         "categories": [
           "sports"
         ]
@@ -1329,19 +1345,33 @@
   },
   "news": [
     {
-      "title": "Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? ",
-      "url": "https://www.themarketsdaily.com/2026/08/25/tenable-nasdaqtenb-stock-price-down-3-9-time-to-sell.html",
-      "ticker": "TENB",
+      "title": "Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13558530/corpay-nysecpay-ceo-ronald-clarke-sells-119486-shares-of-stock.html",
+      "ticker": "CPAY",
       "themes": [
+        "leadership",
         "stock"
       ],
-      "date": "2026-08-25"
+      "date": "2026-08-26"
     },
     {
-      "title": "Toll House Hotel Los Gatos Joins Tapestry Collection by Hilton",
-      "url": "http://www.prnewswire.com/news-releases/toll-house-hotel-los-gatos-joins-tapestry-collection-by-hilton-302859633.html",
-      "ticker": "TPR",
-      "themes": [],
+      "title": "Amazon . com ( NASDAQ : AMZN ) CEO Sells 14 , 541 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/08/25/amazon-com-nasdaqamzn-ceo-sells-14541-shares-of-stock.html",
+      "ticker": "AMZN",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-26"
+    },
+    {
+      "title": "Direxion Daily AMZN Bear 1X Shares ( NASDAQ : AMZD ) Sees Significant Decline in Short Interest",
+      "url": "https://www.themarketsdaily.com/2026/08/25/direxion-daily-amzn-bear-1x-shares-nasdaqamzd-sees-significant-decline-in-short-interest.html",
+      "ticker": "AMZN",
+      "themes": [
+        "ai",
+        "stock"
+      ],
       "date": "2026-08-25"
     },
     {
@@ -1392,13 +1422,6 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Piper Sandler Cuts Ardelyx ( NASDAQ : ARDX ) Price Target to $15 . 00",
-      "url": "https://www.dailypolitical.com/2026/08/19/piper-sandler-cuts-ardelyx-nasdaqardx-price-target-to-15-00.html",
-      "ticker": "ARDX",
-      "themes": [],
-      "date": "2026-08-20"
-    },
-    {
       "title": "Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July",
       "url": "https://www.tickerreport.com/banking-finance/13546205/farmers-merchants-bancorp-otcmktsfmcb-short-interest-down-50-0-in-july.html",
       "ticker": "FMCB",
@@ -1406,40 +1429,9 @@
         "regulatory"
       ],
       "date": "2026-08-16"
-    },
-    {
-      "title": "ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx",
-      "url": "https://www.prnewswire.com/news-releases/ardx-shareholder-investigation-suewallst-notifies-investors-of-potential-securities-claims-involving-ardelyx-302851485.html",
-      "ticker": "ARDX",
-      "themes": [
-        "ai",
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "ARDX SHAREHOLDER INVESTIGATION : SueWallSt Notifies Investors of Potential Securities Claims Involving Ardelyx",
-      "url": "http://www.prnewswire.com/news-releases/ardx-shareholder-investigation-suewallst-notifies-investors-of-potential-securities-claims-involving-ardelyx-302851485.html",
-      "ticker": "ARDX",
-      "themes": [
-        "ai",
-        "legal",
-        "regulatory"
-      ],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Ardelyx Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Ardelyx ( ARDX ) ",
-      "url": "http://www.prnewswire.com/news-releases/ardelyx-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-ardelyx-ardx-302851449.html",
-      "ticker": "ARDX",
-      "themes": [
-        "legal"
-      ],
-      "date": "2026-08-14"
     }
   ],
-  "signals_count": 1540,
+  "signals_count": 1556,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
