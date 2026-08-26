@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T09:21:31+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T10:16:49+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.7)
+- Volatilidad: `normal` (VIX 15.69)
 - Tendencia: `bull` (SPY 765.91 · MA50 752.63 · MA200 705.92 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.69)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -95,8 +95,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.47 (1.1% / 2.22% / -0.51%) [2026-08-25]
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
-- ^VIX: 15.7 (1.62% / 5.44% / -24.01%) [2026-08-26]
-- BTC-USD: 78475.74 (-0.11% / 0.18% / 22.12%) [2026-08-26]
+- ^VIX: 15.69 (1.55% / 5.37% / -24.06%) [2026-08-26]
+- BTC-USD: 78421.06 (-0.18% / 0.11% / 22.03%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -111,10 +111,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (2), ai (1), earnings (1)
+**Temas dominantes**: stock (4), regulatory (2), leadership (1), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
 - [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
 - [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
 - [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
@@ -134,11 +135,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- comon119 · PnL $15,227 · win rate 97% · categorias: sports, crypto
-- BreakTheBank · PnL $102,632 · win rate 84% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,332 · win rate 95% · categorias: sports, crypto
-- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $23,868 · win rate 88% · categorias: sports
-- Donghui · PnL $8,679 · win rate 93% · categorias: sports
+- BreakTheBank · PnL $102,722 · win rate 84% · categorias: sports
+- comon119 · PnL $14,836 · win rate 97% · categorias: sports, crypto
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $15,414 · win rate 95% · categorias: sports, crypto
+- SPCEXBUYER · PnL $20,420 · win rate 93% · categorias: sports
+- AlamdeeTrader · PnL $9,905 · win rate 95% · categorias: crypto, politics, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
