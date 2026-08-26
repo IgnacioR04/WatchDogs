@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-26T05:12:26+00:00 -->
+<!-- trader_prompt.md generado 2026-08-26T06:10:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T05:12:26+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-26T06:10:15+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.51 (0.54% / 0.62% / 0.29%) [2026-08-25]
 - GLD: 428.07 (0.32% / 7.41% / 15.89%) [2026-08-25]
 - ^VIX: 15.45 (-2.52% / -2.46% / -15.16%) [2026-08-25]
-- BTC-USD: 78864.3 (-0.13% / 7.98% / 22.09%) [2026-08-26]
+- BTC-USD: 79144.56 (0.23% / 8.37% / 22.52%) [2026-08-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,19 +344,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (3), regulatory (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (4), ai (3), leadership (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AMZN] Reviewing Americanas ( OTCMKTS : BZWHF ) & Amazon . com ( NASDAQ : AMZN ) (2026-08-26)
 - [CPAY] Corpay ( NYSE : CPAY ) CEO Ronald Clarke Sells 119 , 486 Shares of Stock (2026-08-26)
 - [TENB] Tenable ( NASDAQ : TENB ) Stock Price Down 3 . 9 % – Time to Sell ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [RVMD] Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines . Does He Know Something Wall Street Doesnt ? (2026-08-25)
 - [CBRS] As Cerebras Launches a New , Record - Setting AI Accelerator , Here How You Should Play CBRS Stock (2026-08-25)
 - [CBRS] Cerebras Systems ( CBRS ) Revenue Surges : Why Did CBRS Stock Crash , and What About AMD ? (2026-08-24)
-- [FMCB] Farmers & Merchants Bank of Long Beach ( OTCMKTS : FMBL ) Reaches New 1 - Year High – Here What Happened (2026-08-21)
-- [FMCB] Farmers & Merchants Bancorp ( OTCMKTS : FMCB ) Short Interest Down 50 . 0 % in July (2026-08-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,11 +368,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $102,695 · win rate 84% · categorias: sports
-- 0x0x23kjookhaiuohduoayh8c9 · PnL $13,157 · win rate 95% · categorias: sports, crypto
+- BreakTheBank · PnL $102,664 · win rate 84% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $13,081 · win rate 95% · categorias: sports, crypto
 - 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $23,868 · win rate 88% · categorias: sports
-- Donghui · PnL $9,998 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $9,352 · win rate 91% · categorias: sports
+- Donghui · PnL $11,470 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $11,025 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
