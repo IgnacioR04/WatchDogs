@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-26T19:42:08+00:00",
+  "generated_at": "2026-08-26T23:52:02+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "BWFG": 0.0929,
-    "MED": 0.0699,
+    "GLD": 0.0932,
+    "RSG": 0.0744,
+    "AMH": 0.0718,
     "IEF": 0.0622,
-    "CHTR": 0.0475,
-    "MAIR": 0.0403,
-    "AMR": 0.0393,
-    "PRE": 0.0263,
-    "CBRS": 0.0186
+    "AAT": 0.0597,
+    "BWFG": 0.0552,
+    "CHTR": 0.029,
+    "NGL": 0.027,
+    "AMRC": 0.0177
   },
   "core": {
     "SPY": 0.1934,
@@ -26,15 +26,32 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CHTR": 0.0422,
-    "MED": 0.0621,
-    "PRE": 0.0234,
-    "AMR": 0.0349,
-    "BWFG": 0.0826,
-    "CBRS": 0.0165,
-    "MAIR": 0.0358
+    "RSG": 0.0661,
+    "AMRC": 0.0157,
+    "CHTR": 0.0258,
+    "AAT": 0.0531,
+    "NGL": 0.024,
+    "BWFG": 0.0491,
+    "AMH": 0.0638
   },
   "satellite_rationale": [
+    {
+      "ticker": "RSG",
+      "score": 553.3,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 8
+    },
+    {
+      "ticker": "AMRC",
+      "score": 313.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
     {
       "ticker": "CHTR",
       "score": 210.0,
@@ -44,25 +61,17 @@
       "n_signals": 3
     },
     {
-      "ticker": "MED",
-      "score": 126.8,
+      "ticker": "AAT",
+      "score": 198.2,
       "sources": [
         "corporate_insider",
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
-      "ticker": "PRE",
-      "score": 122.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "AMR",
-      "score": 120.3,
+      "ticker": "NGL",
+      "score": 154.8,
       "sources": [
         "corporate_insider"
       ],
@@ -77,34 +86,26 @@
       "n_signals": 2
     },
     {
-      "ticker": "CBRS",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "MAIR",
-      "score": 60.2,
+      "ticker": "AMH",
+      "score": 109.3,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 1
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.1279,
-    "var_95_1d": 0.0141,
-    "cvar_95_1d": 0.0176,
-    "max_drawdown": -0.0545,
-    "beta_spy": 0.756,
-    "hhi": 0.0758,
+    "ann_vol": 0.0791,
+    "var_95_1d": 0.0082,
+    "cvar_95_1d": 0.0112,
+    "max_drawdown": -0.0568,
+    "beta_spy": 0.462,
+    "hhi": 0.0749,
     "max_position": 0.12,
     "n_positions": 12,
-    "effective_positions": 13.2,
-    "gross_exposure": 0.8503,
-    "days_used": 43
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8502,
+    "days_used": 274
   },
   "risk_gate": {
     "passed": true,
