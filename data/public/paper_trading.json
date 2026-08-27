@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:52:03+00:00",
+  "generated_at": "2026-08-27T10:03:24+00:00",
   "budget_eur": 100.0,
   "n_cycles": 18,
   "cost_model": {
@@ -8,17 +8,17 @@
   },
   "metrics": {
     "n_days": 35,
-    "equity_eur": 99.88,
-    "total_return": -0.0012,
+    "equity_eur": 99.8,
+    "total_return": -0.002,
     "win_rate_days": 0.5143,
     "best_day": 0.0097,
-    "worst_day": -0.0069,
-    "ann_vol": 0.063,
-    "sharpe": 0.16,
-    "sortino": 0.26,
+    "worst_day": -0.0071,
+    "ann_vol": 0.0631,
+    "sharpe": 0.08,
+    "sortino": 0.12,
     "max_drawdown": -0.0176,
     "spy_return": 0.0039,
-    "excess_return": -0.0051,
+    "excess_return": -0.0059,
     "costs_eur": 0.2407,
     "turnover_total": 1.606
   },
@@ -199,39 +199,39 @@
     },
     {
       "date": "2026-08-19",
-      "equity": 100.24,
+      "equity": 100.21,
       "spy": 101.61,
-      "daily_ret": 0.00493
+      "daily_ret": 0.00464
     },
     {
       "date": "2026-08-20",
-      "equity": 99.55,
+      "equity": 99.5,
       "spy": 99.94,
-      "daily_ret": -0.00689
+      "daily_ret": -0.00713
     },
     {
       "date": "2026-08-21",
-      "equity": 99.72,
+      "equity": 99.63,
       "spy": 100.23,
-      "daily_ret": 0.00169
+      "daily_ret": 0.00142
     },
     {
       "date": "2026-08-24",
-      "equity": 99.76,
+      "equity": 99.66,
       "spy": 99.99,
-      "daily_ret": 0.00046
+      "daily_ret": 0.00024
     },
     {
       "date": "2026-08-25",
-      "equity": 100.08,
+      "equity": 100.0,
       "spy": 100.42,
-      "daily_ret": 0.0032
+      "daily_ret": 0.00347
     },
     {
       "date": "2026-08-26",
-      "equity": 99.88,
+      "equity": 99.8,
       "spy": 100.39,
-      "daily_ret": -0.00204
+      "daily_ret": -0.00205
     }
   ],
   "positions": {
@@ -315,7 +315,10 @@
     },
     "CRWV": {
       "weight": 0.012,
-      "instrument": "stock"
+      "instrument": "stock",
+      "entry_date": "2026-08-19",
+      "ret_since_entry": -0.0554,
+      "value_eur": 1.13
     },
     "HRI": {
       "weight": 0.03,

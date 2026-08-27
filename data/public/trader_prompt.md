@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-26T23:52:03+00:00 -->
+<!-- trader_prompt.md generado 2026-08-27T10:03:24+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-26T23:52:03+00:00 · ventana señales 2026-07-27 -> 2026-08-26_
+_Generado 2026-08-27T10:03:24+00:00 · ventana señales 2026-07-28 -> 2026-08-27_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -241,13 +241,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.21)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `calm` (VIX 14.87)
 - Tendencia: `bull` (SPY 766.08 · MA50 752.9 · MA200 706.43 · dist MA200: 8.44%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.47)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -259,31 +259,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 711.37 | 0.09% | -0.66% | 7.5% |
 | TLT | 12.0% | core | 83.3 | -0.2% | 0.34% | 0.95% |
 | GLD | 9.3% | core | 421.32 | -1.58% | 1.81% | 13.54% |
-| RSG | 7.4% | satellite | 222.18 | 0.55% | 0.52% | 1.49% |
+| RSG | 7.5% | satellite | 222.18 | 0.55% | 0.52% | 1.49% |
 | AMH | 7.2% | satellite | 34.16 | -1.16% | -0.5% | 1.33% |
 | IEF | 6.2% | core | 93.32 | -0.2% | -0.06% | 0.5% |
 | AAT | 6.0% | satellite | 22.74 | -1.52% | -0.26% | -4.13% |
-| BWFG | 5.5% | satellite | 65.65 | -0.15% | 0.02% | -3.25% |
-| CHTR | 2.9% | satellite | 153.89 | -0.81% | 0.93% | 5.98% |
+| BWFG | 5.6% | satellite | 65.65 | -0.15% | 0.02% | -3.25% |
+| MAX | 2.7% | satellite | 12.67 | -1.4% | -6.08% | -8.19% |
 | NGL | 2.7% | satellite | 17.2 | -1.77% | 1.59% | 10.82% |
 | AMRC | 1.8% | satellite | 22.16 | 0.41% | -12.58% | 19.72% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 7.9%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -5.7%
-- Beta vs SPY: 0.462 · posiciones efectivas: 13.3 · HHI: 0.0749
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -5.8%
+- Beta vs SPY: 0.472 · posiciones efectivas: 13.3 · HHI: 0.075
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **RSG** · score agregado 553.3 · 8 señales · fuentes: corporate_insider, large_holder
 - **AMRC** · score agregado 313.5 · 4 señales · fuentes: corporate_insider
-- **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **AAT** · score agregado 198.2 · 3 señales · fuentes: corporate_insider, large_holder
 - **NGL** · score agregado 154.8 · 2 señales · fuentes: corporate_insider
 - **BWFG** · score agregado 110.3 · 2 señales · fuentes: corporate_insider
 - **AMH** · score agregado 109.3 · 2 señales · fuentes: corporate_insider
+- **MAX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -313,12 +313,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | JMKE | 60 | corporate_insider | Submarine Buyer LLC | $43,728,908 | - |
 | JMKE | 60 | corporate_insider | Blackstone Holdings II L. | $43,728,908 | - |
+| ABNB | 59 | corporate_insider | Blecharczyk Nathan | $38,030,327 | - |
 | AFG | 59 | corporate_insider | LINDNER CARL H III | $11,740,594 | - |
 | CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $26,718,802 | - |
 | CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $26,718,802 | - |
-| DASH | 57 | corporate_insider | Xu Tony | $6,800,528 | - |
-| HCC | 57 | corporate_insider | SCHELLER WALTER J | $5,500,000 | - |
-| CHYM | 57 | corporate_insider | DST Global Advisors Ltd | $13,727,045 | - |
+| THC | 58 | corporate_insider | Sutaria Saumya | $10,223,358 | - |
+| ABNB | 58 | corporate_insider | Blecharczyk Nathan | $18,663,887 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -334,8 +334,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 83.3 (-0.2% / 0.34% / 0.95%) [2026-08-26]
 - IEF: 93.32 (-0.2% / -0.06% / 0.5%) [2026-08-26]
 - GLD: 421.32 (-1.58% / 1.81% / 13.54%) [2026-08-26]
-- ^VIX: 15.21 (-1.55% / 2.15% / -26.38%) [2026-08-26]
-- BTC-USD: 79022.01 (0.58% / 0.88% / 22.97%) [2026-08-26]
+- ^VIX: 14.87 (-2.24% / -7.12% / -12.99%) [2026-08-27]
+- BTC-USD: 79964.59 (1.19% / 3.74% / 23.25%) [2026-08-27]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,36 +350,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), earnings (2)
+**Temas dominantes**: stock (8), earnings (3), ai (3), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [STX] Western Digital vs . Seagate Technology : Which Data Storage Stock Is the Better Buy ? (2026-08-25)
-- [KE] Kimball Electronics ( KE ) Q4 2026 Earnings Call Transcript (2026-08-21)
-- [KE] Kimball Electronics ( NASDAQ : KE ) Stock Price Down 10 . 2 % – What Next ? (2026-08-18)
-- [CHYM] Global Advisors Ltd Dst Sells 2 , 022 Shares of Chime Financial ( NASDAQ : CHYM ) Stock (2026-08-15)
-- [CHYM] Chime ( CHYM ) Q2 2026 Earnings Call Transcript (2026-08-14)
-- [CCD] Calamos Dynamic Convertible and Income Fund ( NASDAQ : CCD ) Share Price Passes Above 50 Day Moving Average – Here Why (2026-08-14)
-- [CHYM] Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) (2026-08-13)
+- [CRWV] OMERS ADMINISTRATION Corp Invests $1 . 19 Million in CoreWeave Inc . $CRWV (2026-08-27)
+- [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
+- [DE] FinancialContent - Deere Q2 Earnings Call : Our Top 5 Analyst Questions (2026-08-27)
+- [DE] Stolen equipment recovered in wooded area near Snook (2026-08-27)
+- [RKLB] Rocket Lab ( NASDAQ : RKLB ) Outpaces Planet Labs ( NYSE : PL ) As The Stronger Space Sector Investment (2026-08-27)
+- [DE] Reservoir Announces $10 Million Multi - Year Partnership with John Deere to Accelerate Rugged AI for Agriculture – IT Business Net (2026-08-27)
+- [RKLB] Frank Klein Sells 45 , 692 Shares of Rocket Lab ( NASDAQ : RKLB ) Stock (2026-08-27)
+- [RKLB] Rocket Lab ( NASDAQ : RKLB ) Insider Marvin Bradford Clevenger Sells 15 , 051 Shares of Stock (2026-08-27)
+- [RKLB] Rocket Lab ( NASDAQ : RKLB ) CFO Sells $673 , 809 . 51 in Stock (2026-08-27)
+- [MCHP] Legal & General Group Plc Purchases Shares of 3 , 427 , 600 Microchip Technology Incorporated $MCHP (2026-08-26)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $28.6M el 2026-08-25 [senal en multiples fuentes].
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $48.4M el 2026-08-24 [senal en multiples fuentes].
-- 10% owner MetLife Investment Management, LLC compro CCD por $7.4M el 2026-08-26 [senal en multiples fuentes].
 - CEO Pferdehirt Douglas J. opero FTI por $48.1M el 2026-08-25.
 - 10% owner Submarine Buyer LLC vendio JMKE por $43.7M el 2026-08-25.
-- 10% owner MetLife Investment Management, LLC compro CHY por $3.4M el 2026-08-26 [senal en multiples fuentes].
+- 10% owner Blecharczyk Nathan vendio ABNB por $38.0M el 2026-08-25.
 - CEO LINDNER CARL H III vendio AFG por $11.7M el 2026-08-26.
-- 10% owner MetLife Investment Management, LLC compro CHI por $2.7M el 2026-08-26 [senal en multiples fuentes].
+- CEO Sutaria Saumya vendio THC por $6.8M el 2026-08-25.
+- CEO Orszag Peter Richard vendio LAZ por $5.4M el 2026-08-25.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $193,492 · win rate 92% · categorias: sports
-- ExplosiveNinja · PnL $64,687 · win rate 97% · categorias: sports
-- comon119 · PnL $23,602 · win rate 97% · categorias: sports
-- SDTrading · PnL $23,729 · win rate 94% · categorias: sports
-- Donghui · PnL $29,548 · win rate 92% · categorias: sports
+- WTSA · PnL $23,154 · win rate 99% · categorias: sports
+- laozishudaosan · PnL $109,397 · win rate 86% · categorias: sports
+- rollobravado · PnL $12,462 · win rate 99% · categorias: sports, politics
+- JnStrtPrdctnMrkts · PnL $32,767 · win rate 89% · categorias: crypto
+- Donghui · PnL $19,643 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +390,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 788 registros 30d · ultimo dato 2026-08-26
+- **sec_insiders**: `ok` · 834 registros 30d · ultimo dato 2026-08-26
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -401,8 +404,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AAT, AMH, AMRC, BWFG, CHTR, GLD, IEF, NGL, QQQ, RSG, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`AAT, AMH, AMRC, BWFG, GLD, IEF, MAX, NGL, QQQ, RSG, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.

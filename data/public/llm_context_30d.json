@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-26T23:51:08.584657+00:00",
+  "generated_at": "2026-08-27T10:02:31.623144+00:00",
   "window": {
-    "from": "2026-07-27",
-    "to": "2026-08-26",
+    "from": "2026-07-28",
+    "to": "2026-08-27",
     "days": 30
   },
   "data_quality": {
@@ -24,7 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings"
+      "earnings",
+      "ai",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -86,46 +88,6 @@
     {
       "id": "move_4",
       "rank": 4,
-      "title": "10% owner compro CCD ($7.4M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CCD por $7.4M el 2026-08-26 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CCD",
-      "direction": "buy",
-      "amount_estimated": 7400000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 85.4,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_927565070858"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003938/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "10% owner compro CCD ($6.1M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CCD por $6.1M el 2026-08-26 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CCD",
-      "direction": "buy",
-      "amount_estimated": 6100000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 85.0,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_927565070858"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003938/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
       "title": "CEO opero FTI ($48.1M)",
       "summary": "CEO Pferdehirt Douglas J. opero FTI por $48.1M el 2026-08-25.",
       "source": "sec_form_4",
@@ -142,8 +104,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1250840/000162828026059115/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro RSG ($5.2M)",
       "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $5.2M el 2026-08-25 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -160,8 +122,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926101497/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro RSG ($9.4M)",
       "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $9.4M el 2026-08-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -178,8 +140,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926101497/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro RSG ($9.4M)",
       "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $9.4M el 2026-08-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -196,28 +158,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926101497/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
-      "title": "10% owner compro CCD ($4.2M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CCD por $4.2M el 2026-08-26 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CCD",
-      "direction": "buy",
-      "amount_estimated": 4200000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 84.2,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_927565070858"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003938/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner vendio JMKE ($43.7M)",
       "summary": "10% owner Submarine Buyer LLC vendio JMKE por $43.7M el 2026-08-25.",
       "source": "sec_form_4",
@@ -234,8 +176,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2138050/000119312526368714/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro RSG ($3.5M)",
       "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $3.5M el 2026-08-25 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -252,26 +194,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926101497/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
-      "title": "10% owner compro CHY ($3.4M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHY por $3.4M el 2026-08-26 [senal en multiples fuentes].",
+      "id": "move_10",
+      "rank": 10,
+      "title": "10% owner vendio ABNB ($38.0M)",
+      "summary": "10% owner Blecharczyk Nathan vendio ABNB por $38.0M el 2026-08-25.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
+      "actor_name": "Blecharczyk Nathan",
       "actor_type": "ten_percent_owner",
-      "ticker": "CHY",
-      "direction": "buy",
-      "amount_estimated": 3360000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 83.7,
-      "cross_source_score": 25.0,
+      "ticker": "ABNB",
+      "direction": "sell",
+      "amount_estimated": 38030327.34,
+      "event_date": "2026-08-25",
+      "importance_score": 83.8,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003936/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1834147/000119312526369139/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio AFG ($11.7M)",
       "summary": "CEO LINDNER CARL H III vendio AFG por $11.7M el 2026-08-26.",
       "source": "sec_form_4",
@@ -288,114 +230,166 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/942082/000119312526368711/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
-      "title": "10% owner compro CCD ($3.2M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CCD por $3.2M el 2026-08-26 [senal en multiples fuentes].",
+      "id": "move_12",
+      "rank": 12,
+      "title": "CEO vendio THC ($6.8M)",
+      "summary": "CEO Sutaria Saumya vendio THC por $6.8M el 2026-08-25.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CCD",
+      "actor_name": "Sutaria Saumya",
+      "actor_type": "ceo",
+      "ticker": "THC",
+      "direction": "sell",
+      "amount_estimated": 6819882.1,
+      "event_date": "2026-08-25",
+      "importance_score": 82.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1760857/000119312526369162/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "CEO vendio LAZ ($5.4M)",
+      "summary": "CEO Orszag Peter Richard vendio LAZ por $5.4M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Orszag Peter Richard",
+      "actor_type": "ceo",
+      "ticker": "LAZ",
+      "direction": "sell",
+      "amount_estimated": 5440037.5,
+      "event_date": "2026-08-25",
+      "importance_score": 82.0,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1837678/000162828026059145/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "CEO compro NPB ($819K)",
+      "summary": "CEO Williams Charles Alan compro NPB por $819K el 2026-08-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Williams Charles Alan",
+      "actor_type": "ceo",
+      "ticker": "NPB",
       "direction": "buy",
-      "amount_estimated": 3200000.0,
+      "amount_estimated": 818680.66,
       "event_date": "2026-08-26",
-      "importance_score": 83.6,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_927565070858"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003938/"
+      "importance_score": 81.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2056588/000205756726000006/"
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "CEO vendio THC ($10.2M)",
+      "summary": "CEO Sutaria Saumya vendio THC por $10.2M el 2026-08-24.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Sutaria Saumya",
+      "actor_type": "ceo",
+      "ticker": "THC",
+      "direction": "sell",
+      "amount_estimated": 10223358.4,
+      "event_date": "2026-08-24",
+      "importance_score": 81.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1760857/000119312526369162/"
     },
     {
       "id": "move_16",
       "rank": 16,
-      "title": "10% owner compro CHI ($2.7M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHI por $2.7M el 2026-08-26 [senal en multiples fuentes].",
+      "title": "CEO vendio NGL ($5.1M)",
+      "summary": "CEO KRIMBILL H MICHAEL vendio NGL por $5.1M el 2026-08-25.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CHI",
-      "direction": "buy",
-      "amount_estimated": 2725000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 83.3,
-      "cross_source_score": 25.0,
+      "actor_name": "KRIMBILL H MICHAEL",
+      "actor_type": "ceo",
+      "ticker": "NGL",
+      "direction": "sell",
+      "amount_estimated": 5100000.0,
+      "event_date": "2026-08-25",
+      "importance_score": 81.9,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003937/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1229738/000122973826000006/"
     },
     {
       "id": "move_17",
       "rank": 17,
-      "title": "10% owner compro CHI ($2.8M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHI por $2.8M el 2026-08-26 [senal en multiples fuentes].",
+      "title": "CEO vendio THC ($4.7M)",
+      "summary": "CEO Sutaria Saumya vendio THC por $4.7M el 2026-08-25.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CHI",
-      "direction": "buy",
-      "amount_estimated": 2800000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 83.3,
-      "cross_source_score": 25.0,
+      "actor_name": "Sutaria Saumya",
+      "actor_type": "ceo",
+      "ticker": "THC",
+      "direction": "sell",
+      "amount_estimated": 4706914.8,
+      "event_date": "2026-08-25",
+      "importance_score": 81.7,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003937/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1760857/000119312526369162/"
     },
     {
       "id": "move_18",
       "rank": 18,
-      "title": "10% owner compro CHY ($2.4M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHY por $2.4M el 2026-08-26 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CHY",
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
+      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
       "direction": "buy",
-      "amount_estimated": 2400000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 83.0,
-      "cross_source_score": 25.0,
+      "amount_estimated": 40145783473,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003936/"
+      "source_url": ""
     },
     {
       "id": "move_19",
       "rank": 19,
-      "title": "10% owner compro CHW ($3.9M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHW por $3.9M el 2026-08-26.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CHW",
+      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
       "direction": "buy",
-      "amount_estimated": 3940000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 82.8,
+      "amount_estimated": 35477573797,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003939/"
+      "source_url": ""
     },
     {
       "id": "move_20",
       "rank": 20,
-      "title": "10% owner compro CHW ($3.4M)",
-      "summary": "10% owner MetLife Investment Management, LLC compro CHW por $3.4M el 2026-08-26.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CHW",
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
+      "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
       "direction": "buy",
-      "amount_estimated": 3360000.0,
-      "event_date": "2026-08-26",
-      "importance_score": 82.5,
+      "amount_estimated": 31430193423,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1529735/000090514826003939/"
+      "source_url": ""
     }
   ],
   "top_tickers": {
@@ -404,24 +398,6 @@
         "ticker": "RSG",
         "company": "REPUBLIC SERVICES, INC.",
         "pressure_score": 672.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "CCD",
-        "company": "Calamos Dynamic Convertible & Income Fund",
-        "pressure_score": 491.3,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "CHI",
-        "company": "CALAMOS CONVERTIBLE OPPORTUNITIES & INCOME FUND",
-        "pressure_score": 481.0,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -458,23 +434,6 @@
         "pressure_score": 414.2,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CHW",
-        "company": "Calamos Global Dynamic Income Fund",
-        "pressure_score": 405.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CHY",
-        "company": "CALAMOS CONVERTIBLE & HIGH INCOME FUND",
-        "pressure_score": 398.9,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -525,6 +484,39 @@
           "corporate_insider",
           "large_holder"
         ]
+      },
+      {
+        "ticker": "AFCG",
+        "company": "Advanced Flower Capital Inc.",
+        "pressure_score": 222.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "NGL",
+        "company": "NGL Energy Partners LP",
+        "pressure_score": 219.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "XXII",
+        "company": "22nd Century Group",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "CHTR",
+        "company": "CHARTER COMMUNICATIONS, INC. /MO/",
+        "pressure_score": 210.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -540,6 +532,14 @@
         "ticker": "STX",
         "company": "Seagate Technology Holdings plc",
         "pressure_score": 1987.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 1951.7,
         "sources": [
           "corporate_insider"
         ]
@@ -561,17 +561,17 @@
         ]
       },
       {
-        "ticker": "HSY",
-        "company": "HERSHEY CO",
-        "pressure_score": 723.4,
+        "ticker": "DASH",
+        "company": "DoorDash, Inc.",
+        "pressure_score": 688.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DASH",
-        "company": "DoorDash, Inc.",
-        "pressure_score": 688.3,
+        "ticker": "DE",
+        "company": "DEERE & CO",
+        "pressure_score": 681.6,
         "sources": [
           "corporate_insider"
         ]
@@ -585,9 +585,34 @@
         ]
       },
       {
+        "ticker": "GDRX",
+        "company": "GoodRx Holdings, Inc.",
+        "pressure_score": 601.7,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 571.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "THC",
+        "company": "TENET HEALTHCARE CORP",
+        "pressure_score": 475.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ABNB",
+        "company": "Airbnb, Inc.",
+        "pressure_score": 468.5,
         "sources": [
           "corporate_insider"
         ]
@@ -601,49 +626,17 @@
         ]
       },
       {
-        "ticker": "MAX",
-        "company": "MediaAlpha, Inc.",
-        "pressure_score": 401.3,
+        "ticker": "TRDA",
+        "company": "Entrada Therapeutics, Inc.",
+        "pressure_score": 427.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "AIO",
-        "company": "Virtus Artificial Intelligence & Technology Opportunities Fund",
-        "pressure_score": 376.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FDSB",
-        "company": "Fifth District Bancorp, Inc.",
-        "pressure_score": 360.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "INTA",
-        "company": "Intapp, Inc.",
-        "pressure_score": 357.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TXG",
-        "company": "10x Genomics, Inc.",
-        "pressure_score": 356.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ZS",
-        "company": "Zscaler, Inc.",
-        "pressure_score": 335.0,
+        "ticker": "U",
+        "company": "Unity Software Inc.",
+        "pressure_score": 426.0,
         "sources": [
           "corporate_insider"
         ]
@@ -679,24 +672,6 @@
       "score": 87.9
     },
     {
-      "ticker": "CCD",
-      "company": "Calamos Dynamic Convertible & Income Fund",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 7400000.0,
-      "date": "2026-08-26",
-      "score": 85.4
-    },
-    {
-      "ticker": "CCD",
-      "company": "Calamos Dynamic Convertible & Income Fund",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 6100000.0,
-      "date": "2026-08-26",
-      "score": 85.0
-    },
-    {
       "ticker": "RSG",
       "company": "REPUBLIC SERVICES, INC.",
       "actor": "CASCADE INVESTMENT, L.L.C.",
@@ -724,15 +699,6 @@
       "score": 84.5
     },
     {
-      "ticker": "CCD",
-      "company": "Calamos Dynamic Convertible & Income Fund",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 4200000.0,
-      "date": "2026-08-26",
-      "score": 84.2
-    },
-    {
       "ticker": "RSG",
       "company": "REPUBLIC SERVICES, INC.",
       "actor": "CASCADE INVESTMENT, L.L.C.",
@@ -742,49 +708,76 @@
       "score": 83.8
     },
     {
-      "ticker": "CHY",
-      "company": "CALAMOS CONVERTIBLE & HIGH INCOME FUND",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 3360000.0,
+      "ticker": "NPB",
+      "company": "NORTHPOINTE BANCSHARES INC",
+      "actor": "Williams Charles Alan",
+      "actor_type": "ceo",
+      "amount": 818680.66,
       "date": "2026-08-26",
-      "score": 83.7
+      "score": 81.9
     },
     {
-      "ticker": "CCD",
-      "company": "Calamos Dynamic Convertible & Income Fund",
-      "actor": "MetLife Investment Management, LLC",
+      "ticker": "AAT",
+      "company": "American Assets Trust, Inc.",
+      "actor": "RADY ERNEST S",
       "actor_type": "ten_percent_owner",
-      "amount": 3200000.0,
+      "amount": 1144500.0,
       "date": "2026-08-26",
-      "score": 83.6
+      "score": 81.4
     },
     {
-      "ticker": "CHI",
-      "company": "CALAMOS CONVERTIBLE OPPORTUNITIES & INCOME FUND",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 2725000.0,
-      "date": "2026-08-26",
-      "score": 83.3
+      "ticker": "NGL",
+      "company": "NGL Energy Partners LP",
+      "actor": "RAYMOND JOHN T",
+      "actor_type": "director",
+      "amount": 5094000.0,
+      "date": "2026-08-25",
+      "score": 80.9
     },
     {
-      "ticker": "CHI",
-      "company": "CALAMOS CONVERTIBLE OPPORTUNITIES & INCOME FUND",
-      "actor": "MetLife Investment Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 2800000.0,
-      "date": "2026-08-26",
-      "score": 83.3
+      "ticker": "NPB",
+      "company": "NORTHPOINTE BANCSHARES INC",
+      "actor": "Williams Charles Alan",
+      "actor_type": "ceo",
+      "amount": 508425.0,
+      "date": "2026-08-25",
+      "score": 80.9
     },
     {
-      "ticker": "CHY",
-      "company": "CALAMOS CONVERTIBLE & HIGH INCOME FUND",
-      "actor": "MetLife Investment Management, LLC",
+      "ticker": "LDI",
+      "company": "loanDepot, Inc.",
+      "actor": "Hsieh Anthony Li",
+      "actor_type": "ceo",
+      "amount": 335071.89,
+      "date": "2026-08-25",
+      "score": 80.0
+    },
+    {
+      "ticker": "NOMD",
+      "company": "Nomad Foods Ltd",
+      "actor": "BRISBY DOMINIC",
+      "actor_type": "ceo",
+      "amount": 619000.0,
+      "date": "2026-08-24",
+      "score": 79.8
+    },
+    {
+      "ticker": "ACDC",
+      "company": "ProFrac Holding Corp.",
+      "actor": "Wilks Dan H.",
       "actor_type": "ten_percent_owner",
-      "amount": 2400000.0,
-      "date": "2026-08-26",
-      "score": 83.0
+      "amount": 1710603.67,
+      "date": "2026-08-24",
+      "score": 79.5
+    },
+    {
+      "ticker": "ACDC",
+      "company": "ProFrac Holding Corp.",
+      "actor": "THRC Holdings, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 1710603.67,
+      "date": "2026-08-24",
+      "score": 79.5
     }
   ],
   "institutional_changes": [
@@ -1110,165 +1103,130 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "SPCEXBUYER",
-        "pnl": 193491.59,
-        "win_rate": 0.9244,
-        "volume": 1220737.59,
+        "wallet": "0x04d5524a0a",
+        "username": "WTSA",
+        "pnl": 23153.73,
+        "win_rate": 0.9873,
+        "volume": 506614.4,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 64687.06,
-        "win_rate": 0.9718,
-        "volume": 502991.88,
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 109397.36,
+        "win_rate": 0.8592,
+        "volume": 247832.19,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc3c3b3ef30",
-        "username": "comon119",
-        "pnl": 23601.63,
-        "win_rate": 0.97,
-        "volume": 687649.83,
+        "wallet": "0x3b62c64eba",
+        "username": "rollobravado",
+        "pnl": 12462.5,
+        "win_rate": 0.9935,
+        "volume": 0.0,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 23729.06,
-        "win_rate": 0.9369,
-        "volume": 82576.18,
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 32767.19,
+        "win_rate": 0.8876,
+        "volume": 204.24,
         "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
         "wallet": "0x58776759ee",
         "username": "Donghui",
-        "pnl": 29548.16,
-        "win_rate": 0.919,
-        "volume": 834897.93,
+        "pnl": 19643.41,
+        "win_rate": 0.9206,
+        "volume": 313440.8,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdd5ef115f8",
-        "username": "Forecastication2",
-        "pnl": 27720.08,
-        "win_rate": 0.915,
-        "volume": 98114.4,
+        "wallet": "0x9c76cdb43f",
+        "username": "Bagwell306",
+        "pnl": 16230.81,
+        "win_rate": 0.925,
+        "volume": 26224.06,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 30533.47,
-        "win_rate": 0.905,
-        "volume": 85126.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe30e745955",
-        "username": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
-        "pnl": 23867.66,
-        "win_rate": 0.8816,
+        "wallet": "0x408fe71e6b",
+        "username": "Winnerdinnerchickenjr",
+        "pnl": 89904.9,
+        "win_rate": 0.7849,
         "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0cdff1e562",
-        "username": "RanaAmariPredicts",
-        "pnl": 33047.02,
-        "win_rate": 0.8473,
-        "volume": 113546.48,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 297597.16,
-        "win_rate": 0.695,
-        "volume": 1196303.58,
+        "wallet": "0xa4fd70a8d7",
+        "username": "alexdave888",
+        "pnl": 22883.41,
+        "win_rate": 0.8732,
+        "volume": 70181.82,
         "categories": [
+          "crypto",
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 301151.98,
+        "win_rate": 0.687,
+        "volume": 3942230.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x88c4919de7",
+        "username": "RenanPresidente.",
+        "pnl": 36511.91,
+        "win_rate": 0.8081,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x6d20c35f65",
-        "username": "Djdjdjekekek",
-        "pnl": 158307.26,
-        "win_rate": 0.4805,
-        "volume": 3371245.95,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 301151.98,
+        "win_rate": 0.687,
+        "volume": 3942230.0,
         "categories": [
           "sports",
-          "crypto"
+          "politics"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 161798.62,
-        "win_rate": 0.642,
-        "volume": 9269283.24,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x14c7111afa",
-        "username": "kilian7kilian",
-        "pnl": 57637.37,
-        "win_rate": 1.0,
-        "volume": 2099865.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x168a51f1ca",
-        "username": "ripley86alien",
-        "pnl": 514448.71,
-        "win_rate": 1.0,
-        "volume": 1070646.19,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x34dd4a4b70",
-        "username": "vito3corleone",
-        "pnl": 197560.8,
-        "win_rate": 1.0,
-        "volume": 1097560.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 221830.64,
-        "win_rate": 0.49,
-        "volume": 1638084.05,
+        "wallet": "0x04d5524a0a",
+        "username": "WTSA",
+        "pnl": 23153.73,
+        "win_rate": 0.9873,
+        "volume": 506614.4,
         "categories": [
           "sports"
         ]
@@ -1276,29 +1234,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 122278.46,
-        "win_rate": 0.576,
-        "volume": 5168039.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd30f4698c",
-        "username": "SPCEXBUYER",
-        "pnl": 193491.59,
-        "win_rate": 0.9244,
-        "volume": 1220737.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 121156.86,
-        "win_rate": 0.554,
-        "volume": 3129799.03,
+        "pnl": 29355.45,
+        "win_rate": 0.575,
+        "volume": 1251080.74,
         "categories": [
           "sports"
         ]
@@ -1306,16 +1244,166 @@
       {
         "wallet": "0x58776759ee",
         "username": "Donghui",
-        "pnl": 29548.16,
-        "win_rate": 0.919,
-        "volume": 834897.93,
+        "pnl": 19643.41,
+        "win_rate": 0.9206,
+        "volume": 313440.8,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 20097.41,
+        "win_rate": 0.533,
+        "volume": 953077.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 57222.44,
+        "win_rate": 0.676,
+        "volume": 766989.01,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 11977.03,
+        "win_rate": 0.561,
+        "volume": 607279.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xa08455c829",
+        "username": "laozishudaosan",
+        "pnl": 109397.36,
+        "win_rate": 0.8592,
+        "volume": 247832.19,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 23549.2,
+        "win_rate": 0.5182,
+        "volume": 75581.93,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 28670.24,
+        "win_rate": 0.315,
+        "volume": 429666.45,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "OMERS ADMINISTRATION Corp Invests $1 . 19 Million in CoreWeave Inc . $CRWV",
+      "url": "https://www.themarketsdaily.com/2026/08/27/omers-administration-corp-invests-1-19-million-in-coreweave-inc-crwv.html",
+      "ticker": "CRWV",
+      "themes": [],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/27/chime-financial-nasdaqchym-major-shareholder-sells-15494530-74-in-stock.html",
+      "ticker": "CHYM",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "FinancialContent - Deere Q2 Earnings Call : Our Top 5 Analyst Questions",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-27-deeres-q2-earnings-call-our-top-5-analyst-questions",
+      "ticker": "DE",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Stolen equipment recovered in wooded area near Snook",
+      "url": "https://www.kbtx.com/2026/08/27/stolen-equipment-recovered-wooded-area-near-snook/",
+      "ticker": "DE",
+      "themes": [],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Rocket Lab ( NASDAQ : RKLB ) Outpaces Planet Labs ( NYSE : PL ) As The Stronger Space Sector Investment",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/26/rocket-lab-nasdaq-rklb-outpaces-planet-labs-nyse-pl-as-the-stronger-space-sector-investment/",
+      "ticker": "RKLB",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Reservoir Announces $10 Million Multi - Year Partnership with John Deere to Accelerate Rugged AI for Agriculture – IT Business Net",
+      "url": "https://itbusinessnet.com/2026/08/reservoir-announces-10-million-multi-year-partnership-with-john-deere-to-accelerate-rugged-ai-for-agriculture/",
+      "ticker": "DE",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Frank Klein Sells 45 , 692 Shares of Rocket Lab ( NASDAQ : RKLB ) Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/27/frank-klein-sells-45692-shares-of-rocket-lab-nasdaqrklb-stock.html",
+      "ticker": "RKLB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Rocket Lab ( NASDAQ : RKLB ) Insider Marvin Bradford Clevenger Sells 15 , 051 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/27/rocket-lab-nasdaqrklb-insider-marvin-bradford-clevenger-sells-15051-shares-of-stock.html",
+      "ticker": "RKLB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Rocket Lab ( NASDAQ : RKLB ) CFO Sells $673 , 809 . 51 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/26/rocket-lab-nasdaqrklb-cfo-sells-673809-51-in-stock.html",
+      "ticker": "RKLB",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Legal & General Group Plc Purchases Shares of 3 , 427 , 600 Microchip Technology Incorporated $MCHP",
+      "url": "https://www.themarketsdaily.com/2026/08/26/legal-general-group-plc-purchases-shares-of-3427600-microchip-technology-incorporated-mchp.html",
+      "ticker": "MCHP",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-26"
+    },
     {
       "title": "Western Digital vs . Seagate Technology : Which Data Storage Stock Is the Better Buy ? ",
       "url": "https://www.fool.com/investing/2026/08/25/western-digital-vs-seagate-technology-which-data-s/?source=iedfolrf0000001",
@@ -1326,6 +1414,15 @@
       "date": "2026-08-25"
     },
     {
+      "title": "Microchip Technology Pays Out $247 Million in Dividends Today",
+      "url": "https://247wallst.com/cards/microchip-technology-is-sending-shareholders-247-1-million-mchp-dividend-payouts-01m0tank9r9g0y8p2dbda0b430",
+      "ticker": "MCHP",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-24"
+    },
+    {
       "title": "Kimball Electronics ( KE ) Q4 2026 Earnings Call Transcript",
       "url": "https://finance.yahoo.com/markets/stocks/articles/kimball-electronics-ke-q4-2026-235805309.html",
       "ticker": "KE",
@@ -1333,6 +1430,13 @@
         "earnings"
       ],
       "date": "2026-08-21"
+    },
+    {
+      "title": "Planet Image International ( NASDAQ : YIBO ) and AstroNova ( NASDAQ : ALOT ) Financial Contrast",
+      "url": "https://www.tickerreport.com/banking-finance/13550074/planet-image-international-nasdaqyibo-and-astronova-nasdaqalot-financial-contrast.html",
+      "ticker": "ALOT",
+      "themes": [],
+      "date": "2026-08-19"
     },
     {
       "title": "Kimball Electronics ( NASDAQ : KE ) Stock Price Down 10 . 2 % – What Next ? ",
@@ -1353,6 +1457,13 @@
       "date": "2026-08-15"
     },
     {
+      "title": "Walleye Capital LLC Takes $2 . 72 Million Position in AstroNova , Inc . $ALOT",
+      "url": "https://www.dailypolitical.com/2026/08/15/walleye-capital-llc-takes-2-72-million-position-in-astronova-inc-alot.html",
+      "ticker": "ALOT",
+      "themes": [],
+      "date": "2026-08-15"
+    },
+    {
       "title": "Chime ( CHYM ) Q2 2026 Earnings Call Transcript",
       "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-q2-2026-earnings-000149694.html",
       "ticker": "CHYM",
@@ -1360,23 +1471,9 @@
         "earnings"
       ],
       "date": "2026-08-14"
-    },
-    {
-      "title": "Calamos Dynamic Convertible and Income Fund ( NASDAQ : CCD ) Share Price Passes Above 50 Day Moving Average – Here Why",
-      "url": "https://www.tickerreport.com/banking-finance/13542308/calamos-dynamic-convertible-and-income-fund-nasdaqccd-share-price-passes-above-50-day-moving-average-heres-why.html",
-      "ticker": "CCD",
-      "themes": [],
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Chime Financial explores stablecoin feature on app - report ( CHYM : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4632641-chime-financial-explores-stablecoin-feature-on-app-report",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-08-13"
     }
   ],
-  "signals_count": 1538,
+  "signals_count": 1584,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

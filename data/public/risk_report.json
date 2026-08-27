@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-26T23:52:03+00:00",
+  "generated_at": "2026-08-27T10:03:23+00:00",
   "portfolio": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0932,
-    "RSG": 0.0744,
-    "AMH": 0.0718,
+    "RSG": 0.0748,
+    "AMH": 0.0721,
     "IEF": 0.0622,
-    "AAT": 0.0597,
-    "BWFG": 0.0552,
-    "CHTR": 0.029,
-    "NGL": 0.027,
-    "AMRC": 0.0177
+    "AAT": 0.0601,
+    "BWFG": 0.0556,
+    "MAX": 0.0273,
+    "NGL": 0.0271,
+    "AMRC": 0.0178
   },
   "metrics": {
-    "ann_vol": 0.0985,
-    "var_95_1d": 0.0096,
-    "cvar_95_1d": 0.0143,
-    "max_drawdown": -0.1073,
-    "beta_spy": 0.5,
-    "hhi": 0.0749,
+    "ann_vol": 0.0997,
+    "var_95_1d": 0.0093,
+    "cvar_95_1d": 0.0144,
+    "max_drawdown": -0.1119,
+    "beta_spy": 0.506,
+    "hhi": 0.075,
     "max_position": 0.12,
     "n_positions": 12,
     "effective_positions": 13.3,
@@ -34,7 +34,7 @@
     "max_gross_exposure": 1.0,
     "respect_regime_budget": true
   },
-  "regime_budget": 0.9,
+  "regime_budget": 0.95,
   "gate": {
     "passed": true,
     "violations": [],
@@ -44,14 +44,14 @@
     "horizon_days": 21,
     "n_sims": 5000,
     "method": "historical_bootstrap",
-    "expected_return_pct": 1.04,
-    "median_return_pct": 1.03,
-    "p5_return_pct": -3.58,
-    "p25_return_pct": -0.79,
-    "p75_return_pct": 2.79,
-    "p95_return_pct": 5.7,
-    "prob_loss": 0.35,
-    "var_95_horizon": 0.0358,
-    "cvar_95_horizon": 0.0479
+    "expected_return_pct": 1.12,
+    "median_return_pct": 1.09,
+    "p5_return_pct": -3.57,
+    "p25_return_pct": -0.74,
+    "p75_return_pct": 2.9,
+    "p95_return_pct": 5.8,
+    "prob_loss": 0.341,
+    "var_95_horizon": 0.0357,
+    "cvar_95_horizon": 0.0476
   }
 }
