@@ -1,22 +1,24 @@
 {
-  "generated_at": "2026-08-27T10:03:23+00:00",
+  "generated_at": "2026-08-27T20:47:03+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0932,
-    "RSG": 0.0748,
-    "AMH": 0.0721,
+    "RSG": 0.0668,
     "IEF": 0.0622,
-    "AAT": 0.0601,
-    "BWFG": 0.0556,
-    "MAX": 0.0273,
-    "NGL": 0.0271,
-    "AMRC": 0.0178
+    "DGICA": 0.0571,
+    "NPB": 0.0457,
+    "SCHL": 0.0406,
+    "GNK": 0.0363,
+    "CHTR": 0.026,
+    "MAX": 0.0251,
+    "IMTX": 0.0217,
+    "ACDC": 0.0154
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.0665,
-    "AMRC": 0.0158,
-    "AAT": 0.0534,
-    "NGL": 0.0241,
-    "BWFG": 0.0494,
-    "AMH": 0.0641,
-    "MAX": 0.0243
+    "RSG": 0.0594,
+    "CHTR": 0.0231,
+    "ACDC": 0.0137,
+    "GNK": 0.0323,
+    "IMTX": 0.0193,
+    "NPB": 0.0406,
+    "DGICA": 0.0508,
+    "SCHL": 0.0361,
+    "MAX": 0.0223
   },
   "satellite_rationale": [
     {
@@ -45,45 +49,61 @@
       "n_signals": 8
     },
     {
-      "ticker": "AMRC",
-      "score": 313.5,
+      "ticker": "CHTR",
+      "score": 210.0,
       "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "AAT",
-      "score": 198.2,
-      "sources": [
-        "corporate_insider",
         "large_holder"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "NGL",
-      "score": 154.8,
+      "ticker": "ACDC",
+      "score": 187.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "GNK",
+      "score": 140.4,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "IMTX",
+      "score": 137.7,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "NPB",
+      "score": 129.1,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "BWFG",
-      "score": 110.3,
+      "ticker": "DGICA",
+      "score": 119.7,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "AMH",
-      "score": 109.3,
+      "ticker": "SCHL",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "MAX",
@@ -95,17 +115,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0794,
-    "var_95_1d": 0.0085,
-    "cvar_95_1d": 0.0109,
-    "max_drawdown": -0.0582,
-    "beta_spy": 0.472,
-    "hhi": 0.075,
+    "ann_vol": 0.0849,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.0107,
+    "max_drawdown": -0.0473,
+    "beta_spy": 0.486,
+    "hhi": 0.0705,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.3,
-    "gross_exposure": 0.8502,
-    "days_used": 275
+    "n_positions": 14,
+    "effective_positions": 14.2,
+    "gross_exposure": 0.8501,
+    "days_used": 192
   },
   "risk_gate": {
     "passed": true,
