@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-08-28T05:38:43.149724+00:00",
+  "generated_at": "2026-08-28T18:59:19.523221+00:00",
   "window": {
     "from": "2026-07-29",
     "to": "2026-08-28",
@@ -23,10 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
       "stock",
-      "merger",
-      "leadership"
+      "ai",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -70,6 +69,24 @@
     {
       "id": "move_3",
       "rank": 3,
+      "title": "CEO compro KLAR ($9.9M)",
+      "summary": "CEO Siemiatkowski Sebastian compro KLAR por $9.9M el 2026-08-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Siemiatkowski Sebastian",
+      "actor_type": "ceo",
+      "ticker": "KLAR",
+      "direction": "buy",
+      "amount_estimated": 9949164.45,
+      "event_date": "2026-08-26",
+      "importance_score": 85.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2097107/000209710726000004/"
+    },
+    {
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio FIX ($25.8M)",
       "summary": "CEO Lane Brian E. vendio FIX por $25.8M el 2026-08-26.",
       "source": "sec_form_4",
@@ -86,8 +103,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1448240/000144824026000019/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
+      "title": "10% owner vendio RLAY ($116.4M)",
+      "summary": "10% owner SVF Pauling (Cayman) Ltd vendio RLAY por $116.4M el 2026-08-25.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "SVF Pauling (Cayman) Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "RLAY",
+      "direction": "sell",
+      "amount_estimated": 116400000.0,
+      "event_date": "2026-08-25",
+      "importance_score": 84.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1731509/000149315226040513/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO opero SNDK ($73.7M)",
       "summary": "CEO Goeckeler David opero SNDK por $73.7M el 2026-08-25.",
       "source": "sec_form_4",
@@ -104,8 +139,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1713941/000136324926000071/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio ABT ($25.3M)",
       "summary": "CEO Ford Robert B vendio ABT por $25.3M el 2026-08-25.",
       "source": "sec_form_4",
@@ -122,8 +157,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1612571/000161257126000011/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO compro SGI ($1.9M)",
       "summary": "CEO THOMPSON SCOTT L compro SGI por $1.9M el 2026-08-27.",
       "source": "sec_form_4",
@@ -140,8 +175,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1206399/000120639926000007/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO vendio ABT ($20.9M)",
       "summary": "CEO Ford Robert B vendio ABT por $20.9M el 2026-08-25.",
       "source": "sec_form_4",
@@ -158,8 +193,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1612571/000161257126000011/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Director compro IMTX ($7.5M)",
       "summary": "Director PERCEPTIVE ADVISORS LLC compro IMTX por $7.5M el 2026-08-26 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -176,8 +211,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1164426/000119312526371237/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO opero ABT ($14.8M)",
       "summary": "CEO Ford Robert B opero ABT por $14.8M el 2026-08-25.",
       "source": "sec_form_4",
@@ -194,8 +229,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1612571/000161257126000011/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "10% owner opero MAIR ($300.0M)",
       "summary": "10% owner Gies Larry opero MAIR por $300.0M el 2026-08-25.",
       "source": "sec_form_4",
@@ -212,8 +247,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1808203/000119312526371628/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "10% owner opero MAIR ($320.0M)",
       "summary": "10% owner Gies Larry opero MAIR por $320.0M el 2026-08-25.",
       "source": "sec_form_4",
@@ -230,8 +265,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1808203/000119312526371628/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "CEO vendio CRWV ($11.8M)",
       "summary": "CEO Intrator Michael N vendio CRWV por $11.8M el 2026-08-25.",
       "source": "sec_form_4",
@@ -248,8 +283,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000412/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "10% owner compro JTTT ($2.3M)",
       "summary": "10% owner JATT Ventures III L.P. compro JTTT por $2.3M el 2026-08-27.",
       "source": "sec_form_4",
@@ -266,26 +301,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1870329/000121390026094460/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
-      "title": "CEO vendio MRCY ($9.4M)",
-      "summary": "CEO Ballhaus William L vendio MRCY por $9.4M el 2026-08-25.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Ballhaus William L",
-      "actor_type": "ceo",
-      "ticker": "MRCY",
-      "direction": "sell",
-      "amount_estimated": 9373214.89,
-      "event_date": "2026-08-25",
-      "importance_score": 81.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1436044/000104952126000063/"
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -302,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -320,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -338,8 +355,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -356,8 +373,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -367,24 +384,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 28704244679,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
-      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 27986738310,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -435,6 +434,14 @@
         ]
       },
       {
+        "ticker": "RCG",
+        "company": "RENN Fund, Inc.",
+        "pressure_score": 272.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AMRC",
         "company": "Ameresco, Inc.",
         "pressure_score": 225.5,
@@ -453,9 +460,9 @@
         ]
       },
       {
-        "ticker": "NYC",
-        "company": "American Strategic Investment Co.",
-        "pressure_score": 217.7,
+        "ticker": "MED",
+        "company": "MEDIFAST INC",
+        "pressure_score": 215.4,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -494,14 +501,6 @@
         ]
       },
       {
-        "ticker": "VBIO",
-        "company": "Valion Bio, Inc.",
-        "pressure_score": 207.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "QVCG",
         "company": "QVC Group, Inc.",
         "pressure_score": 204.6,
@@ -528,33 +527,9 @@
         ]
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 2345.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 2320.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CRS",
         "company": "CARPENTER TECHNOLOGY CORP",
         "pressure_score": 1643.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1525.7,
         "sources": [
           "corporate_insider"
         ]
@@ -584,14 +559,6 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 608.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "AMD",
         "company": "ADVANCED MICRO DEVICES INC",
         "pressure_score": 596.1,
@@ -616,15 +583,6 @@
         ]
       },
       {
-        "ticker": "GNK",
-        "company": "GENCO SHIPPING & TRADING LTD",
-        "pressure_score": 388.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "TWST",
         "company": "Twist Bioscience Corp",
         "pressure_score": 383.8,
@@ -636,6 +594,46 @@
         "ticker": "EDRY",
         "company": "EuroDry Ltd.",
         "pressure_score": 320.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SMWB",
+        "company": "SIMILARWEB LTD.",
+        "pressure_score": 310.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HNI",
+        "company": "HNI CORP",
+        "pressure_score": 302.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NSSC",
+        "company": "NAPCO SECURITY TECHNOLOGIES, INC",
+        "pressure_score": 298.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GILD",
+        "company": "GILEAD SCIENCES, INC.",
+        "pressure_score": 289.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ATEX",
+        "company": "Anterix Inc.",
+        "pressure_score": 284.3,
         "sources": [
           "corporate_insider"
         ]
@@ -651,6 +649,15 @@
       "amount": 218999984.28,
       "date": "2026-08-25",
       "score": 88.3
+    },
+    {
+      "ticker": "KLAR",
+      "company": "Klarna Group plc",
+      "actor": "Siemiatkowski Sebastian",
+      "actor_type": "ceo",
+      "amount": 9949164.45,
+      "date": "2026-08-26",
+      "score": 85.8
     },
     {
       "ticker": "SGI",
@@ -734,15 +741,6 @@
       "score": 76.2
     },
     {
-      "ticker": "DGICA",
-      "company": "DONEGAL GROUP INC",
-      "actor": "DONEGAL MUTUAL INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 181668.41,
-      "date": "2026-08-26",
-      "score": 76.1
-    },
-    {
       "ticker": "BMRA",
       "company": "BIOMERICA INC",
       "actor": "Irani Zackary S.",
@@ -761,6 +759,15 @@
       "score": 75.8
     },
     {
+      "ticker": "MED",
+      "company": "MEDIFAST INC",
+      "actor": "Kiai Parsa",
+      "actor_type": "director",
+      "amount": 514747.82,
+      "date": "2026-08-26",
+      "score": 75.7
+    },
+    {
       "ticker": "RGNX",
       "company": "REGENXBIO Inc.",
       "actor": "Ciongoli Gregory Austin",
@@ -768,15 +775,6 @@
       "amount": 449705.56,
       "date": "2026-08-26",
       "score": 75.6
-    },
-    {
-      "ticker": "AMRC",
-      "company": "Ameresco, Inc.",
-      "actor": "Sakellaris George P",
-      "actor_type": "ceo",
-      "amount": 21920.0,
-      "date": "2026-08-26",
-      "score": 75.3
     }
   ],
   "institutional_changes": [
@@ -1102,10 +1100,41 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x1058f156b2",
+        "username": "TheyAreTakingTheHobitsToIsengard",
+        "pnl": 112160.98,
+        "win_rate": 0.9918,
+        "volume": 102812.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcd30f4698c",
+        "username": "SPCEXBUYER",
+        "pnl": 248418.94,
+        "win_rate": 0.9268,
+        "volume": 651991.02,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 79338.81,
+        "win_rate": 0.9233,
+        "volume": 316481.56,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xf28e42d20e",
         "username": "ethanaz",
-        "pnl": 77504.96,
-        "win_rate": 0.8902,
+        "pnl": 80634.39,
+        "win_rate": 0.8906,
         "volume": 217710.83,
         "categories": [
           "sports",
@@ -1113,22 +1142,22 @@
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 28860.91,
-        "win_rate": 0.9224,
-        "volume": 52758.76,
+        "wallet": "0xa4fd70a8d7",
+        "username": "alexdave888",
+        "pnl": 67227.95,
+        "win_rate": 0.8803,
+        "volume": 1188810.53,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
         ]
       },
       {
         "wallet": "0x134a63b764",
         "username": "Bertapotamous",
-        "pnl": 61434.2,
-        "win_rate": 0.852,
-        "volume": 0.0,
+        "pnl": 60672.7,
+        "win_rate": 0.853,
+        "volume": 63565.41,
         "categories": [
           "politics",
           "sports",
@@ -1136,13 +1165,15 @@
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 17793.76,
-        "win_rate": 0.906,
-        "volume": 888.0,
+        "wallet": "0x3a8aa345d5",
+        "username": "TheReturnOfDarthMaul",
+        "pnl": 452910.48,
+        "win_rate": 0.72,
+        "volume": 513946.03,
         "categories": [
-          "sports"
+          "crypto",
+          "sports",
+          "politics"
         ]
       },
       {
@@ -1156,52 +1187,23 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 445937.38,
-        "win_rate": 0.694,
-        "volume": 1274205.62,
+        "wallet": "0x8b4bca1d79",
+        "username": "0x8B4bcA1D794779E66e023D44391B2A86C5ab541B-1769764313952",
+        "pnl": 54565.36,
+        "win_rate": 0.8252,
+        "volume": 1290.48,
         "categories": [
           "sports",
+          "crypto",
           "politics"
         ]
       },
       {
-        "wallet": "0x65c18d740c",
-        "username": "casualbet2020",
-        "pnl": 19501.12,
-        "win_rate": 0.8906,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 12573.43,
-        "win_rate": 0.9122,
-        "volume": 31570.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 250572.88,
-        "win_rate": 0.689,
-        "volume": 964533.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcf6c549212",
-        "username": "one8tyfive",
-        "pnl": 22166.54,
-        "win_rate": 0.832,
-        "volume": 40065.04,
+        "wallet": "0x14c7111afa",
+        "username": "kilian7kilian",
+        "pnl": 327124.54,
+        "win_rate": 1.0,
+        "volume": 2528934.11,
         "categories": [
           "sports"
         ]
@@ -1209,9 +1211,40 @@
     ],
     "whales": [
       {
+        "wallet": "0x34dd4a4b70",
+        "username": "vito3corleone",
+        "pnl": 924183.96,
+        "win_rate": 1.0,
+        "volume": 1869134.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x14c7111afa",
+        "username": "kilian7kilian",
+        "pnl": 327124.54,
+        "win_rate": 1.0,
+        "volume": 2528934.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 250688.61,
+        "win_rate": 0.693,
+        "volume": 2627702.51,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xee00ba338c",
         "username": "S-Works",
-        "pnl": 84095.86,
+        "pnl": 84095.9,
         "win_rate": 0.523,
         "volume": 2855555.0,
         "categories": [
@@ -1220,6 +1253,26 @@
         ]
       },
       {
+        "wallet": "0xc9a24fa249",
+        "username": "0x7A3f9C2D8b41E6a570F2c93B1d4E8A",
+        "pnl": 198134.53,
+        "win_rate": 0.9,
+        "volume": 1840073.63,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 244018.27,
+        "win_rate": 0.645,
+        "volume": 4917085.4,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xc3acf5878a",
         "username": "mentionmarket",
         "pnl": 471092.46,
@@ -1230,132 +1283,71 @@
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 445937.38,
-        "win_rate": 0.694,
-        "volume": 1274205.62,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 171201.65,
-        "win_rate": 0.498,
-        "volume": 781868.57,
+        "pnl": 250123.25,
+        "win_rate": 0.475,
+        "volume": 1120189.83,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x14c7111afa",
-        "username": "kilian7kilian",
-        "pnl": 119797.79,
-        "win_rate": 1.0,
-        "volume": 369746.27,
+        "wallet": "0xcd30f4698c",
+        "username": "SPCEXBUYER",
+        "pnl": 248418.94,
+        "win_rate": 0.9268,
+        "volume": 651991.02,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 167337.48,
-        "win_rate": 0.647,
-        "volume": 1705889.19,
+        "wallet": "0x7b02b2bac2",
+        "username": "foodenjoyer",
+        "pnl": 90040.47,
+        "win_rate": 0.4919,
+        "volume": 364506.58,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 250572.88,
-        "win_rate": 0.689,
-        "volume": 964533.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 11594.58,
-        "win_rate": 0.583,
-        "volume": 954217.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 89908.26,
-        "win_rate": 0.552,
-        "volume": 713847.35,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 65329.5,
-        "win_rate": 0.583,
-        "volume": 633765.93,
-        "categories": [
-          "sports"
+          "economy",
+          "crypto",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "The threat hanging over Nepal : What happens next after the deadly floods ? ",
-      "url": "https://www.sbs.com.au/news/article/nepal-floods-what-happens-next-risk-of-another-disaster/s52qd6oin",
-      "ticker": "HAPN",
+      "title": "Optics Stocks Slide as AI Hardware Trade Cools : Applied Optoelectronics and Lumentum Fall 6 %, Coherent Drops 5 % ",
+      "url": "https://247wallst.com/investing/2026/08/28/optics-stocks-slide-as-ai-hardware-trade-cools-applied-optoelectronics-and-lumentum-fall-6-coherent-drops-5/",
+      "ticker": "LITE",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-08-28"
+    },
+    {
+      "title": "Alphabet ( GOOGL ) Early SpaceX ( SPCX ) Investment Skyrockets 100 - Fold to $94 Billion Over a Decade",
+      "url": "https://www.insidermonkey.com/blog/alphabet-googls-early-spacex-spcx-investment-skyrockets-100-fold-to-94-billion-over-a-decade-1813204/",
+      "ticker": "GOOGL",
       "themes": [],
       "date": "2026-08-28"
     },
     {
-      "title": "INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alphabet Inc . ",
-      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alphabet-inc---goog-302862343.html",
+      "title": "Google Retreats Across 30 Markets to Defuse a 10 % Revenue Risk",
+      "url": "https://finance.yahoo.com/technology/articles/google-retreats-across-30-markets-171239204.html",
       "ticker": "GOOGL",
       "themes": [
-        "ai"
+        "earnings"
       ],
       "date": "2026-08-28"
     },
     {
-      "title": "Western Digital Stock Is Down Sharply : Why the Bull Case Still Looks Strong",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stock-down-sharply-140614180.html",
-      "ticker": "WDC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Tempus AI ( TEM ) Jumped on Moderna Melanoma Win . Did its $1 . 5B Personalis Acquisition Just Get Validated ? ",
-      "url": "https://www.insidermonkey.com/blog/tempus-ai-tem-jumped-on-modernas-melanoma-win-did-its-1-5b-personalis-acquisition-just-get-validated-1821015/",
-      "ticker": "TEM",
-      "themes": [
-        "ai",
-        "merger"
-      ],
-      "date": "2026-08-27"
-    },
-    {
-      "title": "2 , 480 Shares in Carpenter Technology Corporation $CRS Acquired by Castleark Management LLC",
-      "url": "https://www.tickerreport.com/banking-finance/13560432/2480-shares-in-carpenter-technology-corporation-crs-acquired-by-castleark-management-llc.html",
-      "ticker": "CRS",
-      "themes": [
-        "merger",
-        "stock"
-      ],
+      "title": "Figma ( NYSE : FIG ) Trading Up 10 . 1 % – Here What Happened",
+      "url": "https://www.themarketsdaily.com/2026/08/27/figma-nysefig-trading-up-10-1-heres-what-happened.html",
+      "ticker": "FIG",
+      "themes": [],
       "date": "2026-08-27"
     },
     {
@@ -1375,39 +1367,10 @@
       "date": "2026-08-26"
     },
     {
-      "title": "Brokerages Set Tempus AI , Inc . ( NASDAQ : TEM ) Price Target at $65 . 69",
-      "url": "https://www.tickerreport.com/banking-finance/13558654/brokerages-set-tempus-ai-inc-nasdaqtem-price-target-at-65-69.html",
-      "ticker": "TEM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Why Tempus AI Skyrocketed This Week",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-tempus-ai-skyrocketed-week-113500655.html",
-      "ticker": "TEM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-23"
-    },
-    {
-      "title": "Why Tempus AI Skyrocketed This Week | The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/23/why-tempus-ai-skyrocketed-this-week/?source=iedfolrf0000001",
-      "ticker": "TEM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-23"
-    },
-    {
-      "title": "Carpenter Technology ( CRS ) Appoints Ken Giacobbe To Its Board",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-appoints-ken-070943439.html",
-      "ticker": "CRS",
-      "themes": [
-        "leadership"
-      ],
+      "title": "Evolve Private Wealth LLC Takes $1 . 86 Million Position in Illumina , Inc . $ILMN",
+      "url": "https://www.themarketsdaily.com/2026/08/23/evolve-private-wealth-llc-takes-1-86-million-position-in-illumina-inc-ilmn.html",
+      "ticker": "ILMN",
+      "themes": [],
       "date": "2026-08-23"
     },
     {
@@ -1420,7 +1383,7 @@
       "date": "2026-08-17"
     }
   ],
-  "signals_count": 1520,
+  "signals_count": 1392,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
