@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:47:03+00:00",
+  "generated_at": "2026-08-28T05:39:31+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.8501,
@@ -9,16 +9,14 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0932,
-    "RSG": 0.0668,
+    "WELL": 0.0876,
+    "SCHL": 0.063,
+    "GNK": 0.0629,
     "IEF": 0.0622,
-    "DGICA": 0.0571,
-    "NPB": 0.0457,
-    "SCHL": 0.0406,
-    "GNK": 0.0363,
-    "CHTR": 0.026,
-    "MAX": 0.0251,
-    "IMTX": 0.0217,
-    "ACDC": 0.0154
+    "MAIR": 0.0387,
+    "CHTR": 0.0353,
+    "AMRC": 0.0272,
+    "RGNX": 0.02
   },
   "core": {
     "SPY": 0.1934,
@@ -28,39 +26,28 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.0594,
-    "CHTR": 0.0231,
-    "ACDC": 0.0137,
-    "GNK": 0.0323,
-    "IMTX": 0.0193,
-    "NPB": 0.0406,
-    "DGICA": 0.0508,
-    "SCHL": 0.0361,
-    "MAX": 0.0223
+    "WELL": 0.0779,
+    "CHTR": 0.0314,
+    "GNK": 0.0559,
+    "AMRC": 0.0242,
+    "RGNX": 0.0178,
+    "MAIR": 0.0344,
+    "SCHL": 0.056
   },
   "satellite_rationale": [
     {
-      "ticker": "RSG",
-      "score": 553.3,
+      "ticker": "WELL",
+      "score": 241.6,
       "sources": [
-        "corporate_insider",
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 8
+      "n_signals": 4
     },
     {
       "ticker": "CHTR",
       "score": 210.0,
       "sources": [
         "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "ACDC",
-      "score": 187.6,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 3
     },
@@ -73,8 +60,8 @@
       "n_signals": 2
     },
     {
-      "ticker": "IMTX",
-      "score": 137.7,
+      "ticker": "AMRC",
+      "score": 132.1,
       "sources": [
         "corporate_insider",
         "large_holder"
@@ -82,20 +69,20 @@
       "n_signals": 2
     },
     {
-      "ticker": "NPB",
-      "score": 129.1,
+      "ticker": "RGNX",
+      "score": 119.8,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "DGICA",
-      "score": 119.7,
+      "ticker": "MAIR",
+      "score": 73.5,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "SCHL",
@@ -104,28 +91,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "MAX",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0849,
-    "var_95_1d": 0.0091,
-    "cvar_95_1d": 0.0107,
-    "max_drawdown": -0.0473,
-    "beta_spy": 0.486,
-    "hhi": 0.0705,
+    "ann_vol": 0.1133,
+    "var_95_1d": 0.0097,
+    "cvar_95_1d": 0.0134,
+    "max_drawdown": -0.0449,
+    "beta_spy": 0.684,
+    "hhi": 0.0752,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 14.2,
+    "n_positions": 12,
+    "effective_positions": 13.3,
     "gross_exposure": 0.8501,
-    "days_used": 192
+    "days_used": 92
   },
   "risk_gate": {
     "passed": true,

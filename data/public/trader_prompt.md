@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-27T20:47:04+00:00 -->
+<!-- trader_prompt.md generado 2026-08-28T05:39:32+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-27T20:47:04+00:00 · ventana señales 2026-07-28 -> 2026-08-27_
+_Generado 2026-08-28T05:39:32+00:00 · ventana señales 2026-07-29 -> 2026-08-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -259,35 +259,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 721.11 | 1.37% | 1.43% | 5.49% |
 | TLT | 12.0% | core | 83.13 | -0.2% | 0.96% | 0.8% |
 | GLD | 9.3% | core | 422.6 | 0.3% | 1.77% | 12.05% |
-| RSG | 6.7% | satellite | 219.27 | -1.31% | -0.1% | 3.76% |
+| WELL | 8.8% | satellite | 239.6 | -0.81% | 0.93% | 2.07% |
+| SCHL | 6.3% | satellite | 39.11 | -2.1% | -2.18% | -6.52% |
+| GNK | 6.3% | satellite | 25.81 | -0.08% | -1.07% | 2.46% |
 | IEF | 6.2% | core | 93.23 | -0.1% | 0.25% | 0.36% |
-| DGICA | 5.7% | satellite | 18.98 | -0.63% | 1.66% | -3.0% |
-| NPB | 4.6% | satellite | 17.11 | 1.3% | -1.21% | -0.98% |
-| SCHL | 4.1% | satellite | 39.11 | -2.1% | -2.18% | -6.52% |
-| GNK | 3.6% | satellite | 25.81 | -0.08% | -1.07% | 2.46% |
-| CHTR | 2.6% | satellite | 148.32 | -3.62% | 0.38% | 4.45% |
-| MAX | 2.5% | satellite | 12.57 | -0.79% | -4.56% | -7.16% |
-| IMTX | 2.2% | satellite | 9.36 | -0.74% | 9.47% | 1.74% |
-| ACDC | 1.5% | satellite | 5.26 | 13.85% | 18.47% | 41.78% |
+| MAIR | 3.9% | satellite | 27.17 | -4.7% | 3.5% | -6.76% |
+| CHTR | 3.5% | satellite | 148.32 | -3.62% | 0.38% | 4.45% |
+| AMRC | 2.7% | satellite | 22.91 | 3.38% | 3.24% | 10.89% |
+| RGNX | 2.0% | satellite | 9.37 | -0.11% | -15.28% | -7.41% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.5%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -4.7%
-- Beta vs SPY: 0.486 · posiciones efectivas: 14.2 · HHI: 0.0705
+- Volatilidad anualizada: 11.3%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -4.5%
+- Beta vs SPY: 0.684 · posiciones efectivas: 13.3 · HHI: 0.0752
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **RSG** · score agregado 553.3 · 8 señales · fuentes: corporate_insider, large_holder
+- **WELL** · score agregado 241.6 · 4 señales · fuentes: corporate_insider
 - **CHTR** · score agregado 210.0 · 3 señales · fuentes: large_holder
-- **ACDC** · score agregado 187.6 · 3 señales · fuentes: corporate_insider
 - **GNK** · score agregado 140.4 · 2 señales · fuentes: large_holder
-- **IMTX** · score agregado 137.7 · 2 señales · fuentes: corporate_insider, large_holder
-- **NPB** · score agregado 129.1 · 2 señales · fuentes: corporate_insider
-- **DGICA** · score agregado 119.7 · 2 señales · fuentes: corporate_insider
+- **AMRC** · score agregado 132.1 · 2 señales · fuentes: corporate_insider, large_holder
+- **RGNX** · score agregado 119.8 · 2 señales · fuentes: corporate_insider
+- **MAIR** · score agregado 73.5 · 1 señales · fuentes: corporate_insider
 - **SCHL** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **MAX** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -295,34 +291,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| BMRA | 79 | corporate_insider | Irani Zackary S. | 5 | $50,000 | cluster_buy |
+| BMRA | 75 | corporate_insider | Gary M. Huff | 5 | $50,000 | cluster_buy |
+| BMRA | 74 | corporate_insider | BARBIERI ALLEN | 5 | $32,000 | cluster_buy |
 | MAIR | 74 | corporate_insider | BERTARELLI ERNESTO | 0 | $218,999,984 | - |
-| RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $48,434,861 | - |
+| BMRA | 72 | corporate_insider | MOATAZEDI DAVID | 5 | $16,000 | cluster_buy,small_amount |
 | SCHL | 72 | large_holder | Iole Lucchese |  | - | - |
 | IMTX | 72 | large_holder | Perceptive Advisors LLC |  | - | - |
-| MAX | 72 | large_holder | Eugene Nonko |  | - | - |
-| GNSS | 72 | large_holder | INTEGRITY WEALTH ADVISORS |  | - | - |
+| AMRC | 72 | large_holder | Gagnon Securities LLC |  | - | - |
+| VTMX | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | TG | 72 | large_holder | John D. Gottwald |  | - | - |
-| RSG | 71 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $28,582,652 | - |
+| BMRA | 72 | corporate_insider | Chin Eric | 5 | $10,000 | cluster_buy,small_amount |
+| LIEN | 71 | corporate_insider | Gordon Scott | 2 | $50,940 | cluster_buy |
+| TACT | 70 | large_holder | Charles M. Gillman |  | - | - |
 | ADXN | 70 | large_holder | Timothy Mark Dyer |  | - | - |
 | BPRE | 70 | large_holder | Saba Capital Management,  |  | - | - |
-| CLST | 70 | large_holder | Stilwell Activist Fund, L |  | - | - |
-| FGL | 70 | large_holder | Marex Financial |  | - | - |
-| PESI | 70 | large_holder | HOLD Alapkezelo Zrt. |  | - | - |
-| HUYA | 70 | large_holder | OLP CAPITAL MANAGEMENT Lt |  | - | - |
-| AGCC | 70 | large_holder | Bliss Vision Limited |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| JMKE | 60 | corporate_insider | Submarine Buyer LLC | $43,728,908 | - |
-| JMKE | 60 | corporate_insider | Blackstone Holdings II L. | $43,728,908 | - |
-| ABNB | 59 | corporate_insider | Blecharczyk Nathan | $38,030,327 | - |
-| AFG | 59 | corporate_insider | LINDNER CARL H III | $11,740,594 | - |
-| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $26,718,802 | - |
-| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $26,718,802 | - |
-| THC | 58 | corporate_insider | Sutaria Saumya | $10,223,358 | - |
-| ABNB | 58 | corporate_insider | Blecharczyk Nathan | $18,663,887 | - |
+| IHT | 63 | corporate_insider | WIRTH JAMES F | $215,037,053 | - |
+| FIX | 60 | corporate_insider | Lane Brian E. | $25,769,923 | - |
+| ABT | 60 | corporate_insider | Ford Robert B | $25,256,090 | - |
+| ABT | 60 | corporate_insider | Ford Robert B | $20,948,708 | - |
+| CRWV | 59 | corporate_insider | Intrator Michael N | $11,838,813 | - |
+| MRCY | 58 | corporate_insider | Ballhaus William L | $9,373,215 | - |
+| CRWV | 57 | corporate_insider | Intrator Michael N | $6,374,399 | - |
+| CRS | 57 | corporate_insider | Thene Tony R | $5,766,410 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -339,54 +335,54 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 93.23 (-0.1% / 0.25% / 0.36%) [2026-08-27]
 - GLD: 422.6 (0.3% / 1.77% / 12.05%) [2026-08-27]
 - ^VIX: 14.51 (-4.6% / -9.37% / -15.1%) [2026-08-27]
-- BTC-USD: 80057.85 (1.3% / 3.86% / 23.39%) [2026-08-27]
+- BTC-USD: 79831.83 (1.02% / 3.57% / 23.04%) [2026-08-28]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.19 (delta 1m: -0.07) [2026-08-26]
 - Treasury 10Y yield: 4.66 (delta 1m: 0.05) [2026-08-26]
-- Curva 10Y-2Y: 0.47 (delta 1m: 0.12) [2026-08-26]
+- Curva 10Y-2Y: 0.47 (delta 1m: 0.02) [2026-08-27]
 - Fed Funds Rate: 3.63 (delta 1m: -1.2) [2026-07-01]
 - High yield spread (OAS): 2.67 (delta 1m: -0.17) [2026-08-26]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-07-01]
-- Breakeven inflacion 10Y: 2.32 (delta 1m: 0.12) [2026-08-26]
+- Breakeven inflacion 10Y: 2.33 (delta 1m: 0.07) [2026-08-27]
 - Dolar broad index: 118.0628 (delta 1m: -2.845) [2026-08-21]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), earnings (2), regulatory (1), merger (1)
+**Temas dominantes**: ai (5), stock (4), merger (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DE] Daybreak Aug . 27 : AEWR rule sent back to Labor Department (2026-08-27)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
-- [DE] FinancialContent - Deere Q2 Earnings Call : Our Top 5 Analyst Questions (2026-08-27)
-- [DE] Stolen equipment recovered in wooded area near Snook (2026-08-27)
-- [RKLB] Rocket Lab ( NASDAQ : RKLB ) Outpaces Planet Labs ( NYSE : PL ) As The Stronger Space Sector Investment (2026-08-27)
-- [RKLB] Frank Klein Sells 45 , 692 Shares of Rocket Lab ( NASDAQ : RKLB ) Stock (2026-08-27)
-- [RKLB] Rocket Lab ( NASDAQ : RKLB ) Insider Marvin Bradford Clevenger Sells 15 , 051 Shares of Stock (2026-08-27)
-- [RKLB] Rocket Lab ( NASDAQ : RKLB ) CFO Sells $673 , 809 . 51 in Stock (2026-08-27)
-- [LEG] Leggett & Platt ( NYSE : LEG ) Sees Large Volume Increase – Here Why (2026-08-26)
-- [LEG] Somnigroup Completes Combination with Leggett & Platt (2026-08-26)
+- [HAPN] The threat hanging over Nepal : What happens next after the deadly floods ? (2026-08-28)
+- [GOOGL] INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alphabet Inc . (2026-08-28)
+- [WDC] Western Digital Stock Is Down Sharply : Why the Bull Case Still Looks Strong (2026-08-28)
+- [TEM] Tempus AI ( TEM ) Jumped on Moderna Melanoma Win . Did its $1 . 5B Personalis Acquisition Just Get Validated ? (2026-08-27)
+- [CRS] 2 , 480 Shares in Carpenter Technology Corporation $CRS Acquired by Castleark Management LLC (2026-08-27)
+- [LITE] Lumentum ( NASDAQ : LITE ) Insider Yuen Wupen Sells 500 Shares (2026-08-27)
+- [LITE] Lumentum ( LITE ) – Analyst Recent Ratings Changes (2026-08-26)
+- [TEM] Brokerages Set Tempus AI , Inc . ( NASDAQ : TEM ) Price Target at $65 . 69 (2026-08-26)
+- [TEM] Why Tempus AI Skyrocketed This Week (2026-08-23)
+- [TEM] Why Tempus AI Skyrocketed This Week | The Motley Fool (2026-08-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $28.6M el 2026-08-25 [senal en multiples fuentes].
 - 10% owner BERTARELLI ERNESTO compro MAIR por $219.0M el 2026-08-25.
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $48.4M el 2026-08-24 [senal en multiples fuentes].
-- 10% owner Submarine Buyer LLC vendio JMKE por $43.7M el 2026-08-25.
-- 10% owner Blecharczyk Nathan vendio ABNB por $38.0M el 2026-08-25.
-- CEO LINDNER CARL H III vendio AFG por $11.7M el 2026-08-26.
+- CEO WIRTH JAMES F vendio IHT por $215.0M el 2026-08-25.
+- CEO Lane Brian E. vendio FIX por $25.8M el 2026-08-26.
+- CEO Goeckeler David opero SNDK por $73.7M el 2026-08-25.
+- CEO Ford Robert B vendio ABT por $25.3M el 2026-08-25.
+- CEO THOMPSON SCOTT L compro SGI por $1.9M el 2026-08-27.
 - Director PERCEPTIVE ADVISORS LLC compro IMTX por $7.5M el 2026-08-26 [senal en multiples fuentes].
-- CEO Sutaria Saumya vendio THC por $6.8M el 2026-08-25.
+- 10% owner Gies Larry opero MAIR por $300.0M el 2026-08-25.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $305,320 · win rate 93% · categorias: sports
-- ExplosiveNinja · PnL $61,941 · win rate 97% · categorias: sports
-- ethanaz · PnL $88,650 · win rate 89% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $49,962 · win rate 92% · categorias: sports, politics
-- laozishudaosan · PnL $108,632 · win rate 86% · categorias: sports
+- ethanaz · PnL $77,505 · win rate 89% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $28,861 · win rate 92% · categorias: sports, politics
+- Bertapotamous · PnL $61,434 · win rate 85% · categorias: politics, sports, crypto
+- ic4cream · PnL $17,794 · win rate 91% · categorias: sports
+- mentionmarket · PnL $471,092 · win rate 69% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -394,7 +390,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 728 registros 30d · ultimo dato 2026-08-27
+- **sec_insiders**: `ok` · 770 registros 30d · ultimo dato 2026-08-27
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-27
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -408,7 +404,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ACDC, CHTR, DGICA, GLD, GNK, IEF, IMTX, MAX, NPB, QQQ, RSG, SCHL, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRC, CHTR, GLD, GNK, IEF, MAIR, QQQ, RGNX, SCHL, SPY, TLT, WELL`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
