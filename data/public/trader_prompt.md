@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-29T18:44:33+00:00 -->
+<!-- trader_prompt.md generado 2026-08-29T22:07:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-29T18:44:33+00:00 · ventana señales 2026-07-30 -> 2026-08-29_
+_Generado 2026-08-29T22:07:39+00:00 · ventana señales 2026-07-30 -> 2026-08-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,8 +242,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.51)
-- Tendencia: `bull` (SPY 771.1 · MA50 753.35 · MA200 706.96 · dist MA200: 9.07%)
+- Volatilidad: `calm` (VIX 14.43)
+- Tendencia: `bull` (SPY 769.35 · MA50 753.96 · MA200 707.42 · dist MA200: 8.75%)
 - Credito: `tight` (HY spread 2.63)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
@@ -255,23 +255,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.1 | 0.66% | 1.11% | 3.97% |
-| QQQ | 12.0% | core | 721.11 | 1.37% | 1.43% | 5.49% |
-| TLT | 12.0% | core | 83.13 | -0.2% | 0.96% | 0.8% |
-| AAT | 10.2% | satellite | 22.5 | -1.06% | -1.45% | -6.37% |
-| GLD | 9.3% | core | 422.6 | 0.3% | 1.77% | 12.05% |
-| RSG | 9.0% | satellite | 219.27 | -1.31% | -0.1% | 3.76% |
-| MED | 6.8% | satellite | 12.16 | -0.49% | 4.65% | 22.7% |
-| IEF | 6.2% | core | 93.23 | -0.1% | 0.25% | 0.36% |
-| DKS | 5.3% | satellite | 131.77 | 1.63% | -26.53% | -34.09% |
-| SUJA | 2.1% | satellite | 9.0 | -4.66% | 20.0% | -12.79% |
+| SPY | 12.0% | core | 769.35 | -0.23% | 0.47% | 2.99% |
+| QQQ | 12.0% | core | 716.43 | -0.65% | 0.42% | 4.13% |
+| TLT | 12.0% | core | 82.88 | -0.3% | 1.01% | 1.17% |
+| AAT | 10.2% | satellite | 22.43 | -0.31% | -1.75% | -4.92% |
+| GLD | 9.3% | core | 408.89 | -3.24% | -3.42% | 10.05% |
+| RSG | 9.0% | satellite | 222.11 | 1.3% | 0.65% | 5.49% |
+| MED | 6.9% | satellite | 12.18 | 0.16% | 1.92% | 23.91% |
+| IEF | 6.2% | core | 92.85 | -0.41% | 0.03% | 0.24% |
+| DKS | 5.3% | satellite | 135.09 | 2.52% | -26.27% | -31.04% |
+| SUJA | 2.1% | satellite | 9.37 | 4.11% | 22.01% | -11.52% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
+- Volatilidad anualizada: 8.8%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -2.6%
-- Beta vs SPY: 0.454 · posiciones efectivas: 12.2 · HHI: 0.0822
+- Max drawdown historico: -2.8%
+- Beta vs SPY: 0.455 · posiciones efectivas: 12.2 · HHI: 0.0822
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -323,15 +323,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.1 (0.66% / 1.11% / 3.97%) [2026-08-27]
-- QQQ: 721.11 (1.37% / 1.43% / 5.49%) [2026-08-27]
-- IWM: 299.81 (0.29% / 0.72% / 2.47%) [2026-08-27]
-- DIA: 535.22 (0.19% / 1.55% / 2.71%) [2026-08-27]
-- TLT: 83.13 (-0.2% / 0.96% / 0.8%) [2026-08-27]
-- IEF: 93.23 (-0.1% / 0.25% / 0.36%) [2026-08-27]
-- GLD: 422.6 (0.3% / 1.77% / 12.05%) [2026-08-27]
-- ^VIX: 14.51 (-4.6% / -9.37% / -15.1%) [2026-08-27]
-- BTC-USD: 78110.09 (-2.68% / 0.46% / 20.35%) [2026-08-29]
+- SPY: 769.35 (-0.23% / 0.47% / 2.99%) [2026-08-28]
+- QQQ: 716.43 (-0.65% / 0.42% / 4.13%) [2026-08-28]
+- IWM: 295.75 (-1.35% / -1.4% / 1.56%) [2026-08-28]
+- DIA: 535.06 (-0.03% / 0.53% / 2.13%) [2026-08-28]
+- TLT: 82.88 (-0.3% / 1.01% / 1.17%) [2026-08-28]
+- IEF: 92.85 (-0.41% / 0.03% / 0.24%) [2026-08-28]
+- GLD: 408.89 (-3.24% / -3.42% / 10.05%) [2026-08-28]
+- ^VIX: 14.43 (-0.55% / -4.63% / -9.76%) [2026-08-28]
+- BTC-USD: 78203.42 (-2.56% / 0.58% / 20.49%) [2026-08-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,20 +346,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), stock (2), leadership (1), regulatory (1)
+**Temas dominantes**: ai (3), stock (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AMCR] Amcor to Unveil Food & Beverage Solutions at Empack (2026-08-27)
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
 - [AVT] Contrasting NeoMagic ( OTCMKTS : NMGC ) and Avnet ( NASDAQ : AVT ) (2026-08-26)
-- [BLLN] Billiontoone ( BLLN ) & The Competition Head to Head Review (2026-08-26)
-- [AMCR] Amcor , Tiptree Forge RecyClass - Certified Film Pact (2026-08-25)
 - [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 - [MNPR] Monopar Therapeutics ( NASDAQ : MNPR ) Trading Down 3 . 9 % – Time to Sell ? (2026-08-21)
-- [AMCR] Amcor Marks 20 Years in FTSE4Good Index Series (2026-08-21)
-- [AMCR] Amcor garners two AmeriStar awards (2026-08-20)
 - [UP] Head to Head Analysis : Wheels Up Experience ( NYSE : UP ) vs . Japan Airlines ( OTCMKTS : JAPSY ) (2026-08-20)
+- [MNPR] MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision (2026-08-19)
+- [ATTO] Meet Attovia : The Clinical - Stage Biotech That Aims to Stop Chronic Itch at the Source (2026-08-19)
+- [MNPR] The Manufacturers Life Insurance Company Takes $250 , 000 Position in Monopar Therapeutics Inc . $MNPR (2026-08-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $171,408 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $136,690 · win rate 85% · categorias: sports
-- PetsViljandist · PnL $29,925 · win rate 100% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $52,954 · win rate 90% · categorias: sports
-- gransaaa · PnL $64,003 · win rate 88% · categorias: sports
+- RJW1 · PnL $198,926 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $535,329 · win rate 86% · categorias: sports
+- gransaaa · PnL $134,943 · win rate 88% · categorias: sports
+- Countryside · PnL $80,153 · win rate 90% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $67,243 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
