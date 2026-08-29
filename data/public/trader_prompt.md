@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-29T09:20:41+00:00 -->
+<!-- trader_prompt.md generado 2026-08-29T11:21:59+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-08-21T20:38:24+00:00_
+_Ultima cartera aprobada: 2026-08-29T11:21:51+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|

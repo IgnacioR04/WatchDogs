@@ -1,8 +1,6 @@
 {
-  "verdict": "adjust",
-  "adjustments": [
-    {"ticker": "HRI", "action": "add", "target_weight": 0.03, "reason": "Aparece en la cartera candidata del codigo (3.4%) y tiene senal large_holder (Coliseum Capital Management, score 72) sin senales de venta en contra. Financiado con cash ocioso (13.8% disponible), sin tocar el resto de posiciones para minimizar coste de rotacion."}
-  ],
+  "verdict": "accept",
+  "adjustments": [],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
@@ -17,16 +15,16 @@
     "PSBD": 0.031,
     "NTSK": 0.031,
     "FSUN": 0.03,
+    "HRI": 0.03,
     "GSHD": 0.025,
     "CLBK": 0.023,
-    "CRWV": 0.012,
-    "HRI": 0.03
+    "CRWV": 0.012
   },
-  "thesis": "Se mantiene intacto el nucleo core-satelite (SPY, QQQ, TLT, GLD, IEF): ninguna senal de venta de este ciclo les afecta y ninguno supera el peso maximo del 12%. Los satelites legacy (LION, AVO, NMM, BWFG, PSBD, NTSK, FSUN, GSHD, CLBK, CRWV) tampoco aparecen en las senales de venta, asi que se mantienen segun la regla de mantener por defecto. Se anade HRI (3.0%) porque esta en la cartera candidata del codigo y tiene respaldo de una senal large_holder, financiado con cash ocioso. INV e IDAI mostraban clusters de insiders muy fuertes (4 y 6 senales respectivamente) pero ambos cotizan por debajo de $5, quedando excluidos de nuevas posiciones por la regla de liquidez.",
+  "thesis": "Mantengo la cartera sin cambios. Ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM no estan en cartera) ni supera el peso maximo del 12%. El regimen sigue risk_on con VIX calmado (14.51) y tendencia alcista, y el presupuesto de riesgo subio a 95% frente al 89.2% de exposicion actual, pero no hay una idea nueva con convicción cruzada suficiente para justificar pagar el coste de rotacion del 0.15%: DKS arrastra un -34% a 20d (riesgo de cuchillo cayendo pese al cluster de insiders), y ATTO/JUSH/UTGN/BIVI no tienen precio verificable en este universo (no aparecen en la cartera candidata con datos de mercado).",
   "key_risks": [
-    "Las senales del Congreso (FWONK, CHRW, LTH) llegan con hasta 45 dias de retraso; pueden no reflejar la posicion actual de esos legisladores.",
-    "GLD ya acumula +14% en 20 dias; una correccion del oro afectaria al bloque core sin cobertura.",
-    "HRI es una posicion nueva basada en una unica senal large_holder; sin corroboracion de mas actores la conviccion es moderada."
+    "El feed de senales del Congreso esta en error este ciclo, reduciendo la visibilidad de convicción cruzada de smart money",
+    "Varios satelites en cartera (LION, AVO, NMM, FWONK, BWFG, PSBD, NTSK, FSUN, HRI, GSHD, CLBK, CRWV) ya no aparecen en el briefing de senales recientes: su tesis original ha envejecido y no se puede reconfirmar con datos frescos, aunque tampoco hay senal de venta que la contradiga",
+    "Cartera lleva 36 dias con rendimiento (0.35%) por debajo de SPY (1.22%), Sharpe moderado (0.68)"
   ],
   "confidence": 0.6
 }
