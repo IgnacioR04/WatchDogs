@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-29T22:07:39+00:00 · ventana señales 2026-07-30 -> 2026-08-29_
+_Generado 2026-08-30T00:36:13+00:00 · ventana señales 2026-07-31 -> 2026-08-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.85 (-0.41% / 0.03% / 0.24%) [2026-08-28]
 - GLD: 408.89 (-3.24% / -3.42% / 10.05%) [2026-08-28]
 - ^VIX: 14.43 (-0.55% / -4.63% / -9.76%) [2026-08-28]
-- BTC-USD: 78203.42 (-2.56% / 0.58% / 20.49%) [2026-08-29]
+- BTC-USD: 78208.52 (-2.55% / 0.58% / 20.5%) [2026-08-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,6 +119,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
 - [AVT] Contrasting NeoMagic ( OTCMKTS : NMGC ) and Avnet ( NASDAQ : AVT ) (2026-08-26)
+- [BLLN] Billiontoone ( BLLN ) & The Competition Head to Head Review (2026-08-26)
 - [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 - [MNPR] Monopar Therapeutics ( NASDAQ : MNPR ) Trading Down 3 . 9 % – Time to Sell ? (2026-08-21)
 - [UP] Head to Head Analysis : Wheels Up Experience ( NYSE : UP ) vs . Japan Airlines ( OTCMKTS : JAPSY ) (2026-08-20)
@@ -139,11 +140,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $198,926 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $535,329 · win rate 86% · categorias: sports
-- gransaaa · PnL $134,943 · win rate 88% · categorias: sports
+- RJW1 · PnL $194,900 · win rate 99% · categorias: sports
+- BreakTheBank · PnL $564,951 · win rate 86% · categorias: sports
+- gransaaa · PnL $135,808 · win rate 88% · categorias: sports
+- PetsViljandist · PnL $54,929 · win rate 100% · categorias: sports
 - Countryside · PnL $80,153 · win rate 90% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $67,243 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -151,7 +152,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 631 registros 30d · ultimo dato 2026-08-28
+- **sec_insiders**: `ok` · 630 registros 30d · ultimo dato 2026-08-28
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
