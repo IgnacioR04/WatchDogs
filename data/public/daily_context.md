@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-30T13:09:55+00:00 · ventana señales 2026-07-31 -> 2026-08-30_
+_Generado 2026-08-30T17:44:35+00:00 · ventana señales 2026-07-31 -> 2026-08-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.85 (-0.41% / 0.03% / 0.24%) [2026-08-28]
 - GLD: 408.89 (-3.24% / -3.42% / 10.05%) [2026-08-28]
 - ^VIX: 14.43 (-0.55% / -4.63% / -9.76%) [2026-08-28]
-- BTC-USD: 78720.79 (1.14% / -0.31% / 21.4%) [2026-08-30]
+- BTC-USD: 79021.34 (1.53% / 0.07% / 21.86%) [2026-08-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,20 +113,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2), leadership (1), regulatory (1)
+**Temas dominantes**: ai (4), stock (1), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [AMCR] Amcor to Unveil Food & Beverage Solutions at Empack (2026-08-27)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
 - [AVT] Contrasting NeoMagic ( OTCMKTS : NMGC ) and Avnet ( NASDAQ : AVT ) (2026-08-26)
-- [BLLN] Billiontoone ( BLLN ) & The Competition Head to Head Review (2026-08-26)
 - [AMCR] Amcor , Tiptree Forge RecyClass - Certified Film Pact (2026-08-25)
 - [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 - [MNPR] Monopar Therapeutics ( NASDAQ : MNPR ) Trading Down 3 . 9 % – Time to Sell ? (2026-08-21)
 - [AMCR] Amcor Marks 20 Years in FTSE4Good Index Series (2026-08-21)
 - [AMCR] Amcor garners two AmeriStar awards (2026-08-20)
+- [UP] Head to Head Analysis : Wheels Up Experience ( NYSE : UP ) vs . Japan Airlines ( OTCMKTS : JAPSY ) (2026-08-20)
 - [AMCR] Former Amcor flexibles leader to join Kaiser Aluminum as CEO (2026-08-19)
+- [MNPR] MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $386,991 · win rate 99% · categorias: sports
-- PetsViljandist · PnL $42,077 · win rate 100% · categorias: sports
-- ExplosiveNinja · PnL $18,702 · win rate 97% · categorias: sports
-- zofgkt1111 · PnL $37,682 · win rate 90% · categorias: sports
-- alexdave888 · PnL $51,771 · win rate 88% · categorias: sports, crypto
+- WTSA · PnL $388,240 · win rate 99% · categorias: sports
+- PetsViljandist · PnL $27,132 · win rate 100% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $132,650 · win rate 89% · categorias: crypto
+- Shori888 · PnL $24,566 · win rate 100% · categorias: sports
+- RJW1 · PnL $26,589 · win rate 99% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
