@@ -1,6 +1,8 @@
 {
-  "verdict": "accept",
-  "adjustments": [],
+  "verdict": "adjust",
+  "adjustments": [
+    {"ticker": "RSG", "action": "add", "target_weight": 0.04, "reason": "Score agregado 407.4 con 6 senales de insider, incluyendo dos compras del 10% owner Cascade Investment (Bill Gates) por $51.8M y $46.7M en la ultima semana: la senal de mayor conviccion por importe y repeticion de este ciclo. Financiada con cash ocioso (10.8% disponible), dejando la exposicion total en 93.2%, por debajo del presupuesto de riesgo del 95% en regimen risk_on."}
+  ],
   "final_weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
@@ -18,13 +20,14 @@
     "HRI": 0.03,
     "GSHD": 0.025,
     "CLBK": 0.023,
-    "CRWV": 0.012
+    "CRWV": 0.012,
+    "RSG": 0.04
   },
-  "thesis": "Mantengo la cartera sin cambios. Ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM no estan en cartera) ni supera el peso maximo del 12%. El regimen sigue risk_on con VIX calmado (14.51) y tendencia alcista, y el presupuesto de riesgo subio a 95% frente al 89.2% de exposicion actual, pero no hay una idea nueva con convicción cruzada suficiente para justificar pagar el coste de rotacion del 0.15%: DKS arrastra un -34% a 20d (riesgo de cuchillo cayendo pese al cluster de insiders), y ATTO/JUSH/UTGN/BIVI no tienen precio verificable en este universo (no aparecen en la cartera candidata con datos de mercado).",
+  "thesis": "Mantengo el grueso de la cartera sin cambios: ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM) ni supera el peso maximo del 12%. Anado una posicion satelite nueva en RSG (4%) financiada con cash ocioso, apoyada en dos compras de gran tamano del 10% owner Cascade Investment ($51.8M y $46.7M) en la ultima semana, la senal mas fuerte por importe de este briefing. El regimen sigue risk_on (VIX 14.43 calmado, tendencia alcista, credito tenso), lo que da margen para algo mas de exposicion satelite sin acercarnos al presupuesto de riesgo del 95%. Sigo evitando DKS pese a su cluster de insiders por el fuerte deterioro de precio (-31% a 20d, riesgo de cuchillo cayendo), y SUJA/AAT/MED por conviccion insuficiente frente al coste de rotacion.",
   "key_risks": [
-    "El feed de senales del Congreso esta en error este ciclo, reduciendo la visibilidad de convicción cruzada de smart money",
-    "Varios satelites en cartera (LION, AVO, NMM, FWONK, BWFG, PSBD, NTSK, FSUN, HRI, GSHD, CLBK, CRWV) ya no aparecen en el briefing de senales recientes: su tesis original ha envejecido y no se puede reconfirmar con datos frescos, aunque tampoco hay senal de venta que la contradiga",
-    "Cartera lleva 36 dias con rendimiento (0.35%) por debajo de SPY (1.22%), Sharpe moderado (0.68)"
+    "RSG solo tiene una fuente (corporate_insider, un unico actor repitiendo compra), sin confirmacion cruzada de 13F o Congreso",
+    "GLD cayo -3.24% en el ultimo dia pese a la tendencia alcista general, revisar si el oro esta perdiendo su rol defensivo en la cartera",
+    "Fuente Congreso en error este ciclo (0 registros), reduce la visibilidad de senales legislativas y aumenta la dependencia de insiders/13F"
   ],
   "confidence": 0.6
 }

@@ -407,5 +407,32 @@
     "thesis": "Mantengo la cartera sin cambios. Ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM no estan en cartera) ni supera el peso maximo del 12%. El regimen sigue risk_on con VIX calmado (14.51) y tendencia alcista, y el presupuesto de riesgo subio a 95% frente al 89.2% de exposicion actual, pero no hay una idea nueva con convicción cruzada suficiente para justificar pagar el coste de rotacion del 0.15%: DKS arrastra un -34% a 20d (riesgo de cuchillo cayendo pese al cluster de insiders), y ATTO/JUSH/UTGN/BIVI no tienen precio verificable en este universo (no aparecen en la cartera candidata con datos de mercado).",
     "confidence": 0.6,
     "n_adjustments": 0
+  },
+  {
+    "approved_at": "2026-08-30T17:00:35+00:00",
+    "weights": {
+      "SPY": 0.12,
+      "QQQ": 0.12,
+      "TLT": 0.12,
+      "GLD": 0.093,
+      "IEF": 0.053,
+      "LION": 0.042,
+      "AVO": 0.042,
+      "NMM": 0.04,
+      "FWONK": 0.04,
+      "BWFG": 0.04,
+      "PSBD": 0.031,
+      "NTSK": 0.031,
+      "FSUN": 0.03,
+      "HRI": 0.03,
+      "GSHD": 0.025,
+      "CLBK": 0.023,
+      "CRWV": 0.012,
+      "RSG": 0.04
+    },
+    "verdict_llm": "adjust",
+    "thesis": "Mantengo el grueso de la cartera sin cambios: ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM) ni supera el peso maximo del 12%. Anado una posicion satelite nueva en RSG (4%) financiada con cash ocioso, apoyada en dos compras de gran tamano del 10% owner Cascade Investment ($51.8M y $46.7M) en la ultima semana, la senal mas fuerte por importe de este briefing. El regimen sigue risk_on (VIX 14.43 calmado, tendencia alcista, credito tenso), lo que da margen para algo mas de exposicion satelite sin acercarnos al presupuesto de riesgo del 95%. Sigo evitando DKS pese a su cluster de insiders por el fuerte deterioro de precio (-31% a 20d, riesgo de cuchillo cayendo), y SUJA/AAT/MED por conviccion insuficiente frente al coste de rotacion.",
+    "confidence": 0.6,
+    "n_adjustments": 1
   }
 ]
