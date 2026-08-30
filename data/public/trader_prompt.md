@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-30T00:36:14+00:00 -->
+<!-- trader_prompt.md generado 2026-08-30T06:55:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -233,7 +233,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-30T00:36:13+00:00 · ventana señales 2026-07-31 -> 2026-08-30_
+_Generado 2026-08-30T06:55:33+00:00 · ventana señales 2026-07-31 -> 2026-08-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.85 (-0.41% / 0.03% / 0.24%) [2026-08-28]
 - GLD: 408.89 (-3.24% / -3.42% / 10.05%) [2026-08-28]
 - ^VIX: 14.43 (-0.55% / -4.63% / -9.76%) [2026-08-28]
-- BTC-USD: 78208.52 (-2.55% / 0.58% / 20.5%) [2026-08-30]
+- BTC-USD: 78267.65 (0.56% / -0.88% / 20.7%) [2026-08-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,7 +346,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2), regulatory (1)
+**Temas dominantes**: stock (2), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -357,7 +357,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [MNPR] Monopar Therapeutics ( NASDAQ : MNPR ) Trading Down 3 . 9 % – Time to Sell ? (2026-08-21)
 - [UP] Head to Head Analysis : Wheels Up Experience ( NYSE : UP ) vs . Japan Airlines ( OTCMKTS : JAPSY ) (2026-08-20)
 - [MNPR] MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision (2026-08-19)
-- [ATTO] Meet Attovia : The Clinical - Stage Biotech That Aims to Stop Chronic Itch at the Source (2026-08-19)
 - [MNPR] The Manufacturers Life Insurance Company Takes $250 , 000 Position in Monopar Therapeutics Inc . $MNPR (2026-08-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -373,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $194,900 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $564,951 · win rate 86% · categorias: sports
-- gransaaa · PnL $135,808 · win rate 88% · categorias: sports
-- PetsViljandist · PnL $54,929 · win rate 100% · categorias: sports
-- Countryside · PnL $80,153 · win rate 90% · categorias: sports
+- WTSA · PnL $387,064 · win rate 99% · categorias: sports
+- rollobravado · PnL $8,465 · win rate 99% · categorias: sports, politics
+- alexdave888 · PnL $30,987 · win rate 88% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $14,900 · win rate 91% · categorias: sports
+- torta.tech · PnL $9,316 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
