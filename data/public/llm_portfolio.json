@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-30T17:00:35+00:00",
+  "generated_at": "2026-08-30T20:37:25+00:00",
   "verdict_llm": "adjust",
-  "thesis": "Mantengo el grueso de la cartera sin cambios: ninguna posicion abierta aparece en las senales de venta de este ciclo (IHT, RLAY, LTH, CHYM, IBM) ni supera el peso maximo del 12%. Anado una posicion satelite nueva en RSG (4%) financiada con cash ocioso, apoyada en dos compras de gran tamano del 10% owner Cascade Investment ($51.8M y $46.7M) en la ultima semana, la senal mas fuerte por importe de este briefing. El regimen sigue risk_on (VIX 14.43 calmado, tendencia alcista, credito tenso), lo que da margen para algo mas de exposicion satelite sin acercarnos al presupuesto de riesgo del 95%. Sigo evitando DKS pese a su cluster de insiders por el fuerte deterioro de precio (-31% a 20d, riesgo de cuchillo cayendo), y SUJA/AAT/MED por conviccion insuficiente frente al coste de rotacion.",
+  "thesis": "Regimen risk_on con vol calmada y credito tenso (favorable), sin razon para recortar exposicion. Ninguna posicion actual tiene tesis rota (las senales de venta del briefing -IHT, RLAY, LTH, CHYM, IBM- no afectan a tickers en cartera). Unico cambio: reforzar RSG, que ya tenemos, ante un cluster-buy fuerte y reciente de un 10% owner, usando el cash libre hasta el presupuesto de riesgo del regimen (95%) sin rotar el resto de la cartera.",
   "key_risks": [
-    "RSG solo tiene una fuente (corporate_insider, un unico actor repitiendo compra), sin confirmacion cruzada de 13F o Congreso",
-    "GLD cayo -3.24% en el ultimo dia pese a la tendencia alcista general, revisar si el oro esta perdiendo su rol defensivo en la cartera",
-    "Fuente Congreso en error este ciclo (0 registros), reduce la visibilidad de senales legislativas y aumenta la dependencia de insiders/13F"
+    "GLD ha caido -3.24%/-3.42% en 1d/5d tras un rally fuerte de 20d (+10.05%), posible correccion en el core defensivo",
+    "Congreso (fuente congress) esta en error este ciclo, reduce visibilidad de senales de esa fuente",
+    "Concentracion en varios satelites pequenos con baja liquidez relativa fuera del universo candidato principal"
   ],
-  "confidence": 0.6,
+  "confidence": 0.62,
   "adjustments": [
     {
       "ticker": "RSG",
-      "action": "add",
-      "target_weight": 0.04,
-      "reason": "Score agregado 407.4 con 6 senales de insider, incluyendo dos compras del 10% owner Cascade Investment (Bill Gates) por $51.8M y $46.7M en la ultima semana: la senal de mayor conviccion por importe y repeticion de este ciclo. Financiada con cash ocioso (10.8% disponible), dejando la exposicion total en 93.2%, por debajo del presupuesto de riesgo del 95% en regimen risk_on."
+      "action": "increase",
+      "target_weight": 0.058,
+      "reason": "Cluster-buy reciente y de alta conviccion: 10% owner Cascade Investment compro RSG por $51.8M (27-ago) y $46.7M (26-ago) en dias consecutivos, score agregado 407.4 con 6 senales. La cartera candidata del codigo ya sube RSG a 9.0%; subimos parcialmente a 5.8% usando el margen de cash libre hasta el presupuesto de riesgo (95%), sin recortar otras posiciones para minimizar coste de rotacion."
     }
   ],
   "final_weights": {
@@ -27,26 +27,26 @@
     "NMM": 0.04,
     "FWONK": 0.04,
     "BWFG": 0.04,
+    "RSG": 0.058,
     "PSBD": 0.031,
     "NTSK": 0.031,
     "FSUN": 0.03,
     "HRI": 0.03,
     "GSHD": 0.025,
     "CLBK": 0.023,
-    "CRWV": 0.012,
-    "RSG": 0.04
+    "CRWV": 0.012
   },
   "metrics": {
-    "ann_vol": 0.1093,
-    "var_95_1d": 0.0108,
+    "ann_vol": 0.1092,
+    "var_95_1d": 0.0109,
     "cvar_95_1d": 0.014,
-    "max_drawdown": -0.0828,
-    "beta_spy": 0.646,
-    "hhi": 0.0696,
+    "max_drawdown": -0.0829,
+    "beta_spy": 0.64,
+    "hhi": 0.0714,
     "max_position": 0.12,
     "n_positions": 18,
-    "effective_positions": 14.4,
-    "gross_exposure": 0.932,
+    "effective_positions": 14.0,
+    "gross_exposure": 0.95,
     "days_used": 200
   },
   "risk_gate": {

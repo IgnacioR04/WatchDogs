@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-30T17:44:35+00:00 -->
+<!-- trader_prompt.md generado 2026-08-30T20:37:36+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -202,7 +202,7 @@ Esto es una hipótesis sobre datos públicos con retraso, no una certeza.
 
 ## Estado actual de tu cartera (lo que gestionas AHORA)
 
-_Ultima cartera aprobada: 2026-08-30T17:00:35+00:00_
+_Ultima cartera aprobada: 2026-08-30T20:37:25+00:00_
 
 | Ticker | Peso | Valor (de 100 €) |
 |--------|-----:|-----------------:|
@@ -210,13 +210,13 @@ _Ultima cartera aprobada: 2026-08-30T17:00:35+00:00_
 | QQQ | 12.0% | 12.00 € |
 | TLT | 12.0% | 12.00 € |
 | GLD | 9.3% | 9.30 € |
+| RSG | 5.8% | 5.80 € |
 | IEF | 5.3% | 5.30 € |
 | LION | 4.2% | 4.20 € |
 | AVO | 4.2% | 4.20 € |
 | NMM | 4.0% | 4.00 € |
 | FWONK | 4.0% | 4.00 € |
 | BWFG | 4.0% | 4.00 € |
-| RSG | 4.0% | 4.00 € |
 | PSBD | 3.1% | 3.10 € |
 | NTSK | 3.1% | 3.10 € |
 | FSUN | 3.0% | 3.00 € |
@@ -224,7 +224,7 @@ _Ultima cartera aprobada: 2026-08-30T17:00:35+00:00_
 | GSHD | 2.5% | 2.50 € |
 | CLBK | 2.3% | 2.30 € |
 | CRWV | 1.2% | 1.20 € |
-| **EFECTIVO** | **6.8%** | **6.80 €** |
+| **EFECTIVO** | **5.0%** | **5.00 €** |
 
 Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respetando las reglas de la seccion de arriba.
 
