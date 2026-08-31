@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-08-31T05:50:52+00:00 -->
+<!-- trader_prompt.md generado 2026-08-31T14:05:32+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-08-31T05:50:52+00:00 · ventana señales 2026-08-01 -> 2026-08-31_
+_Generado 2026-08-31T14:05:32+00:00 · ventana señales 2026-08-01 -> 2026-08-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,13 +242,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.43)
-- Tendencia: `bull` (SPY 769.35 · MA50 753.96 · MA200 707.42 · dist MA200: 8.75%)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.4)
+- Tendencia: `bull` (SPY 765.94 · MA50 754.34 · MA200 707.87 · dist MA200: 8.2%)
 - Credito: `tight` (HY spread 2.63)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -256,23 +256,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 769.35 | -0.23% | 0.47% | 2.99% |
-| QQQ | 12.0% | core | 716.43 | -0.65% | 0.42% | 4.13% |
-| TLT | 12.0% | core | 82.88 | -0.3% | 1.01% | 1.17% |
-| AAT | 10.2% | satellite | 22.43 | -0.31% | -1.75% | -4.92% |
-| GLD | 9.3% | core | 408.89 | -3.24% | -3.42% | 10.05% |
-| RSG | 9.0% | satellite | 222.11 | 1.3% | 0.65% | 5.49% |
-| MED | 6.9% | satellite | 12.18 | 0.16% | 1.92% | 23.91% |
-| IEF | 6.2% | core | 92.85 | -0.41% | 0.03% | 0.24% |
-| DKS | 5.3% | satellite | 135.09 | 2.52% | -26.27% | -31.04% |
-| SUJA | 2.1% | satellite | 9.37 | 4.11% | 22.01% | -11.52% |
+| SPY | 12.0% | core | 765.94 | -0.44% | 0.32% | 1.09% |
+| QQQ | 12.0% | core | 714.57 | -0.26% | 1.17% | 2.07% |
+| TLT | 12.0% | core | 82.23 | -0.78% | -0.4% | 0.05% |
+| GLD | 9.3% | core | 405.37 | -0.86% | -5.0% | 9.06% |
+| AAT | 7.7% | satellite | 22.27 | -0.69% | -3.15% | -6.68% |
+| DGICA | 7.0% | satellite | 19.05 | -0.99% | 0.37% | -3.59% |
+| RSG | 6.8% | satellite | 223.41 | 0.59% | 0.15% | 6.58% |
+| IEF | 6.2% | core | 92.64 | -0.22% | -0.39% | -0.19% |
+| MED | 5.2% | satellite | 12.24 | 0.49% | 2.0% | 25.67% |
+| DKS | 4.0% | satellite | 138.09 | 2.22% | -23.0% | -31.24% |
+| SUJA | 1.6% | satellite | 9.85 | 5.07% | 8.78% | -14.09% |
+| CTEV | 1.1% | satellite | 39.89 | 1.27% | 9.05% | 64.22% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.8%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -2.8%
-- Beta vs SPY: 0.455 · posiciones efectivas: 12.2 · HHI: 0.0822
+- Volatilidad anualizada: 8.5%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -1.9%
+- Beta vs SPY: 0.445 · posiciones efectivas: 13.2 · HHI: 0.076
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -281,6 +283,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **SUJA** · score agregado 337.1 · 5 señales · fuentes: corporate_insider, large_holder
 - **AAT** · score agregado 199.4 · 3 señales · fuentes: corporate_insider, large_holder
 - **MED** · score agregado 131.9 · 2 señales · fuentes: corporate_insider, large_holder
+- **CTEV** · score agregado 121.6 · 2 señales · fuentes: corporate_insider
+- **DGICA** · score agregado 119.8 · 2 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -300,8 +304,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | DKS | 78 | corporate_insider | MATHRANI SANDEEP | 4 | $199,783 | cluster_buy |
 | ATTO | 78 | corporate_insider | GOLDMAN SACHS GROUP INC | 2 | $1,785,000 | cluster_buy |
 | DKS | 77 | corporate_insider | COLOMBO WILLIAM J | 4 | $141,900 | cluster_buy |
-| UTGN | 75 | corporate_insider | CORRELL JESSE T | 2 | $59,750 | cluster_buy |
-| UTGN | 73 | corporate_insider | FIRST SOUTHERN FUNDING LL | 2 | $59,750 | cluster_buy |
+| MTDR | 76 | corporate_insider | Calvert Christopher P | 2 | $141,600 | cluster_buy |
+| MTDR | 74 | corporate_insider | Foran Joseph Wm | 2 | $30,242 | cluster_buy |
 | BIVI | 73 | corporate_insider | KIM JOANNE WENDY | 4 | $5,450 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
@@ -324,15 +328,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 769.35 (-0.23% / 0.47% / 2.99%) [2026-08-28]
-- QQQ: 716.43 (-0.65% / 0.42% / 4.13%) [2026-08-28]
-- IWM: 295.75 (-1.35% / -1.4% / 1.56%) [2026-08-28]
-- DIA: 535.06 (-0.03% / 0.53% / 2.13%) [2026-08-28]
-- TLT: 82.88 (-0.3% / 1.01% / 1.17%) [2026-08-28]
-- IEF: 92.85 (-0.41% / 0.03% / 0.24%) [2026-08-28]
-- GLD: 408.89 (-3.24% / -3.42% / 10.05%) [2026-08-28]
-- ^VIX: 14.43 (-0.55% / -4.63% / -9.76%) [2026-08-28]
-- BTC-USD: 78011.15 (0.23% / -1.21% / 20.3%) [2026-08-31]
+- SPY: 765.94 (-0.44% / 0.32% / 1.09%) [2026-08-31]
+- QQQ: 714.57 (-0.26% / 1.17% / 2.07%) [2026-08-31]
+- IWM: 293.32 (-0.82% / -1.56% / -0.98%) [2026-08-31]
+- DIA: 531.78 (-0.61% / -0.35% / 0.19%) [2026-08-31]
+- TLT: 82.23 (-0.78% / -0.4% / 0.05%) [2026-08-31]
+- IEF: 92.64 (-0.22% / -0.39% / -0.19%) [2026-08-31]
+- GLD: 405.37 (-0.86% / -5.0% / 9.06%) [2026-08-31]
+- ^VIX: 15.4 (6.72% / -2.84% / -2.9%) [2026-08-31]
+- BTC-USD: 78008.39 (0.23% / -1.21% / 20.3%) [2026-08-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -354,13 +358,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
 - [AMCR] Amcor to Unveil Food & Beverage Solutions at Empack (2026-08-27)
 - [CHYM] Chime Financial ( NASDAQ : CHYM ) Major Shareholder Sells $15 , 494 , 530 . 74 in Stock (2026-08-27)
-- [AVT] Contrasting NeoMagic ( OTCMKTS : NMGC ) and Avnet ( NASDAQ : AVT ) (2026-08-26)
 - [BLLN] Billiontoone ( BLLN ) & The Competition Head to Head Review (2026-08-26)
 - [AMCR] Amcor , Tiptree Forge RecyClass - Certified Film Pact (2026-08-25)
 - [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 - [MNPR] Monopar Therapeutics ( NASDAQ : MNPR ) Trading Down 3 . 9 % – Time to Sell ? (2026-08-21)
 - [AMCR] Amcor Marks 20 Years in FTSE4Good Index Series (2026-08-21)
 - [AMCR] Amcor garners two AmeriStar awards (2026-08-20)
+- [UP] Head to Head Analysis : Wheels Up Experience ( NYSE : UP ) vs . Japan Airlines ( OTCMKTS : JAPSY ) (2026-08-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -375,11 +379,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- kekasaur · PnL $152,137 · win rate 94% · categorias: sports
-- NiNo999 · PnL $137,704 · win rate 90% · categorias: sports
-- monkeymashingkeyboard · PnL $79,545 · win rate 91% · categorias: sports
-- gregbeast · PnL $15,408 · win rate 95% · categorias: sports, crypto
-- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $9,672 · win rate 98% · categorias: sports, crypto
+- kekasaur · PnL $152,374 · win rate 94% · categorias: sports
+- NiNo999 · PnL $137,386 · win rate 90% · categorias: sports
+- monkeymashingkeyboard · PnL $79,563 · win rate 91% · categorias: sports
+- 0x6982049c65e98606f65A0CE71fDb9b61296dA165-1777135114945 · PnL $12,078 · win rate 98% · categorias: sports, crypto
+- gregbeast · PnL $15,446 · win rate 95% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +391,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 630 registros 30d · ultimo dato 2026-08-28
+- **sec_insiders**: `ok` · 627 registros 30d · ultimo dato 2026-08-30
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -401,8 +405,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AAT, DKS, GLD, IEF, MED, QQQ, RSG, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`AAT, CTEV, DGICA, DKS, GLD, IEF, MED, QQQ, RSG, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.

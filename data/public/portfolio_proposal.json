@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-08-31T05:50:51+00:00",
+  "generated_at": "2026-08-31T14:05:31+00:00",
   "profile": "moderado",
-  "regime_budget": 0.95,
+  "regime_budget": 0.9,
   "total_equity": 0.8502,
   "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "AAT": 0.1019,
-    "GLD": 0.0932,
-    "RSG": 0.0899,
-    "MED": 0.0685,
+    "GLD": 0.0933,
+    "AAT": 0.0773,
+    "DGICA": 0.0701,
+    "RSG": 0.0681,
     "IEF": 0.0622,
-    "DKS": 0.0531,
-    "SUJA": 0.0214
+    "MED": 0.0519,
+    "DKS": 0.0402,
+    "SUJA": 0.0162,
+    "CTEV": 0.0109
   },
   "core": {
     "SPY": 0.1934,
@@ -24,11 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.0799,
-    "DKS": 0.0472,
-    "SUJA": 0.019,
-    "AAT": 0.0906,
-    "MED": 0.0609
+    "RSG": 0.0605,
+    "DKS": 0.0357,
+    "SUJA": 0.0144,
+    "AAT": 0.0687,
+    "MED": 0.0461,
+    "CTEV": 0.0097,
+    "DGICA": 0.0623
   },
   "satellite_rationale": [
     {
@@ -73,18 +77,34 @@
         "large_holder"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "CTEV",
+      "score": 121.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "DGICA",
+      "score": 119.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0879,
-    "var_95_1d": 0.0101,
-    "cvar_95_1d": 0.0128,
-    "max_drawdown": -0.0276,
-    "beta_spy": 0.455,
-    "hhi": 0.0822,
+    "ann_vol": 0.0853,
+    "var_95_1d": 0.0098,
+    "cvar_95_1d": 0.0124,
+    "max_drawdown": -0.0193,
+    "beta_spy": 0.445,
+    "hhi": 0.076,
     "max_position": 0.12,
-    "n_positions": 10,
-    "effective_positions": 12.2,
+    "n_positions": 12,
+    "effective_positions": 13.2,
     "gross_exposure": 0.8502,
     "days_used": 51
   },
