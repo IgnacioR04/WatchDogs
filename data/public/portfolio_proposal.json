@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-01T15:15:48+00:00",
+  "generated_at": "2026-09-01T18:48:58+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8503,
+  "cash": 0.1497,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "ADC": 0.1047,
     "GLD": 0.0932,
-    "DGICA": 0.091,
     "IEF": 0.0622,
-    "GNK": 0.0543,
-    "GAP": 0.0377,
-    "AMR": 0.0328,
-    "GSHD": 0.0274,
-    "SLGL": 0.0265,
-    "AMRC": 0.0222,
-    "SUJA": 0.0162,
-    "CTEV": 0.0143,
-    "XPON": 0.0123
+    "GAP": 0.0352,
+    "AMR": 0.033,
+    "SLGL": 0.0294,
+    "XPON": 0.0274,
+    "GSHD": 0.026,
+    "AMRC": 0.025,
+    "PESI": 0.0227,
+    "SUJA": 0.0188,
+    "CTEV": 0.0127
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMR": 0.0292,
-    "SLGL": 0.0236,
-    "SUJA": 0.0144,
-    "XPON": 0.0109,
-    "GNK": 0.0483,
-    "AMRC": 0.0197,
-    "CTEV": 0.0127,
-    "DGICA": 0.0809,
-    "GAP": 0.0335,
-    "GSHD": 0.0244
+    "AMR": 0.0293,
+    "SLGL": 0.0261,
+    "SUJA": 0.0167,
+    "XPON": 0.0244,
+    "PESI": 0.0202,
+    "AMRC": 0.0222,
+    "CTEV": 0.0113,
+    "GAP": 0.0313,
+    "GSHD": 0.0231,
+    "ADC": 0.0931
   },
   "satellite_rationale": [
     {
@@ -74,8 +74,8 @@
       "n_signals": 2
     },
     {
-      "ticker": "GNK",
-      "score": 140.4,
+      "ticker": "PESI",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
@@ -99,14 +99,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "DGICA",
-      "score": 119.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "GAP",
       "score": 70.2,
       "sources": [
@@ -121,20 +113,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "ADC",
+      "score": 62.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1075,
-    "var_95_1d": 0.0105,
-    "cvar_95_1d": 0.012,
-    "max_drawdown": -0.0376,
-    "beta_spy": 0.631,
-    "hhi": 0.072,
+    "ann_vol": 0.1107,
+    "var_95_1d": 0.0118,
+    "cvar_95_1d": 0.0141,
+    "max_drawdown": -0.0389,
+    "beta_spy": 0.617,
+    "hhi": 0.073,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 13.9,
-    "gross_exposure": 0.8501,
-    "days_used": 77
+    "effective_positions": 13.7,
+    "gross_exposure": 0.8503,
+    "days_used": 49
   },
   "risk_gate": {
     "passed": true,
