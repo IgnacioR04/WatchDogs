@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-08-31T20:22:12+00:00",
+  "generated_at": "2026-09-01T00:09:53+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8503,
+  "cash": 0.1497,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "AAT": 0.0895,
-    "DGICA": 0.0808,
+    "DGICA": 0.0944,
+    "GLD": 0.0932,
     "IEF": 0.0622,
-    "DKS": 0.0578,
-    "MTDR": 0.0485,
-    "MED": 0.0432,
-    "CTEV": 0.0148
+    "GNK": 0.0619,
+    "GAP": 0.0405,
+    "AMR": 0.0378,
+    "SLGL": 0.0343,
+    "GSHD": 0.0298,
+    "SUJA": 0.0216,
+    "CTEV": 0.0146
   },
   "core": {
     "SPY": 0.1934,
@@ -25,44 +27,44 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "DKS": 0.0514,
-    "AAT": 0.0796,
-    "MTDR": 0.0431,
-    "MED": 0.0384,
-    "CTEV": 0.0132,
-    "DGICA": 0.0718
+    "AMR": 0.0336,
+    "SLGL": 0.0305,
+    "SUJA": 0.0192,
+    "GNK": 0.055,
+    "CTEV": 0.013,
+    "DGICA": 0.0839,
+    "GAP": 0.036,
+    "GSHD": 0.0265
   },
   "satellite_rationale": [
     {
-      "ticker": "DKS",
-      "score": 399.1,
+      "ticker": "AMR",
+      "score": 399.7,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
+      "n_signals": 7
     },
     {
-      "ticker": "AAT",
-      "score": 199.4,
+      "ticker": "SLGL",
+      "score": 249.4,
       "sources": [
-        "corporate_insider",
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "SUJA",
+      "score": 208.5,
+      "sources": [
         "large_holder"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "MTDR",
-      "score": 150.2,
+      "ticker": "GNK",
+      "score": 140.4,
       "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MED",
-      "score": 131.9,
-      "sources": [
-        "corporate_insider",
         "large_holder"
       ],
       "n_signals": 2
@@ -82,20 +84,36 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "GAP",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "GSHD",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0925,
-    "var_95_1d": 0.0081,
-    "cvar_95_1d": 0.0116,
-    "max_drawdown": -0.0447,
-    "beta_spy": 0.502,
-    "hhi": 0.0781,
+    "ann_vol": 0.0986,
+    "var_95_1d": 0.0107,
+    "cvar_95_1d": 0.0118,
+    "max_drawdown": -0.0318,
+    "beta_spy": 0.476,
+    "hhi": 0.0743,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.8,
-    "gross_exposure": 0.8501,
-    "days_used": 106
+    "n_positions": 13,
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8503,
+    "days_used": 49
   },
   "risk_gate": {
     "passed": true,
