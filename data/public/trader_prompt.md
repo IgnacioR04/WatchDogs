@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-01T05:22:40+00:00 -->
+<!-- trader_prompt.md generado 2026-09-01T10:26:01+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-01T05:22:40+00:00 · ventana señales 2026-08-02 -> 2026-09-01_
+_Generado 2026-09-01T10:26:01+00:00 · ventana señales 2026-08-02 -> 2026-09-01_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,13 +242,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.92)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.88)
 - Tendencia: `bull` (SPY 767.05 · MA50 754.36 · MA200 707.87 · dist MA200: 8.36%)
 - Credito: `tight` (HY spread 2.6)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -258,12 +258,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 767.05 | -0.3% | 0.47% | 1.24% |
 | QQQ | 12.0% | core | 716.76 | 0.05% | 1.48% | 2.38% |
-| TLT | 12.0% | core | 82.52 | -0.73% | 0.57% | 0.73% |
+| TLT | 12.0% | core | 82.52 | -0.43% | -0.05% | 0.4% |
 | GLD | 9.3% | core | 408.42 | -0.11% | -4.28% | 9.88% |
 | GNK | 7.6% | satellite | 26.23 | 1.63% | -1.09% | 5.92% |
 | IEF | 6.2% | core | 92.74 | -0.53% | -0.09% | 0.12% |
 | GAP | 5.0% | satellite | 22.31 | -4.98% | 9.58% | 8.88% |
-| AMR | 4.7% | satellite | 235.7 | 3.66% | 12.23% | 71.84% |
+| AMR | 4.7% | satellite | 235.7 | 4.19% | 12.28% | 70.3% |
 | SLGL | 4.2% | satellite | 69.1 | -4.78% | -11.1% | -15.99% |
 | XPON | 3.9% | satellite | 7.01 | -5.84% | 13.06% | 114.37% |
 | GSHD | 3.7% | satellite | 68.65 | -2.55% | -5.34% | 10.73% |
@@ -334,11 +334,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - QQQ: 716.76 (0.05% / 1.48% / 2.38%) [2026-08-31]
 - IWM: 293.93 (-1.96% / -2.01% / 0.94%) [2026-08-31]
 - DIA: 531.57 (-0.68% / -0.12% / 1.47%) [2026-08-31]
-- TLT: 82.52 (-0.73% / 0.57% / 0.73%) [2026-08-31]
+- TLT: 82.52 (-0.43% / -0.05% / 0.4%) [2026-08-31]
 - IEF: 92.74 (-0.53% / -0.09% / 0.12%) [2026-08-31]
 - GLD: 408.42 (-0.11% / -4.28% / 9.88%) [2026-08-31]
-- ^VIX: 14.92 (2.83% / -1.39% / -6.69%) [2026-08-31]
-- BTC-USD: 78785.07 (1.44% / -0.31% / 23.97%) [2026-09-01]
+- ^VIX: 15.88 (6.43% / 0.19% / 0.13%) [2026-09-01]
+- BTC-USD: 78004.06 (-0.69% / -2.81% / 23.03%) [2026-09-01]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,20 +353,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), regulatory (4), earnings (2), ai (1), leadership (1)
+**Temas dominantes**: stock (6), regulatory (3), earnings (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Why CrowdStrike Stock Keeps Going Up | The Motley Fool (2026-09-01)
 - [JKHY] Jack Henry Issues Statement on Response to Cybersecurity Incident (2026-09-01)
 - [JKHY] Jack Henry Issues Statement on Response to Cybersecurity Incident (2026-08-31)
-- [MRNA] FDA Approves New Covid Shots From Pfizer and Moderna (2026-08-31)
-- [CRWD] FinancialContent - Why CrowdStrike ( CRWD ) Stock Is Trading Up Today (2026-08-31)
-- [CRWD] CrowdStrike Rallies 4 % as Fal . Con Puts Falcon on Google Cloud and Arms Partners With AI Agents (2026-08-31)
 - [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
 - [VIAV] Viavi Solutions ( NASDAQ : VIAV ) Downgraded to Buy Rating by Wall Street Zen (2026-08-30)
 - [KTCC] Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review (2026-08-30)
 - [KTCC] Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... (2026-08-29)
+- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow (2026-08-28)
+- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 (2026-08-27)
+- [JKHY] Richard Preece Appointed to Jack Henry Board of Directors (2026-08-24)
+- [UTHR] Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR (2026-08-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,10 +382,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - c4a759e5c9350491AF61646f2c4A46 · PnL $24,296 · win rate 99% · categorias: sports, crypto
-- asd147 · PnL $12,970 · win rate 99% · categorias: sports, crypto
-- AV23IUa · PnL $283,606 · win rate 77% · categorias: sports, crypto
-- TheyAreTakingTheHobitsToIsengard · PnL $10,066 · win rate 98% · categorias: sports
-- WTSA · PnL $7,070 · win rate 99% · categorias: sports
+- asd147 · PnL $21,810 · win rate 99% · categorias: sports, crypto
+- AV23IUa · PnL $283,777 · win rate 77% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $23,805 · win rate 92% · categorias: sports, politics
+- 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140 · PnL $126,690 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -408,7 +408,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`AMR, CTEV, GAP, GLD, GNK, GSHD, IEF, QQQ, SLGL, SPY, SUJA, TLT, XPON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
