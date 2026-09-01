@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-01T00:09:54+00:00 · ventana señales 2026-08-02 -> 2026-09-01_
+_Generado 2026-09-01T05:22:40+00:00 · ventana señales 2026-08-02 -> 2026-09-01_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -24,33 +24,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 767.05 | -0.3% | 0.47% | 1.24% |
 | QQQ | 12.0% | core | 716.76 | 0.05% | 1.48% | 2.38% |
-| TLT | 12.0% | core | 82.52 | -0.43% | -0.05% | 0.4% |
-| DGICA | 9.4% | satellite | 19.12 | -0.62% | 0.74% | -3.24% |
+| TLT | 12.0% | core | 82.52 | -0.73% | 0.57% | 0.73% |
 | GLD | 9.3% | core | 408.42 | -0.11% | -4.28% | 9.88% |
-| IEF | 6.2% | core | 92.74 | -0.12% | -0.29% | -0.09% |
-| GNK | 6.2% | satellite | 26.23 | 1.35% | -2.64% | 3.09% |
-| GAP | 4.0% | satellite | 22.31 | -4.98% | 9.58% | 8.88% |
-| AMR | 3.8% | satellite | 235.7 | 4.19% | 12.28% | 70.3% |
-| SLGL | 3.4% | satellite | 69.1 | 0.42% | -10.71% | -15.72% |
-| GSHD | 3.0% | satellite | 68.65 | -3.66% | -5.96% | 4.56% |
-| SUJA | 2.2% | satellite | 10.07 | 7.47% | 11.27% | -12.13% |
-| CTEV | 1.5% | satellite | 39.83 | 1.12% | 8.88% | 63.98% |
+| GNK | 7.6% | satellite | 26.23 | 1.63% | -1.09% | 5.92% |
+| IEF | 6.2% | core | 92.74 | -0.53% | -0.09% | 0.12% |
+| GAP | 5.0% | satellite | 22.31 | -4.98% | 9.58% | 8.88% |
+| AMR | 4.7% | satellite | 235.7 | 3.66% | 12.23% | 71.84% |
+| SLGL | 4.2% | satellite | 69.1 | -4.78% | -11.1% | -15.99% |
+| XPON | 3.9% | satellite | 7.01 | -5.84% | 13.06% | 114.37% |
+| GSHD | 3.7% | satellite | 68.65 | -2.55% | -5.34% | 10.73% |
+| SUJA | 2.7% | satellite | 10.07 | 7.47% | 11.27% | -12.13% |
+| CTEV | 1.8% | satellite | 39.83 | 2.71% | 6.87% | 75.39% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.9%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.2%
-- Beta vs SPY: 0.476 · posiciones efectivas: 13.5 · HHI: 0.0743
+- Volatilidad anualizada: 11.6%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -5.2%
+- Beta vs SPY: 0.611 · posiciones efectivas: 13.9 · HHI: 0.0719
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **AMR** · score agregado 399.7 · 7 señales · fuentes: corporate_insider
 - **SLGL** · score agregado 249.4 · 4 señales · fuentes: corporate_insider
 - **SUJA** · score agregado 208.5 · 3 señales · fuentes: large_holder
+- **XPON** · score agregado 142.0 · 2 señales · fuentes: large_holder
 - **GNK** · score agregado 140.4 · 2 señales · fuentes: large_holder
 - **CTEV** · score agregado 121.6 · 2 señales · fuentes: corporate_insider
-- **DGICA** · score agregado 119.8 · 2 señales · fuentes: corporate_insider
 - **GAP** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **GSHD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -63,6 +63,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | PRTS | 75 | corporate_insider | Meniane David | 2 | $54,072 | cluster_buy |
 | PRTS | 74 | corporate_insider | Meniane David | 2 | $31,731 | cluster_buy |
 | VRXA | 72 | corporate_insider | Baumann Oliver Rolf | 2 | $75,000 | cluster_buy |
+| XPON | 72 | large_holder | Five Narrow Lane LP |  | - | - |
 | VRXA | 71 | corporate_insider | Antz Christoph Rudiger | 2 | $7,650 | cluster_buy,small_amount |
 | KLAR | 70 | corporate_insider | Siemiatkowski Sebastian | 0 | $9,949,164 | - |
 | FEMY | 70 | large_holder | Stonepine Capital Managem |  | - | - |
@@ -74,15 +75,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | MRM | 70 | large_holder | Kouji Eguchi |  | - | - |
 | GD | 70 | large_holder | Longview Asset Management |  | - | - |
 | GRX | 70 | large_holder | Saba Capital Management,  |  | - | - |
-| CBL | 70 | large_holder | Amster Howard |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| IHT | 63 | corporate_insider | WIRTH JAMES F | $802,561,250 | - |
 | CBT | 58 | corporate_insider | Keohane Sean D | $11,466,075 | - |
 | ANET | 57 | corporate_insider | BECHTOLSHEIM ANDREAS | $14,958,959 | - |
-| IBM | 57 | corporate_insider | Thomas Robert David | $5,758,088 | - |
 | ANET | 57 | corporate_insider | BECHTOLSHEIM ANDREAS | $14,132,421 | - |
 | ANET | 57 | corporate_insider | BECHTOLSHEIM ANDREAS | $13,213,222 | - |
 | NAVN | 57 | corporate_insider | Cohen Ariel M. | $5,075,603 | - |
@@ -98,13 +98,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - SPY: 767.05 (-0.3% / 0.47% / 1.24%) [2026-08-31]
 - QQQ: 716.76 (0.05% / 1.48% / 2.38%) [2026-08-31]
-- IWM: 293.93 (-0.62% / -1.36% / -0.77%) [2026-08-31]
-- DIA: 531.57 (-0.65% / -0.39% / 0.15%) [2026-08-31]
-- TLT: 82.52 (-0.43% / -0.05% / 0.4%) [2026-08-31]
-- IEF: 92.74 (-0.12% / -0.29% / -0.09%) [2026-08-31]
+- IWM: 293.93 (-1.96% / -2.01% / 0.94%) [2026-08-31]
+- DIA: 531.57 (-0.68% / -0.12% / 1.47%) [2026-08-31]
+- TLT: 82.52 (-0.73% / 0.57% / 0.73%) [2026-08-31]
+- IEF: 92.74 (-0.53% / -0.09% / 0.12%) [2026-08-31]
 - GLD: 408.42 (-0.11% / -4.28% / 9.88%) [2026-08-31]
-- ^VIX: 14.92 (3.4% / -5.87% / -5.93%) [2026-08-31]
-- BTC-USD: 78673.38 (1.08% / -0.37% / 21.33%) [2026-09-01]
+- ^VIX: 14.92 (2.83% / -1.39% / -6.69%) [2026-08-31]
+- BTC-USD: 78785.07 (1.44% / -0.31% / 23.97%) [2026-09-01]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,22 +119,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), regulatory (1), earnings (1), leadership (1), ai (1)
+**Temas dominantes**: stock (6), regulatory (4), earnings (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] Why CrowdStrike Stock Keeps Going Up | The Motley Fool (2026-09-01)
+- [JKHY] Jack Henry Issues Statement on Response to Cybersecurity Incident (2026-09-01)
 - [JKHY] Jack Henry Issues Statement on Response to Cybersecurity Incident (2026-08-31)
+- [MRNA] FDA Approves New Covid Shots From Pfizer and Moderna (2026-08-31)
+- [CRWD] FinancialContent - Why CrowdStrike ( CRWD ) Stock Is Trading Up Today (2026-08-31)
+- [CRWD] CrowdStrike Rallies 4 % as Fal . Con Puts Falcon on Google Cloud and Arms Partners With AI Agents (2026-08-31)
+- [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
+- [VIAV] Viavi Solutions ( NASDAQ : VIAV ) Downgraded to Buy Rating by Wall Street Zen (2026-08-30)
 - [KTCC] Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review (2026-08-30)
 - [KTCC] Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... (2026-08-29)
-- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow (2026-08-28)
-- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 (2026-08-27)
-- [JKHY] Richard Preece Appointed to Jack Henry Board of Directors (2026-08-24)
-- [EAT] Kevin Hochman Sells 40 , 000 Shares of Brinker International ( NYSE : EAT ) Stock (2026-08-19)
-- [EAT] George Felix Sells 14 , 349 Shares of Brinker International ( NYSE : EAT ) Stock (2026-08-19)
-- [ATTO] Meet Attovia : The Clinical - Stage Biotech That Aims to Stop Chronic Itch at the Source (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO WIRTH JAMES F vendio IHT por $802.6M el 2026-08-28.
 - CEO Siemiatkowski Sebastian compro KLAR por $9.9M el 2026-08-26.
 - CEO Liu Dandan compro PETZ por $3.6M el 2026-08-27 [senal en multiples fuentes].
 - CEO Keohane Sean D vendio CBT por $11.5M el 2026-08-28.
@@ -142,15 +144,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SPCEXBUYER · PnL $419,865 · win rate 93% · categorias: sports
-- HongYunX · PnL $73,106 · win rate 100% · categorias: sports
-- kekasaur · PnL $149,841 · win rate 94% · categorias: sports
-- NiNo999 · PnL $116,672 · win rate 90% · categorias: sports
-- RJW1 · PnL $28,906 · win rate 99% · categorias: sports
+- c4a759e5c9350491AF61646f2c4A46 · PnL $24,296 · win rate 99% · categorias: sports, crypto
+- asd147 · PnL $12,970 · win rate 99% · categorias: sports, crypto
+- AV23IUa · PnL $283,606 · win rate 77% · categorias: sports, crypto
+- TheyAreTakingTheHobitsToIsengard · PnL $10,066 · win rate 98% · categorias: sports
+- WTSA · PnL $7,070 · win rate 99% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -158,7 +159,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 666 registros 30d · ultimo dato 2026-08-31
+- **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-08-31
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-08-31
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -172,7 +173,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMR, CTEV, DGICA, GAP, GLD, GNK, GSHD, IEF, QQQ, SLGL, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMR, CTEV, GAP, GLD, GNK, GSHD, IEF, QQQ, SLGL, SPY, SUJA, TLT, XPON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

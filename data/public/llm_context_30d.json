@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-01T00:09:00.452758+00:00",
+  "generated_at": "2026-09-01T05:21:25.822216+00:00",
   "window": {
     "from": "2026-08-02",
     "to": "2026-09-01",
@@ -26,8 +26,8 @@
       "stock",
       "regulatory",
       "earnings",
-      "leadership",
-      "ai"
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -35,6 +35,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "CEO vendio IHT ($802.6M)",
+      "summary": "CEO WIRTH JAMES F vendio IHT por $802.6M el 2026-08-28.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "WIRTH JAMES F",
+      "actor_type": "ceo",
+      "ticker": "IHT",
+      "direction": "sell",
+      "amount_estimated": 802561250.0,
+      "event_date": "2026-08-28",
+      "importance_score": 86.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1055365/000149315226040902/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO compro KLAR ($9.9M)",
       "summary": "CEO Siemiatkowski Sebastian compro KLAR por $9.9M el 2026-08-26.",
       "source": "sec_form_4",
@@ -51,8 +69,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2097107/000209710726000004/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO compro PETZ ($3.6M)",
       "summary": "CEO Liu Dandan compro PETZ por $3.6M el 2026-08-27 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -69,8 +87,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1766147/000121390026095705/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio CBT ($11.5M)",
       "summary": "CEO Keohane Sean D vendio CBT por $11.5M el 2026-08-28.",
       "source": "sec_form_4",
@@ -87,8 +105,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1435737/000119312526377202/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro Privacore VPC Asset Backed Credit Fund ($5.0M)",
       "summary": "10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $5.0M el 2026-08-28.",
       "source": "sec_form_4",
@@ -105,8 +123,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/903939/000090393926000028/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -123,8 +141,8 @@
       "source_url": ""
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -141,8 +159,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -159,8 +177,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -177,8 +195,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -195,8 +213,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -213,8 +231,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -231,8 +249,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -249,8 +267,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -267,8 +285,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -285,8 +303,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -303,8 +321,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -321,8 +339,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -339,8 +357,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro INTEL CORP ($16.2B)",
       "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
       "source": "sec_13f",
@@ -357,8 +375,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
       "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
       "source": "sec_13f",
@@ -368,24 +386,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 16112059718,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
-      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 15145083757,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -401,6 +401,15 @@
         "pressure_score": 566.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UUU",
+        "company": "UNIVERSAL SAFETY PRODUCTS, INC.",
+        "pressure_score": 556.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -447,6 +456,14 @@
         "ticker": "SRTS",
         "company": "Sensus Healthcare, Inc.",
         "pressure_score": 282.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GPUS",
+        "company": "Hyperscale Data, Inc.",
+        "pressure_score": 278.6,
         "sources": [
           "corporate_insider"
         ]
@@ -499,29 +516,13 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "IOTR",
-        "company": "iOThree Limited",
-        "pressure_score": 200.2,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "MDRR",
-        "company": "Medalist Diversified, Inc.",
-        "pressure_score": 196.2,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "ATTO",
-        "company": "Attovia Therapeutics, Inc.",
-        "pressure_score": 1383.1,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 2199.2,
         "sources": [
           "corporate_insider"
         ]
@@ -599,14 +600,6 @@
         ]
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab Corp",
-        "pressure_score": 355.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NAVN",
         "company": "Navan, Inc.",
         "pressure_score": 316.2,
@@ -634,6 +627,14 @@
         "ticker": "FROG",
         "company": "JFrog Ltd",
         "pressure_score": 298.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WIX",
+        "company": "Wix.com Ltd.",
+        "pressure_score": 265.0,
         "sources": [
           "corporate_insider"
         ]
@@ -685,15 +686,6 @@
       "amount": 713969.0,
       "date": "2026-08-28",
       "score": 77.6
-    },
-    {
-      "ticker": "ATTO",
-      "company": "Attovia Therapeutics, Inc.",
-      "actor": "WALSH COLIN",
-      "actor_type": "director",
-      "amount": 8500000.0,
-      "date": "2026-08-06",
-      "score": 77.5
     },
     {
       "ticker": "SLGL",
@@ -775,6 +767,15 @@
       "amount": 141600.0,
       "date": "2026-08-27",
       "score": 75.4
+    },
+    {
+      "ticker": "CURI",
+      "company": "CuriosityStream Inc.",
+      "actor": "Stinchcomb Clinton Larry",
+      "actor_type": "ceo",
+      "amount": 76590.0,
+      "date": "2026-08-27",
+      "score": 75.3
     }
   ],
   "institutional_changes": [
@@ -1079,6 +1080,15 @@
       "date": "2026-08-25"
     },
     {
+      "filer": "Ault & Company, Inc.",
+      "company": "Hyperscale Data, Inc.",
+      "ticker": "",
+      "ownership_pct": 57.7,
+      "shares": 186963677,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-31"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1086,86 +1096,59 @@
       "shares": 2038790,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-25"
-    },
-    {
-      "filer": "BROWN BROTHERS HARRIMAN & CO",
-      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 54.81,
-      "shares": 1870198,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-21"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xcd30f4698c",
-        "username": "SPCEXBUYER",
-        "pnl": 419865.15,
-        "win_rate": 0.9276,
-        "volume": 840152.7,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc72d7dcdb2",
-        "username": "HongYunX",
-        "pnl": 73106.43,
-        "win_rate": 1.0,
-        "volume": 214316.93,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf5f9294051",
-        "username": "kekasaur",
-        "pnl": 149840.79,
-        "win_rate": 0.9402,
-        "volume": 486797.89,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd65c32794",
-        "username": "NiNo999",
-        "pnl": 116671.99,
-        "win_rate": 0.902,
-        "volume": 1800782.88,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 28906.33,
-        "win_rate": 0.9884,
-        "volume": 60870.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9c3ce009c9",
-        "username": "0x0x23kjookhaiuohduoayh8c9",
-        "pnl": 46241.31,
-        "win_rate": 0.956,
-        "volume": 164753.7,
+        "wallet": "0x14f147aad3",
+        "username": "c4a759e5c9350491AF61646f2c4A46",
+        "pnl": 24295.7,
+        "win_rate": 0.99,
+        "volume": 134410.93,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 80701.26,
-        "win_rate": 0.9143,
-        "volume": 66274.06,
+        "wallet": "0xa16a1302ca",
+        "username": "asd147",
+        "pnl": 12970.08,
+        "win_rate": 0.989,
+        "volume": 179200.41,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 283606.39,
+        "win_rate": 0.7708,
+        "volume": 343978.12,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1058f156b2",
+        "username": "TheyAreTakingTheHobitsToIsengard",
+        "pnl": 10066.02,
+        "win_rate": 0.9806,
+        "volume": 283.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x04d5524a0a",
+        "username": "WTSA",
+        "pnl": 7070.49,
+        "win_rate": 0.9885,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1173,140 +1156,184 @@
       {
         "wallet": "0xf3a1493cf8",
         "username": "",
-        "pnl": 22023.9,
+        "pnl": 9230.11,
         "win_rate": 0.9589,
-        "volume": 73640.07,
+        "volume": 16311.98,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd6966eb1ae",
-        "username": "Painfulvoid",
-        "pnl": 51921.47,
-        "win_rate": 0.895,
-        "volume": 243738.81,
+        "wallet": "0xfb07f48542",
+        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
+        "pnl": 9349.56,
+        "win_rate": 0.945,
+        "volume": 7515.8,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd570e634ae",
-        "username": "0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140",
-        "pnl": 293675.63,
-        "win_rate": 0.96,
-        "volume": 866834.13,
+        "wallet": "0xb8ef617fd5",
+        "username": "no1dodgersfan",
+        "pnl": 21665.54,
+        "win_rate": 0.872,
+        "volume": 28061.06,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x54c23f20d9",
+        "username": "skitit",
+        "pnl": 25143.98,
+        "win_rate": 0.8588,
+        "volume": 56035.69,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x979fc18618",
+        "username": "degenfren",
+        "pnl": 12616.7,
+        "win_rate": 0.8994,
+        "volume": 399.0,
+        "categories": [
+          "sports",
+          "politics"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x34dd4a4b70",
-        "username": "vito3corleone",
-        "pnl": 2749019.98,
-        "win_rate": 0.9091,
-        "volume": 7044565.68,
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 139532.41,
+        "win_rate": 0.69,
+        "volume": 1622829.41,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xbda25d40a3",
-        "username": "lolsterfun",
-        "pnl": 513971.91,
-        "win_rate": 1.0,
-        "volume": 2928990.4,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd65c32794",
-        "username": "NiNo999",
-        "pnl": 116671.99,
-        "win_rate": 0.902,
-        "volume": 1800782.88,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 106868.58,
-        "win_rate": 0.538,
-        "volume": 5063098.3,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd570e634ae",
-        "username": "0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140",
-        "pnl": 293675.63,
-        "win_rate": 0.96,
-        "volume": 866834.13,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 283606.39,
+        "win_rate": 0.7708,
+        "volume": 343978.12,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x5e9458202b",
+        "username": "pleaseplease123",
+        "pnl": 316270.87,
+        "win_rate": 0.492,
+        "volume": 80701.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xabb89972b2",
+        "username": "Feromont",
+        "pnl": 30902.47,
+        "win_rate": 0.45,
+        "volume": 166512.4,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 60925.25,
+        "win_rate": 0.585,
+        "volume": 346664.13,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x14f147aad3",
+        "username": "c4a759e5c9350491AF61646f2c4A46",
+        "pnl": 24295.7,
+        "win_rate": 0.99,
+        "volume": 134410.93,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xa16a1302ca",
+        "username": "asd147",
+        "pnl": 12970.08,
+        "win_rate": 0.989,
+        "volume": 179200.41,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x6ac96d439f",
+        "username": "sifonman",
+        "pnl": 10690.36,
+        "win_rate": 0.5714,
+        "volume": 68878.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
-        "pnl": 168677.05,
-        "win_rate": 0.5571,
-        "volume": 343100.26,
+        "pnl": 18697.04,
+        "win_rate": 0.5566,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xcd30f4698c",
-        "username": "SPCEXBUYER",
-        "pnl": 419865.15,
-        "win_rate": 0.9276,
-        "volume": 840152.7,
+        "wallet": "0xef1bfe068e",
+        "username": "devilbanker",
+        "pnl": 10582.79,
+        "win_rate": 0.4545,
+        "volume": 47943.86,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 174129.5,
-        "win_rate": 0.493,
-        "volume": 989956.4,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 93254.62,
-        "win_rate": 0.695,
-        "volume": 3685383.38,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6e2c0e9474",
-        "username": "0x99a093771ad58bcfc3023cd75566415f",
-        "pnl": 39044.11,
-        "win_rate": 0.459,
-        "volume": 1402226.71,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Why CrowdStrike Stock Keeps Going Up | The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/08/31/why-crowdstrike-stock-keeps-going-up/",
+      "ticker": "CRWD",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Jack Henry Issues Statement on Response to Cybersecurity Incident",
+      "url": "http://www.prnewswire.com/news-releases/jack-henry-issues-statement-on-response-to-cybersecurity-incident-302865383.html",
+      "ticker": "JKHY",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-09-01"
+    },
     {
       "title": "Jack Henry Issues Statement on Response to Cybersecurity Incident",
       "url": "https://www.prnewswire.com/news-releases/jack-henry-issues-statement-on-response-to-cybersecurity-incident-302865383.html",
@@ -1315,6 +1342,51 @@
         "regulatory"
       ],
       "date": "2026-08-31"
+    },
+    {
+      "title": "FDA Approves New Covid Shots From Pfizer and Moderna",
+      "url": "https://thenewamerican.com/us/healthcare/covid/fda-approves-new-covid-shots-from-pfizer-and-moderna/",
+      "ticker": "MRNA",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "title": "FinancialContent - Why CrowdStrike ( CRWD ) Stock Is Trading Up Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-31-why-crowdstrike-crwd-stock-is-trading-up-today",
+      "ticker": "CRWD",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "title": "CrowdStrike Rallies 4 % as Fal . Con Puts Falcon on Google Cloud and Arms Partners With AI Agents",
+      "url": "https://www.aol.com/articles/crowdstrike-rallies-4-fal-con-140254000.html",
+      "ticker": "CRWD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "title": "United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) ",
+      "url": "https://seekingalpha.com/news/4638067-united-therapeutics-highlights-new-data-supporting-two-fda-filings",
+      "ticker": "UTHR",
+      "themes": [
+        "regulatory"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "title": "Viavi Solutions ( NASDAQ : VIAV ) Downgraded to Buy Rating by Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/08/30/viavi-solutions-nasdaqviav-downgraded-to-buy-rating-by-wall-street-zen.html",
+      "ticker": "VIAV",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-30"
     },
     {
       "title": "Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review",
@@ -1357,34 +1429,32 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Kevin Hochman Sells 40 , 000 Shares of Brinker International ( NYSE : EAT ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/19/kevin-hochman-sells-40000-shares-of-brinker-international-nyseeat-stock.html",
-      "ticker": "EAT",
+      "title": "Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR",
+      "url": "https://www.themarketsdaily.com/2026/08/23/hudson-portfolio-management-llc-purchases-shares-of-1365-united-therapeutics-corporation-uthr.html",
+      "ticker": "UTHR",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-19"
+      "date": "2026-08-23"
     },
     {
-      "title": "George Felix Sells 14 , 349 Shares of Brinker International ( NYSE : EAT ) Stock",
-      "url": "https://www.dailypolitical.com/2026/08/19/george-felix-sells-14349-shares-of-brinker-international-nyseeat-stock.html",
-      "ticker": "EAT",
+      "title": "Viavi Solutions Director Laura Black Sells 71 , 000 Shares for $3 . 3 Million",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-director-laura-black-122001345.html",
+      "ticker": "VIAV",
       "themes": [
         "stock"
       ],
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     {
-      "title": "Meet Attovia : The Clinical - Stage Biotech That Aims to Stop Chronic Itch at the Source",
-      "url": "https://finance.yahoo.com/healthcare/articles/meet-attovia-clinical-stage-biotech-131031717.html",
-      "ticker": "ATTO",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-08-19"
+      "title": "VIAVI introduces channel emulator platform for 6G and Wi - Fi 7 / 8",
+      "url": "https://cieonline.co.uk/viavi-introduces-channel-emulator-platform-for-6g-and-wi-fi-7-8/",
+      "ticker": "VIAV",
+      "themes": [],
+      "date": "2026-08-20"
     }
   ],
-  "signals_count": 1416,
+  "signals_count": 1434,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
