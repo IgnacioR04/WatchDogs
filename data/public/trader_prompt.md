@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-02T00:33:55+00:00 -->
+<!-- trader_prompt.md generado 2026-09-02T04:50:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-02T00:33:55+00:00 · ventana señales 2026-08-03 -> 2026-09-02_
+_Generado 2026-09-02T04:50:27+00:00 · ventana señales 2026-08-03 -> 2026-09-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,37 +258,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 761.78 | -0.69% | -0.54% | -1.24% |
 | QQQ | 12.0% | core | 707.64 | -1.27% | -0.43% | -2.24% |
-| TLT | 12.0% | core | 81.87 | -0.79% | -0.84% | -0.39% |
-| RSG | 10.3% | satellite | 223.29 | 1.07% | 0.09% | 6.52% |
+| TLT | 12.0% | core | 81.87 | -0.41% | -0.46% | -0.01% |
 | GLD | 9.3% | core | 396.75 | -2.86% | -7.32% | 6.04% |
-| IEF | 6.2% | core | 92.1 | -0.69% | -0.98% | -0.78% |
-| KIDS | 5.4% | satellite | 23.0 | -1.33% | -8.26% | 10.21% |
-| BILL | 4.2% | satellite | 47.62 | -3.27% | -1.12% | 0.85% |
-| PESI | 2.9% | satellite | 17.84 | -1.71% | 9.45% | 6.32% |
-| AUGO | 2.9% | satellite | 79.04 | -5.43% | -12.63% | 38.05% |
-| AMRC | 2.5% | satellite | 22.6 | 2.17% | 7.77% | -0.57% |
-| ASTS | 2.0% | satellite | 55.8 | -5.58% | -10.01% | -20.64% |
-| SUJA | 1.8% | satellite | 10.43 | 3.57% | 11.79% | -8.51% |
-| FGL | 1.5% | satellite | 17.23 | 13.36% | -17.87% | -79.99% |
+| KIDS | 7.4% | satellite | 23.0 | -1.33% | -8.26% | 10.21% |
+| IEF | 6.2% | core | 92.1 | -0.33% | -1.15% | -0.88% |
+| BILL | 5.8% | satellite | 47.62 | -3.27% | -1.12% | 0.85% |
+| KVYO | 4.3% | satellite | 20.64 | 0.29% | 13.41% | 14.03% |
+| PESI | 4.0% | satellite | 17.84 | -1.71% | 9.45% | 6.32% |
+| AUGO | 3.9% | satellite | 79.04 | -5.43% | -9.53% | 40.92% |
+| AMRC | 3.5% | satellite | 22.6 | 2.17% | 7.77% | -0.57% |
+| SUJA | 2.5% | satellite | 10.43 | 3.57% | 11.79% | -8.51% |
+| FGL | 2.0% | satellite | 16.51 | 8.62% | -21.31% | -80.82% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.1%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -5.0%
-- Beta vs SPY: 0.755 · posiciones efectivas: 13.5 · HHI: 0.0743
+- Volatilidad anualizada: 14.3%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 2.0%
+- Max drawdown historico: -6.4%
+- Beta vs SPY: 0.877 · posiciones efectivas: 13.9 · HHI: 0.0719
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **RSG** · score agregado 479.6 · 7 señales · fuentes: corporate_insider
 - **AUGO** · score agregado 259.2 · 4 señales · fuentes: corporate_insider
 - **SUJA** · score agregado 208.5 · 3 señales · fuentes: large_holder
-- **ASTS** · score agregado 170.5 · 3 señales · fuentes: corporate_insider
 - **PESI** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **AMRC** · score agregado 131.4 · 2 señales · fuentes: corporate_insider, large_holder
 - **FGL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KIDS** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **BILL** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **KVYO** · score agregado 67.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -308,9 +306,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | VTMX | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | EDSA | 72 | large_holder | Stonepine Capital Managem |  | - | - |
 | LUCK | 71 | corporate_insider | MATHRANI SANDEEP | 2 | $59,957 | cluster_buy |
-| RSG | 71 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $34,513,978 | - |
 | LIEN | 71 | corporate_insider | Colonna Bernardino | 2 | $7,685 | cluster_buy,small_amount |
-| RSG | 71 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $27,377,581 | - |
+| CON | 70 | large_holder | Robert A. Ortenzio |  | - | - |
+| BMHL | 70 | large_holder | Luk Tung Lam |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -318,12 +316,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | ACT | 59 | corporate_insider | Genworth Holdings, Inc. | $33,953,773 | - |
 | TMQ | 58 | corporate_insider | South32 Ltd | $17,827,787 | - |
-| CAT | 57 | corporate_insider | Creed Joseph E | $4,953,460 | - |
+| ROIV | 57 | corporate_insider | Venker Eric | $5,921,065 | - |
 | CRNX | 56 | corporate_insider | Struthers Richard Scott | $21,083,655 | - |
-| CAT | 56 | corporate_insider | Creed Joseph E | $4,084,946 | - |
-| CAT | 56 | corporate_insider | Creed Joseph E | $3,931,081 | - |
 | TYL | 56 | corporate_insider | MOORE H LYNN JR | $3,448,280 | - |
 | ABNB | 56 | corporate_insider | Blecharczyk Nathan | $8,617,143 | - |
+| CRNX | 56 | corporate_insider | Struthers Richard Scott | $15,016,355 | - |
+| CHYM | 56 | corporate_insider | Britt Christopher R | $3,015,626 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -336,11 +334,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - QQQ: 707.64 (-1.27% / -0.43% / -2.24%) [2026-09-01]
 - IWM: 290.57 (-1.14% / -2.48% / -1.91%) [2026-09-01]
 - DIA: 527.75 (-0.72% / -1.11% / -0.57%) [2026-09-01]
-- TLT: 81.87 (-0.79% / -0.84% / -0.39%) [2026-09-01]
-- IEF: 92.1 (-0.69% / -0.98% / -0.78%) [2026-09-01]
+- TLT: 81.87 (-0.41% / -0.46% / -0.01%) [2026-09-01]
+- IEF: 92.1 (-0.33% / -1.15% / -0.88%) [2026-09-01]
 - GLD: 396.75 (-2.86% / -7.32% / 6.04%) [2026-09-01]
-- ^VIX: 16.34 (9.52% / 3.09% / 3.03%) [2026-09-01]
-- BTC-USD: 77277.17 (-1.62% / -3.71% / 21.88%) [2026-09-02]
+- ^VIX: 16.34 (9.52% / 5.76% / -0.97%) [2026-09-01]
+- BTC-USD: 77540.15 (-1.28% / -3.39% / 22.3%) [2026-09-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,34 +353,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1)
+**Temas dominantes**: stock (5), ai (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ABNB] Airbnb announces Pepijn Rijvers as Chief Business Officer (2026-09-01)
+- [ABNB] 18 - year - old killed at Airbnb as Clark County changes short - term rental enforcement (2026-09-02)
+- [AUGO] Aura Minerals ( NASDAQ : AUGO ) Director Purchases 252 , 000 Shares of Stock (2026-09-02)
+- [ABNB] Nathan Blecharczyk Sells 57 , 160 Shares of Airbnb ( NASDAQ : ABNB ) Stock (2026-09-02)
+- [ABNB] Airbnb ( NASDAQ : ABNB ) Insider Sells 13 , 615 Shares of Stock (2026-09-02)
+- [PHIN] Analysts Set PHINIA Inc . ( NYSE : PHIN ) Target Price at $82 . 00 (2026-08-26)
+- [CSTL] Castle Biosciences , Inc . ( NASDAQ : CSTL ) Receives $42 . 00 Average PT from Analysts (2026-08-23)
 - [AUGO] Insider Selling : Aura Minerals ( NASDAQ : AUGO ) CFO Sells $635 , 672 . 08 in Stock (2026-08-20)
 - [AUGO] Aura Minerals ( NASDAQ : AUGO ) Director Mauad Bruno Sousa Sells 280 , 000 Shares of Stock (2026-08-20)
 - [AUGO] Aura Minerals ( TSE : ORA ) Share Price Passes Above 200 Day Moving Average – Should You Sell ? (2026-08-19)
-- [AUGO] Aura Minerals ( NASDAQ : AUGO ) COO Sells 1 , 400 Shares of Stock (2026-08-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Senior Loan Trust por $44.0M el 2026-08-31.
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $34.5M el 2026-08-31.
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Senior Loan Trust por $23.0M el 2026-08-31.
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $27.4M el 2026-08-28.
 - CEO Struthers Richard Scott vendio CRNX por $21.1M el 2026-09-01.
 - 10% owner Genworth Holdings, Inc. vendio ACT por $34.0M el 2026-08-31.
 - CEO Savi Luca compro ITT por $1.0M el 2026-08-31.
 - 10% owner South32 Ltd vendio TMQ por $17.8M el 2026-08-28 [senal en multiples fuentes].
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $115,162 · win rate 92% · categorias: sports, politics
-- ExplosiveNinja · PnL $37,992 · win rate 97% · categorias: sports
-- c4a759e5c9350491AF61646f2c4A46 · PnL $24,357 · win rate 99% · categorias: sports, crypto
-- asd147 · PnL $22,323 · win rate 99% · categorias: sports, crypto, politics
-- RJW1 · PnL $22,133 · win rate 98% · categorias: sports
+- monkeymashingkeyboard · PnL $57,763 · win rate 92% · categorias: sports
+- rollobravado · PnL $3,043 · win rate 99% · categorias: sports, politics
+- comon119 · PnL $3,912 · win rate 97% · categorias: sports
+- Donghui · PnL $7,796 · win rate 92% · categorias: sports
+- AV23IUa · PnL $69,710 · win rate 77% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +392,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 596 registros 30d · ultimo dato 2026-09-01
+- **sec_insiders**: `ok` · 581 registros 30d · ultimo dato 2026-09-01
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-01
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -404,7 +406,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRC, ASTS, AUGO, BILL, FGL, GLD, IEF, KIDS, PESI, QQQ, RSG, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRC, AUGO, BILL, FGL, GLD, IEF, KIDS, KVYO, PESI, QQQ, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
