@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:59:31+00:00",
+  "generated_at": "2026-09-02T22:13:43+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,18 +8,17 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "ECAT": 0.0992,
-    "GLD": 0.0933,
-    "DGICA": 0.0633,
-    "IEF": 0.0622,
-    "BPRE": 0.039,
-    "KIDS": 0.033,
-    "VST": 0.0304,
-    "PESI": 0.0175,
-    "AUGO": 0.0173,
-    "WIX": 0.0151,
-    "SUJA": 0.0109,
-    "FGL": 0.0089
+    "ECAT": 0.12,
+    "GLD": 0.0938,
+    "IEF": 0.0626,
+    "BPRE": 0.045,
+    "KIDS": 0.0438,
+    "DT": 0.0368,
+    "PESI": 0.0234,
+    "KVYO": 0.0215,
+    "WIX": 0.02,
+    "SUJA": 0.0118,
+    "FGL": 0.0114
   },
   "core": {
     "SPY": 0.1934,
@@ -29,29 +28,20 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "WIX": 0.0134,
-    "AUGO": 0.0154,
-    "SUJA": 0.0097,
-    "PESI": 0.0156,
-    "BPRE": 0.0347,
-    "VST": 0.027,
-    "DGICA": 0.0563,
-    "FGL": 0.0079,
-    "ECAT": 0.0882,
-    "KIDS": 0.0293
+    "WIX": 0.0177,
+    "SUJA": 0.0104,
+    "PESI": 0.0207,
+    "BPRE": 0.0398,
+    "DT": 0.0325,
+    "FGL": 0.0101,
+    "ECAT": 0.1086,
+    "KIDS": 0.0387,
+    "KVYO": 0.019
   },
   "satellite_rationale": [
     {
       "ticker": "WIX",
       "score": 302.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "AUGO",
-      "score": 259.2,
       "sources": [
         "corporate_insider"
       ],
@@ -82,20 +72,12 @@
       "n_signals": 2
     },
     {
-      "ticker": "VST",
-      "score": 127.3,
+      "ticker": "DT",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "DGICA",
-      "score": 119.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "FGL",
@@ -120,20 +102,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "KVYO",
+      "score": 67.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1014,
-    "var_95_1d": 0.0094,
-    "cvar_95_1d": 0.0137,
-    "max_drawdown": -0.0411,
-    "beta_spy": 0.682,
-    "hhi": 0.0742,
+    "ann_vol": 0.1068,
+    "var_95_1d": 0.0089,
+    "cvar_95_1d": 0.0111,
+    "max_drawdown": -0.0166,
+    "beta_spy": 0.717,
+    "hhi": 0.0773,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 13.5,
+    "n_positions": 14,
+    "effective_positions": 12.9,
     "gross_exposure": 0.8501,
-    "days_used": 80
+    "days_used": 34
   },
   "risk_gate": {
     "passed": true,
