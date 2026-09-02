@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-01T22:05:47.763981+00:00",
+  "generated_at": "2026-09-02T00:32:59.644578+00:00",
   "window": {
-    "from": "2026-08-02",
-    "to": "2026-09-01",
+    "from": "2026-08-03",
+    "to": "2026-09-02",
     "days": 30
   },
   "data_quality": {
@@ -24,7 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -62,9 +62,7 @@
       "event_date": "2026-08-31",
       "importance_score": 87.5,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -100,9 +98,7 @@
       "event_date": "2026-08-31",
       "importance_score": 86.6,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -120,9 +116,7 @@
       "event_date": "2026-08-28",
       "importance_score": 85.5,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -158,9 +152,7 @@
       "event_date": "2026-08-31",
       "importance_score": 84.7,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -178,9 +170,7 @@
       "event_date": "2026-08-28",
       "importance_score": 84.3,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -216,9 +206,7 @@
       "event_date": "2026-08-28",
       "importance_score": 83.9,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_134099118275"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926104314/"
     },
     {
@@ -398,10 +386,7 @@
       "event_date": "2026-08-28",
       "importance_score": 81.8,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_118447533749",
-        "news_170235529840"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1739859/000110465926104202/"
     }
   ],
@@ -416,11 +401,27 @@
         ]
       },
       {
+        "ticker": "UPC",
+        "company": "Universe Pharmaceuticals INC",
+        "pressure_score": 564.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "MI",
         "company": "NFT Limited",
         "pressure_score": 352.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "AUGO",
+        "company": "Aura Minerals Inc.",
+        "pressure_score": 316.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -449,16 +450,17 @@
         ]
       },
       {
-        "ticker": "SUJA",
-        "company": "Suja Life, Inc.",
-        "pressure_score": 208.5,
+        "ticker": "EDSA",
+        "company": "Edesa Biotech, Inc.",
+        "pressure_score": 212.2,
         "sources": [
+          "corporate_insider",
           "large_holder"
         ]
       },
       {
-        "ticker": "EDSA",
-        "company": "Edesa Biotech, Inc.",
+        "ticker": "SUJA",
+        "company": "Suja Life, Inc.",
         "pressure_score": 208.5,
         "sources": [
           "large_holder"
@@ -481,17 +483,17 @@
         ]
       },
       {
-        "ticker": "ABR",
-        "company": "ARBOR REALTY TRUST INC",
-        "pressure_score": 201.1,
+        "ticker": "LIEN",
+        "company": "Chicago Atlantic BDC, Inc.",
+        "pressure_score": 202.7,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "EQPT",
-        "company": "EquipmentShare.com Inc",
-        "pressure_score": 156.5,
+        "ticker": "ABR",
+        "company": "ARBOR REALTY TRUST INC",
+        "pressure_score": 201.1,
         "sources": [
           "corporate_insider"
         ]
@@ -509,22 +511,6 @@
         "ticker": "AIIR",
         "company": "AIR Global PLC",
         "pressure_score": 146.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SRTS",
-        "company": "Sensus Healthcare, Inc.",
-        "pressure_score": 143.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TNON",
-        "company": "Tenon Medical, Inc.",
-        "pressure_score": 143.6,
         "sources": [
           "corporate_insider"
         ]
@@ -548,17 +534,18 @@
         ]
       },
       {
-        "ticker": "BAND",
-        "company": "Bandwidth Inc.",
-        "pressure_score": 959.9,
+        "ticker": "NCSM",
+        "company": "NCS Multistage Holdings, Inc.",
+        "pressure_score": 980.0,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
-        "ticker": "NCSM",
-        "company": "NCS Multistage Holdings, Inc.",
-        "pressure_score": 891.3,
+        "ticker": "BAND",
+        "company": "Bandwidth Inc.",
+        "pressure_score": 959.9,
         "sources": [
           "corporate_insider"
         ]
@@ -572,14 +559,6 @@
         ]
       },
       {
-        "ticker": "FLXS",
-        "company": "FLEXSTEEL INDUSTRIES INC",
-        "pressure_score": 667.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 608.8,
@@ -588,20 +567,28 @@
         ]
       },
       {
-        "ticker": "FRHC",
-        "company": "Freedom Holding Corp.",
-        "pressure_score": 427.1,
+        "ticker": "ABNB",
+        "company": "Airbnb, Inc.",
+        "pressure_score": 523.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CON",
-        "company": "Concentra Group Holdings Parent, Inc.",
-        "pressure_score": 360.6,
+        "ticker": "KIDS",
+        "company": "OrthoPediatrics Corp.",
+        "pressure_score": 461.7,
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "AUGO",
+        "company": "Aura Minerals Inc.",
+        "pressure_score": 293.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -613,9 +600,9 @@
         ]
       },
       {
-        "ticker": "FIG",
-        "company": "Figma, Inc.",
-        "pressure_score": 270.6,
+        "ticker": "INDI",
+        "company": "indie Semiconductor, Inc.",
+        "pressure_score": 278.2,
         "sources": [
           "corporate_insider"
         ]
@@ -646,9 +633,9 @@
         ]
       },
       {
-        "ticker": "YUM",
-        "company": "YUM BRANDS INC",
-        "pressure_score": 213.7,
+        "ticker": "XYZ",
+        "company": "Block, Inc.",
+        "pressure_score": 214.0,
         "sources": [
           "corporate_insider"
         ]
@@ -720,13 +707,31 @@
       "score": 82.4
     },
     {
-      "ticker": "EQPT",
-      "company": "EquipmentShare.com Inc",
-      "actor": "Schlacks Jabbok",
-      "actor_type": "ceo",
-      "amount": 270630.0,
-      "date": "2026-08-31",
-      "score": 79.5
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc.",
+      "actor": "Sousa Mauad Bruno",
+      "actor_type": "director",
+      "amount": 11259360.0,
+      "date": "2026-08-28",
+      "score": 81.1
+    },
+    {
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc.",
+      "actor": "Sousa Mauad Bruno",
+      "actor_type": "director",
+      "amount": 5144651.57,
+      "date": "2026-08-28",
+      "score": 79.4
+    },
+    {
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc.",
+      "actor": "Sousa Mauad Bruno",
+      "actor_type": "director",
+      "amount": 3240321.52,
+      "date": "2026-08-28",
+      "score": 78.4
     },
     {
       "ticker": "LINE",
@@ -736,6 +741,15 @@
       "amount": 987555.0,
       "date": "2026-08-28",
       "score": 78.3
+    },
+    {
+      "ticker": "AUGO",
+      "company": "Aura Minerals Inc.",
+      "actor": "Sousa Mauad Bruno",
+      "actor_type": "director",
+      "amount": 2148418.14,
+      "date": "2026-08-28",
+      "score": 77.5
     },
     {
       "ticker": "AFCG",
@@ -756,39 +770,12 @@
       "score": 77.3
     },
     {
-      "ticker": "EQPT",
-      "company": "EquipmentShare.com Inc",
-      "actor": "Schlacks Jabbok",
-      "actor_type": "ceo",
-      "amount": 169765.0,
-      "date": "2026-08-28",
-      "score": 77.0
-    },
-    {
       "ticker": "WALD",
       "company": "Waldencast plc",
       "actor": "Souza Cristiano",
       "actor_type": "ten_percent_owner",
       "amount": 505649.0,
       "date": "2026-08-28",
-      "score": 76.9
-    },
-    {
-      "ticker": "PAM",
-      "company": "Pampa Energy Inc.",
-      "actor": "Mindlin Marcos Marcelo",
-      "actor_type": "ten_percent_owner",
-      "amount": 507300.0,
-      "date": "2026-08-27",
-      "score": 76.9
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 262996.31,
-      "date": "2026-08-31",
       "score": 76.9
     }
   ],
@@ -1117,9 +1104,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 115147.56,
-        "win_rate": 0.9158,
-        "volume": 317229.86,
+        "pnl": 115161.78,
+        "win_rate": 0.916,
+        "volume": 317594.1,
         "categories": [
           "sports",
           "politics"
@@ -1128,9 +1115,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 37753.72,
-        "win_rate": 0.9653,
-        "volume": 109424.24,
+        "pnl": 37992.04,
+        "win_rate": 0.9655,
+        "volume": 146358.24,
         "categories": [
           "sports"
         ]
@@ -1149,9 +1136,9 @@
       {
         "wallet": "0xa16a1302ca",
         "username": "asd147",
-        "pnl": 21805.22,
+        "pnl": 22322.83,
         "win_rate": 0.989,
-        "volume": 326661.08,
+        "volume": 340149.3,
         "categories": [
           "sports",
           "crypto",
@@ -1159,11 +1146,21 @@
         ]
       },
       {
-        "wallet": "0x3413c803c3",
-        "username": "CyberScore.live",
-        "pnl": 24460.39,
-        "win_rate": 0.9643,
-        "volume": 48327.61,
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 22132.58,
+        "win_rate": 0.9767,
+        "volume": 26518.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1058f156b2",
+        "username": "TheyAreTakingTheHobitsToIsengard",
+        "pnl": 20669.49,
+        "win_rate": 0.9811,
+        "volume": 1990.98,
         "categories": [
           "sports"
         ]
@@ -1182,9 +1179,20 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 330114.66,
-        "win_rate": 0.7724,
-        "volume": 949144.06,
+        "pnl": 377642.15,
+        "win_rate": 0.773,
+        "volume": 954558.66,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xc430e5b171",
+        "username": "Gourmet1",
+        "pnl": 100258.18,
+        "win_rate": 0.8235,
+        "volume": 89825.65,
         "categories": [
           "sports",
           "crypto"
@@ -1193,31 +1201,9 @@
       {
         "wallet": "0x9bb1bc70c9",
         "username": "0b1",
-        "pnl": 32687.75,
+        "pnl": 33271.15,
         "win_rate": 0.8952,
         "volume": 496629.1,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x979fc18618",
-        "username": "degenfren",
-        "pnl": 29582.46,
-        "win_rate": 0.8966,
-        "volume": 137574.88,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xc430e5b171",
-        "username": "Gourmet1",
-        "pnl": 49391.29,
-        "win_rate": 0.8235,
-        "volume": 72183.46,
         "categories": [
           "sports",
           "crypto"
@@ -1228,9 +1214,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 161958.42,
-        "win_rate": 0.68,
-        "volume": 6733737.87,
+        "pnl": 99184.58,
+        "win_rate": 0.665,
+        "volume": 7998443.31,
         "categories": [
           "sports"
         ]
@@ -1247,9 +1233,19 @@
         ]
       },
       {
+        "wallet": "0x5dab5ed969",
+        "username": "Weaseloftheweek",
+        "pnl": 143748.16,
+        "win_rate": 0.4773,
+        "volume": 1207704.78,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x397062018d",
         "username": "11vsldfdsgfkjgos",
-        "pnl": 169414.93,
+        "pnl": 267241.69,
         "win_rate": 0.8889,
         "volume": 1059465.03,
         "categories": [
@@ -1257,53 +1253,11 @@
         ]
       },
       {
-        "wallet": "0x5f659bccbc",
-        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
-        "pnl": 19912.74,
-        "win_rate": 0.411,
-        "volume": 1215870.27,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x5dab5ed969",
-        "username": "Weaseloftheweek",
-        "pnl": 155593.24,
-        "win_rate": 0.4697,
-        "volume": 755260.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 330114.66,
-        "win_rate": 0.7724,
-        "volume": 949144.06,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 34091.89,
-        "win_rate": 0.512,
-        "volume": 2853522.23,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9bb1bc70c9",
-        "username": "0b1",
-        "pnl": 32687.75,
-        "win_rate": 0.8952,
-        "volume": 496629.1,
+        "pnl": 377642.15,
+        "win_rate": 0.773,
+        "volume": 954558.66,
         "categories": [
           "sports",
           "crypto"
@@ -1312,19 +1266,51 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 319841.4,
-        "win_rate": 0.4929,
-        "volume": 323897.98,
+        "pnl": 435132.09,
+        "win_rate": 0.4921,
+        "volume": 530746.9,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 31834.05,
+        "win_rate": 0.555,
+        "volume": 2965103.2,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xa71093cafc",
+        "username": "Talvez10",
+        "pnl": 107780.81,
+        "win_rate": 0.495,
+        "volume": 585271.57,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9bb1bc70c9",
+        "username": "0b1",
+        "pnl": 33271.15,
+        "win_rate": 0.8952,
+        "volume": 496629.1,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 36782.05,
-        "win_rate": 0.578,
-        "volume": 1269483.69,
+        "pnl": 35347.05,
+        "win_rate": 0.582,
+        "volume": 1271844.68,
         "categories": [
           "sports"
         ]
@@ -1333,57 +1319,50 @@
   },
   "news": [
     {
-      "title": "Is Thermo Fisher Scientific Stock Outperforming the Nasdaq ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-scientific-stock-outperforming-104744953.html",
-      "ticker": "TMO",
+      "title": "Airbnb announces Pepijn Rijvers as Chief Business Officer",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=359824",
+      "ticker": "ABNB",
       "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-09-01"
     },
     {
-      "title": "Palmer Knight Co Invests $13 . 24 Million in Caterpillar Inc . $CAT",
-      "url": "https://www.themarketsdaily.com/2026/09/01/palmer-knight-co-invests-13-24-million-in-caterpillar-inc-cat.html",
-      "ticker": "CAT",
+      "title": "Insider Selling : Aura Minerals ( NASDAQ : AUGO ) CFO Sells $635 , 672 . 08 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/20/insider-selling-aura-minerals-nasdaqaugo-cfo-sells-635672-08-in-stock.html",
+      "ticker": "AUGO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Aura Minerals ( NASDAQ : AUGO ) Director Mauad Bruno Sousa Sells 280 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/08/20/aura-minerals-nasdaqaugo-director-mauad-bruno-sousa-sells-280000-shares-of-stock.html",
+      "ticker": "AUGO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Aura Minerals ( TSE : ORA ) Share Price Passes Above 200 Day Moving Average – Should You Sell ? ",
+      "url": "https://www.themarketsdaily.com/2026/08/19/aura-minerals-tseora-share-price-passes-above-200-day-moving-average-should-you-sell.html",
+      "ticker": "AUGO",
       "themes": [],
-      "date": "2026-09-01"
+      "date": "2026-08-19"
     },
     {
-      "title": "OFC Financial Planning LLC Buys Shares of 1 , 695 Caterpillar Inc . $CAT",
-      "url": "https://www.themarketsdaily.com/2026/09/01/ofc-financial-planning-llc-buys-shares-of-1695-caterpillar-inc-cat.html",
-      "ticker": "CAT",
+      "title": "Aura Minerals ( NASDAQ : AUGO ) COO Sells 1 , 400 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13548898/aura-minerals-nasdaqaugo-coo-sells-1400-shares-of-stock.html",
+      "ticker": "AUGO",
       "themes": [
         "stock"
       ],
-      "date": "2026-09-01"
-    },
-    {
-      "title": "United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4638067-united-therapeutics-highlights-new-data-supporting-two-fda-filings",
-      "ticker": "UTHR",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-08-31"
-    },
-    {
-      "title": "Republic Services ( NYSE : RSG ) versus Water Technologies International ( OTCMKTS : WTII ) Critical Survey",
-      "url": "https://www.dailypolitical.com/2026/08/26/republic-services-nysersg-versus-water-technologies-international-otcmktswtii-critical-survey.html",
-      "ticker": "RSG",
-      "themes": [],
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Hudson Portfolio Management LLC Purchases Shares of 1 , 365 United Therapeutics Corporation $UTHR",
-      "url": "https://www.themarketsdaily.com/2026/08/23/hudson-portfolio-management-llc-purchases-shares-of-1365-united-therapeutics-corporation-uthr.html",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-08-23"
+      "date": "2026-08-19"
     }
   ],
-  "signals_count": 1288,
+  "signals_count": 1346,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

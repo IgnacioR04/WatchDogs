@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-09-01T22:07:08+00:00",
+  "generated_at": "2026-09-02T00:33:53+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "RSG": 0.1027,
     "GLD": 0.0933,
-    "RSG": 0.0738,
-    "CON": 0.0696,
     "IEF": 0.0622,
-    "BPRE": 0.0565,
-    "ALLT": 0.0292,
-    "AMRC": 0.0228,
-    "PESI": 0.0208,
-    "EQPT": 0.0193,
-    "SUJA": 0.0172,
-    "ASTS": 0.0134,
-    "FGL": 0.0119
+    "KIDS": 0.0541,
+    "BILL": 0.0424,
+    "PESI": 0.0289,
+    "AUGO": 0.0288,
+    "AMRC": 0.0254,
+    "ASTS": 0.0197,
+    "SUJA": 0.0179,
+    "FGL": 0.0147
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "RSG": 0.0656,
-    "SUJA": 0.0153,
-    "ASTS": 0.0119,
-    "CON": 0.0619,
-    "PESI": 0.0185,
-    "BPRE": 0.0502,
-    "AMRC": 0.0203,
-    "EQPT": 0.0172,
-    "FGL": 0.0106,
-    "ALLT": 0.026
+    "RSG": 0.0913,
+    "AUGO": 0.0256,
+    "SUJA": 0.0159,
+    "ASTS": 0.0175,
+    "PESI": 0.0257,
+    "AMRC": 0.0226,
+    "FGL": 0.0131,
+    "KIDS": 0.0481,
+    "BILL": 0.0377
   },
   "satellite_rationale": [
     {
@@ -48,6 +46,14 @@
         "corporate_insider"
       ],
       "n_signals": 7
+    },
+    {
+      "ticker": "AUGO",
+      "score": 259.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
     },
     {
       "ticker": "SUJA",
@@ -66,23 +72,7 @@
       "n_signals": 3
     },
     {
-      "ticker": "CON",
-      "score": 142.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "PESI",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "BPRE",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -99,14 +89,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "EQPT",
-      "score": 124.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "FGL",
       "score": 71.8,
       "sources": [
@@ -115,7 +97,15 @@
       "n_signals": 1
     },
     {
-      "ticker": "ALLT",
+      "ticker": "KIDS",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "BILL",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -124,17 +114,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1123,
-    "var_95_1d": 0.0109,
-    "cvar_95_1d": 0.0152,
-    "max_drawdown": -0.0422,
-    "beta_spy": 0.706,
-    "hhi": 0.0721,
+    "ann_vol": 0.1207,
+    "var_95_1d": 0.0105,
+    "cvar_95_1d": 0.0158,
+    "max_drawdown": -0.0501,
+    "beta_spy": 0.755,
+    "hhi": 0.0743,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 13.9,
-    "gross_exposure": 0.85,
-    "days_used": 49
+    "n_positions": 14,
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8501,
+    "days_used": 77
   },
   "risk_gate": {
     "passed": true,
