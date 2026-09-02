@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-02T04:50:27+00:00 · ventana señales 2026-08-03 -> 2026-09-02_
+_Generado 2026-09-02T09:56:01+00:00 · ventana señales 2026-08-03 -> 2026-09-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.34)
+- Volatilidad: `normal` (VIX 16.78)
 - Tendencia: `bull` (SPY 761.78 · MA50 754.71 · MA200 708.29 · dist MA200: 7.55%)
 - Credito: `tight` (HY spread 2.63)
 - Tipos: `flat` (curva 10y-2y 0.4)
@@ -24,24 +24,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 761.78 | -0.69% | -0.54% | -1.24% |
 | QQQ | 12.0% | core | 707.64 | -1.27% | -0.43% | -2.24% |
-| TLT | 12.0% | core | 81.87 | -0.41% | -0.46% | -0.01% |
+| TLT | 12.0% | core | 81.87 | -0.41% | -1.54% | -0.77% |
 | GLD | 9.3% | core | 396.75 | -2.86% | -7.32% | 6.04% |
-| KIDS | 7.4% | satellite | 23.0 | -1.33% | -8.26% | 10.21% |
+| KIDS | 7.5% | satellite | 23.0 | -1.33% | -6.12% | 10.15% |
 | IEF | 6.2% | core | 92.1 | -0.33% | -1.15% | -0.88% |
-| BILL | 5.8% | satellite | 47.62 | -3.27% | -1.12% | 0.85% |
-| KVYO | 4.3% | satellite | 20.64 | 0.29% | 13.41% | 14.03% |
-| PESI | 4.0% | satellite | 17.84 | -1.71% | 9.45% | 6.32% |
-| AUGO | 3.9% | satellite | 79.04 | -5.43% | -9.53% | 40.92% |
-| AMRC | 3.5% | satellite | 22.6 | 2.17% | 7.77% | -0.57% |
+| BILL | 5.8% | satellite | 47.62 | -3.27% | -0.19% | -1.96% |
+| KVYO | 4.3% | satellite | 20.64 | 0.29% | 17.27% | 8.06% |
+| PESI | 4.0% | satellite | 17.84 | -1.71% | 0.73% | 0.28% |
+| AUGO | 3.9% | satellite | 79.04 | -5.43% | -12.63% | 38.05% |
+| AMRC | 3.5% | satellite | 22.6 | 2.17% | 2.4% | -19.11% |
 | SUJA | 2.5% | satellite | 10.43 | 3.57% | 11.79% | -8.51% |
-| FGL | 2.0% | satellite | 16.51 | 8.62% | -21.31% | -80.82% |
+| FGL | 2.0% | satellite | 17.23 | 13.36% | -17.95% | -79.99% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 14.3%
 - VaR 95% 1d: 1.3% · CVaR 95% 1d: 2.0%
 - Max drawdown historico: -6.4%
-- Beta vs SPY: 0.877 · posiciones efectivas: 13.9 · HHI: 0.0719
+- Beta vs SPY: 0.878 · posiciones efectivas: 13.9 · HHI: 0.0719
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -98,13 +98,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - SPY: 761.78 (-0.69% / -0.54% / -1.24%) [2026-09-01]
 - QQQ: 707.64 (-1.27% / -0.43% / -2.24%) [2026-09-01]
-- IWM: 290.57 (-1.14% / -2.48% / -1.91%) [2026-09-01]
-- DIA: 527.75 (-0.72% / -1.11% / -0.57%) [2026-09-01]
-- TLT: 81.87 (-0.41% / -0.46% / -0.01%) [2026-09-01]
+- IWM: 290.57 (-1.14% / -2.89% / -3.69%) [2026-09-01]
+- DIA: 527.75 (-0.72% / -1.4% / -2.27%) [2026-09-01]
+- TLT: 81.87 (-0.41% / -1.54% / -0.77%) [2026-09-01]
 - IEF: 92.1 (-0.33% / -1.15% / -0.88%) [2026-09-01]
 - GLD: 396.75 (-2.86% / -7.32% / 6.04%) [2026-09-01]
-- ^VIX: 16.34 (9.52% / 5.76% / -0.97%) [2026-09-01]
-- BTC-USD: 77540.15 (-1.28% / -3.39% / 22.3%) [2026-09-02]
+- ^VIX: 16.78 (2.69% / 10.32% / 6.14%) [2026-09-02]
+- BTC-USD: 76637.44 (-0.99% / -1.53% / 20.88%) [2026-09-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -127,7 +127,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [AUGO] Aura Minerals ( NASDAQ : AUGO ) Director Purchases 252 , 000 Shares of Stock (2026-09-02)
 - [ABNB] Nathan Blecharczyk Sells 57 , 160 Shares of Airbnb ( NASDAQ : ABNB ) Stock (2026-09-02)
 - [ABNB] Airbnb ( NASDAQ : ABNB ) Insider Sells 13 , 615 Shares of Stock (2026-09-02)
-- [PHIN] Analysts Set PHINIA Inc . ( NYSE : PHIN ) Target Price at $82 . 00 (2026-08-26)
 - [CSTL] Castle Biosciences , Inc . ( NASDAQ : CSTL ) Receives $42 . 00 Average PT from Analysts (2026-08-23)
 - [AUGO] Insider Selling : Aura Minerals ( NASDAQ : AUGO ) CFO Sells $635 , 672 . 08 in Stock (2026-08-20)
 - [AUGO] Aura Minerals ( NASDAQ : AUGO ) Director Mauad Bruno Sousa Sells 280 , 000 Shares of Stock (2026-08-20)
@@ -146,11 +145,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $57,763 · win rate 92% · categorias: sports
-- rollobravado · PnL $3,043 · win rate 99% · categorias: sports, politics
-- comon119 · PnL $3,912 · win rate 97% · categorias: sports
-- Donghui · PnL $7,796 · win rate 92% · categorias: sports
-- AV23IUa · PnL $69,710 · win rate 77% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $59,550 · win rate 92% · categorias: sports
+- TAIWANNUMBERONE · PnL $49,048 · win rate 92% · categorias: sports, politics
+- Donghui · PnL $23,855 · win rate 92% · categorias: sports
+- Kosherlocks · PnL $13,514 · win rate 96% · categorias: sports, crypto
+- rollobravado · PnL $7,588 · win rate 99% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
