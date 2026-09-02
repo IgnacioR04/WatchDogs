@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-02T14:48:38+00:00",
+  "generated_at": "2026-09-02T18:59:31+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "ECAT": 0.0992,
     "GLD": 0.0933,
-    "DGICA": 0.0845,
+    "DGICA": 0.0633,
     "IEF": 0.0622,
-    "BPRE": 0.0521,
-    "KIDS": 0.044,
-    "VST": 0.0405,
-    "PESI": 0.0234,
-    "AUGO": 0.0232,
-    "AMRC": 0.0207,
-    "WIX": 0.02,
-    "SUJA": 0.0145,
-    "FGL": 0.0118
+    "BPRE": 0.039,
+    "KIDS": 0.033,
+    "VST": 0.0304,
+    "PESI": 0.0175,
+    "AUGO": 0.0173,
+    "WIX": 0.0151,
+    "SUJA": 0.0109,
+    "FGL": 0.0089
   },
   "core": {
     "SPY": 0.1934,
@@ -29,18 +29,26 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AUGO": 0.0206,
-    "WIX": 0.0178,
-    "SUJA": 0.0129,
-    "PESI": 0.0208,
-    "BPRE": 0.0463,
-    "AMRC": 0.0184,
-    "VST": 0.036,
-    "DGICA": 0.0751,
-    "FGL": 0.0105,
-    "KIDS": 0.0391
+    "WIX": 0.0134,
+    "AUGO": 0.0154,
+    "SUJA": 0.0097,
+    "PESI": 0.0156,
+    "BPRE": 0.0347,
+    "VST": 0.027,
+    "DGICA": 0.0563,
+    "FGL": 0.0079,
+    "ECAT": 0.0882,
+    "KIDS": 0.0293
   },
   "satellite_rationale": [
+    {
+      "ticker": "WIX",
+      "score": 302.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
     {
       "ticker": "AUGO",
       "score": 259.2,
@@ -48,14 +56,6 @@
         "corporate_insider"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "WIX",
-      "score": 228.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
     },
     {
       "ticker": "SUJA",
@@ -77,15 +77,6 @@
       "ticker": "BPRE",
       "score": 141.0,
       "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "AMRC",
-      "score": 131.4,
-      "sources": [
-        "corporate_insider",
         "large_holder"
       ],
       "n_signals": 2
@@ -115,6 +106,14 @@
       "n_signals": 1
     },
     {
+      "ticker": "ECAT",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "KIDS",
       "score": 70.2,
       "sources": [
@@ -124,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1145,
-    "var_95_1d": 0.0111,
-    "cvar_95_1d": 0.0144,
-    "max_drawdown": -0.0521,
-    "beta_spy": 0.74,
-    "hhi": 0.0715,
+    "ann_vol": 0.1014,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0137,
+    "max_drawdown": -0.0411,
+    "beta_spy": 0.682,
+    "hhi": 0.0742,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.0,
-    "gross_exposure": 0.8502,
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8501,
     "days_used": 80
   },
   "risk_gate": {
