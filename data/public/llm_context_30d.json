@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-03T18:58:53.874790+00:00",
+  "generated_at": "2026-09-03T21:58:44.436773+00:00",
   "window": {
     "from": "2026-08-04",
     "to": "2026-09-03",
@@ -23,9 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "ai",
-      "merger"
+      "leadership",
+      "stock",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -33,56 +34,56 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO compro NPB ($1.4M)",
-      "summary": "CEO Williams Charles Alan compro NPB por $1.4M el 2026-09-01.",
+      "title": "CEO vendio LRCX ($8.0M)",
+      "summary": "CEO Varadarajan Seshasayee vendio LRCX por $8.0M el 2026-09-02.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Williams Charles Alan",
+      "actor_name": "Varadarajan Seshasayee",
       "actor_type": "ceo",
-      "ticker": "NPB",
-      "direction": "buy",
-      "amount_estimated": 1422925.5,
-      "event_date": "2026-09-01",
-      "importance_score": 83.1,
+      "ticker": "LRCX",
+      "direction": "sell",
+      "amount_estimated": 8005473.6,
+      "event_date": "2026-09-02",
+      "importance_score": 82.9,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2056588/000205756726000008/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1707827/000170782726000006/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio WHD ($7.0M)",
-      "summary": "CEO Bender Joel vendio WHD por $7.0M el 2026-09-01.",
+      "title": "CEO compro VSTS ($1.0M)",
+      "summary": "CEO Barber James J. compro VSTS por $1.0M el 2026-09-02.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Bender Joel",
+      "actor_name": "Barber James J.",
       "actor_type": "ceo",
-      "ticker": "WHD",
-      "direction": "sell",
-      "amount_estimated": 7037200.0,
-      "event_date": "2026-09-01",
-      "importance_score": 82.6,
+      "ticker": "VSTS",
+      "direction": "buy",
+      "amount_estimated": 1045383.3,
+      "event_date": "2026-09-02",
+      "importance_score": 82.4,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1701689/000162828026060204/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571166/000157116626000003/"
     },
     {
       "id": "move_3",
       "rank": 3,
-      "title": "10% owner compro EMPD ($1.8M)",
-      "summary": "10% owner Empery Asset Management, LP compro EMPD por $1.8M el 2026-09-01 [senal en multiples fuentes].",
+      "title": "CEO vendio LRCX ($5.8M)",
+      "summary": "CEO Varadarajan Seshasayee vendio LRCX por $5.8M el 2026-09-02.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Empery Asset Management, LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "EMPD",
-      "direction": "buy",
-      "amount_estimated": 1793100.0,
-      "event_date": "2026-09-01",
-      "importance_score": 82.4,
-      "cross_source_score": 25.0,
+      "actor_name": "Varadarajan Seshasayee",
+      "actor_type": "ceo",
+      "ticker": "LRCX",
+      "direction": "sell",
+      "amount_estimated": 5826400.0,
+      "event_date": "2026-09-02",
+      "importance_score": 82.2,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1469336/000168316826006871/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1707827/000170782726000006/"
     },
     {
       "id": "move_4",
@@ -410,20 +411,10 @@
         ]
       },
       {
-        "ticker": "TENX",
-        "company": "Tenax Therapeutics, Inc.",
-        "pressure_score": 379.8,
+        "ticker": "JTTT",
+        "company": "JATT III Acquisition Corp",
+        "pressure_score": 351.0,
         "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "EMPD",
-        "company": "Empery Digital Inc.",
-        "pressure_score": 294.6,
-        "sources": [
-          "corporate_insider",
           "large_holder"
         ]
       },
@@ -436,74 +427,57 @@
         ]
       },
       {
-        "ticker": "GROV",
-        "company": "Grove Collaborative Holdings, Inc.",
-        "pressure_score": 216.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "OPAL",
-        "company": "OPAL Fuels Inc.",
-        "pressure_score": 213.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "JTTT",
-        "company": "JATT III Acquisition Corp",
+        "ticker": "MD",
+        "company": "Pediatrix Medical Group, Inc.",
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "SUJA",
-        "company": "Suja Life, Inc.",
+        "ticker": "BRBR",
+        "company": "BellRing Brands, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "EMPD",
+        "company": "Empery Digital Inc.",
         "pressure_score": 208.5,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "EDSA",
-        "company": "Edesa Biotech, Inc.",
-        "pressure_score": 208.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "FUSB",
-        "company": "First US Bancshares, Inc.",
-        "pressure_score": 205.0,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "LDI",
-        "company": "loanDepot, Inc.",
-        "pressure_score": 152.6,
+        "ticker": "APCX",
+        "company": "AppTech Payments Corp.",
+        "pressure_score": 198.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "JUSH",
-        "company": "Jushi Holdings Inc.",
-        "pressure_score": 151.6,
+        "ticker": "EQPT",
+        "company": "EquipmentShare.com Inc",
+        "pressure_score": 156.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BAER",
-        "company": "Bridger Aerospace Group Holdings, Inc.",
-        "pressure_score": 145.1,
+        "ticker": "BETA",
+        "company": "BETA Technologies, Inc.",
+        "pressure_score": 147.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SLGL",
+        "company": "Sol-Gel Technologies Ltd.",
+        "pressure_score": 145.8,
         "sources": [
           "corporate_insider"
         ]
@@ -515,72 +489,119 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "CALM",
+        "company": "CAL-MAINE FOODS INC",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "DH",
+        "company": "Definitive Healthcare Corp.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "BMHL",
+        "company": "Bluemount Holdings Ltd",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "AXON",
-        "company": "AXON ENTERPRISE, INC.",
-        "pressure_score": 2066.1,
+        "ticker": "DASH",
+        "company": "DoorDash, Inc.",
+        "pressure_score": 1087.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1820.5,
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 990.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "PHI",
-        "company": "PLDT Inc.",
-        "pressure_score": 1036.5,
+        "ticker": "ATOM",
+        "company": "Atomera Inc",
+        "pressure_score": 898.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo Inc.",
-        "pressure_score": 751.5,
+        "ticker": "FROG",
+        "company": "JFrog Ltd",
+        "pressure_score": 651.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "AMBQ",
-        "company": "Ambiq Micro, Inc.",
-        "pressure_score": 679.1,
+        "ticker": "DRD",
+        "company": "DRDGOLD LTD",
+        "pressure_score": 644.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CNO",
-        "company": "CNO Financial Group, Inc.",
-        "pressure_score": 651.2,
+        "ticker": "WAB",
+        "company": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+        "pressure_score": 573.7,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "TDUP",
-        "company": "ThredUp Inc.",
-        "pressure_score": 634.6,
+        "ticker": "IBTA",
+        "company": "Ibotta, Inc.",
+        "pressure_score": 536.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "MAX",
-        "company": "MediaAlpha, Inc.",
-        "pressure_score": 480.7,
+        "ticker": "AFRM",
+        "company": "Affirm Holdings, Inc.",
+        "pressure_score": 509.3,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TDOC",
+        "company": "Teladoc Health, Inc.",
+        "pressure_score": 487.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "COIN",
+        "company": "Coinbase Global, Inc.",
+        "pressure_score": 480.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "QRVO",
+        "company": "Qorvo, Inc.",
+        "pressure_score": 435.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -592,50 +613,25 @@
         ]
       },
       {
-        "ticker": "DE",
-        "company": "DEERE & CO",
-        "pressure_score": 400.0,
+        "ticker": "TEM",
+        "company": "Tempus AI, Inc.",
+        "pressure_score": 426.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "FLUT",
-        "company": "Flutter Entertainment plc",
-        "pressure_score": 347.3,
+        "ticker": "BAND",
+        "company": "Bandwidth Inc.",
+        "pressure_score": 420.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "WHD",
-        "company": "Cactus, Inc.",
-        "pressure_score": 311.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RDDT",
-        "company": "Reddit, Inc.",
-        "pressure_score": 294.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VICR",
-        "company": "VICOR CORPORATION",
-        "pressure_score": 272.3,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "PCVX",
-        "company": "Vaxcyte, Inc.",
-        "pressure_score": 269.6,
+        "ticker": "QLYS",
+        "company": "QUALYS, INC.",
+        "pressure_score": 416.5,
         "sources": [
           "corporate_insider"
         ]
@@ -644,21 +640,12 @@
   },
   "insider_buying": [
     {
-      "ticker": "NPB",
-      "company": "NORTHPOINTE BANCSHARES INC",
-      "actor": "Williams Charles Alan",
+      "ticker": "VSTS",
+      "company": "Vestis Corp",
+      "actor": "Barber James J.",
       "actor_type": "ceo",
-      "amount": 1422925.5,
-      "date": "2026-09-01",
-      "score": 83.1
-    },
-    {
-      "ticker": "EMPD",
-      "company": "Empery Digital Inc.",
-      "actor": "Empery Asset Management, LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 1793100.0,
-      "date": "2026-09-01",
+      "amount": 1045383.3,
+      "date": "2026-09-02",
       "score": 82.4
     },
     {
@@ -680,85 +667,22 @@
       "score": 80.5
     },
     {
-      "ticker": "PAM",
-      "company": "Pampa Energy Inc.",
-      "actor": "Mindlin Marcos Marcelo",
-      "actor_type": "ten_percent_owner",
-      "amount": 1720000.0,
-      "date": "2026-08-31",
-      "score": 79.5
-    },
-    {
-      "ticker": "PNFP",
-      "company": "Pinnacle Financial Partners, Inc.",
-      "actor": "Blair Kevin S.",
+      "ticker": "EQPT",
+      "company": "EquipmentShare.com Inc",
+      "actor": "Schlacks Jabbok",
       "actor_type": "ceo",
-      "amount": 250036.2,
-      "date": "2026-09-01",
-      "score": 79.3
-    },
-    {
-      "ticker": "TENX",
-      "company": "TENAX THERAPEUTICS, INC.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 722593.88,
-      "date": "2026-08-31",
-      "score": 78.9
-    },
-    {
-      "ticker": "TENX",
-      "company": "TENAX THERAPEUTICS, INC.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 337585.64,
-      "date": "2026-09-02",
-      "score": 78.7
-    },
-    {
-      "ticker": "MIR",
-      "company": "Mirion Technologies, Inc.",
-      "actor": "Schopfer Brian",
-      "actor_type": "cfo",
-      "amount": 312000.0,
+      "amount": 176900.0,
       "date": "2026-09-02",
       "score": 78.6
     },
     {
-      "ticker": "TENX",
-      "company": "TENAX THERAPEUTICS, INC.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 321570.26,
-      "date": "2026-09-01",
-      "score": 78.6
-    },
-    {
-      "ticker": "JUSH",
-      "company": "Jushi Holdings Inc.",
-      "actor": "Cacioppo James",
+      "ticker": "EQPT",
+      "company": "EquipmentShare.com Inc",
+      "actor": "Schlacks Jabbok",
       "actor_type": "ceo",
-      "amount": 128712.0,
+      "amount": 255450.0,
       "date": "2026-09-01",
       "score": 77.9
-    },
-    {
-      "ticker": "OPAL",
-      "company": "OPAL Fuels Inc.",
-      "actor": "Comora Adam",
-      "actor_type": "ceo",
-      "amount": 96500.0,
-      "date": "2026-09-01",
-      "score": 77.3
-    },
-    {
-      "ticker": "GROV",
-      "company": "Grove Collaborative Holdings, Inc.",
-      "actor": "Yurcisin Jeffrey Michael",
-      "actor_type": "ceo",
-      "amount": 94689.0,
-      "date": "2026-09-01",
-      "score": 77.2
     },
     {
       "ticker": "AMRZ",
@@ -777,6 +701,78 @@
       "amount": 84930.0,
       "date": "2026-09-02",
       "score": 77.0
+    },
+    {
+      "ticker": "OWLS",
+      "company": "OBOOK HOLDINGS INC.",
+      "actor": "WANG CHUN KAI",
+      "actor_type": "ceo",
+      "amount": 58098.6,
+      "date": "2026-09-02",
+      "score": 76.2
+    },
+    {
+      "ticker": "CTKYY",
+      "company": "CooTek(Cayman)Inc.",
+      "actor": "ZHANG KAN",
+      "actor_type": "cfo",
+      "amount": 0.0,
+      "date": "2026-09-03",
+      "score": 76.1
+    },
+    {
+      "ticker": "AVBC",
+      "company": "Avidia Bancorp, Inc.",
+      "actor": "Nelson Jonathan Michael",
+      "actor_type": "cfo",
+      "amount": 99855.0,
+      "date": "2026-09-03",
+      "score": 76.1
+    },
+    {
+      "ticker": "HONA",
+      "company": "Honeywell Aerospace Inc.",
+      "actor": "ARNOLD CRAIG",
+      "actor_type": "director",
+      "amount": 998400.0,
+      "date": "2026-09-01",
+      "score": 75.8
+    },
+    {
+      "ticker": "AMRZ",
+      "company": "Amrize Ltd",
+      "actor": "Jenisch Jan Philipp",
+      "actor_type": "ceo",
+      "amount": 42440.0,
+      "date": "2026-09-02",
+      "score": 75.5
+    },
+    {
+      "ticker": "BETA",
+      "company": "BETA Technologies, Inc.",
+      "actor": "Stone Michael Robert",
+      "actor_type": "director",
+      "amount": 251809.69,
+      "date": "2026-09-02",
+      "score": 74.4
+    },
+    {
+      "ticker": "SLGL",
+      "company": "Sol-Gel Technologies Ltd.",
+      "actor": "Opaleye Management Inc.",
+      "actor_type": "ten_percent_owner",
+      "amount": 62054.01,
+      "date": "2026-09-02",
+      "score": 73.8
+    },
+    {
+      "ticker": "GRF",
+      "company": "EAGLE CAPITAL GROWTH FUND, INC.",
+      "actor": "SIMS LUKE E",
+      "actor_type": "ceo",
+      "amount": 25575.17,
+      "date": "2026-09-01",
+      "score": 72.9
     }
   ],
   "institutional_changes": [
@@ -982,6 +978,15 @@
       "date": "2026-08-26"
     },
     {
+      "filer": "RSLGH, LLC",
+      "company": "RYTHM, Inc.",
+      "ticker": "RYM",
+      "ownership_pct": 89.9,
+      "shares": 13424103,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-03"
+    },
+    {
       "filer": "Telephone and Data Systems, Inc.",
       "company": "Array Digital Infrastructure, Inc.",
       "ticker": "",
@@ -1054,33 +1059,6 @@
       "date": "2026-09-02"
     },
     {
-      "filer": "Paine Schwartz Food Chain Fund V GP, Ltd.",
-      "company": "Suja Life, Inc.",
-      "ticker": "SUJA",
-      "ownership_pct": 65.5,
-      "shares": 25280317,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-25"
-    },
-    {
-      "filer": "Motive GM Holdings II LLC",
-      "company": "Workhorse Group Inc.",
-      "ticker": "WKHS",
-      "ownership_pct": 65.4,
-      "shares": 8129800,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-25"
-    },
-    {
-      "filer": "Lam Chi Ming",
-      "company": "Ming Shing Group Holdings Ltd",
-      "ticker": "PMA",
-      "ownership_pct": 62.4,
-      "shares": 8094865,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-25"
-    },
-    {
       "filer": "Bellevue Capital Partners, LLC",
       "company": "American Strategic Investment Co.",
       "ticker": "NYC",
@@ -1097,26 +1075,54 @@
       "shares": 2404532,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-27"
+    },
+    {
+      "filer": "Advent International, L.P.",
+      "company": "Definitive Healthcare Corp.",
+      "ticker": "DH",
+      "ownership_pct": 58.54,
+      "shares": 62493676,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-09-02"
+    },
+    {
+      "filer": "Ault & Company, Inc.",
+      "company": "Hyperscale Data, Inc.",
+      "ticker": "",
+      "ownership_pct": 57.7,
+      "shares": 186963677,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-08-31"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0x73e3fec494",
+        "username": "ExplosiveNinja",
+        "pnl": 73028.75,
+        "win_rate": 0.9679,
+        "volume": 159939.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 133495.06,
+        "win_rate": 0.901,
+        "volume": 472641.51,
+        "categories": [
+          "crypto"
+        ]
+      },
       {
         "wallet": "0xf5f9294051",
         "username": "kekasaur",
         "pnl": 71778.55,
         "win_rate": 0.9412,
         "volume": 323410.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 47848.31,
-        "win_rate": 0.9679,
-        "volume": 159939.68,
         "categories": [
           "sports"
         ]
@@ -1132,19 +1138,9 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 129519.45,
-        "win_rate": 0.901,
-        "volume": 472641.51,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xa68c732b3d",
         "username": "",
-        "pnl": 28993.0,
+        "pnl": 29736.9,
         "win_rate": 0.9868,
         "volume": 0.0,
         "categories": [
@@ -1166,7 +1162,7 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 176109.86,
+        "pnl": 184920.83,
         "win_rate": 0.8169,
         "volume": 547729.34,
         "categories": [
@@ -1174,23 +1170,22 @@
         ]
       },
       {
-        "wallet": "0xf559276513",
-        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
-        "pnl": 64206.03,
-        "win_rate": 0.8228,
-        "volume": 67357.51,
+        "wallet": "0x9bb1bc70c9",
+        "username": "0b1",
+        "pnl": 42786.95,
+        "win_rate": 0.9005,
+        "volume": 340878.58,
         "categories": [
           "sports",
-          "politics",
           "crypto"
         ]
       },
       {
         "wallet": "0x16602a38e8",
         "username": "BBQChickenisthebesttt",
-        "pnl": 30001.73,
-        "win_rate": 0.8698,
-        "volume": 264388.0,
+        "pnl": 35122.62,
+        "win_rate": 0.8716,
+        "volume": 295094.99,
         "categories": [
           "sports",
           "crypto",
@@ -1198,13 +1193,15 @@
         ]
       },
       {
-        "wallet": "0xd06c49e1c8",
-        "username": "Skritopoolniy",
-        "pnl": 21410.72,
-        "win_rate": 0.8904,
-        "volume": 101098.68,
+        "wallet": "0xf559276513",
+        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
+        "pnl": 62114.41,
+        "win_rate": 0.8228,
+        "volume": 67357.51,
         "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       }
     ],
@@ -1222,9 +1219,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 132636.0,
-        "win_rate": 0.57,
-        "volume": 4628059.08,
+        "pnl": 130655.31,
+        "win_rate": 0.572,
+        "volume": 4924339.79,
         "categories": [
           "sports"
         ]
@@ -1232,27 +1229,49 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 29671.37,
+        "pnl": 47417.72,
         "win_rate": 0.703,
-        "volume": 930384.01,
+        "volume": 1062991.25,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xc430e5b171",
+        "username": "Gourmet1",
+        "pnl": 35277.06,
+        "win_rate": 0.8306,
+        "volume": 858608.65,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 97971.35,
-        "win_rate": 0.571,
-        "volume": 2525773.15,
+        "pnl": 98396.12,
+        "win_rate": 0.569,
+        "volume": 3079672.19,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x5f659bccbc",
+        "username": "0x5F659BcCBC353dBf7BcdffDEE73beE60bB482036-1780496231400",
+        "pnl": 31068.39,
+        "win_rate": 0.402,
+        "volume": 602034.97,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 198411.63,
+        "pnl": 75248.77,
         "win_rate": 0.4957,
         "volume": 412463.19,
         "categories": [
@@ -1260,9 +1279,19 @@
         ]
       },
       {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 37885.96,
+        "win_rate": 0.499,
+        "volume": 467290.48,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 129519.45,
+        "pnl": 133495.06,
         "win_rate": 0.901,
         "volume": 472641.51,
         "categories": [
@@ -1272,40 +1301,9 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 176109.86,
+        "pnl": 184920.83,
         "win_rate": 0.8169,
         "volume": 547729.34,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 32241.65,
-        "win_rate": 0.7772,
-        "volume": 431527.61,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x6e2c0e9474",
-        "username": "0x99a093771ad58bcfc3023cd75566415f",
-        "pnl": 22587.17,
-        "win_rate": 0.461,
-        "volume": 714925.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf5f9294051",
-        "username": "kekasaur",
-        "pnl": 71778.55,
-        "win_rate": 0.9412,
-        "volume": 323410.15,
         "categories": [
           "sports"
         ]
@@ -1314,52 +1312,60 @@
   },
   "news": [
     {
-      "title": "Contrasting ThredUp ( NASDAQ : TDUP ) and Chow Tai Fook ( OTCMKTS : CJEWY ) ",
-      "url": "https://www.dailypolitical.com/2026/09/03/contrasting-thredup-nasdaqtdup-and-chow-tai-fook-otcmktscjewy.html",
-      "ticker": "TDUP",
+      "title": "Teladoc Health Appoints Michael Grasher As Chief Financial Officer ; Stock Down",
+      "url": "https://www.rttnews.com/3687074/teladoc-health-appoints-michael-grasher-as-chief-financial-officer-stock-down.aspx",
+      "ticker": "TDOC",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "title": "Lantronix Q4 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lantronix-q4-earnings-call-highlights-220213701.html",
+      "ticker": "LTRX",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-08-28"
+    },
+    {
+      "title": "INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Teladoc Health , Inc . ",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-teladoc-health-inc---tdoc-302862337.html",
+      "ticker": "TDOC",
       "themes": [
         "ai"
       ],
-      "date": "2026-09-03"
+      "date": "2026-08-27"
     },
     {
-      "title": "Invesco Ltd . - Invesco Ltd : Form 8 . 3 - Bodycote PLC ; Public dealing disclosure",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69487207-invesco-ltd-invesco-ltd-form-8-3-bodycote-plc-public-dealing-disclosure-008.htm",
-      "ticker": "IVZ",
+      "title": "INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Teladoc Health , Inc . ",
+      "url": "http://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-teladoc-health-inc---tdoc-302862337.html",
+      "ticker": "TDOC",
       "themes": [
-        "merger"
-      ],
-      "date": "2026-09-03"
-    },
-    {
-      "title": "CNO Financial Group ( NYSE : CNO ) Insider Sells $360 , 734 . 40 in Stock",
-      "url": "https://www.dailypolitical.com/2026/09/02/cno-financial-group-nysecno-insider-sells-360734-40-in-stock.html",
-      "ticker": "CNO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-02"
-    },
-    {
-      "title": "CNO Financial Group ( NYSE : CNO ) Insider Karen Detoro Sells 9 , 336 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/09/02/cno-financial-group-nysecno-insider-karen-detoro-sells-9336-shares-of-stock.html",
-      "ticker": "CNO",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Mobility Global ( NYSE : MBGL ) Stock Sold Rep . Kelly Morrison",
-      "url": "https://www.themarketsdaily.com/2026/08/27/mobility-global-nysembgl-stock-sold-rep-kelly-morrison.html",
-      "ticker": "MBGL",
-      "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-08-27"
+    },
+    {
+      "title": "Lantronix , Inc . ( NASDAQ : LTRX ) Receives $10 . 40 Consensus Price Target from Brokerages",
+      "url": "https://www.themarketsdaily.com/2026/08/27/lantronix-inc-nasdaqltrx-receives-10-40-consensus-price-target-from-brokerages.html",
+      "ticker": "LTRX",
+      "themes": [],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Contrasting China Techfaith Wireless Communication Technology ( OTCMKTS : CNTFY ) and Lantronix ( NASDAQ : LTRX ) ",
+      "url": "https://www.themarketsdaily.com/2026/08/21/contrasting-china-techfaith-wireless-communication-technology-otcmktscntfy-and-lantronix-nasdaqltrx.html",
+      "ticker": "LTRX",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-08-21"
     }
   ],
-  "signals_count": 1341,
+  "signals_count": 1492,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
