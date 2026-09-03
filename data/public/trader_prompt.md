@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-03T00:35:54+00:00 -->
+<!-- trader_prompt.md generado 2026-09-03T04:53:58+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-03T00:35:54+00:00 · ventana señales 2026-08-04 -> 2026-09-03_
+_Generado 2026-09-03T04:53:58+00:00 · ventana señales 2026-08-04 -> 2026-09-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -244,7 +244,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.2)
-- Tendencia: `bull` (SPY 761.78 · MA50 754.71 · MA200 708.29 · dist MA200: 7.55%)
+- Tendencia: `bull` (SPY 765.16 · MA50 755.34 · MA200 708.78 · dist MA200: 7.95%)
 - Credito: `tight` (HY spread 2.65)
 - Tipos: `flat` (curva 10y-2y 0.4)
 - Fed Funds: 3.63%
@@ -256,22 +256,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 761.78 | -0.69% | -0.54% | -1.24% |
-| QQQ | 12.0% | core | 707.64 | -1.27% | -0.43% | -2.24% |
-| TLT | 12.0% | core | 81.87 | -0.41% | -1.54% | -0.77% |
-| MAX | 12.0% | satellite | 12.3 | -2.54% | -3.91% | -3.53% |
-| GLOB | 10.7% | satellite | 39.68 | -2.53% | -1.0% | 4.07% |
-| GLD | 9.4% | core | 396.75 | -2.86% | -7.32% | 6.04% |
-| WIX | 6.7% | satellite | 88.38 | 0.14% | 4.68% | 55.48% |
-| IEF | 6.3% | core | 92.1 | -0.33% | -1.15% | -0.88% |
-| SUJA | 3.9% | satellite | 10.43 | 3.57% | 11.79% | -8.51% |
+| SPY | 12.0% | core | 765.16 | 0.44% | -0.12% | -0.6% |
+| QQQ | 12.0% | core | 709.24 | 0.23% | -0.3% | -1.12% |
+| TLT | 12.0% | core | 81.95 | 0.1% | -1.24% | -0.89% |
+| ETD | 12.0% | satellite | 24.71 | 3.17% | 4.7% | 5.25% |
+| GLD | 9.6% | core | 402.78 | 1.52% | -4.4% | 3.37% |
+| MAX | 7.8% | satellite | 12.53 | 1.87% | -2.49% | 1.21% |
+| GLOB | 6.7% | satellite | 38.88 | -2.02% | -2.99% | 1.97% |
+| IEF | 6.4% | core | 92.18 | 0.09% | -1.07% | -0.79% |
+| WIX | 4.2% | satellite | 86.69 | -1.91% | 0.74% | 29.81% |
+| SUJA | 2.5% | satellite | 10.22 | -2.01% | 8.26% | 66.45% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 17.4%
-- VaR 95% 1d: 1.5% · CVaR 95% 1d: 1.6%
-- Max drawdown historico: -2.4%
-- Beta vs SPY: 0.531 · posiciones efectivas: 11.4 · HHI: 0.0879
+- Volatilidad anualizada: 13.6%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -1.8%
+- Beta vs SPY: 0.55 · posiciones efectivas: 11.9 · HHI: 0.0837
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -279,6 +280,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **SUJA** · score agregado 208.5 · 3 señales · fuentes: large_holder
 - **GLOB** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **MAX** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ETD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -322,15 +324,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 761.78 (-0.69% / -0.54% / -1.24%) [2026-09-01]
-- QQQ: 707.64 (-1.27% / -0.43% / -2.24%) [2026-09-01]
-- IWM: 290.57 (-1.14% / -2.48% / -1.91%) [2026-09-01]
-- DIA: 527.75 (-0.72% / -1.11% / -0.57%) [2026-09-01]
-- TLT: 81.87 (-0.41% / -1.54% / -0.77%) [2026-09-01]
-- IEF: 92.1 (-0.33% / -1.15% / -0.88%) [2026-09-01]
-- GLD: 396.75 (-2.86% / -7.32% / 6.04%) [2026-09-01]
-- ^VIX: 15.2 (-6.98% / -1.62% / -7.88%) [2026-09-02]
-- BTC-USD: 76982.94 (-0.54% / -1.09% / 21.42%) [2026-09-03]
+- SPY: 765.16 (0.44% / -0.12% / -0.6%) [2026-09-02]
+- QQQ: 709.24 (0.23% / -0.3% / -1.12%) [2026-09-02]
+- IWM: 294.01 (1.18% / -1.65% / -1.92%) [2026-09-02]
+- DIA: 530.62 (0.54% / -0.68% / -2.16%) [2026-09-02]
+- TLT: 81.95 (0.1% / -1.24% / -0.89%) [2026-09-02]
+- IEF: 92.18 (0.09% / -1.07% / -0.79%) [2026-09-02]
+- GLD: 402.78 (1.52% / -4.4% / 3.37%) [2026-09-02]
+- ^VIX: 15.2 (-6.98% / -0.07% / -3.86%) [2026-09-02]
+- BTC-USD: 77727.97 (0.42% / -0.13% / 22.6%) [2026-09-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -345,20 +347,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (9), ai (4), leadership (2), legal (2), regulatory (2), merger (1)
+**Temas dominantes**: stock (10), ai (6), regulatory (3), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike Is Putting GPT - 5 . 6 Cyber Inside Falcon . Is OpenAI Becoming a Cybersecurity Distribution Partner ? (2026-09-03)
+- [CRWD] CrowdStrike Is Putting GPT - 5 . 6 Cyber Inside Falcon . Is OpenAI Becoming a Cybersecurity Distribution Partner ? (2026-09-03)
+- [CRWD] CrowdStrike FalCon 2026 : AI Is Changing the Speed of Cybersecurity (2026-09-03)
+- [WIX] Why Wix . com Stock Soared 60 % In August | The Motley Fool (2026-09-03)
+- [WIX] Why Wix . com Stock Soared 60 % In August (2026-09-03)
+- [WIX] Why Wix . com Stock Soared 60 % In August (2026-09-03)
+- [WIX] Why Wix . com Stock Soared 60 % In August | The Motley Fool (2026-09-03)
 - [WIX] Lost Money on Wix . com Ltd . ( WIX )? Urged to Join Class Action Before ... (2026-09-03)
 - [AXON] Axon Enterprise ( NASDAQ : AXON ) President Sells 16 , 775 Shares (2026-09-02)
-- [AMBQ] Ambiq Micro ( NYSE : AMBQ ) CEO Fumihide Esaka Sells 48 , 973 Shares (2026-09-02)
-- [AMBQ] Insider Selling : Ambiq Micro ( NYSE : AMBQ ) CEO Sells $2 , 785 , 840 . 00 in Stock (2026-09-02)
 - [CNO] CNO Financial Group ( NYSE : CNO ) Insider Sells $360 , 734 . 40 in Stock (2026-09-02)
-- [CNO] CNO Financial Group ( NYSE : CNO ) Insider Karen Detoro Sells 9 , 336 Shares of Stock (2026-09-02)
-- [WIX] Bragar Eagel & Squire , P . C . Urges Wix . com Ltd . Investors to Contact the Firm Regarding ... (2026-09-01)
-- [WIX] Wix . com Ltd . ( WIX ) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (2026-09-01)
-- [WIX] INVESTOR DEADLINE : Wix . com Ltd . ( WIX ) Investors with Substantial Losses Have Opportunity to Lead the Wix Class Action Lawsuit (2026-09-01)
-- [WIX] Wix . com Ltd . ( NASDAQ : WIX ) Sees Significant Drop in Short Interest (2026-09-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -373,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xd9670ea74384c1e1b9dc1e4267ffadaf4cdd140 · PnL $159,850 · win rate 97% · categorias: sports, crypto
-- ExplosiveNinja · PnL $30,720 · win rate 97% · categorias: sports
-- 0xDECfFdA0cA685646001e7f2f525F39de905f4dAF-1787058581228 · PnL $36,303 · win rate 92% · categorias: sports, politics, crypto
-- dad168168 · PnL $22,713 · win rate 94% · categorias: sports
-- vibing123 · PnL $31,809 · win rate 90% · categorias: sports
+- theowalcott · PnL $29,689 · win rate 100% · categorias: sports
+- PetsViljandist · PnL $14,090 · win rate 100% · categorias: sports
+- rollobravado · PnL $12,337 · win rate 99% · categorias: sports, politics
+- Kosherlocks · PnL $18,568 · win rate 96% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $34,698 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -385,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 637 registros 30d · ultimo dato 2026-09-02
+- **sec_insiders**: `ok` · 640 registros 30d · ultimo dato 2026-09-02
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-02
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -399,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`GLD, GLOB, IEF, MAX, QQQ, SPY, SUJA, TLT, WIX`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ETD, GLD, GLOB, IEF, MAX, QQQ, SPY, SUJA, TLT, WIX`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
