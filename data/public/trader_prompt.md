@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-03T04:53:58+00:00 -->
+<!-- trader_prompt.md generado 2026-09-03T10:07:48+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-03T04:53:58+00:00 · ventana señales 2026-08-04 -> 2026-09-03_
+_Generado 2026-09-03T10:07:48+00:00 · ventana señales 2026-08-04 -> 2026-09-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.2)
+- Volatilidad: `normal` (VIX 15.31)
 - Tendencia: `bull` (SPY 765.16 · MA50 755.34 · MA200 708.78 · dist MA200: 7.95%)
 - Credito: `tight` (HY spread 2.65)
 - Tipos: `flat` (curva 10y-2y 0.4)
@@ -261,18 +261,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.95 | 0.1% | -1.24% | -0.89% |
 | ETD | 12.0% | satellite | 24.71 | 3.17% | 4.7% | 5.25% |
 | GLD | 9.6% | core | 402.78 | 1.52% | -4.4% | 3.37% |
-| MAX | 7.8% | satellite | 12.53 | 1.87% | -2.49% | 1.21% |
-| GLOB | 6.7% | satellite | 38.88 | -2.02% | -2.99% | 1.97% |
-| IEF | 6.4% | core | 92.18 | 0.09% | -1.07% | -0.79% |
-| WIX | 4.2% | satellite | 86.69 | -1.91% | 0.74% | 29.81% |
+| MAX | 7.7% | satellite | 12.53 | 1.87% | -1.1% | 1.62% |
+| GLOB | 6.7% | satellite | 38.88 | -2.02% | 0.23% | 1.3% |
+| IEF | 6.4% | core | 92.18 | 0.09% | -0.87% | -0.86% |
+| WIX | 4.2% | satellite | 86.69 | -1.91% | 5.35% | 34.26% |
 | SUJA | 2.5% | satellite | 10.22 | -2.01% | 8.26% | 66.45% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.6%
+- Volatilidad anualizada: 13.4%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -1.8%
-- Beta vs SPY: 0.55 · posiciones efectivas: 11.9 · HHI: 0.0837
+- Beta vs SPY: 0.556 · posiciones efectivas: 12.0 · HHI: 0.0836
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -329,10 +329,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IWM: 294.01 (1.18% / -1.65% / -1.92%) [2026-09-02]
 - DIA: 530.62 (0.54% / -0.68% / -2.16%) [2026-09-02]
 - TLT: 81.95 (0.1% / -1.24% / -0.89%) [2026-09-02]
-- IEF: 92.18 (0.09% / -1.07% / -0.79%) [2026-09-02]
+- IEF: 92.18 (0.09% / -0.87% / -0.86%) [2026-09-02]
 - GLD: 402.78 (1.52% / -4.4% / 3.37%) [2026-09-02]
-- ^VIX: 15.2 (-6.98% / -0.07% / -3.86%) [2026-09-02]
-- BTC-USD: 77727.97 (0.42% / -0.13% / 22.6%) [2026-09-03]
+- ^VIX: 15.31 (0.72% / 5.51% / 1.06%) [2026-09-03]
+- BTC-USD: 77589.02 (0.37% / -0.84% / 23.2%) [2026-09-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -347,39 +347,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (10), ai (6), regulatory (3), merger (1)
+**Temas dominantes**: stock (10), ai (8), regulatory (3), leadership (2), merger (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [IVZ] Northwestern Mutual Wealth Management Co . Has $14 . 05 Million Position in Invesco S & P 500 Low Volatility ETF $SPLV (2026-09-03)
+- [CRWD] Rubrik and CrowdStrike Bring AI - Driven Automation to Identity Threat Response (2026-09-03)
+- [CRWD] MBody AI Orchestrator ( NASDAQ : MBAI ) Earns Finalist Spot Alongside CrowdStrike And CVS Health In 2026 A . I . Awards (2026-09-03)
+- [CRWD] With Cybersecurity for Cloud and Artificial Intelligence , CrowdStrike Stock Is Positioned for Sustained Growth (2026-09-03)
 - [CRWD] CrowdStrike Is Putting GPT - 5 . 6 Cyber Inside Falcon . Is OpenAI Becoming a Cybersecurity Distribution Partner ? (2026-09-03)
-- [CRWD] CrowdStrike Is Putting GPT - 5 . 6 Cyber Inside Falcon . Is OpenAI Becoming a Cybersecurity Distribution Partner ? (2026-09-03)
-- [CRWD] CrowdStrike FalCon 2026 : AI Is Changing the Speed of Cybersecurity (2026-09-03)
-- [WIX] Why Wix . com Stock Soared 60 % In August | The Motley Fool (2026-09-03)
-- [WIX] Why Wix . com Stock Soared 60 % In August (2026-09-03)
-- [WIX] Why Wix . com Stock Soared 60 % In August (2026-09-03)
-- [WIX] Why Wix . com Stock Soared 60 % In August | The Motley Fool (2026-09-03)
-- [WIX] Lost Money on Wix . com Ltd . ( WIX )? Urged to Join Class Action Before ... (2026-09-03)
 - [AXON] Axon Enterprise ( NASDAQ : AXON ) President Sells 16 , 775 Shares (2026-09-02)
+- [AMBQ] Ambiq Micro ( NYSE : AMBQ ) CEO Fumihide Esaka Sells 48 , 973 Shares (2026-09-02)
+- [AMBQ] Insider Selling : Ambiq Micro ( NYSE : AMBQ ) CEO Sells $2 , 785 , 840 . 00 in Stock (2026-09-02)
 - [CNO] CNO Financial Group ( NYSE : CNO ) Insider Sells $360 , 734 . 40 in Stock (2026-09-02)
+- [CNO] CNO Financial Group ( NYSE : CNO ) Insider Karen Detoro Sells 9 , 336 Shares of Stock (2026-09-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Williams Charles Alan compro NPB por $1.4M el 2026-09-01.
 - CEO Bender Joel vendio WHD por $7.0M el 2026-09-01.
 - 10% owner Empery Asset Management, LP compro EMPD por $1.8M el 2026-09-01 [senal en multiples fuentes].
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $29,689 · win rate 100% · categorias: sports
-- PetsViljandist · PnL $14,090 · win rate 100% · categorias: sports
-- rollobravado · PnL $12,337 · win rate 99% · categorias: sports, politics
-- Kosherlocks · PnL $18,568 · win rate 96% · categorias: sports, crypto
-- JnStrtPrdctnMrkts · PnL $34,698 · win rate 90% · categorias: crypto
+- kekasaur · PnL $71,741 · win rate 94% · categorias: sports
+- theowalcott · PnL $29,710 · win rate 100% · categorias: sports
+- rollobravado · PnL $17,437 · win rate 99% · categorias: sports, politics
+- PetsViljandist · PnL $14,100 · win rate 100% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $36,464 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
