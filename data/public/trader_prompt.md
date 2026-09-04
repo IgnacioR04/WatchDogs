@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-04T04:48:38+00:00 -->
+<!-- trader_prompt.md generado 2026-09-04T09:55:26+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-04T04:48:38+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
+_Generado 2026-09-04T09:55:26+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.32)
-- Tendencia: `bull` (SPY 765.16 · MA50 755.34 · MA200 708.78 · dist MA200: 7.95%)
+- Volatilidad: `calm` (VIX 14.24)
+- Tendencia: `bull` (SPY 773.17 · MA50 756.14 · MA200 709.32 · dist MA200: 9.0%)
 - Credito: `tight` (HY spread 2.66)
 - Tipos: `flat` (curva 10y-2y 0.43)
 - Fed Funds: 3.63%
@@ -256,22 +256,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 765.16 | 0.44% | -0.12% | -0.6% |
-| QQQ | 12.0% | core | 709.24 | 0.23% | -0.3% | -1.12% |
-| TLT | 12.0% | core | 81.95 | 0.1% | -1.24% | -0.89% |
-| MD | 9.6% | satellite | 26.86 | 1.47% | -0.33% | 3.35% |
-| GLD | 9.3% | core | 402.78 | 1.52% | -4.4% | 3.37% |
-| AMRZ | 8.8% | satellite | 42.97 | 0.37% | -3.96% | -18.54% |
-| STRT | 7.7% | satellite | 73.07 | 5.62% | 0.43% | -17.86% |
-| RSI | 7.3% | satellite | 26.17 | 1.63% | -0.8% | 0.96% |
-| IEF | 6.2% | core | 92.18 | 0.09% | -0.87% | -0.86% |
+| SPY | 12.0% | core | 773.17 | 1.05% | 0.27% | 0.6% |
+| QQQ | 12.0% | core | 717.67 | 1.19% | -0.48% | 0.42% |
+| TLT | 12.0% | core | 82.07 | 0.15% | -0.9% | -0.16% |
+| MD | 9.6% | satellite | 26.88 | 0.07% | 0.3% | 1.4% |
+| GLD | 9.3% | core | 410.22 | 1.85% | -2.93% | 5.27% |
+| AMRZ | 8.8% | satellite | 44.01 | 2.42% | -0.63% | -13.87% |
+| STRT | 7.7% | satellite | 74.42 | 1.85% | 5.88% | -14.28% |
+| RSI | 7.3% | satellite | 26.77 | 2.29% | 2.18% | 6.74% |
+| IEF | 6.2% | core | 92.28 | 0.11% | -0.66% | -0.36% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 12.5%
 - VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -6.2%
-- Beta vs SPY: 0.685 · posiciones efectivas: 11.9 · HHI: 0.0841
+- Beta vs SPY: 0.688 · posiciones efectivas: 11.9 · HHI: 0.0841
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -322,15 +322,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 765.16 (0.44% / -0.12% / -0.6%) [2026-09-02]
-- QQQ: 709.24 (0.23% / -0.3% / -1.12%) [2026-09-02]
-- IWM: 294.01 (1.18% / -1.65% / -1.92%) [2026-09-02]
-- DIA: 530.62 (0.54% / -0.68% / -2.16%) [2026-09-02]
-- TLT: 81.95 (0.1% / -1.24% / -0.89%) [2026-09-02]
-- IEF: 92.18 (0.09% / -0.87% / -0.86%) [2026-09-02]
-- GLD: 402.78 (1.52% / -4.4% / 3.37%) [2026-09-02]
-- ^VIX: 14.32 (-5.79% / -1.31% / -5.48%) [2026-09-03]
-- BTC-USD: 81086.79 (4.9% / 3.63% / 28.76%) [2026-09-04]
+- SPY: 773.17 (1.05% / 0.27% / 0.6%) [2026-09-03]
+- QQQ: 717.67 (1.19% / -0.48% / 0.42%) [2026-09-03]
+- IWM: 295.19 (0.4% / -1.54% / -1.03%) [2026-09-03]
+- DIA: 536.93 (1.19% / 0.32% / -0.15%) [2026-09-03]
+- TLT: 82.07 (0.15% / -0.9% / -0.16%) [2026-09-03]
+- IEF: 92.28 (0.11% / -0.66% / -0.36%) [2026-09-03]
+- GLD: 410.22 (1.85% / -2.93% / 5.27%) [2026-09-03]
+- ^VIX: 14.24 (-0.56% / -1.32% / -4.43%) [2026-09-04]
+- BTC-USD: 81088.23 (4.9% / 3.63% / 28.76%) [2026-09-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -345,13 +345,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (1), earnings (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DASH] Naked DoorDash Driver Caught on Camera ! (2026-09-04)
-- [DKNG] Amazon . com vs . DraftKings : Which Consumer Stock Is a Better Buy in 2026 ? (2026-09-03)
-- [CTSH] Manning & Napier Advisors LLC Buys New Shares in Cognizant Technology Solutions Corporation $CTSH (2026-08-26)
+- [CVNA] Carvana ( NYSE : CVNA ) VP Stephen Palmer Sells 5 , 000 Shares (2026-09-04)
+- [CVNA] Seattle DJC . com local business news and data - Real Estate - Carvana files plans in SoDo , Renton (2026-09-02)
+- [CVNA] Seattle DJC . com local business news and data - Real Estate - Carvana files plans in SoDo , Renton (2026-09-02)
+- [CVNA] Root Insurance and Carvana Extend Embedded Insurance Agreement (2026-09-01)
+- [LTRX] Lantronix Q4 Earnings Call Highlights (2026-08-28)
+- [LTRX] Lantronix , Inc . ( NASDAQ : LTRX ) Receives $10 . 40 Consensus Price Target from Brokerages (2026-08-27)
+- [DRD] Where the gold pay - off for communities , asks DRDGold CEO (2026-08-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -366,11 +370,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $10,848 · win rate 94% · categorias: sports
+- SDTrading · PnL $14,422 · win rate 94% · categorias: sports
+- BrotherObama · PnL $48,890 · win rate 82% · categorias: sports
 - AV23IUa · PnL $83,677 · win rate 78% · categorias: sports, crypto
-- kingflop · PnL $13,425 · win rate 90% · categorias: sports
-- BrotherObama · PnL $35,730 · win rate 82% · categorias: sports
-- RCHUP2 · PnL $13,594 · win rate 88% · categorias: sports, crypto
+- alexdave888 · PnL $17,776 · win rate 87% · categorias: sports, crypto
+- RCHUP2 · PnL $13,885 · win rate 88% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
