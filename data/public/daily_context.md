@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-04T00:22:21+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
+_Generado 2026-09-04T04:48:38+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,26 +25,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 765.16 | 0.44% | -0.12% | -0.6% |
 | QQQ | 12.0% | core | 709.24 | 0.23% | -0.3% | -1.12% |
 | TLT | 12.0% | core | 81.95 | 0.1% | -1.24% | -0.89% |
+| MD | 9.6% | satellite | 26.86 | 1.47% | -0.33% | 3.35% |
 | GLD | 9.3% | core | 402.78 | 1.52% | -4.4% | 3.37% |
-| MD | 8.4% | satellite | 26.86 | 1.47% | -0.33% | 3.35% |
-| AMRZ | 7.8% | satellite | 42.97 | 0.37% | -3.96% | -18.54% |
-| STRT | 6.7% | satellite | 73.07 | 5.62% | 0.43% | -17.86% |
-| RSI | 6.4% | satellite | 26.17 | 1.63% | -0.8% | 0.96% |
+| AMRZ | 8.8% | satellite | 42.97 | 0.37% | -3.96% | -18.54% |
+| STRT | 7.7% | satellite | 73.07 | 5.62% | 0.43% | -17.86% |
+| RSI | 7.3% | satellite | 26.17 | 1.63% | -0.8% | 0.96% |
 | IEF | 6.2% | core | 92.18 | 0.09% | -0.87% | -0.86% |
-| BRBR | 4.2% | satellite | 10.72 | 3.98% | -0.65% | -14.99% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.0%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Volatilidad anualizada: 12.5%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -6.2%
-- Beta vs SPY: 0.645 · posiciones efectivas: 12.6 · HHI: 0.0792
+- Beta vs SPY: 0.685 · posiciones efectivas: 11.9 · HHI: 0.0841
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **AMRZ** · score agregado 306.9 · 5 señales · fuentes: corporate_insider
 - **MD** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **BRBR** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **RSI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **STRT** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -57,6 +55,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLOB | 72 | large_holder | PZENA INVESTMENT MANAGEME |  | - | - |
 | RSI | 72 | large_holder | Divisadero Street Capital |  | - | - |
 | AUTL | 72 | large_holder | Renata Kellnerova |  | - | - |
+| VBIO | 70 | large_holder | 3i, LP |  | - | - |
+| TACT | 70 | large_holder | Charles M. Gillman |  | - | - |
 | APGE | 70 | large_holder | Fairmount Funds Managemen |  | - | - |
 | MD | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | CALM | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
@@ -67,21 +67,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | AVR | 70 | large_holder | L1 Capital Pty Ltd |  | - | - |
 | XTIA | 70 | large_holder | Patrick Green Harrington |  | - | - |
 | CINT | 70 | large_holder | Swedbank Robur Fonder AB |  | - | - |
-| CRMT | 70 | large_holder | Magnolia Capital Fund, LP |  | - | - |
-| JTTT | 70 | large_holder | RA Capital Management, L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| CRWV | 58 | corporate_insider | Intrator Michael N | $10,690,033 | - |
 | LRCX | 58 | corporate_insider | Varadarajan Seshasayee | $8,005,474 | - |
 | LRCX | 57 | corporate_insider | Varadarajan Seshasayee | $5,826,400 | - |
+| CRWV | 57 | corporate_insider | Intrator Michael N | $5,756,260 | - |
 | CHYM | 57 | corporate_insider | Britt Christopher R | $5,314,216 | - |
+| CRWV | 57 | corporate_insider | Intrator Michael N | $5,141,267 | - |
+| NTRA | 57 | corporate_insider | Moshkevich Solomon | $4,955,713 | - |
 | DASH | 56 | corporate_insider | Xu Tony | $3,833,443 | - |
-| LRCX | 56 | corporate_insider | Varadarajan Seshasayee | $3,574,496 | - |
-| FROG | 56 | corporate_insider | Shlomi Ben Haim | $3,369,868 | - |
-| WAY | 55 | corporate_insider | Hawkins Matthew J. | $2,142,583 | - |
-| FLYW | 55 | corporate_insider | Massaro Michael | $2,068,684 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -98,7 +96,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.18 (0.09% / -0.87% / -0.86%) [2026-09-02]
 - GLD: 402.78 (1.52% / -4.4% / 3.37%) [2026-09-02]
 - ^VIX: 14.32 (-5.79% / -1.31% / -5.48%) [2026-09-03]
-- BTC-USD: 81205.81 (5.05% / 3.78% / 28.95%) [2026-09-04]
+- BTC-USD: 81086.79 (4.9% / 3.63% / 28.76%) [2026-09-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,29 +111,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DASH] Naked DoorDash Driver Caught on Camera ! (2026-09-04)
 - [DKNG] Amazon . com vs . DraftKings : Which Consumer Stock Is a Better Buy in 2026 ? (2026-09-03)
+- [CTSH] Manning & Napier Advisors LLC Buys New Shares in Cognizant Technology Solutions Corporation $CTSH (2026-08-26)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Varadarajan Seshasayee vendio LRCX por $8.0M el 2026-09-02.
+- CEO Intrator Michael N vendio CRWV por $10.7M el 2026-09-01.
+- CEO Moshkevich Solomon vendio NTRA por $5.0M el 2026-09-02.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ExplosiveNinja · PnL $74,306 · win rate 97% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $146,548 · win rate 90% · categorias: crypto
-- kekasaur · PnL $71,779 · win rate 94% · categorias: sports
-- theowalcott · PnL $29,710 · win rate 100% · categorias: sports
-- 0xa68c732b · PnL $30,513 · win rate 99% · categorias: sports, crypto
+- SDTrading · PnL $10,848 · win rate 94% · categorias: sports
+- AV23IUa · PnL $83,677 · win rate 78% · categorias: sports, crypto
+- kingflop · PnL $13,425 · win rate 90% · categorias: sports
+- BrotherObama · PnL $35,730 · win rate 82% · categorias: sports
+- RCHUP2 · PnL $13,594 · win rate 88% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -143,7 +144,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 790 registros 30d · ultimo dato 2026-09-03
+- **sec_insiders**: `ok` · 824 registros 30d · ultimo dato 2026-09-03
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-03
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -157,7 +158,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, BRBR, GLD, IEF, MD, QQQ, RSI, SPY, STRT, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMRZ, GLD, IEF, MD, QQQ, RSI, SPY, STRT, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
