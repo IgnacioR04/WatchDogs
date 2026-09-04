@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-04T14:39:26+00:00 -->
+<!-- trader_prompt.md generado 2026-09-04T18:42:52+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-04T14:39:26+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
+_Generado 2026-09-04T18:42:52+00:00 · ventana señales 2026-08-05 -> 2026-09-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.08)
-- Tendencia: `bull` (SPY 771.09 · MA50 756.88 · MA200 709.87 · dist MA200: 8.62%)
+- Volatilidad: `calm` (VIX 14.07)
+- Tendencia: `bull` (SPY 769.95 · MA50 756.85 · MA200 709.87 · dist MA200: 8.46%)
 - Credito: `tight` (HY spread 2.65)
 - Tipos: `flat` (curva 10y-2y 0.43)
 - Fed Funds: 3.63%
@@ -256,17 +256,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 771.09 | -0.27% | 0.23% | -0.28% |
-| QQQ | 12.0% | core | 719.27 | 0.22% | 0.4% | -0.52% |
-| TLT | 12.0% | core | 82.36 | 0.35% | -0.25% | -0.1% |
-| DGICA | 9.7% | satellite | 19.31 | -0.57% | 0.36% | 0.36% |
-| GLD | 9.3% | core | 406.32 | -0.95% | -0.63% | 1.97% |
-| IEF | 6.2% | core | 92.32 | 0.04% | -0.22% | -0.56% |
-| MD | 6.0% | satellite | 26.86 | -0.06% | 0.96% | -0.79% |
-| AMRZ | 5.5% | satellite | 43.77 | -0.55% | -2.01% | -5.93% |
-| STRT | 4.8% | satellite | 74.71 | 0.39% | -0.44% | -13.52% |
-| RSI | 4.5% | satellite | 26.75 | -0.07% | 1.29% | 7.52% |
-| BRBR | 3.0% | satellite | 10.35 | -0.53% | -3.23% | -10.51% |
+| SPY | 12.0% | core | 769.95 | -0.42% | 0.08% | -0.43% |
+| QQQ | 12.0% | core | 717.58 | -0.01% | 0.16% | -0.75% |
+| TLT | 12.0% | core | 82.25 | 0.22% | -0.38% | -0.24% |
+| DGICA | 9.7% | satellite | 19.36 | -0.31% | 0.62% | 0.62% |
+| GLD | 9.3% | core | 405.64 | -1.12% | -0.8% | 1.8% |
+| IEF | 6.2% | core | 92.26 | -0.02% | -0.28% | -0.62% |
+| MD | 6.0% | satellite | 26.98 | 0.37% | 1.39% | -0.37% |
+| AMRZ | 5.5% | satellite | 43.99 | -0.06% | -1.53% | -5.47% |
+| STRT | 4.8% | satellite | 75.32 | 1.21% | 0.37% | -12.81% |
+| RSI | 4.5% | satellite | 26.66 | -0.41% | 0.95% | 7.15% |
+| BRBR | 3.0% | satellite | 10.44 | 0.43% | -2.29% | -9.65% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -290,21 +290,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| SMID | 75 | corporate_insider | SMITH ASHLEY B | 2 | $53,740 | cluster_buy |
+| CSBB | 74 | corporate_insider | STEINER EDDIE L | 2 | $36,755 | cluster_buy |
 | RSI | 72 | large_holder | Divisadero Street Capital |  | - | - |
 | AUTL | 72 | large_holder | Renata Kellnerova |  | - | - |
-| BVI | 70 | large_holder | Chen Xueyi |  | - | - |
-| TREX | 70 | large_holder | AllianceBernstein L.P. |  | - | - |
-| HZO | 70 | large_holder | American Century Investme |  | - | - |
-| VBIO | 70 | large_holder | 3i, LP |  | - | - |
-| TACT | 70 | large_holder | Charles M. Gillman |  | - | - |
-| APGE | 70 | large_holder | Fairmount Funds Managemen |  | - | - |
-| MD | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| CALM | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| BRBR | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| MD | 70 | large_holder | Vanguard Capital Manageme |  | - | - |
-| BRBR | 70 | large_holder | Vanguard Capital Manageme |  | - | - |
-| VVOS | 70 | large_holder | Streeterville Capital LLC |  | - | - |
-| AVR | 70 | large_holder | L1 Capital Pty Ltd |  | - | - |
+| SMID | 71 | corporate_insider | Smith Matthew I | 2 | $54,300 | cluster_buy |
+| MAC | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| TENB | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| SIG | 70 | large_holder | Vanguard Portfolio Manage |  | - | - |
+| MYGN | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| ADIG | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| WTS | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| TOL | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| SUI | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| STRL | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| SMTC | 70 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -326,15 +326,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 771.09 (-0.27% / 0.23% / -0.28%) [2026-09-04]
-- QQQ: 719.27 (0.22% / 0.4% / -0.52%) [2026-09-04]
-- IWM: 295.46 (0.09% / -0.1% / -2.02%) [2026-09-04]
-- DIA: 534.32 (-0.49% / -0.14% / -0.9%) [2026-09-04]
-- TLT: 82.36 (0.35% / -0.25% / -0.1%) [2026-09-04]
-- IEF: 92.32 (0.04% / -0.22% / -0.56%) [2026-09-04]
-- GLD: 406.32 (-0.95% / -0.63% / 1.97%) [2026-09-04]
-- ^VIX: 14.08 (-1.68% / -2.43% / -5.5%) [2026-09-04]
-- BTC-USD: 79271.36 (-2.46% / 2.06% / 25.78%) [2026-09-04]
+- SPY: 769.95 (-0.42% / 0.08% / -0.43%) [2026-09-04]
+- QQQ: 717.58 (-0.01% / 0.16% / -0.75%) [2026-09-04]
+- IWM: 295.58 (0.13% / -0.06% / -1.98%) [2026-09-04]
+- DIA: 534.2 (-0.51% / -0.16% / -0.92%) [2026-09-04]
+- TLT: 82.25 (0.22% / -0.38% / -0.24%) [2026-09-04]
+- IEF: 92.26 (-0.02% / -0.28% / -0.62%) [2026-09-04]
+- GLD: 405.64 (-1.12% / -0.8% / 1.8%) [2026-09-04]
+- ^VIX: 14.07 (-1.75% / -2.49% / -5.57%) [2026-09-04]
+- BTC-USD: 79631.1 (-2.02% / 2.53% / 26.35%) [2026-09-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,36 +349,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1), earnings (1)
+**Temas dominantes**: ai (2), leadership (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CVNA] Carvana ( NYSE : CVNA ) VP Stephen Palmer Sells 5 , 000 Shares (2026-09-04)
-- [CVNA] Seattle DJC . com local business news and data - Real Estate - Carvana files plans in SoDo , Renton (2026-09-02)
-- [CVNA] Seattle DJC . com local business news and data - Real Estate - Carvana files plans in SoDo , Renton (2026-09-02)
-- [CVNA] Root Insurance and Carvana Extend Embedded Insurance Agreement (2026-09-01)
+- [DASH] Nykredit A S Invests $30 . 17 Million in DoorDash , Inc . $DASH (2026-09-04)
+- [TDOC] Teladoc Health Appoints Michael Grasher As Chief Financial Officer ; Stock Down (2026-08-31)
 - [MQ] Financial Contrast : Surna ( OTCMKTS : SRNA ) and Marqeta ( NASDAQ : MQ ) (2026-08-31)
-- [LTRX] Lantronix Q4 Earnings Call Highlights (2026-08-28)
-- [LTRX] Lantronix , Inc . ( NASDAQ : LTRX ) Receives $10 . 40 Consensus Price Target from Brokerages (2026-08-27)
+- [TDOC] INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Teladoc Health , Inc . (2026-08-27)
+- [TDOC] INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Teladoc Health , Inc . (2026-08-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Varadarajan Seshasayee vendio LRCX por $8.0M el 2026-09-02.
 - CEO Intrator Michael N vendio CRWV por $10.7M el 2026-09-01.
+- 10% owner TIEDEMANN ADVISORS, LLC compro Fortress Net Lease REIT por $5.0M el 2026-09-01.
 - CEO Moshkevich Solomon vendio NTRA por $5.0M el 2026-09-02.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TheyAreTakingTheHobitsToIsengard · PnL $51,011 · win rate 98% · categorias: sports
-- zofgkt1111 · PnL $43,912 · win rate 86% · categorias: sports
-- TheReturnOfDarthMaul · PnL $316,807 · win rate 72% · categorias: crypto, sports, politics
-- BrotherObama · PnL $43,340 · win rate 82% · categorias: sports
-- AV23IUa · PnL $81,495 · win rate 78% · categorias: sports, crypto
+- TheyAreTakingTheHobitsToIsengard · PnL $49,200 · win rate 98% · categorias: sports
+- AV23IUa · PnL $175,465 · win rate 78% · categorias: sports, crypto
+- zofgkt1111 · PnL $43,916 · win rate 86% · categorias: sports
+- TheReturnOfDarthMaul · PnL $311,208 · win rate 72% · categorias: crypto, sports, politics
+- seretas · PnL $43,790 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,7 +384,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 826 registros 30d · ultimo dato 2026-09-04
+- **sec_insiders**: `ok` · 802 registros 30d · ultimo dato 2026-09-04
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-04
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
