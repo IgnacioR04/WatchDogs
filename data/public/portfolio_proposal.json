@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-09-03T21:59:50+00:00",
+  "generated_at": "2026-09-04T00:22:20+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "ECAT": 0.12,
-    "GLD": 0.099,
-    "IEF": 0.0661,
-    "MD": 0.0578,
-    "AMRZ": 0.0538,
-    "STRT": 0.0432,
-    "BRBR": 0.0252,
-    "EQPT": 0.0248
+    "GLD": 0.0933,
+    "MD": 0.0841,
+    "AMRZ": 0.0775,
+    "STRT": 0.0674,
+    "RSI": 0.0639,
+    "IEF": 0.0622,
+    "BRBR": 0.0417
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +24,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.045,
-    "MD": 0.0484,
-    "BRBR": 0.0211,
-    "EQPT": 0.0208,
-    "ECAT": 0.1259,
-    "STRT": 0.0362
+    "AMRZ": 0.0689,
+    "MD": 0.0748,
+    "BRBR": 0.0371,
+    "RSI": 0.0568,
+    "STRT": 0.0599
   },
   "satellite_rationale": [
     {
@@ -58,16 +56,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "EQPT",
-      "score": 124.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "ECAT",
-      "score": 70.2,
+      "ticker": "RSI",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -83,17 +73,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1062,
-    "var_95_1d": 0.0104,
-    "cvar_95_1d": 0.0128,
-    "max_drawdown": -0.0313,
-    "beta_spy": 0.683,
-    "hhi": 0.0811,
+    "ann_vol": 0.12,
+    "var_95_1d": 0.0112,
+    "cvar_95_1d": 0.0141,
+    "max_drawdown": -0.0617,
+    "beta_spy": 0.645,
+    "hhi": 0.0792,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.3,
-    "gross_exposure": 0.8499,
-    "days_used": 107
+    "n_positions": 10,
+    "effective_positions": 12.6,
+    "gross_exposure": 0.8501,
+    "days_used": 144
   },
   "risk_gate": {
     "passed": true,
