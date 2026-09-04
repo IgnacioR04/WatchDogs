@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:55:24+00:00",
+  "generated_at": "2026-09-04T14:39:24+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.8501,
@@ -8,12 +8,14 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "MD": 0.0963,
-    "GLD": 0.0933,
-    "AMRZ": 0.0884,
-    "STRT": 0.0769,
-    "RSI": 0.073,
-    "IEF": 0.0622
+    "DGICA": 0.0973,
+    "GLD": 0.0932,
+    "IEF": 0.0622,
+    "MD": 0.0597,
+    "AMRZ": 0.0549,
+    "STRT": 0.0478,
+    "RSI": 0.0453,
+    "BRBR": 0.0297
   },
   "core": {
     "SPY": 0.1934,
@@ -23,10 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "AMRZ": 0.0786,
-    "MD": 0.0856,
-    "RSI": 0.0649,
-    "STRT": 0.0684
+    "AMRZ": 0.0488,
+    "MD": 0.0531,
+    "BRBR": 0.0264,
+    "DGICA": 0.0865,
+    "RSI": 0.0403,
+    "STRT": 0.0425
   },
   "satellite_rationale": [
     {
@@ -46,6 +50,22 @@
       "n_signals": 3
     },
     {
+      "ticker": "BRBR",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "DGICA",
+      "score": 119.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "RSI",
       "score": 71.8,
       "sources": [
@@ -63,15 +83,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.125,
-    "var_95_1d": 0.013,
-    "cvar_95_1d": 0.0145,
-    "max_drawdown": -0.0615,
-    "beta_spy": 0.688,
-    "hhi": 0.0841,
+    "ann_vol": 0.1027,
+    "var_95_1d": 0.0098,
+    "cvar_95_1d": 0.0123,
+    "max_drawdown": -0.0595,
+    "beta_spy": 0.566,
+    "hhi": 0.077,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 11.9,
+    "n_positions": 11,
+    "effective_positions": 13.0,
     "gross_exposure": 0.8501,
     "days_used": 145
   },
