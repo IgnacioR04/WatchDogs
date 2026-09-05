@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-04T21:45:04.095431+00:00",
+  "generated_at": "2026-09-05T00:19:32.378419+00:00",
   "window": {
-    "from": "2026-08-05",
-    "to": "2026-09-04",
+    "from": "2026-08-06",
+    "to": "2026-09-05",
     "days": 30
   },
   "data_quality": {
@@ -23,8 +23,10 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
+      "leadership",
       "regulatory",
-      "earnings"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -50,20 +52,20 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner compro Fortress Net Lease REIT ($5.0M)",
-      "summary": "10% owner TIEDEMANN ADVISORS, LLC compro Fortress Net Lease REIT por $5.0M el 2026-09-01.",
+      "title": "CEO vendio NMIH ($7.7M)",
+      "summary": "CEO Pollitzer Adam vendio NMIH por $7.7M el 2026-09-04.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "TIEDEMANN ADVISORS, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 5000000.0,
-      "event_date": "2026-09-01",
-      "importance_score": 81.8,
+      "actor_name": "Pollitzer Adam",
+      "actor_type": "ceo",
+      "ticker": "NMIH",
+      "direction": "sell",
+      "amount_estimated": 7746727.63,
+      "event_date": "2026-09-04",
+      "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1452337/000091957426006190/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1706001/000170600126000006/"
     },
     {
       "id": "move_3",
@@ -459,22 +461,6 @@
         ]
       },
       {
-        "ticker": "BETA",
-        "company": "BETA Technologies, Inc.",
-        "pressure_score": 147.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "OWLS",
-        "company": "OBOOK HOLDINGS INC.",
-        "pressure_score": 145.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SMID",
         "company": "SMITH MIDLAND CORP",
         "pressure_score": 144.0,
@@ -513,9 +499,41 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "CALM",
+        "company": "CAL-MAINE FOODS INC",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "DH",
+        "company": "Definitive Healthcare Corp.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "KRYS",
+        "company": "Krystal Biotech, Inc.",
+        "pressure_score": 2002.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1608.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "HOOD",
         "company": "Robinhood Markets, Inc.",
@@ -525,17 +543,33 @@
         ]
       },
       {
-        "ticker": "MAZE",
-        "company": "Maze Therapeutics, Inc.",
-        "pressure_score": 1134.6,
+        "ticker": "LPSN",
+        "company": "LIVEPERSON INC",
+        "pressure_score": 1113.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "LPSN",
-        "company": "LIVEPERSON INC",
-        "pressure_score": 1113.6,
+        "ticker": "FCF",
+        "company": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
+        "pressure_score": 1087.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MAZE",
+        "company": "Maze Therapeutics, Inc.",
+        "pressure_score": 1059.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ILMN",
+        "company": "ILLUMINA, INC.",
+        "pressure_score": 906.7,
         "sources": [
           "corporate_insider"
         ]
@@ -558,17 +592,17 @@
         ]
       },
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 687.6,
+        "ticker": "OKTA",
+        "company": "Okta, Inc.",
+        "pressure_score": 750.1,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DRD",
-        "company": "DRDGOLD LTD",
-        "pressure_score": 644.4,
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 687.6,
         "sources": [
           "corporate_insider"
         ]
@@ -605,39 +639,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "DASH",
-        "company": "DoorDash, Inc.",
-        "pressure_score": 359.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MSI",
-        "company": "Motorola Solutions, Inc.",
-        "pressure_score": 311.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CATX",
-        "company": "Perspective Therapeutics, Inc.",
-        "pressure_score": 285.4,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "ARTV",
-        "company": "Artiva Biotherapeutics, Inc.",
-        "pressure_score": 280.4,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
@@ -658,15 +659,6 @@
       "actor_type": "ten_percent_owner",
       "amount": 187434.49,
       "date": "2026-09-03",
-      "score": 76.2
-    },
-    {
-      "ticker": "OWLS",
-      "company": "OBOOK HOLDINGS INC.",
-      "actor": "WANG CHUN KAI",
-      "actor_type": "ceo",
-      "amount": 58098.6,
-      "date": "2026-09-02",
       "score": 76.2
     },
     {
@@ -715,24 +707,6 @@
       "score": 74.5
     },
     {
-      "ticker": "BETA",
-      "company": "BETA Technologies, Inc.",
-      "actor": "Stone Michael Robert",
-      "actor_type": "director",
-      "amount": 251809.69,
-      "date": "2026-09-02",
-      "score": 74.4
-    },
-    {
-      "ticker": "OPFI",
-      "company": "OppFi Inc.",
-      "actor": "Schwartz Todd G.",
-      "actor_type": "ceo",
-      "amount": 25305.06,
-      "date": "2026-09-03",
-      "score": 74.4
-    },
-    {
       "ticker": "YQ",
       "company": "17 Education & Technology Group Inc.",
       "actor": "Liu Chang",
@@ -751,15 +725,6 @@
       "score": 73.7
     },
     {
-      "ticker": "GRF",
-      "company": "EAGLE CAPITAL GROWTH FUND, INC.",
-      "actor": "SIMS LUKE E",
-      "actor_type": "ceo",
-      "amount": 25575.17,
-      "date": "2026-09-01",
-      "score": 72.9
-    },
-    {
       "ticker": "ENHA",
       "company": "Enhanced Group Inc.",
       "actor": "Apeiron Investment Group Ltd.",
@@ -769,13 +734,49 @@
       "score": 72.9
     },
     {
-      "ticker": "BETA",
-      "company": "BETA Technologies, Inc.",
-      "actor": "Stone Michael Robert",
+      "ticker": "AFCG",
+      "company": "Advanced Flower Capital Inc.",
+      "actor": "TANNENBAUM LEONARD M",
+      "actor_type": "ten_percent_owner",
+      "amount": 54650.57,
+      "date": "2026-09-02",
+      "score": 72.0
+    },
+    {
+      "ticker": "SNNF",
+      "company": "Seneca Bancorp, Inc.",
+      "actor": "Vitale Joseph G",
+      "actor_type": "ceo",
+      "amount": 5800.0,
+      "date": "2026-09-03",
+      "score": 71.2
+    },
+    {
+      "ticker": "CWBHF",
+      "company": "Charlotte's Web Holdings, Inc.",
+      "actor": "Kunkel Raymond J.",
+      "actor_type": "officer",
+      "amount": 39311.47,
+      "date": "2026-09-03",
+      "score": 71.1
+    },
+    {
+      "ticker": "ZNB",
+      "company": "Zeta Network Group",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 5386.08,
+      "date": "2026-09-03",
+      "score": 69.8
+    },
+    {
+      "ticker": "SMID",
+      "company": "SMITH MIDLAND CORP",
+      "actor": "Smith Matthew I",
       "actor_type": "director",
-      "amount": 250988.68,
-      "date": "2026-09-01",
-      "score": 72.8
+      "amount": 54300.0,
+      "date": "2026-09-02",
+      "score": 69.5
     }
   ],
   "institutional_changes": [
@@ -1103,19 +1104,9 @@
       {
         "wallet": "0xc72d7dcdb2",
         "username": "HongYunX",
-        "pnl": 36887.34,
+        "pnl": 44524.44,
         "win_rate": 1.0,
-        "volume": 142852.42,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1058f156b2",
-        "username": "TheyAreTakingTheHobitsToIsengard",
-        "pnl": 43821.95,
-        "win_rate": 0.9811,
-        "volume": 5509.26,
+        "volume": 178311.19,
         "categories": [
           "sports"
         ]
@@ -1123,7 +1114,7 @@
       {
         "wallet": "0x73e3fec494",
         "username": "ExplosiveNinja",
-        "pnl": 46137.63,
+        "pnl": 46123.56,
         "win_rate": 0.9692,
         "volume": 370377.38,
         "categories": [
@@ -1131,9 +1122,19 @@
         ]
       },
       {
+        "wallet": "0x1058f156b2",
+        "username": "TheyAreTakingTheHobitsToIsengard",
+        "pnl": 38419.72,
+        "win_rate": 0.9811,
+        "volume": 5509.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x62ca7dc910",
         "username": "salahmh",
-        "pnl": 38177.64,
+        "pnl": 40473.54,
         "win_rate": 0.9348,
         "volume": 94349.88,
         "categories": [
@@ -1143,9 +1144,9 @@
       {
         "wallet": "0xf5198df69e",
         "username": "sbimbg",
-        "pnl": 35171.07,
+        "pnl": 38084.97,
         "win_rate": 0.925,
-        "volume": 329078.53,
+        "volume": 399184.96,
         "categories": [
           "sports"
         ]
@@ -1153,9 +1154,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 86980.77,
+        "pnl": 87321.16,
         "win_rate": 0.8521,
-        "volume": 496213.79,
+        "volume": 496220.67,
         "categories": [
           "sports"
         ]
@@ -1163,7 +1164,7 @@
       {
         "wallet": "0x83720820a8",
         "username": "Jsram",
-        "pnl": 176302.29,
+        "pnl": 176059.96,
         "win_rate": 0.7955,
         "volume": 446999.93,
         "categories": [
@@ -1182,9 +1183,20 @@
         ]
       },
       {
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 104069.86,
+        "win_rate": 0.781,
+        "volume": 834999.57,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x3a8aa345d5",
         "username": "TheReturnOfDarthMaul",
-        "pnl": 290881.34,
+        "pnl": 262553.29,
         "win_rate": 0.72,
         "volume": 0.0,
         "categories": [
@@ -1192,26 +1204,15 @@
           "sports",
           "politics"
         ]
-      },
-      {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 96344.85,
-        "win_rate": 0.7807,
-        "volume": 834999.57,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 36750.31,
-        "win_rate": 0.573,
-        "volume": 6372976.48,
+        "pnl": 63555.52,
+        "win_rate": 0.572,
+        "volume": 7368441.78,
         "categories": [
           "sports"
         ]
@@ -1227,21 +1228,21 @@
         ]
       },
       {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 61692.15,
-        "win_rate": 0.557,
-        "volume": 5227835.87,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 279370.86,
+        "win_rate": 0.567,
+        "volume": 1518767.09,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 239718.5,
-        "win_rate": 0.566,
-        "volume": 1414080.95,
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 97536.41,
+        "win_rate": 0.514,
+        "volume": 5579453.87,
         "categories": [
           "sports"
         ]
@@ -1249,9 +1250,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 86980.77,
+        "pnl": 87321.16,
         "win_rate": 0.8521,
-        "volume": 496213.79,
+        "volume": 496220.67,
         "categories": [
           "sports"
         ]
@@ -1259,7 +1260,7 @@
       {
         "wallet": "0x83720820a8",
         "username": "Jsram",
-        "pnl": 176302.29,
+        "pnl": 176059.96,
         "win_rate": 0.7955,
         "volume": 446999.93,
         "categories": [
@@ -1270,8 +1271,8 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 96344.85,
-        "win_rate": 0.7807,
+        "pnl": 104069.86,
+        "win_rate": 0.781,
         "volume": 834999.57,
         "categories": [
           "sports",
@@ -1281,9 +1282,9 @@
       {
         "wallet": "0xccd81fbd33",
         "username": "0F62",
-        "pnl": 85536.25,
-        "win_rate": 0.495,
-        "volume": 1264449.78,
+        "pnl": 85354.47,
+        "win_rate": 0.497,
+        "volume": 1310728.45,
         "categories": [
           "sports",
           "crypto"
@@ -1292,7 +1293,7 @@
       {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 80544.99,
+        "pnl": 76480.29,
         "win_rate": 0.504,
         "volume": 301015.71,
         "categories": [
@@ -1304,9 +1305,9 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 41656.95,
-        "win_rate": 0.589,
-        "volume": 1004087.77,
+        "pnl": 40355.36,
+        "win_rate": 0.585,
+        "volume": 1124991.92,
         "categories": [
           "sports"
         ]
@@ -1315,10 +1316,41 @@
   },
   "news": [
     {
-      "title": "Miami International ( MIAX ) versus Its Rivals Critical Review",
-      "url": "https://www.themarketsdaily.com/2026/09/04/miami-international-miax-versus-its-rivals-critical-review.html",
-      "ticker": "MIAX",
-      "themes": [],
+      "title": "Robinhood Rallies 11 % on Price Target Hikes , Webull Climbs 7 %, Interactive Brokers Gains 4 % ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-rallies-11-price-target-140310283.html",
+      "ticker": "HOOD",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Why Robinhood Stock Is Falling Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-robinhood-stock-falling-today-183559452.html",
+      "ticker": "HOOD",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "title": "AMC Rises 6 % as CEO Blasts Tokenized Shares , Robinhood Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-rises-6-ceo-blasts-141045863.html",
+      "ticker": "HOOD",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "title": "AMC Rises 6 % as CEO Blasts Tokenized Shares , Robinhood Slips",
+      "url": "https://www.aol.com/articles/amc-rises-6-ceo-blasts-141045000.html",
+      "ticker": "HOOD",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
       "date": "2026-09-04"
     },
     {
@@ -1327,22 +1359,6 @@
       "ticker": "UTHR",
       "themes": [],
       "date": "2026-09-03"
-    },
-    {
-      "title": "Matrix Service : Fiscal Q4 Earnings Snapshot",
-      "url": "https://www.kten.com/news/oklahoma-headlines/matrix-service-fiscal-q4-earnings-snapshot/article_3ce9c366-4a17-5b7f-972c-779270502305.html",
-      "ticker": "MTRX",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Matrix Service Company Reports Fiscal Year 2026 Fourth Quarter and Full - Year Results",
-      "url": "https://www.manilatimes.net/2026/09/03/tmt-newswire/globenewswire/matrix-service-company-reports-fiscal-year-2026-fourth-quarter-and-full-year-results/2417447",
-      "ticker": "MTRX",
-      "themes": [],
-      "date": "2026-09-02"
     },
     {
       "title": "Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M",
@@ -1368,13 +1384,6 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Head - To - Head Review : Matrix Service ( NASDAQ : MTRX ) vs . Bouygues ( OTCMKTS : BOUYY ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13569828/head-to-head-review-matrix-service-nasdaqmtrx-vs-bouygues-otcmktsbouyy.html",
-      "ticker": "MTRX",
-      "themes": [],
-      "date": "2026-09-02"
-    },
-    {
       "title": "United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) ",
       "url": "https://seekingalpha.com/news/4638067-united-therapeutics-highlights-new-data-supporting-two-fda-filings",
       "ticker": "UTHR",
@@ -1382,9 +1391,23 @@
         "regulatory"
       ],
       "date": "2026-08-31"
+    },
+    {
+      "title": "OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS",
+      "url": "https://www.dailypolitical.com/2026/08/27/omers-administration-corp-takes-1-44-million-position-in-krystal-biotech-inc-krys.html",
+      "ticker": "KRYS",
+      "themes": [],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS",
+      "url": "https://www.themarketsdaily.com/2026/08/25/s-squared-technology-llc-invests-28-82-billion-in-krystal-biotech-inc-krys.html",
+      "ticker": "KRYS",
+      "themes": [],
+      "date": "2026-08-25"
     }
   ],
-  "signals_count": 1376,
+  "signals_count": 1426,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
