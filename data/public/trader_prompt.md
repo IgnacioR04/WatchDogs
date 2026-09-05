@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-05T18:36:15+00:00 -->
+<!-- trader_prompt.md generado 2026-09-05T20:42:21+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-05T18:36:15+00:00 · ventana señales 2026-08-06 -> 2026-09-05_
+_Generado 2026-09-05T20:42:21+00:00 · ventana señales 2026-08-06 -> 2026-09-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79984.51 (0.39% / 1.83% / 27.33%) [2026-09-05]
+- BTC-USD: 79750.38 (0.1% / 1.53% / 26.95%) [2026-09-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,37 +353,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (2), stock (1), ai (1), legal (1)
+**Temas dominantes**: stock (7), merger (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
-- [CRWD] Jim Cramer Explains Why CrowdStrike ( CRWD ) Upended the Tech Bear Thesis (2026-09-05)
-- [CRWD] CrowdStrike Probes Falcon Zero - Day Exploit Code (2026-09-05)
-- [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
+- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
+- [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
+- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
+- [LPSN] LivePerson ( NASDAQ : LPSN ) Stockholders Green - Light SoundHound AI ( NASDAQ : SOUN ) Acquisition Ahead Of September Close (2026-09-03)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Stock Price Down 5 . 8 % After Insider Selling (2026-09-02)
+- [MAZE] Atul Dandekar Sells 7 , 500 Shares of Maze Therapeutics ( NASDAQ : MAZE ) Stock (2026-09-02)
+- [LPSN] LivePerson ( NASDAQ : LPSN ) Stock Price Passes Above 200 - Day Moving Average – Here What Happened (2026-08-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Spetzler David Baxley vendio CAI por $9.7M el 2026-09-03.
 - CEO Pollitzer Adam vendio NMIH por $7.7M el 2026-09-04.
 - CEO Lacerte Rene A. vendio BILL por $4.9M el 2026-09-02 [senal en multiples fuentes].
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0b1 · PnL $44,744 · win rate 90% · categorias: sports, crypto
-- JnStrtPrdctnMrkts · PnL $27,099 · win rate 90% · categorias: crypto
-- zofgkt1111 · PnL $30,521 · win rate 86% · categorias: sports
-- MissingJoy · PnL $27,901 · win rate 87% · categorias: sports, crypto
-- us391 · PnL $55,041 · win rate 82% · categorias: sports
+- salahmh · PnL $39,646 · win rate 94% · categorias: sports
+- sainttroplay · PnL $1,137,571 · win rate 100% · categorias: sports
+- 0b1 · PnL $32,428 · win rate 90% · categorias: sports, crypto
+- us391 · PnL $72,896 · win rate 83% · categorias: sports
+- Jsram · PnL $87,674 · win rate 80% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
