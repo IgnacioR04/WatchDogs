@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-05T16:22:45+00:00 · ventana señales 2026-08-06 -> 2026-09-05_
+_Generado 2026-09-05T18:36:15+00:00 · ventana señales 2026-08-06 -> 2026-09-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79862.1 (0.24% / 1.67% / 27.13%) [2026-09-05]
+- BTC-USD: 79984.51 (0.39% / 1.83% / 27.33%) [2026-09-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,17 +119,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (1), legal (1)
+**Temas dominantes**: regulatory (2), stock (1), ai (1), legal (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
 - [CRWD] Jim Cramer Explains Why CrowdStrike ( CRWD ) Upended the Tech Bear Thesis (2026-09-05)
 - [CRWD] CrowdStrike Probes Falcon Zero - Day Exploit Code (2026-09-05)
-- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
-- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
-- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
-- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Stock Price Down 5 . 8 % After Insider Selling (2026-09-02)
-- [MAZE] Atul Dandekar Sells 7 , 500 Shares of Maze Therapeutics ( NASDAQ : MAZE ) Stock (2026-09-02)
+- [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
+- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
+- [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
+- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
+- [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,11 +145,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0b1 · PnL $65,806 · win rate 90% · categorias: sports, crypto
-- Kch-Temp · PnL $84,558 · win rate 88% · categorias: sports
-- vibing123 · PnL $22,369 · win rate 90% · categorias: sports
-- Uniform123 · PnL $25,866 · win rate 88% · categorias: sports
-- zofgkt1111 · PnL $30,518 · win rate 86% · categorias: sports
+- 0b1 · PnL $44,744 · win rate 90% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $27,099 · win rate 90% · categorias: crypto
+- zofgkt1111 · PnL $30,521 · win rate 86% · categorias: sports
+- MissingJoy · PnL $27,901 · win rate 87% · categorias: sports, crypto
+- us391 · PnL $55,041 · win rate 82% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
