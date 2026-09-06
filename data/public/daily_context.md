@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-06T11:11:48+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
+_Generado 2026-09-06T14:27:18+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79960.52 (0.17% / 3.3% / 23.96%) [2026-09-06]
+- BTC-USD: 79674.81 (-0.19% / 2.93% / 23.51%) [2026-09-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,17 +119,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (2)
+**Temas dominantes**: stock (3), ai (2), merger (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
-- [KRYS] OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS (2026-08-27)
-- [KRYS] S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS (2026-08-25)
+- [HOOD] This Little - Known Altcoin Powering Robinhood New Blockchain Just Soared By 45 %. Is ARB a Buy , Sell , or Hold ? (2026-09-06)
+- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
+- [HOOD] Why Robinhood Stock Skyrocketed Last Month (2026-09-05)
+- [HOOD] Jim Cramer issues bullish call on Robinhood after Morgan Stanley upgrade (2026-09-05)
+- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
+- [MIAX] Insider Selling : Miami International ( NYSE : MIAX ) Director Sells 5 , 545 Shares (2026-09-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,9 +145,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - WTSA · PnL $396,100 · win rate 99% · categorias: sports
 - theowalcott · PnL $252,486 · win rate 100% · categorias: sports
+- TAIWANNUMBERONE · PnL $73,248 · win rate 92% · categorias: sports, politics
+- CyberScore.live · PnL $29,595 · win rate 96% · categorias: sports
 - b324u · PnL $132,626 · win rate 89% · categorias: sports, politics
-- JUSTINHERBERTMVP · PnL $29,759 · win rate 87% · categorias: sports, crypto, politics
-- JnStrtPrdctnMrkts · PnL $17,289 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
