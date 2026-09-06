@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-06T01:13:51+00:00 -->
+<!-- trader_prompt.md generado 2026-09-06T06:13:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-06T01:13:51+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
+_Generado 2026-09-06T06:13:07+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79986.02 (0.39% / 1.83% / 27.33%) [2026-09-06]
+- BTC-USD: 79956.36 (0.36% / 1.79% / 27.28%) [2026-09-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,17 +353,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), merger (3), ai (2)
+**Temas dominantes**: ai (3), merger (3), stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
 - [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
 - [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
+- [CRWD] Jim Cramer Explains Why CrowdStrike ( CRWD ) Upended the Tech Bear Thesis (2026-09-05)
 - [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
-- [MIAX] Insider Selling : Miami International ( NYSE : MIAX ) Director Sells 5 , 545 Shares (2026-09-04)
 - [LPSN] LivePerson ( NASDAQ : LPSN ) Stockholders Green - Light SoundHound AI ( NASDAQ : SOUN ) Acquisition Ahead Of September Close (2026-09-03)
 - [LPSN] LivePerson ( NASDAQ : LPSN ) Stock Price Passes Above 200 - Day Moving Average – Here What Happened (2026-08-30)
+- [KRYS] OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS (2026-08-27)
+- [KRYS] S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS (2026-08-25)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +380,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- HongYunX · PnL $52,509 · win rate 100% · categorias: sports
-- 0b1 · PnL $81,342 · win rate 91% · categorias: sports, crypto
-- salahmh · PnL $39,679 · win rate 94% · categorias: sports
-- monkeymashingkeyboard · PnL $38,655 · win rate 92% · categorias: sports
-- Jsram · PnL $196,328 · win rate 80% · categorias: sports, politics
+- WTSA · PnL $394,940 · win rate 99% · categorias: sports
+- theowalcott · PnL $252,486 · win rate 100% · categorias: sports
+- shaw · PnL $14,094 · win rate 98% · categorias: sports
+- VD721lsj4938Dk388 · PnL $15,901 · win rate 95% · categorias: sports
+- b324u · PnL $132,626 · win rate 89% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
