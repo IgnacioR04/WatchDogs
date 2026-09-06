@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-05T23:12:35+00:00 · ventana señales 2026-08-06 -> 2026-09-05_
+_Generado 2026-09-06T01:13:51+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79760.22 (0.11% / 1.54% / 26.97%) [2026-09-05]
+- BTC-USD: 79986.02 (0.39% / 1.83% / 27.33%) [2026-09-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,14 +119,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: stock (4), merger (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HOOD] Why Robinhood Stock Skyrocketed Last Month (2026-09-05)
+- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
+- [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
 - [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
-- [HOOD] Jim Cramer issues bullish call on Robinhood after Morgan Stanley upgrade (2026-09-05)
+- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
 - [MIAX] Insider Selling : Miami International ( NYSE : MIAX ) Director Sells 5 , 545 Shares (2026-09-04)
+- [LPSN] LivePerson ( NASDAQ : LPSN ) Stockholders Green - Light SoundHound AI ( NASDAQ : SOUN ) Acquisition Ahead Of September Close (2026-09-03)
+- [LPSN] LivePerson ( NASDAQ : LPSN ) Stock Price Passes Above 200 - Day Moving Average – Here What Happened (2026-08-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +144,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0b1 · PnL $69,306 · win rate 91% · categorias: sports, crypto
-- salahmh · PnL $39,706 · win rate 94% · categorias: sports
-- monkeymashingkeyboard · PnL $37,195 · win rate 92% · categorias: sports
-- Jsram · PnL $195,985 · win rate 80% · categorias: sports, politics
-- sainttroplay · PnL $1,137,571 · win rate 100% · categorias: sports
+- HongYunX · PnL $52,509 · win rate 100% · categorias: sports
+- 0b1 · PnL $81,342 · win rate 91% · categorias: sports, crypto
+- salahmh · PnL $39,679 · win rate 94% · categorias: sports
+- monkeymashingkeyboard · PnL $38,655 · win rate 92% · categorias: sports
+- Jsram · PnL $196,328 · win rate 80% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,7 +156,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 678 registros 30d · ultimo dato 2026-09-04
+- **sec_insiders**: `ok` · 676 registros 30d · ultimo dato 2026-09-04
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-04
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
