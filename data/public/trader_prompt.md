@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-06T19:28:06+00:00 -->
+<!-- trader_prompt.md generado 2026-09-06T21:36:25+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-06T19:28:06+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
+_Generado 2026-09-06T21:36:25+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79850.91 (0.03% / 3.16% / 23.79%) [2026-09-06]
+- BTC-USD: 79902.0 (0.1% / 3.23% / 23.87%) [2026-09-06]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,37 +353,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), regulatory (2), ai (1)
+**Temas dominantes**: regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HOOD] This Little - Known Altcoin Powering Robinhood New Blockchain Just Soared By 45 %. Is ARB a Buy , Sell , or Hold ? (2026-09-06)
-- [HOOD] Why Robinhood Stock Skyrocketed Last Month (2026-09-05)
-- [HOOD] Jim Cramer issues bullish call on Robinhood after Morgan Stanley upgrade (2026-09-05)
+- [CRWD] Silvant Capital Management Stakes Positions In Snowflake ( NYSE : SNOW ), CrowdStrike ( NASDAQ : CRWD ) And Palantir ( NASDAQ : PLTR ) As AI Adoption Accelerates (2026-09-06)
+- [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
 - [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
 - [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 - [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
 - [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 - [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
+- [KRYS] OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS (2026-08-27)
+- [KRYS] S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS (2026-08-25)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Spetzler David Baxley vendio CAI por $9.7M el 2026-09-03.
 - CEO Pollitzer Adam vendio NMIH por $7.7M el 2026-09-04.
 - CEO Lacerte Rene A. vendio BILL por $4.9M el 2026-09-02 [senal en multiples fuentes].
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $399,192 · win rate 99% · categorias: sports
+- WTSA · PnL $582,615 · win rate 99% · categorias: sports
 - theowalcott · PnL $252,486 · win rate 100% · categorias: sports
-- crisp1973 · PnL $46,195 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $106,412 · win rate 92% · categorias: sports, politics
+- TAIWANNUMBERONE · PnL $125,593 · win rate 92% · categorias: sports, politics
 - ExplosiveNinja · PnL $42,663 · win rate 97% · categorias: sports
+- SemyonMarmeladov · PnL $78,626 · win rate 88% · categorias: sports, economy, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
