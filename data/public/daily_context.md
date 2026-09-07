@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-07T04:54:33+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
+_Generado 2026-09-07T10:31:16+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,13 +8,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.53)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.04)
 - Tendencia: `bull` (SPY 770.19 · MA50 756.86 · MA200 709.87 · dist MA200: 8.5%)
 - Credito: `tight` (HY spread 2.65)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -103,8 +103,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.21 (0.17% / -0.43% / -0.28%) [2026-09-04]
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
-- ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79663.88 (-0.2% / 2.92% / 23.5%) [2026-09-07]
+- ^VIX: 15.04 (3.51% / 0.8% / -2.72%) [2026-09-07]
+- BTC-USD: 79405.88 (-1.18% / 2.72% / 22.77%) [2026-09-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,20 +119,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), ai (2), regulatory (1)
+**Temas dominantes**: ai (3), stock (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MIAX] 3 in critical condition after deadly plane crash at Miami International Airport (2026-09-07)
+- [CRWD] AI Next Winners ? Investor Bets on Snowflake , CrowdStrike and Palantir (2026-09-07)
+- [CRWD] Silvant Capital Management Stakes Positions In Snowflake ( NYSE : SNOW ), CrowdStrike ( NASDAQ : CRWD ) And Palantir ( NASDAQ : PLTR ) As AI Adoption Accelerates (2026-09-06)
 - [HOOD] This Little - Known Altcoin Powering Robinhood New Blockchain Just Soared By 45 %. Is ARB a Buy , Sell , or Hold ? (2026-09-06)
 - [HOOD] Why Robinhood Stock Skyrocketed Last Month (2026-09-05)
+- [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
 - [HOOD] Jim Cramer issues bullish call on Robinhood after Morgan Stanley upgrade (2026-09-05)
-- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
-- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
-- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
 - [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
 - [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 - [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
+- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -148,9 +148,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - BrotherObama · PnL $218,187 · win rate 83% · categorias: sports
-- rollobravado · PnL $5,256 · win rate 99% · categorias: sports, politics
-- SDTrading · PnL $9,333 · win rate 94% · categorias: sports
-- BreakTheBank · PnL $32,804 · win rate 85% · categorias: sports
+- torta.tech · PnL $10,716 · win rate 95% · categorias: sports
+- SDTrading · PnL $9,295 · win rate 94% · categorias: sports
+- BreakTheBank · PnL $32,272 · win rate 85% · categorias: sports
 - CORGI8 · PnL $10,815 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -174,7 +174,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`BILL, BRBR, ENOV, ETOR, GAP, GLD, IEF, KIDS, LILA, MD, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
