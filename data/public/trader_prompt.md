@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-06T21:36:25+00:00 -->
+<!-- trader_prompt.md generado 2026-09-07T00:08:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-06T21:36:25+00:00 · ventana señales 2026-08-07 -> 2026-09-06_
+_Generado 2026-09-07T00:08:20+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 79902.0 (0.1% / 3.23% / 23.87%) [2026-09-06]
+- BTC-USD: 80404.01 (0.73% / 3.88% / 24.65%) [2026-09-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,19 +353,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: regulatory (2), ai (1)
+**Temas dominantes**: stock (6), merger (2), regulatory (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Silvant Capital Management Stakes Positions In Snowflake ( NYSE : SNOW ), CrowdStrike ( NASDAQ : CRWD ) And Palantir ( NASDAQ : PLTR ) As AI Adoption Accelerates (2026-09-06)
+- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
+- [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
 - [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
+- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
 - [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
 - [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 - [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics highlights new data supporting two FDA filings ( UTHR : NASDAQ ) (2026-08-31)
-- [KRYS] OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS (2026-08-27)
-- [KRYS] S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS (2026-08-25)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +381,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $582,615 · win rate 99% · categorias: sports
+- WTSA · PnL $582,496 · win rate 99% · categorias: sports
 - theowalcott · PnL $252,486 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $125,593 · win rate 92% · categorias: sports, politics
-- ExplosiveNinja · PnL $42,663 · win rate 97% · categorias: sports
-- SemyonMarmeladov · PnL $78,626 · win rate 88% · categorias: sports, economy, politics
+- TAIWANNUMBERONE · PnL $147,461 · win rate 92% · categorias: sports, politics
+- monkeymashingkeyboard · PnL $45,537 · win rate 92% · categorias: sports
+- SemyonMarmeladov · PnL $78,652 · win rate 88% · categorias: sports, economy, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
