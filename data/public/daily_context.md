@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-07T20:13:37+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
+_Generado 2026-09-07T23:07:09+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -104,7 +104,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 15.3 (5.3% / 2.55% / -1.03%) [2026-09-07]
-- BTC-USD: 79213.05 (-1.42% / 2.47% / 22.47%) [2026-09-07]
+- BTC-USD: 79008.97 (-1.67% / 2.21% / 22.15%) [2026-09-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,20 +119,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), merger (2), ai (1), regulatory (1)
+**Temas dominantes**: stock (6), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [UTHR] Reviewing United Therapeutics ( NASDAQ : UTHR ) and Zenas BioPharma ( NASDAQ : ZBIO ) (2026-09-07)
-- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
 - [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
-- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
 - [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
 - [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
 - [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
 - [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
 - [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
 - [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Stock Price Down 5 . 8 % After Insider Selling (2026-09-02)
+- [MAZE] Atul Dandekar Sells 7 , 500 Shares of Maze Therapeutics ( NASDAQ : MAZE ) Stock (2026-09-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,10 +147,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ExplosiveNinja · PnL $33,341 · win rate 97% · categorias: sports
-- SDTrading · PnL $34,362 · win rate 94% · categorias: sports
-- lllllllIlll · PnL $33,375 · win rate 94% · categorias: sports
-- BrotherObama · PnL $152,650 · win rate 83% · categorias: sports
+- ExplosiveNinja · PnL $33,415 · win rate 97% · categorias: sports
+- lllllllIlll · PnL $45,000 · win rate 94% · categorias: sports
+- CyberScore.live · PnL $23,927 · win rate 97% · categorias: sports
+- BrotherObama · PnL $127,187 · win rate 83% · categorias: sports
 - five5120 · PnL $26,808 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
