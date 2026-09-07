@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-07T00:08:20+00:00 -->
+<!-- trader_prompt.md generado 2026-09-07T04:54:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-07T00:08:20+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
+_Generado 2026-09-07T04:54:33+00:00 · ventana señales 2026-08-08 -> 2026-09-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 14.53 (1.47% / 0.69% / -2.48%) [2026-09-04]
-- BTC-USD: 80404.01 (0.73% / 3.88% / 24.65%) [2026-09-07]
+- BTC-USD: 79663.88 (-0.2% / 2.92% / 23.5%) [2026-09-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,14 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), merger (2), regulatory (2), ai (1)
+**Temas dominantes**: stock (7), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
-- [FCF] First Commonwealth Financial ( NYSE : FCF ) CFO James Reske Sells 2 , 072 Shares of Stock (2026-09-05)
-- [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
-- [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
+- [MIAX] 3 in critical condition after deadly plane crash at Miami International Airport (2026-09-07)
+- [HOOD] This Little - Known Altcoin Powering Robinhood New Blockchain Just Soared By 45 %. Is ARB a Buy , Sell , or Hold ? (2026-09-06)
+- [HOOD] Why Robinhood Stock Skyrocketed Last Month (2026-09-05)
+- [HOOD] Jim Cramer issues bullish call on Robinhood after Morgan Stanley upgrade (2026-09-05)
 - [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
 - [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
 - [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
@@ -373,19 +373,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - CEO Spetzler David Baxley vendio CAI por $9.7M el 2026-09-03.
 - CEO Pollitzer Adam vendio NMIH por $7.7M el 2026-09-04.
 - CEO Lacerte Rene A. vendio BILL por $4.9M el 2026-09-02 [senal en multiples fuentes].
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
-- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- WTSA · PnL $582,496 · win rate 99% · categorias: sports
-- theowalcott · PnL $252,486 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $147,461 · win rate 92% · categorias: sports, politics
-- monkeymashingkeyboard · PnL $45,537 · win rate 92% · categorias: sports
-- SemyonMarmeladov · PnL $78,652 · win rate 88% · categorias: sports, economy, politics
+- BrotherObama · PnL $218,187 · win rate 83% · categorias: sports
+- rollobravado · PnL $5,256 · win rate 99% · categorias: sports, politics
+- SDTrading · PnL $9,333 · win rate 94% · categorias: sports
+- BreakTheBank · PnL $32,804 · win rate 85% · categorias: sports
+- CORGI8 · PnL $10,815 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
