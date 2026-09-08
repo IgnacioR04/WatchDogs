@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:14:19+00:00",
+  "generated_at": "2026-09-08T11:34:14+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8502,
@@ -9,15 +9,14 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
+    "MD": 0.0685,
     "IEF": 0.0622,
-    "MD": 0.0601,
-    "KIDS": 0.0511,
-    "ETOR": 0.0434,
-    "BILL": 0.0413,
-    "GAP": 0.0408,
-    "LILA": 0.0371,
-    "BRBR": 0.0339,
-    "ENOV": 0.027
+    "KIDS": 0.0582,
+    "ETOR": 0.0494,
+    "BILL": 0.0469,
+    "LILA": 0.0423,
+    "BRBR": 0.0386,
+    "ENOV": 0.0308
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ENOV": 0.024,
-    "MD": 0.0534,
-    "BRBR": 0.0301,
-    "GAP": 0.0363,
-    "LILA": 0.033,
-    "BILL": 0.0367,
-    "KIDS": 0.0454,
-    "ETOR": 0.0386
+    "ENOV": 0.0274,
+    "MD": 0.0609,
+    "BRBR": 0.0343,
+    "LILA": 0.0376,
+    "BILL": 0.0417,
+    "KIDS": 0.0517,
+    "ETOR": 0.0439
   },
   "satellite_rationale": [
     {
@@ -56,14 +54,6 @@
     {
       "ticker": "BRBR",
       "score": 211.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "GAP",
-      "score": 207.0,
       "sources": [
         "large_holder"
       ],
@@ -103,15 +93,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1092,
-    "var_95_1d": 0.0114,
-    "cvar_95_1d": 0.0131,
-    "max_drawdown": -0.0266,
-    "beta_spy": 0.563,
-    "hhi": 0.0705,
+    "ann_vol": 0.1121,
+    "var_95_1d": 0.0117,
+    "cvar_95_1d": 0.0135,
+    "max_drawdown": -0.0277,
+    "beta_spy": 0.549,
+    "hhi": 0.0727,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 14.2,
+    "n_positions": 12,
+    "effective_positions": 13.8,
     "gross_exposure": 0.8502,
     "days_used": 78
   },

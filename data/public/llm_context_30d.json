@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-08T06:13:33.948688+00:00",
+  "generated_at": "2026-09-08T11:32:43.431857+00:00",
   "window": {
     "from": "2026-08-09",
     "to": "2026-09-08",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "merger",
-      "ai"
+      "ai",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -459,11 +459,11 @@
         ]
       },
       {
-        "ticker": "GAP",
-        "company": "The Gap, Inc.",
-        "pressure_score": 207.0,
+        "ticker": "UBER",
+        "company": "Uber Technologies, Inc",
+        "pressure_score": 152.7,
         "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -622,18 +622,17 @@
         ]
       },
       {
-        "ticker": "ADXN",
-        "company": "Addex Therapeutics Ltd.",
-        "pressure_score": 480.4,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "MIAX",
         "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
         "pressure_score": 436.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VCYT",
+        "company": "VERACYTE, INC.",
+        "pressure_score": 421.1,
         "sources": [
           "corporate_insider"
         ]
@@ -669,6 +668,15 @@
       "score": 78.3
     },
     {
+      "ticker": "UBER",
+      "company": "Uber Technologies, Inc",
+      "actor": "Macdonald Andrew",
+      "actor_type": "insider",
+      "amount": 4109827.5,
+      "date": "2026-09-04",
+      "score": 77.7
+    },
+    {
       "ticker": "EQPT",
       "company": "EquipmentShare.com Inc",
       "actor": "Schlacks William J.",
@@ -685,6 +693,15 @@
       "amount": 1000160.0,
       "date": "2026-09-02",
       "score": 75.9
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber Technologies, Inc",
+      "actor": "Macdonald Andrew",
+      "actor_type": "insider",
+      "amount": 1198236.19,
+      "date": "2026-09-04",
+      "score": 75.0
     },
     {
       "ticker": "PFLEX",
@@ -757,24 +774,6 @@
       "amount": 40151.58,
       "date": "2026-09-03",
       "score": 72.9
-    },
-    {
-      "ticker": "AFCG",
-      "company": "Advanced Flower Capital Inc.",
-      "actor": "TANNENBAUM LEONARD M",
-      "actor_type": "ten_percent_owner",
-      "amount": 54650.57,
-      "date": "2026-09-02",
-      "score": 72.0
-    },
-    {
-      "ticker": "SNNF",
-      "company": "Seneca Bancorp, Inc.",
-      "actor": "Vitale Joseph G",
-      "actor_type": "ceo",
-      "amount": 5800.0,
-      "date": "2026-09-03",
-      "score": 71.2
     }
   ],
   "institutional_changes": [
@@ -1007,15 +1006,6 @@
       "date": "2026-08-31"
     },
     {
-      "filer": "Paine Schwartz Food Chain Fund V GP, Ltd.",
-      "company": "Suja Life, Inc.",
-      "ticker": "SUJA",
-      "ownership_pct": 67.6,
-      "shares": 26107565,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-08-31"
-    },
-    {
       "filer": "Ault & Company, Inc.",
       "company": "Hyperscale Data, Inc.",
       "ticker": "",
@@ -1034,6 +1024,15 @@
       "date": "2026-09-04"
     },
     {
+      "filer": "Eric Li",
+      "company": "Polestar Automotive Holding UK PLC",
+      "ticker": "",
+      "ownership_pct": 60.5,
+      "shares": 99358168,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-08"
+    },
+    {
       "filer": "Advent International, L.P.",
       "company": "Definitive Healthcare Corp.",
       "ticker": "DH",
@@ -1050,6 +1049,15 @@
       "shares": 186963677,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-08-31"
+    },
+    {
+      "filer": "Newlinks Technology Limited",
+      "company": "NaaS Technology Inc.",
+      "ticker": "NAAS",
+      "ownership_pct": 51.9,
+      "shares": 40754920572,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-08"
     },
     {
       "filer": "Campalier, S.A. de C.V.",
@@ -1086,15 +1094,6 @@
       "shares": 5693706,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-02"
-    },
-    {
-      "filer": "Diamondback Energy, Inc.",
-      "company": "Viper Energy, Inc.",
-      "ticker": "VNOM",
-      "ownership_pct": 42.9,
-      "shares": 145972177,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-03"
     }
   ],
   "polymarket": {
@@ -1112,9 +1111,9 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 160160.42,
-        "win_rate": 0.8258,
-        "volume": 336767.86,
+        "pnl": 118276.5,
+        "win_rate": 0.8269,
+        "volume": 623971.52,
         "categories": [
           "sports"
         ]
@@ -1122,29 +1121,19 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 60055.31,
+        "pnl": 60429.12,
         "win_rate": 0.8555,
-        "volume": 2000.0,
+        "volume": 2470.98,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 11553.06,
-        "win_rate": 0.959,
-        "volume": 3.44,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfb07f48542",
-        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 7315.22,
-        "win_rate": 0.944,
-        "volume": 66.29,
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 111826.22,
+        "win_rate": 0.9412,
+        "volume": 1599511.49,
         "categories": [
           "sports"
         ]
@@ -1160,25 +1149,13 @@
         ]
       },
       {
-        "wallet": "0x620b63c939",
-        "username": "LaRemontada",
-        "pnl": 7980.0,
-        "win_rate": 0.9032,
-        "volume": 0.0,
+        "wallet": "0xd3911bd5e0",
+        "username": "lfg100k",
+        "pnl": 15551.86,
+        "win_rate": 0.8474,
+        "volume": 65074.37,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x86e99faea1",
-        "username": "JUSTINHERBERTMVP",
-        "pnl": 10603.2,
-        "win_rate": 0.8726,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
         ]
       },
       {
@@ -1194,9 +1171,29 @@
       {
         "wallet": "0x10a6fadcba",
         "username": "rabbitfoot1",
-        "pnl": 16816.47,
+        "pnl": 19288.28,
         "win_rate": 0.815,
-        "volume": 30574.53,
+        "volume": 138330.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8c0b024c17",
+        "username": "THEHIGHLIFE",
+        "pnl": 30818.88,
+        "win_rate": 0.779,
+        "volume": 127695.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xda3a9b7aff",
+        "username": "Gooooooollllllllll",
+        "pnl": 21116.95,
+        "win_rate": 0.767,
+        "volume": 41174.18,
         "categories": [
           "sports"
         ]
@@ -1214,6 +1211,26 @@
         ]
       },
       {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 111826.22,
+        "win_rate": 0.9412,
+        "volume": 1599511.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 42465.75,
+        "win_rate": 0.584,
+        "volume": 3284049.12,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
         "pnl": 18166.31,
@@ -1224,40 +1241,52 @@
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 118276.5,
+        "win_rate": 0.8269,
+        "volume": 623971.52,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x78becf0a4e",
         "username": "",
-        "pnl": 101346.26,
-        "win_rate": 0.5227,
-        "volume": 389957.84,
+        "pnl": 149906.55,
+        "win_rate": 0.5297,
+        "volume": 551460.66,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 160160.42,
-        "win_rate": 0.8258,
-        "volume": 336767.86,
+        "wallet": "0x29b52d98ac",
+        "username": "0x29b52d98ac9ef9414b04164246c95BC63d7",
+        "pnl": 142500.08,
+        "win_rate": 0.58,
+        "volume": 335256.64,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x568ab8ba45",
-        "username": "HectorHuang",
-        "pnl": 12114.42,
-        "win_rate": 0.6,
-        "volume": 148327.58,
+        "wallet": "0x82cf2b31d1",
+        "username": "roundtripped",
+        "pnl": 15166.13,
+        "win_rate": 0.7056,
+        "volume": 386701.0,
         "categories": [
-          "sports"
+          "sports",
+          "politics",
+          "crypto"
         ]
       },
       {
         "wallet": "0x6f3e7f25ba",
         "username": "fRibrenlc",
-        "pnl": 20091.82,
+        "pnl": 19725.16,
         "win_rate": 0.533,
         "volume": 187337.66,
         "categories": [
@@ -1265,49 +1294,25 @@
         ]
       },
       {
-        "wallet": "0x52f5efdfb8",
-        "username": "martingaleking",
-        "pnl": 33762.83,
-        "win_rate": 0.8364,
-        "volume": 99990.61,
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 14274.63,
+        "win_rate": 0.659,
+        "volume": 301291.09,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 7028.68,
-        "win_rate": 0.654,
-        "volume": 270347.88,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 37309.74,
-        "win_rate": 0.7757,
-        "volume": 87719.3,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa4fd70a8d7",
-        "username": "alexdave888",
-        "pnl": 6930.47,
-        "win_rate": 0.865,
-        "volume": 112999.99,
-        "categories": [
-          "sports",
           "crypto"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Reviewing United Therapeutics ( NASDAQ : UTHR ) and Zenas BioPharma ( NASDAQ : ZBIO ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13576276/reviewing-united-therapeutics-nasdaquthr-and-zenas-biopharma-nasdaqzbio.html",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-09-07"
+    },
     {
       "title": "SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? ",
       "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-ai-closed-liveperson-deal-112520347.html",
@@ -1328,47 +1333,25 @@
       "date": "2026-09-05"
     },
     {
-      "title": "Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares",
-      "url": "https://www.themarketsdaily.com/2026/09/04/maze-therapeutics-nasdaqmaze-insider-sells-3243-shares.html",
-      "ticker": "MAZE",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-04"
+      "title": "Former Anheuser - Busch plant sold to United Therapeutics",
+      "url": "https://www.wmur.com/article/former-anheuser-busch-plant-sold-to-united-therapeutics/73599440",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-09-03"
     },
     {
-      "title": "Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares",
-      "url": "https://www.dailypolitical.com/2026/09/04/insider-selling-maze-therapeutics-nasdaqmaze-cmo-sells-5106-shares.html",
-      "ticker": "MAZE",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-04"
-    },
-    {
-      "title": "Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock",
-      "url": "https://www.dailypolitical.com/2026/09/04/insider-selling-maze-therapeutics-nasdaqmaze-insider-sells-52437-07-in-stock.html",
-      "ticker": "MAZE",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-04"
-    },
-    {
-      "title": "Maze Therapeutics ( NASDAQ : MAZE ) Stock Price Down 5 . 8 % After Insider Selling",
-      "url": "https://www.themarketsdaily.com/2026/09/02/maze-therapeutics-nasdaqmaze-stock-price-down-5-8-after-insider-selling.html",
-      "ticker": "MAZE",
-      "themes": [
-        "stock"
-      ],
+      "title": "Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M",
+      "url": "https://www.unionleader.com/nh/news/business/anheuser-busch-plant-in-merrimack-sold-to-united-therapeutics-for-47-5m/article_9435b283-6150-437e-aa18-2dfc0b21063d.html",
+      "ticker": "UTHR",
+      "themes": [],
       "date": "2026-09-02"
     },
     {
-      "title": "Atul Dandekar Sells 7 , 500 Shares of Maze Therapeutics ( NASDAQ : MAZE ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/02/atul-dandekar-sells-7500-shares-of-maze-therapeutics-nasdaqmaze-stock.html",
-      "ticker": "MAZE",
+      "title": "United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF",
+      "url": "https://www.rttnews.com/3687842/united-therapeutics-announces-fda-acceptance-of-snda-for-nebulized-tyvaso-in-ipf.aspx",
+      "ticker": "UTHR",
       "themes": [
-        "stock"
+        "regulatory"
       ],
       "date": "2026-09-02"
     },
@@ -1378,16 +1361,9 @@
       "ticker": "KRYS",
       "themes": [],
       "date": "2026-08-27"
-    },
-    {
-      "title": "S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS",
-      "url": "https://www.themarketsdaily.com/2026/08/25/s-squared-technology-llc-invests-28-82-billion-in-krystal-biotech-inc-krys.html",
-      "ticker": "KRYS",
-      "themes": [],
-      "date": "2026-08-25"
     }
   ],
-  "signals_count": 1426,
+  "signals_count": 1433,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
