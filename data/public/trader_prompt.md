@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-08T01:28:22+00:00 -->
+<!-- trader_prompt.md generado 2026-09-08T06:14:21+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-08T01:28:22+00:00 · ventana señales 2026-08-09 -> 2026-09-08_
+_Generado 2026-09-08T06:14:20+00:00 · ventana señales 2026-08-09 -> 2026-09-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
 - GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
 - ^VIX: 15.3 (5.3% / 2.55% / -1.03%) [2026-09-07]
-- BTC-USD: 79398.49 (-1.18% / 2.71% / 22.75%) [2026-09-08]
+- BTC-USD: 78541.93 (-2.25% / 1.61% / 21.43%) [2026-09-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,13 +353,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (2), ai (1)
+**Temas dominantes**: stock (5), merger (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [LPSN] SoundHound AI Closed Its LivePerson Deal . Does the Acquisition Fix SOUN Scale Problem or Import LPSN Weaknesses ? (2026-09-05)
-- [ADXN] Contrasting Addex Therapeutics ( NASDAQ : ADXN ) & BioAge Labs ( NASDAQ : BIOA ) (2026-09-05)
 - [LPSN] LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? (2026-09-05)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells 3 , 243 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) CMO Sells 5 , 106 Shares (2026-09-04)
+- [MAZE] Insider Selling : Maze Therapeutics ( NASDAQ : MAZE ) Insider Sells $52 , 437 . 07 in Stock (2026-09-04)
+- [MAZE] Maze Therapeutics ( NASDAQ : MAZE ) Stock Price Down 5 . 8 % After Insider Selling (2026-09-02)
+- [MAZE] Atul Dandekar Sells 7 , 500 Shares of Maze Therapeutics ( NASDAQ : MAZE ) Stock (2026-09-02)
 - [KRYS] OMERS ADMINISTRATION Corp Takes $1 . 44 Million Position in Krystal Biotech , Inc . $KRYS (2026-08-27)
 - [KRYS] S Squared Technology LLC Invests $28 . 82 Billion in Krystal Biotech , Inc . $KRYS (2026-08-25)
 
@@ -376,11 +380,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $59,691 · win rate 100% · categorias: sports
-- ExplosiveNinja · PnL $33,415 · win rate 97% · categorias: sports
-- lllllllIlll · PnL $45,000 · win rate 94% · categorias: sports
-- CyberScore.live · PnL $23,942 · win rate 97% · categorias: sports
-- BrotherObama · PnL $127,187 · win rate 83% · categorias: sports
+- theowalcott · PnL $95,203 · win rate 100% · categorias: sports
+- BrotherObama · PnL $160,160 · win rate 83% · categorias: sports
+- BreakTheBank · PnL $60,055 · win rate 86% · categorias: sports
+- VD721lsj4938Dk388 · PnL $11,553 · win rate 96% · categorias: sports
+- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $7,315 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
