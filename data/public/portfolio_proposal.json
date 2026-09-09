@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-09T18:50:36+00:00",
+  "generated_at": "2026-09-09T21:58:37+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0932,
-    "CSQ": 0.0732,
+    "GLD": 0.0933,
+    "CSQ": 0.0901,
     "IEF": 0.0622,
-    "DGICA": 0.054,
-    "BWFG": 0.0511,
-    "LTH": 0.0361,
-    "UBER": 0.0301,
-    "GOLD": 0.0233,
-    "AMR": 0.0196,
-    "ZBIO": 0.0178,
-    "TXG": 0.0157,
-    "TWST": 0.0138
+    "DGICA": 0.0593,
+    "BWFG": 0.0535,
+    "UBER": 0.0327,
+    "ZBIO": 0.0235,
+    "TENB": 0.0173,
+    "LEU": 0.0169,
+    "EAF": 0.0138,
+    "TWST": 0.0137,
+    "SEI": 0.0137
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BWFG": 0.0454,
-    "AMR": 0.0174,
-    "CSQ": 0.0651,
-    "ZBIO": 0.0158,
-    "TWST": 0.0123,
-    "UBER": 0.0268,
-    "DGICA": 0.048,
-    "TXG": 0.014,
-    "LTH": 0.0321,
-    "GOLD": 0.0207
+    "BWFG": 0.0476,
+    "CSQ": 0.0801,
+    "ZBIO": 0.0209,
+    "TWST": 0.0122,
+    "EAF": 0.0123,
+    "LEU": 0.015,
+    "TENB": 0.0154,
+    "UBER": 0.0291,
+    "DGICA": 0.0527,
+    "SEI": 0.0122
   },
   "satellite_rationale": [
     {
@@ -48,14 +48,6 @@
         "corporate_insider"
       ],
       "n_signals": 6
-    },
-    {
-      "ticker": "AMR",
-      "score": 296.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
     },
     {
       "ticker": "CSQ",
@@ -82,6 +74,30 @@
       "n_signals": 2
     },
     {
+      "ticker": "EAF",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "LEU",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "TENB",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "UBER",
       "score": 124.5,
       "sources": [
@@ -98,42 +114,26 @@
       "n_signals": 2
     },
     {
-      "ticker": "TXG",
-      "score": 71.8,
+      "ticker": "SEI",
+      "score": 117.0,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "LTH",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GOLD",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.1064,
-    "var_95_1d": 0.0087,
-    "cvar_95_1d": 0.0128,
-    "max_drawdown": -0.0278,
-    "beta_spy": 0.667,
-    "hhi": 0.0705,
+    "ann_vol": 0.099,
+    "var_95_1d": 0.0092,
+    "cvar_95_1d": 0.0103,
+    "max_drawdown": -0.0226,
+    "beta_spy": 0.706,
+    "hhi": 0.073,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.2,
-    "gross_exposure": 0.8501,
-    "days_used": 80
+    "effective_positions": 13.7,
+    "gross_exposure": 0.85,
+    "days_used": 50
   },
   "risk_gate": {
     "passed": true,
