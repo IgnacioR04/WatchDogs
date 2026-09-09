@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-09T10:02:28+00:00",
+  "generated_at": "2026-09-09T14:54:03+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "CSQ": 0.0867,
+    "CSQ": 0.0787,
     "IEF": 0.0622,
-    "LTH": 0.0429,
-    "WTS": 0.0422,
-    "UBER": 0.0359,
-    "KMT": 0.0351,
-    "GOLD": 0.0277,
-    "AMR": 0.0232,
-    "INBX": 0.0224,
-    "TXG": 0.0187
+    "BWFG": 0.0548,
+    "LTH": 0.0388,
+    "WTS": 0.0381,
+    "UBER": 0.0325,
+    "AMR": 0.021,
+    "INBX": 0.0197,
+    "ZBIO": 0.0191,
+    "TXG": 0.0169,
+    "TWST": 0.0148
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "INBX": 0.0199,
-    "AMR": 0.0206,
-    "CSQ": 0.0771,
-    "GOLD": 0.0246,
-    "UBER": 0.0319,
-    "TXG": 0.0166,
-    "WTS": 0.0375,
-    "LTH": 0.0381,
-    "KMT": 0.0312
+    "INBX": 0.0175,
+    "AMR": 0.0187,
+    "CSQ": 0.07,
+    "ZBIO": 0.017,
+    "TWST": 0.0132,
+    "UBER": 0.0289,
+    "BWFG": 0.0487,
+    "TXG": 0.015,
+    "WTS": 0.0339,
+    "LTH": 0.0345
   },
   "satellite_rationale": [
     {
@@ -64,10 +66,17 @@
       "n_signals": 3
     },
     {
-      "ticker": "GOLD",
-      "score": 136.7,
+      "ticker": "ZBIO",
+      "score": 141.0,
       "sources": [
-        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "TWST",
+      "score": 141.0,
+      "sources": [
         "large_holder"
       ],
       "n_signals": 2
@@ -79,6 +88,14 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "BWFG",
+      "score": 74.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     },
     {
       "ticker": "TXG",
@@ -103,28 +120,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "KMT",
-      "score": 57.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.122,
-    "var_95_1d": 0.0111,
-    "cvar_95_1d": 0.0152,
-    "max_drawdown": -0.0328,
-    "beta_spy": 0.795,
-    "hhi": 0.0716,
+    "ann_vol": 0.1161,
+    "var_95_1d": 0.01,
+    "cvar_95_1d": 0.0142,
+    "max_drawdown": -0.0313,
+    "beta_spy": 0.745,
+    "hhi": 0.0707,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 14.0,
-    "gross_exposure": 0.8503,
-    "days_used": 79
+    "n_positions": 15,
+    "effective_positions": 14.1,
+    "gross_exposure": 0.8499,
+    "days_used": 80
   },
   "risk_gate": {
     "passed": true,
