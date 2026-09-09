@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-08T22:07:46.911671+00:00",
+  "generated_at": "2026-09-09T00:29:02.140198+00:00",
   "window": {
-    "from": "2026-08-09",
-    "to": "2026-09-08",
+    "from": "2026-08-10",
+    "to": "2026-09-09",
     "days": 30
   },
   "data_quality": {
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "regulatory",
-      "ai",
-      "earnings"
+      "earnings",
+      "merger",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -34,150 +34,24 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner compro RSG ($59.8M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $59.8M el 2026-09-04.",
+      "title": "10% owner compro QVCG ($11.8M)",
+      "summary": "10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $11.8M el 2026-09-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
+      "actor_name": "GOLDENTREE ASSET MANAGEMENT LP",
       "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
+      "ticker": "QVCG",
       "direction": "buy",
-      "amount_estimated": 59792541.17,
-      "event_date": "2026-09-04",
-      "importance_score": 87.2,
-      "cross_source_score": 0.0,
+      "amount_estimated": 11844000.0,
+      "event_date": "2026-09-03",
+      "importance_score": 85.0,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926105908/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1278951/000149315226041812/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner compro RSG ($57.0M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $57.0M el 2026-09-03.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 56956523.72,
-      "event_date": "2026-09-03",
-      "importance_score": 87.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926105908/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
-      "title": "10% owner compro RSG ($21.5M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $21.5M el 2026-09-04.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 21492784.54,
-      "event_date": "2026-09-04",
-      "importance_score": 85.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926105908/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
-      "title": "10% owner compro GPI ($11.0M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $11.0M el 2026-09-03 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 11042466.05,
-      "event_date": "2026-09-03",
-      "importance_score": 84.8,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "10% owner compro RSG ($17.7M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $17.7M el 2026-09-03.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 17706978.4,
-      "event_date": "2026-09-03",
-      "importance_score": 84.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926105908/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
-      "title": "10% owner compro GPI ($5.8M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $5.8M el 2026-09-04 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 5833311.06,
-      "event_date": "2026-09-04",
-      "importance_score": 83.4,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO vendio CAI ($9.7M)",
-      "summary": "CEO Spetzler David Baxley vendio CAI por $9.7M el 2026-09-03.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Spetzler David Baxley",
-      "actor_type": "ceo",
-      "ticker": "CAI",
-      "direction": "sell",
-      "amount_estimated": 9733313.24,
-      "event_date": "2026-09-03",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2071953/000207195326000007/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
-      "title": "10% owner compro GPI ($4.7M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $4.7M el 2026-09-03 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 4665651.28,
-      "event_date": "2026-09-03",
-      "importance_score": 82.9,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
       "title": "10% owner compro GOLD ($3.9M)",
       "summary": "10% owner Tether Global Investments Fund, S.I.C.A.F., S.A. compro GOLD por $3.9M el 2026-09-03 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -194,8 +68,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2025889/000119312526385264/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO compro INBX ($1.1M)",
       "summary": "CEO Lappe Mark compro INBX por $1.1M el 2026-09-08.",
       "source": "sec_form_4",
@@ -212,80 +86,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1366074/000136607426000002/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "10% owner compro GPI ($3.0M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $3.0M el 2026-09-04 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 2966634.37,
-      "event_date": "2026-09-04",
-      "importance_score": 82.0,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "10% owner compro RSG ($5.1M)",
-      "summary": "10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $5.1M el 2026-09-03.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "RSG",
-      "direction": "buy",
-      "amount_estimated": 5062134.14,
-      "event_date": "2026-09-03",
-      "importance_score": 81.9,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/902012/000110465926105908/"
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "10% owner compro GPI ($2.6M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $2.6M el 2026-09-03 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 2602803.79,
-      "event_date": "2026-09-03",
-      "importance_score": 81.7,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "10% owner compro GPI ($2.5M)",
-      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $2.5M el 2026-09-03 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "GPI",
-      "direction": "buy",
-      "amount_estimated": 2538563.08,
-      "event_date": "2026-09-03",
-      "importance_score": 81.6,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004111/"
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO compro INBX ($665K)",
       "summary": "CEO Lappe Mark compro INBX por $665K el 2026-09-08.",
       "source": "sec_form_4",
@@ -302,8 +104,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1366074/000136607426000002/"
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -320,8 +122,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -338,8 +140,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -356,8 +158,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -374,8 +176,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -390,31 +192,212 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_10",
+      "rank": 10,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "Institutional manager vendio APPLE INC ($26.6B)",
+      "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 26582780886,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "Institutional manager compro APPLE INC ($25.1B)",
+      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
+      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 17242553494,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro INTEL CORP ($16.2B)",
+      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16233929222,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
+      "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "JPMorgan Chase & Co",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16112059718,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
+      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 15145083757,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "GPI",
-        "company": "Group 1 Automotive, Inc.",
-        "pressure_score": 2169.7,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "INBX",
         "company": "Inhibrx Biosciences, Inc.",
         "pressure_score": 627.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RSG",
-        "company": "REPUBLIC SERVICES, INC.",
-        "pressure_score": 581.5,
         "sources": [
           "corporate_insider"
         ]
@@ -428,17 +411,27 @@
         ]
       },
       {
-        "ticker": "JCTC",
-        "company": "JEWETT CAMERON TRADING CO LTD",
-        "pressure_score": 266.3,
+        "ticker": "SUJA",
+        "company": "Suja Life, Inc.",
+        "pressure_score": 310.2,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
-        "ticker": "DXYZ",
-        "company": "Destiny Tech100 Inc.",
-        "pressure_score": 238.2,
+        "ticker": "QVCG",
+        "company": "QVC GROUP INC",
+        "pressure_score": 298.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "JCTC",
+        "company": "JEWETT CAMERON TRADING CO LTD",
+        "pressure_score": 266.3,
         "sources": [
           "corporate_insider"
         ]
@@ -517,6 +510,14 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "SCOR",
+        "company": "COMSCORE, INC.",
+        "pressure_score": 149.1,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -532,14 +533,6 @@
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 615.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MAZE",
-        "company": "Maze Therapeutics, Inc.",
-        "pressure_score": 601.8,
         "sources": [
           "corporate_insider"
         ]
@@ -561,14 +554,6 @@
         ]
       },
       {
-        "ticker": "HSY",
-        "company": "HERSHEY CO",
-        "pressure_score": 504.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "KTCC",
         "company": "KEY TRONIC CORP",
         "pressure_score": 488.1,
@@ -585,20 +570,19 @@
         ]
       },
       {
-        "ticker": "RGLD",
-        "company": "ROYAL GOLD INC",
-        "pressure_score": 367.4,
+        "ticker": "SMCI",
+        "company": "Super Micro Computer, Inc.",
+        "pressure_score": 464.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CATX",
-        "company": "Perspective Therapeutics, Inc.",
-        "pressure_score": 361.4,
+        "ticker": "RGLD",
+        "company": "ROYAL GOLD INC",
+        "pressure_score": 367.4,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -610,9 +594,9 @@
         ]
       },
       {
-        "ticker": "ATEX",
-        "company": "Anterix Inc.",
-        "pressure_score": 344.1,
+        "ticker": "LGND",
+        "company": "LIGAND PHARMACEUTICALS INC",
+        "pressure_score": 335.7,
         "sources": [
           "corporate_insider"
         ]
@@ -626,9 +610,17 @@
         ]
       },
       {
-        "ticker": "MIAX",
-        "company": "MIAMI INTERNATIONAL HOLDINGS, INC.",
-        "pressure_score": 300.1,
+        "ticker": "FIVN",
+        "company": "Five9, Inc.",
+        "pressure_score": 323.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LASR",
+        "company": "NLIGHT, INC.",
+        "pressure_score": 283.7,
         "sources": [
           "corporate_insider"
         ]
@@ -640,72 +632,26 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "ANTX",
+        "company": "AN2 Therapeutics, Inc.",
+        "pressure_score": 257.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
     {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
+      "ticker": "QVCG",
+      "company": "QVC Group, Inc.",
+      "actor": "GOLDENTREE ASSET MANAGEMENT LP",
       "actor_type": "ten_percent_owner",
-      "amount": 59792541.17,
-      "date": "2026-09-04",
-      "score": 87.2
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 56956523.72,
+      "amount": 11844000.0,
       "date": "2026-09-03",
-      "score": 87.1
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 21492784.54,
-      "date": "2026-09-04",
       "score": 85.0
-    },
-    {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 11042466.05,
-      "date": "2026-09-03",
-      "score": 84.8
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 17706978.4,
-      "date": "2026-09-03",
-      "score": 84.6
-    },
-    {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 5833311.06,
-      "date": "2026-09-04",
-      "score": 83.4
-    },
-    {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 4665651.28,
-      "date": "2026-09-03",
-      "score": 82.9
     },
     {
       "ticker": "GOLD",
@@ -726,42 +672,6 @@
       "score": 82.5
     },
     {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 2966634.37,
-      "date": "2026-09-04",
-      "score": 82.0
-    },
-    {
-      "ticker": "RSG",
-      "company": "REPUBLIC SERVICES, INC.",
-      "actor": "CASCADE INVESTMENT, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 5062134.14,
-      "date": "2026-09-03",
-      "score": 81.9
-    },
-    {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 2602803.79,
-      "date": "2026-09-03",
-      "score": 81.7
-    },
-    {
-      "ticker": "GPI",
-      "company": "GROUP 1 AUTOMOTIVE INC",
-      "actor": "Conifer Management, L.L.C.",
-      "actor_type": "ten_percent_owner",
-      "amount": 2538563.08,
-      "date": "2026-09-03",
-      "score": 81.6
-    },
-    {
       "ticker": "INBX",
       "company": "Inhibrx Biosciences, Inc.",
       "actor": "Lappe Mark",
@@ -778,6 +688,96 @@
       "amount": 585342.85,
       "date": "2026-09-08",
       "score": 81.2
+    },
+    {
+      "ticker": "TSN",
+      "company": "TYSON FOODS, INC.",
+      "actor": "Schomburger Jeffrey K",
+      "actor_type": "ceo",
+      "amount": 1001616.65,
+      "date": "2026-09-04",
+      "score": 80.9
+    },
+    {
+      "ticker": "TENX",
+      "company": "TENAX THERAPEUTICS, INC.",
+      "actor": "ADAR1 Capital Management, LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 1604160.0,
+      "date": "2026-09-03",
+      "score": 80.6
+    },
+    {
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1310000.0,
+      "date": "2026-09-04",
+      "score": 80.2
+    },
+    {
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1321250.0,
+      "date": "2026-09-03",
+      "score": 80.2
+    },
+    {
+      "ticker": "SUJA",
+      "company": "SUJA LIFE, INC.",
+      "actor": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "actor_type": "ten_percent_owner",
+      "amount": 495000.0,
+      "date": "2026-09-08",
+      "score": 79.6
+    },
+    {
+      "ticker": "EIKN",
+      "company": "Eikon Therapeutics, Inc.",
+      "actor": "Column Group IV GP, LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 1031044.96,
+      "date": "2026-09-03",
+      "score": 78.4
+    },
+    {
+      "ticker": "CMTG",
+      "company": "Claros Mortgage Trust, Inc.",
+      "actor": "Mack Richard",
+      "actor_type": "ceo",
+      "amount": 318480.0,
+      "date": "2026-09-03",
+      "score": 78.4
+    },
+    {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 136382.33,
+      "date": "2026-09-08",
+      "score": 78.0
+    },
+    {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 117836.29,
+      "date": "2026-09-08",
+      "score": 77.7
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber Technologies, Inc",
+      "actor": "Macdonald Andrew",
+      "actor_type": "insider",
+      "amount": 4109827.5,
+      "date": "2026-09-04",
+      "score": 77.7
     }
   ],
   "institutional_changes": [
@@ -983,6 +983,15 @@
       "date": "2026-09-04"
     },
     {
+      "filer": "Paine Schwartz Food Chain Fund V GP, Ltd.",
+      "company": "Suja Life, Inc.",
+      "ticker": "SUJA",
+      "ownership_pct": 69.3,
+      "shares": 26757565,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-08"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1082,22 +1091,13 @@
       "date": "2026-09-08"
     },
     {
-      "filer": "JATT Ventures III L.P.",
-      "company": "JATT III Acquisition Corp",
-      "ticker": "JTTT",
-      "ownership_pct": 22.1,
-      "shares": 1959000,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-09-03"
-    },
-    {
-      "filer": "Lantheus Omega, LLC",
-      "company": "Radiopharm Theranostics Limited",
-      "ticker": "",
-      "ownership_pct": 20.9,
-      "shares": 792958513,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-09-04"
+      "filer": "Fund 1 Investments, LLC",
+      "company": "TILLY'S, INC.",
+      "ticker": "TLYS",
+      "ownership_pct": 24.9,
+      "shares": 5801933,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-08"
     }
   ],
   "polymarket": {
@@ -1113,30 +1113,41 @@
         ]
       },
       {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 483910.9,
+        "win_rate": 0.8531,
+        "volume": 2405287.62,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe987c520c0",
+        "username": "0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092",
+        "pnl": 52244.57,
+        "win_rate": 0.9849,
+        "volume": 133971.55,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 62409.96,
+        "pnl": 62402.35,
         "win_rate": 0.9198,
-        "volume": 375670.57,
+        "volume": 377253.38,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 159514.03,
-        "win_rate": 0.8551,
-        "volume": 2277530.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x37e4728b3c",
         "username": "SemyonMarmeladov",
-        "pnl": 97480.1,
+        "pnl": 93204.2,
         "win_rate": 0.878,
         "volume": 398277.23,
         "categories": [
@@ -1146,11 +1157,11 @@
         ]
       },
       {
-        "wallet": "0x8c406c3275",
-        "username": "Daemon99",
-        "pnl": 37668.53,
-        "win_rate": 0.9565,
-        "volume": 97612.91,
+        "wallet": "0x52f5efdfb8",
+        "username": "martingaleking",
+        "pnl": 74263.4,
+        "win_rate": 0.8393,
+        "volume": 199990.55,
         "categories": [
           "sports"
         ]
@@ -1158,9 +1169,19 @@
       {
         "wallet": "0x10a6fadcba",
         "username": "rabbitfoot1",
-        "pnl": 74027.42,
+        "pnl": 73567.07,
         "win_rate": 0.815,
         "volume": 366111.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb52e8b3afd",
+        "username": "1l2ihj34li12u34",
+        "pnl": 117114.98,
+        "win_rate": 0.963,
+        "volume": 239882.86,
         "categories": [
           "sports"
         ]
@@ -1177,35 +1198,15 @@
         ]
       },
       {
-        "wallet": "0xb52e8b3afd",
-        "username": "1l2ihj34li12u34",
-        "pnl": 117044.15,
-        "win_rate": 0.9565,
-        "volume": 239882.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2117ae94a9",
         "username": "Zzzz87",
-        "pnl": 125437.68,
-        "win_rate": 0.709,
-        "volume": 322784.05,
+        "pnl": 124426.31,
+        "win_rate": 0.71,
+        "volume": 340069.05,
         "categories": [
           "sports",
           "crypto",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 37309.74,
-        "win_rate": 0.7757,
-        "volume": 87719.3,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1213,7 +1214,7 @@
       {
         "wallet": "0x51698a47f8",
         "username": "00gringo00",
-        "pnl": 684964.78,
+        "pnl": 683444.01,
         "win_rate": 1.0,
         "volume": 3060180.42,
         "categories": [
@@ -1223,9 +1224,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 159514.03,
-        "win_rate": 0.8551,
-        "volume": 2277530.82,
+        "pnl": 483910.9,
+        "win_rate": 0.8531,
+        "volume": 2405287.62,
         "categories": [
           "sports"
         ]
@@ -1233,19 +1234,19 @@
       {
         "wallet": "0x31e5d54ade",
         "username": "Noprajsk",
-        "pnl": 783987.09,
+        "pnl": 768083.03,
         "win_rate": 1.0,
-        "volume": 1515374.83,
+        "volume": 1515674.83,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd3a0b4e941",
-        "username": "0xd3A0b4E941B557D33A8EFd5a51c581e7c79cF136-1787996319116",
-        "pnl": 191180.91,
-        "win_rate": 1.0,
-        "volume": 585809.87,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 112681.89,
+        "win_rate": 0.473,
+        "volume": 1662401.87,
         "categories": [
           "sports"
         ]
@@ -1253,40 +1254,20 @@
       {
         "wallet": "0x78becf0a4e",
         "username": "",
-        "pnl": 324906.83,
+        "pnl": 146889.78,
         "win_rate": 0.5333,
-        "volume": 1408054.49,
+        "volume": 1701188.7,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x9c68e5a4b3",
-        "username": "Antblack",
-        "pnl": 84171.28,
-        "win_rate": 0.5952,
-        "volume": 704661.9,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf1d6444a99",
-        "username": "6d0f571330",
-        "pnl": 103478.17,
+        "wallet": "0xd3a0b4e941",
+        "username": "0xd3A0b4E941B557D33A8EFd5a51c581e7c79cF136-1787996319116",
+        "pnl": 191228.82,
         "win_rate": 1.0,
-        "volume": 302892.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 59224.18,
-        "win_rate": 0.578,
-        "volume": 2051445.13,
+        "volume": 585809.87,
         "categories": [
           "sports"
         ]
@@ -1294,37 +1275,69 @@
       {
         "wallet": "0x5e9458202b",
         "username": "pleaseplease123",
-        "pnl": 123728.23,
+        "pnl": 310374.61,
         "win_rate": 0.4976,
-        "volume": 371519.8,
+        "volume": 834195.11,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x37e4728b3c",
-        "username": "SemyonMarmeladov",
-        "pnl": 97480.1,
-        "win_rate": 0.878,
-        "volume": 398277.23,
+        "wallet": "0x9c68e5a4b3",
+        "username": "Antblack",
+        "pnl": 102965.37,
+        "win_rate": 0.5952,
+        "volume": 773819.1,
         "categories": [
-          "sports",
-          "economy",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf1d6444a99",
+        "username": "6d0f571330",
+        "pnl": 103741.82,
+        "win_rate": 1.0,
+        "volume": 304119.11,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0346afae26",
+        "username": "GoalLineGhost",
+        "pnl": 53943.83,
+        "win_rate": 0.579,
+        "volume": 2193298.41,
+        "categories": [
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Southside Bancshares ( NYSE : SBSI ) versus China Minsheng ( OTCMKTS : CMAKY ) Financial Comparison",
-      "url": "https://www.themarketsdaily.com/2026/09/07/southside-bancshares-nysesbsi-versus-china-minsheng-otcmktscmaky-financial-comparison.html",
-      "ticker": "SBSI",
+      "title": "California Water Service Kicks Off Back - to - School Season With 13th Year of Tap Into Learning Program",
+      "url": "https://www.manilatimes.net/2026/09/09/tmt-newswire/globenewswire/california-water-service-kicks-off-back-to-school-season-with-13th-year-of-tap-into-learning-program/2421111",
+      "ticker": "CWT",
+      "themes": [],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "7 , 985 Shares in Datadog , Inc . $DDOG Acquired by FirstWave Capital Management LLC",
+      "url": "https://www.dailypolitical.com/2026/09/05/7985-shares-in-datadog-inc-ddog-acquired-by-firstwave-capital-management-llc.html",
+      "ticker": "DDOG",
       "themes": [
-        "regulatory",
+        "merger",
         "stock"
       ],
-      "date": "2026-09-07"
+      "date": "2026-09-05"
+    },
+    {
+      "title": "FirstWave Capital Management LLC Invests $2 . 08 Million in Datadog , Inc . $DDOG",
+      "url": "https://www.tickerreport.com/banking-finance/13574194/firstwave-capital-management-llc-invests-2-08-million-in-datadog-inc-ddog.html",
+      "ticker": "DDOG",
+      "themes": [],
+      "date": "2026-09-05"
     },
     {
       "title": "Elastic ( NYSE : ESTC ) CTO Sells $14 , 908 , 334 . 46 in Stock",
@@ -1361,12 +1374,43 @@
       "date": "2026-08-31"
     },
     {
+      "title": "Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review",
+      "url": "https://www.tickerreport.com/banking-finance/13565559/key-tronic-nasdaqktcc-vs-tempo-automation-nasdaqtmpow-critical-review.html",
+      "ticker": "KTCC",
+      "themes": [],
+      "date": "2026-08-30"
+    },
+    {
+      "title": "Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/key-tronic-corp-ktcc-q4-030052153.html",
+      "ticker": "KTCC",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow",
+      "url": "https://www.emsnow.com/key-tronic-corporation-announces-results-for-the-fourth-quarter-and-year-end-of-fiscal-2026/",
+      "ticker": "KTCC",
+      "themes": [],
+      "date": "2026-08-28"
+    },
+    {
       "title": "Elastic ( NYSE : ESTC ) Issues FY 2027 Earnings Guidance",
       "url": "https://www.dailypolitical.com/2026/08/27/elastic-nyseestc-issues-fy-2027-earnings-guidance.html",
       "ticker": "ESTC",
       "themes": [
         "earnings"
       ],
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026",
+      "url": "https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/key-tronic-corporation-announces-results-for-the-fourth-quarter-and-year-end-of-fiscal-2026/2413746",
+      "ticker": "KTCC",
+      "themes": [],
       "date": "2026-08-27"
     },
     {
@@ -1377,7 +1421,7 @@
       "date": "2026-08-26"
     }
   ],
-  "signals_count": 1335,
+  "signals_count": 1285,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
