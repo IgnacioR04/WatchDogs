@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-09T04:57:02+00:00 · ventana señales 2026-08-10 -> 2026-09-09_
+_Generado 2026-09-09T10:02:29+00:00 · ventana señales 2026-08-10 -> 2026-09-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.72)
+- Volatilidad: `normal` (VIX 15.99)
 - Tendencia: `bull` (SPY 765.96 · MA50 757.6 · MA200 710.43 · dist MA200: 7.82%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.41)
@@ -105,8 +105,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 82.2 (-0.01% / -0.01% / 0.55%) [2026-09-08]
 - IEF: 92.16 (-0.1% / -0.27% / -0.29%) [2026-09-08]
 - GLD: 399.72 (-1.73% / -2.13% / -0.7%) [2026-09-08]
-- ^VIX: 15.72 (2.75% / -3.79% / 2.88%) [2026-09-08]
-- BTC-USD: 79174.13 (0.07% / -2.58% / 14.3%) [2026-09-09]
+- ^VIX: 15.99 (1.72% / 5.2% / 9.9%) [2026-09-09]
+- BTC-USD: 78969.63 (0.68% / -0.88% / 8.13%) [2026-09-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -121,20 +121,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), ai (1), regulatory (1)
+**Temas dominantes**: stock (5), regulatory (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Insider Selling : Dell Technologies ( NYSE : DELL ) Director Sells $38 , 215 , 418 . 85 in Stock (2026-09-09)
-- [DELL] Silver Lake Partners Iv , L . P . Sells 75 , 285 Shares of Dell Technologies ( NYSE : DELL ) Stock (2026-09-09)
+- [NET] Analysts Set Cloudflare , Inc . ( NYSE : NET ) Target Price at $320 . 19 (2026-09-09)
 - [NET] Michelle Zatlyn Sells 33 , 003 Shares of Cloudflare ( NYSE : NET ) Stock (2026-09-09)
 - [NET] Cloudflare ( NYSE : NET ) Insider Sells 33 , 003 Shares of Stock (2026-09-09)
 - [NET] Michelle Zatlyn Sells 33 , 003 Shares of Cloudflare ( NYSE : NET ) Stock (2026-09-09)
-- [DELL] Dell vs . HPE : Which Top AI Server Stock Is the Better Buy ? (2026-09-09)
-- [CWT] California Water Service Kicks Off Back - to - School Season With 13th Year of Tap Into Learning Program (2026-09-09)
-- [NET] MazeBolt Integrates with Cloudflare CDN Edge for Continuous DDoS Validation (2026-09-08)
 - [SBSI] Southside Bancshares ( NYSE : SBSI ) versus China Minsheng ( OTCMKTS : CMAKY ) Financial Comparison (2026-09-07)
-- [CWT] Lester Snow Sells 500 Shares of California Water Service Group ( NYSE : CWT ) Stock (2026-09-01)
+- [BTU] Bronstein , Gewirtz & Grossman , LLC Encourages Peabody Energy Corporation ... (2026-08-30)
+- [KTCC] Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review (2026-08-30)
+- [KTCC] Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... (2026-08-29)
+- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow (2026-08-28)
+- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 (2026-08-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -149,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $32,853 · win rate 94% · categorias: sports
-- torta.tech · PnL $23,956 · win rate 95% · categorias: sports
-- jarosbill · PnL $15,952 · win rate 87% · categorias: sports
-- 0xheavy888 · PnL $25,020 · win rate 84% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $8,905 · win rate 91% · categorias: crypto
+- CORGI8 · PnL $52,745 · win rate 92% · categorias: sports
+- SDTrading · PnL $37,318 · win rate 94% · categorias: sports
+- MaciBetting23 · PnL $71,941 · win rate 89% · categorias: sports
+- tyutgbhnm · PnL $102,073 · win rate 86% · categorias: sports
+- torta.tech · PnL $25,863 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
