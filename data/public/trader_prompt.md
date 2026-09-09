@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-09T00:29:52+00:00 -->
+<!-- trader_prompt.md generado 2026-09-09T04:57:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-09T00:29:52+00:00 · ventana señales 2026-08-10 -> 2026-09-09_
+_Generado 2026-09-09T04:57:02+00:00 · ventana señales 2026-08-10 -> 2026-09-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -244,7 +244,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.72)
-- Tendencia: `bull` (SPY 770.19 · MA50 756.86 · MA200 709.87 · dist MA200: 8.5%)
+- Tendencia: `bull` (SPY 765.96 · MA50 757.6 · MA200 710.43 · dist MA200: 7.82%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
@@ -256,32 +256,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 770.19 | -0.39% | 0.11% | -0.4% |
-| QQQ | 12.0% | core | 718.96 | 0.18% | 0.35% | -0.56% |
-| TLT | 12.0% | core | 82.21 | 0.17% | -0.43% | -0.28% |
-| GLD | 9.3% | core | 406.77 | -0.84% | -0.52% | 2.08% |
-| CSQ | 9.2% | satellite | 20.98 | -0.52% | 0.19% | 0.45% |
-| IEF | 6.2% | core | 92.25 | -0.03% | -0.29% | -0.63% |
-| LTH | 4.5% | satellite | 43.23 | 0.32% | -0.64% | -1.32% |
-| WTS | 4.5% | satellite | 363.13 | 2.14% | -0.71% | -7.26% |
-| UBER | 3.9% | satellite | 75.76 | -0.26% | -3.88% | 0.99% |
-| KMT | 3.2% | satellite | 31.02 | 5.4% | 5.01% | -5.77% |
-| GOLD | 2.9% | satellite | 46.13 | 11.21% | 1.27% | 6.02% |
-| INBX | 2.1% | satellite | 121.17 | -0.89% | -1.82% | 36.67% |
-| TXG | 2.0% | satellite | 62.65 | -0.9% | 1.8% | 20.41% |
-| SUJA | 1.2% | satellite | 10.51 | 3.14% | 12.17% | 67.89% |
+| SPY | 12.0% | core | 765.96 | -0.55% | -0.14% | -0.91% |
+| QQQ | 12.0% | core | 718.36 | -0.08% | 0.22% | -0.35% |
+| TLT | 12.0% | core | 82.2 | -0.01% | -0.01% | 0.55% |
+| GLD | 9.3% | core | 399.72 | -1.73% | -2.13% | -0.7% |
+| CSQ | 8.7% | satellite | 20.98 | -0.52% | 0.19% | 0.45% |
+| IEF | 6.2% | core | 92.16 | -0.1% | -0.27% | -0.29% |
+| LTH | 4.3% | satellite | 42.47 | -1.76% | 1.07% | 0.02% |
+| WTS | 4.2% | satellite | 360.98 | -0.59% | -1.13% | -5.86% |
+| UBER | 3.6% | satellite | 73.13 | -3.47% | -3.33% | -6.28% |
+| KMT | 3.5% | satellite | 30.47 | -1.77% | 3.85% | -2.93% |
+| GOLD | 2.8% | satellite | 47.47 | 2.9% | 5.56% | 9.2% |
+| AMR | 2.3% | satellite | 223.74 | -0.74% | -5.07% | 45.47% |
+| INBX | 2.2% | satellite | 114.34 | -5.64% | -9.76% | 22.8% |
+| TXG | 1.9% | satellite | 65.6 | 4.71% | 5.04% | 12.0% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.8%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
+- Volatilidad anualizada: 12.2%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -3.3%
-- Beta vs SPY: 0.778 · posiciones efectivas: 13.8 · HHI: 0.0727
+- Beta vs SPY: 0.795 · posiciones efectivas: 14.0 · HHI: 0.0716
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **INBX** · score agregado 655.0 · 8 señales · fuentes: corporate_insider
-- **SUJA** · score agregado 260.4 · 4 señales · fuentes: corporate_insider, large_holder
+- **AMR** · score agregado 296.3 · 5 señales · fuentes: corporate_insider
 - **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **GOLD** · score agregado 136.7 · 2 señales · fuentes: corporate_insider, large_holder
 - **UBER** · score agregado 124.5 · 2 señales · fuentes: corporate_insider
@@ -316,14 +316,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| PAMT | 59 | corporate_insider | MOROUN MATTHEW T | $31,225,740 | - |
 | NVDA | 58 | corporate_insider | STEVENS MARK A | $54,976,302 | - |
 | NVDA | 58 | corporate_insider | STEVENS MARK A | $45,974,100 | - |
 | NVDA | 58 | corporate_insider | STEVENS MARK A | $45,431,041 | - |
 | NVDA | 58 | corporate_insider | STEVENS MARK A | $45,244,670 | - |
 | NVDA | 57 | corporate_insider | STEVENS MARK A | $42,636,607 | - |
+| NET | 57 | corporate_insider | Zatlyn Michelle | $4,962,814 | - |
 | BNTX | 57 | corporate_insider | Sahin Ugur | $4,628,232 | - |
-| QVCG | 57 | corporate_insider | Silver Point Capital L.P. | $11,844,000 | - |
-| SMCI | 56 | corporate_insider | Liang Charles | $4,000,000 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -332,15 +332,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 770.19 (-0.39% / 0.11% / -0.4%) [2026-09-04]
-- QQQ: 718.96 (0.18% / 0.35% / -0.56%) [2026-09-04]
-- IWM: 296.01 (0.28% / 0.09% / -1.84%) [2026-09-04]
-- DIA: 534.08 (-0.53% / -0.18% / -0.94%) [2026-09-04]
-- TLT: 82.21 (0.17% / -0.43% / -0.28%) [2026-09-04]
-- IEF: 92.25 (-0.03% / -0.29% / -0.63%) [2026-09-04]
-- GLD: 406.77 (-0.84% / -0.52% / 2.08%) [2026-09-04]
+- SPY: 765.96 (-0.55% / -0.14% / -0.91%) [2026-09-08]
+- QQQ: 718.36 (-0.08% / 0.22% / -0.35%) [2026-09-08]
+- IWM: 294.67 (-0.45% / 0.25% / -1.77%) [2026-09-08]
+- DIA: 528.03 (-1.13% / -0.67% / -1.95%) [2026-09-08]
+- TLT: 82.2 (-0.01% / -0.01% / 0.55%) [2026-09-08]
+- IEF: 92.16 (-0.1% / -0.27% / -0.29%) [2026-09-08]
+- GLD: 399.72 (-1.73% / -2.13% / -0.7%) [2026-09-08]
 - ^VIX: 15.72 (2.75% / -3.79% / 2.88%) [2026-09-08]
-- BTC-USD: 78625.66 (-0.62% / -3.26% / 13.51%) [2026-09-09]
+- BTC-USD: 79174.13 (0.07% / -2.58% / 14.3%) [2026-09-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,23 +355,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), earnings (2), merger (1), ai (1)
+**Temas dominantes**: stock (8), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DELL] Insider Selling : Dell Technologies ( NYSE : DELL ) Director Sells $38 , 215 , 418 . 85 in Stock (2026-09-09)
+- [DELL] Silver Lake Partners Iv , L . P . Sells 75 , 285 Shares of Dell Technologies ( NYSE : DELL ) Stock (2026-09-09)
+- [NET] Michelle Zatlyn Sells 33 , 003 Shares of Cloudflare ( NYSE : NET ) Stock (2026-09-09)
+- [NET] Cloudflare ( NYSE : NET ) Insider Sells 33 , 003 Shares of Stock (2026-09-09)
+- [NET] Michelle Zatlyn Sells 33 , 003 Shares of Cloudflare ( NYSE : NET ) Stock (2026-09-09)
+- [DELL] Dell vs . HPE : Which Top AI Server Stock Is the Better Buy ? (2026-09-09)
 - [CWT] California Water Service Kicks Off Back - to - School Season With 13th Year of Tap Into Learning Program (2026-09-09)
-- [DDOG] 7 , 985 Shares in Datadog , Inc . $DDOG Acquired by FirstWave Capital Management LLC (2026-09-05)
-- [DDOG] FirstWave Capital Management LLC Invests $2 . 08 Million in Datadog , Inc . $DDOG (2026-09-05)
-- [ESTC] Elastic ( NYSE : ESTC ) CTO Sells $14 , 908 , 334 . 46 in Stock (2026-09-03)
+- [NET] MazeBolt Integrates with Cloudflare CDN Edge for Continuous DDoS Validation (2026-09-08)
+- [SBSI] Southside Bancshares ( NYSE : SBSI ) versus China Minsheng ( OTCMKTS : CMAKY ) Financial Comparison (2026-09-07)
 - [CWT] Lester Snow Sells 500 Shares of California Water Service Group ( NYSE : CWT ) Stock (2026-09-01)
-- [ESTC] Elastic ( ESTC ) Finally Delivered After Years of Head - Fakes and Wall Street Still Cant Agree It Lasts (2026-09-01)
-- [ESTC] Elastic ( NYSE : ESTC ) Price Target Raised to $105 . 00 (2026-08-31)
-- [KTCC] Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review (2026-08-30)
-- [KTCC] Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... (2026-08-29)
-- [KTCC] Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow (2026-08-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner MOROUN MATTHEW T compro PAMT por $31.2M el 2026-09-03 [senal en multiples fuentes].
 - 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $11.8M el 2026-09-03 [senal en multiples fuentes].
 - 10% owner Tether Global Investments Fund, S.I.C.A.F., S.A. compro GOLD por $3.9M el 2026-09-03 [senal en multiples fuentes].
 - CEO Lappe Mark compro INBX por $1.1M el 2026-09-08.
@@ -379,15 +380,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $95,203 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $483,911 · win rate 85% · categorias: sports
-- 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $52,245 · win rate 98% · categorias: sports, crypto
-- TAIWANNUMBERONE · PnL $62,402 · win rate 92% · categorias: sports, politics
-- SemyonMarmeladov · PnL $93,204 · win rate 88% · categorias: sports, economy, politics
+- SDTrading · PnL $32,853 · win rate 94% · categorias: sports
+- torta.tech · PnL $23,956 · win rate 95% · categorias: sports
+- jarosbill · PnL $15,952 · win rate 87% · categorias: sports
+- 0xheavy888 · PnL $25,020 · win rate 84% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $8,905 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,7 +395,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 535 registros 30d · ultimo dato 2026-09-08
+- **sec_insiders**: `ok` · 746 registros 30d · ultimo dato 2026-09-08
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-08
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -409,7 +409,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CSQ, GLD, GOLD, IEF, INBX, KMT, LTH, QQQ, SPY, SUJA, TLT, TXG, UBER, WTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMR, CSQ, GLD, GOLD, IEF, INBX, KMT, LTH, QQQ, SPY, TLT, TXG, UBER, WTS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
