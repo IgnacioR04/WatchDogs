@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-09T14:52:42.130170+00:00",
+  "generated_at": "2026-09-09T18:49:46.275405+00:00",
   "window": {
     "from": "2026-08-10",
     "to": "2026-09-09",
@@ -23,8 +23,10 @@
   },
   "market_context": {
     "top_themes": [
+      "ai",
+      "stock",
       "regulatory",
-      "stock"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -68,42 +70,24 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO compro INBX ($1.1M)",
-      "summary": "CEO Lappe Mark compro INBX por $1.1M el 2026-09-08.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lappe Mark",
-      "actor_type": "ceo",
-      "ticker": "INBX",
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
+      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
       "direction": "buy",
-      "amount_estimated": 1087001.07,
-      "event_date": "2026-09-08",
-      "importance_score": 82.5,
+      "amount_estimated": 40145783473,
+      "event_date": "",
+      "importance_score": 81.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1366074/000136607426000002/"
+      "source_url": ""
     },
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO compro INBX ($665K)",
-      "summary": "CEO Lappe Mark compro INBX por $665K el 2026-09-08.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Lappe Mark",
-      "actor_type": "ceo",
-      "ticker": "INBX",
-      "direction": "buy",
-      "amount_estimated": 664719.27,
-      "event_date": "2026-09-08",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1366074/000136607426000002/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -120,8 +104,8 @@
       "source_url": ""
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -138,8 +122,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -156,8 +140,44 @@
       "source_url": ""
     },
     {
+      "id": "move_7",
+      "rank": 7,
+      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
+      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
       "id": "move_8",
       "rank": 8,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -174,8 +194,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -192,8 +212,26 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
+      "title": "Institutional manager compro APPLE INC ($25.1B)",
+      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -210,8 +248,44 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -228,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($16.2B)",
       "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
       "source": "sec_13f",
@@ -246,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
       "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
       "source": "sec_13f",
@@ -264,8 +338,26 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro BROADCOM INC ($15.1B)",
+      "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 15145083757,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($14.9B)",
       "summary": "Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.",
       "source": "sec_13f",
@@ -282,107 +374,17 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
-      "title": "Institutional manager vendio META PLATFORMS INC ($13.7B)",
-      "summary": "Institutional manager JPMorgan Chase & Co vendio META PLATFORMS INC por $13.7B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "JPMorgan Chase & Co",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 13690426249,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "Institutional manager vendio ELI LILLY & CO ($13.2B)",
-      "summary": "Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Geode Capital Management LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 13206289732,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "Institutional manager vendio JPMORGAN CHASE & CO ($12.9B)",
-      "summary": "Institutional manager Geode Capital Management LLC vendio JPMORGAN CHASE & CO por $12.9B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Geode Capital Management LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12915101952,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "Institutional manager vendio AMAZON COM INC ($12.9B)",
-      "summary": "Institutional manager Invesco Ltd vendio AMAZON COM INC por $12.9B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12906601047,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager vendio ROBINHOOD MKTS INC ($12.5B)",
-      "summary": "Institutional manager Vanguard Group Inc vendio ROBINHOOD MKTS INC por $12.5B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "sell",
-      "amount_estimated": 12478004415,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
       "id": "move_20",
       "rank": 20,
-      "title": "Institutional manager compro APPLIED MATLS INC ($12.4B)",
-      "summary": "Institutional manager Invesco Ltd compro APPLIED MATLS INC por $12.4B.",
+      "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
+      "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
       "source": "sec_13f",
       "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
+      "actor_name": "State Street Corp",
       "actor_type": "top_institutional_manager",
       "ticker": "",
       "direction": "buy",
-      "amount_estimated": 12431373292,
+      "amount_estimated": 14828033296,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -401,17 +403,9 @@
         ]
       },
       {
-        "ticker": "INBX",
-        "company": "Inhibrx Biosciences, Inc.",
-        "pressure_score": 627.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GPUS",
-        "company": "Hyperscale Data, Inc.",
-        "pressure_score": 505.1,
+        "ticker": "BWFG",
+        "company": "Bankwell Financial Group, Inc.",
+        "pressure_score": 784.1,
         "sources": [
           "corporate_insider"
         ]
@@ -431,14 +425,6 @@
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "BWFG",
-        "company": "Bankwell Financial Group, Inc.",
-        "pressure_score": 274.6,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -514,17 +500,25 @@
         "sources": [
           "corporate_insider"
         ]
-      }
-    ],
-    "sell_pressure": [
+      },
       {
-        "ticker": "SNDK",
-        "company": "Sandisk Corp",
-        "pressure_score": 2388.5,
+        "ticker": "DGICA",
+        "company": "DONEGAL GROUP INC",
+        "pressure_score": 150.1,
         "sources": [
           "corporate_insider"
         ]
       },
+      {
+        "ticker": "SCOR",
+        "company": "COMSCORE, INC.",
+        "pressure_score": 149.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      }
+    ],
+    "sell_pressure": [
       {
         "ticker": "CBRS",
         "company": "Cerebras Systems Inc.",
@@ -574,22 +568,6 @@
         ]
       },
       {
-        "ticker": "SMCI",
-        "company": "Super Micro Computer, Inc.",
-        "pressure_score": 464.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RGLD",
-        "company": "ROYAL GOLD INC",
-        "pressure_score": 367.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "OSCR",
         "company": "Oscar Health, Inc.",
         "pressure_score": 356.5,
@@ -614,9 +592,25 @@
         ]
       },
       {
+        "ticker": "ZIM",
+        "company": "ZIM Integrated Shipping Services Ltd.",
+        "pressure_score": 332.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FIVN",
         "company": "Five9, Inc.",
         "pressure_score": 323.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 305.2,
         "sources": [
           "corporate_insider"
         ]
@@ -630,9 +624,17 @@
         ]
       },
       {
-        "ticker": "LMND",
-        "company": "Lemonade, Inc.",
-        "pressure_score": 271.1,
+        "ticker": "ECAT",
+        "company": "BlackRock ESG Capital Allocation Term Trust",
+        "pressure_score": 229.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DOCU",
+        "company": "DOCUSIGN, INC.",
+        "pressure_score": 227.6,
         "sources": [
           "corporate_insider"
         ]
@@ -659,33 +661,6 @@
       "score": 85.0
     },
     {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Lappe Mark",
-      "actor_type": "ceo",
-      "amount": 1087001.07,
-      "date": "2026-09-08",
-      "score": 82.5
-    },
-    {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Lappe Mark",
-      "actor_type": "ceo",
-      "amount": 664719.27,
-      "date": "2026-09-08",
-      "score": 81.5
-    },
-    {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Lappe Mark",
-      "actor_type": "ceo",
-      "amount": 585342.85,
-      "date": "2026-09-08",
-      "score": 81.2
-    },
-    {
       "ticker": "TSN",
       "company": "TYSON FOODS, INC.",
       "actor": "Schomburger Jeffrey K",
@@ -704,24 +679,6 @@
       "score": 80.6
     },
     {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Lappe Mark",
-      "actor_type": "ceo",
-      "amount": 136382.33,
-      "date": "2026-09-08",
-      "score": 78.0
-    },
-    {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Lappe Mark",
-      "actor_type": "ceo",
-      "amount": 117836.29,
-      "date": "2026-09-08",
-      "score": 77.7
-    },
-    {
       "ticker": "UBER",
       "company": "Uber Technologies, Inc",
       "actor": "Macdonald Andrew",
@@ -738,15 +695,6 @@
       "amount": 1033956.0,
       "date": "2026-09-08",
       "score": 77.4
-    },
-    {
-      "ticker": "PDYN",
-      "company": "Palladyne AI Corp.",
-      "actor": "Wolff Benjamin G",
-      "actor_type": "ceo",
-      "amount": 99128.88,
-      "date": "2026-09-08",
-      "score": 77.3
     },
     {
       "ticker": "AMR",
@@ -774,9 +722,72 @@
       "amount": 621631.37,
       "date": "2026-09-08",
       "score": 76.3
+    },
+    {
+      "ticker": "DGICA",
+      "company": "DONEGAL GROUP INC",
+      "actor": "DONEGAL MUTUAL INSURANCE CO",
+      "actor_type": "ten_percent_owner",
+      "amount": 191358.0,
+      "date": "2026-09-08",
+      "score": 76.3
+    },
+    {
+      "ticker": "AMR",
+      "company": "Alpha Metallurgical Resources, Inc.",
+      "actor": "Courtis Kenneth S.",
+      "actor_type": "director",
+      "amount": 474967.89,
+      "date": "2026-09-08",
+      "score": 75.7
+    },
+    {
+      "ticker": "SCOR",
+      "company": "COMSCORE, INC.",
+      "actor": "McLaughlin Matthew F.",
+      "actor_type": "ceo",
+      "amount": 84162.98,
+      "date": "2026-09-04",
+      "score": 75.5
+    },
+    {
+      "ticker": "BWFG",
+      "company": "Bankwell Financial Group, Inc.",
+      "actor": "SEIDMAN LAWRENCE B",
+      "actor_type": "ten_percent_owner",
+      "amount": 130895.52,
+      "date": "2026-09-08",
+      "score": 75.4
+    },
+    {
+      "ticker": "AMR",
+      "company": "Alpha Metallurgical Resources, Inc.",
+      "actor": "Courtis Kenneth S.",
+      "actor_type": "director",
+      "amount": 413450.95,
+      "date": "2026-09-08",
+      "score": 75.4
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber Technologies, Inc",
+      "actor": "Macdonald Andrew",
+      "actor_type": "insider",
+      "amount": 1198236.19,
+      "date": "2026-09-04",
+      "score": 75.0
     }
   ],
   "institutional_changes": [
+    {
+      "manager": "State Street Corp",
+      "asset": "MICRON TECHNOLOGY INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 40145783473,
+      "change_pct": 2.2737,
+      "quarter": "2026Q2"
+    },
     {
       "manager": "Vanguard Group Inc",
       "asset": "ALPHABET INC",
@@ -805,6 +816,24 @@
       "quarter": "2026Q2"
     },
     {
+      "manager": "State Street Corp",
+      "asset": "NVIDIA CORPORATION",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 28704244679,
+      "change_pct": 0.1656,
+      "quarter": "2026Q2"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "ADVANCED MICRO DEVICES INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 27986738310,
+      "change_pct": 1.8399,
+      "quarter": "2026Q2"
+    },
+    {
       "manager": "Vanguard Group Inc",
       "asset": "ALPHABET INC",
       "ticker": "",
@@ -823,6 +852,15 @@
       "quarter": "2026Q2"
     },
     {
+      "manager": "State Street Corp",
+      "asset": "APPLE INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 25125770065,
+      "change_pct": 0.1644,
+      "quarter": "2026Q2"
+    },
+    {
       "manager": "Vanguard Group Inc",
       "asset": "ELI LILLY & CO",
       "ticker": "",
@@ -830,6 +868,24 @@
       "change_usd": 23585331061,
       "change_pct": 0.4221,
       "quarter": "2025Q4"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "INTEL CORP",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 20820733596,
+      "change_pct": 2.2014,
+      "quarter": "2026Q2"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "ALPHABET INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 20340227051,
+      "change_pct": 0.3126,
+      "quarter": "2026Q2"
     },
     {
       "manager": "Invesco Ltd",
@@ -859,6 +915,15 @@
       "quarter": "2026Q2"
     },
     {
+      "manager": "State Street Corp",
+      "asset": "BROADCOM INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 15145083757,
+      "change_pct": 0.2557,
+      "quarter": "2026Q2"
+    },
+    {
       "manager": "Citadel Advisors LLC",
       "asset": "MICRON TECHNOLOGY INC",
       "ticker": "",
@@ -868,93 +933,30 @@
       "quarter": "2026Q2"
     },
     {
+      "manager": "State Street Corp",
+      "asset": "APPLIED MATLS INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 14828033296,
+      "change_pct": 1.1567,
+      "quarter": "2026Q2"
+    },
+    {
+      "manager": "State Street Corp",
+      "asset": "ALPHABET INC",
+      "ticker": "",
+      "direction": "increased",
+      "change_usd": 14184846003,
+      "change_pct": 0.2663,
+      "quarter": "2026Q2"
+    },
+    {
       "manager": "JPMorgan Chase & Co",
       "asset": "META PLATFORMS INC",
       "ticker": "",
       "direction": "decreased",
       "change_usd": -13690426249,
       "change_pct": -0.8076,
-      "quarter": "2026Q2"
-    },
-    {
-      "manager": "Geode Capital Management LLC",
-      "asset": "ELI LILLY & CO",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -13206289732,
-      "change_pct": -0.8137,
-      "quarter": "2026Q2"
-    },
-    {
-      "manager": "Geode Capital Management LLC",
-      "asset": "JPMORGAN CHASE & CO",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -12915101952,
-      "change_pct": -0.818,
-      "quarter": "2026Q2"
-    },
-    {
-      "manager": "Invesco Ltd",
-      "asset": "AMAZON COM INC",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -12906601047,
-      "change_pct": -0.7593,
-      "quarter": "2026Q2"
-    },
-    {
-      "manager": "Vanguard Group Inc",
-      "asset": "ROBINHOOD MKTS INC",
-      "ticker": "",
-      "direction": "exited",
-      "change_usd": -12478004415,
-      "change_pct": -1.0,
-      "quarter": "2025Q4"
-    },
-    {
-      "manager": "Invesco Ltd",
-      "asset": "APPLIED MATLS INC",
-      "ticker": "",
-      "direction": "increased",
-      "change_usd": 12431373292,
-      "change_pct": 2.1837,
-      "quarter": "2026Q2"
-    },
-    {
-      "manager": "Vanguard Group Inc",
-      "asset": "NEWMONT CORP",
-      "ticker": "",
-      "direction": "new",
-      "change_usd": 12307921184,
-      "change_pct": null,
-      "quarter": "2025Q4"
-    },
-    {
-      "manager": "Vanguard Group Inc",
-      "asset": "CAPITAL ONE FINL CORP",
-      "ticker": "",
-      "direction": "new",
-      "change_usd": 12266872781,
-      "change_pct": null,
-      "quarter": "2025Q4"
-    },
-    {
-      "manager": "Vanguard Group Inc",
-      "asset": "ORACLE CORP",
-      "ticker": "",
-      "direction": "decreased",
-      "change_usd": -12231430056,
-      "change_pct": -0.2844,
-      "quarter": "2025Q4"
-    },
-    {
-      "manager": "JPMorgan Chase & Co",
-      "asset": "ADVANCED MICRO DEVICES INC",
-      "ticker": "",
-      "direction": "increased",
-      "change_usd": 11712362632,
-      "change_pct": 3.7835,
       "quarter": "2026Q2"
     }
   ],
@@ -1004,6 +1006,15 @@
       "shares": 26757565,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-08"
+    },
+    {
+      "filer": "Franklin Templeton, Inc.",
+      "company": "CLARION PARTNERS REAL ESTATE INCOME FUND INC.",
+      "ticker": "",
+      "ownership_pct": 68.2,
+      "shares": 93329,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-09"
     },
     {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
@@ -1085,25 +1096,16 @@
       "shares": 17285425,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-09-04"
-    },
-    {
-      "filer": "Colden Investments S.A.",
-      "company": "GeoPark Limited",
-      "ticker": "GPRK",
-      "ownership_pct": 27.6,
-      "shares": 17915791,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-04"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
         "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 54026.61,
-        "win_rate": 0.9585,
-        "volume": 721025.59,
+        "username": "mmklop",
+        "pnl": 95536.84,
+        "win_rate": 0.9587,
+        "volume": 905368.92,
         "categories": [
           "sports"
         ]
@@ -1111,9 +1113,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 37763.04,
+        "pnl": 39052.46,
         "win_rate": 0.939,
-        "volume": 122808.05,
+        "volume": 142272.49,
         "categories": [
           "sports"
         ]
@@ -1129,31 +1131,21 @@
         ]
       },
       {
-        "wallet": "0x5ad7346a9f",
-        "username": "tyutgbhnm",
-        "pnl": 102299.0,
-        "win_rate": 0.8654,
-        "volume": 176716.2,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x79ae097215",
         "username": "CORGI8",
-        "pnl": 43168.78,
-        "win_rate": 0.9204,
-        "volume": 289942.69,
+        "pnl": 47171.84,
+        "win_rate": 0.9207,
+        "volume": 332478.14,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xfb07f48542",
-        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 28472.63,
-        "win_rate": 0.946,
-        "volume": 93719.32,
+        "wallet": "0x5ad7346a9f",
+        "username": "tyutgbhnm",
+        "pnl": 102364.0,
+        "win_rate": 0.8654,
+        "volume": 176716.2,
         "categories": [
           "sports"
         ]
@@ -1163,7 +1155,17 @@
         "username": "torta.tech",
         "pnl": 25862.88,
         "win_rate": 0.951,
-        "volume": 42987.37,
+        "volume": 42974.17,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 80898.83,
+        "win_rate": 0.9474,
+        "volume": 828273.67,
         "categories": [
           "sports"
         ]
@@ -1171,9 +1173,9 @@
       {
         "wallet": "0xe954ddb021",
         "username": "kingflop",
-        "pnl": 30102.28,
-        "win_rate": 0.9015,
-        "volume": 56707.56,
+        "pnl": 25775.12,
+        "win_rate": 0.9017,
+        "volume": 90113.95,
         "categories": [
           "sports"
         ]
@@ -1181,9 +1183,9 @@
       {
         "wallet": "0x21f333307a",
         "username": "hi774c",
-        "pnl": 41004.12,
+        "pnl": 46041.9,
         "win_rate": 0.855,
-        "volume": 66131.83,
+        "volume": 126407.67,
         "categories": [
           "sports"
         ]
@@ -1191,8 +1193,8 @@
       {
         "wallet": "0x55a1f55fb0",
         "username": "vjnn",
-        "pnl": 38366.44,
-        "win_rate": 0.8409,
+        "pnl": 47466.44,
+        "win_rate": 0.8427,
         "volume": 126000.6,
         "categories": [
           "sports"
@@ -1200,6 +1202,26 @@
       }
     ],
     "whales": [
+      {
+        "wallet": "0x0f6f76ced6",
+        "username": "totoro3miyazaki",
+        "pnl": 470802.11,
+        "win_rate": 1.0,
+        "volume": 2823553.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x31e5d54ade",
+        "username": "Noprajsk",
+        "pnl": 205302.62,
+        "win_rate": 0.6471,
+        "volume": 1763512.5,
+        "categories": [
+          "sports"
+        ]
+      },
       {
         "wallet": "0xc2e7800b5a",
         "username": "beachboy4",
@@ -1213,19 +1235,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 146326.42,
-        "win_rate": 0.563,
-        "volume": 3942901.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x31e5d54ade",
-        "username": "Noprajsk",
-        "pnl": 91794.56,
-        "win_rate": 0.6154,
-        "volume": 668765.66,
+        "pnl": 102663.63,
+        "win_rate": 0.565,
+        "volume": 5174591.28,
         "categories": [
           "sports"
         ]
@@ -1233,9 +1245,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 359963.03,
-        "win_rate": 0.298,
-        "volume": 1115773.93,
+        "pnl": 342162.61,
+        "win_rate": 0.297,
+        "volume": 1953961.35,
         "categories": [
           "sports",
           "crypto",
@@ -1243,31 +1255,11 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 22368.4,
-        "win_rate": 0.574,
-        "volume": 2825507.95,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 43934.87,
-        "win_rate": 0.561,
-        "volume": 1671300.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "ExplosiveNinja",
-        "pnl": 54026.61,
-        "win_rate": 0.9585,
-        "volume": 721025.59,
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 80898.83,
+        "win_rate": 0.9474,
+        "volume": 828273.67,
         "categories": [
           "sports"
         ]
@@ -1275,30 +1267,40 @@
       {
         "wallet": "0x709e8dcb13",
         "username": "0xd4aa6f8e91cfea29b66a48ebff52814",
-        "pnl": 255659.7,
-        "win_rate": 0.4921,
-        "volume": 332025.58,
+        "pnl": 213339.27,
+        "win_rate": 0.491,
+        "volume": 661043.55,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x18aa8876fb",
-        "username": "aaaallcarzz",
-        "pnl": 150254.22,
-        "win_rate": 1.0,
-        "volume": 227961.52,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 35054.63,
+        "win_rate": 0.563,
+        "volume": 2167734.09,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "nigiri99",
-        "pnl": 289491.5,
-        "win_rate": 0.439,
-        "volume": 912976.18,
+        "wallet": "0x73e3fec494",
+        "username": "mmklop",
+        "pnl": 95536.84,
+        "win_rate": 0.9587,
+        "volume": 905368.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0a39b3b29a",
+        "username": "plonker2026",
+        "pnl": 79133.73,
+        "win_rate": 0.7925,
+        "volume": 585747.5,
         "categories": [
           "sports"
         ]
@@ -1306,6 +1308,43 @@
     ]
   },
   "news": [
+    {
+      "title": "TSMC market share edges higher - Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/10/2003863979",
+      "ticker": "TSM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "TSMC to use ASML next - gen machines for high - volume chip manufacturing",
+      "url": "https://www.abc15.com/news/business/tsmc-to-use-asmls-next-gen-machines-for-high-volume-chip-manufacturing",
+      "ticker": "TSM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Carl Porto Buys 327 Shares of Bankwell Financial Group ( NASDAQ : BWFG ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13578309/carl-porto-buys-327-shares-of-bankwell-financial-group-nasdaqbwfg-stock.html",
+      "ticker": "BWFG",
+      "themes": [
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Cidel Asset Management Inc . Grows Position in Taiwan Semiconductor Manufacturing Company Ltd . $TSM",
+      "url": "https://www.themarketsdaily.com/2026/09/09/cidel-asset-management-inc-grows-position-in-taiwan-semiconductor-manufacturing-company-ltd-tsm.html",
+      "ticker": "TSM",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-09"
+    },
     {
       "title": "Southside Bancshares ( NYSE : SBSI ) versus China Minsheng ( OTCMKTS : CMAKY ) Financial Comparison",
       "url": "https://www.themarketsdaily.com/2026/09/07/southside-bancshares-nysesbsi-versus-china-minsheng-otcmktscmaky-financial-comparison.html",
@@ -1315,9 +1354,40 @@
         "stock"
       ],
       "date": "2026-09-07"
+    },
+    {
+      "title": "Key Tronic ( NASDAQ : KTCC ) vs . Tempo Automation ( NASDAQ : TMPOW ) Critical Review",
+      "url": "https://www.tickerreport.com/banking-finance/13565559/key-tronic-nasdaqktcc-vs-tempo-automation-nasdaqtmpow-critical-review.html",
+      "ticker": "KTCC",
+      "themes": [],
+      "date": "2026-08-30"
+    },
+    {
+      "title": "Key Tronic Corp ( KTCC ) ( Q4 2026 ) Earnings Call Highlights : Revenue Surges 14 % Sequentially , ... ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/key-tronic-corp-ktcc-q4-030052153.html",
+      "ticker": "KTCC",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026 · EMSNow",
+      "url": "https://www.emsnow.com/key-tronic-corporation-announces-results-for-the-fourth-quarter-and-year-end-of-fiscal-2026/",
+      "ticker": "KTCC",
+      "themes": [],
+      "date": "2026-08-28"
+    },
+    {
+      "title": "Key Tronic Corporation Announces Results for the Fourth Quarter and Year End of Fiscal 2026",
+      "url": "https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/key-tronic-corporation-announces-results-for-the-fourth-quarter-and-year-end-of-fiscal-2026/2413746",
+      "ticker": "KTCC",
+      "themes": [],
+      "date": "2026-08-27"
     }
   ],
-  "signals_count": 1349,
+  "signals_count": 1299,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
