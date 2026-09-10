@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-09T21:58:38+00:00 · ventana señales 2026-08-10 -> 2026-09-09_
+_Generado 2026-09-10T00:29:30+00:00 · ventana señales 2026-08-11 -> 2026-09-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -10,7 +10,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 16.46)
-- Tendencia: `bull` (SPY 762.4 · MA50 758.02 · MA200 710.95 · dist MA200: 7.24%)
+- Tendencia: `bull` (SPY 765.96 · MA50 757.6 · MA200 710.43 · dist MA200: 7.82%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `flat` (curva 10y-2y 0.4)
 - Fed Funds: 3.63%
@@ -22,41 +22,41 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 762.4 | -0.46% | 0.08% | -1.06% |
-| QQQ | 12.0% | core | 716.31 | -0.29% | 1.23% | -0.3% |
-| TLT | 12.0% | core | 81.73 | -0.57% | -0.17% | -0.18% |
-| GLD | 9.3% | core | 403.35 | 0.91% | 1.66% | 0.6% |
-| CSQ | 9.0% | satellite | 20.85 | -0.62% | 0.58% | 0.5% |
-| IEF | 6.2% | core | 91.89 | -0.29% | -0.22% | -0.69% |
-| DGICA | 5.9% | satellite | 19.0 | 0.0% | -0.89% | 1.71% |
-| BWFG | 5.3% | satellite | 66.71 | 0.83% | 1.91% | -1.88% |
-| UBER | 3.3% | satellite | 71.08 | -2.8% | -5.53% | -9.5% |
-| ZBIO | 2.4% | satellite | 32.29 | -2.3% | 0.97% | -0.46% |
-| TENB | 1.7% | satellite | 33.67 | -0.09% | -5.07% | -11.02% |
-| LEU | 1.7% | satellite | 181.49 | -2.18% | 7.83% | -4.07% |
-| EAF | 1.4% | satellite | 6.17 | -2.06% | -13.22% | -22.0% |
-| TWST | 1.4% | satellite | 125.52 | -1.98% | -4.95% | 1.95% |
-| SEI | 1.4% | satellite | 67.67 | 5.8% | 36.32% | 15.1% |
+| SPY | 12.0% | core | 765.96 | -0.55% | -0.14% | -0.91% |
+| QQQ | 12.0% | core | 718.36 | -0.08% | 0.22% | -0.35% |
+| TLT | 12.0% | core | 82.2 | -0.01% | -0.01% | 0.55% |
+| CSQ | 10.3% | satellite | 20.85 | -0.62% | 0.58% | 0.5% |
+| GLD | 9.3% | core | 399.72 | -1.73% | -2.13% | -0.7% |
+| IEF | 6.2% | core | 92.16 | -0.1% | -0.27% | -0.29% |
+| BWFG | 6.1% | satellite | 66.16 | -1.83% | 0.64% | -1.0% |
+| DT | 3.2% | satellite | 50.29 | -3.1% | -7.88% | -0.55% |
+| EVLV | 3.2% | satellite | 5.07 | 1.4% | -2.69% | -13.48% |
+| GOLD | 2.7% | satellite | 47.47 | 2.9% | 5.56% | 9.2% |
+| WDAY | 2.1% | satellite | 186.28 | -4.86% | -5.66% | 1.13% |
+| SLGL | 2.0% | satellite | 69.37 | -0.22% | 0.39% | -18.14% |
+| SEI | 1.6% | satellite | 63.96 | 16.29% | 25.98% | 9.15% |
+| SMTC | 1.5% | satellite | 162.62 | 9.96% | 22.31% | 23.88% |
+| MFP | 0.9% | satellite | 42.91 | -5.09% | -8.47% | -4.26% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.9%
+- Volatilidad anualizada: 10.6%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.3%
-- Beta vs SPY: 0.706 · posiciones efectivas: 13.7 · HHI: 0.073
+- Max drawdown historico: -2.5%
+- Beta vs SPY: 0.744 · posiciones efectivas: 13.5 · HHI: 0.0742
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **BWFG** · score agregado 459.8 · 6 señales · fuentes: corporate_insider
+- **SLGL** · score agregado 293.3 · 5 señales · fuentes: corporate_insider
 - **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **ZBIO** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **TWST** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **EAF** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **LEU** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **TENB** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **UBER** · score agregado 124.5 · 2 señales · fuentes: corporate_insider
-- **DGICA** · score agregado 118.9 · 2 señales · fuentes: corporate_insider
+- **EVLV** · score agregado 164.4 · 3 señales · fuentes: corporate_insider
 - **SEI** · score agregado 117.0 · 2 señales · fuentes: corporate_insider
+- **BWFG** · score agregado 74.3 · 1 señales · fuentes: corporate_insider
+- **DT** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **MFP** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **SMTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **WDAY** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **GOLD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -64,34 +64,34 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| BWFG | 79 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $130,896 | cluster_buy |
-| BWFG | 78 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $87,264 | cluster_buy |
-| BWFG | 76 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $34,144 | cluster_buy |
-| BWFG | 76 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $34,474 | cluster_buy |
-| BWFG | 76 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $28,922 | cluster_buy |
-| TSM | 76 | corporate_insider | Wei Che-Chia | 30 | $11,354 | cluster_buy,small_amount |
-| BWFG | 75 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $18,955 | cluster_buy,small_amount |
-| BWFG | 75 | corporate_insider | SEIDMAN LAWRENCE B | 5 | $17,851 | cluster_buy,small_amount |
-| BWFG | 74 | corporate_insider | Dale Eric J | 5 | $35,568 | cluster_buy |
-| BWFG | 73 | corporate_insider | Porto Carl M | 5 | $21,945 | cluster_buy,small_amount |
-| BWFG | 73 | corporate_insider | Dunne Jeffrey R | 5 | $17,516 | cluster_buy,small_amount |
+| PRTS | 83 | corporate_insider | Meniane David | 3 | $353,239 | cluster_buy |
+| PRTS | 82 | corporate_insider | Meniane David | 3 | $203,288 | cluster_buy |
+| PRTS | 82 | corporate_insider | Meniane David | 3 | $192,713 | cluster_buy |
+| PRTS | 78 | corporate_insider | Huffaker Michael | 3 | $352,631 | cluster_buy |
+| PRTS | 77 | corporate_insider | Huffaker Michael | 3 | $203,063 | cluster_buy |
+| PRTS | 77 | corporate_insider | Huffaker Michael | 3 | $192,768 | cluster_buy |
+| TSM | 76 | corporate_insider | Wei Che-Chia | 20 | $11,354 | cluster_buy,small_amount |
+| PRTS | 76 | corporate_insider | PHELPS BARRY | 3 | $64,152 | cluster_buy |
+| BWFG | 74 | corporate_insider | Dale Eric J | 4 | $35,568 | cluster_buy |
+| BWFG | 73 | corporate_insider | Porto Carl M | 4 | $21,945 | cluster_buy,small_amount |
+| BWFG | 73 | corporate_insider | Dunne Jeffrey R | 4 | $17,516 | cluster_buy,small_amount |
+| DT | 72 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
 | MFP | 72 | large_holder | T. Rowe Price Associates, |  | - | - |
-| SUI | 72 | large_holder | BlackRock, Inc. |  | - | - |
+| MAC | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | SMTC | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| TSM | 71 | corporate_insider | Huang Jen-Chau | 30 | $2,286 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| BNTX | 57 | corporate_insider | Sahin Ugur | $4,628,232 | - |
-| BNTX | 56 | corporate_insider | Sahin Ugur | $3,260,823 | - |
-| ECAT | 53 | corporate_insider | Saba Capital Management,  | $2,555,739 | - |
-| RLAY | 53 | corporate_insider | Patel Sanjiv | $912,889 | - |
-| UTHR | 53 | corporate_insider | ROTHBLATT MARTINE A | $947,531 | - |
-| PLPC | 53 | corporate_insider | RUHLMAN RANDALL M | $2,038,900 | - |
-| AFL | 52 | corporate_insider | Japan Post Holdings Co.,  | $1,744,281 | - |
-| IVZ | 52 | corporate_insider | DUKES LAURA ALLISON | $1,030,537 | - |
+| SBRA | 56 | corporate_insider | MATROS RICHARD K | $4,166,000 | - |
+| BNTX | 56 | corporate_insider | Sahin Ugur | $3,670,518 | - |
+| BNTX | 56 | corporate_insider | Sahin Ugur | $3,520,145 | - |
+| VG | 56 | corporate_insider | Larson Keith D | $28,692,319 | - |
+| SNOW | 56 | corporate_insider | GARRETT MARK | $17,500,000 | - |
+| DELL | 55 | corporate_insider | Saavedra Jennifer D. | $13,130,520 | - |
+| BLTE | 55 | corporate_insider | Lin Yu-Hsin | $2,117,909 | - |
+| SNOW | 55 | corporate_insider | Speiser Michael L | $12,033,383 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -100,15 +100,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 762.4 (-0.46% / 0.08% / -1.06%) [2026-09-09]
-- QQQ: 716.31 (-0.29% / 1.23% / -0.3%) [2026-09-09]
-- IWM: 290.64 (-1.37% / 0.02% / -3.44%) [2026-09-09]
-- DIA: 524.07 (-0.75% / -0.7% / -2.38%) [2026-09-09]
-- TLT: 81.73 (-0.57% / -0.17% / -0.18%) [2026-09-09]
-- IEF: 91.89 (-0.29% / -0.22% / -0.69%) [2026-09-09]
-- GLD: 403.35 (0.91% / 1.66% / 0.6%) [2026-09-09]
+- SPY: 765.96 (-0.55% / -0.14% / -0.91%) [2026-09-08]
+- QQQ: 718.36 (-0.08% / 0.22% / -0.35%) [2026-09-08]
+- IWM: 294.67 (-0.45% / 0.25% / -1.77%) [2026-09-08]
+- DIA: 528.03 (-1.13% / -0.67% / -1.95%) [2026-09-08]
+- TLT: 82.2 (-0.01% / -0.01% / 0.55%) [2026-09-08]
+- IEF: 92.16 (-0.1% / -0.27% / -0.29%) [2026-09-08]
+- GLD: 399.72 (-1.73% / -2.13% / -0.7%) [2026-09-08]
 - ^VIX: 16.46 (4.71% / 8.29% / 13.13%) [2026-09-09]
-- BTC-USD: 78091.85 (-0.44% / -1.98% / 6.93%) [2026-09-09]
+- BTC-USD: 78275.78 (-0.21% / -1.75% / 7.18%) [2026-09-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,24 +123,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), regulatory (3), stock (2)
+**Temas dominantes**: stock (5), ai (2), earnings (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TSM] TSMC market share edges higher - Taipei Times (2026-09-09)
-- [TSM] TSMC to use ASML next - gen machines for high - volume chip manufacturing (2026-09-09)
-- [BWFG] Carl Porto Buys 327 Shares of Bankwell Financial Group ( NASDAQ : BWFG ) Stock (2026-09-09)
-- [TSM] Cidel Asset Management Inc . Grows Position in Taiwan Semiconductor Manufacturing Company Ltd . $TSM (2026-09-09)
-- [SBSI] Southside Bancshares ( NYSE : SBSI ) versus China Minsheng ( OTCMKTS : CMAKY ) Financial Comparison (2026-09-07)
-- [UTHR] Reviewing United Therapeutics ( NASDAQ : UTHR ) and Zenas BioPharma ( NASDAQ : ZBIO ) (2026-09-07)
-- [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
+- [DT] VIRGINIA RETIREMENT SYSTEMS ET Al Takes Position in Dynatrace , Inc . $DT (2026-09-09)
+- [DT] Dynatrace , Inc . $DT Stock Holdings Lowered by Keenan Capital LLC (2026-09-09)
+- [PEGA] UiPath and Pegasystems Sink 7 % as Price Target Hikes Arrive Without a Single Buy Rating (2026-09-08)
+- [PEGA] Wellington Management Group LLP Sells 1 , 738 , 630 Shares of Pegasystems Inc . $PEGA (2026-09-05)
+- [DT] Dynatrace Stock Rapidly Approaches Buy Point After Earnings Gap - Up (2026-09-04)
+- [PEGA] Could Pegasystems ( PEGA ) Stock Win as Enterprises Rethink How they Deploy AI ? (2026-08-30)
+- [PEGA] Coforge - Pega deal sends stock surging 3 . 4 % as IT partnership deepens (2026-08-28)
+- [PEGA] INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Pegasystems Inc . (2026-08-27)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO RESSLER RICHARD S compro CIM GROUP, INC. por $2.7M el 2026-09-04.
 - CEO Barry John F compro PSEC por $2.7M el 2026-09-04.
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- CEO Meeks Danny compro GWAV por $8.0M el 2026-08-27.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
@@ -149,11 +149,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $433,449 · win rate 95% · categorias: sports
-- mmklop · PnL $111,877 · win rate 96% · categorias: sports
-- Di88medes · PnL $78,733 · win rate 100% · categorias: sports
-- CORGI8 · PnL $58,927 · win rate 92% · categorias: sports
-- gransaaa · PnL $101,677 · win rate 88% · categorias: sports
+- R88N · PnL $70,230 · win rate 99% · categorias: sports
+- Diabolical-Prize · PnL $433,902 · win rate 95% · categorias: sports
+- mmklop · PnL $110,990 · win rate 96% · categorias: sports
+- SDTrading · PnL $76,298 · win rate 94% · categorias: sports
+- Di88medes · PnL $92,146 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -161,7 +161,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 430 registros 30d · ultimo dato 2026-09-09
+- **sec_insiders**: `ok` · 739 registros 30d · ultimo dato 2026-09-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-09
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -175,7 +175,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CSQ, DGICA, EAF, GLD, IEF, LEU, QQQ, SEI, SPY, TENB, TLT, TWST, UBER, ZBIO`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BWFG, CSQ, DT, EVLV, GLD, GOLD, IEF, MFP, QQQ, SEI, SLGL, SMTC, SPY, TLT, WDAY`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

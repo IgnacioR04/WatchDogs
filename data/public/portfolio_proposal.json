@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-09T21:58:37+00:00",
+  "generated_at": "2026-09-10T00:29:28+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "CSQ": 0.1026,
     "GLD": 0.0933,
-    "CSQ": 0.0901,
     "IEF": 0.0622,
-    "DGICA": 0.0593,
-    "BWFG": 0.0535,
-    "UBER": 0.0327,
-    "ZBIO": 0.0235,
-    "TENB": 0.0173,
-    "LEU": 0.0169,
-    "EAF": 0.0138,
-    "TWST": 0.0137,
-    "SEI": 0.0137
+    "BWFG": 0.0611,
+    "DT": 0.0325,
+    "EVLV": 0.0318,
+    "GOLD": 0.0268,
+    "WDAY": 0.0209,
+    "SLGL": 0.0199,
+    "SEI": 0.0156,
+    "SMTC": 0.0147,
+    "MFP": 0.0085
   },
   "core": {
     "SPY": 0.1934,
@@ -29,25 +29,25 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BWFG": 0.0476,
-    "CSQ": 0.0801,
-    "ZBIO": 0.0209,
-    "TWST": 0.0122,
-    "EAF": 0.0123,
-    "LEU": 0.015,
-    "TENB": 0.0154,
-    "UBER": 0.0291,
-    "DGICA": 0.0527,
-    "SEI": 0.0122
+    "SLGL": 0.0177,
+    "CSQ": 0.0912,
+    "EVLV": 0.0283,
+    "SEI": 0.0139,
+    "BWFG": 0.0543,
+    "DT": 0.0289,
+    "MFP": 0.0076,
+    "SMTC": 0.0131,
+    "WDAY": 0.0186,
+    "GOLD": 0.0238
   },
   "satellite_rationale": [
     {
-      "ticker": "BWFG",
-      "score": 459.8,
+      "ticker": "SLGL",
+      "score": 293.3,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 6
+      "n_signals": 5
     },
     {
       "ticker": "CSQ",
@@ -58,60 +58,12 @@
       "n_signals": 3
     },
     {
-      "ticker": "ZBIO",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "TWST",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "EAF",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "LEU",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "TENB",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "UBER",
-      "score": 124.5,
+      "ticker": "EVLV",
+      "score": 164.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "DGICA",
-      "score": 118.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
       "ticker": "SEI",
@@ -120,19 +72,67 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "BWFG",
+      "score": 74.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "DT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "MFP",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "SMTC",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "WDAY",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "GOLD",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.099,
-    "var_95_1d": 0.0092,
-    "cvar_95_1d": 0.0103,
-    "max_drawdown": -0.0226,
-    "beta_spy": 0.706,
-    "hhi": 0.073,
+    "ann_vol": 0.1056,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.0102,
+    "max_drawdown": -0.025,
+    "beta_spy": 0.744,
+    "hhi": 0.0742,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 13.7,
-    "gross_exposure": 0.85,
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8499,
     "days_used": 50
   },
   "risk_gate": {
