@@ -1,23 +1,22 @@
 {
-  "generated_at": "2026-09-10T18:44:27+00:00",
+  "generated_at": "2026-09-10T21:54:26+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.7,
-  "cash": 0.3,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
-    "CSQ": 0.0849,
+    "CSQ": 0.0804,
     "GLD": 0.0731,
-    "BWFG": 0.0586,
+    "RSG": 0.062,
     "IEF": 0.0488,
-    "DT": 0.0276,
-    "GOLD": 0.0255,
-    "WDAY": 0.0198,
-    "SLGL": 0.0189,
-    "SEI": 0.0162,
-    "ALMS": 0.0114
+    "BLFS": 0.0316,
+    "DT": 0.0289,
+    "GOLD": 0.0245,
+    "PRGO": 0.0202,
+    "TWST": 0.0152
   },
   "core": {
     "SPY": 0.1592,
@@ -27,31 +26,23 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "SLGL": 0.0176,
-    "ALMS": 0.0106,
-    "CSQ": 0.0792,
-    "SEI": 0.0151,
-    "BWFG": 0.0546,
-    "DT": 0.0257,
-    "WDAY": 0.0185,
-    "GOLD": 0.0238
+    "RSG": 0.0578,
+    "CSQ": 0.075,
+    "TWST": 0.0142,
+    "DT": 0.0269,
+    "BLFS": 0.0295,
+    "PRGO": 0.0188,
+    "GOLD": 0.0228
   },
   "satellite_rationale": [
     {
-      "ticker": "SLGL",
-      "score": 293.3,
+      "ticker": "RSG",
+      "score": 488.9,
       "sources": [
-        "corporate_insider"
+        "corporate_insider",
+        "large_holder"
       ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "ALMS",
-      "score": 254.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
+      "n_signals": 7
     },
     {
       "ticker": "CSQ",
@@ -62,20 +53,12 @@
       "n_signals": 3
     },
     {
-      "ticker": "SEI",
-      "score": 117.0,
+      "ticker": "TWST",
+      "score": 143.6,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
-    },
-    {
-      "ticker": "BWFG",
-      "score": 74.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     },
     {
       "ticker": "DT",
@@ -86,7 +69,15 @@
       "n_signals": 1
     },
     {
-      "ticker": "WDAY",
+      "ticker": "BLFS",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "PRGO",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -103,17 +94,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0933,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0116,
-    "max_drawdown": -0.0264,
-    "beta_spy": 0.63,
-    "hhi": 0.0544,
+    "ann_vol": 0.0895,
+    "var_95_1d": 0.0088,
+    "cvar_95_1d": 0.011,
+    "max_drawdown": -0.0245,
+    "beta_spy": 0.551,
+    "hhi": 0.0546,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 18.4,
-    "gross_exposure": 0.7,
-    "days_used": 85
+    "n_positions": 12,
+    "effective_positions": 18.3,
+    "gross_exposure": 0.6999,
+    "days_used": 76
   },
   "risk_gate": {
     "passed": true,
