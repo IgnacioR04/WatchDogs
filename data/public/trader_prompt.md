@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-10T05:02:04+00:00 -->
+<!-- trader_prompt.md generado 2026-09-10T09:58:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-10T05:02:04+00:00 · ventana señales 2026-08-11 -> 2026-09-10_
+_Generado 2026-09-10T09:57:59+00:00 · ventana señales 2026-08-11 -> 2026-09-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.46)
+- Volatilidad: `normal` (VIX 16.59)
 - Tendencia: `bull` (SPY 762.4 · MA50 758.02 · MA200 710.95 · dist MA200: 7.24%)
 - Credito: `tight` (HY spread 2.67)
 - Tipos: `flat` (curva 10y-2y 0.4)
@@ -339,8 +339,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.73 (-0.57% / -0.17% / -0.18%) [2026-09-09]
 - IEF: 91.9 (-0.28% / -0.22% / -0.69%) [2026-09-09]
 - GLD: 403.35 (0.91% / 1.66% / 0.6%) [2026-09-09]
-- ^VIX: 16.46 (4.71% / 8.29% / 13.13%) [2026-09-09]
-- BTC-USD: 78368.63 (-0.09% / -1.64% / 7.31%) [2026-09-10]
+- ^VIX: 16.59 (0.79% / 15.85% / 13.4%) [2026-09-10]
+- BTC-USD: 77926.19 (-0.43% / -2.38% / -0.52%) [2026-09-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,16 +355,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), leadership (1), regulatory (1)
+**Temas dominantes**: stock (9), earnings (2), leadership (1), ai (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DELL] Is Dell Making Money Where You Think It Is ? (2026-09-10)
+- [FIVE] Five Floors Above the Dosa Queue :  Aditya Kilachand and the making of a new Indian luxury (2026-09-10)
+- [DELL] Michael Dell overtakes Jeff Bezos to become the world third - richest person Check their net worth (2026-09-10)
+- [PEGA] Pegasystems Inc . ( NASDAQ : PEGA ) Receives $50 . 10 Consensus PT from Brokerages (2026-09-10)
+- [DELL] Silver Lake Partners Iv , L . P . Sells 54 , 734 Shares of Dell Technologies ( NYSE : DELL ) Stock (2026-09-10)
+- [DELL] Insider Selling : Dell Technologies ( NYSE : DELL ) Director Sells 54 , 734 Shares (2026-09-10)
 - [BLTE] Belite Bio ( NASDAQ : BLTE ) CFO Hao - Yuan Chuang Sells 17 , 962 Shares (2026-09-10)
 - [BLTE] Belite Bio ( NASDAQ : BLTE ) CEO Sells 26 , 000 Shares of Stock (2026-09-10)
-- [UTHR] Reviewing United Therapeutics ( NASDAQ : UTHR ) and Zenas BioPharma ( NASDAQ : ZBIO ) (2026-09-07)
-- [UTHR] Former Anheuser - Busch plant sold to United Therapeutics (2026-09-03)
-- [UTHR] Anheuser - Busch plant in Merrimack sold to United Therapeutics for $47 . 5M (2026-09-02)
-- [UTHR] United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF (2026-09-02)
+- [FIVE] Five Below ( FIVE ) Q2 2027 Earnings Call Transcript (2026-09-09)
+- [FIVE] Five Below vs . Dollar Tree : Same 5 Must - Haves , 55 % Cheaper This Month (2026-09-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,10 +384,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $185,347 · win rate 100% · categorias: sports
-- Kch-Temp · PnL $155,386 · win rate 88% · categorias: sports
-- BreakTheBank · PnL $121,653 · win rate 85% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $41,147 · win rate 91% · categorias: sports, crypto, politics
-- pltrkr111 · PnL $12,108 · win rate 98% · categorias: sports
+- Kch-Temp · PnL $155,656 · win rate 89% · categorias: sports
+- mmklop · PnL $42,209 · win rate 96% · categorias: sports
+- lllllllIlll · PnL $35,665 · win rate 94% · categorias: sports
+- Diabolical-Prize · PnL $59,231 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
