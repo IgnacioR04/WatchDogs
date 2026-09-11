@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-10T21:54:26+00:00 · ventana señales 2026-08-11 -> 2026-09-10_
+_Generado 2026-09-11T00:27:07+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,49 +8,49 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 17.84)
-- Tendencia: `neutral` (SPY 757.83 · MA50 758.25 · MA200 711.5 · dist MA200: 6.51%)
+- Tendencia: `bull` (SPY 762.4 · MA50 758.02 · MA200 710.95 · dist MA200: 7.24%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
-- Motivos: credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 757.83 | -0.6% | -0.96% | -1.9% |
-| QQQ | 9.8% | core | 708.69 | -1.06% | -0.08% | -2.07% |
-| TLT | 9.8% | core | 80.78 | -1.16% | -1.43% | -1.24% |
-| CSQ | 8.0% | satellite | 20.6 | -1.2% | -1.39% | -0.66% |
-| GLD | 7.3% | core | 396.36 | -1.73% | -1.59% | -2.11% |
-| RSG | 6.2% | satellite | 221.08 | -0.62% | -0.65% | 3.18% |
-| IEF | 4.9% | core | 91.18 | -0.78% | -1.08% | -1.56% |
-| BLFS | 3.2% | satellite | 34.92 | -0.03% | -2.78% | -0.14% |
-| DT | 2.9% | satellite | 51.42 | 1.62% | 1.08% | 3.75% |
-| GOLD | 2.5% | satellite | 45.88 | -6.99% | 4.7% | 2.69% |
-| PRGO | 2.0% | satellite | 13.59 | -5.23% | -6.21% | 9.3% |
-| TWST | 1.5% | satellite | 126.85 | 1.06% | -3.17% | 1.31% |
+| SPY | 12.0% | core | 762.4 | -0.46% | 0.08% | -1.06% |
+| QQQ | 12.0% | core | 716.31 | -0.29% | 1.23% | -0.3% |
+| TLT | 12.0% | core | 81.73 | -0.57% | -0.17% | -0.18% |
+| CSQ | 10.2% | satellite | 20.6 | -1.2% | -1.39% | -0.66% |
+| GLD | 9.3% | core | 403.35 | 0.91% | 1.66% | 0.6% |
+| RSG | 7.9% | satellite | 222.47 | 0.38% | -0.37% | 3.44% |
+| IEF | 6.2% | core | 91.9 | -0.28% | -0.22% | -0.69% |
+| BLFS | 4.0% | satellite | 34.93 | -1.27% | -1.52% | 0.32% |
+| GOLD | 3.5% | satellite | 49.33 | 3.92% | 14.3% | 13.56% |
+| PRGO | 2.9% | satellite | 14.34 | -1.65% | -0.62% | 13.89% |
+| UPST | 2.8% | satellite | 25.89 | -4.04% | -5.48% | -13.38% |
+| TWST | 2.1% | satellite | 125.52 | -1.98% | -4.95% | 1.95% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.551 · posiciones efectivas: 18.3 · HHI: 0.0546
+- Volatilidad anualizada: 12.0%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -3.3%
+- Beta vs SPY: 0.751 · posiciones efectivas: 12.9 · HHI: 0.0774
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **RSG** · score agregado 488.9 · 7 señales · fuentes: corporate_insider, large_holder
 - **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **TWST** · score agregado 143.6 · 2 señales · fuentes: large_holder
-- **DT** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BLFS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PRGO** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **GOLD** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **UPST** · score agregado 66.0 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -58,18 +58,18 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| CYBN | 78 | corporate_insider | Glavine Paul | 2 | $1,178,280 | cluster_buy |
 | GRCE | 78 | corporate_insider | Kohli Prashant | 2 | $214,000 | cluster_buy |
-| CYBN | 78 | corporate_insider | So Eric H. L. | 2 | $1,208,900 | cluster_buy |
+| PRTS | 77 | corporate_insider | Meniane David | 2 | $133,295 | cluster_buy |
 | RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $55,425,001 | - |
+| PRTS | 72 | corporate_insider | Huffaker Michael | 2 | $133,295 | cluster_buy |
 | RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $47,226,807 | - |
 | ZDGE | 72 | large_holder | Michael Jonas |  | - | - |
 | MGX | 72 | large_holder | Thomas Brian C. |  | - | - |
-| DT | 72 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
 | BLFS | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
-| TFX | 72 | large_holder | JANUS HENDERSON GROUP Ltd |  | - | - |
 | TWST | 72 | large_holder | ARK Investment Management |  | - | - |
 | TWST | 72 | large_holder | FMR LLC |  | - | - |
+| QVCG | 72 | large_holder | Barclays PLC |  | - | - |
+| QVCG | 72 | large_holder | Barclays PLC |  | - | - |
 | PRGO | 72 | large_holder | T. Rowe Price Associates, |  | - | - |
 | SIG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | GRCE | 71 | corporate_insider | Opaleye Management Inc. | 2 | $19,699 | cluster_buy,small_amount |
@@ -78,14 +78,14 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| QVCG | 58 | corporate_insider | Silver Point Capital L.P. | $26,000,000 | - |
 | LRCX | 58 | corporate_insider | ARCHER TIMOTHY | $9,577,800 | - |
+| SITM | 58 | corporate_insider | VASHIST RAJESH | $7,241,640 | - |
+| CRWV | 57 | corporate_insider | Intrator Michael N | $5,725,979 | - |
 | DDOG | 57 | corporate_insider | Pomel Olivier | $5,063,681 | - |
 | VST | 56 | corporate_insider | HUDSON SCOTT A | $4,377,228 | - |
+| LASR | 56 | corporate_insider | Keeney Scott H | $4,101,000 | - |
 | DDOG | 56 | corporate_insider | Pomel Olivier | $4,002,735 | - |
-| BNTX | 56 | corporate_insider | Sahin Ugur | $3,670,518 | - |
-| BNTX | 56 | corporate_insider | Sahin Ugur | $3,520,145 | - |
-| DDOG | 56 | corporate_insider | Pomel Olivier | $2,958,937 | - |
-| DCI | 56 | corporate_insider | Carpenter Tod E. | $2,912,285 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -94,15 +94,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 757.83 (-0.6% / -0.96% / -1.9%) [2026-09-10]
-- QQQ: 708.69 (-1.06% / -0.08% / -2.07%) [2026-09-10]
-- IWM: 287.7 (-1.01% / -2.15% / -4.96%) [2026-09-10]
-- DIA: 520.75 (-0.63% / -1.86% / -2.97%) [2026-09-10]
-- TLT: 80.78 (-1.16% / -1.43% / -1.24%) [2026-09-10]
-- IEF: 91.18 (-0.78% / -1.08% / -1.56%) [2026-09-10]
-- GLD: 396.36 (-1.73% / -1.59% / -2.11%) [2026-09-10]
+- SPY: 762.4 (-0.46% / 0.08% / -1.06%) [2026-09-09]
+- QQQ: 716.31 (-0.29% / 1.23% / -0.3%) [2026-09-09]
+- IWM: 290.64 (-1.37% / 0.02% / -3.44%) [2026-09-09]
+- DIA: 524.07 (-0.75% / -0.7% / -2.38%) [2026-09-09]
+- TLT: 81.73 (-0.57% / -0.17% / -0.18%) [2026-09-09]
+- IEF: 91.9 (-0.28% / -0.22% / -0.69%) [2026-09-09]
+- GLD: 403.35 (0.91% / 1.66% / 0.6%) [2026-09-09]
 - ^VIX: 17.84 (8.38% / 24.58% / 21.94%) [2026-09-10]
-- BTC-USD: 77124.37 (-1.45% / -3.38% / -1.55%) [2026-09-10]
+- BTC-USD: 76809.0 (-1.85% / -3.78% / -1.95%) [2026-09-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,37 +117,37 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), merger (1), earnings (1)
+**Temas dominantes**: ai (4), regulatory (3), stock (2), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ADI] Analog Devices Wants Robots to Think Without Nvidia | Is ADI the Next Big AI Stock ? (2026-09-10)
-- [ADI] Analog Devices ( NASDAQ : ADI ) CFO Richard Puccio , Jr . Sells 1 , 500 Shares (2026-09-10)
-- [ADI] Analog Devices acquisition Alif Semiconductor : Analog Devices to buy Alif Semiconductor for $1 . 35 billion (2026-09-10)
-- [FROG] Head to Head Survey : JFrog ( NASDAQ : FROG ) & Blackbaud ( NASDAQ : BLKB ) (2026-09-10)
-- [FROG] Analysts see upside in JFrog , despite slide from peak (2026-09-09)
-- [FROG] Investment Analyst Weekly Ratings Updates for JFrog ( FROG ) (2026-09-09)
-- [FROG] JFrog CFO Sells 17 , 216 Shares for $1 . 6 Million Amid a Soaring Stock Price (2026-09-06)
-- [LIFE] Ethos ( LIFE ) Grows Revenue 113 % While Margins Quietly Compress (2026-09-04)
+- [DELL] Dell Technologies ( NYSE : DELL ) Shares Down 5 . 3 % Following Insider Selling (2026-09-10)
+- [DELL] Royal Bank Of Canada Initiates Coverage on Dell Technologies ( NYSE : DELL ) (2026-09-10)
+- [CRWV] CoreWeave ( NASDAQ : CRWV ) Trading Up 11 . 7 % – Here Why (2026-09-10)
+- [DELL] Dell ( DELL ) Reports $60 . 9B of AI Server Orders and a $95B Backlog . Can the Demand Surge Produce Durable Cash Flow ? (2026-09-10)
+- [DELL] Dell AI Server Orders Reached $61 Billion in the Second Quarter , and the Pipeline Keeps Growing (2026-09-10)
+- [DELL] Dell AI Server Orders Reached $61 Billion in the Second Quarter , and the Pipeline Keeps Growing (2026-09-10)
+- [AXON] Covington will get AI , tasers and a drone from Axon , but not license plate readers (2026-09-09)
+- [ACMR] Financial Analysis : ACM Research ( NASDAQ : ACMR ) vs . Ascent Solar Technologies ( NASDAQ : ASTI ) (2026-09-02)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $47.2M el 2026-09-09 [senal en multiples fuentes].
 - 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $55.4M el 2026-09-08 [senal en multiples fuentes].
 - CEO KHOSROWSHAHI DARA compro UBER por $10.0M el 2026-09-10.
+- 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $26.0M el 2026-09-08 [senal en multiples fuentes].
 - CEO ARCHER TIMOTHY vendio LRCX por $9.6M el 2026-09-09.
+- CEO Gu Paul compro UPST por $1.3M el 2026-09-10.
+- CEO VASHIST RAJESH vendio SITM por $7.2M el 2026-09-09.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $185,347 · win rate 100% · categorias: sports
-- Diabolical-Prize · PnL $407,859 · win rate 94% · categorias: sports
+- Diabolical-Prize · PnL $408,398 · win rate 94% · categorias: sports
 - mmklop · PnL $72,795 · win rate 96% · categorias: sports
-- Kch-Temp · PnL $156,467 · win rate 89% · categorias: sports
-- CORGI8 · PnL $73,487 · win rate 92% · categorias: sports
+- Kch-Temp · PnL $156,283 · win rate 89% · categorias: sports
+- CORGI8 · PnL $73,067 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +155,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 574 registros 30d · ultimo dato 2026-09-10
+- **sec_insiders**: `ok` · 757 registros 30d · ultimo dato 2026-09-10
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-10
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -169,8 +169,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, DT, GLD, GOLD, IEF, PRGO, QQQ, RSG, SPY, TLT, TWST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, GLD, GOLD, IEF, PRGO, QQQ, RSG, SPY, TLT, TWST, UPST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
