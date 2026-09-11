@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-11T00:27:07+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
+_Generado 2026-09-11T04:51:57+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,48 +8,44 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 17.84)
-- Tendencia: `bull` (SPY 762.4 · MA50 758.02 · MA200 710.95 · dist MA200: 7.24%)
+- Tendencia: `neutral` (SPY 757.83 · MA50 758.25 · MA200 711.5 · dist MA200: 6.51%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
+- Motivos: credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 762.4 | -0.46% | 0.08% | -1.06% |
-| QQQ | 12.0% | core | 716.31 | -0.29% | 1.23% | -0.3% |
-| TLT | 12.0% | core | 81.73 | -0.57% | -0.17% | -0.18% |
-| CSQ | 10.2% | satellite | 20.6 | -1.2% | -1.39% | -0.66% |
-| GLD | 9.3% | core | 403.35 | 0.91% | 1.66% | 0.6% |
-| RSG | 7.9% | satellite | 222.47 | 0.38% | -0.37% | 3.44% |
-| IEF | 6.2% | core | 91.9 | -0.28% | -0.22% | -0.69% |
-| BLFS | 4.0% | satellite | 34.93 | -1.27% | -1.52% | 0.32% |
-| GOLD | 3.5% | satellite | 49.33 | 3.92% | 14.3% | 13.56% |
-| PRGO | 2.9% | satellite | 14.34 | -1.65% | -0.62% | 13.89% |
-| UPST | 2.8% | satellite | 25.89 | -4.04% | -5.48% | -13.38% |
-| TWST | 2.1% | satellite | 125.52 | -1.98% | -4.95% | 1.95% |
+| SPY | 12.0% | core | 757.83 | -0.6% | -0.96% | -1.9% |
+| CSQ | 12.0% | satellite | 20.6 | -1.2% | -1.39% | -0.66% |
+| QQQ | 9.8% | core | 708.69 | -1.06% | -0.08% | -2.07% |
+| TLT | 9.8% | core | 80.78 | -1.16% | -1.43% | -1.24% |
+| GLD | 7.3% | core | 396.36 | -1.73% | -1.59% | -2.11% |
+| IEF | 4.9% | core | 91.18 | -0.78% | -1.08% | -1.56% |
+| BLFS | 4.8% | satellite | 34.92 | -0.03% | -2.78% | -0.14% |
+| PRGO | 3.5% | satellite | 13.59 | -5.23% | -6.21% | 9.3% |
+| UPST | 3.4% | satellite | 25.1 | -3.05% | -10.9% | -13.75% |
+| TWST | 2.5% | satellite | 126.85 | 1.06% | -3.17% | 1.31% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.0%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -3.3%
-- Beta vs SPY: 0.751 · posiciones efectivas: 12.9 · HHI: 0.0774
+- Volatilidad anualizada: 11.8%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -3.1%
+- Beta vs SPY: 0.762 · posiciones efectivas: 16.4 · HHI: 0.0611
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **RSG** · score agregado 488.9 · 7 señales · fuentes: corporate_insider, large_holder
 - **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **TWST** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **BLFS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PRGO** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **GOLD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **UPST** · score agregado 66.0 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
@@ -60,9 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | GRCE | 78 | corporate_insider | Kohli Prashant | 2 | $214,000 | cluster_buy |
 | PRTS | 77 | corporate_insider | Meniane David | 2 | $133,295 | cluster_buy |
-| RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $55,425,001 | - |
 | PRTS | 72 | corporate_insider | Huffaker Michael | 2 | $133,295 | cluster_buy |
-| RSG | 72 | corporate_insider | CASCADE INVESTMENT, L.L.C | 0 | $47,226,807 | - |
 | ZDGE | 72 | large_holder | Michael Jonas |  | - | - |
 | MGX | 72 | large_holder | Thomas Brian C. |  | - | - |
 | BLFS | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
@@ -73,6 +67,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | PRGO | 72 | large_holder | T. Rowe Price Associates, |  | - | - |
 | SIG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | GRCE | 71 | corporate_insider | Opaleye Management Inc. | 2 | $19,699 | cluster_buy,small_amount |
+| QVCG | 71 | corporate_insider | GOLDENTREE ASSET MANAGEME | 0 | $26,000,000 | - |
+| UBER | 70 | corporate_insider | KHOSROWSHAHI DARA | 0 | $10,005,952 | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -94,15 +90,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 762.4 (-0.46% / 0.08% / -1.06%) [2026-09-09]
-- QQQ: 716.31 (-0.29% / 1.23% / -0.3%) [2026-09-09]
-- IWM: 290.64 (-1.37% / 0.02% / -3.44%) [2026-09-09]
-- DIA: 524.07 (-0.75% / -0.7% / -2.38%) [2026-09-09]
-- TLT: 81.73 (-0.57% / -0.17% / -0.18%) [2026-09-09]
-- IEF: 91.9 (-0.28% / -0.22% / -0.69%) [2026-09-09]
-- GLD: 403.35 (0.91% / 1.66% / 0.6%) [2026-09-09]
+- SPY: 757.83 (-0.6% / -0.96% / -1.9%) [2026-09-10]
+- QQQ: 708.69 (-1.06% / -0.08% / -2.07%) [2026-09-10]
+- IWM: 287.7 (-1.01% / -2.15% / -4.96%) [2026-09-10]
+- DIA: 520.75 (-0.63% / -1.86% / -2.97%) [2026-09-10]
+- TLT: 80.78 (-1.16% / -1.43% / -1.24%) [2026-09-10]
+- IEF: 91.18 (-0.78% / -1.08% / -1.56%) [2026-09-10]
+- GLD: 396.36 (-1.73% / -1.59% / -2.11%) [2026-09-10]
 - ^VIX: 17.84 (8.38% / 24.58% / 21.94%) [2026-09-10]
-- BTC-USD: 76809.0 (-1.85% / -3.78% / -1.95%) [2026-09-11]
+- BTC-USD: 77099.81 (-1.48% / -3.41% / -1.58%) [2026-09-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,37 +113,36 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (4), regulatory (3), stock (2), earnings (2)
+**Temas dominantes**: stock (4), ai (3), earnings (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell Technologies ( NYSE : DELL ) Shares Down 5 . 3 % Following Insider Selling (2026-09-10)
-- [DELL] Royal Bank Of Canada Initiates Coverage on Dell Technologies ( NYSE : DELL ) (2026-09-10)
+- [CRCL] Insider Selling : Circle Internet Group ( NYSE : CRCL ) CEO Sells 56 , 200 Shares of Stock (2026-09-10)
 - [CRWV] CoreWeave ( NASDAQ : CRWV ) Trading Up 11 . 7 % – Here Why (2026-09-10)
-- [DELL] Dell ( DELL ) Reports $60 . 9B of AI Server Orders and a $95B Backlog . Can the Demand Surge Produce Durable Cash Flow ? (2026-09-10)
-- [DELL] Dell AI Server Orders Reached $61 Billion in the Second Quarter , and the Pipeline Keeps Growing (2026-09-10)
-- [DELL] Dell AI Server Orders Reached $61 Billion in the Second Quarter , and the Pipeline Keeps Growing (2026-09-10)
+- [CRCL] Nikhil Chandhok Sells 26 , 666 Shares of Circle Internet Group ( NYSE : CRCL ) Stock (2026-09-10)
 - [AXON] Covington will get AI , tasers and a drone from Axon , but not license plate readers (2026-09-09)
-- [ACMR] Financial Analysis : ACM Research ( NASDAQ : ACMR ) vs . Ascent Solar Technologies ( NASDAQ : ASTI ) (2026-09-02)
+- [DIBS] 1stdibs . com ( NASDAQ : DIBS ) Cut to  Hold  at Wall Street Zen (2026-09-08)
+- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
+- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $47.2M el 2026-09-09 [senal en multiples fuentes].
-- 10% owner CASCADE INVESTMENT, L.L.C. compro RSG por $55.4M el 2026-09-08 [senal en multiples fuentes].
 - CEO KHOSROWSHAHI DARA compro UBER por $10.0M el 2026-09-10.
 - 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $26.0M el 2026-09-08 [senal en multiples fuentes].
 - CEO ARCHER TIMOTHY vendio LRCX por $9.6M el 2026-09-09.
 - CEO Gu Paul compro UPST por $1.3M el 2026-09-10.
 - CEO VASHIST RAJESH vendio SITM por $7.2M el 2026-09-09.
+- CEO Miles Patrick compro ATEC por $1.0M el 2026-09-10.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $185,347 · win rate 100% · categorias: sports
-- Diabolical-Prize · PnL $408,398 · win rate 94% · categorias: sports
-- mmklop · PnL $72,795 · win rate 96% · categorias: sports
-- Kch-Temp · PnL $156,283 · win rate 89% · categorias: sports
-- CORGI8 · PnL $73,067 · win rate 92% · categorias: sports
+- Diabolical-Prize · PnL $259,306 · win rate 94% · categorias: sports
+- Kch-Temp · PnL $239,186 · win rate 89% · categorias: sports
+- BreakTheBank · PnL $426,682 · win rate 84% · categorias: sports
+- SDTrading · PnL $20,638 · win rate 94% · categorias: sports
+- RebornAthena · PnL $8,911 · win rate 97% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -169,8 +164,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, GLD, GOLD, IEF, PRGO, QQQ, RSG, SPY, TLT, TWST, UPST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, GLD, IEF, PRGO, QQQ, SPY, TLT, TWST, UPST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
