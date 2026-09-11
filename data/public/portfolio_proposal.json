@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-11T18:47:32+00:00",
+  "generated_at": "2026-09-11T21:58:33+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CSQ": 0.0989,
     "GLD": 0.0933,
-    "DGICA": 0.074,
+    "CSQ": 0.0873,
+    "DGICA": 0.063,
     "IEF": 0.0622,
-    "KIDS": 0.0398,
-    "BLFS": 0.0376,
-    "PRGO": 0.03,
-    "UPST": 0.026,
-    "TWST": 0.0217,
-    "TNON": 0.0065
+    "USLM": 0.0362,
+    "GPI": 0.0361,
+    "KIDS": 0.0333,
+    "UPST": 0.0222,
+    "TXG": 0.0205,
+    "ANGX": 0.0164,
+    "USAR": 0.0134,
+    "TNON": 0.0062
   },
   "core": {
     "SPY": 0.1934,
@@ -27,16 +29,27 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CSQ": 0.0879,
-    "TNON": 0.0058,
-    "DGICA": 0.0658,
-    "TWST": 0.0193,
-    "KIDS": 0.0354,
-    "BLFS": 0.0334,
-    "PRGO": 0.0267,
-    "UPST": 0.0231
+    "GPI": 0.0321,
+    "CSQ": 0.0776,
+    "TNON": 0.0055,
+    "USAR": 0.0119,
+    "DGICA": 0.056,
+    "ANGX": 0.0146,
+    "KIDS": 0.0296,
+    "TXG": 0.0182,
+    "UPST": 0.0197,
+    "USLM": 0.0322
   },
   "satellite_rationale": [
+    {
+      "ticker": "GPI",
+      "score": 886.5,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 14
+    },
     {
       "ticker": "CSQ",
       "score": 282.0,
@@ -54,6 +67,14 @@
       "n_signals": 4
     },
     {
+      "ticker": "USAR",
+      "score": 207.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "DGICA",
       "score": 177.8,
       "sources": [
@@ -62,10 +83,10 @@
       "n_signals": 3
     },
     {
-      "ticker": "TWST",
-      "score": 143.6,
+      "ticker": "ANGX",
+      "score": 123.5,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 2
     },
@@ -78,15 +99,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "BLFS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "PRGO",
+      "ticker": "TXG",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -100,20 +113,28 @@
         "corporate_insider"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "USLM",
+      "score": 65.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.126,
-    "var_95_1d": 0.0131,
-    "cvar_95_1d": 0.0152,
-    "max_drawdown": -0.0855,
-    "beta_spy": 0.77,
-    "hhi": 0.0761,
+    "ann_vol": 0.1177,
+    "var_95_1d": 0.012,
+    "cvar_95_1d": 0.0148,
+    "max_drawdown": -0.0861,
+    "beta_spy": 0.78,
+    "hhi": 0.0725,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.1,
-    "gross_exposure": 0.85,
-    "days_used": 154
+    "n_positions": 15,
+    "effective_positions": 13.8,
+    "gross_exposure": 0.8501,
+    "days_used": 202
   },
   "risk_gate": {
     "passed": true,
