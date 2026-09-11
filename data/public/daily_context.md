@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-11T04:51:57+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
+_Generado 2026-09-11T09:57:28+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.84)
+- Volatilidad: `normal` (VIX 17.21)
 - Tendencia: `neutral` (SPY 757.83 · MA50 758.25 · MA200 711.5 · dist MA200: 6.51%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.39)
@@ -97,8 +97,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 80.78 (-1.16% / -1.43% / -1.24%) [2026-09-10]
 - IEF: 91.18 (-0.78% / -1.08% / -1.56%) [2026-09-10]
 - GLD: 396.36 (-1.73% / -1.59% / -2.11%) [2026-09-10]
-- ^VIX: 17.84 (8.38% / 24.58% / 21.94%) [2026-09-10]
-- BTC-USD: 77099.81 (-1.48% / -3.41% / -1.58%) [2026-09-11]
+- ^VIX: 17.21 (-3.53% / 18.44% / 20.77%) [2026-09-11]
+- BTC-USD: 76998.61 (0.56% / -4.17% / -0.11%) [2026-09-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,17 +113,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (3), earnings (2), leadership (1)
+**Temas dominantes**: stock (4), leadership (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [RBRK] Arvind Nithrakashyap Sells 12 , 820 Shares of Rubrik ( NYSE : RBRK ) Stock (2026-09-11)
 - [CRCL] Insider Selling : Circle Internet Group ( NYSE : CRCL ) CEO Sells 56 , 200 Shares of Stock (2026-09-10)
 - [CRWV] CoreWeave ( NASDAQ : CRWV ) Trading Up 11 . 7 % – Here Why (2026-09-10)
 - [CRCL] Nikhil Chandhok Sells 26 , 666 Shares of Circle Internet Group ( NYSE : CRCL ) Stock (2026-09-10)
-- [AXON] Covington will get AI , tasers and a drone from Axon , but not license plate readers (2026-09-09)
-- [DIBS] 1stdibs . com ( NASDAQ : DIBS ) Cut to  Hold  at Wall Street Zen (2026-09-08)
-- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
-- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
+- [RBRK] Is CrowdStrike Holdings ( CRWD ) Stock Still the Better Cybersecurity Bet as Rubrik ( RBRK ) Accelerates ? (2026-09-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,11 +136,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $259,306 · win rate 94% · categorias: sports
-- Kch-Temp · PnL $239,186 · win rate 89% · categorias: sports
-- BreakTheBank · PnL $426,682 · win rate 84% · categorias: sports
-- SDTrading · PnL $20,638 · win rate 94% · categorias: sports
-- RebornAthena · PnL $8,911 · win rate 97% · categorias: sports, crypto
+- Diabolical-Prize · PnL $249,864 · win rate 94% · categorias: sports
+- Kch-Temp · PnL $239,355 · win rate 89% · categorias: sports
+- BreakTheBank · PnL $420,413 · win rate 85% · categorias: sports
+- mmklop · PnL $39,273 · win rate 96% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $36,194 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
