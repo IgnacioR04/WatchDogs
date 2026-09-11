@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-11T14:42:14+00:00 -->
+<!-- trader_prompt.md generado 2026-09-11T18:47:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-11T14:42:13+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
+_Generado 2026-09-11T18:47:33+00:00 · ventana señales 2026-08-12 -> 2026-09-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.8)
-- Tendencia: `bull` (SPY 764.48 · MA50 758.62 · MA200 712.06 · dist MA200: 7.36%)
+- Volatilidad: `normal` (VIX 15.67)
+- Tendencia: `bull` (SPY 765.12 · MA50 758.63 · MA200 712.06 · dist MA200: 7.45%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.39)
 - Fed Funds: 3.63%
@@ -256,29 +256,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 764.48 | 0.88% | -1.12% | -1.72% |
-| QQQ | 12.0% | core | 715.2 | 0.92% | -0.34% | -2.3% |
-| TLT | 12.0% | core | 81.24 | 0.57% | -1.01% | -1.26% |
-| CSQ | 10.1% | satellite | 20.82 | 1.07% | -1.14% | -0.36% |
-| GLD | 9.3% | core | 400.69 | 1.09% | -2.32% | 0.43% |
-| DGICA | 7.5% | satellite | 19.18 | -0.42% | -1.24% | 2.29% |
-| IEF | 6.2% | core | 91.28 | 0.1% | -1.09% | -1.82% |
-| BLFS | 4.0% | satellite | 34.92 | -0.01% | -1.73% | -0.89% |
-| KIDS | 4.0% | satellite | 21.76 | 0.93% | -3.67% | -12.99% |
-| PRGO | 2.9% | satellite | 13.59 | 0.0% | -4.77% | 8.11% |
-| UPST | 2.8% | satellite | 25.62 | 2.07% | -10.17% | -17.27% |
-| TWST | 2.1% | satellite | 126.41 | -0.35% | -1.79% | 0.89% |
+| SPY | 12.0% | core | 765.12 | 0.96% | -1.04% | -1.64% |
+| QQQ | 12.0% | core | 716.06 | 1.04% | -0.22% | -2.19% |
+| TLT | 12.0% | core | 80.88 | 0.12% | -1.46% | -1.7% |
+| CSQ | 9.9% | satellite | 20.85 | 1.21% | -1.0% | -0.22% |
+| GLD | 9.3% | core | 398.45 | 0.53% | -2.87% | -0.13% |
+| DGICA | 7.4% | satellite | 19.31 | 0.23% | -0.59% | 2.96% |
+| IEF | 6.2% | core | 91.01 | -0.18% | -1.37% | -2.1% |
+| KIDS | 4.0% | satellite | 22.05 | 2.27% | -2.39% | -11.84% |
+| BLFS | 3.8% | satellite | 35.17 | 0.73% | -1.0% | -0.16% |
+| PRGO | 3.0% | satellite | 13.66 | 0.55% | -4.24% | 8.7% |
+| UPST | 2.6% | satellite | 25.6 | 1.99% | -10.24% | -17.34% |
+| TWST | 2.2% | satellite | 128.01 | 0.92% | -0.54% | 2.17% |
+| TNON | 0.7% | satellite | 5.9 | 11.32% | 56.5% | -1.01% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 12.1%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.759 · posiciones efectivas: 13.0 · HHI: 0.077
+- Volatilidad anualizada: 12.6%
+- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.5%
+- Max drawdown historico: -8.6%
+- Beta vs SPY: 0.77 · posiciones efectivas: 13.1 · HHI: 0.0761
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
+- **CSQ** · score agregado 282.0 · 4 señales · fuentes: large_holder
+- **TNON** · score agregado 232.8 · 4 señales · fuentes: corporate_insider
 - **DGICA** · score agregado 177.8 · 3 señales · fuentes: corporate_insider
 - **TWST** · score agregado 143.6 · 2 señales · fuentes: large_holder
 - **KIDS** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -300,19 +302,18 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | RLMD | 78 | corporate_insider | Shenouda Maged | 2 | $339,150 | cluster_buy |
 | CYBN | 78 | corporate_insider | So Eric H. L. | 2 | $1,238,670 | cluster_buy |
 | KIDS | 72 | large_holder | Squadron Capital LLC |  | - | - |
+| BRNS | 72 | large_holder | Oxford Science Enterprise |  | - | - |
 | BLFS | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | TWST | 72 | large_holder | ARK Investment Management |  | - | - |
 | TWST | 72 | large_holder | FMR LLC |  | - | - |
 | QVCG | 72 | large_holder | Barclays PLC |  | - | - |
 | QVCG | 72 | large_holder | Barclays PLC |  | - | - |
 | PRGO | 72 | large_holder | T. Rowe Price Associates, |  | - | - |
-| SIG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| QVCG | 58 | corporate_insider | Silver Point Capital L.P. | $26,000,000 | - |
 | LRCX | 58 | corporate_insider | ARCHER TIMOTHY | $9,577,800 | - |
 | SITM | 58 | corporate_insider | VASHIST RAJESH | $7,241,640 | - |
 | CRWV | 57 | corporate_insider | Intrator Michael N | $5,725,979 | - |
@@ -320,6 +321,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | VST | 56 | corporate_insider | HUDSON SCOTT A | $4,377,228 | - |
 | LASR | 56 | corporate_insider | Keeney Scott H | $4,101,000 | - |
 | DDOG | 56 | corporate_insider | Pomel Olivier | $4,002,735 | - |
+| CRWV | 56 | corporate_insider | Intrator Michael N | $3,920,399 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -328,15 +330,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 764.48 (0.88% / -1.12% / -1.72%) [2026-09-11]
-- QQQ: 715.2 (0.92% / -0.34% / -2.3%) [2026-09-11]
-- IWM: 289.08 (0.48% / -2.07% / -4.75%) [2026-09-11]
-- DIA: 524.78 (0.77% / -2.26% / -2.36%) [2026-09-11]
-- TLT: 81.24 (0.57% / -1.01% / -1.26%) [2026-09-11]
-- IEF: 91.28 (0.1% / -1.09% / -1.82%) [2026-09-11]
-- GLD: 400.69 (1.09% / -2.32% / 0.43%) [2026-09-11]
-- ^VIX: 15.8 (-11.43% / 8.74% / 10.88%) [2026-09-11]
-- BTC-USD: 78670.8 (2.75% / -2.09% / 2.06%) [2026-09-11]
+- SPY: 765.12 (0.96% / -1.04% / -1.64%) [2026-09-11]
+- QQQ: 716.06 (1.04% / -0.22% / -2.19%) [2026-09-11]
+- IWM: 289.38 (0.58% / -1.97% / -4.65%) [2026-09-11]
+- DIA: 525.92 (0.99% / -2.05% / -2.15%) [2026-09-11]
+- TLT: 80.88 (0.12% / -1.46% / -1.7%) [2026-09-11]
+- IEF: 91.01 (-0.18% / -1.37% / -2.1%) [2026-09-11]
+- GLD: 398.45 (0.53% / -2.87% / -0.13%) [2026-09-11]
+- ^VIX: 15.67 (-12.16% / 7.85% / 9.96%) [2026-09-11]
+- BTC-USD: 77077.63 (0.67% / -4.07% / -0.01%) [2026-09-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,19 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2), leadership (1), regulatory (1)
+**Temas dominantes**: earnings (3), ai (2), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Here Are Friday Top Wall Street Analyst Research Calls : Atmos Energy , Celanese , Check Point Software , Chewy , Dell Technologies , Fortinet , Global Payments , HP , Shopify , and More (2026-09-11)
-- [DELL] Dell Technologies Reinvents Infrastructure for AI Revolution , Says Venkat Sitaram , ETTelecom (2026-09-11)
-- [DELL] Morgan Stanley Just Upped Its Price Target on  Top Pick  Dell Stock (2026-09-11)
-- [DELL] Evercore ISI revamps Dell stock price target to $650 (2026-09-11)
-- [RBRK] Arvind Nithrakashyap Sells 12 , 820 Shares of Rubrik ( NYSE : RBRK ) Stock (2026-09-11)
-- [CRCL] Insider Selling : Circle Internet Group ( NYSE : CRCL ) CEO Sells 56 , 200 Shares of Stock (2026-09-10)
-- [CRCL] Nikhil Chandhok Sells 26 , 666 Shares of Circle Internet Group ( NYSE : CRCL ) Stock (2026-09-10)
-- [RBRK] Is CrowdStrike Holdings ( CRWD ) Stock Still the Better Cybersecurity Bet as Rubrik ( RBRK ) Accelerates ? (2026-09-09)
-- [AXON] Covington will get AI , tasers and a drone from Axon , but not license plate readers (2026-09-09)
+- [DIBS] 1stdibs . com ( NASDAQ : DIBS ) Cut to  Hold  at Wall Street Zen (2026-09-08)
+- [LIFE] Ethos ( LIFE ) Grows Revenue 113 % While Margins Quietly Compress (2026-09-04)
+- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
+- [DIBS] 1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend (2026-08-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $561,472 · win rate 94% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $189,600 · win rate 91% · categorias: crypto
-- Kch-Temp · PnL $239,355 · win rate 89% · categorias: sports
-- mmklop · PnL $72,006 · win rate 96% · categorias: sports
-- BreakTheBank · PnL $419,622 · win rate 85% · categorias: sports
+- Diabolical-Prize · PnL $679,285 · win rate 94% · categorias: sports
+- Kch-Temp · PnL $239,486 · win rate 89% · categorias: sports
+- mmklop · PnL $78,717 · win rate 96% · categorias: sports
+- BreakTheBank · PnL $419,555 · win rate 85% · categorias: sports
+- TheyAreTakingTheHobitsToIsengard · PnL $171,020 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,7 +387,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 776 registros 30d · ultimo dato 2026-09-10
+- **sec_insiders**: `ok` · 663 registros 30d · ultimo dato 2026-09-11
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-11
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -404,7 +401,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, DGICA, GLD, IEF, KIDS, PRGO, QQQ, SPY, TLT, TWST, UPST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BLFS, CSQ, DGICA, GLD, IEF, KIDS, PRGO, QQQ, SPY, TLT, TNON, TWST, UPST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

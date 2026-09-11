@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-11T14:41:08.686177+00:00",
+  "generated_at": "2026-09-11T18:46:40.611853+00:00",
   "window": {
     "from": "2026-08-12",
     "to": "2026-09-11",
@@ -23,10 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
+      "earnings",
       "ai",
-      "leadership",
-      "regulatory"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -412,6 +411,14 @@
         ]
       },
       {
+        "ticker": "TNON",
+        "company": "Tenon Medical, Inc.",
+        "pressure_score": 361.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "RLMD",
         "company": "RELMADA THERAPEUTICS, INC.",
         "pressure_score": 316.3,
@@ -420,11 +427,11 @@
         ]
       },
       {
-        "ticker": "RBA",
-        "company": "RB GLOBAL INC.",
-        "pressure_score": 275.4,
+        "ticker": "CSQ",
+        "company": "CALAMOS STRATEGIC TOTAL RETURN FUND",
+        "pressure_score": 282.0,
         "sources": [
-          "corporate_insider"
+          "large_holder"
         ]
       },
       {
@@ -452,6 +459,14 @@
         ]
       },
       {
+        "ticker": "TENX",
+        "company": "Tenax Therapeutics, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "CHI",
         "company": "Calamos Convertible Opportunities and Income Fund",
         "pressure_score": 211.5,
@@ -468,11 +483,11 @@
         ]
       },
       {
-        "ticker": "CSQ",
-        "company": "Calamos Strategic Total Return Fund",
-        "pressure_score": 211.5,
+        "ticker": "RCG",
+        "company": "RENN Fund, Inc.",
+        "pressure_score": 198.3,
         "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -499,33 +514,9 @@
           "corporate_insider",
           "large_holder"
         ]
-      },
-      {
-        "ticker": "MTA",
-        "company": "Metalla Royalty & Streaming Ltd.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "XTND",
-        "company": "Xtend AI Robotics, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "pressure_score": 7643.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "CRWV",
         "company": "CoreWeave, Inc.",
@@ -599,19 +590,12 @@
         ]
       },
       {
-        "ticker": "RVMD",
-        "company": "Revolution Medicines, Inc.",
-        "pressure_score": 487.5,
+        "ticker": "PMA",
+        "company": "PMA Graphene Technology Group Inc.",
+        "pressure_score": 471.2,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VGNT",
-        "company": "Versigent PLC",
-        "pressure_score": 419.2,
-        "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -634,6 +618,22 @@
         "ticker": "LUNR",
         "company": "Intuitive Machines, Inc.",
         "pressure_score": 349.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks, Inc.",
+        "pressure_score": 339.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PHI",
+        "company": "PLDT Inc.",
+        "pressure_score": 337.0,
         "sources": [
           "corporate_insider"
         ]
@@ -768,13 +768,13 @@
       "score": 76.3
     },
     {
-      "ticker": "DGICA",
-      "company": "DONEGAL GROUP INC",
-      "actor": "DONEGAL MUTUAL INSURANCE CO",
+      "ticker": "TNON",
+      "company": "Tenon Medical, Inc.",
+      "actor": "HRT FINANCIAL LP",
       "actor_type": "ten_percent_owner",
-      "amount": 160508.63,
-      "date": "2026-09-09",
-      "score": 74.4
+      "amount": 113633.34,
+      "date": "2026-09-10",
+      "score": 75.1
     }
   ],
   "institutional_changes": [
@@ -1073,6 +1073,15 @@
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
+      "ownership_pct": 64.64,
+      "shares": 2817812,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-11"
+    },
+    {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
       "ownership_pct": 63.39,
       "shares": 2669293,
       "filing_type": "SCHEDULE 13D/A",
@@ -1086,15 +1095,6 @@
       "shares": 99358168,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-08"
-    },
-    {
-      "filer": "Newlinks Technology Limited",
-      "company": "NaaS Technology Inc.",
-      "ticker": "NAAS",
-      "ownership_pct": 51.9,
-      "shares": 40754920572,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-08"
     }
   ],
   "polymarket": {
@@ -1102,29 +1102,19 @@
       {
         "wallet": "0x7c37b52eb2",
         "username": "Diabolical-Prize",
-        "pnl": 561472.43,
-        "win_rate": 0.9423,
-        "volume": 1103860.16,
+        "pnl": 679284.87,
+        "win_rate": 0.9434,
+        "volume": 1358475.24,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 189600.28,
-        "win_rate": 0.9083,
-        "volume": 1499.0,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x924379a79c",
         "username": "Kch-Temp",
-        "pnl": 239354.66,
+        "pnl": 239486.34,
         "win_rate": 0.8897,
-        "volume": 0.0,
+        "volume": 8778.45,
         "categories": [
           "sports"
         ]
@@ -1132,9 +1122,9 @@
       {
         "wallet": "0x73e3fec494",
         "username": "mmklop",
-        "pnl": 72005.62,
-        "win_rate": 0.9614,
-        "volume": 641465.96,
+        "pnl": 78717.46,
+        "win_rate": 0.9617,
+        "volume": 642937.6,
         "categories": [
           "sports"
         ]
@@ -1142,9 +1132,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 419621.52,
+        "pnl": 419555.13,
         "win_rate": 0.8451,
-        "volume": 625037.69,
+        "volume": 625471.73,
         "categories": [
           "sports"
         ]
@@ -1152,30 +1142,50 @@
       {
         "wallet": "0x1058f156b2",
         "username": "TheyAreTakingTheHobitsToIsengard",
-        "pnl": 161011.04,
+        "pnl": 171019.98,
         "win_rate": 0.9032,
-        "volume": 0.0,
+        "volume": 99999.97,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 133138.16,
+        "win_rate": 0.9083,
+        "volume": 1499.0,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x0feb1bf966",
         "username": "CentralCasting",
-        "pnl": 62379.32,
+        "pnl": 65809.96,
         "win_rate": 0.8551,
-        "volume": 294821.39,
+        "volume": 325199.59,
         "categories": [
           "crypto",
           "economy"
         ]
       },
       {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 99805.09,
+        "win_rate": 0.8228,
+        "volume": 294495.34,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xdd882a7068",
         "username": "MeiGuNiuBi",
-        "pnl": 31236.83,
+        "pnl": 34694.56,
         "win_rate": 0.864,
-        "volume": 130194.74,
+        "volume": 141633.74,
         "categories": [
           "sports",
           "politics"
@@ -1184,7 +1194,7 @@
       {
         "wallet": "0xfaf680c17a",
         "username": "Seutervoinen",
-        "pnl": 31662.68,
+        "pnl": 33246.5,
         "win_rate": 0.841,
         "volume": 28729.68,
         "categories": [
@@ -1192,27 +1202,15 @@
           "politics",
           "economy"
         ]
-      },
-      {
-        "wallet": "0x71edffd0d7",
-        "username": "pako",
-        "pnl": 41284.73,
-        "win_rate": 0.8162,
-        "volume": 0.0,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x7c37b52eb2",
         "username": "Diabolical-Prize",
-        "pnl": 561472.43,
-        "win_rate": 0.9423,
-        "volume": 1103860.16,
+        "pnl": 679284.87,
+        "win_rate": 0.9434,
+        "volume": 1358475.24,
         "categories": [
           "sports"
         ]
@@ -1220,9 +1218,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 419621.52,
+        "pnl": 419555.13,
         "win_rate": 0.8451,
-        "volume": 625037.69,
+        "volume": 625471.73,
         "categories": [
           "sports"
         ]
@@ -1230,9 +1228,9 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 35468.06,
-        "win_rate": 0.558,
-        "volume": 2277140.93,
+        "pnl": 44003.68,
+        "win_rate": 0.562,
+        "volume": 3176650.58,
         "categories": [
           "sports"
         ]
@@ -1240,19 +1238,9 @@
       {
         "wallet": "0xbc43c8bfbc",
         "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
-        "pnl": 172132.78,
-        "win_rate": 0.545,
-        "volume": 840296.75,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x73e3fec494",
-        "username": "mmklop",
-        "pnl": 72005.62,
-        "win_rate": 0.9614,
-        "volume": 641465.96,
+        "pnl": 174795.38,
+        "win_rate": 0.5471,
+        "volume": 841721.75,
         "categories": [
           "sports"
         ]
@@ -1260,9 +1248,9 @@
       {
         "wallet": "0xc6587b11a2",
         "username": "Erasmus.",
-        "pnl": 85936.58,
+        "pnl": 94687.86,
         "win_rate": 0.7017,
-        "volume": 389580.86,
+        "volume": 396580.86,
         "categories": [
           "politics",
           "economy",
@@ -1270,11 +1258,33 @@
         ]
       },
       {
+        "wallet": "0x73e3fec494",
+        "username": "mmklop",
+        "pnl": 78717.46,
+        "win_rate": 0.9617,
+        "volume": 642937.6,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7cf9358395",
+        "username": "SheltonDoubter",
+        "pnl": 74553.56,
+        "win_rate": 0.6327,
+        "volume": 353182.07,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x212f7fc77c",
         "username": "mnuop8890",
-        "pnl": 52359.9,
+        "pnl": 52492.25,
         "win_rate": 0.6562,
-        "volume": 511166.08,
+        "volume": 536729.79,
         "categories": [
           "economy",
           "sports",
@@ -1284,121 +1294,68 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 187093.59,
+        "pnl": 187290.16,
         "win_rate": 0.484,
-        "volume": 382582.34,
+        "volume": 421694.79,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x29b52d98ac",
-        "username": "0x29b52d98ac9ef9414b04164246c95BC63d7",
-        "pnl": 126544.45,
-        "win_rate": 0.568,
-        "volume": 520810.1,
+        "wallet": "0x7b02b2bac2",
+        "username": "foodenjoyer",
+        "pnl": 139850.96,
+        "win_rate": 0.504,
+        "volume": 199058.2,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7cf9358395",
-        "username": "SheltonDoubter",
-        "pnl": 69350.46,
-        "win_rate": 0.62,
-        "volume": 120020.46,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
+          "economy",
+          "crypto",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Here Are Friday Top Wall Street Analyst Research Calls : Atmos Energy , Celanese , Check Point Software , Chewy , Dell Technologies , Fortinet , Global Payments , HP , Shopify , and More",
-      "url": "https://www.aol.com/articles/friday-top-wall-street-analyst-115503000.html",
-      "ticker": "DELL",
+      "title": "1stdibs . com ( NASDAQ : DIBS ) Cut to  Hold  at Wall Street Zen",
+      "url": "https://www.tickerreport.com/banking-finance/13576487/1stdibs-com-nasdaqdibs-cut-to-hold-at-wall-street-zen.html",
+      "ticker": "DIBS",
       "themes": [],
-      "date": "2026-09-11"
+      "date": "2026-09-08"
     },
     {
-      "title": "Dell Technologies Reinvents Infrastructure for AI Revolution , Says Venkat Sitaram , ETTelecom",
-      "url": "https://telecom.economictimes.indiatimes.com/news/enterprise-services/dell-technologies-modernising-enterprise-it-for-ai-era-says-venkat-sitaram/134046315",
-      "ticker": "DELL",
+      "title": "Ethos ( LIFE ) Grows Revenue 113 % While Margins Quietly Compress",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ethos-life-grows-revenue-113-111938970.html",
+      "ticker": "LIFE",
       "themes": [
-        "ai"
+        "earnings"
       ],
-      "date": "2026-09-11"
+      "date": "2026-09-04"
     },
     {
-      "title": "Morgan Stanley Just Upped Its Price Target on  Top Pick  Dell Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-just-upped-price-205342496.html",
-      "ticker": "DELL",
+      "title": "1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend",
+      "url": "https://www.tickerreport.com/banking-finance/13566442/1stdibs-targets-profitable-growth-with-ai-product-upgrades-and-lower-ad-spend.html",
+      "ticker": "DIBS",
       "themes": [
+        "earnings",
+        "ai",
         "stock"
       ],
-      "date": "2026-09-11"
+      "date": "2026-08-30"
     },
     {
-      "title": "Evercore ISI revamps Dell stock price target to $650",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-revamps-dell-stock-033300036.html",
-      "ticker": "DELL",
+      "title": "1stDibs Targets Profitable Growth With AI , Product Upgrades and Lower Ad Spend",
+      "url": "https://finance.yahoo.com/technology/ai/articles/1stdibs-targets-profitable-growth-ai-030158308.html",
+      "ticker": "DIBS",
       "themes": [
+        "earnings",
+        "ai",
         "stock"
       ],
-      "date": "2026-09-11"
-    },
-    {
-      "title": "Arvind Nithrakashyap Sells 12 , 820 Shares of Rubrik ( NYSE : RBRK ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13580416/arvind-nithrakashyap-sells-12820-shares-of-rubrik-nyserbrk-stock.html",
-      "ticker": "RBRK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-11"
-    },
-    {
-      "title": "Insider Selling : Circle Internet Group ( NYSE : CRCL ) CEO Sells 56 , 200 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/10/insider-selling-circle-internet-group-nysecrcl-ceo-sells-56200-shares-of-stock.html",
-      "ticker": "CRCL",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Nikhil Chandhok Sells 26 , 666 Shares of Circle Internet Group ( NYSE : CRCL ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13578779/nikhil-chandhok-sells-26666-shares-of-circle-internet-group-nysecrcl-stock.html",
-      "ticker": "CRCL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Is CrowdStrike Holdings ( CRWD ) Stock Still the Better Cybersecurity Bet as Rubrik ( RBRK ) Accelerates ? ",
-      "url": "https://www.insidermonkey.com/blog/is-crowdstrike-holdings-crwd-stock-still-the-better-cybersecurity-bet-as-rubrik-rbrk-accelerates-1834224/",
-      "ticker": "RBRK",
-      "themes": [
-        "regulatory",
-        "stock"
-      ],
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Covington will get AI , tasers and a drone from Axon , but not license plate readers",
-      "url": "https://www.wvxu.org/local-news/2026-09-09/covington-will-get-ai-tasers-and-a-drone-from-axon-but-not-license-plate-readers",
-      "ticker": "AXON",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-09-09"
+      "date": "2026-08-30"
     }
   ],
-  "signals_count": 1526,
+  "signals_count": 1413,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
