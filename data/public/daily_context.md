@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-12T09:36:38+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
+_Generado 2026-09-12T13:52:32+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77313.43 (0.18% / -2.28% / -0.57%) [2026-09-12]
+- BTC-USD: 77286.78 (0.15% / -2.31% / -0.6%) [2026-09-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,16 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (1)
+**Temas dominantes**: stock (6), ai (3), leadership (3), regulatory (2), merger (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell enters the S & P 100 index after monstrous three - year rally (2026-09-12)
+- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
+- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
+- [DELL] Market movers : Dell , Kroger , Oklo ... (2026-09-12)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
 - [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
-- [DELL] Stocks making the biggest moves midday : DELL , SWKS , GME (2026-09-11)
-- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) and Shift4 Payments ( NYSE : FOUR ) Head to Head Comparison (2026-09-10)
-- [HNGE] Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876 (2026-09-04)
+- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
+- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
+- [GPI] Insider Buying : Group 1 Automotive ( NYSE : GPI ) Major Shareholder Acquires $10 , 292 , 676 . 42 in Stock (2026-09-11)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $165,604 · win rate 94% · categorias: sports
-- lllllllIlll · PnL $114,684 · win rate 94% · categorias: sports
-- BrotherObama · PnL $136,515 · win rate 82% · categorias: sports
-- BreakTheBank · PnL $72,060 · win rate 84% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $22,906 · win rate 92% · categorias: sports, crypto, politics
+- lllllllIlll · PnL $73,704 · win rate 94% · categorias: sports
+- mmklop · PnL $43,447 · win rate 96% · categorias: sports
+- BrotherObama · PnL $145,643 · win rate 83% · categorias: sports
+- BreakTheBank · PnL $73,467 · win rate 84% · categorias: sports
+- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $23,100 · win rate 92% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
