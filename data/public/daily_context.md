@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-12T19:35:05+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
+_Generado 2026-09-12T22:31:36+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77128.05 (-0.06% / -2.51% / -0.81%) [2026-09-12]
+- BTC-USD: 77214.36 (0.05% / -2.4% / -0.7%) [2026-09-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), leadership (4), ai (2)
+**Temas dominantes**: stock (6), ai (4), leadership (3), merger (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
 - [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
+- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
 - [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
-- [STX] Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares (2026-09-12)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
 - [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
-- [MDGL] Insider Selling : Madrigal Pharmaceuticals ( NASDAQ : MDGL ) CEO Sells $3 , 407 , 423 . 58 in Stock (2026-09-11)
+- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
+- [GPI] Insider Buying : Group 1 Automotive ( NYSE : GPI ) Major Shareholder Acquires $10 , 292 , 676 . 42 in Stock (2026-09-11)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
 - [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -151,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $415,466 · win rate 95% · categorias: sports
+- Diabolical-Prize · PnL $203,501 · win rate 94% · categorias: sports
 - RJW1 · PnL $97,271 · win rate 98% · categorias: sports
-- R88N · PnL $46,386 · win rate 99% · categorias: sports
-- BreakTheBank · PnL $376,852 · win rate 85% · categorias: sports
-- mmklop · PnL $63,441 · win rate 96% · categorias: sports
+- BreakTheBank · PnL $548,787 · win rate 85% · categorias: sports
+- mmklop · PnL $92,004 · win rate 96% · categorias: sports
+- R88N · PnL $47,759 · win rate 99% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,7 +163,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 708 registros 30d · ultimo dato 2026-09-11
+- **sec_insiders**: `ok` · 697 registros 30d · ultimo dato 2026-09-11
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-11
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
