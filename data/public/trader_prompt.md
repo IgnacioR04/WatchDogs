@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-12T00:31:49+00:00 -->
+<!-- trader_prompt.md generado 2026-09-12T04:57:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-12T00:31:49+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
+_Generado 2026-09-12T04:57:39+00:00 · ventana señales 2026-08-13 -> 2026-09-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,42 +242,42 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 15.84)
-- Tendencia: `neutral` (SPY 757.83 · MA50 758.25 · MA200 711.5 · dist MA200: 6.51%)
+- Tendencia: `bull` (SPY 764.29 · MA50 758.62 · MA200 712.06 · dist MA200: 7.34%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.33)
 - Fed Funds: 3.63%
-- Motivos: credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 757.83 | -0.6% | -0.96% | -1.9% |
-| QQQ | 9.8% | core | 708.69 | -1.06% | -0.08% | -2.07% |
-| TLT | 9.8% | core | 80.78 | -1.16% | -1.43% | -1.24% |
-| GLD | 7.3% | core | 396.36 | -1.73% | -1.59% | -2.11% |
-| CSQ | 6.8% | satellite | 20.83 | 1.12% | -1.09% | -0.31% |
-| DGICA | 5.0% | satellite | 19.26 | 1.37% | -0.47% | 3.27% |
-| IEF | 4.9% | core | 91.18 | -0.78% | -1.08% | -1.56% |
-| HGTY | 3.2% | satellite | 13.49 | 1.73% | 1.97% | 5.8% |
-| GPI | 2.9% | satellite | 281.84 | -2.04% | 1.96% | 6.13% |
-| KIDS | 2.6% | satellite | 21.56 | -0.55% | -5.44% | -13.27% |
-| TXG | 1.6% | satellite | 66.38 | -1.35% | 7.67% | 14.94% |
-| DELL | 1.5% | satellite | 506.62 | -5.35% | 2.93% | 4.57% |
-| ANGX | 1.3% | satellite | 5.38 | 9.13% | 19.82% | 46.2% |
-| USAR | 1.1% | satellite | 16.04 | -5.98% | -10.14% | -12.87% |
-| TNON | 0.5% | satellite | 5.3 | 117.21% | 18.57% | -6.03% |
+| SPY | 12.0% | core | 764.29 | 0.85% | -1.15% | -1.75% |
+| QQQ | 12.0% | core | 714.88 | 0.87% | -0.39% | -2.35% |
+| TLT | 12.0% | core | 80.87 | 0.11% | -1.46% | -1.71% |
+| GLD | 9.3% | core | 398.77 | 0.61% | -2.79% | -0.05% |
+| CSQ | 8.7% | satellite | 20.83 | 1.12% | -1.09% | -0.31% |
+| DGICA | 6.4% | satellite | 19.36 | 0.52% | -0.31% | 3.25% |
+| IEF | 6.2% | core | 91.01 | -0.19% | -1.38% | -2.1% |
+| HGTY | 4.0% | satellite | 13.55 | 0.44% | 0.67% | 4.63% |
+| GPI | 3.6% | satellite | 278.27 | -1.27% | -2.13% | 6.02% |
+| KIDS | 3.4% | satellite | 22.06 | 2.32% | -2.35% | -11.8% |
+| TXG | 2.0% | satellite | 68.59 | 3.33% | 8.49% | 17.95% |
+| DELL | 1.8% | satellite | 567.29 | 11.98% | 9.86% | 14.72% |
+| ANGX | 1.6% | satellite | 5.45 | 1.3% | 21.38% | 26.16% |
+| USAR | 1.3% | satellite | 15.56 | -2.99% | -12.04% | -16.39% |
+| TNON | 0.6% | satellite | 5.93 | 11.89% | 57.29% | -0.5% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -6.2%
-- Beta vs SPY: 0.589 · posiciones efectivas: 19.4 · HHI: 0.0516
+- Volatilidad anualizada: 10.9%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -7.5%
+- Beta vs SPY: 0.71 · posiciones efectivas: 13.8 · HHI: 0.0726
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -322,10 +322,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | HGTY | 57 | corporate_insider | Hagerty Holding Corp. | $15,917,400 | - |
 | PBF | 57 | corporate_insider | Control Empresarial de Ca | $13,738,424 | - |
 | HNGE | 57 | corporate_insider | Perez Daniel Antonio | $5,228,757 | - |
+| ALHC | 57 | corporate_insider | KAO JOHN E | $4,885,224 | - |
 | PBF | 56 | corporate_insider | Control Empresarial de Ca | $10,822,560 | - |
+| SPAI | 56 | corporate_insider | ERDBERG DANIYEL | $4,000,000 | - |
 | HNGE | 56 | corporate_insider | Perez Daniel Antonio | $3,850,494 | - |
-| CME | 56 | corporate_insider | DUFFY TERRENCE A | $3,943,821 | - |
-| HNGE | 56 | corporate_insider | Perez Daniel Antonio | $3,286,145 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -334,15 +334,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 757.83 (-0.6% / -0.96% / -1.9%) [2026-09-10]
-- QQQ: 708.69 (-1.06% / -0.08% / -2.07%) [2026-09-10]
-- IWM: 287.7 (-1.01% / -2.15% / -4.96%) [2026-09-10]
-- DIA: 520.75 (-0.63% / -1.86% / -2.97%) [2026-09-10]
-- TLT: 80.78 (-1.16% / -1.43% / -1.24%) [2026-09-10]
-- IEF: 91.18 (-0.78% / -1.08% / -1.56%) [2026-09-10]
-- GLD: 396.36 (-1.73% / -1.59% / -2.11%) [2026-09-10]
+- SPY: 764.29 (0.85% / -1.15% / -1.75%) [2026-09-11]
+- QQQ: 714.88 (0.87% / -0.39% / -2.35%) [2026-09-11]
+- IWM: 288.89 (0.41% / -2.13% / -4.81%) [2026-09-11]
+- DIA: 525.79 (0.97% / -2.07% / -2.17%) [2026-09-11]
+- TLT: 80.87 (0.11% / -1.46% / -1.71%) [2026-09-11]
+- IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
+- GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77231.08 (0.87% / -3.88% / 0.19%) [2026-09-12]
+- BTC-USD: 77213.29 (0.84% / -3.9% / 0.17%) [2026-09-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,18 +357,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: ai (2), regulatory (2), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
+- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
+- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
 - [DELL] Stocks making the biggest moves midday : DELL , SWKS , GME (2026-09-11)
 - [DELL] Prediction : DELL Could Be Ready for Another Rally . Here Our Price Target (2026-09-11)
 - [DELL] Here Are Friday Top Wall Street Analyst Research Calls : Atmos Energy , Celanese , Check Point Software , Chewy , Dell Technologies , Fortinet , Global Payments , HP , Shopify , and More (2026-09-11)
-- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
-- [CHYM] Chime Financial ( NASDAQ : CHYM ) and Shift4 Payments ( NYSE : FOUR ) Head to Head Comparison (2026-09-10)
-- [HNGE] Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876 (2026-09-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,16 +375,16 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - 10% owner Hagerty Holding Corp. vendio HGTY por $15.9M el 2026-09-11 [senal en multiples fuentes].
 - CEO Larsson Stefan compro PVH por $1.0M el 2026-09-11.
 - CEO Perez Daniel Antonio vendio HNGE por $5.2M el 2026-09-10.
+- CEO KAO JOHN E vendio ALHC por $4.9M el 2026-09-11.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $4.6M el 2026-09-09.
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $788,641 · win rate 94% · categorias: sports
-- mmklop · PnL $80,897 · win rate 96% · categorias: sports
-- Kch-Temp · PnL $239,486 · win rate 89% · categorias: sports
-- TheyAreTakingTheHobitsToIsengard · PnL $160,423 · win rate 90% · categorias: sports
-- BreakTheBank · PnL $317,834 · win rate 84% · categorias: sports
+- lllllllIlll · PnL $84,208 · win rate 94% · categorias: sports
+- dontworrybaseball · PnL $7,655 · win rate 100% · categorias: sports
+- BreakTheBank · PnL $73,270 · win rate 84% · categorias: sports
+- ic4cream · PnL $24,067 · win rate 91% · categorias: sports
+- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $23,261 · win rate 92% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,7 +392,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 693 registros 30d · ultimo dato 2026-09-11
+- **sec_insiders**: `ok` · 708 registros 30d · ultimo dato 2026-09-11
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-11
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -410,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`ANGX, CSQ, DELL, DGICA, GLD, GPI, HGTY, IEF, KIDS, QQQ, SPY, TLT, TNON, TXG, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
