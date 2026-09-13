@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-13T14:44:08+00:00 -->
+<!-- trader_prompt.md generado 2026-09-13T18:29:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-13T14:44:08+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
+_Generado 2026-09-13T18:29:33+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77156.03 (-0.15% / -1.64% / -2.29%) [2026-09-13]
+- BTC-USD: 77307.47 (0.05% / -1.44% / -2.1%) [2026-09-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,16 +357,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (2), stock (2), ai (1)
+**Temas dominantes**: ai (3), stock (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
+- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
 - [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
+- [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
+- [HNGE] Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876 (2026-09-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -381,11 +381,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- TAIWANNUMBERONE · PnL $129,480 · win rate 94% · categorias: sports
-- RJW1 · PnL $53,555 · win rate 98% · categorias: sports
-- CORGI8 · PnL $32,279 · win rate 92% · categorias: sports
-- bit754 · PnL $54,063 · win rate 87% · categorias: sports
-- wr0ngw4yb3tt0r · PnL $462,087 · win rate 71% · categorias: sports
+- RJW1 · PnL $150,804 · win rate 98% · categorias: sports
+- TAIWANNUMBERONE · PnL $125,996 · win rate 92% · categorias: sports, politics
+- R88N · PnL $34,110 · win rate 99% · categorias: sports
+- Devs777 · PnL $84,002 · win rate 100% · categorias: sports
+- retordedgremlin125 · PnL $60,568 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
