@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-13T05:01:32+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
+_Generado 2026-09-13T10:30:32+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77189.32 (0.02% / -2.44% / -0.73%) [2026-09-13]
+- BTC-USD: 76724.6 (-0.71% / -2.19% / -2.84%) [2026-09-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), leadership (4), ai (3)
+**Temas dominantes**: stock (6), merger (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
 - [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
-- [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
+- [STX] Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares (2026-09-12)
+- [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
+- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
+- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
 - [MDGL] Insider Selling : Madrigal Pharmaceuticals ( NASDAQ : MDGL ) CEO Sells $3 , 407 , 423 . 58 in Stock (2026-09-11)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [GPI] Insider Buying : Group 1 Automotive ( NYSE : GPI ) Major Shareholder Acquires $10 , 292 , 676 . 42 in Stock (2026-09-11)
+- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
+- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -152,10 +152,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $17,964 · win rate 100% · categorias: sports
-- BrotherObama · PnL $167,519 · win rate 83% · categorias: sports
-- JUSTINHERBERTMVP · PnL $36,497 · win rate 88% · categorias: sports, crypto, politics
-- Painfulvoid · PnL $26,080 · win rate 90% · categorias: sports
-- lpcapital1 · PnL $10,229 · win rate 96% · categorias: sports, economy
+- TAIWANNUMBERONE · PnL $43,835 · win rate 92% · categorias: sports, politics
+- RebornAthena · PnL $21,415 · win rate 97% · categorias: sports, crypto
+- retordedgremlin125 · PnL $22,487 · win rate 92% · categorias: sports
+- JUSTINHERBERTMVP · PnL $35,068 · win rate 88% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
