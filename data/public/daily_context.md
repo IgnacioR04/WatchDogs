@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-13T21:05:39+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
+_Generado 2026-09-13T23:25:24+00:00 · ventana señales 2026-08-14 -> 2026-09-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
 - ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77289.67 (0.02% / -1.46% / -2.12%) [2026-09-13]
+- BTC-USD: 76682.14 (-0.76% / -2.24% / -2.89%) [2026-09-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,16 +123,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1), regulatory (1)
+**Temas dominantes**: ai (3), stock (2), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
+- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
 - [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
-- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
-- [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
-- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
+- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
+- [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
+- [HNGE] Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876 (2026-09-04)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,11 +147,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $150,806 · win rate 98% · categorias: sports
-- Devs777 · PnL $103,529 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $142,949 · win rate 92% · categorias: sports, politics
-- R88N · PnL $33,447 · win rate 99% · categorias: sports
-- retordedgremlin125 · PnL $60,445 · win rate 91% · categorias: sports
+- RJW1 · PnL $150,808 · win rate 98% · categorias: sports
+- TAIWANNUMBERONE · PnL $187,488 · win rate 92% · categorias: sports, politics
+- theowalcott · PnL $45,066 · win rate 100% · categorias: sports
+- Devs777 · PnL $78,848 · win rate 100% · categorias: sports
+- 1l2ihj34li12u34 · PnL $49,740 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
