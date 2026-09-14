@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-14T18:52:59+00:00",
+  "generated_at": "2026-09-14T22:46:03+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8503,
+  "cash": 0.1497,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CSQ": 0.1011,
     "GLD": 0.0933,
-    "DGICA": 0.0737,
+    "CSQ": 0.0765,
     "IEF": 0.0622,
-    "USLM": 0.0423,
-    "GOLD": 0.03,
-    "TXG": 0.024,
-    "DELL": 0.0213,
-    "ANGX": 0.0192,
-    "USAR": 0.0156,
-    "TNON": 0.0073
+    "AMH": 0.0618,
+    "ECL": 0.052,
+    "DGICA": 0.051,
+    "KIDS": 0.0267,
+    "HGTY": 0.0258,
+    "SLGL": 0.0148,
+    "USAR": 0.0133,
+    "ATAI": 0.0129
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +28,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CSQ": 0.0899,
-    "TNON": 0.0065,
-    "USAR": 0.0139,
-    "ANGX": 0.0171,
-    "DGICA": 0.0655,
-    "TXG": 0.0213,
-    "DELL": 0.0189,
-    "GOLD": 0.0267,
-    "USLM": 0.0376
+    "CSQ": 0.068,
+    "USAR": 0.0118,
+    "DGICA": 0.0453,
+    "HGTY": 0.0229,
+    "ECL": 0.0462,
+    "SLGL": 0.0132,
+    "AMH": 0.0549,
+    "KIDS": 0.0237,
+    "ATAI": 0.0115
   },
   "satellite_rationale": [
     {
@@ -44,14 +44,6 @@
       "score": 282.0,
       "sources": [
         "large_holder"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "TNON",
-      "score": 232.8,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 4
     },
@@ -64,23 +56,47 @@
       "n_signals": 3
     },
     {
-      "ticker": "ANGX",
-      "score": 123.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "DGICA",
-      "score": 123.1,
+      "score": 177.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "HGTY",
+      "score": 140.4,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "ECL",
+      "score": 117.5,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "TXG",
+      "ticker": "SLGL",
+      "score": 117.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "AMH",
+      "score": 111.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "KIDS",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -88,42 +104,26 @@
       "n_signals": 1
     },
     {
-      "ticker": "DELL",
+      "ticker": "ATAI",
       "score": 70.2,
       "sources": [
         "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GOLD",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "USLM",
-      "score": 65.2,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1236,
-    "var_95_1d": 0.0118,
-    "cvar_95_1d": 0.0157,
-    "max_drawdown": -0.0768,
-    "beta_spy": 0.814,
-    "hhi": 0.0758,
+    "ann_vol": 0.0869,
+    "var_95_1d": 0.0079,
+    "cvar_95_1d": 0.0088,
+    "max_drawdown": -0.0311,
+    "beta_spy": 0.615,
+    "hhi": 0.0727,
     "max_position": 0.12,
     "n_positions": 14,
-    "effective_positions": 13.2,
-    "gross_exposure": 0.85,
-    "days_used": 204
+    "effective_positions": 13.8,
+    "gross_exposure": 0.8503,
+    "days_used": 49
   },
   "risk_gate": {
     "passed": true,
