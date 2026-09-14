@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-14T06:34:25+00:00 · ventana señales 2026-08-15 -> 2026-09-14_
+_Generado 2026-09-14T13:12:07+00:00 · ventana señales 2026-08-15 -> 2026-09-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.84)
+- Volatilidad: `normal` (VIX 17.77)
 - Tendencia: `bull` (SPY 764.29 · MA50 758.62 · MA200 712.06 · dist MA200: 7.34%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.33)
@@ -26,11 +26,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 714.88 | 0.87% | -0.39% | -2.35% |
 | TLT | 12.0% | core | 80.87 | 0.11% | -1.46% | -1.71% |
 | GLD | 9.3% | core | 398.77 | 0.61% | -2.79% | -0.05% |
-| CSQ | 8.7% | satellite | 20.83 | 1.12% | -1.09% | -0.31% |
+| CSQ | 8.6% | satellite | 20.83 | 1.12% | -1.09% | -0.31% |
 | DGICA | 6.4% | satellite | 19.36 | 0.52% | -0.31% | 3.25% |
 | IEF | 6.2% | core | 91.01 | -0.19% | -1.38% | -2.1% |
 | HGTY | 4.0% | satellite | 13.55 | 0.44% | 0.67% | 4.63% |
-| GPI | 3.6% | satellite | 278.27 | -1.27% | -2.13% | 6.02% |
+| USLM | 3.6% | satellite | 117.82 | 1.67% | 1.72% | 0.41% |
 | KIDS | 3.4% | satellite | 22.06 | 2.32% | -2.35% | -11.8% |
 | TXG | 2.0% | satellite | 68.59 | 3.33% | 8.49% | 17.95% |
 | DELL | 1.8% | satellite | 567.29 | 11.98% | 9.86% | 14.72% |
@@ -40,14 +40,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.9%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -7.5%
-- Beta vs SPY: 0.71 · posiciones efectivas: 13.8 · HHI: 0.0726
+- Volatilidad anualizada: 11.3%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -7.1%
+- Beta vs SPY: 0.736 · posiciones efectivas: 13.8 · HHI: 0.0726
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **GPI** · score agregado 886.5 · 14 señales · fuentes: corporate_insider, large_holder
 - **CSQ** · score agregado 282.0 · 4 señales · fuentes: large_holder
 - **TNON** · score agregado 232.8 · 4 señales · fuentes: corporate_insider
 - **USAR** · score agregado 207.0 · 3 señales · fuentes: large_holder
@@ -57,6 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **TXG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **DELL** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **HGTY** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **USLM** · score agregado 65.2 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -66,19 +66,19 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | RLMD | 80 | corporate_insider | TRAVERSA SERGIO | 2 | $410,000 | cluster_buy |
 | RLMD | 80 | corporate_insider | TRAVERSA SERGIO | 2 | $418,000 | cluster_buy |
+| ALP | 79 | corporate_insider | Kaiser Brittany | 3 | $49,997 | cluster_buy |
 | RLMD | 79 | corporate_insider | Shenouda Maged | 2 | $504,840 | cluster_buy |
-| CYBN | 79 | corporate_insider | Glavine Paul | 2 | $1,247,190 | cluster_buy |
-| CYBN | 79 | corporate_insider | Glavine Paul | 2 | $1,247,190 | cluster_buy |
 | RLMD | 78 | corporate_insider | Shenouda Maged | 2 | $339,150 | cluster_buy |
-| CYBN | 78 | corporate_insider | So Eric H. L. | 2 | $1,238,670 | cluster_buy |
+| DOMH | 77 | corporate_insider | Hayes Anthony | 2 | $108,135 | cluster_buy |
+| DOMH | 77 | corporate_insider | Wool Kyle Michael | 2 | $108,135 | cluster_buy |
+| DOMH | 76 | corporate_insider | Hayes Anthony | 2 | $101,055 | cluster_buy |
+| DOMH | 76 | corporate_insider | Wool Kyle Michael | 2 | $101,055 | cluster_buy |
 | RGCO | 76 | corporate_insider | Nester Paul W | 3 | $10,650 | cluster_buy,small_amount |
+| ALP | 74 | corporate_insider | Villani Fiorenzo | 3 | $35,455 | cluster_buy |
+| ALP | 73 | corporate_insider | Levitt Wesley Allen | 3 | $5,096 | cluster_buy,small_amount |
+| SPAI | 72 | large_holder | Phillip Frost, M.D. |  | - | - |
 | GLOO | 72 | large_holder | Grace & Mercy Foundation, |  | - | - |
 | KIDS | 72 | large_holder | Squadron Capital LLC |  | - | - |
-| UEIC | 72 | large_holder | TORO 18 HOLDINGS LLC |  | - | - |
-| BRNS | 72 | large_holder | Oxford Science Enterprise |  | - | - |
-| MGX | 72 | large_holder | Thomas Brian C. |  | - | - |
-| TXG | 72 | large_holder | T. Rowe Price Associates, |  | - | - |
-| RGCO | 71 | corporate_insider | WILLIAMSON JOHN B III | 3 | $8,375 | cluster_buy,small_amount |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 80.87 (0.11% / -1.46% / -1.71%) [2026-09-11]
 - IEF: 91.01 (-0.19% / -1.38% / -2.1%) [2026-09-11]
 - GLD: 398.77 (0.61% / -2.79% / -0.05%) [2026-09-11]
-- ^VIX: 15.84 (-11.21% / 9.02% / 11.16%) [2026-09-11]
-- BTC-USD: 77386.13 (0.15% / -1.34% / -2.0%) [2026-09-14]
+- ^VIX: 17.77 (12.18% / 16.14% / 16.98%) [2026-09-14]
+- BTC-USD: 77623.7 (1.02% / -0.81% / -1.2%) [2026-09-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,39 +123,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), leadership (2), regulatory (1)
+**Temas dominantes**: stock (3), ai (2), leadership (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
 - [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
 - [STX] Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares (2026-09-12)
-- [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
 - [CRWD] Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia (2026-09-11)
 - [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
-- [MDGL] Insider Selling : Madrigal Pharmaceuticals ( NASDAQ : MDGL ) CEO Sells $3 , 407 , 423 . 58 in Stock (2026-09-11)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
 - [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner Hagerty Holding Corp. vendio HGTY por $106.1M el 2026-09-09 [senal en multiples fuentes].
-- 10% owner Conifer Management, L.L.C. compro GPI por $5.1M el 2026-09-10 [senal en multiples fuentes].
-- 10% owner Conifer Management, L.L.C. compro GPI por $6.6M el 2026-09-09 [senal en multiples fuentes].
 - 10% owner Hagerty Holding Corp. vendio HGTY por $15.9M el 2026-09-11 [senal en multiples fuentes].
 - CEO Larsson Stefan compro PVH por $1.0M el 2026-09-11.
 - CEO Perez Daniel Antonio vendio HNGE por $5.2M el 2026-09-10.
 - CEO KAO JOHN E vendio ALHC por $4.9M el 2026-09-11.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $4.6M el 2026-09-09.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $91,904 · win rate 100% · categorias: sports
-- SDTrading · PnL $27,955 · win rate 94% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $24,721 · win rate 91% · categorias: crypto
-- BreakTheBank · PnL $49,994 · win rate 85% · categorias: sports
-- wr0ngw4yb3tt0r · PnL $249,861 · win rate 71% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $45,053 · win rate 91% · categorias: crypto
+- SDTrading · PnL $27,589 · win rate 94% · categorias: sports
+- BreakTheBank · PnL $51,112 · win rate 85% · categorias: sports
+- wr0ngw4yb3tt0r · PnL $248,841 · win rate 71% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -163,8 +163,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 707 registros 30d · ultimo dato 2026-09-11
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-11
+- **sec_insiders**: `ok` · 694 registros 30d · ultimo dato 2026-09-14
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -177,7 +177,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ANGX, CSQ, DELL, DGICA, GLD, GPI, HGTY, IEF, KIDS, QQQ, SPY, TLT, TNON, TXG, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ANGX, CSQ, DELL, DGICA, GLD, HGTY, IEF, KIDS, QQQ, SPY, TLT, TNON, TXG, USAR, USLM`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

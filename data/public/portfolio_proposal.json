@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-14T06:34:24+00:00",
+  "generated_at": "2026-09-14T13:12:06+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "CSQ": 0.0866,
-    "DGICA": 0.0637,
+    "CSQ": 0.0865,
+    "DGICA": 0.0639,
     "IEF": 0.0622,
     "HGTY": 0.0403,
-    "GPI": 0.0363,
+    "USLM": 0.0363,
     "KIDS": 0.0335,
     "TXG": 0.0198,
     "DELL": 0.0182,
     "ANGX": 0.0163,
     "USAR": 0.0134,
-    "TNON": 0.0063
+    "TNON": 0.0064
   },
   "core": {
     "SPY": 0.1934,
@@ -29,27 +29,18 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "GPI": 0.0323,
-    "CSQ": 0.077,
-    "TNON": 0.0056,
+    "CSQ": 0.0769,
+    "TNON": 0.0057,
     "USAR": 0.0119,
-    "DGICA": 0.0566,
+    "DGICA": 0.0568,
     "ANGX": 0.0145,
     "KIDS": 0.0298,
     "TXG": 0.0176,
     "DELL": 0.0162,
-    "HGTY": 0.0358
+    "HGTY": 0.0358,
+    "USLM": 0.0323
   },
   "satellite_rationale": [
-    {
-      "ticker": "GPI",
-      "score": 886.5,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
-      ],
-      "n_signals": 14
-    },
     {
       "ticker": "CSQ",
       "score": 282.0,
@@ -121,20 +112,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "USLM",
+      "score": 65.2,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1093,
-    "var_95_1d": 0.0109,
-    "cvar_95_1d": 0.0132,
-    "max_drawdown": -0.0753,
-    "beta_spy": 0.71,
+    "ann_vol": 0.1132,
+    "var_95_1d": 0.011,
+    "cvar_95_1d": 0.0138,
+    "max_drawdown": -0.0706,
+    "beta_spy": 0.736,
     "hhi": 0.0726,
     "max_position": 0.12,
     "n_positions": 15,
     "effective_positions": 13.8,
-    "gross_exposure": 0.8499,
-    "days_used": 211
+    "gross_exposure": 0.8501,
+    "days_used": 209
   },
   "risk_gate": {
     "passed": true,
