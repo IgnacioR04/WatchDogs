@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-15T01:39:50.863673+00:00",
+  "generated_at": "2026-09-15T07:57:35.514720+00:00",
   "window": {
     "from": "2026-08-16",
     "to": "2026-09-15",
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
       "stock",
-      "leadership",
+      "ai",
+      "regulatory",
       "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -34,6 +34,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner vendio PMTS ($54.9M)",
+      "summary": "10% owner Parallel49 Equity, ULC vendio PMTS por $54.9M el 2026-09-14.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Parallel49 Equity, ULC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "PMTS",
+      "direction": "sell",
+      "amount_estimated": 54900786.43,
+      "event_date": "2026-09-14",
+      "importance_score": 84.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1655148/000165514826000004/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "CEO vendio DBX ($11.4M)",
       "summary": "CEO Houston Andrew vendio DBX por $11.4M el 2026-09-10.",
       "source": "sec_form_4",
@@ -50,8 +68,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1734563/000173456326000019/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -68,8 +86,8 @@
       "source_url": ""
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -86,8 +104,8 @@
       "source_url": ""
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -104,8 +122,8 @@
       "source_url": ""
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -122,8 +140,8 @@
       "source_url": ""
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -140,8 +158,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -158,8 +176,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -176,8 +194,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -194,8 +212,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -212,8 +230,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -230,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -248,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -266,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -284,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($16.2B)",
       "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
       "source": "sec_13f",
@@ -302,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
       "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
       "source": "sec_13f",
@@ -320,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro BROADCOM INC ($15.1B)",
       "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
       "source": "sec_13f",
@@ -338,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($14.9B)",
       "summary": "Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.",
       "source": "sec_13f",
@@ -356,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro APPLIED MATLS INC ($14.8B)",
       "summary": "Institutional manager State Street Corp compro APPLIED MATLS INC por $14.8B.",
       "source": "sec_13f",
@@ -367,24 +385,6 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 14828033296,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro ALPHABET INC ($14.2B)",
-      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $14.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14184846003,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -517,6 +517,14 @@
     ],
     "sell_pressure": [
       {
+        "ticker": "CHYM",
+        "company": "Chime Financial, Inc.",
+        "pressure_score": 713.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 666.0,
@@ -568,14 +576,6 @@
         "ticker": "RVMD",
         "company": "Revolution Medicines, Inc.",
         "pressure_score": 343.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CHYM",
-        "company": "Chime Financial, Inc.",
-        "pressure_score": 295.2,
         "sources": [
           "corporate_insider"
         ]
@@ -1098,60 +1098,72 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xec981ed70a",
-        "username": "0xheavy888",
-        "pnl": 13688.17,
-        "win_rate": 0.847,
-        "volume": 3193.28,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 10562.51,
-        "win_rate": 0.8382,
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 138459.39,
+        "win_rate": 0.8993,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x21f333307a",
-        "username": "hi774c",
-        "pnl": 7043.26,
-        "win_rate": 0.847,
-        "volume": 1991.67,
+        "wallet": "0x3b62c64eba",
+        "username": "rollobravado",
+        "pnl": 9967.51,
+        "win_rate": 0.9949,
+        "volume": 13500.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 11022.67,
+        "win_rate": 0.978,
+        "volume": 4535.05,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 33361.69,
-        "win_rate": 0.714,
-        "volume": 117460.81,
+        "wallet": "0xf28e42d20e",
+        "username": "ethanaz",
+        "pnl": 8955.59,
+        "win_rate": 0.8924,
+        "volume": 19054.45,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xec981ed70a",
+        "username": "0xheavy888",
+        "pnl": 13613.81,
+        "win_rate": 0.849,
+        "volume": 4740.41,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xbca08c1bc2",
-        "username": "justaluckydude",
-        "pnl": 7016.11,
-        "win_rate": 0.672,
-        "volume": 30661.73,
+        "wallet": "0xe3c9c84c99",
+        "username": "DimSumConnoisseur.",
+        "pnl": 11434.77,
+        "win_rate": 0.9024,
+        "volume": 267688.2,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xa8cf2ed875",
-        "username": "",
-        "pnl": 85547.42,
-        "win_rate": 0.4932,
+        "wallet": "0xdb859a551f",
+        "username": "AV23IUa",
+        "pnl": 14072.44,
+        "win_rate": 0.7874,
         "volume": 0.0,
         "categories": [
           "sports",
@@ -1159,59 +1171,59 @@
         ]
       },
       {
-        "wallet": "0x3d8a89a20a",
-        "username": "Poyo",
-        "pnl": 50766.92,
-        "win_rate": 0.5256,
-        "volume": 0.0,
+        "wallet": "0xde7be6d489",
+        "username": "wan123",
+        "pnl": 9935.59,
+        "win_rate": 0.7974,
+        "volume": 3638.71,
         "categories": [
+          "sports",
           "politics",
-          "crypto",
-          "sports"
+          "economy"
         ]
       },
       {
-        "wallet": "0x782186952e",
-        "username": "thif - 33063",
-        "pnl": 23607.8,
-        "win_rate": 0.567,
-        "volume": 0.0,
+        "wallet": "0x032eb1bc89",
+        "username": "purplegatto",
+        "pnl": 8764.77,
+        "win_rate": 0.797,
+        "volume": 47202.32,
         "categories": [
           "sports",
-          "crypto",
-          "politics"
+          "politics",
+          "economy"
         ]
       },
       {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 10310.03,
-        "win_rate": 0.615,
-        "volume": 143627.26,
+        "pnl": 100137.47,
+        "win_rate": 0.62,
+        "volume": 146877.26,
         "categories": [
           "sports",
           "politics",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 13278.25,
-        "win_rate": 0.587,
-        "volume": 141007.03,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x51698a47f8",
+        "username": "00gringo00",
+        "pnl": 2203683.5,
+        "win_rate": 1.0,
+        "volume": 4853928.42,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 4941.31,
-        "win_rate": 0.5228,
-        "volume": 198899.25,
+        "pnl": 71800.62,
+        "win_rate": 0.5236,
+        "volume": 522489.68,
         "categories": [
           "sports",
           "economy",
@@ -1219,14 +1231,75 @@
         ]
       },
       {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 64326.86,
+        "win_rate": 0.494,
+        "volume": 393495.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 10310.03,
-        "win_rate": 0.615,
-        "volume": 143627.26,
+        "pnl": 100137.47,
+        "win_rate": 0.62,
+        "volume": 146877.26,
         "categories": [
           "sports",
           "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 31597.07,
+        "win_rate": 0.579,
+        "volume": 823098.54,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe3c9c84c99",
+        "username": "DimSumConnoisseur.",
+        "pnl": 11434.77,
+        "win_rate": 0.9024,
+        "volume": 267688.2,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9b11866433",
+        "username": "",
+        "pnl": 21463.82,
+        "win_rate": 0.523,
+        "volume": 558537.06,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 10105.42,
+        "win_rate": 0.581,
+        "volume": 505110.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0d2d845a6f",
+        "username": "38791873984189",
+        "pnl": 8096.21,
+        "win_rate": 0.48,
+        "volume": 595768.2,
+        "categories": [
+          "sports",
           "crypto"
         ]
       },
@@ -1240,111 +1313,42 @@
           "sports",
           "crypto"
         ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 33361.69,
-        "win_rate": 0.714,
-        "volume": 117460.81,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 14776.1,
-        "win_rate": 0.575,
-        "volume": 124887.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xabb89972b2",
-        "username": "Feromont",
-        "pnl": 5826.23,
-        "win_rate": 0.456,
-        "volume": 67592.51,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 13278.25,
-        "win_rate": 0.587,
-        "volume": 141007.03,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x51698a47f8",
-        "username": "00gringo00",
-        "pnl": 194157.14,
-        "win_rate": 1.0,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0f35109cc3",
-        "username": "",
-        "pnl": 27254.64,
-        "win_rate": 0.4815,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xdc41c39b95",
-        "username": "nigiri99",
-        "pnl": 7085.66,
-        "win_rate": 0.459,
-        "volume": 117710.02,
-        "categories": [
-          "sports",
-          "economy"
-        ]
       }
     ]
   },
   "news": [
     {
-      "title": "Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup",
-      "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-explains-why-added-110130547.html",
-      "ticker": "HNGE",
-      "themes": [
-        "ai"
-      ],
+      "title": "Chime Financial ( CHYM ) versus The Competition Head to Head Survey",
+      "url": "https://www.themarketsdaily.com/2026/09/12/chime-financial-chym-versus-the-competition-head-to-head-survey.html",
+      "ticker": "CHYM",
+      "themes": [],
       "date": "2026-09-12"
     },
     {
-      "title": "Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-explains-why-he-added-hinge-health-hnge-to-his-fantasy-lineup-1836328/",
-      "ticker": "HNGE",
+      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/12/insider-selling-chime-financial-nasdaqchym-cao-sells-642494-70-in-stock.html",
+      "ticker": "CHYM",
       "themes": [
-        "ai"
-      ],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13582132/hinge-health-nysehnge-ceo-daniel-antonio-perez-sells-150000-shares.html",
-      "ticker": "HNGE",
-      "themes": [
-        "leadership",
         "stock"
       ],
       "date": "2026-09-12"
+    },
+    {
+      "title": "Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis",
+      "url": "https://www.dailypolitical.com/2026/09/11/corpay-nysecpay-vs-chime-financial-nasdaqchym-head-to-head-analysis.html",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth",
+      "url": "https://finance.yahoo.com/technology/ai/articles/netskope-ntsk-rides-ai-security-195838867.html",
+      "ticker": "NTSK",
+      "themes": [
+        "ai",
+        "regulatory"
+      ],
+      "date": "2026-09-11"
     },
     {
       "title": "Head to Head Analysis : Smurfit Westrock ( NYSE : SW ) vs . Greif ( NYSE : GEF ) ",
@@ -1354,13 +1358,32 @@
       "date": "2026-09-10"
     },
     {
-      "title": "Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876",
-      "url": "https://www.fool.com/coverage/filings/2026/09/04/hinge-health-director-kristina-leslie-sells-1200-shares-for-105876/?source=iedfolrf0000001",
-      "ticker": "HNGE",
+      "title": "Netskope ( NTSK ) Q2 2027 Earnings Call Transcript",
+      "url": "https://www.aol.com/articles/netskope-ntsk-q2-2027-earnings-233927000.html",
+      "ticker": "NTSK",
       "themes": [
-        "stock"
+        "earnings"
       ],
-      "date": "2026-09-04"
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Netskope ( NTSK ) Q2 2027 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/09/netskope-ntsk-q2-2027-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "NTSK",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth",
+      "url": "https://www.insidermonkey.com/blog/netskope-ntsk-rides-ai-security-wave-to-29-topline-growth-1834666/",
+      "ticker": "NTSK",
+      "themes": [
+        "ai",
+        "regulatory"
+      ],
+      "date": "2026-09-09"
     },
     {
       "title": "Head - To - Head Comparison : Smurfit Westrock ( SW ) & Its Rivals",
@@ -1377,23 +1400,23 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Semtech ( SMTC ) Q2 2027 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/01/semtech-smtc-q2-2027-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "SMTC",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-02"
-    },
-    {
       "title": "Investment Analyst Recent Ratings Changes for EagleRock Land ( EROK ) ",
       "url": "https://www.themarketsdaily.com/2026/09/01/investment-analysts-recent-ratings-changes-for-eaglerock-land-erok.html",
       "ticker": "EROK",
       "themes": [],
       "date": "2026-09-01"
+    },
+    {
+      "title": "BlackSky Technology ( NYSE : BKSY ) CFO Henry Edward Dubois Sells 4 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/01/blacksky-technology-nysebksy-cfo-henry-edward-dubois-sells-4000-shares.html",
+      "ticker": "BKSY",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-01"
     }
   ],
-  "signals_count": 1211,
+  "signals_count": 1219,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

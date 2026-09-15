@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-15T01:40:38+00:00 -->
+<!-- trader_prompt.md generado 2026-09-15T07:58:32+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-15T01:40:38+00:00 · ventana señales 2026-08-16 -> 2026-09-15_
+_Generado 2026-09-15T07:58:32+00:00 · ventana señales 2026-08-16 -> 2026-09-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.1)
+- Volatilidad: `normal` (VIX 17.65)
 - Tendencia: `bull` (SPY 760.88 · MA50 758.94 · MA200 712.55 · dist MA200: 6.78%)
 - Credito: `tight` (HY spread 2.65)
 - Tipos: `flat` (curva 10y-2y 0.32)
@@ -259,21 +259,22 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 760.88 | -0.45% | -1.21% | -1.99% |
 | QQQ | 12.0% | core | 709.18 | -0.8% | -1.36% | -2.99% |
 | TLT | 12.0% | core | 80.93 | 0.07% | -1.56% | -0.97% |
-| CSQ | 10.8% | satellite | 20.43 | -1.28% | -2.5% | -1.75% |
+| CSQ | 9.9% | satellite | 20.43 | -1.28% | -2.5% | -1.75% |
 | GLD | 9.3% | core | 392.84 | -1.49% | -3.42% | -2.15% |
-| AMH | 8.8% | satellite | 31.63 | 0.48% | -2.59% | -7.19% |
-| ECL | 7.5% | satellite | 275.51 | -0.24% | -1.35% | -0.22% |
+| AMH | 8.1% | satellite | 31.63 | 0.48% | -2.59% | -7.19% |
+| ECL | 6.9% | satellite | 275.51 | -0.24% | -1.35% | -0.22% |
 | IEF | 6.2% | core | 90.93 | -0.09% | -1.43% | -1.92% |
-| PMTS | 2.3% | satellite | 24.26 | 7.82% | -14.09% | -14.88% |
-| SLGL | 2.1% | satellite | 65.18 | -1.15% | -6.24% | -23.04% |
-| USAR | 1.9% | satellite | 15.71 | 0.96% | -10.79% | -21.45% |
+| MG | 2.7% | satellite | 19.53 | -1.41% | 2.14% | 7.9% |
+| PMTS | 2.1% | satellite | 24.26 | 7.82% | -14.09% | -14.88% |
+| SLGL | 2.0% | satellite | 65.18 | -1.15% | -6.24% | -23.04% |
+| USAR | 1.8% | satellite | 15.71 | 0.96% | -10.79% | -21.45% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.7%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
-- Max drawdown historico: -3.8%
-- Beta vs SPY: 0.728 · posiciones efectivas: 12.2 · HHI: 0.0821
+- Volatilidad anualizada: 9.9%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.729 · posiciones efectivas: 12.7 · HHI: 0.0788
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -283,6 +284,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **ECL** · score agregado 117.5 · 2 señales · fuentes: corporate_insider
 - **SLGL** · score agregado 117.2 · 2 señales · fuentes: corporate_insider
 - **AMH** · score agregado 111.7 · 2 señales · fuentes: corporate_insider
+- **MG** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -310,6 +312,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| PMTS | 60 | corporate_insider | Parallel49 Equity, ULC | $54,900,786 | - |
 | DBX | 58 | corporate_insider | Houston Andrew | $11,350,091 | - |
 | BNTX | 56 | corporate_insider | Sahin Ugur | $4,362,021 | - |
 | BNTX | 56 | corporate_insider | Sahin Ugur | $4,077,315 | - |
@@ -317,7 +320,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | RYTM | 56 | corporate_insider | Meeker David P | $3,146,761 | - |
 | FANG | 55 | corporate_insider | Stice Travis D. | $15,323,272 | - |
 | P | 55 | corporate_insider | Giancarlo Charles H | $2,330,694 | - |
-| AMPL | 55 | corporate_insider | Skates Spenser | $2,275,611 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -333,8 +335,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 80.93 (0.07% / -1.56% / -0.97%) [2026-09-14]
 - IEF: 90.93 (-0.09% / -1.43% / -1.92%) [2026-09-14]
 - GLD: 392.84 (-1.49% / -3.42% / -2.15%) [2026-09-14]
-- ^VIX: 17.1 (7.95% / 11.76% / 12.57%) [2026-09-14]
-- BTC-USD: 77964.0 (1.47% / -0.38% / -0.76%) [2026-09-15]
+- ^VIX: 17.65 (3.22% / 12.28% / 11.43%) [2026-09-15]
+- BTC-USD: 76849.47 (-1.68% / 0.37% / -2.76%) [2026-09-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,22 +351,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (2), leadership (1), earnings (1)
+**Temas dominantes**: stock (2), ai (2), regulatory (2), earnings (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
-- [HNGE] Jim Cramer Explains Why He Added Hinge Health ( HNGE ) to His Fantasy Lineup (2026-09-12)
-- [HNGE] Hinge Health ( NYSE : HNGE ) CEO Daniel Antonio Perez Sells 150 , 000 Shares (2026-09-12)
+- [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
+- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
+- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
+- [NTSK] Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth (2026-09-11)
 - [SW] Head to Head Analysis : Smurfit Westrock ( NYSE : SW ) vs . Greif ( NYSE : GEF ) (2026-09-10)
-- [HNGE] Hinge Health Director Kristina Leslie Sells 1 , 200 Shares for $105 , 876 (2026-09-04)
+- [NTSK] Netskope ( NTSK ) Q2 2027 Earnings Call Transcript (2026-09-10)
+- [NTSK] Netskope ( NTSK ) Q2 2027 Earnings Call Transcript (2026-09-10)
+- [NTSK] Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth (2026-09-09)
 - [SW] Head - To - Head Comparison : Smurfit Westrock ( SW ) & Its Rivals (2026-09-04)
 - [SW] Financial Contrast : O - I Glass ( NYSE : OI ) vs . Smurfit Westrock ( NYSE : SW ) (2026-09-02)
-- [SMTC] Semtech ( SMTC ) Q2 2027 Earnings Call Transcript (2026-09-02)
-- [EROK] Investment Analyst Recent Ratings Changes for EagleRock Land ( EROK ) (2026-09-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Parallel49 Equity, ULC vendio PMTS por $54.9M el 2026-09-14.
 - CEO Houston Andrew vendio DBX por $11.4M el 2026-09-10.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
@@ -375,11 +379,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xheavy888 · PnL $13,688 · win rate 85% · categorias: sports
-- BrotherObama · PnL $10,563 · win rate 84% · categorias: sports
-- hi774c · PnL $7,043 · win rate 85% · categorias: sports
-- wr0ngw4yb3tt0r · PnL $33,362 · win rate 71% · categorias: sports
-- justaluckydude · PnL $7,016 · win rate 67% · categorias: sports
+- Kch-Temp · PnL $138,459 · win rate 90% · categorias: sports
+- rollobravado · PnL $9,968 · win rate 99% · categorias: sports, politics
+- RJW1 · PnL $11,023 · win rate 98% · categorias: sports
+- ethanaz · PnL $8,956 · win rate 89% · categorias: sports, crypto
+- 0xheavy888 · PnL $13,614 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -387,7 +391,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 461 registros 30d · ultimo dato 2026-09-14
+- **sec_insiders**: `ok` · 469 registros 30d · ultimo dato 2026-09-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -401,7 +405,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AMH, CSQ, ECL, GLD, IEF, PMTS, QQQ, SLGL, SPY, TLT, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMH, CSQ, ECL, GLD, IEF, MG, PMTS, QQQ, SLGL, SPY, TLT, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:40:37+00:00",
+  "generated_at": "2026-09-15T07:58:31+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8501,
@@ -8,14 +8,15 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "CSQ": 0.1076,
+    "CSQ": 0.0991,
     "GLD": 0.0933,
-    "AMH": 0.0885,
-    "ECL": 0.0748,
+    "AMH": 0.0814,
+    "ECL": 0.0688,
     "IEF": 0.0622,
-    "PMTS": 0.0232,
-    "SLGL": 0.0214,
-    "USAR": 0.0191
+    "MG": 0.0267,
+    "PMTS": 0.0214,
+    "SLGL": 0.0197,
+    "USAR": 0.0175
   },
   "core": {
     "SPY": 0.1934,
@@ -25,12 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CSQ": 0.0957,
-    "PMTS": 0.0206,
-    "USAR": 0.017,
-    "ECL": 0.0665,
-    "SLGL": 0.019,
-    "AMH": 0.0787
+    "CSQ": 0.0881,
+    "PMTS": 0.019,
+    "USAR": 0.0156,
+    "ECL": 0.0612,
+    "SLGL": 0.0175,
+    "AMH": 0.0724,
+    "MG": 0.0237
   },
   "satellite_rationale": [
     {
@@ -80,18 +82,26 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "MG",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0971,
-    "var_95_1d": 0.0095,
-    "cvar_95_1d": 0.011,
-    "max_drawdown": -0.038,
-    "beta_spy": 0.728,
-    "hhi": 0.0821,
+    "ann_vol": 0.099,
+    "var_95_1d": 0.0097,
+    "cvar_95_1d": 0.0111,
+    "max_drawdown": -0.0353,
+    "beta_spy": 0.729,
+    "hhi": 0.0788,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.2,
+    "n_positions": 12,
+    "effective_positions": 12.7,
     "gross_exposure": 0.8501,
     "days_used": 50
   },
