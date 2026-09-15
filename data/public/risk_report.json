@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-09-15T13:49:44+00:00",
+  "generated_at": "2026-09-15T18:29:35+00:00",
   "portfolio": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "CSQ": 0.0935,
-    "GLD": 0.0932,
-    "AMH": 0.0826,
-    "ECL": 0.0655,
-    "IEF": 0.0622,
-    "MG": 0.0306,
-    "PMTS": 0.0238,
-    "SLGL": 0.0218,
-    "USAR": 0.017
+    "QQQ": 0.0976,
+    "TLT": 0.0976,
+    "CSQ": 0.0956,
+    "AMH": 0.0793,
+    "GLD": 0.0731,
+    "IEF": 0.0488,
+    "MG": 0.026,
+    "GOLD": 0.0242,
+    "PMTS": 0.0208,
+    "USAR": 0.0171
   },
   "metrics": {
-    "ann_vol": 0.1178,
-    "var_95_1d": 0.0095,
-    "cvar_95_1d": 0.015,
-    "max_drawdown": -0.0997,
-    "beta_spy": 0.561,
-    "hhi": 0.0779,
+    "ann_vol": 0.0947,
+    "var_95_1d": 0.0087,
+    "cvar_95_1d": 0.0132,
+    "max_drawdown": -0.0851,
+    "beta_spy": 0.492,
+    "hhi": 0.0586,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 12.8,
-    "gross_exposure": 0.8502,
+    "n_positions": 11,
+    "effective_positions": 17.1,
+    "gross_exposure": 0.7001,
     "days_used": 504
   },
   "limits": {
@@ -34,7 +33,7 @@
     "max_gross_exposure": 1.0,
     "respect_regime_budget": true
   },
-  "regime_budget": 0.9,
+  "regime_budget": 0.7,
   "gate": {
     "passed": true,
     "violations": [],
@@ -44,14 +43,14 @@
     "horizon_days": 21,
     "n_sims": 5000,
     "method": "historical_bootstrap",
-    "expected_return_pct": 1.57,
-    "median_return_pct": 1.43,
-    "p5_return_pct": -3.83,
-    "p25_return_pct": -0.62,
-    "p75_return_pct": 3.57,
-    "p95_return_pct": 7.62,
-    "prob_loss": 0.313,
-    "var_95_horizon": 0.0383,
-    "cvar_95_horizon": 0.0516
+    "expected_return_pct": 1.02,
+    "median_return_pct": 0.95,
+    "p5_return_pct": -3.46,
+    "p25_return_pct": -0.72,
+    "p75_return_pct": 2.72,
+    "p95_return_pct": 5.62,
+    "prob_loss": 0.352,
+    "var_95_horizon": 0.0346,
+    "cvar_95_horizon": 0.0451
   }
 }

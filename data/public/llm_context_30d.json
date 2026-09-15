@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-15T13:48:40.836119+00:00",
+  "generated_at": "2026-09-15T18:28:35.277005+00:00",
   "window": {
     "from": "2026-08-16",
     "to": "2026-09-15",
@@ -23,10 +23,6 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "regulatory",
-      "earnings",
-      "merger",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -436,14 +432,6 @@
         ]
       },
       {
-        "ticker": "GPUS",
-        "company": "Hyperscale Data, Inc.",
-        "pressure_score": 269.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "JCTC",
         "company": "JEWETT CAMERON TRADING CO LTD",
         "pressure_score": 264.4,
@@ -508,6 +496,14 @@
         ]
       },
       {
+        "ticker": "RWT",
+        "company": "REDWOOD TRUST INC",
+        "pressure_score": 156.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "OFLX",
         "company": "Omega Flex, Inc.",
         "pressure_score": 148.3,
@@ -545,6 +541,14 @@
         "ticker": "GMRS",
         "company": "GMR Solutions Inc.",
         "pressure_score": 467.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "OMDA",
+        "company": "Omada Health, Inc.",
+        "pressure_score": 419.1,
         "sources": [
           "corporate_insider"
         ]
@@ -606,6 +610,14 @@
         ]
       },
       {
+        "ticker": "ECAT",
+        "company": "BlackRock ESG Capital Allocation Term Trust",
+        "pressure_score": 222.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "PACS",
         "company": "PACS Group, Inc.",
         "pressure_score": 219.1,
@@ -620,26 +632,19 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "VHC",
-        "company": "VirnetX Holding Corp",
-        "pressure_score": 215.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "QUIK",
-        "company": "QUICKLOGIC Corp",
-        "pressure_score": 213.9,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "RWT",
+      "company": "REDWOOD TRUST INC",
+      "actor": "Abate Christopher J",
+      "actor_type": "ceo",
+      "amount": 383900.0,
+      "date": "2026-09-15",
+      "score": 80.3
+    },
     {
       "ticker": "MAIA",
       "company": "MAIA Biotechnology, Inc.",
@@ -657,6 +662,15 @@
       "amount": 248500.0,
       "date": "2026-09-11",
       "score": 76.6
+    },
+    {
+      "ticker": "RWT",
+      "company": "REDWOOD TRUST INC",
+      "actor": "Carillo Brooke",
+      "actor_type": "cfo",
+      "amount": 100238.17,
+      "date": "2026-09-15",
+      "score": 76.1
     },
     {
       "ticker": "GREE",
@@ -756,24 +770,6 @@
       "amount": 472603.75,
       "date": "2026-09-11",
       "score": 74.2
-    },
-    {
-      "ticker": "OFLX",
-      "company": "Omega Flex, Inc.",
-      "actor": "Moran Edwin B.",
-      "actor_type": "ceo",
-      "amount": 20089.7,
-      "date": "2026-09-14",
-      "score": 73.9
-    },
-    {
-      "ticker": "SLGL",
-      "company": "Sol-Gel Technologies Ltd.",
-      "actor": "Opaleye Management Inc.",
-      "actor_type": "ten_percent_owner",
-      "amount": 108942.65,
-      "date": "2026-09-10",
-      "score": 73.5
     }
   ],
   "institutional_changes": [
@@ -1006,6 +1002,15 @@
       "date": "2026-09-08"
     },
     {
+      "filer": "Alternative Liquidity Index LP",
+      "company": "GENERAL STEEL HOLDINGS INC",
+      "ticker": "",
+      "ownership_pct": 83.0,
+      "shares": 225010000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-09-15"
+    },
+    {
       "filer": "John & Daria Barry Foundation",
       "company": "Prospect Floating Rate & Alternative Income Fund, Inc.",
       "ticker": "",
@@ -1085,15 +1090,6 @@
       "shares": 317418715,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-09"
-    },
-    {
-      "filer": "BROWN BROTHERS HARRIMAN & CO",
-      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 64.64,
-      "shares": 2817812,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-11"
     }
   ],
   "polymarket": {
@@ -1111,19 +1107,9 @@
       {
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
-        "pnl": 39594.55,
+        "pnl": 42728.25,
         "win_rate": 0.9388,
-        "volume": 99100.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 11042.96,
-        "win_rate": 0.978,
-        "volume": 5643.77,
+        "volume": 151285.44,
         "categories": [
           "sports"
         ]
@@ -1141,41 +1127,31 @@
       {
         "wallet": "0xbbf3792524",
         "username": "0xbbf379252411511ADAb081F016Dc991aA6bbAA3A-1768154730738",
-        "pnl": 14325.84,
-        "win_rate": 0.8524,
-        "volume": 55689.92,
+        "pnl": 17222.2,
+        "win_rate": 0.8526,
+        "volume": 63871.73,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xec981ed70a",
-        "username": "0xheavy888",
-        "pnl": 13484.02,
-        "win_rate": 0.849,
-        "volume": 4783.27,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xa2c908ce8b",
         "username": "jaytee158",
-        "pnl": 17463.04,
+        "pnl": 27361.33,
         "win_rate": 0.805,
-        "volume": 75433.98,
+        "volume": 196424.5,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xe3c9c84c99",
-        "username": "DimSumConnoisseur.",
-        "pnl": 11434.77,
-        "win_rate": 0.9024,
-        "volume": 267688.2,
+        "wallet": "0xec981ed70a",
+        "username": "0xheavy888",
+        "pnl": 13626.68,
+        "win_rate": 0.848,
+        "volume": 5069.77,
         "categories": [
           "sports"
         ]
@@ -1183,7 +1159,7 @@
       {
         "wallet": "0xdb859a551f",
         "username": "AV23IUa",
-        "pnl": 14699.54,
+        "pnl": 15117.61,
         "win_rate": 0.7874,
         "volume": 41806.59,
         "categories": [
@@ -1192,15 +1168,37 @@
         ]
       },
       {
-        "wallet": "0xde7be6d489",
-        "username": "wan123",
-        "pnl": 11199.23,
-        "win_rate": 0.7974,
-        "volume": 12988.45,
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 68690.19,
+        "win_rate": 0.666,
+        "volume": 1028950.0,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xfde6d31063",
+        "username": "bogdanc1",
+        "pnl": 19219.85,
+        "win_rate": 0.7356,
+        "volume": 125280.07,
+        "categories": [
+          "politics",
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xfea31bc088",
+        "username": "ndb1",
+        "pnl": 101839.58,
+        "win_rate": 0.62,
+        "volume": 147223.45,
         "categories": [
           "sports",
           "politics",
-          "economy"
+          "crypto"
         ]
       }
     ],
@@ -1208,9 +1206,9 @@
       {
         "wallet": "0x51698a47f8",
         "username": "00gringo00",
-        "pnl": 2203683.5,
+        "pnl": 2173173.69,
         "win_rate": 1.0,
-        "volume": 4853928.42,
+        "volume": 7373734.62,
         "categories": [
           "sports"
         ]
@@ -1218,9 +1216,9 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 73111.47,
+        "pnl": 65621.42,
         "win_rate": 0.5236,
-        "volume": 787771.97,
+        "volume": 832568.36,
         "categories": [
           "sports",
           "economy",
@@ -1228,31 +1226,21 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 34593.25,
-        "win_rate": 0.576,
-        "volume": 2012059.78,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 20459.38,
-        "win_rate": 0.575,
-        "volume": 1476053.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x1610db79f7",
         "username": "HMLSF",
-        "pnl": 100599.09,
-        "win_rate": 0.4801,
-        "volume": 565063.78,
+        "pnl": 135614.0,
+        "win_rate": 0.4802,
+        "volume": 1054029.31,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 51958.98,
+        "win_rate": 0.573,
+        "volume": 2906997.21,
         "categories": [
           "sports"
         ]
@@ -1260,9 +1248,9 @@
       {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 17205.02,
-        "win_rate": 0.504,
-        "volume": 229724.94,
+        "pnl": 16053.09,
+        "win_rate": 0.5,
+        "volume": 362264.41,
         "categories": [
           "economy",
           "crypto",
@@ -1270,33 +1258,21 @@
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 64455.52,
-        "win_rate": 0.494,
-        "volume": 419287.84,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 13786.28,
+        "win_rate": 0.703,
+        "volume": 2046134.82,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xfea31bc088",
-        "username": "ndb1",
-        "pnl": 100308.87,
-        "win_rate": 0.62,
-        "volume": 147168.46,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xe3c9c84c99",
-        "username": "DimSumConnoisseur.",
-        "pnl": 11434.77,
-        "win_rate": 0.9024,
-        "volume": 267688.2,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 64458.64,
+        "win_rate": 0.494,
+        "volume": 456045.58,
         "categories": [
           "sports"
         ]
@@ -1304,10 +1280,34 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 34849.64,
-        "win_rate": 0.661,
-        "volume": 424702.5,
+        "pnl": 68690.19,
+        "win_rate": 0.666,
+        "volume": 1028950.0,
         "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe734e7bf7c",
+        "username": "boyau",
+        "pnl": 19355.95,
+        "win_rate": 0.487,
+        "volume": 321830.17,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xfea31bc088",
+        "username": "ndb1",
+        "pnl": 101839.58,
+        "win_rate": 0.62,
+        "volume": 147223.45,
+        "categories": [
+          "sports",
+          "politics",
           "crypto"
         ]
       }
@@ -1315,55 +1315,30 @@
   },
   "news": [
     {
-      "title": "Sequoia Financial Advisors LLC Acquires 4 , 748 Shares of Huntington Ingalls Industries , Inc . $HII",
-      "url": "https://www.dailypolitical.com/2026/09/12/sequoia-financial-advisors-llc-acquires-4748-shares-of-huntington-ingalls-industries-inc-hii.html",
-      "ticker": "HII",
+      "title": "Chime Financial ( CHYM ) versus The Competition Head to Head Survey",
+      "url": "https://www.themarketsdaily.com/2026/09/12/chime-financial-chym-versus-the-competition-head-to-head-survey.html",
+      "ticker": "CHYM",
+      "themes": [],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/12/insider-selling-chime-financial-nasdaqchym-cao-sells-642494-70-in-stock.html",
+      "ticker": "CHYM",
       "themes": [
-        "merger",
         "stock"
       ],
       "date": "2026-09-12"
     },
     {
-      "title": "Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth",
-      "url": "https://finance.yahoo.com/technology/ai/articles/netskope-ntsk-rides-ai-security-195838867.html",
-      "ticker": "NTSK",
-      "themes": [
-        "ai",
-        "regulatory"
-      ],
+      "title": "Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis",
+      "url": "https://www.dailypolitical.com/2026/09/11/corpay-nysecpay-vs-chime-financial-nasdaqchym-head-to-head-analysis.html",
+      "ticker": "CHYM",
+      "themes": [],
       "date": "2026-09-11"
-    },
-    {
-      "title": "Netskope ( NTSK ) Q2 2027 Earnings Call Transcript",
-      "url": "https://www.aol.com/articles/netskope-ntsk-q2-2027-earnings-233927000.html",
-      "ticker": "NTSK",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Netskope ( NTSK ) Q2 2027 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/09/netskope-ntsk-q2-2027-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "NTSK",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Netskope ( NTSK ) Rides AI Security Wave to 29 % Topline Growth",
-      "url": "https://www.insidermonkey.com/blog/netskope-ntsk-rides-ai-security-wave-to-29-topline-growth-1834666/",
-      "ticker": "NTSK",
-      "themes": [
-        "ai",
-        "regulatory"
-      ],
-      "date": "2026-09-09"
     }
   ],
-  "signals_count": 1213,
+  "signals_count": 1285,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
