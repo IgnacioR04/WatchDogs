@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-15T18:28:35.277005+00:00",
+  "generated_at": "2026-09-15T21:36:07.973708+00:00",
   "window": {
     "from": "2026-08-16",
     "to": "2026-09-15",
@@ -23,7 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "stock"
+      "stock",
+      "earnings",
+      "ai",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -31,20 +34,20 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio GMRS ($17.8M)",
-      "summary": "CEO Loporcaro Nicola vendio GMRS por $17.8M el 2026-09-14.",
+      "title": "CEO vendio DELL ($21.1M)",
+      "summary": "CEO Trizzino Peter vendio DELL por $21.1M el 2026-09-11 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Loporcaro Nicola",
+      "actor_name": "Trizzino Peter",
       "actor_type": "ceo",
-      "ticker": "GMRS",
+      "ticker": "DELL",
       "direction": "sell",
-      "amount_estimated": 17776644.4,
-      "event_date": "2026-09-14",
-      "importance_score": 84.6,
-      "cross_source_score": 0.0,
+      "amount_estimated": 21137637.6,
+      "event_date": "2026-09-11",
+      "importance_score": 84.7,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2126783/000110465926107664/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2110325/000211032526000008/"
     },
     {
       "id": "move_2",
@@ -67,24 +70,42 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO vendio DBX ($11.4M)",
-      "summary": "CEO Houston Andrew vendio DBX por $11.4M el 2026-09-10.",
+      "title": "10% owner vendio LFST ($226.3M)",
+      "summary": "10% owner TPG GP A, LLC vendio LFST por $226.3M el 2026-09-11.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Houston Andrew",
-      "actor_type": "ceo",
-      "ticker": "DBX",
+      "actor_name": "TPG GP A, LLC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "LFST",
       "direction": "sell",
-      "amount_estimated": 11350091.3,
-      "event_date": "2026-09-10",
-      "importance_score": 82.1,
+      "amount_estimated": 226255274.45,
+      "event_date": "2026-09-11",
+      "importance_score": 84.3,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1734563/000173456326000019/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1099776/000199937126020559/"
     },
     {
       "id": "move_4",
       "rank": 4,
+      "title": "CEO compro GIII ($1.1M)",
+      "summary": "CEO GOLDFARB MORRIS compro GIII por $1.1M el 2026-09-14.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "GOLDFARB MORRIS",
+      "actor_type": "ceo",
+      "ticker": "GIII",
+      "direction": "buy",
+      "amount_estimated": 1117600.0,
+      "event_date": "2026-09-14",
+      "importance_score": 82.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1007772/000082100226000041/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -101,8 +122,8 @@
       "source_url": ""
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -119,8 +140,8 @@
       "source_url": ""
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -137,8 +158,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -155,8 +176,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -173,8 +194,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -191,8 +212,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -209,8 +230,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -227,8 +248,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -245,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -263,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -281,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -299,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -317,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro INTEL CORP ($16.2B)",
       "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
       "source": "sec_13f",
@@ -335,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
       "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
       "source": "sec_13f",
@@ -353,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager compro BROADCOM INC ($15.1B)",
       "summary": "Institutional manager State Street Corp compro BROADCOM INC por $15.1B.",
       "source": "sec_13f",
@@ -369,40 +390,38 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($14.9B)",
-      "summary": "Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Citadel Advisors LLC",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 14883380438,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "BDCO",
-        "company": "BLUE DOLPHIN ENERGY CO",
-        "pressure_score": 423.8,
+        "ticker": "BGDE",
+        "company": "Big Digital Energy, Inc.",
+        "pressure_score": 519.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "PMTS",
-        "company": "CPI Card Group Inc.",
-        "pressure_score": 290.3,
+        "ticker": "EVRG",
+        "company": "Evergy, Inc.",
+        "pressure_score": 469.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CSPI",
+        "company": "CSP INC /MA/",
+        "pressure_score": 404.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "COO",
+        "company": "COOPER COMPANIES, INC.",
+        "pressure_score": 295.9,
         "sources": [
           "corporate_insider"
         ]
@@ -413,22 +432,6 @@
         "pressure_score": 282.0,
         "sources": [
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "QVCG",
-        "company": "QVC GROUP INC",
-        "pressure_score": 279.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "AMH",
-        "company": "American Homes 4 Rent",
-        "pressure_score": 275.4,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -448,11 +451,12 @@
         ]
       },
       {
-        "ticker": "BLNE",
-        "company": "Beeline Holdings, Inc.",
-        "pressure_score": 221.9,
+        "ticker": "AFCG",
+        "company": "Advanced Flower Capital Inc.",
+        "pressure_score": 219.2,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -496,17 +500,17 @@
         ]
       },
       {
-        "ticker": "RWT",
-        "company": "REDWOOD TRUST INC",
-        "pressure_score": 156.4,
+        "ticker": "RGCO",
+        "company": "RGC RESOURCES INC",
+        "pressure_score": 199.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "OFLX",
-        "company": "Omega Flex, Inc.",
-        "pressure_score": 148.3,
+        "ticker": "VENU",
+        "company": "Venu Holding Corp",
+        "pressure_score": 152.2,
         "sources": [
           "corporate_insider"
         ]
@@ -514,17 +518,25 @@
     ],
     "sell_pressure": [
       {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 1841.1,
+        "ticker": "AMAL",
+        "company": "Amalgamated Financial Corp.",
+        "pressure_score": 783.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CHYM",
-        "company": "Chime Financial, Inc.",
-        "pressure_score": 713.8,
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "pressure_score": 764.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CMPR",
+        "company": "CIMPRESS plc",
+        "pressure_score": 438.8,
         "sources": [
           "corporate_insider"
         ]
@@ -532,15 +544,7 @@
       {
         "ticker": "P",
         "company": "Everpure, Inc.",
-        "pressure_score": 666.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GMRS",
-        "company": "GMR Solutions Inc.",
-        "pressure_score": 467.5,
+        "pressure_score": 432.4,
         "sources": [
           "corporate_insider"
         ]
@@ -562,25 +566,17 @@
         ]
       },
       {
+        "ticker": "CSTL",
+        "company": "CASTLE BIOSCIENCES INC",
+        "pressure_score": 381.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HNGE",
         "company": "Hinge Health, Inc.",
         "pressure_score": 370.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HOOD",
-        "company": "Robinhood Markets, Inc.",
-        "pressure_score": 348.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NHC",
-        "company": "NATIONAL HEALTHCARE CORP",
-        "pressure_score": 346.8,
         "sources": [
           "corporate_insider"
         ]
@@ -594,17 +590,25 @@
         ]
       },
       {
-        "ticker": "LOGI",
-        "company": "LOGITECH INTERNATIONAL S.A.",
-        "pressure_score": 279.8,
+        "ticker": "CRDO",
+        "company": "Credo Technology Group Holding Ltd",
+        "pressure_score": 284.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DBX",
-        "company": "DROPBOX, INC.",
-        "pressure_score": 238.8,
+        "ticker": "KRRO",
+        "company": "Korro Bio, Inc.",
+        "pressure_score": 270.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WLFC",
+        "company": "WILLIS LEASE FINANCE CORP",
+        "pressure_score": 224.1,
         "sources": [
           "corporate_insider"
         ]
@@ -618,17 +622,17 @@
         ]
       },
       {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 219.1,
+        "ticker": "WST",
+        "company": "WEST PHARMACEUTICAL SERVICES INC",
+        "pressure_score": 220.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BKSY",
-        "company": "BlackSky Technology Inc.",
-        "pressure_score": 218.1,
+        "ticker": "PACS",
+        "company": "PACS Group, Inc.",
+        "pressure_score": 219.1,
         "sources": [
           "corporate_insider"
         ]
@@ -637,13 +641,22 @@
   },
   "insider_buying": [
     {
-      "ticker": "RWT",
-      "company": "REDWOOD TRUST INC",
-      "actor": "Abate Christopher J",
+      "ticker": "GIII",
+      "company": "G III APPAREL GROUP LTD /DE/",
+      "actor": "GOLDFARB MORRIS",
       "actor_type": "ceo",
-      "amount": 383900.0,
-      "date": "2026-09-15",
-      "score": 80.3
+      "amount": 1117600.0,
+      "date": "2026-09-14",
+      "score": 82.6
+    },
+    {
+      "ticker": "VENU",
+      "company": "Venu Holding Corp",
+      "actor": "ROTH JAY W",
+      "actor_type": "ceo",
+      "amount": 350000.0,
+      "date": "2026-09-11",
+      "score": 78.6
     },
     {
       "ticker": "MAIA",
@@ -673,6 +686,24 @@
       "score": 76.1
     },
     {
+      "ticker": "CELH",
+      "company": "Celsius Holdings, Inc.",
+      "actor": "DeSantis Damon",
+      "actor_type": "director",
+      "amount": 553000.0,
+      "date": "2026-09-14",
+      "score": 76.1
+    },
+    {
+      "ticker": "COO",
+      "company": "COOPER COMPANIES, INC.",
+      "actor": "Kurzius Lawrence Erik",
+      "actor_type": "director",
+      "amount": 539150.0,
+      "date": "2026-09-14",
+      "score": 76.0
+    },
+    {
       "ticker": "GREE",
       "company": "Vulcan Infrastructure & Power Inc.",
       "actor": "Kovler Jordan",
@@ -700,6 +731,15 @@
       "score": 75.8
     },
     {
+      "ticker": "AFCG",
+      "company": "Advanced Flower Capital Inc.",
+      "actor": "TANNENBAUM LEONARD M",
+      "actor_type": "ten_percent_owner",
+      "amount": 88193.0,
+      "date": "2026-09-14",
+      "score": 75.8
+    },
+    {
       "ticker": "ECL",
       "company": "ECOLAB INC.",
       "actor": "Green Eric Mark",
@@ -709,13 +749,22 @@
       "score": 75.7
     },
     {
-      "ticker": "BLNE",
-      "company": "Beeline Holdings, Inc.",
-      "actor": "Liuzza Nicholas Reyland JR",
-      "actor_type": "ceo",
-      "amount": 94225.2,
-      "date": "2026-09-10",
-      "score": 75.7
+      "ticker": "CELH",
+      "company": "Celsius Holdings, Inc.",
+      "actor": "DeSantis Damon",
+      "actor_type": "director",
+      "amount": 447200.0,
+      "date": "2026-09-15",
+      "score": 75.6
+    },
+    {
+      "ticker": "NCDL",
+      "company": "Nuveen Churchill Direct Lending Corp.",
+      "actor": "Vichness Shaul",
+      "actor_type": "cfo",
+      "amount": 61250.0,
+      "date": "2026-09-14",
+      "score": 75.0
     },
     {
       "ticker": "SDHC",
@@ -725,51 +774,6 @@
       "amount": 199522.22,
       "date": "2026-09-10",
       "score": 74.8
-    },
-    {
-      "ticker": "PMTS",
-      "company": "CPI Card Group Inc.",
-      "actor": "Riley H Sanford",
-      "actor_type": "director",
-      "amount": 299989.5,
-      "date": "2026-09-14",
-      "score": 74.7
-    },
-    {
-      "ticker": "GREE",
-      "company": "Vulcan Infrastructure & Power Inc.",
-      "actor": "Mulvihill Christian",
-      "actor_type": "cfo",
-      "amount": 99999.09,
-      "date": "2026-09-10",
-      "score": 74.6
-    },
-    {
-      "ticker": "OFLX",
-      "company": "Omega Flex, Inc.",
-      "actor": "Unger Matthew Francis",
-      "actor_type": "ceo",
-      "amount": 25420.0,
-      "date": "2026-09-14",
-      "score": 74.4
-    },
-    {
-      "ticker": "PMTS",
-      "company": "CPI Card Group Inc.",
-      "actor": "Peters Nicholas",
-      "actor_type": "director",
-      "amount": 250002.0,
-      "date": "2026-09-14",
-      "score": 74.3
-    },
-    {
-      "ticker": "ANGX",
-      "company": "Angel Studios, Inc.",
-      "actor": "Sarowitz Steven I",
-      "actor_type": "director",
-      "amount": 472603.75,
-      "date": "2026-09-11",
-      "score": 74.2
     }
   ],
   "institutional_changes": [
@@ -1095,6 +1099,16 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x19c4aa3200",
+        "username": "Devs777",
+        "pnl": 100309.12,
+        "win_rate": 1.0,
+        "volume": 217657.65,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x924379a79c",
         "username": "Kch-Temp",
         "pnl": 138459.39,
@@ -1107,94 +1121,80 @@
       {
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
-        "pnl": 42728.25,
-        "win_rate": 0.9388,
+        "pnl": 71913.51,
+        "win_rate": 0.9396,
         "volume": 151285.44,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xc1c7bb8761",
-        "username": "five5120",
-        "pnl": 19041.3,
-        "win_rate": 0.9013,
-        "volume": 124840.12,
+        "wallet": "0x9ee8bbc36d",
+        "username": "gambamaster",
+        "pnl": 109056.85,
+        "win_rate": 0.8077,
+        "volume": 600507.58,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xbbf3792524",
-        "username": "0xbbf379252411511ADAb081F016Dc991aA6bbAA3A-1768154730738",
-        "pnl": 17222.2,
-        "win_rate": 0.8526,
-        "volume": 63871.73,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xa2c908ce8b",
         "username": "jaytee158",
-        "pnl": 27361.33,
+        "pnl": 31346.59,
         "win_rate": 0.805,
-        "volume": 196424.5,
+        "volume": 295812.03,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xec981ed70a",
-        "username": "0xheavy888",
-        "pnl": 13626.68,
-        "win_rate": 0.848,
-        "volume": 5069.77,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 193475.39,
+        "win_rate": 0.67,
+        "volume": 3192801.76,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdb859a551f",
-        "username": "AV23IUa",
-        "pnl": 15117.61,
-        "win_rate": 0.7874,
-        "volume": 41806.59,
+        "wallet": "0x7ea571c404",
+        "username": "Cannae",
+        "pnl": 22569.88,
+        "win_rate": 0.78,
+        "volume": 251678.74,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 68690.19,
+        "pnl": 93018.03,
         "win_rate": 0.666,
-        "volume": 1028950.0,
+        "volume": 1554296.7,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0xfde6d31063",
-        "username": "bogdanc1",
-        "pnl": 19219.85,
-        "win_rate": 0.7356,
-        "volume": 125280.07,
+        "wallet": "0x9e3ae3f398",
+        "username": "MinevaJ",
+        "pnl": 23898.44,
+        "win_rate": 0.749,
+        "volume": 319710.02,
         "categories": [
-          "politics",
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 101839.58,
+        "pnl": 106959.68,
         "win_rate": 0.62,
-        "volume": 147223.45,
+        "volume": 147236.68,
         "categories": [
           "sports",
           "politics",
@@ -1206,8 +1206,8 @@
       {
         "wallet": "0x51698a47f8",
         "username": "00gringo00",
-        "pnl": 2173173.69,
-        "win_rate": 1.0,
+        "pnl": 700346.97,
+        "win_rate": 0.8571,
         "volume": 7373734.62,
         "categories": [
           "sports"
@@ -1216,9 +1216,9 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 65621.42,
+        "pnl": 99014.93,
         "win_rate": 0.5236,
-        "volume": 832568.36,
+        "volume": 836003.57,
         "categories": [
           "sports",
           "economy",
@@ -1226,21 +1226,11 @@
         ]
       },
       {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 135614.0,
-        "win_rate": 0.4802,
-        "volume": 1054029.31,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 51958.98,
-        "win_rate": 0.573,
-        "volume": 2906997.21,
+        "pnl": 166504.47,
+        "win_rate": 0.569,
+        "volume": 4239859.77,
         "categories": [
           "sports"
         ]
@@ -1248,9 +1238,9 @@
       {
         "wallet": "0x7b02b2bac2",
         "username": "foodenjoyer",
-        "pnl": 16053.09,
+        "pnl": 46497.28,
         "win_rate": 0.5,
-        "volume": 362264.41,
+        "volume": 773572.01,
         "categories": [
           "economy",
           "crypto",
@@ -1258,21 +1248,41 @@
         ]
       },
       {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 13786.28,
-        "win_rate": 0.703,
-        "volume": 2046134.82,
+        "wallet": "0x9ee8bbc36d",
+        "username": "gambamaster",
+        "pnl": 109056.85,
+        "win_rate": 0.8077,
+        "volume": 600507.58,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 64458.64,
-        "win_rate": 0.494,
-        "volume": 456045.58,
+        "wallet": "0x1610db79f7",
+        "username": "HMLSF",
+        "pnl": 132583.56,
+        "win_rate": 0.4802,
+        "volume": 1200491.75,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 112961.25,
+        "win_rate": 0.528,
+        "volume": 4504039.03,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 193475.39,
+        "win_rate": 0.67,
+        "volume": 3192801.76,
         "categories": [
           "sports"
         ]
@@ -1280,65 +1290,111 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 68690.19,
+        "pnl": 93018.03,
         "win_rate": 0.666,
-        "volume": 1028950.0,
+        "volume": 1554296.7,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0xe734e7bf7c",
-        "username": "boyau",
-        "pnl": 19355.95,
-        "win_rate": 0.487,
-        "volume": 321830.17,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 64568.42,
+        "win_rate": 0.494,
+        "volume": 473270.23,
         "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xfea31bc088",
-        "username": "ndb1",
-        "pnl": 101839.58,
-        "win_rate": 0.62,
-        "volume": 147223.45,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Chime Financial ( CHYM ) versus The Competition Head to Head Survey",
-      "url": "https://www.themarketsdaily.com/2026/09/12/chime-financial-chym-versus-the-competition-head-to-head-survey.html",
-      "ticker": "CHYM",
+      "title": "1 - 800 FLOWERS . COM ( NASDAQ : FLWS ) and a . k . a . Brands ( NYSE : AKA ) Head to Head Analysis",
+      "url": "https://www.dailypolitical.com/2026/09/12/1-800-flowers-com-nasdaqflws-and-a-k-a-brands-nyseaka-head-to-head-analysis.html",
+      "ticker": "FLWS",
       "themes": [],
       "date": "2026-09-12"
     },
     {
-      "title": "Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock",
-      "url": "https://www.dailypolitical.com/2026/09/12/insider-selling-chime-financial-nasdaqchym-cao-sells-642494-70-in-stock.html",
-      "ticker": "CHYM",
+      "title": "1 - 800 - FLOWERS ( FLWS ) Q4 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/10/1-800-flowers-flws-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "FinancialContent - 1 - 800 - FLOWERS ( NASDAQ : FLWS ) Q2 CY2026 Earnings Results : Non - GAAP EPS Misses Expectations , Stock Drops 15 . 5 % ",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-10-1-800-flowerss-nasdaqflws-q2-cy2026-earnings-results-non-gaap-eps-misses-expectations-stock-drops-155",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "title": "FinancialContent - What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-what-to-expect-from-1-800-flowerss-flws-q2-earnings",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-1-800-flowers-flws-034318590.html",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Reviewing BlackBerry ( NYSE : BB ) & Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13574930/reviewing-blackberry-nysebb-big-digital-energy-inc-common-stock-nasdaqbgde.html",
+      "ticker": "BGDE",
       "themes": [
         "stock"
       ],
-      "date": "2026-09-12"
+      "date": "2026-09-06"
     },
     {
-      "title": "Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis",
-      "url": "https://www.dailypolitical.com/2026/09/11/corpay-nysecpay-vs-chime-financial-nasdaqchym-head-to-head-analysis.html",
-      "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-09-11"
+      "title": "Insider Buying : Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) Major Shareholder Purchases $25 , 160 . 00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/09/05/insider-buying-big-digital-energy-inc-common-stock-nasdaqbgde-major-shareholder-purchases-25160-00-in-stock.html",
+      "ticker": "BGDE",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-05"
+    },
+    {
+      "title": "Endeavor Blockchain , Llc Acquires 16 , 000 Shares of Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) Stock",
+      "url": "https://www.dailypolitical.com/2026/09/04/endeavor-blockchain-llc-acquires-16000-shares-of-big-digital-energy-inc-common-stock-nasdaqbgde-stock.html",
+      "ticker": "BGDE",
+      "themes": [
+        "ai",
+        "merger",
+        "stock"
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) Major Shareholder Endeavor Blockchain , Llc Purchases 16 , 000 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/02/big-digital-energy-inc-common-stock-nasdaqbgde-major-shareholder-endeavor-blockchain-llc-purchases-16000-shares.html",
+      "ticker": "BGDE",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-09-02"
     }
   ],
-  "signals_count": 1285,
+  "signals_count": 1307,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

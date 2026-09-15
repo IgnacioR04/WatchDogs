@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-09-15T18:29:35+00:00",
+  "generated_at": "2026-09-15T21:37:20+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.7001,
-  "cash": 0.2999,
+  "total_equity": 0.6998,
+  "cash": 0.3002,
   "weights": {
-    "SPY": 0.12,
+    "SPY": 0.1201,
     "QQQ": 0.0976,
     "TLT": 0.0976,
-    "CSQ": 0.0956,
-    "AMH": 0.0793,
     "GLD": 0.0731,
+    "CSQ": 0.0698,
+    "EVRG": 0.0649,
     "IEF": 0.0488,
-    "MG": 0.026,
-    "GOLD": 0.0242,
-    "PMTS": 0.0208,
-    "USAR": 0.0171
+    "COO": 0.0236,
+    "MG": 0.0189,
+    "GOLD": 0.0177,
+    "PMTS": 0.0151,
+    "DBI": 0.0148,
+    "CELH": 0.0135,
+    "USAR": 0.0124,
+    "DELL": 0.0119
   },
   "core": {
     "SPY": 0.1592,
@@ -25,14 +29,26 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "CSQ": 0.0891,
-    "PMTS": 0.0194,
-    "USAR": 0.0159,
-    "AMH": 0.0739,
-    "MG": 0.0242,
-    "GOLD": 0.0226
+    "COO": 0.022,
+    "CSQ": 0.0651,
+    "USAR": 0.0116,
+    "PMTS": 0.0141,
+    "CELH": 0.0126,
+    "EVRG": 0.0605,
+    "DBI": 0.0138,
+    "MG": 0.0176,
+    "DELL": 0.0111,
+    "GOLD": 0.0165
   },
   "satellite_rationale": [
+    {
+      "ticker": "COO",
+      "score": 315.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
     {
       "ticker": "CSQ",
       "score": 282.0,
@@ -40,14 +56,6 @@
         "large_holder"
       ],
       "n_signals": 4
-    },
-    {
-      "ticker": "PMTS",
-      "score": 233.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
     },
     {
       "ticker": "USAR",
@@ -58,15 +66,47 @@
       "n_signals": 3
     },
     {
-      "ticker": "AMH",
-      "score": 111.7,
+      "ticker": "PMTS",
+      "score": 147.0,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
+      "ticker": "CELH",
+      "score": 120.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "EVRG",
+      "score": 107.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "DBI",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "MG",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "DELL",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -83,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0888,
-    "var_95_1d": 0.0082,
-    "cvar_95_1d": 0.01,
-    "max_drawdown": -0.0329,
-    "beta_spy": 0.65,
-    "hhi": 0.0586,
-    "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 17.1,
-    "gross_exposure": 0.7001,
+    "ann_vol": 0.0899,
+    "var_95_1d": 0.0089,
+    "cvar_95_1d": 0.0103,
+    "max_drawdown": -0.031,
+    "beta_spy": 0.684,
+    "hhi": 0.0524,
+    "max_position": 0.1201,
+    "n_positions": 15,
+    "effective_positions": 19.1,
+    "gross_exposure": 0.6998,
     "days_used": 51
   },
   "risk_gate": {
