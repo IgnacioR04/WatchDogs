@@ -1,24 +1,21 @@
 {
-  "generated_at": "2026-09-14T22:46:03+00:00",
+  "generated_at": "2026-09-15T01:40:37+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "CSQ": 0.1076,
     "GLD": 0.0933,
-    "CSQ": 0.0765,
+    "AMH": 0.0885,
+    "ECL": 0.0748,
     "IEF": 0.0622,
-    "AMH": 0.0618,
-    "ECL": 0.052,
-    "DGICA": 0.051,
-    "KIDS": 0.0267,
-    "HGTY": 0.0258,
-    "SLGL": 0.0148,
-    "USAR": 0.0133,
-    "ATAI": 0.0129
+    "PMTS": 0.0232,
+    "SLGL": 0.0214,
+    "USAR": 0.0191
   },
   "core": {
     "SPY": 0.1934,
@@ -28,15 +25,12 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "CSQ": 0.068,
-    "USAR": 0.0118,
-    "DGICA": 0.0453,
-    "HGTY": 0.0229,
-    "ECL": 0.0462,
-    "SLGL": 0.0132,
-    "AMH": 0.0549,
-    "KIDS": 0.0237,
-    "ATAI": 0.0115
+    "CSQ": 0.0957,
+    "PMTS": 0.0206,
+    "USAR": 0.017,
+    "ECL": 0.0665,
+    "SLGL": 0.019,
+    "AMH": 0.0787
   },
   "satellite_rationale": [
     {
@@ -48,28 +42,20 @@
       "n_signals": 4
     },
     {
-      "ticker": "USAR",
-      "score": 207.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "DGICA",
-      "score": 177.8,
+      "ticker": "PMTS",
+      "score": 233.9,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 3
     },
     {
-      "ticker": "HGTY",
-      "score": 140.4,
+      "ticker": "USAR",
+      "score": 207.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
       "ticker": "ECL",
@@ -94,36 +80,20 @@
         "corporate_insider"
       ],
       "n_signals": 2
-    },
-    {
-      "ticker": "KIDS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "ATAI",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0869,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0088,
-    "max_drawdown": -0.0311,
-    "beta_spy": 0.615,
-    "hhi": 0.0727,
+    "ann_vol": 0.0971,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.011,
+    "max_drawdown": -0.038,
+    "beta_spy": 0.728,
+    "hhi": 0.0821,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.8,
-    "gross_exposure": 0.8503,
-    "days_used": 49
+    "n_positions": 11,
+    "effective_positions": 12.2,
+    "gross_exposure": 0.8501,
+    "days_used": 50
   },
   "risk_gate": {
     "passed": true,
