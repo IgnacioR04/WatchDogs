@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-16T20:22:53.019785+00:00",
+  "generated_at": "2026-09-16T23:10:37.381172+00:00",
   "window": {
     "from": "2026-08-17",
     "to": "2026-09-16",
@@ -23,8 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai"
+      "ai",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,42 +32,68 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio DELL ($21.1M)",
-      "summary": "CEO Trizzino Peter vendio DELL por $21.1M el 2026-09-11 [senal en multiples fuentes].",
+      "title": "CEO vendio STX ($75.6M)",
+      "summary": "CEO MOSLEY WILLIAM D vendio STX por $75.6M el 2026-09-15.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Trizzino Peter",
+      "actor_name": "MOSLEY WILLIAM D",
       "actor_type": "ceo",
-      "ticker": "DELL",
+      "ticker": "STX",
       "direction": "sell",
-      "amount_estimated": 21137637.6,
-      "event_date": "2026-09-11",
-      "importance_score": 84.7,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2110325/000211032526000008/"
+      "amount_estimated": 75584518.74,
+      "event_date": "2026-09-15",
+      "importance_score": 87.7,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_756213785270",
+        "news_115614098351",
+        "news_277557900899"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1388390/000113778926000252/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner vendio LFST ($226.3M)",
-      "summary": "10% owner TPG GP A, LLC vendio LFST por $226.3M el 2026-09-11.",
+      "title": "CEO compro FOX ($10.3M)",
+      "summary": "CEO MURDOCH LACHLAN K compro FOX por $10.3M el 2026-09-15.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "TPG GP A, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LFST",
-      "direction": "sell",
-      "amount_estimated": 226255274.45,
-      "event_date": "2026-09-11",
-      "importance_score": 84.3,
+      "actor_name": "MURDOCH LACHLAN K",
+      "actor_type": "ceo",
+      "ticker": "FOX",
+      "direction": "buy",
+      "amount_estimated": 10274977.02,
+      "event_date": "2026-09-15",
+      "importance_score": 87.4,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1099776/000199937126020559/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1242818/000162828026062330/"
     },
     {
       "id": "move_3",
       "rank": 3,
+      "title": "CFO vendio STX ($38.6M)",
+      "summary": "CFO Romano Gianluca vendio STX por $38.6M el 2026-09-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Romano Gianluca",
+      "actor_type": "cfo",
+      "ticker": "STX",
+      "direction": "sell",
+      "amount_estimated": 38595124.4,
+      "event_date": "2026-09-15",
+      "importance_score": 85.0,
+      "cross_source_score": 0.0,
+      "related_news": [
+        "news_756213785270",
+        "news_115614098351",
+        "news_277557900899"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1764650/000113778926000254/"
+    },
+    {
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio KLAC ($12.4M)",
       "summary": "CEO WALLACE RICHARD P vendio KLAC por $12.4M el 2026-09-15.",
       "source": "sec_form_4",
@@ -84,94 +110,76 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1196898/000119312526393053/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
-      "title": "CEO vendio ROST ($11.3M)",
-      "summary": "CEO Conroy James Grant vendio ROST por $11.3M el 2026-09-14.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Conroy James Grant",
-      "actor_type": "ceo",
-      "ticker": "ROST",
-      "direction": "sell",
-      "amount_estimated": 11291774.98,
-      "event_date": "2026-09-14",
-      "importance_score": 83.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1623534/000162353426000006/"
-    },
-    {
       "id": "move_5",
       "rank": 5,
-      "title": "10% owner compro ARDC ($6.0M)",
-      "summary": "10% owner THRIVENT FINANCIAL FOR LUTHERANS compro ARDC por $6.0M el 2026-09-14 [senal en multiples fuentes].",
+      "title": "10% owner compro CRBG ($10.3M)",
+      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $10.3M el 2026-09-14.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "actor_name": "NIPPON LIFE INSURANCE CO",
       "actor_type": "ten_percent_owner",
-      "ticker": "ARDC",
+      "ticker": "CRBG",
       "direction": "buy",
-      "amount_estimated": 6000000.0,
+      "amount_estimated": 10318652.68,
       "event_date": "2026-09-14",
-      "importance_score": 83.5,
-      "cross_source_score": 25.0,
+      "importance_score": 83.4,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/314984/000031498426000042/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526393133/"
     },
     {
       "id": "move_6",
       "rank": 6,
-      "title": "10% owner compro Privacore VPC Asset Backed Credit Fund ($8.0M)",
-      "summary": "10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $8.0M el 2026-09-14.",
+      "title": "10% owner compro USO ($6.8M)",
+      "summary": "10% owner HRT FINANCIAL LP compro USO por $6.8M el 2026-09-14.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "BANKERS LIFE & CASUALTY CO",
+      "actor_name": "HRT FINANCIAL LP",
       "actor_type": "ten_percent_owner",
-      "ticker": "",
+      "ticker": "USO",
       "direction": "buy",
-      "amount_estimated": 8000000.0,
+      "amount_estimated": 6794921.86,
       "event_date": "2026-09-14",
-      "importance_score": 82.9,
+      "importance_score": 82.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/903939/000090393926000030/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1475597/000147559726000246/"
     },
     {
       "id": "move_7",
       "rank": 7,
-      "title": "10% owner opero ARDC ($9.0M)",
-      "summary": "10% owner THRIVENT FINANCIAL FOR LUTHERANS opero ARDC por $9.0M el 2026-09-15 [senal en multiples fuentes].",
+      "title": "CEO vendio MRNA ($5.9M)",
+      "summary": "CEO Hoge Stephen vendio MRNA por $5.9M el 2026-09-15.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ARDC",
-      "direction": "other",
-      "amount_estimated": 9000000.0,
+      "actor_name": "Hoge Stephen",
+      "actor_type": "ceo",
+      "ticker": "MRNA",
+      "direction": "sell",
+      "amount_estimated": 5883845.67,
       "event_date": "2026-09-15",
-      "importance_score": 82.9,
-      "cross_source_score": 25.0,
+      "importance_score": 82.2,
+      "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/314984/000031498426000042/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1760669/000168285226000176/"
     },
     {
       "id": "move_8",
       "rank": 8,
-      "title": "CEO vendio HPE ($15.1M)",
-      "summary": "CEO Neri Antonio F vendio HPE por $15.1M el 2026-09-11.",
+      "title": "CEO vendio SNPS ($5.5M)",
+      "summary": "CEO Ghazi Sassine vendio SNPS por $5.5M el 2026-09-15.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Neri Antonio F",
+      "actor_name": "Ghazi Sassine",
       "actor_type": "ceo",
-      "ticker": "HPE",
+      "ticker": "SNPS",
       "direction": "sell",
-      "amount_estimated": 15110500.0,
-      "event_date": "2026-09-11",
-      "importance_score": 82.7,
+      "amount_estimated": 5474683.26,
+      "event_date": "2026-09-15",
+      "importance_score": 82.0,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1648401/000164840126000009/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1822289/000182228926000010/"
     },
     {
       "id": "move_9",
@@ -393,17 +401,17 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "EVRG",
-        "company": "Evergy, Inc.",
-        "pressure_score": 469.0,
+        "ticker": "USO",
+        "company": "United States Oil Fund, LP",
+        "pressure_score": 694.1,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CTSO",
-        "company": "Cytosorbents Corp",
-        "pressure_score": 332.8,
+        "ticker": "ACOG",
+        "company": "Alpha Cognition Inc.",
+        "pressure_score": 302.9,
         "sources": [
           "corporate_insider"
         ]
@@ -417,15 +425,6 @@
         ]
       },
       {
-        "ticker": "TENX",
-        "company": "Tenax Therapeutics, Inc.",
-        "pressure_score": 289.3,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "SOBR",
         "company": "SOBR Safe, Inc.",
         "pressure_score": 282.0,
@@ -434,25 +433,9 @@
         ]
       },
       {
-        "ticker": "CSQ",
-        "company": "CALAMOS STRATEGIC TOTAL RETURN FUND",
-        "pressure_score": 282.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "RGCO",
-        "company": "RGC RESOURCES INC",
-        "pressure_score": 263.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CELH",
-        "company": "Celsius Holdings, Inc.",
-        "pressure_score": 226.7,
+        "ticker": "CBKM",
+        "company": "CONSUMERS BANCORP INC /OH/",
+        "pressure_score": 269.1,
         "sources": [
           "corporate_insider"
         ]
@@ -466,12 +449,11 @@
         ]
       },
       {
-        "ticker": "AFCG",
-        "company": "Advanced Flower Capital Inc.",
-        "pressure_score": 219.2,
+        "ticker": "GLP",
+        "company": "GLOBAL PARTNERS LP",
+        "pressure_score": 217.9,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -485,25 +467,26 @@
       {
         "ticker": "RENT",
         "company": "Rent the Runway, Inc.",
+        "pressure_score": 215.4,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "CSQ",
+        "company": "CALAMOS STRATEGIC TOTAL RETURN FUND",
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
         ]
       },
       {
-        "ticker": "CHI",
-        "company": "Calamos Convertible Opportunities and Income Fund",
-        "pressure_score": 211.5,
+        "ticker": "EU",
+        "company": "enCore Energy Corp.",
+        "pressure_score": 208.6,
         "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "CHY",
-        "company": "Calamos Convertible & High Income Fund",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -513,29 +496,102 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 201.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "INLX",
+        "company": "INTELLINETICS, INC.",
+        "pressure_score": 188.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "KBDC",
+        "company": "Kayne Anderson BDC, Inc.",
+        "pressure_score": 155.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1956.3,
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "pressure_score": 4826.4,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
-        "pressure_score": 764.0,
+        "pressure_score": 3475.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "QLYS",
-        "company": "QUALYS, INC.",
-        "pressure_score": 709.4,
+        "ticker": "STX",
+        "company": "Seagate Technology Holdings plc",
+        "pressure_score": 2039.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TDG",
+        "company": "TransDigm Group INC",
+        "pressure_score": 1867.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "W",
+        "company": "Wayfair Inc.",
+        "pressure_score": 1322.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SPOT",
+        "company": "Spotify Technology S.A.",
+        "pressure_score": 905.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BLLN",
+        "company": "BillionToOne, Inc.",
+        "pressure_score": 740.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CHYM",
+        "company": "Chime Financial, Inc.",
+        "pressure_score": 652.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RDDT",
+        "company": "Reddit, Inc.",
+        "pressure_score": 652.1,
         "sources": [
           "corporate_insider"
         ]
@@ -549,89 +605,41 @@
         ]
       },
       {
-        "ticker": "AMBQ",
-        "company": "Ambiq Micro, Inc.",
-        "pressure_score": 598.8,
+        "ticker": "IBEX",
+        "company": "IBEX Ltd",
+        "pressure_score": 498.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "RVMD",
-        "company": "Revolution Medicines, Inc.",
-        "pressure_score": 572.8,
+        "ticker": "QRVO",
+        "company": "Qorvo, Inc.",
+        "pressure_score": 468.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "FFIV",
-        "company": "F5, INC.",
-        "pressure_score": 561.5,
+        "ticker": "MAX",
+        "company": "MediaAlpha, Inc.",
+        "pressure_score": 467.1,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "SMWB",
-        "company": "SIMILARWEB LTD.",
-        "pressure_score": 450.6,
+        "ticker": "NTAP",
+        "company": "NetApp, Inc.",
+        "pressure_score": 455.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "HNGE",
-        "company": "Hinge Health, Inc.",
-        "pressure_score": 446.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SNX",
-        "company": "TD SYNNEX CORP",
-        "pressure_score": 408.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 384.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CSTL",
-        "company": "CASTLE BIOSCIENCES INC",
-        "pressure_score": 381.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MRX",
-        "company": "Marex Group Ltd",
-        "pressure_score": 287.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CRDO",
-        "company": "Credo Technology Group Holding Ltd",
-        "pressure_score": 284.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PCTY",
-        "company": "Paylocity Holding Corp",
-        "pressure_score": 280.8,
+        "ticker": "ASO",
+        "company": "Academy Sports & Outdoors, Inc.",
+        "pressure_score": 453.9,
         "sources": [
           "corporate_insider"
         ]
@@ -640,13 +648,85 @@
   },
   "insider_buying": [
     {
-      "ticker": "ARDC",
-      "company": "Ares Dynamic Credit Allocation Fund, Inc.",
-      "actor": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "ticker": "FOX",
+      "company": "Fox Corp",
+      "actor": "MURDOCH LACHLAN K",
+      "actor_type": "ceo",
+      "amount": 10274977.02,
+      "date": "2026-09-15",
+      "score": 87.4
+    },
+    {
+      "ticker": "CRBG",
+      "company": "Corebridge Financial, Inc.",
+      "actor": "NIPPON LIFE INSURANCE CO",
       "actor_type": "ten_percent_owner",
-      "amount": 6000000.0,
+      "amount": 10318652.68,
       "date": "2026-09-14",
-      "score": 83.5
+      "score": 83.4
+    },
+    {
+      "ticker": "USO",
+      "company": "United States Oil Fund, LP",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 6794921.86,
+      "date": "2026-09-14",
+      "score": 82.5
+    },
+    {
+      "ticker": "USO",
+      "company": "United States Oil Fund, LP",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 4235520.0,
+      "date": "2026-09-14",
+      "score": 81.5
+    },
+    {
+      "ticker": "KBDC",
+      "company": "Kayne Anderson BDC, Inc.",
+      "actor": "ROBO JAMES L",
+      "actor_type": "director",
+      "amount": 4432920.0,
+      "date": "2026-09-16",
+      "score": 80.6
+    },
+    {
+      "ticker": "TH",
+      "company": "Target Hospitality Corp.",
+      "actor": "Archer James Bradley",
+      "actor_type": "ceo",
+      "amount": 250165.65,
+      "date": "2026-09-15",
+      "score": 80.6
+    },
+    {
+      "ticker": "EQPT",
+      "company": "EquipmentShare.com Inc",
+      "actor": "Schlacks Jabbok",
+      "actor_type": "ceo",
+      "amount": 406704.0,
+      "date": "2026-09-15",
+      "score": 80.4
+    },
+    {
+      "ticker": "USO",
+      "company": "United States Oil Fund, LP",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 2119689.7,
+      "date": "2026-09-14",
+      "score": 80.0
+    },
+    {
+      "ticker": "USO",
+      "company": "United States Oil Fund, LP",
+      "actor": "HRT FINANCIAL LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 2102445.72,
+      "date": "2026-09-14",
+      "score": 80.0
     },
     {
       "ticker": "RWT",
@@ -667,13 +747,22 @@
       "score": 79.2
     },
     {
-      "ticker": "VENU",
-      "company": "Venu Holding Corp",
-      "actor": "ROTH JAY W",
-      "actor_type": "ceo",
-      "amount": 350000.0,
-      "date": "2026-09-11",
-      "score": 78.6
+      "ticker": "AAT",
+      "company": "American Assets Trust, Inc.",
+      "actor": "RADY ERNEST S",
+      "actor_type": "ten_percent_owner",
+      "amount": 1082500.0,
+      "date": "2026-09-14",
+      "score": 78.5
+    },
+    {
+      "ticker": "ACOG",
+      "company": "Alpha Cognition Inc.",
+      "actor": "Opaleye Management Inc.",
+      "actor_type": "ten_percent_owner",
+      "amount": 454607.01,
+      "date": "2026-09-16",
+      "score": 78.1
     },
     {
       "ticker": "AXIA3",
@@ -692,87 +781,6 @@
       "amount": 2408504.0,
       "date": "2026-09-14",
       "score": 77.8
-    },
-    {
-      "ticker": "MAIA",
-      "company": "MAIA Biotechnology, Inc.",
-      "actor": "Vitoc Vlad",
-      "actor_type": "ceo",
-      "amount": 100010.0,
-      "date": "2026-09-14",
-      "score": 77.4
-    },
-    {
-      "ticker": "CELH",
-      "company": "Celsius Holdings, Inc.",
-      "actor": "DeSantis Damon",
-      "actor_type": "director",
-      "amount": 553000.0,
-      "date": "2026-09-14",
-      "score": 76.1
-    },
-    {
-      "ticker": "RWT",
-      "company": "REDWOOD TRUST INC",
-      "actor": "Carillo Brooke",
-      "actor_type": "cfo",
-      "amount": 100238.17,
-      "date": "2026-09-15",
-      "score": 76.1
-    },
-    {
-      "ticker": "BDN",
-      "company": "BRANDYWINE REALTY TRUST",
-      "actor": "SWEENEY GERARD H",
-      "actor_type": "ceo",
-      "amount": 100344.0,
-      "date": "2026-09-14",
-      "score": 75.9
-    },
-    {
-      "ticker": "NFE",
-      "company": "New Fortress Energy Inc.",
-      "actor": "EDENS WESLEY R",
-      "actor_type": "ceo",
-      "amount": 0.0,
-      "date": "2026-09-11",
-      "score": 75.8
-    },
-    {
-      "ticker": "URG",
-      "company": "UR-ENERGY INC",
-      "actor": "Walle Jade",
-      "actor_type": "ceo",
-      "amount": 97499.49,
-      "date": "2026-09-11",
-      "score": 75.8
-    },
-    {
-      "ticker": "AFCG",
-      "company": "Advanced Flower Capital Inc.",
-      "actor": "TANNENBAUM LEONARD M",
-      "actor_type": "ten_percent_owner",
-      "amount": 88193.0,
-      "date": "2026-09-14",
-      "score": 75.8
-    },
-    {
-      "ticker": "MCFT",
-      "company": "MasterCraft Boat Holdings, Inc.",
-      "actor": "Nelson Bradley M.",
-      "actor_type": "ceo",
-      "amount": 46800.0,
-      "date": "2026-09-15",
-      "score": 75.7
-    },
-    {
-      "ticker": "CELH",
-      "company": "Celsius Holdings, Inc.",
-      "actor": "DeSantis Damon",
-      "actor_type": "director",
-      "amount": 447200.0,
-      "date": "2026-09-15",
-      "score": 75.6
     }
   ],
   "institutional_changes": [
@@ -1100,19 +1108,39 @@
       {
         "wallet": "0xf28e42d20e",
         "username": "ethanaz",
-        "pnl": 277824.51,
+        "pnl": 276824.24,
         "win_rate": 0.8926,
-        "volume": 0.0,
+        "volume": 11680.0,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
+        "wallet": "0x16bb9951a3",
+        "username": "SDTrading",
+        "pnl": 82768.76,
+        "win_rate": 0.9437,
+        "volume": 124521.57,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 341484.77,
+        "win_rate": 0.8454,
+        "volume": 1061770.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1058f156b2",
         "username": "TheyAreTakingTheHobitsToIsengard",
-        "pnl": 123789.08,
-        "win_rate": 0.8994,
+        "pnl": 124520.77,
+        "win_rate": 0.9062,
         "volume": 0.0,
         "categories": [
           "sports",
@@ -1120,31 +1148,9 @@
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "SDTrading",
-        "pnl": 54452.47,
-        "win_rate": 0.9434,
-        "volume": 124521.57,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x505392819f",
-        "username": "WinterIsLeaving",
-        "pnl": 34835.73,
-        "win_rate": 0.9538,
-        "volume": 609140.29,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x5966db1fe5",
         "username": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
-        "pnl": 40485.35,
+        "pnl": 40630.53,
         "win_rate": 0.8952,
         "volume": 290369.51,
         "categories": [
@@ -1154,21 +1160,11 @@
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 79099.69,
-        "win_rate": 0.8409,
-        "volume": 94074.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xed107a85a4",
         "username": "qmarktea2",
-        "pnl": 41335.25,
-        "win_rate": 0.872,
-        "volume": 3491959.82,
+        "pnl": 45972.75,
+        "win_rate": 0.874,
+        "volume": 3506965.47,
         "categories": [
           "sports",
           "politics",
@@ -1178,9 +1174,19 @@
       {
         "wallet": "0xe3c9c84c99",
         "username": "DimSumConnoisseur.",
-        "pnl": 44100.35,
-        "win_rate": 0.9091,
-        "volume": 132615.82,
+        "pnl": 45298.39,
+        "win_rate": 0.9111,
+        "volume": 137053.02,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 64980.84,
+        "win_rate": 0.8409,
+        "volume": 239422.06,
         "categories": [
           "sports"
         ]
@@ -1188,22 +1194,21 @@
       {
         "wallet": "0x2dc13c6bda",
         "username": "xifutloong3",
-        "pnl": 118916.36,
-        "win_rate": 0.7848,
+        "pnl": 127384.1,
+        "win_rate": 0.7857,
         "volume": 205645.16,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0feb1bf966",
-        "username": "CentralCasting",
-        "pnl": 34199.98,
-        "win_rate": 0.8571,
-        "volume": 0.0,
+        "wallet": "0xae7ffba3fd",
+        "username": "EV-Andars",
+        "pnl": 42009.71,
+        "win_rate": 0.9429,
+        "volume": 99266.11,
         "categories": [
-          "crypto",
-          "economy"
+          "sports"
         ]
       }
     ],
@@ -1211,9 +1216,9 @@
       {
         "wallet": "0xed107a85a4",
         "username": "qmarktea2",
-        "pnl": 41335.25,
-        "win_rate": 0.872,
-        "volume": 3491959.82,
+        "pnl": 45972.75,
+        "win_rate": 0.874,
+        "volume": 3506965.47,
         "categories": [
           "sports",
           "politics",
@@ -1221,11 +1226,53 @@
         ]
       },
       {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 34987.87,
-        "win_rate": 0.482,
-        "volume": 2993457.41,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 354050.97,
+        "win_rate": 0.447,
+        "volume": 2518838.96,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 341484.77,
+        "win_rate": 0.8454,
+        "volume": 1061770.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 69404.12,
+        "win_rate": 0.588,
+        "volume": 4884696.7,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 161948.2,
+        "win_rate": 0.635,
+        "volume": 4523228.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 92682.3,
+        "win_rate": 0.564,
+        "volume": 4475461.15,
         "categories": [
           "sports"
         ]
@@ -1233,8 +1280,8 @@
       {
         "wallet": "0x56d0ec3e42",
         "username": "MemeKing20",
-        "pnl": 54111.98,
-        "win_rate": 0.25,
+        "pnl": 54707.37,
+        "win_rate": 0.5,
         "volume": 447322.45,
         "categories": [
           "economy",
@@ -1242,71 +1289,23 @@
         ]
       },
       {
-        "wallet": "0x505392819f",
-        "username": "WinterIsLeaving",
-        "pnl": 34835.73,
-        "win_rate": 0.9538,
-        "volume": 609140.29,
+        "wallet": "0xc6587b11a2",
+        "username": "Erasmus.",
+        "pnl": 130507.3,
+        "win_rate": 0.6988,
+        "volume": 621787.41,
         "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x7b02b2bac2",
-        "username": "foodenjoyer",
-        "pnl": 161502.85,
-        "win_rate": 0.5161,
-        "volume": 261032.84,
-        "categories": [
-          "economy",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x7cf9358395",
-        "username": "SheltonDoubter",
-        "pnl": 25367.68,
-        "win_rate": 0.6117,
-        "volume": 271433.95,
-        "categories": [
-          "sports",
           "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xded8a46ee5",
-        "username": "yingxer",
-        "pnl": 43019.55,
-        "win_rate": 0.8214,
-        "volume": 327675.38,
-        "categories": [
           "economy",
-          "politics",
           "sports"
         ]
       },
       {
-        "wallet": "0x5966db1fe5",
-        "username": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
-        "pnl": 40485.35,
-        "win_rate": 0.8952,
-        "volume": 290369.51,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0xde7be6d489",
-        "username": "wan123",
-        "pnl": 52897.72,
-        "win_rate": 0.7957,
-        "volume": 349013.02,
+        "wallet": "0xfea31bc088",
+        "username": "ndb1",
+        "pnl": 100570.95,
+        "win_rate": 0.624,
+        "volume": 294767.71,
         "categories": [
           "sports",
           "politics",
@@ -1316,9 +1315,9 @@
       {
         "wallet": "0x0346afae26",
         "username": "GoalLineGhost",
-        "pnl": 27995.48,
+        "pnl": 56374.39,
         "win_rate": 0.567,
-        "volume": 1472065.13,
+        "volume": 2606365.46,
         "categories": [
           "sports"
         ]
@@ -1327,50 +1326,72 @@
   },
   "news": [
     {
-      "title": "Datadog ( NASDAQ : DDOG ) Stock Rating Upgraded by Wedbush",
-      "url": "https://www.themarketsdaily.com/2026/09/12/datadog-nasdaqddog-stock-rating-upgraded-by-wedbush.html",
-      "ticker": "DDOG",
+      "title": "Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-sees-ai-boom-170200109.html",
+      "ticker": "DELL",
       "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-09-12"
     },
     {
-      "title": "Qualys ( NASDAQ : QLYS ) Upgraded by Wedbush to  Hold  Rating",
-      "url": "https://www.tickerreport.com/banking-finance/13582811/qualys-nasdaqqlys-upgraded-by-wedbush-to-hold-rating.html",
-      "ticker": "QLYS",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Revolution Medicines ( RVMD ) Gets its First Approved Drug , and the Market Shrugs",
-      "url": "https://finance.yahoo.com/healthcare/articles/revolution-medicines-rvmd-gets-first-004043264.html",
-      "ticker": "RVMD",
+      "title": "Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-compares-dell-dell-to-dallas-cowboys-star-ceedee-lamb-1836314/",
+      "ticker": "DELL",
       "themes": [],
       "date": "2026-09-12"
     },
     {
-      "title": "Fair Isaac ( NYSE : FICO ) & Qualys ( NASDAQ : QLYS ) Financial Survey",
-      "url": "https://www.tickerreport.com/banking-finance/13581988/fair-isaac-nysefico-qualys-nasdaqqlys-financial-survey.html",
-      "ticker": "QLYS",
+      "title": "Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/12/seagate-technology-nasdaqstx-evp-john-christopher-morris-sells-572-shares.html",
+      "ticker": "STX",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Wayfair Is Opening Its First Monmouth County , NJ Location",
+      "url": "https://wobm.com/ixp/392/p/wayfair-monmouth-county-nj/",
+      "ticker": "W",
       "themes": [
         "ai"
       ],
       "date": "2026-09-11"
     },
     {
-      "title": "Qualys ( NASDAQ : QLYS ) versus Fair Isaac ( NYSE : FICO ) Head to Head Analysis",
-      "url": "https://www.dailypolitical.com/2026/09/11/qualys-nasdaqqlys-versus-fair-isaac-nysefico-head-to-head-analysis.html",
-      "ticker": "QLYS",
-      "themes": [
-        "ai"
-      ],
+      "title": "Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling",
+      "url": "https://www.themarketsdaily.com/2026/09/11/seagate-technology-nasdaqstx-trading-down-3-7-following-insider-selling.html",
+      "ticker": "STX",
+      "themes": [],
       "date": "2026-09-11"
+    },
+    {
+      "title": "Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? ",
+      "url": "https://www.tickerreport.com/banking-finance/13581827/seagate-technology-nasdaqstx-trading-down-2-whats-next.html",
+      "ticker": "STX",
+      "themes": [],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Head - To - Head Comparison : Spotify Technology ( NYSE : SPOT ) versus Angel Studios ( NYSE : ANGX ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13572539/head-to-head-comparison-spotify-technology-nysespot-versus-angel-studios-nyseangx.html",
+      "ticker": "SPOT",
+      "themes": [],
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Airbnb vs . Spotify Technology : Which Consumer Stock Is a Better Buy in 2026 ? ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-spotify-technology-consumer-153521831.html",
+      "ticker": "SPOT",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-09-03"
     }
   ],
-  "signals_count": 1304,
+  "signals_count": 1511,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

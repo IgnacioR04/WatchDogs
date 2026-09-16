@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-16T20:23:51+00:00",
+  "generated_at": "2026-09-16T23:11:32+00:00",
   "profile": "moderado",
   "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "total_equity": 0.6999,
+  "cash": 0.3001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0976,
     "TLT": 0.0976,
     "GLD": 0.0731,
-    "CSQ": 0.0706,
-    "EVRG": 0.0685,
+    "CSQ": 0.0627,
     "IEF": 0.0488,
-    "SBLK": 0.0317,
-    "MCFT": 0.0299,
-    "GOLD": 0.0216,
-    "CELH": 0.0163,
-    "USAR": 0.0129,
-    "DELL": 0.0112
+    "GLP": 0.0346,
+    "SBLK": 0.0314,
+    "MCFT": 0.0267,
+    "DT": 0.0236,
+    "PLNT": 0.0217,
+    "USO": 0.0202,
+    "GOLD": 0.0188,
+    "DELL": 0.0133,
+    "USAR": 0.0098
   },
   "core": {
     "SPY": 0.1592,
@@ -27,23 +29,25 @@
     "GLD": 0.0682
   },
   "satellite": {
-    "CSQ": 0.0658,
-    "SBLK": 0.0296,
-    "CELH": 0.0152,
-    "USAR": 0.012,
-    "MCFT": 0.0279,
-    "EVRG": 0.0639,
-    "DELL": 0.0104,
-    "GOLD": 0.0201
+    "USO": 0.0188,
+    "SBLK": 0.0293,
+    "CSQ": 0.0585,
+    "USAR": 0.0091,
+    "GLP": 0.0323,
+    "MCFT": 0.0249,
+    "DT": 0.022,
+    "DELL": 0.0124,
+    "GOLD": 0.0175,
+    "PLNT": 0.0202
   },
   "satellite_rationale": [
     {
-      "ticker": "CSQ",
-      "score": 282.0,
+      "ticker": "USO",
+      "score": 506.0,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 4
+      "n_signals": 8
     },
     {
       "ticker": "SBLK",
@@ -54,10 +58,10 @@
       "n_signals": 3
     },
     {
-      "ticker": "CELH",
-      "score": 227.1,
+      "ticker": "CSQ",
+      "score": 211.5,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 3
     },
@@ -70,6 +74,14 @@
       "n_signals": 3
     },
     {
+      "ticker": "GLP",
+      "score": 172.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
       "ticker": "MCFT",
       "score": 146.8,
       "sources": [
@@ -78,10 +90,10 @@
       "n_signals": 2
     },
     {
-      "ticker": "EVRG",
-      "score": 107.4,
+      "ticker": "DT",
+      "score": 143.6,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -100,20 +112,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "PLNT",
+      "score": 56.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0923,
-    "var_95_1d": 0.0088,
-    "cvar_95_1d": 0.0124,
-    "max_drawdown": -0.0356,
-    "beta_spy": 0.629,
-    "hhi": 0.0538,
+    "ann_vol": 0.0854,
+    "var_95_1d": 0.0078,
+    "cvar_95_1d": 0.0107,
+    "max_drawdown": -0.0551,
+    "beta_spy": 0.564,
+    "hhi": 0.0501,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 18.6,
-    "gross_exposure": 0.6998,
-    "days_used": 79
+    "n_positions": 15,
+    "effective_positions": 20.0,
+    "gross_exposure": 0.6999,
+    "days_used": 213
   },
   "risk_gate": {
     "passed": true,
