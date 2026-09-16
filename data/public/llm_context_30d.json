@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-16T11:44:05.377665+00:00",
+  "generated_at": "2026-09-16T17:11:16.920575+00:00",
   "window": {
     "from": "2026-08-17",
     "to": "2026-09-16",
@@ -23,8 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai"
+      "earnings",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -44,10 +44,7 @@
       "event_date": "2026-09-11",
       "importance_score": 84.7,
       "cross_source_score": 25.0,
-      "related_news": [
-        "news_753519741884",
-        "news_241071523200"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110325/000211032526000008/"
     },
     {
@@ -89,6 +86,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "10% owner compro Privacore VPC Asset Backed Credit Fund ($8.0M)",
+      "summary": "10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $8.0M el 2026-09-14.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "BANKERS LIFE & CASUALTY CO",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 8000000.0,
+      "event_date": "2026-09-14",
+      "importance_score": 82.9,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/903939/000090393926000030/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio HPE ($15.1M)",
       "summary": "CEO Neri Antonio F vendio HPE por $15.1M el 2026-09-11.",
       "source": "sec_form_4",
@@ -105,26 +120,44 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1648401/000164840126000009/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
-      "title": "10% owner compro CRBG ($5.9M)",
-      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $5.9M el 2026-09-11.",
+      "id": "move_6",
+      "rank": 6,
+      "title": "10% owner compro ARDC ($6.0M)",
+      "summary": "10% owner THRIVENT FINANCIAL FOR LUTHERANS compro ARDC por $6.0M el 2026-09-14.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "NIPPON LIFE INSURANCE CO",
+      "actor_name": "THRIVENT FINANCIAL FOR LUTHERANS",
       "actor_type": "ten_percent_owner",
-      "ticker": "CRBG",
+      "ticker": "ARDC",
       "direction": "buy",
-      "amount_estimated": 5923208.27,
-      "event_date": "2026-09-11",
+      "amount_estimated": 6000000.0,
+      "event_date": "2026-09-14",
       "importance_score": 82.2,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526391947/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/314984/000031498426000042/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
+      "title": "10% owner opero ARDC ($9.0M)",
+      "summary": "10% owner THRIVENT FINANCIAL FOR LUTHERANS opero ARDC por $9.0M el 2026-09-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "actor_type": "ten_percent_owner",
+      "ticker": "ARDC",
+      "direction": "other",
+      "amount_estimated": 9000000.0,
+      "event_date": "2026-09-15",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/314984/000031498426000042/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -141,8 +174,8 @@
       "source_url": ""
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -159,8 +192,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -177,8 +210,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -195,8 +228,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -213,8 +246,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -231,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -249,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -267,8 +300,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -285,8 +318,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -303,8 +336,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -321,8 +354,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -339,8 +372,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -350,42 +383,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 17242553494,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro INTEL CORP ($16.2B)",
-      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Invesco Ltd",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16233929222,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
-      "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "JPMorgan Chase & Co",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 16112059718,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -445,6 +442,22 @@
         ]
       },
       {
+        "ticker": "CELH",
+        "company": "Celsius Holdings, Inc.",
+        "pressure_score": 226.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SBLK",
+        "company": "Star Bulk Carriers Corp.",
+        "pressure_score": 223.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AFCG",
         "company": "Advanced Flower Capital Inc.",
         "pressure_score": 219.2,
@@ -500,46 +513,13 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "RGCO",
-        "company": "RGC RESOURCES INC",
-        "pressure_score": 199.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VENU",
-        "company": "Venu Holding Corp",
-        "pressure_score": 152.2,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "pressure_score": 7469.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
         "pressure_score": 1956.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 1841.1,
         "sources": [
           "corporate_insider"
         ]
@@ -577,6 +557,14 @@
         ]
       },
       {
+        "ticker": "IBCP",
+        "company": "INDEPENDENT BANK CORP /MI/",
+        "pressure_score": 607.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "RVMD",
         "company": "Revolution Medicines, Inc.",
         "pressure_score": 572.8,
@@ -588,6 +576,14 @@
         "ticker": "FFIV",
         "company": "F5, INC.",
         "pressure_score": 561.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SMWB",
+        "company": "SIMILARWEB LTD.",
+        "pressure_score": 450.6,
         "sources": [
           "corporate_insider"
         ]
@@ -609,14 +605,6 @@
         ]
       },
       {
-        "ticker": "TKO",
-        "company": "TKO Group Holdings, Inc.",
-        "pressure_score": 419.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "PACS",
         "company": "PACS Group, Inc.",
         "pressure_score": 384.2,
@@ -633,9 +621,17 @@
         ]
       },
       {
-        "ticker": "XPO",
-        "company": "XPO, Inc.",
-        "pressure_score": 348.1,
+        "ticker": "CRDO",
+        "company": "Credo Technology Group Holding Ltd",
+        "pressure_score": 284.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "pressure_score": 283.6,
         "sources": [
           "corporate_insider"
         ]
@@ -644,22 +640,22 @@
   },
   "insider_buying": [
     {
-      "ticker": "CRBG",
-      "company": "Corebridge Financial, Inc.",
-      "actor": "NIPPON LIFE INSURANCE CO",
+      "ticker": "ARDC",
+      "company": "Ares Dynamic Credit Allocation Fund, Inc.",
+      "actor": "THRIVENT FINANCIAL FOR LUTHERANS",
       "actor_type": "ten_percent_owner",
-      "amount": 5923208.27,
-      "date": "2026-09-11",
+      "amount": 6000000.0,
+      "date": "2026-09-14",
       "score": 82.2
     },
     {
-      "ticker": "NAMS",
-      "company": "NewAmsterdam Pharma Co N.V.",
-      "actor": "Davidson Michael H.",
-      "actor_type": "ceo",
-      "amount": 226500.0,
-      "date": "2026-09-14",
-      "score": 79.1
+      "ticker": "SBLK",
+      "company": "Star Bulk Carriers Corp.",
+      "actor": "Spyrou Symeon",
+      "actor_type": "cfo",
+      "amount": 424050.0,
+      "date": "2026-09-15",
+      "score": 79.2
     },
     {
       "ticker": "VENU",
@@ -698,21 +694,21 @@
       "score": 76.2
     },
     {
-      "ticker": "RWT",
-      "company": "REDWOOD TRUST INC",
-      "actor": "Carillo Brooke",
-      "actor_type": "cfo",
-      "amount": 100238.17,
-      "date": "2026-09-15",
-      "score": 76.1
-    },
-    {
       "ticker": "CELH",
       "company": "Celsius Holdings, Inc.",
       "actor": "DeSantis Damon",
       "actor_type": "director",
       "amount": 553000.0,
       "date": "2026-09-14",
+      "score": 76.1
+    },
+    {
+      "ticker": "RWT",
+      "company": "REDWOOD TRUST INC",
+      "actor": "Carillo Brooke",
+      "actor_type": "cfo",
+      "amount": 100238.17,
+      "date": "2026-09-15",
       "score": 76.1
     },
     {
@@ -723,6 +719,15 @@
       "amount": 539150.0,
       "date": "2026-09-14",
       "score": 76.0
+    },
+    {
+      "ticker": "BDN",
+      "company": "BRANDYWINE REALTY TRUST",
+      "actor": "SWEENEY GERARD H",
+      "actor_type": "ceo",
+      "amount": 100344.0,
+      "date": "2026-09-14",
+      "score": 75.9
     },
     {
       "ticker": "NFE",
@@ -761,22 +766,13 @@
       "score": 75.6
     },
     {
-      "ticker": "NCDL",
-      "company": "Nuveen Churchill Direct Lending Corp.",
-      "actor": "Vichness Shaul",
-      "actor_type": "cfo",
-      "amount": 61250.0,
-      "date": "2026-09-14",
+      "ticker": "CELH",
+      "company": "Celsius Holdings, Inc.",
+      "actor": "Kravitz Hal",
+      "actor_type": "director",
+      "amount": 336000.0,
+      "date": "2026-09-15",
       "score": 75.0
-    },
-    {
-      "ticker": "NTHI",
-      "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "actor": "CHEN THOMAS C",
-      "actor_type": "ceo",
-      "amount": 19998.23,
-      "date": "2026-09-14",
-      "score": 73.9
     }
   ],
   "institutional_changes": [
@@ -1115,19 +1111,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 47064.58,
+        "pnl": 46244.48,
         "win_rate": 0.9434,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5674f60797",
-        "username": "dontworrybaseball",
-        "pnl": 11738.55,
-        "win_rate": 1.0,
-        "volume": 15000.0,
+        "volume": 124521.57,
         "categories": [
           "sports"
         ]
@@ -1153,16 +1139,6 @@
         ]
       },
       {
-        "wallet": "0x696de7b6e4",
-        "username": "xm39",
-        "pnl": 10453.79,
-        "win_rate": 0.9394,
-        "volume": 3829.79,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2dc13c6bda",
         "username": "xifutloong3",
         "pnl": 96911.76,
@@ -1175,9 +1151,9 @@
       {
         "wallet": "0xeb490d0534",
         "username": "78979879879879",
-        "pnl": 13204.74,
-        "win_rate": 0.8596,
-        "volume": 0.0,
+        "pnl": 18416.73,
+        "win_rate": 0.8559,
+        "volume": 336.51,
         "categories": [
           "sports",
           "politics",
@@ -1187,63 +1163,65 @@
       {
         "wallet": "0xcd84d7f926",
         "username": "Donkey14",
-        "pnl": 102970.95,
+        "pnl": 101359.57,
         "win_rate": 0.7222,
-        "volume": 58084.77,
+        "volume": 246720.92,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xbe189fc6c8",
-        "username": "",
-        "pnl": 25324.65,
-        "win_rate": 0.7843,
-        "volume": 0.0,
+        "wallet": "0xe52c0a1327",
+        "username": "aff3",
+        "pnl": 19827.23,
+        "win_rate": 0.7889,
+        "volume": 150.0,
         "categories": [
           "sports",
-          "crypto",
+          "politics",
           "economy"
+        ]
+      },
+      {
+        "wallet": "0x5a218c7ad0",
+        "username": "balthazar",
+        "pnl": 461826.45,
+        "win_rate": 0.583,
+        "volume": 140331.58,
+        "categories": [
+          "politics",
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 96284.39,
+        "win_rate": 0.674,
+        "volume": 764168.32,
+        "categories": [
+          "sports"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 36828.27,
-        "win_rate": 0.71,
-        "volume": 743409.63,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x1610db79f7",
         "username": "HMLSF",
-        "pnl": 147636.16,
-        "win_rate": 0.4864,
-        "volume": 399683.92,
+        "pnl": 142019.3,
+        "win_rate": 0.4851,
+        "volume": 1221438.29,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 23417.97,
-        "win_rate": 0.687,
-        "volume": 700640.37,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 13287.03,
-        "win_rate": 0.579,
-        "volume": 617160.81,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 37384.04,
+        "win_rate": 0.71,
+        "volume": 779173.3,
         "categories": [
           "sports"
         ]
@@ -1251,20 +1229,50 @@
       {
         "wallet": "0xdc41c39b95",
         "username": "nigiri99",
-        "pnl": 56912.68,
-        "win_rate": 0.445,
-        "volume": 526098.98,
+        "pnl": 37739.5,
+        "win_rate": 0.438,
+        "volume": 791631.98,
         "categories": [
           "sports",
           "economy"
         ]
       },
       {
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 25787.72,
+        "win_rate": 0.666,
+        "volume": 602695.89,
+        "categories": [
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 96284.39,
+        "win_rate": 0.674,
+        "volume": 764168.32,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 13308.57,
+        "win_rate": 0.579,
+        "volume": 617160.81,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x004c832cb3",
-        "username": "0x004C832CB3AF8eE0771fDF5fC3D494fe8CA2BB89-1787916238390",
-        "pnl": 26889.3,
-        "win_rate": 0.7273,
-        "volume": 178021.61,
+        "username": "ATAKAJr.",
+        "pnl": 47976.51,
+        "win_rate": 0.75,
+        "volume": 181589.01,
         "categories": [
           "sports"
         ]
@@ -1280,31 +1288,21 @@
         ]
       },
       {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 11910.26,
-        "win_rate": 0.513,
-        "volume": 666685.22,
+        "wallet": "0x6d3c5bd139",
+        "username": "VeryLucky888",
+        "pnl": 12044.27,
+        "win_rate": 0.581,
+        "volume": 695663.15,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "",
-        "pnl": 20915.5,
-        "win_rate": 0.684,
-        "volume": 415392.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 96911.76,
-        "win_rate": 0.7848,
-        "volume": 125000.0,
+        "wallet": "0xcd84d7f926",
+        "username": "Donkey14",
+        "pnl": 101359.57,
+        "win_rate": 0.7222,
+        "volume": 246720.92,
         "categories": [
           "sports"
         ]
@@ -1313,22 +1311,6 @@
   },
   "news": [
     {
-      "title": "Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-sees-ai-boom-170200109.html",
-      "ticker": "DELL",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-compares-dell-dell-to-dallas-cowboys-star-ceedee-lamb-1836314/",
-      "ticker": "DELL",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
       "title": "Chime Financial ( CHYM ) versus The Competition Head to Head Survey",
       "url": "https://www.themarketsdaily.com/2026/09/12/chime-financial-chym-versus-the-competition-head-to-head-survey.html",
       "ticker": "CHYM",
@@ -1336,12 +1318,10 @@
       "date": "2026-09-12"
     },
     {
-      "title": "Talon Private Wealth LLC Sells 10 , 006 Shares of Colgate - Palmolive Company $CL",
-      "url": "https://www.themarketsdaily.com/2026/09/12/talon-private-wealth-llc-sells-10006-shares-of-colgate-palmolive-company-cl.html",
-      "ticker": "CL",
-      "themes": [
-        "stock"
-      ],
+      "title": "1 - 800 FLOWERS . COM ( NASDAQ : FLWS ) and a . k . a . Brands ( NYSE : AKA ) Head to Head Analysis",
+      "url": "https://www.dailypolitical.com/2026/09/12/1-800-flowers-com-nasdaqflws-and-a-k-a-brands-nyseaka-head-to-head-analysis.html",
+      "ticker": "FLWS",
+      "themes": [],
       "date": "2026-09-12"
     },
     {
@@ -1359,9 +1339,46 @@
       "ticker": "CHYM",
       "themes": [],
       "date": "2026-09-11"
+    },
+    {
+      "title": "1 - 800 - FLOWERS ( FLWS ) Q4 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/10/1-800-flowers-flws-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "FinancialContent - 1 - 800 - FLOWERS ( NASDAQ : FLWS ) Q2 CY2026 Earnings Results : Non - GAAP EPS Misses Expectations , Stock Drops 15 . 5 % ",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-10-1-800-flowerss-nasdaqflws-q2-cy2026-earnings-results-non-gaap-eps-misses-expectations-stock-drops-155",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "title": "FinancialContent - What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-what-to-expect-from-1-800-flowerss-flws-q2-earnings",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-09"
+    },
+    {
+      "title": "What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-1-800-flowers-flws-034318590.html",
+      "ticker": "FLWS",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-09-09"
     }
   ],
-  "signals_count": 1523,
+  "signals_count": 1350,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

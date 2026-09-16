@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-16T11:44:56+00:00 · ventana señales 2026-08-17 -> 2026-09-16_
+_Generado 2026-09-16T17:12:08+00:00 · ventana señales 2026-08-17 -> 2026-09-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -8,44 +8,48 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.89)
-- Tendencia: `neutral` (SPY 757.39 · MA50 759.06 · MA200 712.99 · dist MA200: 6.23%)
-- Credito: `tight` (HY spread 2.71)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 16.78)
+- Tendencia: `bull` (SPY 759.54 · MA50 759.3 · MA200 713.41 · dist MA200: 6.47%)
+- Credito: `tight` (HY spread 2.76)
 - Tipos: `flat` (curva 10y-2y 0.33)
 - Fed Funds: 3.63%
-- Motivos: credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 757.39 | -0.46% | -1.12% | -1.98% |
-| QQQ | 9.8% | core | 704.54 | -0.65% | -1.92% | -3.47% |
-| TLT | 9.8% | core | 80.71 | -0.27% | -1.81% | -0.41% |
-| CSQ | 8.2% | satellite | 20.28 | -0.73% | -2.71% | -2.33% |
-| EVRG | 7.9% | satellite | 80.2 | -0.82% | -2.48% | -3.65% |
-| GLD | 7.3% | core | 394.15 | 0.33% | -1.39% | -2.8% |
-| IEF | 4.9% | core | 90.82 | -0.12% | -1.45% | -1.82% |
-| COO | 3.2% | satellite | 53.27 | -1.75% | -21.3% | -29.07% |
-| GOLD | 2.5% | satellite | 47.8 | 1.01% | 0.7% | 5.31% |
-| DBI | 1.7% | satellite | 6.25 | -4.29% | 20.19% | 7.57% |
-| USAR | 1.5% | satellite | 15.4 | -1.97% | -12.8% | -20.17% |
-| DELL | 1.3% | satellite | 543.51 | 1.73% | 1.8% | 13.28% |
+| SPY | 12.0% | core | 759.54 | 0.28% | -0.38% | -1.03% |
+| QQQ | 12.0% | core | 709.55 | 0.71% | -0.94% | -1.11% |
+| TLT | 12.0% | core | 81.18 | 0.58% | -0.67% | -0.21% |
+| GLD | 9.3% | core | 398.17 | 1.02% | -1.28% | -0.1% |
+| CSQ | 8.6% | satellite | 20.4 | 0.59% | -1.52% | -1.24% |
+| EVRG | 8.4% | satellite | 80.91 | 0.89% | -0.38% | -3.01% |
+| IEF | 6.2% | core | 91.14 | 0.35% | -0.83% | -1.57% |
+| SBLK | 3.8% | satellite | 30.96 | -0.8% | -0.64% | 5.93% |
+| COO | 3.3% | satellite | 54.8 | 2.87% | -13.67% | -27.67% |
+| GOLD | 2.6% | satellite | 48.03 | 0.48% | -2.64% | 14.79% |
+| CELH | 2.0% | satellite | 28.74 | 4.0% | 3.96% | -3.9% |
+| DBI | 1.8% | satellite | 6.22 | -0.4% | 19.25% | 5.87% |
+| USAR | 1.6% | satellite | 15.25 | -0.97% | -10.61% | -17.61% |
+| DELL | 1.4% | satellite | 567.49 | 4.41% | 6.02% | 21.09% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.7%
-- Beta vs SPY: 0.621 · posiciones efectivas: 17.7 · HHI: 0.0565
+- Volatilidad anualizada: 10.7%
+- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
+- Max drawdown historico: -4.2%
+- Beta vs SPY: 0.735 · posiciones efectivas: 13.4 · HHI: 0.0746
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **COO** · score agregado 315.7 · 4 señales · fuentes: corporate_insider
 - **CSQ** · score agregado 282.0 · 4 señales · fuentes: large_holder
+- **SBLK** · score agregado 235.5 · 3 señales · fuentes: corporate_insider
+- **CELH** · score agregado 227.1 · 3 señales · fuentes: corporate_insider
 - **USAR** · score agregado 207.0 · 3 señales · fuentes: large_holder
 - **EVRG** · score agregado 107.4 · 2 señales · fuentes: corporate_insider
 - **DBI** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -58,21 +62,21 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| SBLK | 83 | corporate_insider | Spyrou Symeon | 3 | $424,050 | cluster_buy |
 | NTHI | 81 | corporate_insider | Heshmatpour Amir F | 3 | $115,395 | cluster_buy |
 | COO | 80 | corporate_insider | Kurzius Lawrence Erik | 3 | $539,150 | cluster_buy |
 | NTHI | 79 | corporate_insider | Heshmatpour Amir F | 3 | $59,400 | cluster_buy |
 | COO | 79 | corporate_insider | Rosebrough Walter M Jr | 3 | $378,770 | cluster_buy |
 | VENU | 79 | corporate_insider | ROTH JAY W | 2 | $350,000 | cluster_buy |
 | COO | 78 | corporate_insider | Keel Paul A | 3 | $250,000 | cluster_buy |
+| SBLK | 78 | corporate_insider | Erhardt Koert | 3 | $169,620 | cluster_buy |
 | COO | 78 | corporate_insider | Rosebrough Walter M Jr | 3 | $162,870 | cluster_buy |
 | NTHI | 77 | corporate_insider | CHEN THOMAS C | 3 | $19,998 | cluster_buy,small_amount |
 | NTHI | 77 | corporate_insider | CHEN THOMAS C | 3 | $20,002 | cluster_buy,small_amount |
+| CELH | 76 | corporate_insider | DeSantis Damon | 2 | $553,000 | cluster_buy |
+| CELH | 76 | corporate_insider | DeSantis Damon | 2 | $447,200 | cluster_buy |
 | RWT | 76 | corporate_insider | Carillo Brooke | 2 | $100,238 | cluster_buy |
-| VENU | 75 | corporate_insider | Finke Thomas M | 2 | $350,000 | cluster_buy |
-| RWT | 74 | corporate_insider | KUBICEK GREG H | 2 | $192,560 | cluster_buy |
-| TENX | 72 | corporate_insider | Giordano Christopher Thom | 2 | $11,250 | cluster_buy,small_amount |
-| DBI | 72 | large_holder | Stone House Capital Manag |  | - | - |
-| TENX | 72 | large_holder | ING Groep N.V. |  | - | - |
+| SBLK | 75 | corporate_insider | Karellis Nikolaos | 3 | $56,540 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -82,10 +86,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | DELL | 60 | corporate_insider | Trizzino Peter | $21,137,638 | - |
 | HPE | 59 | corporate_insider | Neri Antonio F | $15,110,500 | - |
 | ROST | 58 | corporate_insider | Conroy James Grant | $11,291,775 | - |
-| PBF | 57 | corporate_insider | Control Empresarial de Ca | $12,089,970 | - |
 | HSTM | 56 | corporate_insider | FRIST ROBERT A JR | $4,250,006 | - |
 | CRVL | 56 | corporate_insider | CORSTAR HOLDINGS INC | $8,968,055 | - |
 | CRWV | 56 | corporate_insider | Agrawal Nitin | $5,303,445 | - |
+| AMBQ | 55 | corporate_insider | Esaka Fumihide | $2,662,427 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -94,15 +98,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 757.39 (-0.46% / -1.12% / -1.98%) [2026-09-15]
-- QQQ: 704.54 (-0.65% / -1.92% / -3.47%) [2026-09-15]
-- IWM: 285.14 (-0.7% / -2.98% / -5.98%) [2026-09-15]
-- DIA: 521.23 (-0.62% / -1.29% / -2.35%) [2026-09-15]
-- TLT: 80.71 (-0.27% / -1.81% / -0.41%) [2026-09-15]
-- IEF: 90.82 (-0.12% / -1.45% / -1.82%) [2026-09-15]
-- GLD: 394.15 (0.33% / -1.39% / -2.8%) [2026-09-15]
-- ^VIX: 16.89 (-1.8% / 2.61% / 13.43%) [2026-09-16]
-- BTC-USD: 76147.25 (0.71% / -1.33% / -5.12%) [2026-09-16]
+- SPY: 759.54 (0.28% / -0.38% / -1.03%) [2026-09-16]
+- QQQ: 709.55 (0.71% / -0.94% / -1.11%) [2026-09-16]
+- IWM: 286.35 (0.42% / -1.22% / -4.38%) [2026-09-16]
+- DIA: 520.8 (-0.08% / -0.62% / -2.19%) [2026-09-16]
+- TLT: 81.18 (0.58% / -0.67% / -0.21%) [2026-09-16]
+- IEF: 91.14 (0.35% / -0.83% / -1.57%) [2026-09-16]
+- GLD: 398.17 (1.02% / -1.28% / -0.1%) [2026-09-16]
+- ^VIX: 16.78 (-2.44% / 1.94% / 12.69%) [2026-09-16]
+- BTC-USD: 75623.37 (0.01% / -2.01% / -5.77%) [2026-09-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,42 +114,44 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - Treasury 10Y yield: 4.97 (delta 1m: 0.34) [2026-09-14]
 - Curva 10Y-2Y: 0.33 (delta 1m: -0.18) [2026-09-15]
 - Fed Funds Rate: 3.63 (delta 1m: -1.01) [2026-08-01]
-- High yield spread (OAS): 2.71 (delta 1m: 0.04) [2026-09-14]
+- High yield spread (OAS): 2.76 (delta 1m: 0.06) [2026-09-15]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-08-01]
 - Breakeven inflacion 10Y: 2.38 (delta 1m: 0.11) [2026-09-15]
 - Dolar broad index: 118.2126 (delta 1m: -0.905) [2026-09-11]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: earnings (4), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
-- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
 - [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
-- [CL] Talon Private Wealth LLC Sells 10 , 006 Shares of Colgate - Palmolive Company $CL (2026-09-12)
+- [FLWS] 1 - 800 FLOWERS . COM ( NASDAQ : FLWS ) and a . k . a . Brands ( NYSE : AKA ) Head to Head Analysis (2026-09-12)
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
 - [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
+- [FLWS] 1 - 800 - FLOWERS ( FLWS ) Q4 2026 Earnings Call Transcript (2026-09-11)
+- [FLWS] FinancialContent - 1 - 800 - FLOWERS ( NASDAQ : FLWS ) Q2 CY2026 Earnings Results : Non - GAAP EPS Misses Expectations , Stock Drops 15 . 5 % (2026-09-10)
+- [FLWS] FinancialContent - What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings (2026-09-09)
+- [FLWS] What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings (2026-09-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Trizzino Peter vendio DELL por $21.1M el 2026-09-11 [senal en multiples fuentes].
 - 10% owner TPG GP A, LLC vendio LFST por $226.3M el 2026-09-11.
 - CEO Conroy James Grant vendio ROST por $11.3M el 2026-09-14.
+- 10% owner BANKERS LIFE & CASUALTY CO compro Privacore VPC Asset Backed Credit Fund por $8.0M el 2026-09-14.
 - CEO Neri Antonio F vendio HPE por $15.1M el 2026-09-11.
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $5.9M el 2026-09-11.
+- 10% owner THRIVENT FINANCIAL FOR LUTHERANS compro ARDC por $6.0M el 2026-09-14.
+- 10% owner THRIVENT FINANCIAL FOR LUTHERANS opero ARDC por $9.0M el 2026-09-15.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - ethanaz · PnL $277,825 · win rate 89% · categorias: sports, crypto
-- SDTrading · PnL $47,065 · win rate 94% · categorias: sports
-- dontworrybaseball · PnL $11,739 · win rate 100% · categorias: sports
+- SDTrading · PnL $46,244 · win rate 94% · categorias: sports
 - BrotherObama · PnL $81,866 · win rate 84% · categorias: sports
 - DimSumConnoisseur. · PnL $44,100 · win rate 91% · categorias: sports
+- xifutloong3 · PnL $96,912 · win rate 78% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,7 +159,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 773 registros 30d · ultimo dato 2026-09-15
+- **sec_insiders**: `ok` · 600 registros 30d · ultimo dato 2026-09-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -167,8 +173,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`COO, CSQ, DBI, DELL, EVRG, GLD, GOLD, IEF, QQQ, SPY, TLT, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`CELH, COO, CSQ, DBI, DELL, EVRG, GLD, GOLD, IEF, QQQ, SBLK, SPY, TLT, USAR`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
