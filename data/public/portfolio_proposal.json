@@ -1,44 +1,40 @@
 {
-  "generated_at": "2026-09-15T21:37:20+00:00",
+  "generated_at": "2026-09-16T00:34:54+00:00",
   "profile": "moderado",
-  "regime_budget": 0.7,
-  "total_equity": 0.6998,
-  "cash": 0.3002,
+  "regime_budget": 0.9,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
-    "SPY": 0.1201,
-    "QQQ": 0.0976,
-    "TLT": 0.0976,
-    "GLD": 0.0731,
-    "CSQ": 0.0698,
-    "EVRG": 0.0649,
-    "IEF": 0.0488,
-    "COO": 0.0236,
-    "MG": 0.0189,
-    "GOLD": 0.0177,
-    "PMTS": 0.0151,
-    "DBI": 0.0148,
-    "CELH": 0.0135,
-    "USAR": 0.0124,
-    "DELL": 0.0119
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "CSQ": 0.0983,
+    "EVRG": 0.0953,
+    "GLD": 0.0933,
+    "IEF": 0.0622,
+    "COO": 0.0379,
+    "GOLD": 0.0299,
+    "DBI": 0.0202,
+    "LMB": 0.0195,
+    "USAR": 0.0179,
+    "DELL": 0.0155
   },
   "core": {
-    "SPY": 0.1592,
-    "QQQ": 0.091,
-    "TLT": 0.091,
-    "IEF": 0.0455,
-    "GLD": 0.0682
+    "SPY": 0.1934,
+    "QQQ": 0.1105,
+    "TLT": 0.1105,
+    "IEF": 0.0553,
+    "GLD": 0.0829
   },
   "satellite": {
-    "COO": 0.022,
-    "CSQ": 0.0651,
-    "USAR": 0.0116,
-    "PMTS": 0.0141,
-    "CELH": 0.0126,
-    "EVRG": 0.0605,
-    "DBI": 0.0138,
-    "MG": 0.0176,
-    "DELL": 0.0111,
-    "GOLD": 0.0165
+    "COO": 0.0337,
+    "CSQ": 0.0874,
+    "LMB": 0.0173,
+    "USAR": 0.0159,
+    "EVRG": 0.0847,
+    "DBI": 0.018,
+    "DELL": 0.0138,
+    "GOLD": 0.0266
   },
   "satellite_rationale": [
     {
@@ -58,28 +54,20 @@
       "n_signals": 4
     },
     {
+      "ticker": "LMB",
+      "score": 223.8,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
       "ticker": "USAR",
       "score": 207.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 3
-    },
-    {
-      "ticker": "PMTS",
-      "score": 147.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "CELH",
-      "score": 120.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "EVRG",
@@ -92,14 +80,6 @@
     {
       "ticker": "DBI",
       "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "MG",
-      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -123,17 +103,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0899,
-    "var_95_1d": 0.0089,
-    "cvar_95_1d": 0.0103,
-    "max_drawdown": -0.031,
-    "beta_spy": 0.684,
-    "hhi": 0.0524,
-    "max_position": 0.1201,
-    "n_positions": 15,
-    "effective_positions": 19.1,
-    "gross_exposure": 0.6998,
-    "days_used": 51
+    "ann_vol": 0.1108,
+    "var_95_1d": 0.0113,
+    "cvar_95_1d": 0.0148,
+    "max_drawdown": -0.0479,
+    "beta_spy": 0.766,
+    "hhi": 0.0782,
+    "max_position": 0.12,
+    "n_positions": 13,
+    "effective_positions": 12.8,
+    "gross_exposure": 0.85,
+    "days_used": 79
   },
   "risk_gate": {
     "passed": true,
