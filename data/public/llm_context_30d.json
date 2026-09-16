@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-16T06:15:23.256425+00:00",
+  "generated_at": "2026-09-16T11:44:05.377665+00:00",
   "window": {
     "from": "2026-08-17",
     "to": "2026-09-16",
@@ -24,8 +24,7 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
-      "leadership"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -45,7 +44,10 @@
       "event_date": "2026-09-11",
       "importance_score": 84.7,
       "cross_source_score": 25.0,
-      "related_news": [],
+      "related_news": [
+        "news_753519741884",
+        "news_241071523200"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2110325/000211032526000008/"
     },
     {
@@ -484,6 +486,14 @@
         ]
       },
       {
+        "ticker": "NNOX",
+        "company": "Nano-X Imaging Ltd.",
+        "pressure_score": 209.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "USAR",
         "company": "USA Rare Earth, Inc.",
         "pressure_score": 207.0,
@@ -506,14 +516,6 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "CELH",
-        "company": "Celsius Holdings, Inc.",
-        "pressure_score": 151.7,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -524,14 +526,6 @@
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "STX",
-        "company": "Seagate Technology Holdings plc",
-        "pressure_score": 3134.3,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -634,6 +628,14 @@
         "ticker": "CSTL",
         "company": "CASTLE BIOSCIENCES INC",
         "pressure_score": 381.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "XPO",
+        "company": "XPO, Inc.",
+        "pressure_score": 348.1,
         "sources": [
           "corporate_insider"
         ]
@@ -1113,7 +1115,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 46697.85,
+        "pnl": 47064.58,
         "win_rate": 0.9434,
         "volume": 0.0,
         "categories": [
@@ -1133,7 +1135,7 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 85081.38,
+        "pnl": 81866.19,
         "win_rate": 0.8409,
         "volume": 7000.0,
         "categories": [
@@ -1141,23 +1143,23 @@
         ]
       },
       {
-        "wallet": "0x658e4eca37",
-        "username": "0x658E4EcA37bfE9F11ea54E3aac9df4f64020d758-1774991417896",
-        "pnl": 6968.41,
-        "win_rate": 0.9808,
-        "volume": 31024.57,
+        "wallet": "0xe3c9c84c99",
+        "username": "DimSumConnoisseur.",
+        "pnl": 44100.35,
+        "win_rate": 0.9091,
+        "volume": 132615.82,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 16360.2,
-        "win_rate": 0.9091,
-        "volume": 243979.09,
+        "wallet": "0x696de7b6e4",
+        "username": "xm39",
+        "pnl": 10453.79,
+        "win_rate": 0.9394,
+        "volume": 3829.79,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
@@ -1171,34 +1173,37 @@
         ]
       },
       {
-        "wallet": "0x6b44c48cfb",
-        "username": "mjjbb",
-        "pnl": 6871.32,
-        "win_rate": 0.9077,
-        "volume": 8750.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe3c9c84c99",
-        "username": "DimSumConnoisseur.",
-        "pnl": 13516.67,
-        "win_rate": 0.9091,
-        "volume": 132615.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2396babfc8",
-        "username": "kabina-",
-        "pnl": 12030.87,
-        "win_rate": 0.858,
-        "volume": 10661.48,
+        "wallet": "0xeb490d0534",
+        "username": "78979879879879",
+        "pnl": 13204.74,
+        "win_rate": 0.8596,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "politics"
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xcd84d7f926",
+        "username": "Donkey14",
+        "pnl": 102970.95,
+        "win_rate": 0.7222,
+        "volume": 58084.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xbe189fc6c8",
+        "username": "",
+        "pnl": 25324.65,
+        "win_rate": 0.7843,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
         ]
       }
     ],
@@ -1206,49 +1211,60 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 30208.32,
+        "pnl": 36828.27,
         "win_rate": 0.71,
-        "volume": 736964.89,
+        "volume": 743409.63,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5e9458202b",
-        "username": "pleaseplease123",
-        "pnl": 68428.3,
-        "win_rate": 0.4912,
-        "volume": 278083.93,
+        "wallet": "0x1610db79f7",
+        "username": "HMLSF",
+        "pnl": 147636.16,
+        "win_rate": 0.4864,
+        "volume": 399683.92,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 16360.2,
-        "win_rate": 0.9091,
-        "volume": 243979.09,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 23417.97,
+        "win_rate": 0.687,
+        "volume": 700640.37,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 17908.43,
+        "pnl": 13287.03,
         "win_rate": 0.579,
-        "volume": 584799.04,
+        "volume": 617160.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 8216.6,
-        "win_rate": 0.55,
-        "volume": 274824.2,
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 56912.68,
+        "win_rate": 0.445,
+        "volume": 526098.98,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x004c832cb3",
+        "username": "0x004C832CB3AF8eE0771fDF5fC3D494fe8CA2BB89-1787916238390",
+        "pnl": 26889.3,
+        "win_rate": 0.7273,
+        "volume": 178021.61,
         "categories": [
           "sports"
         ]
@@ -1256,9 +1272,29 @@
       {
         "wallet": "0xe3c9c84c99",
         "username": "DimSumConnoisseur.",
-        "pnl": 13516.67,
+        "pnl": 44100.35,
         "win_rate": 0.9091,
         "volume": 132615.82,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 11910.26,
+        "win_rate": 0.513,
+        "volume": 666685.22,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "",
+        "pnl": 20915.5,
+        "win_rate": 0.684,
+        "volume": 415392.69,
         "categories": [
           "sports"
         ]
@@ -1269,40 +1305,6 @@
         "pnl": 96911.76,
         "win_rate": 0.7848,
         "volume": 125000.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x26b46988d0",
-        "username": "kkookkoo",
-        "pnl": 29263.57,
-        "win_rate": 0.634,
-        "volume": 179182.09,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x96489abcb9",
-        "username": "anoin123",
-        "pnl": 6789.11,
-        "win_rate": 0.6193,
-        "volume": 68322.81,
-        "categories": [
-          "politics",
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 100404.05,
-        "win_rate": 0.4803,
-        "volume": 69696.0,
         "categories": [
           "sports"
         ]
@@ -1311,25 +1313,25 @@
   },
   "news": [
     {
-      "title": "Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares",
-      "url": "https://www.themarketsdaily.com/2026/09/12/seagate-technology-nasdaqstx-evp-john-christopher-morris-sells-572-shares.html",
-      "ticker": "STX",
+      "title": "Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-sees-ai-boom-170200109.html",
+      "ticker": "DELL",
       "themes": [
-        "stock"
+        "ai"
       ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-compares-dell-dell-to-dallas-cowboys-star-ceedee-lamb-1836314/",
+      "ticker": "DELL",
+      "themes": [],
       "date": "2026-09-12"
     },
     {
       "title": "Chime Financial ( CHYM ) versus The Competition Head to Head Survey",
       "url": "https://www.themarketsdaily.com/2026/09/12/chime-financial-chym-versus-the-competition-head-to-head-survey.html",
       "ticker": "CHYM",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "1 - 800 FLOWERS . COM ( NASDAQ : FLWS ) and a . k . a . Brands ( NYSE : AKA ) Head to Head Analysis",
-      "url": "https://www.dailypolitical.com/2026/09/12/1-800-flowers-com-nasdaqflws-and-a-k-a-brands-nyseaka-head-to-head-analysis.html",
-      "ticker": "FLWS",
       "themes": [],
       "date": "2026-09-12"
     },
@@ -1352,136 +1354,14 @@
       "date": "2026-09-12"
     },
     {
-      "title": "RFG Advisory LLC Invests $1 . 38 Million in Neurocrine Biosciences , Inc . $NBIX",
-      "url": "https://www.dailypolitical.com/2026/09/12/rfg-advisory-llc-invests-1-38-million-in-neurocrine-biosciences-inc-nbix.html",
-      "ticker": "NBIX",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "RFG Advisory LLC Invests $1 . 38 Million in Neurocrine Biosciences , Inc . $NBIX",
-      "url": "https://www.tickerreport.com/banking-finance/13582522/rfg-advisory-llc-invests-1-38-million-in-neurocrine-biosciences-inc-nbix.html",
-      "ticker": "NBIX",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling",
-      "url": "https://www.themarketsdaily.com/2026/09/11/seagate-technology-nasdaqstx-trading-down-3-7-following-insider-selling.html",
-      "ticker": "STX",
-      "themes": [],
-      "date": "2026-09-11"
-    },
-    {
-      "title": "Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? ",
-      "url": "https://www.tickerreport.com/banking-finance/13581827/seagate-technology-nasdaqstx-trading-down-2-whats-next.html",
-      "ticker": "STX",
-      "themes": [],
-      "date": "2026-09-11"
-    },
-    {
       "title": "Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis",
       "url": "https://www.dailypolitical.com/2026/09/11/corpay-nysecpay-vs-chime-financial-nasdaqchym-head-to-head-analysis.html",
       "ticker": "CHYM",
       "themes": [],
       "date": "2026-09-11"
-    },
-    {
-      "title": "1 - 800 - FLOWERS ( FLWS ) Q4 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/10/1-800-flowers-flws-q4-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "FLWS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-11"
-    },
-    {
-      "title": "Ambiq Micro ( AMBQ ) and The Competition Critical Survey",
-      "url": "https://www.themarketsdaily.com/2026/09/10/ambiq-micro-ambq-and-the-competition-critical-survey.html",
-      "ticker": "AMBQ",
-      "themes": [],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Prosper Stars & Stripes Closed Ambiq Micro ( AMBQ ) as Bullish Target Achieved",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prosper-stars-stripes-closed-ambiq-134422783.html",
-      "ticker": "AMBQ",
-      "themes": [],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Lifecore Biomedical ( NASDAQ : LFCR ) & Neurocrine Biosciences ( NASDAQ : NBIX ) Head to Head Analysis",
-      "url": "https://www.dailypolitical.com/2026/09/10/lifecore-biomedical-nasdaqlfcr-neurocrine-biosciences-nasdaqnbix-head-to-head-analysis.html",
-      "ticker": "NBIX",
-      "themes": [],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "FinancialContent - 1 - 800 - FLOWERS ( NASDAQ : FLWS ) Q2 CY2026 Earnings Results : Non - GAAP EPS Misses Expectations , Stock Drops 15 . 5 % ",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-10-1-800-flowerss-nasdaqflws-q2-cy2026-earnings-results-non-gaap-eps-misses-expectations-stock-drops-155",
-      "ticker": "FLWS",
-      "themes": [
-        "earnings",
-        "stock"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Brokerages Set Neurocrine Biosciences , Inc . ( NASDAQ : NBIX ) PT at $201 . 05",
-      "url": "https://www.tickerreport.com/banking-finance/13578930/brokerages-set-neurocrine-biosciences-inc-nasdaqnbix-pt-at-201-05.html",
-      "ticker": "NBIX",
-      "themes": [],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Sean Chihhsiang Chen Sells 15 , 000 Shares of Ambiq Micro ( NYSE : AMBQ ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13578800/sean-chihhsiang-chen-sells-15000-shares-of-ambiq-micro-nyseambq-stock.html",
-      "ticker": "AMBQ",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-10"
-    },
-    {
-      "title": "FinancialContent - What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-what-to-expect-from-1-800-flowerss-flws-q2-earnings",
-      "ticker": "FLWS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-09"
-    },
-    {
-      "title": "What To Expect From 1 - 800 - FLOWERS ( FLWS ) Q2 Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-1-800-flowers-flws-034318590.html",
-      "ticker": "FLWS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Ambiq Micro ( NYSE : AMBQ ) CEO Fumihide Esaka Sells 48 , 973 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13571083/ambiq-micro-nyseambq-ceo-fumihide-esaka-sells-48973-shares.html",
-      "ticker": "AMBQ",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Insider Selling : Ambiq Micro ( NYSE : AMBQ ) CEO Sells $2 , 785 , 840 . 00 in Stock",
-      "url": "https://www.dailypolitical.com/2026/09/02/insider-selling-ambiq-micro-nyseambq-ceo-sells-2785840-00-in-stock.html",
-      "ticker": "AMBQ",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-09-02"
     }
   ],
-  "signals_count": 1564,
+  "signals_count": 1523,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

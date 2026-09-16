@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-16T06:16:12+00:00 · ventana señales 2026-08-17 -> 2026-09-16_
+_Generado 2026-09-16T11:44:56+00:00 · ventana señales 2026-08-17 -> 2026-09-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.2)
+- Volatilidad: `normal` (VIX 16.89)
 - Tendencia: `neutral` (SPY 757.39 · MA50 759.06 · MA200 712.99 · dist MA200: 6.23%)
 - Credito: `tight` (HY spread 2.71)
 - Tipos: `flat` (curva 10y-2y 0.33)
@@ -84,8 +84,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | ROST | 58 | corporate_insider | Conroy James Grant | $11,291,775 | - |
 | PBF | 57 | corporate_insider | Control Empresarial de Ca | $12,089,970 | - |
 | HSTM | 56 | corporate_insider | FRIST ROBERT A JR | $4,250,006 | - |
-| STX | 56 | corporate_insider | Romano Gianluca | $6,287,072 | - |
 | CRVL | 56 | corporate_insider | CORSTAR HOLDINGS INC | $8,968,055 | - |
+| CRWV | 56 | corporate_insider | Agrawal Nitin | $5,303,445 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 80.71 (-0.27% / -1.81% / -0.41%) [2026-09-15]
 - IEF: 90.82 (-0.12% / -1.45% / -1.82%) [2026-09-15]
 - GLD: 394.15 (0.33% / -1.39% / -2.8%) [2026-09-15]
-- ^VIX: 17.2 (0.58% / 9.41% / 8.59%) [2026-09-15]
-- BTC-USD: 75902.04 (-2.89% / -0.87% / -3.95%) [2026-09-16]
+- ^VIX: 16.89 (-1.8% / 2.61% / 13.43%) [2026-09-16]
+- BTC-USD: 76147.25 (0.71% / -1.33% / -5.12%) [2026-09-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,19 +117,15 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (7), earnings (4), leadership (2)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [STX] Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares (2026-09-12)
+- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
+- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
 - [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
-- [FLWS] 1 - 800 FLOWERS . COM ( NASDAQ : FLWS ) and a . k . a . Brands ( NYSE : AKA ) Head to Head Analysis (2026-09-12)
 - [CL] Talon Private Wealth LLC Sells 10 , 006 Shares of Colgate - Palmolive Company $CL (2026-09-12)
 - [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
-- [NBIX] RFG Advisory LLC Invests $1 . 38 Million in Neurocrine Biosciences , Inc . $NBIX (2026-09-12)
-- [NBIX] RFG Advisory LLC Invests $1 . 38 Million in Neurocrine Biosciences , Inc . $NBIX (2026-09-12)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
 - [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -146,10 +142,10 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - ethanaz · PnL $277,825 · win rate 89% · categorias: sports, crypto
-- SDTrading · PnL $46,698 · win rate 94% · categorias: sports
+- SDTrading · PnL $47,065 · win rate 94% · categorias: sports
 - dontworrybaseball · PnL $11,739 · win rate 100% · categorias: sports
-- BrotherObama · PnL $85,081 · win rate 84% · categorias: sports
-- 0x658E4EcA37bfE9F11ea54E3aac9df4f64020d758-1774991417896 · PnL $6,968 · win rate 98% · categorias: sports
+- BrotherObama · PnL $81,866 · win rate 84% · categorias: sports
+- DimSumConnoisseur. · PnL $44,100 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -157,8 +153,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 814 registros 30d · ultimo dato 2026-09-15
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-15
+- **sec_insiders**: `ok` · 773 registros 30d · ultimo dato 2026-09-15
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
