@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-16T23:11:33+00:00 -->
+<!-- trader_prompt.md generado 2026-09-17T01:42:52+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-16T23:11:33+00:00 · ventana señales 2026-08-17 -> 2026-09-16_
+_Generado 2026-09-17T01:42:52+00:00 · ventana señales 2026-08-18 -> 2026-09-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -260,35 +260,31 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | QQQ | 9.8% | core | 704.72 | 0.03% | -1.62% | -1.78% |
 | TLT | 9.8% | core | 80.88 | 0.21% | -1.04% | -0.58% |
 | GLD | 7.3% | core | 391.74 | -0.61% | -2.88% | -1.71% |
-| CSQ | 6.3% | satellite | 20.16 | -0.59% | -2.68% | -2.4% |
 | IEF | 4.9% | core | 90.73 | -0.1% | -1.27% | -2.02% |
-| GLP | 3.5% | satellite | 50.76 | -0.22% | -5.07% | 0.02% |
-| SBLK | 3.1% | satellite | 30.87 | -1.09% | -0.93% | 5.62% |
-| MCFT | 2.7% | satellite | 19.15 | -2.25% | -15.97% | -23.83% |
-| DT | 2.4% | satellite | 55.19 | 0.04% | 9.07% | 12.04% |
-| PLNT | 2.2% | satellite | 50.02 | -1.55% | 0.28% | -6.26% |
-| USO | 2.0% | satellite | 156.17 | -3.52% | 4.13% | 19.52% |
-| GOLD | 1.9% | satellite | 46.82 | -2.05% | -5.09% | 11.9% |
-| DELL | 1.3% | satellite | 563.29 | 3.64% | 5.24% | 20.19% |
-| USAR | 1.0% | satellite | 15.1 | -1.95% | -11.49% | -18.42% |
+| GLP | 4.8% | satellite | 50.76 | -0.22% | -5.07% | 0.02% |
+| SBLK | 4.3% | satellite | 30.87 | -1.09% | -0.93% | 5.62% |
+| BOC | 4.2% | satellite | 13.64 | -0.51% | -0.58% | 3.96% |
+| DT | 3.3% | satellite | 55.17 | 3.43% | 9.7% | 15.88% |
+| PLNT | 3.0% | satellite | 50.81 | -0.68% | 1.86% | 0.36% |
+| USO | 2.8% | satellite | 156.17 | -3.52% | 4.13% | 19.52% |
+| GOLD | 2.6% | satellite | 47.8 | 1.01% | 0.7% | 5.31% |
+| USAR | 1.3% | satellite | 15.4 | -1.97% | -12.8% | -20.17% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.5%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Volatilidad anualizada: 7.9%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -5.5%
-- Beta vs SPY: 0.564 · posiciones efectivas: 20.0 · HHI: 0.0501
+- Beta vs SPY: 0.468 · posiciones efectivas: 19.7 · HHI: 0.0507
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **USO** · score agregado 506.0 · 8 señales · fuentes: corporate_insider
 - **SBLK** · score agregado 235.5 · 3 señales · fuentes: corporate_insider
-- **CSQ** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **USAR** · score agregado 207.0 · 3 señales · fuentes: large_holder
 - **GLP** · score agregado 172.6 · 3 señales · fuentes: corporate_insider
-- **MCFT** · score agregado 146.8 · 2 señales · fuentes: corporate_insider
 - **DT** · score agregado 143.6 · 2 señales · fuentes: large_holder
-- **DELL** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **BOC** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **GOLD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **PLNT** · score agregado 56.9 · 1 señales · fuentes: corporate_insider
 
@@ -301,31 +297,31 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | SBLK | 83 | corporate_insider | Spyrou Symeon | 3 | $424,050 | cluster_buy |
 | SBLK | 78 | corporate_insider | Erhardt Koert | 3 | $169,620 | cluster_buy |
 | CBKM | 76 | corporate_insider | Lober Ralph J II | 4 | $13,192 | cluster_buy,small_amount |
+| BUKS | 76 | corporate_insider | Veradace Partners LP | 2 | $163,600 | cluster_buy |
 | SBLK | 75 | corporate_insider | Karellis Nikolaos | 3 | $56,540 | cluster_buy |
-| MCFT | 75 | corporate_insider | Nelson Bradley M. | 2 | $46,800 | cluster_buy |
+| BUKS | 73 | corporate_insider | Veradace Partners LP | 2 | $58,650 | cluster_buy |
 | GABC | 73 | corporate_insider | Bawel Zachary W | 3 | $20,000 | cluster_buy,small_amount |
+| FLNT | 73 | corporate_insider | GLOBAL VALUE INVESTMENT C | 2 | $41,831 | cluster_buy |
+| FLNT | 73 | corporate_insider | GEYGAN JAMES | 2 | $41,831 | cluster_buy |
 | CROX | 72 | corporate_insider | KAPLAN BETH J | 2 | $99,228 | cluster_buy |
 | LMB | 72 | corporate_insider | Gaboury David Richard | 2 | $99,619 | cluster_buy |
 | CROX | 72 | corporate_insider | SMACH THOMAS J | 2 | $75,813 | cluster_buy |
-| MCFT | 72 | corporate_insider | Lambert Roch | 2 | $75,016 | cluster_buy |
 | DT | 72 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
 | NEPH | 72 | large_holder | Charles E. Davidson |  | - | - |
 | RENT | 72 | large_holder | Gateway Runway, LLC |  | - | - |
-| RENT | 72 | large_holder | S3 RR Aggregator, LLC |  | - | - |
-| RENT | 72 | large_holder | CHS US Investments LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| STX | 63 | corporate_insider | MOSLEY WILLIAM D | $75,584,519 | - |
-| STX | 60 | corporate_insider | Romano Gianluca | $38,595,124 | - |
-| KLAC | 59 | corporate_insider | WALLACE RICHARD P | $12,378,626 | - |
+| SNDK | 60 | corporate_insider | Goeckeler David | $21,870,445 | - |
+| CHYM | 60 | corporate_insider | DST Global Advisors Ltd | $47,098,657 | - |
+| CHYM | 60 | corporate_insider | DST Global Advisors Ltd | $47,098,657 | - |
 | FOX | 58 | corporate_insider | MURDOCH LACHLAN K | $10,274,977 | - |
+| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $24,197,448 | - |
+| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $24,197,448 | - |
+| SNDK | 57 | corporate_insider | Goeckeler David | $6,236,061 | - |
 | MRNA | 57 | corporate_insider | Hoge Stephen | $5,883,846 | - |
-| MRNA | 57 | corporate_insider | Hoge Stephen | $5,807,574 | - |
-| SNPS | 57 | corporate_insider | Ghazi Sassine | $5,474,683 | - |
-| MTB | 57 | corporate_insider | JONES RENE F | $4,642,433 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -342,7 +338,7 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - IEF: 90.73 (-0.1% / -1.27% / -2.02%) [2026-09-16]
 - GLD: 391.74 (-0.61% / -2.88% / -1.71%) [2026-09-16]
 - ^VIX: 17.71 (2.97% / 7.59% / 18.94%) [2026-09-16]
-- BTC-USD: 75752.13 (0.18% / -1.84% / -5.61%) [2026-09-16]
+- BTC-USD: 76480.14 (1.15% / -0.9% / -4.71%) [2026-09-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,37 +353,39 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2)
+**Temas dominantes**: stock (8), merger (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
-- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [STX] Seagate Technology ( NASDAQ : STX ) EVP John Christopher Morris Sells 572 Shares (2026-09-12)
-- [W] Wayfair Is Opening Its First Monmouth County , NJ Location (2026-09-11)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 3 . 7 % Following Insider Selling (2026-09-11)
-- [STX] Seagate Technology ( NASDAQ : STX ) Trading Down 2 % – What Next ? (2026-09-11)
-- [SPOT] Head - To - Head Comparison : Spotify Technology ( NYSE : SPOT ) versus Angel Studios ( NYSE : ANGX ) (2026-09-04)
-- [SPOT] Airbnb vs . Spotify Technology : Which Consumer Stock Is a Better Buy in 2026 ? (2026-09-03)
+- [SNOW] Rep . Gilbert Ray Cisneros , Jr . Acquires Shares of Snowflake Inc . ( NYSE : SNOW ) (2026-09-13)
+- [SOFI] Where Will SoFi Stock Be in 5 Years ? | The Motley Fool (2026-09-12)
+- [SOFI] Where Will SoFi Stock Be in 5 Years ? | The Motley Fool (2026-09-12)
+- [SOFI] Where Will SoFi Stock Be in 5 Years ? (2026-09-12)
+- [SNOW] Jim Cramer Said Snowflake Inc . ( NYSE : SNOW ) Q2 Was Great For AI (2026-09-12)
+- [DDOG] Datadog ( NASDAQ : DDOG ) Stock Rating Upgraded by Wedbush (2026-09-12)
+- [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
+- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
+- [SOFI] SoFi Technologies ( NASDAQ : SOFI ) Shares Down 3 . 8 % – Here Why (2026-09-11)
+- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO MOSLEY WILLIAM D vendio STX por $75.6M el 2026-09-15.
 - CEO MURDOCH LACHLAN K compro FOX por $10.3M el 2026-09-15.
-- CFO Romano Gianluca vendio STX por $38.6M el 2026-09-15.
-- CEO WALLACE RICHARD P vendio KLAC por $12.4M el 2026-09-15.
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $10.3M el 2026-09-14.
+- CEO Goeckeler David vendio SNDK por $21.9M el 2026-09-14.
+- 10% owner DST Global Advisors Ltd vendio CHYM por $47.1M el 2026-09-14.
 - 10% owner HRT FINANCIAL LP compro USO por $6.8M el 2026-09-14.
 - CEO Hoge Stephen vendio MRNA por $5.9M el 2026-09-15.
 - CEO Ghazi Sassine vendio SNPS por $5.5M el 2026-09-15.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ethanaz · PnL $276,824 · win rate 89% · categorias: sports, crypto
-- SDTrading · PnL $82,769 · win rate 94% · categorias: sports
-- BreakTheBank · PnL $341,485 · win rate 85% · categorias: sports
-- TheyAreTakingTheHobitsToIsengard · PnL $124,521 · win rate 91% · categorias: sports, economy
-- 0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241 · PnL $40,631 · win rate 90% · categorias: sports, crypto, economy
+- SDTrading · PnL $22,487 · win rate 94% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $5,805 · win rate 91% · categorias: crypto
+- xxzws1 · PnL $5,220 · win rate 90% · categorias: sports, politics, crypto
+- BrotherObama · PnL $12,094 · win rate 84% · categorias: sports
+- 0xheavy888 · PnL $4,548 · win rate 85% · categorias: sports, economy, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,11 +393,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 761 registros 30d · ultimo dato 2026-09-16
+- **sec_insiders**: `ok` · 755 registros 30d · ultimo dato 2026-09-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
-- **Fuentes con problemas**: congress
+- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — high_volume_zero_count:64
+- **Fuentes con problemas**: congress, polymarket
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -409,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CSQ, DELL, DT, GLD, GLP, GOLD, IEF, MCFT, PLNT, QQQ, SBLK, SPY, TLT, USAR, USO`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BOC, DT, GLD, GLP, GOLD, IEF, PLNT, QQQ, SBLK, SPY, TLT, USAR, USO`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **70.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
