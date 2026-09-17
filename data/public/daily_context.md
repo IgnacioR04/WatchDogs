@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-17T01:42:52+00:00 · ventana señales 2026-08-18 -> 2026-09-17_
+_Generado 2026-09-17T07:53:38+00:00 · ventana señales 2026-08-18 -> 2026-09-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 70.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.71)
+- Volatilidad: `normal` (VIX 15.98)
 - Tendencia: `neutral` (SPY 754.05 · MA50 759.19 · MA200 713.39 · dist MA200: 5.7%)
 - Credito: `tight` (HY spread 2.76)
 - Tipos: `flat` (curva 10y-2y 0.27)
@@ -29,19 +29,19 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | IEF | 4.9% | core | 90.73 | -0.1% | -1.27% | -2.02% |
 | GLP | 4.8% | satellite | 50.76 | -0.22% | -5.07% | 0.02% |
 | SBLK | 4.3% | satellite | 30.87 | -1.09% | -0.93% | 5.62% |
-| BOC | 4.2% | satellite | 13.64 | -0.51% | -0.58% | 3.96% |
-| DT | 3.3% | satellite | 55.17 | 3.43% | 9.7% | 15.88% |
-| PLNT | 3.0% | satellite | 50.81 | -0.68% | 1.86% | 0.36% |
+| BOC | 4.2% | satellite | 13.79 | 1.1% | 0.66% | -0.79% |
+| DT | 3.3% | satellite | 55.19 | 0.04% | 9.07% | 12.04% |
+| PLNT | 3.0% | satellite | 50.02 | -1.55% | 0.28% | -6.26% |
 | USO | 2.8% | satellite | 156.17 | -3.52% | 4.13% | 19.52% |
-| GOLD | 2.6% | satellite | 47.8 | 1.01% | 0.7% | 5.31% |
-| USAR | 1.3% | satellite | 15.4 | -1.97% | -12.8% | -20.17% |
+| GOLD | 2.6% | satellite | 46.82 | 0.47% | -2.64% | 14.78% |
+| USAR | 1.4% | satellite | 15.1 | -1.95% | -11.49% | -18.42% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 7.9%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -5.5%
-- Beta vs SPY: 0.468 · posiciones efectivas: 19.7 · HHI: 0.0507
+- Beta vs SPY: 0.469 · posiciones efectivas: 19.7 · HHI: 0.0507
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -67,27 +67,27 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 | SBLK | 75 | corporate_insider | Karellis Nikolaos | 3 | $56,540 | cluster_buy |
 | BUKS | 73 | corporate_insider | Veradace Partners LP | 2 | $58,650 | cluster_buy |
 | GABC | 73 | corporate_insider | Bawel Zachary W | 3 | $20,000 | cluster_buy,small_amount |
-| FLNT | 73 | corporate_insider | GLOBAL VALUE INVESTMENT C | 2 | $41,831 | cluster_buy |
-| FLNT | 73 | corporate_insider | GEYGAN JAMES | 2 | $41,831 | cluster_buy |
 | CROX | 72 | corporate_insider | KAPLAN BETH J | 2 | $99,228 | cluster_buy |
 | LMB | 72 | corporate_insider | Gaboury David Richard | 2 | $99,619 | cluster_buy |
 | CROX | 72 | corporate_insider | SMACH THOMAS J | 2 | $75,813 | cluster_buy |
 | DT | 72 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
 | NEPH | 72 | large_holder | Charles E. Davidson |  | - | - |
 | RENT | 72 | large_holder | Gateway Runway, LLC |  | - | - |
+| RENT | 72 | large_holder | S3 RR Aggregator, LLC |  | - | - |
+| RENT | 72 | large_holder | CHS US Investments LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
 | SNDK | 60 | corporate_insider | Goeckeler David | $21,870,445 | - |
-| CHYM | 60 | corporate_insider | DST Global Advisors Ltd | $47,098,657 | - |
-| CHYM | 60 | corporate_insider | DST Global Advisors Ltd | $47,098,657 | - |
 | FOX | 58 | corporate_insider | MURDOCH LACHLAN K | $10,274,977 | - |
-| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $24,197,448 | - |
-| CHYM | 58 | corporate_insider | DST Global Advisors Ltd | $24,197,448 | - |
 | SNDK | 57 | corporate_insider | Goeckeler David | $6,236,061 | - |
 | MRNA | 57 | corporate_insider | Hoge Stephen | $5,883,846 | - |
+| MRNA | 57 | corporate_insider | Hoge Stephen | $5,807,574 | - |
+| SNPS | 57 | corporate_insider | Ghazi Sassine | $5,474,683 | - |
+| SNDK | 57 | corporate_insider | Goeckeler David | $4,920,568 | - |
+| MTB | 57 | corporate_insider | JONES RENE F | $4,642,433 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -103,8 +103,8 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 - TLT: 80.88 (0.21% / -1.04% / -0.58%) [2026-09-16]
 - IEF: 90.73 (-0.1% / -1.27% / -2.02%) [2026-09-16]
 - GLD: 391.74 (-0.61% / -2.88% / -1.71%) [2026-09-16]
-- ^VIX: 17.71 (2.97% / 7.59% / 18.94%) [2026-09-16]
-- BTC-USD: 76480.14 (1.15% / -0.9% / -4.71%) [2026-09-17]
+- ^VIX: 15.98 (-9.77% / -10.43% / -0.19%) [2026-09-17]
+- BTC-USD: 76389.3 (0.31% / -1.14% / -1.85%) [2026-09-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,39 +119,38 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), merger (1), ai (1)
+**Temas dominantes**: stock (6), merger (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [GOOGL] Can Alphabet Overtake Nvidia in 2027 ? (2026-09-13)
+- [GOOGL] Can Alphabet Overtake Nvidia in 2027 ? | The Motley Fool (2026-09-13)
 - [SNOW] Rep . Gilbert Ray Cisneros , Jr . Acquires Shares of Snowflake Inc . ( NYSE : SNOW ) (2026-09-13)
 - [SOFI] Where Will SoFi Stock Be in 5 Years ? | The Motley Fool (2026-09-12)
 - [SOFI] Where Will SoFi Stock Be in 5 Years ? | The Motley Fool (2026-09-12)
 - [SOFI] Where Will SoFi Stock Be in 5 Years ? (2026-09-12)
 - [SNOW] Jim Cramer Said Snowflake Inc . ( NYSE : SNOW ) Q2 Was Great For AI (2026-09-12)
-- [DDOG] Datadog ( NASDAQ : DDOG ) Stock Rating Upgraded by Wedbush (2026-09-12)
-- [CHYM] Chime Financial ( CHYM ) versus The Competition Head to Head Survey (2026-09-12)
-- [CHYM] Insider Selling : Chime Financial ( NASDAQ : CHYM ) CAO Sells $642 , 494 . 70 in Stock (2026-09-12)
 - [SOFI] SoFi Technologies ( NASDAQ : SOFI ) Shares Down 3 . 8 % – Here Why (2026-09-11)
-- [CHYM] Corpay ( NYSE : CPAY ) vs . Chime Financial ( NASDAQ : CHYM ) Head to Head Analysis (2026-09-11)
+- [SOFI] FinancialContent - Why SoFi ( SOFI ) Stock Is Down Today (2026-09-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO MURDOCH LACHLAN K compro FOX por $10.3M el 2026-09-15.
 - CEO Goeckeler David vendio SNDK por $21.9M el 2026-09-14.
-- 10% owner DST Global Advisors Ltd vendio CHYM por $47.1M el 2026-09-14.
 - 10% owner HRT FINANCIAL LP compro USO por $6.8M el 2026-09-14.
 - CEO Hoge Stephen vendio MRNA por $5.9M el 2026-09-15.
 - CEO Ghazi Sassine vendio SNPS por $5.5M el 2026-09-15.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- SDTrading · PnL $22,487 · win rate 94% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $5,805 · win rate 91% · categorias: crypto
-- xxzws1 · PnL $5,220 · win rate 90% · categorias: sports, politics, crypto
-- BrotherObama · PnL $12,094 · win rate 84% · categorias: sports
-- 0xheavy888 · PnL $4,548 · win rate 85% · categorias: sports, economy, politics
+- monkeymashingkeyboard · PnL $45,782 · win rate 93% · categorias: sports
+- SDTrading · PnL $33,924 · win rate 94% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $41,765 · win rate 91% · categorias: crypto
+- torta.tech · PnL $19,944 · win rate 95% · categorias: sports
+- BrotherObama · PnL $67,353 · win rate 84% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,11 +158,11 @@ Perfil **moderado** · exposicion total **70.0%** · cash **30.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 755 registros 30d · ultimo dato 2026-09-16
+- **sec_insiders**: `ok` · 785 registros 30d · ultimo dato 2026-09-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — high_volume_zero_count:64
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
