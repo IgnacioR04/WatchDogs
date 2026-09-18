@@ -1,42 +1,40 @@
 {
-  "generated_at": "2026-09-17T21:38:59+00:00",
+  "generated_at": "2026-09-18T00:31:06+00:00",
   "profile": "moderado",
-  "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "regime_budget": 0.7,
+  "total_equity": 0.6998,
+  "cash": 0.3002,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "ADC": 0.1036,
-    "GLD": 0.0932,
-    "IEF": 0.0622,
-    "MNR": 0.0402,
-    "SBLK": 0.039,
-    "MEOH": 0.0344,
-    "FANG": 0.0342,
-    "USO": 0.0277,
-    "VG": 0.0235,
-    "USAR": 0.0169,
-    "DELL": 0.0154
+    "QQQ": 0.0976,
+    "TLT": 0.0976,
+    "GLD": 0.0731,
+    "ADC": 0.0719,
+    "IEF": 0.0488,
+    "MNR": 0.0431,
+    "SBLK": 0.0321,
+    "FANG": 0.0316,
+    "MEOH": 0.0285,
+    "USO": 0.0227,
+    "VG": 0.018,
+    "USAR": 0.0148
   },
   "core": {
-    "SPY": 0.1934,
-    "QQQ": 0.1105,
-    "TLT": 0.1105,
-    "IEF": 0.0553,
-    "GLD": 0.0829
+    "SPY": 0.1592,
+    "QQQ": 0.091,
+    "TLT": 0.091,
+    "IEF": 0.0455,
+    "GLD": 0.0682
   },
   "satellite": {
-    "SBLK": 0.0347,
-    "MEOH": 0.0306,
-    "USAR": 0.015,
-    "ADC": 0.0921,
-    "USO": 0.0246,
-    "MNR": 0.0357,
-    "FANG": 0.0304,
-    "VG": 0.0209,
-    "DELL": 0.0137
+    "SBLK": 0.0299,
+    "MEOH": 0.0266,
+    "USAR": 0.0138,
+    "ADC": 0.067,
+    "USO": 0.0212,
+    "MNR": 0.0402,
+    "FANG": 0.0295,
+    "VG": 0.0168
   },
   "satellite_rationale": [
     {
@@ -102,28 +100,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "DELL",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0711,
-    "var_95_1d": 0.0074,
-    "cvar_95_1d": 0.0092,
-    "max_drawdown": -0.0228,
-    "beta_spy": 0.417,
-    "hhi": 0.0738,
+    "ann_vol": 0.0576,
+    "var_95_1d": 0.0054,
+    "cvar_95_1d": 0.0071,
+    "max_drawdown": -0.022,
+    "beta_spy": 0.272,
+    "hhi": 0.0521,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.5,
-    "gross_exposure": 0.8503,
-    "days_used": 33
+    "n_positions": 13,
+    "effective_positions": 19.2,
+    "gross_exposure": 0.6998,
+    "days_used": 53
   },
   "risk_gate": {
     "passed": true,
