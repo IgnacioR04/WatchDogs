@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-18T14:45:47.830995+00:00",
+  "generated_at": "2026-09-18T18:44:19.519153+00:00",
   "window": {
     "from": "2026-08-19",
     "to": "2026-09-18",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "ai",
-      "earnings",
+      "stock",
       "regulatory",
-      "stock"
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -52,24 +52,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner compro USO ($4.6M)",
-      "summary": "10% owner HRT FINANCIAL LP compro USO por $4.6M el 2026-09-16.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "HRT FINANCIAL LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "USO",
-      "direction": "buy",
-      "amount_estimated": 4567860.55,
-      "event_date": "2026-09-16",
-      "importance_score": 83.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1475597/000147559726000248/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO compro TFC ($1.0M)",
       "summary": "CEO Lyons Michael P. compro TFC por $1.0M el 2026-09-17.",
       "source": "sec_form_4",
@@ -86,8 +68,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1534574/000153457426000016/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio TVTX ($6.6M)",
       "summary": "CEO Dube Eric M vendio TVTX por $6.6M el 2026-09-17.",
       "source": "sec_form_4",
@@ -100,12 +82,16 @@
       "event_date": "2026-09-17",
       "importance_score": 82.4,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_40587399797",
+        "news_643225572258",
+        "news_576928582400"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1763494/000176349426000007/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio TVTX ($6.3M)",
       "summary": "CEO Dube Eric M vendio TVTX por $6.3M el 2026-09-16.",
       "source": "sec_form_4",
@@ -118,12 +104,16 @@
       "event_date": "2026-09-16",
       "importance_score": 82.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_40587399797",
+        "news_643225572258",
+        "news_576928582400"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1763494/000176349426000007/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio TVTX ($6.1M)",
       "summary": "CEO Dube Eric M vendio TVTX por $6.1M el 2026-09-16.",
       "source": "sec_form_4",
@@ -136,12 +126,16 @@
       "event_date": "2026-09-16",
       "importance_score": 82.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_40587399797",
+        "news_643225572258",
+        "news_576928582400"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1763494/000176349426000007/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio PSX ($6.2M)",
       "summary": "CEO Mandell Brian vendio PSX por $6.2M el 2026-09-16.",
       "source": "sec_form_4",
@@ -158,8 +152,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1641265/000164126526000012/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO vendio MEDP ($5.4M)",
       "summary": "CEO Troendle August J. vendio MEDP por $5.4M el 2026-09-16.",
       "source": "sec_form_4",
@@ -176,8 +170,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000012/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO vendio MEDP ($9.9M)",
       "summary": "CEO Troendle August J. vendio MEDP por $9.9M el 2026-09-15.",
       "source": "sec_form_4",
@@ -194,8 +188,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000012/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO opero TVTX ($4.6M)",
       "summary": "CEO Dube Eric M opero TVTX por $4.6M el 2026-09-16.",
       "source": "sec_form_4",
@@ -208,30 +202,16 @@
       "event_date": "2026-09-16",
       "importance_score": 81.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_40587399797",
+        "news_643225572258",
+        "news_576928582400"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1763494/000176349426000007/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
-      "title": "10% owner compro USO ($2.2M)",
-      "summary": "10% owner HRT FINANCIAL LP compro USO por $2.2M el 2026-09-16.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "HRT FINANCIAL LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "USO",
-      "direction": "buy",
-      "amount_estimated": 2208959.87,
-      "event_date": "2026-09-16",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1475597/000147559726000248/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -248,8 +228,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -266,8 +246,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -284,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -302,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -320,8 +300,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -338,8 +318,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -356,8 +336,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -374,8 +354,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -385,6 +365,42 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 23585331061,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro INTEL CORP ($20.8B)",
+      "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20820733596,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -424,14 +440,6 @@
         "pressure_score": 210.0,
         "sources": [
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "KRMN",
-        "company": "Karman Holdings Inc.",
-        "pressure_score": 209.0,
-        "sources": [
-          "corporate_insider"
         ]
       },
       {
@@ -476,22 +484,6 @@
         ]
       },
       {
-        "ticker": "USO",
-        "company": "United States Oil Fund, LP",
-        "pressure_score": 164.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BORR",
-        "company": "Borr Drilling Ltd",
-        "pressure_score": 156.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BZUN",
         "company": "Baozun Inc.",
         "pressure_score": 146.3,
@@ -514,6 +506,30 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "USAQ",
+        "company": "QHSLab, Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "FOSL",
+        "company": "Fossil Group, Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "DT",
+        "company": "Dynatrace, Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -526,17 +542,17 @@
         ]
       },
       {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1932.4,
+        "ticker": "WAL",
+        "company": "WESTERN ALLIANCE BANCORPORATION",
+        "pressure_score": 1550.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "WAL",
-        "company": "WESTERN ALLIANCE BANCORPORATION",
-        "pressure_score": 1550.8,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1478.2,
         "sources": [
           "corporate_insider"
         ]
@@ -590,14 +606,6 @@
         ]
       },
       {
-        "ticker": "GH",
-        "company": "Guardant Health, Inc.",
-        "pressure_score": 489.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NTRA",
         "company": "Natera, Inc.",
         "pressure_score": 486.6,
@@ -636,19 +644,18 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "GH",
+        "company": "Guardant Health, Inc.",
+        "pressure_score": 419.9,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "USO",
-      "company": "United States Oil Fund, LP",
-      "actor": "HRT FINANCIAL LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 4567860.55,
-      "date": "2026-09-16",
-      "score": 83.1
-    },
     {
       "ticker": "TFC",
       "company": "TRUIST FINANCIAL CORP",
@@ -657,15 +664,6 @@
       "amount": 1015576.8,
       "date": "2026-09-17",
       "score": 82.4
-    },
-    {
-      "ticker": "USO",
-      "company": "United States Oil Fund, LP",
-      "actor": "HRT FINANCIAL LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 2208959.87,
-      "date": "2026-09-16",
-      "score": 81.6
     },
     {
       "ticker": "BORR",
@@ -704,15 +702,6 @@
       "score": 76.6
     },
     {
-      "ticker": "BORR",
-      "company": "Borr Drilling Ltd",
-      "actor": "Troim Tor Olav",
-      "actor_type": "director",
-      "amount": 656925.0,
-      "date": "2026-09-17",
-      "score": 76.4
-    },
-    {
       "ticker": "SBLK",
       "company": "Star Bulk Carriers Corp.",
       "actor": "Pappas Alexandros",
@@ -720,15 +709,6 @@
       "amount": 2103288.0,
       "date": "2026-09-15",
       "score": 76.2
-    },
-    {
-      "ticker": "KRMN",
-      "company": "Karman Holdings Inc.",
-      "actor": "Stinnett David",
-      "actor_type": "director",
-      "amount": 1007648.1,
-      "date": "2026-09-16",
-      "score": 75.9
     },
     {
       "ticker": "MXF",
@@ -774,6 +754,42 @@
       "amount": 24400.0,
       "date": "2026-09-15",
       "score": 72.8
+    },
+    {
+      "ticker": "BZUN",
+      "company": "Baozun Inc.",
+      "actor": "Qiu Wenbin",
+      "actor_type": "ceo",
+      "amount": 20002.0,
+      "date": "2026-09-16",
+      "score": 72.4
+    },
+    {
+      "ticker": "DLPN",
+      "company": "Dolphin Entertainment, Inc.",
+      "actor": "O'Dowd William IV",
+      "actor_type": "ceo",
+      "amount": 6856.08,
+      "date": "2026-09-16",
+      "score": 71.5
+    },
+    {
+      "ticker": "SBLK",
+      "company": "Star Bulk Carriers Corp.",
+      "actor": "Plakantonaki Charis",
+      "actor_type": "officer",
+      "amount": 84810.0,
+      "date": "2026-09-15",
+      "score": 71.2
+    },
+    {
+      "ticker": "GF",
+      "company": "NEW GERMANY FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 36101.52,
+      "date": "2026-09-15",
+      "score": 71.1
     }
   ],
   "institutional_changes": [
@@ -1101,9 +1117,9 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 152073.88,
+        "pnl": 199334.18,
         "win_rate": 0.9091,
-        "volume": 95405.85,
+        "volume": 137766.25,
         "categories": [
           "crypto"
         ]
@@ -1111,7 +1127,7 @@
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 40766.76,
+        "pnl": 40787.16,
         "win_rate": 0.9605,
         "volume": 0.0,
         "categories": [
@@ -1122,31 +1138,20 @@
       {
         "wallet": "0xd2d7b60076",
         "username": "punyapple",
-        "pnl": 21775.09,
+        "pnl": 21776.85,
         "win_rate": 0.998,
-        "volume": 54982.59,
+        "volume": 56736.17,
         "categories": [
           "crypto",
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 26665.83,
-        "win_rate": 0.926,
-        "volume": 215545.45,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x103721386e",
-        "username": "equalsignificance",
-        "pnl": 20636.65,
-        "win_rate": 0.9231,
-        "volume": 171141.45,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 22745.19,
+        "win_rate": 0.9444,
+        "volume": 549626.64,
         "categories": [
           "sports"
         ]
@@ -1154,74 +1159,9 @@
       {
         "wallet": "0xf0b6a8ebfa",
         "username": "retordedgremlin125",
-        "pnl": 23496.39,
+        "pnl": 38280.79,
         "win_rate": 0.9091,
-        "volume": 64646.26,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 49923.34,
-        "win_rate": 0.8467,
-        "volume": 436325.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x16602a38e8",
-        "username": "BBQChickenisthebesttt",
-        "pnl": 23065.55,
-        "win_rate": 0.8846,
-        "volume": 124999.68,
-        "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 14624.64,
-        "win_rate": 0.914,
-        "volume": 27850.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 16314.77,
-        "win_rate": 0.8929,
-        "volume": 258391.14,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 24681.91,
-        "win_rate": 0.4795,
-        "volume": 1211215.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 49923.34,
-        "win_rate": 0.8467,
-        "volume": 436325.84,
+        "volume": 161814.44,
         "categories": [
           "sports"
         ]
@@ -1229,53 +1169,84 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 21925.29,
-        "win_rate": 0.8446,
-        "volume": 431587.99,
+        "pnl": 59845.63,
+        "win_rate": 0.8462,
+        "volume": 755066.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x04b1e3aff4",
-        "username": "254321758",
-        "pnl": 14532.66,
-        "win_rate": 0.628,
-        "volume": 466298.73,
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 52829.65,
+        "win_rate": 0.8467,
+        "volume": 865563.77,
         "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x96489abcb9",
-        "username": "anoin123",
-        "pnl": 17089.16,
-        "win_rate": 0.617,
-        "volume": 233296.4,
-        "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "FORTNITEMASTER888",
-        "pnl": 72509.92,
-        "win_rate": 0.496,
-        "volume": 482876.28,
+        "wallet": "0xe392d6cc6a",
+        "username": "ssddssd",
+        "pnl": 21749.21,
+        "win_rate": 0.9062,
+        "volume": 55624.35,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
         ]
       },
       {
-        "wallet": "0xc9ae00eda8",
-        "username": "Ancient-Strike",
-        "pnl": 54884.77,
-        "win_rate": 1.0,
-        "volume": 189137.33,
+        "wallet": "0xce29c0049a",
+        "username": "zofgkt1111",
+        "pnl": 27896.87,
+        "win_rate": 0.8473,
+        "volume": 277543.92,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6db983ff1c",
+        "username": "tsihkodiives",
+        "pnl": 31923.24,
+        "win_rate": 0.8289,
+        "volume": 93.2,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 52829.65,
+        "win_rate": 0.8467,
+        "volume": 865563.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 45034.35,
+        "win_rate": 0.553,
+        "volume": 4245259.89,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 59845.63,
+        "win_rate": 0.8462,
+        "volume": 755066.81,
         "categories": [
           "sports"
         ]
@@ -1283,31 +1254,75 @@
       {
         "wallet": "0x369f464333",
         "username": "kindar",
-        "pnl": 369290.94,
+        "pnl": 376226.57,
         "win_rate": 1.0,
-        "volume": 94092.44,
+        "volume": 236216.02,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 22745.19,
+        "win_rate": 0.9444,
+        "volume": 549626.64,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc9ae00eda8",
+        "username": "Ancient-Strike",
+        "pnl": 43783.83,
+        "win_rate": 1.0,
+        "volume": 310300.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "FORTNITEMASTER888",
+        "pnl": 37534.05,
+        "win_rate": 0.497,
+        "volume": 602738.54,
+        "categories": [
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0x4ebc2722ad",
         "username": "aaaa298",
-        "pnl": 18000.35,
-        "win_rate": 0.669,
-        "volume": 507492.76,
+        "pnl": 21622.45,
+        "win_rate": 0.668,
+        "volume": 913889.51,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xce29c0049a",
-        "username": "zofgkt1111",
-        "pnl": 27166.49,
-        "win_rate": 0.8473,
-        "volume": 260421.59,
+        "wallet": "0x96489abcb9",
+        "username": "anoin123",
+        "pnl": 28479.46,
+        "win_rate": 0.6162,
+        "volume": 250297.68,
         "categories": [
+          "politics",
+          "economy",
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x78becf0a4e",
+        "username": "",
+        "pnl": 24985.37,
+        "win_rate": 0.4951,
+        "volume": 366327.88,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ]
@@ -1353,11 +1368,30 @@
       "date": "2026-09-13"
     },
     {
+      "title": "Jensen Huang Says Cybersecurity Is AI Next Blockbuster App . CrowdStrike Is Already Building It With Nvidia",
+      "url": "https://www.insidermonkey.com/blog/jensen-huang-says-cybersecurity-is-ais-next-blockbuster-app-crowdstrike-is-already-building-it-with-nvidia-1836542/",
+      "ticker": "CRWD",
+      "themes": [
+        "ai",
+        "regulatory"
+      ],
+      "date": "2026-09-11"
+    },
+    {
       "title": "YieldMax AI Option Income Strategy ETF ( NYSEARCA : AIYY ) Trading Down 0 . 5 % – Time to Sell ? ",
       "url": "https://www.dailypolitical.com/2026/09/11/yieldmax-ai-option-income-strategy-etf-nysearcaaiyy-trading-down-0-5-time-to-sell.html",
       "ticker": "AI",
       "themes": [
         "ai"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Travere Therapeutics ( NASDAQ : TVTX ) Director Jeffrey Meckler Sells 20 , 000 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/09/11/travere-therapeutics-nasdaqtvtx-director-jeffrey-meckler-sells-20000-shares-of-stock.html",
+      "ticker": "TVTX",
+      "themes": [
+        "stock"
       ],
       "date": "2026-09-11"
     },
@@ -1369,15 +1403,6 @@
         "ai"
       ],
       "date": "2026-09-11"
-    },
-    {
-      "title": "Wealthfront ( WLTH ) Q2 2027 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/10/wealthfront-wlth-q2-2027-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "WLTH",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-09-10"
     },
     {
       "title": "Squarepoint Ops LLC Sells 226 , 768 Shares of Western Alliance Bancorporation $WAL",
@@ -1400,6 +1425,15 @@
       "date": "2026-09-10"
     },
     {
+      "title": "From search to conversation : Is AI becoming advertising new gatekeeper ? ",
+      "url": "https://www.adgully.com/post/20377/from-search-to-conversation-is-ai-becoming-advertisings-new-gatekeeper",
+      "ticker": "DV",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-10"
+    },
+    {
       "title": "Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey",
       "url": "https://www.themarketsdaily.com/2026/09/09/western-alliance-bancorporation-nysewal-and-first-bancorp-inc-me-nasdaqfnlc-head-to-head-survey.html",
       "ticker": "WAL",
@@ -1407,9 +1441,29 @@
         "regulatory"
       ],
       "date": "2026-09-09"
+    },
+    {
+      "title": "Biotech Stock : Outlook Brightens For Travere Therapeutics | Investor Business Daily",
+      "url": "https://www.investors.com:443/research/biotech-travere-therapeutics-tvtx-stock/",
+      "ticker": "TVTX",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Biotech Stock : Outlook Brightens For Travere Therapeutics | Investor Business Daily",
+      "url": "https://www.investors.com/research/biotech-travere-therapeutics-tvtx-stock/",
+      "ticker": "TVTX",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-09-08"
     }
   ],
-  "signals_count": 1571,
+  "signals_count": 1493,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
