@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-18T05:02:32+00:00 · ventana señales 2026-08-19 -> 2026-09-18_
+_Generado 2026-09-18T10:04:10+00:00 · ventana señales 2026-08-19 -> 2026-09-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.44)
+- Volatilidad: `normal` (VIX 15.34)
 - Tendencia: `bull` (SPY 762.6 · MA50 759.53 · MA200 713.81 · dist MA200: 6.84%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.27)
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.78 (1.11% / 1.24% / -1.12%) [2026-09-17]
 - IEF: 91.25 (0.57% / 0.08% / -1.93%) [2026-09-17]
 - GLD: 398.36 (1.69% / 0.5% / -3.74%) [2026-09-17]
-- ^VIX: 15.44 (-12.82% / -13.45% / -3.56%) [2026-09-17]
-- BTC-USD: 77507.58 (1.78% / 0.31% / -0.41%) [2026-09-18]
+- ^VIX: 15.34 (-0.65% / -3.16% / 1.39%) [2026-09-18]
+- BTC-USD: 78128.73 (2.26% / 1.68% / -0.15%) [2026-09-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,19 +117,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), regulatory (3), earnings (2)
+**Temas dominantes**: regulatory (3), stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CTSH] Head to Head Review : The Hackett Group ( NASDAQ : HCKT ) vs . Cognizant Technology Solutions ( NASDAQ : CTSH ) (2026-09-12)
-- [CTSH] Cognizant ( CTSH ): Can 17 AI Agents Turn Productivity Into Revenue ? (2026-09-12)
-- [TVTX] Travere Therapeutics ( NASDAQ : TVTX ) Director Jeffrey Meckler Sells 20 , 000 Shares of Stock (2026-09-11)
-- [CTSH] Cognizant ( CTSH ): Can 17 AI Agents Turn Productivity Into Revenue ? (2026-09-10)
 - [WAL] Squarepoint Ops LLC Sells 226 , 768 Shares of Western Alliance Bancorporation $WAL (2026-09-10)
 - [WAL] Western Alliance Bancorporation $WAL Shares Sold by Squarepoint Ops LLC (2026-09-10)
+- [DV] From search to conversation : Is AI becoming advertising new gatekeeper ? (2026-09-10)
 - [WAL] Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey (2026-09-09)
-- [TVTX] Biotech Stock : Outlook Brightens For Travere Therapeutics | Investor Business Daily (2026-09-08)
-- [TVTX] Biotech Stock : Outlook Brightens For Travere Therapeutics | Investor Business Daily (2026-09-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -144,11 +139,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kosherlocks · PnL $40,833 · win rate 96% · categorias: sports, crypto
-- punyapple · PnL $21,742 · win rate 100% · categorias: crypto, sports
-- JnStrtPrdctnMrkts · PnL $28,855 · win rate 91% · categorias: crypto
-- BreakTheBank · PnL $49,001 · win rate 85% · categorias: sports
-- esportsbetter1 · PnL $12,385 · win rate 93% · categorias: sports
+- Kosherlocks · PnL $40,780 · win rate 96% · categorias: sports, crypto
+- punyapple · PnL $21,747 · win rate 100% · categorias: crypto, sports
+- JnStrtPrdctnMrkts · PnL $42,695 · win rate 91% · categorias: crypto
+- BrotherObama · PnL $53,452 · win rate 84% · categorias: sports
+- BreakTheBank · PnL $49,734 · win rate 85% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
