@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-19T14:43:17+00:00 -->
+<!-- trader_prompt.md generado 2026-09-19T18:17:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-19T14:43:17+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
+_Generado 2026-09-19T18:17:07+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -261,7 +261,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.25 | -0.65% | 0.47% | -0.95% |
 | GLD | 9.3% | core | 401.17 | 0.71% | 0.6% | -3.39% |
 | BPRE | 7.3% | satellite | 11.91 | -1.73% | -0.83% | -0.83% |
-| MEOH | 6.7% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
+| MEOH | 6.8% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
 | IEF | 6.2% | core | 90.8 | -0.49% | -0.23% | -2.01% |
 | MG | 4.8% | satellite | 20.75 | 4.59% | 4.75% | 6.36% |
 | OSCR | 4.5% | satellite | 32.13 | 0.47% | -1.95% | 1.77% |
@@ -271,7 +271,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.6%
+- Volatilidad anualizada: 13.4%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -4.1%
 - Beta vs SPY: 0.939 · posiciones efectivas: 13.6 · HHI: 0.0734
@@ -336,7 +336,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81468.97 (0.7% / 4.23% / 4.89%) [2026-09-19]
+- BTC-USD: 81329.08 (0.53% / 4.05% / 4.71%) [2026-09-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,19 +351,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1), merger (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ADBE] Adobe Beat and Raised but Fell . Salesforce Shows What Investors Now Demand From AI Software (2026-09-13)
-- [UBER] Is Uber Stock Cheap , Or Is The Cash Already Spent ? (2026-09-13)
-- [ADBE] Adobe Flash Player message displayed for RV Touch virtual tour Noel Mikaelian (2026-09-13)
-- [UBER] Uber Cuts 10 % of its Workforce to Fund a $10 Billion Robotaxi Bet (2026-09-12)
+- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
+- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
 - [OSCR] Investors Purchase High Volume of Oscar Health Call Options ( NYSE : OSCR ) (2026-09-11)
 - [OSCR] FinancialContent - Moderna , 10x Genomics , Oscar Health , and Novavax Shares Are Soaring , What You Need To Know (2026-09-11)
 - [OSCR] Oscar Health ( NYSE : OSCR ) Hits New 1 - Year High – Should You Buy ? (2026-09-11)
-- [UBER] Insider Buying : Uber Technologies ( NYSE : UBER ) Insider Acquires $5 , 308 , 100 . 00 in Stock (2026-09-11)
-- [UBER] Uber Technologie ( UBER )  Outperform  Rating Reiterated at Wedbush (2026-09-11)
 - [OSCR] Victoria Baltrus Sells 958 Shares of Oscar Health ( NYSE : OSCR ) Stock (2026-09-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -379,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStrtPrdctnMrkts · PnL $47,854 · win rate 91% · categorias: crypto
-- PatienceCapital · PnL $58,988 · win rate 85% · categorias: sports, crypto
-- dwFqcd4Z · PnL $24,112 · win rate 89% · categorias: politics, economy, sports
-- 0xheavy888 · PnL $34,573 · win rate 85% · categorias: sports, economy, politics
-- totoro3miyazaki · PnL $168,720 · win rate 100% · categorias: sports
+- gransaaa · PnL $210,826 · win rate 89% · categorias: sports
+- Diabolical-Prize · PnL $47,625 · win rate 95% · categorias: sports, economy
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $33,838 · win rate 96% · categorias: sports
+- SDTrading · PnL $38,974 · win rate 95% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $55,267 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
