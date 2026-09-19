@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-19T18:17:07+00:00 -->
+<!-- trader_prompt.md generado 2026-09-19T20:56:21+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-19T18:17:07+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
+_Generado 2026-09-19T20:56:21+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -336,7 +336,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81329.08 (0.53% / 4.05% / 4.71%) [2026-09-19]
+- BTC-USD: 81090.13 (0.23% / 3.74% / 4.41%) [2026-09-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,12 +351,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
-- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
 - [OSCR] Investors Purchase High Volume of Oscar Health Call Options ( NYSE : OSCR ) (2026-09-11)
 - [OSCR] FinancialContent - Moderna , 10x Genomics , Oscar Health , and Novavax Shares Are Soaring , What You Need To Know (2026-09-11)
 - [OSCR] Oscar Health ( NYSE : OSCR ) Hits New 1 - Year High – Should You Buy ? (2026-09-11)
@@ -375,11 +373,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- gransaaa · PnL $210,826 · win rate 89% · categorias: sports
-- Diabolical-Prize · PnL $47,625 · win rate 95% · categorias: sports, economy
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $33,838 · win rate 96% · categorias: sports
-- SDTrading · PnL $38,974 · win rate 95% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $55,267 · win rate 91% · categorias: crypto
+- Diabolical-Prize · PnL $140,830 · win rate 95% · categorias: sports, economy
+- gransaaa · PnL $213,367 · win rate 89% · categorias: sports
+- Kch-Temp · PnL $143,393 · win rate 91% · categorias: sports
+- BreakTheBank · PnL $325,690 · win rate 84% · categorias: sports
+- SDTrading · PnL $55,318 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
