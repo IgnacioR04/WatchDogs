@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-19T06:07:23+00:00 -->
+<!-- trader_prompt.md generado 2026-09-19T11:13:23+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-19T06:07:23+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
+_Generado 2026-09-19T11:13:23+00:00 · ventana señales 2026-08-20 -> 2026-09-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -261,7 +261,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.25 | -0.65% | 0.47% | -0.95% |
 | GLD | 9.3% | core | 401.17 | 0.71% | 0.6% | -3.39% |
 | BPRE | 7.3% | satellite | 11.91 | -1.73% | -0.83% | -0.83% |
-| MEOH | 6.7% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
+| MEOH | 6.8% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
 | IEF | 6.2% | core | 90.8 | -0.49% | -0.23% | -2.01% |
 | MG | 4.8% | satellite | 20.75 | 4.59% | 4.75% | 6.36% |
 | OSCR | 4.5% | satellite | 32.13 | 0.47% | -1.95% | 1.77% |
@@ -271,7 +271,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.6%
+- Volatilidad anualizada: 13.4%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -4.1%
 - Beta vs SPY: 0.939 · posiciones efectivas: 13.6 · HHI: 0.0734
@@ -336,7 +336,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81015.56 (6.04% / 5.44% / 3.54%) [2026-09-19]
+- BTC-USD: 81296.29 (0.49% / 4.01% / 4.67%) [2026-09-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,17 +351,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1), merger (1)
+**Temas dominantes**: ai (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Is Uber Stock Cheap , Or Is The Cash Already Spent ? (2026-09-13)
 - [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
 - [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
-- [UBER] Uber Cuts 10 % of its Workforce to Fund a $10 Billion Robotaxi Bet (2026-09-12)
-- [RVMD] Revolution Medicines ( RVMD ) Gets its First Approved Drug , and the Market Shrugs (2026-09-12)
-- [UBER] Insider Buying : Uber Technologies ( NYSE : UBER ) Insider Acquires $5 , 308 , 100 . 00 in Stock (2026-09-11)
-- [UBER] Uber Technologie ( UBER )  Outperform  Rating Reiterated at Wedbush (2026-09-11)
+- [TEM] Tempus AI ( NASDAQ : TEM ) Earns Neutral Rating from Analysts at UBS Group (2026-09-12)
+- [TEM] Tempus AI ( NASDAQ : TEM ) Research Coverage Started at Roth Capital (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,10 +373,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $18,924 · win rate 93% · categorias: sports
-- dwFqcd4Z · PnL $24,073 · win rate 89% · categorias: politics, economy, sports
-- JnStrtPrdctnMrkts · PnL $15,796 · win rate 91% · categorias: crypto
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $14,218 · win rate 90% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $53,404 · win rate 91% · categorias: crypto
+- monkeymashingkeyboard · PnL $18,949 · win rate 93% · categorias: sports
+- dwFqcd4Z · PnL $21,424 · win rate 89% · categorias: politics, economy, sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $15,577 · win rate 90% · categorias: sports
 - ethanaz · PnL $15,253 · win rate 89% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
