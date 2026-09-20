@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-20T06:31:35+00:00 · ventana señales 2026-08-21 -> 2026-09-20_
+_Generado 2026-09-20T11:42:39+00:00 · ventana señales 2026-08-21 -> 2026-09-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -27,7 +27,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.25 | -0.65% | 0.47% | -0.95% |
 | GLD | 9.3% | core | 401.17 | 0.71% | 0.6% | -3.39% |
 | BPRE | 7.3% | satellite | 11.91 | -1.73% | -0.83% | -0.83% |
-| MEOH | 6.8% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
+| MEOH | 6.7% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
 | IEF | 6.2% | core | 90.8 | -0.49% | -0.23% | -2.01% |
 | MG | 4.8% | satellite | 20.75 | 4.59% | 4.75% | 6.36% |
 | OSCR | 4.5% | satellite | 32.13 | 0.47% | -1.95% | 1.77% |
@@ -37,7 +37,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.4%
+- Volatilidad anualizada: 13.6%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -4.1%
 - Beta vs SPY: 0.939 · posiciones efectivas: 13.6 · HHI: 0.0734
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 80419.5 (-0.6% / 2.89% / 3.54%) [2026-09-20]
+- BTC-USD: 80425.41 (-0.99% / 6.37% / 2.39%) [2026-09-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,13 +117,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), stock (1)
+**Temas dominantes**: leadership (2), stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NVDA] 5 Regrets Users Have After Buying An Nvidia GPU (2026-09-20)
-- [NVDA] Coinbase Files to List Single - Stock Perps on Apple , Tesla and Nvidia (2026-09-20)
-- [RVMD] Revolution Medicines ( RVMD ) Gets its First Approved Drug , and the Market Shrugs (2026-09-12)
+- [DELL] Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand (2026-09-12)
+- [DELL] Jim Cramer Compares Dell ( DELL ) to Dallas Cowboys Star CeeDee Lamb (2026-09-12)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,11 +141,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $16,534 · win rate 100% · categorias: sports
-- SDTrading · PnL $28,829 · win rate 95% · categorias: sports
-- tomb2456 · PnL $14,863 · win rate 96% · categorias: sports
-- wr0ngw4yb3tt0r · PnL $599,241 · win rate 71% · categorias: sports
-- UpTheBlues · PnL $105,973 · win rate 82% · categorias: sports
+- 0x0x23kjookhaiuohduoayh8c9 · PnL $32,784 · win rate 97% · categorias: sports, crypto
+- theowalcott · PnL $16,574 · win rate 100% · categorias: sports
+- SDTrading · PnL $28,051 · win rate 95% · categorias: sports
+- CyberScore.live · PnL $15,022 · win rate 97% · categorias: sports
+- tomb2456 · PnL $15,665 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
