@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-20T01:23:56+00:00 -->
+<!-- trader_prompt.md generado 2026-09-20T06:31:35+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-20T01:23:55+00:00 · ventana señales 2026-08-21 -> 2026-09-20_
+_Generado 2026-09-20T06:31:35+00:00 · ventana señales 2026-08-21 -> 2026-09-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -336,7 +336,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81153.45 (0.31% / 3.83% / 4.49%) [2026-09-20]
+- BTC-USD: 80419.5 (-0.6% / 2.89% / 3.54%) [2026-09-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,16 +351,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3)
+**Temas dominantes**: ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NVDA] Nvidia - backed Nscale files for NYSE IPO targeting $30B valuation · Digg (2026-09-20)
-- [ADBE] Adobe Beat and Raised but Fell . Salesforce Shows What Investors Now Demand From AI Software (2026-09-13)
-- [ADBE] Adobe Flash Player message displayed for RV Touch virtual tour Noel Mikaelian (2026-09-13)
-- [TEM] Tempus AI ( NASDAQ : TEM ) Earns Neutral Rating from Analysts at UBS Group (2026-09-12)
+- [NVDA] 5 Regrets Users Have After Buying An Nvidia GPU (2026-09-20)
+- [NVDA] Coinbase Files to List Single - Stock Perps on Apple , Tesla and Nvidia (2026-09-20)
 - [RVMD] Revolution Medicines ( RVMD ) Gets its First Approved Drug , and the Market Shrugs (2026-09-12)
-- [TEM] Tempus AI ( NASDAQ : TEM ) Research Coverage Started at Roth Capital (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -375,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- primm · PnL $31,320 · win rate 98% · categorias: sports
-- Kch-Temp · PnL $64,614 · win rate 91% · categorias: sports
-- tomb2456 · PnL $7,174 · win rate 95% · categorias: sports
-- ic4cream · PnL $6,001 · win rate 91% · categorias: sports
-- wr0ngw4yb3tt0r · PnL $129,497 · win rate 71% · categorias: sports
+- theowalcott · PnL $16,534 · win rate 100% · categorias: sports
+- SDTrading · PnL $28,829 · win rate 95% · categorias: sports
+- tomb2456 · PnL $14,863 · win rate 96% · categorias: sports
+- wr0ngw4yb3tt0r · PnL $599,241 · win rate 71% · categorias: sports
+- UpTheBlues · PnL $105,973 · win rate 82% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
