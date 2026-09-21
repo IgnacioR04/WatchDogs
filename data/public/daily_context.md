@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-21T00:33:36+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
+_Generado 2026-09-21T05:17:47+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81719.35 (0.6% / 8.08% / 4.04%) [2026-09-21]
+- BTC-USD: 81360.52 (0.16% / 7.6% / 3.58%) [2026-09-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,9 +117,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: leadership (2), stock (2)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WGS] GeneDx ( NASDAQ : WGS ) versus Joint ( NASDAQ : JYNT ) Critical Comparison (2026-09-20)
+- [UBER] Contrasting Uber Technologies ( NYSE : UBER ) and Covenant Logistics Group ( NYSE : CVLG ) (2026-09-21)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
+- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -134,11 +140,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kch-Temp · PnL $570,336 · win rate 91% · categorias: sports
-- theowalcott · PnL $59,089 · win rate 100% · categorias: sports
-- KaneAnalytics · PnL $123,830 · win rate 94% · categorias: sports
-- ic4cream · PnL $123,456 · win rate 92% · categorias: sports
-- retordedgremlin125 · PnL $50,736 · win rate 90% · categorias: sports
+- 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $64,369 · win rate 97% · categorias: sports, crypto
+- primm · PnL $41,349 · win rate 97% · categorias: sports
+- tikstt2 · PnL $30,816 · win rate 97% · categorias: sports
+- 0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105 · PnL $14,084 · win rate 99% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $38,055 · win rate 91% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
