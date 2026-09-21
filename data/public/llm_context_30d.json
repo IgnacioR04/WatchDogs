@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-21T10:58:28.584167+00:00",
+  "generated_at": "2026-09-21T17:23:09.180341+00:00",
   "window": {
     "from": "2026-08-22",
     "to": "2026-09-21",
@@ -23,9 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai",
-      "leadership"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -33,6 +31,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner compro LNBIX ($25.0M)",
+      "summary": "10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-09-17.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Lincoln Financial Investments Corp",
+      "actor_type": "ten_percent_owner",
+      "ticker": "LNBIX",
+      "direction": "buy",
+      "amount_estimated": 24999999.99,
+      "event_date": "2026-09-17",
+      "importance_score": 85.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1464867/000119312526396327/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro 5C Lending Partners Corp. ($9.8M)",
       "summary": "10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $9.8M el 2026-09-17.",
       "source": "sec_form_4",
@@ -49,8 +65,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1142872/000119312526395720/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "Officer vendio IHT ($361.5M)",
       "summary": "Officer BERG MARC E vendio IHT por $361.5M el 2026-09-17.",
       "source": "sec_form_4",
@@ -67,8 +83,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1248349/000149315226043445/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro CRBG ($11.2M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $11.2M el 2026-09-16.",
       "source": "sec_form_4",
@@ -83,24 +99,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526395554/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
-      "title": "CEO vendio TEM ($9.9M)",
-      "summary": "CEO LEFKOFSKY ERIC P vendio TEM por $9.9M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "LEFKOFSKY ERIC P",
-      "actor_type": "ceo",
-      "ticker": "TEM",
-      "direction": "sell",
-      "amount_estimated": 9935443.32,
-      "event_date": "2026-09-17",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1114357/000111435726000038/"
     },
     {
       "id": "move_5",
@@ -466,6 +464,14 @@
         ]
       },
       {
+        "ticker": "HLEO",
+        "company": "Helio Corp /FL/",
+        "pressure_score": 204.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "RAKR",
         "company": "Rainmaker Worldwide Inc.",
         "pressure_score": 191.2,
@@ -474,9 +480,9 @@
         ]
       },
       {
-        "ticker": "BZUN",
-        "company": "Baozun Inc.",
-        "pressure_score": 146.3,
+        "ticker": "BORR",
+        "company": "Borr Drilling Ltd",
+        "pressure_score": 153.8,
         "sources": [
           "corporate_insider"
         ]
@@ -500,20 +506,11 @@
         ]
       },
       {
-        "ticker": "ELOG",
-        "company": "Eastern International Ltd.",
-        "pressure_score": 142.8,
+        "ticker": "GF",
+        "company": "NEW GERMANY FUND INC",
+        "pressure_score": 143.4,
         "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "USAQ",
-        "company": "QHSLab, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       }
     ],
@@ -528,9 +525,9 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1189.0,
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 1552.8,
         "sources": [
           "corporate_insider"
         ]
@@ -568,17 +565,17 @@
         ]
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 682.2,
+        "ticker": "CBIO",
+        "company": "CRESCENT BIOPHARMA, INC.",
+        "pressure_score": 593.8,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CBIO",
-        "company": "CRESCENT BIOPHARMA, INC.",
-        "pressure_score": 593.8,
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 505.1,
         "sources": [
           "corporate_insider"
         ]
@@ -595,14 +592,6 @@
         "ticker": "WLTH",
         "company": "WEALTHFRONT CORP",
         "pressure_score": 438.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 418.3,
         "sources": [
           "corporate_insider"
         ]
@@ -638,10 +627,27 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "BE",
+        "company": "Bloom Energy Corp",
+        "pressure_score": 286.0,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "LNBIX",
+      "company": "Lincoln Bain Capital Total Credit Fund",
+      "actor": "Lincoln Financial Investments Corp",
+      "actor_type": "ten_percent_owner",
+      "amount": 24999999.99,
+      "date": "2026-09-17",
+      "score": 85.3
+    },
     {
       "ticker": "CRBG",
       "company": "Corebridge Financial, Inc.",
@@ -670,21 +676,12 @@
       "score": 81.8
     },
     {
-      "ticker": "RWT",
-      "company": "REDWOOD TRUST INC",
-      "actor": "Abate Christopher J",
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Morand De Oliveira Bruno",
       "actor_type": "ceo",
-      "amount": 383900.0,
-      "date": "2026-09-15",
-      "score": 78.8
-    },
-    {
-      "ticker": "THM",
-      "company": "INTERNATIONAL TOWER HILL MINES LTD",
-      "actor": "Wiens David Victor",
-      "actor_type": "ceo",
-      "amount": 199999.98,
-      "date": "2026-09-16",
+      "amount": 200200.0,
+      "date": "2026-09-18",
       "score": 77.4
     },
     {
@@ -733,6 +730,15 @@
       "score": 75.6
     },
     {
+      "ticker": "RTB",
+      "company": "RTB Digital, Inc.",
+      "actor": "Dorsett Jason Christopher",
+      "actor_type": "ten_percent_owner",
+      "amount": 196840.0,
+      "date": "2026-09-17",
+      "score": 74.8
+    },
+    {
       "ticker": "TH",
       "company": "Target Hospitality Corp.",
       "actor": "Schrenk Troy C.",
@@ -742,22 +748,22 @@
       "score": 74.8
     },
     {
-      "ticker": "BZUN",
-      "company": "Baozun Inc.",
-      "actor": "Qiu Wenbin",
-      "actor_type": "ceo",
-      "amount": 20164.0,
-      "date": "2026-09-17",
-      "score": 73.9
+      "ticker": "GF",
+      "company": "NEW GERMANY FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 153481.7,
+      "date": "2026-09-18",
+      "score": 74.3
     },
     {
-      "ticker": "BZUN",
-      "company": "Baozun Inc.",
-      "actor": "Qiu Wenbin",
+      "ticker": "CULP",
+      "company": "CULP INC",
+      "actor": "CULP ROBERT GEORGE IV",
       "actor_type": "ceo",
-      "amount": 20002.0,
-      "date": "2026-09-16",
-      "score": 72.4
+      "amount": 18423.72,
+      "date": "2026-09-18",
+      "score": 72.2
     },
     {
       "ticker": "GPUS",
@@ -767,15 +773,6 @@
       "amount": 18000.0,
       "date": "2026-09-16",
       "score": 72.1
-    },
-    {
-      "ticker": "NWWP",
-      "company": "NEW PEOPLES BANKSHARES INC",
-      "actor": "COX JOHN D",
-      "actor_type": "director",
-      "amount": 58800.0,
-      "date": "2026-09-17",
-      "score": 71.2
     }
   ],
   "institutional_changes": [
@@ -1044,6 +1041,15 @@
       "date": "2026-09-16"
     },
     {
+      "filer": "Al Kapoor",
+      "company": "SYNTEC OPTICS HOLDINGS, INC.",
+      "ticker": "",
+      "ownership_pct": 73.56,
+      "shares": 29631090,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-21"
+    },
+    {
       "filer": "Nexera Technologies Ltd",
       "company": "Fort Technology Inc",
       "ticker": "FRTT",
@@ -1087,19 +1093,20 @@
       "shares": 3024373,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-18"
-    },
-    {
-      "filer": "Turlov Timur R",
-      "company": "Freedom Holding Corp.",
-      "ticker": "FRHC",
-      "ownership_pct": 64.91,
-      "shares": 41405112,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-18"
     }
   ],
   "polymarket": {
     "smart_traders": [
+      {
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 171198.39,
+        "win_rate": 0.9091,
+        "volume": 374423.72,
+        "categories": [
+          "crypto"
+        ]
+      },
       {
         "wallet": "0xe987c520c0",
         "username": "0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092",
@@ -1112,20 +1119,10 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 140228.56,
-        "win_rate": 0.9091,
-        "volume": 362397.8,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0xd38b71f3e8",
         "username": "primm",
         "pnl": 41390.73,
-        "win_rate": 0.9731,
+        "win_rate": 0.9732,
         "volume": 82791.18,
         "categories": [
           "sports"
@@ -1142,11 +1139,11 @@
         ]
       },
       {
-        "wallet": "0xb595d09ce5",
-        "username": "0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105",
-        "pnl": 14171.25,
-        "win_rate": 0.994,
-        "volume": 18102.81,
+        "wallet": "0x79ae097215",
+        "username": "CORGI8",
+        "pnl": 29333.63,
+        "win_rate": 0.9286,
+        "volume": 221384.79,
         "categories": [
           "sports"
         ]
@@ -1154,41 +1151,19 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "SDTrading",
-        "pnl": 23241.01,
+        "pnl": 23252.7,
         "win_rate": 0.941,
-        "volume": 0.0,
+        "volume": 2337.87,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 15990.79,
-        "win_rate": 0.9615,
-        "volume": 263513.83,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xafe65d1671",
-        "username": "TOWERCAPITAL",
-        "pnl": 23476.76,
-        "win_rate": 0.8795,
-        "volume": 62359.19,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x918b42a06f",
-        "username": "OhWhenTheReds",
-        "pnl": 85701.08,
-        "win_rate": 1.0,
-        "volume": 133082.96,
+        "wallet": "0xe548376f23",
+        "username": "Uniform123",
+        "pnl": 28503.3,
+        "win_rate": 0.874,
+        "volume": 91383.1,
         "categories": [
           "sports"
         ]
@@ -1196,9 +1171,33 @@
       {
         "wallet": "0x6db983ff1c",
         "username": "tsihkodiives",
-        "pnl": 39624.99,
-        "win_rate": 0.8293,
-        "volume": 55717.99,
+        "pnl": 54837.41,
+        "win_rate": 0.8283,
+        "volume": 141916.28,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xec981ed70a",
+        "username": "0xheavy888",
+        "pnl": 28370.52,
+        "win_rate": 0.865,
+        "volume": 320117.19,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xafe65d1671",
+        "username": "TOWERCAPITAL",
+        "pnl": 22179.76,
+        "win_rate": 0.8803,
+        "volume": 119596.4,
         "categories": [
           "sports",
           "crypto",
@@ -1210,9 +1209,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 318183.98,
-        "win_rate": 0.596,
-        "volume": 2160739.11,
+        "pnl": 332482.85,
+        "win_rate": 0.598,
+        "volume": 2187439.22,
         "categories": [
           "sports",
           "crypto",
@@ -1222,9 +1221,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 186111.71,
-        "win_rate": 0.626,
-        "volume": 2743288.51,
+        "pnl": 207821.9,
+        "win_rate": 0.631,
+        "volume": 3472990.26,
         "categories": [
           "sports"
         ]
@@ -1232,7 +1231,7 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 283019.86,
+        "pnl": 283091.03,
         "win_rate": 0.5273,
         "volume": 669543.44,
         "categories": [
@@ -1244,9 +1243,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 348396.81,
+        "pnl": 348975.41,
         "win_rate": 0.563,
-        "volume": 1467108.26,
+        "volume": 1542075.28,
         "categories": [
           "sports"
         ]
@@ -1255,7 +1254,7 @@
         "wallet": "0x1610db79f7",
         "username": "HMLSF",
         "pnl": 40073.77,
-        "win_rate": 0.474,
+        "win_rate": 0.4747,
         "volume": 519247.31,
         "categories": [
           "sports"
@@ -1264,7 +1263,7 @@
       {
         "wallet": "0xa38a455bbd",
         "username": "takeormake",
-        "pnl": 29140.82,
+        "pnl": 29093.9,
         "win_rate": 0.691,
         "volume": 1150382.31,
         "categories": [
@@ -1274,9 +1273,9 @@
       {
         "wallet": "0x67542c3219",
         "username": "maz26",
-        "pnl": 34977.35,
+        "pnl": 35060.21,
         "win_rate": 0.5288,
-        "volume": 212989.38,
+        "volume": 229581.2,
         "categories": [
           "sports"
         ]
@@ -1294,37 +1293,26 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 140228.56,
+        "pnl": 171198.39,
         "win_rate": 0.9091,
-        "volume": 362397.8,
+        "volume": 374423.72,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x6211f97a76",
-        "username": "Tiger200",
-        "pnl": 284887.71,
-        "win_rate": 0.4964,
-        "volume": 147143.36,
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 26665.28,
+        "win_rate": 0.541,
+        "volume": 646534.91,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Jensen Huang Isnt  Afraid  of Paying $8 Billion in California Billionaire Tax : Nvidia CEO Says This Is What Scares Him Instead",
-      "url": "https://www.aol.com/articles/jensen-huang-isnt-afraid-paying-085437000.html",
-      "ticker": "NVDA",
-      "themes": [
-        "ai",
-        "leadership"
-      ],
-      "date": "2026-09-21"
-    },
     {
       "title": "GeneDx ( NASDAQ : WGS ) versus Joint ( NASDAQ : JYNT ) Critical Comparison",
       "url": "https://www.themarketsdaily.com/2026/09/20/genedx-nasdaqwgs-versus-joint-nasdaqjynt-critical-comparison.html",

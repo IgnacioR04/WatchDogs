@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-21T10:59:40+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
+_Generado 2026-09-21T17:23:59+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.87)
-- Tendencia: `bull` (SPY 761.69 · MA50 757.89 · MA200 712.48 · dist MA200: 6.91%)
-- Credito: `tight` (HY spread 2.7)
+- Volatilidad: `calm` (VIX 14.98)
+- Tendencia: `bull` (SPY 772.72 · MA50 758.28 · MA200 712.98 · dist MA200: 8.38%)
+- Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.25)
 - Fed Funds: 3.63%
 - Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
@@ -22,25 +22,25 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 761.69 | 0.13% | -0.09% | 0.13% |
-| QQQ | 12.0% | core | 721.45 | 0.63% | 0.92% | 1.48% |
-| TLT | 12.0% | core | 81.25 | -0.65% | 0.47% | -0.95% |
-| GLD | 9.3% | core | 401.17 | 0.71% | 0.6% | -3.39% |
-| BPRE | 7.3% | satellite | 11.91 | -1.73% | -0.83% | -0.83% |
-| MEOH | 6.7% | satellite | 60.97 | -0.1% | -2.79% | 4.15% |
-| IEF | 6.2% | core | 90.8 | -0.49% | -0.23% | -2.01% |
-| MG | 4.8% | satellite | 20.75 | 4.59% | 4.75% | 6.36% |
-| OSCR | 4.5% | satellite | 32.13 | 0.47% | -1.95% | 1.77% |
-| KRMN | 3.8% | satellite | 35.75 | 1.42% | 1.33% | -34.23% |
-| USAR | 3.2% | satellite | 15.37 | -1.66% | -1.22% | -10.17% |
-| DELL | 3.0% | satellite | 568.06 | -3.46% | 0.14% | 30.65% |
+| SPY | 12.0% | core | 772.72 | 1.45% | 1.81% | 1.16% |
+| QQQ | 12.0% | core | 738.83 | 2.41% | 4.18% | 3.56% |
+| TLT | 12.0% | core | 81.72 | 0.58% | 0.98% | -0.01% |
+| GLD | 9.3% | core | 398.15 | -0.75% | 1.35% | -5.96% |
+| BPRE | 7.3% | satellite | 11.96 | 0.42% | 1.42% | -0.66% |
+| MEOH | 6.8% | satellite | 59.07 | -3.12% | -5.53% | -1.43% |
+| IEF | 6.2% | core | 91.1 | 0.32% | 0.18% | -1.51% |
+| MG | 4.8% | satellite | 20.78 | 0.14% | 6.4% | 9.6% |
+| OSCR | 4.5% | satellite | 31.36 | -2.38% | -7.23% | -2.11% |
+| KRMN | 3.8% | satellite | 35.97 | 0.62% | 3.54% | -32.64% |
+| USAR | 3.2% | satellite | 16.95 | 10.31% | 7.92% | -11.97% |
+| DELL | 3.0% | satellite | 575.98 | 1.39% | 7.8% | 30.29% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.6%
+- Volatilidad anualizada: 13.4%
 - VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.4%
 - Max drawdown historico: -4.1%
-- Beta vs SPY: 0.939 · posiciones efectivas: 13.6 · HHI: 0.0734
+- Beta vs SPY: 0.923 · posiciones efectivas: 13.6 · HHI: 0.0735
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -59,33 +59,33 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
 | KRMN | 82 | corporate_insider | Stinnett David | 3 | $1,007,648 | cluster_buy |
+| BORR | 78 | corporate_insider | Morand De Oliveira Bruno | 2 | $200,200 | cluster_buy |
+| BORR | 77 | corporate_insider | Troim Tor Olav | 2 | $656,925 | cluster_buy |
 | KRMN | 73 | corporate_insider | Petryszyn Mary D | 3 | $18,720 | cluster_buy,small_amount |
 | OSCR | 72 | large_holder | Thrive Capital Partners I |  | - | - |
 | MRLN | 72 | large_holder | FR Capital Holdings, L.P. |  | - | - |
+| RGR | 72 | large_holder | Beretta Holding S.A. |  | - | - |
 | KRMN | 72 | corporate_insider | Twitty Stephen | 3 | $10,117 | cluster_buy,small_amount |
+| LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
+| HOWL | 70 | large_holder | MOLL PETER |  | - | - |
 | TROO | 70 | large_holder | JMD CORPORATE SERVICES LI |  | - | - |
 | XBIO | 70 | large_holder | MJL Manager LLC |  | - | - |
 | MVIS | 70 | large_holder | Gnauck Johannes |  | - | - |
 | BTMD | 70 | large_holder | AGARWAL AMIT MOHAN |  | - | - |
 | MSS | 70 | large_holder | JANE STREET GROUP, LLC |  | - | - |
-| NUWE | 70 | large_holder | Orca Capital AG |  | - | - |
-| CRTD | 70 | large_holder | Castaldo Gregory |  | - | - |
-| CRTD | 70 | large_holder | SEG Opportunity Fund, LLC |  | - | - |
-| CRTD | 70 | large_holder | Joseph Reda |  | - | - |
-| LCLN | 70 | large_holder | Millennium Management LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
 | IHT | 60 | corporate_insider | BERG MARC E | $361,497,600 | - |
-| TEM | 58 | corporate_insider | LEFKOFSKY ERIC P | $9,935,443 | - |
 | ADBE | 58 | corporate_insider | NARAYEN SHANTANU | $8,284,350 | - |
 | ADBE | 57 | corporate_insider | NARAYEN SHANTANU | $5,221,027 | - |
 | ADBE | 56 | corporate_insider | NARAYEN SHANTANU | $4,402,037 | - |
 | LIFE | 56 | corporate_insider | Wang Lingke | $4,312,893 | - |
-| TEM | 56 | corporate_insider | LEFKOFSKY ERIC P | $4,231,970 | - |
 | DUOL | 56 | corporate_insider | von Ahn Luis | $4,095,570 | - |
+| BNTX | 56 | corporate_insider | Sahin Ugur | $3,352,342 | - |
+| STNG | 56 | corporate_insider | Avella Christopher John | $4,891,205 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -94,15 +94,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 761.69 (0.13% / -0.09% / 0.13%) [2026-09-18]
-- QQQ: 721.45 (0.63% / 0.92% / 1.48%) [2026-09-18]
-- IWM: 284.1 (-0.47% / -1.4% / -4.31%) [2026-09-18]
-- DIA: 515.88 (-0.25% / -1.66% / -1.9%) [2026-09-18]
-- TLT: 81.25 (-0.65% / 0.47% / -0.95%) [2026-09-18]
-- IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
-- GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
-- ^VIX: 14.87 (0.41% / -13.04% / -6.18%) [2026-09-21]
-- BTC-USD: 84400.46 (4.01% / 10.83% / 9.04%) [2026-09-21]
+- SPY: 772.72 (1.45% / 1.81% / 1.16%) [2026-09-21]
+- QQQ: 738.83 (2.41% / 4.18% / 3.56%) [2026-09-21]
+- IWM: 285.64 (0.54% / -0.53% / -4.53%) [2026-09-21]
+- DIA: 519.7 (0.74% / -0.68% / -2.13%) [2026-09-21]
+- TLT: 81.72 (0.58% / 0.98% / -0.01%) [2026-09-21]
+- IEF: 91.1 (0.32% / 0.18% / -1.51%) [2026-09-21]
+- GLD: 398.15 (-0.75% / 1.35% / -5.96%) [2026-09-21]
+- ^VIX: 14.98 (1.15% / -12.4% / -5.49%) [2026-09-21]
+- BTC-USD: 85800.59 (5.74% / 12.67% / 10.85%) [2026-09-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,18 +110,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.94 (delta 1m: 0.23) [2026-09-17]
 - Curva 10Y-2Y: 0.25 (delta 1m: -0.21) [2026-09-18]
 - Fed Funds Rate: 3.63 (delta 1m: -1.01) [2026-08-01]
-- High yield spread (OAS): 2.7 (delta 1m: -0.03) [2026-09-17]
+- High yield spread (OAS): 2.68 (delta 1m: -0.07) [2026-09-18]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-08-01]
 - Breakeven inflacion 10Y: 2.33 (delta 1m: 0.03) [2026-09-18]
 - Dolar broad index: 118.2126 (delta 1m: -0.905) [2026-09-11]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1), leadership (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NVDA] Jensen Huang Isnt  Afraid  of Paying $8 Billion in California Billionaire Tax : Nvidia CEO Says This Is What Scares Him Instead (2026-09-21)
 - [WGS] GeneDx ( NASDAQ : WGS ) versus Joint ( NASDAQ : JYNT ) Critical Comparison (2026-09-20)
 - [OSCR] Investors Purchase High Volume of Oscar Health Call Options ( NYSE : OSCR ) (2026-09-11)
 - [OSCR] FinancialContent - Moderna , 10x Genomics , Oscar Health , and Novavax Shares Are Soaring , What You Need To Know (2026-09-11)
@@ -130,10 +129,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-09-17.
 - 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $9.8M el 2026-09-17.
 - Officer BERG MARC E vendio IHT por $361.5M el 2026-09-17.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $11.2M el 2026-09-16.
-- CEO LEFKOFSKY ERIC P vendio TEM por $9.9M el 2026-09-17.
 - CEO Lyons Michael P. compro TFC por $1.0M el 2026-09-17.
 - 10% owner Shen Ching Hang compro CV por $5.0M el 2026-09-15.
 - CEO NARAYEN SHANTANU vendio ADBE por $4.4M el 2026-09-17.
@@ -141,11 +140,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- JnStrtPrdctnMrkts · PnL $171,198 · win rate 91% · categorias: crypto
 - 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $64,458 · win rate 97% · categorias: sports, crypto
-- JnStrtPrdctnMrkts · PnL $140,229 · win rate 91% · categorias: crypto
 - primm · PnL $41,391 · win rate 97% · categorias: sports
 - tikstt2 · PnL $30,816 · win rate 97% · categorias: sports
-- 0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105 · PnL $14,171 · win rate 99% · categorias: sports
+- CORGI8 · PnL $29,334 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,8 +152,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-09-19
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-18
+- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-09-21
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
