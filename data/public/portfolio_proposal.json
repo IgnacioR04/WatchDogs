@@ -1,22 +1,25 @@
 {
-  "generated_at": "2026-09-21T17:23:58+00:00",
+  "generated_at": "2026-09-21T21:20:50+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8502,
-  "cash": 0.1498,
+  "total_equity": 0.8498,
+  "cash": 0.1502,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "BPRE": 0.0735,
-    "MEOH": 0.0676,
+    "ECAT": 0.083,
     "IEF": 0.0622,
-    "MG": 0.0476,
-    "OSCR": 0.0453,
-    "KRMN": 0.0378,
-    "USAR": 0.0325,
-    "DELL": 0.0304
+    "ROL": 0.0462,
+    "MCFT": 0.0327,
+    "MG": 0.0314,
+    "GPI": 0.0312,
+    "DT": 0.0283,
+    "RES": 0.0271,
+    "MEOH": 0.0247,
+    "GTE": 0.016,
+    "USAR": 0.0137
   },
   "core": {
     "SPY": 0.1934,
@@ -26,22 +29,25 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "BPRE": 0.0653,
-    "MEOH": 0.0601,
-    "USAR": 0.0289,
-    "MG": 0.0423,
-    "KRMN": 0.0336,
-    "OSCR": 0.0403,
-    "DELL": 0.027
+    "GPI": 0.0277,
+    "MEOH": 0.022,
+    "USAR": 0.0122,
+    "MG": 0.0279,
+    "GTE": 0.0142,
+    "DT": 0.0252,
+    "ROL": 0.0411,
+    "RES": 0.0241,
+    "MCFT": 0.0291,
+    "ECAT": 0.0738
   },
   "satellite_rationale": [
     {
-      "ticker": "BPRE",
-      "score": 267.6,
+      "ticker": "GPI",
+      "score": 997.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
+      "n_signals": 16
     },
     {
       "ticker": "MEOH",
@@ -61,22 +67,14 @@
     },
     {
       "ticker": "MG",
-      "score": 140.4,
+      "score": 207.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
-      "ticker": "KRMN",
-      "score": 81.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "OSCR",
+      "ticker": "GTE",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -84,7 +82,39 @@
       "n_signals": 1
     },
     {
-      "ticker": "DELL",
+      "ticker": "DT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "ROL",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "RES",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "MCFT",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "ECAT",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -93,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1337,
-    "var_95_1d": 0.0101,
-    "cvar_95_1d": 0.0141,
-    "max_drawdown": -0.0414,
-    "beta_spy": 0.923,
-    "hhi": 0.0735,
+    "ann_vol": 0.1021,
+    "var_95_1d": 0.0107,
+    "cvar_95_1d": 0.0146,
+    "max_drawdown": -0.0624,
+    "beta_spy": 0.616,
+    "hhi": 0.0704,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 13.6,
-    "gross_exposure": 0.8502,
-    "days_used": 49
+    "n_positions": 15,
+    "effective_positions": 14.2,
+    "gross_exposure": 0.8498,
+    "days_used": 160
   },
   "risk_gate": {
     "passed": true,
