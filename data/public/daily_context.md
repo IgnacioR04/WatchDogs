@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-20T21:47:08+00:00 · ventana señales 2026-08-21 -> 2026-09-20_
+_Generado 2026-09-21T00:33:36+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -102,7 +102,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
 - ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 80855.19 (-0.47% / 6.93% / 2.94%) [2026-09-20]
+- BTC-USD: 81719.35 (0.6% / 8.08% / 4.04%) [2026-09-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,20 +117,9 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (2), ai (2)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [WGS] GeneDx ( NASDAQ : WGS ) versus Joint ( NASDAQ : JYNT ) Critical Comparison (2026-09-20)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
-- [TEM] Tempus AI ( NASDAQ : TEM ) Earns Neutral Rating from Analysts at UBS Group (2026-09-12)
-- [RVMD] Revolution Medicines ( RVMD ) Gets its First Approved Drug , and the Market Shrugs (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [OSCR] Investors Purchase High Volume of Oscar Health Call Options ( NYSE : OSCR ) (2026-09-11)
-- [OSCR] FinancialContent - Moderna , 10x Genomics , Oscar Health , and Novavax Shares Are Soaring , What You Need To Know (2026-09-11)
-- [OSCR] Oscar Health ( NYSE : OSCR ) Hits New 1 - Year High – Should You Buy ? (2026-09-11)
-- [TEM] Tempus AI ( NASDAQ : TEM ) Research Coverage Started at Roth Capital (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,11 +134,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kch-Temp · PnL $385,442 · win rate 91% · categorias: sports
-- KaneAnalytics · PnL $123,093 · win rate 94% · categorias: sports
-- Diabolical-Prize · PnL $82,778 · win rate 95% · categorias: sports, economy
-- BreakTheBank · PnL $294,489 · win rate 85% · categorias: sports
-- ic4cream · PnL $73,369 · win rate 92% · categorias: sports
+- Kch-Temp · PnL $570,336 · win rate 91% · categorias: sports
+- theowalcott · PnL $59,089 · win rate 100% · categorias: sports
+- KaneAnalytics · PnL $123,830 · win rate 94% · categorias: sports
+- ic4cream · PnL $123,456 · win rate 92% · categorias: sports
+- retordedgremlin125 · PnL $50,736 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
