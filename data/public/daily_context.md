@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-21T05:17:47+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
+_Generado 2026-09-21T10:59:40+00:00 · ventana señales 2026-08-22 -> 2026-09-21_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.81)
+- Volatilidad: `calm` (VIX 14.87)
 - Tendencia: `bull` (SPY 761.69 · MA50 757.89 · MA200 712.48 · dist MA200: 6.91%)
 - Credito: `tight` (HY spread 2.7)
 - Tipos: `flat` (curva 10y-2y 0.25)
@@ -79,13 +79,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
 | IHT | 60 | corporate_insider | BERG MARC E | $361,497,600 | - |
-| STNG | 60 | corporate_insider | BUGBEE ROBERT L | $19,977,736 | - |
 | TEM | 58 | corporate_insider | LEFKOFSKY ERIC P | $9,935,443 | - |
 | ADBE | 58 | corporate_insider | NARAYEN SHANTANU | $8,284,350 | - |
 | ADBE | 57 | corporate_insider | NARAYEN SHANTANU | $5,221,027 | - |
 | ADBE | 56 | corporate_insider | NARAYEN SHANTANU | $4,402,037 | - |
 | LIFE | 56 | corporate_insider | Wang Lingke | $4,312,893 | - |
 | TEM | 56 | corporate_insider | LEFKOFSKY ERIC P | $4,231,970 | - |
+| DUOL | 56 | corporate_insider | von Ahn Luis | $4,095,570 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.25 (-0.65% / 0.47% / -0.95%) [2026-09-18]
 - IEF: 90.8 (-0.49% / -0.23% / -2.01%) [2026-09-18]
 - GLD: 401.17 (0.71% / 0.6% / -3.39%) [2026-09-18]
-- ^VIX: 14.81 (-4.08% / -6.5% / -2.12%) [2026-09-18]
-- BTC-USD: 81360.52 (0.16% / 7.6% / 3.58%) [2026-09-21]
+- ^VIX: 14.87 (0.41% / -13.04% / -6.18%) [2026-09-21]
+- BTC-USD: 84400.46 (4.01% / 10.83% / 9.04%) [2026-09-21]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,34 +117,35 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (2), stock (2)
+**Temas dominantes**: stock (2), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UBER] Contrasting Uber Technologies ( NYSE : UBER ) and Covenant Logistics Group ( NYSE : CVLG ) (2026-09-21)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
+- [NVDA] Jensen Huang Isnt  Afraid  of Paying $8 Billion in California Billionaire Tax : Nvidia CEO Says This Is What Scares Him Instead (2026-09-21)
+- [WGS] GeneDx ( NASDAQ : WGS ) versus Joint ( NASDAQ : JYNT ) Critical Comparison (2026-09-20)
+- [OSCR] Investors Purchase High Volume of Oscar Health Call Options ( NYSE : OSCR ) (2026-09-11)
+- [OSCR] FinancialContent - Moderna , 10x Genomics , Oscar Health , and Novavax Shares Are Soaring , What You Need To Know (2026-09-11)
+- [OSCR] Oscar Health ( NYSE : OSCR ) Hits New 1 - Year High – Should You Buy ? (2026-09-11)
+- [OSCR] Victoria Baltrus Sells 958 Shares of Oscar Health ( NYSE : OSCR ) Stock (2026-09-08)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner LIBERTY MUTUAL HOLDING Co INC. compro 5C Lending Partners Corp. por $9.8M el 2026-09-17.
 - Officer BERG MARC E vendio IHT por $361.5M el 2026-09-17.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $11.2M el 2026-09-16.
-- CEO BUGBEE ROBERT L vendio STNG por $20.0M el 2026-09-16.
 - CEO LEFKOFSKY ERIC P vendio TEM por $9.9M el 2026-09-17.
 - CEO Lyons Michael P. compro TFC por $1.0M el 2026-09-17.
 - 10% owner Shen Ching Hang compro CV por $5.0M el 2026-09-15.
 - CEO NARAYEN SHANTANU vendio ADBE por $4.4M el 2026-09-17.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $64,369 · win rate 97% · categorias: sports, crypto
-- primm · PnL $41,349 · win rate 97% · categorias: sports
+- 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $64,458 · win rate 97% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $140,229 · win rate 91% · categorias: crypto
+- primm · PnL $41,391 · win rate 97% · categorias: sports
 - tikstt2 · PnL $30,816 · win rate 97% · categorias: sports
-- 0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105 · PnL $14,084 · win rate 99% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $38,055 · win rate 91% · categorias: crypto
+- 0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105 · PnL $14,171 · win rate 99% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -152,7 +153,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 681 registros 30d · ultimo dato 2026-09-18
+- **sec_insiders**: `ok` · 677 registros 30d · ultimo dato 2026-09-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-18
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
