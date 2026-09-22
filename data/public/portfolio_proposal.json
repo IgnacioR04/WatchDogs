@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-22T00:22:07+00:00",
+  "generated_at": "2026-09-22T05:09:39+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.85,
-  "cash": 0.15,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "GSAT": 0.1101,
     "GLD": 0.0933,
     "IEF": 0.0622,
-    "GLP": 0.0596,
-    "MG": 0.0403,
-    "GSAT": 0.0402,
-    "GPI": 0.0399,
-    "DT": 0.0364,
-    "MEOH": 0.0318,
-    "TYRA": 0.026,
-    "VG": 0.022,
-    "GTE": 0.0206,
-    "USAR": 0.0177
+    "GME": 0.0387,
+    "MEOH": 0.0328,
+    "MG": 0.0287,
+    "DT": 0.0282,
+    "GPI": 0.027,
+    "VG": 0.0199,
+    "TYRA": 0.0181,
+    "GTE": 0.0155,
+    "USAR": 0.0154
   },
   "core": {
     "SPY": 0.1934,
@@ -29,16 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "GPI": 0.0355,
-    "TYRA": 0.0231,
-    "MEOH": 0.0283,
-    "USAR": 0.0157,
-    "MG": 0.0358,
-    "GLP": 0.053,
-    "GTE": 0.0183,
-    "DT": 0.0324,
-    "VG": 0.0196,
-    "GSAT": 0.0357
+    "GPI": 0.024,
+    "TYRA": 0.0161,
+    "MEOH": 0.0292,
+    "USAR": 0.0137,
+    "MG": 0.0255,
+    "GME": 0.0344,
+    "GTE": 0.0138,
+    "DT": 0.0251,
+    "VG": 0.0177,
+    "GSAT": 0.0979
   },
   "satellite_rationale": [
     {
@@ -82,8 +82,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "GLP",
-      "score": 115.0,
+      "ticker": "GME",
+      "score": 164.1,
       "sources": [
         "corporate_insider"
       ],
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1025,
-    "var_95_1d": 0.0095,
-    "cvar_95_1d": 0.0154,
-    "max_drawdown": -0.0501,
-    "beta_spy": 0.535,
-    "hhi": 0.0684,
+    "ann_vol": 0.087,
+    "var_95_1d": 0.0079,
+    "cvar_95_1d": 0.0118,
+    "max_drawdown": -0.0497,
+    "beta_spy": 0.542,
+    "hhi": 0.074,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.85,
-    "days_used": 160
+    "effective_positions": 13.5,
+    "gross_exposure": 0.8499,
+    "days_used": 91
   },
   "risk_gate": {
     "passed": true,
