@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-22T05:09:40+00:00 · ventana señales 2026-08-23 -> 2026-09-22_
+_Generado 2026-09-22T10:13:52+00:00 · ventana señales 2026-08-23 -> 2026-09-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.87)
+- Volatilidad: `calm` (VIX 14.84)
 - Tendencia: `bull` (SPY 773.5 · MA50 758.3 · MA200 712.98 · dist MA200: 8.49%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.2)
@@ -29,7 +29,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 398.38 | -0.7% | 1.41% | -5.9% |
 | IEF | 6.2% | core | 91.15 | 0.39% | 0.24% | -1.45% |
 | GME | 3.9% | satellite | 22.76 | 0.53% | 5.27% | 24.99% |
-| MEOH | 3.3% | satellite | 58.7 | -3.72% | -6.13% | -2.05% |
+| MEOH | 3.2% | satellite | 58.7 | -3.72% | -6.13% | -2.05% |
 | MG | 2.9% | satellite | 20.99 | 1.16% | 7.48% | 10.71% |
 | DT | 2.8% | satellite | 56.4 | 2.29% | 5.74% | 14.4% |
 | GPI | 2.7% | satellite | 250.87 | 1.81% | -11.67% | -4.0% |
@@ -43,7 +43,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Volatilidad anualizada: 8.7%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.2%
 - Max drawdown historico: -5.0%
-- Beta vs SPY: 0.542 · posiciones efectivas: 13.5 · HHI: 0.074
+- Beta vs SPY: 0.538 · posiciones efectivas: 13.5 · HHI: 0.0741
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.8 (0.68% / 1.08% / 0.08%) [2026-09-21]
 - IEF: 91.15 (0.39% / 0.24% / -1.45%) [2026-09-21]
 - GLD: 398.38 (-0.7% / 1.41% / -5.9%) [2026-09-21]
-- ^VIX: 14.87 (0.41% / -13.04% / -6.18%) [2026-09-21]
-- BTC-USD: 85491.96 (5.36% / 12.27% / 10.45%) [2026-09-22]
+- ^VIX: 14.84 (-0.2% / -13.72% / -3.95%) [2026-09-22]
+- BTC-USD: 86054.44 (-0.63% / 12.63% / 11.32%) [2026-09-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,15 +123,20 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), leadership (1)
+**Temas dominantes**: stock (9), leadership (2), merger (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [SNDK] Dow Jones Futures : Falling Oil Prices , Yields Spark Stock Market Rally ; AMD , Intel , Micron , Nvidia , Sandisk Are Key Movers (2026-09-22)
 - [SNDK] Insider Selling : Sandisk ( NASDAQ : SNDK ) CEO Sells 33 , 841 Shares (2026-09-22)
 - [SNDK] Dow Jones Futures : Falling Oil Prices , Yields Spark Stock Market Rally ; AMD , Intel , Micron , Nvidia , Sandisk Are Key Movers (2026-09-22)
 - [DELL] Dell Technologies ( NYSE : DELL ) Director Sells $15 , 557 , 668 . 23 in Stock (2026-09-21)
 - [DELL] Dell Technologies ( NYSE : DELL ) CFO Sells $13 , 979 , 637 . 92 in Stock (2026-09-21)
-- [SNDK] SanDisk Falls 2 % Despite Memory Rally ; Micron Advances 3 %, Western Digital Nudges Higher (2026-09-21)
+- [TWST] Twist Bioscience ( NASDAQ : TWST ) CEO Emily Leproust Sells 356 , 546 Shares of Stock (2026-09-21)
+- [TWST] Twist Bioscience ( NASDAQ : TWST ) Research Coverage Started at BWS Financial (2026-09-12)
+- [GPI] Insider Buying : Group 1 Automotive ( NYSE : GPI ) Major Shareholder Acquires $10 , 292 , 676 . 42 in Stock (2026-09-11)
+- [PHIN] Insider Selling : PHINIA ( NYSE : PHIN ) VP Sells 2 , 097 Shares (2026-09-11)
+- [GPI] Group 1 Automotive , Inc . $GPI Shares Acquired by Hsbc Holdings PLC (2026-09-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -146,11 +151,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ethanaz · PnL $123,077 · win rate 89% · categorias: sports, crypto
-- LhordGryffin · PnL $27,583 · win rate 98% · categorias: sports, politics
-- monkeymashingkeyboard · PnL $52,928 · win rate 92% · categorias: sports
-- 0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092 · PnL $24,356 · win rate 97% · categorias: sports, crypto
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $31,387 · win rate 94% · categorias: sports
+- monkeymashingkeyboard · PnL $113,136 · win rate 92% · categorias: sports
+- BreakTheBank · PnL $291,223 · win rate 85% · categorias: sports
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $62,273 · win rate 94% · categorias: sports
+- ethanaz · PnL $123,152 · win rate 89% · categorias: sports, crypto
+- LhordGryffin · PnL $27,584 · win rate 98% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 

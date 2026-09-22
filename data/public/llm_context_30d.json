@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-22T05:08:42.178304+00:00",
+  "generated_at": "2026-09-22T10:13:07.622812+00:00",
   "window": {
     "from": "2026-08-23",
     "to": "2026-09-22",
@@ -18,13 +18,14 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
       "stock",
-      "leadership"
+      "leadership",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -242,7 +243,11 @@
       "event_date": "2026-09-17",
       "importance_score": 84.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_442609649603",
+        "news_499536710393",
+        "news_73790573965"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1753655/000121465926011832/"
     },
     {
@@ -297,9 +302,9 @@
       "importance_score": 82.7,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_637570913199",
-        "news_613554567798",
-        "news_683768754914"
+        "news_936537380641",
+        "news_450494903245",
+        "news_757573025937"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1713941/000124264826000041/"
     },
@@ -319,8 +324,8 @@
       "importance_score": 82.5,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_143874148552",
-        "news_523791651593"
+        "news_53385938467",
+        "news_330655690771"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2086800/000208680026000007/"
     },
@@ -1104,10 +1109,40 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 113136.04,
+        "win_rate": 0.9187,
+        "volume": 115624.51,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 291223.38,
+        "win_rate": 0.8522,
+        "volume": 155641.45,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x16bb9951a3",
+        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+        "pnl": 62273.07,
+        "win_rate": 0.9412,
+        "volume": 4404.29,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf28e42d20e",
         "username": "ethanaz",
-        "pnl": 123077.06,
-        "win_rate": 0.8891,
+        "pnl": 123151.81,
+        "win_rate": 0.8896,
         "volume": 521946.82,
         "categories": [
           "sports",
@@ -1117,20 +1152,20 @@
       {
         "wallet": "0x9909dfa7a3",
         "username": "LhordGryffin",
-        "pnl": 27582.94,
+        "pnl": 27584.06,
         "win_rate": 0.9809,
-        "volume": 365.21,
+        "volume": 1493.23,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 52928.49,
-        "win_rate": 0.9204,
-        "volume": 114958.01,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 26938.39,
+        "win_rate": 0.962,
+        "volume": 153713.31,
         "categories": [
           "sports"
         ]
@@ -1138,8 +1173,8 @@
       {
         "wallet": "0xe987c520c0",
         "username": "0xe987c520c086Cf3930b0d163067B5470ba0FF0E1-1780518901092",
-        "pnl": 24356.35,
-        "win_rate": 0.9673,
+        "pnl": 24381.93,
+        "win_rate": 0.9631,
         "volume": 88851.32,
         "categories": [
           "sports",
@@ -1147,33 +1182,15 @@
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 31387.11,
-        "win_rate": 0.9411,
-        "volume": 4404.29,
+        "wallet": "0xb4f978be63",
+        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
+        "pnl": 50667.41,
+        "win_rate": 0.8846,
+        "volume": 46452.08,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x162ca4c524",
-        "username": "VD721lsj4938Dk388",
-        "pnl": 19357.48,
-        "win_rate": 0.955,
-        "volume": 10.3,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 66868.91,
-        "win_rate": 0.8522,
-        "volume": 155641.45,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "politics"
         ]
       },
       {
@@ -1187,23 +1204,11 @@
         ]
       },
       {
-        "wallet": "0xb4f978be63",
-        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 21379.21,
-        "win_rate": 0.8876,
-        "volume": 46452.08,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xcd84d7f926",
-        "username": "Donkey14",
-        "pnl": 261090.89,
-        "win_rate": 0.7157,
-        "volume": 46571.53,
+        "wallet": "0xb8ef617fd5",
+        "username": "no1dodgersfan",
+        "pnl": 61774.9,
+        "win_rate": 0.81,
+        "volume": 144655.41,
         "categories": [
           "sports"
         ]
@@ -1211,10 +1216,42 @@
     ],
     "whales": [
       {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 81385.65,
+        "win_rate": 0.716,
+        "volume": 2142573.44,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 488347.52,
+        "win_rate": 0.614,
+        "volume": 1292687.52,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 99286.75,
+        "win_rate": 0.61,
+        "volume": 2555098.78,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x67542c3219",
         "username": "maz26",
-        "pnl": 208812.42,
-        "win_rate": 0.5312,
+        "pnl": 267213.93,
+        "win_rate": 0.5325,
         "volume": 339335.06,
         "categories": [
           "sports"
@@ -1223,7 +1260,7 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 135925.65,
+        "pnl": 136260.18,
         "win_rate": 0.5288,
         "volume": 350000.0,
         "categories": [
@@ -1233,20 +1270,32 @@
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 132668.73,
-        "win_rate": 0.619,
-        "volume": 1215833.56,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 187531.64,
+        "win_rate": 0.546,
+        "volume": 1428600.06,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x26b46988d0",
+        "username": "kkookkoo",
+        "pnl": 31344.89,
+        "win_rate": 0.66,
+        "volume": 666197.65,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xf28e42d20e",
         "username": "ethanaz",
-        "pnl": 123077.06,
-        "win_rate": 0.8891,
+        "pnl": 123151.81,
+        "win_rate": 0.8896,
         "volume": 521946.82,
         "categories": [
           "sports",
@@ -1256,7 +1305,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 66868.91,
+        "pnl": 291223.38,
         "win_rate": 0.8522,
         "volume": 155641.45,
         "categories": [
@@ -1266,49 +1315,9 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 31050.72,
-        "win_rate": 0.485,
+        "pnl": 27557.87,
+        "win_rate": 0.486,
         "volume": 322077.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 152881.08,
-        "win_rate": 0.566,
-        "volume": 756264.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 67409.79,
-        "win_rate": 0.56,
-        "volume": 564153.25,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7f8e1877a0",
-        "username": "ratatatatatatatataaaa",
-        "pnl": 408162.36,
-        "win_rate": 0.75,
-        "volume": 149999.98,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9b11866433",
-        "username": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-        "pnl": 83402.48,
-        "win_rate": 0.509,
-        "volume": 629350.66,
         "categories": [
           "sports"
         ]
@@ -1316,6 +1325,15 @@
     ]
   },
   "news": [
+    {
+      "title": "Dow Jones Futures : Falling Oil Prices , Yields Spark Stock Market Rally ; AMD , Intel , Micron , Nvidia , Sandisk Are Key Movers",
+      "url": "https://www.investors.com:443/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-amd-intel-micron-nvidia-sandisk/",
+      "ticker": "SNDK",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-22"
+    },
     {
       "title": "Insider Selling : Sandisk ( NASDAQ : SNDK ) CEO Sells 33 , 841 Shares",
       "url": "https://www.themarketsdaily.com/2026/09/21/insider-selling-sandisk-nasdaqsndk-ceo-sells-33841-shares.html",
@@ -1354,13 +1372,57 @@
       "date": "2026-09-21"
     },
     {
-      "title": "SanDisk Falls 2 % Despite Memory Rally ; Micron Advances 3 %, Western Digital Nudges Higher",
-      "url": "https://www.aol.com/articles/sandisk-falls-2-despite-memory-191334000.html",
-      "ticker": "SNDK",
+      "title": "Twist Bioscience ( NASDAQ : TWST ) CEO Emily Leproust Sells 356 , 546 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13591415/twist-bioscience-nasdaqtwst-ceo-emily-leproust-sells-356546-shares-of-stock.html",
+      "ticker": "TWST",
       "themes": [
+        "leadership",
         "stock"
       ],
       "date": "2026-09-21"
+    },
+    {
+      "title": "Twist Bioscience ( NASDAQ : TWST ) Research Coverage Started at BWS Financial",
+      "url": "https://www.tickerreport.com/banking-finance/13582275/twist-bioscience-nasdaqtwst-research-coverage-started-at-bws-financial.html",
+      "ticker": "TWST",
+      "themes": [],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Insider Buying : Group 1 Automotive ( NYSE : GPI ) Major Shareholder Acquires $10 , 292 , 676 . 42 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/09/11/insider-buying-group-1-automotive-nysegpi-major-shareholder-acquires-10292676-42-in-stock.html",
+      "ticker": "GPI",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Insider Selling : PHINIA ( NYSE : PHIN ) VP Sells 2 , 097 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/11/insider-selling-phinia-nysephin-vp-sells-2097-shares.html",
+      "ticker": "PHIN",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Group 1 Automotive , Inc . $GPI Shares Acquired by Hsbc Holdings PLC",
+      "url": "https://www.dailypolitical.com/2026/09/10/group-1-automotive-inc-gpi-shares-acquired-by-hsbc-holdings-plc.html",
+      "ticker": "GPI",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Twist Bioscience ( NASDAQ : TWST ) Now Covered by UBS Group",
+      "url": "https://www.tickerreport.com/banking-finance/13578306/twist-bioscience-nasdaqtwst-now-covered-by-ubs-group.html",
+      "ticker": "TWST",
+      "themes": [],
+      "date": "2026-09-09"
     }
   ],
   "signals_count": 1454,
