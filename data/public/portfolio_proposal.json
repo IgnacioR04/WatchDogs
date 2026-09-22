@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T10:13:51+00:00",
+  "generated_at": "2026-09-22T15:11:34+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.85,
@@ -8,18 +8,18 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GSAT": 0.1103,
-    "GLD": 0.0933,
+    "GSAT": 0.1112,
+    "GLD": 0.0932,
     "IEF": 0.0622,
-    "GME": 0.0388,
-    "MEOH": 0.0325,
-    "MG": 0.0287,
-    "DT": 0.0283,
-    "GPI": 0.027,
-    "VG": 0.02,
-    "TYRA": 0.0182,
-    "GTE": 0.0155,
-    "USAR": 0.0152
+    "GLP": 0.0441,
+    "MEOH": 0.0328,
+    "MG": 0.0289,
+    "DT": 0.0285,
+    "VG": 0.0201,
+    "NVMI": 0.0197,
+    "TYRA": 0.0183,
+    "GTE": 0.0156,
+    "USAR": 0.0154
   },
   "core": {
     "SPY": 0.1934,
@@ -29,25 +29,25 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "GPI": 0.024,
-    "TYRA": 0.0162,
-    "MEOH": 0.0289,
-    "USAR": 0.0135,
-    "MG": 0.0255,
-    "GME": 0.0345,
-    "GTE": 0.0138,
-    "DT": 0.0252,
-    "VG": 0.0178,
-    "GSAT": 0.0981
+    "MG": 0.0257,
+    "TYRA": 0.0163,
+    "MEOH": 0.0292,
+    "USAR": 0.0137,
+    "GLP": 0.0392,
+    "GTE": 0.0139,
+    "DT": 0.0253,
+    "NVMI": 0.0175,
+    "VG": 0.0179,
+    "GSAT": 0.0989
   },
   "satellite_rationale": [
     {
-      "ticker": "GPI",
-      "score": 997.4,
+      "ticker": "MG",
+      "score": 210.6,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 16
+      "n_signals": 3
     },
     {
       "ticker": "TYRA",
@@ -74,16 +74,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "MG",
-      "score": 207.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "GME",
-      "score": 164.1,
+      "ticker": "GLP",
+      "score": 115.0,
       "sources": [
         "corporate_insider"
       ],
@@ -99,6 +91,14 @@
     },
     {
       "ticker": "DT",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "NVMI",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -123,15 +123,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0871,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0118,
-    "max_drawdown": -0.0495,
-    "beta_spy": 0.538,
-    "hhi": 0.0741,
+    "ann_vol": 0.097,
+    "var_95_1d": 0.0085,
+    "cvar_95_1d": 0.0132,
+    "max_drawdown": -0.0618,
+    "beta_spy": 0.605,
+    "hhi": 0.0744,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 13.5,
+    "effective_positions": 13.4,
     "gross_exposure": 0.85,
     "days_used": 92
   },
