@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:11:34+00:00",
+  "generated_at": "2026-09-22T19:13:09+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
   "total_equity": 0.85,
@@ -8,18 +8,18 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GSAT": 0.1112,
-    "GLD": 0.0932,
+    "GLD": 0.0933,
     "IEF": 0.0622,
-    "GLP": 0.0441,
-    "MEOH": 0.0328,
-    "MG": 0.0289,
-    "DT": 0.0285,
-    "VG": 0.0201,
-    "NVMI": 0.0197,
-    "TYRA": 0.0183,
-    "GTE": 0.0156,
-    "USAR": 0.0154
+    "GLP": 0.0502,
+    "BCBP": 0.049,
+    "GME": 0.0404,
+    "GPI": 0.038,
+    "MG": 0.0366,
+    "DT": 0.0346,
+    "MEOH": 0.0305,
+    "TYRA": 0.0218,
+    "GTE": 0.0191,
+    "USAR": 0.0143
   },
   "core": {
     "SPY": 0.1934,
@@ -29,18 +29,27 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "MG": 0.0257,
-    "TYRA": 0.0163,
-    "MEOH": 0.0292,
-    "USAR": 0.0137,
-    "GLP": 0.0392,
-    "GTE": 0.0139,
-    "DT": 0.0253,
-    "NVMI": 0.0175,
-    "VG": 0.0179,
-    "GSAT": 0.0989
+    "GPI": 0.0338,
+    "MG": 0.0325,
+    "TYRA": 0.0194,
+    "MEOH": 0.0271,
+    "USAR": 0.0127,
+    "GME": 0.0359,
+    "BCBP": 0.0436,
+    "GLP": 0.0446,
+    "GTE": 0.017,
+    "DT": 0.0308
   },
   "satellite_rationale": [
+    {
+      "ticker": "GPI",
+      "score": 1067.6,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 17
+    },
     {
       "ticker": "MG",
       "score": 210.6,
@@ -74,6 +83,22 @@
       "n_signals": 3
     },
     {
+      "ticker": "GME",
+      "score": 164.1,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "BCBP",
+      "score": 156.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "GLP",
       "score": 115.0,
       "sources": [
@@ -96,44 +121,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "NVMI",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "VG",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "GSAT",
-      "score": 70.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.097,
-    "var_95_1d": 0.0085,
-    "cvar_95_1d": 0.0132,
-    "max_drawdown": -0.0618,
-    "beta_spy": 0.605,
-    "hhi": 0.0744,
+    "ann_vol": 0.0952,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.0128,
+    "max_drawdown": -0.0498,
+    "beta_spy": 0.563,
+    "hhi": 0.0683,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 13.4,
+    "effective_positions": 14.6,
     "gross_exposure": 0.85,
-    "days_used": 92
+    "days_used": 217
   },
   "risk_gate": {
     "passed": true,

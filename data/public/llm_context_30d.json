@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-22T15:10:45.013827+00:00",
+  "generated_at": "2026-09-22T19:11:47.401161+00:00",
   "window": {
     "from": "2026-08-23",
     "to": "2026-09-22",
@@ -23,8 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "leadership"
+      "earnings",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -50,20 +50,20 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "10% owner compro LEN, LEN.B ($93.1M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $93.1M el 2026-09-18.",
+      "title": "CEO compro GME ($26.4M)",
+      "summary": "CEO Cohen Ryan compro GME por $26.4M el 2026-09-21.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
+      "actor_name": "Cohen Ryan",
+      "actor_type": "ceo",
+      "ticker": "GME",
       "direction": "buy",
-      "amount_estimated": 93075791.31,
-      "event_date": "2026-09-18",
-      "importance_score": 88.2,
+      "amount_estimated": 26393722.5,
+      "event_date": "2026-09-21",
+      "importance_score": 89.5,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1767470/000092189526002608/"
     },
     {
       "id": "move_3",
@@ -86,42 +86,6 @@
     {
       "id": "move_4",
       "rank": 4,
-      "title": "10% owner compro LEN, LEN.B ($37.7M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $37.7M el 2026-09-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
-      "direction": "buy",
-      "amount_estimated": 37722587.73,
-      "event_date": "2026-09-21",
-      "importance_score": 87.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
-    },
-    {
-      "id": "move_5",
-      "rank": 5,
-      "title": "10% owner compro LEN, LEN.B ($32.6M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $32.6M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
-      "direction": "buy",
-      "amount_estimated": 32571123.24,
-      "event_date": "2026-09-17",
-      "importance_score": 85.9,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
       "title": "CEO vendio BZ ($32.3M)",
       "summary": "CEO Zhao Peng Jonathan vendio BZ por $32.3M el 2026-09-21.",
       "source": "sec_form_4",
@@ -138,8 +102,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1907962/000110465926109348/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro GSAT ($29.8M)",
       "summary": "10% owner Monroe James III compro GSAT por $29.8M el 2026-09-18.",
       "source": "sec_form_4",
@@ -156,8 +120,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1379664/000137966426000002/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro LNBIX ($25.0M)",
       "summary": "10% owner Lincoln Financial Investments Corp compro LNBIX por $25.0M el 2026-09-17.",
       "source": "sec_form_4",
@@ -174,101 +138,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1464867/000119312526396327/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "10% owner compro LEN, LEN.B ($12.4M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $12.4M el 2026-09-21.",
+      "id": "move_7",
+      "rank": 7,
+      "title": "CEO compro CYBN ($1.3M)",
+      "summary": "CEO Halstead Michael compro CYBN por $1.3M el 2026-09-21.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
+      "actor_name": "Halstead Michael",
+      "actor_type": "ceo",
+      "ticker": "CYBN",
       "direction": "buy",
-      "amount_estimated": 12378038.25,
+      "amount_estimated": 1347050.0,
       "event_date": "2026-09-21",
-      "importance_score": 85.3,
+      "importance_score": 83.0,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1521548/000091228226001293/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
-      "title": "10% owner compro LEN, LEN.B ($21.0M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $21.0M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
-      "direction": "buy",
-      "amount_estimated": 20981339.85,
-      "event_date": "2026-09-17",
-      "importance_score": 85.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
-    },
-    {
-      "id": "move_11",
-      "rank": 11,
-      "title": "CEO vendio TWST ($36.7M)",
-      "summary": "CEO Leproust Emily M. vendio TWST por $36.7M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Leproust Emily M.",
-      "actor_type": "ceo",
-      "ticker": "TWST",
-      "direction": "sell",
-      "amount_estimated": 36703672.35,
-      "event_date": "2026-09-17",
-      "importance_score": 84.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1753655/000121465926011832/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "10% owner compro ENHA ($7.0M)",
-      "summary": "10% owner Apeiron Investment Group Ltd. compro ENHA por $7.0M el 2026-09-17 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Apeiron Investment Group Ltd.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ENHA",
-      "direction": "buy",
-      "amount_estimated": 6992054.05,
-      "event_date": "2026-09-17",
-      "importance_score": 83.8,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1845711/000119312526397056/"
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "CEO vendio SNDK ($15.1M)",
-      "summary": "CEO Goeckeler David vendio SNDK por $15.1M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Goeckeler David",
-      "actor_type": "ceo",
-      "ticker": "SNDK",
-      "direction": "sell",
-      "amount_estimated": 15068664.48,
-      "event_date": "2026-09-17",
-      "importance_score": 82.7,
-      "cross_source_score": 0.0,
-      "related_news": [
-        "news_735253416413",
-        "news_806151675812"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1713941/000124264826000041/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_8",
+      "rank": 8,
       "title": "CFO vendio DELL ($13.5M)",
       "summary": "CFO Kennedy David Alan vendio DELL por $13.5M el 2026-09-17 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -285,44 +174,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2086800/000208680026000007/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
-      "title": "10% owner compro CRBG ($6.2M)",
-      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.2M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CRBG",
-      "direction": "buy",
-      "amount_estimated": 6150730.63,
-      "event_date": "2026-09-17",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526396726/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "10% owner vendio SION ($21.6M)",
-      "summary": "10% owner RA CAPITAL MANAGEMENT, L.P. vendio SION por $21.6M el 2026-09-17 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "RA CAPITAL MANAGEMENT, L.P.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "SION",
-      "direction": "sell",
-      "amount_estimated": 21582869.52,
-      "event_date": "2026-09-17",
-      "importance_score": 82.3,
-      "cross_source_score": 25.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1315082/000123191926001201/"
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro GRAB ($867K)",
       "summary": "CEO Hungate Alexander Charles compro GRAB por $867K el 2026-09-21.",
       "source": "sec_form_4",
@@ -339,44 +192,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2026373/000202637326000010/"
     },
     {
-      "id": "move_18",
-      "rank": 18,
-      "title": "10% owner compro LEN, LEN.B ($5.4M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN, LEN.B por $5.4M el 2026-09-18.",
+      "id": "move_10",
+      "rank": 10,
+      "title": "10% owner compro GPI ($3.0M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $3.0M el 2026-09-18 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
+      "actor_name": "Conifer Management, L.L.C.",
       "actor_type": "ten_percent_owner",
-      "ticker": "LEN, LEN.B",
+      "ticker": "GPI",
       "direction": "buy",
-      "amount_estimated": 5369468.4,
+      "amount_estimated": 3020619.69,
       "event_date": "2026-09-18",
       "importance_score": 82.0,
-      "cross_source_score": 0.0,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526397059/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/"
     },
     {
-      "id": "move_19",
-      "rank": 19,
-      "title": "CEO opero PHVS ($10.5M)",
-      "summary": "CEO Modig Berndt opero PHVS por $10.5M el 2026-09-17.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Modig Berndt",
-      "actor_type": "ceo",
-      "ticker": "PHVS",
-      "direction": "other",
-      "amount_estimated": 10500000.0,
-      "event_date": "2026-09-17",
-      "importance_score": 82.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1643072/000119312526396565/"
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio GWRE ($10.4M)",
       "summary": "CEO Rosenbaum Michael George vendio GWRE por $10.4M el 2026-09-17.",
       "source": "sec_form_4",
@@ -391,22 +226,193 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1784996/000178499626000095/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "10% owner compro CV ($5.0M)",
+      "summary": "10% owner Shen Ching Hang compro CV por $5.0M el 2026-09-15.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Shen Ching Hang",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CV",
+      "direction": "buy",
+      "amount_estimated": 4999996.46,
+      "event_date": "2026-09-15",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2102304/000210230426000003/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "10% owner compro GPI ($2.7M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $2.7M el 2026-09-18 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 2695247.07,
+      "event_date": "2026-09-18",
+      "importance_score": 81.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
+      "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 40145783473,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
+      "title": "Institutional manager compro ALPHABET INC ($35.5B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 35477573797,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
+      "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 31430193423,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
+      "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 30389405507,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
+      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "LEN, LEN.B",
-        "company": "LENNAR CORP /NEW/",
-        "pressure_score": 1280.2,
+        "ticker": "BBD",
+        "company": "BANK BRADESCO",
+        "pressure_score": 1608.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BBD",
-        "company": "BANK BRADESCO",
-        "pressure_score": 1149.3,
+        "ticker": "GPI",
+        "company": "Group 1 Automotive, Inc.",
+        "pressure_score": 1325.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "WVVI",
+        "company": "WILLAMETTE VALLEY VINEYARDS INC",
+        "pressure_score": 730.8,
         "sources": [
           "corporate_insider"
         ]
@@ -449,6 +455,14 @@
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "BUKS",
+        "company": "BUTLER NATIONAL CORP",
+        "pressure_score": 210.8,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -499,38 +513,13 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "ELWT",
-        "company": "Elauwit Connection, Inc.",
-        "pressure_score": 190.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GRAB",
-        "company": "Grab Holdings Ltd",
-        "pressure_score": 171.7,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "pressure_score": 5708.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 1801.1,
+        "pressure_score": 1652.9,
         "sources": [
           "corporate_insider"
         ]
@@ -539,22 +528,6 @@
         "ticker": "SE",
         "company": "Sea Ltd",
         "pressure_score": 1552.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SNDK",
-        "company": "Sandisk Corp",
-        "pressure_score": 1172.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TWST",
-        "company": "Twist Bioscience Corp",
-        "pressure_score": 1008.1,
         "sources": [
           "corporate_insider"
         ]
@@ -584,17 +557,17 @@
         ]
       },
       {
-        "ticker": "PANW",
-        "company": "Palo Alto Networks Inc",
-        "pressure_score": 774.5,
+        "ticker": "HSY",
+        "company": "HERSHEY CO",
+        "pressure_score": 638.2,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BOLT",
-        "company": "Bolt Biotherapeutics, Inc.",
-        "pressure_score": 578.8,
+        "ticker": "GLBE",
+        "company": "Global-E Online Ltd.",
+        "pressure_score": 510.8,
         "sources": [
           "corporate_insider"
         ]
@@ -632,9 +605,34 @@
         ]
       },
       {
-        "ticker": "PHVS",
-        "company": "Pharvaris N.V.",
-        "pressure_score": 371.6,
+        "ticker": "ORKA",
+        "company": "Oruka Therapeutics, Inc.",
+        "pressure_score": 346.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "KNTK",
+        "company": "Kinetik Holdings Inc.",
+        "pressure_score": 313.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "TTAN",
+        "company": "ServiceTitan, Inc.",
+        "pressure_score": 292.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BLLN",
+        "company": "BillionToOne, Inc.",
+        "pressure_score": 280.0,
         "sources": [
           "corporate_insider"
         ]
@@ -652,31 +650,13 @@
       "score": 89.7
     },
     {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 93075791.31,
-      "date": "2026-09-18",
-      "score": 88.2
-    },
-    {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 37722587.73,
+      "ticker": "GME",
+      "company": "GameStop Corp.",
+      "actor": "Cohen Ryan",
+      "actor_type": "ceo",
+      "amount": 26393722.5,
       "date": "2026-09-21",
-      "score": 87.7
-    },
-    {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 32571123.24,
-      "date": "2026-09-17",
-      "score": 85.9
+      "score": 89.5
     },
     {
       "ticker": "GSAT",
@@ -697,40 +677,13 @@
       "score": 85.3
     },
     {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 12378038.25,
+      "ticker": "CYBN",
+      "company": "CYBIN INC.",
+      "actor": "Halstead Michael",
+      "actor_type": "ceo",
+      "amount": 1347050.0,
       "date": "2026-09-21",
-      "score": 85.3
-    },
-    {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 20981339.85,
-      "date": "2026-09-17",
-      "score": 85.0
-    },
-    {
-      "ticker": "ENHA",
-      "company": "Enhanced Group Inc.",
-      "actor": "Apeiron Investment Group Ltd.",
-      "actor_type": "ten_percent_owner",
-      "amount": 6992054.05,
-      "date": "2026-09-17",
-      "score": 83.8
-    },
-    {
-      "ticker": "CRBG",
-      "company": "Corebridge Financial, Inc.",
-      "actor": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 6150730.63,
-      "date": "2026-09-17",
-      "score": 82.3
+      "score": 83.0
     },
     {
       "ticker": "GRAB",
@@ -742,31 +695,67 @@
       "score": 82.0
     },
     {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
       "actor_type": "ten_percent_owner",
-      "amount": 5369468.4,
+      "amount": 3020619.69,
       "date": "2026-09-18",
       "score": 82.0
     },
     {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
+      "ticker": "CV",
+      "company": "CapsoVision, Inc",
+      "actor": "Shen Ching Hang",
       "actor_type": "ten_percent_owner",
-      "amount": 3975217.16,
+      "amount": 4999996.46,
+      "date": "2026-09-15",
+      "score": 81.8
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 2695247.07,
+      "date": "2026-09-18",
+      "score": 81.8
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 2364612.46,
+      "date": "2026-09-17",
+      "score": 81.5
+    },
+    {
+      "ticker": "BCBP",
+      "company": "BCB BANCORP INC",
+      "actor": "OBrien Thomas M",
+      "actor_type": "ceo",
+      "amount": 1240000.0,
       "date": "2026-09-18",
       "score": 81.3
     },
     {
-      "ticker": "LEN, LEN.B",
-      "company": "LENNAR CORP /NEW/",
-      "actor": "BERKSHIRE HATHAWAY INC",
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
       "actor_type": "ten_percent_owner",
-      "amount": 1390346.52,
-      "date": "2026-09-21",
-      "score": 80.6
+      "amount": 1698906.52,
+      "date": "2026-09-18",
+      "score": 80.8
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1493777.8,
+      "date": "2026-09-17",
+      "score": 80.5
     },
     {
       "ticker": "BBD",
@@ -776,6 +765,15 @@
       "amount": 5557815.78,
       "date": "2026-09-18",
       "score": 80.3
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 1339891.95,
+      "date": "2026-09-18",
+      "score": 80.2
     }
   ],
   "institutional_changes": [
@@ -990,15 +988,6 @@
       "date": "2026-09-15"
     },
     {
-      "filer": "Joint Stock Company Kaspi.kz",
-      "company": "D-MARKET Electronic Services & Trading",
-      "ticker": "HEPS",
-      "ownership_pct": 88.95,
-      "shares": 381294546,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-10"
-    },
-    {
       "filer": "Alternative Liquidity Index LP",
       "company": "GENERAL STEEL HOLDINGS INC",
       "ticker": "",
@@ -1096,26 +1085,25 @@
       "shares": 2817812,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-11"
+    },
+    {
+      "filer": "Ault & Company, Inc.",
+      "company": "Hyperscale Data, Inc.",
+      "ticker": "",
+      "ownership_pct": 63.3,
+      "shares": 317568715,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-15"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 112571.73,
-        "win_rate": 0.9187,
-        "volume": 217579.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 291378.11,
-        "win_rate": 0.8522,
-        "volume": 155641.45,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 117803.05,
+        "win_rate": 0.9437,
+        "volume": 248792.92,
         "categories": [
           "sports"
         ]
@@ -1123,9 +1111,29 @@
       {
         "wallet": "0x3413c803c3",
         "username": "CyberScore.live",
-        "pnl": 51340.66,
-        "win_rate": 0.9652,
-        "volume": 253463.6,
+        "pnl": 75897.93,
+        "win_rate": 0.9654,
+        "volume": 267042.91,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 112921.47,
+        "win_rate": 0.9187,
+        "volume": 255720.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 290895.61,
+        "win_rate": 0.8522,
+        "volume": 157372.17,
         "categories": [
           "sports"
         ]
@@ -1133,9 +1141,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 62347.9,
+        "pnl": 64721.31,
         "win_rate": 0.9412,
-        "volume": 150266.19,
+        "volume": 217291.53,
         "categories": [
           "sports"
         ]
@@ -1152,20 +1160,29 @@
         ]
       },
       {
-        "wallet": "0x9909dfa7a3",
-        "username": "LhordGryffin",
-        "pnl": 27637.04,
-        "win_rate": 0.981,
-        "volume": 54427.73,
+        "wallet": "0xa38a455bbd",
+        "username": "takeormake",
+        "pnl": 318472.06,
+        "win_rate": 0.8,
+        "volume": 63609.52,
         "categories": [
-          "sports",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7a75a4183e",
+        "username": "177-letsgo",
+        "pnl": 145112.27,
+        "win_rate": 0.8478,
+        "volume": 100964.21,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 50667.34,
+        "pnl": 50702.29,
         "win_rate": 0.8846,
         "volume": 46466.52,
         "categories": [
@@ -1175,31 +1192,11 @@
         ]
       },
       {
-        "wallet": "0x7a75a4183e",
-        "username": "177-letsgo",
-        "pnl": 136200.0,
-        "win_rate": 0.8444,
-        "volume": 40000.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb8ef617fd5",
         "username": "no1dodgersfan",
-        "pnl": 70822.88,
-        "win_rate": 0.804,
-        "volume": 144655.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcd84d7f926",
-        "username": "Donkey14",
-        "pnl": 264192.52,
-        "win_rate": 0.7136,
-        "volume": 91582.96,
+        "pnl": 76559.39,
+        "win_rate": 0.8,
+        "volume": 175088.54,
         "categories": [
           "sports"
         ]
@@ -1209,19 +1206,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 178714.35,
-        "win_rate": 0.609,
-        "volume": 5496350.58,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 81484.84,
-        "win_rate": 0.716,
-        "volume": 2148693.91,
+        "pnl": 166315.06,
+        "win_rate": 0.606,
+        "volume": 6995531.31,
         "categories": [
           "sports"
         ]
@@ -1229,9 +1216,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 488146.2,
+        "pnl": 521602.24,
         "win_rate": 0.615,
-        "volume": 1293831.89,
+        "volume": 2296106.8,
         "categories": [
           "sports",
           "crypto",
@@ -1239,25 +1226,33 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 142598.11,
-        "win_rate": 0.542,
-        "volume": 2874644.88,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 86128.41,
+        "win_rate": 0.716,
+        "volume": 2346292.52,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x26b46988d0",
-        "username": "kkookkoo",
-        "pnl": 65079.92,
-        "win_rate": 0.662,
-        "volume": 1137597.27,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 145979.37,
+        "win_rate": 0.531,
+        "volume": 4031974.74,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 77748.07,
+        "win_rate": 0.531,
+        "volume": 1471700.1,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1273,7 +1268,7 @@
       {
         "wallet": "0x9f2fe025f8",
         "username": "surfandturf",
-        "pnl": 135013.47,
+        "pnl": 134611.29,
         "win_rate": 0.5288,
         "volume": 350000.0,
         "categories": [
@@ -1283,11 +1278,22 @@
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 91835.56,
-        "win_rate": 0.532,
-        "volume": 1065510.86,
+        "wallet": "0x4bff30af91",
+        "username": "Sassy-Bucket",
+        "pnl": 41202.81,
+        "win_rate": 0.448,
+        "volume": 301295.2,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xb1ce16068f",
+        "username": "EsportsAI",
+        "pnl": 57039.23,
+        "win_rate": 1.0,
+        "volume": 400845.1,
         "categories": [
           "sports"
         ]
@@ -1295,62 +1301,42 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 145561.27,
-        "win_rate": 0.56,
-        "volume": 684979.63,
+        "pnl": 138722.3,
+        "win_rate": 0.559,
+        "volume": 731241.88,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 123151.81,
-        "win_rate": 0.8896,
-        "volume": 521946.82,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Dow Jones Futures : Falling Oil Prices , Yields Spark Stock Market Rally ; AMD , Intel , Micron , Nvidia , Sandisk Are Key Movers",
-      "url": "https://www.investors.com:443/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-amd-intel-micron-nvidia-sandisk/",
-      "ticker": "SNDK",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-22"
-    },
-    {
-      "title": "Kyndryl ( NYSE : KD ) vs . Cloudflare ( NYSE : NET ) Critical Survey",
-      "url": "https://www.tickerreport.com/banking-finance/13591509/kyndryl-nysekd-vs-cloudflare-nysenet-critical-survey.html",
+      "title": "Microsoft and Coinbase help take down  EvilToken phishing network",
+      "url": "https://fortune.com/2026/09/22/microsoft-coinbase-phishing/",
       "ticker": "NET",
       "themes": [],
       "date": "2026-09-22"
     },
     {
-      "title": "Analyzing Cloudflare ( NYSE : NET ) and Kyndryl ( NYSE : KD ) ",
-      "url": "https://www.dailypolitical.com/2026/09/21/analyzing-cloudflare-nysenet-and-kyndryl-nysekd.html",
+      "title": "Fastly Tumbles 7 % as Investor Day Meets Profit Taking ; Cloudflare and Akamai Edge Higher",
+      "url": "https://www.aol.com/articles/fastly-tumbles-7-investor-day-175731000.html",
       "ticker": "NET",
-      "themes": [],
+      "themes": [
+        "earnings",
+        "ai"
+      ],
       "date": "2026-09-22"
     },
     {
-      "title": "Insider Selling : Sandisk ( NASDAQ : SNDK ) CEO Sells 33 , 841 Shares",
-      "url": "https://www.themarketsdaily.com/2026/09/21/insider-selling-sandisk-nasdaqsndk-ceo-sells-33841-shares.html",
-      "ticker": "SNDK",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-09-22"
+      "title": "Head - To - Head Comparison : Aura Minerals ( AUGO ) & The Competition",
+      "url": "https://www.tickerreport.com/banking-finance/13582165/head-to-head-comparison-aura-minerals-augo-the-competition.html",
+      "ticker": "AUGO",
+      "themes": [],
+      "date": "2026-09-12"
     }
   ],
-  "signals_count": 1411,
+  "signals_count": 1323,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
