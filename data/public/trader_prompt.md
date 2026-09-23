@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-23T11:52:29+00:00 -->
+<!-- trader_prompt.md generado 2026-09-23T17:14:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-23T11:52:29+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
+_Generado 2026-09-23T17:14:06+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,13 +242,13 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.3)
-- Tendencia: `bull` (SPY 773.5 · MA50 758.3 · MA200 712.98 · dist MA200: 8.49%)
-- Credito: `tight` (HY spread 2.66)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.17)
+- Tendencia: `bull` (SPY 766.88 · MA50 758.69 · MA200 713.43 · dist MA200: 7.49%)
+- Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.25)
 - Fed Funds: 3.63%
-- Motivos: tendencia alcista (+); VIX calmado (+); credito tenso/risk-on (+)
+- Motivos: tendencia alcista (+); credito tenso/risk-on (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
@@ -256,28 +256,27 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 773.5 | 1.55% | 1.91% | 1.27% |
-| QQQ | 12.0% | core | 741.47 | 2.88% | 4.66% | 4.04% |
-| TLT | 12.0% | core | 81.8 | 0.68% | 1.08% | 0.08% |
-| GLD | 9.3% | core | 398.38 | -0.7% | 1.41% | -5.9% |
-| IEF | 6.2% | core | 91.15 | 0.39% | 0.24% | -1.45% |
-| BCBP | 5.6% | satellite | 8.7 | -0.23% | 1.64% | -0.68% |
-| MEOH | 4.3% | satellite | 58.7 | -3.72% | -6.13% | -2.05% |
-| MG | 4.3% | satellite | 20.99 | 1.16% | 7.48% | 10.71% |
-| TALO | 3.8% | satellite | 16.42 | -3.47% | -7.02% | -6.01% |
-| FOSL | 3.0% | satellite | 5.86 | 7.13% | 17.91% | 4.46% |
-| OSCR | 3.0% | satellite | 31.29 | -2.61% | -7.45% | -2.34% |
-| NVMI | 2.9% | satellite | 362.81 | 1.88% | 8.41% | -3.76% |
-| TYRA | 2.7% | satellite | 25.65 | -0.31% | 2.31% | -1.54% |
-| JACK | 2.4% | satellite | 13.34 | 2.14% | -9.0% | -22.62% |
-| FLNC | 1.5% | satellite | 7.39 | 0.96% | -21.47% | -34.83% |
+| SPY | 12.0% | core | 766.88 | -0.86% | 1.5% | 0.7% |
+| QQQ | 12.0% | core | 738.58 | -0.39% | 4.94% | 4.68% |
+| TLT | 12.0% | core | 80.43 | -1.67% | -0.35% | -2.21% |
+| GLD | 9.3% | core | 392.3 | -1.53% | -0.47% | -8.06% |
+| BCBP | 6.3% | satellite | 8.7 | 0.0% | 3.08% | 0.23% |
+| IEF | 6.2% | core | 90.07 | -1.18% | -0.82% | -2.81% |
+| MEOH | 4.9% | satellite | 58.79 | 0.15% | -8.55% | -0.19% |
+| MG | 4.8% | satellite | 20.96 | -0.14% | 6.61% | 9.74% |
+| TALO | 4.3% | satellite | 16.38 | -0.24% | -10.64% | -3.25% |
+| OSCR | 3.3% | satellite | 30.71 | -1.85% | -5.33% | -3.46% |
+| TYRA | 3.1% | satellite | 22.93 | -10.6% | -9.83% | -12.11% |
+| JACK | 2.7% | satellite | 13.38 | 0.3% | -1.55% | -24.96% |
+| DELL | 2.4% | satellite | 543.7 | -5.49% | 0.03% | 25.51% |
+| FLNC | 1.7% | satellite | 7.53 | 1.89% | -19.03% | -30.66% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.2%
+- Volatilidad anualizada: 10.8%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -4.8%
-- Beta vs SPY: 0.686 · posiciones efectivas: 14.7 · HHI: 0.0682
+- Max drawdown historico: -4.5%
+- Beta vs SPY: 0.598 · posiciones efectivas: 14.3 · HHI: 0.0699
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -286,11 +285,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **MEOH** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **BCBP** · score agregado 156.9 · 2 señales · fuentes: corporate_insider
 - **FLNC** · score agregado 142.9 · 2 señales · fuentes: corporate_insider
-- **FOSL** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **OSCR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **NVMI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **JACK** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **TALO** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **DELL** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -318,6 +316,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| HOOD | 61 | corporate_insider | Tenev Vladimir | $31,154,170 | - |
 | NVDA | 59 | corporate_insider | STEVENS MARK A | $297,942,896 | - |
 | CRWD | 58 | corporate_insider | Sentonas Michael | $11,317,854 | - |
 | CRWD | 58 | corporate_insider | Kurtz George | $8,711,315 | - |
@@ -325,7 +324,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CRWD | 57 | corporate_insider | Podbere Burt W. | $7,404,837 | - |
 | SNOW | 56 | corporate_insider | Slootman Frank | $26,450,227 | - |
 | BNTX | 56 | corporate_insider | Sahin Ugur | $3,227,720 | - |
-| BEKE | 56 | corporate_insider | Shan Yigang | $18,094,756 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -334,15 +332,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 773.5 (1.55% / 1.91% / 1.27%) [2026-09-21]
-- QQQ: 741.47 (2.88% / 4.66% / 4.04%) [2026-09-21]
-- IWM: 285.58 (0.52% / -0.55% / -4.55%) [2026-09-21]
-- DIA: 519.78 (0.76% / -0.67% / -2.11%) [2026-09-21]
-- TLT: 81.8 (0.68% / 1.08% / 0.08%) [2026-09-21]
-- IEF: 91.15 (0.39% / 0.24% / -1.45%) [2026-09-21]
-- GLD: 398.38 (-0.7% / 1.41% / -5.9%) [2026-09-21]
-- ^VIX: 14.3 (-3.83% / -16.86% / -7.44%) [2026-09-23]
-- BTC-USD: 85613.41 (-0.65% / 5.82% / 5.34%) [2026-09-23]
+- SPY: 766.88 (-0.86% / 1.5% / 0.7%) [2026-09-23]
+- QQQ: 738.58 (-0.39% / 4.94% / 4.68%) [2026-09-23]
+- IWM: 282.06 (-1.23% / -1.08% / -5.09%) [2026-09-23]
+- DIA: 514.22 (-1.07% / -1.12% / -3.42%) [2026-09-23]
+- TLT: 80.43 (-1.67% / -0.35% / -2.21%) [2026-09-23]
+- IEF: 90.07 (-1.18% / -0.82% / -2.81%) [2026-09-23]
+- GLD: 392.3 (-1.53% / -0.47% / -8.06%) [2026-09-23]
+- ^VIX: 15.17 (2.02% / -11.8% / -1.81%) [2026-09-23]
+- BTC-USD: 83803.73 (-2.75% / 3.59% / 3.12%) [2026-09-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,24 +348,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Treasury 10Y yield: 4.96 (delta 1m: 0.27) [2026-09-21]
 - Curva 10Y-2Y: 0.25 (delta 1m: -0.25) [2026-09-22]
 - Fed Funds Rate: 3.63 (delta 1m: -1.01) [2026-08-01]
-- High yield spread (OAS): 2.66 (delta 1m: -0.04) [2026-09-21]
+- High yield spread (OAS): 2.68 (delta 1m: -0.01) [2026-09-22]
 - Tasa de paro: 4.1 (delta 1m: 0.0) [2026-08-01]
 - Breakeven inflacion 10Y: 2.33 (delta 1m: -0.01) [2026-09-22]
 - Dolar broad index: 119.5133 (delta 1m: 1.18) [2026-09-18]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] How to Play CrowdStrike Stock at All - Time Highs (2026-09-23)
 - [SNOW] Insider Selling : Snowflake ( NYSE : SNOW ) EVP Sells 2 , 622 Shares (2026-09-23)
-- [STX] Brokerages Set Seagate Technology Holdings PLC ( NASDAQ : STX ) Price Target at $986 . 00 (2026-09-22)
-- [STX] Innventure ( NASDAQ : INV ) and Seagate Technology ( NASDAQ : STX ) Critical Survey (2026-09-20)
+- [MOBX] Reviewing Mobix Labs ( NASDAQ : MOBX ) and Amtech Systems ( NASDAQ : ASYS ) (2026-09-13)
+- [MOBX] Mobix Labs ( NASDAQ : MOBX ) & Universal Display ( NASDAQ : OLED ) Critical Review (2026-09-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO Tenev Vladimir vendio HOOD por $31.2M el 2026-09-21.
 - CEO Sentonas Michael vendio CRWD por $11.3M el 2026-09-21.
 - CEO Kurtz George vendio CRWD por $8.7M el 2026-09-21.
 - CEO Labe James compro TPVG por $1.5M el 2026-09-18 [senal en multiples fuentes].
@@ -375,15 +373,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $4.6M el 2026-09-18.
 - CEO Sahin Ugur vendio BNTX por $4.6M el 2026-09-22.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $300,932 · win rate 94% · categorias: sports
+- Diabolical-Prize · PnL $434,304 · win rate 93% · categorias: sports, economy
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $304,707 · win rate 94% · categorias: sports
+- lllllllIlll · PnL $120,571 · win rate 94% · categorias: sports
 - 0xb915070c8007b1bdf4b1ef04e56b066a022e8da5 · PnL $53,796 · win rate 97% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $38,445 · win rate 96% · categorias: sports
-- MAGATheeStallion · PnL $20,065 · win rate 100% · categorias: sports
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $39,673 · win rate 95% · categorias: sports
+- CyberScore.live · PnL $41,985 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,7 +388,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 615 registros 30d · ultimo dato 2026-09-23
+- **sec_insiders**: `ok` · 597 registros 30d · ultimo dato 2026-09-23
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -405,8 +402,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BCBP, FLNC, FOSL, GLD, IEF, JACK, MEOH, MG, NVMI, OSCR, QQQ, SPY, TALO, TLT, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
+1. **Universo permitido**: tickers de la cartera candidata (`BCBP, DELL, FLNC, GLD, IEF, JACK, MEOH, MG, OSCR, QQQ, SPY, TALO, TLT, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
