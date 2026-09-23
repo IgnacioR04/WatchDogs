@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-23T20:39:35+00:00",
+  "generated_at": "2026-09-23T23:58:21+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8503,
-  "cash": 0.1497,
+  "total_equity": 0.8499,
+  "cash": 0.1501,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
+    "KBDC": 0.1127,
     "GLD": 0.0933,
-    "MG": 0.064,
-    "OFIX": 0.0636,
     "IEF": 0.0622,
-    "MEOH": 0.0583,
-    "TYRA": 0.0439,
-    "OSCR": 0.0422,
-    "JACK": 0.0396,
-    "FLNC": 0.0232
+    "MG": 0.0524,
+    "MEOH": 0.0481,
+    "OFIX": 0.0416,
+    "ALNT": 0.0344,
+    "TYRA": 0.0337,
+    "SWMR": 0.0115
   },
   "core": {
     "SPY": 0.1934,
@@ -26,23 +26,15 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "MG": 0.0569,
-    "TYRA": 0.039,
-    "MEOH": 0.0518,
-    "FLNC": 0.0206,
-    "OFIX": 0.0565,
-    "OSCR": 0.0375,
-    "JACK": 0.0352
+    "TYRA": 0.03,
+    "MEOH": 0.0428,
+    "MG": 0.0466,
+    "SWMR": 0.0102,
+    "OFIX": 0.037,
+    "KBDC": 0.1002,
+    "ALNT": 0.0306
   },
   "satellite_rationale": [
-    {
-      "ticker": "MG",
-      "score": 210.6,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
     {
       "ticker": "TYRA",
       "score": 210.0,
@@ -60,10 +52,18 @@
       "n_signals": 3
     },
     {
-      "ticker": "FLNC",
-      "score": 142.9,
+      "ticker": "MG",
+      "score": 207.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "SWMR",
+      "score": 140.4,
+      "sources": [
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -76,34 +76,34 @@
       "n_signals": 2
     },
     {
-      "ticker": "OSCR",
-      "score": 71.8,
+      "ticker": "KBDC",
+      "score": 120.7,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "JACK",
-      "score": 70.2,
+      "ticker": "ALNT",
+      "score": 55.0,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1268,
-    "var_95_1d": 0.0117,
-    "cvar_95_1d": 0.016,
-    "max_drawdown": -0.0824,
-    "beta_spy": 0.729,
-    "hhi": 0.0731,
+    "ann_vol": 0.1078,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.0143,
+    "max_drawdown": -0.0456,
+    "beta_spy": 0.608,
+    "hhi": 0.0777,
     "max_position": 0.12,
     "n_positions": 12,
-    "effective_positions": 13.7,
-    "gross_exposure": 0.8503,
-    "days_used": 253
+    "effective_positions": 12.9,
+    "gross_exposure": 0.8499,
+    "days_used": 129
   },
   "risk_gate": {
     "passed": true,
