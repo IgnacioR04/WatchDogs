@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-23T06:13:37.391258+00:00",
+  "generated_at": "2026-09-23T11:51:18.640105+00:00",
   "window": {
     "from": "2026-08-24",
     "to": "2026-09-23",
@@ -18,13 +18,11 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
-      "earnings",
-      "ai",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -45,7 +43,9 @@
       "event_date": "2026-09-21",
       "importance_score": 83.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_36074333766"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1968270/000196827026000015/"
     },
     {
@@ -63,7 +63,9 @@
       "event_date": "2026-09-21",
       "importance_score": 83.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_36074333766"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1778564/000177856426000168/"
     },
     {
@@ -542,6 +544,14 @@
         ]
       },
       {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 739.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ABX",
         "company": "Abacus Global Management, Inc.",
         "pressure_score": 648.6,
@@ -626,14 +636,6 @@
         "ticker": "TEVA",
         "company": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
         "pressure_score": 277.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UPWK",
-        "company": "UPWORK, INC",
-        "pressure_score": 276.8,
         "sources": [
           "corporate_insider"
         ]
@@ -1102,7 +1104,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 273237.06,
+        "pnl": 300932.5,
         "win_rate": 0.9426,
         "volume": 0.0,
         "categories": [
@@ -1120,11 +1122,41 @@
         ]
       },
       {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 38445.1,
+        "win_rate": 0.9626,
+        "volume": 140152.1,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2b344112f6",
+        "username": "MAGATheeStallion",
+        "pnl": 20064.7,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xfb07f48542",
         "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 42249.4,
+        "pnl": 39673.0,
         "win_rate": 0.952,
-        "volume": 2390.88,
+        "volume": 40570.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3413c803c3",
+        "username": "CyberScore.live",
+        "pnl": 22271.74,
+        "win_rate": 0.9657,
+        "volume": 55888.95,
         "categories": [
           "sports"
         ]
@@ -1132,9 +1164,9 @@
       {
         "wallet": "0x9f15613ebf",
         "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 55229.0,
+        "pnl": 55209.69,
         "win_rate": 0.895,
-        "volume": 6175.11,
+        "volume": 13620.56,
         "categories": [
           "sports",
           "economy"
@@ -1143,7 +1175,7 @@
       {
         "wallet": "0xd6966eb1ae",
         "username": "Painfulvoid",
-        "pnl": 41524.12,
+        "pnl": 41527.64,
         "win_rate": 0.9,
         "volume": 176.0,
         "categories": [
@@ -1151,23 +1183,11 @@
         ]
       },
       {
-        "wallet": "0xec981ed70a",
-        "username": "0xheavy888",
-        "pnl": 56709.24,
-        "win_rate": 0.855,
-        "volume": 52848.48,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 502215.53,
-        "win_rate": 0.708,
-        "volume": 590019.83,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 30595.01,
+        "win_rate": 0.9195,
+        "volume": 97330.46,
         "categories": [
           "sports"
         ]
@@ -1175,35 +1195,13 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 1472324.31,
-        "win_rate": 0.636,
-        "volume": 342866.99,
+        "pnl": 1467853.47,
+        "win_rate": 0.638,
+        "volume": 497231.11,
         "categories": [
           "sports",
           "crypto",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0xcd84d7f926",
-        "username": "Donkey14",
-        "pnl": 386085.92,
-        "win_rate": 0.7105,
-        "volume": 58891.44,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x885ffdf360",
-        "username": "forecastication4",
-        "pnl": 23643.32,
-        "win_rate": 0.891,
-        "volume": 234.94,
-        "categories": [
-          "sports",
-          "economy",
-          "crypto"
         ]
       }
     ],
@@ -1211,9 +1209,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 240477.54,
-        "win_rate": 0.588,
-        "volume": 1602135.18,
+        "pnl": 266272.53,
+        "win_rate": 0.577,
+        "volume": 2861197.09,
         "categories": [
           "sports"
         ]
@@ -1221,29 +1219,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 519542.04,
+        "pnl": 558108.65,
         "win_rate": 0.562,
-        "volume": 1380544.27,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 190584.81,
-        "win_rate": 0.4723,
-        "volume": 579437.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 502215.53,
-        "win_rate": 0.708,
-        "volume": 590019.83,
+        "volume": 1447871.17,
         "categories": [
           "sports"
         ]
@@ -1251,21 +1229,31 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 1472324.31,
-        "win_rate": 0.636,
-        "volume": 342866.99,
+        "pnl": 1467853.47,
+        "win_rate": 0.638,
+        "volume": 497231.11,
         "categories": [
           "sports",
           "crypto",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 505176.7,
+        "win_rate": 0.708,
+        "volume": 590019.83,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0x26b46988d0",
         "username": "kkookkoo",
-        "pnl": 69159.0,
-        "win_rate": 0.666,
-        "volume": 598114.17,
+        "pnl": 82716.02,
+        "win_rate": 0.667,
+        "volume": 683335.5,
         "categories": [
           "sports",
           "crypto",
@@ -1273,9 +1261,29 @@
         ]
       },
       {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 142557.89,
+        "win_rate": 0.524,
+        "volume": 755522.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 38012.16,
+        "win_rate": 0.539,
+        "volume": 713079.16,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x4f29e10333",
         "username": "0x4f2",
-        "pnl": 30812.56,
+        "pnl": 26093.69,
         "win_rate": 0.585,
         "volume": 783866.06,
         "categories": [
@@ -1283,33 +1291,21 @@
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 143286.03,
-        "win_rate": 0.525,
-        "volume": 326412.31,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 436103.2,
+        "win_rate": 0.486,
+        "volume": 236083.84,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x67ac9e1ad7",
-        "username": "3648393489047",
-        "pnl": 19810.3,
-        "win_rate": 0.612,
-        "volume": 227843.3,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 292159.93,
-        "win_rate": 0.486,
-        "volume": 146391.35,
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 132464.95,
+        "win_rate": 0.519,
+        "volume": 1095766.4,
         "categories": [
           "sports"
         ]
@@ -1318,59 +1314,39 @@
   },
   "news": [
     {
-      "title": "Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-wall-street-cut-184230060.html",
-      "ticker": "CIEN",
+      "title": "How to Play CrowdStrike Stock at All - Time Highs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/play-crowdstrike-stock-time-highs-205405169.html",
+      "ticker": "CRWD",
       "themes": [
-        "earnings",
-        "ai"
+        "stock"
       ],
       "date": "2026-09-23"
     },
     {
-      "title": "How To Earn $500 A Month From Cracker Barrel Stock Ahead Of Q4 Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-cracker-barrel-180008599.html",
-      "ticker": "CBRL",
+      "title": "Insider Selling : Snowflake ( NYSE : SNOW ) EVP Sells 2 , 622 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/23/insider-selling-snowflake-nysesnow-evp-sells-2622-shares.html",
+      "ticker": "SNOW",
       "themes": [
-        "earnings",
         "stock"
       ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Brokerages Set Seagate Technology Holdings PLC ( NASDAQ : STX ) Price Target at $986 . 00",
+      "url": "https://www.dailypolitical.com/2026/09/21/brokerages-set-seagate-technology-holdings-plc-nasdaqstx-price-target-at-986-00.html",
+      "ticker": "STX",
+      "themes": [],
       "date": "2026-09-22"
     },
     {
-      "title": "Reviewing Ciena ( NYSE : CIEN ) & F5 ( NASDAQ : FFIV ) ",
-      "url": "https://www.themarketsdaily.com/2026/09/21/reviewing-ciena-nysecien-f5-nasdaqffiv.html",
-      "ticker": "CIEN",
+      "title": "Innventure ( NASDAQ : INV ) and Seagate Technology ( NASDAQ : STX ) Critical Survey",
+      "url": "https://www.dailypolitical.com/2026/09/20/innventure-nasdaqinv-and-seagate-technology-nasdaqstx-critical-survey.html",
+      "ticker": "STX",
       "themes": [],
-      "date": "2026-09-21"
-    },
-    {
-      "title": "Reviewing Mobix Labs ( NASDAQ : MOBX ) and Amtech Systems ( NASDAQ : ASYS ) ",
-      "url": "https://www.themarketsdaily.com/2026/09/13/reviewing-mobix-labs-nasdaqmobx-and-amtech-systems-nasdaqasys.html",
-      "ticker": "MOBX",
-      "themes": [],
-      "date": "2026-09-13"
-    },
-    {
-      "title": "Mobix Labs ( NASDAQ : MOBX ) & Universal Display ( NASDAQ : OLED ) Critical Review",
-      "url": "https://www.tickerreport.com/banking-finance/13582166/mobix-labs-nasdaqmobx-universal-display-nasdaqoled-critical-review.html",
-      "ticker": "MOBX",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Sunbelt Rentals Q1 Profit , Revenue Rise ; Raises Outlook ; Stock Up In Pre - market",
-      "url": "https://www.rttnews.com/3689522/sunbelt-rentals-q1-profit-revenue-rise-raises-outlook-stock-up-in-pre-market.aspx",
-      "ticker": "SUNB",
-      "themes": [
-        "earnings",
-        "ai",
-        "stock"
-      ],
-      "date": "2026-09-09"
+      "date": "2026-09-20"
     }
   ],
-  "signals_count": 1368,
+  "signals_count": 1365,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

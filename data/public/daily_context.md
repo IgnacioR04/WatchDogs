@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-23T06:14:54+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
+_Generado 2026-09-23T11:52:29+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.87)
+- Volatilidad: `calm` (VIX 14.3)
 - Tendencia: `bull` (SPY 773.5 · MA50 758.3 · MA200 712.98 · dist MA200: 8.49%)
 - Credito: `tight` (HY spread 2.66)
 - Tipos: `flat` (curva 10y-2y 0.25)
@@ -91,7 +91,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | CRWD | 57 | corporate_insider | Podbere Burt W. | $7,404,837 | - |
 | SNOW | 56 | corporate_insider | Slootman Frank | $26,450,227 | - |
 | BNTX | 56 | corporate_insider | Sahin Ugur | $3,227,720 | - |
-| CRWD | 55 | corporate_insider | Kurtz George | $2,723,536 | - |
+| BEKE | 56 | corporate_insider | Shan Yigang | $18,094,756 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.8 (0.68% / 1.08% / 0.08%) [2026-09-21]
 - IEF: 91.15 (0.39% / 0.24% / -1.45%) [2026-09-21]
 - GLD: 398.38 (-0.7% / 1.41% / -5.9%) [2026-09-21]
-- ^VIX: 14.87 (0.41% / -13.04% / -6.18%) [2026-09-21]
-- BTC-USD: 86604.58 (0.0% / 13.35% / 12.04%) [2026-09-23]
+- ^VIX: 14.3 (-3.83% / -16.86% / -7.44%) [2026-09-23]
+- BTC-USD: 85613.41 (-0.65% / 5.82% / 5.34%) [2026-09-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,16 +123,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (3), ai (2), stock (2)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CIEN] Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook (2026-09-23)
-- [CBRL] How To Earn $500 A Month From Cracker Barrel Stock Ahead Of Q4 Earnings (2026-09-22)
-- [CIEN] Reviewing Ciena ( NYSE : CIEN ) & F5 ( NASDAQ : FFIV ) (2026-09-21)
-- [MOBX] Reviewing Mobix Labs ( NASDAQ : MOBX ) and Amtech Systems ( NASDAQ : ASYS ) (2026-09-13)
-- [MOBX] Mobix Labs ( NASDAQ : MOBX ) & Universal Display ( NASDAQ : OLED ) Critical Review (2026-09-12)
-- [SUNB] Sunbelt Rentals Q1 Profit , Revenue Rise ; Raises Outlook ; Stock Up In Pre - market (2026-09-09)
+- [CRWD] How to Play CrowdStrike Stock at All - Time Highs (2026-09-23)
+- [SNOW] Insider Selling : Snowflake ( NYSE : SNOW ) EVP Sells 2 , 622 Shares (2026-09-23)
+- [STX] Brokerages Set Seagate Technology Holdings PLC ( NASDAQ : STX ) Price Target at $986 . 00 (2026-09-22)
+- [STX] Innventure ( NASDAQ : INV ) and Seagate Technology ( NASDAQ : STX ) Critical Survey (2026-09-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -147,11 +145,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $273,237 · win rate 94% · categorias: sports
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $300,932 · win rate 94% · categorias: sports
 - 0xb915070c8007b1bdf4b1ef04e56b066a022e8da5 · PnL $53,796 · win rate 97% · categorias: sports
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $42,249 · win rate 95% · categorias: sports
-- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $55,229 · win rate 90% · categorias: sports, economy
-- Painfulvoid · PnL $41,524 · win rate 90% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $38,445 · win rate 96% · categorias: sports
+- MAGATheeStallion · PnL $20,065 · win rate 100% · categorias: sports
+- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $39,673 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,8 +157,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 618 registros 30d · ultimo dato 2026-09-22
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-22
+- **sec_insiders**: `ok` · 615 registros 30d · ultimo dato 2026-09-23
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
