@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:22:20.130240+00:00",
+  "generated_at": "2026-09-23T00:50:20.177822+00:00",
   "overall_status": "error",
   "datasets": {
     "congress": {
@@ -15,17 +15,17 @@
     },
     "sec_insiders": {
       "status": "ok",
-      "records_total": 540,
-      "records_30d": 540,
+      "records_total": 605,
+      "records_30d": 605,
       "latest_tx_date": "2026-09-22",
-      "insiders_unique": 355,
+      "insiders_unique": 358,
       "issues": [],
       "blocked_for_signals": false
     },
     "sec_13d_13g": {
       "status": "ok",
       "records_30d": 250,
-      "with_ownership_pct": 159,
+      "with_ownership_pct": 160,
       "latest_filing_date": "2026-09-22",
       "issues": [],
       "blocked_for_signals": false
@@ -45,12 +45,14 @@
       "blocked_for_signals": false
     },
     "polymarket": {
-      "status": "ok",
+      "status": "warning",
       "smart_traders": 47,
       "whales": 50,
-      "volume_zero_count": 12,
-      "avg_win_rate": 0.6438,
-      "issues": [],
+      "volume_zero_count": 97,
+      "avg_win_rate": 0.6447,
+      "issues": [
+        "all_volume_zero"
+      ],
       "blocked_for_signals": false
     }
   }
