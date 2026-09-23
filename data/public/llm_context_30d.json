@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-23T00:50:20.103603+00:00",
+  "generated_at": "2026-09-23T06:13:37.391258+00:00",
   "window": {
     "from": "2026-08-24",
     "to": "2026-09-23",
@@ -18,7 +18,7 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "ok"
+      "polymarket": "warning"
     }
   },
   "market_context": {
@@ -475,14 +475,6 @@
         ]
       },
       {
-        "ticker": "ELWT",
-        "company": "Elauwit Connection, Inc.",
-        "pressure_score": 190.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "BCBP",
         "company": "BCB BANCORP INC",
         "pressure_score": 155.3,
@@ -507,9 +499,17 @@
         ]
       },
       {
-        "ticker": "RTB",
-        "company": "RTB Digital, Inc.",
-        "pressure_score": 146.3,
+        "ticker": "BZUN",
+        "company": "Baozun Inc.",
+        "pressure_score": 146.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TPVG",
+        "company": "TriplePoint Venture Growth BDC Corp.",
+        "pressure_score": 143.4,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -537,6 +537,14 @@
         "ticker": "SNOW",
         "company": "Snowflake Inc.",
         "pressure_score": 1420.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ABX",
+        "company": "Abacus Global Management, Inc.",
+        "pressure_score": 648.6,
         "sources": [
           "corporate_insider"
         ]
@@ -582,6 +590,14 @@
         ]
       },
       {
+        "ticker": "QLYS",
+        "company": "QUALYS, INC.",
+        "pressure_score": 329.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "pressure_score": 307.0,
@@ -618,22 +634,6 @@
         "ticker": "UPWK",
         "company": "UPWORK, INC",
         "pressure_score": 276.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CHPT",
-        "company": "ChargePoint Holdings, Inc.",
-        "pressure_score": 264.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BKSY",
-        "company": "BlackSky Technology Inc.",
-        "pressure_score": 216.4,
         "sources": [
           "corporate_insider"
         ]
@@ -1034,6 +1034,15 @@
       "date": "2026-09-14"
     },
     {
+      "filer": "LiveOne, Inc.",
+      "company": "PodcastOne, Inc.",
+      "ticker": "PODC",
+      "ownership_pct": 68.8,
+      "shares": 20804235,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-22"
+    },
+    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1086,217 +1095,79 @@
       "shares": 4047659,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-15"
-    },
-    {
-      "filer": "CHS US Investments LLC",
-      "company": "Rent the Runway, Inc.",
-      "ticker": "RENT",
-      "ownership_pct": 59.2,
-      "shares": 19983656,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-11"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 127739.16,
-        "win_rate": 0.9307,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 124958.18,
-        "win_rate": 0.9189,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3413c803c3",
-        "username": "CyberScore.live",
-        "pnl": 56638.43,
-        "win_rate": 0.9655,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 291748.84,
-        "win_rate": 0.8522,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 123151.81,
-        "win_rate": 0.8896,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 44886.11,
-        "win_rate": 0.9412,
+        "pnl": 273237.06,
+        "win_rate": 0.9426,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7a75a4183e",
-        "username": "177-letsgo",
-        "pnl": 146451.82,
-        "win_rate": 0.8511,
+        "wallet": "0xb915070c80",
+        "username": "0xb915070c8007b1bdf4b1ef04e56b066a022e8da5",
+        "pnl": 53796.11,
+        "win_rate": 0.9727,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xb4f978be63",
-        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 50702.29,
-        "win_rate": 0.8846,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xa38a455bbd",
-        "username": "takeormake",
-        "pnl": 318652.88,
-        "win_rate": 0.696,
-        "volume": 0.0,
+        "wallet": "0xfb07f48542",
+        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
+        "pnl": 42249.4,
+        "win_rate": 0.952,
+        "volume": 2390.88,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1e7792acc7",
-        "username": "THEdirkdiggler",
-        "pnl": 44859.12,
-        "win_rate": 0.8166,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0xc29cd8f362",
-        "username": "goshkam",
-        "pnl": 940879.92,
-        "win_rate": 1.0,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 291748.84,
-        "win_rate": 0.8522,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6211f97a76",
-        "username": "Tiger200",
-        "pnl": 1243072.97,
-        "win_rate": 0.507,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x67542c3219",
-        "username": "maz26",
-        "pnl": 267213.93,
-        "win_rate": 0.5325,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa5517ed74c",
-        "username": "SlotinCap",
-        "pnl": 139447.52,
-        "win_rate": 0.7222,
-        "volume": 0.0,
+        "wallet": "0x9f15613ebf",
+        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+        "pnl": 55229.0,
+        "win_rate": 0.895,
+        "volume": 6175.11,
         "categories": [
           "sports",
           "economy"
         ]
       },
       {
-        "wallet": "0x7f8e1877a0",
-        "username": "ratatatatatatatataaaa",
-        "pnl": 798370.96,
-        "win_rate": 0.7692,
-        "volume": 0.0,
+        "wallet": "0xd6966eb1ae",
+        "username": "Painfulvoid",
+        "pnl": 41524.12,
+        "win_rate": 0.9,
+        "volume": 176.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9f2fe025f8",
-        "username": "surfandturf",
-        "pnl": 135717.31,
-        "win_rate": 0.5288,
-        "volume": 0.0,
+        "wallet": "0xec981ed70a",
+        "username": "0xheavy888",
+        "pnl": 56709.24,
+        "win_rate": 0.855,
+        "volume": 52848.48,
         "categories": [
           "sports",
-          "economy",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 127739.16,
-        "win_rate": 0.9307,
-        "volume": 0.0,
-        "categories": [
-          "sports",
+          "politics",
           "economy"
         ]
       },
       {
-        "wallet": "0x7a75a4183e",
-        "username": "177-letsgo",
-        "pnl": 146451.82,
-        "win_rate": 0.8511,
-        "volume": 0.0,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 502215.53,
+        "win_rate": 0.708,
+        "volume": 590019.83,
         "categories": [
           "sports"
         ]
@@ -1304,18 +1175,189 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 192803.46,
-        "win_rate": 0.616,
-        "volume": 0.0,
+        "pnl": 1472324.31,
+        "win_rate": 0.636,
+        "volume": 342866.99,
         "categories": [
           "sports",
           "crypto",
           "politics"
         ]
+      },
+      {
+        "wallet": "0xcd84d7f926",
+        "username": "Donkey14",
+        "pnl": 386085.92,
+        "win_rate": 0.7105,
+        "volume": 58891.44,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x885ffdf360",
+        "username": "forecastication4",
+        "pnl": 23643.32,
+        "win_rate": 0.891,
+        "volume": 234.94,
+        "categories": [
+          "sports",
+          "economy",
+          "crypto"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 240477.54,
+        "win_rate": 0.588,
+        "volume": 1602135.18,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 519542.04,
+        "win_rate": 0.562,
+        "volume": 1380544.27,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1610db79f7",
+        "username": "HMLSF",
+        "pnl": 190584.81,
+        "win_rate": 0.4723,
+        "volume": 579437.64,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 502215.53,
+        "win_rate": 0.708,
+        "volume": 590019.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 1472324.31,
+        "win_rate": 0.636,
+        "volume": 342866.99,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x26b46988d0",
+        "username": "kkookkoo",
+        "pnl": 69159.0,
+        "win_rate": 0.666,
+        "volume": 598114.17,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 30812.56,
+        "win_rate": 0.585,
+        "volume": 783866.06,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 143286.03,
+        "win_rate": 0.525,
+        "volume": 326412.31,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x67ac9e1ad7",
+        "username": "3648393489047",
+        "pnl": 19810.3,
+        "win_rate": 0.612,
+        "volume": 227843.3,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 292159.93,
+        "win_rate": 0.486,
+        "volume": 146391.35,
+        "categories": [
+          "sports"
+        ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-wall-street-cut-184230060.html",
+      "ticker": "CIEN",
+      "themes": [
+        "earnings",
+        "ai"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "How To Earn $500 A Month From Cracker Barrel Stock Ahead Of Q4 Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-cracker-barrel-180008599.html",
+      "ticker": "CBRL",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Reviewing Ciena ( NYSE : CIEN ) & F5 ( NASDAQ : FFIV ) ",
+      "url": "https://www.themarketsdaily.com/2026/09/21/reviewing-ciena-nysecien-f5-nasdaqffiv.html",
+      "ticker": "CIEN",
+      "themes": [],
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Reviewing Mobix Labs ( NASDAQ : MOBX ) and Amtech Systems ( NASDAQ : ASYS ) ",
+      "url": "https://www.themarketsdaily.com/2026/09/13/reviewing-mobix-labs-nasdaqmobx-and-amtech-systems-nasdaqasys.html",
+      "ticker": "MOBX",
+      "themes": [],
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Mobix Labs ( NASDAQ : MOBX ) & Universal Display ( NASDAQ : OLED ) Critical Review",
+      "url": "https://www.tickerreport.com/banking-finance/13582166/mobix-labs-nasdaqmobx-universal-display-nasdaqoled-critical-review.html",
+      "ticker": "MOBX",
+      "themes": [],
+      "date": "2026-09-12"
+    },
     {
       "title": "Sunbelt Rentals Q1 Profit , Revenue Rise ; Raises Outlook ; Stock Up In Pre - market",
       "url": "https://www.rttnews.com/3689522/sunbelt-rentals-q1-profit-revenue-rise-raises-outlook-stock-up-in-pre-market.aspx",
@@ -1328,7 +1370,7 @@
       "date": "2026-09-09"
     }
   ],
-  "signals_count": 1355,
+  "signals_count": 1368,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

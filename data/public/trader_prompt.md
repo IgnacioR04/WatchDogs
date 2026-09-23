@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-23T00:51:13+00:00 -->
+<!-- trader_prompt.md generado 2026-09-23T06:14:54+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-23T00:51:13+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
+_Generado 2026-09-23T06:14:54+00:00 · ventana señales 2026-08-24 -> 2026-09-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 95.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.21)
+- Volatilidad: `calm` (VIX 14.87)
 - Tendencia: `bull` (SPY 773.5 · MA50 758.3 · MA200 712.98 · dist MA200: 8.49%)
 - Credito: `tight` (HY spread 2.66)
 - Tipos: `flat` (curva 10y-2y 0.25)
@@ -261,23 +261,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TLT | 12.0% | core | 81.8 | 0.68% | 1.08% | 0.08% |
 | GLD | 9.3% | core | 398.38 | -0.7% | 1.41% | -5.9% |
 | IEF | 6.2% | core | 91.15 | 0.39% | 0.24% | -1.45% |
-| BCBP | 5.7% | satellite | 8.7 | -0.23% | 1.64% | -0.68% |
-| MEOH | 4.4% | satellite | 58.7 | -3.72% | -6.13% | -2.05% |
-| MG | 4.4% | satellite | 20.99 | 1.16% | 7.48% | 10.71% |
-| TALO | 3.9% | satellite | 16.42 | -3.47% | -7.02% | -6.01% |
+| BCBP | 5.6% | satellite | 8.7 | -0.23% | 1.64% | -0.68% |
+| MEOH | 4.3% | satellite | 58.7 | -3.72% | -6.13% | -2.05% |
+| MG | 4.3% | satellite | 20.99 | 1.16% | 7.48% | 10.71% |
+| TALO | 3.8% | satellite | 16.42 | -3.47% | -7.02% | -6.01% |
+| FOSL | 3.0% | satellite | 5.86 | 7.13% | 17.91% | 4.46% |
 | OSCR | 3.0% | satellite | 31.29 | -2.61% | -7.45% | -2.34% |
-| NVMI | 3.0% | satellite | 362.81 | 1.88% | 8.41% | -3.76% |
-| TYRA | 2.8% | satellite | 25.65 | -0.31% | 2.31% | -1.54% |
-| JACK | 2.5% | satellite | 13.34 | 2.14% | -9.0% | -22.62% |
-| DELL | 2.2% | satellite | 575.31 | 1.28% | 7.68% | 30.14% |
+| NVMI | 2.9% | satellite | 362.81 | 1.88% | 8.41% | -3.76% |
+| TYRA | 2.7% | satellite | 25.65 | -0.31% | 2.31% | -1.54% |
+| JACK | 2.4% | satellite | 13.34 | 2.14% | -9.0% | -22.62% |
 | FLNC | 1.5% | satellite | 7.39 | 0.96% | -21.47% | -34.83% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 11.5%
+- Volatilidad anualizada: 11.2%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -5.1%
-- Beta vs SPY: 0.681 · posiciones efectivas: 14.6 · HHI: 0.0684
+- Max drawdown historico: -4.8%
+- Beta vs SPY: 0.686 · posiciones efectivas: 14.7 · HHI: 0.0682
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -286,11 +286,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **MEOH** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **BCBP** · score agregado 156.9 · 2 señales · fuentes: corporate_insider
 - **FLNC** · score agregado 142.9 · 2 señales · fuentes: corporate_insider
+- **FOSL** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **OSCR** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NVMI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **JACK** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **TALO** · score agregado 70.2 · 1 señales · fuentes: large_holder
-- **DELL** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -341,8 +341,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 81.8 (0.68% / 1.08% / 0.08%) [2026-09-21]
 - IEF: 91.15 (0.39% / 0.24% / -1.45%) [2026-09-21]
 - GLD: 398.38 (-0.7% / 1.41% / -5.9%) [2026-09-21]
-- ^VIX: 14.21 (-4.44% / -17.38% / -8.03%) [2026-09-22]
-- BTC-USD: 86476.87 (-0.15% / 13.18% / 11.87%) [2026-09-23]
+- ^VIX: 14.87 (0.41% / -13.04% / -6.18%) [2026-09-21]
+- BTC-USD: 86604.58 (0.0% / 13.35% / 12.04%) [2026-09-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,10 +357,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (1), ai (1), stock (1)
+**Temas dominantes**: earnings (3), ai (2), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CIEN] Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook (2026-09-23)
+- [CBRL] How To Earn $500 A Month From Cracker Barrel Stock Ahead Of Q4 Earnings (2026-09-22)
+- [CIEN] Reviewing Ciena ( NYSE : CIEN ) & F5 ( NASDAQ : FFIV ) (2026-09-21)
+- [MOBX] Reviewing Mobix Labs ( NASDAQ : MOBX ) and Amtech Systems ( NASDAQ : ASYS ) (2026-09-13)
+- [MOBX] Mobix Labs ( NASDAQ : MOBX ) & Universal Display ( NASDAQ : OLED ) Critical Review (2026-09-12)
 - [SUNB] Sunbelt Rentals Q1 Profit , Revenue Rise ; Raises Outlook ; Stock Up In Pre - market (2026-09-09)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -376,11 +381,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $127,739 · win rate 93% · categorias: sports, economy
-- monkeymashingkeyboard · PnL $124,958 · win rate 92% · categorias: sports
-- CyberScore.live · PnL $56,638 · win rate 97% · categorias: sports
-- BreakTheBank · PnL $291,749 · win rate 85% · categorias: sports
-- ethanaz · PnL $123,152 · win rate 89% · categorias: sports, crypto
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $273,237 · win rate 94% · categorias: sports
+- 0xb915070c8007b1bdf4b1ef04e56b066a022e8da5 · PnL $53,796 · win rate 97% · categorias: sports
+- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $42,249 · win rate 95% · categorias: sports
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $55,229 · win rate 90% · categorias: sports, economy
+- Painfulvoid · PnL $41,524 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,11 +393,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 605 registros 30d · ultimo dato 2026-09-22
+- **sec_insiders**: `ok` · 618 registros 30d · ultimo dato 2026-09-22
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -402,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BCBP, DELL, FLNC, GLD, IEF, JACK, MEOH, MG, NVMI, OSCR, QQQ, SPY, TALO, TLT, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BCBP, FLNC, FOSL, GLD, IEF, JACK, MEOH, MG, NVMI, OSCR, QQQ, SPY, TALO, TLT, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
