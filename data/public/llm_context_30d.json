@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-23T23:57:21.326885+00:00",
+  "generated_at": "2026-09-24T05:03:01.093546+00:00",
   "window": {
-    "from": "2026-08-24",
-    "to": "2026-09-23",
+    "from": "2026-08-25",
+    "to": "2026-09-24",
     "days": 30
   },
   "data_quality": {
@@ -23,10 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "regulatory",
       "stock",
-      "earnings"
+      "ai",
+      "earnings",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -196,6 +196,42 @@
     {
       "id": "move_10",
       "rank": 10,
+      "title": "10% owner compro CV ($5.0M)",
+      "summary": "10% owner HARARI ELIYAHOU ET AL compro CV por $5.0M el 2026-09-18.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "HARARI ELIYAHOU ET AL",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CV",
+      "direction": "buy",
+      "amount_estimated": 5000002.15,
+      "event_date": "2026-09-18",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1009165/000100916526000009/"
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
+      "title": "10% owner compro CV ($5.0M)",
+      "summary": "10% owner HARARI ELIYAHOU ET AL compro CV por $5.0M el 2026-09-18.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "HARARI ELIYAHOU ET AL",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CV",
+      "direction": "buy",
+      "amount_estimated": 4999996.46,
+      "event_date": "2026-09-18",
+      "importance_score": 81.8,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1009165/000100916526000009/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio BNTX ($4.6M)",
       "summary": "CEO Sahin Ugur vendio BNTX por $4.6M el 2026-09-22.",
       "source": "sec_form_4",
@@ -212,8 +248,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2123975/000212397526000021/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -230,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -248,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -266,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -284,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -302,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -320,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -338,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -349,42 +385,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 26582780886,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro APPLE INC ($25.1B)",
-      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 25125770065,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 23585331061,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -424,6 +424,14 @@
         "pressure_score": 276.0,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "CV",
+        "company": "CapsoVision, Inc",
+        "pressure_score": 242.4,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -501,14 +509,6 @@
         ]
       },
       {
-        "ticker": "BFRG",
-        "company": "BullFrog AI Holdings, Inc.",
-        "pressure_score": 148.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "INR",
         "company": "INFINITY NATURAL RESOURCES, INC.",
         "pressure_score": 145.6,
@@ -522,14 +522,6 @@
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
         "pressure_score": 3083.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SNOW",
-        "company": "Snowflake Inc.",
-        "pressure_score": 1420.1,
         "sources": [
           "corporate_insider"
         ]
@@ -610,6 +602,14 @@
         "ticker": "OKTA",
         "company": "Okta, Inc.",
         "pressure_score": 394.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "QSI",
+        "company": "Quantum-Si Inc",
+        "pressure_score": 382.4,
         "sources": [
           "corporate_insider"
         ]
@@ -696,6 +696,24 @@
       "score": 81.8
     },
     {
+      "ticker": "CV",
+      "company": "CapsoVision, Inc",
+      "actor": "HARARI ELIYAHOU ET AL",
+      "actor_type": "ten_percent_owner",
+      "amount": 5000002.15,
+      "date": "2026-09-18",
+      "score": 81.8
+    },
+    {
+      "ticker": "CV",
+      "company": "CapsoVision, Inc",
+      "actor": "HARARI ELIYAHOU ET AL",
+      "actor_type": "ten_percent_owner",
+      "amount": 4999996.46,
+      "date": "2026-09-18",
+      "score": 81.8
+    },
+    {
       "ticker": "OFIX",
       "company": "Orthofix Medical Inc.",
       "actor": "Juniper Investment Company, LLC",
@@ -757,24 +775,6 @@
       "amount": 500000.0,
       "date": "2026-09-23",
       "score": 75.8
-    },
-    {
-      "ticker": "GAM",
-      "company": "GENERAL AMERICAN INVESTORS CO INC",
-      "actor": "Grassi Craig Anthony",
-      "actor_type": "ceo",
-      "amount": 46160.0,
-      "date": "2026-09-22",
-      "score": 75.7
-    },
-    {
-      "ticker": "BFRG",
-      "company": "BullFrog AI Holdings, Inc.",
-      "actor": "Singh Vininder",
-      "actor_type": "ceo",
-      "amount": 44917.5,
-      "date": "2026-09-22",
-      "score": 75.6
     }
   ],
   "institutional_changes": [
@@ -1100,83 +1100,65 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x16bb9951a3",
-        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 394915.69,
-        "win_rate": 0.9416,
-        "volume": 457052.68,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 434821.74,
-        "win_rate": 0.9333,
-        "volume": 1204143.28,
+        "wallet": "0x6d557fa6a5",
+        "username": "milkywaybet",
+        "pnl": 72213.59,
+        "win_rate": 0.9745,
+        "volume": 4191.95,
         "categories": [
           "sports",
-          "economy"
+          "politics"
         ]
       },
       {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 140731.94,
-        "win_rate": 0.9448,
-        "volume": 404460.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb915070c80",
-        "username": "0xb915070c8007b1bdf4b1ef04e56b066a022e8da5",
-        "pnl": 53796.11,
-        "win_rate": 0.9727,
+        "wallet": "0x16bb9951a3",
+        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+        "pnl": 103265.85,
+        "win_rate": 0.9423,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xfb07f48542",
-        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 50858.31,
-        "win_rate": 0.95,
-        "volume": 127139.47,
+        "wallet": "0xe015b5a2a2",
+        "username": "TAIWANNUMBERONE",
+        "pnl": 103025.64,
+        "win_rate": 0.935,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 70867.08,
-        "win_rate": 0.894,
-        "volume": 70250.43,
+        "wallet": "0x82398835fe",
+        "username": "Kosherlocks",
+        "pnl": 26821.2,
+        "win_rate": 0.9617,
+        "volume": 0.0,
         "categories": [
           "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xec981ed70a",
+        "username": "0xheavy888",
+        "pnl": 126749.27,
+        "win_rate": 0.856,
+        "volume": 93646.96,
+        "categories": [
+          "sports",
+          "politics",
           "economy"
         ]
       },
       {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 1004958.17,
-        "win_rate": 0.709,
-        "volume": 1803440.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 2217779.15,
-        "win_rate": 0.648,
-        "volume": 2628843.87,
+        "wallet": "0xb4f978be63",
+        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
+        "pnl": 69959.31,
+        "win_rate": 0.8859,
+        "volume": 33873.69,
         "categories": [
           "sports",
           "crypto",
@@ -1184,21 +1166,45 @@
         ]
       },
       {
-        "wallet": "0xd6966eb1ae",
-        "username": "Painfulvoid",
-        "pnl": 42503.15,
-        "win_rate": 0.9,
-        "volume": 6628.91,
+        "wallet": "0xfaf98181c4",
+        "username": "onekey02",
+        "pnl": 19895.91,
+        "win_rate": 0.9619,
+        "volume": 92.65,
+        "categories": [
+          "politics",
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x746e936f43",
+        "username": "tomb2456",
+        "pnl": 15779.0,
+        "win_rate": 0.9583,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 31102.65,
-        "win_rate": 0.9195,
-        "volume": 185779.57,
+        "wallet": "0x40047c2a7f",
+        "username": "0xrc",
+        "pnl": 75259.25,
+        "win_rate": 0.8503,
+        "volume": 14513.43,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x4dd24f21b6",
+        "username": "breezybets",
+        "pnl": 15071.64,
+        "win_rate": 0.9532,
+        "volume": 133.0,
         "categories": [
           "sports"
         ]
@@ -1206,65 +1212,21 @@
     ],
     "whales": [
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 2217779.15,
-        "win_rate": 0.648,
-        "volume": 2628843.87,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 211437.28,
+        "win_rate": 0.705,
+        "volume": 624503.36,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
+          "sports"
         ]
       },
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 450776.52,
-        "win_rate": 0.573,
-        "volume": 5032806.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 108182.08,
-        "win_rate": 0.434,
-        "volume": 1594494.2,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x1610db79f7",
-        "username": "HMLSF",
-        "pnl": 171866.39,
-        "win_rate": 0.4722,
-        "volume": 1971519.56,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 434821.74,
-        "win_rate": 0.9333,
-        "volume": 1204143.28,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 1004958.17,
-        "win_rate": 0.709,
-        "volume": 1803440.56,
+        "pnl": 56733.64,
+        "win_rate": 0.576,
+        "volume": 1117633.06,
         "categories": [
           "sports"
         ]
@@ -1272,19 +1234,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 642011.69,
-        "win_rate": 0.56,
-        "volume": 2244820.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 134893.86,
-        "win_rate": 0.538,
-        "volume": 2510364.88,
+        "pnl": 421139.52,
+        "win_rate": 0.561,
+        "volume": 894514.11,
         "categories": [
           "sports"
         ]
@@ -1292,9 +1244,52 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 136707.07,
-        "win_rate": 0.527,
-        "volume": 1627142.46,
+        "pnl": 21831.89,
+        "win_rate": 0.53,
+        "volume": 393150.7,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 67446.3,
+        "win_rate": 0.588,
+        "volume": 631850.61,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 92449.79,
+        "win_rate": 0.657,
+        "volume": 168453.23,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xb9c7d35d1f",
+        "username": "taylorsversion",
+        "pnl": 77273.07,
+        "win_rate": 0.7778,
+        "volume": 180006.88,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 67366.68,
+        "win_rate": 0.487,
+        "volume": 166943.37,
         "categories": [
           "sports"
         ]
@@ -1302,9 +1297,19 @@
       {
         "wallet": "0xcd84d7f926",
         "username": "Donkey14",
-        "pnl": 311323.45,
-        "win_rate": 0.7082,
-        "volume": 960577.44,
+        "pnl": 381580.96,
+        "win_rate": 0.7085,
+        "volume": 157183.73,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 363362.23,
+        "win_rate": 0.445,
+        "volume": 228820.0,
         "categories": [
           "sports"
         ]
@@ -1313,52 +1318,20 @@
   },
   "news": [
     {
-      "title": "FDA panel endorses Grail first - of - a - kind cancer blood test – NBC 7 San Diego",
-      "url": "https://www.nbcsandiego.com/news/health/fda-grail-multi-cancer-blood-test/4077654/",
-      "ticker": "GRAL",
+      "title": "Retaining talent key to India AI rise : Salesforce Vala Afshar",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/retaining-talent-key-to-indias-ai-rise-salesforces-vala-afshar/articleshow/134442622.cms",
+      "ticker": "CRM",
       "themes": [
-        "ai",
-        "regulatory"
+        "ai"
       ],
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     {
-      "title": "FDA panel endorses Grail first - of - a - kind cancer blood test – NBC4 Washington",
-      "url": "https://www.nbcwashington.com/news/health/fda-grail-multi-cancer-blood-test/4158369/",
-      "ticker": "GRAL",
+      "title": "Insider Selling : Viavi Solutions ( NASDAQ : VIAV ) SVP Sells 35 , 866 Shares",
+      "url": "https://www.themarketsdaily.com/2026/09/23/insider-selling-viavi-solutions-nasdaqviav-svp-sells-35866-shares.html",
+      "ticker": "VIAV",
       "themes": [
-        "ai",
-        "regulatory"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "FDA panel endorses first - of - a - kind cancer blood test from Grail",
-      "url": "https://www.wokv.com/news/health/grails-cancer-blood/LNOCL3VBYQ4KZLGMN6RPDNFZEQ/",
-      "ticker": "GRAL",
-      "themes": [
-        "ai",
-        "regulatory"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "FDA panel endorses Grail first - of - a - kind cancer blood test – NBC Bay Area",
-      "url": "https://www.nbcbayarea.com/news/health/fda-grail-multi-cancer-blood-test/4147525/",
-      "ticker": "GRAL",
-      "themes": [
-        "ai",
-        "regulatory"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "FDA panel endorses Grail first - of - a - kind cancer blood test – NBC Chicago",
-      "url": "https://www.nbcchicago.com/news/health/fda-grail-multi-cancer-blood-test/3992989/",
-      "ticker": "GRAL",
-      "themes": [
-        "ai",
-        "regulatory"
+        "stock"
       ],
       "date": "2026-09-23"
     },
@@ -1382,38 +1355,13 @@
       "date": "2026-09-23"
     },
     {
-      "title": "Kevin Scott Kirby Sells 36 , 400 Shares of Abacus Global Management ( NYSE : ABX ) Stock",
-      "url": "https://www.dailypolitical.com/2026/09/22/kevin-scott-kirby-sells-36400-shares-of-abacus-global-management-nyseabx-stock.html",
-      "ticker": "ABX",
+      "title": "Viavi Solutions ( NASDAQ : VIAV ) EVP Sells $429 , 917 . 04 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/09/11/viavi-solutions-nasdaqviav-evp-sells-429917-04-in-stock.html",
+      "ticker": "VIAV",
       "themes": [
         "stock"
       ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Insider Selling : Snowflake ( NYSE : SNOW ) EVP Sells 2 , 622 Shares",
-      "url": "https://www.themarketsdaily.com/2026/09/23/insider-selling-snowflake-nysesnow-evp-sells-2622-shares.html",
-      "ticker": "SNOW",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Matthew Ganovsky Sells 24 , 000 Shares of Abacus Global Management ( NYSE : ABX ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/23/matthew-ganovsky-sells-24000-shares-of-abacus-global-management-nyseabx-stock.html",
-      "ticker": "ABX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Financial Review : Abacus Global Management ( ABX ) and Its Competitors",
-      "url": "https://www.themarketsdaily.com/2026/09/12/financial-review-abacus-global-management-abx-and-its-competitors.html",
-      "ticker": "ABX",
-      "themes": [],
-      "date": "2026-09-12"
+      "date": "2026-09-11"
     },
     {
       "title": "One Nuclear announces second Louisiana project in eight days",
@@ -1425,7 +1373,7 @@
       "date": "2026-09-10"
     }
   ],
-  "signals_count": 1481,
+  "signals_count": 1464,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

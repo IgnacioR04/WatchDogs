@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-23T23:58:21+00:00",
+  "generated_at": "2026-09-24T05:03:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.85,
+  "cash": 0.15,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "KBDC": 0.1127,
-    "GLD": 0.0933,
+    "GLD": 0.0932,
+    "BPRE": 0.0838,
     "IEF": 0.0622,
-    "MG": 0.0524,
-    "MEOH": 0.0481,
-    "OFIX": 0.0416,
-    "ALNT": 0.0344,
-    "TYRA": 0.0337,
-    "SWMR": 0.0115
+    "MG": 0.0593,
+    "MEOH": 0.0544,
+    "OFIX": 0.0471,
+    "ALNT": 0.039,
+    "TYRA": 0.0381,
+    "SWMR": 0.0129
   },
   "core": {
     "SPY": 0.1934,
@@ -26,13 +26,13 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "TYRA": 0.03,
-    "MEOH": 0.0428,
-    "MG": 0.0466,
-    "SWMR": 0.0102,
-    "OFIX": 0.037,
-    "KBDC": 0.1002,
-    "ALNT": 0.0306
+    "TYRA": 0.0339,
+    "MEOH": 0.0484,
+    "MG": 0.0527,
+    "SWMR": 0.0115,
+    "OFIX": 0.0419,
+    "BPRE": 0.0745,
+    "ALNT": 0.0347
   },
   "satellite_rationale": [
     {
@@ -76,12 +76,12 @@
       "n_signals": 2
     },
     {
-      "ticker": "KBDC",
-      "score": 120.7,
+      "ticker": "BPRE",
+      "score": 57.0,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
       "ticker": "ALNT",
@@ -93,16 +93,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1078,
-    "var_95_1d": 0.0095,
-    "cvar_95_1d": 0.0143,
-    "max_drawdown": -0.0456,
-    "beta_spy": 0.608,
-    "hhi": 0.0777,
+    "ann_vol": 0.1121,
+    "var_95_1d": 0.0109,
+    "cvar_95_1d": 0.0146,
+    "max_drawdown": -0.0584,
+    "beta_spy": 0.612,
+    "hhi": 0.0746,
     "max_position": 0.12,
     "n_positions": 12,
-    "effective_positions": 12.9,
-    "gross_exposure": 0.8499,
+    "effective_positions": 13.4,
+    "gross_exposure": 0.85,
     "days_used": 129
   },
   "risk_gate": {
