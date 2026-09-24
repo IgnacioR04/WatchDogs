@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-24T10:14:19.501537+00:00",
+  "generated_at": "2026-09-24T15:21:42.883944+00:00",
   "window": {
     "from": "2026-08-25",
     "to": "2026-09-24",
@@ -25,8 +25,7 @@
     "top_themes": [
       "stock",
       "earnings",
-      "ai",
-      "regulatory"
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -52,24 +51,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO compro CRAFX ($5.0M)",
-      "summary": "CEO Nesbitt Stephen Lane compro CRAFX por $5.0M el 2026-09-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Nesbitt Stephen Lane",
-      "actor_type": "ceo",
-      "ticker": "CRAFX",
-      "direction": "buy",
-      "amount_estimated": 5000000.0,
-      "event_date": "2026-09-21",
-      "importance_score": 84.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1754658/000121390026102533/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO vendio HOOD ($31.2M)",
       "summary": "CEO Tenev Vladimir vendio HOOD por $31.2M el 2026-09-21.",
       "source": "sec_form_4",
@@ -84,6 +65,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000008/"
+    },
+    {
+      "id": "move_3",
+      "rank": 3,
+      "title": "10% owner vendio MS ($285.0M)",
+      "summary": "10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $285.0M el 2026-09-22.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "MS",
+      "direction": "sell",
+      "amount_estimated": 284950638.48,
+      "event_date": "2026-09-22",
+      "importance_score": 84.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526400093/"
     },
     {
       "id": "move_4",
@@ -395,14 +394,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "AXIA3",
-        "company": "AXIA Energia S.A.",
-        "pressure_score": 416.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ETRA",
         "company": "Electra Therapeutics, Inc.",
         "pressure_score": 332.0,
@@ -430,6 +421,14 @@
         "ticker": "CV",
         "company": "CapsoVision, Inc",
         "pressure_score": 242.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GAM",
+        "company": "GENERAL AMERICAN INVESTORS CO INC",
+        "pressure_score": 222.0,
         "sources": [
           "corporate_insider"
         ]
@@ -535,14 +534,6 @@
         ]
       },
       {
-        "ticker": "ABX",
-        "company": "Abacus Global Management, Inc.",
-        "pressure_score": 864.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "GRAL",
         "company": "GRAIL, Inc.",
         "pressure_score": 806.7,
@@ -578,14 +569,6 @@
         "ticker": "META",
         "company": "Meta Platforms, Inc.",
         "pressure_score": 496.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "VRSN",
-        "company": "VERISIGN INC/CA",
-        "pressure_score": 444.4,
         "sources": [
           "corporate_insider"
         ]
@@ -637,19 +620,26 @@
         "sources": [
           "corporate_insider"
         ]
+      },
+      {
+        "ticker": "CCG",
+        "company": "Cheche Group Inc.",
+        "pressure_score": 341.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DUOL",
+        "company": "Duolingo, Inc.",
+        "pressure_score": 303.7,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "CRAFX",
-      "company": "Cascade Real Assets Fund",
-      "actor": "Nesbitt Stephen Lane",
-      "actor_type": "ceo",
-      "amount": 5000000.0,
-      "date": "2026-09-21",
-      "score": 84.3
-    },
     {
       "ticker": "ETRA",
       "company": "Electra Therapeutics, Inc.",
@@ -732,6 +722,15 @@
       "score": 78.8
     },
     {
+      "ticker": "MXF",
+      "company": "MEXICO FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 598313.28,
+      "date": "2026-09-23",
+      "score": 78.7
+    },
+    {
       "ticker": "RCT",
       "company": "RedCloud Holdings plc",
       "actor": "Floyd Justin Beck Hinton",
@@ -759,6 +758,15 @@
       "score": 77.8
     },
     {
+      "ticker": "UXIN",
+      "company": "Uxin Ltd",
+      "actor": "Li Bin (William)",
+      "actor_type": "director",
+      "amount": 996852.04,
+      "date": "2026-09-23",
+      "score": 77.3
+    },
+    {
       "ticker": "DUOT",
       "company": "DUOS TECHNOLOGIES GROUP, INC.",
       "actor": "Recker Frank Douglas",
@@ -766,15 +774,6 @@
       "amount": 84557.02,
       "date": "2026-09-22",
       "score": 77.0
-    },
-    {
-      "ticker": "INBX",
-      "company": "Inhibrx Biosciences, Inc.",
-      "actor": "Kayyem Jon Faiz",
-      "actor_type": "director",
-      "amount": 500000.0,
-      "date": "2026-09-23",
-      "score": 75.8
     }
   ],
   "institutional_changes": [
@@ -1102,9 +1101,9 @@
       {
         "wallet": "0x6d557fa6a5",
         "username": "milkywaybet",
-        "pnl": 72219.16,
+        "pnl": 72219.17,
         "win_rate": 0.975,
-        "volume": 76920.09,
+        "volume": 86920.09,
         "categories": [
           "sports",
           "politics"
@@ -1113,9 +1112,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 103096.93,
+        "pnl": 107021.88,
         "win_rate": 0.9424,
-        "volume": 0.0,
+        "volume": 91199.57,
         "categories": [
           "sports"
         ]
@@ -1123,17 +1122,38 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 103027.79,
+        "pnl": 103022.38,
         "win_rate": 0.935,
-        "volume": 0.0,
+        "volume": 202.56,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xf3ce7f04dd",
+        "username": "Sisyphus-",
+        "pnl": 41865.48,
+        "win_rate": 0.962,
+        "volume": 138042.68,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 51056.12,
+        "win_rate": 0.9352,
+        "volume": 1592235.07,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 26820.47,
+        "pnl": 26815.74,
         "win_rate": 0.9617,
         "volume": 0.0,
         "categories": [
@@ -1144,9 +1164,9 @@
       {
         "wallet": "0xec981ed70a",
         "username": "0xheavy888",
-        "pnl": 124552.87,
+        "pnl": 116745.59,
         "win_rate": 0.856,
-        "volume": 119740.37,
+        "volume": 210091.73,
         "categories": [
           "sports",
           "politics",
@@ -1154,19 +1174,9 @@
         ]
       },
       {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 24161.78,
-        "win_rate": 0.9628,
-        "volume": 68711.05,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 69950.37,
+        "pnl": 69830.92,
         "win_rate": 0.8824,
         "volume": 33878.87,
         "categories": [
@@ -1176,23 +1186,11 @@
         ]
       },
       {
-        "wallet": "0xfaf98181c4",
-        "username": "onekey02",
-        "pnl": 19438.3,
-        "win_rate": 0.9619,
-        "volume": 3179.5,
-        "categories": [
-          "politics",
-          "crypto",
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x40047c2a7f",
         "username": "0xrc",
-        "pnl": 75127.9,
+        "pnl": 75337.11,
         "win_rate": 0.8503,
-        "volume": 14513.43,
+        "volume": 17783.09,
         "categories": [
           "sports",
           "politics",
@@ -1212,31 +1210,32 @@
     ],
     "whales": [
       {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 51056.12,
+        "win_rate": 0.9352,
+        "volume": 1592235.07,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 35829.59,
+        "win_rate": 0.567,
+        "volume": 3647963.09,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 160382.96,
+        "pnl": 176146.45,
         "win_rate": 0.704,
-        "volume": 822705.34,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 385708.39,
-        "win_rate": 0.556,
-        "volume": 1143225.71,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 51444.97,
-        "win_rate": 0.529,
-        "volume": 698114.04,
+        "volume": 859832.75,
         "categories": [
           "sports"
         ]
@@ -1244,41 +1243,40 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 104653.06,
-        "win_rate": 0.664,
-        "volume": 311786.09,
+        "pnl": 151800.76,
+        "win_rate": 0.667,
+        "volume": 678321.32,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 75826.02,
-        "win_rate": 0.589,
-        "volume": 707914.76,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 427593.01,
+        "win_rate": 0.556,
+        "volume": 1381802.18,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xb9c7d35d1f",
-        "username": "taylorsversion",
-        "pnl": 54143.84,
-        "win_rate": 0.7778,
-        "volume": 212866.7,
+        "wallet": "0x676c1bb692",
+        "username": "gvrgb326552g65",
+        "pnl": 30340.33,
+        "win_rate": 1.0,
+        "volume": 346834.0,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 59653.61,
-        "win_rate": 0.487,
-        "volume": 205204.45,
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 82914.68,
+        "win_rate": 0.533,
+        "volume": 826998.63,
         "categories": [
           "sports"
         ]
@@ -1286,53 +1284,37 @@
       {
         "wallet": "0x821dab0565",
         "username": "Flaznorp",
-        "pnl": 42404.31,
-        "win_rate": 0.514,
-        "volume": 863130.79,
+        "pnl": 28335.42,
+        "win_rate": 0.504,
+        "volume": 1657687.77,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x58b3380f71",
-        "username": "timetowander",
-        "pnl": 16080.34,
-        "win_rate": 0.6265,
-        "volume": 118245.68,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 102478.68,
+        "win_rate": 0.487,
+        "volume": 267610.57,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
+          "sports"
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "nigiri99",
-        "pnl": 343488.34,
-        "win_rate": 0.403,
-        "volume": 334585.28,
+        "wallet": "0x568ab8ba45",
+        "username": "HectorHuang",
+        "pnl": 53139.08,
+        "win_rate": 0.4231,
+        "volume": 275859.79,
         "categories": [
           "sports",
-          "politics"
+          "economy"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "Oracle and Buck Institute for Research on Aging Advance Landmark Federal Aging Research Initiative - Software - Oracle Corporation",
-      "url": "https://www.newswiretoday.com/news/186925/Oracle-and-Buck-Institute-for-Research-on-Aging-Advance-Landmark-Federal-Aging-Research-Initiative/",
-      "ticker": "ORCL",
-      "themes": [],
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Oracle and Buck Institute for Research on Aging Advance Landmark Federal Aging Research Initiative - Software - Oracle Corporation",
-      "url": "https://www.newswiretoday.com/news/186925/",
-      "ticker": "ORCL",
-      "themes": [],
-      "date": "2026-09-24"
-    },
     {
       "title": "Evercore Just Upgraded Ciena Stock . Here Why . ",
       "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-just-upgraded-ciena-stock-201045130.html",
@@ -1351,43 +1333,9 @@
         "ai"
       ],
       "date": "2026-09-23"
-    },
-    {
-      "title": "Kevin Scott Kirby Sells 36 , 400 Shares of Abacus Global Management ( NYSE : ABX ) Stock",
-      "url": "https://www.dailypolitical.com/2026/09/22/kevin-scott-kirby-sells-36400-shares-of-abacus-global-management-nyseabx-stock.html",
-      "ticker": "ABX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Matthew Ganovsky Sells 24 , 000 Shares of Abacus Global Management ( NYSE : ABX ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/23/matthew-ganovsky-sells-24000-shares-of-abacus-global-management-nyseabx-stock.html",
-      "ticker": "ABX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Financial Review : Abacus Global Management ( ABX ) and Its Competitors",
-      "url": "https://www.themarketsdaily.com/2026/09/12/financial-review-abacus-global-management-abx-and-its-competitors.html",
-      "ticker": "ABX",
-      "themes": [],
-      "date": "2026-09-12"
-    },
-    {
-      "title": "One Nuclear announces second Louisiana project in eight days",
-      "url": "https://thehayride.com/2026/09/one-nuclear-announces-second-louisiana-project-in-eight-days/",
-      "ticker": "ONEN",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-09-10"
     }
   ],
-  "signals_count": 1464,
+  "signals_count": 1438,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
