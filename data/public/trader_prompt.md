@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-24T05:03:49+00:00 -->
+<!-- trader_prompt.md generado 2026-09-24T10:15:31+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-24T05:03:49+00:00 · ventana señales 2026-08-25 -> 2026-09-24_
+_Generado 2026-09-24T10:15:31+00:00 · ventana señales 2026-08-25 -> 2026-09-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.18)
+- Volatilidad: `normal` (VIX 16.35)
 - Tendencia: `bull` (SPY 767.81 · MA50 759.17 · MA200 713.92 · dist MA200: 7.55%)
 - Credito: `tight` (HY spread 2.68)
 - Tipos: `flat` (curva 10y-2y 0.26)
@@ -260,10 +260,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | QQQ | 12.0% | core | 741.21 | -0.84% | 5.29% | 4.4% |
 | TLT | 12.0% | core | 80.46 | -1.58% | -0.52% | -3.24% |
 | GLD | 9.3% | core | 392.88 | -1.8% | 0.29% | -8.22% |
-| BPRE | 8.4% | satellite | 12.37 | 3.78% | 5.43% | 3.68% |
+| BPRE | 8.3% | satellite | 12.37 | 3.78% | 5.43% | 3.68% |
 | IEF | 6.2% | core | 90.19 | -1.05% | -0.69% | -2.68% |
-| MG | 5.9% | satellite | 20.94 | -0.24% | 6.51% | 9.63% |
-| MEOH | 5.4% | satellite | 59.15 | 0.77% | -7.99% | 0.42% |
+| MG | 6.0% | satellite | 20.94 | -0.24% | 6.51% | 9.63% |
+| MEOH | 5.5% | satellite | 59.15 | 0.77% | -7.99% | 0.42% |
 | OFIX | 4.7% | satellite | 9.18 | 2.57% | 0.99% | -6.23% |
 | ALNT | 3.9% | satellite | 113.6 | 3.89% | 24.45% | 22.05% |
 | TYRA | 3.8% | satellite | 23.23 | -9.43% | -8.65% | -10.96% |
@@ -274,7 +274,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - Volatilidad anualizada: 11.2%
 - VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.5%
 - Max drawdown historico: -5.8%
-- Beta vs SPY: 0.612 · posiciones efectivas: 13.4 · HHI: 0.0746
+- Beta vs SPY: 0.61 · posiciones efectivas: 13.4 · HHI: 0.0746
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -335,8 +335,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 80.46 (-1.58% / -0.52% / -3.24%) [2026-09-23]
 - IEF: 90.19 (-1.05% / -0.69% / -2.68%) [2026-09-23]
 - GLD: 392.88 (-1.8% / 0.29% / -8.22%) [2026-09-23]
-- ^VIX: 15.18 (2.08% / -11.74% / -1.75%) [2026-09-23]
-- BTC-USD: 84183.12 (-2.31% / 4.06% / 3.58%) [2026-09-24]
+- ^VIX: 16.35 (7.71% / -7.68% / 7.5%) [2026-09-24]
+- BTC-USD: 83198.72 (-1.4% / 2.42% / 4.43%) [2026-09-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -351,15 +351,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), earnings (1), regulatory (1)
+**Temas dominantes**: stock (3), earnings (1), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRM] Retaining talent key to India AI rise : Salesforce Vala Afshar (2026-09-24)
-- [VIAV] Insider Selling : Viavi Solutions ( NASDAQ : VIAV ) SVP Sells 35 , 866 Shares (2026-09-23)
+- [ORCL] Oracle and Buck Institute for Research on Aging Advance Landmark Federal Aging Research Initiative - Software - Oracle Corporation (2026-09-24)
+- [ORCL] Oracle and Buck Institute for Research on Aging Advance Landmark Federal Aging Research Initiative - Software - Oracle Corporation (2026-09-24)
 - [CIEN] Evercore Just Upgraded Ciena Stock . Here Why . (2026-09-23)
 - [CIEN] Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook (2026-09-23)
-- [VIAV] Viavi Solutions ( NASDAQ : VIAV ) EVP Sells $429 , 917 . 04 in Stock (2026-09-11)
+- [ABX] Kevin Scott Kirby Sells 36 , 400 Shares of Abacus Global Management ( NYSE : ABX ) Stock (2026-09-23)
+- [ABX] Matthew Ganovsky Sells 24 , 000 Shares of Abacus Global Management ( NYSE : ABX ) Stock (2026-09-23)
+- [ABX] Financial Review : Abacus Global Management ( ABX ) and Its Competitors (2026-09-12)
 - [ONEN] One Nuclear announces second Louisiana project in eight days (2026-09-10)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -375,11 +377,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- milkywaybet · PnL $72,214 · win rate 97% · categorias: sports, politics
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $103,266 · win rate 94% · categorias: sports
-- TAIWANNUMBERONE · PnL $103,026 · win rate 94% · categorias: sports
-- Kosherlocks · PnL $26,821 · win rate 96% · categorias: sports, crypto
-- 0xheavy888 · PnL $126,749 · win rate 86% · categorias: sports, politics, economy
+- milkywaybet · PnL $72,219 · win rate 98% · categorias: sports, politics
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $103,097 · win rate 94% · categorias: sports
+- TAIWANNUMBERONE · PnL $103,028 · win rate 94% · categorias: sports
+- Kosherlocks · PnL $26,820 · win rate 96% · categorias: sports, crypto
+- 0xheavy888 · PnL $124,553 · win rate 86% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
