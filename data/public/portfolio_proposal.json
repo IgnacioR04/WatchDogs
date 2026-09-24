@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-24T15:22:50+00:00",
+  "generated_at": "2026-09-24T19:26:47+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
-  "total_equity": 0.8499,
-  "cash": 0.1501,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.0933,
-    "BPRE": 0.0696,
+    "KBDC": 0.0733,
     "IEF": 0.0622,
-    "TRMD": 0.0539,
-    "MG": 0.0499,
-    "MEOH": 0.0459,
-    "OFIX": 0.0397,
-    "ALNT": 0.0328,
-    "TYRA": 0.0317,
-    "SWMR": 0.0109
+    "BPRE": 0.0475,
+    "TRMD": 0.0367,
+    "MG": 0.0341,
+    "INR": 0.0334,
+    "MEOH": 0.0313,
+    "OFIX": 0.027,
+    "ALNT": 0.0224,
+    "TYRA": 0.0216,
+    "SWMR": 0.0074
   },
   "core": {
     "SPY": 0.1934,
@@ -27,14 +29,16 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "TYRA": 0.0282,
-    "MEOH": 0.0408,
-    "MG": 0.0444,
-    "SWMR": 0.0097,
-    "TRMD": 0.0479,
-    "OFIX": 0.0353,
-    "BPRE": 0.0619,
-    "ALNT": 0.0292
+    "TYRA": 0.0192,
+    "MEOH": 0.0278,
+    "MG": 0.0303,
+    "SWMR": 0.0066,
+    "TRMD": 0.0326,
+    "OFIX": 0.024,
+    "KBDC": 0.0652,
+    "INR": 0.0297,
+    "BPRE": 0.0422,
+    "ALNT": 0.0199
   },
   "satellite_rationale": [
     {
@@ -86,6 +90,22 @@
       "n_signals": 2
     },
     {
+      "ticker": "KBDC",
+      "score": 120.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "INR",
+      "score": 115.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "BPRE",
       "score": 57.0,
       "sources": [
@@ -103,16 +123,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1075,
-    "var_95_1d": 0.0105,
-    "cvar_95_1d": 0.0141,
-    "max_drawdown": -0.0505,
-    "beta_spy": 0.588,
-    "hhi": 0.0719,
+    "ann_vol": 0.0949,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0128,
+    "max_drawdown": -0.0544,
+    "beta_spy": 0.549,
+    "hhi": 0.0698,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.9,
-    "gross_exposure": 0.8499,
+    "n_positions": 15,
+    "effective_positions": 14.3,
+    "gross_exposure": 0.8502,
     "days_used": 130
   },
   "risk_gate": {

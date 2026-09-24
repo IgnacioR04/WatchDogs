@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-24T15:21:42.883944+00:00",
+  "generated_at": "2026-09-24T19:25:55.853100+00:00",
   "window": {
     "from": "2026-08-25",
     "to": "2026-09-24",
@@ -23,9 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "earnings",
-      "ai"
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -33,24 +31,42 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio MEDP ($30.8M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $30.8M el 2026-09-22.",
+      "title": "CEO compro NYAX ($4.6M)",
+      "summary": "CEO Nechmad Yair compro NYAX por $4.6M el 2026-09-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
+      "actor_name": "Nechmad Yair",
       "actor_type": "ceo",
-      "ticker": "MEDP",
-      "direction": "sell",
-      "amount_estimated": 30788695.98,
-      "event_date": "2026-09-22",
-      "importance_score": 85.8,
-      "cross_source_score": 0.0,
+      "ticker": "NYAX",
+      "direction": "buy",
+      "amount_estimated": 4607722.77,
+      "event_date": "2026-09-24",
+      "importance_score": 86.9,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000016/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000865/"
     },
     {
       "id": "move_2",
       "rank": 2,
+      "title": "CEO compro CRAFX ($5.0M)",
+      "summary": "CEO Nesbitt Stephen Lane compro CRAFX por $5.0M el 2026-09-21.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Nesbitt Stephen Lane",
+      "actor_type": "ceo",
+      "ticker": "CRAFX",
+      "direction": "buy",
+      "amount_estimated": 5000000.0,
+      "event_date": "2026-09-21",
+      "importance_score": 84.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1754658/000121390026102533/"
+    },
+    {
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio HOOD ($31.2M)",
       "summary": "CEO Tenev Vladimir vendio HOOD por $31.2M el 2026-09-21.",
       "source": "sec_form_4",
@@ -67,8 +83,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000008/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner vendio MS ($285.0M)",
       "summary": "10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $285.0M el 2026-09-22.",
       "source": "sec_form_4",
@@ -85,8 +101,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526400093/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro ETRA ($15.0M)",
       "summary": "10% owner GORDON CARL L compro ETRA por $15.0M el 2026-09-21.",
       "source": "sec_form_4",
@@ -103,8 +119,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1282930/000094787126000881/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio CRWD ($11.3M)",
       "summary": "CEO Sentonas Michael vendio CRWD por $11.3M el 2026-09-21.",
       "source": "sec_form_4",
@@ -119,24 +135,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1968270/000196827026000015/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio CRWD ($8.7M)",
-      "summary": "CEO Kurtz George vendio CRWD por $8.7M el 2026-09-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Kurtz George",
-      "actor_type": "ceo",
-      "ticker": "CRWD",
-      "direction": "sell",
-      "amount_estimated": 8711315.32,
-      "event_date": "2026-09-21",
-      "importance_score": 83.1,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1778564/000177856426000168/"
     },
     {
       "id": "move_7",
@@ -159,24 +157,6 @@
     {
       "id": "move_8",
       "rank": 8,
-      "title": "CEO vendio MEDP ($13.6M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $13.6M el 2026-09-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
-      "actor_type": "ceo",
-      "ticker": "MEDP",
-      "direction": "sell",
-      "amount_estimated": 13639455.07,
-      "event_date": "2026-09-21",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000016/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
       "title": "10% owner compro ETRA ($5.0M)",
       "summary": "10% owner GORDON CARL L compro ETRA por $5.0M el 2026-09-21.",
       "source": "sec_form_4",
@@ -193,8 +173,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1282930/000094787126000881/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro CV ($5.0M)",
       "summary": "10% owner HARARI ELIYAHOU ET AL compro CV por $5.0M el 2026-09-18.",
       "source": "sec_form_4",
@@ -211,8 +191,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1009165/000100916526000009/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro CV ($5.0M)",
       "summary": "10% owner HARARI ELIYAHOU ET AL compro CV por $5.0M el 2026-09-18.",
       "source": "sec_form_4",
@@ -229,8 +209,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1009165/000100916526000009/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio BNTX ($4.6M)",
       "summary": "CEO Sahin Ugur vendio BNTX por $4.6M el 2026-09-22.",
       "source": "sec_form_4",
@@ -247,8 +227,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2123975/000212397526000021/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -265,8 +245,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -283,8 +263,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -301,8 +281,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -319,8 +299,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -337,8 +317,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -355,8 +335,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -373,8 +353,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -389,10 +369,45 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro APPLE INC ($25.1B)",
+      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 25125770065,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
+      {
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 437.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "AXIA3",
+        "company": "AXIA Energia S.A.",
+        "pressure_score": 416.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "ETRA",
         "company": "Electra Therapeutics, Inc.",
@@ -452,6 +467,14 @@
         ]
       },
       {
+        "ticker": "TROO",
+        "company": "TROOPS, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "CRTD",
         "company": "Creatd, Inc.",
         "pressure_score": 211.5,
@@ -490,57 +513,9 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "OFIX",
-        "company": "Orthofix Medical Inc.",
-        "pressure_score": 158.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "KBDC",
-        "company": "Kayne Anderson BDC, Inc.",
-        "pressure_score": 152.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "INR",
-        "company": "INFINITY NATURAL RESOURCES, INC.",
-        "pressure_score": 145.6,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
-      {
-        "ticker": "CRWD",
-        "company": "CrowdStrike Holdings, Inc.",
-        "pressure_score": 3083.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 1129.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GRAL",
-        "company": "GRAIL, Inc.",
-        "pressure_score": 806.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
       {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
@@ -569,6 +544,14 @@
         "ticker": "META",
         "company": "Meta Platforms, Inc.",
         "pressure_score": 496.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "VRSN",
+        "company": "VERISIGN INC/CA",
+        "pressure_score": 444.4,
         "sources": [
           "corporate_insider"
         ]
@@ -614,6 +597,14 @@
         ]
       },
       {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 364.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ZIP",
         "company": "ZIPRECRUITER, INC.",
         "pressure_score": 352.9,
@@ -630,9 +621,17 @@
         ]
       },
       {
-        "ticker": "DUOL",
-        "company": "Duolingo, Inc.",
-        "pressure_score": 303.7,
+        "ticker": "SMWB",
+        "company": "SIMILARWEB LTD.",
+        "pressure_score": 299.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FSLY",
+        "company": "Fastly, Inc.",
+        "pressure_score": 275.1,
         "sources": [
           "corporate_insider"
         ]
@@ -640,6 +639,24 @@
     ]
   },
   "insider_buying": [
+    {
+      "ticker": "NYAX",
+      "company": "Nayax Ltd.",
+      "actor": "Nechmad Yair",
+      "actor_type": "ceo",
+      "amount": 4607722.77,
+      "date": "2026-09-24",
+      "score": 86.9
+    },
+    {
+      "ticker": "CRAFX",
+      "company": "Cascade Real Assets Fund",
+      "actor": "Nesbitt Stephen Lane",
+      "actor_type": "ceo",
+      "amount": 5000000.0,
+      "date": "2026-09-21",
+      "score": 84.3
+    },
     {
       "ticker": "ETRA",
       "company": "Electra Therapeutics, Inc.",
@@ -756,24 +773,6 @@
       "amount": 1230995.48,
       "date": "2026-09-23",
       "score": 77.8
-    },
-    {
-      "ticker": "UXIN",
-      "company": "Uxin Ltd",
-      "actor": "Li Bin (William)",
-      "actor_type": "director",
-      "amount": 996852.04,
-      "date": "2026-09-23",
-      "score": 77.3
-    },
-    {
-      "ticker": "DUOT",
-      "company": "DUOS TECHNOLOGIES GROUP, INC.",
-      "actor": "Recker Frank Douglas",
-      "actor_type": "ceo",
-      "amount": 84557.02,
-      "date": "2026-09-22",
-      "score": 77.0
     }
   ],
   "institutional_changes": [
@@ -1099,9 +1098,19 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x16bb9951a3",
+        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+        "pnl": 124627.56,
+        "win_rate": 0.9424,
+        "volume": 286128.9,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x6d557fa6a5",
         "username": "milkywaybet",
-        "pnl": 72219.17,
+        "pnl": 73004.98,
         "win_rate": 0.975,
         "volume": 86920.09,
         "categories": [
@@ -1110,21 +1119,22 @@
         ]
       },
       {
-        "wallet": "0x16bb9951a3",
-        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 107021.88,
-        "win_rate": 0.9424,
-        "volume": 91199.57,
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 104527.94,
+        "win_rate": 0.9358,
+        "volume": 2194869.96,
         "categories": [
-          "sports"
+          "sports",
+          "economy"
         ]
       },
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 103022.38,
+        "pnl": 103022.65,
         "win_rate": 0.935,
-        "volume": 202.56,
+        "volume": 257.5,
         "categories": [
           "sports"
         ]
@@ -1132,28 +1142,27 @@
       {
         "wallet": "0xf3ce7f04dd",
         "username": "Sisyphus-",
-        "pnl": 41865.48,
+        "pnl": 49087.73,
         "win_rate": 0.962,
-        "volume": 138042.68,
+        "volume": 203924.42,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 51056.12,
-        "win_rate": 0.9352,
-        "volume": 1592235.07,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 27956.99,
+        "win_rate": 0.963,
+        "volume": 394246.61,
         "categories": [
-          "sports",
-          "economy"
+          "sports"
         ]
       },
       {
         "wallet": "0x82398835fe",
         "username": "Kosherlocks",
-        "pnl": 26815.74,
+        "pnl": 26826.35,
         "win_rate": 0.9617,
         "volume": 0.0,
         "categories": [
@@ -1164,9 +1173,9 @@
       {
         "wallet": "0xec981ed70a",
         "username": "0xheavy888",
-        "pnl": 116745.59,
+        "pnl": 111675.24,
         "win_rate": 0.856,
-        "volume": 210091.73,
+        "volume": 256213.39,
         "categories": [
           "sports",
           "politics",
@@ -1176,9 +1185,9 @@
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 69830.92,
+        "pnl": 70019.65,
         "win_rate": 0.8824,
-        "volume": 33878.87,
+        "volume": 159132.42,
         "categories": [
           "sports",
           "crypto",
@@ -1188,7 +1197,7 @@
       {
         "wallet": "0x40047c2a7f",
         "username": "0xrc",
-        "pnl": 75337.11,
+        "pnl": 75061.11,
         "win_rate": 0.8503,
         "volume": 17783.09,
         "categories": [
@@ -1196,77 +1205,57 @@
           "politics",
           "economy"
         ]
-      },
-      {
-        "wallet": "0x1e52bbdf38",
-        "username": "dsasdaas",
-        "pnl": 150524.76,
-        "win_rate": 0.7839,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x7c37b52eb2",
         "username": "Diabolical-Prize",
-        "pnl": 51056.12,
-        "win_rate": 0.9352,
-        "volume": 1592235.07,
+        "pnl": 104527.94,
+        "win_rate": 0.9358,
+        "volume": 2194869.96,
         "categories": [
           "sports",
           "economy"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 35829.59,
-        "win_rate": 0.567,
-        "volume": 3647963.09,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x224a89dbe0",
-        "username": "wr0ngw4yb3tt0r",
-        "pnl": 176146.45,
-        "win_rate": 0.704,
-        "volume": 859832.75,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 151800.76,
-        "win_rate": 0.667,
-        "volume": 678321.32,
+        "pnl": 144402.43,
+        "win_rate": 0.67,
+        "volume": 2966083.47,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 427593.01,
-        "win_rate": 0.556,
-        "volume": 1381802.18,
+        "wallet": "0x224a89dbe0",
+        "username": "wr0ngw4yb3tt0r",
+        "pnl": 179154.2,
+        "win_rate": 0.703,
+        "volume": 1496364.89,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x676c1bb692",
-        "username": "gvrgb326552g65",
-        "pnl": 30340.33,
-        "win_rate": 1.0,
-        "volume": 346834.0,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 432363.8,
+        "win_rate": 0.556,
+        "volume": 1929282.64,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 47250.19,
+        "win_rate": 0.684,
+        "volume": 2650608.4,
         "categories": [
           "sports"
         ]
@@ -1274,68 +1263,75 @@
       {
         "wallet": "0x32b484581f",
         "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 82914.68,
-        "win_rate": 0.533,
-        "volume": 826998.63,
+        "pnl": 60331.62,
+        "win_rate": 0.532,
+        "volume": 1120005.11,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 28335.42,
-        "win_rate": 0.504,
-        "volume": 1657687.77,
+        "wallet": "0x676c1bb692",
+        "username": "gvrgb326552g65",
+        "pnl": 64813.6,
+        "win_rate": 0.6,
+        "volume": 428633.59,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 102478.68,
-        "win_rate": 0.487,
-        "volume": 267610.57,
+        "wallet": "0x1610db79f7",
+        "username": "HMLSF",
+        "pnl": 206594.55,
+        "win_rate": 0.4716,
+        "volume": 393968.85,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x568ab8ba45",
-        "username": "HectorHuang",
-        "pnl": 53139.08,
-        "win_rate": 0.4231,
-        "volume": 275859.79,
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 313683.93,
+        "win_rate": 0.387,
+        "volume": 1015665.19,
         "categories": [
           "sports",
-          "economy"
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 160324.03,
+        "win_rate": 0.454,
+        "volume": 1165450.75,
+        "categories": [
+          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Evercore Just Upgraded Ciena Stock . Here Why . ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-just-upgraded-ciena-stock-201045130.html",
-      "ticker": "CIEN",
+      "title": "Salesforce ( NYSE : CRM ) Earns Buy Rating from Jefferies Financial Group",
+      "url": "https://www.dailypolitical.com/2026/09/24/salesforce-nysecrm-earns-buy-rating-from-jefferies-financial-group.html",
+      "ticker": "CRM",
+      "themes": [],
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Satellogic ( NASDAQ : SATL ) Shares Up 8 . 3 % – Here Why",
+      "url": "https://www.themarketsdaily.com/2026/09/21/satellogic-nasdaqsatl-shares-up-8-3-heres-why.html",
+      "ticker": "SATL",
       "themes": [
         "stock"
       ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Ciena ( CIEN ): Wall Street Cut Targets After Earnings , Then Raised Them on 2029 Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-wall-street-cut-184230060.html",
-      "ticker": "CIEN",
-      "themes": [
-        "earnings",
-        "ai"
-      ],
-      "date": "2026-09-23"
+      "date": "2026-09-21"
     }
   ],
-  "signals_count": 1438,
+  "signals_count": 1351,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
