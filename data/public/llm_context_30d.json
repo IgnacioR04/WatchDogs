@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-25T08:04:06.936638+00:00",
+  "generated_at": "2026-09-25T14:02:17.110055+00:00",
   "window": {
     "from": "2026-08-26",
     "to": "2026-09-25",
@@ -23,10 +23,10 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
+      "leadership",
       "ai",
-      "merger",
-      "regulatory",
-      "stock"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -208,7 +208,9 @@
       "event_date": "2026-09-23",
       "importance_score": 82.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_649789147873"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1972963/000119312526401231/"
     },
     {
@@ -503,17 +505,17 @@
         ]
       },
       {
-        "ticker": "OFIX",
-        "company": "Orthofix Medical Inc.",
-        "pressure_score": 158.0,
+        "ticker": "DKS",
+        "company": "DICK'S SPORTING GOODS, INC.",
+        "pressure_score": 153.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "DKS",
-        "company": "DICK'S SPORTING GOODS, INC.",
-        "pressure_score": 153.9,
+        "ticker": "CRBG",
+        "company": "Corebridge Financial, Inc.",
+        "pressure_score": 151.0,
         "sources": [
           "corporate_insider"
         ]
@@ -556,14 +558,6 @@
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 903.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GRAL",
-        "company": "GRAIL, Inc.",
-        "pressure_score": 806.7,
         "sources": [
           "corporate_insider"
         ]
@@ -626,6 +620,14 @@
         ]
       },
       {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 381.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 374.8,
@@ -634,9 +636,9 @@
         ]
       },
       {
-        "ticker": "COIN",
-        "company": "Coinbase Global, Inc.",
-        "pressure_score": 368.5,
+        "ticker": "RVMD",
+        "company": "Revolution Medicines, Inc.",
+        "pressure_score": 342.8,
         "sources": [
           "corporate_insider"
         ]
@@ -672,6 +674,15 @@
       "score": 82.6
     },
     {
+      "ticker": "NCT",
+      "company": "Intercont (Cayman) Ltd",
+      "actor": "Zhu Muchun",
+      "actor_type": "ceo",
+      "amount": 650000.0,
+      "date": "2026-09-25",
+      "score": 81.4
+    },
+    {
       "ticker": "DKS",
       "company": "DICK'S SPORTING GOODS, INC.",
       "actor": "Gupta Navdeep",
@@ -679,15 +690,6 @@
       "amount": 999983.25,
       "date": "2026-09-22",
       "score": 79.6
-    },
-    {
-      "ticker": "OFIX",
-      "company": "Orthofix Medical Inc.",
-      "actor": "Juniper Investment Company, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 1683381.0,
-      "date": "2026-09-21",
-      "score": 79.5
     },
     {
       "ticker": "CV",
@@ -706,15 +708,6 @@
       "amount": 598313.28,
       "date": "2026-09-23",
       "score": 78.7
-    },
-    {
-      "ticker": "OFIX",
-      "company": "Orthofix Medical Inc.",
-      "actor": "Juniper Investment Company, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 1048716.0,
-      "date": "2026-09-18",
-      "score": 78.5
     },
     {
       "ticker": "HHH",
@@ -778,6 +771,15 @@
       "amount": 244906.2,
       "date": "2026-09-23",
       "score": 74.3
+    },
+    {
+      "ticker": "AFCG",
+      "company": "Advanced Flower Capital Inc.",
+      "actor": "TANNENBAUM LEONARD M",
+      "actor_type": "ten_percent_owner",
+      "amount": 80521.28,
+      "date": "2026-09-22",
+      "score": 74.1
     }
   ],
   "institutional_changes": [
@@ -1037,15 +1039,6 @@
       "date": "2026-09-14"
     },
     {
-      "filer": "OSN Streaming Limited",
-      "company": "Anghami Inc",
-      "ticker": "",
-      "ownership_pct": 71.26,
-      "shares": 7417345,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-14"
-    },
-    {
       "filer": "LiveOne, Inc.",
       "company": "PodcastOne, Inc.",
       "ticker": "PODC",
@@ -1098,6 +1091,15 @@
       "shares": 317568715,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-15"
+    },
+    {
+      "filer": "Takeover Time 2026 LLC",
+      "company": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+      "ticker": "CTNT",
+      "ownership_pct": 62.5,
+      "shares": 1846000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-09-21"
     }
   ],
   "polymarket": {
@@ -1105,7 +1107,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 94777.26,
+        "pnl": 140028.63,
         "win_rate": 0.9433,
         "volume": 0.0,
         "categories": [
@@ -1113,11 +1115,41 @@
         ]
       },
       {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 99433.95,
+        "win_rate": 0.9209,
+        "volume": 24239.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 67152.08,
+        "pnl": 74526.59,
         "win_rate": 0.936,
-        "volume": 210387.47,
+        "volume": 248387.99,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3413c803c3",
+        "username": "CyberScore.live",
+        "pnl": 43478.08,
+        "win_rate": 0.9664,
+        "volume": 89012.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xd38b71f3e8",
+        "username": "primm",
+        "pnl": 60193.67,
+        "win_rate": 0.9396,
+        "volume": 232753.56,
         "categories": [
           "sports"
         ]
@@ -1125,8 +1157,8 @@
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 78110.92,
-        "win_rate": 0.885,
+        "pnl": 111489.28,
+        "win_rate": 0.8856,
         "volume": 223565.97,
         "categories": [
           "sports",
@@ -1135,77 +1167,46 @@
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 37059.13,
-        "win_rate": 0.896,
-        "volume": 18780.41,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x1250846658",
-        "username": "Kev69",
-        "pnl": 65050.17,
-        "win_rate": 0.816,
-        "volume": 297244.66,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x7ea571c404",
-        "username": "Cannae",
-        "pnl": 55355.69,
-        "win_rate": 0.819,
-        "volume": 17256.49,
+        "wallet": "0x34142c0027",
+        "username": "ORI-",
+        "pnl": 118033.47,
+        "win_rate": 0.8723,
+        "volume": 678609.24,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 312539.47,
-        "win_rate": 0.696,
-        "volume": 1796780.38,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x2dc13c6bda",
-        "username": "xifutloong3",
-        "pnl": 71951.22,
-        "win_rate": 0.7904,
-        "volume": 121951.22,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xcbc666209b",
-        "username": "raybanman",
-        "pnl": 412401.76,
-        "win_rate": 0.9231,
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 40049.04,
+        "win_rate": 0.9138,
         "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xd106952ebf",
-        "username": "Herdonia",
-        "pnl": 163728.57,
-        "win_rate": 0.686,
-        "volume": 26172.6,
+        "wallet": "0x9f15613ebf",
+        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+        "pnl": 46812.46,
+        "win_rate": 0.894,
+        "volume": 68786.64,
         "categories": [
-          "sports"
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x885ffdf360",
+        "username": "forecastication4",
+        "pnl": 40948.47,
+        "win_rate": 0.895,
+        "volume": 15741.38,
+        "categories": [
+          "sports",
+          "economy",
+          "crypto"
         ]
       }
     ],
@@ -1213,9 +1214,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 312539.47,
-        "win_rate": 0.696,
-        "volume": 1796780.38,
+        "pnl": 539148.04,
+        "win_rate": 0.701,
+        "volume": 2004599.48,
         "categories": [
           "sports",
           "crypto"
@@ -1224,9 +1225,9 @@
       {
         "wallet": "0xfe787d2da7",
         "username": "ferrariChampions2026",
-        "pnl": 157021.75,
-        "win_rate": 0.559,
-        "volume": 2927222.45,
+        "pnl": 322766.66,
+        "win_rate": 0.564,
+        "volume": 3922358.38,
         "categories": [
           "sports"
         ]
@@ -1234,9 +1235,9 @@
       {
         "wallet": "0xbc43c8bfbc",
         "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
-        "pnl": 417744.28,
+        "pnl": 741312.38,
         "win_rate": 0.5756,
-        "volume": 1111909.25,
+        "volume": 1112157.15,
         "categories": [
           "sports"
         ]
@@ -1244,9 +1245,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 285965.77,
-        "win_rate": 0.56,
-        "volume": 1810700.18,
+        "pnl": 479977.28,
+        "win_rate": 0.561,
+        "volume": 1915085.88,
         "categories": [
           "sports"
         ]
@@ -1254,67 +1255,63 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 45137.63,
-        "win_rate": 0.562,
-        "volume": 1103628.94,
+        "pnl": 75113.04,
+        "win_rate": 0.563,
+        "volume": 1652784.5,
         "categories": [
           "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x67542c3219",
-        "username": "maz26",
-        "pnl": 90292.49,
-        "win_rate": 0.533,
-        "volume": 168799.68,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfea31bc088",
-        "username": "ndb1",
-        "pnl": 26259.0,
-        "win_rate": 0.632,
-        "volume": 143697.53,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
         ]
       },
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 104220.03,
-        "win_rate": 0.6228,
-        "volume": 249885.45,
+        "pnl": 151244.53,
+        "win_rate": 0.6241,
+        "volume": 418581.48,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 27667.73,
-        "win_rate": 0.54,
-        "volume": 745361.49,
+        "wallet": "0xf28e42d20e",
+        "username": "ethanaz",
+        "pnl": 38400.28,
+        "win_rate": 0.8901,
+        "volume": 569211.06,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x67ac9e1ad7",
-        "username": "3648393489047",
-        "pnl": 43021.82,
-        "win_rate": 0.619,
-        "volume": 270724.15,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 46722.51,
+        "win_rate": 0.487,
+        "volume": 374483.11,
         "categories": [
-          "sports",
-          "politics",
-          "crypto"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x34142c0027",
+        "username": "ORI-",
+        "pnl": 118033.47,
+        "win_rate": 0.8723,
+        "volume": 678609.24,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x67542c3219",
+        "username": "maz26",
+        "pnl": 437387.94,
+        "win_rate": 0.533,
+        "volume": 168807.68,
+        "categories": [
+          "sports"
         ]
       }
     ]
@@ -1338,69 +1335,45 @@
       "date": "2026-09-25"
     },
     {
-      "title": "Tempus AI ( NASDAQ : TEM ) Trading 6 . 1 % Higher – Time to Buy ? ",
-      "url": "https://www.themarketsdaily.com/2026/09/24/tempus-ai-nasdaqtem-trading-6-1-higher-time-to-buy.html",
-      "ticker": "TEM",
+      "title": "Celestica ( NYSE : CLS ) Shares Climb 3 . 2 % – Should You Buy ? ",
+      "url": "https://www.themarketsdaily.com/2026/09/24/celestica-nysecls-shares-climb-3-2-should-you-buy.html",
+      "ticker": "CLS",
       "themes": [
-        "ai"
-      ],
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Tempus AI Chief Accounting Officer Sells $529 , 650 of Stock",
-      "url": "https://www.fool.com/coverage/filings/2026/09/24/tempus-ai-chief-accounting-officer-sells-usd529-650-of-stock/",
-      "ticker": "TEM",
-      "themes": [
-        "ai",
         "stock"
       ],
       "date": "2026-09-24"
     },
     {
-      "title": "Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test",
-      "url": "https://finance.yahoo.com/healthcare/articles/tempus-ai-tem-75-goldman-204805322.html",
-      "ticker": "TEM",
+      "title": "FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-24-why-united-therapeutics-uthr-shares-are-falling-today",
+      "ticker": "UTHR",
       "themes": [
-        "ai"
+        "stock"
       ],
       "date": "2026-09-24"
     },
     {
-      "title": "The True Origins of China  Social Credit System  Part I – The Greanville Post",
-      "url": "https://www.greanvillepost.com/the-true-origins-of-chinas-social-credit-system-part-i/",
-      "ticker": "TEM",
-      "themes": [],
-      "date": "2026-09-24"
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/12/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-4740785-00-in-stock.html",
+      "ticker": "UTHR",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-09-12"
     },
     {
-      "title": "Zymeworks Completes Acquisition of Theravance Biopharma",
-      "url": "https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/zymeworks-completes-acquisition-of-theravance-biopharma/2431723",
-      "ticker": "TBPH",
+      "title": "Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares",
+      "url": "https://www.dailypolitical.com/2026/09/11/insider-selling-united-therapeutics-nasdaquthr-ceo-sells-9500-shares.html",
+      "ticker": "UTHR",
       "themes": [
-        "merger"
+        "leadership",
+        "stock"
       ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69659877-zymeworks-inc-zymeworks-completes-acquisition-of-theravance-biopharma-399.htm",
-      "ticker": "TBPH",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test",
-      "url": "https://www.insidermonkey.com/news/tempus-ai-tem-has-a-75-goldman-sachs-target-but-its-data-business-faces-a-bigger-test-1841526/",
-      "ticker": "TEM",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-09-22"
+      "date": "2026-09-11"
     }
   ],
-  "signals_count": 1364,
+  "signals_count": 1326,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
