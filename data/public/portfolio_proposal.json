@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-09-25T18:52:00+00:00",
+  "generated_at": "2026-09-25T22:38:11+00:00",
   "profile": "moderado",
   "regime_budget": 0.95,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "total_equity": 0.8502,
+  "cash": 0.1498,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "GLD": 0.0933,
-    "KNTK": 0.0666,
+    "NAD": 0.1066,
+    "GLD": 0.0932,
     "IEF": 0.0622,
-    "CRBG": 0.0589,
-    "HHH": 0.0569,
-    "OPRA": 0.0476,
-    "TRMD": 0.0423,
-    "DKS": 0.0236,
-    "TYRA": 0.0208,
-    "ASPN": 0.0179
+    "IEP": 0.0547,
+    "OPRA": 0.0351,
+    "TRMD": 0.0312,
+    "MGY": 0.031,
+    "DT": 0.0307,
+    "DKS": 0.0174,
+    "TYRA": 0.0154,
+    "DFDV": 0.0127
   },
   "core": {
     "SPY": 0.1934,
@@ -27,23 +28,24 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "TRMD": 0.0376,
-    "TYRA": 0.0185,
-    "DKS": 0.021,
-    "HHH": 0.0506,
-    "ASPN": 0.0159,
-    "OPRA": 0.0423,
-    "KNTK": 0.0592,
-    "CRBG": 0.0524
+    "TRMD": 0.0277,
+    "TYRA": 0.0137,
+    "DKS": 0.0155,
+    "DT": 0.0273,
+    "MGY": 0.0276,
+    "IEP": 0.0486,
+    "NAD": 0.0948,
+    "OPRA": 0.0312,
+    "DFDV": 0.0113
   },
   "satellite_rationale": [
     {
       "ticker": "TRMD",
-      "score": 212.2,
+      "score": 284.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 3
+      "n_signals": 4
     },
     {
       "ticker": "TYRA",
@@ -62,16 +64,32 @@
       "n_signals": 2
     },
     {
-      "ticker": "HHH",
-      "score": 150.6,
+      "ticker": "DT",
+      "score": 141.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "ASPN",
+      "ticker": "MGY",
       "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "IEP",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "NAD",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -86,16 +104,8 @@
       "n_signals": 1
     },
     {
-      "ticker": "KNTK",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CRBG",
-      "score": 68.5,
+      "ticker": "DFDV",
+      "score": 58.1,
       "sources": [
         "corporate_insider"
       ],
@@ -103,16 +113,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.087,
-    "var_95_1d": 0.0082,
-    "cvar_95_1d": 0.0099,
-    "max_drawdown": -0.0274,
-    "beta_spy": 0.633,
-    "hhi": 0.0723,
+    "ann_vol": 0.0825,
+    "var_95_1d": 0.0077,
+    "cvar_95_1d": 0.0094,
+    "max_drawdown": -0.0263,
+    "beta_spy": 0.636,
+    "hhi": 0.0749,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 13.8,
-    "gross_exposure": 0.8501,
+    "n_positions": 14,
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8502,
     "days_used": 59
   },
   "risk_gate": {
