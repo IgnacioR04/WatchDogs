@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-24T22:38:14+00:00 -->
+<!-- trader_prompt.md generado 2026-09-25T01:46:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-24T22:38:14+00:00 · ventana señales 2026-08-25 -> 2026-09-24_
+_Generado 2026-09-25T01:46:15+00:00 · ventana señales 2026-08-26 -> 2026-09-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -263,24 +263,24 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | GLD | 9.3% | core | 391.69 | -0.3% | -1.67% | -7.03% |
 | TRMD | 6.3% | satellite | 34.3 | -0.35% | -6.28% | 17.03% |
 | IEF | 6.2% | core | 89.69 | -0.55% | -1.15% | -3.74% |
-| MEOH | 6.1% | satellite | 59.77 | 1.05% | -2.83% | 5.01% |
+| MEOH | 6.0% | satellite | 59.77 | 1.05% | -2.83% | 5.01% |
 | MG | 5.5% | satellite | 21.38 | 2.1% | 10.43% | 12.59% |
 | TYRA | 3.2% | satellite | 22.41 | -3.53% | -7.97% | -16.04% |
 | SEZL | 2.8% | satellite | 109.78 | 2.7% | -6.43% | -11.52% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.2%
+- Volatilidad anualizada: 9.3%
 - VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
 - Max drawdown historico: -2.5%
-- Beta vs SPY: 0.384 · posiciones efectivas: 12.9 · HHI: 0.0775
+- Beta vs SPY: 0.383 · posiciones efectivas: 12.9 · HHI: 0.0775
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **TRMD** · score agregado 212.2 · 3 señales · fuentes: large_holder
 - **TYRA** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **MEOH** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **MG** · score agregado 207.0 · 3 señales · fuentes: large_holder
-- **TRMD** · score agregado 140.4 · 2 señales · fuentes: large_holder
 - **KNTK** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **SEZL** · score agregado 67.2 · 1 señales · fuentes: large_holder
 
@@ -292,32 +292,32 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | NYAX | 85 | corporate_insider | Nechmad Yair | 2 | $4,607,723 | cluster_buy |
 | DKS | 80 | corporate_insider | Gupta Navdeep | 2 | $999,983 | cluster_buy |
+| HHH | 78 | corporate_insider | GRANDISSON MARC | 2 | $1,602,938 | cluster_buy |
 | DKS | 74 | corporate_insider | Fitzgerald Larry Jr. | 2 | $244,906 | cluster_buy |
 | GAM | 73 | corporate_insider | Stark Eugene S | 2 | $113,750 | cluster_buy |
 | GAM | 73 | corporate_insider | DAVIDSON SPENCER | 2 | $227,500 | cluster_buy |
+| HHH | 72 | corporate_insider | Davis Andrew D. | 2 | $64,490 | cluster_buy |
+| ASPN | 72 | large_holder | Wood River Capital, LLC |  | - | - |
+| TRMD | 72 | large_holder | OCM NJORD HOLDINGS S.A R. |  | - | - |
 | YI | 72 | large_holder | Gang Yu |  | - | - |
 | NYAX | 72 | large_holder | MEITAV INVESTMENT HOUSE L |  | - | - |
 | NYAX | 72 | corporate_insider | Ben-Avi David | 2 | $67,105 | cluster_buy |
 | VMD | 70 | large_holder | Michael Moore |  | - | - |
 | TROO | 70 | large_holder | WANG & LEE Holdings, Inc. |  | - | - |
 | TROO | 70 | large_holder | Lianteng Limited |  | - | - |
-| MGM | 70 | large_holder | PEOPLE INCORPORATED |  | - | - |
-| PRFX | 70 | large_holder | S.H.N. Financial Investme |  | - | - |
-| XNDU | 70 | large_holder | Dipender Saluja |  | - | - |
-| IPST | 70 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MEDP | 61 | corporate_insider | Troendle August J. | $30,788,696 | - |
 | HOOD | 61 | corporate_insider | Tenev Vladimir | $31,154,170 | - |
 | HOOD | 61 | corporate_insider | Tenev Vladimir | $30,020,114 | - |
 | SPCX | 60 | corporate_insider | Shotwell Gwynne | $23,376,095 | - |
 | SPCX | 60 | corporate_insider | Shotwell Gwynne | $22,348,568 | - |
-| MEDP | 59 | corporate_insider | Troendle August J. | $13,639,455 | - |
 | MS | 58 | corporate_insider | MITSUBISHI UFJ FINANCIAL  | $284,950,638 | - |
+| CRWV | 58 | corporate_insider | Intrator Michael N | $7,546,891 | - |
 | CLS | 58 | corporate_insider | Cooper Todd C | $7,242,480 | - |
+| TEM | 57 | corporate_insider | LEFKOFSKY ERIC P | $6,125,928 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -334,7 +334,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.69 (-0.55% / -1.15% / -3.74%) [2026-09-24]
 - GLD: 391.69 (-0.3% / -1.67% / -7.03%) [2026-09-24]
 - ^VIX: 15.67 (3.23% / -11.52% / 3.02%) [2026-09-24]
-- BTC-USD: 84120.73 (-0.31% / 3.55% / 5.58%) [2026-09-24]
+- BTC-USD: 84476.57 (0.11% / 3.99% / 6.03%) [2026-09-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,39 +349,39 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), leadership (2)
+**Temas dominantes**: ai (5), stock (5), merger (2), leadership (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CLS] Celestica ( NYSE : CLS ) Shares Climb 3 . 2 % – Should You Buy ? (2026-09-24)
+- [CRWD] Could CrowdStrike ( CRWD ) Snowflake ( SNOW ) Partnership Unlock a New AI Growth Engine ? (2026-09-24)
 - [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
 - [TEM] Tempus AI ( NASDAQ : TEM ) Trading 6 . 1 % Higher – Time to Buy ? (2026-09-24)
 - [TEM] Tempus AI Chief Accounting Officer Sells $529 , 650 of Stock (2026-09-24)
 - [TEM] Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test (2026-09-24)
 - [TEM] The True Origins of China  Social Credit System  Part I – The Greanville Post (2026-09-24)
+- [TBPH] Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
+- [TBPH] Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
 - [TEM] Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test (2026-09-22)
 - [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells 9 , 500 Shares (2026-09-11)
-- [UTHR] United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? (2026-09-11)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO Nechmad Yair compro NYAX por $4.6M el 2026-09-24 [senal en multiples fuentes].
-- CEO Troendle August J. vendio MEDP por $30.8M el 2026-09-22.
 - CEO Tenev Vladimir vendio HOOD por $31.2M el 2026-09-21.
 - 10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $285.0M el 2026-09-22.
 - CEO Tenev Vladimir vendio HOOD por $30.0M el 2026-09-22.
 - CEO Shotwell Gwynne vendio SPCX por $23.4M el 2026-09-22.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $10.2M el 2026-09-22.
+- 10% owner Blackstone Holdings IV L.P. compro Blackstone Private Real Estate Credit & Income Fund por $5.0M el 2026-09-23.
 - 10% owner Durable Capital Partners LP compro GSHD por $7.1M el 2026-09-22.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $126,023 · win rate 94% · categorias: sports
-- milkywaybet · PnL $73,274 · win rate 98% · categorias: sports, politics
-- Diabolical-Prize · PnL $128,366 · win rate 94% · categorias: sports, economy
-- TAIWANNUMBERONE · PnL $103,023 · win rate 94% · categorias: sports
-- 0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105 · PnL $30,729 · win rate 100% · categorias: sports
+- ilushin · PnL $29,188 · win rate 100% · categorias: sports
+- owlgorithm-beta · PnL $9,570 · win rate 99% · categorias: sports
+- LewLewZZ · PnL $5,000 · win rate 100% · categorias: sports
+- MeowKitton · PnL $5,000 · win rate 99% · categorias: sports
+- QuentinChen · PnL $5,906 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -389,7 +389,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 593 registros 30d · ultimo dato 2026-09-24
+- **sec_insiders**: `ok` · 614 registros 30d · ultimo dato 2026-09-24
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-24
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

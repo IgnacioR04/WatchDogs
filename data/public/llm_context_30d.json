@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-24T22:37:24.969665+00:00",
+  "generated_at": "2026-09-25T01:45:10.305627+00:00",
   "window": {
-    "from": "2026-08-25",
-    "to": "2026-09-24",
+    "from": "2026-08-26",
+    "to": "2026-09-25",
     "days": 30
   },
   "data_quality": {
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "ai",
+      "stock",
+      "merger",
       "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -51,24 +52,6 @@
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio MEDP ($30.8M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $30.8M el 2026-09-22.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
-      "actor_type": "ceo",
-      "ticker": "MEDP",
-      "direction": "sell",
-      "amount_estimated": 30788695.98,
-      "event_date": "2026-09-22",
-      "importance_score": 85.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000016/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO vendio HOOD ($31.2M)",
       "summary": "CEO Tenev Vladimir vendio HOOD por $31.2M el 2026-09-21.",
       "source": "sec_form_4",
@@ -85,8 +68,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000008/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner vendio MS ($285.0M)",
       "summary": "10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $285.0M el 2026-09-22.",
       "source": "sec_form_4",
@@ -103,8 +86,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526400093/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "CEO vendio HOOD ($30.0M)",
       "summary": "CEO Tenev Vladimir vendio HOOD por $30.0M el 2026-09-22.",
       "source": "sec_form_4",
@@ -121,8 +104,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000010/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO vendio SPCX ($23.4M)",
       "summary": "CEO Shotwell Gwynne vendio SPCX por $23.4M el 2026-09-22.",
       "source": "sec_form_4",
@@ -139,8 +122,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1768956/000162828026063378/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio SPCX ($22.3M)",
       "summary": "CEO Shotwell Gwynne vendio SPCX por $22.3M el 2026-09-22.",
       "source": "sec_form_4",
@@ -157,8 +140,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1768956/000162828026063378/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro CRBG ($10.2M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $10.2M el 2026-09-22.",
       "source": "sec_form_4",
@@ -173,6 +156,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526401049/"
+    },
+    {
+      "id": "move_8",
+      "rank": 8,
+      "title": "10% owner compro Blackstone Private Real Estate Credit & Income Fund ($5.0M)",
+      "summary": "10% owner Blackstone Holdings IV L.P. compro Blackstone Private Real Estate Credit & Income Fund por $5.0M el 2026-09-23.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Blackstone Holdings IV L.P.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 5000000.0,
+      "event_date": "2026-09-23",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1070844/000121390026103146/"
     },
     {
       "id": "move_9",
@@ -207,28 +208,26 @@
       "event_date": "2026-09-23",
       "importance_score": 82.6,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_102224760122"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1972963/000119312526401231/"
     },
     {
       "id": "move_11",
       "rank": 11,
-      "title": "CEO vendio MEDP ($13.6M)",
-      "summary": "CEO Troendle August J. vendio MEDP por $13.6M el 2026-09-21.",
+      "title": "Insider vendio ASPN ($58.1M)",
+      "summary": "Insider Wood River Capital, LLC vendio ASPN por $58.1M el 2026-09-23 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Troendle August J.",
-      "actor_type": "ceo",
-      "ticker": "MEDP",
+      "actor_name": "Wood River Capital, LLC",
+      "actor_type": "insider",
+      "ticker": "ASPN",
       "direction": "sell",
-      "amount_estimated": 13639455.07,
-      "event_date": "2026-09-21",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
+      "amount_estimated": 58086414.98,
+      "event_date": "2026-09-23",
+      "importance_score": 82.2,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1622058/000162205826000016/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1888978/000119312526401380/"
     },
     {
       "id": "move_12",
@@ -447,6 +446,15 @@
         ]
       },
       {
+        "ticker": "TRMD",
+        "company": "TORM plc",
+        "pressure_score": 212.2,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "TROO",
         "company": "TROOPS, Inc.",
         "pressure_score": 211.5,
@@ -509,17 +517,25 @@
         "sources": [
           "corporate_insider"
         ]
-      },
-      {
-        "ticker": "CRBG",
-        "company": "Corebridge Financial, Inc.",
-        "pressure_score": 151.0,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "TBPH",
+        "company": "Theravance Biopharma, Inc.",
+        "pressure_score": 1749.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1334.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "TEM",
         "company": "Tempus AI, Inc.",
@@ -529,9 +545,9 @@
         ]
       },
       {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 1129.5,
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 1151.3,
         "sources": [
           "corporate_insider"
         ]
@@ -586,9 +602,9 @@
         ]
       },
       {
-        "ticker": "ASAN",
-        "company": "Asana, Inc.",
-        "pressure_score": 432.4,
+        "ticker": "WDAY",
+        "company": "Workday, Inc.",
+        "pressure_score": 457.5,
         "sources": [
           "corporate_insider"
         ]
@@ -597,6 +613,14 @@
         "ticker": "SPCX",
         "company": "SPACE EXPLORATION TECHNOLOGIES CORP",
         "pressure_score": 402.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SSL",
+        "company": "SASOL LTD",
+        "pressure_score": 386.0,
         "sources": [
           "corporate_insider"
         ]
@@ -613,30 +637,6 @@
         "ticker": "COIN",
         "company": "Coinbase Global, Inc.",
         "pressure_score": 368.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RVMD",
-        "company": "Revolution Medicines, Inc.",
-        "pressure_score": 342.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CCG",
-        "company": "Cheche Group Inc.",
-        "pressure_score": 341.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "TTGT",
-        "company": "TechTarget, Inc.",
-        "pressure_score": 338.4,
         "sources": [
           "corporate_insider"
         ]
@@ -708,15 +708,6 @@
       "score": 78.7
     },
     {
-      "ticker": "RCT",
-      "company": "RedCloud Holdings plc",
-      "actor": "Floyd Justin Beck Hinton",
-      "actor_type": "ceo",
-      "amount": 185000.0,
-      "date": "2026-09-22",
-      "score": 78.7
-    },
-    {
       "ticker": "OFIX",
       "company": "Orthofix Medical Inc.",
       "actor": "Juniper Investment Company, LLC",
@@ -724,6 +715,15 @@
       "amount": 1048716.0,
       "date": "2026-09-18",
       "score": 78.5
+    },
+    {
+      "ticker": "HHH",
+      "company": "Howard Hughes Holdings Inc.",
+      "actor": "GRANDISSON MARC",
+      "actor_type": "director",
+      "amount": 1602937.5,
+      "date": "2026-09-23",
+      "score": 78.4
     },
     {
       "ticker": "UXIN",
@@ -735,13 +735,13 @@
       "score": 77.3
     },
     {
-      "ticker": "DUOT",
-      "company": "DUOS TECHNOLOGIES GROUP, INC.",
-      "actor": "Recker Frank Douglas",
+      "ticker": "PWRL",
+      "company": "Powerlaw Corp.",
+      "actor": "Dinsdale Mike John",
       "actor_type": "ceo",
-      "amount": 84557.02,
-      "date": "2026-09-22",
-      "score": 77.0
+      "amount": 99999.09,
+      "date": "2026-09-23",
+      "score": 77.3
     },
     {
       "ticker": "OXM",
@@ -762,15 +762,6 @@
       "score": 75.7
     },
     {
-      "ticker": "GOAI",
-      "company": "Eva Live Inc",
-      "actor": "Boulette David",
-      "actor_type": "ceo",
-      "amount": 37510.34,
-      "date": "2026-09-22",
-      "score": 75.2
-    },
-    {
       "ticker": "RTB",
       "company": "RTB Digital, Inc.",
       "actor": "Dorsett Jason Christopher",
@@ -778,6 +769,15 @@
       "amount": 91520.0,
       "date": "2026-09-21",
       "score": 74.4
+    },
+    {
+      "ticker": "DKS",
+      "company": "DICK'S SPORTING GOODS, INC.",
+      "actor": "Fitzgerald Larry Jr.",
+      "actor_type": "director",
+      "amount": 244906.2,
+      "date": "2026-09-23",
+      "score": 74.3
     }
   ],
   "institutional_changes": [
@@ -1103,103 +1103,106 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0x16bb9951a3",
-        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 126023.32,
-        "win_rate": 0.9428,
-        "volume": 296769.04,
+        "wallet": "0xd703c88c0b",
+        "username": "ilushin",
+        "pnl": 29188.45,
+        "win_rate": 0.995,
+        "volume": 161.47,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6d557fa6a5",
-        "username": "milkywaybet",
-        "pnl": 73274.19,
-        "win_rate": 0.9752,
-        "volume": 145592.94,
+        "wallet": "0x5f486fdf01",
+        "username": "owlgorithm-beta",
+        "pnl": 9570.23,
+        "win_rate": 0.986,
+        "volume": 3391.5,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xce44f784bf",
+        "username": "LewLewZZ",
+        "pnl": 4999.53,
+        "win_rate": 0.995,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0aebec72cc",
+        "username": "MeowKitton",
+        "pnl": 5000.0,
+        "win_rate": 0.993,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xafe4272b4f",
+        "username": "QuentinChen",
+        "pnl": 5906.49,
+        "win_rate": 0.9563,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb4f978be63",
+        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
+        "pnl": 16651.01,
+        "win_rate": 0.8824,
+        "volume": 77528.58,
         "categories": [
           "sports",
+          "crypto",
           "politics"
         ]
       },
       {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 128365.88,
-        "win_rate": 0.9364,
-        "volume": 2224689.89,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 8717.89,
+        "win_rate": 0.9201,
+        "volume": 21427.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x441909510a",
+        "username": "laIaIalala",
+        "pnl": 48059.47,
+        "win_rate": 0.7255,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "economy"
+          "politics",
+          "crypto"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 103023.35,
-        "win_rate": 0.935,
-        "volume": 396.5,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 85664.24,
+        "win_rate": 0.679,
+        "volume": 853202.21,
         "categories": [
-          "sports"
+          "sports",
+          "crypto"
         ]
       },
       {
-        "wallet": "0xb595d09ce5",
-        "username": "0xB595d09Ce5bBc4d39E3b3D04E80C402d2C8D5922-1769777706105",
-        "pnl": 30728.71,
-        "win_rate": 0.997,
-        "volume": 77047.84,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf3ce7f04dd",
-        "username": "Sisyphus-",
-        "pnl": 49093.47,
-        "win_rate": 0.962,
-        "volume": 203924.42,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x866056133a",
-        "username": "esportsbetter1",
-        "pnl": 67142.58,
-        "win_rate": 0.9402,
-        "volume": 4954.42,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0235dc24b3",
-        "username": "darkumbreon88",
-        "pnl": 31017.18,
-        "win_rate": 0.9711,
-        "volume": 156140.08,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 167222.28,
-        "win_rate": 0.8522,
-        "volume": 428069.2,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 37779.08,
-        "win_rate": 0.9464,
-        "volume": 227766.99,
+        "wallet": "0x8546a601f7",
+        "username": "HVAB",
+        "pnl": 29488.05,
+        "win_rate": 0.7192,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1207,32 +1210,32 @@
     ],
     "whales": [
       {
-        "wallet": "0xe6ca6ebbec",
-        "username": "SmartPredictOrNot",
-        "pnl": 1616834.02,
-        "win_rate": 1.0,
-        "volume": 8425137.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7c37b52eb2",
-        "username": "Diabolical-Prize",
-        "pnl": 128365.88,
-        "win_rate": 0.9364,
-        "volume": 2224689.89,
+        "wallet": "0x2c335066fe",
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "pnl": 85664.24,
+        "win_rate": 0.679,
+        "volume": 853202.21,
         "categories": [
           "sports",
-          "economy"
+          "crypto"
         ]
       },
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 164446.6,
-        "win_rate": 0.702,
-        "volume": 1709738.94,
+        "pnl": 11672.64,
+        "win_rate": 0.701,
+        "volume": 694843.65,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 42840.59,
+        "win_rate": 0.557,
+        "volume": 938481.11,
         "categories": [
           "sports"
         ]
@@ -1240,84 +1243,86 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 475926.36,
-        "win_rate": 0.559,
-        "volume": 2349827.09,
+        "pnl": 22521.53,
+        "win_rate": 0.56,
+        "volume": 677329.24,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 167222.28,
-        "win_rate": 0.8522,
-        "volume": 428069.2,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 10278.78,
+        "win_rate": 0.6215,
+        "volume": 205575.51,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 72398.05,
-        "win_rate": 0.584,
-        "volume": 2248689.73,
+        "wallet": "0xbc43c8bfbc",
+        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+        "pnl": 82802.59,
+        "win_rate": 0.5714,
+        "volume": 203244.04,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xdc41c39b95",
-        "username": "nigiri99",
-        "pnl": 321839.82,
-        "win_rate": 0.409,
-        "volume": 1354176.45,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x676c1bb692",
-        "username": "gvrgb326552g65",
-        "pnl": 69312.57,
-        "win_rate": 0.6667,
-        "volume": 428633.59,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x361b16e3dd",
-        "username": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-        "pnl": 247204.63,
-        "win_rate": 0.47,
-        "volume": 610901.08,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 59741.47,
+        "win_rate": 0.558,
+        "volume": 327367.43,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x84cfffc3f1",
-        "username": "mooseborzoi",
-        "pnl": 154195.47,
-        "win_rate": 0.459,
-        "volume": 1295066.98,
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 64659.69,
+        "win_rate": 0.451,
+        "volume": 172831.32,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1610db79f7",
+        "username": "HMLSF",
+        "pnl": 49922.76,
+        "win_rate": 0.4733,
+        "volume": 57944.15,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 10263.98,
+        "win_rate": 0.645,
+        "volume": 111073.41,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Celestica ( NYSE : CLS ) Shares Climb 3 . 2 % – Should You Buy ? ",
-      "url": "https://www.themarketsdaily.com/2026/09/24/celestica-nysecls-shares-climb-3-2-should-you-buy.html",
-      "ticker": "CLS",
+      "title": "Could CrowdStrike ( CRWD ) Snowflake ( SNOW ) Partnership Unlock a New AI Growth Engine ? ",
+      "url": "https://www.insidermonkey.com/news/could-crowdstrike-crwds-snowflake-snow-partnership-unlock-a-new-ai-growth-engine-1836710/",
+      "ticker": "CRWD",
       "themes": [
-        "stock"
+        "ai"
       ],
       "date": "2026-09-24"
     },
@@ -1366,6 +1371,24 @@
       "date": "2026-09-24"
     },
     {
+      "title": "Zymeworks Completes Acquisition of Theravance Biopharma",
+      "url": "https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/zymeworks-completes-acquisition-of-theravance-biopharma/2431723",
+      "ticker": "TBPH",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69659877-zymeworks-inc-zymeworks-completes-acquisition-of-theravance-biopharma-399.htm",
+      "ticker": "TBPH",
+      "themes": [
+        "merger"
+      ],
+      "date": "2026-09-23"
+    },
+    {
       "title": "Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test",
       "url": "https://www.insidermonkey.com/news/tempus-ai-tem-has-a-75-goldman-sachs-target-but-its-data-business-faces-a-bigger-test-1841526/",
       "ticker": "TEM",
@@ -1395,14 +1418,16 @@
       "date": "2026-09-11"
     },
     {
-      "title": "United Therapeutics ( UTHR ) Sets $477 . 6 Million Buyback . Can Pipeline Funding Keep Pace ? ",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/united-therapeutics-uthr-sets-477-002122282.html",
-      "ticker": "UTHR",
-      "themes": [],
+      "title": "Theravance Biopharma ( NASDAQ : TBPH ) Stock Price Passes Above 50 - Day Moving Average Following Analyst Downgrade",
+      "url": "https://www.dailypolitical.com/2026/09/10/theravance-biopharma-nasdaqtbph-stock-price-passes-above-50-day-moving-average-following-analyst-downgrade.html",
+      "ticker": "TBPH",
+      "themes": [
+        "stock"
+      ],
       "date": "2026-09-11"
     }
   ],
-  "signals_count": 1343,
+  "signals_count": 1364,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

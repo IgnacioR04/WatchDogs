@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:38:13+00:00",
+  "generated_at": "2026-09-25T01:46:14+00:00",
   "profile": "moderado",
   "regime_budget": 0.9,
   "total_equity": 0.8502,
@@ -12,8 +12,8 @@
     "GLD": 0.0933,
     "TRMD": 0.0629,
     "IEF": 0.0622,
-    "MEOH": 0.0606,
-    "MG": 0.0546,
+    "MEOH": 0.0605,
+    "MG": 0.0547,
     "TYRA": 0.0324,
     "SEZL": 0.028
   },
@@ -25,14 +25,22 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "TYRA": 0.0288,
-    "MEOH": 0.0539,
-    "MG": 0.0485,
     "TRMD": 0.0559,
+    "TYRA": 0.0288,
+    "MEOH": 0.0538,
+    "MG": 0.0486,
     "KNTK": 0.0855,
     "SEZL": 0.0249
   },
   "satellite_rationale": [
+    {
+      "ticker": "TRMD",
+      "score": 212.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
     {
       "ticker": "TYRA",
       "score": 210.0,
@@ -58,14 +66,6 @@
       "n_signals": 3
     },
     {
-      "ticker": "TRMD",
-      "score": 140.4,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "KNTK",
       "score": 70.2,
       "sources": [
@@ -83,17 +83,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.092,
+    "ann_vol": 0.0926,
     "var_95_1d": 0.0085,
     "cvar_95_1d": 0.0106,
     "max_drawdown": -0.0251,
-    "beta_spy": 0.384,
+    "beta_spy": 0.383,
     "hhi": 0.0775,
     "max_position": 0.12,
     "n_positions": 11,
     "effective_positions": 12.9,
     "gross_exposure": 0.8502,
-    "days_used": 70
+    "days_used": 69
   },
   "risk_gate": {
     "passed": true,
