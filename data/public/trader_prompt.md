@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-25T01:46:15+00:00 -->
+<!-- trader_prompt.md generado 2026-09-25T08:04:52+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-25T01:46:15+00:00 · ventana señales 2026-08-26 -> 2026-09-25_
+_Generado 2026-09-25T08:04:52+00:00 · ventana señales 2026-08-26 -> 2026-09-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 90.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.67)
+- Volatilidad: `normal` (VIX 15.6)
 - Tendencia: `bull` (SPY 767.18 · MA50 759.46 · MA200 714.36 · dist MA200: 7.39%)
 - Credito: `tight` (HY spread 2.73)
 - Tipos: `flat` (curva 10y-2y 0.31)
@@ -333,8 +333,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 79.42 (-1.29% / -2.89% / -4.29%) [2026-09-24]
 - IEF: 89.69 (-0.55% / -1.15% / -3.74%) [2026-09-24]
 - GLD: 391.69 (-0.3% / -1.67% / -7.03%) [2026-09-24]
-- ^VIX: 15.67 (3.23% / -11.52% / 3.02%) [2026-09-24]
-- BTC-USD: 84476.57 (0.11% / 3.99% / 6.03%) [2026-09-25]
+- ^VIX: 15.6 (-0.45% / 1.04% / 7.51%) [2026-09-25]
+- BTC-USD: 84113.66 (-0.31% / 3.66% / 5.37%) [2026-09-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,12 +349,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (5), stock (5), merger (2), leadership (2)
+**Temas dominantes**: ai (5), merger (2), regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] Could CrowdStrike ( CRWD ) Snowflake ( SNOW ) Partnership Unlock a New AI Growth Engine ? (2026-09-24)
-- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
+- [UNH] UnitedHealth , CVS , and Kaiser Oppose Medicare Remote Monitoring Vendor Ban While Humana and Blue Cross Back It (2026-09-25)
+- [UNH] Minnesota - based UnitedHealthcare overbilled Medicare by $47 million : HHS (2026-09-25)
 - [TEM] Tempus AI ( NASDAQ : TEM ) Trading 6 . 1 % Higher – Time to Buy ? (2026-09-24)
 - [TEM] Tempus AI Chief Accounting Officer Sells $529 , 650 of Stock (2026-09-24)
 - [TEM] Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test (2026-09-24)
@@ -362,7 +362,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [TBPH] Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
 - [TBPH] Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
 - [TEM] Tempus AI ( TEM ) Has a $75 Goldman Sachs Target , But Its Data Business Faces a Bigger Test (2026-09-22)
-- [UTHR] Insider Selling : United Therapeutics ( NASDAQ : UTHR ) CEO Sells $4 , 740 , 785 . 00 in Stock (2026-09-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -377,11 +376,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ilushin · PnL $29,188 · win rate 100% · categorias: sports
-- owlgorithm-beta · PnL $9,570 · win rate 99% · categorias: sports
-- LewLewZZ · PnL $5,000 · win rate 100% · categorias: sports
-- MeowKitton · PnL $5,000 · win rate 99% · categorias: sports
-- QuentinChen · PnL $5,906 · win rate 96% · categorias: sports
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $94,777 · win rate 94% · categorias: sports
+- TAIWANNUMBERONE · PnL $67,152 · win rate 94% · categorias: sports
+- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $78,111 · win rate 88% · categorias: sports, crypto, politics
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $37,059 · win rate 90% · categorias: sports, economy
+- Kev69 · PnL $65,050 · win rate 82% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
