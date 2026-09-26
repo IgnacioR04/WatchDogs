@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-26T07:56:00+00:00 -->
+<!-- trader_prompt.md generado 2026-09-26T13:22:07+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-26T07:56:00+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
+_Generado 2026-09-26T13:22:07+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -272,10 +272,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.3%
+- Volatilidad anualizada: 8.2%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
 - Max drawdown historico: -2.4%
-- Beta vs SPY: 0.626 · posiciones efectivas: 13.0 · HHI: 0.0767
+- Beta vs SPY: 0.623 · posiciones efectivas: 13.0 · HHI: 0.0767
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84096.64 (0.07% / -2.89% / 4.66%) [2026-09-26]
+- BTC-USD: 84008.43 (-0.03% / -3.0% / 4.55%) [2026-09-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,20 +353,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (12), ai (2), leadership (2)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
 - [AVGO] Broadcom ( NASDAQ : AVGO ) Stock Purchased by Rep . Rick W . Allen (2026-09-25)
 - [AVGO] Broadcom vs . Marvell : Which Custom AI Chip Stock Has the Better Risk - Reward ? (2026-09-25)
-- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
-- [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
-- [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
-- [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
-- [TWST] Twist Bioscience ( NASDAQ : TWST ) CEO Sells 1 , 687 Shares (2026-09-23)
-- [TWST] Insider Selling : Twist Bioscience ( NASDAQ : TWST ) Insider Sells $57 , 590 . 52 in Stock (2026-09-23)
+- [RGCO] Critical Comparison : RGC Resources ( NASDAQ : RGCO ) versus Northwest Natural Gas ( NYSE : NWN ) (2026-09-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,10 +375,10 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - bajacaligold · PnL $88,278 · win rate 100% · categorias: sports
-- ezMerge · PnL $77,010 · win rate 99% · categorias: sports
+- ezMerge · PnL $77,027 · win rate 99% · categorias: sports
 - KaneAnalytics · PnL $106,667 · win rate 94% · categorias: sports
 - primm · PnL $186,913 · win rate 90% · categorias: sports
-- avonking · PnL $23,452 · win rate 98% · categorias: sports, crypto
+- lpcapital1 · PnL $55,803 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
