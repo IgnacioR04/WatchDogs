@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-26T01:50:11+00:00 -->
+<!-- trader_prompt.md generado 2026-09-26T07:56:00+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-26T01:50:11+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
+_Generado 2026-09-26T07:56:00+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -259,24 +259,23 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 771.35 | 0.54% | 1.27% | 0.28% |
 | QQQ | 12.0% | core | 744.5 | 0.46% | 3.3% | 3.35% |
 | TLT | 12.0% | core | 79.32 | -0.13% | -2.38% | -4.22% |
-| NAD | 10.6% | satellite | 10.1 | -0.2% | -4.99% | -13.48% |
+| NAD | 11.2% | satellite | 10.1 | -0.2% | -4.99% | -13.48% |
 | GLD | 9.3% | core | 393.41 | 0.44% | -1.93% | -6.91% |
 | IEF | 6.2% | core | 90.0 | 0.35% | -0.88% | -3.12% |
-| IEP | 5.4% | satellite | 6.96 | 0.14% | -0.14% | 3.42% |
-| LEN | 3.7% | satellite | 82.15 | 0.83% | 7.48% | -3.48% |
-| TRMD | 3.1% | satellite | 34.32 | 0.06% | -10.23% | 15.88% |
-| MGY | 3.1% | satellite | 24.11 | -2.55% | -4.25% | -9.53% |
-| DT | 3.0% | satellite | 57.95 | -1.24% | 5.1% | 8.46% |
-| FOSL | 1.8% | satellite | 6.2 | 5.98% | 13.35% | 15.24% |
-| TYRA | 1.5% | satellite | 21.76 | -2.9% | -15.43% | -16.72% |
+| IEP | 5.7% | satellite | 6.96 | 0.14% | -0.14% | 3.42% |
+| LEN | 3.9% | satellite | 82.15 | 0.83% | 7.48% | -3.48% |
+| TRMD | 3.3% | satellite | 34.32 | 0.06% | -10.23% | 15.88% |
+| MGY | 3.2% | satellite | 24.11 | -2.55% | -4.25% | -9.53% |
+| DT | 3.2% | satellite | 57.95 | -1.24% | 5.1% | 8.46% |
+| TYRA | 1.6% | satellite | 21.76 | -2.9% | -15.43% | -16.72% |
 | DFDV | 1.3% | satellite | 6.04 | 4.32% | -0.33% | 14.39% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.8%
+- Volatilidad anualizada: 8.3%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -2.2%
-- Beta vs SPY: 0.676 · posiciones efectivas: 13.4 · HHI: 0.0748
+- Max drawdown historico: -2.4%
+- Beta vs SPY: 0.626 · posiciones efectivas: 13.0 · HHI: 0.0767
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -284,7 +283,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **TRMD** · score agregado 284.0 · 4 señales · fuentes: large_holder
 - **TYRA** · score agregado 210.0 · 3 señales · fuentes: large_holder
 - **DT** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **FOSL** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **MGY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **IEP** · score agregado 70.2 · 1 señales · fuentes: large_holder
 - **NAD** · score agregado 70.2 · 1 señales · fuentes: large_holder
@@ -340,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84023.78 (-0.42% / 3.55% / 5.26%) [2026-09-26]
+- BTC-USD: 84096.64 (0.07% / -2.89% / 4.66%) [2026-09-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,7 +353,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (8), ai (2), leadership (1)
+**Temas dominantes**: stock (12), ai (2), leadership (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -363,11 +361,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
 - [AVGO] Broadcom ( NASDAQ : AVGO ) Stock Purchased by Rep . Rick W . Allen (2026-09-25)
 - [AVGO] Broadcom vs . Marvell : Which Custom AI Chip Stock Has the Better Risk - Reward ? (2026-09-25)
+- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
 - [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
+- [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
 - [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
 - [TWST] Twist Bioscience ( NASDAQ : TWST ) CEO Sells 1 , 687 Shares (2026-09-23)
 - [TWST] Insider Selling : Twist Bioscience ( NASDAQ : TWST ) Insider Sells $57 , 590 . 52 in Stock (2026-09-23)
-- [RGCO] Critical Comparison : RGC Resources ( NASDAQ : RGCO ) versus Northwest Natural Gas ( NYSE : NWN ) (2026-09-12)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -382,11 +381,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- qwe258 · PnL $70,569 · win rate 98% · categorias: sports, crypto, politics
-- bajacaligold · PnL $29,908 · win rate 100% · categorias: sports
-- ezMerge · PnL $20,036 · win rate 99% · categorias: sports
-- 0xb2cbf3389906f0cadb8d727bc166cfcc818b2bad · PnL $10,486 · win rate 98% · categorias: sports, politics, economy
-- xm39 · PnL $19,703 · win rate 94% · categorias: sports
+- bajacaligold · PnL $88,278 · win rate 100% · categorias: sports
+- ezMerge · PnL $77,010 · win rate 99% · categorias: sports
+- KaneAnalytics · PnL $106,667 · win rate 94% · categorias: sports
+- primm · PnL $186,913 · win rate 90% · categorias: sports
+- avonking · PnL $23,452 · win rate 98% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -394,7 +393,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 508 registros 30d · ultimo dato 2026-09-25
+- **sec_insiders**: `ok` · 520 registros 30d · ultimo dato 2026-09-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -408,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`DFDV, DT, FOSL, GLD, IEF, IEP, LEN, MGY, NAD, QQQ, SPY, TLT, TRMD, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`DFDV, DT, GLD, IEF, IEP, LEN, MGY, NAD, QQQ, SPY, TLT, TRMD, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **95.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
