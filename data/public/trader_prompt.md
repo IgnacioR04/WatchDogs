@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-26T17:25:54+00:00 -->
+<!-- trader_prompt.md generado 2026-09-26T20:09:29+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-26T17:25:53+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
+_Generado 2026-09-26T20:09:29+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84055.3 (0.02% / -2.94% / 4.61%) [2026-09-26]
+- BTC-USD: 84022.25 (-0.02% / -2.98% / 4.57%) [2026-09-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,11 +353,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (7), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
+- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
+- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
+- [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
+- [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
+- [TWST] Twist Bioscience ( NASDAQ : TWST ) CEO Sells 1 , 687 Shares (2026-09-23)
+- [TWST] Insider Selling : Twist Bioscience ( NASDAQ : TWST ) Insider Sells $57 , 590 . 52 in Stock (2026-09-23)
 - [NTRA] FinancialContent - Why Is Natera ( NTRA ) Stock Soaring Today (2026-09-22)
 - [AROW] Arrow Financial Corporation ( NASDAQ : AROW ) Receives Consensus Rating of  Moderate Buy  from Analysts (2026-09-13)
 
@@ -374,11 +379,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- bajacaligold · PnL $88,295 · win rate 100% · categorias: sports
-- ezMerge · PnL $77,096 · win rate 99% · categorias: sports
-- primm · PnL $239,571 · win rate 90% · categorias: sports
-- crisp1973 · PnL $45,474 · win rate 100% · categorias: sports
-- KaneAnalytics · PnL $106,667 · win rate 94% · categorias: sports
+- bajacaligold · PnL $88,305 · win rate 100% · categorias: sports
+- ezMerge · PnL $77,085 · win rate 99% · categorias: sports
+- Kch-Temp · PnL $206,089 · win rate 91% · categorias: sports
+- primm · PnL $229,848 · win rate 90% · categorias: sports
+- KaneAnalytics · PnL $114,556 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
