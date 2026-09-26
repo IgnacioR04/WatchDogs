@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-26T13:22:07+00:00 -->
+<!-- trader_prompt.md generado 2026-09-26T17:25:54+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-26T13:22:07+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
+_Generado 2026-09-26T17:25:53+00:00 · ventana señales 2026-08-27 -> 2026-09-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84008.43 (-0.03% / -3.0% / 4.55%) [2026-09-26]
+- BTC-USD: 84055.3 (0.02% / -2.94% / 4.61%) [2026-09-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,13 +353,13 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AVGO] Broadcom ( NASDAQ : AVGO ) Stock Purchased by Rep . Rick W . Allen (2026-09-25)
-- [AVGO] Broadcom vs . Marvell : Which Custom AI Chip Stock Has the Better Risk - Reward ? (2026-09-25)
-- [RGCO] Critical Comparison : RGC Resources ( NASDAQ : RGCO ) versus Northwest Natural Gas ( NYSE : NWN ) (2026-09-12)
+- [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
+- [NTRA] FinancialContent - Why Is Natera ( NTRA ) Stock Soaring Today (2026-09-22)
+- [AROW] Arrow Financial Corporation ( NASDAQ : AROW ) Receives Consensus Rating of  Moderate Buy  from Analysts (2026-09-13)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +374,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- bajacaligold · PnL $88,278 · win rate 100% · categorias: sports
-- ezMerge · PnL $77,027 · win rate 99% · categorias: sports
+- bajacaligold · PnL $88,295 · win rate 100% · categorias: sports
+- ezMerge · PnL $77,096 · win rate 99% · categorias: sports
+- primm · PnL $239,571 · win rate 90% · categorias: sports
+- crisp1973 · PnL $45,474 · win rate 100% · categorias: sports
 - KaneAnalytics · PnL $106,667 · win rate 94% · categorias: sports
-- primm · PnL $186,913 · win rate 90% · categorias: sports
-- lpcapital1 · PnL $55,803 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
