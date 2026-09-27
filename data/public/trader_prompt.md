@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-27T08:28:08+00:00 -->
+<!-- trader_prompt.md generado 2026-09-27T14:16:33+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-27T08:28:07+00:00 · ventana señales 2026-08-28 -> 2026-09-27_
+_Generado 2026-09-27T14:16:33+00:00 · ventana señales 2026-08-28 -> 2026-09-27_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84794.01 (0.46% / -1.6% / 7.18%) [2026-09-27]
+- BTC-USD: 85016.28 (0.72% / -1.34% / 7.46%) [2026-09-27]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,17 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), merger (2), earnings (1), ai (1)
+**Temas dominantes**: stock (4), earnings (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [AVGO] Broadcom Stock Is Back Where It Ended 2025 , but Its Earnings Are About 43 % Higher . Is It a Buy ? (2026-09-27)
+- [AVGO] Broadcom Stock Is Back Where It Ended 2025 , but Its Earnings Are About 43 % Higher . Is It a Buy ? (2026-09-27)
+- [AVGO] Broadcom Stock Is Back Where It Ended 2025 , but Its Earnings Are About 43 % Higher . Is It a Buy ? (2026-09-27)
 - [AVGO] Broadcom ( NASDAQ : AVGO ) Stock Purchased by Rep . Rick W . Allen (2026-09-25)
-- [AVGO] Broadcom vs . Marvell : Which Custom AI Chip Stock Has the Better Risk - Reward ? (2026-09-25)
-- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
-- [TBPH] Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
-- [TBPH] Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
-- [NTRA] FinancialContent - Why Is Natera ( NTRA ) Stock Soaring Today (2026-09-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -379,7 +376,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $192,570 · win rate 100% · categorias: sports
-- ic4cream · PnL $215,639 · win rate 90% · categorias: sports
+- ic4cream · PnL $215,687 · win rate 90% · categorias: sports
 - Diabolical-Prize · PnL $127,101 · win rate 94% · categorias: sports, economy
 - ethanaz · PnL $218,611 · win rate 89% · categorias: sports, crypto
 - KaneAnalytics · PnL $104,092 · win rate 93% · categorias: sports
