@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-27T18:38:37+00:00 -->
+<!-- trader_prompt.md generado 2026-09-27T22:25:41+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-27T18:38:37+00:00 · ventana señales 2026-08-28 -> 2026-09-27_
+_Generado 2026-09-27T22:25:41+00:00 · ventana señales 2026-08-28 -> 2026-09-27_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84728.13 (0.38% / -1.68% / 7.09%) [2026-09-27]
+- BTC-USD: 84506.52 (0.12% / -1.93% / 6.81%) [2026-09-27]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,17 +353,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (1), leadership (1)
+**Temas dominantes**: merger (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
-- [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
 - [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
-- [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
-- [TWST] Twist Bioscience ( NASDAQ : TWST ) CEO Sells 1 , 687 Shares (2026-09-23)
+- [TBPH] Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
+- [TBPH] Zymeworks Inc .: Zymeworks Completes Acquisition of Theravance Biopharma (2026-09-23)
+- [NTRA] FinancialContent - Why Is Natera ( NTRA ) Stock Soaring Today (2026-09-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -378,11 +375,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- Diabolical-Prize · PnL $830,800 · win rate 94% · categorias: sports, economy
+- Kch-Temp · PnL $775,585 · win rate 92% · categorias: sports
 - theowalcott · PnL $192,570 · win rate 100% · categorias: sports
-- Diabolical-Prize · PnL $251,641 · win rate 94% · categorias: sports, economy
-- Kch-Temp · PnL $331,830 · win rate 92% · categorias: sports
-- ic4cream · PnL $225,551 · win rate 90% · categorias: sports
-- ethanaz · PnL $202,758 · win rate 89% · categorias: sports, crypto
+- BreakTheBank · PnL $656,499 · win rate 86% · categorias: sports
+- RJW1 · PnL $75,235 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
