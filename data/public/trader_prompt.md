@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-09-28T01:02:24+00:00 -->
+<!-- trader_prompt.md generado 2026-09-28T07:09:27+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-28T01:02:24+00:00 · ventana señales 2026-08-29 -> 2026-09-28_
+_Generado 2026-09-28T07:09:26+00:00 · ventana señales 2026-08-29 -> 2026-09-28_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -338,7 +338,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 90.0 (0.35% / -0.88% / -3.12%) [2026-09-25]
 - GLD: 393.41 (0.44% / -1.93% / -6.91%) [2026-09-25]
 - ^VIX: 14.87 (-5.11% / 0.41% / 3.05%) [2026-09-25]
-- BTC-USD: 84078.72 (-0.39% / -2.43% / 6.27%) [2026-09-28]
+- BTC-USD: 83082.08 (-1.63% / -1.54% / 5.92%) [2026-09-28]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,15 +353,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1)
+**Temas dominantes**: ai (3), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
-- [CUEN] Cuentas Inc . to Present at the Financial Services Virtual Investor Conference September 24th (2026-09-24)
-- [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
+- [RGCO] RGC Resources ( NASDAQ : RGCO ) Rating Lowered to Sell at Wall Street Zen (2026-09-28)
+- [NTRA] Natera ( NASDAQ : NTRA ) vs . Fractyl Health ( NASDAQ : GUTS ) Head to Head Survey (2026-09-28)
+- [AVGO] Broadcom vs . Marvell : The AI Supercycle Is Big Enough for Both . Here the Better Buy . (2026-09-27)
+- [AVGO] Broadcom vs . Marvell : The AI Supercycle Is Big Enough for Both . Here the Better Buy . (2026-09-27)
+- [AVGO] Broadcom vs . Marvell : The AI Supercycle Is Big Enough for Both . Here the Better Buy . (2026-09-27)
+- [UTHR] FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today (2026-09-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +377,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $562,697 · win rate 94% · categorias: sports, economy
-- theowalcott · PnL $192,570 · win rate 100% · categorias: sports
-- Kch-Temp · PnL $378,557 · win rate 92% · categorias: sports
-- BreakTheBank · PnL $870,191 · win rate 86% · categorias: sports
-- RJW1 · PnL $87,342 · win rate 98% · categorias: sports
+- zvon3 · PnL $100,437 · win rate 100% · categorias: sports
+- BreakTheBank · PnL $886,560 · win rate 85% · categorias: sports
+- ezMerge · PnL $74,908 · win rate 99% · categorias: sports
+- ic4cream · PnL $186,647 · win rate 90% · categorias: sports
+- TAIWANNUMBERONE · PnL $83,323 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,8 +392,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - **sec_insiders**: `ok` · 514 registros 30d · ultimo dato 2026-09-25
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-25
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
