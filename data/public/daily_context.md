@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-29T02:13:23+00:00 · ventana señales 2026-08-30 -> 2026-09-29_
+_Generado 2026-09-29T08:45:09+00:00 · ventana señales 2026-08-30 -> 2026-09-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - TLT: 78.62 (-0.88% / -3.89% / -4.78%) [2026-09-28]
 - IEF: 89.53 (-0.52% / -1.78% / -3.23%) [2026-09-28]
 - GLD: 377.91 (-3.94% / -5.14% / -7.58%) [2026-09-28]
-- ^VIX: 16.07 (8.07% / 8.07% / 7.71%) [2026-09-28]
-- BTC-USD: 82949.35 (-1.79% / -1.7% / 5.75%) [2026-09-29]
+- ^VIX: 16.07 (0.0% / 13.09% / -1.65%) [2026-09-29]
+- BTC-USD: 83842.51 (0.41% / -0.64% / 7.13%) [2026-09-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -129,6 +129,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - [CBRS] BigBear . ai vs . Cerebras Systems : Which Technology Stock Is a Better Buy in 2026 ? (2026-09-29)
 - [CBRS] Cerebras Systems ( NASDAQ : CBRS ) CTO Sells $25 , 076 , 400 . 00 in Stock (2026-09-28)
+- [GRDN] Critical Analysis : Guardian Pharmacy Services ( NYSE : GRDN ) versus BrightSpring Health Services ( NASDAQ : BTSG ) (2026-09-24)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,16 +139,16 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.8M el 2026-09-24.
 - Insider Weiss Asset Management LP opero TBPH por $126.8M el 2026-09-23 [senal en multiples fuentes].
 - 10% owner Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. compro Calamos Aksia Hedged Strategies Fund por $7.5M el 2026-09-23.
-- Director Zambrano Lozano Rogelio compro CX por $6.9M el 2026-09-25.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $236,071 · win rate 94% · categorias: sports, economy
-- BreakTheBank · PnL $215,889 · win rate 86% · categorias: sports
-- primm · PnL $146,517 · win rate 85% · categorias: sports
-- btystu · PnL $46,196 · win rate 100% · categorias: sports, politics, crypto
-- Painfulvoid · PnL $30,565 · win rate 91% · categorias: sports
+- Diabolical-Prize · PnL $380,358 · win rate 94% · categorias: sports, economy
+- BreakTheBank · PnL $792,727 · win rate 85% · categorias: sports
+- primm · PnL $264,827 · win rate 84% · categorias: sports
+- btystu · PnL $69,685 · win rate 100% · categorias: sports, politics, crypto
+- Painfulvoid · PnL $44,212 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +156,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 559 registros 30d · ultimo dato 2026-09-28
+- **sec_insiders**: `ok` · 555 registros 30d · ultimo dato 2026-09-28
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
