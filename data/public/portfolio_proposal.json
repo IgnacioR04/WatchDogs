@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-09-29T08:45:08+00:00",
+  "generated_at": "2026-09-29T16:08:09+00:00",
   "profile": "moderado",
-  "regime_budget": 0.9,
-  "total_equity": 0.8501,
-  "cash": 0.1499,
+  "regime_budget": 0.8,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "GLD": 0.0932,
-    "IEF": 0.0622,
-    "LLYVK": 0.0577,
-    "PNRG": 0.0453,
-    "LILA": 0.0448,
-    "TRMD": 0.0378,
-    "GRDN": 0.0369,
-    "GPI": 0.0283,
-    "TH": 0.0263,
-    "INBX": 0.0233,
-    "TYRA": 0.0188,
-    "REAX": 0.0155
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
+    "GLD": 0.0858,
+    "IEF": 0.0572,
+    "LLYVK": 0.0527,
+    "BEKE": 0.0393,
+    "TRMD": 0.0366,
+    "GRDN": 0.0351,
+    "GPI": 0.0299,
+    "LILA": 0.0281,
+    "PNRG": 0.0251,
+    "INBX": 0.0243,
+    "TYRA": 0.0198,
+    "REAX": 0.0171
   },
   "core": {
-    "SPY": 0.1934,
-    "QQQ": 0.1105,
-    "TLT": 0.1105,
-    "IEF": 0.0553,
-    "GLD": 0.0829
+    "SPY": 0.182,
+    "QQQ": 0.104,
+    "TLT": 0.104,
+    "IEF": 0.052,
+    "GLD": 0.078
   },
   "satellite": {
-    "GPI": 0.0252,
-    "TRMD": 0.0336,
-    "INBX": 0.0207,
-    "TYRA": 0.0167,
-    "LILA": 0.0398,
-    "GRDN": 0.0328,
-    "TH": 0.0234,
-    "PNRG": 0.0403,
-    "LLYVK": 0.0513,
-    "REAX": 0.0138
+    "GPI": 0.0272,
+    "INBX": 0.0221,
+    "TRMD": 0.0333,
+    "TYRA": 0.018,
+    "LILA": 0.0255,
+    "GRDN": 0.0319,
+    "BEKE": 0.0357,
+    "PNRG": 0.0228,
+    "LLYVK": 0.0479,
+    "REAX": 0.0155
   },
   "satellite_rationale": [
     {
@@ -51,20 +51,20 @@
       "n_signals": 12
     },
     {
-      "ticker": "TRMD",
-      "score": 279.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 4
-    },
-    {
       "ticker": "INBX",
       "score": 249.6,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "TRMD",
+      "score": 210.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
     },
     {
       "ticker": "TYRA",
@@ -91,7 +91,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "TH",
+      "ticker": "BEKE",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -124,17 +124,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0917,
-    "var_95_1d": 0.0072,
-    "cvar_95_1d": 0.0105,
-    "max_drawdown": -0.0276,
-    "beta_spy": 0.568,
-    "hhi": 0.0686,
+    "ann_vol": 0.0902,
+    "var_95_1d": 0.0079,
+    "cvar_95_1d": 0.0111,
+    "max_drawdown": -0.0331,
+    "beta_spy": 0.495,
+    "hhi": 0.0617,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.8501,
-    "days_used": 61
+    "effective_positions": 16.2,
+    "gross_exposure": 0.7998,
+    "days_used": 93
   },
   "risk_gate": {
     "passed": true,

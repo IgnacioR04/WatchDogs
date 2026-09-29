@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-09-29T08:44:24.096329+00:00",
+  "generated_at": "2026-09-29T16:07:00.278554+00:00",
   "window": {
     "from": "2026-08-30",
     "to": "2026-09-29",
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai"
+      "ai",
+      "legal",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,6 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "CEO vendio BEKE ($84.6M)",
+      "summary": "CEO Peng Yongdong vendio BEKE por $84.6M el 2026-09-25 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Peng Yongdong",
+      "actor_type": "ceo",
+      "ticker": "BEKE",
+      "direction": "sell",
+      "amount_estimated": 84552002.55,
+      "event_date": "2026-09-25",
+      "importance_score": 87.7,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1890584/000119312526405896/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro GPI ($10.5M)",
       "summary": "10% owner Conifer Management, L.L.C. compro GPI por $10.5M el 2026-09-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -48,8 +67,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner vendio INNV ($92.5M)",
       "summary": "10% owner TCO GROUP HOLDINGS, L.P. vendio INNV por $92.5M el 2026-09-24.",
       "source": "sec_form_4",
@@ -66,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1844765/000119312526405348/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro GPI ($7.7M)",
       "summary": "10% owner Conifer Management, L.L.C. compro GPI por $7.7M el 2026-09-25 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -84,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro CRBG ($8.8M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.8M el 2026-09-24.",
       "source": "sec_form_4",
@@ -102,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526405404/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro GPI ($4.4M)",
       "summary": "10% owner Conifer Management, L.L.C. compro GPI por $4.4M el 2026-09-24 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -120,8 +139,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "Insider opero TBPH ($126.8M)",
       "summary": "Insider Weiss Asset Management LP opero TBPH por $126.8M el 2026-09-23 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -136,24 +155,6 @@
       "cross_source_score": 25.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1357550/000135755026000033/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "10% owner compro Calamos Aksia Hedged Strategies Fund ($7.5M)",
-      "summary": "10% owner Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. compro Calamos Aksia Hedged Strategies Fund por $7.5M el 2026-09-23.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 7477500.0,
-      "event_date": "2026-09-23",
-      "importance_score": 82.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2125773/000212577326000013/"
     },
     {
       "id": "move_8",
@@ -418,14 +419,6 @@
         ]
       },
       {
-        "ticker": "TRMD",
-        "company": "TORM plc",
-        "pressure_score": 279.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "GPUS",
         "company": "Hyperscale Data, Inc.",
         "pressure_score": 277.9,
@@ -439,6 +432,14 @@
         "pressure_score": 276.0,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 269.8,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -462,6 +463,14 @@
         "ticker": "LILA",
         "company": "Liberty Latin America Ltd.",
         "pressure_score": 221.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MXF",
+        "company": "MEXICO FUND INC",
+        "pressure_score": 214.0,
         "sources": [
           "corporate_insider"
         ]
@@ -491,27 +500,19 @@
         ]
       },
       {
+        "ticker": "TRMD",
+        "company": "TORM plc",
+        "pressure_score": 210.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "XNDU",
         "company": "Xanadu Quantum Technologies Limited",
         "pressure_score": 210.0,
         "sources": [
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "TYRA",
-        "company": "Tyra Biosciences, Inc.",
-        "pressure_score": 210.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "INLX",
-        "company": "INTELLINETICS, INC.",
-        "pressure_score": 186.0,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -589,17 +590,33 @@
         ]
       },
       {
-        "ticker": "MNPR",
-        "company": "Monopar Therapeutics",
-        "pressure_score": 299.8,
+        "ticker": "WOR",
+        "company": "WORTHINGTON ENTERPRISES, INC.",
+        "pressure_score": 445.6,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "WOR",
-        "company": "WORTHINGTON ENTERPRISES, INC.",
-        "pressure_score": 295.7,
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 379.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 375.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics",
+        "pressure_score": 299.8,
         "sources": [
           "corporate_insider"
         ]
@@ -616,22 +633,6 @@
         "ticker": "INNV",
         "company": "InnovAge Holding Corp.",
         "pressure_score": 237.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DUOL",
-        "company": "Duolingo, Inc.",
-        "pressure_score": 230.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "XYZ",
-        "company": "Block, Inc.",
-        "pressure_score": 211.9,
         "sources": [
           "corporate_insider"
         ]
@@ -987,15 +988,6 @@
       "date": "2026-09-17"
     },
     {
-      "filer": "Saadi Ryan H.",
-      "company": "Tevogen Inc.",
-      "ticker": "",
-      "ownership_pct": 74.4,
-      "shares": 11709567,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-16"
-    },
-    {
       "filer": "Al Kapoor",
       "company": "SYNTEC OPTICS HOLDINGS, INC.",
       "ticker": "",
@@ -1093,6 +1085,15 @@
       "shares": 46566776,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-21"
+    },
+    {
+      "filer": "Melco International Development Limited",
+      "company": "Melco Resorts & Entertainment Limited",
+      "ticker": "MLCO",
+      "ownership_pct": 56.3,
+      "shares": 687360906,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-18"
     }
   ],
   "polymarket": {
@@ -1100,9 +1101,9 @@
       {
         "wallet": "0x7c37b52eb2",
         "username": "Diabolical-Prize",
-        "pnl": 380357.7,
-        "win_rate": 0.9389,
-        "volume": 71588.22,
+        "pnl": 290537.88,
+        "win_rate": 0.9398,
+        "volume": 973660.62,
         "categories": [
           "sports",
           "economy"
@@ -1111,9 +1112,19 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 792726.72,
+        "pnl": 793227.49,
         "win_rate": 0.8522,
         "volume": 1199188.49,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x866056133a",
+        "username": "esportsbetter1",
+        "pnl": 76175.74,
+        "win_rate": 0.9406,
+        "volume": 143498.64,
         "categories": [
           "sports"
         ]
@@ -1143,7 +1154,7 @@
       {
         "wallet": "0xd6966eb1ae",
         "username": "Painfulvoid",
-        "pnl": 44211.58,
+        "pnl": 43772.92,
         "win_rate": 0.906,
         "volume": 215910.57,
         "categories": [
@@ -1153,19 +1164,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 792358.55,
+        "pnl": 792596.9,
         "win_rate": 0.711,
-        "volume": 2658334.73,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x866056133a",
-        "username": "esportsbetter1",
-        "pnl": 17720.25,
-        "win_rate": 0.9403,
-        "volume": 10000.0,
+        "volume": 2667375.61,
         "categories": [
           "sports"
         ]
@@ -1182,22 +1183,21 @@
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 21027.24,
-        "win_rate": 0.9,
-        "volume": 13184.87,
+        "wallet": "0x27f738fe20",
+        "username": "ic4cream",
+        "pnl": 20948.78,
+        "win_rate": 0.896,
+        "volume": 22754.12,
         "categories": [
-          "sports",
-          "economy"
+          "sports"
         ]
       },
       {
-        "wallet": "0x27f738fe20",
-        "username": "ic4cream",
-        "pnl": 21222.69,
-        "win_rate": 0.896,
-        "volume": 565.12,
+        "wallet": "0xcf767b5344",
+        "username": "dxionseansei",
+        "pnl": 18679.32,
+        "win_rate": 0.8987,
+        "volume": 55224.99,
         "categories": [
           "sports"
         ]
@@ -1207,9 +1207,9 @@
       {
         "wallet": "0x224a89dbe0",
         "username": "wr0ngw4yb3tt0r",
-        "pnl": 792358.55,
+        "pnl": 792596.9,
         "win_rate": 0.711,
-        "volume": 2658334.73,
+        "volume": 2667375.61,
         "categories": [
           "sports"
         ]
@@ -1217,7 +1217,7 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 792726.72,
+        "pnl": 793227.49,
         "win_rate": 0.8522,
         "volume": 1199188.49,
         "categories": [
@@ -1225,19 +1225,41 @@
         ]
       },
       {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 290537.88,
+        "win_rate": 0.9398,
+        "volume": 973660.62,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 150809.63,
-        "win_rate": 0.561,
-        "volume": 2003489.25,
+        "pnl": 133838.66,
+        "win_rate": 0.558,
+        "volume": 2501705.61,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xc5a2337f82",
+        "username": "watcherz88",
+        "pnl": 28521.32,
+        "win_rate": 0.8654,
+        "volume": 1181556.1,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xcbc666209b",
         "username": "raybanman",
-        "pnl": 134813.66,
+        "pnl": 134894.34,
         "win_rate": 0.9412,
         "volume": 456016.54,
         "categories": [
@@ -1245,97 +1267,124 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 45422.5,
-        "win_rate": 0.56,
-        "volume": 1847103.93,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x9b11866433",
         "username": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-        "pnl": 90591.12,
-        "win_rate": 0.501,
-        "volume": 1038156.42,
+        "pnl": 89778.05,
+        "win_rate": 0.499,
+        "volume": 1039671.04,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 29966.05,
-        "win_rate": 0.885,
-        "volume": 331053.06,
+        "wallet": "0x1eeaf77002",
+        "username": "110thst",
+        "pnl": 114679.09,
+        "win_rate": 1.0,
+        "volume": 299462.71,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "FORTNITEMASTER888",
+        "pnl": 159863.94,
+        "win_rate": 0.486,
+        "volume": 296334.97,
         "categories": [
           "sports",
-          "crypto"
+          "politics"
         ]
       },
       {
-        "wallet": "0xa38a455bbd",
-        "username": "takeormake",
-        "pnl": 123621.26,
-        "win_rate": 0.708,
-        "volume": 354894.57,
+        "wallet": "0x26b46988d0",
+        "username": "kkookkoo",
+        "pnl": 47816.0,
+        "win_rate": 0.691,
+        "volume": 496866.29,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x8e92289bbf",
-        "username": "PerpsKing",
-        "pnl": 27620.75,
-        "win_rate": 1.0,
-        "volume": 154114.22,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38b71f3e8",
-        "username": "primm",
-        "pnl": 264827.02,
-        "win_rate": 0.8411,
-        "volume": 214825.64,
-        "categories": [
-          "sports"
+          "sports",
+          "crypto",
+          "politics"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "BigBear . ai vs . Cerebras Systems : Which Technology Stock Is a Better Buy in 2026 ? ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/09/28/bigbearai-vs-cerebras-systems-which-technology-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "ticker": "CBRS",
+      "title": "NewsOut Expands Market Coverage to SpaceX ( NASDAQ : SPCX ), NVIDIA ( NASDAQ : NVDA ) and CrowdStrike ( NASDAQ : CRWD ) as Its Combined Distribution With New to The Street Reaches Approximately 6 . 5 Million YouTube Subscribers",
+      "url": "http://www.newjerseytelegraph.com/news/279340162/newsout-expands-market-coverage-to-spacex-nasdaqspcx-nvidia-nasdaqnvda-and-crowdstrike-nasdaq-crwd-as-its-combined-distribution-with-new-to-the-street-reaches-approximately-65-million-youtube-subscribers",
+      "ticker": "CRWD",
+      "themes": [],
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Meta expands Muse AI agent for small businesses",
+      "url": "https://www.aol.com/articles/meta-expands-muse-ai-agent-103432000.html",
+      "ticker": "META",
       "themes": [
-        "ai",
-        "stock"
+        "ai"
       ],
       "date": "2026-09-29"
     },
     {
-      "title": "Cerebras Systems ( NASDAQ : CBRS ) CTO Sells $25 , 076 , 400 . 00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/28/cerebras-systems-nasdaqcbrs-cto-sells-25076400-00-in-stock.html",
-      "ticker": "CBRS",
+      "title": "Meta Muse AI agent gets new tools for small businesses : What to know",
+      "url": "https://www.thenews.com.pk/latest/1418058-metas-muse-ai-agent-gets-new-tools-for-small-businesses-what-to-know",
+      "ticker": "META",
       "themes": [
-        "stock"
+        "ai"
+      ],
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Amazon ( AMZN ) vs . Alibaba ( BABA ): Which AI Bet Is Starting to Pay Off ? ",
+      "url": "https://www.insidermonkey.com/news/amazon-amzn-vs-alibaba-baba-which-ai-bet-is-starting-to-pay-off-1845622/",
+      "ticker": "BABA",
+      "themes": [
+        "ai"
       ],
       "date": "2026-09-28"
     },
     {
-      "title": "Critical Analysis : Guardian Pharmacy Services ( NYSE : GRDN ) versus BrightSpring Health Services ( NASDAQ : BTSG ) ",
-      "url": "https://www.themarketsdaily.com/2026/09/24/critical-analysis-guardian-pharmacy-services-nysegrdn-versus-brightspring-health-services-nasdaqbtsg.html",
-      "ticker": "GRDN",
-      "themes": [],
+      "title": "Alibaba Group Holding Limited ( BABA ) Class Action Lawsuit : Levi & Korsinsky ... ",
+      "url": "https://www.pr-inside.com/alibaba-group-holding-limited-baba-class-action-lawsuit-levi-korsinsky-r5228274.htm",
+      "ticker": "BABA",
+      "themes": [
+        "legal"
+      ],
+      "date": "2026-09-28"
+    },
+    {
+      "title": "GraniteShares 2x Long BABA Daily ETF ( NASDAQ : BABX ) Short Interest Update",
+      "url": "https://www.themarketsdaily.com/2026/09/27/graniteshares-2x-long-baba-daily-etf-nasdaqbabx-short-interest-update-3.html",
+      "ticker": "BABA",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "BABA LAWSUIT ALERT : Levi & Korsinsky Notifies Alibaba Group Holding ... ",
+      "url": "https://www.pr-inside.com/baba-lawsuit-alert-levi-korsinsky-notifies-alibaba-group-holding-r5227102.htm",
+      "ticker": "BABA",
+      "themes": [
+        "legal"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "INVESTOR ALERT : Pomerantz Law Firm Reminds Investors with Losses on their Investment in Alibaba Group Holding Limited of Class Action Lawsuit and Upcoming Deadlines",
+      "url": "http://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-alibaba-group-holding-limited-of-class-action-lawsuit-and-upcoming-deadlines--baba-302889790.html",
+      "ticker": "BABA",
+      "themes": [
+        "legal"
+      ],
       "date": "2026-09-24"
     }
   ],
-  "signals_count": 1305,
+  "signals_count": 1325,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
