@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-09-28T22:17:28+00:00 · ventana señales 2026-08-29 -> 2026-09-28_
+_Generado 2026-09-29T02:13:23+00:00 · ventana señales 2026-08-30 -> 2026-09-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,38 +25,38 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | SPY | 12.0% | core | 765.61 | -0.74% | -1.02% | -0.24% |
 | QQQ | 12.0% | core | 736.53 | -1.07% | -0.67% | 2.91% |
 | TLT | 12.0% | core | 78.62 | -0.88% | -3.89% | -4.78% |
-| NAD | 10.5% | satellite | 9.87 | -2.28% | -6.0% | -15.09% |
 | GLD | 9.3% | core | 377.91 | -3.94% | -5.14% | -7.58% |
 | IEF | 6.2% | core | 89.53 | -0.52% | -1.78% | -3.23% |
-| LEN | 3.6% | satellite | 82.03 | -0.15% | 5.06% | -4.98% |
-| MEOH | 3.1% | satellite | 59.78 | 1.56% | 1.84% | 3.96% |
-| TRMD | 3.1% | satellite | 35.42 | 3.21% | -4.58% | 16.59% |
-| DT | 3.0% | satellite | 57.84 | -0.19% | 2.55% | 7.77% |
-| NKTR | 2.7% | satellite | 60.4 | 5.85% | -9.63% | -16.71% |
-| GPI | 2.3% | satellite | 242.23 | -3.95% | -3.44% | -8.04% |
-| INBX | 1.9% | satellite | 101.71 | 2.11% | -9.22% | -17.58% |
-| FOSL | 1.8% | satellite | 6.02 | -2.9% | 2.73% | 12.52% |
-| TYRA | 1.5% | satellite | 21.45 | -1.42% | -16.37% | -13.99% |
+| LLYVK | 5.8% | satellite | 99.92 | 0.56% | 1.57% | -3.51% |
+| PNRG | 4.5% | satellite | 206.78 | -0.91% | -0.82% | -1.39% |
+| LILA | 4.5% | satellite | 8.49 | 0.12% | -3.19% | -0.82% |
+| TRMD | 3.8% | satellite | 35.42 | 3.21% | -4.58% | 16.59% |
+| GRDN | 3.7% | satellite | 40.74 | -1.14% | -7.74% | 9.93% |
+| GPI | 2.8% | satellite | 242.23 | -3.95% | -3.44% | -8.04% |
+| TH | 2.6% | satellite | 19.3 | -6.22% | -9.3% | 4.04% |
+| INBX | 2.3% | satellite | 101.71 | 2.11% | -9.22% | -17.58% |
+| TYRA | 1.9% | satellite | 21.45 | -1.42% | -16.37% | -13.99% |
+| REAX | 1.6% | satellite | 16.03 | -2.43% | -6.86% | -23.99% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.9%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 1.1%
 - Max drawdown historico: -2.8%
-- Beta vs SPY: 0.634 · posiciones efectivas: 13.7 · HHI: 0.073
+- Beta vs SPY: 0.568 · posiciones efectivas: 14.6 · HHI: 0.0686
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **GPI** · score agregado 763.8 · 12 señales · fuentes: corporate_insider, large_holder
-- **LEN** · score agregado 596.4 · 9 señales · fuentes: corporate_insider
 - **TRMD** · score agregado 279.0 · 4 señales · fuentes: large_holder
 - **INBX** · score agregado 249.6 · 4 señales · fuentes: corporate_insider
 - **TYRA** · score agregado 210.0 · 3 señales · fuentes: large_holder
-- **DT** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **FOSL** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **MEOH** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **NKTR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **NAD** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **LILA** · score agregado 120.3 · 2 señales · fuentes: corporate_insider
+- **GRDN** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **TH** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **PNRG** · score agregado 67.2 · 1 señales · fuentes: large_holder
+- **LLYVK** · score agregado 65.8 · 1 señales · fuentes: corporate_insider
+- **REAX** · score agregado 65.0 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -72,11 +72,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | ANIX | 73 | corporate_insider | KUMAR AMIT | 2 | $19,460 | cluster_buy,small_amount |
 | ATCH | 72 | corporate_insider | Schaible John Martin | 5 | $12,136 | cluster_buy,small_amount |
 | FNWD | 72 | corporate_insider | Lowry Robert T | 4 | $1,829 | cluster_buy,small_amount |
-| NKTR | 72 | large_holder | Two Seas Capital LP |  | - | - |
+| GRDN | 72 | large_holder | Bindley Capital Partners  |  | - | - |
+| ACOG | 72 | large_holder | Manchester Management Com |  | - | - |
 | RGR | 72 | large_holder | Beretta Holding S.A. |  | - | - |
-| LEN | 72 | corporate_insider | BERKSHIRE HATHAWAY INC | 0 | $43,518,878 | - |
+| GTE | 72 | large_holder | Equinox Partners Investme |  | - | - |
 | FNWD | 71 | corporate_insider | Scheub Todd M. | 4 | $1,407 | cluster_buy,small_amount |
-| LEN | 71 | corporate_insider | BERKSHIRE HATHAWAY INC | 0 | $32,170,598 | - |
 | ATCH | 71 | corporate_insider | Schaible John Martin | 5 | $7,508 | cluster_buy,small_amount |
 | FNWD | 70 | corporate_insider | Bochnowski Benjamin J | 4 | $224 | cluster_buy,small_amount |
 
@@ -84,14 +84,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| CRWD | 60 | corporate_insider | Podbere Burt W. | $29,950,135 | - |
-| CRWD | 59 | corporate_insider | Podbere Burt W. | $19,193,715 | - |
-| CRWD | 58 | corporate_insider | Podbere Burt W. | $18,142,337 | - |
-| CRWD | 58 | corporate_insider | Podbere Burt W. | $16,176,099 | - |
-| CRWD | 58 | corporate_insider | Podbere Burt W. | $16,259,500 | - |
-| CRWD | 58 | corporate_insider | Podbere Burt W. | $16,288,640 | - |
+| INNV | 61 | corporate_insider | TCO GROUP HOLDINGS, L.P. | $92,500,000 | - |
+| INNV | 61 | corporate_insider | IGNITE AGGREGATOR LP | $92,500,000 | - |
+| NTAP | 58 | corporate_insider | Kurian George | $7,398,150 | - |
+| GTLB | 57 | corporate_insider | Sijbrandij Sytse | $40,883,178 | - |
 | DUOL | 57 | corporate_insider | von Ahn Luis | $5,831,145 | - |
-| NTNX | 57 | corporate_insider | Maner Tarkan | $4,761,176 | - |
+| META | 57 | corporate_insider | Zuckerberg Mark | $5,915,434 | - |
+| META | 56 | corporate_insider | Zuckerberg Mark | $3,740,552 | - |
+| BNTX | 56 | corporate_insider | Sahin Ugur | $3,347,919 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.53 (-0.52% / -1.78% / -3.23%) [2026-09-28]
 - GLD: 377.91 (-3.94% / -5.14% / -7.58%) [2026-09-28]
 - ^VIX: 16.07 (8.07% / 8.07% / 7.71%) [2026-09-28]
-- BTC-USD: 83142.1 (-1.56% / -1.47% / 6.0%) [2026-09-28]
+- BTC-USD: 82949.35 (-1.79% / -1.7% / 5.75%) [2026-09-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,35 +123,31 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NTRA] Natera ( NASDAQ : NTRA ) vs . Fractyl Health ( NASDAQ : GUTS ) Head to Head Survey (2026-09-28)
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Biotech Stocks At 52 - Week Highs - CDNA +13 %, GRAL +15 %, TWST +16 %, ADPT , RVTY (2026-09-25)
-- [TWST] Twist Bioscience Shares Soar 10 . 27 % to New High , Extending a Remarkable 493 % Yearlong Rally Fueled by AI (2026-09-24)
-- [ATCH] AtlasClear Holdings , Inc . Reports Fiscal Year 2026 Results (2026-09-24)
-- [TWST] Paula Green Sells 294 Shares of Twist Bioscience ( NASDAQ : TWST ) Stock (2026-09-23)
+- [CBRS] BigBear . ai vs . Cerebras Systems : Which Technology Stock Is a Better Buy in 2026 ? (2026-09-29)
+- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) CTO Sells $25 , 076 , 400 . 00 in Stock (2026-09-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner BERKSHIRE HATHAWAY INC compro LEN por $32.2M el 2026-09-24.
-- 10% owner BERKSHIRE HATHAWAY INC compro LEN por $25.4M el 2026-09-25.
-- 10% owner BERKSHIRE HATHAWAY INC compro LEN por $43.5M el 2026-09-23.
 - 10% owner Conifer Management, L.L.C. compro GPI por $10.5M el 2026-09-24 [senal en multiples fuentes].
-- CFO Podbere Burt W. vendio CRWD por $30.0M el 2026-09-24.
+- 10% owner TCO GROUP HOLDINGS, L.P. vendio INNV por $92.5M el 2026-09-24.
 - 10% owner Conifer Management, L.L.C. compro GPI por $7.7M el 2026-09-25 [senal en multiples fuentes].
+- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.8M el 2026-09-24.
 - Insider Weiss Asset Management LP opero TBPH por $126.8M el 2026-09-23 [senal en multiples fuentes].
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $7.5M el 2026-09-23.
+- 10% owner Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. compro Calamos Aksia Hedged Strategies Fund por $7.5M el 2026-09-23.
+- Director Zambrano Lozano Rogelio compro CX por $6.9M el 2026-09-25.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,926,671 · win rate 85% · categorias: sports
-- zvon3 · PnL $100,460 · win rate 100% · categorias: sports
-- RJW1 · PnL $100,725 · win rate 98% · categorias: sports
-- ic4cream · PnL $192,054 · win rate 90% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $213,549 · win rate 89% · categorias: sports, crypto, politics
+- Diabolical-Prize · PnL $236,071 · win rate 94% · categorias: sports, economy
+- BreakTheBank · PnL $215,889 · win rate 86% · categorias: sports
+- primm · PnL $146,517 · win rate 85% · categorias: sports
+- btystu · PnL $46,196 · win rate 100% · categorias: sports, politics, crypto
+- Painfulvoid · PnL $30,565 · win rate 91% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -159,7 +155,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 520 registros 30d · ultimo dato 2026-09-28
+- **sec_insiders**: `ok` · 559 registros 30d · ultimo dato 2026-09-28
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-28
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -173,7 +169,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`DT, FOSL, GLD, GPI, IEF, INBX, LEN, MEOH, NAD, NKTR, QQQ, SPY, TLT, TRMD, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`GLD, GPI, GRDN, IEF, INBX, LILA, LLYVK, PNRG, QQQ, REAX, SPY, TH, TLT, TRMD, TYRA`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **90.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
