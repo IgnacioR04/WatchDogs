@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-30T00:41:43+00:00",
+  "generated_at": "2026-09-30T07:02:35+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7999,
-  "cash": 0.2001,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "BPRE": 0.0547,
-    "MTN": 0.0454,
-    "TRMD": 0.0423,
-    "MG": 0.0384,
-    "FOSL": 0.0262,
-    "TYRA": 0.024,
-    "HZO": 0.0227,
-    "ADUR": 0.0224,
-    "VNET": 0.0212,
-    "SWMR": 0.0108
+    "BPRE": 0.0515,
+    "MTN": 0.0428,
+    "TRMD": 0.0397,
+    "GME": 0.0392,
+    "GPI": 0.0344,
+    "TYRA": 0.0226,
+    "HZO": 0.0213,
+    "ADUR": 0.0211,
+    "WULF": 0.0186,
+    "LFCR": 0.0168
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "BPRE": 0.0497,
-    "TRMD": 0.0384,
-    "TYRA": 0.0218,
-    "ADUR": 0.0204,
-    "FOSL": 0.0238,
-    "MTN": 0.0413,
-    "HZO": 0.0206,
-    "SWMR": 0.0098,
-    "VNET": 0.0193,
-    "MG": 0.0349
+    "BPRE": 0.0468,
+    "TRMD": 0.0361,
+    "ADUR": 0.0192,
+    "MTN": 0.0389,
+    "LFCR": 0.0153,
+    "HZO": 0.0194,
+    "TYRA": 0.0205,
+    "GPI": 0.0313,
+    "GME": 0.0356,
+    "WULF": 0.0169
   },
   "satellite_rationale": [
     {
@@ -58,23 +58,7 @@
       "n_signals": 3
     },
     {
-      "ticker": "TYRA",
-      "score": 210.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
       "ticker": "ADUR",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "FOSL",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -90,6 +74,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "LFCR",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "HZO",
       "score": 139.5,
       "sources": [
@@ -98,7 +90,15 @@
       "n_signals": 2
     },
     {
-      "ticker": "SWMR",
+      "ticker": "TYRA",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "GPI",
       "score": 138.0,
       "sources": [
         "large_holder"
@@ -106,33 +106,33 @@
       "n_signals": 2
     },
     {
-      "ticker": "VNET",
-      "score": 138.0,
+      "ticker": "GME",
+      "score": 130.7,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "MG",
-      "score": 138.0,
+      "ticker": "WULF",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1152,
-    "var_95_1d": 0.0097,
-    "cvar_95_1d": 0.0131,
-    "max_drawdown": -0.0531,
-    "beta_spy": 0.739,
-    "hhi": 0.0624,
+    "ann_vol": 0.1057,
+    "var_95_1d": 0.0096,
+    "cvar_95_1d": 0.0123,
+    "max_drawdown": -0.0439,
+    "beta_spy": 0.665,
+    "hhi": 0.062,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.0,
-    "gross_exposure": 0.7999,
+    "effective_positions": 16.1,
+    "gross_exposure": 0.7998,
     "days_used": 126
   },
   "risk_gate": {
