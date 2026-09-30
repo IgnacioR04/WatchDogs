@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-30T07:02:35+00:00",
+  "generated_at": "2026-09-30T13:59:13+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.8,
+  "cash": 0.2,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "IEF": 0.0572,
-    "BPRE": 0.0515,
-    "MTN": 0.0428,
-    "TRMD": 0.0397,
-    "GME": 0.0392,
-    "GPI": 0.0344,
-    "TYRA": 0.0226,
-    "HZO": 0.0213,
-    "ADUR": 0.0211,
-    "WULF": 0.0186,
-    "LFCR": 0.0168
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "HZO": 0.12,
+    "GLD": 0.1002,
+    "IEF": 0.0668,
+    "BPRE": 0.0304,
+    "MTN": 0.0247,
+    "BEKE": 0.0207,
+    "GPI": 0.0185,
+    "ADUR": 0.0181,
+    "TRMD": 0.0172,
+    "WULF": 0.0098,
+    "TYRA": 0.0086,
+    "LFCR": 0.005
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "BPRE": 0.0468,
-    "TRMD": 0.0361,
-    "ADUR": 0.0192,
-    "MTN": 0.0389,
-    "LFCR": 0.0153,
-    "HZO": 0.0194,
-    "TYRA": 0.0205,
-    "GPI": 0.0313,
-    "GME": 0.0356,
-    "WULF": 0.0169
+    "BPRE": 0.0237,
+    "TRMD": 0.0134,
+    "ADUR": 0.0141,
+    "LFCR": 0.0039,
+    "HZO": 0.1608,
+    "TYRA": 0.0067,
+    "GPI": 0.0144,
+    "MTN": 0.0192,
+    "WULF": 0.0076,
+    "BEKE": 0.0161
   },
   "satellite_rationale": [
     {
@@ -60,14 +60,6 @@
     {
       "ticker": "ADUR",
       "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MTN",
-      "score": 140.4,
       "sources": [
         "large_holder"
       ],
@@ -106,10 +98,10 @@
       "n_signals": 2
     },
     {
-      "ticker": "GME",
-      "score": 130.7,
+      "ticker": "MTN",
+      "score": 138.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -120,20 +112,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "BEKE",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1057,
-    "var_95_1d": 0.0096,
-    "cvar_95_1d": 0.0123,
-    "max_drawdown": -0.0439,
-    "beta_spy": 0.665,
-    "hhi": 0.062,
+    "ann_vol": 0.0701,
+    "var_95_1d": 0.0067,
+    "cvar_95_1d": 0.0073,
+    "max_drawdown": -0.0206,
+    "beta_spy": 0.594,
+    "hhi": 0.0752,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.1,
-    "gross_exposure": 0.7998,
-    "days_used": 126
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8,
+    "days_used": 35
   },
   "risk_gate": {
     "passed": true,
