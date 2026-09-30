@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-29T21:02:47+00:00",
+  "generated_at": "2026-09-30T00:41:43+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
   "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "GBTG": 0.12,
-    "GLD": 0.0978,
-    "IEF": 0.0652,
-    "BPRE": 0.0246,
-    "MEDP": 0.0224,
-    "BEKE": 0.0214,
-    "TRMD": 0.0199,
-    "INR": 0.0183,
-    "TH": 0.0153,
-    "FOSL": 0.0124,
-    "ADUR": 0.0118,
-    "TYRA": 0.0108
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
+    "GLD": 0.0858,
+    "IEF": 0.0572,
+    "BPRE": 0.0547,
+    "MTN": 0.0454,
+    "TRMD": 0.0423,
+    "MG": 0.0384,
+    "FOSL": 0.0262,
+    "TYRA": 0.024,
+    "HZO": 0.0227,
+    "ADUR": 0.0224,
+    "VNET": 0.0212,
+    "SWMR": 0.0108
   },
   "core": {
     "SPY": 0.182,
@@ -29,18 +29,26 @@
     "GLD": 0.078
   },
   "satellite": {
-    "TRMD": 0.0159,
-    "TYRA": 0.0086,
-    "ADUR": 0.0094,
-    "FOSL": 0.0099,
-    "BPRE": 0.0196,
-    "GBTG": 0.1548,
-    "BEKE": 0.0171,
-    "MEDP": 0.0179,
-    "TH": 0.0122,
-    "INR": 0.0146
+    "BPRE": 0.0497,
+    "TRMD": 0.0384,
+    "TYRA": 0.0218,
+    "ADUR": 0.0204,
+    "FOSL": 0.0238,
+    "MTN": 0.0413,
+    "HZO": 0.0206,
+    "SWMR": 0.0098,
+    "VNET": 0.0193,
+    "MG": 0.0349
   },
   "satellite_rationale": [
+    {
+      "ticker": "BPRE",
+      "score": 363.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
+    },
     {
       "ticker": "TRMD",
       "score": 210.0,
@@ -74,66 +82,58 @@
       "n_signals": 2
     },
     {
-      "ticker": "BPRE",
-      "score": 123.1,
+      "ticker": "MTN",
+      "score": 140.4,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "GBTG",
-      "score": 71.8,
+      "ticker": "HZO",
+      "score": 139.5,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "BEKE",
-      "score": 70.2,
+      "ticker": "SWMR",
+      "score": 138.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "MEDP",
-      "score": 70.2,
+      "ticker": "VNET",
+      "score": 138.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
-      "ticker": "TH",
-      "score": 70.2,
+      "ticker": "MG",
+      "score": 138.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "INR",
-      "score": 61.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0804,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0106,
-    "max_drawdown": -0.0338,
-    "beta_spy": 0.559,
-    "hhi": 0.0744,
+    "ann_vol": 0.1152,
+    "var_95_1d": 0.0097,
+    "cvar_95_1d": 0.0131,
+    "max_drawdown": -0.0531,
+    "beta_spy": 0.739,
+    "hhi": 0.0624,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 13.4,
+    "effective_positions": 16.0,
     "gross_exposure": 0.7999,
-    "days_used": 93
+    "days_used": 126
   },
   "risk_gate": {
     "passed": true,
