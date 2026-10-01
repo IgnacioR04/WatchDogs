@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-01T00:07:20.433136+00:00",
+  "generated_at": "2026-10-01T06:01:35.640117+00:00",
   "window": {
     "from": "2026-09-01",
     "to": "2026-10-01",
@@ -24,7 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai"
+      "ai",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -32,6 +33,24 @@
     {
       "id": "move_1",
       "rank": 1,
+      "title": "10% owner compro LEN ($52.1M)",
+      "summary": "10% owner BERKSHIRE HATHAWAY INC compro LEN por $52.1M el 2026-09-30.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "BERKSHIRE HATHAWAY INC",
+      "actor_type": "ten_percent_owner",
+      "ticker": "LEN",
+      "direction": "buy",
+      "amount_estimated": 52120752.67,
+      "event_date": "2026-09-30",
+      "importance_score": 88.4,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526409451/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
       "title": "10% owner compro KOD ($20.2M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $20.2M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -45,15 +64,15 @@
       "importance_score": 86.1,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
     },
     {
-      "id": "move_2",
-      "rank": 2,
+      "id": "move_3",
+      "rank": 3,
       "title": "10% owner compro KOD ($17.7M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $17.7M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -67,15 +86,15 @@
       "importance_score": 85.8,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
     },
     {
-      "id": "move_3",
-      "rank": 3,
+      "id": "move_4",
+      "rank": 4,
       "title": "10% owner compro CRBG ($25.1M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $25.1M el 2026-09-28.",
       "source": "sec_form_4",
@@ -92,8 +111,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526409206/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_5",
+      "rank": 5,
+      "title": "10% owner compro GPI ($6.9M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $6.9M el 2026-09-29 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 6934960.15,
+      "event_date": "2026-09-29",
+      "importance_score": 85.3,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_6",
+      "rank": 6,
       "title": "10% owner compro AGL Private Credit Income Fund ($22.4M)",
       "summary": "10% owner Abu Dhabi Investment Authority compro AGL Private Credit Income Fund por $22.4M el 2026-09-28.",
       "source": "sec_form_4",
@@ -110,8 +147,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1362558/000119312526409304/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro KOD ($10.4M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $10.4M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -125,15 +162,15 @@
       "importance_score": 84.7,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409118/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_8",
+      "rank": 8,
       "title": "10% owner compro KOD ($9.6M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $9.6M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -147,15 +184,15 @@
       "importance_score": 84.5,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro KOD ($9.3M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $9.3M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -169,15 +206,15 @@
       "importance_score": 84.4,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409118/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro KOD ($8.7M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $8.7M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -191,15 +228,87 @@
       "importance_score": 84.3,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_11",
+      "rank": 11,
+      "title": "10% owner compro GPI ($8.3M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $8.3M el 2026-09-28 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 8345118.75,
+      "event_date": "2026-09-28",
+      "importance_score": 84.2,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_12",
+      "rank": 12,
+      "title": "10% owner compro GPI ($8.4M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $8.4M el 2026-09-28 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 8414173.01,
+      "event_date": "2026-09-28",
+      "importance_score": 84.2,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
+      "title": "10% owner compro GPI ($4.0M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $4.0M el 2026-09-30 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 4019859.35,
+      "event_date": "2026-09-30",
+      "importance_score": 84.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_14",
+      "rank": 14,
+      "title": "10% owner compro GPI ($4.0M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $4.0M el 2026-09-30 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 3997607.3,
+      "event_date": "2026-09-30",
+      "importance_score": 84.1,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_15",
+      "rank": 15,
       "title": "10% owner opero PAYX ($56.2M)",
       "summary": "10% owner GOLISANO B THOMAS opero PAYX por $56.2M el 2026-09-28.",
       "source": "sec_form_4",
@@ -216,8 +325,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/903201/000119312526409025/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_16",
+      "rank": 16,
       "title": "10% owner compro KOD ($7.4M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $7.4M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -231,15 +340,51 @@
       "importance_score": 83.9,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_17",
+      "rank": 17,
+      "title": "10% owner compro GPI ($3.5M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $3.5M el 2026-09-30 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 3522747.95,
+      "event_date": "2026-09-30",
+      "importance_score": 83.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "10% owner compro GPI ($3.5M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $3.5M el 2026-09-29 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
+      "direction": "buy",
+      "amount_estimated": 3489839.91,
+      "event_date": "2026-09-29",
+      "importance_score": 83.8,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
       "title": "10% owner compro KOD ($6.6M)",
       "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $6.6M el 2026-09-28 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -253,197 +398,29 @@
       "importance_score": 83.7,
       "cross_source_score": 25.0,
       "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
+        "news_59631526195",
+        "news_37414727022",
+        "news_330027887432"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
-    },
-    {
-      "id": "move_12",
-      "rank": 12,
-      "title": "10% owner compro KOD ($5.8M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $5.8M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 5753115.01,
-      "event_date": "2026-09-28",
-      "importance_score": 83.4,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
-    },
-    {
-      "id": "move_13",
-      "rank": 13,
-      "title": "10% owner compro KOD ($5.7M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $5.7M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 5675092.9,
-      "event_date": "2026-09-28",
-      "importance_score": 83.4,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
-      "title": "10% owner compro ADRX ($10.0M)",
-      "summary": "10% owner GORDON CARL L compro ADRX por $10.0M el 2026-09-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "GORDON CARL L",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ADRX",
-      "direction": "buy",
-      "amount_estimated": 9999995.0,
-      "event_date": "2026-09-28",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1282930/000094787126000911/"
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
-      "title": "10% owner compro KOD ($5.5M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $5.5M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 5524214.09,
-      "event_date": "2026-09-28",
-      "importance_score": 83.3,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409127/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "10% owner compro KOD ($4.7M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $4.7M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 4710486.5,
-      "event_date": "2026-09-28",
-      "importance_score": 83.0,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
-      "title": "CEO vendio MPWR ($14.8M)",
-      "summary": "CEO Hsing Michael vendio MPWR por $14.8M el 2026-09-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Hsing Michael",
-      "actor_type": "ceo",
-      "ticker": "MPWR",
-      "direction": "sell",
-      "amount_estimated": 14821132.81,
-      "event_date": "2026-09-28",
-      "importance_score": 82.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1308676/000121465926012375/"
-    },
-    {
-      "id": "move_18",
-      "rank": 18,
-      "title": "10% owner compro KOD ($3.9M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $3.9M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 3910412.91,
-      "event_date": "2026-09-28",
-      "importance_score": 82.6,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "10% owner compro KOD ($3.7M)",
-      "summary": "10% owner BAKER BROS. ADVISORS LP compro KOD por $3.7M el 2026-09-28 [senal en multiples fuentes].",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "ticker": "KOD",
-      "direction": "buy",
-      "amount_estimated": 3743808.19,
-      "event_date": "2026-09-28",
-      "importance_score": 82.5,
-      "cross_source_score": 25.0,
-      "related_news": [
-        "news_894285322248",
-        "news_668186025931",
-        "news_155955160792"
-      ],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1087939/000119312526409116/"
     },
     {
       "id": "move_20",
       "rank": 20,
-      "title": "CEO compro PAM ($2.0M)",
-      "summary": "CEO Mariani Gustavo compro PAM por $2.0M el 2026-09-25.",
+      "title": "10% owner compro GPI ($3.0M)",
+      "summary": "10% owner Conifer Management, L.L.C. compro GPI por $3.0M el 2026-09-30 [senal en multiples fuentes].",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Mariani Gustavo",
-      "actor_type": "ceo",
-      "ticker": "PAM",
+      "actor_name": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "GPI",
       "direction": "buy",
-      "amount_estimated": 1956500.0,
-      "event_date": "2026-09-25",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
+      "amount_estimated": 2965922.06,
+      "event_date": "2026-09-30",
+      "importance_score": 83.5,
+      "cross_source_score": 25.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2028917/000202891726000003/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/"
     }
   ],
   "top_tickers": {
@@ -452,6 +429,15 @@
         "ticker": "KOD",
         "company": "Kodiak Sciences Inc.",
         "pressure_score": 6416.9,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "GPI",
+        "company": "Group 1 Automotive, Inc.",
+        "pressure_score": 2477.2,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -477,6 +463,22 @@
         "ticker": "FUL",
         "company": "FULLER H B CO",
         "pressure_score": 486.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "LEN",
+        "company": "LENNAR CORP /NEW/",
+        "pressure_score": 391.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BPRE",
+        "company": "Bluerock Private Real Estate Fund",
+        "pressure_score": 382.2,
         "sources": [
           "corporate_insider"
         ]
@@ -545,30 +547,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "PMPEX",
-        "company": "Primark Meketa Private Equity Investments Fund",
-        "pressure_score": 200.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RAKR",
-        "company": "Rainmaker Worldwide Inc.",
-        "pressure_score": 177.6,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "CRBG",
-        "company": "Corebridge Financial, Inc.",
-        "pressure_score": 165.6,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ],
     "sell_pressure": [
@@ -595,6 +573,14 @@
         "sources": [
           "corporate_insider",
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1331.0,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -646,14 +632,6 @@
         ]
       },
       {
-        "ticker": "CRDO",
-        "company": "Credo Technology Group Holding Ltd",
-        "pressure_score": 446.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "NYAX",
         "company": "Nayax Ltd.",
         "pressure_score": 375.9,
@@ -697,6 +675,15 @@
   },
   "insider_buying": [
     {
+      "ticker": "LEN",
+      "company": "LENNAR CORP /NEW/",
+      "actor": "BERKSHIRE HATHAWAY INC",
+      "actor_type": "ten_percent_owner",
+      "amount": 52120752.67,
+      "date": "2026-09-30",
+      "score": 88.4
+    },
+    {
       "ticker": "KOD",
       "company": "Kodiak Sciences Inc.",
       "actor": "BAKER BROS. ADVISORS LP",
@@ -722,6 +709,15 @@
       "amount": 25122557.51,
       "date": "2026-09-28",
       "score": 85.4
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 6934960.15,
+      "date": "2026-09-29",
+      "score": 85.3
     },
     {
       "ticker": "KOD",
@@ -760,6 +756,42 @@
       "score": 84.3
     },
     {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 8345118.75,
+      "date": "2026-09-28",
+      "score": 84.2
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 8414173.01,
+      "date": "2026-09-28",
+      "score": 84.2
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 4019859.35,
+      "date": "2026-09-30",
+      "score": 84.1
+    },
+    {
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
+      "actor_type": "ten_percent_owner",
+      "amount": 3997607.3,
+      "date": "2026-09-30",
+      "score": 84.1
+    },
+    {
       "ticker": "KOD",
       "company": "Kodiak Sciences Inc.",
       "actor": "BAKER BROS. ADVISORS LP",
@@ -769,67 +801,13 @@
       "score": 83.9
     },
     {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc.",
-      "actor": "BAKER BROS. ADVISORS LP",
+      "ticker": "GPI",
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "actor": "Conifer Management, L.L.C.",
       "actor_type": "ten_percent_owner",
-      "amount": 6578388.64,
-      "date": "2026-09-28",
-      "score": 83.7
-    },
-    {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc.",
-      "actor": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 5753115.01,
-      "date": "2026-09-28",
-      "score": 83.4
-    },
-    {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc.",
-      "actor": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 5675092.9,
-      "date": "2026-09-28",
-      "score": 83.4
-    },
-    {
-      "ticker": "ADRX",
-      "company": "ADARx Pharmaceuticals, Inc.",
-      "actor": "GORDON CARL L",
-      "actor_type": "ten_percent_owner",
-      "amount": 9999995.0,
-      "date": "2026-09-28",
-      "score": 83.3
-    },
-    {
-      "ticker": "ADRX",
-      "company": "ADARx Pharmaceuticals, Inc.",
-      "actor": "ORBIMED ADVISORS LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 9999995.0,
-      "date": "2026-09-28",
-      "score": 83.3
-    },
-    {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc.",
-      "actor": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 5524214.09,
-      "date": "2026-09-28",
-      "score": 83.3
-    },
-    {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc.",
-      "actor": "BAKER BROS. ADVISORS LP",
-      "actor_type": "ten_percent_owner",
-      "amount": 4710486.5,
-      "date": "2026-09-28",
-      "score": 83.0
+      "amount": 3522747.95,
+      "date": "2026-09-30",
+      "score": 83.8
     }
   ],
   "institutional_changes": [
@@ -1026,6 +1004,15 @@
       "date": "2026-09-23"
     },
     {
+      "filer": "UAW Retiree Medical Benefits Trust",
+      "company": "NC SLF INC.",
+      "ticker": "",
+      "ownership_pct": 99.3,
+      "shares": 71854715,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-30"
+    },
+    {
       "filer": "Tsang Claudius",
       "company": "BEST SPAC I Acquisition Corp.",
       "ticker": "",
@@ -1141,212 +1128,49 @@
       "shares": 6597084,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-28"
-    },
-    {
-      "filer": "Muchun Zhu",
-      "company": "Intercont (Cayman) Limited",
-      "ticker": "NCT",
-      "ownership_pct": 58.7,
-      "shares": 1831598,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-30"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xc430e5b171",
-        "username": "Gourmet1",
-        "pnl": 151617.33,
-        "win_rate": 0.8763,
-        "volume": 133088.79,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 27530.95,
-        "win_rate": 0.9798,
-        "volume": 6192.72,
+        "wallet": "0x16bb9951a3",
+        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+        "pnl": 23083.64,
+        "win_rate": 0.9435,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 48576.52,
-        "win_rate": 0.9187,
-        "volume": 261878.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf3ce7f04dd",
-        "username": "Sisyphus-",
-        "pnl": 19796.75,
-        "win_rate": 0.964,
-        "volume": 182119.58,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x0235dc24b3",
-        "username": "darkumbreon88",
-        "pnl": 17695.49,
-        "win_rate": 0.9539,
-        "volume": 68123.27,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xd38ad20037",
-        "username": "johnny234",
-        "pnl": 28464.43,
-        "win_rate": 0.8451,
-        "volume": 125544.46,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x74b75e8436",
-        "username": "RNGUzi",
-        "pnl": 17148.48,
-        "win_rate": 0.8785,
-        "volume": 173477.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x103721386e",
-        "username": "equalsignificance",
-        "pnl": 18014.19,
-        "win_rate": 0.8603,
-        "volume": 218106.07,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x6e55301522",
-        "username": "yadens",
-        "pnl": 20874.02,
-        "win_rate": 0.8481,
-        "volume": 135338.62,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 162294.3,
-        "win_rate": 0.704,
-        "volume": 2826768.79,
-        "categories": [
-          "sports"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 95141.95,
-        "win_rate": 0.547,
-        "volume": 3062350.79,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 57803.82,
-        "win_rate": 0.576,
-        "volume": 2865158.61,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 312573.25,
-        "win_rate": 0.6146,
-        "volume": 1176516.01,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 162294.3,
-        "win_rate": 0.704,
-        "volume": 2826768.79,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 41758.72,
-        "win_rate": 0.489,
-        "volume": 631093.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 19817.76,
-        "win_rate": 0.661,
-        "volume": 1406087.73,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xf201a19b43",
-        "username": "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
-        "pnl": 37458.44,
-        "win_rate": 0.697,
-        "volume": 672483.4,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x67ac9e1ad7",
-        "username": "3648393489047",
-        "pnl": 31248.52,
-        "win_rate": 0.606,
-        "volume": 414524.58,
+        "wallet": "0xe8c4d68aff",
+        "username": "JAMJAMJAM4",
+        "pnl": 5344.86,
+        "win_rate": 0.942,
+        "volume": 6964.82,
         "categories": [
           "sports",
           "politics",
-          "crypto"
+          "economy"
         ]
       },
       {
-        "wallet": "0x96489abcb9",
-        "username": "anoin123",
-        "pnl": 63208.22,
-        "win_rate": 0.63,
-        "volume": 202651.99,
+        "wallet": "0xa2c908ce8b",
+        "username": "jaytee158",
+        "pnl": 26210.55,
+        "win_rate": 0.821,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x2110ba2a1e",
+        "username": "George.Smiley",
+        "pnl": 6469.09,
+        "win_rate": 0.906,
+        "volume": 0.0,
         "categories": [
           "politics",
           "economy",
@@ -1354,11 +1178,175 @@
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "omnibus-076daa",
-        "pnl": 119243.77,
-        "win_rate": 0.674,
-        "volume": 914135.53,
+        "wallet": "0x1250846658",
+        "username": "Kev69",
+        "pnl": 20947.31,
+        "win_rate": 0.819,
+        "volume": 224704.43,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x41558102a7",
+        "username": "LSB1",
+        "pnl": 8229.51,
+        "win_rate": 0.874,
+        "volume": 18300.56,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xb9392e612a",
+        "username": "IcemanSeason",
+        "pnl": 19323.61,
+        "win_rate": 0.9394,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 5979.42,
+        "win_rate": 0.8526,
+        "volume": 10000.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xeb490d0534",
+        "username": "SuperavitFiscal",
+        "pnl": 5757.15,
+        "win_rate": 0.8498,
+        "volume": 19592.76,
+        "categories": [
+          "sports",
+          "politics",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x26b46988d0",
+        "username": "kkookkoo",
+        "pnl": 58696.22,
+        "win_rate": 0.691,
+        "volume": 199396.64,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 51587.3,
+        "win_rate": 0.546,
+        "volume": 690888.05,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x26b46988d0",
+        "username": "kkookkoo",
+        "pnl": 58696.22,
+        "win_rate": 0.691,
+        "volume": 199396.64,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 20681.46,
+        "win_rate": 0.57,
+        "volume": 214563.32,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x11fe63de4b",
+        "username": "teslaRoadster",
+        "pnl": 22359.33,
+        "win_rate": 1.0,
+        "volume": 101864.85,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x385edd3590",
+        "username": "CHZHSHCH",
+        "pnl": 63457.44,
+        "win_rate": 0.5,
+        "volume": 92638.6,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x821dab0565",
+        "username": "Flaznorp",
+        "pnl": 8257.81,
+        "win_rate": 0.569,
+        "volume": 336938.8,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1250846658",
+        "username": "Kev69",
+        "pnl": 20947.31,
+        "win_rate": 0.819,
+        "volume": 224704.43,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xdc41c39b95",
+        "username": "nigiri99",
+        "pnl": 56519.49,
+        "win_rate": 0.46,
+        "volume": 91535.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf6dd2e6947",
+        "username": "Katalunygeaxvhj",
+        "pnl": 11875.56,
+        "win_rate": 0.3753,
+        "volume": 76878.05,
+        "categories": [
+          "crypto",
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x84cfffc3f1",
+        "username": "mooseborzoi",
+        "pnl": 68845.94,
+        "win_rate": 0.387,
+        "volume": 108114.07,
         "categories": [
           "sports"
         ]
@@ -1367,9 +1355,106 @@
   },
   "news": [
     {
+      "title": "Cerebras Systems ( NASDAQ : CBRS ) Stock Sees Heavy Call Option Buying",
+      "url": "https://www.themarketsdaily.com/2026/10/01/cerebras-systems-nasdaqcbrs-stock-sees-heavy-call-option-buying.html",
+      "ticker": "CBRS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Cerebras Systems ( NASDAQ : CBRS ) CAO Yagnesh Patel Sells 1 , 320 Shares of Company Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13603330/cerebras-systems-nasdaqcbrs-cao-yagnesh-patel-sells-1320-shares-of-company-stock.html",
+      "ticker": "CBRS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Insider Selling : Bumble ( NASDAQ : BMBL ) Major Shareholder Sells $11 , 077 , 261 . 44 in Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13603332/insider-selling-bumble-nasdaqbmbl-major-shareholder-sells-11077261-44-in-stock.html",
+      "ticker": "BMBL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
+      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
+      "ticker": "UTHR",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Cerebras Systems ( NASDAQ : CBRS ) CAO Sells $269 , 940 . 00 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/30/cerebras-systems-nasdaqcbrs-cao-sells-269940-00-in-stock.html",
+      "ticker": "CBRS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Insider Selling : Cerebras Systems ( NASDAQ : CBRS ) COO Sells 396 , 000 Shares of Stock",
+      "url": "https://www.themarketsdaily.com/2026/09/30/insider-selling-cerebras-systems-nasdaqcbrs-coo-sells-396000-shares-of-stock.html",
+      "ticker": "CBRS",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Bumble ( NASDAQ : BMBL ) Major Shareholder Sells $11 , 077 , 261 . 44 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/30/bumble-nasdaqbmbl-major-shareholder-sells-11077261-44-in-stock.html",
+      "ticker": "BMBL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
       "title": "Insider Buying : Kodiak Sciences ( NASDAQ : KOD ) Director Buys $60 , 529 , 244 . 82 in Stock",
       "url": "https://www.themarketsdaily.com/2026/09/30/insider-buying-kodiak-sciences-nasdaqkod-director-buys-60529244-82-in-stock.html",
       "ticker": "KOD",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13603118/park-ohio-nasdaqpkoh-stock-insider-robert-vilsack-sells-9000-shares.html",
+      "ticker": "PKOH",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-30-why-is-united-therapeutics-uthr-stock-rocketing-higher-today",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Cerebras Systems ( CBRS ) & The Competition Financial Analysis",
+      "url": "https://www.themarketsdaily.com/2026/09/30/cerebras-systems-cbrs-the-competition-financial-analysis.html",
+      "ticker": "CBRS",
+      "themes": [],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Stocks making the biggest moves midday : ROG , UTHR , MRNA , FORM",
+      "url": "https://www.cnbc.com/2026/09/30/stocks-making-the-biggest-moves-midday-rog-uthr-mrna-form.html",
+      "ticker": "UTHR",
       "themes": [
         "stock"
       ],
@@ -1407,14 +1492,61 @@
       "date": "2026-09-29"
     },
     {
+      "title": "United Therapeutics ( UTHR ): Goldman Says Sell As The Base Business Shrinks , But 2027 Holds Real Catalysts",
+      "url": "https://www.insidermonkey.com/news/united-therapeutics-uthr-goldman-says-sell-as-the-base-business-shrinks-but-2027-holds-real-catalysts-1845850/",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-09-29"
+    },
+    {
       "title": "Kodiak Sciences ( KOD ) Climbs Nearly 3x on Promising Wet AMD Trial",
       "url": "https://www.insidermonkey.com/news/kodiak-sciences-kod-climbs-nearly-3x-on-promising-wet-amd-trial-1846238/",
       "ticker": "KOD",
       "themes": [],
       "date": "2026-09-29"
+    },
+    {
+      "title": "ADARx Pharmaceuticals Announces Pricing of Upsized $446 . 3 Million Initial Public Offering",
+      "url": "https://www.manilatimes.net/2026/09/25/tmt-newswire/globenewswire/adarx-pharmaceuticals-announces-pricing-of-upsized-4463-million-initial-public-offering/2432786",
+      "ticker": "ADRX",
+      "themes": [],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Park - Ohio ( NASDAQ : PKOH ) Share Price Breaks Above Two Hundred Day Moving Average – What Next ? ",
+      "url": "https://www.themarketsdaily.com/2026/09/24/park-ohio-nasdaqpkoh-share-price-breaks-above-two-hundred-day-moving-average-whats-next.html",
+      "ticker": "PKOH",
+      "themes": [],
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Contrasting Cyclacel Pharmaceuticals ( NASDAQ : BGMS ) and Park - Ohio ( NASDAQ : PKOH ) ",
+      "url": "https://www.themarketsdaily.com/2026/09/24/contrasting-cyclacel-pharmaceuticals-nasdaqbgms-and-park-ohio-nasdaqpkoh.html",
+      "ticker": "PKOH",
+      "themes": [],
+      "date": "2026-09-24"
+    },
+    {
+      "title": "FinancialContent - Why United Therapeutics ( UTHR ) Shares Are Falling Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-24-why-united-therapeutics-uthr-shares-are-falling-today",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Nayax ( NASDAQ : NYAX ) Insider Acquires 1 , 554 Shares",
+      "url": "https://www.dailypolitical.com/2026/09/24/nayax-nasdaqnyax-insider-acquires-1554-shares.html",
+      "ticker": "NYAX",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-09-24"
     }
   ],
-  "signals_count": 1449,
+  "signals_count": 1501,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

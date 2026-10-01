@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-01T00:08:21+00:00 -->
+<!-- trader_prompt.md generado 2026-10-01T06:02:30+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-01T00:08:21+00:00 · ventana señales 2026-09-01 -> 2026-10-01_
+_Generado 2026-10-01T06:02:30+00:00 · ventana señales 2026-09-01 -> 2026-10-01_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -244,7 +244,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 16.34)
-- Tendencia: `bull` (SPY 764.2 · MA50 760.87 · MA200 715.71 · dist MA200: 6.78%)
+- Tendencia: `bull` (SPY 762.63 · MA50 761.19 · MA200 716.11 · dist MA200: 6.5%)
 - Credito: `normal` (HY spread 3.08)
 - Tipos: `flat` (curva 10y-2y 0.41)
 - Fed Funds: 3.63%
@@ -256,33 +256,37 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 764.2 | -0.18% | -1.19% | -0.12% |
-| QQQ | 11.4% | core | 737.93 | 0.19% | -1.27% | 3.06% |
-| TLT | 11.4% | core | 78.23 | -0.5% | -4.31% | -4.84% |
-| GLD | 8.6% | core | 382.89 | 1.32% | -4.29% | -6.25% |
-| CRBG | 8.5% | satellite | 33.77 | -0.03% | -0.21% | 4.53% |
-| FUL | 8.2% | satellite | 49.6 | 0.47% | -2.88% | -9.74% |
-| IEF | 5.7% | core | 89.45 | -0.09% | -1.88% | -3.2% |
-| ADUR | 5.5% | satellite | 12.25 | -0.49% | -3.31% | -11.36% |
-| TRMD | 5.2% | satellite | 36.15 | 2.06% | 4.39% | 18.31% |
-| WULF | 3.0% | satellite | 15.09 | -0.2% | -12.93% | -0.26% |
-| KOD | 0.5% | satellite | 91.12 | 1.33% | 169.59% | 143.96% |
+| SPY | 12.0% | core | 762.63 | -0.21% | -0.67% | 0.36% |
+| QQQ | 11.5% | core | 739.77 | 0.25% | -0.19% | 4.65% |
+| TLT | 11.5% | core | 77.78 | -0.58% | -3.33% | -5.0% |
+| GLD | 8.6% | core | 380.84 | -0.54% | -3.06% | -4.01% |
+| BPRE | 5.7% | satellite | 12.54 | 0.32% | 1.37% | 5.54% |
+| IEF | 5.7% | core | 89.31 | -0.16% | -0.98% | -3.03% |
+| CRBG | 5.3% | satellite | 33.12 | -1.92% | -2.27% | 3.69% |
+| FUL | 5.1% | satellite | 49.47 | -0.26% | -1.47% | -8.08% |
+| LEN | 4.2% | satellite | 81.59 | -1.71% | 0.09% | -1.4% |
+| GPI | 3.5% | satellite | 240.44 | -0.2% | -2.86% | -10.78% |
+| ADUR | 3.4% | satellite | 12.49 | 1.96% | -1.5% | -6.37% |
+| TRMD | 3.3% | satellite | 38.05 | 5.26% | 10.55% | 23.02% |
+| KOD | 0.3% | satellite | 94.8 | 4.04% | 200.76% | 155.8% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.4%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.779 · posiciones efectivas: 13.9 · HHI: 0.0717
+- Volatilidad anualizada: 8.5%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -2.6%
+- Beta vs SPY: 0.718 · posiciones efectivas: 15.3 · HHI: 0.0652
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **KOD** · score agregado 4556.6 · 73 señales · fuentes: corporate_insider, large_holder
+- **GPI** · score agregado 1983.3 · 31 señales · fuentes: corporate_insider, large_holder
+- **BPRE** · score agregado 384.0 · 5 señales · fuentes: corporate_insider
 - **FUL** · score agregado 381.9 · 5 señales · fuentes: corporate_insider
+- **LEN** · score agregado 258.2 · 4 señales · fuentes: corporate_insider
 - **ADUR** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **TRMD** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **CRBG** · score agregado 135.9 · 2 señales · fuentes: corporate_insider
-- **WULF** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -300,11 +304,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | NYAX | 81 | corporate_insider | Nechmad Yair | 2 | $851,111 | cluster_buy |
 | NYAX | 80 | corporate_insider | Nechmad Yair | 2 | $435,871 | cluster_buy |
 | NYAX | 79 | corporate_insider | Nechmad Yair | 2 | $357,680 | cluster_buy |
+| BPRE | 79 | corporate_insider | KAMFAR RAMIN | 2 | $1,943,544 | cluster_buy |
+| BPRE | 79 | corporate_insider | KAMFAR RAMIN | 2 | $1,711,688 | cluster_buy |
+| BPRE | 79 | corporate_insider | KAMFAR RAMIN | 2 | $1,696,012 | cluster_buy |
 | NYAX | 78 | corporate_insider | Nechmad Yair | 2 | $247,807 | cluster_buy |
 | NYAX | 77 | corporate_insider | Nechmad Yair | 2 | $124,134 | cluster_buy |
-| FUL | 76 | corporate_insider | Lauber Charles T | 5 | $99,985 | cluster_buy |
-| FUL | 76 | corporate_insider | FLORNESS DANIEL L | 5 | $100,160 | cluster_buy |
-| FUL | 76 | corporate_insider | HANDLEY THOMAS W | 5 | $98,820 | cluster_buy |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -326,15 +330,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 764.2 (-0.18% / -1.19% / -0.12%) [2026-09-29]
-- QQQ: 737.93 (0.19% / -1.27% / 3.06%) [2026-09-29]
-- IWM: 279.01 (-0.36% / -2.86% / -4.83%) [2026-09-29]
-- DIA: 512.88 (-0.22% / -0.99% / -3.29%) [2026-09-29]
-- TLT: 78.23 (-0.5% / -4.31% / -4.84%) [2026-09-29]
-- IEF: 89.45 (-0.09% / -1.88% / -3.2%) [2026-09-29]
-- GLD: 382.89 (1.32% / -4.29% / -6.25%) [2026-09-29]
+- SPY: 762.63 (-0.21% / -0.67% / 0.36%) [2026-09-30]
+- QQQ: 739.77 (0.25% / -0.19% / 4.65%) [2026-09-30]
+- IWM: 277.89 (-0.4% / -1.43% / -4.11%) [2026-09-30]
+- DIA: 508.55 (-0.84% / -1.12% / -3.42%) [2026-09-30]
+- TLT: 77.78 (-0.58% / -3.33% / -5.0%) [2026-09-30]
+- IEF: 89.31 (-0.16% / -0.98% / -3.03%) [2026-09-30]
+- GLD: 380.84 (-0.54% / -3.06% / -4.01%) [2026-09-30]
 - ^VIX: 16.34 (1.87% / 7.64% / 7.5%) [2026-09-30]
-- BTC-USD: 83476.75 (-0.17% / -0.66% / 9.02%) [2026-10-01]
+- BTC-USD: 84196.32 (0.69% / 0.19% / 9.96%) [2026-10-01]
 
 **Macro (valor · cambio 1m):**
 
@@ -349,35 +353,39 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (13), ai (2), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) Stock Sees Heavy Call Option Buying (2026-10-01)
+- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) CAO Yagnesh Patel Sells 1 , 320 Shares of Company Stock (2026-10-01)
+- [BMBL] Insider Selling : Bumble ( NASDAQ : BMBL ) Major Shareholder Sells $11 , 077 , 261 . 44 in Stock (2026-10-01)
+- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
+- [CBRS] Cerebras Systems ( NASDAQ : CBRS ) CAO Sells $269 , 940 . 00 in Stock (2026-09-30)
+- [CBRS] Insider Selling : Cerebras Systems ( NASDAQ : CBRS ) COO Sells 396 , 000 Shares of Stock (2026-09-30)
+- [BMBL] Bumble ( NASDAQ : BMBL ) Major Shareholder Sells $11 , 077 , 261 . 44 in Stock (2026-09-30)
 - [KOD] Insider Buying : Kodiak Sciences ( NASDAQ : KOD ) Director Buys $60 , 529 , 244 . 82 in Stock (2026-09-30)
-- [KOD] Some Wet Macular Degeneration Patients May Someday Need Eye Injections Only Twice a Year After Kodiak Trial (2026-09-30)
-- [KOD] Biotech Stock Kodiak Sciences ( Nasdaq : KOD ) Leads Nasdaq Monday Gainers ; up 177 % (2026-09-29)
-- [KOD] Why Kodiak Sciences Skyrocketed Today | The Motley Fool (2026-09-29)
-- [KOD] Why Kodiak Sciences Skyrocketed Today (2026-09-29)
-- [KOD] Kodiak Sciences ( KOD ) Climbs Nearly 3x on Promising Wet AMD Trial (2026-09-29)
+- [PKOH] Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares (2026-09-30)
+- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- 10% owner BERKSHIRE HATHAWAY INC compro LEN por $52.1M el 2026-09-30.
 - 10% owner BAKER BROS. ADVISORS LP compro KOD por $20.2M el 2026-09-28 [senal en multiples fuentes].
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $25.1M el 2026-09-28.
+- 10% owner Conifer Management, L.L.C. compro GPI por $6.9M el 2026-09-29 [senal en multiples fuentes].
 - 10% owner Abu Dhabi Investment Authority compro AGL Private Credit Income Fund por $22.4M el 2026-09-28.
+- 10% owner Conifer Management, L.L.C. compro GPI por $8.3M el 2026-09-28 [senal en multiples fuentes].
+- 10% owner Conifer Management, L.L.C. compro GPI por $4.0M el 2026-09-30 [senal en multiples fuentes].
 - 10% owner GOLISANO B THOMAS opero PAYX por $56.2M el 2026-09-28.
-- 10% owner GORDON CARL L compro ADRX por $10.0M el 2026-09-28.
-- CEO Hsing Michael vendio MPWR por $14.8M el 2026-09-28.
-- CEO Mariani Gustavo compro PAM por $2.0M el 2026-09-25.
-- 10% owner BAKER BROS. ADVISORS LP compro KOD por $1.7M el 2026-09-29 [senal en multiples fuentes].
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Gourmet1 · PnL $151,617 · win rate 88% · categorias: sports, crypto
-- RJW1 · PnL $27,531 · win rate 98% · categorias: sports
-- monkeymashingkeyboard · PnL $48,577 · win rate 92% · categorias: sports
-- Sisyphus- · PnL $19,797 · win rate 96% · categorias: sports
-- darkumbreon88 · PnL $17,695 · win rate 95% · categorias: sports, crypto
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $23,084 · win rate 94% · categorias: sports
+- JAMJAMJAM4 · PnL $5,345 · win rate 94% · categorias: sports, politics, economy
+- jaytee158 · PnL $26,211 · win rate 82% · categorias: sports, politics
+- George.Smiley · PnL $6,469 · win rate 91% · categorias: politics, economy, sports
+- Kev69 · PnL $20,947 · win rate 82% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -385,7 +393,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 699 registros 30d · ultimo dato 2026-09-30
+- **sec_insiders**: `ok` · 751 registros 30d · ultimo dato 2026-09-30
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-09-30
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -399,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADUR, CRBG, FUL, GLD, IEF, KOD, QQQ, SPY, TLT, TRMD, WULF`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ADUR, BPRE, CRBG, FUL, GLD, GPI, IEF, KOD, LEN, QQQ, SPY, TLT, TRMD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
