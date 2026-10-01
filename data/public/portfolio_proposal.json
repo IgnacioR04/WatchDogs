@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-09-30T19:34:23+00:00",
+  "generated_at": "2026-10-01T00:08:20+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "total_equity": 0.8001,
+  "cash": 0.1999,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.12,
-    "TLT": 0.12,
-    "HZO": 0.12,
-    "GLD": 0.0978,
-    "IEF": 0.0652,
-    "BPRE": 0.0286,
-    "FUL": 0.0253,
-    "MTN": 0.0232,
-    "GPI": 0.0174,
-    "ADUR": 0.0171,
-    "TRMD": 0.0162,
-    "COUR": 0.0162,
-    "TYRA": 0.0082,
-    "LFCR": 0.0048
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
+    "GLD": 0.0858,
+    "CRBG": 0.0848,
+    "FUL": 0.0818,
+    "IEF": 0.0572,
+    "ADUR": 0.0548,
+    "TRMD": 0.0523,
+    "WULF": 0.0296,
+    "KOD": 0.005
   },
   "core": {
     "SPY": 0.182,
@@ -29,18 +25,23 @@
     "GLD": 0.078
   },
   "satellite": {
-    "FUL": 0.0202,
-    "BPRE": 0.0228,
-    "TRMD": 0.0129,
-    "COUR": 0.0129,
-    "ADUR": 0.0136,
-    "LFCR": 0.0038,
-    "HZO": 0.1548,
-    "TYRA": 0.0065,
-    "GPI": 0.0139,
-    "MTN": 0.0185
+    "KOD": 0.0045,
+    "FUL": 0.0743,
+    "ADUR": 0.0498,
+    "TRMD": 0.0475,
+    "CRBG": 0.0771,
+    "WULF": 0.0269
   },
   "satellite_rationale": [
+    {
+      "ticker": "KOD",
+      "score": 4556.6,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 73
+    },
     {
       "ticker": "FUL",
       "score": 381.9,
@@ -48,30 +49,6 @@
         "corporate_insider"
       ],
       "n_signals": 5
-    },
-    {
-      "ticker": "BPRE",
-      "score": 363.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
-      "ticker": "TRMD",
-      "score": 210.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "COUR",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
     },
     {
       "ticker": "ADUR",
@@ -82,57 +59,41 @@
       "n_signals": 2
     },
     {
-      "ticker": "LFCR",
-      "score": 139.5,
+      "ticker": "TRMD",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "HZO",
-      "score": 139.5,
+      "ticker": "CRBG",
+      "score": 135.9,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "TYRA",
-      "score": 139.5,
+      "ticker": "WULF",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "GPI",
-      "score": 138.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MTN",
-      "score": 138.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0695,
-    "var_95_1d": 0.0069,
-    "cvar_95_1d": 0.0081,
-    "max_drawdown": -0.0256,
-    "beta_spy": 0.588,
-    "hhi": 0.0746,
+    "ann_vol": 0.0939,
+    "var_95_1d": 0.0098,
+    "cvar_95_1d": 0.0119,
+    "max_drawdown": -0.0345,
+    "beta_spy": 0.779,
+    "hhi": 0.0717,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 13.4,
-    "gross_exposure": 0.8,
+    "n_positions": 11,
+    "effective_positions": 13.9,
+    "gross_exposure": 0.8001,
     "days_used": 35
   },
   "risk_gate": {
