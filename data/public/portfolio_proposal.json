@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T19:07:59+00:00",
+  "generated_at": "2026-10-01T23:28:37+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7999,
-  "cash": 0.2001,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "EVV": 0.0976,
+    "EVV": 0.0973,
     "GLD": 0.0858,
-    "KTF": 0.0721,
+    "KTF": 0.0717,
     "IEF": 0.0572,
-    "BPRE": 0.0299,
-    "FUL": 0.0266,
-    "LEN": 0.0217,
-    "ADUR": 0.0176,
-    "TRMD": 0.0165,
+    "SPG": 0.0571,
+    "LEN": 0.0211,
+    "ADUR": 0.0174,
+    "TRMD": 0.0163,
     "COUR": 0.0157,
-    "XENE": 0.0087,
+    "LFCR": 0.005,
+    "SSTI": 0.0047,
     "KOD": 0.0017
   },
   "core": {
@@ -30,41 +30,25 @@
   },
   "satellite": {
     "KOD": 0.0015,
-    "FUL": 0.0242,
-    "BPRE": 0.0272,
-    "LEN": 0.0197,
-    "XENE": 0.0079,
-    "KTF": 0.0655,
-    "EVV": 0.0887,
+    "LEN": 0.0192,
+    "SPG": 0.0519,
+    "KTF": 0.0652,
+    "EVV": 0.0884,
     "COUR": 0.0143,
-    "ADUR": 0.016,
-    "TRMD": 0.015
+    "ADUR": 0.0158,
+    "TRMD": 0.0148,
+    "LFCR": 0.0045,
+    "SSTI": 0.0043
   },
   "satellite_rationale": [
     {
       "ticker": "KOD",
-      "score": 2867.9,
+      "score": 4556.6,
       "sources": [
         "corporate_insider",
         "large_holder"
       ],
-      "n_signals": 46
-    },
-    {
-      "ticker": "FUL",
-      "score": 458.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
-    {
-      "ticker": "BPRE",
-      "score": 384.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
+      "n_signals": 73
     },
     {
       "ticker": "LEN",
@@ -75,12 +59,12 @@
       "n_signals": 4
     },
     {
-      "ticker": "XENE",
-      "score": 160.9,
+      "ticker": "SPG",
+      "score": 225.2,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 2
+      "n_signals": 3
     },
     {
       "ticker": "KTF",
@@ -121,20 +105,36 @@
         "large_holder"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "LFCR",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "SSTI",
+      "score": 138.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0708,
-    "var_95_1d": 0.0087,
+    "ann_vol": 0.0683,
+    "var_95_1d": 0.0084,
     "cvar_95_1d": 0.0088,
-    "max_drawdown": -0.038,
-    "beta_spy": 0.612,
-    "hhi": 0.0689,
+    "max_drawdown": -0.0325,
+    "beta_spy": 0.601,
+    "hhi": 0.0704,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.7999,
-    "days_used": 36
+    "effective_positions": 14.2,
+    "gross_exposure": 0.7998,
+    "days_used": 37
   },
   "risk_gate": {
     "passed": true,
