@@ -1,23 +1,22 @@
 {
-  "generated_at": "2026-10-01T06:02:29+00:00",
+  "generated_at": "2026-10-01T13:26:05+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
   "cash": 0.2001,
   "weights": {
-    "SPY": 0.1201,
-    "QQQ": 0.1145,
-    "TLT": 0.1145,
+    "SPY": 0.12,
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
     "GLD": 0.0858,
-    "BPRE": 0.0573,
+    "BPRE": 0.0645,
+    "CRBG": 0.0586,
+    "FUL": 0.0573,
     "IEF": 0.0572,
-    "CRBG": 0.0529,
-    "FUL": 0.0509,
-    "LEN": 0.0418,
-    "GPI": 0.035,
-    "ADUR": 0.0342,
-    "TRMD": 0.0326,
-    "KOD": 0.0031
+    "LEN": 0.0467,
+    "GPI": 0.0394,
+    "ADUR": 0.0381,
+    "KOD": 0.0035
   },
   "core": {
     "SPY": 0.182,
@@ -27,14 +26,13 @@
     "GLD": 0.078
   },
   "satellite": {
-    "KOD": 0.0028,
-    "GPI": 0.0318,
-    "BPRE": 0.0521,
-    "FUL": 0.0463,
-    "LEN": 0.038,
-    "ADUR": 0.0311,
-    "TRMD": 0.0296,
-    "CRBG": 0.0481
+    "KOD": 0.0032,
+    "GPI": 0.0358,
+    "BPRE": 0.0586,
+    "FUL": 0.0521,
+    "LEN": 0.0424,
+    "ADUR": 0.0346,
+    "CRBG": 0.0533
   },
   "satellite_rationale": [
     {
@@ -88,14 +86,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "TRMD",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "CRBG",
       "score": 135.9,
       "sources": [
@@ -105,17 +95,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0854,
-    "var_95_1d": 0.0088,
-    "cvar_95_1d": 0.0095,
-    "max_drawdown": -0.0256,
-    "beta_spy": 0.718,
-    "hhi": 0.0652,
-    "max_position": 0.1201,
-    "n_positions": 13,
-    "effective_positions": 15.3,
+    "ann_vol": 0.0877,
+    "var_95_1d": 0.0094,
+    "cvar_95_1d": 0.0101,
+    "max_drawdown": -0.037,
+    "beta_spy": 0.754,
+    "hhi": 0.0673,
+    "max_position": 0.12,
+    "n_positions": 12,
+    "effective_positions": 14.9,
     "gross_exposure": 0.7999,
-    "days_used": 35
+    "days_used": 36
   },
   "risk_gate": {
     "passed": true,
