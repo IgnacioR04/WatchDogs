@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:26:05+00:00",
+  "generated_at": "2026-10-01T19:07:59+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
@@ -8,15 +8,18 @@
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
+    "EVV": 0.0976,
     "GLD": 0.0858,
-    "BPRE": 0.0645,
-    "CRBG": 0.0586,
-    "FUL": 0.0573,
+    "KTF": 0.0721,
     "IEF": 0.0572,
-    "LEN": 0.0467,
-    "GPI": 0.0394,
-    "ADUR": 0.0381,
-    "KOD": 0.0035
+    "BPRE": 0.0299,
+    "FUL": 0.0266,
+    "LEN": 0.0217,
+    "ADUR": 0.0176,
+    "TRMD": 0.0165,
+    "COUR": 0.0157,
+    "XENE": 0.0087,
+    "KOD": 0.0017
   },
   "core": {
     "SPY": 0.182,
@@ -26,44 +29,38 @@
     "GLD": 0.078
   },
   "satellite": {
-    "KOD": 0.0032,
-    "GPI": 0.0358,
-    "BPRE": 0.0586,
-    "FUL": 0.0521,
-    "LEN": 0.0424,
-    "ADUR": 0.0346,
-    "CRBG": 0.0533
+    "KOD": 0.0015,
+    "FUL": 0.0242,
+    "BPRE": 0.0272,
+    "LEN": 0.0197,
+    "XENE": 0.0079,
+    "KTF": 0.0655,
+    "EVV": 0.0887,
+    "COUR": 0.0143,
+    "ADUR": 0.016,
+    "TRMD": 0.015
   },
   "satellite_rationale": [
     {
       "ticker": "KOD",
-      "score": 4556.6,
+      "score": 2867.9,
       "sources": [
         "corporate_insider",
         "large_holder"
       ],
-      "n_signals": 73
+      "n_signals": 46
     },
     {
-      "ticker": "GPI",
-      "score": 1983.3,
+      "ticker": "FUL",
+      "score": 458.4,
       "sources": [
-        "corporate_insider",
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 31
+      "n_signals": 6
     },
     {
       "ticker": "BPRE",
       "score": 384.0,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 5
-    },
-    {
-      "ticker": "FUL",
-      "score": 381.9,
       "sources": [
         "corporate_insider"
       ],
@@ -78,6 +75,38 @@
       "n_signals": 4
     },
     {
+      "ticker": "XENE",
+      "score": 160.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "KTF",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "EVV",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "COUR",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "ADUR",
       "score": 141.0,
       "sources": [
@@ -86,24 +115,24 @@
       "n_signals": 2
     },
     {
-      "ticker": "CRBG",
-      "score": 135.9,
+      "ticker": "TRMD",
+      "score": 141.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0877,
-    "var_95_1d": 0.0094,
-    "cvar_95_1d": 0.0101,
-    "max_drawdown": -0.037,
-    "beta_spy": 0.754,
-    "hhi": 0.0673,
+    "ann_vol": 0.0708,
+    "var_95_1d": 0.0087,
+    "cvar_95_1d": 0.0088,
+    "max_drawdown": -0.038,
+    "beta_spy": 0.612,
+    "hhi": 0.0689,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 14.9,
+    "n_positions": 15,
+    "effective_positions": 14.5,
     "gross_exposure": 0.7999,
     "days_used": 36
   },
