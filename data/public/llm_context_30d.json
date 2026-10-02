@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-02T08:47:52.317690+00:00",
+  "generated_at": "2026-10-02T16:04:38.624052+00:00",
   "window": {
     "from": "2026-09-02",
     "to": "2026-10-02",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "earnings",
       "leadership",
-      "ai"
+      "ai",
+      "earnings"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -397,15 +397,7 @@
       {
         "ticker": "SPG",
         "company": "SIMON PROPERTY GROUP INC.",
-        "pressure_score": 483.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CINT",
-        "company": "CI&T Inc",
-        "pressure_score": 277.2,
+        "pressure_score": 342.7,
         "sources": [
           "corporate_insider"
         ]
@@ -414,6 +406,14 @@
         "ticker": "CTM",
         "company": "Castellum, Inc.",
         "pressure_score": 257.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NYAX",
+        "company": "Nayax Ltd.",
+        "pressure_score": 240.0,
         "sources": [
           "corporate_insider"
         ]
@@ -467,16 +467,25 @@
         ]
       },
       {
-        "ticker": "FLNA",
-        "company": "FILANA THERAPEUTICS, INC.",
-        "pressure_score": 154.4,
+        "ticker": "PYXS",
+        "company": "Pyxis Oncology, Inc.",
+        "pressure_score": 147.9,
         "sources": [
-          "corporate_insider"
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
         "ticker": "GF",
         "company": "NEW GERMANY FUND INC",
+        "pressure_score": 145.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UXIN",
+        "company": "Uxin Ltd",
         "pressure_score": 145.2,
         "sources": [
           "corporate_insider"
@@ -505,29 +514,13 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "COUR",
-        "company": "Coursera, Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
       {
         "ticker": "PKOH",
         "company": "PARK OHIO HOLDINGS CORP",
-        "pressure_score": 4600.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "FSEA",
-        "company": "First Seacoast Bancorp, Inc.",
-        "pressure_score": 2786.6,
+        "pressure_score": 7697.8,
         "sources": [
           "corporate_insider"
         ]
@@ -549,14 +542,6 @@
         ]
       },
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 721.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CRDO",
         "company": "Credo Technology Group Holding Ltd",
         "pressure_score": 628.0,
@@ -573,9 +558,25 @@
         ]
       },
       {
+        "ticker": "XPO",
+        "company": "XPO, Inc.",
+        "pressure_score": 349.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "RVMD",
         "company": "Revolution Medicines, Inc.",
         "pressure_score": 346.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AXIA3",
+        "company": "AXIA Energia S.A.",
+        "pressure_score": 281.2,
         "sources": [
           "corporate_insider"
         ]
@@ -659,22 +660,40 @@
       "score": 80.8
     },
     {
-      "ticker": "GBR",
-      "company": "New Concept Energy, Inc.",
-      "actor": "REALTY ADVISORS INC",
-      "actor_type": "ten_percent_owner",
-      "amount": 2000000.0,
-      "date": "2026-09-29",
-      "score": 79.9
+      "ticker": "NYAX",
+      "company": "Nayax Ltd.",
+      "actor": "Nechmad Yair",
+      "actor_type": "ceo",
+      "amount": 888934.73,
+      "date": "2026-09-30",
+      "score": 80.6
     },
     {
-      "ticker": "ORCL",
-      "company": "ORACLE CORP",
-      "actor": "RUSCKOWSKI STEPHEN H",
-      "actor_type": "director",
-      "amount": 3483800.0,
-      "date": "2026-09-29",
-      "score": 78.6
+      "ticker": "NYAX",
+      "company": "Nayax Ltd.",
+      "actor": "Nechmad Yair",
+      "actor_type": "ceo",
+      "amount": 777099.67,
+      "date": "2026-09-30",
+      "score": 80.3
+    },
+    {
+      "ticker": "DLHC",
+      "company": "DLH Holdings Corp.",
+      "actor": "Mink Brook Asset Management LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 736666.3,
+      "date": "2026-10-01",
+      "score": 79.2
+    },
+    {
+      "ticker": "NYAX",
+      "company": "Nayax Ltd.",
+      "actor": "Nechmad Yair",
+      "actor_type": "ceo",
+      "amount": 446047.78,
+      "date": "2026-09-30",
+      "score": 79.1
     },
     {
       "ticker": "AVR",
@@ -722,22 +741,13 @@
       "score": 77.3
     },
     {
-      "ticker": "FLNA",
-      "company": "FILANA THERAPEUTICS, INC.",
-      "actor": "Barry Richard",
-      "actor_type": "ceo",
-      "amount": 186131.7,
-      "date": "2026-09-29",
-      "score": 77.2
-    },
-    {
-      "ticker": "FLNA",
-      "company": "FILANA THERAPEUTICS, INC.",
-      "actor": "Barry Richard",
-      "actor_type": "ceo",
-      "amount": 92000.0,
-      "date": "2026-09-30",
-      "score": 77.2
+      "ticker": "PYXS",
+      "company": "Pyxis Oncology, Inc.",
+      "actor": "GordonMD Global Investments LP",
+      "actor_type": "ten_percent_owner",
+      "amount": 0.0,
+      "date": "2026-10-01",
+      "score": 76.1
     },
     {
       "ticker": "GF",
@@ -762,18 +772,9 @@
       "company": "Uxin Ltd",
       "actor": "Dai Kun",
       "actor_type": "ceo",
-      "amount": 9945.34,
-      "date": "2026-09-30",
-      "score": 72.3
-    },
-    {
-      "ticker": "PCG",
-      "company": "PG&E Corp",
-      "actor": "LARSEN JOHN O",
-      "actor_type": "director",
-      "amount": 91500.0,
-      "date": "2026-09-30",
-      "score": 72.2
+      "amount": 12793.5,
+      "date": "2026-10-01",
+      "score": 72.9
     }
   ],
   "institutional_changes": [
@@ -1015,15 +1016,6 @@
       "date": "2026-09-30"
     },
     {
-      "filer": "Al Kapoor",
-      "company": "SYNTEC OPTICS HOLDINGS, INC.",
-      "ticker": "",
-      "ownership_pct": 73.56,
-      "shares": 29631090,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-09-21"
-    },
-    {
       "filer": "Mei Kanayama",
       "company": "Tokyo Lifestyle Co., Ltd.",
       "ticker": "TKLF",
@@ -1049,6 +1041,15 @@
       "shares": 59280804,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-09-24"
+    },
+    {
+      "filer": "Franklin Templeton, Inc.",
+      "company": "CLARION PARTNERS REAL ESTATE INCOME FUND INC.",
+      "ticker": "",
+      "ownership_pct": 66.6,
+      "shares": 93329,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-02"
     },
     {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
@@ -1087,13 +1088,13 @@
       "date": "2026-09-28"
     },
     {
-      "filer": "Takeover Time 2026 LLC",
-      "company": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
-      "ticker": "CTNT",
-      "ownership_pct": 62.5,
-      "shares": 1846000,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-09-21"
+      "filer": "Ault & Company, Inc.",
+      "company": "Hyperscale Data, Inc.",
+      "ticker": "",
+      "ownership_pct": 60.6,
+      "shares": 327705405,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-09-28"
     }
   ],
   "polymarket": {
@@ -1101,9 +1102,9 @@
       {
         "wallet": "0x7c37b52eb2",
         "username": "Diabolical-Prize",
-        "pnl": 351159.66,
+        "pnl": 156144.83,
         "win_rate": 0.9444,
-        "volume": 33866.62,
+        "volume": 462746.08,
         "categories": [
           "sports",
           "economy"
@@ -1112,9 +1113,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 29286.51,
+        "pnl": 29404.63,
         "win_rate": 0.9172,
-        "volume": 34494.49,
+        "volume": 47482.39,
         "categories": [
           "sports"
         ]
@@ -1122,30 +1123,20 @@
       {
         "wallet": "0xb9c7d35d1f",
         "username": "taylorsversion",
-        "pnl": 84367.68,
+        "pnl": 84163.44,
         "win_rate": 0.8438,
-        "volume": 14497.02,
+        "volume": 105531.78,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 37084.73,
-        "win_rate": 0.8547,
-        "volume": 62519.27,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 548667.16,
-        "win_rate": 0.6667,
-        "volume": 2007106.09,
+        "wallet": "0xc1c7bb8761",
+        "username": "five5120",
+        "pnl": 20907.89,
+        "win_rate": 0.9123,
+        "volume": 169800.14,
         "categories": [
           "sports"
         ]
@@ -1153,56 +1144,64 @@
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 16198.14,
+        "pnl": 25044.46,
         "win_rate": 0.8938,
-        "volume": 0.0,
+        "volume": 100.0,
         "categories": [
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 35455.12,
+        "win_rate": 0.8547,
+        "volume": 69384.08,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x1f3a646ce5",
+        "username": "mooseborzoii",
+        "pnl": 548699.94,
+        "win_rate": 0.6667,
+        "volume": 2051714.48,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 156218.92,
-        "win_rate": 0.73,
-        "volume": 1764408.76,
+        "pnl": 118469.98,
+        "win_rate": 0.728,
+        "volume": 1967597.18,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 12328.02,
-        "win_rate": 0.884,
-        "volume": 249009.86,
+        "wallet": "0xd38ad20037",
+        "username": "johnny234",
+        "pnl": 19218.16,
+        "win_rate": 0.8467,
+        "volume": 110193.85,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0xb4f978be63",
-        "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 12234.56,
-        "win_rate": 0.8745,
-        "volume": 26819.0,
+        "wallet": "0x583582716c",
+        "username": "Montaigne",
+        "pnl": 18583.3,
+        "win_rate": 0.84,
+        "volume": 106003.91,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xdf804b1732",
-        "username": "gfafasgs",
-        "pnl": 50647.37,
-        "win_rate": 0.76,
-        "volume": 67164.55,
-        "categories": [
-          "sports",
-          "crypto"
+          "politics",
+          "economy",
+          "sports"
         ]
       }
     ],
@@ -1210,9 +1209,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 156218.92,
-        "win_rate": 0.73,
-        "volume": 1764408.76,
+        "pnl": 118469.98,
+        "win_rate": 0.728,
+        "volume": 1967597.18,
         "categories": [
           "sports",
           "politics"
@@ -1221,9 +1220,30 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 548667.16,
+        "pnl": 548699.94,
         "win_rate": 0.6667,
-        "volume": 2007106.09,
+        "volume": 2051714.48,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "FORTNITEMASTER888",
+        "pnl": 206676.57,
+        "win_rate": 0.485,
+        "volume": 1317200.47,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 169891.65,
+        "win_rate": 0.561,
+        "volume": 2349016.54,
         "categories": [
           "sports"
         ]
@@ -1239,73 +1259,53 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 138957.27,
-        "win_rate": 0.56,
-        "volume": 1484447.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 87779.52,
-        "win_rate": 0.493,
-        "volume": 472333.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 12328.02,
-        "win_rate": 0.884,
-        "volume": 249009.86,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x9ee49c02ae",
-        "username": "cosmicxbt",
-        "pnl": 12000.0,
-        "win_rate": 0.8,
-        "volume": 100000.1,
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 156144.83,
+        "win_rate": 0.9444,
+        "volume": 462746.08,
         "categories": [
           "sports",
           "economy"
         ]
       },
       {
-        "wallet": "0x9db82de5a7",
-        "username": "sulumos",
-        "pnl": 12323.97,
-        "win_rate": 0.439,
-        "volume": 256600.04,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 65578.75,
+        "win_rate": 0.575,
+        "volume": 1343608.95,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 87797.7,
+        "win_rate": 0.493,
+        "volume": 475625.2,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 37084.73,
-        "win_rate": 0.8547,
-        "volume": 62519.27,
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 36376.98,
+        "win_rate": 0.577,
+        "volume": 943846.31,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xb7271c112c",
-        "username": "Elaran1993",
-        "pnl": 64102.19,
-        "win_rate": 0.528,
-        "volume": 189416.67,
+        "wallet": "0x29b52d98ac",
+        "username": "0x29b52d98ac9ef9414b04164246c95BC63d7",
+        "pnl": 33169.66,
+        "win_rate": 0.525,
+        "volume": 447387.3,
         "categories": [
           "sports"
         ]
@@ -1313,54 +1313,6 @@
     ]
   },
   "news": [
-    {
-      "title": "McCormick price hikes spice up quarterly results despite sluggish demand",
-      "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/mccormicks-price-hikes-spice-up-quarterly-results-despite-sluggish-demand/",
-      "ticker": "GIS",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Insider Selling : Park - Ohio ( NASDAQ : PKOH ) Insider Sells $298 , 821 . 60 in Stock",
-      "url": "https://www.dailypolitical.com/2026/10/01/insider-selling-park-ohio-nasdaqpkoh-insider-sells-298821-60-in-stock.html",
-      "ticker": "PKOH",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030",
-      "url": "https://www.aol.com/articles/500-investment-coreweave-could-worth-203500000.html",
-      "ticker": "CRWV",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
-      "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://www.aol.com/articles/united-therapeutics-won-patent-war-150712000.html",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://247wallst.com/investing/2026/10/01/united-therapeutics-won-its-patent-war-and-liquidia-collapsed/",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
     {
       "title": "Credo Technology CEO Sells Company Shares Worth $2 . 5 Million",
       "url": "https://www.fool.com/coverage/filings/2026/10/01/credo-technology-ceo-sells-company-shares-worth-usd2-5-million/?source=iedfolrf0000001",
@@ -1370,33 +1322,6 @@
         "stock"
       ],
       "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
-      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
-      "ticker": "UTHR",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13603118/park-ohio-nasdaqpkoh-stock-insider-robert-vilsack-sells-9000-shares.html",
-      "ticker": "PKOH",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-30"
-    },
-    {
-      "title": "FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-30-why-is-united-therapeutics-uthr-stock-rocketing-higher-today",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-30"
     },
     {
       "title": "What Price Increases Mean For Your Cracker Barrel Bill",
@@ -1418,6 +1343,15 @@
       "ticker": "CBRL",
       "themes": [],
       "date": "2026-09-28"
+    },
+    {
+      "title": "Webinar : Moving from reactive to preventative maintenance with Samsara",
+      "url": "https://www.logisticsmanager.com/webinar-moving-from-reactive-to-preventative-maintenance-with-samsara/",
+      "ticker": "IOT",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-24"
     },
     {
       "title": "Cracker Barrel ( CBRL ) Q4 2026 Earnings Call Transcript",
@@ -1447,7 +1381,7 @@
       "date": "2026-09-21"
     }
   ],
-  "signals_count": 1252,
+  "signals_count": 1284,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

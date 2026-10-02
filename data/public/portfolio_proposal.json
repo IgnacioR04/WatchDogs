@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-02T08:48:40+00:00",
+  "generated_at": "2026-10-02T16:05:28+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7999,
-  "cash": 0.2001,
+  "total_equity": 0.8,
+  "cash": 0.2,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "EVV": 0.0917,
+    "EVV": 0.0918,
     "GLD": 0.0858,
-    "KTF": 0.0682,
+    "KTF": 0.0679,
     "IEF": 0.0572,
     "SPG": 0.0544,
-    "MTN": 0.0221,
-    "ADUR": 0.0164,
+    "MTN": 0.0222,
+    "ADUR": 0.0161,
     "GPI": 0.0158,
-    "TRMD": 0.0155,
-    "COUR": 0.0149,
-    "LFCR": 0.0046,
-    "SSTI": 0.0045
+    "TRMD": 0.0157,
+    "COUR": 0.015,
+    "LFCR": 0.0047,
+    "SSTI": 0.0046
   },
   "core": {
     "SPY": 0.182,
@@ -30,24 +30,24 @@
   },
   "satellite": {
     "SPG": 0.0494,
-    "KTF": 0.062,
-    "EVV": 0.0833,
-    "COUR": 0.0135,
-    "ADUR": 0.0149,
-    "TRMD": 0.0141,
-    "LFCR": 0.0042,
-    "SSTI": 0.0041,
+    "KTF": 0.0617,
+    "EVV": 0.0834,
+    "COUR": 0.0136,
+    "ADUR": 0.0146,
+    "TRMD": 0.0143,
+    "LFCR": 0.0043,
+    "SSTI": 0.0042,
     "GPI": 0.0144,
-    "MTN": 0.0201
+    "MTN": 0.0202
   },
   "satellite_rationale": [
     {
       "ticker": "SPG",
-      "score": 299.7,
+      "score": 150.4,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 4
+      "n_signals": 2
     },
     {
       "ticker": "KTF",
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0682,
-    "var_95_1d": 0.008,
+    "ann_vol": 0.0677,
+    "var_95_1d": 0.0079,
     "cvar_95_1d": 0.0086,
-    "max_drawdown": -0.0353,
-    "beta_spy": 0.612,
+    "max_drawdown": -0.0352,
+    "beta_spy": 0.603,
     "hhi": 0.0687,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.7999,
-    "days_used": 38
+    "effective_positions": 14.6,
+    "gross_exposure": 0.8,
+    "days_used": 39
   },
   "risk_gate": {
     "passed": true,
