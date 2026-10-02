@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-02T02:30:06+00:00 · ventana señales 2026-09-02 -> 2026-10-02_
+_Generado 2026-10-02T08:48:41+00:00 · ventana señales 2026-09-02 -> 2026-10-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.39)
+- Volatilidad: `normal` (VIX 16.0)
 - Tendencia: `bull` (SPY 763.99 · MA50 761.56 · MA200 716.56 · dist MA200: 6.62%)
 - Credito: `normal` (HY spread 3.12)
 - Tipos: `flat` (curva 10y-2y 0.46)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 77.71 (0.31% / -1.76% / -4.79%) [2026-10-01]
 - IEF: 89.3 (0.33% / -0.09% / -2.79%) [2026-10-01]
 - GLD: 382.76 (0.5% / -2.28% / -4.97%) [2026-10-01]
-- ^VIX: 16.39 (0.31% / 4.59% / 14.46%) [2026-10-01]
-- BTC-USD: 84897.58 (1.61% / 0.58% / 10.01%) [2026-10-02]
+- ^VIX: 16.0 (-2.38% / 7.6% / 10.12%) [2026-10-02]
+- BTC-USD: 86328.97 (1.74% / 2.22% / 11.72%) [2026-10-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,20 +123,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: legal (3), stock (2), regulatory (2), ai (1), earnings (1)
+**Temas dominantes**: stock (7), earnings (2), leadership (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [HYLN] HYLN LAWSUIT ALERT : Levi & Korsinsky Notifies Hyliion Holdings Corp . ... (2026-10-01)
+- [GIS] McCormick price hikes spice up quarterly results despite sluggish demand (2026-10-01)
 - [PKOH] Insider Selling : Park - Ohio ( NASDAQ : PKOH ) Insider Sells $298 , 821 . 60 in Stock (2026-10-01)
-- [HYLN] Pomerantz LLP Informs Shareholders of Class Action Filing Against Hyliion ... (2026-10-01)
+- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
+- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [CRDO] Credo Technology CEO Sells Company Shares Worth $2 . 5 Million (2026-10-01)
+- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 - [PKOH] Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares (2026-09-30)
-- [HYLN] Levi & Korsinsky Notifies Hyliion Holdings Corp . ( HYLN ) Investors - ... (2026-09-30)
-- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-29)
-- [HYLN] HYLN Deadline : HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp . Securities Fraud Lawsuit (2026-09-28)
-- [HYLN] Shareholders of Hyliion Holdings Corp . ( HYLN ): Protect Your Rights ... (2026-09-28)
-- [HYLN] HYLN Deadline : HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp . Securities Fraud Lawsuit (2026-09-28)
-- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-28)
+- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -151,11 +151,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $204,006 · win rate 94% · categorias: sports, economy
-- monkeymashingkeyboard · PnL $10,486 · win rate 92% · categorias: sports
-- taylorsversion · PnL $26,177 · win rate 84% · categorias: sports, crypto
-- BreakTheBank · PnL $20,827 · win rate 85% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $10,998 · win rate 89% · categorias: crypto
+- Diabolical-Prize · PnL $351,160 · win rate 94% · categorias: sports, economy
+- monkeymashingkeyboard · PnL $29,287 · win rate 92% · categorias: sports
+- taylorsversion · PnL $84,368 · win rate 84% · categorias: sports, crypto
+- BreakTheBank · PnL $37,085 · win rate 85% · categorias: sports
+- mooseborzoii · PnL $548,667 · win rate 67% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
