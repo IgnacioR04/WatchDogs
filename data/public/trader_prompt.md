@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-01T23:28:39+00:00 -->
+<!-- trader_prompt.md generado 2026-10-02T02:30:06+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-01T23:28:39+00:00 · ventana señales 2026-09-01 -> 2026-10-01_
+_Generado 2026-10-02T02:30:06+00:00 · ventana señales 2026-09-02 -> 2026-10-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -258,32 +258,30 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 763.99 | 0.18% | -0.42% | 0.1% |
 | QQQ | 11.4% | core | 742.03 | 0.31% | 0.13% | 4.73% |
-| TLT | 11.4% | core | 77.71 | -0.09% | -2.15% | -5.17% |
-| EVV | 9.7% | satellite | 8.47 | 0.24% | 0.71% | -5.87% |
+| TLT | 11.4% | core | 77.71 | 0.31% | -1.76% | -4.79% |
+| EVV | 9.2% | satellite | 8.47 | 0.24% | 0.71% | -5.87% |
 | GLD | 8.6% | core | 382.76 | 0.5% | -2.28% | -4.97% |
-| KTF | 7.2% | satellite | 8.1 | 0.0% | -2.06% | -5.46% |
-| IEF | 5.7% | core | 89.3 | -0.01% | -0.43% | -3.12% |
-| SPG | 5.7% | satellite | 200.81 | 0.02% | -1.9% | -3.44% |
-| LEN | 2.1% | satellite | 82.11 | 0.64% | 0.79% | -1.76% |
-| ADUR | 1.7% | satellite | 12.12 | -2.96% | -3.5% | -12.17% |
+| KTF | 6.8% | satellite | 8.1 | 0.0% | -2.06% | -5.46% |
+| IEF | 5.7% | core | 89.3 | 0.33% | -0.09% | -2.79% |
+| SPG | 5.4% | satellite | 200.81 | 0.02% | -1.9% | -3.44% |
+| MTN | 2.2% | satellite | 138.99 | 1.32% | 0.85% | 1.97% |
+| ADUR | 1.6% | satellite | 12.12 | -2.96% | -3.5% | -12.17% |
+| GPI | 1.6% | satellite | 256.7 | 6.76% | 3.6% | -7.13% |
 | TRMD | 1.6% | satellite | 38.8 | 1.97% | 13.12% | 23.08% |
-| COUR | 1.6% | satellite | 5.08 | 2.42% | 0.4% | -16.86% |
+| COUR | 1.5% | satellite | 5.08 | 2.42% | 0.4% | -16.86% |
 | LFCR | 0.5% | satellite | 6.53 | -0.76% | 52.21% | 37.76% |
-| SSTI | 0.5% | satellite | 8.44 | 1.56% | 54.3% | 39.04% |
-| KOD | 0.2% | satellite | 98.46 | 3.86% | 196.39% | 162.56% |
+| SSTI | 0.4% | satellite | 8.44 | 1.56% | 54.3% | 39.04% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 6.8%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.2%
-- Beta vs SPY: 0.601 · posiciones efectivas: 14.2 · HHI: 0.0704
+- Max drawdown historico: -3.5%
+- Beta vs SPY: 0.612 · posiciones efectivas: 14.5 · HHI: 0.0687
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **KOD** · score agregado 4556.6 · 73 señales · fuentes: corporate_insider, large_holder
-- **LEN** · score agregado 258.2 · 4 señales · fuentes: corporate_insider
-- **SPG** · score agregado 225.2 · 3 señales · fuentes: corporate_insider
+- **SPG** · score agregado 299.7 · 4 señales · fuentes: corporate_insider
 - **KTF** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **EVV** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **COUR** · score agregado 141.0 · 2 señales · fuentes: large_holder
@@ -291,6 +289,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - **TRMD** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **LFCR** · score agregado 139.5 · 2 señales · fuentes: large_holder
 - **SSTI** · score agregado 138.0 · 2 señales · fuentes: large_holder
+- **GPI** · score agregado 138.0 · 2 señales · fuentes: large_holder
+- **MTN** · score agregado 138.0 · 2 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -298,21 +298,21 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| SPG | 76 | corporate_insider | Smith Daniel C. | 6 | $70,973 | cluster_buy |
-| SPG | 75 | corporate_insider | Aeppel Glyn | 6 | $45,017 | cluster_buy |
-| SPG | 75 | corporate_insider | SELIG STEFAN M | 6 | $42,178 | cluster_buy |
-| KWY | 74 | corporate_insider | Horowitz Joshua | 3 | $25,202 | cluster_buy |
-| SPG | 73 | corporate_insider | Roe Peggy | 6 | $17,845 | cluster_buy,small_amount |
-| KWY | 72 | corporate_insider | Fitzgerald John Taylor Ma | 3 | $2,502 | cluster_buy,small_amount |
-| LEN | 72 | corporate_insider | BERKSHIRE HATHAWAY INC | 0 | $52,120,753 | - |
+| SPG | 76 | corporate_insider | Smith Daniel C. | 7 | $70,973 | cluster_buy |
+| SPG | 75 | corporate_insider | Aeppel Glyn | 7 | $45,017 | cluster_buy |
+| SPG | 75 | corporate_insider | SELIG STEFAN M | 7 | $42,178 | cluster_buy |
+| SPG | 74 | corporate_insider | STEWART MARTA R | 7 | $40,353 | cluster_buy |
+| SPG | 73 | corporate_insider | Roe Peggy | 7 | $17,845 | cluster_buy,small_amount |
 | CINT | 72 | corporate_insider | Gon Cesar Nivaldo | 2 | $11,313 | cluster_buy,small_amount |
 | DMRC | 72 | large_holder | Ocho Investments LLC |  | - | - |
-| BMBL | 72 | large_holder | BX Buzz ML-1 Holdco L.P. |  | - | - |
 | MRVI | 72 | large_holder | Millennium Management LLC |  | - | - |
-| SPG | 71 | corporate_insider | Jones Nina P | 6 | $9,328 | cluster_buy,small_amount |
+| SPG | 71 | corporate_insider | Jones Nina P | 7 | $9,328 | cluster_buy,small_amount |
 | CINT | 71 | corporate_insider | Gon Cesar Nivaldo | 2 | $8,832 | cluster_buy,small_amount |
-| KWY | 71 | corporate_insider | Horowitz Joshua | 3 | $7,919 | cluster_buy,small_amount |
 | CTM | 70 | corporate_insider | Ives Glen R | 4 | $910 | cluster_buy,small_amount |
+| CPHC | 70 | large_holder | Gate City Capital Managem |  | - | - |
+| INSG | 70 | large_holder | Nokia Solutions and Netwo |  | - | - |
+| HTH | 70 | large_holder | Gerald J. Ford |  | - | - |
+| UUU | 70 | large_holder | Hyperscale Data, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -320,12 +320,12 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | MEDP | 59 | corporate_insider | Troendle August J. | $16,581,855 | - |
 | ACT | 59 | corporate_insider | Genworth Holdings, Inc. | $37,116,929 | - |
-| MPWR | 59 | corporate_insider | Hsing Michael | $14,821,133 | - |
 | MEDP | 59 | corporate_insider | Troendle August J. | $13,739,074 | - |
-| MPWR | 58 | corporate_insider | Hsing Michael | $8,544,972 | - |
-| MPWR | 58 | corporate_insider | Hsing Michael | $7,770,964 | - |
-| MPWR | 56 | corporate_insider | Hsing Michael | $3,947,708 | - |
-| MPWR | 56 | corporate_insider | Hsing Michael | $2,817,833 | - |
+| CRWV | 58 | corporate_insider | Intrator Michael N | $7,670,355 | - |
+| CRWV | 57 | corporate_insider | Intrator Michael N | $6,412,376 | - |
+| CRWV | 56 | corporate_insider | Intrator Michael N | $4,130,013 | - |
+| IOT | 56 | corporate_insider | Biswas Sanjit | $3,841,838 | - |
+| CRWV | 56 | corporate_insider | Intrator Michael N | $3,452,655 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -338,11 +338,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - QQQ: 742.03 (0.31% / 0.13% / 4.73%) [2026-10-01]
 - IWM: 279.02 (0.41% / -0.94% / -4.85%) [2026-10-01]
 - DIA: 508.62 (0.01% / -0.79% / -3.93%) [2026-10-01]
-- TLT: 77.71 (-0.09% / -2.15% / -5.17%) [2026-10-01]
-- IEF: 89.3 (-0.01% / -0.43% / -3.12%) [2026-10-01]
+- TLT: 77.71 (0.31% / -1.76% / -4.79%) [2026-10-01]
+- IEF: 89.3 (0.33% / -0.09% / -2.79%) [2026-10-01]
 - GLD: 382.76 (0.5% / -2.28% / -4.97%) [2026-10-01]
 - ^VIX: 16.39 (0.31% / 4.59% / 14.46%) [2026-10-01]
-- BTC-USD: 84745.6 (1.43% / 0.4% / 9.81%) [2026-10-01]
+- BTC-USD: 84897.58 (1.61% / 0.58% / 10.01%) [2026-10-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,39 +357,39 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (6), ai (2)
+**Temas dominantes**: legal (3), stock (2), regulatory (2), ai (1), earnings (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [HYLN] HYLN LAWSUIT ALERT : Levi & Korsinsky Notifies Hyliion Holdings Corp . ... (2026-10-01)
 - [PKOH] Insider Selling : Park - Ohio ( NASDAQ : PKOH ) Insider Sells $298 , 821 . 60 in Stock (2026-10-01)
-- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
-- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
-- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
-- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
-- [KOD] Insider Buying : Kodiak Sciences ( NASDAQ : KOD ) Director Buys $60 , 529 , 244 . 82 in Stock (2026-09-30)
+- [HYLN] Pomerantz LLP Informs Shareholders of Class Action Filing Against Hyliion ... (2026-10-01)
 - [PKOH] Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares (2026-09-30)
-- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
-- [KOD] Some Wet Macular Degeneration Patients May Someday Need Eye Injections Only Twice a Year After Kodiak Trial (2026-09-30)
-- [KOD] Biotech Stock Kodiak Sciences ( Nasdaq : KOD ) Leads Nasdaq Monday Gainers ; up 177 % (2026-09-29)
+- [HYLN] Levi & Korsinsky Notifies Hyliion Holdings Corp . ( HYLN ) Investors - ... (2026-09-30)
+- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-29)
+- [HYLN] HYLN Deadline : HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp . Securities Fraud Lawsuit (2026-09-28)
+- [HYLN] Shareholders of Hyliion Holdings Corp . ( HYLN ): Protect Your Rights ... (2026-09-28)
+- [HYLN] HYLN Deadline : HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp . Securities Fraud Lawsuit (2026-09-28)
+- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-28)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner BERKSHIRE HATHAWAY INC compro LEN por $52.1M el 2026-09-30.
 - 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Senior Loan Trust por $31.0M el 2026-09-30.
 - 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $26.0M el 2026-09-30.
-- 10% owner BAKER BROS. ADVISORS LP compro KOD por $20.2M el 2026-09-28 [senal en multiples fuentes].
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $25.1M el 2026-09-28.
 - CEO Troendle August J. vendio MEDP por $13.7M el 2026-09-30 [senal en multiples fuentes].
 - 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Senior Loan Trust por $12.0M el 2026-09-30.
-- 10% owner Abu Dhabi Investment Authority compro AGL Private Credit Income Fund por $22.4M el 2026-09-28.
+- CEO Troendle August J. vendio MEDP por $16.6M el 2026-09-29 [senal en multiples fuentes].
+- 10% owner Genworth Holdings, Inc. vendio ACT por $37.1M el 2026-09-30.
+- 10% owner SENEFF JAMES M JR compro CNL Strategic Residential Credit, Inc. por $5.0M el 2026-09-30.
+- 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $4.0M el 2026-09-30.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Ne8om · PnL $147,216 · win rate 100% · categorias: sports
-- lllllllIlll · PnL $201,947 · win rate 95% · categorias: sports
-- Diabolical-Prize · PnL $110,004 · win rate 94% · categorias: sports, economy
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $76,952 · win rate 96% · categorias: sports
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $33,636 · win rate 95% · categorias: sports
+- Diabolical-Prize · PnL $204,006 · win rate 94% · categorias: sports, economy
+- monkeymashingkeyboard · PnL $10,486 · win rate 92% · categorias: sports
+- taylorsversion · PnL $26,177 · win rate 84% · categorias: sports, crypto
+- BreakTheBank · PnL $20,827 · win rate 85% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $10,998 · win rate 89% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -397,7 +397,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 630 registros 30d · ultimo dato 2026-10-01
+- **sec_insiders**: `ok` · 502 registros 30d · ultimo dato 2026-10-01
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-01
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -411,7 +411,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADUR, COUR, EVV, GLD, IEF, KOD, KTF, LEN, LFCR, QQQ, SPG, SPY, SSTI, TLT, TRMD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ADUR, COUR, EVV, GLD, GPI, IEF, KTF, LFCR, MTN, QQQ, SPG, SPY, SSTI, TLT, TRMD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
