@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-02T16:05:29+00:00 -->
+<!-- trader_prompt.md generado 2026-10-02T20:58:31+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-02T16:05:29+00:00 · ventana señales 2026-09-02 -> 2026-10-02_
+_Generado 2026-10-02T20:58:31+00:00 · ventana señales 2026-09-02 -> 2026-10-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.59)
-- Tendencia: `bull` (SPY 769.36 · MA50 762.22 · MA200 717.04 · dist MA200: 7.3%)
+- Volatilidad: `normal` (VIX 15.31)
+- Tendencia: `bull` (SPY 769.64 · MA50 762.23 · MA200 717.04 · dist MA200: 7.34%)
 - Credito: `normal` (HY spread 3.24)
 - Tipos: `flat` (curva 10y-2y 0.46)
 - Fed Funds: 3.75%
@@ -256,41 +256,39 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 769.36 | 0.7% | -0.26% | -0.25% |
-| QQQ | 11.4% | core | 750.33 | 1.12% | 0.78% | 4.66% |
-| TLT | 11.4% | core | 77.54 | -0.23% | -1.86% | -5.15% |
-| EVV | 9.2% | satellite | 8.49 | 0.24% | 0.83% | -5.34% |
-| GLD | 8.6% | core | 378.62 | -1.08% | -3.76% | -7.7% |
-| KTF | 6.8% | satellite | 8.14 | 0.49% | -1.09% | -5.43% |
-| IEF | 5.7% | core | 89.12 | -0.2% | -0.63% | -3.09% |
-| SPG | 5.4% | satellite | 201.74 | 0.46% | -1.5% | -3.6% |
-| MTN | 2.2% | satellite | 141.27 | 1.64% | 3.79% | 3.83% |
-| ADUR | 1.6% | satellite | 12.51 | 3.22% | -0.95% | -9.87% |
-| GPI | 1.6% | satellite | 250.18 | -2.54% | -0.8% | -12.01% |
-| TRMD | 1.6% | satellite | 39.42 | 1.59% | 14.85% | 23.82% |
-| COUR | 1.5% | satellite | 5.07 | -0.2% | 0.4% | -15.64% |
-| LFCR | 0.5% | satellite | 6.53 | 0.0% | 55.48% | 50.11% |
-| SSTI | 0.5% | satellite | 8.32 | -1.36% | 47.61% | 36.92% |
+| SPY | 12.0% | core | 769.64 | 0.74% | -0.22% | -0.21% |
+| QQQ | 11.4% | core | 749.58 | 1.02% | 0.68% | 4.56% |
+| TLT | 11.4% | core | 77.48 | -0.3% | -1.93% | -5.21% |
+| EVV | 11.0% | satellite | 8.43 | -0.47% | 0.12% | -6.0% |
+| GLD | 8.6% | core | 380.14 | -0.68% | -3.37% | -7.33% |
+| KTF | 8.2% | satellite | 8.1 | 0.0% | -1.58% | -5.89% |
+| IEF | 5.7% | core | 89.05 | -0.28% | -0.71% | -3.17% |
+| PAM | 3.5% | satellite | 76.39 | 0.39% | -1.84% | -9.85% |
+| ADUR | 2.0% | satellite | 12.28 | 1.32% | -2.77% | -11.53% |
+| TRMD | 1.9% | satellite | 40.0 | 3.09% | 16.55% | 25.66% |
+| COUR | 1.8% | satellite | 5.02 | -1.18% | -0.59% | -16.47% |
+| QVCG | 1.4% | satellite | 14.46 | 3.73% | 1.76% | -11.88% |
+| LFCR | 0.6% | satellite | 6.54 | 0.15% | 55.71% | 50.34% |
+| SSTI | 0.5% | satellite | 8.33 | -1.3% | 47.7% | 37.01% |
 
 **Metricas de riesgo de esta cartera:**
 
 - Volatilidad anualizada: 6.8%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.603 · posiciones efectivas: 14.6 · HHI: 0.0687
+- Max drawdown historico: -3.7%
+- Beta vs SPY: 0.568 · posiciones efectivas: 13.8 · HHI: 0.0725
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **SPG** · score agregado 150.4 · 2 señales · fuentes: corporate_insider
+- **SSTI** · score agregado 208.5 · 3 señales · fuentes: large_holder
 - **KTF** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **EVV** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **COUR** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **ADUR** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **TRMD** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **LFCR** · score agregado 139.5 · 2 señales · fuentes: large_holder
-- **SSTI** · score agregado 138.0 · 2 señales · fuentes: large_holder
-- **GPI** · score agregado 138.0 · 2 señales · fuentes: large_holder
-- **MTN** · score agregado 138.0 · 2 señales · fuentes: large_holder
+- **PAM** · score agregado 134.5 · 2 señales · fuentes: corporate_insider
+- **QVCG** · score agregado 112.2 · 2 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -298,34 +296,34 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| SPG | 76 | corporate_insider | Smith Daniel C. | 5 | $70,973 | cluster_buy |
-| SPG | 75 | corporate_insider | SELIG STEFAN M | 5 | $42,178 | cluster_buy |
-| SPG | 73 | corporate_insider | Roe Peggy | 5 | $17,845 | cluster_buy,small_amount |
-| PYXS | 72 | large_holder | GordonMD Global Investmen |  | - | - |
-| DMRC | 72 | large_holder | Ocho Investments LLC |  | - | - |
-| MRVI | 72 | large_holder | Millennium Management LLC |  | - | - |
-| SPG | 71 | corporate_insider | Jones Nina P | 5 | $9,328 | cluster_buy,small_amount |
-| CTM | 70 | corporate_insider | Ives Glen R | 4 | $910 | cluster_buy,small_amount |
-| NSTS | 70 | large_holder | NORTH SHORE TRUST & SAVIN |  | - | - |
+| NSTS | 72 | large_holder | NORTH SHORE TRUST & SAVIN |  | - | - |
+| MPB | 72 | corporate_insider | Evans Albert J. | 5 | $9,983 | cluster_buy,small_amount |
+| MPB | 72 | corporate_insider | De Soto Matthew G | 5 | $10,018 | cluster_buy,small_amount |
+| XAIR | 70 | large_holder | Lin Yi-Chien |  | - | - |
+| KZIA | 70 | large_holder | Dauntless Investment Grou |  | - | - |
+| SSTI | 70 | large_holder | Kopion Asset Management,  |  | - | - |
 | BBSI | 70 | large_holder | Private Capital Managemen |  | - | - |
 | MATW | 70 | large_holder | Private Capital Managemen |  | - | - |
+| DOMH | 70 | large_holder | Blue Finn Group LLC |  | - | - |
 | AN | 70 | large_holder | Brave Warrior Advisors, L |  | - | - |
 | CISS | 70 | large_holder | TOWERVIEW LLC |  | - | - |
+| BBW | 70 | large_holder | Pacifica Capital Investme |  | - | - |
 | EIKN | 70 | large_holder | Abu Dhabi Investment Auth |  | - | - |
-| CPHC | 70 | large_holder | Gate City Capital Managem |  | - | - |
+| SAFT | 70 | large_holder | Glazer Capital, LLC |  | - | - |
+| AFB | 70 | large_holder | KARPUS MANAGEMENT, INC. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MEDP | 59 | corporate_insider | Troendle August J. | $16,581,855 | - |
-| ACT | 59 | corporate_insider | Genworth Holdings, Inc. | $37,116,929 | - |
-| MEDP | 59 | corporate_insider | Troendle August J. | $13,739,074 | - |
-| CRWV | 58 | corporate_insider | Intrator Michael N | $7,670,355 | - |
-| CRWV | 57 | corporate_insider | Intrator Michael N | $6,412,376 | - |
-| CRWV | 56 | corporate_insider | Intrator Michael N | $4,130,013 | - |
-| IOT | 56 | corporate_insider | Biswas Sanjit | $3,841,838 | - |
-| CRWV | 56 | corporate_insider | Intrator Michael N | $3,452,655 | - |
+| LITE | 59 | corporate_insider | Ali Wajid | $25,732,287 | - |
+| MTG | 56 | corporate_insider | Mattke Timothy J. | $3,597,186 | - |
+| V | 55 | corporate_insider | MCINERNEY RYAN | $2,108,009 | - |
+| GILD | 54 | corporate_insider | O'Day Daniel Patrick | $1,772,628 | - |
+| BNTX | 54 | corporate_insider | Sahin Ugur | $1,644,323 | - |
+| BNTX | 54 | corporate_insider | Sahin Ugur | $1,656,745 | - |
+| RKT | 54 | corporate_insider | Bray Jesse K | $1,593,727 | - |
+| TWLO | 54 | corporate_insider | Shipchandler Khozema | $1,522,244 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -334,20 +332,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 769.36 (0.7% / -0.26% / -0.25%) [2026-10-02]
-- QQQ: 750.33 (1.12% / 0.78% / 4.66%) [2026-10-02]
-- IWM: 281.54 (0.9% / -0.15% / -4.38%) [2026-10-02]
-- DIA: 510.16 (0.3% / -1.42% / -4.77%) [2026-10-02]
-- TLT: 77.54 (-0.23% / -1.86% / -5.15%) [2026-10-02]
-- IEF: 89.12 (-0.2% / -0.63% / -3.09%) [2026-10-02]
-- GLD: 378.62 (-1.08% / -3.76% / -7.7%) [2026-10-02]
-- ^VIX: 15.59 (-4.88% / 4.84% / 7.3%) [2026-10-02]
-- BTC-USD: 85436.33 (0.69% / 1.16% / 10.57%) [2026-10-02]
+- SPY: 769.64 (0.74% / -0.22% / -0.21%) [2026-10-02]
+- QQQ: 749.58 (1.02% / 0.68% / 4.56%) [2026-10-02]
+- IWM: 281.52 (0.9% / -0.16% / -4.38%) [2026-10-02]
+- DIA: 511.1 (0.49% / -1.23% / -4.59%) [2026-10-02]
+- TLT: 77.48 (-0.3% / -1.93% / -5.21%) [2026-10-02]
+- IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
+- GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
+- ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
+- BTC-USD: 84371.01 (-0.57% / -0.1% / 9.19%) [2026-10-02]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.88 (delta 1m: 0.54) [2026-09-30]
-- Treasury 10Y yield: 5.29 (delta 1m: 0.54) [2026-09-30]
+- Treasury 2Y yield: 4.78 (delta 1m: 0.39) [2026-10-01]
+- Treasury 10Y yield: 5.24 (delta 1m: 0.45) [2026-10-01]
 - Curva 10Y-2Y: 0.46 (delta 1m: 0.06) [2026-10-01]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
 - High yield spread (OAS): 3.24 (delta 1m: 0.58) [2026-10-01]
@@ -357,37 +355,36 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (1), ai (1), earnings (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRDO] Credo Technology CEO Sells Company Shares Worth $2 . 5 Million (2026-10-01)
-- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-29)
-- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-28)
-- [CBRL] What Price Increases Mean For Your Cracker Barrel Bill (2026-09-28)
-- [IOT] Webinar : Moving from reactive to preventative maintenance with Samsara (2026-09-24)
-- [CBRL] Cracker Barrel ( CBRL ) Q4 2026 Earnings Call Transcript (2026-09-24)
-- [CRDO] Credo Technology Group ( NASDAQ : CRDO ) Shares Up 6 . 5 % – Here What Happened (2026-09-21)
-- [CRDO] Jim Cramer on Credo ( CRDO ):  I Think You Can Buy the Stock (2026-09-21)
+- [DIS] A century after the weekend was invented , it has disappeared . Let reclaim leisure | Richard Morgan (2026-10-02)
+- [DIS] Disney to cut hundreds of jobs as part of TV revamp , WSJ says (2026-10-02)
+- [DIS] Disney  Worlds Collide Concert Tour : Stars Malachi Barton , Liamani Segura , Hudson Stone take viewers backstage (2026-10-02)
+- [DIS] Disney Plans TV Restructuring With Hundreds of Layoffs (2026-10-02)
+- [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
+- [PKOH] Insider Selling : Park - Ohio ( NASDAQ : PKOH ) Insider Sells $298 , 821 . 60 in Stock (2026-10-01)
+- [PKOH] Park - Ohio ( NASDAQ : PKOH ) Stock : Insider Robert Vilsack Sells 9 , 000 Shares (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner Manufacturers Life Reinsurance Ltd compro John Hancock GA Senior Loan Trust por $31.0M el 2026-09-30.
-- 10% owner Manulife (International) Ltd compro John Hancock GA Mortgage Trust por $26.0M el 2026-09-30.
-- CEO Troendle August J. vendio MEDP por $13.7M el 2026-09-30 [senal en multiples fuentes].
-- 10% owner Manufacturers Life Insurance Co (Bermuda Branch) compro John Hancock GA Senior Loan Trust por $12.0M el 2026-09-30.
-- CEO Troendle August J. vendio MEDP por $16.6M el 2026-09-29 [senal en multiples fuentes].
-- 10% owner Genworth Holdings, Inc. vendio ACT por $37.1M el 2026-09-30.
-- 10% owner SENEFF JAMES M JR compro CNL Strategic Residential Credit, Inc. por $5.0M el 2026-09-30.
-- 10% owner Manulife (Singapore) Pte. Ltd. compro John Hancock GA Mortgage Trust por $4.0M el 2026-09-30.
+- CFO Ali Wajid vendio LITE por $25.7M el 2026-10-01.
+- CEO Mindlin Damian Miguel compro PAM por $4.4M el 2026-09-28.
+- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
+- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
+- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $156,145 · win rate 94% · categorias: sports, economy
-- monkeymashingkeyboard · PnL $29,405 · win rate 92% · categorias: sports
-- taylorsversion · PnL $84,163 · win rate 84% · categorias: sports, crypto
-- five5120 · PnL $20,908 · win rate 91% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $25,044 · win rate 89% · categorias: crypto
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $119,495 · win rate 96% · categorias: sports
+- Diabolical-Prize · PnL $149,528 · win rate 94% · categorias: sports, economy
+- CyberScore.live · PnL $49,226 · win rate 97% · categorias: sports
+- CORGI777 · PnL $73,433 · win rate 93% · categorias: sports
+- RJW1 · PnL $21,172 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -395,7 +392,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 534 registros 30d · ultimo dato 2026-10-01
+- **sec_insiders**: `ok` · 431 registros 30d · ultimo dato 2026-10-02
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-02
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -409,7 +406,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADUR, COUR, EVV, GLD, GPI, IEF, KTF, LFCR, MTN, QQQ, SPG, SPY, SSTI, TLT, TRMD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ADUR, COUR, EVV, GLD, IEF, KTF, LFCR, PAM, QQQ, QVCG, SPY, SSTI, TLT, TRMD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
