@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-03T12:49:26+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
+_Generado 2026-10-03T17:32:36+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 84818.98 (0.38% / 1.58% / 10.39%) [2026-10-03]
+- BTC-USD: 84829.55 (0.39% / 1.59% / 10.4%) [2026-10-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,9 +123,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: ai (2), stock (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
+- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
+- [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
+- [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
+- [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -140,11 +145,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- lllllllIlll · PnL $183,589 · win rate 95% · categorias: sports
-- us391 · PnL $27,515 · win rate 96% · categorias: sports
-- esportsbetter1 · PnL $24,230 · win rate 94% · categorias: sports
-- ethanaz · PnL $34,352 · win rate 88% · categorias: sports, crypto
-- MeiGuNiuBi · PnL $28,257 · win rate 87% · categorias: sports, politics
+- lllllllIlll · PnL $158,744 · win rate 95% · categorias: sports
+- RJW1 · PnL $62,681 · win rate 98% · categorias: sports
+- CyberScore.live · PnL $28,166 · win rate 97% · categorias: sports
+- Daumah · PnL $31,444 · win rate 96% · categorias: crypto, sports
+- esportsbetter1 · PnL $35,130 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
