@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-03T17:32:36+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
+_Generado 2026-10-03T20:10:16+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,25 +25,25 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | SPY | 12.0% | core | 769.64 | 0.74% | -0.22% | -0.21% |
 | QQQ | 11.4% | core | 749.58 | 1.02% | 0.68% | 4.56% |
 | TLT | 11.4% | core | 77.48 | -0.3% | -1.93% | -5.21% |
-| EVV | 9.9% | satellite | 8.43 | -0.47% | 0.12% | -6.0% |
+| EVV | 10.0% | satellite | 8.43 | -0.47% | 0.12% | -6.0% |
 | GLD | 8.6% | core | 380.14 | -0.68% | -3.37% | -7.33% |
-| KTF | 8.0% | satellite | 8.1 | 0.0% | -1.58% | -5.89% |
+| KTF | 7.4% | satellite | 8.1 | 0.0% | -1.58% | -5.89% |
 | IEF | 5.7% | core | 89.05 | -0.28% | -0.71% | -3.17% |
-| PAM | 3.0% | satellite | 76.39 | 0.39% | -1.84% | -9.85% |
-| BWIN | 1.9% | satellite | 31.77 | 0.0% | -0.25% | 1.76% |
-| ADUR | 1.7% | satellite | 12.28 | 1.32% | -2.77% | -11.53% |
-| SYRE | 1.7% | satellite | 93.19 | 3.63% | 8.75% | 6.81% |
+| PAM | 3.1% | satellite | 76.39 | 0.39% | -1.84% | -9.85% |
+| BWIN | 2.1% | satellite | 31.77 | 0.0% | -0.25% | 1.76% |
+| ADUR | 1.8% | satellite | 12.28 | 1.32% | -2.77% | -11.53% |
 | TRMD | 1.7% | satellite | 40.0 | 3.09% | 16.55% | 25.66% |
-| STOK | 1.6% | satellite | 25.62 | -1.5% | 3.31% | -14.57% |
-| WULF | 0.9% | satellite | 15.49 | 3.89% | -1.59% | -4.56% |
+| STOK | 1.7% | satellite | 25.62 | -1.5% | 3.31% | -14.57% |
+| SYRE | 1.7% | satellite | 93.19 | 3.63% | 8.75% | 6.81% |
+| WULF | 1.0% | satellite | 15.49 | 3.89% | -1.59% | -4.56% |
 | SSTI | 0.5% | satellite | 8.33 | -1.3% | 47.7% | 37.01% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.2%
+- Volatilidad anualizada: 7.0%
 - VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
 - Max drawdown historico: -3.8%
-- Beta vs SPY: 0.594 · posiciones efectivas: 14.3 · HHI: 0.0698
+- Beta vs SPY: 0.58 · posiciones efectivas: 14.4 · HHI: 0.0693
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 84829.55 (0.39% / 1.59% / 10.4%) [2026-10-03]
+- BTC-USD: 84872.24 (0.44% / 1.64% / 10.46%) [2026-10-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,13 +123,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1)
+**Temas dominantes**: ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
 - [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
-- [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
 - [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -145,11 +143,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- lllllllIlll · PnL $158,744 · win rate 95% · categorias: sports
-- RJW1 · PnL $62,681 · win rate 98% · categorias: sports
-- CyberScore.live · PnL $28,166 · win rate 97% · categorias: sports
-- Daumah · PnL $31,444 · win rate 96% · categorias: crypto, sports
-- esportsbetter1 · PnL $35,130 · win rate 94% · categorias: sports
+- RJW1 · PnL $62,701 · win rate 98% · categorias: sports
+- CyberScore.live · PnL $48,732 · win rate 97% · categorias: sports
+- lllllllIlll · PnL $63,680 · win rate 95% · categorias: sports
+- ethanaz · PnL $92,770 · win rate 88% · categorias: sports, crypto
+- Daumah · PnL $31,426 · win rate 96% · categorias: crypto, sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
