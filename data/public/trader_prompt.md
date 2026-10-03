@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-03T06:48:08+00:00 -->
+<!-- trader_prompt.md generado 2026-10-03T12:49:26+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-03T06:48:08+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
+_Generado 2026-10-03T12:49:26+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 84627.9 (-0.27% / 0.2% / 9.52%) [2026-10-03]
+- BTC-USD: 84818.98 (0.38% / 1.58% / 10.39%) [2026-10-03]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,15 +357,9 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (2), ai (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
-- [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,11 +374,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- us391 · PnL $24,823 · win rate 96% · categorias: sports
-- 1DVSBSTD · PnL $13,237 · win rate 99% · categorias: n/d
-- RJW1 · PnL $11,148 · win rate 98% · categorias: sports
+- lllllllIlll · PnL $183,589 · win rate 95% · categorias: sports
+- us391 · PnL $27,515 · win rate 96% · categorias: sports
+- esportsbetter1 · PnL $24,230 · win rate 94% · categorias: sports
 - ethanaz · PnL $34,352 · win rate 88% · categorias: sports, crypto
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $25,695 · win rate 88% · categorias: sports, crypto, politics
+- MeiGuNiuBi · PnL $28,257 · win rate 87% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
