@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:58:30+00:00",
+  "generated_at": "2026-10-03T00:45:30+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
@@ -8,17 +8,18 @@
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "EVV": 0.11,
+    "EVV": 0.0943,
     "GLD": 0.0858,
-    "KTF": 0.082,
+    "KTF": 0.0761,
     "IEF": 0.0572,
-    "PAM": 0.0346,
-    "ADUR": 0.0199,
-    "TRMD": 0.0187,
-    "COUR": 0.0177,
-    "QVCG": 0.0141,
-    "LFCR": 0.0056,
-    "SSTI": 0.0055
+    "MEDP": 0.0294,
+    "PAM": 0.0292,
+    "BWIN": 0.0185,
+    "ADUR": 0.0164,
+    "TRMD": 0.0157,
+    "STOK": 0.0152,
+    "WULF": 0.0088,
+    "SSTI": 0.0045
   },
   "core": {
     "SPY": 0.182,
@@ -28,24 +29,25 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SSTI": 0.005,
-    "KTF": 0.0745,
-    "EVV": 0.1,
-    "COUR": 0.0161,
-    "ADUR": 0.0181,
-    "TRMD": 0.017,
-    "LFCR": 0.0051,
-    "PAM": 0.0314,
-    "QVCG": 0.0128
+    "SSTI": 0.0041,
+    "KTF": 0.0692,
+    "EVV": 0.0857,
+    "ADUR": 0.0149,
+    "TRMD": 0.0143,
+    "PAM": 0.0265,
+    "STOK": 0.0138,
+    "WULF": 0.008,
+    "BWIN": 0.0168,
+    "MEDP": 0.0267
   },
   "satellite_rationale": [
     {
       "ticker": "SSTI",
-      "score": 208.5,
+      "score": 277.5,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 3
+      "n_signals": 4
     },
     {
       "ticker": "KTF",
@@ -57,14 +59,6 @@
     },
     {
       "ticker": "EVV",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "COUR",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -88,14 +82,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "LFCR",
-      "score": 139.5,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "PAM",
       "score": 134.5,
       "sources": [
@@ -104,26 +90,50 @@
       "n_signals": 2
     },
     {
-      "ticker": "QVCG",
-      "score": 112.2,
+      "ticker": "STOK",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
+    },
+    {
+      "ticker": "WULF",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "BWIN",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "MEDP",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0678,
+    "ann_vol": 0.071,
     "var_95_1d": 0.0081,
-    "cvar_95_1d": 0.0087,
-    "max_drawdown": -0.0371,
-    "beta_spy": 0.568,
-    "hhi": 0.0725,
+    "cvar_95_1d": 0.0102,
+    "max_drawdown": -0.0332,
+    "beta_spy": 0.589,
+    "hhi": 0.0688,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 13.8,
+    "n_positions": 15,
+    "effective_positions": 14.5,
     "gross_exposure": 0.7999,
-    "days_used": 37
+    "days_used": 36
   },
   "risk_gate": {
     "passed": true,
