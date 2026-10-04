@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-04T02:52:52+00:00 -->
+<!-- trader_prompt.md generado 2026-10-04T10:03:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-04T02:52:52+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
+_Generado 2026-10-04T10:03:15+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 84773.71 (0.33% / 1.52% / 10.33%) [2026-10-04]
+- BTC-USD: 85236.26 (0.56% / 1.93% / 9.05%) [2026-10-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,18 +357,10 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (2), ai (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
 - [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
-- [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
-- [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
-- [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -383,11 +375,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- MAGATheeStallion · PnL $9,388 · win rate 98% · categorias: sports
-- monkeymashingkeyboard · PnL $20,563 · win rate 92% · categorias: sports
-- Kosherlocks · PnL $9,919 · win rate 96% · categorias: sports, crypto
-- mooseborzoii · PnL $317,084 · win rate 73% · categorias: sports
-- ethanaz · PnL $28,419 · win rate 88% · categorias: sports, crypto
+- TAIWANNUMBERONE · PnL $63,186 · win rate 94% · categorias: sports
+- ic4cream · PnL $87,504 · win rate 90% · categorias: sports
+- 0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000 · PnL $144,316 · win rate 86% · categorias: sports
+- mooseborzoii · PnL $791,245 · win rate 73% · categorias: sports
+- Kosherlocks · PnL $20,683 · win rate 96% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
