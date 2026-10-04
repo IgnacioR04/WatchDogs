@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-04T19:53:26+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
+_Generado 2026-10-04T23:24:09+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -108,7 +108,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 85428.27 (0.78% / 2.16% / 9.29%) [2026-10-04]
+- BTC-USD: 86588.36 (2.15% / 3.55% / 10.78%) [2026-10-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,19 +123,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (2), ai (2)
+**Temas dominantes**: ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
-- [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
 - [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
+- [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
 - [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
-- [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
-- [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -150,11 +145,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ic4cream · PnL $121,553 · win rate 90% · categorias: sports
-- TAIWANNUMBERONE · PnL $65,632 · win rate 94% · categorias: sports, politics
-- esportsbetter1 · PnL $63,944 · win rate 94% · categorias: sports
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $42,485 · win rate 95% · categorias: sports
-- KaneAnalytics · PnL $45,904 · win rate 94% · categorias: sports
+- Ne8om · PnL $138,489 · win rate 100% · categorias: sports
+- BreakTheBank · PnL $683,713 · win rate 86% · categorias: sports
+- Kch-Temp · PnL $165,700 · win rate 92% · categorias: sports
+- mooseborzoii · PnL $2,465,489 · win rate 73% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $145,038 · win rate 89% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
