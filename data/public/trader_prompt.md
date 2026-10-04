@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-04T10:03:15+00:00 -->
+<!-- trader_prompt.md generado 2026-10-04T15:40:16+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-04T10:03:15+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
+_Generado 2026-10-04T15:40:16+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 85236.26 (0.56% / 1.93% / 9.05%) [2026-10-04]
+- BTC-USD: 85303.3 (0.64% / 2.01% / 9.13%) [2026-10-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,10 +357,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: ai (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
-- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
+- [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
+- [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
+- [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
+- [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
