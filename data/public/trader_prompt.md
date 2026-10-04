@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-03T23:16:56+00:00 -->
+<!-- trader_prompt.md generado 2026-10-04T02:52:52+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-03T23:16:56+00:00 · ventana señales 2026-09-03 -> 2026-10-03_
+_Generado 2026-10-04T02:52:52+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 84741.04 (0.29% / 1.48% / 10.29%) [2026-10-03]
+- BTC-USD: 84773.71 (0.33% / 1.52% / 10.33%) [2026-10-04]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,16 +357,16 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (2), ai (2)
+**Temas dominantes**: stock (3), leadership (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
+- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
 - [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
 - [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
 - [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
 - [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
-- [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
 - [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
 - [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
 
@@ -383,11 +383,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- CyberScore.live · PnL $102,825 · win rate 97% · categorias: sports
-- RJW1 · PnL $62,766 · win rate 98% · categorias: sports
-- lllllllIlll · PnL $89,969 · win rate 95% · categorias: sports
-- Daumah · PnL $31,426 · win rate 96% · categorias: crypto, sports
-- esportsbetter1 · PnL $36,681 · win rate 94% · categorias: sports
+- MAGATheeStallion · PnL $9,388 · win rate 98% · categorias: sports
+- monkeymashingkeyboard · PnL $20,563 · win rate 92% · categorias: sports
+- Kosherlocks · PnL $9,919 · win rate 96% · categorias: sports, crypto
+- mooseborzoii · PnL $317,084 · win rate 73% · categorias: sports
+- ethanaz · PnL $28,419 · win rate 88% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
