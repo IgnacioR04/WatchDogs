@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-05T02:14:40+00:00 -->
+<!-- trader_prompt.md generado 2026-10-05T09:17:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-05T02:14:40+00:00 · ventana señales 2026-09-05 -> 2026-10-05_
+_Generado 2026-10-05T09:17:56+00:00 · ventana señales 2026-09-05 -> 2026-10-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.31)
+- Volatilidad: `normal` (VIX 16.23)
 - Tendencia: `bull` (SPY 769.64 · MA50 762.23 · MA200 717.04 · dist MA200: 7.34%)
 - Credito: `normal` (HY spread 3.24)
 - Tipos: `flat` (curva 10y-2y 0.45)
@@ -341,8 +341,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 77.48 (-0.3% / -1.93% / -5.21%) [2026-10-02]
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
-- ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 86696.99 (2.28% / 3.68% / 10.92%) [2026-10-05]
+- ^VIX: 16.23 (6.01% / 1.0% / 6.08%) [2026-10-05]
+- BTC-USD: 85793.27 (-0.79% / 2.68% / 13.46%) [2026-10-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -361,13 +361,12 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
 - [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
 - [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
 - [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
 - [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
-- [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
 - [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
-- [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
 - [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
 - [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
@@ -384,11 +383,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Ne8om · PnL $138,489 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $748,562 · win rate 86% · categorias: sports
-- Kch-Temp · PnL $218,115 · win rate 93% · categorias: sports
-- mooseborzoii · PnL $2,394,814 · win rate 73% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $145,042 · win rate 89% · categorias: crypto
+- Diabolical-Prize · PnL $660,000 · win rate 95% · categorias: sports, economy
+- monkeymashingkeyboard · PnL $77,883 · win rate 92% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $86,798 · win rate 89% · categorias: crypto
+- mooseborzoii · PnL $1,085,457 · win rate 73% · categorias: sports
+- us391 · PnL $18,910 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -399,8 +398,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - **sec_insiders**: `ok` · 495 registros 30d · ultimo dato 2026-10-02
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-02
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
