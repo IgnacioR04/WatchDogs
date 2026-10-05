@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-05T09:17:56+00:00 · ventana señales 2026-09-05 -> 2026-10-05_
+_Generado 2026-10-05T18:43:20+00:00 · ventana señales 2026-09-05 -> 2026-10-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.23)
-- Tendencia: `bull` (SPY 769.64 · MA50 762.23 · MA200 717.04 · dist MA200: 7.34%)
-- Credito: `normal` (HY spread 3.24)
+- Volatilidad: `normal` (VIX 15.6)
+- Tendencia: `bull` (SPY 775.21 · MA50 762.99 · MA200 717.56 · dist MA200: 8.03%)
+- Credito: `normal` (HY spread 3.1)
 - Tipos: `flat` (curva 10y-2y 0.45)
 - Fed Funds: 3.75%
 - Motivos: tendencia alcista (+)
@@ -22,41 +22,37 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 769.64 | 0.74% | -0.22% | -0.21% |
-| QQQ | 11.4% | core | 749.58 | 1.02% | 0.68% | 4.56% |
-| TLT | 11.4% | core | 77.48 | -0.3% | -1.93% | -5.21% |
-| EVV | 10.0% | satellite | 8.43 | -0.47% | 0.12% | -6.0% |
-| GLD | 8.6% | core | 380.14 | -0.68% | -3.37% | -7.33% |
-| KTF | 7.4% | satellite | 8.1 | 0.0% | -1.58% | -5.89% |
-| IEF | 5.7% | core | 89.05 | -0.28% | -0.71% | -3.17% |
-| PAM | 3.1% | satellite | 76.39 | 0.39% | -1.84% | -9.85% |
-| BWIN | 2.1% | satellite | 31.77 | 0.0% | -0.25% | 1.76% |
-| ADUR | 1.8% | satellite | 12.28 | 1.32% | -2.77% | -11.53% |
-| TRMD | 1.7% | satellite | 40.0 | 3.09% | 16.55% | 25.66% |
-| STOK | 1.7% | satellite | 25.62 | -1.5% | 3.31% | -14.57% |
-| SYRE | 1.7% | satellite | 93.19 | 3.63% | 8.75% | 6.81% |
-| WULF | 1.0% | satellite | 15.49 | 3.89% | -1.59% | -4.56% |
-| SSTI | 0.5% | satellite | 8.33 | -1.3% | 47.7% | 37.01% |
+| SPY | 12.0% | core | 775.21 | 0.72% | 1.25% | 0.9% |
+| QQQ | 11.4% | core | 755.62 | 0.81% | 2.59% | 5.21% |
+| TLT | 11.4% | core | 76.88 | -0.77% | -1.82% | -6.11% |
+| EVV | 9.4% | satellite | 8.34 | -1.07% | -0.36% | -7.01% |
+| GLD | 8.6% | core | 379.33 | -0.21% | 0.38% | -6.75% |
+| KTF | 7.2% | satellite | 8.03 | -0.86% | -0.37% | -6.81% |
+| IEF | 5.7% | core | 88.77 | -0.31% | -0.51% | -3.44% |
+| AMSF | 3.2% | satellite | 23.48 | -0.47% | -1.18% | -8.13% |
+| OKE | 2.9% | satellite | 88.5 | 0.71% | -0.13% | -7.26% |
+| PAM | 2.8% | satellite | 79.96 | 4.67% | 4.45% | -5.71% |
+| MATW | 2.7% | satellite | 19.36 | 0.36% | -0.82% | -8.38% |
+| ESEA | 2.2% | satellite | 73.02 | 0.83% | 5.5% | -3.32% |
+| SSTI | 0.5% | satellite | 8.32 | -0.12% | 52.1% | 36.06% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.0%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -3.8%
-- Beta vs SPY: 0.58 · posiciones efectivas: 14.4 · HHI: 0.0693
+- Volatilidad anualizada: 6.0%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -3.9%
+- Beta vs SPY: 0.507 · posiciones efectivas: 14.5 · HHI: 0.0691
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **SSTI** · score agregado 277.5 · 4 señales · fuentes: large_holder
+- **OKE** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **MATW** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **AMSF** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **KTF** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **EVV** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **ADUR** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **TRMD** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **PAM** · score agregado 134.5 · 2 señales · fuentes: corporate_insider
-- **SYRE** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **STOK** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **WULF** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **BWIN** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ESEA** · score agregado 108.8 · 2 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -64,34 +60,34 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| MXF | 77 | corporate_insider | Saba Capital Management,  | 2 | $358,420 | cluster_buy |
+| MXF | 72 | corporate_insider | Saba Capital Management,  | 2 | $31,051 | cluster_buy |
 | XAIR | 72 | large_holder | Lin Yi-Chien |  | - | - |
-| SYRE | 72 | large_holder | Paradigm BioCapital Advis |  | - | - |
 | STOK | 72 | large_holder | BIOTECHNOLOGY VALUE FUND  |  | - | - |
-| WULF | 72 | large_holder | Google LLC |  | - | - |
-| BWIN | 72 | large_holder | Glazer Capital, LLC |  | - | - |
-| MPB | 72 | corporate_insider | Evans Albert J. | 3 | $9,983 | cluster_buy,small_amount |
-| KZIA | 70 | large_holder | Dauntless Investment Grou |  | - | - |
-| NSTS | 70 | large_holder | NORTH SHORE TRUST & SAVIN |  | - | - |
-| SSTI | 70 | large_holder | Kopion Asset Management,  |  | - | - |
-| BBSI | 70 | large_holder | Private Capital Managemen |  | - | - |
-| MATW | 70 | large_holder | Private Capital Managemen |  | - | - |
-| GOW | 70 | large_holder | Michael Blitzer |  | - | - |
-| DOMH | 70 | large_holder | Blue Finn Group LLC |  | - | - |
-| AN | 70 | large_holder | Brave Warrior Advisors, L |  | - | - |
-| CISS | 70 | large_holder | TOWERVIEW LLC |  | - | - |
+| ETHB | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| ANGI | 70 | large_holder | BlackRock Portfolio Manag |  | - | - |
+| OKE | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| OKE | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| VIAV | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| TOST | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| MATW | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| KRMN | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| INVX | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| HUBS | 70 | large_holder | BlackRock, Inc. |  | - | - |
+| DKS | 70 | large_holder | BlackRock, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| DBRG | 58 | corporate_insider | Ganzi Marc C | $44,467,216 | - |
-| ROIV | 58 | corporate_insider | Venker Eric | $7,324,000 | - |
-| CRWV | 57 | corporate_insider | Intrator Michael N | $6,888,225 | - |
-| WHD | 57 | corporate_insider | Bender Scott | $6,197,300 | - |
-| WHD | 57 | corporate_insider | Bender Joel | $6,197,300 | - |
+| NBIS | 58 | corporate_insider | Volozh Arkadiy | $8,846,096 | - |
 | RKLB | 56 | corporate_insider | Spice Adam C. | $6,046,254 | - |
 | WRBY | 56 | corporate_insider | Blumenthal Neil Harris | $2,769,000 | - |
 | MLYS | 55 | corporate_insider | Congleton Jon | $1,909,665 | - |
+| RKLB | 54 | corporate_insider | Spice Adam C. | $2,788,044 | - |
+| BNTX | 54 | corporate_insider | Sahin Ugur | $1,644,323 | - |
+| SE | 54 | corporate_insider | Zhao Feng | $1,642,232 | - |
+| BNTX | 54 | corporate_insider | Sahin Ugur | $1,656,745 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -100,15 +96,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 769.64 (0.74% / -0.22% / -0.21%) [2026-10-02]
-- QQQ: 749.58 (1.02% / 0.68% / 4.56%) [2026-10-02]
-- IWM: 281.52 (0.9% / -0.16% / -4.38%) [2026-10-02]
-- DIA: 511.1 (0.49% / -1.23% / -4.59%) [2026-10-02]
-- TLT: 77.48 (-0.3% / -1.93% / -5.21%) [2026-10-02]
-- IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
-- GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
-- ^VIX: 16.23 (6.01% / 1.0% / 6.08%) [2026-10-05]
-- BTC-USD: 85793.27 (-0.79% / 2.68% / 13.46%) [2026-10-05]
+- SPY: 775.21 (0.72% / 1.25% / 0.9%) [2026-10-05]
+- QQQ: 755.62 (0.81% / 2.59% / 5.21%) [2026-10-05]
+- IWM: 283.38 (0.66% / 1.2% / -4.02%) [2026-10-05]
+- DIA: 512.44 (0.26% / -0.31% / -3.83%) [2026-10-05]
+- TLT: 76.88 (-0.77% / -1.82% / -6.11%) [2026-10-05]
+- IEF: 88.77 (-0.31% / -0.51% / -3.44%) [2026-10-05]
+- GLD: 379.33 (-0.21% / 0.38% / -6.75%) [2026-10-05]
+- ^VIX: 15.6 (1.89% / -2.92% / 1.96%) [2026-10-05]
+- BTC-USD: 85597.86 (-1.02% / 2.45% / 13.21%) [2026-10-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -116,44 +112,40 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - Treasury 10Y yield: 5.24 (delta 1m: 0.45) [2026-10-01]
 - Curva 10Y-2Y: 0.45 (delta 1m: 0.05) [2026-10-02]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
-- High yield spread (OAS): 3.24 (delta 1m: 0.58) [2026-10-01]
+- High yield spread (OAS): 3.1 (delta 1m: 0.45) [2026-10-02]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
 - Breakeven inflacion 10Y: 2.36 (delta 1m: 0.02) [2026-10-02]
 - Dolar broad index: 120.33 (delta 1m: 1.884) [2026-09-25]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), ai (3), leadership (2)
+**Temas dominantes**: stock (2), ai (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [TWLO] Vylor Added to the S & P 500 ; Twilio Set to Join S & P 500 ; Others to Join S & P MidCap 400 and S & P SmallCap 600 (2026-10-01)
 - [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
-- [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
+- [AUB] Atlantic Union Bankshares ( NYSE : AUB ) Stock Price Expected to Rise , Morgan Stanley Analyst Says (2026-09-30)
 - [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
-- [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
 - [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Ganzi Marc C vendio DBRG por $44.5M el 2026-09-30.
 - CEO Mindlin Damian Miguel compro PAM por $4.4M el 2026-09-28.
-- CEO Bender Scott vendio WHD por $6.2M el 2026-10-01.
+- CEO Volozh Arkadiy vendio NBIS por $8.8M el 2026-10-01.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 - Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 - Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
+- Institutional manager Geode Capital Management LLC vendio ELI LILLY & CO por $13.2B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $660,000 · win rate 95% · categorias: sports, economy
-- monkeymashingkeyboard · PnL $77,883 · win rate 92% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $86,798 · win rate 89% · categorias: crypto
-- mooseborzoii · PnL $1,085,457 · win rate 73% · categorias: sports
-- us391 · PnL $18,910 · win rate 96% · categorias: sports
+- Diabolical-Prize · PnL $817,646 · win rate 95% · categorias: sports, economy
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $91,470 · win rate 96% · categorias: sports
+- Vps1 · PnL $27,716 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $81,559 · win rate 92% · categorias: sports
+- mooseborzoii · PnL $1,085,807 · win rate 73% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -161,8 +153,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 495 registros 30d · ultimo dato 2026-10-02
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-02
+- **sec_insiders**: `ok` · 454 registros 30d · ultimo dato 2026-10-03
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-05
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -175,7 +167,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ADUR, BWIN, EVV, GLD, IEF, KTF, PAM, QQQ, SPY, SSTI, STOK, SYRE, TLT, TRMD, WULF`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AMSF, ESEA, EVV, GLD, IEF, KTF, MATW, OKE, PAM, QQQ, SPY, SSTI, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

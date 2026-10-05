@@ -1,25 +1,23 @@
 {
-  "generated_at": "2026-10-05T09:17:55+00:00",
+  "generated_at": "2026-10-05T18:43:19+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "total_equity": 0.7997,
+  "cash": 0.2003,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "EVV": 0.0995,
+    "EVV": 0.094,
     "GLD": 0.0858,
-    "KTF": 0.0742,
+    "KTF": 0.0721,
     "IEF": 0.0572,
-    "PAM": 0.0314,
-    "BWIN": 0.0206,
-    "ADUR": 0.0177,
-    "TRMD": 0.0168,
-    "STOK": 0.0168,
-    "SYRE": 0.0165,
-    "WULF": 0.0097,
-    "SSTI": 0.005
+    "AMSF": 0.0321,
+    "OKE": 0.0286,
+    "PAM": 0.0275,
+    "MATW": 0.0268,
+    "ESEA": 0.022,
+    "SSTI": 0.0048
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +27,14 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SSTI": 0.0045,
-    "KTF": 0.0674,
-    "EVV": 0.0904,
-    "ADUR": 0.0161,
-    "TRMD": 0.0153,
-    "PAM": 0.0285,
-    "SYRE": 0.015,
-    "STOK": 0.0153,
-    "WULF": 0.0088,
-    "BWIN": 0.0187
+    "SSTI": 0.0044,
+    "OKE": 0.026,
+    "MATW": 0.0244,
+    "AMSF": 0.0292,
+    "KTF": 0.0655,
+    "EVV": 0.0854,
+    "PAM": 0.025,
+    "ESEA": 0.02
   },
   "satellite_rationale": [
     {
@@ -48,6 +44,30 @@
         "large_holder"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "OKE",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "MATW",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "AMSF",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "KTF",
@@ -66,22 +86,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "ADUR",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "TRMD",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "PAM",
       "score": 134.5,
       "sources": [
@@ -90,50 +94,26 @@
       "n_signals": 2
     },
     {
-      "ticker": "SYRE",
-      "score": 71.8,
+      "ticker": "ESEA",
+      "score": 108.8,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "STOK",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "WULF",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "BWIN",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
+      "n_signals": 2
     }
   ],
   "metrics": {
-    "ann_vol": 0.0705,
-    "var_95_1d": 0.0075,
-    "cvar_95_1d": 0.0103,
-    "max_drawdown": -0.0375,
-    "beta_spy": 0.58,
-    "hhi": 0.0693,
+    "ann_vol": 0.0599,
+    "var_95_1d": 0.0068,
+    "cvar_95_1d": 0.0086,
+    "max_drawdown": -0.0389,
+    "beta_spy": 0.507,
+    "hhi": 0.0691,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 14.4,
-    "gross_exposure": 0.8,
-    "days_used": 39
+    "n_positions": 13,
+    "effective_positions": 14.5,
+    "gross_exposure": 0.7997,
+    "days_used": 40
   },
   "risk_gate": {
     "passed": true,
