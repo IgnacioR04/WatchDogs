@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-04T23:24:09+00:00 -->
+<!-- trader_prompt.md generado 2026-10-05T02:14:40+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-04T23:24:09+00:00 · ventana señales 2026-09-04 -> 2026-10-04_
+_Generado 2026-10-05T02:14:40+00:00 · ventana señales 2026-09-05 -> 2026-10-05_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -342,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.05 (-0.28% / -0.71% / -3.17%) [2026-10-02]
 - GLD: 380.14 (-0.68% / -3.37% / -7.33%) [2026-10-02]
 - ^VIX: 15.31 (-6.59% / 2.96% / 5.37%) [2026-10-02]
-- BTC-USD: 86588.36 (2.15% / 3.55% / 10.78%) [2026-10-04]
+- BTC-USD: 86696.99 (2.28% / 3.68% / 10.92%) [2026-10-05]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,14 +357,19 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), stock (1)
+**Temas dominantes**: stock (4), ai (3), leadership (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWV] Here Is What a $500 Investment in CoreWeave Could Be Worth by 2030 (2026-10-01)
+- [GH] Head to Head Analysis : Guardant Health ( NASDAQ : GH ) and CorVel ( NASDAQ : CRVL ) (2026-10-01)
+- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
+- [XMTR] Xometry CEO Sells 1 , 500 Shares Amid a 67 % One - Year Return (2026-10-01)
+- [XMTR] XMTR Stock , Avnet Eye Buy Points And AI Supply Chains | Investor Business Daily (2026-09-24)
 - [DBRG] DigitalBridge and Aberdeen Completed Combination of ZEMobility and VGMobility : (2026-09-24)
 - [CIFR] Cipher Digital Just Scored a Huge AI Infrastructure Breakthrough . What It Will Take for the Stock to Reclaim $30 . (2026-09-22)
 - [DBRG] DigitalBridge Group ( NYSE : DBRG ) Sets New 12 - Month High – Here What Happened (2026-09-22)
+- [XMTR] Xometry ( NASDAQ : XMTR ) Receives  Market Outperform  Rating from Citizens Jmp (2026-09-22)
+- [GH] Guardant Health Diagnoses Breakout Move | Investor Business Daily (2026-09-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -380,10 +385,10 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Ne8om · PnL $138,489 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $683,713 · win rate 86% · categorias: sports
-- Kch-Temp · PnL $165,700 · win rate 92% · categorias: sports
-- mooseborzoii · PnL $2,465,489 · win rate 73% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $145,038 · win rate 89% · categorias: crypto
+- BreakTheBank · PnL $748,562 · win rate 86% · categorias: sports
+- Kch-Temp · PnL $218,115 · win rate 93% · categorias: sports
+- mooseborzoii · PnL $2,394,814 · win rate 73% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $145,042 · win rate 89% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -394,8 +399,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - **sec_insiders**: `ok` · 495 registros 30d · ultimo dato 2026-10-02
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-02
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
-- **Fuentes con problemas**: congress
+- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
+- **Fuentes con problemas**: congress, polymarket
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 

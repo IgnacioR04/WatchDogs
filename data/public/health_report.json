@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:23:19.121684+00:00",
+  "generated_at": "2026-10-05T02:13:50.317586+00:00",
   "overall_status": "error",
   "datasets": {
     "congress": {
@@ -45,12 +45,14 @@
       "blocked_for_signals": false
     },
     "polymarket": {
-      "status": "ok",
+      "status": "warning",
       "smart_traders": 48,
       "whales": 50,
-      "volume_zero_count": 2,
-      "avg_win_rate": 0.7451,
-      "issues": [],
+      "volume_zero_count": 98,
+      "avg_win_rate": 0.751,
+      "issues": [
+        "all_volume_zero"
+      ],
       "blocked_for_signals": false
     }
   }
