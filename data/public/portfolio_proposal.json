@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-06T15:28:08+00:00",
+  "generated_at": "2026-10-06T20:34:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.8,
+  "cash": 0.2,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
+    "OKE": 0.0961,
     "GLD": 0.0858,
-    "ESEA": 0.0829,
-    "TOST": 0.0747,
-    "BURL": 0.0662,
-    "AVR": 0.0623,
+    "ESEA": 0.0711,
     "IEF": 0.0572,
-    "SSTI": 0.0219
+    "QRVO": 0.056,
+    "AVR": 0.0535,
+    "DKS": 0.0315
   },
   "core": {
     "SPY": 0.182,
@@ -24,20 +24,20 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SSTI": 0.0199,
-    "AVR": 0.0566,
-    "ESEA": 0.0753,
-    "TOST": 0.0679,
-    "BURL": 0.0602
+    "OKE": 0.0873,
+    "AVR": 0.0486,
+    "ESEA": 0.0646,
+    "QRVO": 0.0509,
+    "DKS": 0.0286
   },
   "satellite_rationale": [
     {
-      "ticker": "SSTI",
-      "score": 277.5,
+      "ticker": "OKE",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 4
+      "n_signals": 2
     },
     {
       "ticker": "AVR",
@@ -56,7 +56,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "TOST",
+      "ticker": "QRVO",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -64,7 +64,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "BURL",
+      "ticker": "DKS",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -73,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1021,
-    "var_95_1d": 0.0099,
-    "cvar_95_1d": 0.011,
-    "max_drawdown": -0.0608,
-    "beta_spy": 0.658,
-    "hhi": 0.0724,
+    "ann_vol": 0.0841,
+    "var_95_1d": 0.0084,
+    "cvar_95_1d": 0.0093,
+    "max_drawdown": -0.0361,
+    "beta_spy": 0.575,
+    "hhi": 0.0725,
     "max_position": 0.12,
     "n_positions": 10,
     "effective_positions": 13.8,
-    "gross_exposure": 0.7998,
+    "gross_exposure": 0.8,
     "days_used": 56
   },
   "risk_gate": {
