@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-10-05T18:43:19+00:00",
+  "generated_at": "2026-10-06T01:06:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7997,
-  "cash": 0.2003,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "EVV": 0.094,
+    "ESEA": 0.104,
+    "TOST": 0.0936,
     "GLD": 0.0858,
-    "KTF": 0.0721,
+    "BURL": 0.0831,
     "IEF": 0.0572,
-    "AMSF": 0.0321,
-    "OKE": 0.0286,
-    "PAM": 0.0275,
-    "MATW": 0.0268,
-    "ESEA": 0.022,
-    "SSTI": 0.0048
+    "SSTI": 0.0274
   },
   "core": {
     "SPY": 0.182,
@@ -27,14 +23,10 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SSTI": 0.0044,
-    "OKE": 0.026,
-    "MATW": 0.0244,
-    "AMSF": 0.0292,
-    "KTF": 0.0655,
-    "EVV": 0.0854,
-    "PAM": 0.025,
-    "ESEA": 0.02
+    "SSTI": 0.0249,
+    "ESEA": 0.0945,
+    "TOST": 0.0851,
+    "BURL": 0.0755
   },
   "satellite_rationale": [
     {
@@ -46,74 +38,42 @@
       "n_signals": 4
     },
     {
-      "ticker": "OKE",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MATW",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "AMSF",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "KTF",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "EVV",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "PAM",
-      "score": 134.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "ESEA",
       "score": 108.8,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "TOST",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "BURL",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0599,
-    "var_95_1d": 0.0068,
-    "cvar_95_1d": 0.0086,
-    "max_drawdown": -0.0389,
-    "beta_spy": 0.507,
-    "hhi": 0.0691,
+    "ann_vol": 0.1043,
+    "var_95_1d": 0.0096,
+    "cvar_95_1d": 0.0101,
+    "max_drawdown": -0.0644,
+    "beta_spy": 0.615,
+    "hhi": 0.0784,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.7997,
-    "days_used": 40
+    "n_positions": 9,
+    "effective_positions": 12.7,
+    "gross_exposure": 0.7999,
+    "days_used": 55
   },
   "risk_gate": {
     "passed": true,
