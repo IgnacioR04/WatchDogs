@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-06T07:48:16.932315+00:00",
+  "generated_at": "2026-10-06T15:27:13.507562+00:00",
   "window": {
     "from": "2026-09-06",
     "to": "2026-10-06",
@@ -18,38 +18,17 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
-    "top_themes": [
-      "regulatory",
-      "merger"
-    ],
+    "top_themes": [],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner vendio ACCV ($360.0M)",
-      "summary": "10% owner OGP VIII, LLC vendio ACCV por $360.0M el 2026-10-01.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "OGP VIII, LLC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "ACCV",
-      "direction": "sell",
-      "amount_estimated": 360000000.0,
-      "event_date": "2026-10-01",
-      "importance_score": 84.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1256258/000162828026065149/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "CEO compro ACCV ($3.6M)",
       "summary": "CEO Rubiera Michael compro ACCV por $3.6M el 2026-10-01.",
       "source": "sec_form_4",
@@ -64,6 +43,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/2149930/000162828026065167/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "10% owner compro AVR ($4.9M)",
+      "summary": "10% owner L1 Capital Pty Ltd compro AVR por $4.9M el 2026-10-05.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "L1 Capital Pty Ltd",
+      "actor_type": "ten_percent_owner",
+      "ticker": "AVR",
+      "direction": "buy",
+      "amount_estimated": 4869897.05,
+      "event_date": "2026-10-05",
+      "importance_score": 83.3,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1817646/000181764626000029/"
     },
     {
       "id": "move_3",
@@ -393,14 +390,6 @@
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "ACCV",
-        "company": "Accelevation Holdings Corp.",
-        "pressure_score": 442.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "LND",
         "company": "BrasilAgro - Brazilian Agricultural Real Estate Co",
         "pressure_score": 278.8,
@@ -419,14 +408,6 @@
       {
         "ticker": "CISS",
         "company": "C3is Inc.",
-        "pressure_score": 211.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "IMCC",
-        "company": "IM Cannabis Corp.",
         "pressure_score": 211.5,
         "sources": [
           "large_holder"
@@ -457,6 +438,22 @@
         ]
       },
       {
+        "ticker": "AVR",
+        "company": "Anteris Technologies Global Corp.",
+        "pressure_score": 163.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ACCV",
+        "company": "Accelevation Holdings Corp.",
+        "pressure_score": 158.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "OKE",
         "company": "ONEOK INC /NEW/",
         "pressure_score": 141.0,
@@ -467,14 +464,6 @@
       {
         "ticker": "MATW",
         "company": "MATTHEWS INTERNATIONAL CORPORATION",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "AMSF",
-        "company": "AMERISAFE INC",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -492,6 +481,14 @@
         "ticker": "TP",
         "company": "TICKETPLUS LTD.",
         "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "HLSQ",
+        "company": "Tessera Defense & Homeland Security Inc.",
+        "pressure_score": 139.5,
         "sources": [
           "large_holder"
         ]
@@ -580,14 +577,6 @@
         ]
       },
       {
-        "ticker": "ASST",
-        "company": "Strive, Inc.",
-        "pressure_score": 433.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
         "pressure_score": 427.7,
@@ -599,6 +588,14 @@
         "ticker": "AIP",
         "company": "Arteris, Inc.",
         "pressure_score": 402.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FCF",
+        "company": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
+        "pressure_score": 396.1,
         "sources": [
           "corporate_insider"
         ]
@@ -649,6 +646,33 @@
       "score": 83.6
     },
     {
+      "ticker": "AVR",
+      "company": "Anteris Technologies Global Corp.",
+      "actor": "L1 Capital Pty Ltd",
+      "actor_type": "ten_percent_owner",
+      "amount": 4869897.05,
+      "date": "2026-10-05",
+      "score": 83.3
+    },
+    {
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Troim Tor Olav",
+      "actor_type": "director",
+      "amount": 6197100.0,
+      "date": "2026-10-05",
+      "score": 81.3
+    },
+    {
+      "ticker": "AVR",
+      "company": "Anteris Technologies Global Corp.",
+      "actor": "L1 Capital Pty Ltd",
+      "actor_type": "ten_percent_owner",
+      "amount": 1838834.12,
+      "date": "2026-10-02",
+      "score": 79.7
+    },
+    {
       "ticker": "ACCV",
       "company": "Accelevation Holdings Corp.",
       "actor": "Rubiera Michael",
@@ -658,13 +682,13 @@
       "score": 74.7
     },
     {
-      "ticker": "ACCV",
-      "company": "Accelevation Holdings Corp.",
-      "actor": "JONES GINGER M",
-      "actor_type": "director",
-      "amount": 180000.0,
-      "date": "2026-10-01",
-      "score": 72.1
+      "ticker": "UXIN",
+      "company": "Uxin Ltd",
+      "actor": "Dai Kun",
+      "actor_type": "ceo",
+      "amount": 11016.12,
+      "date": "2026-10-05",
+      "score": 72.6
     },
     {
       "ticker": "INM",
@@ -674,24 +698,6 @@
       "amount": 24182.06,
       "date": "2026-10-05",
       "score": 71.8
-    },
-    {
-      "ticker": "ACCV",
-      "company": "Accelevation Holdings Corp.",
-      "actor": "Donahue Paul D",
-      "actor_type": "director",
-      "amount": 126000.0,
-      "date": "2026-10-01",
-      "score": 71.4
-    },
-    {
-      "ticker": "ACCV",
-      "company": "Accelevation Holdings Corp.",
-      "actor": "HECKES HOWARD C",
-      "actor_type": "director",
-      "amount": 90000.0,
-      "date": "2026-10-01",
-      "score": 70.6
     },
     {
       "ticker": "LND",
@@ -710,15 +716,6 @@
       "amount": 21849.94,
       "date": "2026-10-01",
       "score": 70.0
-    },
-    {
-      "ticker": "ACCV",
-      "company": "Accelevation Holdings Corp.",
-      "actor": "Jewell Brent C",
-      "actor_type": "officer",
-      "amount": 45000.0,
-      "date": "2026-10-01",
-      "score": 69.9
     },
     {
       "ticker": "LND",
@@ -748,13 +745,13 @@
       "score": 69.4
     },
     {
-      "ticker": "ESEA",
-      "company": "EUROSEAS LTD.",
-      "actor": "Pittas Aristeidis P",
+      "ticker": "AEF",
+      "company": "abrdn Emerging Markets ex-China Fund, Inc.",
+      "actor": "Clark Anthony S.",
       "actor_type": "director",
-      "amount": 37312.85,
-      "date": "2026-10-02",
-      "score": 68.7
+      "amount": 19452.0,
+      "date": "2026-10-05",
+      "score": 68.8
     },
     {
       "ticker": "ESEA",
@@ -766,13 +763,13 @@
       "score": 68.7
     },
     {
-      "ticker": "INM",
-      "company": "InMed Pharmaceuticals Inc.",
-      "actor": "ADAR1 Capital Management, LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 11048.31,
+      "ticker": "ESEA",
+      "company": "EUROSEAS LTD.",
+      "actor": "Pittas Aristeidis P",
+      "actor_type": "director",
+      "amount": 37312.85,
       "date": "2026-10-02",
-      "score": 68.6
+      "score": 68.7
     }
   ],
   "institutional_changes": [
@@ -978,6 +975,15 @@
       "date": "2026-09-30"
     },
     {
+      "filer": "Rui Zhang",
+      "company": "AGM Group Holdings Inc.",
+      "ticker": "AGMH",
+      "ownership_pct": 81.48,
+      "shares": 17446471,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-06"
+    },
+    {
       "filer": "Mudrick Capital Management, L.P.",
       "company": "Vroom, Inc.",
       "ticker": "",
@@ -1084,15 +1090,6 @@
       "shares": 7495,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-05"
-    },
-    {
-      "filer": "CK Amarillo LP",
-      "company": "Hertz Global Holdings, Inc.",
-      "ticker": "",
-      "ownership_pct": 50.9,
-      "shares": 181455469,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-05"
     }
   ],
   "polymarket": {
@@ -1110,17 +1107,18 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 280529.79,
-        "win_rate": 0.8563,
-        "volume": 653542.46,
+        "pnl": 280679.03,
+        "win_rate": 0.8566,
+        "volume": 653575.79,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0xe5b70fd855",
         "username": "alwaysfade",
-        "pnl": 61847.25,
+        "pnl": 61847.75,
         "win_rate": 0.8929,
         "volume": 118855.61,
         "categories": [
@@ -1153,21 +1151,32 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 26917.6,
+        "pnl": 26932.05,
         "win_rate": 0.9189,
-        "volume": 5705.18,
+        "volume": 8620.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3f3aa7005f",
-        "username": "us391",
-        "pnl": 11958.66,
-        "win_rate": 0.963,
-        "volume": 33756.25,
+        "wallet": "0x1465b79bff",
+        "username": "JnStrtPrdctnMrkts",
+        "pnl": 14456.63,
+        "win_rate": 0.8938,
+        "volume": 1007.76,
         "categories": [
-          "sports"
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xb8ef617fd5",
+        "username": "no1dodgersfan",
+        "pnl": 33826.58,
+        "win_rate": 0.834,
+        "volume": 200925.06,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       },
       {
@@ -1183,22 +1192,11 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 154244.8,
+        "pnl": 154576.5,
         "win_rate": 0.7247,
-        "volume": 2109953.31,
+        "volume": 2172558.98,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0xb8ef617fd5",
-        "username": "no1dodgersfan",
-        "pnl": 25366.22,
-        "win_rate": 0.832,
-        "volume": 144106.11,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       }
     ],
@@ -1206,9 +1204,9 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 154244.8,
+        "pnl": 154576.5,
         "win_rate": 0.7247,
-        "volume": 2109953.31,
+        "volume": 2172558.98,
         "categories": [
           "sports"
         ]
@@ -1216,19 +1214,20 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 280529.79,
-        "win_rate": 0.8563,
-        "volume": 653542.46,
+        "pnl": 280679.03,
+        "win_rate": 0.8566,
+        "volume": 653575.79,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 83489.24,
-        "win_rate": 0.712,
-        "volume": 585646.35,
+        "pnl": 61174.63,
+        "win_rate": 0.713,
+        "volume": 692196.77,
         "categories": [
           "sports",
           "politics"
@@ -1237,9 +1236,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 105846.77,
-        "win_rate": 0.557,
-        "volume": 1143407.99,
+        "pnl": 132959.32,
+        "win_rate": 0.556,
+        "volume": 1774281.77,
         "categories": [
           "sports"
         ]
@@ -1247,9 +1246,29 @@
       {
         "wallet": "0x821dab0565",
         "username": "Flaznorp",
-        "pnl": 17648.55,
-        "win_rate": 0.522,
-        "volume": 1423038.3,
+        "pnl": 15611.95,
+        "win_rate": 0.531,
+        "volume": 1897615.45,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 32084.83,
+        "win_rate": 0.598,
+        "volume": 1030651.76,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 53645.18,
+        "win_rate": 0.559,
+        "volume": 687873.86,
         "categories": [
           "sports"
         ]
@@ -1257,9 +1276,9 @@
       {
         "wallet": "0x9b11866433",
         "username": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
-        "pnl": 83402.57,
+        "pnl": 79461.52,
         "win_rate": 0.487,
-        "volume": 682197.73,
+        "volume": 694244.73,
         "categories": [
           "sports"
         ]
@@ -1267,7 +1286,7 @@
       {
         "wallet": "0x9ee49c02ae",
         "username": "cosmicxbt",
-        "pnl": 58464.48,
+        "pnl": 58500.0,
         "win_rate": 0.8214,
         "volume": 150000.0,
         "categories": [
@@ -1276,32 +1295,11 @@
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 38104.08,
-        "win_rate": 0.602,
-        "volume": 624406.15,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 37644.6,
-        "win_rate": 0.56,
-        "volume": 369279.76,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x67542c3219",
         "username": "gmpm2",
-        "pnl": 112529.43,
-        "win_rate": 0.5252,
-        "volume": 99279.22,
+        "pnl": 81477.28,
+        "win_rate": 0.5243,
+        "volume": 101574.87,
         "categories": [
           "sports"
         ]
@@ -1317,33 +1315,21 @@
       "date": "2026-10-01"
     },
     {
-      "title": "Skyworks receives all regulatory approvals for Qorvo deal ( SWKS : NASDAQ ) ",
-      "url": "https://seekingalpha.com/news/4648487-skyworks-receives-all-regulatory-approvals-for-qorvo-deal",
-      "ticker": "QRVO",
-      "themes": [
-        "merger",
-        "regulatory"
-      ],
-      "date": "2026-09-30"
-    },
-    {
-      "title": "Qorvo achieves key X - band GaN milestone in DARPA THREADS program",
-      "url": "https://www.semiconductor-today.com/news_items/2026/sep/qorvo-240926.shtml",
-      "ticker": "QRVO",
-      "themes": [
-        "regulatory"
-      ],
-      "date": "2026-09-27"
-    },
-    {
-      "title": "ACV Auctions Inc . ( NYSE : ACVA ) Receives $9 . 70 Average Price Target from Analysts",
-      "url": "https://www.dailypolitical.com/2026/09/22/acv-auctions-inc-nyseacva-receives-9-70-average-price-target-from-analysts.html",
-      "ticker": "ACVA",
+      "title": "Prediction : The Next Big Aviation Revolution Could Start With Joby",
+      "url": "https://www.aol.com/articles/prediction-next-big-aviation-revolution-120035000.html",
+      "ticker": "JOBY",
       "themes": [],
-      "date": "2026-09-22"
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Joby , GE , Collins win millions in new defense work | Local",
+      "url": "https://www.daytondailynews.com/local/200m-in-defense-contracts-landed-recently-by-ud-joby-ge-collins-aerospace/article_d143d62d-87d5-566e-bc6e-d5c7ec34e489.html",
+      "ticker": "JOBY",
+      "themes": [],
+      "date": "2026-10-01"
     }
   ],
-  "signals_count": 1462,
+  "signals_count": 1433,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:49:18+00:00",
+  "generated_at": "2026-10-06T15:28:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7998,
@@ -8,12 +8,13 @@
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
-    "ESEA": 0.1039,
-    "TOST": 0.0936,
     "GLD": 0.0858,
-    "BURL": 0.0831,
+    "ESEA": 0.0829,
+    "TOST": 0.0747,
+    "BURL": 0.0662,
+    "AVR": 0.0623,
     "IEF": 0.0572,
-    "SSTI": 0.0274
+    "SSTI": 0.0219
   },
   "core": {
     "SPY": 0.182,
@@ -23,10 +24,11 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SSTI": 0.0249,
-    "ESEA": 0.0944,
-    "TOST": 0.0851,
-    "BURL": 0.0755
+    "SSTI": 0.0199,
+    "AVR": 0.0566,
+    "ESEA": 0.0753,
+    "TOST": 0.0679,
+    "BURL": 0.0602
   },
   "satellite_rationale": [
     {
@@ -36,6 +38,14 @@
         "large_holder"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "AVR",
+      "score": 131.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "ESEA",
@@ -63,15 +73,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1034,
-    "var_95_1d": 0.0096,
-    "cvar_95_1d": 0.0101,
-    "max_drawdown": -0.0644,
-    "beta_spy": 0.61,
-    "hhi": 0.0784,
+    "ann_vol": 0.1021,
+    "var_95_1d": 0.0099,
+    "cvar_95_1d": 0.011,
+    "max_drawdown": -0.0608,
+    "beta_spy": 0.658,
+    "hhi": 0.0724,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 12.8,
+    "n_positions": 10,
+    "effective_positions": 13.8,
     "gross_exposure": 0.7998,
     "days_used": 56
   },
