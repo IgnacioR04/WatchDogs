@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-07T07:29:46+00:00 · ventana señales 2026-09-07 -> 2026-10-07_
+_Generado 2026-10-07T14:47:04+00:00 · ventana señales 2026-09-07 -> 2026-10-07_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.01)
-- Tendencia: `bull` (SPY 779.09 · MA50 763.82 · MA200 718.13 · dist MA200: 8.49%)
+- Volatilidad: `normal` (VIX 15.71)
+- Tendencia: `bull` (SPY 773.96 · MA50 764.52 · MA200 718.65 · dist MA200: 7.7%)
 - Credito: `normal` (HY spread 3.12)
 - Tipos: `flat` (curva 10y-2y 0.48)
 - Fed Funds: 3.75%
@@ -22,30 +22,30 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 779.09 | 0.55% | 1.95% | 1.97% |
-| QQQ | 11.4% | core | 759.66 | 0.46% | 2.94% | 5.86% |
-| TLT | 11.4% | core | 77.28 | 0.22% | -0.82% | -5.61% |
-| GLD | 8.6% | core | 382.27 | 0.72% | -0.16% | -4.37% |
-| PSUS | 8.3% | satellite | 37.74 | 1.04% | 3.0% | -0.87% |
-| IEF | 5.7% | core | 89.13 | 0.24% | -0.01% | -2.95% |
-| LWAY | 4.3% | satellite | 20.46 | -2.57% | -3.22% | -18.0% |
-| TOST | 4.3% | satellite | 30.25 | 0.7% | -0.69% | -9.13% |
-| SAH | 3.9% | satellite | 61.0 | -2.6% | 1.92% | -19.3% |
-| AVR | 3.6% | satellite | 7.05 | -6.62% | -7.11% | -18.21% |
-| ESTC | 3.3% | satellite | 94.6 | -0.33% | 6.53% | 6.99% |
-| DKS | 3.2% | satellite | 134.88 | -1.64% | 0.13% | 2.86% |
+| SPY | 12.0% | core | 773.96 | -0.66% | 1.49% | 1.77% |
+| QQQ | 11.4% | core | 754.21 | -0.72% | 1.95% | 5.4% |
+| TLT | 11.4% | core | 76.86 | -0.54% | -0.78% | -5.57% |
+| GLD | 8.6% | core | 376.31 | -1.56% | -1.19% | -6.7% |
+| PSUS | 7.6% | satellite | 37.25 | -1.3% | 0.4% | -1.59% |
+| OKE | 6.4% | satellite | 87.67 | -1.75% | 2.81% | -8.51% |
+| IEF | 5.7% | core | 88.97 | -0.18% | -0.04% | -2.85% |
+| TOST | 3.9% | satellite | 30.35 | 0.35% | 4.71% | -6.46% |
+| SAH | 3.5% | satellite | 60.26 | -1.21% | -0.15% | -20.54% |
+| AVR | 3.3% | satellite | 6.89 | -2.27% | -11.33% | -19.23% |
+| ESTC | 3.0% | satellite | 93.29 | -1.38% | 1.74% | 7.76% |
+| DKS | 2.9% | satellite | 132.98 | -1.41% | -0.98% | 0.66% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.1%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -5.8%
-- Beta vs SPY: 0.651 · posiciones efectivas: 15.0 · HHI: 0.0666
+- Volatilidad anualizada: 9.2%
+- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -5.3%
+- Beta vs SPY: 0.607 · posiciones efectivas: 15.0 · HHI: 0.0668
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **PSUS** · score agregado 193.6 · 3 señales · fuentes: corporate_insider
-- **LWAY** · score agregado 187.8 · 3 señales · fuentes: corporate_insider
+- **OKE** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **AVR** · score agregado 131.7 · 2 señales · fuentes: corporate_insider
 - **SAH** · score agregado 128.6 · 2 señales · fuentes: corporate_insider
 - **ESTC** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -58,21 +58,21 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
+| AGMB | 79 | corporate_insider | Knotnerus Tim Jasper | 3 | $50,880 | cluster_buy |
+| AGMB | 79 | corporate_insider | Knotnerus Tim Jasper | 3 | $43,500 | cluster_buy |
+| AGMB | 78 | corporate_insider | Kemula Pierre Thadee Vict | 3 | $42,850 | cluster_buy |
+| AGMB | 77 | corporate_insider | Kemula Pierre Thadee Vict | 3 | $26,010 | cluster_buy |
+| AGMB | 76 | corporate_insider | Kemula Pierre Thadee Vict | 3 | $17,080 | cluster_buy,small_amount |
+| AGMB | 75 | corporate_insider | Epstein David R | 3 | $43,500 | cluster_buy |
+| AGMB | 75 | corporate_insider | Epstein David R | 3 | $42,850 | cluster_buy |
+| RYN | 72 | large_holder | Cohen & Steers, Inc. |  | - | - |
 | ESTC | 72 | large_holder | PICTET ASSET MANAGEMENT S |  | - | - |
 | TOST | 72 | large_holder | BlackRock, Inc. |  | - | - |
 | DKS | 72 | large_holder | BlackRock, Inc. |  | - | - |
-| EVGN | 70 | large_holder | L.I.A. Pure Capital Ltd. |  | - | - |
-| AGMH | 70 | large_holder | Rui Zhang |  | - | - |
-| IESC | 70 | large_holder | Tontine Capital Partners, |  | - | - |
-| QRVO | 70 | large_holder | Starboard Value LP |  | - | - |
-| ZCSH | 70 | large_holder | Karminski Michal Adam |  | - | - |
-| HGTY | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
-| XPER | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
-| AWR | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
-| TTI | 70 | large_holder | Neuberger Berman Group LL |  | - | - |
-| SWKS | 70 | large_holder | Capital World Investors |  | - | - |
-| AUGO | 70 | large_holder | Capital World Investors |  | - | - |
-| RCL | 70 | large_holder | Capital Research Global I |  | - | - |
+| SGML | 70 | large_holder | L1 Capital Pty Ltd |  | - | - |
+| EYPT | 70 | large_holder | Federated Hermes, Inc. |  | - | - |
+| ATYR | 70 | large_holder | Federated Hermes, Inc. |  | - | - |
+| ARCT | 70 | large_holder | Federated Hermes, Inc. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -94,15 +94,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 779.09 (0.55% / 1.95% / 1.97%) [2026-10-06]
-- QQQ: 759.66 (0.46% / 2.94% / 5.86%) [2026-10-06]
-- IWM: 281.34 (-0.72% / 0.84% / -4.27%) [2026-10-06]
-- DIA: 514.56 (0.48% / 0.33% / -2.33%) [2026-10-06]
-- TLT: 77.28 (0.22% / -0.82% / -5.61%) [2026-10-06]
-- IEF: 89.13 (0.24% / -0.01% / -2.95%) [2026-10-06]
-- GLD: 382.27 (0.72% / -0.16% / -4.37%) [2026-10-06]
-- ^VIX: 15.01 (-3.29% / -6.42% / -4.52%) [2026-10-06]
-- BTC-USD: 84194.51 (-1.59% / -0.36% / 10.2%) [2026-10-07]
+- SPY: 773.96 (-0.66% / 1.49% / 1.77%) [2026-10-07]
+- QQQ: 754.21 (-0.72% / 1.95% / 5.4%) [2026-10-07]
+- IWM: 277.67 (-1.3% / -0.08% / -4.21%) [2026-10-07]
+- DIA: 508.54 (-1.17% / -0.0% / -2.74%) [2026-10-07]
+- TLT: 76.86 (-0.54% / -0.78% / -5.57%) [2026-10-07]
+- IEF: 88.97 (-0.18% / -0.04% / -2.85%) [2026-10-07]
+- GLD: 376.31 (-1.56% / -1.19% / -6.7%) [2026-10-07]
+- ^VIX: 15.71 (4.66% / -3.86% / -4.56%) [2026-10-07]
+- BTC-USD: 83013.49 (-2.97% / -1.76% / 8.65%) [2026-10-07]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,14 +117,13 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1)
+**Temas dominantes**: stock (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [WBD] Warner Bros . Discovery ( WBD ) Sell Rating Reiterated at Argus (2026-10-02)
 - [NBIS] Nebius Group ( NASDAQ : NBIS ) Stock : Insider John Wilson Iv Boynton Sells 50 Shares (2026-10-01)
-- [ENS] Baystreet . ca - EnerSys Dips on Cordex Word (2026-09-29)
 - [NBIS] Could Palantir ( PLTR ) Partnership with Nebius Group ( NBIS ) Accelerate its AI Growth ? (2026-09-24)
-- [AMBQ] Alpha and Omega Semiconductor ( NASDAQ : AOSL ) vs . Ambiq Micro ( NYSE : AMBQ ) Head to Head Contrast (2026-09-24)
 - [NBIS] Nebius Group ( NASDAQ : NBIS ) Trading Down 4 % – Here What Happened (2026-09-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -132,19 +131,19 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - 10% owner GIC Private Ltd vendio MDLN por $251.8M el 2026-10-06.
 - 10% owner Hendricks Lloyd Bernard III opero RITE por $103.5M el 2026-09-30.
 - 10% owner GIC Private Ltd vendio MDLN por $60.4M el 2026-10-05.
-- 10% owner WOLTOSZ WALTER S vendio SLP por $59.2M el 2026-10-06.
 - Director Schuurman Steven vendio ESTC por $135.2M el 2026-10-05 [senal en multiples fuentes].
 - 10% owner GIC Private Ltd vendio MDLN por $245.4M el 2026-10-02.
 - CEO Weingarten Tomer vendio S por $13.3M el 2026-10-05.
 - 10% owner GOLDENTREE ASSET MANAGEMENT LP compro Keenova Therapeutics plc por $42.1M el 2026-09-24.
+- 10% owner L1 Capital Pty Ltd compro AVR por $4.9M el 2026-10-05.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $71,044 · win rate 95% · categorias: sports
-- Kosherlocks · PnL $13,274 · win rate 96% · categorias: sports, crypto
-- royalestake · PnL $11,331 · win rate 97% · categorias: sports, crypto
+- Diabolical-Prize · PnL $86,526 · win rate 95% · categorias: sports, economy
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $70,711 · win rate 95% · categorias: sports
+- fantasy7788 · PnL $18,862 · win rate 98% · categorias: sports, crypto
+- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $57,534 · win rate 88% · categorias: sports, crypto, politics
 - OhWhenTheReds · PnL $100,629 · win rate 100% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $37,828 · win rate 88% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -152,8 +151,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 641 registros 30d · ultimo dato 2026-10-06
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-06
+- **sec_insiders**: `ok` · 609 registros 30d · ultimo dato 2026-10-06
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-07
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -166,7 +165,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AVR, DKS, ESTC, GLD, IEF, LWAY, PSUS, QQQ, SAH, SPY, TLT, TOST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AVR, DKS, ESTC, GLD, IEF, OKE, PSUS, QQQ, SAH, SPY, TLT, TOST`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
