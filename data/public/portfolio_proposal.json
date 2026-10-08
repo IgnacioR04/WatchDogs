@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-10-07T20:54:29+00:00",
+  "generated_at": "2026-10-08T01:14:56+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7998,
   "cash": 0.2002,
   "weights": {
-    "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "TOST": 0.0615,
-    "SAH": 0.0602,
-    "RGEN": 0.0574,
-    "IEF": 0.0572,
-    "AVR": 0.0515,
-    "SWKS": 0.0512,
-    "CIFR": 0.0262
+    "SPY": 0.1333,
+    "QQQ": 0.1333,
+    "TLT": 0.1333,
+    "IEF": 0.1333,
+    "GLD": 0.1333,
+    "SWKS": 0.1333
   },
   "core": {
     "SPY": 0.182,
@@ -25,22 +20,9 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SAH": 0.0547,
-    "SWKS": 0.0465,
-    "AVR": 0.0468,
-    "RGEN": 0.0522,
-    "TOST": 0.0559,
-    "CIFR": 0.0238
+    "SWKS": 0.28
   },
   "satellite_rationale": [
-    {
-      "ticker": "SAH",
-      "score": 186.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
     {
       "ticker": "SWKS",
       "score": 143.6,
@@ -48,56 +30,31 @@
         "large_holder"
       ],
       "n_signals": 2
-    },
-    {
-      "ticker": "AVR",
-      "score": 131.7,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "RGEN",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "TOST",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "CIFR",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1291,
-    "var_95_1d": 0.0124,
-    "cvar_95_1d": 0.0149,
-    "max_drawdown": -0.0685,
-    "beta_spy": 0.788,
-    "hhi": 0.0679,
-    "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 14.7,
+    "ann_vol": 0.1244,
+    "var_95_1d": 0.012,
+    "cvar_95_1d": 0.0155,
+    "max_drawdown": -0.0693,
+    "beta_spy": 0.713,
+    "hhi": 0.1066,
+    "max_position": 0.1333,
+    "n_positions": 6,
+    "effective_positions": 9.4,
     "gross_exposure": 0.7998,
     "days_used": 166
   },
   "risk_gate": {
-    "passed": true,
-    "violations": [],
-    "n_violations": 0
+    "passed": false,
+    "violations": [
+      "concentracion: SPY 13.3% > max 12%",
+      "concentracion: QQQ 13.3% > max 12%",
+      "concentracion: TLT 13.3% > max 12%",
+      "concentracion: IEF 13.3% > max 12%",
+      "concentracion: GLD 13.3% > max 12%",
+      "concentracion: SWKS 13.3% > max 12%"
+    ],
+    "n_violations": 6
   }
 }
