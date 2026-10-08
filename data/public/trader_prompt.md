@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-08T01:14:57+00:00 -->
+<!-- trader_prompt.md generado 2026-10-08T07:42:11+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-08T01:14:57+00:00 · ventana señales 2026-09-08 -> 2026-10-08_
+_Generado 2026-10-08T07:42:11+00:00 · ventana señales 2026-09-08 -> 2026-10-08_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.08)
-- Tendencia: `bull` (SPY 779.09 · MA50 763.82 · MA200 718.13 · dist MA200: 8.49%)
+- Volatilidad: `normal` (VIX 15.62)
+- Tendencia: `bull` (SPY 777.22 · MA50 764.58 · MA200 718.67 · dist MA200: 8.15%)
 - Credito: `normal` (HY spread 3.03)
 - Tipos: `steep` (curva 10y-2y 0.51)
 - Fed Funds: 3.75%
@@ -256,12 +256,12 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **RE
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 13.3% | core | 779.09 | 0.55% | 1.95% | 1.97% |
-| QQQ | 13.3% | core | 759.66 | 0.46% | 2.94% | 5.86% |
-| TLT | 13.3% | core | 77.28 | 0.22% | -0.82% | -5.61% |
-| IEF | 13.3% | core | 89.13 | 0.24% | -0.01% | -2.95% |
-| GLD | 13.3% | core | 382.27 | 0.72% | -0.16% | -4.37% |
-| SWKS | 13.3% | satellite | 82.79 | -1.33% | -5.96% | 9.83% |
+| SPY | 13.3% | core | 777.22 | -0.24% | 1.91% | 2.2% |
+| QQQ | 13.3% | core | 757.73 | -0.25% | 2.43% | 5.89% |
+| TLT | 13.3% | core | 77.15 | -0.17% | -0.41% | -5.22% |
+| IEF | 13.3% | core | 89.11 | -0.02% | 0.12% | -2.7% |
+| GLD | 13.3% | core | 375.88 | -1.67% | -1.3% | -6.81% |
+| SWKS | 13.3% | satellite | 83.43 | 0.77% | -2.4% | 9.0% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -316,15 +316,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **RE
 
 **Indices y activos de referencia:**
 
-- SPY: 779.09 (0.55% / 1.95% / 1.97%) [2026-10-06]
-- QQQ: 759.66 (0.46% / 2.94% / 5.86%) [2026-10-06]
-- IWM: 281.34 (-0.72% / 0.84% / -4.27%) [2026-10-06]
-- DIA: 514.56 (0.48% / 0.33% / -2.33%) [2026-10-06]
-- TLT: 77.28 (0.22% / -0.82% / -5.61%) [2026-10-06]
-- IEF: 89.13 (0.24% / -0.01% / -2.95%) [2026-10-06]
-- GLD: 382.27 (0.72% / -0.16% / -4.37%) [2026-10-06]
-- ^VIX: 15.08 (0.47% / -7.71% / -8.38%) [2026-10-07]
-- BTC-USD: 83322.05 (-2.61% / -1.39% / 9.05%) [2026-10-08]
+- SPY: 777.22 (-0.24% / 1.91% / 2.2%) [2026-10-07]
+- QQQ: 757.73 (-0.25% / 2.43% / 5.89%) [2026-10-07]
+- IWM: 277.7 (-1.29% / -0.07% / -4.2%) [2026-10-07]
+- DIA: 511.02 (-0.69% / 0.49% / -2.27%) [2026-10-07]
+- TLT: 77.15 (-0.17% / -0.41% / -5.22%) [2026-10-07]
+- IEF: 89.11 (-0.02% / 0.12% / -2.7%) [2026-10-07]
+- GLD: 375.88 (-1.67% / -1.3% / -6.81%) [2026-10-07]
+- ^VIX: 15.62 (3.58% / -4.7% / -12.44%) [2026-10-08]
+- BTC-USD: 83081.82 (-0.23% / -1.98% / 2.7%) [2026-10-08]
 
 **Macro (valor · cambio 1m):**
 
@@ -339,17 +339,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **RE
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2), regulatory (1), leadership (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRDO] Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages (2026-10-06)
-- [NET] Cloudflare Launches Basin : A More Open and Accessible Data Platform for Developers (2026-10-02)
-- [NET] Cloudflare launches Data Platform with bland  Basin  branding , promise of fewer fees (2026-10-01)
-- [NET] Cloudflare tries to outplay Jev with open - weight Clef models (2026-10-01)
-- [RBRK] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
-- [CRDO] Credo Technology CEO Sells Company Shares Worth $2 . 5 Million (2026-10-01)
-- [AMBQ] Alpha and Omega Semiconductor ( NASDAQ : AOSL ) vs . Ambiq Micro ( NYSE : AMBQ ) Head to Head Contrast (2026-09-24)
+- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
+- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -364,11 +362,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **RE
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $122,818 · win rate 95% · categorias: sports, economy
-- fantasy7788 · PnL $43,705 · win rate 98% · categorias: sports, crypto
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $70,610 · win rate 95% · categorias: sports
-- Kosherlocks · PnL $28,265 · win rate 96% · categorias: sports, crypto
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $57,549 · win rate 88% · categorias: sports, crypto, politics
+- theowalcott · PnL $126,299 · win rate 100% · categorias: sports
+- Ne8om · PnL $12,067 · win rate 100% · categorias: sports
+- darkumbreon88 · PnL $15,635 · win rate 96% · categorias: sports, crypto
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $10,341 · win rate 95% · categorias: sports
+- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $7,057 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -376,7 +374,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **RE
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 768 registros 30d · ultimo dato 2026-10-07
+- **sec_insiders**: `ok` · 765 registros 30d · ultimo dato 2026-10-07
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-07
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
