@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:57:34+00:00",
+  "generated_at": "2026-10-08T21:34:26+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.8,
@@ -9,8 +9,8 @@
     "QQQ": 0.12,
     "TLT": 0.12,
     "GLD": 0.12,
-    "SWKS": 0.12,
-    "ILMN": 0.12,
+    "GAP": 0.12,
+    "EVER": 0.12,
     "IEF": 0.08
   },
   "core": {
@@ -21,20 +21,20 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SWKS": 0.1245,
-    "ILMN": 0.1555
+    "GAP": 0.1857,
+    "EVER": 0.0943
   },
   "satellite_rationale": [
     {
-      "ticker": "SWKS",
-      "score": 143.6,
+      "ticker": "GAP",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
-      "ticker": "ILMN",
+      "ticker": "EVER",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -43,11 +43,11 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1337,
-    "var_95_1d": 0.0124,
-    "cvar_95_1d": 0.0152,
-    "max_drawdown": -0.0703,
-    "beta_spy": 0.734,
+    "ann_vol": 0.155,
+    "var_95_1d": 0.0136,
+    "cvar_95_1d": 0.0155,
+    "max_drawdown": -0.0648,
+    "beta_spy": 0.627,
     "hhi": 0.0928,
     "max_position": 0.12,
     "n_positions": 7,
