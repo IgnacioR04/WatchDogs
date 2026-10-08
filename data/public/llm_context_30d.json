@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-08T07:41:22.604919+00:00",
+  "generated_at": "2026-10-08T15:56:16.237344+00:00",
   "window": {
     "from": "2026-09-08",
     "to": "2026-10-08",
@@ -24,7 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai"
+      "ai",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -68,20 +69,20 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "CEO vendio S ($13.3M)",
-      "summary": "CEO Weingarten Tomer vendio S por $13.3M el 2026-10-05.",
+      "title": "CEO compro COE ($14.1M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $14.1M el 2026-09-25.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Weingarten Tomer",
+      "actor_name": "Huang Jack Jiajia",
       "actor_type": "ceo",
-      "ticker": "S",
-      "direction": "sell",
-      "amount_estimated": 13323530.63,
-      "event_date": "2026-10-05",
-      "importance_score": 84.0,
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 14117400.0,
+      "event_date": "2026-09-25",
+      "importance_score": 83.6,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1866222/000186622226000043/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/"
     },
     {
       "id": "move_4",
@@ -122,20 +123,20 @@
     {
       "id": "move_6",
       "rank": 6,
-      "title": "CEO opero S ($4.9M)",
-      "summary": "CEO Weingarten Tomer opero S por $4.9M el 2026-10-05.",
+      "title": "CEO compro COE ($10.3M)",
+      "summary": "CEO Huang Jack Jiajia compro COE por $10.3M el 2026-09-23.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Weingarten Tomer",
+      "actor_name": "Huang Jack Jiajia",
       "actor_type": "ceo",
-      "ticker": "S",
-      "direction": "other",
-      "amount_estimated": 4870000.0,
-      "event_date": "2026-10-05",
-      "importance_score": 82.8,
+      "ticker": "COE",
+      "direction": "buy",
+      "amount_estimated": 10318950.0,
+      "event_date": "2026-09-23",
+      "importance_score": 82.9,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1866222/000186622226000043/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/"
     },
     {
       "id": "move_7",
@@ -393,11 +394,36 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "TSM",
+        "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+        "pressure_score": 2049.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AGMB",
         "company": "AgomAb Therapeutics NV",
         "pressure_score": 509.2,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "COE",
+        "company": "51Talk Online Education Group",
+        "pressure_score": 468.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GF",
+        "company": "The New Germany Fund, Inc.",
+        "pressure_score": 220.3,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -409,18 +435,17 @@
         ]
       },
       {
-        "ticker": "MXF",
-        "company": "The Mexico Fund, Inc.",
-        "pressure_score": 148.4,
+        "ticker": "BORR",
+        "company": "Borr Drilling Ltd",
+        "pressure_score": 162.4,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
-        "ticker": "GF",
-        "company": "The New Germany Fund, Inc.",
-        "pressure_score": 146.9,
+        "ticker": "MXF",
+        "company": "The Mexico Fund, Inc.",
+        "pressure_score": 148.4,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -445,12 +470,11 @@
         ]
       },
       {
-        "ticker": "ABUS",
-        "company": "Arbutus Biopharma Corp",
-        "pressure_score": 142.0,
+        "ticker": "UXIN",
+        "company": "Uxin Ltd",
+        "pressure_score": 143.5,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -486,33 +510,9 @@
         ]
       },
       {
-        "ticker": "KLXE",
-        "company": "KLX Energy Services Holdings, Inc.",
-        "pressure_score": 138.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "BRVO",
-        "company": "Bravo Multinational Inc.",
-        "pressure_score": 132.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "CNTM",
-        "company": "ConnectM Technology Solutions, Inc.",
-        "pressure_score": 118.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BORR",
-        "company": "Borr Drilling Ltd",
-        "pressure_score": 81.4,
+        "ticker": "GRX",
+        "company": "Gabelli Healthcare & WellnessRx Trust",
+        "pressure_score": 141.0,
         "sources": [
           "corporate_insider"
         ]
@@ -547,14 +547,6 @@
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
         "pressure_score": 1272.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ARQQ",
-        "company": "Arqit Quantum Inc.",
-        "pressure_score": 1212.8,
         "sources": [
           "corporate_insider"
         ]
@@ -624,17 +616,25 @@
         ]
       },
       {
-        "ticker": "BCYC",
-        "company": "BICYCLE THERAPEUTICS PLC",
-        "pressure_score": 602.7,
+        "ticker": "TWST",
+        "company": "Twist Bioscience Corp",
+        "pressure_score": 568.9,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "TWST",
-        "company": "Twist Bioscience Corp",
-        "pressure_score": 568.9,
+        "ticker": "TWLO",
+        "company": "TWILIO INC",
+        "pressure_score": 526.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "HOOD",
+        "company": "Robinhood Markets, Inc.",
+        "pressure_score": 454.5,
         "sources": [
           "corporate_insider"
         ]
@@ -643,6 +643,24 @@
   },
   "insider_buying": [
     {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 14117400.0,
+      "date": "2026-09-25",
+      "score": 83.6
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 10318950.0,
+      "date": "2026-09-23",
+      "score": 82.9
+    },
+    {
       "ticker": "BORR",
       "company": "Borr Drilling Ltd",
       "actor": "Troim Tor Olav",
@@ -650,6 +668,33 @@
       "amount": 6364200.0,
       "date": "2026-10-06",
       "score": 81.4
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 4351830.0,
+      "date": "2026-09-22",
+      "score": 81.0
+    },
+    {
+      "ticker": "BORR",
+      "company": "Borr Drilling Ltd",
+      "actor": "Troim Tor Olav",
+      "actor_type": "director",
+      "amount": 5390250.0,
+      "date": "2026-10-07",
+      "score": 81.0
+    },
+    {
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "actor": "Huang Jack Jiajia",
+      "actor_type": "ceo",
+      "amount": 3490149.6,
+      "date": "2026-09-17",
+      "score": 80.6
     },
     {
       "ticker": "CRBG",
@@ -677,6 +722,24 @@
       "amount": 264263.44,
       "date": "2026-10-05",
       "score": 76.7
+    },
+    {
+      "ticker": "TXTM",
+      "company": "ProText Mobility, Inc.",
+      "actor": "Jamaloodeen Ahmed",
+      "actor_type": "ceo",
+      "amount": 0.0,
+      "date": "2026-10-06",
+      "score": 75.8
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULLER H B CO",
+      "actor": "BAILLY R JEFFREY",
+      "actor_type": "director",
+      "amount": 500000.0,
+      "date": "2026-10-07",
+      "score": 75.8
     },
     {
       "ticker": "AGMB",
@@ -713,69 +776,6 @@
       "amount": 42850.0,
       "date": "2026-10-06",
       "score": 74.3
-    },
-    {
-      "ticker": "SAH",
-      "company": "SONIC AUTOMOTIVE INC",
-      "actor": "Rusnak Paul P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 67028.1,
-      "date": "2026-10-06",
-      "score": 74.0
-    },
-    {
-      "ticker": "AGMB",
-      "company": "AgomAb Therapeutics NV",
-      "actor": "Kemula Pierre Thadee Victor",
-      "actor_type": "cfo",
-      "amount": 26010.0,
-      "date": "2026-10-06",
-      "score": 73.2
-    },
-    {
-      "ticker": "AGMB",
-      "company": "AgomAb Therapeutics NV",
-      "actor": "Kemula Pierre Thadee Victor",
-      "actor_type": "cfo",
-      "amount": 17080.0,
-      "date": "2026-10-06",
-      "score": 72.3
-    },
-    {
-      "ticker": "UXIN",
-      "company": "Uxin Ltd",
-      "actor": "Dai Kun",
-      "actor_type": "ceo",
-      "amount": 8696.58,
-      "date": "2026-10-06",
-      "score": 72.0
-    },
-    {
-      "ticker": "INLX",
-      "company": "INTELLINETICS, INC.",
-      "actor": "TAGLICH ROBERT",
-      "actor_type": "ten_percent_owner",
-      "amount": 20000.0,
-      "date": "2026-10-06",
-      "score": 71.4
-    },
-    {
-      "ticker": "VRA",
-      "company": "Vera Bradley, Inc.",
-      "actor": "Brockman Ivan",
-      "actor_type": "director",
-      "amount": 50200.0,
-      "date": "2026-10-06",
-      "score": 70.9
-    },
-    {
-      "ticker": "AGMB",
-      "company": "AgomAb Therapeutics NV",
-      "actor": "Epstein David R",
-      "actor_type": "director",
-      "amount": 43500.0,
-      "date": "2026-10-06",
-      "score": 70.5
     }
   ],
   "institutional_changes": [
@@ -968,6 +968,15 @@
       "ticker": "AGMH",
       "ownership_pct": 81.48,
       "shares": 17446471,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-08"
+    },
+    {
+      "filer": "Rui Zhang",
+      "company": "AGM Group Holdings Inc.",
+      "ticker": "AGMH",
+      "ownership_pct": 81.48,
+      "shares": 17446471,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-06"
     },
@@ -990,15 +999,6 @@
       "date": "2026-10-06"
     },
     {
-      "filer": "Universities Superannuation Scheme Ltd as sole corporate trustee for Universities Superannuation Scheme",
-      "company": "Constitution Capital Access Fund, LLC",
-      "ticker": "",
-      "ownership_pct": 66.6,
-      "shares": 42437239,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-05"
-    },
-    {
       "filer": "BROWN BROTHERS HARRIMAN & CO",
       "company": "AMG BBH Asset-Backed Credit Fund, LLC",
       "ticker": "",
@@ -1017,24 +1017,6 @@
       "date": "2026-10-06"
     },
     {
-      "filer": "BANK OF AMERICA CORP /DE/",
-      "company": "Nuveen Quality Municipal Income Fund",
-      "ticker": "NAD",
-      "ownership_pct": 52.5,
-      "shares": 7495,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-05"
-    },
-    {
-      "filer": "CK Amarillo LP",
-      "company": "Hertz Global Holdings, Inc.",
-      "ticker": "",
-      "ownership_pct": 50.9,
-      "shares": 181455469,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-05"
-    },
-    {
       "filer": "Shaw Matthew Ian",
       "company": "OpenWorld, Inc.",
       "ticker": "",
@@ -1042,15 +1024,6 @@
       "shares": 6361843,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-07"
-    },
-    {
-      "filer": "Rhino Ventures Limited",
-      "company": "Diginex Ltd",
-      "ticker": "DGNX",
-      "ownership_pct": 39.2,
-      "shares": 32355003,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-05"
     },
     {
       "filer": "THOMPSON DAVIS & CO., INC.",
@@ -1096,6 +1069,33 @@
       "shares": 2243333,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-06"
+    },
+    {
+      "filer": "SP Marigold Acquisitions L.P.",
+      "company": "VARAGON CAPITAL CORPORATION",
+      "ticker": "",
+      "ownership_pct": 23.4,
+      "shares": 9728256,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-07"
+    },
+    {
+      "filer": "Saba Capital Management, L.P.",
+      "company": "The New Germany Fund, Inc.",
+      "ticker": "GF",
+      "ownership_pct": 22.99,
+      "shares": 3749174,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-07"
+    },
+    {
+      "filer": "Jacob D. Cohen",
+      "company": "MANGOCEUTICALS, INC.",
+      "ticker": "MGRX",
+      "ownership_pct": 21.5,
+      "shares": 4098333,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-06"
     }
   ],
   "polymarket": {
@@ -1113,9 +1113,29 @@
       {
         "wallet": "0xbeb1c94b42",
         "username": "Ne8om",
-        "pnl": 12067.41,
+        "pnl": 13557.29,
         "win_rate": 1.0,
-        "volume": 0.0,
+        "volume": 8187.33,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 20523.74,
+        "win_rate": 0.9505,
+        "volume": 186491.84,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 31782.45,
+        "win_rate": 0.92,
+        "volume": 56385.56,
         "categories": [
           "sports"
         ]
@@ -1123,9 +1143,9 @@
       {
         "wallet": "0x0235dc24b3",
         "username": "darkumbreon88",
-        "pnl": 15635.42,
+        "pnl": 14406.92,
         "win_rate": 0.957,
-        "volume": 7771.98,
+        "volume": 24003.99,
         "categories": [
           "sports",
           "crypto"
@@ -1134,7 +1154,7 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 10341.19,
+        "pnl": 15326.26,
         "win_rate": 0.9461,
         "volume": 0.0,
         "categories": [
@@ -1144,9 +1164,9 @@
       {
         "wallet": "0xfb07f48542",
         "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 7057.43,
-        "win_rate": 0.948,
-        "volume": 986.26,
+        "pnl": 12747.78,
+        "win_rate": 0.946,
+        "volume": 26945.92,
         "categories": [
           "sports"
         ]
@@ -1154,9 +1174,9 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 187220.72,
-        "win_rate": 0.703,
-        "volume": 845018.01,
+        "pnl": 251115.89,
+        "win_rate": 0.704,
+        "volume": 1038333.84,
         "categories": [
           "sports",
           "politics"
@@ -1165,7 +1185,7 @@
       {
         "wallet": "0xd38b71f3e8",
         "username": "primm",
-        "pnl": 93253.77,
+        "pnl": 95814.66,
         "win_rate": 0.747,
         "volume": 212628.08,
         "categories": [
@@ -1173,33 +1193,11 @@
         ]
       },
       {
-        "wallet": "0x3e04fbc51a",
-        "username": "roldy",
-        "pnl": 10506.53,
-        "win_rate": 0.863,
-        "volume": 15657.44,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xb10bf118b2",
-        "username": "saintaphextwin",
-        "pnl": 8743.88,
-        "win_rate": 0.864,
-        "volume": 0.0,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 59430.08,
+        "pnl": 66272.05,
         "win_rate": 1.0,
-        "volume": 56343.29,
+        "volume": 79917.94,
         "categories": [
           "sports"
         ]
@@ -1209,9 +1207,20 @@
       {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 187220.72,
-        "win_rate": 0.703,
-        "volume": 845018.01,
+        "pnl": 251115.89,
+        "win_rate": 0.704,
+        "volume": 1038333.84,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "crispychook99",
+        "pnl": 98152.34,
+        "win_rate": 0.471,
+        "volume": 530484.69,
         "categories": [
           "sports",
           "politics"
@@ -1220,89 +1229,81 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 108020.48,
-        "win_rate": 0.552,
-        "volume": 774506.53,
+        "pnl": 210037.5,
+        "win_rate": 0.55,
+        "volume": 1576876.72,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xfe787d2da7",
-        "username": "ferrariChampions2026",
-        "pnl": 95249.75,
-        "win_rate": 0.548,
-        "volume": 598262.12,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 72827.54,
+        "win_rate": 0.573,
+        "volume": 1136368.66,
         "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x32b484581f",
+        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "pnl": 61932.54,
+        "win_rate": 0.549,
+        "volume": 539639.69,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x96489abcb9",
+        "username": "anoin123",
+        "pnl": 20679.53,
+        "win_rate": 0.6367,
+        "volume": 177886.86,
+        "categories": [
+          "politics",
+          "economy",
           "sports"
         ]
       },
       {
         "wallet": "0x3435519d1d",
         "username": "veliMax",
-        "pnl": 18763.4,
+        "pnl": 19250.05,
         "win_rate": 0.7333,
-        "volume": 218554.57,
+        "volume": 238554.53,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 19597.43,
-        "win_rate": 0.531,
-        "volume": 145324.09,
+        "wallet": "0x7c1ee865a7",
+        "username": "CandleHammerDrums",
+        "pnl": 21280.88,
+        "win_rate": 0.56,
+        "volume": 603138.14,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x821dab0565",
-        "username": "Flaznorp",
-        "pnl": 15279.2,
-        "win_rate": 0.53,
-        "volume": 571461.71,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa38a455bbd",
-        "username": "takeormake",
-        "pnl": 26094.58,
+        "wallet": "0x06dc51826b",
+        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+        "pnl": 14814.03,
         "win_rate": 0.678,
-        "volume": 199661.6,
+        "volume": 457137.13,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38b71f3e8",
-        "username": "primm",
-        "pnl": 93253.77,
-        "win_rate": 0.747,
-        "volume": 212628.08,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4f29e10333",
-        "username": "0x4f2",
-        "pnl": 9039.41,
-        "win_rate": 0.683,
-        "volume": 350728.47,
-        "categories": [
-          "sports"
+          "crypto"
         ]
       },
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 30781.07,
-        "win_rate": 0.6416,
-        "volume": 76481.87,
+        "pnl": 22162.46,
+        "win_rate": 0.6437,
+        "volume": 163839.5,
         "categories": [
           "sports"
         ]
@@ -1311,48 +1312,87 @@
   },
   "news": [
     {
-      "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
-      "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
-      "ticker": "UTHR",
+      "title": "Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages",
+      "url": "https://www.tickerreport.com/banking-finance/13609669/credo-technology-group-holding-ltd-nasdaqcrdo-stock-has-average-price-target-of-264-89-according-to-brokerages.html",
+      "ticker": "CRDO",
       "themes": [
+        "stock"
+      ],
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Cloudflare Launches Basin : A More Open and Accessible Data Platform for Developers",
+      "url": "https://itwire.com/business-it-news/data/cloudflare-launches-basin-a-more-open-and-accessible-data-platform-for-developers",
+      "ticker": "NET",
+      "themes": [],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Prediction : Taiwan Semiconductor Manufacturing Stock Will Skyrocket After Oct . 15",
+      "url": "https://www.fool.com/investing/2026/10/01/prediction-taiwan-semiconductor-stock-will-skyrock/?source=iedfolrf0000001",
+      "ticker": "TSM",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Prediction : Taiwan Semiconductor Manufacturing Stock Will Skyrocket After Oct . 15",
+      "url": "https://www.aol.com/articles/prediction-taiwan-semiconductor-manufacturing-stock-225000000.html",
+      "ticker": "TSM",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Cloudflare launches Data Platform with bland  Basin  branding , promise of fewer fees",
+      "url": "https://www.theregister.com/databases/2026/10/01/cloudflare-launches-data-platform-with-bland-basin-branding-promise-of-fewer-fees/5300618",
+      "ticker": "NET",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Cloudflare tries to outplay Jev with open - weight Clef models",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
+      "ticker": "NET",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Prediction : Taiwan Semiconductor Manufacturing Stock Will Skyrocket After Oct . 15",
+      "url": "https://www.fool.com/investing/2026/10/01/prediction-taiwan-semiconductor-stock-will-skyrock/",
+      "ticker": "TSM",
+      "themes": [
+        "ai",
         "stock"
       ],
       "date": "2026-10-01"
     },
     {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://www.aol.com/articles/united-therapeutics-won-patent-war-150712000.html",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://247wallst.com/investing/2026/10/01/united-therapeutics-won-its-patent-war-and-liquidia-collapsed/",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
-      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
-      "ticker": "UTHR",
+      "title": "Intel vs . Taiwan Semiconductor Manufacturing : Which Technology Stock Is a Better Buy in 2026 ? ",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/01/intel-vs-taiwan-semiconductor-manufacturing-which-technology-stock-is-a-better-buy-in-2026/",
+      "ticker": "TSM",
       "themes": [
-        "ai"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-30-why-is-united-therapeutics-uthr-stock-rocketing-higher-today",
-      "ticker": "UTHR",
-      "themes": [
+        "ai",
         "stock"
       ],
-      "date": "2026-09-30"
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Credo Technology CEO Sells Company Shares Worth $2 . 5 Million",
+      "url": "https://www.fool.com/coverage/filings/2026/10/01/credo-technology-ceo-sells-company-shares-worth-usd2-5-million/?source=iedfolrf0000001",
+      "ticker": "CRDO",
+      "themes": [
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-10-01"
     }
   ],
-  "signals_count": 1515,
+  "signals_count": 1481,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

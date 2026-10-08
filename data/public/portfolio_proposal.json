@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-08T07:42:10+00:00",
+  "generated_at": "2026-10-08T15:57:34+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.8,
+  "cash": 0.2,
   "weights": {
-    "SPY": 0.1333,
-    "QQQ": 0.1333,
-    "TLT": 0.1333,
-    "IEF": 0.1333,
-    "GLD": 0.1333,
-    "SWKS": 0.1333
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.12,
+    "SWKS": 0.12,
+    "ILMN": 0.12,
+    "IEF": 0.08
   },
   "core": {
     "SPY": 0.182,
@@ -20,7 +21,8 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SWKS": 0.28
+    "SWKS": 0.1245,
+    "ILMN": 0.1555
   },
   "satellite_rationale": [
     {
@@ -30,31 +32,32 @@
         "large_holder"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "ILMN",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1244,
-    "var_95_1d": 0.012,
-    "cvar_95_1d": 0.0155,
-    "max_drawdown": -0.0693,
-    "beta_spy": 0.713,
-    "hhi": 0.1066,
-    "max_position": 0.1333,
-    "n_positions": 6,
-    "effective_positions": 9.4,
-    "gross_exposure": 0.7998,
-    "days_used": 166
+    "ann_vol": 0.1337,
+    "var_95_1d": 0.0124,
+    "cvar_95_1d": 0.0152,
+    "max_drawdown": -0.0703,
+    "beta_spy": 0.734,
+    "hhi": 0.0928,
+    "max_position": 0.12,
+    "n_positions": 7,
+    "effective_positions": 10.8,
+    "gross_exposure": 0.8,
+    "days_used": 167
   },
   "risk_gate": {
-    "passed": false,
-    "violations": [
-      "concentracion: SPY 13.3% > max 12%",
-      "concentracion: QQQ 13.3% > max 12%",
-      "concentracion: TLT 13.3% > max 12%",
-      "concentracion: IEF 13.3% > max 12%",
-      "concentracion: GLD 13.3% > max 12%",
-      "concentracion: SWKS 13.3% > max 12%"
-    ],
-    "n_violations": 6
+    "passed": true,
+    "violations": [],
+    "n_violations": 0
   }
 }
