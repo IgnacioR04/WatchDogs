@@ -1,38 +1,44 @@
 {
-  "generated_at": "2026-10-09T09:18:18+00:00",
+  "generated_at": "2026-10-09T16:29:31+00:00",
   "profile": "moderado",
-  "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "regime_budget": 0.85,
+  "total_equity": 0.8501,
+  "cash": 0.1499,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "IOSP": 0.0904,
-    "GLD": 0.0858,
-    "CBL": 0.0646,
-    "IEF": 0.0572,
-    "IMMR": 0.0397,
-    "DY": 0.0337,
-    "MATV": 0.0327,
-    "EVER": 0.0318,
-    "CIFR": 0.0153
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.0933,
+    "IOSP": 0.0677,
+    "IEF": 0.0622,
+    "CBL": 0.0477,
+    "HESM": 0.0399,
+    "PRTA": 0.0328,
+    "GAP": 0.0321,
+    "IMMR": 0.0299,
+    "STNE": 0.0252,
+    "MATV": 0.0245,
+    "EVER": 0.0233,
+    "CIFR": 0.0115
   },
   "core": {
-    "SPY": 0.182,
-    "QQQ": 0.104,
-    "TLT": 0.104,
-    "IEF": 0.052,
-    "GLD": 0.078
+    "SPY": 0.1934,
+    "QQQ": 0.1105,
+    "TLT": 0.1105,
+    "IEF": 0.0553,
+    "GLD": 0.0829
   },
   "satellite": {
-    "MATV": 0.0297,
-    "IOSP": 0.0822,
-    "IMMR": 0.0361,
-    "EVER": 0.0289,
-    "DY": 0.0306,
-    "CBL": 0.0587,
-    "CIFR": 0.0139
+    "MATV": 0.0218,
+    "IOSP": 0.0602,
+    "GAP": 0.0285,
+    "HESM": 0.0355,
+    "PRTA": 0.0292,
+    "IMMR": 0.0266,
+    "EVER": 0.0207,
+    "CBL": 0.0424,
+    "STNE": 0.0224,
+    "CIFR": 0.0102
   },
   "satellite_rationale": [
     {
@@ -48,6 +54,30 @@
       "score": 141.0,
       "sources": [
         "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "GAP",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "HESM",
+      "score": 139.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "PRTA",
+      "score": 126.5,
+      "sources": [
+        "corporate_insider"
       ],
       "n_signals": 2
     },
@@ -68,15 +98,15 @@
       "n_signals": 1
     },
     {
-      "ticker": "DY",
-      "score": 71.8,
+      "ticker": "CBL",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "CBL",
+      "ticker": "STNE",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -93,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0947,
-    "var_95_1d": 0.009,
-    "cvar_95_1d": 0.0113,
-    "max_drawdown": -0.0378,
-    "beta_spy": 0.633,
-    "hhi": 0.0686,
+    "ann_vol": 0.0911,
+    "var_95_1d": 0.0095,
+    "cvar_95_1d": 0.0108,
+    "max_drawdown": -0.0295,
+    "beta_spy": 0.618,
+    "hhi": 0.0691,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 14.6,
-    "gross_exposure": 0.8,
-    "days_used": 61
+    "n_positions": 15,
+    "effective_positions": 14.5,
+    "gross_exposure": 0.8501,
+    "days_used": 63
   },
   "risk_gate": {
     "passed": true,
