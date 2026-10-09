@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-09T02:24:59+00:00 · ventana señales 2026-09-09 -> 2026-10-09_
+_Generado 2026-10-09T09:18:19+00:00 · ventana señales 2026-09-09 -> 2026-10-09_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.41)
+- Volatilidad: `normal` (VIX 15.22)
 - Tendencia: `bull` (SPY 773.93 · MA50 765.51 · MA200 719.16 · dist MA200: 7.62%)
 - Credito: `normal` (HY spread 3.09)
 - Tipos: `flat` (curva 10y-2y 0.47)
@@ -101,8 +101,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 77.87 (0.93% / 0.21% / -3.21%) [2026-10-08]
 - IEF: 89.45 (0.38% / 0.17% / -1.56%) [2026-10-08]
 - GLD: 378.62 (0.73% / -1.08% / -4.48%) [2026-10-08]
-- ^VIX: 15.41 (2.19% / -5.98% / -13.62%) [2026-10-08]
-- BTC-USD: 81932.87 (-1.61% / -3.34% / 1.27%) [2026-10-09]
+- ^VIX: 15.22 (-1.23% / -0.59% / -3.91%) [2026-10-09]
+- BTC-USD: 82485.53 (0.99% / -4.62% / 1.54%) [2026-10-09]
 
 **Macro (valor · cambio 1m):**
 
@@ -117,11 +117,13 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), regulatory (1), stock (1)
+**Temas dominantes**: ai (2), regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WBD] Warner Bros . Discovery ( WBD ) Sell Rating Reiterated at Argus (2026-10-02)
+- [DELL] Dell Forum takes on the hard work of scaling AI – Gadget (2026-10-02)
+- [DELL] Dell Technologies Introduces New Rugged Laptops Built for the Most Demanding Field Environments (2026-10-02)
+- [DELL] Dell Pro 16 PC16250 16  Notebook - Full HD Plus - Intel Core 5 120U - vPro Technology - 16GB - 512GB SSD - Windows 11 Pro - Webcam - 8 . 70 Hours Battery - IEEE 802 . 11ax Wireless LAN Standard DYFPN (2026-10-01)
 - [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -137,11 +139,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $126,299 · win rate 100% · categorias: sports
-- fantasy7788 · PnL $52,360 · win rate 98% · categorias: sports, crypto
-- CyberScore.live · PnL $41,106 · win rate 97% · categorias: sports
-- Barbozaaa321 · PnL $32,179 · win rate 97% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $29,869 · win rate 96% · categorias: sports
+- monkeymashingkeyboard · PnL $64,011 · win rate 92% · categorias: sports
+- 1DVSBSTD · PnL $18,633 · win rate 98% · categorias: n/d
+- taylorsversion · PnL $79,108 · win rate 87% · categorias: sports, crypto
+- ethanaz · PnL $58,340 · win rate 88% · categorias: sports, crypto
+- OhWhenTheReds · PnL $83,792 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -152,8 +154,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - **sec_insiders**: `ok` · 744 registros 30d · ultimo dato 2026-10-08
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-08
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
