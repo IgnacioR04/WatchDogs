@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-09T21:10:22.959362+00:00",
+  "generated_at": "2026-10-10T01:08:14.623432+00:00",
   "window": {
-    "from": "2026-09-09",
-    "to": "2026-10-09",
+    "from": "2026-09-10",
+    "to": "2026-10-10",
     "days": 30
   },
   "data_quality": {
@@ -22,49 +22,34 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "stock",
+      "ai"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
     {
       "id": "move_1",
       "rank": 1,
-      "title": "CEO vendio WBD ($101.3M)",
-      "summary": "CEO Perrette Jean-Briac vendio WBD por $101.3M el 2026-10-06.",
+      "title": "CEO vendio IHT ($2.2B)",
+      "summary": "CEO WIRTH JAMES F vendio IHT por $2.2B el 2026-10-07.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "Perrette Jean-Briac",
+      "actor_name": "WIRTH JAMES F",
       "actor_type": "ceo",
-      "ticker": "WBD",
+      "ticker": "IHT",
       "direction": "sell",
-      "amount_estimated": 101265028.08,
-      "event_date": "2026-10-06",
+      "amount_estimated": 2173259998.8,
+      "event_date": "2026-10-07",
       "importance_score": 86.8,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1600595/000143710726000084/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1055365/000149315226046636/"
     },
     {
       "id": "move_2",
       "rank": 2,
-      "title": "CEO vendio WBD ($115.9M)",
-      "summary": "CEO Zaslav David vendio WBD por $115.9M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Zaslav David",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 115914432.61,
-      "event_date": "2026-10-06",
-      "importance_score": 86.8,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000143710726000082/"
-    },
-    {
-      "id": "move_3",
-      "rank": 3,
       "title": "CEO vendio WBD ($69.4M)",
       "summary": "CEO Zeiler Gerhard vendio WBD por $69.4M el 2026-10-06.",
       "source": "sec_form_4",
@@ -81,8 +66,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605503/000143710726000086/"
     },
     {
-      "id": "move_4",
-      "rank": 4,
+      "id": "move_3",
+      "rank": 3,
       "title": "CEO vendio ANET ($55.0M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $55.0M el 2026-10-06.",
       "source": "sec_form_4",
@@ -99,8 +84,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "CFO vendio WBD ($92.5M)",
       "summary": "CFO Wiedenfels Gunnar vendio WBD por $92.5M el 2026-10-06.",
       "source": "sec_form_4",
@@ -117,44 +102,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1694392/000169439226000012/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
-      "title": "CEO vendio WBD ($48.7M)",
-      "summary": "CEO Zaslav David vendio WBD por $48.7M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Zaslav David",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 48720163.89,
-      "event_date": "2026-10-06",
-      "importance_score": 85.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000143710726000082/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "CEO vendio WBD ($46.5M)",
-      "summary": "CEO Zaslav David vendio WBD por $46.5M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Zaslav David",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 46525050.0,
-      "event_date": "2026-10-06",
-      "importance_score": 85.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000143710726000082/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_5",
+      "rank": 5,
       "title": "10% owner compro CRBG ($20.9M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $20.9M el 2026-10-07.",
       "source": "sec_form_4",
@@ -171,8 +120,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526419124/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio TT ($23.1M)",
       "summary": "CEO Regnery David S vendio TT por $23.1M el 2026-10-06.",
       "source": "sec_form_4",
@@ -189,8 +138,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1715932/000162828026065454/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro COE ($14.1M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $14.1M el 2026-09-25.",
       "source": "sec_form_4",
@@ -207,8 +156,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_8",
+      "rank": 8,
       "title": "Director compro GGR ($26.5M)",
       "summary": "Director Yin Chung-Yao compro GGR por $26.5M el 2026-10-07.",
       "source": "sec_form_4",
@@ -225,8 +174,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1916103/000119312526418446/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO compro COE ($10.3M)",
       "summary": "CEO Huang Jack Jiajia compro COE por $10.3M el 2026-09-23.",
       "source": "sec_form_4",
@@ -243,8 +192,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_10",
+      "rank": 10,
+      "title": "CEO vendio ANET ($15.0M)",
+      "summary": "CEO Ullal Jayshree vendio ANET por $15.0M el 2026-10-07.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Ullal Jayshree",
+      "actor_type": "ceo",
+      "ticker": "ANET",
+      "direction": "sell",
+      "amount_estimated": 15041777.5,
+      "event_date": "2026-10-07",
+      "importance_score": 82.7,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000242/"
+    },
+    {
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio ANET ($13.9M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $13.9M el 2026-10-06.",
       "source": "sec_form_4",
@@ -261,62 +228,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
-      "id": "move_14",
-      "rank": 14,
-      "title": "CEO vendio WBD ($13.4M)",
-      "summary": "CEO Perrette Jean-Briac vendio WBD por $13.4M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Perrette Jean-Briac",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 13414009.37,
-      "event_date": "2026-10-06",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1600595/000143710726000084/"
-    },
-    {
-      "id": "move_15",
-      "rank": 15,
-      "title": "CEO vendio WBD ($13.2M)",
-      "summary": "CEO Zaslav David vendio WBD por $13.2M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Zaslav David",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 13212679.97,
-      "event_date": "2026-10-06",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1318285/000143710726000082/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
-      "title": "CEO vendio WBD ($12.0M)",
-      "summary": "CEO Perrette Jean-Briac vendio WBD por $12.0M el 2026-10-06.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Perrette Jean-Briac",
-      "actor_type": "ceo",
-      "ticker": "WBD",
-      "direction": "sell",
-      "amount_estimated": 12003680.02,
-      "event_date": "2026-10-06",
-      "importance_score": 82.2,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1600595/000143710726000084/"
-    },
-    {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO vendio ANET ($11.0M)",
       "summary": "CEO Ullal Jayshree vendio ANET por $11.0M el 2026-10-06.",
       "source": "sec_form_4",
@@ -333,8 +246,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -351,8 +264,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -369,8 +282,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -385,14 +298,104 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_16",
+      "rank": 16,
+      "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
+      "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 30389405507,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
+      "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio APPLE INC ($26.6B)",
+      "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 26582780886,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "WVVI",
-        "company": "WILLAMETTE VALLEY VINEYARDS INC",
-        "pressure_score": 811.9,
+        "ticker": "LCU",
+        "company": "Lion Copper Corp.",
+        "pressure_score": 469.3,
         "sources": [
           "corporate_insider"
         ]
@@ -401,14 +404,6 @@
         "ticker": "COE",
         "company": "51Talk Online Education Group",
         "pressure_score": 468.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "LCU",
-        "company": "Lion Copper Corp.",
-        "pressure_score": 266.7,
         "sources": [
           "corporate_insider"
         ]
@@ -434,6 +429,14 @@
         "ticker": "NRXS",
         "company": "Neuraxis, INC",
         "pressure_score": 201.0,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AHRT",
+        "company": "AH Realty Trust, Inc.",
+        "pressure_score": 196.0,
         "sources": [
           "corporate_insider"
         ]
@@ -479,14 +482,6 @@
         ]
       },
       {
-        "ticker": "CINT",
-        "company": "CI&T Inc",
-        "pressure_score": 142.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "GOAI",
         "company": "Eva Live Inc",
         "pressure_score": 141.5,
@@ -509,21 +504,21 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "MATV",
+        "company": "Mativ Holdings Inc",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
       {
-        "ticker": "WBD",
-        "company": "Warner Bros. Discovery, Inc.",
-        "pressure_score": 2158.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SAIL",
         "company": "SailPoint, Inc.",
-        "pressure_score": 1930.9,
+        "pressure_score": 1710.5,
         "sources": [
           "corporate_insider"
         ]
@@ -545,17 +540,17 @@
         ]
       },
       {
-        "ticker": "ANET",
-        "company": "Arista Networks, Inc.",
-        "pressure_score": 787.0,
+        "ticker": "WBD",
+        "company": "Warner Bros. Discovery, Inc.",
+        "pressure_score": 1187.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "BLFS",
-        "company": "BIOLIFE SOLUTIONS INC",
-        "pressure_score": 746.0,
+        "ticker": "ANET",
+        "company": "Arista Networks, Inc.",
+        "pressure_score": 1028.1,
         "sources": [
           "corporate_insider"
         ]
@@ -577,6 +572,14 @@
         ]
       },
       {
+        "ticker": "HSY",
+        "company": "HERSHEY CO",
+        "pressure_score": 499.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "AXIA3",
         "company": "AXIA Energia S.A.",
         "pressure_score": 422.7,
@@ -588,6 +591,14 @@
         "ticker": "ARQQ",
         "company": "Arqit Quantum Inc.",
         "pressure_score": 376.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRNC",
+        "company": "Cerence Inc.",
+        "pressure_score": 360.0,
         "sources": [
           "corporate_insider"
         ]
@@ -609,25 +620,17 @@
         ]
       },
       {
+        "ticker": "OKTA",
+        "company": "Okta, Inc.",
+        "pressure_score": 288.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "NWS",
         "company": "NEWS CORP",
         "pressure_score": 284.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "P",
-        "company": "Everpure, Inc.",
-        "pressure_score": 276.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SE",
-        "company": "Sea Ltd",
-        "pressure_score": 254.8,
         "sources": [
           "corporate_insider"
         ]
@@ -744,15 +747,6 @@
       "score": 77.9
     },
     {
-      "ticker": "FUL",
-      "company": "FULLER H B CO",
-      "actor": "BAILLY R JEFFREY",
-      "actor_type": "director",
-      "amount": 500000.0,
-      "date": "2026-10-07",
-      "score": 75.8
-    },
-    {
       "ticker": "ECF",
       "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
       "actor": "Saba Capital Management, L.P.",
@@ -769,6 +763,15 @@
       "amount": 30362.27,
       "date": "2026-10-09",
       "score": 74.8
+    },
+    {
+      "ticker": "FEAM",
+      "company": "5E Advanced Materials, Inc.",
+      "actor": "Weibel Paul Wesley III",
+      "actor_type": "ceo",
+      "amount": 24971.85,
+      "date": "2026-10-08",
+      "score": 74.3
     }
   ],
   "institutional_changes": [
@@ -956,6 +959,15 @@
   "congress_activity": [],
   "large_holders": [
     {
+      "filer": "Ruilin Xu",
+      "company": "Nexpu Ltd.",
+      "ticker": "DPU",
+      "ownership_pct": 90.71,
+      "shares": 32187368,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-09"
+    },
+    {
       "filer": "WISeQey Corp.",
       "company": "WISeSat.Space Holdings Corp.",
       "ticker": "SAIQ",
@@ -1080,25 +1092,47 @@
       "shares": 8166667,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-07"
-    },
-    {
-      "filer": "SP Marigold Acquisitions L.P.",
-      "company": "VARAGON CAPITAL CORPORATION",
-      "ticker": "",
-      "ownership_pct": 23.4,
-      "shares": 9728256,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-10-07"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 469084.01,
+        "win_rate": 0.9489,
+        "volume": 4469624.74,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 122925.19,
+        "win_rate": 0.9432,
+        "volume": 401439.39,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 41742.26,
+        "win_rate": 0.9553,
+        "volume": 370208.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 64107.15,
+        "pnl": 64032.15,
         "win_rate": 0.9203,
-        "volume": 21080.14,
+        "volume": 36080.14,
         "categories": [
           "sports"
         ]
@@ -1107,8 +1141,18 @@
         "wallet": "0x866056133a",
         "username": "esportsbetter1",
         "pnl": 42602.85,
-        "win_rate": 0.9398,
+        "win_rate": 0.9401,
         "volume": 46926.33,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x162ca4c524",
+        "username": "VD721lsj4938Dk388",
+        "pnl": 36689.11,
+        "win_rate": 0.946,
+        "volume": 103644.34,
         "categories": [
           "sports"
         ]
@@ -1116,9 +1160,9 @@
       {
         "wallet": "0xb9c7d35d1f",
         "username": "taylorsversion",
-        "pnl": 79120.43,
+        "pnl": 79103.18,
         "win_rate": 0.8701,
-        "volume": 2430.75,
+        "volume": 2435.75,
         "categories": [
           "sports",
           "crypto"
@@ -1146,67 +1190,36 @@
         ]
       },
       {
-        "wallet": "0xb6192410f9",
-        "username": "bitbe",
-        "pnl": 38193.87,
-        "win_rate": 1.0,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xde7be6d489",
         "username": "wan123",
-        "pnl": 73422.07,
+        "pnl": 83642.77,
         "win_rate": 0.7984,
-        "volume": 212272.86,
+        "volume": 212274.19,
         "categories": [
           "sports",
           "politics",
           "economy"
         ]
-      },
-      {
-        "wallet": "0xf559276513",
-        "username": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
-        "pnl": 42770.33,
-        "win_rate": 0.8285,
-        "volume": 22828.92,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x9703676286",
-        "username": "AnonymousUsername",
-        "pnl": 89802.87,
-        "win_rate": 0.769,
-        "volume": 119626.32,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xd38b71f3e8",
-        "username": "primm",
-        "pnl": 82471.28,
-        "win_rate": 0.743,
-        "volume": 199131.67,
-        "categories": [
-          "sports"
-        ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x7c37b52eb2",
+        "username": "Diabolical-Prize",
+        "pnl": 469084.01,
+        "win_rate": 0.9489,
+        "volume": 4469624.74,
+        "categories": [
+          "sports",
+          "economy"
+        ]
+      },
+      {
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 141998.85,
+        "pnl": 65193.74,
         "win_rate": 0.703,
-        "volume": 1451408.48,
+        "volume": 1753333.47,
         "categories": [
           "sports",
           "politics"
@@ -1215,7 +1228,7 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "crispychook99",
-        "pnl": 318065.39,
+        "pnl": 389330.52,
         "win_rate": 0.473,
         "volume": 1512591.54,
         "categories": [
@@ -1224,21 +1237,11 @@
         ]
       },
       {
-        "wallet": "0x5fdd66ffd0",
-        "username": "juice-fruit",
-        "pnl": 48935.7,
-        "win_rate": 0.8889,
-        "volume": 556597.82,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 64249.7,
-        "win_rate": 0.584,
-        "volume": 2283295.8,
+        "pnl": 111542.89,
+        "win_rate": 0.586,
+        "volume": 3234693.69,
         "categories": [
           "sports"
         ]
@@ -1246,9 +1249,9 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 167802.1,
-        "win_rate": 0.653,
-        "volume": 2562200.99,
+        "pnl": 202916.48,
+        "win_rate": 0.682,
+        "volume": 3697592.45,
         "categories": [
           "sports"
         ]
@@ -1256,9 +1259,9 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 183949.61,
+        "pnl": 187095.5,
         "win_rate": 0.553,
-        "volume": 1564312.73,
+        "volume": 1736471.84,
         "categories": [
           "sports"
         ]
@@ -1266,9 +1269,9 @@
       {
         "wallet": "0x291de54f32",
         "username": "viboomchuu",
-        "pnl": 45715.31,
+        "pnl": 46006.71,
         "win_rate": 0.9524,
-        "volume": 578666.66,
+        "volume": 635731.66,
         "categories": [
           "sports"
         ]
@@ -1276,9 +1279,9 @@
       {
         "wallet": "0x8a8685a792",
         "username": "BrotherObama",
-        "pnl": 94765.62,
+        "pnl": 89784.22,
         "win_rate": 0.6479,
-        "volume": 383119.32,
+        "volume": 514376.55,
         "categories": [
           "sports"
         ]
@@ -1294,19 +1297,68 @@
         ]
       },
       {
-        "wallet": "0x06dc51826b",
-        "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 31529.84,
-        "win_rate": 0.682,
-        "volume": 713892.97,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 122925.19,
+        "win_rate": 0.9432,
+        "volume": 401439.39,
         "categories": [
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
-  "news": [],
-  "signals_count": 1288,
+  "news": [
+    {
+      "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
+      "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
+      "url": "https://www.aol.com/articles/united-therapeutics-won-patent-war-150712000.html",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
+      "url": "https://247wallst.com/investing/2026/10/01/united-therapeutics-won-its-patent-war-and-liquidia-collapsed/",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
+      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
+      "ticker": "UTHR",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "THO - Thor Industries Inc Analysis",
+      "url": "https://www.morningstar.com/stocks/xnys/tho/analysis",
+      "ticker": "THO",
+      "themes": [],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-30-why-is-united-therapeutics-uthr-stock-rocketing-higher-today",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-09-30"
+    }
+  ],
+  "signals_count": 1310,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

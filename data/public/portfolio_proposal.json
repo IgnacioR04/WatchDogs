@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:11:20+00:00",
+  "generated_at": "2026-10-10T01:09:18+00:00",
   "profile": "moderado",
   "regime_budget": 0.85,
   "total_equity": 0.8502,
@@ -8,14 +8,11 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "IOSP": 0.1052,
-    "GLD": 0.0933,
-    "HQY": 0.0649,
-    "IEF": 0.0622,
-    "ICFI": 0.0578,
-    "PRTA": 0.051,
-    "MATV": 0.038,
-    "CIFR": 0.0178
+    "PRTA": 0.12,
+    "HQY": 0.12,
+    "GLD": 0.1143,
+    "IEF": 0.0762,
+    "CIFR": 0.0597
   },
   "core": {
     "SPY": 0.1934,
@@ -25,38 +22,11 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "ICFI": 0.0514,
-    "MATV": 0.0338,
-    "IOSP": 0.0935,
-    "PRTA": 0.0453,
-    "HQY": 0.0577,
-    "CIFR": 0.0158
+    "PRTA": 0.1064,
+    "HQY": 0.1479,
+    "CIFR": 0.0433
   },
   "satellite_rationale": [
-    {
-      "ticker": "ICFI",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "MATV",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "IOSP",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
     {
       "ticker": "PRTA",
       "score": 126.5,
@@ -83,17 +53,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0919,
-    "var_95_1d": 0.0079,
-    "cvar_95_1d": 0.0085,
-    "max_drawdown": -0.036,
-    "beta_spy": 0.593,
-    "hhi": 0.0788,
+    "ann_vol": 0.1336,
+    "var_95_1d": 0.0133,
+    "cvar_95_1d": 0.0176,
+    "max_drawdown": -0.0582,
+    "beta_spy": 0.732,
+    "hhi": 0.0944,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 12.7,
+    "n_positions": 8,
+    "effective_positions": 10.6,
     "gross_exposure": 0.8502,
-    "days_used": 63
+    "days_used": 104
   },
   "risk_gate": {
     "passed": true,
