@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-10T01:09:19+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
+_Generado 2026-10-10T07:20:54+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -10,7 +10,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 85.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `calm` (VIX 14.84)
-- Tendencia: `bull` (SPY 773.93 · MA50 765.51 · MA200 719.16 · dist MA200: 7.62%)
+- Tendencia: `bull` (SPY 778.57 · MA50 766.28 · MA200 719.66 · dist MA200: 8.19%)
 - Credito: `normal` (HY spread 3.15)
 - Tipos: `flat` (curva 10y-2y 0.44)
 - Fed Funds: 3.75%
@@ -22,26 +22,30 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 773.93 | -0.42% | 1.3% | 2.38% |
-| QQQ | 12.0% | core | 747.58 | -1.34% | 0.75% | 5.6% |
-| TLT | 12.0% | core | 77.87 | 0.93% | 0.21% | -3.21% |
-| PRTA | 12.0% | satellite | 8.61 | 1.53% | 0.82% | -4.55% |
-| HQY | 12.0% | satellite | 93.05 | 1.25% | 4.12% | -1.59% |
-| GLD | 11.4% | core | 378.62 | 0.73% | -1.08% | -4.48% |
-| IEF | 7.6% | core | 89.45 | 0.38% | 0.17% | -1.56% |
-| CIFR | 6.0% | satellite | 13.5 | -7.28% | -12.68% | -15.31% |
+| SPY | 12.0% | core | 778.57 | 0.6% | 1.16% | 2.12% |
+| QQQ | 12.0% | core | 751.27 | 0.49% | 0.23% | 5.2% |
+| TLT | 12.0% | core | 77.98 | 0.14% | 0.65% | -3.19% |
+| GLD | 9.3% | core | 384.58 | 1.57% | 1.17% | -3.56% |
+| BPRE | 8.8% | satellite | 13.08 | 0.54% | 3.07% | 8.91% |
+| HQY | 8.5% | satellite | 92.61 | -0.47% | 2.85% | -3.79% |
+| ULS | 7.6% | satellite | 69.99 | -0.93% | 6.06% | -1.77% |
+| IEF | 6.2% | core | 89.4 | -0.06% | 0.39% | -1.43% |
+| PRTA | 6.1% | satellite | 8.84 | 2.67% | 5.74% | -1.01% |
+| CIFR | 2.5% | satellite | 13.52 | 0.15% | -13.94% | -19.76% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 13.4%
-- VaR 95% 1d: 1.3% · CVaR 95% 1d: 1.8%
-- Max drawdown historico: -5.8%
-- Beta vs SPY: 0.732 · posiciones efectivas: 10.6 · HHI: 0.0944
+- Volatilidad anualizada: 10.0%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
+- Max drawdown historico: -6.9%
+- Beta vs SPY: 0.632 · posiciones efectivas: 12.4 · HHI: 0.0808
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **BPRE** · score agregado 252.5 · 4 señales · fuentes: corporate_insider
 - **PRTA** · score agregado 126.5 · 2 señales · fuentes: corporate_insider
 - **HQY** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **ULS** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **CIFR** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
@@ -52,6 +56,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | NRXS | 74 | corporate_insider | Henrichs Timothy Robert | 3 | $9,375 | cluster_buy,small_amount |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
+| ULS | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | COE | 71 | corporate_insider | Huang Jack Jiajia | 0 | $14,117,400 | - |
 | NRXS | 71 | corporate_insider | Carrico Brian Allen | 3 | $1,297 | cluster_buy,small_amount |
 | LCU | 71 | corporate_insider | Alford Tony L | 2 | $19,950 | cluster_buy,small_amount |
@@ -64,7 +69,6 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TENX | 70 | large_holder | Dellora Investments Maste |  | - | - |
 | BGB | 70 | large_holder | Coastal Bridge Advisors,  |  | - | - |
 | OSS | 70 | large_holder | Galkin Vladimir |  | - | - |
-| QTTB | 70 | large_holder | Frazier Life Sciences Pub |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -75,8 +79,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 | TT | 60 | corporate_insider | Regnery David S | $23,083,680 | - |
 | ANET | 59 | corporate_insider | Ullal Jayshree | $15,041,778 | - |
 | ANET | 59 | corporate_insider | Ullal Jayshree | $13,928,003 | - |
-| WBD | 59 | corporate_insider | Zeiler Gerhard | $69,379,674 | - |
 | WBD | 59 | corporate_insider | Wiedenfels Gunnar | $92,506,222 | - |
+| ANET | 58 | corporate_insider | Ullal Jayshree | $10,996,450 | - |
 | ANET | 58 | corporate_insider | Ullal Jayshree | $10,996,450 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
@@ -86,15 +90,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 773.93 (-0.42% / 1.3% / 2.38%) [2026-10-08]
-- QQQ: 747.58 (-1.34% / 0.75% / 5.6%) [2026-10-08]
-- IWM: 277.57 (-0.05% / -0.52% / -3.27%) [2026-10-08]
-- DIA: 511.65 (0.12% / 0.6% / -1.52%) [2026-10-08]
-- TLT: 77.87 (0.93% / 0.21% / -3.21%) [2026-10-08]
-- IEF: 89.45 (0.38% / 0.17% / -1.56%) [2026-10-08]
-- GLD: 378.62 (0.73% / -1.08% / -4.48%) [2026-10-08]
+- SPY: 778.57 (0.6% / 1.16% / 2.12%) [2026-10-09]
+- QQQ: 751.27 (0.49% / 0.23% / 5.2%) [2026-10-09]
+- IWM: 278.94 (0.49% / -0.92% / -3.19%) [2026-10-09]
+- DIA: 516.11 (0.87% / 0.98% / -1.61%) [2026-10-09]
+- TLT: 77.98 (0.14% / 0.65% / -3.19%) [2026-10-09]
+- IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
+- GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
 - ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 82524.58 (1.04% / -4.57% / 1.59%) [2026-10-10]
+- BTC-USD: 82566.3 (0.02% / -3.75% / 1.75%) [2026-10-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -109,10 +113,12 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
+- [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
 - [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
@@ -123,21 +129,21 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO WIRTH JAMES F vendio IHT por $2.2B el 2026-10-07.
-- CEO Zeiler Gerhard vendio WBD por $69.4M el 2026-10-06.
 - CEO Ullal Jayshree vendio ANET por $55.0M el 2026-10-06.
 - CFO Wiedenfels Gunnar vendio WBD por $92.5M el 2026-10-06.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $20.9M el 2026-10-07.
 - CEO Regnery David S vendio TT por $23.1M el 2026-10-06.
 - CEO Huang Jack Jiajia compro COE por $14.1M el 2026-09-25.
 - Director Yin Chung-Yao compro GGR por $26.5M el 2026-10-07.
+- CEO Huang Jack Jiajia compro COE por $10.3M el 2026-09-23.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $469,084 · win rate 95% · categorias: sports, economy
-- lllllllIlll · PnL $122,925 · win rate 94% · categorias: sports
-- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $41,742 · win rate 96% · categorias: sports
-- monkeymashingkeyboard · PnL $64,032 · win rate 92% · categorias: sports
-- esportsbetter1 · PnL $42,603 · win rate 94% · categorias: sports
+- KaneAnalytics · PnL $22,711 · win rate 93% · categorias: sports
+- us391 · PnL $11,116 · win rate 96% · categorias: sports
+- 0xe98c6194374418b1d1b27321f025bd64ac2c8792 · PnL $9,574 · win rate 96% · categorias: sports
+- Painfulvoid · PnL $16,517 · win rate 90% · categorias: sports
+- mooseborzoii · PnL $279,560 · win rate 71% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -145,7 +151,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 560 registros 30d · ultimo dato 2026-10-09
+- **sec_insiders**: `ok` · 557 registros 30d · ultimo dato 2026-10-09
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-09
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -159,7 +165,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`CIFR, GLD, HQY, IEF, PRTA, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BPRE, CIFR, GLD, HQY, IEF, PRTA, QQQ, SPY, TLT, ULS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **85.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:09:18+00:00",
+  "generated_at": "2026-10-10T07:20:53+00:00",
   "profile": "moderado",
   "regime_budget": 0.85,
   "total_equity": 0.8502,
@@ -8,11 +8,13 @@
     "SPY": 0.12,
     "QQQ": 0.12,
     "TLT": 0.12,
-    "PRTA": 0.12,
-    "HQY": 0.12,
-    "GLD": 0.1143,
-    "IEF": 0.0762,
-    "CIFR": 0.0597
+    "GLD": 0.0933,
+    "BPRE": 0.0876,
+    "HQY": 0.085,
+    "ULS": 0.0762,
+    "IEF": 0.0622,
+    "PRTA": 0.061,
+    "CIFR": 0.0249
   },
   "core": {
     "SPY": 0.1934,
@@ -22,11 +24,21 @@
     "GLD": 0.0829
   },
   "satellite": {
-    "PRTA": 0.1064,
-    "HQY": 0.1479,
-    "CIFR": 0.0433
+    "BPRE": 0.0779,
+    "PRTA": 0.0542,
+    "HQY": 0.0756,
+    "ULS": 0.0677,
+    "CIFR": 0.0221
   },
   "satellite_rationale": [
+    {
+      "ticker": "BPRE",
+      "score": 252.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
     {
       "ticker": "PRTA",
       "score": 126.5,
@@ -44,6 +56,14 @@
       "n_signals": 1
     },
     {
+      "ticker": "ULS",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "CIFR",
       "score": 70.2,
       "sources": [
@@ -53,17 +73,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1336,
-    "var_95_1d": 0.0133,
-    "cvar_95_1d": 0.0176,
-    "max_drawdown": -0.0582,
-    "beta_spy": 0.732,
-    "hhi": 0.0944,
+    "ann_vol": 0.0995,
+    "var_95_1d": 0.0093,
+    "cvar_95_1d": 0.0134,
+    "max_drawdown": -0.0691,
+    "beta_spy": 0.632,
+    "hhi": 0.0808,
     "max_position": 0.12,
-    "n_positions": 8,
-    "effective_positions": 10.6,
+    "n_positions": 10,
+    "effective_positions": 12.4,
     "gross_exposure": 0.8502,
-    "days_used": 104
+    "days_used": 105
   },
   "risk_gate": {
     "passed": true,
