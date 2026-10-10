@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-10T07:20:54+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
+_Generado 2026-10-10T13:56:49+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
 - GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
 - ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 82566.3 (0.02% / -3.75% / 1.75%) [2026-10-10]
+- BTC-USD: 82755.2 (0.25% / -3.53% / 1.99%) [2026-10-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,18 +113,14 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1)
+**Temas dominantes**: ai (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
 - [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
-- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
-- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
-- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
-- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
-- [THO] THO - Thor Industries Inc Analysis (2026-09-30)
-- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
+- [SAIL] Keeper & SailPoint link governance to privileged access (2026-09-30)
+- [SAIL] Kuehn Law Encourages Investors of SailPoint , Inc . to Contact Law Firm (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -139,11 +135,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- 1l2ihj34li12u34 · PnL $136,401 · win rate 99% · categorias: sports
+- fantasy7788 · PnL $64,199 · win rate 98% · categorias: sports, crypto
+- us391 · PnL $16,777 · win rate 96% · categorias: sports
 - KaneAnalytics · PnL $22,711 · win rate 93% · categorias: sports
-- us391 · PnL $11,116 · win rate 96% · categorias: sports
-- 0xe98c6194374418b1d1b27321f025bd64ac2c8792 · PnL $9,574 · win rate 96% · categorias: sports
-- Painfulvoid · PnL $16,517 · win rate 90% · categorias: sports
-- mooseborzoii · PnL $279,560 · win rate 71% · categorias: sports
+- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $28,738 · win rate 88% · categorias: sports, crypto, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
