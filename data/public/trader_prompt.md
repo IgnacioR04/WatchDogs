@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-10T13:56:49+00:00 -->
+<!-- trader_prompt.md generado 2026-10-10T18:51:14+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-10T13:56:49+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
+_Generado 2026-10-10T18:51:14+00:00 · ventana señales 2026-09-10 -> 2026-10-10_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -332,7 +332,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
 - GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
 - ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 82755.2 (0.25% / -3.53% / 1.99%) [2026-10-10]
+- BTC-USD: 82958.7 (0.5% / -3.3% / 2.24%) [2026-10-10]
 
 **Macro (valor · cambio 1m):**
 
@@ -347,14 +347,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (2), stock (1)
+**Temas dominantes**: ai (1), regulatory (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
-- [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
-- [SAIL] Keeper & SailPoint link governance to privileged access (2026-09-30)
-- [SAIL] Kuehn Law Encourages Investors of SailPoint , Inc . to Contact Law Firm (2026-09-30)
+- [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -369,11 +366,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 1l2ihj34li12u34 · PnL $136,401 · win rate 99% · categorias: sports
-- fantasy7788 · PnL $64,199 · win rate 98% · categorias: sports, crypto
-- us391 · PnL $16,777 · win rate 96% · categorias: sports
-- KaneAnalytics · PnL $22,711 · win rate 93% · categorias: sports
-- 0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186 · PnL $28,738 · win rate 88% · categorias: sports, crypto, politics
+- RJW1 · PnL $134,576 · win rate 98% · categorias: sports
+- theowalcott · PnL $31,528 · win rate 100% · categorias: sports
+- esportsbetter1 · PnL $54,884 · win rate 94% · categorias: sports
+- fantasy7788 · PnL $24,889 · win rate 98% · categorias: sports, crypto
+- CongoleseBorat · PnL $67,450 · win rate 89% · categorias: sports, politics, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
