@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-11T02:07:21+00:00 · ventana señales 2026-09-11 -> 2026-10-11_
+_Generado 2026-10-11T09:04:26+00:00 · ventana señales 2026-09-11 -> 2026-10-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
 - GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
 - ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 82948.0 (0.49% / -3.31% / 2.22%) [2026-10-11]
+- BTC-USD: 82946.22 (0.04% / -3.05% / -4.22%) [2026-10-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,7 +113,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (2)
+**Temas dominantes**: ai (4), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
@@ -123,6 +123,8 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 - [THO] THO - Thor Industries Inc Analysis (2026-09-30)
 - [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
+- [SAIL] Keeper & SailPoint link governance to privileged access (2026-09-30)
+- [SAIL] Kuehn Law Encourages Investors of SailPoint , Inc . to Contact Law Firm (2026-09-30)
 - [DDOG] Can Datadog ( DDOG ) Platform Keep Growing as Companies Embrace AI ? (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -138,11 +140,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $85,091 · win rate 100% · categorias: sports
-- Kch-Temp · PnL $188,673 · win rate 92% · categorias: sports
-- fantasy7788 · PnL $74,086 · win rate 98% · categorias: sports, crypto
-- RJW1 · PnL $70,719 · win rate 98% · categorias: sports
-- CORGI777 · PnL $84,489 · win rate 94% · categorias: sports
+- KaneAnalytics · PnL $87,432 · win rate 94% · categorias: sports
+- ethanaz · PnL $154,144 · win rate 88% · categorias: sports, crypto
+- monkeymashingkeyboard · PnL $60,446 · win rate 92% · categorias: sports
+- torta.tech · PnL $38,036 · win rate 94% · categorias: sports
+- QuentinChen · PnL $14,425 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
