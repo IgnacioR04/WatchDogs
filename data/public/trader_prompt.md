@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-11T15:56:08+00:00 -->
+<!-- trader_prompt.md generado 2026-10-11T20:32:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-11T15:56:07+00:00 · ventana señales 2026-09-11 -> 2026-10-11_
+_Generado 2026-10-11T20:32:02+00:00 · ventana señales 2026-09-11 -> 2026-10-11_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -332,7 +332,7 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 - IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
 - GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
 - ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 83410.54 (0.6% / -2.51% / -3.69%) [2026-10-11]
+- BTC-USD: 83546.09 (0.76% / -2.35% / -3.53%) [2026-10-11]
 
 **Macro (valor · cambio 1m):**
 
@@ -371,11 +371,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- KaneAnalytics · PnL $87,432 · win rate 94% · categorias: sports
-- ethanaz · PnL $154,144 · win rate 88% · categorias: sports, crypto
-- monkeymashingkeyboard · PnL $60,447 · win rate 92% · categorias: sports
-- torta.tech · PnL $38,185 · win rate 94% · categorias: sports
-- GeorgeRe · PnL $20,511 · win rate 92% · categorias: sports, crypto
+- Diabolical-Prize · PnL $453,325 · win rate 95% · categorias: sports, economy
+- RJW1 · PnL $283,692 · win rate 98% · categorias: sports
+- Kyn008 · PnL $66,669 · win rate 98% · categorias: sports
+- crisp1973 · PnL $34,394 · win rate 100% · categorias: sports
+- KaneAnalytics · PnL $85,602 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
