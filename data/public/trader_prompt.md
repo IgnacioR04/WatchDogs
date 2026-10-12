@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-12T06:11:50+00:00 -->
+<!-- trader_prompt.md generado 2026-10-12T15:38:53+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-12T06:11:50+00:00 · ventana señales 2026-09-12 -> 2026-10-12_
+_Generado 2026-10-12T15:38:52+00:00 · ventana señales 2026-09-12 -> 2026-10-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,37 +242,37 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 85.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `calm` (VIX 14.84)
-- Tendencia: `bull` (SPY 778.57 · MA50 766.28 · MA200 719.66 · dist MA200: 8.19%)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `normal` (VIX 15.2)
+- Tendencia: `bull` (SPY 778.2 · MA50 766.94 · MA200 720.14 · dist MA200: 8.06%)
 - Credito: `normal` (HY spread 3.15)
 - Tipos: `flat` (curva 10y-2y 0.44)
 - Fed Funds: 3.75%
-- Motivos: tendencia alcista (+); VIX calmado (+)
+- Motivos: tendencia alcista (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 778.57 | 0.6% | 1.16% | 2.12% |
-| QQQ | 12.0% | core | 751.27 | 0.49% | 0.23% | 5.2% |
-| TLT | 12.0% | core | 77.98 | 0.14% | 0.65% | -3.19% |
-| GLD | 9.3% | core | 384.58 | 1.57% | 1.17% | -3.56% |
-| BPRE | 8.8% | satellite | 13.08 | 0.54% | 3.07% | 8.91% |
-| HQY | 8.5% | satellite | 92.61 | -0.47% | 2.85% | -3.79% |
-| ULS | 7.6% | satellite | 69.99 | -0.93% | 6.06% | -1.77% |
-| IEF | 6.2% | core | 89.4 | -0.06% | 0.39% | -1.43% |
-| PRTA | 6.1% | satellite | 8.84 | 2.67% | 5.74% | -1.01% |
-| CIFR | 2.5% | satellite | 13.52 | 0.15% | -13.94% | -19.76% |
+| SPY | 12.0% | core | 778.2 | -0.05% | 0.43% | 2.53% |
+| QQQ | 11.4% | core | 746.35 | -0.65% | -1.3% | 5.35% |
+| TLT | 11.4% | core | 77.97 | -0.01% | 1.12% | -3.26% |
+| GLD | 8.6% | core | 382.04 | -0.66% | 0.66% | -2.75% |
+| BPRE | 8.1% | satellite | 12.87 | -1.61% | 1.1% | 9.14% |
+| HQY | 7.8% | satellite | 91.47 | -1.23% | -0.08% | -4.75% |
+| ULS | 7.0% | satellite | 71.01 | 1.46% | 4.05% | 2.18% |
+| IEF | 5.7% | core | 89.38 | -0.03% | 0.51% | -1.37% |
+| PRTA | 5.6% | satellite | 8.5 | -3.85% | 2.78% | -4.06% |
+| CIFR | 2.3% | satellite | 13.06 | -3.44% | -15.67% | -16.5% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.0%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.3%
-- Max drawdown historico: -6.9%
-- Beta vs SPY: 0.632 · posiciones efectivas: 12.4 · HHI: 0.0808
+- Volatilidad anualizada: 9.3%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -6.4%
+- Beta vs SPY: 0.6 · posiciones efectivas: 13.8 · HHI: 0.0725
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -324,15 +324,15 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 778.57 (0.6% / 1.16% / 2.12%) [2026-10-09]
-- QQQ: 751.27 (0.49% / 0.23% / 5.2%) [2026-10-09]
-- IWM: 278.94 (0.49% / -0.92% / -3.19%) [2026-10-09]
-- DIA: 516.11 (0.87% / 0.98% / -1.61%) [2026-10-09]
-- TLT: 77.98 (0.14% / 0.65% / -3.19%) [2026-10-09]
-- IEF: 89.4 (-0.06% / 0.39% / -1.43%) [2026-10-09]
-- GLD: 384.58 (1.57% / 1.17% / -3.56%) [2026-10-09]
-- ^VIX: 14.84 (-3.7% / -3.07% / -6.31%) [2026-10-09]
-- BTC-USD: 83726.6 (0.98% / -2.14% / -3.32%) [2026-10-12]
+- SPY: 778.2 (-0.05% / 0.43% / 2.53%) [2026-10-12]
+- QQQ: 746.35 (-0.65% / -1.3% / 5.35%) [2026-10-12]
+- IWM: 278.67 (-0.1% / -1.66% / -2.96%) [2026-10-12]
+- DIA: 518.35 (0.43% / 1.22% / -0.94%) [2026-10-12]
+- TLT: 77.97 (-0.01% / 1.12% / -3.26%) [2026-10-12]
+- IEF: 89.38 (-0.03% / 0.51% / -1.37%) [2026-10-12]
+- GLD: 382.04 (-0.66% / 0.66% / -2.75%) [2026-10-12]
+- ^VIX: 15.2 (2.43% / -2.06% / -11.11%) [2026-10-12]
+- BTC-USD: 82634.42 (-1.25% / -0.77% / -4.11%) [2026-10-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -347,9 +347,17 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: ai (3), stock (3), regulatory (1)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [THO] THO - Thor Industries Inc Analysis (2026-09-30)
+- [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
+- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
+- [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
+- [DDOG] Can Datadog ( DDOG ) Platform Keep Growing as Companies Embrace AI ? (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -364,11 +372,11 @@ Perfil **moderado** · exposicion total **85.0%** · cash **15.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- alwaysfade · PnL $85,412 · win rate 90% · categorias: sports, politics, economy
-- Kch-Temp · PnL $46,999 · win rate 93% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $35,934 · win rate 89% · categorias: crypto
-- mooseborzoii · PnL $376,987 · win rate 73% · categorias: sports
-- VD721lsj4938Dk388 · PnL $12,939 · win rate 95% · categorias: sports
+- Kch-Temp · PnL $60,880 · win rate 93% · categorias: sports
+- alwaysfade · PnL $85,353 · win rate 90% · categorias: sports, politics, economy
+- mooseborzoii · PnL $376,884 · win rate 73% · categorias: sports
+- monkeymashingkeyboard · PnL $13,553 · win rate 92% · categorias: sports
+- THEHIGHLIFE · PnL $119,936 · win rate 78% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,7 +399,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
 1. **Universo permitido**: tickers de la cartera candidata (`BPRE, CIFR, GLD, HQY, IEF, PRTA, QQQ, SPY, TLT, ULS`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **85.0%** (el resto es cash). Estamos en regimen `risk_on`.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:11:50+00:00",
+  "generated_at": "2026-10-12T15:38:52+00:00",
   "budget_eur": 100.0,
   "n_cycles": 20,
   "cost_model": {
@@ -7,18 +7,18 @@
     "note": "comision + spread medio sobre el turnover de cada rebalanceo; activos USD convertidos a EUR con EURUSD diario (cash en EUR)"
   },
   "metrics": {
-    "n_days": 66,
-    "equity_eur": 101.19,
-    "total_return": 0.0119,
-    "win_rate_days": 0.5909,
+    "n_days": 67,
+    "equity_eur": 101.25,
+    "total_return": 0.0125,
+    "win_rate_days": 0.597,
     "best_day": 0.0097,
     "worst_day": -0.0073,
-    "ann_vol": 0.0622,
-    "sharpe": 0.91,
-    "sortino": 1.52,
+    "ann_vol": 0.0618,
+    "sharpe": 0.94,
+    "sortino": 1.56,
     "max_drawdown": -0.0174,
-    "spy_return": 0.0649,
-    "excess_return": -0.053,
+    "spy_return": 0.0688,
+    "excess_return": -0.0563,
     "costs_eur": 0.2494,
     "turnover_total": 1.664
   },
@@ -418,6 +418,12 @@
       "equity": 101.19,
       "spy": 106.49,
       "daily_ret": 0.00239
+    },
+    {
+      "date": "2026-10-12",
+      "equity": 101.25,
+      "spy": 106.88,
+      "daily_ret": 0.0006
     }
   ],
   "positions": {
@@ -425,35 +431,35 @@
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0471,
-      "value_eur": 12.57
+      "ret_since_entry": 0.0466,
+      "value_eur": 12.56
     },
     "QQQ": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0571,
-      "value_eur": 12.69
+      "ret_since_entry": 0.0502,
+      "value_eur": 12.6
     },
     "TLT": {
       "weight": 0.12,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0646,
+      "ret_since_entry": -0.0647,
       "value_eur": 11.22
     },
     "GLD": {
       "weight": 0.093,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": 0.0271,
-      "value_eur": 9.55
+      "ret_since_entry": 0.0203,
+      "value_eur": 9.49
     },
     "IEF": {
       "weight": 0.053,
       "instrument": "etf_us",
       "entry_date": "2026-07-09",
-      "ret_since_entry": -0.0339,
+      "ret_since_entry": -0.0342,
       "value_eur": 5.12
     },
     "LION": {
@@ -576,7 +582,7 @@
       "n_positions": 13,
       "invested": 0.88,
       "turnover": 0.11,
-      "cost_pct": 0.00017,
+      "cost_pct": 0.00016,
       "verdict_llm": "adjust",
       "thesis": "Regimen risk_on sin cambios sustanciales (VIX 17.23, tendencia alcista con SPY +8.32% sobre MA200, credito tenso). Mantengo el core (SPY/QQQ/TLT/VFLEX/IEF) y recorto GLD por deterioro de momentum coincidiendo con un dolar mas fuerte. Refuerzo las tres ideas satelite con mayor conviccion cruzada activa este ciclo (LION, AVO, NTSK) y libero FVR y ASC, posiciones legado sin señal desde hace 3 ciclos, para financiar el aumento sin superar el presupuesto de riesgo. Excluyo deliberadamente TBRG de la candidata pese a su señal: la fusion con IKS Health ya se completo y hay una investigacion de class action en curso, riesgo que el modelo cuantitativo no captura. Exposicion total ~88.0%, cash ~12.0%, ligeramente mas conservador que el ciclo anterior.",
       "confidence": 0.6,
