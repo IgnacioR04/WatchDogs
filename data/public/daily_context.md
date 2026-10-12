@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-12T15:38:52+00:00 · ventana señales 2026-09-12 -> 2026-10-12_
+_Generado 2026-10-12T23:13:49+00:00 · ventana señales 2026-09-12 -> 2026-10-12_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,8 +9,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.2)
-- Tendencia: `bull` (SPY 778.2 · MA50 766.94 · MA200 720.14 · dist MA200: 8.06%)
+- Volatilidad: `normal` (VIX 15.21)
+- Tendencia: `bull` (SPY 778.1 · MA50 766.94 · MA200 720.14 · dist MA200: 8.05%)
 - Credito: `normal` (HY spread 3.15)
 - Tipos: `flat` (curva 10y-2y 0.44)
 - Fed Funds: 3.75%
@@ -22,16 +22,16 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 778.2 | -0.05% | 0.43% | 2.53% |
-| QQQ | 11.4% | core | 746.35 | -0.65% | -1.3% | 5.35% |
-| TLT | 11.4% | core | 77.97 | -0.01% | 1.12% | -3.26% |
-| GLD | 8.6% | core | 382.04 | -0.66% | 0.66% | -2.75% |
-| BPRE | 8.1% | satellite | 12.87 | -1.61% | 1.1% | 9.14% |
-| HQY | 7.8% | satellite | 91.47 | -1.23% | -0.08% | -4.75% |
-| ULS | 7.0% | satellite | 71.01 | 1.46% | 4.05% | 2.18% |
-| IEF | 5.7% | core | 89.38 | -0.03% | 0.51% | -1.37% |
-| PRTA | 5.6% | satellite | 8.5 | -3.85% | 2.78% | -4.06% |
-| CIFR | 2.3% | satellite | 13.06 | -3.44% | -15.67% | -16.5% |
+| SPY | 12.0% | core | 778.1 | -0.06% | 0.42% | 2.52% |
+| QQQ | 11.4% | core | 746.04 | -0.7% | -1.34% | 5.31% |
+| TLT | 11.4% | core | 78.05 | 0.09% | 1.22% | -3.17% |
+| GLD | 8.6% | core | 382.15 | -0.63% | 0.69% | -2.72% |
+| BPRE | 8.1% | satellite | 12.97 | -0.84% | 1.89% | 9.99% |
+| HQY | 7.9% | satellite | 92.03 | -0.63% | 0.52% | -4.18% |
+| ULS | 7.0% | satellite | 71.18 | 1.7% | 4.29% | 2.42% |
+| IEF | 5.7% | core | 89.43 | 0.03% | 0.57% | -1.31% |
+| PRTA | 5.6% | satellite | 8.43 | -4.64% | 1.93% | -4.85% |
+| CIFR | 2.3% | satellite | 13.0 | -3.85% | -16.02% | -16.85% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -90,15 +90,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 778.2 (-0.05% / 0.43% / 2.53%) [2026-10-12]
-- QQQ: 746.35 (-0.65% / -1.3% / 5.35%) [2026-10-12]
-- IWM: 278.67 (-0.1% / -1.66% / -2.96%) [2026-10-12]
-- DIA: 518.35 (0.43% / 1.22% / -0.94%) [2026-10-12]
-- TLT: 77.97 (-0.01% / 1.12% / -3.26%) [2026-10-12]
-- IEF: 89.38 (-0.03% / 0.51% / -1.37%) [2026-10-12]
-- GLD: 382.04 (-0.66% / 0.66% / -2.75%) [2026-10-12]
-- ^VIX: 15.2 (2.43% / -2.06% / -11.11%) [2026-10-12]
-- BTC-USD: 82634.42 (-1.25% / -0.77% / -4.11%) [2026-10-12]
+- SPY: 778.1 (-0.06% / 0.42% / 2.52%) [2026-10-12]
+- QQQ: 746.04 (-0.7% / -1.34% / 5.31%) [2026-10-12]
+- IWM: 277.9 (-0.37% / -1.93% / -3.22%) [2026-10-12]
+- DIA: 517.91 (0.35% / 1.13% / -1.03%) [2026-10-12]
+- TLT: 78.05 (0.09% / 1.22% / -3.17%) [2026-10-12]
+- IEF: 89.43 (0.03% / 0.57% / -1.31%) [2026-10-12]
+- GLD: 382.15 (-0.63% / 0.69% / -2.72%) [2026-10-12]
+- ^VIX: 15.21 (2.49% / -2.0% / -11.05%) [2026-10-12]
+- BTC-USD: 81906.01 (-2.12% / -1.65% / -4.95%) [2026-10-12]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,17 +113,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (3), regulatory (1)
+**Temas dominantes**: ai (5), stock (4), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
 - [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
+- [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
 - [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 - [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
-- [DDOG] Can Datadog ( DDOG ) Platform Keep Growing as Companies Embrace AI ? (2026-09-30)
+- [SAIL] Keeper & SailPoint link governance to privileged access (2026-09-30)
+- [SAIL] Kuehn Law Encourages Investors of SailPoint , Inc . to Contact Law Firm (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -138,11 +141,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Kch-Temp · PnL $60,880 · win rate 93% · categorias: sports
-- alwaysfade · PnL $85,353 · win rate 90% · categorias: sports, politics, economy
-- mooseborzoii · PnL $376,884 · win rate 73% · categorias: sports
-- monkeymashingkeyboard · PnL $13,553 · win rate 92% · categorias: sports
-- THEHIGHLIFE · PnL $119,936 · win rate 78% · categorias: sports
+- 1l2ihj34li12u34 · PnL $48,577 · win rate 99% · categorias: sports
+- alwaysfade · PnL $85,338 · win rate 90% · categorias: sports, politics, economy
+- Kch-Temp · PnL $55,855 · win rate 93% · categorias: sports
+- VD721lsj4938Dk388 · PnL $24,124 · win rate 94% · categorias: sports
+- Siddhartha1 · PnL $46,905 · win rate 88% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
