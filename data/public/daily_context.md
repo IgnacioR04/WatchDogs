@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-12T23:13:49+00:00 · ventana señales 2026-09-12 -> 2026-10-12_
+_Generado 2026-10-13T03:51:35+00:00 · ventana señales 2026-09-13 -> 2026-10-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -98,7 +98,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.43 (0.03% / 0.57% / -1.31%) [2026-10-12]
 - GLD: 382.15 (-0.63% / 0.69% / -2.72%) [2026-10-12]
 - ^VIX: 15.21 (2.49% / -2.0% / -11.05%) [2026-10-12]
-- BTC-USD: 81906.01 (-2.12% / -1.65% / -4.95%) [2026-10-12]
+- BTC-USD: 83221.79 (-0.55% / -0.07% / -3.42%) [2026-10-13]
 
 **Macro (valor · cambio 1m):**
 
@@ -113,20 +113,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (5), stock (4), regulatory (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
-- [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
-- [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
 - [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 - [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
-- [SAIL] Keeper & SailPoint link governance to privileged access (2026-09-30)
-- [SAIL] Kuehn Law Encourages Investors of SailPoint , Inc . to Contact Law Firm (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -141,11 +136,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- 1l2ihj34li12u34 · PnL $48,577 · win rate 99% · categorias: sports
-- alwaysfade · PnL $85,338 · win rate 90% · categorias: sports, politics, economy
-- Kch-Temp · PnL $55,855 · win rate 93% · categorias: sports
-- VD721lsj4938Dk388 · PnL $24,124 · win rate 94% · categorias: sports
-- Siddhartha1 · PnL $46,905 · win rate 88% · categorias: sports
+- BreakTheBank · PnL $524,904 · win rate 86% · categorias: sports, politics
+- Kch-Temp · PnL $141,724 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $118,452 · win rate 92% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $62,379 · win rate 89% · categorias: crypto
+- TAIWANNUMBERONE · PnL $18,522 · win rate 93% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
