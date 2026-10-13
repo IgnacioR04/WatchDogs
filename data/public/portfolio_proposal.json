@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-10-13T19:33:07+00:00",
+  "generated_at": "2026-10-13T23:34:03+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7997,
+  "cash": 0.2003,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "CWBC": 0.0843,
-    "SAR": 0.0588,
-    "BPRE": 0.0579,
+    "CWBC": 0.0765,
     "IEF": 0.0572,
-    "PRTA": 0.0398,
-    "GOLD": 0.0382,
-    "KLIC": 0.029
+    "SAR": 0.0535,
+    "AVO": 0.0446,
+    "AVNW": 0.0354,
+    "GOLD": 0.0342,
+    "KLIC": 0.0263,
+    "SBET": 0.0228,
+    "SUJA": 0.0146
   },
   "core": {
     "SPY": 0.182,
@@ -25,30 +27,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "BPRE": 0.0526,
-    "PRTA": 0.0362,
-    "SAR": 0.0534,
-    "GOLD": 0.0347,
-    "KLIC": 0.0264,
-    "CWBC": 0.0766
+    "SAR": 0.0486,
+    "GOLD": 0.0311,
+    "AVO": 0.0405,
+    "AVNW": 0.0322,
+    "KLIC": 0.0239,
+    "SUJA": 0.0133,
+    "CWBC": 0.0695,
+    "SBET": 0.0207
   },
   "satellite_rationale": [
-    {
-      "ticker": "BPRE",
-      "score": 252.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "PRTA",
-      "score": 126.5,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
     {
       "ticker": "SAR",
       "score": 124.4,
@@ -66,7 +54,31 @@
       "n_signals": 2
     },
     {
+      "ticker": "AVO",
+      "score": 117.7,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "AVNW",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "KLIC",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "SUJA",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -80,20 +92,28 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "SBET",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1004,
-    "var_95_1d": 0.0098,
-    "cvar_95_1d": 0.0131,
-    "max_drawdown": -0.0543,
-    "beta_spy": 0.652,
-    "hhi": 0.069,
+    "ann_vol": 0.1077,
+    "var_95_1d": 0.0118,
+    "cvar_95_1d": 0.0146,
+    "max_drawdown": -0.0437,
+    "beta_spy": 0.714,
+    "hhi": 0.0658,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 14.5,
-    "gross_exposure": 0.7998,
-    "days_used": 106
+    "n_positions": 13,
+    "effective_positions": 15.2,
+    "gross_exposure": 0.7997,
+    "days_used": 109
   },
   "risk_gate": {
     "passed": true,
