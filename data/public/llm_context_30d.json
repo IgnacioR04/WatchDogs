@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-13T03:50:39.120997+00:00",
+  "generated_at": "2026-10-13T12:00:10.390886+00:00",
   "window": {
     "from": "2026-09-13",
     "to": "2026-10-13",
@@ -24,7 +24,8 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "ai"
+      "ai",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -62,7 +63,10 @@
       "event_date": "2026-10-06",
       "importance_score": 85.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_309687165829",
+        "news_261680954746"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
@@ -188,7 +192,10 @@
       "event_date": "2026-10-07",
       "importance_score": 82.7,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_309687165829",
+        "news_261680954746"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000242/"
     },
     {
@@ -206,7 +213,10 @@
       "event_date": "2026-10-06",
       "importance_score": 82.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_309687165829",
+        "news_261680954746"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
@@ -224,7 +234,10 @@
       "event_date": "2026-10-06",
       "importance_score": 82.1,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_309687165829",
+        "news_261680954746"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/"
     },
     {
@@ -393,6 +406,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "API",
+        "company": "Agora, Inc.",
+        "pressure_score": 1285.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "LCU",
         "company": "Lion Copper Corp.",
         "pressure_score": 469.3,
@@ -417,6 +438,14 @@
         ]
       },
       {
+        "ticker": "EP",
+        "company": "EMPIRE PETROLEUM CORP",
+        "pressure_score": 272.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "GF",
         "company": "The New Germany Fund, Inc.",
         "pressure_score": 213.7,
@@ -429,14 +458,6 @@
         "ticker": "INM",
         "company": "InMed Pharmaceuticals Inc.",
         "pressure_score": 202.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "NRXS",
-        "company": "Neuraxis, INC",
-        "pressure_score": 201.0,
         "sources": [
           "corporate_insider"
         ]
@@ -482,6 +503,14 @@
         ]
       },
       {
+        "ticker": "TENX",
+        "company": "Tenax Therapeutics, Inc.",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "WBUY",
         "company": "WEBUY GLOBAL LTD",
         "pressure_score": 141.0,
@@ -492,22 +521,6 @@
       {
         "ticker": "ICFI",
         "company": "ICF International Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "MATV",
-        "company": "Mativ Holdings Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "IOSP",
-        "company": "Innospec Inc",
         "pressure_score": 141.0,
         "sources": [
           "large_holder"
@@ -559,6 +572,14 @@
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 646.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 629.3,
         "sources": [
           "corporate_insider"
         ]
@@ -623,14 +644,6 @@
         "ticker": "DUOL",
         "company": "Duolingo, Inc.",
         "pressure_score": 317.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "OKTA",
-        "company": "Okta, Inc.",
-        "pressure_score": 288.4,
         "sources": [
           "corporate_insider"
         ]
@@ -1099,9 +1112,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 524903.84,
-        "win_rate": 0.8602,
-        "volume": 1519844.43,
+        "pnl": 927414.89,
+        "win_rate": 0.8615,
+        "volume": 1565077.43,
         "categories": [
           "sports",
           "politics"
@@ -1110,8 +1123,8 @@
       {
         "wallet": "0x924379a79c",
         "username": "Kch-Temp",
-        "pnl": 141724.29,
-        "win_rate": 0.9266,
+        "pnl": 191852.15,
+        "win_rate": 0.9269,
         "volume": 0.0,
         "categories": [
           "sports"
@@ -1120,19 +1133,30 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 118451.88,
-        "win_rate": 0.9231,
-        "volume": 26024.96,
+        "pnl": 127884.43,
+        "win_rate": 0.9234,
+        "volume": 32895.56,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0xf28e42d20e",
+        "username": "ethanaz",
+        "pnl": 139525.35,
+        "win_rate": 0.874,
+        "volume": 348813.37,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 62378.6,
+        "pnl": 97274.65,
         "win_rate": 0.8947,
-        "volume": 0.0,
+        "volume": 864.66,
         "categories": [
           "crypto"
         ]
@@ -1140,65 +1164,57 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 18522.38,
+        "pnl": 42484.81,
         "win_rate": 0.934,
-        "volume": 93248.28,
+        "volume": 261528.35,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0x0235dc24b3",
-        "username": "darkumbreon88",
-        "pnl": 6681.29,
-        "win_rate": 0.959,
-        "volume": 5590.87,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       },
       {
         "wallet": "0xb9c7d35d1f",
         "username": "taylorsversion",
-        "pnl": 21023.65,
+        "pnl": 21289.9,
         "win_rate": 0.8795,
-        "volume": 0.0,
+        "volume": 53250.77,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 191500.69,
-        "win_rate": 0.7276,
-        "volume": 1116892.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xa9a6bcb86f",
-        "username": "gannonallison",
-        "pnl": 6664.85,
-        "win_rate": 0.8933,
-        "volume": 14040.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 79209.04,
-        "win_rate": 0.698,
-        "volume": 589488.1,
+        "wallet": "0xe07744c53c",
+        "username": "BIess",
+        "pnl": 17676.39,
+        "win_rate": 0.8506,
+        "volume": 40992.34,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xf5198df69e",
+        "username": "sbimbg",
+        "pnl": 13279.81,
+        "win_rate": 0.85,
+        "volume": 76105.79,
+        "categories": [
+          "sports",
+          "crypto",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x664a25f165",
+        "username": "itsonlyamatteroftime",
+        "pnl": 27625.14,
+        "win_rate": 0.792,
+        "volume": 128382.01,
+        "categories": [
+          "crypto",
+          "sports"
         ]
       }
     ],
@@ -1206,51 +1222,63 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 524903.84,
-        "win_rate": 0.8602,
-        "volume": 1519844.43,
+        "pnl": 927414.89,
+        "win_rate": 0.8615,
+        "volume": 1565077.43,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 191500.69,
-        "win_rate": 0.7276,
-        "volume": 1116892.65,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2c335066fe",
-        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
-        "pnl": 79209.04,
-        "win_rate": 0.698,
-        "volume": 589488.1,
+        "wallet": "0x6ac5bb06a9",
+        "username": "fortnitethegoat667",
+        "pnl": 24251.23,
+        "win_rate": 0.483,
+        "volume": 710808.57,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x9ee49c02ae",
+        "username": "cosmicxbt",
+        "pnl": 38374.69,
+        "win_rate": 0.6923,
+        "volume": 463868.73,
+        "categories": [
+          "sports",
+          "economy"
         ]
       },
       {
         "wallet": "0x31e5d54ade",
         "username": "Noprajsk",
-        "pnl": 67610.62,
-        "win_rate": 0.8,
+        "pnl": 130821.46,
+        "win_rate": 0.8077,
         "volume": 194494.91,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 71323.43,
-        "win_rate": 0.589,
-        "volume": 280971.58,
+        "wallet": "0xf4c95b636c",
+        "username": "milkteaboba",
+        "pnl": 149886.67,
+        "win_rate": 0.5769,
+        "volume": 268194.25,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 32236.46,
+        "win_rate": 0.646,
+        "volume": 1346052.78,
         "categories": [
           "sports"
         ]
@@ -1258,57 +1286,75 @@
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 45402.8,
-        "win_rate": 0.562,
-        "volume": 420690.69,
+        "pnl": 58691.04,
+        "win_rate": 0.551,
+        "volume": 794870.19,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x4bff30af91",
-        "username": "Sassy-Bucket",
-        "pnl": 41273.44,
-        "win_rate": 0.346,
-        "volume": 119633.15,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x496121ba25",
-        "username": "Anon455",
-        "pnl": 9924.49,
-        "win_rate": 0.576,
-        "volume": 645349.52,
+        "wallet": "0xf28e42d20e",
+        "username": "ethanaz",
+        "pnl": 139525.35,
+        "win_rate": 0.874,
+        "volume": 348813.37,
         "categories": [
           "sports",
           "crypto"
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 15945.93,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 140181.41,
         "win_rate": 0.59,
-        "volume": 364239.17,
+        "volume": 280971.58,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 9667.82,
-        "win_rate": 0.539,
-        "volume": 201639.78,
+        "wallet": "0xe7870d0e1b",
+        "username": "Kkunn",
+        "pnl": 26402.96,
+        "win_rate": 0.6538,
+        "volume": 413346.26,
         "categories": [
-          "sports"
+          "sports",
+          "economy"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP",
+      "url": "https://www.themarketsdaily.com/2026/10/01/arista-networks-inc-anet-stake-boosted-by-doliver-advisors-lp.html",
+      "ticker": "ANET",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector",
+      "url": "https://seekingalpha.com/news/4649465-crowdstrike-okta-rubrik-all-reach-one-year-highs-as-ai-continues-to-rally-cyber-sector",
+      "ticker": "CRWD",
+      "themes": [
+        "ai",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC",
+      "url": "https://www.dailypolitical.com/2026/10/01/1678810-shares-in-arista-networks-inc-anet-purchased-by-confluence-investment-management-llc.html",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-01"
+    },
     {
       "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
       "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
@@ -1349,9 +1395,18 @@
         "stock"
       ],
       "date": "2026-09-30"
+    },
+    {
+      "title": "Can Datadog ( DDOG ) Platform Keep Growing as Companies Embrace AI ? ",
+      "url": "https://www.insidermonkey.com/news/can-datadogs-ddog-platform-keep-growing-as-companies-embrace-ai-1846402/",
+      "ticker": "DDOG",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-09-30"
     }
   ],
-  "signals_count": 1307,
+  "signals_count": 1332,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

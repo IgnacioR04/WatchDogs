@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-13T03:51:35+00:00 -->
+<!-- trader_prompt.md generado 2026-10-13T12:01:56+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-13T03:51:35+00:00 · ventana señales 2026-09-13 -> 2026-10-13_
+_Generado 2026-10-13T12:01:56+00:00 · ventana señales 2026-09-13 -> 2026-10-13_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.21)
+- Volatilidad: `normal` (VIX 15.43)
 - Tendencia: `bull` (SPY 778.1 · MA50 766.94 · MA200 720.14 · dist MA200: 8.05%)
 - Credito: `normal` (HY spread 3.15)
 - Tipos: `flat` (curva 10y-2y 0.44)
@@ -288,13 +288,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| NRXS | 74 | corporate_insider | Henrichs Timothy Robert | 3 | $9,375 | cluster_buy,small_amount |
 | HQY | 72 | large_holder | Wasatch Advisors LP |  | - | - |
 | ULS | 72 | large_holder | T. Rowe Price Investment  |  | - | - |
 | COE | 71 | corporate_insider | Huang Jack Jiajia | 0 | $14,117,400 | - |
-| NRXS | 71 | corporate_insider | Carrico Brian Allen | 3 | $1,297 | cluster_buy,small_amount |
 | LCU | 71 | corporate_insider | Alford Tony L | 2 | $19,950 | cluster_buy,small_amount |
 | COE | 71 | corporate_insider | Huang Jack Jiajia | 0 | $10,318,950 | - |
+| SSM | 70 | large_holder | Bambino 255. V V UG (haft |  | - | - |
+| MRLN | 70 | large_holder | Inflection Point Fund I,  |  | - | - |
+| TENX | 70 | large_holder | Sphera Funds Management L |  | - | - |
 | GWLL | 70 | large_holder | Ming Zhou |  | - | - |
 | WBUY | 70 | large_holder | Zheng Mingjie |  | - | - |
 | MLCO | 70 | large_holder | Melco International Devel |  | - | - |
@@ -302,7 +303,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | SOBR | 70 | large_holder | Corley Thomas John |  | - | - |
 | TENX | 70 | large_holder | Dellora Investments Maste |  | - | - |
 | BGB | 70 | large_holder | Coastal Bridge Advisors,  |  | - | - |
-| OSS | 70 | large_holder | Galkin Vladimir |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -331,13 +331,12 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 78.05 (0.09% / 1.22% / -3.17%) [2026-10-12]
 - IEF: 89.43 (0.03% / 0.57% / -1.31%) [2026-10-12]
 - GLD: 382.15 (-0.63% / 0.69% / -2.72%) [2026-10-12]
-- ^VIX: 15.21 (2.49% / -2.0% / -11.05%) [2026-10-12]
-- BTC-USD: 83221.79 (-0.55% / -0.07% / -3.42%) [2026-10-13]
+- ^VIX: 15.43 (1.45% / 2.8% / -10.29%) [2026-10-13]
+- BTC-USD: 83245.95 (1.81% / 1.92% / -1.35%) [2026-10-13]
 
 **Macro (valor · cambio 1m):**
 
 - Treasury 2Y yield: 4.75 (delta 1m: 0.32) [2026-10-08]
-- Treasury 10Y yield: 5.22 (delta 1m: 0.39) [2026-10-08]
 - Curva 10Y-2Y: 0.44 (delta 1m: 0.05) [2026-10-09]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
 - High yield spread (OAS): 3.15 (delta 1m: 0.44) [2026-10-08]
@@ -347,15 +346,19 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), ai (1)
+**Temas dominantes**: stock (4), ai (3), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [ANET] Arista Networks , Inc . $ANET Stake Boosted by Doliver Advisors LP (2026-10-01)
+- [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
+- [ANET] 1 , 678 , 810 Shares in Arista Networks , Inc . $ANET Purchased by Confluence Investment Management LLC (2026-10-01)
 - [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
 - [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 - [UTHR] FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today (2026-09-30)
+- [DDOG] Can Datadog ( DDOG ) Platform Keep Growing as Companies Embrace AI ? (2026-09-30)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +373,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $524,904 · win rate 86% · categorias: sports, politics
-- Kch-Temp · PnL $141,724 · win rate 93% · categorias: sports
-- monkeymashingkeyboard · PnL $118,452 · win rate 92% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $62,379 · win rate 89% · categorias: crypto
-- TAIWANNUMBERONE · PnL $18,522 · win rate 93% · categorias: sports, politics
+- BreakTheBank · PnL $927,415 · win rate 86% · categorias: sports, politics
+- Kch-Temp · PnL $191,852 · win rate 93% · categorias: sports
+- monkeymashingkeyboard · PnL $127,884 · win rate 92% · categorias: sports
+- ethanaz · PnL $139,525 · win rate 87% · categorias: sports, crypto
+- JnStrtPrdctnMrkts · PnL $97,275 · win rate 89% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,8 +385,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 557 registros 30d · ultimo dato 2026-10-09
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-09
+- **sec_insiders**: `ok` · 582 registros 30d · ultimo dato 2026-10-12
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-13
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
