@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-14T18:55:21+00:00 -->
+<!-- trader_prompt.md generado 2026-10-14T22:33:49+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-14T18:55:21+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
+_Generado 2026-10-14T22:33:49+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,10 +243,10 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.1)
-- Tendencia: `bull` (SPY 768.06 · MA50 767.36 · MA200 721.02 · dist MA200: 6.52%)
+- Volatilidad: `normal` (VIX 16.87)
+- Tendencia: `bull` (SPY 769.6 · MA50 767.39 · MA200 721.02 · dist MA200: 6.74%)
 - Credito: `normal` (HY spread 3.16)
-- Tipos: `flat` (curva 10y-2y 0.42)
+- Tipos: `flat` (curva 10y-2y 0.37)
 - Fed Funds: 3.75%
 - Motivos: tendencia alcista (+)
 
@@ -256,39 +256,39 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 768.06 | -1.28% | -1.18% | 2.11% |
-| QQQ | 11.4% | core | 728.16 | -2.07% | -3.9% | 3.43% |
-| TLT | 11.4% | core | 78.87 | 0.64% | 2.23% | -2.09% |
-| GLD | 8.6% | core | 375.34 | -1.66% | -0.14% | -4.19% |
-| CWBC | 7.3% | satellite | 25.54 | -1.24% | -2.0% | -1.58% |
-| IEF | 5.7% | core | 89.74 | 0.22% | 0.7% | -0.76% |
-| SAR | 5.1% | satellite | 14.93 | -0.93% | 0.13% | -13.83% |
-| SBLK | 4.6% | satellite | 28.7 | -3.66% | -3.33% | -7.03% |
-| AVO | 4.2% | satellite | 12.06 | 2.16% | -3.56% | -3.25% |
-| AVNW | 3.3% | satellite | 19.4 | -4.9% | -6.91% | -3.87% |
-| KLIC | 2.5% | satellite | 83.37 | -5.84% | -12.2% | 5.07% |
-| SBET | 2.1% | satellite | 7.74 | -7.97% | -13.52% | -3.01% |
-| SUJA | 1.4% | satellite | 11.65 | 1.35% | 12.62% | 27.97% |
-| AEMD | 0.3% | satellite | 5.23 | -6.27% | -13.84% | 265.73% |
+| SPY | 12.0% | core | 769.6 | -1.08% | -0.98% | 2.32% |
+| QQQ | 11.4% | core | 728.95 | -1.97% | -3.8% | 3.55% |
+| TLT | 11.4% | core | 78.89 | 0.66% | 2.26% | -2.07% |
+| GLD | 8.6% | core | 375.99 | -1.49% | 0.03% | -4.02% |
+| NFJ | 6.7% | satellite | 14.67 | -2.72% | 1.52% | -2.98% |
+| IEF | 5.7% | core | 89.71 | 0.19% | 0.67% | -0.78% |
+| DOLE | 5.7% | satellite | 13.47 | 0.07% | 5.23% | 2.82% |
+| CRBG | 3.9% | satellite | 33.95 | -1.31% | -1.31% | -2.58% |
+| AVO | 3.6% | satellite | 12.05 | 2.03% | -3.68% | -3.37% |
+| SBLK | 3.1% | satellite | 28.77 | -3.42% | -3.1% | -6.8% |
+| AVNW | 2.6% | satellite | 19.44 | -4.71% | -6.72% | -3.67% |
+| KLIC | 1.9% | satellite | 84.51 | -4.55% | -11.0% | 6.51% |
+| QTTB | 1.7% | satellite | 8.01 | -0.62% | 0.25% | -27.05% |
+| QVCG | 1.7% | satellite | 10.43 | -6.71% | -21.7% | -34.48% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.4%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -3.9%
-- Beta vs SPY: 0.716 · posiciones efectivas: 15.3 · HHI: 0.0654
+- Volatilidad anualizada: 7.8%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
+- Max drawdown historico: -3.8%
+- Beta vs SPY: 0.694 · posiciones efectivas: 15.6 · HHI: 0.0643
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **SAR** · score agregado 124.4 · 2 señales · fuentes: corporate_insider
+- **QVCG** · score agregado 139.8 · 2 señales · fuentes: corporate_insider, large_holder
+- **CRBG** · score agregado 135.8 · 2 señales · fuentes: corporate_insider
+- **DOLE** · score agregado 128.1 · 2 señales · fuentes: corporate_insider, large_holder
 - **AVO** · score agregado 117.7 · 2 señales · fuentes: corporate_insider
 - **SBLK** · score agregado 113.0 · 2 señales · fuentes: corporate_insider
-- **AEMD** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **AVNW** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KLIC** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SUJA** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **CWBC** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **SBET** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **QTTB** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **NFJ** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -296,34 +296,34 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| ONMD | 79 | corporate_insider | Kosasa Thomas | 2 | $750,001 | cluster_buy |
-| RTSN | 78 | corporate_insider | Keller Eric L. | 2 | $249,600 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Fine Carol F. | 6 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | CHERUVATATH NANDAKUMAR | 6 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Neitzel Julie | 6 | $174,601 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Hildebrandt Mark H | 6 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | CULLIGAN THOMAS M | 6 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | SCHRIESHEIM ALAN | 6 | $175,142 | cluster_buy |
-| ONMD | 76 | corporate_insider | Yu Jeffrey | 2 | $249,998 | cluster_buy |
-| RTSN | 73 | corporate_insider | BERGER FRANKLIN M | 2 | $120,000 | cluster_buy |
+| HEI, HEI.A | 74 | corporate_insider | Fine Carol F. | 2 | $175,142 | cluster_buy |
+| HEI, HEI.A | 74 | corporate_insider | CHERUVATATH NANDAKUMAR | 2 | $175,142 | cluster_buy |
 | AEMD | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | AVNW | 72 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
 | KLIC | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
+| QTTB | 72 | large_holder | Frazier Life Sciences Pub |  | - | - |
 | SUJA | 72 | large_holder | Wasatch Advisors LP |  | - | - |
-| CWBC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
+| PLSM | 72 | large_holder | Aquamarine Financial (Cay |  | - | - |
+| RTSN | 70 | large_holder | Eric Keller |  | - | - |
+| MDA | 70 | large_holder | MARISELLE A.S. |  | - | - |
+| TROO | 70 | large_holder | Prime Ocean Holdings Limi |  | - | - |
+| BANL | 70 | large_holder | Straits Energy Resources  |  | - | - |
+| SDHY | 70 | large_holder | First Trust Portfolios L. |  | - | - |
+| MSD | 70 | large_holder | First Trust Portfolios L. |  | - | - |
+| MMD | 70 | large_holder | First Trust Portfolios L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| ANET | 60 | corporate_insider | Ullal Jayshree | $20,242,229 | - |
-| SBET | 58 | corporate_insider | Lubin Joseph Michael | $47,629,627 | - |
-| ANET | 56 | corporate_insider | Ullal Jayshree | $4,338,796 | - |
-| ANET | 56 | corporate_insider | Ullal Jayshree | $4,050,139 | - |
-| ANET | 56 | corporate_insider | Ullal Jayshree | $4,050,139 | - |
-| AII | 55 | corporate_insider | Ritchie Robert C | $1,890,996 | - |
-| HNGE | 54 | corporate_insider | Mecklenburg Gabriel M.I. | $9,381,911 | - |
-| AII | 54 | corporate_insider | Ritchie Robert C | $1,389,687 | - |
+| QVCG | 57 | corporate_insider | Silver Point Capital, L.P | $16,697,200 | - |
+| AI | 57 | corporate_insider | SIEBEL THOMAS M | $5,145,076 | - |
+| P | 57 | corporate_insider | Giancarlo Charles H | $4,579,965 | - |
+| W | 56 | corporate_insider | Shah Niraj | $4,138,017 | - |
+| SPOT | 56 | corporate_insider | Soderstrom Gustav | $3,323,845 | - |
+| AFRM | 56 | corporate_insider | O'Hare Robert | $5,248,592 | - |
+| P | 55 | corporate_insider | Giancarlo Charles H | $2,651,997 | - |
+| P | 55 | corporate_insider | Giancarlo Charles H | $2,541,836 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -332,49 +332,61 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 768.06 (-1.28% / -1.18% / 2.11%) [2026-10-14]
-- QQQ: 728.16 (-2.07% / -3.9% / 3.43%) [2026-10-14]
-- IWM: 270.67 (-2.18% / -2.53% / -4.67%) [2026-10-14]
-- DIA: 513.96 (-0.44% / 0.58% / -0.01%) [2026-10-14]
-- TLT: 78.87 (0.64% / 2.23% / -2.09%) [2026-10-14]
-- IEF: 89.74 (0.22% / 0.7% / -0.76%) [2026-10-14]
-- GLD: 375.34 (-1.66% / -0.14% / -4.19%) [2026-10-14]
-- ^VIX: 17.1 (11.98% / 13.4% / -3.44%) [2026-10-14]
-- BTC-USD: 81674.83 (-1.71% / -1.06% / -3.2%) [2026-10-14]
+- SPY: 769.6 (-1.08% / -0.98% / 2.32%) [2026-10-14]
+- QQQ: 728.95 (-1.97% / -3.8% / 3.55%) [2026-10-14]
+- IWM: 271.37 (-1.93% / -2.28% / -4.42%) [2026-10-14]
+- DIA: 515.63 (-0.11% / 0.9% / 0.31%) [2026-10-14]
+- TLT: 78.89 (0.66% / 2.26% / -2.07%) [2026-10-14]
+- IEF: 89.71 (0.19% / 0.67% / -0.78%) [2026-10-14]
+- GLD: 375.99 (-1.49% / 0.03% / -4.02%) [2026-10-14]
+- ^VIX: 16.87 (10.48% / 11.87% / -4.74%) [2026-10-14]
+- BTC-USD: 81536.46 (-1.88% / -1.22% / -3.37%) [2026-10-14]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.8 (delta 1m: 0.24) [2026-10-09]
-- Treasury 10Y yield: 5.24 (delta 1m: 0.29) [2026-10-09]
-- Curva 10Y-2Y: 0.42 (delta 1m: 0.09) [2026-10-13]
+- Treasury 2Y yield: 4.79 (delta 1m: 0.16) [2026-10-13]
+- Treasury 10Y yield: 5.21 (delta 1m: 0.25) [2026-10-13]
+- Curva 10Y-2Y: 0.37 (delta 1m: 0.05) [2026-10-14]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
 - High yield spread (OAS): 3.16 (delta 1m: 0.45) [2026-10-13]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
-- Breakeven inflacion 10Y: 2.33 (delta 1m: -0.03) [2026-10-13]
+- Breakeven inflacion 10Y: 2.35 (delta 1m: -0.02) [2026-10-14]
 - Dolar broad index: 121.6023 (delta 1m: 3.524) [2026-10-09]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-_(sin noticias este ciclo — GDELT no disponible)_
+**Temas dominantes**: ai (2), merger (1), stock (1)
+
+**Titulares recientes (GDELT, tickers con mas señales):**
+
+- [P] New Everpure ANZ partner lead discusses her new role and why it feels like  home (2026-10-02)
+- [HSY] Hershey Bears to wear franchise first - ever glow - in - the - dark jerseys for  Dark Nights Takeover  game (2026-10-02)
+- [UTHR] Stocks making the biggest moves midday : ACN SNPS UTHR VICR (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [UTHR] United Therapeutics Won Its Patent War and Liquidia Collapsed (2026-10-01)
+- [P] Everpure : Making Sustainability Count : Turning Environmental Impact into Business Insight (2026-10-01)
+- [P] Everpure insider sale totals $5 . 33 million (2026-10-01)
+- [P] How Everpure enables its partners as it narrows its focuses on enterprise customers (2026-10-01)
+- [UTHR] United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia (2026-10-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- CEO Ullal Jayshree vendio ANET por $20.2M el 2026-10-09.
+- 10% owner Saba Capital Management, L.P. opero NFJ por $131.2M el 2026-10-12 [senal en multiples fuentes].
+- 10% owner GOLDENTREE ASSET MANAGEMENT LP compro QVCG por $16.7M el 2026-10-09 [senal en multiples fuentes].
+- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $11.5M el 2026-10-09.
 - Director Troim Tor Olav compro BORR por $7.4M el 2026-10-13 [senal en multiples fuentes].
-- Director Troim Tor Olav compro BORR por $11.8M el 2026-10-09 [senal en multiples fuentes].
+- CEO SIEBEL THOMAS M vendio AI por $5.1M el 2026-10-13.
+- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $4.9M el 2026-10-12.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
-- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
-- Institutional manager Citadel Advisors LLC compro MICRON TECHNOLOGY INC por $14.9B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $925,904 · win rate 86% · categorias: sports, politics
-- theowalcott · PnL $109,128 · win rate 100% · categorias: sports
-- 1l2ihj34li12u34 · PnL $125,189 · win rate 99% · categorias: sports
+- RJW1 · PnL $153,745 · win rate 98% · categorias: sports
+- theowalcott · PnL $109,134 · win rate 100% · categorias: sports
+- 1l2ihj34li12u34 · PnL $121,013 · win rate 99% · categorias: sports
 - Vps1 · PnL $70,438 · win rate 99% · categorias: sports
-- chubbytoro · PnL $146,701 · win rate 100% · categorias: sports
+- chubbytoro · PnL $146,383 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,7 +394,7 @@ _(sin noticias este ciclo — GDELT no disponible)_
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 547 registros 30d · ultimo dato 2026-10-13
+- **sec_insiders**: `ok` · 698 registros 30d · ultimo dato 2026-10-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -396,7 +408,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`AEMD, AVNW, AVO, CWBC, GLD, IEF, KLIC, QQQ, SAR, SBET, SBLK, SPY, SUJA, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`AVNW, AVO, CRBG, DOLE, GLD, IEF, KLIC, NFJ, QQQ, QTTB, QVCG, SBLK, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-14T18:55:20+00:00",
+  "generated_at": "2026-10-14T22:33:48+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "CWBC": 0.0726,
+    "NFJ": 0.0672,
     "IEF": 0.0572,
-    "SAR": 0.0509,
-    "SBLK": 0.0458,
-    "AVO": 0.0424,
-    "AVNW": 0.0333,
-    "KLIC": 0.0249,
-    "SBET": 0.0215,
-    "SUJA": 0.014,
-    "AEMD": 0.0028
+    "DOLE": 0.0566,
+    "CRBG": 0.0385,
+    "AVO": 0.0363,
+    "SBLK": 0.0306,
+    "AVNW": 0.0256,
+    "KLIC": 0.0195,
+    "QTTB": 0.0169,
+    "QVCG": 0.0168
   },
   "core": {
     "SPY": 0.182,
@@ -28,22 +28,40 @@
     "GLD": 0.078
   },
   "satellite": {
-    "SAR": 0.0463,
-    "AVO": 0.0385,
-    "SBLK": 0.0416,
-    "AEMD": 0.0025,
-    "AVNW": 0.0303,
-    "KLIC": 0.0226,
-    "SUJA": 0.0127,
-    "CWBC": 0.066,
-    "SBET": 0.0195
+    "QVCG": 0.0153,
+    "CRBG": 0.035,
+    "DOLE": 0.0514,
+    "AVO": 0.033,
+    "SBLK": 0.0278,
+    "AVNW": 0.0233,
+    "KLIC": 0.0177,
+    "QTTB": 0.0154,
+    "NFJ": 0.0611
   },
   "satellite_rationale": [
     {
-      "ticker": "SAR",
-      "score": 124.4,
+      "ticker": "QVCG",
+      "score": 139.8,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "CRBG",
+      "score": 135.8,
       "sources": [
         "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "DOLE",
+      "score": 128.1,
+      "sources": [
+        "corporate_insider",
+        "large_holder"
       ],
       "n_signals": 2
     },
@@ -64,14 +82,6 @@
       "n_signals": 2
     },
     {
-      "ticker": "AEMD",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "AVNW",
       "score": 71.8,
       "sources": [
@@ -88,7 +98,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "SUJA",
+      "ticker": "QTTB",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -96,15 +106,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "CWBC",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "SBET",
+      "ticker": "NFJ",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -113,17 +115,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.1043,
-    "var_95_1d": 0.0107,
-    "cvar_95_1d": 0.0136,
-    "max_drawdown": -0.0385,
-    "beta_spy": 0.716,
-    "hhi": 0.0654,
+    "ann_vol": 0.0776,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.01,
+    "max_drawdown": -0.0384,
+    "beta_spy": 0.694,
+    "hhi": 0.0643,
     "max_position": 0.12,
     "n_positions": 14,
-    "effective_positions": 15.3,
-    "gross_exposure": 0.8,
-    "days_used": 110
+    "effective_positions": 15.6,
+    "gross_exposure": 0.7998,
+    "days_used": 46
   },
   "risk_gate": {
     "passed": true,
