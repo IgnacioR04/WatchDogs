@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-13T23:33:08.525466+00:00",
+  "generated_at": "2026-10-14T02:12:38.271706+00:00",
   "window": {
-    "from": "2026-09-13",
-    "to": "2026-10-13",
+    "from": "2026-09-14",
+    "to": "2026-10-14",
     "days": 30
   },
   "data_quality": {
@@ -23,8 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "ai"
+      "ai",
+      "regulatory",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -68,24 +69,6 @@
     {
       "id": "move_3",
       "rank": 3,
-      "title": "Director vendio ESTC ($188.3M)",
-      "summary": "Director Schuurman Steven vendio ESTC por $188.3M el 2026-10-12.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Schuurman Steven",
-      "actor_type": "director",
-      "ticker": "ESTC",
-      "direction": "sell",
-      "amount_estimated": 188300000.0,
-      "event_date": "2026-10-12",
-      "importance_score": 83.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1753439/000112329226001388/"
-    },
-    {
-      "id": "move_4",
-      "rank": 4,
       "title": "10% owner compro CRBG ($9.0M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $9.0M el 2026-10-08.",
       "source": "sec_form_4",
@@ -102,8 +85,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526420489/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_4",
+      "rank": 4,
       "title": "CFO vendio NTNX ($13.4M)",
       "summary": "CFO Sivaraman Rukmini vendio NTNX por $13.4M el 2026-10-12.",
       "source": "sec_form_4",
@@ -120,8 +103,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1924910/000119312526420455/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_5",
+      "rank": 5,
       "title": "Director compro BORR ($11.8M)",
       "summary": "Director Troim Tor Olav compro BORR por $11.8M el 2026-10-09 [senal en multiples fuentes].",
       "source": "sec_form_4",
@@ -138,8 +121,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1709630/000162828026065603/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -156,8 +139,8 @@
       "source_url": ""
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -174,8 +157,8 @@
       "source_url": ""
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -192,8 +175,8 @@
       "source_url": ""
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -210,8 +193,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -228,8 +211,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -246,8 +229,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -264,8 +247,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -282,8 +265,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -300,8 +283,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -318,8 +301,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -336,8 +319,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro ALPHABET INC ($20.3B)",
       "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
       "source": "sec_13f",
@@ -354,8 +337,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
       "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
       "source": "sec_13f",
@@ -372,8 +355,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro INTEL CORP ($16.2B)",
       "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
       "source": "sec_13f",
@@ -383,6 +366,24 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 16233929222,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
+      "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "JPMorgan Chase & Co",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16112059718,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -425,14 +426,6 @@
         ]
       },
       {
-        "ticker": "EP",
-        "company": "EMPIRE PETROLEUM CORP",
-        "pressure_score": 272.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "PUSA",
         "company": "Powerus Corp",
         "pressure_score": 271.5,
@@ -457,17 +450,25 @@
         ]
       },
       {
-        "ticker": "RTSN",
-        "company": "Retension Pharmaceuticals, Inc.",
-        "pressure_score": 152.0,
+        "ticker": "ONMD",
+        "company": "OneMedNet Corp",
+        "pressure_score": 153.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "GOLD",
-        "company": "Gold.com, Inc.",
-        "pressure_score": 151.7,
+        "ticker": "ZONE",
+        "company": "Zone Frontier Inc.",
+        "pressure_score": 152.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "RTSN",
+        "company": "Retension Pharmaceuticals, Inc.",
+        "pressure_score": 152.0,
         "sources": [
           "corporate_insider"
         ]
@@ -517,9 +518,9 @@
     ],
     "sell_pressure": [
       {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1785.2,
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 2569.3,
         "sources": [
           "corporate_insider"
         ]
@@ -613,14 +614,6 @@
         ]
       },
       {
-        "ticker": "AFL",
-        "company": "AFLAC INC",
-        "pressure_score": 283.7,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "XRPN",
         "company": "Armada Acquisition Corp. II",
         "pressure_score": 277.2,
@@ -629,9 +622,17 @@
         ]
       },
       {
-        "ticker": "BB",
-        "company": "BLACKBERRY Ltd",
-        "pressure_score": 272.5,
+        "ticker": "NTRP",
+        "company": "NextTrip, Inc.",
+        "pressure_score": 254.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "AII",
+        "company": "American Integrity Insurance Group, Inc.",
+        "pressure_score": 230.3,
         "sources": [
           "corporate_insider"
         ]
@@ -667,15 +668,6 @@
       "score": 81.0
     },
     {
-      "ticker": "GOLD",
-      "company": "Gold.com, Inc.",
-      "actor": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
-      "actor_type": "ten_percent_owner",
-      "amount": 1239375.97,
-      "date": "2026-10-12",
-      "score": 80.3
-    },
-    {
       "ticker": "RTSN",
       "company": "Retension Pharmaceuticals, Inc.",
       "actor": "Keller Eric L.",
@@ -692,6 +684,24 @@
       "amount": 1256962.0,
       "date": "2026-10-08",
       "score": 78.8
+    },
+    {
+      "ticker": "ONMD",
+      "company": "OneMedNet Corp",
+      "actor": "Kosasa Thomas",
+      "actor_type": "ten_percent_owner",
+      "amount": 750001.24,
+      "date": "2026-10-07",
+      "score": 77.7
+    },
+    {
+      "ticker": "ZONE",
+      "company": "Zone Frontier Inc.",
+      "actor": "Hassen Tyler Lewis",
+      "actor_type": "ceo",
+      "amount": 116400.0,
+      "date": "2026-10-13",
+      "score": 77.7
     },
     {
       "ticker": "SAR",
@@ -721,6 +731,24 @@
       "score": 76.0
     },
     {
+      "ticker": "ONMD",
+      "company": "OneMedNet Corp",
+      "actor": "Yu Jeffrey",
+      "actor_type": "ten_percent_owner",
+      "amount": 249998.04,
+      "date": "2026-10-09",
+      "score": 75.3
+    },
+    {
+      "ticker": "ZONE",
+      "company": "Zone Frontier Inc.",
+      "actor": "Hassen Tyler Lewis",
+      "actor_type": "ceo",
+      "amount": 29675.0,
+      "date": "2026-10-13",
+      "score": 74.7
+    },
+    {
       "ticker": "AVO",
       "company": "Mission Produce, Inc.",
       "actor": "Gonzalez Luis A",
@@ -746,33 +774,6 @@
       "amount": 40981.12,
       "date": "2026-10-06",
       "score": 73.9
-    },
-    {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 40439.28,
-      "date": "2026-10-08",
-      "score": 73.9
-    },
-    {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 40622.88,
-      "date": "2026-10-07",
-      "score": 73.9
-    },
-    {
-      "ticker": "AVO",
-      "company": "Mission Produce, Inc.",
-      "actor": "Gonzalez Luis A",
-      "actor_type": "director",
-      "amount": 347653.64,
-      "date": "2026-10-09",
-      "score": 73.6
     }
   ],
   "institutional_changes": [
@@ -1041,6 +1042,15 @@
       "date": "2026-10-13"
     },
     {
+      "filer": "Sun Valley Investments AG",
+      "company": "Canagold Resources Ltd.",
+      "ticker": "CRCUF",
+      "ownership_pct": 42.1,
+      "shares": 96019010,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-13"
+    },
+    {
       "filer": "Thomas J. Herzfeld, et al.",
       "company": "Herzfeld Credit Income Fund, Inc.",
       "ticker": "HERZ",
@@ -1084,288 +1094,237 @@
       "shares": 5063571,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-13"
-    },
-    {
-      "filer": "SGK 2018 REVOCABLE TRUST",
-      "company": "PEDEVCO CORP",
-      "ticker": "PED",
-      "ownership_pct": 31.1,
-      "shares": 4137543,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-13"
     }
   ],
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 1413351.4,
-        "win_rate": 0.8628,
-        "volume": 3404151.01,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x924379a79c",
-        "username": "Kch-Temp",
-        "pnl": 234818.33,
-        "win_rate": 0.9276,
-        "volume": 218534.39,
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 75273.65,
+        "win_rate": 1.0,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 126586.93,
-        "win_rate": 0.9234,
-        "volume": 83930.33,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x4b4071d145",
-        "username": "SebastianAde1996",
-        "pnl": 53724.59,
-        "win_rate": 0.977,
-        "volume": 179732.53,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 62192.76,
-        "win_rate": 0.933,
-        "volume": 263033.02,
+        "wallet": "0xe8d7839716",
+        "username": "coinlaundry",
+        "pnl": 21230.75,
+        "win_rate": 0.8466,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "politics"
+          "politics",
+          "economy"
         ]
       },
       {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 139525.35,
-        "win_rate": 0.874,
-        "volume": 348813.37,
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 12518.15,
+        "win_rate": 0.871,
+        "volume": 11466.98,
         "categories": [
-          "sports",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0x1465b79bff",
         "username": "JnStrtPrdctnMrkts",
-        "pnl": 94739.23,
+        "pnl": 7882.0,
         "win_rate": 0.8947,
-        "volume": 2064.66,
+        "volume": 0.0,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x0235dc24b3",
-        "username": "darkumbreon88",
-        "pnl": 30582.27,
-        "win_rate": 0.963,
-        "volume": 178308.15,
+        "wallet": "0x885ffdf360",
+        "username": "forecastication4",
+        "pnl": 3814.57,
+        "win_rate": 0.931,
+        "volume": 1902.0,
         "categories": [
           "sports",
-          "crypto"
+          "crypto",
+          "economy"
         ]
       },
       {
-        "wallet": "0xe885f33c65",
-        "username": "Bloodygoodrep1",
-        "pnl": 56399.98,
-        "win_rate": 0.9714,
-        "volume": 119999.96,
+        "wallet": "0x9e53cfe3e8",
+        "username": "0x9E53cFE3E881636f9415aF925c3a9620F3ad53AE-1786656823375",
+        "pnl": 5446.0,
+        "win_rate": 0.9048,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "omnibus-076daa",
-        "pnl": 205448.66,
-        "win_rate": 0.738,
-        "volume": 1928852.71,
+        "wallet": "0xdd9d902e3c",
+        "username": "0xDd9D902e3Cdaf7eE29Eff1Dd2902DcB40741b730-1772597907584",
+        "pnl": 3234.72,
+        "win_rate": 0.9252,
+        "volume": 9999.93,
         "categories": [
           "sports",
-          "economy"
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xe6bff49939",
+        "username": "CHACHA125655",
+        "pnl": 2849.52,
+        "win_rate": 0.9065,
+        "volume": 9905.73,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x6c26cb64a3",
+        "username": "useruserlol",
+        "pnl": 3098.18,
+        "win_rate": 0.89,
+        "volume": 4000.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe7d35952ac",
+        "username": "0xe7d35952ac1792cec67765261a85a4ccb466b483",
+        "pnl": 5182.49,
+        "win_rate": 0.8532,
+        "volume": 2178.19,
+        "categories": [
+          "sports"
         ]
       }
     ],
     "whales": [
       {
-        "wallet": "0xcdcccd0f2d",
-        "username": "joseph00677",
-        "pnl": 1332043.34,
-        "win_rate": 0.8,
-        "volume": 5832727.74,
+        "wallet": "0x1f3a646ce5",
+        "username": "mooseborzoii",
+        "pnl": 21489.94,
+        "win_rate": 0.7271,
+        "volume": 302307.86,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 1413351.4,
-        "win_rate": 0.8628,
-        "volume": 3404151.01,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x6ac5bb06a9",
-        "username": "corkmaster420blaezit",
-        "pnl": 521800.89,
-        "win_rate": 0.487,
-        "volume": 1396259.17,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 126887.66,
-        "win_rate": 0.651,
-        "volume": 5679908.98,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x67ac9e1ad7",
-        "username": "3648393489047",
-        "pnl": 54709.56,
-        "win_rate": 0.628,
-        "volume": 1327061.6,
-        "categories": [
-          "sports",
-          "politics",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x0346afae26",
-        "username": "GoalLineGhost",
-        "pnl": 141849.33,
-        "win_rate": 0.565,
-        "volume": 3003461.11,
+        "wallet": "0x492442eab5",
+        "username": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+        "pnl": 8623.54,
+        "win_rate": 0.516,
+        "volume": 133073.93,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9ee49c02ae",
-        "username": "cosmicxbt",
-        "pnl": 36374.69,
-        "win_rate": 0.6923,
-        "volume": 463868.73,
+        "wallet": "0x9a5e78f769",
+        "username": "Velin217",
+        "pnl": 15232.15,
+        "win_rate": 0.6786,
+        "volume": 222595.3,
         "categories": [
           "sports",
+          "crypto",
           "economy"
         ]
       },
       {
-        "wallet": "0x076daa87c4",
-        "username": "omnibus-076daa",
-        "pnl": 205448.66,
-        "win_rate": 0.738,
-        "volume": 1928852.71,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 5105.95,
+        "win_rate": 0.59,
+        "volume": 90414.73,
         "categories": [
-          "sports",
-          "economy"
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfe787d2da7",
+        "username": "ferrariChampions2026",
+        "pnl": 23077.41,
+        "win_rate": 0.557,
+        "volume": 128139.84,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xcd84d7f926",
+        "username": "Donkey14",
+        "pnl": 3725.53,
+        "win_rate": 0.75,
+        "volume": 60175.68,
+        "categories": [
+          "sports"
         ]
       },
       {
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
-        "pnl": 68443.8,
-        "win_rate": 0.552,
-        "volume": 1502935.98,
+        "pnl": 6439.94,
+        "win_rate": 0.553,
+        "volume": 126154.78,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5fdd66ffd0",
-        "username": "juice-fruit",
-        "pnl": 55245.06,
-        "win_rate": 0.931,
-        "volume": 242622.77,
+        "wallet": "0x4f29e10333",
+        "username": "0x4f2",
+        "pnl": 6596.43,
+        "win_rate": 0.656,
+        "volume": 99330.47,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0xe558bb7b02",
+        "username": "User1244322",
+        "pnl": 3239.62,
+        "win_rate": 0.7618,
+        "volume": 41713.61,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x076daa87c4",
+        "username": "omnibus-076daa",
+        "pnl": 2501.78,
+        "win_rate": 0.726,
+        "volume": 73978.04,
+        "categories": [
+          "sports",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
-      "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
-      "ticker": "UTHR",
+      "title": "CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector",
+      "url": "https://seekingalpha.com/news/4649465-crowdstrike-okta-rubrik-all-reach-one-year-highs-as-ai-continues-to-rally-cyber-sector",
+      "ticker": "CRWD",
       "themes": [
+        "ai",
+        "regulatory",
         "stock"
       ],
       "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://www.aol.com/articles/united-therapeutics-won-patent-war-150712000.html",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://247wallst.com/investing/2026/10/01/united-therapeutics-won-its-patent-war-and-liquidia-collapsed/",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
-      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
-      "ticker": "UTHR",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "SoCal UNFI Teamsters receive $13 / hour pay raise",
-      "url": "https://www.supermarketnews.com/retail-labor/socal-unfi-teamsters-receive-13-hour-pay-raise",
-      "ticker": "UNFI",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-09-30"
-    },
-    {
-      "title": "FinancialContent - Why Is United Therapeutics ( UTHR ) Stock Rocketing Higher Today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-30-why-is-united-therapeutics-uthr-stock-rocketing-higher-today",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-09-30"
     }
   ],
-  "signals_count": 1328,
+  "signals_count": 1330,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
