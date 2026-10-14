@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-14T07:53:42+00:00 -->
+<!-- trader_prompt.md generado 2026-10-14T13:59:22+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-14T07:53:42+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
+_Generado 2026-10-14T13:59:22+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.22)
-- Tendencia: `bull` (SPY 778.01 · MA50 767.39 · MA200 720.6 · dist MA200: 7.97%)
+- Volatilidad: `normal` (VIX 15.52)
+- Tendencia: `bull` (SPY 773.51 · MA50 767.47 · MA200 721.04 · dist MA200: 7.28%)
 - Credito: `normal` (HY spread 3.11)
 - Tipos: `flat` (curva 10y-2y 0.42)
 - Fed Funds: 3.75%
@@ -256,18 +256,18 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 778.01 | -0.01% | -0.14% | 2.98% |
-| QQQ | 11.4% | core | 743.57 | -0.33% | -2.12% | 5.65% |
-| TLT | 11.4% | core | 78.37 | 0.41% | 1.41% | -2.51% |
-| CWBC | 8.6% | satellite | 25.86 | -0.54% | -1.86% | -1.22% |
-| GLD | 8.6% | core | 381.67 | -0.13% | -0.16% | -3.17% |
-| SAR | 6.0% | satellite | 15.07 | 0.94% | -4.68% | -12.07% |
-| IEF | 5.7% | core | 89.54 | 0.12% | 0.46% | -1.07% |
-| AVO | 5.0% | satellite | 11.81 | 2.16% | -7.37% | -4.68% |
-| AVNW | 4.0% | satellite | 20.4 | 0.59% | -3.32% | 2.77% |
-| KLIC | 3.0% | satellite | 88.54 | 0.17% | -9.58% | 12.67% |
-| SBET | 2.6% | satellite | 8.41 | -0.94% | -11.47% | 0.96% |
-| SUJA | 1.7% | satellite | 11.49 | 7.08% | 12.1% | 25.99% |
+| SPY | 12.0% | core | 773.51 | -0.58% | -0.48% | 2.84% |
+| QQQ | 11.4% | core | 736.4 | -0.96% | -2.81% | 4.6% |
+| TLT | 11.4% | core | 77.93 | -0.56% | 1.01% | -3.26% |
+| CWBC | 8.6% | satellite | 25.48 | -1.47% | -2.23% | -1.81% |
+| GLD | 8.6% | core | 374.92 | -1.77% | -0.26% | -4.29% |
+| SAR | 6.0% | satellite | 15.02 | -0.33% | 0.74% | -13.31% |
+| IEF | 5.7% | core | 89.06 | -0.54% | -0.06% | -1.51% |
+| AVO | 5.0% | satellite | 12.06 | 2.16% | -3.56% | -3.25% |
+| AVNW | 4.0% | satellite | 19.79 | -2.99% | -5.04% | -1.93% |
+| KLIC | 3.0% | satellite | 84.97 | -4.03% | -10.51% | 7.09% |
+| SBET | 2.6% | satellite | 7.98 | -5.11% | -10.84% | 0.0% |
+| SUJA | 1.7% | satellite | 11.18 | -2.74% | 8.08% | 22.8% |
 
 **Metricas de riesgo de esta cartera:**
 
@@ -294,25 +294,24 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | ONMD | 79 | corporate_insider | Kosasa Thomas | 2 | $750,001 | cluster_buy |
 | RTSN | 78 | corporate_insider | Keller Eric L. | 2 | $249,600 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Fine Carol F. | 7 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | CHERUVATATH NANDAKUMAR | 7 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Neitzel Julie | 7 | $174,601 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | Hildebrandt Mark H | 7 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | CULLIGAN THOMAS M | 7 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | SCHRIESHEIM ALAN | 7 | $175,142 | cluster_buy |
-| HEI, HEI.A | 78 | corporate_insider | HENRIQUES ADOLFO | 7 | $175,142 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | Fine Carol F. | 6 | $175,142 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | CHERUVATATH NANDAKUMAR | 6 | $175,142 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | Neitzel Julie | 6 | $174,601 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | Hildebrandt Mark H | 6 | $175,142 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | CULLIGAN THOMAS M | 6 | $175,142 | cluster_buy |
+| HEI, HEI.A | 78 | corporate_insider | SCHRIESHEIM ALAN | 6 | $175,142 | cluster_buy |
 | ONMD | 76 | corporate_insider | Yu Jeffrey | 2 | $249,998 | cluster_buy |
 | RTSN | 73 | corporate_insider | BERGER FRANKLIN M | 2 | $120,000 | cluster_buy |
 | AEMD | 72 | large_holder | JANE STREET GROUP, LLC |  | - | - |
 | AVNW | 72 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
 | KLIC | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
 | SUJA | 72 | large_holder | Wasatch Advisors LP |  | - | - |
+| CWBC | 72 | large_holder | Dimensional Fund Advisors |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
-| MDLN | 61 | corporate_insider | GIC Private Ltd | $274,767,093 | - |
 | ANET | 60 | corporate_insider | Ullal Jayshree | $20,242,229 | - |
 | NTNX | 58 | corporate_insider | Sivaraman Rukmini | $13,387,696 | - |
 | SBET | 58 | corporate_insider | Lubin Joseph Michael | $47,629,627 | - |
@@ -320,6 +319,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | ANET | 56 | corporate_insider | Ullal Jayshree | $4,050,139 | - |
 | ANET | 56 | corporate_insider | Ullal Jayshree | $4,050,139 | - |
 | NTNX | 55 | corporate_insider | Sivaraman Rukmini | $3,961,645 | - |
+| AII | 55 | corporate_insider | Ritchie Robert C | $1,890,996 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -328,15 +328,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 778.01 (-0.01% / -0.14% / 2.98%) [2026-10-13]
-- QQQ: 743.57 (-0.33% / -2.12% / 5.65%) [2026-10-13]
-- IWM: 276.7 (-0.43% / -1.65% / -2.96%) [2026-10-13]
-- DIA: 516.21 (-0.33% / 0.32% / -0.73%) [2026-10-13]
-- TLT: 78.37 (0.41% / 1.41% / -2.51%) [2026-10-13]
-- IEF: 89.54 (0.12% / 0.46% / -1.07%) [2026-10-13]
-- GLD: 381.67 (-0.13% / -0.16% / -3.17%) [2026-10-13]
-- ^VIX: 15.22 (-0.33% / 0.93% / -14.06%) [2026-10-14]
-- BTC-USD: 83419.12 (0.39% / 1.06% / -1.14%) [2026-10-14]
+- SPY: 773.51 (-0.58% / -0.48% / 2.84%) [2026-10-14]
+- QQQ: 736.4 (-0.96% / -2.81% / 4.6%) [2026-10-14]
+- IWM: 273.35 (-1.21% / -1.57% / -3.72%) [2026-10-14]
+- DIA: 516.53 (0.06% / 1.08% / 0.49%) [2026-10-14]
+- TLT: 77.93 (-0.56% / 1.01% / -3.26%) [2026-10-14]
+- IEF: 89.06 (-0.54% / -0.06% / -1.51%) [2026-10-14]
+- GLD: 374.92 (-1.77% / -0.26% / -4.29%) [2026-10-14]
+- ^VIX: 15.52 (1.64% / 2.92% / -12.37%) [2026-10-14]
+- BTC-USD: 82409.66 (-0.82% / -0.17% / -2.33%) [2026-10-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -359,7 +359,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Actores que han movido ficha este mes (top movimientos):**
 
-- 10% owner GIC Private Ltd vendio MDLN por $274.8M el 2026-10-08.
 - CEO Ullal Jayshree vendio ANET por $20.2M el 2026-10-09.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $9.0M el 2026-10-08.
 - CFO Sivaraman Rukmini vendio NTNX por $13.4M el 2026-10-12.
@@ -367,14 +366,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 - Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
+- Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $109,106 · win rate 100% · categorias: sports
+- 1l2ihj34li12u34 · PnL $99,488 · win rate 99% · categorias: sports
+- WTSA · PnL $83,109 · win rate 99% · categorias: sports
+- Vps1 · PnL $70,352 · win rate 99% · categorias: sports
 - chubbytoro · PnL $147,499 · win rate 100% · categorias: sports
-- taylorsversion · PnL $111,670 · win rate 89% · categorias: sports, crypto
-- 1DVSBSTD · PnL $22,776 · win rate 99% · categorias: n/d
-- KaneAnalytics · PnL $46,160 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,8 +382,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 580 registros 30d · ultimo dato 2026-10-13
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-13
+- **sec_insiders**: `ok` · 549 registros 30d · ultimo dato 2026-10-13
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
