@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-14T02:13:45+00:00 -->
+<!-- trader_prompt.md generado 2026-10-14T07:53:42+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-14T02:13:45+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
+_Generado 2026-10-14T07:53:42+00:00 · ventana señales 2026-09-14 -> 2026-10-14_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 15.27)
+- Volatilidad: `normal` (VIX 15.22)
 - Tendencia: `bull` (SPY 778.01 · MA50 767.39 · MA200 720.6 · dist MA200: 7.97%)
 - Credito: `normal` (HY spread 3.11)
 - Tipos: `flat` (curva 10y-2y 0.42)
@@ -335,8 +335,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 78.37 (0.41% / 1.41% / -2.51%) [2026-10-13]
 - IEF: 89.54 (0.12% / 0.46% / -1.07%) [2026-10-13]
 - GLD: 381.67 (-0.13% / -0.16% / -3.17%) [2026-10-13]
-- ^VIX: 15.27 (0.39% / 1.73% / -11.22%) [2026-10-13]
-- BTC-USD: 83254.2 (1.82% / 1.93% / -1.34%) [2026-10-14]
+- ^VIX: 15.22 (-0.33% / 0.93% / -14.06%) [2026-10-14]
+- BTC-USD: 83419.12 (0.39% / 1.06% / -1.14%) [2026-10-14]
 
 **Macro (valor · cambio 1m):**
 
@@ -370,11 +370,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $75,274 · win rate 100% · categorias: sports
-- coinlaundry · PnL $21,231 · win rate 85% · categorias: sports, politics, economy
-- hi774c · PnL $12,518 · win rate 87% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $7,882 · win rate 89% · categorias: crypto
-- forecastication4 · PnL $3,815 · win rate 93% · categorias: sports, crypto, economy
+- theowalcott · PnL $109,106 · win rate 100% · categorias: sports
+- chubbytoro · PnL $147,499 · win rate 100% · categorias: sports
+- taylorsversion · PnL $111,670 · win rate 89% · categorias: sports, crypto
+- 1DVSBSTD · PnL $22,776 · win rate 99% · categorias: n/d
+- KaneAnalytics · PnL $46,160 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
