@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-15T00:52:04+00:00 -->
+<!-- trader_prompt.md generado 2026-10-15T06:11:55+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-15T00:52:04+00:00 · ventana señales 2026-09-15 -> 2026-10-15_
+_Generado 2026-10-15T06:11:55+00:00 · ventana señales 2026-09-15 -> 2026-10-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -259,36 +259,38 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | SPY | 12.0% | core | 769.6 | -1.08% | -0.98% | 2.32% |
 | QQQ | 11.4% | core | 728.95 | -1.97% | -3.8% | 3.55% |
 | TLT | 11.4% | core | 78.89 | 0.66% | 2.26% | -2.07% |
-| NFJ | 8.7% | satellite | 14.67 | -2.72% | 1.52% | -2.98% |
 | GLD | 8.6% | core | 375.99 | -1.49% | 0.03% | -4.02% |
+| NFJ | 8.0% | satellite | 14.67 | -2.72% | 1.52% | -2.98% |
 | IEF | 5.7% | core | 89.71 | 0.19% | 0.67% | -0.78% |
-| BPRE | 5.0% | satellite | 12.55 | -1.8% | -1.95% | 3.55% |
-| CRBG | 4.6% | satellite | 34.4 | -0.52% | -2.19% | -1.06% |
-| SBLK | 3.7% | satellite | 28.77 | -3.42% | -3.1% | -6.8% |
-| KLIC | 2.4% | satellite | 84.51 | -4.55% | -11.0% | 6.51% |
-| QVCG | 2.0% | satellite | 11.18 | -7.6% | -16.0% | -29.77% |
-| QTTB | 2.0% | satellite | 8.06 | -7.78% | -0.62% | -27.84% |
-| INBX | 1.8% | satellite | 87.08 | -3.81% | -6.78% | -17.55% |
-| BMBL | 0.7% | satellite | 5.95 | 56.58% | 137.05% | 97.02% |
+| BPRE | 4.9% | satellite | 12.55 | -1.8% | -1.95% | 3.55% |
+| CRBG | 4.6% | satellite | 33.95 | -1.31% | -1.31% | -2.58% |
+| SBLK | 3.6% | satellite | 28.77 | -3.42% | -3.1% | -6.8% |
+| KLIC | 2.3% | satellite | 84.51 | -4.55% | -11.0% | 6.51% |
+| QTTB | 2.0% | satellite | 8.01 | -0.62% | 0.25% | -27.05% |
+| QVCG | 2.0% | satellite | 10.43 | -6.71% | -21.7% | -34.48% |
+| INBX | 1.8% | satellite | 85.26 | -2.09% | -8.68% | -16.22% |
+| CUE | 0.9% | satellite | 18.6 | -4.96% | -17.37% | -45.57% |
+| BMBL | 0.7% | satellite | 5.97 | 0.34% | 138.8% | 99.0% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 8.0%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.2%
-- Beta vs SPY: 0.704 · posiciones efectivas: 15.1 · HHI: 0.0664
+- Volatilidad anualizada: 8.4%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -3.9%
+- Beta vs SPY: 0.728 · posiciones efectivas: 15.3 · HHI: 0.0652
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **INBX** · score agregado 248.4 · 4 señales · fuentes: corporate_insider
 - **BPRE** · score agregado 188.4 · 3 señales · fuentes: corporate_insider
+- **BMBL** · score agregado 140.4 · 2 señales · fuentes: large_holder
 - **NFJ** · score agregado 140.4 · 2 señales · fuentes: large_holder
 - **QVCG** · score agregado 139.8 · 2 señales · fuentes: corporate_insider, large_holder
 - **CRBG** · score agregado 135.8 · 2 señales · fuentes: corporate_insider
 - **SBLK** · score agregado 113.0 · 2 señales · fuentes: corporate_insider
 - **KLIC** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **QTTB** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **BMBL** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **CUE** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -302,15 +304,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | KLIC | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
 | QTTB | 72 | large_holder | Frazier Life Sciences Pub |  | - | - |
 | PLSM | 72 | large_holder | Aquamarine Financial (Cay |  | - | - |
+| CUE | 72 | large_holder | Mark E. Strome |  | - | - |
 | RTSN | 70 | large_holder | Eric Keller |  | - | - |
 | MDA | 70 | large_holder | MARISELLE A.S. |  | - | - |
 | TROO | 70 | large_holder | Prime Ocean Holdings Limi |  | - | - |
+| CABO | 70 | large_holder | Donald E. Graham |  | - | - |
 | SUPX | 70 | large_holder | QIU ZHONGWEI |  | - | - |
 | BANL | 70 | large_holder | Straits Energy Resources  |  | - | - |
 | SDHY | 70 | large_holder | First Trust Portfolios L. |  | - | - |
 | MSD | 70 | large_holder | First Trust Portfolios L. |  | - | - |
-| MMD | 70 | large_holder | First Trust Portfolios L. |  | - | - |
-| LGI | 70 | large_holder | First Trust Portfolios L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -340,7 +342,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 89.71 (0.19% / 0.67% / -0.78%) [2026-10-14]
 - GLD: 375.99 (-1.49% / 0.03% / -4.02%) [2026-10-14]
 - ^VIX: 16.87 (10.48% / 11.87% / -4.74%) [2026-10-14]
-- BTC-USD: 81369.78 (-2.08% / -1.43% / -3.57%) [2026-10-15]
+- BTC-USD: 80682.39 (-2.9% / -2.26% / -4.38%) [2026-10-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,11 +357,17 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1)
+**Temas dominantes**: stock (2), merger (1), ai (1), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRDO] Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages (2026-10-06)
+- [BMBL] Outdoor lab : Glacier bumble bee study explores population declines (2026-10-02)
+- [P] New Everpure ANZ partner lead discusses her new role and why it feels like  home (2026-10-02)
 - [HSY] Hershey Bears to wear franchise first - ever glow - in - the - dark jerseys for  Dark Nights Takeover  game (2026-10-02)
+- [P] Everpure : Making Sustainability Count : Turning Environmental Impact into Business Insight (2026-10-01)
+- [P] Everpure insider sale totals $5 . 33 million (2026-10-01)
+- [CRDO] Credo Technology CEO Sells Company Shares Worth $2 . 5 Million (2026-10-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -374,11 +382,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $153,747 · win rate 98% · categorias: sports
-- theowalcott · PnL $108,170 · win rate 100% · categorias: sports
-- 1l2ihj34li12u34 · PnL $121,013 · win rate 99% · categorias: sports
-- Vps1 · PnL $70,438 · win rate 99% · categorias: sports
-- chubbytoro · PnL $149,355 · win rate 100% · categorias: sports
+- OhWhenTheReds · PnL $548,782 · win rate 100% · categorias: sports
+- theowalcott · PnL $145,256 · win rate 100% · categorias: sports
+- cc9999 · PnL $73,673 · win rate 96% · categorias: sports, crypto, politics
+- TAIWANNUMBERONE · PnL $44,596 · win rate 93% · categorias: sports, politics
+- us391 · PnL $19,483 · win rate 96% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -386,11 +394,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 776 registros 30d · ultimo dato 2026-10-14
+- **sec_insiders**: `ok` · 774 registros 30d · ultimo dato 2026-10-14
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-14
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -400,7 +408,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BMBL, BPRE, CRBG, GLD, IEF, INBX, KLIC, NFJ, QQQ, QTTB, QVCG, SBLK, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BMBL, BPRE, CRBG, CUE, GLD, IEF, INBX, KLIC, NFJ, QQQ, QTTB, QVCG, SBLK, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
