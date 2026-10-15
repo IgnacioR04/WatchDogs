@@ -1,25 +1,20 @@
 {
-  "generated_at": "2026-10-15T20:38:49+00:00",
+  "generated_at": "2026-10-15T23:59:13+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "total_equity": 0.8001,
+  "cash": 0.1999,
   "weights": {
     "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "NFJ": 0.0764,
-    "IEF": 0.0572,
-    "BPRE": 0.047,
-    "CRBG": 0.0438,
-    "SBLK": 0.0348,
-    "KLIC": 0.0222,
-    "GOLD": 0.0216,
-    "QTTB": 0.0193,
-    "QVCG": 0.0191,
-    "INBX": 0.0174,
-    "BMBL": 0.0066
+    "NFJ": 0.12,
+    "QQQ": 0.1155,
+    "TLT": 0.1155,
+    "GLD": 0.0866,
+    "IEF": 0.0577,
+    "KNTK": 0.0564,
+    "SBLK": 0.0545,
+    "RSKD": 0.0403,
+    "GOLD": 0.0336
   },
   "core": {
     "SPY": 0.182,
@@ -29,37 +24,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "INBX": 0.0158,
-    "BPRE": 0.0427,
-    "BMBL": 0.006,
-    "NFJ": 0.0694,
-    "QVCG": 0.0174,
-    "CRBG": 0.0398,
-    "GOLD": 0.0196,
-    "SBLK": 0.0316,
-    "KLIC": 0.0202,
-    "QTTB": 0.0175
+    "RSKD": 0.0363,
+    "NFJ": 0.1136,
+    "GOLD": 0.0303,
+    "SBLK": 0.0491,
+    "KNTK": 0.0508
   },
   "satellite_rationale": [
     {
-      "ticker": "INBX",
-      "score": 248.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
-      "ticker": "BPRE",
-      "score": 188.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "BMBL",
-      "score": 140.4,
+      "ticker": "RSKD",
+      "score": 143.6,
       "sources": [
         "large_holder"
       ],
@@ -70,23 +44,6 @@
       "score": 140.4,
       "sources": [
         "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "QVCG",
-      "score": 139.8,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "CRBG",
-      "score": 135.8,
-      "sources": [
-        "corporate_insider"
       ],
       "n_signals": 2
     },
@@ -107,16 +64,8 @@
       "n_signals": 2
     },
     {
-      "ticker": "KLIC",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "QTTB",
-      "score": 71.8,
+      "ticker": "KNTK",
+      "score": 70.2,
       "sources": [
         "large_holder"
       ],
@@ -124,17 +73,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0861,
-    "var_95_1d": 0.0099,
-    "cvar_95_1d": 0.0114,
-    "max_drawdown": -0.0384,
-    "beta_spy": 0.72,
-    "hhi": 0.0644,
+    "ann_vol": 0.0924,
+    "var_95_1d": 0.0083,
+    "cvar_95_1d": 0.0123,
+    "max_drawdown": -0.0708,
+    "beta_spy": 0.601,
+    "hhi": 0.0752,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 15.5,
-    "gross_exposure": 0.8,
-    "days_used": 46
+    "n_positions": 10,
+    "effective_positions": 13.3,
+    "gross_exposure": 0.8001,
+    "days_used": 235
   },
   "risk_gate": {
     "passed": true,
