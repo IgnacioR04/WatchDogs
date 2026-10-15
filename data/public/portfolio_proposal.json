@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:33:48+00:00",
+  "generated_at": "2026-10-15T00:52:02+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7998,
@@ -8,17 +8,17 @@
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
+    "NFJ": 0.0869,
     "GLD": 0.0858,
-    "NFJ": 0.0672,
     "IEF": 0.0572,
-    "DOLE": 0.0566,
-    "CRBG": 0.0385,
-    "AVO": 0.0363,
-    "SBLK": 0.0306,
-    "AVNW": 0.0256,
-    "KLIC": 0.0195,
-    "QTTB": 0.0169,
-    "QVCG": 0.0168
+    "BPRE": 0.0495,
+    "CRBG": 0.0458,
+    "SBLK": 0.0372,
+    "KLIC": 0.0235,
+    "QVCG": 0.0204,
+    "QTTB": 0.0199,
+    "INBX": 0.018,
+    "BMBL": 0.0068
   },
   "core": {
     "SPY": 0.182,
@@ -28,17 +28,41 @@
     "GLD": 0.078
   },
   "satellite": {
-    "QVCG": 0.0153,
-    "CRBG": 0.035,
-    "DOLE": 0.0514,
-    "AVO": 0.033,
-    "SBLK": 0.0278,
-    "AVNW": 0.0233,
-    "KLIC": 0.0177,
-    "QTTB": 0.0154,
-    "NFJ": 0.0611
+    "INBX": 0.0164,
+    "BPRE": 0.045,
+    "NFJ": 0.079,
+    "QVCG": 0.0185,
+    "CRBG": 0.0416,
+    "SBLK": 0.0338,
+    "KLIC": 0.0214,
+    "QTTB": 0.0181,
+    "BMBL": 0.0062
   },
   "satellite_rationale": [
+    {
+      "ticker": "INBX",
+      "score": 248.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "BPRE",
+      "score": 188.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "NFJ",
+      "score": 140.4,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
     {
       "ticker": "QVCG",
       "score": 139.8,
@@ -57,37 +81,12 @@
       "n_signals": 2
     },
     {
-      "ticker": "DOLE",
-      "score": 128.1,
-      "sources": [
-        "corporate_insider",
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "AVO",
-      "score": 117.7,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "SBLK",
       "score": 113.0,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
-    },
-    {
-      "ticker": "AVNW",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     },
     {
       "ticker": "KLIC",
@@ -106,7 +105,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "NFJ",
+      "ticker": "BMBL",
       "score": 70.2,
       "sources": [
         "large_holder"
@@ -115,17 +114,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0776,
-    "var_95_1d": 0.0091,
-    "cvar_95_1d": 0.01,
-    "max_drawdown": -0.0384,
-    "beta_spy": 0.694,
-    "hhi": 0.0643,
+    "ann_vol": 0.0799,
+    "var_95_1d": 0.0072,
+    "cvar_95_1d": 0.0094,
+    "max_drawdown": -0.0322,
+    "beta_spy": 0.704,
+    "hhi": 0.0664,
     "max_position": 0.12,
     "n_positions": 14,
-    "effective_positions": 15.6,
+    "effective_positions": 15.1,
     "gross_exposure": 0.7998,
-    "days_used": 46
+    "days_used": 45
   },
   "risk_gate": {
     "passed": true,

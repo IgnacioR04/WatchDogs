@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-14T22:32:53.709967+00:00",
+  "generated_at": "2026-10-15T00:51:09.458526+00:00",
   "window": {
-    "from": "2026-09-14",
-    "to": "2026-10-14",
+    "from": "2026-09-15",
+    "to": "2026-10-15",
     "days": 30
   },
   "data_quality": {
@@ -23,9 +23,7 @@
   },
   "market_context": {
     "top_themes": [
-      "ai",
-      "merger",
-      "stock"
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -394,6 +392,14 @@
   "top_tickers": {
     "buy_pressure": [
       {
+        "ticker": "INBX",
+        "company": "Inhibrx Biosciences, Inc.",
+        "pressure_score": 459.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "KIO",
         "company": "KKR Income Opportunities Fund",
         "pressure_score": 274.6,
@@ -407,6 +413,14 @@
         "pressure_score": 271.5,
         "sources": [
           "large_holder"
+        ]
+      },
+      {
+        "ticker": "BPRE",
+        "company": "Bluerock Private Real Estate Fund",
+        "pressure_score": 234.3,
+        "sources": [
+          "corporate_insider"
         ]
       },
       {
@@ -501,22 +515,6 @@
           "corporate_insider",
           "large_holder"
         ]
-      },
-      {
-        "ticker": "CRT",
-        "company": "CROSS TIMBERS ROYALTY TRUST",
-        "pressure_score": 143.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "QNCX",
-        "company": "IRulya Therapeutics Inc.",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -526,6 +524,15 @@
         "pressure_score": 6118.8,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BMBL",
+        "company": "Bumble Inc.",
+        "pressure_score": 2621.5,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -540,6 +547,14 @@
         "ticker": "P",
         "company": "Everpure, Inc.",
         "pressure_score": 1551.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "PVLA",
+        "company": "PALVELLA THERAPEUTICS, INC.",
+        "pressure_score": 1173.0,
         "sources": [
           "corporate_insider"
         ]
@@ -593,6 +608,14 @@
         ]
       },
       {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "pressure_score": 437.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "FERG",
         "company": "Ferguson Enterprises Inc. /DE/",
         "pressure_score": 432.7,
@@ -601,41 +624,17 @@
         ]
       },
       {
+        "ticker": "MAX",
+        "company": "MediaAlpha, Inc.",
+        "pressure_score": 390.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "VRSN",
         "company": "VERISIGN INC/CA",
         "pressure_score": 370.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ABNB",
-        "company": "Airbnb, Inc.",
-        "pressure_score": 362.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ATEX",
-        "company": "Anterix Inc.",
-        "pressure_score": 343.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ACN",
-        "company": "Accenture plc",
-        "pressure_score": 324.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HNGE",
-        "company": "Hinge Health, Inc.",
-        "pressure_score": 305.0,
         "sources": [
           "corporate_insider"
         ]
@@ -698,12 +697,57 @@
       "score": 81.0
     },
     {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 209948.02,
+      "date": "2026-10-14",
+      "score": 79.0
+    },
+    {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 207654.63,
+      "date": "2026-10-14",
+      "score": 78.9
+    },
+    {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 205889.14,
+      "date": "2026-10-14",
+      "score": 78.9
+    },
+    {
+      "ticker": "INBX",
+      "company": "Inhibrx Biosciences, Inc.",
+      "actor": "Lappe Mark",
+      "actor_type": "ceo",
+      "amount": 208333.04,
+      "date": "2026-10-14",
+      "score": 78.9
+    },
+    {
       "ticker": "TRXB",
       "company": "TRex Bio, Inc.",
       "actor": "SVLSF VI, LLC",
       "actor_type": "ten_percent_owner",
       "amount": 1256962.0,
       "date": "2026-10-08",
+      "score": 78.8
+    },
+    {
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "actor": "KAMFAR RAMIN",
+      "actor_type": "director",
+      "amount": 1991762.95,
+      "date": "2026-10-14",
       "score": 78.8
     },
     {
@@ -716,67 +760,22 @@
       "score": 78.7
     },
     {
-      "ticker": "IMSR",
-      "company": "Terrestrial Energy Inc. /DE/",
-      "actor": "Irish Simon",
-      "actor_type": "ceo",
-      "amount": 50818.3,
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "actor": "KAMFAR RAMIN",
+      "actor_type": "director",
+      "amount": 1425953.98,
       "date": "2026-10-13",
-      "score": 75.9
+      "score": 78.1
     },
     {
-      "ticker": "ECF",
-      "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 175638.0,
-      "date": "2026-10-12",
-      "score": 74.6
-    },
-    {
-      "ticker": "AVO",
-      "company": "Mission Produce, Inc.",
-      "actor": "Gonzalez Luis A",
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "actor": "KAMFAR RAMIN",
       "actor_type": "director",
-      "amount": 247131.72,
+      "amount": 2060257.76,
       "date": "2026-10-12",
-      "score": 74.3
-    },
-    {
-      "ticker": "DOLE",
-      "company": "Dole plc",
-      "actor": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "amount": 75720.51,
-      "date": "2026-10-12",
-      "score": 74.0
-    },
-    {
-      "ticker": "BZUN",
-      "company": "Baozun Inc.",
-      "actor": "Qiu Wenbin",
-      "actor_type": "ceo",
-      "amount": 20126.0,
-      "date": "2026-10-13",
-      "score": 73.9
-    },
-    {
-      "ticker": "AVO",
-      "company": "Mission Produce, Inc.",
-      "actor": "Gonzalez Luis A",
-      "actor_type": "director",
-      "amount": 347653.64,
-      "date": "2026-10-09",
-      "score": 73.6
-    },
-    {
-      "ticker": "FEAM",
-      "company": "5E Advanced Materials, Inc.",
-      "actor": "vant Hoff Graham",
-      "actor_type": "director",
-      "amount": 215400.0,
-      "date": "2026-10-08",
-      "score": 72.5
+      "score": 77.4
     }
   ],
   "institutional_changes": [
@@ -1104,9 +1103,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 153744.67,
+        "pnl": 153747.04,
         "win_rate": 0.9823,
-        "volume": 765300.46,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1114,9 +1113,9 @@
       {
         "wallet": "0x7ad71d79a3",
         "username": "theowalcott",
-        "pnl": 109134.2,
+        "pnl": 108169.59,
         "win_rate": 1.0,
-        "volume": 5718.46,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1126,7 +1125,7 @@
         "username": "1l2ihj34li12u34",
         "pnl": 121012.78,
         "win_rate": 0.9895,
-        "volume": 193070.31,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1136,7 +1135,7 @@
         "username": "Vps1",
         "pnl": 70438.2,
         "win_rate": 0.992,
-        "volume": 207945.16,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1144,9 +1143,9 @@
       {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 146382.99,
+        "pnl": 149354.7,
         "win_rate": 1.0,
-        "volume": 206952.13,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1156,7 +1155,7 @@
         "username": "fantasy7788",
         "pnl": 45926.49,
         "win_rate": 0.9867,
-        "volume": 93181.33,
+        "volume": 0.0,
         "categories": [
           "sports",
           "crypto"
@@ -1165,9 +1164,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 89646.4,
+        "pnl": 89405.43,
         "win_rate": 0.932,
-        "volume": 288533.68,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
@@ -1176,12 +1175,22 @@
       {
         "wallet": "0xb9c7d35d1f",
         "username": "taylorsversion",
-        "pnl": 111672.1,
+        "pnl": 111672.07,
         "win_rate": 0.8864,
-        "volume": 5046.4,
+        "volume": 0.0,
         "categories": [
           "sports",
           "crypto"
+        ]
+      },
+      {
+        "wallet": "0x7e3a1f95c5",
+        "username": "KaneAnalytics",
+        "pnl": 48321.83,
+        "win_rate": 0.9344,
+        "volume": 0.0,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1189,17 +1198,7 @@
         "username": "LinkE5",
         "pnl": 44020.12,
         "win_rate": 0.9396,
-        "volume": 125761.39,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7e3a1f95c5",
-        "username": "KaneAnalytics",
-        "pnl": 46159.57,
-        "win_rate": 0.9344,
-        "volume": 121281.38,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1211,60 +1210,7 @@
         "username": "joseph00677",
         "pnl": 1567059.93,
         "win_rate": 0.625,
-        "volume": 6937544.86,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 96911.54,
-        "win_rate": 0.7197,
-        "volume": 1952167.97,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x7cf9358395",
-        "username": "MysticFind",
-        "pnl": 79826.62,
-        "win_rate": 0.5167,
-        "volume": 940296.62,
-        "categories": [
-          "sports",
-          "economy",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 73960.03,
-        "win_rate": 0.592,
-        "volume": 3488386.69,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x83720820a8",
-        "username": "Jsram",
-        "pnl": 157321.61,
-        "win_rate": 0.5827,
-        "volume": 627524.92,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 153744.67,
-        "win_rate": 0.9823,
-        "volume": 765300.46,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1272,9 +1218,9 @@
       {
         "wallet": "0xfea31bc088",
         "username": "ndb1",
-        "pnl": 58368.84,
+        "pnl": 58514.7,
         "win_rate": 0.636,
-        "volume": 298411.22,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics",
@@ -1282,11 +1228,64 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 92311.52,
-        "win_rate": 0.546,
-        "volume": 1661718.47,
+        "wallet": "0x7cf9358395",
+        "username": "MysticFind",
+        "pnl": 73657.43,
+        "win_rate": 0.5167,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "economy",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x83720820a8",
+        "username": "Jsram",
+        "pnl": 155927.13,
+        "win_rate": 0.5827,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x492442eab5",
+        "username": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+        "pnl": 89471.54,
+        "win_rate": 0.517,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc3acf5878a",
+        "username": "mentionmarket",
+        "pnl": 55937.24,
+        "win_rate": 0.7053,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 153747.04,
+        "win_rate": 0.9823,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x924379a79c",
+        "username": "Kch-Temp",
+        "pnl": 45322.12,
+        "win_rate": 0.9279,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1296,33 +1295,24 @@
         "username": "csgostar",
         "pnl": 39968.04,
         "win_rate": 0.6667,
-        "volume": 328194.81,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x74471a007d",
-        "username": "tetrose",
-        "pnl": 37596.8,
-        "win_rate": 0.5617,
-        "volume": 422987.63,
+        "wallet": "0x7ad71d79a3",
+        "username": "theowalcott",
+        "pnl": 108169.59,
+        "win_rate": 1.0,
+        "volume": 0.0,
         "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       }
     ]
   },
   "news": [
-    {
-      "title": "New Everpure ANZ partner lead discusses her new role and why it feels like  home  ",
-      "url": "https://www.crn.com.au/news/2026/storage/new-everpure-anz-partner-lead-discusses-her-role-and-future-plans",
-      "ticker": "P",
-      "themes": [],
-      "date": "2026-10-02"
-    },
     {
       "title": "Hershey Bears to wear franchise first - ever glow - in - the - dark jerseys for  Dark Nights Takeover  game",
       "url": "https://russianmachineneverbreaks.com/2026/10/01/ershey-bears-first-glow-in-the-dark-jerseys-dark-nights-takeover/",
@@ -1331,64 +1321,9 @@
         "merger"
       ],
       "date": "2026-10-02"
-    },
-    {
-      "title": "Stocks making the biggest moves midday : ACN SNPS UTHR VICR",
-      "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
-      "ticker": "UTHR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://www.aol.com/articles/united-therapeutics-won-patent-war-150712000.html",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Won Its Patent War and Liquidia Collapsed",
-      "url": "https://247wallst.com/investing/2026/10/01/united-therapeutics-won-its-patent-war-and-liquidia-collapsed/",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Everpure : Making Sustainability Count : Turning Environmental Impact into Business Insight",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69731157-everpure-making-sustainability-count-turning-environmental-impact-into-business-insight-200.htm",
-      "ticker": "P",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Everpure insider sale totals $5 . 33 million",
-      "url": "https://www.tickerreport.com/banking-finance/13603810/everpure-insider-sale-totals-5-33-million.html",
-      "ticker": "P",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "How Everpure enables its partners as it narrows its focuses on enterprise customers",
-      "url": "https://www.crn.com.au/news/2026/storage/everpure-enterprise-play-partners",
-      "ticker": "P",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "United Therapeutics Corporation Prevails in Patent Litigation Against Liquidia",
-      "url": "https://www.wallstreet-online.de/nachricht/21458142-united-therapeutics-corporation-prevails-patent-litigation-against-liquidia",
-      "ticker": "UTHR",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-01"
     }
   ],
-  "signals_count": 1448,
+  "signals_count": 1526,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
