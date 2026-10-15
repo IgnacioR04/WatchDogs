@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-15T06:11:55+00:00 · ventana señales 2026-09-15 -> 2026-10-15_
+_Generado 2026-10-15T11:44:00+00:00 · ventana señales 2026-09-15 -> 2026-10-15_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.87)
+- Volatilidad: `normal` (VIX 17.54)
 - Tendencia: `bull` (SPY 769.6 · MA50 767.39 · MA200 721.02 · dist MA200: 6.74%)
 - Credito: `normal` (HY spread 3.16)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -71,6 +71,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | QTTB | 72 | large_holder | Frazier Life Sciences Pub |  | - | - |
 | PLSM | 72 | large_holder | Aquamarine Financial (Cay |  | - | - |
 | CUE | 72 | large_holder | Mark E. Strome |  | - | - |
+| PAG | 70 | large_holder | Mitsui & Co., Ltd. |  | - | - |
 | RTSN | 70 | large_holder | Eric Keller |  | - | - |
 | MDA | 70 | large_holder | MARISELLE A.S. |  | - | - |
 | TROO | 70 | large_holder | Prime Ocean Holdings Limi |  | - | - |
@@ -78,7 +79,6 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | SUPX | 70 | large_holder | QIU ZHONGWEI |  | - | - |
 | BANL | 70 | large_holder | Straits Energy Resources  |  | - | - |
 | SDHY | 70 | large_holder | First Trust Portfolios L. |  | - | - |
-| MSD | 70 | large_holder | First Trust Portfolios L. |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 78.89 (0.66% / 2.26% / -2.07%) [2026-10-14]
 - IEF: 89.71 (0.19% / 0.67% / -0.78%) [2026-10-14]
 - GLD: 375.99 (-1.49% / 0.03% / -4.02%) [2026-10-14]
-- ^VIX: 16.87 (10.48% / 11.87% / -4.74%) [2026-10-14]
-- BTC-USD: 80682.39 (-2.9% / -2.26% / -4.38%) [2026-10-15]
+- ^VIX: 17.54 (3.97% / 13.82% / 13.6%) [2026-10-15]
+- BTC-USD: 80985.36 (-0.71% / -2.32% / -3.63%) [2026-10-15]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,17 +123,20 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), merger (1), ai (1), leadership (1)
+**Temas dominantes**: stock (4), ai (3), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRDO] Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages (2026-10-06)
+- [BMBL] Bumble ( NASDAQ : BMBL ) Major Shareholder Buzz Holdings L . P . Bcp Sells 2 , 763 , 510 Shares of Stock (2026-10-15)
+- [BMBL] Bumble ( NASDAQ : BMBL ) Major Shareholder Bx Buzz Ml - 1 Gp Llc Sells 2 , 763 , 510 Shares of Company Stock (2026-10-15)
+- [BMBL] Bumble ( NASDAQ : BMBL ) Major Shareholder – Nq L . L . C . Btoa Sells 2 , 763 , 510 Shares of Company Stock (2026-10-15)
 - [BMBL] Outdoor lab : Glacier bumble bee study explores population declines (2026-10-02)
 - [P] New Everpure ANZ partner lead discusses her new role and why it feels like  home (2026-10-02)
-- [HSY] Hershey Bears to wear franchise first - ever glow - in - the - dark jerseys for  Dark Nights Takeover  game (2026-10-02)
+- [DELL] Dell Forum takes on the hard work of scaling AI – Gadget (2026-10-02)
+- [DELL] Dell Technologies Introduces New Rugged Laptops Built for the Most Demanding Field Environments (2026-10-02)
+- [DELL] Dell Pro 16 PC16250 16  Notebook - Full HD Plus - Intel Core 5 120U - vPro Technology - 16GB - 512GB SSD - Windows 11 Pro - Webcam - 8 . 70 Hours Battery - IEEE 802 . 11ax Wireless LAN Standard DYFPN (2026-10-01)
+- [CRWD] CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector (2026-10-01)
 - [P] Everpure : Making Sustainability Count : Turning Environmental Impact into Business Insight (2026-10-01)
-- [P] Everpure insider sale totals $5 . 33 million (2026-10-01)
-- [CRDO] Credo Technology CEO Sells Company Shares Worth $2 . 5 Million (2026-10-01)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -150,9 +153,9 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - OhWhenTheReds · PnL $548,782 · win rate 100% · categorias: sports
 - theowalcott · PnL $145,256 · win rate 100% · categorias: sports
-- cc9999 · PnL $73,673 · win rate 96% · categorias: sports, crypto, politics
-- TAIWANNUMBERONE · PnL $44,596 · win rate 93% · categorias: sports, politics
-- us391 · PnL $19,483 · win rate 96% · categorias: sports
+- 0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592 · PnL $28,704 · win rate 95% · categorias: sports
+- us391 · PnL $20,400 · win rate 96% · categorias: sports
+- LinkE5 · PnL $25,906 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -160,8 +163,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 774 registros 30d · ultimo dato 2026-10-14
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-14
+- **sec_insiders**: `ok` · 782 registros 30d · ultimo dato 2026-10-14
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-15
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress

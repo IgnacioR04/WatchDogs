@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-15T06:10:55.947244+00:00",
+  "generated_at": "2026-10-15T11:43:02.283714+00:00",
   "window": {
     "from": "2026-09-15",
     "to": "2026-10-15",
@@ -18,15 +18,14 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
       "stock",
-      "merger",
       "ai",
-      "leadership"
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -427,6 +426,14 @@
         ]
       },
       {
+        "ticker": "API",
+        "company": "Agora, Inc.",
+        "pressure_score": 221.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "CRBG",
         "company": "Corebridge Financial, Inc.",
         "pressure_score": 165.4,
@@ -446,15 +453,6 @@
       {
         "ticker": "TDIC",
         "company": "Dreamland Ltd",
-        "pressure_score": 151.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "PED",
-        "company": "PEDEVCO CORP",
         "pressure_score": 151.2,
         "sources": [
           "corporate_insider",
@@ -635,9 +633,9 @@
         ]
       },
       {
-        "ticker": "VRSN",
-        "company": "VERISIGN INC/CA",
-        "pressure_score": 370.9,
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 380.0,
         "sources": [
           "corporate_insider"
         ]
@@ -680,15 +678,6 @@
       "amount": 4938651.74,
       "date": "2026-10-12",
       "score": 81.8
-    },
-    {
-      "ticker": "PED",
-      "company": "PEDEVCO CORP",
-      "actor": "KUKES SIMON G",
-      "actor_type": "ten_percent_owner",
-      "amount": 1911910.0,
-      "date": "2026-10-08",
-      "score": 81.0
     },
     {
       "ticker": "TDIC",
@@ -779,6 +768,15 @@
       "amount": 2060257.76,
       "date": "2026-10-12",
       "score": 77.4
+    },
+    {
+      "ticker": "ZONE",
+      "company": "Zone Frontier Inc.",
+      "actor": "Hassen Tyler Lewis",
+      "actor_type": "ceo",
+      "amount": 85200.0,
+      "date": "2026-10-14",
+      "score": 77.0
     }
   ],
   "institutional_changes": [
@@ -1124,34 +1122,31 @@
         ]
       },
       {
-        "wallet": "0x3b4c4ff845",
-        "username": "cc9999",
-        "pnl": 73673.4,
-        "win_rate": 0.96,
-        "volume": 0.0,
+        "wallet": "0xe16d3f2a58",
+        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+        "pnl": 28703.92,
+        "win_rate": 0.9543,
+        "volume": 140749.02,
         "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 44595.84,
-        "win_rate": 0.932,
-        "volume": 204564.4,
-        "categories": [
-          "sports",
-          "politics"
+          "sports"
         ]
       },
       {
         "wallet": "0x3f3aa7005f",
         "username": "us391",
-        "pnl": 19483.2,
+        "pnl": 20400.36,
         "win_rate": 0.965,
-        "volume": 26300.9,
+        "volume": 27148.38,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf070207d31",
+        "username": "LinkE5",
+        "pnl": 25906.31,
+        "win_rate": 0.9396,
+        "volume": 64931.71,
         "categories": [
           "sports"
         ]
@@ -1169,33 +1164,13 @@
       {
         "wallet": "0xe5b70fd855",
         "username": "alwaysfade",
-        "pnl": 37081.03,
+        "pnl": 37162.1,
         "win_rate": 0.9022,
-        "volume": 70.83,
+        "volume": 589.9,
         "categories": [
           "sports",
           "politics",
           "economy"
-        ]
-      },
-      {
-        "wallet": "0xe16d3f2a58",
-        "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-        "pnl": 12229.77,
-        "win_rate": 0.9541,
-        "volume": 31702.19,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 17834.18,
-        "win_rate": 0.9242,
-        "volume": 20003.19,
-        "categories": [
-          "sports"
         ]
       },
       {
@@ -1207,15 +1182,45 @@
         "categories": [
           "sports"
         ]
+      },
+      {
+        "wallet": "0x93683d55f0",
+        "username": "www511zwin",
+        "pnl": 117302.41,
+        "win_rate": 1.0,
+        "volume": 201735.4,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x21f333307a",
+        "username": "hi774c",
+        "pnl": 22213.86,
+        "win_rate": 0.864,
+        "volume": 89388.51,
+        "categories": [
+          "sports"
+        ]
       }
     ],
     "whales": [
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 144538.32,
+        "pnl": 141910.92,
         "win_rate": 0.7197,
         "volume": 1214869.97,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 114608.93,
+        "win_rate": 0.551,
+        "volume": 1173763.2,
         "categories": [
           "sports"
         ]
@@ -1231,11 +1236,21 @@
         ]
       },
       {
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 58564.11,
+        "win_rate": 0.596,
+        "volume": 925583.83,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x9b89ef1f34",
         "username": "Woaifacai",
-        "pnl": 18381.75,
+        "pnl": 34854.18,
         "win_rate": 0.649,
-        "volume": 173798.16,
+        "volume": 330398.22,
         "categories": [
           "sports",
           "economy",
@@ -1243,52 +1258,21 @@
         ]
       },
       {
-        "wallet": "0x7e3a1f95c5",
-        "username": "KaneAnalytics",
-        "pnl": 24850.85,
-        "win_rate": 0.9299,
-        "volume": 268041.11,
+        "wallet": "0x8a8685a792",
+        "username": "BrotherObama",
+        "pnl": 95954.64,
+        "win_rate": 0.651,
+        "volume": 225775.62,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 82083.86,
-        "win_rate": 0.55,
-        "volume": 531248.34,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x93683d55f0",
-        "username": "www511zwin",
-        "pnl": 116629.44,
+        "wallet": "0x285faa3e3d",
+        "username": "yabanci",
+        "pnl": 69138.24,
         "win_rate": 1.0,
-        "volume": 201735.4,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 44595.84,
-        "win_rate": 0.932,
-        "volume": 204564.4,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 24882.19,
-        "win_rate": 0.595,
-        "volume": 350237.26,
+        "volume": 145071.89,
         "categories": [
           "sports"
         ]
@@ -1296,34 +1280,64 @@
       {
         "wallet": "0x06dc51826b",
         "username": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
-        "pnl": 20684.44,
-        "win_rate": 0.658,
-        "volume": 219686.57,
+        "pnl": 28386.96,
+        "win_rate": 0.657,
+        "volume": 521796.07,
         "categories": [
           "crypto"
         ]
       },
       {
-        "wallet": "0x32b484581f",
-        "username": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
-        "pnl": 18047.38,
-        "win_rate": 0.546,
-        "volume": 144607.8,
+        "wallet": "0x6ac5bb06a9",
+        "username": "corkmaster420blaezit",
+        "pnl": 228367.0,
+        "win_rate": 0.489,
+        "volume": 142748.03,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xe7870d0e1b",
+        "username": "Kkunn",
+        "pnl": 34861.13,
+        "win_rate": 0.6653,
+        "volume": 274271.7,
+        "categories": [
+          "sports",
+          "economy"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages",
-      "url": "https://www.tickerreport.com/banking-finance/13609669/credo-technology-group-holding-ltd-nasdaqcrdo-stock-has-average-price-target-of-264-89-according-to-brokerages.html",
-      "ticker": "CRDO",
+      "title": "Bumble ( NASDAQ : BMBL ) Major Shareholder Buzz Holdings L . P . Bcp Sells 2 , 763 , 510 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/10/15/bumble-nasdaqbmbl-major-shareholder-buzz-holdings-l-p-bcp-sells-2763510-shares-of-stock.html",
+      "ticker": "BMBL",
       "themes": [
         "stock"
       ],
-      "date": "2026-10-06"
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Bumble ( NASDAQ : BMBL ) Major Shareholder Bx Buzz Ml - 1 Gp Llc Sells 2 , 763 , 510 Shares of Company Stock",
+      "url": "https://www.themarketsdaily.com/2026/10/15/bumble-nasdaqbmbl-major-shareholder-bx-buzz-ml-1-gp-llc-sells-2763510-shares-of-company-stock.html",
+      "ticker": "BMBL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Bumble ( NASDAQ : BMBL ) Major Shareholder – Nq L . L . C . Btoa Sells 2 , 763 , 510 Shares of Company Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13619760/bumble-nasdaqbmbl-major-shareholder-nq-l-l-c-btoa-sells-2763510-shares-of-company-stock.html",
+      "ticker": "BMBL",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-15"
     },
     {
       "title": "Outdoor lab : Glacier bumble bee study explores population declines",
@@ -1340,13 +1354,38 @@
       "date": "2026-10-02"
     },
     {
-      "title": "Hershey Bears to wear franchise first - ever glow - in - the - dark jerseys for  Dark Nights Takeover  game",
-      "url": "https://russianmachineneverbreaks.com/2026/10/01/ershey-bears-first-glow-in-the-dark-jerseys-dark-nights-takeover/",
-      "ticker": "HSY",
+      "title": "Dell Forum takes on the hard work of scaling AI – Gadget",
+      "url": "https://gadget.co.za/dellforumscalingai15f/",
+      "ticker": "DELL",
       "themes": [
-        "merger"
+        "ai"
       ],
       "date": "2026-10-02"
+    },
+    {
+      "title": "Dell Technologies Introduces New Rugged Laptops Built for the Most Demanding Field Environments",
+      "url": "https://itwire.com/your-it-news/home-it/dell-technologies-introduces-new-rugged-laptops-built-for-the-most-demanding-field-environments",
+      "ticker": "DELL",
+      "themes": [],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Dell Pro 16 PC16250 16  Notebook - Full HD Plus - Intel Core 5 120U - vPro Technology - 16GB - 512GB SSD - Windows 11 Pro - Webcam - 8 . 70 Hours Battery - IEEE 802 . 11ax Wireless LAN Standard DYFPN",
+      "url": "https://www.newegg.com/dell-pro-16-pc16250-16-0-fhd-non-touch-screen-intel-core-5-120u-intel-graphics-16gb-memory-512-gb-ssd-magnetite/p/N82E16834817336?Item=N82E16834817336&cm_sp=Homepage_SS-_-P4_34-817-336-_-10012026",
+      "ticker": "DELL",
+      "themes": [],
+      "date": "2026-10-01"
+    },
+    {
+      "title": "CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector",
+      "url": "https://seekingalpha.com/news/4649465-crowdstrike-okta-rubrik-all-reach-one-year-highs-as-ai-continues-to-rally-cyber-sector",
+      "ticker": "CRWD",
+      "themes": [
+        "ai",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-10-01"
     },
     {
       "title": "Everpure : Making Sustainability Count : Turning Environmental Impact into Business Insight",
@@ -1356,26 +1395,9 @@
         "ai"
       ],
       "date": "2026-10-01"
-    },
-    {
-      "title": "Everpure insider sale totals $5 . 33 million",
-      "url": "https://www.tickerreport.com/banking-finance/13603810/everpure-insider-sale-totals-5-33-million.html",
-      "ticker": "P",
-      "themes": [],
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Credo Technology CEO Sells Company Shares Worth $2 . 5 Million",
-      "url": "https://www.fool.com/coverage/filings/2026/10/01/credo-technology-ceo-sells-company-shares-worth-usd2-5-million/?source=iedfolrf0000001",
-      "ticker": "CRDO",
-      "themes": [
-        "leadership",
-        "stock"
-      ],
-      "date": "2026-10-01"
     }
   ],
-  "signals_count": 1524,
+  "signals_count": 1532,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
