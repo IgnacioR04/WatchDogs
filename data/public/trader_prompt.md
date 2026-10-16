@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-16T04:47:12+00:00 -->
+<!-- trader_prompt.md generado 2026-10-16T10:03:26+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-16T04:47:12+00:00 · ventana señales 2026-09-16 -> 2026-10-16_
+_Generado 2026-10-16T10:03:26+00:00 · ventana señales 2026-09-16 -> 2026-10-16_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.46)
+- Volatilidad: `normal` (VIX 16.05)
 - Tendencia: `bull` (SPY 771.79 · MA50 767.47 · MA200 721.47 · dist MA200: 6.97%)
 - Credito: `normal` (HY spread 3.25)
 - Tipos: `flat` (curva 10y-2y 0.33)
@@ -333,8 +333,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 79.97 (1.37% / 2.7% / -1.82%) [2026-10-15]
 - IEF: 90.35 (0.71% / 1.01% / -0.64%) [2026-10-15]
 - GLD: 382.71 (1.79% / 1.08% / -3.93%) [2026-10-15]
-- ^VIX: 16.46 (-2.43% / 6.81% / 6.61%) [2026-10-15]
-- BTC-USD: 81968.94 (0.5% / -1.14% / -2.46%) [2026-10-16]
+- ^VIX: 16.05 (-2.49% / 8.15% / 8.37%) [2026-10-16]
+- BTC-USD: 81803.97 (-0.41% / -2.24% / -3.08%) [2026-10-16]
 
 **Macro (valor · cambio 1m):**
 
@@ -353,11 +353,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
 - [IOT] Samsara Tracking Label Named to TIME Best Inventions of 2026 (2026-10-15)
 - [IOT] Samsara Tracking Label Named to TIME Best Inventions of 2026 (2026-10-15)
 - [IOT] Samsara Tracking Label Named to TIME Best Inventions of 2026 (2026-10-15)
 - [IOT] Samsara Tracking Label Named to TIME Best Inventions of 2026 (2026-10-15)
+- [CRDO] Credo Technology Group Holding Ltd . ( NASDAQ : CRDO ) Stock Has Average Price Target of $264 . 89 According to Brokerages (2026-10-06)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -372,11 +372,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,072,167 · win rate 86% · categorias: sports, politics
-- theowalcott · PnL $99,601 · win rate 100% · categorias: sports
-- Siddhartha1 · PnL $77,217 · win rate 89% · categorias: sports
-- fantasy7788 · PnL $12,139 · win rate 99% · categorias: sports, crypto
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $21,504 · win rate 95% · categorias: sports
+- BreakTheBank · PnL $1,078,513 · win rate 86% · categorias: sports, politics
+- theowalcott · PnL $99,711 · win rate 100% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $75,460 · win rate 90% · categorias: crypto
+- Siddhartha1 · PnL $77,174 · win rate 89% · categorias: sports
+- ic4cream · PnL $47,653 · win rate 89% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
