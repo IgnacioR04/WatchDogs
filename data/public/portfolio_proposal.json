@@ -1,59 +1,97 @@
 {
-  "generated_at": "2026-10-16T19:05:51+00:00",
+  "generated_at": "2026-10-16T22:22:18+00:00",
   "profile": "moderado",
-  "regime_budget": 0.45,
-  "total_equity": 0.4501,
-  "cash": 0.5499,
+  "regime_budget": 0.6,
+  "total_equity": 0.6001,
+  "cash": 0.3999,
   "weights": {
-    "SPY": 0.1024,
-    "KTF": 0.0739,
-    "QQQ": 0.0585,
-    "TLT": 0.0585,
-    "GLD": 0.0439,
-    "IEF": 0.0293,
-    "KNTK": 0.0205,
-    "RSKD": 0.0142,
-    "PRTA": 0.0135,
-    "TALO": 0.0129,
-    "GOLD": 0.0117,
-    "KLIC": 0.0108
+    "SPY": 0.12,
+    "QQQ": 0.0808,
+    "TLT": 0.0808,
+    "KTF": 0.0645,
+    "GLD": 0.0606,
+    "IEF": 0.0404,
+    "NAD": 0.0388,
+    "PEP": 0.03,
+    "PAG": 0.0209,
+    "VEON": 0.0132,
+    "RSKD": 0.013,
+    "FSLR": 0.012,
+    "KLIC": 0.0105,
+    "NVAX": 0.0093,
+    "UTZ": 0.0053
   },
   "core": {
-    "SPY": 0.1024,
-    "QQQ": 0.0585,
-    "TLT": 0.0585,
-    "IEF": 0.0293,
-    "GLD": 0.0439
+    "SPY": 0.1365,
+    "QQQ": 0.078,
+    "TLT": 0.078,
+    "IEF": 0.039,
+    "GLD": 0.0585
   },
   "satellite": {
-    "RSKD": 0.0142,
-    "GOLD": 0.0117,
-    "PRTA": 0.0135,
-    "KTF": 0.0739,
-    "KLIC": 0.0108,
-    "KNTK": 0.0205,
-    "TALO": 0.0129
+    "PEP": 0.029,
+    "NVAX": 0.009,
+    "VEON": 0.0127,
+    "PAG": 0.0202,
+    "RSKD": 0.0126,
+    "FSLR": 0.0116,
+    "NAD": 0.0375,
+    "KTF": 0.0623,
+    "KLIC": 0.0101,
+    "UTZ": 0.0051
   },
   "satellite_rationale": [
     {
-      "ticker": "RSKD",
-      "score": 143.6,
+      "ticker": "PEP",
+      "score": 259.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 4
+    },
+    {
+      "ticker": "NVAX",
+      "score": 141.0,
       "sources": [
         "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "GOLD",
-      "score": 128.2,
+      "ticker": "VEON",
+      "score": 141.0,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "PRTA",
-      "score": 121.2,
+      "ticker": "PAG",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "RSKD",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "FSLR",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "NAD",
+      "score": 106.3,
       "sources": [
         "corporate_insider"
       ],
@@ -76,16 +114,8 @@
       "n_signals": 1
     },
     {
-      "ticker": "KNTK",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "TALO",
-      "score": 70.2,
+      "ticker": "UTZ",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -93,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0468,
-    "var_95_1d": 0.0047,
-    "cvar_95_1d": 0.0063,
-    "max_drawdown": -0.03,
-    "beta_spy": 0.309,
-    "hhi": 0.0268,
-    "max_position": 0.1024,
-    "n_positions": 12,
-    "effective_positions": 37.3,
-    "gross_exposure": 0.4501,
-    "days_used": 218
+    "ann_vol": 0.071,
+    "var_95_1d": 0.0065,
+    "cvar_95_1d": 0.0095,
+    "max_drawdown": -0.0387,
+    "beta_spy": 0.481,
+    "hhi": 0.0405,
+    "max_position": 0.12,
+    "n_positions": 15,
+    "effective_positions": 24.7,
+    "gross_exposure": 0.6001,
+    "days_used": 154
   },
   "risk_gate": {
     "passed": true,
