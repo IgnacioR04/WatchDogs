@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-10-16T10:03:25+00:00",
+  "generated_at": "2026-10-16T15:09:26+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "KNTK": 0.0691,
-    "SBLK": 0.0628,
+    "KNTK": 0.0618,
     "IEF": 0.0572,
-    "RSKD": 0.0481,
-    "PRTA": 0.0454,
-    "TALO": 0.0434,
-    "GOLD": 0.0392
+    "SBLK": 0.0562,
+    "RSKD": 0.043,
+    "PRTA": 0.0407,
+    "TALO": 0.0388,
+    "GOLD": 0.0351,
+    "KLIC": 0.0325
   },
   "core": {
     "SPY": 0.182,
@@ -25,12 +26,13 @@
     "GLD": 0.078
   },
   "satellite": {
-    "RSKD": 0.0437,
-    "GOLD": 0.0356,
-    "PRTA": 0.0413,
-    "SBLK": 0.0571,
-    "KNTK": 0.0628,
-    "TALO": 0.0394
+    "RSKD": 0.0391,
+    "GOLD": 0.0319,
+    "PRTA": 0.037,
+    "SBLK": 0.0511,
+    "KLIC": 0.0295,
+    "KNTK": 0.0562,
+    "TALO": 0.0353
   },
   "satellite_rationale": [
     {
@@ -66,6 +68,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "KLIC",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "KNTK",
       "score": 70.2,
       "sources": [
@@ -83,17 +93,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.094,
-    "var_95_1d": 0.0077,
-    "cvar_95_1d": 0.0126,
-    "max_drawdown": -0.0587,
-    "beta_spy": 0.512,
-    "hhi": 0.0677,
+    "ann_vol": 0.0976,
+    "var_95_1d": 0.0085,
+    "cvar_95_1d": 0.0131,
+    "max_drawdown": -0.06,
+    "beta_spy": 0.574,
+    "hhi": 0.0655,
     "max_position": 0.12,
-    "n_positions": 11,
-    "effective_positions": 14.8,
-    "gross_exposure": 0.7998,
-    "days_used": 217
+    "n_positions": 12,
+    "effective_positions": 15.3,
+    "gross_exposure": 0.7999,
+    "days_used": 218
   },
   "risk_gate": {
     "passed": true,
