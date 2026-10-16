@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-16T15:08:14.081932+00:00",
+  "generated_at": "2026-10-16T19:04:26.285966+00:00",
   "window": {
     "from": "2026-09-16",
     "to": "2026-10-16",
@@ -22,7 +22,9 @@
     }
   },
   "market_context": {
-    "top_themes": [],
+    "top_themes": [
+      "stock"
+    ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
   "top_movements": [
@@ -423,6 +425,14 @@
         ]
       },
       {
+        "ticker": "RTSN",
+        "company": "Retension Pharmaceuticals, Inc.",
+        "pressure_score": 211.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "DKI",
         "company": "DarkIris Inc.",
         "pressure_score": 211.5,
@@ -442,6 +452,14 @@
         "ticker": "INM",
         "company": "InMed Pharmaceuticals Inc.",
         "pressure_score": 198.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "GABC",
+        "company": "GERMAN AMERICAN BANCORP, INC.",
+        "pressure_score": 193.3,
         "sources": [
           "corporate_insider"
         ]
@@ -489,28 +507,12 @@
         ]
       },
       {
-        "ticker": "SBLK",
-        "company": "Star Bulk Carriers Corp.",
-        "pressure_score": 144.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RSKD",
-        "company": "RISKIFIED LTD.",
-        "pressure_score": 143.6,
+        "ticker": "JOF",
+        "company": "JAPAN SMALLER CAPITALIZATION FUND, INC.",
+        "pressure_score": 145.8,
         "sources": [
           "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "GF",
-        "company": "NEW GERMANY FUND INC",
-        "pressure_score": 142.2,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -556,17 +558,25 @@
         ]
       },
       {
-        "ticker": "FERG",
-        "company": "Ferguson Enterprises Inc. /DE/",
-        "pressure_score": 1172.4,
+        "ticker": "CCO",
+        "company": "Clear Channel Outdoor Holdings, Inc.",
+        "pressure_score": 1124.5,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "CCO",
-        "company": "Clear Channel Outdoor Holdings, Inc.",
-        "pressure_score": 1124.5,
+        "ticker": "PCQ",
+        "company": "PIMCO CALIFORNIA MUNICIPAL INCOME FUND",
+        "pressure_score": 953.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "FERG",
+        "company": "Ferguson Enterprises Inc. /DE/",
+        "pressure_score": 739.7,
         "sources": [
           "corporate_insider"
         ]
@@ -621,17 +631,9 @@
         ]
       },
       {
-        "ticker": "BLLN",
-        "company": "BillionToOne, Inc.",
-        "pressure_score": 444.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "MAX",
-        "company": "MediaAlpha, Inc.",
-        "pressure_score": 390.1,
+        "ticker": "AXIA3",
+        "company": "AXIA Energia S.A.",
+        "pressure_score": 408.0,
         "sources": [
           "corporate_insider"
         ]
@@ -757,21 +759,21 @@
       "score": 75.6
     },
     {
+      "ticker": "JOF",
+      "company": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 161929.89,
+      "date": "2026-10-14",
+      "score": 75.6
+    },
+    {
       "ticker": "CXM",
       "company": "Sprinklr, Inc.",
       "actor": "WARD JR STEPHEN M",
       "actor_type": "director",
       "amount": 850500.0,
       "date": "2026-10-13",
-      "score": 75.5
-    },
-    {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 41909.24,
-      "date": "2026-10-14",
       "score": 75.5
     }
   ],
@@ -987,15 +989,6 @@
       "date": "2026-10-14"
     },
     {
-      "filer": "WISeQey Corp.",
-      "company": "WISeSat.Space Holdings Corp.",
-      "ticker": "SAIQ",
-      "ownership_pct": 88.5,
-      "shares": 26405355,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-10-08"
-    },
-    {
       "filer": "Hard Rock Holdco LLC",
       "company": "Omnitek Engineering Corp",
       "ticker": "OMTK",
@@ -1003,6 +996,15 @@
       "shares": 750000000,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-09"
+    },
+    {
+      "filer": "Pani Corp.",
+      "company": "AI OKTO Corp.",
+      "ticker": "AIOK",
+      "ownership_pct": 74.2,
+      "shares": 3206185,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-16"
     },
     {
       "filer": "Jakhongir Abidovich Artikkhodjaev",
@@ -1100,9 +1102,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 1078456.64,
+        "pnl": 1082264.2,
         "win_rate": 0.8614,
-        "volume": 1208906.59,
+        "volume": 1223515.38,
         "categories": [
           "sports",
           "politics"
@@ -1119,21 +1121,21 @@
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 91595.09,
-        "win_rate": 0.8957,
-        "volume": 55742.65,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 104821.27,
+        "win_rate": 0.9449,
+        "volume": 582873.96,
         "categories": [
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xc95ed399d2",
         "username": "Siddhartha1",
-        "pnl": 77512.25,
+        "pnl": 79514.26,
         "win_rate": 0.8906,
-        "volume": 11278.89,
+        "volume": 44424.76,
         "categories": [
           "sports"
         ]
@@ -1141,7 +1143,7 @@
       {
         "wallet": "0x27f738fe20",
         "username": "ic4cream",
-        "pnl": 47616.19,
+        "pnl": 47579.12,
         "win_rate": 0.891,
         "volume": 48206.0,
         "categories": [
@@ -1151,9 +1153,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 19101.1,
+        "pnl": 19284.01,
         "win_rate": 0.9462,
-        "volume": 117958.77,
+        "volume": 160430.73,
         "categories": [
           "sports"
         ]
@@ -1161,9 +1163,9 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 547919.35,
+        "pnl": 549595.76,
         "win_rate": 0.715,
-        "volume": 2238160.63,
+        "volume": 2338558.15,
         "categories": [
           "sports"
         ]
@@ -1182,9 +1184,9 @@
       {
         "wallet": "0xb4f978be63",
         "username": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
-        "pnl": 47472.31,
+        "pnl": 47808.05,
         "win_rate": 0.8541,
-        "volume": 70944.78,
+        "volume": 72250.06,
         "categories": [
           "sports",
           "crypto",
@@ -1194,7 +1196,7 @@
       {
         "wallet": "0xb70c4f38ce",
         "username": "freeman123",
-        "pnl": 36033.14,
+        "pnl": 36068.14,
         "win_rate": 0.8652,
         "volume": 310178.68,
         "categories": [
@@ -1207,9 +1209,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 1078456.64,
+        "pnl": 1082264.2,
         "win_rate": 0.8614,
-        "volume": 1208906.59,
+        "volume": 1223515.38,
         "categories": [
           "sports",
           "politics"
@@ -1218,9 +1220,9 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 547919.35,
+        "pnl": 549595.76,
         "win_rate": 0.715,
-        "volume": 2238160.63,
+        "volume": 2338558.15,
         "categories": [
           "sports"
         ]
@@ -1228,9 +1230,9 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "corkmaster420blaezit",
-        "pnl": 45893.0,
-        "win_rate": 0.491,
-        "volume": 382358.6,
+        "pnl": 67587.09,
+        "win_rate": 0.492,
+        "volume": 1078070.78,
         "categories": [
           "sports",
           "politics"
@@ -1239,19 +1241,9 @@
       {
         "wallet": "0x2a69660046",
         "username": "UpTheBlues",
-        "pnl": 108735.69,
-        "win_rate": 0.677,
-        "volume": 1751021.52,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 135127.04,
-        "win_rate": 0.541,
-        "volume": 1256265.35,
+        "pnl": 166777.82,
+        "win_rate": 0.662,
+        "volume": 2652348.36,
         "categories": [
           "sports"
         ]
@@ -1259,19 +1251,29 @@
       {
         "wallet": "0x2005d16a84",
         "username": "RN1",
-        "pnl": 104461.83,
-        "win_rate": 0.577,
-        "volume": 1245275.42,
+        "pnl": 106067.73,
+        "win_rate": 0.578,
+        "volume": 1786931.67,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x796fc6fda8",
-        "username": "6512395314597884",
-        "pnl": 26324.54,
-        "win_rate": 0.499,
-        "volume": 805246.73,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 141533.7,
+        "win_rate": 0.542,
+        "volume": 1482597.98,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 104821.27,
+        "win_rate": 0.9449,
+        "volume": 582873.96,
         "categories": [
           "sports"
         ]
@@ -1289,27 +1291,83 @@
       {
         "wallet": "0x3dfb153c19",
         "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 59184.12,
+        "pnl": 58019.74,
         "win_rate": 0.608,
-        "volume": 209013.92,
+        "volume": 209533.43,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x8a8685a792",
-        "username": "BrotherObama",
-        "pnl": 22521.67,
-        "win_rate": 0.6558,
-        "volume": 137521.67,
+        "wallet": "0xbc43c8bfbc",
+        "username": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+        "pnl": 20417.49,
+        "win_rate": 0.5417,
+        "volume": 159514.84,
         "categories": [
           "sports"
         ]
       }
     ]
   },
-  "news": [],
-  "signals_count": 1523,
+  "news": [
+    {
+      "title": "Samsara ( NYSE : IOT ) Insider John Bicket Sells 95 , 485 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/10/16/samsara-nyseiot-insider-john-bicket-sells-95485-shares-of-stock.html",
+      "ticker": "IOT",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Thor Industries ( NYSE : THO ) Stock Gets Price Target Cut from Citigroup",
+      "url": "https://www.dailypolitical.com/2026/10/15/thor-industries-nysetho-stock-gets-price-target-cut-from-citigroup.html",
+      "ticker": "THO",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-16"
+    },
+    {
+      "title": "United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares",
+      "url": "https://www.dailypolitical.com/2026/10/15/united-therapeutics-nasdaquthr-stock-insider-martine-rothblatt-sells-9500-shares.html",
+      "ticker": "UTHR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Samsara Tracking Label Named to TIME Best Inventions of 2026",
+      "url": "https://www.elliotlakestandard.ca/press-releases/business-wire/samsara-tracking-label-named-to-times-best-inventions-of-2026/",
+      "ticker": "IOT",
+      "themes": [],
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Samsara Tracking Label Named to TIME Best Inventions of 2026",
+      "url": "https://www.brantfordexpositor.ca/press-releases/business-wire/samsara-tracking-label-named-to-times-best-inventions-of-2026/",
+      "ticker": "IOT",
+      "themes": [],
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Samsara Tracking Label Named to TIME Best Inventions of 2026",
+      "url": "https://www.owensoundsuntimes.com/press-releases/business-wire/samsara-tracking-label-named-to-times-best-inventions-of-2026/",
+      "ticker": "IOT",
+      "themes": [],
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Samsara Tracking Label Named to TIME Best Inventions of 2026",
+      "url": "https://www.timminspress.com/press-releases/business-wire/samsara-tracking-label-named-to-times-best-inventions-of-2026/",
+      "ticker": "IOT",
+      "themes": [],
+      "date": "2026-10-15"
+    }
+  ],
+  "signals_count": 1497,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
