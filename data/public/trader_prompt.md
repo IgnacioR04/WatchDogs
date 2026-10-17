@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-17T14:28:59+00:00 -->
+<!-- trader_prompt.md generado 2026-10-17T17:25:30+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-17T14:28:59+00:00 · ventana señales 2026-09-17 -> 2026-10-17_
+_Generado 2026-10-17T17:25:30+00:00 · ventana señales 2026-09-17 -> 2026-10-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -329,7 +329,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
 - GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 81451.95 (-0.06% / -0.38% / -3.56%) [2026-10-17]
+- BTC-USD: 81178.42 (-0.4% / -0.71% / -3.88%) [2026-10-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,12 +344,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [NTRA] Curated Wealth Partners LLC Purchases 2 , 195 Shares of Natera , Inc . $NTRA (2026-10-16)
+- [TDG] AIRO Group ( NASDAQ : AIRO ) versus Transdigm Group ( NYSE : TDG ) Financial Comparison (2026-10-16)
 - [P] Everpure Ajay Singh sells shares and trims stake 6 . 3 % ( NYSE : P ) (2026-10-16)
+- [WGO] Winnebago Industries to Lay Off 51 Workers in Early November (2026-10-15)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -366,7 +368,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - Diabolical-Prize · PnL $1,926,115 · win rate 95% · categorias: sports, economy
-- 1l2ihj34li12u34 · PnL $75,674 · win rate 99% · categorias: sports
+- 1l2ihj34li12u34 · PnL $92,743 · win rate 99% · categorias: sports
 - esportsbetter1 · PnL $68,000 · win rate 94% · categorias: sports
 - Vps1 · PnL $26,945 · win rate 99% · categorias: sports
 - www511zwin · PnL $180,252 · win rate 100% · categorias: sports
