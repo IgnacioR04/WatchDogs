@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-16T22:22:19+00:00 -->
+<!-- trader_prompt.md generado 2026-10-17T00:45:38+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-16T22:22:19+00:00 · ventana señales 2026-09-16 -> 2026-10-16_
+_Generado 2026-10-17T00:45:38+00:00 · ventana señales 2026-09-17 -> 2026-10-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,41 +242,39 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
+- **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 19.99)
-- Tendencia: `neutral` (SPY 763.25 · MA50 767.4 · MA200 721.88 · dist MA200: 5.73%)
+- Tendencia: `bull` (SPY 771.79 · MA50 767.47 · MA200 721.47 · dist MA200: 6.97%)
 - Credito: `normal` (HY spread 3.23)
 - Tipos: `flat` (curva 10y-2y 0.35)
 - Fed Funds: 3.75%
+- Motivos: tendencia alcista (+)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 763.25 | -1.11% | -1.97% | 0.2% |
-| QQQ | 8.1% | core | 709.8 | -2.5% | -5.52% | -1.51% |
-| TLT | 8.1% | core | 80.05 | 0.1% | 2.65% | -1.08% |
-| KTF | 6.5% | satellite | 8.17 | 0.37% | 1.24% | -2.49% |
-| GLD | 6.1% | core | 382.01 | -0.18% | -0.67% | -4.78% |
-| IEF | 4.0% | core | 90.42 | 0.08% | 1.14% | -0.08% |
-| NAD | 3.9% | satellite | 10.36 | 0.39% | 2.29% | -1.85% |
-| PEP | 3.0% | satellite | 131.49 | 2.42% | 4.38% | 1.34% |
-| PAG | 2.1% | satellite | 212.42 | 0.2% | 8.29% | -0.09% |
-| VEON | 1.3% | satellite | 83.2 | 0.47% | 8.32% | 21.23% |
-| RSKD | 1.3% | satellite | 8.22 | -4.53% | -3.63% | 32.37% |
-| FSLR | 1.2% | satellite | 172.64 | -3.45% | -2.91% | -11.9% |
-| KLIC | 1.1% | satellite | 78.63 | -5.32% | -14.54% | -5.42% |
-| NVAX | 0.9% | satellite | 11.26 | -12.17% | -11.69% | 11.37% |
-| UTZ | 0.5% | satellite | 14.29 | -0.21% | -0.07% | 0.8% |
+| SPY | 12.0% | core | 771.79 | 0.28% | -0.28% | 1.46% |
+| QQQ | 11.4% | core | 728.0 | -0.13% | -2.62% | 1.65% |
+| TLT | 11.4% | core | 79.97 | 1.37% | 2.7% | -1.82% |
+| KTF | 10.6% | satellite | 8.17 | 0.37% | 1.24% | -2.49% |
+| GLD | 8.6% | core | 382.71 | 1.79% | 1.08% | -3.93% |
+| NAD | 6.4% | satellite | 10.36 | 0.39% | 2.29% | -1.85% |
+| IEF | 5.7% | core | 90.35 | 0.71% | 1.01% | -0.64% |
+| PEP | 4.9% | satellite | 128.38 | -0.69% | 0.03% | -3.95% |
+| PAG | 3.4% | satellite | 212.0 | 8.84% | 7.04% | -1.28% |
+| VEON | 2.2% | satellite | 82.81 | 2.92% | 7.45% | 20.35% |
+| KLIC | 1.7% | satellite | 83.05 | -1.73% | -8.66% | 1.38% |
+| NVAX | 1.5% | satellite | 12.82 | 1.42% | 16.44% | 28.2% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.1%
-- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.9%
-- Beta vs SPY: 0.481 · posiciones efectivas: 24.7 · HHI: 0.0405
+- Volatilidad anualizada: 9.0%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -5.0%
+- Beta vs SPY: 0.6 · posiciones efectivas: 14.0 · HHI: 0.0712
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -284,12 +282,9 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - **NVAX** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **VEON** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **PAG** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **RSKD** · score agregado 141.0 · 2 señales · fuentes: large_holder
-- **FSLR** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **NAD** · score agregado 106.3 · 2 señales · fuentes: corporate_insider
 - **KTF** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **KLIC** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **UTZ** · score agregado 71.8 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -304,7 +299,6 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | SAFX | 72 | large_holder | EEME Energy SPV I, LLC |  | - | - |
 | KTF | 72 | large_holder | JPMorgan Chase Bank, Nati |  | - | - |
 | KLIC | 72 | large_holder | JPMORGAN CHASE & CO. |  | - | - |
-| UTZ | 72 | large_holder | Glazer Capital, LLC |  | - | - |
 | PAM | 71 | corporate_insider | Mindlin Marcos Marcelo | 0 | $35,139,300 | - |
 | NVAX | 70 | large_holder | Shah Capital Management |  | - | - |
 | VEON | 70 | large_holder | Shah Capital Management |  | - | - |
@@ -312,6 +306,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | FIVN | 70 | large_holder | Voss Value Master Fund, L |  | - | - |
 | COSM | 70 | large_holder | Bovopoulos Andreas |  | - | - |
 | BLND | 70 | large_holder | Capricorn Fund Managers L |  | - | - |
+| ADRX | 70 | large_holder | LAV Biosciences Fund V, L |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -333,15 +328,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 763.25 (-1.11% / -1.97% / 0.2%) [2026-10-16]
-- QQQ: 709.8 (-2.5% / -5.52% / -1.51%) [2026-10-16]
-- IWM: 270.44 (-1.69% / -3.05% / -4.81%) [2026-10-16]
-- DIA: 519.1 (-0.4% / 0.58% / 0.62%) [2026-10-16]
-- TLT: 80.05 (0.1% / 2.65% / -1.08%) [2026-10-16]
-- IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
-- GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
+- SPY: 771.79 (0.28% / -0.28% / 1.46%) [2026-10-15]
+- QQQ: 728.0 (-0.13% / -2.62% / 1.65%) [2026-10-15]
+- IWM: 275.08 (1.37% / -0.9% / -3.63%) [2026-10-15]
+- DIA: 521.18 (1.08% / 1.86% / 0.78%) [2026-10-15]
+- TLT: 79.97 (1.37% / 2.7% / -1.82%) [2026-10-15]
+- IEF: 90.35 (0.71% / 1.01% / -0.64%) [2026-10-15]
+- GLD: 382.71 (1.79% / 1.08% / -3.93%) [2026-10-15]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 81681.85 (-0.56% / -2.39% / -3.23%) [2026-10-16]
+- BTC-USD: 81448.64 (-0.84% / -2.67% / -3.5%) [2026-10-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -356,12 +351,13 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [LIFE] Ethos Technologies Inc . Class A Common Stock ( NASDAQ : LIFE ) President Sells 118 , 333 Shares of Stock (2026-10-16)
 - [MRVL] TB Alternative Assets Ltd . Makes New $30 . 68 Million Investment in Marvell Technology , Inc . $MRVL (2026-10-16)
-- [TDG] AIRO Group ( NASDAQ : AIRO ) versus Transdigm Group ( NYSE : TDG ) Financial Comparison (2026-10-16)
+- [P] Everpure Ajay Singh sells shares and trims stake 6 . 3 % ( NYSE : P ) (2026-10-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -376,11 +372,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,082,933 · win rate 86% · categorias: sports, politics
-- theowalcott · PnL $99,711 · win rate 100% · categorias: sports
-- fantasy7788 · PnL $43,809 · win rate 99% · categorias: sports, crypto
-- lllllllIlll · PnL $68,228 · win rate 94% · categorias: sports
-- Siddhartha1 · PnL $79,486 · win rate 89% · categorias: sports
+- Diabolical-Prize · PnL $864,665 · win rate 94% · categorias: sports, economy
+- BreakTheBank · PnL $1,083,252 · win rate 86% · categorias: sports, politics
+- theowalcott · PnL $91,049 · win rate 100% · categorias: sports
+- fantasy7788 · PnL $43,845 · win rate 99% · categorias: sports, crypto
+- lllllllIlll · PnL $67,724 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -388,11 +384,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 637 registros 30d · ultimo dato 2026-10-16
+- **sec_insiders**: `ok` · 644 registros 30d · ultimo dato 2026-10-16
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-16
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
-- **Fuentes con problemas**: congress
+- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
+- **Fuentes con problemas**: congress, polymarket
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
@@ -402,8 +398,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`FSLR, GLD, IEF, KLIC, KTF, NAD, NVAX, PAG, PEP, QQQ, RSKD, SPY, TLT, UTZ, VEON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
+1. **Universo permitido**: tickers de la cartera candidata (`GLD, IEF, KLIC, KTF, NAD, NVAX, PAG, PEP, QQQ, SPY, TLT, VEON`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
