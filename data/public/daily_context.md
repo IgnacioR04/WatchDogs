@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-17T05:54:16+00:00 · ventana señales 2026-09-17 -> 2026-10-17_
+_Generado 2026-10-17T10:58:46+00:00 · ventana señales 2026-09-17 -> 2026-10-17_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -95,7 +95,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
 - GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 81464.44 (-0.82% / -2.65% / -3.49%) [2026-10-17]
+- BTC-USD: 81541.13 (0.05% / -0.27% / -3.45%) [2026-10-17]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,12 +110,13 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1)
+**Temas dominantes**: stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MRVL] TB Alternative Assets Ltd . Makes New $30 . 68 Million Investment in Marvell Technology , Inc . $MRVL (2026-10-16)
-- [TDG] AIRO Group ( NASDAQ : AIRO ) versus Transdigm Group ( NYSE : TDG ) Financial Comparison (2026-10-16)
+- [P] Everpure Ajay Singh sells shares and trims stake 6 . 3 % ( NYSE : P ) (2026-10-16)
+- [WGO] Winnebago Industries to Lay Off 51 Workers in Early November (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -130,11 +131,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $1,789,649 · win rate 95% · categorias: sports, economy
-- www511zwin · PnL $173,252 · win rate 100% · categorias: sports
-- TAIWANNUMBERONE · PnL $39,468 · win rate 93% · categorias: sports, politics
+- Diabolical-Prize · PnL $1,826,072 · win rate 95% · categorias: sports, economy
+- www511zwin · PnL $180,252 · win rate 100% · categorias: sports
+- TAIWANNUMBERONE · PnL $61,156 · win rate 93% · categorias: sports, politics
+- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $33,590 · win rate 94% · categorias: sports
 - ethanaz · PnL $80,441 · win rate 87% · categorias: sports, crypto
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $31,773 · win rate 94% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
