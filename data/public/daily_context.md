@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-18T00:22:33+00:00 · ventana señales 2026-09-18 -> 2026-10-18_
+_Generado 2026-10-18T04:46:42+00:00 · ventana señales 2026-09-18 -> 2026-10-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -95,7 +95,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
 - GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 81395.58 (-0.13% / -0.45% / -3.63%) [2026-10-18]
+- BTC-USD: 81712.5 (0.26% / -0.06% / -3.25%) [2026-10-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,13 +110,12 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [MRVL] TB Alternative Assets Ltd . Makes New $30 . 68 Million Investment in Marvell Technology , Inc . $MRVL (2026-10-16)
-- [P] Everpure Ajay Singh sells shares and trims stake 6 . 3 % ( NYSE : P ) (2026-10-16)
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
+- [TDG] AIRO Group ( NASDAQ : AIRO ) versus Transdigm Group ( NYSE : TDG ) Financial Comparison (2026-10-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -131,11 +130,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Diabolical-Prize · PnL $1,926,115 · win rate 95% · categorias: sports, economy
-- RJW1 · PnL $163,920 · win rate 98% · categorias: sports
-- Kch-Temp · PnL $241,592 · win rate 93% · categorias: sports
-- 1l2ihj34li12u34 · PnL $87,805 · win rate 99% · categorias: sports
-- KaneAnalytics · PnL $155,485 · win rate 93% · categorias: sports
+- ArielFilipino · PnL $98,717 · win rate 100% · categorias: sports
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $107,532 · win rate 95% · categorias: sports
+- chubbytoro · PnL $34,691 · win rate 100% · categorias: sports
+- theowalcott · PnL $26,108 · win rate 100% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $73,409 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
