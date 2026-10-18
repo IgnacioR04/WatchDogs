@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-18T14:17:47+00:00 · ventana señales 2026-09-18 -> 2026-10-18_
+_Generado 2026-10-18T17:38:30+00:00 · ventana señales 2026-09-18 -> 2026-10-18_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -95,7 +95,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
 - GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 81170.95 (-0.26% / -2.32% / -2.79%) [2026-10-18]
+- BTC-USD: 81092.94 (-0.36% / -2.41% / -2.89%) [2026-10-18]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,12 +110,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [MRVL] What Do the 8 % of Analysts Who Will Not Buy Marvell ( MRVL ) See ? (2026-10-18)
+- [MRVL] Marvell ( NASDAQ : MRVL ) CEO sells 7 , 500 shares in preplanned trade (2026-10-18)
+- [MRVL] Frank Rimerman Advisors LLC Makes New $2 . 53 Million Investment in Marvell Technology , Inc . $MRVL (2026-10-18)
 - [NTRA] Curated Wealth Partners LLC Purchases 2 , 195 Shares of Natera , Inc . $NTRA (2026-10-16)
-- [WGO] Winnebago Industries to Lay Off 51 Workers in Early November (2026-10-15)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -131,11 +133,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- ArielFilipino · PnL $141,697 · win rate 100% · categorias: sports
-- chubbytoro · PnL $66,483 · win rate 100% · categorias: sports
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $107,264 · win rate 95% · categorias: sports
+- ArielFilipino · PnL $142,995 · win rate 100% · categorias: sports
+- chubbytoro · PnL $47,382 · win rate 100% · categorias: sports
+- lllllllIlll · PnL $106,869 · win rate 94% · categorias: sports
 - OhWhenTheReds · PnL $102,555 · win rate 100% · categorias: sports
-- lllllllIlll · PnL $97,952 · win rate 94% · categorias: sports
+- SebastianAde1996 · PnL $59,787 · win rate 98% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
