@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-19T01:30:25+00:00 · ventana señales 2026-09-19 -> 2026-10-19_
+_Generado 2026-10-19T06:31:35+00:00 · ventana señales 2026-09-19 -> 2026-10-19_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -95,7 +95,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.42 (0.08% / 1.14% / -0.08%) [2026-10-16]
 - GLD: 382.01 (-0.18% / -0.67% / -4.78%) [2026-10-16]
 - ^VIX: 19.99 (21.45% / 34.7% / 34.98%) [2026-10-16]
-- BTC-USD: 82370.1 (1.21% / -0.87% / -1.36%) [2026-10-19]
+- BTC-USD: 82676.19 (1.59% / -0.5% / -0.99%) [2026-10-19]
 
 **Macro (valor · cambio 1m):**
 
@@ -110,15 +110,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), leadership (1)
+**Temas dominantes**: stock (2), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [MRVL] What Do the 8 % of Analysts Who Will Not Buy Marvell ( MRVL ) See ? (2026-10-18)
-- [MRVL] Marvell ( NASDAQ : MRVL ) CEO sells 7 , 500 shares in preplanned trade (2026-10-18)
-- [MRVL] Frank Rimerman Advisors LLC Makes New $2 . 53 Million Investment in Marvell Technology , Inc . $MRVL (2026-10-18)
+- [NTRA] Curated Wealth Partners LLC Purchases 2 , 195 Shares of Natera , Inc . $NTRA (2026-10-16)
+- [TDG] AIRO Group ( NASDAQ : AIRO ) versus Transdigm Group ( NYSE : TDG ) Financial Comparison (2026-10-16)
 - [P] Everpure Ajay Singh sells shares and trims stake 6 . 3 % ( NYSE : P ) (2026-10-16)
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
+- [WGO] Winnebago Industries to Lay Off 51 Workers in Early November (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -133,11 +132,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- JnStrtPrdctnMrkts · PnL $19,324 · win rate 90% · categorias: crypto
-- alwaysfade · PnL $14,997 · win rate 91% · categorias: sports, politics, economy
-- chubbytoro · PnL $2,976 · win rate 100% · categorias: sports
-- robustmst · PnL $7,481 · win rate 89% · categorias: sports, crypto
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $3,179 · win rate 93% · categorias: sports
+- BreakTheBank · PnL $447,295 · win rate 87% · categorias: sports, politics
+- chubbytoro · PnL $32,765 · win rate 100% · categorias: sports
+- Electricy · PnL $115,569 · win rate 88% · categorias: sports, crypto, politics
+- alwaysfade · PnL $75,517 · win rate 91% · categorias: sports, politics, economy
+- us391 · PnL $12,728 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
