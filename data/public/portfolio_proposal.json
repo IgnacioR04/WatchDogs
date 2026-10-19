@@ -1,34 +1,44 @@
 {
-  "generated_at": "2026-10-19T13:27:50+00:00",
+  "generated_at": "2026-10-19T19:36:34+00:00",
   "profile": "moderado",
-  "regime_budget": 0.6,
-  "total_equity": 0.6001,
-  "cash": 0.3999,
+  "regime_budget": 0.8,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
     "NAD": 0.12,
-    "QQQ": 0.0837,
-    "TLT": 0.0837,
-    "GLD": 0.0628,
-    "IEF": 0.0419,
-    "KLIC": 0.0414,
-    "APLD": 0.0277,
-    "NBIS": 0.0189
+    "GLD": 0.1029,
+    "IEF": 0.0686,
+    "BYRN": 0.0488,
+    "APLD": 0.0437,
+    "NBIS": 0.0304,
+    "BMBL": 0.0255
   },
   "core": {
-    "SPY": 0.1365,
-    "QQQ": 0.078,
-    "TLT": 0.078,
-    "IEF": 0.039,
-    "GLD": 0.0585
+    "SPY": 0.182,
+    "QQQ": 0.104,
+    "TLT": 0.104,
+    "IEF": 0.052,
+    "GLD": 0.078
   },
   "satellite": {
-    "APLD": 0.0258,
-    "NBIS": 0.0176,
-    "NAD": 0.1281,
-    "KLIC": 0.0386
+    "BMBL": 0.0193,
+    "APLD": 0.0331,
+    "NBIS": 0.023,
+    "NAD": 0.1675,
+    "BYRN": 0.037
   },
   "satellite_rationale": [
+    {
+      "ticker": "BMBL",
+      "score": 208.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
     {
       "ticker": "APLD",
       "score": 166.8,
@@ -54,26 +64,26 @@
       "n_signals": 2
     },
     {
-      "ticker": "KLIC",
-      "score": 71.8,
+      "ticker": "BYRN",
+      "score": 54.3,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1039,
-    "var_95_1d": 0.0105,
-    "cvar_95_1d": 0.0119,
-    "max_drawdown": -0.0533,
-    "beta_spy": 0.727,
-    "hhi": 0.0513,
+    "ann_vol": 0.1364,
+    "var_95_1d": 0.0119,
+    "cvar_95_1d": 0.0138,
+    "max_drawdown": -0.058,
+    "beta_spy": 0.905,
+    "hhi": 0.0788,
     "max_position": 0.12,
-    "n_positions": 9,
-    "effective_positions": 19.5,
-    "gross_exposure": 0.6001,
-    "days_used": 65
+    "n_positions": 10,
+    "effective_positions": 12.7,
+    "gross_exposure": 0.7999,
+    "days_used": 66
   },
   "risk_gate": {
     "passed": true,
