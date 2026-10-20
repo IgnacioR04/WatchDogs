@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-19T23:53:32+00:00 -->
+<!-- trader_prompt.md generado 2026-10-20T05:02:21+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-19T23:53:31+00:00 · ventana señales 2026-09-19 -> 2026-10-19_
+_Generado 2026-10-20T05:02:21+00:00 · ventana señales 2026-09-20 -> 2026-10-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -256,27 +256,31 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 766.48 | 0.42% | -1.49% | -0.91% |
-| BPRE | 9.3% | satellite | 12.25 | -0.73% | -5.55% | 2.77% |
-| CRBG | 8.9% | satellite | 34.41 | -0.06% | -0.49% | -1.12% |
 | QQQ | 8.1% | core | 718.36 | 1.21% | -3.71% | -3.12% |
 | TLT | 8.1% | core | 79.46 | -0.74% | 1.81% | -2.47% |
+| BPRE | 7.4% | satellite | 12.25 | -0.73% | -5.55% | 2.77% |
+| CRBG | 7.2% | satellite | 34.41 | -0.06% | -0.49% | -1.12% |
 | GLD | 6.1% | core | 379.69 | -0.61% | -0.64% | -4.69% |
 | IEF | 4.0% | core | 90.08 | -0.38% | 0.73% | -0.83% |
-| APLD | 2.6% | satellite | 19.25 | 6.65% | -17.2% | -31.71% |
-| BMBL | 0.9% | satellite | 5.96 | 0.34% | 56.84% | 109.12% |
+| CAMT | 2.8% | satellite | 128.94 | -0.41% | -12.66% | -13.83% |
+| APLD | 2.0% | satellite | 19.25 | 6.65% | -17.2% | -31.71% |
+| NVAX | 1.7% | satellite | 10.82 | -3.91% | -14.53% | 3.94% |
+| BMBL | 0.7% | satellite | 5.96 | 0.34% | 56.84% | 109.12% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.1%
-- VaR 95% 1d: 0.8% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -1.4%
-- Beta vs SPY: None · posiciones efectivas: 19.9 · HHI: 0.0501
+- Volatilidad anualizada: 7.7%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -1.5%
+- Beta vs SPY: None · posiciones efectivas: 22.3 · HHI: 0.0448
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **BMBL** · score agregado 208.5 · 3 señales · fuentes: large_holder
 - **CRBG** · score agregado 198.7 · 3 señales · fuentes: corporate_insider
 - **APLD** · score agregado 166.8 · 2 señales · fuentes: corporate_insider
+- **CAMT** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **NVAX** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **BPRE** · score agregado 123.8 · 2 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
@@ -305,14 +309,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| TALO | 60 | corporate_insider | Control Empresarial de Ca | $46,422,990 | - |
 | PATH | 59 | corporate_insider | Dines Daniel | $16,806,125 | - |
 | PATH | 59 | corporate_insider | Dines Daniel | $15,605,589 | - |
 | TVTX | 57 | corporate_insider | Dube Eric M | $6,783,244 | - |
 | W | 57 | corporate_insider | Shah Niraj | $5,430,043 | - |
 | W | 57 | corporate_insider | Shah Niraj | $5,010,957 | - |
+| GOLF | 56 | corporate_insider | Misto Holdings Corp. | $52,501,033 | - |
 | TVTX | 56 | corporate_insider | Dube Eric M | $4,313,403 | - |
-| AFL | 56 | corporate_insider | Japan Post Holdings Co.,  | $10,414,194 | - |
-| W | 55 | corporate_insider | Shah Niraj | $2,575,326 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -329,7 +333,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 90.08 (-0.38% / 0.73% / -0.83%) [2026-10-19]
 - GLD: 379.69 (-0.61% / -0.64% / -4.69%) [2026-10-19]
 - ^VIX: 18.44 (-7.75% / 21.24% / 24.01%) [2026-10-19]
-- BTC-USD: 81880.65 (-0.17% / 0.39% / -2.08%) [2026-10-19]
+- BTC-USD: 81988.45 (-0.04% / 0.52% / -1.95%) [2026-10-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -344,13 +348,13 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (1)
+**Temas dominantes**: earnings (2), regulatory (2), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [AAPL] Apple ( NASDAQ : AAPL ) CFO Kevan Parekh Sells 1 , 392 Shares of Stock (2026-10-19)
-- [NBIS] Howard Capital Management LLC Makes New $1 . 03 Million Investment in Nebius Group N . V . $NBIS (2026-10-18)
-- [ACVA] Stock Analyst Upgrades for October 17th ( A , AA , ACVA , ADSK , ADUR , AEE , AEMD , AFG , AFRI , AIFA ) (2026-10-17)
+- [WAL] Western Alliance Bancorporation ( NYSE : WAL ) Posts Earnings Results , Beats Estimates By $0 . 03 EPS (2026-10-19)
+- [WEYS] Under Armour ( NYSE : UA ) and Weyco Group ( NASDAQ : WEYS ) Financial Survey (2026-10-18)
+- [WAL] FinancialContent - Western Alliance Bancorporation ( WAL ) Q3 Earnings : What To Expect (2026-10-18)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -359,18 +363,18 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - CEO Zhang Jason Gechen compro APLD por $5.7M el 2026-10-16.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $12.1M el 2026-10-15.
 - CEO Dines Daniel vendio PATH por $16.8M el 2026-10-15.
+- 10% owner Misto Holdings Corp. vendio GOLF por $52.5M el 2026-10-15.
 - CEO Dines Daniel vendio PATH por $15.6M el 2026-10-16.
+- 10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $46.4M el 2026-10-16.
 - 10% owner ARCH Venture Partners XII, LLC compro CTY por $3.1M el 2026-10-19.
-- Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $622,781 · win rate 87% · categorias: sports, politics
-- Jokerxing7 · PnL $150,919 · win rate 98% · categorias: sports
-- theowalcott · PnL $46,999 · win rate 100% · categorias: sports
-- crisp1973 · PnL $54,000 · win rate 99% · categorias: sports
-- Kyn008 · PnL $52,266 · win rate 98% · categorias: sports
+- theowalcott · PnL $33,887 · win rate 100% · categorias: sports
+- chubbytoro · PnL $24,128 · win rate 100% · categorias: sports
+- 1DVSBSTD · PnL $23,952 · win rate 98% · categorias: n/d
+- BreakTheBank · PnL $91,862 · win rate 87% · categorias: sports, politics
+- us391 · PnL $14,210 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -378,7 +382,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 718 registros 30d · ultimo dato 2026-10-19
+- **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-10-19
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-19
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -392,7 +396,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`APLD, BMBL, BPRE, CRBG, GLD, IEF, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`APLD, BMBL, BPRE, CAMT, CRBG, GLD, IEF, NVAX, QQQ, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
