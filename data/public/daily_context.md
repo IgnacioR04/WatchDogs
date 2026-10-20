@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-20T05:02:21+00:00 · ventana señales 2026-09-20 -> 2026-10-20_
+_Generado 2026-10-20T10:20:18+00:00 · ventana señales 2026-09-20 -> 2026-10-20_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.44)
+- Volatilidad: `normal` (VIX 18.67)
 - Tendencia: `neutral` (SPY 766.48 · MA50 767.3 · MA200 722.33 · dist MA200: 6.11%)
 - Credito: `normal` (HY spread 3.31)
 - Tipos: `flat` (curva 10y-2y 0.38)
@@ -61,6 +61,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | APLD | 82 | corporate_insider | Cummins Wes | 2 | $1,006,686 | cluster_buy |
 | WEAV | 72 | large_holder | Glazer Capital, LLC |  | - | - |
 | LNBIX | 70 | corporate_insider | Lincoln Financial Investm | 0 | $25,000,000 | - |
+| ESLT | 70 | large_holder | Harel Insurance Investmen |  | - | - |
 | PRPH | 70 | large_holder | Venkatesan Shyam |  | - | - |
 | RIME | 70 | large_holder | AZURE ENERGY, LLC |  | - | - |
 | ZSTK | 70 | large_holder | Hack VC Management, LLC |  | - | - |
@@ -69,7 +70,6 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | KYTX | 70 | large_holder | Orin Hirschman |  | - | - |
 | BNGO | 70 | large_holder | Orin Hirschman |  | - | - |
 | MEI | 70 | large_holder | Orin Hirschman |  | - | - |
-| OESX | 70 | large_holder | Orin Hirschman |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -98,8 +98,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - TLT: 79.46 (-0.74% / 1.81% / -2.47%) [2026-10-19]
 - IEF: 90.08 (-0.38% / 0.73% / -0.83%) [2026-10-19]
 - GLD: 379.69 (-0.61% / -0.64% / -4.69%) [2026-10-19]
-- ^VIX: 18.44 (-7.75% / 21.24% / 24.01%) [2026-10-19]
-- BTC-USD: 81988.45 (-0.04% / 0.52% / -1.95%) [2026-10-20]
+- ^VIX: 18.67 (1.25% / 22.27% / 31.39%) [2026-10-20]
+- BTC-USD: 81489.28 (-0.45% / -0.79% / -2.47%) [2026-10-20]
 
 **Macro (valor · cambio 1m):**
 
@@ -114,13 +114,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: earnings (2), regulatory (2), stock (1)
+**Temas dominantes**: ai (1), stock (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [WAL] Western Alliance Bancorporation ( NYSE : WAL ) Posts Earnings Results , Beats Estimates By $0 . 03 EPS (2026-10-19)
-- [WEYS] Under Armour ( NYSE : UA ) and Weyco Group ( NASDAQ : WEYS ) Financial Survey (2026-10-18)
-- [WAL] FinancialContent - Western Alliance Bancorporation ( WAL ) Q3 Earnings : What To Expect (2026-10-18)
+- [NET] Cloudflare expands OS AI workspace with new partners (2026-10-20)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Stock : Insider Martine Rothblatt Sells 9 , 500 Shares (2026-10-15)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -136,11 +134,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
+- chubbytoro · PnL $58,036 · win rate 100% · categorias: sports
+- Kch-Temp · PnL $122,363 · win rate 93% · categorias: sports
 - theowalcott · PnL $33,887 · win rate 100% · categorias: sports
-- chubbytoro · PnL $24,128 · win rate 100% · categorias: sports
-- 1DVSBSTD · PnL $23,952 · win rate 98% · categorias: n/d
-- BreakTheBank · PnL $91,862 · win rate 87% · categorias: sports, politics
-- us391 · PnL $14,210 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $211,073 · win rate 87% · categorias: sports, politics
+- us391 · PnL $14,005 · win rate 97% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -149,7 +147,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
 - **sec_insiders**: `ok` · 684 registros 30d · ultimo dato 2026-10-19
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-19
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-20
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
