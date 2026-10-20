@@ -1,38 +1,54 @@
 {
-  "generated_at": "2026-10-20T10:20:17+00:00",
+  "generated_at": "2026-10-20T15:22:45+00:00",
   "profile": "moderado",
-  "regime_budget": 0.6,
-  "total_equity": 0.6002,
-  "cash": 0.3998,
+  "regime_budget": 0.8,
+  "total_equity": 0.7998,
+  "cash": 0.2002,
   "weights": {
-    "SPY": 0.1199,
-    "QQQ": 0.0808,
-    "TLT": 0.0808,
-    "BPRE": 0.0737,
-    "CRBG": 0.0716,
-    "GLD": 0.0606,
-    "IEF": 0.0404,
-    "CAMT": 0.0284,
-    "APLD": 0.02,
-    "NVAX": 0.0166,
-    "BMBL": 0.0074
+    "SPY": 0.12,
+    "QQQ": 0.12,
+    "TLT": 0.12,
+    "GLD": 0.12,
+    "BZH": 0.12,
+    "IEF": 0.0802,
+    "BPRE": 0.0285,
+    "CRBG": 0.0276,
+    "VEON": 0.0164,
+    "XGN": 0.0114,
+    "CAMT": 0.011,
+    "NBIS": 0.0079,
+    "APLD": 0.0077,
+    "NVAX": 0.0063,
+    "BMBL": 0.0028
   },
   "core": {
-    "SPY": 0.1365,
-    "QQQ": 0.078,
-    "TLT": 0.078,
-    "IEF": 0.039,
-    "GLD": 0.0585
+    "SPY": 0.182,
+    "QQQ": 0.104,
+    "TLT": 0.104,
+    "IEF": 0.052,
+    "GLD": 0.078
   },
   "satellite": {
-    "BMBL": 0.0071,
-    "CRBG": 0.0691,
-    "APLD": 0.0193,
-    "CAMT": 0.0274,
-    "NVAX": 0.016,
-    "BPRE": 0.0712
+    "CAMT": 0.0071,
+    "BMBL": 0.0018,
+    "CRBG": 0.0179,
+    "APLD": 0.005,
+    "NVAX": 0.0041,
+    "VEON": 0.0106,
+    "BPRE": 0.0185,
+    "BZH": 0.2023,
+    "XGN": 0.0074,
+    "NBIS": 0.0051
   },
   "satellite_rationale": [
+    {
+      "ticker": "CAMT",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
     {
       "ticker": "BMBL",
       "score": 208.5,
@@ -58,7 +74,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "CAMT",
+      "ticker": "NVAX",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -66,7 +82,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "NVAX",
+      "ticker": "VEON",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -80,19 +96,43 @@
         "corporate_insider"
       ],
       "n_signals": 2
+    },
+    {
+      "ticker": "BZH",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "XGN",
+      "score": 58.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "NBIS",
+      "score": 53.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0767,
-    "var_95_1d": 0.0088,
-    "cvar_95_1d": 0.0089,
-    "max_drawdown": -0.0151,
+    "ann_vol": 0.077,
+    "var_95_1d": 0.0083,
+    "cvar_95_1d": 0.0098,
+    "max_drawdown": -0.0175,
     "beta_spy": null,
-    "hhi": 0.0448,
-    "max_position": 0.1199,
-    "n_positions": 11,
-    "effective_positions": 22.3,
-    "gross_exposure": 0.6002,
+    "hhi": 0.0807,
+    "max_position": 0.12,
+    "n_positions": 15,
+    "effective_positions": 12.4,
+    "gross_exposure": 0.7998,
     "days_used": 30
   },
   "risk_gate": {
