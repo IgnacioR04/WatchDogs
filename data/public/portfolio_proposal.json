@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:54:04+00:00",
+  "generated_at": "2026-10-21T22:36:27+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
@@ -9,17 +9,15 @@
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "DX": 0.0752,
     "IEF": 0.0572,
-    "PAG": 0.0432,
-    "VEON": 0.0409,
-    "FSLR": 0.0288,
-    "SE": 0.0286,
-    "RSKD": 0.0246,
-    "NVAX": 0.0198,
-    "CAMT": 0.0186,
-    "SG": 0.0184,
-    "BMBL": 0.01
+    "CRBG": 0.0558,
+    "LLY": 0.0542,
+    "JILL": 0.0402,
+    "TALO": 0.039,
+    "SE": 0.0384,
+    "BZH": 0.0355,
+    "CAMT": 0.0272,
+    "NBIS": 0.0178
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +27,14 @@
     "GLD": 0.078
   },
   "satellite": {
-    "CAMT": 0.0169,
-    "DX": 0.0683,
-    "SG": 0.0167,
-    "BMBL": 0.0091,
-    "NVAX": 0.018,
-    "VEON": 0.0372,
-    "PAG": 0.0393,
-    "RSKD": 0.0224,
-    "FSLR": 0.0262,
-    "SE": 0.026
+    "CAMT": 0.0247,
+    "CRBG": 0.0507,
+    "SE": 0.0349,
+    "JILL": 0.0365,
+    "BZH": 0.0323,
+    "TALO": 0.0354,
+    "LLY": 0.0493,
+    "NBIS": 0.0162
   },
   "satellite_rationale": [
     {
@@ -50,66 +46,10 @@
       "n_signals": 3
     },
     {
-      "ticker": "DX",
-      "score": 151.6,
+      "ticker": "CRBG",
+      "score": 136.1,
       "sources": [
         "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "SG",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "BMBL",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "NVAX",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "VEON",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "PAG",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "RSKD",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "FSLR",
-      "score": 141.0,
-      "sources": [
-        "large_holder"
       ],
       "n_signals": 2
     },
@@ -120,20 +60,60 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "JILL",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "BZH",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "TALO",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "LLY",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "NBIS",
+      "score": 53.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1017,
-    "var_95_1d": 0.0098,
-    "cvar_95_1d": 0.0111,
-    "max_drawdown": -0.0332,
-    "beta_spy": 0.695,
-    "hhi": 0.0638,
+    "ann_vol": 0.1054,
+    "var_95_1d": 0.0106,
+    "cvar_95_1d": 0.0141,
+    "max_drawdown": -0.0757,
+    "beta_spy": 0.685,
+    "hhi": 0.0642,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 15.7,
+    "n_positions": 13,
+    "effective_positions": 15.6,
     "gross_exposure": 0.7999,
-    "days_used": 89
+    "days_used": 272
   },
   "risk_gate": {
     "passed": true,
