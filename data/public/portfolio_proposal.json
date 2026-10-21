@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-10-20T22:34:10+00:00",
+  "generated_at": "2026-10-21T01:51:13+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7997,
-  "cash": 0.2003,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
-    "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
+    "SPY": 0.1201,
+    "QQQ": 0.1145,
+    "TLT": 0.1145,
     "GLD": 0.0858,
-    "DX": 0.0805,
+    "DX": 0.0681,
     "IEF": 0.0572,
-    "BZH": 0.0482,
-    "LLY": 0.0473,
-    "VEON": 0.0438,
-    "NVAX": 0.0212,
-    "CAMT": 0.0199,
-    "SG": 0.0197,
-    "XGN": 0.0165,
-    "BMBL": 0.0108
+    "BZH": 0.0408,
+    "LLY": 0.0399,
+    "PAG": 0.0392,
+    "VEON": 0.0371,
+    "RSKD": 0.0223,
+    "NVAX": 0.0179,
+    "CAMT": 0.0168,
+    "SG": 0.0166,
+    "BMBL": 0.0091
   },
   "core": {
     "SPY": 0.182,
@@ -28,25 +29,18 @@
     "GLD": 0.078
   },
   "satellite": {
-    "BMBL": 0.0098,
-    "CAMT": 0.0181,
-    "DX": 0.0732,
-    "SG": 0.0179,
-    "NVAX": 0.0193,
-    "VEON": 0.0398,
-    "BZH": 0.0438,
-    "LLY": 0.043,
-    "XGN": 0.015
+    "CAMT": 0.0153,
+    "DX": 0.0619,
+    "SG": 0.0151,
+    "BMBL": 0.0083,
+    "NVAX": 0.0163,
+    "VEON": 0.0337,
+    "PAG": 0.0356,
+    "RSKD": 0.0203,
+    "BZH": 0.0371,
+    "LLY": 0.0363
   },
   "satellite_rationale": [
-    {
-      "ticker": "BMBL",
-      "score": 279.0,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 4
-    },
     {
       "ticker": "CAMT",
       "score": 211.5,
@@ -72,6 +66,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "BMBL",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "NVAX",
       "score": 141.0,
       "sources": [
@@ -81,6 +83,22 @@
     },
     {
       "ticker": "VEON",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "PAG",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "RSKD",
       "score": 141.0,
       "sources": [
         "large_holder"
@@ -102,27 +120,19 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "XGN",
-      "score": 58.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0969,
-    "var_95_1d": 0.0101,
-    "cvar_95_1d": 0.011,
-    "max_drawdown": -0.032,
-    "beta_spy": 0.622,
-    "hhi": 0.0658,
-    "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 15.2,
-    "gross_exposure": 0.7997,
+    "ann_vol": 0.0897,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.0099,
+    "max_drawdown": -0.0225,
+    "beta_spy": 0.575,
+    "hhi": 0.0635,
+    "max_position": 0.1201,
+    "n_positions": 15,
+    "effective_positions": 15.7,
+    "gross_exposure": 0.7999,
     "days_used": 89
   },
   "risk_gate": {
