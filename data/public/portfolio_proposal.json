@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:48:38+00:00",
+  "generated_at": "2026-10-22T22:34:58+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
   "total_equity": 0.6002,
@@ -9,16 +9,17 @@
     "QQQ": 0.0808,
     "TLT": 0.0808,
     "GLD": 0.0606,
-    "FBK": 0.0545,
     "IEF": 0.0404,
-    "BPRE": 0.0363,
-    "JILL": 0.0282,
-    "TALO": 0.0246,
-    "SE": 0.0225,
-    "BZH": 0.0181,
-    "CAMT": 0.0144,
-    "CIFR": 0.0097,
-    "NBIS": 0.0093
+    "FBK": 0.0394,
+    "BPRE": 0.0368,
+    "CRBG": 0.0333,
+    "SE": 0.0271,
+    "TALO": 0.0223,
+    "JILL": 0.0213,
+    "CAMT": 0.0137,
+    "RAPP": 0.013,
+    "CIFR": 0.0082,
+    "SRZN": 0.0025
   },
   "core": {
     "SPY": 0.1365,
@@ -28,17 +29,26 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "CIFR": 0.0094,
-    "CAMT": 0.0139,
-    "BPRE": 0.0351,
-    "FBK": 0.0526,
-    "SE": 0.0217,
-    "JILL": 0.0272,
-    "BZH": 0.0175,
-    "TALO": 0.0238,
-    "NBIS": 0.009
+    "RAPP": 0.0126,
+    "CIFR": 0.0079,
+    "CAMT": 0.0132,
+    "BPRE": 0.0355,
+    "CRBG": 0.0322,
+    "FBK": 0.038,
+    "SE": 0.0262,
+    "JILL": 0.0206,
+    "TALO": 0.0215,
+    "SRZN": 0.0024
   },
   "satellite_rationale": [
+    {
+      "ticker": "RAPP",
+      "score": 466.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
+    },
     {
       "ticker": "CIFR",
       "score": 211.5,
@@ -62,6 +72,14 @@
         "corporate_insider"
       ],
       "n_signals": 3
+    },
+    {
+      "ticker": "CRBG",
+      "score": 134.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "FBK",
@@ -88,14 +106,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "BZH",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "TALO",
       "score": 71.8,
       "sources": [
@@ -104,26 +114,26 @@
       "n_signals": 1
     },
     {
-      "ticker": "NBIS",
-      "score": 53.5,
+      "ticker": "SRZN",
+      "score": 70.2,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0754,
-    "var_95_1d": 0.0069,
-    "cvar_95_1d": 0.0092,
-    "max_drawdown": -0.0249,
-    "beta_spy": 0.544,
-    "hhi": 0.0397,
+    "ann_vol": 0.0618,
+    "var_95_1d": 0.0073,
+    "cvar_95_1d": 0.0076,
+    "max_drawdown": -0.0212,
+    "beta_spy": 0.506,
+    "hhi": 0.0389,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 25.2,
+    "n_positions": 15,
+    "effective_positions": 25.7,
     "gross_exposure": 0.6002,
-    "days_used": 126
+    "days_used": 31
   },
   "risk_gate": {
     "passed": true,
