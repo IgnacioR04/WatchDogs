@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-21T22:36:28+00:00 · ventana señales 2026-09-21 -> 2026-10-21_
+_Generado 2026-10-22T01:44:37+00:00 · ventana señales 2026-09-22 -> 2026-10-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -26,29 +26,31 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | QQQ | 11.4% | core | 725.2 | 1.05% | -0.51% | -2.16% |
 | TLT | 11.4% | core | 80.24 | 0.14% | 1.71% | 0.13% |
 | GLD | 8.6% | core | 378.95 | 0.34% | 0.79% | -3.55% |
+| FBK | 7.5% | satellite | 52.1 | -0.29% | 3.41% | -1.03% |
 | IEF | 5.7% | core | 90.23 | -0.02% | 0.58% | 0.39% |
-| CRBG | 5.6% | satellite | 35.3 | 1.0% | 3.98% | 4.16% |
-| LLY | 5.4% | satellite | 1270.75 | -1.01% | 5.13% | 10.4% |
-| JILL | 4.0% | satellite | 23.32 | -1.93% | -3.8% | -3.44% |
-| TALO | 3.9% | satellite | 18.07 | 0.11% | 6.11% | 9.12% |
-| SE | 3.8% | satellite | 77.94 | -3.1% | -18.22% | -24.54% |
-| BZH | 3.5% | satellite | 33.48 | 0.09% | 0.15% | 0.36% |
-| CAMT | 2.7% | satellite | 133.09 | 4.06% | -1.94% | -9.5% |
-| NBIS | 1.8% | satellite | 171.57 | 0.07% | -7.76% | -24.29% |
+| BPRE | 5.0% | satellite | 12.3 | 0.3% | -0.9% | 0.54% |
+| LLY | 4.6% | satellite | 1270.75 | -1.01% | 5.13% | 10.4% |
+| TALO | 3.4% | satellite | 18.07 | 0.11% | 6.11% | 9.12% |
+| SE | 3.1% | satellite | 77.94 | -3.1% | -18.22% | -24.54% |
+| BZH | 2.5% | satellite | 33.48 | 0.09% | 0.15% | 0.36% |
+| CAMT | 2.0% | satellite | 133.09 | 4.06% | -1.94% | -9.5% |
+| CIFR | 1.3% | satellite | 9.13 | 2.82% | -8.15% | -50.25% |
+| NBIS | 1.3% | satellite | 171.57 | 0.07% | -7.76% | -24.29% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.5%
-- VaR 95% 1d: 1.1% · CVaR 95% 1d: 1.4%
-- Max drawdown historico: -7.6%
-- Beta vs SPY: 0.685 · posiciones efectivas: 15.6 · HHI: 0.0642
+- Volatilidad anualizada: 9.7%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -4.3%
+- Beta vs SPY: 0.686 · posiciones efectivas: 15.4 · HHI: 0.065
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **CIFR** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **CAMT** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **CRBG** · score agregado 136.1 · 2 señales · fuentes: corporate_insider
+- **BPRE** · score agregado 185.0 · 3 señales · fuentes: corporate_insider
+- **FBK** · score agregado 121.9 · 2 señales · fuentes: corporate_insider
 - **SE** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **JILL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BZH** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TALO** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **LLY** · score agregado 71.8 · 1 señales · fuentes: large_holder
@@ -82,12 +84,12 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 |--------|------:|--------|-------|--------:|-------|
 | TALO | 59 | corporate_insider | Control Empresarial de Ca | $38,562,754 | - |
 | MU | 57 | corporate_insider | Deboer Scott J | $25,599,600 | - |
+| SNOW | 56 | corporate_insider | Slootman Frank | $26,156,811 | - |
 | ATKR | 56 | corporate_insider | Waltz William E Jr. | $18,204,152 | - |
-| CRSP | 55 | corporate_insider | Kulkarni Samarth | $2,381,326 | - |
+| SNOW | 56 | corporate_insider | Slootman Frank | $21,628,970 | - |
+| SNOW | 55 | corporate_insider | Slootman Frank | $12,896,145 | - |
 | CVX | 55 | corporate_insider | Pate R. Hewitt | $9,224,777 | - |
-| GRND | 55 | corporate_insider | Zage George Raymond III | $4,979,800 | - |
-| PACS | 54 | corporate_insider | Murray Jason Hulse | $1,785,820 | - |
-| NZF | 54 | corporate_insider | Robert Young L | $17,631,183 | - |
+| SNOW | 55 | corporate_insider | Slootman Frank | $12,506,903 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -104,7 +106,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 90.23 (-0.02% / 0.58% / 0.39%) [2026-10-21]
 - GLD: 378.95 (0.34% / 0.79% / -3.55%) [2026-10-21]
 - ^VIX: 16.68 (-3.64% / -1.13% / 9.88%) [2026-10-21]
-- BTC-USD: 84598.25 (2.0% / 3.8% / -0.3%) [2026-10-21]
+- BTC-USD: 83734.81 (0.96% / 2.74% / -1.32%) [2026-10-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -119,35 +121,35 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3)
+**Temas dominantes**: merger (3), stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [JBL] Jabil ( JBL ) Guides to 24 % Growth , but Can Thin Margins Carry the Plan ? (2026-10-21)
 - [UBER] Uber Technologies , Inc . $UBER Stock Sold by Prime Capital Investment Advisors LLC (2026-10-21)
 - [UBER] Uber Technologies ( NYSE : UBER ) Stock Falls 1 . 5 % – Should You Sell ? (2026-10-20)
 - [UBER] Uber Technologies ( UBER ) Is Generating Cash , but Can Robotaxi Spending Preserve Its Valuation ? (2026-10-20)
-- [JBL] Analyzing Yaskawa Electric ( OTCMKTS : YASKY ) and Jabil ( NYSE : JBL ) (2026-10-17)
-- [JBL] Jabil , Inc . $JBL Stock : Triasima Portfolio Management inc . Grows Stake (2026-10-16)
+- [ATKR] Prysmian Completes Atkore Acquisition at $95 Per Eligible Share (2026-10-19)
+- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
+- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - 10% owner GLOBAL X MANAGEMENT COMPANY, INC. compro GXVIX por $25.0M el 2026-10-19.
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $12.1M el 2026-10-16.
 - 10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $38.6M el 2026-10-19 [senal en multiples fuentes].
 - CEO Waltz William E Jr. vendio ATKR por $18.2M el 2026-10-19.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $5.6M el 2026-10-19.
 - 10% owner Saba Capital Management, L.P. opero IAE por $10.2M el 2026-10-16 [senal en multiples fuentes].
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
+- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Jokerxing7 · PnL $352,361 · win rate 96% · categorias: sports
-- OhWhenTheReds · PnL $71,220 · win rate 100% · categorias: sports
-- rabbitfoot1 · PnL $141,130 · win rate 92% · categorias: sports
-- taylorsversion · PnL $143,285 · win rate 91% · categorias: sports, crypto
-- EdZachary · PnL $161,351 · win rate 90% · categorias: sports, politics, economy
+- BreakTheBank · PnL $499,272 · win rate 87% · categorias: sports, politics
+- OhWhenTheReds · PnL $26,388 · win rate 100% · categorias: sports
+- RJW1 · PnL $11,003 · win rate 98% · categorias: sports
+- us391 · PnL $7,147 · win rate 97% · categorias: sports
+- JnStrtPrdctnMrkts · PnL $12,377 · win rate 90% · categorias: crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -155,7 +157,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 637 registros 30d · ultimo dato 2026-10-21
+- **sec_insiders**: `ok` · 675 registros 30d · ultimo dato 2026-10-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -169,7 +171,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BZH, CAMT, CRBG, GLD, IEF, JILL, LLY, NBIS, QQQ, SE, SPY, TALO, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BPRE, BZH, CAMT, CIFR, FBK, GLD, IEF, LLY, NBIS, QQQ, SE, SPY, TALO, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
