@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-22T01:43:40.461004+00:00",
+  "generated_at": "2026-10-22T07:48:55.483550+00:00",
   "window": {
     "from": "2026-09-22",
     "to": "2026-10-22",
@@ -23,8 +23,8 @@
   },
   "market_context": {
     "top_themes": [
-      "merger",
-      "stock"
+      "stock",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -80,11 +80,7 @@
       "event_date": "2026-10-19",
       "importance_score": 83.2,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_258703400519",
-        "news_717686886884",
-        "news_901872828647"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1674332/000167433226000009/"
     },
     {
@@ -453,15 +449,6 @@
         ]
       },
       {
-        "ticker": "JOF",
-        "company": "JAPAN SMALLER CAPITALIZATION FUND, INC.",
-        "pressure_score": 225.1,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "ECF",
         "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
         "pressure_score": 222.4,
@@ -516,6 +503,14 @@
         "pressure_score": 207.7,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "TRXB",
+        "company": "TREX BIO, INC.",
+        "pressure_score": 205.5,
+        "sources": [
+          "large_holder"
         ]
       }
     ],
@@ -619,6 +614,14 @@
         ]
       },
       {
+        "ticker": "MAX",
+        "company": "MediaAlpha, Inc.",
+        "pressure_score": 464.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SNX",
         "company": "TD SYNNEX CORP",
         "pressure_score": 435.8,
@@ -630,14 +633,6 @@
         "ticker": "DNA",
         "company": "Ginkgo Bioworks Holdings, Inc.",
         "pressure_score": 414.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "QLYS",
-        "company": "QUALYS, INC.",
-        "pressure_score": 388.6,
         "sources": [
           "corporate_insider"
         ]
@@ -680,15 +675,6 @@
       "amount": 1415492.42,
       "date": "2026-10-16",
       "score": 79.1
-    },
-    {
-      "ticker": "JOF",
-      "company": "JAPAN SMALLER CAPITALIZATION FUND INC",
-      "actor": "Saba Capital Management, L.P.",
-      "actor_type": "ten_percent_owner",
-      "amount": 358200.0,
-      "date": "2026-10-19",
-      "score": 78.9
     },
     {
       "ticker": "TENX",
@@ -742,6 +728,15 @@
       "actor_type": "director",
       "amount": 1143957.28,
       "date": "2026-10-20",
+      "score": 77.6
+    },
+    {
+      "ticker": "JOF",
+      "company": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 358200.0,
+      "date": "2026-10-19",
       "score": 77.6
     },
     {
@@ -1106,90 +1101,51 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 499271.88,
-        "win_rate": 0.8678,
-        "volume": 11257.67,
+        "pnl": 1442764.58,
+        "win_rate": 0.8696,
+        "volume": 147046.58,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x918b42a06f",
-        "username": "OhWhenTheReds",
-        "pnl": 26388.31,
+        "wallet": "0x93683d55f0",
+        "username": "www511zwin",
+        "pnl": 109846.75,
         "win_rate": 1.0,
-        "volume": 654052.61,
+        "volume": 431404.12,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 11003.18,
-        "win_rate": 0.9832,
-        "volume": 637.85,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 89718.09,
+        "win_rate": 0.9259,
+        "volume": 100158.96,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x3f3aa7005f",
-        "username": "us391",
-        "pnl": 7146.74,
-        "win_rate": 0.97,
-        "volume": 26150.66,
+        "wallet": "0x602785cdf5",
+        "username": "lpcapital1",
+        "pnl": 41870.99,
+        "win_rate": 0.967,
+        "volume": 20.12,
         "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 12377.18,
-        "win_rate": 0.8957,
-        "volume": 0.0,
-        "categories": [
+          "sports",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x16bb9951a3",
-        "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 3451.19,
-        "win_rate": 0.9474,
-        "volume": 0.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 120843.66,
-        "win_rate": 0.713,
-        "volume": 1122203.5,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x29ccb2084a",
-        "username": "PhoenixSuns",
-        "pnl": 4383.11,
-        "win_rate": 0.9296,
-        "volume": 0.0,
-        "categories": [
-          "sports"
         ]
       },
       {
         "wallet": "0x9f15613ebf",
         "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 4660.66,
-        "win_rate": 0.887,
-        "volume": 79063.59,
+        "pnl": 113145.78,
+        "win_rate": 0.889,
+        "volume": 126163.9,
         "categories": [
           "sports",
           "crypto",
@@ -1197,11 +1153,52 @@
         ]
       },
       {
-        "wallet": "0x90c76042cc",
-        "username": "fraagen",
-        "pnl": 13321.39,
-        "win_rate": 1.0,
-        "volume": 45099.89,
+        "wallet": "0xfb07f48542",
+        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
+        "pnl": 55833.15,
+        "win_rate": 0.933,
+        "volume": 65395.6,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x91e67d77b4",
+        "username": "tin54321",
+        "pnl": 88019.24,
+        "win_rate": 0.9302,
+        "volume": 340339.3,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x2879ded7fe",
+        "username": "chongchong37",
+        "pnl": 55679.4,
+        "win_rate": 0.8814,
+        "volume": 172167.14,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb9c7d35d1f",
+        "username": "taylorsversion",
+        "pnl": 31459.05,
+        "win_rate": 0.9145,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x1f3a646ce5",
+        "username": "mooseborzoii",
+        "pnl": 565334.83,
+        "win_rate": 0.716,
+        "volume": 2174218.77,
         "categories": [
           "sports"
         ]
@@ -1209,11 +1206,21 @@
     ],
     "whales": [
       {
+        "wallet": "0xe9b710551d",
+        "username": "googleplay",
+        "pnl": 64053.79,
+        "win_rate": 1.0,
+        "volume": 1830409.75,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 120843.66,
-        "win_rate": 0.713,
-        "volume": 1122203.5,
+        "pnl": 565334.83,
+        "win_rate": 0.716,
+        "volume": 2174218.77,
         "categories": [
           "sports"
         ]
@@ -1221,29 +1228,41 @@
       {
         "wallet": "0x34a1eed3f6",
         "username": "bluemario",
-        "pnl": 32882.03,
-        "win_rate": 0.589,
-        "volume": 1382838.18,
+        "pnl": 33085.39,
+        "win_rate": 0.59,
+        "volume": 1995202.31,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x918b42a06f",
-        "username": "OhWhenTheReds",
-        "pnl": 26388.31,
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 230434.02,
+        "win_rate": 0.542,
+        "volume": 2526855.56,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfea31bc088",
+        "username": "ndb1",
+        "pnl": 91329.65,
+        "win_rate": 0.627,
+        "volume": 360138.35,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0xf72f81c744",
+        "username": "dhgreg",
+        "pnl": 41781.91,
         "win_rate": 1.0,
-        "volume": 654052.61,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xf68a281980",
-        "username": "Nooserac",
-        "pnl": 13654.1,
-        "win_rate": 0.628,
-        "volume": 376845.87,
+        "volume": 321399.32,
         "categories": [
           "sports"
         ]
@@ -1251,9 +1270,9 @@
       {
         "wallet": "0x9b89ef1f34",
         "username": "Woaifacai",
-        "pnl": 17409.67,
-        "win_rate": 0.6214,
-        "volume": 207166.68,
+        "pnl": 25357.12,
+        "win_rate": 0.6111,
+        "volume": 397552.17,
         "categories": [
           "sports",
           "crypto",
@@ -1261,22 +1280,11 @@
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "YYYYY999",
-        "pnl": 61134.07,
-        "win_rate": 0.474,
-        "volume": 97093.75,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x90c76042cc",
-        "username": "fraagen",
-        "pnl": 13321.39,
+        "wallet": "0x93683d55f0",
+        "username": "www511zwin",
+        "pnl": 109846.75,
         "win_rate": 1.0,
-        "volume": 45099.89,
+        "volume": 431404.12,
         "categories": [
           "sports"
         ]
@@ -1284,41 +1292,45 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 499271.88,
-        "win_rate": 0.8678,
-        "volume": 11257.67,
+        "pnl": 1442764.58,
+        "win_rate": 0.8696,
+        "volume": 147046.58,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x9f15613ebf",
-        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-        "pnl": 4660.66,
-        "win_rate": 0.887,
-        "volume": 79063.59,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 83295.77,
+        "win_rate": 0.66,
+        "volume": 320999.45,
         "categories": [
-          "sports",
-          "crypto",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x96489abcb9",
-        "username": "anoin123",
-        "pnl": 8284.47,
-        "win_rate": 0.615,
-        "volume": 17907.09,
-        "categories": [
-          "politics",
-          "economy",
           "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00",
+      "url": "https://www.dailypolitical.com/2026/10/21/united-therapeutics-nasdaquthr-price-target-raised-to-725-00.html",
+      "ticker": "UTHR",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-22"
+    },
+    {
+      "title": "Ginkgo Bioworks ( NYSE : DNA ) Major Shareholder Barry Canton Sells 22 , 369 Shares of Company Stock",
+      "url": "https://www.dailypolitical.com/2026/10/21/ginkgo-bioworks-nysedna-major-shareholder-barry-canton-sells-22369-shares-of-company-stock.html",
+      "ticker": "DNA",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-21"
+    },
     {
       "title": "Uber Technologies , Inc . $UBER Stock Sold by Prime Capital Investment Advisors LLC",
       "url": "https://www.themarketsdaily.com/2026/10/21/uber-technologies-inc-uber-stock-sold-by-prime-capital-investment-advisors-llc.html",
@@ -1343,36 +1355,9 @@
       "ticker": "UBER",
       "themes": [],
       "date": "2026-10-20"
-    },
-    {
-      "title": "Prysmian Completes Atkore Acquisition at $95 Per Eligible Share",
-      "url": "https://econotimes.com/Prysmian-Completes-Atkore-Acquisition-at-95-Per-Eligible-Share-1756918",
-      "ticker": "ATKR",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-10-19"
-    },
-    {
-      "title": "Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider",
-      "url": "http://www.tennesseedaily.com/news/279385381/prysmian-completes-atkore-acquisition-to-accelerate-growth-as-an-electrical-solutions-provider",
-      "ticker": "ATKR",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-10-19"
-    },
-    {
-      "title": "Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider",
-      "url": "http://www.californiatelegraph.com/news/279385381/prysmian-completes-atkore-acquisition-to-accelerate-growth-as-an-electrical-solutions-provider",
-      "ticker": "ATKR",
-      "themes": [
-        "merger"
-      ],
-      "date": "2026-10-19"
     }
   ],
-  "signals_count": 1425,
+  "signals_count": 1429,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

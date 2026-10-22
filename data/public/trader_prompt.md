@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-22T01:44:37+00:00 -->
+<!-- trader_prompt.md generado 2026-10-22T07:49:47+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-22T01:44:37+00:00 · ventana señales 2026-09-22 -> 2026-10-22_
+_Generado 2026-10-22T07:49:47+00:00 · ventana señales 2026-09-22 -> 2026-10-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,10 +243,10 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.68)
+- Volatilidad: `normal` (VIX 18.23)
 - Tendencia: `bull` (SPY 773.09 · MA50 767.35 · MA200 723.24 · dist MA200: 6.89%)
-- Credito: `normal` (HY spread 3.29)
-- Tipos: `flat` (curva 10y-2y 0.33)
+- Credito: `normal` (HY spread 3.33)
+- Tipos: `flat` (curva 10y-2y 0.32)
 - Fed Funds: 3.75%
 - Motivos: tendencia alcista (+)
 
@@ -339,32 +339,31 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 80.24 (0.14% / 1.71% / 0.13%) [2026-10-21]
 - IEF: 90.23 (-0.02% / 0.58% / 0.39%) [2026-10-21]
 - GLD: 378.95 (0.34% / 0.79% / -3.55%) [2026-10-21]
-- ^VIX: 16.68 (-3.64% / -1.13% / 9.88%) [2026-10-21]
-- BTC-USD: 83734.81 (0.96% / 2.74% / -1.32%) [2026-10-22]
+- ^VIX: 18.23 (9.29% / 10.75% / 16.34%) [2026-10-22]
+- BTC-USD: 82174.93 (-2.19% / 0.97% / -2.75%) [2026-10-22]
 
 **Macro (valor · cambio 1m):**
 
-- Treasury 2Y yield: 4.77 (delta 1m: 0.1) [2026-10-19]
-- Treasury 10Y yield: 5.15 (delta 1m: 0.21) [2026-10-19]
-- Curva 10Y-2Y: 0.33 (delta 1m: 0.08) [2026-10-20]
+- Treasury 2Y yield: 4.79 (delta 1m: 0.03) [2026-10-20]
+- Treasury 10Y yield: 5.12 (delta 1m: 0.11) [2026-10-20]
+- Curva 10Y-2Y: 0.32 (delta 1m: 0.12) [2026-10-21]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
-- High yield spread (OAS): 3.29 (delta 1m: 0.61) [2026-10-19]
+- High yield spread (OAS): 3.33 (delta 1m: 0.67) [2026-10-20]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
-- Breakeven inflacion 10Y: 2.35 (delta 1m: 0.02) [2026-10-20]
+- Breakeven inflacion 10Y: 2.37 (delta 1m: 0.03) [2026-10-21]
 - Dolar broad index: 121.4048 (delta 1m: 2.484) [2026-10-16]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (3), stock (2)
+**Temas dominantes**: stock (3), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
+- [DNA] Ginkgo Bioworks ( NYSE : DNA ) Major Shareholder Barry Canton Sells 22 , 369 Shares of Company Stock (2026-10-21)
 - [UBER] Uber Technologies , Inc . $UBER Stock Sold by Prime Capital Investment Advisors LLC (2026-10-21)
 - [UBER] Uber Technologies ( NYSE : UBER ) Stock Falls 1 . 5 % – Should You Sell ? (2026-10-20)
 - [UBER] Uber Technologies ( UBER ) Is Generating Cash , but Can Robotaxi Spending Preserve Its Valuation ? (2026-10-20)
-- [ATKR] Prysmian Completes Atkore Acquisition at $95 Per Eligible Share (2026-10-19)
-- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
-- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -379,11 +378,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $499,272 · win rate 87% · categorias: sports, politics
-- OhWhenTheReds · PnL $26,388 · win rate 100% · categorias: sports
-- RJW1 · PnL $11,003 · win rate 98% · categorias: sports
-- us391 · PnL $7,147 · win rate 97% · categorias: sports
-- JnStrtPrdctnMrkts · PnL $12,377 · win rate 90% · categorias: crypto
+- BreakTheBank · PnL $1,442,765 · win rate 87% · categorias: sports, politics
+- www511zwin · PnL $109,847 · win rate 100% · categorias: sports
+- monkeymashingkeyboard · PnL $89,718 · win rate 93% · categorias: sports
+- lpcapital1 · PnL $41,871 · win rate 97% · categorias: sports, crypto
+- 0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3 · PnL $113,146 · win rate 89% · categorias: sports, crypto, economy
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,7 +390,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 675 registros 30d · ultimo dato 2026-10-21
+- **sec_insiders**: `ok` · 679 registros 30d · ultimo dato 2026-10-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-21
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
