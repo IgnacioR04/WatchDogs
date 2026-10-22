@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T14:06:58+00:00",
+  "generated_at": "2026-10-22T18:48:38+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
-  "total_equity": 0.6001,
-  "cash": 0.3999,
+  "total_equity": 0.6002,
+  "cash": 0.3998,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0808,
     "TLT": 0.0808,
     "GLD": 0.0606,
-    "FBK": 0.0533,
+    "FBK": 0.0545,
     "IEF": 0.0404,
-    "BPRE": 0.0355,
-    "LLY": 0.0323,
-    "TALO": 0.024,
-    "SE": 0.022,
-    "BZH": 0.0177,
-    "CAMT": 0.0141,
-    "CIFR": 0.0095,
-    "NBIS": 0.0091
+    "BPRE": 0.0363,
+    "JILL": 0.0282,
+    "TALO": 0.0246,
+    "SE": 0.0225,
+    "BZH": 0.0181,
+    "CAMT": 0.0144,
+    "CIFR": 0.0097,
+    "NBIS": 0.0093
   },
   "core": {
     "SPY": 0.1365,
@@ -28,15 +28,15 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "CIFR": 0.0092,
-    "CAMT": 0.0136,
-    "BPRE": 0.0343,
-    "FBK": 0.0515,
-    "SE": 0.0212,
-    "BZH": 0.0171,
-    "TALO": 0.0232,
-    "LLY": 0.0312,
-    "NBIS": 0.0088
+    "CIFR": 0.0094,
+    "CAMT": 0.0139,
+    "BPRE": 0.0351,
+    "FBK": 0.0526,
+    "SE": 0.0217,
+    "JILL": 0.0272,
+    "BZH": 0.0175,
+    "TALO": 0.0238,
+    "NBIS": 0.009
   },
   "satellite_rationale": [
     {
@@ -80,6 +80,14 @@
       "n_signals": 1
     },
     {
+      "ticker": "JILL",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
       "ticker": "BZH",
       "score": 71.8,
       "sources": [
@@ -96,14 +104,6 @@
       "n_signals": 1
     },
     {
-      "ticker": "LLY",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
       "ticker": "NBIS",
       "score": 53.5,
       "sources": [
@@ -113,16 +113,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0722,
-    "var_95_1d": 0.0066,
-    "cvar_95_1d": 0.0087,
-    "max_drawdown": -0.0311,
-    "beta_spy": 0.52,
+    "ann_vol": 0.0754,
+    "var_95_1d": 0.0069,
+    "cvar_95_1d": 0.0092,
+    "max_drawdown": -0.0249,
+    "beta_spy": 0.544,
     "hhi": 0.0397,
     "max_position": 0.12,
     "n_positions": 14,
     "effective_positions": 25.2,
-    "gross_exposure": 0.6001,
+    "gross_exposure": 0.6002,
     "days_used": 126
   },
   "risk_gate": {

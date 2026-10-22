@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-22T14:06:59+00:00 -->
+<!-- trader_prompt.md generado 2026-10-22T18:48:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-22T14:06:59+00:00 · ventana señales 2026-09-22 -> 2026-10-22_
+_Generado 2026-10-22T18:48:39+00:00 · ventana señales 2026-09-22 -> 2026-10-22_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,8 +243,8 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.24)
-- Tendencia: `neutral` (SPY 767.0 · MA50 767.28 · MA200 723.64 · dist MA200: 5.99%)
+- Volatilidad: `normal` (VIX 19.78)
+- Tendencia: `neutral` (SPY 762.33 · MA50 767.19 · MA200 723.62 · dist MA200: 5.35%)
 - Credito: `normal` (HY spread 3.27)
 - Tipos: `flat` (curva 10y-2y 0.32)
 - Fed Funds: 3.75%
@@ -255,27 +255,27 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 767.0 | -0.79% | -0.62% | -0.02% |
-| QQQ | 8.1% | core | 714.01 | -1.54% | -1.92% | -3.66% |
-| TLT | 8.1% | core | 81.13 | 1.11% | 1.45% | 2.56% |
-| GLD | 6.1% | core | 371.16 | -2.06% | -3.02% | -5.24% |
-| FBK | 5.3% | satellite | 53.29 | 2.29% | 3.53% | 0.92% |
-| IEF | 4.0% | core | 90.8 | 0.63% | 0.5% | 1.59% |
-| BPRE | 3.5% | satellite | 12.39 | 0.73% | 0.31% | 1.86% |
-| LLY | 3.2% | satellite | 1302.0 | 2.46% | 4.03% | 10.16% |
-| TALO | 2.4% | satellite | 17.81 | -1.44% | 4.89% | 4.64% |
-| SE | 2.2% | satellite | 76.76 | -1.51% | -21.27% | -23.79% |
+| SPY | 12.0% | core | 762.33 | -1.39% | -1.23% | -0.63% |
+| QQQ | 8.1% | core | 703.85 | -2.94% | -3.32% | -5.03% |
+| TLT | 8.1% | core | 81.82 | 1.97% | 2.31% | 3.44% |
+| GLD | 6.1% | core | 369.44 | -2.51% | -3.47% | -5.68% |
+| FBK | 5.5% | satellite | 53.55 | 2.78% | 4.02% | 1.4% |
+| IEF | 4.0% | core | 91.3 | 1.19% | 1.05% | 2.15% |
+| BPRE | 3.6% | satellite | 12.46 | 1.3% | 0.87% | 2.43% |
+| JILL | 2.8% | satellite | 22.78 | -2.32% | -7.7% | -5.28% |
+| TALO | 2.5% | satellite | 17.82 | -1.41% | 4.92% | 4.67% |
+| SE | 2.2% | satellite | 75.99 | -2.51% | -22.07% | -24.57% |
 | BZH | 1.8% | satellite | 33.48 | 0.09% | 0.15% | 0.36% |
-| CAMT | 1.4% | satellite | 124.56 | -6.41% | -5.19% | -14.17% |
-| CIFR | 0.9% | satellite | 8.49 | -7.01% | -15.44% | -53.09% |
-| NBIS | 0.9% | satellite | 161.82 | -5.68% | -14.11% | -33.54% |
+| CAMT | 1.4% | satellite | 118.87 | -10.68% | -9.52% | -18.09% |
+| CIFR | 1.0% | satellite | 8.1 | -11.23% | -19.27% | -55.22% |
+| NBIS | 0.9% | satellite | 157.43 | -8.24% | -16.44% | -35.34% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.2%
+- Volatilidad anualizada: 7.5%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.1%
-- Beta vs SPY: 0.52 · posiciones efectivas: 25.2 · HHI: 0.0397
+- Max drawdown historico: -2.5%
+- Beta vs SPY: 0.544 · posiciones efectivas: 25.2 · HHI: 0.0397
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -284,9 +284,9 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - **BPRE** · score agregado 185.0 · 3 señales · fuentes: corporate_insider
 - **FBK** · score agregado 121.9 · 2 señales · fuentes: corporate_insider
 - **SE** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **JILL** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BZH** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TALO** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **LLY** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **NBIS** · score agregado 53.5 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
@@ -295,21 +295,21 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| NVA | 72 | corporate_insider | Gerteisen Christopher | 2 | $14,183 | cluster_buy,small_amount |
 | IOT | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
 | SE | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
 | JILL | 72 | large_holder | ROYCE & ASSOCIATES LP |  | - | - |
 | BZH | 72 | large_holder | Allan P. Merrill |  | - | - |
 | TALO | 72 | large_holder | Carlos Slim Helu |  | - | - |
-| LLY | 72 | large_holder | LILLY ENDOWMENT, INC. |  | - | - |
 | BLND | 72 | large_holder | Capricorn Fund Managers L |  | - | - |
-| NVA | 71 | corporate_insider | Gerteisen Christopher | 2 | $7,750 | cluster_buy,small_amount |
 | YORW | 70 | corporate_insider | Velazquez David M | 2 | $40,000 | cluster_buy |
 | GXVIX | 70 | corporate_insider | GLOBAL X MANAGEMENT COMPA | 0 | $25,000,000 | - |
 | MAT | 70 | large_holder | EdgePoint Investment Grou |  | - | - |
+| CTY | 70 | large_holder | Invus Public Equities, L. |  | - | - |
+| HESM | 70 | large_holder | Bank of New York Mellon C |  | - | - |
+| FWRG | 70 | large_holder | Bank of New York Mellon C |  | - | - |
+| DLB | 70 | large_holder | Bank of New York Mellon C |  | - | - |
 | CPAC | 70 | large_holder | Inversiones ASPI S.A. |  | - | - |
 | IOND | 70 | large_holder | Sachem Head Capital Manag |  | - | - |
-| SGRP | 70 | large_holder | Brown Rory William |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -331,15 +331,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 767.0 (-0.79% / -0.62% / -0.02%) [2026-10-22]
-- QQQ: 714.01 (-1.54% / -1.92% / -3.66%) [2026-10-22]
-- IWM: 276.59 (0.04% / 0.55% / -1.8%) [2026-10-22]
-- DIA: 527.06 (-0.12% / 1.15% / 2.83%) [2026-10-22]
-- TLT: 81.13 (1.11% / 1.45% / 2.56%) [2026-10-22]
-- IEF: 90.8 (0.63% / 0.5% / 1.59%) [2026-10-22]
-- GLD: 371.16 (-2.06% / -3.02% / -5.24%) [2026-10-22]
-- ^VIX: 18.24 (9.35% / 10.81% / 16.4%) [2026-10-22]
-- BTC-USD: 81590.99 (-2.88% / 0.26% / -3.44%) [2026-10-22]
+- SPY: 762.33 (-1.39% / -1.23% / -0.63%) [2026-10-22]
+- QQQ: 703.85 (-2.94% / -3.32% / -5.03%) [2026-10-22]
+- IWM: 275.86 (-0.22% / 0.28% / -2.06%) [2026-10-22]
+- DIA: 526.78 (-0.17% / 1.1% / 2.77%) [2026-10-22]
+- TLT: 81.82 (1.97% / 2.31% / 3.44%) [2026-10-22]
+- IEF: 91.3 (1.19% / 1.05% / 2.15%) [2026-10-22]
+- GLD: 369.44 (-2.51% / -3.47% / -5.68%) [2026-10-22]
+- ^VIX: 19.78 (18.59% / 20.17% / 26.23%) [2026-10-22]
+- BTC-USD: 81260.62 (-3.27% / -0.15% / -3.83%) [2026-10-22]
 
 **Macro (valor · cambio 1m):**
 
@@ -358,6 +358,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -373,11 +374,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,439,672 · win rate 87% · categorias: sports, politics
+- BreakTheBank · PnL $1,437,898 · win rate 87% · categorias: sports, politics
+- CoinTrick · PnL $174,371 · win rate 100% · categorias: sports, politics, crypto
 - www511zwin · PnL $109,847 · win rate 100% · categorias: sports
-- monkeymashingkeyboard · PnL $90,006 · win rate 93% · categorias: sports
-- lpcapital1 · PnL $41,860 · win rate 97% · categorias: sports, crypto
-- 0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542 · PnL $61,217 · win rate 93% · categorias: sports
+- crisp1973 · PnL $48,225 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $90,932 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -385,7 +386,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 674 registros 30d · ultimo dato 2026-10-21
+- **sec_insiders**: `ok` · 651 registros 30d · ultimo dato 2026-10-21
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-22
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -399,7 +400,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BPRE, BZH, CAMT, CIFR, FBK, GLD, IEF, LLY, NBIS, QQQ, SE, SPY, TALO, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BPRE, BZH, CAMT, CIFR, FBK, GLD, IEF, JILL, NBIS, QQQ, SE, SPY, TALO, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
