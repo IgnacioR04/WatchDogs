@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-22T22:34:58+00:00",
+  "generated_at": "2026-10-23T01:46:37+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
-  "total_equity": 0.6002,
-  "cash": 0.3998,
+  "total_equity": 0.6,
+  "cash": 0.4,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.0808,
     "TLT": 0.0808,
     "GLD": 0.0606,
+    "ACU": 0.0455,
     "IEF": 0.0404,
-    "FBK": 0.0394,
-    "BPRE": 0.0368,
-    "CRBG": 0.0333,
-    "SE": 0.0271,
-    "TALO": 0.0223,
-    "JILL": 0.0213,
-    "CAMT": 0.0137,
-    "RAPP": 0.013,
-    "CIFR": 0.0082,
-    "SRZN": 0.0025
+    "KOP": 0.0356,
+    "HESM": 0.0306,
+    "FWRG": 0.0245,
+    "MAT": 0.0234,
+    "CAMT": 0.0174,
+    "PENG": 0.0126,
+    "CTNM": 0.0111,
+    "CIFR": 0.0096,
+    "BMBL": 0.0071
   },
   "core": {
     "SPY": 0.1365,
@@ -29,26 +29,18 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "RAPP": 0.0126,
-    "CIFR": 0.0079,
-    "CAMT": 0.0132,
-    "BPRE": 0.0355,
-    "CRBG": 0.0322,
-    "FBK": 0.038,
-    "SE": 0.0262,
-    "JILL": 0.0206,
-    "TALO": 0.0215,
-    "SRZN": 0.0024
+    "CIFR": 0.0093,
+    "CAMT": 0.0168,
+    "BMBL": 0.0069,
+    "KOP": 0.0344,
+    "PENG": 0.0122,
+    "MAT": 0.0226,
+    "CTNM": 0.0107,
+    "ACU": 0.0439,
+    "HESM": 0.0295,
+    "FWRG": 0.0237
   },
   "satellite_rationale": [
-    {
-      "ticker": "RAPP",
-      "score": 466.9,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
     {
       "ticker": "CIFR",
       "score": 211.5,
@@ -66,31 +58,23 @@
       "n_signals": 3
     },
     {
-      "ticker": "BPRE",
-      "score": 185.0,
+      "ticker": "BMBL",
+      "score": 141.0,
       "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "CRBG",
-      "score": 134.9,
-      "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "FBK",
-      "score": 121.9,
+      "ticker": "KOP",
+      "score": 139.5,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "SE",
+      "ticker": "PENG",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -98,24 +82,40 @@
       "n_signals": 1
     },
     {
-      "ticker": "JILL",
-      "score": 71.8,
+      "ticker": "MAT",
+      "score": 70.5,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "TALO",
-      "score": 71.8,
+      "ticker": "CTNM",
+      "score": 70.5,
       "sources": [
         "large_holder"
       ],
       "n_signals": 1
     },
     {
-      "ticker": "SRZN",
-      "score": 70.2,
+      "ticker": "ACU",
+      "score": 70.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "HESM",
+      "score": 70.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "FWRG",
+      "score": 70.5,
       "sources": [
         "large_holder"
       ],
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0618,
-    "var_95_1d": 0.0073,
-    "cvar_95_1d": 0.0076,
-    "max_drawdown": -0.0212,
-    "beta_spy": 0.506,
+    "ann_vol": 0.0722,
+    "var_95_1d": 0.0078,
+    "cvar_95_1d": 0.0088,
+    "max_drawdown": -0.0252,
+    "beta_spy": 0.535,
     "hhi": 0.0389,
     "max_position": 0.12,
     "n_positions": 15,
     "effective_positions": 25.7,
-    "gross_exposure": 0.6002,
-    "days_used": 31
+    "gross_exposure": 0.6,
+    "days_used": 58
   },
   "risk_gate": {
     "passed": true,
