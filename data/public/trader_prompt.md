@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-23T07:43:14+00:00 -->
+<!-- trader_prompt.md generado 2026-10-23T13:43:48+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-23T07:43:14+00:00 · ventana señales 2026-09-23 -> 2026-10-23_
+_Generado 2026-10-23T13:43:48+00:00 · ventana señales 2026-09-23 -> 2026-10-23_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -242,46 +242,49 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 ## 1. Regimen de mercado
 
-- **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.2)
-- Tendencia: `neutral` (SPY 763.96 · MA50 767.22 · MA200 723.62 · dist MA200: 5.57%)
-- Credito: `normal` (HY spread 3.27)
+- **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 45.0%** (exposicion maxima a activos; el resto en cash)
+- Volatilidad: `elevated` (VIX 20.08)
+- Tendencia: `neutral` (SPY 760.48 · MA50 766.91 · MA200 724.0 · dist MA200: 5.04%)
+- Credito: `normal` (HY spread 3.4)
 - Tipos: `flat` (curva 10y-2y 0.31)
 - Fed Funds: 3.75%
+- Motivos: VIX elevado (-)
 
 ## 2. Cartera CANDIDATA (propuesta por el codigo)
 
-Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PASS**
+Perfil **moderado** · exposicion total **45.0%** · cash **55.0%** · gate **PASS**
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 763.96 | -1.18% | -1.01% | -0.42% |
-| DOLE | 8.3% | satellite | 13.52 | 3.13% | 0.82% | 4.81% |
-| QQQ | 8.1% | core | 704.47 | -2.86% | -3.23% | -4.94% |
-| TLT | 8.1% | core | 81.74 | 1.87% | 2.21% | 3.34% |
-| GLD | 6.1% | core | 369.0 | -2.63% | -3.58% | -5.79% |
-| BPRE | 6.0% | satellite | 12.37 | 0.57% | 0.15% | 1.69% |
-| IEF | 4.0% | core | 91.2 | 1.08% | 0.94% | 2.03% |
-| CAMT | 2.2% | satellite | 119.48 | -10.23% | -9.06% | -17.67% |
-| RAPP | 2.1% | satellite | 26.53 | 5.87% | -10.28% | -21.58% |
-| PENG | 1.4% | satellite | 51.91 | -11.08% | -16.08% | -2.2% |
-| CIFR | 1.3% | satellite | 8.32 | -8.87% | -17.13% | -54.03% |
-| SRZN | 0.4% | satellite | 25.75 | 1.7% | 2.71% | -23.55% |
+| SPY | 10.2% | core | 760.48 | -0.45% | -0.36% | -1.41% |
+| QQQ | 5.9% | core | 704.09 | -0.05% | -0.8% | -5.43% |
+| TLT | 5.9% | core | 81.64 | -0.12% | 1.99% | 3.34% |
+| DOLE | 5.0% | satellite | 13.63 | 0.81% | 2.48% | 5.01% |
+| GLD | 4.4% | core | 368.75 | -0.07% | -3.47% | -6.27% |
+| BPRE | 3.6% | satellite | 12.59 | 1.78% | 3.17% | 3.08% |
+| IEF | 2.9% | core | 91.15 | -0.05% | 0.81% | 1.63% |
+| SE | 2.7% | satellite | 74.42 | -1.68% | -20.64% | -25.25% |
+| CAMT | 1.3% | satellite | 119.49 | 0.01% | -7.71% | -18.74% |
+| RAPP | 1.3% | satellite | 26.44 | -0.35% | -4.11% | -22.04% |
+| PENG | 0.9% | satellite | 50.97 | -1.81% | -10.74% | -9.34% |
+| CIFR | 0.8% | satellite | 8.39 | 0.78% | -6.63% | -52.71% |
+| SRZN | 0.2% | satellite | 24.97 | -3.03% | 6.53% | -15.47% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.7%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.0%
-- Max drawdown historico: -2.6%
-- Beta vs SPY: 0.593 · posiciones efectivas: 22.5 · HHI: 0.0445
+- Volatilidad anualizada: 5.4%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.7%
+- Max drawdown historico: -2.1%
+- Beta vs SPY: 0.436 · posiciones efectivas: 39.9 · HHI: 0.0251
 
 **Por que estos satellite (señales WATCHDOG):**
 
-- **RAPP** · score agregado 466.9 · 6 señales · fuentes: corporate_insider
+- **RAPP** · score agregado 386.6 · 5 señales · fuentes: corporate_insider
 - **CIFR** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **CAMT** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **DOLE** · score agregado 194.9 · 3 señales · fuentes: corporate_insider
 - **BPRE** · score agregado 185.0 · 3 señales · fuentes: corporate_insider
+- **SE** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **PENG** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **SRZN** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
@@ -291,19 +294,19 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| RAPP | 81 | corporate_insider | PAUL STEVEN M | 5 | $974,278 | cluster_buy |
-| RAPP | 80 | corporate_insider | Ignelzi Troy A. | 5 | $143,550 | cluster_buy |
-| RAPP | 78 | corporate_insider | MARAGANORE JOHN | 5 | $217,344 | cluster_buy |
+| RAPP | 81 | corporate_insider | PAUL STEVEN M | 4 | $974,278 | cluster_buy |
+| RAPP | 78 | corporate_insider | MARAGANORE JOHN | 4 | $217,344 | cluster_buy |
 | LEO | 77 | corporate_insider | Saba Capital Management,  | 2 | $262,612 | cluster_buy |
-| RAPP | 76 | corporate_insider | Silva Paul M | 5 | $99,636 | cluster_buy |
-| RAPP | 76 | corporate_insider | Young Wendy B. | 5 | $99,992 | cluster_buy |
+| RAPP | 76 | corporate_insider | Silva Paul M | 4 | $99,636 | cluster_buy |
+| RAPP | 76 | corporate_insider | Young Wendy B. | 4 | $99,992 | cluster_buy |
 | DSM | 75 | corporate_insider | Saba Capital Management,  | 2 | $109,459 | cluster_buy |
-| RAPP | 74 | corporate_insider | MARAGANORE JOHN | 5 | $31,547 | cluster_buy |
+| RAPP | 74 | corporate_insider | MARAGANORE JOHN | 4 | $31,547 | cluster_buy |
 | DSM | 74 | corporate_insider | Saba Capital Management,  | 2 | $77,528 | cluster_buy |
 | LEO | 73 | corporate_insider | Saba Capital Management,  | 2 | $44,181 | cluster_buy |
 | SNES | 72 | large_holder | GLENBROOK CAPITAL MANAGEM |  | - | - |
 | ACU | 72 | large_holder | The Capital Management Co |  | - | - |
 | IOT | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
+| SE | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
 | HERZ | 72 | large_holder | CSS LLC/IL |  | - | - |
 | PENG | 72 | large_holder | BANK OF NOVA SCOTIA |  | - | - |
 
@@ -327,15 +330,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 763.96 (-1.18% / -1.01% / -0.42%) [2026-10-22]
-- QQQ: 704.47 (-2.86% / -3.23% / -4.94%) [2026-10-22]
-- IWM: 276.67 (0.07% / 0.58% / -1.77%) [2026-10-22]
-- DIA: 527.89 (0.04% / 1.31% / 2.99%) [2026-10-22]
-- TLT: 81.74 (1.87% / 2.21% / 3.34%) [2026-10-22]
-- IEF: 91.2 (1.08% / 0.94% / 2.03%) [2026-10-22]
-- GLD: 369.0 (-2.63% / -3.58% / -5.79%) [2026-10-22]
-- ^VIX: 19.2 (0.89% / -3.95% / 29.12%) [2026-10-23]
-- BTC-USD: 81641.13 (0.4% / -0.46% / -3.68%) [2026-10-23]
+- SPY: 760.48 (-0.45% / -0.36% / -1.41%) [2026-10-23]
+- QQQ: 704.09 (-0.05% / -0.8% / -5.43%) [2026-10-23]
+- IWM: 274.57 (-0.76% / 1.53% / -2.63%) [2026-10-23]
+- DIA: 522.23 (-1.07% / 0.6% / 0.94%) [2026-10-23]
+- TLT: 81.64 (-0.12% / 1.99% / 3.34%) [2026-10-23]
+- IEF: 91.15 (-0.05% / 0.81% / 1.63%) [2026-10-23]
+- GLD: 368.75 (-0.07% / -3.47% / -6.27%) [2026-10-23]
+- ^VIX: 20.08 (5.52% / 0.45% / 35.04%) [2026-10-23]
+- BTC-USD: 81863.65 (0.68% / -0.19% / -3.42%) [2026-10-23]
 
 **Macro (valor · cambio 1m):**
 
@@ -343,46 +346,35 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - Treasury 10Y yield: 5.13 (delta 1m: 0.17) [2026-10-21]
 - Curva 10Y-2Y: 0.31 (delta 1m: 0.06) [2026-10-22]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
-- High yield spread (OAS): 3.27 (delta 1m: 0.59) [2026-10-21]
+- High yield spread (OAS): 3.4 (delta 1m: 0.67) [2026-10-22]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
 - Breakeven inflacion 10Y: 2.32 (delta 1m: -0.01) [2026-10-22]
 - Dolar broad index: 121.4048 (delta 1m: 2.484) [2026-10-16]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (3), merger (3), regulatory (1)
-
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
-- [CRWD] AI gave the hacker the tools , weak security opened the door : CrowdStrike (2026-10-22)
-- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
-- [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
-- [DNA] Ginkgo Bioworks ( NYSE : DNA ) Major Shareholder Barry Canton Sells 22 , 369 Shares of Company Stock (2026-10-21)
-- [ANET] Arista Networks Vs . Cisco Systems : Modern AI Data Center Networking vs . Legacy Enterprise Switch Leader (2026-10-21)
-- [ATKR] Prysmian Completes Atkore Acquisition at $95 Per Eligible Share (2026-10-19)
-- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
-- [ATKR] Prysmian Completes Atkore Acquisition to Accelerate Growth as an Electrical Solutions Provider (2026-10-19)
+- [CRDO] Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
 - CEO WIRTH JAMES F vendio IHT por $2.0B el 2026-10-20.
 - 10% owner GLOBAL X MANAGEMENT COMPANY, INC. compro GXVIX por $25.0M el 2026-10-19.
+- CEO Feng Zhimin opero SE por $15.0M el 2026-10-21 [senal en multiples fuentes].
 - 10% owner Pale Fire Capital SE compro DOLE por $5.8M el 2026-10-21.
 - CEO Waltz William E Jr. vendio ATKR por $18.2M el 2026-10-19.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.8M el 2026-10-20.
 - 10% owner Pale Fire Capital SE compro DOLE por $2.2M el 2026-10-22.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
-- Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,531,126 · win rate 87% · categorias: sports, politics
-- RJW1 · PnL $89,620 · win rate 98% · categorias: sports
+- BreakTheBank · PnL $1,539,755 · win rate 87% · categorias: sports, politics
+- RJW1 · PnL $86,307 · win rate 98% · categorias: sports
 - Jokerxing7 · PnL $56,583 · win rate 96% · categorias: sports
 - chubbytoro · PnL $29,931 · win rate 100% · categorias: sports
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $56,654 · win rate 95% · categorias: sports
+- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $59,331 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -390,8 +382,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 604 registros 30d · ultimo dato 2026-10-22
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-22
+- **sec_insiders**: `ok` · 614 registros 30d · ultimo dato 2026-10-22
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -404,8 +396,8 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BPRE, CAMT, CIFR, DOLE, GLD, IEF, PENG, QQQ, RAPP, SPY, SRZN, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
-2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
+1. **Universo permitido**: tickers de la cartera candidata (`BPRE, CAMT, CIFR, DOLE, GLD, IEF, PENG, QQQ, RAPP, SE, SPY, SRZN, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+2. **Presupuesto de riesgo**: la suma de todos los pesos <= **45.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.
 5. **Liquidez para posiciones NUEVAS**: precio >= $5 y volumen medio >= $2M/dia. Mantener una posicion abierta que se volvio iliquida es legal; abrir una nueva iliquida no.
