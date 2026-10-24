@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-24T11:13:11+00:00 -->
+<!-- trader_prompt.md generado 2026-10-24T14:51:02+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-24T11:13:11+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
+_Generado 2026-10-24T14:51:01+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,21 +257,21 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 759.97 | -0.52% | -0.43% | -1.48% |
 | BWMN | 12.0% | satellite | 42.83 | -0.02% | 0.14% | 0.61% |
-| QQQ | 9.5% | core | 704.4 | -0.01% | -0.76% | -5.39% |
-| TLT | 9.5% | core | 81.34 | -0.49% | 1.61% | 2.96% |
-| GLD | 7.1% | core | 366.61 | -0.65% | -4.03% | -6.81% |
-| IEF | 4.8% | core | 91.05 | -0.16% | 0.7% | 1.52% |
-| NXG | 1.9% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
-| SE | 1.8% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
-| CAMT | 0.9% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
+| QQQ | 9.8% | core | 704.4 | -0.01% | -0.76% | -5.39% |
+| TLT | 9.8% | core | 81.34 | -0.49% | 1.61% | 2.96% |
+| GLD | 7.3% | core | 366.61 | -0.65% | -4.03% | -6.81% |
+| IEF | 4.9% | core | 91.05 | -0.16% | 0.7% | 1.52% |
+| NXG | 1.5% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
+| SE | 1.3% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
+| CAMT | 0.8% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
 | CIFR | 0.5% | satellite | 7.94 | -4.57% | -11.58% | -55.22% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 5.2%
+- Volatilidad anualizada: 5.3%
 - VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -1.6%
-- Beta vs SPY: None · posiciones efectivas: 18.2 · HHI: 0.0551
+- Max drawdown historico: -2.5%
+- Beta vs SPY: 0.452 · posiciones efectivas: 17.8 · HHI: 0.0563
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80564.95 (-0.63% / -1.57% / -6.84%) [2026-10-24]
+- BTC-USD: 80182.77 (-1.1% / -2.04% / -7.28%) [2026-10-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,15 +346,18 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (3), leadership (1), merger (1), regulatory (1)
+**Temas dominantes**: stock (5), ai (4), leadership (2), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
 - [CRWD] CrowdStrike Shares Gain 8 . 25 % as CEO Warns of PHP Breaches (2026-10-24)
 - [CRWD] CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily (2026-10-24)
 - [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
 - [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
 - [CRWD] CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily (2026-10-23)
+- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -369,11 +372,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- Jokerxing7 · PnL $266,768 · win rate 97% · categorias: sports
-- BreakTheBank · PnL $862,591 · win rate 87% · categorias: sports, politics
-- chubbytoro · PnL $119,215 · win rate 100% · categorias: sports
-- monkeymashingkeyboard · PnL $273,866 · win rate 93% · categorias: sports
-- tin54321 · PnL $137,284 · win rate 95% · categorias: sports
+- Jokerxing7 · PnL $233,616 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $871,072 · win rate 87% · categorias: sports, politics
+- chubbytoro · PnL $119,286 · win rate 100% · categorias: sports
+- 1l2ihj34li12u34 · PnL $114,189 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $278,239 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
