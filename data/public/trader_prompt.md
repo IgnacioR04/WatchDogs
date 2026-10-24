@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-24T06:07:17+00:00 -->
+<!-- trader_prompt.md generado 2026-10-24T11:13:11+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-24T06:07:17+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
+_Generado 2026-10-24T11:13:11+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80598.24 (-0.88% / -1.73% / -4.91%) [2026-10-24]
+- BTC-USD: 80564.95 (-0.63% / -1.57% / -6.84%) [2026-10-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,17 +346,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (3), ai (2)
+**Temas dominantes**: stock (5), ai (3), leadership (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike Shares Gain 8 . 25 % as CEO Warns of PHP Breaches (2026-10-24)
+- [CRWD] CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily (2026-10-24)
 - [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
-- [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
-- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
-- [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
-- [ANET] Arista Networks Vs . Cisco Systems : Modern AI Data Center Networking vs . Legacy Enterprise Switch Leader (2026-10-21)
-- [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
+- [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
+- [CRWD] CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily (2026-10-23)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -371,10 +369,10 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $848,919 · win rate 87% · categorias: sports, politics
-- chubbytoro · PnL $118,965 · win rate 100% · categorias: sports
-- monkeymashingkeyboard · PnL $317,828 · win rate 93% · categorias: sports
-- Jokerxing7 · PnL $162,466 · win rate 97% · categorias: sports
+- Jokerxing7 · PnL $266,768 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $862,591 · win rate 87% · categorias: sports, politics
+- chubbytoro · PnL $119,215 · win rate 100% · categorias: sports
+- monkeymashingkeyboard · PnL $273,866 · win rate 93% · categorias: sports
 - tin54321 · PnL $137,284 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.

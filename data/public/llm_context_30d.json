@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-24T06:06:28.599282+00:00",
+  "generated_at": "2026-10-24T11:12:16.776679+00:00",
   "window": {
     "from": "2026-09-24",
     "to": "2026-10-24",
@@ -18,13 +18,16 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
       "stock",
-      "ai"
+      "ai",
+      "leadership",
+      "merger",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -44,9 +47,7 @@
       "event_date": "2026-10-23",
       "importance_score": 88.3,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_727698963962"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1486776/000173944526000172/"
     },
     {
@@ -100,9 +101,7 @@
       "event_date": "2026-10-23",
       "importance_score": 84.8,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_727698963962"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757425/000173944526000162/"
     },
     {
@@ -174,9 +173,7 @@
       "event_date": "2026-10-23",
       "importance_score": 83.5,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_727698963962"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754376/000173944526000173/"
     },
     {
@@ -230,9 +227,7 @@
       "event_date": "2026-10-23",
       "importance_score": 82.8,
       "cross_source_score": 0.0,
-      "related_news": [
-        "news_727698963962"
-      ],
+      "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757434/000173944526000175/"
     },
     {
@@ -1106,11 +1101,21 @@
   "polymarket": {
     "smart_traders": [
       {
+        "wallet": "0xe221be3b45",
+        "username": "Jokerxing7",
+        "pnl": 266768.24,
+        "win_rate": 0.9667,
+        "volume": 162966.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 848919.27,
+        "pnl": 862591.43,
         "win_rate": 0.8744,
-        "volume": 3459466.18,
+        "volume": 3460192.3,
         "categories": [
           "sports",
           "politics"
@@ -1119,9 +1124,9 @@
       {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 118964.69,
+        "pnl": 119214.66,
         "win_rate": 1.0,
-        "volume": 0.0,
+        "volume": 16785.27,
         "categories": [
           "sports"
         ]
@@ -1129,19 +1134,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 317827.71,
-        "win_rate": 0.9253,
-        "volume": 471817.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe221be3b45",
-        "username": "Jokerxing7",
-        "pnl": 162466.31,
-        "win_rate": 0.9667,
-        "volume": 140406.64,
+        "pnl": 273865.67,
+        "win_rate": 0.9254,
+        "volume": 522348.58,
         "categories": [
           "sports"
         ]
@@ -1159,9 +1154,9 @@
       {
         "wallet": "0x3f3aa7005f",
         "username": "us391",
-        "pnl": 19102.81,
+        "pnl": 30043.85,
         "win_rate": 0.977,
-        "volume": 36881.89,
+        "volume": 121041.91,
         "categories": [
           "sports"
         ]
@@ -1169,7 +1164,7 @@
       {
         "wallet": "0x14494e6733",
         "username": "SadSquid54333",
-        "pnl": 49420.88,
+        "pnl": 49435.71,
         "win_rate": 0.9142,
         "volume": 98190.12,
         "categories": [
@@ -1179,9 +1174,9 @@
       {
         "wallet": "0xfb07f48542",
         "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
-        "pnl": 37438.84,
-        "win_rate": 0.933,
-        "volume": 81623.07,
+        "pnl": 39365.23,
+        "win_rate": 0.927,
+        "volume": 170522.76,
         "categories": [
           "sports"
         ]
@@ -1189,7 +1184,7 @@
       {
         "wallet": "0xf28e42d20e",
         "username": "ethanaz",
-        "pnl": 75743.73,
+        "pnl": 75770.22,
         "win_rate": 0.868,
         "volume": 152289.52,
         "categories": [
@@ -1198,13 +1193,14 @@
         ]
       },
       {
-        "wallet": "0x2879ded7fe",
-        "username": "chongchong37",
-        "pnl": 48987.22,
-        "win_rate": 0.8816,
-        "volume": 20873.5,
+        "wallet": "0xddc38b8242",
+        "username": "JohnLKellyJr",
+        "pnl": 25583.65,
+        "win_rate": 0.938,
+        "volume": 45826.04,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       }
     ],
@@ -1212,12 +1208,22 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 848919.27,
+        "pnl": 862591.43,
         "win_rate": 0.8744,
-        "volume": 3459466.18,
+        "volume": 3460192.3,
         "categories": [
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x1f3a646ce5",
+        "username": "mooseborzoii",
+        "pnl": 21530.97,
+        "win_rate": 0.712,
+        "volume": 4276233.58,
+        "categories": [
+          "sports"
         ]
       },
       {
@@ -1226,6 +1232,16 @@
         "pnl": 341119.55,
         "win_rate": 0.5652,
         "volume": 560068.91,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 81067.76,
+        "win_rate": 0.541,
+        "volume": 2668562.39,
         "categories": [
           "sports"
         ]
@@ -1241,19 +1257,20 @@
         ]
       },
       {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 79998.95,
-        "win_rate": 0.547,
-        "volume": 2315153.43,
+        "wallet": "0x6ac5bb06a9",
+        "username": "YYYYY999",
+        "pnl": 31948.39,
+        "win_rate": 0.469,
+        "volume": 510239.48,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
         "wallet": "0x1610db79f7",
         "username": "NS13",
-        "pnl": 22352.62,
+        "pnl": 22192.92,
         "win_rate": 0.438,
         "volume": 741989.41,
         "categories": [
@@ -1263,29 +1280,9 @@
       {
         "wallet": "0x0d6a1ada6d",
         "username": "keeptheblueflagflyinghigh",
-        "pnl": 81731.73,
-        "win_rate": 0.5855,
-        "volume": 979878.68,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 317827.71,
-        "win_rate": 0.9253,
-        "volume": 471817.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe221be3b45",
-        "username": "Jokerxing7",
-        "pnl": 162466.31,
-        "win_rate": 0.9667,
-        "volume": 140406.64,
+        "pnl": 83675.0,
+        "win_rate": 0.5845,
+        "volume": 1019441.88,
         "categories": [
           "sports"
         ]
@@ -1293,28 +1290,47 @@
       {
         "wallet": "0x34a1eed3f6",
         "username": "bluemario",
-        "pnl": 111360.96,
-        "win_rate": 0.564,
-        "volume": 272717.93,
+        "pnl": 77624.11,
+        "win_rate": 0.563,
+        "volume": 555924.81,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x58b3380f71",
-        "username": "timetowander",
-        "pnl": 21957.95,
-        "win_rate": 0.6121,
-        "volume": 194382.39,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 64789.59,
+        "win_rate": 0.66,
+        "volume": 1752899.61,
         "categories": [
-          "sports",
-          "politics",
-          "crypto"
+          "sports"
         ]
       }
     ]
   },
   "news": [
+    {
+      "title": "CrowdStrike Shares Gain 8 . 25 % as CEO Warns of PHP Breaches",
+      "url": "https://econotimes.com/CrowdStrike-Shares-Gain-8-25-as-CEO-Warns-of-PHP-Breaches-1762077",
+      "ticker": "CRWD",
+      "themes": [
+        "ai",
+        "leadership",
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "title": "CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily",
+      "url": "https://www.investors.com/research/crowdstrike-soars-20-percent-among-11-on-best-stock-lists/",
+      "ticker": "CRWD",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
     {
       "title": "Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock",
       "url": "https://www.dailypolitical.com/2026/10/23/alamar-biosciences-nasdaqalmr-major-shareholder-corporate-gp-vi-ltd-qiming-sells-133811-shares-of-stock.html",
@@ -1325,54 +1341,25 @@
       "date": "2026-10-24"
     },
     {
-      "title": "Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/22/adobe-vs-arista-networks-which-tech-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "ticker": "ANET",
+      "title": "PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock",
+      "url": "https://www.themarketsdaily.com/2026/10/23/pimco-new-york-municipal-income-fund-ii-nysepni-major-shareholder-of-america-corp-de-bank-acquires-12170-shares-of-company-stock.html",
+      "ticker": "PNI",
       "themes": [
+        "merger",
+        "regulatory",
         "stock"
       ],
       "date": "2026-10-23"
     },
     {
-      "title": "United Therapeutics Authorizes Additional $2 Billion Share Buyback Program",
-      "url": "https://www.rttnews.com/3701885/united-therapeutics-authorizes-additional-2-billion-share-buyback-program.aspx",
-      "ticker": "UTHR",
-      "themes": [],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00",
-      "url": "https://www.dailypolitical.com/2026/10/21/united-therapeutics-nasdaquthr-price-target-raised-to-725-00.html",
-      "ticker": "UTHR",
+      "title": "CrowdStrike Soars 20 %, Joins 11 New To Best Stock Lists | Investor Business Daily",
+      "url": "https://www.investors.com:443/research/crowdstrike-soars-20-percent-among-11-on-best-stock-lists/",
+      "ticker": "CRWD",
       "themes": [
-        "ai"
-      ],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-crowdstrike-which-tech-stock-is-a-better-buy-in-2026/",
-      "ticker": "ANET",
-      "themes": [
+        "ai",
         "stock"
       ],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Arista Networks Vs . Cisco Systems : Modern AI Data Center Networking vs . Legacy Enterprise Switch Leader",
-      "url": "https://247wallst.com/investing/2026/10/21/arista-networks-vs-cisco-systems-modern-ai-data-center-networking-vs-legacy-enterprise-switch-leader/",
-      "ticker": "ANET",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? ",
-      "url": "https://www.themarketsdaily.com/2026/10/20/arcosa-nyseaca-sets-new-52-week-high-still-a-buy.html",
-      "ticker": "ACA",
-      "themes": [],
-      "date": "2026-10-20"
+      "date": "2026-10-23"
     }
   ],
   "signals_count": 1452,
