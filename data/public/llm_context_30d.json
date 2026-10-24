@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-23T22:26:41.540785+00:00",
+  "generated_at": "2026-10-24T00:56:40.579488+00:00",
   "window": {
-    "from": "2026-09-23",
-    "to": "2026-10-23",
+    "from": "2026-09-24",
+    "to": "2026-10-24",
     "days": 30
   },
   "data_quality": {
@@ -23,9 +23,9 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
-      "earnings",
-      "ai"
+      "merger",
+      "regulatory",
+      "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -45,7 +45,9 @@
       "event_date": "2026-10-23",
       "importance_score": 88.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_569677340901"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1486776/000173944526000172/"
     },
     {
@@ -99,7 +101,9 @@
       "event_date": "2026-10-23",
       "importance_score": 84.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_569677340901"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757425/000173944526000162/"
     },
     {
@@ -159,24 +163,6 @@
     {
       "id": "move_8",
       "rank": 8,
-      "title": "10% owner compro DOLE ($5.8M)",
-      "summary": "10% owner Pale Fire Capital SE compro DOLE por $5.8M el 2026-10-21.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "ticker": "DOLE",
-      "direction": "buy",
-      "amount_estimated": 5756875.74,
-      "event_date": "2026-10-21",
-      "importance_score": 83.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1922318/000092189526002845/"
-    },
-    {
-      "id": "move_9",
-      "rank": 9,
       "title": "CFO vendio ACA ($19.3M)",
       "summary": "CFO Peck Gail M vendio ACA por $19.3M el 2026-10-23.",
       "source": "sec_form_4",
@@ -189,12 +175,14 @@
       "event_date": "2026-10-23",
       "importance_score": 83.5,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_569677340901"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754376/000173944526000173/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_9",
+      "rank": 9,
       "title": "CEO vendio TRV ($17.8M)",
       "summary": "CEO Schnitzer Alan D vendio TRV por $17.8M el 2026-10-21.",
       "source": "sec_form_4",
@@ -211,8 +199,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1397350/000008631226000190/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro CRBG ($7.7M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $7.7M el 2026-10-21.",
       "source": "sec_form_4",
@@ -229,8 +217,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526430508/"
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO vendio ACA ($7.8M)",
       "summary": "CEO Cole Kerry S vendio ACA por $7.8M el 2026-10-23.",
       "source": "sec_form_4",
@@ -243,30 +231,14 @@
       "event_date": "2026-10-23",
       "importance_score": 82.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_569677340901"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757434/000173944526000175/"
     },
     {
-      "id": "move_13",
-      "rank": 13,
-      "title": "10% owner compro CRBG ($6.8M)",
-      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.8M el 2026-10-20.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CRBG",
-      "direction": "buy",
-      "amount_estimated": 6769544.58,
-      "event_date": "2026-10-20",
-      "importance_score": 82.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526429089/"
-    },
-    {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_12",
+      "rank": 12,
       "title": "CEO opero TRV ($4.9M)",
       "summary": "CEO Toczydlowski Gregory C opero TRV por $4.9M el 2026-10-22.",
       "source": "sec_form_4",
@@ -283,26 +255,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1689378/000008631226000189/"
     },
     {
-      "id": "move_15",
-      "rank": 15,
-      "title": "10% owner compro DOLE ($2.2M)",
-      "summary": "10% owner Pale Fire Capital SE compro DOLE por $2.2M el 2026-10-22.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "ticker": "DOLE",
-      "direction": "buy",
-      "amount_estimated": 2192948.69,
-      "event_date": "2026-10-22",
-      "importance_score": 81.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1922318/000092189526002845/"
-    },
-    {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -319,8 +273,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -337,8 +291,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -355,8 +309,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -373,8 +327,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -384,6 +338,60 @@
       "ticker": "",
       "direction": "buy",
       "amount_estimated": 28704244679,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
+      "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27986738310,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro ALPHABET INC ($27.9B)",
+      "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Vanguard Group Inc",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 27919281078,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager vendio APPLE INC ($26.6B)",
+      "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 26582780886,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -403,28 +411,11 @@
         ]
       },
       {
-        "ticker": "RAPP",
-        "company": "Rapport Therapeutics, Inc.",
-        "pressure_score": 438.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "LOAN",
         "company": "MANHATTAN BRIDGE CAPITAL, INC",
         "pressure_score": 426.8,
         "sources": [
           "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "SNES",
-        "company": "SenesTech, Inc.",
-        "pressure_score": 357.8,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
         ]
       },
       {
@@ -468,14 +459,6 @@
         ]
       },
       {
-        "ticker": "DOLE",
-        "company": "Dole plc",
-        "pressure_score": 242.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "HERZ",
         "company": "Herzfeld Credit Income Fund, Inc",
         "pressure_score": 212.2,
@@ -509,9 +492,33 @@
         ]
       },
       {
-        "ticker": "CRBG",
-        "company": "Corebridge Financial, Inc.",
-        "pressure_score": 165.3,
+        "ticker": "MXF",
+        "company": "MEXICO EQUITY & INCOME FUND INC",
+        "pressure_score": 150.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NXG",
+        "company": "NXG NextGen Infrastructure Income Fund",
+        "pressure_score": 148.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BZUN",
+        "company": "Baozun Inc.",
+        "pressure_score": 146.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "UXIN",
+        "company": "Uxin Ltd",
+        "pressure_score": 141.5,
         "sources": [
           "corporate_insider"
         ]
@@ -519,9 +526,33 @@
     ],
     "sell_pressure": [
       {
+        "ticker": "PNI",
+        "company": "PIMCO NEW YORK MUNICIPAL INCOME FUND II",
+        "pressure_score": 1736.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ALMR",
+        "company": "Alamar Biosciences, Inc.",
+        "pressure_score": 1706.6,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 1684.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "UTHR",
         "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 2618.0,
+        "pressure_score": 1562.0,
         "sources": [
           "corporate_insider"
         ]
@@ -575,6 +606,14 @@
         ]
       },
       {
+        "ticker": "ZM",
+        "company": "Zoom Communications, Inc.",
+        "pressure_score": 689.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "KOD",
         "company": "Kodiak Sciences Inc.",
         "pressure_score": 577.4,
@@ -591,6 +630,14 @@
         ]
       },
       {
+        "ticker": "VINP",
+        "company": "Vinci Compass Investments Ltd.",
+        "pressure_score": 525.8,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "SE",
         "company": "Sea Ltd",
         "pressure_score": 438.7,
@@ -598,59 +645,10 @@
           "corporate_insider",
           "large_holder"
         ]
-      },
-      {
-        "ticker": "JBL",
-        "company": "JABIL INC",
-        "pressure_score": 391.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BROS",
-        "company": "Dutch Bros Inc.",
-        "pressure_score": 307.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ZETA",
-        "company": "Zeta Global Holdings Corp.",
-        "pressure_score": 304.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "LHAI",
-        "company": "Linkhome Holdings Inc.",
-        "pressure_score": 289.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "HOOD",
-        "company": "Robinhood Markets, Inc.",
-        "pressure_score": 288.4,
-        "sources": [
-          "corporate_insider"
-        ]
       }
     ]
   },
   "insider_buying": [
-    {
-      "ticker": "DOLE",
-      "company": "Dole plc",
-      "actor": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "amount": 5756875.74,
-      "date": "2026-10-21",
-      "score": 83.7
-    },
     {
       "ticker": "CRBG",
       "company": "Corebridge Financial, Inc.",
@@ -659,24 +657,6 @@
       "amount": 7684333.52,
       "date": "2026-10-21",
       "score": 82.8
-    },
-    {
-      "ticker": "CRBG",
-      "company": "Corebridge Financial, Inc.",
-      "actor": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 6769544.58,
-      "date": "2026-10-20",
-      "score": 82.5
-    },
-    {
-      "ticker": "DOLE",
-      "company": "Dole plc",
-      "actor": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "amount": 2192948.69,
-      "date": "2026-10-22",
-      "score": 81.6
     },
     {
       "ticker": "RENT",
@@ -713,24 +693,6 @@
       "amount": 327434.7,
       "date": "2026-10-21",
       "score": 77.4
-    },
-    {
-      "ticker": "RAPP",
-      "company": "Rapport Therapeutics, Inc.",
-      "actor": "PAUL STEVEN M",
-      "actor_type": "director",
-      "amount": 974277.92,
-      "date": "2026-10-22",
-      "score": 77.3
-    },
-    {
-      "ticker": "DOLE",
-      "company": "Dole plc",
-      "actor": "Pale Fire Capital SE",
-      "actor_type": "ten_percent_owner",
-      "amount": 604585.81,
-      "date": "2026-10-20",
-      "score": 77.3
     },
     {
       "ticker": "LEO",
@@ -776,6 +738,51 @@
       "amount": 109459.0,
       "date": "2026-10-21",
       "score": 75.0
+    },
+    {
+      "ticker": "NXG",
+      "company": "NXG NextGen Infrastructure Income Fund",
+      "actor": "Swank Jerry V",
+      "actor_type": "insider",
+      "amount": 439493.0,
+      "date": "2026-10-23",
+      "score": 74.3
+    },
+    {
+      "ticker": "SAMG",
+      "company": "Silvercrest Asset Management Group Inc.",
+      "actor": "Equinox Partners Investment Management LLC",
+      "actor_type": "ten_percent_owner",
+      "amount": 152305.52,
+      "date": "2026-10-21",
+      "score": 74.3
+    },
+    {
+      "ticker": "NXG",
+      "company": "NXG NextGen Infrastructure Income Fund",
+      "actor": "Nelson Blake",
+      "actor_type": "cfo",
+      "amount": 39582.0,
+      "date": "2026-10-23",
+      "score": 74.1
+    },
+    {
+      "ticker": "API",
+      "company": "Agora, Inc.",
+      "actor": "Zhao Bin",
+      "actor_type": "ceo",
+      "amount": 43727.82,
+      "date": "2026-10-19",
+      "score": 74.1
+    },
+    {
+      "ticker": "CRAFX",
+      "company": "Cascade Real Assets Fund",
+      "actor": "Worley Matthew Eugene",
+      "actor_type": "director",
+      "amount": 431249.07,
+      "date": "2026-10-21",
+      "score": 74.0
     }
   ],
   "institutional_changes": [
@@ -1026,6 +1033,15 @@
       "date": "2026-10-21"
     },
     {
+      "filer": "Tony L. Alford",
+      "company": "Lion Copper Corp.",
+      "ticker": "",
+      "ownership_pct": 45.84,
+      "shares": 9469803,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-23"
+    },
+    {
       "filer": "GLENBROOK CAPITAL MANAGEMENT",
       "company": "SenesTech, Inc.",
       "ticker": "SNES",
@@ -1087,15 +1103,6 @@
       "shares": 2524538,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-20"
-    },
-    {
-      "filer": "Irodakhon Abduvakhitova",
-      "company": "TEG OVERSEAS",
-      "ticker": "STWI",
-      "ownership_pct": 31.14,
-      "shares": 58591499,
-      "filing_type": "SCHEDULE 13D",
-      "date": "2026-10-20"
     }
   ],
   "polymarket": {
@@ -1103,9 +1110,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 1719816.9,
+        "pnl": 1185913.34,
         "win_rate": 0.8727,
-        "volume": 3280408.66,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
@@ -1114,9 +1121,9 @@
       {
         "wallet": "0xe221be3b45",
         "username": "Jokerxing7",
-        "pnl": 130794.81,
-        "win_rate": 0.963,
-        "volume": 515553.84,
+        "pnl": 248624.04,
+        "win_rate": 0.9643,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1124,9 +1131,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 81828.26,
+        "pnl": 87228.61,
         "win_rate": 0.9835,
-        "volume": 367029.2,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1134,19 +1141,9 @@
       {
         "wallet": "0x16bb9951a3",
         "username": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
-        "pnl": 107808.08,
+        "pnl": 108203.7,
         "win_rate": 0.9512,
-        "volume": 176666.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xb52e8b3afd",
-        "username": "1l2ihj34li12u34",
-        "pnl": 44914.86,
-        "win_rate": 0.9928,
-        "volume": 236049.23,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1154,9 +1151,19 @@
       {
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
-        "pnl": 84195.94,
-        "win_rate": 0.9481,
-        "volume": 460093.42,
+        "pnl": 94830.33,
+        "win_rate": 0.9486,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xb52e8b3afd",
+        "username": "1l2ihj34li12u34",
+        "pnl": 44914.68,
+        "win_rate": 0.9928,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1166,7 +1173,7 @@
         "username": "Bloodygoodrep1",
         "pnl": 107429.29,
         "win_rate": 0.9773,
-        "volume": 223540.85,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1174,9 +1181,9 @@
       {
         "wallet": "0xf3ce7f04dd",
         "username": "Sisyphus-",
-        "pnl": 38558.46,
+        "pnl": 42353.89,
         "win_rate": 0.977,
-        "volume": 155337.87,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1186,30 +1193,40 @@
         "username": "CORGII",
         "pnl": 63527.81,
         "win_rate": 0.9393,
-        "volume": 101964.54,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 79857.68,
-        "win_rate": 0.919,
-        "volume": 745054.5,
+        "wallet": "0xb9c7d35d1f",
+        "username": "taylorsversion",
+        "pnl": 58393.92,
+        "win_rate": 0.9174,
+        "volume": 0.0,
         "categories": [
           "sports",
-          "politics"
+          "crypto"
         ]
       }
     ],
     "whales": [
       {
+        "wallet": "0x983eedfbd7",
+        "username": "3edmond.dantes",
+        "pnl": 191460.03,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x57a8595204",
         "username": "Mooseborzoiii",
-        "pnl": 1089526.24,
-        "win_rate": 0.8182,
-        "volume": 3721930.32,
+        "pnl": 1061358.6,
+        "win_rate": 0.7692,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1217,20 +1234,30 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 1719816.9,
+        "pnl": 1185913.34,
         "win_rate": 0.8727,
-        "volume": 3280408.66,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 155476.62,
-        "win_rate": 0.714,
-        "volume": 6544508.77,
+        "wallet": "0x5f39816a09",
+        "username": "6516532f",
+        "pnl": 114840.0,
+        "win_rate": 1.0,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe221be3b45",
+        "username": "Jokerxing7",
+        "pnl": 248624.04,
+        "win_rate": 0.9643,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1238,30 +1265,20 @@
       {
         "wallet": "0x6ac5bb06a9",
         "username": "YYYYY999",
-        "pnl": 310614.9,
-        "win_rate": 0.474,
-        "volume": 2211458.78,
+        "pnl": 106536.19,
+        "win_rate": 0.475,
+        "volume": 0.0,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x983eedfbd7",
-        "username": "3edmond.dantes",
-        "pnl": 191183.91,
-        "win_rate": 1.0,
-        "volume": 552251.04,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 155770.14,
-        "win_rate": 0.539,
-        "volume": 3676036.0,
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 87228.61,
+        "win_rate": 0.9835,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
@@ -1269,108 +1286,59 @@
       {
         "wallet": "0x3c3ac5fb21",
         "username": "778908",
-        "pnl": 70355.14,
-        "win_rate": 1.0,
-        "volume": 1083668.16,
+        "pnl": 67252.22,
+        "win_rate": 0.9545,
+        "volume": 0.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x2005d16a84",
-        "username": "RN1",
-        "pnl": 90763.69,
-        "win_rate": 0.586,
-        "volume": 3539232.66,
+        "wallet": "0xf4c95b636c",
+        "username": "milkteaboba",
+        "pnl": 180014.33,
+        "win_rate": 0.5517,
+        "volume": 0.0,
         "categories": [
-          "sports"
+          "sports",
+          "politics"
         ]
       },
       {
-        "wallet": "0xe5e1072b67",
-        "username": "0x1a5de81b8313e63ef64aD72CdcC60FDc00610543-1775560822430",
-        "pnl": 211448.64,
-        "win_rate": 1.0,
-        "volume": 932827.33,
+        "wallet": "0xab19716584",
+        "username": "SlenderMan",
+        "pnl": 42020.14,
+        "win_rate": 0.6767,
+        "volume": 0.0,
         "categories": [
+          "sports",
+          "politics",
           "crypto"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 136544.87,
-        "win_rate": 0.663,
-        "volume": 4264102.71,
-        "categories": [
-          "sports"
         ]
       }
     ]
   },
   "news": [
     {
-      "title": "Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/22/adobe-vs-arista-networks-which-tech-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "ticker": "ANET",
+      "title": "PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock",
+      "url": "https://www.themarketsdaily.com/2026/10/23/pimco-new-york-municipal-income-fund-ii-nysepni-major-shareholder-of-america-corp-de-bank-acquires-12170-shares-of-company-stock.html",
+      "ticker": "PNI",
       "themes": [
+        "merger",
+        "regulatory",
         "stock"
       ],
       "date": "2026-10-23"
     },
     {
-      "title": "What Elevance Health ( ELV ) Said on Its Q3 Earnings Call",
-      "url": "https://www.dailypolitical.com/2026/10/22/what-elevance-health-elv-said-on-its-q3-earnings-call.html",
-      "ticker": "ELV",
-      "themes": [
-        "earnings",
-        "ai"
-      ],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-crowdstrike-which-tech-stock-is-a-better-buy-in-2026/",
-      "ticker": "ANET",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "ELV - Elevance Health Inc Analysis",
-      "url": "https://www.morningstar.com/stocks/xnys/elv/analysis",
-      "ticker": "ELV",
+      "title": "Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? ",
+      "url": "https://www.themarketsdaily.com/2026/10/20/arcosa-nyseaca-sets-new-52-week-high-still-a-buy.html",
+      "ticker": "ACA",
       "themes": [],
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Elevance ( ELV ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/elevance-elv-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "ticker": "ELV",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Arista Networks Vs . Cisco Systems : Modern AI Data Center Networking vs . Legacy Enterprise Switch Leader",
-      "url": "https://247wallst.com/investing/2026/10/21/arista-networks-vs-cisco-systems-modern-ai-data-center-networking-vs-legacy-enterprise-switch-leader/",
-      "ticker": "ANET",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13625246/financial-comparison-credo-technology-group-nasdaqcrdo-and-iqm-quantum-computers-nasdaqiqmx.html",
-      "ticker": "CRDO",
-      "themes": [],
-      "date": "2026-10-19"
+      "date": "2026-10-20"
     }
   ],
-  "signals_count": 1336,
+  "signals_count": 1421,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
