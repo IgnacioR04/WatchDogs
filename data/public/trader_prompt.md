@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-24T00:57:43+00:00 -->
+<!-- trader_prompt.md generado 2026-10-24T06:07:17+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-24T00:57:43+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
+_Generado 2026-10-24T06:07:17+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -244,7 +244,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
 - Volatilidad: `normal` (VIX 19.45)
-- Tendencia: `neutral` (SPY 763.96 · MA50 767.22 · MA200 723.62 · dist MA200: 5.57%)
+- Tendencia: `neutral` (SPY 759.97 · MA50 766.9 · MA200 724.0 · dist MA200: 4.97%)
 - Credito: `normal` (HY spread 3.4)
 - Tipos: `flat` (curva 10y-2y 0.31)
 - Fed Funds: 3.75%
@@ -255,23 +255,23 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 763.96 | -1.18% | -1.01% | -0.42% |
-| BWMN | 12.0% | satellite | 42.84 | 0.12% | 0.12% | 0.66% |
-| QQQ | 9.8% | core | 704.47 | -2.86% | -3.23% | -4.94% |
-| TLT | 9.8% | core | 81.74 | 1.87% | 2.21% | 3.34% |
-| GLD | 7.3% | core | 369.0 | -2.63% | -3.58% | -5.79% |
-| IEF | 4.9% | core | 91.2 | 1.08% | 0.94% | 2.03% |
-| NXG | 1.5% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
-| SE | 1.3% | satellite | 75.69 | -2.89% | -22.37% | -24.86% |
-| CAMT | 0.8% | satellite | 119.48 | -10.23% | -9.06% | -17.67% |
-| CIFR | 0.5% | satellite | 8.32 | -8.87% | -17.13% | -54.03% |
+| SPY | 12.0% | core | 759.97 | -0.52% | -0.43% | -1.48% |
+| BWMN | 12.0% | satellite | 42.83 | -0.02% | 0.14% | 0.61% |
+| QQQ | 9.5% | core | 704.4 | -0.01% | -0.76% | -5.39% |
+| TLT | 9.5% | core | 81.34 | -0.49% | 1.61% | 2.96% |
+| GLD | 7.1% | core | 366.61 | -0.65% | -4.03% | -6.81% |
+| IEF | 4.8% | core | 91.05 | -0.16% | 0.7% | 1.52% |
+| NXG | 1.9% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
+| SE | 1.8% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
+| CAMT | 0.9% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
+| CIFR | 0.5% | satellite | 7.94 | -4.57% | -11.58% | -55.22% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 5.3%
+- Volatilidad anualizada: 5.2%
 - VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.452 · posiciones efectivas: 17.8 · HHI: 0.0563
+- Max drawdown historico: -1.6%
+- Beta vs SPY: None · posiciones efectivas: 18.2 · HHI: 0.0551
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -323,15 +323,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 763.96 (-1.18% / -1.01% / -0.42%) [2026-10-22]
-- QQQ: 704.47 (-2.86% / -3.23% / -4.94%) [2026-10-22]
-- IWM: 276.67 (0.07% / 0.58% / -1.77%) [2026-10-22]
-- DIA: 527.89 (0.04% / 1.31% / 2.99%) [2026-10-22]
-- TLT: 81.74 (1.87% / 2.21% / 3.34%) [2026-10-22]
-- IEF: 91.2 (1.08% / 0.94% / 2.03%) [2026-10-22]
-- GLD: 369.0 (-2.63% / -3.58% / -5.79%) [2026-10-22]
+- SPY: 759.97 (-0.52% / -0.43% / -1.48%) [2026-10-23]
+- QQQ: 704.4 (-0.01% / -0.76% / -5.39%) [2026-10-23]
+- IWM: 275.75 (-0.33% / 1.96% / -2.21%) [2026-10-23]
+- DIA: 521.37 (-1.24% / 0.44% / 0.77%) [2026-10-23]
+- TLT: 81.34 (-0.49% / 1.61% / 2.96%) [2026-10-23]
+- IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
+- GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80515.58 (-0.98% / -1.83% / -5.01%) [2026-10-24]
+- BTC-USD: 80598.24 (-0.88% / -1.73% / -4.91%) [2026-10-24]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,11 +346,16 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1), regulatory (1), stock (1)
+**Temas dominantes**: stock (3), ai (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
+- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
+- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
+- [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
+- [ANET] Arista Networks Vs . Cisco Systems : Modern AI Data Center Networking vs . Legacy Enterprise Switch Leader (2026-10-21)
 - [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -366,11 +371,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $1,185,913 · win rate 87% · categorias: sports, politics
-- Jokerxing7 · PnL $248,624 · win rate 96% · categorias: sports
-- RJW1 · PnL $87,229 · win rate 98% · categorias: sports
-- 0x16bb9951a36fce71e2ef57890b786145e0ba8492 · PnL $108,204 · win rate 95% · categorias: sports
-- lllllllIlll · PnL $94,830 · win rate 95% · categorias: sports
+- BreakTheBank · PnL $848,919 · win rate 87% · categorias: sports, politics
+- chubbytoro · PnL $118,965 · win rate 100% · categorias: sports
+- monkeymashingkeyboard · PnL $317,828 · win rate 93% · categorias: sports
+- Jokerxing7 · PnL $162,466 · win rate 97% · categorias: sports
+- tin54321 · PnL $137,284 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -378,11 +383,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 671 registros 30d · ultimo dato 2026-10-23
+- **sec_insiders**: `ok` · 702 registros 30d · ultimo dato 2026-10-23
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
