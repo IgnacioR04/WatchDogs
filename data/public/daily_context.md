@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-25T06:24:20+00:00 · ventana señales 2026-09-25 -> 2026-10-25_
+_Generado 2026-10-25T11:40:19+00:00 · ventana señales 2026-09-25 -> 2026-10-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -97,7 +97,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80547.29 (-0.65% / -1.6% / -6.86%) [2026-10-25]
+- BTC-USD: 80302.7 (-0.6% / -3.18% / -6.39%) [2026-10-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -112,14 +112,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1)
+**Temas dominantes**: stock (3), leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [UTHR] Critical Survey : Mirum Pharmaceuticals ( NASDAQ : MIRM ) versus United Therapeutics ( NASDAQ : UTHR ) (2026-10-25)
-- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
-- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
-- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
+- [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -135,10 +135,10 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 **Polymarket — smart money (traders con mejor track record):**
 
 - theowalcott · PnL $185,830 · win rate 100% · categorias: sports
-- OhWhenTheReds · PnL $135,468 · win rate 100% · categorias: sports
-- chubbytoro · PnL $123,695 · win rate 100% · categorias: sports
+- chubbytoro · PnL $77,297 · win rate 100% · categorias: sports
 - juice-fruit · PnL $234,034 · win rate 95% · categorias: sports
-- taylorsversion · PnL $150,282 · win rate 92% · categorias: sports, crypto
+- taylorsversion · PnL $150,279 · win rate 92% · categorias: sports, crypto
+- ArielFilipino · PnL $161,842 · win rate 90% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
