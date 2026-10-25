@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-24T23:30:30+00:00 · ventana señales 2026-09-24 -> 2026-10-24_
+_Generado 2026-10-25T01:25:50+00:00 · ventana señales 2026-09-25 -> 2026-10-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -97,7 +97,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80522.82 (-0.68% / -1.63% / -6.89%) [2026-10-24]
+- BTC-USD: 80724.07 (-0.43% / -1.38% / -6.66%) [2026-10-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -112,9 +112,16 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
+**Temas dominantes**: leadership (2), ai (2), stock (2)
+
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [CRWD] CrowdStrike Shares Gain 8 . 25 % as CEO Warns of PHP Breaches (2026-10-24)
+- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
+- [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -129,11 +136,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- chubbytoro · PnL $219,698 · win rate 100% · categorias: sports
-- theowalcott · PnL $187,473 · win rate 100% · categorias: sports
-- monkeymashingkeyboard · PnL $336,645 · win rate 93% · categorias: sports
-- Jokerxing7 · PnL $111,455 · win rate 97% · categorias: sports
-- 1l2ihj34li12u34 · PnL $75,572 · win rate 99% · categorias: sports
+- juice-fruit · PnL $65,141 · win rate 95% · categorias: sports
+- fraagen · PnL $20,788 · win rate 100% · categorias: sports
+- chubbytoro · PnL $9,653 · win rate 100% · categorias: sports
+- EdZachary · PnL $39,463 · win rate 91% · categorias: sports, politics, economy
+- blgmsiwin · PnL $20,225 · win rate 92% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
