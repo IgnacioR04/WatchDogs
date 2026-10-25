@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-25T01:25:50+00:00 -->
+<!-- trader_prompt.md generado 2026-10-25T06:24:20+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-25T01:25:50+00:00 · ventana señales 2026-09-25 -> 2026-10-25_
+_Generado 2026-10-25T06:24:20+00:00 · ventana señales 2026-09-25 -> 2026-10-25_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -257,21 +257,21 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 759.97 | -0.52% | -0.43% | -1.48% |
 | BWMN | 12.0% | satellite | 42.83 | -0.02% | 0.14% | 0.61% |
-| QQQ | 9.8% | core | 704.4 | -0.01% | -0.76% | -5.39% |
-| TLT | 9.8% | core | 81.34 | -0.49% | 1.61% | 2.96% |
-| GLD | 7.3% | core | 366.61 | -0.65% | -4.03% | -6.81% |
-| IEF | 4.9% | core | 91.05 | -0.16% | 0.7% | 1.52% |
-| NXG | 1.5% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
-| SE | 1.3% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
-| CAMT | 0.8% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
+| QQQ | 9.5% | core | 704.4 | -0.01% | -0.76% | -5.39% |
+| TLT | 9.5% | core | 81.34 | -0.49% | 1.61% | 2.96% |
+| GLD | 7.1% | core | 366.61 | -0.65% | -4.03% | -6.81% |
+| IEF | 4.8% | core | 91.05 | -0.16% | 0.7% | 1.52% |
+| NXG | 1.9% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
+| SE | 1.8% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
+| CAMT | 0.9% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
 | CIFR | 0.5% | satellite | 7.94 | -4.57% | -11.58% | -55.22% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 5.3%
+- Volatilidad anualizada: 5.2%
 - VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -2.5%
-- Beta vs SPY: 0.452 · posiciones efectivas: 17.8 · HHI: 0.0563
+- Max drawdown historico: -1.6%
+- Beta vs SPY: None · posiciones efectivas: 18.2 · HHI: 0.0551
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80724.07 (-0.43% / -1.38% / -6.66%) [2026-10-25]
+- BTC-USD: 80547.29 (-0.65% / -1.6% / -6.86%) [2026-10-25]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,16 +346,14 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (2), ai (2), stock (2)
+**Temas dominantes**: ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
-- [CRWD] CrowdStrike Shares Gain 8 . 25 % as CEO Warns of PHP Breaches (2026-10-24)
-- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [UTHR] Critical Survey : Mirum Pharmaceuticals ( NASDAQ : MIRM ) versus United Therapeutics ( NASDAQ : UTHR ) (2026-10-25)
+- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
 - [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
 - [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
-- [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -370,11 +368,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- juice-fruit · PnL $65,141 · win rate 95% · categorias: sports
-- fraagen · PnL $20,788 · win rate 100% · categorias: sports
-- chubbytoro · PnL $9,653 · win rate 100% · categorias: sports
-- EdZachary · PnL $39,463 · win rate 91% · categorias: sports, politics, economy
-- blgmsiwin · PnL $20,225 · win rate 92% · categorias: sports, crypto
+- theowalcott · PnL $185,830 · win rate 100% · categorias: sports
+- OhWhenTheReds · PnL $135,468 · win rate 100% · categorias: sports
+- chubbytoro · PnL $123,695 · win rate 100% · categorias: sports
+- juice-fruit · PnL $234,034 · win rate 95% · categorias: sports
+- taylorsversion · PnL $150,282 · win rate 92% · categorias: sports, crypto
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
