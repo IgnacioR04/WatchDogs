@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-26T06:28:19.681536+00:00",
+  "generated_at": "2026-10-26T13:10:51.325251+00:00",
   "window": {
     "from": "2026-09-26",
     "to": "2026-10-26",
@@ -18,12 +18,15 @@
       "sec_insiders": "ok",
       "sec_13d_13g": "ok",
       "institutional_13f": "ok",
-      "polymarket": "warning"
+      "polymarket": "ok"
     }
   },
   "market_context": {
     "top_themes": [
-      "leadership"
+      "stock",
+      "leadership",
+      "merger",
+      "regulatory"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -44,7 +47,7 @@
       "importance_score": 88.3,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_978115630361"
+        "news_801700800328"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1486776/000173944526000172/"
     },
@@ -100,7 +103,7 @@
       "importance_score": 84.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_978115630361"
+        "news_801700800328"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757425/000173944526000162/"
     },
@@ -174,7 +177,7 @@
       "importance_score": 83.5,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_978115630361"
+        "news_801700800328"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754376/000173944526000173/"
     },
@@ -230,7 +233,7 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_978115630361"
+        "news_801700800328"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757434/000173944526000175/"
     },
@@ -425,14 +428,6 @@
         ]
       },
       {
-        "ticker": "API",
-        "company": "Agora, Inc.",
-        "pressure_score": 298.9,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SAMG",
         "company": "Silvercrest Asset Management Group Inc.",
         "pressure_score": 289.5,
@@ -465,6 +460,14 @@
         ]
       },
       {
+        "ticker": "BPRE",
+        "company": "Bluerock Private Real Estate Fund",
+        "pressure_score": 224.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "HERZ",
         "company": "Herzfeld Credit Income Fund, Inc",
         "pressure_score": 212.2,
@@ -482,11 +485,11 @@
         ]
       },
       {
-        "ticker": "CAMT",
-        "company": "CAMTEK LTD",
-        "pressure_score": 211.5,
+        "ticker": "UXIN",
+        "company": "Uxin Ltd",
+        "pressure_score": 210.9,
         "sources": [
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -701,6 +704,15 @@
       "score": 76.9
     },
     {
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "actor": "KAMFAR RAMIN",
+      "actor_type": "director",
+      "amount": 1368062.61,
+      "date": "2026-10-23",
+      "score": 76.5
+    },
+    {
       "ticker": "[NONE]",
       "company": "VISTA CREDIT STRATEGIC LENDING CORP.",
       "actor": "GALLIGAN GREGORY T",
@@ -710,22 +722,13 @@
       "score": 75.9
     },
     {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 42381.37,
-      "date": "2026-10-21",
-      "score": 75.5
-    },
-    {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 39541.71,
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "actor": "KAMFAR RAMIN",
+      "actor_type": "director",
+      "amount": 758028.79,
       "date": "2026-10-22",
-      "score": 75.3
+      "score": 75.2
     },
     {
       "ticker": "DSM",
@@ -764,21 +767,21 @@
       "score": 74.1
     },
     {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 43727.82,
-      "date": "2026-10-19",
-      "score": 74.1
-    },
-    {
       "ticker": "CRAFX",
       "company": "Cascade Real Assets Fund",
       "actor": "Worley Matthew Eugene",
       "actor_type": "director",
       "amount": 431249.07,
       "date": "2026-10-21",
+      "score": 74.0
+    },
+    {
+      "ticker": "ANIX",
+      "company": "Anixa Biosciences Inc",
+      "actor": "KUMAR AMIT",
+      "actor_type": "ceo",
+      "amount": 21760.0,
+      "date": "2026-10-22",
       "score": 74.0
     }
   ],
@@ -1107,9 +1110,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 194467.88,
+        "pnl": 194434.49,
         "win_rate": 0.992,
-        "volume": 106082.28,
+        "volume": 112761.44,
         "categories": [
           "sports"
         ]
@@ -1117,9 +1120,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 205016.46,
+        "pnl": 204490.17,
         "win_rate": 0.9234,
-        "volume": 18387.6,
+        "volume": 68696.29,
         "categories": [
           "sports"
         ]
@@ -1137,9 +1140,9 @@
       {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 30697.13,
+        "pnl": 29697.13,
         "win_rate": 1.0,
-        "volume": 26482.59,
+        "volume": 226482.59,
         "categories": [
           "sports"
         ]
@@ -1155,11 +1158,32 @@
         ]
       },
       {
+        "wallet": "0x3413c803c3",
+        "username": "CyberScore.live",
+        "pnl": 30242.08,
+        "win_rate": 0.974,
+        "volume": 51142.47,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 117455.46,
+        "pnl": 103719.58,
         "win_rate": 0.8766,
-        "volume": 4231016.6,
+        "volume": 4259937.18,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xddc38b8242",
+        "username": "JohnLKellyJr",
+        "pnl": 26796.03,
+        "win_rate": 0.939,
+        "volume": 220998.2,
         "categories": [
           "sports",
           "politics"
@@ -1168,9 +1192,9 @@
       {
         "wallet": "0xe015b5a2a2",
         "username": "TAIWANNUMBERONE",
-        "pnl": 26837.91,
-        "win_rate": 0.926,
-        "volume": 95169.79,
+        "pnl": 26323.71,
+        "win_rate": 0.927,
+        "volume": 210490.33,
         "categories": [
           "sports",
           "politics"
@@ -1179,29 +1203,9 @@
       {
         "wallet": "0x07db5765be",
         "username": "PLACEYOURBETS123",
-        "pnl": 18713.33,
-        "win_rate": 0.9455,
-        "volume": 61130.77,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x866056133a",
-        "username": "esportsbetter1",
-        "pnl": 16086.2,
-        "win_rate": 0.9454,
-        "volume": 34970.0,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc95ed399d2",
-        "username": "Siddhartha1",
-        "pnl": 25687.18,
-        "win_rate": 0.9067,
-        "volume": 0.0,
+        "pnl": 18760.96,
+        "win_rate": 0.9474,
+        "volume": 167907.08,
         "categories": [
           "sports"
         ]
@@ -1211,9 +1215,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 117455.46,
+        "pnl": 103719.58,
         "win_rate": 0.8766,
-        "volume": 4231016.6,
+        "volume": 4259937.18,
         "categories": [
           "sports",
           "politics"
@@ -1222,9 +1226,9 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 235350.51,
+        "pnl": 235250.92,
         "win_rate": 0.728,
-        "volume": 2731663.83,
+        "volume": 2783721.36,
         "categories": [
           "sports"
         ]
@@ -1240,9 +1244,31 @@
         ]
       },
       {
+        "wallet": "0x67542c3219",
+        "username": "gmpm2",
+        "pnl": 234020.34,
+        "win_rate": 0.5217,
+        "volume": 812215.55,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 18405.56,
+        "win_rate": 0.5262,
+        "volume": 625825.09,
+        "categories": [
+          "sports",
+          "economy",
+          "crypto"
+        ]
+      },
+      {
         "wallet": "0xf4c95b636c",
         "username": "milkteaboba",
-        "pnl": 313299.89,
+        "pnl": 314621.74,
         "win_rate": 0.5758,
         "volume": 701465.76,
         "categories": [
@@ -1251,25 +1277,14 @@
         ]
       },
       {
-        "wallet": "0x9f2fe025f8",
-        "username": "surfandturf",
-        "pnl": 19824.4,
-        "win_rate": 0.5262,
-        "volume": 400175.73,
+        "wallet": "0x6ac5bb06a9",
+        "username": "jakepaulthegoat2008",
+        "pnl": 361958.06,
+        "win_rate": 0.504,
+        "volume": 722261.12,
         "categories": [
           "sports",
-          "economy",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x67542c3219",
-        "username": "gmpm2",
-        "pnl": 258779.46,
-        "win_rate": 0.523,
-        "volume": 421379.49,
-        "categories": [
-          "sports"
+          "politics"
         ]
       },
       {
@@ -1302,20 +1317,17 @@
         "categories": [
           "sports"
         ]
-      },
-      {
-        "wallet": "0x492442eab5",
-        "username": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
-        "pnl": 66257.55,
-        "win_rate": 0.523,
-        "volume": 145522.22,
-        "categories": [
-          "sports"
-        ]
       }
     ]
   },
   "news": [
+    {
+      "title": "Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) ",
+      "url": "https://seekingalpha.com/news/4656936-insider-trades-blackberry-accenture-and-cleveland-cliffs-among-notable-names",
+      "ticker": "ACN",
+      "themes": [],
+      "date": "2026-10-24"
+    },
     {
       "title": "CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming",
       "url": "https://247wallst.com/investing/2026/10/24/crowdstrikes-ceo-says-a-wave-of-cyber-attacks-are-coming/",
@@ -1326,6 +1338,44 @@
       "date": "2026-10-24"
     },
     {
+      "title": "Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock",
+      "url": "https://www.dailypolitical.com/2026/10/23/alamar-biosciences-nasdaqalmr-major-shareholder-corporate-gp-vi-ltd-qiming-sells-133811-shares-of-stock.html",
+      "ticker": "ALMR",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "title": "PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock",
+      "url": "https://www.themarketsdaily.com/2026/10/23/pimco-new-york-municipal-income-fund-ii-nysepni-major-shareholder-of-america-corp-de-bank-acquires-12170-shares-of-company-stock.html",
+      "ticker": "PNI",
+      "themes": [
+        "merger",
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? ",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/22/adobe-vs-arista-networks-which-tech-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? ",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-crowdstrike-which-tech-stock-is-a-better-buy-in-2026/",
+      "ticker": "ANET",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-22"
+    },
+    {
       "title": "Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? ",
       "url": "https://www.themarketsdaily.com/2026/10/20/arcosa-nyseaca-sets-new-52-week-high-still-a-buy.html",
       "ticker": "ACA",
@@ -1333,7 +1383,7 @@
       "date": "2026-10-20"
     }
   ],
-  "signals_count": 1452,
+  "signals_count": 1457,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",

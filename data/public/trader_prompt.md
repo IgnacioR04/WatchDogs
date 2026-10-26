@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-26T06:29:15+00:00 -->
+<!-- trader_prompt.md generado 2026-10-26T13:11:59+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-26T06:29:15+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
+_Generado 2026-10-26T13:11:59+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.45)
+- Volatilidad: `normal` (VIX 19.24)
 - Tendencia: `neutral` (SPY 759.97 · MA50 766.9 · MA200 724.0 · dist MA200: 4.97%)
 - Credito: `normal` (HY spread 3.4)
 - Tipos: `flat` (curva 10y-2y 0.31)
@@ -257,26 +257,26 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
 | SPY | 12.0% | core | 759.97 | -0.52% | -0.43% | -1.48% |
 | BWMN | 12.0% | satellite | 42.83 | -0.02% | 0.14% | 0.61% |
-| QQQ | 9.5% | core | 704.4 | -0.01% | -0.76% | -5.39% |
-| TLT | 9.5% | core | 81.34 | -0.49% | 1.61% | 2.96% |
-| GLD | 7.1% | core | 366.61 | -0.65% | -4.03% | -6.81% |
-| IEF | 4.8% | core | 91.05 | -0.16% | 0.7% | 1.52% |
-| NXG | 1.9% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
-| SE | 1.8% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
-| CAMT | 0.9% | satellite | 121.16 | 1.41% | -6.42% | -17.61% |
+| QQQ | 9.2% | core | 704.4 | -0.01% | -0.76% | -5.39% |
+| TLT | 9.2% | core | 81.34 | -0.49% | 1.61% | 2.96% |
+| GLD | 6.9% | core | 366.61 | -0.65% | -4.03% | -6.81% |
+| IEF | 4.6% | core | 91.05 | -0.16% | 0.7% | 1.52% |
+| BPRE | 2.1% | satellite | 12.45 | 0.65% | 2.02% | 1.94% |
+| NXG | 1.7% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
+| SE | 1.6% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
 | CIFR | 0.5% | satellite | 7.94 | -4.57% | -11.58% | -55.22% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 5.2%
-- VaR 95% 1d: 0.6% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -1.6%
-- Beta vs SPY: None · posiciones efectivas: 18.2 · HHI: 0.0551
+- Volatilidad anualizada: 4.8%
+- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.6%
+- Max drawdown historico: -1.4%
+- Beta vs SPY: None · posiciones efectivas: 18.6 · HHI: 0.0538
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **CIFR** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **CAMT** · score agregado 211.5 · 3 señales · fuentes: large_holder
+- **BPRE** · score agregado 155.1 · 2 señales · fuentes: corporate_insider
 - **NXG** · score agregado 148.2 · 2 señales · fuentes: corporate_insider
 - **SE** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BWMN** · score agregado 65.0 · 1 señales · fuentes: large_holder
@@ -290,8 +290,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | RENT | 85 | corporate_insider | STORY3 Capital Partners,  | 3 | $2,246,873 | cluster_buy |
 | RENT | 85 | corporate_insider | Nexus Capital Management  | 3 | $2,246,873 | cluster_buy |
 | RENT | 85 | corporate_insider | CHS US Investments LLC | 3 | $1,626,770 | cluster_buy |
+| BPRE | 78 | corporate_insider | KAMFAR RAMIN | 2 | $1,368,063 | cluster_buy |
+| BPRE | 77 | corporate_insider | KAMFAR RAMIN | 2 | $758,029 | cluster_buy |
 | NXG | 75 | corporate_insider | Swank Jerry V | 2 | $439,493 | cluster_buy |
 | NXG | 74 | corporate_insider | Nelson Blake | 2 | $39,582 | cluster_buy |
+| BPRE | 74 | corporate_insider | Ruddy Jordan B. | 2 | $24,987 | cluster_buy,small_amount |
 | CHCO | 73 | corporate_insider | FISHER ROBERT D | 4 | $23,451 | cluster_buy,small_amount |
 | CHCO | 73 | corporate_insider | STRONG-TREISTER DIANE W | 4 | $17,056 | cluster_buy,small_amount |
 | CHCO | 72 | corporate_insider | Hoyer James A | 4 | $14,213 | cluster_buy,small_amount |
@@ -299,9 +302,6 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | DEVSF | 72 | large_holder | Helena Global Investment  |  | - | - |
 | SE | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
 | HERZ | 72 | large_holder | CSS LLC/IL |  | - | - |
-| ACET | 70 | large_holder | Zedek Daniel Clayton |  | - | - |
-| TCXB | 70 | large_holder | Squadron Master Fund LP |  | - | - |
-| FRGT | 70 | large_holder | Freight Opportunities LLC |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -330,8 +330,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - TLT: 81.34 (-0.49% / 1.61% / 2.96%) [2026-10-23]
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
-- ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 79880.01 (-1.13% / -3.69% / -6.89%) [2026-10-26]
+- ^VIX: 19.24 (-1.08% / 4.34% / 19.73%) [2026-10-26]
+- BTC-USD: 80013.47 (-0.01% / -4.76% / -6.48%) [2026-10-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,11 +346,16 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (1)
+**Temas dominantes**: stock (4), leadership (1), merger (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
 - [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
+- [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
+- [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
 - [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -366,10 +371,10 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $194,468 · win rate 99% · categorias: sports
-- monkeymashingkeyboard · PnL $205,016 · win rate 92% · categorias: sports
+- RJW1 · PnL $194,434 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $204,490 · win rate 92% · categorias: sports
 - Jokerxing7 · PnL $98,272 · win rate 97% · categorias: sports
-- chubbytoro · PnL $30,697 · win rate 100% · categorias: sports
+- chubbytoro · PnL $29,697 · win rate 100% · categorias: sports
 - KaneAnalytics · PnL $68,028 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
@@ -378,8 +383,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 702 registros 30d · ultimo dato 2026-10-23
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-23
+- **sec_insiders**: `ok` · 707 registros 30d · ultimo dato 2026-10-23
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -392,7 +397,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BWMN, CAMT, CIFR, GLD, IEF, NXG, QQQ, SE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BPRE, BWMN, CIFR, GLD, IEF, NXG, QQQ, SE, SPY, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

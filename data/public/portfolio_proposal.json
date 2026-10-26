@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-26T06:29:14+00:00",
+  "generated_at": "2026-10-26T13:11:58+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
-  "total_equity": 0.5998,
-  "cash": 0.4002,
+  "total_equity": 0.5999,
+  "cash": 0.4001,
   "weights": {
     "SPY": 0.12,
     "BWMN": 0.12,
-    "QQQ": 0.0952,
-    "TLT": 0.0952,
-    "GLD": 0.0714,
-    "IEF": 0.0476,
-    "NXG": 0.0189,
-    "SE": 0.0178,
-    "CAMT": 0.0085,
-    "CIFR": 0.0052
+    "QQQ": 0.0923,
+    "TLT": 0.0923,
+    "GLD": 0.0693,
+    "IEF": 0.0462,
+    "BPRE": 0.0213,
+    "NXG": 0.0173,
+    "SE": 0.0163,
+    "CIFR": 0.0049
   },
   "core": {
     "SPY": 0.1365,
@@ -24,11 +24,11 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "CIFR": 0.0043,
-    "CAMT": 0.007,
-    "NXG": 0.0155,
-    "SE": 0.0146,
-    "BWMN": 0.1686
+    "CIFR": 0.0041,
+    "BPRE": 0.018,
+    "NXG": 0.0146,
+    "SE": 0.0138,
+    "BWMN": 0.1594
   },
   "satellite_rationale": [
     {
@@ -40,12 +40,12 @@
       "n_signals": 3
     },
     {
-      "ticker": "CAMT",
-      "score": 211.5,
+      "ticker": "BPRE",
+      "score": 155.1,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 2
     },
     {
       "ticker": "NXG",
@@ -73,16 +73,16 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0517,
-    "var_95_1d": 0.0056,
-    "cvar_95_1d": 0.0062,
-    "max_drawdown": -0.0159,
+    "ann_vol": 0.0483,
+    "var_95_1d": 0.0052,
+    "cvar_95_1d": 0.0056,
+    "max_drawdown": -0.0138,
     "beta_spy": null,
-    "hhi": 0.0551,
+    "hhi": 0.0538,
     "max_position": 0.12,
     "n_positions": 10,
-    "effective_positions": 18.2,
-    "gross_exposure": 0.5998,
+    "effective_positions": 18.6,
+    "gross_exposure": 0.5999,
     "days_used": 30
   },
   "risk_gate": {
