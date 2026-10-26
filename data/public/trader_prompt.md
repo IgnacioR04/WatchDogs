@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-26T00:38:08+00:00 -->
+<!-- trader_prompt.md generado 2026-10-26T06:29:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-26T00:38:08+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
+_Generado 2026-10-26T06:29:15+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -331,7 +331,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
 - GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
 - ^VIX: 19.45 (2.21% / -2.7% / 30.8%) [2026-10-23]
-- BTC-USD: 80110.95 (-0.84% / -3.41% / -6.62%) [2026-10-26]
+- BTC-USD: 79880.01 (-1.13% / -3.69% / -6.89%) [2026-10-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -346,13 +346,12 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2), merger (1), regulatory (1)
+**Temas dominantes**: leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
-- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
-- [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -367,11 +366,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $309,484 · win rate 100% · categorias: sports
-- BreakTheBank · PnL $1,393,772 · win rate 87% · categorias: sports, politics
-- juice-fruit · PnL $282,780 · win rate 96% · categorias: sports
-- ArielFilipino · PnL $297,728 · win rate 91% · categorias: sports
-- Takon88 · PnL $144,361 · win rate 98% · categorias: sports
+- RJW1 · PnL $194,468 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $205,016 · win rate 92% · categorias: sports
+- Jokerxing7 · PnL $98,272 · win rate 97% · categorias: sports
+- chubbytoro · PnL $30,697 · win rate 100% · categorias: sports
+- KaneAnalytics · PnL $68,028 · win rate 93% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -382,8 +381,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - **sec_insiders**: `ok` · 702 registros 30d · ultimo dato 2026-10-23
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-23
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
-- **polymarket**: `warning` · ? registros 30d · ultimo dato ? — all_volume_zero
-- **Fuentes con problemas**: congress, polymarket
+- **polymarket**: `ok` · ? registros 30d · ultimo dato ?
+- **Fuentes con problemas**: congress
 
 > Congreso y 13F tienen retraso legal de hasta ~45 dias. Senate no disponible en vivo (portal eFD bloqueado); House si. Insiders (Form 4) llegan en 1-2 dias.
 
