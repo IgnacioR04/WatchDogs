@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-26T13:11:59+00:00 -->
+<!-- trader_prompt.md generado 2026-10-26T19:35:18+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-26T13:11:59+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
+_Generado 2026-10-26T19:35:18+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,9 +243,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.24)
-- Tendencia: `neutral` (SPY 759.97 · MA50 766.9 · MA200 724.0 · dist MA200: 4.97%)
-- Credito: `normal` (HY spread 3.4)
+- Volatilidad: `normal` (VIX 18.34)
+- Tendencia: `neutral` (SPY 765.65 · MA50 766.72 · MA200 724.41 · dist MA200: 5.69%)
+- Credito: `normal` (HY spread 3.38)
 - Tipos: `flat` (curva 10y-2y 0.31)
 - Fed Funds: 3.75%
 
@@ -255,23 +255,23 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 759.97 | -0.52% | -0.43% | -1.48% |
-| BWMN | 12.0% | satellite | 42.83 | -0.02% | 0.14% | 0.61% |
-| QQQ | 9.2% | core | 704.4 | -0.01% | -0.76% | -5.39% |
-| TLT | 9.2% | core | 81.34 | -0.49% | 1.61% | 2.96% |
-| GLD | 6.9% | core | 366.61 | -0.65% | -4.03% | -6.81% |
-| IEF | 4.6% | core | 91.05 | -0.16% | 0.7% | 1.52% |
-| BPRE | 2.1% | satellite | 12.45 | 0.65% | 2.02% | 1.94% |
-| NXG | 1.7% | satellite | 44.41 | 1.3% | -10.03% | -17.6% |
-| SE | 1.6% | satellite | 74.63 | -1.4% | -20.41% | -25.03% |
-| CIFR | 0.5% | satellite | 7.94 | -4.57% | -11.58% | -55.22% |
+| SPY | 12.0% | core | 765.65 | 0.75% | -0.11% | 0.01% |
+| QQQ | 8.1% | core | 713.35 | 1.27% | -0.7% | -3.15% |
+| TLT | 8.1% | core | 81.56 | 0.26% | 2.64% | 4.15% |
+| NXG | 7.4% | satellite | 46.16 | 3.94% | -1.2% | -13.19% |
+| BPRE | 6.4% | satellite | 12.57 | 0.96% | 3.76% | 1.76% |
+| GLD | 6.1% | core | 367.49 | 0.24% | -3.21% | -2.76% |
+| IEF | 4.0% | core | 91.05 | 0.0% | 1.08% | 2.05% |
+| SE | 4.0% | satellite | 74.37 | -0.35% | -15.94% | -24.81% |
+| BWMN | 2.3% | satellite | 42.85 | 0.06% | 0.15% | 0.57% |
+| CIFR | 1.7% | satellite | 7.84 | -1.2% | -12.25% | -53.14% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 4.8%
-- VaR 95% 1d: 0.5% · CVaR 95% 1d: 0.6%
-- Max drawdown historico: -1.4%
-- Beta vs SPY: None · posiciones efectivas: 18.6 · HHI: 0.0538
+- Volatilidad anualizada: 8.5%
+- VaR 95% 1d: 0.8% · CVaR 95% 1d: 1.1%
+- Max drawdown historico: -4.3%
+- Beta vs SPY: 0.599 · posiciones efectivas: 22.4 · HHI: 0.0447
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -301,7 +301,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | CHCO | 72 | corporate_insider | Reyes Javier A | 4 | $13,502 | cluster_buy,small_amount |
 | DEVSF | 72 | large_holder | Helena Global Investment  |  | - | - |
 | SE | 72 | large_holder | BAILLIE GIFFORD & CO |  | - | - |
-| HERZ | 72 | large_holder | CSS LLC/IL |  | - | - |
+| GSM | 70 | large_holder | Hosking Partners LLP |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -311,10 +311,10 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | ACA | 60 | corporate_insider | Carrillo Antonio | $100,086,000 | - |
 | TRV | 60 | corporate_insider | Schnitzer Alan D | $17,844,514 | - |
 | TRV | 59 | corporate_insider | Toczydlowski Gregory C | $13,194,481 | - |
+| LRCX | 58 | corporate_insider | ARCHER TIMOTHY | $7,128,428 | - |
 | ROIV | 57 | corporate_insider | Venker Eric | $6,521,687 | - |
 | TRV | 57 | corporate_insider | Schnitzer Alan D | $6,250,822 | - |
 | INNV | 57 | corporate_insider | Welsh, Carson, Anderson & | $13,875,000 | - |
-| INNV | 57 | corporate_insider | IGNITE AGGREGATOR LP | $13,875,000 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -323,15 +323,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 759.97 (-0.52% / -0.43% / -1.48%) [2026-10-23]
-- QQQ: 704.4 (-0.01% / -0.76% / -5.39%) [2026-10-23]
-- IWM: 275.75 (-0.33% / 1.96% / -2.21%) [2026-10-23]
-- DIA: 521.37 (-1.24% / 0.44% / 0.77%) [2026-10-23]
-- TLT: 81.34 (-0.49% / 1.61% / 2.96%) [2026-10-23]
-- IEF: 91.05 (-0.16% / 0.7% / 1.52%) [2026-10-23]
-- GLD: 366.61 (-0.65% / -4.03% / -6.81%) [2026-10-23]
-- ^VIX: 19.24 (-1.08% / 4.34% / 19.73%) [2026-10-26]
-- BTC-USD: 80013.47 (-0.01% / -4.76% / -6.48%) [2026-10-26]
+- SPY: 765.65 (0.75% / -0.11% / 0.01%) [2026-10-26]
+- QQQ: 713.35 (1.27% / -0.7% / -3.15%) [2026-10-26]
+- IWM: 277.22 (0.53% / 2.19% / -1.0%) [2026-10-26]
+- DIA: 522.8 (0.27% / 0.75% / 1.73%) [2026-10-26]
+- TLT: 81.56 (0.26% / 2.64% / 4.15%) [2026-10-26]
+- IEF: 91.05 (0.0% / 1.08% / 2.05%) [2026-10-26]
+- GLD: 367.49 (0.24% / -3.21% / -2.76%) [2026-10-26]
+- ^VIX: 18.34 (-5.71% / -0.54% / 14.13%) [2026-10-26]
+- BTC-USD: 79870.08 (-0.19% / -4.93% / -6.65%) [2026-10-26]
 
 **Macro (valor · cambio 1m):**
 
@@ -339,22 +339,23 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - Treasury 10Y yield: 4.96 (delta 1m: 0.0) [2026-10-22]
 - Curva 10Y-2Y: 0.31 (delta 1m: 0.05) [2026-10-23]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
-- High yield spread (OAS): 3.4 (delta 1m: 0.67) [2026-10-22]
+- High yield spread (OAS): 3.38 (delta 1m: 0.58) [2026-10-23]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
 - Breakeven inflacion 10Y: 2.34 (delta 1m: -0.01) [2026-10-23]
 - Dolar broad index: 121.4048 (delta 1m: 2.484) [2026-10-16]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (4), leadership (1), merger (1), regulatory (1)
+**Temas dominantes**: stock (4), merger (1), regulatory (1), ai (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ACN] Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) (2026-10-24)
-- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [UTHR] Critical Survey : Mirum Pharmaceuticals ( NASDAQ : MIRM ) versus United Therapeutics ( NASDAQ : UTHR ) (2026-10-25)
 - [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
 - [PNI] PIMCO New York Municipal Income Fund II ( NYSE : PNI ) Major Shareholder Of America Corp / De / Bank Acquires 12 , 170 Shares of Company Stock (2026-10-23)
 - [ANET] Adobe vs . Arista Networks : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-23)
+- [UTHR] United Therapeutics Authorizes Additional $2 Billion Share Buyback Program (2026-10-22)
+- [UTHR] United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00 (2026-10-22)
 - [ANET] Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? (2026-10-22)
 - [ACA] Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? (2026-10-20)
 
@@ -371,11 +372,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $194,434 · win rate 99% · categorias: sports
-- monkeymashingkeyboard · PnL $204,490 · win rate 92% · categorias: sports
+- RJW1 · PnL $193,161 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $205,190 · win rate 92% · categorias: sports
 - Jokerxing7 · PnL $98,272 · win rate 97% · categorias: sports
-- chubbytoro · PnL $29,697 · win rate 100% · categorias: sports
-- KaneAnalytics · PnL $68,028 · win rate 93% · categorias: sports
+- CORGII · PnL $89,316 · win rate 94% · categorias: sports
+- chubbytoro · PnL $29,679 · win rate 100% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -383,7 +384,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 707 registros 30d · ultimo dato 2026-10-23
+- **sec_insiders**: `ok` · 703 registros 30d · ultimo dato 2026-10-24
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?

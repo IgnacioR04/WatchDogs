@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-26T13:10:51.325251+00:00",
+  "generated_at": "2026-10-26T19:34:20.627795+00:00",
   "window": {
     "from": "2026-09-26",
     "to": "2026-10-26",
@@ -24,9 +24,9 @@
   "market_context": {
     "top_themes": [
       "stock",
-      "leadership",
       "merger",
-      "regulatory"
+      "regulatory",
+      "ai"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -47,7 +47,7 @@
       "importance_score": 88.3,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_801700800328"
+        "news_659393361320"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1486776/000173944526000172/"
     },
@@ -103,7 +103,7 @@
       "importance_score": 84.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_801700800328"
+        "news_659393361320"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757425/000173944526000162/"
     },
@@ -177,7 +177,7 @@
       "importance_score": 83.5,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_801700800328"
+        "news_659393361320"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754376/000173944526000173/"
     },
@@ -233,7 +233,7 @@
       "importance_score": 82.8,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_801700800328"
+        "news_659393361320"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757434/000173944526000175/"
     },
@@ -468,15 +468,6 @@
         ]
       },
       {
-        "ticker": "HERZ",
-        "company": "Herzfeld Credit Income Fund, Inc",
-        "pressure_score": 212.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "CIFR",
         "company": "Cipher Digital Inc.",
         "pressure_score": 211.5,
@@ -490,6 +481,22 @@
         "pressure_score": 210.9,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SNES",
+        "company": "SenesTech, Inc.",
+        "pressure_score": 208.5,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "HERZ",
+        "company": "Herzfeld Credit Income Fund, Inc",
+        "pressure_score": 208.5,
+        "sources": [
+          "large_holder"
         ]
       },
       {
@@ -512,14 +519,6 @@
         "ticker": "NXG",
         "company": "NXG NextGen Infrastructure Income Fund",
         "pressure_score": 148.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "BZUN",
-        "company": "Baozun Inc.",
-        "pressure_score": 146.1,
         "sources": [
           "corporate_insider"
         ]
@@ -1015,6 +1014,15 @@
       "date": "2026-10-23"
     },
     {
+      "filer": "Mammoth Crest Capital LLC",
+      "company": "APPlife Digital Solutions Inc",
+      "ticker": "ALDS",
+      "ownership_pct": 53.6,
+      "shares": 7172336,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-26"
+    },
+    {
       "filer": "CK Amarillo LP",
       "company": "Hertz Global Holdings, Inc.",
       "ticker": "",
@@ -1051,6 +1059,15 @@
       "date": "2026-10-22"
     },
     {
+      "filer": "Monarch Alternative Capital LP",
+      "company": "Capstone Energy+, Inc.",
+      "ticker": "CEPL",
+      "ownership_pct": 39.8,
+      "shares": 19333334,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-26"
+    },
+    {
       "filer": "Thomas J. Herzfeld, et al.",
       "company": "Herzfeld Credit Income Fund, Inc.",
       "ticker": "HERZ",
@@ -1085,24 +1102,6 @@
       "shares": 45306792,
       "filing_type": "SCHEDULE 13D",
       "date": "2026-10-22"
-    },
-    {
-      "filer": "Erik M. Herzfeld, et al.",
-      "company": "Herzfeld Credit Income Fund, Inc.",
-      "ticker": "HERZ",
-      "ownership_pct": 33.09,
-      "shares": 635567,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-22"
-    },
-    {
-      "filer": "JEFF TOGHRAIE",
-      "company": "Axil Brands, Inc.",
-      "ticker": "AXIL",
-      "ownership_pct": 31.2,
-      "shares": 2524538,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-20"
     }
   ],
   "polymarket": {
@@ -1110,9 +1109,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 194434.49,
+        "pnl": 193160.53,
         "win_rate": 0.992,
-        "volume": 112761.44,
+        "volume": 399975.64,
         "categories": [
           "sports"
         ]
@@ -1120,9 +1119,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 204490.17,
-        "win_rate": 0.9234,
-        "volume": 68696.29,
+        "pnl": 205189.75,
+        "win_rate": 0.9237,
+        "volume": 513515.83,
         "categories": [
           "sports"
         ]
@@ -1138,11 +1137,41 @@
         ]
       },
       {
+        "wallet": "0x79ae097215",
+        "username": "CORGII",
+        "pnl": 89316.19,
+        "win_rate": 0.9403,
+        "volume": 506464.26,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 29697.13,
+        "pnl": 29679.26,
         "win_rate": 1.0,
-        "volume": 226482.59,
+        "volume": 230056.86,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x3413c803c3",
+        "username": "CyberScore.live",
+        "pnl": 42041.49,
+        "win_rate": 0.9741,
+        "volume": 279688.61,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5fdd66ffd0",
+        "username": "juice-fruit",
+        "pnl": 50937.23,
+        "win_rate": 0.9592,
+        "volume": 72985.47,
         "categories": [
           "sports"
         ]
@@ -1158,11 +1187,11 @@
         ]
       },
       {
-        "wallet": "0x3413c803c3",
-        "username": "CyberScore.live",
-        "pnl": 30242.08,
-        "win_rate": 0.974,
-        "volume": 51142.47,
+        "wallet": "0xf3ce7f04dd",
+        "username": "Sisyphus-",
+        "pnl": 25575.04,
+        "win_rate": 0.976,
+        "volume": 119346.75,
         "categories": [
           "sports"
         ]
@@ -1170,44 +1199,12 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 103719.58,
+        "pnl": 112387.5,
         "win_rate": 0.8766,
-        "volume": 4259937.18,
+        "volume": 4328693.48,
         "categories": [
           "sports",
           "politics"
-        ]
-      },
-      {
-        "wallet": "0xddc38b8242",
-        "username": "JohnLKellyJr",
-        "pnl": 26796.03,
-        "win_rate": 0.939,
-        "volume": 220998.2,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xe015b5a2a2",
-        "username": "TAIWANNUMBERONE",
-        "pnl": 26323.71,
-        "win_rate": 0.927,
-        "volume": 210490.33,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x07db5765be",
-        "username": "PLACEYOURBETS123",
-        "pnl": 18760.96,
-        "win_rate": 0.9474,
-        "volume": 167907.08,
-        "categories": [
-          "sports"
         ]
       }
     ],
@@ -1215,9 +1212,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 103719.58,
+        "pnl": 112387.5,
         "win_rate": 0.8766,
-        "volume": 4259937.18,
+        "volume": 4328693.48,
         "categories": [
           "sports",
           "politics"
@@ -1226,11 +1223,33 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 235250.92,
+        "pnl": 241685.34,
         "win_rate": 0.728,
-        "volume": 2783721.36,
+        "volume": 3562615.35,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x6ac5bb06a9",
+        "username": "jakepaulthegoat2008",
+        "pnl": 222015.35,
+        "win_rate": 0.504,
+        "volume": 2195721.13,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0x2b2dbd6524",
+        "username": "jsmythyson",
+        "pnl": 97314.23,
+        "win_rate": 0.5455,
+        "volume": 1958822.56,
+        "categories": [
+          "economy",
+          "politics"
         ]
       },
       {
@@ -1246,29 +1265,27 @@
       {
         "wallet": "0x67542c3219",
         "username": "gmpm2",
-        "pnl": 234020.34,
+        "pnl": 229999.65,
         "win_rate": 0.5217,
-        "volume": 812215.55,
+        "volume": 1110506.63,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x9f2fe025f8",
-        "username": "surfandturf",
-        "pnl": 18405.56,
-        "win_rate": 0.5262,
-        "volume": 625825.09,
+        "wallet": "0x2005d16a84",
+        "username": "RN1",
+        "pnl": 92859.54,
+        "win_rate": 0.598,
+        "volume": 3297327.47,
         "categories": [
-          "sports",
-          "economy",
-          "crypto"
+          "sports"
         ]
       },
       {
         "wallet": "0xf4c95b636c",
         "username": "milkteaboba",
-        "pnl": 314621.74,
+        "pnl": 313335.81,
         "win_rate": 0.5758,
         "volume": 701465.76,
         "categories": [
@@ -1277,43 +1294,21 @@
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "jakepaulthegoat2008",
-        "pnl": 361958.06,
-        "win_rate": 0.504,
-        "volume": 722261.12,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xe221be3b45",
-        "username": "Jokerxing7",
-        "pnl": 98272.22,
-        "win_rate": 0.9697,
-        "volume": 227553.85,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 98089.17,
+        "win_rate": 0.634,
+        "volume": 2927318.4,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xf28e42d20e",
-        "username": "ethanaz",
-        "pnl": 49696.33,
-        "win_rate": 0.861,
-        "volume": 409822.91,
-        "categories": [
-          "sports",
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0x7e3a1f95c5",
-        "username": "KaneAnalytics",
-        "pnl": 68027.53,
-        "win_rate": 0.9284,
-        "volume": 461365.86,
+        "wallet": "0x85f031d069",
+        "username": "RJW1",
+        "pnl": 193160.53,
+        "win_rate": 0.992,
+        "volume": 399975.64,
         "categories": [
           "sports"
         ]
@@ -1322,20 +1317,11 @@
   },
   "news": [
     {
-      "title": "Insider trades : Blackberry , Accenture and Cleveland - Cliffs among notable names P ) ",
-      "url": "https://seekingalpha.com/news/4656936-insider-trades-blackberry-accenture-and-cleveland-cliffs-among-notable-names",
-      "ticker": "ACN",
+      "title": "Critical Survey : Mirum Pharmaceuticals ( NASDAQ : MIRM ) versus United Therapeutics ( NASDAQ : UTHR ) ",
+      "url": "https://www.themarketsdaily.com/2026/10/25/critical-survey-mirum-pharmaceuticals-nasdaqmirm-versus-united-therapeutics-nasdaquthr.html",
+      "ticker": "UTHR",
       "themes": [],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming",
-      "url": "https://247wallst.com/investing/2026/10/24/crowdstrikes-ceo-says-a-wave-of-cyber-attacks-are-coming/",
-      "ticker": "CRWD",
-      "themes": [
-        "leadership"
-      ],
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "title": "Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock",
@@ -1367,6 +1353,22 @@
       "date": "2026-10-23"
     },
     {
+      "title": "United Therapeutics Authorizes Additional $2 Billion Share Buyback Program",
+      "url": "https://www.rttnews.com/3701885/united-therapeutics-authorizes-additional-2-billion-share-buyback-program.aspx",
+      "ticker": "UTHR",
+      "themes": [],
+      "date": "2026-10-22"
+    },
+    {
+      "title": "United Therapeutics ( NASDAQ : UTHR ) Price Target Raised to $725 . 00",
+      "url": "https://www.dailypolitical.com/2026/10/21/united-therapeutics-nasdaquthr-price-target-raised-to-725-00.html",
+      "ticker": "UTHR",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-22"
+    },
+    {
       "title": "Arista Networks vs . CrowdStrike : Which Tech Stock Is a Better Buy in 2026 ? ",
       "url": "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-crowdstrike-which-tech-stock-is-a-better-buy-in-2026/",
       "ticker": "ANET",
@@ -1383,7 +1385,7 @@
       "date": "2026-10-20"
     }
   ],
-  "signals_count": 1457,
+  "signals_count": 1453,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
