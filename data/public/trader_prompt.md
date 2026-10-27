@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-27T02:22:39+00:00 -->
+<!-- trader_prompt.md generado 2026-10-27T08:06:15+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-27T02:22:39+00:00 · ventana señales 2026-09-27 -> 2026-10-27_
+_Generado 2026-10-27T08:06:15+00:00 · ventana señales 2026-09-27 -> 2026-10-27_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 18.39)
+- Volatilidad: `normal` (VIX 18.4)
 - Tendencia: `neutral` (SPY 765.37 · MA50 766.72 · MA200 724.41 · dist MA200: 5.65%)
 - Credito: `normal` (HY spread 3.38)
 - Tipos: `flat` (curva 10y-2y 0.32)
@@ -259,24 +259,24 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | QQQ | 8.1% | core | 712.2 | 1.11% | -0.86% | -3.3% |
 | TLT | 8.1% | core | 81.68 | 0.42% | 2.79% | 4.31% |
 | GLD | 6.1% | core | 367.82 | 0.33% | -3.13% | -2.67% |
-| NATH | 5.1% | satellite | 102.05 | 0.0% | 0.17% | 0.56% |
+| NATH | 5.2% | satellite | 102.05 | 0.0% | 0.17% | 0.56% |
 | IEF | 4.0% | core | 91.12 | 0.08% | 1.15% | 2.13% |
-| BBT | 3.3% | satellite | 30.86 | 2.63% | 12.79% | 10.97% |
-| STC | 2.5% | satellite | 42.96 | -2.52% | -17.61% | -25.34% |
-| BPRE | 2.5% | satellite | 12.56 | 0.88% | 3.68% | 1.68% |
+| BBT | 3.2% | satellite | 30.86 | 2.63% | 12.79% | 10.97% |
+| BPRE | 2.8% | satellite | 12.56 | 0.88% | 3.68% | 1.68% |
+| STC | 2.4% | satellite | 42.96 | -2.52% | -17.61% | -25.34% |
 | GPI | 2.0% | satellite | 243.88 | -0.44% | 1.92% | 0.68% |
 | PRTA | 1.8% | satellite | 8.4 | 2.44% | -0.94% | -3.67% |
-| THRM | 1.8% | satellite | 28.59 | -0.03% | -0.07% | -9.36% |
+| THRM | 1.7% | satellite | 28.59 | -0.03% | -0.07% | -9.36% |
 | BWMN | 1.2% | satellite | 42.84 | 0.02% | 0.12% | 0.54% |
 | CIFR | 0.8% | satellite | 7.71 | -2.9% | -13.76% | -53.94% |
-| NBIS | 0.8% | satellite | 153.27 | -3.45% | -9.97% | -33.9% |
+| NBIS | 0.7% | satellite | 153.27 | -3.45% | -9.97% | -33.9% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 7.2%
+- Volatilidad anualizada: 7.3%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
 - Max drawdown historico: -4.2%
-- Beta vs SPY: 0.48 · posiciones efectivas: 25.6 · HHI: 0.039
+- Beta vs SPY: 0.478 · posiciones efectivas: 25.6 · HHI: 0.0391
 
 **Por que estos satellite (señales WATCHDOG):**
 
@@ -340,8 +340,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - TLT: 81.68 (0.42% / 2.79% / 4.31%) [2026-10-26]
 - IEF: 91.12 (0.08% / 1.15% / 2.13%) [2026-10-26]
 - GLD: 367.82 (0.33% / -3.13% / -2.67%) [2026-10-26]
-- ^VIX: 18.39 (-5.45% / -0.27% / 14.44%) [2026-10-26]
-- BTC-USD: 79911.43 (-0.14% / -4.88% / -6.6%) [2026-10-27]
+- ^VIX: 18.4 (0.05% / 6.3% / 14.71%) [2026-10-27]
+- BTC-USD: 79810.76 (-0.24% / -1.85% / -4.16%) [2026-10-27]
 
 **Macro (valor · cambio 1m):**
 
@@ -356,10 +356,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (2)
+**Temas dominantes**: stock (3)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [GPI] Conifer Management Buys $16 . 9 Million Group 1 Automotive Shares . What Does This Mean for Investors ? (2026-10-24)
 - [STX] Seagate Technology Holdings PLC $STX Holdings Trimmed by XXI Wealth LLC (2026-10-24)
 - [STX] Seagate Technology Holdings PLC $STX Stake Lowered by Atlatl Advisers LLC (2026-10-24)
 - [STX] Seagate Technology ( NASDAQ : STX ) Shares Down 7 . 9 % – Time to Sell ? (2026-10-23)
@@ -380,11 +381,11 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- BreakTheBank · PnL $132,966 · win rate 88% · categorias: sports, politics
-- RJW1 · PnL $18,847 · win rate 99% · categorias: sports
-- Kyn008 · PnL $16,191 · win rate 98% · categorias: sports
-- juice-fruit · PnL $10,707 · win rate 96% · categorias: sports
-- ic4cream · PnL $27,571 · win rate 88% · categorias: sports, politics
+- BreakTheBank · PnL $2,563,871 · win rate 88% · categorias: sports, politics
+- RJW1 · PnL $204,413 · win rate 99% · categorias: sports
+- monkeymashingkeyboard · PnL $387,061 · win rate 92% · categorias: sports
+- juice-fruit · PnL $91,473 · win rate 96% · categorias: sports
+- googleplay · PnL $2,088,550 · win rate 78% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
