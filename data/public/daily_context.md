@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-26T23:27:24+00:00 · ventana señales 2026-09-26 -> 2026-10-26_
+_Generado 2026-10-27T02:22:39+00:00 · ventana señales 2026-09-27 -> 2026-10-27_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -25,35 +25,35 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 | QQQ | 8.1% | core | 712.2 | 1.11% | -0.86% | -3.3% |
 | TLT | 8.1% | core | 81.68 | 0.42% | 2.79% | 4.31% |
 | GLD | 6.1% | core | 367.82 | 0.33% | -3.13% | -2.67% |
-| NATH | 5.3% | satellite | 102.05 | 0.11% | 0.15% | 0.49% |
+| NATH | 5.1% | satellite | 102.05 | 0.0% | 0.17% | 0.56% |
 | IEF | 4.0% | core | 91.12 | 0.08% | 1.15% | 2.13% |
-| BBT | 3.2% | satellite | 30.86 | 2.63% | 12.79% | 10.97% |
-| NXG | 3.0% | satellite | 46.15 | 3.92% | -1.22% | -13.21% |
-| BPRE | 2.6% | satellite | 12.56 | 0.88% | 3.68% | 1.68% |
-| STC | 2.2% | satellite | 42.96 | -2.52% | -17.61% | -25.34% |
-| PRTA | 1.6% | satellite | 8.4 | 2.44% | -0.94% | -3.67% |
-| THRM | 1.5% | satellite | 28.59 | -0.03% | -0.07% | -9.36% |
-| BWMN | 0.9% | satellite | 42.84 | 0.02% | 0.12% | 0.54% |
-| CIFR | 0.7% | satellite | 7.71 | -2.9% | -13.76% | -53.94% |
-| NBIS | 0.7% | satellite | 153.27 | -3.45% | -9.97% | -33.9% |
+| BBT | 3.3% | satellite | 30.86 | 2.63% | 12.79% | 10.97% |
+| STC | 2.5% | satellite | 42.96 | -2.52% | -17.61% | -25.34% |
+| BPRE | 2.5% | satellite | 12.56 | 0.88% | 3.68% | 1.68% |
+| GPI | 2.0% | satellite | 243.88 | -0.44% | 1.92% | 0.68% |
+| PRTA | 1.8% | satellite | 8.4 | 2.44% | -0.94% | -3.67% |
+| THRM | 1.8% | satellite | 28.59 | -0.03% | -0.07% | -9.36% |
+| BWMN | 1.2% | satellite | 42.84 | 0.02% | 0.12% | 0.54% |
+| CIFR | 0.8% | satellite | 7.71 | -2.9% | -13.76% | -53.94% |
+| NBIS | 0.8% | satellite | 153.27 | -3.45% | -9.97% | -33.9% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 6.7%
+- Volatilidad anualizada: 7.2%
 - VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
-- Max drawdown historico: -3.2%
-- Beta vs SPY: 0.492 · posiciones efectivas: 25.4 · HHI: 0.0393
+- Max drawdown historico: -4.2%
+- Beta vs SPY: 0.48 · posiciones efectivas: 25.6 · HHI: 0.039
 
 **Por que estos satellite (señales WATCHDOG):**
 
+- **GPI** · score agregado 1782.6 · 29 señales · fuentes: corporate_insider
 - **STC** · score agregado 302.6 · 4 señales · fuentes: corporate_insider
 - **CIFR** · score agregado 211.5 · 3 señales · fuentes: large_holder
 - **NBIS** · score agregado 163.4 · 3 señales · fuentes: corporate_insider
-- **BPRE** · score agregado 155.1 · 2 señales · fuentes: corporate_insider
 - **THRM** · score agregado 153.2 · 2 señales · fuentes: corporate_insider
-- **NXG** · score agregado 148.2 · 2 señales · fuentes: corporate_insider
 - **BBT** · score agregado 128.4 · 2 señales · fuentes: corporate_insider, large_holder
 - **PRTA** · score agregado 124.6 · 2 señales · fuentes: corporate_insider
+- **BPRE** · score agregado 123.1 · 2 señales · fuentes: corporate_insider
 - **NATH** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **BWMN** · score agregado 65.0 · 1 señales · fuentes: large_holder
 
@@ -63,21 +63,21 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| BPRE | 78 | corporate_insider | KAMFAR RAMIN | 2 | $1,368,063 | cluster_buy |
 | THRM | 77 | corporate_insider | Presley William T. | 2 | $130,000 | cluster_buy |
-| BPRE | 77 | corporate_insider | KAMFAR RAMIN | 2 | $758,029 | cluster_buy |
 | STC | 76 | corporate_insider | Corey William S. Jr. | 3 | $93,640 | cluster_buy |
 | STC | 76 | corporate_insider | BRADLEY C ALLEN JR | 3 | $94,600 | cluster_buy |
 | THRM | 76 | corporate_insider | MASCARENAS PAUL ANTHONY | 2 | $532,600 | cluster_buy |
 | STC | 75 | corporate_insider | Apel Thomas G | 3 | $48,000 | cluster_buy |
 | STC | 75 | corporate_insider | Apel Thomas G | 3 | $47,470 | cluster_buy |
-| NXG | 75 | corporate_insider | Swank Jerry V | 2 | $439,493 | cluster_buy |
-| NXG | 74 | corporate_insider | Nelson Blake | 2 | $39,582 | cluster_buy |
-| BPRE | 74 | corporate_insider | Ruddy Jordan B. | 2 | $24,987 | cluster_buy,small_amount |
 | LONA | 72 | large_holder | Perceptive Advisors LLC |  | - | - |
 | NATH | 72 | large_holder | Howard M. Lorber |  | - | - |
+| OPTU | 72 | large_holder | SUBIN NEIL S |  | - | - |
 | CHKP | 72 | large_holder | Gil Shwed |  | - | - |
-| DEVSF | 72 | large_holder | Helena Global Investment  |  | - | - |
+| BBT | 72 | large_holder | Integrated Core Strategie |  | - | - |
+| SAFX | 70 | large_holder | EEME Energy SPV I, LLC |  | - | - |
+| SLMT | 70 | large_holder | RBCH Ltd. |  | - | - |
+| GSM | 70 | large_holder | Hosking Partners LLP |  | - | - |
+| GCDT | 70 | large_holder | Xuewen Liu |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -107,7 +107,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.12 (0.08% / 1.15% / 2.13%) [2026-10-26]
 - GLD: 367.82 (0.33% / -3.13% / -2.67%) [2026-10-26]
 - ^VIX: 18.39 (-5.45% / -0.27% / 14.44%) [2026-10-26]
-- BTC-USD: 79885.16 (-0.17% / -4.91% / -6.63%) [2026-10-26]
+- BTC-USD: 79911.43 (-0.14% / -4.88% / -6.6%) [2026-10-27]
 
 **Macro (valor · cambio 1m):**
 
@@ -122,11 +122,16 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (2)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
+- [STX] Seagate Technology Holdings PLC $STX Holdings Trimmed by XXI Wealth LLC (2026-10-24)
+- [STX] Seagate Technology Holdings PLC $STX Stake Lowered by Atlatl Advisers LLC (2026-10-24)
+- [STX] Seagate Technology ( NASDAQ : STX ) Shares Down 7 . 9 % – Time to Sell ? (2026-10-23)
+- [JBL] Jabil ( JBL ) Guides to 24 % Growth , but Can Thin Margins Carry the Plan ? (2026-10-21)
+- [JBL] Analyzing Yaskawa Electric ( OTCMKTS : YASKY ) and Jabil ( NYSE : JBL ) (2026-10-17)
+- [JBL] Jabil , Inc . $JBL Stock : Triasima Portfolio Management inc . Grows Stake (2026-10-16)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -135,17 +140,17 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - CFO Peck Gail M vendio ACA por $19.3M el 2026-10-23.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.7M el 2026-10-22.
 - CEO Cole Kerry S vendio ACA por $7.8M el 2026-10-23.
+- 10% owner Conifer Management, L.L.C. compro GPI por $4.6M el 2026-10-22.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- RJW1 · PnL $192,931 · win rate 99% · categorias: sports
-- monkeymashingkeyboard · PnL $202,940 · win rate 92% · categorias: sports
-- 1l2ihj34li12u34 · PnL $57,894 · win rate 99% · categorias: sports
-- TAIWANNUMBERONE · PnL $147,676 · win rate 93% · categorias: sports, politics
-- CyberScore.live · PnL $50,881 · win rate 97% · categorias: sports
+- BreakTheBank · PnL $132,966 · win rate 88% · categorias: sports, politics
+- RJW1 · PnL $18,847 · win rate 99% · categorias: sports
+- Kyn008 · PnL $16,191 · win rate 98% · categorias: sports
+- juice-fruit · PnL $10,707 · win rate 96% · categorias: sports
+- ic4cream · PnL $27,571 · win rate 88% · categorias: sports, politics
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -153,7 +158,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 726 registros 30d · ultimo dato 2026-10-26
+- **sec_insiders**: `ok` · 734 registros 30d · ultimo dato 2026-10-26
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-26
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -167,7 +172,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`BBT, BPRE, BWMN, CIFR, GLD, IEF, NATH, NBIS, NXG, PRTA, QQQ, SPY, STC, THRM, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`BBT, BPRE, BWMN, CIFR, GLD, GPI, IEF, NATH, NBIS, PRTA, QQQ, SPY, STC, THRM, TLT`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

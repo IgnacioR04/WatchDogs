@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-26T23:27:23+00:00",
+  "generated_at": "2026-10-27T02:22:38+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
-  "total_equity": 0.6,
-  "cash": 0.4,
+  "total_equity": 0.6001,
+  "cash": 0.3999,
   "weights": {
-    "SPY": 0.12,
-    "QQQ": 0.0808,
-    "TLT": 0.0808,
+    "SPY": 0.1199,
+    "QQQ": 0.0807,
+    "TLT": 0.0807,
     "GLD": 0.0606,
-    "NATH": 0.0534,
+    "NATH": 0.0514,
     "IEF": 0.0404,
-    "BBT": 0.0317,
-    "NXG": 0.0299,
-    "BPRE": 0.0258,
-    "STC": 0.022,
-    "PRTA": 0.0164,
-    "THRM": 0.0152,
-    "BWMN": 0.0095,
-    "CIFR": 0.0069,
-    "NBIS": 0.0066
+    "BBT": 0.0331,
+    "STC": 0.0251,
+    "BPRE": 0.0251,
+    "GPI": 0.0203,
+    "PRTA": 0.0179,
+    "THRM": 0.0177,
+    "BWMN": 0.0119,
+    "CIFR": 0.0078,
+    "NBIS": 0.0075
   },
   "core": {
     "SPY": 0.1365,
@@ -29,18 +29,26 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "STC": 0.0212,
-    "CIFR": 0.0067,
-    "NBIS": 0.0064,
-    "BPRE": 0.0249,
-    "THRM": 0.0147,
-    "NXG": 0.0289,
-    "BBT": 0.0306,
-    "PRTA": 0.0158,
-    "NATH": 0.0516,
-    "BWMN": 0.0092
+    "GPI": 0.0196,
+    "STC": 0.0242,
+    "CIFR": 0.0075,
+    "NBIS": 0.0072,
+    "THRM": 0.0171,
+    "BBT": 0.032,
+    "PRTA": 0.0173,
+    "BPRE": 0.0242,
+    "NATH": 0.0496,
+    "BWMN": 0.0115
   },
   "satellite_rationale": [
+    {
+      "ticker": "GPI",
+      "score": 1782.6,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 29
+    },
     {
       "ticker": "STC",
       "score": 302.6,
@@ -66,24 +74,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "BPRE",
-      "score": 155.1,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
       "ticker": "THRM",
       "score": 153.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "NXG",
-      "score": 148.2,
       "sources": [
         "corporate_insider"
       ],
@@ -107,6 +99,14 @@
       "n_signals": 2
     },
     {
+      "ticker": "BPRE",
+      "score": 123.1,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
       "ticker": "NATH",
       "score": 71.8,
       "sources": [
@@ -124,17 +124,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.067,
-    "var_95_1d": 0.0065,
-    "cvar_95_1d": 0.0087,
-    "max_drawdown": -0.0318,
-    "beta_spy": 0.492,
-    "hhi": 0.0393,
-    "max_position": 0.12,
+    "ann_vol": 0.0724,
+    "var_95_1d": 0.007,
+    "cvar_95_1d": 0.0091,
+    "max_drawdown": -0.0422,
+    "beta_spy": 0.48,
+    "hhi": 0.039,
+    "max_position": 0.1199,
     "n_positions": 15,
-    "effective_positions": 25.4,
-    "gross_exposure": 0.6,
-    "days_used": 125
+    "effective_positions": 25.6,
+    "gross_exposure": 0.6001,
+    "days_used": 208
   },
   "risk_gate": {
     "passed": true,
