@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-27T08:05:26.928698+00:00",
+  "generated_at": "2026-10-27T14:44:49.063279+00:00",
   "window": {
     "from": "2026-09-27",
     "to": "2026-10-27",
@@ -43,7 +43,9 @@
       "event_date": "2026-10-23",
       "importance_score": 88.3,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_893740364916"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1486776/000173944526000172/"
     },
     {
@@ -61,7 +63,9 @@
       "event_date": "2026-10-23",
       "importance_score": 84.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_893740364916"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757425/000173944526000162/"
     },
     {
@@ -79,7 +83,9 @@
       "event_date": "2026-10-23",
       "importance_score": 83.5,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_893740364916"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754376/000173944526000173/"
     },
     {
@@ -115,7 +121,9 @@
       "event_date": "2026-10-23",
       "importance_score": 82.8,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_893740364916"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1757434/000173944526000175/"
     },
     {
@@ -134,7 +142,7 @@
       "importance_score": 81.7,
       "cross_source_score": 0.0,
       "related_news": [
-        "news_423218056113"
+        "news_652764546076"
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/"
     },
@@ -483,14 +491,6 @@
         ]
       },
       {
-        "ticker": "SNES",
-        "company": "SenesTech, Inc.",
-        "pressure_score": 208.5,
-        "sources": [
-          "large_holder"
-        ]
-      },
-      {
         "ticker": "HERZ",
         "company": "Herzfeld Credit Income Fund, Inc",
         "pressure_score": 208.5,
@@ -513,6 +513,14 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "PRTA",
+        "company": "PROTHENA CORP PUBLIC LTD CO",
+        "pressure_score": 154.3,
+        "sources": [
+          "corporate_insider"
+        ]
       }
     ],
     "sell_pressure": [
@@ -528,14 +536,6 @@
         "ticker": "ACA",
         "company": "Arcosa, Inc.",
         "pressure_score": 1094.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "IBTA",
-        "company": "Ibotta, Inc.",
-        "pressure_score": 1047.5,
         "sources": [
           "corporate_insider"
         ]
@@ -582,9 +582,9 @@
         ]
       },
       {
-        "ticker": "ZM",
-        "company": "Zoom Communications, Inc.",
-        "pressure_score": 689.7,
+        "ticker": "IBTA",
+        "company": "Ibotta, Inc.",
+        "pressure_score": 635.9,
         "sources": [
           "corporate_insider"
         ]
@@ -606,19 +606,20 @@
         ]
       },
       {
-        "ticker": "PCTY",
-        "company": "Paylocity Holding Corp",
-        "pressure_score": 507.0,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "ADPT",
         "company": "Adaptive Biotechnologies Corp",
         "pressure_score": 437.3,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "SE",
+        "company": "Sea Ltd",
+        "pressure_score": 318.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       },
       {
@@ -633,6 +634,14 @@
         "ticker": "CART",
         "company": "Maplebear Inc.",
         "pressure_score": 295.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ISRG",
+        "company": "INTUITIVE SURGICAL INC",
+        "pressure_score": 291.9,
         "sources": [
           "corporate_insider"
         ]
@@ -692,6 +701,15 @@
       "actor_type": "ten_percent_owner",
       "amount": 2195434.83,
       "date": "2026-10-22",
+      "score": 80.1
+    },
+    {
+      "ticker": "PLUR",
+      "company": "Pluri Inc.",
+      "actor": "Manieu Alexandre Weinstein",
+      "actor_type": "ten_percent_owner",
+      "amount": 1250001.0,
+      "date": "2026-10-23",
       "score": 80.1
     },
     {
@@ -764,15 +782,6 @@
       "actor_type": "ten_percent_owner",
       "amount": 828370.78,
       "date": "2026-10-23",
-      "score": 77.9
-    },
-    {
-      "ticker": "PRTA",
-      "company": "PROTHENA CORP PUBLIC LTD CO",
-      "actor": "SCULLY WILLIAM P",
-      "actor_type": "ten_percent_owner",
-      "amount": 818520.0,
-      "date": "2026-10-22",
       "score": 77.9
     }
   ],
@@ -1078,15 +1087,6 @@
       "date": "2026-10-22"
     },
     {
-      "filer": "Kenneth R. Lehman",
-      "company": "BayFirst Financial Corp",
-      "ticker": "BAFN",
-      "ownership_pct": 39.2,
-      "shares": 12177535,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-19"
-    },
-    {
       "filer": "EEME Energy SPV I, LLC",
       "company": "XCF Global, Inc.",
       "ticker": "SAFX",
@@ -1094,6 +1094,15 @@
       "shares": 228897417,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-26"
+    },
+    {
+      "filer": "EVERRISE HOLDINGS LLC",
+      "company": "ATA Creativity Global",
+      "ticker": "AACG",
+      "ownership_pct": 34.51,
+      "shares": 45306792,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-22"
     }
   ],
   "polymarket": {
@@ -1101,9 +1110,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 2563871.16,
-        "win_rate": 0.8802,
-        "volume": 3652233.42,
+        "pnl": 2556354.22,
+        "win_rate": 0.88,
+        "volume": 3711144.22,
         "categories": [
           "sports",
           "politics"
@@ -1112,9 +1121,9 @@
       {
         "wallet": "0x85f031d069",
         "username": "RJW1",
-        "pnl": 204413.49,
+        "pnl": 205081.49,
         "win_rate": 0.9923,
-        "volume": 50264.82,
+        "volume": 183865.36,
         "categories": [
           "sports"
         ]
@@ -1122,9 +1131,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 387060.56,
+        "pnl": 378865.96,
         "win_rate": 0.9194,
-        "volume": 191125.51,
+        "volume": 656963.75,
         "categories": [
           "sports"
         ]
@@ -1132,9 +1141,9 @@
       {
         "wallet": "0x5fdd66ffd0",
         "username": "juice-fruit",
-        "pnl": 91473.44,
+        "pnl": 108979.53,
         "win_rate": 0.96,
-        "volume": 190571.87,
+        "volume": 311854.01,
         "categories": [
           "sports"
         ]
@@ -1150,11 +1159,21 @@
         ]
       },
       {
-        "wallet": "0xc95ed399d2",
-        "username": "Siddhartha1",
-        "pnl": 56463.04,
-        "win_rate": 0.9079,
-        "volume": 109999.94,
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 73375.61,
+        "win_rate": 0.9487,
+        "volume": 826351.93,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x79ae097215",
+        "username": "CORGII",
+        "pnl": 47010.56,
+        "win_rate": 0.9408,
+        "volume": 352251.55,
         "categories": [
           "sports"
         ]
@@ -1162,9 +1181,19 @@
       {
         "wallet": "0x2879ded7fe",
         "username": "chongchong37",
-        "pnl": 97367.33,
+        "pnl": 98824.74,
         "win_rate": 0.8687,
-        "volume": 98899.74,
+        "volume": 118382.77,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xc95ed399d2",
+        "username": "Siddhartha1",
+        "pnl": 54825.55,
+        "win_rate": 0.9079,
+        "volume": 109999.94,
         "categories": [
           "sports"
         ]
@@ -1172,34 +1201,11 @@
       {
         "wallet": "0xe18ecc345e",
         "username": "ArielFilipino",
-        "pnl": 41201.46,
+        "pnl": 41229.07,
         "win_rate": 0.9091,
-        "volume": 60806.99,
+        "volume": 128044.99,
         "categories": [
           "sports"
-        ]
-      },
-      {
-        "wallet": "0x7011871509",
-        "username": "Electricy",
-        "pnl": 41828.47,
-        "win_rate": 0.8907,
-        "volume": 91731.6,
-        "categories": [
-          "sports",
-          "crypto",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0xebfdb8164f",
-        "username": "robustmst",
-        "pnl": 36019.4,
-        "win_rate": 0.8686,
-        "volume": 274021.0,
-        "categories": [
-          "sports",
-          "crypto"
         ]
       }
     ],
@@ -1217,9 +1223,9 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 2563871.16,
-        "win_rate": 0.8802,
-        "volume": 3652233.42,
+        "pnl": 2556354.22,
+        "win_rate": 0.88,
+        "volume": 3711144.22,
         "categories": [
           "sports",
           "politics"
@@ -1228,19 +1234,40 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 202333.07,
+        "pnl": 206692.3,
         "win_rate": 0.723,
-        "volume": 2651635.38,
+        "volume": 2815478.45,
         "categories": [
           "sports"
         ]
       },
       {
+        "wallet": "0x6ac5bb06a9",
+        "username": "jakepaulthegoat2008",
+        "pnl": 293471.57,
+        "win_rate": 0.508,
+        "volume": 1069117.73,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
         "wallet": "0xa38a455bbd",
         "username": "takeormake",
-        "pnl": 302076.78,
+        "pnl": 302238.61,
         "win_rate": 0.618,
-        "volume": 2142903.33,
+        "volume": 2144229.33,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 73375.61,
+        "win_rate": 0.9487,
+        "volume": 826351.93,
         "categories": [
           "sports"
         ]
@@ -1248,7 +1275,7 @@
       {
         "wallet": "0x9ee49c02ae",
         "username": "cosmicxbt",
-        "pnl": 53795.0,
+        "pnl": 51866.03,
         "win_rate": 0.7174,
         "volume": 409999.96,
         "categories": [
@@ -1257,53 +1284,31 @@
         ]
       },
       {
-        "wallet": "0xf4c95b636c",
-        "username": "milkteaboba",
-        "pnl": 86377.04,
-        "win_rate": 0.641,
-        "volume": 267388.45,
+        "wallet": "0x2a69660046",
+        "username": "UpTheBlues",
+        "pnl": 106596.51,
+        "win_rate": 0.617,
+        "volume": 2075459.61,
         "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x799b6aa710",
-        "username": "user098422",
-        "pnl": 108880.0,
-        "win_rate": 0.6,
-        "volume": 217760.0,
-        "categories": [
-          "sports",
-          "economy"
+          "sports"
         ]
       },
       {
         "wallet": "0x5fdd66ffd0",
         "username": "juice-fruit",
-        "pnl": 91473.44,
+        "pnl": 108979.53,
         "win_rate": 0.96,
-        "volume": 190571.87,
+        "volume": 311854.01,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0xb7271c112c",
-        "username": "Elaran1993",
-        "pnl": 166091.59,
-        "win_rate": 0.5747,
-        "volume": 452641.92,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 26601.86,
-        "win_rate": 0.624,
-        "volume": 955300.88,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 378865.96,
+        "win_rate": 0.9194,
+        "volume": 656963.75,
         "categories": [
           "sports"
         ]
@@ -1321,53 +1326,14 @@
       "date": "2026-10-24"
     },
     {
-      "title": "Seagate Technology Holdings PLC $STX Holdings Trimmed by XXI Wealth LLC",
-      "url": "https://www.dailypolitical.com/2026/10/24/seagate-technology-holdings-plc-stx-holdings-trimmed-by-xxi-wealth-llc.html",
-      "ticker": "STX",
+      "title": "Arcosa ( NYSE : ACA ) Sets New 52 - Week High – Still a Buy ? ",
+      "url": "https://www.themarketsdaily.com/2026/10/20/arcosa-nyseaca-sets-new-52-week-high-still-a-buy.html",
+      "ticker": "ACA",
       "themes": [],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Seagate Technology Holdings PLC $STX Stake Lowered by Atlatl Advisers LLC",
-      "url": "https://www.dailypolitical.com/2026/10/24/seagate-technology-holdings-plc-stx-stake-lowered-by-atlatl-advisers-llc.html",
-      "ticker": "STX",
-      "themes": [],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Seagate Technology ( NASDAQ : STX ) Shares Down 7 . 9 % – Time to Sell ? ",
-      "url": "https://www.dailypolitical.com/2026/10/22/seagate-technology-nasdaqstx-shares-down-7-9-time-to-sell.html",
-      "ticker": "STX",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Jabil ( JBL ) Guides to 24 % Growth , but Can Thin Margins Carry the Plan ? ",
-      "url": "https://www.insidermonkey.com/news/jabil-jbl-guides-to-24-growth-but-can-thin-margins-carry-the-plan-1857976/",
-      "ticker": "JBL",
-      "themes": [],
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Analyzing Yaskawa Electric ( OTCMKTS : YASKY ) and Jabil ( NYSE : JBL ) ",
-      "url": "https://www.tickerreport.com/banking-finance/13624037/analyzing-yaskawa-electric-otcmktsyasky-and-jabil-nysejbl.html",
-      "ticker": "JBL",
-      "themes": [],
-      "date": "2026-10-17"
-    },
-    {
-      "title": "Jabil , Inc . $JBL Stock : Triasima Portfolio Management inc . Grows Stake",
-      "url": "https://www.dailypolitical.com/2026/10/16/jabil-inc-jbl-stock-triasima-portfolio-management-inc-grows-stake.html",
-      "ticker": "JBL",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-16"
+      "date": "2026-10-20"
     }
   ],
-  "signals_count": 1484,
+  "signals_count": 1472,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
