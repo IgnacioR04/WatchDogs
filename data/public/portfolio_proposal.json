@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-10-28T19:09:11+00:00",
+  "generated_at": "2026-10-28T23:29:21+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.7998,
-  "cash": 0.2002,
+  "total_equity": 0.8,
+  "cash": 0.2,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
-    "NPB": 0.0591,
     "IEF": 0.0572,
-    "CRBG": 0.0561,
-    "MSM": 0.0508,
-    "LRN": 0.0377,
-    "SRRK": 0.0375,
-    "ACN": 0.0294,
-    "SBET": 0.0233,
-    "CTEV": 0.0141
+    "HBAN": 0.0458,
+    "BBT": 0.0442,
+    "NPB": 0.0382,
+    "RNW": 0.0359,
+    "BPRE": 0.0343,
+    "LRN": 0.0237,
+    "SRRK": 0.0229,
+    "GOLD": 0.0226,
+    "PHR": 0.0224,
+    "ACN": 0.0182
   },
   "core": {
     "SPY": 0.182,
@@ -27,14 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "NPB": 0.0537,
-    "SRRK": 0.0341,
-    "CTEV": 0.0128,
-    "ACN": 0.0267,
-    "MSM": 0.0462,
-    "LRN": 0.0343,
-    "CRBG": 0.051,
-    "SBET": 0.0212
+    "NPB": 0.0347,
+    "SRRK": 0.0208,
+    "ACN": 0.0165,
+    "RNW": 0.0326,
+    "GOLD": 0.0205,
+    "LRN": 0.0215,
+    "BPRE": 0.0312,
+    "HBAN": 0.0416,
+    "BBT": 0.0402,
+    "PHR": 0.0204
   },
   "satellite_rationale": [
     {
@@ -54,14 +58,6 @@
       "n_signals": 5
     },
     {
-      "ticker": "CTEV",
-      "score": 251.8,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 4
-    },
-    {
       "ticker": "ACN",
       "score": 237.6,
       "sources": [
@@ -70,8 +66,16 @@
       "n_signals": 3
     },
     {
-      "ticker": "MSM",
-      "score": 204.7,
+      "ticker": "RNW",
+      "score": 211.5,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "GOLD",
+      "score": 192.2,
       "sources": [
         "corporate_insider"
       ],
@@ -86,16 +90,32 @@
       "n_signals": 3
     },
     {
-      "ticker": "CRBG",
-      "score": 136.7,
+      "ticker": "BPRE",
+      "score": 123.4,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "SBET",
-      "score": 70.2,
+      "ticker": "HBAN",
+      "score": 113.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "BBT",
+      "score": 73.9,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "PHR",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -103,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0974,
-    "var_95_1d": 0.0094,
-    "cvar_95_1d": 0.012,
-    "max_drawdown": -0.0399,
-    "beta_spy": 0.644,
-    "hhi": 0.0649,
+    "ann_vol": 0.0846,
+    "var_95_1d": 0.009,
+    "cvar_95_1d": 0.0114,
+    "max_drawdown": -0.0406,
+    "beta_spy": 0.545,
+    "hhi": 0.0616,
     "max_position": 0.12,
-    "n_positions": 13,
-    "effective_positions": 15.4,
-    "gross_exposure": 0.7998,
-    "days_used": 133
+    "n_positions": 15,
+    "effective_positions": 16.2,
+    "gross_exposure": 0.8,
+    "days_used": 115
   },
   "risk_gate": {
     "passed": true,
