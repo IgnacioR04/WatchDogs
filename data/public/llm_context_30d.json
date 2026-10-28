@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-28T13:06:37.826938+00:00",
+  "generated_at": "2026-10-28T19:08:17.375363+00:00",
   "window": {
     "from": "2026-09-28",
     "to": "2026-10-28",
@@ -23,10 +23,11 @@
   },
   "market_context": {
     "top_themes": [
+      "stock",
+      "earnings",
+      "regulatory",
       "ai",
-      "merger",
-      "leadership",
-      "stock"
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -88,6 +89,24 @@
     {
       "id": "move_4",
       "rank": 4,
+      "title": "10% owner vendio TALO ($45.8M)",
+      "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $45.8M el 2026-10-23 [senal en multiples fuentes].",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Control Empresarial de Capitales S.A. de C.V.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "TALO",
+      "direction": "sell",
+      "amount_estimated": 45823500.0,
+      "event_date": "2026-10-23",
+      "importance_score": 83.9,
+      "cross_source_score": 25.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126040937/"
+    },
+    {
+      "id": "move_5",
+      "rank": 5,
       "title": "CEO opero GS ($54.2M)",
       "summary": "CEO SOLOMON DAVID M opero GS por $54.2M el 2026-10-23.",
       "source": "sec_form_4",
@@ -100,12 +119,16 @@
       "event_date": "2026-10-23",
       "importance_score": 83.5,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_878932374597",
+        "news_576257506675",
+        "news_924217695225"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693709/000169370926000011/"
     },
     {
-      "id": "move_5",
-      "rank": 5,
+      "id": "move_6",
+      "rank": 6,
       "title": "CEO vendio GS ($8.4M)",
       "summary": "CEO SOLOMON DAVID M vendio GS por $8.4M el 2026-10-27.",
       "source": "sec_form_4",
@@ -118,12 +141,16 @@
       "event_date": "2026-10-27",
       "importance_score": 83.0,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_878932374597",
+        "news_576257506675",
+        "news_924217695225"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1693709/000169370926000011/"
     },
     {
-      "id": "move_6",
-      "rank": 6,
+      "id": "move_7",
+      "rank": 7,
       "title": "CEO compro ACN ($2.5M)",
       "summary": "CEO Sweet Julie Spellman compro ACN por $2.5M el 2026-10-26.",
       "source": "sec_form_4",
@@ -138,24 +165,6 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1487630/000148763026000022/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "10% owner vendio TALO ($45.8M)",
-      "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $45.8M el 2026-10-23.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Control Empresarial de Capitales S.A. de C.V.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "TALO",
-      "direction": "sell",
-      "amount_estimated": 45823500.0,
-      "event_date": "2026-10-23",
-      "importance_score": 82.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126040937/"
     },
     {
       "id": "move_8",
@@ -190,7 +199,11 @@
       "event_date": "2026-10-23",
       "importance_score": 82.6,
       "cross_source_score": 0.0,
-      "related_news": [],
+      "related_news": [
+        "news_878932374597",
+        "news_576257506675",
+        "news_924217695225"
+      ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754399/000175439926000005/"
     },
     {
@@ -397,7 +410,7 @@
       {
         "ticker": "AIOK",
         "company": "AI OKTO Corp.",
-        "pressure_score": 526.8,
+        "pressure_score": 594.0,
         "sources": [
           "corporate_insider",
           "large_holder"
@@ -436,6 +449,39 @@
         ]
       },
       {
+        "ticker": "RENT",
+        "company": "Rent the Runway, Inc.",
+        "pressure_score": 276.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "INDP",
+        "company": "Indaptus Therapeutics, Inc.",
+        "pressure_score": 276.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "HERZ",
+        "company": "Herzfeld Credit Income Fund, Inc.",
+        "pressure_score": 276.0,
+        "sources": [
+          "large_holder"
+        ]
+      },
+      {
+        "ticker": "PUSA",
+        "company": "Powerus Corp",
+        "pressure_score": 274.8,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "MSM",
         "company": "MSC INDUSTRIAL DIRECT CO INC",
         "pressure_score": 249.3,
@@ -468,53 +514,19 @@
         ]
       },
       {
-        "ticker": "PHR",
-        "company": "Phreesia, Inc.",
-        "pressure_score": 206.0,
+        "ticker": "SNES",
+        "company": "SenesTech, Inc.",
+        "pressure_score": 208.5,
         "sources": [
-          "corporate_insider",
           "large_holder"
         ]
       },
       {
-        "ticker": "CRBG",
-        "company": "Corebridge Financial, Inc.",
-        "pressure_score": 166.5,
+        "ticker": "STWI",
+        "company": "TEG OVERSEAS",
+        "pressure_score": 207.0,
         "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "DAIO",
-        "company": "DATA I/O CORP",
-        "pressure_score": 153.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "PLUR",
-        "company": "PLURI INC.",
-        "pressure_score": 150.3,
-        "sources": [
-          "corporate_insider",
           "large_holder"
-        ]
-      },
-      {
-        "ticker": "API",
-        "company": "Agora, Inc.",
-        "pressure_score": 149.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "STC",
-        "company": "STEWART INFORMATION SERVICES CORP",
-        "pressure_score": 147.1,
-        "sources": [
-          "corporate_insider"
         ]
       }
     ],
@@ -538,7 +550,15 @@
       {
         "ticker": "DCOM",
         "company": "Dime Commercial Bancshares, Inc. /NY/",
-        "pressure_score": 686.8,
+        "pressure_score": 888.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "DRD",
+        "company": "DRDGOLD LTD",
+        "pressure_score": 681.0,
         "sources": [
           "corporate_insider"
         ]
@@ -553,33 +573,8 @@
       },
       {
         "ticker": "ZS",
-        "company": "ZSCALER INC",
-        "pressure_score": 611.2,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "ADPT",
-        "company": "Adaptive Biotechnologies Corp",
-        "pressure_score": 437.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "CART",
-        "company": "Maplebear Inc.",
-        "pressure_score": 375.1,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "GS",
-        "company": "GOLDMAN SACHS GROUP INC",
-        "pressure_score": 374.6,
+        "company": "Zscaler, Inc.",
+        "pressure_score": 600.3,
         "sources": [
           "corporate_insider"
         ]
@@ -594,11 +589,10 @@
       },
       {
         "ticker": "IRD",
-        "company": "OPUS GENETICS INC",
-        "pressure_score": 349.3,
+        "company": "Opus Genetics, Inc.",
+        "pressure_score": 343.0,
         "sources": [
-          "corporate_insider",
-          "large_holder"
+          "corporate_insider"
         ]
       },
       {
@@ -626,9 +620,17 @@
         ]
       },
       {
-        "ticker": "PACS",
-        "company": "PACS Group, Inc.",
-        "pressure_score": 231.5,
+        "ticker": "GS",
+        "company": "GOLDMAN SACHS GROUP INC",
+        "pressure_score": 239.4,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "CART",
+        "company": "Maplebear Inc.",
+        "pressure_score": 234.5,
         "sources": [
           "corporate_insider"
         ]
@@ -637,6 +639,14 @@
         "ticker": "AGNC",
         "company": "AGNC Investment Corp.",
         "pressure_score": 230.2,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ROP",
+        "company": "ROPER TECHNOLOGIES INC",
+        "pressure_score": 225.3,
         "sources": [
           "corporate_insider"
         ]
@@ -965,6 +975,87 @@
   "congress_activity": [],
   "large_holders": [
     {
+      "filer": "BANK OF AMERICA CORP /DE/",
+      "company": "Nuveen Minnesota Quality Municipal Income Fund",
+      "ticker": "NMS",
+      "ownership_pct": 100.0,
+      "shares": 478,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-15"
+    },
+    {
+      "filer": "RBC Rochdale, LLC",
+      "company": "City National Rochdale Select Strategies Fund",
+      "ticker": "",
+      "ownership_pct": 97.3,
+      "shares": 13506519,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-20"
+    },
+    {
+      "filer": "RBC Rochdale, LLC",
+      "company": "City National Rochdale Strategic Credit Fund",
+      "ticker": "",
+      "ownership_pct": 92.9,
+      "shares": 41397534,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-20"
+    },
+    {
+      "filer": "Ruilin Xu",
+      "company": "Nexpu Ltd.",
+      "ticker": "DPU",
+      "ownership_pct": 90.71,
+      "shares": 32187368,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-09"
+    },
+    {
+      "filer": "WISeQey Corp.",
+      "company": "WISeSat.Space Holdings Corp.",
+      "ticker": "SAIQ",
+      "ownership_pct": 88.5,
+      "shares": 26405355,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-14"
+    },
+    {
+      "filer": "WISeQey Corp.",
+      "company": "WISeSat.Space Holdings Corp.",
+      "ticker": "SAIQ",
+      "ownership_pct": 88.5,
+      "shares": 26405355,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-08"
+    },
+    {
+      "filer": "Hard Rock Holdco LLC",
+      "company": "Omnitek Engineering Corp",
+      "ticker": "OMTK",
+      "ownership_pct": 85.2,
+      "shares": 750000000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-09"
+    },
+    {
+      "filer": "Rui Zhang",
+      "company": "AGM Group Holdings Inc.",
+      "ticker": "AGMH",
+      "ownership_pct": 81.48,
+      "shares": 17446471,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-08"
+    },
+    {
+      "filer": "Jakhongir Abidovich Artikkhodjaev",
+      "company": "StageWise Strategies Corp.",
+      "ticker": "STWI",
+      "ownership_pct": 79.3,
+      "shares": 4000000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-07"
+    },
+    {
       "filer": "Pani Corp.",
       "company": "AI OKTO Corp.",
       "ticker": "AIOK",
@@ -974,128 +1065,47 @@
       "date": "2026-10-27"
     },
     {
+      "filer": "Pani Corp.",
+      "company": "AI OKTO Corp.",
+      "ticker": "AIOK",
+      "ownership_pct": 74.2,
+      "shares": 3206185,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-16"
+    },
+    {
+      "filer": "Skydance Corporation",
+      "company": "Anghami Inc.",
+      "ticker": "",
+      "ownership_pct": 71.3,
+      "shares": 7417345,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-08"
+    },
+    {
+      "filer": "Jakhongir Abidovich Artikkhodjaev",
+      "company": "TEG OVERSEAS, INC.",
+      "ticker": "STWI",
+      "ownership_pct": 68.3,
+      "shares": 128506935,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-15"
+    },
+    {
+      "filer": "BROWN BROTHERS HARRIMAN & CO",
+      "company": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "ticker": "",
+      "ownership_pct": 68.09,
+      "shares": 3887921,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-20"
+    },
+    {
       "filer": "Sealbond Limited",
       "company": "Dogwood Therapeutics, Inc.",
       "ticker": "DWTX",
       "ownership_pct": 67.8,
       "shares": 25920693,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Canada Pension Plan Investment Board",
-      "company": "ReNew Energy Global plc",
-      "ticker": "RNW",
-      "ownership_pct": 34.3,
-      "shares": 88846844,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-28"
-    },
-    {
-      "filer": "Fung & Tun Limited",
-      "company": "Masonglory Ltd",
-      "ticker": "MSGY",
-      "ownership_pct": 32.3,
-      "shares": 1130500,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-28"
-    },
-    {
-      "filer": "NextEra Energy, Inc.",
-      "company": "First Eagle Private Credit Fund",
-      "ticker": "",
-      "ownership_pct": 31.9,
-      "shares": 4097524,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Nippon Life Insurance Company",
-      "company": "Corebridge Financial, Inc.",
-      "ticker": "",
-      "ownership_pct": 29.4,
-      "shares": 131262715,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Energy Evolution Master Fund, Ltd.",
-      "company": "EMPIRE PETROLEUM CORPORATION",
-      "ticker": "EP",
-      "ownership_pct": 28.1,
-      "shares": 11695889,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Manuel Stotz",
-      "company": "TON Strategy Company",
-      "ticker": "TONX",
-      "ownership_pct": 21.96,
-      "shares": 12091720,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Sumant Sinha",
-      "company": "ReNew Energy Global plc",
-      "ticker": "RNW",
-      "ownership_pct": 19.75,
-      "shares": 60540417,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-28"
-    },
-    {
-      "filer": "Yuao Wu",
-      "company": "Amber International Holding Limited",
-      "ticker": "AMBR",
-      "ownership_pct": 19.1,
-      "shares": 94198422,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-28"
-    },
-    {
-      "filer": "BROWN ROBERT G/",
-      "company": "SPAR Group, Inc.",
-      "ticker": "SGRP",
-      "ownership_pct": 18.7,
-      "shares": 5316903,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "BROWN ROBERT G/",
-      "company": "SPAR Group, Inc.",
-      "ticker": "SGRP",
-      "ownership_pct": 18.7,
-      "shares": 5316903,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Chutzpah Holdings Limited",
-      "company": "PLURI INC.",
-      "ticker": "PLUR",
-      "ownership_pct": 17.19,
-      "shares": 2018014,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Conifer Management, L.L.C.",
-      "company": "Group 1 Automotive, Inc.",
-      "ticker": "GPI",
-      "ownership_pct": 16.9,
-      "shares": 2012290,
-      "filing_type": "SCHEDULE 13D/A",
-      "date": "2026-10-27"
-    },
-    {
-      "filer": "Corvus Capital Ltd.",
-      "company": "CDT Equity Inc.",
-      "ticker": "",
-      "ownership_pct": 16.8,
-      "shares": 1565080,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-27"
     }
@@ -1105,19 +1115,9 @@
       {
         "wallet": "0xe4a57385a3",
         "username": "chubbytoro",
-        "pnl": 143453.64,
+        "pnl": 143817.72,
         "win_rate": 1.0,
-        "volume": 7361.11,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 86803.83,
-        "win_rate": 0.947,
-        "volume": 762593.35,
+        "volume": 23977.3,
         "categories": [
           "sports"
         ]
@@ -1125,9 +1125,9 @@
       {
         "wallet": "0xb9c7d35d1f",
         "username": "taylorsversion",
-        "pnl": 114186.61,
+        "pnl": 112304.53,
         "win_rate": 0.9259,
-        "volume": 105206.91,
+        "volume": 180187.35,
         "categories": [
           "sports",
           "crypto"
@@ -1136,9 +1136,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 113917.25,
+        "pnl": 115530.08,
         "win_rate": 0.9148,
-        "volume": 118591.94,
+        "volume": 695701.88,
         "categories": [
           "sports"
         ]
@@ -1154,11 +1154,21 @@
         ]
       },
       {
+        "wallet": "0xe40ecff63e",
+        "username": "lllllllIlll",
+        "pnl": 46022.27,
+        "win_rate": 0.9474,
+        "volume": 1164562.15,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0x2879ded7fe",
         "username": "chongchong37",
-        "pnl": 155316.11,
+        "pnl": 155246.07,
         "win_rate": 0.8611,
-        "volume": 189499.92,
+        "volume": 203509.39,
         "categories": [
           "sports"
         ]
@@ -1166,9 +1176,9 @@
       {
         "wallet": "0xf3ce7f04dd",
         "username": "Sisyphus-",
-        "pnl": 23686.48,
+        "pnl": 26371.32,
         "win_rate": 0.976,
-        "volume": 82403.24,
+        "volume": 97890.26,
         "categories": [
           "sports"
         ]
@@ -1176,33 +1186,34 @@
       {
         "wallet": "0xe18ecc345e",
         "username": "ArielFilipino",
-        "pnl": 61690.87,
+        "pnl": 61280.8,
         "win_rate": 0.9115,
-        "volume": 57350.0,
+        "volume": 236605.0,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 75142.08,
-        "win_rate": 0.8966,
-        "volume": 32354.95,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
         "wallet": "0x478e603263",
         "username": "xiaoxiongxiong",
-        "pnl": 22152.66,
-        "win_rate": 0.943,
-        "volume": 31230.0,
+        "pnl": 22697.79,
+        "win_rate": 0.942,
+        "volume": 56536.81,
         "categories": [
           "crypto",
           "sports",
           "politics"
+        ]
+      },
+      {
+        "wallet": "0x9f15613ebf",
+        "username": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+        "pnl": 58207.99,
+        "win_rate": 0.874,
+        "volume": 104134.35,
+        "categories": [
+          "sports",
+          "crypto"
         ]
       }
     ],
@@ -1218,53 +1229,44 @@
         ]
       },
       {
-        "wallet": "0x1f3a646ce5",
-        "username": "mooseborzoii",
-        "pnl": 358667.65,
-        "win_rate": 0.717,
-        "volume": 2425956.85,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x5268527977",
-        "username": "HomeRunHazard",
-        "pnl": 214372.76,
-        "win_rate": 0.562,
-        "volume": 2304368.43,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2b2dbd6524",
-        "username": "jsmythyson",
-        "pnl": 43690.53,
-        "win_rate": 0.5455,
-        "volume": 778573.45,
-        "categories": [
-          "economy",
-          "politics"
-        ]
-      },
-      {
         "wallet": "0x6ac5bb06a9",
         "username": "jakepaulthegoat2008",
-        "pnl": 169091.79,
-        "win_rate": 0.512,
-        "volume": 694721.16,
+        "pnl": 390370.67,
+        "win_rate": 0.513,
+        "volume": 2340026.21,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0x1610db79f7",
-        "username": "NS13",
-        "pnl": 21872.17,
-        "win_rate": 0.45,
-        "volume": 691620.46,
+        "wallet": "0x1f3a646ce5",
+        "username": "mooseborzoii",
+        "pnl": 364007.5,
+        "win_rate": 0.717,
+        "volume": 2953456.08,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xed107a85a4",
+        "username": "elmcap2",
+        "pnl": 55671.47,
+        "win_rate": 0.87,
+        "volume": 998205.09,
+        "categories": [
+          "sports",
+          "politics",
+          "economy"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 202524.43,
+        "win_rate": 0.558,
+        "volume": 3677596.06,
         "categories": [
           "sports"
         ]
@@ -1272,11 +1274,23 @@
       {
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
-        "pnl": 86803.83,
-        "win_rate": 0.947,
-        "volume": 762593.35,
+        "pnl": 46022.27,
+        "win_rate": 0.9474,
+        "volume": 1164562.15,
         "categories": [
           "sports"
+        ]
+      },
+      {
+        "wallet": "0x9f2fe025f8",
+        "username": "surfandturf",
+        "pnl": 40098.06,
+        "win_rate": 0.5218,
+        "volume": 532378.84,
+        "categories": [
+          "sports",
+          "economy",
+          "crypto"
         ]
       },
       {
@@ -1290,23 +1304,21 @@
         ]
       },
       {
-        "wallet": "0x9f2fe025f8",
-        "username": "surfandturf",
-        "pnl": 52633.79,
-        "win_rate": 0.5218,
-        "volume": 279649.67,
+        "wallet": "0x3dfb153c19",
+        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+        "pnl": 94177.55,
+        "win_rate": 0.561,
+        "volume": 569224.91,
         "categories": [
-          "sports",
-          "economy",
-          "crypto"
+          "sports"
         ]
       },
       {
-        "wallet": "0x3dfb153c19",
-        "username": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
-        "pnl": 94169.49,
-        "win_rate": 0.561,
-        "volume": 566660.17,
+        "wallet": "0x684baa57c3",
+        "username": "monkeymashingkeyboard",
+        "pnl": 115530.08,
+        "win_rate": 0.9148,
+        "volume": 695701.88,
         "categories": [
           "sports"
         ]
@@ -1314,6 +1326,43 @@
     ]
   },
   "news": [
+    {
+      "title": "KOSPI Slides 1 . 4 % Below 5 , 500 as Foreign Selling Hits Seoul Stocks Ahead of SK Hynix and Samsung Earnings",
+      "url": "https://www.ibtimes.com.au/south-korean-shares-fall-ahead-chip-earnings-1877393",
+      "ticker": "GS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Infosys shares fall 4 % after IT major lowers FY27 guidance . What are Goldman Sachs , Nomura , others saying ? ",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-shares-fall-4-after-it-major-lowers-fy27-guidance-what-are-goldman-sachs-nomura-others-saying/articleshow/135202432.cms",
+      "ticker": "GS",
+      "themes": [
+        "earnings",
+        "stock"
+      ],
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Kotak Mahindra Bank shares climb 4 % after Q2 results . What are Jefferies , Goldman Sachs saying ? ",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-shares-climb-4-after-q2-results-what-are-jefferies-goldman-sachs-saying/articleshow/135202411.cms",
+      "ticker": "GS",
+      "themes": [
+        "regulatory",
+        "stock"
+      ],
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Global Market : China yuan hits four - year high as dollar weakens ahead of policy meetings",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-dollar-weakens-ahead-of-policy-meetings/articleshow/135202635.cms",
+      "ticker": "GS",
+      "themes": [],
+      "date": "2026-10-26"
+    },
     {
       "title": "Crexendo Eyes $100M Run Rate as AI , Acquisitions Fuel UCaaS Growth",
       "url": "https://www.dailypolitical.com/2026/10/25/crexendo-eyes-100m-run-rate-as-ai-acquisitions-fuel-ucaas-growth.html",
@@ -1325,22 +1374,11 @@
       "date": "2026-10-25"
     },
     {
-      "title": "CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming",
-      "url": "https://247wallst.com/investing/2026/10/24/crowdstrikes-ceo-says-a-wave-of-cyber-attacks-are-coming/",
-      "ticker": "CRWD",
-      "themes": [
-        "leadership"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock",
-      "url": "https://www.dailypolitical.com/2026/10/23/alamar-biosciences-nasdaqalmr-major-shareholder-corporate-gp-vi-ltd-qiming-sells-133811-shares-of-stock.html",
-      "ticker": "ALMR",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-24"
+      "title": "DRDGold cash flow rises as expansion spending starts to ease",
+      "url": "http://www.miningmx.com/news/2026-10-20-drdgold-cash-flow-on-the-rise-as-capex-burden-eases/",
+      "ticker": "DRD",
+      "themes": [],
+      "date": "2026-10-21"
     },
     {
       "title": "Crexendo Sets the Pace with Record Attendance and Sponsorships at Its 2026 User Group Meeting",
@@ -1364,7 +1402,7 @@
       "date": "2026-10-20"
     }
   ],
-  "signals_count": 1405,
+  "signals_count": 1389,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
