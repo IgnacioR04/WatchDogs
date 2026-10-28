@@ -1,75 +1,75 @@
 {
-  "generated_at": "2026-10-27T20:23:43+00:00",
+  "generated_at": "2026-10-28T00:02:27+00:00",
   "profile": "moderado",
-  "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "regime_budget": 0.6,
+  "total_equity": 0.6002,
+  "cash": 0.3998,
   "weights": {
-    "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "IEF": 0.0572,
-    "BBT": 0.0522,
-    "BPRE": 0.0453,
-    "DLB": 0.0425,
-    "STC": 0.0395,
-    "GPI": 0.0317,
-    "PRTA": 0.0286,
-    "THRM": 0.0277,
-    "KRRO": 0.0164,
-    "CIFR": 0.0123,
-    "NBIS": 0.012
+    "SPY": 0.1199,
+    "QQQ": 0.0808,
+    "TLT": 0.0808,
+    "GLD": 0.0606,
+    "EGP": 0.0458,
+    "IEF": 0.0404,
+    "NPB": 0.0292,
+    "NDAQ": 0.0286,
+    "CRBG": 0.0273,
+    "MSM": 0.0248,
+    "STC": 0.0209,
+    "PHR": 0.0167,
+    "ZS": 0.0107,
+    "NBIS": 0.0069,
+    "CTEV": 0.0068
   },
   "core": {
-    "SPY": 0.182,
-    "QQQ": 0.104,
-    "TLT": 0.104,
-    "IEF": 0.052,
-    "GLD": 0.078
+    "SPY": 0.1365,
+    "QQQ": 0.078,
+    "TLT": 0.078,
+    "IEF": 0.039,
+    "GLD": 0.0585
   },
   "satellite": {
-    "GPI": 0.0288,
-    "STC": 0.0359,
-    "KRRO": 0.0149,
-    "CIFR": 0.0112,
-    "NBIS": 0.0109,
-    "THRM": 0.0252,
-    "DLB": 0.0386,
-    "BBT": 0.0474,
-    "PRTA": 0.026,
-    "BPRE": 0.0412
+    "STC": 0.0202,
+    "NPB": 0.0282,
+    "CTEV": 0.0066,
+    "MSM": 0.0239,
+    "NBIS": 0.0067,
+    "CRBG": 0.0264,
+    "PHR": 0.0161,
+    "NDAQ": 0.0276,
+    "EGP": 0.0442,
+    "ZS": 0.0103
   },
   "satellite_rationale": [
     {
-      "ticker": "GPI",
-      "score": 1782.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 29
-    },
-    {
       "ticker": "STC",
-      "score": 302.6,
+      "score": 458.4,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 6
+    },
+    {
+      "ticker": "NPB",
+      "score": 323.2,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 4
     },
     {
-      "ticker": "KRRO",
-      "score": 237.3,
+      "ticker": "CTEV",
+      "score": 251.8,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 4
     },
     {
-      "ticker": "CIFR",
-      "score": 211.5,
+      "ticker": "MSM",
+      "score": 204.7,
       "sources": [
-        "large_holder"
+        "corporate_insider"
       ],
       "n_signals": 3
     },
@@ -82,59 +82,58 @@
       "n_signals": 3
     },
     {
-      "ticker": "THRM",
-      "score": 153.2,
+      "ticker": "CRBG",
+      "score": 136.7,
       "sources": [
         "corporate_insider"
       ],
       "n_signals": 2
     },
     {
-      "ticker": "DLB",
-      "score": 141.0,
+      "ticker": "PHR",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
-      "ticker": "BBT",
-      "score": 128.4,
+      "ticker": "NDAQ",
+      "score": 71.8,
       "sources": [
-        "corporate_insider",
         "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
-      "ticker": "PRTA",
-      "score": 124.6,
+      "ticker": "EGP",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     },
     {
-      "ticker": "BPRE",
-      "score": 123.1,
+      "ticker": "ZS",
+      "score": 71.8,
       "sources": [
-        "corporate_insider"
+        "large_holder"
       ],
-      "n_signals": 2
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.106,
-    "var_95_1d": 0.0104,
-    "cvar_95_1d": 0.0136,
-    "max_drawdown": -0.0608,
-    "beta_spy": 0.68,
-    "hhi": 0.0625,
-    "max_position": 0.12,
+    "ann_vol": 0.0676,
+    "var_95_1d": 0.0069,
+    "cvar_95_1d": 0.0082,
+    "max_drawdown": -0.0303,
+    "beta_spy": 0.491,
+    "hhi": 0.0388,
+    "max_position": 0.1199,
     "n_positions": 15,
-    "effective_positions": 16.0,
-    "gross_exposure": 0.8,
-    "days_used": 197
+    "effective_positions": 25.8,
+    "gross_exposure": 0.6002,
+    "days_used": 132
   },
   "risk_gate": {
     "passed": true,
