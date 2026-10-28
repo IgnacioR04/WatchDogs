@@ -1,54 +1,46 @@
 {
-  "generated_at": "2026-10-28T00:02:27+00:00",
+  "generated_at": "2026-10-28T05:54:20+00:00",
   "profile": "moderado",
-  "regime_budget": 0.6,
-  "total_equity": 0.6002,
-  "cash": 0.3998,
+  "regime_budget": 0.8,
+  "total_equity": 0.8002,
+  "cash": 0.1998,
   "weights": {
-    "SPY": 0.1199,
-    "QQQ": 0.0808,
-    "TLT": 0.0808,
-    "GLD": 0.0606,
-    "EGP": 0.0458,
-    "IEF": 0.0404,
-    "NPB": 0.0292,
-    "NDAQ": 0.0286,
-    "CRBG": 0.0273,
-    "MSM": 0.0248,
-    "STC": 0.0209,
-    "PHR": 0.0167,
-    "ZS": 0.0107,
-    "NBIS": 0.0069,
-    "CTEV": 0.0068
+    "SPY": 0.12,
+    "QQQ": 0.1144,
+    "TLT": 0.1144,
+    "GLD": 0.0858,
+    "IEF": 0.0572,
+    "NPB": 0.0447,
+    "NDAQ": 0.0445,
+    "CRBG": 0.0425,
+    "MSM": 0.0385,
+    "LRN": 0.0285,
+    "SRRK": 0.0284,
+    "MIAX": 0.0281,
+    "PHR": 0.0259,
+    "ZS": 0.0166,
+    "CTEV": 0.0107
   },
   "core": {
-    "SPY": 0.1365,
-    "QQQ": 0.078,
-    "TLT": 0.078,
-    "IEF": 0.039,
-    "GLD": 0.0585
+    "SPY": 0.182,
+    "QQQ": 0.104,
+    "TLT": 0.104,
+    "IEF": 0.052,
+    "GLD": 0.078
   },
   "satellite": {
-    "STC": 0.0202,
-    "NPB": 0.0282,
-    "CTEV": 0.0066,
-    "MSM": 0.0239,
-    "NBIS": 0.0067,
-    "CRBG": 0.0264,
-    "PHR": 0.0161,
-    "NDAQ": 0.0276,
-    "EGP": 0.0442,
-    "ZS": 0.0103
+    "NPB": 0.0406,
+    "SRRK": 0.0258,
+    "CTEV": 0.0097,
+    "MSM": 0.035,
+    "LRN": 0.0259,
+    "CRBG": 0.0386,
+    "PHR": 0.0235,
+    "NDAQ": 0.0404,
+    "ZS": 0.0151,
+    "MIAX": 0.0255
   },
   "satellite_rationale": [
-    {
-      "ticker": "STC",
-      "score": 458.4,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 6
-    },
     {
       "ticker": "NPB",
       "score": 323.2,
@@ -56,6 +48,14 @@
         "corporate_insider"
       ],
       "n_signals": 4
+    },
+    {
+      "ticker": "SRRK",
+      "score": 309.5,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 5
     },
     {
       "ticker": "CTEV",
@@ -74,8 +74,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "NBIS",
-      "score": 163.4,
+      "ticker": "LRN",
+      "score": 189.8,
       "sources": [
         "corporate_insider"
       ],
@@ -106,7 +106,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "EGP",
+      "ticker": "ZS",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -114,7 +114,7 @@
       "n_signals": 1
     },
     {
-      "ticker": "ZS",
+      "ticker": "MIAX",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0676,
-    "var_95_1d": 0.0069,
-    "cvar_95_1d": 0.0082,
-    "max_drawdown": -0.0303,
-    "beta_spy": 0.491,
-    "hhi": 0.0388,
-    "max_position": 0.1199,
+    "ann_vol": 0.0904,
+    "var_95_1d": 0.0091,
+    "cvar_95_1d": 0.0112,
+    "max_drawdown": -0.0471,
+    "beta_spy": 0.608,
+    "hhi": 0.0619,
+    "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 25.8,
-    "gross_exposure": 0.6002,
-    "days_used": 132
+    "effective_positions": 16.1,
+    "gross_exposure": 0.8002,
+    "days_used": 133
   },
   "risk_gate": {
     "passed": true,

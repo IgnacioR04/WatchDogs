@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-28T00:01:36.600873+00:00",
+  "generated_at": "2026-10-28T05:53:28.902351+00:00",
   "window": {
     "from": "2026-09-28",
     "to": "2026-10-28",
@@ -25,6 +25,7 @@
     "top_themes": [
       "ai",
       "regulatory",
+      "merger",
       "stock"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
@@ -123,6 +124,24 @@
     {
       "id": "move_6",
       "rank": 6,
+      "title": "10% owner vendio TALO ($45.8M)",
+      "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $45.8M el 2026-10-23.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Control Empresarial de Capitales S.A. de C.V.",
+      "actor_type": "ten_percent_owner",
+      "ticker": "TALO",
+      "direction": "sell",
+      "amount_estimated": 45823500.0,
+      "event_date": "2026-10-23",
+      "importance_score": 82.7,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126040937/"
+    },
+    {
+      "id": "move_7",
+      "rank": 7,
       "title": "10% owner compro MSM ($7.0M)",
       "summary": "10% owner JACOBSON MITCHELL compro MSM por $7.0M el 2026-10-23.",
       "source": "sec_form_4",
@@ -139,8 +158,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1008015/000095014226002870/"
     },
     {
-      "id": "move_7",
-      "rank": 7,
+      "id": "move_8",
+      "rank": 8,
       "title": "CEO opero GS ($36.1M)",
       "summary": "CEO WALDRON JOHN E. opero GS por $36.1M el 2026-10-23.",
       "source": "sec_form_4",
@@ -157,8 +176,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1754399/000175439926000005/"
     },
     {
-      "id": "move_8",
-      "rank": 8,
+      "id": "move_9",
+      "rank": 9,
       "title": "10% owner compro CRBG ($6.3M)",
       "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.3M el 2026-10-23.",
       "source": "sec_form_4",
@@ -175,8 +194,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526434287/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
+      "id": "move_10",
+      "rank": 10,
       "title": "10% owner compro MSM ($6.3M)",
       "summary": "10% owner JACOBSON MITCHELL compro MSM por $6.3M el 2026-10-23.",
       "source": "sec_form_4",
@@ -193,8 +212,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1008015/000095014226002870/"
     },
     {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_11",
+      "rank": 11,
       "title": "CEO compro NPB ($766K)",
       "summary": "CEO Williams Charles Alan compro NPB por $766K el 2026-10-26.",
       "source": "sec_form_4",
@@ -211,8 +230,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2056588/000133670626000080/"
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_12",
+      "rank": 12,
+      "title": "Director compro LRN ($7.1M)",
+      "summary": "Director Haggart Dylan G. compro LRN por $7.1M el 2026-10-26.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "Haggart Dylan G.",
+      "actor_type": "director",
+      "ticker": "LRN",
+      "direction": "buy",
+      "amount_estimated": 7126744.64,
+      "event_date": "2026-10-26",
+      "importance_score": 81.6,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1684185/000121390026113031/"
+    },
+    {
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -229,8 +266,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -247,8 +284,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -265,8 +302,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -283,8 +320,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_17",
+      "rank": 17,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -301,8 +338,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_18",
+      "rank": 18,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -319,8 +356,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_19",
+      "rank": 19,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -337,8 +374,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_20",
+      "rank": 20,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -348,42 +385,6 @@
       "ticker": "",
       "direction": "sell",
       "amount_estimated": 26582780886,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_19",
-      "rank": 19,
-      "title": "Institutional manager compro APPLE INC ($25.1B)",
-      "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "State Street Corp",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 25125770065,
-      "event_date": "",
-      "importance_score": 81.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": ""
-    },
-    {
-      "id": "move_20",
-      "rank": 20,
-      "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
-      "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
-      "source": "sec_13f",
-      "source_type": "institutional",
-      "actor_name": "Vanguard Group Inc",
-      "actor_type": "top_institutional_manager",
-      "ticker": "",
-      "direction": "buy",
-      "amount_estimated": 23585331061,
       "event_date": "",
       "importance_score": 81.5,
       "cross_source_score": 0.0,
@@ -411,9 +412,9 @@
         ]
       },
       {
-        "ticker": "STC",
-        "company": "STEWART INFORMATION SERVICES CORP",
-        "pressure_score": 427.0,
+        "ticker": "SRRK",
+        "company": "Scholar Rock Holding Corp",
+        "pressure_score": 451.9,
         "sources": [
           "corporate_insider"
         ]
@@ -443,17 +444,17 @@
         ]
       },
       {
-        "ticker": "NXTC",
-        "company": "NextCure, Inc.",
-        "pressure_score": 211.1,
+        "ticker": "LRN",
+        "company": "Stride, Inc.",
+        "pressure_score": 235.7,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "NBIS",
-        "company": "Nebius Group N.V.",
-        "pressure_score": 208.0,
+        "ticker": "NXTC",
+        "company": "NextCure, Inc.",
+        "pressure_score": 211.1,
         "sources": [
           "corporate_insider"
         ]
@@ -484,14 +485,6 @@
         ]
       },
       {
-        "ticker": "LEO",
-        "company": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
-        "pressure_score": 150.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "PLUR",
         "company": "PLURI INC.",
         "pressure_score": 150.3,
@@ -509,15 +502,31 @@
         ]
       },
       {
-        "ticker": "GRCE",
-        "company": "Grace Therapeutics, Inc.",
-        "pressure_score": 146.6,
+        "ticker": "STC",
+        "company": "STEWART INFORMATION SERVICES CORP",
+        "pressure_score": 147.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "KIO",
+        "company": "KKR Income Opportunities Fund",
+        "pressure_score": 146.5,
         "sources": [
           "corporate_insider"
         ]
       }
     ],
     "sell_pressure": [
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "pressure_score": 2110.3,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
       {
         "ticker": "ALMR",
         "company": "Alamar Biosciences, Inc.",
@@ -552,17 +561,17 @@
         ]
       },
       {
-        "ticker": "PCTY",
-        "company": "Paylocity Holding Corp",
-        "pressure_score": 520.6,
+        "ticker": "ADPT",
+        "company": "Adaptive Biotechnologies Corp",
+        "pressure_score": 437.3,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "ADPT",
-        "company": "Adaptive Biotechnologies Corp",
-        "pressure_score": 437.3,
+        "ticker": "CART",
+        "company": "Maplebear Inc.",
+        "pressure_score": 375.1,
         "sources": [
           "corporate_insider"
         ]
@@ -593,14 +602,6 @@
         ]
       },
       {
-        "ticker": "ICLR",
-        "company": "ICON PLC",
-        "pressure_score": 312.6,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "SE",
         "company": "Sea Ltd",
         "pressure_score": 311.9,
@@ -617,9 +618,9 @@
         ]
       },
       {
-        "ticker": "CART",
-        "company": "Maplebear Inc.",
-        "pressure_score": 295.9,
+        "ticker": "PCTY",
+        "company": "Paylocity Holding Corp",
+        "pressure_score": 297.3,
         "sources": [
           "corporate_insider"
         ]
@@ -707,6 +708,15 @@
       "score": 81.8
     },
     {
+      "ticker": "LRN",
+      "company": "Stride, Inc.",
+      "actor": "Haggart Dylan G.",
+      "actor_type": "director",
+      "amount": 7126744.64,
+      "date": "2026-10-26",
+      "score": 81.6
+    },
+    {
       "ticker": "AIOK",
       "company": "AI OKTO Corp.",
       "actor": "Panagiotidis Petros Panagiotis",
@@ -714,6 +724,15 @@
       "amount": 486534.87,
       "date": "2026-10-23",
       "score": 80.5
+    },
+    {
+      "ticker": "SRRK",
+      "company": "Scholar Rock Holding Corp",
+      "actor": "AKKARAJU SRINIVAS",
+      "actor_type": "director",
+      "amount": 4075071.38,
+      "date": "2026-10-26",
+      "score": 80.4
     },
     {
       "ticker": "NPB",
@@ -759,24 +778,6 @@
       "amount": 502303.2,
       "date": "2026-10-23",
       "score": 79.4
-    },
-    {
-      "ticker": "CTEV",
-      "company": "Claritev Corp",
-      "actor": "ARES MANAGEMENT LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 1176640.0,
-      "date": "2026-10-23",
-      "score": 78.7
-    },
-    {
-      "ticker": "CTEV",
-      "company": "Claritev Corp",
-      "actor": "ARES MANAGEMENT LLC",
-      "actor_type": "ten_percent_owner",
-      "amount": 1176640.0,
-      "date": "2026-10-23",
-      "score": 78.7
     }
   ],
   "institutional_changes": [
@@ -1102,22 +1103,11 @@
   "polymarket": {
     "smart_traders": [
       {
-        "wallet": "0xf0318c3213",
-        "username": "BreakTheBank",
-        "pnl": 2555852.96,
-        "win_rate": 0.88,
-        "volume": 3792687.88,
-        "categories": [
-          "sports",
-          "politics"
-        ]
-      },
-      {
-        "wallet": "0x85f031d069",
-        "username": "RJW1",
-        "pnl": 206863.84,
-        "win_rate": 0.9923,
-        "volume": 232881.73,
+        "wallet": "0xe4a57385a3",
+        "username": "chubbytoro",
+        "pnl": 142621.2,
+        "win_rate": 1.0,
+        "volume": 130.0,
         "categories": [
           "sports"
         ]
@@ -1125,91 +1115,9 @@
       {
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
-        "pnl": 369755.49,
-        "win_rate": 0.9194,
-        "volume": 1010355.05,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 233757.62,
-        "win_rate": 0.9467,
-        "volume": 1146128.25,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xe9b710551d",
-        "username": "googleplay",
-        "pnl": 2088549.61,
-        "win_rate": 0.7778,
-        "volume": 3241036.96,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x79ae097215",
-        "username": "CORGII",
-        "pnl": 89426.86,
-        "win_rate": 0.9413,
-        "volume": 525437.64,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xc95ed399d2",
-        "username": "Siddhartha1",
-        "pnl": 54854.12,
-        "win_rate": 0.9079,
-        "volume": 109999.94,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x2879ded7fe",
-        "username": "chongchong37",
-        "pnl": 99830.17,
-        "win_rate": 0.8614,
-        "volume": 121382.76,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x1465b79bff",
-        "username": "JnStrtPrdctnMrkts",
-        "pnl": 53758.29,
-        "win_rate": 0.8966,
-        "volume": 27228.93,
-        "categories": [
-          "crypto"
-        ]
-      },
-      {
-        "wallet": "0xe18ecc345e",
-        "username": "ArielFilipino",
-        "pnl": 37779.68,
-        "win_rate": 0.9091,
-        "volume": 128044.99,
-        "categories": [
-          "sports"
-        ]
-      }
-    ],
-    "whales": [
-      {
-        "wallet": "0xe9b710551d",
-        "username": "googleplay",
-        "pnl": 2088549.61,
-        "win_rate": 0.7778,
-        "volume": 3241036.96,
+        "pnl": 204105.59,
+        "win_rate": 0.9172,
+        "volume": 51300.43,
         "categories": [
           "sports"
         ]
@@ -1217,9 +1125,107 @@
       {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
-        "pnl": 2555852.96,
-        "win_rate": 0.88,
-        "volume": 3792687.88,
+        "pnl": 235933.66,
+        "win_rate": 0.8802,
+        "volume": 1245122.5,
+        "categories": [
+          "sports",
+          "politics"
+        ]
+      },
+      {
+        "wallet": "0xb9c7d35d1f",
+        "username": "taylorsversion",
+        "pnl": 114177.42,
+        "win_rate": 0.9259,
+        "volume": 103370.51,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0x0259b2054f",
+        "username": "fantasy7788",
+        "pnl": 20229.89,
+        "win_rate": 0.9877,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xe18ecc345e",
+        "username": "ArielFilipino",
+        "pnl": 62843.6,
+        "win_rate": 0.9115,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x84ec4b5b2d",
+        "username": "FeedTheBigBird",
+        "pnl": 27875.47,
+        "win_rate": 0.9375,
+        "volume": 0.0,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xfb07f48542",
+        "username": "0xfB07F48542d2b655e9D0Bf1cC92a8a6Feee8e2cC-1782415802542",
+        "pnl": 27665.58,
+        "win_rate": 0.921,
+        "volume": 15019.01,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x885ffdf360",
+        "username": "forecastication4",
+        "pnl": 16071.73,
+        "win_rate": 0.946,
+        "volume": 6491.54,
+        "categories": [
+          "sports",
+          "crypto"
+        ]
+      },
+      {
+        "wallet": "0xdbad32ef21",
+        "username": "Zillahstone",
+        "pnl": 15076.08,
+        "win_rate": 0.9574,
+        "volume": 0.0,
+        "categories": [
+          "sports",
+          "crypto",
+          "politics"
+        ]
+      }
+    ],
+    "whales": [
+      {
+        "wallet": "0xe9b710551d",
+        "username": "googleplay",
+        "pnl": 55944.73,
+        "win_rate": 0.7826,
+        "volume": 1470897.07,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf0318c3213",
+        "username": "BreakTheBank",
+        "pnl": 235933.66,
+        "win_rate": 0.8802,
+        "volume": 1245122.5,
         "categories": [
           "sports",
           "politics"
@@ -1228,83 +1234,80 @@
       {
         "wallet": "0x1f3a646ce5",
         "username": "mooseborzoii",
-        "pnl": 208956.33,
-        "win_rate": 0.723,
-        "volume": 2946161.94,
+        "pnl": 283296.63,
+        "win_rate": 0.716,
+        "volume": 2060470.41,
         "categories": [
           "sports"
         ]
       },
       {
-        "wallet": "0x6ac5bb06a9",
-        "username": "jakepaulthegoat2008",
-        "pnl": 211575.5,
-        "win_rate": 0.51,
-        "volume": 1814475.12,
+        "wallet": "0xf72f81c744",
+        "username": "dhgreg",
+        "pnl": 183299.62,
+        "win_rate": 1.0,
+        "volume": 666046.37,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x5268527977",
+        "username": "HomeRunHazard",
+        "pnl": 202432.99,
+        "win_rate": 0.563,
+        "volume": 1894972.21,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x385edd3590",
+        "username": "CHZHSHCH",
+        "pnl": 132237.12,
+        "win_rate": 0.4928,
+        "volume": 477458.44,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x796fc6fda8",
+        "username": "6512395314597884",
+        "pnl": 14506.61,
+        "win_rate": 0.605,
+        "volume": 1204128.87,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0x0d6a1ada6d",
+        "username": "keeptheblueflagflyinghigh",
+        "pnl": 51343.37,
+        "win_rate": 0.57,
+        "volume": 770667.28,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
+        "wallet": "0xf68a281980",
+        "username": "Nooserac",
+        "pnl": 38017.44,
+        "win_rate": 0.676,
+        "volume": 419571.46,
         "categories": [
           "sports",
           "politics"
         ]
       },
       {
-        "wallet": "0xe40ecff63e",
-        "username": "lllllllIlll",
-        "pnl": 233757.62,
-        "win_rate": 0.9467,
-        "volume": 1146128.25,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0xa38a455bbd",
         "username": "takeormake",
-        "pnl": 302390.12,
-        "win_rate": 0.618,
-        "volume": 2147938.54,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0xfea31bc088",
-        "username": "ndb1",
-        "pnl": 34130.62,
-        "win_rate": 0.622,
-        "volume": 395711.57,
-        "categories": [
-          "sports",
-          "politics",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x684baa57c3",
-        "username": "monkeymashingkeyboard",
-        "pnl": 369755.49,
-        "win_rate": 0.9194,
-        "volume": 1010355.05,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
-        "wallet": "0x9ee49c02ae",
-        "username": "cosmicxbt",
-        "pnl": 52937.07,
-        "win_rate": 0.7174,
-        "volume": 409999.96,
-        "categories": [
-          "sports",
-          "economy"
-        ]
-      },
-      {
-        "wallet": "0x2a69660046",
-        "username": "UpTheBlues",
-        "pnl": 153821.91,
-        "win_rate": 0.657,
-        "volume": 3033874.17,
+        "pnl": 20575.52,
+        "win_rate": 0.612,
+        "volume": 674631.49,
         "categories": [
           "sports"
         ]
@@ -1323,6 +1326,16 @@
       "date": "2026-10-27"
     },
     {
+      "title": "Crexendo Eyes $100M Run Rate as AI , Acquisitions Fuel UCaaS Growth",
+      "url": "https://www.dailypolitical.com/2026/10/25/crexendo-eyes-100m-run-rate-as-ai-acquisitions-fuel-ucaas-growth.html",
+      "ticker": "CXDO",
+      "themes": [
+        "ai",
+        "merger"
+      ],
+      "date": "2026-10-25"
+    },
+    {
       "title": "Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock",
       "url": "https://www.dailypolitical.com/2026/10/23/alamar-biosciences-nasdaqalmr-major-shareholder-corporate-gp-vi-ltd-qiming-sells-133811-shares-of-stock.html",
       "ticker": "ALMR",
@@ -1330,9 +1343,30 @@
         "stock"
       ],
       "date": "2026-10-24"
+    },
+    {
+      "title": "Crexendo Sets the Pace with Record Attendance and Sponsorships at Its 2026 User Group Meeting",
+      "url": "http://www.californiatelegraph.com/news/279387443/crexendo-sets-the-pace-with-record-attendance-and-sponsorships-at-its-2026-user-group-meeting",
+      "ticker": "CXDO",
+      "themes": [],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Crexendo Sets the Pace with Record Attendance and Sponsorships at Its 2026 User Group Meeting",
+      "url": "http://www.newjerseytelegraph.com/news/279387443/crexendo-sets-the-pace-with-record-attendance-and-sponsorships-at-its-2026-user-group-meeting",
+      "ticker": "CXDO",
+      "themes": [],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Crexendo Sets the Pace with Record Attendance and Sponsorships at Its ... ",
+      "url": "https://www.pr-inside.com/crexendo-sets-the-pace-with-record-attendance-and-sponsorships-at-its-r5235301.htm",
+      "ticker": "CXDO",
+      "themes": [],
+      "date": "2026-10-20"
     }
   ],
-  "signals_count": 1363,
+  "signals_count": 1412,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
