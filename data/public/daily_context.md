@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-29T02:42:22+00:00 · ventana señales 2026-09-29 -> 2026-10-29_
+_Generado 2026-10-29T10:13:58+00:00 · ventana señales 2026-09-29 -> 2026-10-29_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,7 +9,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 16.91)
+- Volatilidad: `normal` (VIX 17.0)
 - Tendencia: `bull` (SPY 772.31 · MA50 766.83 · MA200 725.23 · dist MA200: 6.49%)
 - Credito: `normal` (HY spread 3.18)
 - Tipos: `flat` (curva 10y-2y 0.38)
@@ -107,8 +107,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 80.99 (-0.78% / 0.93% / 4.55%) [2026-10-28]
 - IEF: 90.85 (-0.27% / 0.69% / 2.08%) [2026-10-28]
 - GLD: 373.51 (0.33% / -1.44% / -1.92%) [2026-10-28]
-- ^VIX: 16.91 (-3.48% / 1.38% / 3.49%) [2026-10-28]
-- BTC-USD: 79654.39 (-1.42% / -1.75% / -2.48%) [2026-10-29]
+- ^VIX: 17.0 (0.53% / -10.67% / 3.72%) [2026-10-29]
+- BTC-USD: 80055.02 (-1.49% / -0.91% / -3.02%) [2026-10-29]
 
 **Macro (valor · cambio 1m):**
 
@@ -123,14 +123,15 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (1), regulatory (1), merger (1)
+**Temas dominantes**: stock (3), earnings (2), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [ULCC] IBM Introduces Identity and Control for AI Agents , Securing Frontier Intelligence for the Enterprise (2026-10-27)
-- [WEAV] Analyzing Weave Communications ( NYSE : WEAV ) & HealthStream ( NASDAQ : HSTM ) (2026-10-22)
-- [SYM] Critical Comparison : Symbotic ( NASDAQ : SYM ) and Cummins ( NYSE : CMI ) (2026-10-20)
-- [SYM] Tech M & A deals : IonQ , Freshworks , Torii , Symbotic , Accenture (2026-10-19)
+- [GS] KOSPI Slides 1 . 4 % Below 5 , 500 as Foreign Selling Hits Seoul Stocks Ahead of SK Hynix and Samsung Earnings (2026-10-26)
+- [GS] Infosys shares fall 4 % after IT major lowers FY27 guidance . What are Goldman Sachs , Nomura , others saying ? (2026-10-26)
+- [GS] Kotak Mahindra Bank shares climb 4 % after Q2 results . What are Jefferies , Goldman Sachs saying ? (2026-10-26)
+- [GS] Global Market : China yuan hits four - year high as dollar weakens ahead of policy meetings (2026-10-26)
+- [DRD] DRDGold cash flow rises as expansion spending starts to ease (2026-10-21)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -145,11 +146,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $106,054 · win rate 100% · categorias: sports
-- googleplay · PnL $1,420,551 · win rate 80% · categorias: sports
-- chubbytoro · PnL $20,089 · win rate 100% · categorias: sports
-- juice-fruit · PnL $30,908 · win rate 96% · categorias: sports
-- ArielFilipino · PnL $59,533 · win rate 91% · categorias: sports
+- theowalcott · PnL $250,164 · win rate 100% · categorias: sports
+- googleplay · PnL $1,752,623 · win rate 81% · categorias: sports
+- monkeymashingkeyboard · PnL $350,523 · win rate 92% · categorias: sports
+- EdZachary · PnL $125,470 · win rate 90% · categorias: sports, politics, economy
+- ArielFilipino · PnL $79,057 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
