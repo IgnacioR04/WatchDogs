@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-28T23:29:21+00:00",
+  "generated_at": "2026-10-29T02:42:21+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
-  "total_equity": 0.8,
-  "cash": 0.2,
+  "total_equity": 0.7999,
+  "cash": 0.2001,
   "weights": {
     "SPY": 0.12,
     "QQQ": 0.1144,
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "HBAN": 0.0458,
-    "BBT": 0.0442,
-    "NPB": 0.0382,
-    "RNW": 0.0359,
-    "BPRE": 0.0343,
-    "LRN": 0.0237,
-    "SRRK": 0.0229,
-    "GOLD": 0.0226,
-    "PHR": 0.0224,
-    "ACN": 0.0182
+    "HBAN": 0.0467,
+    "BBT": 0.0459,
+    "NPB": 0.0403,
+    "RNW": 0.0366,
+    "BPRE": 0.0351,
+    "STC": 0.0268,
+    "GOLD": 0.0231,
+    "PHR": 0.023,
+    "ACN": 0.0187,
+    "TTMI": 0.0119
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "NPB": 0.0347,
-    "SRRK": 0.0208,
-    "ACN": 0.0165,
-    "RNW": 0.0326,
-    "GOLD": 0.0205,
-    "LRN": 0.0215,
-    "BPRE": 0.0312,
-    "HBAN": 0.0416,
-    "BBT": 0.0402,
-    "PHR": 0.0204
+    "NPB": 0.0366,
+    "ACN": 0.017,
+    "TTMI": 0.0108,
+    "RNW": 0.0333,
+    "GOLD": 0.021,
+    "STC": 0.0244,
+    "BPRE": 0.0319,
+    "HBAN": 0.0424,
+    "BBT": 0.0417,
+    "PHR": 0.0209
   },
   "satellite_rationale": [
     {
@@ -50,16 +50,16 @@
       "n_signals": 4
     },
     {
-      "ticker": "SRRK",
-      "score": 309.5,
+      "ticker": "ACN",
+      "score": 237.6,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 5
+      "n_signals": 3
     },
     {
-      "ticker": "ACN",
-      "score": 237.6,
+      "ticker": "TTMI",
+      "score": 231.3,
       "sources": [
         "corporate_insider"
       ],
@@ -82,12 +82,12 @@
       "n_signals": 3
     },
     {
-      "ticker": "LRN",
-      "score": 189.8,
+      "ticker": "STC",
+      "score": 147.8,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 3
+      "n_signals": 2
     },
     {
       "ticker": "BPRE",
@@ -123,17 +123,17 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0846,
-    "var_95_1d": 0.009,
-    "cvar_95_1d": 0.0114,
-    "max_drawdown": -0.0406,
-    "beta_spy": 0.545,
-    "hhi": 0.0616,
+    "ann_vol": 0.0897,
+    "var_95_1d": 0.0102,
+    "cvar_95_1d": 0.0116,
+    "max_drawdown": -0.0426,
+    "beta_spy": 0.606,
+    "hhi": 0.062,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.2,
-    "gross_exposure": 0.8,
-    "days_used": 115
+    "effective_positions": 16.1,
+    "gross_exposure": 0.7999,
+    "days_used": 112
   },
   "risk_gate": {
     "passed": true,
