@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:13:32+00:00",
+  "generated_at": "2026-10-29T22:02:50+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
@@ -10,16 +10,16 @@
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "HBAN": 0.0495,
-    "BBT": 0.0486,
-    "RNW": 0.0388,
-    "BPRE": 0.0373,
-    "STRT": 0.0319,
-    "STC": 0.0285,
-    "GOLD": 0.0245,
-    "ACN": 0.0199,
-    "WEAV": 0.0164,
-    "TTMI": 0.0127
+    "HBAN": 0.0505,
+    "BBT": 0.0496,
+    "CRBG": 0.041,
+    "RNW": 0.0396,
+    "BPRE": 0.038,
+    "GOLD": 0.025,
+    "ACN": 0.0202,
+    "PESI": 0.0175,
+    "TEM": 0.0138,
+    "TTMI": 0.0129
   },
   "core": {
     "SPY": 0.182,
@@ -29,16 +29,16 @@
     "GLD": 0.078
   },
   "satellite": {
-    "ACN": 0.0181,
-    "TTMI": 0.0115,
-    "RNW": 0.0353,
-    "GOLD": 0.0223,
-    "BBT": 0.0442,
-    "STC": 0.0259,
-    "BPRE": 0.0339,
-    "HBAN": 0.045,
-    "STRT": 0.029,
-    "WEAV": 0.0149
+    "ACN": 0.0184,
+    "TTMI": 0.0117,
+    "HBAN": 0.0459,
+    "RNW": 0.036,
+    "GOLD": 0.0227,
+    "BBT": 0.0451,
+    "CRBG": 0.0373,
+    "BPRE": 0.0345,
+    "PESI": 0.0159,
+    "TEM": 0.0125
   },
   "satellite_rationale": [
     {
@@ -52,6 +52,14 @@
     {
       "ticker": "TTMI",
       "score": 231.3,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 3
+    },
+    {
+      "ticker": "HBAN",
+      "score": 219.3,
       "sources": [
         "corporate_insider"
       ],
@@ -82,8 +90,8 @@
       "n_signals": 2
     },
     {
-      "ticker": "STC",
-      "score": 147.8,
+      "ticker": "CRBG",
+      "score": 135.0,
       "sources": [
         "corporate_insider"
       ],
@@ -98,15 +106,7 @@
       "n_signals": 2
     },
     {
-      "ticker": "HBAN",
-      "score": 113.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "STRT",
+      "ticker": "PESI",
       "score": 71.8,
       "sources": [
         "large_holder"
@@ -114,8 +114,8 @@
       "n_signals": 1
     },
     {
-      "ticker": "WEAV",
-      "score": 70.2,
+      "ticker": "TEM",
+      "score": 71.8,
       "sources": [
         "large_holder"
       ],
@@ -123,15 +123,15 @@
     }
   ],
   "metrics": {
-    "ann_vol": 0.0893,
-    "var_95_1d": 0.0093,
-    "cvar_95_1d": 0.0116,
-    "max_drawdown": -0.04,
-    "beta_spy": 0.604,
-    "hhi": 0.0622,
+    "ann_vol": 0.1012,
+    "var_95_1d": 0.0101,
+    "cvar_95_1d": 0.0123,
+    "max_drawdown": -0.0348,
+    "beta_spy": 0.698,
+    "hhi": 0.0626,
     "max_position": 0.12,
     "n_positions": 15,
-    "effective_positions": 16.1,
+    "effective_positions": 16.0,
     "gross_exposure": 0.7999,
     "days_used": 112
   },
