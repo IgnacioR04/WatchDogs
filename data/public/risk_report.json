@@ -1,33 +1,30 @@
 {
-  "generated_at": "2026-10-30T08:54:22+00:00",
+  "generated_at": "2026-10-30T16:14:02+00:00",
   "portfolio": {
     "SPY": 0.12,
-    "QQQ": 0.1144,
-    "TLT": 0.1144,
-    "GLD": 0.0858,
-    "IEF": 0.0572,
-    "HBAN": 0.0525,
-    "CCK": 0.0523,
-    "BBT": 0.0516,
-    "RNW": 0.0412,
-    "BPRE": 0.0395,
-    "ACN": 0.0211,
-    "PESI": 0.0182,
-    "WEAV": 0.0174,
-    "TEM": 0.0143
+    "QQQ": 0.0808,
+    "TLT": 0.0808,
+    "BBT": 0.0678,
+    "GLD": 0.0606,
+    "RNW": 0.0542,
+    "IEF": 0.0404,
+    "ANDG": 0.0299,
+    "PESI": 0.0239,
+    "WEAV": 0.0229,
+    "TEM": 0.0187
   },
   "metrics": {
-    "ann_vol": 0.0938,
-    "var_95_1d": 0.0103,
-    "cvar_95_1d": 0.0122,
-    "max_drawdown": -0.0778,
-    "beta_spy": 0.613,
-    "hhi": 0.0639,
+    "ann_vol": 0.0788,
+    "var_95_1d": 0.0076,
+    "cvar_95_1d": 0.0094,
+    "max_drawdown": -0.058,
+    "beta_spy": 0.497,
+    "hhi": 0.0426,
     "max_position": 0.12,
-    "n_positions": 14,
-    "effective_positions": 15.6,
-    "gross_exposure": 0.7999,
-    "days_used": 214
+    "n_positions": 11,
+    "effective_positions": 23.5,
+    "gross_exposure": 0.6,
+    "days_used": 213
   },
   "limits": {
     "max_position": 0.15,
@@ -36,7 +33,7 @@
     "max_gross_exposure": 1.0,
     "respect_regime_budget": true
   },
-  "regime_budget": 0.8,
+  "regime_budget": 0.6,
   "gate": {
     "passed": true,
     "violations": [],
@@ -46,14 +43,14 @@
     "horizon_days": 21,
     "n_sims": 5000,
     "method": "historical_bootstrap",
-    "expected_return_pct": 0.62,
-    "median_return_pct": 0.58,
-    "p5_return_pct": -3.74,
-    "p25_return_pct": -1.25,
-    "p75_return_pct": 2.4,
-    "p95_return_pct": 5.16,
-    "prob_loss": 0.417,
-    "var_95_horizon": 0.0374,
-    "cvar_95_horizon": 0.0494
+    "expected_return_pct": 0.96,
+    "median_return_pct": 0.98,
+    "p5_return_pct": -2.89,
+    "p25_return_pct": -0.57,
+    "p75_return_pct": 2.53,
+    "p95_return_pct": 4.65,
+    "prob_loss": 0.331,
+    "var_95_horizon": 0.0289,
+    "cvar_95_horizon": 0.0373
   }
 }

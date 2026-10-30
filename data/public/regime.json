@@ -1,26 +1,24 @@
 {
-  "generated_at": "2026-10-30T08:54:21+00:00",
-  "risk_state": "risk_on",
-  "recommended_risk_budget": 0.8,
-  "summary": "Mercado risk-on: tendencia bull, volatilidad normal, credito normal, curva flat. Presupuesto de riesgo recomendado 80%.",
-  "reasons": [
-    "tendencia alcista (+)"
-  ],
+  "generated_at": "2026-10-30T16:14:01+00:00",
+  "risk_state": "neutral",
+  "recommended_risk_budget": 0.6,
+  "summary": "Mercado neutral: tendencia neutral, volatilidad normal, credito normal, curva flat. Presupuesto de riesgo recomendado 60%.",
+  "reasons": [],
   "states": {
     "volatility": {
       "state": "normal",
-      "vix": 18.42
+      "vix": 19.81
     },
     "trend": {
-      "state": "bull",
-      "close": 769.36,
-      "ma50": 766.87,
-      "ma200": 725.63,
-      "pct_vs_ma200": 6.03
+      "state": "neutral",
+      "close": 756.89,
+      "ma50": 766.8,
+      "ma200": 725.99,
+      "pct_vs_ma200": 4.26
     },
     "credit": {
       "state": "normal",
-      "hy_spread": 3.14
+      "hy_spread": 3.26
     },
     "rates": {
       "state": "flat",
@@ -29,7 +27,7 @@
   },
   "context": {
     "fed_funds": 3.75,
-    "spy": 769.36,
-    "vix": 18.42
+    "spy": 756.89,
+    "vix": 19.81
   }
 }
