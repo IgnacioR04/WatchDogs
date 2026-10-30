@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-29T22:02:51+00:00 -->
+<!-- trader_prompt.md generado 2026-10-30T02:14:11+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-29T22:02:51+00:00 · ventana señales 2026-09-29 -> 2026-10-29_
+_Generado 2026-10-30T02:14:11+00:00 · ventana señales 2026-09-30 -> 2026-10-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -261,36 +261,34 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | TLT | 11.4% | core | 81.49 | 0.62% | -0.31% | 4.86% |
 | GLD | 8.6% | core | 368.57 | -1.32% | -0.12% | -3.71% |
 | IEF | 5.7% | core | 91.25 | 0.44% | 0.05% | 2.18% |
-| HBAN | 5.1% | satellite | 15.97 | 1.72% | 1.98% | 5.13% |
-| BBT | 5.0% | satellite | 30.66 | 0.92% | 2.37% | 9.11% |
-| CRBG | 4.1% | satellite | 35.29 | -0.08% | -0.84% | 4.84% |
-| RNW | 4.0% | satellite | 6.87 | 0.0% | -0.15% | 0.59% |
-| BPRE | 3.8% | satellite | 12.56 | 1.05% | 1.54% | 0.64% |
-| GOLD | 2.5% | satellite | 38.55 | -1.26% | -0.28% | -8.41% |
-| ACN | 2.0% | satellite | 247.22 | 1.57% | -4.45% | 17.38% |
+| HBAN | 5.2% | satellite | 15.97 | 1.72% | 1.98% | 5.13% |
+| CCK | 5.2% | satellite | 118.2 | 1.68% | -0.89% | 11.31% |
+| BBT | 5.2% | satellite | 30.66 | 0.92% | 2.37% | 9.11% |
+| RNW | 4.1% | satellite | 6.87 | 0.0% | -0.15% | 0.59% |
+| BPRE | 4.0% | satellite | 12.56 | 1.05% | 1.54% | 0.64% |
+| ACN | 2.1% | satellite | 247.22 | 1.57% | -4.45% | 17.38% |
 | PESI | 1.8% | satellite | 13.32 | -2.49% | 8.2% | -13.56% |
+| WEAV | 1.7% | satellite | 7.4 | 0.14% | 0.0% | 0.68% |
 | TEM | 1.4% | satellite | 77.84 | 1.61% | 21.99% | 1.75% |
-| TTMI | 1.3% | satellite | 87.63 | -3.48% | 18.6% | -30.73% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 10.1%
-- VaR 95% 1d: 1.0% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -3.5%
-- Beta vs SPY: 0.698 · posiciones efectivas: 16.0 · HHI: 0.0626
+- Volatilidad anualizada: 8.9%
+- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
+- Max drawdown historico: -3.2%
+- Beta vs SPY: 0.597 · posiciones efectivas: 15.6 · HHI: 0.0639
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **ACN** · score agregado 237.6 · 3 señales · fuentes: corporate_insider
-- **TTMI** · score agregado 231.3 · 3 señales · fuentes: corporate_insider
-- **HBAN** · score agregado 219.3 · 3 señales · fuentes: corporate_insider
 - **RNW** · score agregado 211.5 · 3 señales · fuentes: large_holder
-- **GOLD** · score agregado 192.2 · 3 señales · fuentes: corporate_insider
 - **BBT** · score agregado 150.3 · 2 señales · fuentes: corporate_insider
-- **CRBG** · score agregado 135.0 · 2 señales · fuentes: corporate_insider
 - **BPRE** · score agregado 123.4 · 2 señales · fuentes: corporate_insider
 - **PESI** · score agregado 71.8 · 1 señales · fuentes: large_holder
 - **TEM** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **CCK** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **WEAV** · score agregado 70.2 · 1 señales · fuentes: large_holder
+- **HBAN** · score agregado 58.0 · 1 señales · fuentes: corporate_insider
 
 ## 3. Señales de smart money (30d)
 
@@ -300,19 +298,19 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 |--------|------:|--------|-------|--------:|--------:|-------|
 | ACN | 84 | corporate_insider | Sweet Julie Spellman | 2 | $2,486,318 | cluster_buy |
 | ACN | 80 | corporate_insider | Sweet Julie Spellman | 2 | $514,723 | cluster_buy |
-| TTMI | 80 | corporate_insider | Roks Edwin | 2 | $440,350 | cluster_buy |
 | BBT | 76 | corporate_insider | Callahan Mary Anne | 4 | $96,672 | cluster_buy |
-| TTMI | 76 | corporate_insider | Ali Wajid | 2 | $449,286 | cluster_buy |
-| TTMI | 76 | corporate_insider | Ali Wajid | 2 | $453,175 | cluster_buy |
-| HBAN | 74 | corporate_insider | TORGOW GARY | 2 | $199,834 | cluster_buy |
 | ACN | 74 | corporate_insider | Price Paula A | 2 | $199,848 | cluster_buy |
 | BBT | 74 | corporate_insider | Polito Karyn | 4 | $30,680 | cluster_buy |
-| HBAN | 74 | corporate_insider | ROLLINS JAMES D III | 2 | $194,300 | cluster_buy |
 | LONA | 74 | corporate_insider | Portman David J. | 0 | $9,919,161,281 | - |
 | BBT | 73 | corporate_insider | Rosengren Eric S | 4 | $21,168 | cluster_buy,small_amount |
 | RAASY | 72 | large_holder | TB Alternative Assets Ltd |  | - | - |
 | TECX | 72 | large_holder | Aberdeen Group plc |  | - | - |
 | CSTL | 72 | large_holder | PRINCIPAL GLOBAL INVESTOR |  | - | - |
+| RCT | 72 | large_holder | Byland Christina Elisabet |  | - | - |
+| RCT | 72 | large_holder | Senn Nikolaus Beat |  | - | - |
+| PESI | 72 | large_holder | HOLD Alapkezelo Zrt. |  | - | - |
+| TEM | 72 | large_holder | Bradley A. Keywell |  | - | - |
+| CCK | 72 | large_holder | BlackRock Portfolio Manag |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
@@ -322,10 +320,10 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 | COF | 58 | corporate_insider | FAIRBANK RICHARD D | $9,477,680 | - |
 | TALO | 58 | corporate_insider | Control Empresarial de Ca | $21,992,040 | - |
 | COF | 58 | corporate_insider | FAIRBANK RICHARD D | $7,526,812 | - |
-| BNY | 57 | corporate_insider | Vince Robin A. | $6,004,095 | - |
-| CB | 57 | corporate_insider | BOROUGHS TIMOTHY ALAN | $4,612,682 | - |
 | DHR | 56 | corporate_insider | McGrew Matthew | $3,683,773 | - |
+| IOT | 56 | corporate_insider | Biswas Sanjit | $3,463,304 | - |
 | DHR | 56 | corporate_insider | McGrew Matthew | $3,330,470 | - |
+| IOT | 56 | corporate_insider | Biswas Sanjit | $3,265,454 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -342,7 +340,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - IEF: 91.25 (0.44% / 0.05% / 2.18%) [2026-10-29]
 - GLD: 368.57 (-1.32% / -0.12% / -3.71%) [2026-10-29]
 - ^VIX: 17.2 (1.71% / -9.62% / 4.94%) [2026-10-29]
-- BTC-USD: 78897.34 (-2.92% / -2.34% / -4.42%) [2026-10-29]
+- BTC-USD: 76783.01 (-5.52% / -4.96% / -6.98%) [2026-10-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -357,13 +355,17 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (1)
+**Temas dominantes**: stock (5), regulatory (4), leadership (1), earnings (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
 - [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
-- [DRD] DRDGold cash flow rises as expansion spending starts to ease (2026-10-21)
-- [CRDO] Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) (2026-10-19)
+- [DCOM] Why Dime Commercial Bancshares Stock Rocked the Market Today (2026-10-20)
+- [DCOM] Why Dime Commercial Bancshares Stock Rocked the Market Today (2026-10-20)
+- [DCOM] Dime Commercial Bancshares : 3 Key Takeaways for Long - Term Investors (2026-10-20)
+- [DCOM] Dime Commercial ( DCOM ) Q3 2026 Earnings Call Transcript (2026-10-20)
+- [DCOM] Dime Commercial Bancshares Q3 Net Income Rises ; To Acquire Empire (2026-10-20)
 - [PBF] Delek Logistics Partners ( NYSE : DKL ) and PBF Energy ( NYSE : PBF ) Financial Analysis (2026-10-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -374,16 +376,16 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - CEO Lyons Michael P. compro TFC por $1.2M el 2026-10-28.
 - CEO MYERS FRANKLIN compro DINO por $1.1M el 2026-10-29.
 - 10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $22.0M el 2026-10-28.
-- 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.4M el 2026-10-26.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.3M el 2026-10-27.
+- 10% owner Das Soumen compro SCQCU por $2.7M el 2026-10-28.
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $250,164 · win rate 100% · categorias: sports
-- lllllllIlll · PnL $294,089 · win rate 95% · categorias: sports
-- googleplay · PnL $1,752,623 · win rate 81% · categorias: sports
-- monkeymashingkeyboard · PnL $373,748 · win rate 92% · categorias: sports
-- fantasy7788 · PnL $79,375 · win rate 99% · categorias: sports, crypto
+- theowalcott · PnL $86,706 · win rate 100% · categorias: sports
+- luckycat888888 · PnL $33,344 · win rate 98% · categorias: sports
+- lllllllIlll · PnL $49,500 · win rate 95% · categorias: sports
+- fantasy7788 · PnL $14,835 · win rate 98% · categorias: sports, crypto
+- 0xd3A0b4E941B557D33A8EFd5a51c581e7c79cF136-1787996319116 · PnL $26,995 · win rate 92% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
@@ -391,7 +393,7 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 666 registros 30d · ultimo dato 2026-10-29
+- **sec_insiders**: `ok` · 702 registros 30d · ultimo dato 2026-10-29
 - **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-29
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
@@ -405,7 +407,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`ACN, BBT, BPRE, CRBG, GLD, GOLD, HBAN, IEF, PESI, QQQ, RNW, SPY, TEM, TLT, TTMI`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`ACN, BBT, BPRE, CCK, GLD, HBAN, IEF, PESI, QQQ, RNW, SPY, TEM, TLT, WEAV`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **80.0%** (el resto es cash). Estamos en regimen `risk_on`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

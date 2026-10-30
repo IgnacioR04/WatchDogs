@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:02:50+00:00",
+  "generated_at": "2026-10-30T02:14:10+00:00",
   "profile": "moderado",
   "regime_budget": 0.8,
   "total_equity": 0.7999,
@@ -10,16 +10,15 @@
     "TLT": 0.1144,
     "GLD": 0.0858,
     "IEF": 0.0572,
-    "HBAN": 0.0505,
-    "BBT": 0.0496,
-    "CRBG": 0.041,
-    "RNW": 0.0396,
-    "BPRE": 0.038,
-    "GOLD": 0.025,
-    "ACN": 0.0202,
-    "PESI": 0.0175,
-    "TEM": 0.0138,
-    "TTMI": 0.0129
+    "HBAN": 0.0525,
+    "CCK": 0.0523,
+    "BBT": 0.0516,
+    "RNW": 0.0412,
+    "BPRE": 0.0395,
+    "ACN": 0.0211,
+    "PESI": 0.0182,
+    "WEAV": 0.0174,
+    "TEM": 0.0143
   },
   "core": {
     "SPY": 0.182,
@@ -29,37 +28,20 @@
     "GLD": 0.078
   },
   "satellite": {
-    "ACN": 0.0184,
-    "TTMI": 0.0117,
-    "HBAN": 0.0459,
-    "RNW": 0.036,
-    "GOLD": 0.0227,
-    "BBT": 0.0451,
-    "CRBG": 0.0373,
-    "BPRE": 0.0345,
-    "PESI": 0.0159,
-    "TEM": 0.0125
+    "ACN": 0.0192,
+    "RNW": 0.0374,
+    "BBT": 0.0469,
+    "BPRE": 0.0359,
+    "PESI": 0.0165,
+    "TEM": 0.013,
+    "CCK": 0.0475,
+    "WEAV": 0.0158,
+    "HBAN": 0.0477
   },
   "satellite_rationale": [
     {
       "ticker": "ACN",
       "score": 237.6,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "TTMI",
-      "score": 231.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "HBAN",
-      "score": 219.3,
       "sources": [
         "corporate_insider"
       ],
@@ -74,24 +56,8 @@
       "n_signals": 3
     },
     {
-      "ticker": "GOLD",
-      "score": 192.2,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 3
-    },
-    {
       "ticker": "BBT",
       "score": 150.3,
-      "sources": [
-        "corporate_insider"
-      ],
-      "n_signals": 2
-    },
-    {
-      "ticker": "CRBG",
-      "score": 135.0,
       "sources": [
         "corporate_insider"
       ],
@@ -120,18 +86,42 @@
         "large_holder"
       ],
       "n_signals": 1
+    },
+    {
+      "ticker": "CCK",
+      "score": 71.8,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "WEAV",
+      "score": 70.2,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 1
+    },
+    {
+      "ticker": "HBAN",
+      "score": 58.0,
+      "sources": [
+        "corporate_insider"
+      ],
+      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.1012,
-    "var_95_1d": 0.0101,
-    "cvar_95_1d": 0.0123,
-    "max_drawdown": -0.0348,
-    "beta_spy": 0.698,
-    "hhi": 0.0626,
+    "ann_vol": 0.0893,
+    "var_95_1d": 0.0092,
+    "cvar_95_1d": 0.0118,
+    "max_drawdown": -0.0319,
+    "beta_spy": 0.597,
+    "hhi": 0.0639,
     "max_position": 0.12,
-    "n_positions": 15,
-    "effective_positions": 16.0,
+    "n_positions": 14,
+    "effective_positions": 15.6,
     "gross_exposure": 0.7999,
     "days_used": 112
   },
