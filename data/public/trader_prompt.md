@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-30T02:14:11+00:00 -->
+<!-- trader_prompt.md generado 2026-10-30T08:54:23+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-30T02:14:11+00:00 · ventana señales 2026-09-30 -> 2026-10-30_
+_Generado 2026-10-30T08:54:23+00:00 · ventana señales 2026-09-30 -> 2026-10-30_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -243,7 +243,7 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `risk_on`  -> **presupuesto de riesgo recomendado: 80.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 17.2)
+- Volatilidad: `normal` (VIX 18.42)
 - Tendencia: `bull` (SPY 769.36 · MA50 766.87 · MA200 725.63 · dist MA200: 6.03%)
 - Credito: `normal` (HY spread 3.14)
 - Tipos: `flat` (curva 10y-2y 0.37)
@@ -339,8 +339,8 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 - TLT: 81.49 (0.62% / -0.31% / 4.86%) [2026-10-29]
 - IEF: 91.25 (0.44% / 0.05% / 2.18%) [2026-10-29]
 - GLD: 368.57 (-1.32% / -0.12% / -3.71%) [2026-10-29]
-- ^VIX: 17.2 (1.71% / -9.62% / 4.94%) [2026-10-29]
-- BTC-USD: 76783.01 (-5.52% / -4.96% / -6.98%) [2026-10-30]
+- ^VIX: 18.42 (7.09% / -5.3% / 20.31%) [2026-10-30]
+- BTC-USD: 77830.31 (0.07% / -2.74% / -6.13%) [2026-10-30]
 
 **Macro (valor · cambio 1m):**
 
@@ -355,17 +355,14 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), regulatory (4), leadership (1), earnings (1), merger (1)
+**Temas dominantes**: leadership (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [IOT] Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey (2026-10-24)
 - [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
-- [ALMR] Alamar Biosciences ( NASDAQ : ALMR ) Major Shareholder Corporate Gp Vi Ltd . Qiming Sells 133 , 811 Shares of Stock (2026-10-24)
-- [DCOM] Why Dime Commercial Bancshares Stock Rocked the Market Today (2026-10-20)
-- [DCOM] Why Dime Commercial Bancshares Stock Rocked the Market Today (2026-10-20)
-- [DCOM] Dime Commercial Bancshares : 3 Key Takeaways for Long - Term Investors (2026-10-20)
-- [DCOM] Dime Commercial ( DCOM ) Q3 2026 Earnings Call Transcript (2026-10-20)
-- [DCOM] Dime Commercial Bancshares Q3 Net Income Rises ; To Acquire Empire (2026-10-20)
+- [WEAV] Analyzing Weave Communications ( NYSE : WEAV ) & HealthStream ( NASDAQ : HSTM ) (2026-10-22)
+- [DRD] DRDGold cash flow rises as expansion spending starts to ease (2026-10-21)
 - [PBF] Delek Logistics Partners ( NYSE : DKL ) and PBF Energy ( NYSE : PBF ) Financial Analysis (2026-10-18)
 
 **Actores que han movido ficha este mes (top movimientos):**
@@ -381,11 +378,11 @@ Perfil **moderado** · exposicion total **80.0%** · cash **20.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- theowalcott · PnL $86,706 · win rate 100% · categorias: sports
-- luckycat888888 · PnL $33,344 · win rate 98% · categorias: sports
-- lllllllIlll · PnL $49,500 · win rate 95% · categorias: sports
-- fantasy7788 · PnL $14,835 · win rate 98% · categorias: sports, crypto
-- 0xd3A0b4E941B557D33A8EFd5a51c581e7c79cF136-1787996319116 · PnL $26,995 · win rate 92% · categorias: sports
+- monkeymashingkeyboard · PnL $297,261 · win rate 92% · categorias: sports
+- theowalcott · PnL $73,445 · win rate 100% · categorias: sports
+- BreakTheBank · PnL $235,063 · win rate 88% · categorias: sports, politics
+- luckycat888888 · PnL $44,907 · win rate 98% · categorias: sports
+- lllllllIlll · PnL $58,131 · win rate 95% · categorias: sports
 
 > Polymarket refleja en que eventos del mundo (politica, macro, deportes) esta apostando el dinero con mejor historial. Usalo como termometro de contexto, no como señal directa de cartera.
 
