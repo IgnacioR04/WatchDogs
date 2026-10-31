@@ -1,9 +1,9 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-30T21:04:51.457064+00:00",
+  "generated_at": "2026-10-31T01:03:57.936076+00:00",
   "window": {
-    "from": "2026-09-30",
-    "to": "2026-10-30",
+    "from": "2026-10-01",
+    "to": "2026-10-31",
     "days": 30
   },
   "data_quality": {
@@ -23,7 +23,11 @@
   },
   "market_context": {
     "top_themes": [
-      "leadership"
+      "stock",
+      "ai",
+      "earnings",
+      "leadership",
+      "merger"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -31,24 +35,6 @@
     {
       "id": "move_1",
       "rank": 1,
-      "title": "10% owner vendio DVA ($69.0M)",
-      "summary": "10% owner BERKSHIRE HATHAWAY INC vendio DVA por $69.0M el 2026-10-27.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "BERKSHIRE HATHAWAY INC",
-      "actor_type": "ten_percent_owner",
-      "ticker": "DVA",
-      "direction": "sell",
-      "amount_estimated": 69026033.37,
-      "event_date": "2026-10-27",
-      "importance_score": 83.5,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526438090/"
-    },
-    {
-      "id": "move_2",
-      "rank": 2,
       "title": "CEO vendio EAT ($8.8M)",
       "summary": "CEO Hochman Kevin vendio EAT por $8.8M el 2026-10-29.",
       "source": "sec_form_4",
@@ -63,6 +49,24 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1933011/000119312526441716/"
+    },
+    {
+      "id": "move_2",
+      "rank": 2,
+      "title": "10% owner compro CRBG ($8.7M)",
+      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.7M el 2026-10-28.",
+      "source": "sec_form_4",
+      "source_type": "corporate_insider",
+      "actor_name": "NIPPON LIFE INSURANCE CO",
+      "actor_type": "ten_percent_owner",
+      "ticker": "CRBG",
+      "direction": "buy",
+      "amount_estimated": 8671494.61,
+      "event_date": "2026-10-28",
+      "importance_score": 83.0,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526441956/"
     },
     {
       "id": "move_3",
@@ -85,78 +89,24 @@
     {
       "id": "move_4",
       "rank": 4,
-      "title": "CEO compro DINO ($1.1M)",
-      "summary": "CEO MYERS FRANKLIN compro DINO por $1.1M el 2026-10-29.",
+      "title": "Director compro RAPP ($20.0M)",
+      "summary": "Director HEALY JAMES compro RAPP por $20.0M el 2026-10-28.",
       "source": "sec_form_4",
       "source_type": "corporate_insider",
-      "actor_name": "MYERS FRANKLIN",
-      "actor_type": "ceo",
-      "ticker": "DINO",
+      "actor_name": "HEALY JAMES",
+      "actor_type": "director",
+      "ticker": "RAPP",
       "direction": "buy",
-      "amount_estimated": 1108000.0,
-      "event_date": "2026-10-29",
-      "importance_score": 82.6,
+      "amount_estimated": 19999980.0,
+      "event_date": "2026-10-28",
+      "importance_score": 82.4,
       "cross_source_score": 0.0,
       "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1207002/000119312526438100/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1245624/000110465926120789/"
     },
     {
       "id": "move_5",
       "rank": 5,
-      "title": "10% owner vendio TALO ($22.0M)",
-      "summary": "10% owner Control Empresarial de Capitales S.A. de C.V. vendio TALO por $22.0M el 2026-10-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Control Empresarial de Capitales S.A. de C.V.",
-      "actor_type": "ten_percent_owner",
-      "ticker": "TALO",
-      "direction": "sell",
-      "amount_estimated": 21992040.0,
-      "event_date": "2026-10-28",
-      "importance_score": 82.6,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1273693/000114036126041180/"
-    },
-    {
-      "id": "move_6",
-      "rank": 6,
-      "title": "10% owner compro CRBG ($6.3M)",
-      "summary": "10% owner NIPPON LIFE INSURANCE CO compro CRBG por $6.3M el 2026-10-27.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "ticker": "CRBG",
-      "direction": "buy",
-      "amount_estimated": 6259185.87,
-      "event_date": "2026-10-27",
-      "importance_score": 82.3,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/905591/000119312526437931/"
-    },
-    {
-      "id": "move_7",
-      "rank": 7,
-      "title": "10% owner compro SCQCU ($2.7M)",
-      "summary": "10% owner Das Soumen compro SCQCU por $2.7M el 2026-10-28.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "Das Soumen",
-      "actor_type": "ten_percent_owner",
-      "ticker": "SCQCU",
-      "direction": "buy",
-      "amount_estimated": 2665900.0,
-      "event_date": "2026-10-28",
-      "importance_score": 82.0,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2091020/000118518526005072/"
-    },
-    {
-      "id": "move_8",
-      "rank": 8,
       "title": "CEO opero FTI ($25.1M)",
       "summary": "CEO Pferdehirt Douglas J. opero FTI por $25.1M el 2026-10-27.",
       "source": "sec_form_4",
@@ -173,26 +123,8 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1250840/000162828026068309/"
     },
     {
-      "id": "move_9",
-      "rank": 9,
-      "title": "CEO vendio COF ($9.5M)",
-      "summary": "CEO FAIRBANK RICHARD D vendio COF por $9.5M el 2026-10-27.",
-      "source": "sec_form_4",
-      "source_type": "corporate_insider",
-      "actor_name": "FAIRBANK RICHARD D",
-      "actor_type": "ceo",
-      "ticker": "COF",
-      "direction": "sell",
-      "amount_estimated": 9477680.4,
-      "event_date": "2026-10-27",
-      "importance_score": 81.7,
-      "cross_source_score": 0.0,
-      "related_news": [],
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1238032/000123803226000010/"
-    },
-    {
-      "id": "move_10",
-      "rank": 10,
+      "id": "move_6",
+      "rank": 6,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($40.1B)",
       "summary": "Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.",
       "source": "sec_13f",
@@ -209,8 +141,8 @@
       "source_url": ""
     },
     {
-      "id": "move_11",
-      "rank": 11,
+      "id": "move_7",
+      "rank": 7,
       "title": "Institutional manager compro ALPHABET INC ($35.5B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.",
       "source": "sec_13f",
@@ -227,8 +159,8 @@
       "source_url": ""
     },
     {
-      "id": "move_12",
-      "rank": 12,
+      "id": "move_8",
+      "rank": 8,
       "title": "Institutional manager compro MICRON TECHNOLOGY INC ($31.4B)",
       "summary": "Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.",
       "source": "sec_13f",
@@ -245,8 +177,8 @@
       "source_url": ""
     },
     {
-      "id": "move_13",
-      "rank": 13,
+      "id": "move_9",
+      "rank": 9,
       "title": "Institutional manager vendio NVIDIA CORPORATION ($30.4B)",
       "summary": "Institutional manager Invesco Ltd vendio NVIDIA CORPORATION por $30.4B.",
       "source": "sec_13f",
@@ -263,8 +195,8 @@
       "source_url": ""
     },
     {
-      "id": "move_14",
-      "rank": 14,
+      "id": "move_10",
+      "rank": 10,
       "title": "Institutional manager compro NVIDIA CORPORATION ($28.7B)",
       "summary": "Institutional manager State Street Corp compro NVIDIA CORPORATION por $28.7B.",
       "source": "sec_13f",
@@ -281,8 +213,8 @@
       "source_url": ""
     },
     {
-      "id": "move_15",
-      "rank": 15,
+      "id": "move_11",
+      "rank": 11,
       "title": "Institutional manager compro ADVANCED MICRO DEVICES INC ($28.0B)",
       "summary": "Institutional manager State Street Corp compro ADVANCED MICRO DEVICES INC por $28.0B.",
       "source": "sec_13f",
@@ -299,8 +231,8 @@
       "source_url": ""
     },
     {
-      "id": "move_16",
-      "rank": 16,
+      "id": "move_12",
+      "rank": 12,
       "title": "Institutional manager compro ALPHABET INC ($27.9B)",
       "summary": "Institutional manager Vanguard Group Inc compro ALPHABET INC por $27.9B.",
       "source": "sec_13f",
@@ -317,8 +249,8 @@
       "source_url": ""
     },
     {
-      "id": "move_17",
-      "rank": 17,
+      "id": "move_13",
+      "rank": 13,
       "title": "Institutional manager vendio APPLE INC ($26.6B)",
       "summary": "Institutional manager Invesco Ltd vendio APPLE INC por $26.6B.",
       "source": "sec_13f",
@@ -335,8 +267,8 @@
       "source_url": ""
     },
     {
-      "id": "move_18",
-      "rank": 18,
+      "id": "move_14",
+      "rank": 14,
       "title": "Institutional manager compro APPLE INC ($25.1B)",
       "summary": "Institutional manager State Street Corp compro APPLE INC por $25.1B.",
       "source": "sec_13f",
@@ -353,8 +285,8 @@
       "source_url": ""
     },
     {
-      "id": "move_19",
-      "rank": 19,
+      "id": "move_15",
+      "rank": 15,
       "title": "Institutional manager compro ELI LILLY & CO ($23.6B)",
       "summary": "Institutional manager Vanguard Group Inc compro ELI LILLY & CO por $23.6B.",
       "source": "sec_13f",
@@ -371,8 +303,8 @@
       "source_url": ""
     },
     {
-      "id": "move_20",
-      "rank": 20,
+      "id": "move_16",
+      "rank": 16,
       "title": "Institutional manager compro INTEL CORP ($20.8B)",
       "summary": "Institutional manager State Street Corp compro INTEL CORP por $20.8B.",
       "source": "sec_13f",
@@ -387,31 +319,110 @@
       "cross_source_score": 0.0,
       "related_news": [],
       "source_url": ""
+    },
+    {
+      "id": "move_17",
+      "rank": 17,
+      "title": "Institutional manager compro ALPHABET INC ($20.3B)",
+      "summary": "Institutional manager State Street Corp compro ALPHABET INC por $20.3B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "State Street Corp",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 20340227051,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_18",
+      "rank": 18,
+      "title": "Institutional manager vendio MICROSOFT CORP ($17.2B)",
+      "summary": "Institutional manager Invesco Ltd vendio MICROSOFT CORP por $17.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "sell",
+      "amount_estimated": 17242553494,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_19",
+      "rank": 19,
+      "title": "Institutional manager compro INTEL CORP ($16.2B)",
+      "summary": "Institutional manager Invesco Ltd compro INTEL CORP por $16.2B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "Invesco Ltd",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16233929222,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
+    },
+    {
+      "id": "move_20",
+      "rank": 20,
+      "title": "Institutional manager compro MICRON TECHNOLOGY INC ($16.1B)",
+      "summary": "Institutional manager JPMorgan Chase & Co compro MICRON TECHNOLOGY INC por $16.1B.",
+      "source": "sec_13f",
+      "source_type": "institutional",
+      "actor_name": "JPMorgan Chase & Co",
+      "actor_type": "top_institutional_manager",
+      "ticker": "",
+      "direction": "buy",
+      "amount_estimated": 16112059718,
+      "event_date": "",
+      "importance_score": 81.5,
+      "cross_source_score": 0.0,
+      "related_news": [],
+      "source_url": ""
     }
   ],
   "top_tickers": {
     "buy_pressure": [
       {
-        "ticker": "UPBD",
-        "company": "Upbound Group Inc",
-        "pressure_score": 208.7,
-        "sources": [
-          "corporate_insider",
-          "large_holder"
-        ]
-      },
-      {
-        "ticker": "API",
-        "company": "Agora, Inc.",
-        "pressure_score": 147.0,
+        "ticker": "LYCA",
+        "company": "Lycia Therapeutics, Inc.",
+        "pressure_score": 366.4,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "ELVR",
-        "company": "Elevra Lithium Ltd",
-        "pressure_score": 145.4,
+        "ticker": "RAPP",
+        "company": "Rapport Therapeutics, Inc.",
+        "pressure_score": 295.9,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group N.V.",
+        "pressure_score": 207.1,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "ECF",
+        "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
+        "pressure_score": 144.4,
         "sources": [
           "corporate_insider"
         ]
@@ -503,14 +514,6 @@
         "sources": [
           "large_holder"
         ]
-      },
-      {
-        "ticker": "RDDT",
-        "company": "Reddit Inc",
-        "pressure_score": 141.0,
-        "sources": [
-          "large_holder"
-        ]
       }
     ],
     "sell_pressure": [
@@ -523,33 +526,9 @@
         ]
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI, Inc.",
-        "pressure_score": 1793.8,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "ALMR",
-        "company": "Alamar Biosciences, Inc.",
-        "pressure_score": 1409.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings, Inc.",
         "pressure_score": 1259.5,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UTHR",
-        "company": "UNITED THERAPEUTICS Corp",
-        "pressure_score": 1148.9,
         "sources": [
           "corporate_insider"
         ]
@@ -579,6 +558,14 @@
         ]
       },
       {
+        "ticker": "WDC",
+        "company": "WESTERN DIGITAL CORP",
+        "pressure_score": 821.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "ONC",
         "company": "BeOne Medicines Ltd.",
         "pressure_score": 782.2,
@@ -595,9 +582,25 @@
         ]
       },
       {
+        "ticker": "UTHR",
+        "company": "UNITED THERAPEUTICS Corp",
+        "pressure_score": 685.7,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
         "ticker": "DDOG",
         "company": "Datadog, Inc.",
         "pressure_score": 646.5,
+        "sources": [
+          "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "BROS",
+        "company": "Dutch Bros Inc.",
+        "pressure_score": 627.0,
         "sources": [
           "corporate_insider"
         ]
@@ -611,17 +614,17 @@
         ]
       },
       {
-        "ticker": "ENVA",
-        "company": "Enova International, Inc.",
-        "pressure_score": 453.6,
+        "ticker": "COLB",
+        "company": "COLUMBIA BANKING SYSTEM, INC.",
+        "pressure_score": 455.1,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "MATX",
-        "company": "Matson, Inc.",
-        "pressure_score": 379.8,
+        "ticker": "PACS",
+        "company": "PACS Group, Inc.",
+        "pressure_score": 433.3,
         "sources": [
           "corporate_insider"
         ]
@@ -638,6 +641,15 @@
   },
   "insider_buying": [
     {
+      "ticker": "CRBG",
+      "company": "Corebridge Financial, Inc.",
+      "actor": "NIPPON LIFE INSURANCE CO",
+      "actor_type": "ten_percent_owner",
+      "amount": 8671494.61,
+      "date": "2026-10-28",
+      "score": 83.0
+    },
+    {
       "ticker": "TFC",
       "company": "TRUIST FINANCIAL CORP",
       "actor": "Lyons Michael P.",
@@ -647,31 +659,13 @@
       "score": 82.8
     },
     {
-      "ticker": "DINO",
-      "company": "HF Sinclair Corp",
-      "actor": "MYERS FRANKLIN",
-      "actor_type": "ceo",
-      "amount": 1108000.0,
-      "date": "2026-10-29",
-      "score": 82.6
-    },
-    {
-      "ticker": "CRBG",
-      "company": "Corebridge Financial, Inc.",
-      "actor": "NIPPON LIFE INSURANCE CO",
-      "actor_type": "ten_percent_owner",
-      "amount": 6259185.87,
-      "date": "2026-10-27",
-      "score": 82.3
-    },
-    {
-      "ticker": "SCQCU",
-      "company": "SPACCircle Acquisition Corp.",
-      "actor": "Das Soumen",
-      "actor_type": "ten_percent_owner",
-      "amount": 2665900.0,
+      "ticker": "RAPP",
+      "company": "Rapport Therapeutics, Inc.",
+      "actor": "HEALY JAMES",
+      "actor_type": "director",
+      "amount": 19999980.0,
       "date": "2026-10-28",
-      "score": 82.0
+      "score": 82.4
     },
     {
       "ticker": "XYL",
@@ -683,13 +677,13 @@
       "score": 77.3
     },
     {
-      "ticker": "PNFP",
-      "company": "Pinnacle Financial Partners, Inc.",
-      "actor": "INGRAM DAVID B",
-      "actor_type": "director",
-      "amount": 991600.0,
-      "date": "2026-10-28",
-      "score": 77.3
+      "ticker": "LYCA",
+      "company": "Lycia Therapeutics, Inc.",
+      "actor": "Venrock Healthcare Capital Partners III, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 231281.08,
+      "date": "2026-10-30",
+      "score": 76.7
     },
     {
       "ticker": "UTMD",
@@ -728,6 +722,15 @@
       "score": 75.8
     },
     {
+      "ticker": "LYCA",
+      "company": "Lycia Therapeutics, Inc.",
+      "actor": "Venrock Healthcare Capital Partners III, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 266681.1,
+      "date": "2026-10-28",
+      "score": 75.5
+    },
+    {
       "ticker": "PKBK",
       "company": "PARKE BANCORP, INC.",
       "actor": "PANTILIONE VITO S",
@@ -737,13 +740,22 @@
       "score": 75.5
     },
     {
-      "ticker": "API",
-      "company": "Agora, Inc.",
-      "actor": "Zhao Bin",
-      "actor_type": "ceo",
-      "amount": 42660.16,
+      "ticker": "ECF",
+      "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "actor": "Saba Capital Management, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 70923.25,
+      "date": "2026-10-29",
+      "score": 74.1
+    },
+    {
+      "ticker": "LYCA",
+      "company": "Lycia Therapeutics, Inc.",
+      "actor": "Venrock Healthcare Capital Partners III, L.P.",
+      "actor_type": "ten_percent_owner",
+      "amount": 115047.1,
       "date": "2026-10-28",
-      "score": 75.5
+      "score": 73.7
     },
     {
       "ticker": "OTLC",
@@ -755,22 +767,13 @@
       "score": 73.6
     },
     {
-      "ticker": "ELVR",
-      "company": "Elevra Lithium Ltd",
-      "actor": "Cortes Vargas Christian Mauricio",
-      "actor_type": "cfo",
-      "amount": 21360.0,
+      "ticker": "BBT",
+      "company": "Beacon Financial Corp",
+      "actor": "Callahan Mary Anne",
+      "actor_type": "director",
+      "amount": 96672.0,
       "date": "2026-10-28",
-      "score": 72.7
-    },
-    {
-      "ticker": "ELVR",
-      "company": "Elevra Lithium Ltd",
-      "actor": "Cortes Vargas Christian Mauricio",
-      "actor_type": "cfo",
-      "amount": 21360.0,
-      "date": "2026-10-28",
-      "score": 72.7
+      "score": 72.3
     }
   ],
   "institutional_changes": [
@@ -1003,12 +1006,48 @@
       "date": "2026-10-30"
     },
     {
+      "filer": "Michael Sinensky",
+      "company": "Powerus Corp",
+      "ticker": "PUSA",
+      "ownership_pct": 9.8,
+      "shares": 16323824,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "Al Shams Investments LTD",
+      "company": "Braemar Hotels & Resorts Inc.",
+      "ticker": "",
+      "ownership_pct": 9.48,
+      "shares": 6513000,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "YA II PN, Ltd.",
+      "company": "Ives Ultra AI Opportunities Inc.",
+      "ticker": "IVAI",
+      "ownership_pct": 9.4,
+      "shares": 2500000,
+      "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-30"
+    },
+    {
       "filer": "Benjamin Tan Hua Boon",
       "company": "Bradbury Capital Inc.",
       "ticker": "",
       "ownership_pct": 7.15,
       "shares": 2000000,
       "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "SEQUOIA CAPITAL GLOBAL GROWTH FUND III - ENDURANCE PARTNERS, L.P. (\"SC GGF III\")",
+      "company": "Maplebear Inc.",
+      "ticker": "CART",
+      "ownership_pct": 0.1,
+      "shares": 351374,
+      "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-30"
     }
   ],
@@ -1059,7 +1098,7 @@
         "wallet": "0x0b5e2874b6",
         "username": "luckycat888888",
         "pnl": 45717.36,
-        "win_rate": 0.9701,
+        "win_rate": 0.9857,
         "volume": 62034.91,
         "categories": [
           "sports"
@@ -1089,7 +1128,7 @@
         "wallet": "0xe16d3f2a58",
         "username": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
         "pnl": 46594.92,
-        "win_rate": 0.95,
+        "win_rate": 0.951,
         "volume": 191681.48,
         "categories": [
           "sports"
@@ -1131,7 +1170,7 @@
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
         "pnl": 177130.67,
-        "win_rate": 0.608,
+        "win_rate": 0.613,
         "volume": 1583701.03,
         "categories": [
           "sports",
@@ -1142,7 +1181,7 @@
         "wallet": "0x6ac5bb06a9",
         "username": "jakepaulthegoat2008",
         "pnl": 60442.49,
-        "win_rate": 0.515,
+        "win_rate": 0.516,
         "volume": 958085.11,
         "categories": [
           "sports",
@@ -1184,7 +1223,7 @@
         "wallet": "0x9b11866433",
         "username": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
         "pnl": 73229.29,
-        "win_rate": 0.495,
+        "win_rate": 0.481,
         "volume": 1573776.3,
         "categories": [
           "sports"
@@ -1194,7 +1233,7 @@
         "wallet": "0xa38a455bbd",
         "username": "takeormake",
         "pnl": 99303.58,
-        "win_rate": 0.639,
+        "win_rate": 0.64,
         "volume": 1052882.34,
         "categories": [
           "sports"
@@ -1225,30 +1264,108 @@
   },
   "news": [
     {
-      "title": "Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey",
-      "url": "https://www.tickerreport.com/banking-finance/13635301/nutanix-nasdaqntnx-vs-samsara-nyseiot-critical-survey.html",
-      "ticker": "IOT",
-      "themes": [],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming",
-      "url": "https://247wallst.com/investing/2026/10/24/crowdstrikes-ceo-says-a-wave-of-cyber-attacks-are-coming/",
-      "ticker": "CRWD",
+      "title": "3 , 883 Shares of NXP Semiconductors N . V . $NXPI Bought by Private Wealth Partners LLC",
+      "url": "https://www.themarketsdaily.com/2026/10/24/3883-shares-of-nxp-semiconductors-n-v-nxpi-bought-by-private-wealth-partners-llc.html",
+      "ticker": "NXPI",
       "themes": [
-        "leadership"
+        "ai",
+        "stock"
       ],
       "date": "2026-10-24"
     },
     {
-      "title": "Delek Logistics Partners ( NYSE : DKL ) and PBF Energy ( NYSE : PBF ) Financial Analysis",
-      "url": "https://www.themarketsdaily.com/2026/10/18/delek-logistics-partners-nysedkl-and-pbf-energy-nysepbf-financial-analysis.html",
-      "ticker": "PBF",
+      "title": "NXP Semiconductors N . V . $NXPI Shares Newly Purchased by Sterling Capital Management LLC",
+      "url": "https://www.themarketsdaily.com/2026/10/24/nxp-semiconductors-n-v-nxpi-shares-newly-purchased-by-sterling-capital-management-llc.html",
+      "ticker": "NXPI",
+      "themes": [
+        "ai",
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . ",
+      "url": "https://www.aol.com/articles/western-digital-stock-fallen-53-012702000.html",
+      "ticker": "WDC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . ",
+      "url": "https://www.fool.com/investing/2026/10/23/western-digital-stock-has-fallen-53-since-june-i-d-consider-a-small-position-after-its-latest-report/?source=iedfolrf0000001",
+      "ticker": "WDC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS",
+      "url": "https://www.themarketsdaily.com/2026/10/23/western-digital-nasdaqwdc-issues-quarterly-earnings-results-beats-expectations-by-0-53-eps.html",
+      "ticker": "WDC",
+      "themes": [
+        "earnings"
+      ],
+      "date": "2026-10-23"
+    },
+    {
+      "title": "NTU Brings Intel , Western Digital CEOs to AI Summit",
+      "url": "https://www.miragenews.com/ntu-brings-intel-western-digital-ceos-to-ai-1765701/",
+      "ticker": "WDC",
+      "themes": [
+        "ai",
+        "leadership"
+      ],
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald",
+      "url": "https://www.themarketsdaily.com/2026/10/23/western-digital-nasdaqwdc-stock-gets-price-target-reduction-from-cantor-fitzgerald.html",
+      "ticker": "WDC",
+      "themes": [
+        "stock"
+      ],
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Sumitomo Mitsui DS Asset Management Company Ltd Acquires 1 , 317 Shares of Natera , Inc . $NTRA",
+      "url": "https://www.tickerreport.com/banking-finance/13630022/sumitomo-mitsui-ds-asset-management-company-ltd-acquires-1317-shares-of-natera-inc-ntra.html",
+      "ticker": "NTRA",
+      "themes": [
+        "merger",
+        "stock"
+      ],
+      "date": "2026-10-22"
+    },
+    {
+      "title": "Natera ( NASDAQ : NTRA ) Price Target Raised to $500 . 00",
+      "url": "https://www.dailypolitical.com/2026/10/21/natera-nasdaqntra-price-target-raised-to-500-00.html",
+      "ticker": "NTRA",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-22"
+    },
+    {
+      "title": "Natera ( NTRA ) Is Expanding Cancer Testing Rapidly . Does Its Valuation Leave Room for Error ? ",
+      "url": "https://www.insidermonkey.com/news/natera-ntra-is-expanding-cancer-testing-rapidly-does-its-valuation-leave-room-for-error-1856675/",
+      "ticker": "NTRA",
       "themes": [],
-      "date": "2026-10-18"
+      "date": "2026-10-20"
+    },
+    {
+      "title": "NXP Semiconductors ( NASDAQ : NXPI ) Cut to Hold at Wall Street Zen",
+      "url": "https://www.themarketsdaily.com/2026/10/20/nxp-semiconductors-nasdaqnxpi-cut-to-hold-at-wall-street-zen.html",
+      "ticker": "NXPI",
+      "themes": [
+        "ai"
+      ],
+      "date": "2026-10-20"
     }
   ],
-  "signals_count": 1410,
+  "signals_count": 1343,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
