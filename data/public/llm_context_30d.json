@@ -1,6 +1,6 @@
 {
   "project": "WATCHDOG",
-  "generated_at": "2026-10-31T01:03:57.936076+00:00",
+  "generated_at": "2026-10-31T07:15:16.411606+00:00",
   "window": {
     "from": "2026-10-01",
     "to": "2026-10-31",
@@ -23,11 +23,10 @@
   },
   "market_context": {
     "top_themes": [
-      "stock",
       "ai",
-      "earnings",
-      "leadership",
-      "merger"
+      "stock",
+      "regulatory",
+      "leadership"
     ],
     "summary": "Contexto derivado de titulares GDELT de los tickers mas activos."
   },
@@ -412,6 +411,15 @@
         ]
       },
       {
+        "ticker": "SNES",
+        "company": "SenesTech, Inc.",
+        "pressure_score": 281.4,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
+        ]
+      },
+      {
         "ticker": "NBIS",
         "company": "Nebius Group N.V.",
         "pressure_score": 207.1,
@@ -420,25 +428,9 @@
         ]
       },
       {
-        "ticker": "ECF",
-        "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
-        "pressure_score": 144.4,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
         "ticker": "OTLC",
         "company": "Oncotelic Therapeutics, Inc.",
         "pressure_score": 143.3,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "UXIN",
-        "company": "Uxin Ltd",
-        "pressure_score": 141.7,
         "sources": [
           "corporate_insider"
         ]
@@ -514,6 +506,14 @@
         "sources": [
           "large_holder"
         ]
+      },
+      {
+        "ticker": "RDDT",
+        "company": "Reddit Inc",
+        "pressure_score": 141.0,
+        "sources": [
+          "large_holder"
+        ]
       }
     ],
     "sell_pressure": [
@@ -534,17 +534,17 @@
         ]
       },
       {
-        "ticker": "AYI",
-        "company": "ACUITY INC. (DE)",
-        "pressure_score": 1127.7,
+        "ticker": "NTRA",
+        "company": "Natera, Inc.",
+        "pressure_score": 1177.0,
         "sources": [
           "corporate_insider"
         ]
       },
       {
-        "ticker": "NTRA",
-        "company": "Natera, Inc.",
-        "pressure_score": 955.8,
+        "ticker": "AYI",
+        "company": "ACUITY INC. (DE)",
+        "pressure_score": 1127.7,
         "sources": [
           "corporate_insider"
         ]
@@ -569,14 +569,6 @@
         "ticker": "ONC",
         "company": "BeOne Medicines Ltd.",
         "pressure_score": 782.2,
-        "sources": [
-          "corporate_insider"
-        ]
-      },
-      {
-        "ticker": "RAASY",
-        "company": "Cloopen Group Holding Ltd",
-        "pressure_score": 694.4,
         "sources": [
           "corporate_insider"
         ]
@@ -635,6 +627,15 @@
         "pressure_score": 364.4,
         "sources": [
           "corporate_insider"
+        ]
+      },
+      {
+        "ticker": "WRLD",
+        "company": "World Acceptance Corporation",
+        "pressure_score": 295.1,
+        "sources": [
+          "corporate_insider",
+          "large_holder"
         ]
       }
     ]
@@ -961,11 +962,38 @@
   "congress_activity": [],
   "large_holders": [
     {
+      "filer": "SB Global Advisers Limited",
+      "company": "VTEX",
+      "ticker": "VTEX",
+      "ownership_pct": 42.9,
+      "shares": 37477996,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "GLENBROOK CAPITAL MANAGEMENT",
+      "company": "SenesTech, Inc.",
+      "ticker": "SNES",
+      "ownership_pct": 40.51,
+      "shares": 2196973,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
       "filer": "KARPUS MANAGEMENT, INC.",
       "company": "Western Asset Inflation-Linked Income Fund",
       "ticker": "WIA",
       "ownership_pct": 38.82,
       "shares": 9052796,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "White Mountains Insurance Group, Ltd.",
+      "company": "MediaAlpha, Inc.",
+      "ticker": "MAX",
+      "ownership_pct": 35.1,
+      "shares": 17856614,
       "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-30"
     },
@@ -1033,12 +1061,30 @@
       "date": "2026-10-30"
     },
     {
+      "filer": "Powell Anderson Capital Partners LLC",
+      "company": "FRANKLIN STREET PROPERTIES CORP /MA/",
+      "ticker": "FSP",
+      "ownership_pct": 8.0,
+      "shares": 8294084,
+      "filing_type": "SCHEDULE 13D/A",
+      "date": "2026-10-30"
+    },
+    {
       "filer": "Benjamin Tan Hua Boon",
       "company": "Bradbury Capital Inc.",
       "ticker": "",
       "ownership_pct": 7.15,
       "shares": 2000000,
       "filing_type": "SCHEDULE 13D",
+      "date": "2026-10-30"
+    },
+    {
+      "filer": "JANA Partners Management, LP",
+      "company": "ALKAMI TECHNOLOGY, INC.",
+      "ticker": "ALKT",
+      "ownership_pct": 4.98,
+      "shares": 5335707,
+      "filing_type": "SCHEDULE 13D/A",
       "date": "2026-10-30"
     },
     {
@@ -1057,7 +1103,7 @@
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
         "pnl": 306128.49,
-        "win_rate": 0.9154,
+        "win_rate": 0.9148,
         "volume": 845883.65,
         "categories": [
           "sports"
@@ -1074,10 +1120,20 @@
         ]
       },
       {
+        "wallet": "0x57a8595204",
+        "username": "Mooseborzoiii",
+        "pnl": 264919.53,
+        "win_rate": 0.9184,
+        "volume": 1326244.41,
+        "categories": [
+          "sports"
+        ]
+      },
+      {
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
         "pnl": 260726.8,
-        "win_rate": 0.8831,
+        "win_rate": 0.8838,
         "volume": 411686.69,
         "categories": [
           "sports",
@@ -1085,20 +1141,10 @@
         ]
       },
       {
-        "wallet": "0x57a8595204",
-        "username": "Mooseborzoiii",
-        "pnl": 264919.53,
-        "win_rate": 0.913,
-        "volume": 1326244.41,
-        "categories": [
-          "sports"
-        ]
-      },
-      {
         "wallet": "0x0b5e2874b6",
         "username": "luckycat888888",
         "pnl": 45717.36,
-        "win_rate": 0.9857,
+        "win_rate": 0.9867,
         "volume": 62034.91,
         "categories": [
           "sports"
@@ -1108,7 +1154,7 @@
         "wallet": "0xe40ecff63e",
         "username": "lllllllIlll",
         "pnl": 57202.46,
-        "win_rate": 0.9491,
+        "win_rate": 0.9493,
         "volume": 171433.8,
         "categories": [
           "sports"
@@ -1118,7 +1164,7 @@
         "wallet": "0x84ec4b5b2d",
         "username": "FeedTheBigBird",
         "pnl": 51498.06,
-        "win_rate": 0.9483,
+        "win_rate": 0.9492,
         "volume": 63264.81,
         "categories": [
           "sports"
@@ -1160,7 +1206,7 @@
         "wallet": "0x57a8595204",
         "username": "Mooseborzoiii",
         "pnl": 264919.53,
-        "win_rate": 0.913,
+        "win_rate": 0.9184,
         "volume": 1326244.41,
         "categories": [
           "sports"
@@ -1170,7 +1216,7 @@
         "wallet": "0x2c335066fe",
         "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
         "pnl": 177130.67,
-        "win_rate": 0.613,
+        "win_rate": 0.647,
         "volume": 1583701.03,
         "categories": [
           "sports",
@@ -1192,7 +1238,7 @@
         "wallet": "0xf0318c3213",
         "username": "BreakTheBank",
         "pnl": 260726.8,
-        "win_rate": 0.8831,
+        "win_rate": 0.8838,
         "volume": 411686.69,
         "categories": [
           "sports",
@@ -1203,7 +1249,7 @@
         "wallet": "0x5268527977",
         "username": "HomeRunHazard",
         "pnl": 154990.56,
-        "win_rate": 0.562,
+        "win_rate": 0.563,
         "volume": 1398567.82,
         "categories": [
           "sports"
@@ -1213,7 +1259,7 @@
         "wallet": "0x684baa57c3",
         "username": "monkeymashingkeyboard",
         "pnl": 306128.49,
-        "win_rate": 0.9154,
+        "win_rate": 0.9148,
         "volume": 845883.65,
         "categories": [
           "sports"
@@ -1223,7 +1269,7 @@
         "wallet": "0x9b11866433",
         "username": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
         "pnl": 73229.29,
-        "win_rate": 0.481,
+        "win_rate": 0.457,
         "volume": 1573776.3,
         "categories": [
           "sports"
@@ -1233,7 +1279,7 @@
         "wallet": "0xa38a455bbd",
         "username": "takeormake",
         "pnl": 99303.58,
-        "win_rate": 0.64,
+        "win_rate": 0.625,
         "volume": 1052882.34,
         "categories": [
           "sports"
@@ -1253,7 +1299,7 @@
         "wallet": "0xebfdb8164f",
         "username": "robustmst",
         "pnl": 39460.12,
-        "win_rate": 0.8741,
+        "win_rate": 0.8759,
         "volume": 367397.26,
         "categories": [
           "sports",
@@ -1263,6 +1309,13 @@
     ]
   },
   "news": [
+    {
+      "title": "Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey",
+      "url": "https://www.tickerreport.com/banking-finance/13635301/nutanix-nasdaqntnx-vs-samsara-nyseiot-critical-survey.html",
+      "ticker": "IOT",
+      "themes": [],
+      "date": "2026-10-24"
+    },
     {
       "title": "3 , 883 Shares of NXP Semiconductors N . V . $NXPI Bought by Private Wealth Partners LLC",
       "url": "https://www.themarketsdaily.com/2026/10/24/3883-shares-of-nxp-semiconductors-n-v-nxpi-bought-by-private-wealth-partners-llc.html",
@@ -1284,76 +1337,14 @@
       "date": "2026-10-24"
     },
     {
-      "title": "Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . ",
-      "url": "https://www.aol.com/articles/western-digital-stock-fallen-53-012702000.html",
-      "ticker": "WDC",
+      "title": "InterDigital Joseph Levy Elected to the IEEE SA Board of Governors for Second Term",
+      "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/interdigitals-joseph-levy-elected-to-the-ieee-sa-board-of-governors-for-second-term/2451492",
+      "ticker": "IDCC",
       "themes": [
-        "stock"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . ",
-      "url": "https://www.fool.com/investing/2026/10/23/western-digital-stock-has-fallen-53-since-june-i-d-consider-a-small-position-after-its-latest-report/?source=iedfolrf0000001",
-      "ticker": "WDC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS",
-      "url": "https://www.themarketsdaily.com/2026/10/23/western-digital-nasdaqwdc-issues-quarterly-earnings-results-beats-expectations-by-0-53-eps.html",
-      "ticker": "WDC",
-      "themes": [
-        "earnings"
-      ],
-      "date": "2026-10-23"
-    },
-    {
-      "title": "NTU Brings Intel , Western Digital CEOs to AI Summit",
-      "url": "https://www.miragenews.com/ntu-brings-intel-western-digital-ceos-to-ai-1765701/",
-      "ticker": "WDC",
-      "themes": [
-        "ai",
+        "regulatory",
         "leadership"
       ],
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald",
-      "url": "https://www.themarketsdaily.com/2026/10/23/western-digital-nasdaqwdc-stock-gets-price-target-reduction-from-cantor-fitzgerald.html",
-      "ticker": "WDC",
-      "themes": [
-        "stock"
-      ],
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Sumitomo Mitsui DS Asset Management Company Ltd Acquires 1 , 317 Shares of Natera , Inc . $NTRA",
-      "url": "https://www.tickerreport.com/banking-finance/13630022/sumitomo-mitsui-ds-asset-management-company-ltd-acquires-1317-shares-of-natera-inc-ntra.html",
-      "ticker": "NTRA",
-      "themes": [
-        "merger",
-        "stock"
-      ],
       "date": "2026-10-22"
-    },
-    {
-      "title": "Natera ( NASDAQ : NTRA ) Price Target Raised to $500 . 00",
-      "url": "https://www.dailypolitical.com/2026/10/21/natera-nasdaqntra-price-target-raised-to-500-00.html",
-      "ticker": "NTRA",
-      "themes": [
-        "ai"
-      ],
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Natera ( NTRA ) Is Expanding Cancer Testing Rapidly . Does Its Valuation Leave Room for Error ? ",
-      "url": "https://www.insidermonkey.com/news/natera-ntra-is-expanding-cancer-testing-rapidly-does-its-valuation-leave-room-for-error-1856675/",
-      "ticker": "NTRA",
-      "themes": [],
-      "date": "2026-10-20"
     },
     {
       "title": "NXP Semiconductors ( NASDAQ : NXPI ) Cut to Hold at Wall Street Zen",
@@ -1363,9 +1354,23 @@
         "ai"
       ],
       "date": "2026-10-20"
+    },
+    {
+      "title": "Reviewing Atlassian ( NASDAQ : TEAM ) and InterDigital ( NASDAQ : IDCC ) ",
+      "url": "https://www.dailypolitical.com/2026/10/19/reviewing-atlassian-nasdaqteam-and-interdigital-nasdaqidcc.html",
+      "ticker": "IDCC",
+      "themes": [],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) ",
+      "url": "https://www.tickerreport.com/banking-finance/13625246/financial-comparison-credo-technology-group-nasdaqcrdo-and-iqm-quantum-computers-nasdaqiqmx.html",
+      "ticker": "CRDO",
+      "themes": [],
+      "date": "2026-10-19"
     }
   ],
-  "signals_count": 1343,
+  "signals_count": 1333,
   "llm_instructions": {
     "role": "Eres un analista que genera HIPOTESIS de inversion, no consejos financieros.",
     "style": "Da hipotesis razonadas, no certezas. Cuantifica la incertidumbre.",
