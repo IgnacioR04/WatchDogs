@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-10-31T18:52:05+00:00 -->
+<!-- trader_prompt.md generado 2026-10-31T22:46:23+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-10-31T18:52:05+00:00 · ventana señales 2026-10-01 -> 2026-10-31_
+_Generado 2026-10-31T22:46:23+00:00 · ventana señales 2026-10-01 -> 2026-10-31_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -335,7 +335,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.76 (0.56% / 0.78% / 3.04%) [2026-10-30]
 - GLD: 355.78 (-3.47% / -2.95% / -6.41%) [2026-10-30]
 - ^VIX: 19.42 (12.91% / -0.15% / 26.85%) [2026-10-30]
-- BTC-USD: 77512.99 (0.41% / -3.12% / -7.37%) [2026-10-31]
+- BTC-USD: 77476.1 (0.36% / -3.16% / -7.41%) [2026-10-31]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,15 +350,20 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: ai (3), stock (2), leadership (1)
+**Temas dominantes**: stock (4), leadership (2), ai (2), earnings (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
 - [IOT] Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey (2026-10-24)
-- [NXPI] 3 , 883 Shares of NXP Semiconductors N . V . $NXPI Bought by Private Wealth Partners LLC (2026-10-24)
-- [NXPI] NXP Semiconductors N . V . $NXPI Shares Newly Purchased by Sterling Capital Management LLC (2026-10-24)
 - [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
-- [NXPI] NXP Semiconductors ( NASDAQ : NXPI ) Cut to Hold at Wall Street Zen (2026-10-20)
+- [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
+- [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
+- [WDC] Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS (2026-10-23)
+- [WDC] NTU Brings Intel , Western Digital CEOs to AI Summit (2026-10-23)
+- [WDC] Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald (2026-10-23)
+- [NTRA] Sumitomo Mitsui DS Asset Management Company Ltd Acquires 1 , 317 Shares of Natera , Inc . $NTRA (2026-10-22)
+- [NTRA] Natera ( NASDAQ : NTRA ) Price Target Raised to $500 . 00 (2026-10-22)
+- [NTRA] Natera ( NTRA ) Is Expanding Cancer Testing Rapidly . Does Its Valuation Leave Room for Error ? (2026-10-20)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
@@ -373,7 +378,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Polymarket — smart money (traders con mejor track record):**
 
-- monkeymashingkeyboard · PnL $306,128 · win rate 91% · categorias: sports
+- monkeymashingkeyboard · PnL $306,128 · win rate 92% · categorias: sports
 - Mooseborzoiii · PnL $264,920 · win rate 92% · categorias: sports
 - theowalcott · PnL $73,554 · win rate 100% · categorias: sports
 - BreakTheBank · PnL $260,727 · win rate 88% · categorias: sports, politics
