@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-11-01T09:31:38+00:00 -->
+<!-- trader_prompt.md generado 2026-11-01T16:18:39+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-11-01T09:31:38+00:00 · ventana señales 2026-10-02 -> 2026-11-01_
+_Generado 2026-11-01T16:18:39+00:00 · ventana señales 2026-10-02 -> 2026-11-01_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -335,7 +335,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.76 (0.56% / 0.78% / 3.04%) [2026-10-30]
 - GLD: 355.78 (-3.47% / -2.95% / -6.41%) [2026-10-30]
 - ^VIX: 19.42 (12.91% / -0.15% / 26.85%) [2026-10-30]
-- BTC-USD: 77858.62 (0.55% / -3.65% / -4.77%) [2026-11-01]
+- BTC-USD: 77935.36 (0.65% / -3.55% / -4.68%) [2026-11-01]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,13 +350,20 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: merger (1), stock (1), ai (1)
+**Temas dominantes**: stock (4), leadership (2), ai (2), earnings (1), merger (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
+- [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
+- [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
+- [WDC] Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS (2026-10-23)
+- [WDC] NTU Brings Intel , Western Digital CEOs to AI Summit (2026-10-23)
+- [WDC] Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald (2026-10-23)
 - [NTRA] Sumitomo Mitsui DS Asset Management Company Ltd Acquires 1 , 317 Shares of Natera , Inc . $NTRA (2026-10-22)
 - [NTRA] Natera ( NASDAQ : NTRA ) Price Target Raised to $500 . 00 (2026-10-22)
 - [NTRA] Natera ( NTRA ) Is Expanding Cancer Testing Rapidly . Does Its Valuation Leave Room for Error ? (2026-10-20)
+- [CRDO] Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
