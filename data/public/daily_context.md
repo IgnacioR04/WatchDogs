@@ -1,6 +1,6 @@
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-11-02T07:56:34+00:00 · ventana señales 2026-10-03 -> 2026-11-02_
+_Generado 2026-11-02T18:37:09+00:00 · ventana señales 2026-10-03 -> 2026-11-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -9,9 +9,9 @@ Este documento contiene todo lo que necesitas para revisar la cartera. Lee de ar
 ## 1. Regimen de mercado
 
 - **Estado de riesgo**: `neutral`  -> **presupuesto de riesgo recomendado: 60.0%** (exposicion maxima a activos; el resto en cash)
-- Volatilidad: `normal` (VIX 19.42)
-- Tendencia: `neutral` (SPY 755.72 · MA50 766.77 · MA200 725.98 · dist MA200: 4.1%)
-- Credito: `normal` (HY spread 3.26)
+- Volatilidad: `normal` (VIX 19.62)
+- Tendencia: `neutral` (SPY 758.09 · MA50 766.66 · MA200 726.34 · dist MA200: 4.37%)
+- Credito: `normal` (HY spread 3.44)
 - Tipos: `flat` (curva 10y-2y 0.38)
 - Fed Funds: 3.75%
 
@@ -21,35 +21,41 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Peso | Bloque | Precio | Ret 1d | Ret 5d | Ret 20d |
 |--------|-----:|--------|-------:|-------:|-------:|--------:|
-| SPY | 12.0% | core | 755.72 | -1.77% | -0.56% | -1.81% |
-| QQQ | 8.1% | core | 690.49 | -3.47% | -1.97% | -7.88% |
-| TLT | 8.1% | core | 81.84 | 0.43% | 0.61% | 5.63% |
-| GLD | 6.1% | core | 355.78 | -3.47% | -2.95% | -6.41% |
-| VCTR | 5.4% | satellite | 110.62 | -2.8% | 2.81% | -2.31% |
-| SLB | 4.6% | satellite | 53.74 | -0.13% | 1.28% | 10.26% |
-| IEF | 4.0% | core | 91.76 | 0.56% | 0.78% | 3.04% |
-| WRLD | 3.6% | satellite | 164.47 | -6.51% | -1.54% | -5.72% |
-| RAPP | 2.8% | satellite | 25.05 | 3.47% | -3.39% | -22.13% |
-| PENG | 1.9% | satellite | 51.93 | -11.67% | -2.77% | -15.37% |
-| HIMS | 1.9% | satellite | 27.68 | -6.71% | -0.11% | -4.55% |
-| NBIS | 1.5% | satellite | 154.14 | -10.38% | -2.9% | -36.52% |
+| SPY | 12.0% | core | 758.09 | 0.31% | -0.95% | -2.16% |
+| QQQ | 8.1% | core | 690.42 | -0.01% | -3.06% | -8.7% |
+| TLT | 8.1% | core | 81.97 | 0.16% | 0.36% | 6.31% |
+| GLD | 6.1% | core | 362.74 | 1.96% | -1.38% | -4.43% |
+| OCFC | 4.6% | satellite | 18.72 | 4.32% | 13.56% | 11.27% |
+| IEF | 4.0% | core | 91.57 | -0.21% | 0.49% | 2.98% |
+| SLB | 2.9% | satellite | 53.05 | -1.28% | -0.06% | 5.51% |
+| NMRK | 2.6% | satellite | 11.98 | 3.95% | 5.6% | -4.81% |
+| YELP | 2.3% | satellite | 19.72 | 3.3% | 1.44% | 6.59% |
+| EYE | 2.3% | satellite | 17.25 | 3.98% | -3.09% | 4.42% |
+| HUN | 2.0% | satellite | 9.95 | 3.27% | 11.98% | 12.61% |
+| TTD | 1.8% | satellite | 12.77 | 3.87% | -0.03% | 6.56% |
+| RAPP | 1.5% | satellite | 24.42 | -2.51% | -3.59% | -24.14% |
+| PENG | 1.0% | satellite | 49.55 | -4.58% | -9.78% | -18.38% |
+| MFP | 0.8% | satellite | 41.48 | 3.39% | -4.36% | -2.49% |
 
 **Metricas de riesgo de esta cartera:**
 
-- Volatilidad anualizada: 9.5%
-- VaR 95% 1d: 0.9% · CVaR 95% 1d: 1.2%
-- Max drawdown historico: -4.8%
-- Beta vs SPY: 0.649 · posiciones efectivas: 24.5 · HHI: 0.0408
+- Volatilidad anualizada: 6.7%
+- VaR 95% 1d: 0.7% · CVaR 95% 1d: 0.9%
+- Max drawdown historico: -5.1%
+- Beta vs SPY: 0.427 · posiciones efectivas: 26.0 · HHI: 0.0385
 
 **Por que estos satellite (señales WATCHDOG):**
 
 - **RAPP** · score agregado 238.4 · 4 señales · fuentes: corporate_insider
-- **NBIS** · score agregado 161.1 · 3 señales · fuentes: corporate_insider
-- **VCTR** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **PENG** · score agregado 71.8 · 1 señales · fuentes: large_holder
+- **OCFC** · score agregado 149.1 · 2 señales · fuentes: corporate_insider
+- **PENG** · score agregado 142.0 · 2 señales · fuentes: large_holder
+- **YELP** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **TTD** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **HUN** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **NMRK** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **EYE** · score agregado 141.0 · 2 señales · fuentes: large_holder
+- **MFP** · score agregado 141.0 · 2 señales · fuentes: large_holder
 - **SLB** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **HIMS** · score agregado 71.8 · 1 señales · fuentes: large_holder
-- **WRLD** · score agregado 70.2 · 1 señales · fuentes: large_holder
 
 ## 3. Señales de smart money (30d)
 
@@ -57,34 +63,34 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 | Ticker | Score | Fuente | Actor | Cluster | Importe | Flags |
 |--------|------:|--------|-------|--------:|--------:|-------|
-| BBT | 72 | corporate_insider | Callahan Mary Anne | 2 | $96,672 | cluster_buy |
+| OCFC | 75 | corporate_insider | Barrett Patrick Sean | 2 | $89,500 | cluster_buy |
+| OCFC | 74 | corporate_insider | Katsoulis Nicos | 2 | $178,277 | cluster_buy |
+| STKH | 73 | corporate_insider | Kaufman Arik | 2 | $24,000 | cluster_buy,small_amount |
+| STKH | 72 | corporate_insider | Kaufman Arik | 2 | $14,167 | cluster_buy,small_amount |
 | PUSA | 72 | large_holder | Michael Sinensky |  | - | - |
 | SNES | 72 | large_holder | Fakhoury Ranni Emad |  | - | - |
-| VCTR | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | ZM | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | PENG | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | MRCY | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | SLB | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | HAPN | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
 | CNXC | 72 | large_holder | Vanguard Portfolio Manage |  | - | - |
-| HIMS | 72 | large_holder | Vanguard Capital Manageme |  | - | - |
-| LEE | 70 | large_holder | Quint Digital Ltd |  | - | - |
-| IVAI | 70 | large_holder | YA II PN, Ltd. |  | - | - |
-| WIA | 70 | large_holder | KARPUS MANAGEMENT, INC. |  | - | - |
-| XPOF | 70 | large_holder | Fund 1 Investments, LLC |  | - | - |
+| EVGO | 70 | large_holder | EVgo Holdings, LLC |  | - | - |
+| IMUX | 70 | large_holder | Aberdeen Group plc |  | - | - |
+| BEPC | 70 | large_holder | Clearbridge Investments,  |  | - | - |
 
 ### 3b. Ventas (sell signals) — atencion si afectan a posiciones existentes
 
 | Ticker | Score | Fuente | Actor | Importe | Flags |
 |--------|------:|--------|-------|--------:|-------|
+| STNG | 60 | corporate_insider | Lauro Emanuele | $21,793,601 | - |
+| LXP | 58 | corporate_insider | EGLIN T WILSON | $47,729,880 | - |
 | EAT | 58 | corporate_insider | Hochman Kevin | $8,815,200 | - |
+| MS | 58 | corporate_insider | MITSUBISHI UFJ FINANCIAL  | $111,110,952 | - |
 | ROIV | 58 | corporate_insider | Venker Eric | $7,318,000 | - |
 | WRLD | 57 | corporate_insider | Prescott General Partners | $15,000,065 | - |
-| BROS | 57 | corporate_insider | DM Trust Aggregator, LLC | $11,711,076 | - |
-| BROS | 57 | corporate_insider | Boersma Travis | $11,711,076 | - |
-| DAL | 56 | corporate_insider | Bastian Edward H | $4,100,000 | - |
-| MCO | 56 | corporate_insider | West Michael L | $3,328,065 | - |
-| IOT | 56 | corporate_insider | Biswas Sanjit | $3,463,304 | - |
+| STNG | 57 | corporate_insider | Lauro Filippo | $4,631,040 | - |
+| STNG | 57 | corporate_insider | Lauro Filippo | $4,624,565 | - |
 
 > **Cluster** = n de insiders distintos comprando el mismo ticker (señal de conviccion). **Score** = importancia individual de la señal.
 > Los scores AGREGADOS por ticker (suma de todas sus señales) estan en la seccion 2 (satellite rationale). Un ticker con score agregado alto y multiples fuentes distintas tiene mayor conviccion.
@@ -93,15 +99,15 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 **Indices y activos de referencia:**
 
-- SPY: 755.72 (-1.77% / -0.56% / -1.81%) [2026-10-30]
-- QQQ: 690.49 (-3.47% / -1.97% / -7.88%) [2026-10-30]
-- IWM: 279.33 (-1.65% / 1.3% / -0.78%) [2026-10-30]
-- DIA: 517.13 (-1.07% / -0.81% / 1.2%) [2026-10-30]
-- TLT: 81.84 (0.43% / 0.61% / 5.63%) [2026-10-30]
-- IEF: 91.76 (0.56% / 0.78% / 3.04%) [2026-10-30]
-- GLD: 355.78 (-3.47% / -2.95% / -6.41%) [2026-10-30]
-- ^VIX: 19.42 (12.91% / -0.15% / 26.85%) [2026-10-30]
-- BTC-USD: 77998.98 (-0.32% / -4.02% / -6.13%) [2026-11-02]
+- SPY: 758.09 (0.31% / -0.95% / -2.16%) [2026-11-02]
+- QQQ: 690.42 (-0.01% / -3.06% / -8.7%) [2026-11-02]
+- IWM: 280.82 (0.53% / 1.38% / -0.9%) [2026-11-02]
+- DIA: 522.1 (0.96% / -0.17% / 1.97%) [2026-11-02]
+- TLT: 81.97 (0.16% / 0.36% / 6.31%) [2026-11-02]
+- IEF: 91.57 (-0.21% / 0.49% / 2.98%) [2026-11-02]
+- GLD: 362.74 (1.96% / -1.38% / -4.43%) [2026-11-02]
+- ^VIX: 19.62 (1.03% / 6.69% / 26.42%) [2026-11-02]
+- BTC-USD: 76907.19 (-1.71% / -5.37% / -7.45%) [2026-11-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -109,19 +115,17 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - Treasury 10Y yield: 4.98 (delta 1m: -0.28) [2026-10-29]
 - Curva 10Y-2Y: 0.38 (delta 1m: -0.03) [2026-10-30]
 - Fed Funds Rate: 3.75 (delta 1m: -0.73) [2026-09-01]
-- High yield spread (OAS): 3.26 (delta 1m: 0.14) [2026-10-29]
+- High yield spread (OAS): 3.44 (delta 1m: 0.2) [2026-10-30]
 - Tasa de paro: 4.2 (delta 1m: 0.0) [2026-09-01]
 - Breakeven inflacion 10Y: 2.34 (delta 1m: -0.02) [2026-10-30]
 - Dolar broad index: 121.3202 (delta 1m: 1.203) [2026-10-23]
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: leadership (3), stock (3), earnings (1), ai (1), regulatory (1)
+**Temas dominantes**: stock (3), leadership (2), earnings (1), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [IOT] Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey (2026-10-24)
-- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
 - [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
 - [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
 - [WDC] Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS (2026-10-23)
@@ -129,18 +133,17 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - [WDC] Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald (2026-10-23)
 - [IDCC] InterDigital Joseph Levy Elected to the IEEE SA Board of Governors for Second Term (2026-10-22)
 - [IDCC] Reviewing Atlassian ( NASDAQ : TEAM ) and InterDigital ( NASDAQ : IDCC ) (2026-10-20)
-- [CRDO] Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
+- CEO EGLIN T WILSON vendio LXP por $47.7M el 2026-11-02.
+- 10% owner MITSUBISHI UFJ FINANCIAL GROUP INC vendio MS por $111.1M el 2026-10-29.
+- CEO Lauro Emanuele vendio STNG por $21.8M el 2026-10-30.
 - CEO Hochman Kevin vendio EAT por $8.8M el 2026-10-29.
 - 10% owner NIPPON LIFE INSURANCE CO compro CRBG por $8.7M el 2026-10-28.
-- CEO Lyons Michael P. compro TFC por $1.2M el 2026-10-28.
 - Director HEALY JAMES compro RAPP por $20.0M el 2026-10-28.
-- CEO Pferdehirt Douglas J. opero FTI por $25.1M el 2026-10-27.
 - Institutional manager State Street Corp compro MICRON TECHNOLOGY INC por $40.1B.
 - Institutional manager Vanguard Group Inc compro ALPHABET INC por $35.5B.
-- Institutional manager Invesco Ltd compro MICRON TECHNOLOGY INC por $31.4B.
 
 **Polymarket — smart money (traders con mejor track record):**
 
@@ -156,8 +159,8 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 - Estado global: `error`
 - **congress**: `error` · 0 registros 30d · ultimo dato ? — no_valid_tx_dates
-- **sec_insiders**: `ok` · 583 registros 30d · ultimo dato 2026-10-30
-- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-10-30
+- **sec_insiders**: `ok` · 486 registros 30d · ultimo dato 2026-11-02
+- **sec_13d_13g**: `ok` · 250 registros 30d · ultimo dato 2026-11-02
 - **institutional_13f**: `ok` · ? registros 30d · ultimo dato ? — stale_manager_report_date
 - **polymarket**: `ok` · ? registros 30d · ultimo dato ?
 - **Fuentes con problemas**: congress
@@ -170,7 +173,7 @@ Eres un **analista de carteras**, no un asesor financiero. El codigo ya ha const
 
 ### Restricciones DURAS (si las violas, tu propuesta se rechaza entera)
 
-1. **Universo permitido**: tickers de la cartera candidata (`GLD, HIMS, IEF, NBIS, PENG, QQQ, RAPP, SLB, SPY, TLT, VCTR, WRLD`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
+1. **Universo permitido**: tickers de la cartera candidata (`EYE, GLD, HUN, IEF, MFP, NMRK, OCFC, PENG, QQQ, RAPP, SLB, SPY, TLT, TTD, YELP`), de las señales de la seccion 3, o posiciones que ya tengas abiertas (mantener siempre es legal), siempre que tengan datos de precio. No inventes tickers que no aparezcan en este briefing ni en tu cartera.
 2. **Presupuesto de riesgo**: la suma de todos los pesos <= **60.0%** (el resto es cash). Estamos en regimen `neutral`.
 3. **Peso maximo por posicion**: <= **12.0%**.
 4. **Sin apalancamiento y sin cortos**: todos los pesos >= 0, suma <= 1.

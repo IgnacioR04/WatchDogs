@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:56:33+00:00",
+  "generated_at": "2026-11-02T18:37:08+00:00",
   "profile": "moderado",
   "regime_budget": 0.6,
   "total_equity": 0.6001,
@@ -9,14 +9,17 @@
     "QQQ": 0.0808,
     "TLT": 0.0808,
     "GLD": 0.0606,
-    "VCTR": 0.0537,
-    "SLB": 0.046,
+    "OCFC": 0.0459,
     "IEF": 0.0404,
-    "WRLD": 0.0365,
-    "RAPP": 0.0275,
-    "PENG": 0.0194,
-    "HIMS": 0.019,
-    "NBIS": 0.0154
+    "SLB": 0.0285,
+    "NMRK": 0.0256,
+    "YELP": 0.0233,
+    "EYE": 0.0231,
+    "HUN": 0.0202,
+    "TTD": 0.0178,
+    "RAPP": 0.015,
+    "PENG": 0.0099,
+    "MFP": 0.0082
   },
   "core": {
     "SPY": 0.1365,
@@ -26,13 +29,16 @@
     "GLD": 0.0585
   },
   "satellite": {
-    "RAPP": 0.0266,
-    "NBIS": 0.0149,
-    "VCTR": 0.0519,
-    "PENG": 0.0187,
-    "SLB": 0.0444,
-    "HIMS": 0.0183,
-    "WRLD": 0.0352
+    "RAPP": 0.0145,
+    "OCFC": 0.0443,
+    "PENG": 0.0096,
+    "YELP": 0.0225,
+    "TTD": 0.0172,
+    "HUN": 0.0195,
+    "NMRK": 0.0247,
+    "EYE": 0.0223,
+    "MFP": 0.0079,
+    "SLB": 0.0275
   },
   "satellite_rationale": [
     {
@@ -44,28 +50,68 @@
       "n_signals": 4
     },
     {
-      "ticker": "NBIS",
-      "score": 161.1,
+      "ticker": "OCFC",
+      "score": 149.1,
       "sources": [
         "corporate_insider"
       ],
-      "n_signals": 3
-    },
-    {
-      "ticker": "VCTR",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
+      "n_signals": 2
     },
     {
       "ticker": "PENG",
-      "score": 71.8,
+      "score": 142.0,
       "sources": [
         "large_holder"
       ],
-      "n_signals": 1
+      "n_signals": 2
+    },
+    {
+      "ticker": "YELP",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "TTD",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "HUN",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "NMRK",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "EYE",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
+    },
+    {
+      "ticker": "MFP",
+      "score": 141.0,
+      "sources": [
+        "large_holder"
+      ],
+      "n_signals": 2
     },
     {
       "ticker": "SLB",
@@ -74,36 +120,20 @@
         "large_holder"
       ],
       "n_signals": 1
-    },
-    {
-      "ticker": "HIMS",
-      "score": 71.8,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
-    },
-    {
-      "ticker": "WRLD",
-      "score": 70.2,
-      "sources": [
-        "large_holder"
-      ],
-      "n_signals": 1
     }
   ],
   "metrics": {
-    "ann_vol": 0.0949,
-    "var_95_1d": 0.0094,
-    "cvar_95_1d": 0.0124,
-    "max_drawdown": -0.0478,
-    "beta_spy": 0.649,
-    "hhi": 0.0408,
+    "ann_vol": 0.067,
+    "var_95_1d": 0.0071,
+    "cvar_95_1d": 0.0091,
+    "max_drawdown": -0.0509,
+    "beta_spy": 0.427,
+    "hhi": 0.0385,
     "max_position": 0.12,
-    "n_positions": 12,
-    "effective_positions": 24.5,
+    "n_positions": 15,
+    "effective_positions": 26.0,
     "gross_exposure": 0.6001,
-    "days_used": 246
+    "days_used": 88
   },
   "risk_gate": {
     "passed": true,
