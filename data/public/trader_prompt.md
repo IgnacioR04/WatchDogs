@@ -1,4 +1,4 @@
-<!-- trader_prompt.md generado 2026-11-02T00:59:40+00:00 -->
+<!-- trader_prompt.md generado 2026-11-02T07:56:34+00:00 -->
 
 # WATCHDOG — Prompt base del gestor de cartera (paper trading)
 
@@ -234,7 +234,7 @@ Decide sobre ESTA cartera: mantener, vender, reducir, comprar o añadir, respeta
 
 # WATCHDOG — Briefing diario para el LLM
 
-_Generado 2026-11-02T00:59:40+00:00 · ventana señales 2026-10-03 -> 2026-11-02_
+_Generado 2026-11-02T07:56:34+00:00 · ventana señales 2026-10-03 -> 2026-11-02_
 
 Este documento contiene todo lo que necesitas para revisar la cartera. Lee de arriba abajo: regimen -> cartera propuesta -> señales -> mercado -> noticias/mundo -> calidad -> instrucciones. Responde segun la seccion 7.
 
@@ -335,7 +335,7 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 - IEF: 91.76 (0.56% / 0.78% / 3.04%) [2026-10-30]
 - GLD: 355.78 (-3.47% / -2.95% / -6.41%) [2026-10-30]
 - ^VIX: 19.42 (12.91% / -0.15% / 26.85%) [2026-10-30]
-- BTC-USD: 78001.67 (0.73% / -3.47% / -4.6%) [2026-11-02]
+- BTC-USD: 77998.98 (-0.32% / -4.02% / -6.13%) [2026-11-02]
 
 **Macro (valor · cambio 1m):**
 
@@ -350,18 +350,20 @@ Perfil **moderado** · exposicion total **60.0%** · cash **40.0%** · gate **PA
 
 ## 5. Noticias y contexto del mundo (30d)
 
-**Temas dominantes**: stock (5), ai (4), earnings (1), leadership (1)
+**Temas dominantes**: leadership (3), stock (3), earnings (1), ai (1), regulatory (1)
 
 **Titulares recientes (GDELT, tickers con mas señales):**
 
-- [NXPI] 3 , 883 Shares of NXP Semiconductors N . V . $NXPI Bought by Private Wealth Partners LLC (2026-10-24)
-- [NXPI] NXP Semiconductors N . V . $NXPI Shares Newly Purchased by Sterling Capital Management LLC (2026-10-24)
+- [IOT] Nutanix ( NASDAQ : NTNX ) vs . Samsara ( NYSE : IOT ) Critical Survey (2026-10-24)
+- [CRWD] CrowdStrike CEO Says a Wave of Cyber Attacks Are Coming (2026-10-24)
 - [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
 - [WDC] Western Digital Stock Has Fallen 53 % Since June . Id Consider a Small Position After Its Latest Report . (2026-10-24)
 - [WDC] Western Digital ( NASDAQ : WDC ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 53 EPS (2026-10-23)
 - [WDC] NTU Brings Intel , Western Digital CEOs to AI Summit (2026-10-23)
 - [WDC] Western Digital ( NASDAQ : WDC ) Stock Gets Price Target Reduction from Cantor Fitzgerald (2026-10-23)
-- [NXPI] NXP Semiconductors ( NASDAQ : NXPI ) Cut to Hold at Wall Street Zen (2026-10-20)
+- [IDCC] InterDigital Joseph Levy Elected to the IEEE SA Board of Governors for Second Term (2026-10-22)
+- [IDCC] Reviewing Atlassian ( NASDAQ : TEAM ) and InterDigital ( NASDAQ : IDCC ) (2026-10-20)
+- [CRDO] Financial Comparison : Credo Technology Group ( NASDAQ : CRDO ) and IQM Quantum Computers ( NASDAQ : IQMX ) (2026-10-19)
 
 **Actores que han movido ficha este mes (top movimientos):**
 
